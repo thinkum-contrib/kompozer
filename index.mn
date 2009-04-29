@@ -1,0 +1,293 @@
+# this file doesn't have to be translated, but it's required to build an XPI
+  (chrome)/global/brand.dtd                                                                                                                 
+
+# this file is probably obsolete (to be confirmed)
+  (chrome)/global-platform/win/nsWindowsHooks.properties                                                                                    
+
+############################################################################################################################################
+# specific KompoZer strings (except Help content) - some are shared with SeaMonkey Composer                                                #
+#                                                                     editor/ui/chrome/dialogs, editor/ui/chrome/composer                  #
+############################################################################################################################################
+
+  (chrome)/branding/brand.dtd                                         (l10n)/editor/ui/chrome/branding/brand.dtd                            
+  (chrome)/branding/brand.properties                                  (l10n)/editor/ui/chrome/branding/brand.properties                     
+
+  (chrome)/editor/EdAdvancedEdit.dtd                                  (l10n)/editor/ui/chrome/dialogs/EdAdvancedEdit.dtd                    
+  (chrome)/editor/EdColorPicker.dtd                                   (l10n)/editor/ui/chrome/dialogs/EdColorPicker.dtd                     
+  (chrome)/editor/EdConvertToTable.dtd                                (l10n)/editor/ui/chrome/dialogs/EdConvertToTable.dtd                  
+  (chrome)/editor/EdDialogOverlay.dtd                                 (l10n)/editor/ui/chrome/dialogs/EdDialogOverlay.dtd                   
+  (chrome)/editor/EdLinkChecker.dtd                                   (l10n)/editor/ui/chrome/dialogs/EdLinkChecker.dtd                     
+  (chrome)/editor/EdNamedAnchorProperties.dtd                         (l10n)/editor/ui/chrome/dialogs/EdNamedAnchorProperties.dtd           
+  (chrome)/editor/EdPHPorPI.dtd                                       (l10n)/editor/ui/chrome/dialogs/EdPHPorPI.dtd                         
+  (chrome)/editor/EdPHPorPI.properties                                (l10n)/editor/ui/chrome/dialogs/EdPHPorPI.properties                  
+  (chrome)/editor/EditConflict.dtd                                    (l10n)/editor/ui/chrome/dialogs/EditConflict.dtd                      
+  (chrome)/editor/EditorButtonProperties.dtd                          (l10n)/editor/ui/chrome/dialogs/EditorButtonProperties.dtd            
+  (chrome)/editor/EditorColorProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorColorProperties.dtd             
+  (chrome)/editor/EditorFieldSetProperties.dtd                        (l10n)/editor/ui/chrome/dialogs/EditorFieldSetProperties.dtd          
+  (chrome)/editor/EditorFormProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorFormProperties.dtd              
+  (chrome)/editor/EditorHLineProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorHLineProperties.dtd             
+  (chrome)/editor/EditorImageMap.dtd                                  (l10n)/editor/ui/chrome/dialogs/EditorImageMap.dtd                    
+  (chrome)/editor/EditorImageMapHotSpot.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorImageMapHotSpot.dtd             
+  (chrome)/editor/EditorImageProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorImageProperties.dtd             
+  (chrome)/editor/EditorInputProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorInputProperties.dtd             
+  (chrome)/editor/EditorInsertChars.dtd                               (l10n)/editor/ui/chrome/dialogs/EditorInsertChars.dtd                 
+  (chrome)/editor/EditorInsertSource.dtd                              (l10n)/editor/ui/chrome/dialogs/EditorInsertSource.dtd                
+  (chrome)/editor/EditorInsertTOC.dtd                                 (l10n)/editor/ui/chrome/dialogs/EditorInsertTOC.dtd                   
+  (chrome)/editor/EditorInsertTable.dtd                               (l10n)/editor/ui/chrome/dialogs/EditorInsertTable.dtd                 
+  (chrome)/editor/EditorLabelProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorLabelProperties.dtd             
+  (chrome)/editor/EditorLinkProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorLinkProperties.dtd              
+  (chrome)/editor/EditorListProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorListProperties.dtd              
+  (chrome)/editor/EditorPageProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorPageProperties.dtd              
+  (chrome)/editor/EditorPersonalDictionary.dtd                        (l10n)/editor/ui/chrome/dialogs/EditorPersonalDictionary.dtd          
+  (chrome)/editor/EditorPublish.dtd                                   (l10n)/editor/ui/chrome/dialogs/EditorPublish.dtd                     
+  (chrome)/editor/EditorPublishProgress.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorPublishProgress.dtd             
+  (chrome)/editor/EditorReplace.dtd                                   (l10n)/editor/ui/chrome/dialogs/EditorReplace.dtd                     
+  (chrome)/editor/EditorSaveAsCharset.dtd                             (l10n)/editor/ui/chrome/dialogs/EditorSaveAsCharset.dtd               
+  (chrome)/editor/EditorSelectProperties.dtd                          (l10n)/editor/ui/chrome/dialogs/EditorSelectProperties.dtd            
+  (chrome)/editor/EditorSnapToGrid.dtd                                (l10n)/editor/ui/chrome/dialogs/EditorSnapToGrid.dtd                  
+  (chrome)/editor/EditorSpellCheck.dtd                                (l10n)/editor/ui/chrome/dialogs/EditorSpellCheck.dtd                  
+  (chrome)/editor/EditorTableProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorTableProperties.dtd             
+  (chrome)/editor/EditorTextAreaProperties.dtd                        (l10n)/editor/ui/chrome/dialogs/EditorTextAreaProperties.dtd          
+  (chrome)/editor/MarkupCleaner.dtd                                   (l10n)/editor/ui/chrome/dialogs/MarkupCleaner.dtd                     
+  (chrome)/editor/Validator.dtd                                       (l10n)/editor/ui/chrome/dialogs/Validator.dtd                         
+
+  (chrome)/editor/aboutDialog.dtd                                     (l10n)/editor/ui/chrome/composer/aboutDialog.dtd                      
+  (chrome)/editor/confirmInlineSpellChecking.dtd                      (l10n)/editor/ui/chrome/composer/confirmInlineSpellChecking.dtd       
+  (chrome)/editor/confirmInlineSpellChecking.properties               (l10n)/editor/ui/chrome/composer/confirmInlineSpellChecking.properties
+  (chrome)/editor/credits.html                                        (l10n)/editor/ui/chrome/composer/credits.html                         
+  (chrome)/editor/editableArea.dtd                                    (l10n)/editor/ui/chrome/composer/editableArea.dtd                     
+  (chrome)/editor/editor.dtd                                          (l10n)/editor/ui/chrome/composer/editor.dtd                           
+  (chrome)/editor/editor.properties                                   (l10n)/editor/ui/chrome/composer/editor.properties                    
+  (chrome)/editor/editorNavigatorOverlay.dtd                          (l10n)/editor/ui/chrome/composer/editorNavigatorOverlay.dtd           
+  (chrome)/editor/editorOverlay.dtd                                   (l10n)/editor/ui/chrome/composer/editorOverlay.dtd                    
+  (chrome)/editor/editorPrefsOverlay.dtd                              (l10n)/editor/ui/chrome/composer/editorPrefsOverlay.dtd               
+  (chrome)/editor/editorSmileyOverlay.dtd                             (l10n)/editor/ui/chrome/composer/editorSmileyOverlay.dtd              
+  (chrome)/editor/pref-composer.dtd                                   (l10n)/editor/ui/chrome/composer/pref-composer.dtd                    
+  (chrome)/editor/pref-connection.dtd                                 (l10n)/editor/ui/chrome/composer/pref-connection.dtd                  
+  (chrome)/editor/pref-editing.dtd                                    (l10n)/editor/ui/chrome/composer/pref-editing.dtd                     
+  (chrome)/editor/pref-helpers.dtd                                    (l10n)/editor/ui/chrome/composer/pref-helpers.dtd                     
+  (chrome)/editor/pref-publish.dtd                                    (l10n)/editor/ui/chrome/composer/pref-publish.dtd                     
+  (chrome)/editor/pref-toolbars.dtd                                   (l10n)/editor/ui/chrome/composer/pref-toolbars.dtd                    
+  (chrome)/editor/region.properties                                   (l10n)/editor/ui/chrome/composer/region.properties                    
+  (chrome)/editor/tabeditor.dtd                                       (l10n)/editor/ui/chrome/composer/tabeditor.dtd                        
+  (chrome)/editor/tabeditor.properties                                (l10n)/editor/ui/chrome/composer/tabeditor.properties                 
+  (chrome)/editor/utilityOverlay.dtd                                  (l10n)/editor/ui/chrome/composer/utilityOverlay.dtd                   
+
+  (chrome)/editor-region/region.properties                            (l10n)/editor/ui/chrome/region/region.properties                      
+
+  (chrome)/cascades/EdCssProps.dtd                                    (l10n)/editor/ui/chrome/extensions/cascades/EdCssProps.dtd            
+  (chrome)/cascades/ExtractStyles.dtd                                 (l10n)/editor/ui/chrome/extensions/cascades/ExtractStyles.dtd         
+  (chrome)/cascades/cascades.properties                               (l10n)/editor/ui/chrome/extensions/cascades/cascades.properties       
+  (chrome)/cascades/cascadesOverlay.dtd                               (l10n)/editor/ui/chrome/extensions/cascades/cascadesOverlay.dtd       
+  (chrome)/cascades/domExplorer.dtd                                   (l10n)/editor/ui/chrome/extensions/cascades/domExplorer.dtd           
+  (chrome)/cascades/viewSource.dtd                                    (l10n)/editor/ui/chrome/extensions/cascades/viewSource.dtd            
+
+  (chrome)/sitemanager/sitemanager.dtd                                (l10n)/editor/ui/chrome/extensions/sitemanager/sitemanager.dtd        
+  (chrome)/sitemanager/sitemanager.properties                         (l10n)/editor/ui/chrome/extensions/sitemanager/sitemanager.properties 
+
+  (chrome)/tipoftheday/tipoftheday.dtd                                (l10n)/editor/ui/chrome/extensions/tipoftheday/tipoftheday.dtd        
+  (chrome)/tipoftheday/tipoftheday.rdf                                (l10n)/editor/ui/chrome/extensions/tipoftheday/tipoftheday.rdf        
+
+  (chrome)/fireftp/accountManager.dtd                                 
+  (chrome)/fireftp/confirmFile.dtd                                    
+  (chrome)/fireftp/diff.dtd                                           
+  (chrome)/fireftp/fireftp.dtd                                        
+  (chrome)/fireftp/password.dtd                                       
+  (chrome)/fireftp/password2.dtd                                      
+  (chrome)/fireftp/preferences.dtd                                    
+  (chrome)/fireftp/programs.dtd                                       
+  (chrome)/fireftp/properties.dtd                                     
+  (chrome)/fireftp/remoteEdit.dtd                                     
+  (chrome)/fireftp/strings.properties                                 
+
+############################################################################################################################################
+# xpfe/SeaMonkey strings                                                                                                                   #
+#                                                                     suite/chrome/common, suite/chrome/browser                            #
+############################################################################################################################################
+
+  (chrome)/communicator/askViewZoom.dtd                               (l10n)/suite/chrome/common/askViewZoom.dtd                            
+  (chrome)/communicator/contentAreaCommands.dtd                       (l10n)/suite/chrome/common/contentAreaCommands.dtd                    
+  (chrome)/communicator/contentAreaCommands.properties                (l10n)/suite/chrome/common/contentAreaCommands.properties             
+  (chrome)/communicator/openLocation.dtd                              (l10n)/suite/chrome/common/openLocation.dtd                           
+  (chrome)/communicator/openLocation.properties                       (l10n)/suite/chrome/common/openLocation.properties                    
+  (chrome)/communicator/pref/pref-charset.dtd                         (l10n)/suite/chrome/common/pref/pref-charset.dtd                      
+  (chrome)/communicator/pref/pref-fonts.dtd                           (l10n)/suite/chrome/common/pref/pref-fonts.dtd                        
+  (chrome)/communicator/pref/pref-helpers.dtd                         (l10n)/suite/chrome/common/pref/pref-helpers.dtd                      
+  (chrome)/communicator/pref/pref-languages.dtd                       (l10n)/suite/chrome/common/pref/pref-languages.dtd                    
+  (chrome)/communicator/pref/pref-languages.properties                (l10n)/suite/chrome/common/pref/pref-languages.properties             
+  (chrome)/communicator/pref/prefutilities.properties                 (l10n)/suite/chrome/common/pref/prefutilities.properties              
+  (chrome)/communicator/printPreview.dtd                              (l10n)/suite/chrome/common/printPreview.dtd                           
+  (chrome)/communicator/sidebar/local-panels.dtd                      (l10n)/suite/chrome/common/sidebar/local-panels.dtd                   
+  (chrome)/communicator/sidebar/sidebarOverlay.dtd                    (l10n)/suite/chrome/common/sidebar/sidebarOverlay.dtd                 
+  (chrome)/communicator/tasksOverlay.dtd                              (l10n)/suite/chrome/common/tasksOverlay.dtd                           
+  (chrome)/communicator/utilityOverlay.dtd                            (l10n)/suite/chrome/common/utilityOverlay.dtd                         
+  (chrome)/communicator/utilityOverlay.properties                     (l10n)/suite/chrome/common/utilityOverlay.properties                  
+  (chrome)/communicator/viewZoomOverlay.dtd                           (l10n)/suite/chrome/common/viewZoomOverlay.dtd                        
+  (chrome)/communicator/viewZoomOverlay.properties                    (l10n)/suite/chrome/common/viewZoomOverlay.properties                 
+  (chrome)/communicator-platform/unix/pref/platformPrefOverlay.dtd    (l10n)/suite/chrome/common/pref/unix/platformPrefOverlay.dtd          
+  (chrome)/communicator-platform/unix/platformCommunicatorOverlay.dtd (l10n)/suite/chrome/common/unix/platformCommunicatorOverlay.dtd       
+  (chrome)/communicator-platform/win/pref/platformPrefOverlay.dtd     (l10n)/suite/chrome/common/pref/win/platformPrefOverlay.dtd           
+  (chrome)/communicator-platform/win/platformCommunicatorOverlay.dtd  (l10n)/suite/chrome/common/win/platformCommunicatorOverlay.dtd        
+  (chrome)/communicator-platform/mac/pref/platformPrefOverlay.dtd     (l10n)/suite/chrome/common/pref/mac/platformPrefOverlay.dtd           
+  (chrome)/communicator-platform/mac/platformCommunicatorOverlay.dtd  (l10n)/suite/chrome/common/mac/platformCommunicatorOverlay.dtd        
+  (chrome)/communicator-region/region.properties                      (l10n)/suite/chrome/common/region.properties                          
+
+  (chrome)/global/tabbrowser.dtd                                      (l10n)/suite/chrome/browser/tabbrowser.dtd                            
+  (chrome)/global/tabbrowser.properties                               (l10n)/suite/chrome/browser/tabbrowser.properties                     
+  (chrome)/navigator/navigator.properties                             (l10n)/suite/chrome/browser/navigator.properties                      
+  (chrome)/navigator-platform/mac/navigator.properties                (l10n)/suite/chrome/browser/mac/navigator.properties                  
+  (chrome)/navigator-platform/mac/platformNavigationBindings.dtd      (l10n)/suite/chrome/browser/mac/platformNavigationBindings.dtd        
+  (chrome)/navigator-platform/unix/navigator.properties               (l10n)/suite/chrome/browser/unix/navigator.properties                 
+  (chrome)/navigator-platform/unix/platformNavigationBindings.dtd     (l10n)/suite/chrome/browser/unix/platformNavigationBindings.dtd       
+  (chrome)/navigator-platform/win/navigator.properties                (l10n)/suite/chrome/browser/win/platformNavigationBindings.dtd        
+  (chrome)/navigator-platform/win/platformNavigationBindings.dtd      (l10n)/suite/chrome/browser/win/navigator.properties                  
+
+############################################################################################################################################
+# generic Mozilla strings - many of them probably don't need to be translated                                                              #
+#                                                                     dom, netwerk, security, toolkit                                      #
+############################################################################################################################################
+
+  (chrome)/global/appstrings.properties                               (l10n)/dom/chrome/appstrings.properties                               
+  (chrome)/global/charsetTitles.properties                            (l10n)/dom/chrome/charsetTitles.properties                            
+  (chrome)/global/global.dtd                                          (l10n)/dom/chrome/global.dtd                                          
+  (chrome)/global/global-strres.properties                            (l10n)/dom/chrome/global-strres.properties                            
+  (chrome)/global/netError.dtd                                        (l10n)/dom/chrome/netError.dtd                                        
+  (chrome)/global/nsWebBrowserPersist.properties                      (l10n)/dom/chrome/nsWebBrowserPersist.properties                      
+  (chrome)/global/plugins.properties                                  (l10n)/dom/chrome/plugins.properties                                  
+  (chrome)/global/dom/dom.properties                                  (l10n)/dom/chrome/dom/dom.properties                                  
+  (chrome)/global/css.properties                                      (l10n)/dom/chrome/layout/css.properties                               
+  (chrome)/global/layout/HtmlForm.properties                          (l10n)/dom/chrome/layout/HtmlForm.properties                          
+  (chrome)/global/layout/MediaDocument.properties                     (l10n)/dom/chrome/layout/MediaDocument.properties                     
+  (chrome)/global/layout_errors.properties                            (l10n)/dom/chrome/layout/layout_errors.properties                     
+  (chrome)/global/layout/xmlparser.properties                         (l10n)/dom/chrome/layout/xmlparser.properties                         
+  (chrome)/global/printing.properties                                 (l10n)/dom/chrome/layout/printing.properties                          
+  (chrome)/global/xbl.properties                                      (l10n)/dom/chrome/layout/xbl.properties                               
+  (chrome)/global/xul.properties                                      (l10n)/dom/chrome/layout/xul.properties                               
+  (chrome)/global/security/caps.properties                            (l10n)/dom/chrome/security/caps.properties                            
+  (chrome)/global/webservices/security.properties                     (l10n)/dom/chrome/webservices/security.properties                     
+  (chrome)/global/xml/prettyprint.dtd                                 (l10n)/dom/chrome/xml/prettyprint.dtd                                 
+  (chrome)/global/xslt/xslt.properties                                (l10n)/dom/chrome/xslt/xslt.properties                                
+  (chrome)/global-platform/mac/accessible.properties                  (l10n)/dom/chrome/accessibility/mac/accessible.properties             
+  (chrome)/global-platform/unix/accessible.properties                 (l10n)/dom/chrome/accessibility/unix/accessible.properties            
+  (chrome)/global-platform/win/accessible.properties                  (l10n)/dom/chrome/accessibility/win/accessible.properties             
+
+  (chrome)/necko/necko.properties                                     (l10n)/netwerk/necko.properties                                       
+
+  (chrome)/pipnss/security.properties                                 (l10n)/security/manager/chrome/pipnss/security.properties             
+  (chrome)/pipnss/pipnss.properties                                   (l10n)/security/manager/chrome/pipnss/pipnss.properties               
+
+  (chrome)/pippki/PageInfoOverlay.dtd                                 (l10n)/security/manager/chrome/pippki/PageInfoOverlay.dtd             
+  (chrome)/pippki/PrefOverlay.dtd                                     (l10n)/security/manager/chrome/pippki/PrefOverlay.dtd                 
+  (chrome)/pippki/certManager.dtd                                     (l10n)/security/manager/chrome/pippki/certManager.dtd                 
+  (chrome)/pippki/deviceManager.dtd                                   (l10n)/security/manager/chrome/pippki/deviceManager.dtd               
+  (chrome)/pippki/newserver.dtd                                       (l10n)/security/manager/chrome/pippki/newserver.dtd                   
+  (chrome)/pippki/newserver.properties                                (l10n)/security/manager/chrome/pippki/newserver.properties            
+  (chrome)/pippki/pippki.dtd                                          (l10n)/security/manager/chrome/pippki/pippki.dtd                      
+  (chrome)/pippki/pippki.properties                                   (l10n)/security/manager/chrome/pippki/pippki.properties               
+  (chrome)/pippki/pref-masterpass.dtd                                 (l10n)/security/manager/chrome/pippki/pref-masterpass.dtd             
+  (chrome)/pippki/pref-security.dtd                                   (l10n)/security/manager/chrome/pippki/pref-security.dtd               
+  (chrome)/pippki/pref-ssl.dtd                                        (l10n)/security/manager/chrome/pippki/pref-ssl.dtd                    
+  (chrome)/pippki/pref-validation.dtd                                 (l10n)/security/manager/chrome/pippki/pref-validation.dtd             
+
+  (chrome)/autoconfig/autoconfig.properties                           (l10n)/toolkit/chrome/autoconfig/autoconfig.properties                
+ 
+  (chrome)/cookie/cookieAcceptDialog.dtd                              (l10n)/toolkit/chrome/cookie/cookieAcceptDialog.dtd                   
+  (chrome)/cookie/cookieAcceptDialog.properties                       (l10n)/toolkit/chrome/cookie/cookieAcceptDialog.properties            
+  
+  (chrome)/global/accept2locale.properties                            (l10n)/toolkit/chrome/global/accept2locale.properties                 
+  (chrome)/global/charsetOverlay.dtd                                  (l10n)/toolkit/chrome/global/charsetOverlay.dtd                       
+  (chrome)/global/commonDialog.dtd                                    (l10n)/toolkit/chrome/global/commonDialog.dtd                         
+  (chrome)/global/commonDialogs.properties                            (l10n)/toolkit/chrome/global/commonDialogs.properties                 
+  (chrome)/global/config.dtd                                          (l10n)/toolkit/chrome/global/config.dtd                               
+  (chrome)/global/config.properties                                   (l10n)/toolkit/chrome/global/config.properties                        
+  (chrome)/global/console.dtd                                         (l10n)/toolkit/chrome/global/console.dtd                              
+  (chrome)/global/console.properties                                  (l10n)/toolkit/chrome/global/console.properties                       
+  (chrome)/global/contentAreaCommands.properties                      (l10n)/toolkit/chrome/global/contentAreaCommands.properties           
+  (chrome)/global/customizeCharset.dtd                                (l10n)/toolkit/chrome/global/customizeCharset.dtd                     
+  (chrome)/global/customizeToolbar.dtd                                (l10n)/toolkit/chrome/global/customizeToolbar.dtd                     
+  (chrome)/global/customizeToolbar.properties                         (l10n)/toolkit/chrome/global/customizeToolbar.properties              
+  (chrome)/global/dialog.properties                                   (l10n)/toolkit/chrome/global/dialog.properties                        
+  (chrome)/global/dialogOverlay.dtd                                   (l10n)/toolkit/chrome/global/dialogOverlay.dtd                        
+  (chrome)/global/downloadProgress.properties                         (l10n)/toolkit/chrome/global/downloadProgress.properties              
+  (chrome)/global/editMenuOverlay.dtd                                 (l10n)/toolkit/chrome/global/editMenuOverlay.dtd                      
+  (chrome)/global/filepicker.dtd                                      (l10n)/toolkit/chrome/global/filepicker.dtd                           
+  (chrome)/global/filepicker.properties                               (l10n)/toolkit/chrome/global/filepicker.properties                    
+  (chrome)/global/findbar.dtd                                         (l10n)/toolkit/chrome/global/findbar.dtd                              
+  (chrome)/global/findbar.properties                                  (l10n)/toolkit/chrome/global/findbar.properties                       
+  (chrome)/global/finddialog.dtd                                      (l10n)/toolkit/chrome/global/finddialog.dtd                           
+  (chrome)/global/finddialog.properties                               (l10n)/toolkit/chrome/global/finddialog.properties                    
+  (chrome)/global/history/history.properties                          (l10n)/toolkit/chrome/global/history/history.properties               
+  (chrome)/global/intl.css                                            (l10n)/toolkit/chrome/global/intl.css                                 
+  (chrome)/global/intl.properties                                     (l10n)/toolkit/chrome/global/intl.properties                          
+  (chrome)/global/keys.properties                                     (l10n)/toolkit/chrome/global/keys.properties                          
+  (chrome)/global/languageNames.properties                            (l10n)/toolkit/chrome/global/languageNames.properties                 
+  (chrome)/global/license.dtd                                         (l10n)/toolkit/chrome/global/license.dtd                              
+  (chrome)/global/mozilla.dtd                                         (l10n)/toolkit/chrome/global/mozilla.dtd                              
+  (chrome)/global/nsHelperAppDlg.dtd                                  (l10n)/toolkit/chrome/global/nsHelperAppDlg.dtd                       
+  (chrome)/global/nsHelperAppDlg.properties                           (l10n)/toolkit/chrome/global/nsHelperAppDlg.properties                
+  (chrome)/global/nsProgressDialog.dtd                                (l10n)/toolkit/chrome/global/nsProgressDialog.dtd                     
+  (chrome)/global/nsProgressDialog.properties                         (l10n)/toolkit/chrome/global/nsProgressDialog.properties              
+  (chrome)/global/nsTreeSorting.properties                            (l10n)/toolkit/chrome/global/nsTreeSorting.properties                 
+  (chrome)/global/preferences.dtd                                     (l10n)/toolkit/chrome/global/preferences.dtd                          
+  (chrome)/global/printPageSetup.dtd                                  (l10n)/toolkit/chrome/global/printPageSetup.dtd                       
+  (chrome)/global/printPreview.dtd                                    (l10n)/toolkit/chrome/global/printPreview.dtd                         
+  (chrome)/global/printPreviewProgress.dtd                            (l10n)/toolkit/chrome/global/printPreviewProgress.dtd                 
+  (chrome)/global/printProgress.dtd                                   (l10n)/toolkit/chrome/global/printProgress.dtd                        
+  (chrome)/global/printdialog.dtd                                     (l10n)/toolkit/chrome/global/printdialog.dtd                          
+  (chrome)/global/printdialog.properties                              (l10n)/toolkit/chrome/global/printjoboptions.dtd                      
+  (chrome)/global/printjoboptions.dtd                                 (l10n)/toolkit/chrome/global/regionNames.properties                   
+  (chrome)/global/regionNames.properties                              (l10n)/toolkit/chrome/global/regionNames.properties                   
+  (chrome)/global/textcontext.dtd                                     (l10n)/toolkit/chrome/global/textcontext.dtd                          
+  (chrome)/global/tree.dtd                                            (l10n)/toolkit/chrome/global/tree.dtd                                 
+  (chrome)/global/viewSource.dtd                                      (l10n)/toolkit/chrome/global/viewSource.dtd                           
+  (chrome)/global/viewSource.properties                               (l10n)/toolkit/chrome/global/viewSource.properties                    
+  (chrome)/global/wizard.dtd                                          (l10n)/toolkit/chrome/global/wizard.dtd                               
+  (chrome)/global/wizard.properties                                   (l10n)/toolkit/chrome/global/wizard.properties                        
+  (chrome)/global/xpinstall/xpinstall.properties                      (l10n)/toolkit/chrome/global/xpinstall/xpinstall.properties           
+
+  (chrome)/global-platform/mac/intl.properties                        (l10n)/toolkit/chrome/global-platform/mac/intl.properties             
+  (chrome)/global-platform/mac/platformKeys.properties                (l10n)/toolkit/chrome/global-platform/mac/platformKeys.properties     
+  (chrome)/global-platform/unix/intl.properties                       (l10n)/toolkit/chrome/global-platform/unix/intl.properties            
+  (chrome)/global-platform/unix/platformKeys.properties               (l10n)/toolkit/chrome/global-platform/unix/platformKeys.properties    
+  (chrome)/global-platform/win/platformKeys.properties                (l10n)/toolkit/chrome/global-platform/win/platformKeys.properties     
+  (chrome)/global-platform/win/intl.properties                        (l10n)/toolkit/chrome/global-platform/win/intl.properties             
+
+  (chrome)/global-region/builtinURLs.rdf                              (l10n)/toolkit/chrome/global-region/builtinURLs.rdf                   
+  (chrome)/global-region/region.dtd                                   (l10n)/toolkit/chrome/global-region/region.dtd                        
+  (chrome)/global-region/region.properties                            (l10n)/toolkit/chrome/global-region/region.properties                 
+
+  (chrome)/mozapps/downloads/downloads.dtd                            (l10n)/toolkit/chrome/mozapps/downloads/downloads.dtd                 
+  (chrome)/mozapps/downloads/downloads.properties                     (l10n)/toolkit/chrome/mozapps/downloads/downloads.properties          
+  (chrome)/mozapps/downloads/downloadProperties.dtd                   (l10n)/toolkit/chrome/mozapps/downloads/downloadProperties.dtd        
+  (chrome)/mozapps/downloads/unknownContentType.dtd                   (l10n)/toolkit/chrome/mozapps/downloads/unknownContentType.dtd        
+  (chrome)/mozapps/downloads/unknownContentType.properties            (l10n)/toolkit/chrome/mozapps/downloads/unknownContentType.properties 
+  (chrome)/mozapps/extensions/about.dtd                               (l10n)/toolkit/chrome/mozapps/extensions/about.dtd                    
+  (chrome)/mozapps/extensions/extensions.dtd                          (l10n)/toolkit/chrome/mozapps/extensions/extensions.dtd               
+  (chrome)/mozapps/extensions/extensions.properties                   (l10n)/toolkit/chrome/mozapps/extensions/extensions.properties        
+  (chrome)/mozapps/extensions/update.dtd                              (l10n)/toolkit/chrome/mozapps/extensions/update.dtd                   
+  (chrome)/mozapps/extensions/update.properties                       (l10n)/toolkit/chrome/mozapps/extensions/update.properties            
+  (chrome)/mozapps/plugins/plugins.dtd                                (l10n)/toolkit/chrome/mozapps/plugins/plugins.dtd                     
+  (chrome)/mozapps/plugins/plugins.properties                         (l10n)/toolkit/chrome/mozapps/plugins/plugins.properties              
+  (chrome)/mozapps/preferences/changemp.dtd                           (l10n)/toolkit/chrome/mozapps/preferences/changemp.dtd                
+  (chrome)/mozapps/preferences/ocsp.dtd                               (l10n)/toolkit/chrome/mozapps/preferences/ocsp.dtd                    
+  (chrome)/mozapps/preferences/preferences.properties                 (l10n)/toolkit/chrome/mozapps/preferences/preferences.properties      
+  (chrome)/mozapps/preferences/removemp.dtd                           (l10n)/toolkit/chrome/mozapps/preferences/removemp.dtd                
+  (chrome)/mozapps/profile/createProfileWizard.dtd                    (l10n)/toolkit/chrome/mozapps/profile/createProfileWizard.dtd         
+  (chrome)/mozapps/profile/profileSelection.dtd                       (l10n)/toolkit/chrome/mozapps/profile/profileSelection.dtd            
+  (chrome)/mozapps/profile/profileSelection.properties                (l10n)/toolkit/chrome/mozapps/profile/profileSelection.properties     
+  (chrome)/mozapps/update/errors.dtd                                  (l10n)/toolkit/chrome/mozapps/update/errors.dtd                       
+  (chrome)/mozapps/update/history.dtd                                 (l10n)/toolkit/chrome/mozapps/update/history.dtd                      
+  (chrome)/mozapps/update/incompatible.dtd                            (l10n)/toolkit/chrome/mozapps/update/incompatible.dtd                 
+  (chrome)/mozapps/update/updates.dtd                                 (l10n)/toolkit/chrome/mozapps/update/updates.dtd                      
+  (chrome)/mozapps/update/updates.properties                          (l10n)/toolkit/chrome/mozapps/update/updates.properties               
+  (chrome)/mozapps/xpinstall/xpinstallConfirm.dtd                     (l10n)/toolkit/chrome/mozapps/xpinstall/xpinstallConfirm.dtd          
+  (chrome)/mozapps/xpinstall/xpinstallConfirm.properties              (l10n)/toolkit/chrome/mozapps/xpinstall/xpinstallConfirm.properties   
+
+  (chrome)/help/help-toc.rdf                                          (l10n)/toolkit/chrome/mozapps/help/help-toc.rdf                       
+  (chrome)/help/help.dtd                                              (l10n)/toolkit/chrome/mozapps/help/help.dtd                           
+  (chrome)/help/help.properties                                       (l10n)/toolkit/chrome/mozapps/help/help.properties                    
+  (chrome)/help/welcome.xhtml                                         (l10n)/toolkit/chrome/mozapps/help/welcome.xhtml                      
+
+  (chrome)/passwordmgr/passwordmgr.properties                         (l10n)/toolkit/chrome/passwordmgr/passwordmgr.properties              
+  (chrome)/passwordmgr/passwordManager.dtd                            (l10n)/toolkit/chrome/passwordmgr/passwordManager.dtd                 
+
