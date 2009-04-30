@@ -25,39 +25,41 @@ import os
 index_file = "index.mn"
 import_dir = "l10n.CVS/"
 l10n_sep   = "(l10n)"
-debug      = 1
+debug      = 0
 
+# shell access, check the value of "debug"
 def shell(cmd):
 	if debug:
 		print(cmd)
 	else:
 		os.system(cmd)
 
-# import chrome files to the l10n repository
-def l10nCopy(source_dir, dest_dir):
+# copy source to dest and create directory if needed
+def xcopy(source, dest):
+	if os.path.exists(source):
+		# warning: not working on Windows
+		shell("mkdir -p " + dest.rpartition("/")[0])
+		shell("cp -p " + source + " " + dest)
+	else:
+		print("### could not find " + source)
 
+# import relevant files in the Mozilla CVS trunk (= 1.8.1) to the KompoZer l10n repository
+# cvs -d :pserver:anonymous@cvs-mirror.mozilla.org/l10n co l10n
+def l10nCopy(source_dir, dest_dir):
 	infile = open(index_file, "r")
 	for line in infile:
-
 		# ignore line if l10n is not defined
 		if line.find(l10n_sep)>0:
-
 			# get l10n paths
 			tmp       = line.partition(l10n_sep)
 			l10n_file = tmp[2].strip()
-			l10n_dir  = l10n_file.rpartition("/")[0]
 			source    = source_dir + l10n_file
 			dest      = dest_dir   + l10n_file
-			dir       = dest_dir   + l10n_dir
-
 			# copy file to l10n directory
-			if os.path.exists(source):
-				shell("mkdir -p " + dir)
-				shell("cp -p " + source + " " + dest)
-			else:
-				print("### could not find " + source)
+			xcopy(source, dest)
 
 # main: copy all locales from "l10n.CVS" to "l10n"
+# check value of "import_dir" above
 dirList = os.listdir(import_dir)
 for dir in dirList:
 	if dir != "CVS":

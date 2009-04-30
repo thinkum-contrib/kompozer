@@ -1,0 +1,100 @@
+# use this file to import strings from a KompoZer 0.7.x langpack
+# warning:
+#  * some files will be missing
+#  * in existing files, some strings will be missing
+#  * the Mozilla l10n locales are also required
+
+  (chrome)/global/brand.dtd                                           (l10n)/editor/ui/chrome/branding/brand.dtd                            
+  (chrome)/global/brand.properties                                    (l10n)/editor/ui/chrome/branding/brand.properties                     
+
+  (chrome)/editor/EdAdvancedEdit.dtd                                  (l10n)/editor/ui/chrome/dialogs/EdAdvancedEdit.dtd                    
+  (chrome)/editor/EdColorPicker.dtd                                   (l10n)/editor/ui/chrome/dialogs/EdColorPicker.dtd                     
+  (chrome)/editor/EdConvertToTable.dtd                                (l10n)/editor/ui/chrome/dialogs/EdConvertToTable.dtd                  
+  (chrome)/editor/EdDialogOverlay.dtd                                 (l10n)/editor/ui/chrome/dialogs/EdDialogOverlay.dtd                   
+  (chrome)/editor/EdLinkChecker.dtd                                   (l10n)/editor/ui/chrome/dialogs/EdLinkChecker.dtd                     
+  (chrome)/editor/EdNamedAnchorProperties.dtd                         (l10n)/editor/ui/chrome/dialogs/EdNamedAnchorProperties.dtd           
+  (chrome)/editor/EdPHPorPI.dtd                                       (l10n)/editor/ui/chrome/dialogs/EdPHPorPI.dtd                         
+  (chrome)/editor/EdPHPorPI.properties                                (l10n)/editor/ui/chrome/dialogs/EdPHPorPI.properties                  
+  (chrome)/editor/EditConflict.dtd                                    (l10n)/editor/ui/chrome/dialogs/EditConflict.dtd                      
+  (chrome)/editor/EditorButtonProperties.dtd                          (l10n)/editor/ui/chrome/dialogs/EditorButtonProperties.dtd            
+  (chrome)/editor/EditorColorProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorColorProperties.dtd             
+  (chrome)/editor/EditorFieldSetProperties.dtd                        (l10n)/editor/ui/chrome/dialogs/EditorFieldSetProperties.dtd          
+  (chrome)/editor/EditorFormProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorFormProperties.dtd              
+  (chrome)/editor/EditorHLineProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorHLineProperties.dtd             
+  (chrome)/editor/EditorImageMap.dtd                                  (l10n)/editor/ui/chrome/dialogs/EditorImageMap.dtd                    
+  (chrome)/editor/EditorImageMapHotSpot.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorImageMapHotSpot.dtd             
+  (chrome)/editor/EditorImageProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorImageProperties.dtd             
+  (chrome)/editor/EditorInputProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorInputProperties.dtd             
+  (chrome)/editor/EditorInsertChars.dtd                               (l10n)/editor/ui/chrome/dialogs/EditorInsertChars.dtd                 
+  (chrome)/editor/EditorInsertSource.dtd                              (l10n)/editor/ui/chrome/dialogs/EditorInsertSource.dtd                
+  (chrome)/editor/EditorInsertTOC.dtd                                 (l10n)/editor/ui/chrome/dialogs/EditorInsertTOC.dtd                   
+  (chrome)/editor/EditorInsertTable.dtd                               (l10n)/editor/ui/chrome/dialogs/EditorInsertTable.dtd                 
+  (chrome)/editor/EditorLabelProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorLabelProperties.dtd             
+  (chrome)/editor/EditorLinkProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorLinkProperties.dtd              
+  (chrome)/editor/EditorListProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorListProperties.dtd              
+  (chrome)/editor/EditorPageProperties.dtd                            (l10n)/editor/ui/chrome/dialogs/EditorPageProperties.dtd              
+  (chrome)/editor/EditorPersonalDictionary.dtd                        (l10n)/editor/ui/chrome/dialogs/EditorPersonalDictionary.dtd          
+  (chrome)/editor/EditorPublish.dtd                                   (l10n)/editor/ui/chrome/dialogs/EditorPublish.dtd                     
+  (chrome)/editor/EditorPublishProgress.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorPublishProgress.dtd             
+  (chrome)/editor/EditorReplace.dtd                                   (l10n)/editor/ui/chrome/dialogs/EditorReplace.dtd                     
+  (chrome)/editor/EditorSaveAsCharset.dtd                             (l10n)/editor/ui/chrome/dialogs/EditorSaveAsCharset.dtd               
+  (chrome)/editor/EditorSelectProperties.dtd                          (l10n)/editor/ui/chrome/dialogs/EditorSelectProperties.dtd            
+  (chrome)/editor/EditorSnapToGrid.dtd                                (l10n)/editor/ui/chrome/dialogs/EditorSnapToGrid.dtd                  
+  (chrome)/editor/EditorSpellCheck.dtd                                (l10n)/editor/ui/chrome/dialogs/EditorSpellCheck.dtd                  
+  (chrome)/editor/EditorTableProperties.dtd                           (l10n)/editor/ui/chrome/dialogs/EditorTableProperties.dtd             
+  (chrome)/editor/EditorTextAreaProperties.dtd                        (l10n)/editor/ui/chrome/dialogs/EditorTextAreaProperties.dtd          
+  (chrome)/editor/MarkupCleaner.dtd                                   (l10n)/editor/ui/chrome/dialogs/MarkupCleaner.dtd                     
+  (chrome)/editor/Validator.dtd                                       (l10n)/editor/ui/chrome/dialogs/Validator.dtd                         
+
+  (chrome)/editor/aboutDialog.dtd                                     (l10n)/editor/ui/chrome/composer/aboutDialog.dtd                      
+  (chrome)/editor/confirmInlineSpellChecking.dtd                      (l10n)/editor/ui/chrome/composer/confirmInlineSpellChecking.dtd       
+  (chrome)/editor/confirmInlineSpellChecking.properties               (l10n)/editor/ui/chrome/composer/confirmInlineSpellChecking.properties
+  (chrome)/editor/credits.html                                        (l10n)/editor/ui/chrome/composer/credits.html                         
+  (chrome)/editor/editableArea.dtd                                    (l10n)/editor/ui/chrome/composer/editableArea.dtd                     
+  (chrome)/editor/editor.dtd                                          (l10n)/editor/ui/chrome/composer/editor.dtd                           
+  (chrome)/editor/editor.properties                                   (l10n)/editor/ui/chrome/composer/editor.properties                    
+  (chrome)/editor/editorNavigatorOverlay.dtd                          (l10n)/editor/ui/chrome/composer/editorNavigatorOverlay.dtd           
+  (chrome)/editor/editorOverlay.dtd                                   (l10n)/editor/ui/chrome/composer/editorOverlay.dtd                    
+  (chrome)/editor/editorPrefsOverlay.dtd                              (l10n)/editor/ui/chrome/composer/editorPrefsOverlay.dtd               
+  (chrome)/editor/editorSmileyOverlay.dtd                             (l10n)/editor/ui/chrome/composer/editorSmileyOverlay.dtd              
+  (chrome)/editor/pref-composer.dtd                                   (l10n)/editor/ui/chrome/composer/pref-composer.dtd                    
+  (chrome)/editor/pref-connection.dtd                                 (l10n)/editor/ui/chrome/composer/pref-connection.dtd                  
+  (chrome)/editor/pref-editing.dtd                                    (l10n)/editor/ui/chrome/composer/pref-editing.dtd                     
+  (chrome)/editor/pref-publish.dtd                                    (l10n)/editor/ui/chrome/composer/pref-publish.dtd                     
+  (chrome)/editor/pref-toolbars.dtd                                   (l10n)/editor/ui/chrome/composer/pref-toolbars.dtd                    
+  (chrome)/editor/region.properties                                   (l10n)/editor/ui/chrome/composer/region.properties                    
+  (chrome)/editor/tabeditor.dtd                                       (l10n)/editor/ui/chrome/composer/tabeditor.dtd                        
+  (chrome)/editor/tabeditor.properties                                (l10n)/editor/ui/chrome/composer/tabeditor.properties                 
+  (chrome)/editor/utilityOverlay.dtd                                  (l10n)/editor/ui/chrome/composer/utilityOverlay.dtd                   
+
+  (chrome)/editor-region/region.properties                            (l10n)/editor/ui/chrome/region/region.properties                      
+
+  (chrome)/cascades/EdCssProps.dtd                                    (l10n)/editor/ui/chrome/extensions/cascades/EdCssProps.dtd            
+  (chrome)/cascades/ExtractStyles.dtd                                 (l10n)/editor/ui/chrome/extensions/cascades/ExtractStyles.dtd         
+  (chrome)/cascades/cascades.properties                               (l10n)/editor/ui/chrome/extensions/cascades/cascades.properties       
+  (chrome)/cascades/cascadesOverlay.dtd                               (l10n)/editor/ui/chrome/extensions/cascades/cascadesOverlay.dtd       
+
+  (chrome)/editor/sitemanager.dtd                                     (l10n)/editor/ui/chrome/extensions/sitemanager/sitemanager.dtd        
+  (chrome)/editor/sitemanager.properties                              (l10n)/editor/ui/chrome/extensions/sitemanager/sitemanager.properties 
+
+  (chrome)/tipoftheday/tipoftheday.dtd                                (l10n)/editor/ui/chrome/extensions/tipoftheday/tipoftheday.dtd        
+  (chrome)/editor/Nvu-totd-en.rdf                                     (l10n)/editor/ui/chrome/extensions/tipoftheday/tipoftheday.rdf        
+
+  (chrome)/communicator/openLocation.dtd                              (l10n)/suite/chrome/common/openLocation.dtd                           
+  (chrome)/communicator/openLocation.properties                       (l10n)/suite/chrome/common/openLocation.properties                    
+  (chrome)/communicator/tasksOverlay.dtd                              (l10n)/suite/chrome/common/tasksOverlay.dtd                           
+  (chrome)/communicator/pref/pref-charset.dtd                         (l10n)/suite/chrome/common/pref/pref-charset.dtd                      
+  (chrome)/communicator/pref/pref-helpers.dtd                         (l10n)/suite/chrome/common/pref/pref-helpers.dtd                      
+  (chrome)/communicator/pref/pref-languages.dtd                       (l10n)/suite/chrome/common/pref/pref-languages.dtd                    
+  (chrome)/communicator/pref/prefutilities.properties                 (l10n)/suite/chrome/common/pref/prefutilities.properties              
+  (chrome)/communicator/sidebar/local-panels.dtd                      (l10n)/suite/chrome/common/sidebar/local-panels.dtd                   
+  (chrome)/communicator/sidebar/sidebarOverlay.dtd                    (l10n)/suite/chrome/common/sidebar/sidebarOverlay.dtd                 
+
+  (chrome)/navigator/navigator.properties                             (l10n)/suite/chrome/browser/navigator.properties                      
+  (chrome)/navigator-platform/mac/navigator.properties                (l10n)/suite/chrome/browser/mac/navigator.properties                  
+  (chrome)/navigator-platform/mac/platformNavigationBindings.dtd      (l10n)/suite/chrome/browser/mac/platformNavigationBindings.dtd        
+  (chrome)/navigator-platform/unix/navigator.properties               (l10n)/suite/chrome/browser/unix/navigator.properties                 
+  (chrome)/navigator-platform/unix/platformNavigationBindings.dtd     (l10n)/suite/chrome/browser/unix/platformNavigationBindings.dtd       
+  (chrome)/navigator-platform/win/navigator.properties                (l10n)/suite/chrome/browser/win/platformNavigationBindings.dtd        
+  (chrome)/navigator-platform/win/platformNavigationBindings.dtd      (l10n)/suite/chrome/browser/win/navigator.properties                  
+

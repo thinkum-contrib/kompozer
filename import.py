@@ -25,37 +25,38 @@ import sys
 
 chrome_sep = "(chrome)"
 l10n_sep   = "(l10n)"
-debug      = 1
+debug      = 0
 
+# shell access, check the value of "debug"
 def shell(cmd):
 	if debug:
 		print(cmd)
 	else:
 		os.system(cmd)
 
+# copy source to dest and create directory if needed
+def xcopy(source, dest):
+	if os.path.exists(source):
+		# warning: not working on Windows
+		shell("mkdir -p " + dest.rpartition("/")[0])
+		shell("cp -p " + source + " " + dest)
+	else:
+		print("### could not find " + source)
+
 # import chrome files into the l10n repository
 def chrome2l10n(chrome_dir, l10n_dir, index_file):
 	print "importing " + chrome_dir + " to " + l10n_dir + ", following " + index_file
-
 	infile = open(index_file, "r")
 	for line in infile:
-
 		# ignore line if chrome and/or l10n is not defined
 		if line.find(chrome_sep)>0 and line.find(l10n_sep)>0:
-
 			# get chrome and l10n paths
 			tmp    = line.partition(l10n_sep)
 			l10n   = l10n_dir + tmp[2].strip()
-			dir    = l10n.rpartition("/")[0]
 			tmp    = tmp[0].partition(chrome_sep)
 			chrome = chrome_dir + tmp[2].strip()
-
 			# copy chrome file to l10n directory
-			if os.path.exists(chrome):
-				shell("mkdir -p " + dir)
-				shell("cp -p " + chrome + " " + l10n)
-			else:
-				print("### could not find " + chrome)
+			xcopy(chrome, l10n)
 
 # main
 if len(sys.argv) < 3:
