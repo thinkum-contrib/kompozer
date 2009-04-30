@@ -233,7 +233,7 @@
   (chrome)/global/printPreviewProgress.dtd                            (l10n)/toolkit/chrome/global/printPreviewProgress.dtd                 
   (chrome)/global/printProgress.dtd                                   (l10n)/toolkit/chrome/global/printProgress.dtd                        
   (chrome)/global/printdialog.dtd                                     (l10n)/toolkit/chrome/global/printdialog.dtd                          
-  (chrome)/global/printdialog.properties                              (l10n)/toolkit/chrome/global/printdialog.properties                   
+  (chrome)/global/printdialog.properties                              (l10n)/dom/chrome/printdialog.properties                              
   (chrome)/global/printjoboptions.dtd                                 (l10n)/toolkit/chrome/global/printjoboptions.dtd                      
   (chrome)/global/regionNames.properties                              (l10n)/toolkit/chrome/global/regionNames.properties                   
   (chrome)/global/textcontext.dtd                                     (l10n)/toolkit/chrome/global/textcontext.dtd                          
