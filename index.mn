@@ -88,30 +88,30 @@
   (chrome)/tipoftheday/tipoftheday.rdf                                (l10n)/editor/ui/chrome/extensions/tipoftheday/tipoftheday.rdf        
 
   (chrome)/help/help.properties                                       (l10n)/editor/ui/chrome/extensions/help/help.properties
-  (chrome)/help/help.dtd                                              (l10n)/editor/ui/chrome/extensions/help/help.dtd)
-  (chrome)/help/helpMenuOverlay.dtd                                   (l10n)/editor/ui/chrome/extensions/help/helpMenuOverlay.dtd)
-  (chrome)/help/helpOnHelp/glossary.xhtml                             (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/glossary.xhtml)
-  (chrome)/help/helpOnHelp/help-toc.rdf                               (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/help-toc.rdf)
-  (chrome)/help/helpOnHelp/firebird-glossary.rdf                      (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/firebird-glossary.rdf)
-  (chrome)/help/helpOnHelp/welcome.xhtml                              (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/welcome.xhtml)
-  (chrome)/help/helpOnComposer/composer_help.xhtml                    (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/composer_help.xhtml)
-  (chrome)/help/helpOnComposer/page_properties.xhtml                  (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/page_properties.xhtml)
-  (chrome)/help/helpOnComposer/formatting_webpages.xhtml              (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/formatting_webpages.xhtml)
-  (chrome)/help/helpOnComposer/links.xhtml                            (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/links.xhtml)
-  (chrome)/help/helpOnComposer/images.xhtml                           (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/images.xhtml)
-  (chrome)/help/helpOnComposer/tables.xhtml                           (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/tables.xhtml)
-  (chrome)/help/helpOnComposer/css.xhtml                              (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/css.xhtml)
-  (chrome)/help/helpOnComposer/toc.xhtml                              (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/toc.xhtml)
-  (chrome)/help/helpOnComposer/templates.xhtml                        (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/templates.xhtml)
-  (chrome)/help/helpOnComposer/nvu-toc.rdf                            (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/nvu-toc.rdf)
-  (chrome)/help/helpOnComposer/nvu.rdf                                (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/nvu.rdf)
-  (chrome)/help/helpOnComposer/publishing_help.xhtml                  (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/publishing_help.xhtml)
-  (chrome)/help/helpOnComposer/shortcuts.xhtml                        (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/shortcuts.xhtml)
-  (chrome)/help/helpOnComposer/preferences.xhtml                      (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/preferences.xhtml)
-  (chrome)/help/helpOnComposer/nvu-index.rdf                          (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/nvu-index.rdf)
-  (chrome)/help/helpOnComposer/customize.xhtml                        (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/customize.xhtml)
-  (chrome)/help/helpOnComposer/composer_tutorial.xhtml                (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/composer_tutorial.xhtml)
-  (chrome)/help/helpOnComposer/menu_reference.xhtml                   (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/menu_reference.xhtml)
+  (chrome)/help/help.dtd                                              (l10n)/editor/ui/chrome/extensions/help/help.dtd
+  (chrome)/help/helpMenuOverlay.dtd                                   (l10n)/editor/ui/chrome/extensions/help/helpMenuOverlay.dtd
+  (chrome)/help/helpOnHelp/glossary.xhtml                             (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/glossary.xhtml
+  (chrome)/help/helpOnHelp/help-toc.rdf                               (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/help-toc.rdf
+  (chrome)/help/helpOnHelp/firebird-glossary.rdf                      (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/firebird-glossary.rdf
+  (chrome)/help/helpOnHelp/welcome.xhtml                              (l10n)/editor/ui/chrome/extensions/help/helpOnHelp/welcome.xhtml
+  (chrome)/help/helpOnComposer/composer_help.xhtml                    (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/composer_help.xhtml
+  (chrome)/help/helpOnComposer/page_properties.xhtml                  (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/page_properties.xhtml
+  (chrome)/help/helpOnComposer/formatting_webpages.xhtml              (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/formatting_webpages.xhtml
+  (chrome)/help/helpOnComposer/links.xhtml                            (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/links.xhtml
+  (chrome)/help/helpOnComposer/images.xhtml                           (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/images.xhtml
+  (chrome)/help/helpOnComposer/tables.xhtml                           (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/tables.xhtml
+  (chrome)/help/helpOnComposer/css.xhtml                              (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/css.xhtml
+  (chrome)/help/helpOnComposer/toc.xhtml                              (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/toc.xhtml
+  (chrome)/help/helpOnComposer/templates.xhtml                        (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/templates.xhtml
+  (chrome)/help/helpOnComposer/nvu-toc.rdf                            (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/nvu-toc.rdf
+  (chrome)/help/helpOnComposer/nvu.rdf                                (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/nvu.rdf
+  (chrome)/help/helpOnComposer/publishing_help.xhtml                  (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/publishing_help.xhtml
+  (chrome)/help/helpOnComposer/shortcuts.xhtml                        (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/shortcuts.xhtml
+  (chrome)/help/helpOnComposer/preferences.xhtml                      (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/preferences.xhtml
+  (chrome)/help/helpOnComposer/nvu-index.rdf                          (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/nvu-index.rdf
+  (chrome)/help/helpOnComposer/customize.xhtml                        (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/customize.xhtml
+  (chrome)/help/helpOnComposer/composer_tutorial.xhtml                (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/composer_tutorial.xhtml
+  (chrome)/help/helpOnComposer/menu_reference.xhtml                   (l10n)/editor/ui/chrome/extensions/help/helpOnComposer/menu_reference.xhtml
 
   (chrome)/fireftp/accountManager.dtd                                 
   (chrome)/fireftp/confirmFile.dtd                                    
