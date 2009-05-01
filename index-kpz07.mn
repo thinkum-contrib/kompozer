@@ -69,8 +69,8 @@
 
   (chrome)/editor-region/region.properties                            (l10n)/editor/ui/chrome/region/region.properties                      
 
-  (chrome)/help/help.dtd                                              (l10n)/editor.ui/chrome/extensions/help/help.properties)
-  (chrome)/help/help.properties                                       (l10n)/editor.ui/chrome/extensions/help/help.dtd)
+  (chrome)/help/help.dtd                                              (l10n)/editor.ui/chrome/extensions/help/help.dtd)
+  (chrome)/help/help.properties                                       (l10n)/editor.ui/chrome/extensions/help/help.properties)
   (chrome)/help/helpMenuOverlay.dtd                                   (l10n)/editor.ui/chrome/extensions/help/helpMenuOverlay.dtd)
   (chrome)/help/glossary.xhtml                                        (l10n)/editor.ui/chrome/extensions/help/helpOnHelp/glossary.xhtml)
   (chrome)/help/help-toc.rdf                                          (l10n)/editor.ui/chrome/extensions/help/helpOnHelp/help-toc.rdf)
