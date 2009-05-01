@@ -62,7 +62,7 @@ sub readDTD
 
     $contents =~ s/<!--.*?-->//gs; # strip SGML comments
 
-    return $contents =~ /<!ENTITY\s+([\w\.]+)\s+(?:\"[^\"]*\"|\'[^\']*\')\s*>/g;
+    return $contents =~ /<!ENTITY\s+([\w\.|\-]+)\s+(?:\"[^\"]*\"|\'[^\']*\')\s*>/g;
 }
 
 sub compareDTD
