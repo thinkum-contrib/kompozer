@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Cr&eacute;er des pages Web avec &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="help-fr.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Dans cette section&nbsp;:
+  <a href="composer_help.xhtml#starting_a_new_page">Commencer une nouvelle page</a>
+
+  <a href="formatting_webpages.xhtml">Mettre en forme des pages Web</a>
+
+  <a href="css.xhtml">Utiliser des feuilles de style pour vos pages Web</a>
+
+  <a href="tables.xhtml">Ajouter des tableaux &agrave; votre page Web</a>
+
+  <a href="images.xhtml">Ajouter des images &agrave; votre page Web</a>
+
+  <a href="toc.xhtml">Travailler avec une table des mati&egrave;res sur votre page Web</a>
+
+  <a href="templates.xhtml">Travailler avec des mod&egrave;les</a>
+
+  <a href="page_properties.xhtml">D&eacute;finir les propri&eacute;t&eacute;s de la page</a>
+
+  <a href="links.xhtml">Cr&eacute;er des liens dans &brandShortName;</a>
+
+  <a href="customize.xhtml">Personnaliser &brandShortName;</a>
+</div>
+
+<h2 id="adding_pictures_to_your_web_page">Ajouter des images &agrave; votre page Web</h2>
+
+<h3 id="inserting_an_image_into_your_page">Ins&eacute;rer une image &agrave; votre page</h3>
+
+<p>Vous pouvez ins&eacute;rer des images GIF, JPEG, BMP, and PNG (Portable Network Graphics) dans votre page Web. Vous pouvez &eacute;galement les utiliser pour <a href="#using_images_as_links">cr&eacute;er des liens</a>. Quand vous ins&eacute;rer une image, &brandShortName; enregistre une r&eacute;f&eacute;rence &agrave; l'image dans votre page.</p>
+
+<p><strong>Note</strong>&nbsp;: Si vous pr&eacute;voyez de publier vos pages sur le Web, il est pr&eacute;f&eacute;rable de ne pas utiliser d'images BMP pour vos pages.</p>
+
+<p><strong>Conseil</strong>&nbsp;: Il est pr&eacute;f&eacute;rable d'enregistrer ou de publier vos pages avant d'y ins&eacute;rer des images. Ceci permet &agrave; &brandShortName; d'utiliser automatiquement des r&eacute;f&eacute;rences relatives pour les images lorsque vous les ins&eacute;rer.</p>
+
+<p>Pour ins&eacute;rer une image&nbsp;:</p>
+
+<ol>
+  <li>Cliquez pour positionner le curseur &agrave; l'endroit o&ugrave; vous voulez que l'image apparaisse.</li>
+
+  <li>Cliquez sur le bouton <q>Image</q> <img src="images/image.png" width="53" height="61" alt="" /> de la barre d'outils, ou ouvrez le menu <span class="menuPath">Insertion</span> puis choisissez <span class="menuPath">Image&hellip;</span>. Vous verrez alors la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de l'image</q>.</li>
+
+  <li>Tapez l'adresse et le nom du fichier d'image, ou cliquez sur <q>Parcourir&hellip;</q> pour rechercher un fichier d'image sur votre disque dur ou sur le r&eacute;seau.</li>
+
+  <li>Tapez une description succincte de votre image pour le texte alternatif qui appara&icirc;tra &agrave; la place de l'image dans les navigateurs en mode caract&egrave;re (et dans les autres navigateurs aussi) quand une image est charg&eacute;e ou quand l'affichage des images est d&eacute;sacti&eacute;.
+
+  <p>Vous pouvez &eacute;galement choisir de ne pas saisir de texte alternatif.</p>
+  </li>
+
+  <li>Si besoin, cliquez sur les autres onglets pour ajuster les param&egrave;tres (par exemple, l'alignement) dans la bo&icirc;te de dialogue <a href="#editing_image_properties">Propri&eacute;t&eacute;s de l'image</a>.</li> </ol>
+
+<p><strong>Conseil</strong>&nbsp;: Pour ins&eacute;rer rapidement une image&nbsp;: faites un glisser-d&eacute;poser de celle-ci sur votre page.</p>
+
+<p><strong>Conseil</strong>&nbsp;: Pour ins&eacute;rer un saut de ligne sous toutes les images d'un paragraphe, s&eacute;lectionnez <span class="menuPath">Saut de ligne sous les images</span> dans le menu <span class="menuPath">Insertion</span>.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#adding_pictures_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="editing_image_properties">&Eacute;diter les propri&eacute;t&eacute;s de l'image</h3>
+
+<p>Une fois que vous avez ins&eacute;r&eacute; une image dans votre page, vous pouvez &eacute;diter ses propri&eacute;t&eacute;s et personnaliser l'affichage dans votre page, comme la hauteur, la largeur, l'espacement, et l'alignement du texte. Si vous n'&ecirc;tes pas en train de visionner la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de l'image</q>, suivez ces &eacute;tapes&nbsp;:</p>
+
+<p>Pour &eacute;diter les propri&eacute;t&eacute;s d'une image donn&eacute;e&nbsp;:</p>
+
+<ol>
+
+  <li>Double-cliquez sur l'image, ou s&eacute;lectionnez-la et cliquez sur le bouton <q>Image</q> <img src="images/image.png" width="53" height="61" alt="" /> de la barre d'outils pour afficher la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de l'image</q>.</li>
+
+  <li>Cliquez sur l'onglet <q>Emplacement</q> pour &eacute;diter ces propri&eacute;t&eacute;s&nbsp;:
+
+  <ul>
+    <li><strong>Emplacement de l'image</strong>&nbsp;: Tapez le nom et le chemin d'acc&egrave;s au fichier image. Cliquez sur <q>Parcourir...</q> pour rechercher une image sur votre disque dur ou sur le r&eacute;seau.</li>
+    
+    <li><strong>L'URL est relative &agrave; l'adresse de la page</strong>&nbsp;: Si cette option est coch&eacute;e, &brandShortName; convertit l'URL pour qu'elle soit relative &agrave; l'adresse de la page. Ceci est particuli&egrave;rement utile si vous pr&eacute;voyez de publier vos pages sur un serveur Web pour que d'autres personnes puissent les voir. Utiliser des URL relatives vous permet de conserver tous vos fichiers li&eacute;s au m&ecirc;me emplacement relatif les uns par rapport aux autres, sans tenir compte de leur emplacement sur votre disque dur ou sur un serveur Web.
+    <p>Si vous d&eacute;cochez cette option, &brandShortName; convertit l'URL en une URL compl&egrave;te (absolue). On utilise g&eacute;n&eacute;ralement des URL absolues pour lier des images pr&eacute;sentes sur d'autres serveurs Web (pas pour des images stock&eacute;es localement sur votre disque dur).</p>
+    <p>Si vous n'avez pas encore enregistr&eacute; ou publi&eacute; la page, vous devez d'abord l'enregistrer pour activer cette option. (Ce bouton radio n'est pas disponible si vous ouvrez la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de l'image</q> dans une fen&ecirc;tre de composition de message).</p></li>
+
+    <li><strong>Texte alternatif</strong>&nbsp;: Entrez un texte qui sera affich&eacute; &agrave; la place de l'image originale; par exemple, une l&eacute;gende ou une courte description de l'image. C'est une bonne habitude que de sp&eacute;cifier un texte alternatif pour les lecteurs qui utilisent des navigateurs en mode texte ou dont l'affichage des images a &eacute;t&eacute; d&eacute;sactiv&eacute;.</li>
+    
+    <li><strong>Ne pas utiliser de texte alternatif</strong>&nbsp;: Choisissez cette option si l'image ne n&eacute;cessite pas de texte alternatif ou si vous ne voulez pas en inclure.</li>
+    
+  </ul>
+  </li>
+  <li>Cliquez sur l'onglet <q>Dimensions</q> pour &eacute;diter ces propri&eacute;t&eacute;s&nbsp;:
+  <ul>
+    <li><strong>Taille r&eacute;elle</strong>&nbsp;: S&eacute;lectionnez cette option pour annuler tous les changements que vous avez fait concernant les dimensions et pour retrouver la taille originale de l'image.</li>
+    
+    <li><strong>Modifier la taille</strong>&nbsp;: S&eacute;lectionnez cette option et sp&eacute;cifiez la nouvelle hauteur et largeur, en pixels ou en pourcentage de la fen&ecirc;tre. Ce param&egrave;tre n'affecte pas le fichier image original, seulement l'image ins&eacute;r&eacute;e dans votre page.</li>
+    
+    <li><strong>Conserver les proportions</strong>&nbsp;: Si vous changez la taille de l'image, c'est une bonne id&eacute;e que de choisir cette option pour conserver les proportions de l'image (pour qu'elle n'apparaisse pas d&eacute;form&eacute;e). Si vous choisissez cette option, alors vous n'avez besoin de modifier que la hauteur ou la largeur, pas les deux.</li>
+    
+  </ul>
+  </li>
+  <li>Cliquez sur l'onglet <q>Apparence</q> pour &eacute;diter ces propri&eacute;t&eacute;s&nbsp;:
+  <ul>
+    <li><strong>Espacement</strong>&nbsp;: Sp&eacute;cifiez la marge entourant l'image; entre l'image et le texte adjacent. Vous pouvez &eacute;galement mettre une bordure noire autour de l'image et sp&eacute;cifier sa largeur en pixels. Mettez z&eacute;ro pour ne pas avoir de bordure.</li>
+
+    <li><strong>Placement du texte</strong>&nbsp;: Si vous avez plac&eacute; votre image &agrave; c&ocirc;t&eacute; de texte, s&eacute;lectionnez une ic&ocirc;ne d'alignement pour indiquer comment vous voulez que le texte soit plac&eacute; par rapport &agrave; l'image.</li>
+
+    <li><strong>Image Map</strong>&nbsp;: Cliquez sur <q>Supprimer</q> pour supprimer tout param&egrave;tre de d&eacute;coupage de l'image.</li>
+
+  </ul>
+  </li>
+  <li>Cliquez sur l'onglet <q>Lien</q> pour &eacute;diter ces propri&eacute;t&eacute;s&nbsp;:
+  <ul>
+    <li><strong>Entrer l'adresse d'une page Web, d'un fichier local ou s&eacute;lectionner une ancre ou un titre dans cette liste</strong>&nbsp;: Si vous voulez d&eacute;finir un lien pour cette image, entrez l'URL d'une page locale ou distante, s&eacute;lectionnez une ancre ou un titre &agrave; partir de la liste d&eacute;roulante. Cliquez sur <q>Parcourir&hellip;</q> pour chercher un fichier image sur votre disque dur ou sur le r&eacute;seau.</li>
+    
+    <li><strong>L'URL est relative &agrave; l'adresse de la page</strong>&nbsp;: Si cette option est coch&eacute;e, &brandShortName; &brandShortName; convertit l'URL pour qu'elle soit relative &agrave; l'adresse de la page. Ceci est particuli&egrave;rement utile si vous pr&eacute;voyez de publier vos pages sur un serveur Web pour que d'autres personnes puissent les voir. Utiliser des URL relatives vous permet de conserver tous vos fichiers li&eacute;s au m&ecirc;me emplacement relatif les uns par rapport aux autres, sans tenir compte de leur emplacement sur votre disque dur ou sur un serveur Web.
+    <p>Si vous d&eacute;cochez cette option, &brandShortName; convertit l'URL en une URL compl&egrave;te (absolue). On utilise g&eacute;n&eacute;ralement des URL absolues pour lier des images pr&eacute;sentes sur d'autres serveurs Web (pas pour des images stock&eacute;es localement sur votre disque dur).</p>
+    <p>Si vous n'avez pas encore enregistr&eacute; ou publi&eacute; la page, vous devez d'abord l'enregistrer pour activer cette option. (Ce bouton radio n'est pas disponible si vous ouvrez la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de l'image</q> dans une fen&ecirc;tre de composition de message).</p></li>
+
+    <li><strong>Encadrer les images qui portent un lien</strong>&nbsp;: Si cette option est coch&eacute;e, affiche la couleur de surbrillance utilis&eacute;e pour les liens autour de l'image.</li>
+  </ul>
+  </li>
+  
+  <li>Pour appliquer des attributs suppl&eacute;mentaires ou des &eacute;v&eacute;nements JavaScript, cliquez sur <q>&Eacute;dition avanc&eacute;e&hellip;</q> pour afficher l'<a href="#using_the_advanced_property_editor">&Eacute;diteur des propri&eacute;t&eacute;s avanc&eacute;es</a>.</li>
+
+  <li>Cliquez sur <q>OK</q> pour confirmer vos changements.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a href="#adding_pictures_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<p>[&nbsp;<a href="toc.xhtml">Suivant</a>&nbsp;] [&nbsp;<a href="tables.xhtml">Pr&eacute;c&eacute;dent</a>&nbsp;]</p>
+
+  <div class="copyrightBox"><em>20 juin 2005</em></div>
+
+  <p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 23 juin 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>

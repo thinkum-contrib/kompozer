@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Contributor(s):
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>&brandShortName; Preferences</title>
+<link rel="stylesheet" type="text/css" href="help-fr.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">
+
+<a href="#preferences_general_settings">Pr&eacute;f&eacute;rences g&eacute;n&eacute;rales</a>
+
+<a href="#preferences_fonts">Polices</a>
+
+<a href="#preferences_new_page_settings">Param&egrave;tres des nouvelles pages</a>
+
+<a href="#preferences_advanced_settings">Options avanc&eacute;es</a>
+</div>
+
+<h1 id="preferences">Pr&eacute;f&eacute;rences de &brandShortName;</h1>
+
+<p>Des param&egrave;tres importants pour &brandShortName; sont d&eacute;finis dans la fen&ecirc;tre des pr&eacute;f&eacute;rences. Vous pouvez d&eacute;finir vos pr&eacute;f&eacute;rences en fonction de vos besoins, et &brandShortName; les respectera &agrave; chaque fois que vous l'utiliserez.</p>
+
+<p>Cette section d&eacute;crit les param&egrave;tres du panneau de pr&eacute;f&eacute;rences de &brandShortName;. Si vous n'&ecirc;tes pas actuellement dans le panneau des pr&eacute;f&eacute;rences, suivez les &eacute;tapes suivantes&nbsp;:</p>
+
+<ol>
+
+  <li>Ouvrez le menu <span class="menuPath">Outils</span> (menu &brandShortName; sur Mac OS X) et s&eacute;lectionnez <span class="menuPath">Pr&eacute;f&eacute;rences</span>.</li>
+
+  <li>Cliquez sur la cat&eacute;gorie qui vous int&eacute;resse.</li>
+</ol>
+
+<p>Pour plus d'information sur les param&egrave;tres de publication de &brandShortName;, consultez la section <a href="publishing_help.xhtml#publishing_settings">Param&egrave;tres de publication</a>.</p>
+
+<h2 id="preferences_general_settings">Pr&eacute;f&eacute;rences g&eacute;n&eacute;rales</h2>
+
+<p>Les pr&eacute;f&eacute;rences de &brandShortName; vous permettent de sp&eacute;cifier les param&egrave;tres pour l'enregistrement des fichiers et l'&eacute;dition de tableau. Ces param&egrave;tres s'appliquent &agrave; chaque document que vous cr&eacute;ez.</p>
+
+<p>Si vous n'&ecirc;tes pas d&eacute;j&agrave; en train de visionner les pr&eacute;f&eacute;rences de &brandShortName;, suivez les &eacute;tapes suivantes&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Outils</span> (menu &brandShortName; sur Mac OS X) et s&eacute;lectionnez <span class="menuPath">Pr&eacute;f&eacute;rences</span>.</li>
+
+  <li>Cliquez sur la cat&eacute;gorie <q>G&eacute;n&eacute;ral</q>.</li>
+</ol>
+
+<h3 id="preferences_general_settings_recent">Menu des pages r&eacute;centes</h3>
+
+<p><strong>Nombre maximal de pages list&eacute;es</strong>&nbsp;: Sp&eacute;cifie le nombre maximal de pages list&eacute;es dans le sous-menu <span class="menuPath">Pages r&eacute;centes</span> du menu <span class="menuPath">Fichier</span>.</p>
+
+<h3 id="preferences_general_settings_saving_publishing">Lors de l'enregistrement ou de la publication des pages</h3>
+
+<ul>
+
+  <li><strong>Conserver le format source d'origine</strong>&nbsp;: Cette option conserve les sauts de lignes et le formatage original de la page pour le code source HTML. S&eacute;lectionnez ceci si vous voulez conserver les espaces (lignes vides, tabulations, etc.) qui rendent le code source HTML plus lisible. Cette pr&eacute;f&eacute;rence n'affecte pas l'affichage de vos pages dans un navigateur.</li>
+
+  <li><strong>Reformater le source HTML</strong>&nbsp;: Cette option reformate le code source HTML pour le rendre plus lisible mais ins&egrave;re des sauts de lignes et des indentations. Cette pr&eacute;f&eacute;rence n'affecte pas l'affichage de vos pages dans un navigateur.</li>
+
+  <li><strong>Enregistrer les images et les autres fichiers associ&eacute;s</strong>&nbsp;: Si cette option est coch&eacute;e, toutes les images, les fichiers JavaScript (JS), les feuilles de styles en cascades (CSS), et les autres fichiers associ&eacute;s sont enregistr&eacute;s dans un m&ecirc;me emplacement quand le document est enregistr&eacute; la premi&egrave;re fois ou lorsqu'il est enregistr&eacute; dans un nouvel emplacement. Si cette option est d&eacute;coch&eacute;e, seul le fichier HTML est enregistr&eacute;.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+<p>Par exemple, lorsque vous &eacute;ditez une page distante, ce param&egrave;tre permet que tous les fichiers associ&eacute;s avec la page distante soient enregistr&eacute;s localement quand vous enregistrez la page sur votre disque dur.</p></li>
+
+  <li><strong>Toujours afficher la fen&ecirc;tre du gestionnaire lors de la publication des pages</strong>&nbsp;: Si cette option est coch&eacute;e, &brandShortName; affiche toujours la bo&icirc;te de dialogue <q>Publier une page</q> quand vous cliquez sur le bouton <q>Publier</q> ou lorsque vous choisissez <span class="menuPath">Publier</span> dans le menu <span class="menuPath">Fichier</span>. Si cette option n'est pas coch&eacute;e, &brandShortName; n'affiche la bo&icirc;te de dialogue <q>Publier une page</q> que lorsqu'il aura besoin de plus d'informations afin de pouvoir publier la page.</li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_general_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_general_settings_table_editing">&Eacute;dition des tableaux</h3>
+
+<p><strong>Conserver les dimensions du tableau lors de l'insertion ou de la suppression de cellules</strong>&nbsp;: S&eacute;lectionnez ceci si vous voulez que &brandShortName; conserve toujours les dimensions du tableau (c'est-&agrave;-dire, qu'il garde une forme rectangulaire) en ajoutant des cellules o&ugrave; c'est n&eacute;cessaire. Si vous d&eacute;cochez cette option, quand vous supprimerez une ou plusieurs cellules, &brandShortName; supprimera la bordure de la cellule aussi, ce qui peut donner un tableau avec des espaces vides, ou un contour qui appara&icirc;t irr&eacute;gulier &agrave; cause de cellules non appari&eacute;es.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_general_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3
+id="preferences_general_settings_cascading_style_sheets_editing">&Eacute;dition avec des feuilles de styles (CSS)</h3>
+
+<p><strong>Utiliser les styles CSS au lieu des &eacute;l&eacute;ments et attributs HTML</strong>&nbsp;: Active l'utilisation de feuilles de style en cascades (CSS) pour le formatage dans vos documents &brandShortName;. Avec cette option, &brandShortName; g&eacute;n&egrave;re du code HTML 4.01 avec des styles CSS int&eacute;gr&eacute;s pour les &eacute;l&eacute;ments.</p>
+
+<p>Si cette pr&eacute;f&eacute;rence n'est pas activ&eacute;e, &brandShortName; g&eacute;n&egrave;re du code HTML 4.01, mais n'utilise pas les styles CSS.</p>
+
+<p>Compar&eacute; au code HTML, le code HTML avec formatage CSS est plus portable, plus maintenable, et plus compatible quand il est visionn&eacute; avec diff&eacute;rents navigateurs. Si vous activez cette pr&eacute;f&eacute;rence et que vous &eacute;ditez un document cr&eacute;&eacute; sans CSS, &brandShortName; remplace les &eacute;l&eacute;ments &eacute;dit&eacute;s avec des styles CSS.</p>
+
+<p>Si vous activez les styles CSS, vous pouvez choisir une couleur de surlignage pour le texte s&eacute;lectionn&eacute; en utilisant le bouton de couleur de surlignage sur la barre de mise en forme. Vous pouvez &eacute;galement choisir une couleur de fond pour tout &eacute;l&eacute;ment de la page. (Ces fonctionnalit&eacute;s ne sont pas disponibles si cette pr&eacute;f&eacute;rence n'est pas activ&eacute;e.)</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_general_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_general_settings_site_manager">Gestionnaire de sites</h3>
+
+<p><strong>Toujours ouvrir un document dans un nouvel onglet</strong>&nbsp;: S&eacute;lectionnez ceci si vous voulez ouvrir les documents dans de nouveaux onglets quand vous utilisez le gestionnaire de sites. Si cette option est d&eacute;coch&eacute;e, un double-clic sur un nom de fichier dans le gestionnaire de sites ouvrira le fichier dans une nouvelle fen&ecirc;tre.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h2 id="preferences_fonts">Polices</h2>
+
+<!-- The documentation for the Fonts section has been blatantly copied
+     from Firefox Help and then an attempt was made to conform it to
+     Nvu realm. -->
+
+<p>Vous pouvez changer les polices affich&eacute;es par d&eacute;faut dans &brandShortName;.</p>
+
+<h3 id="preferences_fonts_fonts_for">Polices pour l'encodage</h3>
+
+<p>Pour changer les polices par d&eacute;faut&nbsp;:</p>
+<ol>
+  <li>Depuis la liste d&eacute;roulante <q>Polices pour l'encodage</q>, choisissez 
+   un encodage. Par exemple, pour d&eacute;finir les param&egrave;tres de police pour l'encodage 
+   Occidental, choisissez <q>Occidental</q>.</li>
+  <li>S&eacute;lectionnez &eacute;galement la police proportionnelle pour le texte, qui devrait 
+   &ecirc;tre de type s&eacute;rif (par exemple <q>Times New Roman</q>) ou
+    sans s&eacute;rif (par exemple <q>Arial</q>). Ensuite, sp&eacute;cifiez 
+    la taille que vous souhaitez pour la police proportionnelle.</li>
+  <li>Sp&eacute;cifiez la police que vous souhaitez utiliser pour les polices s&eacute;rif, sans 
+   s&eacute;rif, cursives, fantaisies et &agrave; largeur fixe. Vous pouvez
+   &eacute;galement changer la taille des caract&egrave;res pour les polices &agrave; <q>largeur fixe</q>.</li>
+</ol>
+  
+<p>Finalement, vous pouvez sp&eacute;cifier la taille minimale autoris&eacute;e. Ceci peut 
+ &ecirc;tre tr&egrave;s utile sur les sites qui utilisent de tr&egrave;s petites polices &agrave; 
+ peine lisibles.</p>
+
+<p>Vous pouvez aussi sp&eacute;cifier la r&eacute;solution d'affichage, qui est normalement 
+ de 96&nbsp;dpi.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h2 id="preferences_new_page_settings">Param&egrave;tres des nouvelles pages</h2>
+
+<p>Les param&egrave;tres de pages vous permettent de sp&eacute;cifier les couleurs et les images de fond qui s'appliquent &agrave; chaque document que vous cr&eacute;ez.</p>
+
+<p>Si vous n'&ecirc;tes pas d&eacute;j&agrave; en train de visionner les param&egrave;tres de pages, suivez ces &eacute;tapes&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Outils</span> (menu &brandShortName; sur Mac OS X) et s&eacute;lectionnez <span class="menuPath">Pr&eacute;f&eacute;rences</span>.</li>
+
+  <li>Cliquez sur la cat&eacute;gorie <q>Param&eacute;tres de pages</q>.</li>
+</ol>
+
+<h3 id="preferences_new_page_settings_author">Auteur</h3>
+
+<p>Entrez votre nom. Ceci ajoutera votre nom au code source HTML pour chaque nouvelle page que vous cr&eacute;ez. Votre nom sera ajout&eacute; &agrave; la section &lt;head&gt; de votre page Web et ne sera pas visible sur la page.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_new_page_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_new_page_settings_markup">Balisage</h3>
+
+<ul>
+
+  <li><strong>Langage</strong>&nbsp;: Vous pouvez choisir le langage utilis&eacute; par d&eacute;faut &agrave; la cr&eacute;ation d'un nouveau document. Vous avez le choix entre le <acronym title="Hyper Text Document Language">HTML</acronym>4.0 ou le <acronym title="Xtensible Hyper Text Language">XHTML</acronym>1.0.</li>
+
+  <li><strong>DTD</strong>&nbsp;: Vous pouvez choisir la d&eacute;finition de type de document (<acronym title="Document Type Definition">DTD</acronym>) &agrave; utiliser &agrave; la cr&eacute;ation d'un nouveau document. Vous avez le choix entre une d&eacute;finition <q>de transition</q> ou <q>stricte</q>.</li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_new_page_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_new_page_settings_default_page_appearance">Apparence par d&eacute;faut des pages</h3>
+
+<ul>
+
+  <li><strong>Couleurs par d&eacute;faut (celles du navigateur)</strong>&nbsp;: S&eacute;lectionnez ceci si vous voulez que vos pages utilisent les param&egrave;tres de couleurs du navigateur du lecteur pour le texte et les liens.</li>
+
+  <li><strong>Utiliser des couleurs personnalis&eacute;es</strong>&nbsp;: S&eacute;lectionnez ceci si vous voulez toujours sp&eacute;cifier les couleurs &agrave; appliquer au texte et aux liens. Puis, pour chaque &eacute;l&eacute;ment, choisissez une couleur en cliquant sur le bouton de couleur situ&eacute; &agrave; c&ocirc;t&eacute; de chaque &eacute;l&eacute;ment.</li>
+
+  <li><strong>Image de fond</strong>&nbsp;: Tapez l'emplacement et le nom du fichier image, ou cliquez sur <q>Parcourir&hellip;</q> pour le rechercher sur votre disque dur ou sur le r&eacute;seau.
+
+  <p><strong>Note</strong>&nbsp;: Les images de fond sont empil&eacute;es et masquent la couleur de fond.</p> </li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+    <p>Pour changer le nom de l'auteur sur une page individuellement&nbsp;: Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Titre et propri&eacute;t&eacute;s de la page&hellip;</span>.</p>
+
+    <p>Pour changer les couleurs et l'image de fond sur une page individuellement&nbsp;: Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Couleurs et fond de page&hellip;</span>.</p></li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_new_page_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3
+id="preferences_new_page_settings_internationalization">Internationalisation</h3>
+
+<ul>
+
+  <li><strong>Langue</strong>&nbsp;: Choisissez la langue dans laquelle le document html est suppos&eacute; &ecirc;tre &eacute;crit.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+  list-style-image: none;">
+<p>Par exemple, si le document est &eacute;crit en fran&ccedil;ais canadien, s&eacute;lectionner <q>French/Canada[fr-ca]</q> indiquera au navigateur que le document est &eacute;crit en fran&ccedil;ais canadien. Et le code source html contiendra <tt>&lt;html lang="fr-ca"&gt;</tt> comme indicateur de langue du document.</p></li>
+
+  <li><strong>Sens d'&eacute;criture</strong>&nbsp;: Choisissez le sens d'&eacute;criture du texte en fonction de la langue que vous utilisez dans le document. Ceci r&eacute;sout les probl&egrave;mes des utilisateurs qui cr&eacute;ent des pages html dans des langues dont le sens d'&eacute;criture va de droite &agrave; gauche comme par exemple, l'arabe, l'urdu, etc.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+    <p>Pour changer la sp&eacute;cification de langue pour une page individuellement&nbsp;: Ouvrez le menu <span class="menuPath">Format</span>, choisissez <span class="menuPath">Titre et propri&eacute;t&eacute;s de la page&hellip;</span> et changez la langue dans la section <q>Internationalisation</q>.</p>
+
+    <p>Pour changer le sens d'&eacute;criture pour une page individuellement&nbsp;: Ouvrez le menu <span class="menuPath">Format</span>, choisissez <span class="menuPath">Titre et propri&eacute;t&eacute;s de la page&hellip;</span> et changez le sens d'&eacute;criture dans la section <q>Internationnalisation</q>.</p></li>
+
+  <li><strong>Encodage</strong>&nbsp;: L'encodage d&eacute;termine comment les octets repr&eacute;sentant votre document <acronym title="Hyper Text
+  Markup Language">HTML</acronym> sont traduits en caract&egrave;res lisibles. Avec cette option vous pouvez choisir l'encodage que vous voulez utiliser pour votre page Web. Par d&eacute;faut, l'encodage <em>ISO-8859-1</em> est utilis&eacute;, mais vous pouvez utiliser un autre choix, par exemple <em>UTF-8</em> ou <em>ISO-8859-15</em>.</li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h2 id="preferences_advanced_settings">Options avanc&eacute;es</h2>
+
+<h3
+ id="preferences_advanced_settings_connection">Connexion</h3>
+
+<p>Cette section d&eacute;crit comment utiliser le panneau des pr&eacute;f&eacute;rences de proxies. Si vous n&ecirc;tes pas d&eacute;j&agrave; en train de le visionner, suivez ces &eacute;tapes&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Outils</span> (menu &brandShortName; sur Mac OS X) et s&eacute;lectionnez <span class="menuPath">Pr&eacute;f&eacute;rences</span>.</li>
+
+  <li>Cliquez sur la cat&eacute;gorie <q>Avanc&eacute;es&hellip;</q>, puis sur le bouton <q>Param&egrave;tres&hellip;</q> dans la sous-rubrique <q>Connexion</q>.</li>
+</ol>
+
+<p>Le panneau des pr&eacute;f&eacute;rences de proxies vous permet de d&eacute;finir que &brandShortName; utilise un proxy&nbsp;:</p>
+
+<p><strong>Avant de commencer&nbsp;:</strong> Demandez &agrave; votre administrateur r&eacute;seau s'il y a un fichier de configuration de proxy ou les num&eacute;ros de port du proxy.</p>
+
+<ul>
+
+  <li><strong>Connexion directe &agrave; Internet</strong>&nbsp;: Choisissez ceci si vous ne voulez pas utilisez de proxy.</li>
+
+  <li><strong>Configuration manuelle du proxy</strong>&nbsp;: Choisissez ceci si vous n'avez pas de fichier de configuration de proxy (URL).
+  <ul>
+
+    <li><strong>Proxy HTTP</strong>, <strong>Proxy SSL</strong>,
+    <strong>Proxy FTP, Proxy Gopher</strong>&nbsp;: Tapez le nom ou l'adresse IP du serveur proxy. Tapez le num&eacute;ro de port dans le champ <q>Port</q>.</li>
+
+    <li><strong>H&ocirc;te SOCKS</strong>&nbsp;: Tapez le nom ou l'adresse IP du server proxy. Tapez le num&eacute;ro de port dans le champ <q>Port</q>.
+    <ul>
+
+      <li><strong>SOCKS v4, SOCKS v5</strong>&nbsp;: Quand vous entrez un h&ocirc;te SOCKS, s&eacute;lectionnez <q>SOCKS v4</q> ou <q>SOCKS v5</q> en fonction de la version de SOCKS utilis&eacute;e par votre proxy.</li>
+    </ul>
+    </li>
+
+    <li><strong>Pas de proxy pour</strong>&nbsp;: Tapez les domaines et/ou les adresses IP pour lesquelles vous ne voulez pas utiliser de proxy. S&eacute;parez chaque entr&eacute;e par une virgule. (Exemple&nbsp;: .yourcompany.com, .yourcompany.co.nz, 192.168.1.0/24)</li>
+  </ul>
+  </li>
+
+  <li><strong>URL de configuration automatique du proxy</strong>&nbsp;: Choisissez ceci si vous avez un fichier de configuration ou une URL, puis tapez l'URL de configuration.</li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_advanced_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_advanced_settings_return_key_behaviour">Comportement de la touche Entr&eacute;e</h3>
+
+<p>L'option <q>cr&eacute;e automatiquement un nouveau paragraphe</q> d&eacute;finit le comportement de la touche <kbd>Entr&eacute;e</kbd>. En choisissant ceci, cela cr&eacute;e un nouveau paragraphe si on appuie sur la touche <kbd>Entr&eacute;e</kbd>. Sans cette option, des balises &lt;br&gt; sont ajout&eacute;es pour des retours chariots.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_advanced_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_advanced_settings_spellcheck">Correction orthographique en temps r&eacute;el</h3>
+
+<p>Cocher l'option <q>Souligner les mots mal orthographi&eacute;s</q> activera la v&eacute;rification orthographique en <strong>temps r&eacute;el</strong> int&eacute;gr&eacute;e &agrave; &brandShortName; pour souligner les mots mal orthographi&eacute;s, donnant par cons&eacute;quent une indication visuelle &agrave; l'utilisateur pour rev&eacute;rifier l'orthographe.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences_advanced_settings">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="preferences_advanced_settings_special_characters">Caract&egrave;res sp&eacute;ciaux</h3>
+
+<p>Cette option permet &agrave; l'utilisateur de choisir quels caract&egrave;res sp&eacute;ciaux seront cod&eacute;s en entit&eacute;s par &brandShortName;. Choisissez l'une des options suivantes&nbsp;:</p>
+
+<ul><li>Uniquement &amp; &lt; &gt; &apos; et les espaces ins&eacute;cables</li>
+
+<li>Les lettres ci-dessus et Latin-1</li>
+
+<li>Tout caract&egrave;re ayant une entit&eacute; &eacute;quivalente dans la sp&eacute;cification HTML 4</li>
+
+<li>Utiliser la notation &amp;#..; pour tout caract&egrave;re non-ASCII</li>
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#preferences">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<div class="copyrightBox"><em>29 March 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 31 mars 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>

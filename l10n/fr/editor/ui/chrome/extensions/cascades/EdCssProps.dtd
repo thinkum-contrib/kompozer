@@ -1,0 +1,284 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title                       "Feuilles de style CSS">
+
+<!ENTITY sheetsTreeColumn.label             "Feuilles et règles">
+<!ENTITY expertModeChecbox.label            "Mode Expert">
+<!ENTITY importRuleButton.label             "@import">
+<!ENTITY mediaRuleButton.label              "@media">
+<!ENTITY linkedSheetButton.label            "Feuille liée">
+<!ENTITY styleSheetButton.label             "Feuille incorporée">
+<!ENTITY ruleButton.label                   "Règle">
+<!ENTITY upButton.label                     "Monter">
+<!ENTITY downButton.label                   "Descendre">
+<!ENTITY refreshButton.label                "Recharger">
+<!ENTITY removeButton.label                 "Supprimer">
+<!ENTITY sheetInfoTab.label                 "Général">
+<!ENTITY textTab.label                      "Texte">
+<!ENTITY borderTab.label                    "Bordures">
+<!ENTITY marginsTab.label                   "Marges">
+<!ENTITY boxTab.label                       "Boîte">
+<!ENTITY auralTab.label                     "Audio">
+<!ENTITY fontFamily.label                   "Famille de police :">
+<!ENTITY inheritedFontFamily.label          "Héritée">
+<!ENTITY useCustomFontFamily.label          "Personnaliser les polices utilisées :">
+<!ENTITY fontData.label                     "Données de Police">
+<!ENTITY exampleSentence.label              "Portez ce vieux whisky au juge blond qui fume.">
+<!ENTITY backgroundTab.label                "Fond">
+
+<!ENTITY unspecifiedValue.label             "Non défini(e)">
+<!ENTITY predefFontFamilyRadio.label        "Prédéfinie :">
+<!ENTITY fontSize.label                     "Taille de la police :">
+<!ENTITY lineHeight.label                   "Hauteur de ligne :">
+<!ENTITY normalLineHeight.label             "Normale">
+<!ENTITY color.label                        "Couleur :">
+<!ENTITY fontWeight.label                   "Épaisseur :">
+<!ENTITY normalValue.label                  "Normale">
+<!ENTITY boldValue.label                    "Gras">
+<!ENTITY bolderValue.label                  "Plus gras">
+<!ENTITY lighterValue.label                 "Plus fin">
+<!ENTITY inheritedValue.label               "Héritée">
+<!ENTITY fontStyle.label                    "Style :">
+<!ENTITY italicValue.label                  "Italique">
+<!ENTITY obliqueValue.label                 "Oblique">
+<!ENTITY textTransform.label                "Casse du texte :">
+<!ENTITY noneTextTransformValue.label       "Ne pas changer">
+<!ENTITY lowercaseValue.label               "Minuscule">
+<!ENTITY uppercaseValue.label               "Majuscule">
+<!ENTITY capitalizeValue.label              "1ere lettre en majuscule">
+
+<!ENTITY closeButton.label                  "Fermer">
+
+<!ENTITY largerFontSize.label               "Plus grande">
+<!ENTITY smallerFontSize.label              "Plus petite">
+<!ENTITY xxsmallFontSize.label              "Extra-petite">
+<!ENTITY xsmallFontSize.label               "Très petite">
+<!ENTITY smallFontSize.label                "Petite">
+<!ENTITY mediumFontSize.label               "Moyenne">
+<!ENTITY largeFontSize.label                "Grande">
+<!ENTITY xlargeFontSize.label               "Très grande">
+<!ENTITY xxlargeFontSize.label              "Extra-grande">
+
+<!ENTITY textAlign.label                    "Alignement :">
+<!ENTITY rightTextAlign.label               "Droite">
+<!ENTITY leftTextAlign.label                "Gauche">
+<!ENTITY centerTextAlign.label              "Centré">
+<!ENTITY justifyTextAlign.label             "Justifié">
+
+<!ENTITY textDecoration.label               "Décoration du Texte:">
+<!ENTITY overlineTextDecoration.label       "Ligne au dessus">
+<!ENTITY underlineTextDecoration.label      "Souligné">
+<!ENTITY linethroughTextDecoration.label    "Barré">
+<!ENTITY blinkTextDecoration.label          "Clignotant">
+<!ENTITY noneTextDecoration.label           "Normal">
+
+<!ENTITY backgroundColor.label              "Couleur :">
+<!ENTITY backgroundImage.label              "Image :">
+<!ENTITY chooseFileButton.label             "Parcourir">
+<!ENTITY backgroundRepeat.label             "Répétition :">
+<!ENTITY norepeatBackgroundRepeat.label     "Pas de répétition">
+<!ENTITY repeatxBackgroundRepeat.label      "Horizontalement">
+<!ENTITY repeatyBackgroundRepeat.label      "Verticalement">
+<!ENTITY repeatBackgroundRepeat.label       "Horizontalement et verticalement">
+<!ENTITY backgroundPosition.label           "Position :">
+<!ENTITY leftXBackgroundPosition.label      "Gauche">
+<!ENTITY centerXBackgroundPosition.label    "Centrer">
+<!ENTITY rightXBackgroundPosition.label     "Droite">
+<!ENTITY topYBackgroundPosition.label       "Haut">
+<!ENTITY centerYBackgroundPosition.label    "Centrer">
+<!ENTITY bottomYBackgroundPosition.label    "Bas">
+<!ENTITY backgroundAttachmentCheckbox.label "L'image défile avec la page">
+
+
+<!ENTITY useBorderShorthand.label           "Utiliser le même style pour tous">
+<!ENTITY borderStyle.label                  "Style :">
+<!ENTITY borderWidth.label                  "Épaisseur :">
+<!ENTITY borderColor.label                  "Couleur :">
+<!ENTITY topBorder.label                    "Haut :">
+<!ENTITY leftBorder.label                   "Gauche :">
+<!ENTITY rightBorder.label                  "Droite :">
+<!ENTITY bottomBorder.label                 "Bas :">
+<!ENTITY borderPreview.label                "Aperçu">
+<!ENTITY noneBorderStyle.label              "Aucun">
+<!ENTITY hiddenBorderStyle.label            "Caché">
+<!ENTITY solidBorderStyle.label             "Plein">
+<!ENTITY dottedBorderStyle.label            "Pointillé">
+<!ENTITY dashedBorderStyle.label            "Tiret">
+<!ENTITY doubleBorderStyle.label            "Double">
+<!ENTITY grooveBorderStyle.label            "Cannelure">
+<!ENTITY ridgeBorderStyle.label             "Arête">
+<!ENTITY insetBorderStyle.label             "Encart">
+<!ENTITY outsetBorderStyle.label            "En relief">
+
+<!ENTITY display.label                      "Affichage :">
+<!ENTITY noneDisplay.label                  "Aucun">
+<!ENTITY inlineDisplay.label                "En ligne">
+<!ENTITY blockDisplay.label                 "Bloc">
+<!ENTITY runinDisplay.label                 "En enfilade">
+<!ENTITY compactDisplay.label               "Compact">
+<!ENTITY listitemDisplay.label              "Élément de liste">
+<!ENTITY tableDisplay.label                 "Tableau">
+<!ENTITY tablerowDisplay.label              "Tableau-ligne">
+<!ENTITY tablecellDisplay.label             "Tableau-cellule">
+<!ENTITY tablecaptionDisplay.label          "Tableau-légende">
+<!ENTITY inlinetableDisplay.label           "En ligne-tableau">
+<!ENTITY tablecolumnDisplay.label           "Tableau-colonnes">
+<!ENTITY tablerowgroupDisplay.label         "Tableau-lignes-groupe">
+<!ENTITY tableheadergroupDisplay.label      "Tableau-en-têtes-groupe">
+<!ENTITY tablefootergroupDisplay.label      "Tableau-pieds de page-groupe">
+<!ENTITY tablecolumngroupDisplay.label      "Tableau-colonnes-groupe">
+
+<!ENTITY visibility.label                   "Visibilité :">
+<!ENTITY visibleVisibility.label            "Visible">
+<!ENTITY hiddenVisibility.label             "Caché">
+<!ENTITY collapseVisibility.label           "Recouvrement">
+
+<!ENTITY float.label                        "Flottante :">
+<!ENTITY leftFloat.label                    "Gauche">
+<!ENTITY rightFloat.label                   "Droite">
+<!ENTITY noneFloat.label                    "Aucune">
+
+<!ENTITY clear.label                        "Dégagement :">
+<!ENTITY noneClear.label                    "Aucune">
+<!ENTITY leftClear.label                    "Gauche">
+<!ENTITY rightClear.label                   "Droite">
+<!ENTITY bothClear.label                    "Les deux">
+
+
+<!ENTITY position.label                     "Position :">
+<!ENTITY staticPosition.label               "Statique">
+<!ENTITY fixedPosition.label                "Fixe">
+<!ENTITY absolutePosition.label             "Absolue">
+<!ENTITY relativePosition.label             "Relative">
+
+<!ENTITY overflow.label                     "Débordement :">
+<!ENTITY visibleOverflow.label              "Visible">
+<!ENTITY hiddenOverflow.label               "Masquer">
+<!ENTITY scrollOverflow.label               "Défiler">
+<!ENTITY autoOverflow.label                 "Auto">
+
+<!ENTITY zIndex.label                       "Index Z :">
+
+<!ENTITY width.label                        "Largeur :">
+<!ENTITY minWidth.label                     "Minimale :">
+<!ENTITY maxWidth.label                     "Maximale :">
+<!ENTITY height.label                       "Hauteur :">
+<!ENTITY minHeight.label                    "Minimale :">
+<!ENTITY maxHeight.label                    "Maximale :">
+
+<!ENTITY margins.label                      "Marges :">
+<!ENTITY paddings.label                     "Espacements :">
+<!ENTITY offsets.label                      "Décalages :">
+<!ENTITY top.label                          "Haut :">
+<!ENTITY left.label                         "Gauche :">
+<!ENTITY right.label                        "Droit :">
+<!ENTITY bottom.label                       "Bas :">
+
+<!ENTITY volume.label                       "Volume :">
+<!ENTITY xsoftVolume.label                  "Très doux">
+<!ENTITY softVolume.label                   "Doux">
+<!ENTITY mediumVolume.label                 "Moyen">
+<!ENTITY loudVolume.label                   "Fort">
+<!ENTITY xloudVolume.label                  "Très fort">
+<!ENTITY muteVolume.label                   "Muet">
+
+<!ENTITY speak.label                        "Prononciation :">
+<!ENTITY noneSpeak.label                    "Aucune">
+<!ENTITY normalSpeak.label                  "Prononciation normale">
+<!ENTITY spelloutSpeak.label                "Une lettre à la fois">
+
+<!ENTITY speechRate.label                   "Débit :">
+<!ENTITY slowerSpeechRate.label             "Doucement">
+<!ENTITY fasterSpeechRate.label             "Rapidement">
+<!ENTITY xslowSpeechRate.label              "Très doucement">
+<!ENTITY slowSpeechRate.label               "Doucement">
+<!ENTITY mediumSpeechRate.label             "Moyen">
+<!ENTITY fastSpeechRate.label               "Rapidement">
+<!ENTITY xfastSpeechRate.label              "Très rapidement">
+
+<!ENTITY opacity.label                      "Opacité :">
+
+<!ENTITY compatibilityTab.label             "Compatibilité">
+
+<!ENTITY transparentOpacity.label           "transparent">
+
+<!ENTITY pauseBefore.label                  "Pause avant :">
+<!ENTITY cueBefore.label                    "Signal avant:">
+<!ENTITY pauseAfter.label                   "Pause après :">
+<!ENTITY cueAfter.label                     "Signal après :">
+
+
+<!ENTITY listTab.label                          "Listes">
+
+<!ENTITY listStyleType.label                    "Type de puces :">
+<!ENTITY noneListStyleType.label                "aucune">
+<!ENTITY discListStyleType.label                "cercles pleins">
+<!ENTITY circleListStyleType.label              "cercles vides">
+<!ENTITY squareListStyleType.label              "carrés pleins">
+<!ENTITY decimalListStyleType.label             "nombres décimaux">
+<!ENTITY decimalLeadingZeroListStyleType.label  "nombres décimaux flanqués d'un zéro">
+<!ENTITY lowerRomanListStyleType.label          "chiffres romains minuscules">
+<!ENTITY upperRomanListStyleType.label          "chiffres romains majuscules">
+<!ENTITY lowerGreekListStyleType.label          "lettres greques classiques">
+<!ENTITY lowerAlphaListStyleType.label          "lettres latines minuscules">
+<!ENTITY upperAlphaListStyleType.label          "lettres latines majuscules">
+<!ENTITY armenianListStyleType.label            "nombres arméniens">
+<!ENTITY georgianListStyleType.label            "nombres géorgiens">
+
+
+<!ENTITY listStyleImage.label                   "Puce image :">
+<!ENTITY listStylePosition.label                "Position de la puce :">
+<!ENTITY insideListStylePosition.label          "intérieure">
+<!ENTITY outsideListStylePosition.label         "extérieure">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Extraire et créer un style générique">
+<!ENTITY makecssrule.accesskey                  "e">
+<!ENTITY currentstylesfor.label                 "Styles appliqués à :">
+<!ENTITY renameButton.label                     "Modifier">
+
+<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10)
+<!ENTITY autoMarginUnit.label                   "auto">
+<!ENTITY thinBorderUnit.label                   "fine">
+<!ENTITY mediumBorderUnit.label                 "moyenne">
+<!ENTITY thickBorderUnit.label                  "épaisse"> -->
+<!ENTITY autoMarginUnit.label                   "auto">
+<!ENTITY thinBorderUnit.label                   "thin">
+<!ENTITY mediumBorderUnit.label                 "medium">
+<!ENTITY thickBorderUnit.label                  "thick">

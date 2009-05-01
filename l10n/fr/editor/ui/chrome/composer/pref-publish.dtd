@@ -1,0 +1,21 @@
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY  window.title "Gestionnaire de sites">
+<!ENTITY  composerHeader.label "Gestion de sites">
+<!ENTITY  maintainCheckbox.label "Préserver les liens">
+<!ENTITY  keepCheck.label "Garder les images avec la page">
+
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  adjustDesc.label "Permet aux liens de fonctionner à partir de l'emplacement de la page. (Les liens vers les pages locales fonctionnent
+			      si elles existent.)           ">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  saveDesc.label "Faire des copies des images à l'emplacement des pages. Les images seront toujours
+				visibles dans la version locale de la page et lors de la gestion à distance.">
+<!ENTITY  tip.label "Astuce : Cochez les deux options si vous utilisez la gestion à distance.">
+<!ENTITY defaultHeader.label  "Dossier par défaut">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY  publishFtp.label "Pour publier vers un site FTP, veuillez entrer l'adresse HTTP du site :">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "Pour publier vers un site FTP, veuillez entrer l'adresse HTTP du site :">
+

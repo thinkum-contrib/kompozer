@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+<!--  HELP Glossary SECTION -->
+  <rdf:Description about="urn:root" nc:base="chrome://help/locale/glossary.xhtml">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description nc:name="Adresse IP (Internet protocol)" nc:link="glossary.xhtml#Internet_protocol_address"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Algorithme de cryptographie" nc:link="glossary.xhtml#cryptographic_algorithm"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Authentification" nc:link="glossary.xhtml#authentication"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Authentification à mot de passe" nc:link="glossary.xhtml#password-based_authentication"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Barre d'état" nc:link="glossary.xhtml#Status_Bar"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Barre de navigation" nc:link="glossary.xhtml#navigation_toolbar"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Cache" nc:link="glossary.xhtml#cache"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Certificat" nc:link="glossary.xhtml#certificate"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Certificat de signature de l'objet" nc:link="glossary.xhtml#object-signing_certificate"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Chiffrement" nc:link="glossary.xhtml#encryption"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Clé" nc:link="glossary.xhtml#key"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Clé privée" nc:link="glossary.xhtml#private_key"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Client" nc:link="glossary.xhtml#client"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Code" nc:link="glossary.xhtml#cipher"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Consentement implicite" nc:link="glossary.xhtml#implicit_consent"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Cryptographie" nc:link="glossary.xhtml#cryptography"/> </rdf:li>
+	<rdf:li> <rdf:Description nc:name="CSS" nc:link="glossary.xhtml#css"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Déchiffrement" nc:link="glossary.xhtml#decryption"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Espionnage" nc:link="glossary.xhtml#eavesdropping"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="FIPS PUBS 140-1" nc:link="glossary.xhtml#FIPS_PUBS_140-1"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Gestionnaire de formulaire" nc:link="glossary.xhtml#Form_Manager"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Gestionnaire de mots de passe" nc:link="glossary.xhtml#Password_Manager"/> </rdf:li>
+	<rdf:li> <rdf:Description nc:name="Gestionnaire de sites" nc:link="glossary.xhtml#site_manager"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Identité numérique" nc:link="glossary.xhtml#digital_ID"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Internet" nc:link="glossary.xhtml#Internet"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Java" nc:link="glossary.xhtml#Java"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="JavaScript" nc:link="glossary.xhtml#JavaScript"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Langage HTML (Hypertext Markup Language)" nc:link="glossary.xhtml#Hypertext_Markup_Language"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Langage XSLT (Extensible Stylesheet Language Transformation)" nc:link="glossary.xhtml#XSLT"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Langage XML (Extensible Markup Language)" nc:link="glossary.xhtml#XML"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Mot de passe principal" nc:link="glossary.xhtml#master_password"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Moteur de recherche" nc:link="glossary.xhtml#search_engine"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Nom distinct" nc:link="glossary.xhtml#distinguished_name"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Objet signé" nc:link="glossary.xhtml#object_signing"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Page Web" nc:link="glossary.xhtml#web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="PKCS #11" nc:link="glossary.xhtml#PKCS_11"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Plateforme pour les préférences de confidentialité (P3P)" nc:link="glossary.xhtml#platform_for_privacy_preferences"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Plugin" nc:link="glossary.xhtml#plug-in"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocole FTP (File Transfer Protocol)" nc:link="glossary.xhtml#file_transfer_protocol"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocole IMAP (Internet Message Access Protocol)" nc:link="glossary.xhtml#IMAP_glossary"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocole LDAP (Lightweight Directory Access Protocol)" nc:link="glossary.xhtml#LDAP_glossary"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocole POP (Post Office Protocol)" nc:link="glossary.xhtml#POP_glossary"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Proxy" nc:link="glossary.xhtml#proxy"/> </rdf:li>
+	<rdf:li> <rdf:Description nc:name="Publication" nc:link="glossary.xhtml#publish"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Serveur" nc:link="glossary.xhtml#server"/> </rdf:li>
+	<rdf:li> <rdf:Description nc:name="Serveur web" nc:link="glossary.xhtml#web_server"/> </rdf:li>
+	<rdf:li> <rdf:Description nc:name="sFTP" nc:link="glossary.xhtml#secure_shell_file_transfer_protocol"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Signature numérique" nc:link="glossary.xhtml#digital_signature"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Site Web" nc:link="glossary.xhtml#web_site"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="SSL" nc:link="glossary.xhtml#SSL"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="SSL (Secure Sockets Layer)" nc:link="glossary.xhtml#Secure_Sockets_Layer"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="TCP" nc:link="glossary.xhtml#TCP_IP"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="TCP/IP (Transmission Control Protocol/Internet Protocol)" nc:link="glossary.xhtml#TCP_IP"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="TLS" nc:link="glossary.xhtml#TLS"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="URL (Uniform Resource Locator)" nc:link="glossary.xhtml#Uniform_Resource_Locator"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Utilitaire" nc:link="glossary.xhtml#helper_application"/> </rdf:li>
+	<rdf:li> <rdf:Description nc:name="W3C" nc:link="glossary.xhtml#w3c"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="World Wide Web" nc:link="glossary.xhtml#world_wide_web"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="secure site"  nc:link="glossary.xhtml#secure_site"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+</rdf:RDF>

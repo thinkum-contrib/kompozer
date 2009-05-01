@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Cr&eacute;er des pages Web avec &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="help-fr.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Dans cette section&nbsp;:
+  <a href="composer_help.xhtml#starting_a_new_page">Commencer une nouvelle page</a>
+
+  <a href="formatting_webpages.xhtml">Mettre en forme des pages Web</a>
+
+  <a href="css.xhtml">Utiliser des feuilles de style pour vos pages Web</a>
+
+  <a href="tables.xhtml">Ajouter des tableaux &agrave; votre page Web</a>
+
+  <a href="images.xhtml">Ajouter des images &agrave; votre page Web</a>
+
+  <a href="toc.xhtml">Travailler avec une table des mati&egrave;res sur votre page Web</a>
+
+  <a href="templates.xhtml">Travailler avec des mod&egrave;les</a>
+
+  <a href="page_properties.xhtml">D&eacute;finir les propri&eacute;t&eacute;s de la page</a>
+
+  <a href="links.xhtml">Cr&eacute;er des liens dans &brandShortName;</a>
+
+  <a href="customize.xhtml">Personnaliser &brandShortName;</a>
+</div>
+
+<h2 id="adding_tables_to_your_web_page">Ajouter des tableaux &agrave; votre page Web</h2>
+
+<h3 id="inserting_a_table">Ins&eacute;rer un tableau</h3>
+
+<p>Les tableaux sont utiles pour organiser du texte, des images, et des donn&eacute;es dans des lignes et des colonnes format&eacute;es. Pour ins&eacute;rer un tableau&nbsp;:</p>
+
+<ol>
+  <li>Cliquez pour positionner le curseur &agrave; l'endroit o&ugrave; vous voulez que le tableau apparaisse.</li>
+
+  <li>Cliquez sur le bouton <q>Tableau</q> <img src="images/table.png" width="72" height="64" alt="" /> sur la Barre d'outils. La bo&icirc;te <q>Ins&eacute;rer un tableau</q> appara&icirc;t.</li>
+
+  <li>Tapez le nombre de lignes et de colonnes que vous voulez.
+  <ul>
+    <li>(Optionel) Entrez une taille pour la largeur du tableau, et s&eacute;lectionnez soit <q>% de la fen&ecirc;tre</q> soit <q>pixels</q>.</li>
+  </ul>
+  </li>
+
+  <li>Entrez un nombre pour l'&eacute;paisseur de la bordure (en pixels); entrez z&eacute;ro pour une bordure nulle.
+  <p><strong>Note</strong>&nbsp;: &brandShortName; utilise une ligne de points rouges pour indiquer un tableau avec une bordure nulle; la ligne de points dispara&icirc;t quand la page est visionn&eacute;e dans un navigateur.</p></li>
+
+  <li>Pour appliquer des attributs de tableau suppl&eacute;mentaires ou des &eacute;v&eacute;nements JavaScript, cliquez sur <q>&Eacute;dition avanc&eacute;e&hellip;</q> pour afficher l'<a href="#using_the_advanced_property_editor">&Eacute;diteur des propri&eacute;t&eacute;s avanc&eacute;es</a>.</li>
+
+  <li>Cliquez sur <q>OK</q> pour confirmer vos param&egrave;tres et voir votre nouveau tableau.</li>
+</ol>
+
+<p>Pour modifier des propri&eacute;t&eacute;s suppl&eacute;mentaires de votre nouveau tableau, voir
+<a href="#changing_a_tables_properties">Changer les propri&eacute;t&eacute;s d'un tableau</a>.</p>
+
+<p><strong>Conseil</strong>&nbsp;: Pour ins&eacute;rer un tableau dans un autre tableau, ouvrez le menu <span class="menuPath">Insertion</span> puis choisissez <span class="menuPath">Tableau&hellip;</span>.</p>
+
+<p class="returnToSection">[&nbsp;<a
+href="#adding_tables_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="changing_a_tables_properties">Changer les propri&eacute;t&eacute;s d'un tableau</h3>
+
+<p>Cette section d&eacute;crit comment modifier les propri&eacute;t&eacute;s qui s'appliquent &agrave; l'int&eacute;gralit&eacute; du tableau, tout autant que pour les lignes, les colonnes ou les cellules individuelles d'un tableau. Si vous n'&ecirc;tes pas d&eacute;j&agrave; dans la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s du tableau</q>, suivez les &eacute;tapes suivantes&nbsp;:</p>
+
+<ol>
+  <li>S&eacute;lectionnez le tableau, ou cliquez n'importe o&ugrave; &agrave; l'int&eacute;rieur.</li>
+
+  <li>Cliquez sur le bouton <q>Tableau</q> <img src="images/table.png" width="26" height="26" alt="" /> sur la barre d'outils, ou ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Propri&eacute;t&eacute;s du tableau&hellip;</span>. La bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s du tableau</q> contient deux onglets&nbsp;: <q>Tableau</q> et <q>Cellules</q>.</li>
+
+  <li>Cliquez sur l'onglet <q>Tableau</q> pour &eacute;diter ses propri&eacute;t&eacute;s&nbsp;:
+  <ul>
+    <li><strong>Taille</strong>&nbsp;: Utilisez ceci pour sp&eacute;cifier le nombre de lignes et de colonnes. Entrez la largeur du tableau puis choisissez <q>% de fen&ecirc;tre</q> ou <q>pixels</q>. Si vous choisissez la largeur comme un pourcentage, la largeur du tableau changera chaque fois que la fen&ecirc;tre de &brandShortName; ou du navigateur changera.</li>
+
+    <li><strong>Bordures et marges</strong>&nbsp;: Utilisez ceci pour sp&eacute;cifier, en pixels, la largeur de la bordure, l'espace entre les cellules, et l'espacement (l'espace entre le contenu de la cellule et sa bordure).
+    <p><strong>Note</strong>&nbsp;: &brandShortName; utilise une ligne de points pour afficher les tableaux ayant une bordure nulle; la ligne de points dispara&icirc;t quand la page est visionn&eacute;e dans un navigateur.</p></li>
+
+    <li><strong>Alignement du tableau</strong>&nbsp;: Utilisez ceci pour aligner le tableau dans la page. Choisissez une option dans la liste d&eacute;roulante.</li>
+
+    <li><strong>L&eacute;gende</strong>&nbsp;: Choisissez la position de la l&eacute;gende dans la liste d&eacute;roulante.</li>
+
+    <li><strong>Couleur de fond</strong>&nbsp;: Utilisez ceci pour choisir une couleur pour le fond du tableau, ou pour le laisser transparent.</li>
+
+  </ul>
+  </li>
+
+  <li>Pour appliquer des attributs suppl&eacute;mentaires ou des &eacute;v&eacute;nements JavaScript, cliquez sur <q>&Eacute;dition avanc&eacute;e&hellip;</q> pour afficher l'<a href="#using_the_advanced_property_editor">&Eacute;diteur des propri&eacute;t&eacute;s avanc&eacute;es</a>.</li>
+
+  <li>Cliquez sur <q>Appliquer</q> pour voir vos changements sans fermer la bo&icirc;te de dialogue, ou cliquez sur <q>OK</q> pour les confirmer.</li>
+</ol>
+
+<p>Pour voir, modifier ou ajouter des propri&eacute;t&eacute;s &agrave; une ou plusieurs cellules&nbsp;:</p>
+
+<ol>
+  <li>S&eacute;lectionnez la ligne, la colonne ou la cellule, puis ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Propri&eacute;t&eacute;s du tableau&hellip;</span>. La bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s du tableau</q> appara&icirc;t.</li>
+
+  <li>Cliquez sur l'onglet <q>Cellules</q> pour &eacute;diter les propri&eacute;t&eacute;s suivantes&nbsp;:
+  <ul>
+    <li><strong>S&eacute;lection</strong>&nbsp;: Choisissez <q>Cellule</q>, <q>Ligne</q> ou <q>Colonne</q> dans la liste d&eacute;roulante. Cliquez sur <q>Pr&eacute;c&eacute;dente</q> ou <q>Suivante</q> pour vous d&eacute;placer dans les lignes, les colonnes ou les cellules.</li>
+
+    <li><strong>Taille</strong>&nbsp;: Taper un nombre pour <q>Hauteur</q> et <q>Largeur</q>, puis choisissez <q>% du tableau</q> ou <q>pixels</q>.</li>
+
+    <li><strong>Alignement du contenu</strong>&nbsp;: S&eacute;lectionnez un type d'alignement vertical et horizontal pour le texte ou les donn&eacute;es &agrave; l'in&eacute;rieur de chaque cellule.</li>
+
+    <li><strong>Style de cellule</strong>&nbsp;: S&eacute;lectionnez <q>Titre</q> dans la liste d&eacute;roulante pour les titres de colonnes ou de lignes (ce qui centre et met en gras le texte dans la cellule); sinon, choisissez <q>Normal</q>.</li>
+
+    <li><strong>Retour automatique &agrave; la ligne</strong>&nbsp;: S&eacute;lectionnez <q>Non</q> dans la liste d&eacute;roulante pour garder le texte sur une m&ecirc;me ligne &agrave; moins d'ins&eacute;rer un saut de paragraphe. Sinon, choisissez <q>Oui</q>.</li>
+
+    <li><strong>Couleur de fond</strong>&nbsp;: S&eacute;lectionnez une couleur pour le fond de la cellule ou laissez-la transparente.
+    <p><strong>Note</strong>&nbsp;: Pour appliquer des attributs suppl&eacute;mentaires ou des &eacute;v&eacute;nements JavaScript, cliquez sur <q>&Eacute;dition avanc&eacute;e&hellip;</q> pour afficher l'<a href="#using_the_advanced_property_editor">&Eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es</a></p></li>
+  </ul>
+  </li>
+  <li>Cliquez sur <q>Appliquer</q> pour voir vos changements sans fermer la bo&icirc;te de dialogue ou cliquez sur <q>OK</q> pour les confirmer.</li>
+</ol>
+
+<p><strong>Conseil</strong>&nbsp;: Pour changer la couleur du texte ou la couleur du fond d'une ou plusieurs cellules s&eacute;lectionn&eacute;es ou du tableau entier, s&eacute;lectionnez les cellules ou cliquez n'importe o&ugrave; dans le tableau puis cliquez sur l'ic&ocirc;ne de couleur de texte ou de couleur de fond dans la barre de formatage.</p>
+
+<p><strong>Conseil</strong>&nbsp;: Pour changer la couleur des cellules avec la derni&egrave;re couleur utilis&eacute;e, s&eacute;lectionnez la cellule, puis appuyez sur la touche <kbd>Maj</kbd> et cliquez sur le s&eacute;lecteur de couleur de fond. Ceci est utile lorsque vous voulez utiliser une couleur pour des cellules individuelles.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#adding_tables_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="adding_and_deleting_rows_columns_and_cells">Ajouter et supprimer des lignes, des colonnes et des cellules</h3>
+
+<p>&brandShortName; vous permet d'ajouter ou de supprimer rapidement une ou plusieurs cellules, colonnes ou lignes d'un tableau. De plus, vous pouvez d&eacute;finir des options qui vous permettent de conserver la structure rectangulaire originale ou l'affichage du tableau lorsque vous r&eacute;alisez des t&acirc;ches d'&eacute;dition.</p>
+
+<p>Pour ajouter une cellule, ligne ou colonne &agrave; votre tableau&nbsp;:</p>
+
+<ol>
+  <li>Cliquez &agrave; l'int&eacute;rieur du tableau dans lequel vous voulez ajouter une (ou des) cellules.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Ins&eacute;rer</span>.</li>
+
+  <li>Choisissez l'un des groupements de cellules. (Vous pouvez &eacute;galement ins&eacute;rer un nouveau tableau dans une cellule).</li>
+</ol>
+
+<p>Pour supprimer une cellule, ligne ou colonne&nbsp;:</p>
+
+<ol>
+  <li>Cliquez sur une ligne, colonne ou cellule pour positionner le curseur, ou s&eacute;lectionnez des cellules adjacentes pour supprimer plus d'une ligne &agrave; la fois. Pour s&eacute;lectionnez des cellules adjacentes, maintenez la touche gauche de votre souris enfonc&eacute;e et s&eacute;lectionnez les cellules. Pour s&eacute;lectionner des cellules individuellement, maintenez la touche <kbd>Ctrl</kbd> enfonc&eacute;e (Windows, Linux ou Unix) ou la touche <kbd>Commande</kbd> (Mac OS) et cliquez sur les cellules d&eacute;sir&eacute;es.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Supprimer</span>.</li>
+
+  <li>Puis choisir l'item que vous voulez supprimer.</li>
+</ol>
+
+<p>Pour fusionner une cellule avec celle plac&eacute;e &agrave; sa droite&nbsp;:</p>
+
+<ul>
+  <li>Cliquez dans la cellule de gauche, ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Fusionner avec la cellule suivante</span>.</li>
+</ul>
+
+<p>Pour fusionner des cellules adjacentes&nbsp;:</p>
+
+<ul>
+  <li>S&eacute;lectionnez les cellules adjacentes que vous d&eacute;sirez.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Fusionner les cellules s&eacute;lectionn&eacute;es</span>.</li> 
+</ul>
+
+<p>Pour scinder des cellules pr&eacute;c&eacute;demment fusionn&eacute;es&nbsp;:</p>
+
+<ul>
+  <li>Cliquez dans la cellule fusionn&eacute;e, ouvrez le menu <span class="menuPath">Tableau</span>, puis choisissez <span class="menuPath">Scinder la cellule</span>. &brandShortName; mettra tout le contenu de la cellule fusionn&eacute;e dans la premi&egrave;re des deux cellules.</li>
+</ul>
+
+<p>Voir <a href="#selecting_table_elements">S&eacute;lectionner des &eacute;l&eacute;ments de tableau</a> pour des informations sur la mani&egrave;re de s&eacute;lectionner des cellules, lignes ou colonnes non-adjacentes.</p>
+
+<h3 id="changing_the_default_table_table_editing_behavior">Changer le comportement par d&eacute;faut pour l'&eacute;dition de tableau</h3>
+
+<p>Par d&eacute;faut, quand vous supprimez une ou plusieurs cellules, &brandShortName; pr&eacute;serve la structure de la table en ajoutant les cellules &agrave; la fin d'une ligne, quand c'est n&eacute;cessaire. Ceci vous permet de supprimer une ou plusieurs cellules tout en maintenant l'affichage rectangulaire original ou la structure du tableau. Sinon, supprimer des cellules peut donner un tableau avec des espaces vides, ou dont les bordures appara&icirc;traient irr&eacute;guli&egrave;res &agrave; cause des cellules manquantes.</p>
+
+<p>Pour changer le comportement par d&eacute;faut pour l'&eacute;dition de tableau, commencez &agrave; partir de la fen&ecirc;tre de &brandShortName;&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Outils</span> (Menu Mozilla sur Mac OS X), choisissez <span class="menuPath">Pr&eacute;f&eacute;rences&hellip;</span>, puis <q>G&eacute;n&eacute;ral</q>.</li>
+
+  <li>Sous <q>&Eacute;dition des tableaux</q>, d&eacute;finissez la pr&eacute;f&eacute;rence suivante&nbsp;:
+
+  <ul>
+    <li>Assurez-vous que <q>Conserver les dimensions du tableau lors de l'insertion ou la suppression de cellules</q> soit coch&eacute; pour &eacute;viter d'obtenir un tableau de forme irr&eacute;guli&egrave;re.</li>
+  </ul>
+  </li>
+
+  <li>Cliquez sur <q>OK</q>.</li> 
+</ol>
+
+<p>Voir &eacute;galement <a href="preferences.xhtml#preferences_general_settings">D&eacute;finir les pr&eacute;f&eacute;rences g&eacute;n&eacute;rales de &brandShortName;</a>.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#adding_tables_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="selecting_table_elements">S&eacute;lectionner des &eacute;l&eacute;ments de tableau</h3>
+
+<p>Vous pouvez utiliser une des deux mani&egrave;res pour s&eacute;lectionner rapidement un tableau, une cellule ou un groupe de cellules&nbsp;:</p>
+
+<ul>
+  <li>Cliquez sur un tableau, ouvrez le menu <span class="menuPath">Tableau</span>, puis le menu <span class="menuPath">S&eacute;lectionner</span> puis choisissez un item du sous-menu. Par exemple, pour s&eacute;lectionner un tableau, cliquez n'importe o&ugrave; dans le tableau, ouvrez le menu <span class="menuPath">Tableau</span>, puis <span class="menuPath">S&eacute;lectionner</span> et enfin, choisissez <span class="menuPath">Tableau</span>.</li>
+
+  <li>Ou vous pouvez utiliser la souris comme outil de s&eacute;lection&nbsp;:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+<ul>
+  <li>Pour s&eacute;lectionner un groupe de cellules adjacentes&nbsp;: cliquez sur une cellule puis d&eacute;placer le curseur pour s&eacute;lectionner les cellules que vous voulez. D&eacute;placer la souris vers la gauche ou la droite (en maintenant le bouton gauche de la souris enfonc&eacute;) pour s&eacute;lectionner une ligne; vers le haut ou vers le bas, pour s&eacute;lectionner une colonne.</li>
+
+      <li>Pour s&eacute;lectionner des cellules non adjacentes&nbsp;: appuyez sur la touche <kbd>Ctrl</kbd> (Windows, Linux ou Unix) ou <kbd>Commande</kbd> (Mac OS) puis cliquez &agrave; sur une cellule. Maintenez la touche <kbd>Ctrl</kbd> (Windows, Linux ou Unix) ou <kbd>Commande</kbd> (Mac OS) enfonc&eacute;e lorsque vous cliquez pour ajouter des cellules suppl&eacute;mentaires.</li>
+
+      <li>Pour &eacute;tendre une s&eacute;lection pour y inclure des cellules adjacentes&nbsp;: cliquez sur une cellule puis d&eacute;placez la souris (en maintenant le bouton gauche enfonc&eacute;) sur les cellules suppl&eacute;mentaires pour &eacute;tendre la s&eacute;lection.</li>
+
+      <li>Pour s&eacute;lectionner une ou plusieurs lignes ou colonnes adjacentes&nbsp;: S&eacute;lectionnez avec la souris la premi&egrave;re colonne ou ligne, puis, tout en maintenant le bouton gauche de la souris enfonc&eacute;, d&eacute;placez la souris vers la gauche ou la droite pour s&eacute;lectionner des colonnes ou lignes suppl&eacute;mentaires. Maintenez la touche <kbd>Maj</kbd> enfonc&eacute;e puis cliquez sur la cellule &agrave; l'extr&ecirc;me droite pour s&eacute;lectionner toute la ligne. Pour s&eacute;lectionner toute une colonne, proc&eacute;dez de m&ecirc;me et cliquez sur la premi&egrave;re ou la derni&egrave;re cellule de la colonne.</li>
+      </ul>
+  </li>
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#adding_tables_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="moving_copying_and_deleting_tables">D&eacute;placer, copier et supprimer des tableaux</h3>
+
+<p>Pour d&eacute;placer un tableau&nbsp;:</p>
+
+<ol>
+  <li>Cliquez dans le tableau.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Tableau</span>, choisissez <span class="menuPath">S&eacute;lectionner</span> puis <span class="menuPath">Tableau</span>.</li>
+</ol>
+
+<ul> 
+  <li>Pour copier ou d&eacute;placer un tableau&nbsp;: Utilisez les options <span class="menuPath">Couper</span>, <span class="menuPath">Copier</span> et <span class="menuPath">Coller</span> du menu <span class="menuPath">Edition</span>.</li>
+
+  <li>Pour supprimer un tableau&nbsp;: Ouvrez encore le menu <span class="menuPath">Tableau</span>, choisissez <span class="menuPath">Supprimer</span> puis <span class="menuPath">Tableau</span>.</li>
+</ul>
+
+<h3 id="converting_text_into_a_table">Convertir un texte en tableau</h3>
+
+<p>Pour convertir un texte en tableau&nbsp;:</p>
+
+<ol>
+  <li>S&eacute;lectionnez le texte que vous voulez convertir en tableau. Gardez &agrave; l'esprit que &brandShortName; cr&eacute;e une nouvelle ligne de tableau pour chaque paragraphe de la s&eacute;lection.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Tableau</span> et choisissez <span class="menuPath">Cr&eacute;er un tableau &agrave; partir de la s&eacute;lection</span>. Vous verrez alors la bo&icirc;te de dialogue <q>Convertir en tableau</q>.</li>
+
+  <li>Choisissez le caract&egrave;re que &brandShortName; utilisera pour s&eacute;parer la s&eacute;lection en colonnes, ou sp&eacute;cifiez un caract&egrave;re diff&eacute;rent &agrave; utiliser. Si vous choisissez <q>Espace</q> comme s&eacute;parateur de colonne, choisissez si vous voulez ou non que &brandShortName; ignore les espaces multiples et les traite comme une seule espace.</li>
+
+  <li>Laissez <q>Supprimer caract&egrave;re s&eacute;parateur</q> coch&eacute; si vous voulez que &brandShortName; supprime le caract&egrave;re s&eacute;parateur quand il convertit le texte en tableau. Si vous ne voulez pas que &brandShortName; supprime ce caract&egrave;re, d&eacute;cochez cette option.</li>
+
+  <li>Cliquez sur <q>OK</q>.</li>
+</ol>
+
+<p><strong>Note</strong>&nbsp;: Le formatage du texte est supprim&eacute; quand le texte s&eacute;lectionn&eacute; est converti en tableau.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#adding_tables_to_your_web_page">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<p>[&nbsp;<a href="images.xhtml">Suivant</a>&nbsp;] [&nbsp;<a href="css.xhtml">Pr&eacute;c&eacute;dent</a>&nbsp;]</p>
+
+  <div class="copyrightBox"><em>20 juin 2005</em></div>
+
+  <p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 23 juin 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>

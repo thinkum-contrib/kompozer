@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Tutoriel &brandShortName;</title>
+    <link rel="stylesheet" type="text/css" href="help-fr.css" />
+  </head>
+
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">Dans cette section&nbsp;:
+    <a href="#scope_of_this_tutorial">&Eacute;tendue de ce tutoriel</a>
+    <a href="#introduction_to_the_user_interface">Introduction &agrave; l'interface utilisateur</a>
+    <a href="#starting_a_new_document">Commencer un nouveau document</a>
+    <a href="#basic_formatting_of_the_document">Mise en forme de base du document</a>
+    <a href="#inserting_images_and_tables">Ins&eacute;rer des images et des tableaux</a>
+    <a href="#advanced_styles">Styles avanc&eacute;s</a>
+    <a href="#publishing_your_documents_basics">Publier vos documents - Bases</a>
+    </div>
+
+    <h1 id="nvu_tutorial">Tutoriel &brandShortName;</h1>
+
+    <p>&brandShortName; est un syst&egrave;me complet d'&eacute;diteur de pages Web What-You-See-Is-What-You-Get (WYSIWYG) (Ce que vous voyez est ce que vous aurez). Il est bas&eacute; sur Gecko, le moteur de rendu de Mozilla. &brandShortName; est totalement libre et peut-&ecirc;tre t&eacute;l&eacute;charg&eacute; sur le <a href="http://kompozer.net/">site &brandShortName;</a>.</p>
+
+    <h2 id="scope_of_this_tutorial">&Eacute;tendue de ce tutoriel</h2>
+
+    <p>Ce tutoriel est con&ccedil;u pour les d&eacute;butants, qui d&eacute;couvrent la conception de pages Web avec un &eacute;diteur WYSIWYG. Ce tutoriel fournit suffisamment d'aide pour que vous puissiez commencer &agrave; utiliser &brandShortName; pour concevoir vos pages Web. Il ne s'agit pas d'une introduction au codage HTML, XHTML, CSS, etc. Il est seulement con&ccedil;u pour vous aider &agrave; commencer rapidement &agrave; utiliser &brandShortName;.</p>
+
+    <p>Le manuel ne couvre pas non plus les aspects de base du code HTML dans le d&eacute;tail. En effet, ceci est un court tutoriel et des aspects basiques quoique non essentiels ont &eacute;t&eacute; laiss&eacute;s de c&ocirc;t&eacute;. Nous vous encourageons &agrave; les d&eacute;couvrir par vous-m&ecirc;me. Ce tutoriel rec&egrave;le &eacute;galement une introduction &agrave; l'utilisation des feuilles de styles en cascades (CSS) avec l'&eacute;diteur int&eacute;gr&eacute; <q>CaScadeS</q>.</p>
+
+    <p>Ceux qui sont plus int&eacute;ress&eacute;s dans l'apprentissage du code HTML, CSS, etc. en d&eacute;tails, peuvent se rendre sur le <a href="http://www.w3.org/">site Web du Consortium W3</a>. Vous pourrez y trouver des informations d&eacute;taill&eacute;es sur les standards vari&eacute;s qu'ils maintiennent. Vous pouvez &eacute;galement faire une recherche sur le Web ou vous r&eacute;f&eacute;rez &agrave; l'un des nombreux livres disponibles sur l'apprentissage du code HTML.</p>
+
+    <!-- The approach of this tutorial is to give the most basic
+         instructions on getting major things done with &brandShortName;. This will
+         give the user an idea as to how to achieve the objective of
+         the secion. In the end of each section a link should be
+         provided targetting corresponding section in the main Help
+         for detailed treatment of the same objective.-->
+
+    <h3 id="in_this_tutorial">&Agrave; propos de ce tutoriel</h3>
+
+    <p>Ce tutoriel vous familiarise d'abord avec l'interface utilisateur de &brandShortName;, suivie par une section sur le formatage de base. La section suivante vous indiquera comment ins&eacute;rer des &eacute;l&eacute;ments tels que des images, des tableaux et des formulaires dans votre document. Ensuite, une courte section est d&eacute;di&eacute;e &agrave; la mise en page de votre document en utilisant des feuilles de styles en cascades (CSS). Le document s'ach&egrave;ve sur les mani&egrave;res de publier votre document sur un serveur Web.</p>
+
+    <p>[&nbsp;<a href="#scope_of_this_tutorial">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="introduction_to_the_user_interface">Introduction &agrave; l'interface utilisateur</h2>
+
+    <p>Le menu <span class="menuPath">Fichier</span> de &brandShortName; contient des &eacute;l&eacute;ments de menu pour toutes les op&eacute;rations essentielles possibles lors de son utilisation. Pour des r&eacute;f&eacute;rences d&eacute;taill&eacute;es compl&egrave;tes, veuillez consulter la page <a href="menu_reference.xhtml">R&eacute;f&eacute;rences de menu</a>. La barre d'outils de l'interface utilisateur de &brandShortName; se compose de&nbsp;:</p>
+
+    <ul>
+      <li><a href="#composition_toolbar">La barre d'outils principale</a></li>
+      <li><a href="#format_toolbar">La barre d'outils de mise en forme</a></li>
+      <li><a href="#tab_browser_toolbar">La barre des onglets</a></li>
+      <li><a href="#edit_mode_toolbar">La barre d'outils des Modes d'&eacute;dition</a></li>
+      <li><a href="#status_toolbar">La barre d'&eacute;tat</a></li>
+    </ul>
+
+    <h3 id="composition_toolbar">La barre d'outils principale</h3>
+
+    <p>La barre d'outils principale est compos&eacute;e de boutons pour les op&eacute;rations essentielles les plus utilis&eacute;es. Ci-dessous, une copie d'&eacute;cran de la barre d'outils principale dans sa configuration par d&eacute;faut, avec du texte sous chaque bouton indiquant leurs fonctions respectives.</p>
+
+    <p><img src="images/tut_composition_tb.png" title="Composition Toolbar" width="807" height="51" alt="" /></p>
+
+    <h3 id="format_toolbar">La barre d'outils de mise en forme</h3>
+
+    <p>Cette barre est un outil tr&egrave;s utile lorsque vous &eacute;ditez des pages Web avec &brandShortName;. Avec cette barre d'outils, vous pouvez appliquer un format sur un paragraphe, choisir une police, changer la couleur d'avant et d'arri&egrave;re-plan, augmenter ou diminuer la taille et mettre en &eacute;vidence un bloc de texte. Vous pouvez &eacute;galement cr&eacute;er des listes &agrave; puces ou num&eacute;rot&eacute;es et justifier un bloc de texte ou l'aligner &agrave; gauche, &agrave; droite ou au centre. Pour savoir ce que fait un bouton, passez le curseur de la souris au-dessus du bouton et une info-bulle appara&icirc;tra pour vous indiquer la fonction de ce bouton.</p>
+
+    <p><img src="images/tut_formating_tb.png" title="Formating Toolbar" width="816" height="35" alt="" /></p>
+
+    <h3 id="tab_browser_toolbar">La barre des onglets</h3>
+
+    <p>&brandShortName; vous permet d'&eacute;diter simultan&eacute;ment plusieurs documents en utilisant un onglet diff&eacute;rent pour chaque document ouvert. Avoir plusieurs onglets donne &agrave; votre bureau une apparence plus propre car il n'est pas encombr&eacute; de multiples fen&ecirc;tres ouvertes pour chacun des documents. Une <em>ic&ocirc;ne de disquette rouge</em> appara&icirc;t dans chaque onglet pour indiquer qu'un document a &eacute;t&eacute; modifi&eacute; mais non enregistr&eacute;.</p>
+
+    <p><img src="images/tut_tabbrowser_tb.png" title="Tab Browser Toolbar" width="642" height="37" alt="" /></p>
+
+    <h3 id="edit_mode_toolbar">La barre d'outils de mise en forme</h3>
+
+    <p>La barre d'outils de mise en forme indique la vue actuellement utilis&eacute;e pour le document courant. Les vues disponibles sont <q>Normal</q>, <q>Balises HTML</q>, <q>Source</q> et <q>Aper&ccedil;u</q>. Vous pouvez facilement changer de vue en cliquant sur l'un des trois autres onglets avec la souris.</p>
+
+    <p><img src="images/tut_editmode_tb.png" title="Edit Mode Toolbar" width="369" height="26" alt="" /></p>
+
+    <h3 id="status_toolbar">La barre d'&eacute;tat</h3>
+
+    <p>La barre d'&eacute;tat de &brandShortName; affiche la position du curseur en respectant la hi&eacute;rarchie des balises HTML. Vous pouvez facilement &eacute;diter/d&eacute;finir les propri&eacute;t&eacute;s d'une balise particuli&egrave;re en effectuant un clic droit dans la barre d'&eacute;tat et en choisissant l'option d&eacute;sir&eacute;e. Un simple clic gauche de la souris sur une balise dans la barre d'&eacute;tat s&eacute;lectionne le texte encadr&eacute; par cette balise.</p>
+
+    <p><img src="images/tut_status_tb.png" title="Status Toolbar" width="295" height="56" alt="" /></p>
+
+    <p>[&nbsp;<a href="#introduction_to_the_user_interface">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="starting_a_new_document">Commencer un nouveau document</h2>
+
+    <p>Vous pouvez commencer un nouveau document en cliquant soit sur le bouton <q>Nouveau</q> dans la barre d'outils principale, soit en cliquant sur le menu <span class="menuPath">Fichier</span>, <span class="menuPath">Nouveau</span>, en s&eacute;lectionnant <q>Document vide</q> et en cliquant sur le bouton <q>Ouvrir</q>. Au cas o&ugrave; vous voudriez &eacute;diter un document existant, utilisez le menu <span class="menuPath">Fichier</span>, <span class="menuPath">Ouvrir</span> et choisissez le document que vous voulez &eacute;diter. Pour des instructions d&eacute;taill&eacute;es, veuillez consulter la section <a  href="composer_help.xhtml#starting_a_new_page">Commencer une nouvelle page</a> dans l'aide de &brandShortName;.</p>
+
+    <p>Vous pouvez aussi commencer un nouveau document qui serait un mod&egrave;le plut&ocirc;t qu'un document html normal. Les mod&egrave;les sont utilis&eacute;s pour rendre la gestion d'un site Web plus facile car le mainteneur aura seulement besoin d'&eacute;diter le texte pour une page sans se pr&eacute;occuper de la conception puisqu'elle est contr&ocirc;l&eacute;e par le mod&egrave;le. Ce tutoriel ne d&eacute;taillera pas plus la cr&eacute;ation et l'utilisation des mod&egrave;les. Vous pourrez trouver plus d'informations sur les mod&egrave;les dans la section <a href="composer_help.xhtml#working_with_templates">Travailler avec des mod&egrave;les</a> dans l'aide de &brandShortName;.</p>
+
+    <p>[&nbsp;<a href="#starting_a_new_document">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="basic_formatting_of_the_document">Mise en forme de base du document</h2>
+
+    <p>Nous utiliserons le texte donn&eacute; dans la section suivante pour &eacute;tayer l'aide &agrave; la mise en forme de base de ce tutoriel. Le texte sera utilis&eacute; comme base pour l'apprentissage des fonctions de mise en forme de base disponibles dans &brandShortName;. Copiez le texte de la section suivante et collez-le dans votre nouveau document.</p>
+
+    <h3 id="tutorial_text">Texte du tutoriel</h3>
+
+    <!-- The text for the tutorial is a general text. It was by chance
+         that I was reading a book by Jim Corbett when I was planning
+         about the text to be used for the tutorial. So I wrote a few
+         paragraphs with the information I collected from a couple of
+         books and several websites. I do not guarantee for the
+         information to be correct. So, if you want detailed
+         information about Corbett National Park, consult tourist
+         books, and the WWW. In case you want to change the text,
+         please make sure that neither the new text is not copyrighted
+         nor you should use copyrighted images. All text and images
+         used in the tutorial are supposed to be distributed under the
+         GNU GPL, and MPL license. -->
+
+    <p>Parc national Corbett</p>
+
+    <p>Le Parc national Corbett, ainsi nomm&eacute; en m&eacute;moire de Jim Corbett, a &eacute;t&eacute; cr&eacute;&eacute; en 1938 et fut le premier parc national d'Asie. Il est situ&eacute; dans le nord de l'Inde dans l'&eacute;tat d'Uttranchal. Il a une superficie de 512 km&sup2;. La surface combin&eacute;e du Parc national Corbett, du sanctuaire de vie sauvage de Sonandi et la R&eacute;serve Forest atteint 1288 km&sup2; et constitue un plus grand projet appel&eacute; R&eacute;serve du tigre Corbett.</p>
+
+    <p>Les animaux les plus c&eacute;l&egrave;bres du Parc national Corbett sont le tigre du Bengale et l'&eacute;l&eacute;phant d'Asie. C'est &eacute;galement le domaine d'autres animaux tels que etc., etc. Situ&eacute; &agrave; la jonction des r&eacute;gions collinaires de Garhwal et de Kumaon, c'est &eacute;galement la reconnaissance de la combinaison de la culture des peuples des deux r&eacute;gions.</p>
+
+    <p>Jim Corbett</p>
+
+    <p>Jim Corbett, (1825-19), vivait &agrave; Kaladhungi. Sa maison a &eacute;t&eacute; transform&eacute;e en mus&eacute;e par le gouvernement en m&eacute;moire de sa vie et de son temps. Il &eacute;tait naturaliste, conservateur et photographe passionn&eacute;. N&eacute; le 25 juillet 1875, il grandit &agrave; Kaladhungi et Nanital. Apr&egrave;s s'&ecirc;tre battu pour l'arm&eacute;e britannique lors de la Premi&egrave;re guerre mondiale, il revint en Inde et s'&eacute;tablit &agrave; Kaladhungi avec sa s&oelig;ur, Maggie. Il fut appel&eacute; plusieurs fois par les villageois et le gouvernement pour venir &agrave; bout des tigres et des l&eacute;opards mangeurs d'hommes.</p>
+
+    <p>Visiter le Parc national Corbett</p>
+
+    <p>Information g&eacute;n&eacute;rale</p>
+
+    <p>Altitude&nbsp;: 385-1100m au-dessus du niveau de la mer</p>
+
+    <p>Pr&eacute;cipitation annuelle&nbsp;: 1400mm - 2800mm</p>
+
+    <p>Variation de temp&eacute;rature&nbsp;: de 4&deg;C en hiver &agrave; 42&deg;C en &eacute;t&eacute;.</p>
+
+    <p>Ouverture aux touristes du 15 novembre au 15 juin.</p>
+
+    <p>Comment s'y rendre&nbsp;:</p>
+
+    <p>Le quartier g&eacute;n&eacute;ral de la R&eacute;serve du tigre Corbett se trouve &agrave; Ramnagar. On peut s'y rendre par la route &agrave; partir de Delhi, Moradabad, Bareilly et Nanital, et par car &agrave; partir de Delhi, Moradabad et Haldwani. Les touristes peuvent aussi atteindre Ramnagar en prenant le train &agrave; New Delhi.</p>
+
+    <h3>Mettre en forme le texte</h3>
+
+    <p>Les premi&egrave;res choses dont nous nous occuperons, seront les titres et les sous-titres. S&eacute;lectionnez le texte <q>Parc national Corbett</q> en haut du document et cliquez sur le menu d&eacute;roulant <em>Corps de textet</em> dans la <strong>Barre de mise en forme</strong> et s&eacute;lectionnez <q>Titre 1</q>. Le texte sera mis en forme en fonction du style par d&eacute;faut du niveau de titre 1. De la m&ecirc;me mani&egrave;re, s&eacute;lectionnez le texte <q>Visiter le Parc national Corbett</q> et faites-en un titre de niveau 2.</p>
+
+    <p>La seconde chose que vous pourriez peut-&ecirc;tre faire, est de s&eacute;lectionner des paragraphes entiers dans votre texte et les marquer comme <q>Paragraphe</q> en suivant la m&ecirc;me proc&eacute;dure que pour les titres. Dans le texte donn&eacute;, cela a d&eacute;j&agrave; &eacute;t&eacute; fait pour rendre le texte plus pr&eacute;sentable, mais sinon, marquer les paragraphes s&eacute;par&eacute;ment est une bonne pratique.</p>
+
+    <p>Vous pouvez aussi mettre en forme les mots ou les phrases importantes en utilisant les boutons <strong>gras</strong>(<strong>B</strong>), <em>italique</em>(<strong><em>I</em></strong>) ou <u>soulign&eacute;</u>(<strong><u>U</u></strong>) dans la <strong>Barre de mise en forme</strong> comme cela a &eacute;t&eacute; fait pour cette ligne. Plusieurs autres options de mise en forme sont disponibles dans la <strong>Barre de mise en forme</strong> ou via le menu <span class="menuPath">Format</span> de la <strong>Barre de menu</strong>. Continuez et essayez d'utiliser quelques options, vous apprendrez ainsi quelques trucs. Si vous vous trompez, cliquez sur les touches <kbd>Ctrl+Z</kbd> une fois pour <em>annuler</em> votre derni&egrave;re action. Pour des instructions d&eacute;taill&eacute;es sur toutes les fa&ccedil;ons possibles de mettre en forme du texte pour une page Web, consulter la section <a href="composer_help.xhtml#formatting_your_web_pages">Mettre en forme vos pages Web</a> dans l'aide de &brandShortName;.</p>
+
+    <p>Votre texte devrait maintenant ressembler &agrave; ceci&nbsp;:</p>
+
+    <hr />
+
+    <div style="font-size:x-large;">Parc national Corbett</div>
+
+    <p>Le <em>Parc national Corbett</em>, ainsi nomm&eacute; en m&eacute;moire de <strong>Jim Corbett</strong>, a &eacute;t&eacute; cr&eacute;&eacute; en 1938 et fut le premier parc national d'Asie. Il est situ&eacute; dans le nord de l'Inde dans l'&eacute;tat d'Uttranchal. Il a une superficie de 512 km&sup2;. La surface combin&eacute;e du Parc national Corbett, du sanctuaire de vie sauvage de Sonandi et la R&eacute;serve Forest atteint 1288 km&sup2; et constitue un plus grand projet appel&eacute; R&eacute;serve du tigre Corbett.</p>
+
+    <p>Les animaux les plus c&eacute;l&egrave;bres du Parc national Corbett sont le <em>tigre du Bengale</em> et l'<em>&eacute;l&eacute;phant d'Asie</em>. C'est &eacute;galement le domaine d'autres animaux tels que etc., etc. Situ&eacute; &agrave; la jonction des r&eacute;gions collinaires de Garhwal et de Kumaon, c'est &eacute;galement la reconnaissance de la combinaison de la culture des peuples des deux r&eacute;gions.</p>
+
+    <div style="font-size:large;">Jim Corbett</div>
+
+    <p>Jim Corbett, (1825-19), vivait &agrave; Kaladhungi. Sa maison a &eacute;t&eacute; transform&eacute;e en mus&eacute;e par le gouvernement en m&eacute;moire de sa vie et de son temps. Il &eacute;tait naturaliste, conservateur et photographe passionn&eacute;. N&eacute; le 25 juillet 1875, il grandit &agrave; Kaladhungi et Nanital. Apr&egrave;s s'&ecirc;tre battu pour l'arm&eacute;e britannique lors de la Premi&egrave;re guerre mondiale, il revint en Inde et s'&eacute;tablit &agrave; Kaladhungi avec sa s&oelig;ur, Maggie. Il fut appel&eacute; plusieurs fois par les villageois et le gouvernement pour venir &agrave; bout des tigres et des l&eacute;opards mangeurs d'hommes.</p>
+
+    <div style="font-size:large;">Visiter le Parc national Corbett</div>
+
+    <p>Information g&eacute;n&eacute;rale</p>
+
+    <p>Altitude&nbsp;: 385-1100m au-dessus du niveau de la mer</p>
+
+    <p>Pr&eacute;cipitation annuelle&nbsp;: 1400mm - 2800mm</p>
+
+    <p>Variation de temp&eacute;rature&nbsp;: de 4&deg;C en hiver &agrave; 42&deg;C en &eacute;t&eacute;.</p>
+
+    <p>Ouverture aux touristes du 15 novembre au 15 juin.</p>
+
+    <p>Comment s'y rendre&nbsp;:</p>
+
+    <p>Le quartier g&eacute;n&eacute;ral de la r&eacute;serve du tigre Corbett se trouve &agrave; Ramnagar. On peut s'y rendre par la route &agrave; partir de Delhi, Moradabad, Bareilly et Nanital, et par car &agrave; partir de Delhi, Moradabad et Haldwani. Les touristes peuvent aussi atteindre Ramnagar en prenant le train &agrave; New Delhi.</p>
+
+    <hr />
+
+    <p>[&nbsp;<a href="#basic_formatting_of_the_document">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="inserting_images_and_tables">Ins&eacute;rer des images et des tableaux</h2>
+
+    <p>Des images, des tableaux et des formulaires peuvent &ecirc;tre ins&eacute;r&eacute;s/cr&eacute;&eacute;s dans votre document en utilisant la <strong>barre d'outils principale</strong>. Ins&eacute;rons un tableau et copions <q>Information g&eacute;n&eacute;rale</q> du Parc national Corbett dedans. Cliquez sur le bouton <em>Tableau</em> <img src="images/table.png" width="72" height="64" alt="" /> dans la barre d'outils principale et choisissez les dimensions du tableau pour avoir cinq lignes et deux colonnes avec votre souris. Cliquer sur la cinqui&egrave;me ligne de la deuxi&egrave;me colonne cr&eacute;era un tableau par d&eacute;faut ayant ces dimensions.</p>
+
+    <p>Pour remplir votre tableau avec le texte, coupez le texte correspondant (<kbd>Ctrl+X</kbd>) et collez-le (<kbd>Ctrl+V</kbd>) dans la cellule correspondante de votre tableau. Quand vous avez fini, le tableau devrait ressembler &agrave; celui ci-dessous&nbsp;:</p>
+
+    <!-- Do not remove inline styles from tutorial text.
+	 This is to override the style sheet rules.-->
+
+    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+	<tr>
+	  <td style="width: 186px;">Altitude</td>
+
+	  <td style="width: 451px;">385-1100m au-dessus du niveau de la mer</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Pr&eacute;cipitation annuelle</td>
+	  <td style="width: 451px;">1400mm - 2800mm</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Variation de temp&eacute;rature</td>
+	  <td style="width: 451px;">de 4&deg;C en hiver &agrave; 42&deg;C en &eacute;t&eacute;</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Ouverture aux touristes</td>
+	  <td style="width: 451px;">du 15 novembre au 15 juin</td>
+	</tr>
+
+	<tr>
+	  <td style="width: 186px;">Comment s'y rendre</td>
+	  <td style="width: 451px;">Le quartier g&eacute;n&eacute;ral de la R&eacute;serve du tigre Corbett se trouve &agrave; Ramnagar. On peut s'y rendre par la route &agrave; partir de Delhi, Moradabad, Bareilly et Nanital, et par car &agrave; partir de Delhi, Moradabad et Haldwani. Les touristes peuvent aussi atteindre Ramnagar en prenant le train &agrave; New Delhi.</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Avec le tableau de base ainsi cr&eacute;&eacute;, vous pouvez changer ses propri&eacute;t&eacute;s en activant le tableau c'est-&agrave;-dire en amenant le curseur dans le tableau et en cliquant sur le bouton <strong>Tableau</strong> dans la <strong>Barre d'outils principale</strong>. Dans la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s du tableau</q>, vous pouvez d&eacute;finir diverses propri&eacute;t&eacute;s pour le tableau, une cellule, une ligne ou une colonne, par exemple, la couleur de fond pour le tableau ou une cellule, la l&eacute;gende du tableau, son alignement, la largeur du tableau ou d'une colonne, etc.</p>
+
+    <p>Pour une description d&eacute;taill&eacute;e des propri&eacute;t&eacute;s d'un tableau, veuillez consulter la section <a href="composer_help.xhtml#formatting_your_web_pages">Ajouter des tableaux &agrave; votre page Web</a> dans l'aide de &brandShortName;.</p>
+
+    <p>[&nbsp;<a href="#inserting_images_and_tables">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="advanced_styles">Styles avanc&eacute;s</h2>
+
+    <p>&brandShortName; permet aux utilisateurs de cr&eacute;er ou d'&eacute;diter des feuilles de style en cascade &agrave; l'aide de son &eacute;diteur de feuilles de style int&eacute;gr&eacute; <q>CaScadeS</q>. CaScadeS a la possibilit&eacute; d'utiliser des feuilles de styles externes ou internes pour les documents &eacute;dit&eacute;s. Les d&eacute;tails sur la fa&ccedil;on d'utiliser CaScadeS n'entrent pas dans le cadre de ce tutoriel. Vous pouvez toutefois consulter la section <a href="composer_help.xhtml#using_style_sheets_for_your_web_pages">Utiliser des feuilles de style pour vos pages Web</a> dans l'aide de &brandShortName;.</p>
+
+    <p>[&nbsp;<a href="#advanced_styles">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="publishing_your_documents_basics">Publier vos documents - Bases</h2>
+
+    <p>Vous pouvez publier vos documents en utilisant le gestionnaire de sites int&eacute;gr&eacute; de &brandShortName;. Le panneau du gestionnaire de sites peut &ecirc;tre escamot&eacute; en appuyant sur la touche <kbd>F9</kbd>.</p>
+
+    <p>Le gestionnaire de sites est en cours de r&eacute;&eacute;criture, par cons&eacute;quent, la r&eacute;daction de cette partie a &eacute;t&eacute; repouss&eacute;e jusqu'&agrave; la sortie de la nouvelle version.</p>
+
+    <p>[&nbsp;<a href="#publishing_your_documents_basics">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <div class="copyrightBox"><em>19 novembre 2004</em></div>
+
+    <p>Copyright &copy; 2003-2004 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 6 mars 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+  </body>
+</html>

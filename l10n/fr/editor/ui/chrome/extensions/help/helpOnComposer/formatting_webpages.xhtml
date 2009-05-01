@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Cr&eacute;er des pages Web avec &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="help-fr.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Dans cette section&nbsp;:
+  <a href="composer_help.xhtml#starting_a_new_page">Commencer une nouvelle page</a>
+
+  <a href="formatting_webpages.xhtml">Mettre en forme des pages Web</a>
+
+  <a href="css.xhtml">Utiliser des feuilles de style pour vos pages Web</a>
+
+  <a href="tables.xhtml">Ajouter des tableaux &agrave; votre page Web</a>
+
+  <a href="images.xhtml">Ajouter des images &agrave; votre page Web</a>
+
+  <a href="toc.xhtml">Travailler avec une table des mati&egrave;res sur votre page Web</a>
+
+  <a href="templates.xhtml">Travailler avec des mod&egrave;les</a>
+
+  <a href="page_properties.xhtml">D&eacute;finir les propri&eacute;t&eacute;s de la page</a>
+
+  <a href="links.xhtml">Cr&eacute;er des liens dans &brandShortName;</a>
+
+  <a href="customize.xhtml">Personnaliser &brandShortName;</a>
+</div>
+
+<h2 id="formatting_your_web_pages">Mettre en forme vos pages Web</h2>
+
+<h3 id="formatting_paragraphs_heading_and_lists">Mettre en forme les paragraphes, titres et listes</h3>
+
+<p>Pour appliquer un format &agrave; un paragraphe, commencez depuis la fen&ecirc;tre de &brandShortName;&nbsp;:</p>
+
+<ol>
+  <li>Placez le pointeur &agrave; l'emplacement o&ugrave; vous souhaitez commencer &agrave; appliquer le format et cliquez ou s&eacute;lectionnez le texte &agrave; mettre en forme.</li>
+
+  <li>Choisissez une mise en forme de paragraphe &agrave; l'aide de la liste d&eacute;roulante de la barre d'outils de mise en forme&nbsp;:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+  <ul> <li><strong>Texte simple</strong>&nbsp;: utilise la police et le style par d&eacute;faut de l'application pour le texte normal, sans influencer l'espacement avant ou apr&egrave;s.</li>
+
+      <li><strong>Paragraphe</strong>&nbsp;: ins&egrave;re une balise de paragraphe (&agrave; utiliser pour commencer un nouveau paragraphe). Le paragraphe inclut les marges sup&eacute;rieure et inf&eacute;rieure du texte.</li>
+
+      <li><strong>Titre&nbsp;1</strong> - <strong>Titre&nbsp;6</strong>&nbsp;: formate le paragraphe comme un titre. <q>Titre&nbsp;1</q> est un titre de niveau sup&eacute;rieur et <q>Titre&nbsp;6</q> le titre de plus bas niveau.</li>
+
+      <li><strong>Adresse</strong>&nbsp;: ce format peut &ecirc;tre utilis&eacute; pour une <q>signature</q> de page Web qui indique l'auteur de la page et la personne &agrave; contacter pour plus d'informations, comme dans l'exemple suivant&nbsp;: <tt>utilisateur@exemple.com</tt>
+
+      <p>Vous pouvez y inclure la date et une note de droit d'auteur (ou copyright). Ce format s'affiche g&eacute;n&eacute;ralement au bas de la page Web sous une ligne horizontale. Le navigateur affiche le format d'adresse en italique.</p>
+      </li>
+
+      <li><strong>Pr&eacute;format&eacute;</strong>&nbsp;: ce format est utile pour les &eacute;l&eacute;ments tels que les exemples de code, les donn&eacute;es en colonnes et les messages &eacute;lectroniques &agrave; afficher dans une police &agrave; chasse fixe. En texte normal, la plupart des navigateurs suppriment les espaces, tabulations et retours chariot superflus. Toutefois, le texte utilisant le style pr&eacute;format&eacute; s'affiche avec l'espacement intact, ce qui pr&eacute;serve la mise en page du texte original.</li>
+      </ul>
+  </li>
+</ol>
+
+<p>Pour formater du texte comme un titre&nbsp;:</p>
+
+<ol>
+  <li>Cliquez pour placer le curseur en un point quelconque du texte &agrave; formater.</li>
+
+  <li>&Agrave; l'aide de la liste d&eacute;roulante de la barre d'outils de mise en forme, s&eacute;lectionnez le niveau de titre de votre choix, de 1 (le plus grand) &agrave; 6 (le plus petit). S&eacute;lectionnez <span class="menuPath">Titre&nbsp;1</span> pour le titre principal, <span class="menuPath">Titre&nbsp;2</span> pour le titre suivant, etc.</li>
+</ol>
+
+<p>Pour appliquer un format de liste&nbsp;:</p>
+
+<ol>
+  <li>Cliquez pour placer le curseur en un point quelconque du texte &agrave; formater.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Liste</span>.</li>
+
+  <li>Choisissez le style de liste&nbsp;:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+<ul> <li><strong>&Agrave; puces</strong>&nbsp;: chaque &eacute;l&eacute;ment de la liste est accompagn&eacute; d'une puce (point) &agrave; sa gauche (comme dans cette liste).</li>
+
+      <li><strong>Num&eacute;rot&eacute;e</strong>&nbsp;: les &eacute;l&eacute;ments sont num&eacute;rot&eacute;s.</li>
+
+      <li><strong>Termes</strong> et <strong>D&eacute;finitions</strong>&nbsp;: ces deux styles sont associ&eacute;s et cr&eacute;ent une apparence de type glossaire. Utilisez la balise <q>Termes</q> pour le mot &agrave; d&eacute;finir et la balise <q>D&eacute;finitions</q> pour la d&eacute;finition. Le texte Termes est align&eacute; &agrave; gauche et le texte D&eacute;finitions s'affiche en retrait.</li>
+      </ul>
+  </li>
+</ol>
+
+<p><strong>Conseil</strong>&nbsp;: vous pouvez appliquer rapidement un style de liste au texte en le s&eacute;lectionnant et en cliquant sur les boutons <q>Liste num&eacute;rot&eacute;e</q>
+
+<img src="images/numbers.png" width="30"  height="31" alt="Liste num&eacute;rot&eacute;e" /> et <q>Liste &agrave; puces</q> <img src="images/bullets.png" width="29" height="31" alt="Liste &agrave; puces" /> de la barre d'outils.</p>
+
+<p>Pour modifier le style des puces ou num&eacute;ros&nbsp;:</p>
+
+<ol>
+  <li>Cliquez pour placer le curseur dans le texte de la liste &agrave; modifier ou s&eacute;lectionnez un ou plusieurs &eacute;l&eacute;ments de la liste pour appliquer un nouveau style &agrave; l'ensemble de la liste.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Propri&eacute;t&eacute;s de la liste</span>.</li>
+
+  <li>S&eacute;lectionnez un style avec puces ou avec nombres dans la liste d&eacute;roulante. Pour les listes num&eacute;rot&eacute;es, vous pouvez &eacute;galement sp&eacute;cifier un num&eacute;ro de d&eacute;but. Pour les listes &agrave; puces, vous pouvez modifier le style de puce.</li>
+</ol>
+
+<p><strong>Conseil</strong>&nbsp;: pour modifier rapidement les propri&eacute;t&eacute;s d'une liste, double-cliquez sur un des &eacute;l&eacute;ments de celle-ci (puce ou num&eacute;ro) pour ouvrir la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s des listes</q>.</p>
+
+<p>Pour aligner un paragraphe ou un texte dans la page, par exemple, le centrer  ou l'aligner &agrave; gauche ou &agrave; droite&nbsp;:</p>
+
+<ol>
+  <li>Cliquez pour placer le curseur dans le paragraphe ou la ligne de texte &agrave;  aligner.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Aligner</span>, puis une option d'alignement.</li>
+</ol>
+
+<p><strong>Remarque</strong>&nbsp;: vous pouvez &eacute;galement utiliser la barre d'outils de mise en forme pour aligner du texte.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="working_with_lists">Manipuler les listes</h3>
+
+<p>Pour mettre fin &agrave; une liste et continuer &agrave; taper le texte principal&nbsp;:</p>
+
+<ul>
+  <li>Placez le curseur &agrave; la fin du dernier &eacute;l&eacute;ment de la liste et appuyez sur Entr&eacute;e (Retour sous Mac OS) deux fois de suite &agrave; la fin de la liste. Chaque fois que vous appuyez sur <kbd>Entr&eacute;e</kbd> le composeur passe au niveau de liste suivant. Le fait de taper deux fois de suite sur la touche <kbd>Entr&eacute;e</kbd> met fin &agrave; la num&eacute;rotation.</li>
+</ul>
+
+<p>Pour convertir un ou plusieurs &eacute;l&eacute;ments de liste en texte principal&nbsp;:</p>
+
+<ol>
+  <li>Placez le curseur dans l'&eacute;l&eacute;ment de liste ou s&eacute;lectionnez-le.</li>
+
+  <li>Dans une liste num&eacute;rot&eacute;e, cliquez sur le bouton de liste &agrave; puces (ou inversement) dans la barre d'outils de mise en forme. Les boutons de liste font basculer d'un style &agrave; l'autre.</li>
+</ol>
+
+<p>Pour placer du texte en retrait sous un &eacute;l&eacute;ment de liste&nbsp;:</p>
+
+<ol>
+  <li>Placez le curseur dans l'&eacute;l&eacute;ment de liste.</li>
+
+  <li>Appuyez sur <kbd>Maj+Entr&eacute;e</kbd> pour cr&eacute;er le retrait.</li>
+
+  <li>Entrez le texte &agrave; mettre en retrait.</li>
+
+  <li>Appuyez sur <kbd>Maj+Entr&eacute;e</kbd> pour cr&eacute;er un autre paragraphe en retrait ou sur <kbd>Entr&eacute;e</kbd> pour cr&eacute;er l'&eacute;l&eacute;ment de liste suivant.</li>
+</ol>
+
+<p id="increase_or_decrease_the_indentation_of_list_items"><strong>Conseil</strong>&nbsp;:
+vous pouvez augmenter ou diminuer le retrait de deux &eacute;l&eacute;ments de liste en cliquant n'importe o&ugrave; sur une liste d'&eacute;l&eacute;ments et en cliquant sur les boutons <q>Retrait vers la droite</q> ou <q>Retrait vers la gauche</q> dans la barre d'outils de mise en forme. Vous pouvez &eacute;galement cliquer n'importe o&ugrave; sur une liste d'&eacute;l&eacute;ments et appuyer sur la touche <kbd>Tab</kbd> pour augmenter le retrait et <kbd>Maj+Tab</kbd> pour le diminuer.</p>
+
+<p>Pour fusionner deux listes adjacentes&nbsp;:</p>
+
+<ol>
+  <li>S&eacute;lectionnez les deux listes &agrave; fusionner. Veillez &agrave; s&eacute;lectionner tous les &eacute;l&eacute;ments de ces listes. Notez qu'un texte plac&eacute; &eacute;ventuellement entre les deux listes sera int&eacute;gr&eacute; dans la liste fusionn&eacute;e.</li>
+
+  <li>Cliquez sur le bouton de liste &agrave; puces ou num&eacute;rot&eacute;e dans la barre d'outils de mise en forme pour fusionner les listes.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="changing_text_color_style_and_font">Modifier la couleur, le style et la police du texte</h3>
+
+<p>Pour modifier le style, la couleur ou la police du texte s&eacute;lectionn&eacute;&nbsp;:</p>
+
+<ol>
+  <li>S&eacute;lectionnez le texte &agrave; formater.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Format</span> et choisissez l'une des options suivantes&nbsp;:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <ul>
+      <li><strong>Police</strong>&nbsp;: permet de choisir une police. Pour utiliser les polices sp&eacute;cifi&eacute;es par le navigateur de l'utilisateur final, s&eacute;lectionnez <q>Largeur variable</q> ou <q>Largeur fixe</q>.
+
+      <p><strong>Remarque</strong>&nbsp;: toutes les polices install&eacute;es sur votre ordinateur ne sont pas affich&eacute;es. Plut&ocirc;t que de sp&eacute;cifier une police qui n'est peut-&ecirc;tre pas disponible pour toutes les personnes visitant votre page Web, il est g&eacute;n&eacute;ralement pr&eacute;f&eacute;rable de s&eacute;lectionner l'une des polices du menu dans la mesure o&ugrave; elles sont prises en charge par tous les ordinateurs. Par exemple, les polices Helvetica, Arial, Times et Courrier ont g&eacute;n&eacute;ralement une apparence identique sur tous les ordinateurs. Si vous en choisissez une autre, elle ne s'affichera peut-&ecirc;tre pas de la m&ecirc;me mani&egrave;re selon les syst&egrave;mes.</p> </li>
+
+      <li><strong>Taille</strong>&nbsp;: permet de s&eacute;lectionner une taille de police <em>relative</em> ou de r&eacute;duire ou diminuer la taille du texte (par rapport au texte avoisinant).</li>
+
+      <li><strong>Style de texte</strong>&nbsp;: permet de s&eacute;lectionner un style, comme italique, gras ou soulign&eacute;, ou d'appliquer un style structur&eacute; tel que Code par exemple.</li>
+
+      <li><strong>Couleur du texte</strong>&nbsp;: permet de s&eacute;lectionner une couleur dans la palette. Si vous connaissez les codes de couleur HTML, vous pouvez les entrer ou simplement saisir un nom de couleur en anglais (par exemple, <q>blue</q>). Vous trouverez un excellent convertisseur de codes couleurs sur le site <a href="http://www.yoyodesign.org/outils/ncolor/ncolor8.html.fr" target="_blank" hreflang="fr">Yoyodesign</a>.</li> 
+    </ul>
+  </li>
+</ol>
+
+<p>Pour modifier la couleur de fond de la page&nbsp;:</p>
+
+<ol>
+  <li>Cliquez n'importe o&ugrave; sur la page.</li>
+
+  <li>Cliquez sur la case <q>Choix de la couleur de fond</q> dans la barre de mise en forme.</li>
+
+  <li>Choisissez une couleur de fond dans la bo&icirc;te de dialogue <q>Couleur du fond du bloc</q>.</li>
+
+  <li>Cliquez sur <q>OK</q>.</li>
+</ol>
+
+<p><strong>Conseil</strong>&nbsp;: pour adopter rapidement la derni&egrave;re couleur de texte utilis&eacute;e, s&eacute;lectionnez le texte, puis appuyez sur la touche <kbd>Maj+Clic</kbd> souris sur la palette de couleurs. Cela peut &ecirc;tre utile pour utiliser une couleur pour diff&eacute;rentes lignes de texte.</p>
+
+<p>Vous pouvez &eacute;galement modifier la couleur de fond de la page ou utiliser une image comme fond de page. Voir <a href="#setting_page_colors_and_backgrounds">D&eacute;finir les couleurs et le fond de la page</a>.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="removing_or_discontinuing_text_styles">Supprimer ou interrompre les styles de texte</h3>
+
+<p>Pour supprimer tous les styles (gras, italique, etc.) du texte s&eacute;lectionn&eacute;&nbsp;:</p>
+
+<ol>
+  <li>S&eacute;lectionnez le texte.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Supprimer tous les styles de texte</span>.</li>
+
+  <li>Continuez &agrave; saisir.</li>
+</ol>
+
+<p>Pour continuer &agrave; taper du texte avec tous les styles supprim&eacute;s&nbsp;:</p>
+
+<ol>
+  <li>Placez le curseur l&agrave; o&ugrave; vous souhaitez supprimer les styles.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Format</span> et choisissez <span class="menuPath">Arr&ecirc;ter les styles de texte</span>.</li>
+
+  <li>Continuez &agrave; saisir.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="finding_and_replacing_text">Rechercher et remplacer du texte</h3>
+
+<p>Pour rechercher et remplacer du texte dans la page sur laquelle vous &ecirc;tes en train de travailler&nbsp;:</p>
+
+<ol>
+  <li>Placez le curseur l&agrave; o&ugrave; vous souhaitez commencer votre recherche.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">&Eacute;dition</span> et choisissez <span class="menuPath">Rechercher et remplacer</span>. Vous verrez alors la bo&icirc;te de dialogue <q>Rechercher et remplacer</q>.</li>
+
+  <li>Tapez le texte que vous voulez rechercher et le texte de remplacement.</li>
+
+  <li>Pour limiter la recherche, s&eacute;lectionnez une ou plusieurs des options suivantes&nbsp;:
+
+  <ul>
+    <li><strong>Respecter la casse</strong>&nbsp;: permet de sp&eacute;cifier si la recherche doit faire la distinction entre les minuscules et les majuscules. Pour des correspondances exactes, cochez cette option.</li>
+
+<li><strong>Recherche circulaire</strong>&nbsp;: utilisez ceci pour rechercher jusqu'&agrave; la fin du document, puis, &agrave; partir du d&eacute;but ou de la fin du document, selon que vous cherchez en avant ou en arri&egrave;re.</li>
+
+    <li><strong>Rechercher en arri&egrave;re</strong>&nbsp;: permet d'effectuer une recherche de la position du curseur jusqu'au d&eacute;but de la page.</li>
+
+  </ul>
+  </li>
+
+  <li>Cliquez sur <q>Rechercher le suivant</q> pour rechercher l'occurrence suivante. &brandShortName; s&eacute;lectionne l'occurrence suivante du texte.</li>
+
+  <li>Cliquez sur <q>Remplacer</q> pour remplacer le texte s&eacute;lectionn&eacute; par le nouveau texte. Cliquez sur <q>Rechercher et remplacer</q> pour remplacer le texte s&eacute;lectionn&eacute; et trouver la prochaine occurrence. Cliquez sur <q>Remplacer tout</q> pour remplacer toutes les occurrences du texte dans le document.</li>
+
+  <li>Cliquez sur <q>Fermer</q> lorsque vous avez termin&eacute;.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp; <a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="inserting_horizontal_lines">Ins&eacute;rer des lignes horizontales</h3>
+
+<p>Les lignes horizontales permettent g&eacute;n&eacute;ralement d'&eacute;tablir une s&eacute;paration visuelle entre diff&eacute;rentes sections d'un document. Pour ins&eacute;rer une ligne horizontale (&eacute;galement appel&eacute;e <em>r&egrave;gle</em>) dans votre page, commencez &agrave; partir de la fen&ecirc;tre de &brandShortName;&nbsp;:</p>
+
+<ol>
+  <li>Placez le curseur &agrave; l'endroit o&ugrave; ins&eacute;rer la ligne.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Insertion</span> et choisissez <span class="menuPath">Ligne horizontale</span>.</li></ol>
+
+<h3 id="setting_horizontal_line_properties">D&eacute;finir les propri&eacute;t&eacute;s des lignes horizontales</h3>
+
+<p>Vous pouvez personnaliser la hauteur, la longueur, la largeur, l'alignement et l'ombre de la ligne.</p>
+
+<ol>
+  <li>Double-cliquez sur la ligne pour afficher la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de la ligne horizontale</q>.</li>
+
+  <li>Vous pouvez modifier les propri&eacute;t&eacute;s suivantes&nbsp;:
+
+  <ul>
+    <li><strong>Largeur</strong>&nbsp;: choisissez une unit&eacute; de mesure (pixels ou pourcentage) et entrez la valeur de la largeur. Si vous sp&eacute;cifiez la largeur en pourcentage, celle-ci changera &eacute;galement lorsque vous agrandirez ou diminuerez la taille de la fen&ecirc;tre du navigateur ou de &brandShortName;.</li>
+
+    <li><strong>Hauteur</strong>&nbsp;: entrez la valeur de la hauteur de la ligne (en pixels).</li>
+
+    <li><strong>Ombre 3-D</strong>&nbsp;: cette option ajoute de la profondeur &agrave; la ligne gr&acirc;ce &agrave; un ombrage en relief.</li>
+
+    <li><strong>Alignement</strong>&nbsp;: sp&eacute;cifiez o&ugrave; placer la ligne (Gauche, Centrer ou Droite).</li>
+  </ul>
+  </li>
+
+  <li>Cliquez sur <q>Utiliser par d&eacute;faut</q> pour utiliser ces param&egrave;tres par d&eacute;faut lors de la prochaine insertion d'une ligne horizontale.</li>
+
+  <li>Pour modifier manuellement les propri&eacute;t&eacute;s d'une ligne horizontale, cliquez sur <q>&Eacute;dition avanc&eacute;e</q>. Voir la section, <a href="#using_the_advanced_property_editor">Utiliser l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es</a> pour plus de d&eacute;tails.</li>
+</ol>
+
+<p><strong>Conseil</strong>&nbsp;: vous pouvez s&eacute;lectionner <span class="menuPath">Balises HTML</span> dans le menu <span class="menuPath">Affichage</span> pour afficher tous les &eacute;l&eacute;ments HTML dans des cadres jaunes. Double-cliquez sur l'un de ces cadres pour afficher la bo&icirc;te de dialogue <a href="#using_the_advanced_property_editor">&Eacute;diteur des propri&eacute;t&eacute;s avanc&eacute;es</a> pour l'&eacute;l&eacute;ment correspondant.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="inserting_special_characters">Ins&eacute;rer des caract&egrave;res sp&eacute;ciaux</h3>
+
+<p>Pour ins&eacute;rer des caract&egrave;res sp&eacute;ciaux tels que des caract&egrave;res accentu&eacute;s, de copyright ou des symboles de devise&nbsp;:</p>
+
+<ol>
+  <li>Placez le curseur &agrave; l'endroit o&ugrave; ins&eacute;rer le caract&egrave;re sp&eacute;cial.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Insertion</span> et choisissez <span class="menuPath">Caract&egrave;res et symboles</span>.</li>
+
+  <li>Choisissez une cat&eacute;gorie de caract&egrave;res.
+
+  <ul> <li>Si vous choisissez <q>Accents sur les majuscules</q> ou <q>Accents sur les minuscules</q>, ouvrez la liste d&eacute;roulante Lettre et s&eacute;lectionnez la lettre &agrave; accentuer (toutes les lettres n'ont pas de forme accentu&eacute;e). S&eacute;lectionnez <q>Symboles usuels</q> pour ins&eacute;rer des caract&egrave;res sp&eacute;ciaux tels que le symbole de copyright ou les fractions.</li>
+  </ul>
+  </li>
+
+  <li>Dans la liste d&eacute;roulante <q>Caract&egrave;re</q>, s&eacute;lectionnez le caract&egrave;re &agrave; ins&eacute;rer.</li>
+
+  <li>Cliquez sur <q>Ins&eacute;rer</q>.
+
+  <p>Vous pouvez continuer &agrave; r&eacute;diger votre document (ou &agrave; travailler dans une fen&ecirc;tre de composition de message) en gardant cette bo&icirc;te de dialogue ouverte, dans le cas o&ugrave; vous en auriez encore besoin.</p> </li>
+
+  <li>Cliquez sur <q>Fermer</q> lorsque vous avez fini d'ins&eacute;rer des caract&egrave;res sp&eacute;ciaux.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="inserting_html_elements_and_attributes">Ins&eacute;rer des &eacute;l&eacute;ments et attributs HTML</h3>
+
+<p>Si vous &ecirc;tes familiaris&eacute; avec le language HTML, vous pouvez ins&eacute;rer d'autres balises, attributs de style et codes JavaScript dans le code source de votre page. Dans le cas contraire, il est pr&eacute;f&eacute;rable de ne pas le modifier. Pour travailler avec du code HTML, utilisez l'une des deux m&eacute;thodes suivantes&nbsp;:</p>
+
+<ul>
+  <li>Placez le curseur l&agrave; o&ugrave; vous souhaitez ins&eacute;rer le code HTML, ou s&eacute;lectionnez le texte que vous d&eacute;sirez &eacute;diter, ouvrez le menu <span class="menuPath">Insertion</span> et choisissez <span class="menuPath">HTML</span>. Dans la bo&icirc;te de dialogue <q>Ins&eacute;rer du code HTML</q>, entrez des balises HTML et du texte, puis cliquez sur <q>Ins&eacute;rer</q>.</li>
+
+  <li>S&eacute;lectionnez un &eacute;l&eacute;ment tel qu'un tableau, un marqueur nomm&eacute;, une image, un lien ou une ligne horizontale. Double-cliquez sur l'&eacute;l&eacute;ment pour ouvrir la bo&icirc;te de dialogue des propri&eacute;t&eacute;s correspondante. Cliquez sur <q>&Eacute;dition avanc&eacute;e</q> pour ouvrir l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es. Vous pouvez utiliser l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es pour ajouter des attributs HTML, du JavaScript, et des &eacute;l&eacute;ments CSS &agrave; des objets.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Affichage</span>, et s&eacute;lectionnez <span class="menuPath">Source HTML</span>, ou cliquez sur l'onglet <q>&lt;HTML&gt; Source</q> dans la barre d'outils <q>Mode d'&eacute;dition par onglet</q> au bas de la fen&ecirc;tre de &brandShortName;. Si cette barre d'outils n'est pas affich&eacute;e, ouvrez le menu <span class="menuPath">Affichage</span> et choisissez <span class="menuPath">Barres d'outils</span>&nbsp;; ensuite, veillez &agrave; ce que la barre <q>Modes d'&eacute;dition</q> soit s&eacute;lectionn&eacute;e.</li>
+</ul>
+
+<h3 id="using_the_advanced_property_editor">Utiliser l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es</h3>
+
+<p>Pour ajouter des attributs HTML et des &eacute;v&eacute;nements JavaScript &agrave; des objets tels que des tableaux, images et lignes horizontales, vous pouvez utiliser l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es.</p>
+
+<p><strong>Remarque</strong>&nbsp;: &agrave; moins de comprendre parfaitement comment ajouter, supprimer ou modifier des attributs HTML et les valeurs associ&eacute;es, il est pr&eacute;f&eacute;rable de s'en abstenir.</p>
+
+<p>Si vous n'avez pas encore affich&eacute; la bo&icirc;te de dialogue <q>&Eacute;diteur des propri&eacute;t&eacute;s avanc&eacute;es</q>, proc&eacute;dez comme suit&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Affichage</span> (ou la barre d'outils <q>Modes d'&eacute;dition</q>), s&eacute;lectionnez <span class="menuPath">Balises HTML</span>.</li>
+
+  <li>Double-cliquez sur l'objet &agrave; modifier pour ouvrir sa bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s</q>.</li>
+
+  <li>Cliquez sur <q>&Eacute;dition avanc&eacute;e</q> pour ouvrir l'&Eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es. La bo&icirc;te de dialogue de l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es comprend trois onglets, affichant chacun les propri&eacute;t&eacute;s de l'objet s&eacute;lectionn&eacute;&nbsp;:
+
+  <ul>
+    <li><strong>Attributs HTML</strong>&nbsp;: cliquez sur cet onglet pour afficher ou entrer des attributs HTML.</li>
+
+    <li><strong>Style interne</strong>&nbsp;: cliquez sur cet onglet pour afficher ou entrer des propri&eacute;t&eacute;s CSS (cascading style sheet) &agrave; l'aide de l'attribut &lt;style&gt;. Pour plus d'informations sur l'utilisation des feuilles de style (CSS) dans &brandShortName;, voir la section <a href="preferences.xhtml">Pr&eacute;f&eacute;rences de &brandShortName;</a>.</li>
+
+    <li><strong>&Eacute;v&eacute;nements JavaScript</strong>&nbsp;: cliquez sur cet onglet pour afficher ou entrer des &eacute;v&eacute;nements JavaScript.</li>
+
+  </ul>
+  </li>
+
+  <li>Pour modifier une propri&eacute;t&eacute; ou un attribut dans l'une des trois listes, s&eacute;lectionnez-le. Vous pouvez alors modifier le nom ou la valeur de l'attribut &agrave; l'aide des champs modifiables <q>Attribut</q> et <q>Valeur</q> au bas de la bo&icirc;te de dialogue. Pour ajouter un attribut, tapez-le dans le champ <q>Attribut</q> au bas de la bo&icirc;te de dialogue. Le nouvel attribut est automatiquement ajout&eacute; lorsque vous cliquez dans le champ <q>Valeur</q>. Pour supprimer un attribut, s&eacute;lectionnez-le dans la liste et cliquez sur <q>Supprimer</q>.
+  <p><strong>Remarque</strong>&nbsp;: les attributs obligatoires sont mis en surbrillance dans la liste.</p></li>
+
+  <li>Cliquez sur <q>OK</q> pour appliquer les modifications de la bo&icirc;te de dialogue <q>&Eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es</q>.</li>
+
+  <li>Cliquez de nouveau sur <q>OK</q> pour quitter la bo&icirc;te de dialogue.</li>
+</ol>
+
+<p>&brandShortName; place automatiquement le texte d'attribut entre guillemets.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="validating_the_html">Valider le code HTML</h3>
+
+<p>Avant de placer votre document sur un serveur Web pour permettre &agrave; d'autres personnes de le consulter, il convient d'en v&eacute;rifier la mise en forme HTML pour s'assurer qu'il est conforme aux normes du Web. Les documents contenant du code HTML valid&eacute; sont moins susceptibles de causer des probl&egrave;mes lors de leur consultation &agrave; l'aide de diff&eacute;rents navigateurs. La simple v&eacute;rification visuelle de vos pages Web dans votre navigateur ne garantit pas que votre document s'affichera correctement dans d'autres navigateurs Web.</p>
+
+<p>&brandShortName; offre un moyen pratique de v&eacute;rifier que votre document est conforme aux standards HTML du <acronym title="World Wide Web Consortium">W3C</acronym>. &brandShortName; utilise le service de validation HTML du <acronym title="World Wide Web Consortium">W3C</acronym>, qui v&eacute;rifie que la syntaxe HTML de votre document est conforme au standard HTML 4.01 et fournit des informations quant &agrave; la fa&ccedil;on de corriger les erreurs.</p>
+
+<p><strong>Remarque</strong>&nbsp;: il est indispensable d'&ecirc;tre connect&eacute; &agrave; Internet pour utiliser cette fonction.</p>
+
+<p>Pour valider la syntaxe HTML de votre document&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Outils</span> et choisissez <span class="menuPath">Validateur de code HTML (W3C)</span>. Si des modifications n'ont pas &eacute;t&eacute; enregistr&eacute;es, le composeur affiche un message vous invitant &agrave; les enregistrer avant de continuer.</li>
+
+  <li>&brandShortName; ouvrira une autre fen&ecirc;tre avec les r&eacute;sultats pour votre page affich&eacute;s apr&egrave;s la validation de votre fichier par le service de validation du W3C.</li>
+
+</ol>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="choosing_the_right_editing_mode">S&eacute;lectionner le mode d'&eacute;dition appropri&eacute;</h3>
+
+<p>Il n'est g&eacute;n&eacute;ralement pas n&eacute;cessaire de changer le mode d'&eacute;dition par d&eacute;faut (Normal). Toutefois, si vous souhaitez travailler avec le code source HTML du document, vous devrez changer de mode d'&eacute;dition.</p>
+
+<p>&brandShortName; permet d'alterner rapidement entre quatre <em>modes d'&eacute;dition</em> ou vues. Chaque mode d'&eacute;dition permet de continuer &agrave; travailler sur le document, en affichant diff&eacute;rents niveaux de balises HTML (et d'ic&ocirc;nes de balises).</p>
+
+<p>Avant de s&eacute;lectionner un mode d'&eacute;dition&nbsp;:</p>
+
+<ul>
+  <li>Ouvrez le menu <span class="menuPath">Affichage</span>, choisissez <span class="menuPath">Barre d'outils</span> et v&eacute;rifiez que la barre d'outils <q>Modes d'&eacute;dition</q> est activ&eacute;e.</li>
+</ul>
+
+<p>La barre d'outils <q>Modes d'&eacute;dition</q> comprend quatre onglets&nbsp;:</p>
+
+<ul>
+  <li><strong>Normal</strong>&nbsp;: choisissez ce mode pour voir &agrave; quoi ressemblera le document en ligne pendant que vous le cr&eacute;ez. Choisissez ce mode pour afficher les ic&ocirc;nes de bordure de tableaux et des ancres nomm&eacute;es. Toutes les autres ic&ocirc;nes de balises HTML sont cach&eacute;es.</li>
+
+  <li><strong>Balises HTML</strong>&nbsp;: choisissez ce mode pour afficher toutes les ic&ocirc;nes de balises HTML.</li>
+
+  <li><strong>&lt;HTML&gt; Source</strong>&nbsp;: choisissez ce mode pour afficher et modifier le document sous forme de code source HTML non format&eacute;. Lorsque vous enregistrez le document, le mode Normal r&eacute;appara&icirc;t.</li>
+
+  <li><strong>Aper&ccedil;u</strong>&nbsp;: choisissez ce mode pour afficher le document exactement tel qu'il appara&icirc;trait dans une fen&ecirc;tre du navigateur et le modifier, &agrave; ceci pr&egrave;s que les liens et les fonctions JavaScript ne seront pas actifs.</li>
+</ul>
+
+<p><strong>Remarque</strong>&nbsp;: les fonctions JavaScript, cadres, liens, Java, objets incorpor&eacute;s et fichiers gif anim&eacute;s ne sont activ&eacute;s dans aucun des modes d'&eacute;dition. Pour afficher ces &eacute;l&eacute;ments &agrave; l'&eacute;tat activ&eacute;, cliquez sur le bouton <q>Navigateur</q> dans la barre de composition pour charger la page dans une fen&ecirc;tre du navigateur. Cette option est aussi disponible dans le menu <span class="menuPath">Fichier</span>, option <span class="menuPath">Aper&ccedil;u dans le navigateur</span>.</p>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="using_status_bar_for_formatting_your_web_page">Utiliser la barre d'&eacute;tat pour formater votre page Web</h3>
+
+<p>&brandShortName; comporte une fonctionnalit&eacute; innovante d'&eacute;dition et d'application
+des styles int&eacute;gr&eacute;s, des classes ou des balises au texte s&eacute;lectionn&eacute; &agrave; partir de sa barre d'&eacute;tat. Appliquer les styles en utilisant la barre d'&eacute;tat est possible dans tous les modes except&eacute; le mode d'affichage <strong>&lt;HTML&gt; Source</strong>.</p>
+
+<ul>
+  <li><strong>S&eacute;lectionner</strong> Cliquer sur <q>S&eacute;lectionner</q> s&eacute;lectionnera tout le texte encadr&eacute; par les balises de style.</li>
+  <li><strong>Supprimer la balise</strong> Cliquer sur <q>Supprimer la balise</q> supprimera la balise de style et donc tous les styles pour cette balise seront supprim&eacute;s.</li>
+
+  <li><strong>Changer la balise</strong> En utilisant cette option, l'utilisateur peut changer la balise utilis&eacute;e pour le texte sans le moindre effort. Cliquer sur <q>Changer la balise</q> permettra au texte de la balise correspondante d'&ecirc;tre modifiable dans la barre d'&eacute;tat. Entrez la balise d&eacute;sir&eacute;e et appuyez sur <q>Entr&eacute;e</q>. Les propri&eacute;t&eacute;s par d&eacute;faut de cette balise seront appliqu&eacute;s au texte de la page Web.</li>
+
+  <li><strong>Styles int&eacute;gr&eacute;s</strong> Alors que dans les modes d'&eacute;dition <q>Normal</q>, <q>Balises HTML</q> ou <q>Aper&ccedil;u</q>, les balises encadrant la position actuelle du curseur sont affich&eacute;es dans la barre d'&eacute;tat de la fen&ecirc;tre de &brandShortName;, les propri&eacute;t&eacute;s du style de toute balise peuvent &ecirc;tre chang&eacute;es en choisissant une option &agrave; partir du menu contextuel. Pour changer les propri&eacute;t&eacute;s du style int&eacute;gr&eacute;&nbsp;:
+
+  <ol>
+    <li>Faites un clic droit sur la balise que vous voulez modifier.</li>
+    <li>Cliquez sur <q>Styles int&eacute;gr&eacute;s</q>.</li>
+    <li>S&eacute;lectionnez la section propri&eacute;t&eacute;s que vous voulez modifier&nbsp;:
+    <ul>
+      <li>Propri&eacute;t&eacute;s du texte</li>
+      <li>Propri&eacute;t&eacute;s de bordure</li>
+      <li>Propri&eacute;t&eacute;s d'arri&egrave;re-plan</li>
+      <li>Propri&eacute;t&eacute;s de bo&icirc;te</li>
+      <li>Propri&eacute;t&eacute;s audio</li>
+      <li>Extraire et cr&eacute;er un style g&eacute;n&eacute;rique</li>
+    </ul></li>
+  </ol>
+  <p>S&eacute;lectionner une quelconque de ces options sauf la derni&egrave;re ouvrira l'onglet de la section correspondante de l'&eacute;diteur de feuilles de styles CaScadeS (vous en saurez plus sur CaScadeS dans la section <a href="#using_style_sheets_for_your_web_pages">Utiliser des feuilles de styles</a>). Dans l'onglet correspondant ouvert, l'utilisateur peut d&eacute;finir ses propres styles qui seront enregistr&eacute;s en respectant la syntaxe des CSS du W3C.</p>
+
+  <p>L'option <strong>Extraire et cr&eacute;er un style g&eacute;n&eacute;rique</strong>
+permet &agrave; l'utilisateur d'extraire l'information du style dans une r&egrave;gle de style et de l'enregistrer dans une feuille de style externe ou interne.</p></li>
+
+  <li>L'option <strong>Mod&egrave;les</strong> vous propose deux choix, <q>Rendre &eacute;ditable</q> et <q>Supprimer la zone &eacute;ditable</q>, qui peuvent &ecirc;tre utilis&eacute;s quand vous travaillez avec des mod&egrave;les. Pour plus d'information sur les mod&egrave;les, allez &agrave; la section <a href="#working_with_templates">Travailler avec les mod&egrave;les</a>.</li>
+
+  <li>Le menu <strong>ID</strong> montre les identifiants utilis&eacute;s dans la feuille de style du document. Pour affecter un identifiant au texte s&eacute;lectionn&eacute;, cliquez sur l'identifiant voulu.</li>
+
+  <li>Le menu <strong>Classes</strong> montre les classes utilis&eacute;es dans la feuille de style du document. Pour affecter une classe au texte s&eacute;lectionn&eacute;, cliquez sur la classe voulue.</li>
+
+  <li>L'option <strong>Propri&eacute;t&eacute;s avanc&eacute;es</strong> permet d'utiliser l'&eacute;diteur de propri&eacute;t&eacute;s avanc&eacute;es pour ajouter des attributs HTML et du JavaScript aux &eacute;l&eacute;ments comme les tableaux, les images, les liens, etc. Allez &agrave; la section <a
+  href="#using_the_advanced_property_editor">Propri&eacute;t&eacute;s avanc&eacute;es</a> pour plus de d&eacute;tails.</li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#formatting_your_web_pages">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+<p>[&nbsp;<a href="css.xhtml">Suivant</a>&nbsp;] [&nbsp;<a href="composer_help.xhtml">Pr&eacute;c&eacute;dent</a>&nbsp;]</p>
+
+  <div class="copyrightBox"><em>20 juin 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 23 juin 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>

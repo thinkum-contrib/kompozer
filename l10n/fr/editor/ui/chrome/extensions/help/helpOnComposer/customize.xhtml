@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Personnaliser &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="help-fr.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Dans cette section&nbsp;:
+  <a href="#toolbar_customization">Personnalisation des barres d'outils</a>
+  <a href="#enhancing_nvu_functionality">Enrichir les fonctionnalit&eacute;s &agrave; &brandShortName;</a>
+</div>
+
+<h1 id="customizing_toolbars">Personnaliser &brandShortName;</h1>
+
+<h2 id="toolbar_customization">Personnalisation des barres d'outils</h2>
+
+<p>Vous pouvez personnaliser les barres d'outils de &brandShortName; pour les adapter &agrave; vos besoins. Vous pouvez ainsi ne garder que les boutons que vous utilisez le plus souvent et cacher ceux que vous n'utilisez jamais. En cons&eacute;quence, &brandShortName; sera plus facile &agrave; utiliser.</p>
+
+<h3 id="how_to_customize_toolbars">Comment personnaliser les barres d'outils</h3>
+
+<p>Pour ouvrir la fen&ecirc;tre de personnalisation des barres d'outils, cliquez sur le menu <span class="menuPath">Affichage > Barres d'outils > Personnalisation des barres d'outils</span> et s&eacute;lectionnez la barre d'outils que vous voulez personnaliser. Ou bien vous pouvez cliquer avec le bouton droit de la souris sur la barre d'outils que vous souhaitez modifier et s&eacute;lectionner <span class="menuPath">Personnalisation des barres d'outils</span>.</p>
+
+<p>Pour personnaliser les barres d'outils&nbsp;:</p>
+
+<ul>
+  <li>Vous pouvez glisser un bouton, un s&eacute;parateur, un espace flexible ou un espace fixe dans la barre d'outils o&ugrave; vous voulez ajouter cet &eacute;l&eacute;ment.</li>
+
+  <li>Vous pouvez ramener un des &eacute;l&eacute;ments (bouton, espace fixe, espace flexible ou s&eacute;parateur) depuis la barre d'outils vers la fen&ecirc;tre de personnalisation.</li>
+
+  <li>Vous pouvez &eacute;galement changer l'aspect des boutons de la barre d'outils (barre d'outils principale) en choisissant parmi <q>Textes et ic&ocirc;nes</q>, <q>Ic&ocirc;nes</q> et <q>Textes</q></li>
+
+</ul>
+
+<p class="returnToSection">[&nbsp;<a href="#customizing_toolbars">Revenir au d&eacute;but de la section</a>&nbsp;]</p>
+
+  <h2 id="enhancing_nvu_functionality">Enrichir les Fonctionnalit&eacute;s de &brandShortName;</h2>
+
+  <p>&brandShortName; int&egrave;gre un m&eacute;canisme pour enrichir ses
+  puissantes fonctions. De nouvelles fonctionnalit&eacute;s peuvent &ecirc;tre
+  ajout&eacute;es par le biais d'<em>extensions</em>. Les extensions sont de
+  petits programmes qui ajoutent des fonctions une fois install&eacute;es dans
+  &brandShortName;. Les utilisateurs peuvent choisir d'installer les extensions
+  qui leur plaisent. Ainsi les extensions permettent &agrave; l'utilisateur
+  d'avoir une version personnalis&eacute;e de &brandShortName;. Pour installer
+  une extension&nbsp;:</p>
+
+  <ul> <li>T&eacute;l&eacute;chargez une extension sur votre ordinateur et
+  enregistrez la &agrave; un endroit accessible. La plupart des extensions
+  peuvent &ecirc;tre t&eacute;l&eacute;charg&eacute;es sur le site de
+  &brandShortName;.</li>
+
+  <li>Ouvrez le <strong>Gestionnaire d'extensions</strong> en cliquant sur
+  <span class="menuPath">Outils > Extensions</span>. Le Gestionnaire
+  d'extensions affichera la liste de toutes les extensions install&eacute;es
+  (s'il y en a).</li>
+
+  <li>Cliquez sur le bouton <em>Installer</em> pour installer l'extension que
+  vous venez de t&eacute;l&eacute;charger.</li>
+
+  <li>Choisissez l'extension en parcourant votre disque dur et cliquez sur le
+  bouton <em>Ouvrir</em>.</li>
+
+  <li>Cliquez sur le bouton <em>Installer maintenant</em> dans la fen&ecirc;tre
+  qui vient de s'ouvrir.</li>
+
+  <li>Une fois l'installation termin&eacute;e, red&eacute;marrez
+  &brandShortName; pour profiter des nouvelles fonctionnalit&eacute;s
+  apport&eacute;es par votre nouvelle extension.</li>
+
+  </ul>
+
+  <p>V&eacute;rifiez r&eacute;guli&egrave;rement si des mises &agrave; jour
+  sont disponibles pour vos extensions avec le Gestionnaire d'extensions. Les
+  mises &agrave; jour am&eacute;liorent g&eacute;n&eacute;ralement les
+  fonctionnalit&eacute;s offertes par les extensions et corrigent les
+  probl&egrave;mes des versions plus anciennes.</p>
+
+<p>[&nbsp;<a href="links.xhtml">Pr&eacute;c&eacute;dent</a>&nbsp;]</p>
+
+<div class="copyrightBox"><em>20 juin 2004</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 23 juin 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>
