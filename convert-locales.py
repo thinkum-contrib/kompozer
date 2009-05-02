@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # purpose     : l10n utility script for KompoZer 0.8
 # developer   : Fabien Cazenave <kaze@kompozer.net>
-# last update : 2009-05-02
+# last update : 2009-05-03
 
 ###############################################################################
 #                                                                             #
