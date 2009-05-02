@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="#">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h2 id="formatting_your_web_pages">A weboldal formázása</h2>
+
+<h3 id="formatting_paragraphs_heading_and_lists">Bekezdések, címsorok és listák formázása</h3>
+
+<p>To apply a format to a paragraph, begin from the &brandShortName;
+window:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a formázás kívánt kezdőhelyére, vagy jelöljük ki a formázni kívánt szöveget.</li>
+
+  <li>Válasszunk bekezdésformátumot a Formázó eszköztár lenyitható listáján:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Szövegtörzs:</strong> az alkalmazás alapértelmezett betűkészletével és -stílusával formázza a szöveget, a szöveg előtti és utáni térköz változatlan marad.</li>
+
+      <li><strong>Bekezdés:</strong> bekezdés kódelemet szúr be (ezzel új bekezdés kezdhető). A bekezdéshez felső és alsó margó tartozik.</li>
+
+      <li><strong>Címsor 1</strong> ? <strong>Címsor 6:</strong> címsorként formázza a bekezdést. A Címsor 1 a legfelső, míg a Címsor 6 a legalsó szintű címet jelenti.</li>
+
+      <li><strong>Cím</strong>: Használható a weblap "signature"-jaként, amiből megtudtathjuk az oldal szerzőjét és azt, hogy kinél kaphatunk bővebb felvlágosítást, mint például: <tt>user@example.com</tt>
+
+      <p>Itt adható meg a dátum és a szerzői jogi megjegyzés is. Az így formázott szöveget általában a weboldal alján, egy vízszintes vonal alatt helyezik el. A Böngésző dőlten jeleníti meg az ilyen bekezdéseket.</p>
+      </li>
+
+      <li><strong>Preformat</strong>: Ez akkor hasznos, amikor olyan elemeket használunk, mint például kódrészlet, oszlopba rendezett adat, vagy egy levél, és szeretnénk a betüket fix elrendezésben látni. Normál szövegnél a böngészők általában eltávolítják a fölösleges szóközöket, a tabulátorokat és a soremeléseket. Az Előformázott stílussal formázott szövegnél viszont megtartják az eredeti elrendezést (az összes üres hellyel együtt).</li>
+      </ul>
+  </li>
+</ol>
+
+<p>Szöveg formázása címsorként:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a formázni kívánt szöveg tetszőleges helyére.</li>
+
+  <li>A Formázó eszköztár lenyitható listáján válasszuk a kívánt szintű címsorformátumot, az első szintű címeknél ez legyen a Címsor 1, a következő szintűnél Címsor 2 és így tovább.</li>
+</ol>
+
+<p>Felsorolások vagy listák elemeinek formázása:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a formázni kívánt szöveg tetszőleges helyére.</li>
+
+  <li>Válasszuk a Formátum menü Felsorolás parancsát.</li>
+
+  <li>Válasszunk stílust:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Golyózott</strong>: Minden elem a listában rendelkezik egy golyóval (ponttal).</li>
+
+      <li><strong>Számozott:</strong> az elemek elé szám kerül.</li>
+
+      <li><strong>Kifejezés (DT)</strong> és <strong>Definíció (DD):</strong> ez a két stílust együtt használjuk, és így a fogalomtárak stílusának megfelelő formázás alakítható ki. A Kifejezés (DT) kódelemet az ismertetni kívánt fogalom, míg a Definíció (DD) kódelemet a magyarázat szövegének formázására alkalmazzuk. A Kifejezés (DT) stílussal formázott szöveg balra zárt, míg a Definíció (DD) stílusú behúzott lesz.</li>
+      </ul>
+  </li>
+</ol>
+
+<p><strong>Tipp:</strong> a felsorolások formázása egyszerűen végrehajtható, ha kijelöljük a szöveget, és a Formázó eszköztáron a Számozott lista <img src="images/numbers.png" width="21" height="21" alt="" /> vagy a Számozatlan (felsorolás) <img src="images/bullets.png" width="21" height="21" alt="" /> gombra kattintunk.</p>
+
+<p>Felsorolások vagy számozott listák stílusának módosítása:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a módosítani kívánt elem szövegébe, vagy jelöljünk ki egy vagy több listaelemet, ha az új stílust a teljes listára szeretnénk alkalmazni.</li>
+
+  <li>Válasszuk a Formátum menü Felsorolás pontját, majd itt a Felsorolás tulajdonságai parancsot.</li>
+
+  <li>A lenyitható listán válasszunk felsorolásjeles vagy számozott stílust. Számozott listáknál megadható a kezdőszám is. A felsorolásoknál a felsorolásjel módosítható.</li>
+</ol>
+
+<p><strong>Tipp:</strong> a Felsorolás tulajdonságai párbeszédpanel megjeleníthető úgy is, hogy duplán kattintunk egy felsorolásjelre vagy számra.</p>
+
+<p>Bekezdés vagy szöveg igazítása az oldalon, például középre, balra vagy jobbra zárás:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot az igazítani kívánt bekezdés vagy szövegsor tetszőleges helyére.</li>
+
+  <li>Válasszuk a Formátum menü Igazítás parancsát, és adjuk meg a kívánt beállítást.</li>
+</ol>
+
+<p><strong>Megjegyzés:</strong> a szöveg igazításához a Formázó eszköztár is használható.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="working_with_lists">Felsorolások és listák kezelése</h3>
+
+<p>Felsorolás vagy lista befejezése, és a szöveg folytatása szövegtörzsként:</p>
+
+<ul>
+  <li>Kattints a beillesztés pontjára és az utolsó listaelemre, majd ezek után üss Entert (Return a MacOs-en).</li>
+</ul>
+
+<p>Egy vagy több listaelem átalakítása szövegtörzzsé:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a listaelemen belülre, vagy jelöljük ki a kívánt elemeket.</li>
+
+  <li>Számozott listánál kattintsunk a Formázó eszköztár számozott lista gombjára, míg felsorolásnál a felsorolás gombra.</li>
+</ol>
+
+<p>Szöveg behúzása listaelem alatt:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a listaelem szövegébe.</li>
+
+  <li>Függő behúzás létrehozásához nyomjuk meg a Shift+Enter billentyűkombinációt.</li>
+
+  <li>Írjuk be a behúzott bekezdés szövegét.</li>
+
+  <li>Újabb behúzott bekezdés létrehozásához nyomjuk meg a Shift+Enter billentyűkombinációt, illetve a következő listaelemhez az Enter billentyűt.</li>
+</ol>
+
+<p id="increase_or_decrease_the_indentation_of_list_items"><strong>Tipp:</strong> a listaelemek behúzása megváltoztatható: kattintsunk egy listaelembe, majd a Formázó eszköztáron a Behúzás növelése vagy Behúzás csökkentése gombra. Ugyanez lesz az eredmény, ha a listaelembe kattintunk, megnyomjuk a Tab billentyűt a behúzás növeléséhez, vagy a Shift+Tab billentyűkombinációt a behúzás csökkentéséhez.</p>
+
+<p>Két szomszédos lista egyesítése:</p>
+
+<ol>
+  <li>Jelöljük ki az egyesíteni kívánt listákat. Ügyeljünk arra, hogy mindkét lista összes eleme szerepeljen a kijelölésben. A két lista közötti szöveg is az egyesített lista része lesz.</li>
+
+  <li>A listák egyesítéséhez kattintsunk a Formázó eszköztáron a számozott lista vagy a felsorolás gombjára.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="changing_text_color_style_and_font">A szöveg színének, stílusának és betűkészletének megadása</h3>
+
+<p>A kijelölt szöveg stílusának, színének vagy betűkészletének módosítása:</p>
+
+<ol>
+  <li>Jelöljük ki a formázni kívánt szöveget.</li>
+
+  <li>Válasszuk a Formátum menü megfelelő parancsát:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <ul>
+      <li><strong>Betűkészlet</strong>: Használd ezt a betűtípus kiválasztására. Ha az olvasó böngészőjével megadott betűkészletet szeretnénk használni, válasszuk a Proporcionális vagy a Fix szélességű beállítást.
+
+      <p><strong>Megjegyzés</strong>: Nem minden betűtípus található meg azon a gépen, ahol a weblap meg lesz jelenítve. Érdemes olyan betűkészletet választani, amely várhatóan a weboldalt megtekintők gépén is rendelkezésre áll, ezért ez a lista ilyeneket tartalmaz. Például a Helvetica, az Arial, a Times és a Courier általában azonos módon jelenik meg a különböző számítógépeken. Más betűkészlet megadásakor ez nem feltétlenül biztosítható.</p> </li>
+
+      <li><strong>Méret</strong>: Használd ezt egy <em>relatív</em> betűméret beállítására, vagy növeld vagy csökkentsd a szöveg méretét. (relatív minden szövegre).</li>
+
+      <li><strong>Szöveg stílusa</strong>: Használd ezt, hogy kiválassz egy stílust, mint például dőlt, félkövér, vagy aláhuzott, vagy alkalmazd egy felépített stílusra, mint például, a kódra.</li>
+
+      <li><strong>Szövegszín:</strong> a szöveg színének beállítására szolgál. Ha ismerjük a HTML hexadecimális színkódjait, megadhatjuk a színkódot, de beírhatjuk a szín nevét is. Jól használható színkód-átalakító található <a href="http://builder.com.com/1200-31-5087779.html"
+      target="_blank">itt</a>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Az oldal háttérszínének megváltoztatása:</p>
+
+<ol>
+  <li>Kattintsunk bárhol az oldalon.</li>
+
+  <li>Kattintsunk a Formázó eszköztáron a háttér színválasztójára.</li>
+
+  <li>Az Oldal háttérszíne párbeszédpanelen válasszunk háttérszínt.</li>
+
+  <li>Kattintsunk az OK gombra.</li>
+</ol>
+
+<p><strong>Tipp:</strong> a legutóbb használt szövegszín egyszerűen alkalmazható: jelöljük ki a szöveget, tartsuk lenyomva a Shift billentyűt, és kattintsunk a Formázó eszköztáron a szövegszín választójára. Ez akkor lehet hasznos, ha különböző szövegsoroknál ugyanazt a színt szeretnénk használni.</p>
+
+<p>Háttérként képet is használhatunk. Erről lásd: <a
+href="#setting_page_colors_and_backgrounds">Az oldal színeinek és hátterének beállítása</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="removing_or_discontinuing_text_styles">Szövegformázás eltávolítása vagy befejezése</h3>
+
+<p>A kijelölt szöveg összes stílusbeállításának (félkövér, dőlt stb.) eltávolítása:</p>
+
+<ol>
+  <li>Jelöljük ki a kívánt szöveget.</li>
+
+  <li>Válasszuk a Formátum menü Szövegformázás törlése parancsát.</li>
+
+  <li>Folytassuk a szöveg beírását.</li>
+</ol>
+
+<p>A szövegbevitel folytatása stílusformázás nélkül:</p>
+
+<ol>
+  <li>Helyezzük oda a beszúrási pontot, ahol le szeretnénk állítani a szövegformázást.</li>
+
+  <li>Válasszuk a Formátum menü Szövegformázás befejezése parancsát.</li>
+
+  <li>Folytassuk a szöveg beírását.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="finding_and_replacing_text">Szöveg keresése és cseréje</h3>
+
+<p>Szöveg keresése az aktuális oldalon:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a keresést kezdeni szeretnénk.</li>
+
+  <li>Válasszuk a Szerkesztés menü Keresés és csere parancsát, vagy nyomjuk meg a Ctrl+F billentyűkombinációt. A Keresése és csere párbeszédpanel jelenik meg.</li>
+
+  <li>A Keresés mezőbe írjuk be a keresett szöveget. A keresés szűkítéséhez megadhatjuk a következő beállításokat is:
+
+  <ul>
+    <li><strong>Kis- és nagybetűk különböznek:</strong> a beállítással a kis- és a nagybetűk kezelése adható meg.</li>
+
+    <li><strong>Körbeforgatás</strong>: Használd ezt a keresést az oldal alján és kezd az oldal tetején megint attól függően, hogy lefele vagy felfele akarsz keresni.</li>
+
+    <li><strong>Keresés visszafelé:</strong> bejelölésekor a keresés a beszúrási pont és az oldal kezdete között történik.</li>
+
+  </ul>
+  </li>
+  <li>A keresés elindításához kattintsunk a Következő találat gombra. Amikor &brandShortName;
+  meghatározza a szöveg első előfordulását, kattints a Find Next-re hogy keresd a következő előfordulást.</li>
+  <li>Ha befejeztük a műveletet, kattintsunk a Bezárás gombra.</li>
+</ol>
+
+<p>Szöveg keresése és cseréje az aktuális oldalon:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a keresést kezdeni szeretnénk.</li>
+
+  <li>Válasszuk a Szerkesztés menü Keresés és csere parancsát, vagy nyomjuk meg a Ctrl+F billentyűkombinációt. A Keresése és csere párbeszédpanel jelenik meg.</li>
+
+  <li>Írjuk be a keresett szöveget, majd azt, amire ezt cserélni szeretnénk.</li>
+
+  <li>A keresés szűkítéséhez megadhatjuk a következő beállításokat is:
+
+  <ul>
+    <li><strong>Kis- és nagybetűk különböznek:</strong> a beállítással a kis- és a nagybetűk kezelése adható meg. Ha üresen hagyjuk a négyzetet, a keresés a találatok megállapításánál egyezőnek tekinti a kis- és a nagybetűket.</li>
+
+    <li><strong>Folytatás az elejéről:</strong> a beállítással a dokumentum végének vagy elejének elérésekor folytatódik a keresés.</li>
+
+    <li><strong>Keresés visszafelé:</strong> bejelölésekor a keresés a beszúrási pont és az oldal kezdete között történik.</li>
+
+  </ul>
+  </li>
+
+  <li>A megadott szöveg következő előfordulásának kereséséhez kattintsunk a Következő találat gombra. &brandShortName; kiválasztja a következő előfordulását a szövegnek.</li>
+
+  <li>Ha itt végre szeretnénk hajtani a cserét, kattintsunk a Csere gombra. Itt a cseréhez és a következő előfordulás kereséséhez kattintsunk a Csere és keresés gombra. A dokumentumban az összes előfordulás cseréjéhez kattintsunk a Mindet cseréli gombra.</li>
+
+  <li>Ha befejeztük a műveletet, kattintsunk a Bezárás gombra.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="inserting_horizontal_lines">Vízszintes vonal beszúrása</h3>
+
+<p>Vízszintes vonalakkal a dokumentum különböző szakaszai választhatók el egymástól. Hogy beillessz egy horizontális vonalat a weblapba, kezd el &brandShortName;window:</p><ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a vonalat szeretnénk megjeleníteni.</li>
+
+  <li>Válasszuk a Beszúrás menü Vízszintes vonal parancsát.</li>
+</ol>
+
+<h3 id="setting_horizontal_line_properties">A vízszintes vonal tulajdonságainak beállítása</h3>
+
+<p>A vonal hosszúsága, vastagsága, igazítása és árnyékolása adható meg.</p>
+
+<ol>
+  <li>A Vízszintes vonal tulajdonságai párbeszédpanel megjelenítéséhez kattintsunk duplán a vonalra.</li>
+
+  <li>Edit any of these properties:
+
+  <ul>
+    <li><strong>Szélesség:</strong> írjuk be a szélességet, és válasszunk mértékegységet: ez az ablakméret százaléka vagy képpont lehet. Ha beállítod a százalékot, a vonal szélessége változik amikor az &brandShortName; ablak - vagy a böngésző szélessége változik.</li>
+
+    <li><strong>Magasság:</strong> írjuk be a vonal magasságát (képpontban).</li>
+
+    <li><strong>3D-s árnyékolás:</strong> választásakor árnyékolással térhatású vonal jeleníthető meg.</li>
+
+    <li><strong>Igazítás:</strong> itt a vonal igazítását állíthatjuk be (balra, középre vagy jobbra).</li>
+  </ul>
+  </li>
+
+  <li>A Legyen ez az alapbeállítás választásával a megadott beállítások az ezután beszúrt vízszintes vonalakra is érvényesek lesznek.</li>
+
+  <li>A vízszintes vonal tulajdonságainak kézi szerkesztéséhez kattintsunk a Haladó szerkesztés gombra. További tudnivalók: <a
+  href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a>.</li>
+</ol>
+
+<p><strong>Tipp:</strong>a Nézet menü Minden HTML tag megjelenítése parancsával a HTML elemeket sárga színű keretben jeleníthetjük meg. Kattints a sárga kockára, hogy jelölj be mindent amit az adott HTML tag tartalmaz. Dupla kattintással megjeleníti a <a href="#using_the_advanced_property_editor">Profi Tulajdonság Szerkesztőt</a> ablakot a kijelöt HTML tagra nézve.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="inserting_special_characters">Különleges karakterek beszúrása</h3>
+
+<p>Különleges karakterek beszúrása (ilyen például a copyright szimbólum vagy a pénznemek jelei):</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a különleges karaktert szeretnénk megjeleníteni.</li>
+
+  <li>Válasszuk a Beszúrás menü Karakterek és szimbólumok parancsát. A Karakter beillesztése párbeszédpanel jelenik meg.</li>
+
+  <li>Select a category of characters.
+
+  <ul> <li>Az Ékezetes nagybetű vagy az Ékezetes kisbetű választásakor a Betű lista lenyitása után kijelölhető a kívánt betű. (Megjegyzés: nem minden betűre kerülhet ékezet.) Az Általános szimbólumok választásakor a szokásos különleges karakterek szúrhatók be.</li>
+  </ul>
+  </li>
+
+  <li>A Karakter lenyitható listán jelöljük ki a beszúrni kívánt karaktert.</li>
+
+  <li>Kattintsunk a Beszúrás gombra.
+
+  <p>A párbeszédpanel nyitva hagyható, folytatható a szöveg beírása, így bármikor egyszerűen beszúrható különleges karakter.</p> </li>
+
+  <li>Ha már nincs szükség különleges karakter beszúrására, kattintsunk a Bezárás gombra.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="inserting_html_elements_and_attributes">HTML elemek és tulajdonságok beillesztése</h3>
+
+<p>Ha ismerjük a HTML forráskód működését, további kódelemeket, stílusattribútumokat és JavaScript kódot is beszúrhatunk az oldalra. Ha bizonytalanok vagyunk a változtatások eredményében, leghelyesebb, ha nem módosítjuk a forráskódot. A HTML kóddal való munkánál a következő módszereket használhatjuk:</p>
+
+<ul>
+  <li>Helyezzük a beszúrási pontot oda, ahol a HTML kódot szeretnénk beszúrni, vagy jelöljük ki a szerkeszteni kívánt szöveget, majd válasszuk a Beszúrás menü HTML parancsát. A HTML beszúrása párbeszédpanelen írjuk be a HTML kódelemeket és a szöveget, majd kattintsunk a Beszúrás gombra.</li>
+
+  <li>Jelöljünk ki egy elemet, például táblázatot, horgonyt, képet, hivatkozást vagy vízszintes vonalat. Az elemhez tartozó tulajdonságbeállító párbeszédpanel megnyitásához kattintsunk duplán az elemre. A Haladó tulajdonságok szerkesztése párbeszédpanel megnyitásához kattintsunk a Haladó szerkesztés gombra. Ezen a párbeszédpanelen HTML-attribútum, JavaScript-kód és stíluslap vehető fel az objektumokhoz.</li>
+
+  <li>Nyísd ki Nézet menüt, és válaszd ki a HTML forrást, vagy kattints a
+  &lt;HTML&gt; forrás fülre az Szerkesztő mód toolbarnál a
+  &brandShortName; ablak tetejében. (Ha nem látható a Szerkesztő mód eszköztár, válasszuk a Nézet menü Eszköztárak parancsát, és jelöljük be az eszköztárat.)</li>
+</ul>
+
+<h3 id="using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</h3>
+
+<p>Az objektumokhoz, ilyen lehet a táblázat, a kép vagy a vízszintes vonal, HTML attribútumok és JavaScript kód felvételéhez használhatjuk a Haladó tulajdonságok szerkesztése párbeszédpanelt.</p>
+
+<p><strong>Megjegyzés</strong>: Amíg nem érted teljesen, hogy hogyan szerkeszd a HTML attríbutomokat és a hozzárendelt értékeket addig élesben ne próbáld ki.</p>
+
+<p>A Haladó tulajdonságok szerkesztése párbeszédpanel a következő lépésekkel jeleníthető meg:</p>
+
+<ol>
+  <li>Válasszuk a Nézet menü Minden HTML tag megjelenítése parancsát (a megfelelő gomb a Szerkesztő mód eszköztáron is elérhető).</li>
+
+  <li>A módosítani kívánt objektumra duplán kattintva megjelenik a Tulajdonságok párbeszédpanel.</li>
+
+  <li>Az objektum Haladó tulajdonságok szerkesztés párbeszédpaneljének megnyitásához kattintsunk a Haladó szerkesztés gombra. The Advanced Property Editor has three tabs, each of which
+  lists the current properties for the selected object:
+
+  <ul>
+    <li><strong>HTML attribútumok:</strong> ezen a panellapon a HTML attribútumok jelennek meg, és továbbiak is beírhatók.</li>
+
+    <li><strong>Inline Style</strong>: Kattints erre a fülre hogy megtekints további CSS tulajdonságokat. További információkért kattints a következő linkre:  &brandShortName;<a
+    href="preferences.xhtml">&brandShortName;
+    tulajdonságok</a>.</li>
+
+    <li><strong>JavaScript történések</strong>: Kattints erre a fülre, hogy megtekintsd őket.</li>
+
+  </ul>
+  </li>
+
+  <li>A három lista bármelyikén lévő tulajdonság vagy attribútum szerkesztéséhez jelöljük ki a kívánt elemet. Ekkor az attribútum neve és értéke a párbeszédpanel alján lévő Attribútum és Érték mezőben szerkeszthető. Új attribútum szerkesztéséhez írjuk be azt az Attribútum mezőbe. Az új attribútum automatikusan felkerül a listára, amikor az Érték mezőbe kattintunk. Attribútum eltávolításához jelöljük azt ki a listán, és kattintsunk az Eltávolítás gombra.  <p><strong>Megjegyzés:</strong> a kötelező attribútumok kiemelve jelennek meg a listán.</p></li>
+
+  <li>A módosítások érvénybe léptetéséhez kattintsunk az OK gombra.</li>
+
+  <li>A Tulajdonságok párbeszédpanel bezárásához ismét kattintsunk az OK gombra.</li>
+</ol>
+
+<p>&brandShortName; automatikusan beilleszt idézőjeleket az attríbútum szövege köré.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="validating_the_html">A HTML érvényesítése</h3>
+
+<p>Mielőtt egy dokumentumot a webszerverre helyeznél, jó ha először megnézed a dokumentum formázását, hogy megfeleljen a standardoknak. Az érvényesített HTML kódot tartalmazó dokumentumoknál sokkal kisebb a valószínűsége, hogy problémát okoznak más böngészőkben. Csak nézd meg weblapot vizuálisan a kedvenc webbögésződben, hogy nehogy rosszul jelenjen meg, csak ezek után ellenőrízd más böngészőkkel is.</p>
+
+<p>&brandShortName; provides a convenient way for you to check that
+your document conforms to W3C (World Wide Web Consortium) HTML
+standards. &brandShortName; uses the W3C HTML Validation Service,
+which checks your document's HTML syntax for compliance with HTML 4.01
+standards.  A szolgáltatás javaslatokat tesz az esetleges hibák javítására is.</p>
+
+<p><strong>Megjegyzés</strong>: A szolgáltatás használatához csatlakozva kell legyél az interethez.</p>
+
+<p>A dokumentum HTML szintaxisának ellenőrzése:</p>
+
+<ol>
+  <li>Válasszuk a Feladatok menü HTML ellenőrzése parancsát. If you have
+  unsaved changes, &brandShortName; asks you to save them before
+  proceeding.</li>
+
+  <li>&brandShortName; meg fog nyítni egy új ablakot a W3C vizsgálat eredményével.</li>
+
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="choosing_the_right_editing_mode">A megfelelő szerkesztési mód választása</h3>
+
+<p>Általában nem szükséges megváltoztatni az alapértelmezett (Normál) szerkesztési üzemmódot. Ha viszont a dokumentum HTML forráskódjával szeretnénk dolgozni, erre is sor kerülhet.</p>
+
+<p>&brandShortName; megengedi a gyors váltást a négy szerkesztési mód között. Valamennyi üzemmódban folytathatjuk a munkát a dokumentumon, azonban a HTML kódelemek (és ikonok) különböző szintjeit látjuk.</p>
+
+<p>A szerkesztési üzemmód választása előtt:</p>
+
+<ul>
+  <li>Válasszuk a Nézet menü Eszköztárak parancsát, és ellenőrizzük a Szerkesztő mód eszköztár bejelölését.</li>
+</ul>
+
+<p>A Szerkesztő mód eszköztáron négy fül található:</p>
+
+<ul>
+  <li><strong>Normál:</strong> ebben a szerkesztési üzemmódban a dokumentum készítése közben is úgy tekinthető meg, ahogy majd a böngészőben fog megjelenni. Ebben az üzemmódban láthatók a táblázatok szegélyei és a horgonyikonok, de az összes többi HTML kódelem rejtett.</li>
+
+  <li><strong>Minden Tag mutatása</strong>: Válaszd ezt, hogy mutassa az összes HTML tag ikonját.</li>
+
+  <li><strong>&lt;HTML&gt; forrás:</strong> ezt az üzemmódot akkor érdemes választani, ha a formázás nélküli HTML forráskódot szeretnénk megtekinteni és szerkeszteni. Amikor mentjük a dokumentumot, az újból Normál üzemmódban jelenik meg.</li>
+
+  <li><strong>Előnézet:</strong> ebben az üzemmódban a dokumentum pontosan úgy jelenik meg, ahogy a böngésző ablakában is látszani fog, a különbség annyi, hogy a JavaScript funkciók nem működnek.</li>
+</ul>
+
+<p><strong>Megjegyzés:</strong> a JavaScript-kód, a keretek, a hivatkozások, a Java, a beágyazptt objektumok és az animált GIF-fájlok egyik szerkesztési üzemmódban sem aktívak. Ezeknek az elemeknek a működése a böngésző ablakában ellenőrizhető: ehhez kattintsunk a Szerkesztés eszköztáron a Megtekintés gombra.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<h3 id="using_status_bar_for_formatting_your_web_page">A készenléti bar használata a weboldal formázására</h3>
+
+<p>&brandShortName; rendelkezik egy új tulajdonsággal, ami segít a tulajdonságok alkalmazásában a kijelölt részen a készenléti bár segítségével. Ezt a funkciót lehet használni kivétel a <strong>&lt;HTML&gt; Source</strong> módban.</p>
+
+<ul>
+  <li><strong>Választás</strong> Kattints a "Select"-re, hogy erőszakosan kiválaszd a stílus tagot.</li>
+  <li><strong>Tag eltávolítása</strong> "Remove Tag"-ra való kattintás eltávolítja a stílus tagokat.</li>
+
+  <li><strong>Tag megváltoztatása</strong> Ezt az opciót használva a felhasználó tudja módosítani a tagokat a legkevesebb erőkifejrtéssel. A "Change Tag"-ra való klikkelés elkészíti a szöveget az adott tag módosításához a készenléti barban. Írd be a megfelelő tagot, és üss Entert. Az alapértelmezett tagok alkalmazva lesznek a weblapon.</li>
+
+  <li><strong>Inline stílusok</strong>Amíg akármelyik normál, HTML
+  Tag, vagy Előnézet nézési módban a tagok mutatva vannak a készenléti bárban. Stílus tulajdonságok, amelyek minden tagot jellemeznek, és szerkeszthetők:
+  <ol>
+    <li>Jobb kattintás az adott tagon.</li>
+    <li>Kattints "Inline Styles"-ra</li>
+    <li>Válaszd ki az adott tulajdonségot:
+    <ul>
+      <li>Szöveges tulajdonség</li>
+      <li>Szél tulajdonság</li>
+      <li>Háttér tulajdonság</li>
+      <li>Doboz tulajdonság</li>
+      <li>Aural tulajdonság</li>
+      <li>Extract és create Generic stílusok</li>
+    </ul></li>
+  </ol>
+  <p>Kiválasztva bármelyik opciót kivétel az utolsót, ki fogja nyitni az oda illő ablakot a CSStől. Bővebb információ a CSS-ről:
+ <a href="#using_style_sheets_for_your_web_pages">itt</a>. Az alkalmas ablakot, a felhasználó meghatározhatja az ő saját stílusa szerint.</p>
+
+  <p>Az <strong>Extract and create Generic Style</strong> opció megengedi a felhasználónak, hogy kiszedje a stílusinformációkat egy adot stílusálloményba, azt elmentse és máshol felhasználhassa.</p></li>
+
+  <li><strong>Templates</strong> felajánl két opciót, "Make Editable" és "Remove Editable Area", amik felhasználhatók amíg dolgozunk velük. További információkért, tekints el <a href="#working_with_templates">ide</a>.</li>
+
+  <li><strong>ID</strong> megmutatja az ID tagokat(ha lehetséges) a jelenlegi stílusban és alkalmazza az adott dokumentumban. Részleges tagok aplikálása (a kijelült szövegen), csak kattints az adott ID tagra.</li>
+
+  <li><strong>Class</strong> megmutatja a class tagokat (ha lehetséges) az adott stílsból amit alkalmazott az adott dokumentumon. Alkalmazni a classokat a kijelölt szövegen lehet, csak kattints a Class tagra.</li>
+
+  <li>A <strong>Profi tulajdonságok</strong> ,egemgedik neked hogy használd a Profi tulajdonságszerkesztőt hogy beillessz HTML attríbutomokat és Javascripteket stb. További tudnivalók: <a  href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a>.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Vissza a cikk elejére</a>
+]</p>
+
+<p>[<a href="css.xhtml">Előző</a>] [<a href="composer_help.xhtml">Következő</a>]</p>
+
+  <div class="copyrightBox"><em>7 August 2006</em></div>
+
+<p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Contributor(s):
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Az &brandShortName; beállításai</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">
+
+    <a href="#preferences_general_settings">Általános beállítások</a>
+
+    <a href="#preferences_fonts">Betűk</a>
+
+    <a href="#preferences_new_page_settings">Új oldal beállításai</a>
+
+    <a href="#preferences_advanced_settings">Haladó beállítások</a>
+
+  </div>
+
+  <h1 id="preferences">Az &brandShortName; beállításai</h1>
+
+  <p>A &brandShortName; számos fontos beállítása a Beállítások panelen
+változtatható meg. ó felhasználók szükségleteiknek megfelelően állíthatják be az
+&brandShortName; programot. A beállítások felhasznákra lebontva tárolódnak.</p>
+
+  <p>Ez a fejezet az &brandShortName; beállításait ismerteti. A megfelelő párbeszédpanel a következő lépésekkel jeleníthető meg:</p>
+
+  <ol>
+
+    <li>Válasszuk az <span class="menuPath">Eszközök > Beállítások</span>
+  menüt (Mac OS X alatt a Mozilla menüt) a Beállítások panel
+  megnyitásához.</li>
+
+    <li>Kattints a kategóriákra, hogy lásd a megfelelő beállításokat.</li>
+  </ol>
+
+  <p>A közzétételi beállítások megváltoztatásáért tekints el <a href="publishing_help.xhtml#publishing_settings">ide</a>.</p>
+
+  <h2 id="preferences_general_settings">Általános beállítások</h2>
+
+  <p>Az általános beállítások megengedik, hogyí finomíts az állományokon és a táblázatokon. Ezek az összes létrehozott dokumentumra érvényesek lesznek.</p>
+
+  <p>Amennziben még nem látod a beállítások rengetegét, kövesd a következő lépéseket:</p>
+
+  <ol>
+    <li>Válasszuk a Szerkesztés menü (Mac OS X alatt a Mozilla menü) Beállítások parancsát.</li>
+
+    <li>A fülekből válaszd ki az Általános feliratú fület.</li>
+  </ol>
+
+  <h3 id="preferences_general_settings_recent">Legutóbb szerkesztett oldalak</h3>
+
+  <p><strong>A listában megjelenő oldalak maximális száma:</strong> adjuk meg a Fájl menü Legutóbb szerkesztett oldalak parancsának választásakor megjelenő dokumentumok számát.</p>
+
+  <h3 id="preferences_general_settings_saving_publishing">Fájlok mentésekor</h3>
+
+  <ul>
+
+    <li><strong>Retain original source formatting</strong>: Akkor érdemes választani, ha meg szeretnénk tartani a HTML forráskód jobb olvashatóságát biztosító üres helyeket (üres sorok, tabulátorok stb.) A beállítás nincs hatással az oldalak böngészőben való megjelenítési módjára.</li>
+
+    <li><strong>HTML forrás újraformázása:</strong> ez a beállítás újraformázza a HTML forráskódot: üres sorok és behúzások beszúrásával olvashatóbbá teszi azt. A beállítás nincs hatással az oldalak böngészőben való megjelenítési módjára.</li>
+
+    <li><strong>Képek és más csatolt fájlok mentése az oldalak mentésekor:</strong> bejelölésekor az összes kép, JavaScript (JS), stíluslap (CSS) és egyéb kapcsolódó fájl is mentésre kerül a dokumentummal azonos helyre, amikor először vagy új helyre mentjük a dokumentumot. Ha üresen hagyjuk a négyzetet, csak a HTML fájlt menti a rendszer.</li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p>Ha például távoli oldalt szerkesztünk, ez a beállítás biztosítja, hogy a kapcsolódó fájlok helyi mentése is megtörténjék, amikor a merevlemezre mentjük az oldalt.</p> </li>
+
+    <li><strong>Always show Publish dialog when publishing
+    pages</strong>: Amennyiben be van kapcsolva, akkor a program egyfolytában mutatni fogja a közzétételi ablakot.</li>
+
+  </ul>
+
+[ <a href="#preferences_general_settings">Vissza a fejezet elejére</a> ]<h3 id="preferences_general_settings_table_editing">Táblázat szerkesztése</h3>
+
+  <p><strong>Maintain table layout when inserting or deleting
+  cells</strong>: Használd ezt az opciót, hogy a brandShortName; mindig megtartsa a táblázat elrendezését, akkor s ha azt kitöröltük vagy bármilyen módosítást ejtettünk rajta.</p>
+
+[ <a href="#preferences_general_settings">Vissza a fejezet elejére</a> ]<h3
+  id="preferences_general_settings_cascading_style_sheets_editing">Cascading
+  Style Sheets(CSS) Editing</h3>
+
+  <p><strong>Használni a CSS dolgokat a HTML dokumentumban</strong>: Megengedi a CSS használatát, a dokumentum formázásában. Ezzel az eszközzel &brandShortName; generál egy HTML 4.01 formázást, amelyben minden stíluselemet a CSSből vesz.</p>
+
+  <p>Amennziben ez az opció nincs megengedve &brandShortName; generál HTML 4.01-es formázást, de CSS elemek nélkül.</p>
+
+  <p>A stíluslapokat használó formázás jobban átvihető a rendszerek között, karbantartása egyszerűbb és kompatibilis a különböző böngészőkkel. A beállítás engedélyezésekor a stíluslapok nélkül létrehozott dokumentum módosításakor a HTML-szerkesztő stílusokkal helyettesíti a szerkesztett elemeket.
+Amennyiben engedélyezed ezt az opciót, a szerkesztett elemek már CSSben lesznek megoldva.</p>
+
+  <p>A stílusok engedélyezésekor a kijelölt szöveg kiemeléséhez a Formázó eszköztár szövegkiemelésre szolgáló gombja használható. Ugyanígy színes háttér is választható az oldal tetszőleges eleméhez. (Ezek a szolgáltatások a beállítás tiltásakor nem állnak rendelkezésre.)</p>
+
+  [<a href="#preferences_general_settings">Return to beginning of
+  section</a>]
+
+  <h3 id="preferences_general_settings_site_manager">Webhelykezelő</h3>
+
+  <p><strong>Always open a document in a new tab</strong>: Amennyiben nem akarod, hogy a taskbar megteljen, ajánlatos ezt az opciót engedélyezni.</p>
+
+  <p class="returnToSection">[ <a href="#preferences">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="preferences_fonts">Betűk</h2>
+
+  <!-- The documentation for the Fonts section has been blatantly
+       copied from Firefox Help and then an attempt was made to
+       conform it to &brandShortName; realm. -->
+
+  <p>Beilleszthetük saját vagy más betűtípust is, de ügyeljünk arra, hogy a kliensen is megtalálható legyen ez a font.</p>
+
+  <h3 id="preferences_fonts_fonts_for">Fonts for</h3>
+
+  <p>A <em>Fonts for:</em>-ban meg lehet definiálni font-családokat. Hogy ezt megtedd, kövesd a lépéseket:</p>
+
+  <ol>
+
+    <li>Válassza ki a <em>Kódolás</em> legördülő menüből a
+karakterkódolást. 
+Hogy az alapértelmezett dolgokat tegye be, válaszd ki a Western-t.</li>
+
+    <li>Jelöld ki a szöveget és határozd meg a relatív méretét.</li>
+
+    <li>Válassz a következő fontcsaládok közül: Serif, Sans-serif, Cursive Fantasy
+    vagy Monospace.</li>
+  </ol>
+
+  <p>Meghatározhatod a minimum betűméretet. Ez hasznos a kis betűmérettel rendelkező oldaknál.</p>
+
+  <p>Meghatározhatod még a felbontást is, ami alapból 96 dpi.</p>
+
+  <p class="returnToSection">[ <a href="#preferences">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="preferences_new_page_settings">New Page Settings</h2>
+
+  <p>A New Page settings megengedi neked, hogy meghatározd a színeket, a hátteret, ami érvényes lesz minden dokumentumon, amit szerkeszteni fogsz.</p>
+
+  <p>A megfelelő párbeszédpanel a következő lépésekkel jeleníthető meg:</p>
+
+  <ol> <li>Nyisd ki a  Tools menüt (Mozilla a Mac OS X-en) és válaszd ki a
+  Preferences-t.</li>
+
+  <li>Kattints a New Page Settings fülre</li>
+  </ol>
+
+  <h3 id="preferences_new_page_settings_author">Szerző</h3>
+
+  <p>írd be a neved, ami be lesz illesztve a HTML kódba, minden lapon amit szerkesztesz.
+A neved nem lesz látható az oldalon, csak a kódban.</p>
+
+  [<a href="#preferences_new_page_settings">Vissza a fejezet elejére</a>]
+
+  <h3 id="preferences_new_page_settings_markup">Jelölőnyelv</h3>
+
+  <ul>
+
+    <li><strong>Nzelv</strong>: Kiválaszthatod, hogy milyen nyelvben írd meg a weboldalad.
+ Választhatsz a <acronym title="Hyper Text Document Language">HTML</acronym> 4.0 vagy az 
+<acronym title="Xtensible Hyper Text Language">XHTML</acronym> 1.0 között.</li>
+
+    <li><strong>DTD</strong>: Select the <acronym title="Document Type
+    Definition">DTD</acronym> to be used as default when creating new
+    web documents. Options of defining the document as
+    <em>Transitional</em> or <em>Strict</em> are available.</li>
+
+  </ul>
+
+  [<a href="#preferences_new_page_settings">Vissza a fejezet elejére</a>]
+
+  <h3
+  id="preferences_new_page_settings_default_page_appearance">Weboldal alapértelmezett kinézete</h3>
+
+  <ul>
+
+    <li><strong>A látogató böngészőjének alapértelmezett színei:</strong> választásakor az oldalak megtekintéséhez használt böngésző beállításai határozzák meg a szöveg és a hivatkozások színeit.</li>
+
+    <li><strong>Egyéni színek használata:</strong> akkor jelöljük be, ha a szöveg és a hivatkozások színeit magunk szeretnénk megadni. Then for each element, select a color by clicking the
+    color button next to each element which will open the color-picker
+    to select the color easily.</li>
+
+    <li><strong>Háttérkép:</strong> adjuk meg a képfájl helyét és nevét, vagy kattintsunk a Tallózás gombra, és keressük meg a fájlt a merevlemezen vagy a hálózaton.
+
+    <p><strong>Megjegyzés</strong>: A háttérkép tile módban van, és a háttérszín fölé kerül.</p> </li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+	       list-style-image: none;">
+
+      <p>Adott oldalaknál megváltoztatható a szerző neve: ehhez válasszuk a Formátum menü Oldal címe és tulajdonságai parancsát.</p>
+
+      <p>Adott oldalaknál megváltoztathatók az oldal színei és a háttérkép: ehhez válasszuk a Formátum menü Oldal színei és háttere parancsát.</p></li>
+
+  </ul>
+
+  [<a href="#preferences_new_page_settings">Vissza a fejezet elejére</a>]
+
+  <h3
+  id="preferences_new_page_settings_internationalization">Nemzetközi</h3>
+
+  <ul>
+
+    <li><strong>Nyelv</strong>: Válaszd ki a html dokumentum szövegéek a nyelvét.</li>
+
+    <li><strong>Írás iránya</strong>: Válaszd ki, hogy az írás milyen irányba történjen.</li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+	       list-style-image: none;">
+
+      <p>Hogy egyetelen oldalnak kicseréld a nyelv specifikációját, menj be a Format menübe, és menj be a Page Title and Propertiesbe és ott állítsd át a nyelvet az Internationalization szekcióban.</p>
+
+      <p>Amennyiben az írás irányát egyetlen lapon szeretnéd megfordítani, hasonlóan járj el.</p></li>
+
+    <li><strong>Character Set</strong>: Itt meghatározható, hogy a bájtok hogyan jeleítsék meg a karaktereket a képeryőn.</li>
+
+  </ul>
+
+  <p class="returnToSection">[ <a href="#preferences_settings">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="preferences_advanced_settings">Haladó beállítások</h2>
+
+  <h3
+      id="preferences_advanced_settings_connection">Kapcsolat</h3>
+
+  <p>Ez a témakör a Proxy panellapot ismerteti. Amennyiben nem ismered ezt a lehetőséget, kövesd a küövetkező lépéseket:</p>
+
+  <ol>
+    <li>Válasszuk a Szerkesztés menü (Mac OS X alatt a &brandShortName; menü) Beállítások parancsát.</li>
+
+    <li>A Haladó kategóriában kattintsunk a Proxy elemre. (Ha nem láthatóak a kategória beállításai, a lista kibontásához kattintsunk duplán a Haladó kategóriára.)</li>
+  </ol>
+
+  <p>A proxy beállítások lehetővé teszik a proxi használatát:</p>
+
+  <p><strong>Mielőtt hozzákezdenénk: </strong>kérdezzük meg a rendszergazdát, hogy tartozik-e konfigurációs fájl a proxykiszolgálóhoz, illetve tudjuk meg a kiszolgálók nevét és portszámát.</p>
+
+  <ul>
+
+    <li><strong>Direkt kapcsolat</strong>: Használjuk ezt ha nincs proxynk.</li>
+
+    <li><strong>Kézi proxy konfiguráció</strong>: Ha nincs saját proxyd.
+    <ul>
+
+      <li><strong>HTTP Proxy</strong>, <strong>SSL Proxy</strong>,
+      <strong>FTP Proxy, Gopher Proxy</strong>: Adjuk meg a proxy szerver ip címét. Adjuk meg a portot a Port mezőben.</li>
+
+      <li><strong>SOCKS-kiszolgáló:</strong> írjuk be a proxykiszolgáló nevét vagy numerikus IP-címét. Adjuk meg a portot a Port mezőben.
+      <ul>
+
+	<li><strong>SOCKS v4, SOCKS v5</strong>: When entering a SOCK
+	Host, select &quot;SOCKS v4&quot; or &quot;SOCKS v5,&quot;
+	depending on what version of SOCKS is used for the proxy.</li>
+      </ul>
+      </li>
+
+      <li><strong>Ne használjon proxyt az alábbiaknál:</strong> adjuk meg azokat a tartományokat, illetve IP-címeket, amelyeknél nem kívánunk proxykiszolgálót használni. Több bejegyzés vesszővel elválasztva adható meg, például: .vallalat.hu, .vallalat.com, 192.168.1.0/24.</li>
+    </ul>
+    </li>
+
+    <li><strong>Automatikus proxybeállítás URL:</strong> ezt akkor válasszuk, ha a proxykiszolgálóhoz konfigurációs fájl tartozik, és írjuk be URL-címét.</li>
+
+  </ul>
+
+  <p class="returnToSection">[ <a href="#preferences_advanced_settings">Vissza a fejezet elejére</a> ]</p>
+
+  <h3 id="preferences_advanced_settings_return_key_behaviour">Return
+  Key Behaviour</h3>
+
+  <p>The option "Return in a paragraph always creates new paragraph"
+  defines the behaviour of the return key. Choosing it creates a new
+  paragraph if you hit the "Return" key while typing in a
+  paragraph. Without this option &lt;br&gt; tags are added for
+  carriage returns.</p>
+
+  <p class="returnToSection">[ <a href="#preferences_advanced_settings">Vissza a fejezet elejére</a> ]</p>
+
+  <h3 id="preferences_advanced_settings_spellcheck">Valós idejű helyesírásellenőrzés</h3>
+
+  <p>Valós időben ellenőrzi a helyesírást és aláhúzza a hibásnak itélt szavakat.</p>
+
+  <p class="returnToSection">[ <a href="#preferences_advanced_settings">Vissza a fejezet elejére</a> ]</p>
+
+  <h3 id="preferences_advanced_settings_special_characters">Különleges karakterek</h3>
+
+  <p>This options allow the user to choose which special characters
+  are coded as entities by &brandShortName;. Válassz egyet a következők közül:</p>
+
+  <ul><li>Csak &amp; &lt; &gt; &apos; és non-breakable üreshelyek</li>
+
+  <li>A fentiek és a Latin-1 betűk</li>
+
+  <li>Minden karakternek legyen ekvivalense a HTML 4.0-ban</li>
+
+  <li>&amp;#..; jelölés használata minden nem ASCII-karakterre</li>
+  </ul>
+
+  <p class="returnToSection">[ <a href="#preferences">Vissza a fejezet elejére</a> ]</p>
+
+  <div class="copyrightBox"><em>2005. március 29.</em></div>
+
+  <p>Copyright &copy; 2004-2005 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

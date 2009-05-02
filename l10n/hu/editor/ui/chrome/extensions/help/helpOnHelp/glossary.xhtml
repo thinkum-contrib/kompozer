@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<!-- Original text: Mozilla Help Viewer Documentation Project,
+     &brandShortName; relevance changes: &brandShortName; Help Viewer Documentation Project,
+Contributor(s):
+  KDS Sahambi <ksahambi@yahoo.com>
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Fogalomtár</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body id="noMarginBody">
+
+<p>Ez a fogalomtár csak a tájékoztatás célját szolgálja, nem tekinthető az itt felsorolt fogalmak hivatalos leírásának; illetve az adatvédelemi és biztonsági technológiák szabatos ismertetésének.</p>
+
+<hr/>
+
+<h1 id="glossary">Fogalomtár</h1>
+
+<dl>
+
+<dt id="authentication">hitelesítés</dt>
+<dd>Jelszó, tanúsítvány, személyes azonosítókód (PIN-kód) vagy egyéb olyan adat használata, amely egy számítógépes hálózatban a személyazonosság ellenőrzésére szolgál.</dd>
+
+<dt id="cache">gyorsítótár</dt>
+<dd>Weboldalak másolatainak gyűjteménye, amely a számítógépünk merevlemezén vagy memóriájában helyezkedik el. A böngészőprogram a világháló böngészése közben automatikusan gyűjti ezeket a másolatokat. Amikor rákattintunk egy hivatkozásra vagy beírunk egy <a href="#Uniform_Resource_Locator">URL</a>-t a böngésző címsorába, és ez az oldal már megvan a gyorsítótárban, akkor a böngésző összehasonlítja a helyi másolatot az eredetivel. Ha nincs különbség a kettő között, akkor a böngésző inkább a gyorsítótárban lévő másolatot használja, és nem tölti le újra az eredetit. Ezzel időt és sávszélességet takarít meg.
+</dd>
+
+<dt id="certificate">tanúsítvány</dt>
+<dd>A személyazonosító igazolvány digitális megfelelője. A tanúsítvány egy személy, cég vagy egyéb szervezet nevét tartalmazza, és igazolja, hogy a tanúsítványban szereplő nyilvános kulcs valóban az adott személyhez, céghez vagy szervezethez tartozik. Ha digitális aláírással látnak el egy üzenetet (vagy bármilyen más adatot), a szóban forgó üzenet digitális aláírása a tanúsítványában szereplő nyilvános kulcshoz tartozó titkos kulcs segítségével készül el. </dd>
+
+<dt id="client">ügyfél</dt>
+<dd>Olyan szoftver (például böngészőprogram), amely kéréseket küld, és adatokat fogad az általában külön számítógépen futó <a href="#server">kiszolgálótól</a>. A többnyire ügyfélalkalmazásokat futtató számítógépeket is ügyfeleknek nevezik.</dd>
+
+<dt id="cryptography">kriptográfia</dt>
+<dd>Adatok titkosításának (kódolás) és a titkosított adatok értelmezésének (visszafejtés) elmélete és gyakorlata. Kriptográfiai technikákkal oldják meg például a böngésző és valamely kereskedelmi webhely közötti kommunikáció során az adatok titkosítását és visszafejtését. </dd>
+
+<dt id="css">Stíluslap (CSS)</dt>
+<dd>CSS is a simple mechanism to add style e.g. fonts, colors,
+positioning, etc to web documents. CSS allows complete and total
+control over the style of a hypertext document.</dd>
+
+<dt id="decryption">visszafejtés</dt>
+<dd>Az eredeti adatok visszanyerésének folyamata korábban titkosított adatokból. Lásd még: <a href="#encryption">titkosítás</a>.</dd>
+
+<dt id="digital_ID">digitális azonosító</dt>
+<dd>Lásd <a href="#certificate">tanúsítvány</a>.</dd>
+
+<dt id="encryption">titkosítás</dt>
+<dd>Adatok összekeverésének és átalakításának folyamata, amely az adatokat értelmezhetetlenné teszi. A számítógépek közötti titkosított kapcsolatok például igen nehézzé teszik, hogy illetéktelenek megfejtsék, illetve <em>visszafejtsék</em> a kapcsolaton átáramló adatokat, illetve azok jelentését. A titkosított adatokat csak azok tudják visszafejteni, akik rendelkeznek az ehhez szükséges kulccsal.</dd>
+
+<dt id="XML">XML (Extensible Markup Language)</dt>
+<dd>Nyílt szabvány adatok leírására. A HTML-lel ellentétben az XML lehetővé teszi egyéni elemek (tagek) definiálását. További információkért olvassuk el a W3C on-line dokumentumát az <a href="http://www.w3.org/XML/">XML</a>-ről.</dd>
+
+<dt id="file_transfer_protocol">FTP (File Transfer Protocol)</dt>
+<dd>A File Transfer Protocol(FTP) is a protocol standard for
+transfering computer files between different computers connected via a
+network. A remote computer, the FTP server, accepts connections from
+other computers called clients. Once the connection is established,
+clients can get files from the server or put files on the server
+depending upon the login account privileges.However, a security hole
+in FTP is that passwords are sent as clear text, unlike <a
+href="#secure_file_transfer_protocol">sFTP</a>. &brandShortName; Site
+Manager uses FTP for publishing web pages.</dd>
+
+<dt id="FIPS_PUBS_140-1">FIPS PUBS 140-1</dt>
+<dd>A FIPS PUBS (Szövetségi Információfeldolgozási Szabványközlöny) 140-1 az Egyesült Államok kormányzati szabványa titkosítómodulok megvalósítására, ahol titkosítómodul alatt olyan hardverek és szoftverek értendők, amelyek adatokat képesek titkosítani vagy visszafejteni, illetve egyéb, titkosítással kapcsolatos műveleteket hajtanak végre (pl. digitális aláírások létrehozása és ellenőrzése). Az Egyesült Államok kormányzati szerveinek szállított termékek jó részének meg kell felelniük egy vagy több FIPS szabványnak.</dd>
+
+<dt id="helper_application">segédalkalmazás</dt>
+<dd>Olyan alkalmazás, amellyel megnyitható vagy megnézhető egy böngészővel letöltött fájl. A <a href="#plug-in">plug-in</a> is a special kind of helper application that
+  installs itself into the Plugins directory of the main &brandShortName; installation
+  directory and can typically be opened within &brandShortName; itself. Microsoft Word,
+  Adobe Photoshop, and other external applications are considered helper applications
+  but not plug-ins, because they don't install themselves into the browser directory
+  but can be opened from the download dialog box.</dd>
+
+<dt id="Hypertext_Markup_Language">HTML (Hypertext Markup Language)</dt>
+<dd>The document format used for web pages. The HTML standard defines tags, or
+  codes, used to define the text layout, fonts, style, images, and other
+  elements that make up a web page.</dd>
+
+<dt id="Internet">internet</dt>
+<dd>Több millió számítógép világméretű hálózata, amelyek egymással szabványos protokollokon – pl. <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a> – keresztül kommunikálnak.
+  Az internetet eredetileg az Egyesült Államok hadügyminisztériuma számára fejlesztették ki 1969-ben, de növekedés folyamán egyre több oktatási és kutatóintézet kapcsolódott hozzá, végül a 1990-es évek végén megjelentek az üzleti és magánfelhasználók is. Napjainkban az internet felhasználási területei közé tartozik az elektronikus levelezés, a <a href="#World_Wide_Web">világháló</a> böngészése, a csevegés, a hírcsoportok használata és még sok más.</dd>
+
+<dt id="Internet_protocol_address">IP-cím</dt>
+<dd>A
+  <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a>-hálózatra csatlakozó számítógép címe.
+  Minden, internetre csatlakozó számítógép rendelkezik IP-címmel. Az <a href="#client">ügyfeleknek</a> vagy állandó IP-címük van, vagy minden alkalommal dinamikusan kapnak egyet, amikor csatlakoznak a hálózathoz.</dd>
+
+<dt id="Java">Java</dt>
+<dd>A Sun Microsystems által kifejlesztett programnyelv. Egy Java-program sok különböző számítógépen futhat, így a programozóknak nem
+kell külön verziót írni az összes fajta számítógépre. A Java telepítése után az &brandShortName; képes a Java-programok (más néven appletek vagy kisalkalmazások) letöltésére és futtatására.</dd>
+
+<dt id="JavaScript">JavaScript</dt>
+<dd>Weboldalak készítéséhez használatos értelmezett nyelv. A programozók arra használják a JavaScriptet, hogy interaktívabbá tegyék a weboldalakat; de használható űrlapok ellenőrzésére és gombok kiválasztására is. A JavaScript használható a Javával, de technikai értelemben a két nyelv különböző. A JavaScript működéséhez nem szükséges a Java.</dd>
+
+<dt id="master_password">mesterjelszó</dt>
+<dd>A password used to protect saved passwords and other private data.
+  &brandShortName; will prompt you for your master password when you wish to
+  access this data. If you have multiple security devices, each security device
+  will require a separate master password.</dd>
+
+<dt id="navigation_toolbar">Böngésző eszköztár</dt>
+<dd>The toolbar near the top of the &brandShortName; window that includes
+  the <em>Back</em> and <em>Forward</em> buttons.</dd>
+
+<dt id="Password_Manager">Password Manager</dt>
+<dd>The part of &brandShortName; that can help you remember some or all of
+  your names and passwords by storing them on your computer's hard disk and
+  entering them for you automatically when you visit such sites.</dd>
+
+<dt id="PKCS_11">PKCS #11</dt>
+<dd>The public-key cryptography standard that governs security devices such
+  as smart cards.</dd>
+
+<dt id="plug-in">bővítmény</dt>
+<dd>A type of <a href="#helper_application">helper application</a> that
+  adds new capabilities to &brandShortName;, such as the ability to play audio
+  or video clips. Unlike other kinds of helper applications, a plug-in
+  application installs itself into the Plugins directory within the main
+  &brandShortName; installation directory and typically can be opened within
+  &brandShortName; itself (internally). Például egy hanglejátszó lehetővé teszi egy weboldalon található vagy egy elektronikus levélben lévő zene lejátszását. A Macromedia Flash Player és a Java szintén bővítmények.</dd>
+
+<dt id="private_key">személyes kulcs</dt>
+<dd>One of a pair of keys used in public-key cryptography. A személyes kulcsot mindig tartsuk biztonságban, mivel ezzel tudjuk visszafejteni a kulcshoz tartozó nyilvános kulccsal titkosított adatokat.</dd>
+
+<dt id="proxy">proxy</dt>
+<dd>An intermediary or &quot;go-between&quot; program that acts as both a
+  <a href="#server">server</a> and a <a href="#client">client</a> for
+  the purpose of making requests on behalf of other clients.</dd>
+
+<dt id="publish">Közzététel</dt>
+<dd>The process of <em>uploading</em> web document(s) to a <a
+href="#web_server">web server</a> is called publishing. It is only
+after publishing your web documents to the <a href="#web_server">web
+server</a> others can view the documents using their <a
+href="#client">clients</a>. In &brandShortName;, the <a
+href="#site_manager">Site Manager</a> accomplishes the task of
+publishing.</dd>
+
+<dt id="search_engine">keresőszolgáltatás</dt>
+<dd>A web-based program that allows users to search for and retrieve
+  specific information from the World Wide Web. The search engine may
+  search the full text of web documents or a list of keywords; it may
+  also use librarians who review web documents and index them manually
+  for retrieval. Typically, the user types a word or phrase into a
+  search box, and the search engine displays links to relevant web
+  pages.</dd>
+
+<dt id="secure_shell_file_transfer_protocol">Secure Shell File Transfer Protocol</dt>
+<dd>Secure Shell File Transfer Protocol(sFTP) is similar to <a
+href="#file_transfer_protocol">FTP</a> with the difference that the
+session is encrypted making it more secure.</dd>
+
+<dt id="secure_site">biztonságos webhely</dt>
+<dd>A site that uses <a href="#encryption">encryption</a> in connections
+  with &brandShortName; to prevent other malicious Internet users from
+  viewing transmitted data.  When you visit secure sites, &brandShortName;
+  displays a lock icon in the <a href="#Status_Bar">Status Bar</a> and the
+  <a href="#location_bar">Location Bar</a>.  &brandShortName; also
+  displays the site's domain name in the Status Bar (to prevent malicious
+  sites from stealing your data) and turns the background of the Location
+  Bar to yellow.</dd>
+<dd>Some sites may consist of both secure and insecure data; the insecure data
+  usually is non-private, although it isn't guaranteed to be so.  For such
+  sites &brandShortName; will display a lock icon with a slash through it in
+  the Status Bar and Location Bar and will <em>not</em> display the site's
+  domain name in the Status Bar so that you know that the current web page
+  isn't completely secure.</dd>
+
+<dt id="SSL">Secure Sockets Layer (SSL)</dt>
+<dd>A protocol that allows mutual authentication between a
+  <a href="#client">client</a> and a <a href="#server">server</a>
+  for the purpose of establishing an authenticated and encrypted
+  connection. Az SSL protokoll a TCP/IP protokoll felett, de a HTTP, LDAP, IMAP, NNTP és egyéb magas szintű hálózati protokollok alatt helyezkedik el. The new Internet Engineering
+  Task Force (IETF) standard called Transport Layer Security (TLS) is
+  based on SSL. Lásd még: <a href="#authentication">hitelesítés</a>, <a href="#encryption">titkosítás</a>.</dd>
+
+<dt id="server">kiszolgáló</dt>
+<dd>Software (such as software that serves up web pages) that receives
+  requests from and sends information to a <a href="#client">client</a>,
+  which is usually running on a different computer. Általában a kiszolgálóalkalmazásokat futtató számítógépeket is kiszolgálóknak nevezik.</dd>
+
+<dt id="site_manager">Site Manager</dt>
+<dd>The part of &brandShortName; which manages the uploading and
+downloading of the web documents created with &brandShortName;. The
+Site Manager uses <a href="#file_transfer_protocol">FTP</a> to
+transfer the web documents to and from the <a href="#web_server">web
+server</a>.</dd>
+
+<dt id="Status_Bar">Állapotsor</dt>
+<dd>The toolbar that appears at the bottom of any &brandShortName; window. It
+  shows the tags enclosing the current cursor position.</dd>
+
+<dt id="TLS">TLS</dt>
+<dd>See <a href="#Secure_Sockets_Layer">Secure Sockets Layer (SSL)</a>.</dd>
+
+<dt id="TCP_IP">Transmission Control Protocol/Internet Protocol (TCP/IP)</dt>
+<dd>A Unix protocol used to connect computers running a variety of operating systems.
+  A TCP/IP alapvető internetes protokoll, amely az egész világon elterjedt.</dd>
+
+<dt id="Uniform_Resource_Locator">URL (Uniform Resource Locator)</dt>
+<dd>The standardized address that tells &brandShortName; how to locate a file or
+  other resource on the Web (for example, <tt>http://www.mozilla.org</tt>).
+  Type URLs into &brandShortName;'s Location Bar to access web pages. URLs
+  are also used in the links on web pages go to other web pages. Also known
+  as an Internet or Web address.</dd>
+
+<dt id="w3c">W3C</dt>
+<dd>World Wide Web Consortium(W3C) is a <em>consortium</em> that
+produces standards recommendations for the <a
+href="world_wide_web">World Wide Web</a>. According to
+<strong>W3C</strong>, "The World Wide Web Consortium (W3C) develops
+interoperable technologies (specifications, guidelines, software, and
+tools) to lead the Web to its full potential". These recommendations
+e.g. HTML 4.01, XHTML 1.1, CSS 2.1, etc. are often called <em>Web
+Standards</em>.</dd>
+
+<dt id="web_page">weboldal</dt>
+<dd>A single document on the World Wide Web that is specified by a unique
+  address or URL.  A web page may contain text, hyperlinks, and graphics.</dd>
+
+<dt id="web_server">Web Server</dt>
+<dd>Web Server is the machine running the web server software(e.g. <a
+href="http://httpd.apache.org">Apache</a>). It serves various kinds of
+web documents to a <a href="#client">client</a>. It is the web server
+software which is responsible to send us the reqired data so that we
+can see the requested <a href="#web_site">web site</a> in a web
+browser.</dd>
+
+<dt id="web_site">webhely</dt>
+<dd>A group of related web pages linked by hyperlinks and managed by a single
+  company, organization, or individual. A webhely tartalmazhat szöveget, grafikát, zenei és videofájlokat és hivatkozásokat más webhelyekre.</dd>
+
+<dt id="world_wide_web">világháló</dt>
+<dd>Also known as the Web. A portion of the Internet that is made up of web
+  pages stored by web <a href="#server">servers</a> and displayed by
+  <a href="#client">clients</a> called web browsers (such as
+  &brandShortName;).</dd>
+
+
+
+
+
+
+
+
+
+
+
+</dl>
+
+<p>
+[&nbsp;<a href="#glossary">Vissza a Fogalomtár elejére</a>&nbsp;]
+</p>
+
+<div class="copyrightBox"><em>2004. október 9.</em></div>
+<p>Copyright &copy; 2003-2004 a Mozilla Súgó projekt hozzájárulói</p>
+</body>
+</html>

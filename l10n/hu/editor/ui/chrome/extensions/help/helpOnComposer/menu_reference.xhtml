@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[ <!ENTITY % brandDTD
+SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi@yahoo.com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>&brandShortName; menüreferencia</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">A fejezet témakörei:
+  <a href="#file">Fájl</a>
+  <a href="#edit">Szerkesztés</a>
+  <a href="#view">Nézet</a>
+  <a href="#insert">Beszúrás</a>
+  <a href="#format">Formátum</a>
+  <a href="#table">Táblázat</a>
+  <a href="#tools">Eszközök</a>
+  <a href="#help">Súgó</a>
+  </div>
+
+  <h1 id="menu_reference">&brandShortName; menüreferencia</h1>
+  <div>Ez a menüreferencia az &brandShortName; főablakának menüit
+    írja le.</div>
+
+  <h2 id="file">Fájl</h2>
+
+  <h3 id="new_window">Új</h3>
+  <p>Megnyit egy új &brandShortName;-ablakot.</p>
+
+  <h3 id="open_file">Fájl megnyitása...</h3>
+  <p>Megjeleníti a Fájl megnyitása párbeszédpanelt, ahol kijelölhető a helyi merevlemezről
+    vagy egy hálózati meghajtóról a megnyitandó fájl. Az &brandShortName; programmal HTML, HTML-sablon
+  és szöveg típusú fájlok jeleníthetők meg.</p>
+
+  <h3 id="open_web_location">Webcím megnyitása...</h3>
+  <p>Megmutat egy webhelyet, amit URLként kell megadnunk, vagy akár helyi fájlként.</p>
+
+  <h3 id="recent_pages">Legutóbb szerkesztett oldalak</h3>
+  <p>Megjeleníti a közelmúltban szerkesztett fájlok listáját.</p>
+  
+  <h3 id="close">Bezárás</h3>
+  <p>Bezárja az aktuális ablakot.</p>
+
+  <h3 id="close_all">Összes bezárása</h3>
+  <p>Bezárj az aktuális ablak összes lapját.</p>
+  
+  <h3 id="save">Mentés</h3>
+  <p>Menti az aktuális lapon megnyitott fájlt.</p>
+  
+  <h3 id="save_as">Mentés másként...</h3>
+  <p>Elmenti az oldalt más állományévvel.</p>
+
+  <h3 id="save_character_encoding">Save And Change Character Encoding</h3>
+  <p>A karakterkészlet cseréjére ad lehetőséget a mentés előtt.</p>
+
+  <h3 id="publish">Közzététel</h3>
+  <p>Lehetőséget ad az aktuálisan szerkesztett weboldal közzétételéhez.</p>
+
+  <h3 id="revert">Visszatérés az utoljára mentett változathoz</h3>
+  <p>Visszavon minden módosítást a weboldalon.</p>
+
+  <h3 id="export_to_text">Exportálás szövegként...</h3>
+  <p>Az aktuális dokumentum szövegét egyszerű szöveggé alakítja</p>
+
+  <h3 id="browse_page">Oldal megtekintése</h3>
+  <p>Megjeleníti az aktuális oldalt az alapértelmezett webböngészőben.</p>
+
+  <h3 id="page_setup">Oldalbeállítás...</h3>
+  <p>Itt állíthatók be az oldalbeállítások a nyomtatáshoz.</p>
+  
+  <h3 id="print_preview">Nyomtatási kép</h3>
+  <p>Megmutatja, hogy a kinyomtatott formátumban, hogy néz ki az adott dokumentum.</p>
+
+  <h3 id="print">Nyomtatás...</h3> 
+  <p>Kinzitja egz ablakot, ahol beállíthatók a nyomtatási lehetőségek. Kattints az <em>OK</em>-ra, hogy elkezdődjön a nyomtatás.</p>
+
+  <h3 id="exit">Kilépés</h3>
+  <p>Bezár minden &brandShortName; ablakot. A véletlen kilépések esetén megkérdezi, hogy biztos vagy-e a dolgodban.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="edit">Szerkesztés</h2>
+
+  <h3 id="undo">Visszavonás</h3>
+  <p>Visszavonja a dokumentumon utoljára végrehajtott szerkesztési műveletet. Ha később rájön, hogy nem
+    akarta visszavonni a műveletet, használja az Újra parancsot.</p>
+
+  <h3 id="redo">Újra</h3>
+  <p>Ismét végrehajtja az utoljára visszavont műveletet.</p>
+
+  <h3 id="cut">Kivágás</h3>
+  <p>Kivágja the kijelölt szöveget a dokumentumból, és a vágólapon
+    tárolja. A szöveg bárhová beilleszthető a Beillesztés parancs
+    segítségével.</p>
+
+  <h3 id="copy">Másolás</h3>
+  <p>A kijelölt szöveget a vágólapra másolja. A szöveg bárhová beilleszthető a Beillesztés parancs
+    segítségével.</p>
+  
+  <h3 id="paste">Beillesztés</h3>
+  <p>Beilleszti a Clipboardban található elemet a kurzor után.</p>
+
+  <h3 id="paste_without_formatting">Beillesztés formázás nélkül</h3>
+  <p>Beilleszti a szöveget a Clipboardból, de amennyiben annak volt valamilzen formázása, azt most elveszíti.</p>
+  
+  <h3 id="delete">Törlés</h3>
+  <p>Kitörli az aktuális dokumentumból kijelölt szöveget.</p>
+
+  <h3 id="select_all">Mindet kijelöli</h3>
+  <p>Az aktuális dokumentum teljes szövegét kijelöli.</p>
+
+  <h3 id="find_and_replace">Keresés és csere...</h3>
+  <p> Megjelenít egy párbeszédpanelt, ahol beírhatja a keresendő
+    szöveget, és hogy mire kell kicserélni. A keresés az aktuális
+  oldalon történik.</p>
+
+  <h3 id="find_again">Következő keresése</h3>
+  <p>Megkeresi egy adott szöveg következő előfordulását a szövegben. A keresés az aktuális oldalon történik.</p>
+
+  <h3 id="find_previous">Find Previous</h3>
+  <p>Megkeresi az adott szöveg előző előfordulását a szövegben.</p>
+
+  <h3 id="check_spelling">Helyesírás-ellenőrzés</h3>
+  <p>Az adott oldalon ellenőrzi az yrás helyességét.</p>
+
+  <h3 id="detach_from_template">Leválasztás a sablonról</h3>
+  <p>Az adott oldalt elválasztja a kezdeti sablontól és elmenti <em>html</em> dokumentum formájában.</p>
+
+  <h3 id="publish_site_settings">Közzététel helyének beállításai</h3>
+  <p>Megnyitja a Site Manager konfigurációs ablakát.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="view">Nézet</h2>
+
+  <h3 id="show_hide">Megjelenítés/Elrejtés</h3>
+
+  <h4 id="composition_toolbar">Szerkesztés eszköztár</h4>
+  <p>Ki-be kapcsolja a szerkesztés eszköztárat.</p>
+
+  <h4 id="format_toolbar">Formázás eszköztár</h4>
+  <p>Ki-be kapcsolja a formázás eszköztárat, ami rengeteg formázási lehetőséget bíztosít.</p>
+
+  <h4 id="edit_mode_toolbar">Szerkesztőmód eszköztár</h4>
+  <p>Ki-be kapcsolja a szerkesztőmód eszköztárat, mely segítségével könnyedén váltogathatsz a kód, a nézet és a szerkesztő mód között.</p>
+
+  <h4 id="status_bar">Állapotsor</h4>
+  <p>A &brandShortName; ablak készenléti bárját ki-be lehet kapcsolgatni ezzel.</p>
+
+  <h4 id="rulers">Vonalzók</h4>
+  <p>Mutatja lletve elrejti a horizontális és a vertikális vonalzókat.</p>
+
+  <h4 id="customize_toolbar">Eszköztár testreszabása</h4>
+
+  <h5 id="main_toolbar">Fő eszköztár</h5>
+  <p>Megnyit egy ablakot, mely segítségével lehet módosítani az eszköztár tartalmát.</p>
+
+  <h5 id="format_toolbar">Formázás eszköztár</h5>
+  <p>Megnyit egy ablakot, mely segítségével lehet módosítani a formázás eszköztár tartalmát.</p>
+
+  <h4 id="site_manager">Webhelykezelő</h4>
+  <p>Ki-be kapcsolja a <em>Site Manager</em>t a
+  &brandShortName; ablakban.</p>
+
+  <h3 id="normal_edit_mode">Normál szerkesztési mód</h3>
+  <p>Átkapcsolja a programot normál szerkesztés módba.</p>
+
+  <h3 id="html_tags">Minden HTML-elem megjelenítése</h3>
+  <p>Megváltoztatja a HTML tagok nézetét.</p>
+
+  <h3 id="html_source">HTML-forrás</h3>
+  <p>Megváltoztatja a HTML forrás nézetét.</p>
+
+  <h3 id="preview">Előnézet</h3>
+  <p>Átvált előnézet módba.</p>
+
+  <h3 id="carriage_returns">Sortörések</h3>
+  <p>Toggles the visibility of carriage returns.</p>
+
+  <h3 id="block_outline">Blokkok kiemelése</h3>
+  <p>Kiemeli vagy elrejti a blokkokat.</p>
+
+  <h3 id="text_zoom">Szöveg nagyítása</h3>
+
+  <h4 id="text_zoom_smaller">Kisebb</h4>
+  <p>A weboldal szövegét lekicsinyíti. Ezt meg lehet tenni az egérrel is. A szövegméret
+      eredeti állapotába való visszaállításához használja a
+      <kbd>Ctrl</kbd>+<kbd>0</kbd> billentyűkombinációt.</p>
+
+  <h4 id="text_zoom_larger">Nagyobb</h4>
+  <p>A szöveget egy betűmérettel nagyobbra teszi. Ezt megteheted az egérrel is ha
+  lenyomva tartod a <kbd>Ctrl</kbd> billentyűt miközben le fel mozgatod a scrollt. A szövegméret
+      eredeti állapotába való visszaállításához használja a
+      <kbd>Ctrl</kbd>+<kbd>0</kbd> billentyűkombinációt.</p>
+
+  <h3 id="character_encoding">Karakterkódolás</h3>
+  <p>Megengedi, hogy manuálisan szerkeszd a karakterkódolást. &brandShortName; általában ezt megteszi automatikusan.</p>
+
+  <h2 id="insert">Beszúrás</h2>
+
+  <p>Ez a menü megengedi bármilyen komponens beillesztését a HTML dokumentumba.</p>
+
+  <h3 id="insert_image">Kép...</h3>
+  <p>Kinyit egy ablakot, mely segítségével be lehet illeszteni egy képet a HTML dokumentumba.</p>
+
+  <h3 id="insert_table">Táblázat...</h3>
+  <p>Kinyit egy abakot, mely segytségével beilleszthetsz egy táblázatot a HTML dokumentumba.</p>
+
+  <h3 id="insert_form">Űrlap...</h3>
+  <p></p>
+
+  <h3 id="insert_link">Hivatkozás...</h3>
+  <p>Kinyit egy ablakot mely segítségével egy szöveget hivatkozássá tehetsz.</p>
+
+  <h3 id="named_anchor">Horgony...</h3>
+  <p>Opens a dialog for typing-in the name to insert a Named Anchor at
+  the current position of the cursor.</p>
+
+  <h3 id="horizontal_line">Vízszintes vonal</h3>
+  <p>Beilleszt egy vyzszintes vonalat a kurzor után.</p>
+
+  <h3 id="html">HTML...</h3>
+  <p>Kinyit egy ablakot, hogy beillessz egy manuálisan yrt HTML kódot, megjegyzést vagy szkriptet.</p>
+
+  <h3 id="character_and_symbols">Karakterek és szimbólumok...</h3>
+  <p>Kinyit egy ablakot, mely segítségével speciális karaktereket illeszthetünk be.</p>
+
+  <h3 id="table_of_contents">Tartalomjegyzék...</h3>
+  <p>Kinyit egy ablakot mely segítségével beilleszthetsz egy tartalomjegyzéket (TOC).</p>
+
+  <h3 id="smart_widgets">Okos felületi elemek</h3>
+  <p>Beilleszt Smart Widgetseket a dokumentumba.</p>
+
+  <h4 id="made_with_nvu">Made With &brandShortName; button</h4>
+  <p>Beilleszt egy "Made with &brandShortName;" gombot a dokumentumba.</p>
+
+  <h4 id="calendar">Naptár</h4>
+  <p>Beilleszt egy naptárobjektumot a HTML dokumentumba.</p>
+
+  <h3 id="templates">Sablonok</h3>
+  <p>Ezzel a menüvel beilleszthetsz egy templatebe egy szerkeszthető zónát.</p>
+
+  <h3 id="php_code">PHP-kód</h3>
+  <p>Beilleszt PHP kódot a dokumentumba.</p>
+
+  <h3 id="comment">Megjegyzés</h3>
+  <p>Megjegyzést illeszt be a dokumentumba.</p>
+
+  <h3 id="break_below_images">Sortörés a kép(ek) alatt</h3>
+  <p>Adott kép alá betesz egy sortörést, hogy a szöveg jobban nézzen ki.</p>
+
+  <h2 id="format">Formátum</h2>
+
+  <p>Ez a menü sokféle almenüt trtalmaz, mellyel a szöveget lehet formázni.</p>
+
+  <h3 id="font">Betűkészlet</h3>
+
+  <p>Itt választhatod ki a megfelelő fontot a szöveghez.</p>
+
+  <h3 id="size">Méret</h3>
+  <p>Megváltoztaj a szöveg méretét.</p>
+
+  <h3 id="text_style">Szöveg stílusa</h3>
+  <p>kiválaszthatod a szöveg stílusát.</p>
+
+  <h4 id="text_style_bold">Félkövér</h4>
+
+  <p>A kiválasztott szöveget <b>félkövérré</b> teszi.</p>
+
+  <h4 id="text_style_italic">Dőlt</h4>
+
+  <p> <i>Dőlt</i>té teszi a szöveget. </p>
+
+  <h4 id="text_style_italic">Aláhúzott</h4>
+
+  <p><u>Aláhúzza</u> a szöveget.</p>
+
+  <h4 id="text_style_strikethrough">Áthúzott</h4>
+
+  <p><span style="text-decoration: line-through;">Áthúzza</span> a szöveget.</p>
+
+  <h4 id="text_style_superscript">Felső index</h4>
+
+  <p>A szöveget a <sup>felső</sup> tartományba teszi.</p>
+
+  <h4 id="text_style_subscript">Alsó index</h4>
+
+  <p>A szöveget az <sub>alsó</sub> tartományba teszi.</p>
+
+  <h4 id="text_style_fixed_width">Fix szélességű</h4>
+
+  <p>A szöveget <span
+  style="font-family: monospace;">fix szélesség</span>űre állítja.</p>
+
+  <h4 id="text_style_non_breaking">Nem törhető</h4>
+
+  <p>HTML több üres helyet egybe tördel le. Ha nem törhető üres helyet 
+  szeretnél megjelölni, miután kijelölted az üres helyet. 
+  Pl. 3 nemtörhető helyek&nbsp;&nbsp;&nbsp;itt.</p>
+
+  <h4 id="text_style_emphasis">Hangsúly</h4>
+
+  <p><em>Kihangsúlyoz</em> egy szöveget.</p>
+
+  <h4 id="text_style_stronger_emphasis">Erősebb hangsúly</h4>
+
+  <p>Mégjobban <strong>kihangsúlyoz</strong> egy szöveget.</p>
+
+  <h4 id="text_style_citation">Idézet</h4>
+
+  <p><cite>Idézetté</cite> változtat egy szöveget.</p>
+
+  <h4 id="text_style_abbreviation">Rövidítés</h4>
+
+  <p>Egy szöveget  rövidítésnek állít be, mint pl. <abbr>RÖVIDÍTÉS</abbr></p>
+
+  <h4 id="text_style_acronym">Mozaikszó</h4>
+
+  <p>Értelmez egy acronymot, mint pl. <acronym>WWW</acronym></p>
+
+  <h4 id="text_style_code">Kód</h4>
+
+  <p>Forráskódként jelenít meg egy szöveget. mint pl. <code>Python</code></p>
+
+  <h4 id="text_style_sample_output">Példakimenet</h4>
+
+  <p>A szöveget számítógépözenetként jeleníti meg, mint például <samp>ezt</samp></p>
+
+  <h4 id="text_style_variable">Változó</h4>
+
+  <p><var>Változóként jelenít meg egy szöveget.</var></p>
+
+  <h3 id="text_color">Szövegszín...</h3>
+
+  <p>Itt meg lehet változtatni a kjelölt szöveg színét.</p>
+
+  <h3 id="writing_direction">Írás iránya</h3>
+
+  <p>Ki lehet jelölni, hogy az írás jobbról balra vagy balról jobbra történjen.</p>
+
+  <h3 id="discontinue_text_styles">Szövegstílus befejezése</h3>
+
+  <p>Megszakítja bármely szövegstílus programját amely használva van a jelenlegi
+  kurzor pozíciónál.</p>
+
+  <h3 id="discontinue_link">Hivatkozás befejezése</h3>
+
+  <p>Megszakítja a link szövegét a kurzor helyénél.</p>
+
+  <h3 id="remove_named_anchors">Horgonyok eltávolítása</h3>
+
+  <p>Eltávolítja a kiválasztott horgonzokat.</p>
+
+  <h3 id="paragraph">Bekezdés</h3>
+
+  <p>A kijelöt szöveg bekezdése formázható itt.</p>
+
+  <h3 id="list">Felsorolás</h3>
+
+  <p>A kijelölt elemeket felsorolásba rendezi.</p>
+
+  <h3 id="increase_indent">Behúzás növelése</h3>
+
+  <p>Megnöveli a szöveg behúzását.</p>
+
+  <h3 id="decrease_indent">Behúzás csökkentése</h3>
+
+  <p>Csökkenti a szöveg behúzását.</p>
+
+  <h3 id="align">Igazítás</h3>
+
+  <p>A szöveget igazítja jobbra, balra, középre vagy jobbra.</p>
+
+  <h3 id="positioning_grid">Pozicionáló rács</h3>
+
+  <p>Az adott dobozokat egy rács szerint pozicionálja.</p>
+
+  <h3 id="advanced_properties">Speciális beállítások</h3>
+
+  <p>Kinyit egy ablakot, melyben miden HTML tagot szerkeszthetsz, illetve szkriptet tehetsz hozzájuk.</p>
+
+  <h3 id="page_colors_and_background">Oldal színei és háttere...</h3>
+
+  <p>Itt állítható be az oldal háttere, a linkek színei és az ehhez hasonló dolgok.</p>
+
+  <h3 id="page_title_and_properties">Oldal címe és tulajdonságai...</h3>
+
+  <p>Ebben a menüben állíthatók be az oldal tulajdonságai.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="table">Táblázat</h2>
+
+  <p>A menü segítségével táblázat szerkeszthető be a HTML dokumentumba.</p>
+
+  <h3 id="table_insert">Beillesztés</h3>
+
+  <p>Ezzel a menüvel bármilyen objektumot be tudsz illeszteni a dokumentumba.</p>
+
+  <h4 id="insert_table">Táblázat</h4>
+
+  <p>A menü segítségével táblázat szerkeszthető be a HTML dokumentumba.</p>
+
+  <h4 id="insert_row_above">Sor felülre</h4>
+
+  <p>Az éppen aktív táblázatsor felé egy új sort tesz be.</p>
+
+  <h4 id="insert_row_below">Sor alulra</h4>
+  
+  <p>Az éppen aktív táblázatsor alá egy új sort tesz be.</p>
+
+  <h4 id="insert_column_before">Oszlop a bal oldalra</h4>
+
+  <p>Az aktív oszlop elé beilleszt egy új oszlopot.</p>
+
+  <h4 id="insert_column_after">Oszlop a jobb oldalra</h4>
+
+  <p>Az aktív oszlop után beilleszt egy új oszlopot.</p>
+
+  <h4 id="insert_cell_before">Cella a bal oldalra</h4>
+
+  <p>Beilleszt egy új cellát az aktív cella elé.</p>
+
+  <h4 id="insert_cell_after">Cella a jobb oldalra</h4>
+
+  <p>Beilleszt egy új cellát az aktív cella mögé.</p>
+
+  <h3 id="table_select">Kijelölés</h3>
+  
+  <p>Kijelöl több elemet az aktív táblázatból a szerkesztéshez.</p>
+
+  <h4 id="select_table">Táblázat</h4>
+
+  <p>Kijelöli a teljes táblázatot.</p>
+
+  <h4 id="select_row">Sor</h4>
+
+  <p>Kijelöli az aktív sort.</p>
+
+  <h4 id="select_column">Oszlop</h4>
+
+  <p>Kijelöli az aktív oszlopot.</p>
+
+  <h4 id="select_all_cells">Minden cella</h4>
+
+  <p>Kijelöli az összes cellát a táblázatból.</p>
+
+  <h3 id="table_delete">Törlés</h3>
+
+  <p>Kinzit egy almenüt többfajta táblázatelem törlésére.</p>
+
+  <h4 id="delete_table">Táblázat</h4>
+
+  <p>Kitöri az aktív táblát. Légy figyelmes, a táblázatban szereplő adatok el fognak veszni.</p>
+
+  <h4 id="delete_rows">Sor(ok)</h4>
+
+  <p>Kitörli az aktív vagy a kijelölt sorokat.</p>
+
+  <h4 id="delete_columns">Oszlop(ok)</h4>
+
+  <p>Kitörli az aktív vagy a kijelölt oszlopokat.</p>
+
+  <h4 id="delete_cells">Cellák</h4>
+
+  <p>Kitörli az aktív vagy a kijelölt cellákat.</p>
+
+  <h4 id="delete_cell_contents">Cella tartalma</h4>
+
+  <p>Kitörli az aktív vagy a kijelölt cellák tartalmát.</p>
+
+  <h3 id="join_with_cell_to_the_right">Egyesítés a jobbra lévő cellával</h3>
+
+  <p>Az aktív cellát egyesíti a tőle jobbra találhatú cellával.</p>
+
+  <h3 id="split_cell">Cella felosztása</h3>
+
+  <p>Felosztja a cellát több egyenlő részre.</p>
+
+  <h3 id="create_table_from_selection">Táblázat létrehozása a kijelölésből</h3>
+
+  <p>Adott szövegből táblázatot állít elő.</p>
+
+  <h3 id="table_or_cell_background_color">Táblázat vagy cella háttérszíne...</h3>
+
+  <p>Itt szerkeszthető a cella vagy az egész táblázat háttérszíne.</p>
+
+  <h3 id="table_properties">Táblázat tulajdonságai...</h3>
+
+  <p>Itt szerkeszthetők az adott táblázat vagy cella tulajdonságai.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="tools">Eszközök</h2>
+
+  <h3 id="markup_cleaner">Jelölőnyelv-tisztító</h3>
+
+  <p>A menő segítségével kitakarítható a htmlben maradt fölös kódrészletek.</p>
+
+  <h3 id="validate_html">HTML ellenőrzése</h3>
+
+  <p>Kinzitja a  <a href="http://validator.w3.org">W3C's HTML
+  validator</a>-t.</p>
+
+  <h3 id="css_editor">CSS-szerkesztő</h3>
+
+  <p>Kinítja a CSS szerkesztőt.</p>
+
+  <h3 id="extensions">Kiterjesztések</h3>
+
+  <p>Kinzítja a kiterjesztés-adminisztrátort. A kiterjesztések új dolgokat tesznek bele a &brandShortName;-be.</p>
+
+  <h3 id="themes">Témák</h3>
+  
+  <p>Kinzítja a téma-adminisztrátort.</p>
+
+  <h3 id="web_development">Webfejlesztés</h3>
+
+  <p>Kinyít egy ablakot melyben megtalálhatjuk a legkülönfélébb webfejlesztői elemeket.</p>
+
+  <h4 id="java_console">Java-konzol</h4>
+
+  <p>Megnyitja a Java-konzol ablakot.</p>
+
+  <!-- h4 id="dom_inspector">DOM Inspector</h4>
+
+  <p>Kinyytja a dokumentumot a DOM Inspectorban.</p>
+
+  <h4 id="javascript_debugger">Javascript Debugger</h4>
+
+  <p>Opens the Javascript debugger Venkman for debugging javascript
+  code in the document.</p -->
+
+  <h3 id="preferences">Beállítások</h3>
+  <p>A &brandShortName; müködését éríntő beállítások cseréjére ad lehetőséget.</p>
+
+  <h2 id="help">Súgó</h2>
+
+  <h3 id="help_contents">Tartalom</h3>
+
+  <p>Megnyitja a Súgó ablakot.</p>
+
+  <h3 id="nvu_website">Az &brandShortName; honlapja</h3>
+
+  <p>Megnyitja az &brandShortName; honlapját az alapértelmezett böngészőben.</p>
+
+  <h3 id="nvu_faq">GYIK</h3>
+
+  <p>Megnyitja az &brandShortName; GYIK-oldalát az alapértelmezett böngészőben.</p>
+
+  <h3 id="bug_reports_and_suggestions">Hibajelentések és javaslatok</h3>
+
+  <p>Megnyitja az &brandShortName; hibajelentés és javaslatok oldalát az alapértelmezett böngészőben.</p>
+
+  <h3 id="developers_community">Fejlesztők közössége</h3>
+
+  <p>Megnyitja az &brandShortName; fejlesztői honlapját az alapértelmezett böngészőben.</p>
+
+  <h3 id="localizing_nvu">Az &brandShortName; honosítása</h3>
+
+  <p>Megnyit egy weblapot a &brandShortName; nyelfordítási folyamataival kapcsolatban.</p>
+
+  <h3 id="forums">Fórumok</h3>
+
+  <p>Megnyitja az &brandShortName; Forums webhelyet az alapértelmezett böngészőben.</p>
+
+  <h3 id="tip_of_day">A nap tippje</h3>
+
+  <p>Egy kis ablakban megjeleníti <em>A nap tippjét</em>.</p>
+
+  <h3 id="about_nvu">A &brandShortName; névjegye</h3>
+
+  <p>Megjelenít egy párbeszédpanelt az &brandShortName; adataival,
+  többek közt kiírja a verziószámot és a készítők nevét.</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">Vissza a fejezet elejére</a> ]</p>
+
+  <div class="copyrightBox"><em>28 August 2006</em></div>
+
+  <p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+
+</html>

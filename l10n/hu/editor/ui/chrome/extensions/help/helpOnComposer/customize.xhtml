@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Az &brandShortName; testreszabása</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/></head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">A fejezet témakörei:
+  <a href="#toolbar_customization">Eszköztár testreszabása</a>
+  <a href="#enhancing_nvu_functionality">Az &brandShortName; funkcionalitásának kiterjesztése</a>
+  </div>
+
+  <h1 id="customizing_toolbars">Az &brandShortName; testreszabása</h1>
+
+  <h2 id="toolbar_customization">Eszköztár testreszabása</h2>
+
+  <p>Az &brandShortName; eszköztárait a felhasználó tetszése szerint
+testreszabhatja. A felhasználók a leggyakrabban használt gombokat
+az eszköztárra helyezhetik, míg a ritkán használtakat levehetik onnan.
+Így a felhasználók saját igényeik szerint szabhatják testre az
+&brandShortName; alkalmazást.</p>
+
+  <h3 id="how_to_customize_toolbars">Az eszköztárak testreszabása</h3>
+
+  <p>Az Eszköztárak testreszabása ablak megnyitásához válasszuk a <span
+class="menuPath">Nézet > Megjelenítés/Elrejtés > Eszköztár testreszabása</span> menüparancsot,
+majd válasszuk ki az testreszabni kívánt eszköztárat. A másik lehetőség, hogy a szerkeszteni
+kívánt eszköztáron a jobb egérgombbal kattintunk, és a helyi menü <span class="menuPath">Eszköztár
+szerkesztése</span> parancsát választjuk.</p>
+
+  <p>Az eszköztárak testreszabásához:</p>
+
+  <ul>
+    <li>Az eszköztáron a bal egérgomb lenyomásával kiválaszthatjuk és
+  a kívánt helyre húzhatjuk a gombot, elválasztót, széthúzható térközt vagy normál térközt.</li>
+
+    <li>Az elemeket (gomb, térköz, széthúzható térköz, elválasztó) lehúzhatjuk
+  az eszköztárról, és bedodhatjuk a testreszabási ablakba.</li>
+
+    <li>Megváltoztatható az eszköztárgombok kinézete is. A lehetőségek:
+  ikon és szöveg, ikon, csak szöveg.</li>
+
+  </ul>
+
+  <p class="returnToSection">[ <a href="#customizing_toolbars">Vissza a fejezet elejére</a> ]</p>
+
+  <h2 id="enhancing_nvu_functionality">A &brandShortName;
+  funkcionalitásának kiterjesztése</h2>
+
+  <p>&brandShortName;-nek van egy beépített mehanizmusa a funkciói továbbfejlesztéséhez. Új funkciókkal lehet bővíteni a &brandShortName;-t a  <em>Kiterjesztések</em>-en keresztül. A Kiterjesztések kicsi programok, amelyek új funkciókat biztosítanak a
+  &brandShortName;-nek. A felhasználók ki tudják választani a kiterjesztést amit fel szeretnének instalálni. Így a kierjesztések biztosítják a felhasználók számára, hogy egy módosított
+  &brandShortName;-jük legyen. Egy kiterjesztés telepítéséhez:</p>
+
+  <ul> <li>Töltsön le egy kiterjesztést. A legtöbb kiterjesztést megtalálja a 
+  &brandShortName; weblapján.</li>
+
+    <li>Nyitsa meg a <strong>Kiterjesztések kezelőt </strong>(Kk): Eszközök &gt; Kiterjesztések <span
+  class="menuPath"></span>. A Kk listázza a felinstalált kiterjesztéseket (ha vannak olyanok).</li>
+
+    <li>Klikkeljen a  <em>Telepítés</em> gombra, hogy telepítse a letöltött kiterjesztést.</li>
+
+    <li>Válassza ki és klikkeljen a  <em>Megnyitás</em> gombra.</li>
+
+    <li>Klikkelje a<em> Telepítés most </em>gombra .</li>
+
+    <li>Miután befejezte a telepítést, zárja le és indítsa újra a &brandShortName;-t.</li>
+
+  </ul>
+
+  <p>Ajánlott a frissítések ellenőrzése a Kk-ban.</p>
+
+  <p>[<a href="links.xhtml">Előző</a>]</p>
+
+  <div class="copyrightBox"><em>6 August 2006 </em></div>
+
+  <p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

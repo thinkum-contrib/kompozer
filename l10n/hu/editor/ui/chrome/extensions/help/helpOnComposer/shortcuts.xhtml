@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Az &brandShortName; billentyűparancsai</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  </head>
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">A fejezet témakörei:
+    <a href="#using_shortcuts">Gyorsbillentyűk használata</a>
+    <a href="#general_shortcuts">Általános gyorsbillentyűk</a>
+    <a href="#nvu_composition_shortcuts">&brandShortName;-gyorsbillentyűk</a>
+    <a href="#help_window_shortcuts">A Súgó ablak gyorsbillentyűi</a>
+    </div>
+
+    <h1>Az &brandShortName; billentyűparancsai</h1>
+
+    <h2 id="using_shortcuts">Gyorsbillentyűk használata</h2>
+
+    <p>A dokumentumban a következő formában vannak felsorolva a gyorsbillentyűk:</p>
+
+    <p><strong>Például:</strong></p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Parancs</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Másolás</td>
+	  <td><span class="noMac">Ctrl+C</span><span
+	  class="mac">Cmd+C</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>A parancs végrehajtásához nyomja le a <kbd
+    class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd> billentyűt, majd ennek nyomva tartása mellett
+    nyomja le egyszer a billentyűkombináció második elemét, a <kbd>C</kbd> billentyűt.</p>
+
+    <p><strong>Tipp</strong>: A pluszjel (+) azt jelenti, hogy a két billentyűt
+    egyszerre kell lenyomni. Ha egynél több pluszjel van (például Ctrl+Shift+C), az azt jelenti, hogy a pluszjeleket körülvevő mindhárom billentyűt egyszerre kell lenyomni.</p>
+
+    <p><strong>Rövidítések:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">Control billentyű</span><span class="mac">Command billentyű
+      a Macintosh billentyűzetén</span></li>
+    </ul>
+
+    <p><strong>Megjegyzés:</strong> Bizonyos gyorsbillentyűknek a kurzorpozíciótól (fókusz) függően különböző hatásuk van. Ha például Windows környezetben egy weboldal olvasása közben lenyomjuk a Home billentyűt, a &brandShortName; az oldal tetejére ugrik. Ha viszont Windows környezetben egy szövegmezőben állva nyomjuk le a Home billentyűt, a kurzor a szövegmező elejére ugrik.</p>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="general_shortcuts">Általános &brandShortName;-gyorsbillentyűk</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Parancs</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Fájl megnyitása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Új oldal/sablon megnyitása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+N</td>
+	</tr>
+	<tr>
+	  <td>Új szerkesztőlapo megnyitása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+T</td>
+	</tr>
+	<tr>
+	  <td>Fájl mentése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+S</td>
+	</tr>
+	<tr>
+	  <td>Másolás</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+C</td>
+	</tr>
+	<tr class="even">
+	  <td>Beillesztés</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+V</td>
+	</tr>
+	<tr>
+	  <td>Kivágás</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+X</td>
+	</tr>
+	<tr class="even">
+	  <td>Minden kijelölése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+A</td>
+	</tr>
+	<tr>
+	  <td>Ablak bezárása</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Következő szó törlése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Del</td>
+	</tr>
+	<tr>
+	  <td>Ugrás egy lappal felfelé</td>
+	  <td>Page Up</td>
+	</tr>
+	<tr class="even">
+	  <td>Ugrás egy lappal lefelé </td>
+	  <td>Page Down</td>
+	</tr>
+	<tr>
+	  <td>Ugrás egy sorral feljebb</td>
+	  <td>Fel nyíl</td>
+	</tr>
+	<tr class="even">
+	  <td>Ugrás egy sorral lejjebb</td>
+	  <td>Le nyíl</td>
+	</tr>
+	<tr>
+	  <td>Visszavonás</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Z</td>
+	</tr>
+	<tr class="even">
+	  <td>Újra végrehajtás</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Z</td>
+	</tr>
+	<tr>
+	  <td>Keresés</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+F</td>
+	</tr>
+	<tr class="even">
+	  <td>Következő keresése</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> vagy
+	  F3</span><span class="mac">Cmd+G</span></td>
+	</tr>
+	<tr>
+	  <td>Előző keresése</td>
+	  <td><span class="noMac">Ctrl+Shift+F</span><span
+	  class="mac">?</span></td>
+	</tr>
+	<tr>
+	  <td>Helyi menü megnyitása</td>
+	  <td><span class="noMac">Shift+F10</span><span
+	  class="mac">Ctrl+Space</span></td>
+	</tr>
+	<tr class="even">
+	  <td>
+	    Főmenü megnyitása <span class="noMac">(az ablak tetején az első lenyíló menü)</span>
+	  </td>
+	  <td><span class="win">Alt vagy</span><span
+	  class="noMac">F10</span><span class="mac">A billentyűzet beállításának megfelelően</span></td>
+	</tr>
+	<tr>
+	  <td>Ugrás a sor elejére (szövegszerkesztő mezőben)</td>
+	  <td><span class="win">Home</span><span class="mac">Cmd+Bal
+	  nyíl</span><span class="unix">Ctrl+A</span></td>
+	</tr>
+	<tr class="even">
+	  <td>Ugrás a sor végére (szövegszerkesztő mezőben)</td>
+	  <td><span class="win">End</span><span class="mac">Cmd+Jobb
+	  nyíl</span><span class="unix">Ctrl+E</span></td>
+	</tr>
+	<tr>
+	  <td>Átváltás a következő lapra (ha egynél több lap van)</td>
+	  <td>Ctrl+Page Down</td>
+	</tr>
+	<tr class="even">
+	  <td>Átváltás az előző lapra (ha egynél több lap van)</td>
+	  <td>Ctrl+Page Up</td>
+	</tr>
+	<tr>
+	  <td>Böngészőlap bezárása</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Kilépés az &brandShortName; programból</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Q</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="nvu_composition_shortcuts">&brandShortName; szerkesztési
+    billentyűparancsok</h2>
+
+    <p>A következő billentyűparancsok használhatók HTML-oldalak szerkesztésére az
+    &brandShortName;-ban.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Parancs</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Weboldal megnyitása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+L</td>
+	</tr>
+	<tr>
+	  <td>Közzététel</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+S</td>
+	</tr>
+	<tr class="even">
+	  <td>Szöveg kicsinyítése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+-</td>
+	</tr>
+	<tr>
+	  <td>Szöveg nagyítása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= vagy
+	  <span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>++ (plusz)</td>
+	</tr>
+	<tr class="even">
+	  <td>Szövegméret 100%</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Hivatkozás beillesztése/szerkesztése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+L</td>
+	</tr>
+	<tr class="even">
+	  <td><b>Félkövér</b> szöveg</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+B</td>
+	</tr>
+	<tr>
+	  <td><i>Dőlt betűs</i> szöveg</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+I</td>
+	</tr>
+	<tr class="even">
+	  <td><u>Aláhúzott</u> szöveg</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+U</td>
+	</tr>
+	<tr>
+	  <td>Behúzás növelése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+[</td>
+	</tr>
+	<tr class="even">
+	  <td>Behúzás csökkentése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+]</td>
+	</tr>
+	<tr>
+	  <td>Szövegformázás befejezése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Y</td>
+	</tr>
+	<tr class="even">
+	  <td>Hivatkozás befejezése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+K</td>
+	</tr>
+	<tr>
+	  <td>Oszlop/sor kiválasztása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Drag</td>
+	</tr>
+	<tr class="even">
+	  <td>Cellák kiválasztása</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+kattintás (húzással egybefüggő cellatartomány, további kattintásokkal egyedi cellák jelölhetők ki)</td>
+	</tr>
+	<tr>
+	  <td>Webhelykezelő</td>
+	  <td>F9</td>
+	</tr>
+	<tr class="even">
+	  <td>Helyesírás-ellenőrzés indítása</td>
+	  <td><span class="noMac">Ctrl+K</span><span
+	  class="mac">Cmd+K</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="help_window_shortcuts">A Súgó ablak gyorsbillentyűi</h2>
+
+    <p>A következő gyorsbillentyűk a Súgó ablakában működnek:</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Parancs</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Navigálás a tartalom (jobb oldali ablaktábla) hivatkozásai között</td>
+	  <td>Tab</td>
+	</tr>
+	<tr>
+	  <td>Az Oldalsáv ki- vagy bekapcsolása</td>
+	  <td>F9</td>
+	</tr>
+	<tr>
+	  <td>Szövegméret növelése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= vagy <span
+	  class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift++ (plusz)</td>
+	</tr>
+	<tr>
+	  <td>Szövegméret csökkentése</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (mínusz)</td>
+	</tr>
+	<tr>
+	  <td>Átváltás a súgószöveg és a keresés/tartalomjegyzék/tárgymutató/fogalomtár ablaktáblája között</td>
+	  <td>F6</td>
+	</tr>
+	<tr>
+	  <td>Navigálás a tárgymutató kulcsszavai között (amikor a Tárgymutató ablaktábla van kiválasztva)</td>
+	  <td>Fel/le nyíl</td>
+	</tr>
+	<tr>
+	  <td>Ablaktábla görgetése (súgószöveg, tartalomjegyzék, illetve tárgymutató)</td>
+	  <td>Fel/le nyíl</td>
+	</tr>
+	<tr>
+	  <td>A tartalomjegyzék faszerkezetének lenyitása/becsukása</td>
+	  <td>Jobb/bal nyíl</td>
+	</tr>
+	<tr>
+	  <td>Oldal nyomtatása</td>
+	  <td><span class="noMac">Ctrl+P</span><span
+	  class="mac">Cmd+P</span></td>
+	</tr>
+	<tr>
+	  <td>Ugrás az előző oldalra</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+bal nyíl</td>
+	</tr>
+	<tr>
+	  <td>Ugrás a következő oldalra</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+jobb nyíl</td>
+	</tr>
+	<tr>
+	  <td>Az &brandShortName; Súgó ablakának bezárása</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Vissza a fejezet elejére</a> ]</p>
+
+    <div class="copyrightBox"><em>13 August 2006</em></div>
+
+    <p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+  </body>
+</html>

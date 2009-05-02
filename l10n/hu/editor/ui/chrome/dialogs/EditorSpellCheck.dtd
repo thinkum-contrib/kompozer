@@ -1,0 +1,56 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Helyesírás-ellenőrzés">
+
+<!ENTITY misspelledWord.label "Helytelen szó:">
+<!ENTITY wordEditField.label "Csere:">
+<!ENTITY wordEditField.accessKey "C">
+<!ENTITY checkwordButton.label "Szó ellenőrzése">
+<!ENTITY checkwordButton.accessKey "S">
+<!ENTITY suggestions.label "Javaslatok:">
+<!ENTITY suggestions.accessKey "J">
+<!ENTITY ignoreButton.label "Kihagyás">
+<!ENTITY ignoreButton.accessKey "h">
+<!ENTITY ignoreAllButton.label "Mindet kihagyja">
+<!ENTITY ignoreAllButton.accessKey "M">
+<!ENTITY replaceButton.label "Csere">
+<!ENTITY replaceButton.accessKey "C">
+<!ENTITY replaceAllButton.label "Mindet cseréli">
+<!ENTITY replaceAllButton.accessKey "i">
+<!ENTITY stopButton.label "Leállítás">
+<!ENTITY stopButton.accessKey "L">
+<!ENTITY userDictionary.label "Saját szótár:">
+<!ENTITY moreDictionaries.label "Továbbiak letöltése">
+<!ENTITY addToUserDictionaryButton.label "Szó felvétele">
+<!ENTITY addToUserDictionaryButton.accessKey "f">
+<!ENTITY editUserDictionaryButton.label "Szerkesztés...">
+<!ENTITY editUserDictionaryButton.accessKey "z">
+<!ENTITY recheckButton.label "Újraellenőrzés">
+<!ENTITY recheckButton.accessKey "Ú">
+<!ENTITY closeButton.label "Bezárás">
+<!ENTITY closeButton.accessKey "B">
+<!ENTITY sendButton.label "Küldés">
+<!ENTITY sendButton.accessKey "K">
+<!ENTITY languagePopup.label "Nyelv:">
+<!ENTITY languagePopup.accessKey "N">

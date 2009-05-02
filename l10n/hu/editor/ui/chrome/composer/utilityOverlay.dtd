@@ -1,0 +1,41 @@
+<!ENTITY undoCmd.label						"Visszavonás">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"V"> 
+<!ENTITY redoCmd.label						"Újra">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"r"> 
+<!ENTITY cutCmd.label						"Kivágás">  
+<!ENTITY cutCmd.key						"X">  
+<!ENTITY cutCmd.accesskey					"K"> 
+<!ENTITY copyCmd.label						"Másolás">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"M"> 
+<!ENTITY pasteCmd.label						"Beillesztés">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"B"> 
+<!ENTITY deleteCmd.label					"Törlés">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey					"T"> 
+<!ENTITY selectAllCmd.label					"Mindet kijelöli">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey					"d">
+<!ENTITY preferencesCmd.label				"Beállítások...">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"B"> 
+<!ENTITY findTypeTextCmd.label "Szöveg keresése gépeléssel">
+<!ENTITY findTypeTextCmd.accesskey "S">
+<!ENTITY findTypeLinksCmd.label "Hivatkozások keresése gépeléssel">
+<!ENTITY findTypeLinksCmd.accesskey "H">
+
+<!ENTITY viewToolbarsMenu.label				"Megjelenítés/Elrejtés"> 
+<!ENTITY viewToolbarsMenu.accesskey			"E"> 
+
+<!ENTITY newBlankPageCmd.label "Új oldal szerkesztése">
+<!ENTITY newBlankPageCmd.accesskey "e">
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Oldal sablon felhasználásával">
+<!ENTITY newPageFromTemplateCmd.accesskey "s">
+
+<!ENTITY newNavigatorCmd.label				"Böngészőablak">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"a">

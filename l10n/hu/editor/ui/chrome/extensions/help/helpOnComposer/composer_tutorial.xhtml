@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>&brandShortName; oktatóanyag</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+  </head>
+
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">A fejezet témakörei:
+    <a href="#scope_of_this_tutorial">A dokumentum által lefedett témák</a>
+    <a href="#introduction_to_the_user_interface">A felhasználói felület bemutatása</a>
+    <a href="#starting_a_new_document">Új dokumentum létrehozása</a>
+    <a href="#basic_formatting_of_the_document">A dokumentum alapvető formázása</a>
+    <a href="#inserting_images_and_tables">Képek, táblázatok beszúrása</a>
+    <a href="#advanced_styles">Haladó stílusok</a>
+    <a href="#publishing_your_documents_basics">A dokumentum(ok) közzététele - Alapok</a>
+    </div>
+
+    <h1 id="nvu_tutorial">&brandShortName; oktatóanyag</h1>
+
+    <p>Az &brandShortName; egy nyílt forráskódú, „amit látsz, azt kapod” (WYSIWYG) típusú,
+    komplett webfejlesztő rendszer. A Mozilla megjelenítőmotorjára, a Gecko motorra épül. Az &brandShortName; teljes mértékben szabad szoftver, bárki letöltheti
+    az <a href="http://www.nvu.com/">&brandShortName;
+    weboldalról</a>.</p>
+
+    <h2 id="scope_of_this_tutorial">A dokumentum által lefedett témák</h2>
+
+    <p>Ez az oktatóanyag kezdők számára készült, azoknak, akik még csak most ismerkednek
+    a weboldal készítéssel és a (WYSIWYG) webszerkesztőkkel. Az oktatóanyag épp csak annyi
+    segítséget kíván nyújtani, hogy az &brandShortName; segítségével belekezdhessen a weboldalak
+    készítésébe. Ez nem egy bevezető a
+    HTML, XHTML, CSS stb. kódolásába. Célja csupán a gyors segítségnyújtás
+    az &brandShortName; használatának megkezdéséhez.</p>
+
+    <p>Az oktatóanyag nem fedi le a HTML minden alapvető részletét. Igen, ez egy rövid oktatóanyag, így egyes alapvető, ámde kevésbé fontos
+    részletet nem tárgyal. Önre van bízva, hogy ezekkel megismerkedjen.
+    Az egymásba ágyazható stíluslapok (CSS-Cascading Style Sheet) használatáról szintén
+    csupán egy rövid bevezetést olvashat, a beépített KaZcadeS szerkesztő bemutatásával. </p>
+
+    <p>Azok számára, akik mélyebben szeretnék elsajátítani
+    a HTML, CSS stb. technikákat, ajánljuk a  <a
+    href="http://www.w3.org/">W3 Konzorcium weboldalát</a>. Az oldalon
+    a konzorcium által karbantartott számos szabványról találhatnak részletes információkat. A HTML tanulásához kereshet anyagokat az interneten is, illetve
+    a témában már számos könyv jelent meg.</p>
+
+    <!-- The approach of this tutorial is to give the most basic
+         instructions on getting major things done with &brandShortName;. This will
+         give the user an idea as to how to achieve the objective of
+         the secion. In the end of each section a link should be
+         provided targetting corresponding section in the main Help
+         for detailed treatment of the same objective.-->
+
+    <h3 id="in_this_tutorial">Ebben az oktatóanyagban...</h3>
+
+    <p>Ezen oktatóanyag legelőször is megismerteti Önt az &brandShortName; felhasználói
+    felületével. Ezt követi az alapvető formázásokat bemutató rész. A következő
+    részben olvashat arról, hogyan illeszthet be dokumentumába új elemeket, úgymint képeket, táblázatokat és
+    űrlapokat. Ezt követően egy rövid fejezetben a stíluslapok (CSS) használatával foglalkozunk. A dokumentum végül az elkészített oldalak publikálásával, webszerveren
+    történő elhelyezésük módjának leírásával zárul.</p>
+
+    <p>[ <a href="#scope_of_this_tutorial">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="introduction_to_the_user_interface">A felhasználói felület bemutatása</h2>
+
+    <p>Az &brandShortName; Fájl menüje tartalmazza az összes fő művelet,
+    melyet a program során használhat. Részletes leíráshoz
+    olvassa el a <a href="menu_reference.xhtml">Menüreferencia</a>
+    oldalt. Az &brandShortName; a következő eszköztárakat tartalmazza:</p>
+
+    <ul>
+      <li><a href="#composition_toolbar">Szerkesztés eszköztár</a></li>
+      <li><a href="#format_toolbar">Formázás eszköztár</a></li>
+      <li><a href="#tab_browser_toolbar">Szerkesztőlapok eszköztár</a></li>
+      <li><a href="#edit_mode_toolbar">Szerkesztőmód eszköztár</a></li>
+      <li><a href="#status_toolbar">Állapotsor eszköztár</a></li>
+    </ul>
+
+    <h3 id="composition_toolbar">Szerkesztés eszköztár</h3>
+
+    <p>A Szerkesztés eszköztár a leggyakrabban használt fő műveletek nyomógombjait tartalmazza. Lent látható egy kép a Szerkesztés eszköztár alapértelmezett kinézetéről. Minden nyomógomb
+    alatt egy rövid szöveg olvasható, amely az adott gomb funkciójára utal.</p>
+
+    <p><img src="images/tut_composition_tb.png" title="Szerkesztés eszköztár" width="802" height="55" alt="" /></p>
+
+    <h3 id="format_toolbar">Formázás eszköztár</h3>
+
+    <p>A Formázás eszköztár nagyon hasznos eszköz, ha weboldalainkat az
+    &brandShortName; segítségével készítjük. A Formázás eszköztár segítségével
+    beállíthatja egy bekezdés formázását, betűtípust választhat, lecserélheti az előtér vagy háttér
+    színét, növelheti vagy csökkentheti egy szövegrész betűméretét vagy kiemelését.
+    Szintén készíthet felsorolásokat sorszámozással vagy anélkül, valamint beállíthatja
+    egy szövegrész igazítását balra, jobbra vagy középre.
+    Ahoz hogy megtudja, melyik gomb mit is csinál, csak hagyja az egérkurzort a gomb fölött,
+    és megjelenik egy kis rövid leírás a gomb funkciójáról.</p>
+
+    <p><img src="images/tut_formating_tb.png" title="Formázás eszköztár" width="802" height="34" alt="" /></p>
+
+    <h3 id="tab_browser_toolbar">Szerkesztőlapok eszköztár</h3>
+
+    <p>Az &brandShortName; lehetővé teszi számunkra, hogy egyszerre több dokumentumot is
+    szerkeszthessünk, minden egyes megnyitott dokumentumhoz külön lapot használva. A több lap használata áttekinthetőbbé teszi munkaasztalunkat, mintha
+    minden egyes dokumentum új ablakban nyílna meg, ezzel összezavarva munkánkat. Munkánkat segítendő egy „<em>piros lemezikon</em>” ikon jelenik meg azokon az
+    oldalakon, amelyeket már szerkesztettünk, de még nem mentettük el a változásokat.</p>
+
+    <p><img src="images/tut_tabbrowser_tb.png" title="Szerkesztőlapokeszköztár" width="636" height="29" alt="" /></p>
+
+    <h3 id="edit_mode_toolbar">Szerkesztőmód eszköztár</h3>
+
+    <p>A Szerkesztőmód eszköztár az éppen aktuális dokumentum nézetének módját
+    jelzi. A lehetséges nézetmódok a Normál nézet, a HTML-elem nézet, a HTML-forrás nézet és az
+    Előnézet mód. Könnyedén válthat az egyes nézet módok közt, egyszerűen kattintson
+    az egérrel a megfelelő módra!</p>
+
+    <p><img src="images/tut_editmode_tb.png" title="Szerkesztőmódeszköztár" width="408" height="30" alt="" /></p>
+
+    <h3 id="status_toolbar">Állapotsor eszköztár</h3>
+
+    <p>Az &brandShortName; állapotsora megmutatja a kurzor pozícióját a dokumentumban
+    a HTML-elem hierarchiának megfelelően. Könnyedén módosíthatja/beállíthatja
+    az egyes elemek tulajdonságait, ha az állapotsorban jobb egérgombbal kattintva rájuk,
+    a helyi menüből kiválasztja a kívánt beállítást. Bal egérgombbal kattintva
+    egy, az állapotsorban szereplő elemen kijelölheti az elem által körülvett teljes szövegrészt.</p>
+
+    <p><img src="images/tut_status_tb.png" title="Állapotsoreszköztár" width="326" height="48" alt="" /></p>
+
+    <p>[ <a href="#introduction_to_the_user_interface">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="starting_a_new_document">Új dokumentum létrehozása</h2>
+
+    <p>Új dokumentumot kezdhet a Szerkesztés eszköztár „Új” gombjára kattintva, vagy
+    a Fájl > Új menüpontot használva, az „Üres dokumentum” pont kiválasztását követően a „Létrehozás” gomb segítségével. Abban az esetben, ha már létező fájlt kíván szerkeszteni, használja a Fájl > Fájl megnyitása menüpontot,
+    majd válassza ki a kívánt állományt! Részletes információkhoz olvassa el az &brandShortName; súgójának <a
+    href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása
+    </a> részét!</p>
+
+    <p>Normál HTML-fájl helyett sablon segítségével is hozzákezdhet egy új dokumentum elkészítéséhez. A sablonok egyszerűbbé teszik a weboldalak kezelését azáltal, hogy az oldal karbantartójának
+    csupán az adott oldal szövegének szerkesztésével kell foglalkoznia, a külalakot, a dokumentum
+    dizájnját a sablon határozza meg. Ez az oktatóanyag nem ad további információkat a sablonok készítésével és használatával
+    kapcsolatban. További részleteket az &brandShortName; súgójának <a
+    href="composer_help.xhtml#working_with_templates">Munka
+    sablonokkal</a> részéből szerezhet.</p>
+
+    <p>[ <a href="#starting_a_new_document">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="basic_formatting_of_the_document">A dokumentum alapvető formázása</h2>
+
+    <p>A következő rész szövegét fogjuk felhasználni új dokumentumunk elkészítéséhez,
+    amelyen keresztül megismerkedünk az &brandShortName; által nyújtott alapvető
+    formázási lehetőségekkel. A következő rész szövegét másolja be egy újonnan létrehozott dokumentumba!</p>
+
+    <h3 id="tutorial_text">Oktatószöveg</h3>
+
+    <!-- The text for the tutorial is a general text. It was by chance
+         that I was reading a book by Jim Corbett when I was planning
+         about the text to be used for the tutorial. So I wrote a few
+         paragraphs with the information I collected from a couple of
+         books and several websites. I donot guarantee for the
+         information to be correct. So, if you want detailed
+         information about Corbett National Park, consult tourist
+         books, and the WWW. In case you want to change the text,
+         please make sure that neither the new text is not copyrighted
+         nor you should use copyrighted images. All text and images
+         used in the tutorial are supposed to be distributed under the
+         GNU GPL, and MPL license. -->
+
+    <p>Corbett Nemzeti Park</p>
+
+    <p>A Jim Corbett után elnevezett Corbett Nemzeti Parkot
+    1938-ban alapították, Ázsia első nemzeti parkjaként. Indiában, Uttranchal északi részén helyezkedik el. Területe 512 km<sup>2</sup>. A Corbett Nemzeti Park, a Sonandi Wildlife védett
+    területtel és a Reserve Forest területével együtt mindösszesen 1288 km<sup>2</sup>-t tesz ki,
+    egy nagyobb projektet alkotva, melynek neve Corbett Tigrisrezervátum.</p>
+
+    <p>A legnépszerűbb állatok a Corbett Nemzeti Parkban a bengáli tigris és az
+    ázsiai elefánt. Egyben más állatok otthona is, úgy mint stb. stb. A Garhwal és Kumoan hegyek területének találkozásánál elhelyezkedve mindkét
+    régióban élő emberek kultúrájának keverékével büszkélkedhet.</p>
+
+    <p>Jim Corbett</p>
+
+    <p>Jim Corbett, (1875-1955), Kaladhungiban élt. Házát múzeummá alakítatta a
+    kormány, életének és munkásságának megbecsülése jeléül. Természettudós, természetvédő és megrögzött fényképész volt. 1875. július 25-én született, Kaladhungiban és Nanitalban nőtt fel. Miután az első világháborúban harcolt a brit hadseregben, visszatért Indiába
+    és Kaladhungiban telepedett le nővérével, Maggie-vel.
+A lakosság és a kormány részéről többször is felkérték, hogy emberevő
+    tigrisektől és leopárdoktól szabadítsa meg az embereket.</p>
+
+    <p>A Corbett Nemzeti Park látogatása</p>
+
+    <p>Általános információk</p>
+
+    <p>Magasság: 385-1100 m tengerszint felett</p>
+
+    <p>Évi csapadékmennyiség: 1400 mm - 2800 mm</p>
+
+    <p>A hőmérséklet alakulása: 4 °C-tól (télen), 42 °C-ig (nyáron)</p>
+
+    <p>Nyitva tartás turisták számára: november 15-től június 15-ig</p>
+
+    <p>Megközelítés:</p>
+
+    <p>A Corbett Tigrisrezervátum központja Ramnagarban található. Delhivel, Moradabaddal, Bareilly-vel és
+	  Nanitallal országút köti össze. Állami buszjáratok közlekednek
+	  Ramnagarba Delhiből, Moradabadból és Haldwaniból. Vonat segítségével
+	  Újdelhiből érhetik el a turisták Ramnagart.</p>
+
+    <h3>A szöveg formázása</h3>
+
+    <p>Először a címsorokkal és alcímekkel fogunk foglalkozni. Válassza ki a
+    dokumentum elején található „Corbett Nemzeti Park” szöveget, majd kattintson
+    a <em>szövegtörzs</em> legördülő menüre a <strong>Formázás eszköztáron</strong>,
+    és válassza ki a <tt>Címsor 1</tt> pontot. A szöveg megjelenése az első szintű
+    címsor formázását fogja követni. Ehhez hasonlóan válassza ki „A Corbett Nemzeti
+    Park látogatása” szöveget és állítsa be kettes szintű címsornak.</p>
+
+    <p>A következő lépés, amit célszerű megtennie, hogy kijelöli a szövegben
+    található bekezdéseket és az előbbi módszert követve <em>bekezdés</em>ekként
+    formázza meg őket. A megadott szövegben ezt már megtettük, hogy annak külalakja
+    szalonképes legyen, másrészt pedig az egyes bekezdések elkülönítése amúgy is
+    hasznos gyakorlat.</p>
+
+    <p>Fontos szavak vagy kifejezések kiemelésére használhatja a
+    <strong>félkövér</strong>(<strong>B</strong>), a
+    <em>dőlt</em>(<strong><em>I</em></strong>), vagy az
+    <u>aláhúzott</u>(<strong><u>U</u></strong>) gombokat a
+    <strong>Formázás eszköztáron</strong>, ahogy ebben a sorban ezt mi is megtettük. Ezen kívül számos egyéb formázási lehetőség áll rendelkezésére a Formázás
+    eszköztáron keresztül, vagy ha a Formátum menüt választja a menüsorból. Bátran próbáljon ki néhány beállítást, így könnyen megtanulhat pár ügyes trükköt. Ha elrontana valamit, ne aggódjon, csak nyomja le egyszer a „<tt>Ctrl+Z</tt>”
+    billentyűkombinációt, hogy <em>visszavonja</em> az utolsó műveletet. Ha a weboldalak szövegeinek összes lehetséges formázási beállítására kíváncsi,
+    további részletekért olvassa el az &brandShortName; súgójának <a
+    href="composer_help.xhtml#formatting_your_web_pages">A weboldal
+    formázása</a> részét.</p>
+
+    <p>Ezen a ponton az ön oktatószövege az alábbiakhoz hasonlóan néz ki:</p>
+
+    <hr />
+
+    <div style="font-size:x-large;">Corbett Nemzeti Park</div>
+
+    <p>A <strong>Jim Corbett</strong> után elnevezett <em>Corbett Nemzeti Park</em>ot
+    1938-ban alapították, Ázsia első nemzeti parkjaként. Indiában, Uttranchal északi részén helyezkedik el. Területe 512 km<sup>2</sup>. A Corbett Nemzeti Park, a Sonandi Wildlife védett
+    területtel és a Reserve Forest területével együtt mindösszesen 1288 km<sup>2</sup>-t tesz ki,
+    egy nagyobb projektet alkotva, melynek neve Corbett Tigrisrezervátum.</p>
+
+    <p>A legnépszerűbb állatok a Corbett Nemzeti Parkban a <em>bengáli tigris</em> és az
+    <em>ázsiai elefánt</em>. Egyben más állatok otthona is, úgy mint stb. stb. A Garhwal és Kumoan hegyek területének találkozásánál elhelyezkedve mindkét
+    régióban élő emberek kultúrájának keverékével büszkélkedhet.</p>
+
+    <div style="font-size:large;">Jim Corbett</div>
+
+    <p>Jim Corbett, (1875-1955), Kaladhungiban élt. Házát múzeummá alakítatta a
+    kormány, életének és munkásságának megbecsülése jeléül. Természettudós, természetvédő és megrögzött fényképész volt. 1875. július 25-én született, Kaladhungiban és Nanitalban nőtt fel. Miután az első világháborúban harcolt a brit hadseregben, visszatért Indiába
+    és Kaladhungiban telepedett le nővérével, Maggie-vel.
+A lakosság és a kormány részéről többször is felkérték, hogy emberevő
+    tigrisektől és leopárdoktól szabadítsa meg az embereket.</p>
+
+    <div style="font-size:large;">A Corbett Nemzeti Park látogatása</div>
+
+    <p>Általános információk</p>
+
+    <p>Magasság: 385-1100 m tengerszint felett</p>
+
+    <p>Évi csapadékmennyiség: 1400 mm - 2800 mm</p>
+
+    <p>A hőmérséklet alakulása: 4 °C-tól (télen), 42 °C-ig (nyáron)</p>
+
+    <p>Nyitva tartás turisták számára: november 15-től június 15-ig</p>
+
+    <p>Megközelítés:</p>
+
+    <p>A Corbett Tigrisrezervátum központja Ramnagarban található. Delhivel, Moradabaddal, Bareilly-vel és
+	  Nanitallal országút köti össze. Állami buszjáratok közlekednek
+	  Ramnagarba Delhiből, Moradabadból és Haldwaniból. Vonat segítségével
+	  Újdelhiből érhetik el a turisták Ramnagart.</p>
+
+    <hr />
+
+    <p>[ <a href="#basic_formatting_of_the_document">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="inserting_images_and_tables">Képek, táblázatok beszúrása</h2>
+
+    <p>Képek, táblázatok és űrlapok beszúrására a dokumentumba a <strong>
+    Szerkesztés eszköztárat</strong> használhatja. Illesszünk be egy táblázatot, és másoljuk bele a Corbett Nemzeti Parkról
+    kapott általános információkat. Kattintson a Szerkesztés eszköztár „<em>Táblázat</em>” gombjára <img 
+    src="images/table.png" width="26" height="26" alt="" />. Válassza ki egér
+    segítségével a táblázat méretét, 5 sor és 2 oszlop legyen. Az ötödik sor
+    második oszlopára kattintva létrehozhat egy kívánt méretű, alapbeállításokkal
+    rendelkező táblázatot.</p>
+
+    <p>A táblázat szöveggel való feltöltéséhez egyszerűen vágja ki
+    („<tt>Ctrl+X</tt>”) a megfelelő szöveget és illessze be
+    („<tt>Ctrl+V</tt>”) azt a táblázat megfelelő cellájába. Miután elkészült,
+    a táblázat az alábbihoz hasonlóan néz ki:</p>
+
+    <!-- Do not remove inline styles from tutorial text.
+	 This is to override the style sheet rules.-->
+
+    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+	<tr>
+	  <td style="width: 186px;">Magasság</td>
+
+	  <td style="width: 451px;">385-1100 m tengerszint felett</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Évi csapadékmennyiség</td>
+	  <td style="width: 451px;">1400 mm - 2800 mm</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">A hőmérséklet alakulása</td>
+	  <td style="width: 451px;">4 °C-tól (télen), 42 °C-ig (nyáron)</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Nyitva tartás turisták számára</td>
+	  <td style="width: 451px;">november 15-től június 15-ig</td>
+	</tr>
+
+	<tr>
+	  <td style="width: 186px;">Megközelítés</td>
+	  <td style="width: 451px;">A Corbett Tigrisrezervátum központja Ramnagarban található. Delhivel, Moradabaddal, Bareilly-vel és
+	  Nanitallal országút köti össze. Állami buszjáratok közlekednek
+	  Ramnagarba Delhiből, Moradabadból és Haldwaniból. Vonat segítségével
+	  Újdelhiből érhetik el a turisták Ramnagart.</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Miután ez az egyszerű táblázat elkészült, a táblázat aktiválásával, azaz
+    a kurzor táblázaton belülre helyezése után a <strong>Szerkesztés eszköztár
+    </strong> <strong>Táblázat</strong> gomnjára kattintva, módosíthatja annak
+    beállításait. A Táblázat tulajdonságai párbeszédablakban módosíthatja
+    a táblázat egészének, egy cellájának, egy sorának vagy oszlopának számos
+    tulajdonságát, pl. a táblázat vagy cella háttérszínét, a táblázat feliratát,
+    igazítását, a táblázat vagy egy oszlopának szélességét stb.</p>
+
+    <p>További számos beállítás kezelésének lehetőségeihez olvassa el az
+    &brandShortName; súgójának <a
+    href="composer_help.xhtml#formatting_your_web_pages">Táblázat
+    használata a weboldalakon</a> részét.</p>
+
+    <p>[ <a href="#inserting_images_and_tables">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="advanced_styles">Haladó stílusok</h2>
+
+    <p>Az &brandShortName; lehetővé teszi egymásba ágyazott stíluslapok szerkesztését
+    beépített stíluslap editora, a „KaZcadeS” segítségével. A KaZcadeS egyaránt
+    képes belső és külső stíluslapok alkalmazására a szerkesztett dokumentumokban. A KaZcadeS használatának részletei túlmutatnak ezen oktatóanyag terjedelmén. Habár a felhasználót a súgó főoldala a <a
+    href="composer_help.xhtml#using_style_sheets_for_your_web_pages">Stíluslapok
+    használata a weboldalakon</a> részre irányítja.</p>
+
+    <p>[ <a href="#advanced_styles">Vissza a fejezet elejére</a> ]</p>
+
+    <h2 id="publishing_your_documents_basics">A dokumentum(ok) közzététele - Alapok</h2>
+
+    <p>Közzéteheti weboldalait az &brandShortName; beépített webhelykezelője segítségével. A webhelykezelő láthatóságát az F9 billentyűvel állíthatja be.</p>
+
+    <p>A webhelykezelő éppen újraírás alatt áll, így az oktatóanyag ezen részének
+    megírása az új verzió megjelenéséig el lett halasztva.</p>
+
+    <p>[ <a href="#publishing_your_documents_basics">Vissza a fejezet elejére</a> ]</p>
+
+    <div class="copyrightBox"><em>6 August 2006 </em></div>
+
+    <p>Copyright &copy; 2003-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+  </body>
+</html>

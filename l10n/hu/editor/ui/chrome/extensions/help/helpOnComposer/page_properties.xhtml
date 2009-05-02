@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a
+  href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h2 id="setting_page_properties">Oldaltulajdonságok beállítása</h2>
+
+<h3 id="setting_page_properties_and_meta_tags">Oldaltulajdonságok és metakódelemek beállítása</h3>
+
+<p>Az Oldal tulajdonságai párbeszédpanelen az oldal különféle jellemzői adhatók meg, ilyen a cím, a szerző és a dokumentum leírása. Ezek az adatok hasznosak lehetnek, ha az oldalt webhelyen kívánjuk elhelyezni, hiszen a keresők ezeket használják az oldal indexeléséhez. A böngészőablakban ezek az adatok a Nézet menü Oldal adatai parancsával tekinthetők meg.</p>
+
+<ol> 
+  <li>ehhez válasszuk a Formátum menü Oldal címe és tulajdonságai parancsát.</li>
+
+  <li>A következő tulajdonságok adhatók meg:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Cím</strong>:  írjuk be azt a szöveget, amelyet az oldal megtekintésekor a böngészőablak címsorában szeretnénk megjeleníteni. A keresők általában ez alapján keresik meg a weboldalakat, így érdemes az oldal témáját ismertető címet megadni.</li>
+
+      <li><strong>Szerző</strong>: írjuk be a dokumentum készítőjének nevét. Ez hasznos lehet azoknak az olvasóknak a számára, akik név alapján keresik a weboldalakat.
+
+      <blockquote> <p><strong>Tipp</strong>: Ha a szerző nevét megadjuk az
+      &brandShortName; <a
+      href="preferences.xhtml#preferences_new_page_settings">beállításainál</a>,
+      akkor azt nem kell mindig beírni az új oldalak létrehozásánál.</p> </blockquote> </li>
+
+      <li><strong>Leírás:</strong> adjuk meg a dokumentum rövid ismertetését.</li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a href="#setting_page_properties">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="setting_page_colors_and_backgrounds">Az oldal színeinek és hátterének beállítása</h3>
+
+<p>Beállíthatjuk az oldal színeit, illetve háttérként képet is megadhatunk. Ezek a beállítások a böngészőben megtekintett oldal szövegének és hivatkozásainak megjelenítési módját határozzák meg.</p>
+
+<p>A színek és a háttérkép beállításához induljunk ki az &brandShortName; ablakából:</p>
+
+<ol>
+  <li>ehhez válasszuk a Formátum menü Oldal színei és háttere parancsát.</li>
+
+  <li>A következő tulajdonságok adhatók meg:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>A látogató böngészőjének alapértelmezett színei:</strong> választásakor az oldal megtekintéséhez használt böngésző beállításai határozzák meg a szöveg és a hivatkozások színeit.</li>
+
+      <li><strong>Egyéni színek használata:</strong> akkor válasszuk, ha magunk szeretnénk megadni a szöveg és a hivatkozások színeit. A lenyitható listán válasszunk színt minden elemhez. A jobb oldali mintamezőben példát láthatunk az egyes hivatkozástípusokra.</li>
+
+      <li><strong>Háttérkép</strong>: választásakor képet helyezhetünk el az oldal hátterébe. Adjuk meg a képfájl helyét és nevét, vagy kattintsunk a Tallózás gombra, és keressük meg a fájlt a merevlemezen vagy a hálózaton.
+
+      <p><strong>Megjegyzés:</strong> a háttérkép mozaikszerűen helyezkedik el, és felülírja a háttérszín beállítását.</p> </li>
+
+      <li><strong>Az URL relatív az oldal elhelyezkedéséhez képest</strong>: ha bejelöljük, az &brandShortName; az oldal helyéhez viszonyított relatív címmé alakítja a megadott webcímet. Ez különösen akkor hasznos, ha az oldalakat webkiszolgálón szeretnénk majd közzétenni.
+
+      <p>Relatív webcímek használatakor az összes csatolt fájlt a merevlemezen vagy a webkiszolgálón elfoglalt tényleges helyüktől függetlenül egymáshoz képest azonos helyen tarthatjuk.</p>
+
+      <p>A négyzet jelölésének törlésekor az &brandShortName; teljes (abszolút) címmé alakítja a megadott webcímet. Általában akkor használunk abszolút webcímeket, amikor más webkiszolgálókon (nem a helyi merevlemezen tárolt) lévő képeket csatolunk.</p>
+
+      <p>Ha nem mentett változtatások találhatók a weboldalon, a négyzet csak mentés után jelölhető be.</p>
+      </li>
+      </ul>
+  </li>
+</ol>
+
+<p><strong>Megjegyzés:</strong> További attribútumok vagy JavaScript események adhatók meg a <a
+href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a> párbeszédpanelen, ha a Haladó szerkesztés gombra kattintunk.</p>
+
+<p>Az &brandShortName; programban létrehozott új oldalakhoz <a
+href="preferences.xhtml#preferences_new_page_settings">alapértelmezett hátteret és színeket</a> is beállíthatunk.</p>
+
+<p class="returnToSection">[ <a href="#setting_page_properties">Vissza a fejezet elejére</a> ]</p>
+
+  <div class="copyrightBox"><em>10 August 2006</em></div>
+
+<p>[<a href="links.xhtml">Következő</a>] [<a href="templates.xhtml">Előző</a>]</p>
+
+<p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

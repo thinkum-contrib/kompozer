@@ -1,0 +1,41 @@
+<!ENTITY lHeader                   "Új oldal beállításai">
+<!ENTITY rHeader                   "Új weboldalak alapértelmezett beállításai">
+
+<!ENTITY authorName.label          "Szerző:">
+<!ENTITY authorName.accesskey      "S">
+<!ENTITY pageColorHeader           "Weboldal alapértelmezett kinézete">
+
+<!ENTITY defaultColorsRadio.label   "A látogató böngészőjének alapértelmezett színei">
+<!ENTITY defaultColors.accesskey    "l">
+<!ENTITY customColorsRadio.label    "Egyéni színek használata:">
+<!ENTITY customColors.accesskey     "E">
+
+<!ENTITY normalText.label           "Normál szöveg">
+<!ENTITY normalText.accesskey       "N">
+<!ENTITY linkText.label             "Hivatkozás szövege">
+<!ENTITY linkText.accesskey         "i">
+<!ENTITY activeLinkText.label       "Aktív hivatkozás szövege">
+<!ENTITY activeLinkText.accesskey   "A">
+<!ENTITY visitedLinkText.label      "Látogatott hivatkozás szövege">
+<!ENTITY visitedLinkText.accesskey  "L">
+<!ENTITY background.label           "Háttér:">
+<!ENTITY background.accesskey       "H">
+<!ENTITY colon.character            ":">
+
+<!ENTITY backgroundImage.label      "Háttérkép:">
+<!ENTITY backgroundImage.accesskey  "H">
+<!ENTITY chooseFile.label           "Tallózás...">
+<!ENTITY chooseFile.accesskey       "T">
+
+<!ENTITY i18nHeader                  "Nemzetközi">
+
+<!ENTITY writingDirection.label      "Írás iránya:">
+<!ENTITY defaultDirectionRadio.label "Nincs irány megadva">
+<!ENTITY ltrDirectionRadio.label     "Balról jobbra">
+<!ENTITY rtlDirectionRadio.label     "Jobbról balra">
+
+<!ENTITY language.label              "Nyelv:">
+<!ENTITY languageChoiceButton.label  "Nyelv kiválasztása">
+
+<!ENTITY defaultCharset.label        "Karakterkészlet:">
+<!ENTITY chooseCharsetButton.label   "Karakterkészlet kiválasztása">

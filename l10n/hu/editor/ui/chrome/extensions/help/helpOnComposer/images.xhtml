@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h2 id="adding_pictures_to_your_web_page">Képek felvétele a weboldalra</h2>
+
+<h3 id="inserting_an_image_into_your_page">Kép beszúrása az oldalra</h3>
+
+<p>A weboldalra GIF, JPEG, BMP és PNG (Portable Network Graphics) formátumú képeket szúrhatunk be. Ezek <a
+href="#using_images_as_links">hivatkozások létrehozásához</a> is használhatók. Amikor képet szúrunk be, az &brandShortName;a kép hivatkozását menti a weboldalon.</p>
+
+<p><strong>Megjegyzés:</strong> ha az oldalakat webkiszolgálón kívánjuk közzétenni, ne használjunk BMP formátumú képeket.</p>
+
+<p><strong>Tipp:</strong> képek beszúrása előtt érdemes menteni az oldalt. Ez lehetővé teszi az &brandShortName; számára, hogy automatikusan a képek relatív hivatkozását használja.</p>
+
+<p>Kép beszúrása:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a képet szeretnénk megjeleníteni.</li>
+
+  <li>Kattintsunk az eszköztáron a Kép <img src="images/image.png" width="26"
+  height="26" alt="" /> gombra, vagy válasszuk a Beszúrás menü Kép parancsát. A Kép tulajdonságai párbeszédpanel jelenik meg.</li>
+
+  <li>Adjuk meg a képfájl helyét és nevét, vagy kattintsunk a Tallózás gombra, és keressük meg a fájlt a merevlemezen vagy a hálózaton.</li>
+
+  <li>Adjuk meg a kép rövid leírását, ez a szöveges böngészőkben a kép helyett, illetve a többi böngészőben a kép betöltésének idején vagy betöltési hibánál jelenik meg.
+
+  <p>A magyarázó szöveg megadása nem kötelező.</p>
+  </li>
+
+  <li>Ha szükséges, váltsunk át a többi panellapra is, így további tulajdonságok (például igazítás) is beállíthatók a <a href="#editing_image_properties">Kép tulajdonságai</a> párbeszédpanelen.</li> </ol>
+
+<p><strong>Tipp</strong>: kép gyors beszúrásához az egérrel húzzuk át a képet a weboldalra.</p>
+
+<p><strong>Tipp:</strong> ha egy bekezdés összes képe után sortörést szeretnénk elhelyezni, válasszuk a Beszúrás menü Sortörés a képek alatt parancsát.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_pictures_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="editing_image_properties">Kép tulajdonságainak szerkesztése</h3>
+
+<p>Miután beszúrtuk a képet az oldalra, tulajdonságainak szerkesztésével megadhatjuk elhelyezkedését az oldalon: így magasságát, szélességét, a térközöket és a szövegigazítást. A Kép tulajdonságai párbeszédpanel a következő lépésekkel jeleníthető meg:</p>
+
+<p>Kijelölt kép tulajdonságainak szerkesztése:</p>
+
+<ol>
+
+  <li>A Kép tulajdonságai párbeszédpanel megjelenítéséhez kattintsunk duplán a képre, vagy jelöljük azt ki, és kattintsunk az eszköztáron a Kép <img src="images/image.png" width="26" height="26" alt="" /> gombra.</li>
+
+  <li>A Hely panellapon a következő tulajdonságok állíthatók be:<ul>
+    <li><strong>Kép URL</strong>: írjuk be a képfájl helyét és nevét. A Tallózás gombra kattintva a fájlt megkereshetjük a merevlemezen vagy a hálózaton.</li>
+    
+    <li><strong>Az URL relatív az oldal elhelyezkedéséhez képest:</strong>: ha bejelöljük, az &brandShortName; az oldal helyéhez viszonyított relatív címmé alakítja a megadott webcímet. Ez különösen akkor hasznos, ha az oldalakat webkiszolgálón szeretnénk majd közzétenni. Relatív webcímek használatakor az összes csatolt fájlt a merevlemezen vagy a webkiszolgálón elfoglalt tényleges helyüktől függetlenül egymáshoz képest azonos helyen tarthatjuk.
+    <p>A négyzet jelölésének törlésekor az &brandShortName; teljes (abszolút) címmé alakítja a megadott webcímet.     Általában akkor használunk abszolút webcímeket, amikor más webkiszolgálókon (nem a helyi merevlemezen tárolt) lévő képeket csatolunk.</p>
+    <p>Ha nem mentett változtatások találhatók a weboldalon, a négyzet csak mentés után jelölhető be. (A négyzet nem áll rendelkezésre, ha a Kép tulajdonságai párbeszédpanelt üzenetszerkesztési ablakból nyitottuk meg.)</p></li>
+
+    <li><strong>Magyarázó szöveg:</strong> itt adhatjuk meg a kép helyén megjelenő szöveget, amely címfelirat vagy rövid leírás lehet. Érdemes ezt beírni a szöveges webböngészőt használók számára, illetve azoknak, akik kikapcsolták a képek letöltését.</li>
+    
+    <li><strong>Ne használjon magyarázó szöveget:</strong> választásával azt jelezzük, hogy a kép nem igényel magyarázó szöveget, illetve nem akarunk ilyet megadni.</li>
+    
+  </ul>
+  </li>
+  <li>A Méretek panellapon a következő tulajdonságok állíthatók be:<ul>
+    <li><strong>Valódi méret:</strong> a beállítással a végrehajtott változtatások elvetésével a kép eredeti méretei állíthatók vissza.</li>
+    
+    <li><strong>Egyéni méret:</strong> választása után adjuk meg a kívánt magasságot és szélességet képpontban vagy százalékértékkel. A beállítás nem érinti az eredeti képfájlt, csak az oldalra beszúrt képre van hatással.</li>
+    
+    <li><strong>Rögzített méretarány</strong>: ha módosítjuk a kép méretét, érdemes bejelölni ezt a négyzetet a kép méretarányának fenntartásához (így nem válhat torzítottá).
+    Bekapcsolásakor elegendő megadni az egyik méretet (a magasságot vagy a szélességet).</li>
+    
+  </ul>
+  </li>
+  <li>A Megjelenés panellapon a következő tulajdonságok állíthatók be:<ul>
+    <li><strong>Kép körüli térköz</strong>: adjuk meg a kép és a környező szöveg közötti térköz mértékét. A képhez fekete szegély rendelhető, és megadhatjuk ennek vonalvastagságát. Nulla érték megadásakor nem lesz szegély a kép körül.</li>
+
+    <li><strong>Szöveg a kép körül:</strong> ha a képet szöveg közelében helyeztük el, itt megadhatjuk a szöveg képhez viszonyított igazítását.</li>
+
+    <li><strong>Hivatkozástérkép:</strong> az Eltávolítás gombra kattintva az esetleges ilyen beállítások törölhetők.</li>
+
+  </ul>
+  </li>
+  <li>A Hivatkozás panellapon a következő tulajdonságok állíthatók be:<ul>
+    <li><strong>Weboldal megadása:</strong> ha a képhez hivatkozást szeretnénk megadni, írjuk be a távoli vagy a helyi weboldal URL-címét, illetve jelöljünk ki horgonyt vagy címsort a lenyitható listán. A Tallózás gombra kattintva a fájlt megkereshetjük a merevlemezen vagy a hálózaton.</li>
+    
+    <li><strong>Az URL relatív az oldal elhelyezkedéséhez képest</strong>: ha bejelöljük, az &brandShortName; az oldal helyéhez viszonyított relatív címmé alakítja a megadott webcímet. Ez különösen akkor hasznos, ha az oldalakat webkiszolgálón szeretnénk majd elhelyezni. Relatív webcímek használatakor az összes csatolt fájlt a merevlemezen vagy a webkiszolgálón elfoglalt tényleges helyüktől függetlenül egymáshoz képest azonos helyen tarthatjuk.
+    <p>A négyzet jelölésének törlésekor az &brandShortName; teljes (abszolút) címmé alakítja a megadott webcímet.     Általában akkor használunk abszolút webcímeket, amikor más webkiszolgálókon (nem a helyi merevlemezen tárolt) lévő képeket csatolunk.</p>
+    <p>Ha nem mentett változtatások találhatók a weboldalon, a négyzet csak mentés után jelölhető be. (A négyzet nem áll rendelkezésre, ha a Kép tulajdonságai párbeszédpanelt üzenetszerkesztési ablakból nyitottuk meg.)</p></li>
+
+    <li><strong>Szegély megjelenítése a kép körül:</strong> bejelölésekor a hivatkozások kiemelési színének megfelelő szegély jelenik meg a kép körül.</li>
+  </ul>
+  </li>
+  
+  <li>További attribútumok vagy JavaScript események adhatók meg a <a href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a> párbeszédpanelen, ha a Haladó szerkesztés gombra kattintunk.</li>
+
+  <li>A változtatások érvényesítéséhez kattintsunk az OK gombra.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#adding_pictures_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<p>[<a href="toc.xhtml">Következő</a>] [<a href="tables.xhtml">Előző</a>]</p>
+
+  <div class="copyrightBox"><em>10 August 2006</em></div>
+
+<p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

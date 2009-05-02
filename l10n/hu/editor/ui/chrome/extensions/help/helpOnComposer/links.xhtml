@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivatkozások létrehozása az
+  &brandShortName;;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName;; testreszabása</a>
+
+</div>
+
+<h2 id="creating_links_in_composer">Hivatkozások létrehozása az
+  &brandShortName;;-val</h2>
+
+<h3 id="creating_links_within_the_same_page">Ugyanazon oldalra mutató hivatkozások létrehozása</h3>
+
+<p>Az ugyanazon oldalra, például az oldal címsorára mutató hivatkozás készítéséhez <em>horgonyt</em> kell létrehoznunk (meg kell jelölni a célhelyet), majd erre kell hivatkoznunk. A horgony szokásos neve <em>elnevezett horgony</em>.</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot a horgony kívánt sorának elejére, vagy jelöljünk ki szöveget.</li>
+  
+  <li>Kattintsunk a horgony <img src="images/anchor.png" width="26"
+  height="26" alt="" /> gombra, vagy a Beszúrás menüből válasszuk a Horgony parancsot.
+  A Horgony tulajdonságai párbeszédpanel jelenik meg.</li>
+  
+  <li>A mezőbe írjuk be a horgony egyedi nevét (ez legfeljebb 30 karakterből állhat). A szóközöket a program aláhúzás karakterré (_) alakítja. Ha az 1. lépésben szöveget jelöltünk ki, névként ez jelenik meg a mezőben.</li>
+  
+  <li>Kattintsunk az OK gombra. A dokumentumban a horgony helyének jelölésére egy horgony ikon jelenik meg: <img src="images/anchor-in-doc.gif" width="20"
+  height="17" alt="" /></li>
+</ol>
+
+<p>Hivatkozás létrehozása a felvett horgonyhoz (az olvasók erre kattintva juthatnak a horgonnyal jelölt részhez):</p>
+
+<ol>
+  <li>Jelöljük ki a horgonyra mutató hivatkozásként használni kívánt szöveget vagy képet.</li>
+
+  <li>Kattintsunk a Hivatkozás gombra, vagy válasszuk a Beszúrás menü Hivatkozás parancsát. A Hivatkozás tulajdonságai párbeszédpanel jelenik meg.  
+  <ul>
+    <li>Ha a számítógépen lévő HTML fájlhoz készítünk hivatkozást, megkereséséhez kattintsunk a Tallózás gombra.</li>
+    
+    <li>Ha horgonyhoz hozunk létre hivatkozást, jelöljük ki a horgony nevét az oldalon rendelkezésre álló horgonyok közül.</li>
+    
+    <li>Ha címsorhoz (például Címsor 1 ? Címsor 6 formázású szöveg) készítünk hivatkozást, jelöljük azt ki az oldalon található címsorok közül.</li>
+    
+  </ul>
+  </li>
+  
+  <li>Kattintsunk az OK gombra.</li> 
+</ol>
+
+<p><strong>Megjegyzés:</strong> a hivatkozás működésének ellenőrzéséhez válasszuk a Fájl menü Oldal megtekintése parancsát, és kattintsunk a hivatkozásra.</p>
+
+<p><strong>Tipp:</strong> ha előzőleg nem hozunk létre horgonyokat, a Hivatkozás párbeszédpanelen az oldalon előforduló címsorokra mutató hivatkozásokat készíthetünk.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="creating_links_to_other_pages">Más oldalra mutató hivatkozások létrehozása</h3>
+
+<p>Az oldalon hivatkozásokat hozhatunk létre a helyi számítógépen vagy a vállalati hálózaton található más oldalakhoz, de az interneten lévő távoli oldalakhoz is.</p>
+
+<p><strong>Tipp:</strong> más oldalakra mutató hivatkozások létrehozása előtt érdemes menteni az oldalt. Ez lehetővé teszi az &brandShortName; számára, hogy automatikusan relatív hivatkozásokat használjon.</p>
+
+<p id="to_create_a_link_to_another_page">Más oldalra mutató hivatkozás létrehozása:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a hivatkozást szeretnénk létrehozni, vagy jelöljük ki a hivatkozásként használni kívánt szöveget vagy képet.</li>
+  
+  <li>Kattintsunk a Hivatkozás gombra. A Hivatkozás tulajdonságai párbeszédpanel jelenik meg.</li>
+  
+  <li>Adjuk meg a hivatkozás beállításait:<ul>
+    <li><strong>Hivatkozás szövege:</strong> ha a Hivatkozás gombra kattintás előtt szöveget vagy képet jelöltünk ki, a kijelölt szöveg vagy a kép fájlneve jelenik itt meg. Ha nem ez a helyzet, írjuk be a hivatkozásként használni kívánt szöveget.</li>
+
+    <li><strong>Hivatkozás címe:</strong> írjuk be a hivatkozni kívánt oldal helyi elérési útvonalát és fájlnevét vagy távoli webcímét. Ha nem vagyunk biztosak a helyi fájl pontos elérési útvonalában vagy fájlnevében, kattintsunk a Tallózás gombra, és keressük meg a merevlemezen vagy a hálózaton. A távoli URL kimásolható a böngésző címmezőjéből. Ezen a párbeszédpanelen az adott oldalon lévő horgonyra vagy címsorra is létrehozhatunk hivatkozást.</li>
+
+    <li><strong>Az URL relatív az oldal elhelyezkedéséhez képest</strong>: ha bejelöljük, az &brandShortName; az oldal helyéhez viszonyított relatív címmé alakítja a megadott webcímet. Ez különösen akkor hasznos, ha az oldalakat webkiszolgálón szeretnénk majd elhelyezni. Relatív webcímek használatakor az összes csatolt fájlt a merevlemezen vagy a webkiszolgálón elfoglalt tényleges helyüktől függetlenül egymáshoz képest azonos helyen tarthatjuk.
+    <p>A négyzet jelölésének törlésekor az &brandShortName; teljes (abszolút) címmé alakítja a megadott webcímet. Általában akkor használunk abszolút webcímeket, amikor más webkiszolgálókon (nem a helyi merevlemezen tárolt) lévő oldalakat csatolunk.</p>
+    <p>Ha nem mentett változtatások találhatók a weboldalon, a négyzet csak mentés után jelölhető be.</p></li>
+    
+  </ul>
+  </li>
+  <li>További attribútumok vagy JavaScript események adhatók meg a <a href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a> párbeszédpanelen, ha a Haladó szerkesztés gombra kattintunk.</li>
+  
+  <li>Kattintsunk az OK gombra.</li>
+  
+  <li>A hivatkozás működésének ellenőrzéséhez kattintsunk a Megtekintés gombra, majd a hivatkozásra.</li>
+</ol>
+
+<p><strong>Tipp:</strong> a hivatkozásokat egyszerűen át is húzhatunk más ablakokból a weboldalra.  Például kijelölhetünk egy hivatkozást egy weboldalról, egy könyvjelzőből vagy a Levelező ablakból, és azt áthúzhatjuk az oldalra. Azt is megtehetjük, hogy egy weboldalon az egér jobb oldali gombjával kattintunk (Macintosh gépen Control + kattintás) egy hivatkozásra, majd a helyi menü Hivatkozás címének másolása parancsát választjuk. Ezután a hivatkozás a Hivatkozás tulajdonságai párbeszédpanel Hivatkozás címe mezőjében beilleszthetjük.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="adding_xfn_information_within_your_links">XFN-adatok hozzáadása a hivatkozásokhoz</h3>
+
+<p>Ha a weboldalunkon más emberek weboldalára mutató hivatkozásokat helyezünk el, az
+&brandShortName;; lehetőséget ad az úgynevezett <a target="_blank"
+href="http://gmpg.org/xfn/">XFN</a> (XHTML Friends Network)
+adatok megadására. Az XFN segítségével egyszerűen megjeleníthetők az emberi kapcsolatok a
+hivatkozások használatával. XFN-adatok hozzáadásához:</p>
+
+<ol>
+  <li>Kattintsunk a jobb egérgombbal azon a hivatkozáson, amelyhez az XFN-adatot szeretnénk hozzáadni.</li>
+  <li>Válasszuk a "Hivatkozás tulajdonságai" menüparancsot.</li>
+  <li>A "Hivatkozás tulajdonságai" párbeszédpanelen válasszuk a "További tulajdonságok" lehetőséget.</li>
+  <li>Válasszuk ki a megfelelő bejegyzést a "Barátság" szakaszban, amelyet az XFN-adatként
+  hozáá kívánunk adni.</li>
+  <li>Kattintsunk az OK gombra.</li>
+  <li>Kattintsunk a Mentés gombra a változások mentéséhez.</li>
+</ol>
+
+<p><strong>Megjegyzés:</strong> Bizonyos XFN-tulajdonságok egymást kölcsönösen kizárják, mások
+kombinálhatók egymással.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="using_images_as_links">Kép használata hivatkozásként</h3>
+
+<p>Az oldalon lévő képek, azaz JPEG, GIF vagy PNG formátumú fájlok is használhatók hivatkozásként. Amikor az olvasó ilyen képre kattint, a böngésző a hivatkozott oldalt jeleníti meg.</p>
+
+<ol>
+  <li>Jelöljünk ki egy képet az oldalon.</li>
+
+  <li>Kattintsunk az eszköztáron a Hivatkozás <img src="images/link.png" width="26"
+  height="26" alt="" /> gombra, vagy válasszuk a Beszúrás menü Hivatkozás parancsát.</li>
+
+  <li>A Hivatkozás tulajdonságai párbeszédpanelen a hivatkozást állíthatunk be <a
+  href="#creating_links_within_the_same_page">az oldalon lévő horgonyra vagy címsorra</a>, illetve <a
+  href="#creating_links_to_other_pages">helyi vagy távoli másik oldalra</a>.</li>
+</ol>
+
+<p><strong>Tipp:</strong> kép és hivatkozásának másolásához húzzuk át a hivatkozott képet a Böngésző ablakából a KompoZer ablakába.</p>
+
+<p><strong>Megjegyzés</strong>:  a hivatkozásként használt képek kék színű segélyének eltávolításához nyissuk meg a Hivatkozás tulajdonságai párbeszédpanelen a Hivatkozás panellapot, és töröljük a Szegély megjelenítése a kép körül négyzet jelölését.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="removing_or_discontinuing_links">Hivatkozások eltávolítása vagy befejezése</h3>
+
+<p>Hivatkozás eltávolítása:</p>
+
+<ol>
+  <li>Jelöljük ki a hivatkozásként használt szöveget (általában kék színű és aláhúzott) vagy képet.</li>
+
+  <li>Válasszuk a Formátum menü Hivatkozások törlése parancsát.</li>
+</ol>
+
+<p>Hivatkozás befejezése, hogy a hivatkozás után beírt szöveg ne legyen része a hivatkozásnak:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a hivatkozást be szeretnénk fejezni.</li>
+
+  <li>Válasszuk a Formátum menü Hivatkozások befejezése parancsát.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Vissza a fejezet elejére</a> ]</p>
+
+<p>[<a href="customize.xhtml">Következő</a>] [<a href="page_properties.xhtml">Előző</a>]</p>
+
+  <div class="copyrightBox"><em>10 August 2006</em></div>
+
+<p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

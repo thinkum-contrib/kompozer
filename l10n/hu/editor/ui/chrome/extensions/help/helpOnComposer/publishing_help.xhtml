@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+ <a href="#publishing_a_document">Dokumentum közzététele</a>
+ <a href="#publishing_settings">Közzététel beállításai</a>
+ <a href="#solving_common_publishing_problems">Gyakori közzétételi problémák megoldása</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">Weboldalak közzététele az &brandShortName;-val</h1>
+
+<p>Ha az elkészített oldalak csak a saját számítógépen léteznek, mi ugyan böngészhetjük ezeket, de mások nem. Az&brandShortName; lehetővé teszi az oldalak közzétételét, azaz feltöltését távoli webkiszolgálókra.</p>
+
+<p>Amikor webkiszolgálón közzétesszük az oldalakat, az &brandShortName; olyan számítógépre másolja (tölti fel) az oldalakat, amelyen mások is böngészhetik azokat. Számos internetszolgáltató biztosít helyet a webkiszolgálóin weboldalak közzétételéhez. A megfelelő webkiszolgálóról az internetszolgáltató vagy a rendszergazda nyújt tájékoztatást.</p>
+
+<h2 id="publishing_a_document">Dokumentum közzététele</h2>
+
+<p>Dokumentum közzététele:</p>
+
+<ol>
+  <li>Nyissuk meg a kívánt HTML-dokumentumot, vagy az &brandShortName;-ben hozzunk létre egyet.</li>
+
+  <li>Ha készen állunk a dokumentum közzétételére, kattintsunk a Közzététel gombra  <img src="images/publish.png" width="26" height="26" alt="" />. 
+
+  <p>Ha a dokumentumot korábban már közzétettük, az &brandShortName; emlékezni fog a közzétételi beállításokra, és elindítja a dokumentum feltöltését. A művelet alatt az &brandShortName; állapotjelző panelt jelenít meg.</p>
+
+  <ul>
+    <li>Ha korábban még nem tettük közzé a dokumentumot, az &brandShortName; az Oldal közzététele párbeszédpanel Beállítások lapját jeleníti meg, amelyen megadhatjuk a távoli hely adatait. További tudnivalók: <a
+    href="#publish_page_settings">Oldal közzététele – Beállítások</a>. Az adatok megadása után kattintsunk a Közzététel gombra.</li>
+
+    <li>Ha korábban még nem mentettük a dokumentumot, az &brandShortName; az Oldal közzététele párbeszédpanel Közzététel lapját jeleníti meg, amelyen megadhatjuk a dokumentum fájlnevét. További tudnivalók: <a href="#publish_page_publish">Oldal közzététele – Közzététel</a>.
+    A fájlnév megadása után kattintsunk a Közzététel gombra.</li>
+  </ul>
+  </li>
+  
+  <li>A közzétett oldal böngészéséhez kattintsunk a Megtekintés gombra. Ellenőrizzük a hivatkozások működését és a képek megfelelő megjelenítését.</li>
+
+  <li>Folytassuk a dokumentum szerkesztését. Amikor készen állunk a távoli oldal frissítésére, kattintsunk a Közzététel gombra.</li>
+</ol>
+
+<p>A dokumentum első közzététele után az &brandShortName; a dokumentum URL-címében a <tt>file:///</tt> helyére a <tt>http://</tt> protokoll-előtagot írja, ez jelzi, hogy közzétett dokumentumot szerkesztünk. Ha a dokumentum helyben (a számítógép merevlemezére) szeretnénk menteni, kattintsunk a Mentés gombra. Ekkor meg kell adni a dokumentum fájlnevét és tárolási helyét a merevlemezen.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">Megszakadt hivatkozások és hiányzó képek elkerülése</h3>
+
+<ul>
+  <li>Ügyeljünk arra, hogy az &brandShortName;-ban a fájlnevek kiterjesztése .html vagy .htm legyen. A képfájlok kiterjesztése .JPG, .GIF vagy .PNG lehet. A fájlnevekben ne használjunk szóközt vagy különleges karaktert. A fájlnevek lehetőleg rövidek legyenek, csak kis- és nagybetűk, valamint számok szerepeljenek benne.</li>
+
+  <li>Ha a webkiszolgálón elhelyezett dokumentum megtekintésekor valamelyik kép megszakadt hivatkozásként jelenik meg, valószínűleg elfeledkeztünk a képek közzétételéről. Az Oldal közzététele párbeszédpanel megnyitásához válasszuk a Fájl menü Közzététel parancsát. A Közzététel panellapon jelöljük be a Képekkel és egyéb fájlokkal négyzetet, majd kattintsunk a Közzététel gombra.</li>
+</ul>
+
+<p>További tudnivalók: <a href="#solving_common_publishing_problems">Általános közzétételi problémák megoldása</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="updating_a_published_document">Közzétett dokumentum frissítése</h3>
+
+<p>Közzétett dokumentum frissítése:</p>
+
+<ol>
+  <li>Az &brandShortName;-ablakban válasszuk a Fájl menü Legutóbb szerkesztett oldalak parancsát, majd a kívánt dokumentumot a listán. <p>Azt is megtehetjük, hogy megkeressük a frissíteni kívánt dokumentum helyét: ehhez írjuk be a Böngészőben HTTP-címét (a dokumentum webcímét).</p></li>
+  
+  <li>Válasszuk a Fájl menü Oldal szerkesztése parancsát.</li>
+
+  <li>Szerkesszük a dokumentumot.</li>
+
+  <li>Amikor készen állunk a távoli oldal frissítésére, kattintsunk az &brandShortName; eszköztárán a Közzététel gombra.</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>Tipp:</strong> a webkiszolgálón közzétett oldal vagy kép törléséhez FTP-programot kell használnunk. Ugyancsak erre van szükség a webkiszolgálón alkönyvtárak létrehozásához vagy fájlok átnevezéséhez. A megfelelő program kiválasztásában a szolgáltató nyújthat segítséget. Az FTP-programokról a szolgáltató webhelyén tájékozódhatunk, de ilyen programok rendelkezésre állnak az ingyenes szoftverek letöltési helyein is.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">A fájlnév vagy a közzétételi hely módosítása</h3>
+
+<p>A dokumentum fájlnevének vagy közzétételi helyének módosítása:</p>
+
+<ol>
+  <li>Az &brandShortName;-ablakban válasszuk a Fájl menü Legutóbb szerkesztett oldalak parancsát, majd a kívánt dokumentumot a listán. <p>Azt is megtehetjük, hogy megkeressük a frissíteni kívánt dokumentum helyét: ehhez írjuk be a Böngészőben HTTP-címét (a dokumentum webcímét).</p></li>
+  
+  <li>Válasszuk a Fájl menü Oldal szerkesztése parancsát.</li>
+  
+  <li>Szerkesszük a dokumentumot.</li>
+
+  <li>Válasszuk a Fájl menü Közzététel parancsát. Az &brandShortName; az Oldal közzététele párbeszédpanel Közzététel lapját jeleníti meg.</li>
+
+  <li>Ha szükséges, adjunk meg másik oldalcímet.</li>
+
+  <li>Ha szükséges, adjunk meg másik fájlnevet az oldalhoz.</li>
+
+  <li>A Webhely neve listán jelöljük ki a használni kívánt közzétételi helyet. Új közzétételi hely beállításához kattintsunk az Új webhely gombra. További tudnivalók: <a href="#publish_page_settings">Oldal közzététele – Beállítások</a>.</li>
+
+  <li>A dokumentum új helyre mentéséhez kattintsunk a Közzététel gombra.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">Új közzétételi hely létrehozása</h3>
+
+<p>Ha a dokumentumokat több távoli helyen kívánjuk közzétenni, az &brandShortName;-t beállíthatjuk úgy, hogy mentse az egyes helyek adatait, így nem kell azokat mindig beírni a közzétételnél.</p>
+
+<p>Új közzétételi hely létrehozásához induljunk ki az &brandShortName;-ablakból:</p>
+
+<ol>
+  <li>Válasszuk a Szerkesztés menü Webhely beállításai parancsát.
+  Az &brandShortName; a Közzététel beállításai párbeszédpanelt jeleníti meg.</li>
+
+  <li>Kattintsunk az Új webhely gombra.</li>
+
+  <li>A Webhely neve mezőben adjuk meg azt a becenevet, amellyel erre a helyre szeretnénk hivatkozni.
+
+  <p>Ha például az új helyen a Meteor projekttel kapcsolatos dokumentumokat szeretnénk közzétenni, választhatjuk a Meteor nevet. A webhely neve emlékeztetni fog bennünket a közzétett dokumentumok típusára.</p> </li>
+
+  <li>A Közzétételi cím mezőben írjuk be a teljes URL-címet, ezt az internetszolgáltatótól vagy a rendszergazdától kérdezhetjük meg. Az URL-cím elején <tt>ftp://</tt> vagy <tt>http://</tt> áll.
+
+  <p>A közzétételi cím azt a helyet jelöli, ahová a dokumentumokat feltöltjük. Ha nem vagyunk biztosak, a megfelelő adatokat kérdezzük meg az internetszolgáltatótól vagy a rendszergazdától.</p> </li>
+
+  <li>Az Ön honlapjának HTTP-címe mezőben adjuk meg azt a teljes URL-címet, amelyet a böngészőben kell beírni az oldalak megtekintéséhez. Fájlnevet vagy alkönyvtárat ne vegyünk be az URL-címbe.
+
+
+  <p>Ennek az URL-címnek az elején <tt>http://</tt> áll. Bizonyos esetekben ez megegyezik a közzétételi címmel. Ha nem vagyunk biztosak, a megfelelő adatokat kérdezzük meg az internetszolgáltatótól vagy a rendszergazdától, illetve hagyjuk üresen.</p> </li>
+
+  <li>Felhasználói névként azt írjuk be, amelyet a szolgáltatóhoz való bejelentkezésnél használunk.</li>
+
+  <li>Ezután írjuk be a felhasználói névhez tartozó jelszót is.</li>
+
+  <li>A Jelszó mentése beállítással a jelszót biztonságosan tárolhatjuk a Jelszókezelővel, így nem kell azt mindig beírni az újabb közzétételkor.</li>
+
+  <li>Kattintsunk az OK gombra.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">Az alapértelmezett közzétételi hely megadása</h3>
+
+<p>Ha több közzétételi hellyel rendelkezünk, de általában egyet használunk, ezt kijelölhetjük alapértelmezett közzétételi helyként. Az &brandShortName; ezt fogja használni a dokumentumok közzétételekor, ha nem adunk meg másikat.</p>
+
+<p>Függetlenül a beállított közzétételi helyek számától a Fájl menü Közzététel parancsának választásával bármikor másik helyre küldhetjük a dokumentumokat. További tudnivalók: <a
+href="#changing_the_filename_or_publishing_location">A fájlnév vagy a közzétételi hely módosítása</a>.</p>
+
+<p>Az alapértelmezett közzétételi hely megadásához induljunk ki az &brandShortName;-ablakból:</p>
+
+<ol>
+  <li>Válasszuk a Szerkesztés menü Webhely beállításai parancsát.
+  Az &brandShortName; a Közzététel beállításai párbeszédpanelt jeleníti meg.</li>
+
+  <li>Jelöljünk ki egy közzétételi helyet a listán.
+
+  <p>Ha csak egy beállított közzétételi helyünk van, az &brandShortName; ezt fogja alapértelmezett helyként használni.</p> </li>
+
+  <li>Kattintsunk az Alapértelmezett gombra.</li>
+
+<li>A változtatások érvényesítéséhez kattintsunk az OK gombra.</li> </ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">Közzétételi hely törlése</h3>
+
+<p>Közzétételi hely törlése a hely beállításait távolítja el az &brandShortName;-ből. Ha később mégis erre a helyre szeretnénk közzétenni dokumentumokat, újból be kell írnunk a beállításokat.</p>
+
+<p>Közzétételi hely törléséhez induljunk ki az &brandShortName;-ablakból:</p>
+
+<ol>
+  <li>Válasszuk a Szerkesztés menü Webhely beállításai parancsát. Az &brandShortName; a Közzététel beállításai párbeszédpanelt jeleníti meg.</li>
+  
+  <li>Jelöljünk ki egy közzétételi helyet a listán.</li>
+  
+  <li>Kattintsunk a Webhely eltávolítása gombra.
+  <p>Az &brandShortName; csak a hely beállításait távolítja el, maga a távoli hely természetesen változatlan marad.</p></li>
+
+  <li>A változtatások érvényesítéséhez kattintsunk az OK gombra.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Vissza a fejezet elejére</a> ]</p>
+
+<h2 id="publishing_settings">A közzététel beállításai</h2>
+
+<p>Ez a fejezet az &brandShortName; közzétételi beállításait ismerteti. További tudnivalók az &brandShortName; általános és új oldalra vonatkozó beállításairól: <a href="composer_help.xhtml#composer_preferences">Az &brandShortName; beállításai</a>.</p>
+
+<h3 id="publish_page_publish">Oldal közzététele – Közzététel</h3>
+
+<p>Az Oldal közzététele – Közzététel panellapon a dokumentum közzétételének helye adható meg. Ezek a beállítások az aktuális dokumentumra vonatkoznak.</p>
+
+<p>A panellap a következő lépésekkel jeleníthető meg:</p>
+
+<ol>
+  <li>Válasszuk a Fájl menü Közzététel parancsát. Az Oldal közzététele párbeszédpanel jelenik meg.</li>
+
+  <li>Váltsunk át a Közzététel panellapra.</li>
+</ol>
+
+<ul> <li><strong>Webhely neve:</strong> a létrehozott közzétételi helyeket listázza, így kiválasztható a használni kívánt hely. Új közzétételi hely létrehozásához kattintsunk az Új webhely gombra.</li>
+
+<li><strong>Oldal címe:</strong> a dokumentum oldalcímét adja meg: ez a böngésző ablakának címsorában jelenik meg az oldal megtekintésekor. Ugyancsak a dokumentum oldalcíme jelenik meg a könyvjelzők listáján, ha megjelöljük az oldalt.</li>
+
+<li><strong>Fájlnév:</strong> a dokumentum fájlnevét adja meg. Ügyeljünk a .html vagy a .htm kiterjesztés megadására.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>Figyelmeztetés:</strong> ha a távoli helyen egy fájl neve megegyezik a feltöltött fájl nevével, az újonnan feltöltött fájl felülírja a meglévőt. A rendszer nem figyelmeztet a felülírásra.</p> </li>
+
+<li><strong>Honlap könyvtára:</strong> ha üresen hagyjuk a mezőt, az &brandShortName; a közzétételi hely gyökérkönyvtárába tölti az oldalt. Ha az oldalt a közzétételi hely alkönyvtárába szeretnénk tölteni, adjuk meg az alkönyvtár nevét vagy jelöljük ki a listán. Az &brandShortName; nyomon követi az itt beírt helyeket, így a korábban használt távoli helyek listából választhatók. Ügyeljünk arra, hogy az alkönyvtárak nevében a kis- és a nagybetűk eltérőnek számítanak.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>Megjegyzés:</strong> a megadott alkönyvtárnak már léteznie kell a távoli kiszolgálón.</p>
+</li>
+
+<li><strong>Képekkel és egyéb fájlokkal</strong>: bejelölésekor az &brandShortName; az oldalon hivatkozott képeket és egyéb fájlokat is feltölti. Ezeket a fájlokat feltölthetjük az oldallal azonos könyvtárba, de választhatunk a fő közzétételi könyvtár alatti létező alkönyvtárat is.</li>
+</ul>
+
+<p><strong>Tipp:</strong> távoli alkönyvtárak létrehozásához, illetve közzétett oldalak vagy képek törléséhez FTP-programot kell használnunk. A megfelelő program kiválasztásában a szolgáltató nyújthat segítséget. Az FTP-programokról a szolgáltató webhelyén tájékozódhatunk, de ilyen programok rendelkezésre állnak az ingyenes szoftverek letöltési helyein is.</p>
+
+<p class="publishing_settings">[ <a
+href="#">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="publish_page_settings">Oldal közzététele – Beállítások</h3>
+
+<p>Az Oldal közzététele – Beállítások panellapon a távoli hely bejelentkezési adatai és a közzétételi beállítások adhatók meg. Ezek a beállítások az aktuális dokumentumra és a kapcsolódó fájlokra vonatkoznak.</p>
+
+<p>A panellap a következő lépésekkel jeleníthető meg:</p>
+
+<ol>
+  <li>Válasszuk a Fájl menü Közzététel parancsát. Az Oldal közzététele párbeszédpanel jelenik meg.</li>
+
+  <li>Váltsunk át a Beállítások panellapra.</li>
+</ol>
+
+<ul>
+  <li><strong>Webhely neve:</strong> a közzétételi helyhez használni kívánt becenév.
+  Rövid nevet adjunk meg, amely segít a hely azonosításában.</li>
+
+  <li id="host_name_for_publishingSDX"><strong>Közzététel helyének címe:</strong> a teljes URL-cím (a szolgáltatótól vagy a rendszergazdától kérdezhetjük meg). Az URL-cím elején <tt>ftp://</tt> vagy <tt>http://</tt> áll. Erre gyakran ?kiszolgálónévként? vagy ?gépnévként? hivatkoznak.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>A közzétételi cím azt a helyet jelöli, ahová a dokumentumokat feltöltjük. Ha nem vagyunk biztosak, a megfelelő adatokat kérdezzük meg az internetszolgáltatótól vagy a rendszergazdától.
+  </p></li>
+
+  <li><strong>Az Ön honlapjának HTTP-címe</strong>: a közzétételi könyvtár teljes címe. Ez a webhelyünk honlapjának webcíme. Fájlnevet vagy alkönyvtárat ne vegyünk be az URL-címbe.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Ennek az URL-címnek az elején <tt>http://</tt> áll. Bizonyos esetekben ez megegyezik a közzétételi címmel. Ha nem vagyunk biztosak, a megfelelő adatokat kérdezzük meg az internetszolgáltatótól vagy a rendszergazdától, illetve hagyjuk üresen.</p></li>
+
+  <li><strong>Felhasználói név:</strong> a szolgáltatóhoz vagy a hálózatba való bejelentkezésnél használt felhasználói név.</li>
+
+  <li><strong>Jelszó</strong>: a felhasználói névhez tartozó jelszó.</li>
+
+  <li><strong>Jelszó mentése:</strong> bejelölésével a jelszót biztonságosan tárolhatjuk a Jelszókezelővel, így nem kell azt mindig beírni az újabb közzétételkor.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#publishing_settings">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="publish_settings">Közzététel beállításai</h3>
+
+<p>A Közzététel beállításai párbeszédpanel a közzétételi hely beállításainak létrehozására, szerkesztésére és törlésére szolgál, emellett az alapértelmezett közzétételi helyet is megadhatjuk.</p>
+
+<p>A párbeszédpanel a következő lépésekkel jeleníthető meg:</p>
+
+<ol>
+  <li>Válasszuk a Szerkesztés menü Webhely beállításai parancsát.
+  Az &brandShortName; a Közzététel beállításai párbeszédpanelt jeleníti meg.</li>
+</ol>
+
+<ul>
+  <li><strong>Új webhely</strong>: új közzétételi hely beállításainak megadását teszi lehetővé. Az &brandShortName; felveszi ezt a nevet a választható közzétételi helyek listájára.</li>
+
+  <li><strong>Alapértelmezett:</strong> a kijelölt közzétételi helyet alapértelmezettként állítja be. Olyan helyet érdemes választani, amelyet a leggyakrabban használunk a dokumentumok közzétételére. Valamennyi létrehozott vagy szerkesztett dokumentum az alapértelmezett közzétételi helyre kerül, ha nem jelölünk ki másikat az Oldal közzététele párbeszédpanelen.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Ha másik helyre szeretnénk feltölteni egy dokumentumot, válasszuk a Fájl menü Közzététel parancsát.</p>
+  </li>
+
+  <li><strong>Webhely eltávolítása:</strong> eltávolítja a kijelölt helyet és beállításait az &brandShortName;-ból.</li>
+
+  <li><strong>Webhely neve:</strong> azt a becenevet jelenti, amellyel erre a közzétételi helyre szeretnénk hivatkozni.</li>
+
+  <li><strong>Közzététel helyének címe:</strong> a teljes URL-cím (a szolgáltatótól vagy a rendszergazdától kérdezhetjük meg). Az URL-cím elején <tt>ftp://</tt> vagy <tt>http://</tt> áll.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>A közzétételi cím azt a helyet jelöli, ahová a dokumentumokat feltöltjük. Ha nem vagyunk biztosak, a megfelelő adatokat kérdezzük meg az internetszolgáltatótól vagy a rendszergazdától.</p>
+  </li>
+
+  <li><strong>Az Ön honlapjának HTTP-címe</strong>: a közzétételi könyvtár teljes címe. Fájlnevet vagy alkönyvtárat ne vegyünk be az URL-címbe.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Ennek az URL-címnek az elején <tt>http://</tt> áll. Bizonyos esetekben ez megegyezik a közzétételi címmel. Ha nem vagyunk biztosak, a megfelelő adatokat kérdezzük meg az internetszolgáltatótól vagy a rendszergazdától, illetve hagyjuk üresen.</p> </li>
+
+  <li><strong>Felhasználói név:</strong> a szolgáltatóhoz vagy a hálózatba való bejelentkezésnél használt felhasználói név.</li>
+
+  <li><strong>Jelszó</strong>: a felhasználói névhez tartozó jelszó.</li>
+
+  <li><strong>Jelszó mentése:</strong> bejelölésével a jelszót biztonságosan tárolhatjuk a Jelszókezelővel, így nem kell azt mindig beírni az újabb közzétételkor.</li>
+</ul>
+
+<p>[ <a href="#publishing_settings">Vissza a fejezet elejére</a> ]</p>
+
+
+<h2 id="solving_common_publishing_problems">Általános közzétételi problémák megoldása</h2>
+
+<p>Ha egy vagy több fájl feltöltése sikertelen, a Közzététel állapota párbeszédpanel hibaüzenetet jelenít meg, amely segíthet a hiba meghatározásában és javításában. A probléma megoldásához kaphatunk segítséget, ha a Hibaelhárítás gombra kattintunk.</p>
+
+<p>Ha egy fájl feltöltése továbbra sem sikerül, az &brandShortName; Fájl menüjén a Mentés parancs választásával mentsük a fájlt a helyi merevlemezre. Később innen megnyitható a fájl, és újból megkísérelhető közzététele. A fájl megkeresésében segíthet az &brandShortName; Fájl menüjének Legutóbb szerkesztett oldalak parancsa.</p>
+
+<h3 id="verifying_your_publishing_settings">A közzétételi beállítások ellenőrzése</h3>
+
+<p>A közzétételi beállítások ellenőrzése:</p>
+
+<ol>
+  <li>Zárjuk be a Közzététel állapota párbeszédpanelt, ha az meg van nyitva.</li>
+
+  <li>Válasszuk a Szerkesztés menü Webhely beállításai parancsát.</li>
+
+  <li>A Közzététel beállításai párbeszédpanelen ellenőrizzük a hely beállításait. Ha nem vagyunk biztosak, a megfelelő beállításról kérdezzük meg a szolgáltatót.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Ellenőrizzük a beállítások pontos beírását.</strong> Előfordulhat, hogy véletlenül elírtunk egy adatot.</li>
+
+      <li><strong>Ellenőrizzük a helyes közzétételi cím beírását.</strong> A szolgáltatók a közzétételi címre ?kiszolgálónévként?, ?gépnévként? vagy ?kiszolgáló/gépnévként? hivatkozhatnak. A közzétételi hely megadását gyakran az <tt>ftp.saját_isp.hu/felhasználói név</tt> alakban adják meg, ahol <tt>felhasználói név</tt> a mi nevünk.
+
+      <p>A közzétételi cím elején <tt>ftp://</tt> vagy <tt>http://</tt> áll. Az előbbi példánál maradva a helyes cím a következő: <tt>ftp://ftp.saját_isp.hu/felhasználói név</tt>.</p> </li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="checking_your_filenames">A fájlnevek ellenőrzése</h3>
+
+<p>Ellenőrizzük azoknak a fájloknak a nevét, amelyeket nem sikerült feltölteni. A fájlneveknél ügyeljünk a következőkre:</p>
+
+<ul>
+  <li>A fájlnevek csak kis- és nagybetűket, illetve számokat tartalmazzanak. Bár a fájlnevek tartalmazhatnak nagybetűket is, de később a feltöltött fájlok azonosításánál számos lehetséges hibát elkerülhetünk, ha csak kisbetűket használunk.
+
+  <p>Amikor fájlokat töltünk fel egy webkiszolgálóra, a rendszer a fájlnevekben megkülönbözteti a kis- és a nagybetűket. Nehezebben jegyezhetők meg azok a fájlnevek, amelyek csak nagybetűket vagy vegyesen kis- és nagybetűket tartalmaznak.</p>
+
+  <p>Ha például úgy próbáljuk megkeresni a közzétett fájlt, hogy a Böngésző Címmezőjébe beírjuk a fájl webcímét, a fájlnevet pontosan a létrehozásakor használt alakban kell megadni, azaz a megfelelő helyeken kis- és nagybetűket írva.</p> </li>
+
+  <li>Ne használjunk írásjeleket és szóközt. Az aláhúzás karakter (_) és a kötőjel (-) megengedett.</li>
+
+  <li>A kiterjesztés legyen .html vagy .htm (az &brandShortName; fájlneveinél).</li>
+
+  <li>Legfeljebb 32 karaktert használjunk.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="fixing_publishing_errors">Közzétételi hibák javítása</h3>
+
+<p>Ha egy vagy több fájlt nem sikerül feltölteni, nézzük meg a hibaüzenetet a Közzététel párbeszédpanel Közzététel állapota mezőjében. Ezek a hibaüzenetek segíthetnek a hiba meghatározásában és a probléma megoldásában.</p>
+
+<div class="errorMessage"> <p id="file_not_found"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+  <tt><var>Fájlnév</var> nem található</tt>
+  <p>vagy</p>
+<tt><var>X</var> / <var>Y</var> fájl közzététele nem sikerült</tt> </div>
+
+<p><strong>Hiba leírása</strong>: egy vagy több képfájl vagy CSS-fájl nem tölthető fel, mivel a HTML-szerkesztő nem találja ezeket. A hiba oka lehet:</p>
+
+<ul>
+  <li>Helytelen a fájl beírt helye.</li>
+  
+  <li>A fájl megadott helye nem érhető el a weben.</li>
+
+  <li>A fájl helye megváltozott, illetve a fájlt törölték vagy áthelyezték.</li>
+</ul>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>Nézzük meg a weboldalon a közzétenni kívánt képet. A megszakadt hivatkozású képek az <img src="images/broken.gif" width="20"
+  height="20" alt="" />  ikonnal jelennek meg az oldalon. A helyes cím megadásához kattintsunk duplán a képre, és a Kép tulajdonságai párbeszédpanelen javíthatjuk a címet.</li>
+
+  <li>Távolítsuk el a képet az oldalról: kattintással jelöljük ki, és nyomjuk meg a Backspace vagy a Delete billentyűt.</li>
+
+  <li>Ha a feltöltés azért nem sikerült, mert a képet tároló kiszolgáló nem érhető el, próbáljuk meg később közzétenni az oldalt.</li>
+
+  <li>Ha a hiányzó fájl stíluslap (CSS), először ellenőrizzük megfelelő helyét. A fájl címét javíthatjuk az &brandShortName;-ban: váltsunk át a HTML-forrás panellapra, és adjuk meg a fájl pontos tárolási helyét. A HTML-forrás szerkesztéséhez a HTML-kódelemek ismerete szükséges.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+  <tt>A(z) <var>könyvtár neve</var> alkönyvtár nem létezik ezen a webhelyen, vagy a(z) <var>fájlnév</var> fájlnevet már használja egy alkönyvtár</tt>
+  <p>vagy</p>
+  <tt>A(z) <var>fájlnév</var> fájlnevet már használja egy alkönyvtár</tt> </div>
+
+<p><strong>Hiba leírása:</strong> olyan távoli alkönyvtárat adtunk meg, amely nem létezik a közzététel helyén. Az &brandShortName; csak létező alkönyvtárakba tud fájlokat feltölteni. Az is előfordulhat, hogy egy megadott fájlnév megegyezik egy létező alkönyvtár nevével a közzétételi helyen.</p>
+
+<p>Például a HTML-szerkesztőben az Oldal közzététele párbeszédpanel Közzététel lapján:</p>
+
+<ul>
+  <li>a Honlap könyvtára mezőbe olyan távoli alkönyvtárat adtunk meg, amely nem létezik a közzététel helyén.</li>
+
+  <li>bejelöltük a Képekkel és egyéb fájlokkal négyzetet, és olyan távoli alkönyvtárat adtunk meg, amely nem létezik a közzététel helyén.</li>
+
+  <li>a közzétenni kívánt fájl neve megegyezik egy létező alkönyvtár nevével a közzétételi helyen.</li>
+</ul>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>Használjunk megfelelő FTP-programot alkönyvtárak létrehozásához átnevezéséhez vagy törléséhez a webkiszolgálón. A megfelelő program kiválasztásában a szolgáltató nyújthat segítséget. Az FTP-programokról a szolgáltató webhelyén tájékozódhatunk, de ilyen programok rendelkezésre állnak az ingyenes szoftverek letöltési helyein is.</li>
+
+  <li>Ne használjunk .html vagy .htm kiterjesztésű alkönyvtárakat. Csak az &brandShortName; fájlneveinek kiterjesztése legyen .html vagy .htm.</li>
+
+  <li>Az alkönyvtárak nevében a rendszer megkülönbözteti a kis- és a nagybetűket, így ezt pontos írásmóddal kell megadni.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="server_not_found"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+  <tt>A kiszolgáló nem elérhető. Ellenőrizze a kapcsolatot, és próbálja újra.</tt> </div>
+
+<p><strong>Hiba leírása:</strong> a hibának számos oka lehet. Például:</p>
+
+<ul>
+  <li>Helytelenek a közzétételi hely beállításai.</li>
+
+  <li>Megszakadt az internetkapcsolat.</li>
+
+  <li>Helytelenül működik az internetcsatlakozáshoz használt modem vagy más berendezés.</li>
+
+  <li>A használni kívánt webkiszolgáló műszaki problémák vagy egyéb ismeretlen ok miatt nem érhető el.</li>
+
+  <li>A szolgáltató műszaki problémákat tapasztalt.</li>
+</ul>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>Ellenőrizzük a közzétételi beállítások helyességét és pontos beírását.
+  További tudnivalók: <a href="#verifying_your_publishing_settings">A közzétételi beállítások ellenőrzése</a>.</li>
+
+  <li>Ellenőrizzük az internetkapcsolat működését: a böngészővel látogassunk meg egy webhelyet, például nézzük meg, hogy meg tudjuk-e nyitni a <tt>http://www.mozilla.org</tt> helyet.</li>
+
+  <li>Ha nincs internetkapcsolat, ellenőrizzük a hardvert, a telefonkapcsolatot, a modemet és a hálózat elérését.</li>
+
+  <li>A Böngészővel keressünk fel egy oldalt azon a webkiszolgálón, amelyre a feltöltést szeretnénk végrehajtani. Ha más webhelyek megfelelően megjelennek, de a közzétételi hely weboldalai nem láthatók, akkor műszaki probléma lehet a szolgáltatónál.</li>
+
+  <li>Kíséreljük meg a feltöltést később,  ha a szolgáltatónál vagy a webkiszolgálónál átmeneti műszaki problémák jelentkeztek.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_permission"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+  <tt>Önnek nincs jogosultsága ezen a webhelyen közzétenni.</tt>
+</div>
+
+<p><strong>Hiba leírása:</strong> olyan helyre kíséreltük meg a feltöltést, amelyhez nincs engedélyünk. Csak olyan helyeken tehetjük közzé a dokumentumokat, amelyekhez hozzáférési jogosultságot adott a szolgáltató.</p>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>Ellenőrizzük a megfelelő felhasználói név és jelszó megadását a Webhely beállításai párbeszédpanelen és a Közzététel párbeszédpanel Beállítások lapján.</li>
+
+  <li>Kérdezzük meg a szolgáltatótól a pontos közzétételi helyet.</li>
+
+  <li>Keressünk megfelelő szolgáltatót, ahol közzétehetjük oldalainkat. Ehhez például a Böngésző segítségével keressünk rá az ?ingyenes tárhely? vagy a ?web hosting?</li>
+
+  <li>Sok magyar és külföldi internetszolgáltató kínál 10-20 MB ingyenes tárhelyet a weboldalaink elhelyezésére.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="offline_error"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+  <tt>Jelenleg kapcsolat nélküli üzemmódban van. A kapcsolódáshoz kattintson az ikonra bármelyik ablak jobb alsó sarkában.</tt> </div>
+
+<p><strong>Hiba leírása</strong>: feltöltést kísérelt meg, de jelenleg kapcsolat nélküli üzemmódban dolgozik. A közzétételhez internetkapcsolat szükséges.</p>
+
+<p>Ellenőrizzük az internetkapcsolat állapotát: ezt az &brandShortName;-ablak jobb alsó sarkában lévő ikon jelzi. Kapcsolat nélküli üzemmódban ez az ikon látható: <img src="images/offline.gif" width="32" height="21"
+alt="" />.</p>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>Kattintsunk az ikonra a Mozilla-ablak jobb alsó sarkában. Internetkapcsolatnál ennek az ikonnak kell megjelennie: <img src="images/online.gif" width="32" height="20"
+  alt="" />.</li>
+
+  <li>Ellenőrizzük az internetkapcsolat működését: a böngészővel látogassunk meg egy webhelyet, például nézzük meg, hogy meg tudjuk-e nyitni a <tt>http://www.mozilla.org</tt> helyet.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_disk_space"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+  <tt>Nincs elegendő hely a lemezen a következő fájl mentéséhez: <var>fájlnév</var>.</tt> </div>
+
+<p><strong>Hiba leírása:</strong> Megtelt a távoli webkiszolgáló merevlemeze, vagy túlléptük a szolgáltatótól számunkra kiutalt lemezterületet.</p>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>Megfelelő FTP-programmal töröljük a szükségtelen fájlokat a közzétételi helyről. A megfelelő program kiválasztásában a szolgáltató nyújthat segítséget. Az FTP-programokról a szolgáltató webhelyén tájékozódhatunk, de ilyen programok rendelkezésre állnak az ingyenes szoftverek letöltési helyein is.</li>
+
+  <li>A szolgáltatótól kérjünk nagyobb tárhelyet, vagy forduljunk másik szolgáltatóhoz, aki igényeinket ki tudja elégíteni.</li>
+
+  <li>Saját vállalati vagy szervezeti webkiszolgálónál kérjük meg a rendszergazdát, hogy adjon meg másik közzétételi helyet, vagy növelje a kiutalt tárterületet.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="name_too_long"><strong>Hibaüzenet:</strong></p>
+
+<div class="errorBox">
+<tt>A fájl vagy az alkönyvtár neve túl hosszú.</tt> </div>
+
+<p><strong>Hiba leírása:</strong> túl sok karaktert használtunk egy fájl vagy egy alkönyvtár nevében, így az az adott webkiszolgálón nem használható.</p>
+
+<p><strong>Lehetséges megoldások:</strong></p>
+
+<ul>
+  <li>A fájlok és az alkönyvtárak neve legfeljebb 32 karakterből álljon.
+  Néhány operációs rendszerben nem használhatók a 32 karakternél hosszabb nevek.</li>
+</ul> </div>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Vissza a fejezet elejére</a> ]</p>
+
+<div class="copyrightBox"><em>13 August 2006</em></div>
+
+<p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

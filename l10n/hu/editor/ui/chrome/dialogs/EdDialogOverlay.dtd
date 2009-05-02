@@ -1,0 +1,37 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY AdvancedEditButton.label "Haladó szerkesztés...">
+<!ENTITY AdvancedEditButton.accessKey "H">
+<!ENTITY AdvancedEditButton.tooltip "HTML-attribútumok, stílusattribútumok és JavaScript hozzáadása vagy módosítása">
+<!ENTITY chooseButton.label "Tallózás...">
+<!ENTITY chooseFile.accessKey "T">
+<!ENTITY chooseFileLink.accessKey "a">
+<!ENTITY makeUrlRelative.label "Az URL relatív az oldal elhelyezkedéséhez képest">
+<!ENTITY makeUrlRelative.accessKey "r">
+<!ENTITY makeUrlRelative.tooltip "Váltogatás a relatív és az abszolút URL között. Az oldalt menteni kell a változtatás előtt.">
+
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label "Adja meg a weboldal helyét, egy helyi fájlt, egy e-mail címet, vagy válasszon ki egy horgonyt vagy címsort a választólistából:">
+<!ENTITY LinkURLEditField.accessKey "A">
+
+<!ENTITY isMailAddress.label "A fenti egy e-mail cím">

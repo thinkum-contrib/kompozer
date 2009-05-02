@@ -1,0 +1,46 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "Kész">
+<!ENTITY canceled.label                   "Megszakítva">
+<!ENTITY installing.label                 "Telepítés...">
+
+<!ENTITY starting.label                   "Kezdés...">
+<!ENTITY failed.label                     "Sikertelen">
+
+<!ENTITY downloads.title                  "Letöltések">
+
+<!ENTITY cmd.pause.label                  "Szünet">
+<!ENTITY cmd.pause.accesskey              "S">
+<!ENTITY cmd.resume.label                 "Folytatás">
+<!ENTITY cmd.resume.accesskey             "F">
+<!ENTITY cmd.cancel.label                 "Mégse">
+<!ENTITY cmd.cancel.accesskey             "M">
+<!ENTITY cmd.show.label                   "Megjelenítés">
+<!ENTITY cmd.show.labelMac                "Megjelenítés a Finderben">
+<!ENTITY cmd.show.accesskey               "M">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                   "Megnyitás">
+<!ENTITY cmd.open.accesskey               "e">
+<!ENTITY cmd.openWith.label               "Megnyitás mással...">
+<!ENTITY cmd.openWith.accesskey           "n">
+<!ENTITY cmd.retry.label                  "Újra">
+<!ENTITY cmd.retry.accesskey              "r">
+<!ENTITY cmd.remove.label                 "Eltávolítás">
+<!ENTITY cmd.remove.accesskey             "E">
+<!ENTITY cmd.properties.label             "Tulajdonságok">
+<!ENTITY cmd.properties.accesskey         "T">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Takarítás">
+<!ENTITY cmd.cleanUp.tooltip              "A befejezett, félbeszakított vagy sikertelen letöltések törlése a listáról">
+<!ENTITY cmd.cleanUp.accesskey            "T">
+
+<!ENTITY closeWhenDone.label              "Bezárás a letöltések után">
+<!ENTITY closeWhenDone.tooltip            "A Letöltések ablak bezárása az összes fájl letöltése után">
+
+<!ENTITY filesSavedTo.label               "Az összes fájl mentése ide:">
+<!ENTITY showFolder.label                 "A mappa megjelenítése">

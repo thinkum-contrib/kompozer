@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h2 id="using_style_sheets_for_your_web_pages">Stíluslapok használata a weboldalakon</h2>
+
+<h3 id="using_cascade_style_sheets">CSS használata</h3>
+
+<p>CSS egy HTML dokumentumban három úton tudunk használni:</p>
+<ol>
+  <li>Helyi stílusok .</li>
+
+  <li>Belső stíluslap .</li>
+
+  <li>Külső stíluslap .</li>
+</ol>
+
+<p>&brandShortName;-nek van egy beépített stíluslap szerkesztője,
+<strong>KaZcadeS</strong>. KaZcadeS segítségével külső vagy belső stíluslapokat tudunk készíteni. Helyi stílusokkal ellentétben, a külső vagy belső stíluslapokat az oldaltól külön kezelhetjük.</p>
+
+<p>Hogy megkezdjük a dokumentum stilizálását, elindíthatjuk a KaZcadeS-t az Eszközök CSS szerkesztő menüpontjával. KaZcadeS két módban engedi meg a CSS szerkesztését:</p>
+
+<ol>
+  <li><strong>Kezdő mód </strong>: Ez a mód megengedi, hogy készítsen szabályokat osztály vagy típus elemmel kapcsolatban.</li>
+
+  <li><strong>Szakértő mód</strong>: Ez a mód megengedi hogy szabadon készítsen szabályokat.</li>
+</ol>
+
+<p>Ha még nincsen stíluslap, autómatikusan egy új lesz készítve. </p>
+
+<p class="returnToSection">[ <a href="#advanced_styles">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="creating_style_sheets_with_nvu">Stíluslapok készítése &brandShortName;-ban</h3>
+
+<p>KaZcadeS-en belső vagy külső stíluslapokat lehet készíteni. Belső stíluslaphoz:</p>
+<ol>
+  <li>Klikkeljen a  Stílus gombra 
+    <ul>
+    <li>(Opcionális) Kitöltheti a Média lista és Cím opciókat a stíluslaphoz.</li>
+  </ul>
+  </li>
+
+  <li>Klikkeljen a Stílusszabály létrehozására.</li>
+</ol>
+
+<p>Külső stíluslap esetnén :</p>
+
+<ol>
+  <li>Klikkeljen a hivatkozás gombra. </li>
+
+  <li>Írja be az URL-jét a stíluslapnak. Ha nem létezik, új lesz készítve.
+
+    <ul>
+    <li>(Opcionális) Kitöltheti a Média lista és Cím opciókat a stíluslaphoz.</li>
+  </ul>
+  </li>
+
+  <li>Jelölje meg a  "jelölje be alternatív stíluslap létrehozásához " opciót, ha ez egy alternatív.</li>
+</ol>
+
+<p><strong>Tip:</strong> Mindig mentse el a dokumentumot mielőtt hozzácsatol egy lokális stíluslapot. Mentse el azután is, miután bezárta a CSS szerkesztőt.</p>
+
+<p><strong>Tip:</strong> Használja a frissítes gombot ha a stíluslap nem töltődik azonnal.</p>
+
+<p class="returnToSection">[ <a href="#advanced_styles">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="creating_rules_for_stylesheets">Szabályok létrehozása a stíluslapokhoz</h3>
+
+<p>Stíluslapok készítése után új szabályokat tud meghatározni stíluslapnak megfelelően. Ahhoz, hogy egy bizonyos stíluslapot használjunk és annak módosítsuk szabályait, válasszunk ki egyet a listábol ráklikkelve az egér bal gombjával. Tőle jobbra megjelennek ennek tulajdonságai. Új szabály készítéséhez:</p>
+
+<ol>
+  <li>Klikkeljen a Szabálykészlet gombra.</li>
+
+  <li>Írja be a szabály nevét .</li>
+
+  <li>Klikkeljen a  Stílusszabály létrehozása gombra.</li>
+</ol>
+
+<p>A szabályokat tudja módosítani a stílus fülecskéknél is (Szöveg, Háttér, Szegélyek, Doboz és Listák). Hogy az összes definicióját megtekintsük egy szabálynak, válasszuk ki, és klikkeljünk az Általános fülecskére.</p>
+<p>[<a href="tables.xhtml">Következő</a>] [<a href="formatting_webpages.xhtml">Előző</a>]</p>
+
+  <div class="copyrightBox"><em>6 August 2006 </em></div>
+
+  <p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

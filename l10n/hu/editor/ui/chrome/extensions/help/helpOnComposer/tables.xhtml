@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">&brandShortName; súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h2 id="adding_tables_to_your_web_page">Táblázatok használata a weboldalakon</h2>
+
+<h3 id="inserting_a_table">Táblázat beszúrása</h3>
+
+<p>A táblázatok segítségével a szöveg, a képek és az egyéb adatok sorokba és oszlopokba rendezhetők. Táblázat beszúrása:</p>
+
+<ol>
+  <li>Helyezzük a beszúrási pontot oda, ahol a táblázatot szeretnénk megjeleníteni.</li>
+
+  <li>A Szerkesztés eszköztáron kattintsunk a Táblázat <img src="images/table.png" width="26" height="26" alt="" /> gombra. A Táblázat beszúrása párbeszédpanel jelenik meg.</li>
+
+  <li>Adjuk meg a sorok és az oszlopok számát.<ul>
+    <li>(Választható) Adjuk meg a táblázat szélességét, és jelöljük ki a mértékegységet (képpont vagy az ablak százaléka).</li>
+  </ul>
+  </li>
+
+  <li>Írjuk be a szegély vastagságát (képpontban), nulla érték megadásakor nem lesz szegély.
+  <p><strong>Megjegyzés</strong>:  az &brandShortName; piros pontozott vonallal jelöli a szegély nélküli táblázatokat, ez azonban a böngészőben nem jelenik meg.</p></li>
+
+  <li>További attribútumok vagy JavaScript kód adható meg a <a href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a> párbeszédpanelen, ha a Haladó szerkesztés gombra kattintunk.</li>
+
+  <li>A beállítások érvénybe léptetéséhez és az új táblázat megtekintéséhez kattintsunk az OK gombra.</li>
+</ol>
+
+<p>Az új táblázat további tulajdonságainak beállításáról lásd: <a href="#changing_a_tables_properties">A táblázat tulajdonságainak módosítása</a>.</p>
+
+<p><strong>Tipp:</strong> táblázatot másik táblázatba is beszúrhatunk, ehhez válasszuk a Beszúrás menü Táblázat parancsát.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="changing_a_tables_properties">A táblázat tulajdonságainak módosítása</h3>
+
+<p>Ez a fejezet a táblázat, valamint a sorok, az oszlopok és az egyes cellák tulajdonságainak beállításait ismerteti. A Táblázat tulajdonságai párbeszédpanel a következő lépésekkel jeleníthető meg:</p>
+
+<ol>
+  <li>Jelöljük ki a táblázatot, vagy kattintsunk bárhol azon belül.</li>
+
+  <li>Kattintsunk az eszköztáron a Táblázat <img src="images/table.png" width="26" height="26" alt="" /> gombra, vagy válasszuk a Táblázat menü Táblázat tulajdonságai parancsát. A Táblázat tulajdonságai párbeszédpanel két panellapból áll: Táblázat és Cellák.</li>
+
+  <li>A Táblázat panellapon a következő tulajdonságok állíthatók be:<ul>
+    <li><strong>Méret:</strong> a sorok és az oszlopok száma adható itt meg. Emellett beállítható a táblázat szélessége is, valamint ennek mértékegysége: ez az ablakméret százaléka vagy képpont lehet. A szélesség százalékos megadásánál a megjelenített táblázat az &brandShortName;-ablak, illetve a böngészőablak méretével együtt változni fog.</li>
+
+    <li><strong>Szegély és térköz</strong>: a szegélyvonal vastagsága, a cellák közötti térköz, valamint a cellák szegélye és a szöveg közötti távolság adható itt meg.
+    <p><strong>Megjegyzés</strong>: az &brandShortName; pontozott vonallal jelöli a szegély nélküli táblázatokat, ez azonban a böngészőben nem jelenik meg.</p></li>
+
+    <li><strong>Táblázat igazítása</strong>: a táblázat oldalon elfoglalt helyének megadására szolgál. A kívánt beállítás a lenyitható listán választható.</li>
+
+    <li><strong>Cím:</strong> a kívánt elhelyezés a lenyitható listán választható.</li>
+
+    <li><strong>Háttérszín:</strong> a táblázat hátterének színe adható itt meg.</li>
+
+  </ul>
+  </li>
+
+  <li>További attribútumok vagy JavaScript események adhatók meg a <a href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a> párbeszédpanelen, ha a Haladó szerkesztés gombra kattintunk.</li>
+
+  <li>Az Alkalmaz gombra kattintva a beállítások érvénybe léptethetők a párbeszédpanel bezárása nélkül, míg az OK gombbal a beállítások érvénybe léptetése után a párbeszédpanel bezáródik.</li>
+</ol>
+
+<p>Egy vagy több cella tulajdonságainak megtekintése, módosítása vagy felvétele:</p>
+
+<ol>
+  <li>Jelöljük ki a kívánt sort, oszlopot vagy cellát, majd válasszuk a Táblázat menü Táblázat tulajdonságai parancsát.
+  A Táblázat tulajdonságai párbeszédpanel jelenik meg.</li>
+
+  <li>A Cellák panellapon a következő tulajdonságok állíthatók be:<ul>
+    <li><strong>Kijelölés:</strong> válasszuk a lenyitható lista Cella, Sor vagy Oszlop elemét. Az Előző és a Következő gombbal bejárhatjuk a sorokat, az oszlopokat vagy a cellákat.</li>
+
+    <li><strong>Méret:</strong> adjuk meg a Magasság és a Szélesség értékét, valamint a mértékegységet (táblázat százaléka vagy képpont).</li>
+
+    <li><strong>Tartalom igazítása:</strong> a cellák tartalmának függőleges és vízszintes igazítása állítható itt be.</li>
+
+    <li><strong>Cella stílusa</strong>: a Fejléc választásával az oszlopok vagy a sorok fejlécei adhatók meg (középre zárt és félkövér formázás), a Normál a szokásos cellákat jelöli.</li>
+
+    <li><strong>Szövegtörés:</strong> válasszuk a Ne törjön beállítást, ha a szöveget nem szeretnénk sorokra törni, ekkor csak az új bekezdés kerül új sorba. A másik választási lehetőség a Törjön.</li>
+
+    <li><strong>Háttérszín</strong>: itt jelölhető ki a cellák háttérszíne, vagy átlátszónak hagyása.
+    <p><strong>Megjegyzés</strong>: További attribútumok vagy JavaScript események adhatók meg a                  <a href="#using_the_advanced_property_editor">Haladó tulajdonságok szerkesztése</a> párbeszédpanelen, ha a Haladó szerkesztés gombra kattintunk.</p></li>
+  </ul>
+  </li>
+  <li>Az Alkalmaz gombra kattintva a beállítások érvénybe léptethetők a párbeszédpanel bezárása nélkül, míg az OK gombbal a beállítások érvénybe léptetése után a párbeszédpanel bezáródik.</li>
+</ol>
+
+<p><strong>Tipp:</strong> egy vagy több kijelölt cella, illetve a teljes táblázat szövegszínének vagy háttérszínének megadásához jelöljük ki a kívánt cellákat, illetve kattintsunk bárhol a táblázatba, majd kattintsunk a Formázó eszköztár szövegszín vagy háttérszín ikonjára.</p>
+
+<p><strong>Tipp:</strong> a legutóbb használt cellaszín egyszerűen alkalmazható: jelöljük ki a cellát, tartsuk lenyomva a Shift billentyűt, és kattintsunk a színválasztóra. Ez akkor lehet hasznos, ha különböző celláknál ugyanazt a színt szeretnénk használni.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="adding_and_deleting_rows_columns_and_cells">Sorok, oszlopok és cellák beszúrása és törlése</h3>
+
+<p>Az &brandShortName; segítségével egyszerűen bővíthetjük új cellákkal, oszlopokkal vagy sorokkal a táblázatot, illetve törölhetjük is ezeket. Emellett ezeknél a műveleteknél megfelelő beállításokkal megtarthatjuk a táblázat eredeti alakját vagy elrendezését.</p>
+
+<p>Cella, sor vagy oszlop felvétele a táblázatba:</p>
+
+<ol>
+  <li>A táblázatban kattintsunk arra a helyre, ahol az új cellát vagy cellákat szeretnénk elhelyezni.</li>
+
+  <li>Válasszuk a Táblázat menü Beszúrás parancsát.</li>
+
+  <li>Válasszunk a lehetséges cellacsoportosítások közül. (Egy táblázatcellába új táblázatot is beszúrhatunk.)</li>
+</ol>
+
+<p>Cella, sor vagy oszlop törlése:</p>
+
+<ol>
+  <li>Kattintsunk a kívánt sorba, oszlopba vagy cellába. Egynél több sor törléséhez kijelölhetünk szomszédos cellákat is. Szomszédos cellák kijelöléséhez húzzuk végig az egeret a kívánt cellákon.  Egyedi cellák kijelöléséhez tartsuk lenyomva a Ctrl (Macintosh gépen a Command) billentyűt, és így kattintsunk sorban a kívánt cellákra.</li>
+
+  <li>Válasszuk a Táblázat menü Törlés parancsát.</li>
+
+  <li>Adjuk meg a törölni kívánt elemet.</li>
+</ol>
+
+<p>Cella egyesítése a jobbra lévő cellával:</p>
+
+<ul>
+  <li>Kattintsunk a kívánt cellába, és válasszuk a Táblázat menü Egyesítés a jobbra lévő cellával parancsát.</li>
+</ul>
+
+<p>Szomszédos cellák egyesítése:</p>
+
+<ul>
+  <li>Az egér húzásával jelöljük ki a kívánt szomszédos cellákat.</li>
+
+  <li>Válasszuk a Táblázat menü Kijelölt cellák egyesítése parancsát.</li> 
+</ul>
+
+<p>Egyesített cella felosztása két vagy több cellára:</p>
+
+<ul>
+  <li>Kattintsunk az egyesített cellába, és válasszuk a Táblázat menü Cella felosztása parancsát. Az &brandShortName; az egyesített cella tartalmát az első cellában helyezi el.</li>
+</ul>
+
+<p>További tudnivalók nem szomszédos cellák, sorok és oszlopok kijelöléséről lásd: <a href="#selecting_table_elements">Táblázatelemek kijelölése</a>.</p>
+
+<h3 id="changing_the_default_table_table_editing_behavior">A táblázatszerkesztési műveletek alapértelmezett hatásának beállítása</h3>
+
+<p>Amikor egy vagy több cellát törlünk, az &brandShortName; alapértelmezés szerint megtartja a táblázat eredeti felépítését, ehhez cellákat vesz fel a kívánt helyen. Így lehetővé válik, hogy cellák törlése után is megmaradjon az eredeti, téglalap alakú elrendezés. Ellenkező esetben a cellák törlése nyomán üres helyek alakulhatnak ki a táblázatban, illetve páratlan számú cellánál az szabálytalan körvonalú lesz.</p>
+
+<p>A táblázatszerkesztési műveletek hatásának megadásához induljunk ki az &brandShortName; ablakából:</p>
+
+<ol>
+  <li>Válasszuk a Szerkesztés menü (Mac OS X alatt a Mozilla menü) Beállítások parancsát. </li>
+
+  <li>A Táblázat szerkesztése csoportban adjuk meg a következő beállítást:<ul>
+    <li>A Cellák beszúrásakor vagy törlésekor megtartja a táblázat szerkezetét négyzet legyen bejelölve, hogy ne kaphassunk szabálytalan alakú táblázatot.</li>
+  </ul>
+  </li>
+
+  <li>Kattintsunk az OK gombra.</li> 
+</ol>
+
+<p>Lásd még: <a
+href="preferences.xhtml#preferences_general_settings">Az &brandShortName; beállításai</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="selecting_table_elements">Táblázatelemek kijelölése</h3>
+
+<p>Táblázat, cella vagy cellacsoport kijelölése két módon történhet:</p>
+
+<ul>
+  <li>Kattintsunk a táblázatba, válasszuk a Táblázat menü Kijelölés parancsát, majd az almenün a kívánt elemet. Például táblázat kijelöléséhez kattintsunk bárhol a táblázatba, és válasszuk a Táblázat menün a Kijelölés, majd a Táblázat parancsot.</li>
+
+  <li>A másik módszernél az egeret használjuk kijelölőeszközként:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li>Szomszédos cellák kijelölése: kattintsunk egy cellába, és húzzuk végig az egeret a kívánt cellákon. Sor kijelöléséhez balra vagy jobbra, oszlop kijelöléséhez felfelé vagy lefelé húzzuk az egeret.</li>
+
+      <li>Nem szomszédos cellák kijelölése: nyomjuk le a Ctrl (Macintosh gépen a Command) billentyűt, és kattintsunk egy cellába. Tartsuk lenyomva a Ctrl (Mac gépen a Command) billentyűt, és kattintsunk sorban a kívánt cellákra.</li>
+
+      <li>A kijelölés kiterjesztése a szomszédos cellákra: kattintsunk egy cellába, és húzzuk végig az egeret a kívánt cellákon.</li>
+
+      <li>Egy, illetve több szomszédos oszlop vagy sor kijelölése: az egér húzásával jelöljük ki az első oszlopot vagy sort, majd az egér megfelelő irányú húzásával bővítsük a kijelölést a szomszédos oszlopokkal vagy sorokkal. Teljes sor kijelöléséhez tartsuk lenyomva a Shift billentyűt, és húzzuk az egeret jobbra vagy balra. Teljes oszlop kijelöléséhez tartsuk lenyomva a Shift billentyűt, és húzzuk az egeret felfelé vagy lefelé.</li>
+      </ul>
+  </li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="moving_copying_and_deleting_tables">Táblázatok áthelyezése, másolása és törlése</h3>
+
+<p>Táblázat áthelyezése:</p>
+
+<ol>
+  <li>Kattintsunk a táblázatba.</li>
+
+  <li>Válasszuk a Táblázat menün a Kijelölés, majd a Táblázat parancsot.</li>
+</ol>
+
+<ul> 
+  <li>A táblázat másolása vagy áthelyezése: használjuk a Szerkesztés menü Kivágás, Másolás és Beillesztés parancsát.</li>
+
+  <li>A táblázat törlése: válasszuk a Táblázat menün a Törlés, majd a Táblázat parancsot.</li>
+</ul>
+
+<h3 id="converting_text_into_a_table">Szöveg átalakítása táblázattá</h3>
+
+<p>A művelet végrehajtásának lépései:</p>
+
+<ol>
+  <li>Jelöljük ki az átalakítani kívánt szöveget. Ügyeljünk arra, hogy az &brandShortName; új táblázatsort hoz létre a kijelölés minden egyes bekezdéséhez.</li>
+
+  <li>Válasszuk a Táblázat menü Szövegből táblázat parancsát. A Táblázattá alakítás párbeszédpanel jelenik meg.</li>
+
+  <li>Válasszunk az &brandShortName; oszlopelválasztó karakterei közül, vagy adjunk meg másikat. A szóköz választásakor adjuk meg azt is, hogy az ismétlődő szóközök egynek számítsanak-e.</li>
+
+  <li>Hagyjuk bejelölve az Elválasztó karakter törlése négyzetet, ha azt szeretnénk, hogy az &brandShortName; az átalakítás után törölje ezeket. Ha az elválasztó karakterek törlésére nincs szükség, töröljük a négyzet jelölését.</li>
+
+  <li>Kattintsunk az OK gombra.</li>
+</ol>
+
+<p><strong>Megjegyzés:</strong> a szövegformázás elveszik, amikor a kijelölt szöveget táblázattá alakítjuk.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Vissza a fejezet elejére</a> ]</p>
+
+<p>[<a href="images.xhtml">Következő</a>] [<a href="css.xhtml">Előző</a>]</p>
+
+  <div class="copyrightBox"><em>12 August 2006</em></div>
+
+<p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

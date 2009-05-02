@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h1 id="creating_web_pages_with_composer">Weboldalak létrehozása az &brandShortName;-val</h1>
+
+<p>Az &brandShortName; segítségével saját magunk is készíthetünk weboldalakat, és közzétehetjük azokat a weben. Az &brandShortName; használatához nem kell ismernünk a HTML nyelvet, a program olyan könnyen használható, mint egy szövegszerkesztő.</p>
+
+<p>Az eszköztár gombjai segítségével felsorolások, képek, más oldalra mutató hivatkozások adhatók a dokumentumhoz, illetve ezekkel állíthatóak be a használt betűkészletek és színek is. A dokumentum készítése közben azonnal láthatjuk, hogy hogyan fog kinézni a weben, és könnyedén megoszthatjuk bárkivel, függetlenül attól, hogy milyen böngészőt vagy HTML megjelenítésére képes levelezőprogramot használ.</p>
+
+<h2 id="starting_a_new_page">Új weboldal létrehozása</h2>
+
+<h3 id="creating_a_new_page">Új weboldal létrehozása</h3>
+
+<p>Az &brandShortName; segítségével weboldalak létrehozása és szerkesztése hajtható végre. Az &brandShortName;-ban a munka során a később a böngészőben is látható módon jeleníthetők meg az oldalak, azaz ez úgynevezett <em>WYSIWYG</em> (azt kapod, amit látsz) szerkesztő. A szerkesztő használatához nem szükséges ismerni a HTML nyelvet, hiszen az alapvető funkciók parancsok vagy gombok formájában állnak rendelkezésre.</p>
+
+<p>Természetesen a nyelvben járatosak számára lehetőség van a HTML-forráskód szerkesztésére is. A HTML-forráskód
+megtekintéséhez vagy szerkesztéséhez válasszuk a Nézet menü HTML-forrás
+parancsát, vagy az &brandShortName;-ablak alján a Szerkesztő mód eszköztáron váltsunk át a &lt;HTML&gt;-forrás panellapra.</p>
+
+<p>Weboldal létrehozásához az alább ismertetett módszerek használhatók.  Az elkezdett oldalon a szöveg felvétele és szerkesztése a szövegszerkesztőkhöz hasonló módon történik.</p>
+
+<p><strong>Új oldal létrehozása az &brandShortName;-ban</strong>:</p>
+
+<ul>
+  <li>Kattintsunk az Új gombra az &brandShortName; eszköztárján.</li>
+</ul>
+
+<p><strong>A helyi merevlemezen tárolt HTML-fájl szerkesztése</strong>:</p>
+
+<ol>
+  <li>Válasszuk az Ablak menü &brandShortName; parancsát. Megjelenik az &brandShortName; ablaka.</li>
+
+  <li>Válasszuk a <span class="menuPath">Fájl</span> menü
+  <span class="menuPath">Fájl megnyitása</span> parancsát. A HTML-fájl megnyitása párbeszédpanel jelenik meg.</li>
+
+  <li>A merevlemezen keressük meg és jelöljük ki a szerkeszteni kívánt fájlt.</li>
+
+  <li>Válasszuk ki a <span class="menuPath">Megnyitás</span> opciót hogy megjenenitsük a kivánt fájlt egy &brandShortName; ablakban.</li>
+</ol>
+
+<p><strong>Egy weblap szerkesztéshez</strong>:</p>
+
+<ol>
+  <li>Inditsa el a &brandShortName;-t</li>
+
+  <li>Válassza ki a <span class="menuPath">Fájl</span> menüből a <span class="menuPath">Webcim megnyitása</span> opciót. Látni fogja a Webcim megnyitása ablakot</li>
+
+  <li>Irja be az URLjét annak a weblapnak, amelyiket szerkeszteni szeretné (például,
+  <tt>http://www.mozilla.org</tt>) és klikkeljen a Létrehozás gombra. Látni fogja a lapot megnyitva a &brandShortName;-ben.</li> 
+</ol>
+
+<p>&brandShortName; ugyancsak biztositja onnek dokumentum létrehozását az <acronym title="Extensible Hyper Text Markup
+Language">XHTML</acronym> formátumban. Ahhoz, hogy készitsen egy XHTML dokumentumot, pipálja ki az "XHTML-dokumentum létrehozása" opciót a <em>Új dokumentum vagy sablon létrehozása</em> ablakban</p>
+
+<p><strong>Tip</strong>: A &brandShortName; ablakban meg tudja nyitni a legutóbb szerkesztett fájlokat. Nyitsa meg a Fájl menüt, válassza ki a Legutóbb szerkesztett oldalak opciót, és válassza ki a kivánt fájlt a listábol.</p>
+
+<p>[ <a href="#starting_a_new_page">Vissza a fejezet elejére</a>
+]</p>
+
+<h3 id="tabs_editing_multiple_documents">Szerkesztőlapok - Több dokumentum szerkesztése</h3>
+
+<p>&brandShortName; megengedi, hogy több dokumentumot szerkesszen egyidőben. Ahelyett, hogy az ablakokat váltogassa, haszanlhatja a &brandShortName; <strong>Lapok</strong> képességet. Több mint egy dokumentumot tud megnyitni &brandShortName;-ben egyetlen ablakban, de több lapokban.</p>
+
+<p>Új lapokat meg tud nyitni a <kbd>Ctrl+T</kbd> paranccsal vagy kiválasztva a Mappa: <em>Új lap</em> opciót az Új dokumentum vagy sablon létrehozása ablakból. Még több nyitott lappal is mindegyik függetlenül van kezelve. Mindegyik dokumentum állapota jelezve van, példaul ha módositva lett és meg nem mentette el, egy piros floppy lemez jelenik meg a Lap gombján.</p>
+
+<p>[ <a href="#starting_a_new_page">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="saving_and_browsing_your_new_page">Az új weboldal mentése és megtekintése</h3>
+
+<p>Dokumentumait lementheti  HTML vagy sima-szöveg formátumban.  A HTML formátumban mentett dokumentumban megmaradnak a formázások (például félkövér vagy dőlt karakterek), a táblázatok, a hivatkozások és a képek. A szöveges formátumban mentett dokumentumoknál a HTML kódelemek elvesznek, csak a dokumentum szövege marad meg.</p>
+
+<p>Dokumentum mentése HTML fájlként:</p>
+
+<ul> 
+  <li>A Fájl menüből válasszuk a Mentés parancsot, vagy kattintsunk a Szerkesztés eszköztár Mentés gombjára.
+
+  <p>Ha még nem adott címet a dokumentumnak, &brandShortName;
+  jelzi azt. &brandShortName; kijelzi a lap címét a böngésző ablakában mikor ezt megtekintük. Ugyancsak a dokumentum oldalcíme jelenik meg a könyvjelzők listáján, ha megjelöljük az oldalt.</p>
+
+  <p>&brandShortName; aztán kéri a fájl nevét és a helyet ahová el szeretné menteni azt. Bizos kell abban lenni, hogy megmaradjon a .html kiterjesztés a fájl névben. évben. Ha XHTML dokumentumot szerkesztünk és elmentünk, a fájl kiterjesztése <tt>.xhtml</tt> kell legyen. Azok az állományok, amelyeknek a kiterjesztése <tt>.html,</tt> de XHTML DOCTYPE-juk van nem lesznek XHTML-ként kezelve.</p>
+  </li>
+</ul>
+
+<p>Meglévő HTML fájl nevének vagy helyének módosítása:</p>
+
+<ul>
+  <li>Fájl<span class="menuPath"> > Mentés máskent </span> és válasszon ki egy más nevet és egy mentési helyet.</li>
+</ul>
+
+<p>Mikor lement egy dokumentumot &brandShortName;-ban, minden része a lapnak
+(a HTML, képek és más fájlok mint a hang és CSS fájlok), el leszenk mentve a lokálisan a lemezre. Ha csak a HTML részét akarja elmenteni a dokumentumnak, meg kell vátoztassa ez a &brandShortName;
+beállításoknál. Látsd <a
+href="preferences.xhtml">&brandShortName; Beállítások</a>-at ezzel kapcsolatban.</p>
+
+<p>Ha egy kép helye abszolút  ("http://"-vel kezdődik) még mindig fogja látni a képet a &brandShortName;-ben. Ha viszont a kép helye relatív az oldal helyéhez képest (a &quot;file:///&quot; megadással kezdődik), akkor nem fogjuk látni a képet a dokumentum helyi verziójában.</p>
+
+<p>Dokumentum mentése szöveges fájlként:</p>
+
+<ol>
+  <li>Válassza ki a Fájl menüből az Exportálás szövegként opciót.</li>
+
+  <li>Írjuk be a fájlnevet, és adjuk meg a fájl mentési helyét.</li>
+</ol>
+
+<p><strong>Note</strong>: Képek nem jelennek meg a sima-szöveg módban lementett dokumentumokban.</p>
+
+<p><strong>Tip</strong>: Kiválaszthatja a Visszatérés az utoljára mentett vátozathoz opciót a Fájl menüből. Ekkor az adott munkamenetben a fájlon végrehajtott változtatások elvesznek.</p>
+
+<p>Az oldal megtekintése böngészőben a hivatkozások ellenőrzéséhez:</p>
+
+<ul>
+  <li>Válasszuk a Fájl menü Oldal megtekintése parancsát (vagy kattintsunk a Szerkesztés eszköztáron az Előnézet gombra). Ha még nem mentette el a dokumentumot,
+  &brandShortName; kér egy címet, fájl nevet és mentési helyet.  A &brandShortName; ablak nyitva marad a böngésző ablak mögött.</li>
+</ul>
+
+<p>[ <a href="#starting_a_new_page">Vissza a fejezet elejére</a> ]</p>
+
+<p>[<a href="formatting_webpages.xhtml">Következő</a>]</p>
+
+  <div class="copyrightBox"><em>6 August 2006</em></div>
+
+  <p>Copyright &copy; 2004-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

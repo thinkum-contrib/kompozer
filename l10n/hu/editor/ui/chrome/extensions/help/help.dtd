@@ -1,0 +1,86 @@
+<!ENTITY printCmd.commandkey            "p">
+
+<!ENTITY viewCustomizeToolbar.label     "Testreszabás...">
+<!ENTITY viewCustomizeToolbar.accesskey "T">
+
+<!ENTITY findOnCmd.commandkey           "F">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+<!ENTITY findDialog.title "Keresés ezen az oldalon">
+<!ENTITY findDialogFrame.title "Keresés ebben a keretben">
+<!ENTITY findField.label "Szöveg keresése:">
+<!ENTITY findField.accesskey "S">
+<!ENTITY caseSensitiveCheckbox.label "Kis- és nagybetűk megkülönböztetése">
+<!ENTITY caseSensitiveCheckbox.accesskey "i">
+<!ENTITY wrapCheckbox.label "Keresés az egész oldalon">
+<!ENTITY wrapCheckbox.accesskey "e">
+<!ENTITY backwardsCheckbox.label "Keresés visszafelé">
+<!ENTITY backwardsCheckbox.accesskey "v">
+<!ENTITY findField.tooltip "Írjon be egy vagy több szót a kereséshez">
+<!ENTITY findButton.label "Következő keresése">
+<!ENTITY findButton.accesskey "K">
+<!ENTITY cancelButton.label "Mégse">
+<!ENTITY up.label "Felfelé">
+<!ENTITY up.accesskey "F">
+<!ENTITY down.label "Lefelé">
+<!ENTITY down.accesskey "L">
+<!ENTITY direction.label "Keresés iránya">
+
+<!ENTITY find.label "Keresés:">
+<!ENTITY findNext.label "Következő keresése">
+<!ENTITY findNext.tooltip "A kifejezés következő előfordulásának keresése">
+<!ENTITY findPrevious.label "Előző keresése">
+<!ENTITY findPrevious.tooltip "A kifejezés előző előfordulásának keresése">
+<!ENTITY findCloseButton.tooltip "Keresősáv bezárása">
+<!ENTITY highlight.label "Kiemelés">
+<!ENTITY highlight.tooltip "A keresett kifejezés kiemelése (Ctrl+Enter)">
+
+<!ENTITY backButton.label               "Vissza">
+<!ENTITY backButton.accesskey           "V">
+<!ENTITY backButton.tooltip             "Ugrás az előző oldalra">
+<!ENTITY forwardButton.label            "Előre">
+<!ENTITY forwardButton.accesskey        "E">
+<!ENTITY forwardButton.tooltip          "Ugrás a következő oldalra">
+<!ENTITY homeButton.label               "Kezdőlap">
+<!ENTITY homeButton.tooltip             "Ugrás a Súgó kezdőoldalára">
+<!ENTITY printButton.label              "Nyomtatás">
+<!ENTITY printButton.tooltip            "Oldal kinyomtatása">
+<!ENTITY findBtn.label		  	"Keresés">
+<!ENTITY sidebarBtn.label               "Oldalsáv">
+<!ENTITY sidebarBtn.tooltip             "Az oldalsáv megjelenítése vagy elrejtése">
+<!ENTITY textZoomReduceBtn.label 	"Szövegméret csökkentése">
+<!ENTITY textZoomReduceBtn.accesskey    "c">
+<!ENTITY textZoomReduceBtn.tooltip      "Szöveg méretének csökkentése a Súgóban">
+<!ENTITY textZoomEnlargeBtn.label 	"Szövegméret növelése">
+<!ENTITY textZoomEnlargeBtn.accesskey   "n">
+<!ENTITY textZoomEnlargeBtn.tooltip     "Szöveg méretének növelése a Súgóban">
+<!ENTITY customizeButton.tooltip        "A Súgó eszköztárának testreszabása, azaz a megjelenítendő gombok kiválasztása">
+<!ENTITY reloadCmd.label                "Frissítés">
+<!ENTITY reloadCmd.accesskey            "F">
+<!ENTITY closeWindow.commandkey         "W">
+<!ENTITY copyCmd.label                  "Másolás">
+<!ENTITY copyCmd.accesskey              "M">
+
+<!ENTITY throbberItem.title             "Aktivitásjelző">
+
+<!ENTITY cmd_CustomizeToolbars.label    "Testreszabás" >
+
+<!ENTITY searchtab.label    	  	"Keresés">
+<!ENTITY searchtab.accesskey            "K">
+<!ENTITY searchbtn.label    	  	"Keresés">
+<!ENTITY toctab.label       	  	"Tartalom">
+<!ENTITY toctab.accesskey               "T">
+<!ENTITY indextab.label     	  	"Tárgymutató">
+<!ENTITY indextab.accesskey             "r">
+<!ENTITY ixname.label       	  	"Név">
+<!ENTITY glossarytab.label  	  	"Fogalomtár">
+<!ENTITY glossarytab.accesskey          "F">
+<!ENTITY glossname.label    	  	"Név">
+<!ENTITY gobtn.label        	  	"Keresés">
+<!ENTITY name.label	    	  	"Elem">
+
+<!ENTITY textZoomReduceCmd.commandkey	"-">
+<!ENTITY textZoomEnlargeCmd.commandkey	"+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey    "0">

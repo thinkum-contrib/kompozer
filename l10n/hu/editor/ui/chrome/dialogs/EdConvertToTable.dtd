@@ -1,0 +1,33 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Táblázattá alakítás">
+<!ENTITY instructions1.label   "A HTML-szerkesztő a kijelölés minden sorát egy-egy táblázatsorrá alakítja.">
+<!ENTITY instructions2.label   "Válassza ki az oszlopokat elválasztó karaktert a kijelölésben:">
+<!ENTITY commaRadio.label      "vessző">
+<!ENTITY spaceRadio.label      "szóköz">
+<!ENTITY otherRadio.label      "más karakter:">
+<!ENTITY deleteCharCheck.label "Elválasztó karakter törlése">
+<!ENTITY collapseSpaces.label  "Felesleges szóközök figyelmen kívül hagyása">
+<!ENTITY collapseSpaces.tooltip "Az egymás melletti szóközökből egy elválasztó lesz.">

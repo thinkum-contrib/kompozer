@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Weboldalak létrehozása az &brandShortName;-val</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">A fejezet témakörei:
+  <a href="composer_help.xhtml#starting_a_new_page">Új weboldal létrehozása</a>
+
+  <a href="formatting_webpages.xhtml">A weboldalak formázása</a>
+
+  <a href="css.xhtml">Stíluslapok
+  használata a weboldalakon</a>
+
+  <a href="tables.xhtml">Táblázatok használata
+  a weboldalakon</a>
+
+  <a href="images.xhtml">Képek felvétele
+  a weboldalra</a>
+
+  <a href="toc.xhtml">Tartalomjegyzék
+  használata a weboldalakon</a>
+
+  <a href="templates.xhtml">Sablonok kezelése
+  </a>
+
+  <a href="page_properties.xhtml">Oldaltulajdonságok
+  beállítása</a>
+
+  <a href="links.xhtml">Hivetkozások létrehozása az
+  &brandShortName;-val</a>
+
+  <a href="customize.xhtml">Az &brandShortName; testreszabása</a>
+
+</div>
+
+<h2 id="working_with_templates">Sablonok kezelése</h2>
+
+<p>A HTML-sablonok olyan esetekben hasznosak, amikor a szerzőnek több oldalt
+kell elkészítenie hasonló designnal, e eltérő tartalommal. Az
+&brandShortName; segítségével megtervezhetjük saját sablonjainkat, amelyek a weboldalaink
+alapját képezhetik.</p>
+
+<h3 id="creating_a_template">Sablon létrehozása</h3>
+
+<ol>
+  <li>Sablon létrehozása:
+  <ul>
+    <li>Kattintsunk a <span class="menPath">File > New</span> menüparancsra, vagy kattintsunk
+    az "Új" gomb melletti nyílra, és válasszuk a "További lehetőségek" lehetőséget.</li>
+    <li>Válasszuk az <strong>Üres sablon</strong> lehetőséget, majd kattintsunk a "Létrehozás" gombra</li>
+  </ul></li>
+  <li>Szúrd be és formázd a tartalomat ami azonos marad minden oldalon, ugyanazzal a metódussal mint amivel normál szöveget formázol szerkesztő módban.</li>
+  <li>Azokat a tartalmakt, amik különbözőképpen jelennek meg az oldalakon, beszúrhtod
+  a következő képpen: kattints: Insert > Templates > Editable Area. Itt a követező opciók lelhetők fel:
+  <ul>
+    <li>A terület opcionális</li>
+    <li>A terület ismételhető</li>
+    <li>A terület áthelyezhető</li>
+  </ul></li>
+  <li>Mentsd el .mzt Template álloménynak.</li>
+</ol>
+
+<p><strong>Tipp</strong>: El lehet távolítani egy elemet a készenléti bár segítségével. 
+Részletekért kattints <a href="#using_status_bar_for_formatting_your_web_page">ide</a>.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Vissza a fejezet elejére</a> ]</p>
+
+<h3 id="using_a_template">Sablonk használata</h3>
+
+<p>Egy template használata:</p>
+
+<ol>
+  <li>Kattints a <span class="menuPath">File > Open</span>-re vagy nyomd le a  "Ctrl+N"-t.</li>
+  <li>Válaszd ki ezt "A New Document based on a Template" és a
+  "Choose File" segítségével válaszd ki a használni kivánt templatet.g</li>
+  <li>Kattints a <span class="menuPath">Create</span>-re</li>
+  <li>Szerkeszd a tartalmat ahol szükséges.</li>
+  <li>Mentsd el <i>html</i> dokumentumként.</li>
+</ol>
+
+<p><strong>Tipp</strong>: Kattints az <span class="menuPath">Edit > Detach
+From Template</span> hogy detachálj egy dokumentumot a templateből.</p>
+
+<p><strong>Tipp</strong>: Egy dokumentum transzformálása templatebe és vissza meg lehet oldani
+ "Templates" beixelésével a Format > Page Title and Properties menübeng.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Vissza a fejezet elejére</a> ]</p>
+
+<p>[<a href="page_properties.xhtml">Következő</a>] [<a href="toc.xhtml">Előző</a>]</p>
+
+  <div class="copyrightBox"><em>2005. június 20.</em></div>
+
+<p>Copyright &copy; 2004-2005 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

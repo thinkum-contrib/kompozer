@@ -1,0 +1,59 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Táblázat beszúrása">
+
+<!ENTITY size.label "Méret">
+<!ENTITY numRowsEditField.label "Sorok:">
+<!ENTITY numRowsEditField.accessKey "S">
+<!ENTITY numColumnsEditField.label "Oszlopok:">
+<!ENTITY numColumnsEditField.accessKey "O">
+<!ENTITY widthEditField.label "Szélesség:">
+<!ENTITY widthEditField.accessKey "z">
+<!ENTITY borderEditField.label "Szegély:">
+<!ENTITY borderEditField.accessKey "e">
+<!ENTITY borderEditField.tooltip "Írja be a táblázat körüli szegély vastagságát, vagy írjon nullát (0), ha nem kíván szegélyt.">
+<!ENTITY pixels.label "képpont">
+
+<!ENTITY quicklyTab.label "Gyorsan">
+<!ENTITY preciselyTab.label "Pontosan">
+<!ENTITY cellTab.label "Cella">
+
+<!ENTITY horizAlignment.label "Vízsz. igazítás:">
+<!ENTITY unspecifiedHAlignment.label "Nincs megadva">
+<!ENTITY leftHAlignment.label "Balra">
+<!ENTITY centerHAlignment.label "Középre">
+<!ENTITY rightHAlignment.label "Jobbra">
+
+<!ENTITY vertAlignment.label "Függ. igazítás:">
+<!ENTITY unspecifiedVAlignment.label "Nincs megadva">
+<!ENTITY topVAlignment.label "Tetejére">
+<!ENTITY middleVAlignment.label "Középre">
+<!ENTITY bottomVAlignment.label "Aljára">
+
+<!ENTITY textWrapping.label "Szövegtörés:">
+<!ENTITY wrapWrapping.label "Törjön">
+<!ENTITY nowrapWrapping.label "Ne törjön">
+
+<!ENTITY cellSpacing.label "Térköz cellák között">
+<!ENTITY cellPadding.label "Térköz cellán belül">

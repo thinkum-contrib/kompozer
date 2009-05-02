@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>A súgóablak használata</title>
+	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Megjelenítés/Elrejtés</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Súgóközpont</span></td>
+</tr>
+</table>
+<div id="contentsBox">Témakörök:
+  <a href="#finding_the_topic_you_want">A kívánt témakör megkeresése</a>
+  <a href="#retracing_your_steps">Korábbi lépések követése</a>
+  <a href="#search_tips">Keresési tippek</a>
+</div>
+
+<h1 id="help_window_top">A súgóablak használata</h1>
+
+<p>Ez a fejezet a súgóablak használatát ismerteti. Ez az az ablak, amelyben ez a szöveg is megjelenik, emellett az ettől balra lévő oldalsávot is tartalmazza.</p>
+
+<h2 id="finding_the_topic_you_want">A kívánt témakör megkeresése</h2>
+
+	<p>A súgóablakban a tartalom a bal oldali ablaktábla lapjaival különböző módon jeleníthető meg.</p>
+	<ul>
+		<li><strong>Tartalom:</strong> az elsődleges témakörök listáját tartalmazza.
+	<br/>
+Kattintsunk egy témakörre: ekkor leírása jelenik meg. Ha duplán kattintunk rá, a résztémakörök jelennek meg.
+	</li>
+		 <li><strong>Keresés:</strong> a súgóban való keresést teszi lehetővé.
+	<br/>
+Írjunk be egy szót vagy egy kifejezést, és nyomjuk meg az Enter billentyűt, ha a kapcsolódó témaköröket szeretnénk látni. Ezután kattintsunk a kívánt témakörre.
+	<br/><br/>
+Ha a keresés egyetlen témakört sem jelenít meg, adjunk meg kevesebb szót vagy más sorrendben.
+	</li>
+		 <li><strong>Tárgymutató:</strong> a témaköröket sorolja fel ábécésorrendben.<br/>Kattintsunk egy bejegyzésre a témakör tartalmának megtekintéséhez.
+	</li>
+		 <li><strong>Fogalomtár:</strong> a fontosabb fogalmakat sorolja fel ábécé sorrendben.
+	<br/>Kattintsunk egy bejegyzésre meghatározásának megtekintéséhez.</li>
+	</ul>
+
+	<p>Az éppen látott témakörrel kapcsolatos tudnivalók a hivatkozásokra kattintva érhetők el (ugyanúgy, mint a szokásos weboldalakon).</p>
+
+<h2 id="retracing_your_steps">Korábbi lépések követése</h2>
+	<p>A súgóban végrehajtott lépések nyomon követhetők a súgóablak bal felső sarkában lévő gombokkal.</p>
+
+	<p><img src="http://mozilla.org/projects/firefox/help/1.0/help-buttons.png" alt="" width="209" height="43"/></p>
+
+	<ul>
+	        <li>Kattintsunk az Oldalsáv elrejtése/megjelenítése gombra a súgóablak bal oldalán látható
+	          oldalsáv megjelenítésének vezérléséhez.</li>
+		<li>A Vissza gombbal a korábban látott oldalak között visszafelé lapozhatunk. Ez ugyanúgy működik, mint a Vissza gomb a &brandShortName;; főablakában.</li>
+		<li>Az Előre gombbal a korábban látott oldalak között előre lapozhatunk. Ez ugyanúgy működik, mint az Előre gomb a &brandShortName;; főablakában.</li>
+		<li>A Kezdőlap gombbal a &brandShortName;; Súgó kezdőlapja jeleníthető meg a terméktámogatási lehetőségek és a weben elérhető információforrások felsorolásával.</li>
+	</ul>
+
+	<p>Az utasításokat tartalmazó témakört ki is nyomtathatjuk:</p>
+
+	<ul>
+		<li>A súgóablakban látható teljes oldal nyomtatásához kattintsunk az ablak jobb felső sarkában lévő Nyomtatás gombra.<br/>
+
+		<img src="http://mozilla.org/projects/firefox/help/1.0/print.png" alt="" width="38" height="43"/></li>
+
+		<li>Ha csak az oldal adott részét szeretnénk nyomtatni, először jelöljük ki a kívánt szöveget, és ezután kattintsunk a Nyomtatás gombra.</li>
+	</ul>
+
+<h2 id="search_tips">Keresési tippek</h2>
+	<p>Ha a keresés eredménye nem az, amit vártunk, fogadjuk meg az alábbi jótanácsokat:</p>
+
+	<ul>
+		<li>Csak a &brandShortName;; használatával kapcsolatos dolgokat keressünk. Ez nem webes keresés.</li>
+        	<li>Ne szűkítsük le túlzottan a keresést. Elképzelhető, hogy a keresett kifejezés más szavakkal van megfogalmazva.</li>
+		<li>Ne adjunk meg túl általános kifejezét a keresőnek: a &quot;&brandShortName;;&quot; és a
+		  &quot;&vendorShortName;&quot; szavak valószínűleg az összes súgóoldalon szerepelnek.</li>
+	</ul>
+
+<div class="copyrightBox"><em>10 August 2006</em></div>
+<p>Copyright &copy; 2003-2006 az &brandShortName; Súgó projekt hozzájárulói</p>
+
+</body>
+</html>

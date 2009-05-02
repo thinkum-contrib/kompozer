@@ -1,0 +1,89 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Dan Haddix (dan6992@hotmail.com)
+   -   Brian King (briano9@yahoo.com)
+  -->
+
+<!-- These strings are for use specifically in the editor's image map dialog. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Hivatkozástérkép-szerkesztő">
+
+<!-- Menu Items -->
+<!-- File menu -->
+<!ENTITY mapfileMenu.label "Fájl">
+<!ENTITY mapfilemenu.accesskey "f">
+<!ENTITY clearCmd.label "Törlés">
+<!ENTITY mapfileclear.accesskey "T">
+<!ENTITY closeCmd.label "Bezárás">
+<!ENTITY mapfileclose.accesskey "B">
+
+<!-- Edit menu -->
+<!ENTITY mapeditMenu.label "Szerkesztés">
+<!ENTITY mapeditmenu.accesskey "z">
+<!ENTITY cutCmd.label "Kivágás">
+<!ENTITY mapeditcut.accesskey "K">
+<!ENTITY copyCmd.label "Másolás">
+<!ENTITY mapeditcopy.accesskey "M">
+<!ENTITY pasteCmd.label "Beillesztés">
+<!ENTITY mapeditpaste.accesskey "B">
+<!ENTITY selectallCmd.label "Mindet kijelöli">
+<!ENTITY mapselectall.accesskey "M">
+<!ENTITY propsCmd.label "Interaktív terület tulajdonságai">
+<!ENTITY mapeditprops.accesskey "T">
+
+<!-- View menu -->
+<!ENTITY mapviewMenu.label "Nézet">
+<!ENTITY mapviewmenu.accesskey "N">
+<!ENTITY showhideTbarCmd.label "Eszköztár elrejtése">
+<!ENTITY mapviewtbar.accesskey "t">
+<!-- Scaling -->
+<!ENTITY mapviewScale.label "Skála">
+<!ENTITY mapviewscale.accesskey "S">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY zoomthree.accesskey "4">
+<!-- end scaling-->
+<!ENTITY contrastCmd.label "Kontraszt">
+<!ENTITY contrast.accesskey "n">
+
+<!-- Help menu -->
+<!ENTITY maphelpMenu.label "Súgó">
+<!ENTITY maphelpmenu.accesskey "h">
+<!ENTITY aboutCmd.label "Névjegy">
+<!ENTITY about.accesskey "b">
+
+<!ENTITY zoominCmd.label "Nagyítás">
+<!ENTITY zoomoutCmd.label "Kicsinyítés">
+<!ENTITY delSpotCmd.label "Interaktív terület törlése">
+
+<!-- Keys -->
+<!ENTITY clear.accesskey "A">
+<!ENTITY selectall.accesskey "d">
+<!ENTITY close.accesskey "l">
+<!ENTITY cut.accesskey "x">
+<!ENTITY copy.accesskey "c">
+<!ENTITY paste.accesskey "v">
+<!ENTITY props.accesskey "p">
+<!ENTITY tbar.accesskey "t">

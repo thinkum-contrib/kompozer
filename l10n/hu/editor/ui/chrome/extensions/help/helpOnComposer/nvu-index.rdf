@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+  <rdf:Description about="urn:root">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="a" nc:name="A"/></rdf:li>
+        <rdf:li> <rdf:Description ID="b" nc:name="B"/></rdf:li>
+        <rdf:li> <rdf:Description ID="c" nc:name="C"/></rdf:li>
+        <rdf:li> <rdf:Description ID="d" nc:name="D"/></rdf:li>
+        <rdf:li> <rdf:Description ID="e" nc:name="E"/></rdf:li>
+        <rdf:li> <rdf:Description ID="f" nc:name="F"/></rdf:li>
+        <rdf:li> <rdf:Description ID="g" nc:name="G"/></rdf:li>
+        <rdf:li> <rdf:Description ID="h" nc:name="H"/></rdf:li>
+        <rdf:li> <rdf:Description ID="i" nc:name="I"/></rdf:li>
+        <rdf:li> <rdf:Description ID="j" nc:name="J"/></rdf:li>
+        <rdf:li> <rdf:Description ID="k" nc:name="K"/></rdf:li>
+        <rdf:li> <rdf:Description ID="l" nc:name="L"/></rdf:li>
+        <rdf:li> <rdf:Description ID="m" nc:name="M"/></rdf:li>
+        <rdf:li> <rdf:Description ID="n" nc:name="N"/></rdf:li>
+        <rdf:li> <rdf:Description ID="o" nc:name="O"/></rdf:li>
+        <rdf:li> <rdf:Description ID="p" nc:name="P"/></rdf:li>
+        <rdf:li> <rdf:Description ID="q" nc:name="Q"/></rdf:li>
+        <rdf:li> <rdf:Description ID="r" nc:name="R"/></rdf:li>
+        <rdf:li> <rdf:Description ID="s" nc:name="S"/></rdf:li>
+        <rdf:li> <rdf:Description ID="t" nc:name="T"/></rdf:li>
+        <rdf:li> <rdf:Description ID="u" nc:name="U"/></rdf:li>
+        <rdf:li> <rdf:Description ID="v" nc:name="V"/></rdf:li>
+        <rdf:li> <rdf:Description ID="w" nc:name="W"/></rdf:li>
+        <rdf:li> <rdf:Description ID="x" nc:name="X"/></rdf:li>
+        <rdf:li> <rdf:Description ID="y" nc:name="Y"/></rdf:li>
+        <rdf:li> <rdf:Description ID="z" nc:name="Z"/></rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+    <rdf:Description about="#a">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Állapotsor eszköztár" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#b">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="preferences" nc:name="beállítások" nc:link="preferences.xhtml" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="formatting_paragraphs" nc:name="bekezdések formázása" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_fonts" nc:name="betűk" nc:link="preferences.xhtml#preferences_fonts" /> </rdf:li>
+                <rdf:li> <rdf:Description ID="keyboard_shortcuts" nc:name="billentyűparancsok" nc:link="shortcuts.xhtml" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#c">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="CSS" nc:link="css.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#d">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#e">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li><rdf:Description ID="toolbars" nc:name="eszköztárak" nc:link=""/></rdf:li>
+          </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#f">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="felhasználói felület" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="formázás" nc:link="formatting_webpages.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Formázás eszköztár" nc:link="composer_tutorial.xhtml#format_toolbar"/></rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#g">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="gyorsítók" nc:link="shortcuts.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#h">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="advanced-options" nc:name="haladó beállítások" nc:link="prefs.xhtml#advanced_options"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="háttérszínek, oldal" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="hivatkozások" nc:link="links.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="hivatkozás eltávolítása" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
+                <rdf:li><rdf:Description ID="html" nc:name="HTML" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></rdf:li>
+		<rdf:li> <rdf:Description ID="validate" nc:name="HTML érvényesítése" nc:link="composer_help.xhtml#validating_the_html" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#help-viewer">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="használat" nc:link="welcome.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="keresési tippek" nc:link="welcome.xhtml#search_tips"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="témakör megtalálása" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+
+    <rdf:Description about="#i">
+        <nc:subheadings>
+            <rdf:Seq>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#images">
+	<nc:subheadings>
+	    <rdf:Seq>
+                <rdf:li> <rdf:Description ID="images_insert" nc:name="képek beszúrása" nc:link="inserting_an_image_into_your_page" /> </rdf:li>
+                <rdf:li> <rdf:Description ID="images_edit" nc:name="képek tulajdonságainak szerkesztése" nc:link="composer_help.xhtml#editing_image_properties" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#k">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="images" nc:name="képek" nc:link="images.xhtml" /> </rdf:li>
+		<rdf:li> <rdf:Description nc:name="kép használata hivatkozásként" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+                <rdf:li><rdf:Description ID="accessibility-options" nc:name="kisegítő lehetőségek" nc:link="prefs.xhtml#accessibility"/></rdf:li>
+		<rdf:li> <rdf:Description ID="publishing" nc:name="közzététel" nc:link="publishing_help.xhtml" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#l">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="lists" nc:name="listák" nc:link="composer_help.xhtml#formatting_your_web_pages" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#links">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="links_removing" nc:name="hivatkozások eltávolítása" nc:link="composer_help.xtml#removing_or_discontinuing_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_images" nc:name="képek használata hivatkozásként" nc:link="composer_help.xhtml#removing_or_discontinuing_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_external" nc:name="külső hivatkozás létrehozása" nc:link="composer_help.xhtml#creating_links_to_other_pages" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_creating" nc:name="oldalon belüli hivatkozás létrehozása" nc:link="composer_help.xhtml#creating_links_within_the_same_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#lists">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="lists_list_item" nc:name="listaelemek" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists_work" nc:name="listák használata" nc:link="composer_help.xhtml#working_with_lists" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#m">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#n">
+        <nc:subheadings>
+            <rdf:Seq>
+
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#o">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page" nc:name="oldal" nc:link="page_properties.xhtml" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="oldal böngészése" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="oldal mentése" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#p">
+        <nc:subheadings>
+            <rdf:Seq>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#page">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page-save" nc:name="oldal mentése" nc:link="composer_help.xhtml#Saving and Browsing Your New Page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-properties" nc:name="oldaltulajdonságok beállítása" nc:link="composer_help.xhtml#setting_page_properties_and_meta_tags" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-color-background" nc:name="oldalszínek és oldalháttér beállítása" nc:link="composer_help.xhtml#setting_page_colors_and_backgrounds" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-create" nc:name="új oldal létrehozása" nc:link="composer_help.xhtml#creating_a_new_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#preferences">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="preferences_general_settings" nc:name="általános beállítások" nc:link="composer_help.xhtml#composer_preferences_general" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-advanced" nc:name="haladó beállítások (kapcsolat)" nc:link="composer_help.xhtml#composer_preferences_advanced_settings_connection" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-new-page" nc:name="új oldal beállításai" nc:link="composer_help.xhtml#composer_preferences_new_page_settings" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#r">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li>
+
+                </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#s">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="sablonok létrehozása" nc:link="templates.xhtml#creating_a_template"/></rdf:li>
+		<rdf:li> <rdf:Description ID="special-characters" nc:name="speciális karakterek" nc:link="formatting_webpages.xhtml#inserting_special_characters" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="speciális tulajdonságok szerkesztése" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="stíluslapok" nc:link="css.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="stíluslapok létrehozása" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer" nc:name="súgónéző" nc:link="welcome.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Szerkesztés eszköztár" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
+		<rdf:li> <rdf:Description nc:name="Szerkesztőmód eszköztár" nc:link="composer_tutorial.xhtml#edit_mode_toolbar" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="editing_modes" nc:name="szerkesztési módok" nc:link="composer_help.xhtml#choosing_the_right_editing_mode" /> </rdf:li>
+		<rdf:li><rdf:Description ID="tabs" nc:name="szerkesztőlapok" nc:link="composer_help.xhtml#create_document"/></rdf:li>
+		<rdf:li><rdf:Description ID="text" nc:name="szöveg" nc:link="composer_help.xhtml#formatting_your_web_pages"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="szöveg cseréje" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="szövegformázás törlése" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="szöveg keresése" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="szöveg színének, stílusának és betűkészletének megadása" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#t">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="táblázat kijelölése" nc:link="tables.xhtml#selecting_table_elements"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="táblázatok áthelyezése" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="táblázatok másolása" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="táblázatok törlése" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li><rdf:Description ID="tables" nc:name="táblázatok" nc:link="composer_help.xhtml#adding-tables-to-your-web-page"/></rdf:li>
+		<rdf:li><rdf:Description ID="tutorial" nc:name="tankönyv" nc:link="composer_tutorial.xhtml"/></rdf:li>
+		<rdf:li> <rdf:Description ID="toc" nc:name="tartalomjegyzék" nc:link="composer_help.xhtml#working_with_table_of_contents_on_your_web_page" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#tables">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="adding_tables_to_your_web_page" nc:name="Táblázatok használata a weboldalakon" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+		<rdf:li><rdf:Description ID="" nc:name="" nc:link=""/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#text">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="changing-text-color" nc:name="szövegszín megváltoztatása" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li><rdf:Description ID="changing-text-font" nc:name="szövegbetű megváltoztatása" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>	
+		<rdf:li><rdf:Description ID="changing-text-style" nc:name="szövegstílus megváltoztatása" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li> <rdf:Description ID="finding-replacing-text" nc:name="szöveg keresése/cseréje" nc:link="composer_help.xhtml#finding_and_replacing_text"/></rdf:li>
+		<rdf:li> <rdf:Description ID="removing-or-discontinuing-text-styles" nc:name="szövegformázás eltávolítása vagy abbahagyása" nc:link="composer_help.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#u">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="új dokumentum" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#v">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="vízszintes vonalak beszúrása" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#w">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="weboldalak létrehozása" nc:link="composer_help.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#x">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+</rdf:RDF>
