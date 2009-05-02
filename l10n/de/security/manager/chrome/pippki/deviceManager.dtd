@@ -1,0 +1,29 @@
+<!ENTITY devmgr.button.changepw.label "Passwort ändern">
+<!ENTITY devmgr.button.changeslotname.label "Slot-Namen ändern">
+<!ENTITY devmgr.button.load.label "Laden">
+<!ENTITY devmgr.button.login.label "Anmelden">
+<!ENTITY devmgr.button.logout.label "Abmelden">
+<!ENTITY devmgr.button.unload.label "Entladen">
+<!ENTITY devmgr.details.title "Details">
+<!ENTITY devmgr.details.title2 "Wert">
+<!ENTITY devmgr.devlist.label "Sicherheitsmodule und -einrichtungen">
+<!ENTITY devmgr.status.label "Status">
+<!ENTITY devmgr.title "Kryptographie-Modul-Manager">
+<!ENTITY devmgr.version.label "Version">
+<!ENTITY loaddevice.browse "Durchsuchen...">
+<!ENTITY loaddevice.filename "Modul-Dateiname:">
+<!ENTITY loaddevice.info "Geben Sie die Informationen für das Modul an, das Sie hinzufügen möchten.">
+<!ENTITY loaddevice.modname "Modulname:">
+<!ENTITY loaddevice.modname.default "Neues PKCS#11 Modul">
+<!ENTITY loaddevice.title "PKCS#11-Einrichtung laden">
+
+<!ENTITY devmgr.button.changeslotname.accesskey "S">
+<!ENTITY devmgr.button.login.accesskey          "A">
+<!ENTITY devmgr.button.logout.accesskey         "b">
+<!ENTITY devmgr.button.changepw.accesskey       "P">
+<!ENTITY devmgr.button.load.accesskey           "L">
+<!ENTITY devmgr.button.unload.accesskey         "E">
+<!ENTITY devmgr.button.fips.accesskey           "F">
+<!ENTITY loaddevice.modname.accesskey           "M">
+<!ENTITY loaddevice.filename.accesskey          "o">
+<!ENTITY loaddevice.browse.accesskey            "D">

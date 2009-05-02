@@ -1,0 +1,115 @@
+<!ENTITY addons.title                     "Add-ons">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Erweiterungen">
+<!ENTITY themes.label                     "Themes">
+<!ENTITY locales.label                    "Sprachen">
+<!ENTITY plugins.label                    "Plugins">
+<!ENTITY update.label                     "Updates">
+<!ENTITY install.label                    "Installation">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Updaten">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "U">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Auf Updates für Add-ons überprüfen">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Auf Updates für Themes überprüfen">
+<!ENTITY cmd.installLocalFile.label            "Installieren...">
+<!ENTITY cmd.installFile.accesskey        "I">
+<!ENTITY cmd.installFileAddon.tooltip     "Add-on installieren">
+<!ENTITY cmd.installFileTheme.tooltip     "Theme installieren">
+<!ENTITY cmd.installUpdatesAll.label      "Updates installieren">
+<!ENTITY cmd.installUpdatesAll.accesskey  "p">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Gewählte Updates installieren">
+<!ENTITY cmd.restartApp.label             "&brandShortName; neustarten">
+<!ENTITY cmd.restartApp.accesskey         "n">
+<!ENTITY cmd.restartApp.tooltip           "&brandShortName; neustarten, um die Installation zu beenden">
+<!ENTITY cmd.skip.label                   "Überspringen">
+<!ENTITY cmd.skip.accesskey               "Ü">
+<!ENTITY cmd.skip.tooltip                 "Diese Updates überspringen">
+<!ENTITY cmd.continue.label               "Fortfahren">
+<!ENTITY cmd.continue.accesskey           "F">
+<!ENTITY cmd.continue.tooltip             "&brandShortName; weiter herunterladen">
+
+<!ENTITY cmd.enableAll.label              "Alle aktivieren">
+<!ENTITY cmd.enableAll.accesskey          "a">
+<!ENTITY cmd.enableAll.tooltip            "Alle angezeigten Add-ons aktivieren">
+<!ENTITY cmd.disableAll.label             "Alle deaktivieren">
+<!ENTITY cmd.disableAll.accesskey         "a">
+<!ENTITY cmd.disableAll.tooltip           "Alle angezeigten Add-ons deaktivieren">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.accesskey           "T">
+<!ENTITY cmd.useTheme.label               "Theme benutzen">
+<!ENTITY cmd.useTheme.tooltip             "Ändert das Theme von &brandShortName;.">
+<!ENTITY cmd.options.accesskey            "E">
+<!ENTITY cmd.options.label                "Einstellungen">
+<!ENTITY cmd.options.tooltip              "Einstellungen für die gewählte Erweiterung bearbeiten">
+<!ENTITY cmd.optionsUnix.accesskey        "E">
+<!ENTITY cmd.optionsUnix.label            "Einstellungen">
+<!ENTITY cmd.optionsUnix.tooltip          "Einstellungen für die gewählte Erweiterung bearbeiten">
+<!ENTITY cmd.enable.label                 "Aktivieren">
+<!ENTITY cmd.enable.accesskey             "A">
+<!ENTITY cmd.enable.tooltip               "Dieses Add-on aktivieren, wenn &brandShortName; neu gestartet wird">
+<!ENTITY cmd.disable.label                "Deaktivieren">
+<!ENTITY cmd.disable.accesskey            "a">
+<!ENTITY cmd.disable.tooltip              "Dieses Add-on deaktivieren, wenn &brandShortName; neu gestartet wird">
+<!ENTITY cmd.uninstall.label              "Deinstallieren">
+<!ENTITY cmd.uninstall2.accesskey         "D">
+<!ENTITY cmd.uninstall2.tooltip           "Dieses Add-on deinstallieren, wenn &brandShortName; neu gestartet wird">
+<!ENTITY cmd.cancelUninstall.label        "Deinstallation abbrechen">
+<!ENTITY cmd.cancelUninstall.accesskey    "b">
+<!ENTITY cmd.cancelUninstall.tooltip      "Die Deinstallation dieses Add-ons abbrechen">
+<!ENTITY cmd.installUpdate.label          "Update installieren">
+<!ENTITY cmd.installUpdate.accesskey      "U">
+<!ENTITY cmd.installUpdate.tooltip        "Ein Update für dieses Add-on installieren">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Abbrechen">
+<!ENTITY cancel.accesskey                 "b">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Homepage besuchen">
+<!ENTITY cmd.homepage.accesskey           "H">
+<!ENTITY cmd.about2.label                 "Über dieses Add-on">
+<!ENTITY cmd.about.accesskey              "Ü">
+<!ENTITY cmd.checkUpdate.label            "Updaten">
+<!ENTITY cmd.checkUpdate.accesskey        "U">
+
+<!ENTITY cmd.includeUpdate.label          "Update einschließen">
+<!ENTITY cmd.includeUpdate.accesskey      "d">
+<!ENTITY includeUpdate.label              "Dieses Update einschließen">
+<!ENTITY includeUpdate.accesskey          "D">
+<!ENTITY includeUpdate.tooltip            "Dieses Add-on einschließen, wenn Updates installiert werden">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Erfordert weitere Add-ons.">
+<!ENTITY blocklisted.label                "Zu Ihrer Sicherheit deaktiviert.">
+<!ENTITY toBeDisabled.label               "Dieses Add-on wird deaktiviert, wenn &brandShortName; neu gestartet wird.">
+<!ENTITY toBeEnabled.label                "Dieses Add-on wird aktiviert, wenn &brandShortName; neu gestartet wird.">
+<!ENTITY toBeInstalled.label              "Dieses Add-on wird installiert, wenn &brandShortName; neu gestartet wird.">
+<!ENTITY toBeUninstalled.label            "Dieses Add-on wird deinstalliert, wenn &brandShortName; neu gestartet wird.">
+<!ENTITY toBeUpgraded.label               "Dieses Add-on wird aktualisiert, wenn &brandShortName; neu gestartet wird.">
+
+<!ENTITY getExtensions.label              "Erweiterungen herunterladen">
+<!ENTITY getExtensions.tooltip            "Laden Sie Erweiterungen bei addons.mozilla.org herunter">
+<!ENTITY getThemes.label                  "Themes herunterladen">
+<!ENTITY getThemes.tooltip                "Laden Sie Themes bei addons.mozilla.org herunter">
+<!ENTITY previewNoThemeSelected.label     "Kein Theme gewählt">
+<!ENTITY previewNoPreviewImage.label      "Dieses Theme hat keine Vorschau">
+<!ENTITY moreInfo.label                   "Weitere Informationen">
+<!ENTITY closeMessage.tooltip             "Diese Nachricht schließen">
+
+<!ENTITY updateSuccess.label              "Update erfolgreich beendet.">
+<!ENTITY installSuccess.label             "Installation erfolgreich beendet.">
+<!ENTITY installSuccessRestart.label      "Neustarten, um die Installation zu beenden.">
+<!ENTITY installWaiting.label             "Warten...">
+<!ENTITY installIncompatibleUpdate.label  "Kompatibilität überprüfen...">
+<!ENTITY installFinishing.label           "Installieren...">
+<!ENTITY installFailure.label             "Installation fehlgeschlagen">

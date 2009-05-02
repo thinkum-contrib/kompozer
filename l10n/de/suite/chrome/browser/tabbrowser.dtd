@@ -1,0 +1,14 @@
+<!ENTITY untitledTab "(Unbenannt)">
+<!ENTITY newTab.label "Neues Tab">
+<!ENTITY newTab.accesskey "N">
+<!ENTITY closeTab.label "Tab schließen">
+<!ENTITY closeTab.accesskey "c">
+<!ENTITY closeOtherTabs.label "Andere Tabs schließen">
+<!ENTITY closeOtherTabs.accesskey "A">
+<!ENTITY reloadAllTabs.label "Alle Tabs neu laden">
+<!ENTITY reloadAllTabs.accesskey "a">
+<!ENTITY reloadTab.label "Tab neu laden">
+<!ENTITY reloadTab.accesskey "n">
+<!ENTITY bookmarkGroup.label "Lesezeichen für diese Gruppe von Tabs hinzufügen">
+<!ENTITY bookmarkGroup.accesskey "G">
+<!ENTITY newTabButton.tooltip "Neues Tab öffnen">

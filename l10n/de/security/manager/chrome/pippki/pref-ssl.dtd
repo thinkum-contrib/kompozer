@@ -1,0 +1,27 @@
+<!ENTITY SSLClientAuthMethod.caption "Client-Zertifikatswahl">
+<!ENTITY SSLProtocolVersions.caption "SSL-Protokoll-Versionen">
+<!ENTITY SSLWarnings.caption "SSL-Warnungen">
+<!ENTITY certselect.ask "Jedes Mal fragen">
+<!ENTITY certselect.auto "Automatisch wählen">
+<!ENTITY certselect.description "Bestimmen Sie, wie &brandShortName; ein Sicherheitszertifikat auswählt, das Websites vorgezeigt wird, die ein solches verlangen:">
+<!ENTITY enable.ssl3 "SSL Version 3 aktivieren">
+<!ENTITY enable.tls "TLS aktivieren">
+<!ENTITY pref.ssl.title "Secure Sockets Layer (SSL)">
+<!ENTITY warn.description "&brandShortName; kann Sie über den Sicherheitsstatus von Webseiten, die Sie anzeigen, informieren. Anzeigen einer Warnung und Frage um Erlaubnis aktivieren vor:">
+<!ENTITY warn.enteringsecure "Laden einer Seite, die Verschlüsselung unterstützt">
+<!ENTITY warn.enteringweak "Laden einer Seite, die Verschlüsselung auf niedriger Stufe verwendet">
+<!ENTITY warn.insecurepost "Senden von Formulardaten von einer unverschlüsselten Seite an eine unverschlüsselte Seite">
+<!ENTITY warn.leavingsecure "Verlassen einer Seite, die Verschlüsselung unterstützt">
+<!ENTITY warn.secureredirect "Umleitung von einer verschlüsselten Seite auf eine andere verschlüsselte Seite">
+<!ENTITY warn.secureredirecttoinsecure "Umleitung von einer verschlüsselten Seite auf eine unverschlüsselte Seite">
+<!ENTITY warn.viewmixed "Anzeigen einer Seite mit einer Mischung von sicheren und unsicheren Inhalten">
+
+<!ENTITY enable.ssl3.accesskey              "3">                                
+<!ENTITY enable.tls.accesskey               "T">                                
+<!ENTITY warn.enteringsecure.accesskey      "L">                                
+<!ENTITY warn.enteringweak.accesskey        "d">                                
+<!ENTITY warn.insecurepost.accesskey        "S">                                
+<!ENTITY warn.leavingsecure.accesskey       "V">                                
+<!ENTITY warn.viewmixed.accesskey           "A">                                
+<!ENTITY certselect.auto.accesskey          "u">                                
+<!ENTITY certselect.ask.accesskey           "J">

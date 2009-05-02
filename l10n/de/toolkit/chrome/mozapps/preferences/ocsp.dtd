@@ -1,0 +1,10 @@
+<!ENTITY certOCSP.label "OCSP nur zur Validierung von Zertifikaten verwenden, die eine OCSP-Service-URL angeben">
+<!ENTITY disableOCSP.label "OCSP nicht für Zertifikatsvalidierung verwenden">
+<!ENTITY ocspDialog.title "Verifizierung">
+<!ENTITY proxyOCSP.label "OCSP zur Validierung aller Zertifikate unter Verwendung folgender URL und Unterzeichner verwenden:">
+<!ENTITY serviceURL.accesskey "S">
+<!ENTITY serviceURL.label "Service-URL:">
+<!ENTITY signingCA.accesskey "A">
+<!ENTITY signingCA.label "Antwort-Unterzeichner:">
+<!ENTITY validation.ocsp.description "&brandShortName; kann das Online Certificate Status Protocol (OCSP) zum Verifizieren von Zertifikaten verwenden. OCSP wie folgt verwenden:">
+<!ENTITY window.width "50em">

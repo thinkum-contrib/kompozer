@@ -1,0 +1,42 @@
+<!ENTITY  lHeader                   "Seiteneinstellungen">
+<!ENTITY  rHeader                   "Standards für neue Seiten">
+
+<!ENTITY  authorName.label          "Autor:">
+<!ENTITY  authorName.accesskey      "u">
+<!ENTITY  pageColorHeader           "Standard-Seitenerscheinung">
+
+<!ENTITY defaultColorsRadio.label   "Standardfarben des Lesers (Keine Farben in Seite setzen)">
+<!ENTITY defaultColors.accesskey    "s">
+<!ENTITY customColorsRadio.label    "Eigene Farben verwenden:">
+<!ENTITY customColors.accesskey     "e">
+
+<!ENTITY normalText.label           "Normaler Text">
+<!ENTITY normalText.accesskey       "N">
+<!ENTITY linkText.label             "Link-Text">
+<!ENTITY linkText.accesskey         "L">
+<!ENTITY activeLinkText.label       "Aktiver Link">
+<!ENTITY activeLinkText.accesskey   "A">
+<!ENTITY visitedLinkText.label      "Besuchter Link">
+<!ENTITY visitedLinkText.accesskey  "B">
+<!ENTITY background.label           "Hintergrund:">
+<!ENTITY background.accesskey       "H">
+<!ENTITY colon.character            ":">
+
+<!ENTITY backgroundImage.label      "Hintergrundbild:">
+<!ENTITY backgroundImage.accesskey  "g">
+<!ENTITY chooseFile.label           "Durchsuchen...">
+<!ENTITY chooseFile.accesskey       "d">
+
+<!ENTITY i18nHeader                  "Ländereinstellungen">
+
+<!ENTITY writingDirection.label      "Schreibrichtung:">
+<!ENTITY defaultDirectionRadio.label "Keine Richtung angegeben">
+<!ENTITY ltrDirectionRadio.label     "Links nach rechts">
+<!ENTITY rtlDirectionRadio.label     "Rechts nach links">
+
+<!ENTITY language.label              "Sprache:">
+<!ENTITY languageChoiceButton.label  "Sprache wählen">
+
+<!ENTITY defaultCharset.label        "Zeichensatz:">
+<!ENTITY chooseCharsetButton.label   "Zeichensatz wählen">
+

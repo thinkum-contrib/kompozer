@@ -1,0 +1,33 @@
+<!ENTITY boolean.accesskey "B">
+<!ENTITY boolean.label "Boolean">
+<!ENTITY columnChooser.tooltip "Klicken Sie, um die anzuzeigenden Spalten auszuwählen">
+<!ENTITY copyName.accesskey "k">
+<!ENTITY copyName.label "Namen kopieren">
+<!ENTITY copyValue.accesskey "W">
+<!ENTITY copyValue.label "Wert kopieren">
+<!ENTITY filterPrefs.accesskey "I">
+<!ENTITY filterPrefs.label "Filter:">
+<!ENTITY integer.accesskey "I">
+<!ENTITY integer.label "Integer">
+<!ENTITY lock.accesskey "p">
+<!ENTITY lock.label "Sperren">
+<!ENTITY lockColumn.label "Status">
+<!ENTITY modify.accesskey "e">
+<!ENTITY modify.label "Bearbeiten">
+<!ENTITY new.accesskey "N">
+<!ENTITY new.label "Neu">
+<!ENTITY prefColumn.label "Einstellungsname">
+<!ENTITY prefColumnHeader.tooltip "Klicken zum Sortieren">
+<!ENTITY reset.accesskey "r">
+<!ENTITY reset.label "Zurücksetzen">
+<!ENTITY showAll.accesskey "l">
+<!ENTITY showAll.label "Alles anzeigen">
+<!ENTITY string.accesskey "S">
+<!ENTITY string.label "String">
+<!ENTITY toggle.accesskey "U">
+<!ENTITY toggle.label "Umschalten">
+<!ENTITY typeColumn.label "Typ">
+<!ENTITY unlock.accesskey "p">
+<!ENTITY unlock.label "Entsperren">
+<!ENTITY valueColumn.label "Wert">
+<!ENTITY window.title "about:config">

@@ -1,0 +1,22 @@
+<!ENTITY changepassword.accesskey "M">
+<!ENTITY changepassword.button "Passwort ändern...">
+<!ENTITY changepassword.caption "Master-Passwort ändern">
+<!ENTITY changepassword.text "Ihr Master-Passwort schützt sensible Informationen wie Passwörter und Zertifikate.">
+<!ENTITY pref.masterpass.title "Master-Passwörter">
+<!ENTITY managepassword.askeverytime "Jedes Mal, wenn es gebraucht wird">
+<!ENTITY managepassword.askfirsttime "Das erste Mal, wenn es gebraucht wird">
+<!ENTITY managepassword.asktimeout "Wenn es für">
+<!ENTITY managepassword.caption "Master-Passwort-Gültigkeitsdauer">
+<!ENTITY managepassword.text "&brandShortName; fragt nach Ihrem Master-Passwort:">
+<!ENTITY managepassword.timeout.unit "Minuten oder länger nicht gebraucht wurde">
+<!ENTITY resetpassword.accesskey "z">
+<!ENTITY resetpassword.button "Passwort zurücksetzen">
+<!ENTITY resetpassword.caption "Master-Passwort zurücksetzen">
+<!ENTITY resetpassword.text "Wenn Sie Ihr Master-Passwort zurücksetzen, gehen alle Ihre gespeicherten Passwörter, persönlichen Zertifikate und privaten Schlüssel verloren. Sind Sie sicher, dass Sie Ihr Master-Passwort zurücksetzen möchten?">
+
+<!ENTITY managepassword.askfirsttime.accesskey  "D">
+<!ENTITY managepassword.askeverytime.accesskey  "J">
+<!ENTITY managepassword.asktimeout.accesskey    "W">
+
+<!ENTITY encryptExpire.label                    "Jedes Mal nach Master-Passwort fragen">
+<!ENTITY encryptExpire.accesskey                "e">

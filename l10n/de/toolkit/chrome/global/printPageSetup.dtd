@@ -1,0 +1,43 @@
+<!ENTITY advanced.tab "Ränder &amp; Kopf-/Fußzeilen">
+<!ENTITY basic.tab "Format &amp; Optionen">
+<!ENTITY customPrompt.prompt "Geben Sie Ihren benutzerdefinierten Kopf-/Fußzeilentext an">
+<!ENTITY customPrompt.title "Benutzerdefiniert...">
+<!ENTITY footerCenter.tip "Fußzeile mittig">
+<!ENTITY footerLeft.tip "Fußzeile links">
+<!ENTITY footerRight.tip "Fußzeile rechts">
+<!ENTITY formatGroup.label "Format">
+<!ENTITY headerCenter.tip "Kopfzeile mittig">
+<!ENTITY headerFooter.label "Kopf- &amp; Fußzeilen">
+<!ENTITY headerLeft.tip "Kopfzeile links">
+<!ENTITY headerRight.tip "Kopfzeile rechts">
+<!ENTITY hfBlank "--leer--">
+<!ENTITY hfCenter.label "Mitte:">
+<!ENTITY hfCustom "Benutzerdefiniert...">
+<!ENTITY hfDateAndTime "Datum/Uhrzeit">
+<!ENTITY hfDateAndTime.code "&amp;D">
+<!ENTITY hfLeft.label "Links:">
+<!ENTITY hfPage "Seite #">
+<!ENTITY hfPage.code "[&amp;P]">
+<!ENTITY hfPageAndTotal "Seite # von #">
+<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfRight.label "Rechts:">
+<!ENTITY hfTitle "Titel">
+<!ENTITY hfTitle.code "[&amp;T]">
+<!ENTITY hfURL "URL">
+<!ENTITY hfURL.code "[&amp;U]">
+<!ENTITY landscape "Querformat">
+<!ENTITY marginBottom.label "Unten:">
+<!ENTITY marginGroup.label "Ränder (#1)">
+<!ENTITY marginLeft.label "Links:">
+<!ENTITY marginRight.label "Rechts:">
+<!ENTITY marginTop.label "Oben:">
+<!ENTITY marginUnits.inches "Zoll">
+<!ENTITY marginUnits.metric "Millimeter">
+<!ENTITY optionsGroup.label "Optionen">
+<!ENTITY orientation.label "Ausrichtung:">
+<!ENTITY portrait "Hochformat">
+<!ENTITY printBG.label "Hintergrund drucken (Farben und Bilder)">
+<!ENTITY printSetup.title "Seite einrichten">
+<!ENTITY scale.label "Skalierung:">
+<!ENTITY scalePercent "&#037;">
+<!ENTITY shrinkToFit.label "Auf Seitengröße verkleinern">

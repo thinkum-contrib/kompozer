@@ -1,0 +1,727 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Sammy Ford
+   -    Blake Ross
+   -    Ryan Cassin (rcassin@supernova.org)
+   -    Daniel Glazman (glazman@netscape.com)
+   -    Stephen Donner (technutz@netscape.net)
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Lindows.com
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
+
+<!-- File menu items -->
+<!ENTITY fileMenu.label "Datei">
+<!ENTITY filemenu.accesskey "d">
+<!ENTITY newBlankPageCmd.label "Seite in neuem Fenster">
+<!ENTITY newBlankPage.accesskey "F" >
+<!ENTITY newOtherCmd.label "Erweitert...">
+
+<!ENTITY newMenu.label             "Neu...">
+<!ENTITY newTab.label              "Seite in neuem Tab">
+<!ENTITY openFileCmd.label         "Datei öffnen...">
+<!ENTITY fileopen.accesskey        "ö">
+<!ENTITY fileopen.keybinding       "o">
+<!ENTITY openremoteCmd.label       "Webadresse öffnen...">
+<!ENTITY fileopenremote.accesskey  "f">
+<!ENTITY fileopenremote.keybinding "f">
+<!ENTITY fileRecentMenu.label      "Letzte geladene Seiten">
+<!ENTITY filerecentmenu.accesskey  "g">
+<!ENTITY fileRevert.label          "Zurück">
+<!ENTITY filerevert.accesskey      "Z">
+<!ENTITY refreshImages.label       "Grafiken neu laden">
+<!ENTITY refreshImages.accesskey   "l">
+<!ENTITY filerevert.keybinding     "r">
+<!ENTITY saveCmd.label             "Speichern">
+<!ENTITY filesave.accesskey        "s">
+<!ENTITY filesave.keybinding       "s">
+<!ENTITY saveAsCmd.label           "Speichern unter...">
+<!ENTITY filesaveas.accesskey      "u">
+
+<!ENTITY publishCmd.label "Publizieren...">
+<!ENTITY publishcmd.accesskey "b">
+<!ENTITY publishAsCmd.label "Publizieren als...">
+<!ENTITY publishas.accesskey "z">
+<!ENTITY exportToTextCmd.label "Als Text exportieren...">
+<!ENTITY fileexporttotext.accesskey "X">
+<!ENTITY saveAsChangeEncodingCmd.label "Ändern der Zeichenkodierung und speichern">
+<!ENTITY filesaveandchangeencoding.accesskey "K">
+<!ENTITY previewCmd.label "Vorschau">
+<!ENTITY filepreview.accesskey "V">
+<!ENTITY filepreview.keybinding "VK_F5">
+<!ENTITY sendPageCmd.label "Seite senden...">
+<!ENTITY sendPage.accesskey "s">
+<!ENTITY printSetupCmd.label "Seite einrichten...">
+<!ENTITY fileprintsetup.accesskey "t">
+<!ENTITY printPreviewCmd.label "Druckvorschau">
+<!ENTITY fileprintpreview.accesskey "r">
+<!ENTITY printCmd.label "Drucken...">
+<!ENTITY printButtonCmd.label "Drucken...">
+<!ENTITY fileprint.accesskey "D">
+<!ENTITY fileprint.keybinding "p">
+<!ENTITY closeCmd.label "Schließen">
+<!ENTITY closeAllCmd.label "Alle schließen">
+<!ENTITY fileclose.accesskey "c">
+<!ENTITY fileclose.keybinding "w">
+<!ENTITY exitCmd.label "Beenden">
+<!ENTITY fileexit.accesskey "B">
+<!ENTITY fileexit.keybinding "q">
+
+<!-- Edit menu items -->
+<!ENTITY editMenu.label "Bearbeiten">
+<!ENTITY editmenu.accesskey "B">
+<!ENTITY pasteNoFormatting.label "Einfügen ohne Formatierung">
+<!ENTITY pasteNoFormatting.accesskey "m">
+<!ENTITY pasteAs.label "Einfügen als">
+<!ENTITY pasteAs.accesskey "a">
+<!ENTITY publishSettings.label "Publizierungseinstellungen...">
+<!ENTITY publishSettings.accesskey "b">
+<!ENTITY detachFromTemplate.label "Von der Vorlage trennen">
+
+<!-- For a "Paste" submenu when more than 1 
+     clipboard formats are available -->
+<!ENTITY pasteHTMLCmd.label "HTML">
+<!ENTITY pasteHTML.accesskey "h">
+<!ENTITY pasteTextCmd.label "Text">
+<!ENTITY pasteText.accesskey "t">
+<!ENTITY pasteImageCmd.label "Grafik">
+<!ENTITY pasteImage.accesskey "i">
+<!ENTITY pasteRowsCmd.label "Reihen">
+<!ENTITY pasteRows.accesskey "r">
+<!ENTITY pasteColumnsCmd.label "Spalten">
+<!ENTITY pasteColumns.accesskey "p">
+<!-- LOCALIZATION NOTE: Text for menu item is in editor.properties
+     Set to: "Table" or "Nested Table" depending on context 
+     This accesskey must be in both strings -->
+<!ENTITY pasteTable.accesskey "a">
+<!ENTITY pasteLinkCmd.label "Link">
+<!ENTITY editpastelink.accesskey "l">
+<!ENTITY pasteAsQuotationCmd.label "Als Zitat einfügen">
+<!ENTITY editpastequotation.accesskey "z">
+<!ENTITY editpastequotation.keybinding "v">
+<!ENTITY editStripQuotesCmd.label "Zitat-Ausschnitt">
+<!ENTITY editRewrapCmd.label "Neu umbrechen">
+<!ENTITY findCmd.label "Suchen und ersetzen...">
+<!ENTITY editfind.accesskey "s">
+<!ENTITY editfind.keybinding "f">
+<!ENTITY editfind.keybinding2 "VK_F19">                                         
+<!ENTITY findAgainCmd.label "Weitersuchen">
+<!ENTITY editfindnext.accesskey "w">
+<!ENTITY editfindnext.keybinding "g">
+<!ENTITY editfindnext.keybinding2 "VK_F3">
+<!ENTITY findPrevCmd.label "Vorherige suchen">
+<!ENTITY editfindprev.accesskey "v">
+<!ENTITY editfindprev.keybinding "g">
+<!ENTITY editfindprev.keybinding2 "VK_F3">
+<!ENTITY checkSpellingCmd.label "Rechtschreibprüfung">
+<!ENTITY validateCmd.label "Quelltext überprüfen">
+<!ENTITY validate.accesskey "ü">
+<!ENTITY checkLinksCmd.label "Links überprüfen">
+<!ENTITY editcheckspelling.accesskey "s">
+<!ENTITY editcheckspelling.keybinding "k">
+<!ENTITY markupCleanerCmd.label "Quelltext säubern">
+<!ENTITY markupcleaner.accesskey "s">
+
+<!-- View menu items -->
+<!ENTITY viewToolbarsMenu.label "Anzeigen/verstecken"> 
+<!ENTITY viewToolbarsMenu.accesskey "z"> 
+<!ENTITY compositionToolbarCmd.label "Bearbeitungssymbolleiste">
+<!ENTITY compositiontb.accesskey "b">
+<!ENTITY formattingToolbarCmd.label "Format-Symbolleiste">
+<!ENTITY formattingtb.accesskey "f">
+<!ENTITY editmodeToolbarCmd.label "Editiermodus-Symbolleiste">
+<!ENTITY editmodetb.accesskey "E">
+<!ENTITY taskbarCmd.label "Statuszeile">  
+<!ENTITY taskbarCmd.accesskey "S"> 
+<!ENTITY viewPageSource.label "Quelltext anzeigen">
+<!ENTITY viewpagesource.accesskey "q">
+<!ENTITY viewParagraphMarks.label "Absatzmarken">
+<!ENTITY viewparagraphmarks.accesskey "A">
+<!ENTITY blockOutlines.label "Bereichskonturen">
+<!ENTITY blockoutlines.accesskey "B">
+<!ENTITY viewRulersCmd.label "Lineale">
+<!ENTITY viewrulerscmd.accesskey "l">
+
+<!-- Insert menu items -->
+<!ENTITY insertMenu.label "Einfügen">
+<!ENTITY insertmenu.accesskey "e">
+<!ENTITY insertLinkCmd.label "Link...">
+<!ENTITY insertlink.accesskey "l">
+<!ENTITY insertlink.keybinding "l">
+<!ENTITY insertAnchorCmd.label "Benanntes Ziel...">
+<!ENTITY insertanchor.accesskey "Z">
+<!ENTITY insertImageCmd.label "Grafik...">
+<!ENTITY insertimage.accesskey "g">
+<!ENTITY insertImageMapCmd.label "Image Map...">
+<!ENTITY insertHLineCmd.label "Horizontale Linie">
+<!ENTITY inserthline.accesskey "o">
+<!ENTITY insertTableCmd.label "Tabelle...">
+<!ENTITY inserttable.accesskey "t">
+<!ENTITY insertFormMenu.label "Formular...">
+<!ENTITY insertformmenu.accesskey "F">
+<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.accesskey "h">
+<!ENTITY insertCharsCmd.label "Schriftzeichen und Symbole...">
+<!ENTITY insertchars.accesskey "C">
+<!ENTITY insertBreakCmd.label "Zeilenvorschub">
+<!ENTITY insertbreak.accesskey "v">
+<!ENTITY insertBreakAllCmd.label "Neue Zeile unter Grafik(en)">
+<!ENTITY insertbreakall.accesskey "k">
+
+<!ENTITY insertNbspCmd.label "Nicht umbrechbare Leerräume...">
+<!ENTITY insertNbsp.accesskey "n">
+
+<!ENTITY insertPHPCode.label "PHP Code">
+<!ENTITY insertphpcode.accesskey "p">
+<!ENTITY insertComment.label "Kommentar">
+<!ENTITY insertcomment.accesskey "m">
+
+<!-- Insert form menu items -->
+<!ENTITY insertFormCmd.label "Formular definieren...">
+<!ENTITY insertform.accesskey "F">
+<!ENTITY insertInputTagCmd.label "Formularfeld...">
+<!ENTITY insertinputtag.accesskey "e">
+<!ENTITY insertInputImageCmd.label "Formulargrafik...">
+<!ENTITY insertinputimage.accesskey "I">
+<!ENTITY insertTextAreaCmd.label "Textfeld...">
+<!ENTITY inserttextarea.accesskey "T">
+<!ENTITY insertSelectCmd.label "Auswahlliste...">
+<!ENTITY insertselect.accesskey "S">
+<!ENTITY insertButtonCmd.label "Schaltfläche definieren...">
+<!ENTITY insertbutton.accesskey "S">
+<!ENTITY insertLabelCmd.label "Beschreibung definieren">
+<!ENTITY insertlabel.accesskey "B">
+<!ENTITY insertFieldSetCmd.label "Felderbereich definieren...">
+<!ENTITY insertfieldset.accesskey "F">
+<!ENTITY insertIsIndexCmd.label "Indexsuche">
+<!ENTITY insertisindex.accesskey "x">
+
+<!-- Used just in context popup. -->
+<!ENTITY createLinkCmd.label "Link erstellen...">
+<!ENTITY createlink.accesskey "k">
+<!ENTITY editLinkCmd.label "Link in neuem Fenster bearbeiten">
+<!ENTITY editlink.accesskey "i">
+<!-- (Toplevel Edit menu uses utilityOverlay) -->
+<!ENTITY undoCmd.label "Rückgängig">
+<!ENTITY undo.accesskey "r">
+<!ENTITY redoCmd.label "Wiederherstellen">
+<!ENTITY redo.accesskey "w">
+<!ENTITY cutCmd.label "Ausschneiden">
+<!ENTITY cut.accesskey "a">
+<!ENTITY copyCmd.label "Kopieren">
+<!ENTITY copy.accesskey "k">
+<!ENTITY pasteCmd.label "Einfügen">
+<!ENTITY paste.accesskey "e">
+<!ENTITY deleteCmd.label "Löschen">
+<!ENTITY delete.accesskey "l">
+<!ENTITY clearCmd.label "Löschen">
+<!ENTITY clear.accesskey "e">
+<!ENTITY selectAllCmd.label "Alles markieren">
+<!ENTITY selectall.accesskey "m">
+
+<!-- Font Face SubMenu -->
+<!ENTITY FontFaceSelect.tooltip "Schriftart wählen">
+<!ENTITY fontfaceMenu.label "Schriftart">
+<!ENTITY formatfontmenu.accesskey "s">
+<!ENTITY fontVarWidth.label "Variable Breite">
+<!ENTITY fontvarwidth.accesskey "v">
+<!ENTITY fontFixedWidth.label "Feste Breite">
+<!ENTITY fontfixedwidth.accesskey "f">
+<!ENTITY formatfontfixed.keybinding "t">
+<!ENTITY fontHelveticaFont.label "Helvetica, Arial">
+<!ENTITY fonthelvetica.accesskey "l">
+<!ENTITY fontTimes.label "Times">
+<!ENTITY fonttimes.accesskey "t">
+<!ENTITY fontCourier.label "Courier">
+<!ENTITY fontcourier.accesskey "c">
+<!ENTITY localfontfaceMenu.label "Lokale Schriftarten Fonts">
+<!ENTITY localfontmenu.accesskey "l">
+
+<!-- Font Size SubMenu -->
+<!ENTITY FontSizeSelect.tooltip "Schriftgröße wählen">
+<!ENTITY decreaseFontSize.label "Kleiner">
+<!ENTITY decreasefontsize.accesskey "k">
+<!ENTITY decreaseFontSize.keybinding "-">
+<!ENTITY increaseFontSize.label "Größer">
+<!ENTITY increasefontsize.accesskey "g">
+<!ENTITY increaseFontSize.keybinding "+">
+<!ENTITY increaseFontSize.keybinding2 "="> <!-- + is above this key on many keyboards -->
+
+<!ENTITY fontsizeMenu.label "Schriftgrad">
+<!ENTITY formatsizemenu.accesskey "r">
+<!ENTITY size-xx-smallCmd.label "noch kleiner">
+<!ENTITY size-xx-small.accesskey "n">
+<!ENTITY size-x-smallCmd.label "kleiner">
+<!ENTITY size-x-small.accesskey "l">
+<!ENTITY size-smallCmd.label "klein">
+<!ENTITY size-small.accesskey "k">
+<!ENTITY size-mediumCmd.label "mittel">
+<!ENTITY size-medium.accesskey "m">
+<!ENTITY size-largeCmd.label "gross">
+<!ENTITY size-large.accesskey "g">
+<!ENTITY size-x-largeCmd.label "grösser">
+<!ENTITY size-x-large.accesskey "r">
+<!ENTITY size-xx-largeCmd.label "noch grösser">
+<!ENTITY size-xx-large.accesskey "o">
+
+<!-- Font Style SubMenu -->
+<!ENTITY fontStyleMenu.label "Schriftschnitt">
+<!ENTITY formatstylemenu.accesskey "s">
+<!ENTITY styleBoldCmd.label "Fett">
+<!ENTITY stylebold.accesskey "f">
+<!ENTITY stylebold.keybinding "b">
+<!ENTITY styleItalicCmd.label "Kursiv">
+<!ENTITY styleitalic.accesskey "K">
+<!ENTITY styleitalic.keybinding "i">
+<!ENTITY styleUnderlineCmd.label "Unterstrichen">
+<!ENTITY styleunderline.accesskey "u">
+<!ENTITY styleunderline.keybinding "u">
+<!ENTITY styleStrikeThruCmd.label "Durchgestrichen">
+<!ENTITY stylestrikethru.accesskey "d">
+<!ENTITY styleSuperscriptCmd.label "Hochgestellt">
+<!ENTITY stylesuperscript.accesskey "h">
+<!ENTITY styleSubscriptCmd.label "Tiefgestellt">
+<!ENTITY stylesubscript.accesskey "t">
+<!ENTITY styleNonbreakingCmd.label "Ohne Umbruch">
+<!ENTITY stylenonbreaking.accesskey "O">
+<!ENTITY styleEm.label "Hervorgehoben">
+<!ENTITY styleEm.accesskey "e">
+<!ENTITY styleStrong.label "Stark hervorgehoben">
+<!ENTITY styleStrong.accesskey "S">
+<!ENTITY styleCite.label "Zitat">
+<!ENTITY styleCite.accesskey "Z">
+<!ENTITY styleAbbr.label "Abkürzung">
+<!ENTITY styleAbbr.accesskey "A">
+<!ENTITY styleAcronym.label "Akronym">
+<!ENTITY styleAcronym.accesskey "r">
+<!ENTITY styleCode.label "Code">
+<!ENTITY styleCode.accesskey "o">
+<!ENTITY styleSamp.label "Beispielausgabe">
+<!ENTITY styleSamp.accesskey "b">
+<!ENTITY styleVar.label "Variable">
+<!ENTITY styleVar.accesskey "v">
+
+<!ENTITY formatFontColor.label "Textfarbe...">
+<!ENTITY formatfontcolor.accesskey "f">
+<!ENTITY tableOrCellColor.label "Tabellen- oder Zellen-Hintergrundfarbe...">
+<!ENTITY tableOrCellColor.accesskey "B">
+
+<!ENTITY formatremovestyles.keybinding "y">
+<!ENTITY formatremovelinks.keybinding "k">
+<!ENTITY formatRemoveNamedAnchors.label "Benannte Ziele entfernen">
+<!ENTITY formatRemoveNamedAnchors.accesskey "t">
+<!ENTITY formatremovenamedanchors.keybinding "a">
+
+<!ENTITY formatindent.keybinding "]">
+<!ENTITY formatoutdent.keybinding "[">
+<!ENTITY paragraphMenu.label "Absatz">
+<!ENTITY formatparagraphmenu.accesskey "b">
+<!ENTITY paragraphParagraphCmd.label "Absatz">  
+<!ENTITY paragraphparagraph.accesskey "A">
+<!ENTITY heading1Cmd.label "Überschrift 1">
+<!ENTITY heading1.accesskey "1">
+<!ENTITY heading2Cmd.label "Überschrift 2">
+<!ENTITY heading2.accesskey "2">
+<!ENTITY heading3Cmd.label "Überschrift 3">
+<!ENTITY heading3.accesskey "3">
+<!ENTITY heading4Cmd.label "Überschrift 4">
+<!ENTITY heading4.accesskey "4">
+<!ENTITY heading5Cmd.label "Überschrift 5">
+<!ENTITY heading5.accesskey "5">
+<!ENTITY heading6Cmd.label "Überschrift 6">
+<!ENTITY heading6.accesskey "6">
+<!ENTITY paragraphAddressCmd.label "Adresse">
+<!ENTITY paragraphaddress.accesskey "a">
+<!ENTITY paragraphPreformatCmd.label "Vorformatiert">
+<!ENTITY paragraphpreformat.accesskey "f">
+<!ENTITY paragraphBlockquoteCmd.label "Block-Zitat">
+<!ENTITY paragraphblockquote.accesskey "b">
+
+<!ENTITY genericContainerCmd.label "Generic container (div)">
+<!ENTITY genericcontainer.accesskey "d">
+
+<!ENTITY applyClassToSelectionCmd.tooltip "Zuweisen einer Klasse zur Auswahl">
+<!ENTITY noClass.label "(keine Klasse)">
+
+<!-- List menu items -->
+<!ENTITY formatlistMenu.label "Liste">
+<!ENTITY formatlistmenu.accesskey "l">
+<!ENTITY noneCmd.label "Keine">
+<!ENTITY none.accesskey "N">
+<!ENTITY listBulletCmd.label "Ungeordnet">
+<!ENTITY listbullet.accesskey "u">
+<!ENTITY listNumberedCmd.label "Nummeriert">
+<!ENTITY listnumbered.accesskey "n">
+<!ENTITY listTermCmd.label "Ausdruck">
+<!ENTITY listterm.accesskey "k">
+<!ENTITY listDefinitionCmd.label "Definition">
+<!ENTITY listdefinition.accesskey "d">
+<!ENTITY listProps.label "Listeneigenschaften...">
+<!ENTITY listprops.accesskey "l">
+
+<!ENTITY ParagraphSelect.tooltip "Absatzformat auswählen">
+<!-- Shared in Paragraph, and Toolbar menulist -->
+<!ENTITY bodyTextCmd.label "Normaler Text">
+<!ENTITY bodytext.accesskey "T">
+<!-- isn't used in menu now, but may be added in future -->
+<!ENTITY advancedPropertiesCmd.label "Erweiterte Einstellungen">
+<!ENTITY advancedproperties.accesskey "E">
+
+<!ENTITY NormalAbbr.label "Text">
+<!ENTITY ParagraphAbbr.label "P">  
+<!ENTITY Heading1Abbr.label "H1">
+<!ENTITY Heading2Abbr.label "H2">
+<!ENTITY Heading3Abbr.label "H3">
+<!ENTITY Heading4Abbr.label "H4">
+<!ENTITY Heading5Abbr.label "H5">
+<!ENTITY Heading6Abbr.label "H6">
+<!ENTITY BlockquoteAbbr.label "BQ">
+<!ENTITY AddressAbbr.label "Addr.">
+<!ENTITY PreformatAbbr.label "Pre.">
+
+<!-- Style Sheet submenu NOT IMPLEMENTED -->
+<!ENTITY stylesheetMenu.label "Style Sheet anwenden">
+<!ENTITY formatstylesheetmenu.accesskey "y">
+
+<!-- Align menu items -->
+<!ENTITY alignMenu.label "Ausrichtung">
+<!ENTITY formatalignmenu.accesskey "a">
+<!ENTITY alignLeft.label "Links">
+<!ENTITY alignleft.accesskey "l">
+<!ENTITY alignLeft.tooltip "Links ausrichten">
+<!ENTITY alignCenter.label "Zentriert">
+<!ENTITY aligncenter.accesskey "z">
+<!ENTITY alignCenter.tooltip "Zentrieren">
+<!ENTITY alignRight.label "Rechts">
+<!ENTITY alignright.accesskey "r">
+<!ENTITY alignRight.tooltip "Rechts ausrichten">
+<!ENTITY alignJustify.label "Blocksatz">
+<!ENTITY alignjustify.accesskey "b">
+<!ENTITY alignJustify.tooltip "Im Blocksatz ausrichten">
+
+<!-- Layer toolbar items -->
+<!ENTITY layer.tooltip "Layer">
+<!ENTITY layerSendToBack.tooltip "Nach hinten stellen">
+<!ENTITY layerBringToFront.tooltip "Nach vorne bringen">
+
+<!ENTITY increaseIndent.label "Einzug vergrößern">
+<!ENTITY increaseindent.accesskey "g">
+<!ENTITY increaseindentkb "=">
+<!ENTITY decreaseIndent.label "Einzug verkleinern">
+<!ENTITY decreaseindent.accesskey "K">
+<!ENTITY decreaseindentkb "-">
+
+<!ENTITY blockBorders.tooltip "Ränder">
+
+<!ENTITY grid.label "Positionierungsgitter">
+<!ENTITY grid.accesskey "g">
+
+<!ENTITY pageProperties.label "Seitentitel und -einstellungen...">
+<!ENTITY pageproperties.accesskey "e">
+<!ENTITY colorsAndBackground.label "Seitenfarben und -hintergrund...">
+<!ENTITY colorsandbackground.accesskey "s">
+
+<!-- Table Menu -->
+<!ENTITY tableMenu.label "Tabelle">
+<!ENTITY tablemenu.accesskey "b">
+<!-- Select Submenu -->
+<!ENTITY tableSelectMenu.label "Auswählen">
+<!ENTITY tableselectmenu.accesskey "a">
+
+<!ENTITY tableSelectMenu2.label "Tabelle auswählen">
+<!ENTITY tableInsertMenu2.label "Tabelle einfügen">
+<!ENTITY tableDeleteMenu2.label "Tabelle löschen">
+
+<!-- Insert SubMenu -->
+<!ENTITY tableInsertMenu.label "Einfügen">
+<!ENTITY tableinsertmenu.accesskey "e">
+<!ENTITY tableTable.label "Tabelle">
+<!ENTITY tabletable.accesskey "t">
+<!ENTITY tableRow.label "Reihe">
+<!ENTITY tableRows.label "Reihe(n)">
+<!ENTITY tablerow.accesskey "r">
+<!ENTITY tableRowAbove.label "Reihe über">
+<!-- uses tablerow.accesskey -->
+<!ENTITY tableRowBelow.label "Reihe unter">
+<!ENTITY tablerowbelow.accesskey "u">
+<!ENTITY tableColumn.label "Spalte">
+<!ENTITY tableColumns.label "Spalte(n)">
+<!ENTITY tablecolumn.accesskey "p">
+<!ENTITY tableColumnBefore.label "Spalte vor">
+<!-- uses tablecolumn.accesskey -->
+<!ENTITY tableColumnAfter.label "Spalte nach">
+<!ENTITY tablecolumnafter.accesskey "n">
+<!ENTITY tableCell.label "Zelle">
+<!ENTITY tableCells.label "Zelle(n)">
+<!ENTITY tablecell.accesskey "z">
+<!ENTITY tableCellContents.label "Zelleninhalt">
+<!ENTITY tablecellcontents.accesskey "n">
+<!ENTITY tableAllCells.label "Alle Zellen">
+<!ENTITY tableCellBefore.label "Zelle vor">
+<!ENTITY tableallcells.accesskey "a">
+<!-- uses tablecell.accesskey -->
+<!ENTITY tableCellAfter.label "Zelle nach">
+<!ENTITY tablecellafter.accesskey "n">
+<!-- Delete SubMenu -->
+<!ENTITY tableDeleteMenu.label "Löschen">
+<!ENTITY tabledeletemenu.accesskey "L">
+
+<!ENTITY tableFix.label "Tabellenlayout ausbessern">
+<!ENTITY tablefix.accesskey "b">
+<!-- text for "Join Cells" is in editor.properties 
+     ("JoinSelectedCells" and "JoinCellToRight")
+     the access key must exist in both of those strings
+     But value must be set here for accesskey to draw properly
+-->
+<!ENTITY tableJoinCells.label "j">
+<!ENTITY tablejoincells.accesskey "j">
+<!ENTITY tableSplitCell.label "Zelle teilen">
+<!ENTITY tablesplitcell.accesskey "i">
+<!ENTITY convertToTable.label "Tabelle aus Auswahl erstellen">
+<!ENTITY converttotable.accesskey "r">
+<!ENTITY tableProperties.label "Tabelleneigenschaften...">
+<!ENTITY tableProperties.accesskey "t">
+
+<!-- Tools menu -->
+<!ENTITY toolsmenu.accesskey "l">
+<!ENTITY toolbrowser.accesskey "b">
+<!ENTITY toolplaineditor.accesskey "p">
+<!ENTITY toolsetfocus.accesskey "f">
+
+<!-- Debug menu items -->
+<!ENTITY debugMenu.label "Debug">
+<!ENTITY newEditorTestPage.label "Composer with Test Page">
+<!ENTITY textEditorCmd.label "Plaintext Editor">
+<!ENTITY outputTextCmd.label "Output Text">
+<!ENTITY outputHTMLCmd.label "Output HTML">
+<!ENTITY insertTextCmd.label "Insert Text">
+<!ENTITY testSelectionCmd.label "Test Selection">
+<!ENTITY testTableLayoutCmd.label "Test Table Layout">
+<!ENTITY testDocumentCmd.label "Test Document">
+<!ENTITY showEmbeddedCmd.label "Show Embedded Objects">
+<!ENTITY dumpContentCmd.label "Dump Content Tree">
+<!ENTITY runUnitTestsCmd.label "Run Unit Tests">
+<!ENTITY dumpUndoStack.label "Dump Undo Stack">
+<!ENTITY dumpRedoStack.label "Dump Redo Stack">
+<!ENTITY executeJSTransactionViaTxmgr.label "JS-Transaktion mit Transaktionsmanager ausführen">
+<!ENTITY executeJSTransactionViaEditor.label "JS-Transaktion mit Editor ausführen">
+<!ENTITY startLogCmd.label "Log starten">
+<!ENTITY stopLogCmd.label "Log stoppen">
+<!ENTITY runLogCmd.label "Run Log">
+<!ENTITY setFocusCmd.label "Fokus setzen">
+
+<!-- Toolbar-only items -->
+<!ENTITY menuBar.tooltip "Menüleiste">
+<!ENTITY compositionToolbar.tooltip "Bearbeitungssymbolleiste">
+<!ENTITY formatToolbar.tooltip "Format-Symbolleiste">
+<!ENTITY newToolbarCmd.tooltip "Neue Seite erstellen">
+<!ENTITY openToolbarCmd.label "Öffnen">
+<!ENTITY openToolbarCmd.tooltip "Lokale Datei öffnen">
+<!ENTITY saveToolbarCmd.tooltip "Datei lokal speichern">
+<!ENTITY publishToolbarCmd.tooltip "Datei publizieren">
+<!ENTITY previewToolbarCmd.label "Vorschau">
+<!ENTITY previewToolbarCmd.tooltip "Diese Seite im Browser laden">
+<!ENTITY printToolbarCmd.label "Drucken">
+<!ENTITY printToolbarCmd.tooltip "Diese Seite drucken">
+<!ENTITY findToolbarCmd.label "Suchen">
+<!ENTITY findToolbarCmd.tooltip "Zeichenkette in Seite suchen">
+<!ENTITY spellToolbarCmd.label "Rechtschreibung">
+<!ENTITY spellToolbarCmd.tooltip "Rechtschreibung von Auswahl oder ganzer Seite prüfen">
+<!ENTITY imageToolbarCmd.label "Grafik">
+<!ENTITY imageToolbarCmd.tooltip "Neue Grafik einfügen oder Eigenschaften der gewählten Grafik bearbeiten">
+<!ENTITY hruleToolbarCmd.label "Horizontale Linie">
+<!ENTITY hruleToolbarCmd.tooltip "Neue horizontale Linie einfügen oder Eigenschaften der gewählten Linie bearbeiten">
+<!ENTITY tableToolbarCmd.label "Tabelle">
+<!ENTITY tableToolbarCmd.tooltip "Neue Tabelle einfügen oder Eigenschaften der gewählten Tabelle bearbeiten">
+<!ENTITY linkToolbarCmd.label "Link">
+<!ENTITY linkToolbarCmd.tooltip "Neuen Link einfügen oder vorhandene Link-Eigenschaften ändern">
+<!ENTITY anchorToolbarCmd.label "Ziel">
+<!ENTITY anchorToolbarCmd.tooltip "Neues Ziel einfügen oder Eigenschaften des gewählten Ziels bearbeiten">
+<!ENTITY textColorCaption.label "Textfarbe">
+<!ENTITY TextColorButton.tooltip "Textfarbe auswählen">
+<!ENTITY BackgroundColorButton.tooltip "Hintergrundfarbe auswählen">
+<!ENTITY throbber.tooltip "&brandShortName;">
+<!ENTITY HighlightColorButton.tooltip "Farbe für Texthervorhebung auswählen">
+
+<!ENTITY emButton.tooltip "Hervorgehoben">
+<!ENTITY strongButton.tooltip "Stark hervorgehoben">
+
+<!ENTITY formToolbarCmd.label "Formular">
+<!ENTITY formToolbarCmd.tooltip "Neues Formular einfügen oder Eigenschaften des gewählten Forumlars bearbeiten">
+
+<!-- Editor toolbar -->
+<!ENTITY decreaseFontSizeToolbarCmd.tooltip "Kleinere Schriftgröße">
+<!ENTITY increaseFontSizeToolbarCmd.tooltip "Größere Schriftgröße">
+<!ENTITY boldToolbarCmd.tooltip "Fett">
+<!ENTITY italicToolbarCmd.tooltip "Kursiv">
+<!ENTITY underlineToolbarCmd.tooltip "Unterstrichen">
+<!ENTITY bulletListToolbarCmd.tooltip "Unsortierte Liste anwenden oder entfernen">
+<!ENTITY numberListToolbarCmd.tooltip "Nummerierte Liste anwenden oder entfernen">
+<!ENTITY outdentToolbarCmd.tooltip "Texteinzug verkleinern (nach links schieben)">
+<!ENTITY indentToolbarCmd.tooltip "Texteinzug vergrößern (nach rechts schieben)">
+<!ENTITY AlignPopupButton.tooltip "Ausrichtung des Textes auswählen">
+<!ENTITY InsertPopupButton.tooltip "Einfügen eines Links, Ziels, Grafik, horizontalen Linie oder Tabelle">
+<!ENTITY alignLeftButton.tooltip "Text am linken Rand ausrichten">
+<!ENTITY alignCenterButton.tooltip "Zentriert">
+<!ENTITY alignRightButton.tooltip "Rechts">
+<!ENTITY alignjustifyButton.tooltip "Links">
+<!ENTITY definitionTermToolbarCmd.tooltip "Definitionsaudruck">
+<!ENTITY definitionDescriptionToolbarCmd.tooltip "Definitionsbeschreibung">
+
+<!-- Formatting toolbar not used, but may be in future -->
+<!ENTITY formatToolbar.boldChar "B">
+<!ENTITY formatToolbar.italicChar "I">
+<!ENTITY formatToolbar.underlineChar "U">
+
+<!-- Used with color pickers in Format toolbar and Format Menu -->
+<!ENTITY colorPicker.default.label "Standardfarbe des Lesers">
+<!ENTITY colorPicker.default.accesskey "f">
+<!ENTITY colorLabel.label "Farbe:">
+<!ENTITY ok.label "OK">
+
+<!-- Display Mode toolbar and View menu items -->
+<!ENTITY NormalModeTab.label "Normal">
+<!ENTITY NormalMode.label "Normaler Editier-Modus">
+<!ENTITY NormalMode.accesskey "n">
+<!ENTITY NormalMode.tooltip "Tabellenränder und benannte Ziele anzeigen">
+<!ENTITY AllTagsMode.label "HTML-Tags">
+<!ENTITY AllTagsMode.accesskey "t">
+<!ENTITY AllTagsMode.tooltip "Symbole für alle HTML-Tags anzeigen">
+
+<!ENTITY HTMLSourceMode.label "Quelltext">
+<!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
+<!ENTITY SourceMode.label "Quelltext">
+<!ENTITY HTMLSourceMode.accesskey "q">
+<!ENTITY HTMLSourceMode.tooltip "Quelltext ändern">
+<!ENTITY PreviewMode.label "Vorschau">
+<!ENTITY PreviewMode.accesskey "v">
+<!ENTITY PreviewMode.tooltip "WYSIWYG-Ansicht">
+
+<!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
+     Use latin "ltr" if you want the <html> image to left of the 
+     'SourceMode.label' text defined above,
+     or use latin "rtl" if you want this image to the right of text
+     This is the value of the HTML 'dir' attribute
+-->
+<!ENTITY SourceTabDirection "ltr">
+
+<!-- Structure Toolbar Context Menu items -->
+<!ENTITY structSelect.label         "Auswählen">
+<!ENTITY structSelect.accesskey     "u">
+<!ENTITY structRemoveTag.label      "Tag entfernen">
+<!ENTITY structRemoveTag.accesskey  "e">
+<!ENTITY structChangeTag.label      "Tag ändern">
+<!ENTITY structChangeTag.accesskey  "a">
+
+<!-- TOC manipulation -->
+<!ENTITY insertTOC.label          "Einfügen">
+<!ENTITY insertTOC.accesskey      "e">
+<!ENTITY updateTOC.label          "Aktualisieren">
+<!ENTITY updateTOC.accesskey      "a">
+<!ENTITY removeTOC.label          "Entfernen">
+<!ENTITY removeTOC.accesskey      "f">
+<!ENTITY tocMenu.label            "Inhaltsverzeichnis...">
+<!ENTITY tocMenu.accesskey        "h">
+
+<!-- Smart Widgets menu -->
+<!ENTITY insertSmartWidgetsMenu.label   "Objekte">
+<!ENTITY madeWithNvu.label        "'Made with &brandShortName;'-Logo">
+<!ENTITY insertCalendarSW.label   "Kalender">
+
+<!-- Toolbar customization -->
+<!ENTITY customizeToolbar.label   "Symbolleiste anpassen">
+<!ENTITY customizeToolbar.accesskey "a">
+
+<!-- Templates -->
+<!ENTITY templatesMenu.label      "Vorlagen">
+<!ENTITY insertEditableArea.label "Editierbaren Bereich einfügen">
+<!ENTITY removeEditableArea.label "Editierbaren Bereich entfernen">
+<!ENTITY makeEditableArea.label   "Editierbar machen">
+
+<!-- Advanced -->
+<!ENTITY writingDirectionMenu.label "Schreibrichtung">
+<!ENTITY writingdirectionmenu.accesskey "r">
+<!ENTITY defaultDirectionMenu.label "Keine Richtung angegeben">
+<!ENTITY defaultdirectionmenu.accesskey "k">
+<!ENTITY ltrDirectionMenu.label     "Links nach rechts">
+<!ENTITY ltrdirectionmenu.accesskey "l">
+<!ENTITY rtlDirectionMenu.label     "Rechts nach links">
+<!ENTITY rtldirectionmenu.accesskey "r">
+
+<!ENTITY dirLtr.tooltip           "Links nach rechts">
+<!ENTITY dirRtl.tooltip           "Rechts nach links">
+
+<!-- Help menu -->
+<!ENTITY helpMenu.label           "Hilfe">
+<!ENTITY helpmenu.accesskey       "H">
+
+<!ENTITY nvuComMenu.label         "&brandShortName; Website">
+<!ENTITY nvucommenu.accesskey     "K">
+<!ENTITY faqMenu.label            "FAQ">
+<!ENTITY faqmenu.accesskey        "F">
+<!ENTITY bugReportsMenu.label     "Bugs und Vorschläge">
+<!ENTITY bugreportsmenu.accesskey "B">
+<!ENTITY nvudevOrgMenu.label      "Entwicklungsseite &brandShortName;">
+<!ENTITY nvudevorgmenu.accesskey  "E">
+<!ENTITY nvuForumsMenu.label      "Forum">
+<!ENTITY nvuforumsmenu.accesskey  "o">
+<!ENTITY supportKompoZer.label     "Unterstützen Sie &brandShortName;">
+<!ENTITY supportKompoZer.accesskey "s">
+<!ENTITY tipofthedayMenu.label    "Tipp des Tages">
+<!ENTITY tipofthedaymenu.accesskey "T">
+<!ENTITY aboutMenu.label          "Über &brandShortName;">
+<!ENTITY aboutmenu.accesskey      "Ü">
+
+<!ENTITY localizingnvu.accesskey  "S">
+<!ENTITY localizingNvu.label      "&brandShortName; lokalisieren">
+<!ENTITY userGuideMenu.label      "Online Handbuch [en]">
+<!ENTITY userguidemenu.accesskey  "O">
+<!ENTITY aboutLinspire.label      "Über Linspire Inc.">
+<!ENTITY aboutlinspire.accesskey  "L">
+<!ENTITY aboutDI.label            "Über Disruptive Innovations">
+<!ENTITY aboutDI.accesskey        "I">
+
+<!ENTITY leftGlued.tooltip        "Am linken Rand anheften">
+<!ENTITY rightGlued.tooltip       "Am rechten Rand anheften">
+<!ENTITY centerGlued.tooltip      "Zentriert anheften">
+<!ENTITY topGlued.tooltip         "Oben anheften">
+<!ENTITY bottomGlued.tooltip      "Unten anheften">
+<!ENTITY middleGlued.tooltip      "In der Mitte anheften">
+
+<!ENTITY spellSuggestions.label   "Vorschläge">
+<!ENTITY spellSuggestions.accesskey "V">
+<!ENTITY spellAddToDictionary.label "Zum Wörterbuch hinzufügen">
+

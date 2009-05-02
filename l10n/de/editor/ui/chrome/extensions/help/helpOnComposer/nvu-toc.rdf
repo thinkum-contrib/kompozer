@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE RDF
+[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+    <!ENTITY % helpDocDTD SYSTEM "helpDoc.dtd" >
+    %helpDocDTD;
+]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+<rdf:Description about="urn:root">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="comp-doc"
+	                          nc:name="Erstellen einer neuen Seite"
+                                  nc:link="composer_help.xhtml#starting_a_new_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-format"
+	                          nc:name="Formatieren Ihrer Webseiten"
+                                  nc:link="composer_help.xhtml#formatting_your_web_pages"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-style"
+	                          nc:name="Benutzen von Style Sheets"
+                                  nc:link="composer_help.xhtml#using_style_sheets_for_your_web_pages"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-tables"
+	                          nc:name="Hinzuf&#252;gen von Tabellen"
+                                  nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-images"
+	                          nc:name="Hinzuf&#252;gen von Bildern (Grafiken)"
+                                  nc:link="composer_help.xhtml#adding_pictures_to_your_web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-toc"
+	                          nc:name="Inhaltsverzeichnis f&#252;r Ihre Webseite"
+                                  nc:link="composer_help.xhtml#working_with_table_of_contents_on_your_web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-pageprops"
+                                  nc:name="Festlegen der Seiteneigenschaften"
+                                  nc:link="composer_help.xhtml#setting_page_properties"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-links"
+	                          nc:name="Erstellen von Links"
+                                  nc:link="composer_help.xhtml#creating_links_in_composer"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish"
+	                          nc:name="Publizieren Ihrer Seite im Web"
+                                  nc:link="publishing_help.xhtml"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-prefs"
+	                          nc:name="&brandShortName; Einstellungen"
+                                  nc:link="composer_help.xhtml#composer_preferences"/> </rdf:li>
+      	<rdf:li> <rdf:Description ID="shortcuts"
+	                          nc:name="&brandShortName; Tastaturk&#252;rzel"
+				  nc:link="shortcuts.xhtml"/> </rdf:li>
+	</rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-doc">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="comp-doc-create" nc:name="Erstellen einer neuen Seite"  nc:link="composer_help.xhtml#creating_a_new_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-save" nc:name="Speichern und Ansehen Ihrer neuen Seite"  nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-format">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="props-para" nc:name="Formatieren von Abs&#228;tzen, &#220;berschriften und Listen"  nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="lists" nc:name="Mit Listen arbeiten"  nc:link="composer_help.xhtml#working_with_lists"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="char" nc:name="&#196;ndern der Textfarbe, des Schriftschnitts und der Schriftart"  nc:link="composer_help.xhtml#changing_text_color_style_and_font"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="style-remove" nc:name="Entfernen oder Beenden von Textstilen"  nc:link="composer_help.xhtml#removing_or_discontinuing_text_styles"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="find-text" nc:name="Suchen und ersetzen von Text"  nc:link="composer_help.xhtml#finding_and_replacing_text"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="ins-hrule" nc:name="Einf&#252;gen Horizontaler Linien"  nc:link="composer_help.xhtml#inserting_horizontal_lines"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="props-hrule" nc:name="&#196;ndern der Eigenschaften von Horinzontalen Linien"  nc:link="composer_help.xhtml#setting_horizontal_line_properties"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="special-chars" nc:name="Einf&#252;gen spezieller Zeichen"  nc:link="composer_help.xhtml#inserting_special_characters"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="html-tag" nc:name="Einf&#252;gen von HTML-Elementen und Attributen"  nc:link="composer_help.xhtml#inserting_html_elements_and_attributes"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="adv-editor" nc:name="Erweiterte Einstellungen"  nc:link="composer_help.xhtml#using_the_advanced_property_editor"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="validate-html" nc:name="Quelltext &#252;berpr&#252;fen"  nc:link="composer_help.xhtml#validating_the_html"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-choose" nc:name="Den richtigen Editiermodus w&#228;hlen"  nc:link="composer_help.xhtml#choosing_the_right_editing_mode"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="status-bar" nc:name="Formatierung der Webseite &#252;ber die Statuszeile"  nc:link="composer_help.xhtml#using_status_bar_for_formatting_your_web_page"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-style">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="usecss" nc:name="Verwenden von Style Sheets"  nc:link="composer_help.xhtml#using_cascade_style_sheets"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="createcss" nc:name="Erstellen von Style Sheets"  nc:link="composer_help.xhtml#creating_style_sheets_with_nvu"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="stylerules" nc:name="Erstellen von Regeln f&#252;r Stylesheets"  nc:link="composer_help.xhtml#creating_rules_for_stylesheets"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-doc-tables">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="insert-table" nc:name="Tabellen einf&#252;gen"  nc:link="composer_help.xhtml#inserting_a_table"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="table-props" nc:name="Tabelleneigenschaften &#228;ndern"  nc:link="composer_help.xhtml#changing_a_tables_properties"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="rowncols" nc:name="Zeilen, Spalten und Zellen einf&#252;gen und l&#246;schen"  nc:link="composer_help.xhtml#adding_and_deleting_rows_columns_and_cells"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="deftable" nc:name="Das Standardverhalten von Tabellen ver&#228;ndern"  nc:link="composer_help.xhtml#changing_the_default_table_table_editing_behavior"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="selecttable" nc:name="Tabellenelemente selektieren"  nc:link="composer_help.xhtml#selecting_table_elements"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="copypaste" nc:name="Tabellen verschieben, kopieren und l&#246;schen"  nc:link="composer_help.xhtml#moving_copying_and_deleting_tables"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="texttable" nc:name="Text in eine Tabelle umwandeln"  nc:link="composer_help.xhtml#converting_text_into_a_table"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-doc-toc">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="addtoc" nc:name="Hinzuf&#252;gen von Inhaltsverzeichnissen"  nc:link="composer_help.xhtml#adding_table_of_contents_to_your_web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="updatetoc" nc:name="Aktualisieren oder Entfernen von Inhaltsverzeichnissen"  nc:link="composer_help.xhtml#updating_or_removing_table_of_contents"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-doc-images">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="insert-image" nc:name="Bilder in die Seite einf&#252;gen"  nc:link="composer_help.xhtml#inserting_an_image_into_your_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="edit-image" nc:name="Bildeigenschaften ver&#228;ndern"  nc:link="composer_help.xhtml#editing_image_properties"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+
+  <rdf:Description about="#comp-doc-pageprops">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="pageprops" nc:name="Seiteneigenschaften und Metatags festlegen"  nc:link="composer_help.xhtml#setting_page_properties_and_meta_tags"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="pagecolors" nc:name="Seitenfarben und -hintergrund"  nc:link="composer_help.xhtml#setting_page_colors_and_backgrounds"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-doc-links">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="createlinks" nc:name="Links innerhalb derselben Seite erstellen"  nc:link="composer_help.xhtml#creating_links_within_the_same_page"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="createextlinks" nc:name="Links zu anderen Seiten erstellen"  nc:link="composer_help.xhtml#creating_links_to_other_pages"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="xfn" nc:name="Hinzuf&#252;gen von XFN-Informationen in Links"  nc:link="composer_help.xhtml#adding_xfn_information_within_your_links"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="imagelinks" nc:name="Bilder als Links verwenden"  nc:link="composer_help.xhtml#using_images_as_links"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="stoplinks" nc:name="Links entfernen"  nc:link="composer_help.xhtml#removing_or_discontinuing_links"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <!-- Kaze -->
+  <rdf:Description about="#comp-publish">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="comp-publish-document" 
+	                          nc:name="Ein Dokument publizieren"
+				  nc:link="publishing_help.xhtml#publishing_a_document"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-settings"
+	                          nc:name="Publizierungseinstellungen"
+				  nc:link="publishing_help.xhtml#publishing_settings"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-problems"
+	                          nc:name="Lösen allgemeiner Probleme beim Publizieren"
+				  nc:link="publishing_help.xhtml#solving_common_publishing_problems"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-publish-document">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="comp-publish-tips" nc:name="Tipps, um kaputte Links und fehlende Bilder zu vermeiden"  nc:link="publishing_help.xhtml#avoiding_broken_links_or_images"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-updating" nc:name="Ein publiziertes Dokument aktualisieren"  nc:link="publishing_help.xhtml#updating_a_published_document"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-change-name" nc:name="Dateinamen oder die Publizierungs-Seite ändern"  nc:link="publishing_help.xhtml#changing_the_filename_or_publishing_location"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-create" nc:name="Eine neue Publizierungs-Site anlegen"  nc:link="publishing_help.xhtml#creating_a_new_publishing_site"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-change-default" nc:name="Die Standard-Publizierungs-Site ändern"  nc:link="publishing_help.xhtml#changing_the_default_publishing_site"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-delete" nc:name="Eine Publizierungs-Site löschen"  nc:link="publishing_help.xhtml#deleting_a_publishing_site"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-publish-settings">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="comp-publish-settings-publish" nc:name="Seite Publizieren - Publizieren"  nc:link="publishing_help.xhtml#publish_page_publish"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-settings-settings" nc:name="Seite publizieren - Einstellungen"  nc:link="publishing_help.xhtml#publish_page_settings"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-settings-publish-settings" nc:name="Publikations-Einstellungen"  nc:link="publishing_help.xhtml#publish_settings"/> </rdf:li>        
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#comp-publish-problems">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="comp-publish-publish-problems-verify" nc:name="Überprüfen Ihrer Publikations-Einstellungen"  nc:link="publishing_help.xhtml#verifying_your_publishing_settings"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-publish-problems-filenames" nc:name="Überprüfen Ihrer Dateinamen"  nc:link="publishing_help.xhtml#checking_your_filenames"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-publish-publish-problems-errors" nc:name="Beheben von Publikations-Fehlern"  nc:link="publishing_help.xhtml#fixing_publishing_errors"/> </rdf:li>        
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+  <!-- /Kaze -->
+
+  <rdf:Description about="#comp-doc-prefs">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="general-prefs" nc:name="Allgemeine Einstellungen"  nc:link="composer_help.xhtml#composer_preferences"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="newpage-prefs" nc:name="Seiteneinstellungen"  nc:link="composer_help.xhtml#composer_preferences_new_page_settings"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="cnx-prefs" nc:name="Erweiterte Einstellungen (Verbindung)"  nc:link="composer_help.xhtml#composer_preferences_advanced_settings_connection"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="cr-prefs" nc:name="Erweiterte Einstellungen (Verhalten der ENTER-Taste)"  nc:link="composer_help.xhtml#composer_preferences_advanced_settings_return_key_behaviour"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+  <rdf:Description about="#shortcuts">
+     <nc:subheadings>
+       <rdf:Seq>
+         <rdf:li><rdf:Description ID="shortcuts_using" nc:name="Tastaturk&#252;rzel benutzen" nc:link="shortcuts.xhtml#using_shortcuts"/> </rdf:li>
+         <rdf:li><rdf:Description ID="shortcuts_general" nc:name="Allgemeine Tastaturk&#252;rzel" nc:link="shortcuts.xhtml#general_shortcuts"/> </rdf:li>
+         <rdf:li><rdf:Description ID="shortcuts_composer" nc:name="&brandShortName; Tastaturk&#252;rzel" nc:link="shortcuts.xhtml#nvu_composition_shortcuts"/> </rdf:li>
+         <rdf:li><rdf:Description ID="shortcuts_help" nc:name="Tastaturk&#252;rzel f&#252;r die Hilfe" nc:link="shortcuts.xhtml#help_window_shortcuts"/> </rdf:li>
+       </rdf:Seq>
+     </nc:subheadings>
+   </rdf:Description>
+
+</rdf:RDF>
+

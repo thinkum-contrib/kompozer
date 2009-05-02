@@ -1,0 +1,16 @@
+<!ENTITY autoSelect.accesskey "S">
+<!ENTITY autoSelect.label "Beim Starten nicht nachfragen">
+<!ENTITY availprofiles.label "Verfügbare Profile">
+<!ENTITY deleteButton.accesskey "l">
+<!ENTITY deleteButton.label "Profil löschen...">
+<!ENTITY exit.label "Beenden">
+<!ENTITY newButton.accesskey "e">
+<!ENTITY newButton.label "Profil erstellen...">
+<!ENTITY offlineState.accesskey "o">
+<!ENTITY offlineState.label "Jetzt offline arbeiten">
+<!ENTITY pmDescription.label "&brandShortName; speichert Ihre persönlichen Einstellungen und Daten in Ihrem persönlichen Profil.">
+<!ENTITY profilename.label "Profil-Name:">
+<!ENTITY renameButton.accesskey "u">
+<!ENTITY renameButton.label "Profil umbenennen...">
+<!ENTITY start.label "&brandShortName; starten">
+<!ENTITY windowtitle.label "&brandShortName; - Benutzerprofil wählen">

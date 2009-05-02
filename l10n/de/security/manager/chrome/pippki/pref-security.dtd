@@ -1,0 +1,13 @@
+<!ENTITY certs.label "Zertifikate">
+<!ENTITY pref.certs.title "Zertifikate">
+<!ENTITY managecerts.accesskey "v">
+<!ENTITY managecerts.button "Zertifikate verwalten...">
+<!ENTITY managecerts.caption "Zertifikate verwalten">
+<!ENTITY managecerts.text "Verwenden Sie den Zertifikat-Manager, um Ihre persönlichen Zertifikate sowie jene von anderen Personen und Zertifizierungsstellen zu verwalten.">
+<!ENTITY managedevices.accesskey "K">
+<!ENTITY managedevices.button "Kryptographie-Module verwalten...">
+<!ENTITY managedevices.caption "Kryptographie-Module verwalten">
+<!ENTITY managedevices.text "Verwenden Sie diese Schaltfläche, um Ihre Kryptographie-Module wie z.B. Smart Cards zu verwalten.">
+<!ENTITY resetpreferences.label "Einstellungen zurücksetzen...">
+<!ENTITY resetsettings.label "Einstellungen zurücksetzen">
+<!ENTITY ssl.label "SSL">

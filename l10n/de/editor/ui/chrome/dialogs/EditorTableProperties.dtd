@@ -1,0 +1,98 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY tableWindow.title                "Tabelleneigenschaften">
+<!ENTITY tableTab.label                   "Tabelle">
+<!ENTITY cellTab.label                    "Zellen">
+<!ENTITY tableRows.label                  "Zeilen:">
+<!ENTITY tableRows.accessKey              "Z">
+<!ENTITY tableColumns.label               "Spalten:">
+<!ENTITY tableColumns.accessKey           "P">
+<!ENTITY tableHeight.label                "Höhe:">
+<!ENTITY tableHeight.accessKey            "H">
+<!ENTITY tableWidth.label                 "Breite:">
+<!ENTITY tableWidth.accessKey             "B">
+<!ENTITY tableBorderSpacing.label         "Ränder und Abstände">
+<!ENTITY tableBorderWidth.label           "Rand:">
+<!ENTITY tableBorderWidth.accessKey       "R">
+<!ENTITY tableSpacing.label               "Abstand:">
+<!ENTITY tableSpacing.accessKey           "S">
+<!ENTITY tablePadding.label               "Füllung:">
+<!ENTITY tablePadding.accessKey           "F">
+<!ENTITY tablePxBetwCells.label           "Pixel zwischen Zellen">
+<!ENTITY tablePxBetwBrdrCellContent.label "Pixel zwischen Zellenrand und Inhalt">
+<!ENTITY tableAlignment.label             "Tabellenausrichtung:">
+<!ENTITY tableAlignment.accessKey         "T">
+<!ENTITY tableCaption.label               "Titel:">
+<!ENTITY tableCaption.accessKey           "i">
+<!ENTITY tableCaptionAbove.label          "Über der Tabelle">
+<!ENTITY tableCaptionBelow.label          "Unter der Tabelle">
+<!ENTITY tableCaptionLeft.label           "Links von der Tabelle">
+<!ENTITY tableCaptionRight.label          "Rechts von der Tabelle">
+<!ENTITY tableCaptionNone.label           "kein">
+<!ENTITY tableInheritColor.label           "(Seitenfarbe durchscheinen lassen)">
+
+<!ENTITY cellPercent.label                "Prozent der Tabelle">
+<!ENTITY cellSelection.label              "Auswahl">
+<!ENTITY cellSelectCell.label             "Zelle">
+<!ENTITY cellSelectRow.label              "Zeile">
+<!ENTITY cellSelectColumn.label           "Spalte">
+<!ENTITY cellSelectNext.label             "Nächste">
+<!ENTITY cellSelectNext.accessKey         "N">
+<!ENTITY cellSelectPrevious.label         "Vorherige">
+<!ENTITY cellSelectPrevious.accessKey     "V">
+<!ENTITY cellApplyBeforeMove.label        "Änderungen übernehmen bevor die Auswahl geändert wird">
+<!ENTITY cellKeepCurrentData.label        "Aktuelle EInstellungen beibehalten">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label         "Aktuelle Änderungen werden übernommen">
+<!ENTITY applyBeforeChange2.label         "bevor die Auswahl geändert wird.">
+<!ENTITY cellRowSpan.label                "Zeilen-Spanne:">
+<!ENTITY cellColSpan.label                "Spalten-Spanne:">
+<!ENTITY cellContentAlignment.label       "Inhalt ausrichten">
+<!ENTITY cellHorizontal.label             "Horizontal:">
+<!ENTITY cellHorizontal.accessKey         "Z">
+<!ENTITY cellVertical.label               "Vertikal:">
+<!ENTITY cellVertical.accessKey           "V">
+<!ENTITY cellStyle.label                  "Zellenstil:">
+<!ENTITY cellStyle.accessKey              "C">
+<!ENTITY cellNormal.label                 "Normal">
+<!ENTITY cellHeader.label                 "Überschrift">
+<!ENTITY cellTextWrap.label               "Textumbruch:">
+<!ENTITY cellTextWrap.accessKey           "T">
+<!ENTITY cellWrap.label                   "umbrechen">
+<!ENTITY cellNoWrap.label                 "nicht umbrechen">
+<!ENTITY cellAlignTop.label               "Oben">
+<!ENTITY cellAlignMiddle.label            "Mitte">
+<!ENTITY cellAlignBottom.label            "Unten">
+<!ENTITY cellAlignJustify.label           "Ausrichten">
+<!ENTITY cellAlignAtChar.label            "Beim Buchstaben:">
+<!ENTITY cellInheritColor.label           "(Tabellenfarbe durchscheinen lassen)">
+<!ENTITY cellUseCheckboxHelp.label        "Verwenden Sie die KontrollkÃ¤stchen, um zu bestimmen, welche Einstellungen an alle gewÃ¤hlten Zellen angewendet werden.">
+
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label                       "Größe">
+<!ENTITY pixels.label                     "Pixel">
+<!ENTITY backgroundColor.label            "Hintergrundfarbe:">
+<!ENTITY backgroundColor.accessKey        "H">
+<!ENTITY AlignLeft.label                  "Links">
+<!ENTITY AlignCenter.label                "Mitte">
+<!ENTITY AlignRight.label                 "Rechts">

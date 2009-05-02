@@ -1,0 +1,20 @@
+<!ENTITY backwardsCheckbox.accesskey "f">
+<!ENTITY backwardsCheckbox.label "Aufwärts suchen">
+<!ENTITY cancelButton.label "Abbrechen">
+<!ENTITY caseSensitiveCheckbox.accesskey "G">
+<!ENTITY caseSensitiveCheckbox.label "Groß-/Kleinschreibung beachten">
+<!ENTITY closeButton.label "Schließen">
+<!ENTITY direction.label "Suchrichtung">
+<!ENTITY down.accesskey "b">
+<!ENTITY down.label "Abwärts">
+<!ENTITY findButton.accesskey "w">
+<!ENTITY findButton.label "Weitersuchen">
+<!ENTITY findDialog.title "Text durchsuchen">
+<!ENTITY findDialogFrame.title "Frame durchsuchen">
+<!ENTITY findField.accesskey "S">
+<!ENTITY findField.label "Suchen nach">
+<!ENTITY findField.tooltip "Geben Sie ein oder mehrere Wörter ein, nach denen gesucht werden soll">
+<!ENTITY up.accesskey "f">
+<!ENTITY up.label "Aufwärts">
+<!ENTITY wrapCheckbox.accesskey "B">
+<!ENTITY wrapCheckbox.label "Bei Dokumentenende wieder von vorne beginnen">

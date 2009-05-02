@@ -1,0 +1,12 @@
+<!ENTITY caseSensitiveCheckbox.label     "Groß-/Kleinschreibung">
+<!ENTITY caseSensitiveCheckbox.accesskey "G">
+<!ENTITY findCloseButton.tooltip         "Suchleiste schließen">
+<!ENTITY next.accesskey                  "w">
+<!ENTITY next.label                      "Abwärts">
+<!ENTITY next.tooltip                    "Das nächste Auftreten des Ausdrucks suchen">
+<!ENTITY previous.accesskey              "A">
+<!ENTITY previous.label                  "Aufwärts">
+<!ENTITY previous.tooltip                "Das vorherige Auftreten des Ausdrucks suchen">
+<!ENTITY highlight.accesskey             "H">
+<!ENTITY highlight.label                 "Hervorheben">
+<!ENTITY highlight.tooltiptext           "Jedes Vorkommen des Ausdrucks im Text hervorheben">

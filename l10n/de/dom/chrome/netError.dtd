@@ -1,0 +1,49 @@
+<!ENTITY loadError.label "Seiten-Ladefehler">
+<!ENTITY retry.label "Nochmals versuchen">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "Fehler: Verbindung fehlgeschlagen">
+<!ENTITY connectionFailure.longDesc "<p>Obwohl die Website zu existieren scheint, konnte keine Verbindung mit ihr aufgebaut werden.</p><ul><li>Eventuell ist die Website nur vorübergehend nicht erreichbar, versuchen Sie es bitte später nochmals.</li><li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die Netzwerk-/Internetverbindung.</li><li>Wird Ihr Computer oder Netzwerk von einer Firewall oder einem Proxy geschützt? Falsche Einstellungen können Probleme mit dem Netzwerk-/Internetzugang verursachen.</li></ul>">
+
+<!ENTITY deniedPortAccess.title "Fehler: Port aus Sicherheitsgründen blockiert">
+<!ENTITY deniedPortAccess.longDesc "<p>Die aufgerufene Adresse fordert einen Port (z.B. <q>mozilla.org:80</q> für Port 80 auf mozilla.org), der <em>normalerweise nicht</em> zum Browsen im Web verwendet wird. Die Anfrage wurde zu Ihrem Schutz abgebrochen.</p>">
+
+<!ENTITY dnsNotFound.title "Fehler: Adresse nicht gefunden">
+<!ENTITY dnsNotFound.longDesc "<p>Der Server zu der aufgerufenen Adresse konnte nicht gefunden werden.</p><ul><li>Haben Sie sich beim Eintippen der Adresse vertan? (z.B. <q><strong>ww</strong>.mozilla.org</q> anstatt <q><strong>www</strong>.mozilla.org</q>)</li><li>Sind Sie sicher, dass die Website existiert?  Die Registrierung der Website könnte abgelaufen sein.</li><li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die Netzwerk-Verbindung und DNS-Einstellungen.</li><li>Wird Ihr Computer oder Netzwerk von einer Firewall oder einem Proxy geschützt? Falsche Einstellungen können Probleme mit dem Netzwerk-/Internetzugang verursachen.</li></ul>">
+
+<!ENTITY fileNotFound.title "Fehler: Datei nicht gefunden">
+<!ENTITY fileNotFound.longDesc "<ul><li>Könnte die Datei umbenannt, gelöscht oder verschoben worden sein?</li><li>Enthält die Adresse einen Rechtschreib-, Groß-/Kleinschreibungs- oder andere Fehler?</li><li>Haben Sie ausreichende Zugriffsrechte für die aufgerufene Datei?</li></ul>">
+
+<!ENTITY generic.title "Fehler: Anfrage konnte nicht ausgeführt werden">
+<!ENTITY generic.longDesc "<p>Weitere Informationen zu diesem Problem sind momentan nicht verfügbar.</p>">
+
+<!ENTITY malformedURI.title "Fehler: Ungültige Adresse">
+<!ENTITY malformedURI.longDesc "<p>Die angegebene Adresse hat ein unbekanntes Format. Bitte überprüfen Sie die Adresse auf Fehler und versuchen es nochmals.</p>">
+
+<!ENTITY netInterrupt.title "Fehler: Datenübertragung unterbrochen">
+<!ENTITY netInterrupt.longDesc "<p>Die Verbindung wurde erfolgreich aufgebaut, die Datenübertragung wurde dann aber wieder unterbrochen.  Bitte versuchen Sie es nochmals.</p><ul><li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die Netzwerk-/Internetverbindung.</li><li>Falls Sie das Problem so nicht lösen können, kontaktieren Sie bitte Ihren Netzwerk-Administrator oder Internetprovider.</li></ul>">
+
+<!ENTITY netOffline.title "Fehler: Offline">
+<!ENTITY netOffline.longDesc "<p>Die Anwendung arbeitet im Offline-Modus und kann daher keine Verbindung aufbauen.</p><ul><li>Ist die Netzwerk-/Internetverbindung aufgebaut?</li><li>Schalten Sie die Anwendung bitte in den Online-Modus und versuchen es dann nochmals.</li></ul>">
+
+<!ENTITY netReset.title "Fehler: Verbindung unterbrochen">
+<!ENTITY netReset.longDesc "<p>Die Netzwerk-Verbindung wurde während des Verbindungsaufbaus unterbrochen. Bitte versuchen Sie es nochmals.</p>">
+
+<!ENTITY netTimeout.title "Fehler: Netzwerk-Zeitüberschreitung">
+<!ENTITY netTimeout.longDesc "<p>Die aufgerufene Website hat auf den Verbindungsversuch zu lange nicht reagiert, daher wird nun nicht mehr länger auf eine Reaktion gewartet.</p><ul><li>Der Server könnte durch zuviele Verbindungen überlastet oder vorübergehend nicht erreichbar sein, versuchen Sie es bitte später nochmals.</li><li>Wenn Sie auch keine andere Website aufrufen können, überprüfen Sie bitte die Netzwerk-/Internetverbindung.</li><li>Wird Ihr Computer oder Netzwerk von einer Firewall oder einem Proxy geschützt? Falsche Einstellungen können Probleme mit dem Netzwerk-/Internetzugang verursachen.</li><li>Falls Sie das Problem so nicht lösen können, kontaktieren Sie bitte Ihren Netzwerk-Administrator oder Internetprovider.</li></ul>">
+
+<!ENTITY protocolNotFound.title "Fehler: unbekanntes Protokoll">
+<!ENTITY protocolNotFound.longDesc "<p>Die aufgerufene Adresse fordert ein unbekanntes Protokoll (z.B. <q>wxyz://</q>) - daher konnte keine Verbindung aufgebaut werden.</p><ul><li>Versuchen Sie Multimedia- oder andere Nicht-Text-Inhalte aufzurufen? Überprüfen Sie bitte, ob weitere Anforderungen gestellt werden.</li><li>Manche Protokolle/Inhalte erfordern Software oder Plugins von Drittanbietern, bevor diese aufgerufen werden können.</li></ul>">
+
+<!ENTITY proxyConnectFailure.title "Fehler: Proxy-Server verweigert die Verbindung">
+<!ENTITY proxyConnectFailure.longDesc "<p>Der Browser wurde für die Verwendung eines Proxy-Servers konfiguriert, aber der Proxy verweigert die Verbindung.</p><ul><li>Sind die Proxy-Einstellungen korrekt? Überprüfen Sie bitte die Einstellungen und versuchen es dann nochmals.</li><li>Erlaubt der Proxy-Service Verbindungen aus diesem Netzwerk?</li><li>Falls Sie das Problem so nicht lösen können, kontaktieren Sie bitte Ihren Netzwerk-Administrator oder Internetprovider.</li></ul>">
+
+<!ENTITY proxyResolveFailure.title "Fehler: Proxy-Server nicht gefunden">
+<!ENTITY proxyResolveFailure.longDesc "<p>Der Browser wurde für die Verwendung eines Proxy-Servers konfiguriert, aber der Proxy wurde nicht gefunden.</p><ul><li>Sind die Proxy-Einstellungen korrekt? Überprüfen Sie bitte die Einstellungen und versuchen es dann nochmals.</li><li>Ist die Netzwerk-/Internet-Verbindung aufgebaut?</li><li>Falls Sie das Problem so nicht lösen können, kontaktieren Sie bitte Ihren Netzwerk-Administrator oder Internetprovider.</li></ul>">
+
+<!ENTITY redirectLoop.title "Fehler: Umleitungsschleife">
+<!ENTITY redirectLoop.longDesc "<p>Der Verbindungsversuch zu der aufgerufenen Adresse wurde abgebrochen. Die aufgerufene Website leitet die Anfrage so um, dass sie nie beendet werden kann.</p><ul><li>Haben Sie das Akzeptieren von Cookies, die für diese Adresse notwendig sein könnten, blockiert oder deaktivert?</li><li><em>HINWEIS</em>: Falls das Akzeptieren von Cookies die Probleme mit der aufgerufenen Adresse nicht behebt, handelt es sich vermutlich um eine Fehlkonfiguration des Servers - also nicht um einen Fehler Ihres Computers</li></ul>">
+
+<!ENTITY unknownSocketType.title "Fehler: Unerwartete Antwort">
+<!ENTITY unknownSocketType.longDesc "<p>Die aufgerufene Website hat in einer unerwarteten Art geantwortet, sodass die Verbindung nicht fortgesetzt werden kann.</p>">

@@ -1,0 +1,22 @@
+<!ENTITY alwaysHandle.accesskey "F">
+<!ENTITY alwaysHandle.label "Für Dateien dieses Typs immer diese Aktion ausführen">
+<!ENTITY badApp "Die von Ihnen angegebene Anwendung (&quot;#1&quot;) konnte nicht gefunden werden. Überprüfen Sie bitte den Dateinamen oder wählen Sie eine andere Anwendung.">
+<!ENTITY badApp.title "Anwendung nicht gefunden">
+<!ENTITY caption.label "Download von #1">
+<!ENTITY chooseApp.accesskey "D">
+<!ENTITY chooseApp.label "Durchsuchen...">
+<!ENTITY chooseAppFilePickerTitle "Hilfsanwendung wählen">
+<!ENTITY intro.attachment.label "Die Website hat empfohlen &quot;#3&quot; wie einen Anhang zu behandeln. Es ist vom Typ #2 (#1) und befindet sich auf:">
+<!ENTITY intro.attachment.noDesc.label "Die Website hat empfohlen &quot;#3&quot; wie einen Anhang zu behandeln. Es ist vom Typ #2 und befindet sich auf:">
+<!ENTITY intro.label "Die Datei &quot;#3&quot; ist vom Typ #2 (#1) und #4 weiß nicht, wie dieser Typ behandelt werden soll. Die Datei befindet sich auf:">
+<!ENTITY intro.noDesc.label "Die Datei &quot;#3&quot; ist vom Typ #2 und #4 weiß nicht, wie dieser Typ behandelt werden soll. Die Datei befindet sich auf:">
+<!ENTITY intro.sniffed.label "#4 hat entdeckt, dass die Datei &quot;#3&quot; wahrscheinlich vom Typ #2 (#1) ist. Die Datei befindet sich unter:">
+<!ENTITY intro.sniffed.noDesc.label "#4 hat entdeckt, dass die Datei &quot;#3&quot; wahrscheinlich vom Typ #2 ist. Die Datei befindet sich unter:">
+<!ENTITY openUsing.accesskey "f">
+<!ENTITY openUsing.label "Öffnen mit">
+<!ENTITY prompt.label "Was soll #1 mit dieser Datei machen?">
+<!ENTITY saveToDisk.accesskey "s">
+<!ENTITY saveToDisk.label "Auf Festplatte/Diskette speichern">
+<!ENTITY useSystemDefault.accesskey "s">
+<!ENTITY useSystemDefault.label "Mit der Standard-Anwendung öffnen (#1)">
+<!ENTITY useSystemDefault.noDesc.label "Mit der Standard-Anwendung öffnen">

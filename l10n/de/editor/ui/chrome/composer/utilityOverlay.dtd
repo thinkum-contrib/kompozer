@@ -1,0 +1,41 @@
+<!ENTITY undoCmd.label						"Rückgängig">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"R"> 
+<!ENTITY redoCmd.label						"Wiederherstellen">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"W"> 
+<!ENTITY cutCmd.label						"Ausschneiden">  
+<!ENTITY cutCmd.key						"X">  
+<!ENTITY cutCmd.accesskey					"A"> 
+<!ENTITY copyCmd.label						"Kopieren">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"K"> 
+<!ENTITY pasteCmd.label						"Einfügen">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"E"> 
+<!ENTITY deleteCmd.label					"Löschen">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey					"L"> 
+<!ENTITY selectAllCmd.label					"Alles markieren">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey					"m">
+<!ENTITY preferencesCmd.label				"Einstellungen...">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"E"> 
+<!ENTITY findTypeTextCmd.label "Find Text As You Type">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeLinksCmd.label "Find Links As You Type">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewToolbarsMenu.label				"Anzeigen/verstecken"> 
+<!ENTITY viewToolbarsMenu.accesskey			"n"> 
+
+<!ENTITY newBlankPageCmd.label "Composer Page">
+<!ENTITY newBlankPageCmd.accesskey "P" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Page Using Template">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+
+<!ENTITY newNavigatorCmd.label				"Navigator Window">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">

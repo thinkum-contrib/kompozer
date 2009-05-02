@@ -1,0 +1,20 @@
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY copyCmd.label "Kopieren">
+<!ENTITY cutCmd.accesskey "A">
+<!ENTITY cutCmd.label "Ausschneiden">
+<!ENTITY deleteCmd.accesskey "L">
+<!ENTITY deleteCmd.label "Löschen">
+<!ENTITY pasteCmd.accesskey "E">
+<!ENTITY pasteCmd.label "Einfügen">
+<!ENTITY selectAllCmd.accesskey "m">
+<!ENTITY selectAllCmd.label "Alles markieren">
+<!ENTITY undoCmd.accesskey "R">
+<!ENTITY undoCmd.label "Rückgängig">
+
+<!ENTITY spellAddToDictionary.label "Zu Benutzerwörterbuch hinzufügen">
+<!ENTITY spellAddToDictionary.accesskey "Z">
+<!ENTITY spellEnable.label "Rechtschreibung in diesem Feld prüfen">
+<!ENTITY spellEnable.accesskey "R">
+<!ENTITY spellNoSuggestions.label "(Keine Korrekturvorschläge)">
+<!ENTITY spellDictionaries.label "Sprachen">
+<!ENTITY spellDictionaries.accesskey "S">

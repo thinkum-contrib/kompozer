@@ -1,0 +1,25 @@
+<!ENTITY all.accesskey "A">
+<!ENTITY all.label "Alle">
+<!ENTITY clear.accesskey "L">
+<!ENTITY clear.label "Löschen">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY errorConsole.title "Fehler-Konsole">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY copyCmd.label "Kopieren">
+<!ENTITY errColumn.label "Spalte:">
+<!ENTITY errFile.label "Quelldatei:">
+<!ENTITY errLine.label "Zeile:">
+<!ENTITY errors.accesskey "F">
+<!ENTITY errors.label "Fehler">
+<!ENTITY evaluate.label "Evaluieren">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY messages.accesskey "M">
+<!ENTITY messages.label "Mitteilungen">
+<!ENTITY sortFirst.accesskey "E">
+<!ENTITY sortFirst.label "Erster > Letzter Sortierreihenfolge">
+<!ENTITY sortLast.accesskey "L">
+<!ENTITY sortLast.label "Letzter > Erster Sortierreihenfolge">
+<!ENTITY warnings.accesskey "W">
+<!ENTITY warnings.label "Warnungen">
