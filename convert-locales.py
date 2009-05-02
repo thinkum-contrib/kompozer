@@ -30,21 +30,22 @@ import os
 import sys
 
 # preferences: adapt these lines to your config
-l10n_root     = "l10n/"
-chrome_root   = "../chrome/"
-import_dir    = "../l10n.CVS/"
-index_file    = "index.mn"
+L10N_ROOT     = "l10n/"
+CHROME_ROOT   = "../chrome/"
+IMPORT_ROOT   = "../l10n.CVS/"
+INDEX_FILE    = "index.mn"
 
 # these files should be in the l10n directory
-brand_file    = l10n_root + "brand.dtd"
-install_file  = l10n_root + "install.rdf"
-manifest_file = l10n_root + "locale.manifest"
-version_file  = l10n_root + "version.txt"
+BRAND_FILE    = L10N_ROOT + "brand.dtd"
+VERSION_FILE  = L10N_ROOT + "version.txt"
+INSTALL_FILE  = L10N_ROOT + "install.rdf"
+MANIFEST_FILE = L10N_ROOT + "chrome.manifest"
+PREFS_FILE    = L10N_ROOT + "prefs.js"
 
 # don't touch this unless you know what you're doing
-l10n_sep      = "(l10n)"
-chrome_sep    = "(chrome)"
-debug         = 0
+L10N_SEP      = "(l10n)"
+CHROME_SEP    = "(chrome)"
+DEBUG         = 0
 
 
 ###############################################################################
@@ -53,12 +54,13 @@ debug         = 0
 #                                                                             #
 ###############################################################################
 
-# shell access, check the value of "debug"
+# shell access, check the value of "DEBUG"
 def shell(cmd):
-	if debug:
+	if DEBUG:
 		print(cmd)
 	else:
 		os.system(cmd)
+
 
 # copy source to dest and create directory if needed
 def xcopy(source, dest):
@@ -76,85 +78,119 @@ def xcopy(source, dest):
 #                                                                             #
 ###############################################################################
 
-# copy all locales from "l10n.CVS" to "l10n", check value of "import_dir" above
+# copy all locales from "l10n.CVS" to "l10n", check value of "IMPORT_ROOT" above
 def l10nCopyAll():
-	dirList = os.listdir(import_dir)
+	dirList = os.listdir(IMPORT_ROOT)
 	for dir in dirList:
 		if dir != "CVS":
-			l10nCopy(import_dir + dir, "l10n/" + dir)
+			l10nCopy(IMPORT_ROOT + dir, "l10n/" + dir)
+
 
 # import relevant files in the Mozilla CVS trunk (= 1.8.1) to the KompoZer l10n repository
 # cvs -d :pserver:anonymous@cvs-mirror.mozilla.org/l10n co l10n
-def l10nCopy(source_dir, dest_dir):
-	print "copying " + source_dir + " to " + dest_dir + ", following " + index_file
-	infile = open(index_file, "r")
+def l10nCopy(sourceDir, destDir):
+	print "copying " + sourceDir + " to " + destDir + ", following " + INDEX_FILE
+
+	infile = open(INDEX_FILE, "r")
 	for line in infile:
+
 		# ignore line if l10n is not defined
-		if line.find(l10n_sep)>0:
+		if line.find(L10N_SEP)>0:
+
 			# get l10n paths
-			tmp       = line.partition(l10n_sep)
+			tmp       = line.partition(L10N_SEP)
 			l10n_file = tmp[2].strip()
-			source    = source_dir + l10n_file
-			dest      = dest_dir   + l10n_file
+			source    = sourceDir + l10n_file
+			dest      = destDir   + l10n_file
+
 			# copy file to l10n directory
 			xcopy(source, dest)
 
+
 # import chrome files into the l10n repository
-def chrome2l10n(chrome_dir, l10n_dir, index_file):
-	print "importing " + chrome_dir + " to " + l10n_dir + ", following " + index_file
-	infile = open(index_file, "r")
+def chrome2l10n(chromeDir, l10nDir):
+	print "importing " + chromeDir + " to " + l10nDir + ", following " + INDEX_FILE
+
+	infile = open(INDEX_FILE, "r")
 	for line in infile:
+
 		# ignore line if chrome and/or l10n is not defined
-		if line.find(chrome_sep)>0 and line.find(l10n_sep)>0:
+		if line.find(CHROME_SEP)>0 and line.find(L10N_SEP)>0:
+
 			# get chrome and l10n paths
-			tmp    = line.partition(l10n_sep)
-			l10n   = l10n_dir + tmp[2].strip()
-			tmp    = tmp[0].partition(chrome_sep)
-			chrome = chrome_dir + tmp[2].strip()
+			tmp    = line.partition(L10N_SEP)
+			l10n   = l10nDir + tmp[2].strip()
+			tmp    = tmp[0].partition(CHROME_SEP)
+			chrome = chromeDir + tmp[2].strip()
+
 			# copy chrome file to l10n directory
 			xcopy(chrome, l10n)
 
+
 # export chrome files from the l10n repository
-def l10n2chrome(l10n_dir, chrome_dir):
-	print "exporting " + l10n_dir + " to " + chrome_dir + ", following " + index_file
-	infile = open(index_file, "r")
+def l10n2chrome(l10nDir, chromeDir):
+	print "exporting " + l10nDir + " to " + chromeDir + ", following " + INDEX_FILE
+
+	infile = open(INDEX_FILE, "r")
 	for line in infile:
+
 		# ignore line if chrome and/or l10n is not defined
-		if line.find(chrome_sep)>0 and line.find(l10n_sep)>0:
+		if line.find(CHROME_SEP)>0 and line.find(L10N_SEP)>0:
+
 			# get chrome and l10n paths
-			tmp    = line.partition(l10n_sep)
-			l10n   = l10n_dir + tmp[2].strip()
-			tmp    = tmp[0].partition(chrome_sep)
-			chrome = chrome_dir + tmp[2].strip()
+			tmp    = line.partition(L10N_SEP)
+			l10n   = l10nDir + tmp[2].strip()
+			tmp    = tmp[0].partition(CHROME_SEP)
+			chrome = chromeDir + tmp[2].strip()
+
 			# copy l10n file to chrome directory
 			xcopy(l10n, chrome)
+
 	# this file has to be added separately (not to be translated)
-	xcopy(brand_file, chrome_dir + "/global/brand.dtd")
+	xcopy(BRAND_FILE, chromeDir + "/global/brand.dtd")
+
 
 # create XPI langpack from a chrome-path directory
 def chrome2xpi(locale):
-	xpi = "kompozer-" + locale + ".xpi"
-	print "making " + xpi
 	# warning: won't work on Windows unless you're in a Cygwin shell
+	xpiFile = "kompozer-" + locale + ".xpi"
+	print "making " + xpiFile
+
+	# remove xpiFile if existing
+	if os.path.exists(CHROME_ROOT + xpiFile):
+		shell("rm " + CHROME_ROOT + xpiFile)
+
+	# create a temp directory
+	tmpDir = "~" + locale + ".tmp/"
+	if os.path.exists(CHROME_ROOT + tmpDir):
+		shell("rm -rf " + CHROME_ROOT + tmpDir)
+	tmpChrome = tmpDir + "chrome/"
+	tmpPrefs  = tmpDir + "defaults/preferences/"
+	shell("mkdir -p " + CHROME_ROOT + tmpChrome)
+	shell("mkdir -p " + CHROME_ROOT + tmpPrefs)
+
+	# replace @AB_CD@ with 'locale' in chrome.manifest, install.rdf and prefs.js
 	sed = "sed s/@AB_CD@/" + locale + "/g "
-	# replace @AB_CD@ with 'locale' in *.manifest and install.rdf
-	manifest = chrome_root + locale + ".manifest"
-	install  = chrome_root + "install.rdf"
-	shell(sed + manifest_file + " > " + manifest)
-	shell(sed + install_file  + " > " + install)
+	shell(sed + MANIFEST_FILE + " > " + CHROME_ROOT + tmpDir   + "chrome.manifest")
+	shell(sed + INSTALL_FILE  + " > " + CHROME_ROOT + tmpDir   + "install.rdf")
+	shell(sed + PREFS_FILE    + " > " + CHROME_ROOT + tmpPrefs + "prefs.js")
+
 	# make a JAR
-	os.chdir(chrome_root)
-	if os.path.exists(locale + ".jar"):
-		shell("rm " + locale + ".jar")
-	shell("zip -qr " + locale + ".jar " + locale)
+	os.chdir(CHROME_ROOT)
+	tmpJar = locale + ".jar"
+	if os.path.exists(tmpJar):
+		shell("rm " + tmpJar)
+	shell("zip -qr " + tmpJar + " " + locale)
+	shell("mv " + tmpJar + " " + tmpChrome)
+
 	# make an XPI
-	if os.path.exists(xpi):
-		shell("rm " + xpi)
-	shell("zip -qr " + xpi + " " + locale + ".jar " + locale + ".manifest install.rdf")
+	os.chdir(tmpDir)
+	shell("zip -qr " + xpiFile + " *")
+	shell("mv " + xpiFile + " ..")
+
 	# remove temp files
-	shell("rm " + locale + ".jar")
-	shell("rm " + manifest)
-	shell("rm " + install)
+	os.chdir("..")
+	shell("rm -rf " + tmpDir)
 
 
 ###############################################################################
@@ -180,12 +216,12 @@ def usage():
 	print 
 	print "index:"
 	print "    optional index file for the [copy|push|pull] commands"
-	print "    default is '" + index_file + "'"
+	print "    default is '" + INDEX_FILE + "'"
 	print 
 	print "current settings:"
-	print "    l10n directory        : " + l10n_root
-	print "    chrome-path directory : " + chrome_root
-	print "    Mozilla-CVS directory : " + import_dir
+	print "    l10n directory        : " + L10N_ROOT
+	print "    chrome-path directory : " + CHROME_ROOT
+	print "    Mozilla-CVS directory : " + IMPORT_ROOT
 	print "    (please edit this script if you want to change these settings)"
 	print 
 	print "examples:"
@@ -200,10 +236,10 @@ if len(sys.argv) < 3:
 else:
 	command    = sys.argv[1]
 	locale     = sys.argv[2]
-	chrome_dir = chrome_root + locale
-	l10n_dir   = l10n_root   + locale
+	chrome_dir = CHROME_ROOT + locale
+	l10n_dir   = L10N_ROOT   + locale
 	if len(sys.argv) > 3:
-		index_file = sys.argv[3]
+		INDEX_FILE = sys.argv[3]
 	# go, go, go!
 	if (command == "copy"):
 		l10nCopy(l10n_import + sys.argv[2], l10n_dir)
