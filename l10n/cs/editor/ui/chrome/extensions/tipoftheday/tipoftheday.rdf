@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+<rss version="0.91">
+  <channel>
+    <title>KompoZer tipy</title>
+    <link>http://www.kompozer.net/</link>
+    <description>Archiv KompoZer tipu  na každý den</description>
+     <language>cs-cz</language>
+  
+    <item>
+      <title>...umí přesouvat prvky?</title>
+        <description>Když chcete umístit mezeru do bloku, který chceš přesunout
+		     jednou klikni na tlačítko Vrstva aby se dal blok přesunout
+		   </description>
+    </item>
+  
+    <item>
+      <title>...umí přízpůsobit panel nástrojů</title>
+      <description>Použitím menu  „Zobrazit > Zobrazit/Skrýt Vlastní panel > 
+      		   Formátovat panel. Kliknutím otevřete nástroj na 
+		   přizpůsobení panelu. Pomocí jednuduchého přetažení můžete 
+		   přidávat nebo odebírat tlačítka a také prostory/oddělovače.  
+      </description>
+    </item>
+  
+    <item>
+      <title>...umí vytvořit nový panel nástrojů?</title>
+      <description>Použitím menu „Zobrazit > Zobrazit/Skrýt > Vlastní panel > 
+      		Úprava panelu“ se otevře panel nástrojů na úpravu panelu. 
+		Když kliknete na „Přidat nový panel“ zobrazí se okno do
+		kterého zadáte jméno noveho panelu. 
+		Prazdný panel se automaticky schová když se uzavře panel 
+		nástrojů.</description>
+    </item>
+  
+    <item>
+      <title>...má KompoZer vlastní CSS editor?</title>
+      <description>V KompoZeru je integrovaný kaskádový CSS editor. 
+      		   Otevře se pomocí Nástroje > CSS Editor.</description>
+    </item>
+  
+    <item>
+      <title>...má KompoZer Správce stránek?</title>
+      <description>Použitím klávesy F9 nebo „Zobrazit > Zobrazit/Skrýt > 
+      Správce stránek. Po kliknutí se zobrazí nebo skryje Správce stránek. 
+      </description>
+    </item>
+
+    <item>
+      <title>...umí použít CSS styly na jakýkoliv prvek?</title>
+      <description>Umístěte "kurzor" k prvku který si přejete upravit a 
+      		   pravým tlačítkem klikněte na značku prvku ve struktuře 
+		       panelu nástrojů dole v hlavním okně KompoZeru. 
+		       Tento "Inline styl" vás nechá upravit přímo danou položku.
+		   </description>
+    </item>
+
+    <item>
+      <title>...umí kontrolovat směr psaní?</title>
+      <description>Do vlastního panelu nástrojů můžete přidat dvě 
+      		   kontrolní tlačítka.</description>
+    </item>
+
+    <item>
+      <title>...umí změnit velikost tabulky pomocí myši?</title>
+      <description>Ve chvíli zobrazení rozměru dokumentu použitím Zobrazit > 
+      		   Zobrazit/Skrýt > Zobrazit rozměr. Tak se objeví rozměry 
+		       buňky a tabulky </description>
+    </item>
+
+    <item>
+      <title>...umí velmi snadno vytvořit vlastní panel nástrojů?</title>
+      <description>klepnutím pravým tlačítkem na něj...</description>
+    </item>
+
+    <!--<item>
+      <title>...má vlastní připojení ke komunitě uživatelů KompoZeru?</title>
+      <description>když vyberete Nápovědu > Fórum.</description>
+    </item>-->
+
+    <item>
+      <title>...umí KompoZer automaticky otevřít dokument při spuštění?</title>
+      <description>Použijte příkaz na příkazové řádce: 
+      		   KompoZer _vaše_url_</description>
+    </item>
+
+    <item>
+      <title>...umí editovat více než jeden web ve stejný okamžik?</title>
+      <description>Správce stránek umí otevřít a zobrazit obsah více 
+      		   nastavených webu ve stejný okamžik</description>
+    </item>
+
+    <item>
+      <title>...se dá KompoZer používat na více operačních systémech?</title>
+      <description>KompoZer existuje pro rozmanité operační systémy, 
+      		   včetně Windows, Mac OS X.a pro různé typy distribucí Linuxu, 
+		   OS/2, ...</description>
+    </item>
+    <item>
+      <title>....umí vytvořit nový panel pomocí klávesové zkratky?</title>
+      <description>Control+t (Command+t v Mac OS X) vytvoří nový prázdný panel</description>
+    </item>
+
+    <item>
+      <title>...umí vytvořit nové okno pomocí klávesové zkratky?</title>
+      <description>Control+shift+n (Command+shift+t on Mac OS X) vytvoří nové prázdné okno</description>
+    </item>
+  </channel>
+</rss>

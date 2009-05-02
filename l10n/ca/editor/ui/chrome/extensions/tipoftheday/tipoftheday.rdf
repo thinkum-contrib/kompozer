@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is Linspire Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
+]>
+<rss version="0.91">
+  <channel>
+    <title>Trucs del &brandShortName;</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>Fitxer de consells diaris del &brandShortName;</description>
+    <language>ca-AD</language>
+  
+<item>
+      <title>...és possible moure elements?</title>
+      <description>Simplement col·loqueu el cursor en el bloc que volgueu moure i feu clic una vegada en el botó de Capa per a que el bloc es converteixi en movible.
+      </description>
+    </item>
+  
+    <item>
+      <title>...és possible personalitzar les barres d'eines?</title>
+      <description>Utilitzeu el menú "Visualitza > Mostra/Amaga > Personalitza barra d'eines" per a obrir el quadre de personalització de la barra d'eines. Llavors arrossegueu i deixeu anar per afegir, moure o suprimir botons i espais/separadors.
+      </description>
+    </item>
+  
+    <item>
+      <title>...podeu crear una nova barra d'eines?</title>
+      <description>Utilitzeu el menú "Visualitza > Mostra/Amaga > Personalitza Barra d'eines > Formategeu barra d'eines" per obrir el quadre de personalització de la barra d'eines. Llavors, feu clic en el botó "Afegeix nova barra d'eines". Les barres d'eines que estiguin buides s'eliminaran automàticament quan el quadre de personalització es tanqui.</description>
+    </item>
+  
+    <item>
+      <title>...el &brandShortName; conté un editor de CSS?</title>
+      <description>El &brandShortName; integra un editor de CSS (CaScadeS). Obriu-lo utilitzant el menú "Eines > Editor de CSS".</description>
+    </item>
+  
+    <item>
+      <title>...el &brandShortName; té un Gestor de Llocs Web?</title>
+      <description>Utilitzeu la tecla F9 o el menú "Visualitza > Mostra/Amaga > Gestor de Llocs Web" per mostrar o amagar el Gestor de Llocs Web.</description>
+    </item>  
+
+    <item>
+      <title>...podeu controlar la direcció d'escriptura?</title>
+      <description>Personalitzeu les seves barres d'eines i afegiu-hi els dos botons de control de direcció.</description>
+    </item>
+
+    <item>
+      <title>...podeu redimensionar una taula amb el ratolí?</title>
+      <description>Simplement mostreu les regles utilitzant "Visualitza > Mostra/Amaga > Regles", col·loqueu el cursor dins una cel·la de la taula per a veure com apareixen les eines de redimensionament.
+      </description>
+    </item>
+
+    <item>
+      <title>...podeu personalitzar una barra d'eines molt fàcilment?</title>
+      <description>Simplement fent clic en el botó dret sobre seu...</description>
+    </item>
+
+    <item>
+      <title>...teniu accés directe amb la comunitat del &brandShortName;?</title>
+      <description>Simplement seleccioneu l'entrada del menú Ajuda > Fòrums.</description>
+    </item>
+
+    <item>
+      <title>...el &brandShortName; pot obrir un document automàticament a l'engegada?</title>
+      <description>Utilitzeu en la línia de comandes: &brandShortName; http://www.softcatala.org</description>
+    </item>
+
+    <item>
+      <title>...podeu editar més d'un lloc web a la vegada?</title>
+      <description>El gestor de llocs web pot obrir i mostrar els continguts de múltiples llocs web a la vegada.</description>
+    </item>
+
+    <item>
+      <title>...el &brandShortName; és multi-plataforma?</title>
+      <description>El &brandShortName; està present en una àmplia gamma de sistemes operatius, com Windows, Mac OS X, moltes varietats de GNU/Linux, OS/2, ...</description>
+    </item>
+
+    <item>
+      <title>...podeu crear una nova pestanya amb una combinació de tecles?</title>
+      <description>Control+t (Command+t a Mac OS X) crearà una nova pestanya en blanc</description>
+    </item>
+
+    <item>
+      <title>...podeu crear una nova finestra amb una combinació de tecles?</title>
+      <description>Control+shift+n (Command+shift+t a Mac OS X) crearà una nova finestra en blanc</description>
+    </item>
+
+    <item>
+      <title>...podeu canviar el contorn de forma individual en una sola cel·la d'una taula?</title>
+      <description>Col·loqueu el cursor en aquesta cel·la, feu clic amb el botó dret en la cel·la en la barra d'estat i selecioneu "Insereix estils > Propietats del contorn"</description>
+    </item>
+
+    <item>
+      <title>...podeu tancar una pestanya fent solament un clic?</title>
+      <description>Simplement feu clic en el botó central del vostre ratolí en la pestanya corresponent.</description>
+    </item>
+
+    <item>
+      <title>...podeu tancar la pestanya actual amb una sola tecla?</title>
+      <description>Fent Control-F4 tancarà la pestanya en la qual estigueu treballant actualment.</description>
+    </item>
+  </channel>
+</rss>
+

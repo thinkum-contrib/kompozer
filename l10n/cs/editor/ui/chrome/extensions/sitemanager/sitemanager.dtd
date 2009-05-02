@@ -1,0 +1,21 @@
+<!ENTITY createDir.label "Nový podadresář">
+<!ENTITY createDirButton.tooltip "Nový adresář">
+<!ENTITY createdir.accesskey "N">
+<!ENTITY deleteFile.label "Smazat soubor">
+<!ENTITY deletefile.accesskey "D">
+<!ENTITY editSitesList.label "Nastavení">
+<!ENTITY filenameColumn.label "Název">
+<!ENTITY filterAll.label "Všechny soubory">
+<!ENTITY filterControl.label "Pohled:">
+<!ENTITY filterHTML.label "HTML dokumenty">
+<!ENTITY filterImages.label "Soubory s obrázky">
+<!ENTITY lastModifiedColumn.label "Naposledy upravováno">
+<!ENTITY reloadButton.tooltip "Obnovit">
+<!ENTITY removeButton.tooltip "Smazat">
+<!ENTITY removeDir.label "Odstranit adresář">
+<!ENTITY removedir.accesskey "R">
+<!ENTITY renameButton.tooltip "Přejmenovat soubor nebo adresář">
+<!ENTITY renameMenu.label "Přejmenovat">
+<!ENTITY sizeColumn.label "Velikost">
+<!ENTITY stopButton.tooltip "Zastavit">
+<!ENTITY treeViewCheckbox.label "Zobrazit strom">
