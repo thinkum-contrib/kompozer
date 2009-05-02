@@ -1,40 +1,57 @@
 #!/usr/bin/python
-# l10n utility script for KompoZer 0.8
+# purpose     : l10n utility script for KompoZer 0.8
+# developer   : Fabien Cazenave <kaze@kompozer.net>
+# last update : 2009-05-02
+
+###############################################################################
+#                                                                             #
+#                                WTFPL v2                                     #
+#                DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE                  #
+#                        Version 2, December 2004                             #
+#                                                                             #
+#     Copyright (C) 2004 Sam Hocevar                                          #
+#                        14 rue de Plaisance, 75014 Paris, France             #
+#     Everyone is permitted to copy and distribute verbatim or modified       #
+#     copies of this license document, and changing it is allowed as long     #
+#     as the name is changed.                                                 #
+#                                                                             #
+#                DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE                  #
+#      TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION        #
+#                                                                             #
+#      0. You just DO WHAT THE FUCK YOU WANT TO.                              #
+#                                                                             #
+###############################################################################
 
 # This program is free software. It comes without any warranty, to
 # the extent permitted by applicable law. You can redistribute it
 # and/or modify it under the terms of the WTFPL, version 2.
 
-#                            WTFPL v2
-#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-#                    Version 2, December 2004
-#
-# Copyright (C) 2004 Sam Hocevar
-#  14 rue de Plaisance, 75014 Paris, France
-# Everyone is permitted to copy and distribute verbatim or modified
-# copies of this license document, and changing it is allowed as long
-# as the name is changed.
-#
-#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-#   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-#
-#  0. You just DO WHAT THE FUCK YOU WANT TO. 
-
 import os
 import sys
 
-# adapt these lines to your config
-l10n_root   = "l10n/"
-chrome_root = "../chrome/"
-import_dir  = "../l10n.CVS/"
-index_file  = "index.mn"
-brand_file  = "l10n/brand.dtd"
-tmp_dir     = "../tmp"
+# preferences: adapt these lines to your config
+l10n_root     = "l10n/"
+chrome_root   = "../chrome/"
+import_dir    = "../l10n.CVS/"
+index_file    = "index.mn"
+
+# these files should be in the l10n directory
+brand_file    = l10n_root + "brand.dtd"
+install_file  = l10n_root + "install.rdf"
+manifest_file = l10n_root + "locale.manifest"
+version_file  = l10n_root + "version.txt"
 
 # don't touch this unless you know what you're doing
-l10n_sep    = "(l10n)"
-chrome_sep  = "(chrome)"
-debug       = 0
+l10n_sep      = "(l10n)"
+chrome_sep    = "(chrome)"
+debug         = 0
+
+
+###############################################################################
+#                                                                             #
+#     Helper functions                                                        #
+#                                                                             #
+###############################################################################
 
 # shell access, check the value of "debug"
 def shell(cmd):
@@ -45,16 +62,31 @@ def shell(cmd):
 
 # copy source to dest and create directory if needed
 def xcopy(source, dest):
-  # warning: won't work on Windows unless you're in a Cygwin shell
+	# warning: won't work on Windows unless you're in a Cygwin shell
 	if os.path.exists(source):
 		shell("mkdir -p " + dest.rpartition("/")[0])
 		shell("cp -p " + source + " " + dest)
 	else:
 		print("### could not find " + source)
 
+
+###############################################################################
+#                                                                             #
+#     l10n converters                                                         #
+#                                                                             #
+###############################################################################
+
+# copy all locales from "l10n.CVS" to "l10n", check value of "import_dir" above
+def l10nCopyAll():
+	dirList = os.listdir(import_dir)
+	for dir in dirList:
+		if dir != "CVS":
+			l10nCopy(import_dir + dir, "l10n/" + dir)
+
 # import relevant files in the Mozilla CVS trunk (= 1.8.1) to the KompoZer l10n repository
 # cvs -d :pserver:anonymous@cvs-mirror.mozilla.org/l10n co l10n
 def l10nCopy(source_dir, dest_dir):
+	print "copying " + source_dir + " to " + dest_dir + ", following " + index_file
 	infile = open(index_file, "r")
 	for line in infile:
 		# ignore line if l10n is not defined
@@ -66,14 +98,6 @@ def l10nCopy(source_dir, dest_dir):
 			dest      = dest_dir   + l10n_file
 			# copy file to l10n directory
 			xcopy(source, dest)
-
-# copy all locales from "l10n.CVS" to "l10n"
-# check value of "import_dir" above
-def l10nCopyAll():
-  dirList = os.listdir(import_dir)
-  for dir in dirList:
-    if dir != "CVS":
-      l10nCopy(import_dir + dir, "l10n/" + dir)
 
 # import chrome files into the l10n repository
 def chrome2l10n(chrome_dir, l10n_dir, index_file):
@@ -109,48 +133,64 @@ def l10n2chrome(l10n_dir, chrome_dir):
 
 # create XPI langpack from a chrome-path directory
 def chrome2xpi(locale):
-  # warning: won't work on Windows unless you're in a Cygwin shell
-  sed = "sed s/@AB_CD@/" + locale + "/g " + l10n_root
-  # replace @AB_CD@ with 'locale' in *.manifest and install.rdf
-  manifest = chrome_root + locale + ".manifest"
-  install  = chrome_root + "install.rdf"
-  shell(sed + "locale.manifest > " + manifest)
-  shell(sed + "install.rdf > " + install)
-  # make a JAR
-  os.chdir(chrome_root)
-  if os.path.exists(locale + ".jar"):
-    shell("rm " + locale + ".jar")
-  shell("zip -qr " + locale + ".jar " + locale)
-  # make an XPI
-  shell("zip -qr " + locale + ".xpi " + locale + ".jar " + locale + ".manifest install.rdf")
-  # remove temp files
-  shell("rm " + locale + ".jar")
-  shell("rm " + manifest)
-  shell("rm " + install)
+	xpi = "kompozer-" + locale + ".xpi"
+	print "making " + xpi
+	# warning: won't work on Windows unless you're in a Cygwin shell
+	sed = "sed s/@AB_CD@/" + locale + "/g "
+	# replace @AB_CD@ with 'locale' in *.manifest and install.rdf
+	manifest = chrome_root + locale + ".manifest"
+	install  = chrome_root + "install.rdf"
+	shell(sed + manifest_file + " > " + manifest)
+	shell(sed + install_file  + " > " + install)
+	# make a JAR
+	os.chdir(chrome_root)
+	if os.path.exists(locale + ".jar"):
+		shell("rm " + locale + ".jar")
+	shell("zip -qr " + locale + ".jar " + locale)
+	# make an XPI
+	if os.path.exists(xpi):
+		shell("rm " + xpi)
+	shell("zip -qr " + xpi + " " + locale + ".jar " + locale + ".manifest install.rdf")
+	# remove temp files
+	shell("rm " + locale + ".jar")
+	shell("rm " + manifest)
+	shell("rm " + install)
+
+
+###############################################################################
+#                                                                             #
+#     Command-line handling                                                   #
+#                                                                             #
+###############################################################################
 
 # script usage information
 def usage():
+	print 
 	print "usage:"
 	print "    ./convert-locales.py <command> locale [index]"
 	print 
 	print "command:"
-	print "    copy   : copy all files required by KompoZer from an Mozilla-CVS l10n directory"
-	print "    import : import files from the chrome-path directory into the l10n directory"
-	print "    export : export files from the l10n directory to the chrome-path directory"
-	print "    make   : create an XPI langpack from the chrome-path directory"
+	print "    copy : copy all files required by KompoZer from a Mozilla-CVS l10n directory"
+	print "    push : copy files from the chrome-path directory to the l10n directory"
+	print "    pull : copy files from the l10n directory to the chrome-path directory"
+	print "    make : create an XPI langpack from the chrome-path directory"
 	print 
 	print "locale:"
 	print "    locale identifier, e.g. 'en-US' or 'fr'"
 	print 
 	print "index:"
-	print "    optional index file for the 'import' command - default is 'index.mn'"
+	print "    optional index file for the [copy|push|pull] commands"
+	print "    default is '" + index_file + "'"
 	print 
-	print "options:"
-	print "    please edit this script to set specific options"
+	print "current settings:"
+	print "    l10n directory        : " + l10n_root
+	print "    chrome-path directory : " + chrome_root
+	print "    Mozilla-CVS directory : " + import_dir
+	print "    (please edit this script if you want to change these settings)"
 	print 
 	print "examples:"
-	print "    ./convert-locales.py import en-US"
-	print "    ./convert-locales.py export fr"
+	print "    ./convert-locales.py push en-US"
+	print "    ./convert-locales.py pull fr"
 	print "    ./convert-locales.py make fr"
 	print 
 
@@ -167,9 +207,9 @@ else:
 	# go, go, go!
 	if (command == "copy"):
 		l10nCopy(l10n_import + sys.argv[2], l10n_dir)
-	elif (command == "import"):
+	elif (command == "push"):
 		chrome2l10n(chrome_dir, l10n_dir)
-	elif (command == "export"):
+	elif (command == "pull"):
 		l10n2chrome(l10n_dir, chrome_dir)
 	elif (command == "make"):
 		chrome2xpi(locale)
