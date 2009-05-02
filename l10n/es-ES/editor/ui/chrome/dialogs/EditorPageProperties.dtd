@@ -1,0 +1,25 @@
+<!ENTITY windowTitle.label "Propiedades de la página">
+<!ENTITY general.label "Información general">
+<!ENTITY location.label "Ubicación:">
+<!ENTITY lastModified.label "Última modificación:">
+<!ENTITY titleInput.label "Título:">
+<!ENTITY titleInput.accessKey "T">
+<!ENTITY authorInput.label "Autor:">
+<!ENTITY authorInput.accessKey "A">
+<!ENTITY descriptionInput.label "Descripción:">
+<!ENTITY descriptionInput.accessKey "D">
+<!ENTITY locationNewPage.label "[Nueva página, aún no ha sido guardada]">
+<!ENTITY EditHEADSource1.label "Usuarios avanzados:">
+<!ENTITY EditHEADSource2.label "Para editar otros contenidos de la región &lt;head&gt; utilice &quot;Código HTML&quot; en el menú Ver o en la barra de edición.">
+<!ENTITY template.label "Plantillas">
+<!ENTITY templateCheckbox.label "Esta página es una plantilla">
+<!ENTITY fromTemplate.label "Este documento está enlazado con una plantilla">
+<!ENTITY i18nHeader "Internacionalización">
+<!ENTITY writingDirection.label "Direc. escritura:">
+<!ENTITY defaultDirectionRadio.label "Sin especificar">
+<!ENTITY ltrDirectionRadio.label "De izquierda a derecha">
+<!ENTITY rtlDirectionRadio.label "De derecha a izquierda">
+<!ENTITY language.label "Idioma:">
+<!ENTITY languageChoiceButton.label "Elija un idioma">
+<!ENTITY defaultCharset.label "Conjunto caract.:">
+<!ENTITY chooseCharsetButton.label "Elegir conjunto">

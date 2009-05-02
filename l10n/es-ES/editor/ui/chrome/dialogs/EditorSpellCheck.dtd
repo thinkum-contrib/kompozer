@@ -1,0 +1,32 @@
+<!ENTITY windowTitle.label "Corrector ortográfico">
+<!ENTITY misspelledWord.label "Palabra incorrecta:">
+<!ENTITY wordEditField.label "Reemplazar con:">
+<!ENTITY wordEditField.accessKey "z">
+<!ENTITY checkwordButton.label "Revisar palabra">
+<!ENTITY checkwordButton.accessKey "p">
+<!ENTITY suggestions.label "Sugerencias:">
+<!ENTITY suggestions.accessKey "u">
+<!ENTITY ignoreButton.label "Ignorar">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreAllButton.label "Ignorar todo">
+<!ENTITY ignoreAllButton.accessKey "n">
+<!ENTITY replaceButton.label "Reemplazar">
+<!ENTITY replaceButton.accessKey "R">
+<!ENTITY replaceAllButton.label "Reemplazar todo">
+<!ENTITY replaceAllButton.accessKey "t">
+<!ENTITY stopButton.label "Parar">
+<!ENTITY stopButton.accessKey "P">
+<!ENTITY userDictionary.label "Diccionario personal:">
+<!ENTITY moreDictionaries.label "Descargar más">
+<!ENTITY addToUserDictionaryButton.label "Añadir palabra">
+<!ENTITY addToUserDictionaryButton.accessKey "d">
+<!ENTITY editUserDictionaryButton.label "Editar...">
+<!ENTITY editUserDictionaryButton.accessKey "E">
+<!ENTITY recheckButton.label "Revisar de nuevo">
+<!ENTITY recheckButton.accessKey "v">
+<!ENTITY closeButton.label "Cerrar">
+<!ENTITY closeButton.accessKey "C">
+<!ENTITY sendButton.label "Enviar">
+<!ENTITY sendButton.accessKey "v">
+<!ENTITY languagePopup.label "Idioma:">
+<!ENTITY languagePopup.accessKey "m">

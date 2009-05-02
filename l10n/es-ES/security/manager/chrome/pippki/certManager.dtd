@@ -1,0 +1,76 @@
+<!ENTITY certmgr.title "Administrador de certificados">
+<!ENTITY certmgr.tab.mine "Sus certificados">
+<!ENTITY certmgr.tab.others "De otras personas">
+<!ENTITY certmgr.tab.websites "Sitios web">
+<!ENTITY certmgr.tab.ca "Autoridades">
+<!ENTITY certmgr.ca.builtins "CAs integradas">
+<!ENTITY certmgr.ca.mycas "CAs gestionadas por usted">
+<!ENTITY certmgr.mine "Tiene certificados de estas organizaciones que le identifican a usted:">
+<!ENTITY certmgr.others "Tiene certificados archivados que identifican a estas personas:">
+<!ENTITY certmgr.websites "Tiene certificados archivados que identifican estos sitios web:">
+<!ENTITY certmgr.cas "Tiene certificados archivados que identifican a estas autoridades certificadoras:">
+<!ENTITY certmgr.detail.general_tab.title "General">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Detalles">
+<!ENTITY certmgr.subjectinfo.label "Emitido para">
+<!ENTITY certmgr.issuerinfo.label "Emitido por">
+<!ENTITY certmgr.validity.label "Validez">
+<!ENTITY certmgr.fingerprints.label "Huellas digitales">
+<!ENTITY certmgr.certdetail.title "Detalle del certificado">
+<!ENTITY certmgr.certdetail.cn "Nombre común (CN)">
+<!ENTITY certmgr.certdetail.o "Organización (O)">
+<!ENTITY certmgr.certdetail.ou "Unidad organizativa (OU)">
+<!ENTITY certmgr.certdetail.serialnumber "Número de serie">
+<!ENTITY certmgr.certdetail.sha1fingerprint "Huella digital SHA1">
+<!ENTITY certmgr.certdetail.md5fingerprint "Huella digital MD5">
+<!ENTITY certmgr.editcert.title "Editar la configuración de los certificados de seguridad">
+<!ENTITY certmgr.editcacert.title "Editar configuración de confianza de la CA">
+<!ENTITY certmgr.editsslcert.title "Editar configuración de confianza en el sitio web">
+<!ENTITY certmgr.editcert.edittrust "Editar configuraciones de confianza:">
+<!ENTITY certmgr.editcert.trustssl "Este certificado puede identificar sitios web.">
+<!ENTITY certmgr.editcert.trustemail "Este certificado puede identificar a los usuarios de correo.">
+<!ENTITY certmgr.editcert.trustobjsign "Este certificado puede identificar desarrolladores de software.">
+<!ENTITY certmgr.editsslcert.edittrust "Editar opciones de confianza para el certificado:">
+<!ENTITY certmgr.editsslcert.dotrust "Confiar en la autenticidad de este certificado.">
+<!ENTITY certmgr.editsslcert.donttrust "No confiar en la autenticidad de este certificado.">
+<!ENTITY certmgr.editemailcert.title "Editar la configuración de confianza en certificados de correo electrónico">
+<!ENTITY certmgr.editemailcert.edittrust "Editar la configuración de confianza en certificados:">
+<!ENTITY certmgr.editemailcert.dotrust "Confiar en la autenticidad de este certificado.">
+<!ENTITY certmgr.editemailcert.donttrust "No confiar en la autenticidad de este certificado.">
+<!ENTITY certmgr.deletecert.title "Eliminar certificado">
+<!ENTITY certmgr.deletecert.beforename "Ha pedido que se elimine este certificado:">
+<!ENTITY certmgr.deletecert.aftername "¿Esta seguro de que quiere eliminar este certificado?">
+<!ENTITY certmgr.deleteusercert.title "Eliminar su certificado">
+<!ENTITY certmgr.deleteusercert.beforename "Ha pedido la eliminación de este certificado:">
+<!ENTITY certmgr.deleteusercert.aftername "Una vez haya eliminado este certificado, no podrá leer el correo que haya sido cifrado con él.">
+<!ENTITY certmgr.certname "Nombre del certificado">
+<!ENTITY certmgr.tokenname "Dispositivo de seguridad">
+<!ENTITY certmgr.purpose "Propósitos">
+<!ENTITY certmgr.issued "Emitido el">
+<!ENTITY certmgr.expires "Expira el">
+<!ENTITY certmgr.email "Dirección de correo electrónico">
+<!ENTITY certmgr.serial "Número de serie">
+<!ENTITY certmgr.ocsp_info "Los certificados no han sido validados con OCSP. Haga clic en Ver para hacerlo.">
+<!ENTITY certmgr.close.label "Cerrar">
+<!ENTITY certmgr.close.accesskey "C">
+<!ENTITY certmgr.view.label "Ver">
+<!ENTITY certmgr.view.accesskey "V">
+<!ENTITY certmgr.edit.label "Editar">
+<!ENTITY certmgr.edit.accesskey "E">
+<!ENTITY certmgr.editca.label "Editar confianza de la CA">
+<!ENTITY certmgr.editca.accesskey "d">
+<!ENTITY certmgr.add.label "Añadir">
+<!ENTITY certmgr.add.accesskey "A">
+<!ENTITY certmgr.delete.label "Borrar">
+<!ENTITY certmgr.delete.accesskey "B">
+<!ENTITY certmgr.backup.label "Copia de seguridad">
+<!ENTITY certmgr.backup.accesskey "g">
+<!ENTITY certmgr.backupall.label "Copia de seg. de todo">
+<!ENTITY certmgr.backupall.accesskey "t">
+<!ENTITY certmgr.restore.label "Importar">
+<!ENTITY certmgr.restore.accesskey "m">
+<!ENTITY certmgr.details.label "Campos del certificado">
+<!ENTITY certmgr.details.accesskey "F">
+<!ENTITY certmgr.fields.label "Valor del campo">
+<!ENTITY certmgr.fields.accesskey "V">
+<!ENTITY certmgr.hierarchy.label "Jerarquía de certificados">
+<!ENTITY certmgr.hierarchy.accesskey "C">

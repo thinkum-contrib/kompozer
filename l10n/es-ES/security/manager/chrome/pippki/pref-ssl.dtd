@@ -1,0 +1,26 @@
+<!ENTITY SSLProtocolVersions.caption "Versiones del protocolo SSL">
+<!ENTITY SSLWarnings.caption "Advertencias SSL">
+<!ENTITY SSLClientAuthMethod.caption "Selección de certificado de sesión">
+<!ENTITY pref.ssl.title "Capa de Conexiones Seguras (SSL)">
+<!ENTITY enable.ssl3 "Habilitar SSL versión 3">
+<!ENTITY enable.ssl3.accesskey "3">
+<!ENTITY enable.tls "Habilitar TLS">
+<!ENTITY enable.tls.accesskey "T">
+<!ENTITY warn.description "&brandShortName; puede alertarle del estado de seguridad de la página web que está viendo. Configure &brandShortName; para mostrar una advertencia y pedir permiso antes de:">
+<!ENTITY warn.enteringsecure "Cargar una página que utiliza cifrado">
+<!ENTITY warn.enteringsecure.accesskey "C">
+<!ENTITY warn.enteringweak "Cargar una página que utiliza cifrado de bajo nivel">
+<!ENTITY warn.enteringweak.accesskey "o">
+<!ENTITY warn.insecurepost "Enviar datos de formulario desde una página sin cifrar a otra sin cifrar">
+<!ENTITY warn.insecurepost.accesskey "S">
+<!ENTITY warn.leavingsecure "Abandonar una página que utiliza cifrado">
+<!ENTITY warn.leavingsecure.accesskey "A">
+<!ENTITY warn.secureredirect "Redireccionar desde una página cifrada a otra">
+<!ENTITY warn.secureredirecttoinsecure "Redireccionar desde una página cifrada hacia otra página sin cifrar.">
+<!ENTITY warn.viewmixed "Ver una página con una mezcla de contenido cifrado/sin cifrar">
+<!ENTITY warn.viewmixed.accesskey "V">
+<!ENTITY certselect.description "Decida cómo seleccionará &brandShortName; un certificado de seguridad para presentar a los sitios web que requieran uno:">
+<!ENTITY certselect.auto "Seleccionar automáticamente">
+<!ENTITY certselect.auto.accesskey "A">
+<!ENTITY certselect.ask "Preguntar cada vez">
+<!ENTITY certselect.ask.accesskey "E">

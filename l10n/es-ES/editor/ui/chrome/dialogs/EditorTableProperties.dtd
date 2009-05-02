@@ -1,0 +1,72 @@
+<!ENTITY tableWindow.title "Propiedades de la tabla">
+<!ENTITY tableTab.label "Tabla">
+<!ENTITY cellTab.label "Celdas">
+<!ENTITY tableRows.label "Filas:">
+<!ENTITY tableRows.accessKey "F">
+<!ENTITY tableColumns.label "Columnas:">
+<!ENTITY tableColumns.accessKey "C">
+<!ENTITY tableHeight.label "Altura:">
+<!ENTITY tableHeight.accessKey "l">
+<!ENTITY tableWidth.label "Anchura:">
+<!ENTITY tableWidth.accessKey "A">
+<!ENTITY tableBorderSpacing.label "Bordes y espaciado">
+<!ENTITY tableBorderWidth.label "Borde:">
+<!ENTITY tableBorderWidth.accessKey "B">
+<!ENTITY tableSpacing.label "Espaciado:">
+<!ENTITY tableSpacing.accessKey "I">
+<!ENTITY tablePadding.label "Relleno:">
+<!ENTITY tablePadding.accessKey "R">
+<!ENTITY tablePxBetwCells.label "píxeles entre celdas">
+<!ENTITY tablePxBetwBrdrCellContent.label "píxeles entre el borde de la celda y su contenido">
+<!ENTITY tableAlignment.label "Alineación de la tabla:">
+<!ENTITY tableAlignment.accessKey "b">
+<!ENTITY tableCaption.label "Título:">
+<!ENTITY tableCaption.accessKey "T">
+<!ENTITY tableCaptionAbove.label "Sobre la tabla">
+<!ENTITY tableCaptionBelow.label "Bajo la tabla">
+<!ENTITY tableCaptionLeft.label "A la izquierda de la tabla">
+<!ENTITY tableCaptionRight.label "A la derecha">
+<!ENTITY tableCaptionNone.label "Ninguno">
+<!ENTITY tableInheritColor.label "(Permitir que se vea el color de fondo de la página)">
+<!ENTITY cellPercent.label "porcentaje de la tabla">
+<!ENTITY cellSelection.label "Selección">
+<!ENTITY cellSelectCell.label "Celda">
+<!ENTITY cellSelectRow.label "Fila">
+<!ENTITY cellSelectColumn.label "Columna">
+<!ENTITY cellSelectNext.label "Siguiente">
+<!ENTITY cellSelectNext.accessKey "N">
+<!ENTITY cellSelectPrevious.label "Anterior">
+<!ENTITY cellSelectPrevious.accessKey "A">
+<!ENTITY cellApplyBeforeMove.label "Aplicar cambios antes de cambiar la selección">
+<!ENTITY cellKeepCurrentData.label "Mantener configuración actual">
+<!ENTITY applyBeforeChange1.label "Se aplicarán los cambios pendientes">
+<!ENTITY applyBeforeChange2.label "antes de cambiar la selección.">
+<!ENTITY cellRowSpan.label "Filas ocupadas:">
+<!ENTITY cellColSpan.label "Columnas ocupadas:">
+<!ENTITY cellContentAlignment.label "Alineación del contenido">
+<!ENTITY cellHorizontal.label "Horizontal:">
+<!ENTITY cellHorizontal.accessKey "Z">
+<!ENTITY cellVertical.label "Vertical:">
+<!ENTITY cellVertical.accessKey "V">
+<!ENTITY cellStyle.label "Estilo de celda:">
+<!ENTITY cellStyle.accessKey "C">
+<!ENTITY cellNormal.label "Normal">
+<!ENTITY cellHeader.label "Cabecera">
+<!ENTITY cellTextWrap.label "Ajuste del texto:">
+<!ENTITY cellTextWrap.accessKey "T">
+<!ENTITY cellWrap.label "Ajustar líneas">
+<!ENTITY cellNoWrap.label "No ajustar líneas">
+<!ENTITY cellAlignTop.label "Superior">
+<!ENTITY cellAlignMiddle.label "Medio">
+<!ENTITY cellAlignBottom.label "Inferior">
+<!ENTITY cellAlignJustify.label "Justificar">
+<!ENTITY cellAlignAtChar.label "En el carácter:">
+<!ENTITY cellInheritColor.label "(Permitir que se vea el color de fondo de la tabla)">
+<!ENTITY cellUseCheckboxHelp.label "Use las casillas de selección para determinar qué propiedades se aplican a todas las celdas seleccionadas">
+<!ENTITY size.label "Tamaño">
+<!ENTITY pixels.label "píxeles">
+<!ENTITY backgroundColor.label "Color de fondo:">
+<!ENTITY backgroundColor.accessKey "F">
+<!ENTITY AlignLeft.label "Izquierda">
+<!ENTITY AlignCenter.label "Centrada">
+<!ENTITY AlignRight.label "Derecha">

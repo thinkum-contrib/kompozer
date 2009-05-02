@@ -1,0 +1,60 @@
+<!ENTITY windowTitle.label "Propiedades de la imagen">
+<!ENTITY pixelsPopup.value "píxeles">
+<!ENTITY percentPopup.value "porcentaje">
+<!ENTITY locationEditField.label "Ubicación de la imagen:">
+<!ENTITY locationEditField.accessKey "l">
+<!ENTITY locationEditField.tooltip "Teclee el nombre de archivo de la imagen o su ubicación">
+<!ENTITY title.label "Título emergente:">
+<!ENTITY title.accessKey "t">
+<!ENTITY title.tooltip "El atributo HTML 'title' que se muestra como un título emergente">
+<!ENTITY altText.label "Texto alternativo:">
+<!ENTITY altText.accessKey "a">
+<!ENTITY altTextEditField.tooltip "Teclee el texto a mostrar en lugar de la imagen">
+<!ENTITY noAltText.label "No usar texto alternativo">
+<!ENTITY noAltText.accessKey "N">
+<!ENTITY previewBox.label "Vista preliminar">
+<!ENTITY MoreFewerButton.tooltip "Mostrar más o menos propiedades para editar">
+<!ENTITY actualSize.label "Tamaño real:">
+<!ENTITY actualSizeRadio.label "Tamaño real">
+<!ENTITY actualSizeRadio.accessKey "a">
+<!ENTITY actualSizeRadio.tooltip "Revertir la imagen a su tamaño real">
+<!ENTITY customSizeRadio.label "Tamaño personalizado">
+<!ENTITY customSizeRadio.accessKey "s">
+<!ENTITY customSizeRadio.tooltip "Cambia el tamaño de la imagen a como se muestra en la página">
+<!ENTITY heightEditField.label "Altura:">
+<!ENTITY heightEditField.accessKey "u">
+<!ENTITY widthEditField.label "Anchura:">
+<!ENTITY widthEditField.accessKey "n">
+<!ENTITY constrainCheckbox.label "Mantener proporciones">
+<!ENTITY constrainCheckbox.accessKey "c">
+<!ENTITY constrainCheckbox.tooltip "Mantiene la proporción en el aspecto de la imagen">
+<!ENTITY imagemapBox.label "Mapa de imagen">
+<!ENTITY removeImageMapButton.label "Eliminar">
+<!ENTITY removeImageMapButton.accessKey "r">
+<!ENTITY editImageMapButton.label "Editar...">
+<!ENTITY editImageMapButton.tooltip "Crear zonas activas para esta imagen">
+<!ENTITY alignment.label "Alinear el texto con la imagen">
+<!ENTITY bottomPopup.value "Debajo">
+<!ENTITY topPopup.value "Arriba">
+<!ENTITY centerPopup.value "En el centro">
+<!ENTITY wrapRightPopup.value "Fluir por la derecha">
+<!ENTITY wrapLeftPopup.value "Fluir por la izquierda">
+<!ENTITY spacingBox.label "Espacios">
+<!ENTITY spacingBox.tooltip "Teclee un número para la cantidad de espacio alrededor de la imagen">
+<!ENTITY leftRightEditField.label "Izquierda y derecha:">
+<!ENTITY leftRightEditField.accessKey "I">
+<!ENTITY topBottomEditField.label "Arriba y abajo:">
+<!ENTITY topBottomEditField.accessKey "A">
+<!ENTITY borderEditField.label "Borde sólido:">
+<!ENTITY borderEditField.accessKey "B">
+<!ENTITY showImageLinkBorder.label "Mostrar el borde alrededor de la imagen con enlace">
+<!ENTITY showImageLinkBorder.accessKey "b">
+<!ENTITY makePageBackgroundCheckbox.label "Hacer fondo de página">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Usa la imagen como fondo para la página">
+<!ENTITY editImageButton.label "Editar imagen">
+<!ENTITY editImageButton.tooltip "Edita el archivo de imagen con otro programa">
+<!ENTITY imageInputTab.label "Formulario">
+<!ENTITY imageLocationTab.label "Ubicación">
+<!ENTITY imageDimensionsTab.label "Dimensiones">
+<!ENTITY imageAppearanceTab.label "Apariencia">
+<!ENTITY imageLinkTab.label "Enlace">

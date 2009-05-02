@@ -1,0 +1,38 @@
+<!ENTITY printCmd.commandkey "p">
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY backButton.label "Atrás">
+<!ENTITY backButton.accesskey "t">
+<!ENTITY backButton.tooltip "Retroceder una página">
+<!ENTITY forwardButton.label "Siguiente">
+<!ENTITY forwardButton.accesskey "g">
+<!ENTITY forwardButton.tooltip "Avanzar una página">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY selectAllCmd.label "Seleccionar todo">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "Inicio">
+<!ENTITY homeButton.tooltip "Ir a la página de inicio">
+<!ENTITY printButton.label "Imprimir">
+<!ENTITY printButton.tooltip "Imprimir esta página">
+<!ENTITY closeWindow.commandkey "W">
+<!ENTITY throbberItem.title "Indicador de actividad">
+<!ENTITY throbber.tooltip "Ir a la sección de ayuda en la ayuda">
+<!ENTITY searchtab.label "Buscar">
+<!ENTITY searchtab.accesskey "S">
+<!ENTITY toctab.label "Contenido">
+<!ENTITY toctab.accesskey "C">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY helpSearch.commandkey "k">
+<!ENTITY zLevel.label "Siempre encima">
+<!ENTITY zLevel.accesskey "p">
+<!ENTITY textZoomReduceBtn.label "Reducir el tamaño del texto">
+<!ENTITY textZoomReduceBtn.accesskey "D">
+<!ENTITY textZoomEnlargeBtn.label "Aumentar el tamaño del texto">
+<!ENTITY textZoomEnlargeBtn.accesskey "n">

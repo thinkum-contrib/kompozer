@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Tutorial de &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+  var isDisplayed = true;
+
+  function togglePanel() {
+    isDisplayed = !isDisplayed;
+    var displayValue = isDisplayed ? "display: block" : "display: none";
+    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+    document.getElementById("contentsBox").setAttribute("style", displayValue);
+    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+  }
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
+  </tr>
+</table>
+
+  <div id="contentsBox">En esta secci&oacute;n:
+    <a href="#scope_of_this_tutorial">Alcance de este tutorial</a>
+    <a href="#introduction_to_the_user_interface">Introducci&oacute;n a la interfaz de usuario</a>
+    <a href="#starting_a_new_document">Iniciar un nuevo documento</a>
+    <a href="#basic_formatting_of_the_document">Formato b&aacute;sico del documento</a>
+    <a href="#inserting_images_and_tables">Insertar im&aacute;genes y tablas</a>
+    <a href="#advanced_styles">Estilos avanzados</a>
+    <a href="#publishing_your_documents_basics">Publicar sus documentos - conceptos b&aacute;sicos</a>
+  </div>
+
+    <h1 id="nvu_tutorial">Tutorial de &brandShortName;</h1>
+
+    <p>&brandShortName; es un sistema completo de autor&iacute;a web 
+    <q>lo que se ve es lo que se obtiene</q> de c&oacute;digo abierto. Est&aacute;
+    basado en Gecko, el motor de Mozilla. &brandShortName; es 
+    completamente libre y puede ser descargado del 
+    <a href="http://www.nvu.com/">sitio web de &brandShortName;</a>.</p>
+
+    <h2 id="scope_of_this_tutorial">Alcance de este tutorial</h2>
+
+    <p>Este tutorial est&aacute; dise&ntilde;ado para principiantes que sean
+    nuevos en el dise&ntilde;o de p&aacute;ginas web con un editor WYSIWYG.
+    El tutorial proporciona la ayuda estrictamente necesaria para iniciarse en
+    el uso de &brandShortName; para el dise&ntilde;o de p&aacute;ginas
+    web. No es una introducci&oacute;n a la codificaci&oacute;n HTML, XHTML, CSS, etc.
+    S&oacute;lo pretende dar una peque&ntilde;a introducci&oacute;n al uso de &brandShortName;.</p>
+
+    <p>El manual ni siquiera cubre todos los aspectos b&aacute;sicos de HTML en detalle.
+    S&iacute;, &eacute;ste es un peque&ntilde;o tutorial y algunas cosas b&aacute;sicas aunque no muy
+    importantes han quedado fuera. Le exhortamos a investigar m&aacute;s por s&iacute; mismo. El tutorial
+    tambi&eacute;n cubre una peque&ntilde;a introducci&oacute;n al uso de hojas de estilos en cascada con
+    el editor incluido, CaScadeS.</p>
+
+    <p>Aquellos que est&aacute;n m&aacute;s interesados en aprender HTML, CSS, etc. en
+    detalle, pueden ir a la <a href="http://www.w3.org/">p&aacute;gina del Consorcio
+    World Wide Web (W3C)</a>. Ah&iacute; encontrar&aacute;n informaci&oacute;n detallada
+    sobre varios est&aacute;ndares mantenidos por ellos. Tambi&eacute;n puede realizarse una
+    b&uacute;squeda en la WWW o consultar alguno de los muchos libros disponibles para aprender HTML.</p>
+
+    <!-- The approach of this tutorial is to give the most basic
+         instructions on getting major things done with Nvu. This will
+         give the user an idea as to how to achieve the objective of
+         the secion. In the end of each section a link should be
+         provided targetting corresponding section in the main Help
+         for detailed treatment of the same objective.-->
+
+    <h3 id="in_this_tutorial">En este tutorial</h3>
+
+    <p>Este tutorial primero le presenta la interfaz de &brandShortName;.
+    A continuaci&oacute;n sigue una secci&oacute;n b&aacute;sica de formato. La secci&oacute;n
+    siguiente explica c&oacute;mo insertar elementos tales como im&aacute;genes, tablas
+    y formularios en su documento. Despu&eacute;s hay una peque&ntilde;a secci&oacute;n
+    dedicada a estilizar el documento usando CSS. El documento concluye
+    con instrucciones para publicar su documento en un servidor web.</p>
+
+    <p>[ <a href="#scope_of_this_tutorial">Volver al principio de la secci&oacute;n</a> ]</p>
+
+    <h2 id="introduction_to_the_user_interface">Introducci&oacute;n a la interfaz de usuario</h2>
+
+    <p>El men&uacute; Archivo de &brandShortName; contiene men&uacute;s para todas las
+    operaciones principales durante su uso. Para una completa y detallada
+    referencia lea la p&aacute;gina <a href="menu_reference.xhtml">Referencia de los men&uacute;s</a>.
+    La barra de herramientas de la interfaz de usuario de &brandShortName;
+    consta de:</p>
+
+    <ul>
+      <li><a href="#composition_toolbar">Barra de redacci&oacute;n</a></li>
+      <li><a href="#format_toolbar">Barra de formato</a></li>
+      <li><a href="#tab_browser_toolbar">Barra de exploraci&oacute;n con pesta&ntilde;as</a></li>
+      <li><a href="#edit_mode_toolbar">Barra de modo de edici&oacute;n</a></li>
+      <li><a href="#status_toolbar">Barra de estado</a></li>
+    </ul>
+
+    <h3 id="composition_toolbar">Barra de redacci&oacute;n</h3>
+
+    <p>La barra de redacci&oacute;n consta de botones para las operaciones
+    m&aacute;s usadas. Debajo est&aacute; una captura de pantalla de la barra de
+    redacci&oacute;n predeterminada con texto debajo de cada bot&oacute;n indicando
+    la funci&oacute;n de cada uno.</p>
+
+    <p><img src="images/tut_composition_tb.png" title="Barra de redacci&oacute;n" width="802" height="55" alt="" /></p>
+
+    <h3 id="format_toolbar">Barra de formato</h3>
+
+    <p> La barra de formato es una herramienta muy &uacute;til cuando se
+    editan p&aacute;ginas con &brandShortName;. Con la barra de formato
+    usted puede aplicar formatos de p&aacute;rrafo, seleccionar un tipo de letra,
+    cambiar el color de primer plano y de fondo, aumentar o
+    disminuir el tama&ntilde;o de letra, y enfatizar un bloque de texto.
+    Tambi&eacute;n puede crear listas ordenadas o no ordenadas y justificar
+    un bloque de texto a la izquierda, derecha o al centro. Para saber
+    qu&eacute; hace cada bot&oacute;n, simplemente coloque el puntero del rat&oacute;n sobre el
+    mismo y aparecer&aacute; un t&iacute;tulo emergente indicando su funci&oacute;n.</p>
+
+    <p><img src="images/tut_formating_tb.png" title="Barra de formato" width="802" height="34" alt="" /></p>
+
+    <h3 id="tab_browser_toolbar">Barra de exploraci&oacute;n con pesta&ntilde;as</h3>
+
+    <p>&brandShortName; le permite editar simult&aacute;neamente m&uacute;ltiples
+    documentos web usando diferentes pesta&ntilde;as para cada documento abierto.
+    Tener varias pesta&ntilde;as le da una apariencia m&aacute;s limpia a su escritorio
+    ya que no quedar&aacute; abarrotado como sucede cuando se usan m&uacute;ltiples ventanas para
+    cada documento. Como indicador visual un <q><em>icono de un disquete rojo</em></q>
+    aparece en las p&aacute;ginas que han sido modificadas pero no guardadas.</p>
+
+    <p><img src="images/tut_tabbrowser_tb.png" title="Barra de pesta&ntilde;as" width="636" height="29" alt="" /></p>
+
+    <h3 id="edit_mode_toolbar">Barra de modo de edici&oacute;n</h3>
+
+    <p>La barra de modo de edici&oacute;n indica el modo de vista que est&aacute; 
+    activo en el documento actual. Los modos disponibles son Normal, Etiquetas
+    HTML, C&oacute;digo fuente (HTML) y Vista preliminar. Puede cambiar
+    f&aacute;cilmente el modo de vista simplemente haciendo clic en alguna
+    de las otras tres con el rat&oacute;n.</p>
+
+    <p><img src="images/tut_editmode_tb.png" title="Barra de modo de edici&oacute;n" width="408" height="30" alt="" /></p>
+
+    <h3 id="status_toolbar">Barra de estado</h3>
+    
+    <p>La barra de estado de &brandShortName; muestra la posici&oacute;n del 
+    cursor con respecto a la jerarqu&iacute;a de etiquetas HTML. Usted puede 
+    editar/asignar f&aacute;cilmente las propiedades de cualquier etiqueta en 
+    particular en la barra de estado haciendo clic con el bot&oacute;n derecho en la
+    barra de estado y seleccionando la opci&oacute;n deseada. Una pulsaci&oacute;n
+    simple con el bot&oacute;n izquierdo en una etiqueta en la barra de estado
+    selecciona el texto rodeado por esa etiqueta.</p>
+
+    <p><img src="images/tut_status_tb.png" title="Barra de estado" width="326" height="48" alt="" /></p>
+
+
+    <p>[ <a href="#introduction_to_the_user_interface">Volver al principio de la secci&oacute;n</a> ]</p>
+
+    <h2 id="starting_a_new_document">Iniciar un nuevo documento</h2>
+
+    <p>Puede iniciar un nuevo documento pulsando el bot&oacute;n "Nuevo" de la barra de
+    redacci&oacute;n o haciendo clic en Archivo &gt; Nuevo y seleccionando <q>Un
+    documento vac&iacute;o</q> y despu&eacute;s pulsando <q>Crear</q>. En caso de que
+    desee editar un documento existente, use Archivo &gt; Abrir y seleccione el
+    archivo que desea editar. Para obtener instrucciones detalladas, revise la
+    secci&oacute;n <a href="composer_help.xhtml#starting_a_new_page">Comenzar una
+    nueva p&aacute;gina</a> en la documentaci&oacute;n de ayuda de &brandShortName;.</p>
+
+    <p>Tambi&eacute;n puede iniciar un nuevo documento que sea una plantilla en lugar de
+    un archivo html normal. Las plantillas se usan para hacer el mantenimiento del
+    sitio web mas sencillo, ya que s&oacute;lo necesitar&aacute; editar el texto de una
+    p&aacute;gina en particular y no preocuparse por el dise&ntilde;o, ya que &eacute;ste
+    est&aacute; controlado por una plantilla. Este tutorial no ir&aacute; mas
+    all&aacute; en la creaci&oacute;n y uso de plantillas. Puede obtenerse m&aacute;s
+    informaci&oacute;n acerca de las plantillas en la secci&oacute;n <a 
+    href="composer_help.xhtml#working_with_templates">Trabajar con plantillas</a>
+    en la documentaci&oacute;n de ayuda de &brandShortName;</p>
+    
+    <p>[ <a href="#starting_a_new_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+    <h2 id="basic_formatting_of_the_document">Formato b&aacute;sico del documento</h2>
+
+    <p>Usaremos el texto de muestra de la siguiente secci&oacute;n en el nuevo
+    documento en &brandShortName; para seguir la ayuda de formato en este tutorial.
+    El texto se usar&aacute; como base para aprender las funciones b&aacute;sicas de formato
+    disponibles en &brandShortName;. Copie el texto de la siguiente secci&oacute;n
+    y p&eacute;guelo en su nuevo documento.</p>
+
+    <h3 id="tutorial_text">Texto del tutorial</h3>
+
+    <!-- The text for the tutorial is a general text. It was by chance
+         that I was reading a book by Jim Corbett when I was planning
+         about the text to be used for the tutorial. So I wrote a few
+         paragraphs with the information I collected from a couple of
+         books and several websites. I donot guarantee for the
+         information to be correct. So, if you want detailed
+         information about Corbett National Park, consult tourist
+         books, and the WWW. In case you want to change the text,
+         please make sure that neither the new text is not copyrighted
+         nor you should use copyrighted images. All text and images
+         used in the tutorial are supposed to be distributed under the
+         GNU GPL, and MPL license. -->
+
+    <p>Corbett National Park</p>
+
+    <p>Corbett National Park, named in the memory of Jim Corbett, was
+    created in 1938 and was the first national park to be established
+    in Asia. It is situated in the northern state of Uttranchal in
+    India. It has an area of 512 sq. km. The combined area of Corbett
+    National Park, Sonandi Wildlife sanctuary and Reserve Forest areas
+    summing up to 1288 sq. km. constitute a bigger project called
+    Corbett Tiger Reserve.</p>
+
+    <p>The most famous animals of Corbett National Park are the Bengal
+    Tiger and the Asiatic elephant. It is also a home to other animals
+    like etc etc. Situated at the junction of the Garhwal and Kumaon
+    hill regions it also boasts of the combination of cultures of
+    people of both regions.</p>
+
+    <p>Jim Corbett</p>
+
+    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
+    converted into a museum by the government as a dedication to his
+    life and times. He was a naturalist, conservationalist and an avid
+    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
+    Nanital. After fighiting for the British army in the WWI, he came
+    back to India and settled in Kaladhungi with his sister,
+    Maggie. He was called up several times by village people and the
+    government to get rid of man-eating tigers and leopards.</p>
+
+    <p>Visiting Corbett National Park</p>
+
+    <p>General Information</p>
+
+    <p>Altitude: 385-1100m above sea level</p>
+
+    <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+    <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+    <p>Open for tourists from 15 November to 15 June.</p>
+
+    <p>Getting there:</p>
+
+    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
+    road it is connected to Delhi, Moradabad, Bareilly and
+    Nanital. State transport buses ply from Delhi, Moradabad and
+    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+    taking a train from New Delhi.</p>
+
+    <h3>Dar formato al texto</h3>
+
+    <p>Lo primero de lo que nos ocuparemos son los encabezados y subencabezados.
+    Seleccione el texto <q>Corbert National Park</q> en la parte superior del
+    documento y haga clic en el elemento <em>Texto del cuerpo</em> de la lista
+    desplegable en la <strong>barra de formato</strong> y seleccione
+    <tt>T&iacute;tulo 1</tt>. Se aplicar&aacute; el estilo al texto de acuerdo al formato
+    por omisi&oacute;n para encabezados de nivel 1. De forma similar, seleccione
+    el texto <q>Visiting Corbett National Park</q> y h&aacute;galo un encabezado de nivel 2.</p>
+
+    <p>Lo segundo que querr&iacute;a hacer es seleccionar p&aacute;rrafos enteros
+    en el texto y marcarlos como <em>p&aacute;rrafo</em>, siguiendo el mismo
+    procedimiento para los encabezados. En el texto proporcionado, esto ya se ha
+    hecho para hacer el texto m&aacute;s presentable, pero en todo caso, marcar p&aacute;rrafos
+    de forma separada es una buena pr&aacute;ctica.</p>
+
+    <p>Tambi&eacute;n puede aplicar estilos a palabras o frases usando los botones
+    <strong>negrita</strong>(<strong>B</strong>), <em>cursiva</em>(<strong><em>I</em></strong>)
+    o <u>subrayado</u>(<strong><u>U</u></strong>) en la <strong>barra de formato</strong>,
+    como se ha hecho en esta l&iacute;nea. Est&aacute;n disponibles muchas otras opciones de
+    formato en la barra de formato o por medio del men&uacute; Formato de la barra de men&uacute;s.
+    Vaya e intente usar algunas opciones. Aprender&aacute; algunos trucos de esta
+    forma. Si se equivoca, no se preocupe, basta con que presione <q><tt>Ctrl+Z</tt></q>
+    una vez para <em>deshacer</em> su &uacute;ltima acci&oacute;n. Para instrucciones
+    detalladas acerca de todas las formas posibles de dar formato al texto de una
+    p&aacute;gina web, vea la secci&oacute;n <a
+    href="composer_help.xhtml#formatting_your_web_pages">Dar formato a sus
+    p&aacute;ginas web</a> en la documentaci&oacute;n de ayuda de &brandShortName;.</p>
+    
+    <p>En este punto, su texto del tutorial deber&iacute;a verse aproximadamente as&iacute;:</p>
+
+    <hr />
+
+    <div style="font-size:x-large;">Corbett National Park</div>
+
+    <p><em>Corbett National Park</em>, named in the memory of
+    <strong>Jim Corbett</strong>, was created in 1938 and was the
+    first national park to be established in Asia. It is situated in
+    the northern state of Uttranchal in India. It has an area of 512
+    sq. km. The combined area of Corbett National Park, Sonandi
+    Wildlife sanctuary and Reserve Forest areas summing up to 1288
+    sq. km. constitute a bigger project called Corbett Tiger
+    Reserve.</p>
+
+    <p>The most famous animals of Corbett National Park are the
+    <em>Bengal Tiger</em> and the <em>Asiatic elephant</em>. It is
+    also a home to other animals like etc etc. Situated at the
+    junction of the Garhwal and Kumaon hill regions it also boasts of
+    the combination of cultures of people of both regions.</p>
+
+    <div style="font-size:large;">Jim Corbett</div>
+
+    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
+    converted into a museum by the government as a dedication to his
+    life and times. He was a naturalist, conservationalist and an avid
+    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
+    Nanital. After fighiting for the British army in the WWI, he came
+    back to India and settled in Kaladhungi with his sister,
+    Maggie. He was called up several times by village people and the
+    government to get rid of man-eating tigers and leopards.</p>
+
+    <div style="font-size:large;">Visiting Corbett National Park</div>
+
+    <p>General Information</p>
+
+    <p>Altitude: 385-1100m above sea level</p>
+
+    <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+    <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+    <p>Open for tourists from 15 November to 15 June.</p>
+
+    <p>Getting there:</p>
+
+    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
+    road it is connected to Delhi, Moradabad, Bareilly and
+    Nanital. State transport buses ply from Delhi, Moradabad and
+    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+    taking a train from New Delhi.</p>
+
+    <hr />
+
+    <p>[ <a href="#basic_formatting_of_the_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+    <h2 id="inserting_images_and_tables">Insertar im&aacute;genes y tablas</h2>
+
+    <p>Pueden insertarse/crearse im&aacute;genes, tablas y formularios en su
+    documento usando la <strong>barra de redacci&oacute;n</strong>. Insertemos
+    una tabla y copiemos la informaci&oacute;n general acerca de del Parque
+    Nacional Corbett dentro de &eacute;sta.</p>
+    
+    <p>Pulse el bot&oacute;n <q><em>Tabla</em></q> <img src="images/table.png" width="26" height="26" alt="" />
+    en la barra de redacci&oacute;n, y establezca las dimensiones de la tabla en
+    5 filas y 2 columnas con el rat&oacute;n. Hacer clic en la quinta fila y 
+    segunda columna crear&aacute; una tabla predeterminada con esas dimensiones.</p>
+
+    <p>Para llenar la tabla con nuestro texto escrito previamente, simplemente corte
+    (<q><tt>Ctrl+X</tt></q>) el texto correspondiente y p&eacute;guelo (<q><tt>Ctrl+V</tt></q>)
+    en la celda correspondiente de la tabla. Una vez termine, la tabla deber&iacute;a
+    tener este aspecto:</p>
+
+    <!-- Do not remove inline styles from tutorial text.
+	 This is to override the style sheet rules.-->
+
+    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+	<tr>
+	  <td style="width: 186px;">Altitude</td>
+
+	  <td style="width: 451px;">85-1100m above sea level</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Annual Rainfall</td>
+	  <td style="width: 451px;">1400mm - 2800mm</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Temperature range</td>
+	  <td style="width: 451px;">4C in winter to 42C in summer</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Open for tourists</td>
+	  <td style="width: 451px;">15 November to 15 June</td>
+	</tr>
+
+	<tr>
+	  <td style="width: 186px;">Getting there</td>
+	  <td style="width: 451px;">The head quarters of Corbett Tiger
+	  Reserver are at Ramnagar. By road it is connected to Delhi,
+	  Moradabad, Bareilly and Nanital. State transport buses ply
+	  from Delhi, Moradabad and Haldwani to Ramnagar. By rail
+	  tourists can reach Ramnagar by taking a train from New
+	  Delhi.</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Con la tabla b&aacute;sica construida, puede cambiar sus propiedades 
+    activando la tabla; por ejemplo, coloque el cursor en la tabla y haga clic en
+    el bot&oacute;n <q><strong>Tabla</strong></q> en la <strong>barra de redacci&oacute;n</strong>.
+    En el di&aacute;logo de propiedades de tabla, puede establecer diversas propiedades de
+    la tabla, celda, fila o columna, por ejemplo color de fondo de la celda o la
+    tabla, t&iacute;tulo de la tabla, alineaci&oacute;n de la tabla, ancho de tabla
+    o columna, etc.</p>
+
+    <p>Para un detallado tratamiento de varias propiedades de las tablas, se remite
+    al lector a la secci&oacute;n <a
+    href="composer_help.xhtml#formatting_your_web_pages">A&ntilde;adir tablas a sus
+    p&aacute;ginas web</a> en la documentaci&oacute;n de la ayuda de
+    &brandShortName;.</p>
+
+    <p>[ <a href="#inserting_images_and_tables">Volver al principio de la secci&oacute;n</a> ]</p>
+
+    <h2 id="advanced_styles">Estilos avanzados</h2>
+
+    <p>&brandShortName; permite a los usuarios crear hojas de estilos en cascada
+    con la ayuda del editor de estilos interno llamado <q>CaScadeS</q>. CaScadeS
+    tiene la capacidad de usar tanto estilos internos como externos para los
+    documentos editados. Los detalles sobre el uso de CaScadeS escapan al alcance
+    de este tutorial. Sin embargo, el usuario puede dirigirse a <a
+    href="composer_help.xhtml#using_style_sheets_for_your_web_pages">Usar hojas
+    de estilo</a> en la secci&oacute;n principal de la ayuda.</p>
+
+    <p>[ <a href="#advanced_styles">Volver al principio de la secci&oacute;n</a> ]</p>
+
+    <h2 id="publishing_your_documents_basics">Publicar sus documentos - conceptos b&aacute;sicos</h2>
+
+    <p>Puede publicar sus documentos usando el administrador de sitios de 
+    &brandShortName;. El administrador de sitios se puede mostrar/ocultar 
+    presionando el bot&oacute;n F9.</p>
+
+    <p>El administrador de sitios est&aacute; siendo reescrito y por lo tanto, 
+    esta secci&oacute;n del tutorial ha sido pospuesta hasta que sea liberada 
+    la nueva versi&oacute;n.</p>
+
+    <p>[ <a href="#publishing_your_documents_basics">Volver al principio de la secci&oacute;n</a> ]</p>
+    
+    <div class="copyrightBox"><em>19 de noviembre de 2004</em></div>
+
+    <p>Copyright &copy; 2003-2004 Contributors to the Nvu
+    Help Documentation Project.</p>
+
+  </body>
+</html>  

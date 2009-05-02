@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Crear p&aacute;ginas web con &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+  var isDisplayed = true;
+
+  function togglePanel() {
+    isDisplayed = !isDisplayed;
+    var displayValue = isDisplayed ? "display: block" : "display: none";
+    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+    document.getElementById("contentsBox").setAttribute("style", displayValue);
+    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+  }
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72">
+      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
+           alt="&brandShortName;" align="center"/>
+    </td>
+    <td align="left">
+      <span id="topText">Centro de ayuda</span>
+    </td>
+  </tr>
+</table>
+
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
+  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
+  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
+  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
+  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
+  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
+  <a href="templates.xhtml">Trabajar con plantillas</a>
+  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
+  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
+  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+</div>
+
+    <h1 id="creating_web_pages_with_composer">Crear p&aacute;ginas web con &brandShortName;</h1>
+
+    <p>
+      &brandShortName; le permite crear sus propias p&aacute;ginas y publicarlas
+      en la web. No tiene que saber HTML para usar &brandShortName;; es
+      tan f&aacute;cil de usar como un procesador de textos.
+    </p>
+
+    <p>
+      Los botones de la barra de herramientas le permiten a&ntilde;adir listas, tablas,
+      im&aacute;genes, enlaces a otras p&aacute;ginas, colores y tipos de letra. Puede
+      ver qu&eacute; aspecto tendr&aacute; su documento en la web a medida que lo crea,
+      y lo puede compartir f&aacute;cilmente con otros usuarios, con independencia del 
+      tipo de navegador o programa de correo con soporte de HTML que utilicen.
+    </p>
+
+    <h2 id="starting_a_new_page">Comenzar una nueva p&aacute;gina</h2>
+
+    <h3 id="creating_a_new_page">Crear una nueva p&aacute;gina</h3>
+
+    <p>
+      &brandShortName; es un editor de HTML (Hypertext Markup Language) que
+      permite la creaci&oacute;n y edici&oacute;n de p&aacute;ginas web. Adem&aacute;s,
+      es un editor <acronym title="What You See Is What You Get">WYSIWYG</acronym>, por lo que se
+      puede visualizar la forma en que se mostrar&aacute; la p&aacute;gina al tiempo que
+      se crea. No es necesario conocer HTML ya que la mayor&iacute;a de las funciones
+      b&aacute;sicas del HTML se encuentran disponibles como &oacute;rdenes en la barra
+      de herramientas y en los men&uacute;s.
+    </p>
+
+    <p>
+      &brandShortName; tambi&eacute;n le permite la edici&oacute;n del c&oacute;digo
+      fuente HTML si lo desea. Para ver o editar el c&oacute;digo fuente HTML,
+      abra el men&uacute; Ver, y escoja C&oacute;digo fuente HTML, o pulse la
+      pesta&ntilde;a Etiquetas &lt;HTML&gt; en la barra de herramientas de modo
+      de edici&oacute;n de la parte inferior de la ventana de &brandShortName;.
+    </p>
+
+    <p>
+      Para crear una p&aacute;gina web utilice uno de los m&eacute;todos que a
+      continuaci&oacute;n se describen. Una vez haya comenzado una p&aacute;gina,
+      puede agregar y editar texto de la misma manera en la que lo har&iacute;a
+      en un procesador de textos.
+    </p>
+
+    <p><strong>Para crear una nueva p&aacute;gina en &brandShortName;</strong>:</p>
+
+    <ul>
+      <li>Haga clic en el bot&oacute;n Nuevo de la barra de herramientas de &brandShortName;.</li>
+    </ul>
+
+    <p><strong>Para comenzar a partir de un archivo HTML almacenado en su disco local</strong>:</p>
+
+    <ol>
+      <li>
+        Abra el men&uacute; Ventana y seleccione &brandShortName;.
+        Se mostrar&aacute; la ventana de &brandShortName;.
+      </li>
+
+      <li>
+        Abra el men&uacute; <span class="menuPath">Archivo</span> y seleccione
+        <span class="menuPath">Abrir Archivo...</span>. Se mostrar&aacute; el cuadro
+        de di&aacute;logo Abrir archivo HTML.
+      </li>
+
+      <li>Localice en su disco local el archivo que desee editar.</li>
+
+      <li>
+        Haga clic en <span class="menuPath">Abrir</span> para mostrar el archivo
+        escogido en la ventana de &brandShortName;.
+      </li>
+    </ol>
+
+    <p><strong>Para editar una p&aacute;gina web</strong>:</p>
+
+  <ol>
+    <li>Abra &brandShortName;</li>
+
+    <li>
+      Haga clic en el men&uacute; <span class="menuPath">Archivo</span> y
+      seleccione <span class="menuPath">Abrir direcci&oacute;n</span>. Se
+      mostrar&aacute; el cuadro de di&aacute;logo Abrir direcci&oacute;n web.
+    </li>
+
+    <li>
+      Escriba la URL de la p&aacute;gina a editar (por ejemplo, 
+      <tt>http://www.mozilla.org</tt>) y haga clic en el bot&oacute;n Crear.
+      Se mostrar&aacute; la p&aacute;gina en &brandShortName;.
+    </li> 
+  </ol>
+
+  <p>
+    &brandShortName; tambi&eacute;n da la opci&oacute;n de crear un documento
+    nuevo usando el formato <acronym title="eXtensible Hyper Text Markup Language"
+    >XHTML</acronym>. Para crear un documento XHTML, active la opci&oacute;n
+    <q>crear un documento XHTML</q> en el cuadro de di&aacute;logo <em>Crear un
+    nuevo documento o plantilla</em>.
+  </p>
+
+  <p>
+    <strong>Consejo</strong>: en la ventana de &brandShortName; se pueden abrir
+    r&aacute;pidamente los archivos con los que se ha estado trabajando m&aacute;s
+    recientemente mediante la apertura del men&uacute; Archivo, seleccionando
+    P&aacute;ginas recientes y escogiendo el archivo deseado de la lista.
+  </p>
+
+  <p>[ <a href="#starting_a_new_page">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <h3 id="tabs_editing_multiple_documents">Pesta&ntilde;as - Editar varios documentos</h3>
+
+  <p>
+    &brandShortName; permite editar varios documentos al mismo tiempo. En lugar de cambiar
+    de una ventana a otra para editar m&aacute;s de un documento, &brandShortName; ofrece la
+    posibilidad de las <strong>Pesta&ntilde;as</strong>. Se pueden abrir varios documentos
+    al mismo tiempo con &brandShortName; en la misma ventana pero en distintas pesta&ntilde;as.
+  </p>
+
+  <p>
+    Las pesta&ntilde;as pueden abrirse usando <kbd>Ctrl+T</kbd> o bien seleccionando Crear
+    en: <em>Nueva pesta&ntilde;a</em> dentro del cuadro de di&aacute;logo Crear un nuevo documento
+    o plantilla. Aunque se tengan varias pesta&ntilde;as abiertas, cada una es gestionada
+    independientemente. Se indica el estado de cada documento; por ejemplo, si ha sido
+    modificado y necesita ser guardado, aparecer&aacute; un icono de un disquete rojo en la
+    pesta&ntilde;a correspondiente.
+  </p>
+
+  <p>[ <a href="#starting_a_new_page">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <h3 id="saving_and_browsing_your_new_page">Guardar y visualizar la nueva p&aacute;gina</h3>
+
+  <p>
+    Se pueden guardar los documentos de &brandShortName; como HTML o como s&oacute;lo texto.
+    Al guardar un documento en HTML se mantiene el formato del documento, como los
+    estilos de texto (por ejemplo, negrita o cursiva), tablas, enlaces e im&aacute;genes.
+    Al guardar un documento como formato de s&oacute;lo texto se eliminan todas las etiquetas
+    HTML pero se mantiene el texto del documento.
+  </p>
+
+  <p>Para guardar un documento como archivo HTML:</p>
+
+  <ul>
+    <li>
+      Abra el men&uacute; Archivo y escoja Guardar o bien pulse el bot&oacute;n Guardar en la barra
+      de herramientas de redacci&oacute;n.
+
+      <p>
+        Si no se ha proporcionado a&uacute;n un t&iacute;tulo a la p&aacute;gina, &brandShortName;
+        le pedir&aacute; que lo haga. &brandShortName; mostrar&aacute; el t&iacute;tulo
+        de la p&aacute;gina en la barra de t&iacute;tulo de la ventana cuando se
+        muestre la p&aacute;gina en el navegador. El t&iacute;tulo del documento
+        tambi&eacute;n aparecer&aacute; en la lista de marcadores si se guarda la
+        p&aacute;gina en ella.
+      </p>
+
+      <p>
+        A continuaci&oacute;n, &brandShortName; le pedir&aacute; que introduzca el
+        nombre del archivo y que especifique la ubicaci&oacute;n donde desea que se
+        guarde. Aseg&uacute;rese de que conserva la extensi&oacute;n .html en el nombre del archivo.
+        Cuando almacene o edite documentos usando XHTML, el archivo debe tener la
+        extensi&oacute;n <tt>.xhtml</tt>. Los archivos con una directiva DOCTYPE
+        de tipo XHTML que tengan extensi&oacute;n .html no ser&aacute;n considerados
+        como documentos <tt>xhtml</tt>.
+      </p>
+    </li>
+  </ul>
+
+  <p>Para cambiar el nombre o la direcci&oacute;n de un archivo HTML existente:</p>
+
+  <ul>
+    <li>Escoja <span class="menuPath">Archivo &gt; Guardar como</span> y seleccione un nombre o ubicaci&oacute;n diferente.</li>
+  </ul>
+
+  <p>
+    Cuando guarda una p&aacute;gina en &brandShortName;, todos los componentes de la
+    p&aacute;gina (el HTML, las im&aacute;genes y otros archivos, tales como archivos
+    de sonido y hojas de estilo), se guardan en el disco local. Si s&oacute;lo
+    quiere guardar la parte HTML de la p&aacute;gina, debe cambiar la
+    preferencia de &brandShortName; relativa al almacenamiento de p&aacute;ginas. Vea
+    <a href="preferences.xhtml">Preferencias de &brandShortName;</a> para
+    m&aacute;s informaci&oacute;n sobre c&oacute;mo cambiar la configuraci&oacute;n
+    de &brandShortName; al guardar p&aacute;ginas.
+  </p>
+
+  <p>
+    Si la direcci&oacute;n de una imagen es absoluta (comienza con <q>http://</q>)
+    y se encuentra conectado a Internet, continuar&aacute; viendo la
+    imagen en el documento tanto en &brandShortName; como en Navigator.
+    Sin embargo, si la direcci&oacute;n de la imagen es relativa a la
+    direcci&oacute;n de la p&aacute;gina (comienza con <q>file:///</q>), entonces
+    no ver&aacute; la imagen en la versi&oacute;n local del documento.
+  </p>
+
+  <p>Para guardar un documento como archivo de s&oacute;lo texto:</p>
+
+  <ol>
+    <li>Abra el men&uacute; <span class="menuPath">Archivo</span> y seleccione <span class="menuPath">Exportar a texto</span>.</li>
+
+    <li>
+      Introduzca el nombre y la ubicaci&oacute;n en la que se
+      desea guardar el archivo.
+    </li>
+  </ol>
+
+  <p>
+    <strong>Nota</strong>: las im&aacute;genes no aparecen en los documentos
+    guardados en formato de s&oacute;lo texto.
+  </p>
+
+  <p>
+    <strong>Consejo</strong>: se puede escoger Revertir desde el men&uacute; Archivo
+    para retomar la copia m&aacute;s recientemente guardada del documento en el que
+    se est&aacute; trabajando. Tenga en cuenta que los cambios actuales se perder&aacute;n.
+  </p>
+
+  <p>
+    Para ver la p&aacute;gina en una ventana del navegador con el fin de comprobar
+    los enlaces:
+  </p>
+
+  <ul>
+    <li>
+      Abra el men&uacute; Archivo y escoja Visualizar p&aacute;gina en el
+      navegador (o haga clic sobre Navegar en la barra de herramientas de
+      redacci&oacute;n). Si a&uacute;n no ha guardado el documento,
+      &brandShortName; le pedir&aacute; que introduzca el t&iacute;tulo de
+      la p&aacute;gina, el nombre del archivo y la ubicaci&oacute;n. La
+      ventana de &brandShortName; permanecer&aacute; abierta tras la nueva ventana
+      de Navigator.
+    </li>
+  </ul>
+
+  <p>[ <a href="#starting_a_new_page">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <p>[<a href="formatting_webpages.xhtml">Siguiente</a>]</p>
+  
+<div class="copyrightBox"><em>20 de junio de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

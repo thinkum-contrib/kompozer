@@ -1,0 +1,43 @@
+<!ENTITY windowTitle.label "Publicar página">
+<!ENTITY windowTitleSettings.label "Configuración de publicación">
+<!ENTITY publishTab.label "Publicar">
+<!ENTITY settingsTab.label "Configuración">
+<!ENTITY siteList.label "Nombre del sitio:">
+<!ENTITY siteList.tooltip "Elija el sitio en el quiere publicar">
+<!ENTITY newSiteButton.label "Nuevo sitio">
+<!ENTITY siteDirList.label "Seleccione o escriba un nombre de directorio en su sitio de publicación:">
+<!ENTITY siteDirList.tooltip "Elija o introduzca el nombre del subdirectorio remoto en el que publicar">
+<!ENTITY docDirList.label "Subdirectorio del sitio para esta página:">
+<!ENTITY publishImgCheckbox.label "Incluir imágenes y otros archivos">
+<!ENTITY publishImgCheckbox.tooltip "Publica imágenes y otros archivos referenciados por esta página">
+<!ENTITY sameLocationRadio.label "Usar la misma dirección como página">
+<!ENTITY sameLocationRadio.tooltip "Publica archivos en la misma dirección que la página">
+<!ENTITY useSubdirRadio.label "Usar este subdirectorio del sitio:">
+<!ENTITY useSubdir.tooltip "Elija o introduzca el nombre del subdirectorio remoto donde se publicarán los archivos">
+<!ENTITY chooseDirButton.label "Elegir...">
+<!ENTITY pageTitle.label "Título de la página:">
+<!ENTITY pageTitle.tooltip "Introduzca un título para identificar la página en la ventana y en los marcadores">
+<!ENTITY pageTitleExample.label "ej.: &quot;Mi página web&quot;">
+<!ENTITY filename.label "Nombre de archivo:">
+<!ENTITY filename.tooltip "Introduzca un nombre para este archivo, incluyendo '.html' si es una página web">
+<!ENTITY filenameExample.label "ej.: &quot;mipagina.html&quot;">
+<!ENTITY relatedDocs.label "Otros archivos para publicar">
+<!ENTITY setDefaultButton.label "Seleccionar como valor predeterminado">
+<!ENTITY setDefSiteAndDir.label "Seleccionar como sitio y directorio predeterminado">
+<!ENTITY removeButton.label "Eliminar sitio">
+<!ENTITY publishSites.label "Sitios de publicación">
+<!ENTITY serverInfo.label "Información del sitio web">
+<!ENTITY loginInfo.label "Servidor de publicación">
+<!ENTITY siteName.label "Nombre de sitio:">
+<!ENTITY siteName.tooltip "Un nombre que identifique este sitio de publicación (e.g.: 'MiSitio')">
+<!ENTITY siteUrl.label "Dirección de publicación (e.g.: 'ftp://ftp.mipsi.com/minombredeusuario'):">
+<!ENTITY siteUrl.tooltip "La dirección FTP:// o HTTP:// proporcionada por su PSI o servicio de alojamiento web">
+<!ENTITY browseUrl.label "Dirección HTTP de su página inicial (e.g.: 'http://www.mipsi.com/minombredeusuario'):">
+<!ENTITY browseUrl.tooltip "La dirección HTTP:// de su directorio personal (no incluya el nombre de archivo)">
+<!ENTITY username.label "Nombre de usuario:">
+<!ENTITY username.tooltip "El nombre de usuario que utiliza para iniciar sesión en su PSI o servicio de alojamiento web">
+<!ENTITY password.label "Contraseña:">
+<!ENTITY password.tooltip "La contraseña asociada a su nombre de usuario">
+<!ENTITY savePassword.label "Guardar contraseña">
+<!ENTITY savePassword.tooltip "Seleccione esta casilla para guardar su contraseña de modo seguro utilizando el administrador de contraseñas">
+<!ENTITY selectDirectory.label "Seleccionar directorio">

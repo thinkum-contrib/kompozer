@@ -1,0 +1,21 @@
+<!ENTITY replaceDialog.title "Buscar y reemplazar">
+<!ENTITY findField.label "Buscar texto:">
+<!ENTITY findField.accesskey "u">
+<!ENTITY replaceField.label "Reemplazar con:">
+<!ENTITY replaceField.accesskey "e">
+<!ENTITY caseSensitiveCheckbox.label "Coincidencia de mayúsculas/minúsculas">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY wrapCheckbox.label "Buscar en todo el documento">
+<!ENTITY wrapCheckbox.accesskey "t">
+<!ENTITY backwardsCheckbox.label "Buscar hacia atrás">
+<!ENTITY backwardsCheckbox.accesskey "h">
+<!ENTITY findNextButton.label "Buscar siguiente">
+<!ENTITY findNextButton.accesskey "B">
+<!ENTITY replaceButton.label "Reemplazar">
+<!ENTITY replaceButton.accesskey "R">
+<!ENTITY replaceAndFindButton.label "Reemplazar y buscar">
+<!ENTITY replaceAndFindButton.accesskey "y">
+<!ENTITY replaceAllButton.label "Reemplazar todo">
+<!ENTITY replaceAllButton.accesskey "d">
+<!ENTITY closeButton.label "Cerrar">
+<!ENTITY notFoundWarning.label "No se encontró el texto introducido.">

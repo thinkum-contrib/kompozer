@@ -1,0 +1,13 @@
+<!ENTITY windowTitle.label "Propiedades de la zona activa">
+<!ENTITY link.label "Enlace de la zona activa">
+<!ENTITY urlFieldset.label "URL de la zona activa:">
+<!ENTITY altFieldset.label "Texto alternativo para la zona activa:">
+<!ENTITY browseButton.label "Examinar...">
+<!ENTITY targetFieldset.label "Establecer destino">
+<!ENTITY target.label "Zona activa">
+<!ENTITY commonFieldset.label "Destinos comunes:">
+<!ENTITY none.value "(ninguno)">
+<!ENTITY same.value "Mismo marco">
+<!ENTITY whole.value "Página completa">
+<!ENTITY new.value "Nueva ventana">
+<!ENTITY parent.value "Marco contenedor">

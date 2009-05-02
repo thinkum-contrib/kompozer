@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Publicar p&aacute;ginas web con &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+  var isDisplayed = true;
+
+  function togglePanel() {
+    isDisplayed = !isDisplayed;
+    var displayValue = isDisplayed ? "display: block" : "display: none";
+    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+    document.getElementById("contentsBox").setAttribute("style", displayValue);
+    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+  }
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td align="left"><span id="topText">Centro de ayuda</span></td>
+  </tr>
+</table>
+<div id="contentsBox">En esta secci&oacute;n:
+ <a href="#publishing_a_document">Publicar un documento</a>
+ <a href="#publishing_settings">Opciones de publicaci&oacute;n</a>
+ <a href="#solving_common_publishing_problems">Resolver problemas comunes de publicaci&oacute;n</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">Publicar p&aacute;ginas web con &brandShortName;</h1>
+
+<p>Si las p&aacute;ginas s&oacute;lo existen en su disco duro local, podr&aacute; verlas
+ de forma privada. &brandShortName; le permite publicar sus p&aacute;ginas web en un ordenador remoto llamado servidor web.</p>
+
+<p>Cuando usted publica sus p&aacute;ginas en un servidor web, &brandShortName; 
+  copia (sube) sus p&aacute;ginas a un ordenador remoto que permite que otras 
+  personas puedan navegar por sus p&aacute;ginas. Muchos ISPs (Internet Service 
+  Provider; Proveedores de Servicios de Internet) proporcionan espacio en sus servidores 
+  para poder publicar p&aacute;ginas web. Para encontrar un servidor web en el que
+  publicar sus p&aacute;ginas, pregunte a su ISP, centro de atenci&oacute;n a usuarios o
+  al administrador de sistema.</p>
+
+<h2 id="publishing_a_document">Publicar un documento</h2>
+
+<p>Para publicar un documento:</p>
+
+<ol>
+  <li>Abra el archivo HTML que quiere publicar, o cree un nuevo documento en &brandShortName;.</li>
+
+  <li>Cuando est&eacute; listo para publicar un documento de forma remota, haga clic en el bot&oacute;n Publicar
+  <img src="images/publish.png" width="26" height="26" alt="" />.
+
+  <p>Si ha publicado el documento anteriormente, &brandShortName; recuerda las opciones
+  de publicaci&oacute;n y publica el documento con esas opciones. Mientras se est&eacute;
+  llevando a cabo la publicaci&oacute;n, &brandShortName; mostrar&aacute; un mensaje con
+  el estado.</p>
+
+  <ul>
+    <li>Si nunca ha publicado un documento, &brandShortName; muestra las propiedades
+    en el cuadro de di&aacute;logo Publicar p&aacute;gina para que pueda introducir
+    informaci&oacute;n acerca del documento remoto. Vea <a href="#publish_page_settings">Publicar
+    p&aacute;ginas - Configuraci&oacute;n</a> para m&aacute;s informaci&oacute;n. Cuando
+    haya terminado de introducir la informaci&oacute;n, pulse en Publicar.</li>
+
+    <li>Si nunca ha guardado el documento, &brandShortName; mostrar&aacute; la pesta&ntilde;a
+    Publicar en el cuadro de di&aacute;logo Publicar p&aacute;gina, para que pueda introducir
+    el nombre de archivo del documento. Vea <a href="#publish_page_publish">Publicar
+    p&aacute;gina - Publicar</a> para m&aacute;s informaci&oacute;n. Despu&eacute;s de
+    introducir el nombre, haga clic en Publicar.</li>
+  </ul>
+  </li>
+
+  <li>Para ver su p&aacute;gina publicada, haga clic en el bot&oacute;n Navegar. Pruebe los enlaces
+  de la p&aacute;gina y compruebe que no falta ninguna imagen.</li>
+
+  <li>Contin&uacute;e editando la p&aacute;gina seg&uacute;n necesite. Cuando est&eacute; listo para volver a
+  subir la p&aacute;gina con los cambios, haga clic en el bot&oacute;n Publicar.</li>
+</ol>
+
+<p>Cuando se publica un documento por primera vez, &brandShortName; cambia el
+inicio de la URL del documento de <tt>file:///</tt> a <tt>http://</tt> para
+indicar que ahora est&aacute; editando el documento en el servidor web. Si quiere guardar
+el documento localmente (en el disco duro de su ordenador), haga clic en el bot&oacute;n
+Guardar. Se le pedir&aacute; que elija un nombre y ubicaci&oacute;n de archivo en su disco duro
+para el documento.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">Consejos para evitar enlaces rotos o im&aacute;genes perdidas</h3>
+
+<ul>
+  <li>Aseg&uacute;rese de que los archivos creados con &brandShortName; terminan en .html
+  o .htm. Aseg&uacute;rese de que sus im&aacute;genes terminan en .JPG, .GIF, o .PNG. No use espacios
+  u otros caracteres especiales en el nombre de los archivos. Guarde los archivos con
+  un nombre corto y utilice s&oacute;lo min&uacute;sculas o may&uacute;sculas y n&uacute;meros.</li>
+
+  <li>Si sus imgenes aparecen como enlaces rotos cuando navega por el servidor web,
+  puede que haya olvidado incluir las im&aacute;genes cuando ha publicado la p&aacute;gina. Abra
+  el men&uacute; Archivo y elija Publicar como... para mostrar el di&aacute;logo Publicar p&aacute;gina.
+  En la pesta&ntilde;a Publicar, aseg&uacute;rese de seleccionar <q>Incluir im&aacute;genes y otros archivos</q>
+  y luego pulse Publicar.</li>
+</ul>
+
+<p>Para ver mas consejos, vea
+ <a href="#solving_common_publishing_problems">Resolver problemas comunes de publicaci&oacute;n</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="updating_a_published_document">Actualizar un documento ya publicado</h3>
+
+<p>Para actualizar un documento ya publicado:</p>
+
+<ol>
+  <li>En una ventana de &brandShortName;, abra el men&uacute; Archivo y elija P&aacute;ginas Recientes, y
+  despu&eacute;s seleccione el documento de la lista.
+  <p>Alternativamente, navegue hasta la direcci&oacute;n del documento que quiera actualizar introduciendo
+  la direcci&oacute;n HTTP (la direcci&oacute;n web del documento) en la barra de direcciones del navegador.</p></li>
+
+  <li>Abra el men&uacute; Archivo y elija Editar p&aacute;gina.</li>
+
+  <li>Edite el documento seg&uacute;n sea necesario.</li>
+
+  <li>Cuando est&eacute; listo para actualizar la p&aacute;gina remota con sus cambios,
+  haga clic en Publicar en la barra de herramientas de &brandShortName;.</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>Consejo</strong>: para
+eliminar una p&aacute;gina o una imagen que ha publicado en un servidor web, debe
+utilizar un programa FTP (File Transfer Protocol). Tambi&eacute;n deber&aacute; utilizar un
+programa FTP si quiere crear subdirectorios o renombrar archivos en el servidor
+web. Pregunte a su ISP si recomienda alg&uacute;n programa FTP en especial. Normalmente
+podr&aacute; encontrar informaci&oacute;n sobre programas FTP en las secciones de ayuda o soporte
+de la web de su ISP. Los programas FTP tambi&eacute;n est&aacute;n disponibles en algunos sitios
+de descargas, como Softonic.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">Cambiar el nombre del archivo 
+  o el directorio de publicaci&oacute;n</h3>
+
+<p>Para cambiar el nombre de archivo o el directorio de publicaci&oacute;n del documento:</p>
+
+<ol>
+  <li>En una ventana de &brandShortName;, abra el men&uacute; Archivo, elija P&aacute;ginas recientes y
+  seleccione el documento en la lista.
+  <p>Alternativamente, navegue hasta el directorio del documento que quiere actualizar
+  introduciendo la direcci&oacute;n HTTP (la direcci&oacute;n web de la p&aacute;gina) en el campo Direcci&oacute;n
+  del navegador.</p></li>
+
+  <li>Abra el men&uacute; Archivo y elija Editar p&aacute;gina.</li>
+
+  <li>Edite el documento seg&uacute;n sea necesario.</li>
+
+  <li>Abra el men&uacute;Archivo de &brandShortName; y elija Publicar como....
+  &brandShortName; mostrar&aacute; la pesta&ntilde;a Publicar en la ventana Publicar
+  p&aacute;gina.</li>
+
+  <li>Introduzca un t&iacute;tulo diferente para la p&aacute;gina, si es necesario.</li>
+
+  <li>Introduzca un nombre diferente para la p&aacute;gina, si es necesario.</li>
+  
+  <li>De la lista de sitios, elija la ubicaci&oacute;n de publicaci&oacute;n que quiera usar.
+  Para crear una nueva ubicaci&oacute;n de publicaci&oacute;n, elija Nuevo sitio. Vea
+  <a href="#publish_page_settings">Publicar p&aacute;gina - Configuraci&oacute;n</a>
+  para m&aacute;s informaci&oacute;n.</li>
+
+  <li>Haga clic en Publicar para guardar el documento en su nueva ubicaci&oacute;n.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">Crear un nuevo sitio de publicaci&oacute;n</h3>
+
+<p>Si piensa publicar documentos en m&aacute;s de un sitio remoto, puede configurar
+&brandShortName; para guardar la informaci&oacute;n de la publicaci&oacute;n
+de cada sitio remoto que use, de manera que no tenga que introducir la
+informaci&oacute;n cada vez que quiera publicar.</p>
+
+<p>Para crear un nuevo sitio de publicaci&oacute;n, comience desde una ventana de &brandShortName;:</p>
+
+<ol>
+  <li>Abra el men&uacute;Editar y elija Configuraci&oacute;n del sitio de publicaci&oacute;n.
+  &brandShortName; mostrar&aacute; la ventana Configuraci&oacute;n de publicaci&oacute;n.</li>
+
+  <li>Haga clic en Nuevo sitio.</li>
+
+  <li>Para <q>Nombre del sitio</q> elija el nombre que identificar&aacute; el sitio remoto.
+
+  <p>Por ejemplo, si usar&aacute; el nuevo sitio para publicar documentos relativos al proyecto <q>Meteor</q>,
+  puede querer usar el nombre de sitio <q>Meteor</q>. Los nombres de sitio le recuerdan
+  el tipo de documentos que publica en cada sitio.</p></li>
+
+  <li>Para <q>Direcci&oacute;n de publicaci&oacute;n</q>, introduzca la URL completa proporcionada
+  por su ISP, administrador del sistema o servicio de hospedaje web. Esta URL debe empezar bien
+  por <tt>ftp://</tt>, bien por <tt>http://</tt>.
+
+  <p>La direcci&oacute;n de publicaci&oacute;n especifica la ubicaci&oacute;n donde van a ser
+  publicados (subidos) los documentos en el sitio. Si no est&aacute; seguro de qu&eacute; es lo
+  que tiene que introducir, pregunte a su ISP o adminitrador del sistema.</p></li>
+
+  <li>En la <q>Direcci&oacute;n HTTP de su p&aacute;gina inicial</q>, introduzca la URL
+  completa que introducir&iacute;a en la barra de navegaci&oacute;n para ver p&aacute;ginas web
+  en este sitio. No incluya un nombre de archivo o directorio como parte de esta URL.
+
+  <p>Esta URL siempre debe empezar por <tt>http://</tt>. En algunos casos, esta URL es la
+  misma que la direcci&oacute;n de publicaci&oacute;n. Si no est&aacute; seguro de qu&eacute;
+  introducir, pregunte a su ISP o administrador del sistema o deje el campo en blanco.</p></li>
+
+  <li>Como nombre de usuario introduzca el nombre que use para iniciar sesi&oacute;n en su ISP o servicio de
+  hospedaje web.</li>
+
+  <li>Como contrase&ntilde;a introduzca la contrase&ntilde;a para su nombre de usuario.</li>
+
+  <li>Seleccione <q>Guardar contrase&ntilde;a</q> para guardar su contrase&ntilde;a de
+  forma segura usando el administrador de contrase&ntilde;as para que no tenga que
+  introducirla cada vez que vaya a publicar en el sitio web.</li>
+
+  <li>Haga clic en Aceptar.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">Cambiar el sitio predeterminado 
+  de publicaci&oacute;n</h3>
+
+<p>Si ha configurado m&aacute;s de un sitio de publicaci&oacute;n, pero normalmente s&oacute;lo utiliza
+  uno de ellos, puede designarlo como el sitio predeterminado para la publicaci&oacute;n de
+  archivos. &brandShortName; usar&aacute; el sitio predeterminado de publicaci&oacute;n para
+  publicar todos los documentos que quiera subir, a menos que espec&iacute;ficamente elija
+  un sitio alternativo.</p>
+
+<p>Sin importar cu&aacute;ntos sitios haya configurado, siempre puede publicar un documento
+  en otro sitio eligiendo Publicar como en el men&uacute; Archivo de &brandShortName;. Vea
+  <a href="#changing_the_filename_or_publishing_location">Cambiar el nombre de archivo o el
+  directorio de publicaci&oacute;n</a> para m&aacute;s informaci&oacute;n.</p>
+
+<p>Para elegir el sitio de publicaci&oacute;n predeterminado, comience en la ventana 
+  principal de &brandShortName;:</p>
+
+<ol>
+  <li>Abra el men&uacute; Editar, y elija Configuraci&oacute;n del sitio de publicaci&oacute;n. &brandShortName; 
+    mostrar&aacute; la ventana Configuraci&oacute;n de publicaci&oacute;n.</li>
+
+  <li>Seleccione un sitio de publicaci&oacute;n de la lista.
+    <p>Si s&oacute;lo tiene un sitio de publicaci&oacute;n, &brandShortName; lo usar&aacute; como el 
+      predeterminado.</p>
+  </li>
+
+  <li>Haga clic en Seleccionar como valor predeterminado.</li>
+  <li>Haga cic en Aceptar para confirmar sus cambios.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">Eliminar un sitio de publicaci&oacute;n</h3>
+
+<p>Eliminar un sitio de publicaci&oacute;n elimina la configuraci&oacute;n del sitio en
+  &brandShortName;. Si m&aacute;s tarde desea publicar de nuevo en ese sitio, deber&aacute;
+  introducir otra vez la configuraci&oacute;n para dicho sitio.</p>
+
+<p>Para borrar la configuraci&oacute;n de un sitio, empiece en la ventana principal 
+  de &brandShortName;:</p>
+
+<ol>
+  <li>Abra el men&uacute; Editar, y elija Configuraci&oacute;n del sitio de publicaci&oacute;n. &brandShortName; 
+    mostrar&aacute; la ventana Configuraci&oacute;n de publicaci&oacute;n.</li>
+  <li>Seleccione un sitio de publicaci&oacute;n de la lista.</li>
+  <li>Haga clic en Eliminar sitio.
+    <p>&brandShortName; s&oacute;lo elimina la configuraci&oacute;n del sitio; el sitio remoto 
+      en s&iacute; no se ve afectado por este cambio.</p>
+  </li>
+  <li>Haga clic en Aceptar para confirmar sus cambios.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h2 id="publishing_settings">Configuraci&oacute;n de publicaci&oacute;n</h2>
+
+<p>Esta secci&oacute;n describe la configuraci&oacute;n de publicaci&oacute;n de &brandShortName;. 
+  Para informaci&oacute;n sobre la configuraci&oacute;n general y de nueva p&aacute;gina de &brandShortName;,
+  vea <a href="composer_help.xhtml#composer_preferences">Preferencias 
+  de &brandShortName;</a>.</p>
+
+<h3 id="publish_page_publish">Publicar p&aacute;gina - Publicar</h3>
+
+<p>La pesta&ntilde;a Publicar, dentro de Publicar p&aacute;gina, <a href="composer_help.xhtml#composer_preferences">&brandShortName;</a> 
+  le permite especificar d&oacute;nde quiere publicar un documento. Esta configuraci&oacute;n 
+  se aplicar&aacute; al documento actual.</p>
+
+<p>Si no est&aacute; viendo la pesta&ntilde;a Publicar, siga estos pasos:</p>
+
+<ol>
+  <li>Abra el men&uacute; Archivo y elija Publicar como. Aparecer&aacute; la ventana Publicar
+    p&aacute;gina.</li>
+
+  <li>Haga clic en la pesta&ntilde;a Publicar.</li>
+</ol>
+
+<ul> 
+  <li><strong>Nombre del sitio:</strong> muestra todos los sitios que haya creado, 
+    para que pueda elegir uno de ellos para publicar su documento actual. Para crear
+    un nuevo sitio, haga clic en Nuevo sitio.</li>
+  <li><strong>T&iacute;tulo de la p&aacute;gina:</strong> especifica el t&iacute;tulo del documento que
+    aparecer&aacute; en la barra de t&iacute;tulo de su navegador cuando vea la p&aacute;gina en &eacute;l. El
+    t&iacute;tulo de la p&aacute;gina tambi&eacute;n aparecere en su lista de marcadores si a&ntilde;ade aqu&eacute;lla
+    a &eacute;stos.</li>
+  <li><strong>Nombre de archivo:</strong> especifica el nombre del archivo. Aseg&uacute;rese
+    de que su documento termina en .htm o .html.</li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> 
+    <p><strong>Atenci&oacute;n:</strong> si hay un archivo en el sitio remoto de igual 
+    nombre que el documento que va a publicar ahora, el documento remoto ser&aacute; 
+    reemplazado por el actual, sea cual sea el contenido del archivo remoto. 
+    Adem&aacute;s, no se le pedir&aacute; confirmaci&oacute;n acerca de esta acci&oacute;n.</p></li>
+
+  <li><strong>Subdirectorio del sitio para esta p&aacute;gina:</strong> si deja esto 
+    en blanco, &brandShortName; publicar&aacute; la p&aacute;gina en el directorio principal 
+    (ra&iacute;z) del sitio. Si quiere que se publique en un subdirectorio que reside 
+    dentro del sitio, introduzca la ruta del subdirectorio o el&iacute;jala de la lista. 
+    &brandShortName; guardar&aacute; la ruta que haya establecido, por lo que en posteriores 
+    publicaciones puede seleccionar f&aacute;cilmente el subdirectorio de la lista. Tenga 
+    en cuenta que los subdirectorios de los sitios remotos son sensibles al uso 
+    de may&uacute;sculas o min&uacute;sculas.</li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> 
+    <p><strong>Nota:</strong> el subdirectorio que haya elegido debe existir en 
+    el sitio remoto.</p></li>
+  
+  <li><strong>Incluir im&aacute;genes y otros archivos:</strong> si est&aacute; seleccionado, 
+    &brandShortName; publicar&aacute; cualquier imagen o archivo referenciado por esta
+    p&aacute;gina. Puede elegir publicarlas en el mismo directorio que la p&aacute;gina, 
+    o bien ubicarlas en otro subdirectorio distinto dentro del sitio.</li>
+</ul>
+
+<p><strong>Consejo:</strong> para crear o eliminar subdirectorios remotos, es necesario
+usar un programa FTP (File Transfer Protocol; Protocolo de Transferencia de Archivos).
+Pregunte a su ISP si recomienda alg&uacute;n programa FTP en especial. Normalmente podr&aacute;
+encontrar informaci&oacute;n sobre programas FTP en las secciones de ayuda o soporte del
+proveedor de servicios web. Los programas FTP tambi&eacute;n est&aacute;n disponibles en algunos
+sitios de descargas, como Softonic.</p>
+
+<p class="publishing_settings">[ <a
+href="#">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="publish_page_settings">Publicar p&aacute;gina - Configuraci&oacute;n</h3>
+
+<p>En la pesta&ntilde;a Configuraci&oacute;n, dentro de la ventana Publicar p&aacute;gina, puede 
+  establecer los datos para identificarse en el sistema remoto (ordenador donde 
+  se van a subir los archivos para su publicaci&oacute;n), as&iacute; como la configuraci&oacute;n
+  de publicaci&oacute;n para el sitio remoto. Esta configuraci&oacute;n se aplicar&aacute; 
+  al documento actual y a cualquier otro que utilice este sitio.</p>
+
+<p>Si no est&aacute; viendo la pesta&ntilde;a Configuraci&oacute;n dentro de Publicar 
+  p&aacute;gina, siga estos pasos:</p>
+
+<ol>
+  <li>Abra el men&uacute; Archivo y elija Publicar como. Aparecer&aacute; la ventana 
+    Publicar p&aacute;gina.</li>
+  <li>Haga clic en la pesta&ntilde;a Configuraci&oacute;n.</li>
+</ol>
+
+<ul>
+  <li><strong>Nombre del sitio</strong>: especifique el nombre que quiere usar 
+    para este sitio de publicaci&oacute;n. Introduzca un nombre corto, ya que 
+    esto le ayudar&aacute; a identificar ese sitio.</li>
+  <li id="host_name_for_publishingSDX"><strong>Direcci&oacute;n de publicaci&oacute;n</strong>:
+    especifica la URL completa proporcionada por su ISP o administrador del sistema.
+    Esta URL deber&iacute;a comenzar por <tt>ftp://</tt> o <tt>http://</tt>. Este nombre
+    es tambi&eacute;n conocido como &quot;servidor web&quot; o &quot;nombre del host&quot;.</li>
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> 
+    <p>La direcci&oacute;n de publicaci&oacute;n especifica el directorio donde se van a publicar
+      (subir) los archivos de su ordenador. Si no est&aacute; seguro de qu&eacute; es lo que
+      tiene que introducir, contacte con su ISP o su administrador del sistema.</p>
+  </li>
+  <li><strong>Direcci&oacute;n HTTP de su p&aacute;gina inicial</strong>: especifica la direcci&oacute;n
+    completa de su directorio inicial de publicaci&oacute;n. &Eacute;sta es la direcci&oacute;n web que
+    se introducir&aacute; en los navegadores para ver la p&aacute;gina inicial de su sitio web.
+    No incluya ning&uacute;n nombre de archivo o subdirectorio en este campo.</li>
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> 
+    <p>Esta URL debe comenzar siempre por <tt>http://</tt>. En algunos casos, esta 
+      URL es la misma que la direcci&oacute;n de publicaci&oacute;n. Si no est&aacute; seguro 
+      de qu&eacute; es lo que tiene que introducir, contacte con su ISP o su administrador 
+      del sistema o deje el campo en blanco.</p>
+  </li>
+  <li><strong>Nombre de usuario</strong>: introduzca el nombre que se utilizar&aacute;
+    para identificarse en su ISP o red local.</li>
+  <li><strong>Contrase&ntilde;a</strong>: especifica la contrase&ntilde;a para su nombre de
+    usuario.</li>
+  <li><strong>Guardar contrase&ntilde;a</strong>: seleccione esta opci&oacute;n para cifrar
+    y guardar su contrase&ntilde;a de manera segura en el administrador de contrase&ntilde;as
+    para no tener que introducirla siempre que quiera publicar alg&uacute;n archivo.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="publish_settings">Configuraci&oacute;n de publicaci&oacute;n</h3>
+
+<p>La configuraci&oacute;n de publicaci&oacute;n le permite crear, editar y eliminar la configuraci&oacute;n 
+  de sitios de publicaci&oacute;n previamente establecidos, aparte de poder seleccionar 
+  cu&aacute;l ser&aacute; su sitio predeterminado.</p>
+
+<p>Si todav&iacute;a no est&aacute; viendo la ventana Configuraci&oacute;n de publicaci&oacute;n, siga 
+  estos pasos:</p>
+
+<ol>
+  <li>Abra el men&uacute; Editar y elija la opci&oacute;n Configuraci&oacute;n de publicaci&oacute;n. &brandShortName;
+    mostrar&aacute; el cuadro de di&aacute;logo correspondiente.</li>
+</ol>
+
+<ul>
+  <li><strong>Nuevo sitio</strong>: le permite especificar un nuevo nombre para
+    el sitio. &brandShortName; a&ntilde;ade el nombre a la lista situada a la izquierda
+    para su posterior identificaci&oacute;n.</li>
+  <li><strong>Seleccionar como valor predeterminado</strong>: hace que el sitio
+    elegido sea puesto como el predeterminado. Normalmente se suele elegir aqu&eacute;l
+    que se utiliza m&aacute;s a menudo para publicar documentos. Todos los documentos
+    que cree o edite se publicar&aacute;n en el sitio remoto predeterminado a menos que
+    especif&iacute;camente elija otro sitio en el cuadro de di&aacute;logo Publicar p&aacute;gina.</li>
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> 
+    <p>Para publicar un documento en otro sitio diferente, abra el men&uacute; Archivo, 
+      haga clic en Publicar como y elija el sitio donde lo quiere publicar.</p>
+  </li>
+  <li><strong>Eliminar sitio</strong>: elimina el sitio seleccionado y su
+    configuraci&oacute;n de &brandShortName;.</li>
+  <li><strong>Nombre del sitio</strong>: especifique el nombre que quiere usar 
+    para este sitio de publicaci&oacute;n. Introduzca un nombre corto, ya que 
+    esto le ayudar&aacute; a identificar ese sitio.</li>
+  <li id="host_name_for_publishingSDX"><strong>Direcci&oacute;n de publicaci&oacute;n</strong>: 
+    especifica la URL completa proporcionada por su ISP o administrador del sistema.
+    Esta URL deber&iacute;a comenzar por <tt>ftp://</tt> o <tt>http://</tt>.</li>
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> 
+    <p>La direcci&oacute;n de publicaci&oacute;n especifica el directorio donde se van a publicar
+      (subir) los archivos de su ordenador. Si no est&aacute; seguro de qu&eacute; tiene que
+      introducir, contacte con su ISP o su administrador del sistema.</p>
+  </li>
+  <li><strong>Direcci&oacute;n HTTP de su p&aacute;gina inicial</strong>: especifica la direcci&oacute;n
+    completa que ser&aacute; su directorio de publicaci&oacute;n. No incluya ning&uacute;n 
+    nombre de archivo o subdirectorio en este campo.</li>
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> 
+    <p>Esta URL debe comenzar siempre por <tt>http://</tt>. En algunos casos, esta
+      URL es la misma que la direcci&oacute;n de publicaci&oacute;n. Si no est&aacute; seguro de qu&eacute;
+      tiene que introducir, contacte con su ISP o su administrador del sistema,
+      o deje el campo en blanco.</p>
+  </li>
+  <li><strong>Nombre de usuario</strong>: introduzca el nombre que se utilizar&aacute;
+    para identificarse en su ISP o red local.</li>
+  <li><strong>Contrase&ntilde;a</strong>: especifica la contrase&ntilde;a para su nombre de
+    usuario.</li>
+  <li><strong>Guardar contrase&ntilde;a</strong>: seleccione esta opci&oacute;n para cifrar
+    y guardar su contrase&ntilde;a de manera segura en el administrador de contrase&ntilde;as
+    para no tener que introducirla siempre que quiera publicar alg&uacute;n archivo.</li>
+</ul>
+
+<p>[&nbsp;<a href="#publishing_settings">Volver al principio de la secci&oacute;n</a>&nbsp;]</p>
+
+
+<h2 id="solving_common_publishing_problems">Solucionar problemas comunes de
+publicaci&oacute;n</h2>
+
+<p>Si se produce un error con uno o m&aacute;s de sus archivos al tratar de publicarlos,
+el cuadro de di&aacute;logo de estado de publicaci&oacute;n muestra un mensaje de
+error que puede ayudarle a determinar qu&eacute; sucedi&oacute; y c&oacute;mo
+corregirlo. Pulse el bot&oacute;n Soluci&oacute;n de problemas en el cuadro de
+di&aacute;logo para obtener ayuda sobre c&oacute;mo solucionar su problema de publicaci&oacute;n.</p>
+
+<p>Si a&uacute;n as&iacute; no puede publicar un archivo, guarde el archivo
+en su disco duro abriendo el men&uacute; Archivo de &brandShortName; y escogiendo
+Guardar. As&iacute; podr&aacute; abrir m&aacute;s tarde el archivo y tratar
+de publicarlo. Para localizar r&aacute;pidamente el archivo posteriormente, abra el
+men&uacute; Archivo y escoja P&aacute;ginas recientes.</p>
+
+<h3 id="verifying_your_publishing_settings">Verificar su
+configuraci&oacute;n de publicaci&oacute;n</h3>
+
+<p>Para verificar su configuraci&oacute;n de publicaci&oacute;n:</p>
+
+<ol>
+  <li>Cierre el cuadro de di&aacute;logo de estado de la publicaci&oacute;n,
+  si est&aacute; abierto.</li>
+  <li>Abra el men&uacute; Editar y escoja Configuraci&oacute;n de
+  publicaci&oacute;n.</li>
+  <li>En el cuadro de di&aacute;logo de configuraci&oacute;n de publicaci&oacute;n
+  confirme que los par&aacute;metros del sitio son correctos para el sitio en el
+  que est&aacute; intentando publicar. Si no est&aacute; seguro, compru&eacute;belo
+  con su ISP o servicio de hospedaje web.
+    <ul>
+      <li><strong>Verifique que ha introducido correctamente los
+      par&aacute;metros de publicaci&oacute;n</strong>. Puede haber escrito
+      mal por error alguno de los par&aacute;metros.</li>
+      <li><strong>Verifique que ha introducido la direcci&oacute;n correcta de
+      publicaci&oacute;n.</strong> Los servicios de hospedaje web o ISPs
+      puede referenciar la direcci&oacute;n de publicaci&oacute;n como
+      <q>nombre de servidor</q>, <q>hostname</q> o <q>server/host</q>.
+      A menudo especifican la direcci&oacute;n de publicaci&oacute;n como
+      <tt>ftp.miisp.com/nombreusuario</tt>, donde <tt>nombreusuario</tt>
+      es el nombre de su cuenta de usuario.
+
+      <p>Para que la direcci&oacute;n de publicaci&oacute;n sea correcta,
+      debe precederla con <tt>ftp://</tt> o <tt>http://</tt>. Por ejemplo,
+      la direcci&oacute;n de publicaci&oacute;n correcta para el sitio de
+      ejemplo mencionado antes ser&iacute;a
+      <tt>ftp://ftp.miisp.com/nombreusuario</tt>.</p></li>
+    </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Volverl al principio de la
+secci&oacute;n</a> ]</p>
+
+<h3 id="checking_your_filenames">Comprobar los nombres de sus archivos</h3>
+
+<p>Examine los nombres de los archivos que no se hayan publicado correctamente.
+Aseg&uacute;rese de que los nombres de archivo:</p>
+
+<ul>
+  <li>Usan s&oacute;lo n&uacute;meros o letras min&uacute;sculas o may&uacute;sculas.
+  Aunque es correcto crear nombres de archivo que usen letras en may&uacute;sculas,
+  puede evitar posibles errores de localizaci&oacute;n de los archivos publicados si
+  utiliza s&oacute;lo letras min&uacute;sculas en sus nombres de archivo.
+
+  <p>Cuando publica archivos en un servidor web, los nombres de archivo diferencian
+  may&uacute;sculas y min&uacute;sculas. Puede que le resulte m&aacute;s dif&iacute;cil
+  recordar nombres de archivo que utilizan s&oacute;lo letras may&uacute;sculas o
+  que usen una mezcla de letras en min&uacute;sculas y may&uacute;sculas.</p>
+
+  <p>Por ejemplo, cuando intenta localizar un archivo publicado escribiendo la
+  direcci&oacute;n web del archivo en el campo Direcci&oacute;n de Navigator, debe
+  introducir el nombre de archivo exactamente tal y como lo cre&oacute;, usando la
+  misma combinaci&oacute;n de letras min&uacute;sculas y may&uacute;sculas.</p></li>
+
+  <li>No use signos de puntuaci&oacute;n o espacios. Los subrayados ( _ ) y
+  guiones ( - ) no presentan problemas.</li>
+
+  <li>Termine los archivos con .html o .htm (para los nombres de archivo de
+  &brandShortName;).</li>
+  <li>Use menos de 32 caracteres.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Volver al principio de la
+secci&oacute;n</a> ]</p>
+
+<h3 id="fixing_publishing_errors">Corregir errores de publicaci&oacute;n</h3>
+
+<p>Si uno o m&aacute;s de sus archivos no se publica correctamente, mire los mensajes
+que &brandShortName; muestra en el &aacute;rea de estado de publicaci&oacute;n del
+cuadro de di&aacute;logo. Puede utilizar estos mensajes de error para ayudarle a
+determinar qu&eacute; fall&oacute; y qu&eacute; hacer para corregir el problema.</p>
+
+<div class="errorMessage"> <p id="file_not_found"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+  <tt><var>Nombrearchivo</var> no encontrado</tt>
+  <p>o</p>
+<tt><var>X</var> de <var>Y</var> archivos no pudieron ser publicados</tt> </div>
+
+<p><strong>Descripci&oacute;n del error:</strong> uno o m&aacute;s
+archivos de im&aacute;genes o CSS no pudieron ser publicados porque
+&brandShortName; no pudo encontrarlos. Algunas causas habituales
+pueden ser:</p>
+
+<ul>
+  <li>La ubicaci&oacute;n del archivo que indic&oacute; no es correcta.</li>
+
+  <li>La direcci&oacute;n del archivo en la web no es accesible.</li>
+
+  <li>La direcci&oacute;n del archivo ha cambiado o el archivo ha sido
+  eliminado o trasladado a
+  otra direcci&oacute;n.</li>
+</ul>
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Busque im&aacute;genes rotas en la p&aacute;gina que intenta
+  publicar. Las im&aacute;genes rotas aparecer&aacute;n con este icono
+  <img src="images/broken.gif" width="20" height="20" alt="" /> en la
+  p&aacute;gina. Para corregir la direcci&oacute;n de la imagen, haga
+  doble clic en la imagen rota para mostrar el cuadro de di&aacute;logo de
+  propiedades de la imagen para que pueda introducir la direcci&oacute;n
+  correcta.</li>
+
+
+  <li>Elimine la imagen rota de la p&aacute;gina seleccion&aacute;ndola
+  (pulse una vez sobre ella con el bot&oacute;n izquierdo) y a continuaci&oacute;n
+  pulse <kbd>Eliminar</kbd> o <kbd>Suprimir</kbd> en el teclado.</li>
+
+  <li>Si la imagen no est&aacute; disponible porque el servidor en el que
+  &eacute;sta reside no est&aacute; accesible, pruebe a publicar la
+  p&aacute;gina m&aacute;s tarde.</li>
+
+  <li>Si el archivo que falta es un archivo CSS, primero debe verificar la
+  direcci&oacute;n correcta del archivo CSS. Para corregir la
+  direcci&oacute;n del archivo en &brandShortName;, pulse la pesta&ntilde;a
+  Etiquetas HTML y edite la direcci&oacute;n del archivo en el
+  c&oacute;digo fuente HTML. S&oacute;lo debe editar el c&oacute;digo
+  fuente HTML si est&aacute; familiarizado con las etiquetas HTML.</li>
+
+</ul> </div>
+
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+  <tt>El subdirectorio <var>nombredirectorio</var> no existe en este sitio
+  o el nombre de archivo <var>nombrearchivo</var> ya est&aacute; en uso
+  por otro subdirectorio</tt>
+  <p>o</p>
+  <tt>El nombre de archivo <var>nombrearchivo</var> ya est&aacute; en uso
+  por otro subdirectorio</tt></div>
+
+<p><strong>Descripci&oacute;n del error:</strong> ha especificado el
+nombre de un subdirectorio remoto que
+no existe en el sitio de publicaci&oacute;n. &brandShortName;
+s&oacute;lo puede publicar a un subdirectorio
+remoto que ya exista en la direcci&oacute;n de publicaci&oacute;n.
+O bien ha especificado un nombre de archivo que es id&eacute;ntico
+al nombre de un subdirectorio existente en el sitio de
+publicaci&oacute;n.</p>
+
+<p>Por ejemplo, en el cuadro de di&aacute;logo Publicar p&aacute;gina,
+bajo la pesta&ntilde;a Publicar:</p>
+
+<ul>
+  <li>para <q>Subdirectorio del sitio para esta p&aacute;gina</q>, puede que
+  haya escrito el nombre de un subdirectorio que no existe en la
+  direcci&oacute;n de publicaci&oacute;n.</li>
+
+  <li>ha marcado <q>Incluir im&aacute;genes y otros archivos</q> y luego ha
+  escrito el nombre de un subdirectorio que no existe en la
+  direcci&oacute;n de publicaci&oacute;n.</li>
+
+  <li>uno de los archivos que est&aacute; intentando publicar tiene el
+  mismo nombre que un subdirectorio del
+  sitio de publicaci&oacute;n.</li>
+</ul>
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Use un cliente FTP por separado si quiere crear, renombrar o
+  eliminar subdirectorios en el
+  sitio de publicaci&oacute;n. Pregunte a su proveedor de servicios si
+  recomienda un cliente FTP en particular.
+  Normalmente podr&aacute; encontrar informaci&oacute;n sobre clientes FTP
+  en las secciones de ayuda o soporte del sitio web de su proveedor de servicios.
+  Los programas FTP tambi&eacute;n est&aacute;n disponibles en
+  sitios shareware como Softonic.</li>
+
+  <li>No use nombres de subdirectorio que terminen en <q>.html</q> o
+  <q>.htm</q>. S&oacute;lo los archivos de &brandShortName; deber&iacute;an
+  terminar en <q>.html</q> o <q>.htm</q>.</li>
+
+  <li>Los nombres de subdirectorio distingues may&uacute;sculas y min&uacute;sculas,
+  as&iacute; que aseg&uacute;rese de que introduce los nombres de subdirectorio
+  exactamente tal y como aparecen en la direcci&oacute;n de publicaci&oacute;n.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="server_not_found"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+  <tt>El servidor no est&aacute; disponible. Compruebe su conexi&oacute;n
+  e int&eacute;ntelo m&aacute;s tarde</tt> </div>
+
+<p><strong>Descripci&oacute;n del error:</strong> este error puede tener
+muchas causas, como por ejemplo:</p>
+
+<ul>
+  <li>Sus par&aacute;metros del sitio de publicaci&oacute;n pueden no ser
+  correctos.</li>
+  <li>Su conexi&oacute;n a Internet puede haberse cortado.</li>
+
+  <li>su modem u otro equipamiento que utilice para
+  conectar a Internet podr&iacute;a
+  no estar funcionando correctamente.</li>
+  
+  <li>El servidor web en el que est&aacute; intentando publicar
+  podr&iacute;a no estar disponible debido a un problema t&eacute;cnico o
+  a una circunstancia desconocida.</li>
+
+  <li>Su ISP o servicio de hospedaje web podr&iacute;a estar
+  experimentando problemas t&eacute;cnicos.</li>
+</ul>
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Verifique que sus par&aacute;metros de publicaci&oacute;n son
+  correctos y que los ha introducido correctamente. Vea <a
+  href="#verifying_your_publishing_settings">Verificar sus
+  par&aacute;metros de publicaci&oacute;n</a> para m&aacute;s
+  informaci&oacute;n.</li>
+
+  <li>Aseg&uacute;rese de que su conexi&oacute;n a Internet funciona
+  intentando ver una p&aacute;gina usando Navigator. Por ejemplo, confirme
+  que puede acceder correctamente a la p&aacute;gina
+  <tt>http://www.mozilla.org</tt>.</li>
+
+  <li>Si su conexi&oacute;n a Internet no funciona, verifique que todo el
+  hardware, conexiones telef&oacute;nicas, modems y conexiones de red
+  est&aacute;n funcionando correctamente.</li>
+
+  <li>Use Navigator para intentar ver una p&aacute;gina en el sitio web en
+  el que est&aacute; intentando publicar. Si puede ver con &eacute;xito
+  otros sitios web pero no puede ver p&aacute;ginas en el sitio de
+  publicaci&oacute;n, su ISP o servicio de hospedaje web puede estar
+  sufriendo problemas t&eacute;cnicos.</li>
+
+  <li>Intente publicar de nuevo m&aacute;s tarde. Su ISP, servicio de
+  hospedaje web, o el servidor web pueden estar experimentando
+  dificultades t&eacute;cnicas temporalmente.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_permission"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+  <tt>No tiene permiso para publicar en esta direcci&oacute;n.</tt>
+</div>
+
+<p><strong>Descripci&oacute;n del error:</strong> est&aacute; intentando
+publicar en una direcci&oacute;n que no est&aacute; autorizado a usar.
+S&oacute;lo puede publicar en sitios donde se le haya concedido acceso por
+su ISP o servicio de hospedaje web.</p>
+
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Verifique que ha introducido el nombre de usuario y
+  contrase&ntilde;a correctos en el cuadro de di&aacute;logo de
+  configuraci&oacute;n de publicaci&oacute;n, o en la
+  pesta&ntilde;a Publicar del cuadro de di&aacute;logo Publicar.</li>
+
+  <li>Contacte con su ISP para averiguar d&oacute;nde puede publicar sus
+  p&aacute;ginas dentro del sitio de aqu&eacute;l.</li>
+
+  <li>Encuentre un servicio de hospedaje web que pueda utilizar para
+  publicar sus p&aacute;ginas. En Navigator, busque <q>web hosting</q>.</li>
+
+  <li>Use el sitio <a
+  href="http://www.recursosgratis.com/dir/espacio_web_y_redirecciones/">RecursosGratis.com</a>
+  para encontrar un servicio gratuito de hospedaje web que se ajuste a sus
+  necesidades.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="offline_error"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+  <tt>Se encuentra en modo sin conexi&oacute;n. Haga clic en el icono
+  cerca de la esquina inferior derecha de cualquier ventana para pasar a
+  modo con conexi&oacute;n.</tt> </div>
+
+<p><strong>Descripci&oacute;n del error:</strong> est&aacute; intentando
+publicar,
+pero su conexi&oacute;n a Internet de &brandShortName;
+est&aacute; en el modo sin conexi&oacute;n. Su conexi&oacute;n a Internet
+debe estar en
+el estado con conexi&oacute;n para poder publicar sus
+p&aacute;ginas.</p>
+
+<p>Verifique que su conexi&oacute;n a Internet est&aacute; actualmente en
+el modo sin conexi&oacute;n mirando al icono de conexi&oacute;n en la
+esquina inferior derecha de cualquier ventana de &brandShortName;. Si
+est&aacute; en modo sin conexi&oacute;n, el icono aparece como <img
+src="images/offline.gif" width="32" height="21"
+alt="" />.</p>
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Pulse en el icono de estado de conexi&oacute;n para situarse en
+  l&iacute;nea. En el estado con conexi&oacute;n, el icono debe tener este
+  aspecto: <img src="images/online.gif" width="32" height="20"
+  alt="" />.</li>
+
+  <li>Aseg&uacute;rese de que su conexi&oacute;n a Internet est&aacute;
+  funcionando intentando ver una p&aacute;gina web usando Navigator. Por
+  ejemplo, confirme que puede conectarse
+  con &eacute;xito a
+  <tt>http://www.mozilla.org</tt>.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_disk_space"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+  <tt>No hay suficiente espacio libre en disco para guardar el archivo
+  <var>nombrearchivo</var>.</tt> </div>
+
+<p><strong>Descripci&oacute;n del error:</strong> el disco duro del
+servidor remoto
+est&aacute; lleno, o puede haber excedido la cantidad de
+espacio en disco asignado a su cuenta por su ISP o servicio de
+hospedaje web.</p>
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Use un cliente FTP separado para eliminar archivos innecesarios en
+  su sitio de publicaci&oacute;n.
+  Pregunte a su proveedor de servicios si recomienda alg&uacute;n
+  programa FTP en particular. Normalmente puede
+  encontrar informaci&oacute;n sobre programas FTP en las secciones de
+  ayuda o soporte del sitio web de su proveedor de servicios.
+  Tambi&eacute;n hay programas FTP disponibles en
+  sitios shareware como
+  Softonic.</li>
+
+  <li>Pregunte a su ISP o servicio de hospedaje web si es posible
+  incrementar su cuota de espacio en disco asignada, o
+  c&aacute;mbiese a
+  otro servicio diferente que pueda satisfacer sus necesidades.</li>
+
+  <li>Si el servidor web est&aacute; situado en su compa&ntilde;&iacute;a
+  o universidad, contacte con el administrador de red para averiguar si
+  puede publicar en una direcci&oacute;n diferente que tenga m&aacute;s
+  espacio en disco,
+  o si puede solicitar que se incremente el espacio en
+  disco disponible en su direcci&oacute;n actual de
+  publicaci&oacute;n.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="name_too_long"><strong>Mensaje de
+error:</strong></p>
+
+<div class="errorBox">
+<tt>El nombre del archivo o subdirectorio es demasiado largo.</tt> </div>
+
+<p><strong>Descripci&oacute;n del error:</strong> el n&uacute;mero de
+caracteres en el nombre del archivo
+o el subdirectorio no es admitido por
+el servidor web en el que
+intenta publicar.</p>
+
+<p><strong>Posibles soluciones:</strong></p>
+
+<ul>
+  <li>Limite la longitud de sus nombres de archivo y subdirectorios a
+  menos de 32 caracteres.
+  Algunos sistemas operativos no soportan nombres
+  m&aacute;s largos de 32 caracteres.</li>
+</ul> </div>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Volver al principio de la
+secci&oacute;n</a> ]</p>
+
+<div class="copyrightBox"><em>21 de marzo de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

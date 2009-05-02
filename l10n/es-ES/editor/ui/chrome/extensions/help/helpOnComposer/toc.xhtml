@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Trabajar con una tabla de contenidos en su p&aacute;gina web</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72">
+      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
+           alt="&brandShortName;" align="center"/>
+    </td>
+    <td align="left">
+      <span id="topText">Centro de ayuda</span>
+    </td>
+  </tr>
+</table>
+
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
+  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
+  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
+  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
+  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
+  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
+  <a href="templates.xhtml">Trabajar con plantillas</a>
+  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
+  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
+  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+</div>
+
+<h2 id="working_with_table_of_contents_on_your_web_page">Trabajar con una
+tabla de contenidos en su p&aacute;gina web</h2>
+
+<h3 id="adding_table_of_contents_to_your_web_page">A&ntilde;adir una tabla de
+contenidos a su p&aacute;gina web</h3>
+
+<p>En un documento con diferentes secciones, por ejemplo un art&iacute;culo con
+secciones y subsecciones y encabezados para cada secci&oacute;n y subsecci&oacute;n,
+llega a ser complicado navegar por &eacute;l si todo el texto est&aacute; en un solo
+archivo. Para facilitar la navegaci&oacute;n por las diferentes secciones puede
+generarse con &brandShortName; una tabla de contenidos (Table Of Contents, TOC).
+Para generar una TOC en un documento HTML:</p>
+
+<ol>
+  <li>Use las etiquetas HTML de encabezado (h1, h2, h3, h4, h5, y h6) para
+  etiquetar los diferentes niveles de secciones y subsecciones en el documento,
+  y guarde &eacute;ste.</li>
+
+  <li>Haga clic en <span class="menuPath"> Insertar &gt; Tabla de
+  contenidos</span> y escoja <q>Insertar</q>. Aparecer&aacute; la ventana
+  TOC.</li>
+
+  <li>Seleccione los niveles de encabezado usados para las diferentes secciones
+  y subsecciones del documento.</li>
+  
+  <li>Pulse <q>Aceptar</q> para generar el TOC.</li>
+</ol>
+
+<p>La TOC generada por omisi&oacute;n muestra todas las entradas numeradas y
+&eacute;stas son enlaces internos a las respectivas secciones. Si desmarca la
+casilla <q>Numerar todas las entradas en la tabla de contenidos</q> la lista
+ser&aacute; no numerada. Si marca <q>Hacer que la tabla de contenidos sea de
+s&oacute;lo lectura</q> provocar&aacute; que la lista sea de texto simple sin
+enlaces.</p>
+
+<p class="returnToSection">[ <a
+href="#working_with_table_of_contents_on_your_web_page">Volver al
+principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="updating_or_removing_table_of_contents">Actualizar o eliminar
+la tabla de contenidos</h3>
+
+<p>Si se modifica el documento a&ntilde;adiendo m&aacute;s secciones o
+subsecciones tras haber generado la TOC, &eacute;sta no contendr&aacute; las
+nuevas. Para a&ntilde;adir las secciones y subsecciones nuevas, haga clic en
+<q>Insertar</q>, luego <q>Tabla de contenidos</q> y escoja <q>Actualizar</q>.
+La TOC ser&aacute; actualizada para mostrar las nuevas entradas.</p>
+
+<p>Para eliminar la totalidad de la TOC, pulse en <q>Insertar</q>, luego
+<q>Tabla de contenidos</q> y escoja <q>Eliminar</q>. Se eliminar&aacute; la TOC y
+del c&oacute;digo fuente HTML se quitar&aacute; aquello que fue a&ntilde;adido al
+generar la TOC.</p>
+
+<p class="returnToSection">[ <a
+href="#working_with_table_of_contents_on_your_web_page">Volver al principio
+de la secci&oacute;n</a> ]</p>
+
+<p>[<a href="templates.xhtml">Siguiente</a>] [<a href="images.xhtml">Anterior</a>]</p>
+
+  <div class="copyrightBox"><em>20 de junio de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

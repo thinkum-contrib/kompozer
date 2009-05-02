@@ -1,0 +1,30 @@
+<!ENTITY windowTitle.label "Insertar tabla">
+<!ENTITY size.label "Tamaño">
+<!ENTITY numRowsEditField.label "Filas:">
+<!ENTITY numRowsEditField.accessKey "F">
+<!ENTITY numColumnsEditField.label "Columnas:">
+<!ENTITY numColumnsEditField.accessKey "C">
+<!ENTITY widthEditField.label "Anchura:">
+<!ENTITY widthEditField.accessKey "A">
+<!ENTITY borderEditField.label "Borde:">
+<!ENTITY borderEditField.accessKey "B">
+<!ENTITY borderEditField.tooltip "Teclee un número para el borde de la tabla, o bien cero (0) para omitir el borde">
+<!ENTITY pixels.label "píxeles">
+<!ENTITY quicklyTab.label "Rápido">
+<!ENTITY preciselyTab.label "Preciso">
+<!ENTITY cellTab.label "Celda">
+<!ENTITY horizAlignment.label "Alineación horizontal:">
+<!ENTITY unspecifiedHAlignment.label "Sin especificar">
+<!ENTITY leftHAlignment.label "Izquierda">
+<!ENTITY centerHAlignment.label "Centrada">
+<!ENTITY rightHAlignment.label "Derecha">
+<!ENTITY vertAlignment.label "Alineación vertical:">
+<!ENTITY unspecifiedVAlignment.label "Sin especificar">
+<!ENTITY topVAlignment.label "Superior">
+<!ENTITY middleVAlignment.label "Centrada">
+<!ENTITY bottomVAlignment.label "Inferior">
+<!ENTITY textWrapping.label "Ajuste del texto:">
+<!ENTITY wrapWrapping.label "Ajustar">
+<!ENTITY nowrapWrapping.label "No ajustar">
+<!ENTITY cellSpacing.label "Espacio entre las celdas">
+<!ENTITY cellPadding.label "Relleno de las celdas">

@@ -1,0 +1,39 @@
+<!ENTITY window.width "400">
+<!ENTITY window.height "300">
+<!ENTITY done.label "Terminada">
+<!ENTITY canceled.label "Cancelada">
+<!ENTITY installing.label "Instalando...">
+<!ENTITY starting.label "Iniciando...">
+<!ENTITY failed.label "Fallida">
+<!ENTITY downloads.title "Descargas">
+<!ENTITY cmd.pause.label "Pausar">
+<!ENTITY cmd.pause.accesskey "P">
+<!ENTITY cmd.resume.label "Continuar">
+<!ENTITY cmd.resume.accesskey "R">
+<!ENTITY cmd.cancel.label "Cancelar">
+<!ENTITY cmd.cancel.accesskey "C">
+<!ENTITY cmd.show.label "Abrir carpeta contenedora">
+<!ENTITY cmd.show.labelMac "Mostrar en Finder">
+<!ENTITY cmd.show.accesskey "b">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.open.label "Abrir">
+<!ENTITY cmd.open.accesskey "A">
+<!ENTITY cmd.openWith.label "Abrir con...">
+<!ENTITY cmd.openWith.accesskey "b">
+<!ENTITY cmd.retry.label "Reintentar">
+<!ENTITY cmd.retry.accesskey "R">
+<!ENTITY cmd.remove.label "Eliminar">
+<!ENTITY cmd.remove.accesskey "e">
+<!ENTITY cmd.properties.label "Propiedades">
+<!ENTITY cmd.properties.accesskey "i">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "Limpiar">
+<!ENTITY cmd.cleanUp.tooltip "Elimina de la lista las descargas completadas, canceladas o fallidas">
+<!ENTITY cmd.cleanUp.accesskey "a">
+<!ENTITY closeWhenDone.label "Cerrar cuando se completen las descargas">
+<!ENTITY closeWhenDone.tooltip "Cierra la ventana de descargas cuando todos los archivos se hayan descargado">
+<!ENTITY filesSavedTo.label "Todos los ficheros descargados en:">
+<!ENTITY showFolder.label "Mostrar esta carpeta">

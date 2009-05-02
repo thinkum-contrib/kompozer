@@ -1,0 +1,48 @@
+<!ENTITY windowTitle.label "Editor de mapas de imágenes">
+<!ENTITY mapfileMenu.label "Archivo">
+<!ENTITY mapfilemenu.accesskey "a">
+<!ENTITY clearCmd.label "Limpiar">
+<!ENTITY mapfileclear.accesskey "a">
+<!ENTITY closeCmd.label "Cerrar">
+<!ENTITY mapfileclose.accesskey "c">
+<!ENTITY mapeditMenu.label "Editar">
+<!ENTITY mapeditmenu.accesskey "e">
+<!ENTITY cutCmd.label "Cortar">
+<!ENTITY mapeditcut.accesskey "t">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY mapeditcopy.accesskey "c">
+<!ENTITY pasteCmd.label "Pegar">
+<!ENTITY mapeditpaste.accesskey "p">
+<!ENTITY selectallCmd.label "Seleccionar todo">
+<!ENTITY mapselectall.accesskey "s">
+<!ENTITY propsCmd.label "Propiedades de la zona activa">
+<!ENTITY mapeditprops.accesskey "h">
+<!ENTITY mapviewMenu.label "Ver">
+<!ENTITY mapviewmenu.accesskey "v">
+<!ENTITY showhideTbarCmd.label "Ocultar barra de herramientas">
+<!ENTITY mapviewtbar.accesskey "t">
+<!ENTITY mapviewScale.label "Escala">
+<!ENTITY mapviewscale.accesskey "E">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY zoomthree.accesskey "4">
+<!ENTITY contrastCmd.label "Contraste">
+<!ENTITY contrast.accesskey "n">
+<!ENTITY maphelpMenu.label "Ayuda">
+<!ENTITY maphelpmenu.accesskey "u">
+<!ENTITY aboutCmd.label "Acerca de">
+<!ENTITY about.accesskey "c">
+<!ENTITY zoominCmd.label "Acercar">
+<!ENTITY zoomoutCmd.label "Alejar">
+<!ENTITY delSpotCmd.label "Eliminar punto">
+<!ENTITY clear.accesskey "m">
+<!ENTITY selectall.accesskey "a">
+<!ENTITY close.accesskey "r">
+<!ENTITY cut.accesskey "o">
+<!ENTITY copy.accesskey "C">
+<!ENTITY paste.accesskey "v">
+<!ENTITY props.accesskey "p">
+<!ENTITY tbar.accesskey "t">

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Personalizar &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+  var isDisplayed = true;
+
+  function togglePanel() {
+    isDisplayed = !isDisplayed;
+    var displayValue = isDisplayed ? "display: block" : "display: none";
+    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+    document.getElementById("contentsBox").setAttribute("style", displayValue);
+    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+  }
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
+  </tr>
+</table>
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="#toolbar_customization">Personalizar la barra de herramientas</a>
+  <a href="#enhancing_nvu_functionality">Mejorar la funcionalidad de &brandShortName;</a>
+</div>
+
+<h1 id="customizing_toolbars">Personalizar &brandShortName;</h1>
+
+<h2 id="toolbar_customization">Personalizar la barra de herramientas</h2>
+
+<p>&brandShortName; tiene barras de herramientas que pueden ser personalizadas
+por el usuario para ajustarse a sus gustos. Los usuarios pueden mantener
+los botones m&aacute;s usados en estas barras y ocultar los menos usados haci&eacute;ndolas
+as&iacute; m&aacute;s f&aacute;ciles de usar, dando a los usuarios la satisfacci&oacute;n de adaptar
+la apariencia de &brandShortName; de acuerdo a sus preferencias.</p>
+
+<h3 id="how_to_customize_toolbars">C&oacute;mo personalizar las barras de herramientas</h3>
+
+<p>Para abrir la ventana de personalizaci&oacute;n de barras de herramientas,
+haga clic en <span class="menuPath">Ver > Mostrar/Ocultar > Personalizar
+barras de herramientas</span> y seleccione la barra que desea personalizar.
+Tambi&eacute;n puede hacer clic con el bot&oacute;n derecho en la barra que desea editar
+y seleccionar "Personalizar barra de herramientas".</p>
+
+<p>Para personalizar las barras de herramientas:</p>
+
+<ul>
+  <li>Puede arrastrar un bot&oacute;n, un separador, un espacio flexible o un
+  espacio a la barra de herramientas donde desea a&ntilde;adir dicho elemento.</li>
+
+  <li>Puede arrastrar elementos (botones, espacios, espacios flexibles o
+  separadores) desde la barra de herramientas a la ventana de personalizaci&oacute;n.</li>
+
+  <li>Puede tambi&eacute;n cambiar la apariencia de los botones de la barra de
+  herramientas (Barra de herramientas principal) seleccionando Iconos y
+  texto, Iconos o S&oacute;lo texto seg&uacute;n lo que desee mostrar.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a href="#customizing_toolbars">Volver al
+principio de la secci&oacute;n</a> ]</p>
+
+<h2 id="enhancing_nvu_functionality">Mejorar la funcionalidad de
+&brandShortName;</h2>
+
+  <p>&brandShortName; tiene un mecanismo incorporado para mejorar sus ya
+  potentes funciones. Pueden a&ntilde;adirse nuevas funcionalidades a &brandShortName;
+  mediante <em>extensiones</em>. Las extensiones son peque&ntilde;os programas que
+  proporcionan nuevas caracter&iacute;sticas o funciones al instalarse en
+  &brandShortName;. Los usuarios pueden decidir qu&eacute; extensiones quieren
+  instalar. De esta forma, las extensiones permiten a los usuarios tener una
+  instalaci&oacute;n personalizada de &brandShortName;. Para instalar una
+  extensi&oacute;n:</p>
+  
+  <ul>
+    <li>Descargue la extensi&oacute;n a su ordenador y gu&aacute;rdela en un lugar
+    apropiado. La mayor&iacute;a de las extensiones pueden descargarse desde el
+    sitio web de &brandShortName;.</li>
+    <li>Abra el <strong>administrador de extensiones</strong>(AE) mediante
+    la opci&oacute;n <span class="menuPath">Herramientas &gt; Extensiones</span>.
+    El AE listar&aacute; todas las extensiones isntaladas (si hay alguna).</li>
+    <li>Pulse en el bot&oacute;n <em>Instalar</em> para instalar la extensi&oacute;n
+    que acaba de descargar.</li>
+    <li>Seleccione la extensi&oacute;n a trav&eacute;s del di&aacute;logo de apertura de
+    archivos y pulse en el bot&oacute;n <em>Abrir</em>.</li>
+    <li>Pulse en el bot&oacute;n <em>Instalar ahora</em> en la ventana de de
+    instalaci&oacute;n de software.</li>
+    <li>Cuando la instalaci&oacute;n est&eacute; completa, reinicie &brandShortName; para
+    comenzar a usar las caracter&iacute;sitcas a&ntilde;adidas por la nueva
+    extensi&oacute;n.</li>
+  </ul>
+  
+  <p>Deber&iacute;a buscar peri&oacute;dicamente actualizaciones para las extensiones
+  con el administrador de extensiones. Las actualizaciones normalmente
+  mejoran las caracter&iacute;sticas ofrecidas por las extensiones y resuelven
+  problemas en las versiones m&aacute;s antiguas.</p>
+  
+<p>[<a href="links.xhtml">Anterior</a>]</p>
+  
+<div class="copyrightBox"><em>20 de junio de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu Documentation
+Project.</p>
+
+</body>
+</html>

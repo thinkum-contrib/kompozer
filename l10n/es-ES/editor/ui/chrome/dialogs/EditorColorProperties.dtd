@@ -1,0 +1,22 @@
+<!ENTITY windowTitle.label "Fondo y colores de la página">
+<!ENTITY pageColors.label "Colores de la página">
+<!ENTITY defaultColorsRadio.label "Colores predeterminados del lector (no establecer colores en la página)">
+<!ENTITY defaultColorsRadio.accessKey "d">
+<!ENTITY defaultColorsRadio.tooltip "Usar sólo la configuración de color del navegador del lector">
+<!ENTITY customColorsRadio.label "Usar colores personalizados:">
+<!ENTITY customColorsRadio.accessKey "C">
+<!ENTITY customColorsRadio.tooltip "Esta configuración de colores tendrá preferencia sobre la del navegador del lector">
+<!ENTITY normalText.label "Texto normal">
+<!ENTITY normalText.accessKey "N">
+<!ENTITY linkText.label "Texto de enlace">
+<!ENTITY linkText.accessKey "L">
+<!ENTITY activeLinkText.label "Texto de enlace activo">
+<!ENTITY activeLinkText.accessKey "a">
+<!ENTITY visitedLinkText.label "Texto de enlace visitado">
+<!ENTITY visitedLinkText.accessKey "V">
+<!ENTITY background.label "Fondo:">
+<!ENTITY background.accessKey "F">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Imagen de fondo:">
+<!ENTITY backgroundImage.accessKey "m">
+<!ENTITY backgroundImage.tooltip "Usar un archivo de imagen como fondo de la página">

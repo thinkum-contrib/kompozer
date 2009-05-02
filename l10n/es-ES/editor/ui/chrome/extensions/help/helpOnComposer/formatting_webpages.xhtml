@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Dar formato a las p&aacute;ginas web</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72">
+      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
+           alt="&brandShortName;" align="center"/>
+    </td>
+    <td align="left">
+      <span id="topText">Centro de ayuda</span>
+    </td>
+  </tr>
+</table>
+
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
+  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
+  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
+  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
+  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
+  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
+  <a href="templates.xhtml">Trabajar con plantillas</a>
+  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
+  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
+  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+</div>
+
+  <h2 id="formatting_your_web_pages">Dar formato a las p&aacute;ginas web</h2>
+
+  <h3 id="formatting_paragraphs_heading_and_lists">
+    Dar formato a p&aacute;rrafos, t&iacute;tulos y listas
+  </h3>
+
+  <p>
+    Para aplicar un formato a un p&aacute;rrafo, comience desde la ventana de &brandShortName;:
+  </p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n donde quiera que
+      comience el formato o seleccione el texto al que desea aplicar el formato.
+    </li>
+
+    <li>
+      Escoja un formato de p&aacute;rrafo utilizando la lista desplegable de
+      la barra de herramientas de formato:
+    </li>
+
+    <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+      <ul>
+        <li>
+          <strong>Cuerpo del texto</strong>: aplica el tipo de letra y estilo por
+          omisi&oacute;n al texto normal, sin afectar al espaciado anterior o
+          posterior a &eacute;ste.
+        </li>
+
+        <li>
+          <strong>P&aacute;rrafo</strong>: inserta una etiqueta de p&aacute;rrafo
+          (se utiliza para comenzar un nuevo p&aacute;rrafo). El p&aacute;rrafo
+          incluye un margen superior y otro inferior.
+        </li>
+
+        <li>
+          <strong>T&iacute;tulo 1</strong> - <strong>T&iacute;tulo 6</strong>:
+          aplica un formato de titular al p&aacute;rrafo. T&iacute;tulo 1 es el titular de
+          mayor grado mientras que T&iacute;tulo 6 es el de menor grado.
+        </li>
+
+        <li>
+          <strong>Direcci&oacute;n</strong>: puede ser utilizado para la <q>firma</q>
+          de una p&aacute;gina web que indique el autor de la p&aacute;gina y una persona
+          con la cual contactar para obtener m&aacute;s informaci&oacute;n, por ejemplo:
+          <tt>usuario@ejemplo.com</tt>
+
+          <p>
+            Quiz&aacute; se desee a&ntilde;adir la fecha y un aviso de copyright. Este
+            formato aparece a menudo en el pie de las p&aacute;ginas web bajo una
+            l&iacute;nea horizontal. Navigator mostrar&aacute; el formato
+            direcci&oacute;n en cursiva.
+          </p>
+        </li>
+
+        <li>
+          <strong>Preformato</strong>: &eacute;ste es &uacute;til para elementos
+          del tipo de ejemplos de c&oacute;digo, datos en columna y mensajes de
+          correo que se desea sean mostrados con un tipo de letra de ancho fijo.
+          Con el texto normal la mayor&iacute;a de los navegadores eliminan los espacios
+          extra, tabulaciones y retornos de carro. Sin embargo, el texto que utiliza
+          el estilo preformato se muestra con los espacios en blanco intactos,
+          preservando el dise&ntilde;o del texto original.
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+  <p>Para dar formato de titular al texto:</p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n en cualquier sitio
+      dentro del texto al que desea aplicar el formato.
+    </li>
+
+    <li>
+      Utilice la lista desplegable de la barra de formato y escoja el grado
+      de titular que desee, desde 1 (mayor) a 6 (menor). Por ejemplo, escoja
+      <q>T&iacute;tulo 1</q> para el t&iacute;tulo principal, <q>T&iacute;tulo 2</q>
+      para el siguiente nivel, y as&iacute; sucesivamente.
+    </li>
+  </ol>
+
+  <p>Para dar formato a un elemento de una lista:</p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n dentro de la
+      l&iacute;nea de texto a la que se desea aplicar el formato.
+    </li>
+
+    <li>Abra el men&uacute; Formato y escoja Lista.</li>
+
+    <li>Escoja el estilo de lista:</li>
+
+    <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+      <ul>
+        <li>
+          <strong>No numerada</strong>: cada elemento tiene una vi&ntilde;eta
+          (punto) a su lado (como en esta lista).
+        </li>
+
+        <li><strong>Numerada</strong>: Los elementos est&aacute;n enumerados.</li>
+
+        <li>
+          <strong>T&eacute;rmino</strong> y <strong>Definici&oacute;n</strong>:
+          estos dos estilos trabajan juntos creando una apariencia del estilo
+          de los glosarios. Utilice la etiqueta T&eacute;rmino para la palabra
+          que se est&aacute; definiendo y la etiqueta Definici&oacute;n para
+          la definici&oacute;n. El texto del t&eacute;rmino aparecer&aacute; resaltado a la
+          izquierda y el texto de la definici&oacute;n aparecer&aacute; sangrado.
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+  <p>
+    <strong>Truco</strong>: se puede aplicar r&aacute;pidamente un estilo de
+    lista a un bloque de texto seleccionando ese texto y haciendo clic sobre los
+    botones de Lista numerada <img src="images/numbers.png" width="21" height="21" alt="" />
+    o Lista no numerada <img src="images/bullets.png" width="21" height="21" alt="" />
+    de la barra de formato.
+  </p>
+
+  <p>Para cambiar el estilo de las vi&ntilde;etas o de los n&uacute;meros:</p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n dentro del texto del elemento
+      de la lista que desea modificar o seleccione uno o m&aacute;s elementos de la lista
+      si se desea aplicar un estilo nuevo a toda la lista entera.
+    </li>
+
+    <li>Abra el men&uacute; Formato y escoja Propiedades de la lista.</li>
+
+    <li>
+      Seleccione una vi&ntilde;eta o un estilo de numeraci&oacute;n de la lista desplegable.
+      En el caso de listas numeradas se puede especificar un n&uacute;mero de comienzo.
+      En el caso de las listas no numeradas se puede modificar el estilo de la vi&ntilde;eta.
+    </li>
+  </ol>
+
+  <p>
+    <strong>Consejo</strong>: tambi&eacute;n puede hacer doble clic en una vi&ntilde;eta o n&uacute;mero
+    de la lista para mostrar el cuadro de di&aacute;logo de propiedades de la lista.
+  </p>
+
+  <p>
+    Para alinear un p&aacute;rrafo o texto de la p&aacute;gina, por ejemplo, al centro, a la
+    izquierda o a la derecha:
+  </p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n dentro del p&aacute;rrafo o la l&iacute;nea
+      de texto que se desea alinear.
+    </li>
+
+    <li>Abra el men&uacute; Formato, escoja Alinear y seleccione un tipo de alineado.</li>
+  </ol>
+
+  <p>
+    <strong>Nota</strong>: tambi&eacute;n se puede utilizar la barra de formato
+    para alinear el texto.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="working_with_lists">Trabajar con listas</h3>
+
+  <p>Para finalizar una lista y continuar escribiendo texto normal:</p>
+
+  <ul>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n al final del &uacute;ltimo elemento
+      de la lista y presione Enter (Return en Mac OS) dos veces hasta el final
+      de la lista.
+    </li>
+  </ul>
+
+  <p>Para cambiar uno o m&aacute;s de los elementos de la lista a texto normal:</p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n dentro del elemento de la
+      lista o seleccione los elementos de la lista.
+    </li>
+    <li>
+      Para una lista numerada, haga clic en el bot&oacute;n de lista numerada
+      (o, para una lista no numerada, haga clic en el bot&oacute;n de lista no
+      numerada) de la barra de formato.
+    </li>
+  </ol>
+
+  <p>Para colocar texto sangrado bajo un elemento de una lista:</p>
+
+  <ol>
+    <li>Haga clic para emplazar el punto de inserci&oacute;n dentro del elemento de la lista.</li>
+
+    <li>Presione May&uacute;s-Enter para crear el sangrado libre.</li>
+
+    <li>Escriba el texto que desea sangrar.</li>
+
+    <li>
+      Presione May&uacute;s-Enter para crear otro p&aacute;rrafo sangrado, o presione Enter para crear
+      el siguiente elemento de la lista.
+    </li>
+  </ol>
+
+  <p id="increase_or_decrease_the_indentation_of_list_items">
+    <strong>Truco</strong>: se puede incrementar o decrementar el sangrado de los
+    elementos de la lista haciendo clic en cualquier lugar dentro de un elemento
+    de la lista y pulsando a continuaci&oacute;n los botones Sangrado o Desangrado de
+    la barra de herramientas de formato. Alternativamente, puede hacer clic en
+    cualquier lugar dentro de un elemento de la lista y pulsar Tab para aumentar
+    el sangrado en un nivel. Pulse May&uacute;s+Tab para reducir el sangrado en un nivel.
+  </p>
+
+  <p>Para juntar dos listas adyacentes:</p>
+
+  <ol>
+    <li>
+      Seleccione las dos listas que desea unir. Aseg&uacute;rese de seleccionar todos
+      los elementos de ambas listas. Tenga en cuenta que cualquier texto existente
+      entre las dos listas tambi&eacute;n pasar&aacute; a formar parte de la nueva lista.
+    </li>
+
+    <li>Haga clic sobre el bot&oacute;n de lista numerada o no numerada para juntar las listas.</li>
+  </ol>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="changing_text_color_style_and_font">
+    Cambiar el color, estilo y tipo de letra
+  </h3>
+
+  <p>Para cambiar el estilo, color o tipo de letra del texto seleccionado:</p>
+
+  <ol>
+    <li>Seleccione el texto sobre el que desea aplicar el formato.</li>
+
+    <li>Abra el men&uacute; Formato y escoja uno de los siguientes:</li>
+
+    <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+      <ul>
+        <li>
+          <strong>Tipo de letra</strong>: &uacute;selo para seleccionar un tipo
+          de letra. Si prefiere utilizar los tipos de letra personalizados por
+          el navegador del lector seleccione Anchura variable o Anchura fija.
+
+          <p><strong>Nota</strong>: no aparecen todos los tipos de letra
+          instalados en el ordenador. En vez de especificar un tipo de letra
+          que podr&iacute;a no estar disponible para todos los que vayan a ver
+          la p&aacute;gina web, generalmente es mejor seleccionar uno de los
+          tipos de letra proporcionados por el men&uacute; ya que &eacute;stos funcionan en
+          todos los ordenadores. Por ejemplo, los tipos de letra
+          Helvetica, Arial, Times y Courier por lo general se ven de la misma
+          manera cuando se muestran en cada uno de los distintos ordenadores.
+          Si selecciona un tipo de letra diferente, podr&iacute;a no visualizarse
+          de la misma manera en otro ordenador.</p>
+        </li>
+
+        <li>
+          <strong>Tama&ntilde;o</strong>: &uacute;selo para seleccionar un tama&ntilde;o de letra
+          <em>relativo</em> o escoja una de las opciones para incrementar o
+          decrementar el tama&ntilde;o del texto (relativo al texto circundante).
+        </li>
+
+        <li>
+          <strong>Estilo de texto</strong>: &uacute;selo para seleccionar un
+          estilo, como cursiva, negrita o subrayado, o para aplicar un estilo
+          estructurado, por ejemplo, C&oacute;digo.
+        </li>
+
+        <li>
+          <strong>Color de texto</strong>: &uacute;selo para seleccionar un
+          color mediante el selector de color. Si est&aacute; familiarizado con
+          los c&oacute;digos hexadecimales de color del HTML, puede escribir un
+          color espec&iacute;fico o escribir simplemente un nombre de color en
+          ingl&eacute;s (por ejemplo, <q>blue</q>). Encontrar&aacute; un &uacute;til
+          conversor de c&oacute;digos de colores
+          <a href="http://builder.com.com/1200-31-5087779.html"
+          target="_blank">aqu&iacute;</a>.
+        </li>
+      </ul>
+    </li>
+  </ol>
+
+  <p>Para cambiar el color de fondo de la p&aacute;gina:</p>
+
+  <ol>
+    <li>Haga clic en cualquier punto de la p&aacute;gina.</li>
+
+    <li>Pulse el bloque de color de fondo en la barra de herramientas de formato.</li>
+
+    <li>Escoja un color de fondo del cuadro de di&aacute;logo de color de fondo.</li>
+
+    <li>Pulse Aceptar.</li>
+  </ol>
+
+  <p>
+    <strong>Truco</strong>: para cambiar con rapidez el color del texto al
+    &uacute;ltimo utilizado, seleccione el texto, presione May&uacute;s y haga clic sobre el
+    selector de color. Esto es &uacute;til cuando se desea usar un &uacute;nico color
+    en l&iacute;neas de texto separadas.
+  </p>
+
+  <p>
+    Tambi&eacute;n puede utilizar una imagen como fondo. Vea
+    <a href="#setting_page_colors_and_backgrounds">Configuraci&oacute;n de fondos
+    y colores de p&aacute;gina</a>.</p>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="removing_or_discontinuing_text_styles">
+    Eliminar o deshabilitar los estilos de texto
+  </h3>
+
+  <p>Para eliminar todos los estilos de texto (negrita, cursiva y dem&aacute;s) de un texto:</p>
+
+  <ol>
+    <li>Seleccione el texto.</li>
+
+    <li>Abra el men&uacute; Formato y escoja Eliminar todos los estilos de texto.</li>
+
+    <li>Contin&uacute;e escribiendo.</li>
+  </ol>
+
+  <p>Para seguir escribiendo texto con todos los estilos eliminados:</p>
+
+  <ol>
+    <li>Emplace el punto de inserci&oacute;n donde desee deshabilitar los estilos de texto.</li>
+
+    <li>Abra el men&uacute; Formato y seleccione Eliminar todos los estilos de texto.</li>
+
+    <li>Contin&uacute;e escribiendo.</li>
+  </ol>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="finding_and_replacing_text">Buscar y reemplazar texto</h3>
+
+  <p>Para buscar texto dentro de la p&aacute;gina en la que se est&aacute; trabajando:</p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n donde desee comenzar la b&uacute;squeda.
+    </li>
+
+    <li>
+      Abra el men&uacute; Editar y seleccione Buscar y reemplazar.
+      Ver&aacute; el cuadro de di&aacute;logo Buscar y reemplazar.
+    </li>
+
+    <li>
+      Escriba el texto que desea localizar en el campo <q>Buscar texto</q>.
+      Para acotar la b&uacute;squeda seleccione una o m&aacute;s de las siguientes opciones:
+
+      <ul>
+        <li>
+          <strong>Coincidencia de may&uacute;sculas/min&uacute;sculas</strong>: &uacute;sela para
+          especificar si la b&uacute;squeda distinguir&aacute; entre may&uacute;sculas y min&uacute;sculas.
+        </li>
+
+        <li>
+          <strong>Buscar en todo el documento</strong>: &uacute;sela para
+          buscar hasta el final de la p&aacute;gina y volver a la parte superior
+          o inferior, dependiendo de si la b&uacute;squeda es hacia adelante o
+          hacia atr&aacute;s.
+        </li>
+
+        <li>
+          <strong>Buscar hacia atr&aacute;s</strong>: &uacute;sela para buscar desde el
+          punto de inserci&oacute;n hasta el inicio de la p&aacute;gina.
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      Haga clic en Buscar siguiente para comenzar la b&uacute;squeda. Cuando
+      &brandShortName; localice la primera coincidencia, haga clic sobre
+      Buscar siguiente para buscar la siguiente coincidencia.
+    </li>
+
+    <li>Haga clic sobre Cerrar cuando haya terminado.</li>
+  </ol>
+
+  <p>Para buscar y reemplazar texto dentro de la p&aacute;gina en la que se est&aacute; trabajando:</p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n donde desee comenzar la b&uacute;squeda.
+    </li>
+
+    <li>
+      Abra el men&uacute; Editar y seleccione Buscar y reemplazar.
+      Ver&aacute; el cuadro de di&aacute;logo Buscar y reemplazar.
+    </li>
+
+    <li>Escriba el texto que desea localizar y el texto por el cual lo quiere reemplazar.</li>
+
+    <li>
+      Para acotar la b&uacute;squeda seleccione una o m&aacute;s de las siguientes opciones:
+
+      <ul>
+        <li>
+          <strong>Coincidencia de may&uacute;sculas/min&uacute;sculas</strong>: &uacute;sela para
+          especificar si la b&uacute;squeda distinguir&aacute; entre may&uacute;sculas y min&uacute;sculas.
+          Si no selecciona esta opci&oacute;n, la b&uacute;squeda encontrar&aacute; coincidencias
+          tanto en letras may&uacute;sculas como en min&uacute;sculas.
+        </li>
+
+        <li>
+          <strong>Buscar en todo el documento</strong>: &uacute;sela para
+          buscar hasta el final de la p&aacute;gina y volver a la parte superior
+          o inferior.
+        </li>
+
+        <li>
+          <strong>Buscar hacia atr&aacute;s</strong>: &uacute;sela para buscar desde el
+          punto de inserci&oacute;n hasta el inicio de la p&aacute;gina.
+        </li>
+
+      </ul>
+    </li>
+
+    <li>
+      Haga clic en Buscar siguiente para buscar la siguiente coincidencia.
+      &brandShortName; seleccionar&aacute; la siguiente coincidencia del texto.
+    </li>
+
+    <li>
+      Haga clic en Reemplazar para cambiar el texto seleccionado por el texto
+      de reemplazo. Haga clic en Reemplazar y buscar para reemplazar el texto
+      seleccionado y encontrar la siguiente coincidencia. Haga clic en Reemplazar
+      todos para cambiar cada una de las coincidencias del del documento
+      por el texto de reemplazo.
+    </li>
+
+    <li>Haga clic sobre Cerrar cuando haya terminado.</li>
+  </ol>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="inserting_horizontal_lines">Insertar l&iacute;neas horizontales</h3>
+
+  <p>
+    Las l&iacute;neas horizontales se utilizan normalmente para separar diferentes
+    secciones de un documento de forma visual. Para insertar una l&iacute;nea horizontal
+    (tambi&eacute;n llamada <em>regla</em>) dentro de la p&aacute;gina, comience desde la
+    ventana de &brandShortName;:
+  </p>
+
+  <ol>
+    <li>Haga clic para emplazar el punto de inserci&oacute;n donde desee que aparezca la l&iacute;nea.</li>
+
+    <li>Abra el men&uacute; Insertar y seleccione L&iacute;nea horizontal.</li>
+  </ol>
+
+  <h3 id="setting_horizontal_line_properties">
+    Establecer las propiedades de una l&iacute;nea horizontal
+  </h3>
+
+  <p>Se puede personalizar el alto, largo, ancho, alineaci&oacute;n y sombreado de una l&iacute;nea.</p>
+
+  <ol>
+    <li>
+      Haga doble clic en la l&iacute;nea para mostrar el cuadro de di&aacute;logo Propiedades
+      de la l&iacute;nea horizontal.
+    </li>
+
+    <li>
+      Edite cualquiera de estas propiedades:
+
+      <ul>
+        <li>
+          <strong>Anchura</strong>: escriba el ancho y luego escoja <q>% de la ventana</q>
+          o <q>p&iacute;xeles</q>. Si especifica la anchura como un porcentaje, la anchura de la
+          l&iacute;nea cambiar&aacute; siempre que la ventana de &brandShortName; o del navegador sea
+          redimensionada.
+        </li>
+
+        <li>
+          <strong>Altura</strong>: escriba un n&uacute;mero para el alto de la l&iacute;nea (en p&iacute;xeles).
+        </li>
+
+        <li>
+          <strong>Sombreado 3-D</strong>: selecci&oacute;nelo para a&ntilde;adir profundidad a la
+          l&iacute;nea mediante la adici&oacute;n de un bisel sombreado.
+        </li>
+
+        <li>
+          <strong>Alineaci&oacute;n</strong>: especifique c&oacute;mo desea que se alinee la l&iacute;nea
+          (a la izquierda, centrada o a la derecha).
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      Haga clic sobre Usar como opci&oacute;n predeterminada para utilizar estas
+      configuraciones como las predeterminadas para la pr&oacute;xima vez que se
+      inserte una l&iacute;nea horizontal.
+    </li>
+
+    <li>
+      Para editar manualmente las propiedades de la l&iacute;nea horizontal
+      haga clic sobre Edici&oacute;n avanzada. Vea la secci&oacute;n
+      <a href="#using_the_advanced_property_editor">Editor avanzado de propiedades</a>,
+      para mayor detalle.
+    </li>
+  </ol>
+
+  <p>
+    <strong>Truco:</strong> se puede seleccionar <q>Etiquetas HTML</q> del men&uacute; Ver
+    para que se muestren todos los elementos HTML en cajas amarillas. Se puede
+    hacer doble clic sobre cualquiera de estas cajas para que se visualice el
+    cuadro de di&aacute;logo del
+    <a href="#using_the_advanced_property_editor">Editor avanzado de propiedades</a>
+    para esa etiqueta o elemento HTML.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="inserting_special_characters">Insertar caracteres especiales</h3>
+
+  <p>
+    Para insertar caracteres especiales como tildes, marcas de copyright o
+    s&iacute;mbolos monetarios:
+  </p>
+
+  <ol>
+    <li>
+      Haga clic para emplazar el punto de inserci&oacute;n donde desee que
+      aparezca el car&aacute;cter especial.
+    </li>
+
+    <li>
+      Abra el men&uacute; Insertar y seleccione Caracteres y s&iacute;mbolos.
+      Ver&aacute; el cuadro de di&aacute;logo Insertar car&aacute;cter.
+    </li>
+
+    <li>Seleccione una categor&iacute;a de caracteres.
+
+      <ul>
+        <li>
+          Si escoge May&uacute;sculas acentuadas o Min&uacute;sculas acentuadas,
+          abra la lista desplegable Letra y seleccione la letra sobre
+          la cual quiere poner la tilde (nota: no todas las letras
+          tienen una forma acentuada). Seleccione S&iacute;mbolos comunes para
+          insertar caracteres especiales como el s&iacute;mbolo de copyright
+          o fracciones.
+        </li>
+      </ul>
+    </li>
+
+    <li>Seleccione el car&aacute;cter que desea insertar de la lista desplegable Car&aacute;cter.</li>
+
+    <li>
+      Haga clic en Insertar.
+
+      <p>
+        Se puede continuar escribiendo en el documento (o en una ventana de
+        redacci&oacute;n de correo) mientras se mantiene el cuadro de di&aacute;logo abierto,
+        si es que desea utilizarlo de nuevo.
+      </p>
+    </li>
+
+    <li>Haga clic en Cerrar cuando termine de insertar caracteres especiales.</li>
+  </ol>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="inserting_html_elements_and_attributes">Insertar elementos y atributos HTML</h3>
+
+  <p>
+    Si sabe c&oacute;mo trabajar con el c&oacute;digo fuente HTML podr&aacute; insertar
+    etiquetas adicionales, atributos de estilo y JavaScript en la p&aacute;gina. Si no est&aacute;
+    seguro de c&oacute;mo trabajar con el c&oacute;digo fuente, es preferible que no lo modifique.
+    Para trabajar con el c&oacute;digo fuente HTML siga uno de estos m&eacute;todos:
+  </p>
+
+  <ul>
+    <li>
+      Posicione el punto de inserci&oacute;n donde desee incluir el c&oacute;digo HTML
+      o seleccione el texto que quiere editar, y a continuaci&oacute;n abra el men&uacute;
+      Insertar y seleccione HTML. En el cuadro de di&aacute;logo Insertar HTML
+      introduzca las etiquetas y texto. Haga clic en Insertar.
+    </li>
+
+    <li>
+      Seleccione un elemento, como una tabla, un enlace interno, una imagen,
+      un enlace o una l&iacute;nea horizontal. Haga doble clic sobre el elemento para
+      abrir el cuadro de di&aacute;logo de las propiedades asociadas al elemento.
+      Haga clic en Edici&oacute;n avanzada para abrir el Editor avanzado de propiedades.
+      Se puede usar este editor para a&ntilde;adir atributos HTML, JavaScript y CSS
+      a los objetos.
+    </li>
+
+    <li>
+      Abra el men&uacute; Ver y seleccione C&oacute;digo fuente HTML o haga clic sobre la
+      pesta&ntilde;a Etiquetas &lt;HTML&gt; en la barra de  herramientas del modo
+      de edici&oacute;n en la parte inferior de la ventana de &brandShortName;.
+      (Si no ve esta barra, abra el men&uacute; Ver, seleccione Barras de herramientas
+      y aseg&uacute;rese de que la barra de herramientas del modo de edici&oacute;n est&aacute;
+      seleccionada).
+    </li>
+  </ul>
+
+  <h3 id="using_the_advanced_property_editor">Utilizar el editor avanzado de propiedades</h3>
+
+  <p>
+    Para a&ntilde;adir atributos HTML y JavaScript a objetos como tablas,
+    im&aacute;genes y l&iacute;neas horizontales se puede utilizar el editor avanzado
+    de propiedades.
+  </p>
+
+  <p>
+    <strong>Nota</strong>: a menos que entienda claramente c&oacute;mo a&ntilde;adir,
+    eliminar o modificar los atributos HTML y sus valores asociados,
+    es preferible que no utilice este editor.
+  </p>
+
+  <p>
+    Si no est&aacute; viendo actualmente el cuadro de di&aacute;logo del editor avanzado
+    de propiedades, lleve a cabo los siguientes pasos:
+  </p>
+
+  <ol>
+    <li>
+      Desde el men&uacute; Ver (o la barra de herramientas del modo de edici&oacute;n)
+      escoja Etiquetas HTML.
+    </li>
+
+    <li>
+      Haga doble clic sobre el objeto que desea modificar para abrir su
+      cuadro de di&aacute;logo Propiedades.
+    </li>
+
+    <li>
+      Haga clic en Edici&oacute;n avanzada para abrir el editor avanzado de
+      propiedades del objeto. El editor avanzado de propiedades tiene
+      tres pesta&ntilde;as, cada una de las cuales tiene una lista con las
+      propiedades actuales del objeto seleccionado:
+
+      <ul>
+        <li>
+          <strong>Atributos HTML</strong>: haga clic en esta pesta&ntilde;a
+          para visualizar o introducir atributos HTML adicionales.
+        </li>
+
+        <li>
+          <strong>Estilo incrustado</strong>: haga clic sobre esta
+          pesta&ntilde;a para visualizar o introducir propiedades CSS (hojas de
+          estilo en cascada) adicionales mediante el atributo &lt;style&gt;.
+          Para m&aacute;s informaci&oacute;n sobre el uso de estilos CSS en &brandShortName;,
+          vea <a href="preferences.xhtml">Preferencias de &brandShortName;</a>.
+        </li>
+
+        <li>
+          <strong>Eventos JavaScript</strong>: haga clic en esta pesta&ntilde;a
+          para visualizar o introducir eventos JavaScript.
+        </li>
+
+      </ul>
+    </li>
+
+    <li>
+      Para editar una propiedad o atributo en cualquiera de estas tres
+      pesta&ntilde;as, seleccione el atributo que desee editar. Podr&aacute; entonces
+      editar el nombre del atributo o el valor mediante el uso de los campos
+      editables Atributo y Valor de la parte inferior del cuadro de di&aacute;logo.
+      Para a&ntilde;adir un nuevo atributo, escriba su nombre en el campo Atributo
+      de la parte inferior del cuadro de di&aacute;logo. El nuevo atributo se a&ntilde;adir&aacute;
+      autom&aacute;ticamente cuando haga clic en el campo Valor. Para eliminar un
+      atributo, selecci&oacute;nelo de la lista y haga clic en Eliminar.
+      
+      <p>
+        <strong>Nota</strong>: Los atributos obligatorios se encuentran
+        resaltados en la lista de atributos.
+      </p>
+    </li>
+
+    <li>
+      Haga clic sobre Aceptar para aplicar los cambios del cuadro de
+      di&aacute;logo del editor avanzado de propiedades.
+    </li>
+
+    <li>De nuevo, haga clic en Aceptar para salir del cuadro de di&aacute;logo Propiedades.</li>
+  </ol>
+
+  <p>
+    &brandShortName; coloca comillas dobles de forma autom&aacute;tica
+    en el texto del atributo.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="validating_the_html">Validar el HTML</h3>
+
+  <p>
+    Antes de subir el documento a un servidor web (publicarlo), es 
+    una buena pr&aacute;ctica comprobar antes el formato del HTML del documento
+    con el objetivo de asegurarse de que cumple con los est&aacute;ndares web.
+    Los documentos que contienen HTML validado son menos propicios
+    a causar problemas en su visualizaci&oacute;n por los diferentes
+    navegadores. Comprobar &uacute;nicamente de manera visual la p&aacute;gina
+    web en su navegador favorito no significa que su documento vaya
+    a aparecer correctamente al ser abierto en otros navegadores.
+  </p>
+
+  <p>
+    &brandShortName; proporciona un modo apropiado para comprobar
+    que el documento cumple los est&aacute;ndares HTML de la W3C
+    (World Wide Web Consortium). &brandShortName; utiliza el
+    Servicio de validaci&oacute;n de HTML de la W3C, que comprueba
+    si la sintaxis HTML del documento se ajusta al est&aacute;ndar HTML
+    4.01. Este servicio proporciona adem&aacute;s informaci&oacute;n sobre
+    c&oacute;mo corregir los errores.
+  </p>
+
+  <p>
+    <strong>Nota</strong>: hay que estar conectado a Internet para utilizar
+    esta caracter&iacute;stica.
+  </p>
+
+  <p>Para validar la sintaxis del documento HTML:</p>
+
+  <ol>
+    <li>
+      Abra el men&uacute; Herramientas y seleccione Validar HTML. Si no ha guardado
+      los cambios, &brandShortName; le preguntar&aacute; si hacerlo antes de
+      proceder.
+    </li>
+
+    <li>
+      &brandShortName; abrir&aacute; una nueva ventana con los resultados
+      de su documento una vez que el servicio de validaci&oacute;n de la W3C
+      examine su archivo html.
+    </li>
+
+  </ol>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="choosing_the_right_editing_mode">Escoger el modo de edici&oacute;n correcto</h3>
+
+  <p>
+    Normalmente no se necesitar&aacute; cambiar el modo predeterminado de
+    edici&oacute;n (Normal). Sin embargo, si se desea trabajar con el
+    c&oacute;digo fuente HTML del documento, quiz&aacute; se desee cambiar el
+    modo de edici&oacute;n.
+  </p>
+
+  <p>
+    &brandShortName; permite saltar r&aacute;pidamente entre cuatro modos de
+    edici&oacute;n o vistas. Cada modo de edici&oacute;n permite continuar trabajando
+    en el documento, pero muestra niveles variables de etiquetas HTML
+    (e iconos de etiquetas).
+  </p>
+
+  <p>Antes de escoger un modo de edici&oacute;n:</p>
+
+  <ul>
+    <li>
+      Abra el men&uacute; Ver, seleccione Mostrar/Ocultar y aseg&uacute;rese
+      de que la opci&oacute;n Barra de modo de edici&oacute;n est&aacute; marcada.
+    </li>
+  </ul>
+
+  <p>La Barra de modo de edici&oacute;n dispone de cuatro pesta&ntilde;as:</p>
+
+  <ul>
+    <li>
+      <strong>Normal</strong>: &eacute;ste es el modo de edici&oacute;n WYSIWYG, por
+      lo que se visualiza la forma en la que se mostrar&aacute; el documento al
+      tiempo que se crea. Seleccione este modo para que se muestren
+      los bordes de las tablas y los iconos de los v&iacute;nculos internos. El
+      resto de iconos de las etiquetas HTML quedar&aacute;n ocultos.
+    </li>
+
+    <li>
+      <strong>Etiquetas HTML</strong>: seleccione este modo para
+      que se muestren los iconos de todas las etiquetas HTML.
+    </li>
+
+    <li>
+      <strong>C&oacute;digo fuente</strong>: seleccione este modo para ver
+      y editar el documento como c&oacute;digo fuente HTML sin formato. Cuando se
+      guarde el documento, el modo Normal reaparecer&aacute;.
+    </li>
+
+    <li>
+      <strong>Vista preliminar</strong>: seleccione este modo para visualizar
+      y editar el documento de la manera exacta en la que aparecer&aacute; en la
+      ventana de un navegador, excepto porque los enlaces y las funciones
+      JavaScript estar&aacute;n desactivadas.
+    </li>
+  </ul>
+
+  <p>
+    <strong>Nota</strong>: las funciones JavaScript, marcos, enlaces, Java,
+    objetos incrustados y archivos GIF animados no est&aacute;n activos en
+    ninguno de los modos de edici&oacute;n. Para visualizarlos en su estado
+    activo, haga clic en el bot&oacute;n Navegar de la barra de herramientas de
+    redacci&oacute;n para cargar la p&aacute;gina dentro de una ventana del navegador.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="using_status_bar_for_formatting_your_web_page">
+    Utilizar la barra de estado para dar formato a la p&aacute;gina web
+  </h3>
+
+  <p>
+    &brandShortName; dispone de una innovadora caracter&iacute;stica de aplicaci&oacute;n
+    de estilos incrustados y etiquetas class e id al texto seleccionado
+    mediante la barra de estado. Este modo de aplicaci&oacute;n de estilo
+    est&aacute; disponible en todos los modos excepto el modo de edici&oacute;n
+    <strong>C&oacute;digo fuente</strong>.
+  </p>
+
+  <ul>
+    <li>
+      <strong>Seleccionar:</strong> al hacer clic en <q>Seleccionar</q> se
+      seleccionara el texto completo limitado por la etiqueta de estilo.
+    </li>
+    <li>
+      <strong>Eliminar etiqueta:</strong> al hacer clic en <q>Eliminar etiqueta</q>
+      se eliminar&aacute; la etiqueta de estilo, y en consecuencia todos los
+      estilos para esa etiqueta desaparecer&aacute;n.
+    </li>
+
+    <li>
+      <strong>Cambiar etiqueta:</strong> al utilizar esta opci&oacute;n, se
+      puede cambiar la etiqueta usada para el texto con el m&iacute;nimo esfuerzo.
+      Al hacer clic en <q>Cambiar etiqueta</q> el texto de la etiqueta
+      correspondiente se vuelve editable en la barra de estado. 
+      Escriba pues la etiqueta deseada y presione <q>Enter</q>. Las propiedades
+      predeterminadas de la etiqueta se aplicar&aacute;n al texto dentro
+      de la p&aacute;gina web.
+    </li>
+
+    <li>
+      <strong>Estilos incrustados:</strong> en cualquiera de los modos de edici&oacute;n
+      Normal, Etiquetas HTML, o Vista preliminar las etiquetas que recubren
+      la posici&oacute;n actual se muestran en la barra de estado de &brandShortName;.
+      Las propiedades de estilo de cada una de las etiquetas pueden ser
+      modificadas seleccionando una opci&oacute;n del men&uacute; contextual. Para cambiar
+      las propiedades de estilo incrustadas:
+  
+      <ol>
+        <li>Haga clic con el bot&oacute;n derecho sobre la etiqueta que desee editar.</li>
+        <li>Haga clic en <q>Estilos incrustados</q>.</li>
+        <li>Escoja la secci&oacute;n de propiedades que desee editar:
+          <ul>
+            <li>Propiedades del texto</li>
+            <li>Propiedades del borde</li>
+            <li>Propiedades del fondo</li>
+            <li>Propiedades de la caja</li>
+            <li>Propiedades aurales</li>
+            <li>Extraer y crear estilo gen&eacute;rico</li>
+          </ul>
+        </li>
+      </ol>
+
+      <p>
+        Seleccionando cualquiera de las opciones excepto la &uacute;ltima
+        se abrir&aacute; la pesta&ntilde;a de la secci&oacute;n correspondiente del
+        editor CSS (m&aacute;s informaci&oacute;n sobre CSS en la secci&oacute;n
+        <a href="#using_style_sheets_for_your_web_pages">Utilizar
+        hojas de estilo</a>). Con la secci&oacute;n correspondiente
+        abierta, se pueden definir estilos propios que ser&aacute;n
+        almacenados seg&uacute;n el estilo de c&oacute;digo CSS de la W3C.
+      </p>
+
+      <p>
+        La opci&oacute;n <strong>Extraer y crear estilo gen&eacute;rico</strong>
+        permite extraer informaci&oacute;n de estilo a una regla de estilo
+        y guardarla en una hoja de estilos externa/interna.
+      </p>
+    </li>
+
+    <li>
+      <strong>Plantillas:</strong> se ofrecen dos opciones,
+      <q>Hacer editable</q> y <q>Eliminar &aacute;rea editable</q>, que pueden ser
+      utilizadas al trabajar con plantillas. Para m&aacute;s informaci&oacute;n
+      sobre plantillas, vea la secci&oacute;n <a
+      href="#working_with_templates">Trabajar con plantillas</a>.
+    </li>
+
+    <li>
+      <strong>ID:</strong> se muestran las etiquetas ID (si existen)
+      de la hoja de estilos actual aplicada al documento. Para aplicar
+      una etiqueta determinada al texto seleccionado simplemente
+      haga clic en esa etiqueta ID.
+    </li>
+
+    <li>
+      <strong>Clases:</strong> se muestran las etiquetas de clase
+      (si existen) de la hoja de estilos actual aplicada al documento.
+      Para aplicar una clase al texto seleccionado simplemente haga
+      clic en esa etiqueta de clase.
+    </li>
+
+    <li>
+      <strong>Propiedades avanzadas:</strong> permite usar el editor
+      de propiedades avanzado para agregar atributos HTML y JavaScript
+      a objetos como tablas, im&aacute;genes, enlaces, etc. Vea la secci&oacute;n
+      <a href="#using_the_advanced_property_editor">Editor avanzado
+      de propiedades</a>, para mayor detalle.
+    </li>
+
+  </ul>
+
+  <p class="returnToSection">
+    [ <a href="#formatting_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+<p>[<a href="css.xhtml">Siguiente</a>] [<a href="composer_help.xhtml">Anterior</a>]</p>
+
+  <div class="copyrightBox"><em>20 de junio de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

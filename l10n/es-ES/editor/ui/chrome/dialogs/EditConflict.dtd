@@ -1,0 +1,5 @@
+<!ENTITY windowTitle.label "Seleccionar cambios de edición">
+<!ENTITY conflictWarning.label "Esta página ha sido modificada por otro programa, pero hay también cambios sin guardar en Nvu.">
+<!ENTITY conflictResolve.label "Seleccionar qué versión mantener:">
+<!ENTITY keepCurrentPageButton.label "Mantener cambios de la página actual">
+<!ENTITY useOtherPageButton.label "Reemplazar página actual con otros cambios">
