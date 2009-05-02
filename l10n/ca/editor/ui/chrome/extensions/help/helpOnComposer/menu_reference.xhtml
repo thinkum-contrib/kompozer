@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[ <!ENTITY % brandDTD
+SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi@yahoo.com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Referencia de los men&uacute;s de &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+  var isDisplayed = true;
+
+  function togglePanel() {
+    isDisplayed = !isDisplayed;
+    var displayValue = isDisplayed ? "display: block" : "display: none";
+    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+    document.getElementById("contentsBox").setAttribute("style", displayValue);
+    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+  }
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
+  </tr>
+</table>
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="#file">Archivo</a>
+  <a href="#edit">Editar</a>
+  <a href="#view">Ver</a>
+  <a href="#insert">Insertar</a>
+  <a href="#format">Formato</a>
+  <a href="#table">Tabla</a>
+  <a href="#tools">Herramientas</a>
+  <a href="#help">Ayuda</a>
+</div>
+
+  <h1 id="menu_reference">Referencia de los men&uacute;s de &brandShortName;</h1>
+  <div>Esta referencia de men&uacute;s describe cada men&uacute; en la ventana principal
+  de &brandShortName;.</div>
+
+  <h2 id="file">Archivo</h2>
+
+  <h3 id="new_window">Nuevo</h3>
+  <p>Abre una nueva ventana de &brandShortName;.</p>
+
+  <h3 id="open_file">Abrir archivo...</h3>
+  <p>Muestra un di&aacute;logo desde el cual seleccionar un archivo de sus
+  discos locales o de su red. Con &brandShortName; puede ver archivos HTML,
+  plantillas HTML y archivos de texto.</p>
+
+  <h3 id="open_web_location">Abrir direcci&oacute;n...</h3>
+  <p>Muestra un di&aacute;logo en el cual escribir la URL del documento o
+  elegir un archivo local para ser abierto.</p>
+
+  <h3 id="recent_pages">P&aacute;ginas recientes</h3>
+  <p>Muestra la lista de los &uacute;ltimos archivos editados.</p>
+  
+  <h3 id="close">Cerrar</h3>
+  <p>Cierra la ventana actual.</p>
+
+  <h3 id="close_all">Cerrar todo</h3>
+  <p>Cierra todas las pesta&ntilde;as abiertas en la ventana actual.</p>
+  
+  <h3 id="save">Guardar</h3>
+  <p>Guarda el archivo abierto en la pesta&ntilde;a activa actual.</p>
+  
+  <h3 id="save_as">Guardar como...</h3>
+  <p>Guarda la p&aacute;gina que est&aacute; editando actualmente dando la opci&oacute;n de
+  guardarla con un nombre diferente.</p>
+
+  <h3 id="save_character_encoding">Guardar y cambiar codificaci&oacute;n de caracteres</h3>
+  <p>Da la opci&oacute;n de cambiar el conjunto de caracteres de la p&aacute;gina web
+  antes de mostrar el di&aacute;logo "Guardar como...".</p>
+
+  <h3 id="publish">Publicar</h3>
+  <p>Abre un di&aacute;logo para publicar la p&aacute;gina actualmente en edici&oacute;n.</p>
+
+  <h3 id="publish_as">Publicar como...</h3>
+  <p>Abre un di&aacute;logo para publicar la p&aacute;gina actualmente en edici&oacute;n.
+  &iexcl;Se comporta igual que "Publicar"!</p>
+
+  <h3 id="revert">Revertir</h3>
+  <p>Deshace todos los cambios realizados al documento actual desde que
+  &eacute;ste se guard&oacute; por &uacute;ltima vez. Revierte por tanto a la &uacute;ltima copia
+  guardada del documento actual.</p>
+
+  <h3 id="export_to_text">Exportar a texto...</h3>
+  <p>Exporta los contenidos del documento actual a texto sin formato.</p>
+
+  <h3 id="browse_page">Visualizar p&aacute;gina en el navegador</h3>
+  <p>Muestra la p&aacute;gina actual en su navegador predeterminado.</p>
+
+  <h3 id="page_setup">Configurar p&aacute;gina...</h3>
+  <p>Abre un di&aacute;logo con opciones para configurar las opciones de
+  impresi&oacute;n.</p>
+  
+  <h3 id="print_preview">Vista previa</h3>
+  <p>Muestra una ventana que ense&ntilde;a c&oacute;mo ser&aacute; el documento una vez
+  impreso en papel.</p>
+
+  <h3 id="print">Imprimir...</h3> 
+  <p>Muestra el di&aacute;logo Imprimir, donde puede seleccionar la impresora,
+  especificar el n&uacute;mero de copias, etc. Haga clic en <em>Imprimir</em> para
+  imprimir la p&aacute;gina.</p>
+
+  <h3 id="exit">Salir</h3>
+  <p>Cierra todas las ventanas de &brandShortName; incluyendo cualquiera
+  con m&aacute;s de una pesta&ntilde;a abierta, y sale completamente de &brandShortName;.
+  Si selecciona esta opci&oacute;n con documentos sin guardar, &brandShortName;
+  le pedir&aacute; confirmaci&oacute;n a fin de evitar salidas accidentales.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <h2 id="edit">Editar</h2>
+
+  <h3 id="undo">Deshacer</h3>
+  <p>Deshace la &uacute;ltima modificaci&oacute;n realizada en el documento actual.
+  Si despu&eacute;s decide que no quer&iacute;a deshacerla, use la orden Rehacer.</p>
+
+  <h3 id="redo">Rehacer</h3>
+  <p>Rehace la &uacute;ltima orden Deshacer.</p>
+
+  <h3 id="cut">Cortar</h3>
+  <p>Corta el texto seleccionado del documento y lo guarda en el portapapeles.
+  Pegue el texto donde quiera usando la orden Pegar.</p>
+
+  <h3 id="copy">Copiar</h3>
+  <p>Copia el texto seleccionado al portapapeles. Pegue el texto donde quiera
+  usando la orden Pegar.</p>
+  
+  <h3 id="paste">Pegar</h3>
+  <p>Pega el texto del portapapeles, obtenido usando las &oacute;rdenes Cortar y
+  Copiar, a la ubicaci&oacute;n actual del cursor.</p>
+
+  <h3 id="paste_without_formatting">Pegar sin formato</h3>
+  <p>Pega el texto del portapapeles, obtenido usando las &oacute;rdenes Cortar y
+  Copiar, a la ubicaci&oacute;n actual del cursor como texto sin formato, i.e.,
+  desechando toda informaci&oacute;n de formato en el texto del portapapeles.</p>
+  
+  <h3 id="delete">Eliminar</h3>
+  <p>Borra el texto seleccionado del documento actual.</p>
+
+  <h3 id="select_all">Seleccionar todo</h3>
+  <p>Selecciona todo el texto en el documento actual.</p>
+
+  <h3 id="find_and_replace">Buscar y reemplazar...</h3>
+  <p>Muestra un di&aacute;logo donde se introduce una cadena de texto para ser
+  buscada y reemplazada por otra cadena de texto. La b&uacute;squeda se lleva a 
+  cabo en la p&aacute;gina actual.</p>
+
+  <h3 id="find_again">Repetir la b&uacute;squeda</h3>
+  <p>Busca la siguiente aparici&oacute;n de la cadena de texto buscada en la orden
+  <em>Buscar y reemplazar...</em>. La b&uacute;squeda se lleva a cabo en la
+  p&aacute;gina actual.</p>
+
+  <h3 id="find_previous">Buscar anterior</h3>
+  <p>Busca la aparici&oacute;n anterior de la cadena de texto buscada en la orden
+  <em>Buscar y reemplazar...</em>.</p>
+
+  <h3 id="check_spelling">Revisar ortograf&iacute;a</h3>
+  <p>Abre el corrector ortogr&aacute;fico para comenzar la correcci&oacute;n del texto
+  de la p&aacute;gina actual.</p>
+
+  <h3 id="detach_from_template">Separar de la plantilla</h3>
+  <p>Separa el documento que se est&aacute; editando actualmente de la plantilla
+  para ser guardado como una p&aacute;gina <em>html</em>.</p>
+
+  <h3 id="publish_site_settings">Configuraci&oacute;n de sitio de publicaci&oacute;n</h3>
+  <p>Abre el administrador de sitios para configurar o cambiar las opciones
+  del sitio de publicaci&oacute;n.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <h2 id="view">Ver</h2>
+
+  <h3 id="show_hide">Mostrar/Ocultar</h3>
+
+  <h4 id="composition_toolbar">Barra de redacci&oacute;n</h4>
+  <p>Activa/desactiva la visibilidad de la barra de redacci&oacute;n, que suele contener
+  los botones est&aacute;ndar de redacci&oacute;n (Enlace interno, Enlace, Imagen, etc.).</p>
+
+  <h4 id="format_toolbar">Barra de formato</h4>
+  <p>Activa/desactiva la visibilidad de la barra de formato, que contiene 
+  diversos botones de formato.</p>
+
+  <h4 id="edit_mode_toolbar">Barra de modo de edici&oacute;n</h4>
+  <p>Activa/desactiva la visibilidad de la barra de modo de edici&oacute;n. Esta
+  barra est&aacute; en la parte inferior de la ventana &brandShortName;, justo
+  encima de la barra de estado. Con ella puede cambiar a diferentes vistas como
+  <em>Etiquetas HTML</em>, <em>C&oacute;digo fuente</em>, etc.</p>
+
+  <h4 id="status_bar">Barra de estado</h4>
+  <p>Activa/desactiva la visibilidad de la barra de estado situada en la
+  parte inferior de la ventana &brandShortName;.</p>
+
+  <h4 id="rulers">Reglas</h4>
+  <p>Activa/desactiva la visibilidad de las reglas horizontal y vertical.</p>
+
+  <h4 id="customize_toolbar">Personalizar barra de herramientas</h4>
+
+  <h5 id="main_toolbar">Barra principal</h5>
+  <p>Abre un panel para personalizar la barra principal. Puede arrastrar
+  botones desde el panel a la barra principal para a&ntilde;adir nuevos botones
+  o al contrario para quitarlos.</p>
+
+  <h5 id="format_toolbar">Barra de formato</h5>
+  <p>Abre un panel para personalizar la barra de formato. Puede arrastrar
+  botones desde el panel a la barra principal para a&ntilde;adir nuevos botones
+  o al contrario para quitarlos.</p>
+
+  <h4 id="site_manager">Administrador de sitios web</h4>
+  <p>Activa/desactiva la visibilidad del <em>Administrador de sitios</em>
+  en la ventana &brandShortName;.</p>
+
+  <h3 id="normal_edit_mode">Modo de edici&oacute;n normal</h3>
+  <p>Cambia al modo de edici&oacute;n normal.</p>
+
+  <h3 id="html_tags">Etiquetas HTML</h3>
+  <p>Cambia al modo de vista con etiquetas HTML.</p>
+
+  <h3 id="html_source">C&oacute;digo fuente HTML</h3>
+  <p>Cambia al modo de vista en c&oacute;digo fuente HTML.</p>
+
+  <h3 id="preview">Vista preliminar</h3>
+  <p>Cambia al modo de vista preliminar.</p>
+
+  <h3 id="carriage_returns">Retornos de carro</h3>
+  <p>Activa/desactiva la visibilidad de los retornos de carro.</p>
+
+  <h3 id="block_outline">Resaltado del bloque</h3>
+  <p>Alterna la visibilidad del l&iacute;mite de los elementos de nivel de
+  bloque en la p&aacute;gina.</p>
+
+  <h3 id="text_zoom">Tama&ntilde;o del texto</h3>
+
+  <h4 id="text_zoom_smaller">Menor</h4>
+  <p>Hace el texto m&aacute;s peque&ntilde;o en la p&aacute;gina web. Tambi&eacute;n puede hacer esto
+  con el rat&oacute;n (v&eacute;ase Incrementar tama&ntilde;o del texto para m&aacute;s instrucciones).
+  Para restaurar el tama&ntilde;o del texto, haga <kbd>Ctrl</kbd>+<kbd>0</kbd>.</p>
+
+  <h4 id="text_zoom_larger">Mayor</h4>
+  <p>Hace el texto m&aacute;s grande en la p&aacute;gina web. Tambi&eacute;n puede hacer esto
+  con el rat&oacute;n pulsando la tecla <kbd>Ctrl</kbd> mientras usa la rueda del
+  rat&oacute;n o presionando <kbd>+</kbd> o <kbd>-</kbd> para aumentar o reducir
+  el tama&ntilde;o del texto. Para restaurar el tama&ntilde;o del texto por defecto,
+  haga <kbd>Ctrl</kbd>+<kbd>0</kbd>.</p>
+
+  <h3 id="character_encoding">Codificaci&oacute;n de caracteres</h3>
+  <p>Permite cambiar manualmente la codificaci&oacute;n de caracteres de la
+  p&aacute;gina web. &brandShortName; suele hacer esto autom&aacute;ticamente.</p>
+
+  <h2 id="insert">Insertar</h2>
+
+  <p>El men&uacute; Insertar le permite insertar distintos elementos HTML en
+  el documento que est&eacute; editando.</p>
+
+  <h3 id="insert_image">Imagen...</h3>
+  <p>Abre una ventana de di&aacute;logo para insertar una imagen en el
+  documento en curso.</p>
+
+  <h3 id="insert_table">Tabla...</h3>
+  <p>Abre una ventana de di&aacute;logo para insertar una tabla en el
+  documento en curso.</p>
+
+  <h3 id="insert_form">Formulario...</h3>
+  <p></p>
+
+  <h3 id="insert_link">Enlace...</h3>
+  <p>Abre una ventana de di&aacute;logo para crear un enlace. Si escoge esta
+  opci&oacute;n habiendo seleccionado un texto en el documento en curso, dicho
+  texto se convertir&aacute; en el enlace. Tambi&eacute;n puede definir propiedades
+  de amistad (XFN, XHTML Friends Network, Red XHTML de amistades)
+  pulsando en el bot&oacute;n "M&aacute;s propiedades" del cuadro de di&aacute;logo.</p>
+
+  <h3 id="named_anchor">Enlace interno...</h3>
+  <p>Abre una ventana de di&aacute;logo para escribir en ella el nombre con el
+  que insertar un enlace interno en la posici&oacute;n actual del cursor.</p>
+
+  <h3 id="horizontal_line">L&iacute;nea horizontal</h3>
+  <p>Inserta una l&iacute;nea horizontal en el documento en curso.</p>
+
+  <h3 id="html">HTML...</h3>
+  <p>Abre una ventana en la que insertar manualmente c&oacute;digo HTML. Tambi&eacute;n
+  puede usar esta opci&oacute;n para insertar comentarios, scripts, etc.</p>
+
+  <h3 id="character_and_symbols">Caracteres y s&iacute;mbolos...</h3>
+  <p>Abre una ventana de di&aacute;logo para seleccionar e insertar
+  caracteres o s&iacute;mbolos especiales en el documento en curso.</p>
+
+  <h3 id="table_of_contents">Tabla de contenidos...</h3>
+  <p>Abre una ventana en la que insertar una tabla de contenidos (TOC) en la
+  posici&oacute;n actual del cursor. Se puede escoger si la tabla de contenidos
+  se construir&aacute; a partir de de etiquetas de cabecera 1 a 6 (H1-H6), etiquetas
+  &lt;div&gt; o etiquetas &lt;p&gt;.</p>
+
+  <h3 id="smart_widgets">Componentes reutilizables</h3>
+  <p>Inserta componentes reutilizables en el documento.</p>
+
+  <h4 id="made_with_nvu">Bot&oacute;n 'Hecho con Nvu'</h4>
+  <p>Inserta un bot&oacute;n <q>Hecho con Nvu</q> en el documento.</p>
+
+  <h4 id="calendar">Calendario</h4>
+  <p>Inserta (usando JavaScript) un objeto de tipo calendario en el documento.</p>
+
+  <h3 id="templates">Plantillas</h3>
+  <p>Cuando trabaja con plantillas, puede usar este men&uacute; para insertar un
+  &aacute;rea editable en su plantilla.</p>
+
+  <h3 id="php_code">C&oacute;digo PHP</h3>
+  <p>Inserta c&oacute;digo PHP en su documento HTML.</p>
+
+  <h3 id="comment">Comentario</h3>
+  <p>Inserta un comentario (&lt;-- ... --&gt;) en el documento HTML.</p>
+
+  <h3 id="break_below_images">Ruptura tras im&aacute;genes</h3>
+  <p>Inserta una etiqueta &lt;br clear=<q>all</q>&gt; para que el texto
+  escrito a continuaci&oacute;n de la imagen aparezca debajo de ella.</p>
+
+  <h2 id="format">Formato</h2>
+
+  <p>Este men&uacute; contiene varias opciones para dar formato al texto del
+  documento.</p>
+
+  <h3 id="font">Tipo de letra</h3>
+
+  <p>Puede escoger el tipo de letra a aplicar al texto seleccionado del
+  documento en curso, seleccionando el que desee de la lista que contiene
+  todos los tipos de letra instalados en su sistema.</p>
+
+  <h3 id="size">Tama&ntilde;o</h3>
+  <p>Al seleccionar Menor o Mayor puede cambiar el tama&ntilde;o del texto
+  seleccionado usando etiquetas &lt;small&gt; y &lt;big&gt;, respectivamente.</p>
+  <p>Si selecciona Muy peque&ntilde;o, Peque&ntilde;o, Medio, Grande, Muy grande y Extragrande
+  cambiar&aacute; el tama&ntilde;o del texto seleccionado usando etiquetas &lt;font&gt;.</p>
+
+  <h3 id="text_style">Estilo del texto</h3>
+  <p>Puede seleccionar el estilo de texto HTML que se aplicar&aacute; al texto
+  seleccionado en el documento.</p>
+
+  <h4 id="text_style_bold">Negrita</h4>
+
+  <p>Hace que el texto seleccionado aparezca en negrita. P.e <b>texto en negrita</b>.</p>
+
+  <h4 id="text_style_italic">Cursiva</h4>
+
+  <p>Hace que el texto seleccionado aparezca en cursiva. P.e. <i>texto en
+  cursiva</i>.</p>
+
+  <h4 id="text_style_italic">Subrayado</h4>
+
+  <p>Subraya el texto seleccionado. P.e. <u>texto subrayado</u>.</p>
+
+  <h4 id="text_style_strikethrough">Tachado</h4>
+
+  <p>Aplica un efecto de tachado al texto seleccionado. P.e. <span
+  style="text-decoration: line-through;">texto tachado</span>.</p>
+
+  <h4 id="text_style_superscript">Super&iacute;ndice</h4>
+
+  <p>Hace que el texto seleccinoado aparezca como super&iacute;ndice. P.e.
+  texto en <sup>super&iacute;ndice</sup>.</p>
+
+  <h4 id="text_style_subscript">Sub&iacute;ndice</h4>
+
+  <p>Hace que el texto seleccionado aparezca como sub&iacute;ndice. P.e.
+  P.e. texto en <sub>sub&iacute;ndice</sub>.</p>
+
+  <h4 id="text_style_fixed_width">Anchura fija</h4>
+
+  <p>Hace que el texto aparezca con la misma anchura en todas su letras.
+  P.e. <span style="font-family: monospace;">texto de anchura fija</span>.</p>
+
+  <h4 id="text_style_non_breaking">Sin romper</h4>
+
+  <p>HTML convierte m&uacute;ltiples espacios consecutivos en uno solo. Para marcar
+  espacios no rompibles (entidades &amp;nbsp; use esta opci&oacute;n despu&eacute;s de
+  seleccionar los espacios en el documento. P.e. 3 espacios no
+  rompibles&nbsp;&nbsp;&nbsp;aqu&iacute;.</p>
+
+  <h4 id="text_style_emphasis">&Eacute;nfasis</h4>
+
+  <p>Hace que el texto aparezca enfatizado. P.e. <em>texto
+  con &eacute;nfasis</em>.</p>
+
+  <h4 id="text_style_stronger_emphasis">M&aacute;s &eacute;nfasis</h4>
+
+  <p>Proporciona al texto seleccionado un mayor &eacute;nfasis. P.e. texto
+  <strong>con m&aacute;s &eacute;nfasis</strong>.</p>
+
+  <h4 id="text_style_citation">Cita</h4>
+
+  <p>Define el texto seleccionado como texto citado. P.e. <cite>Texto
+  citado</cite>.</p>
+
+  <h4 id="text_style_abbreviation">Abreviatura</h4>
+
+  <p>Indica que el texto est&aacute; en forma abreviada. P.e. <abbr
+  title="Uni&oacute;n Europea">UE</abbr>.</p>
+
+  <h4 id="text_style_acronym">Acr&oacute;nimo</h4>
+
+  <p>Define el inicio de un acr&oacute;nimo. P.e. <acronym
+  title="World Wide Web">WWW</acronym></p>
+
+  <h4 id="text_style_code">C&oacute;digo</h4>
+
+  <p>Define el texto seleccionado como un fragmento de c&oacute;digo
+  inform&aacute;tico (lenguajes de programaci&oacute;n, scripts, etc.). P.e. <code>int
+  main()</code>.</p>
+
+  <h4 id="text_style_sample_output">Salida de ejemplo</h4>
+
+  <p>Define el texto seleccionado como el resultado por pantalla de un
+  proceso inform&aacute;tico. P.e. <samp>ls: *.html: No such file or directory</samp>.</p>
+
+  <h4 id="text_style_variable">Variable</h4>
+
+  <p>Define el texto seleccionado como una instancia de variable en un
+  programa inform&aacute;tico. P.e. <var>myDOMTree</var>.</p>
+  
+  <h3 id="text_color">Color del texto...</h3>
+
+  <p>Abre la ventana de selecci&oacute;n de color para escoger el color del texto
+  seleccionado.</p>
+
+  <h3 id="writing_direction">Direcci&oacute;n de escritura</h3>
+
+  <p>Da la posibilidad de escribir el texto de izquierda a derecha o de
+  derecha a izquierda. El texto seleccionado deber&iacute;a representar un elemento
+  de nivel de bloque y no en l&iacute;nea.</p>
+
+  <h3 id="discontinue_text_styles">Descontinuar estilos de texto</h3>
+
+  <p>Deja de aplicar cualquier estilo de texto que est&eacute; activo en la
+  posici&oacute;n actual del cursor.</p>
+
+  <h3 id="discontinue_link">Descontinuar enlaces</h3>
+
+  <p>Cierra un enlace abierto en la posici&oacute;n del cursor, de manera que el
+  siguiente texto escrito no produzca efecto al ser pulsado con el rat&oacute;n.</p>
+
+  <h3 id="remove_named_anchors">Elimina enlaces internos</h3>
+
+  <p>Elimina el enlace interno seleccionado.</p>
+
+  <h3 id="paragraph">P&aacute;rrafo</h3>
+
+  <p>Permite etiquetar el texto (seleccionado o perteneciente al mismo bloque que
+  la posici&oacute;n actual del cursor) como p&aacute;rrafo, cabecera nivel 1 a nivel 6,
+  <em>direcci&oacute;n</em> (address), texto preformateado o contenedor gen&eacute;rico DIV.</p>
+
+  <h3 id="list">Lista</h3>
+
+  <p>Inicia una lista con opciones para varios tipos distintos: no numerada,
+  numerada, t&eacute;rmino o definici&oacute;n. Al escoger Propiedades de la lista se abre
+  un cuadro de di&aacute;logo para editar manualmente las propiedades de la lista.</p>
+
+  <h3 id="increase_indent">Incrementar sangrado</h3>
+
+  <p>Incrementa el sangrado del bloque de texto seleccionado (o de la lista en la que se encuentra el cursor).</p>
+
+  <h3 id="decrease_indent">Reducir sangrado</h3>
+
+  <p>Reduce el sangrado del bloque de texto seleccionado (o de la lista en la que se encuentra el cursor).</p>
+
+  <h3 id="align">Alinear</h3>
+
+  <p>Le permite seleccionar la alineaci&oacute;n del texto seleccionado. Puede hacer que
+  el texto se alinee al centro, a la izquierda, a la derecha o a ambos
+  m&aacute;rgenes.</p>
+
+  <h3 id="positioning_grid">Rejilla de posicionamiento</h3>
+
+  <p>Abre un cuadro de di&aacute;logo para establecer el n&uacute;mero de p&iacute;xeles en los
+  que se podr&aacute; desplazar una capa.</p>
+
+  <h3 id="advanced_properties">Propiedades avanzadas</h3>
+
+  <p>Abre el <q>editor avanzado de propiedades</q> donde puede a&ntilde;adir/editar
+  manualmente atributos HTML, estilos en l&iacute;nea, o incluso eventos JavaScript.</p>
+
+  <h3 id="page_colors_and_background">Colores y fondo de la p&aacute;gina...</h3>
+
+  <p>Abre una ventana para seleccionar los colores y fondo de la p&aacute;gina. Los
+  usuarios pueden seleccionar el color del texto normal, texto de los enlaces,
+  y el texto de enlaces activos y visitados. Tambi&eacute;n puede escoger el color de
+  fondo de su p&aacute;gina y, opcionalmente, adjuntar una imagen de fondo para la
+  p&aacute;gina.</p>
+
+  <h3 id="page_title_and_properties">T&iacute;tulo y propiedades de la p&aacute;gina...</h3>
+
+  <p>Abre la ventana <q>Propiedades de la p&aacute;gina</q> donde podr&aacute; a&ntilde;adir el t&iacute;tulo,
+  autor y descripci&oacute;n de su p&aacute;gina web. Tambi&eacute;n puede especificar el idioma y
+  direcci&oacute;n de escritura que usar&aacute; en el documento en curso. Para usar esta
+  p&aacute;gina como plantilla puede marcar la casilla "Esta p&aacute;gina es una plantilla".</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <h2 id="table">Tabla</h2>
+
+  <p>Este men&uacute; le permite crear/editar tablas en un documento HTML.</p>
+
+  <h3 id="table_insert">Insertar</h3>
+
+  <p>Abre un submen&uacute; con varias opciones de edici&oacute;n/creaci&oacute;n de tablas.</p>
+
+  <h4 id="insert_table">Tabla</h4>
+
+  <p>Abre una ventana de di&aacute;logo que le permite elegir diversas propiedades de la
+  tabla que se insertar&aacute; en la posici&oacute;n actual del cursor. Los usuarios pueden
+  escoger el tama&ntilde;o de la tabla haciendo clic en la cuadr&iacute;cula de tabla que se
+  muestra o indicar expl&iacute;citamente el tama&ntilde;o de la tabla. Tambi&eacute;n pueden indicarse
+  otras propiedades de las celdas de la tabla como <code>cellspacing</code>, <code>cellpadding</code>, etc.</p>
+	
+  <h4 id="insert_row_above">Fila superior</h4>
+
+  <p>Inserta una fila vac&iacute;a <em>encima</em> de la fila actualmente activa de la tabla.</p>
+
+  <h4 id="insert_row_below">Fila inferior</h4>
+  
+  <p>Inserta una fila vac&iacute;a <em>debajo</em> de la fila actualmente activa de la tabla.</p>
+
+  <h4 id="insert_column_before">Columna anterior</h4>
+
+  <p>Inserta una columna vac&iacute;a <em>a la izquierda</em> de la columna actualmente activa de la tabla.</p>
+
+  <h4 id="insert_column_after">Columna siguiente</h4>
+
+  <p>Inserta una columna vac&iacute;a <em>a la derecha</em> de la columna actualmente activa de la tabla.</p>
+
+  <h4 id="insert_cell_before">Celda anterior</h4>
+
+  <p>Inserta una celda vac&iacute;a <em>a la izquierda</em> de la celda actualmente activa de la tabla.</p>
+
+  <h4 id="insert_cell_after">Celda siguiente</h4>
+
+  <p>Inserta una celda vac&iacute;a <em>a la derecha</em> de la celda actualmente activa de la tabla.</p>
+
+  <h3 id="table_select">Seleccionar</h3>
+  
+  <p>Selecciona, para su edici&oacute;n, distintos componentes de la tabla actualmente
+  activa.</p>
+
+  <h4 id="select_table">Tabla</h4>
+
+  <p>Selecciona la tabla completa.</p>
+
+  <h4 id="select_row">Fila</h4>
+
+  <p>Selecciona la fila en curso.</p>
+
+  <h4 id="select_column">Columna</h4>
+
+  <p>Selecciona la columna en curso.</p>
+
+  <h4 id="select_all_cells">Todas las celdas</h4>
+
+  <p>Selecciona todas las celdas. Esto difiere de seleccionar la tabla completa
+  en que los cambios se aplicar&aacute;n individualmente a cada celda, en lugar de la
+  tabla.</p>
+
+  <h3 id="table_delete">Eliminar</h3>
+
+  <p>Abre un submen&uacute; para borrar diversos componentes de la tabla.</p>
+
+  <h4 id="delete_table">Tabla</h4>
+
+  <p>Borra la tabla activa. &Uacute;sela con cuidado, se perder&aacute;n todos los datos
+  de la tabla.</p>
+
+  <h4 id="delete_rows">Fila(s)</h4>
+
+  <p>Borra la fila o filas activa/seleccionada(s) de la tabla.</p>
+
+  <h4 id="delete_columns">Columna(s)</h4>
+
+  <p>Borra la columna o columnas activa/seleccionada(s) de la tabla.</p>
+
+  <h4 id="delete_cells">Celda(s)</h4>
+
+  <p>Borra la celda o celdas activa/seleccionada(s) de la tabla.</p>
+
+  <h4 id="delete_cell_contents">Contenido de la celda</h4>
+
+  <p>Borra el contenido de la celda en curso.</p>
+
+  <h3 id="join_with_cell_to_the_right">Unir a la celda de la derecha</h3>
+
+  <p>Una la celda activa de la tabla con la celda inmediatamente a la
+  derecha.</p>
+
+  <h3 id="split_cell">Dividir celda</h3>
+
+  <p>Divide una celda que tiene un valor <tt>colspan</tt> superior a
+  1.</p>
+
+  <h3 id="create_table_from_selection">Crear tabla a partir de la
+  selecci&oacute;n</h3>
+
+  <p>Crea una tabla a partir del texto seleccionado. Se crea una fila por cada
+  p&aacute;rrafo de texto seleccionado. Se puede elegir que las separaciones de columnas
+  sean comas (,), espacios ( ) o un car&aacute;cter definido por el usuario.</p>
+
+  <h3 id="table_or_cell_background_color">Color de fondo de la tabla
+  o celda...</h3>
+
+  <p>Abre un cuadro de di&aacute;logo para editar el color de fondo de la tabla o
+  celda activas.</p>
+
+  <h3 id="table_properties">Propiedades de la tabla...</h3>
+
+  <p>Abre la ventana de edici&oacute;n de propiedades de celdas y tablas. Puede cambiar
+  todas las propiedades de las celdas y tablas completas usando la interfaz de
+  usuario.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Volver al principio de la secci&oacute;n</a> ]</p>
+
+  <h2 id="tools">Herramientas</h2>
+
+  <h3 id="markup_cleaner">Limpiador de cÃÂ³digo</h3>
+
+  <p>Abre la ventana del limpiador de cÃÂ³digo, el cual mejora el c&oacute;digo
+  HTML eliminando etiquetas &lt;br&gt; de m&aacute;s, bloques vac&iacute;os, etc.</p>
+
+  <h3 id="validate_html">Validar HTML</h3>
+
+  <p>Abre una ventana para mostrar los resultados de la validaci&oacute;n del
+  documento por el <a href="http://validator.w3.org">validador HTML del
+  W3C</a>.</p>
+
+  <h3 id="css_editor">Editor CSS</h3>
+
+  <p>Abre CaScadeS, el editor CSS incorporado para editar reglas de estilo
+  CSS.</p>
+
+  <h3 id="extensions">Extensiones</h3>
+
+  <p>Abre el administrador de extensiones que puede usarse para instalar
+  extensiones o eliminar las instaladas. Las extensiones a&ntilde;aden caracter&iacute;sticas
+  a &brandShortName;.</p>
+
+  <h3 id="themes">Temas</h3>
+  
+  <p>Abre el administrador de temas que puede usar para instalar o desinstalar
+  temas de &brandShortName;.</p>
+
+  <h3 id="web_development">Desarrollo Web</h3>
+
+  <p>Abre varias herramientas incluidas en &brandShortName; para los
+  desarrolladores web.</p>
+
+  <h4 id="javascript_console">Consola JavaScript</h4>
+
+  <p>Abre la ventana de la consola JavaScript.</p>
+
+  <h4 id="java_console">Consola Java</h4>
+
+  <p>Abre la ventana de la consola Java.</p>
+
+  <!-- h4 id="dom_inspector">DOM Inspector</h4>
+
+  <p>Opens the Document Object Model (DOM) Inspector.</p>
+
+  <h4 id="javascript_debugger">Javascript Debugger</h4>
+
+  <p>Opens the Javascript debugger Venkman for debugging javascript
+  code in the document.</p -->
+
+  <h3 id="preferences">Preferencias</h3>
+  <p>Abre la ventana <em>Preferencias</em> para cambiar las preferencias
+  de &brandShortName;</p>
+
+  <h2 id="help">Ayuda</h2>
+
+  <h3 id="help_contents">Contenido de la ayuda</h3>
+
+  <p>Abre la ventana del visor de ayuda.</p>
+
+  <h3 id="nvu_website">Sitio web de &brandShortName;</h3>
+
+  <p>Abre el sitio web de &brandShortName; en su navegador predeterminado.</p>
+
+  <h3 id="nvu_faq">FAQ</h3>
+
+  <p>Abre la FAQ de &brandShortName; en su navegador predeterminado.</p>
+
+  <h3 id="bug_reports_and_suggestions">Informes de fallos y sugerencias</h3>
+
+  <p>Abre la p&aacute;gina de informes de fallos y sugerencias de &brandShortName;
+  en su navegador predeterminado.</p>
+
+  <h3 id="developers_community">Comunidad de desarrolladores</h3>
+
+  <p>Abre el sitio web para desarrolladores de &brandShortName; en su navegador predeterminado.</p>
+
+  <h3 id="localizing_nvu">Localizing Nvu</h3>
+
+  <p>Abre la p&aacute;gina web con instrucciones sobre c&oacute;mo comenzar el proceso de
+  traducci&oacute;n de Nvu.</p>
+
+  <h3 id="forums">Foros</h3>
+
+  <p>Abre el sitio web de foros de &brandShortName; en su navegador predeterminado.</p>
+
+  <h3 id="tip_of_day">Consejo del d&iacute;a</h3>
+
+  <p>Muestra una peque&ntilde;a ventana con el <em>Consejo del d&iacute;a</em>.</p>
+
+  <h3 id="about_nvu">Acerca de &brandShortName;</h3>
+
+  <p>Muestra un cuadro de di&aacute;logo con informaci&oacute;n sobre &brandShortName;,
+  incluyendo la versi&oacute;n actual y una breve lista de cr&eacute;ditos.</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">Volver al principio
+  de la secci&oacute;n</a> ]</p>
+
+  <div class="copyrightBox"><em>21 de marzo 2005</em></div>
+
+  <p>Copyright &copy; 2004-2005 Contributors to the Nvu
+  Help Documentation Project.</p>
+
+</body>
+
+</html>

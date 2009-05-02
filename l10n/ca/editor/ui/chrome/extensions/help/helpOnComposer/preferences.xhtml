@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Contributor(s):
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Preferencias de &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+<body>
+<script type="text/javascript">
+  var isDisplayed = true;
+
+  function togglePanel() {
+    isDisplayed = !isDisplayed;
+    var displayValue = isDisplayed ? "display: block" : "display: none";
+    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+    document.getElementById("contentsBox").setAttribute("style", displayValue);
+    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+  }
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
+  </tr>
+</table>
+
+<div id="contentsBox">
+  <a href="#preferences_general_settings">General</a>
+  <a href="#preferences_fonts">Tipos de letra</a>
+  <a href="#preferences_new_page_settings">Config. nuevas p&aacute;ginas</a>
+  <a href="#preferences_advanced_settings">Avanzado</a>
+</div>
+
+<h1 id="preferences">Preferencias de &brandShortName;</h1>
+
+<p>&brandShortName; tiene varios ajustes importantes en el panel de preferencias.
+Los usuarios pueden establecer las preferencias dependiendo de sus requisitos
+y &brandShortName; las tendr&aacute; en cuenta cada vez que el usuario lo ejecute.</p>
+
+<p>Esta secci&oacute;n describe las opciones en el panel de preferencias de
+&brandShortName;. Si todav&iacute;a no lo est&aacute; viendo, siga
+estos pasos:</p>
+
+<ol>
+
+  <li>Pulse en el men&uacute; <span class="menuPath">Herramientas &gt; Preferencias</span>
+  (Men&uacute; Mozilla en MacOS X) para abrir el panel de preferencias (Opciones).</li>
+
+  <li>Haga clic en la categor&iacute;a de &brandShortName; para ver los ajustes
+  correspondientes disponibles para personalizaci&oacute;.</li>
+</ol>
+
+<p>Para informaci&oacute;n sobre las opciones de publicaci&oacute;n de
+&brandShortName;, vea la secci&oacute;n <a
+href="publishing_help.xhtml#publishing_settings">Opciones
+de publicaci&oacute;n</a>.</p>
+
+<h2 id="preferences_general_settings">General</h2>
+
+<p>Las preferencias generales le permiten especificar ajustes al guardar
+los archivos y editar tablas. Estos ajustes se aplican a todos los documentos
+que cree.</p>
+
+<p>Si no est&aacute; viendo ya las preferencias generales
+de &brandShortName;, siga estos pasos:</p>
+
+<ol>
+  <li>Abra el men&uacute; Editar (Menu de Mozilla en MacOS X) y elija
+  Preferencias.</li>
+
+  <li>Pulse en la categor&iacute;a General del panel lateral.</li>
+</ol>
+
+<h3 id="preferences_general_settings_recent">Men&uacute; de p&aacute;ginas recientes</h3>
+
+<p><strong>N&uacute;mero m&aacute;ximo de p&aacute;ginas listadas:</strong> especifique el
+  n&uacute;mero m&aacute;ximo de p&aacute;ginas que aparecer&aacute;n en P&aacute;ginas recientes
+  dentro del men&uacute; Archivo.</p>
+
+<h3 id="preferences_general_settings_saving_publishing">Al guardar o
+publicar p&aacute;ginas</h3>
+
+<ul>
+
+  <li><strong>Mantener el formato del c&oacute;digo fuente original</strong>: esta opci&oacute;n
+  mantiene los saltos de l&iacute;nea y el formato original del c&oacute;digo fuente
+  HTML de la p&aacute;gina. Selecci&oacute;nelo si desea mantener los espacios (l&iacute;neas
+  extras, tabulaciones, etc.) que hacen el c&oacute;digo fuente HTML m&aacute;s legible.
+  Esta preferencia no afecta a c&oacute;mo se ver&aacute;n sus p&aacute;ginas en la ventana del
+  navegador.</li>
+
+  <li><strong>Reformatear (<q>Pretty print</q>) el c&oacute;digo HTML:</strong>: esta opci&oacute;n cambia
+  el formato del c&oacute;digo fuente HTML para hacerlo m&aacute;s legible, insertando saltos de
+  l&iacute;nea y sangrados. Esta preferencia no afecta a c&oacute;mo se ver&aacute;n sus p&aacute;ginas
+  en la ventana del navegador.</li>
+
+  <li><strong>Guardar im&aacute;genes y otros archivos asociados al guardar las
+  p&aacute;ginas</strong>: si est&aacute; marcado, todas las im&aacute;genes, JavaScript (JS), hojas
+  de estilo en cascada (CSS), y otros archivos asociados se guardar&aacute;n en la misma
+  ubicaci&oacute;n que el documento cuando &eacute;ste sea guardado por primera vez o cuando
+  sea guardado en una nueva ubicaci&oacute;n. Si est&aacute; desmarcado, s&oacute;lo
+  se guarda el archivo HTML.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+  list-style-image: none;"> <p>Por ejemplo, al editar una p&aacute;gina remota, esta
+  opci&oacute;n asegura que todos los archivos relacionados asociados con la p&aacute;gina
+  remota sean guardados localmente cuando guarde la p&aacute;gina a su disco duro.</p> </li>
+
+  <li><strong>Mostrar siempre el di&aacute;logo Publicar al publicar las p&aacute;ginas</strong>:
+  si est&aacute; marcado, &brandShortName; muestra siempre el cuadro de di&aacute;logo
+  Publicaci&oacute;n de p&aacute;gina cuando pulse el bot&oacute;n Publicar o elija Publicar desde el
+  men&uacute; Archivo. Si no est&aacute; marcado, &brandShortName; muestra el di&aacute;logo
+  Publicaci&oacute;n de p&aacute;gina solamente si necesita m&aacute;s informaci&oacute;n para publicarla.</li>
+
+</ul>
+
+[<a href="#preferences_general_settings">Volver al principio de la secci&oacute;n</a>]
+
+<h3 id="preferences_general_settings_table_editing">Edici&oacute;n de tablas</h3>
+
+<p><strong>Mantener el dise&ntilde;o de la tabla al introducir o borrar celdas</strong>: seleccione esta opci&oacute;n
+si quiere que &brandShortName; preserve siempre el dise&ntilde;o de la tabla (es decir, mantenga su forma rectangular)
+agregando celdas donde sea necesario. Si desmarca esta opci&oacute;n, cuando
+suprima una o m&aacute;s celdas, &brandShortName; eliminar&aacute; tambi&eacute;n el borde de
+la celda, lo que puede dar lugar a una tabla con espacios vac&iacute;os, o un contorno
+irregular debido a un n&uacute;mero desigual de celdas.</p>
+
+[<a href="#preferences_general_settings">Volver al principio de la secci&oacute;n</a>]
+
+<h3
+id="preferences_general_settings_cascading_style_sheets_editing">Edici&oacute;n de hojas de
+estilo en cascada (CSS)</h3>
+
+<p><strong>Usar estilos CSS en lugar de elementos y atributos HTML</strong>: habilita
+el uso de formato mediante hojas de estilo en cascada (CSS) en sus documentos de &brandShortName;.
+Con esta preferencia activada, &brandShortName; genera el formato de los
+elementos HTML 4.01 mediante estilos en l&iacute;nea CSS.</p>
+
+<p>Si no se activa esta preferencia, &brandShortName; genera formato conforme con
+HTML 4.01, pero no utiliza estilos CSS.</p>
+
+<p>Comparado con HTML, el HTML con formato CSS es m&aacute;s portable, m&aacute;s
+mantenible y m&aacute;s compatible cuando se visualiza con distintos navegadores.
+Si activa esta preferencia y despu&eacute;s edita un documento creado sin CSS,
+&brandShortName; reemplaza los elementos editados por estilos CSS.</p>
+
+<p>Si activa el uso de estilos CSS, puede elegir un color de resaltado de texto para
+el texto seleccionado usando el bot&oacute;n de color de resaltado de texto en la barra
+de formato. Puede tambi&eacute;n elegir un color de fondo para cualquier elemento de la
+p&aacute;gina (estas caracter&iacute;sticas no est&aacute;n disponibles si esta preferencia
+no est&aacute; activada).</p>
+
+[<a href="#preferences_general_settings">Volver al principio de la secci&oacute;n</a>]
+
+<h3 id="preferences_general_settings_site_manager">Administrador de sitios</h3>
+
+<p><strong>Abrir siempre un documento en una pesta&ntilde;a nueva</strong>: seleccione
+esta opci&oacute;n si desea abrir los documentos en nuevas pesta&ntilde;as mientras usa el
+administrador de sitios. Si no est&aacute; marcado, al hacer doble clic en los nombres
+de archivo en el administrador de sitios, &eacute;stos se abrir&aacute;n en nuevas ventanas.</p>
+
+<p class="returnToSection">[ <a href="#preferences">Volver al principio
+de la secci&oacute;n </a> ]</p>
+
+<h2 id="preferences_fonts">Tipos de letra</h2>
+
+<!-- The documentation for the Fonts section has been blatantly copied
+     from Firefox Help and then an attempt was made to conform it to
+     Nvu realm. -->
+
+<p>Los tipos de letra mostrados en &brandShortName; son los predeterminados
+en el programa o los que el usuario defina por s&iacute; mismo.</p>
+
+<h3 id="preferences_fonts_fonts_for">Tipos de letra para</h3>
+
+<p>La familia tipogr&aacute;fica se puede definir en la secci&oacute;n
+<em>Tipos de letra para:</em> de las preferencias de &brandShortName;. Para
+cambiar la tipograf&iacute;a predeterminada:</p>
+
+<ol>
+
+  <li>Desde la lista desplegable <em>Tipos de letra para</em>, elija un juego de
+  caracteres. Por ejemplo, para fijar la tipograf&iacute;a por omisi&oacute;n para el juego
+  de caracteres occidental (Romano), elija  <em>Occidental</em>.</li>
+
+  <li>Seleccione si el texto proporcional debe ser serif (como "Times New
+  Roman") o sans-serif (como "Arial"). Luego especifique el tama&ntilde;o de
+  letra que desea para el texto proporcional.</li>
+
+  <li>Especifique el tipo de letra a usar para las familias tipogr&aacute;ficas
+  Serif, Sans-serif, Cursive Fantasy y Monospace. Puede tambi&eacute;n cambiar
+  el tama&ntilde;o para los tipos de letra <tt>Monospace</tt> .</li>
+
+</ol>
+
+<p>Puede tambi&eacute;n elegir el <em>Tama&ntilde;o de letra m&iacute;nimo</em> que desea
+mostrar. Fijar un tama&ntilde;o de letra m&iacute;nimo puede ser provechoso
+al editar p&aacute;ginas con tipograf&iacute;s muy peque&ntilde;as que
+ser&iacute;an dif&iacute;ficiles de leer si no se indica esta opci&oacute;n.</p>
+
+<p>Tambi&eacute;n se puede especificar la resoluci&oacute;n de la pantalla, que es
+normalmente 96 <acronym title="puntos por pulgada">ppp</acronym>. Puede
+fijarlo a una de las opciones predefinidas p.e. 72ppp, o 96ppp o puede
+hacerlo coincidir con la <em>configuraci&oacute;n del sistema</em> o establecerlo
+manualmente usando la opci&oacute;n <em>Otro...</em></p>
+
+<p class="returnToSection">[ <a href="#preferences">Volver al principio
+de la secci&oacute;n</a> ]</p>
+
+<h2 id="preferences_new_page_settings">Config. nuevas p&aacute;ginas</h2>
+
+<p>La configuraci&oacute;n para nuevas p&aacute;ginas permite que especifique los ajustes
+para colores e im&aacute;genes de fondo que se aplicar&aacute;n a cada documento que cree.</p>
+
+<p>Si no est&aacute; viendo ya la configuraci&oacute;n de nueva p&aacute;gina,
+siga estos pasos:</p>
+
+<ol> <li>Abra el men&uacute; Herramientas (men&uacute; Mozilla en Mac OS X) y elija
+Preferencias.</li>
+
+<li>Pulse en el icono Config. nuevas p&aacute;ginas en el panel lateral de categor&iacute;as</li> </ol>
+
+<h3 id="preferences_new_page_settings_author">Autor</h3>
+
+<p>Introduzca su nombre. Esto agregar&aacute; su nombre al c&oacute;digo fuente
+  HTML en cada p&aacute;gina nueva que cree. Su nombre se a&ntilde;adir&aacute; en la
+  secci&oacute;n &lt;head&gt; de la p&aacute;gina web y no ser&aacute;
+  visible.</p>
+
+[<a href="#preferences_new_page_settings">Volver al principio de la secci&oacute;n</a>]
+
+<h3 id="preferences_new_page_settings_markup">Marcado</h3>
+
+<ul>
+
+  <li><strong>Lenguaje</strong>: los usuarios pueden seleccionar el lenguaje a
+  usar por omisi&oacute;n al crear un nuevo documento web. Elija
+  <acronym title="Hyper Text Document Language">HTML</acronym>4.0 &oacute;
+  <acronym title="Xtensible Hyper Text Language">XHTML</acronym>1.0.</li>
+
+  <li><strong>DTD</strong>: seleccione el <acronym title="Document Type
+  Definition">DTD</acronym> que se usar&aacute; de modo preterminado al crear nuevos
+  documentos web. Est&aacute;n disponibles las opciones de definir el documento como
+  <em>Transitional</em> o <em>Strict</em>.</li>
+
+</ul>
+
+[<a href="#preferences_new_page_settings">Volver al principio de la secci&oacute;n</a>]
+
+<h3 id="preferences_new_page_settings_default_page_appearance">Apariencia
+predeterminada de la p&aacute;gina</h3>
+
+<ul>
+
+  <li><strong>Colores predeterminados del usuario</strong>: seleccione esta
+  opci&oacute;n si quiere que sus p&aacute;ginas usen siempre los ajustes de color del
+  navegador de los visitantes para los elementos de texto y enlaces.</li>
+
+  <li><strong>Usar colores personalizados</strong>: escoja esta opci&oacute;n si
+  quiere especificar siempre los colores que se aplican a los elementos de
+  texto y enlaces. Luego, para cada elemento seleccione un color pulsando
+  el bot&oacute;n de color junto a cada elemento, lo que abrir&aacute; la paleta de
+  colores para seleccionar el color f&aacute;cilmente.</li>
+
+  <li><strong>Imagen de fondo</strong>: escriba la ubicaci&oacute;n y el nombre
+  de la imagen, o pulse en Elegir Archivo para localizar la imagen en su
+  disco duro o red local.
+
+  <p><strong>Nota</strong>: las im&aacute;genes de fondo se aplican en mosaico y
+  tienen preferencia sobre el color de fondo.</p> </li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+    <p>Para cambiar el nombre del autor de una p&aacute;gina individual: abra el men&uacute;
+    Formato y elija T&iacute;tulo y propiedades de la p&aacute;gina.</p>
+
+    <p>Para cambiar los colores de la p&aacute;gina y la imagen de fondo de una p&aacute;gina
+    individual: abra el men&uacute; Formato y elija Colores y fondo de la
+    p&aacute;gina.</p></li>
+
+</ul>
+
+[<a href="#preferences_new_page_settings">Volver al principio de la secci&oacute;n</a>]
+
+<h3
+id="preferences_new_page_settings_internationalization">Internacionalizaci&oacute;n</h3>
+
+<ul>
+
+  <li><strong>Idioma</strong>: elija el idioma en el cual est&aacute; previsto
+  escribir el documento HTML.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+  list-style-image: none;"> <p>Por ejemplo si el documento se escribe
+  en franc&eacute;s canadiense, al seleccionar <q>Franc&eacute;s/Canad&aacute;[fr-ca]</q> indicar&aacute;
+  al navegador que el documento est&aacute; escrito en franc&eacute;s canadiense. Y el c&oacute;digo
+  HTML contendr&aacute; el <tt>&lt;html lang="fr-ca"&gt;</tt> como indicador del
+  idioma del documento.</p></li>
+
+  <li><strong>Direcci&oacute;n de escritura</strong>: escoja la direcci&oacute;n de
+  escritura del texto dependiendo del idioma que est&aacute; usando en su documento.
+  Esto solventa problemas que los usuarios ten&iacute;an al crear p&aacute;ginas html en
+  idiomas escritos de derecha a izquierda, por ejemplo, &Aacute;rabe, Urdu,
+  etc.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+    <p>Para cambiar la especificaci&oacute;n de idioma para una p&aacute;gina individual:
+    abra el men&uacute; Formato y elija T&iacute;tulo y propiedades de p&aacute;gina, y
+    cambie el idioma en la secci&oacute;n Internacionalizaci&oacute;n.</p>
+
+    <p>Para cambiar la direcci&oacute;n de escritura de una p&aacute;gina individual:
+    abra el men&uacute; Formato y elija T&iacute;tulo y propiedades de p&aacute;gina,
+    y elija el idioma en la secci&oacute;n Internacionalizaci&oacute;n.</p></li>
+
+  <li><strong>Conjunto de caracteres</strong>: el conjunto de caracteres determina
+  c&oacute;mo los bytes que representan el texto de su documento <acronym
+  title="Hyper Text Markup Language">HTML</acronym> se traducen a caracteres
+  legibles. Con esta opci&oacute;n puede elegir el conjunto de caracteres que desea
+  utilizar para su p&aacute;gina web. Se usa el conjunto de caracteres
+  <em>ISO-8859-1</em> por omisi&oacute;n, pero puede usar otras opciones como
+  <em>UTF-8</em>, <em>ISO-8859-15</em>, etc o usar un conjunto
+  de caracteres definido por el usuario.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a
+href="#preferences_settings">Volver al principio de la secci&oacute;n</a> ]</p>
+
+<h2 id="preferences_advanced_settings">Configuraci&oacute;n avanzada</h2>
+
+<h3
+ id="preferences_advanced_settings_connection">Conexi&oacute;n</h3>
+
+<p>Esta secci&oacute;n describe c&oacute;mo usar el panel de preferencias de
+proxies. Si no lo est&aacute; viendo ya, siga estos pasos:</p>
+
+<ol>
+  <li>Abra el men&uacute; Editar (el men&uacute; de &brandShortName; en Mac OS X)
+   y elija Preferencias.</li>
+
+  <li>En la categor&iacute;a Avanzado, pulse en Configuraci&oacute;n de la conexi&oacute;n
+  (si no hay subcategor&iacute;as visibles, haga doble-clic en Avanzado para expandir la
+  lista).</li>
+</ol>
+
+<p>El panel de las preferencias de proxies permite que configure &brandShortName; para
+utilizar un proxy:</p>
+
+<p><strong>Antes de empezar:</strong> pregunte a su administrador de red
+si tiene un archivo de la configuraci&oacute;n del proxy o los nombres y
+n&uacute;meros de puertos del proxy.</p>
+
+<ul>
+
+  <li><strong>Conexi&oacute;n directa a Internet</strong>: elija esta opci&oacute;n
+  si no quiere usar un proxy.</li>
+
+  <li><strong>Configuraci&oacute;n manual del proxy</strong>: elija esta opci&oacute;n
+  si no tiene una direcci&oacute;n del proxy (URL).
+  <ul>
+
+    <li><strong>Proxy HTTP</strong>, <strong>Proxy SSL</strong>, <strong>Proxy FTP,
+    Proxy Gopher</strong>: escriba el nombre o n&uacute;mero de direcci&oacute;n
+    IP del servidor del proxy. Escriba el puerto en el campo Puerto.</li>
+
+    <li><strong>Host SOCKS</strong>: escriba el nombre o direcci&oacute;n
+    IP del servidor del proxy.
+    Escriba el puerto en el campo Puerto.
+    <ul>
+
+      <li><strong>SOCKS v4, SOCKS v5</strong>: Al introducir un host SOCK,
+      seleccione &quot;SOCKS v4&quot; o &quot;SOCKS v5&quot;, dependiendo de
+      qu&eacute; versi&oacute;n de SOCKS se use en el proxy.</li>
+    </ul>
+    </li>
+
+    <li><strong>No usar proxy para</strong>: escriba los dominios y/o direcciones
+    IP para las que no quiere usar proxy. Separe las entradas con una coma
+    (ejemplo: .suempresa.com, .suempresa.com.es, 192.168.1.0/24)</li>
+  </ul>
+  </li>
+
+  <li><strong>URL para configuraci&oacute;n autom&aacute;tica del proxy</strong>:
+  elija esta opci&oacute;n si tiene una configuraci&oacute;n de un proxy en un
+  archivo o URL, y seguidamente escriba la URL de configuraci&oacute;n.
+  </li>
+
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Volver al principio
+de la secci&oacute;n</a> ]</p>
+
+<h3 id="preferences_advanced_settings_return_key_behaviour">Comportamiento
+de la tecla Enter</h3>
+
+<p>La opci&oacute;n <q>Dentro de un p&aacute;rrafo, pulsar Enter lo cierra y crea
+uno nuevo</q> define el comportamiento de la tecla de retorno de carro. Si
+est&aacute; marcada y pulsa la tecla Enter mientras escribe dentro de un
+p&aacute;rrafo se crear&aacute; uno nuevo. Sin esta opci&oacute;n, se
+a&ntilde;aden etiquetas &lt;br&gt; a modo de saltos de l&iacute;nea.</p>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Volver al principio
+de la secci&oacute;n</a> ]</p>
+
+<h3 id="preferences_advanced_settings_spellcheck">Comprobaci&oacute;n ortogr&aacute;fica
+en tiempo real</h3>
+
+<p>Activar la opci&oacute;n <q>Subrayar las palabras mal escritas</q> permitir&aacute; la
+comprobaci&oacute;n otrogr&aacute;fica en <strong>tiempo real</strong> en &brandShortName;
+para subrayar las palabras mal escritas, dando as&iacute; al usuario una pista visual sobre
+d&oacute;nde comprobar la otrograf&iacute;a.</p>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Volver al principio
+de la secci&oacute;n</a> ]</p>
+
+<h3 id="preferences_advanced_settings_special_characters">Caracteres
+especiales</h3>
+
+<p>Estas opciones permiten al usuario elegir qu&eacute; caracteres especiales son
+escritos como entidades en &brandShortName;. Elija una de las opciones:</p>
+
+<ul><li>S&oacute;lo &amp; &lt; &gt; &apos; y espacios blancos no-rompibles</li>
+
+<li>Los anteriores y las letras Latin-1</li>
+
+<li>Todos los que tengan una entidad equivalente en la espec. HTML 4</li>
+
+<li>Usar notaci&oacute;n &amp;#..; para todos los caracteres no ASCII</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences">Volver al principio
+de la secci&oacute;n </a> ]</p>
+
+<div class="copyrightBox"><em>29 de marzo de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

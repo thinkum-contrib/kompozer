@@ -1,0 +1,72 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label         "Pàgina de publicació">
+<!ENTITY windowTitleSettings.label "Paràmetres de publicació">
+
+<!ENTITY publishTab.label         "Publica">
+<!ENTITY settingsTab.label        "Paràmetres">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label           "Nom del lloc web:">
+<!ENTITY siteList.tooltip         "Escull el lloc web que vol publicar">
+<!ENTITY newSiteButton.label      "Nou lloc web">
+<!ENTITY siteDirList.label        "Selecciona o escriu el nom del directori en el seu lloc web de publicació:">
+<!ENTITY siteDirList.tooltip      "Escull o entra el nom del subdirectori remot on fer la publicació">
+<!ENTITY docDirList.label         "Subdirectori del lloc web per aquesta pàgina:">
+<!ENTITY publishImgCheckbox.label "Inclou imatges o d'altres fitxers">
+<!ENTITY publishImgCheckbox.tooltip "Publica imatges i d'altres fitxers referenciats per aquesta pàgina">
+<!ENTITY sameLocationRadio.label  "Utilitza la mateixa localització com a pàgina">
+<!ENTITY sameLocationRadio.tooltip "Publica fitxers en la mateixa localització que la pàgina">
+<!ENTITY useSubdirRadio.label     "Utilitza aquest subdirectori del lloc web:">
+<!ENTITY useSubdir.tooltip        "Escull o entra un nom del subdirectori remot on es publicaran els fitxers">
+<!ENTITY chooseDirButton.label    "Escull...">
+<!ENTITY pageTitle.label          "Títol de la pàgina:">
+<!ENTITY pageTitle.tooltip        "Entra un títol per a identificar la pàgina en la finestra i in bookmarks">
+<!ENTITY pageTitleExample.label   "ex.: &quot;La meva Pàgina Web&quot;">
+<!ENTITY filename.label           "Nom del fitxer:">
+<!ENTITY filename.tooltip         "Entri el nom per aquest fitxer incluïnt l'extensió '.html' per a les pàgines web">
+<!ENTITY filenameExample.label    "ex.,: &quot;lamevapagina.html&quot;">
+<!ENTITY relatedDocs.label        "Altres fitxers per publicar">
+<!ENTITY setDefaultButton.label   "Estableix per defecte">
+<!ENTITY setDefSiteAndDir.label   "Estableix directori i lloc web per defecte">
+<!ENTITY removeButton.label       "Suprimeix lloc web">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label   "Llocs web de publicació">
+<!ENTITY serverInfo.label     "Informació del lloc web">
+<!ENTITY loginInfo.label      "Servidor de publicació">
+<!ENTITY siteName.label       "Nom del lloc web:">
+<!ENTITY siteName.tooltip     "Un sobrenom que identifiqui aquest lloc web de publicació (ex.: 'LamevaWeb')">
+<!ENTITY siteUrl.label        "Adreça de publicació (ex.: 'ftp://ftp.elmeuservidor.com/elmeuusuari'):">
+<!ENTITY siteUrl.tooltip      "L'adreça ftp:// o http:// proporcionada pel seu proveïdor d'allotjament web">
+<!ENTITY browseUrl.label      "Adreça HTTP de la pàgina (ex.: 'http://www.elmeuservidor.com/directori/'):">
+<!ENTITY browseUrl.tooltip    "L'adreça http:// de la pàgina (no incloure el nom del fitxer)">
+<!ENTITY username.label       "Nom d'usuari:">
+<!ENTITY username.tooltip     "Nom d'usuari utilitzat per autentificar-se en el seu proveïdor d'allotjament web">
+<!ENTITY password.label       "Contrasenya:">
+<!ENTITY password.tooltip     "La contrasenya associada amb el seu nom d'usuari">
+<!ENTITY savePassword.label   "Desa contrasenya">
+<!ENTITY savePassword.tooltip "Selecciona això per a desar la contrasenya de forma segura utilitzant el Gestor de Contrasenyes">
+<!ENTITY selectDirectory.label "Selecciona directori">

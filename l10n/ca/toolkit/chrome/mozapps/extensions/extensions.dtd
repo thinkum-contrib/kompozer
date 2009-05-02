@@ -1,0 +1,115 @@
+<!ENTITY addons.title "Complements">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.options.commandKey ",">
+<!ENTITY cmd.close.commandKey "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Extensions">
+<!ENTITY themes.label                     "Temes">
+<!ENTITY locales.label                    "Llengües">
+<!ENTITY plugins.label                    "Connectors">
+<!ENTITY update.label                     "Actualitzacions">
+<!ENTITY install.label                    "Instal·lació">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Cerca actualitzacions">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "z">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Cerca actualitzacions dels complements">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Cerca actualitzacions dels temes">
+<!ENTITY cmd.installLocalFile.label       "Instal·la...">
+<!ENTITY cmd.installFile.accesskey        "I">
+<!ENTITY cmd.installFileAddon.tooltip     "Instal·la un complement">
+<!ENTITY cmd.installFileTheme.tooltip     "Instal·la un tema">
+<!ENTITY cmd.installUpdatesAll.label      "Instal·la les actualitzacions">
+<!ENTITY cmd.installUpdatesAll.accesskey  "I">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Instal·la les actualitzacions seleccionades">
+<!ENTITY cmd.restartApp.label             "Reinicia el &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey         "R">
+<!ENTITY cmd.restartApp.tooltip           "Reinicia el &brandShortName; per a finalitzar la instal·lació">
+<!ENTITY cmd.skip.label                   "Omet">
+<!ENTITY cmd.skip.accesskey               "O">
+<!ENTITY cmd.skip.tooltip                 "Omet aquestes actualitzacions">
+<!ENTITY cmd.continue.label               "Continua">
+<!ENTITY cmd.continue.accesskey           "C">
+<!ENTITY cmd.continue.tooltip             "Continua la càrrega del &brandShortName;">
+
+<!ENTITY cmd.enableAll.label              "Habilita-ho tot">
+<!ENTITY cmd.enableAll.accesskey          "a">
+<!ENTITY cmd.enableAll.tooltip            "Habilita tots els complements mostrats">
+<!ENTITY cmd.disableAll.label             "Inhabilita'ls tots">
+<!ENTITY cmd.disableAll.accesskey         "s">
+<!ENTITY cmd.disableAll.tooltip           "Inhabilita tots els complements mostrats">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "Utilitza el tema">
+<!ENTITY cmd.useTheme.accesskey           "T">
+<!ENTITY cmd.useTheme.tooltip             "Canvia el tema del &brandShortName;">
+<!ENTITY cmd.options.label                "Opcions">
+<!ENTITY cmd.options.accesskey            "O">
+<!ENTITY cmd.options.tooltip              "Defineix les opcions de l'extensió seleccionada">
+<!ENTITY cmd.optionsUnix.label            "Preferències">
+<!ENTITY cmd.optionsUnix.accesskey        "r">
+<!ENTITY cmd.optionsUnix.tooltip          "Edita les preferències de l'extensió seleccionada">
+<!ENTITY cmd.enable.label                 "Habilita">
+<!ENTITY cmd.enable.accesskey             "H">
+<!ENTITY cmd.enable.tooltip               "Habilita el complement quan es reiniciï el &brandShortName;">
+<!ENTITY cmd.disable.label                "Inhabilita">
+<!ENTITY cmd.disable.accesskey            "n">
+<!ENTITY cmd.disable.tooltip              "Inhabilita el complement quan es reiniciï el &brandShortName;">
+<!ENTITY cmd.uninstall.label              "Desinstal·la">
+<!ENTITY cmd.uninstall2.accesskey         "D">
+<!ENTITY cmd.uninstall2.tooltip           "Desinstal·la el complement quan es reiniciï el &brandShortName;">
+<!ENTITY cmd.cancelUninstall.label        "Cancel·la la desinstal·lació">
+<!ENTITY cmd.cancelUninstall.accesskey    "C">
+<!ENTITY cmd.cancelUninstall.tooltip      "Cancel·la la desinstal·lació del complement">
+<!ENTITY cmd.installUpdate.label          "Instal·la l'actualització">
+<!ENTITY cmd.installUpdate.accesskey      "I">
+<!ENTITY cmd.installUpdate.tooltip        "Instal·la una actualització del complement">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Cancel·la">
+<!ENTITY cancel.accesskey                 "C">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Visita la pàgina d'inici">
+<!ENTITY cmd.homepage.accesskey           "i">
+<!ENTITY cmd.about2.label                 "Quant a aquest complement">
+<!ENTITY cmd.about.accesskey              "a">
+<!ENTITY cmd.checkUpdate.label            "Cerca una actualització">
+<!ENTITY cmd.checkUpdate.accesskey        "r">
+
+<!ENTITY cmd.includeUpdate.label          "Inclou l'actualització">
+<!ENTITY cmd.includeUpdate.accesskey      "n">
+<!ENTITY includeUpdate.label              "Inclou aquesta actualització">
+<!ENTITY includeUpdate.accesskey          "n">
+<!ENTITY includeUpdate.tooltip            "Inclou aquest complement quan s'instal·lin les actualitzacions">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Calen elements addicionals.">
+<!ENTITY blocklisted.label                "Inhabilitat per a la vostra protecció.">
+<!ENTITY toBeDisabled.label               "S'inhabilitarà aquest complement quan es reiniciï el &brandShortName;.">
+<!ENTITY toBeEnabled.label                "S'habilitarà aquest complement quan es reiniciï el &brandShortName;.">
+<!ENTITY toBeInstalled.label              "S'instal·larà aquest complement quan es reiniciï el &brandShortName;.">
+<!ENTITY toBeUninstalled.label            "Es desinstal·larà aquest complement quan es reiniciï el &brandShortName;.">
+<!ENTITY toBeUpgraded.label               "S'actualitzarà aquest complement quan es reiniciï el &brandShortName;">
+
+<!ENTITY getExtensions.label          "Aconsegueix més extensions">
+<!ENTITY getExtensions.tooltip        "Aconsegueix més extensions d'addons.mozilla.org">
+<!ENTITY getThemes.label              "Aconsegueix més temes">
+<!ENTITY getThemes.tooltip            "Aconsegueix més temes d'addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label     "No hi ha cap tema seleccionat">
+<!ENTITY previewNoPreviewImage.label      "Aquest tema no té cap imatge d'exemple">
+<!ENTITY moreInfo.label                   "Més informació">
+<!ENTITY closeMessage.tooltip             "Tanca aquest missatge">
+
+<!ENTITY updateSuccess.label              "L'actualització ha acabat amb èxit.">
+<!ENTITY installSuccess.label             "La instal·lació ha acabat amb èxit.">
+<!ENTITY installSuccessRestart.label      "Reinicieu per a acabar la instal·lació.">
+<!ENTITY installWaiting.label             "S'està esperant...">
+<!ENTITY installIncompatibleUpdate.label  "S'està comprovant la compatibilitat...">
+<!ENTITY installFinishing.label           "S'està instal·lant...">
+<!ENTITY installFailure.label             "La instal·lació ha fallat.">

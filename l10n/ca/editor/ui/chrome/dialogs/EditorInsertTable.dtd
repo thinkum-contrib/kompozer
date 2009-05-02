@@ -1,0 +1,59 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Insereix taula">
+
+<!ENTITY size.label "Dimensions">
+<!ENTITY numRowsEditField.label "Files:">
+<!ENTITY numRowsEditField.accessKey "F">
+<!ENTITY numColumnsEditField.label "Columnes:">
+<!ENTITY numColumnsEditField.accessKey "C">
+<!ENTITY widthEditField.label "Amplada:">
+<!ENTITY widthEditField.accessKey "A">
+<!ENTITY borderEditField.label "Contorn:">
+<!ENTITY borderEditField.accessKey "C">
+<!ENTITY borderEditField.tooltip "Escriu un número per al contorn de la taula o escriu un zero per a que no n'hi hagi">
+<!ENTITY pixels.label "píxels">
+
+<!ENTITY quicklyTab.label "Ràpidament">
+<!ENTITY preciselyTab.label "Amb precisió">
+<!ENTITY cellTab.label "Cel·la">
+
+<!ENTITY horizAlignment.label "Alineació horitz.:">
+<!ENTITY unspecifiedHAlignment.label "Sense especificar">
+<!ENTITY leftHAlignment.label "Esquerra">
+<!ENTITY centerHAlignment.label "Centre">
+<!ENTITY rightHAlignment.label "Dreta">
+
+<!ENTITY vertAlignment.label "Alineació vert.:">
+<!ENTITY unspecifiedVAlignment.label "Sense especificar">
+<!ENTITY topVAlignment.label "Superior">
+<!ENTITY middleVAlignment.label "Mig">
+<!ENTITY bottomVAlignment.label "Inferior">
+
+<!ENTITY textWrapping.label "Ajust del text:">
+<!ENTITY wrapWrapping.label "Ajusta">
+<!ENTITY nowrapWrapping.label "No ajustis">
+
+<!ENTITY cellSpacing.label "Espaiat de les cel·les">
+<!ENTITY cellPadding.label "Espaiat de les cel·les">

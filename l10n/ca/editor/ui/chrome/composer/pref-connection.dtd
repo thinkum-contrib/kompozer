@@ -1,0 +1,39 @@
+<!-- extracted from content/pref-proxies.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
+<!ENTITY  lHeader                       "Paràmetres de la connexió">
+<!ENTITY  proxyTitle.label              "Configura servidors intermediaris (proxys) per l'accés a Internet">
+<!ENTITY  directTypeRadio.label         "Connexió directa a Internet">
+<!ENTITY  directTypeRadio.accesskey     "d">
+<!ENTITY  manualTypeRadio.label         "Configuració manual del servidor intermediari">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY  autoTypeRadio.label           "Configuració automàtica de la URL del servidor intermediari:">
+<!ENTITY  autoTypeRadio.accesskey       "a">
+<!ENTITY  configAutoconfigText.label    "Configuration location (URL):">
+<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  reload.label                  "Recarrega">
+<!ENTITY  reload.accesskey              "r">
+<!ENTITY  ftp.label                     "Servidor intermediari del FTP:">
+<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  gopher.label                  "Servidor intermediari del Gopher:">
+<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  http.label                    "Servidor intermediari del HTTP:">
+<!ENTITY  http.accesskey                "h">
+<!ENTITY  ssl.label                     "Servidor intermediari del SSL:">
+<!ENTITY  ssl.accesskey                 "s">
+<!ENTITY  socks.label                   "SOCKS Host:">
+<!ENTITY  socks.accesskey               "c">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "k">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  port.label                    "Port:">
+<!ENTITY  HTTPport.accesskey            "p">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "r">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY  noproxy.label                 "Sense servidor intermediari per:">
+<!ENTITY  noproxy.accesskey             "n">
+<!ENTITY  noproxyExplain.label          "Exemple: .mozilla.org, .net.nz">

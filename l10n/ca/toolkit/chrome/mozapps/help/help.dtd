@@ -1,0 +1,47 @@
+<!ENTITY printCmd.commandkey "p">
+
+
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+
+<!ENTITY backButton.label "Enrere">
+<!ENTITY backButton.accesskey "e">
+<!ENTITY backButton.tooltip "Vés una pàgina enrere">
+<!ENTITY forwardButton.label "Endavant">
+<!ENTITY forwardButton.accesskey "v">
+<!ENTITY forwardButton.tooltip "Vés una pàgina endavant">
+<!ENTITY copyCmd.label                  "Copia">
+<!ENTITY copyCmd.accesskey              "C">
+<!ENTITY selectAllCmd.label             "Selecciona-ho tot">
+<!ENTITY selectAllCmd.accesskey         "A">
+<!ENTITY goBackCmd.commandkey           "[">
+<!ENTITY goForwardCmd.commandkey        "]">
+<!ENTITY homeButton.label "Inici">
+<!ENTITY homeButton.tooltip "Vés a la pàgina d'inici de l'ajuda">
+<!ENTITY printButton.label "Imprimeix">
+<!ENTITY printButton.tooltip "Imprimeix aquesta pàgina">
+<!ENTITY textZoomReduceBtn.label "Redueix la mida del text">
+<!ENTITY textZoomReduceBtn.accesskey "d">
+<!ENTITY textZoomEnlargeBtn.label "Augmenta la mida del text">
+<!ENTITY textZoomEnlargeBtn.accesskey "g">
+<!ENTITY closeWindow.commandkey "W">
+
+<!ENTITY throbberItem.title "Indicador d'activitat">
+<!ENTITY throbber.tooltip "Vés a l'ajuda de la secció d'ajuda.">
+
+
+<!ENTITY searchtab.label "Cerca">
+<!ENTITY searchtab.accesskey "r">
+<!ENTITY toctab.label "Continguts">
+<!ENTITY toctab.accesskey "C">
+
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!ENTITY helpSearch.commandkey          "k">
+
+<!ENTITY zLevel.label                   "Sempre a dalt">
+<!ENTITY zLevel.accesskey               "t">

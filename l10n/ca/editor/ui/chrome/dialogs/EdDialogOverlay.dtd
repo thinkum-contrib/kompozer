@@ -1,0 +1,37 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY AdvancedEditButton.label "Edició avançada...">
+<!ENTITY AdvancedEditButton.accessKey "E">
+<!ENTITY AdvancedEditButton.tooltip "Afegeix o modifica atributs HTML, atributs d'estil i JavaScript">
+<!ENTITY chooseButton.label "Escull un fitxer...">
+<!ENTITY chooseFile.accessKey "F">
+<!ENTITY chooseFileLink.accessKey "f">
+<!ENTITY makeUrlRelative.label "La URL és relativa a la localització de la pàgina">
+<!ENTITY makeUrlRelative.accessKey "r">
+<!ENTITY makeUrlRelative.tooltip "Canvia entre URL relativa i absoluta. Heu de desar primer la pàgina abans de fer aquest canvi.">
+
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label "Entreu la localització d'una pàgina web, un fitxer local, una adreça de correu o seleccioneu una àncora  o la capçalera des de la llista emergent:">
+<!ENTITY LinkURLEditField.accessKey "L">
+
+<!ENTITY isMailAddress.label "L'anterior és una adreça de correu">

@@ -1,0 +1,38 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Charles Manske (cmanske@netscape.com)
+  -->
+
+<!-- Window title -->
+<!ENTITY siteUrl.label         "Adreça URL del lloc:">
+<!ENTITY docSubdir.label       "Subdirectori de pàgines:">
+<!ENTITY otherSubdir.label     "Subdirectori d'imatges:">
+
+<!ENTITY status.label          "S'està fent la publicació...">
+<!ENTITY fileList.label        "Estat de la publicació">
+<!ENTITY statusHeader.label    "Estat">
+<!ENTITY filenameHeader.label  "Nom del fitxer">
+<!ENTITY succeeded.label       "Completat amb èxit">
+<!ENTITY failed.label          "Fallat">
+<!ENTITY troubleshooting.label "Resolució de problemes">
+<!ENTITY troubleshooting.accessKey "T">
+
+<!ENTITY keepOpen              "Conserva aquesta finestra oberta fins que s'hagi completat la publicació.">

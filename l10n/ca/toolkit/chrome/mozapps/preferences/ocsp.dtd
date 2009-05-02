@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "45em">
+
+<!ENTITY ocspDialog.title             "Verificació">
+<!ENTITY validation.ocsp.description  "El &brandShortName; pot utilitzar l'Online Certificate Status Protocol (OCSP) per a comprovar els certificats. Feu que el &brandShortName; utilitzi l'OCSP d'aquesta manera:">
+<!ENTITY disableOCSP.label            "No utilitzis l'OCSP per a validar els certificats">
+<!ENTITY certOCSP.label               "Utilitza l'OCSP per a validar només els certificats que indiquin un URL de servei OCSP">
+<!ENTITY proxyOCSP.label              "Utilitza l'OCSP per a validar tots els certificats que utilitzin aquest URL i signant:">
+<!ENTITY serviceURL.label             "URL de servei:">
+<!ENTITY serviceURL.accesskey         "s">
+<!ENTITY signingCA.label              "Signant de la resposta:">
+<!ENTITY signingCA.accesskey          "r">

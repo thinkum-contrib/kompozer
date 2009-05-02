@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Establecer las propiedades de la p&aacute;gina</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72">
+      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
+           alt="&brandShortName;" align="center"/>
+    </td>
+    <td align="left">
+      <span id="topText">Centro de ayuda</span>
+    </td>
+  </tr>
+</table>
+
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
+  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
+  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
+  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
+  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
+  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
+  <a href="templates.xhtml">Trabajar con plantillas</a>
+  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
+  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
+  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+</div>
+
+<h2 id="setting_page_properties">Establecer las propiedades de la
+p&aacute;gina</h2>
+
+<h3 id="setting_page_properties_and_meta_tags">Establecer las propiedades
+de la p&aacute;gina y las etiquetas Meta</h3>
+
+<p>Utilice el cuadro de di&aacute;logo Propiedades de la p&aacute;gina para
+introducir propiedades como el t&iacute;tulo, autor y descripci&oacute;n del
+documento sobre el que se est&aacute; trabajando. Esta informaci&oacute;n es
+&uacute;til si se planea utilizar la p&aacute;gina en un sitio web ya que
+los motores de b&uacute;squeda utilizan este tipo de informaci&oacute;n para
+indexar su p&aacute;gina. Se puede ver esta informaci&oacute;n desde la
+ventana del navegador escogiendo el men&uacute; Ver y seleccionando
+Informaci&oacute;n de la p&aacute;gina.</p>
+
+<ol>
+  <li>Abra el men&uacute; Formato y seleccione T&iacute;tulo de la
+  p&aacute;gina y propiedades.</li>
+  <li>Edite cualquiera de las propiedades siguientes:
+    <ul>
+      <li><strong>T&iacute;tulo</strong>: escriba el texto que desee que
+      aparezca en el t&iacute;tulo de la ventana cuando cualquiera vea la
+      p&aacute;gina con un navegador. Esta es la manera en la que la
+      mayor&iacute;a de las herramientas de b&uacute;squeda web localizan las
+      p&aacute;ginas, as&iacute; que escoja un t&iacute;tulo que transmita la
+      tem&aacute;tica de la p&aacute;gina.</li>
+      <li><strong>Autor</strong>: escriba el nombre de la persona que cre&oacute;
+      el documento. Esta informaci&oacute;n es &uacute;til para los lectores que
+      buscan sus documentos utilizando una herramienta de b&uacute;squeda web
+      mediante el nombre del autor.
+        <blockquote>
+          <p><strong>Truco</strong>: si se introduce el nombre del autor en las
+          <a href="preferences.xhtml#preferences_new_page_settings">preferencias</a>
+          de &brandShortName;, entonces no se tendr&aacute; que introducir cada
+          vez que se crea una nueva p&aacute;gina.</p>
+        </blockquote>
+      </li>
+      <li><strong>Descripci&oacute;n</strong>: introduzca una
+      descripci&oacute;n breve del contenido del documento.</li>
+    </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a href="#setting_page_properties">Volver al
+principio de la secci&oacute;n</a> ]</p>
+
+<h3 id="setting_page_colors_and_backgrounds">Establecer los colores y fondos
+de la p&aacute;gina</h3>
+
+<p>Se puede cambiar el color de fondo o especificar una imagen como fondo de
+la p&aacute;gina en la que se est&aacute; trabajando. Esta elecci&oacute;n
+afecta a la forma en que aparecer&aacute;n el texto y los enlaces de
+la p&aacute;gina a la gente que la visualice mediante un navegador.</p>
+
+<p>Para establecer los colores y el fondo de la p&aacute;gina actual,
+empezando desde la ventana de &brandShortName;:</p>
+
+<ol>
+  <li>Abra el men&uacute; Formato y seleccione Color y fondo de la
+  p&aacute;gina.</li>
+  <li>Edite cualquiera de las siguientes propiedades:
+    <ul>
+      <li><strong>Colores predeterminados por el lector</strong>: seleccione
+      esto si desea que la p&aacute;gina utilice las configuraciones de color
+      para el texto y los enlaces del navegador del lector.</li>
+      <li><strong>Usar colores personalizados</strong>: seleccione esto si
+      desea especificar los colores del texto y los v&iacute;nculos. Para
+      cada elemento, seleccione un color de la lista desplegable. En el panel
+      de la derecha aparecer&aacute; una vista previa de
+      cada tipo de enlace.</li>
+      <li><strong>Imagen de fondo</strong>: seleccione esto si desea que el
+      fondo de la p&aacute;gina sea una imagen. Escriba el nombre del
+      archivo de la imagen o haga clic en Elegir archivo... para
+      localizar el archivo de la imagen en el disco duro o red local.
+      <p><strong>Nota</strong>: Las im&aacute;genes de fondo se colocan en
+      mosaico y cubren por completo el color de fondo.</p></li>
+      <li><strong>La URL es relativa a la ruta de la p&aacute;gina</strong>: si
+      est&aacute; marcada, &brandShortName; convertir&aacute; la URL a una
+      direcci&oacute;n relativa a la localizaci&oacute;n de la
+      p&aacute;gina. Esto es especialmente &uacute;til si se planea publicar
+      las p&aacute;ginas en un servidor web para que otra gente pueda verlas.
+
+      <p>El uso de URLs relativas permite mantener todos los archivos
+      enlazados en el mismo sitio relativo al resto independientemente de
+      su ubicaci&oacute;n en un disco duro o en un servidor web.</p>
+
+      <p>Al desmarcar esta opci&oacute;n &brandShortName; convierte la URL a una
+      URL completa o absoluta. Normalmente se utilizan URLs absolutas
+      cuando se vinculan im&aacute;genes en otros servidores web (cuando no
+      est&aacute;n almacenadas localmente en el disco duro).</p>
+
+      <p>Si se tienen cambios no guardados, primero se debe guardar la
+      p&aacute;gina para habilitar esta opci&oacute;n.</p></li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Nota</strong>: para aplicar atributos adicionales o eventos
+JavaScript, haga clic en Edici&oacute;n avanzada... para visualizar el
+<a href="#using_the_advanced_property_editor">editor avanzado de 
+propiedades</a>.</p>
+
+<p>Tambi&eacute;n se puede establecer el <a href=
+"#new_page_settings">fondo y colores predeterminados de
+la p&aacute;gina</a> para cada nueva p&aacute;gina que se cree en
+&brandShortName;.</p>
+
+<p class="returnToSection">[ <a href="#setting_page_properties">Volver al
+principio de la secci&oacute;n</a> ]</p>
+
+<div class="copyrightBox"><em>20 de junio de 2005</em></div>
+
+<p>[<a href="links.xhtml">Siguiente</a>] [<a href="templates.xhtml">Anterior</a>]</p>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

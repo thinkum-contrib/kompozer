@@ -1,0 +1,98 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY tableWindow.title                "Propietats de la taula">
+<!ENTITY tableTab.label                   "Taula">
+<!ENTITY cellTab.label                    "Cel·les">
+<!ENTITY tableRows.label                  "Files:">
+<!ENTITY tableRows.accessKey              "F">
+<!ENTITY tableColumns.label               "Columnes:">
+<!ENTITY tableColumns.accessKey           "C">
+<!ENTITY tableHeight.label                "Alçada:">
+<!ENTITY tableHeight.accessKey            "l">
+<!ENTITY tableWidth.label                 "Amplada:">
+<!ENTITY tableWidth.accessKey             "m">
+<!ENTITY tableBorderSpacing.label         "Contorn i espaiat">
+<!ENTITY tableBorderWidth.label           "Contorn:">
+<!ENTITY tableBorderWidth.accessKey       "O">
+<!ENTITY tableSpacing.label               "Espaiat:">
+<!ENTITY tableSpacing.accessKey           "E">
+<!ENTITY tablePadding.label               "Separació:">
+<!ENTITY tablePadding.accessKey           "S">
+<!ENTITY tablePxBetwCells.label           "píxels entre cel·les">
+<!ENTITY tablePxBetwBrdrCellContent.label "píxels entre el contorn de les cel·les i el contingut">
+<!ENTITY tableAlignment.label             "Alineació de la taula:">
+<!ENTITY tableAlignment.accessKey         "A">
+<!ENTITY tableCaption.label               "Subtítol:">
+<!ENTITY tableCaption.accessKey           "S">
+<!ENTITY tableCaptionAbove.label          "Sobre la taula">
+<!ENTITY tableCaptionBelow.label          "Sota la taula">
+<!ENTITY tableCaptionLeft.label           "Esquerra de la taula">
+<!ENTITY tableCaptionRight.label          "Dreta de la taula">
+<!ENTITY tableCaptionNone.label           "Cap">
+<!ENTITY tableInheritColor.label           "(permet al color de la pàgina mostrar-se a través)">
+
+<!ENTITY cellPercent.label                "tant per cent de la taula">
+<!ENTITY cellSelection.label              "Selecció">
+<!ENTITY cellSelectCell.label             "Cel·la">
+<!ENTITY cellSelectRow.label              "Fila">
+<!ENTITY cellSelectColumn.label           "Columna">
+<!ENTITY cellSelectNext.label             "Següent">
+<!ENTITY cellSelectNext.accessKey         "S">
+<!ENTITY cellSelectPrevious.label         "Anterior">
+<!ENTITY cellSelectPrevious.accessKey     "n">
+<!ENTITY cellApplyBeforeMove.label        "Aplica canvis abans de canviar la selecció">
+<!ENTITY cellKeepCurrentData.label        "Mantingues els paràmetres actuals">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label         "S'aplicaran els canvis actuals">
+<!ENTITY applyBeforeChange2.label         "abans de canviar la selecció.">
+<!ENTITY cellRowSpan.label                "Espai de fila:">
+<!ENTITY cellColSpan.label                "Espai de columna:">
+<!ENTITY cellContentAlignment.label       "Alineació del contingut">
+<!ENTITY cellHorizontal.label             "Horitzontal:">
+<!ENTITY cellHorizontal.accessKey         "H">
+<!ENTITY cellVertical.label               "Vertical:">
+<!ENTITY cellVertical.accessKey           "V">
+<!ENTITY cellStyle.label                  "Estil de cel·la:">
+<!ENTITY cellStyle.accessKey              "i">
+<!ENTITY cellNormal.label                 "Normal">
+<!ENTITY cellHeader.label                 "Capçalera">
+<!ENTITY cellTextWrap.label               "Ajusta el text:">
+<!ENTITY cellTextWrap.accessKey           "T">
+<!ENTITY cellWrap.label                   "Ajusta'l">
+<!ENTITY cellNoWrap.label                 "No l'ajustis">
+<!ENTITY cellAlignTop.label               "Superior">
+<!ENTITY cellAlignMiddle.label            "Mig">
+<!ENTITY cellAlignBottom.label            "Inferior">
+<!ENTITY cellAlignJustify.label           "Justificat">
+<!ENTITY cellAlignAtChar.label            "Al caràcter:">
+<!ENTITY cellInheritColor.label           "(permet al color de la taula mostrarse a través)">
+<!ENTITY cellUseCheckboxHelp.label        "Utilitza quadres de verificació per determinar quines propietats s'aplicaran a totes les cel·les seleccionades">
+
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label                       "Mida">
+<!ENTITY pixels.label                     "píxels">
+<!ENTITY backgroundColor.label            "Color de fons:">
+<!ENTITY backgroundColor.accessKey        "B">
+<!ENTITY AlignLeft.label                  "Esquerra">
+<!ENTITY AlignCenter.label                "Centre">
+<!ENTITY AlignRight.label                 "Dreta">

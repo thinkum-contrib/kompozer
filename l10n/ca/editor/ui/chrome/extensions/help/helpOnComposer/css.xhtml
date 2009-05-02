@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Usar hojas de estilo en las p&aacute;ginas web</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+  <tr>
+    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+    <td width="72">
+      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
+           alt="&brandShortName;" align="center"/>
+    </td>
+    <td align="left">
+      <span id="topText">Centro de ayuda</span>
+    </td>
+  </tr>
+</table>
+
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
+  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
+  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
+  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
+  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
+  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
+  <a href="templates.xhtml">Trabajar con plantillas</a>
+  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
+  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
+  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+</div>
+
+  <h2 id="using_style_sheets_for_your_web_pages">
+    Usar hojas de estilo en las p&aacute;ginas web
+  </h2>
+
+  <h3 id="using_cascade_style_sheets">Usar hojas de estilo en cascada</h3>
+
+  <p>
+    Las hojas de estilo en cascada (CSS, Cascade Style Sheets) pueden usarse
+    para proporcionar estilo a un documento HTML de tres maneras:
+  </p>
+
+  <ol>
+    <li>Con estilos incrustados.</li>
+
+    <li>Con hojas de estilo internas.</li>
+
+    <li>Con hojas de estilo externas.</li>
+  </ol>
+
+  <p>
+    &brandShortName; dispone de un editor de hojas de estilo denominado
+    <strong>CaScadeS</strong>. CaScadeS puede ser utilizado para producir
+    tanto hojas de estilo internas como externas. A diferencia de los estilos
+    incrustados, las hojas de estilo internas o externas ayudan a mantener
+    separadas la informaci&oacute;n del contenido de la del estilo.
+  </p>
+
+  <p>
+    Para proporcionar estilo al documento html que se edita, CaScadeS puede
+    iniciarse haciendo clic en el men&uacute; Herramientas y seleccionando Editor CSS.
+    CaScadeS permite dos modos de edici&oacute;n de hojas de estilo:
+  </p>
+
+  <ol>
+    <li>
+      <strong>Modo para principiantes</strong>: este modo permite crear reglas asociadas
+      a selectores de clase o selectores de tipo de elemento.
+    </li>
+
+    <li>
+      <strong>Modo avanzado</strong>: este modo permite crear reglas sin restricciones.
+    </li>
+  </ol>
+
+  <p>
+    En caso de que no haya hoja de estilo, se crear&aacute; una nueva
+    autom&aacute;ticamente.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#using_style_sheets_for_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="creating_style_sheets_with_nvu">Crear hojas de estilo con &brandShortName;</h3>
+
+  <p>
+    Al usar CaScadeS, se pueden crear tanto hojas de estilo internas como externas.
+    Para crear una hoja de estilo interna:
+  </p>
+
+  <ol>
+    <li>Haga clic en el bot&oacute;n de elemento &lt;style&gt;.
+
+      <ul>
+        <li>(Opcional) Rellene la informaci&oacute;n sobre Lista de medios y T&iacute;tulo de la hoja de estilo.</li>
+      </ul>
+    </li>
+
+    <li>Haga clic en Crear hoja de estilo.</li>
+  </ol>
+
+  <p>Para crear una hoja de estilo externa:</p>
+
+  <ol>
+    <li>Haga clic en el bot&oacute;n de elemento &lt;link&gt;.</li>
+
+    <li>
+      Escriba la URL de la hoja de estilo en el panel de la derecha. Si no existe ya, se crear&aacute; un
+      nuevo fichero en el sistema de archivos local.
+
+      <ul>
+        <li>(Opcional) Rellene la informaci&oacute;n sobre Lista de medios y T&iacute;tulo de la hoja de estilo.</li>
+      </ul>
+    </li>
+
+    <li>Active <q>comprobar al crear una hoja de estilo alternativa</q> si &eacute;sta es una alternativa.</li>
+  </ol>
+
+  <p>
+    <strong>Consejo:</strong> guarde siempre el documento html antes de agregar una hoja de estilo local.
+    Guarde tambi&eacute;n el documento inmediatamente antes de cerrar el editor CSS.
+  </p>
+
+  <p>
+    <strong>Consejo:</strong> utilice el bot&oacute;n Recargar del panel de la izquierda si la hoja de estilo
+    no se descarga inmediatamente.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#using_style_sheets_for_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+  <h3 id="creating_rules_for_stylesheets">Crear reglas para las hojas de estilo</h3>
+
+  <p>
+    Despu&eacute;s de crear una o m&aacute;s hojas de estilo para el documento html, se pueden crear reglas para cada
+    hoja de estilo de forma individual. Para usar una hoja de estilos concreta al crear o modificar reglas,
+    selecci&oacute;nela en el panel de la izquierda haciendo clic sobre ella con el bot&oacute;n izquierdo del rat&oacute;n.
+    El panel de la derecha mostrar&aacute; entonces los detalles de la hoja de estilo en la pesta&ntilde;a General.
+    Para crear reglas nuevas:
+  </p>
+
+  <ol>
+    <li>Haga clic en el bot&oacute;n Regla del panel de la izquierda.</li>
+
+    <li>
+      El panel de la derecha mostrar&aacute; opciones para especificar el tipo de regla a crear. Elija una
+      entre las siguientes:
+
+      <ul>
+        <li>estilo con nombre (introduzca abajo el nombre de la clase)</li>
+
+        <li>estilo aplicado a todos los elementos del tipo (introduzca el tipo abajo)</li>
+
+        <li>estilo aplicado a todos los elementos coincidentes con este selector</li>
+      </ul>
+    </li>
+
+    <li>Rellene el nombre de la regla.</li>
+
+    <li>Haga clic en Crear regla de estilo.</li>
+  </ol>
+
+  <p>
+    Las reglas pueden ser definidas usando las pesta&ntilde;as de estilo (Texto, Fondo, Bordes, Caja, Aural) del
+    panel de la derecha. Para ver todas las definiciones de una regla de estilo, selecci&oacute;nela en el panel
+    de la izquierda y haga clic en la pesta&ntilde;a <q>General</q> del panel de la derecha. La pesta&ntilde;a
+    <q>General</q> mostrar&aacute; todas las definiciones aplicadas a la regla.
+  </p>
+
+  <p class="returnToSection">
+    [ <a href="#using_style_sheets_for_your_web_pages">Volver al principio de la secci&oacute;n</a> ]
+  </p>
+
+<p>[<a href="tables.xhtml">Siguiente</a>] [<a href="formatting_webpages.xhtml">Anterior</a>]</p>
+
+  <div class="copyrightBox"><em>20 de junio de 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

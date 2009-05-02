@@ -1,0 +1,104 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Propietats d'imatge">
+
+<!ENTITY pixelsPopup.value "píxels">
+<!ENTITY percentPopup.value "tantpercent">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Ubicació de la imatge:">
+<!ENTITY locationEditField.accessKey "L">
+<!ENTITY locationEditField.tooltip "Escriviu el nom del fitxer de la imatge o la seva ubicació">
+<!ENTITY title.label "Rètol indicatiu (tooltip):">
+<!ENTITY title.accessKey "T">
+<!ENTITY title.tooltip "L'atribut html 'title' es mostrarà com a rètol indicatiu de funció">
+<!ENTITY altText.label "Text alternatiu:">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "Escriviu el text que es mostrarà en comptes de la imatge">
+<!ENTITY noAltText.label "No utilitzis un text alternatiu">
+<!ENTITY noAltText.accessKey "D">
+
+<!ENTITY previewBox.label "Previsualització de la imatge">
+<!ENTITY MoreFewerButton.tooltip "Mostra més o menys propietats per editar">
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Mida actual:">
+<!ENTITY actualSizeRadio.label "Mida actual">
+<!ENTITY actualSizeRadio.accessKey "A">
+<!ENTITY actualSizeRadio.tooltip "Inverteix a la mida actual de la imatge">
+<!ENTITY customSizeRadio.label "Mida personalitzada">
+<!ENTITY customSizeRadio.accessKey "S">
+<!ENTITY customSizeRadio.tooltip "Canvia el tamany de la imatge tal i com es mostrarà a la pàgina">
+<!ENTITY heightEditField.label "Alçada:">
+<!ENTITY heightEditField.accessKey "l">
+<!ENTITY widthEditField.label "Amplada:">
+<!ENTITY widthEditField.accessKey "m">
+<!ENTITY constrainCheckbox.label "Conserva">
+<!ENTITY constrainCheckbox.accessKey "C">
+<!ENTITY constrainCheckbox.tooltip "Preserva la relació d'aspecte original de la imatge">
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Mapa d'imatge">
+<!ENTITY removeImageMapButton.label "Suprimeix">
+<!ENTITY removeImageMapButton.accessKey "S">
+<!ENTITY editImageMapButton.label "Edita...">
+<!ENTITY editImageMapButton.tooltip "Crea regions clicables per aquesta imatge">
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Alinia el text a la imatge">
+<!ENTITY bottomPopup.value "A la part superior">
+<!ENTITY topPopup.value "A la part inferior">
+<!ENTITY centerPopup.value "En el centre">
+<!ENTITY wrapRightPopup.value "Ajusta a la dreta">
+<!ENTITY wrapLeftPopup.value "Ajusta a l'esquerra">
+
+<!-- These controls are in the Spacing Box -->
+<!ENTITY spacingBox.label "Espaiat">
+<!ENTITY spacingBox.tooltip "Escriviu un nombre per a la quantitat d'espai al voltant de la imatge">
+<!ENTITY leftRightEditField.label "D'esquerra a dreta:">
+<!ENTITY leftRightEditField.accessKey "e">
+<!ENTITY topBottomEditField.label "Superior i inferior:">
+<!ENTITY topBottomEditField.accessKey "S">
+<!ENTITY borderEditField.label "Contorn sòlid:">
+<!ENTITY borderEditField.accessKey "C">
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Mostra un contorn al volt de la imatge enllaçada">
+<!ENTITY showImageLinkBorder.accessKey "M">
+
+<!-- These controls may be added some day; currently not used -->
+<!ENTITY makePageBackgroundCheckbox.label "Fés el fons de pàgina">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Utilitza la imatge com a fons per a la pàgina">
+<!ENTITY editImageButton.label "Edita la imatge">
+<!ENTITY editImageButton.tooltip "Edita la imatge en un altre programa">
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Formulari">
+<!ENTITY imageLocationTab.label "Ubicació">
+<!ENTITY imageDimensionsTab.label "Dimensions">
+<!ENTITY imageAppearanceTab.label "Aparença">
+<!ENTITY imageLinkTab.label "Enllaç">

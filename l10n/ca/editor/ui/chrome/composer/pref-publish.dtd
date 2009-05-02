@@ -1,0 +1,20 @@
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY  window.title "Publica">
+<!ENTITY  composerHeader.label "Publica">
+<!ENTITY  maintainCheckbox.label "Mantingues enllaços">
+<!ENTITY  keepCheck.label "Conserva imatges amb la pàgina">
+
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  adjustDesc.label "Adjust links to work from the page's location. (Links to local pages will work when
+			      local versions exist.)           ">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  saveDesc.label "Desa còpies de les imatges en la ubicació de la pàgina. Les imatges es mostraran sempre en les versions locals de la pàgina i quan la pàgina sigui publicada.">
+<!ENTITY  tip.label "Consell: Establiu les dues opcions si utilitzeu la publicació remota.">
+<!ENTITY defaultHeader.label  "Localització de publicació per defecte">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY  publishFtp.label "Si s'està publicant en un lloc FTP, entreu l'adreça HTTP per a navegar:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "Si s'està publicant en un lloc FTP, entreu l'adreça HTTP per a navegar:">
+
