@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Raccourcis clavier de &brandShortName;</title>
+    <link rel="stylesheet" type="text/css" href="help-fr.css"/>
+  </head>
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">Dans cette section&nbsp;:
+    <a href="#using_shortcuts">Utiliser les raccourcis</a>
+    <a href="#general_shortcuts">Raccourcis g&eacute;n&eacute;raux</a>
+    <a href="#nvu_composition_shortcuts">Raccourcis de composition de &brandShortName;</a>
+    <a href="#help_window_shortcuts">Raccourcis de la fen&ecirc;tre d'aide</a>
+    </div>
+
+    <h1>Raccourcis clavier de &brandShortName;</h1>
+
+    <h2 id="using_shortcuts">Utiliser les raccourcis</h2>
+
+    <p>Ce document utilise le format suivant pour lister les raccourcis&nbsp;:</p>
+
+    <p><strong>Exemple&nbsp;:</strong></p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Commande</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Copier</td>
+	  <td><span class="noMac">Ctrl+C</span><span
+	  class="mac">Cmd+C</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Pour accomplir une commande, appuyez sur la touche acc&eacute;l&eacute;ratrice <kbd class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd> et appuyez sur la touche combin&eacute;e de raccourci <kbd>C</kbd> une fois (tout en gardant la touche acc&eacute;l&eacute;ratrice enfonc&eacute;e).</p>
+
+    <p><strong>Astuce</strong>&nbsp;: Le signe plus (+) signifie que vous devez appuyer sur les deux touches entourant le signe plus en m&ecirc;me temps. S'il y a plus d'un signe plus (tel que Ctrl+Maj+C), cela signifie que les trois touches de part et d'autre du signe plus doivent &ecirc;tre enfonc&eacute;es en m&ecirc;me temps.</p>
+
+    <p><strong>Abr&eacute;viations&nbsp;:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">Touche de contr&ocirc;le</span><span class="mac">Touche Commande sur le clavier Mac OS</span></li>
+    </ul>
+
+    <p><strong>Note</strong>&nbsp;: Certains raccourcis clavier r&eacute;alisent des fonctions diff&eacute;rentes bas&eacute;es sur la position du curseur (le focus). Par exemple, si vous appuyez sur la touche D&eacute;but lorsque vous &ecirc;tes en train de visionner une page Web, &brandShortName; se d&eacute;placera vers le haut de la page. Cependant, si vous appuyez sur la touche D&eacute;but alors que le curseur se trouve dans un champ texte, le curseur se placera au d&eacute;but du champ texte.</p>
+
+    <p class="returnToSection">[&nbsp;<a href="#using_shortcuts">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="general_shortcuts">Raccourcis g&eacute;n&eacute;raux de &brandShortName;</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Commande</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Ouvrir un fichier</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Ouvrir une nouvelle page/mod&egrave;le</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+N</td>
+	</tr>
+	<tr>
+	  <td>Ouvrir un nouvel onglet</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+T</td>
+	</tr>
+	<tr>
+	  <td>Enregistrer</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+S</td>
+	</tr>
+	<tr>
+	  <td>Copier</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+C</td>
+	</tr>
+	<tr class="even">
+	  <td>Coller</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+V</td>
+	</tr>
+	<tr>
+	  <td>Couper</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+X</td>
+	</tr>
+	<tr class="even">
+	  <td>Tout s&eacute;lectionner</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+A</td>
+	</tr>
+	<tr>
+	  <td>Fermer la fen&ecirc;tre</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Supprimer le mot suivant</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Del</td>
+	</tr>
+	<tr>
+	  <td>Remonter d'une page</td>
+	  <td>Page pr&eacute;c.</td>
+	</tr>
+	<tr class="even">
+	  <td>Descendre d'une page</td>
+	  <td>Page suiv.</td>
+	</tr>
+	<tr>
+	  <td>Remonter d'une ligne</td>
+	  <td>Fl&egrave;che haut</td>
+	</tr>
+	<tr class="even">
+	  <td>Descendre d'une ligne</td>
+	  <td>Fl&egrave;che bas</td>
+	</tr>
+	<tr>
+	  <td>Annuler</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Z</td>
+	</tr>
+	<tr class="even">
+	  <td>Refaire</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj+Z</td>
+	</tr>
+	<tr>
+	  <td>Rechercher et remplacer</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+F</td>
+	</tr>
+	<tr class="even">
+	  <td>Rechercher &agrave; nouveau</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> ou
+	  F3</span><span class="mac">Cmd+G</span></td>
+	</tr>
+	<tr>
+	  <td>Rechercher le pr&eacute;c&eacute;dent</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj+G</td>
+	</tr>
+	<tr>
+	  <td>Ouvrir le menu contextuel</td>
+	  <td><span class="noMac">Maj+F10</span><span
+	  class="mac">Ctrl+Espace</span></td>
+	</tr>
+	<tr class="even">
+	  <td>
+	    Ouvrir le menu principal <span class="noMac">(bascule &agrave; au premier menu d&eacute;roulant en haut de la fen&ecirc;tre)</span>
+	  </td>
+	  <td><span class="win">Alt ou </span><span
+	  class="noMac">F10</span><span class="mac">Cont&ocirc;l&eacute; par les pr&eacute;f&eacute;rences clavier dans le panneau de configuration</span></td>
+	</tr>
+	<tr>
+	  <td>Aller au d&eacute;but de la ligne (dans un champ texte modifiable)</td>
+	  <td><span class="win">D&eacute;but</span><span class="mac">Cmd+Fl&egrave;che gauche</span><span class="unix">Ctrl+A</span></td>
+	</tr>
+	<tr class="even">
+	  <td>Aller &agrave; la fin de la ligne (dans un champ texte modifiable)</td>
+	  <td><span class="win">Fin</span><span class="mac">Cmd+Fl&egrave;che droite</span><span class="unix">Ctrl+E</span></td>
+	</tr>
+	<tr>
+	  <td>Aller &agrave; l'onglet suivant (en utilisant la navigation par onglet lorsqu'il y a plus d'un onglet)</td>
+	  <td>Ctrl+Page suiv.</td>
+	</tr>
+	<tr class="even">
+	  <td>Aller &agrave; l'onglet pr&eacute;c&eacute;dent (en utilisant la navigation par onglet lorsqu'il y a plus d'un onglet)</td>
+	  <td>Ctrl+Page pr&eacute;c.</td>
+	</tr>
+	<tr>
+	  <td>Fermer l'onglet</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Quitter &brandShortName;</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Q</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[&nbsp;<a href="#using_shortcuts">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="nvu_composition_shortcuts">Raccourcis de composition de &brandShortName;</h2>
+
+    <p>Ce sont les raccourcis n&eacute;cessaires pour &eacute;diter des pages HTML avec &brandShortName;.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Commande</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Ouvrir une page Web</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj+L</td>
+	</tr>
+	<tr>
+	  <td>Publier</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj+S</td>
+	</tr>
+	<tr class="even">
+	  <td>R&eacute;duire la taille du texte</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+-</td>
+	</tr>
+	<tr>
+	  <td>Augmenter la taille du texte</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= OU
+	  <span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>++ (plus)</td>
+	</tr>
+	<tr class="even">
+	  <td>Taille du texte initiale</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+0</td>
+	</tr>
+	<tr>
+	  <td>Ins&eacute;rer/modifier un lien</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+L</td>
+	</tr>
+	<tr class="even">
+	  <td>Texte en <b>gras</b></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+B</td>
+	</tr>
+	<tr>
+	  <td>Texte en <i>italique</i></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+I</td>
+	</tr>
+	<tr class="even">
+	  <td>Texte <u>soulign&eacute;</u></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+U</td>
+	</tr>
+	<tr>
+	  <td>Augmenter le retrait</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+[</td>
+	</tr>
+	<tr class="even">
+	  <td>Diminuer le retrait</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+]</td>
+	</tr>
+	<tr>
+	  <td>Annuler le style du texte</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj+Y</td>
+	</tr>
+	<tr class="even">
+	  <td>Annuler le lien</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj+K</td>
+	</tr>
+	<tr>
+	  <td>S&eacute;lectionner un ligne/colonne</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Glisser (souris)</td>
+	</tr>
+	<tr class="even">
+	  <td>S&eacute;lectionner des cellules</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Clic gauche souris (glisser la souris pour s&eacute;lectionner des blocs de cellules ou cliquer individuellement sur chacune d'elles)</td>
+	</tr>
+	<tr>
+	  <td>Gestionnaire de sites</td>
+	  <td>F9</td>
+	</tr>
+	<tr class="even">
+	  <td>V&eacute;rifier l'orthographe</td>
+	  <td><span class="noMac">Ctrl+K</span><span
+	  class="mac">Cmd+K</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[&nbsp;<a href="#using_shortcuts">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <h2 id="help_window_shortcuts">Raccourcis de la fen&ecirc;tre d'aide</h2>
+
+    <p>Ces raccourcis sont disponibles dans la fen&ecirc;tre d'aide.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Commande</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Naviguer de lien en lien dans le panneau de contenu (panneau de droite)</td>
+	  <td>Tab</td>
+	</tr>
+	<tr>
+	  <td>Escamoter la barre lat&eacute;rale</td>
+	  <td>F9</td>
+	</tr>
+	<tr>
+	  <td>Augmenter la taille du texte</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= OU <span
+	  class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Maj++ (plus)</td>
+	</tr>
+	<tr>
+	  <td>Diminuer la taille du texte</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (moins)</td>
+	</tr>
+	<tr>
+	  <td>Basculer entre le panneau de contenu et Glossaire/Index/Rechercher/Contenu</td>
+	  <td>F6</td>
+	</tr>
+	<tr>
+	  <td>Naviguer dans les termes de l'index (lorsque le panneau Index est s&eacute;lectionn&eacute;)</td>
+	  <td>Fl&egrave;che haut/bas</td>
+	</tr>
+	<tr>
+	  <td>Naviguer dans les panneaux (Contenu, Glossaire ou Index)</td>
+	  <td>Fl&egrave;che haut/bas</td>
+	</tr>
+	<tr>
+	  <td>Condenser/d&eacute;velopper la table des mati&egrave;res</td>
+	  <td>Fl&egrave;che droite/gauche</td>
+	</tr>
+	<tr>
+	  <td>Imprimer la page</td>
+	  <td><span class="noMac">Ctrl+P</span><span
+	  class="mac">Cmd+P</span></td>
+	</tr>
+	<tr>
+	  <td>Aller &agrave; la page pr&eacute;c&eacute;dente</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+Fl&egrave;che gauche</td>
+	</tr>
+	<tr>
+	  <td>Aller &agrave; la page suivante</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+Fl&egrave;che droite</td>
+	</tr>
+	<tr>
+	  <td>Fermer la fen&ecirc;tre d'aide de &brandShortName;</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[&nbsp;<a href="#using_shortcuts">Retour au d&eacute;but de la section</a>&nbsp;]</p>
+
+    <div class="copyrightBox"><em>30 mai 2005</em></div>
+
+    <p>Copyright &copy; 2004-2005 Contributors du Projet &brandShortName; Help Documentation.</p>
+<!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 23 juin 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+  </body>
+</html>

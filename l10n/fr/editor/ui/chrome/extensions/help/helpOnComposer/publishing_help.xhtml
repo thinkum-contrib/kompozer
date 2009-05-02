@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Publier des pages Web avec &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="help-fr.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Dans cette section&nbsp;:
+   <a href="#publishing_a_document">Publier un document</a>
+   <a href="#publishing_settings">Param&egrave;tres de publication</a>
+   <a href="#solving_common_publishing_problems">R&eacute;soudre les probl&egrave;mes courants de publication.</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">Publier des pages Web avec &brandShortName;</h1>
+
+<p>Si vos pages HTML n'existent que sur votre disque dur local, vous seul pourrez les voir. &brandShortName; vous permet de publier vos pages sur un ordinateur distant appel&eacute; serveur Web.</p>
+
+<p>Quand vous publiez vos pages sur un serveur Web, &brandShortName; copie (t&eacute;l&eacute;charge) vos pages vers un ordinateur qui permet &agrave; d'autres personnes de naviguer sur vos pages. La plupart des fournisseurs d'acc&egrave;s &agrave; Internet fournissent un espace sur leurs serveurs pour la publication de vos pages personnelles. Pour trouver un serveur Web, contacter votre fournisseur d'acc&egrave;s, la hotline ou l'administrateur syst&egrave;me.</p>
+
+<h2 id="publishing_a_document">Publier un document</h2>
+
+<p>Pour publier un document&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le document HTML que vous souhaitez publier ou cr&eacute;ez un nouveau document &brandShortName;.</li>
+
+  <li>Quand vous &ecirc;tes pr&ecirc;t &agrave; publier le document &agrave; distance, cliquez sur le bouton <q>Publier</q> <img src="images/publish.png" width="65" height="62" alt="" /><p>. Si vous aviez d&eacute;j&agrave; publi&eacute; ce document auparavant, &brandShortName; se rappelle des param&egrave;tres de publication du document et commence &agrave; le publier. Pendant la publication, &brandShortName; affiche une bo&icirc;te de dialogue de l'&eacute;tat de publication.</p>
+
+  <ul>
+    <li>Si vous n'avez jamais publi&eacute; ce document auparavant, &brandShortName; affiche l'onglet <q>Param&egrave;tres</q> dans la bo&icirc;te de dialogue <q>Publier une page</q>. Ainsi vous pourrez entrer les informations concernant le site de publication distant du document. Voir <a href="#publish_page_settings">Param&egrave;tres de publication</a> pour plus d'information. Quand vous avez fini d'entrer les informations, cliquez sur <q>Publier</q>.</li>
+
+    <li>Si vous n'avez jamais enregistr&eacute; ce document auparavant, &brandShortName; affiche l'onglet <q>Publier</q> dans la bo&icirc;te de dialogue <q>Publier une page</q>. Ainsi vous pourrez entrer le nom de fichier. Voir <a href="#publish_page_publish">Publier une page</a> pour plus d'information. Apr&egrave;s avoir entr&eacute; le nom du fichier, cliquez sur le bouton <q>Publier</q>.</li>
+  </ul>
+  </li>
+  
+  <li>Pour afficher votre page dans le navigateur, cliquer sur le bouton <q>Navigateur</q>. Testez les liens de la page et assurez-vous qu'il n'y a aucune image manquante.</li>
+
+  <li>Continuez &agrave; &eacute;diter la page tant que n&eacute;cessaire. Quand vous &ecirc;tes pr&ecirc;t &agrave; mettre &agrave; jour la page distante avec vos changements, cliquez sur le bouton <q>Publier</q>.</li>
+</ol>
+
+<p>Quand vous publiez un document pour la premi&egrave;re fois, &brandShortName; change l'URL <tt>file:///</tt> du document en une URL <tt>http://</tt> pour indiquer que vous &eacute;ditez maintenant le document publi&eacute;. Si vous d&eacute;sirez enregistrer le document localement (sur le disque dur de votre ordinateur), cliquez sur le bouton <q>Enregistrer</q>. &brandShortName; vous demandera de choisir un nom de fichier et un emplacement sur votre disque dur pour le document.</p>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="avoiding_broken_links_or_images">Astuces pour &eacute;viter les liens cass&eacute;s ou les images manquantes</h3>
+
+<ul>
+  <li>Assurez-vous que les noms de vos fichiers &brandShortName; se terminent bien par l'extension <tt>.html</tt> ou <tt>.htm</tt>.</li>
+  <li>Assurez-vous que les noms de vos fichiers images se terminent bien par l'extension <tt>.JPG</tt>, <tt>.GIF</tt> ou <tt>.PNG</tt>.</li>
+  <li>N'utilisez pas d'espaces ou d'autres caract&egrave;res sp&eacute;ciaux (pas de lettres accentu&eacute;es ou li&eacute;es par exemple).</li>
+  <li>Utilisez des noms de fichiers courts tout en majuscules ou tout en minuscules et avec &eacute;ventuellement des chiffres.</li>
+
+  <li>Si vos images apparaissent comme des liens cass&eacute;s quand vous affichez une page situ&eacute;e sur le serveur Web, c'est peut &ecirc;tre que vous avez oubli&eacute; d'inclure les images quand vous avez publi&eacute;. Ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Publier sous&hellip;</span> pour afficher la bo&icirc;te de dialogue <q>Publier une page</q>. Dans l'onglet <q>Publication</q>, assurez-vous que <q>Inclure images et autres fichiers</q> est bien coch&eacute; puis cliquez sur <q>Publier</q>.</li>
+</ul>
+
+<p>Pour plus d'astuces sur la r&eacute;solution des probl&egrave;mes, voir <a href="#solving_common_publishing_problems">R&eacute;soudre les probl&egrave;mes courants de publication.</a>.</p>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="updating_a_published_document">Mettre &agrave; jour un document publi&eacute;</h3>
+
+<p>Pour mettre &agrave; jour un document publi&eacute;&nbsp;:</p>
+
+<ol>
+  <li>Dans une fen&ecirc;tre &brandShortName;, ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Pages r&eacute;centes</span>, s&eacute;lectionnez ensuite votre document dans la liste.<br />Sinon, vous pouvez atteindre l'emplacement du fichier en entrant l'adresse HTTP du document (l'adresse Web du document) dans le champ de la fen&ecirc;tre <q>Ouvrir une page Web</q>.</li>
+  
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Ouvrir une page Web&hellip;</span>.</li>
+
+  <li>Editez le document autant que n&eacute;cessaire.</li>
+
+  <li>Quand vous &ecirc;tes pr&ecirc;t &agrave; mettre &agrave; jour la page distante avec vos changements, cliquez sur le bouton <q>Publier</q> dans la barre d'outils de &brandShortName;.</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>Astuce</strong>&nbsp;: Pour supprimer une page ou une image que vous avez publi&eacute;e sur un serveur Web, vous devez utiliser un programme de <acronym title="File Transfer Protocol">FTP</acronym>. Vous devez aussi utiliser un programme de FTP si vous voulez cr&eacute;er des sous-dossiers ou renommer des fichiers sur un serveur Web. Demandez &agrave; votre h&eacute;bergeur s'il recommande un programme de FTP particulier. Habituellement, vous pouvez trouver des informations sur les programmes de FTP sur le site Web de votre h&eacute;bergeur, dans la section aide ou la section support. Des programmes de FTP sont aussi disponibles sur des sites de t&eacute;l&eacute;chargements comme ZDNET.</p>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">Changer le nom du fichier ou son emplacement de publication</h3>
+
+<p>Pour changer le nom du fichier ou son emplacement de publication&nbsp;:</p>
+
+<ol>
+  <li>Dans une fen&ecirc;tre &brandShortName;, ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Pages r&eacute;centes</span>, s&eacute;lectionnez ensuite votre document dans la liste.<br />Sinon, vous pouvez atteindre l'emplacement du fichier en entrant l'adresse HTTP du document (l'adresse Web du document) dans le champ de la fen&ecirc;tre <q>Ouvrir une page Web</q>.</li>
+  
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Ouvrir une page Web&hellip;</span>.</li>
+  
+  <li>Editez le document autant que n&eacute;cessaire.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> de &brandShortName; et choisissez <span class="menuPath">Publier sous&hellip;</span>. &brandShortName; affiche l'onglet <q>Publication</q> de la bo&icirc;te de dialogue <q>Publier une page</q>.</li>
+
+  <li>Entrez un titre de page diff&eacute;rent si n&eacute;cessaire.</li>
+
+  <li>Entrez un nom de fichier diff&eacute;rent pour la page si n&eacute;cessaire.</li>
+
+  <li>Dans la liste des <q>Noms de site</q>, choisissez l'emplacement de publication que vous souhaitez utiliser. Pour ajouter un nouvel emplacement de publication, cliquez sur <q>Nouveau site</q>. Voir <a href="#publish_page_settings">Publier une page - Param&egrave;tres</a> pour plus d'information.</li>
+
+  <li>Cliquez sur <q>Publier</q> pour enregistrer le document dans son nouvel emplacement.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="creating_a_new_publishing_site">Cr&eacute;er un nouveau site de publication</h3>
+
+<p>Si vous projetez de publier sur plus d'un emplacement distant, vous pouvez configurer &brandShortName; pour enregistrer les informations de publication pour chaque site distant que vous utilisez. Ainsi vous n'aurez pas &agrave; saisir les param&egrave;tres &agrave; chaque fois que vous publierez.</p>
+
+<p>Pour cr&eacute;er un nouveau site de publication, &agrave; partir d'une fen&ecirc;tre &brandShortName;&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Edition</span> et choisissez <span class="menuPath">Param&egrave;tres des sites de publication&hellip;</span>.
+  &brandShortName; affiche la bo&icirc;te de dialogue des <q>Param&egrave;tres de publication</q>.</li>
+
+  <li>Cliquez sur <q>Nouveau Site</q>.</li>
+
+  <li>Dans <q>Nom du site</q>, entrez l'intitul&eacute; que vous voudrez avoir quand vous vous r&eacute;f&eacute;rerez &agrave; ce site de publication.
+
+  <p>Par exemple, si vous souhaitez utiliser ce nouveau site de publication pour publier des documents en rapport avec un projet <q>Meteor</q>, vous voudrez peut &ecirc;tre utiliser <q>Meteor</q> comme nom de site. Les noms de site vous aident &agrave; vous rappeler quels types de documents vous publiez sur chaque site.</p> </li>
+
+  <li>Dans <q>Adresse de publication</q>, entrez l'URL compl&egrave;te qui vous a &eacute;t&eacute; fournie par votre h&eacute;bergeur. Cette url doit commencer par <tt>ftp://</tt> ou par <tt>http://</tt>.
+
+  <p>L'adresse de publication sp&eacute;cifie l'emplacement o&ugrave; les documents sont publi&eacute;s (envoy&eacute;s) sur ce site. Si vous n'&ecirc;tes pas certain des param&egrave;tres &agrave; saisir, contacter votre h&eacute;bergeur.</p> </li>
+
+  <li>Dans <q>Adresse HTTP de votre page d'accueil</q>, entrez l'URL compl&egrave;te que vous entreriez dans votre navigateur pour acc&eacute;der &agrave; vos pages. N'ajoutez pas de nom de fichier ou de sous-dossier &agrave; la partie URL.
+
+  <p>Cette URL doit toujours commencer par <tt>http://</tt>. Dans certains cas, cette URL peut &ecirc;tre la m&ecirc;me que l'adresse de publication. Si vous n'&ecirc;tes pas certain des param&egrave;tres &agrave; saisir, contacter votre h&eacute;bergeur ou bien laissez en blanc.</p> </li>
+
+  <li>Dans <q>Identifiant</q>, entrer le nom d'utilisateur que vous utilisez pour vous connecter chez votre h&eacute;bergeur (par exemple avec votre logiciel FTP).</li>
+
+  <li>Dans <q>Mot de passe</q>, entrez le mot de passe associ&eacute; &agrave; votre identifiant.</li>
+
+  <li>S&eacute;lectionnez <q>M&eacute;moriser le mot de passe</q> pour enregistrer votre mot de passe de fa&ccedil;on s&eacute;curis&eacute;e. Ainsi vous n'aurez pas besoin de le redonner &agrave; chaque fois que vous voudrez publier des pages sur ce site.</li>
+
+  <li>Cliquez sur <q>OK</q>.</li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="changing_the_default_publishing_site">Changer le site de publication par d&eacute;faut</h3>
+
+<p>Si vous avez configur&eacute; plusieurs sites de publication, mais que vous publiez la plupart du temps sur un seul site, vous pouvez d&eacute;signer le site que vous utilisez le plus souvent comme le site de publication par d&eacute;faut. &brandShortName; utilisera le site par d&eacute;faut pour tous les documents que vous publierez sauf si vous choisissez sp&eacute;cifiquement un autre site.</p>
+
+<p>Quel que soit le nombre de sites que vous avez configur&eacute;s, vous pouvez toujours publier un document sur un site diff&eacute;rent en choisissant <span class="menuPath">Publier sous&hellip;</span> dans le menu <span class="menuPath">Fichier</span>.<a
+href="#changing_the_filename_or_publishing_location">Changer le nom du fichier ou son emplacement de publication</a> pour plus d'information.</p>
+
+<p>Pour choisir le site de publication par d&eacute;faut, commencer dans une fen&ecirc;tre &brandShortName;&nbsp;:</p>
+
+<ol>
+  <li>Ouvrir le menu <span class="menuPath">Edition</span> et choisir <span class="menuPath">Param&egrave;tres de des sites de publication&hellip;</span>. &brandShortName; affiche la bo&icirc;te de dialogue <q>Param&egrave;tres de publication</q>.</li>
+
+  <li>S&eacute;lectionner un site de publication dans la liste.
+
+  <p>Si vous n'avez qu'un seul site de publication, &brandShortName; utilise celui-ci comme site par d&eacute;faut.</p> </li>
+
+  <li>Cliquez sur le bouton <q>Site par d&eacute;faut</q>.</li>
+
+  <li>Cliquez sur <q>OK</q> pour confirmer vos changements.</li> </ol>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="deleting_a_publishing_site">Supprimer un site de publication</h3>
+
+<p>Supprimer un site efface les param&egrave;tres de ce site dans &brandShortName;. Si plus tard, vous souhaitez publier sur ce site, vous devrez ressaisir tous les param&egrave;tres de ce site.</p>
+
+<p>Pour supprimer un site de publication, commencer dans une fen&ecirc;tre &brandShortName;&nbsp;:</p>
+
+<ol>
+  <li>Ouvrir le menu <span class="menuPath">Edition</span> et choisir <span class="menuPath">Param&egrave;tres des sites de publication&hellip;</span>. &brandShortName; affiche la bo&icirc;te de dialogue <q>Param&egrave;tres de publication</q>.</li>
+  
+  <li>S&eacute;lectionner un site de publication dans la liste.</li>
+  
+  <li>Cliquez sur le bouton <q>Supprimer le site</q>.
+  <p>&brandShortName; supprime simplement les param&egrave;tres du site, le site distant n'est pas affect&eacute;.</p></li>
+
+  <li>Cliquez sur <q>OK</q> pour confirmer vos changements.</li> </ol>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_a_document">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h2 id="publishing_settings">Param&egrave;tres de publication</h2>
+
+<p>Cette section d&eacute;crit les param&egrave;tres de publication de &brandShortName;. Pour une information sur les param&egrave;tres g&eacute;n&eacute;raux et ceux d'une nouvelle page, voir
+<a href="composer_help.xhtml#composer_preferences">Pr&eacute;f&eacute;rences de &brandShortName;</a>.</p>
+
+<h3 id="publish_page_publish">Publier une page - &Eacute;dition</h3>
+
+<p>L'onglet <q>&Eacute;dition</q> dans <q>Publier une page</q> vous demande de sp&eacute;cifier o&ugrave; vous voulez publier le document. Ces param&egrave;tres ne s'appliquent qu'au document courant.</p>
+
+<p>Si vous n'&ecirc;tes pas d&eacute;j&agrave; dans l'onglet <q>&Eacute;dition</q> dans <q>Publier une page</q>, suivez ces &eacute;tapes&nbsp;:</p>
+
+<ol>
+  <li>Ouvrir le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Publier sous&hellip;</span>. La bo&icirc;te de dialogue <q>Publier une page</q> appara&icirc;t.</li>
+
+  <li>Cliquer sur l'onglet <q>&Eacute;dition</q>.</li>
+</ol>
+
+<ul> <li><strong>Nom du site</strong>&nbsp;: Liste tous les sites de publication que vous avez cr&eacute;&eacute;s, ainsi vous pouvez choisir l'emplacement o&ugrave; vous voulez publier votre document. Pour cr&eacute;er un nouveau site, cliquer sur le bouton <q>Nouveau site</q>.</li>
+
+<li><strong>Titre de la page</strong>&nbsp;: Sp&eacute;cifie le titre de la page tel qu'il appara&icirc;t dans la barre de titre du navigateur quand vous regardez la page dans un navigateur. Le titre de la page appara&icirc;t aussi dans votre liste de marque-pages, si vous marquez cette page.</li>
+
+<li><strong>Nom de fichier</strong>&nbsp;: Sp&eacute;cifie le nom de fichier du document. Assurez-vous d'inclure l'extension <tt>.html</tt> ou <tt>.htm</tt> dans le nom du fichier.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>Attention</strong>&nbsp;: Si un fichier sur le site distant o&ugrave; vous publiez a le m&ecirc;me nom qu'un document que vous envoyez, ce fichier envoy&eacute; remplacera le fichier distant existant. Il n'y aura pas de demande de confirmation.</p> </li>
+
+<li><strong>Sous-dossier du site pour cette page</strong>&nbsp;: Si vous laissez ceci en blanc, &brandShortName; publie la page dans le sous-dossier de publication principal (racine) de ce site. Si vous voulez publier la page dans un sous-dossier distant, situ&eacute; dans le dossier de publication principal, entrez le nom de ce dossier ou bien choisissez-le dans la liste. &brandShortName; garde en m&eacute;moire les dossiers que vous avez d&eacute;j&agrave; tap&eacute;s dans cette case, ainsi vous pouvez choisir dans une liste de dossiers distants que vous avez d&eacute;j&agrave; utilis&eacute;s. Rappelez-vous que les noms des sous-dossiers sont sensibles &agrave; la casse.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>Note</strong>&nbsp;: Le sous-dossier du site que vous choisissez doit d&eacute;j&agrave; exister sur le site distant.</p>
+</li>
+
+<li><strong>Inclure images et autres fichiers</strong>&nbsp;: Si cette case est coch&eacute;e, &brandShortName; publie toutes les images et autres fichiers r&eacute;f&eacute;renc&eacute;s par la page. Vous pouvez choisir de publier ces fichiers dans le m&ecirc;me dossier que la page ou dans un sous-dossier qui existe d&eacute;j&agrave; dans le dossier principal.</li>
+</ul>
+
+<p><strong>Astuce </strong>: Pour cr&eacute;er des sous-dossiers distants ou effacer des pages ou des images, vous devez utiliser un programme de <acronym title="File Transfer Protocol">FTP</acronym>.
+Demandez &agrave; votre h&eacute;bergeur, s'il recommande un programme de FTP particulier. Habituellement, vous pouvez trouver des informations sur les programmes de FTP sur le site Web de votre h&eacute;bergeur, dans la section aide ou la section support. Des programmes de FTP sont aussi disponibles sur des sites de t&eacute;l&eacute;chargements comme ZDNET.</p>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_settings">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="publish_page_settings">Publier une page - Param&egrave;tres</h3>
+
+<p>L'onglet <q>Param&egrave;tres</q> dans <q>Publier une page</q> vous permet de sp&eacute;cifier vos informations de connexion pour le site de publication distant ainsi que les param&egrave;tres de publication pour ce site. Ces param&egrave;tres s'appliquent au document courant et &agrave; tous les documents que vous publierez sur ce site.</p>
+
+<p>Si vous n'&ecirc;tes pas d&eacute;j&agrave; dans l'onglet <q>Param&egrave;tres</q> dans <q>Publier une page</q> , suivez ces &eacute;tapes&nbsp;:</p>
+
+<ol>
+  <li>Ouvrir le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Publier sous&hellip;</span>. La bo&icirc;te de dialogue <q>Publier une page</q> appara&icirc;t.</li>
+
+  <li>Cliquer sur l'onglet <q>Param&egrave;tres</q>.</li>
+</ol>
+
+<ul>
+  <li><strong>Nom du site</strong>&nbsp;: Sp&eacute;cifie l'intitul&eacute; que vous voulez utiliser pour d&eacute;signer ce site de publication. Utilisez un nom court qui vous aidera &agrave; identifier ce site de publication.</li>
+
+  <li id="host_name_for_publishingSDX"><strong>Adresse de publication</strong>&nbsp;: Sp&eacute;cifie l'URL compl&egrave;te donn&eacute;e par votre h&eacute;bergeur. Cette URL doit commencer soit par <tt>ftp://</tt> soit par <tt>http://</tt>. Cette adresse est souvent mentionn&eacute;e comme le <q>nom d'h&ocirc;te</q> ou le <q>nom d'h&ocirc;te du serveur</q>.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>L'adresse de publication sp&eacute;cifie l'emplacement o&ugrave; les documents sont publi&eacute;s (envoy&eacute;s) sur ce site. Si vous n'&ecirc;tes pas s&ucirc;r de ce que vous devez mettre, demandez &agrave; votre h&eacute;bergeur.</p></li>
+
+  <li><strong>Adresse HTTP de votre page d'accueil</strong>&nbsp;: 
+Sp&eacute;cifie l'adresse compl&egrave;te du dossier principal de publication. C'est l'adresse Web de votre page principale sur le site Web. Elle ne doit pas inclure de nom de fichier ou de sous-dossier comme partie de l'URL.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Cette URL doit toujours commencer par <tt>http://</tt>. Dans certains cas, cette URL est la m&ecirc;me que celle de l'adresse de publication. Si vous n'&ecirc;tes pas certain des param&egrave;tres &agrave; saisir, contactez votre h&eacute;bergeur ou bien laissez en blanc.
+</p></li>
+
+  <li><strong>Identifiant</strong>&nbsp;: Sp&eacute;cifie le nom d'utilisateur que vous utilisez pour vous identifier chez votre fournisseur d'acc&egrave;s ou sur le r&eacute;seau.</li>
+
+  <li><strong>Mot de passe</strong>&nbsp;: Sp&eacute;cifie le mot de passe de votre identifiant.</li>
+
+  <li><strong>M&eacute;moriser le mot de passe</strong>&nbsp;: S&eacute;lectionner ceci pour chiffrer et sauvegarder de fa&ccedil;on s&eacute;curis&eacute;e votre mot de passe en utilisant le gestionnaire de mot de passe, ainsi vous n'aurez pas &agrave; le redonner &agrave; chaque fois que vous publierez des pages sur ce site.</li>
+</ul>
+
+<p class="returnToSection">[&nbsp;<a
+href="#publishing_settings">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+<h3 id="publish_settings">Param&egrave;tres de publication</h3>
+
+<p>La bo&icirc;te de dialogue des param&egrave;tres de publication vous permet de cr&eacute;er, &eacute;diter et supprimer les param&egrave;tres de publication d'un site et aussi de choisir le site de publication par d&eacute;faut.</p>
+<p>Si vous n'&ecirc;tes pas d&eacute;j&agrave; dans la bo&icirc;te de dialogue des param&egrave;tres de publication, suivez ces &eacute;tapes&nbsp;:</p>
+
+<ol>
+  <li>Ouvrir le menu <span class="menuPath">Edition</span> et choisissez <span class="menuPath">Param&egrave;tres des sites de publication&hellip;</span>. &brandShortName; affiche la bo&icirc;te de dialogue <q>Param&egrave;tres de publication</q>.</li>
+</ol>
+
+<ul>
+  <li><strong>Nouveau site</strong>&nbsp;: Vous permet de sp&eacute;cifier les param&egrave;tres pour un nouveau site de publication. &brandShortName; ajoute le nom du nouveau site de publication &agrave; la liste des sites de publication.</li>
+
+  <li><strong>Site par d&eacute;faut</strong>&nbsp;: met le site s&eacute;lectionn&eacute; comme site de publication par d&eacute;faut. G&eacute;n&eacute;ralement, le site de publication par d&eacute;faut est l'emplacement distant que vous utilisez le plus souvent pour publier vos documents. Tous les documents que vous cr&eacute;erez ou &eacute;diterez seront publi&eacute;s vers le site par d&eacute;faut &agrave; moins que vous ne choisissiez explicitement un autre site de publication dans la bo&icirc;te de dialogue <q>Publier une page</q>.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">Pour publier un document vers un autre emplacement distant, ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Publier sous&hellip;</span> pour choisir un site de publication diff&eacute;rent.
+  </li>
+
+  <li><strong>Supprimer le site</strong>&nbsp;: Supprime le site s&eacute;lectionn&eacute; et ses param&egrave;tres dans &brandShortName;.</li>
+
+  <li><strong>Nom du site</strong>&nbsp;: Sp&eacute;cifie l'intitul&eacute; que vous voulez utiliser pour d&eacute;signer ce site de publication.</li>
+
+  <li><strong>Adresse de publication</strong>&nbsp;: Sp&eacute;cifie l'URL compl&egrave;te donn&eacute;e par votre h&eacute;bergeur. Cette URL doit commencer soit par <tt>ftp://</tt> soit par <tt>http://</tt>.</li>
+
+  
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    L'adresse de publication sp&eacute;cifie l'emplacement o&ugrave; les documents sont publi&eacute;s (envoy&eacute;s) sur ce site. Si vous n'&ecirc;tes pas s&ucirc;r de ce que vous devez mettre, demandez &agrave; votre h&eacute;bergeur.</li>
+
+  <li><strong>Adresse HTTP de votre page d'accueil</strong>&nbsp;: 
+Sp&eacute;cifie l'adresse compl&egrave;te du dossier principal de publication. C'est l'adresse Web de votre page principale sur le site Web. Elle ne doit pas inclure de nom de fichier ou de sous-dossier comme partie de l'URL.</li>
+
+ <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    Cette URL doit toujours commencer par <tt>http://</tt>. Dans certains cas, cette URL est la m&ecirc;me que celle de l'adresse de publication. Si vous n'&ecirc;tes pas certain des param&egrave;tres &agrave; saisir, contacter votre h&eacute;bergeur ou bien laissez en blanc.
+</li>
+
+  <li><strong>Identifiant</strong>&nbsp;: Sp&eacute;cifie le nom d'utilisateur que vous utilisez pour vous identifier chez votre fournisseur d'acc&egrave;s ou sur le r&eacute;seau.</li>
+
+  <li><strong>Mot de passe</strong>&nbsp;: Sp&eacute;cifie le mot de passe de votre identifiant.</li>
+
+<li><strong>M&eacute;moriser le mot de passe</strong>&nbsp;: S&eacute;lectionner ceci pour chiffrer et sauvegarder de fa&ccedil;on s&eacute;curis&eacute;e votre mot de passe en utilisant le gestionnaire de mot de passe, ainsi vous n'aurez pas &agrave; le redonner &agrave; chaque fois que vous publierez des pages sur ce site.</li>
+</ul>
+
+<p>[&nbsp;<a href="#publishing_settings">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+
+<h2 id="solving_common_publishing_problems">R&eacute;solution des probl&egrave;mes habituels de publication</h2>
+
+<p>Si un de vos fichiers ne peut pas &ecirc;tre publi&eacute;, la bo&icirc;te de dialogue <q>&Eacute;tat de la  publication</q> affiche un message d'erreur qui peut vous aider &agrave; d&eacute;terminer ce qui s'est mal pass&eacute; et comment le r&eacute;soudre. Cliquez sur le bouton <q>D&eacute;tails</q> dans la bo&icirc;te de dialogue <q>&Eacute;tat de la publication</q> pour avoir de l'aide pour r&eacute;soudre votre probl&egrave;me de publication.</p>
+
+<p>Si vous n'arrivez toujours pas &agrave; publier le fichier, sauvegardez-le sur votre disque dur en ouvrant le menu <span class="menuPath">Fichier</span> de &brandShortName; et choisissez <span class="menuPath">Enregistrer</span>. Vous pouvez ensuite ouvrir le fichier plus tard et r&eacute;essayer de le publier. Pour le localiser rapidement plus tard, ouvrez le menu <span class="menuPath">Fichier</span> de &brandShortName;et choisissez <span class="menuPath">Fichiers r&eacute;cents</span>.</p>
+
+<h3 id="verifying_your_publishing_settings">V&eacute;rifiez vos param&egrave;tres de publication</h3>
+
+<p>Pour v&eacute;rifier vos param&egrave;tres de publication&nbsp;:</p>
+
+<ol>
+  <li>Fermez la bo&icirc;te de dialogue <q>&Eacute;tat de publication</q> si elle est ouverte.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Edition</span> et choisissez <span class="menuPath">Param&egrave;tres des sites de publication&hellip;</span>.</li>
+
+  <li>Dans la bo&icirc;te de dialogue des param&egrave;tres de publication, assurez-vous que les param&egrave;tres du site o&ugrave; vous &ecirc;tes en train de publier sont corrects. Si vous n'en &ecirc;tes pas s&ucirc;r, contactez votre fournisseur d'acc&egrave;s ou le service d'h&eacute;bergement de votre site Web.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>V&eacute;rifiez que vous avez saisi correctement les param&egrave;tres de publication.</strong> Vous pourriez avoir accidentellement fait une faute de frappe.</li>
+
+      <li><strong>V&eacute;rifiez que vous avez saisi l'adresse de publication correcte.</strong>Les services d'h&eacute;bergement ou les fournisseurs d'acc&egrave;s d&eacute;signent parfois l'adresse de publication par <q>nom du serveur</q>, le <q>nom d'h&ocirc;te</q> ou <q>serveur/h&ocirc;te</q>. Ils fournissent souvent un emplacement de publication du type <tt>ftp.monfai.com/monlogin</tt>, o&ugrave; <tt>monlogin</tt> est votre identifiant.
+
+      <p>Pour que l'adresse de publication soit correcte, elle doit &ecirc;tre pr&eacute;c&eacute;d&eacute;e soit de <tt>ftp://</tt> soit de <tt>http://</tt>. Par exemple, pour le site sus-mentionn&eacute;, l'adresse correcte de publication serait <tt>ftp://ftp.monfai.com/monlogin</tt>.</p> </li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[&nbsp;<a
+href="#solving_common_publishing_problems">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="checking_your_filenames">V&eacute;rifiez vos noms de fichiers</h3>
+
+<p>Examinez les noms de tous les fichiers que vous ne parvenez pas &agrave; publier&nbsp;:</p>
+
+<ul>
+  <li>Utilisez seulement des nombres, des lettres minuscules ou des lettres majuscules. M&ecirc;me s'il est acceptable que les noms de fichiers contiennent des majuscules, vous &eacute;viterez de possibles erreurs plus tard, quand vous chercherez le fichier publi&eacute; si vous n'utilisez que des minuscules dans vos noms de fichiers.
+
+  <p>Quand vous publiez un fichier sur un serveur Web, les noms de fichiers deviennent sensibles &agrave; la casse. Il peut s'av&eacute;rer difficile de vous souvenir quels fichiers n'ont que des minuscules et lesquels ont un m&eacute;lange de majuscules et de minuscules.</p>
+
+  <p>Par exemple, quand vous tentez de localiser un fichier publi&eacute; en entrant l'adresse Web du fichier dans la barre d'adresse de votre navigateur, vous devez entrer le nom tel que vous l'avez cr&eacute;&eacute;, avec la m&ecirc;me combinaison de majuscules et minuscules.</p> </li>
+
+  <li>N'utilisez pas de caract&egrave;res de ponctuations ou d'espaces. Les soulignements (&nbsp;_&nbsp;) et traits d'union (&nbsp;-&nbsp;) sont autoris&eacute;s.</li>
+
+  <li>La fin de votre nom de fichier doit &ecirc;tre <tt>.html</tt> ou <tt>.htm</tt> (pour les noms de fichiers de &brandShortName;).</li>
+
+  <li>Utilisez moins de 32 caract&egrave;res.</li>
+</ul>
+
+<p class="returnToSection">[&nbsp;<a
+href="#solving_common_publishing_problems">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="fixing_publishing_errors">R&eacute;soudre les erreurs de publication</h3>
+
+<p>Si un ou plusieurs de vos fichiers ne peut pas &ecirc;tre publi&eacute;, regardez les messages que &brandShortName; affiche dans l'espace de l'&eacute;tat de publication de la bo&icirc;te de dialogue de publication. Vous pouvez vous servir de ces messages d'erreurs pour vous aider &agrave; d&eacute;terminer ce qui s'est mal pass&eacute; et pour r&eacute;soudre ce probl&egrave;me.</p>
+
+<div class="errorMessage"> <p id="file_not_found"><strong>Message d'erreur</strong></p>
+
+<div class="errorBox">
+  <tt><var>nom_du_fichier</var> non trouv&eacute;</tt>
+  <p>ou</p>
+<tt><var>X</var> de <var>Y</var> fichiers n'ont pas pu &ecirc;tre publi&eacute;s</tt> </div>
+
+<p><strong>Description de l'erreur</strong>&nbsp;: Une ou plusieurs images ou feuilles CSS n'ont pas pu &ecirc;tre publi&eacute;s parce que &brandShortName; ne les a pas trouv&eacute;s. Les raisons les plus fr&eacute;quentes peuvent &ecirc;tre&nbsp;:</p>
+
+<ul>
+  <li>L'emplacement du fichier que vous avez tap&eacute; est incorrect.</li>
+  
+  <li>L'emplacement du fichier sur le Web est inaccessible.</li>
+
+  <li>L'emplacement du fichier a &eacute;t&eacute; chang&eacute; ou le fichier a &eacute;t&eacute; effac&eacute; ou d&eacute;plac&eacute; vers un autre emplacement.</li>
+</ul>
+
+<p><strong>Solutions possibles</strong>&nbsp;:</p>
+
+<ul>
+  <li>Cherchez les images cass&eacute;es dans la page que vous essayez de publier. Les images cass&eacute;es apparaissent avec cette ic&ocirc;ne <img src="images/broken.gif" width="20"
+  height="20" alt="" /> dans la page. Pour corriger l'adresse de l'image, double-cliquez sur l'image cass&eacute;e pour afficher la bo&icirc;te de dialogue <q>Propri&eacute;t&eacute;s de l'image</q> afin de pouvoir saisir l'adresse correcte.</li>
+
+  <li>Enlevez l'image cass&eacute;e de la page en la s&eacute;lectionnant (cliquez une fois sur l'image) puis appuyez sur la touche <kbd>Retour arri&egrave;re</kbd> ou <kbd>Suppr.</kbd> sur votre clavier.</li>
+
+  <li>Si l'image n'est pas disponible parce que le serveur o&ugrave; l'image est h&eacute;berg&eacute;e est inaccessible, r&eacute;essayez de publier cette page plus tard.</li>
+
+  <li>Si le fichier manquant est un fichier CSS, vous devez d'abord v&eacute;rifier que l'emplacement du fichier CSS est correct. Pour corriger l'adresse du fichier dans  &brandShortName;, cliquez sur l'onglet <q>HTML Source</q> et modifiez l'emplacement du fichier dans le code HTML. Vous ne devriez &eacute;diter le source HTML que si vous &ecirc;tes familier avec les balises HTML.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Message d'erreur</strong>&nbsp;:</p>
+
+<div class="errorBox">
+  <tt>Le sous-dossier <var>nom_du_r&eacute;pertoire</var> n'existe pas sur ce site ou le nom de fichier <var>nom_du_fichier</var> est d&eacute;j&agrave; utilis&eacute; par un autre r&eacute;pertoire</tt>
+  <p>ou</p>
+  <tt>Le nom de fichier <var>nom_du_fichier</var> est d&eacute;j&agrave; utilis&eacute; par un autre r&eacute;pertoire</tt> </div>
+
+<p><strong>Description de l'erreur</strong>&nbsp;: Vous avez sp&eacute;cifi&eacute; un nom de sous-dossier distant qui n'existe pas sur le site de publication . &brandShortName; peut seulement publier dans un sous-dossier distant qui existe d&eacute;j&agrave; sur le site de publication. Ou alors vous avez sp&eacute;cifi&eacute; un nom de fichier qui est identique au nom d'un sous-dossier qui existe d&eacute;j&agrave; sur le site de publication.</p>
+
+<p>Par exemple, dans la bo&icirc;te de dialogue <q>Publier une page</q>, dans l'onglet <q>&Eacute;dition</q>&nbsp;:</p>
+
+<ul>
+  <li>Dans la case <q>Sous-dossier du site pour cette page</q>, il est possible que vous ayez tap&eacute; le nom d'un sous-dossier qui n'existe pas sur le site de publication.</li>
+
+  <li>Vous avez coch&eacute; <q>Inclure les images et autres fichiers</q>, puis vous avez tap&eacute; le nom d'un sous-dossier qui n'existe pas sur le site de publication.</li>
+
+  <li>Un des fichiers que vous tentez de publier a le m&ecirc;me nom qu'un sous-dossier sur le site de publication.</li>
+</ul>
+
+<p><strong>Solutions possibles</strong>&nbsp;:</p>
+
+<ul>
+  <li>Utilisez un logiciel FTP s&eacute;par&eacute; si vous voulez cr&eacute;er, renommer ou effacer des sous-dossiers sur le site de publication. Demandez &agrave; votre h&eacute;bergeur s'il recommande un programme de FTP particulier. Habituellement, vous pouvez trouver des informations sur les programmes de FTP sur le site Web de votre h&eacute;bergeur, dans la section aide ou la section support. Des programmes de FTP sont aussi disponibles sur des sites de t&eacute;l&eacute;chargements comme ZDNET.</li>
+
+  <li>N'utilisez pas de noms de sous-dossiers qui finissent par <tt>.html</tt> ou <tt>.htm</tt>. Seuls vos fichiers cr&eacute;&eacute;s par &brandShortName; devraient finir par <tt>.html</tt> ou <tt>.htm</tt>.</li>
+
+  <li>Les noms de sous-dossiers sont sensibles &agrave; la casse, assurez-vous donc de saisir le nom du sous-dossier exactement tel qu'il appara&icirc;t sur le site de publication.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="server_not_found"><strong>Message d'erreur</strong>&nbsp;:</p>
+
+<div class="errorBox">
+  <tt>Le serveur n'est pas accessible. V&eacute;rifiez votre connexion et r&eacute;essayez plus tard.</tt> </div>
+
+<p><strong>Description de l'erreur</strong>&nbsp;: Cette erreur peut avoir de multiples causes. Par exemple&nbsp;:</p>
+
+<ul>
+  <li>Vos param&egrave;tres de publication sont peut-&ecirc;tre erron&eacute;s.</li>
+
+  <li>Votre connexion &agrave; Internet a peut &ecirc;tre cess&eacute;.</li>
+
+  <li>Votre modem ou tout autre &eacute;quipement que vous utilisez pour vous connecter &agrave; Internet ne fonctionne peut-&ecirc;tre pas correctement.</li>
+
+  <li>Le serveur Web sur lequel vous tentez de publier est peut-&ecirc;tre inaccessible &agrave; cause d'un probl&egrave;me technique ou d'une circonstance inconnue.</li>
+
+  <li>Votre fournisseur d'acc&egrave;s ou votre h&eacute;bergeur a peut-&ecirc;tre des probl&egrave;mes techniques.</li>
+</ul>
+
+<p><strong>Solutions possibles</strong>&nbsp;:</p>
+
+<ul>
+  <li>V&eacute;rifiez que vos param&egrave;tres de publication sont corrects et que vous les avez saisis correctement. Voir <a href="#verifying_your_publishing_settings">V&eacute;rifiez vos param&egrave;tres de publication</a> pour plus d'information.</li>
+
+  <li>Assurez-vous que vous &ecirc;tes bien connect&eacute; &agrave; Internet en essayant, par exemple, de regarder une page dans votre navigateur. Essayez de contacter <tt>http://www.mozilla.org/</tt> par exemple.</li>
+
+  <li>Si votre connexion Internet ne fonctionne pas, v&eacute;rifiez que tout votre mat&eacute;riel, connexion t&eacute;l&eacute;phonique, modem et connexion r&eacute;seau fonctionnent correctement.</li>
+
+  <li>Utilisez votre navigateur pour essayer de voir une page du site sur lequel vous essayez de publier. Si vous arrivez &agrave; afficher d'autres sites Web mais pas celui sur lequel vous voulez publier, c'est sans doute que votre h&eacute;bergeur rencontre des probl&egrave;mes techniques.</li>
+
+  <li>Essayez de publier plus tard, votre h&eacute;bergeur ou le serveur Web rencontre peut-&ecirc;tre des probl&egrave;mes techniques temporaires.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_permission"><strong>Message d'erreur</strong>&nbsp;:</p>
+
+<div class="errorBox">
+  <tt>Vous n'avez pas la permission de publier &agrave; cet emplacement.</tt>
+</div>
+
+<p><strong>Description de l'erreur</strong>&nbsp;: Vous essayez de publier sur un emplacement que vous n'&ecirc;tes pas autoris&eacute; &agrave; utiliser. Vous pouvez seulement publier sur des emplacements o&ugrave; vous avez &eacute;t&eacute; autoris&eacute; par un h&eacute;bergeur ou un fournisseur d'acc&egrave;s.</p>
+
+<p><strong>Solutions possibles</strong>&nbsp;:</p>
+
+<ul>
+  <li>V&eacute;rifiez que l'identifiant et le mot de passe que vous avez entr&eacute;s dans la bo&icirc;te de dialogue <q>Param&egrave;tres de publication</q> ou dans l'onglet <q>&Eacute;dition</q> de la bo&icirc;te de dialogue de publication sont corrects.</li>
+
+  <li>Contactez votre h&eacute;bergeur pour savoir o&ugrave; vous pouvez publier vos pages sur leur site.</li>
+
+  <li>Trouvez un h&eacute;bergeur afin de pouvoir publier vos pages. Dans votre navigateur, cherchez <q>h&eacute;bergement de site web</q>, par exemple.</li>
+
+  <li>La plupart des fournisseurs d'acc&egrave;s &agrave; Internet fournissent gratuitement un espace Web pour publier vos pages personnelles.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="no_disk_space"><strong>Message d'erreur</strong>&nbsp;:</p>
+
+<div class="errorBox">
+  <tt>L'espace disque est insuffisant pour enregistrer le fichier <var>nom_du_fichier</var>.</tt> </div>
+
+<p><strong>Description de l'erreur</strong>&nbsp;: Le disque dur du serveur distant est plein, ou bien vous avez d&eacute;pass&eacute; le quota disque allou&eacute; par votre h&eacute;bergeur.</p>
+
+<p><strong>Solutions possibles</strong>&nbsp;:</p>
+
+<ul>
+  <li>Utilisez un logiciel FTP ind&eacute;pendant pour effacer les fichiers inutiles sur votre site de publication.</li>
+
+  <li>Voyez avec votre h&eacute;bergeur s'il est possible d'augmenter l'espace disque qui vous est allou&eacute;, ou bien changez d'h&eacute;bergeur pour en trouver un dont les offres correspondent mieux &agrave; vos besoins. Ou bien r&eacute;partissez vos dossiers sur plusieurs espaces web (chez plusieurs h&eacute;bergeurs par exemple).</li>
+
+  <li>Si le serveur Web est situ&eacute; dans votre entreprise ou votre &eacute;tablissement scolaire, contactez l'administrateur r&eacute;seau pour voir si vous pouvez publier sur un emplacement diff&eacute;rent qui a plus d'espace libre, ou si vous pouvez obtenir plus d'espace disque sur votre emplacement actuel.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="name_too_long"><strong>Message d'erreur</strong>&nbsp;:</p>
+
+<div class="errorBox">
+<tt>Le nom du fichier ou du sous-dossier est trop long.</tt> </div>
+
+<p><strong>Description de l'erreur</strong>&nbsp;: Le serveur ne supporte pas le nombre de caract&egrave;res contenus dans le nom du fichier ou du sous-dossier.</p>
+
+<p><strong>Solutions possibles</strong>&nbsp;:</p>
+
+<ul>
+  <li>Utilisez moins de 32 caract&egrave;res pour vos noms de fichier. En effet, certains syst&egrave;mes d'exploitation ne supportent pas les noms de fichier de plus de 32 caract&egrave;res.</li>
+</ul> </div>
+
+<p class="returnToSection">[&nbsp;<a
+href="#solving_common_publishing_problems">Retourner au d&eacute;but de la section</a>&nbsp;]</p>
+
+<div class="copyrightBox"><em>21 mars 2005</em></div>
+ 
+<p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 31 mars 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>

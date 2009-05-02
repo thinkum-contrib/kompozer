@@ -1,0 +1,109 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label         "Publier une page">
+<!ENTITY windowTitleSettings.label "Paramètres de publication">
+
+<!ENTITY publishTab.label         "Édition">
+<!ENTITY settingsTab.label        "Paramètres">
+
+<!ENTITY publishButton.label      "Publier">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label           "Nom du site :">
+<!ENTITY siteList.tooltip         "Choisir le site à éditer">
+<!ENTITY newSiteButton.label      "Nouveau site">
+<!ENTITY siteDirList.label        "Sélectionnez ou tapez le nom de dossier de votre site :">
+<!ENTITY siteDirList.tooltip      "Choisir ou entrer le nom de votre sous-dossier distant :">
+<!ENTITY docDirList.label         "Sous-dossier du site pour cette page :">
+<!ENTITY publishImgCheckbox.label "Inclure images et autres fichiers">
+<!ENTITY publishImgCheckbox.tooltip "Publier les images et les autres fichiers référencés dans cette page">
+<!ENTITY sameLocationRadio.label  "Dans le même dossier que la page">
+<!ENTITY sameLocationRadio.tooltip "Publier les fichiers au même emplacement que la page">
+<!ENTITY useSubdirRadio.label     "Dans le dossier suivant :">
+<!ENTITY useSubdir.tooltip        "Choisir ou entrer le nom du dossier distant vers lequel les fichiers seront transférés">
+<!ENTITY chooseDirButton.label    "Parcourir…">
+<!ENTITY pageTitle.label          "Titre de la page :">
+<!ENTITY pageTitle.tooltip        "Titre qui identifie la page dans la fenêtre du navigateur et les marque-pages">
+<!ENTITY pageTitleExample.label   "Ex.: &quot;Ma page Web&quot;">
+<!ENTITY filename.label           "Nom de fichier :">
+<!ENTITY filename.tooltip         "Entrez un nom pour ce fichier en incluant «.html» pour une page web">
+<!ENTITY filenameExample.label    "Ex.: &quot;mapage.html&quot;">
+<!ENTITY relatedDocs.label        "Autres fichiers à publier">
+<!ENTITY setDefaultButton.label   "Site par défaut">
+<!ENTITY setDefSiteAndDir.label   "Éditer le site et le dossier par défaut">
+<!ENTITY removeButton.label       "Supprimer le site">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label   "Sites de publication">
+<!ENTITY serverInfo.label     "Information sur la page web">
+<!ENTITY loginInfo.label      "Serveur de publication">
+<!ENTITY siteName.label       "Nom du site :">
+<!ENTITY siteName.tooltip     "Un pseudonyme qui identifie ce site de publication (ex.: 'MonSite')">
+<!ENTITY siteUrl.label        "Adresse de publication (ex.: 'ftp://ftp.monfai.com/monlogin') :">
+<!ENTITY siteUrl.tooltip      "L'adresse FTP:// ou HTTP:// fournie par votre FAI ou le service hébergeant votre site">
+<!ENTITY browseUrl.label      "Adresse HTTP de votre page d'accueil (ex.: 'http://www.monfai.com/monlogin') :">
+<!ENTITY browseUrl.tooltip    "L'adresse HTTP:// de votre dossier racine (ne pas inclure de nom de fichier)">
+<!ENTITY username.label       "Identifiant :">
+<!ENTITY username.tooltip     "Pseudonyme que vous utilisez pour vous connecter à votre FAI ou hébergeur">
+<!ENTITY password.label       "Mot de passe :">
+<!ENTITY password.tooltip     "Celui qui est associé à votre identifiant">
+<!ENTITY savePassword.label   "Mémoriser le mot de passe">
+<!ENTITY savePassword.tooltip "Enregistrer dans le gestionnaire de mots de passe">
+
+<!ENTITY selectDirectory.label "Parcourir…">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Paramètres généraux">
+<!ENTITY ftpSettings.label          "Paramètres FTP">
+<!ENTITY localSettings.label        "Paramètres locaux">
+<!ENTITY siteDirectory.label        "Dossier du site :">
+<!ENTITY siteDirectory.tooltip      "Le dossier sur votre disque dur où votre site est enregistré">
+<!ENTITY browsePrefix.label         "Préfixe :">
+<!ENTITY browsePrefix.tooltip       "Préfixe à supprimer de la partie FTP de l'URL, par ex. /public_html">
+
+<!ENTITY connection.label           "Type de connexion">
+<!ENTITY port.label                 "Port :">
+<!ENTITY pasv.label                 "Mode passif">
+<!ENTITY security.label             "Sécurité">
+<!ENTITY none.label                 "Aucune">
+<!ENTITY authtls.label              "Authentification TLS (meilleur)">
+<!ENTITY authssl.label              "Authentification SSL (mieux)">
+<!ENTITY implicit.label             "SSL implicite (bien)">
+<!ENTITY treesync.label             "Garder les répertoires sunchronisés lors de la navigation">

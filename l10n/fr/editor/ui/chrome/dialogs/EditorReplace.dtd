@@ -1,0 +1,46 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Akkana Peck
+  -->
+
+<!-- extracted from EdReplace.xul -->
+
+<!ENTITY replaceDialog.title "Rechercher et remplacer">
+<!ENTITY findField.label "Rechercher :">
+<!ENTITY findField.accesskey "h">
+<!ENTITY replaceField.label "Remplacer par :">
+<!ENTITY replaceField.accesskey "e">
+<!ENTITY caseSensitiveCheckbox.label "Respecter la casse">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY wrapCheckbox.label "Recherche circulaire">
+<!ENTITY wrapCheckbox.accesskey "l">
+<!ENTITY backwardsCheckbox.label "Recherche en arrière">
+<!ENTITY backwardsCheckbox.accesskey "b">
+<!ENTITY findNextButton.label "Rechercher le suivant">
+<!ENTITY findNextButton.accesskey "v">
+<!ENTITY replaceButton.label "Remplacer">
+<!ENTITY replaceButton.accesskey "R">
+<!ENTITY replaceAndFindButton.label "Remplacer et rechercher">
+<!ENTITY replaceAndFindButton.accesskey "p">
+<!ENTITY replaceAllButton.label "Remplacer tout">
+<!ENTITY replaceAllButton.accesskey "t">
+<!ENTITY closeButton.label "Fermer">
+<!ENTITY notFoundWarning.label "Le texte entré n'a pu être trouvé.">

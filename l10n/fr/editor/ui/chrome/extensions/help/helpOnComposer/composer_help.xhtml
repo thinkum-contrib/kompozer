@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Cr&eacute;er des pages Web avec &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="help-fr.css" />
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Dans cette section&nbsp;:
+  <a href="composer_help.xhtml#starting_a_new_page">Commencer une nouvelle page</a>
+
+  <a href="formatting_webpages.xhtml">Mettre en forme des pages Web</a>
+
+  <a href="css.xhtml">Utiliser des feuilles de style pour vos pages Web</a>
+
+  <a href="tables.xhtml">Ajouter des tableaux &agrave; votre page Web</a>
+
+  <a href="images.xhtml">Ajouter des images &agrave; votre page Web</a>
+
+  <a href="toc.xhtml">Travailler avec une table des mati&egrave;res sur votre page Web</a>
+
+  <a href="templates.xhtml">Travailler avec des mod&egrave;les</a>
+
+  <a href="page_properties.xhtml">D&eacute;finir les propri&eacute;t&eacute;s de la page</a>
+
+  <a href="links.xhtml">Cr&eacute;er des liens dans &brandShortName;</a>
+
+  <a href="customize.xhtml">Personnaliser &brandShortName;</a>
+</div>
+
+<h1 id="creating_web_pages_with_composer">Cr&eacute;er des pages Web avec &brandShortName;</h1>
+
+<p>&brandShortName; vous permet de cr&eacute;er vos propres pages Web, puis de les publier sur Internet. Vous n'avez pas besoin de conna&icirc;tre le language HTML pour l'utiliser. Il est aussi facile de prise en main qu'un logiciel de traitement de texte.</p>
+
+<p>Avec les boutons de la barre d'outils, vous pourrez facilement ajouter des listes, des tableaux, des images, des liens vers d'autres pages, de la couleur&hellip; Vous verrez &agrave; quoi ressemblera votre document sur Internet au fur et &agrave; mesure que vous le r&eacute;aliserez et vous pourrez ais&eacute;ment le partager avec d'autres personnes, quel que soit le navigateur ou le client de messagerie HTML qu'ils utilisent.</p>
+
+<h2 id="starting_a_new_page">Commencer une nouvelle page</h2>
+
+<h3 id="creating_a_new_page">Cr&eacute;er une nouvelle page</h3>
+
+<p>&brandShortName; est un &eacute;diteur <acronym title="HyperText Markup Language">HTML</acronym> permettant de cr&eacute;er et de modifier des pages Web. &Eacute;diteur <acronym title="Tel &eacute;crit, tel &eacute;cran ou What You See Is What You Get en anglais">WYSIWYG</acronym>, le composeur permet de voir exactement la fa&ccedil;on dont la page sera affich&eacute;e &agrave; mesure de sa cr&eacute;ation. Il n'est pas n&eacute;cessaire de conna&icirc;tre le langage HTML, dans la mesure o&ugrave; la plupart des fonctions HTML sont disponibles sous la forme de commandes dans les barres d'outils et les menus.</p>
+
+<p>&brandShortName; vous permet &eacute;galement d'&eacute;diter le code source HTML si vous le d&eacute;sirez. Pour
+voir ou &eacute;diter le code source HTML, ouvrez le menu <span class="menuPath">Affichage</span>, et choisissez <span class="menuPath">Source HTML</span>, ou cliquez sur l'onglet <q>&lt;HTML&gt; Source</q> dans la barre d'outils <q>Modes d'&eacute;dition</q> au bas de la fen&ecirc;tre de &brandShortName;.</p>
+
+<p>Pour cr&eacute;er une page Web, proc&eacute;dez comme suit. Une fois que vous avez entam&eacute; une page, vous pouvez ajouter et modifier du texte tout comme dans un traitement de texte.</p>
+
+<p><strong>Pour cr&eacute;er une nouvelle page dans &brandShortName;</strong>&nbsp;:</p>
+
+<ul>
+  <li>Cliquez sur le bouton <q>Nouveau</q> dans la barre d'outils de &brandShortName;.</li>
+</ul>
+
+<p><strong>Pour commencer &agrave; partir d'un fichier HTML stock&eacute; sur votre disque dur</strong>&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez &brandShortName;. Vous verrez alors la fen&ecirc;tre &brandShortName;.</li>
+
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Ouvrir un fichier</span>. La bo&icirc;te de dialogue <q>Ouvrir un fichier HTML</q> appara&icirc;tra.</li>
+
+  <li>Sur votre disque dur, s&eacute;lectionnez le fichier que vous voulez modifier.</li>
+
+  <li>Cliquez sur <span class="menuPath">Ouvrir</span> pour afficher le fichier sp&eacute;cifi&eacute; dans une fen&ecirc;tre &brandShortName;.</li>
+</ol>
+
+<p><strong>Pour modifier une page Web</strong>&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez &brandShortName;.</li>
+       
+  <li>Cliquez sur le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Ouvrir une page Web</span>. Vous verrez appara&icirc;tre la bo&icirc;te de dialogue <q>Ouvrir une page Web</q>.</li>
+
+  <li>Saisissez l'adresse URL de la page &agrave; &eacute;diter (par exemple, <tt>http://www.mozilla.org</tt>) et cliquez sur le bouton <q>Ouvrir</q>. Vous verrez alors la page s'afficher dans &brandShortName;.</li> 
+</ol>
+
+<p>&brandShortName; vous offre &eacute;galement la possibilit&eacute; de cr&eacute;er des documents utilisant le format <acronym title="Extensible Hyper Text Markup
+Language">XHTML</acronym>. Pour cr&eacute;er un document XHTML, cochez l'option <q>cr&eacute;er un document XHTML</q> dans la bo&icirc;te de dialogue <q>Cr&eacute;er un nouveau document ou un mod&egrave;le</q>.</p>
+
+<p><strong>Conseil</strong>&nbsp;: dans la fen&ecirc;tre de &brandShortName; vous pouvez rapidement ouvrir les derniers fichiers sur lesquels vous avez travaill&eacute; en ouvrant le menu <span class="menuPath">Fichier</span>, en choisissant <span class="menuPath">Pages r&eacute;centes</span> puis le fichier que vous d&eacute;sirez dans la liste.</p>
+
+<p>[&nbsp;<a href="#starting_a_new_page">Revenir au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="tabs_editing_multiple_documents">Onglets - &Eacute;dition multi-documents</h3>
+
+<p>&brandShortName; vous permet d'&eacute;diter plusieurs documents &agrave; la fois. Au lieu de basculer d'une fen&ecirc;tre &agrave; l'autre pour &eacute;diter plus d'un document, &brandShortName; utilise des <strong>onglets</strong>. Plusieurs documents peuvent &ecirc;tre ouverts en m&ecirc;me temps avec &brandShortName; dans la m&ecirc;me fen&ecirc;tre, mais dans des onglets diff&eacute;rents.</p>
+
+<p>Les onglets peuvent &ecirc;tre ouvert soit en utilisant <kbd>Ctrl+T</kbd>, soit en choisissant <span class="menuPath">Cr&eacute;er dans&nbsp;:</span> <em>un nouvel onglet</em> dans la bo&icirc;te de dialogue <q>Ouverture d'un nouveau fichier</q>. Chaque onglet est ind&eacute;pendant et l'&eacute;tat de chacun est indiqu&eacute;, c'est-&agrave;-dire que s'il est modifi&eacute; et n'a pas &eacute;t&eacute; enregistr&eacute;, une disquette rouge appara&icirc;t dans l'onglet correspondant.</p>
+
+<p>[&nbsp;<a href="#starting_a_new_page">Revenir au d&eacute;but de la section</a>&nbsp;]</p>
+
+<h3 id="saving_and_browsing_your_new_page">Enregistrer et tester votre nouvelle page</h3>
+
+<p>Vous pouvez enregistrer des documents cr&eacute;&eacute;s avec &brandShortName; au format HTML et texte uniquement. L'enregistrement d'un document au format HTML conserve sa mise en forme, notamment les styles de texte (par exemple, gras ou italique), les tableaux, les liens et les images. L'enregistrement au format texte uniquement supprime toutes les balises HTML mais conserve le texte.</p>
+
+<p>Pour enregistrer un document au format HTML&nbsp;:</p>
+
+<ul> 
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Enregistrer</span> ou choisissez le bouton correspondant dans la barre d'outils.
+
+  <p>Si vous n'avez pas encore donn&eacute; de titre &agrave; la page, &brandShortName; vous invite &agrave; le faire. Le titre s'affiche dans la barre de titre de la fen&ecirc;tre du navigateur lorsque vous y affichez la page. Il appara&icirc;t &eacute;galement dans votre liste de marque-pages, le cas &eacute;ch&eacute;ant.</p>
+
+  <p>&brandShortName; vous invite ensuite &agrave; choisir le chemin d'enregistrement. Veillez &agrave; conserver l'extension .html du nom de fichier. Quand vous enregistrez ou &eacute;ditez des documents XHTML, l'extension du fichier devrait &ecirc;tre <tt>.xhtml</tt>. Les fichiers avec l'extension <tt>.html</tt> mais avec un DOCTYPE XHTML ne sont pas consid&eacute;r&eacute;s comme des documents <tt>xhtml</tt>.</p>
+  </li>
+</ul>
+
+<p>Pour changer le nom ou l'emplacement d'un fichier HTML existant&nbsp;:</p>
+
+<ul>
+  <li>Choisissez <span class="menuPath">Fichier > Enregistrer sous</span> pour attribuer &agrave; la page un autre nom de fichier ou un autre emplacement.</li>
+</ul>
+
+<p>Lorsque vous enregistrez une page dans &brandShortName;, tous ses &eacute;l&eacute;ments (le code HTML, les images et les autres fichiers tels que des fichiers son et des feuilles de style), sont enregistr&eacute;s localement sur votre disque dur. Si vous d&eacute;sirez sauvegarder uniquement le code HTML, vous devez modifier les pr&eacute;f&eacute;rences de &brandShortName; concernant la sauvegarde des pages. Pour plus d'informations sur la fa&ccedil;on de modifier les pr&eacute;f&eacute;rences d'enregistrement, voir la rubrique <a href="preferences.xhtml">Pr&eacute;f&eacute;rences de &brandShortName;</a>.</p>
+
+<p>Si le chemin d'une image est absolu (commen&ccedil;ant par <q>http://</q>) et que vous &ecirc;tes connect&eacute; &agrave; Internet, vous verrez toujours  cette image dans le document depuis les fen&ecirc;tres de &brandShortName; et du navigateur. Cependant, si l'adresse de l'image est relative par rapport &agrave; celui de la page (commen&ccedil;ant par <q>file:///</q>), alors vous ne verrez pas l'image dans la version locale du document.</p>
+
+<p>Pour enregistrer un document au format texte uniquement&nbsp;:</p>
+
+<ol>
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> et choisissez <span class="menuPath">Exporter au format texte</span>.</li>
+
+  <li>Entrez le nom du fichier et son emplacement d'enregistrement.</li>
+</ol>
+
+<p><strong>Remarque</strong>&nbsp;: les images ne s'affichent pas dans les documents enregistr&eacute;s au format texte.</p>
+
+<p><strong>Conseil</strong>&nbsp;: vous pouvez aussi choisir <span class="menuPath">Restaurer</span> dans le menu <span class="menuPath">Fichier</span> pour r&eacute;cup&eacute;rer la derni&egrave;re version enregistr&eacute;e du document sur lequel vous travaillez. N'oubliez pas que les modifications en cours seront perdues.</p>
+
+<p>Pour afficher la page dans une fen&ecirc;tre du navigateur afin de tester les liens&nbsp;:</p>
+
+<ul>
+  <li>Ouvrez le menu <span class="menuPath">Fichier</span> et s&eacute;lectionnez <span class="menuPath">Aper&ccedil;u dans le navigateur</span> (ou cliquez sur le bouton <q>Navigateur</q> dans la barre d'outils). Si vous n'avez pas encore enregistr&eacute; le document, &brandShortName; vous invite &agrave; entrer un titre de page, un nom de fichier et un emplacement. La fen&ecirc;tre de &brandShortName; reste ouverte en arri&egrave;re-plan de la nouvelle fen&ecirc;tre du navigateur.</li>
+</ul>
+
+<p>[&nbsp;<a href="#starting_a_new_page">Revenir au d&eacute;but de la section</a>&nbsp;]</p>
+
+<p>[&nbsp;<a href="formatting_webpages.xhtml">Suivant</a>&nbsp;]</p>
+
+<div class="copyrightBox"><em>20 juin 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributeurs du Projet &brandShortName; Help Documentation.</p>
+    <!--begin frenchmozilla signature-->
+
+    <p><em>Derni&egrave;re traduction&nbsp;: 23 juin 2005</em></p>
+
+    <p>Ce texte a &eacute;t&eacute; traduit et adapt&eacute; par une
+    &eacute;quipe internationale de b&eacute;n&eacute;voles francophones.<br />
+    Pour plus d'informations, visitez notre site&nbsp;: <a href=
+    "http://frenchmozilla.sourceforge.net" hreflang="fr" target=
+    "_blank">http://frenchmozilla.sourceforge.net</a>.</p>
+    <!--end frenchmozilla signature-->
+
+</body>
+</html>
