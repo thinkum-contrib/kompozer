@@ -1,0 +1,15 @@
+
+<!ENTITY history.title             "Opdateringshistorik">
+<!ENTITY history.intro             "De følgende opdateringer er blevet installeret:">
+<!ENTITY closebutton.label         "Luk">
+                                     
+<!ENTITY detailsButton.label       "Detaljer">
+<!ENTITY detailsButton.accesskey   "D">
+
+<!ENTITY noupdates.label           "Der er ikke installeret nogle opdateringer endnu">
+
+<!ENTITY name.header               "Navn på opdatering">
+<!ENTITY date.header               "Installationsdato">
+<!ENTITY type.header               "Type">
+<!ENTITY state.header              "Status">
+

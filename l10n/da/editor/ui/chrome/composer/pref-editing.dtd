@@ -1,0 +1,40 @@
+<!ENTITY lHeader "Standardindstillinger for nye sider">
+<!ENTITY rHeader "Standardindstillinger for ny side">
+<!ENTITY authorName.label "Forfatter:">
+<!ENTITY authorName.accesskey "F">
+<!ENTITY pageColorHeader "Standardudseende for nye sider">
+<!ENTITY dialect.label              "Markup">
+<!ENTITY markupLanguage.label       "Sprog:">
+<!ENTITY dtd.label                  "DTD:">
+<!ENTITY htmlMarkupLanguage.label   "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label  "XHTML 1">
+<!ENTITY looseDTD.label             "Transitional">
+<!ENTITY strictDTD.label            "Strict">
+<!ENTITY defaultColorsRadio.label "Brugerens standardfarver (Angiv ikke farver)">
+<!ENTITY defaultColors.accesskey    "d">
+<!ENTITY customColorsRadio.label "Brug brugerdefinerede farver:">
+<!ENTITY customColors.accesskey     "c">
+<!ENTITY normalText.label "Normal tekst">
+<!ENTITY normalText.accesskey       "N">
+<!ENTITY linkText.label "Linktekst">
+<!ENTITY linkText.accesskey         "L">
+<!ENTITY activeLinkText.label "Aktive links tekst">
+<!ENTITY activeLinkText.accesskey   "A">
+<!ENTITY visitedLinkText.label "Besøgte links tekst">
+<!ENTITY visitedLinkText.accesskey "B">
+<!ENTITY background.label "Baggrund:">
+<!ENTITY background.accesskey       "a">
+<!ENTITY colon.character            ":">
+<!ENTITY backgroundImage.label "Baggrundsbillede:">
+<!ENTITY backgroundImage.accesskey  "g">
+<!ENTITY chooseFile.label "Vælg fil...">
+<!ENTITY chooseFile.accesskey "v">
+<!ENTITY i18nHeader                  "Internationaliering">
+<!ENTITY writingDirection.label      "Skriveretning:">
+<!ENTITY defaultDirectionRadio.label "Ingen retning angivet">
+<!ENTITY ltrDirectionRadio.label     "Venstre til højre">
+<!ENTITY rtlDirectionRadio.label     "Højre til venstre">
+<!ENTITY language.label              "Sprog:">
+<!ENTITY languageChoiceButton.label  "Vælg sprog">
+<!ENTITY defaultCharset.label        "Tegnsæt:">
+<!ENTITY chooseCharsetButton.label   "Vælg tegnsæt">

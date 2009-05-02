@@ -1,0 +1,20 @@
+<!-- extracted from content/pref-publish.xul -->
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY window.title "Overfør">
+<!ENTITY composerHeader.label "Overfør">
+<!ENTITY maintainCheckbox.label "Vedligehold links">
+<!ENTITY keepCheck.label "Behold billeder sammen med siden">
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY adjustDesc.label "Tilpas link til at virke fra sidens placering. (Link til lokale sider vil virke, 
+                                    når der er en lokal version af siden.)">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY saveDesc.label "Gem kopier af billeder sammen med siden. Billeder vil altid vises
+                                       i lokale versioner af siden, og når den er overført til serveren.">
+
+
+<!ENTITY tip.label "Tip: Afkryds begge muligheder, hvis du skal overføre siderne til et andet sted.">
+<!ENTITY defaultHeader.label "Standard sted for overførsel">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY publishFtp.label "Ved overførsel til et FTP sted, tilføj hjemmesidens HTTP-addresse:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "Ved overførsel til et FTP sted, tilføj hjemmesidens HTTP-addresse:">

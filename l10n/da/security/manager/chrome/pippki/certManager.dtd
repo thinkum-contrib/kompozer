@@ -1,0 +1,122 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Ian McGreer <mcgreer@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY certmgr.title "Certifikatadministration">
+
+<!ENTITY certmgr.tab.mine "Dine certifikater">
+<!ENTITY certmgr.tab.others "Andre folks">
+<!ENTITY certmgr.tab.websites "Websteder">
+<!ENTITY certmgr.tab.ca "Autoriteter">
+
+<!ENTITY certmgr.ca.builtins "Indbyggede CA'er">
+<!ENTITY certmgr.ca.mycas "CA'er håndteret af dig">
+
+<!ENTITY certmgr.mine "Du har certifikater fra disse organisationer, der identificerer dig:">
+<!ENTITY certmgr.others "Du har certifikater liggende, der identificerer disse personer:">
+<!ENTITY certmgr.websites "Du har certifikater liggende, der identificerer disse websteder:">
+<!ENTITY certmgr.cas "Du har certifikater liggende, der identificerer disse Certifikat Autoriteter:">
+
+<!ENTITY certmgr.detail.general_tab.title "Generelt">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Detaljer">
+
+<!ENTITY certmgr.subjectinfo.label "Udstedt Til">
+<!ENTITY certmgr.issuerinfo.label "Udstedt Af">
+<!ENTITY certmgr.validity.label "Gyldighed">
+<!ENTITY certmgr.fingerprints.label "Fingeraftryk">
+<!ENTITY certmgr.certdetail.title "Certifikat-detalje">
+<!ENTITY certmgr.certdetail.cn "Normalt Navn (CN)">
+<!ENTITY certmgr.certdetail.o "Organisation (O)">
+<!ENTITY certmgr.certdetail.ou "Organisatorisk enhed (OU)">
+<!ENTITY certmgr.certdetail.serialnumber "Serienummer">
+<!ENTITY certmgr.certdetail.sha1fingerprint "SHA1 Fingeraftryk">
+<!ENTITY certmgr.certdetail.md5fingerprint "MD5 Fingeraftryk">
+
+<!ENTITY certmgr.editcert.title "Rediger sikkerhedscertifikat-indstillingerne">
+<!ENTITY certmgr.editcacert.title "Rediger CA-certifikat tillidsindstillinger">
+<!ENTITY certmgr.editsslcert.title "Rediger websteds certifikat tillidsindstillinger">
+<!ENTITY certmgr.editcert.edittrust "Rediger tillidsindstillinger:">
+<!ENTITY certmgr.editcert.trustssl "Dette certifikat kan identificere websteder.">
+<!ENTITY certmgr.editcert.trustemail "Dette certifikat kan identificere mail brugere.">
+<!ENTITY certmgr.editcert.trustobjsign "Dette certifikat kan identificere program udviklere.">
+<!ENTITY certmgr.editsslcert.edittrust "Tilpas certifikat-tillidsindstillinger:">
+<!ENTITY certmgr.editsslcert.dotrust "Stol på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.editsslcert.donttrust "Stol ikke på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.editemailcert.title "Tillidsindstillinger for e-mail-certifikater">
+<!ENTITY certmgr.editemailcert.edittrust "Tilpas certifikat-tillidsindstillinger:">
+<!ENTITY certmgr.editemailcert.dotrust "Stol på rigtigheden af dette certifikat.">
+<!ENTITY certmgr.editemailcert.donttrust "Stol ikke på rigtigheden af dette certifikat.">
+
+<!ENTITY certmgr.deletecert.title "Slet certifikat">
+<!ENTITY certmgr.deletecert.beforename "Du har ønsket at slette dette certifikat:">
+<!ENTITY certmgr.deletecert.aftername "Er du sikker på at du ønsker at slette dette certifikat?">
+<!ENTITY certmgr.deleteusercert.title "Slet dit certifikat">
+<!ENTITY certmgr.deleteusercert.beforename "Du har ønsket at slette dette certifikat:">
+<!ENTITY certmgr.deleteusercert.aftername "Når du først har slettet dette certifikat, kan du ikke længere læse post, der er blevet krypteret med det.">
+
+<!ENTITY certmgr.certname "Certifikatnavn">
+<!ENTITY certmgr.tokenname "Sikkerhedsenhed">
+<!ENTITY certmgr.purpose "Formål">
+<!ENTITY certmgr.issued "Udstedt den">
+<!ENTITY certmgr.expires "Udløber den">
+<!ENTITY certmgr.email "E-mail-adresse">
+<!ENTITY certmgr.serial "Serienummer">
+<!ENTITY certmgr.ocsp_info "Certifikaterne er ikke valideret hos OCSP. Tryk på 'Vis' for at gøre det.">
+
+<!ENTITY certmgr.close.label "Luk">
+<!ENTITY certmgr.close.accesskey              "L">
+<!ENTITY certmgr.view.label "Vis">
+<!ENTITY certmgr.view.accesskey               "V">
+<!ENTITY certmgr.edit.label "Rediger">
+<!ENTITY certmgr.edit.accesskey               "R">
+<!ENTITY certmgr.editca.label "Rediger CA-tillid">
+<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.add.label "Tilføj">
+<!ENTITY certmgr.add.accesskey                "T">
+<!ENTITY certmgr.delete.label "Slet">
+<!ENTITY certmgr.delete.accesskey             "S">
+<!ENTITY certmgr.backup.label "Sikkerhedskopier">
+<!ENTITY certmgr.backup.accesskey             "k">
+<!ENTITY certmgr.backupall.label "Sikkerhedskopier alle">
+<!ENTITY certmgr.backupall.accesskey          "a">
+<!ENTITY certmgr.restore.label "Importer">
+<!ENTITY certmgr.restore.accesskey            "I">
+<!ENTITY certmgr.details.label "Certifikat-felter">
+<!ENTITY certmgr.details.accesskey            "f">
+<!ENTITY certmgr.fields.label "Feltværdi">
+<!ENTITY certmgr.fields.accesskey             "e">
+<!ENTITY certmgr.hierarchy.label "Certifikat-hiraki">
+<!ENTITY certmgr.hierarchy.accesskey          "C">

@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "47em">
+
+<!ENTITY ocspDialog.title             "Verifikation">
+<!ENTITY validation.ocsp.description  "&brandShortName; kan bruge Online Certificate Status Protocol (OCSP) til at validere certifikater.">
+<!ENTITY disableOCSP.label            "Brug ikke OCSP til certifikat validering">
+<!ENTITY certOCSP.label               "Brug OCSP til kun at validere certifikater som specificerer en OCSP service-URL">
+<!ENTITY proxyOCSP.label              "Brug OCSP til at validere alle certifikater, som benytter denne URL og udsteder:">
+<!ENTITY serviceURL.label             "Service URL:">
+<!ENTITY serviceURL.accesskey         "S">
+<!ENTITY signingCA.label              "Udsteder:">
+<!ENTITY signingCA.accesskey          "U">

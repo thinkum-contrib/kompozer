@@ -1,0 +1,38 @@
+<!ENTITY undoCmd.label						"Fortryd">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"F"> 
+<!ENTITY redoCmd.label						"Omgør">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"ø"> 
+<!ENTITY cutCmd.label						"Klip">  
+<!ENTITY cutCmd.key						"X">  
+<!ENTITY cutCmd.accesskey					"K"> 
+<!ENTITY copyCmd.label						"Kopier">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"o"> 
+<!ENTITY pasteCmd.label						"Sæt ind">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"n"> 
+<!ENTITY deleteCmd.label					"Slet">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey					"S"> 
+<!ENTITY selectAllCmd.label					"Marker alt">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey					"m">
+<!ENTITY preferencesCmd.label				"Indstillinger...">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"I"> 
+<!ENTITY findTypeTextCmd.label "Find mens du skriver">
+<!ENTITY findTypeTextCmd.accesskey "d">
+<!ENTITY findTypeLinksCmd.label "Find Links mens du skriver">
+<!ENTITY findTypeLinksCmd.accesskey "l">
+<!ENTITY viewToolbarsMenu.label				"Vis/skjul"> 
+<!ENTITY viewToolbarsMenu.accesskey			"j"> 
+<!ENTITY newBlankPageCmd.label "Ny tom side">
+<!ENTITY newBlankPageCmd.accesskey "P" >
+<!ENTITY newBlankPageCmd.key "N" >
+<!ENTITY newPageFromTemplateCmd.label "Ny side med skabelon">
+<!ENTITY newPageFromTemplateCmd.accesskey "a">
+<!ENTITY newNavigatorCmd.label				"Browser vindue">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">

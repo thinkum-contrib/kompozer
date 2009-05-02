@@ -1,0 +1,95 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+<!ENTITY tableWindow.title "Tabelegenskaber">
+<!ENTITY tableTab.label "Tabel">
+<!ENTITY cellTab.label "Celler">
+<!ENTITY tableRows.label "Rækker:">
+<!ENTITY tableRows.accessKey              "R">
+<!ENTITY tableColumns.label "Kolonner:">
+<!ENTITY tableColumns.accessKey "K">
+<!ENTITY tableHeight.label "Højde:">
+<!ENTITY tableHeight.accessKey "H">
+<!ENTITY tableWidth.label "Bredde:">
+<!ENTITY tableWidth.accessKey "B">
+<!ENTITY tableBorderSpacing.label "Rammer og afstand">
+<!ENTITY tableBorderWidth.label "Ramme:">
+<!ENTITY tableBorderWidth.accessKey "m">
+<!ENTITY tableSpacing.label "Afstand:">
+<!ENTITY tableSpacing.accessKey "s">
+<!ENTITY tablePadding.label "Indryk:">
+<!ENTITY tablePadding.accessKey "I">
+<!ENTITY tablePxBetwCells.label "pixels mellem cellerne">
+<!ENTITY tablePxBetwBrdrCellContent.label "pixels mellem cellens ramme og indholdet">
+<!ENTITY tableAlignment.label "Tabel-justering:">
+<!ENTITY tableAlignment.accessKey "T">
+<!ENTITY tableCaption.label "Overskrift:">
+<!ENTITY tableCaption.accessKey "O">
+<!ENTITY tableCaptionAbove.label "Over tabel">
+<!ENTITY tableCaptionBelow.label "Under tabelen">
+<!ENTITY tableCaptionLeft.label "Til venstre for tabelen">
+<!ENTITY tableCaptionRight.label "Til højre for tabelen">
+<!ENTITY tableCaptionNone.label "Ingen">
+<!ENTITY tableInheritColor.label "(Dæk ikke sidens baggrundsfarve)">
+<!ENTITY cellPercent.label "procent af tabellen">
+<!ENTITY cellSelection.label "Det valgte">
+<!ENTITY cellSelectCell.label "Celle">
+<!ENTITY cellSelectRow.label "Række">
+<!ENTITY cellSelectColumn.label "Kolonne">
+<!ENTITY cellSelectNext.label "Næste">
+<!ENTITY cellSelectNext.accessKey "N">
+<!ENTITY cellSelectPrevious.label "Forige">
+<!ENTITY cellSelectPrevious.accessKey "F">
+<!ENTITY cellApplyBeforeMove.label "Gem ændringer før markeringen ændres">
+<!ENTITY cellKeepCurrentData.label "Bevar nuværende indstillinger">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label "Nuværende ændringer bliver gemt">
+<!ENTITY applyBeforeChange2.label "før ændring af markeringen.">
+<!ENTITY cellRowSpan.label "Rækkespænd:">
+<!ENTITY cellColSpan.label "Kolonnespænd:">
+<!ENTITY cellContentAlignment.label "Justering af indholdet">
+<!ENTITY cellHorizontal.label "Vandret:">
+<!ENTITY cellHorizontal.accessKey "V">
+<!ENTITY cellVertical.label "Lodret:">
+<!ENTITY cellVertical.accessKey           "L">
+<!ENTITY cellStyle.label "Celle-stil:">
+<!ENTITY cellStyle.accessKey              "C">
+<!ENTITY cellNormal.label "Normal">
+<!ENTITY cellHeader.label "Hoved">
+<!ENTITY cellTextWrap.label "Ombryd tekst:">
+<!ENTITY cellTextWrap.accessKey           "T">
+<!ENTITY cellWrap.label "Ombryd">
+<!ENTITY cellNoWrap.label "Ombryd ikke">
+<!ENTITY cellAlignTop.label "Top">
+<!ENTITY cellAlignMiddle.label "Midten">
+<!ENTITY cellAlignBottom.label "Bunden">
+<!ENTITY cellAlignJustify.label "Lige margen">
+<!ENTITY cellAlignAtChar.label "Ved tegn:">
+<!ENTITY cellInheritColor.label "(Dæk ikke tabellens baggrundsfarve)">
+<!ENTITY cellUseCheckboxHelp.label "Brug afkrydsningsfelter til at bestemme, hvilke egenskaber der gælder alle markerede celler">
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label "Størrelse">
+<!ENTITY pixels.label "pixels">
+<!ENTITY backgroundColor.label "Baggrundsfarve:">
+<!ENTITY backgroundColor.accessKey        "B">
+<!ENTITY AlignLeft.label "Venstre">
+<!ENTITY AlignCenter.label "Centrer">
+<!ENTITY AlignRight.label "Højre">

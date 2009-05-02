@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+  <rdf:Description about="urn:root">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="a" nc:name="A"/></rdf:li>
+        <rdf:li> <rdf:Description ID="b" nc:name="B"/></rdf:li>
+        <rdf:li> <rdf:Description ID="c" nc:name="C"/></rdf:li>
+        <rdf:li> <rdf:Description ID="d" nc:name="D"/></rdf:li>
+        <rdf:li> <rdf:Description ID="e" nc:name="E"/></rdf:li>
+        <rdf:li> <rdf:Description ID="f" nc:name="F"/></rdf:li>
+        <rdf:li> <rdf:Description ID="g" nc:name="G"/></rdf:li>
+        <rdf:li> <rdf:Description ID="h" nc:name="H"/></rdf:li>
+        <rdf:li> <rdf:Description ID="i" nc:name="I"/></rdf:li>
+        <rdf:li> <rdf:Description ID="j" nc:name="J"/></rdf:li>
+        <rdf:li> <rdf:Description ID="k" nc:name="K"/></rdf:li>
+        <rdf:li> <rdf:Description ID="l" nc:name="L"/></rdf:li>
+        <rdf:li> <rdf:Description ID="m" nc:name="M"/></rdf:li>
+        <rdf:li> <rdf:Description ID="n" nc:name="N"/></rdf:li>
+        <rdf:li> <rdf:Description ID="o" nc:name="O"/></rdf:li>
+        <rdf:li> <rdf:Description ID="p" nc:name="P"/></rdf:li>
+        <rdf:li> <rdf:Description ID="q" nc:name="Q"/></rdf:li>
+        <rdf:li> <rdf:Description ID="r" nc:name="R"/></rdf:li>
+        <rdf:li> <rdf:Description ID="s" nc:name="S"/></rdf:li>
+        <rdf:li> <rdf:Description ID="t" nc:name="T"/></rdf:li>
+        <rdf:li> <rdf:Description ID="u" nc:name="U"/></rdf:li>
+        <rdf:li> <rdf:Description ID="v" nc:name="V"/></rdf:li>
+        <rdf:li> <rdf:Description ID="w" nc:name="W"/></rdf:li>
+        <rdf:li> <rdf:Description ID="x" nc:name="X"/></rdf:li>
+        <rdf:li> <rdf:Description ID="y" nc:name="Y"/></rdf:li>
+        <rdf:li> <rdf:Description ID="z" nc:name="Z"/></rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+    <rdf:Description about="#a">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="accessibility-options" nc:name="Accessibility Options" nc:link="prefs.xhtml#accessibility"/></rdf:li>
+                <rdf:li><rdf:Description ID="advanced-options" nc:name="Advanced Options" nc:link="prefs.xhtml#advanced_options"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#b">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#c">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#d">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#e">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="editing_modes" nc:name="editing modes" nc:link="composer_help.xhtml#choosing_the_right_editing_mode" /> </rdf:li>
+          </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#f">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="formatting_paragraphs" nc:name="formatting paragraphs" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#g">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#h">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer" nc:name="Help Viewer" nc:link="welcome.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="html" nc:name="HTML" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#help-viewer">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="How To Use" nc:link="welcome.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="Finding a Topic" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="Search Tips" nc:link="welcome.xhtml#search_tips"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+
+    <rdf:Description about="#i">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="images" nc:name="images" nc:link="composer_help.xhtml#adding_pictures_to_your_web_page" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#images">
+	<nc:subheadings>
+	    <rdf:Seq>
+                <rdf:li> <rdf:Description ID="images_edit" nc:name="editing image properties" nc:link="composer_help.xhtml#editing_image_properties" /> </rdf:li>
+                <rdf:li> <rdf:Description ID="images_insert" nc:name="inserting images" nc:link="inserting_an_image_into_your_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#k">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li> <rdf:Description ID="keyboard_shortcuts" nc:name="keyboard shortcuts" nc:link="shortcuts.xhtml" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#l">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="links" nc:name="links" nc:link="composer_help.xhtml#creating_links_in_composer" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists" nc:name="lists" nc:link="composer_help.xhtml#formatting_your_web_pages" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#links">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="links_creating" nc:name="creating link on same page" nc:link="composer_help.xhtml#creating_links_within_the_same_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_external" nc:name="creating external links" nc:link="composer_help.xhtml#creating_links_to_other_pages" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_images" nc:name="using images as links" nc:link="composer_help.xhtml#removing_or_discontinuing_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_removing" nc:name="removing links" nc:link="composer_help.xtml#removing_or_discontinuing_links" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#lists">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="lists_list_item" nc:name="list items" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists_work" nc:name="working with lists" nc:link="composer_help.xhtml#working_with_lists" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#m">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#n">
+        <nc:subheadings>
+            <rdf:Seq>
+
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#o">
+        <nc:subheadings>
+            <rdf:Seq>
+
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#p">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page" nc:name="page" nc:link="composer_help.xhtml#setting_page_properties" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences" nc:name="preferences" nc:link="composer_help.xhtml#composer_preferences" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="publishing" nc:name="publishing" nc:link="publishing_help.xhtml" /> </rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#page">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page_properties" nc:name="setting page properties" nc:link="composer_help.xhtml#setting_page_properties_and_meta_tags" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page_color_background" nc:name="setting page colors and background" nc:link="composer_help.xhtml#setting_page_colors_and_backgrounds" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page_save" nc:name="saving page" nc:link="composer_help.xhtml#Saving and Browsing Your New Page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page_create" nc:name="creating new page" nc:link="composer_help.xhtml#creating_a_new_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#preferences">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="preferences_general" nc:name="general preferences" nc:link="composer_help.xhtml#composer_preferences_general" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_new_page" nc:name="new page settings" nc:link="composer_help.xhtml#composer_preferences_new_page_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_advanced" nc:name="advanced settings(connection)" nc:link="composer_help.xhtml#composer_preferences_advanced_settings_connection" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_advanced_return_key" nc:name="advanced settings(return key behaviour" nc:link="composer_help.xhtml#composer_preferences_advanced_settings_return_key_behaviour" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#publishing">
+	<nc:subheadings>
+	    <rdf:Seq>
+
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#r">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li>
+
+                </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#s">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="special_characters" nc:name="special characters" nc:link="composer_help.xhtml#inserting_special_characters" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#t">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="toc" nc:name="table of contents" nc:link="composer_help.xhtml#working_with_table_of_contents_on_your_web_page" /> </rdf:li>
+		<rdf:li><rdf:Description ID="tables" nc:name="Tables" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+		<rdf:li><rdf:Description ID="text" nc:name="Text" nc:link="composer_help.xhtml#formatting_your_web_pages"/></rdf:li>
+		<rdf:li><rdf:Description ID="tabs" nc:name="Tabs" nc:link="composer_help.xhtml#create_document"/></rdf:li>
+		<rdf:li><rdf:Description ID="tutorial" nc:name="Tutorial" nc:link="composer_tutorial.xhtml"/></rdf:li>
+		<rdf:li><rdf:Description ID="toolbars" nc:name="Toolbars" nc:link=""/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#tables">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="adding_tables_to_your_web_page" nc:name="Adding Tables to Your Web Page" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+		<rdf:li><rdf:Description ID="" nc:name="" nc:link=""/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#text">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="changing_text_color" nc:name="changing text color" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li><rdf:Description ID="changing_text_font" nc:name="changing text font" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>	
+		<rdf:li><rdf:Description ID="changing_text_style" nc:name="changing text style" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li> <rdf:Description ID="finding_replacing_text" nc:name="finding/replacing text" nc:link="composer_help.xhtml#finding_and_replacing_text"/></rdf:li>
+		<rdf:li> <rdf:Description ID="removing_or_discontinuing_text_styles" nc:name="removing or discontinuing text styles" nc:link="composer_help.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#u">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#v">
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="validate" nc:name="validating html" nc:link="composer_help.xhtml#validating_the_html" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#w">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#x">
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+</rdf:RDF>

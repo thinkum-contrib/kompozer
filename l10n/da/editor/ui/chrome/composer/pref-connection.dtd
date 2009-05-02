@@ -1,0 +1,38 @@
+<!-- extracted from content/pref-proxies.xul -->
+<!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
+<!ENTITY lHeader "Proxier">
+<!ENTITY  proxyTitle.label              "Configure Proxies to Access the Internet">
+<!ENTITY directTypeRadio.label "Direkte forbindelse til internettet">
+<!ENTITY  directTypeRadio.accesskey     "D">
+<!ENTITY manualTypeRadio.label "Manuel proxykonfiguration">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY autoTypeRadio.label "Automatisk proxy-konfigurationsURL:">
+<!ENTITY autoTypeRadio.accesskey "a">
+<!ENTITY configAutoconfigText.label "Konfigurations-adresse (URL):">
+<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY reload.label "Genindlæs">
+<!ENTITY reload.accesskey "n">
+<!ENTITY ftp.label "FTP-proxy:">
+<!ENTITY  ftp.accesskey "f">
+<!ENTITY gopher.label "Gopher-proxy:">
+<!ENTITY  gopher.accesskey              "g">
+<!ENTITY http.label "HTTP-proxy:">
+<!ENTITY http.accesskey "x">
+<!ENTITY ssl.label "SSL-proxy:">
+<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY socks.label "SOCKS vært:">
+<!ENTITY  socks.accesskey               "c">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "k">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY port.label "Port:">
+<!ENTITY  HTTPport.accesskey            "p">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "r">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY noproxy.label "Ingen proxy for:">
+<!ENTITY  noproxy.accesskey             "i">
+<!ENTITY noproxyExplain.label "Eksempel: .mozilla.org, .net.nz">

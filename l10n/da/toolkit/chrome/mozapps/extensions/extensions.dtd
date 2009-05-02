@@ -1,0 +1,116 @@
+<!ENTITY addons.title                     "Tilføjelser">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Udvidelser">
+<!ENTITY themes.label                     "Temaer">
+<!ENTITY locales.label                    "Sprog">
+<!ENTITY plugins.label                    "Plugins">
+<!ENTITY update.label                     "Opdateringer">
+<!ENTITY install.label                    "Installering">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Tjek for opdateringer">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "T">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Tjekker for opdateringer til dine tilføjelser">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Tjekker for opdateringer til dine temaer">
+<!ENTITY cmd.installLocalFile.label       "Installer...">
+<!ENTITY cmd.installFile.accesskey        "I">
+<!ENTITY cmd.installFileAddon.tooltip     "Installer en tilføjelse">
+<!ENTITY cmd.installFileTheme.tooltip     "Installer et tema">
+<!ENTITY cmd.installUpdatesAll.label      "Installer opdateringer">
+<!ENTITY cmd.installUpdatesAll.accesskey  "I">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Installerer de valgte opdateringer">
+<!ENTITY cmd.restartApp.label             "Genstart &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey         "G">
+<!ENTITY cmd.restartApp.tooltip           "Genstart &brandShortName; for at færddiggøre installeringen">
+<!ENTITY cmd.skip.label                   "Spring over">
+<!ENTITY cmd.skip.accesskey               "S">
+<!ENTITY cmd.skip.tooltip                 "Spring disse opdateringer over">
+<!ENTITY cmd.continue.label               "Fortsæt">
+<!ENTITY cmd.continue.accesskey           "F">
+<!ENTITY cmd.continue.tooltip             "Fortsæt indlæsning af &brandShortName;">
+
+<!ENTITY cmd.enableAll.label              "Aktiver alle">
+<!ENTITY cmd.enableAll.accesskey          "A">
+<!ENTITY cmd.enableAll.tooltip            "Aktiverer alle viste tilføjelser">
+<!ENTITY cmd.disableAll.label             "Deaktiver alle">
+<!ENTITY cmd.disableAll.accesskey         "D">
+<!ENTITY cmd.disableAll.tooltip           "Deaktiverer alle viste tilføjelser">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "Brug tema">
+<!ENTITY cmd.useTheme.accesskey           "U">
+<!ENTITY cmd.useTheme.tooltip             "Ændrer &brandShortName;'s tema.">
+<!ENTITY cmd.options.label                "Indstillinger">
+<!ENTITY cmd.options.accesskey            "I">
+<!ENTITY cmd.options.tooltip              "Rediger indstillinger for den valgte udvidelse">
+<!ENTITY cmd.optionsUnix.label            "Præferencer">
+<!ENTITY cmd.optionsUnix.accesskey        "r">
+<!ENTITY cmd.optionsUnix.tooltip          "Rediger præferencer for den valgte udvidelse">
+<!ENTITY cmd.enable.label                 "Aktiver">
+<!ENTITY cmd.enable.accesskey             "A">
+<!ENTITY cmd.enable.tooltip               "Aktiver denne tilføjelse når &brandShortName; bliver genstartet">
+<!ENTITY cmd.disable.label                "Deaktiver">
+<!ENTITY cmd.disable.accesskey            "D">
+<!ENTITY cmd.disable.tooltip              "Deaktiver denne tilføjelse når &brandShortName; biver genstartet">
+<!ENTITY cmd.uninstall.label              "Afinstaller">
+<!ENTITY cmd.uninstall2.accesskey         "f">
+<!ENTITY cmd.uninstall2.tooltip           "Afinstaller denne tilføjelse når &brandShortName; bliver genstartet">
+<!ENTITY cmd.cancelUninstall.label        "Afbryd afinstallering">
+<!ENTITY cmd.cancelUninstall.accesskey    "b">
+<!ENTITY cmd.cancelUninstall.tooltip      "Afbryd afinstallering af denne tilføjelse">
+<!ENTITY cmd.installUpdate.label          "Installer opdatering">
+<!ENTITY cmd.installUpdate.accesskey      "I">
+<!ENTITY cmd.installUpdate.tooltip        "Installer en opdatering til denne tilføjelse">
+
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Afbryd">
+<!ENTITY cancel.accesskey                 "b">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Besøg hjemmeside">
+<!ENTITY cmd.homepage.accesskey           "h">
+<!ENTITY cmd.about2.label                 "Om denne tilføjelse">
+<!ENTITY cmd.about.accesskey              "O">
+<!ENTITY cmd.checkUpdate.label            "Tjek for opdatering">
+<!ENTITY cmd.checkUpdate.accesskey        "T">
+
+<!ENTITY cmd.includeUpdate.label          "Inkluder opdatering">
+<!ENTITY cmd.includeUpdate.accesskey      "n">
+<!ENTITY includeUpdate.label              "Inkluder denne opdatering">
+<!ENTITY includeUpdate.accesskey          "d">
+<!ENTITY includeUpdate.tooltip            "Inkluder denne tilføjelse når opdateringerne installeres">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Yderligere moduler påkrævet.">
+<!ENTITY blocklisted.label                "Deaktiveret for din sikkerheds skyld.">
+<!ENTITY toBeDisabled.label               "Denne tilføjelse vil blive deaktiveret når &brandShortName; bliver genstartet.">
+<!ENTITY toBeEnabled.label                "Denne tilføjelse vil blive aktiveret når &brandShortName; bliver genstartet.">
+<!ENTITY toBeInstalled.label              "Denne tilføjelse vil blive installeret når &brandShortName; bliver genstartet.">
+<!ENTITY toBeUninstalled.label            "Denne tilføjelse vil blive afinstalleret når &brandShortName; bliver genstartet.">
+<!ENTITY toBeUpgraded.label               "Denne tilføjelse vil blive opdateret når &brandShortName; bliver genstartet.">
+
+<!ENTITY getExtensions.label              "Hent udvidelser">
+<!ENTITY getExtensions.tooltip            "Hent udvidelser fra addons.mozilla.org">
+<!ENTITY getThemes.label                  "Hent temaer">
+<!ENTITY getThemes.tooltip                "Hent temaer fra addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label     "Intet tema valgt">
+<!ENTITY previewNoPreviewImage.label      "Dette tema her ikke et smugkigsbillede">
+<!ENTITY moreInfo.label                   "Mere information">
+<!ENTITY closeMessage.tooltip             "Luk denne besked">
+
+<!ENTITY updateSuccess.label              "Opdatering afsluttet succesfuldt.">
+<!ENTITY installSuccess.label             "Installering succesfuldt afsluttet.">
+<!ENTITY installSuccessRestart.label      "Genstart for at færddiggøre installationen.">
+<!ENTITY installWaiting.label             "Venter...">
+<!ENTITY installIncompatibleUpdate.label  "Undersøger kompatibilitet...">
+<!ENTITY installFinishing.label           "Installerer...">
+<!ENTITY installFailure.label             "Installering fejlede.">

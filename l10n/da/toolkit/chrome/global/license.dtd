@@ -1,0 +1,25 @@
+<!ENTITY license.part0     "er varemærkebeskyttet">
+<!ENTITY license.part1     "af dets">
+<!ENTITY license.contrib   "bidragsydere">
+<!ENTITY license.part2     "ifølge bestemmelserne som beskrevet i">
+<!ENTITY license.part3     ". Alle rettigheder forbeholdt.">
+
+<!ENTITY about.version                "version">
+
+<!ENTITY about.copy.beforeLink        "Copyright &copy; 1998-2006 af">
+<!ENTITY about.copy.linkTitle         "bidragsydere">
+<!ENTITY about.copy.afterLink         "til Mozilla Projektet.">
+
+<!ENTITY about.license.beforeLink     "Læs">
+<!ENTITY about.license.linkTitle      "licensinformation">
+<!ENTITY about.license.afterLink      "for dette produkt.">
+
+<!ENTITY about.relnotes.beforeLink    "Læs">
+<!ENTITY about.relnotes.linkTitle     "udgivelsesnoterne">
+<!ENTITY about.relnotes.afterLink     "for denne version.">
+
+<!ENTITY about.buildconfig.beforeLink "Se">
+<!ENTITY about.buildconfig.linkTitle  "build-konfigurationen">
+<!ENTITY about.buildconfig.afterLink  "anvendt til denne version.">
+
+<!ENTITY about.buildIdentifier        "Build-identificering: ">

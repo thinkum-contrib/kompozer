@@ -1,0 +1,250 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY Window.title						"CSS-stilark">
+<!ENTITY sheetsTreeColumn.label				"Stilark og regler">
+<!ENTITY expertModeChecbox.label			"Eksperttilstand">
+<!ENTITY importRuleButton.label				"@import">
+<!ENTITY mediaRuleButton.label				"@media">
+<!ENTITY linkedSheetButton.label			"Ekstern">
+<!ENTITY styleSheetButton.label				"Intern">
+<!ENTITY ruleButton.label					"Regel">
+<!ENTITY upButton.label						"Op">
+<!ENTITY downButton.label					"Ned">
+<!ENTITY refreshButton.label				"Opfrisk">
+<!ENTITY removeButton.label					"Fjern">
+<!ENTITY sheetInfoTab.label					"Generelt">
+<!ENTITY textTab.label						"Tekst">
+<!ENTITY borderTab.label					"Kanter">
+<!ENTITY marginsTab.label					"Marginer">
+<!ENTITY boxTab.label						"Boks">
+<!ENTITY auralTab.label						"Lyd">
+<!ENTITY fontFamily.label					"Skrifttype:">
+<!ENTITY inheritedFontFamily.label			"Nedarvet">
+<!ENTITY useCustomFontFamily.label			"Brug valgfri skrifttype:">
+<!ENTITY fontData.label						"Skrifttypeoplysninger">
+<!ENTITY exampleSentence.label				"The quick brown fox jumps over the lazy dog">
+<!ENTITY backgroundTab.label				"Baggrund">
+<!ENTITY unspecifiedValue.label				"ikke angivet">
+<!ENTITY predefFontFamilyRadio.label		"foruddefineret:">
+<!ENTITY fontSize.label						"Skriftsstørrelse:">
+<!ENTITY lineHeight.label                   "Linjehøjde:">
+<!ENTITY normalLineHeight.label             "normal">
+<!ENTITY color.label						"Farve:">
+<!ENTITY fontWeight.label					"Skriftvægt:">
+<!ENTITY normalValue.label					"Normal">
+<!ENTITY boldValue.label					"Fed">
+<!ENTITY bolderValue.label					"Federe">
+<!ENTITY lighterValue.label					"Tyndere">
+<!ENTITY inheritedValue.label				"Nedarvet">
+<!ENTITY fontStyle.label					"Skriftstil:">
+<!ENTITY italicValue.label					"Kursiv">
+<!ENTITY obliqueValue.label					"Oblique">
+<!ENTITY textTransform.label				"Store/små:">
+<!ENTITY noneTextTransformValue.label		"Ingen ændring">
+<!ENTITY lowercaseValue.label				"Små bogstaver">
+<!ENTITY uppercaseValue.label				"store bogstaver">
+<!ENTITY capitalizeValue.label				"Kapitæler">
+<!ENTITY closeButton.label					"Luk">
+<!ENTITY largerFontSize.label				"større">
+<!ENTITY smallerFontSize.label				"mindre">
+<!ENTITY xxsmallFontSize.label				"mindst">
+<!ENTITY xsmallFontSize.label				"mindre">
+<!ENTITY smallFontSize.label				"lille">
+<!ENTITY mediumFontSize.label				"mellem">
+<!ENTITY largeFontSize.label				"stor">
+<!ENTITY xlargeFontSize.label				"større">
+<!ENTITY xxlargeFontSize.label				"størst">
+<!ENTITY textAlign.label					"Justering:">
+<!ENTITY rightTextAlign.label				"Højre">
+<!ENTITY leftTextAlign.label				"Venstre">
+<!ENTITY centerTextAlign.label				"Centrer">
+<!ENTITY justifyTextAlign.label				"Lige marginer">
+<!ENTITY textDecoration.label				"Effekter:">
+<!ENTITY overlineTextDecoration.label		"Overstreg">
+<!ENTITY underlineTextDecoration.label		"Understreg">
+<!ENTITY linethroughTextDecoration.label	"Gennemstreg">
+<!ENTITY blinkTextDecoration.label			"Blinkende">
+<!ENTITY noneTextDecoration.label			"Ingen">
+<!ENTITY backgroundColor.label				"Farve:">
+<!ENTITY backgroundImage.label              "Billede:">
+<!ENTITY chooseFileButton.label             "Vælg fil">
+<!ENTITY backgroundRepeat.label             "Flise:">
+<!ENTITY norepeatBackgroundRepeat.label     "ingen fliser">
+<!ENTITY repeatxBackgroundRepeat.label      "vandret">
+<!ENTITY repeatyBackgroundRepeat.label      "lodret">
+<!ENTITY repeatBackgroundRepeat.label       "vandret og lodret">
+<!ENTITY backgroundPosition.label           "Position:">
+<!ENTITY leftXBackgroundPosition.label      "Venstre">
+<!ENTITY centerXBackgroundPosition.label    "Centrer">
+<!ENTITY rightXBackgroundPosition.label     "Højre">
+<!ENTITY topYBackgroundPosition.label       "Top">
+<!ENTITY centerYBackgroundPosition.label    "Midt">
+<!ENTITY bottomYBackgroundPosition.label    "Bund">
+<!ENTITY backgroundAttachmentCheckbox.label "Billedet ruller med siden">
+
+<!ENTITY useBorderShorthand.label           "Alle fire kanter bruger samme stil">
+<!ENTITY borderStyle.label                  "Stil:">
+<!ENTITY borderWidth.label                  "Bredde:">
+<!ENTITY borderColor.label                  "Farve:">
+<!ENTITY topBorder.label                    "Top:">
+<!ENTITY leftBorder.label                   "Venstre:">
+<!ENTITY rightBorder.label                  "Højre:">
+<!ENTITY bottomBorder.label                 "Bund:">
+<!ENTITY borderPreview.label                "Eksempel">
+<!ENTITY noneBorderStyle.label              "ingen">
+<!ENTITY hiddenBorderStyle.label            "skjult">
+<!ENTITY solidBorderStyle.label             "solid">
+<!ENTITY dottedBorderStyle.label            "prikker">
+<!ENTITY dashedBorderStyle.label            "streger">
+<!ENTITY doubleBorderStyle.label            "dobbelt">
+<!ENTITY grooveBorderStyle.label            "groove">
+<!ENTITY ridgeBorderStyle.label             "ridge">
+<!ENTITY insetBorderStyle.label             "indtrykket">
+<!ENTITY outsetBorderStyle.label            "fremhævet">
+<!ENTITY display.label                      "Vis:">
+<!ENTITY noneDisplay.label                  "ingen">
+<!ENTITY inlineDisplay.label                "inline">
+<!ENTITY blockDisplay.label                 "blok">
+<!ENTITY runinDisplay.label                 "run-in">
+<!ENTITY compactDisplay.label               "kompakt">
+<!ENTITY listitemDisplay.label              "liste-element">
+<!ENTITY tableDisplay.label                 "tabel">
+<!ENTITY tablerowDisplay.label              "tabel-række">
+<!ENTITY tablecellDisplay.label             "tabel-celle">
+<!ENTITY tablecaptionDisplay.label          "table-caption">
+<!ENTITY inlinetableDisplay.label           "inline-table">
+<!ENTITY tablecolumnDisplay.label           "tabel-kolonne">
+<!ENTITY tablerowgroupDisplay.label         "tabel-rækkegruppe">
+<!ENTITY tableheadergroupDisplay.label      "tabel-headergruppe">
+<!ENTITY tablefootergroupDisplay.label      "tabel-footergruppe">
+<!ENTITY tablecolumngroupDisplay.label      "tabel-kolonnegruppe">
+<!ENTITY visibility.label                   "Synlighed:">
+<!ENTITY visibleVisibility.label            "synlig">
+<!ENTITY hiddenVisibility.label             "skjult">
+<!ENTITY collapseVisibility.label           "klap sammen">
+<!ENTITY float.label                        "Flyd:">
+<!ENTITY leftFloat.label                    "venstre">
+<!ENTITY rightFloat.label                   "højre">
+<!ENTITY noneFloat.label                    "ingen">
+<!ENTITY clear.label                        "Nulstil:">
+<!ENTITY noneClear.label                    "ingen">
+<!ENTITY leftClear.label                    "venstre">
+<!ENTITY rightClear.label                   "højre">
+<!ENTITY bothClear.label                    "begge">
+
+<!ENTITY position.label                     "Position:">
+<!ENTITY staticPosition.label               "statisk">
+<!ENTITY fixedPosition.label                "fast">
+<!ENTITY absolutePosition.label             "absolut">
+<!ENTITY relativePosition.label             "relativ">
+<!ENTITY overflow.label                     "Overflyd:">
+<!ENTITY visibleOverflow.label              "synlig">
+<!ENTITY hiddenOverflow.label               "skjult">
+<!ENTITY scrollOverflow.label               "rul">
+<!ENTITY autoOverflow.label                 "auto">
+<!ENTITY zIndex.label                       "Z-indeks:">
+<!ENTITY width.label                        "Bredde:">
+<!ENTITY minWidth.label                     "Min-bredde:">
+<!ENTITY maxWidth.label                     "Max-bredde:">
+<!ENTITY height.label                       "Højde:">
+<!ENTITY minHeight.label                    "Min-højde:">
+<!ENTITY maxHeight.label                    "Max-højde:">
+<!ENTITY margins.label                      "Marginer:">
+<!ENTITY paddings.label                     "Indrykning:">
+<!ENTITY offsets.label                      "Afstand:">
+<!ENTITY top.label                          "Top:">
+<!ENTITY left.label                         "Venstre:">
+<!ENTITY right.label                        "Højre:">
+<!ENTITY bottom.label                       "Bund:">
+<!ENTITY volume.label                       "Lydstyrke:">
+<!ENTITY xsoftVolume.label                  "x-lav">
+<!ENTITY softVolume.label                   "lav">
+<!ENTITY mediumVolume.label                 "mellem">
+<!ENTITY loudVolume.label                   "høj">
+<!ENTITY xloudVolume.label                  "x-høj">
+<!ENTITY muteVolume.label                   "Mute">
+<!ENTITY speak.label                        "Tale:">
+<!ENTITY noneSpeak.label                    "ingen">
+<!ENTITY normalSpeak.label                  "normal">
+<!ENTITY spelloutSpeak.label                "spell-out">
+<!ENTITY speechRate.label                   "Talehastighed:">
+<!ENTITY slowerSpeechRate.label             "langsommere">
+<!ENTITY fasterSpeechRate.label             "hurtigere">
+<!ENTITY xslowSpeechRate.label              "x-langsom">
+<!ENTITY slowSpeechRate.label               "langsom">
+<!ENTITY mediumSpeechRate.label             "mellem">
+<!ENTITY fastSpeechRate.label               "hurtig">
+<!ENTITY xfastSpeechRate.label              "x-hurtig">
+<!ENTITY opacity.label                      "Gennemsigtighed:">
+<!ENTITY compatibilityTab.label             "Kompabilitet">
+<!ENTITY transparentOpacity.label           "transparens">
+<!ENTITY pauseBefore.label                  "Pause før:">
+<!ENTITY cueBefore.label                    "Cue før:">
+<!ENTITY pauseAfter.label                   "Pause efter:">
+<!ENTITY cueAfter.label                     "Cue efter:">
+<!ENTITY listTab.label			"Liste">
+<!ENTITY listStyleType.label		"Liste-stil:">
+<!ENTITY noneListStyleType.label                        "ingen">
+<!ENTITY discListStyleType.label                        "udfyldt cirkel">
+<!ENTITY circleListStyleType.label                      "cirkel">
+<!ENTITY squareListStyleType.label                      "firkant">
+<!ENTITY decimalListStyleType.label                     "tal">
+<!ENTITY decimalLeadingZeroListStyleType.label        "tal med foranstillet 0">
+<!ENTITY lowerRomanListStyleType.label                 "små romertal">
+<!ENTITY upperRomanListStyleType.label                 "store romertal">
+<!ENTITY lowerGreekListStyleType.label                 "små græske bogstaver">
+<!ENTITY lowerAlphaListStyleType.label                 "små bogstaver">
+<!ENTITY upperAlphaListStyleType.label                 "store bogstaver">
+<!ENTITY armenianListStyleType.label                    "armenske bogstaver">
+<!ENTITY georgianListStyleType.label                    "georgianske bogstaver">
+<!ENTITY listStyleImage.label		"Liste-billede:">
+<!ENTITY listStylePosition.label	"Liste-position:">
+<!ENTITY insideListStylePosition.label		"indvendig">
+<!ENTITY outsideListStylePosition.label		"udvendig">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Extract and create generic style">
+<!ENTITY makecssrule.accesskey                  "E">
+<!ENTITY currentstylesfor.label                 "Current styles for:">
+<!ENTITY renameButton.label                     "Edit selector">
+
+<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
+<!ENTITY autoMarginUnit.label                   "auto">
+<!ENTITY thinBorderUnit.label                   "thin">
+<!ENTITY mediumBorderUnit.label                 "medium">
+<!ENTITY thickBorderUnit.label                  "thick">

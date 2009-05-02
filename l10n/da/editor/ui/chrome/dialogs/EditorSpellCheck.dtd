@@ -1,0 +1,54 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+<!-- Window title -->
+<!ENTITY windowTitle.label "Stavekontrol">
+<!ENTITY misspelledWord.label "Fejlstavet ord:">
+<!ENTITY wordEditField.label "Erstat med:">
+<!ENTITY wordEditField.accessKey "m">
+<!ENTITY checkwordButton.label "Kontroller ord">
+<!ENTITY checkwordButton.accessKey "k">
+<!ENTITY suggestions.label "Forslag:">
+<!ENTITY suggestions.accessKey "F">
+<!ENTITY ignoreButton.label "Ignorer">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreAllButton.label "Ignorer alle">
+<!ENTITY ignoreAllButton.accessKey "n">
+<!ENTITY replaceButton.label "Erstat">
+<!ENTITY replaceButton.accessKey "E">
+<!ENTITY replaceAllButton.label "Erstat alle">
+<!ENTITY replaceAllButton.accessKey "A">
+<!ENTITY stopButton.label "Stop">
+<!ENTITY stopButton.accessKey "p">
+<!ENTITY userDictionary.label "Personlig ordbog:">
+<!ENTITY moreDictionaries.label "Hent flere">
+<!ENTITY addToUserDictionaryButton.label "Tilføj ord">
+<!ENTITY addToUserDictionaryButton.accessKey "T">
+<!ENTITY editUserDictionaryButton.label "Rediger...">
+<!ENTITY editUserDictionaryButton.accessKey "R">
+<!ENTITY recheckButton.label "Kontroller siden igen">
+<!ENTITY recheckButton.accessKey "o">
+<!ENTITY closeButton.label "Luk">
+<!ENTITY closeButton.accessKey "L">
+<!ENTITY sendButton.label "Send">
+<!ENTITY sendButton.accessKey "S">
+<!ENTITY languagePopup.label "Sprog:">
+<!ENTITY languagePopup.accessKey "g">

@@ -1,0 +1,46 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300">
+
+<!ENTITY done.label                       "Færdig">
+<!ENTITY canceled.label                   "Afbrudt">
+<!ENTITY installing.label                 "Installerer...">
+
+<!ENTITY starting.label                   "Starter...">
+<!ENTITY failed.label                     "Mislykket">
+
+<!ENTITY downloads.title                  "Downloads">
+
+<!ENTITY cmd.pause.label                  "Pause">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Genoptag">
+<!ENTITY cmd.resume.accesskey             "G">
+<!ENTITY cmd.cancel.label                 "Annuller">
+<!ENTITY cmd.cancel.accesskey             "A">
+<!ENTITY cmd.show.label                   "Åbn indeholdende mappe">
+<!ENTITY cmd.show.labelMac                "Vis i Finder">
+<!ENTITY cmd.show.accesskey               "m">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                   "Åbn">
+<!ENTITY cmd.open.accesskey               "b">
+<!ENTITY cmd.openWith.label               "Åbn med...">
+<!ENTITY cmd.openWith.accesskey           "Å">
+<!ENTITY cmd.retry.label                  "Forsøg igen">
+<!ENTITY cmd.retry.accesskey              "i">
+<!ENTITY cmd.remove.label                 "Fjern">
+<!ENTITY cmd.remove.accesskey             "F">
+<!ENTITY cmd.properties.label             "Egenskaber">
+<!ENTITY cmd.properties.accesskey         "E">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Ryd liste">
+<!ENTITY cmd.cleanUp.tooltip              "Fjerner afsluttede, afbrudte eller fejlede downloads fra listen">
+<!ENTITY cmd.cleanUp.accesskey            "R">
+
+<!ENTITY closeWhenDone.label              "Luk når downloads er færdige">
+<!ENTITY closeWhenDone.tooltip            "Lukker download vindue, når alle filer er downloadet færdig">
+
+<!ENTITY filesSavedTo.label               "Alle filer gemmes i mappen:">
+<!ENTITY showFolder.label                 "Vis denne mappe">

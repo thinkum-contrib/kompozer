@@ -1,0 +1,36 @@
+<!-- LOCALIZATION NOTE : FILE 'Languages' preferences dialog -->
+<!ENTITY languages.customize.additional.label "Tegnsæt til rådighed">
+<!ENTITY languages.customize.add.title.label "Tilføj sprog">
+<!ENTITY languages.customize.ok.label "O.k.">
+<!ENTITY languages.customize.save.popup "Genstart venligst Navigator for at aktivere ændringerne...">
+<!ENTITY languages.customize.save.label "Gem">
+<!ENTITY languages.customize.lHeader "Sprog">
+<!ENTITY languages.customize.moveUp.accesskey "o">
+<!ENTITY languages.customize.title.label "Tilpas sprog">
+<!ENTITY langtitle.label "Sprog for websider">
+<!ENTITY languages.customize.moveUp.label "Flyt op">
+<!ENTITY languages.customize.prefLangDescript "Websider findes sommetider på mere end et sprog. Vælg sprog for visning af websider, i prioriteret rækkefølge.">
+<!ENTITY languages.customize.Charset.grouplabel "Tegnsæt">
+<!ENTITY languages.customize.others.label "Andre:">
+<!ENTITY languages.customize.active.label "Sprog i prioriteret rækkefølge:">
+<!ENTITY languages.customize.cancel.label "Annullér">
+<!ENTITY languages.customize.addButton.label "Tilføj...">
+<!ENTITY languages.customize.prefAddLangDescript "Vælg de(t) sprog du ønsker at tilføje.">
+<!ENTITY languages.customize.engOption.label "Engelsk">
+<!ENTITY languages.customize.rHeader "Sprog på hvilket websider vises">
+<!ENTITY languages.customize.DefaultCharset.label "Standardtegnsæt:">
+<!ENTITY languages.customize.reorder.label "Sortér">
+<!ENTITY languages.customize.available.label "Sprog:">
+<!ENTITY languages.customize.deleteButton.label "Fjern">
+<!ENTITY languages.customize.moveDown.accesskey "n">
+<!ENTITY languages.customize.others.examples "F.eks.: en-bz, ar-jo">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.add.label "Tilføj">
+<!ENTITY languages.customize.moveDown.label "Flyt ned">
+<!ENTITY languages.customize.remove.label "Fjern">
+<!ENTITY languages.customize.left.header "Tegnsæt">
+<!ENTITY languages.customize.DefaultCharset.accesskey "S">
+<!ENTITY languages.customize.addButton.accesskey "T">
+<!ENTITY languages.customize.deleteButton.accesskey "R">
+<!ENTITY languages.customize.others.accesskey "A">
+<!ENTITY charset.customize.right.header "Vælg understøttede tegnsæt">

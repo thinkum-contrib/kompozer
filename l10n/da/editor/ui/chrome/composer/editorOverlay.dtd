@@ -1,0 +1,666 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Sammy Ford
+   -    Blake Ross
+   -    Ryan Cassin (rcassin@supernova.org)
+   -    Daniel Glazman (glazman@netscape.com)
+   -    Stephen Donner (technutz@netscape.net)
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
+<!-- File menu items -->
+<!ENTITY fileMenu.label "Filer">
+<!ENTITY filemenu.accesskey "F">
+<!ENTITY newBlankPageCmd.label "Side i nyt vindue">
+<!ENTITY newBlankPage.accesskey "n">
+<!ENTITY newOtherCmd.label "Flere indstillinger...">
+<!ENTITY newMenu.label "Ny(t)">
+<!ENTITY newTab.label "Side i nyt faneblad">
+<!ENTITY openFileCmd.label "Åbn fil...">
+<!ENTITY fileopen.accesskey "Å">
+<!ENTITY fileopen.keybinding "o">
+<!ENTITY openremoteCmd.label "Åbn websted...">
+<!ENTITY fileopenremote.accesskey "w">
+<!ENTITY fileopenremote.keybinding "l">
+<!ENTITY fileRecentMenu.label "Senest åbnede">
+<!ENTITY filerecentmenu.accesskey "b">
+<!ENTITY fileRevert.label "Vend tilbage til det sidst gemte">
+<!ENTITY filerevert.accesskey "d">
+<!ENTITY filerevert.keybinding "r">
+<!ENTITY refreshImages.label "Genindlæs billeder">
+<!ENTITY refreshImages.accesskey "b">
+<!ENTITY saveCmd.label "Gem">
+<!ENTITY filesave.accesskey "G">
+<!ENTITY filesave.keybinding "s">
+<!ENTITY saveAsCmd.label "Gem som...">
+<!ENTITY filesaveas.accesskey "e">
+<!ENTITY publishCmd.label "Overfør">
+<!ENTITY publishcmd.accesskey "O">
+<!ENTITY publishAsCmd.label "Overfør som...">
+<!ENTITY publishas.accesskey "v">
+<!ENTITY exportToTextCmd.label "Eksporter som tekst...">
+<!ENTITY fileexporttotext.accesskey "T">
+<!ENTITY saveAsChangeEncodingCmd.label "Gem med tegnsættet">
+<!ENTITY filesaveandchangeencoding.accesskey "e">
+<!ENTITY previewCmd.label "Gennemse side">
+<!ENTITY filepreview.accesskey "m">
+<!ENTITY filepreview.keybinding "VK_F5">
+<!ENTITY sendPageCmd.label "Send siden...">
+<!ENTITY sendPage.accesskey "S">
+<!ENTITY printSetupCmd.label "Sideopsætning...">
+<!ENTITY fileprintsetup.accesskey "i">
+<!ENTITY printPreviewCmd.label "Vis udskrift">
+<!ENTITY fileprintpreview.accesskey "v">
+<!ENTITY printCmd.label "Udskriv...">
+<!ENTITY printButtonCmd.label "Udskriv...">
+<!ENTITY fileprint.accesskey "u">
+<!ENTITY fileprint.keybinding "p">
+<!ENTITY closeCmd.label "Luk">
+<!ENTITY closeAllCmd.label "Luk alle">
+<!ENTITY fileclose.accesskey "l">
+<!ENTITY fileclose.keybinding "w">
+<!ENTITY exitCmd.label "Afslut">
+<!ENTITY fileexit.accesskey "a">
+<!ENTITY fileexit.keybinding "q">
+<!-- Edit menu items -->
+<!ENTITY editMenu.label "Rediger">
+<!ENTITY editmenu.accesskey "R">
+<!ENTITY pasteNoFormatting.label "Indsæt uden formatering">
+<!ENTITY pasteNoFormatting.accesskey "u">
+<!ENTITY pasteAs.label "Indsæt som">
+<!ENTITY pasteAs.accesskey "I">
+<!ENTITY publishSettings.label "Overførselsindstillinger...">
+<!ENTITY publishSettings.accesskey "o">
+<!ENTITY detachFromTemplate.label "Frigør fra skabelon">
+<!-- For a "Paste" submenu when more than 1 
+     clipboard formats are available -->
+<!ENTITY pasteHTMLCmd.label "HTML">
+<!ENTITY pasteHTML.accesskey "H">
+<!ENTITY pasteTextCmd.label "Tekst">
+<!ENTITY pasteText.accesskey "T">
+<!ENTITY pasteImageCmd.label "Billede">
+<!ENTITY pasteImage.accesskey "B">
+<!ENTITY pasteRowsCmd.label "Rækker">
+<!ENTITY pasteRows.accesskey "R">
+<!ENTITY pasteColumnsCmd.label "Kolonner">
+<!ENTITY pasteColumns.accesskey "K">
+<!-- LOCALIZATION NOTE: Text for menu item is in editor.properties
+     Set to: "Table" or "Nested Table" depending on context 
+     This accesskey must be in both strings -->
+<!ENTITY pasteTable.accesskey "a">
+<!ENTITY pasteLinkCmd.label "Link">
+<!ENTITY editpastelink.accesskey "l">
+<!ENTITY pasteAsQuotationCmd.label "Indsæt som citat">
+<!ENTITY editpastequotation.accesskey "c">
+<!ENTITY editpastequotation.keybinding "v">
+<!ENTITY editStripQuotesCmd.label "Fjern gåseøjne">
+<!ENTITY editRewrapCmd.label "Ombryd igen">
+<!ENTITY findCmd.label "Søg og erstat...">
+<!ENTITY editfind.accesskey "e">
+<!ENTITY editfind.keybinding "e">
+<!ENTITY editfind.keybinding2 "VK_F19">                                         
+<!ENTITY findAgainCmd.label "Find igen">
+<!ENTITY editfindnext.accesskey "i">
+<!ENTITY editfindnext.keybinding "VK_F3">
+<!ENTITY findPrevCmd.label "Find forrige">
+<!ENTITY editfindprev.accesskey "r">
+<!ENTITY editfindprev.keybinding "VK_F3">
+<!ENTITY checkSpellingCmd.label "Stavekontrol">
+<!ENTITY validateCmd.label "Valider HTML">
+<!ENTITY validate.accesskey "H">
+<!ENTITY checkLinksCmd.label "Tjek links">
+<!ENTITY editcheckspelling.accesskey "a">
+<!ENTITY editcheckspelling.keybinding "k">
+<!ENTITY markupCleanerCmd.label "Koderenser">
+<!ENTITY markupcleaner.accesskey "K">
+<!-- View menu items -->
+<!ENTITY viewToolbarsMenu.label "Vis/skjul"> 
+<!ENTITY viewToolbarsMenu.accesskey "v"> 
+<!ENTITY compositionToolbarCmd.label "Kompositionslinjen">
+<!ENTITY compositiontb.accesskey "K">
+<!ENTITY formattingToolbarCmd.label "Formateringslinjen">
+<!ENTITY formattingtb.accesskey "F">
+<!ENTITY editmodeToolbarCmd.label "Redigeringstilstandslinjen">
+<!ENTITY editmodetb.accesskey "e">
+<!ENTITY taskbarCmd.label "Statuslinjen">  
+<!ENTITY taskbarCmd.accesskey "S"> 
+<!ENTITY viewPageSource.label "Kildekode">
+<!ENTITY viewpagesource.accesskey "K">
+<!ENTITY viewParagraphMarks.label "Afsnitsmærker">
+<!ENTITY viewparagraphmarks.accesskey "A">
+<!ENTITY blockOutlines.label "Marker blokke">
+<!ENTITY blockoutlines.accesskey "b">
+<!ENTITY viewRulersCmd.label "Sidemål">
+<!ENTITY viewrulerscmd.accesskey "m">
+<!-- Insert menu items -->
+<!ENTITY insertMenu.label "Indsæt">
+<!ENTITY insertmenu.accesskey "d">
+<!ENTITY insertLinkCmd.label "Link...">
+<!ENTITY insertlink.accesskey "l">
+<!ENTITY insertlink.keybinding "l">
+<!ENTITY insertAnchorCmd.label "Anker...">
+<!ENTITY insertanchor.accesskey "A">
+<!ENTITY insertImageCmd.label "Billede...">
+<!ENTITY insertimage.accesskey "B">
+<!ENTITY insertImageMapCmd.label "Aktive billedområder...">
+<!ENTITY insertHLineCmd.label "Vandret linje">
+<!ENTITY inserthline.accesskey "V">
+<!ENTITY insertTableCmd.label "Tabel...">
+<!ENTITY inserttable.accesskey "T">
+<!ENTITY insertFormMenu.label "Formular">
+<!ENTITY insertformmenu.accesskey "F">
+<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.accesskey "H">
+<!ENTITY insertCharsCmd.label "Tegn og symboler...">
+<!ENTITY insertchars.accesskey "s">
+<!ENTITY insertBreakCmd.label "Ny linje">
+<!ENTITY insertbreak.accesskey "l">
+<!ENTITY insertBreakAllCmd.label "Linjeskift under billede(r)">
+<!ENTITY insertbreakall.accesskey "k">
+<!ENTITY insertNbspCmd.label "Indsæt mellemrum...">
+<!ENTITY insertNbsp.accesskey "n">
+<!ENTITY insertPHPCode.label "Indsæt PHP-kode">
+<!ENTITY insertphpcode.accesskey "p">
+<!ENTITY insertComment.label "Indsæt kommentar">
+<!ENTITY insertcomment.accesskey "m">
+<!-- Insert form menu items -->
+<!ENTITY insertFormCmd.label "Definer formular...">
+<!ENTITY insertform.accesskey "D">
+<!ENTITY insertInputTagCmd.label "Formular-felt...">
+<!ENTITY insertinputtag.accesskey "e">
+<!ENTITY insertInputImageCmd.label "Formular-billede...">
+<!ENTITY insertinputimage.accesskey "I">
+<!ENTITY insertTextAreaCmd.label "Tekstområde...">
+<!ENTITY inserttextarea.accesskey "T">
+<!ENTITY insertSelectCmd.label "Valgliste...">
+<!ENTITY insertselect.accesskey "S">
+<!ENTITY insertButtonCmd.label "Definer knap...">
+<!ENTITY insertbutton.accesskey "k">
+<!ENTITY insertLabelCmd.label "Definer etikette">
+<!ENTITY insertlabel.accesskey "e">
+<!ENTITY insertFieldSetCmd.label "Definer feltsæt...">
+<!ENTITY insertfieldset.accesskey "f">
+<!ENTITY insertIsIndexCmd.label "Indeks-søgning">
+<!ENTITY insertisindex.accesskey "ø">
+<!-- Used just in context popup. -->
+<!ENTITY createLinkCmd.label "Opret link...">
+<!ENTITY createlink.accesskey "k">
+<!ENTITY editLinkCmd.label "Rediger linket i et nyt vindue">
+<!ENTITY editlink.accesskey "i">
+<!-- (Toplevel Edit menu uses utilityOverlay) -->
+<!ENTITY undoCmd.label "Fortryd">
+<!ENTITY undo.accesskey "F">
+<!ENTITY redoCmd.label "Gentag">
+<!ENTITY redo.accesskey "g">
+<!ENTITY cutCmd.label "Klip">
+<!ENTITY cut.accesskey "p">
+<!ENTITY copyCmd.label "Kopier">
+<!ENTITY copy.accesskey "k">
+<!ENTITY pasteCmd.label "Sæt ind">
+<!ENTITY paste.accesskey "i">
+<!ENTITY deleteCmd.label "Slet">
+<!ENTITY delete.accesskey "s">
+<!ENTITY clearCmd.label "Ryd">
+<!ENTITY clear.accesskey "y">
+<!ENTITY selectAllCmd.label "Marker alt">
+<!ENTITY selectall.accesskey "a">
+<!-- Font Face SubMenu -->
+<!ENTITY FontFaceSelect.tooltip "Vælg en skrifttype">
+<!ENTITY fontfaceMenu.label "Skrifttype">
+<!ENTITY formatfontmenu.accesskey "t">
+<!ENTITY fontVarWidth.label "Variabel bredde">
+<!ENTITY fontvarwidth.accesskey "v">
+<!ENTITY fontFixedWidth.label "Fast bredde">
+<!ENTITY fontfixedwidth.accesskey "F">
+<!ENTITY formatfontfixed.keybinding "t">
+<!ENTITY fontHelveticaFont.label "Helvetica, Arial">
+<!ENTITY fonthelvetica.accesskey "H">
+<!ENTITY fontTimes.label "Times">
+<!ENTITY fonttimes.accesskey "t">
+<!ENTITY fontCourier.label "Courier">
+<!ENTITY fontcourier.accesskey "c">
+<!ENTITY localfontfaceMenu.label "Lokale skrifttyper">
+<!ENTITY localfontmenu.accesskey "f">
+<!-- Font Size SubMenu -->
+<!ENTITY FontSizeSelect.tooltip "Vælg skriftstørrelse">
+<!ENTITY decreaseFontSize.label "Mindre">
+<!ENTITY decreasefontsize.accesskey "M">
+<!ENTITY decreaseFontSize.keybinding "-">
+<!ENTITY increaseFontSize.label "Større">
+<!ENTITY increasefontsize.accesskey "S">
+<!ENTITY increaseFontSize.keybinding "+">
+<!ENTITY increaseFontSize.keybinding2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY fontsizeMenu.label "Størrelse">
+<!ENTITY formatsizemenu.accesskey "S">
+<!ENTITY size-xx-smallCmd.label "mindst">
+<!ENTITY size-xx-small.accesskey "a">
+<!ENTITY size-x-smallCmd.label "mindre">
+<!ENTITY size-x-small.accesskey "i">
+<!ENTITY size-smallCmd.label "lille">
+<!ENTITY size-small.accesskey "l">
+<!ENTITY size-mediumCmd.label "mellem">
+<!ENTITY size-medium.accesskey "e">
+<!ENTITY size-largeCmd.label "stor">
+<!ENTITY size-large.accesskey "o">
+<!ENTITY size-x-largeCmd.label "større">
+<!ENTITY size-x-large.accesskey "ø">
+<!ENTITY size-xx-largeCmd.label "størst">
+<!ENTITY size-xx-large.accesskey "t">
+<!-- Font Style SubMenu -->
+<!ENTITY fontStyleMenu.label "Tekststil">
+<!ENTITY formatstylemenu.accesskey "k">
+<!ENTITY styleBoldCmd.label "Fed">
+<!ENTITY stylebold.accesskey "d">
+<!ENTITY stylebold.keybinding "b">
+<!ENTITY styleItalicCmd.label "Kursiv">
+<!ENTITY styleitalic.accesskey "i">
+<!ENTITY styleitalic.keybinding "i">
+<!ENTITY styleUnderlineCmd.label "Understreg">
+<!ENTITY styleunderline.accesskey "u">
+<!ENTITY styleunderline.keybinding "u">
+<!ENTITY styleStrikeThruCmd.label "Gennemstreget">
+<!ENTITY stylestrikethru.accesskey "G">
+<!ENTITY styleSuperscriptCmd.label "Hævet skrift">
+<!ENTITY stylesuperscript.accesskey "H">
+<!ENTITY styleSubscriptCmd.label "Sænket skrift">
+<!ENTITY stylesubscript.accesskey "S">
+<!ENTITY styleNonbreakingCmd.label "Uden ombrydning">
+<!ENTITY stylenonbreaking.accesskey "n">
+<!ENTITY styleEm.label "Fremhævet">
+<!ENTITY styleEm.accesskey "t">
+<!ENTITY styleStrong.label "Kraftigere fremhævning">
+<!ENTITY styleStrong.accesskey "k">
+<!ENTITY styleCite.label "Citat">
+<!ENTITY styleCite.accesskey "c">
+<!ENTITY styleAbbr.label "Forkortelse">
+<!ENTITY styleAbbr.accesskey "o">
+<!ENTITY styleAcronym.label "Akronym">
+<!ENTITY styleAcronym.accesskey "r">
+<!ENTITY styleCode.label "Kode">
+<!ENTITY styleCode.accesskey "k">
+<!ENTITY styleSamp.label "Eksempel uddata">
+<!ENTITY styleSamp.accesskey "E">
+<!ENTITY styleVar.label "Variabel">
+<!ENTITY styleVar.accesskey "v">
+<!ENTITY formatFontColor.label "Tekstfarve...">
+<!ENTITY formatfontcolor.accesskey "f">
+<!ENTITY tableOrCellColor.label "Tabel- eller celle-baggrundsfarve...">
+<!ENTITY tableOrCellColor.accesskey "b">
+<!ENTITY formatremovestyles.keybinding "y">
+<!ENTITY formatremovelinks.keybinding "k">
+<!ENTITY formatRemoveNamedAnchors.label "Fjern anker">
+<!ENTITY formatRemoveNamedAnchors.accesskey "e">
+<!ENTITY formatremovenamedanchors.keybinding "a">
+<!ENTITY formatindent.keybinding "ø">
+<!ENTITY formatoutdent.keybinding "æ">
+<!ENTITY paragraphMenu.label "Afsnit">
+<!ENTITY formatparagraphmenu.accesskey "A">
+<!ENTITY paragraphParagraphCmd.label "Afsnit">  
+<!ENTITY paragraphparagraph.accesskey "A">
+<!ENTITY heading1Cmd.label "Overskrift 1">
+<!ENTITY heading1.accesskey "1">
+<!ENTITY heading2Cmd.label "Overskrift 2">
+<!ENTITY heading2.accesskey "2">
+<!ENTITY heading3Cmd.label "Overskrift 3">
+<!ENTITY heading3.accesskey "3">
+<!ENTITY heading4Cmd.label "Overskrift 4">
+<!ENTITY heading4.accesskey "4">
+<!ENTITY heading5Cmd.label "Overskrift 5">
+<!ENTITY heading5.accesskey "5">
+<!ENTITY heading6Cmd.label "Overskrift 6">
+<!ENTITY heading6.accesskey "6">
+<!ENTITY paragraphAddressCmd.label "Adresse">
+<!ENTITY paragraphaddress.accesskey "d">
+<!ENTITY paragraphPreformatCmd.label "Præformateret">
+<!ENTITY paragraphpreformat.accesskey "P">
+<!ENTITY paragraphBlockquoteCmd.label "Blokcitat">
+<!ENTITY paragraphblockquote.accesskey "b">
+<!ENTITY genericContainerCmd.label "Indsæt div-container">
+<!ENTITY genericcontainer.accesskey "I">
+<!ENTITY applyClassToSelectionCmd.tooltip "Tilføj en stilregel til det markerede">
+<!ENTITY noClass.label "(ingen klasse)">
+<!-- List menu items -->
+<!ENTITY formatlistMenu.label "Liste">
+<!ENTITY formatlistmenu.accesskey "L">
+<!ENTITY noneCmd.label "Ingen">
+<!ENTITY none.accesskey "I">
+<!ENTITY listBulletCmd.label "Unummereret">
+<!ENTITY listbullet.accesskey "U">
+<!ENTITY listNumberedCmd.label "Nummereret">
+<!ENTITY listnumbered.accesskey "N">
+<!ENTITY listTermCmd.label "Term">
+<!ENTITY listterm.accesskey "t">
+<!ENTITY listDefinitionCmd.label "Definition">
+<!ENTITY listdefinition.accesskey "d">
+<!ENTITY listProps.label "Listeegenskaber...">
+<!ENTITY listprops.accesskey "L">
+<!ENTITY ParagraphSelect.tooltip "Vælg et afsnitsformat">
+<!-- Shared in Paragraph, and Toolbar menulist -->
+<!ENTITY bodyTextCmd.label "Alm. tekst">
+<!ENTITY bodytext.accesskey "t">
+<!-- isn't used in menu now, but may be added in future -->
+<!ENTITY advancedPropertiesCmd.label "Avancerede egenskaber">
+<!ENTITY advancedproperties.accesskey "v">
+<!ENTITY NormalAbbr.label "Tekst">
+<!ENTITY ParagraphAbbr.label "P">  
+<!ENTITY Heading1Abbr.label "H1">
+<!ENTITY Heading2Abbr.label "H2">
+<!ENTITY Heading3Abbr.label "H3">
+<!ENTITY Heading4Abbr.label "H4">
+<!ENTITY Heading5Abbr.label "H5">
+<!ENTITY Heading6Abbr.label "H6">
+<!ENTITY BlockquoteAbbr.label "BQ">
+<!ENTITY AddressAbbr.label "Adr.">
+<!ENTITY PreformatAbbr.label "Præ.">
+<!-- Style Sheet submenu NOT IMPLEMENTED -->
+<!ENTITY stylesheetMenu.label "Anvend stilark">
+<!ENTITY formatstylesheetmenu.accesskey "i">
+<!-- Align menu items -->
+<!ENTITY alignMenu.label "Justering">
+<!ENTITY formatalignmenu.accesskey "J">
+<!ENTITY alignLeft.label "Venstre">
+<!ENTITY alignleft.accesskey "V">
+<!ENTITY alignLeft.tooltip "Venstrejuster">
+<!ENTITY alignCenter.label "Centrer">
+<!ENTITY aligncenter.accesskey "c">
+<!ENTITY alignCenter.tooltip "Centrer">
+<!ENTITY alignRight.label "Højre">
+<!ENTITY alignright.accesskey "H">
+<!ENTITY alignRight.tooltip "Højrejuster">
+<!ENTITY alignJustify.label "Tilpasset">
+<!ENTITY alignjustify.accesskey "T">
+<!ENTITY alignJustify.tooltip "Lige marginer">
+<!-- Layer toolbar items -->
+<!ENTITY layer.tooltip "Lag">
+<!ENTITY layerSendToBack.tooltip "Flyt bagud">
+<!ENTITY layerBringToFront.tooltip "Flyt frem">
+<!ENTITY increaseIndent.label "Forøg indrykning">
+<!ENTITY increaseindent.accesskey "i">
+<!ENTITY increaseindentkb "=">
+<!ENTITY decreaseIndent.label "Formindsk indrykning">
+<!ENTITY decreaseindent.accesskey "m">
+<!ENTITY decreaseindentkb "-">
+<!ENTITY blockBorders.tooltip "Kanter">
+<!ENTITY grid.label "Gitter">
+<!ENTITY grid.accesskey "t">
+<!ENTITY pageProperties.label "Sidens titel og egenskaber...">
+<!ENTITY pageproperties.accesskey "b">
+<!ENTITY colorsAndBackground.label "Sidens farve og baggrund...">
+<!ENTITY colorsandbackground.accesskey "v">
+<!-- Table Menu -->
+<!ENTITY tableMenu.label "Tabel">
+<!ENTITY tablemenu.accesskey "b">
+<!-- Select Submenu -->
+<!ENTITY tableSelectMenu.label "Marker">
+<!ENTITY tableselectmenu.accesskey "M">
+<!ENTITY tableSelectMenu2.label "Marker tabel">
+<!ENTITY tableInsertMenu2.label "Indsæt tabel">
+<!ENTITY tableDeleteMenu2.label "Slet tabel">
+<!-- Insert SubMenu -->
+<!ENTITY tableInsertMenu.label "Indsæt">
+<!ENTITY tableinsertmenu.accesskey "i">
+<!ENTITY tableTable.label "Tabel">
+<!ENTITY tabletable.accesskey "t">
+<!ENTITY tableRow.label "Række">
+<!ENTITY tableRows.label "Række(r)">
+<!ENTITY tablerow.accesskey "R">
+<!ENTITY tableRowAbove.label "Række over">
+<!-- uses tablerow.accesskey -->
+<!ENTITY tableRowBelow.label "Række under">
+<!ENTITY tablerowbelow.accesskey "u">
+<!ENTITY tableColumn.label "Kolonne">
+<!ENTITY tableColumns.label "Kolonne(r)">
+<!ENTITY tablecolumn.accesskey "K">
+<!ENTITY tableColumnBefore.label "Kolonne før">
+<!-- uses tablecolumn.accesskey -->
+<!ENTITY tableColumnAfter.label "Kolonne efter">
+<!ENTITY tablecolumnafter.accesskey "e">
+<!ENTITY tableCell.label "Celle">
+<!ENTITY tableCells.label "Celle(r)">
+<!ENTITY tablecell.accesskey "C">
+<!ENTITY tableCellContents.label "Celleindhold">
+<!ENTITY tablecellcontents.accesskey "i">
+<!ENTITY tableAllCells.label "Alle celler">
+<!ENTITY tableCellBefore.label "Celle før">
+<!ENTITY tableallcells.accesskey "a">
+<!-- uses tablecell.accesskey -->
+<!ENTITY tableCellAfter.label "Celle efter">
+<!ENTITY tablecellafter.accesskey "f">
+<!-- Delete SubMenu -->
+<!ENTITY tableDeleteMenu.label "Slet">
+<!ENTITY tabledeletemenu.accesskey "s">
+<!ENTITY tableFix.label "Reparer tabel layout">
+<!ENTITY tablefix.accesskey "R">
+<!-- text for "Join Cells" is in editor.properties 
+     ("JoinSelectedCells" and "JoinCellToRight")
+     the access key must exist in both of those strings
+     But value must be set here for accesskey to draw properly
+-->
+<!ENTITY tableJoinCells.label "F">
+<!ENTITY tablejoincells.accesskey "f">
+<!ENTITY tableSplitCell.label "Opdel celle">
+<!ENTITY tablesplitcell.accesskey "c">
+<!ENTITY convertToTable.label "Opret tabel af det markerede">
+<!ENTITY converttotable.accesskey "r">
+<!ENTITY tableProperties.label "Tabelegenskaber...">
+<!ENTITY tableProperties.accesskey "e">
+<!-- Tools menu -->
+<!ENTITY toolsmenu.accesskey "l">
+<!ENTITY toolbrowser.accesskey "b">
+<!ENTITY toolplaineditor.accesskey "p">
+<!ENTITY toolsetfocus.accesskey "f">
+<!-- Debug menu items -->
+<!ENTITY debugMenu.label "Fejlfinding">
+<!ENTITY newEditorTestPage.label "&brandShortName; med testside">
+<!ENTITY textEditorCmd.label "Ren teksteditor">
+<!ENTITY outputTextCmd.label "Uddata tekst">
+<!ENTITY outputHTMLCmd.label "Uddata HTML">
+<!ENTITY insertTextCmd.label "Indsæt tekst">
+<!ENTITY testSelectionCmd.label "Test valgte">
+<!ENTITY testTableLayoutCmd.label "Test tabellayout">
+<!ENTITY testDocumentCmd.label "Test dokument">
+<!ENTITY showEmbeddedCmd.label "Vis indlejrede objekter">
+<!ENTITY dumpContentCmd.label "Gem indholdstræ">
+<!ENTITY runUnitTestsCmd.label "Test enheder">
+<!ENTITY dumpUndoStack.label "Gem fortryd-historie">
+<!ENTITY dumpRedoStack.label "Gem fortryddelses-informationer">
+<!ENTITY executeJSTransactionViaTxmgr.label "Udfør JS transaktion via transaktionshåndteringen">
+<!ENTITY executeJSTransactionViaEditor.label "Udfør JS transaktion via editoren">
+<!ENTITY startLogCmd.label "Start log">
+<!ENTITY stopLogCmd.label "Stop log">
+<!ENTITY runLogCmd.label "Start log">
+<!ENTITY setFocusCmd.label "Sæt focus">
+<!-- Toolbar-only items -->
+<!ENTITY menuBar.tooltip "Menulinjen">
+<!ENTITY compositionToolbar.tooltip "Kompositionslinjen">
+<!ENTITY formatToolbar.tooltip "Formateringslinjen">
+<!ENTITY newToolbarCmd.tooltip "Opret en ny side">
+<!ENTITY openToolbarCmd.label "Åbn">
+<!ENTITY openToolbarCmd.tooltip "Åbn en lokal fil">
+<!ENTITY saveToolbarCmd.tooltip "Gem filen lokalt">
+<!ENTITY publishToolbarCmd.tooltip "Overfør filen til en anden maskine">
+<!ENTITY previewToolbarCmd.label "Vis i browser">
+<!ENTITY previewToolbarCmd.tooltip "Vis denne side i din browser">
+<!ENTITY printToolbarCmd.label "Udskriv">
+<!ENTITY printToolbarCmd.tooltip "Udskriv denne side">
+<!ENTITY findToolbarCmd.label "Søg">
+<!ENTITY findToolbarCmd.tooltip "Søg tekst på siden">
+<!ENTITY spellToolbarCmd.label "Stavning">
+<!ENTITY spellToolbarCmd.tooltip "Stavekontrol af markering eller hele siden">
+<!ENTITY imageToolbarCmd.label "Billede">
+<!ENTITY imageToolbarCmd.tooltip "Indsæt nyt billede, eller rediger det markerede billedes egenskaber">
+<!ENTITY hruleToolbarCmd.label "V. linje">
+<!ENTITY hruleToolbarCmd.tooltip "Indsæt vandret linje, eller rediger den valgte linjes egenskaber">
+<!ENTITY tableToolbarCmd.label "Tabel">
+<!ENTITY tableToolbarCmd.tooltip "Indsæt ny tabel, eller rediger den markerede tabels egenskaber">
+<!ENTITY linkToolbarCmd.label "Link">
+<!ENTITY linkToolbarCmd.tooltip "Indsæt nyt link, eller rediger egenskaberne for det markerede link">
+<!ENTITY anchorToolbarCmd.label "Anker">
+<!ENTITY anchorToolbarCmd.tooltip "Indsæt nyt anker, eller rediger det markerede ankers egenskaber">
+<!ENTITY textColorCaption.label "Tekstfarve">
+<!ENTITY TextColorButton.tooltip "Vælg tekstfarve">
+<!ENTITY BackgroundColorButton.tooltip "Vælg baggrundsfarve">
+<!ENTITY throbber.tooltip "Dette er &brandShortName;">
+<!ENTITY HighlightColorButton.tooltip "Vælg farve for fremhævet tekst">
+<!ENTITY emButton.tooltip "Fremhæv">
+<!ENTITY strongButton.tooltip "Kraftigere fremhævning">
+<!ENTITY formToolbarCmd.label "Formular">
+<!ENTITY formToolbarCmd.tooltip "Indsæt ny formular, eller rediger den valgte formulars egenskaber">
+<!-- Editor toolbar -->
+<!ENTITY decreaseFontSizeToolbarCmd.tooltip "Mindre skriftstørrelse">
+<!ENTITY increaseFontSizeToolbarCmd.tooltip "Større skrifttype">
+<!ENTITY boldToolbarCmd.tooltip "Fed">
+<!ENTITY italicToolbarCmd.tooltip "Kursiv">
+<!ENTITY underlineToolbarCmd.tooltip "Understreg">
+<!ENTITY bulletListToolbarCmd.tooltip "Opret eller fjern uordnet liste">
+<!ENTITY numberListToolbarCmd.tooltip "Opret eller fjern ordnet liste">
+<!ENTITY outdentToolbarCmd.tooltip "Afindryk tekst (ryk til venstre)">
+<!ENTITY indentToolbarCmd.tooltip "Indryk tekst (ryk til højre)">
+<!ENTITY AlignPopupButton.tooltip "Vælg tekstjustering">
+<!ENTITY InsertPopupButton.tooltip "Indsæt et link, anker, billede, en vandret linje, eller en tabel">
+<!ENTITY alignLeftButton.tooltip "Juster tekst langs venstre margin">
+<!ENTITY alignCenterButton.tooltip "Centrer tekst">
+<!ENTITY alignRightButton.tooltip "Juster tekst langs højre margin">
+<!ENTITY alignjustifyButton.tooltip "Juster teksten langs højre og venstre margin">
+<!ENTITY definitionTermToolbarCmd.tooltip "Defination term">
+<!ENTITY definitionDescriptionToolbarCmd.tooltip "Defination beskrivelse">
+<!-- Formatting toolbar not used, but may be in future -->
+<!ENTITY formatToolbar.boldChar "B">
+<!ENTITY formatToolbar.italicChar "I">
+<!ENTITY formatToolbar.underlineChar "U">
+<!-- Used with color pickers in Format toolbar and Format Menu -->
+<!ENTITY colorPicker.default.label "Læserens standardfarve">
+<!ENTITY colorPicker.default.accesskey "s">
+<!ENTITY colorLabel.label "Farve:">
+<!ENTITY ok.label "OK">
+<!-- Display Mode toolbar and View menu items -->
+<!ENTITY NormalModeTab.label "Normal">
+<!ENTITY NormalMode.label "Normal redigeringstilstand">
+<!ENTITY NormalMode.accesskey "N">
+<!ENTITY NormalMode.tooltip "Vis tabelrammer og ankre">
+<!ENTITY AllTagsMode.label "Vis alle tags">
+<!ENTITY AllTagsMode.accesskey "a">
+<!ENTITY AllTagsMode.tooltip "Vis ikoner for alle HTML-tags">
+<!ENTITY HTMLSourceMode.label "HTML-kildekode">
+<!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
+<!ENTITY SourceMode.label "Kildekode">
+<!ENTITY HTMLSourceMode.accesskey "h">
+<!ENTITY HTMLSourceMode.tooltip "Rediger HTML-kildekode">
+<!ENTITY PreviewMode.label "Webvisning">
+<!ENTITY PreviewMode.accesskey "w">
+<!ENTITY PreviewMode.tooltip "Vis som WYSIWYG (som i Navigator)">
+<!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
+     Use latin "ltr" if you want the <html> image to left of the 
+     'SourceMode.label' text defined above,
+     or use latin "rtl" if you want this image to the right of text
+     This is the value of the HTML 'dir' attribute
+-->
+<!ENTITY SourceTabDirection "ltr">
+<!-- Structure Toolbar Context Menu items -->
+<!ENTITY structSelect.label "Marker">
+<!ENTITY structSelect.accesskey "M">
+<!ENTITY structRemoveTag.label "Fjern tag">
+<!ENTITY structRemoveTag.accesskey "r">
+<!ENTITY structChangeTag.label "Ændr tag">
+<!ENTITY structChangeTag.accesskey "Æ">
+<!-- TOC manipulation -->
+<!ENTITY insertTOC.label "Indsæt">
+<!ENTITY insertTOC.accesskey "I">
+<!ENTITY updateTOC.label "Opdater">
+<!ENTITY updateTOC.accesskey "O">
+<!ENTITY removeTOC.label "Fjern">
+<!ENTITY removeTOC.accesskey "r">
+<!ENTITY tocMenu.label "Indholdsfortegnelse...">
+<!ENTITY tocMenu.accesskey "I">
+<!-- Smart Widgets menu -->
+<!ENTITY insertSmartWidgetsMenu.label "Smarte funktioner">
+<!ENTITY madeWithNvu.label "Indsæt 'Made with &brandShortName;'-knap">
+<!ENTITY insertCalendarSW.label "Indsæt kalender">
+<!-- Toolbar customization -->
+<!ENTITY customizeToolbar.label "Tilpas værktøjslinje">
+<!ENTITY customizeToolbar.accesskey "T">
+<!-- Templates -->
+<!ENTITY templatesMenu.label "Skabeloner">
+<!ENTITY insertEditableArea.label "Indsæt redigerbart område">
+<!ENTITY removeEditableArea.label "Fjern redigerbart område">
+<!ENTITY makeEditableArea.label "Gør redigerbart">
+<!-- Advanced -->
+<!ENTITY writingDirectionMenu.label "Skriveretning">
+<!ENTITY writingdirectionmenu.accesskey "r">
+<!ENTITY defaultDirectionMenu.label "Ikke angivet">
+<!ENTITY defaultdirectionmenu.accesskey "i">
+<!ENTITY ltrDirectionMenu.label "Venstre til højre">
+<!ENTITY ltrdirectionmenu.accesskey "V">
+<!ENTITY rtlDirectionMenu.label "Højre til venstre">
+<!ENTITY rtldirectionmenu.accesskey "H">
+<!ENTITY dirLtr.tooltip "Venstre til højre">
+<!ENTITY dirRtl.tooltip "Højre til venstre">
+<!-- Help menu -->
+<!ENTITY helpMenu.label "Hjælp">
+<!ENTITY helpmenu.accesskey "H">
+<!ENTITY nvuComMenu.label "&brandShortName;'s hjemmeside">
+<!ENTITY nvucommenu.accesskey "K">
+<!ENTITY faqMenu.label "FAQ">
+<!ENTITY faqmenu.accesskey "F">
+<!ENTITY bugReportsMenu.label "Fejlrapporter og forslag">
+<!ENTITY bugreportsmenu.accesskey "F">
+<!ENTITY nvudevOrgMenu.label "Udviklerforum">
+<!ENTITY nvudevorgmenu.accesskey "U">
+<!ENTITY nvuForumsMenu.label "Dansk hjælpeforum">
+<!ENTITY nvuforumsmenu.accesskey "o">
+<!ENTITY supportKompoZer.label     "Support &brandShortName;">
+<!ENTITY supportKompoZer.accesskey "s">
+<!ENTITY tipofthedayMenu.label "Dagens tip">
+<!ENTITY tipofthedaymenu.accesskey "T">
+<!ENTITY aboutMenu.label "Om &brandShortName;">
+<!ENTITY aboutmenu.accesskey "Z">
+<!ENTITY localizingnvu.accesskey "o">
+<!ENTITY localizingNvu.label "Lokalisering af &brandShortName;">
+<!ENTITY userGuideMenu.label "Brugermanual (på engelsk)">
+<!ENTITY userguidemenu.accesskey "u">
+<!ENTITY aboutLinspire.label "Om Linspire Inc.">
+<!ENTITY aboutlinspire.accesskey "L">
+<!ENTITY aboutDI.label "Om Disruptive Innovations">
+<!ENTITY aboutDI.accesskey "I">
+<!ENTITY leftGlued.tooltip "Hæft til venstre kant">
+<!ENTITY rightGlued.tooltip "Hæft til højre kant">
+<!ENTITY centerGlued.tooltip "Centrer">
+<!ENTITY topGlued.tooltip "Hæft til toppen">
+<!ENTITY bottomGlued.tooltip "Hæft til bunden">
+<!ENTITY middleGlued.tooltip "Hæft til midten">
+<!ENTITY spellSuggestions.label "Staveforslag">
+<!ENTITY spellSuggestions.accesskey "S">
+<!ENTITY spellAddToDictionary.label "Tilføj til ordbog">

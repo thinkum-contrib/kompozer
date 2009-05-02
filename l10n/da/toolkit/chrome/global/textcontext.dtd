@@ -1,0 +1,19 @@
+<!ENTITY cutCmd.label "Klip">
+<!ENTITY cutCmd.accesskey "K">
+<!ENTITY copyCmd.label "Kopier">
+<!ENTITY copyCmd.accesskey "o">
+<!ENTITY pasteCmd.label "Indsæt">
+<!ENTITY pasteCmd.accesskey "æ">
+<!ENTITY undoCmd.label "Fortryd">
+<!ENTITY undoCmd.accesskey "F">
+<!ENTITY selectAllCmd.label "Marker alt">
+<!ENTITY selectAllCmd.accesskey "M">
+<!ENTITY deleteCmd.label "Slet">
+<!ENTITY deleteCmd.accesskey "S">
+<!ENTITY spellAddToDictionary.label "Føj til ordbog">
+<!ENTITY spellAddToDictionary.accesskey "t">
+<!ENTITY spellEnable.label "Kontroller stavning i dette felt">
+<!ENTITY spellEnable.accesskey "s">
+<!ENTITY spellNoSuggestions.label "(ingen forslag)">
+<!ENTITY spellDictionaries.label "Sprog">
+<!ENTITY spellDictionaries.accesskey "g">

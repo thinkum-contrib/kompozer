@@ -1,0 +1,22 @@
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "Find på denne side">
+<!ENTITY findDialogFrame.title "Find i denne ramme">
+<!ENTITY findField.label "Find tekst:">
+<!ENTITY findField.accesskey "t">
+<!ENTITY caseSensitiveCheckbox.label "Forskel på store og små bogstaver">
+<!ENTITY caseSensitiveCheckbox.accesskey "T">
+<!ENTITY wrapCheckbox.label "Ombryd linjer">
+<!ENTITY wrapCheckbox.accesskey "m">
+<!ENTITY backwardsCheckbox.label "Søg bagud">
+<!ENTITY backwardsCheckbox.accesskey "S">
+<!ENTITY findField.tooltip "Skriv et eller flere ord som du vil søge efter">
+<!ENTITY findButton.label "Find næste">
+<!ENTITY findButton.accesskey "F">
+<!ENTITY cancelButton.label "Annuller">
+<!ENTITY closeButton.label "Luk">
+<!ENTITY up.label "Op">
+<!ENTITY up.accesskey "O">
+<!ENTITY down.label "Ned">
+<!ENTITY down.accesskey "N">
+<!ENTITY direction.label "Retning">

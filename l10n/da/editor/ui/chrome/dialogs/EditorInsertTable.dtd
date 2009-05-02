@@ -1,0 +1,53 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+<!-- Window title -->
+<!ENTITY windowTitle.label "Indsæt tabel">
+<!ENTITY size.label "Størrelse">
+<!ENTITY numRowsEditField.label "Rækker:">
+<!ENTITY numRowsEditField.accessKey "R">
+<!ENTITY numColumnsEditField.label "Kolonner:">
+<!ENTITY numColumnsEditField.accessKey "K">
+<!ENTITY widthEditField.label "Bredde:">
+<!ENTITY widthEditField.accessKey "B">
+<!ENTITY borderEditField.label "Ramme:">
+<!ENTITY borderEditField.accessKey "m">
+<!ENTITY borderEditField.tooltip "Skriv størrelsen på tabellens ramme, eller skriv nul (0) for ingen ramme">
+<!ENTITY pixels.label "pixels">
+
+<!ENTITY quicklyTab.label "Hurtig">
+<!ENTITY preciselyTab.label "Præcis">
+<!ENTITY cellTab.label "Celle">
+<!ENTITY horizAlignment.label "Juster vandret:">
+<!ENTITY unspecifiedHAlignment.label "Ikke angivet">
+<!ENTITY leftHAlignment.label "Venstre">
+<!ENTITY centerHAlignment.label "Centrer">
+<!ENTITY rightHAlignment.label "Højre">
+<!ENTITY vertAlignment.label "Juster lodret:">
+<!ENTITY unspecifiedVAlignment.label "Ikke angivet">
+<!ENTITY topVAlignment.label "Top">
+<!ENTITY middleVAlignment.label "Midt">
+<!ENTITY bottomVAlignment.label "Bund">
+<!ENTITY textWrapping.label "Tekstombrydning:">
+<!ENTITY wrapWrapping.label "Ombryd">
+<!ENTITY nowrapWrapping.label "Ombryd ikke">
+<!ENTITY cellSpacing.label "Celleafstand">
+<!ENTITY cellPadding.label "Celleafstand">

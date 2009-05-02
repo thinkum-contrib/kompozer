@@ -1,0 +1,68 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Overfør side">
+<!ENTITY windowTitleSettings.label "Overførselsindstillinger">
+<!ENTITY publishTab.label "Overfør">
+<!ENTITY settingsTab.label "Indstillinger">
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label "Stedets navn:">
+<!ENTITY siteList.tooltip "Vælg den side som du vil udgive til">
+<!ENTITY newSiteButton.label "Nyt sted">
+<!ENTITY siteDirList.label "Vælg eller skriv et mappenavn i dit overførselssted:">
+<!ENTITY siteDirList.tooltip "Vælg eller indtast navnet på den fjerne undermappe hvor filerne skal udgives">
+<!ENTITY docDirList.label "Stedets undermappe til denne side:">
+<!ENTITY publishImgCheckbox.label "Inkluder billeder og andre filer">
+<!ENTITY publishImgCheckbox.tooltip "Udgiv billeder og andre filer som er linket til denne side">
+<!ENTITY sameLocationRadio.label "Placer sammen med siden">
+<!ENTITY sameLocationRadio.tooltip "Udgiv filer til det samme sted som siden">
+<!ENTITY useSubdirRadio.label "Brug denne undermappe">
+<!ENTITY useSubdir.tooltip "Vælg eller indtast navnet på den fjerne undermappe hvor filerne skal udgives">
+<!ENTITY chooseDirButton.label "Vælg...">
+<!ENTITY pageTitle.label "Sidetitel:">
+<!ENTITY pageTitle.tooltip "Indtast en titel for at identificere siden i vinduet og i bogmærker">
+<!ENTITY pageTitleExample.label "fx: &quot;Min hjemmeside&quot;">
+<!ENTITY filename.label "Filnavn:">
+<!ENTITY filename.tooltip "Indtast et navn for denne fil, inklusiv '.html' for hjemmeside-filer">
+<!ENTITY filenameExample.label    "fx: &quot;minhjemmeside.html&quot;">
+<!ENTITY relatedDocs.label "Andre filer der skal overføres">
+<!ENTITY setDefaultButton.label "Vælg som standard">
+<!ENTITY setDefSiteAndDir.label "Sæt som standard-sted og -mappe">
+<!ENTITY removeButton.label "Fjern sted">
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label "Overførselssteder">
+<!ENTITY serverInfo.label "Serveroplysninger">
+<!ENTITY loginInfo.label "Login-information">
+<!ENTITY siteName.label "Stedets navn:">
+<!ENTITY siteName.tooltip "Et kaldenavn som kendetegner den udgivne side (fx: 'Min side')">
+<!ENTITY siteUrl.label "Overførsels-URL (Modtaget fra din ISP eller systemadministrator):">
+<!ENTITY siteUrl.tooltip "Den FTP://- eller HTTP://-adresse som du har fået af din internet-udbyder">
+<!ENTITY browseUrl.label      "Din hjemmesides adresse, fx: 'http://www.minhjemmeside.dk':">
+<!ENTITY browseUrl.tooltip "HTTP://-adressen til din hjemmeside (uden filnavn)">
+<!ENTITY username.label "Brugernavn:">
+<!ENTITY username.tooltip "Brugernavnet som du bruger til at koble på dit webhotel">
+<!ENTITY password.label "Adgangskode:">
+<!ENTITY password.tooltip "Adgangskoden som passer til dit brugenavn">
+<!ENTITY savePassword.label "Gem adgangskode">
+<!ENTITY savePassword.tooltip "Vælg dette for at gemme din adganskode sikkert ved hjælp af Adgangskodehåndtering">
+<!ENTITY selectDirectory.label "Vælg mappe">
