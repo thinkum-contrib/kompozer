@@ -1,0 +1,10 @@
+<!ENTITY adjustDesc.label "Uprav odkazy tak, aby fungovaly z místa, kde je stránka uložena. (Odkazy na lokální stránky budou fungovat, pokud budou lokální stránky existovat.)">
+<!ENTITY composerHeader.label "Zveřejnění">
+<!ENTITY defaultHeader.label "Výchozí místo zveřejnění">
+<!ENTITY keepCheck.label "Ukládat obrázky se stránkou">
+<!ENTITY maintainCheckbox.label "Udržovat odkazy">
+<!ENTITY publishFtp.label "Při zveřejnění na serveru FTP zadejte HTTP adresu pro prohlížeč:">
+<!ENTITY publishhtp.label "Při zveřejnění na serveru FTP zadejte HTTP adresu pro prohlížeč:">
+<!ENTITY saveDesc.label "Ulož kopie obrázků na místo, kde je stránka umístěna. Tyto obrázky se budou vždy objevovat v lokálních verzích této stránky a když bude stránka publikována.">
+<!ENTITY tip.label "Tip: Pokud budete používat vzdálené uveřejnění, zaškrtněte obě možnosti.">
+<!ENTITY window.title "Zveřejnění">

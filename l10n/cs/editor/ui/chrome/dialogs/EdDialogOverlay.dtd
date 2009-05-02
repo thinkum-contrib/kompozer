@@ -1,0 +1,12 @@
+<!ENTITY AdvancedEditButton.accessKey "R">
+<!ENTITY AdvancedEditButton.label "Rozšířené úpravy...">
+<!ENTITY AdvancedEditButton.tooltip "Vložení či změna vlastností HTML, stylu a JavaScriptu">
+<!ENTITY LinkURLEditField.accessKey "m">
+<!ENTITY LinkURLEditField.label "Zadejte umístění stránky, místní soubor, e-mailovou adresu nebo vyberte pojmenovanou kotvu nebo záhlaví ze seznamu:">
+<!ENTITY chooseButton.label "Vybrat soubor...">
+<!ENTITY chooseFile.accessKey "s">
+<!ENTITY chooseFileLink.accessKey "o">
+<!ENTITY makeUrlRelative.accessKey "U">
+<!ENTITY makeUrlRelative.label "URL je relativní k adrese stránky">
+<!ENTITY makeUrlRelative.tooltip "Změní URL na relativní nebo absolutní. Před změnou je nejprve nutné uložit stránku.">
+<!ENTITY isMailAddress.label "Text je e-mailovou adresou">

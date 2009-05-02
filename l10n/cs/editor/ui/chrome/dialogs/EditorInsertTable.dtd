@@ -1,0 +1,30 @@
+<!ENTITY borderEditField.accessKey "R">
+<!ENTITY borderEditField.label "Rámeček:">
+<!ENTITY borderEditField.tooltip "Vložení čísla představujícího tloušťku rámečku v bodech. Nepoužití rámečku lze znázornit nulou (0).">
+<!ENTITY bottomVAlignment.label "Dole">
+<!ENTITY cellPadding.label "Šířka okraje">
+<!ENTITY cellSpacing.label "Šířka rozteče">
+<!ENTITY cellTab.label "Buňka">
+<!ENTITY centerHAlignment.label "Střed">
+<!ENTITY horizAlignment.label "Horiz. zarovnání">
+<!ENTITY leftHAlignment.label "Vlevo">
+<!ENTITY middleVAlignment.label "Střed">
+<!ENTITY nowrapWrapping.label "Nezalamovat">
+<!ENTITY numColumnsEditField.accessKey "c">
+<!ENTITY numColumnsEditField.label "Sloupců:">
+<!ENTITY numRowsEditField.accessKey "d">
+<!ENTITY numRowsEditField.label "Řádků:">
+<!ENTITY pixels.label "bodů">
+<!ENTITY preciselyTab.label "Přesné">
+<!ENTITY quicklyTab.label "Rychle">
+<!ENTITY rightHAlignment.label "Vlevo">
+<!ENTITY size.label "Velikost">
+<!ENTITY textWrapping.label "Zalamovaní textu">
+<!ENTITY topVAlignment.label "Nahoře">
+<!ENTITY unspecifiedHAlignment.label "Nespecifikované">
+<!ENTITY unspecifiedVAlignment.label "Nespecifikované">
+<!ENTITY vertAlignment.label "Vert. zarovnání">
+<!ENTITY widthEditField.accessKey "k">
+<!ENTITY widthEditField.label "Šířka:">
+<!ENTITY windowTitle.label "Vložit tabulku">
+<!ENTITY wrapWrapping.label "Zalamovat">

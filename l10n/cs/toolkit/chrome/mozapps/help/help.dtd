@@ -1,0 +1,46 @@
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+
+<!ENTITY backButton.label "Zpět">
+<!ENTITY backButton.accesskey "Z">
+<!ENTITY backButton.tooltip "Přejde o jednu stránku zpět">
+<!ENTITY forwardButton.label "Vpřed">
+<!ENTITY forwardButton.accesskey "V">
+<!ENTITY forwardButton.tooltip "Přejde na následující stránku">
+<!ENTITY copyCmd.label "Kopírovat">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY selectAllCmd.label "Vybrat vše">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "Domů">
+<!ENTITY homeButton.tooltip "Přejde na hlavní stránku nápovědy">
+<!ENTITY printButton.label "Tisk">
+<!ENTITY printButton.tooltip "Vytiskne tuto stránku">
+<!ENTITY closeWindow.commandkey "W">
+
+<!ENTITY throbberItem.title "Průběh">
+<!ENTITY throbber.tooltip "Přejde do kapitoly Jak používat nápovědu">
+
+<!ENTITY searchtab.label "Hledat">
+<!ENTITY searchtab.accesskey "H">
+<!ENTITY toctab.label "Obsah">
+<!ENTITY toctab.accesskey "O">
+
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+"><!-- + is above this key on many keyboards -->
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!ENTITY helpSearch.commandkey          "k">
+
+<!ENTITY zLevel.label "Vždy navrchu">
+<!ENTITY zLevel.accesskey "d">
+
+<!ENTITY textZoomReduceBtn.label        "Zvětšit velikost textu">
+<!ENTITY textZoomReduceBtn.accesskey    "v">
+<!ENTITY textZoomEnlargeBtn.label       "Zmenšit velikost textu">
+<!ENTITY textZoomEnlargeBtn.accesskey   "m">

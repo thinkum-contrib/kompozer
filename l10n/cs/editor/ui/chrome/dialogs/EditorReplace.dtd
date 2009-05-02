@@ -1,0 +1,21 @@
+<!ENTITY backwardsCheckbox.accesskey "p">
+<!ENTITY backwardsCheckbox.label "Hledat pozpátku">
+<!ENTITY caseSensitiveCheckbox.accesskey "l">
+<!ENTITY caseSensitiveCheckbox.label "Rozlišovat malá/velká písmena">
+<!ENTITY closeButton.label "Zavřít">
+<!ENTITY findField.accesskey "N">
+<!ENTITY findField.label "Najít:">
+<!ENTITY findNextButton.accesskey "d">
+<!ENTITY findNextButton.label "Najít další">
+<!ENTITY notFoundWarning.label "Hledaný text nebyl nalezen.">
+<!ENTITY replaceAllButton.accesskey "v">
+<!ENTITY replaceAllButton.label "Nahradit vše">
+<!ENTITY replaceAndFindButton.accesskey "i">
+<!ENTITY replaceAndFindButton.label "Nahradit a najít">
+<!ENTITY replaceButton.accesskey "R">
+<!ENTITY replaceButton.label "Nahradit">
+<!ENTITY replaceDialog.title "Najít a nahradit">
+<!ENTITY replaceField.accesskey "h">
+<!ENTITY replaceField.label "Nahradit čím:">
+<!ENTITY wrapCheckbox.accesskey "Z">
+<!ENTITY wrapCheckbox.label "Zalamovat">

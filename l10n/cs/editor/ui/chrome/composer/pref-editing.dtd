@@ -1,0 +1,42 @@
+<!ENTITY lHeader "Nová stránka">
+<!ENTITY rHeader "Výchozí pro nové stránky">
+
+<!ENTITY authorName.accesskey "u">
+<!ENTITY authorName.label "Autor:">
+<!ENTITY pageColorHeader "Výchozí vzhled stránky">
+
+
+<!ENTITY customColors.accesskey "p">
+<!ENTITY customColorsRadio.label "Použít vlastní barvy:">
+<!ENTITY defaultCharset.label "Znaková sada">
+<!ENTITY defaultColors.accesskey "n">
+
+<!ENTITY normalText.accesskey "n">
+<!ENTITY normalText.label "Běžný text">
+<!ENTITY linkText.accesskey "O">
+<!ENTITY linkText.label "Odkaz">
+<!ENTITY activeLinkText.accesskey "A">
+<!ENTITY activeLinkText.label "Aktivní odkaz">
+<!ENTITY visitedLinkText.accesskey "v">
+<!ENTITY visitedLinkText.label "Navštívený odkaz">
+<!ENTITY background.accesskey "P">
+<!ENTITY background.label "Pozadí:">
+<!ENTITY colon.character ":">
+
+<!ENTITY backgroundImage.accesskey "b">
+<!ENTITY backgroundImage.label "Obrázek na pozadí:">
+<!ENTITY chooseFile.accesskey "s">
+<!ENTITY chooseFile.label "Vybrat soubor...">
+
+<!ENTITY i18nHeader "Mezinárodní nastavení">
+
+<!ENTITY writingDirection.label "Směr psaní">
+<!ENTITY defaultDirectionRadio.label "Není specifikován směr">
+<!ENTITY ltrDirectionRadio.label "Zleva doprava">
+<!ENTITY rtlDirectionRadio.label "Zprava doleva">
+
+<!ENTITY language.label "Jazyk:">
+<!ENTITY languageChoiceButton.label "Vyberte jazyk">
+
+<!ENTITY defaultColorsRadio.label "Neurčovat barvy (nenastavovat barvy na stránce)">
+<!ENTITY chooseCharsetButton.label "Vybrat kodování">

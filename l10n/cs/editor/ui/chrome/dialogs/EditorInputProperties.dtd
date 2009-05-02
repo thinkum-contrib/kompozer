@@ -1,0 +1,41 @@
+<!ENTITY Accept.accesskey "a">
+<!ENTITY Accept.label "Akceptovat typy:">
+<!ENTITY AccessKey.accesskey "K">
+<!ENTITY AccessKey.label "Přístupová klávesa:">
+<!ENTITY GroupName.label "Název skupiny:">
+<!ENTITY ImageProperties.accesskey "o">
+<!ENTITY ImageProperties.label "Vlastnosti obrázku:">
+<!ENTITY InitialValue.label "Počáteční hodnota:">
+<!ENTITY InputChecked.accesskey "Z">
+<!ENTITY InputChecked.label "Zaškrtnuto">
+<!ENTITY InputDisabled.accesskey "n">
+<!ENTITY InputDisabled.label "Vypnuto">
+<!ENTITY InputName.label "Název pole:">
+<!ENTITY InputReadOnly.accesskey "t">
+<!ENTITY InputReadOnly.label "Pouze pro čtení">
+<!ENTITY InputSelected.accesskey "b">
+<!ENTITY InputSelected.label "Vybráno">
+<!ENTITY InputSettings.label "Nastavení pole">
+<!ENTITY InputType.accesskey "p">
+<!ENTITY InputType.label "Typ pole">
+<!ENTITY InputValue.label "Hodnota pole:">
+<!ENTITY Name.accesskey "N">
+<!ENTITY TextLength.accesskey "m">
+<!ENTITY TextLength.label "Maximální délka:">
+<!ENTITY TextSize.accesskey "V">
+<!ENTITY TextSize.label "Velikost pole:">
+<!ENTITY Value.accesskey "H">
+<!ENTITY button.value "Tlačítko">
+<!ENTITY checkbox.value "Zaškrtávací tlačítko">
+<!ENTITY file.value "Soubor">
+<!ENTITY hidden.value "Skrytý">
+<!ENTITY image.value "Obrázek">
+<!ENTITY password.value "Heslo">
+<!ENTITY radio.value "Výběrové tlačítko">
+<!ENTITY reset.value "Tlačítko pro obnovení">
+<!ENTITY submit.value "Tlačítko pro odeslání">
+<!ENTITY tabIndex.accesskey "I">
+<!ENTITY tabIndex.label "Index pro tab:">
+<!ENTITY text.value "Text">
+<!ENTITY windowTitle.label "Vlastnosti položky formuláře">
+<!ENTITY windowTitleImage.label "Vlastnosti obrázku formuláře">

@@ -1,0 +1,39 @@
+<!ENTITY AddOptGroup.accesskey "s">
+<!ENTITY AddOptGroup.label "Přidat skupinu">
+<!ENTITY AddOption.accesskey "o">
+<!ENTITY AddOption.label "Přidat volbu">
+<!ENTITY MoveElementDown.accesskey "n">
+<!ENTITY MoveElementDown.label "Přesunout níže">
+<!ENTITY MoveElementUp.accesskey "v">
+<!ENTITY MoveElementUp.label "Přesunout výše">
+<!ENTITY OptGroup.label "Skupina voleb">
+<!ENTITY OptGroupDisabled.accesskey "Z">
+<!ENTITY OptGroupDisabled.label "Zakázáno">
+<!ENTITY OptGroupLabel.accesskey "n">
+<!ENTITY OptGroupLabel.label "Označení:">
+<!ENTITY Option.label "Volba">
+<!ENTITY OptionDisabled.accesskey "Z">
+<!ENTITY OptionDisabled.label "Zakázáno">
+<!ENTITY OptionSelected.accesskey "h">
+<!ENTITY OptionSelected.label "Výchozí volba">
+<!ENTITY OptionText.accesskey "T">
+<!ENTITY OptionText.label "Text">
+<!ENTITY OptionValue.accesskey "H">
+<!ENTITY OptionValue.label "Hodnota:">
+<!ENTITY RemoveElement.accesskey "r">
+<!ENTITY RemoveElement.label "Odebrat">
+<!ENTITY Select.label "Seznam výběru">
+<!ENTITY SelectDisabled.accesskey "Z">
+<!ENTITY SelectDisabled.label "Zakázáno">
+<!ENTITY SelectMultiple.accesskey "c">
+<!ENTITY SelectMultiple.label "Vícenásobný výběr">
+<!ENTITY SelectName.accesskey "N">
+<!ENTITY SelectName.label "Název seznamu:">
+<!ENTITY SelectSize.accesskey "V">
+<!ENTITY SelectSize.label "Výška:">
+<!ENTITY SelectTabIndex.accesskey "I">
+<!ENTITY SelectTabIndex.label "Index pro tab:">
+<!ENTITY SelectedHeader.label "Vybráno">
+<!ENTITY TextHeader.label "Text">
+<!ENTITY ValueHeader.label "Hodnota">
+<!ENTITY windowTitle.label "Vlastnosti výběrového seznamu">

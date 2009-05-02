@@ -1,0 +1,11 @@
+<!ENTITY areaName.label "Jméno oblasti">
+<!ENTITY areaType.label "Typ oblasti">
+<!ENTITY blockAreaRadio.label "Blok">
+<!ENTITY flowAreaRadio.label "Tok textu">
+<!ENTITY movableAreaCheckbox.label "Pohyblivá oblast">
+<!ENTITY optionalAreaCheckbox.label "Optimální oblast">
+<!ENTITY options.label "Nastavení">
+<!ENTITY provideId.label "Prosím dej jméno této editvané oblasti:">
+<!ENTITY repeatableAreaCheckbox.label "Oblast je opakovatelná">
+<!ENTITY warning.label "Upozornění, toto jméno je již použité!!!!">
+<!ENTITY window.title "Vložit do editované oblasti">

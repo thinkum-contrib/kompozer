@@ -1,0 +1,32 @@
+<!ENTITY addToUserDictionaryButton.accessKey "d">
+<!ENTITY addToUserDictionaryButton.label "Přidat výraz">
+<!ENTITY checkwordButton.accessKey "O">
+<!ENTITY checkwordButton.label "Ověřit pravopis">
+<!ENTITY closeButton.accessKey "Z">
+<!ENTITY closeButton.label "Zavřít">
+<!ENTITY editUserDictionaryButton.accessKey "U">
+<!ENTITY editUserDictionaryButton.label "Upravit...">
+<!ENTITY ignoreAllButton.accessKey "n">
+<!ENTITY ignoreAllButton.label "Ignorovat vše">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreButton.label "Ignorovat">
+<!ENTITY languagePopup.accessKey "J">
+<!ENTITY languagePopup.label "Jazyk:">
+<!ENTITY misspelledWord.label "Sporný pravopis:">
+<!ENTITY moreDictionaries.label "Získat další">
+<!ENTITY recheckButton.accessKey "P">
+<!ENTITY recheckButton.label "Překontrolovat">
+<!ENTITY replaceAllButton.accessKey "v">
+<!ENTITY replaceAllButton.label "Nahradit vše">
+<!ENTITY replaceButton.accessKey "h">
+<!ENTITY replaceButton.label "Nahradit">
+<!ENTITY sendButton.accessKey "s">
+<!ENTITY sendButton.label "Odeslat">
+<!ENTITY stopButton.accessKey "t">
+<!ENTITY stopButton.label "Zastavit">
+<!ENTITY suggestions.accessKey "r">
+<!ENTITY suggestions.label "Návrhy:">
+<!ENTITY userDictionary.label "Uživatelský slovník:">
+<!ENTITY windowTitle.label "Kontrola pravopisu">
+<!ENTITY wordEditField.accessKey "m">
+<!ENTITY wordEditField.label "Změnit na:">

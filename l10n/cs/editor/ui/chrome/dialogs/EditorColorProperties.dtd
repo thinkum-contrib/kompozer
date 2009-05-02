@@ -1,0 +1,22 @@
+<!ENTITY activeLinkText.accessKey "A">
+<!ENTITY activeLinkText.label "Aktivní odkaz">
+<!ENTITY background.accessKey "P">
+<!ENTITY background.label "Pozadí">
+<!ENTITY backgroundImage.accessKey "O">
+<!ENTITY backgroundImage.label "Obrázek na pozadí">
+<!ENTITY backgroundImage.tooltip "Výběr souboru s obrázkem pro pozadí stránky">
+<!ENTITY colon.character ":">
+<!ENTITY customColorsRadio.accessKey "u">
+<!ENTITY customColorsRadio.label "Použít vlastní barvy">
+<!ENTITY customColorsRadio.tooltip "Použít vždy toto nastavení barev bez ohledu na nastavení aktuálního prohlížeče">
+<!ENTITY defaultColorsRadio.accessKey "N">
+<!ENTITY defaultColorsRadio.label "Neurčovat barvy (nenastavovat barvy na stránce)">
+<!ENTITY defaultColorsRadio.tooltip "Použije vždy nastavení barev z aktuálního prohlížeče">
+<!ENTITY linkText.accessKey "d">
+<!ENTITY linkText.label "Odkaz">
+<!ENTITY normalText.accessKey "B">
+<!ENTITY normalText.label "Běžný text">
+<!ENTITY pageColors.label "Barvy na stránce">
+<!ENTITY visitedLinkText.accessKey "v">
+<!ENTITY visitedLinkText.label "Navštívený odkaz">
+<!ENTITY windowTitle.label "Barvy a pozadí stránky">

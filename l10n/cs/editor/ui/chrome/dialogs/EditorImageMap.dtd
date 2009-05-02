@@ -1,0 +1,48 @@
+<!ENTITY about.accesskey "b">
+<!ENTITY aboutCmd.label "O aplikaci">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY clear.accesskey "d">
+<!ENTITY clearCmd.label "Odstranit">
+<!ENTITY close.accesskey "l">
+<!ENTITY closeCmd.label "Zavřít">
+<!ENTITY contrast.accesskey "n">
+<!ENTITY contrastCmd.label "Kontrast">
+<!ENTITY copy.accesskey "k">
+<!ENTITY copyCmd.label "Kopírovat">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY cut.accesskey "v">
+<!ENTITY cutCmd.label "Vyjmout">
+<!ENTITY delSpotCmd.label "Smazat Spot">
+<!ENTITY mapeditMenu.label "Úpravy">
+<!ENTITY mapeditcopy.accesskey "K">
+<!ENTITY mapeditcut.accesskey "V">
+<!ENTITY mapeditmenu.accesskey "p">
+<!ENTITY mapeditpaste.accesskey "l">
+<!ENTITY mapeditprops.accesskey "o">
+<!ENTITY mapfileMenu.label "Soubor">
+<!ENTITY mapfileclear.accesskey "a">
+<!ENTITY mapfileclose.accesskey "c">
+<!ENTITY mapfilemenu.accesskey "s">
+<!ENTITY maphelpMenu.label "Nápověda">
+<!ENTITY maphelpmenu.accesskey "v">
+<!ENTITY mapselectall.accesskey "a">
+<!ENTITY mapviewMenu.label "Zobrazit">
+<!ENTITY mapviewScale.label "Měřítko">
+<!ENTITY mapviewmenu.accesskey "Z">
+<!ENTITY mapviewscale.accesskey "M">
+<!ENTITY mapviewtbar.accesskey "t">
+<!ENTITY paste.accesskey "v">
+<!ENTITY pasteCmd.label "Vložit">
+<!ENTITY props.accesskey "p">
+<!ENTITY propsCmd.label "Vlastnosti oblasti">
+<!ENTITY selectall.accesskey "a">
+<!ENTITY selectallCmd.label "Vybrat vše">
+<!ENTITY showhideTbarCmd.label "Skrýt nástroje">
+<!ENTITY tbar.accesskey "t">
+<!ENTITY windowTitle.label "Úprava obrazových map">
+<!ENTITY zoominCmd.label "Přiblížit">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY zoomoutCmd.label "Oddálit">
+<!ENTITY zoomthree.accesskey "4">
+<!ENTITY zoomtwo.accesskey "2">

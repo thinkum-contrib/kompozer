@@ -1,0 +1,26 @@
+<!ENTITY InitialText.accessKey "t">
+<!ENTITY InitialText.label "Výchozí text:">
+<!ENTITY Settings.label "Nastavení">
+<!ENTITY TextAreaAccessKey.accessKey "k">
+<!ENTITY TextAreaAccessKey.label "Přístupový klíč:">
+<!ENTITY TextAreaCols.accessKey "S">
+<!ENTITY TextAreaCols.label "Sloupců:">
+<!ENTITY TextAreaDisabled.accessKey "V">
+<!ENTITY TextAreaDisabled.label "Vypnuto">
+<!ENTITY TextAreaName.accessKey "N">
+<!ENTITY TextAreaName.label "Název pole:">
+<!ENTITY TextAreaReadOnly.accessKey "r">
+<!ENTITY TextAreaReadOnly.label "Pouze pro čtení">
+<!ENTITY TextAreaRows.accessKey "d">
+<!ENTITY TextAreaRows.label "Řádků:">
+<!ENTITY TextAreaTabIndex.accessKey "I">
+<!ENTITY TextAreaTabIndex.label "Index pro tab:">
+<!ENTITY TextAreaWrap.accessKey "z">
+<!ENTITY TextAreaWrap.label "Druh zalamování:">
+<!ENTITY WrapDefault.value "Výchozí">
+<!ENTITY WrapHard.value "Tvrdé">
+<!ENTITY WrapOff.value "Vypnuto">
+<!ENTITY WrapPhysical.value "Fyzické">
+<!ENTITY WrapSoft.value "Měkké">
+<!ENTITY WrapVirtual.value "Virtuální">
+<!ENTITY windowTitle.label "Vlastnosti textového pole">

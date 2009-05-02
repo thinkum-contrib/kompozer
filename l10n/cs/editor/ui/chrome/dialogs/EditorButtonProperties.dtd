@@ -1,0 +1,19 @@
+<!ENTITY AccessKey.accesskey "k">
+<!ENTITY AccessKey.label "Přístupová klávesa:">
+<!ENTITY ButtonDisabled.accesskey "Z">
+<!ENTITY ButtonDisabled.label "Zakázáno">
+<!ENTITY ButtonName.accesskey "N">
+<!ENTITY ButtonName.label "Název:">
+<!ENTITY ButtonType.accesskey "T">
+<!ENTITY ButtonType.label "Typ">
+<!ENTITY ButtonValue.accesskey "H">
+<!ENTITY ButtonValue.label "Hodnota:">
+<!ENTITY RemoveButton.accesskey "r">
+<!ENTITY RemoveButton.label "Odebrat tlačítko">
+<!ENTITY Settings.label "Nastavení">
+<!ENTITY button.value "Tlačítko">
+<!ENTITY reset.value "Obnovit">
+<!ENTITY submit.value "Odeslat">
+<!ENTITY tabIndex.accesskey "I">
+<!ENTITY tabIndex.label "Index pro tab:">
+<!ENTITY windowTitle.label "Vlastnosti tlačítka">

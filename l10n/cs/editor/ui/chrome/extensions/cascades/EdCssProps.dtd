@@ -1,0 +1,256 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -   Polish translator: Zbigniew Braniecki (gandalf@e-gandalf.net)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+      
+<!ENTITY Window.title "CSS Editor">
+
+<!ENTITY absolutePosition.label "absolutní">
+<!ENTITY auralTab.label "Ušní">
+<!ENTITY autoOverflow.label "automaticky">
+<!ENTITY backgroundAttachmentCheckbox.label "Obrázek se roluje spolu se stránkou.">
+<!ENTITY backgroundColor.label "Barva:">
+<!ENTITY backgroundImage.label "Obrázek:">
+<!ENTITY backgroundPosition.label "Pozice:">
+<!ENTITY backgroundRepeat.label "Název:">
+<!ENTITY backgroundTab.label "Pozadí">
+<!ENTITY blinkTextDecoration.label "Přerušovaný">
+<!ENTITY blockDisplay.label "blok">
+<!ENTITY boldValue.label "Tučný">
+<!ENTITY bolderValue.label "Okraj">
+<!ENTITY borderColor.label "Barva:">
+<!ENTITY borderPreview.label "Náhled">
+<!ENTITY borderStyle.label "Styl:">
+<!ENTITY borderTab.label "Okraj">
+<!ENTITY borderWidth.label "Šířka:">
+<!ENTITY bothClear.label "obojí">
+<!ENTITY bottom.label "Dole:">
+<!ENTITY bottomBorder.label "Dole:">
+<!ENTITY bottomYBackgroundPosition.label "Dole">
+<!ENTITY boxTab.label "Pouzdro">
+<!ENTITY capitalizeValue.label "Velké počáteční písmeno">
+<!ENTITY centerTextAlign.label "Střed">
+<!ENTITY centerXBackgroundPosition.label "Střed">
+<!ENTITY centerYBackgroundPosition.label "Střed">
+<!ENTITY chooseFileButton.label "Vyber soubor">
+<!ENTITY clear.label "Vyčistit:">
+<!ENTITY closeButton.label "Zavřít">
+<!ENTITY collapseVisibility.label "pád">
+<!ENTITY color.label "Barva:">
+<!ENTITY compactDisplay.label "kompaktní">
+<!ENTITY compatibilityTab.label "Kompatibilita">
+<!ENTITY cueAfter.label "Vložit potom:">
+<!ENTITY cueBefore.label "Vložit před:">
+<!ENTITY dashedBorderStyle.label "zatracený">
+<!ENTITY display.label "Zobrazení:">
+<!ENTITY dottedBorderStyle.label "bodový">
+<!ENTITY doubleBorderStyle.label "dvojí">
+<!ENTITY downButton.label "Dolů">
+<!ENTITY exampleSentence.label "Rychlá hnědá liška přeskočila přes líného psa.">
+<!ENTITY expertModeChecbox.label "Pro zkušené">
+<!ENTITY fastSpeechRate.label "rychlý">
+<!ENTITY fasterSpeechRate.label "rychleji">
+<!ENTITY fixedPosition.label "stabilní">
+<!ENTITY float.label "Zahájit:">
+<!ENTITY fontData.label "Údaje o fontu">
+<!ENTITY fontFamily.label "Skupina fontů:">
+<!ENTITY fontSize.label "Velikost fontu:">
+<!ENTITY fontStyle.label "Styl fontu:">
+<!ENTITY fontWeight.label "Velikost fontu:">
+<!ENTITY grooveBorderStyle.label "drážka">
+<!ENTITY height.label "Výška:">
+<!ENTITY hiddenBorderStyle.label "skrytý">
+<!ENTITY hiddenOverflow.label "skrytý">
+<!ENTITY hiddenVisibility.label "skrytý">
+<!ENTITY importRuleButton.label "@import">
+<!ENTITY inheritedFontFamily.label "dědičný">
+<!ENTITY inheritedValue.label "Dědičný">
+<!ENTITY inlineDisplay.label "v řadě za sebou">
+<!ENTITY inlinetableDisplay.label "v řadě-tabulka">
+<!ENTITY insetBorderStyle.label "vložit">
+<!ENTITY italicValue.label "Kurziva">
+<!ENTITY justifyTextAlign.label "Oprávněný">
+<!ENTITY largeFontSize.label "velký">
+<!ENTITY largerFontSize.label "větší">
+<!ENTITY left.label "Vlevo:">
+<!ENTITY leftBorder.label "Vlevo:">
+<!ENTITY leftClear.label "vlevo">
+<!ENTITY leftFloat.label "vlevo">
+<!ENTITY leftTextAlign.label "Vlevo">
+<!ENTITY leftXBackgroundPosition.label "Vlevo">
+<!ENTITY lighterValue.label "Lehčí">
+<!ENTITY lineHeight.label "Výška čáry:">
+<!ENTITY linethroughTextDecoration.label "Čára-průchozí">
+<!ENTITY linkedSheetButton.label "Načíst styl">
+<!ENTITY listitemDisplay.label "list-detail">
+<!ENTITY loudVolume.label "křiklavý">
+<!ENTITY lowercaseValue.label "Spustit událost">
+<!ENTITY margins.label "Vnější okraj:">
+<!ENTITY marginsTab.label "Vnější okraj">
+<!ENTITY maxHeight.label "Max-výška:">
+<!ENTITY maxWidth.label "Max-šířka:">
+<!ENTITY mediaRuleButton.label "@media">
+<!ENTITY mediumFontSize.label "prostředek">
+<!ENTITY mediumSpeechRate.label "prostředek">
+<!ENTITY mediumVolume.label "prostředek">
+<!ENTITY minHeight.label "Min-výška">
+<!ENTITY minWidth.label "Min-šířka:">
+<!ENTITY muteVolume.label "Ztlumit">
+<!ENTITY noneBorderStyle.label "žádný">
+<!ENTITY noneClear.label "žádný">
+<!ENTITY noneDisplay.label "žádný">
+<!ENTITY noneFloat.label "žádný">
+<!ENTITY noneSpeak.label "žádný">
+<!ENTITY noneTextDecoration.label "Žádný">
+<!ENTITY noneTextTransformValue.label "Bez změny">
+<!ENTITY norepeatBackgroundRepeat.label "Bez názvu">
+<!ENTITY normalLineHeight.label "normální">
+<!ENTITY normalSpeak.label "normální">
+<!ENTITY normalValue.label "Normální">
+<!ENTITY obliqueValue.label "Šikmý">
+<!ENTITY offsets.label "Ofsety:">
+<!ENTITY opacity.label "Průhlednost:">
+<!ENTITY outsetBorderStyle.label "začátek">
+<!ENTITY overflow.label "Přeplnění:">
+<!ENTITY overlineTextDecoration.label "Nadtržení">
+<!ENTITY paddings.label "Vnitřní okraj:">
+<!ENTITY pauseAfter.label "Pauza potom:">
+<!ENTITY pauseBefore.label "Pauza před:">
+<!ENTITY position.label "Pozice:">
+<!ENTITY predefFontFamilyRadio.label "předdefinovaný">
+<!ENTITY refreshButton.label "Obnovit">
+<!ENTITY relativePosition.label "relativní">
+<!ENTITY removeButton.label "Odstranit">
+<!ENTITY repeatBackgroundRepeat.label "vodorovně a svisle">
+<!ENTITY repeatxBackgroundRepeat.label "horizontálně">
+<!ENTITY repeatyBackgroundRepeat.label "svisle">
+<!ENTITY ridgeBorderStyle.label "hřbet">
+<!ENTITY right.label "Vpravo:">
+<!ENTITY rightBorder.label "Vpravo:">
+<!ENTITY rightClear.label "vpravo">
+<!ENTITY rightFloat.label "vpravo">
+<!ENTITY rightTextAlign.label "Vpravo">
+<!ENTITY rightXBackgroundPosition.label "Vpravo">
+<!ENTITY ruleButton.label "Pravidlo">
+<!ENTITY runinDisplay.label "spouštět-v">
+<!ENTITY scrollOverflow.label "rolovat">
+<!ENTITY sheetInfoTab.label "Obecné">
+<!ENTITY sheetsTreeColumn.label "Listy a pravidla">
+<!ENTITY slowSpeechRate.label "pomalý">
+<!ENTITY slowerSpeechRate.label "pomaleji">
+<!ENTITY smallFontSize.label "malý">
+<!ENTITY smallerFontSize.label "menší">
+<!ENTITY softVolume.label "snadný">
+<!ENTITY solidBorderStyle.label "pevný">
+<!ENTITY speak.label "Hovořit:">
+<!ENTITY speechRate.label "Rychlost-řeči">
+<!ENTITY spelloutSpeak.label "vysvětlit-detailně">
+<!ENTITY staticPosition.label "statický">
+<!ENTITY styleSheetButton.label "Nový styl">
+<!ENTITY tableDisplay.label "tabulka">
+<!ENTITY tablecaptionDisplay.label "tabulka-titulek">
+<!ENTITY tablecellDisplay.label "tabulka-buňka">
+<!ENTITY tablecolumnDisplay.label "tabulka-sloupec">
+<!ENTITY tablecolumngroupDisplay.label "tabulka-sloupec-skupina">
+<!ENTITY tablefootergroupDisplay.label "tabulka-záhlaví-skupina">
+<!ENTITY tableheadergroupDisplay.label "tabulka-záhlaví-skupina">
+<!ENTITY tablerowDisplay.label "tabulka-řádka">
+<!ENTITY tablerowgroupDisplay.label "tabulka-řádka-skupina">
+<!ENTITY textAlign.label "Vyrovnání:">
+<!ENTITY textDecoration.label "Ozdoba textu:">
+<!ENTITY textTab.label "Text">
+<!ENTITY textTransform.label "Argumenty:">
+<!ENTITY top.label "Nahoře:">
+<!ENTITY topBorder.label "Nahoře:">
+<!ENTITY topYBackgroundPosition.label "Nahoře">
+<!ENTITY transparentOpacity.label "transparentní">
+<!ENTITY underlineTextDecoration.label "Podtržené">
+<!ENTITY unspecifiedValue.label "nespecifikovaný">
+<!ENTITY upButton.label "Nahoru">
+<!ENTITY uppercaseValue.label "Velká písmena">
+<!ENTITY useBorderShorthand.label "Všechny čtyři strany používají stejný styl okraje.">
+<!ENTITY useCustomFontFamily.label "Použít vlasní skupinu fontů.">
+<!ENTITY visibility.label "Viditelnost:">
+<!ENTITY visibleOverflow.label "viditelný">
+<!ENTITY visibleVisibility.label "viditelný">
+<!ENTITY volume.label "Kapacita:">
+<!ENTITY width.label "Šířka:">
+<!ENTITY xfastSpeechRate.label "x-rychlý">
+<!ENTITY xlargeFontSize.label "x-velký">
+<!ENTITY xloudVolume.label "x-nápadný">
+<!ENTITY xslowSpeechRate.label "x-pomalý">
+<!ENTITY xsmallFontSize.label "xmalý">
+<!ENTITY xsoftVolume.label "x-jemný">
+<!ENTITY xxlargeFontSize.label "xx-velký">
+<!ENTITY xxsmallFontSize.label "xx-malý">
+<!ENTITY zIndex.label "Z-index:">
+
+<!ENTITY listTab.label                 "Seznamy">
+
+<!ENTITY listStyleType.label           "Druh seznamu:">
+<!ENTITY noneListStyleType.label                        "žádný">
+<!ENTITY discListStyleType.label                        "vyplněné kolečko">
+<!ENTITY circleListStyleType.label                      "prázdné kolečko">
+<!ENTITY squareListStyleType.label                      "čtverec">
+<!ENTITY decimalListStyleType.label                     "arabské číslice">
+<!ENTITY decimalLeadingZeroListStyleType.label        "arabské číslice, u jednomístných čísel začínající nulou">
+<!ENTITY lowerRomanListStyleType.label                 "malé římské číslice">
+<!ENTITY upperRomanListStyleType.label                 "velké římské číslice">
+<!ENTITY lowerGreekListStyleType.label                 "malá písmena řecké abecedy">
+<!ENTITY lowerAlphaListStyleType.label                 "malá písmena">
+<!ENTITY upperAlphaListStyleType.label                 "velká písmena">
+<!ENTITY armenianListStyleType.label                    "arménské písmo">
+<!ENTITY georgianListStyleType.label                    "gruzínské písmo">
+
+
+<!ENTITY listStyleImage.label          "Obrázek jako odrážka:">
+
+<!ENTITY listStylePosition.label       "Umístění odrážky:">
+<!ENTITY insideListStylePosition.label         "uvnitř">
+<!ENTITY outsideListStylePosition.label                "vně">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Extract and create generic style">
+<!ENTITY makecssrule.accesskey                  "E">
+<!ENTITY currentstylesfor.label                 "Current styles for:">
+<!ENTITY renameButton.label                     "Edit selector">
+
+<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
+<!ENTITY autoMarginUnit.label                   "auto">
+<!ENTITY thinBorderUnit.label                   "thin">
+<!ENTITY mediumBorderUnit.label                 "medium">
+<!ENTITY thickBorderUnit.label                  "thick">

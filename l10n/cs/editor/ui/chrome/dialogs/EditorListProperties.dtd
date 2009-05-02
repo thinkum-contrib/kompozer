@@ -1,0 +1,14 @@
+<!ENTITY ListType.label "Typ seznamu">
+<!ENTITY bulletList.value "Seznam s odrážkami">
+<!ENTITY bulletStyle.label "Styl odrážek:">
+<!ENTITY changeEntireListRadio.accessKey "c">
+<!ENTITY changeEntireListRadio.label "Změnit celý seznam">
+<!ENTITY changeListMsg.label "Při změně typu seznamu:">
+<!ENTITY changeSelectedRadio.accessKey "m">
+<!ENTITY changeSelectedRadio.label "Změnit pouze označené">
+<!ENTITY definitionList.value "Seznam definicí">
+<!ENTITY none.value "Žádný">
+<!ENTITY numberList.value "Číslovaný seznam">
+<!ENTITY startingNumber.accessKey "z">
+<!ENTITY startingNumber.label "Začátek:">
+<!ENTITY windowTitle.label "Vlastnosti seznamu">

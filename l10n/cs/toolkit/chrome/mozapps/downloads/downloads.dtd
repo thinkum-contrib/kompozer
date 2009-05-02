@@ -1,0 +1,45 @@
+<!ENTITY window.width "450">
+<!ENTITY window.height "300"> 
+
+<!ENTITY done.label "Hotovo">
+<!ENTITY canceled.label "Přerušeno">
+<!ENTITY installing.label "Instaluji...">
+
+<!ENTITY starting.label "Začínám...">
+<!ENTITY failed.label "Selhalo">
+
+<!ENTITY downloads.title "Správce stahování">
+
+<!ENTITY cmd.pause.label "Pozastavit">
+<!ENTITY cmd.pause.accesskey "Z">
+<!ENTITY cmd.resume.label "Pokračovat">
+<!ENTITY cmd.resume.accesskey "P">
+<!ENTITY cmd.cancel.label "Zrušit">
+<!ENTITY cmd.cancel.accesskey "r">
+<!ENTITY cmd.show.label "Otevřít podsložku">
+<!ENTITY cmd.show.labelMac "Zobrazit ve Finderu">
+<!ENTITY cmd.show.accesskey "p">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.open.label "Otevřít">
+<!ENTITY cmd.open.accesskey "O">
+<!ENTITY cmd.openWith.label "Otevřít pomocí...">
+<!ENTITY cmd.openWith.accesskey "t">
+<!ENTITY cmd.retry.label "Opakovat">
+<!ENTITY cmd.retry.accesskey "k">
+<!ENTITY cmd.remove.label "Odebrat">
+<!ENTITY cmd.remove.accesskey "e">
+<!ENTITY cmd.properties.label "Vlastnosti">
+<!ENTITY cmd.properties.accesskey "i">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "Vyčistit">
+<!ENTITY cmd.cleanUp.tooltip "Odebere dokončené, přerušené nebo nedokončené stahování se seznamu">
+<!ENTITY cmd.cleanUp.accesskey "V">
+
+<!ENTITY closeWhenDone.label "Zavřít při dokončení stahování">
+<!ENTITY closeWhenDone.tooltip "Po dokončení stahování všech souborů zavře okno Správce stahování">
+
+<!ENTITY filesSavedTo.label "Soubory jsou stahovány do složky:">
+<!ENTITY showFolder.label "Zobrazí tuto složku">

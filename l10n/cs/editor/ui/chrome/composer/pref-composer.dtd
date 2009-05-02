@@ -1,0 +1,30 @@
+<!ENTITY AutoSaveCheck "Automaticky ukládat každých">
+<!ENTITY chooseButton.label "Vybrat...">
+<!ENTITY cssEditing.label "Úpravy kaskádových (CSS) stylů">
+<!ENTITY documentsInMenu "Nejvyšší počet posledních dokumentů:">
+<!ENTITY documentsInMenu.accesskey "n">
+<!ENTITY exterLegend.label "Externí editor">
+<!ENTITY htmlSource "Zdrojový HTML kód:">
+<!ENTITY imageeditor "Obrázky:">
+<!ENTITY lHeader "Obecné">
+<!ENTITY maintainStructure.accesskey "m">
+<!ENTITY maintainTableStructure.label "Při vkládání/mazání buněk zachovat rozvržení tabulky">
+<!ENTITY maintainTableStructure.tooltip "Zabrání zhroucení okrajů buněk při smazání jedné nebo více buněk">
+<!ENTITY minText "minut">
+<!ENTITY openInNewTab.label "Vždy otevírat dokument v novém panelu">
+<!ENTITY preserveExistingFormatting "Zachovat původní uspořádání kódu">
+<!ENTITY preserveExistingFormatting.accesskey "o">
+<!ENTITY preserveExistingFormatting.tooltip "Zachová konce řádků a původní uspořádání kódu">
+<!ENTITY rHeader "Nastavení pro vytváření nových stránek">
+<!ENTITY recentFiles.title "Nabídka posledních dokumentů">
+<!ENTITY reformat.accesskey "m">
+<!ENTITY reformat.label "Změnit uspořádání kódu na (&quot;dobře čitelný&quot;)">
+<!ENTITY reformat.tooltip "Znovu uspořádá značky HTML pomocí konců řádků a odražení">
+<!ENTITY saveAssociatedFiles.label "Při ukládání stránky uložit také související obrázky a soubory">
+<!ENTITY saving "Ukládání">
+<!ENTITY savingFiles.title "Při ukládání souborů">
+<!ENTITY showPublishDialog.label "Vždy zobrazit dialog s nastavením pro publikování stránek">
+<!ENTITY siteManager.label "Správce serveru">
+<!ENTITY tableEditing.label "Úprava tabulky">
+<!ENTITY title.label "Obecné">
+<!ENTITY useCSS.label "Použít CSS styly místo HTML elementů a atributů">

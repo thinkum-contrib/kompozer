@@ -1,0 +1,115 @@
+<!ENTITY addons.title "Správce doplňků">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width "520">
+<!ENTITY em.height "380">
+
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.options.commandKey ",">
+<!ENTITY cmd.close.commandKey "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label "Rozšíření">
+<!ENTITY themes.label "Motivy vzhledu">
+<!ENTITY locales.label "Jazykové balíčky">
+<!ENTITY plugins.label "Zásuvné moduly">
+<!ENTITY update.label "Aktualizace">
+<!ENTITY install.label "Instalace">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label "Vyhledat aktualizace">
+<!ENTITY cmd.checkUpdatesAll.accesskey "h">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Vyhledá aktualizaci doplňku">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Vyhledá aktualizaci motivu vzhledu">
+<!ENTITY cmd.installLocalFile.label "Instalovat...">
+<!ENTITY cmd.installFile.accesskey "I">
+<!ENTITY cmd.installFileAddon.tooltip "Instaluje doplněk">
+<!ENTITY cmd.installFileTheme.tooltip "Instaluje motiv vzhledu">
+<!ENTITY cmd.installUpdatesAll.label "Instalovat aktualizace">
+<!ENTITY cmd.installUpdatesAll.accesskey "I">
+<!ENTITY cmd.installUpdatesAll.tooltip "Instaluje zvolené aktualizace">
+<!ENTITY cmd.restartApp.label "Restartovat aplikaci &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey "R">
+<!ENTITY cmd.restartApp.tooltip "Restartuje aplikaci &brandShortName; kvůli dokončení instalace">
+<!ENTITY cmd.skip.label "Přeskočit">
+<!ENTITY cmd.skip.accesskey "s">
+<!ENTITY cmd.skip.tooltip "Přeskočí tuto aktualizaci">
+<!ENTITY cmd.continue.label "Pokračovat">
+<!ENTITY cmd.continue.accesskey "P">
+<!ENTITY cmd.continue.tooltip "Pokračovat ve spouštění aplikace &brandShortName;">
+
+<!ENTITY cmd.enableAll.label "Povolit vše">
+<!ENTITY cmd.enableAll.accesskey "P">
+<!ENTITY cmd.enableAll.tooltip "Povolí všechny doplňky">
+<!ENTITY cmd.disableAll.label "Zakázat vše">
+<!ENTITY cmd.disableAll.accesskey "Z">
+<!ENTITY cmd.disableAll.tooltip "Zakáže všechny doplňky">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label "Použít motiv vzhledu">
+<!ENTITY cmd.useTheme.accesskey "P">
+<!ENTITY cmd.useTheme.tooltip "Změní motiv vzhledu aplikace &brandShortName;.">
+<!ENTITY cmd.options.label "Možnosti">
+<!ENTITY cmd.options.accesskey "M">
+<!ENTITY cmd.options.tooltip "Konfiguruje možnosti zvoleného rozšíření">
+<!ENTITY cmd.optionsUnix.label "Předvolby">
+<!ENTITY cmd.optionsUnix.accesskey "P">
+<!ENTITY cmd.optionsUnix.tooltip "Konfiguruje předvolby zvoleného rozšíření">
+<!ENTITY cmd.enable.label "Povolit">
+<!ENTITY cmd.enable.accesskey "P">
+<!ENTITY cmd.enable.tooltip "Po restartu aplikace &brandShortName; povolí tento doplněk">
+<!ENTITY cmd.disable.label "Zakázat">
+<!ENTITY cmd.disable.accesskey "Z">
+<!ENTITY cmd.disable.tooltip "Po restartu aplikace &brandShortName; zakáže tento doplněk">
+<!ENTITY cmd.uninstall.label "Odinstalovat">
+<!ENTITY cmd.uninstall2.accesskey "O">
+<!ENTITY cmd.uninstall2.tooltip "Po restartu aplikace &brandShortName; odinstaluje tento doplněk">
+<!ENTITY cmd.cancelUninstall.label "Zrušit odinstalování">
+<!ENTITY cmd.cancelUninstall.accesskey "Z">
+<!ENTITY cmd.cancelUninstall.tooltip "Zruší odinstalování tohoto doplňku">
+<!ENTITY cmd.installUpdate.label "Instalovat aktualizaci">
+<!ENTITY cmd.installUpdate.accesskey "I">
+<!ENTITY cmd.installUpdate.tooltip "Instaluje aktualizaci tohoto doplňku">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label "Zrušit">
+<!ENTITY cancel.accesskey "Z">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label "Přejít na domovskou stránku">
+<!ENTITY cmd.homepage.accesskey "d">
+<!ENTITY cmd.about2.label "O tomto doplňku">
+<!ENTITY cmd.about.accesskey "O">
+<!ENTITY cmd.checkUpdate.label "Vyhledat aktualizace">
+<!ENTITY cmd.checkUpdate.accesskey "V">
+
+<!ENTITY cmd.includeUpdate.label "Vybrat aktualizaci">
+<!ENTITY cmd.includeUpdate.accesskey "b">
+<!ENTITY includeUpdate.label "Vybrat aktualizaci">
+<!ENTITY includeUpdate.accesskey "b">
+<!ENTITY includeUpdate.tooltip "Vybere tento doplněk pro instalaci aktualizací">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label "Požaduje dodatečné doplňky.">
+<!ENTITY blocklisted.label "Zakázáno kvůli vaší bezpečnosti.">
+<!ENTITY toBeDisabled.label "Tento doplněk bude zakázán po restartu aplikace &brandShortName;.">
+<!ENTITY toBeEnabled.label "Tento doplněk bude povolen po restartu aplikace &brandShortName;.">
+<!ENTITY toBeInstalled.label "Tento doplněk bude nainstalován po restartu aplikace &brandShortName;.">
+<!ENTITY toBeUninstalled.label "Tento doplněk bude odinstalován po restartu aplikace &brandShortName;.">
+<!ENTITY toBeUpgraded.label "Tento doplněk bude aktualizován po restartu aplikace &brandShortName;.">
+
+<!ENTITY getExtensions.label "Získat rozšíření">
+<!ENTITY getExtensions.tooltip "Získá rozšíření z addons.mozilla.org">
+<!ENTITY getThemes.label "Získat motiv vzhledu">
+<!ENTITY getThemes.tooltip "Získá motiv vzhledu z addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label "Nebyl vybrán žádný motiv">
+<!ENTITY previewNoPreviewImage.label "Tento motiv vzhledu neobsahuje žádný náhled">
+<!ENTITY moreInfo.label "Více informací">
+<!ENTITY closeMessage.tooltip "Zavře tuto zprávu">
+
+<!ENTITY updateSuccess.label "Aktualizace dokončena úspěšně.">
+<!ENTITY installSuccess.label "Instalace dokončena úspěšně.">
+<!ENTITY installSuccessRestart.label "Pro dokončení instalace je vyžadován restart.">
+<!ENTITY installWaiting.label "Čekání...">
+<!ENTITY installIncompatibleUpdate.label "Kontrola kompatibility...">
+<!ENTITY installFinishing.label "Instalování...">
+<!ENTITY installFailure.label "Instalace se nezdařila.">

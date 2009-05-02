@@ -1,0 +1,72 @@
+<!ENTITY AlignCenter.label "Na střed">
+<!ENTITY AlignLeft.label "Doleva">
+<!ENTITY AlignRight.label "Doprava">
+<!ENTITY applyBeforeChange1.label "Stávající změny budou uplatněny">
+<!ENTITY applyBeforeChange2.label "před změnou označení.">
+<!ENTITY backgroundColor.accessKey "B">
+<!ENTITY backgroundColor.label "Barva pozadí:">
+<!ENTITY cellAlignAtChar.label "Na znak:">
+<!ENTITY cellAlignBottom.label "Dolů">
+<!ENTITY cellAlignJustify.label "Zarovnání">
+<!ENTITY cellAlignMiddle.label "Na střed">
+<!ENTITY cellAlignTop.label "Nahoru">
+<!ENTITY cellApplyBeforeMove.label "Použij změny před změnou označení">
+<!ENTITY cellColSpan.label "Rozpětí přes sloupce:">
+<!ENTITY cellContentAlignment.label "Zarovnání obsahu">
+<!ENTITY cellHeader.label "Styl hlavičky">
+<!ENTITY cellHorizontal.accessKey "V">
+<!ENTITY cellHorizontal.label "Vodorovně:">
+<!ENTITY cellInheritColor.label "(Průhledné pozadí buňky)">
+<!ENTITY cellKeepCurrentData.label "Zachovat aktuální nastavení">
+<!ENTITY cellNoWrap.label "Nezalamovat">
+<!ENTITY cellNormal.label "Normální">
+<!ENTITY cellPercent.label "procent tabulky">
+<!ENTITY cellRowSpan.label "Rozpětí přes řádky:">
+<!ENTITY cellSelectCell.label "Buňka">
+<!ENTITY cellSelectColumn.label "Sloupec">
+<!ENTITY cellSelectNext.accessKey "D">
+<!ENTITY cellSelectNext.label "Další">
+<!ENTITY cellSelectPrevious.accessKey "P">
+<!ENTITY cellSelectPrevious.label "Předchozí">
+<!ENTITY cellSelectRow.label "Řádek">
+<!ENTITY cellSelection.label "Výběr">
+<!ENTITY cellStyle.accessKey "y">
+<!ENTITY cellStyle.label "Styl buňky:">
+<!ENTITY cellTab.label "Buňky">
+<!ENTITY cellTextWrap.accessKey "l">
+<!ENTITY cellTextWrap.label "Zalamovat text:">
+<!ENTITY cellUseCheckboxHelp.label "Pomocí zaškrtávací nabídky určíte, které vlastnosti se použijí na všechny označené buňky">
+<!ENTITY cellVertical.accessKey "V">
+<!ENTITY cellVertical.label "Svisle:">
+<!ENTITY cellWrap.label "Zalamovat">
+<!ENTITY pixels.label "bodů">
+<!ENTITY size.label "Velikost">
+<!ENTITY tableAlignment.accessKey "T">
+<!ENTITY tableAlignment.label "Zarovnání tabulky:">
+<!ENTITY tableBorderSpacing.label "Okraje a mezery">
+<!ENTITY tableBorderWidth.accessKey "R">
+<!ENTITY tableBorderWidth.label "Rámeček:">
+<!ENTITY tableCaption.accessKey "i">
+<!ENTITY tableCaption.label "Popis:">
+<!ENTITY tableCaptionAbove.label "Nad tabulkou">
+<!ENTITY tableCaptionBelow.label "Pod tabulku">
+<!ENTITY tableCaptionLeft.label "Levá část tabulky">
+<!ENTITY tableCaptionNone.label "Žádný">
+<!ENTITY tableCaptionRight.label "Pravá část tabulky">
+<!ENTITY tableColumns.accessKey "C">
+<!ENTITY tableColumns.label "Sloupce:">
+<!ENTITY tableHeight.accessKey "V">
+<!ENTITY tableHeight.label "Výška:">
+<!ENTITY tableInheritColor.label "(Průhledné pozadí tabulky)">
+<!ENTITY tablePadding.accessKey "l">
+<!ENTITY tablePadding.label "Výplň:">
+<!ENTITY tablePxBetwBrdrCellContent.label "body mezi okrajem a obsahem buněk">
+<!ENTITY tablePxBetwCells.label "body mezi buňkami">
+<!ENTITY tableRows.accessKey "d">
+<!ENTITY tableRows.label "Řádky:">
+<!ENTITY tableSpacing.accessKey "m">
+<!ENTITY tableSpacing.label "Mezery:">
+<!ENTITY tableTab.label "Tabulka">
+<!ENTITY tableWidth.accessKey "k">
+<!ENTITY tableWidth.label "Šířka:">
+<!ENTITY tableWindow.title "Vlastnosti tabulky">

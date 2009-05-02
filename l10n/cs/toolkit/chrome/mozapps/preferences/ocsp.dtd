@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "38em">
+
+<!ENTITY ocspDialog.title "Ověřování platnosti">
+<!ENTITY validation.ocsp.description "&brandShortName; může používat protokol pro ověření stavu certifikátů (Online Certificate Status Protocol - OCSP). Nastavit použití OCSP následovně:">
+<!ENTITY disableOCSP.label "Pro ověření platnosti certifikátu OCSP nepoužívat.">
+<!ENTITY certOCSP.label "Použít pouze u těch certifikátů, které mají zadáno URL služby.">
+<!ENTITY proxyOCSP.label "U všech certifikátů použít OCSP pomocí tohoto podpisu a URL:">
+<!ENTITY serviceURL.label "URL služby:">
+<!ENTITY serviceURL.accesskey "U">
+<!ENTITY signingCA.label "Podpis vydavatele:">
+<!ENTITY signingCA.accesskey "P">

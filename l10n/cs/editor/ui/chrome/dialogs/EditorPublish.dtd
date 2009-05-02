@@ -1,0 +1,43 @@
+<!ENTITY browseUrl.label "HTTP adresa domovské stránky (např. 'http://www.isp.cz/uzivatel'):">
+<!ENTITY browseUrl.tooltip "HTTP adresa domovské stránky (neobsahuje název souboru)">
+<!ENTITY chooseDirButton.label "Vybrat...">
+<!ENTITY docDirList.label "Podadresář webu pro tuto stránku:">
+<!ENTITY filename.label "Název souboru:">
+<!ENTITY filename.tooltip "Zadává název souboru pro webovou stránku včetně '.html' přípony">
+<!ENTITY filenameExample.label "např.: &quot;mojestranka.html&quot;">
+<!ENTITY loginInfo.label "Přihlašovací informace">
+<!ENTITY newSiteButton.label "Nový web">
+<!ENTITY pageTitle.label "Nadpis stránky:">
+<!ENTITY pageTitle.tooltip "Vkládá nadpis stránky pro identifikaci okna v záložkách">
+<!ENTITY pageTitleExample.label "např.: &quot;Moje první stránka&quot;">
+<!ENTITY password.label "Heslo:">
+<!ENTITY password.tooltip "Heslo přiřazené k uživateli">
+<!ENTITY publishImgCheckbox.label "Zahrnout obrázky a další soubory">
+<!ENTITY publishImgCheckbox.tooltip "Zahrne i obrázky a další soubory odkazované z této stránky">
+<!ENTITY publishSites.label "Weby pro zvěřejnění">
+<!ENTITY publishTab.label "Zveřejnit">
+<!ENTITY relatedDocs.label "Další soubory pro zveřejnění">
+<!ENTITY removeButton.label "Odstranit web">
+<!ENTITY sameLocationRadio.label "Použít stejné umístění jako stránka">
+<!ENTITY sameLocationRadio.tooltip "Použije stejné umístění souborů jako stránka">
+<!ENTITY savePassword.label "Uložit heslo">
+<!ENTITY savePassword.tooltip "Pokud chcete uložit své heslo bezpečně pomocí Správce hesel">
+<!ENTITY selectDirectory.label "Vybrat adresář">
+<!ENTITY serverInfo.label "Informace o webu">
+<!ENTITY setDefSiteAndDir.label "Nastavit jako výchozí web a adresář">
+<!ENTITY setDefaultButton.label "Nastavit jako výchozí">
+<!ENTITY settingsTab.label "Nastavení">
+<!ENTITY siteDirList.label "Vyberte či vepište název adresáře na cílovém počítači:">
+<!ENTITY siteDirList.tooltip "Slouží pro zadání nebo výběr vzdáleného adresáře pro zveřejnění">
+<!ENTITY siteList.label "Název webu:">
+<!ENTITY siteList.tooltip "Vybere web, které chcete zveřejnit">
+<!ENTITY siteName.label "Název webu:">
+<!ENTITY siteName.tooltip "Zkratka, která identifikuje publikovaný web (např. 'MůjWeb')">
+<!ENTITY siteUrl.label "Adresa pro zveřejnění (např: 'ftp://ftp.isp.cz/uzivatel'):">
+<!ENTITY siteUrl.tooltip "FTP nebo HTTP adresa poskytnutá ISP nebo hostingovou službou">
+<!ENTITY useSubdir.tooltip "Slouží k zadání nebo výběru vzdáleného podadresáře, kam se budou nahrávat soubory">
+<!ENTITY useSubdirRadio.label "Použít tento podadresář:">
+<!ENTITY username.label "Jméno uživatele:">
+<!ENTITY username.tooltip "Jméno uživatele používané pro přihlášení k ISP nebo k hostingovým službám">
+<!ENTITY windowTitle.label "Publikovat stránku">
+<!ENTITY windowTitleSettings.label "Nastavení publikování">

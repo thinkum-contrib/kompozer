@@ -1,0 +1,650 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Sammy Ford
+   -    Blake Ross
+   -    Ryan Cassin (rcassin@supernova.org)
+   -    Daniel Glazman (glazman@netscape.com)
+   -    Stephen Donner (technutz@netscape.net)
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
+
+<!-- File menu items -->
+<!ENTITY fileMenu.label "Soubor">
+<!ENTITY filemenu.accesskey "S">
+<!ENTITY newBlankPage.accesskey "P">
+<!ENTITY newBlankPageCmd.label "Prázdná stránka">
+<!ENTITY newOtherCmd.label "Další volby">
+
+<!ENTITY newMenu.label "Nový">
+<!ENTITY newTab.label "Stránku do nového panelu">
+<!ENTITY openFileCmd.label "Otevřt soubor...">
+<!ENTITY fileopen.accesskey "s">
+<!ENTITY fileopen.keybinding "o">
+<!ENTITY openremoteCmd.label "Otevřít adresu...">
+<!ENTITY fileopenremote.accesskey "O">
+<!ENTITY fileopenremote.keybinding "l">
+<!ENTITY fileRecentMenu.label "Poslední dokumenty">
+<!ENTITY filerecentmenu.accesskey "P">
+<!ENTITY fileRevert.label "Zpět k dříve uloženému">
+<!ENTITY filerevert.accesskey "d">
+<!ENTITY saveCmd.label "Uložit">
+<!ENTITY filesave.accesskey "U">
+<!ENTITY filesave.keybinding "s">
+<!ENTITY saveAsCmd.label "Uložit jako...">
+<!ENTITY filesaveas.accesskey "a">
+<!ENTITY publishCmd.label "Publikuj">
+<!ENTITY publishcmd.accesskey "b">
+<!ENTITY publishAsCmd.label "Publikuj jako...">
+<!ENTITY publishas.accesskey "j">
+<!ENTITY exportToTextCmd.label "Exportuj jako prostý text..." >
+<!ENTITY fileexporttotext.accesskey "t" >
+<!ENTITY saveAsChangeEncodingCmd.label "Uložit a změnit kódování" >
+<!ENTITY filesaveandchangeencoding.accesskey "o" >
+<!ENTITY previewCmd.label "Náhled stránky">
+<!ENTITY filepreview.accesskey "h" >
+<!ENTITY sendPageCmd.label "Odeslat stránku...">
+<!ENTITY sendPage.accesskey "s" >
+<!ENTITY printSetupCmd.label "Vzhled stránky...">
+<!ENTITY fileprintsetup.accesskey "V" >
+<!ENTITY printPreviewCmd.label "Náhled tisku" >
+<!ENTITY fileprintpreview.accesskey "N" >
+<!ENTITY printCmd.label "Tisk..." >
+<!ENTITY printButtonCmd.label "Tisk..." >
+<!ENTITY fileprint.accesskey "T" >
+<!ENTITY fileprint.keybinding "p" >
+<!ENTITY closeCmd.label "Zavřít" >
+<!ENTITY closeAllCmd.label "Zavřít vše">
+<!ENTITY fileclose.accesskey "Z" >
+<!ENTITY fileclose.keybinding "w" >
+<!ENTITY exitCmd.label "Ukončit" >
+<!ENTITY fileexit.accesskey "k" >
+<!ENTITY fileexit.keybinding "q" >
+<!ENTITY editMenu.label "Úpravy" >
+<!ENTITY editmenu.accesskey "a" >
+<!ENTITY pasteNoFormatting.label "Vložit bez formátovaní" >
+<!ENTITY pasteNoFormatting.accesskey "V" >
+<!ENTITY pasteAs.label "Vložit jako" >
+<!ENTITY pasteAs.accesskey "a" >
+<!ENTITY publishSettings.label "Nastavení publikování..." >
+<!ENTITY publishSettings.accesskey "b" >
+<!ENTITY detachFromTemplate.label "Odpojit od šablony">
+
+<!ENTITY pasteHTMLCmd.label "HTML" >
+<!ENTITY pasteHTML.accesskey "H" >
+<!ENTITY pasteTextCmd.label "Text" >
+<!ENTITY pasteText.accesskey "T" >
+<!ENTITY pasteImageCmd.label "Obrázek" >
+<!ENTITY pasteImage.accesskey "O" >
+<!ENTITY pasteRowsCmd.label "Řádek" >
+<!ENTITY pasteRows.accesskey "d" >
+<!ENTITY pasteColumnsCmd.label "Sloupec" >
+<!ENTITY pasteColumns.accesskey "S" >
+<!ENTITY pasteTable.accesskey "a" >
+<!ENTITY pasteLinkCmd.label "Odkaz" >
+<!ENTITY editpastelink.accesskey "l" >
+<!ENTITY pasteAsQuotationCmd.label "Vložit jako citaci" >
+<!ENTITY editpastequotation.accesskey "j" >
+<!ENTITY editpastequotation.keybinding "v" >
+<!ENTITY editStripQuotesCmd.label "Odstranit uvozovky" >
+<!ENTITY editRewrapCmd.label "Přerozdělit" >
+<!ENTITY findCmd.label "Najít a nahradit..." >
+<!ENTITY editfind.accesskey "n" >
+<!ENTITY editfind.keybinding "VK_F3" >
+<!ENTITY editfind.keybinding2 "VK_F19" >
+<!ENTITY findAgainCmd.label "Najít další" >
+<!ENTITY editfindnext.accesskey "d" >
+<!ENTITY editfindnext.keybinding "VK_F3" >
+<!ENTITY editfindnext.keybinding2 "VK_F3" >
+<!ENTITY findPrevCmd.label "Najít předchozí" >
+<!ENTITY editfindprev.accesskey "p" >
+<!ENTITY editfindprev.keybinding "VK_F3" >
+<!ENTITY editfindprev.keybinding2 "VK_F3" >
+<!ENTITY checkSpellingCmd.label "Kontrola pravopisu" >
+<!ENTITY markupCleanerCmd.label "Vyčistit kód">
+<!ENTITY markupcleaner.accesskey "k">
+<!ENTITY validateCmd.label "Kontrola HTML" >
+<!ENTITY validate.accesskey "K" >
+<!ENTITY checkLinksCmd.label "Kontrola odkazů" >
+<!ENTITY editcheckspelling.accesskey "s" >
+<!ENTITY editcheckspelling.keybinding "k" >
+<!ENTITY viewToolbarsMenu.label "Zobrazit/Skrýt" >
+<!ENTITY viewToolbarsMenu.accesskey "o" >
+<!ENTITY compositionToolbarCmd.label "Panel nástrojů" >
+<!ENTITY compositiontb.accesskey "e" >
+<!ENTITY formattingToolbarCmd.label "Panel formátování" >
+<!ENTITY formattingtb.accesskey "f" >
+<!ENTITY editmodeToolbarCmd.label "Panel úprav" >
+<!ENTITY editmodetb.accesskey "e" >
+<!ENTITY taskbarCmd.label "Stavová lišta" >
+<!ENTITY taskbarCmd.accesskey "S" >
+<!ENTITY viewPageSource.label "Zdrojový kód stránky" >
+<!ENTITY viewpagesource.accesskey "Z" >
+<!ENTITY viewParagraphMarks.label "Značky odstavce" >
+<!ENTITY viewparagraphmarks.accesskey "d" >
+<!ENTITY blockOutlines.label "Hranice textu">
+<!ENTITY blockoutlines.accesskey "H">
+<!ENTITY viewRulersCmd.label "Pravítko">
+<!ENTITY viewrulerscmd.accesskey "P">
+
+<!ENTITY insertMenu.label "Vložit" >
+<!ENTITY insertmenu.accesskey "V" >
+<!ENTITY insertLinkCmd.label "Odkaz..." >
+<!ENTITY insertlink.accesskey "O" >
+<!ENTITY insertlink.keybinding "l" >
+<!ENTITY insertAnchorCmd.label "Cílová kotva..." >
+<!ENTITY insertanchor.accesskey "k" >
+<!ENTITY insertImageCmd.label "Obrázek..." >
+<!ENTITY insertimage.accesskey "b" >
+<!ENTITY insertImageMapCmd.label "Obrázková mapa..." >
+<!ENTITY insertHLineCmd.label "Vodorovná čára" >
+<!ENTITY inserthline.accesskey "r" >
+<!ENTITY insertTableCmd.label "Tabulka..." >
+<!ENTITY inserttable.accesskey "T" >
+<!ENTITY insertFormMenu.label "Formulář" >
+<!ENTITY insertformmenu.accesskey "F" >
+<!ENTITY insertHTMLCmd.label "HTML..." >
+<!ENTITY insertHTMLCmd.accesskey "H" >
+<!ENTITY insertCharsCmd.label "Znaky a symboly..." >
+<!ENTITY insertchars.accesskey "Z" >
+<!ENTITY insertBreakCmd.label "Zalomit řádky" >
+<!ENTITY insertbreak.accesskey "a" >
+<!ENTITY insertBreakAllCmd.label "Zalomení pod obrázkem" >
+<!ENTITY insertbreakall.accesskey "p" >
+
+<!ENTITY insertNbspCmd.label "Tvrdá mezera...">
+<!ENTITY insertNbsp.accesskey "T">
+
+<!ENTITY insertPHPCode.label "PHP kód">
+<!ENTITY insertphpcode.accesskey "P">
+<!ENTITY insertComment.label "Komentář">
+<!ENTITY insertcomment.accesskey "K">
+
+
+<!ENTITY insertFormCmd.label "Definovat formulář..." >
+<!ENTITY insertform.accesskey "d" >
+<!ENTITY insertInputTagCmd.label "Formulářové pole..." >
+<!ENTITY insertinputtag.accesskey "F" >
+<!ENTITY insertInputImageCmd.label "Obrázek formuláře..." >
+<!ENTITY insertinputimage.accesskey "O" >
+<!ENTITY insertTextAreaCmd.label "Textová pole..." >
+<!ENTITY inserttextarea.accesskey "T" >
+<!ENTITY insertSelectCmd.label "Výběrový seznam..." >
+<!ENTITY insertselect.accesskey "V" >
+<!ENTITY insertButtonCmd.label "Definovat tlačítko..." >
+<!ENTITY insertbutton.accesskey "t" >
+<!ENTITY insertLabelCmd.label "Definovat popis" >
+<!ENTITY insertlabel.accesskey "e" >
+<!ENTITY insertFieldSetCmd.label "Definovat skupinu polí..." >
+<!ENTITY insertfieldset.accesskey "s" >
+<!ENTITY insertIsIndexCmd.label "Hledat index" >
+<!ENTITY insertisindex.accesskey "i" >
+<!ENTITY createLinkCmd.label "Vytvořit odkaz..." >
+<!ENTITY createlink.accesskey "o" >
+<!ENTITY editLinkCmd.label "Uprav odkaz v novém okně" >
+<!ENTITY editlink.accesskey "n" >
+<!ENTITY undoCmd.label "Zpět" >
+<!ENTITY undo.accesskey "Z" >
+<!ENTITY redoCmd.label "Znovu" >
+<!ENTITY redo.accesskey "n" >
+<!ENTITY cutCmd.label "Vyjmout" >
+<!ENTITY cut.accesskey "t" >
+<!ENTITY copyCmd.label "Kopírovat" >
+<!ENTITY copy.accesskey "K" >
+<!ENTITY pasteCmd.label "Vložit" >
+<!ENTITY paste.accesskey "V" >
+<!ENTITY deleteCmd.label "Smazat" >
+<!ENTITY delete.accesskey "m" >
+<!ENTITY clearCmd.label "Vyčistit" >
+<!ENTITY clear.accesskey "i" >
+<!ENTITY selectAllCmd.label "Vybrat všechno" >
+<!ENTITY selectall.accesskey "a" >
+<!ENTITY FontFaceSelect.tooltip "Vybrat font" >
+<!ENTITY fontfaceMenu.label "Písmo" >
+<!ENTITY formatfontmenu.accesskey "P" >
+<!ENTITY fontVarWidth.label "Proporcionální písmo" >
+<!ENTITY fontvarwidth.accesskey "P" >
+<!ENTITY fontFixedWidth.label "Neproporcionální písmo" >
+<!ENTITY fontfixedwidth.accesskey "N" >
+<!ENTITY formatfontfixed.keybinding "t" >
+<!ENTITY fontHelveticaFont.label "Helvetica, Arial" >
+<!ENTITY fonthelvetica.accesskey "H" >
+<!ENTITY fontTimes.label "Times" >
+<!ENTITY fonttimes.accesskey "t" >
+<!ENTITY fontCourier.label "Courier" >
+<!ENTITY fontcourier.accesskey "c" >
+<!ENTITY localfontfaceMenu.label "Lokální­písma" >
+<!ENTITY localfontmenu.accesskey "L" >
+<!ENTITY FontSizeSelect.tooltip "Vybrat velikost fontu" >
+<!ENTITY decreaseFontSize.label "Zmenšit" >
+<!ENTITY decreasefontsize.accesskey "n" >
+<!ENTITY decreaseFontSize.keybinding "-" >
+<!ENTITY increaseFontSize.label "Zvětšit" >
+<!ENTITY increasefontsize.accesskey "v" >
+<!ENTITY increaseFontSize.keybinding "=" >
+<!ENTITY increaseFontSize.keybinding2 "=" >
+<!ENTITY fontsizeMenu.label "Velikost" >
+<!ENTITY formatsizemenu.accesskey "V" >
+<!ENTITY size-xx-smallCmd.label "Nejmenší (xx-small)" >
+<!ENTITY size-xx-small.accesskey "j" >
+<!ENTITY size-x-smallCmd.label "Menší (x-small)" >
+<!ENTITY size-x-small.accesskey "n" >
+<!ENTITY size-smallCmd.label "Malé (small)" >
+<!ENTITY size-small.accesskey "M" >
+<!ENTITY size-mediumCmd.label "Střední (medium)" >
+<!ENTITY size-medium.accesskey "S" >
+<!ENTITY size-largeCmd.label "Velké (large)" >
+<!ENTITY size-large.accesskey "V" >
+<!ENTITY size-x-largeCmd.label "Větší (x-large)" >
+<!ENTITY size-x-large.accesskey "t" >
+<!ENTITY size-xx-largeCmd.label "Největší (xx-large)" >
+<!ENTITY size-xx-large.accesskey "e" >
+<!ENTITY fontStyleMenu.label "Styl písma" >
+<!ENTITY formatstylemenu.accesskey "S" >
+<!ENTITY styleBoldCmd.label "Tučné" >
+<!ENTITY stylebold.accesskey "T" >
+<!ENTITY stylebold.keybinding "b" >
+<!ENTITY styleItalicCmd.label "Kurzíva" >
+<!ENTITY styleitalic.accesskey "K" >
+<!ENTITY styleitalic.keybinding "i" >
+<!ENTITY styleUnderlineCmd.label "Podtržené" >
+<!ENTITY styleunderline.accesskey "d" >
+<!ENTITY styleunderline.keybinding "u" >
+<!ENTITY styleStrikeThruCmd.label "Přeškrtnuté" >
+<!ENTITY stylestrikethru.accesskey "e" >
+<!ENTITY styleSuperscriptCmd.label "Horní index" >
+<!ENTITY stylesuperscript.accesskey "H" >
+<!ENTITY styleSubscriptCmd.label "Dolní index" >
+<!ENTITY stylesubscript.accesskey "l" >
+<!ENTITY styleNonbreakingCmd.label "Bez zalamování" >
+<!ENTITY stylenonbreaking.accesskey "B" >
+<!ENTITY styleEm.label "Důraz" >
+<!ENTITY styleEm.accesskey "r" >
+<!ENTITY styleStrong.label "Silnější důraz" >
+<!ENTITY styleStrong.accesskey "j" >
+<!ENTITY styleCite.label "Citace" >
+<!ENTITY styleCite.accesskey "C" >
+<!ENTITY styleAbbr.label "Zkratka" >
+<!ENTITY styleAbbr.accesskey "t" >
+<!ENTITY styleAcronym.label "Akronym" >
+<!ENTITY styleAcronym.accesskey "m" >
+<!ENTITY styleCode.label "Kód" >
+<!ENTITY styleCode.accesskey "K" >
+<!ENTITY styleSamp.label "Příklad vstupu" >
+<!ENTITY styleSamp.accesskey "u" >
+<!ENTITY styleVar.label "Proměnná" >
+<!ENTITY styleVar.accesskey "r" >
+<!ENTITY formatFontColor.label "Barva textu..." >
+<!ENTITY formatfontcolor.accesskey "B" >
+<!ENTITY tableOrCellColor.label "Barva tabulky a pozadí buněk..." >
+<!ENTITY tableOrCellColor.accesskey "B" >
+<!ENTITY formatremovestyles.keybinding "Z" >
+<!ENTITY formatremovelinks.keybinding "k" >
+<!ENTITY formatRemoveNamedAnchors.label "Odstranit cílové kotvy" >
+<!ENTITY formatRemoveNamedAnchors.accesskey "O" >
+<!ENTITY formatremovenamedanchors.keybinding "a" >
+<!ENTITY formatindent.keybinding "]" >
+<!ENTITY formatoutdent.keybinding "[" >
+<!ENTITY paragraphMenu.label "Odstavec" >
+<!ENTITY formatparagraphmenu.accesskey "d" >
+<!ENTITY paragraphParagraphCmd.label "Odstavec" >
+<!ENTITY paragraphparagraph.accesskey "O" >
+<!ENTITY heading1Cmd.label "Nadpis 1" >
+<!ENTITY heading1.accesskey "1" >
+<!ENTITY heading2Cmd.label "Nadpis 2" >
+<!ENTITY heading2.accesskey "2" >
+<!ENTITY heading3Cmd.label "Nadpis 3" >
+<!ENTITY heading3.accesskey "3" >
+<!ENTITY heading4Cmd.label "Nadpis 4" >
+<!ENTITY heading4.accesskey "4" >
+<!ENTITY heading5Cmd.label "Nadpis 5" >
+<!ENTITY heading5.accesskey "5" >
+<!ENTITY heading6Cmd.label "Nadpis 6" >
+<!ENTITY heading6.accesskey "6" >
+<!ENTITY paragraphAddressCmd.label "Adresa" >
+<!ENTITY paragraphaddress.accesskey "A" >
+<!ENTITY paragraphPreformatCmd.label "Předformátováno" >
+<!ENTITY paragraphpreformat.accesskey "f" >
+<!ENTITY paragraphBlockquoteCmd.label "Bloková citace" >
+<!ENTITY paragraphblockquote.accesskey "c" >
+<!ENTITY genericContainerCmd.label "Oddíl (div)">
+<!ENTITY genericcontainer.accesskey "d">
+
+<!ENTITY applyClassToSelectionCmd.tooltip "Použít vybranou třídu">
+<!ENTITY noClass.label "(bez třídy)">
+
+<!ENTITY formatlistMenu.label "Seznam" >
+<!ENTITY formatlistmenu.accesskey "S" >
+<!ENTITY noneCmd.label "Žádný" >
+<!ENTITY none.accesskey "n" >
+<!ENTITY listBulletCmd.label "Bodový" >
+<!ENTITY listbullet.accesskey "B" >
+<!ENTITY listNumberedCmd.label "Číselný" >
+<!ENTITY listnumbered.accesskey "l" >
+<!ENTITY listTermCmd.label "Pojmový" >
+<!ENTITY listterm.accesskey "P" >
+<!ENTITY listDefinitionCmd.label "Definice" >
+<!ENTITY listdefinition.accesskey "D" >
+<!ENTITY listProps.label "Vlastnosti seznamu..." >
+<!ENTITY listprops.accesskey "i" >
+<!ENTITY ParagraphSelect.tooltip "Vyber formát odstavce" >
+<!ENTITY bodyTextCmd.label "Tělo" >
+<!ENTITY bodytext.accesskey "T" >
+<!ENTITY advancedPropertiesCmd.label "Rozšířené vlastnosti" >
+<!ENTITY advancedproperties.accesskey "Z" >
+<!ENTITY NormalAbbr.label "Text" >
+<!ENTITY ParagraphAbbr.label "P" >
+<!ENTITY Heading1Abbr.label "H1" >
+<!ENTITY Heading2Abbr.label "H2" >
+<!ENTITY Heading3Abbr.label "H3" >
+<!ENTITY Heading4Abbr.label "H4" >
+<!ENTITY Heading5Abbr.label "H5" >
+<!ENTITY Heading6Abbr.label "H6" >
+<!ENTITY BlockquoteAbbr.label "BQ" >
+<!ENTITY AddressAbbr.label "Adres." >
+<!ENTITY PreformatAbbr.label "Pre." >
+<!ENTITY stylesheetMenu.label "Použij stylopis" >
+<!ENTITY formatstylesheetmenu.accesskey "y" >
+<!ENTITY alignMenu.label "Zarovnání" >
+<!ENTITY formatalignmenu.accesskey "a" >
+<!ENTITY alignLeft.label "Doleva" >
+<!ENTITY alignleft.accesskey "l" >
+<!ENTITY alignLeft.tooltip "Zarovnat doleva" >
+<!ENTITY alignCenter.label "Na střed" >
+<!ENTITY aligncenter.accesskey "t" >
+<!ENTITY alignCenter.tooltip "Zarovnat na střed" >
+<!ENTITY alignRight.label "Doprava" >
+<!ENTITY alignright.accesskey "p" >
+<!ENTITY alignRight.tooltip "Zarovnat doprava" >
+<!ENTITY alignJustify.label "Do bloku" >
+<!ENTITY alignjustify.accesskey "b" >
+<!ENTITY alignJustify.tooltip "Zarovnat do bloku" >
+<!ENTITY layer.tooltip "Vrstva" >
+<!ENTITY layerSendToBack.tooltip "Přenést na pozadí" >
+<!ENTITY layerBringToFront.tooltip "Přenést do popředí" >
+<!ENTITY increaseIndent.label "Zvětšit odsazení" >
+<!ENTITY increaseindent.accesskey "v" >
+<!ENTITY increaseindentkb "=" >
+<!ENTITY decreaseIndent.label "Zmenšit odsazení" >
+<!ENTITY decreaseindent.accesskey "m" >
+<!ENTITY decreaseindentkb "-" >
+
+<!ENTITY blockBorders.tooltip "Ohraničení">
+
+<!ENTITY grid.label "Rastr pro pozicování" >
+<!ENTITY grid.accesskey "t" >
+<!ENTITY pageProperties.label "Vlastnosti stránky..." >
+<!ENTITY pageproperties.accesskey "o" >
+<!ENTITY colorsAndBackground.label "Barva a pozadí stránky..." >
+<!ENTITY colorsandbackground.accesskey "y" >
+<!ENTITY tableMenu.label "Tabulka" >
+<!ENTITY tablemenu.accesskey "T" >
+<!ENTITY tableSelectMenu.label "Označit" >
+<!ENTITY tableselectmenu.accesskey "z" >
+<!ENTITY tableSelectMenu2.label "Označit" >
+<!ENTITY tableInsertMenu2.label "Vložit" >
+<!ENTITY tableDeleteMenu2.label "Smazat" >
+<!ENTITY tableInsertMenu.label "Vložit" >
+<!ENTITY tableinsertmenu.accesskey "l" >
+<!ENTITY tableTable.label "Tabulka" >
+<!ENTITY tabletable.accesskey "T" >
+<!ENTITY tableRow.label "Řádek" >
+<!ENTITY tableRows.label "Řádky" >
+<!ENTITY tablerow.accesskey "d" >
+<!ENTITY tableRowAbove.label "Řádek nad" >
+<!ENTITY tableRowBelow.label "Řádek pod" >
+<!ENTITY tablerowbelow.accesskey "p" >
+<!ENTITY tableColumn.label "Sloupec" >
+<!ENTITY tableColumns.label "Sloupce" >
+<!ENTITY tablecolumn.accesskey "S" >
+<!ENTITY tableColumnBefore.label "Sloupec před" >
+<!ENTITY tableColumnAfter.label "Slopec za" >
+<!ENTITY tablecolumnafter.accesskey "z" >
+<!ENTITY tableCell.label "Buňka" >
+<!ENTITY tableCells.label "Buňky" >
+<!ENTITY tablecell.accesskey "B" >
+<!ENTITY tableCellContents.label "Obsah buňky" >
+<!ENTITY tablecellcontents.accesskey "b" >
+<!ENTITY tableAllCells.label "Všechny buňky" >
+<!ENTITY tableCellBefore.label "Buňka před" >
+<!ENTITY tableallcells.accesskey "y" >
+<!ENTITY tableCellAfter.label "Buňka za" >
+<!ENTITY tablecellafter.accesskey "a" >
+<!ENTITY tableDeleteMenu.label "Smazat" >
+<!ENTITY tabledeletemenu.accesskey "S" >
+<!ENTITY tableFix.label "Opravit rozvržení tabulky" >
+<!ENTITY tablefix.accesskey "O" >
+<!ENTITY tableJoinCells.label "Spojit buňky" >
+<!ENTITY tablejoincells.accesskey "p" >
+<!ENTITY tableSplitCell.label "Rozdělit buňky" >
+<!ENTITY tablesplitcell.accesskey "d" >
+<!ENTITY convertToTable.label "Vytvořit tabulku z označeného" >
+<!ENTITY converttotable.accesskey "t" >
+<!ENTITY tableProperties.label "Vlastnosti tabulky..." >
+<!ENTITY tableProperties.accesskey "t" >
+<!ENTITY toolsmenu.accesskey "l" >
+<!ENTITY toolbrowser.accesskey "b" >
+<!ENTITY toolplaineditor.accesskey "p" >
+<!ENTITY toolsetfocus.accesskey "f" >
+<!ENTITY debugMenu.label "Ladit" >
+<!ENTITY newEditorTestPage.label "Testovací stránka &brandShortName;u" >
+<!ENTITY textEditorCmd.label "Editor prostého textu" >
+<!ENTITY outputTextCmd.label "Text" >
+<!ENTITY outputHTMLCmd.label "HTML" >
+<!ENTITY insertTextCmd.label "Vlož text" >
+<!ENTITY testSelectionCmd.label "Testovat výběr" >
+<!ENTITY testTableLayoutCmd.label "Test rozložení tabulky" >
+<!ENTITY testDocumentCmd.label "Testovat dokument" >
+<!ENTITY showEmbeddedCmd.label "Zobrazit vložené objekty" >
+<!ENTITY dumpContentCmd.label "Ladění obsahu stromu" >
+<!ENTITY runUnitTestsCmd.label "Spustit test jednotek" >
+<!ENTITY dumpRedoStack.label "Naplnění zásobníku">
+<!ENTITY dumpUndoStack.label "Vysypání zásobníku">
+<!ENTITY executeJSTransactionViaTxmgr.label "Spustit JS transakci ze správce transakcí" >
+<!ENTITY executeJSTransactionViaEditor.label "Spustit JS transakci v &brandShortName;u" >
+<!ENTITY startLogCmd.label "Začít logování" >
+<!ENTITY stopLogCmd.label "Ukončit logování" >
+<!ENTITY runLogCmd.label "Spustit log" >
+<!ENTITY setFocusCmd.label "Nastav fokus" >
+<!ENTITY menuBar.tooltip "Nabídka" >
+<!ENTITY compositionToolbar.tooltip "Panel nástrojů" >
+<!ENTITY formatToolbar.tooltip "Panel formát" >
+<!ENTITY newToolbarCmd.tooltip "Vytvoří novou stránku" >
+<!ENTITY openToolbarCmd.label "Otevřít" >
+<!ENTITY openToolbarCmd.tooltip "Otevře soubor" >
+<!ENTITY saveToolbarCmd.tooltip "Uloží stránku" >
+<!ENTITY publishToolbarCmd.tooltip "Publikuje soubor na vzdálený server" >
+<!ENTITY previewToolbarCmd.label "Náhled" >
+<!ENTITY previewToolbarCmd.tooltip "Zobrazí stránku v okně prohlížeče" >
+<!ENTITY printToolbarCmd.label "Tisknout" >
+<!ENTITY printToolbarCmd.tooltip "Vytiskne tuto stránku" >
+<!ENTITY findToolbarCmd.label "Hledat" >
+<!ENTITY findToolbarCmd.tooltip "Najde text na této stránce" >
+<!ENTITY spellToolbarCmd.label "Kontrola pravopisu" >
+<!ENTITY spellToolbarCmd.tooltip "Zkontroluje pravopis ve výběru i v celé stránce" >
+<!ENTITY imageToolbarCmd.label "Obrázek" >
+<!ENTITY imageToolbarCmd.tooltip "Vloží nový obrázek nebo upraví vlastnosti vybraného obrázku" >
+<!ENTITY hruleToolbarCmd.label "Vodorovná čára" >
+<!ENTITY hruleToolbarCmd.tooltip "Vloží vodorovnou čáru nebo upraví vlastnosti již vybrané vodorovné čáry" >
+<!ENTITY tableToolbarCmd.label "Tabulka" >
+<!ENTITY tableToolbarCmd.tooltip "Vloží novou tabulku nebo upraví vlastnosti vybrané tabulky" >
+<!ENTITY linkToolbarCmd.label "Odkaz" >
+<!ENTITY linkToolbarCmd.tooltip "Vloží­nový odkaz nebo upraví vlastnosti vybraného odkazu" >
+<!ENTITY anchorToolbarCmd.label "Kotva" >
+<!ENTITY anchorToolbarCmd.tooltip "Vloží novou kotvu nebo upraví vlastnosti vybrané kotvy" >
+<!ENTITY textColorCaption.label "Barva textu" >
+<!ENTITY TextColorButton.tooltip "Vybere barvu pro text" >
+<!ENTITY BackgroundColorButton.tooltip "Vybere barvu pozadí" >
+<!ENTITY throbber.tooltip "To je &brandShortName;" >
+<!ENTITY HighlightColorButton.tooltip "Vybere barvu pro zvýrazňování" >
+
+<!ENTITY emButton.tooltip "Zdůraznit">
+<!ENTITY strongButton.tooltip "Silně zdůraznit">
+
+<!ENTITY formToolbarCmd.label "Formulář">
+<!ENTITY formToolbarCmd.tooltip "Vloží­nový formulář nebo upraví­vybraný formulář">
+
+<!ENTITY decreaseFontSizeToolbarCmd.tooltip "Zmenšit velikost písma">
+<!ENTITY increaseFontSizeToolbarCmd.tooltip "Zvětšit velikost písma">
+<!ENTITY boldToolbarCmd.tooltip "Tučné">
+<!ENTITY italicToolbarCmd.tooltip "Kurzíva">
+<!ENTITY underlineToolbarCmd.tooltip "Podtržené">
+<!ENTITY bulletListToolbarCmd.tooltip "Bodový seznam">
+<!ENTITY numberListToolbarCmd.tooltip "Číslovaný seznam">
+<!ENTITY outdentToolbarCmd.tooltip "Odsadí text vlevo">
+<!ENTITY indentToolbarCmd.tooltip "Odsadí text vpravo">
+<!ENTITY AlignPopupButton.tooltip "Vybere zarovnání textu">
+<!ENTITY InsertPopupButton.tooltip "Vloží odkaz, obrázek, kotvu, vodorovnou čáru nebo tabulku">
+<!ENTITY alignLeftButton.tooltip "Zarovná text doleva">
+<!ENTITY alignCenterButton.tooltip "Zarovná text na střed">
+<!ENTITY alignRightButton.tooltip "Zarovná text doprava">
+<!ENTITY alignjustifyButton.tooltip "Zarovná text do bloku">
+
+<!ENTITY definitionTermToolbarCmd.tooltip "Definice názvu">
+<!ENTITY definitionDescriptionToolbarCmd.tooltip "Definice popisu">
+
+<!ENTITY formatToolbar.boldChar "B" >
+<!ENTITY formatToolbar.italicChar "I" >
+<!ENTITY formatToolbar.underlineChar "U" >
+<!ENTITY colorPicker.default.label "Výchozí barva">
+<!ENTITY colorPicker.default.accesskey "b" >
+<!ENTITY colorLabel.label "Barva:" >
+<!ENTITY ok.label "OK" >
+<!ENTITY NormalModeTab.label "Normální" >
+<!ENTITY NormalMode.label "Normální ­ režim úprav" >
+<!ENTITY NormalMode.accesskey "N" >
+<!ENTITY NormalMode.tooltip "Zobrazí rámečky tabulek a názvy kotev" >
+<!ENTITY AllTagsMode.label "HTML značky" >
+<!ENTITY AllTagsMode.accesskey "z" >
+<!ENTITY AllTagsMode.tooltip "Zobrazí ikony pro všechny HTML značky" >
+<!ENTITY HTMLSourceMode.label "HTML zdrojový kód" >
+<!ENTITY SourceMode.label "Zdrojový kód" >
+<!ENTITY HTMLSourceMode.accesskey "H" >
+<!ENTITY HTMLSourceMode.tooltip "Úprava zdrojového HTML kódu" >
+<!ENTITY PreviewMode.label "Náhled" >
+<!ENTITY PreviewMode.accesskey "h" >
+<!ENTITY PreviewMode.tooltip "Zobrazí­stránku jako v prohlížeči" >
+<!ENTITY SourceTabDirection "ltr" >
+<!ENTITY structSelect.label "Vybrat" >
+<!ENTITY structSelect.accesskey "a" >
+<!ENTITY structRemoveTag.label "Odstrnit tag" >
+<!ENTITY structRemoveTag.accesskey "O" >
+<!ENTITY structChangeTag.label "Změnit tag" >
+<!ENTITY structChangeTag.accesskey "Z" >
+
+<!ENTITY insertTOC.label "Vložit" >
+<!ENTITY insertTOC.accesskey "V" >
+<!ENTITY updateTOC.label "Aktualizovat" >
+<!ENTITY updateTOC.accesskey "u" >
+<!ENTITY removeTOC.label "Odstranit" >
+<!ENTITY removeTOC.accesskey "d" >
+<!ENTITY tocMenu.label "Obsah..." >
+<!ENTITY tocMenu.accesskey "O" >
+
+<!-- Smart Widgets menu -->
+<!ENTITY insertSmartWidgetsMenu.label   "Moduly &brandShortName;u">
+<!ENTITY madeWithNvu.label        "Tlačítko: Vytvořeno v &brandShortName;u">
+<!ENTITY insertCalendarSW.label   "Kalendář">
+
+<!-- Toolbar customization -->
+<!ENTITY customizeToolbar.label   "Vlastní panel">
+<!ENTITY customizeToolbar.accesskey "t">
+
+<!-- Templates -->
+<!ENTITY templatesMenu.label      "Šablony">
+<!ENTITY insertEditableArea.label "Vložit editovatelnou oblast">
+<!ENTITY removeEditableArea.label "Odstranit editovatelnou oblast">
+<!ENTITY makeEditableArea.label   "Vytvořit editovatelnou oblast">
+
+<!-- Advanced -->
+
+<!ENTITY writingDirectionMenu.label "Směr psaní textu">
+<!ENTITY writingdirectionmenu.accesskey "S">
+<!ENTITY defaultDirectionMenu.label "Nespecifikovaný">
+<!ENTITY defaultdirectionmenu.accesskey "N">
+<!ENTITY ltrDirectionMenu.label     "Zleva doprava">
+<!ENTITY ltrdirectionmenu.accesskey "l">
+<!ENTITY rtlDirectionMenu.label     "Zprava doleva">
+<!ENTITY rtldirectionmenu.accesskey "p">
+
+<!ENTITY dirLtr.tooltip           "Zleva doprava">
+<!ENTITY dirRtl.tooltip           "Zprava doleva">
+
+<!-- Help menu -->
+<!ENTITY helpMenu.label           "Nápověda">
+<!ENTITY helpmenu.accesskey       "N">
+
+<!ENTITY nvuComMenu.label         "Domovská stránka &brandShortName;u">
+<!ENTITY nvucommenu.accesskey     "K">
+<!ENTITY faqMenu.label            "FAQ">
+<!ENTITY faqmenu.accesskey        "F">
+<!ENTITY bugReportsMenu.label     "Chybová hlášení­a návrhy">
+<!ENTITY bugreportsmenu.accesskey "b">
+<!ENTITY nvudevOrgMenu.label      "Komunita vývojářů">
+<!ENTITY nvudevorgmenu.accesskey  "K">
+<!ENTITY nvuForumsMenu.label      "Diskuzní­fórum">
+<!ENTITY nvuforumsmenu.accesskey  "f">
+<!ENTITY supportKompoZer.label     "Support &brandShortName;">
+<!ENTITY supportKompoZer.accesskey "s">
+<!ENTITY tipofthedayMenu.label    "Tip na tento den">
+<!ENTITY tipofthedaymenu.accesskey "d">
+<!ENTITY aboutMenu.label          "O &brandShortName;u">
+<!ENTITY aboutmenu.accesskey      "O">
+<!ENTITY localizingnvu.accesskey  "Z">
+<!ENTITY localizingNvu.label      "Lokalizace &brandShortName;u">
+<!ENTITY userGuideMenu.label      "Uživatelská příručka (on-line)">
+<!ENTITY userguidemenu.accesskey  "U">
+<!ENTITY aboutLinspire.label      "O společnosti Linspire Inc.">
+<!ENTITY aboutlinspire.accesskey  "L">
+<!ENTITY aboutDI.label            "O Disruptive Innovations">
+<!ENTITY aboutDI.accesskey        "I">
+
+<!ENTITY leftGlued.tooltip        "Přilepit na levý okraj">
+<!ENTITY rightGlued.tooltip       "Přilepit na pravý okraj">
+<!ENTITY centerGlued.tooltip      "Udržet uprostřed">
+<!ENTITY topGlued.tooltip         "Přilepit nahoru">
+<!ENTITY bottomGlued.tooltip      "Přilepit dolů">
+<!ENTITY middleGlued.tooltip      "Udržet ve střední poloze">
+
+<!ENTITY spellSuggestions.label   "Oprava pravopisu">
+<!ENTITY spellSuggestions.accesskey "p">
+<!ENTITY spellAddToDictionary.label "Přidej do slovníku">
+
+<!ENTITY refreshImages.label       "Znovunačíst obrázky">
+<!ENTITY refreshImages.accesskey   "n">
+<!ENTITY filepreview.keybinding    "VK_F5">
+<!ENTITY filerevert.keybinding     "r">

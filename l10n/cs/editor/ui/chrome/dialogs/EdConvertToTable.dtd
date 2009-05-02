@@ -1,0 +1,9 @@
+<!ENTITY collapseSpaces.label "Ignorovat nadbytečné mezery">
+<!ENTITY collapseSpaces.tooltip "Převede přiléhající mezery na jeden oddělovač">
+<!ENTITY commaRadio.label "Čárka">
+<!ENTITY deleteCharCheck.label "Smazat oddělující znak">
+<!ENTITY instructions1.label "Editor vytvoří nový řádek tabulky pro každý odstavec ve výběru.">
+<!ENTITY instructions2.label "Vyberte znak, kterým se oddělují jednotlivé sloupce:">
+<!ENTITY otherRadio.label "Jiný znak:">
+<!ENTITY spaceRadio.label "Mezera">
+<!ENTITY windowTitle.label "Převádění na tabulku">

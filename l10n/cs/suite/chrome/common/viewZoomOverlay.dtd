@@ -1,0 +1,10 @@
+<!ENTITY textZoomEnlargeCmd.label "Zvětšit">
+<!ENTITY textZoomEnlargeCmd.accesskey "v">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomReduceCmd.label "Zmenšit">
+<!ENTITY textZoomReduceCmd.accesskey "m">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY textZoomMenu.accesskey "x">
+<!ENTITY textZoomOtherCmd.accesskey "j">

@@ -1,0 +1,15 @@
+
+<!ENTITY  history.title             "Historie aktualizací">
+<!ENTITY  history.intro             "Byly nainstalovány následující aktualizace:">
+<!ENTITY  closebutton.label         "Zavřít">
+                                     
+<!ENTITY  detailsButton.label       "Podrobnosti">
+<!ENTITY  detailsButton.accesskey   "P">
+
+<!ENTITY  noupdates.label           "Doposud nebyly nainstalovány žádné aktualizace.">
+
+<!ENTITY  name.header               "Jméno aktualizace">
+<!ENTITY  date.header               "Datum instalace">
+<!ENTITY  type.header               "Typ">
+<!ENTITY  state.header              "Stav">
+

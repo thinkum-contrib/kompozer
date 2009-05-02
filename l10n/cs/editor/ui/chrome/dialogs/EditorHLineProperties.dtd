@@ -1,0 +1,19 @@
+<!ENTITY alignmentBox.label "Zarovnání">
+<!ENTITY centerRadio.accessKey "s">
+<!ENTITY centerRadio.value "Na střed">
+<!ENTITY dimensionsBox.label "Rozměry">
+<!ENTITY heightEditField.accessKey "v">
+<!ENTITY heightEditField.label "Výška:">
+<!ENTITY leftRadio.accessKey "l">
+<!ENTITY leftRadio.value "Doleva">
+<!ENTITY pixelsPopup.value "bodů">
+<!ENTITY rightRadio.accessKey "r">
+<!ENTITY rightRadio.value "Doprava">
+<!ENTITY saveSettings.accessKey "U">
+<!ENTITY saveSettings.label "Uložit jako výchozí">
+<!ENTITY saveSettings.tooltip "Uloží toto nastavení pro nově vložené vodorovné linky">
+<!ENTITY threeDShading.accessKey "t">
+<!ENTITY threeDShading.label "Stínování">
+<!ENTITY widthEditField.accessKey "k">
+<!ENTITY widthEditField.label "Šířka:">
+<!ENTITY windowTitle.label "Vlastnosti vodorovné linky">

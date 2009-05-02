@@ -1,0 +1,38 @@
+<!ENTITY copyCmd.accesskey "k">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.label "Kopírovat">
+<!ENTITY cutCmd.accesskey "v">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.label "Vyjmout">
+<!ENTITY deleteCmd.accesskey "m">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.label "Smazat">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+<!ENTITY findTypeLinksCmd.label "Vyhledat odkaz jako Váš vzor">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeTextCmd.label "Vyhledat text Váš vzor">
+<!ENTITY newBlankPageCmd.accesskey "P">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newBlankPageCmd.label "Prázdná stránka">
+<!ENTITY newNavigatorCmd.accesskey "N">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.label "Okno prohlížeče">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+<!ENTITY newPageFromTemplateCmd.label "Stránka ze šablony">
+<!ENTITY pasteCmd.accesskey "l">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.label "Vložit">
+<!ENTITY preferencesCmd.accesskey "o">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.label "Možnosti...">
+<!ENTITY redoCmd.accesskey "r">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.label "Znpvu">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.label "Vybrat vše">
+<!ENTITY undoCmd.accesskey "z">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.label "Zpět">
+<!ENTITY viewToolbarsMenu.accesskey "o">
+<!ENTITY viewToolbarsMenu.label "Zobrazit/Skrýt">

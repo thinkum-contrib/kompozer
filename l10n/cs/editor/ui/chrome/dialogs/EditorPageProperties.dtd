@@ -1,0 +1,25 @@
+<!ENTITY EditHEADSource1.label "Pokročilí uživatelé:">
+<!ENTITY EditHEADSource2.label "Pro editaci oblasti &lt;head&gt; použijte HTML zdrojový kód v nabídce Zobrazit nebo záložku Zdrojový kód.">
+<!ENTITY authorInput.accessKey "A">
+<!ENTITY authorInput.label "Autor:">
+<!ENTITY chooseCharsetButton.label "Vyberte kódování">
+<!ENTITY defaultCharset.label "Znaková sada:">
+<!ENTITY defaultDirectionRadio.label "Není specifikován směr">
+<!ENTITY descriptionInput.accessKey "P">
+<!ENTITY descriptionInput.label "Popis:">
+<!ENTITY fromTemplate.label "Tento dokument je vázán na šablonu.">
+<!ENTITY general.label "Hlavní informace">
+<!ENTITY i18nHeader "Mezinárodní nastavení">
+<!ENTITY language.label "Jazyk:">
+<!ENTITY languageChoiceButton.label "Vyberte jazyk">
+<!ENTITY lastModified.label "Datum změny:">
+<!ENTITY location.label "Umístění:">
+<!ENTITY locationNewPage.label "[Nová stránka, momentálně neuložená]">
+<!ENTITY ltrDirectionRadio.label "Z leva do prava">
+<!ENTITY rtlDirectionRadio.label "Z prava do leva">
+<!ENTITY template.label "Šablony">
+<!ENTITY templateCheckbox.label "Tato stránka je šablona">
+<!ENTITY titleInput.accessKey "N">
+<!ENTITY titleInput.label "Nadpis:">
+<!ENTITY windowTitle.label "Vlastnosti stránky">
+<!ENTITY writingDirection.label "Směr psaní">
