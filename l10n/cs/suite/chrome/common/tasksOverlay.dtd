@@ -1,27 +1,29 @@
-<!ENTITY navigatorCmd.label "Prohlížeč">
-<!ENTITY navigatorCmd.accesskey "P">
-<!ENTITY navigatorCmd.commandkey "1">
-<!ENTITY editorCmd.label "Editor">
+<!ENTITY downloadManagerCmd.accesskey "t">
+<!ENTITY downloadManagerCmd.label "Správce stahování souborů">
 <!ENTITY editorCmd.accesskey "E">
 <!ENTITY editorCmd.commandkey "4">
-<!ENTITY securityInfoCmd.label ".Informace o zabezpečení">
-<!ENTITY securityInfoCmd.accesskey "z">
-<!ENTITY javaConsoleCmd.label "Konzola jazyka Java">
+<!ENTITY editorCmd.label "Editor">
+<!ENTITY extensions.label "Správce rozšíření">
 <!ENTITY javaConsoleCmd.accesskey "J">
-<!ENTITY errorConsoleCmd.label "Chybová konzola">
-<!ENTITY errorConsoleCmd.accesskey "C">
-<!ENTITY privacyMenu.label "Soukromí a Zabezpečení">
+<!ENTITY javaConsoleCmd.label "Konzole Javy">
+<!ENTITY javaScriptConsoleCmd.accesskey "s">
+<!ENTITY javaScriptConsoleCmd.label "Konzola JavaScriptu">
+<!ENTITY navigatorCmd.accesskey "P">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label "Prohlížeč">
 <!ENTITY privacyMenu.accesskey "p">
-<!ENTITY taskNavigator.tooltip "Prohlížeč">
-<!ENTITY taskComposer.tooltip "Editor">
-<!ENTITY taskBar.tooltip "Stavový řádek">
-<!ENTITY webDevelopment.label "Vývoj webových stránek">
-<!ENTITY webDevelopment.accesskey "w">
-<!ENTITY windowMenu.label "Okno">
-<!ENTITY windowMenu.accesskey "k">
-<!ENTITY tasksMenu.label "Nástroje">
-<!ENTITY tasksMenu.accesskey "N">
-<!ENTITY downloadManagerCmd.label "Správce stahování">
-<!ENTITY downloadManagerCmd.accesskey "t">
-<!ENTITY switchProfileCmd.label "Přepnout profil...">
+<!ENTITY privacyMenu.label "Soukromí &amp; Zabezpečení">
+<!ENTITY securityInfoCmd.accesskey "z">
+<!ENTITY securityInfoCmd.label ".Informace o zabezpečení">
 <!ENTITY switchProfileCmd.accesskey "P">
+<!ENTITY switchProfileCmd.label "Přepnout profil...">
+<!ENTITY taskBar.tooltip "Stavová lišta">
+<!ENTITY taskComposer.tooltip "Editor">
+<!ENTITY taskNavigator.tooltip "Prohlížeč">
+<!ENTITY tasksMenu.accesskey "N">
+<!ENTITY tasksMenu.label "Nástroje">
+<!ENTITY themes.label "Správce motivů vzhledu">
+<!ENTITY webDevelopment.accesskey "w">
+<!ENTITY webDevelopment.label "Vývoj webových stránek">
+<!ENTITY windowMenu.accesskey "O">
+<!ENTITY windowMenu.label "Okno">
