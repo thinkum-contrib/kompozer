@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT gmail DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>&brandShortName; sneltoetsen</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  </head>
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+<a href="#using_shortcuts">Sneltoetsen gebruiken</a>
+<a href="#general_shortcuts">&brandShortName; sneltoetsen</a>
+<a href="#nvu_composition_shortcuts">&brandShortName; sneltoetsen voor bewerken</a>
+<a href="#help_window_shortcuts">Helpvenster-sneltoetsen</a>
+</div>
+
+<h1>&brandShortName; sneltoetsen</h1>
+
+<h2 id="using_shortcuts">Sneltoetsen gebruiken</h2>
+
+<p>Dit document gebruikt het onderstaande formaat voor het beschrijven van de sneltoetsen:</p>
+
+<p><strong>Voorbeeld:</strong></p>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"></col>
+
+  <col class="osFirstColumn"></col>
+
+  <col class="osSecondColumn"></col>
+  <col class="osThirdColumn"></col>
+</colgroup>
+<thead>
+  <tr>
+    <th>Opdracht</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Kopiëren</td>
+	  <td><span class="noMac">Ctrl+C</span><span
+	  class="mac">Cmd+C</span></td>
+  </tr>
+</tbody>
+</table>
+
+<p>Om een opdracht uit te voeren, druk je de genoemde toetsen tegelijker in.
+  Om bijvoorbeeld onder Windows iets te kopi&euml;ren, drukt u Ctrl en C tegelijk in.</p>
+
+<p><strong>Tip</strong>:
+  Het plus-teken (+) dat 2 toetsen tegelijk ingedrukt moeten worden.
+  Als er meer dan 1 plus-teken vermeld wordt (zoals Ctrl+Shift+C), betekent het dat alle vermelde toetsen tegelijk ingedrukt moeten worden.</p>
+
+<p><strong>Afkortingen:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">Control-toets</span><span class="mac">Command-toets
+      op het Mac OS X toetsenbord</span></li>
+    </ul>
+
+
+<p><strong>Let op</strong>: Sommige sneltoetsen voeren verschillende functies uit
+  op basis van waar de cursor zich bevindt. Als u bijvoorbeeld onder Windows op de Home-knop drukt
+  terwijl u een webpagina bekijkt, dan zal &brandShortName; naar de bovenkant van de webpagina gaan.
+  Als u hetzelfde doet terwijl de cursor zich in een tekstveld bevindt, dan gaat de cursor naar het begin van het tekstveld.
+</p>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Terug naar het begin van deze sectie</a> ]</p>
+
+<h2 id="general_shortcuts">Algemene &brandShortName;-sneltoetsen</h2>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"></col>
+  <col class="osFirstColumn"></col>
+</colgroup>
+
+<thead>
+  <tr>
+    <th>Opdracht</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+  </tr>
+
+</thead>
+<tbody>
+  <tr>
+    <td>Bestand openen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+  </tr>
+
+  <tr>
+    <td>Nieuwe pagina/sjabloon openen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+N</td>
+  </tr>
+  <tr>
+
+    <td>Nieuwe tab openen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+T</td>
+  </tr>
+  <tr>
+    <td>Bestand opslaan</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+S</td>
+  </tr>
+  <tr>
+    <td>Kopi&euml;ren</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+C</td>
+  </tr>
+  <tr>
+    <td>Plakken</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+V</td>
+  </tr>
+  <tr>
+    <td>Knippen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+X</td>
+  </tr>
+  <tr>
+    <td>Alles selecteren</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+A</td>
+
+  </tr>
+  <tr>
+    <td>Venster sluiten</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+  </tr>
+
+  <tr>
+    <td>Volgende woord verwijderen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Del</td>
+  </tr>
+  <tr>
+
+    <td>Pagina naar boven</td>
+    <td>Page Up</td>
+  </tr>
+  <tr>
+    <td>Een pagina naar beneden</td>
+
+    <td>Page Down</td>
+  </tr>
+  <tr>
+    <td>Een regel naar boven</td>
+    <td>Pijltje boven</td>
+  </tr>
+  <tr>
+    <td>Een regel naar beneden</td>
+    <td>Pijltje beneden</td>
+  </tr>
+  <tr>
+    <td>Ongedaan maken</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Z</td>
+
+  </tr>
+  <tr>
+    <td>Opnieuw uitvoeren</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Z</td>
+  </tr>
+
+  <tr>
+    <td>Zoeken</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+F</td>
+  </tr>
+  <tr>
+
+    <td>Opnieuw zoeken</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> or
+	  F3</span><span class="mac">Cmd+G</span></td>
+  </tr>
+  <tr>
+    <td>Vorige zoeken</td>
+	  <td><span class="noMac">Ctrl+Shift+F</span><span
+	  class="mac">?</span></td>
+  </tr>
+  <tr>
+    <td>Contextmenu openen</td>
+	  <td><span class="noMac">Shift+F10</span><span
+	  class="mac">Ctrl+Space</span></td>
+  </tr>
+  <tr>
+    <td>
+      Open hoofdmenu <span class="noMac">(gaat naar de eerste uitklapmenu
+      bovenaan het venster)</span>
+    </td>
+	  <td><span class="win">Alt of</span><span
+	  class="noMac">F10</span><span class="mac">Instellen via toetsenbordinstelling
+	   in Configuratiescherm</span></td>
+  </tr>
+  <tr>
+    <td>Naar het begin van een regel (in een tekstveld)</td>
+	  <td><span class="win">Home</span><span class="mac">Cmd+Left
+	  Arrow</span><span class="unix">Ctrl+A</span></td>
+  </tr>
+
+  <tr>
+    <td>Naar het einde van de regel (in een tekstveld)</td>
+	  <td><span class="win">End</span><span class="mac">Cmd+Right
+	  Arrow</span><span class="unix">Ctrl+E</span></td>
+  </tr>
+  <tr>
+    <td>Naar volgende tab (als er meer dan 1 tab geopend is)</td>
+    <td>Ctrl+Page Down</td>
+  </tr>
+  <tr>
+    <td>Naar vorige tab (als er meer dan 1 tab geopend is)</td>
+    <td>Ctrl+Page Up</td>
+  </tr>
+  <tr>
+    <td>Tab sluiten</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+
+  </tr>
+  <tr>
+    <td>&brandShortName; afsluiten</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Q</td>
+
+  </tr>
+</tbody>
+</table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Terug naar het begin van deze sectie</a> ]</p>
+
+<h2 id="nvu_composition_shortcuts">&brandShortName; sneltoetsen voor bewerken</h2>
+
+<p>Deze sneltoetsen kunnen worden gebruikt tijdens het bewerken van HTML-pagina's met &brandShortName;.</p>
+
+<table class="defaultTable">
+
+<colgroup>
+  <col class="commandColumn"></col>
+
+  <col class="osFirstColumn"></col>
+</colgroup>
+<thead>
+  <tr>
+    <th>Opdracht</th>
+<th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Weblocatie openen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+L</td>
+  </tr>
+  <tr>
+    <td>Publiceren</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+S</td>
+  </tr>
+  <tr>
+    <td>Tekst zoomen - kleiner</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+-</td>
+
+  </tr>
+  <tr>
+    <td>Tekst zoomen - groter</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= OF
+	  <span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>++ (plus)</td>
+  </tr>
+
+  <tr>
+    <td>Tekst zoomen - 100%</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+  </tr>
+
+  <tr>
+    <td>Link invoegen/bewerken</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+L</td>
+  </tr>
+  <tr>
+
+    <td>Tekst <b>Vet</b></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+B</td>
+  </tr>
+  <tr>
+
+    <td>Tekst <i>Cursief</i></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+I</td>
+  </tr>
+  <tr>
+
+    <td>Tekst <u>Onderstrepen</u></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+U</td>
+  </tr>
+  <tr>
+
+    <td>Inspringing vergroten</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+[</td>
+  </tr>
+  <tr>
+    <td>Inspringing verkleinen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+]</td>
+  </tr>
+  <tr>
+    <td>Tekststijlen niet voortzetten</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Y</td>
+  </tr>
+  <tr>
+    <td>Koppeling niet voortzetten</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+K</td>
+  </tr>
+  <tr>
+    <td>Rij/kolom selecteren</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+slepen</td>
+
+  </tr>
+  <tr>
+    <td>Cel(len) selecteren</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Klik (sleep om een blok met cellen te selecteren
+	  of ga klik andere cellen aan om deze ook te selecteren)</td>
+  </tr>
+
+  <tr>
+    <td>Sitebeheerder tonen/verbergen</td>
+    <td>F9</td>
+  </tr>
+  <tr>
+
+    <td>Spellingscontrole starten</td>
+	  <td><span class="noMac">Ctrl+K</span><span
+	  class="mac">Cmd+K</span></td>
+  </tr>
+</tbody>
+</table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Terug naar het begin van deze sectie</a> ]</p>
+
+<h2 id="help_window_shortcuts">Helpvenster sneltoetsen</h2>
+
+<p>Deze sneltoetsen zijn beschikbaar binnen het helpvenster.</p>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"></col>
+  <col class="osFirstColumn"></col>
+</colgroup>
+
+<thead>
+  <tr>
+    <th>Opdracht</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+  </tr>
+
+</thead>
+<tbody>
+  <tr>
+    <td>Blader door koppelingen in tekstgedeelte (rechterkant)</td>
+    <td>Tab</td>
+  </tr>
+	<tr>
+	  <td>Toggle the visibility of Sidebar</td>
+	  <td>F9</td>
+	</tr>
+	<tr>
+	  <td>Increase Text Size</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= of <span
+	  class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift++ (plus)</td>
+	</tr>
+	<tr>
+	  <td>Decrease Text Size</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (minus)</td>
+	</tr>
+
+  <tr>
+    <td>Schakel tussen tekstgedeelte en zoeken/inhoud/index/woordenlijst</td>
+    <td>F6</td>
+  </tr>
+  <tr>
+
+    <td>Blader door Index-termen (terwijl Index-tab is geselecteerd)</td>
+    <td>Pijltje boven/beneden</td>
+  </tr>
+  <tr>
+    <td>Door tekst bladeren (tekstgedeelte, inhoudsopgave of index)</td>
+
+    <td>Pijltje boven/beneden</td>
+  </tr>
+  <tr>
+    <td>In-/uitklappen inhoudsopgave boomstructuur</td>
+    <td>Pijltje links/rechts</td>
+  </tr>
+  <tr>
+    <td>Pagina afdrukken</td>
+	  <td><span class="noMac">Ctrl+P</span><span
+	  class="mac">Cmd+P</span></td>
+  </tr>
+  <tr>
+    <td>Terug naar vorige pagina</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+Left Arrow</td>
+	</tr>
+  <tr>
+	  <td>Pagina vooruit</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+Pijltje rechts</td>
+  </tr>
+  <tr>
+	  <td>&brandShortName; helpvenster sluiten</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+  </tr>
+
+</tbody>
+</table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Terug naar het begin van deze sectie</a> ]</p>
+
+    <div class="copyrightBox"><em>30 mei 2005</em></div>
+
+    <p>Auteursrecht &copy; 2004-2005 Medewerkers aan het &brandShortName; Helpdocumentatie project.</p>
+
+</body>
+</html>

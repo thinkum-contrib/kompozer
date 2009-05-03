@@ -1,0 +1,35 @@
+<!ENTITY FTPport.accesskey "r">
+<!ENTITY HTTPport.accesskey "p">
+<!ENTITY SOCKSport.accesskey "t">
+<!ENTITY SSLport.accesskey "o">
+<!ENTITY autoTypeRadio.accesskey "a">
+<!ENTITY autoTypeRadio.label "URL voor automatische proxy-instelling:">
+<!ENTITY configAutoconfigText.accesskey "u">
+<!ENTITY configAutoconfigText.label "Instellingslocatie (URL):">
+<!ENTITY directTypeRadio.accesskey "d">
+<!ENTITY directTypeRadio.label "Directe verbinding met het Internet">
+<!ENTITY ftp.accesskey "f">
+<!ENTITY ftp.label "FTP proxy:">
+<!ENTITY gopher.accesskey "g">
+<!ENTITY gopher.label "Gopher proxy:">
+<!ENTITY gopherPort.accesskey "">
+<!ENTITY http.accesskey "h">
+<!ENTITY http.label "HTTP proxy:">
+<!ENTITY lHeader "Verbindingsintellingen">
+<!ENTITY manualTypeRadio.accesskey "m">
+<!ENTITY manualTypeRadio.label "Handmatige proxy-instellingen">
+<!ENTITY noproxy.accesskey "n">
+<!ENTITY noproxy.label "Geen proxy voor:">
+<!ENTITY noproxyExplain.label "Voorbeeld: .mozilla.org, .net.nl">
+<!ENTITY port.label "Poort:">
+<!ENTITY proxyTitle.label "Proxies voor toegang tot het Internet instellen">
+<!ENTITY reload.accesskey "I">
+<!ENTITY reload.label "Herladen">
+<!ENTITY socks.accesskey "c">
+<!ENTITY socks.label "SOCKS-host:">
+<!ENTITY socks4.accesskey "k">
+<!ENTITY socks4.label "SOCKS v4">
+<!ENTITY socks5.accesskey "v">
+<!ENTITY socks5.label "SOCKS v5">
+<!ENTITY ssl.accesskey "s">
+<!ENTITY ssl.label "SSL proxy:">

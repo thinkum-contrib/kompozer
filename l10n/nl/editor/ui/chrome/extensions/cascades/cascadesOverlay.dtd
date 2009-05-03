@@ -1,0 +1,19 @@
+<!ENTITY cascadesMenuItem.accesskey "c">
+<!ENTITY cascadesMenuItem.label "CSS bewerken">
+<!ENTITY classSelectMenu.label "Klassen">
+<!ENTITY idSelectMenu.label "ID">
+<!ENTITY inlineStyles.label "Inline stijlen">
+<!ENTITY inlinestyles.accesskey "i">
+<!ENTITY textProperties.label "Teksteigenschappen">
+<!ENTITY textproperties.accesskey "t">
+<!ENTITY borderProperties.label "Randeigenschappen">
+<!ENTITY borderproperties.accesskey "r">
+<!ENTITY backgroundProperties.label "Achtergrondeigenschappen">
+<!ENTITY backgroundproperties.accesskey "g">
+<!ENTITY boxProperties.label "Blokeigenschappen">
+<!ENTITY boxproperties.accesskey "b">
+<!ENTITY auralProperties.label "Spraakeigenschappen">
+<!ENTITY auralproperties.accesskey "a">
+<!ENTITY makeCSSRule.label "Generieke stijl extraheren en aanmaken">
+<!ENTITY makecssrule.accesskey "e">
+<!ENTITY cascadesMenuItem.keybinding    "VK_F11">

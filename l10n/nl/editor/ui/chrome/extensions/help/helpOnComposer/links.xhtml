@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h2 id="creating_links_in_composer">Koppelingen maken in &brandShortName;</h2>
+
+<h3 id="creating_links_within_the_same_page">Koppelingen binnen dezelfde pagina aanmaken</h3>
+
+<p>Om een koppeling binnen dezelfde pagina te maken, bijvoorbeeld een link de lezer kan
+gebruiken om van het ene onderdeel naar het andere onderdeel te springen, moet u een
+<em>positie</em> aanmaken
+(doellocatie),
+en daarna een koppelingn aanmaken die naar die positie verwijst. Posities worden ook wel
+<em>Gelabelde posities genoemd</em>.</p>
+
+<ol>
+  <li>Klik op de plaats aan het begin van een regel waar u een positie wilt aanmaken
+  of selecteer wat tekst.</li>
+
+  <li>Klik op de Positie knop  <img src="images/anchor.png" width="26"
+  height="26" alt="" />of open het Invoegen menu en selecteer Gelabelde positie. U ziet nu het gelabelde
+  positie-eigenschappen venster.</li>
+
+  <li>Typ een unieke naam in voor de positie in het Verwijzingsnaamveld (maximaal 30 tekens).
+  Als u spactie invult zullen ze geconverteerd worden naar underrscores ( _ ) .
+  Als u wat tekst selecteert in stap 1 zal het veld al een naam bevatten.</li>
+
+  <li>Klik op OK. Een ankerpictogram zal verschijnen in het document op de positie te markeren:
+  <img src="images/anchor-in-doc.gif" width="20" height="17" alt="" /></li>
+</ol>
+
+<p>Om een link aan te maken zodat de gebruiken naar een positie kan springen:</p>
+
+<ol>
+  <li>Selecteer de tekst of afbeelding die u aan de gelabelde positie wilt koppelen.</li>
+
+  <li>Klik de koppelingsknop of over het Invoegen menu en kies voor Koppeling. U zult het Linkeigenschappen venster zien.
+
+  <ul>
+    <li>Als u een koppeling naar een andere pagina op uw computer aan het maken bent klikt u
+    op Bestand vinden op het op te zoeken.</li>
+
+    <li>Als u een link naar een gelabelde positie(doel) aan het maken bent selecteert u het van de lijst met gelabelde posities
+    die momenteel in uw pagina te vinden zijn.</li>
+
+    <li>Als u een link aanmaakt naar een kop (bijvoorbeeld
+    Kop 1 - Kop 6), selecteer het dan van de lijst van
+    koppen die momenteel beschikbaar zijn in de pagina.</li>
+  </ul>
+  </li>
+
+  <li>Klik OK.</li>
+</ol>
+
+<p><strong>Opmerking</strong>: Om de koppeling te testen die u zojuist gemaakt hebt opent u
+het menu Bestand en kiest u pagina bladeren en klikt u op de koppeling.</p>
+
+<p><strong>Tip</strong>: Als niet eerst gelabelde posities aangemaakt had, kunt u het
+dialoogvenster Koppeling gebruiken om koppelingen naar koppen aan te maken die al in
+de pagina verschijnen.</p>
+
+<p class="returnToSection">[ <a href="#creating_links_in_composer">Terug naar het begin van deze sectie</a>]</p>
+
+
+<h3 id="creating_links_to_other_pages">Koppelingen naar andere pagina's aanmaken</h3>
+
+<p>U kunt ook koppelingen aanmaken van uw pagina naar andere lokale pagina's op uw
+computer, uw thuisnetwerk of pagina's op het internet.</p>
+
+<p><strong>Tip</strong>: Het is het beste om eerst uw pagina op te slaan of te
+publiceren voordat u koppelingen naar andere pagina's aanmaakt. Dit stelt
+&brandShortName; in staat om relatieve verwijzingen te gebruiken voor koppelingen
+als u ze eenmaal aanmaakt.</p>
+
+<p id="to_create_a_link_to_another_page">Om een koppeling naar een andere pagina te maken:</p>
+
+<ol>
+  <li>Klik in de pagina om de cursor te plaatsen op de plaats waar u de link wilt invoegen.</li>
+
+  <li>Klik de knop Koppeling op de werkbalk aan. Het dialoogvenster Linkeigenschappen  wordt getoond.</li>
+
+  <li>Omschrijf uw koppeling:
+  <ul>
+    <li><strong>Koppelingstekst</strong>: Als u al een afbeelding of
+    tekst geselecteerd had voordat u de knop aanklikte, zal de geselecteerde
+    tekst of bestand hier ingevuld worden. Anders kunt u de tekst invullen die u
+    wilt gebruiken voor de koppeling.</li>
+
+    <li><strong>Koppelingslocatie</strong>: Typ de locatie en bestandnaam of Internet-adres (URL) in waar
+    u naartoe wilt linken. Als u niet zeker bent of de locatie en de bestandnaam voor een lokaal bestand
+    goed zijn, klikt u op de knop <strong>Bestand kiezen</strong> om op uw harde schijf of netwerk naar het bestand te
+    zoeken. URLs kunt u kopi&euml;ren vanuit het locatieveld van de browser.
+    U kunt ook een gelabelde positie selecteren of een kop in de huidige pagina waar u een koppeling naartoe
+    wilt maken.</li>
+
+      <li><strong>URL is relatief ten opzichte van paginalocatie</strong>:
+      Als deze optie is aangevinkt zal &brandShortName; de URL converteren
+      zodat deze relatief is ten opzichte van de paginalocatie. Dit is vooral
+      handig als u van plan bent om om uw pagina's op een webserver te
+      publiceren, zodat anderen ze kunnen bekijken
+
+      <p>Het gebruik van relatieve URL stelt u staat om al uw gekoppelde
+      bestanden op dezelfde plaats bij elkaar te houden relatief van
+      elkaar, afhankelijk van hun locatie op de harde schijf van de webserver.</p>
+
+      <p>Het uitvinken van deze optie zorgt ervoor dat &brandShortName; de
+      URL's converteert naar een volledige (absolute) URL. Meestal worden
+      absolute URL's gebruikt om koppelingen naar afbeeldingen op andere
+      webserver aan te brengen (niet lokaal op uw harde schijf opgeslagen).</p>
+
+      <p>Als u veranderingen hebt doorgevoerd die nog niet zijn opgeslagen, dan dient u eerst de pagina op te slaan
+      voordat u dit keuzeveld aanvinkt.</p></li>
+
+  </ul>
+  </li>
+  <li>Om verdere attributen of JavaScriptgebeurtenissen toe te
+	passen, klik dan Geavanceerd bewerken aan om het dialoogvenster
+	<a href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a> te openen.</li>
+
+  <li>Klik op de knop OK.</li>
+
+  <li>Om de link te testen die u zojuist aangemaakt hebt, klikt u op de knop Bladeren.
+  Klik daarna de link aan in de pagina die verschijnt om te testen of de linkt werkt
+  zoals verwacht.</li>
+</ol>
+
+<p><strong>Tip</strong>: U kunt een koppeling ook snel kopi&euml;ren door een koppeling aan te
+klikken en van een ander venster in uw pagina te slepen. U klikt bijvoorbeeld een koppeling
+aan en sleept deze van een webpagina, bladwijzer, mailvenster en laat deze los in
+uw pagina. U kunt ook klikken met de rechtermuisknop (Control+klik onder Mac OS) op een koppeling en kiezen
+voor Koppelinkslocatie kopi&euml;ren uit het menu. Vervolgens kunt u de locatie van de verwijzing plakken
+in het veld Link Location field het dialoogvenster Koppeling-eigenschappen.</p>
+
+<p class="returnToSection">[ <a href="#creating_links_in_composer">Terug naar het begin van deze sectie</a>]</p>
+
+
+<h3 id="adding_xfn_information_within_your_links">XFN informatie in koppelingen</h3>
+
+<p>Voor het aanmaken van koppelingen op uw webpagina naar pagina's van andere mensen, biedt &brandShortName;
+de mogelijkheid om <a target="_blank" href="http://gmpg.org/xfn/">XFN</a> (XHTML Friends Network)
+informatie toe te voegen. De XFN is een eenvoudige manier om menselijke relaties in koppelingen weer te
+geven. Om XFN informatie toe te voegen:</p>
+<ol>
+<li>Klik met rechts op een link waar u de XFN informatie aan wilt toevoegen.</li>
+<li>Selecteer "Koppelingseigenschappen".</li>
+<li>Klik op meer eigenschappen in het "Koppelingseigenschappen" dialoogvenster.</li>
+<li>Selecteer de overeenkomende trefwoorden onder "Vrienschap" om als XFN-informatie toegevoegd te worden.</li>
+<li>Klik op"OK".</li>
+<li>Klik op  "Opslaan" om de veranderen/toevoegingen in het document op te slaan.</li>
+</ol>
+
+<p><strong>Opmerking:</strong> Sommige XFN-eigenschappen zijn keuzevelden, kies er maximaal 1.
+Andere zijn selectievelden, selecteer er zoveel als u wilt.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Terug naar het begin van deze sectie</a>
+]</p>
+
+<h3 id="using_images_as_links">Afbeeldingen gebruiken als koppelingen</h3>
+
+<p>U kunt afbeeldingen, zoals JPEG, GIF, or PNG bestanden zich laten gedragen
+als koppelingen in uw pagina's. Wanneer de lezer zo'n gekoppelde afbeelding aanklikt
+zal het browservenster de pagina tonen waaraan de afbeelding gekoppeld is.</p>
+
+<ol>
+  <li>Selecteer een afbeelding op uw pagina.</li>
+
+  <li>Klik de knop Koppeling <img src="images/link.png" width="26" height="26" alt="" /> op de werkbalk aan of
+	open het menu Invoegen en kies voor Koppeling.</li>
+
+  <li>Gebruik het koppelingseigenschappen dialoogvenster om de afbeelding te koppelen aan
+  <a href="#creating_links_within_the_same_page">gelabelde posities of koppen
+  binnen een pagina</a> of aan <a href="#creating_links_to_other_pages">losse lokale bestanden of bestanden
+  op afstand</a>.</li>
+</ol>
+
+<p><strong>Tip</strong>: Sleep een gekoppelde afbeelding vanuit de browser in
+&brandShortName; om zowel de afbeelding als de koppeling te kopi&euml;ren.</p>
+
+<p><strong>Opmerking</strong>: Om de blauwe rand om een afbeelding (die gebruikt wordt om
+een koppeling aan te duiden) te verwijderen, opent u de Linkeigenschappen, klikt u  het tabblad Koppelingen
+aan en vinkt u de optie 'Rand om gekoppelde afbeelding weergeven' uit.</p>
+
+<p class="returnToSection">[ <a href="#creating_links_in_composer">Terug naar het begin van deze sectie</a>]</p>
+
+
+<h3 id="removing_or_discontinuing_links">Koppelingen verwijderen of be&euml;indigen</h3>
+
+<p>Om een koppeling te verwijderen:</p>
+
+<ol>
+  <li>Selecteert u de gekoppelde tekst (normaal blauw en onderstreept) of afbeelding.</li>
+  <li>Open het menu Opmaak en kies voor <strong>Koppeling verwijderen</strong>.</li>
+</ol>
+
+<p>Om een koppeling niet verder te laten gaan, zodat de tekst die u na de koppeling intypt niet een deel
+van de koppeling is opgenomen:</p>
+
+<ol>
+  <li>Klik om de cursor te plaatsen op de plek waar u de koppeling wilt beïndigen.</li>
+
+  <li>Open het Opmaak-menu en kies voor 'Koppeling niet voortzetten'.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#creating_links_in_composer">Terug naar het begin van deze sectie</a>]</p>
+
+<p>[<a href="customize.xhtml">Volgende</a>] [<a href="page_properties.xhtml">Vorige</a>]</p>
+
+  <div class="copyrightBox"><em>20 juni 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

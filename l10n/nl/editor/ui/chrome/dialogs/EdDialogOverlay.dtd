@@ -1,0 +1,12 @@
+<!ENTITY AdvancedEditButton.accessKey "G">
+<!ENTITY AdvancedEditButton.label "Geavanceerd bewerken...">
+<!ENTITY AdvancedEditButton.tooltip "HTML kenmerken, stijl kenmerken en JavaScript toevoegen of veranderen">
+<!ENTITY LinkURLEditField.accessKey "L">
+<!ENTITY LinkURLEditField.label "Voer een locatie van een webpagina, lokaal bestand of e-mailadres in, of selecteer een verwijzing of een kop uit de lijst:">
+<!ENTITY chooseButton.label "Bestand kiezen...">
+<!ENTITY chooseFile.accessKey "B">
+<!ENTITY chooseFileLink.accessKey "B">
+<!ENTITY makeUrlRelative.accessKey "U">
+<!ENTITY makeUrlRelative.label "URL is relatief ten opzichte van paginalocatie">
+<!ENTITY makeUrlRelative.tooltip "Veranderen tussen relatieve en absolute URL. U moet de pagina eerst opslaan voordat dit kan worden veranderd.">
+<!ENTITY isMailAddress.label "Het bovenstaande is een e-mailadres">

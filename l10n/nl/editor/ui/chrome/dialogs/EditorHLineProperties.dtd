@@ -1,0 +1,19 @@
+<!ENTITY alignmentBox.label "Uitlijning">
+<!ENTITY centerRadio.accessKey "G">
+<!ENTITY centerRadio.value "Gecentreerd">
+<!ENTITY dimensionsBox.label "Afmetingen">
+<!ENTITY heightEditField.accessKey "H">
+<!ENTITY heightEditField.label "Hoogte:">
+<!ENTITY leftRadio.accessKey "L">
+<!ENTITY leftRadio.value "Links">
+<!ENTITY pixelsPopup.value "pixels">
+<!ENTITY rightRadio.accessKey "R">
+<!ENTITY rightRadio.value "Rechts">
+<!ENTITY saveSettings.accessKey "A">
+<!ENTITY saveSettings.label "Als standaard gebruiken">
+<!ENTITY saveSettings.tooltip "Deze instellingen opslaan om te gebruiken bij het invoegen van nieuwe horizontale lijnen">
+<!ENTITY threeDShading.accessKey "S">
+<!ENTITY threeDShading.label "3-D schaduw">
+<!ENTITY widthEditField.accessKey "B">
+<!ENTITY widthEditField.label "Breedte:">
+<!ENTITY windowTitle.label "Horizontale lijn eigenschappen">

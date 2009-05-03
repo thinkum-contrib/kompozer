@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h2 id="formatting_your_web_pages">Het opmaken van webpagina's</h2>
+
+<h3 id="formatting_paragraphs_heading_and_lists">Opmaken van alinea's, koptekst en lijsten</h3>
+
+<p>Een alinea opmaken:</p>
+
+<ol>
+  <li>Klik in de pagina waar de opmaak moet beginnen of selecteer de tekst die opgemaakt dient te worden.</li>
+
+  <li>Kies een opmaak voor de alinea met de selectielijst in de Opmaakwerkbalk:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+	<ul> <li><strong>Kerntekst</strong>:
+      Gebruikt het standaard lettertype en opmaak voor gewone tekst, zonder effect te hebben op de ruimte voor of na de tekst.</li>
+
+      <li><strong>Paragraaf</strong>: Voegt een alinea-tag in (gebruik dit om een nieuwe alinea te beginnen).
+      De alinea bevat boven- en ondermarges.</li>
+
+      <li><strong>Kop 1</strong> - <strong>Kop 6</strong>:
+      Maakt van de alinea een koptekst. Kop 1 geeft het hoogste niveau aan, terwijl Kop 6 het laagste niveau aangeeft.</li>
+
+      <li><strong>Adres</strong>: Kan gebruikt worden voor de &quot;ondertekening&quot;
+	   om aan te geven wie de pagina gemaakt heeft en met wie contact opgenomen kan worden voor meer informatie, bijvoorbeeld
+      <tt>gebruiker@voorbeeld.nl</tt> of <tt>gebruiker@voorbeeld.be</tt>.
+
+      <p>Hier kunt u bijvoorbeeld de datum en een auteursrechttekst opnemen.
+      Doorgaans staat deze opmaak onderaan een webpagina onder een horizontale lijn.
+      Een browser toont de tekst in Adres-formaat schuingedrukt.</p>
+      </li>
+
+      <li><strong>Vooraf opgemaakt</strong>: Dit is handig voor elementen als code-voorbeelden
+      gegevens in kolommen en e-mailberichten die in een lettertype met een vast breedte moeten worden weergegeven.
+      In alle andere tekst verwijdert een browser extra spaties, tabs en nieuwe regels.
+      Maar bij tekst die de stijl &quot;Vooraf opgemaakt&quot; gebruikt, wordt de witruimte
+		- en daarmee de opmaak van de originele tekst - behouden.
+      </li>
+      </ul>
+  </li>
+</ol>
+
+<p>Tekst als koptekst opmaken:</p>
+
+<ol>
+  <li>Klik in de pagina waar de opmaak moet beginnen of selecteer de tekst die opgemaakt dient te worden.</li>
+  <li>Gebruik de selectielijst in de Opmaak-werkbalk om het juiste niveau voor koptekst te selecteren (van 1 (groot) naar 6 (klein).
+  Kies voor "Kop 1" voor het hoofdniveau van de tekst, "Kop 2" voor het volgende niveau enzovoorts.</li>
+</ol>
+
+<p>Een lijst maken:</p>
+
+<ol>
+  <li>Klik in de pagina waar de opmaak moet beginnen of selecteer de tekst die opgemaakt dient te worden.</li>
+
+  <li>Open het menu Opmaak en kies voor Lijst.</li>
+
+  <li>Kies vervolgens een soort lijst:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+   <ul>
+      <li><strong>Opgesomd</strong>: elk onderdeel van de lijst krijgt een opsomteken ervoor te staan (zoals in deze lijst).</li>
+
+      <li><strong>Genummerd</strong>: de lijst wordt genummerd.</li>
+
+      <li><strong>Term</strong> and <strong>Definitie</strong>:
+	   Deze beide stijlen werken met elkaar samen om zo woordenboek-achtige lijst te maken.
+      Gebruik Term voor het woord en Definitie voor de definitie van het woord.
+		De tekst die is opgemaakt met Term wordt links uitgelijnd en de tekst opgemaakt met Definitie wordt ingesprongen.</li>
+   </ul>
+  </li>
+</ol>
+
+<p><strong>Tip</strong>: U kunt snel blok tekst in een lijst omzetten door de tekst te selecteren en op de knop Genummerde Lijst
+<img src="images/numbers.png" width="21" height="21" alt="" /> of Opsommingslijst <img src="images/bullets.png" width="21" height="21" alt="" />
+op de Opmaak-werkbalk te klikken.</p>
+
+<p>Opmaak van opsomming of nummers aanpassen:</p>
+
+<ol>
+  <li>Klik in de lijst de tekst waarvan u de opmaak wilt aanpassen of selecteer een of meerdere onderdelen van de lijst
+  als u de hele lijst een nieuwe stijl wilt geven.</li>
+
+  <li>Open het menu Opmaak en kies voor Lijst-eigenschappen.</li>
+
+  <li>Kies een stijl uit de keuzelijst. Voor genummerde lijsten kunt u een startgetal opgeven.
+  Voor opsommingslijsten kunt u de opmaak van de opsommingstekens aanpassen.</li>
+</ol>
+
+<p><strong>Tip</strong>: U kunt ook dubbelklikken op een opsommingsteken of een nummer
+van een lijst om het dialoogvenster Lijst-eigenschappen te tonen.</p>
+
+<p>Tekst in de pagina uitlijnen (bijvoorbeeld gecentreerd of links/rechts uitgelijnd):</p>
+
+<ol>
+  <li>Klik in de tekst om aan te geven welke tekst uitgelijnd moet worden.</li>
+
+  <li>Open het menu Opmaak en kies voor Uitlijnen; kies vervolgens een instelling uit de lijst die dan verschijnt.</li>
+</ol>
+
+<p><strong>Let op</strong>: U kunt ook de Opmaak-werkbalk gebruiken om tekst uit te lijnen.</p>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="working_with_lists">Met lijsten werken</h3>
+
+<p>Een lijst be&euml;indigen en normale tekst tikken:</p>
+
+<ul>
+  <li>Klik in de lijst om het invoegpunt aan het eind van het laatste onderdeel in de lijst te plaatsen en druk tweemaal op
+  Enter (Return op Mac OS) om de lijst te be&euml;indigen.</li>
+</ul>
+
+<p>Een of meerdere onderdelen van de lijst in normale tekst wijzigen:</p>
+
+<ol>
+  <li>Klik in de lijst of selecteer enkele onderdelen van de lijst.</li>
+
+  <li>Klik in het geval van een genummerde lijst op de knop Genummerde lijst (of in het geval van een
+  opsommingslijst op de knop Opsommingslijst) in de werkbalk Opmaak.</li>
+</ol>
+
+<p>Ingesprongen tekst onder een onderdeel van de lijst plaatsen:</p>
+
+<ol>
+  <li>Klik in de lijst.</li>
+
+  <li>Druk op Shift+Enter om een inspringing zonder opsommingsteken te maken.</li>
+
+  <li>Typ de tekst die u in wilt springen.</li>
+
+  <li>Druk nogmaals Shift+Enter om nog een ingesprongen alinea te maken of druk op
+  Enter om een volgende onderdeel aan de lijst toe te voegen.</li>
+</ol>
+
+<p id="increase_or_decrease_the_indentation_of_list_items"><strong>Tip</strong>:
+U kunt de inspringing van de onderdelen van de lijst vergroten of verkleinen door op de knop
+Inspringing vergroten of Inspringing verkleinen van de Opmaak werkbalk te klikken.
+Ook kunt u ergens in de lijst klikken en dan de Tab-toets op het toetsenbord indrukken om een niveau in te springen.
+Met Shift+Tab maakt u dit weer ongedaan.</p>
+
+<p>Twee aansluitende lijsten samenvoegen:</p>
+
+<ol>
+  <li>Selecteer twee lijsten die u wilt samenvoegen. Zorg ervoor dat u alle onderdelen van beide lijsten selecteert.
+  Houd er rekening mee dat tekst tussen beide lijsten ook onderdeel wordt van de samengevoegde lijst.</li>
+
+  <li>Klik op de knop Opsommingslijst of Genummerde lijst van de werkbalk Opmaak om beide lijsten samen te voegen.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="changing_text_color_style_and_font">Tekstkleur, opmaak of lettertype wijzigen</h3>
+
+<p>Verander de opmaak, kleur, lettertype van geselecteerde tekst:</p>
+
+<ol>
+  <li>Selecteer de tekst die veranderd dient te worden.</li>
+
+  <li>Open het menu Opmaak en kies een van onderstaande onderdelen:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <ul>
+      <li><strong>Lettertype</strong>: Kies hiermee een lettertype.
+		Als u wilt dat de lettertypen van degene die de pagina bekijkt gebruikt worden, dan kunt u kiezen voor Variabele grootte of Vaste grootte.
+
+      <p><strong>Let op</strong>: Niet alle lettertypen die op een computer ge&iuml;nstalleerd zijn
+      worden getoond. In plaats van een lettertype op te geven dat misschien niet iedereen die de webpagina bekijkt heeft,
+      wordt het aanbevolen een van de lettertypen in het menu te kiezen. Deze werken op iedere computer.
+      Lettertypen als Helvetica, Arial, Times en Courier zien er bijvoorbeeld doorgaans hetzelfde uit op verschillende computers.
+		Als u een ander lettertype kiest, dan kan het voorkomen dat het er op een andere computer anders uit ziet.</p> </li>
+
+      <li><strong>Grootte</strong>: Gebruik dit om een <em>relatieve</em> tekstgrootte
+      te kiezen of vergroot of verklein de tekstgrootte (afhankelijk van de omringende tekst).</li>
+
+      <li><strong>Tekststijl</strong>: Kies hiermee een tekststijl (zoals schuingedrukt, vetgedrukt of onderstreept)
+		of een andere voorgedefinieerde stijl te kiezen (bijvoorbeeld Code).</li>
+
+      <li><strong>Tekstkleur</strong>: Kies hier een kleur met de kleurenkiezer.
+		Als u bekend bent met de hexadecimale kleurcodes van HTML, dan kunt u een specifieke code invoeren of u kunt een kleurnaam invoeren
+	  (bijvoorbeeld "blue"; dit werkt met Engelse kleurnamen). U zult een handige kleurcode omzetten <a href="http://builder.com.com/1200-31-5087779.html"
+      target="_blank">hier</a>vinden.</li>
+           </ul>
+  </li>
+</ol>
+
+<p>Achtergrondkleur van een pagina veranderen:</p>
+
+<ol>
+  <li>Klik ergens in de pagina.</li>
+
+  <li>Klik het achtergrondkleuren-veld in de opmaakwerkbalk aan.</li>
+
+  <li>Kies een achtergrondkleur uit het dialoogvenster Paginakleuren en achtergrond.</li>
+
+  <li>Klik op OK.</li>
+</ol>
+
+<p><strong>Tip</strong>:
+Om snel de tekstkleur aan te passen naar de laatstgebruikte kleur, selecteert u de tekst, drukt u op de Shift-toets
+en klikt u op de knop Tekstkleur in de werkbalk Opmaak.
+Dit is handig als u &eacute;&eacute;n kleur wilt gebruiken voor verschillende tekstregels.</p>
+
+<p>Ook kunt u een afbeelding als achtergrond gebruiken. Zie <a
+href="#setting_page_colors_and_backgrounds">Instellen van paginakleuren en achtergronden</a> voor meer informatie.</p>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+
+<h3 id="removing_or_discontinuing_text_styles">Tekststijlen verwijderen of be&euml;indigen</h3>
+
+<p>Verwijderen van alle opmaak (vet, schuin enzovoorts) van geselecteerde tekst:</p>
+
+<ol>
+  <li>Selecteer de tekst.</li>
+
+  <li>Open het menu Opmaak en kies voor Alle tekststijlen verwijderen.</li>
+
+  <li>Ga verder met typen.</li>
+</ol>
+
+<p>Verder typen zonder tekststijlen:</p>
+
+<ol>
+  <li>Plaats de cursor waar u de tekststijl wilt laten stoppen.</li>
+
+  <li>Open het menu Opmaak en kies <strong>Tekststijlen niet voortzetten</strong>.</li>
+
+  <li>Ga verder met typen.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="finding_and_replacing_text">Tekst zoeken en vervangen</h3>
+
+<p>Tekst zoeken en vervangen in de huidige pagina:</p>
+
+<ol>
+  <li>Plaats de cursor in de pagina op de plaats waar u het zoeken wilt beginnen.</li>
+
+  <li>Open het menu Bewerken en kies voor <strong>Zoeken en vervangen</strong>. Nu komt het dialoogvenster Zoeken en vervangen tevoorschijn.</li>
+
+  <li>Voer de te zoeken tekst in achter "Wat zoeken".
+	Om nauwkeuriger te zoeken kunt u een van onderstaande opties selecteren:
+    <ul>
+    <li><strong>Hoofdlettergevoelig</strong>: Gebruik dit als hoofd- en kleine letters precies overeen moeten komen met wat u heeft ingevoerd.</li>
+
+    <li><strong>Doorgaan na documenteinde</strong>: Gebruik dit om aan het einde van de pagina bovenaan of onderaan de pagina
+	 (afhankelijk van in welke richting u zoekt) verder te gaan met zoeken.</li>
+
+    <li><strong>Achterwaarts zoeken</strong>: Gebruik dit om ten opzichte van de cursor achterwaards te zoeken richting het begin van de pagina.</li>
+  </ul>
+  </li>
+  <li>Klik op Volgende Zoeken om het zoeken te starten.
+  Als &brandShortName; het eerste voorkomen heeft gevonden dan kunt u op <strong>Volgende zoeken</strong> klikken om verder te zoeken.</li>
+
+  <li>Klik op Sluiten als u genoeg gevonden tekst hebt.</li>
+</ol>
+
+<p>Zoeken en vervangen van tekst in de pagina die u aan het bewerken bent:</p>
+
+<ol>
+  <li>Klik in de pagina waar u met zoeken wilt beginnen.</li>
+
+  <li>Open het menu Bewerken en kies voor <strong>Zoeken en vervangen</strong>.
+	Nu verschijnt het dialoogvenster <strong>Zoeken en vervangen</strong>.</li>
+
+  <li>Voer de tekst in die u wilt zoeken en de tekst waardoor u het wilt vervangen.</li>
+
+  <li>Om nauwkeuriger te zoeken kunt u een van onderstaande opties selecteren:
+  <p><br /></p>
+  <ul>
+    <li><strong>Hoofdlettergevoelig</strong>: Gebruik dit als hoofd- en kleine letters precies overeen moeten komen met wat u heeft ingevoerd.</li>
+
+    <li><strong>Doorgaan na documenteinde</strong>: Gebruik dit om aan het einde van de pagina bovenaan of onderaan de pagina
+	 (afhankelijk van in welke richting u zoekt) verder te gaan met zoeken.</li>
+
+    <li><strong>Achterwaarts zoeken</strong>: Gebruik dit om ten opzichte van de cursor achterwaarts te zoeken richting het begin van de pagina.</li>
+  </ul>
+  </li>
+
+  <li>Klik op Volgende zoeken om verder te zoeken. &brandShortName; selecteert dan het volgende voorkomen van de tekst (indien aanwezig).</li>
+
+  <li>Klik op Vervangen om de op dat moment geselecteerde tekst te vervangen door de tekst achter <strong>Vervangen door</strong>.
+  Klik op <strong>Vervangen en zoeken</strong> om de geselecteerde tekst te vervangen en het volgende voorkomen te zoeken.
+  Klik op <strong>Alles vervangen</strong> om alle te zoeken tekst in de pagina te vervangen door de tekst achter <strong>Vervangen door</strong>.</li>
+
+  <li>Klik op Sluiten als u genoeg tekst vervangen hebt.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="inserting_horizontal_lines">Horizontale lijnen invoegen</h3>
+
+<p>Horizontale lijnen worden doorgaans gebruikt om verschillende secties
+van een pagina visueel van elkaar te scheiden.
+Om een horizontale lijn in een pagina in te voegen, kunt u onderstaande stappen uitvoeren:</p>
+<ol>
+  <li>Klik in de pagina op de positie waar u de lijn wilt invoegen.</li>
+  <li>Open het menu Invoegen en kies voor Horizontale lijn.</li>
+</ol>
+
+<h3 id="setting_horizontal_line_properties">Eigenschappen horizontale lijn instellen</h3>
+
+<p>U kunt de hoogte, lengte, breedte, plaatsing en schaduw aanpassen.</p>
+
+<ol>
+  <li>Dubbelklik op de lijn om het dialoogvenster <strong>Horizontale lijn eigenschappen</strong> te openen.</li>
+
+  <li>Pas een van onderstaande eigenschappen aan:
+  <ul>
+    <li><strong>Breedte</strong>: Hier kunt u de breedte van de lijn invoeren.
+	 U kunt kiezen voor "% van venster" of "pixels." Als u de breedte als percentage opgeeft, dan
+    wijzigt de breedte van de lijn iedere keer als de breedte van het venster van &brandShortName; of de browser verandert.</li>
+
+    <li><strong>Hoogte</strong>: Hier kunt u de hoogte van de lijn (in pixels) invoeren.</li>
+
+    <li><strong>3-D schaduw</strong>: Kies hiervoor om een beetje diepte aan de lijn te geven.</li>
+
+    <li><strong>Uitlijning</strong>: Geef hier op hoe de lijn geplaatst moet worden (links, gecentreerd of rechts).</li>
+  </ul>
+  </li>
+
+  <li>Klik op <strong>Als standaard gebruiken</strong> om deze instellingen te gebruiken als standaardinstellingen
+	wanneer u weer een horizontale lijn invoegt.</li>
+
+  <li>Om de eigenschappen van een horizontale lijn handmatig te bewerken, kunt op <strong>Geavanceerd bewerken...</strong> klikken.
+	Zie de uitleg over het dialoogvenster <a href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a> voor meer informatie.</li>
+</ol>
+
+<p><strong>Tip:</strong> U kunt in het menu Beeld kiezen voor "HMTL Tags" om alle HTML-elementen in een geel kader te zien.
+Klik op een van deze kaders om alles binnen het HTML-element te selecteren. Dubbelklik op een geel kader om het dialoogvenster
+<a href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a> voor het geselecteerde HTML-element te tonen.</p>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="inserting_special_characters">Speciale tekens invoegen</h3>
+
+<p>Invoeren van speciale tekens zoals accenten en symbolen voor auteursrecht of valuta:</p>
+
+<ol>
+  <li>Klik in de pagina op de positie waar u het speciale teken wilt invoegen.</li>
+
+  <li>Open het menu Invoegen en kies voor <strong>Tekens en Symbolen</strong>.
+	Nu verschijnt het dialoogvenster <strong>Teken invoegen</strong>.</li>
+
+  <li>Kies een <strong>Categorie</strong>.
+
+  <ul> <li>Als u kiest voor <strong>Geaccentueerde hoofdletter</strong> of <strong>Geaccentueerde kleine letter</strong>, dan de
+  selectielijst Letter opent en daarin kiest voor de letter die u een accent wilt geven. (Let op: niet alle letters hebben accenten.)
+  Kies voor <strong>Algemene symbolen</strong> om speciale tekens zoals copyright-symbolen of breuken in te voegen.</li>
+  </ul>
+  </li>
+
+  <li>Kies uit de selectielijst <strong>Teken</strong> het teken dat u wilt invoegen.</li>
+
+  <li>Klik op Invoegen.
+
+  <p>U kunt verder typen in de pagina terwijl dit dialoogvenster open staat,
+	voor het geval u het nogmaals wilt gebruiken.</p> </li>
+
+  <li>Klik op Sluiten als u klaar bent met het invoegen van speciale tekens.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+
+<h3 id="inserting_html_elements_and_attributes">HTML-elementen en attributen invoegen</h3>
+
+<p>Als u weet hoe u met HTML-broncode om moet gaan, kunt u extra tags, stijlkenmerken en Javascript aan de pagina toevoegen.
+Asl u niet zeker weet hoe u met HTML-code kunt werken dan kunt u hieraan beter niet direct wijzigingen doorvoeren.
+Het werken met HTML-code kan op een van de onderstaande manieren:</p>
+
+<ul>
+  <li>Klik in de pagina op de positie waar u HTML-code wilt invoegen
+  of selecteer de tekst die u aan wilt passen. Kies vervolgens in het menu Beeld voor HTML
+  In het dialoogvenster <strong>HTML invoegen</strong>
+  kunt u HTML-code invoeren en op Invoegen klikken om deze code aan de pagina toe te voegen.</li>
+
+  <li>Selecteer een element zoals een tabel, gelabelde positie, afbeelding, koppeling of
+  horizontale lijn. Dubbelklik op het element om het bijbehorende eigenschappenvenster te openen voor
+  dat item. Klik op Geavanceerde Eigenschappen om het Geavanceerde eigenschappen bewerken-venster
+  te openen. U kunt het Geavanceerde eigenschappen bewerken-venster gebruiken om HTML attributen,
+  JavaScript en CSS aan objecten toe te voegen.</li>
+
+  <li>Kies in het menu Beeld voor HTML Bron of klik op het tabblad
+  &lt;HTML&gt; Bron in de Bewerkingsmoduswerkbalk onderaan het &brandShortName;-venster.
+  (Als u de Bewerkingsmoduswerkbalk niet ziet, open dan het menu Beeld en kies voor Tonen/Verbergen;
+   zorg ervoor dat daar Bewerkingsmoduswerkbalk is aangevinkt.)</li>
+</ul>
+
+<h3 id="using_the_advanced_property_editor">Dialoogvenster <strong>Geavanceerde eigenschappen bewerken</strong></h3>
+
+<p>Om HTML-attributen en Javascript-acties aan elementen zoals tabellen, afbeeldingen en horizontale lijnen toe te voegen, kunt u de
+het dialoogvenster <strong>Geavanceerde eigenschappen bewerken</strong> gebruiken.</p>
+
+<p><strong>Let op</strong>: Als u niet precies weet hoe u HTML-attributen en de bijbehorende waarden toevoegt, wijzigt en verwijdert,
+dan kunt u er beter voorzichtig mee omgaan.</p>
+
+<p>Als het dialoogvenster <strong>Geavanceerde eigenschappen bewerken</strong> nog niet getoond wordt, volg dan deze stappen:</p>
+
+<ol>
+  <li>Kies in het menu Beeld voor HTML Tags.</li>
+
+  <li>Dubbelklik op het object dat u wilt aanpassen om zo het bijbehorende Eigenschappen-dialoogvenster te openen.</li>
+
+  <li>Klik op <strong>Geavanceerd bewerken</strong> om het dialoogvenster Geavanceerde eigenschappen bewerken te openen.
+	Dit venster heeft drie tabbladen. Elk tabblad toont de eigenschappen die op dat moment aan het geselecteerde element zijn toegekend.
+
+  <ul>
+    <li><strong>HTML-atrributen</strong>: hier ziet u HTML-attributen van een element en kunt u deze ook aanpassen.</li>
+
+    <li><strong>Opmaak</strong>: hier ziet u extra CSS-eigenschappen (cascading stijlblad)
+	 die aan het &lt;style&gt;-attribute (in HTML) worden toegekend.
+    Voor meer informatie over het gebruik van stijlen via CSS in &brandShortName; kunt u
+	 <a href="preferences.xhtml">&brandShortName; Voorkeuren</a> bekijken.</li>
+
+    <li><strong>Javascript-gebeurtenissen</strong>: Hier kunt u bepalen welke Javascript-acties bij een element gebruikt dienen te worden.</li>
+  </ul>
+  </li>
+
+  <li>Om een eigenschap of attribuut in een van de lijsten aan te passen, selecteer u het attribuut dat u wilt aanpassen.
+  U kunt de naam en waarde van het attribuut aanpassen met de tekstvelden Eigenschap en Waarde onderaan het scherm.
+  Om een nieuw attribuut toe te voegen, typt u de naam in het tekstveld Eigenschap.
+  De nieuwe attribuut wordt automatisch aan de lijst toegevoegd als u in het veld Waarde klikt.
+  Om een attribuut te verwijderen, selecteert u het in de lijst en klikt u op de knop Attribuut verwijderen.
+  <p><strong>Let op</strong>: Vereiste attributen zijn gemarkeerd in de lijst met attributen.</p></li>
+
+  <li>Klik op OK om uw aanpassingen door te voeren in het dialoogvenster <strong>Geavanceerde eigenschappen bewerken</strong>.</li>
+
+  <li>Klik nogmaals op OK om het dialoogvenster Eigenschappen te verlaten.</li>
+</ol>
+
+<p>&brandShortName; plaatst automatisch de benodigde aanhalingstekens om de tekst van de attributen.</p>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="validating_the_html">De HTML-code laten valideren</h3>
+
+<p>Voordat u uw pagina op een webserver plaatst(bijv. door het te publiceren) zodat anderen deze kunnen bekijken,
+is het een goede gewoonte om eerst de HTML-code van de pagina te laten controleren om er zo zeker van te zijn dat het aan de
+webstandaarden voldoet. Pagina's die uit gevalideerde HTML bestaan veroorzaken doorgaans geen problemen
+wanneer ze met verschillende browsers bekeken worden. Slechts de pagina in een willekeurige browser bekijken
+garandeert niet dat uw pagina er correct uit ziet wanneer deze met een andere browser bekeken wordt.</p>
+
+<p>&brandShortName; biedt een eenvoudige manier om te controleren of de pagina
+aan de HTML-standaarden van het W3C (= World Wide Web Consortium) voldoet.
+&brandShortName; gebruikt de validatie-dienst van het W3C, die op haar beurt de HTML-code van de pagina controleert overeenkomstig
+met de HTML 4.01-standaard.  Deze dienst biedt ook informatie over hoe eventuele fouten zijn op te lossen.</p>
+
+<p><strong>Let op</strong>: Om deze mogelijkheid te kunnen gebruiken, moet u met het Internet verbonden zijn.</p>
+
+<p>De HTML-code van uw pagina laten controleren:</p>
+
+<ol>
+  <li>Open het menu Extra en kies voor <strong>HTML controleren op geldigheid</strong>.
+  Als u bepaalde wijzigingen in de pagina nog niet hebt opgeslagen dan vraagt &brandShortName; of u deze wilt opslaan alvorens verder te gaan.</li>
+
+  <li>&brandShortName; opent een nieuw venster met daarin de resultaten voor uw pagina
+  nadat de Validatie-dienst van het W3C uw pagina gecontroleerd heeft.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<h3 id="choosing_the_right_editing_mode">De juiste bewerk-modus kiezen</h3>
+
+<p>Bij normaal gebruik hoeft u de bewerk-modus niet te wijzigen. Standaard staat deze op Normaal.
+Maar als u direct in de HTML-broncode wilt werken dan kunt u een andere bewerk-modus kiezen.</p>
+
+<p>Met &brandShortName; kunt u snel tussen vier bewerk-modi schakelen. In iedere bewerk-modus kunt u aan de pagina verder werken,
+maar allemaal tonen ze de pagina op een ander niveau qua HTML-tags (en iconen).</p>
+
+<p>Voordat u kiest voor een bepaalde bewerk-modus:</p>
+
+<ul>
+  <li>Open het menu Beeld en kies voor Tonen/Verbergen. Zorg ervoor dat er naast Bewerkingsmoduswerkbalk een vinkje staat.</li>
+</ul>
+
+<p>De Bewerkingsmoduswerkbalk biedt vier tabbladen:</p>
+
+<ul>
+  <li><strong>Normaal</strong>: hier ziet u hoe de pagina er online uit komt terwijl u deze aan het maken bent.
+   Kies hiervoor om tabelranden en gelabelde posities te tonen. Alle andere HTML-tags worden verborgen.</li>
+
+  <li><strong>HTML-tags</strong>: hiermee toont u alle HTML-tags in gele iconen.</li>
+
+  <li><strong>&lt;HTML&gt; Bron</strong>: hiermee kunt u de pagina als ongeformatteerde HTML-code bewerken.
+	Als u het document opslaat, keert u terug naar de bewerkingsmodus Normaal.</li>
+
+  <li><strong>Voorbeeld</strong>: hiermee wordt de pagina exact getoond zoals het er in een browser-venster uit komt te zien, alleen werken
+  verwijzingen en JavaScript-functies hier nog niet.</li>
+</ul>
+
+<p><strong>Let op</strong>: Javascript-functies, frames, koppelingen, Java,
+ingebedde objecten en bewegende GIF-afbeeldingen zijn in geen enkele bewerkingsmodus actief.
+Om deze te zien werken, klikt u op de knop Bladeren op de werkbalk om de pagina in een browser-venster te tonen.</p>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+
+<h3 id="using_status_bar_for_formatting_your_web_page">Gebruik van de statusbalk voor het opmaken van webpagina's</h3>
+
+<p>&brandShortName; biedt een innovatieve manier voor het bewerken/toepassen van opmaakstijlen
+en toepassen van opmaak op geselecteerde tekst via de statusbalk.
+Dit werkt in alle modi, behalve in de <strong>&lt;HTML&gt; Bron</strong>-modus.
+</p>
+
+<p>Op de statusbalk ziet u HTML-elementen vermeld. Door hierop met de rechtermuisknop te klikken,
+krijgt u een contextmenu met diverse mogelijkheden. Deze mogelijkheden worden hieronder uitgelegd:
+</p>
+
+<ul>
+  <li><strong>Selecteren</strong> Als u op "Selecteren" klikt, dan selecteert u de volledige tekst die door het HTML-element omsloten wordt.</li>
+  <li><strong>Tag verwijderen</strong> Als u klikt op "Tag verwijderen", dan wordt de tag inclusief bijbehorende tags verwijderd.</li>
+
+  <li><strong>Tag aanpassen</strong> Met deze mogelijkheid kan een element eenvoudig aangepast worden.
+	Door op <strong>Tag aanpassen</strong> te klikken kan de tekst in de statusbalk worden aangepast.
+	Voer hier de gewenste HTML-tag in, gevolgd door de Enter-toets. De standaard-eigenschappen van deze HTML-tag worden
+	dan toegepast op de tekst binnen het geselecteerde element.</li>
+
+  <li><strong>Inline stijlen</strong>Als u zich in de bewerkingsmodus Normaal, HTML-tags of Voorbeeld bevindt
+	worden de tags in de buurt van de invoegpositie op de statusbalk van &brandShortName; getoond. Stijleigenschappen van deze tags
+  kunnen worden aangepast door een mogelijkheid uit het contextmenu te selecteren. Om eigenschappen van de inline stijl aan te passen:
+  <ol>
+    <li>Klik met de rechtermuisknop op een element dat u wilt aanpassen.</li>
+    <li>Klik op "Inline stijlen" </li>
+    <li>Kies de eigenschappen die u aan wilt passen:
+    <ul>
+      <li>Teksteigenschappen</li>
+      <li>Bordereigenschappen</li>
+      <li>Achtergrondeigenschappen</li>
+      <li>Box-eigenschappen</li>
+      <li>Aurale eigenschappen</li>
+      <li>Generieke stijl extraheren en cre&euml;ren</li>
+    </ul></li>
+  </ol>
+  <p>
+Als u voor een van de bovenste mogelijkheden kiest dan wordt de overeenkomstige tabblad in de CSS-bewerker geopend.
+Meer hierover is beschreven in de sectie <a href="#using_style_sheets_for_your_web_pages">Stijlbladen gebruiken</a>.
+Op het tabblad in de CSS-bewerker kunt u eigen stijlen defini&euml;ren die dan volgens de CSS-webstandaard wordt opgeslagen.
+</p>
+
+  <p>De mogelijkheid <strong>Generieke stijl extraheren en cre&euml;ren</strong>
+	kan stijl-informatie extraheren in een stijl-regel en in een extern/intern stijlblad opslaan.</p></li>
+
+  <li><strong>Sjablonen</strong> bieden twee opties aan, "Bewerkbaar maken" en "Bewerkbaar gebied verwijderen" welke gebruikt
+  kunnen als je met sjablonen werkt. Voor meer informatie over sjablonen, zie het hoofdstuk <a href="#working_with_templates">met sjablonen werken</a>.</li>
+
+  <li><strong>ID</strong> toont ID-tags (indien beschikbaar) van het huidige
+  stijlblad toegepast op het document. Om een speciale tag toe te passen op
+  de geselecteerdet tekst klikt u simpel wel op de betreffende ID-tag.</li>
+
+  <li><strong>Class</strong> toont klasse-tags (indien beschikbaar) van het huidige
+  stijlblad toegepast op het document. Om een klasse op de geselecteerde tekst
+  toe te passen klikt u simpel wel op de betreffende Klasse-tag. </li>
+
+  <li><strong>Geavanceerde eigenschappen</strong> stelt u in staat om de
+  Geavanceerde eigenschappeneidotr te gebruiken voor het toevoegen van
+  HTML-attributen en JavaScript op objecten als tabellen, afbeeldingen,
+  kopelingen etc. Zie het hoofdstuk <a
+  href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a>
+  voor meer details.</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#formatting_your_web_pages">Terug naar het begin van deze sectie</a>]</p>
+
+<p>[<a href="css.xhtml">Volgende</a>] [<a href="composer_help.xhtml">Vorige</a>]</p>
+
+  <div class="copyrightBox"><em>20 juni 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

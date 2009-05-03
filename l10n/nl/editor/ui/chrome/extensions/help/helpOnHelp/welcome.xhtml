@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Het helpvenster gebruiken</title>
+	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+<a href="#finding_the_topic_you_want">Het onderwerp vinden dat u zoekt</a>
+<a href="#retracing_your_steps">Uw vorige stappen bekijken</a>
+<a href="#search_tips">Zoektips</a>
+</div>
+
+<h1 id="help_window_top">Het helpvenster gebruiken</h1>
+
+<p>Dit hoofdstuk beschrijft hoe het helpvenster gebruikt moet worden (het venster waarin
+deze tekst en de linkerzijbalk worden weergegeven).</p>
+
+<h2 id="finding_the_topic_you_want">Het onderwerp vinden dat u zoekt</h2>
+
+	<p>Als u het helpvenster bekijkt kunt u door in het linkerframe op de tabbladen te klikken de helpinhoud op verschillende manieren bekijken:</p>
+	<ul>
+		<li><strong>Inhoud</strong> toont de lijst met hoofdonderwerpen.<br/>
+		 Klik op een onderwerp om er meer over te lezen. Dubbelklik om de subonderwerpen te zien.</li>
+		 <li><strong>Zoeken</strong> laat u door de helpbestanden zoeken.<br/>
+		  Typ een woord of een zin in en druk op enter om de gerelateerde onderwerpen te zien. Klik daarna het onderwerp aan waar u
+		  meer over wilt lezen.<br/><br/>
+		  Probeer minder woorden of een andere combinatie van woorden als uw zoekopdracht geen resultaten oplevert.</li>
+		 <li><strong>Index</strong> toont alle onderwerpen alfabetisch.<br/>Klik een Index-item aan om meer
+		 informatie over dat onderwerp te bekijken.</li>
+		 <li><strong>Verklarende woordenlijst</strong> toont alle definities alfabetisch.<br/>Klik
+		 een term uit de woordenlijst om de definitie te bekijken.</li>
+	</ul>
+
+	<p>Klik koppelingen in het helpvenster gewoon aan zoals u op ene normale webpagina zou doen om gerelateerde informatie over
+	het onderwerp dat u aan het lezen bent te bekijken.</p>
+
+<h2 id="retracing_your_steps">Uw vorige stappen bekijken</h2>
+	<p>Om naar pagina&#8217;s die u eerder in de Help bezocht heeft terug te gaan moet u de knoppen in de linkerbovenhoek van het helpvenster aanklikken:</p>
+
+	<p><img src="./images/help_buttons.png" alt="" width="299" height="44"/></p>
+
+	<ul>
+	        <li>Klik de Toon/verberg zijbalk knop aan om de zijbalk die aan de linkerkant gepositioneerd is te tonen of te verbergen</li>
+		<li>Klik op de Terug knop om terug te gaan naar pagina&#8217;s die u hiervoor bezocht heeft. Het werkt hetzelfde als de Terug knop in het hoofdvenster van
+		&brandShortName;.</li>
+		<li>Klik de Vooruit knop aan om vooruit te gaan naar pagina&#8217;s die u hiervoor bezocht heeft. Het werkt hetzelfde als de Vooruit knop in
+		het hoofdvenster van &brandShortName;.</li>
+		<li>Klik de Startknop aan om het Help- en ondersteuningscentrum te zien, waar u links naar
+		ondersteuningsopties en Help op internet kunt vinden.</li>
+	</ul>
+
+	<p>U kunt ook de instructies die u wilt volgen uitprinten:</p>
+
+	<ul>
+		<li>Om de hele pagina af te drukken die momenteel in het helpvenster getoond wordt moet u de afdrukken knop
+		indrukken die in de rechterbovenhoek van het helpvenster te vinden is:<br/>
+
+		<img src="./images/print.png" alt="" width="63" height="45"/></li>
+
+		<li>Om maar een deel van de pagina af te drukken moet u eerst klikken en slepen om het gebied dat u
+		wilt afdrukken te selecteren en daarna op de Afdrukken knop drukken.</li>
+	</ul>
+
+<h2 id="search_tips">Zoektips</h2>
+	<p>Als u niet kunt vinden wat u zoekt zijn hier een aantal handige tips:</p>
+
+	<ul>
+		<li>Wees er zeker er van dat u zoekt naar iets wat gerelateerd is aan
+		  &brandShortName;; dit is geen algemene internet-zoekmachine.</li>
+        	<li>Probeer uw zoekopracht uit te breiden - wees niet te specifiek; begrippen
+        	kunnen anders benoemd zijn dan in uw zoekopdracht.</li>
+		<li>Voorkom een te algemene zoekopdracht: woorden als &quot;&brandShortName;&quot;
+		  en &quot;&vendorShortName;&quot; kunnen mogelijk alle pagina&#8217;s in de helpbestanden teruggeven.</li>
+	</ul>
+
+<div class="copyrightBox"><em>29 maart 2005</em></div>
+<p>Auteursrecht &copy; 2003-2005 Medewerkers van het &brandShortName; Help documentatieproject.</p>
+
+</body>
+</html>

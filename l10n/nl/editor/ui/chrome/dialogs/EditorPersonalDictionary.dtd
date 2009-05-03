@@ -1,0 +1,13 @@
+<!ENTITY AddButton.accessKey "T">
+<!ENTITY AddButton.label "Toevoegen">
+<!ENTITY CloseButton.accessKey "S">
+<!ENTITY CloseButton.label "Sluiten">
+<!ENTITY DictionaryList.accessKey "W">
+<!ENTITY DictionaryList.label "Woorden in woordenboek:">
+<!ENTITY RemoveButton.accessKey "E">
+<!ENTITY RemoveButton.label "Verwijderen">
+<!ENTITY ReplaceButton.accessKey "V">
+<!ENTITY ReplaceButton.label "Vervangen">
+<!ENTITY windowTitle.label "Persoonlijk woordenboek">
+<!ENTITY wordEditField.accessKey "N">
+<!ENTITY wordEditField.label "Nieuw woord:">

@@ -1,0 +1,22 @@
+<!ENTITY activeLinkText.accessKey "C">
+<!ENTITY activeLinkText.label "Actieve koppelingstekst">
+<!ENTITY background.accessKey "H">
+<!ENTITY background.label "Achtergrond:">
+<!ENTITY backgroundImage.accessKey "T">
+<!ENTITY backgroundImage.label "Achtergrondafbeelding:">
+<!ENTITY backgroundImage.tooltip "Een afbeeldingsbestand gebruiken als achtergrond voor uw pagina">
+<!ENTITY colon.character ":">
+<!ENTITY customColorsRadio.accessKey "A">
+<!ENTITY customColorsRadio.label "Aangepaste kleuren gebruiken:">
+<!ENTITY customColorsRadio.tooltip "Deze kleurinstellingen negeren de instellingen van de browser van de lezer">
+<!ENTITY defaultColorsRadio.accessKey "S">
+<!ENTITY defaultColorsRadio.label "Standaard kleuren van lezer (kleuren niet in pagina instellen)">
+<!ENTITY defaultColorsRadio.tooltip "Alleen de kleurinstellingen van de browser (van de lezer) gebruiken">
+<!ENTITY linkText.accessKey "K">
+<!ENTITY linkText.label "Koppelingstekst">
+<!ENTITY normalText.accessKey "N">
+<!ENTITY normalText.label "Normale tekst">
+<!ENTITY pageColors.label "Paginakleuren">
+<!ENTITY visitedLinkText.accessKey "B">
+<!ENTITY visitedLinkText.label "Bezochte koppelingstekst">
+<!ENTITY windowTitle.label "Paginakleuren en achtergrond">

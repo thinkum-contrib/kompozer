@@ -1,0 +1,11 @@
+<!ENTITY areaName.label "Naam van het gebied">
+<!ENTITY areaType.label "Gebiedsoort">
+<!ENTITY blockAreaRadio.label "Blokkeren">
+<!ENTITY flowAreaRadio.label "Tekstdoorloop">
+<!ENTITY movableAreaCheckbox.label "Gebied is verplaatsbaar">
+<!ENTITY optionalAreaCheckbox.label "Gebied is optioneel">
+<!ENTITY options.label "Opties">
+<!ENTITY provideId.label "Geef alstublieft een naar aan dat bewerkbaar gebied:">
+<!ENTITY repeatableAreaCheckbox.label "Gebied is herhaalbaar">
+<!ENTITY warning.label "Waarschuwing, deze naam is reeds gebruikt!!!">
+<!ENTITY window.title "Een bewerkbaar gebied invoegen">

@@ -1,0 +1,22 @@
+<!ENTITY background.accessKey "A">
+<!ENTITY background.label "Achtergrond voor:">
+<!ENTITY blue.label "Blauw:">
+<!ENTITY brightness.label "Helderheid:">
+<!ENTITY cell.accessKey "C">
+<!ENTITY cell.label "Cel(len)">
+<!ENTITY dialog.title "Kleurenkiezer">
+<!ENTITY green.label "Groen:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY hsb.label "KVH">
+<!ENTITY hue.label "Kleurtoon:">
+<!ENTITY lastPickedColor.accessKey "L">
+<!ENTITY lastPickedColor.label "Laatst-gekozen kleur">
+<!ENTITY nameColor.label "Naam:">
+<!ENTITY predef.label "Voorgedefinieerde kleuren:">
+<!ENTITY previewColour.label "Voorbeeld:">
+<!ENTITY red.label "Rood:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY saturation.label "Verzadiging:">
+<!ENTITY table.accessKey "T">
+<!ENTITY table.label "Tabel">
+<!ENTITY transparency.label "Transparant">

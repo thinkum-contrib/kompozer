@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Webpagina's maken met &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+<div id="contentsBox">In dit hoofdstuk:
+<a href="#publishing_a_document">Een pagina publiceren</a>
+<a href="#publishing_settings">Publicatie-instellingen</a>
+<a href="#solving_common_publishing_problems">Veelvoorkomende fouten</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">Publiceren van webpagina's met &brandShortName;</h1>
+
+<p>Als de pagina's alleen op uw harde schijf bestaan, dan bent u de enige die ze kan bekijken.
+Met &brandShortName; kunt u webpagina's publiceren naar een webserver.</p>
+
+<p>Als u uw pagina's op een webserver publiceert dan kopieert &brandShortName;
+uw pagina's naar een computer waarop andere deze kunnen bekijken.
+De meeste Internet-providers bieden ruimte op hun webservers zodat webpagina's gepubliceerd kunnen worden.
+Om een webserver te vinden waarop u uw pagina's kunt publiceren, vraagt u uw Internet-provider, de helpdesk of een systeembeheerder.</p>
+
+<h2 id="publishing_a_document">Een pagina publiceren</h2>
+
+<p>Om een pagina te publiceren:</p>
+
+<ol>
+  <li>Open de HTML-pagina die u wilt publiceren of maak een nieuwe pagina in &brandShortName;.</li>
+
+  <li>Als u klaar bent om de pagina te publiceren, dan klikt u op de Publiceren-knop <img src="images/publish.png" width="26" height="26" alt="" />  op de werkbalk.
+  <p>Als u de pagina al eerder hebt gepubliceerd dan heeft &brandShortName; de publicatie-instellingen
+  van de pagina onthouden en begint met het publiceren van de pagina. Zolang het publiceren bezig is
+  toont &brandShortName; een dialoogvenster dat de voortgang aangeeft</p>
+
+  <ul>
+    <li>Als u de pagina nog niet eerder heeft gepubliceerd, toont &brandShortName; het Instellingen-tabblad
+    van het dialoogvenster Pagina publiceren. Daarin kunt u gegevens invoeren over de locatie waar het document gepubliceerd moet worden.
+    Zie <a href="#publish_page_settings">Pagina publiceren - Instellingen</a> voor meer informatie.
+    Als u de gevraagde informatie heeft ingevoerd klikt u op de knop Publiceren op de werkbalk.</li>
+
+    <li>Als u de pagina nog niet eerder hebt opgeslagen toont &brandShortName; het Publiceren-tabblad van het dialoogvenster Pagina publiceren.
+    Daarin kunt u de bestandsnaam van de pagina invoeren.
+    Zie <a href="#publish_page_publish">Pagina publiceren - Publiceren</a> voor meer informatie.
+    Nadat u de bestandsnaam hebt ingevoerd klikt u op de knop Publiceren op de werkbalk.</li>
+  </ul>
+  </li>
+
+  <li>Om uw gepubliceerde pagina te bekijken klikt u op de knop Bladeren.
+  Controleer zo de koppelingen op de pagina en zorg ervoor dat er geen afbeeldingen missen.</li>
+
+  <li>Bewerk de pagina indien nodig. Als u klaar bent om de pagina op de server bij te werken met de wijzigingen
+      dan klikt u weer op de knop Publiceren.</li>
+</ol>
+
+<p>Als u een pagina voor de eerste keer publiceert verandert &brandShortName;
+het <tt>file:///</tt>-adres van de pagina in een <tt>http://</tt>-adres om aan te geven dat u een reeds gepubliceerde pagina bewerkt.
+Als u de pagina lokaal wilt opslaan (op de harde schijf van uw computer), klikt u op de knop Opslaan.
+U wordt dan gevraagd om voor de pagina een bestandsnaam en plaats op uw harde schijf op te geven.</p>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">Tips om gebroken koppelingen en missende afbeeldingen te voorkomen</h3>
+
+<ul>
+  <li>Zorg ervoor dat de bestandsnamen van webpagina's in &brandShortName; op .html of .htm eindigen.
+  Zorg ervoor dat bestandsnamen van afbeeldingen op .jpg, .gif, of .png eindigen.
+  Gebruik geen spaties of bijzondere tekens in bestandsnamen. Houdt de bestandsnamen kort en gebruik bijvoorbeeld enkele
+  kleine of hoofdletters en/of cijfers.</li>
+
+  <li>Als de afbeeldingen niet verschijnen wanneer u de gepubliceerde pagina bekijkt, dan kan het zijn dat u vergeten bent om
+  de afbeeldingen ook te publiceren. Open dan het menu Bestand en kies voor Publiceren als om het dialoogvenster Pagina Publiceren te openen.
+  Op het tabblad Publiceren dient u ervoor te zorgen dat &quot;Include images and other files&quot; aan staat.
+  Daarna kunt u weer op Publiceren klikken.</li>
+
+</ul>
+
+<p>Zie <a href="#solving_common_publishing_problems">Veelvoorkomende problemen met publiceren oplossen</a>
+voor meer tips om problemen op te lossen.</p>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="updating_a_published_document">Een gepubliceerde pagina bijwerken</h3>
+
+<p>Het bijwerken van een gepubliceerde pagina:</p>
+
+<ol>
+  <li>Open in een &brandShortName;-venster het menu Bestand en kies Recente pagina's. Selecteer vervolgens het document uit deze lijst.
+  <p>Ook kunt u de pagina openen via Weblocatie openen... in het menu Bestand.</p></li>
+
+  <li>Voer de nodige wijzigingen in de pagina door.</li>
+
+  <li>Als u klaar bent met het aanbrengen van de wijzigingen, klikt u op de knop Publiceren in de werkbalk van &brandShortName;.</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>Tip</strong>:
+Om een pagina of afbeelding die u op een webserver heeft gepubliceerd te verwijderen, dient u een
+FTP-programma (File Transfer Protocol) te gebruiken. U dient ook een FTP-programma te gebruiken als u
+submappen wilt aanmaken of bestanden op de webserver wilt hernoemen.
+Vraag uw provider of zij een bepaald FTP-programma aanraden.
+Doorgaans vindt u informatie over FTP-programma's in de Ondersteuningspagina's van de website van uw provider.
+FTP-programma's kunt u ook vinden op download-sites als Download.com of ZDNet Downloads.
+Daarnaast is <a href="http://filezilla.sourceforge.net">FileZilla</a> een geschikt opensource FTP-programma.
+</p>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">Wijzigen van de bestandsnaam of een publicatie-locatie</h3>
+
+<p>Aanpassen van de bestandsnaam of publicatie-locatie:</p>
+
+<ol>
+  <li>Open in een &brandShortName;-venster het menu Bestand en kies Recente pagina's. Selecteer vervolgens het document uit deze lijst.
+  <p>Ook kunt u de pagina openen via Weblocatie openen... in het menu Bestand.</p></li>
+
+  <li>Voer de nodige wijzigingen in de pagina door.</li>
+
+  <li>Open het menu Bestand van &brandShortName;'s en kies Publiceren Als.
+  &brandShortName; toont het tabblad Publiceren van het dialoogvenster Pagina Publiceren.</li>
+
+  <li>Voer - indien nodig - een andere paginatitel in.</li>
+
+  <li>Voer - indien nodig - een andere bestandsnaam in.</li>
+
+  <li>Kies in de Sitenaam-lijst de publicatie-locatie die u wilt gebruiken.
+  Om een nieuwe publicatie-locatie te maken klikt u op Nieuwe Site. Zie
+  <a href="#publish_page_settings">Pagina Publiceren - Instellingen</a>
+  voor meer informatie.</li>
+
+  <li>Klik Publiceren om de pagina naar de nieuwe locatie te publiceren.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Naar het begin van het onderdeel</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">Een nieuwe publicatie-site aanmaken</h3>
+
+<p>Als u van plan bent om pagina's naar meer dan 1 locatie te publiceren, dan kunt u deze sites instellen in &brandShortName;.
+Zo hoeft u deze gegevens niet opnieuw in te voeren als u iets wilt publiceren.</p>
+
+<ol>
+  <li>Open in &brandShortName; het menu Bewerken en kies voor Publicatiesite-instellingen.
+  &brandShortName; toont nu het dialoogvenster Publicatie-instellingen.</li>
+
+  <li>Klik op de knop Nieuwe Site.</li>
+
+  <li>Bij "Sitenaam" vult u een naam in waarmee u de publicatiesite wilt aanduiden.
+
+  <p>Als u bijvoorbeeld deze site wilt gebruiken om pagina's voor het "Meteor"-project te publiceren,
+  dan kunt u "Meteoor" als naam gebruiken. Met sitenamen kunt u de diverse publicatie-sites van elkaar onderscheiden.
+  </p> </li>
+
+  <li>Bij "Publicatie-adres" voert u het volledige adres in dat u van uw provider, systeembeheerder of webhosting-dienst hebt gekregen.
+  Dit adres moet met <tt>ftp://</tt> of <tt>http://</tt> beginnen.
+
+  <p>Het publicatie-adres geeft aan waar pagina's op deze site gepubliceerd worden.
+  Als u niet zeker weet wat u hier in moet voeren, vraagt u dan uw provider of systeembeheerder.</p> </li>
+
+  <li>Bij "HTTP-adres van uw beginpagina" voert u het volledige adres in dat u in de locatiebalk van uw browser
+  zou moeten invoeren om de pagina's van de website te kunnen bekijken. Neem in deze naam geen bestandsnaam of submap op.
+
+  <p>Dit adres begint altijd met <tt>http://</tt>. In enkele gevallen is dit adres hetzelfde als het publicatie-adres.
+  Als u niet zeker weet wat u hier in moet voeren, vraagt u dan uw provider of systeembeheerder of laat het veld anders leeg.</p> </li>
+
+  <li>Bij gebruikersnaam vult u de gebruikersnaam in die u gebruikt om bij uw provider of webhosting-dienst in te loggen.</li>
+
+  <li>Bij wachtwoord vult u het wachtwoord in dat bij de gebruikersnaam hoort.</li>
+
+  <li>Kies "Wachtwoord opslaan" om het wachtwoord beveiligd met de wachtwoordenbeheerder op te slaan.
+  Dan hoeft u het niet iedere keer in te voeren als u pagina's naar de site wilt publiceren.</li>
+
+  <li>Klik op OK.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">Wijzig de standaard publicatie-site</h3>
+
+<p>Als u meer dan 1 publicatiesite heeft ingevoerd, maar meestal 1 site gebruikt om op te publiceren,
+dan kunt u de site die u het vaakst gebruikt als standaard publicatiesite instellen.
+&brandShortName; gebruikt de standaard publicatiesite voor alle pagina's die u publiceert, tenzij u een andere site opgeeft.</p>
+
+<p>Ongeacht het aantal sites dat u heeft opgegeven kunt u altijd een pagina naar een andere site publiceren
+door in het menu Bestand voor <strong>Publiceren Als</strong> te kiezen. Zie <a
+href="#changing_the_filename_or_publishing_location">Wijzigen van de bestandsnaam of publicatie-locatie</a> voor meer informatie.</p>
+
+<ol>
+  <li>Open het menu Bewerken en kies voor Publicatiesite-instellingen.
+  &brandShortName; toont het dialoogvenster Publicatie-instellingen.</li>
+
+  <li>Kies een publicatiesite uit de lijst.
+
+  <p>Als u slechts 1 publicatiesite set up, &brandShortName; uses
+  that one as the default site.</p> </li>
+
+  <li>Klik op <strong>Als standaard instellen</strong>.</li>
+
+<li>Klik op OK om de wijzigingen te bevestigen.</li> </ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">Verwijderen van een publicatiesite</h3>
+
+<p>Het verwijderen van een publicatiesite verwijdert de instellingen van de site uit &brandShortName;.
+Als u op een later tijdstip de site wilt publiceren, dient u deze instellingen weer in te voeren.</p>
+
+<ol>
+  <li>Open het menu Bewerken en kies voor Publicatiesite-instellingen.
+  &brandShortName; toont nu het dialoogvenster Publicatie-instellingen.</li>
+
+  <li>Kies een publicatiesite uit de lijst.</li>
+
+  <li>Klik op Site verwijderen.
+  <p>&brandShortName; verwijdert slechts de instellingen van de geselecteerde site;
+  aan de site zelf wordt niets gewijzigd.</p></li>
+
+  <li>Klik op OK om de wijzigingen te bevestigen.</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h2 id="publishing_settings">Publicatie-instellingen</h2>
+
+<p>Deze sectie beschrijft de Publicatie-instellingen van &brandShortName;.
+Zie <a href="composer_help.xhtml#composer_preferences">&brandShortName; Voorkeuren</a>
+Voor meer informatie over de algemene instellingen van &brandShortName;.</p>
+
+<h3 id="publish_page_publish">Pagina publiceren - tabblad Publiceren</h3>
+
+<p>Met het tabblad Publiceren van het dialoogvenster Pagina publiceren kunt u aangeven waar u een pagina wilt publiceren.
+Deze instellingen gelden voor de huidige pagina.</p>
+
+<p>Voer de volgende handelingen uit als u niet reeds het tabblad Publiceren van het dialoogvenster Pagina Publiceren voor u heeft:</p>
+
+<ol>
+  <li>Open het menu Bestand en kies voor Publiceren Als.
+  Het dialoogvenster <strong>Pagina publiceren</strong>  verschijnt.</li>
+
+  <li>Klik op het tabblad Publiceren.</li>
+</ol>
+
+<ul> <li><strong>Sitenaam:</strong> Toont alle publicatiesites die u heeft aangemaakt,
+zodat u de site kunt kiezen waarnaar u de pagina wilt publiceren.
+Om een nieuwe site toe te voegen klikt u op de knop <strong>Nieuwe site</strong>.</li>
+
+<li><strong>Paginatitel:</strong> Geeft de titel van de pagina aan (zoals het verschijnt in de titelbalk als de pagina met een browser bekeken wordt).
+De paginatitel wordt ook getoond in de bladwijzers als de pagina in een browser als bladwijzer wordt toegevoegd.</li>
+
+<li><strong>Bestandsnaam:</strong> Geeft de bestandsnaam van de pagina aan.
+Zorg ervoor dat deze eindigt op .html of .htm.</li>
+
+<li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p><strong>Let op</strong>: Als een bestand op de server waarnaar u publiceert dezelfde bestandsnaam heeft
+    als een van de bestanden die u publiceert dan overschrijft het gepubliceerde bestand het reeds op de server aanwezige bestand.
+    Hierbij wordt niet om een bevestiging gevraagd !</p> </li>
+
+<li><strong>Sitesubmap voor deze pagina:</strong> Als u dit leeg laat zal &brandShortName; de pagina naar de hoofdmap van deze site publiceren.
+Als u de pagina naar een submap wilt publiceren voert u de naam van deze submap in of kiest u deze uit de lijst.
+&brandShortName; onthoudt de locaties die u intikt, zodat u kunt kiezen uit een lijst die u al eerder heeft gebruikt.
+Bedenk dat de namen van de submappen hoofdlettergevoelig zijn.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;">
+<p><strong>Let op:</strong> De submap die u kiest moet reeds op de server bestaan.</p>
+</li>
+
+<li><strong>Inclusief afbeeldingen en andere bestanden</strong>: Als deze aangevinkt is, publiceert &brandShortName;
+ook afbeeldingen en bestanden die door de te publiceren pagina gebruikt worden.
+U kunt ervoor kiezen om deze bestanden naar dezelfde locatie als de pagina te publiceren, maar u kunt ook voor een submap kiezen.</li>
+</ul>
+
+<p><strong>Tip</strong>: Om submappen te maken of om
+gepubliceerde pagina's of afbeeldingen te verwijderen dien je een FTP-programma ((File Transfer
+Protocol) te gebruiken.
+Vraag uw provider of zij een bepaald FTP-programma aanraden.
+Doorgaans vindt u informatie over FTP-programma's in de Ondersteuningspagina's van de website van uw provider.
+FTP-programma's kunt u ook vinden op download-sites als Download.com of ZDNet Downloads.
+Daarnaast is <a href="http://filezilla.sourceforge.net">FileZilla</a> een geschikt opensource FTP-programma.
+</p>
+
+<p class="returnToSection">[ <a href="#publishing_settings">Terug naar het begin van deze sectie</a> ]</p>
+
+<h3 id="publish_page_settings">Pagina publiceren - tabblad Instellingen</h3>
+
+<p>Op het tabblad Instellingen van het dialoogvenster Pagina publiceren
+kunt u de inloggegevens en de publicatie-instellingen van de site instellen.
+Deze instellingen gelden voor de huidige pagina en andere bestanden die u naar deze locatie wilt publiceren.</p>
+
+<p>Als u niet al het tabblad Instellingen van het dialoogvenster <strong>Pagina publiceren</strong> geopend heeft, voer dan deze stappen uit:</p>
+
+<ol>
+  <li>Open het menu Bestand en kies voor Publiceren Als.
+	Het dialoogvenster Pagina publiceren verschijnt nu.</li>
+
+  <li>Klik op het tabblad Instellingen.</li>
+
+</ol>
+
+<ul>
+  <li><strong>Sitenaam</strong>: Bepaalt de naam die u gebruikt om deze publicatiesite aan te duiden.
+  Voer hier een korte naam in waaraan u deze publicatiesite later kunt herkennen.</li>
+
+  <li id="host_name_for_publishingSDX"><strong>Publicatie-adres</strong>:
+   Het volledige adres dat u van uw provider of systeembeheerder hebt gekregen.
+   Dit adres dient met <tt>ftp://</tt> of <tt>http://</tt> te beginnen.
+   Dit wordt ook wel aangeduid met "hostname" of "servernaam".</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>Het publicatie-adres geeft aan naar welke locatie op de site pagina's gepubliceerd worden (uploaden).
+     Als u dit niet zeker weet, vraag dan uw provider of systeembeheerder.
+  </p></li>
+
+  <li><strong>HTTP-adres van uw beginpagina</strong>: het volledige adres van uw website. Dit is het webadres van de beginpagina van uw website.
+  Zorg ervoor dat een bestandsnaam of submap geen deel uitmaakt van dit adres.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>Dit adres moet altijd beginnen met <tt>http://</tt>.
+    In enkele gevallen is dit adres hetzelfde als het publicatie-adres.
+    Als u niet zeker weet wat u hier in moet voeren, vraagt u dan uw provider of systeembeheerder of laat het veld anders leeg.</p>
+  </li>
+
+  <li><strong>Gebruikersnaam</strong>: de gebruikersnaam die u nodig heeft om bij uw provider of op het netwerk in te loggen.</li>
+
+  <li><strong>Wachtwoord</strong>: het wachtwoord dat bij deze gebruikersnaam hoort.</li>
+
+  <li><strong>Wachtwoord opslaan</strong>: vink deze optie aan om het wachtwoord beveiligd met de wachtwoordenbeheerder op te slaan.
+  Dan hoeft u het niet iedere keer in te voeren als u pagina's naar de site wilt publiceren.</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#publishing_settings">Terug naar het begin van deze sectie</a> ]</p>
+
+<h3 id="publish_settings">Publicatie-instellingen</h3>
+
+<p>Met het dialoogvenster Publicatie-instellingen kunt u publicatiesites maken, bewerken en verwijderen.
+Ook kunt u hiermee een standaard publicatiesiste instellen.</p>
+
+<p>Als u het dialoogvenster Publicatie-instellingen nog niet geopend hebt, voer dan deze stappen uit:</p>
+
+<ol>
+  <li>Open het menu Bewerken en kies voor Publicatiesite-instellingen.
+  &brandShortName; toont nu het dialoogvenster Publicatie-instellingen.</li>
+</ol>
+
+<ul>
+  <li><strong>Nieuwe site</strong>: hiermee kunt u instellingen voor een nieuwe publicatiesite invoeren.
+  &brandShortName; voegt de naam van de nieuwe publicatiesite aan de lijst met beschikbare publicatiesites toe.</li>
+
+  <li><strong>Als standaard instellen</strong>: Stelt de geselecteerde publicatiesite in als standaard publicatiesite.
+  Doorgaans is dit de publicatiesite die u het vaakst gebruikt om pagina's naar te publiceren.
+  Alle pagina's die u maakt of bewerkt worden naar deze standaard publicatiesite gepubliceerd, tenzij u een andere site opgeeft in
+  het dialoogvenster <strong>Pagina publiceren</strong>.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+      <p>Om een pagina naar een andere publicatiesite te publiceren opent het menu Bestand en kiest u voor Publiceren Als
+      om een andere publicatiesite te selecteren.</p>
+  </li>
+
+  <li><strong>Site verwijderen</strong>: Verwijdert de geselecteerde site en bijbehorende instellingen uit &brandShortName;.</li>
+
+  <li><strong>Sitenaam</strong>: de naam waarmee u deze publicatiesite aanduidt.</li>
+
+  <li id="host_name_for_publishingSDX"><strong>Publicatie-adres</strong>:
+   Het volledige adres dat u van uw provider of systeembeheerder hebt gekregen.
+   Dit adres dient met <tt>ftp://</tt> of <tt>http://</tt> te beginnen.
+   Dit wordt ook wel aangeduid met "hostname" of "servernaam".</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>Het publicatie-adres geeft aan naar welke locatie op de site pagina's gepubliceerd worden (uploaden).
+     Als u dit niet zeker weet, vraag dan uw provider of systeembeheerder.
+  </p></li>
+
+  <li><strong>HTTP-adres van uw beginpagina</strong>: het volledige adres van uw website. Dit is het webadres van de beginpagina van uw website.
+  Zorg ervoor dat een bestandsnaam of submap geen deel uitmaakt van dit adres.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>Dit adres moet altijd beginnen met <tt>http://</tt>.
+    In enkele gevallen is dit adres hetzelfde als het publicatie-adres.
+    Als u niet zeker weet wat u hier in moet voeren, vraagt u dan uw provider of systeembeheerder of laat het veld anders leeg.</p>
+  </li>
+
+  <li><strong>Gebruikersnaam</strong>: de gebruikersnaam die u nodig heeft om bij uw provider of op het netwerk in te loggen.</li>
+
+  <li><strong>Wachtwoord</strong>: het wachtwoord dat bij deze gebruikersnaam hoort.</li>
+
+  <li><strong>Wachtwoord opslaan</strong>: vink deze optie aan om het wachtwoord beveiligd met de wachtwoordenbeheerder op te slaan.
+  Dan hoeft u het niet iedere keer in te voeren als u pagina's naar de site wilt publiceren.</li>
+</ul>
+
+<p>[ <a href="#publishing_settings">Return to beginning of section</a> ]</p>
+
+
+<h2 id="solving_common_publishing_problems">Veelvoorkomende fouten met publiceren oplossen</h2>
+
+<p>Als een van de bestanden niet gepubliceerd kan worden, dan toont het dialoogvenster Publicatiestatus een foutmelding
+die kan helpen om te begrijpen wat er mogelijk fout is gegaan en hoe dit opgelost zou kunnen worden
+Klik op de Troubleshooting-knop in het dialoogvenster Publicatiestatus  om hulp te krijgen bij het oplossen van uw probleem met het publiceren.</p>
+
+<p>
+Als het dan niet lukt, sla dan het bestand op de harde schijf op
+door het menu Bestand van &brandShortName; te openen en voor Opslaan te kiezen.
+Dan kunt u het bestand op een later tijdstip openen om nogmaals een poging tot publiceren te doen.
+Om op een later tijdstip het bestand eenvoudig terug te vinden kunt u het menu Bestand van &brandShortName;
+openen en kiezen voor <strong>Recente pagina's</strong>.</p>
+
+<h3 id="verifying_your_publishing_settings">Publicatie-instellingen controleren</h3>
+
+<p>Het controleren van uw publicatie-instellingen:</p>
+
+<ol>
+  <li>Sluit het dialoogvenster Publicatiestatus als het nog open staat.</li>
+
+  <li>Open het menu Bewerken en kies voor Publicatiesite-instellingen.</li>
+
+  <li>Controleer in het dialoogvenster Publicatie-instellingen dat de site-instellingen
+  van de site waarnaar u probeert te publiceren kloppen. Als u het niet zeker weet, kunt u het navragen bij uw provider of webhosting-dienst.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+  <ul> <li><strong>Controleer dat u de publicatie-instellingen goed hebt ingevoerd.</strong>
+  Er kan bijvoorbeeld een tikfout in een van de instellingen  geslopen zijn.</li>
+
+      <li><strong>Controleer dat u het juiste publicatie-adres hebt ingevoerd.</strong>
+      Webhosting-diensten of providers kunnen dit aanduiden met "servernaam", "hostnaam" of "server/host".
+      Vaak wordt dit opgegeven als <tt>ftp.mijnprovider.nl/gebruikersnaam</tt> of <tt>ftp.mijnprovider.be/gebruikersnaam</tt>,
+      waarbij <tt>gebruikersnaam</tt> uw gebruikersnaam aangeeft.
+
+      <p>Een correct publicatie-adres moet beginnen met <tt>ftp://</tt> of <tt>http://</tt>.
+      Het correcte publicatie-adres  voor bovenvermelde site zou <tt>ftp://ftp.mijnprovider.nl/gebruikersnaam</tt> of
+      <tt>ftp://ftp.mijnprovider.be/gebruikersnaam</tt> zijn.</p> </li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a href="#solving_common_publishing_problems">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="checking_your_filenames">Controleer de bestandsnamen</h3>
+
+<p>Bekijk de namen van de bestanden die niet gepubliceerd konden worden. Zorg ervoor dat de bestandsnamen hieraan voldoen:</p>
+
+<ul>
+  <li>Alleen getallen, kleine of hoofdletters gebruiken. Hoewel u bestandsnamen met hoofdletters erin kunt aanmaken, kunt u mogelijke fouten
+  op een later tijdstip voorkomen als u alleen kleine letters gebruikt in de bestandsnamen.
+
+  <p>Als de bestanden naar een webserver worden gepubliceerd dan worden de bestanden daar hoofdlettergevoelig.
+  Het kan dan lastiger worden om bestandsnamen te herinneren die alleen hoofdletters of een mix van hoofd- en kleine letters gebruiken.</p>
+
+  <p>Bijvoorbeeld: als u een gepubliceerd bestand met een browser wilt bekijken,
+  dient u exact dezelfde combinatie van hoofd- en kleine letters in te voeren in het adresveld. Anders wordt het bestand niet gevonden.
+  </p> </li>
+
+  <li>Gebruik geen leestekens of spaties. Liggende ( _ ) of normale streepjes ( - ) kunnen wel.</li>
+
+  <li>Eindigen de bestandsnamen op .html of .htm (voor &brandShortName;-bestanden) of .jpg, .png of .gif voor afbeeldingen.</li>
+
+  <li>Niet langer dan 32 karakters.</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#solving_common_publishing_problems">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<h3 id="fixing_publishing_errors">Publicatiefouten oplossen</h3>
+
+<p>
+Als een van meerdere bestanden niet gepubliceerd kunnen worden, bekijk dan de berichten die &brandShortName; toont in het
+het Publicatiestatus-gedeelte van het dialoogvenster Publiceren.
+Deze meldingen kunt u gebruiken om uit te zoeken wat er fout is gegaan en hoe dit op te lossen.
+</p>
+
+<div class="errorMessage"> <p id="file_not_found"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+  <tt><var>Bestandsnaam</var> niet gevonden</tt>
+  <p>or</p>
+<tt><var>X</var> van <var>Y</var> bestanden konden niet gepubliceerd worden</tt> </div>
+
+<p><strong>Omschrijving van de fout:</strong> Een of meerdere afbeeldingen of CSS-bestanden konden niet gepubliceerd worden omdat
+ &brandShortName; deze niet kon vinden. Redenen hiervoor kunnen zijn:</p>
+
+<ul>
+  <li>De bestandslocatie is niet correct ingevoerd.</li>
+  <li>De locatie op de webserver is niet toegankelijk.</li>
+  <li>De locatie van het bestand is gewijzigd of het bestand is verwijderd.</li>
+</ul>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+  <li>Zoek naar missende afbeeldingen in de pagina die u tracht te publicerem.
+  Missende afbeeldingen worden aangeduid met <img src="images/broken.gif" width="20" height="20" alt="" /> in de pagina.
+  Dubbelklik op deze afbeelding in de pagina om de locatie van de afbeelding te verbeteren.
+  Dit toont het dialoogvenster Afbeelding eigenschappen zodat u het correcte adres kunt invoeren.</li>
+
+  <li>Verwijder de missende afbeelding van de pagina door deze te selecteren (klik op de afbeelding)
+  en druk op de toets Backspace of Delete op het toetsenbord.</li>
+
+  <li>Als de afbeelding niet beschikbaar is omdat de server waarop de afbeelding zich bevindt niet bereikbaar is,
+   probeer dan op een later tijdstip (als die server weer beschikbaar is) de pagina alsnog te publiceren.</li>
+
+  <li>Als het missende bestand een CSS-bestand is, kunt u de opgegeven locatie van het CSS-bestand controleren.
+  Om deze locatie in &brandShortName; te repareren, klikt u op de HTML-Bron-tab onderin het venster en bewerkt u de locatie van het bestand in de HTML-broncode.
+  Bewerk de HTML-broncode alleen als u hier bekend mee bent.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+  <tt>De submap <var>mapnaam</var> bestaat niet op deze site of de bestandsnaam <var>bestandsnaam</var> wordt al gebruikt door een andere submap</tt>
+
+  <p>or</p>
+  <tt>De bestandsnaam <var>bestandsnaam</var> wordt al door een andere submap gebruikt</tt> </div>
+
+<p><strong>Omschrijving van de fout:</strong>
+U heeft de naam van een  submap opgegeven die niet bestaat op de publicatiesite.
+&brandShortName; kan alleen publiceren naar een submap die al bestaat op de publicatiesite.
+Of u hebt een bestandsnaam opgegeven die overeenkomt met de naam van een bestaande submap van de publicatiesite.</p>
+
+<p>U heeft bijvoorbeeld in het dialoogvenster <strong>Pagina publiceren</strong> op het tabblad Publiceren:</p>
+
+<ul>
+  <li>bij "Sitesubmap voor deze pagina" heeft u de naam van een submap opgegeven die niet bestaat op de publicatiesite.</li>
+
+  <li>u heeft "Inclusief afbeeldingen en andere bestanden" aangevinkt en
+  vervolgens de naam van een (nog) niet bestaande submap op de publicatiesite opgegeven.</li>
+
+  <li>een van de bestanden die u tracht te publiceren heeft dezelfde naam als een submap op de publicatiesite.</li>
+</ul>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+	<li>Gebruik een apart FTP-programma als u submappen op de publicatiesite wilt maken, hernoemen of verwijderen.
+	Vraag uw provider of zij een bepaald FTP-programma aanraden.
+	Doorgaans vindt u informatie over FTP-programma's in de Ondersteuningspagina's van de website van uw provider.
+	FTP-programma's kunt u ook vinden op download-sites als Download.com of ZDNet Downloads.
+	Daarnaast is <a href="http://filezilla.sourceforge.net">FileZilla</a> een geschikt opensource FTP-programma.
+	</li>
+
+  <li>Gebruik geen namen van submappen die eindigen op ".html" of ".htm".
+  Alleen bestandsnamen van de pagina's die met &brandShortName; zijn gemaakt behoren op ".html" of ".htm" te eindigen.</li>
+
+  <li>Namen van submappen zijn hoofdlettergevoelig.
+  Zorg er daarom voor dat de naam van de submap die u invoert overeenkomt met de naam op de publicatie-site.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="server_not_found"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+  <tt>De server is niet beschikbaar. Controleer uw verbinding met het Internet en probeer het later opnieuw.</tt> </div>
+
+<p><strong>Omschrijving van de fout:</strong>
+Deze foutmelding kan diverse oorzaken hebben.
+Enkele voorbeelden:</p>
+
+<ul>
+  <li>De instellingen van uw publicatiesite zijn onjuist.</li>
+
+  <li>Uw verbinding met het Internet is verbroken.</li>
+
+  <li>Het modem of de andere apparatuur die u gebruikt om met het Internet te verbinden functioneert mogelijk niet meer goed.</li>
+
+  <li>De webserver waarnaar u publiceert kan door een technische storing of andere oorzaak tijdelijk niet beschikbaar zijn.</li>
+
+  <li>Uw provider of de webhosting-dienst heeft technische problemen.</li>
+</ul>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+  <li>Controleer dat u de publicatie-instellingen goed heeft ingevoerd.
+  Zie <a href="#verifying_your_publishing_settings">Controleren van uw publicatie-instellingen</a> voor meer informatie.</li>
+
+  <li>Controleer of uw Internet-verbinding nog goed werkt door in een browser een webpagina op te vragen.
+  Controleer bijvoorbeeld of u met succes de website <tt>http://www.mozbrowser.nl</tt> kunt laden.
+  Als dat lukt dan werkt uw Internet-verbinding in elk geval naar behoren.</li>
+
+  <li>Als uw Internet-verbinding niet werkt,
+  controleer dan dat alle hardware, telefoonverbindingen, modems en netwerkverbindingen goed werken.</li>
+
+  <li>Gebruik een browser om een pagina te bekijken op de website waarnaar u wilt publiceren.
+  Als het lukt om andere websites te bekijken, maar u kunt op de publicatiesite geen pagina bekijken,
+  dan ligt het voor de hand dat uw provider of webhosting-dienst technische problemen heeft.</li>
+
+  <li>Probeer de pagina op een later tijdstip nogmaals te publiceren.
+  Uw provider of webhosting-dienst kan tijdelijk technische problemen hebben.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="no_permission"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+  <tt>U heeft geen toestemming om naar deze locatie te publiceren.</tt>
+</div>
+
+<p><strong>Omschrijving van de fout:</strong>
+U tracht te publiceren naar een locatie waar u geen of onvoldoende rechten hebt.
+U kunt alleen daar publiceren waar uw provider of webhosting-dienst u toegang heeft gegeven.</p>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+  <li>Controleer dat u de juiste combinatie van gebruikersnaam en wachtwoord hebt ingevuld in het dialoogvenster Publicatiesite-instellingen
+  of op het tabblad Publiceren van het dialoogvenster Publiceren.</li>
+
+  <li>Neem contact op met uw provider of webhosting-dienst om erachter te komen waar u op hun webserver uw pagina's kunt publiceren.</li>
+
+  <li>Zoek een webhosting-dienst die u kunt gebruiken om uw pagina's te publiceren. Zoek met de browser bijvoorbeeld op &quot;web hosting&quot;.</li>
+
+  <li>Tip: u kunt gebruik maken van Netscape's <a href="http://mywebpage.netscape.com/" target="_blank"><tt>My Webpage</tt></a>
+  om uw webpagina's te publiceren. Hier krijgt u gratis 20 megabytes aan ruimte voor uw website.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="offline_error"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+  <tt>U bent momenteel offline. Klik op het icoon rechtsonder in het venster om online te gaan.</tt> </div>
+
+<p><strong>Omschrijving van de fout:</strong>
+U tracht een pagina te publiceren, maar uw Internet-verbinding is op dit moment in de "offline"-modus.
+Uw Internet-verbinding moet in de "online"-modus (verbonden met het Internet) zijn om uw pagina's te kunnen publiceren.</p>
+
+<p>Controleer of uw  Internet-verbinding op het moment offline is door te kijken naar het icoon voor online/offline
+in de rechteronderhoek van het &brandShortName;-venster. Als u zich op dit moment offline bevindt, ziet het icoon eruit als <img src="images/offline.gif" width="32" height="21" alt="" />.</p>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+  <li>Klik op het online/offline-icoon om online te gaan.
+  Daarna moet het icoon er als volgt uit zien: <img src="images/online.gif" width="32" height="20" alt="" />.</li>
+
+  <li>Zorg ervoor dat uw Internet-verbinding goed werkt door een webpagina in een browser op te vragen.
+  Controleer bijvoorbeeld of u met succes de pagina <tt>http://www.mozbrowser.nl</tt> kunt bezoeken.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_disk_space"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+  <tt>Er is onvoldoende diskruimte beschikbaar om het bestand <var>bestandsnaam</var> op te slaan.</tt> </div>
+
+<p><strong>Omschrijving van de fout:</strong>
+De harde schijf van de webserver is vol of
+u heeft het maximum bereikt van de diskruimte die door uw provider of webhosting-dienst aan u is toegewezen.</p>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+  <li>
+    Gebruik een apart FTP-programma om onnodige bestanden op de publicatiesite te verwijderen.
+    Vraag uw provider of zij een bepaald FTP-programma aanraden.
+    Doorgaans vindt u informatie over FTP-programma's in de Ondersteuningspagina's van de website van uw provider.
+    FTP-programma's kunt u ook vinden op download-sites als Download.com of ZDNet Downloads.
+    Daarnaast is <a href="http://filezilla.sourceforge.net">FileZilla</a> een geschikt opensource FTP-programma.
+  </li>
+
+  <li>Vraag uw provider hoe u de diskruimte op de server kunt vergroten of schakel over naar een andere dienst die beter aan uw eisen voldoet.</li>
+
+  <li>Als de webserver is zich op het bedrijf of school bevindt, neem dan contact op met beheerder van het netwerk
+  om uit te vinden of u ook kunt publiceren naar een andere locatie met meeer diskruimte.
+  Of misschien kunt u op de huidige locatie meer diskruimte erbij krijgen.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="name_too_long"><strong>Foutmelding:</strong></p>
+
+<div class="errorBox" style="background-color: #ebebeb;">
+<tt>De bestandsnaam of naam van de submap is te lang.</tt> </div>
+
+<p><strong>Omschrijving van de fout:</strong>
+Het aantal karakters in de bestandsnaam of de naam van de submap wordt niet ondersteund door webserver waarnaar u probeert te publiceren
+</p>
+
+<p><strong>Mogelijke oplossingen:</strong></p>
+
+<ul>
+  <li>Beperk het aantal karakters tot minder dan 32.
+  Sommige besturingssystemen ondersteunen geen bestandsnamen die langer zijn dan 32 karakters.</li>
+</ul> </div>
+
+<p class="returnToSection">[ <a href="#solving_common_publishing_problems">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+<div class="copyrightBox"><em>21 maart 2005</em></div>
+
+<p>Auteursrecht &copy; 2004-2005 Medewerkers aan het &brandShortName; Helpdocumentatie project.</p>
+
+</body>
+</html>

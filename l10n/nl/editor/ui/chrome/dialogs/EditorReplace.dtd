@@ -1,0 +1,21 @@
+<!ENTITY backwardsCheckbox.accesskey "A">
+<!ENTITY backwardsCheckbox.label "Achterwaarts zoeken">
+<!ENTITY caseSensitiveCheckbox.accesskey "O">
+<!ENTITY caseSensitiveCheckbox.label "Hoofdlettergevoelig">
+<!ENTITY closeButton.label "Sluiten">
+<!ENTITY findField.accesskey "n">
+<!ENTITY findField.label "Zoeken naar:">
+<!ENTITY findNextButton.accesskey "Z">
+<!ENTITY findNextButton.label "Volgende zoeken">
+<!ENTITY notFoundWarning.label "De door u ingevoerde tekst is niet gevonden.">
+<!ENTITY replaceAllButton.accesskey "L">
+<!ENTITY replaceAllButton.label "Alle vervangen">
+<!ENTITY replaceAndFindButton.accesskey "R">
+<!ENTITY replaceAndFindButton.label "Vervangen en zoeken">
+<!ENTITY replaceButton.accesskey "E">
+<!ENTITY replaceButton.label "Vervangen">
+<!ENTITY replaceDialog.title "Zoeken en vervangen">
+<!ENTITY replaceField.accesskey "D">
+<!ENTITY replaceField.label "Vervangen door:">
+<!ENTITY wrapCheckbox.accesskey "D">
+<!ENTITY wrapCheckbox.label "Doorgaan na documenteinde">

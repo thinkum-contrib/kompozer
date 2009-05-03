@@ -1,0 +1,21 @@
+<!ENTITY createDir.label "Nieuwe submap">
+<!ENTITY createDirButton.tooltip "Nieuwe map">
+<!ENTITY createdir.accesskey "N">
+<!ENTITY deleteFile.label "Bestand verwijderen">
+<!ENTITY deletefile.accesskey "D">
+<!ENTITY editSitesList.label "Sites bewerken">
+<!ENTITY filenameColumn.label "Naam">
+<!ENTITY filterAll.label "Alle bestanden">
+<!ENTITY filterControl.label "Beeld:">
+<!ENTITY filterHTML.label "HTML-documenten">
+<!ENTITY filterImages.label "Afbeeldingsbestanden">
+<!ENTITY lastModifiedColumn.label "Laatst veranderd">
+<!ENTITY reloadButton.tooltip "Vernieuwen">
+<!ENTITY removeButton.tooltip "Verwijderen">
+<!ENTITY removeDir.label "Map verwijderen">
+<!ENTITY removedir.accesskey "R">
+<!ENTITY renameButton.tooltip "Bestand of map hernoemen">
+<!ENTITY renameMenu.label "Hernoemen">
+<!ENTITY sizeColumn.label "Grootte">
+<!ENTITY stopButton.tooltip "Stoppen">
+<!ENTITY treeViewCheckbox.label "Boomweergave">

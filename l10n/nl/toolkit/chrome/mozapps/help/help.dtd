@@ -1,0 +1,46 @@
+<!ENTITY printCmd.commandkey            "p" >
+
+<!ENTITY findOnCmd.commandkey           "F" >
+<!ENTITY findAgainCmd.commandkey        "G" >
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+
+<!ENTITY backButton.label               "Terug">
+<!ENTITY backButton.accesskey           "T">
+<!ENTITY backButton.tooltip             "Ga een pagina terug">
+<!ENTITY forwardButton.label            "Vooruit">
+<!ENTITY forwardButton.accesskey        "V">
+<!ENTITY forwardButton.tooltip          "Ga een pagina vooruit">
+<!ENTITY copyCmd.label                  "Kopiëren">
+<!ENTITY copyCmd.accesskey              "K">
+<!ENTITY selectAllCmd.label             "Alles selecteren">
+<!ENTITY selectAllCmd.accesskey         "A">
+<!ENTITY goBackCmd.commandkey           "[">
+<!ENTITY goForwardCmd.commandkey        "]">
+<!ENTITY homeButton.label               "Startpagina">
+<!ENTITY homeButton.tooltip             "Ga naar de startpagina van Help">
+<!ENTITY printButton.label              "Afdrukken">
+<!ENTITY printButton.tooltip            "Deze pagina afdrukken">
+<!ENTITY closeWindow.commandkey         "W">
+
+<!ENTITY throbberItem.title             "Activiteitsindicator">
+<!ENTITY throbber.tooltip               "Ga naar het hoofdstuk Hulp voor Help">
+
+<!ENTITY searchtab.label                "Zoeken">
+<!ENTITY searchtab.accesskey            "Z">
+<!ENTITY toctab.label                   "Inhoud">
+<!ENTITY toctab.accesskey               "I">
+
+<!ENTITY textZoomReduceCmd.commandkey   "-">
+<!ENTITY textZoomEnlargeCmd.commandkey  "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey    "0">
+
+<!ENTITY helpSearch.commandkey          "k">
+
+<!ENTITY zLevel.label                   "Altijd op voorgrond">
+<!ENTITY zLevel.accesskey               "o">
+
+<!ENTITY textZoomReduceBtn.label        "Tekst verkleinen">
+<!ENTITY textZoomReduceBtn.accesskey    "k">
+<!ENTITY textZoomEnlargeBtn.label       "Tekst vergroten">
+<!ENTITY textZoomEnlargeBtn.accesskey   "e">

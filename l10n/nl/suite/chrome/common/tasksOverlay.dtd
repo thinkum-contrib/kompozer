@@ -1,0 +1,29 @@
+<!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY downloadManagerCmd.label "Downloadbeheerder">
+<!ENTITY editorCmd.accesskey "c">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY editorCmd.label "Composer">
+<!ENTITY javaConsoleCmd.accesskey "j">
+<!ENTITY javaConsoleCmd.label "Java-console">
+<!ENTITY javaScriptConsoleCmd.accesskey "S">
+<!ENTITY javaScriptConsoleCmd.label "JavaScript-console">
+<!ENTITY navigatorCmd.accesskey "B">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label "Navigator">
+<!ENTITY privacyMenu.accesskey "P">
+<!ENTITY privacyMenu.label "Privacy &amp; Security">
+<!ENTITY securityInfoCmd.accesskey "s">
+<!ENTITY securityInfoCmd.label ".Veiligingsinfo">
+<!ENTITY switchProfileCmd.accesskey "h">
+<!ENTITY switchProfileCmd.label "Profiel wisselen">
+<!ENTITY taskBar.tooltip "Statusbalk">
+<!ENTITY taskComposer.tooltip "Editor">
+<!ENTITY taskNavigator.tooltip "Browser">
+<!ENTITY tasksMenu.accesskey "T">
+<!ENTITY tasksMenu.label "Extra">
+<!ENTITY webDevelopment.accesskey "W">
+<!ENTITY webDevelopment.label "Webontwikkeling">
+<!ENTITY windowMenu.accesskey "V">
+<!ENTITY windowMenu.label "Venster">
+<!ENTITY extensions.label "Extensies">
+<!ENTITY themes.label "Thema's">

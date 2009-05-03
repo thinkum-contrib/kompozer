@@ -1,0 +1,38 @@
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.label "Kopiëren">
+<!ENTITY cutCmd.accesskey "N">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.label "Knippen">
+<!ENTITY deleteCmd.accesskey "V">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.label "Verwijderen">
+<!ENTITY findTypeLinksCmd.accesskey "K">
+<!ENTITY findTypeLinksCmd.label "Koppelingen zoeken terwijl u typt">
+<!ENTITY findTypeTextCmd.accesskey "T">
+<!ENTITY findTypeTextCmd.label "Tekst zoeken terwijl u typt">
+<!ENTITY newBlankPageCmd.accesskey "C">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newBlankPageCmd.label "Composer pagina">
+<!ENTITY newNavigatorCmd.accesskey "B">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.label "Browservenster">
+<!ENTITY newPageFromTemplateCmd.accesskey "O">
+<!ENTITY newPageFromTemplateCmd.label "Op sjabloon gebaseerde pagina">
+<!ENTITY pasteCmd.accesskey "P">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.label "Plakken">
+<!ENTITY preferencesCmd.accesskey "O">
+<!ENTITY preferencesCmd.key "v">
+<!ENTITY preferencesCmd.label "Voorkeuren...">
+<!ENTITY redoCmd.accesskey "r">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.label "Opnieuw uitvoeren">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.label "Alles selecteren">
+<!ENTITY undoCmd.accesskey "O">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.label "Ongedaan maken">
+<!ENTITY viewToolbarsMenu.accesskey "t">
+<!ENTITY viewToolbarsMenu.label "Tonen/verbergen">

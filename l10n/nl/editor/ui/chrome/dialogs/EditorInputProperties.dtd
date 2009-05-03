@@ -1,0 +1,41 @@
+<!ENTITY Accept.accesskey "O">
+<!ENTITY Accept.label "Soorten accepteren:">
+<!ENTITY AccessKey.accesskey "S">
+<!ENTITY AccessKey.label "Sneltoets:">
+<!ENTITY GroupName.label "Groepnaam:">
+<!ENTITY ImageProperties.accesskey "F">
+<!ENTITY ImageProperties.label "Afbeeldingseigenschappen...">
+<!ENTITY InitialValue.label "Beginwaarde:">
+<!ENTITY InputChecked.accesskey "A">
+<!ENTITY InputChecked.label "In het begin aangevinkt">
+<!ENTITY InputDisabled.accesskey "U">
+<!ENTITY InputDisabled.label "Uitgeschakeld">
+<!ENTITY InputName.label "Veldnaam:">
+<!ENTITY InputReadOnly.accesskey "A">
+<!ENTITY InputReadOnly.label "Alleen-lezen">
+<!ENTITY InputSelected.accesskey "G">
+<!ENTITY InputSelected.label "In het begin geselecteerd">
+<!ENTITY InputSettings.label "Veldinstellingen">
+<!ENTITY InputType.accesskey "V">
+<!ENTITY InputType.label "Veldsoort">
+<!ENTITY InputValue.label "Veldwaarde:">
+<!ENTITY Name.accesskey "N">
+<!ENTITY TextLength.accesskey "M">
+<!ENTITY TextLength.label "Maximumlengte:">
+<!ENTITY TextSize.accesskey "V">
+<!ENTITY TextSize.label "Veldgrootte:">
+<!ENTITY Value.accesskey "W">
+<!ENTITY button.value "Knop">
+<!ENTITY checkbox.value "Selectievakje">
+<!ENTITY file.value "Bestand">
+<!ENTITY hidden.value "Verborgen">
+<!ENTITY image.value "Afbeelding">
+<!ENTITY password.value "Wachtwoord">
+<!ENTITY radio.value "Keuzerondje">
+<!ENTITY reset.value "Herinitialisatieknop">
+<!ENTITY submit.value "Verzendknop ">
+<!ENTITY tabIndex.accesskey "T">
+<!ENTITY tabIndex.label "Tabbladindex:">
+<!ENTITY text.value "Tekst">
+<!ENTITY windowTitle.label "Formulierveldeigenschappen">
+<!ENTITY windowTitleImage.label "Formulierafbeeldingseigenschappen">

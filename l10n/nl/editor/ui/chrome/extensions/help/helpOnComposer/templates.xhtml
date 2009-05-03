@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h2 id="working_with_templates">Met sjablonen werken</h2>
+
+<p>HTML-sjablonen zijn handig in eht geval de autuer moet meerder pagina's maken
+die hetzelfde design, maar een andere inhoud hebben. Met
+&brandShortName; kunt u uw eigen sjablonen ontwerken en ze als een basis voor uw
+webpagina's gebruiken.</p>
+
+<h3 id="creating_a_template">Sjablonen aanmaken</h3>
+
+<ol>
+  <li>Om een sjabloon aan te maken:
+  <ul>
+    <li>Klik op <span class="menPath">Bestand > Nieuw</span> of klik op de pijl
+    naast de Nieuw knop en selecteer "Meer opties"</li>
+    <li>Selecteer <strong>blanco sjabloon</strong> en klik op "Aanmaken"</li>
+  </ul></li>
+  <li>Voeg de inhoud en opmaak toe die in ieder pagina hetzelfde is via
+  dezelfde methodes als u gewend bent om normale tekst in een webpagina
+  te bewerken.</li>
+  <li>Voor de inhoud die in de webpagina's verschillend zal zijn kunnen kan een
+  bewerkbaar gebied worden ingevoegd door te klikken op Invoegen > Sjablonen >
+  Bewerkbaar gebied invoegen. De opties zie beschikbaar zijn voor een bewerkbaar gebied:
+  <ul>
+    <li>Gebied is optioneel</li>
+    <li>Gebied is herhaalbaar</li>
+    <li>Gebied is verplaatsbaar</li>
+  </ul></li>
+  <li>Sla het bestand op als een .mzt sjabloonbestand.</li>
+</ol>
+
+<p><strong>Tip</strong>: U kunt een bewerkbaar gebied verwijderen of een gebied bewerkbaar maken
+door de statusbalk te gebruiken. Voor details kunt u <a
+href="#using_status_bar_for_formatting_your_web_page">De statusbalk gebruiken om webpagina's op te maken</a> lezen.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Terug naar het begin van deze sectie</a> ]</p>
+
+<h3 id="using_a_template">Een sjabloon gebruiken</h3>
+
+<p>Om een sjabloon voor uw webpagina's te gebruiken:</p>
+
+<ol>
+  <li>Klik op <span class="menuPath">Bestand openen</span> of gebruik
+  de sneltoets "Ctrl+N"</li>
+  <li>Selecteer de optie "Een nieuw document gebaseerd op een sjabloon" en kies
+  het sjabloon door te klikken op "Bestand kiezen"</li>
+  <li>Klik op <span class="menuPath">Aanmaken</span></li>
+  <li>Bewerk de inhoud in de bewerkbare gebieden.</li>
+  <li>Sla het bestand op als een <i>html</i>-document.</li>
+</ol>
+
+<p><strong>Tip</strong>: Klik op <span class="menuPath">Bewerken > Van sjabloon
+losmaken</span> om een document van zijn sjabloon los te koppelen.</p>
+
+<p><strong>Tip</strong>: Het omzetten van een bestaand document naar een sjabloon
+kan worden gedaan door het aanvinken (uitvinken) van de "Sjabloon"-optie in Opmaak >
+Paginatitel en eigenschappen.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Terug naar het begin van deze sectie</a> ]</p>
+
+<p>[<a href="page_properties.xhtml">Volgende</a>] [<a href="toc.xhtml">Vorige</a>]</p>
+
+  <div class="copyrightBox"><em>20 juni 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

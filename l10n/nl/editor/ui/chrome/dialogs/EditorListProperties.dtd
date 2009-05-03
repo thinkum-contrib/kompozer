@@ -1,0 +1,14 @@
+<!ENTITY ListType.label "Lijstsoort">
+<!ENTITY bulletList.value "Ongenummerde opsommingslijst">
+<!ENTITY bulletStyle.label "Opsommingsstijl:">
+<!ENTITY changeEntireListRadio.accessKey "D">
+<!ENTITY changeEntireListRadio.label "De hele lijst veranderen">
+<!ENTITY changeListMsg.label "Wanneer lijstsoort wordt aangepast:">
+<!ENTITY changeSelectedRadio.accessKey "A">
+<!ENTITY changeSelectedRadio.label "Alleen de geselecteerde items aanpassen">
+<!ENTITY definitionList.value "Definitielijst">
+<!ENTITY none.value "Geen">
+<!ENTITY numberList.value "Genummerde lijst">
+<!ENTITY startingNumber.accessKey "S">
+<!ENTITY startingNumber.label "Starten bij:">
+<!ENTITY windowTitle.label "Lijsteigenschappen">

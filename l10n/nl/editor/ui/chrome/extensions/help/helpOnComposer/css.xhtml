@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h2 id="using_style_sheets_for_your_web_pages">Stijlbladen gebruiken voor webpagina's</h2>
+
+<h3 id="using_cascade_style_sheets">Using Cascade Style Sheets</h3>
+
+<p>Stijlbladen (CSS) kunnen op drie manieren gebruikt worden om HTML mee op te maken:</p>
+<ol>
+  <li>Interne stijlen gebruiken</li>
+
+  <li>Met een intern stijlblad.</li>
+
+  <li>Met extern(e) stijlblad(en).</li>
+</ol>
+
+<p>&brandShortName; biedt een ingebouwde stijlblad-bewerker met de naam <strong>CaScadeS</strong>.
+CaScadeS kan gebruikt worden om interne of externe stijlbladen te bewerken. In tegenstelling tot interne stijlen
+helpen interne of externe stijlbladen om inhoud (content) en opmaak van een pagina gescheiden te houden.</p>
+
+<p>Om de pagina die u aan het bewerken bent van opmaakkenmerken te voorzien, kan CaScadeS geopend worden
+door in het menu Extra te kiezen voor CSS Editor. CaScadeS biedt twee manieren voor het bewerken van stijlbladen:</p>
+
+<ol>
+  <li><strong>Beginner-modus</strong>: In deze modus kunt u regels maken en deze koppelen aan class-selectors of type-selectors.</li>
+
+  <li><strong>Expert-modus</strong>: In deze modus kunt u zonder enige beperking regels maken.</li>
+</ol>
+
+<p>Als er nog geen stijlblad is, wordt er een nieuw stijlblad aangemaakt.</p>
+
+<p class="returnToSection">[ <a href="#using_style_sheets_for_your_web_pages">Terug naar het begin van deze sectie</a> ]</p>
+
+<h3 id="creating_style_sheets_with_&brandShortName;">Stijlbladen maken met &brandShortName;</h3>
+
+<p>Met CaScadeS kunt u zowel interne als externe stijlbladen maken.</p>
+
+<p>Een intern stijlblad maken:</p>
+<ol>
+  <li>Klik op de knop <strong>Stijl elt.</strong>
+  <ul>
+    <li>Optioneel kunt u Medialijst en Titel invullen.</li>
+  </ul>
+  </li>
+
+  <li>Klik op Stijblad aanmaken.</li>
+</ol>
+
+<p>Een extern stijlblad maken:</p>
+
+<ol>
+  <li>Klik op de knop <strong>Link elt.</strong></li>
+
+  <li>Voer aan de rechterkant bij URL het adres van het stijlblad in. Een nieuw bestand
+  wordt lokaal aangemaakt als dit nog niet bestaat.
+
+  <ul>
+    <li>Optioneel kunt u Medialijst en Titel invullen.</li>
+  </ul>
+  </li>
+
+  <li>Als dit een alternatief stijlblad (alternate) moet worden vinkt u "aanvinken om een alternatief stijlblad aan te maken" aan.</li>
+</ol>
+
+<p><strong>Tip:</strong> Sla de pagina altijd op voordat u een lokaal stijlblad eraan koppelt.</p>
+
+<p><strong>Tip:</strong> Gebruik de knop Vernieuwen aan de linkerkant als het stijlblad niet direct wordt gedownload.</p>
+
+<p class="returnToSection">[ <a href="#using_style_sheets_for_your_web_pages">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="creating_rules_for_stijlbladen">Regels maken voor stijlbladen (stylesheets)</h3>
+
+<p>Nadat u een of meerdere stijlbladen voor een pagina hebt gemaakt, kunt u regels maken voor elk individuele stijlblad.
+Om voor een specifiek stijlblad regels te maken of aan te passen, selecteert u het stijlblad
+in de lijst aan de linkerkant door er met de muis op te klikken. Aan de rechterkant worden dan in het tabblad Algemeen de
+details van dit stijlblad getoond.</p>
+
+<p>Nieuwe regels aanmaken:</p>
+
+<ol>
+  <li>Klik op de knop Regel aan de linkerkant.</li>
+
+  <li>Aan de rechterkant wordt gevraagd welk type regel u wilt maken:
+  <ul>
+    <li>Gelabelde stijl (klassenaam hieronder invullen)</li>
+    <li>Stijl toegepast op alle elementen van type (typen hieronder invullen)</li>
+    <li>Stijl toegepast op alle elementen die met de volgende selector overeenkomen</li>
+  </ul>
+  </li>
+
+  <li>Voer de naam van de regel in.</li>
+
+  <li>Klik op de knop <strong>Nieuwe stijlregel aanmaken</strong>.</li>
+</ol>
+
+<p>Regels kunnen ingesteld worden met de tabbladen (Tekst, Achtergrond,
+Randen, Blok en Spraak) aan de rechterkant. Om alle instellingen van een stijlregel te zien, selecteert u
+de regel aan de linkerkant en klikt u op het tabblad Algemeen aan de rechterkant. Het tabblad Algemeen toont alle
+instellingen die op dat moment voor de geselecteerde regel gedefinieerd zijn.</p>
+
+<p class="returnToSection">[ <a href="#using_style_sheets_for_your_web_pages">Terug naar het begin van deze sectie</a> ]</p>
+
+<p>[<a href="tables.xhtml">Volgende</a>] [<a href="formatting_webpages.xhtml">Vorige</a>]</p>
+
+  <div class="copyrightBox"><em>20 juni 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

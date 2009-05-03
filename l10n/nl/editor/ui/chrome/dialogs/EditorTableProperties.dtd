@@ -1,0 +1,72 @@
+<!ENTITY AlignCenter.label "Gecentreerd">
+<!ENTITY AlignLeft.label "Links">
+<!ENTITY AlignRight.label "Rechts">
+<!ENTITY applyBeforeChange1.label "Huidige aanpassingen zullen worden toegepast">
+<!ENTITY applyBeforeChange2.label "voordat de selectie wordt aangepast.">
+<!ENTITY backgroundColor.accessKey "A">
+<!ENTITY backgroundColor.label "Achtergrondkleur:">
+<!ENTITY cellAlignAtChar.label "Bij teken:">
+<!ENTITY cellAlignBottom.label "Onder">
+<!ENTITY cellAlignJustify.label "Uitvullen">
+<!ENTITY cellAlignMiddle.label "Midden">
+<!ENTITY cellAlignTop.label "Boven">
+<!ENTITY cellApplyBeforeMove.label "Aanpassingen toepassen voordat de selectie wordt veranderd">
+<!ENTITY cellColSpan.label "Kolomomspanning:">
+<!ENTITY cellContentAlignment.label "Inhoudsuitlijning">
+<!ENTITY cellHeader.label "Kop">
+<!ENTITY cellHorizontal.accessKey "Z">
+<!ENTITY cellHorizontal.label "Horizontaal:">
+<!ENTITY cellInheritColor.label "(Laat de tabelkleur er doorheen zien)">
+<!ENTITY cellKeepCurrentData.label "Behoud huidige instellingen">
+<!ENTITY cellNoWrap.label "Niet afbreken">
+<!ENTITY cellNormal.label "Normaal">
+<!ENTITY cellPercent.label "procent van tabel">
+<!ENTITY cellRowSpan.label "Rijomspanning:">
+<!ENTITY cellSelectCell.label "Cel">
+<!ENTITY cellSelectColumn.label "Kolom">
+<!ENTITY cellSelectNext.accessKey "V">
+<!ENTITY cellSelectNext.label "Volgende">
+<!ENTITY cellSelectPrevious.accessKey "I">
+<!ENTITY cellSelectPrevious.label "Vorige">
+<!ENTITY cellSelectRow.label "Rij">
+<!ENTITY cellSelection.label "Selectie">
+<!ENTITY cellStyle.accessKey "C">
+<!ENTITY cellStyle.label "Celstijl:">
+<!ENTITY cellTab.label "Cellen">
+<!ENTITY cellTextWrap.accessKey "S">
+<!ENTITY cellTextWrap.label "Tekstterugloop:">
+<!ENTITY cellUseCheckboxHelp.label "De selectievakjes gebruiken om te bepalen welke eigenschappen worden toegepast op al de geselecteerde cellen">
+<!ENTITY cellVertical.accessKey "E">
+<!ENTITY cellVertical.label "Verticaal:">
+<!ENTITY cellWrap.label "Afbreken">
+<!ENTITY pixels.label "pixels">
+<!ENTITY size.label "Grootte">
+<!ENTITY tableAlignment.accessKey "T">
+<!ENTITY tableAlignment.label "Tabeluitlijning:">
+<!ENTITY tableBorderSpacing.label "Randen en ruimte">
+<!ENTITY tableBorderWidth.accessKey "R">
+<!ENTITY tableBorderWidth.label "Rand:">
+<!ENTITY tableCaption.accessKey "I">
+<!ENTITY tableCaption.label "Bijschrift:">
+<!ENTITY tableCaptionAbove.label "Boven tabel">
+<!ENTITY tableCaptionBelow.label "Onder tabel">
+<!ENTITY tableCaptionLeft.label "Links van tabel">
+<!ENTITY tableCaptionNone.label "Geen">
+<!ENTITY tableCaptionRight.label "Rechts van tabel">
+<!ENTITY tableColumns.accessKey "K">
+<!ENTITY tableColumns.label "Kolommen:">
+<!ENTITY tableHeight.accessKey "H">
+<!ENTITY tableHeight.label "Hoogte:">
+<!ENTITY tableInheritColor.label "(Laat de paginakleur er doorheen zien)">
+<!ENTITY tablePadding.accessKey "O">
+<!ENTITY tablePadding.label "Opvulling:">
+<!ENTITY tablePxBetwBrdrCellContent.label "beeldpunten tussen celrand en -inhoud">
+<!ENTITY tablePxBetwCells.label "beeldpunten tussen cellen">
+<!ENTITY tableRows.accessKey "R">
+<!ENTITY tableRows.label "Rijen:">
+<!ENTITY tableSpacing.accessKey "U">
+<!ENTITY tableSpacing.label "Ruimte:">
+<!ENTITY tableTab.label "Tabel">
+<!ENTITY tableWidth.accessKey "B">
+<!ENTITY tableWidth.label "Breedte:">
+<!ENTITY tableWindow.title "Tabeleigenschappen">

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Webpagina's maken met &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h1 id="creating_web_pages_with_composer">Webpagina's maken met &brandShortName;</h1>
+
+<p>Met &brandShortName; kunt u webpagina's maken en op het Internet publiceren.
+Hiervoor hoeft u geen HTML te kennen. Met &brandShortName; is het even eenvoudig werken als met een tekstverwerker.</p>
+
+<p>Met de knoppen op de werkbalken kunt u lijsten, tabellen, afbeeldingen, koppelingen naar andere pagina's, kleuren en
+diverse lettertypen gebruiken. Ook kunt u zien hoe de pagina er op het Internet uit komt te zien, terwijl u deze aan het maken bent.
+Ook kunt u de pagina eenvoudig met anderen delen, ongeacht welke browser of e-mailprogramma zij gebruiken.</p>
+
+<h2 id="starting_a_new_page">Een nieuwe pagina beginnen</h2>
+
+<h3 id="creating_a_new_page">Aanmaken van een nieuwe pagina</h3>
+
+<p>&brandShortName; is een HTML-maker (Hypertext Markup Language) waarmee u webpagina's kunt maken en bewerken.
+&brandShortName; is een <em>WYSIWYG</em>-programma (What You See Is What You Get), zodat u kunt zien
+hoe de pagina er straks voor een bezoeker uit ziet terwijl u de pagina maakt.
+U heeft geen HTML-kennis nodig, aangezien de meeste basisfuncties via de werkbalken en menu's beschikbaar zijn.</p>
+
+<p>Met &brandShortName; kunt u ook de HTML-broncode bewerken als u dat wilt.
+Om de HTML-broncode te bekijken of te bewerken, opent u het menu Beeld en kiest u voor <strong>HTML bron</strong>,
+of u klikt op het &lt;HTML&gt; Bron-tabblad onderin het &brandShortName;-venster.</p>
+
+<p>Om een webpagina te maken, kunt u een van de hieronder beschreven methodes gebruiken.
+Zodra u met een pagina bent begonnen, kunt u hieraan tekst toevoegen of tekst wijzigen zoals u het gewend bent van een tekstverwerker.</p>
+
+<p><strong>Een nieuwe pagina maken in &brandShortName;</strong>:</p>
+
+<ul>
+  <li>Klik op de  knop Nieuw in de werkbalk van &brandShortName;.</li>
+</ul>
+
+<p><strong>Beginnen met een HTML-bestand van uw harde schijf</strong>:</p>
+
+<ol>
+  <li>Open het menu <span
+  class="menuPath">Bestand</span> en kies voor <span class="menuPath">Bestand openen</span>	.
+  &brandShortName; toont nu de het dialoogvenster HTML-bestand openen.</li>
+
+  <li>Zoek op de harde schijf het bestand dat u wilt bewerken.</li>
+
+  <li>Klik op <span class="menuPath">Openen</span> om het geselecteerde bestand in een &brandShortName;-venster te tonen.</li>
+</ol>
+
+<p><strong>Om een webpagina te bewerken</strong>:</p>
+
+<ol>
+  <li>Open &brandShortName;</li>
+  <li>Kies in het menu <span
+  class="menuPath">Bestand</span> voor <span class="menuPath">Weblocatie openen</span>.
+  Dan verschijnt het dialoogvenster Weblocatie openen.</li>
+
+  <li>Typ hier het Internet-adres van de pagina die u wilt bewerken (bijvoorbeeld <tt>http://www.mozbrowser.nl</tt>) en klik op de knop Openen.
+  De pagina wordt nu getoond in &brandShortName;.</li>
+</ol>
+
+<p>&brandShortName; geeft ook de optie om een nieuw document aan te maken
+<acronym title="Extensible Hyper Text Markup
+Language">XHTML</acronym>-formaat te gebruiken. Om een XHTML-document aan te maken,
+moet u de optie "een XHTML-document aanmaken" aanvinken in het <em>Nieuw document of sjabloon
+aanmaken</em> dialoogvenster.</p>
+
+
+<p><strong>Tip</strong>: In een &brandShortName;-venster kunt u snel een pagina openen die u recent bewerkt hebt.
+Daarvoor kiest u in het menu Bestand voor Recente pagina's en dan kunt u de getoonde lijst het gewenste bestand selecteren.
+</p>
+
+<p>[ <a href="#starting_a_new_page">Terug naar het begin van deze sectie</a>
+]</p>
+
+<h3 id="tabs_editing_multiple_documents">Tabbladen - Meedere documenten bewerken</h3>
+
+<p>&brandShortName; stelt u in staat om meerdere documenten tegelijkertijd
+te bewerken. In plaats van wisselen tussen vensters om meerdere documenten
+te bewerken, biedt &brandShortName; <strong>tabbladen</strong> aan.
+Meer dan een document kan tegelijkertijd met &brandShortName; in hetzelfde
+venster geopend zijn, maar in andere tabbladen..</p>
+
+<p>Tabbladen kunnen geopend worden door <kbd>Ctrl+T</kbd> te gebruiken of
+Aanmaken in: <em>Nieuw tabblad</em> te selecteren in het Nieuw bestand
+openen venster. Zelf met meerder tabbladen open is elk tabblad onafhankelijk
+te bedienen, elk documentstaat is onafhankelijk. Iedere documenstaat wordt
+getoond, bijv. als het bewerkt is en opgeslagen moet worden door een rood
+diskette-pictogram op het bijgehorende tabblad.</p>
+
+<p>[ <a href="#starting_a_new_page">Terug naar het begin van deze sectie</a>
+]</p>
+
+
+
+<h3 id="saving_and_browsing_your_new_page">Opslaan en bekijken van de nieuwe pagina</h3>
+
+<p>U kunt pagina's in &brandShortName; zowel in HTML- als tekst-formaat opslaan.
+Wanneer u de pagina als HTML opslaat, dan blijft de opmaak van de pagina (zoals tekststijlen (vet, schuin, enz), tabellen,
+verwijzingen en afbeeldingen) behouden. Wanneer u een pagina in tekstformaat opslaat, dan worden de HTML-tags verwijderd,
+maar blijft de tekst van het document behouden.</p>
+
+<p>Een pagina als HTML-bestand opslaan:</p>
+
+<ul>
+  <li>Open het menu Bestand en kies Opslaan of klik op de knop Opslaan op de werkbalk.
+
+  <p>Als u de pagina nog geen titel heeft gegeven dan vraagt &brandShortName; om dit alsnog te doen.
+  Een browser toont de paginatitel in de titelbalk als de pagina wordt bekeken.
+  De paginatitel wordt ook in de lijst met bladwijzers in een browser getoond als de pagina daaraan wordt toegevoegd.
+  </p>
+
+  <p>&brandShortName; vraagt vervolgens om een bestandsnaam in te voeren en aan te geven waar de pagina dient te worden opgeslagen.
+  Zorg ervoor dat er .html achter de bestandsnaam blijft staan.
+  Bij het opslaan of bewerken van documenten die XHTML gebruiken moet het
+  bestand een extensie <tt>.xhtml</tt> hebben. Bestanden met een extensie
+  <tt>.html</tt> maar met een XHTML DOCTYPE worden niet als <tt>xhtml</tt>-documenten beschouwd.</p>
+  </li>
+</ul>
+
+<p>De bestandsnaam of locatie van een bestaand HTML-bestand wijzigen:</p>
+
+<ul>
+  <li>Open het menu Bestand en kies voor Opslaan Als.</li>
+  <li>Kies nu een andere bestandsnaam en/of locatie in.</li>
+</ul>
+
+<p>Als u een pagina in &brandShortName; opslaat dan worden alle onderdelen van de pagina
+(de HTML, afbeelden en andere bestanden zoals geluidsbestanden en stijlbladen), op de harde
+schijf opgeslagen. Als u slechts het HTML-gedeelte van de pagina wilt opslaan, dan kunt u dit opgeven in de
+voorkeuren van &brandShortName; voor het opslaan van pagina's. Zie <a
+href="preferences.xhtml">&brandShortName; Voorkeuren</a> voor meer informatie over het wijzigen van de instelling
+van &brandShortName; voor het opslaan van pagina's.</p>
+
+<p>Als u voor een afbeelding een absolute locatie gebruikt (wanneer het met &quot;http://&quot; begint) en u bent met het Internet verbonden,
+dan ziet u ook de afbeelding in de pagina in &brandShortName; en de browser.
+Als de locatie van de afbeelding relatief is ten opzichte van de locatie van de pagina (begint met "file:///"),
+dan wordt de afbeelding niet getoond in de lokale versie van de pagina.</p>
+
+<p>Een pagina als tekstbestand opslaan:</p>
+
+<ol>
+  <li>Open het menu Bestand en kies voor Exporteren als tekst.</li>
+  <li>Voer de bestandsnaam in en geef aan waar het bestand moet worden opgeslagen.</li>
+</ol>
+
+<p><strong>Let op</strong>: Afbeeldingen worden niet opgeslagen in pagina's die in tekstformaat worden opgeslagen.</p>
+
+<p><strong>Tip</strong>: U kunt in het menu Bestand kiezen voor Terugkeren om terug te keren naar de laatst-opgeslagen versie van de pagina
+die u op dat moment aan het bewerken bent. Wijzigingen die u er ondertussen in hebt aangebracht gaan dan wel verloren.</p>
+
+<p>Het bekijken van een gemaakte pagina in een browser om de koppelingen te testen:</p>
+
+<ul>
+  <li>Open het menu Bestand en kies voor Pagina bekijken (or klik op de knop Bekijken in de werkbalk).
+  Als u de pagina nog niet hebt opgeslagen, dan vraagt &brandShortName; u om een paginatitel, bestandsnaam en
+  locatie op de harde schijf op te geven. Het &brandShortName;-venster blijft geopend achter het nieuwe browser-venster dat wordt geopend.</li>
+</ul>
+
+<p>[ <a href="#starting_a_new_page">Terug naar het begin van deze sectie</a> ]</p>
+
+<div class="copyrightBox"><em>29 maart 2005</em></div>
+
+  <p>Auteursrecht &copy; 2004-2005 Medewerkers aan het &brandShortName; Helpdocumentatieproject.</p>
+
+</body>
+</html>

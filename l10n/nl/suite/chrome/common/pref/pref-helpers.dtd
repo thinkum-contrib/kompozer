@@ -1,0 +1,33 @@
+<!ENTITY allEntitiesEncoding.label "De &amp;#..; notatie gebruiken voor alle niet-ASCII tekens.">
+<!ENTITY basicEncoding.label "Alleen &amp; &lt; &gt; ' en niet-breekbare witruimtes">
+<!ENTITY carriageReturns.label "Gedrag van de entertoets">
+<!ENTITY cmdLine.label "Commandoregel:">
+<!ENTITY connection.label "Verbinding">
+<!ENTITY connectionButton.label "Verbindingsinstellingen">
+<!ENTITY connectionDescription.label "Proxies instellen voor toegang tot het Internet">
+<!ENTITY connectionbutton.accesskey "b">
+<!ENTITY crInPCreatesNewP.label "Enter binnenin een alinea altijd een nieuw alinea laten aanmaken.">
+<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+<!ENTITY helpers.label "Geavanceerde instellingen">
+<!ENTITY hints.label "U kunt de URL specificeren door '$s' te gebruiken. Voorbeeld:">
+<!ENTITY htmlEntitiesEncoding.label "HTML 4 speciale tekens">
+<!ENTITY imageEditor.label "Afbeeldingenbewerker">
+<!ENTITY latin1EntitiesEncoding.label "Het bovenstaande en Latin-1 tekens">
+<!ENTITY realtimeSpellCheck.label "Continu spelling controleren">
+<!ENTITY specialChars.description "De volgende karakters als entiteit gebruiken">
+<!ENTITY specialChars.label "Speciale tekens">
+<!ENTITY spellCheckRealTime.accesskey "u">
+<!ENTITY spellCheckRealTime.label "Verkeerd gespelde woorden onderstrepen">
+<!ENTITY useSystemBrowser.label "Systeeminstellingen gebruiken">
+<!ENTITY userDefinedBrower.label "Door de gebruiker gedefinieerd">
+
+<!ENTITY dialect.label                 "Structuur">
+<!ENTITY markupLanguage.label          "Taal:">
+<!ENTITY dtd.label                     "DTD:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "Transitional">
+<!ENTITY strictDTD.label               "Strict">
+
+<!ENTITY noGTEncoding.label            "'&gt;' niet coderen buiten attribuutwaarden">
+<!ENTITY noEscaping.label              "Speciale tekens niet coderen binnen attribuutwaarden">

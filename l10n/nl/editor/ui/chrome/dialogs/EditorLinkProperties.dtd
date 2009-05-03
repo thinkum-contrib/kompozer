@@ -1,0 +1,39 @@
+<!ENTITY LinkURLBox.label "Koppelingslocatie">
+<!ENTITY XFNbox.label "Vriendschap">
+<!ENTITY acquaintance.label "kennis">
+<!ENTITY child.label "kind">
+<!ENTITY coResident.label "inwonend">
+<!ENTITY coWorker.label "medewerker">
+<!ENTITY colleague.label "collega">
+<!ENTITY contact.label "contact">
+<!ENTITY crush.label "verliefd">
+<!ENTITY date.label "verkeren">
+<!ENTITY family.label "Familie">
+<!ENTITY friend.label "vriend">
+<!ENTITY friendship.label "Vriendschap">
+<!ENTITY geographical.label "Geogradisch">
+<!ENTITY kin.label "familie">
+<!ENTITY me.label "De koppelingslocatie is een andere locatie van mij.">
+<!ENTITY met.label "ontmoet">
+<!ENTITY muse.label "muze">
+<!ENTITY neighbor.label "buur">
+<!ENTITY none.label "geen">
+<!ENTITY parent.label "ouder">
+<!ENTITY physical.label "Fysiek">
+<!ENTITY professional.label "Professioneel">
+<!ENTITY romantic.label "Romantisch">
+<!ENTITY sibling.label "broer/zus">
+<!ENTITY spouse.label "partner">
+<!ENTITY sweetheart.label "liefje">
+<!ENTITY windowTitle.label "Koppelingseigenschappen">
+
+<!ENTITY targetBox.label "Doel">
+<!ENTITY userDefinedTarget.label "Koppeling moet geopend worden">
+<!ENTITY topRadio.label "in hetzelfde venster, zonder deelvensters">
+<!ENTITY blankRadio.label "in een nieuw venster">
+<!ENTITY parentRadio.label "in het ouderlijke deelvenster">
+<!ENTITY selfRadio.label "in het huidige deelvenster">
+<!ENTITY userDefinedRadio.label "in dit deelvenster:">
+
+<!ENTITY technoratiTag.label "Technorati-tags">
+<!ENTITY technoratiTagCheckbox.label "Dit is een Technorati-tag">

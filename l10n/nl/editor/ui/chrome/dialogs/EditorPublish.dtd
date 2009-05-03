@@ -1,0 +1,43 @@
+<!ENTITY browseUrl.label "HTTP-adres van uw startpagina (bijv.: 'http://www.mijnaanbieder.net/mijngebruikersnaam'):">
+<!ENTITY browseUrl.tooltip "Het HTTP:// adres van uw beginmap (zonder bestandsnaam)">
+<!ENTITY chooseDirButton.label "Kiezen...">
+<!ENTITY docDirList.label "Sitesubmap voor deze pagina:">
+<!ENTITY filename.label "Bestandsnaam:">
+<!ENTITY filename.tooltip "Voer een naam in voor dit bestand, inclusief '.html' voor een webpagina">
+<!ENTITY filenameExample.label "bijv.: &quot;mijnpagina.html&quot;">
+<!ENTITY loginInfo.label "Logininformatie">
+<!ENTITY newSiteButton.label "Nieuwe site">
+<!ENTITY pageTitle.label "Paginatitel:">
+<!ENTITY pageTitle.tooltip "Voer een titel in om de pagina te identificeren in het venster en in Bladwijzers">
+<!ENTITY pageTitleExample.label "bijv.:  &quot;Mijn webpagina&quot;">
+<!ENTITY password.label "Wachtwoord:">
+<!ENTITY password.tooltip "Het wachtwoord dat hoort bij uw gebruikersnaam">
+<!ENTITY publishImgCheckbox.label "Inclusief afbeeldingen en andere bestanden">
+<!ENTITY publishImgCheckbox.tooltip "Afbeeldingen en andere bestanden waarnaar wordt verwezen in deze pagina publiceren">
+<!ENTITY publishSites.label "Publicatiesites">
+<!ENTITY publishTab.label "Publiceren">
+<!ENTITY relatedDocs.label "Andere bestanden om te publiceren">
+<!ENTITY removeButton.label "Site verwijderen">
+<!ENTITY sameLocationRadio.label "Zelfde locatie gebruiken als pagina">
+<!ENTITY sameLocationRadio.tooltip "Bestanden naar dezelfde locatie publiceren als de pagina">
+<!ENTITY savePassword.label "Wachtwoord opslaan">
+<!ENTITY savePassword.tooltip "Selecteer dit om uw wachtwoord veilig op te slaan door gebruik te maken van de Wachtwoordenbeheerder">
+<!ENTITY selectDirectory.label "Lokale map selecteren">
+<!ENTITY serverInfo.label "Serverinformatie">
+<!ENTITY setDefSiteAndDir.label "Als standaardsite en map instellen">
+<!ENTITY setDefaultButton.label "Als standaard instellen">
+<!ENTITY settingsTab.label "Instellingen">
+<!ENTITY siteDirList.label "Selecteer of typ een mapnaam op uw publicatiesite:">
+<!ENTITY siteDirList.tooltip "Voer de naam in, of kies hem, van de submap op afstand waarheen moet worden gepubliceerd">
+<!ENTITY siteList.label "Sitenaam:">
+<!ENTITY siteList.tooltip "Kies de step waarnaar u wilt publiceren">
+<!ENTITY siteName.label "Sitenaam:">
+<!ENTITY siteName.tooltip "Een bijnaam die deze publicatiesite identificeert (zoals: 'MijnSite')">
+<!ENTITY siteUrl.label "FTP-adres (bijv.: 'ftp://ftp.mijnprovider.net/mijngebruikersnaam'):">
+<!ENTITY siteUrl.tooltip "Het FTP:// of HTTP:// adres dat u is gegeven door uw internetaanbieder of web hosting service">
+<!ENTITY useSubdir.tooltip "Voer de naam in, of kies hem, van de submap op afstand waar de bestanden zullen worden gepubliceerd">
+<!ENTITY useSubdirRadio.label "Deze sitesubmap gebruiken.">
+<!ENTITY username.label "Gebruikersnaam:">
+<!ENTITY username.tooltip "De gebruikersnaam die u gebruikt om in te loggen bij uw internetaanbieder of web hosting service">
+<!ENTITY windowTitle.label "Pagina publiceren">
+<!ENTITY windowTitleSettings.label "Publicatie-instellingen">

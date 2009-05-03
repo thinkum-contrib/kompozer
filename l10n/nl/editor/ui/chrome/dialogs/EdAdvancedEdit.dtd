@@ -1,0 +1,13 @@
+<!ENTITY AttName.label "Attribuut: ">
+<!ENTITY AttValue.label "Waarde: ">
+<!ENTITY PropertyName.label "Eigenschap: ">
+<!ENTITY WindowTitle.label "Geavanceerde eigenschappen bewerken">
+<!ENTITY currentattributesfor.label "Huidige attributen voor:">
+<!ENTITY editAttribute.label "Klik op een bovenstaand attribuut om de waarde ervan te bewerken">
+<!ENTITY removeAttribute.label "Verwijderen">
+<!ENTITY tabCSS.label "Inline stijlen">
+<!ENTITY tabHTML.label "HTML-attributen">
+<!ENTITY tabJSE.label "JavaScript-gebeurtenissen">
+<!ENTITY tree.attributeHeader.label "Attribuut">
+<!ENTITY tree.propertyHeader.label "Eigenschap">
+<!ENTITY tree.valueHeader.label "Waarde">

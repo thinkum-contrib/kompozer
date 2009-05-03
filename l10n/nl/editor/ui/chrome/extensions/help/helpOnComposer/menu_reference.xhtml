@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[ <!ENTITY % brandDTD
+SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi@yahoo.com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>&brandShortName; menu-overzicht</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">In dit onderdeel:
+  <a href="#file">Bestand</a>
+  <a href="#edit">Bewerken</a>
+  <a href="#view">Beeld</a>
+  <a href="#insert">Invoegen</a>
+  <a href="#format">Opmaak</a>
+  <a href="#table">Tabel</a>
+  <a href="#tools">Extra</a>
+  <a href="#help">Help</a>
+  </div>
+
+  <h1 id="menu_reference">&brandShortName; menu-overzicht</h1>
+  <div>Dit menu-overzicht beschrijft ieder menuitem in het hoofd
+  &brandShortName; venster.</div>
+
+ <h2 id="file">Bestand</h2>
+
+  <h3 id="new_window">Nieuw</h3>
+  <p>Opent een nieuw &brandShortName;-venster.</p>
+
+  <h3 id="open_file">Bestand openen...</h3>
+  <p>Toont een Bestand Openen-dialoogvenster waar u een bestand kunt selecteren vanaf
+  uw harde schijf of netwerk. Met &brandShortName; kunt u HTML,
+  HTML-sjablonen en tekstbestandstypen bekijken.</p>
+
+  <h3 id="open_web_location">Weblocatie openen...</h3>
+  <p>Displays an Open Web Location dialog for writing the URL of the
+  document or choose a local file to open.</p>
+
+  <h3 id="recent_pages">Recente pagina's</h3>
+  <p>Toont een lijst van recent bewerkte bestanden.</p>
+
+  <h3 id="close">Sluiten</h3>
+  <p>Sluit het huidige venster.</p>
+
+  <h3 id="close_all">Alles sluiten</h3>
+  <p>Sluit alle tabbladen in het huidige venster.</p>
+
+  <h3 id="save">Opslaan</h3>
+  <p>Slaat het bestand in het huidige actieve bestand op.</p>
+
+  <h3 id="save_as">Opslaan als...</h3>
+  <p>Slaat de pagina die u momenteel aan het bewerken bent op met de mogelijkheid
+  het onder een andere bestandsnaam op te slaan. </p>
+
+  <h3 id="save_as_charset">Tekenset opslaan...</h3>
+  <p>Geeft een optie voor het wijzigen van de "Tekenset" van de webpagina
+  voordat het "Opslaan als..." venster getoond wordt.</p>
+
+  <h3 id="publish">Publiceren</h3>
+  <p>Opent een Publiceren-dialoogvenster voor eht publiceren van de huidige pagina
+  die bewerkt wordt.</p>
+
+  <h3 id="publish_as">Publiceren als...</h3>
+  <p>Opent een Publiceren-dialoogvenster voor eht publiceren van de huidige pagina
+  die bewerkt wordt. Werkt hetzelfde als Publiceren\!!</p>
+
+  <h3 id="revert">Terugkeren</h3>
+  <p>Maakt alle wijzigen ongedaan in het huidige document na de
+  laatste keer opslaan. Gaat terug naar de laatst opgeslagen versie van het document.</p>
+
+  <h3 id="export_to_text">Exporteren als tekst...</h3>
+  <p>Exporteert de inhoud van het huidige document naar platte tekst.</p>
+
+  <h3 id="browse_page">Pagina bekijken</h3>
+  <p>Bekijk de huidige pagina in uw standaard browser.</p>
+
+
+  <h3 id="print">Afdrukken...</h3>
+  <p>Toont het Print-dialoogvenster waar u het aantal af te drukken
+  kopiëren etc. kunt opgeven. Klik op <em>OK</em> om de pagina af te drukken.</p>
+
+  <h3 id="exit">Afsluiten</h3>
+  <p>Sluit alle &brandShortName;-vensters inclusief alle met meerdere geopende
+  tabbladen en sluit &brandShortName; compleet af. Als je deze optie selecteert met nog
+  niet opgeslagen documenten zal &brandShortName; vragen om een bevestiging om perongeluk afsluiten
+  te voorkomen.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+  <h2 id="edit">Bewerken</h2>
+
+  <h3 id="undo">Ongedaan maken</h3>
+  <p>Maakt de laatste actie in een webformulier ongedaan. Gebruik het commando
+  Opnieuw uitvoeren als u later besluit dat u een actie niet ongedaan wilde maken.</p>
+
+  <h3 id="redo">Opnieuw uitvoeren</h3>
+  <p>Voert het commando dat als laatste ongedaan is gemaakt opnieuw uit.</p>
+
+  <h3 id="cut">Knippen</h3>
+  <p>Knipt de geselecteerde tekst naar het klembord. Plak de tekst elders
+  op door gebruik te maken van het commando Plakken.</p>
+
+  <h3 id="copy">Kopiëren</h3>
+  <p>Kopieert de geselecteerde tekst naar het klembord. Plak de tekst elders
+  op door gebruik te maken van het commando Plakken.</p>
+
+  <h3 id="paste">Plakken</h3>
+  <p>Plakt op het klembord opgeslagen tekst via Kopiëren of Knippen op de locatie van de cursor.</p>
+
+  <h3 id="paste_without_formatting">Plakken zonder opmaak</h3>
+  <p>Plakt op het klembord opgeslagen tekst via Kopiëren of Knippen op de locatie van de cursor
+  als simpele tekst bijv. opmaakinformatie wordt niet meegenomen.</p>
+
+  <h3 id="delete">Verwijderen</h3>
+  <p>Verwijdert de geselecteerde tekst uit de huidige pagina</p>
+
+  <h3 id="select_all">Alles selecteren</h3>
+  <p>Selecteert alle tekst op de huidige pagina.</p>
+
+  <h3 id="find_and_replace">Zoeken en vervangen...</h3>
+  <p>Toont een dialoogvenster waar u tekst kan invoeren die gezocht
+  en vervangen kan worden door een andere tkest. Zoeken wordt op de
+  huidige pagina gedaan.</p>
+
+  <h3 id="find_again">Opnieuw zoeken</h3>
+  <p>Zoekt opnieuw naar de tekst gezocht via
+  het <em>Zoeken en vervangen...</em> commando voor de volgende
+  verschijning van de tekst. Zoekactie vindt plaats op de huidige pagina.</p>
+
+  <h3 id="find_previous">Vorige zoeken</h3>
+  <p>Zoekt voor de vorige verschijnen van de tekst gespecificeerd via
+  het <em>Zoeken en vervangen...</em> commando.</p>
+
+  <h3 id="check_spelling">Spelling controleren</h3>
+  <p>Opent de spellingscontrole om te beginnen met het controleren van de spelling
+  van de tekst op de huidige pagina.</p>
+
+  <h3 id="detach_from_template">Van sjabloon losmaken</h3>
+  <p>Maakt het huidige document los van het sjabllon om als een normale <em>html</em>-pagina opgeslagen te kunnen worden.</p>
+
+  <h3 id="publish_site_settings">Publicatiesite-instellingen</h3>
+  <p>Opent de sitebheerder om de instellingen voor de publicatiesites
+  in te stellen of te veranderen.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+  <h2 id="view">Beeld</h2>
+
+  <h3 id="show_hide">Tonen/Verbergen</h3>
+
+  <h4 id="composition_toolbar">Hoofdwerkbalk</h4>
+  <p>Wisselt tussen de zichtbaarheid van de hoofdwerkbalk, welke normaalgesproken
+  standaard knoppen bevat (Positie, Koppeling, Afbeelding, etc.).</p>
+
+  <h4 id="format_toolbar">Opmaakwerkbalk</h4>
+  <p>Wisselt tussen de zichtbaarheid van de opmaakwerkbalk welke verschillende opmaakknoppen bevat.</p>
+
+  <h4 id="edit_mode_toolbar">Bewerkingsmoduswerkbalk</h4>
+  <p>Wisselt tussen de zichtbaarheid van de bewerkingsmodus werkbalk. De bewerkingsmodus werkbalk is aan de onderkant
+  van het &brandShortName; venster net boven de statusbalk. U kunt wisselen tussenverschillende weergaven als <em>HTML-Tags weergave</em>,
+  <em>HTML-bron weergave</em>, etc daarmee.</p>
+  <h4 id="status_bar">Statusbalk</h4>
+  <p>Wisselt tussen de zichtbaarheid van de statusbalk gestationeerd aan de onderkant van het &brandShortName; venster.</p>
+  <h4 id="rulers">Linialen</h4>
+  <p>Wisselt tussen de zichtbaarheidc van de horizontale en verticale linialen.</p>
+
+  <h4 id="customize_toolbar">Werkbalk aanpassen</h4>
+
+  <h5 id="main_toolbar">Hoofdwerkbalk</h5>
+  <p>Opent een paneel om de hoofdwerkbalk aan te passen. U kunt knoppen slepen en neerzetten
+  van het paneel op de werkbalkk om nieuwe knoppen toe te voegen of omgekeerd om knoppen
+  te verwijderen.</p>
+
+  <h5 id="format_toolbar">Opmaakwerkbalk</h5>
+  <p>Opent een paneel om de opmaakwerkbalk aan te passen. U kunt knoppen slepen en neerzetten
+  van het paneel op de werkbalkk om nieuwe knoppen toe te voegen of omgekeerd om knoppen
+  te verwijderen.</p>
+
+  <h4 id="site_manager">Sitebeheerder</h4>
+  <p>Wisselt tussen de zichtbaarheid van de <em>sitebeheerder</em> in het
+  &brandShortName; venster.</p>
+
+  <h3 id="normal_edit_mode">Normale bewerkingsmodus</h3>
+  <p>Wisselt naar de Normale modus.</p>
+
+  <h3 id="html_tags">HTML-tags</h3>
+  <p>Wisselt naar de HTML-tags modus.</p>
+
+  <h3 id="html_source">HTML-bron</h3>
+  <p>Wisselt naar de HTML-bron modus.</p>
+
+  <h3 id="preview">Voorbeeld</h3>
+  <p>Wisselt naar de voorbeeldmodus.</p>
+
+  <h3 id="carriage_returns">Alineamarkeringen</h3>
+  <p>Wisselt tussen de zichtbaarheid van de alineamarkeringen.</p>
+
+  <h3 id="block_outline">Omtrek blokkeren</h3>
+  <p>Wisselt tussen de zichtbaarheid van een rand om blok-elementen op de pagina.</p>
+
+  <h3 id="text_zoom">Tekstgrootte aanpassen</h3>
+
+  <h4 id="text_zoom_smaller">Kleiner</h4>
+  <p>Maakt de tekst kleiner op een webpagina.</p>
+
+  <h4 id="text_zoom_larger">Groter</h4>
+  <p>Verkleint de tekst op een webpagina.</p>
+
+  <h3 id="character_encoding">Tekenset</h3>
+  <p>Stelt u in de staat om handmatig de tekenset van een webpagina te veranderen.
+  &brandShortName; doet dit normaal gesproken automatisch.</p>
+
+  <h2 id="insert">Invoegen</h2>
+
+  <p>Het Invoegen menu stelt u in staat om verschillende HTML-elementen in het huidige
+  document in te te bewerken document in te voeren.</p>
+
+  <h3 id="insert_image">Afbeelding...</h3>
+  <p>Opent een dialoogvenster om een afbeelding in het document in te voeren.</p>
+
+  <h3 id="insert_table">Tabel...</h3>
+  <p>Opent een dialoogvenster om een tabel het in huidige document in te voeren.</p>
+
+  <h3 id="insert_form">Formulier...</h3>
+  <p></p>
+
+  <h3 id="insert_link">Link...</h3>
+  <p>Opent een dialoogvenster om een koppeling aan te maken. Als er op
+  geklikt wordt na het selecteren van tekst in het huidige document
+  zal de geselecteerde tekst in de kopeling opgenomen worden. U kunt ook
+  Vriendschap(XFN) eigenschappen wijzigen door op "Meer
+  eigenschappen" te klikken.</p>
+
+  <h3 id="named_anchor">Gelabelde positie...</h3>
+  <p>Opent een dialoogvenster voor het het intypen van een naam om een
+  gelabelde positie in te voegen bij de positie van de cursor.</p>
+
+  <h3 id="horizontal_line">Horizontale lijn</h3>
+  <p>Voegt een horizontale lijn toe aan het document.</p>
+
+  <h3 id="html">HTML...</h3>
+  <p>Opent een dialoogvenster voor het handmatig invoervan en HTML. Dit kan gebruikt worden
+  om commentaar, scrip code etc. in te voeren.</p>
+
+  <h3 id="character_and_symbols">Tekens en symbolen...</h3>
+  <p>Opent een dialoogvenster om speciale tekens of symbolen in te voegen in het huidige
+  document.</p>
+
+  <h3 id="table_of_contents">Inhoudsopgave...</h3>
+  <p>Opent een venster om een inhoudsopgave toe te voegen op de huidige positie
+  van de cursor. Deze inhoudsgave kan geselecteerd worden om gemaakt te worden bij Kop 1
+  tot Kop 6, een &lt;div&gt; of een &lt;p&gt; tag.</p>
+
+  <h3 id="smart_widgets">Slimme bouwstenen</h3>
+  <p>Voegt Slimme bouwstenen toe aan het document.</p>
+
+  <h4 id="made_with_nvu">'Gemaakt met &brandShortName;'-knop</h4>
+  <p>Voegt een Gemaakt met &brandShortName;-knop toe aan het document.</p>
+
+  <h4 id="calendar">Kalender</h4>
+  <p>Voegt een kalender toe aan het document</p>
+
+  <h3 id="templates">Sjablonen</h3>
+  <p>Tijdens het werken met sjablonen kunt u dit menu-item gebruiken
+  om een bewerkbaar gebied in uw sjabloon toe te voegen.</p>
+
+  <h3 id="php_code">PHP-code</h3>
+  <p>Voegt PHP-code in uw HTML-document in.</p>
+
+  <h3 id="comment">Commentaar</h3>
+  <p>Voegt een commentaarregel in uw HTML-document in.</p>
+
+  <h3 id="break_below_images">Afbreken onder afbeelding(en)</h3>
+  <p>Voegt een nieuwe regel toe aan het eind van afbeeldingen om tekst naast afbeeldingen
+  eronder te laten verschijnen.</p>
+
+  <h2 id="format">Opmaak</h2>
+
+  <p>Dit menu-item bevat verschillende opties voor het opmaken van de documenttekst.</p>
+
+  <h3 id="font">Lettertype</h3>
+
+  <p>U kunt het lettertype kiezen om toe te passen op de geselecteerde
+  tekst in het huidige document. U kunt het gewenste lettertype kiezen
+  uit een lijst die alle beschikbare lettertypen op uw computer bevat.</p>
+
+  <h3 id="size">Grootte</h3>
+  <p>Door het selecteren van groter of kleiner kunt u de grootte
+  van de tekst veranderen weergegeven in &brandShortName;.</p>
+  <p>Het selecteren x-klein, klein, middelmatig, groot, x-groot, or xx-groot
+  verandert de lettergrootte van de geselecteerde tekst in het huidige
+  document.</p>
+
+  <h3 id="text_style">Tekststijl</h3>
+  <p>U kunt de tekststijl selecteren die toegepast wordt op de geselecteerde
+  tekst in het huidige document.</p>
+
+  <h4 id="text_style_bold">Vet</h4>
+
+  <p>Laat de geselecteerde tekst dik verschijnen. Bijv. <b>dikke tekst</b></p>
+
+  <h4 id="text_style_italic">Cursief</h4>
+
+  <p>Laat de geselecteerde tekst cursief verschijnen. Bijv. <i>cursieve
+  tekstt</i></p>
+
+  <h4 id="text_style_italic">Onderstrepen</h4>
+
+  <p>Onderstreept de geselecteerde tekst. Bijv. <u>onderstreepte tekst</u></p>
+
+  <h4 id="text_style_strikethrough">Doorhalen</h4>
+
+  <p>Laat de geselecteerde tekst doorgestreept verschijnen. Bijv. <span
+  style="text-decoration: line-through;">doorgestreepte tekst</span></p>
+
+  <h4 id="text_style_superscript">Superscript</h4>
+
+  <p>Laat de geselecteerde tekst als superscript verschijnen.
+  Bijv. <sup>superscript</sup> tekst.</p>
+
+  <h4 id="text_style_subscript">Subscript</h4>
+
+  <p>Laat de geselecteerde tekst als subscript verschijnen.
+  Bijv. <sub>subscript</sub> tekst.</p>
+
+  <h4 id="text_style_fixed_width">Vaste grootte</h4>
+
+  <p>Laat de geselecteerde tekst als tekst met vaste breedte verschijnen. E.g. <span
+  style="font-family: monospace;">fixed width text</span>.</p>
+
+  <h4 id="text_style_non_breaking">Niet-afbrekend</h4>
+
+  <p>HTML breekt meerdere spaties af tot een enkele. Om niet-afbreekbare
+  spaties te gebruiken gebruik dan deze optie na het selecteren van tekst
+  in een document. Bijv. 3 niet afbrekende spatiess&nbsp;&nbsp;&nbsp;hier.</p>
+
+  <h4 id="text_style_emphasis">Nadruk</h4>
+
+  <p>Maakt de huidige tekst met nadruk verschijnen. E.g. <em>benadrukte
+  tekstt</em></p>
+
+  <h4 id="text_style_stronger_emphasis">Sterke nadruk</h4>
+  <p>Maakt de huidige tekst met sterke nadruk verschijnen. E.g. <strong>sterke nadruk
+  tekstt</strong></p>
+
+  <h4 id="text_style_citation">Citaat</h4>
+
+  <p>Geeft aan dat de tekst een citaat is. Bijv. <cite>Citation
+  text</cite></p>
+
+  <h4 id="text_style_abbreviation">Afkorting</h4>
+
+  <p>Geeft aan dat de tekst een afkorting is.
+  Bijv. <abbr>UN</abbr></p>
+
+  <h4 id="text_style_acronym">Acroniem</h4>
+
+  <p>Geeft aan dat de tekst een acroniem is. Bijv. <acronym>WWW</acronym></p>
+
+  <h4 id="text_style_code">Code</h4>
+
+  <p>Geeft aan dat de geselecteerde tekst computercode is. Bijv. <code>code
+  tekstt</code></p>
+
+  <h4 id="text_style_sample_output">Voorbeeld uitvoer</h4>
+
+  <p>Geeft aan dat de geselecteerde tekst als voorbeeld computercode is.
+  Bijv. <samp>voorbeeld code</samp></p>
+
+  <h4 id="text_style_variable">Variabel</h4>
+
+  <p>Geeft aan dat de geselecteerde tekst variabel is. Bijv.<var>variable</var></p>
+
+  <h3 id="text_color">Tekstkleur...</h3>
+
+  <p>Opent een kleurenkiezer popupvenster om de kleur voor de geselcteerde tekst
+  te kiezen.</p>
+
+  <h3 id="writing_direction">Schrijfrichting</h3>
+
+  <p>Geeft de keuze voor het schrijven van de tekst van Links naar rechts of
+  van rechts naar links. De geselecteerde tekst moet wel een blok-element zijn en geen
+  inline element.</p>
+
+  <h3 id="discontinue_text_styles">Tekststijlen niet voortzetten</h3>
+
+  <p>Gaat niet verder met de toepassing van een tekststijl gebruikt op
+  de huidige positie van de cursor.</p>
+
+  <h3 id="discontinue_link">Koppeling niet voortzetten</h3>
+
+  <p>Gaat niet verder met de tekst om een koppeling te zijn vanaf de huidige
+  positie van de cursor.</p>
+
+  <h3 id="remove_named_anchors">Gelabelde posities verwijderen</h3>
+
+  <p>Verwijdert de geselecteerde gelabelde positie.</p>
+
+  <h3 id="paragraph">Alinea</h3>
+
+  <p>Geeft een optie om de geselecteerde tekst als Tekst, Alinea, Kop 1 tot Kop 6, Adres of
+  vooropgemaakte tekst te definiëren.</p>
+
+  <h3 id="list">Lijst</h3>
+
+  <p>Start een lijst met de optie voor verschillende soorten, namelijk
+  Opgesomd, genummerd, term of een definitie. Lijsteigenschappen opent
+  een dialoogvenster voor het handmatig bewerken van de lijsteigenschappen.</p>
+
+  <h3 id="increase_indent">Inspringing vergroten</h3>
+
+  <p>Vergroot de inspringing van het blok de huidige geselecteerde tekst.</p>
+
+  <h3 id="decrease_indent">Inspringing verkleinen</h3>
+
+  <p>Verkleint de inspringing van het blok de huidige geselecteerde tekst.</p>
+
+  <h3 id="align">Uitlijnen</h3>
+
+  <p>Laat de uitlijning voor de geselecteerde tekst selecteren. U kunt
+  de tekst naar het midden, links of rechts uitlijnen of simpelweg
+  Uitvullen.</p>
+
+  <h3 id="positioning_grid">Uitlijnen op raster</h3>
+
+  <p>Opent een dialoogvenster voor het instellen resolutie in pixels
+  voor het verplaatsen van een vlak.</p>
+
+  <h3 id="advanced_properties">Geavanceerde eigenschappen</h3>
+
+  <p>Opent de Geavanceerde eigenschappen editor waar u handmatig HTML-
+  attributen, Inline stijlen of zelfs Javascript gebeurtenissen kunt
+  wijzigen of toevoegens.</p>
+
+  <h3 id="page_colors_and_background">Paginakleuren en achtergrond...</h3>
+
+  <p>Opent een venster om de pagina kleuren en achtergrond te selecteren. Gebruikers
+  kunnen de kleur van normale tekst, koppelingsteksten, actieve en bezochte koppelingen selecteren.
+  U kunt ook een achtergrondkleur kiezen voor uw webpagina en optioneel een
+  achtergrond afbeelding toevoegen.</p>
+
+  <h3 id="page_title_and_properties">Paginatitel en eigenschappen...</h3>
+
+  <p>Opent een Pagina eigenschappen venster waar u de Titel, auteur en beschrijvende informatie voor uw webpagina kunt toevoegen.
+  U kunt ook opgeven welke taal en schrijfrichting gebruikt moet worden in het huidige document
+  Om de huidige pagina als sjabloon te gebruiken moet u "Deze pagina is een sjabloon" aanvinken.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+  <h2 id="table">Tabel</h2>
+
+  <p>Dit menu stelt u in staat om tabellen in een HTML-document aan te maken of te wijzigen.</p>
+
+  <h3 id="table_insert">Invoegen</h3>
+
+  <p>Opent een submenu met keuzes voor verschillende opties voor het aanmaken/bewerken van tabellen.</p>
+
+  <h4 id="insert_table">Tabel</h4>
+
+  <p>Opent een dialoogvenster om verschillende eigenschappen van de tabel
+  die ingevoegd wordt bij de huidige positie van de cursor. Gebruikers kunnen
+  de grootte van de tabel kiezen door op rekveld te klikken of een precieze
+  tabelgrootte op te geven. Andere celeigenschappen als tussenruimtes
+  kunnen ook ingesteld worden..</p>
+
+  <h4 id="insert_row_above">Rij erboven</h4>
+
+  <p>Voegt een lege rij in <em>boven</em> de actieve rij.</p>
+
+  <h4 id="insert_row_below">Rij eronder</h4>
+
+  <p>Voegt een lege rij in <em>onder</em> de actieve rij.</p>
+
+  <h4 id="insert_column_before">Kolom ervoor</h4>
+
+  <p>Voegt een lege kolom in <em>voor</em> de actieve kolom.</p>
+
+  <h4 id="insert_column_after">Kolom erna</h4>
+
+  <p>Voegt een lege kolom in <em>na</em> de actieve kolom.</p>
+
+  <h4 id="insert_cell_before">Cel ervoor</h4>
+
+  <p>Voegt een lege cel in <em>voor</em> de actieve cel.</p>
+
+  <h4 id="insert_cell_after">Cel erna</h4>
+
+  <p>Voegt een lege cel in <em>na</em> de actieve cel.</p>
+
+  <h3 id="table_select">Selecteren</h3>
+
+  <p>Selecteert verschillende onderdelen van de huidige
+  actieve tabel voor bewerken.</p>
+
+  <h4 id="select_table">Tabel</h4>
+
+  <p>Selecteer de hele tabel.</p>
+
+  <h4 id="select_row">Rij</h4>
+
+  <p>Selecteer de huidige actieve rij.</p>
+
+  <h4 id="select_column">Kolom</h4>
+
+  <p>Selecteer de huidige actieve kolom.</p>
+
+  <h4 id="select_all_cells">Alle cellen</h4>
+
+  <p>Selecteer alle cellen. Dit is verschillend van het selecteren
+  van de hele tabellen omdat alle veranderingen aan in alle cellen worden
+  doorgevoerd in plaats van aan de hele tabel in 1 keer.</p>
+
+  <h3 id="table_delete">Verwijderen</h3>
+
+  <p>Opent een submenu voor het verwijderen van verschillende tabelonderdelen.</p>
+
+  <h4 id="delete_table">Tabel</h4>
+
+  <p>Verwijder de huidige actieve tabel. Gebruik dit met voorzichtigheid, want
+  alle tabelgegevens zullen verloren gaan.</p>
+
+  <h4 id="delete_rows">Rij(en)</h4>
+
+  <p>Verwijdert de huidige active rij of geselecteerde rij van de tabel.</p>
+
+  <h4 id="delete_columns">Kolom(men)</h4>
+
+  <p>Verwijdert de huidige active kolom of geselecteerde kolom van de tabel.</p>
+
+  <h4 id="delete_cells">Cel(len)</h4>
+
+  <p>Verwijdert de huidige actieve cel of geselecteerde cellen van de tabel.</p>
+
+  <h4 id="delete_cell_contents">Celinhoud</h4>
+
+  <p>Verwijdert de inhoud van de cel.</p>
+
+  <h3 id="join_with_cell_to_the_right">Samenvoegen met rechtercel</h3>
+
+  <p>Voegt de huidige tabelcel samen met de cel direct aan de rechterkant.</p>
+
+  <h3 id="split_cell">Cel splitsen</h3>
+
+  <p>Splitst een cel die een <tt>colspan</tt> waarde van meer dan 1 heeft.</p>
+
+  <h3 id="create_table_from_selection">Tabel van selectie maken</h3>
+
+  <p>Maakt een tabel van de geselecteerde tekst. Een rij is aangemaakt voor iedere
+  alinea van de geselecteerde tekst. Kolomscheidingstekens kunnen gekozen worden tussen
+  komma's (,), spaties ( ), of een teken door de gebruiker opgegeven.</p>
+
+  <h3 id="table_or_cell_background_color">Tabel- of celachtergrondkleur...</h3>
+
+  <p>Opent een dialoogvenster voor het bewerken van de tabel- of celachtergrondkleur.</p>
+
+  <h3 id="table_properties">Tabeleigenschappen...</h3>
+
+  <p>Opent de tabel en celeigenschappenvenster. U kunt alle tabel en celeigenschappen veranderen
+  door de simpele interface. </p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+  <h2 id="tools">Extra</h2>
+
+  <h3 id="markup_cleaner">HTML-code opschonen</h3>
+
+  <p>Opent het HTML opschonen-venster. HTML opschonen verbetert de
+  html-code door het verwijderen van extra &lt;br&gt;-tags, lege blokken , etc.</p>
+
+  <h3 id="validate_html">HTML controleren op geldigheid</h3>
+
+  <p>Opent een venster dat de validatieresultaten van de huidige pagina toont
+  zoals gegeven door de <a href="http://validator.w3.org">W3C's HTML
+  validator</a>.</p>
+
+  <h3 id="css_editor">CSS bewerken</h3>
+
+  <p>Opent CaScadeS de ingebouwde CSS-editor voor het bewerken
+  van CSS stijlregels.</p>
+
+  <h3 id="extensions">Extensies</h3>
+
+  <p>Opent de extensiebeheerder die gebruikt kan worden voor het
+  installeren of verwijderen van geïnstalleerde extensies. Extensies
+  voegen nieuwe functies toe aan &brandShortName;.</p>
+
+  <h3 id="themes">Thema's</h3>
+
+  <p>Opent de themabeheerder die gebruikt kan worden voor het
+  installeren of verwijderen van thema's voor &brandShortName;.</p>
+
+  <h3 id="web_development">Webontwikkeling</h3>
+
+  <p>Opent verschillende gereedschappen die met &brandShortName; geleverd voor
+  webontwikkelaars.</p>
+
+  <h4 id="javascript_console">Javascript-console</h4>
+
+  <p>Opent het Javascript-console venster.</p>
+
+  <h4 id="java_console">Java-console</h4>
+
+  <p>Opent het Java-console venster.</p>
+
+  <h3 id="preferences">Opties...</h3>
+  <p>Opent het <em>Opties</em>-venster om persoonlijke
+  voorkeuren voor &brandShortName; in te stellen</p>
+
+  <h2 id="help">Help</h2>
+
+  <h3 id="help_contents">Helpinhoud</h3>
+
+  <p>Opent het Helpvenster.</p>
+
+  <h3 id="nvu_website">&brandShortName; website</h3>
+
+  <p>Opent &brandShortName;'s website in uw standaard browser.</p>
+
+  <h3 id="user_guide">Gebruikershandleiding</h3>
+
+  <p>Opent de &brandShortName; tutorial/handleiding in uw standaard browser.</p>
+
+  <h3 id="nvu_faq">FAQ</h3>
+
+  <p>Opent &brandShortName;'s FAQ-(Veel gestelde vragen) pagina in uw standaard browser.</p>
+
+  <h3 id="bug_reports_and_suggestions">Foutraportages en suggesties</h3>
+
+  <p>Opent &brandShortName;'s foutreportatie en suggesties pagina in uw standaard browser.</p>
+
+  <h3 id="developers_community">Ontwikkelaarsgemeenschap</h3>
+
+  <p>Opent &brandShortName;'s ontwikkelaars website in uw standaard
+  browser.</p>
+
+  <h3 id="forums">Fora</h3>
+
+  <p>Opent &brandShortName; Fora-website in uw standaard browser.</p>
+
+  <h3 id="tip_of_day">Tip van de dag</h3>
+
+  <p>Toont een klein venster met de <em>Tip van de dag</em>.</p>
+
+  <h3 id="about_linspire">Over Linspire</h3>
+
+  <p>Opent de website van Linspire in uw standaard browser</p>
+
+  <h3 id="about_disruptiveinnovations">Over Discruptive Innovations</h3>
+
+  <p>Opent de website van Discruptive Innovations in uw standaard browser</p>
+
+  <h3 id="about_nvu">Over &brandShortName;</h3>
+
+  <p>Toont een dialoogvenster met informatie over &brandShortName;,
+  inclusief de huidige versie en een korte lijst met dankbetuigingen.</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">Terug naar het begin van dit hoofdstuk</a> ]</p>
+
+  <div class="copyrightBox"><em>21 maart 2005</em></div>
+
+  <p>Auteursrecht &copy; 2004-2005 Medewerkers aan het &brandShortName; Helpdocumentatieproject.</p>
+
+</body>
+
+</html>

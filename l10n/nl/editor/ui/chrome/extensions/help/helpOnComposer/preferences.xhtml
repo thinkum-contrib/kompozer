@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Contributor(s):
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>&brandShortName; Voorkeuren</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">
+
+<a href="#preferences_general_settings">Algemene instellingen</a>
+
+<a href="#preferences_fonts">Lettertypen</a>
+
+<a href="#preferences_new_page_settings">Nieuwe pagina instellingen</a>
+
+<a href="#preferences_advanced_settings">Geavanceerde instellingen</a>
+</div>
+
+<h1 id="preferences">&brandShortName; Voorkeuren</h1>
+
+<p>&brandShortName; heeft verschillende belangrijke instellingen in het
+opties-venster. Gebruikers kunnen de opties instellen afhaneklijk van hun eigen
+en &brandShortName; zal deze instellingen respecteren iedere keer als de
+gebruiker &brandShortName; start en gebruikt.</p>
+
+<p>Dit onderdeel beschrijft de instellingen in het &brandShortName;
+Voorkeuren-venster. Als u dit venster momenteel niet aan het bekijken bent
+volgt u de volgende stappen:</p>
+
+<ol>
+
+  <li>Klik op het <span class="menuPath">Extra > Opties</span> bestandsmenu
+  (Mozilla menu op Mac OS X) om het Opties (Voorkeuren)-paneel te openen.</li>
+
+  <li>Klik op de &brandShortName; categorie om de bijbehorende instellingen
+  te zien die aan te passen zijn.</li>
+</ol>
+<p>Zie <a href="publishing_help.xhtml#publishing_settings">Publicatie-instellingen</a> voor &brandShortName;'s publicatie-instellingen .</p>
+
+<h2 id="preferences_general_settings">Algemene instellingen</h2>
+
+<p>Algemene instellingen stellen u in staat om instellingen
+te specificeren voor het opslaan van bestanden en het bewerken van tabellen.
+Deze instellingen zijn van toepassing op ieder document dat u aanmaakt.</p>
+
+<p>Dit onderdeel beschrijft de instellingen in het &brandShortName;
+Voorkeuren-venster. Als u dit venster momenteel niet aan het bekijken bent
+volgt u de volgende stappen:</p>
+
+<ol>
+
+  <li>Klik op het <span class="menuPath">Extra > Opties</span> bestandsmenu
+  (Mozilla menu op Mac OS X) om het Opties (Voorkeuren)-paneel te openen.</li>
+
+  <li>Klik op Algemeen in de categorie-zijbalk.</li>
+</ol>
+
+<h3 id="preferences_general_settings_recent">Recente pagina's menu</h3>
+<p><strong>Maximum aantal weergegeven pagina's:</strong> Specifieer het
+  maximaal aantal nummers van pagina's dat opgesomd wordt onder Recente
+  painga's in het Bestand-menu.</p>
+
+<h3 id="preferences_general_settings_saving_publishing">Bij het opslaan of publiceren van pagina's</h3>
+<ul>
+  <li><strong>Originele bronopmaak behouden</strong>: Deze optie behoudt
+  regeleinden en de pagina's originele opmaak voor de HTML broncode.
+  Selecteer dit als u witruimte wilt vasthouden (extra regels, tabs, etc.) wat de HTML-code leesbaarder maakt. Deze
+  instellingen heeft geen effect op hoe de pagina's in de browser verschijnen.</li>
+
+  <li><strong>HTML-bron opnieuw opmaken</strong>: Deze optie maakt de HTML-broncode
+  opnieuw op om het leesbaarder te maken, door het invoegen van regeleinden en inspringingen.
+  Deze instellingen heeft geen effect op hoe pagina's in de browser verschijnen.</li>
+
+  <li><strong>Afbeeldingen en andere geassocieerde bestanden opslaan bij het
+  opslaan van pagina's</strong>: Als deze optie is aangevinkt zullen alle afbeeldingen,
+  JavaScripts (JS), Cascading StyleSheets (CSS) en andere geassocieerde bestanden opgeslagen worden op dezelfde locatie
+  als het document voor de eerste keer wordt opgeslagen of wanneer het wordt opslagen op een nieuwe locatie.<br />
+  Als deze optie uitgevinkt wordt alleen het HTML-bestand opgeslagen.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+	<p>Bijvoorbeeld wanneer u een pagina pagina op afstand
+      aan het bewerken bent zorgt deze instelling ervoor dat alle gerelateerde bestanden
+      van deze pagina op afstand lokaal worden opgeslagen als u de pagina op uw harde
+      schijf opslaat.</p> </li>
+
+  <li><strong>Altijd het dialoogvenster Publiceren tonen bij het publiceren van pagina's</strong>:
+  Als deze optie is aangevinkt toont &brandShortName; altijd het dialoogvenster <strong>Site publiceren</strong>
+  wanneer u de knop Publiceren op de werkbalk aanklikt of Publiceren kiest uit het menu Bestand. <br />
+  Als deze optie is uitgevinkt toont &brandShortName; alleen het dialoogvenster <strong>Site publiceren</strong>
+  als er meer informatie nodig is om de pagina te publiceren.</li>
+
+  <li><strong>Tabelvormgeving bij het invoegen of verwijderen van cellen behouden</strong>:
+  Selecteer dit als u wilt dat &brandShortName; altijd de structuur van een tabel behoudt
+  door indien nodig cellen toe te voegen. Als u deze mogelijkheid uitschakelt, dan kan het voorkomen dat wanneer u
+  een of meerdere cellen verwijdert &brandShortName; ook de rand van deze cellen verwijderd.
+  Dat kan resulteren in een tabel met lege stukken of een onregelmatig gevormde buitenlijn vanwege een oneven aantal cellen.</li>
+
+  <!-- Don't know why the list styling is done like this for CSS
+       option. Moving to normal styling
+       li id="use_css_syles"
+       style="list-style-type: none; list-style-position: outside;
+       list-style-image: none;"-->
+
+	<li><strong>CSS-stijlbladen in plaats van HTML-elementen en attributen gebruiken</strong>:
+       zorgt voor het gebruik van Stijbladen (CSS) voor opmaak in jouw &brandShortName; documenten.
+       Met deze optie ingeschakeld zal &brandShortName; HTML 4.01 genereren met inline CSS-stijlen
+       voor elementen.</li>
+
+       <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+	 <p>Als deze instelling niet ingeschakeld is zal &brandShortName; HTML
+	 4.01 genereren maar geen CSS-stijlen gebruiken.</p>
+
+	 <p>Vergeleken met alleen is HTML in combinatie met CSS beter schaalbaar,
+	 onderhoudbaar en in verschillende browsers te bekijken.
+	 Als u deze instelling inschakelt en een document zonder CSS bewerkt
+	 zal &brandShortName; de gewijzigde elementen met CSS-stijlen vervangen.</p>
+
+	 <p>Als u CSS-stijlen ingeschakeld hebt dan kunt u een tekstmarkeringskleur kiezen
+	 voor geselecteerde tekst wanneer de markeerknop op de opmaakwerkbalk gebruikt wordt.
+	 U kunt ook een achtergrondkleur voor ieder element op de pagina kiezen
+	 (Deze functies zijn niet beschikbaar als deze instelling niet is ingeschakeld.)</p> </li>
+
+       <li><strong>Een document altijd in een nieuw tabblad openen</strong>: Selecteer deze optie
+       als u nieuwe documenten in nieuwe tabbladen wilt openen als u de Sitebeheerder bekijkt
+       Als deze optie is uitgevinkt zal dubbelklikken op bestandnamen in de sitebeheerder de bestanden
+       in nieuwe vensters openen.</li>
+</ul>
+<p class="returnToSection">[ <a href="#composer_preferences">Terug naar het begin van deze sectie</a> ]</p>
+
+<h2 id="preferences_fonts">Lettertypen</h2>
+
+  <h3 id="preferences_fonts_fonts_for">Lettertypen voor</h3>
+
+  <p>Om de standaardlettertypen te wijzigen:</p>
+    <ol>
+      <li>Kies een tekenset uit de keuzelijst <em>Lettertypen voor</em>.
+        Kies bijvoorbeeld voor <em>Westers</em> om standaardlettertypen in te stellen
+        voor de Westerse (Romaanse) tekenset.</li>
+      <li>Kies of proportionele tekst schreef (zoals &quot;Times
+        New Roman&quot;) moet zijn of schreefloos (zoals &quot;Arial&quot;). Specificeer vervolgens
+        de door u gewenste lettergrootte voor proportionele tekst.</li>
+      <li>Specificeer de lettertypes om te gebruiken voor schreef, schreefloze en <em>monospace</em> lettertypen.
+        U kunt tevens de grootte van monospace lettertypen wijzigen.</li>
+    </ol>
+    <p>Ook kunt u de weergaveresolutie instellen, deze is normaal gesproken 96
+      dpi.</p>
+
+    <p>Tenslotte kunt u de minimale lettergrootte die op het scherm gebruikt moet worden instellen. Dit
+      kan handig zijn voor sommige websites die hele kleine lettertypes gebruiken die bijna
+      onleesbaar zijn.</p>
+
+    <p><strong>Tekst en achtergrond</strong><br/>
+    Hier kunt u de standaard tekst- en achtergrondkleur wijzigen om te
+      gebruiken op webpagina&#8217;s die deze informatie niet hebben
+      gespecificeerd. Klik op de kleurvoorbeelden om kleuren te selecteren.</p>
+
+    <p><em>Systeemkleuren gebruiken</em><br/>
+      Selecteer deze optie om de door het besturingssysteem ingestelde kleuren te gebruiken in plaats van
+      de kleuren die erboven zijn gespecificeerd.</p>
+
+    <p><strong>Koppelingskleuren</strong><br/>
+    Hier kunt u de standaardkleuren voor webkoppelingen wijzigen. Klik op de kleurvoorbeelden om kleuren te
+      selecteren.</p>
+
+    <p><em>Koppelingen onderstrepen</em><br/>
+      Standaard worden koppelingen op webpagina&#8217;s onderstreept. Demarkeer deze optie om dit uit te
+      schakelen. Merk op dat veel websites hun eigen stijlregels specificeren en deze optie
+      geen effect op deze websites heeft.</p>
+
+    <p><strong>Gebruik altijd mijn:</strong><br/>
+    <em>Lettertypen</em><br/>
+      &brandShortName; gebruikt standaard de lettertypen zoals gespecificeerd door de
+      auteur van de webpagina. Inschakelen van deze optie zal forceren dat alle websites in plaats
+      daarvan uw standaardlettertypen gebruiken.</p>
+
+    <p><em>Kleuren</em><br/>
+      &brandShortName; gebruikt standaard de kleuren zoals gespecificeerd door de
+      auteur van de webpagina. Inschakelen van deze optie zal forceren dat alle websites in plaats
+      daarvan uw standaardkleuren gebruiken.</p>
+
+
+
+<h2 id="preferences_new_page_settings">Nieuwe pagina instellingen</h2>
+
+<p><strong>Nieuwe pagina voorkeuren</strong> stellen u in staat om instellingen voor kleuren en
+achtergrondafbeelding van ieder document dat u aanmaakt te wijzigen.</p>
+
+<p>Als u op dit moment de <strong>Nieuwe pagina instellingen</strong> niet geopend hebt, volgt u de volgende stappen:</p>
+
+<ol> <li>Open the Bewerken-menu (Mozilla-menu op Mac OS X) en kies voor Voorkeuren.</li> </ol>
+
+<ul>
+  <li><strong>Auteur</strong>: Vul een naam in. Dit zal uw naam toevoegen aan de
+  HTML-broncode voor iedere pagina die u aanmaakt.</li>
+
+  <li><strong>Standaardkleuren van lezer</strong>: Selecteer deze optie als u
+  altijd wilt dat uw pagina's de kleurinstellingen voor tekst en koppelingen
+  van de browser van de bezoeker gebruikt.</li>
+
+  <li><strong>Aangepaste kleuren gebruiken</strong>: Selecteer deze optie als u
+  de kleuren voor teksten en koppelingen altijd zelf wilt instellen. Selecteer
+  daarna voor ieder element een kleur door op de knop naast het element te klikken wat
+  de kleurkiezer zal openen om de kleur makkelijk te selcteren.</li>
+
+  <li><strong>Achtergrondafbeelding</strong>: Typ de locatie en naam van de afbeelding in
+  of klik op <strong>Bestand kiezen</strong> om de locatie van de afbeelding op uw harde schijf of netwerk
+  op te zoeken.
+
+  <p><strong>Opmerking</strong>: Achtergrondafbeeldingen worden getegeld weergegeven en overschreven
+  door een achtergrondkleur.</p> </li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>Open het Opmaak-menu en kies voor Paginatitel en eigenschappen om de auteursnaam voor
+    een enkele pagina te wijzigen.</p>
+
+    <p>Open het Opmaak-menu en kies voor Paginakleuren en Achtergrond om achtergrondafbeelding
+    en kleuren voor een enkele pagina te wijzigen.</p></li>
+
+</ul>
+
+[<a href="#preferences_new_page_settings">Terug naar het begin van deze sectie</a>]
+
+<h3
+id="preferences_new_page_settings_internationalization">Internationalisatie</h3>
+
+<ul>
+
+  <li><strong>Taal</strong>: Kies de taal waarin het HTML-document
+  in geschreven is.</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+     <p>Als het document bijvoorbeeld geschreven is in
+      Canadees Frans selecteert u "Frans/Canada[fr-ca]" wat aangeeft dat uw document
+      geschreven is in Canadees Frans. De HTML-broncode zal
+      <tt>&lt;html lang="fr-ca"&gt;</tt> bevatten als aanduiding van de documenttaal.</p></li>
+
+<li><strong>Schrijfrichting</strong>: Kies de tekstrichting
+  afhankelijk van welke taal u in het document gebruikt. Dit lost problemen op voor
+  gebruikers in landen waar van rechts naar links geschreven wordt, zoals Arabisch, Urdu etc.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+
+    <p>To change the Language specification for an individual page:
+    Open the Format menu and choose Page Title and Properties, and
+    change language in the Internationalization section.</p>
+
+    <p>To change the Writing Direction of an individual page: Open the
+    Format menu and choose Page Title and Properties, and change
+    language in the Internationalization section.</p></li>
+
+  <li><strong>Character Set</strong>: Character sets determine how the
+  bytes that represent the text of your <acronym title="Hyper Text
+  Markup Language">HTML</acronym> document are translated to readable
+  characters. With this option you can choose the character set you
+  want to use for your web page. By default, the <em>ISO-8859-1</em>
+  character set is used, but you can use other options like
+  <em>UTF-8</em>, <em>ISO-8859-15</em>, etc or a user defined
+  character set.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Terug naar het begin van deze sectie</a> ]</p>
+
+	<h2 id="preferences_advanced_settings">Geavanceerde instellingen</h2>
+
+<h3 id="preferences_advanced_settings_connection">Verbinding</h3>
+
+<p>Dit onderdeel beschrijft hoe het venster voor de Proxy-instellingen gebruikt kan worden. Als
+u dit venster momenteel niet aan het bekijken bent, volg dan de volgende stappen:</p>
+
+<ol>
+  <li>Open het menu Bewerken (menu Extra onder Windows en &brandShortName;-menu onder Mac OS X) en kies voor Voorkeuren.</li>
+  <li>Onder de categorie <strong>Geavanceerd</strong> klikt u op de knop Verbindingsinstellingen.</li>
+</ol>
+
+<p>Met het dialoogvenster Verbindingsinstellingen kunt u &brandShortName; instellen om een proxy te gebruiken:</p>
+
+<p><strong>Voordat u begint:</strong> Vraag uw systeembeheerder of er een configuratie-bestand
+of een lijst met servernamen en poortnummers beschikbaar is voor de proxyserver(s).</p>
+
+<ul>
+  <li><strong>Directe verbinding met het Internet</strong>: Kies hiervoor als u geen proxyserver wilt gebruiken.</li>
+
+  <li><strong>Handmatige proxy-instellingen</strong>: Kies hiervoor als u een geen adres hebt om de proxy-instellingen mee te configureren.
+  <ul>
+    <li><strong>HTTP Proxy</strong>, <strong>SSL Proxy</strong>,
+    <strong>FTP Proxy</strong>, <strong>Gopher Proxy</strong>: Voer hier de naam of het numerieke IP-adres
+    van de proxyserver in. Voer het poortnummer achter <strong>Poort</strong> in.</li>
+
+    <li><strong>SOCKS Host</strong>: Voer hier de naam of het numerieke IP-adres van de
+    proxyserver in. Voer het poortnummer achter <strong>Poort</strong> in.
+    <ul>
+
+      <li><strong>SOCKS v4, SOCKS v5</strong>: Als u een SOCKS-server invoert, kies dan hier voor &quot;SOCKS v4&quot; of &quot;SOCKS v5,&quot;
+      afhankelijk van welke versie de proxy gebruikt.</li>
+    </ul>
+    </li>
+
+    <li><strong>Geen proxy voor</strong>: Voer hier domeinnamen en/of IP-adressen in
+    waarvoor u geen proxy nodig heeft. Scheidt elk adres met een komma.
+	(Bijvoorbeeld: .uwdomeinnaam.com, .uwbedrijfsnaam.nl, 192.168.1.0/24)</li>
+  </ul>
+  </li>
+
+  <li><strong>URL voor automatische proxy-configuratie</strong>: Kies hiervoor als u
+  een bestand of webadres voor de proxy-configuratie hebt.</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="preferences_advanced_settings_return_key_behaviour">Gedrag Enter-toets</h3>
+
+<p>De optie 'Return in een alinea altijd een nieuwe alinea laten aanmaken'
+defineert de actie van de Enter-toets. Kiezen voor deze optie zorgt ervoor dat
+een nieuwe alinea wordt aangemaakt als u de "Return" (Enter) toets indrukt terwijl
+u typt in een paragraaf. Zonder deze optie worden &lt;br&gt; tags toegevoegt om enters af te handelen.</p>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Terug naar het begin van deze sectie</a> ]</p>
+
+<h3
+id="preferences_advanced_settings_spellcheck">Continue spellingscontrole</h3>
+
+<p>Aanvinken van de optie "Verkeerde gespelde woorden onderstrepen" zal
+<strong>continue</strong> spellingscontrole inschakelen die in &brandShortName;
+is ingebouwd om verkeerd gespelde woorden te onderstrepen, om de gebruiker een hint
+te geven de spelling te controleren.</p>
+
+<p class="returnToSection">[ <a href="#preferences_advanced_settings">Terug naar het begin van deze sectie</a> ]</p>
+
+<h3
+id="preferences_advanced_settings_special_characters">Speciale tekens</h3>
+
+<p>Deze optie stelt de gebruiker in staat om te kiezen welke speciale tekens
+gecodeerd worden als entities door &brandShortName;. Kies een van deze opties:</p>
+
+<ul><li>Alleen &amp; &lt; &gt; &apos; and niet-breekbare witruimtes</li>
+
+<li>Het bovenstaande en Latin-1 tekens</li>
+
+<li>Alle met een gelijke entiteit in de HTML-4.0-specificatie</li>
+
+<li>De &amp;#..; notatie gebruiken voor alle niet-ASCII tekens</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#preferences">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<div class="copyrightBox"><em>29 maart 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Medewerkers aan het &brandShortName; helpdocumentatieproject.</p>
+
+</body>
+</html>

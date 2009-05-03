@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>&brandShortName; Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+  </head>
+
+  <body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">In dit hoofdstuk:
+    <a href="#scope_of_this_tutorial">Gezichtsveld van deze tutorial</a>
+    <a href="#introduction_to_the_user_interface">Een introductie tot de gebruikersinterface</a>
+    <a href="#starting_a_new_document">Een nieuw document beginnen</a>
+    <a href="#basic_formatting_of_the_document">Basic Formatting of the Document</a>
+    <a href="#inserting_images_and_tables">Tabellen en afbeeldingen invoegen</a>
+    <a href="#advanced_styles">Geavanceerde stijlen</a>
+    <a href="#publishing_your_documents_basics">Uw document(en) publiceren - De basis</a>
+    </div>
+
+    <h1 id="nvu_tutorial">&brandShortName; tutorial</h1>
+
+    <p>&brandShortName; is een open source
+    What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
+    system. Het is gebaseerd op Gecko, de Mozilla renderingsengine.
+    &brandShortName; is helemaal gratis en kan gedownload worden
+    van de <a href="http://www.nvu.com/">&brandShortName;
+    website</a>.</p>
+
+    <h2 id="scope_of_this_tutorial">Gezichtsveld van deze tutorial</h2>
+
+    <p>Deze tutorial is ontworpen voor beginners die nieuw zijn bij
+    webpagina design met een SYWIWYG-editor. De tutorial biedt genoeg
+    hulp om te starten met het gebruik van &brandShortName;
+    voor uw webpagina's onderwerpdoel. Het is geen introductie tot
+    HTML, XHTML, CSS, etc. programmeren. Het enige doel is om een
+    snelle start te geven hoe u &brandShortName; moet gebruiken.</p>
+
+    <p>De handleiding behandelt zelfs niet de basis aspecten van HTML
+    in detail. Dit is een korte tutorial waar sommige onbelangrijke
+    zaken weggelaten zijn. U wordt uitgedaagd om hierover zelf informatie
+    te zoeken. Deze tutorial geeft ook een introductie hoe CSS-stijlbladen
+    gebruikt moeten worden met de ingebouwde editor, CaScadeS.</p>
+
+    <p>Voor diegene die geïnteresseerd zijn in meer leren van
+    HTML, CSS, etc in detail kun u naar de website van het <a
+    href="http://www.w3.org/">W3 Consortium</a> gaan. Daar vindt
+    u gedetailleerde informatie over verschillende standaarden die
+    door hen beheerd worden. U kunt ook zoeken op het internet of een
+    goed boek opzoeken dat beschikbaar is op HTML te leren.</p>
+
+    <!-- The approach of this tutorial is to give the most basic
+         instructions on getting major things done with &brandShortName;. This will
+         give the user an idea as to how to achieve the objective of
+         the secion. In the end of each section a link should be
+         provided targetting corresponding section in the main Help
+         for detailed treatment of the same objective.-->
+
+    <h3 id="in_this_tutorial">In deze tutorial</h3>
+
+    <p>Deze tutorial introduceert je eerst met de &brandShortName;'s
+    gebruikersinterface. Dit wordt gevolgd door een onderdeel over de
+    basisbewerkingen. Het volgende onderdeel vertelt u hoe u elementen
+    als afbeeldingen, tabellen en formulieren in uw document invoegt.
+    Daarna is er een klein onderdeel toegewijd aaan het opmaken van uw
+    document door CSS te gebruiken. Het document sluit af emet instructies
+    hoe u uw pagina's op een webserver publiceert.</p>
+
+    <p>[ <a href="#scope_of_this_tutorial">Terug naar het begin van deze sectie</a> ]</p>
+
+    <h2 id="introduction_to_the_user_interface">Introductie tot de gebruikersinterface</h2>
+
+    <p>&brandShortName;'s menu Bestand bevat menuitem voor alle hoofd opdrachten
+    die mogelijk zijn tijdens het gebruiken. Voor een gedetailleerde referentie moet u het
+    <a href="menu_reference.xhtml">Menu-overzicht</a> bekijken
+    . &brandShortName;'s werkbalk gebruikersinferface bestaat uit:</p>
+
+    <ul>
+      <li><a href="#composition_toolbar">Hoofdwerkbalk</a></li>
+      <li><a href="#format_toolbar">Opmaakwerkbalk</a></li>
+      <li><a href="#tab_browser_toolbar">Tabbladwerkbalk</a></li>
+      <li><a href="#edit_mode_toolbar">Edit Mode Toolbar</a></li>
+      <li><a href="#status_toolbar">Statuswerkbalk</a></li>
+    </ul>
+
+    <h3 id="composition_toolbar">Hoofdwerkbalk</h3>
+
+    <p>De hoofdwerkbalk bevat knoppen voor de vaak gebruikte acties. Hieronder is een voorbeeld te zien van de standaard hoofdwerkbalk met tekst onder iedere knop die de functie aanduidt.</p>
+
+    <p><img src="images/tut_hoofdwerkbalk.png" title="Hoofdwerkbalk" alt="" /></p>
+
+    <h3 id="format_toolbar">Opmaakwerkbalk</h3>
+
+    <p>De opmaakwerkbalk is erg handig gereedschap bij het bewerken van
+    webpagina's met &brandShortName;. Met de opmaakwerkbalk kunt u
+    alineaopmaak toepassen, een lettertypen kiezen, de voorgrond of
+    achtergrondkleur veranderen, de tekst vergroten of verkleinen en
+    een tekstblok benadrukken. U kunt ook geordende en ongeordende
+    lijsten maken en een tekstblok links, rechts of in het midden
+    uitlijnen. Om te weten welke knop wat doet moet u uw muis eens
+    over de knop heenbewerken en ene tooltip zal verschijnen
+    die de functie van de knop aangeeft.</p>
+
+    <p><img src="images/tut_opmaakwerkbalk1.png" title="Opmaakwerkbalk 1" alt="" /></p>
+    <p><img src="images/tut_opmaakwerkbalk2.png" title="Opmaakwerkbalk 2" alt="" /></p>
+
+    <h3 id="tab_browser_toolbar">Tabbladwerkbalk</h3>
+
+    <p>&brandShortName; biedt u de mogelijkheid om meerdere webdocumenten
+    tegelijkertijd te bewerken. Meerdere tabbladen geven een betere
+    kijk op je bureaublad die dan niet vol is van allemaal losse vensters
+    voor ieder document. Als een visuele indicator een
+    "<em>rood floppy</em>" pictogram verschijnt voor pagina's die
+    bewerkt zijn maar nog niet opgeslagen.</p>
+
+    <p><img src="images/tut_tabbladbalk.png" title="Tab Browser Toolbar" alt="" /></p>
+
+    <h3 id="edit_mode_toolbar">Moduswerkbalk</h3>
+
+    <p>De Moduswerkbalk geeft aan welke bewerkingsmodus momentaal actief is
+    voor het huidige document. Beschikbare modussen zijn Normale weergave,
+    HTML-tags weergave, HTML-bron weergtave en Voorbeeld weergave. U kunt
+    makkelijk wisselen door simpel weg een van de andere drie met de muis
+    aan te klikken.</p>
+
+    <p><img src="images/tut_moduswerkbalk.png" title="Edit Mode Toolbar" alt="" /></p>
+
+    <h3 id="status_toolbar">statuswerkbalk</h3>
+
+    <p>&brandShortName;'s statusbalk toont de positie van de cursus
+    ten opzichte van de HTML-tag hierarchy. U kunt makkelijk de eigenschappen
+    van een speciale tag in de statusbalk wijzigen of toevoegen door simpelweg
+    met rechts te klikken en te kiezen voor de gewenste optie. Klik eenvoudigweg
+    met de muis op een tag in de statusbalk om de tekst door die tag omgeven
+    te selecteren.</p>
+
+    <p><img src="images/tut_statusbalk.png" title="Status Toolbar" alt="" /></p>
+
+    <p>[ <a href="#introduction_to_the_user_interface">Terug naar het begin van deze sectie</a> ]</p>
+
+    <h2 id="starting_a_new_document">Een nieuw document beginnen</h2>
+
+    <p>U kunt een nieuw document beginnen door simpelweg of de "Nieuw"
+    knop op de hoofdwerkbalk aan te klikken of naar Bestand> Nieuw te gaan
+    ,"Leeg document te selecteren en "Aanmaken" aan te klikken. In geval
+    u een bestaand bestand wilt bewerken gebruikt u Bestand > Openen en kiest
+    u het bestand dat u wilt bewerken. Voor gedetailleerde instructies kunt u
+	het onderdeel <a
+    href="composer_help.xhtml#starting_a_new_page">Een nieuw document beginnen</a>
+    in de &brandShortName; helpdocumentatie.</p>
+
+    <p>U kunt ook een nieuw document starten wat gebaseerd is op een
+    sjabloon in plaats van een normaal html-bestand. Sjablonen worden gebruikt
+    om het beheer van websites makkelijk te maken omdat de beheerder
+    alleen de tekst voor een bepaalde pagina moet wijzigen en niet om de
+    opmaak hoeft na te denken omdat deze door het sjabloon beheerd wordt.
+    Deze tutorial zal niet verder ingaan om het werken met sjablonen.
+    Meer informatie over sjablonen kan gevonden worden in het <a
+    href="templates.xhtml">Met sjablonen
+    werken</a> hoofdstuk van de &brandShortName; helpdocumentatie.</p>
+
+    <p>[ <a href="#starting_a_new_document">Terug naar het begin van deze sectie</a> ]</p>
+
+    <h2 id="basic_formatting_of_the_document">Basisopmaak van een element</h2>
+
+    <p>We zullen de tekst gegegeven in de volgende alinea om de opmaakhelp
+    in deze tutorial te volgen. De tekst zal gebruikt worden als een basis
+    om te leren omgaan met de hoofd opmaakfuncties beschikbaar
+    in &brandShortName;. Kopieer de tekst van de volgende alinea en plak het in
+    een nieuw document.</p>
+
+    <h3 id="tutorial_text">Tutorial tekst</h3>
+
+    <!-- The text for the tutorial is a general text. It was by chance
+         that I was reading a book by Jim Corbett when I was planning
+         about the text to be used for the tutorial. So I wrote a few
+         paragraphs with the information I collected from a couple of
+         books and several websites. I donot guarantee for the
+         information to be correct. So, if you want detailed
+         information about Corbett National Park, consult tourist
+         books, and the WWW. In case you want to change the text,
+         please make sure that neither the new text is not copyrighted
+         nor you should use copyrighted images. All text and images
+         used in the tutorial are supposed to be distributed under the
+         GNU GPL, and MPL license. -->
+
+    <p>Corbett nationaal park</p>
+
+    <p>Corbett nationaal park, genoemd in gedachtenis van Jim Corbett, is gemaakt
+    in 1938 en was het eerste nationale park dat in Azië gemaakt is. Het is gelegen in
+    de noordelijke staat van Uttranchal in India. Het heeft een oppervlakte van 512 km<sup>2</sup>.
+    Het gecombineerde gebied van Corbett nationaal park, Sonandi wildheiligdom en  Reservaat bosgebieden
+    komen samen op 1288 m<sup>2</sup> km. zijn een groter project genaamd
+    Corbett tijgerreservaat.</p>
+
+    <p>De bekendste dieren van het Corbett nationele park zijn de Bengaalse
+    tijger en de Aziatische olifant. Het is ook een thuis voor andere dieren.
+    Gelegen aan de Situated at the koppeling van de Garhwal en Kumaon
+    heuvelgebieden is en ook een impuls voor de combinatie van de culturen van beide
+    regio's.</p>
+
+    <p>Jim Corbett</p>
+
+    <p>Jim Corbett, (1825-19), leefde in Kaladhungi. Zijn huis is omgebouwd tot
+    een museüm bij de overheid als een toewijding voor zijn leven en tij.
+    Hij was een naturalist, conservatieve en een avonturenfotograaf.
+    Geboren op 25 juli 1875, groeide hij op in Kaladhungi en Nanital.
+    Na het vechten in het Britse leger tweede wereld oorlog kwam het erug naar
+    India om in Kaladhungi te wonen samen met zijn zus,
+    Maggie. Hij werd verscheidene keren opgeroepen door de dorpbewoners en de overheid
+    om mensenetende tijgers en luipaarden weg te krijgen.</p>
+
+    <p>Corbett nationaal park bezoeken</p>
+
+    <p>Algemene informatie</p>
+
+    <p>Hoogte: 385-1100m boven zeeniveau</p>
+
+    <p>Jaarlijkse regenval: 1400mm - 2800mm</p>
+
+    <p>Temperatuurspreiding: 4C in de winter tot 42C in de zomer.</p>
+
+    <p>Open voor touristen van 15 november tot 15 juni.</p>
+
+    <p>Het park bereiken</p>
+
+    <p>De hoofdhoeken van het Corbett tijgerrservaat zijn bij Ramnagar. Via
+    de weg is het verboden met Delhi, Moradabad, Bareilly en
+    Nanital. Staat transportbussen rijden from Delhi, Moradabad en
+    Haldwani naar Ramnagar. Via het spoor kunnen touristen Ramnagar bereiken door
+    de trein te nemen vanaf New Delhi.</p>
+
+    <h3>De tekst opmaken</h3>
+
+    <p>Het eerste waar we rekening mee zullen houden zijn de koppen
+    en subkoppen. Selecteer de tekst "Corbett nationaal park" aan de
+    bovenkant van het document en klik op het <em>Tekst</em>-uitklapmenu
+    op de <strong>Opmaakwerkbalk</strong> en selecteer <tt>Kop 1</tt>.
+    De tekst zal opgemaakt woden naar de standaard Kop 1-stijl. Hetzelfde
+    met "Corbett nationaal park bezoeken" en maak het een niveau-2 kop.</p>
+
+    <p>Het tweede wat u misschien wilt doen is het selecteren van hele
+    alinea's en ze als <em>alinea</em> markeren, volgens dezelfde procedure
+    als de koppen. In de gegeven tekst is dit al gedaan om de tekst beter
+    leesbaar te maken, maar ander is het los markeren van alinea's een goed
+    idee.</p>
+
+    <p>U kunt ook belangrijke woorden of zinnen opmaken door de
+    <strong>vet-</strong>(<strong>B</strong>),
+    <em>cursief-</em>(<strong><em>I</em></strong>), of
+    <u>overstrepen-</u>(<strong><u>U</u></strong>) knoppen op de
+    <strong>opmaakwerkbalk</strong> te gebruiken, zoals gedaan is in
+    deze regel. Verschillende andere opties voor het opmaken van uw
+    tekst zijn beschikbaar vanaf de opmaakwerkbalk of via het menu Opmaak
+    op de menubalk. Ga verder en probeer een opties en u zult leuke
+    trucs leren op deze manier. Als u wat verkeerd gedaan hebt kunt
+    u "<tt>Ctrl+Z</tt>" een keer aanklikken om de laatste wijziging
+    <em>ongedaan te maken</em>. Voor gedetailleerde instructies over
+    alle mogelijke manieren om tekst op een webpagina op te maken, zie
+    <a
+    href="formatting_your_web_pages.xhtml">Uw webpagina's
+    opamken</a> hoofdstuk in de &brandShortName; helpdocumentatie.</p>
+
+    <p>Om dit moment moet de tutorial tekst er zo uitzien:</p>
+
+    <hr />
+
+    <div style="font-size:x-large;">Corbett nationaal park</div>
+
+    <p><em>Corbett nationaal park</em>, genoemd in gedachtenis van
+    <strong>Jim Corbett</strong>, is gemaakt in 1938 en was het eerste
+    nationale park dat in Azië gemaakt is. Het is gelegen in
+    de noordelijke staat van Uttranchal in India. Het heeft een oppervlakte
+    van 512 km<sup>2</sup>. Het gecombineerde gebied van Corbett nationaal park,
+    Sonandi wildheiligdom en  Reservaat bosgebieden
+    komen samen op 1288 m<sup>2</sup> km. zijn een groter project genaamd
+    Corbett tijgerreservaat</p>
+
+    <p>De bekendste dieren van het Corbett nationele park zijn de <em>Bengaalse
+    tijger</em> en de <em>Aziatische olifant</em>. Het is ook een thuis voor andere dieren.
+    Gelegen aan de Situated at the koppeling van de Garhwal en Kumaon
+    heuvelgebieden is en ook een impuls voor de combinatie van de culturen van beide
+    regio's.</p>
+
+    <div style="font-size:large;">Jim Corbett</div>
+
+    <p>Jim Corbett, (1825-19), leefde in Kaladhungi. Zijn huis is omgebouwd tot
+    een museüm bij de overheid als een toewijding voor zijn leven en tij.
+    Hij was een naturalist, conservatieve en een avonturenfotograaf.
+    Geboren op 25 juli 1875, groeide hij op in Kaladhungi en Nanital.
+    Na het vechten in het Britse leger tweede wereld oorlog kwam het erug naar
+    India om in Kaladhungi te wonen samen met zijn zus,
+    Maggie. Hij werd verscheidene keren opgeroepen door de dorpbewoners en de overheid
+    om mensenetende tijgers en luipaarden weg te krijgen.</p>
+
+    <div style="font-size:large;">Corbett nationaal park bezoeken</div>
+
+    <p>Algemene informatie</p>
+
+    <p>Hoogte: 385-1100m boven zeeniveau</p>
+
+    <p>Jaarlijkse regenval: 1400mm - 2800mm</p>
+
+    <p>Temperatuurspreiding: 4C in de winter tot 42C in de zomer.</p>
+
+    <p>Open voor touristen van 15 november tot 15 juni.</p>
+
+    <p>Het park bereiken</p>
+
+    <p>De hoofdhoeken van het Corbett tijgerrservaat zijn bij Ramnagar. Via
+    de weg is het verboden met Delhi, Moradabad, Bareilly en
+    Nanital. Staat transportbussen rijden from Delhi, Moradabad en
+    Haldwani naar Ramnagar. Via het spoor kunnen touristen Ramnagar bereiken door
+    de trein te nemen vanaf New Delhi.</p>
+
+    <hr />
+
+    <p>[ <a href="#basic_formatting_of_the_document">Terug naar het begin van deze sectie</a> ]</p>
+
+    <h2 id="inserting_images_and_tables">Afbeeldingen en tabellen invoegen</h2>
+
+    <p>Afbeeldingen, tabellen en formulieren kunnen aangemaakt/ingevoegd worden
+    in uw document door de <strong>Compositiewerkbalk</strong> te gebruiken.
+    Laten we een tabel invoegen en de Algemene informatie over hjet Corbett
+    nationale park erin kopiëren. Klik op de "<em>Tabel</em>"-knop
+    <img src="images/table.png" width="26" height="26" alt="" /> op de
+    compositiewerkbalk en kies de tabelafmetingen met de muis
+    zodat deze 5 rijen en 2 kolommen zijn. Klikken op de 5e rij in de 2e kolom
+    zal een standaardtabel met die afmetingen aanmaken.</p>
+
+    <p>Om de tabel met al geschreven tekst te vullen knipt
+    ("<tt>Ctrl+X</tt>") u simpelweg de correspondere tekst en plakt
+    ("<tt>Ctrl+V</tt>") u het in de corresponderende cel van de tabel. Nadat dit gedaan is
+    moet de tabel zoals hieronder lijken:</p>
+
+    <!-- Do not remove inline styles from tutorial text.
+	 This is to override the style sheet rules.-->
+
+    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+	<tr>
+	  <td style="width: 186px;">Hoogte</td>
+
+	  <td style="width: 451px;">85-1100m boven zeeniveau</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Jaarlijkse regenval</td>
+	  <td style="width: 451px;">1400mm - 2800mm</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Temperatuurspreiding</td>
+	  <td style="width: 451px;">4C in de winter to 42C in de zomer</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Open voor touristen</td>
+	  <td style="width: 451px;">15 november tot 15 juni</td>
+	</tr>
+
+	<tr>
+	  <td style="width: 186px;">Het park bereiken</td>
+	  <td style="width: 451px;">De hoofdhoeken van het Corbett tijgerrservaat zijn bij Ramnagar. Via
+    de weg is het verboden met Delhi, Moradabad, Bareilly en
+    Nanital. Staat transportbussen rijden from Delhi, Moradabad en
+    Haldwani naar Ramnagar. Via het spoor kunnen touristen Ramnagar bereiken door
+    de trein te nemen vanaf New Delhi.</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Met deze simpele tabel gemaakt kunt u de eigenschappen van de tabel
+    wijzigen bij de tabel te activeren door bf de cursor in de tabel te brengen
+    en dan op de "<strong>Tabel</strong>"-knop op de
+    <strong>hoofdwerkbalk</strong> te drukken. In het tabeleigenschappen
+    venster, kunt u verschillende eigenschappen van de tabel, cel, rij of kolom
+    etc. instellen zoals de achtergrondkleur van een tabel of cel, tabelkoppen,
+    tabeluitlijning, tabel of kolom breedte etc.</p>
+
+    <p>Voor gedetailleerde informatie over de verschillende eigenschappen van tabellen wordt
+    de lezer doorverwezen naar het hoofdstuk<a
+    href="tables.xhtml">Tabellen toevoegen aan uw
+    webpagina's</a> in de &brandShortName; helpdocumentatie.</p>
+
+    <p>[ <a href="#inserting_images_and_tables">Terug naar het begin van deze sectie</a> ]</p>
+
+    <h2 id="advanced_styles">Geavanceerde stijlen</h2>
+
+    <p>&brandShortName; stelt gebruikt in staat om stijbladen te maken of te bewerken
+    met de help van de ingebouwde stijlbladeditor genaamd
+    "CaScadeS". CaScadeS heeft de mogelijkheid om interner of externe
+    stijlbladen te gebruiken voor het document dat wordt bewerkt.
+    Details hoe CaScadeS gebruikt moet worden gaan te ver voor deze
+    tutorial. De gebruiker wordt echter doorgesturd naar <a
+    href="css.html">stijlbladen
+    gebruiken</a> in de hoofd Helpsectie.</p>
+
+    <p>[ <a href="#advanced_styles">Return to begining of section</a>
+    ]</p>
+
+    <h2 id="publishing_your_documents_basics">Uw document(en) publiceren - basis</h2>
+
+    <p>U kunt uw documenten publiceren door &brandShortName;'s ingebouwde sitebeheerder. De zichtbaarheid
+    van de sitebeheerder kan afgewisseld worden door op de F9-knop te drukken.</p>
+
+    <p>In <a href="publishing_help.xhtml">het deel Publiceren</a> vind u meer informatie</p>
+
+    <p>[ <a href="#publishing_your_documents_basics">Terug naar het begin van deze sectie</a> ]</p>
+
+    <div class="copyrightBox"><em>19 november 2004</em></div>
+
+  <p>Auteursrecht &copy; 2004-2005 Medewerkers aan het &brandShortName; Helpdocumentatieproject.</p>
+
+  </body>
+</html>

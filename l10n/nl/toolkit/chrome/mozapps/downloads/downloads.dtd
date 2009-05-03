@@ -1,0 +1,46 @@
+<!ENTITY window.width                   "550">
+<!ENTITY window.height                  "300"> 
+
+<!ENTITY done.label                     "Klaar">
+<!ENTITY canceled.label                 "Geannuleerd">
+<!ENTITY installing.label               "Installeren...">
+
+<!ENTITY starting.label                 "Starten...">
+<!ENTITY failed.label                   "Mislukt">
+
+<!ENTITY downloads.title                "Downloads">
+
+<!ENTITY cmd.pause.label                "Pauzeren">
+<!ENTITY cmd.pause.accesskey            "P">
+<!ENTITY cmd.resume.label               "Hervatten">
+<!ENTITY cmd.resume.accesskey           "H">
+<!ENTITY cmd.cancel.label               "Annuleren">
+<!ENTITY cmd.cancel.accesskey           "A">
+<!ENTITY cmd.show.label                 "Bijbehorende map openen">
+<!ENTITY cmd.show.labelMac              "Laten zien in Finder">
+<!ENTITY cmd.show.accesskey             "m">
+<!ENTITY cmd.show.accesskeyMac          "F">
+<!ENTITY cmd.open.label                 "Openen">
+<!ENTITY cmd.open.accesskey             "O">
+<!ENTITY cmd.openWith.label             "Openen met...">
+<!ENTITY cmd.openWith.accesskey         "t">
+<!ENTITY cmd.retry.label                "Opnieuw">
+<!ENTITY cmd.retry.accesskey            "u">
+<!ENTITY cmd.remove.label               "Verwijderen">
+<!ENTITY cmd.remove.accesskey           "V">
+<!ENTITY cmd.properties.label           "Eigenschappen">
+<!ENTITY cmd.properties.accesskey       "E">
+<!ENTITY cmd.info.commandKey            "i">
+
+<!ENTITY cmd.close.commandKey           "w">
+<!ENTITY cmd.close2.commandKey          "j">
+<!ENTITY cmd.close2Unix.commandKey      "y">
+<!ENTITY cmd.cleanUp.label              "Opruimen">
+<!ENTITY cmd.cleanUp.tooltip            "Verwijdert voltooide, geannuleerde of mislukte downloads uit de lijst">
+<!ENTITY cmd.cleanUp.accesskey          "O">
+
+<!ENTITY closeWhenDone.label            "Sluiten wanneer downloads zijn voltooid">
+<!ENTITY closeWhenDone.tooltip          "Sluit de downloadbeheerder als alle bestanden zijn gedownload">
+
+<!ENTITY filesSavedTo.label             "Alle bestanden gedownload naar:">
+<!ENTITY showFolder.label               "Deze map laten zien">

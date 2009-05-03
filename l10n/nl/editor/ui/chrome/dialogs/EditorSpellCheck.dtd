@@ -1,0 +1,32 @@
+<!ENTITY addToUserDictionaryButton.accessKey "O">
+<!ENTITY addToUserDictionaryButton.label "Woord toevoegen">
+<!ENTITY checkwordButton.accessKey "W">
+<!ENTITY checkwordButton.label "Woord controleren">
+<!ENTITY closeButton.accessKey "U">
+<!ENTITY closeButton.label "Sluiten">
+<!ENTITY editUserDictionaryButton.accessKey "E">
+<!ENTITY editUserDictionaryButton.label "Bewerken...">
+<!ENTITY ignoreAllButton.accessKey "L">
+<!ENTITY ignoreAllButton.label "Alle negeren">
+<!ENTITY ignoreButton.accessKey "N">
+<!ENTITY ignoreButton.label "Negeren">
+<!ENTITY languagePopup.accessKey "T">
+<!ENTITY languagePopup.label "Taal:">
+<!ENTITY misspelledWord.label "Verkeerd gespelde woorden:">
+<!ENTITY moreDictionaries.label "Meer ophalen">
+<!ENTITY recheckButton.accessKey "P">
+<!ENTITY recheckButton.label "Pagina opnieuw controleren">
+<!ENTITY replaceAllButton.accessKey "A">
+<!ENTITY replaceAllButton.label "Alle vervangen">
+<!ENTITY replaceButton.accessKey "R">
+<!ENTITY replaceButton.label "Vervangen">
+<!ENTITY sendButton.accessKey "Z">
+<!ENTITY sendButton.label "Verzenden">
+<!ENTITY stopButton.accessKey "T">
+<!ENTITY stopButton.label "Stoppen">
+<!ENTITY suggestions.accessKey "S">
+<!ENTITY suggestions.label "Suggesties:">
+<!ENTITY userDictionary.label "Persoonlijk woordenboek:">
+<!ENTITY windowTitle.label "Spelling controleren">
+<!ENTITY wordEditField.accessKey "V">
+<!ENTITY wordEditField.label "Vervangen door:">

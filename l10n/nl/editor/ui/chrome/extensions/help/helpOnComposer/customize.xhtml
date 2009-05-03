@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>&brandShortName; aanpassen</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+  <a href="#toolbar_customization">Werkbalken aanpassingen</a>
+  <a href="#enhancing_nvu_functionality">&brandShortName;-functionaliteit uitbreiden</a>
+</div>
+
+<h1 id="customizing_toolbars">&brandShortName; aanpassen</h1>
+
+<h2 id="toolbar_customization">Werkbalk aanpassingen</h2>
+
+<p>&brandShortName; heeft werkbalken die aangepast kunnen worden door
+de gebruiker om aan hun wensen te voldoen. De gebruikers houden hun
+meest gebruikte knoppen op de werkbalk en verbergen de knoppen die ze
+nauwelijks gebruiken om te zorgen dat het makkelijker te gebruiken is
+en het de gebruiker voldoening geeft over het uiterlijk van
+&brandShortName; afhankelijk van zijn voorkeur.</p>
+
+<h3 id="how_to_customize_toolbars">Hoe de werkbalken aan te passen</h3>
+
+<p>Om het werkbalk aanpassenvenster te openen klikt u op <span
+class="menuPath">Beeld > Tonen/verbergen > Werkbalk aanpassen</span> en
+selecteert u de werkbalk die u wilt aanpassen. U kunt ook met de
+rechtermuisknop op de werkbalk die wilt aanpassen klikken en "Werkbalk
+aanpassen selecteren.</p>
+
+<p>Om de werkbalken aan te passen</p>
+
+<ul>
+  <li>Kunt u een knop, scheidingsteken, flexibele ruimte of ruimte item
+  aanklikken en slepen naar de werkbalk waar u het item wilt toevoegen.</li>
+
+  <li>Kunt u items (knoppen, ruimtes, flexibele ruimtes of scheidingsteken)
+  van de werkbalk af slepen en hem loslaten in het aanpassingsvenster.</li>
+
+  <li>Kunt u ook uit het uierlijk van de werkbalkknoppen (hoofdwerkbalk) wijzigen
+  door te slecteren of er Pictogrammen en tekst, alleen pictogrammen of alleen
+  tekst moeten worden getoond.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a href="#customizing_toolbars">Terug naar het begin van deze sectie</a> ]</p>
+
+  <h2 id="enhancing_nvu_functionality">&brandShortName;-functionaliteit uitbreiden</h2>
+
+  <p>&brandShortName; has an inbuilt mechanism to enhance its already
+  powerful functions. New functionality can be added to &brandShortName;
+  by adding <em>extensions</em>. Extentions are small programs which
+  give users new features or functions when installed in
+  &brandShortName;. Users can choose to install the extensions they
+  want. Thus extensions allow users to have a customized installation of
+  &brandShortName;. To install an extension:</p>
+
+  <ul> <li>Download the extention to your computer and save it in a
+  convenient location. Most of the extensions can be downloaded from
+  &brandShortName; web site.</li>
+
+  <li>Open <strong>Extension Manager</strong>(EM) by clicking on <span
+  class="menuPath">Tools > Extensions</span>. The EM will list all the
+  installed extensions (if any).</li>
+
+  <li>Click on <em>Install</em> button to install the extension you just
+  downloaded.</li>
+
+  <li>Select the extension by browsing to it in the file system browser
+  window and click on the <em>Open</em> button.</li>
+
+  <li>Click the <em>Install Now</em> button in the Software Installation
+  window.</li>
+
+  <li>After installation in complete, restart &brandShortName; to start
+  using the features added by the newly installed extension.</li>
+
+  </ul>
+
+  <p>You should regularly check for updates for the installed
+  extensions with the Extension Manager. Updates usually improve the
+  features offered by the extensions and resolve problems in older
+  versions.</p>
+
+<p>[<a href="links.xhtml">Vorige</a>]</p>
+
+<div class="copyrightBox"><em>20 juni 2004</em></div>
+
+  <p>Auteursrecht &copy; 2004-2005 Medewerkers aan het &brandShortName; Helpdocumentatieproject.</p>
+
+</body>
+</html>

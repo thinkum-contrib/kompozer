@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h2 id="adding_tables_to_your_web_page">Tabellen toevoegen aan uw webpagina</h2>
+
+<h3 id="inserting_a_table">Een tabel invoegen</h3>
+
+<p>Tabellen zijn handig voor het plaatsen van tekst, afbeeldingen en andere gegevens in opgemaakte rijen en kolommen.
+Invoegen van een tabel:</p>
+
+<ol>
+  <li>Klik op de plaats waar u de tabel wilt plaatsen.</li>
+
+  <li>Klik de Tabel-knop aan op de <img src="images/table.png" width="26" height="26" alt="" />  Opmaakwerkbalk.
+	Het dialoogvenster <strong>Tabel invoegen</strong> zal verschijnen.</li>
+
+  <li>Typ het aantal rijen en kolommen dat u wilt in.
+  <ul>
+    <li>(Niet verplicht) Vul een grootte in voor de tabelbreedte en selecteer of de percentage van het venster of het aantal pixels in.</li>
+  </ul>
+  </li>
+
+  <li>Vul een randbreedte in (in pixels); vul 0 in als u geen rand wilt hebben.
+  <p><strong>Opmerking</strong>: &brandShortName; gebruikt een rood-gestreepte lijn om tabellen zonder rand aan te geven;
+  deze gestreepte lijn zal verdwijnen als de pagina in een browser bekeken wordt.</p></li>
+
+  <li>Klik op 'Geavanceerd bewerken' om meerdere tabeleigenschappen te wijzigen door het dialoogvenster
+	<a href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a> te tonen.</li>
+
+  <li>Klik op OK om uw instellingen te bevestigen en de nieuwe tabel te bekijken.</li>
+</ol>
+
+<p>Zie
+<a href="#changing_a_tables_properties">Eigenschappen van een tabel aanpassen</a> voor uitgebreidere eigenschappen van een nieuwe tabel..</p>
+
+<p><strong>Tip</strong>: Om een tabel binnen een tabel in te voegen, opent u het menu Invoegen en kiest u voor Tabel.</p>
+
+<p class="returnToSection">[ <a href="#adding_tables_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="changing_a_tables_properties">Tabeleigenschappen veranderen</h3>
+
+<p>Dit onderdeel beschrijft hoe eigenschappen die een hele tabel beslaan gewijzigd kunnen worden.
+Tevens wordt beschreven hoe u verschillende rijen, kolommen of individuele cellen in een tabel kunt aanpassen.
+Als u momenteel het dialoogvenster Tabeleigenschappen niet geopend hebt, kunt u onderstaande stappen volgen:</p>
+
+<ol>
+  <li>Selecteer de tabel of klik er ergens in de tabel.</li>
+
+  <li>Klik de knop Tabel <img src="images/table.png" width="26" height="26" alt="" /> op de werkbalk aan,
+  of open het menu Tabel en kies voor Tabeleigenschappen. Het dialoogvenster Tabeleigenschappen verschijnt dan.
+	Dit venster bevat twee tabbladen: Tabel en Cellen.</li>
+
+  <li>Klik op het tabblad Tabel om deze eigenschappen te bewerken:
+  <ul>
+    <li><strong>Grootte</strong>: Gebruik dit om het aantal rijen en kolommen
+    op te geven. Vul de breedte van de tabel in en kies dan "% van venster" of "pixels." Als u de
+    breedte aangeeft als een percentage zal de tabelbreedte veranderen als de breedte van het &brandShortName;-venster of het browservenster
+    veranderd wordt.</li>
+
+    <li><strong>Randen en ruimte</strong>: Gebruik dit om de breedte van de lijn om de cellen (in pixels),
+    de ruimte tussen de cellen (spacing) en de ruimte binnen de cel (padding) op te geven.
+    <p><strong>Let op</strong>: &brandShortName; gebruikt een gestippelde buitenlijn om tabellen zonder rand te tonen;
+    de gestreepte lijn verdwijnt als u de pagina in een browser bekijkt.</p></li>
+
+    <li><strong>Tabeluitlijning</strong>: Gebruik dit om de tabel binnen de pagina uit te lijnen.
+   	Kies Links, Gecentreeerd of Rechts uit de keuzelijst.</li>
+
+    <li><strong>Bijschrift</strong>: Kies hier waar het bijschrift van de tabel getoond moet worden.</li>
+
+    <li><strong>Achtergrondkleur</strong>: Kies hiermee een kleur voor de achtergrond van de tabel of laat deze doorzichtig (transparant).</li>
+  </ul>
+  </li>
+
+  <li>Om extra attributen of JavaScript-gebeurtenissen aan de tabel toe te voegen, kunt u op de knop <strong>Geavanceerd bewerken</strong> klikken.
+  Hiermee wordt het dialoogvenster <a href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a> getoond.</li>
+
+  <li>Klik op Toepassen om te zien welk effect de wijzigingen op de tabel hebben zonder het dialoogvenster te hoeven sluiten
+  of klik op de knop OK om de wijzigingen te bevestigen.</li>
+</ol>
+
+<p>Eigenschappen voor een of meerdere cellen bekijken, aanpassen of toevoegen:</p>
+
+<ol>
+  <li>Selecteer de rij, kolom of cel die u wenst aan te passen</li>
+
+  <li>Open het menu Tabel en kies voor Tabeleigenschappen.
+  Het dialoogvenster Tabeleigenschappen wordt nu getoond.</li>
+
+  <li>Klik op het tabblad Cellen om de volgende eigenschappen aan te passen:
+  <ul>
+    <li><strong>Selectie</strong>: Kies cel, rij of kolom uit de keuzelijst.
+    Klik op de knop Vorige of Volgende om een rij, kolom of cel op te schuiven.</li>
+
+    <li><strong>Grootte</strong>: Voer een getal in voor Hoogte en Breedte,
+    en kies voor "% van tabel" of "pixels".</li>
+
+    <li><strong>Inhoudsuitlijning</strong>: Kies een horizontale en verticale uitlijning voor de inhoud van iedere cel.</li>
+
+    <li><strong>Celstijl</strong>: Kies Kop uit de keuzelijst als u een koptekst voor de kolom of de rij wilt gebruiken.
+		Daardoor wordt de tekst in deze cel(len) gecentreerd en vetgedrukt. Indien u dit niet wenst, kiest u voor Normaal.</li>
+
+    <li><strong>Tekstterugloop</strong>: Kies "Geen terugloop" uit de keuzelijst om tekst niet naar de volgende regel te laten gaan
+    (tenzij u een alinea-einde invoegt). Kies in alle andere gevallen voor Terugloop.</li>
+
+    <li><strong>Achtergrondkleur</strong>: Kies een kleur als achtergrondkleur voor de cel of laat deze doorzichtig.
+    <p><strong>Let op</strong>:
+	  <li>Om extra attributen of JavaScript-gebeurtenissen aan de tabel toe te voegen, kunt u op de knop <strong>Geavanceerd bewerken</strong> klikken.
+ 	 Hiermee wordt het dialoogvenster <a href="#using_the_advanced_property_editor">Geavanceerde eigenschappen bewerken</a> getoond.</li>
+	</p></li>
+  </ul>
+  </li>
+  <li>Klik op Toepassen om te zien welk effect de wijzigingen op de tabel hebben zonder het dialoogvenster te hoeven sluiten
+  of klik op de knop OK om de wijzigingen te bevestigen.</li>
+</ol>
+
+<p><strong>Tip</strong>: Om de tekstkleur of achtergrondkleur van een of meerdere geselecteerde cellen of een complete tabel
+aan te passen, selecteert u de cellen of klikt u ergens in de tabel.
+Vervolgens klikt u de kleur voor de tekst of achtergrond in de Opmaakwerkbalk.</p>
+
+<p><strong>Tip</strong>: Om de kleur te wijzigen in de kleur die als laatste werd gebruikt,
+selecteert u de cel, houdt u de Shift-toets ingedrukt en klikt u op de kleurkiezer voor de achtergrondkleur.
+Dit is handig als u een kleur voor individuele cellen wilt gebruiken.</p>
+
+<p class="returnToSection">[ <a href="#adding_tables_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="adding_and_deleting_rows_columns_and_cells">Rijen, kolommen en cellen toevoegen of verwijderen</h3>
+
+<p>Met &brandShortName; kunt u snel een of meerdere cellen, kolommen of rijen in een tabel toevoegen of verwijderen.
+Daarnaast kunt u instellen dat u de originele rechthoekige structuur van de tabel wilt behouden terwijl u de tabel bewerkt.</p>
+
+<p>Toevoegen van een cel, rij of kolom aan een tabel:</p>
+
+<ol>
+  <li>Klik in de tabel waar u een cel (of cellen) wilt toevoegen.</li>
+
+  <li>Open het menu Tabel en kies voor Invoegen.</li>
+
+  <li>Kies nu uit de lijst waar u de nieuwe cel wilt invoegen.
+	(Ook kunt u een nieuwe tabel in een cel van een bestaande tabel invoegen.)</li>
+</ol>
+
+<p>Een cel, rij of kolom verwijderen:</p>
+
+<ol>
+  <li>Klik in een rij, kolom of cel of selecteer aangrenzende cellen om meer dan 1 rij tegelijk te verwijderen.
+  Om aangrenzende cellen te selecteren, sleept u met uw muis - terwijl u de linkermuisknop ingedrukt houdt - een
+  rechthoek om de te selecteren cellen. Om individuele cellen in een tabel te selecteren, houdt u de Ctrl-toets
+  (onder Windows, Linux of Unix) of Command-toets (onder Mac OS) ingedrukt en klikt u in de cellen die u wilt selecteren.</li>
+
+  <li>Open het menu Tabel en kies voor Verwijderen.</li>
+
+  <li>Kies uit de lijst wat u wilt verwijderen.</li>
+</ol>
+
+<p>Een cel samenvoegen met de cel(len) aan de rechterkant:</p>
+
+<ul>
+  <li>Klik in de linkercel, open het menu Tabel en kies voor <strong>Samenvoegen met rechtercel</strong>.</li>
+</ul>
+
+<p>Aangrenzende cellen samenvoegen:</p>
+
+<ul>
+  <li>Selecteer aangrenzende cellen met de muis.</li>
+
+  <li>Open het menu Tabel, and choose Join Selected Cells.</li>
+</ul>
+
+<p>Een samengevoegde cel opsplitsen in twee of meer cellen:</p>
+
+<ul>
+  <li>Klik in de samengevoegde cel, open het menu Tabel, en kies voor <strong>Cel splitsen</strong>.
+	&brandShortName; plaatst de inhoud van de samengevoegde cel in de eerste cel.</li>
+</ul>
+
+<p>Zie <a href="#selecting_table_elements">Selecteren van tabel-elementen</a> voor meer informatie over het selecteren
+van niet-aangrenzende cellen, rijen en kolommen.</p>
+
+
+<h3 id="changing_the_default_table_table_editing_behavior">Instellingen voor bewerken van een tabel aanpassen</h3>
+
+<p>Standaard behoudt &brandShortName; de structuur van een tabel wanneer u een of meerdere cellen verwijdert.
+&brandShortName; voegt dan, indien nodig, aan het einde extra cellen toe.
+Zo kunt u een of meerdere cellen verwijderen, maar toch de originele structuur van de tabel behouden.
+Anders kan het voorkomen dat het verwijderen van cellen resulteert in lege cellen of onregelmatig gevormde tabellen
+oor een oneven aantal cellen.</p>
+
+<p>Aanpassen van standaard bewerkings-instellingen van &brandShortName;:</p>
+
+<ol>
+  <li>Open het menu Extra en kies voor Voorkeuren.</li>
+
+  <li>Onder <strong>Tabel bewerken</strong> ziet u de volgende instelling:
+
+  <ul>
+    <li>Zorg ervoor dat "Tabelvormgeving bij het invoegen of verwijderen van cellen behouden"
+	is aangevinkt om ervoor te zorgen dat er geen onregelmatig gevormde tabel ontstaat.</li>
+  </ul>
+  </li>
+
+  <li>Klik op de knop OK om het Voorkeuren-venster te sluiten.</li>
+</ol>
+
+<p>Zie ook <a href="preferences.xhtml#preferences_general_settings">Algemene &brandShortName;-instellingen</a>.</p>
+
+<p class="returnToSection">[ <a href="#adding_tables_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="selecting_table_elements">Onderdelen van een tabel selecteren</h3>
+
+<p>Om snel een tabel, cel of groep cellen te selecteren zijn er twee manieren:</p>
+
+<ul>
+  <li>Klik in de tabel, Open het menu Tabel, kies voor Selecteren en kies vervolgens een onderdeel uit het submenu.
+	Om bijvoorbeeld een tabel te selecteren klikt u ergens in de tabel, opent u het menu Tabel, kiest u voor Selecteren
+	en vervolgens voor Tabel.</li>
+
+  <li>Of u kunt de muis gebruiken om cellen te selecteren:</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+	<ul> <li>
+		Om een groep aangrenzende cellen te selecteren, klikt u in een cel, houdt u de muisknop ingedrukt en sleept u
+	   totdat u alle gewenste cellen hebt geselecteerd. Sleep de muis naar links of rechts om een rij te selecteren en
+		naar boven of beneden om een kolom te selecteren.</li>
+
+      <li>Om niet-aangrenzende cellen te selecteren, klikt u op de Ctrl-toets (onder Windows, Linux of Unix)
+      of de Command-toets (onder Mac OS) en dan klikt u in iedere cel die u wilt selecteren. Houdt de Ctrl-toets
+      (onder Windows, Linux of Unix) of Command (onder Mac OS) ingedrukt als u extra cellen selecteert.</li>
+
+      <li>Om een selectie uit te breiden en zo aangrenzende cellen te selecteren, klikt u in een cel en sleept u met de muis
+		over aangrenzende cellen om de selectie uit te breiden.</li>
+
+      <li>Om een of meer aangrenzende kolommen of rijen te selecteren, sleept u naar boven of naar beneden om de eerste kolom of rij te selecteren.
+      Sleep daarna links of rechts om extra aangrenzende kolommen of rijen te selecteren. Druk de Shift-toets in en sleep naar rechts
+      om een hele rij te selecteren. Druk de Shift-toets in en sleep naar boven of beneden om een hele kolom te selecteren.</li>
+      </ul>
+  </li>
+</ul>
+
+<p class="returnToSection">[ <a href="#adding_tables_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="moving_copying_and_deleting_tables">Tabellen verplaatsen, kopi&euml;ren of verwijderen</h3>
+
+<ol>
+  <li>Klik in de tabel.</li>
+
+  <li>Open het menu Tabel, kies voor Selecteren en vervolgens voor Tabel.</li>
+</ol>
+
+<ul>
+  <li>Om de tabel te verplaatsen of te kopi&euml;ren kunt u de bekende methoden voor Knippen, Kopi&euml;ren en Plakken
+	uit het menu Bewerken gebruiken.</li>
+
+  <li>Om de tabel te verwijderen, opent u weer het menu Tabel en kiest u voor Verwijderen en vervolgens voor Tabel.</li>
+</ul>
+
+<h3 id="converting_text_into_a_table">Tekst naar een tabel omzetten</h3>
+
+<p>Tekst naar een tabel omzetten:</p>
+
+<ol>
+  <li>Selecteer de tekst die u naar een tabel wilt omzetten. Houd in gedachten dat &brandShortName; een nieuwe tabelrij
+	aanmaakt voor iedere alinea in de geselecteerde tekst.</li>
+
+  <li>Open het menu Tabel en kies voor <strong>Tabel van selectie maken</strong>.
+	Nu verschijnt het dialoogvenster <strong>Naar tabel converteren</strong>.</li>
+
+  <li>Kies het teken dat &brandShortName; moet gebruiken om de geselecteerde tekst in kolommen op te delen,
+	of geef een <strong>Ander teken</strong> op. Als u de spatie als scheidingsteken voor kolommen kiest, geef dan ook aan of
+   &brandShortName; meerdere spaties moet negeren en deze als 1 spatie moet behandelen.</li>
+
+  <li>Laat "Scheidingsteken verwijderen" aangevinkt om &brandShortName; het scheidingsteken te laten verwijderen als het
+  de tekst naar een tabel omzet. Als &brandShortName; het scheidingsteken niet moet verwijderen, zet deze optie dan uit.</li>
+
+  <li>Klik op de knop OK.</li>
+</ol>
+
+<p><strong>Let op</strong>: De opmaak van de tekst wordt verwijderd als de geselecteerde tekst naar een tabel wordt geconverteerd.</p>
+
+<p class="returnToSection">[ <a href="#adding_tables_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+<p>[<a href="images.xhtml">Volgende</a>] [<a href="css.xhtml">Vorige</a>]</p>
+
+  <div class="copyrightBox"><em>20 juni 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

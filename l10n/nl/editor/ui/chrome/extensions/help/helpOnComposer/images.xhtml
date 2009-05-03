@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Tonen/Verbergen</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="center"><span id="topText">Helpcentrum</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">In dit hoofdstuk:
+
+<a href="#starting_a_new_page">Een nieuwe pagina maken</a>
+
+<a href="formatting_webpages.xhtml">Het opmaken van webpagina's</a>
+
+<a href="css.xhtml">Het gebruik van stijlbladen om  webpagina's op te maken</a>
+
+<a href="tables.xhtml">Tabellen toevoegen aan een webpagina</a>
+
+<a href="images.xhtml">Afbeeldingen (plaatjes) toevoegen aan een webpagina</a>
+
+<a href="toc.xhtml">Een inhoudsopgave toevoegen aan een webpagina</a>
+
+<a href="page_properties.xhtml">Pagina-eigenschappen instellen</a>
+
+<a href="links.xhtml">Koppelingen maken in &brandShortName;</a>
+
+<a href="templates.xhtml">Met sjablonen werken</a>
+
+<a href="customize.xhtml">&brandShortName; aanpassen</a>
+</div>
+
+<h2 id="adding_pictures_to_your_web_page">Plaatjes (afbeeldingen) aan webpagina's toevoegen</h2>
+
+<h3 id="inserting_an_image_into_your_page">Een afbeelding in een pagina invoegen</h3>
+
+<p>U kunt GIF, JPEG, BMP en PNG (Portabel Network Graphics)-afbeeldingen in uw webpagina's invoegen.
+U kunt ze ook gebruiken om <a href="#using_images_as_links">koppelingen te maken</a>. Als u een afbeelding invoegt slaat
+&brandShortName; een verwijzing naar de afbeelding in uw pagina op.</p>
+
+<p><strong>Opmerking</strong>: Als u van plan bent om pagina's op het Internet te publiceren,
+kunt u beter geen BMP-afbeeldingen in uw pagina's gebruiken.</p>
+
+<p><strong>Tip</strong>: Het is het beste om eerst de pagina waar u afbeeldingen invoegt op te slaan
+voordat u afbeeldingen invoegt. Dit stelt &brandShortName; in staat automatisch relatieve verwijzingen te
+gebruiken naar afbeeldingen als u ze invoegt.</p>
+
+<p>Om een afbeelding in te voegen:</p>
+
+<ol>
+  <li>Klik om de cursor te plaatsen op de plek waar u de afbeelding wilt laten verschijnen.</li>
+
+  <li>Klik de knop Afbeelding <img src="images/image.png" width="26" height="26" alt="" />op de werkbalk of open het menu Invoegen
+	en kies voor Afbeelding. U ziet nu het dialoogvenster <strong>Afbeelding invoegen</strong>.</li>
+
+  <li>Typ de locatie en bestandnaam van de afbeelding of klik op Bestand kiezen om te zoeken
+  naar een afbeelding opgeslagen op uw harde schijf of netwerk.</li>
+
+  <li>Typ een korte beschrijving voor uw afbeelding in als alternatieve tekst die
+  verschijnt in een tekstbrowser (en andere browsers) als een afbeelding aan het laden is
+  of wanneer het laden van de afbeelding uitgeschakeld is.
+
+  <p>U kunt er ook voor kiezen om geen alternatieve tekst in te voegen.</p>
+  </li>
+
+  <li>Klik de andere tabbladen indien nodig, zodat u de instellingen (voor bijvoorbeeld uitlijning)
+  in het dialoogvenster <a href="#editing_image_properties">Afbeeldingen bewerken</a> kunt wijzigen.</li> </ol>
+
+<p><strong>Tip</strong>: Sleep een afbeelding naar het document om het snel in te voegen.</p>
+
+<p><strong>Tip</strong>: Om een witregel achter alle afbeeldingen binnen een alinea in te voegen kiest u voor 'Afbreken onder afbeelding(en)'
+uit het menu Invoegen.</p>
+
+<p class="returnToSection">[ <a href="#adding_pictures_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+
+<h3 id="editing_image_properties">Afbeeldingseigenschappen bewerken</h3>
+
+<p>Als een afbeelding eenmaal is ingevoegd in uw pagina kunt u de eigenschappen bewerken en
+de opmaak aanpassen (zoals hoogte, breedte, witruimte en uitlijning).
+Als u momenteel niet de Afbeeldingseigenschappen aan het bekijken bent, volgt u de volgende stappen:</p>
+
+<p>Om de eigenschappen van de geselecteerde afbeelding te bewerken:</p>
+
+<ol>
+  <li>Dubbelklik op de afbeelding of selecteer deze en klik op de knop Afbeelding
+<img src="images/image.png" width="26" height="26" alt="" /> op de werkbalk om het dialoogvenster Afbeeldingseigenschappen te tonen.</li>
+
+  <li>Klik op het Locatie-tabblad om deze eigenschappen te bewerken:
+  <ul>
+    <li><strong>Afbeeldingslocatie</strong>: Vul de bestandnaam en de
+    locatie van de afbeelding in. Klik op Bestand kiezen om een
+    afbeelding op uw harde schijf of netwerk te zoeken.</li>
+
+      <li><strong>URL is relatief ten opzichte van paginalocatie</strong>:
+      Als deze optie is aangevinkt zal &brandShortName; de URL converteren
+      zodat deze relatief is ten opzichte van de paginalocatie. Dit is vooral
+      handig als u van plan bent om uw pagina's op een webserver te
+      publiceren, zodat anderen ze kunnen bekijken.
+
+      <p>Het gebruik van relatieve URL stelt u staat om al uw gekoppelde
+      bestanden op dezelfde plaats bij elkaar te houden relatief van
+      elkaar, afhankelijk van hun locatie op de harde schijf van de webserver.</p>
+
+      <p>Het uitvinken van deze optie zorgt ervoor dat &brandShortName; de
+      URL's converteert naar een volledige (absolute) URL. Meestal worden
+      absolute URL's gebruikt om koppelingen naar afbeeldingen op een andere
+      webserver aan te brengen (niet lokaal op uw harde schijf opgeslagen).</p>
+
+      <p>Als u veranderingen hebt doorgevoerd die nog niet zijn opgeslagen, dan dient u eerst de pagina op te slaan
+      voordat u dit keuzeveld aanvinkt. (Dit keuzeveld is niet beschikbaar als u de
+      Afbeeldingseigenschappen vanuit een opstellen-venster opent.)</p></li>
+
+    <li><strong>Alternatieve tekst</strong>: Vul een tekst in die getoond zal
+    worden in plaats van de orignele afbeelding; bijvoorbeeld een kop of een
+    korte beschrijving van de afbeelding. Het is een goede oefening om
+    alternatieve tekst op te geven voor lezers die tekstbrowsers gebruiken of
+    het laden van afbeeldingen uitgeschakeld hebben.</li>
+
+    <li><strong>Gebruik geen alternatieve tekst</strong>: Kies deze optie
+    als de afbeelding geen alternatieve tekst nodig heeft of u het wilt
+    bijvoegen.</li>
+
+  </ul>
+  </li>
+  <li>Selecteer het tabblad Afbeeldingen om de volgende eigenschappen te bewerken:
+  <ul>
+    <li><strong>Ware grootte</strong>: Selecteer deze optie om alle
+    veranderingen die u gemaakt hebt voor de afmetingen terug te draaien en terug te keren naar de originele grootte.</li>
+
+    <li><strong>Aangepaste grootte</strong>: Selecteer deze optie en geef de nieuwe hoogte en breedte op (in pixels of als percentage).
+	 Deze instelling verandert de originele afbeelding niet, alleen de afbeelding die in uw pagina is ingevoegd.</li>
+
+    <li><strong>Behouden</strong>: Als u de afmetingen van de afbeelding verandert is het een goed idee om dit te selecteren zodat
+    de afbeeldingsverhoudingen gelijk blijven (zodat het geheel niet verwrongen lijkt).
+    Als u deze optie kiest dan hoeft u alleen de breedte of de hoogte te veranderen, maar niet beide.</li>
+  </ul>
+  </li>
+  <li>Selecteer het tabblad Vormgeving om deze eigenschappen te bewerken:
+  <ul>
+    <li><strong>Tussenruimtes</strong>: Voer hier de ruimte om de afbeelding in (tussen de afbeelding en de omringende tekst).
+	 Ook kunt u een zwarte lijn om de afbeelding maken en de breedte in pixels opgeven. Geef 0 op om geen rand om de afbeelding te tonen.</li>
+
+    <li><strong>Tekst uitlijnen naar afbeelding</strong>: Als u uw afbeelding naast tekst hebt geplaatst, selecteert u hier
+    een optie om aan te geven hoe de tekst ten opzichte van de afbeelding geplaatst dient te worden.</li>
+
+    <li><strong>Afbeeldingskaart (imagemap)</strong>:
+		Klik op Verwijderen om instellingen van een Afbeeldingskaart (imagemap) te verwijderen.</li>
+  </ul>
+  </li>
+  <li>Selecteer het tabblad Koppeling om deze eigenschappen te bewerken:
+  <ul>
+    <li><strong>Voer een locatie in</strong>:  Als u een koppeling voor deze
+    afbeelding wilt aanmaken vult u hier de URL van de lokale of
+    afgelegen locatie in of selecteert u een gelabelde positie of kop vanuit
+    het selectieveld. Klik op de knop Bestand kiezen om een bestand op uw harde schijf
+    of netwerk te selecteren.</li>
+
+      <li><strong>URL is relatief ten opzichte van paginalocatie</strong>:
+      Als deze optie is aangevinkt zal &brandShortName; de URL converteren
+      zodat deze relatief is ten opzichte van de paginalocatie. Dit is vooral
+      handig als u van plan bent om uw pagina's op een webserver te
+      publiceren, zodat anderen deze kunnen bekijken.
+
+      <p>Het gebruik van relatieve URL stelt u staat om al uw gekoppelde
+      bestanden op dezelfde plaats bij elkaar te houden relatief van
+      elkaar, afhankelijk van hun locatie op de harde schijf van de webserver.</p>
+
+      <p>Het uitvinken van deze optie zorgt ervoor dat &brandShortName; de
+      URL's converteert naar een volledige (absolute) URL. Meestal worden
+      absolute URL's gebruikt om koppelingen naar afbeeldingen op een andere
+      webserver aan te brengen (niet lokaal op uw harde schijf opgeslagen).</p>
+
+      <p>Als u veranderingen die nog niet zijn opgeslagen hebt doorgevoerd dient u eerst de pagina op te slaan
+      voordat u dit keuzeveld aanvinkt. (Dit keuzeveld is niet beschikbaar als u de
+      Afbeeldingseigenschappen vanuit een opstellen-venster opent.)</p></li>
+
+    <li><strong>Rand om gekoppelde afbeelding weergeven</strong>: Als deze optie
+    is aangevinkt wordt de kleur waarmee een koppeling wordt aangegeven om de afbeelding getoond.</li>
+  </ul>
+  </li>
+
+  <li>Om extra attributen of Javascript-gebeurtenissen toe te voegen klikt u Geavanceerd bewerken
+  aan om het dialoogvenster <a href="#using_the_advanced_property_editor">Gevanceerde eigenschappen bewerken</a> te tonen.</li>
+
+  <li>Klik op de knop OK om de veranderingen door te voeren</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#adding_pictures_to_your_web_page">Terug naar het begin van deze sectie</a> ]</p>
+
+<p>[<a href="toc.xhtml">Volgende</a>] [<a href="tables.xhtml">Vorige</a>]</p>
+
+  <div class="copyrightBox"><em>20 juni 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

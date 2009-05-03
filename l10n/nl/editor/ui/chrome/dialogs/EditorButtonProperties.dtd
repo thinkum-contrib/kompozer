@@ -1,0 +1,19 @@
+<!ENTITY AccessKey.accesskey "E">
+<!ENTITY AccessKey.label "Sneltoets:">
+<!ENTITY ButtonDisabled.accesskey "U">
+<!ENTITY ButtonDisabled.label "Uitgeschakeld">
+<!ENTITY ButtonName.accesskey "N">
+<!ENTITY ButtonName.label "Naam:">
+<!ENTITY ButtonType.accesskey "S">
+<!ENTITY ButtonType.label "Soort">
+<!ENTITY ButtonValue.accesskey "W">
+<!ENTITY ButtonValue.label "Waarde:">
+<!ENTITY RemoveButton.accesskey "D">
+<!ENTITY RemoveButton.label "Knop verwijderen">
+<!ENTITY Settings.label "Instellingen">
+<!ENTITY button.value "Knop">
+<!ENTITY reset.value "Herinitialiseren">
+<!ENTITY submit.value "Verzenden">
+<!ENTITY tabIndex.accesskey "T">
+<!ENTITY tabIndex.label "Tabbladindex:">
+<!ENTITY windowTitle.label "Knopeigenschappen">
