@@ -1,0 +1,42 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY InitialText.accessKey "е">
+<!ENTITY InitialText.label "Первоначальный текст:">
+<!ENTITY Settings.label "Параметры">
+<!ENTITY TextAreaAccessKey.accessKey "К">
+<!ENTITY TextAreaAccessKey.label "Клавиша доступа:">
+<!ENTITY TextAreaCols.accessKey "м">
+<!ENTITY TextAreaCols.label "Символов в строке:">
+<!ENTITY TextAreaDisabled.accessKey "О">
+<!ENTITY TextAreaDisabled.label "Отключено">
+<!ENTITY TextAreaName.accessKey "И">
+<!ENTITY TextAreaName.label "Имя поля:">
+<!ENTITY TextAreaReadOnly.accessKey "Т">
+<!ENTITY TextAreaReadOnly.label "Только для чтения">
+<!ENTITY TextAreaRows.accessKey "С">
+<!ENTITY TextAreaRows.label "Строк:">
+<!ENTITY TextAreaTabIndex.accessKey "л">
+<!ENTITY TextAreaTabIndex.label "Последовательность перехода:">
+<!ENTITY TextAreaWrap.accessKey "Р">
+<!ENTITY TextAreaWrap.label "Режим переноса:">
+<!ENTITY WrapDefault.value "По умолчанию">
+<!ENTITY WrapHard.value "Жесткий">
+<!ENTITY WrapOff.value "Отключен">
+<!ENTITY WrapPhysical.value "Физический">
+<!ENTITY WrapSoft.value "Мягкий">
+<!ENTITY WrapVirtual.value "Виртуальный">
+<!ENTITY windowTitle.label "Свойства текстового поля">

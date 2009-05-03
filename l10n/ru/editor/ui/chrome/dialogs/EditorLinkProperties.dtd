@@ -1,0 +1,54 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY LinkURLBox.label "Адрес объекта ссылки">
+<!ENTITY XFNbox.label "Дружественные связи (XHTML Friends Network)">
+<!ENTITY acquaintance.label "знакомый">
+<!ENTITY blankRadio.label "в новом окне">
+<!ENTITY child.label "ребенок">
+<!ENTITY coResident.label "земляк">
+<!ENTITY coWorker.label "сотрудник">
+<!ENTITY colleague.label "коллега">
+<!ENTITY contact.label "партнер">
+<!ENTITY crush.label "страсть">
+<!ENTITY date.label "свидание">
+<!ENTITY family.label "Семейные">
+<!ENTITY friend.label "друг">
+<!ENTITY friendship.label "Дружеские">
+<!ENTITY geographical.label "Географические">
+<!ENTITY kin.label "родственник">
+<!ENTITY me.label "Объект ссылки - еще один мой адрес">
+<!ENTITY met.label "встреча">
+<!ENTITY muse.label "муза">
+<!ENTITY neighbor.label "сосед">
+<!ENTITY none.label "нет">
+<!ENTITY parent.label "родитель">
+<!ENTITY parentRadio.label "в родительском фрейме">
+<!ENTITY physical.label "Физические">
+<!ENTITY professional.label "Профессиональные">
+<!ENTITY romantic.label "Романтические">
+<!ENTITY selfRadio.label "в текущем фрейме">
+<!ENTITY sibling.label "брат">
+<!ENTITY spouse.label "супруг">
+<!ENTITY sweetheart.label "возлюбленный">
+<!ENTITY targetBox.label "Ссылка будет открыта в">
+<!ENTITY topRadio.label "в текущем окне, без фреймов">
+<!ENTITY userDefinedRadio.label "в этом фрейме:">
+<!ENTITY userDefinedTarget.label "Открытие ссылок">
+<!ENTITY windowTitle.label "Свойства ссылки">
+
+<!ENTITY technoratiTag.label "Теги Technorati">
+<!ENTITY technoratiTagCheckbox.label "Это Technorati тег">

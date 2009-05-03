@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Введение в разработку веб-страниц с помощью &brandShortName;</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+  </head>
+
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Показать/Скрыть</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Справка</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">В этом разделе:
+    <a href="#scope_of_this_tutorial">Назначение этого Введения</a>
+    <a href="#introduction_to_the_user_interface">Введение в интерфейс пользователя</a>
+    <a href="#starting_a_new_document">Создание нового документа</a>
+    <a href="#basic_formatting_of_the_document">Основы форматирования</a>
+    <a href="#inserting_images_and_tables">Вставка рисунков и таблиц</a>
+    <a href="#advanced_styles">Дополнительные стили</a>
+    <a href="#publishing_your_documents_basics">Публикация документов</a>
+    </div>
+
+    <h2 id="nvu_tutorial">Введение в разработку веб-страниц с помощью &brandShortName;</h2>
+
+    <p>&brandShortName; это открытая (open source), визуальная (WYSIWYG) система 
+    создания веб-контента. &brandShortName; построен на Gecko, системе разбора веб-страниц
+    используемой в Mozilla. &brandShortName; полностью бесплатен, и может быть свободно загружен с 
+    <a href="http://www.kompozer.net/">сайта &brandShortName;</a>.</p>
+
+    <h2 id="scope_of_this_tutorial">Назначение этого Введения</h2>
+
+    <p>Это введение предназначено для тех, кто делает первые шаги в создании веб-страниц и 
+    хотел бы использовать для этого визуальный(WYSIWYG) редактор. Это Введение даст вам только 
+    самые начальные сведения, достаточные для начала работы над вашей страницей в &brandShortName;.
+    В этом Введении мы не ставим своей целью научить вас писать на HTML, XHTML, CSS,. Мы хотим дать 
+    вам толчек к началу использования &brandShortName;.</p>
+
+    <p>Это руководство даже не охватывает детально всех основных аспектов работы с HTML.
+    Да, это вего лишь короткое Введение, в котором не были учтены некоторые базовые, но не столь 
+    важные моменты. Вы можете найти информацию о них самостоятельно. Также в этом Введении даны
+    только самые начальные сведения о работе с таблицами стилей во встроенном в &brandShortName; 
+    CSS редакторе CaScadeS.</p>
+
+    <p>Для тех, кто хочет больше узнать о HTML, CSS посетите сайт
+    <a href="http://www.w3.org/">Консорциума W3</a>. На нем вы сможете найти
+    детальную информацию о различных стандартах созданных ими. Нужную информацию 
+    вы можете найти в Интернете или в однм из многих учебников по HTML.</p>
+
+    <h3 id="in_this_tutorial">В этом Введении</h3>
+
+    <p>В начале этого Введения вы получите представление о интерфейсе пользователя в 
+    &brandShortName;. Там же будут даны базовые сведения о форматировании вошего документа.
+    В следующем разделе вы узнаете как вставить в вашу страницу изображения, таблицы и формы.
+    Затем, небольшой раздел мы посвятили использованию каскадных таблий стилей на странице.
+    Введение завершает раздел инструкция по публикации ваших документов на веб-сервере.</p>
+
+    <p>[ <a href="#scope_of_this_tutorial">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="introduction_to_the_user_interface">Введение в интерфейс пользователя</h2>
+
+    <p>Меню "Файл" содержит пункты для всех важнейших операций возможных в &brandShortName;.
+    Для получения детального описания всех пунктов меню, ознакомтесь с разделом 
+    <a href="menu_reference.xhtml">Описание меню &brandShortName;</a> этой справки.
+    Панель инструментов &brandShortName; состоит из:</p>
+
+    <ul>
+      <li><a href="#composition_toolbar">Панели компоновки</a></li>
+      <li><a href="#format_toolbar">Панели форматирования</a></li>
+      <li><a href="#tab_browser_toolbar">Панели вкладок</a></li>
+      <li><a href="#edit_mode_toolbar">Панели режимов редактирования</a></li>
+      <li><a href="#status_toolbar">Строки состояния</a></li>
+    </ul>
+
+    <h3 id="composition_toolbar">Панель компоновки</h3>
+
+    <p>Панель компоновки содержит кнопки наиболее часто используемых операций. 
+    Ниже - скриншет Панели компоновки по умолчанию с текстом под каждой кнопкой, который 
+    указывает функцию соответствующей кнопки.</p>
+
+    <p><img src="images/tut_composition_tb.png" title="Composition Toolbar" width="799" height="43" alt="" /></p>
+
+    <h3 id="format_toolbar">Панель форматирования</h3>
+
+    <p>Панель форматирования очень важный инструмент редактирования веб-страниц в &brandShortName;. 
+    С помощью панели форматирования вы можете менять вид параграфов, выбирать шрифт, менять цвет шрифтов и фона,
+    уменьшать или увеличивать и выделять блоки текста. Так же вы можете создавать нумерованные и маркированные списки,
+    выравнивать текст влево, вправо и по центру. Чтобы узнать, что делает конкретная кнопка, поместите курсор мыши над ней и
+    в появившейся подсказке появится описание ее функции.</p>
+
+    <p><img src="images/tut_formating_tb.png" title="Formating Toolbar" width="564" height="53" alt="" /></p>
+
+    <h3 id="tab_browser_toolbar">Панель вкладок</h3>
+
+    <p>&brandShortName; позволяет одновременно редактировать несколько документов, используя разные 
+    вкладки для каждого открытого документа. Эта возможность, позволяет вам не загромождать ваш 
+    рабочий стол множеством открытых окон, поскольку для всех документов используется всего одно окно.
+    Специальный индикатор "<em>красная дискета</em>" указывает что в данной вкладке открыт документ, в 
+    который внесены изменения, но после этого он еще не сохранялся.</p>
+
+    <p><img src="images/tut_tabbrowser_tb.png" title="Tab Browser Toolbar" width="454" height="30" alt="" /></p>
+
+    <h3 id="edit_mode_toolbar">Панель режимов редактирования</h3>
+
+    <p>Панель режимов редактирования показывает в каком режиме просматривается текущий документ.
+    Доступны режимы Обычный, HTML-теги, HTML-код и Предварительный просмотр. Вы можете легко изменить ваш режим просмотра, просто
+    щелкнув по любой вкладке режимов мышью.</p>
+
+    <p><img src="images/tut_editmode_tb.png" title="Edit Mode Toolbar" width="405" height="27" alt="" /></p>
+
+    <h3 id="status_toolbar">Строка состояния</h3>
+
+    <p>Строка состояния &brandShortName; показывает позицию курсора
+    относительно иерархии тэга &lt;html&gt;. Вы можете легко редактировать/назначать
+    свойства любого специфического тэга в строке состояния щелкнув по нему правой кнопкой мыши
+    и выбрав нужную опцию. Щелчок левой кнопкой мыши по тегу в строке состояния - выделит 
+    текст внутри этого тега.</p>
+
+    <p><img src="images/tut_status_tb.png" title="Status Toolbar" width="235" height="41" alt="" /></p>
+
+    <p>[ <a href="#introduction_to_the_user_interface">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="starting_a_new_document">Создание нового документа</h2>
+
+    <p>Вы можете создать новый документ щелкнув по кнопке "Создать" на панели компоновки
+    или в меню "Файл" выбрать пункт "Создать" и в открывшемся диалоговом окне выбрать 
+    "Пустой документ" и нажать кнопку "Создать". Если вы хотите редактировать существующий 
+    файл, то в меню "Файл" выберите "Открыть" и укажите файл, который вы хотите изменить. 
+    Более подробную информацию о создании нового документа вы можете получить в разделе
+    <a href="composer_help.xhtml#starting_a_new_page">Создание новой страницы</a> этой справки.</p>
+
+    <p>Так же, вы можете создать новый документ используюя шаблоны. Шаблоны позволяют
+    сделать управление сайтом гораздо проще, вам нужно будет редактировать только тест 
+    для каждой отдельной страницы и не беспокоиться о дизайне, поскольку он контролируется 
+    шаблоном. Мы не будем здесь углубляться в использование шаблонов, подробно этот вопрос 
+    рассмотрен в разделе <a href="templates.xhtml">Работа с шаблонами</a>
+    этой справки.</p>
+
+    <p>[ <a href="#starting_a_new_document">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="basic_formatting_of_the_document">Основы форматирования</h2>
+
+    <p>Текст, который дан в следующем разделе поможет нам разобраться с 
+    форматированием нового документа. На примере этого текста мы ознакомимся с основными 
+    функциями форматирования доступными в &brandShortName;. Скопируйте расположенный ниже текст
+    и вставьте его в новый документ.</p>
+
+    <h3 id="tutorial_text">Текст примера</h3>
+
+    <!-- The text for the tutorial is a general text. It was by chance
+         that I was reading a book by Jim Corbett when I was planning
+         about the text to be used for the tutorial. So I wrote a few
+         paragraphs with the information I collected from a couple of
+         books and several websites. I donot guarantee for the
+         information to be correct. So, if you want detailed
+         information about Corbett National Park, consult tourist
+         books, and the WWW. In case you want to change the text,
+         please make sure that neither the new text is not copyrighted
+         nor you should use copyrighted images. All text and images
+         used in the tutorial are supposed to be distributed under the
+         GNU GPL, and MPL license. -->
+
+    <p>Corbett National Park</p>
+
+    <p>Corbett National Park, named in the memory of Jim Corbett, was
+    created in 1938 and was the first national park to be established
+    in Asia. It is situated in the northern state of Uttranchal in
+    India. It has an area of 512 sq. km. The combined area of Corbett
+    National Park, Sonandi Wildlife sanctuary and Reserve Forest areas
+    summing up to 1288 sq. km. constitute a bigger project called
+    Corbett Tiger Reserve.</p>
+
+    <p>The most famous animals of Corbett National Park are the Bengal
+    Tiger and the Asiatic elephant. It is also a home to other animals
+    like etc etc. Situated at the junction of the Garhwal and Kumaon
+    hill regions it also boasts of the combination of cultures of
+    people of both regions.</p>
+
+    <p>Jim Corbett</p>
+
+    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
+    converted into a museum by the government as a dedication to his
+    life and times. He was a naturalist, conservationalist and an avid
+    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
+    Nanital. After fighiting for the British army in the WWI, he came
+    back to India and settled in Kaladhungi with his sister,
+    Maggie. He was called up several times by village people and the
+    government to get rid of man-eating tigers and leopards.</p>
+
+    <p>Visiting Corbett National Park</p>
+
+    <p>General Information</p>
+
+    <p>Altitude: 385-1100m above sea level</p>
+
+    <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+    <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+    <p>Open for tourists from 15 November to 15 June.</p>
+
+    <p>Getting there:</p>
+
+    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
+    road it is connected to Delhi, Moradabad, Bareilly and
+    Nanital. State transport buses ply from Delhi, Moradabad and
+    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+    taking a train from New Delhi.</p>
+
+    <h3>Форматирование текста</h3>
+
+    <p>Первое, что мы будем делать это заголовки и подзаголовки.
+    Выделите текст "Corbett National Park" вверху документа и щелкните по 
+    выпадающему меню <em>Обычный текст</em> на <strong>Панели форматирования</strong>
+    и выберите <tt>Заголовок 1</tt>. Текст будет оформлен стилем по умолчаию для 
+    заголовка первого уровня. Аналогично, выделите текст "Visiting Corbett
+    National Park" и сделайте го заголовком второго уровня.</p>
+
+    <p>Теперь мы разобьем текст на абзацы. Выделите текст который вы хотите 
+    оформить как парграф и выберите <em>Абзац</em> так же, как вы выбирали заголовки.
+    Текст который представлен здесь для примера уже разбит на абзацы, что бы лучше выглядеть,
+    но для тренировки вы можете убрать разбивку и оформить текст заново.</p>
+
+    <p>Так же, вы можете оформить отдельные слова или фразы используя кнопки 
+    <strong>полужирный</strong>(<strong>B</strong>),
+    <em>курсивный</em>(<strong><em>I</em></strong>) или 
+    <u>подчеркнутый</u>(<strong><u>U</u></strong>) на 
+    <strong>Панели форматирования</strong>, чтобы сделать так же как это сделано здесь.
+    Некоторые другие опции форматирования для вашего доступны через Панель 
+    форматирования или из меню "Формат" на панеле меню. Попробуйте использовать эти опции,
+    их изучение поможет вам в будущем. Если у вас что-то нарушится, не беспокойтесь, нажмите 
+    сочетание клавишь "<tt>Ctrl+Z</tt>" это <em>отменит</em> ваше предыдущее действие. Для получения 
+    более полных сведений о всех возможностях форматирования текста веб-страниц с помощью &brandShortName;
+    смотрите раздел <a href="formatting_webpages.xhtml">Форматирование</a> 
+    этой справки.</p>
+
+    <p>На данной стадии, ваш тест примера должен выглядеть так:</p>
+
+    <hr />
+
+    <div style="font-size:x-large;">Corbett National Park</div>
+
+    <p><em>Corbett National Park</em>, named in the memory of
+    <strong>Jim Corbett</strong>, was created in 1938 and was the
+    first national park to be established in Asia. It is situated in
+    the northern state of Uttranchal in India. It has an area of 512
+    sq. km. The combined area of Corbett National Park, Sonandi
+    Wildlife sanctuary and Reserve Forest areas summing up to 1288
+    sq. km. constitute a bigger project called Corbett Tiger
+    Reserve.</p>
+
+    <p>The most famous animals of Corbett National Park are the
+    <em>Bengal Tiger</em> and the <em>Asiatic elephant</em>. It is
+    also a home to other animals like etc etc. Situated at the
+    junction of the Garhwal and Kumaon hill regions it also boasts of
+    the combination of cultures of people of both regions.</p>
+
+    <div style="font-size:large;">Jim Corbett</div>
+
+    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
+    converted into a museum by the government as a dedication to his
+    life and times. He was a naturalist, conservationalist and an avid
+    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
+    Nanital. After fighiting for the British army in the WWI, he came
+    back to India and settled in Kaladhungi with his sister,
+    Maggie. He was called up several times by village people and the
+    government to get rid of man-eating tigers and leopards.</p>
+
+    <div style="font-size:large;">Visiting Corbett National Park</div>
+
+    <p>General Information</p>
+
+    <p>Altitude: 385-1100m above sea level</p>
+
+    <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+    <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+    <p>Open for tourists from 15 November to 15 June.</p>
+
+    <p>Getting there:</p>
+
+    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
+    road it is connected to Delhi, Moradabad, Bareilly and
+    Nanital. State transport buses ply from Delhi, Moradabad and
+    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+    taking a train from New Delhi.</p>
+
+    <hr />
+
+    <p>[ <a href="#basic_formatting_of_the_document">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="inserting_images_and_tables">Вставка рисунков и таблиц</h2>
+
+    <p>Изображения, таблицы и формы могут быть вставлены/созданы в вашем документе 
+    при помощи <strong>Панели компоновки</strong>. Попродуйте вставить таблицу и 
+    скопировать основную информацию о Corbett
+    National Park в нее. Щелкните по кнопке "<em>Таблица</em>" <img src="images/table.png" width="24" height="24" alt="" /> 
+    на Панели компоновки и выберите с помощью мыши таблицу состоящую из 5 строк и 2 столбцов. 
+    Щелчек по пятой строке во втором столбце создаст таблицу в вашем документе.</p>
+
+    <p>Чтобы заполнить ячейки таблицы текстом примера, просто вырежьте ("<tt>Ctrl+X</tt>") текст и вставьте 
+    ("<tt>Ctrl+V</tt>") его в нужную ячейку таблицы. После того как вы проделаете это, таблица должна выглядеть 
+    так:</p>
+
+    <!-- Do not remove inline styles from tutorial text.
+	 This is to override the style sheet rules.-->
+
+    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+	<tr>
+	  <td style="width: 186px;">Altitude</td>
+
+	  <td style="width: 451px;">85-1100m above sea level</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Annual Rainfall</td>
+	  <td style="width: 451px;">1400mm - 2800mm</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Temperature range</td>
+	  <td style="width: 451px;">4C in winter to 42C in summer</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Open for tourists</td>
+	  <td style="width: 451px;">15 November to 15 June</td>
+	</tr>
+
+	<tr>
+	  <td style="width: 186px;">Getting there</td>
+	  <td style="width: 451px;">The head quarters of Corbett Tiger
+	  Reserver are at Ramnagar. By road it is connected to Delhi,
+	  Moradabad, Bareilly and Nanital. State transport buses ply
+	  from Delhi, Moradabad and Haldwani to Ramnagar. By rail
+	  tourists can reach Ramnagar by taking a train from New
+	  Delhi.</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Вы можете изменить свойства созданной таблицы, отметив ее, то есть поместив 
+    курсор внутрь таблицы, а затем щелкнув по кнопке "<strong>Таблица</strong>" на <strong>Панели 
+    компоновки</strong>. В диалоговом окне "Свойства таблицы" вы можете изменить различные свойства 
+    таблицы, строки, столбца или ячейки, такие как фоновый цвет таблицы или ячейки, заголовок таблицы,
+    выравнивание таблицы, ширина таблицы или столбца и т.д.</p>
+
+    <p>Для получения детальной информации о различных свойствах таблицы смотрите раздел <a
+    href="tables.xhtml#adding_tables_to_your_web_page">Вставка таблицы</a> этой справки.</p>
+
+    <p>[ <a href="#inserting_images_and_tables">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="advanced_styles">Дополнительные стили</h2>
+
+    <p>&brandShortName; позволяет пользователям создавать и редактировать каскадные таблицы стилей
+    с помощью встроенного редактора таблиц стилей "CaScadeS". CaScadeS позволяет использовать 
+    как внутренние так и внешние таблицы стилей для редактируемых документов. Подробности о том, как
+    использовать CaScadeS выходят за пределы этого Введения. Дополнительные сведения вы найдете в разделе
+    <a href="css.xhtml">Использование каскадных таблиц 
+    стилей</a> этой справки.</p>
+
+    <p>[ <a href="#advanced_styles">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="publishing_your_documents_basics">Публикация документов</h2>
+
+    <p>Вы можете опубликовать ваши документы с помощью встроенного в &brandShortName; Менеджера сайта.
+    Вы можете управлять его видимостью нажатием клавиши "F9".</p>
+
+    <p>В Менеджер сайта вносятся изменения, по этому данный раздел будет доработан после завершения доработки 
+    Менеджера сайта.</p>
+
+    <p>[ <a href="#publishing_your_documents_basics">Вернуться в начало раздела</a> ]</p>
+
+    <div class="copyrightBox"><em>22 июня 2005</em></div>
+
+    <p>Copyright &copy; 2003-2004 Contributors to the &brandShortName; Help Documentation Project.</p>
+
+  </body>
+</html>

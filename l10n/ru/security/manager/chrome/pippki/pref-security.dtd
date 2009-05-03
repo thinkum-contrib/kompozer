@@ -1,0 +1,13 @@
+<!ENTITY certs.label "Сертификаты">
+<!ENTITY managecerts.accesskey "а">
+<!ENTITY managecerts.button "Управление сертификатами...">
+<!ENTITY managecerts.caption "Управление сертификатами">
+<!ENTITY managecerts.text "Используйте менеджер сертификатов для управления личными сертификатами и сертификатами, принадлежащими другим людям и центрам сертификации.">
+<!ENTITY managedevices.accesskey "п">
+<!ENTITY managedevices.button "Управление устройствами...">
+<!ENTITY managedevices.caption "Управление устройствами защиты">
+<!ENTITY managedevices.text "Нажав на эту кнопку, вы сможете управлять вашими устройствами защиты (например, смарт-картами).">
+<!ENTITY pref.certs.title "Сертификаты">
+<!ENTITY resetpreferences.label "Сброс настроек...">
+<!ENTITY resetsettings.label "Сброс параметров">
+<!ENTITY ssl.label "SSL">

@@ -1,0 +1,33 @@
+<!ENTITY window.title "about:config">
+<!ENTITY filterPrefs.label "Фильтр:">
+<!ENTITY filterPrefs.accesskey "Ф">
+<!ENTITY showAll.label "Показать всё">
+<!ENTITY showAll.accesskey "П">
+<!ENTITY prefColumn.label "Имя настройки">
+<!ENTITY lockColumn.label "Состояние">
+<!ENTITY typeColumn.label "Тип">
+<!ENTITY valueColumn.label "Значение">
+<!ENTITY prefColumnHeader.tooltip "Нажмите для сортировки">
+<!ENTITY columnChooser.tooltip "Нажмите, чтобы выбрать колонки для отображения">
+<!ENTITY copyName.label "Копировать имя">
+<!ENTITY copyName.accesskey "К">
+<!ENTITY copyValue.label "Копировать значение">
+<!ENTITY copyValue.accesskey "з">
+<!ENTITY modify.label "Изменить">
+<!ENTITY modify.accesskey "И">
+<!ENTITY toggle.label "Переключить">
+<!ENTITY toggle.accesskey "П">
+<!ENTITY reset.label "Сбросить">
+<!ENTITY reset.accesskey "р">
+<!ENTITY new.label "Создать">
+<!ENTITY new.accesskey "С">
+<!ENTITY string.label "Строка">
+<!ENTITY string.accesskey "т">
+<!ENTITY integer.label "Целое">
+<!ENTITY integer.accesskey "Ц">
+<!ENTITY boolean.label "Логическое">
+<!ENTITY boolean.accesskey "Л">
+<!ENTITY lock.label "Заблокировать">
+<!ENTITY lock.accesskey "З">
+<!ENTITY unlock.label "Разблокировать">
+<!ENTITY unlock.accesskey "Р">

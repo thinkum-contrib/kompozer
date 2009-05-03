@@ -1,0 +1,39 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY sidebar.close.tooltip "Закрыть Менеджер сайта">
+<!ENTITY sidebar.customize.accesskey "Н">
+<!ENTITY sidebar.customize.label "Настроить Боковую панель...">
+<!ENTITY sidebar.hide.accesskey "к">
+<!ENTITY sidebar.hide.label "Скрыть раздел">
+<!ENTITY sidebar.loading.label "Идет загрузка...">
+<!ENTITY sidebar.loading.stop.accesskey "С">
+<!ENTITY sidebar.loading.stop.label "Стоп">
+<!ENTITY sidebar.loadstopped.label "Загрузка остановлена">
+<!ENTITY sidebar.no-panels.add 'Вы можете добавить разделы, нажав на кнопку "Разделы".'>
+<!ENTITY sidebar.no-panels.hide 'Если вы хотите скрыть Боковую панель, выберите в меню "Вид" пункт "Боковая панель".'>
+<!ENTITY sidebar.no-panels.state "Боковая панель пуста.">
+<!ENTITY sidebar.open.tooltip "Открыть Боковую панель">
+<!ENTITY sidebar.pagenotfound.label "Этот раздел сейчас недоступен.">
+<!ENTITY sidebar.panels.label "Боковая панель">
+<!ENTITY sidebar.picker.label "Разделы">
+<!ENTITY sidebar.reload.accesskey "О">
+<!ENTITY sidebar.reload.label "Обновить">
+<!ENTITY sidebar.sbDirectory.label "Каталог разделов Боковой панели...">
+<!ENTITY sidebar.switch.accesskey "П">
+<!ENTITY sidebar.switch.label "Переключиться в раздел">
+<!ENTITY sidebarCmd.accesskey "м">
+<!ENTITY sidebarCmd.label "Менеджер сайта ">

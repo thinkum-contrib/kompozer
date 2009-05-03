@@ -1,0 +1,10 @@
+<!ENTITY certOCSP.label "Использовать OCSP для проверки только тех сертификатов, в которых указан URL службы OCSP">
+<!ENTITY disableOCSP.label "Не использовать OCSP для проверки действительности сертификатов">
+<!ENTITY ocspDialog.title "Настройки OCSP">
+<!ENTITY proxyOCSP.label "Использовать OCSP для проверки всех сертификатов с помощью этого URL:">
+<!ENTITY serviceURL.accesskey "с">
+<!ENTITY serviceURL.label "URL службы:">
+<!ENTITY signingCA.accesskey "т">
+<!ENTITY signingCA.label "Подписавшаяся сторона:">
+<!ENTITY validation.ocsp.description "&brandShortName; может использовать протокол просмотра статуса сертификатов (OCSP) для верификации сертификатов. Настройте &brandShortName; для использования OCSP:">
+<!ENTITY window.width "54em">

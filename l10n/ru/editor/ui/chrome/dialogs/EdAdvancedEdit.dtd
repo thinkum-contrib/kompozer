@@ -1,0 +1,29 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY AttName.label "Атрибут:">
+<!ENTITY AttValue.label "Значение:">
+<!ENTITY PropertyName.label "Свойство:">
+<!ENTITY WindowTitle.label "Редактор дополнительных свойств">
+<!ENTITY currentattributesfor.label "Текущие атрибуты для:">
+<!ENTITY editAttribute.label "Щелкните по объекту вверху, чтобы изменить его значение">
+<!ENTITY removeAttribute.label "Удалить">
+<!ENTITY tabCSS.label "Стилевое оформление">
+<!ENTITY tabHTML.label "HTML-атрибуты">
+<!ENTITY tabJSE.label "События JavaScript">
+<!ENTITY tree.attributeHeader.label "Атрибут">
+<!ENTITY tree.propertyHeader.label "Свойство">
+<!ENTITY tree.valueHeader.label "Значение">

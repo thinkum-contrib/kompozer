@@ -1,0 +1,26 @@
+<!ENTITY SSLClientAuthMethod.caption "Выбор сертификата клиента">
+<!ENTITY SSLProtocolVersions.caption "Версии протокола SSL">
+<!ENTITY SSLWarnings.caption "Предупреждения SSL">
+<!ENTITY certselect.ask "Спрашивать каждый раз">
+<!ENTITY certselect.ask.accesskey "к">
+<!ENTITY certselect.auto "Выбирать автоматически">
+<!ENTITY certselect.auto.accesskey "а">
+<!ENTITY certselect.description "Определите, как &brandShortName; будет выбирать сертификат, если сайт запросит его:">
+<!ENTITY enable.ssl3 "Включить SSL версии 3">
+<!ENTITY enable.ssl3.accesskey "3">
+<!ENTITY enable.tls "Включить TLS">
+<!ENTITY enable.tls.accesskey "T">
+<!ENTITY pref.ssl.title "Протокол защищённых сокетов (SSL)">
+<!ENTITY warn.description "&brandShortName; может сообщать вам об уровне защиты просматриваемой вами страницы. &brandShortName; будет выводить предупреждения и запрашивать разрешение перед:">
+<!ENTITY warn.enteringsecure "загрузкой страницы, поддерживающей шифрование">
+<!ENTITY warn.enteringsecure.accesskey "о">
+<!ENTITY warn.enteringweak "загрузкой страницы, использующей слабое шифрование">
+<!ENTITY warn.enteringweak.accesskey "с">
+<!ENTITY warn.insecurepost "отправкой данных формы с незашифрованной страницы на незашифрованную">
+<!ENTITY warn.insecurepost.accesskey "ф">
+<!ENTITY warn.leavingsecure "уходом со страницы, поддерживающей шифрование">
+<!ENTITY warn.leavingsecure.accesskey "у">
+<!ENTITY warn.secureredirect "перенаправлением с одной зашифрованной страницы на другую">
+<!ENTITY warn.secureredirecttoinsecure "перенаправлением с зашифрованной страницы на незашифрованную">
+<!ENTITY warn.viewmixed "просмотром страницы со смешанным содержанием">
+<!ENTITY warn.viewmixed.accesskey "м">

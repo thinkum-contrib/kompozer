@@ -1,0 +1,93 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY backButton.accesskey "Н">
+<!ENTITY backButton.label "Назад">
+<!ENTITY backButton.tooltip "На предыдущую страницу">
+<!ENTITY backwardsCheckbox.accesskey "ц">
+<!ENTITY backwardsCheckbox.label "Искать с конца">
+<!ENTITY cancelButton.label "Отмена">
+<!ENTITY caseSensitiveCheckbox.accesskey "у">
+<!ENTITY caseSensitiveCheckbox.label "С учетом регистра">
+<!ENTITY closeWindow.commandkey "W">
+<!ENTITY cmd_CustomizeToolbars.label "Настроить">
+<!ENTITY customizeButton.tooltip "Настроить какие кнопки будут показаны на панели Справки. ">
+<!ENTITY direction.label "Направление">
+<!ENTITY down.accesskey "н">
+<!ENTITY down.label "Вниз">
+<!ENTITY find.label "Найти:">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findBtn.label "Найти">
+<!ENTITY findButton.accesskey "н">
+<!ENTITY findButton.label "Искать дальше">
+<!ENTITY findCloseButton.tooltip "Закрыть панель поиска">
+<!ENTITY findDialog.title "Найти на этой странице">
+<!ENTITY findDialogFrame.title "Найти в этом фрейме">
+<!ENTITY findField.accesskey "п">
+<!ENTITY findField.label "Поиск:">
+<!ENTITY findField.tooltip "Введите одно или несколько слов чтобы найти их">
+<!ENTITY findNext.label "Искать дальше">
+<!ENTITY findNext.tooltip "Найти следующее совпадение">
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findPrevious.label "Вернуться назад">
+<!ENTITY findPrevious.tooltip "Найти предыдущее совпадение">
+<!ENTITY forwardButton.accesskey "В">
+<!ENTITY forwardButton.label "Вперед">
+<!ENTITY forwardButton.tooltip "На следующую страницу">
+<!ENTITY glossarytab.accesskey "С">
+<!ENTITY glossarytab.label "Словарь">
+<!ENTITY glossname.label "Имя">
+<!ENTITY gobtn.label "Поиск">
+<!ENTITY highlight.label "Подсветка">
+<!ENTITY highlight.tooltip "Подсветить все совпадения (Ctrl+Enter)">
+<!ENTITY homeButton.label "К началу">
+<!ENTITY homeButton.tooltip "Перейти к начальной странице справки">
+<!ENTITY indextab.accesskey "И">
+<!ENTITY indextab.label "Индекс">
+<!ENTITY ixname.label "Имя">
+<!ENTITY name.label "Элемент">
+<!ENTITY printButton.label "Печать">
+<!ENTITY printButton.tooltip "Напечатать эту страницу">
+<!ENTITY printCmd.commandkey "p">
+<!ENTITY reloadCmd.accesskey "О">
+<!ENTITY reloadCmd.label "Обновить">
+<!ENTITY searchbtn.label "Найти">
+<!ENTITY searchtab.accesskey "П">
+<!ENTITY searchtab.label "Поиск">
+<!ENTITY sidebarBtn.label "Показать боковую панель">
+<!ENTITY sidebarBtn.tooltip "Показать или скрыть боковую панель справки">
+<!ENTITY textZoomEnlargeBtn.accesskey "в">
+<!ENTITY textZoomEnlargeBtn.label "Увеличить размер шрифта">
+<!ENTITY textZoomEnlargeBtn.tooltip "Увеличить размер шрифта в справке. ">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomReduceBtn.accesskey "м">
+<!ENTITY textZoomReduceBtn.label "Уменьшить размер шрифта">
+<!ENTITY textZoomReduceBtn.tooltip "Уменьшить размер шрифта в справке.">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY throbberItem.title "Индикатор активности">
+<!ENTITY toctab.accesskey "С">
+<!ENTITY toctab.label "Содержание">
+<!ENTITY up.accesskey "р">
+<!ENTITY up.label "Вверх">
+<!ENTITY viewCustomizeToolbar.accesskey "Н">
+<!ENTITY viewCustomizeToolbar.label "Настроить панель...">
+<!ENTITY wrapCheckbox.accesskey "п">
+<!ENTITY wrapCheckbox.label "Перенос">
+<!ENTITY copyCmd.label                  "Копировать">
+<!ENTITY copyCmd.accesskey              "К">

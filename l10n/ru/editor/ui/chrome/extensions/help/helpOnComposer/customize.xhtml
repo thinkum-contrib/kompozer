@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>Настройка интерфейса &brandShortName;</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Показать/Скрыть</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Справка</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">В этом разделе:
+  <a href="#toolbar_customization">Настройка панелей инструментов</a>
+  <a href="#enhancing_nvu_functionality">Расширение возможностей &brandShortName;</a>
+  </div>
+
+  <h2 id="customizing_toolbars">Настройка интерфейса &brandShortName;</h2>
+<p>Панель инструментов &brandShortName; может быть настроена 
+по желанию пользователя. Пользователи могут вынести на панель инструментов наиболее 
+часто применяемые кнопки и скрыть редко используемые. Возможность придать &brandShortName; 
+наиболее удобый для пользователя вид упрощает использование программы.</p>
+<h2 id="toolbar_customization">Настройка панелей инструментов</h2>
+
+<h3 id="how_to_customize_toolbars">Как настроить панели инструментов?</h3>
+
+<p>Для того чтобы открыть окно настройки панелей инструментов, щелкните <span
+class="menuPath">Вид > Показать/Скрыть > Настроить...</span> и выберите 
+панель инструментов, которую вы хотите изменить. Или щелкните правой клавишей 
+мыши по панели инструментов в любой её части, и выберите "Настроить...".</p>
+
+<p>Для настройки панелей инструментов</p>
+
+<ul>
+  <li>Вы можете щелкнуть и перетащить кнопку, разделитель, интервал изменяемой длины или
+  интервал на панель инструментов в то место, куда вы хотите их поместить.</li>
+
+  <li>Вы можете перетащить элементы (кнопку, разделитель, интервал изменяемой длины, или
+  интервал) с панели инструментов и поместить их обратно в окно настройки.</li>
+
+  <li>Вы так же можете изменить внешний вид кнопок на панели инструментов (только для Основной панели)
+  выбрав отображать "Иконки и текст", только "Иконки" или только "Текст".</li>
+
+</ul>
+
+<p class="returnToSection">[ <a href="#customizing_toolbars">Вернуться в начало раздела</a> ]</p>
+
+  <h2 id="enhancing_nvu_functionality">Расширение возможностей &brandShortName;</h2>
+
+  <p>&brandShortName; имеет встроенный механизм, позволяющий расширить его и без того 
+  богатые возможности. Добавить новые функции в &brandShortName; можно с помощью <em>расширений</em>.
+  Расширения - это маленькие программы, установка которых, позволяет пользователям 
+  получить дополнительные возможности и функции для работы в &brandShortName;. Пользователи могут 
+  установить только те расширения, которые они захотят. Таким образом, расширения позволяют пользователям
+  иметь &brandShortName; полностью настроенный под их потребности. Чтобы установить расширение:</p>
+
+  <ul> 
+    <li>Загрузите расширение на ваш компьютер и сохраните в удобном для вас месте
+    Большинство расширений может быть загружено с официального веб-сайта &brandShortName;.</li>
+
+    <li>Откройте <strong>Менеджер расширений</strong>(МР) щелкнув <span class="menuPath">Инструменты > 
+    Расширения</span>. МР откроет список всех установленных расширений (если таковые имеются).</li>
+
+    <li>Чтобы установить загруженное вами расширение, щелкните по кнопке <em>Установить</em>.</li>
+    
+    <li>Выберите расширение в окне файлового браузера и щелкните по кнопке <em>Открыть</em>.</li>
+
+    <li>Щелкните кнопку <em>Установить сейчас</em> в окне установки программного обеспечения.</li>
+
+    <li>После завершения установки, перезапустите &brandShortName; чтобы воспользоваться возможностями, 
+    добавленными установленным расширением.</li>
+  </ul>
+
+  <p>Вы должны регулярно проверять наличие обновлений для установленных расширений 
+  с помощью Менеджера расширений. Обновления обычно повышают функциональность 
+  расширений и устраняют проблемы ранних версий.</p>
+
+<p>[<a href="links.xhtml">Предыдущий</a>]</p>
+
+  <div class="copyrightBox"><em>24 июня 2005</em></div>
+
+  <p>Copyright &copy; 2004-2005 Contributors to the &brandShortName; Documentation
+  Project.</p>
+
+</body>
+</html>

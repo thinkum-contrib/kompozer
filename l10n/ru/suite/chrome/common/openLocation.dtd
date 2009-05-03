@@ -1,0 +1,32 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY blankDocument.label "Пустой документ">
+<!ENTITY blankTemplate.label "Пустой шаблон">
+<!ENTITY cancel.label "Отмена">
+<!ENTITY caption.label "Новый документ">
+<!ENTITY chooseFile.accesskey "ы">
+<!ENTITY chooseFile.label "Выбрать файл...">
+<!ENTITY documentTypeCaption.label "Какой файл вы хотите создать?">
+<!ENTITY editNewWindow.label "В новом окне">
+<!ENTITY enter.accesskey "В">
+<!ENTITY enter.label "Введите адрес в Интернете (URL) или укажите файл на диске, который хотите открыть:">
+<!ENTITY newFromTemplate.label "Новый документ из шаблона">
+<!ENTITY newTab.label "В новой вкладке">
+<!ENTITY openWhere.accesskey "О">
+<!ENTITY openWhere.label "Открыть в:">
+<!ENTITY xhtmlDocument.label "Создать XHTML документ">
+<!ENTITY strictDtd.label "Strict DTD">

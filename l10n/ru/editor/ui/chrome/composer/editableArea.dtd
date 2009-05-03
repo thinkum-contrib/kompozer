@@ -1,0 +1,27 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY areaName.label "Имя области">
+<!ENTITY areaType.label "Тип области">
+<!ENTITY blockAreaRadio.label "Блок">
+<!ENTITY flowAreaRadio.label "Поток текста">
+<!ENTITY movableAreaCheckbox.label "Перемещаемая область">
+<!ENTITY optionalAreaCheckbox.label "Дополнительная область">
+<!ENTITY options.label "Параметры">
+<!ENTITY provideId.label "Пожалуйста укажите имя для этой редактируемой области">
+<!ENTITY repeatableAreaCheckbox.label "Повторяющаяся область">
+<!ENTITY warning.label "Ошибка, это имя уже используется!!!">
+<!ENTITY window.title "Вставка редактируемой области">

@@ -1,0 +1,35 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY AccessKey.accesskey "К">
+<!ENTITY AccessKey.label "Клавиша доступа:">
+<!ENTITY ButtonDisabled.accesskey "О">
+<!ENTITY ButtonDisabled.label "Отключено">
+<!ENTITY ButtonName.accesskey "И">
+<!ENTITY ButtonName.label "Имя:">
+<!ENTITY ButtonType.accesskey "Т">
+<!ENTITY ButtonType.label "Тип">
+<!ENTITY ButtonValue.accesskey "З">
+<!ENTITY ButtonValue.label "Значение:">
+<!ENTITY RemoveButton.accesskey "У">
+<!ENTITY RemoveButton.label "Удалить кнопку">
+<!ENTITY Settings.label "Параметры">
+<!ENTITY button.value "Кнопка">
+<!ENTITY reset.value "Сброс">
+<!ENTITY submit.value "Отправка">
+<!ENTITY tabIndex.accesskey "П">
+<!ENTITY tabIndex.label "Последовательность перехода:">
+<!ENTITY windowTitle.label "Свойства кнопки">

@@ -1,0 +1,28 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY docSubdir.label "Подкаталог страниц:">
+<!ENTITY failed.label "Ошибка">
+<!ENTITY fileList.label "Состояние публикации">
+<!ENTITY filenameHeader.label "Имя файла">
+<!ENTITY keepOpen "Не закрывать это окно после завершения публикации.">
+<!ENTITY otherSubdir.label "Подкаталог изображений:">
+<!ENTITY siteUrl.label "URL сайта:">
+<!ENTITY status.label "Публикация...">
+<!ENTITY statusHeader.label "Состояние">
+<!ENTITY succeeded.label "Готово">
+<!ENTITY troubleshooting.accessKey "Р">
+<!ENTITY troubleshooting.label "Решение проблем">

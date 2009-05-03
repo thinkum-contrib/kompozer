@@ -1,0 +1,22 @@
+<!ENTITY alwaysHandle.accesskey "ф">
+<!ENTITY alwaysHandle.label "Применять всегда для файлов этого типа">
+<!ENTITY badApp "Выбранное вами приложение (&quot;#1&quot;) не найдено. Проверьте правильность написания имени файла или выберите другое приложение.">
+<!ENTITY badApp.title "Приложение не найдено">
+<!ENTITY caption.label "Открытие #1">
+<!ENTITY chooseApp.accesskey "б">
+<!ENTITY chooseApp.label "Выбрать...">
+<!ENTITY chooseAppFilePickerTitle "Выбор приложения">
+<!ENTITY intro.attachment.label "Сайт предложил обрабатывать &quot;#3&quot; как вложение. Его тип - #2 (#1), он расположен по адресу:">
+<!ENTITY intro.attachment.noDesc.label "Сайт предложил обрабатывать &quot;#3&quot; как вложение. Его тип - #2, он расположен по адресу:">
+<!ENTITY intro.label "Выбран файл &quot;#3&quot; типа #2 (#1), и #4 не знает, как его обрабатывать. Файл расположен по адресу:">
+<!ENTITY intro.noDesc.label "Выбран файл &quot;#3&quot; типа #2, и #4 не знает, как его обрабатывать. Файл расположен по адресу:">
+<!ENTITY intro.sniffed.label "#4 определил, что файл &quot;#3&quot; вероятно является файлом типа #2 (#1). Файл расположен по адресу:">
+<!ENTITY intro.sniffed.noDesc.label "#4 определил, что файл &quot;#3&quot; вероятно является файлом типа #2. Файл расположен по адресу:">
+<!ENTITY openUsing.accesskey "О">
+<!ENTITY openUsing.label "Открыть с помощью">
+<!ENTITY prompt.label "Что следует #1 сделать с этим файлом?">
+<!ENTITY saveToDisk.accesskey "С">
+<!ENTITY saveToDisk.label "Сохранить файл на диск">
+<!ENTITY useSystemDefault.accesskey "О">
+<!ENTITY useSystemDefault.label "Открыть с помощью приложения по умолчанию (#1)">
+<!ENTITY useSystemDefault.noDesc.label "Открыть с помощью приложения по умолчанию">

@@ -1,0 +1,20 @@
+<!ENTITY backwardsCheckbox.accesskey "П">
+<!ENTITY backwardsCheckbox.label "Поиск в обратном направлении">
+<!ENTITY cancelButton.label "Отмена">
+<!ENTITY caseSensitiveCheckbox.accesskey "р">
+<!ENTITY caseSensitiveCheckbox.label "С учётом регистра">
+<!ENTITY closeButton.label "Закрыть">
+<!ENTITY direction.label "Направление">
+<!ENTITY down.accesskey "з">
+<!ENTITY down.label "Вниз">
+<!ENTITY findButton.accesskey "Н">
+<!ENTITY findButton.label "Найти">
+<!ENTITY findDialog.title "Найти на этой странице">
+<!ENTITY findDialogFrame.title "Найти в этом фрейме">
+<!ENTITY findField.accesskey "т">
+<!ENTITY findField.label "Найти текст:">
+<!ENTITY findField.tooltip "Введите одно или более слов для поиска">
+<!ENTITY up.accesskey "В">
+<!ENTITY up.label "Вверх">
+<!ENTITY wrapCheckbox.accesskey "а">
+<!ENTITY wrapCheckbox.label "С начала страницы">

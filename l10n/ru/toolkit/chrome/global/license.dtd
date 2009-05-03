@@ -1,0 +1,19 @@
+<!ENTITY license.part0 "is copyright">
+<!ENTITY license.part1 "Авторское право принадлежит">
+<!ENTITY license.contrib "авторам">
+<!ENTITY license.part2 "согласно условиям установленным в">
+<!ENTITY license.part3 " . Все права защищены.">
+<!ENTITY about.version "версия">
+<!ENTITY about.copy.beforeLink "Copyright &copy; 1998-2006">
+<!ENTITY about.copy.linkTitle "Люди внесшие свой вклад">
+<!ENTITY about.copy.afterLink "в проект Mozilla.">
+<!ENTITY about.license.beforeLink "Прочитать">
+<!ENTITY about.license.linkTitle "информацию о лицензии">
+<!ENTITY about.license.afterLink "используемой в этом продукте.">
+<!ENTITY about.relnotes.beforeLink "Прочитать">
+<!ENTITY about.relnotes.linkTitle "замечания к релизу">
+<!ENTITY about.relnotes.afterLink "этой версии.">
+<!ENTITY about.buildconfig.beforeLink "Просмотреть">
+<!ENTITY about.buildconfig.linkTitle "конфигурацию сборки">
+<!ENTITY about.buildconfig.afterLink "используемую в этой версии.">
+<!ENTITY about.buildIdentifier "Идентификатор сборки:">

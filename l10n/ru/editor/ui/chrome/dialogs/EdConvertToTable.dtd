@@ -1,0 +1,25 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY collapseSpaces.label "Игнорировать дополнительные пробелы">
+<!ENTITY collapseSpaces.tooltip "Преобразование соседних пробелов в один разделитель">
+<!ENTITY commaRadio.label "Запятая">
+<!ENTITY deleteCharCheck.label "Удалить символ разделителя">
+<!ENTITY instructions1.label "KompoZer создает новую строку таблицы для каждого выделенного абзаца.">
+<!ENTITY instructions2.label "Выберите символ для разделения выделенного фрагмента на столбцы:">
+<!ENTITY otherRadio.label "Другой символ:">
+<!ENTITY spaceRadio.label "Пробел">
+<!ENTITY windowTitle.label "Преобразование в таблицу">

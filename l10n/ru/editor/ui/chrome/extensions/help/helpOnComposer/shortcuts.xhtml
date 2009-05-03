@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Клавиатурные сокращения &brandShortName;</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  </head>
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Показать/Скрыть</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Справка</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">В этом разделе:
+    <a href="#using_shortcuts">Использование клавиатурных сокращений</a>
+    <a href="#general_shortcuts">Основные клавиатурные сокращения &brandShortName;</a>
+    <a href="#nvu_composition_shortcuts">Клавиатурные сокращения компоновки в &brandShortName;</a>
+    <a href="#help_window_shortcuts">Клавиатурные сокращения окна справки</a>
+    </div>
+
+    <h2>Клавиатурные сокращения &brandShortName;</h2>
+
+     <h2 id="using_shortcuts">Использование клавиатурных сокращений</h2>
+
+    <p>В этом документе применяется следующий формат для того, чтобы показать список 
+    клавиатурных сокращений:</p>
+
+    <p><strong>Например:</strong></p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Команда</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Копировать</td>
+	  <td><span class="noMac">Ctrl+C</span><span
+	  class="mac">Cmd+C</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Для выполнения команды нажмите командную клавишу <kbd
+    class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd> и одновременно с ней 
+    (удерживая коммандную клавишу нажатой) нажмите клавишу <kbd>C</kbd>.</p>
+
+    <p><strong>Подсказка</strong>: Плюс(+) означает, что вы должны нажать одновременно две 
+    клавиши связанные плюсом. Если плюсов больше чем один (например, как в Ctrl+Shift+C),
+    то это означает, что вы должны одновременно нажать все три клавиши.</p>
+
+    <p><strong>Сокращения:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">Control</span><span class="mac">Command
+      на Mac OS клавиатуре</span></li>
+    </ul>
+
+    <p><strong>Примечание</strong>: Некоторые клавиатурные сокращения имеют
+    различные функциональные значения в зависимости от нахождения (фокуса) 
+    курсора. Например, если вы нажмете клавишу <kbd>Home</kbd> в Windows при 
+    просмотре веб-страницы, &brandShortName; переместится вверх веб-страницы. 
+    Однако если вы нажмете клавишу <kbd>Home</kbd> в Windows, когда курсор
+    находится в текстовом поле, то курсор переместится в начало этого поля.</p>
+
+    <p class="returnToSection">[ <a href="#using_shortcuts">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="general_shortcuts">Основные клавиатурные сокращения &brandShortName;</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Команда</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Открыть файл</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Создать новый файл/шаблон</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+N</td>
+	</tr>
+	<tr>
+	  <td>Открыть новую вкладку</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+T</td>
+	</tr>
+	<tr>
+	  <td>Сохранить файл</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+S</td>
+	</tr>
+	<tr>
+	  <td>Копировать</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+C</td>
+	</tr>
+	<tr class="even">
+	  <td>Вставить</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+V</td>
+	</tr>
+	<tr>
+	  <td>Вырезать</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+X</td>
+	</tr>
+	<tr class="even">
+	  <td>Выделить все</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+A</td>
+	</tr>
+	<tr>
+	  <td>Закрыть окно</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Удалить следующее слово</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Del</td>
+	</tr>
+	<tr>
+	  <td>Вверх на одну страницу</td>
+	  <td>Page Up</td>
+	</tr>
+	<tr class="even">
+	  <td>Вниз на одну страницу</td>
+	  <td>Page Down</td>
+	</tr>
+	<tr>
+	  <td>Вверх на одну строку</td>
+	  <td>стрелка вверх</td>
+	</tr>
+	<tr class="even">
+	  <td>Вниз на одну строку</td>
+	  <td>стрелка вниз</td>
+	</tr>
+	<tr>
+	  <td>Отменить</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Z</td>
+	</tr>
+	<tr class="even">
+	  <td>Повторить</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Y</td>
+	</tr>
+	<tr>
+	  <td>Поиск</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+F</td>
+	</tr>
+	<tr class="even">
+	  <td>Искать снова</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> или
+	  F3</span><span class="mac">Cmd+G</span></td>
+	</tr>
+	<tr>
+	  <td>Искать предыдущее</td>
+	  <td><span class="noMac">Ctrl+Shift+F</span><span
+	  class="mac">?</span></td>
+	</tr>
+	<tr>
+	  <td>Открыть контекстное меню</td>
+	  <td><span class="noMac">Shift+F10</span><span
+	  class="mac">Ctrl+Space</span></td>
+	</tr>
+	<tr class="even">
+	  <td>
+	    Открыть главное меню <span class="noMac">(переключение на первое выпадающее меню в верху окна)</span>
+	  </td>
+	  <td><span class="win">Alt или</span><span
+	  class="noMac">F10</span><span class="mac">(Управляется настройками клавиатуры в Панели управления)</span></td>
+	</tr>
+	<tr>
+	  <td>Перейти в начало строки (в редактируемых текстовых полях)</td>
+	  <td><span class="win">Home</span><span class="mac">Cmd+Left
+	  Arrow</span><span class="unix">Ctrl+A</span></td>
+	</tr>
+	<tr class="even">
+	  <td>Перейти в конец строки (в редактируемых текстовых полях)</td>
+	  <td><span class="win">End</span><span class="mac">Cmd+Right
+	  Arrow</span><span class="unix">Ctrl+E</span></td>
+	</tr>
+	<tr>
+	  <td>Перейти на следующую вкладку (когда открыто более одной вкладки)</td>
+	  <td>Ctrl+Page Down</td>
+	</tr>
+	<tr class="even">
+	  <td>Перейти на предыдущую вкладку (когда открыто более одной вкладки)</td>
+	  <td>Ctrl+Page Up</td>
+	</tr>
+	<tr>
+	  <td>Закрыть вкладку</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Выход из &brandShortName;</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Q</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a href="#using_shortcuts">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="nvu_composition_shortcuts">Клавиатурные сокращения компоновки в &brandShortName;</h2>
+
+    <p>Эти клавиатурные сокращения необходимы для того, чтобы редактировать HTML-страницы в &brandShortName;.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Команда</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Открытие веб-адреса</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+L</td>
+	</tr>
+	<tr>
+	  <td>Публикация страницы</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+S</td>
+	</tr>
+	<tr class="even">
+	  <td>Уменьшение размера шрифта </td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (минус)</td>
+	</tr>
+	<tr>
+	  <td>Увеличение размера шрифта</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= или
+	  <span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>++ (плюс)</td>
+	</tr>
+	<tr class="even">
+	  <td>Размер шрифта - 100%</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+0</td>
+	</tr>
+	<tr>
+	  <td>Вставить/редактировать ссылку</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+L</td>
+	</tr>
+	<tr class="even">
+	  <td>Стиль текста <b>Полужирный</b></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+B</td>
+	</tr>
+	<tr>
+	  <td>Стиль текста <i>Курсив</i></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+I</td>
+	</tr>
+	<tr class="even">
+	  <td>Стиль текста <u>Подчеркнутый</u></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+U</td>
+	</tr>
+	<tr>
+	  <td>Добавить отступ слева</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+[</td>
+	</tr>
+	<tr class="even">
+	  <td>Убрать отступ</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+]</td>
+	</tr>
+	<tr>
+	  <td>Разорвать текстовый стиль</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Y</td>
+	</tr>
+	<tr class="even">
+	  <td>Разорвать ссылку</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+K</td>
+	</tr>
+	<tr>
+	  <td>Выделить строку/столбец</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+перемещение мыши</td>
+	</tr>
+	<tr class="even">
+	  <td>Выделить ячейку(и)</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+щелчок мыши (тяните, чтобы выделить блок ячеек или 
+	  продолжайте щелкать чтобы выделить отдельные ячейки)</td>
+	</tr>
+	<tr>
+	  <td>Менеджер сайта &brandShortName;</td>
+	  <td>F9</td>
+	</tr>
+	<tr class="even">
+	  <td>Начать проверку орфографии</td>
+	  <td><span class="noMac">Ctrl+K</span><span
+	  class="mac">Cmd+K</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a href="#using_shortcuts">Вернуться в начало раздела</a> ]</p>
+
+    <h2 id="help_window_shortcuts">Клавиатурные сокращения окна справки</h2>
+
+    <p>Эти клавиатурные сокращения доступны в окне справки.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Команда</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Перемещаться по ссылкам в панели содержимого (правая панель)</td>
+	  <td>Tab</td>
+	</tr>
+	<tr>
+	  <td>Показать/скрыть боковую панель</td>
+	  <td>F9</td>
+	</tr>
+	<tr>
+	  <td>Увеличить размер шрифта</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= или <span
+	  class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift++ (плюс)</td>
+	</tr>
+	<tr>
+	  <td>Уменьшить размер шрифта</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (минус)</td>
+	</tr>
+	<tr>
+	  <td>Переключение между Панелью содержимого и Поиск/Содержание/Индекс/Словарь</td>
+	  <td>F6</td>
+	</tr>
+	<tr>
+	  <td>Перемещение по терминам в Индексе (если выбрана панель Индекса)</td>
+	  <td>стрелка вверх/вниз</td>
+	</tr>
+	<tr>
+	  <td>Прокручитка панели (Содержимое, Содержание или Индекс)</td>
+	  <td>стрелка вверх/вниз</td>
+	</tr>
+	<tr>
+	  <td>Раскрыть/Свернуть дерево Содержания</td>
+	  <td>стрелка вправо/влево</td>
+	</tr>
+	<tr>
+	  <td>Печать страницы</td>
+	  <td><span class="noMac">Ctrl+P</span><span
+	  class="mac">Cmd+P</span></td>
+	</tr>
+	<tr>
+	  <td>Вернуться на предыдущую страницу</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+стрелка влево</td>
+	</tr>
+	<tr>
+	  <td>Перейти на следующую страницу</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span>+стрелка вправо</td>
+	</tr>
+	<tr>
+	  <td>Закрыть окно справки &brandShortName;</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a href="#using_shortcuts">Вернуться в начало раздела</a> ]</p>
+
+    <div class="copyrightBox"><em>22 июня 2005</em></div>
+
+    <p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+    Help Documentation Project.</p>
+
+  </body>
+</html>

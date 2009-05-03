@@ -1,0 +1,48 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY addToUserDictionaryButton.accessKey "Д">
+<!ENTITY addToUserDictionaryButton.label "Добавить слово">
+<!ENTITY checkwordButton.accessKey "П">
+<!ENTITY checkwordButton.label "Проверить слово">
+<!ENTITY closeButton.accessKey "З">
+<!ENTITY closeButton.label "Закрыть">
+<!ENTITY editUserDictionaryButton.accessKey "И">
+<!ENTITY editUserDictionaryButton.label "Изменить...">
+<!ENTITY ignoreAllButton.accessKey "о">
+<!ENTITY ignoreAllButton.label "Пропустить все">
+<!ENTITY ignoreButton.accessKey "р">
+<!ENTITY ignoreButton.label "Пропустить">
+<!ENTITY languagePopup.accessKey "Я">
+<!ENTITY languagePopup.label "Язык:">
+<!ENTITY misspelledWord.label "Слово с ошибкой:">
+<!ENTITY moreDictionaries.label "Загрузить еще">
+<!ENTITY recheckButton.accessKey "т">
+<!ENTITY recheckButton.label "Проверить снова">
+<!ENTITY replaceAllButton.accessKey "е">
+<!ENTITY replaceAllButton.label "Заменить все">
+<!ENTITY replaceButton.accessKey "м">
+<!ENTITY replaceButton.label "Заменить">
+<!ENTITY sendButton.accessKey "ь">
+<!ENTITY sendButton.label "Отправить">
+<!ENTITY stopButton.accessKey "С">
+<!ENTITY stopButton.label "Стоп">
+<!ENTITY suggestions.accessKey "В">
+<!ENTITY suggestions.label "Варианты:">
+<!ENTITY userDictionary.label "Словарь пользователя:">
+<!ENTITY windowTitle.label "Проверка орфографии">
+<!ENTITY wordEditField.accessKey "н">
+<!ENTITY wordEditField.label "Заменить на:">

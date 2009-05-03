@@ -1,0 +1,45 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY downloadManagerCmd.accesskey "з">
+<!ENTITY downloadManagerCmd.label "Менеджер загрузок">
+<!ENTITY editorCmd.accesskey "К">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY editorCmd.label "Nvu">
+<!ENTITY extensions.label "Расширения">
+<!ENTITY javaConsoleCmd.accesskey "К">
+<!ENTITY javaConsoleCmd.label "Консоль Java">
+<!ENTITY javaScriptConsoleCmd.accesskey "о">
+<!ENTITY javaScriptConsoleCmd.label "Консоль JavaScript">
+<!ENTITY navigatorCmd.accesskey "Н">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label "Навигатор">
+<!ENTITY privacyMenu.accesskey "р">
+<!ENTITY privacyMenu.label "Приватность и защита">
+<!ENTITY securityInfoCmd.accesskey "И">
+<!ENTITY securityInfoCmd.label ".Информация о защите">
+<!ENTITY switchProfileCmd.accesskey "ы">
+<!ENTITY switchProfileCmd.label "Выбрать другой профиль...">
+<!ENTITY taskBar.tooltip "Строка состояния">
+<!ENTITY taskComposer.tooltip "Компоновщик">
+<!ENTITY taskNavigator.tooltip "Навигатор">
+<!ENTITY tasksMenu.accesskey "И">
+<!ENTITY tasksMenu.label "Инструменты">
+<!ENTITY themes.label "Темы">
+<!ENTITY webDevelopment.accesskey "В">
+<!ENTITY webDevelopment.label "Веб-разработка">
+<!ENTITY windowMenu.accesskey "О">
+<!ENTITY windowMenu.label "Окно">

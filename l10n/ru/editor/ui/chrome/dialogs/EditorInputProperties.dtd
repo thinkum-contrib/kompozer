@@ -1,0 +1,57 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY Accept.accesskey "Д">
+<!ENTITY Accept.label "Допустимые типы содержимого:">
+<!ENTITY AccessKey.accesskey "К">
+<!ENTITY AccessKey.label "Клавиша доступа:">
+<!ENTITY GroupName.label "Имя группы:">
+<!ENTITY ImageProperties.accesskey "в">
+<!ENTITY ImageProperties.label "Свойства изображения...">
+<!ENTITY InitialValue.label "Первоначальное значение:">
+<!ENTITY InputChecked.accesskey "О">
+<!ENTITY InputChecked.label "Отмечено первоначально">
+<!ENTITY InputDisabled.accesskey "л">
+<!ENTITY InputDisabled.label "Отключено">
+<!ENTITY InputName.label "Имя поля:">
+<!ENTITY InputReadOnly.accesskey "Т">
+<!ENTITY InputReadOnly.label "Только для чтения">
+<!ENTITY InputSelected.accesskey "ы">
+<!ENTITY InputSelected.label "Выбрано первоначально">
+<!ENTITY InputSettings.label "Параметры поля">
+<!ENTITY InputType.accesskey "и">
+<!ENTITY InputType.label "Тип поля">
+<!ENTITY InputValue.label "Значение поля:">
+<!ENTITY Name.accesskey "я">
+<!ENTITY TextLength.accesskey "М">
+<!ENTITY TextLength.label "Максимальная длина:">
+<!ENTITY TextSize.accesskey "Р">
+<!ENTITY TextSize.label "Размер поля:">
+<!ENTITY Value.accesskey "н">
+<!ENTITY button.value "Кнопка">
+<!ENTITY checkbox.value "Флажок">
+<!ENTITY file.value "Файл">
+<!ENTITY hidden.value "Скрытое">
+<!ENTITY image.value "Изображение">
+<!ENTITY password.value "Пароль">
+<!ENTITY radio.value "Опция">
+<!ENTITY reset.value "Кнопка сброса">
+<!ENTITY submit.value "Кнопка отправки">
+<!ENTITY tabIndex.accesskey "с">
+<!ENTITY tabIndex.label "Последовательность перехода:">
+<!ENTITY text.value "Текстовое">
+<!ENTITY windowTitle.label "Свойства поля формы">
+<!ENTITY windowTitleImage.label "Свойства изображения формы">

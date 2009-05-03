@@ -1,0 +1,39 @@
+<!ENTITY window.width "500">
+<!ENTITY window.height "300">
+<!ENTITY done.label "Готово">
+<!ENTITY canceled.label "Отменено">
+<!ENTITY installing.label "Идёт установка...">
+<!ENTITY starting.label "Начинаю...">
+<!ENTITY failed.label "Ошибка">
+<!ENTITY downloads.title "Загрузки">
+<!ENTITY cmd.pause.label "Приостановить">
+<!ENTITY cmd.pause.accesskey "о">
+<!ENTITY cmd.resume.label "Возобновить">
+<!ENTITY cmd.resume.accesskey "з">
+<!ENTITY cmd.cancel.label "Отмена">
+<!ENTITY cmd.cancel.accesskey "т">
+<!ENTITY cmd.show.label "Открыть папку содержащую файл">
+<!ENTITY cmd.show.labelMac "Показать в Finder">
+<!ENTITY cmd.show.accesskey "п">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.open.label "Открыть">
+<!ENTITY cmd.open.accesskey "О">
+<!ENTITY cmd.openWith.label "Открыть с помощью...">
+<!ENTITY cmd.openWith.accesskey "п">
+<!ENTITY cmd.retry.label "Повторить попытку">
+<!ENTITY cmd.retry.accesskey "в">
+<!ENTITY cmd.remove.label "Удалить">
+<!ENTITY cmd.remove.accesskey "д">
+<!ENTITY cmd.properties.label "Свойства">
+<!ENTITY cmd.properties.accesskey "й">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "Очистить">
+<!ENTITY cmd.cleanUp.tooltip "Удаляет завершённые, отменённые и неудавшиеся загрузки из списка">
+<!ENTITY cmd.cleanUp.accesskey "ч">
+<!ENTITY closeWhenDone.label "Закрыть после завершения загрузок">
+<!ENTITY closeWhenDone.tooltip "Закрыть окно со списком загрузок после загрузки всех файлов">
+<!ENTITY filesSavedTo.label "Все загруженные файлы сохраняются в:">
+<!ENTITY showFolder.label "Открыть эту папку">

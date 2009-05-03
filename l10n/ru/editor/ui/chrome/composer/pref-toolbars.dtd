@@ -1,0 +1,46 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY absolutePosition.label "Абсолютное позиционирование">
+<!ENTITY anchor.label "Якорь">
+<!ENTITY bold.label "Полужирный">
+<!ENTITY bullets.label "Маркеры">
+<!ENTITY composition.caption "Показать эти кнопки на панели компоновки:">
+<!ENTITY copy.label "Копировать">
+<!ENTITY cut.label "Вырезать">
+<!ENTITY decreaseZIndex.label "Поместить на задний план">
+<!ENTITY find.label "Найти">
+<!ENTITY formatting.caption "Показать эти кнопки на панели форматирования:">
+<!ENTITY header.title "Панели инструментов">
+<!ENTITY hline.label "Разделитель">
+<!ENTITY image.label "Изображение">
+<!ENTITY increaseZIndex.label "Поместить на передний план">
+<!ENTITY indent.label "Отступ">
+<!ENTITY italic.label "Курсив">
+<!ENTITY larger.label "Больше">
+<!ENTITY link.label "Ссылка">
+<!ENTITY new.label "Создать">
+<!ENTITY numbers.label "Числа">
+<!ENTITY open.label "Открыть">
+<!ENTITY outdent.label "Выровнять">
+<!ENTITY paste.label "Вставить">
+<!ENTITY preview.label "Просмотр">
+<!ENTITY print.label "Печать">
+<!ENTITY publish.label "Опубликовать">
+<!ENTITY save.label "Сохранить">
+<!ENTITY smaller.label "Меньше">
+<!ENTITY table.label "Таблица">
+<!ENTITY underline.label "Подчеркивание">

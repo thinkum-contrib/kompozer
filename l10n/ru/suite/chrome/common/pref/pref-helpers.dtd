@@ -1,0 +1,56 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY helpers.label                 "Дополнительно">
+<!ENTITY useSystemBrowser.label        "Использовать системные настройки">
+<!ENTITY userDefinedBrower.label       "Пользовательские">
+
+<!ENTITY cmdLine.label                 "Командная строка:">
+<!ENTITY hints.label                   "Вы можете определить URL  используемый '$s'. Например:">
+<!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+
+<!ENTITY imageEditor.label             "Редактор рисунков">
+
+<!ENTITY connection.label              "Соединение">
+<!ENTITY connectionDescription.label   "Укажите прокси-серверы для работы в Интернете.">
+<!ENTITY connectionButton.label        "Параметры соединения">
+<!ENTITY connectionbutton.accesskey    "с">
+
+<!ENTITY carriageReturns.label         "Поведение клавиши return">
+<!ENTITY crInPCreatesNewP.label        "Нажатие клавиши return в параграфе всегда создает новый параграф">
+
+<!ENTITY specialChars.label            "Специальные символы">
+<!ENTITY specialChars.description      "Вывести следующие символы как объекты:">
+<!ENTITY basicEncoding.label           "Только &amp; &lt; &gt; ' и неразрывный пробел">
+<!ENTITY latin1EntitiesEncoding.label  "Указанные выше символы и символы Latin-1 ">
+<!ENTITY htmlEntitiesEncoding.label    "Специальные символы HTML 4 ">
+<!ENTITY allEntitiesEncoding.label     "Использовать &amp;#..; обозначение для всех не-ASCII символов">
+
+<!ENTITY realtimeSpellCheck.label      "Проверка орфографии в реальном времени">
+
+<!ENTITY spellCheckRealTime.label      "Подчеркивать слова с орфографическими ошибками">
+<!ENTITY spellCheckRealTime.accesskey  "р">
+
+<!ENTITY dialect.label                 "Разметка">
+<!ENTITY markupLanguage.label          "Язык:">
+<!ENTITY dtd.label                     "DTD:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "Transitional">
+<!ENTITY strictDTD.label               "Strict">
+
+<!ENTITY noGTEncoding.label            "Не кодировать '&gt;' за пределами значений атрибутов">
+<!ENTITY noEscaping.label              "Не кодировать специальные символы в значениях атрибутов">

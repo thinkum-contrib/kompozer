@@ -1,0 +1,59 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   -
+   - This file translated Mozilla.ru Team http://www.mozilla.ru
+   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   -
+   - Translation contains parts translated by
+   -   Alexander Slovesnik (Mozilla.ru Team)
+   -   Valentina Vaneeva (ALTLinux Team)
+   -   Vadim Vinichenko (ALTLinux Team)
+   -   Sergey Degtjaryov (ALTLinux Team)
+   -   Elena Shevelyova (ALTLinux Team)
+   --> 
+
+<!ENTITY browseUrl.label "HTTP-адрес домашней страницы (например, &quot;http://www.myisp.com/myusername&quot;):">
+<!ENTITY browseUrl.tooltip "HTTP-адрес вашего домашнего каталога (без имени файла)">
+<!ENTITY chooseDirButton.label "Выбрать...">
+<!ENTITY docDirList.label "Каталог сайта для этой страницы:">
+<!ENTITY filename.label "Имя файла:">
+<!ENTITY filename.tooltip "Введите имя этого файла, не забудьте расширение &quot;.html&quot;, если это веб-страница">
+<!ENTITY filenameExample.label "например, &quot;mypage.html&quot;">
+<!ENTITY loginInfo.label "Регистрационная информация">
+<!ENTITY newSiteButton.label "Добавить сайт">
+<!ENTITY pageTitle.label "Заголовок страницы:">
+<!ENTITY pageTitle.tooltip "Введите назавание, которое будет отображаться в строке заголовка окна и в закладках">
+<!ENTITY pageTitleExample.label "например, &quot;Моя веб-страница&quot;">
+<!ENTITY password.label "Пароль:">
+<!ENTITY password.tooltip "Пароль, связанный с вашим именем пользователя">
+<!ENTITY publishImgCheckbox.label "Включать изображения и другие файлы">
+<!ENTITY publishImgCheckbox.tooltip "Опубликовать изображения и другие файлы, ссылки на которые содержатся на этой странице">
+<!ENTITY publishSites.label "Сайты публикации">
+<!ENTITY publishTab.label "Опубликовать">
+<!ENTITY relatedDocs.label "Другие файлы для публикации">
+<!ENTITY removeButton.label "Удалить сайт">
+<!ENTITY sameLocationRadio.label "Использовать тот же адрес, что и у страницы">
+<!ENTITY sameLocationRadio.tooltip "Опубликовать файлы вместе со страницей">
+<!ENTITY savePassword.label "Сохранить пароль">
+<!ENTITY savePassword.tooltip "Выбор этой опции позволит Менеджеру паролей запомнить ваш пароль">
+<!ENTITY selectDirectory.label "Выбрать директорию">
+<!ENTITY serverInfo.label "Информация о сервере">
+<!ENTITY setDefSiteAndDir.label "Установить как сайт и каталог по умолчанию">
+<!ENTITY setDefaultButton.label "Установить по умолчанию">
+<!ENTITY settingsTab.label "Параметры">
+<!ENTITY siteDirList.label "Выберите или введите имя каталога публикуемого сайта:">
+<!ENTITY siteDirList.tooltip "Выберите или введите имя удаленного каталога для публикации">
+<!ENTITY siteList.label "Имя сайта:">
+<!ENTITY siteList.tooltip "Выберите сайт, в который произвести публикацию">
+<!ENTITY siteName.label "Имя сайта:">
+<!ENTITY siteName.tooltip "Псевдоним, индентифицирующий этот сайт (например, &quot;Мой сайт&quot;)">
+<!ENTITY siteUrl.label "URL публикации (например, &quot;ftp://ftp.myisp.com/myusername&quot;):">
+<!ENTITY siteUrl.tooltip "FTP- или HTTP-адрес, данный вам поставщиком услуг Интернета или услуг по размещению информации в Сети">
+<!ENTITY useSubdir.tooltip "Выберите или введите имя удаленного каталога для публикации файлов">
+<!ENTITY useSubdirRadio.label "Использовать этот подкаталог:">
+<!ENTITY username.label "Имя пользователя:">
+<!ENTITY username.tooltip "Имя пользователя, данное вам поставщиком услуг Интернета или услуг по размещению информации в Сети">
+<!ENTITY windowTitle.label "Публикация страницы">
+<!ENTITY windowTitleSettings.label "Параметры публикации">

@@ -1,0 +1,25 @@
+<!ENTITY all.accesskey "В">
+<!ENTITY all.label "Все">
+<!ENTITY clear.accesskey "ч">
+<!ENTITY clear.label "Очистить">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY copyCmd.accesskey "К">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY copyCmd.label "Копировать">
+<!ENTITY errColumn.label "Символ:">
+<!ENTITY errFile.label "Источник:">
+<!ENTITY errLine.label "Строка:">
+<!ENTITY errorConsole.title "Консоль ошибок">
+<!ENTITY errors.accesskey "О">
+<!ENTITY errors.label "Ошибки">
+<!ENTITY evaluate.label "Проанализировать">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY messages.accesskey "б">
+<!ENTITY messages.label "Сообщения">
+<!ENTITY sortFirst.accesskey "С">
+<!ENTITY sortFirst.label "Сортировка по возрастанию">
+<!ENTITY sortLast.accesskey "у">
+<!ENTITY sortLast.label "Сортировка по убыванию">
+<!ENTITY warnings.accesskey "р">
+<!ENTITY warnings.label "Предупреждения">

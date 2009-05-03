@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+  <rdf:Description about="urn:root">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="1" nc:name="А"/></rdf:li>
+        <rdf:li> <rdf:Description ID="2" nc:name="Б"/></rdf:li>
+        <rdf:li> <rdf:Description ID="3" nc:name="В"/></rdf:li>
+        <rdf:li> <rdf:Description ID="4" nc:name="Г"/></rdf:li>
+        <rdf:li> <rdf:Description ID="5" nc:name="Д"/></rdf:li>
+        <rdf:li> <rdf:Description ID="6" nc:name="Е"/></rdf:li>
+        <rdf:li> <rdf:Description ID="7" nc:name="Ж"/></rdf:li>
+        <rdf:li> <rdf:Description ID="8" nc:name="З"/></rdf:li>
+        <rdf:li> <rdf:Description ID="9" nc:name="И"/></rdf:li>
+        <rdf:li> <rdf:Description ID="10" nc:name="К"/></rdf:li>
+        <rdf:li> <rdf:Description ID="11" nc:name="Л"/></rdf:li>
+        <rdf:li> <rdf:Description ID="12" nc:name="М"/></rdf:li>
+        <rdf:li> <rdf:Description ID="13" nc:name="Н"/></rdf:li>
+        <rdf:li> <rdf:Description ID="14" nc:name="О"/></rdf:li>
+        <rdf:li> <rdf:Description ID="15" nc:name="П"/></rdf:li>
+        <rdf:li> <rdf:Description ID="16" nc:name="Р"/></rdf:li>
+        <rdf:li> <rdf:Description ID="17" nc:name="С"/></rdf:li>
+        <rdf:li> <rdf:Description ID="18" nc:name="Т"/></rdf:li>
+        <rdf:li> <rdf:Description ID="19" nc:name="У"/></rdf:li>
+        <rdf:li> <rdf:Description ID="20" nc:name="Ф"/></rdf:li>
+        <rdf:li> <rdf:Description ID="21" nc:name="Х"/></rdf:li>
+        <rdf:li> <rdf:Description ID="22" nc:name="Ц"/></rdf:li>
+        <rdf:li> <rdf:Description ID="23" nc:name="Ч"/></rdf:li>
+        <rdf:li> <rdf:Description ID="24" nc:name="Ш"/></rdf:li>
+        <rdf:li> <rdf:Description ID="25" nc:name="Щ"/></rdf:li>
+        <rdf:li> <rdf:Description ID="26" nc:name="Э"/></rdf:li>
+        <rdf:li> <rdf:Description ID="27" nc:name="Ю"/></rdf:li>
+        <rdf:li> <rdf:Description ID="28" nc:name="Я"/></rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+    <rdf:Description about="#1"><!--А -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#2"><!--Б -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#3"><!--В -->
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li><rdf:Description ID="tutorial" nc:name="введение" nc:link="composer_tutorial.xhtml"/></rdf:li>
+		<rdf:li><rdf:Description ID="tabs" nc:name="вкладки" nc:link="composer_help.xhtml#tabs_editing_multiple_documents"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="вставка горизонтальных разделителей" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="выбор элементов таблицы" nc:link="tables.xhtml#selecting_table_elements"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#4"><!--Г -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="гиперссылки" nc:link="links.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#5"><!--Д -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+          </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#6"><!--Е -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#7"><!--Ж -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#8"><!--З -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="замена текста" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#9"><!--И -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer" nc:name="использование справки" nc:link="welcome.xhtml"/></rdf:li>
+		<rdf:li> <rdf:Description ID="images" nc:name="изображения" nc:link="images.xhtml" /> </rdf:li>
+		<rdf:li> <rdf:Description nc:name="изображения как ссылки" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="изменение цвета, стиля и шрифта текста" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="интерфейс пользователя" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#help-viewer">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="поиск нужной вам информации" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="возвращение к просмотренным страницам" nc:link="welcome.xhtml#retracing_your_steps"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="полезные советы по поиску" nc:link="welcome.xhtml#search_tips"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#images">
+	<nc:subheadings>
+	    <rdf:Seq>
+                <rdf:li> <rdf:Description ID="images_edit" nc:name="изменение свойств изображения" nc:link="images.xhtml#editing_image_properties" /> </rdf:li>
+                <rdf:li> <rdf:Description ID="images_insert" nc:name="вставка изображений" nc:link="images.xhtml#inserting_an_image_into_your_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#10"><!--К -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="каскадные таблицы стилей (CSS)" nc:link="css.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="копирование таблиц" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li> <rdf:Description ID="keyboard_shortcuts" nc:name="клавиатурные сокращения" nc:link="shortcuts.xhtml" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#11"><!--Л -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#12"><!--М -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#13"><!--Н -->
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="preferences" nc:name="настройки" nc:link="preferences.xhtml" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="новый документ" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#preferences">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="preferences_general_settings" nc:name="основные настройки" nc:link="preferences.xhtml#preferences_general_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-new-page-settings" nc:name="параметры новой страницы" nc:link="preferences.xhtml#preferences_new_page_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-advanced-settings" nc:name="дополнительно" nc:link="preferences.xhtml#preferences_advanced_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_fonts" nc:name="шрифты" nc:link="preferences.xhtml#preferences_fonts" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#14"><!--О -->
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="toc" nc:name="оглавление" nc:link="toc.xhtml#working_with_table_of_contents_on_your_web_page" /> </rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#15"><!--П -->
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="toolbars" nc:name="панели инструментов" nc:link="customize.xhtml"/></rdf:li>
+                <rdf:li> <rdf:Description nc:name="панель компоновки" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
+		<rdf:li> <rdf:Description nc:name="панель режимов редактирования" nc:link="composer_tutorial.xhtml#edit_mode_toolbar" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="панель форматирования" nc:link="composer_tutorial.xhtml#format_toolbar"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="перемещение таблиц" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li> <rdf:Description ID="validate" nc:name="проверка HTML" nc:link="formatting_webpages.xhtml#validating_the_html" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="поиск текста" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+		<rdf:li> <rdf:Description ID="publishing" nc:name="публикация" nc:link="publishing_help.xhtml" /> </rdf:li>
+                <rdf:li> <rdf:Description nc:name="просмотр страницы" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+	    </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#16"><!--Р -->
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li> <rdf:Description ID="editing_modes" nc:name="режимы редактирования" nc:link="formatting_webpages.xhtml#choosing_the_right_editing_mode" /> </rdf:li>
+                <rdf:li> <rdf:Description nc:name="редактор дополнительных свойств" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#17"><!--С -->
+        <nc:subheadings>
+            <rdf:Seq>
+      		<rdf:li> <rdf:Description ID="links" nc:name="ссылки" nc:link="links.xhtml" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists" nc:name="списки" nc:link="formatting_webpages.xhtml#working_with_lists" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="создание веб-страниц" nc:link="composer_help.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="создание таблиц стилей" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="создание шаблонов" nc:link="templates.xhtml#creating_a_template"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="сохранение страницы" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+		<rdf:li> <rdf:Description ID="page" nc:name="страница" nc:link="composer_help.xhtml#setting_page_properties" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="строка состояния" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
+		<rdf:li> <rdf:Description ID="special-characters" nc:name="специальные символы" nc:link="formatting_webpages.xhtml#inserting_special_characters" /> </rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#links">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="links_creating" nc:name="создание ссылок в пределах той же страницы" nc:link="links.xhtml#creating_links_within_the_same_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_external" nc:name="создание ссылок на другие страницы" nc:link="links.xhtml#creating_links_to_other_pages" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_images" nc:name="использование изображений в качестве ссылок" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_removing" nc:name="удаление и прерывание ссылок" nc:link="links.xhtml#removing_or_discontinuing_links" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#lists">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="lists_list_item" nc:name="форматирование списков" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists_work" nc:name="работа со списками" nc:link="formatting_webpages.xhtml#working_with_lists" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#page">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page_properties" nc:name="свойства страницы" nc:link="composer_help.xhtml#setting_page_properties_and_meta_tags" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page_color_background" nc:name="указание цветов и фона страницы" nc:link="composer_help.xhtml#setting_page_colors_and_backgrounds" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page_save" nc:name="сохранение страницы" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page_create" nc:name="создание новой страницы" nc:link="composer_help.xhtml#creating_a_new_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#18"><!--Т -->
+        <nc:subheadings>
+            <rdf:Seq>
+		<rdf:li><rdf:Description ID="tables" nc:name="таблицы" nc:link="tables.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="таблицы стилей" nc:link="css.xhtml"/></rdf:li>
+		<rdf:li><rdf:Description ID="text" nc:name="текст" nc:link="formatting_webpages.xhtml#formatting_your_web_pages"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#tables">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="adding-tables-to-your-web-page" nc:name="вставка таблицы" nc:link="tables.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#text">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="changing-text-color" nc:name="изменение цвета текста" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li><rdf:Description ID="changing-text-font" nc:name="изменение шрифта текста" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>	
+		<rdf:li><rdf:Description ID="changing-text-style" nc:name="изменение стиля текста" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li> <rdf:Description ID="finding-replacing-text" nc:name="поиск и замена текста" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+		<rdf:li> <rdf:Description ID="removing-or-discontinuing-text-styles" nc:name="удаление стилей текста и прекращение их действия" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#19"><!--У -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="удаление таблиц" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="удаление ссылок" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="удаление стилей текста" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#20"><!--Ф -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="форматирование" nc:link="formatting_webpages.xhtml"/></rdf:li>
+    		<rdf:li> <rdf:Description ID="formatting_paragraphs" nc:name="форматирование абзацев" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+                <rdf:li> <rdf:Description nc:name="фоновые цвета страницы" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#21"><!--Х -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+    <rdf:Description about="#22"><!--Ц -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#23"><!--Ч -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#24"><!--Ш -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#25"><!--Щ -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#26"><!--Э -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#27"><!--Ю -->
+        <nc:subheadings>
+            <rdf:Seq>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#28"><!--Я -->
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="html" nc:name="язык разметки гипертекста (HTML)" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+
+</rdf:RDF>

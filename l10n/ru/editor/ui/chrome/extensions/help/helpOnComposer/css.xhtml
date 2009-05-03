@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Создание веб-страниц с помощью &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Показать/Скрыть</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Справка</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">В этом разделе:
+  <a href="composer_help.xhtml#starting_a_new_page">Начало работы над новой страницей</a>
+  <a href="formatting_webpages.xhtml">Форматирование</a>
+  <a href="#">Использование каскадных таблиц стилей</a>
+  <a href="tables.xhtml">Работа с таблицами</a>
+  <a href="images.xhtml">Работа с изображениями</a>
+  <a href="toc.xhtml">Работа с оглавлением</a>
+  <a href="templates.xhtml">Работа с шаблонами</a>
+  <a href="page_properties.xhtml">Настройка параметров страницы</a>
+  <a href="links.xhtml">Создание ссылок в &brandShortName;</a>
+  <a href="customize.xhtml">Настройка интерфейса &brandShortName;</a>
+
+</div>
+
+<h2 id="using_style_sheets_for_your_web_pages">Использование таблиц стилей для ваших веб-страниц</h2>
+
+<h3 id="using_cascade_style_sheets">Использование каскадных таблиц стилей</h3>
+
+<p>Каскадные таблицы стилей (Cascade Style Sheets, CSS) могут применяться к стилю HTML-документа тремя способами:</p>
+<ol>
+  <li>использование встроенных стилей;</li>
+
+  <li>использование внутренней таблицы стилей;</li>
+
+  <li>использование внешней таблицы стилей.</li>
+</ol>
+
+<p>&brandShortName; содержит встроенный редактор стилей, который называется 
+<strong>CaScadeS</strong>. CaScadeS может использоваться для формирования внутренней или 
+внешней таблицы стилей. В противоположность встроенным стилям, внутренние или внешние 
+стили помогают раздельно хранить содержимое документа и информацию о стиле. </p>
+
+<p>Для создания стиля редактируемого HTML-документа в меню  "Инструменты", 
+выберите пункт "Редактор CSS". Редактор имеет два режима работы:</p>
+
+<ol>
+  <li><strong>Режим новичка</strong>: этот режим позволяет создавать правила, связанные 
+  с именем класса или с элементом указанного типа.</li>
+
+  <li><strong>Режим эксперта</strong>: этот режим позволяет создавать правила без всяких 
+  ограничений.</li>
+</ol>
+
+<p>В случае если нет никакой таблицы стилей, новый стиль будет создан автоматически.</p>
+
+<p class="returnToSection">[ <a href="#using_style_sheets_for_your_web_pages">Вернуться в начало раздела</a> ]</p>
+
+<h3 id="creating_style_sheets_with_nvu">Создание таблиц стилей в &brandShortName;</h3>
+
+<p>Используя CaScadeS можно создавать внутренние или внешние таблицы стилей. Для создания 
+внутренней таблицы стилей:</p>
+<ol>
+  <li>Нажмите на кнопку "Новая таблица".
+  <ul>
+    <li>Дополнительно: заполните поля "Типы носителей" и "Заголовок" для таблицы стилей.</li>
+  </ul>
+  </li>
+
+  <li>Нажмите "Создать таблицу стилей".</li>
+</ol>
+
+<p>Чтобы создать внешнюю таблицу стилей:</p>
+
+<ol>
+  <li>Нажмите на кнопку "Новая ссылка".</li>
+
+  <li>Заполните поле "URL" в панели справа. Новый файл будет создан на локальном компьютере, 
+  если он еще не существует.
+
+  <ul>
+    <li>Дополнительно: заполните поля "Типы носителей" и "Заголовок" для таблицы стилей.</li>
+  </ul>
+  </li>
+
+  <li>Установите флажок "выберите для создания альтернативной таблицы стилей", если это 
+  требуется дополнительно.</li>
+</ol>
+
+<p><strong>Подсказка</strong>: Всегда сохраняйте HTML-документ перед применением локальной 
+таблицы стилей. Также сохраняйте документ непосредственно до закрытия редактора CSS. </p>
+
+<p><strong>Подсказка</strong>: Используйте кнопку "Обновить" в левой панели, если таблица стилей 
+сразу не загружается.</p>
+
+<p class="returnToSection">[ <a href="#using_style_sheets_for_your_web_pages">Вернуться в начало раздела</a> ]</p>
+
+<h3 id="creating_rules_for_stylesheets">Создание правил для таблиц стилей</h3>
+
+<p>После создания одной или нескольких таблиц стилей для HTML-документа, могут быть созданы 
+свои правила для каждой таблицы стилей индивидуально. Чтобы использовать определенную таблицу 
+стилей для создания или изменения правил выделите таблицу стилей в левой панели щелчком по 
+левой кнопки мыши. В правой панели на вкладке "Основное" отображается информация о таблице 
+стилей. Для создания новых правил:</p>
+
+<ol>
+  <li>Нажмите на кнопку "Новое правило".</li>
+
+  <li>В правой панели отображаются опции относительно создания нового правила. 
+  Выберите один из пунктов:
+
+  <ul>
+    <li>именованный стиль (введите имя класса ниже);</li>
+
+    <li>стиль, применяемый ко всем элементам этого типа (введите тип ниже);</li>
+
+    <li>стиль, применяемый ко всем элементам следующего селектора.</li>
+
+  </ul>
+  </li>
+  <li>Напишите имя правила.</li>
+
+  <li>Нажмите на кнопку "Создать правило стиля".</li>
+</ol>
+
+<p>Правила могут быть определены с помощью стилевых вкладок (Текст, Фон, Обрамление, Бокс, Звук) 
+в правой панели окна. Чтобы увидеть все установки стилевого правила, выделите правило в левой 
+панели и щелкните по вкладке "Основное" в правой панели. Вкладка "Основное" отображает все 
+установки применительно к текущему правилу.</p>
+
+<p class="returnToSection">[ <a href="#using_style_sheets_for_your_web_pages">Вернуться в начало раздела</a> ]</p>
+
+<p>[<a href="tables.xhtml">Следующий</a>] [<a href="formatting_webpages.xhtml">Предыдущий</a>]</p>
+
+  <div class="copyrightBox"><em>22 июня 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

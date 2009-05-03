@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Создание веб-страниц с помощью &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Показать/Скрыть</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Справка</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">В этом разделе:
+  <a href="composer_help.xhtml#starting_a_new_page">Начало работы над новой страницей</a>
+  <a href="formatting_webpages.xhtml">Форматирование</a>
+  <a href="css.xhtml">Использование каскадных таблиц стилей</a>
+  <a href="tables.xhtml">Работа с таблицами</a>
+  <a href="images.xhtml">Работа с изображениями</a>
+  <a href="toc.xhtml">Работа с оглавлением</a>
+  <a href="templates.xhtml">Работа с шаблонами</a>
+  <a href="page_properties.xhtml">Настройка параметров страницы</a>
+  <a href="links.xhtml">Создание ссылок в &brandShortName;</a>
+  <a href="customize.xhtml">Настройка интерфейса &brandShortName;</a>
+
+</div>
+
+<h2 id="working_with_table_of_contents_on_your_web_page">Работа с оглавлением</h2>
+
+<h3 id="adding_table_of_contents_to_your_web_page">Вставка оглавления</h3>
+
+<p>В HTML документе, содержащем несколько разделов, например, статьи
+с разделами и подразделами, c заголовками для каждого раздела и
+подраздела, становится трудно перемещаться, если весь текст находится в одном файле. 
+Чтобы облегчить перемещение по разделам такого документа, &brandShortName; позволяет 
+легко сгенерировать оглавление.</p>
+
+<p>Чтобы создать оглавление в HTML документе:</p>
+
+<ol>
+  <li>Используйте теги HTML заголовков (h1, h2, h3, h4, h5, и h6) для обозначения 
+  заголовков разных уровней разделов и подразделов документа.</li>
+
+  <li>В меню <span class="menuPath"> Вставка > Оглавление </span> выберите "Вставить". 
+  Будет открыто окно свойств оглавления.</li>
+
+  <li>Выберите уровень заголовков используемых для разных разделов и подразделов документа.</li>
+  
+  <li>Нажмите кнопку "OK" чтобы создать оглавление.</li>
+</ol>
+
+<p>По умолчанию, каждый пункт сгенерированного оглавления пронумерован и является ссылкой 
+на соответствующий раздел. Сняв флажок с "Пронумеровать все элементы в оглавлении" вы получите
+оглавление в виде маркированного списка. Отметив флажок "Создать оглавление только для чтения"", получите о
+главление как простой текст, без ссылок.</p>
+
+<p class="returnToSection">[ <a href="#working_with_table_of_contents_on_your_web_page">Вернуться в начало раздела</a> ]</p>
+
+<h3 id="updating_or_removing_table_of_contents">Обновление или удаление оглавления</h3>
+
+<p>Если после формирования оглавления в документе были созданы новые разделы или 
+подразделы, то следует обновить оглавление для добавления в него новых пунктов. 
+В меню <span class="menuPath"> Вставка > Оглавление </span> выберите "Обновить".
+Оглавление будет обновлено, новые пункты будут добавлены.</p>
+
+<p>Чтобы полностью удалить оглавление, в меню <span class="menuPath"> Вставка > 
+Оглавление </span> выберите "Удалить". Оглавление будет удалено, HTML-код будет 
+автоматически очищен от кода созданного при формировании оглавления.</p>
+
+<p class="returnToSection">[ <a href="#working_with_table_of_contents_on_your_web_page">Вернуться в начало раздела</a> ]</p>
+
+<p>[<a href="templates.xhtml">Следующий</a>] [<a href="images.xhtml">Предыдущий</a>]</p>
+
+  <div class="copyrightBox"><em>22 июня 2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+Help Documentation Project.</p>
+
+</body>
+</html>

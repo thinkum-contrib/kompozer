@@ -1,0 +1,16 @@
+<!ENTITY button.choosefolder.accesskey "п">
+<!ENTITY button.choosefolder.label "Выбрать папку...">
+<!ENTITY button.usedefault.accesskey "м">
+<!ENTITY button.usedefault.label "Использовать папку по умолчанию">
+<!ENTITY newprofile.title "Мастер создания профиля">
+<!ENTITY profileCreationExplanation_1.text "&brandShortName; хранит информацию о ваших установках, настройках и т. д. в личном профиле.">
+<!ENTITY profileCreationExplanation_2.text "Если вы не единственный пользователь этой копии &brandShortName;, вы можете воспользоваться профилями для разделения используемых данных. Для этого у каждого пользователя должен быть свой профиль.">
+<!ENTITY profileCreationExplanation_3.text "Если вы единственный пользователь этой копии &brandShortName;, у вас должен быть хотя бы один профиль. Если вы хотите, можете пользоваться несколькими профилями для хранения разных наборов настроек. Например, вы можете хранить отдельно профиль для личного пользования и для работы.">
+<!ENTITY profileCreationExplanation_4.text "Чтобы создать профиль, нажмите Далее:">
+<!ENTITY profileCreationExplanation_4Mac.text "Чтобы создать профиль, нажмите Продолжить:">
+<!ENTITY profileCreationIntro.text "Если у вас несколько профилей, вы можете различать их по именам. Придумайте имя самостоятельно или воспользуйтесь указанным ниже.">
+<!ENTITY profileDefaultName "Default User">
+<!ENTITY profileDirExplanation.text "Ваши настройки, параметры и другие пользовательские данные будут храниться в:">
+<!ENTITY profilePrompt.accesskey "и">
+<!ENTITY profilePrompt.label "Введите имя нового профиля:">
+<!ENTITY window.size "width: 50em; height: 35em;">
