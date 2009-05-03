@@ -1,0 +1,22 @@
+<!ENTITY background.accessKey "u">
+<!ENTITY background.label "Plano de fundo para:">
+<!ENTITY blue.label "Azul:">
+<!ENTITY brightness.label "Brilho:">
+<!ENTITY cell.accessKey "a">
+<!ENTITY cell.label "Células">
+<!ENTITY dialog.title "Escolher cor">
+<!ENTITY green.label "Verde:">
+<!ENTITY hexColor.label "Hex:">
+<!ENTITY hsb.label "HSB">
+<!ENTITY hue.label "Matiz:">
+<!ENTITY lastPickedColor.accessKey "m">
+<!ENTITY lastPickedColor.label "Última cor selecionada">
+<!ENTITY nameColor.label "Nome:">
+<!ENTITY predef.label "Cores pré-definidas:">
+<!ENTITY previewColour.label "Prever:">
+<!ENTITY red.label "Vermelho:">
+<!ENTITY rgb.label "RGB">
+<!ENTITY saturation.label "Saturação:">
+<!ENTITY table.accessKey "T">
+<!ENTITY table.label "Tabela">
+<!ENTITY transparency.label "Transparente">

@@ -1,0 +1,30 @@
+<!ENTITY borderEditField.accessKey "B">
+<!ENTITY borderEditField.label "Borda:">
+<!ENTITY borderEditField.tooltip "Digite um número para a borda da tabela ou digite zero (0) para nenhuma borda">
+<!ENTITY bottomVAlignment.label "Inferior">
+<!ENTITY cellPadding.label "cellpadding">
+<!ENTITY cellSpacing.label "cellspacing">
+<!ENTITY cellTab.label "Célula">
+<!ENTITY centerHAlignment.label "Centralizado">
+<!ENTITY horizAlignment.label "Alinhamento horizontal:">
+<!ENTITY leftHAlignment.label "Esquerda">
+<!ENTITY middleVAlignment.label "Centralizado">
+<!ENTITY nowrapWrapping.label "Não quebrar">
+<!ENTITY numColumnsEditField.accessKey "C">
+<!ENTITY numColumnsEditField.label "Colunas:">
+<!ENTITY numRowsEditField.accessKey "L">
+<!ENTITY numRowsEditField.label "Linhas:">
+<!ENTITY pixels.label "pontos">
+<!ENTITY preciselyTab.label "Detalhado">
+<!ENTITY quicklyTab.label "Rápido">
+<!ENTITY rightHAlignment.label "Direita">
+<!ENTITY size.label "Tamanho">
+<!ENTITY textWrapping.label "Quebrar texto:">
+<!ENTITY topVAlignment.label "Superior">
+<!ENTITY unspecifiedHAlignment.label "Padrão">
+<!ENTITY unspecifiedVAlignment.label "Padrão">
+<!ENTITY vertAlignment.label "Alinhamento vertical:">
+<!ENTITY widthEditField.accessKey "a">
+<!ENTITY widthEditField.label "Largura:">
+<!ENTITY windowTitle.label "Inserir tabela">
+<!ENTITY wrapWrapping.label "Quebrar">

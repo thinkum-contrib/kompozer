@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "45em">
+
+<!ENTITY ocspDialog.title             "Verificação">
+<!ENTITY validation.ocsp.description  "O &brandShortName; pode usar o Protocolo de Status Online de Certificados (OCSP) para atestar certificados. Configurar o &brandShortName; para usar OCSP como mostrado a seguir:">
+<!ENTITY disableOCSP.label            "Não usar OCSP para validar certificados">
+<!ENTITY certOCSP.label               "Usar OCSP apenas para validar certificados que especifiquem uma URL de serviço do OCSP">
+<!ENTITY proxyOCSP.label              "Usar OCSP para validar todos os certificados usando esta URL e signatário:">
+<!ENTITY serviceURL.label             "URL de serviço:">
+<!ENTITY serviceURL.accesskey         "U">
+<!ENTITY signingCA.label              "Signatário da resposta:">
+<!ENTITY signingCA.accesskey          "S">

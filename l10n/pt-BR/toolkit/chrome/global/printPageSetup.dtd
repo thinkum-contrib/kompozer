@@ -1,0 +1,58 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printSetup.title    "Configurar página">
+
+<!ENTITY basic.tab           "Geral">
+
+<!ENTITY formatGroup.label   "Formato">
+
+<!ENTITY orientation.label   "Orientação:">
+<!ENTITY portrait            "Retrato">
+<!ENTITY landscape           "Paisagem">
+
+<!ENTITY scale.label         "Escala:">
+<!ENTITY scalePercent        "&#037;">
+
+<!ENTITY shrinkToFit.label   "Diminuir para caber na largura da página">
+
+<!ENTITY optionsGroup.label  "Opções">
+
+<!ENTITY printBG.label       "Imprimir cores e imagens do plano de fundo">
+
+<!ENTITY advanced.tab        "Margens">
+
+<!ENTITY marginGroup.label   "Margens (em #1)">
+<!ENTITY marginUnits.inches  "polegadas">
+<!ENTITY marginUnits.metric  "milímetros">
+<!ENTITY marginTop.label     "Superior:">
+<!ENTITY marginBottom.label  "Inferior:">
+<!ENTITY marginLeft.label    "Esquerda:">
+<!ENTITY marginRight.label   "Direita:">
+
+<!ENTITY headerFooter.label  "Cabeçalhos e rodapés">
+
+<!ENTITY hfLeft.label        "Esquerda:">
+<!ENTITY hfCenter.label      "Centro:">
+<!ENTITY hfRight.label       "Direita:">
+<!ENTITY headerLeft.tip      "Cabeçalho esquerdo">
+<!ENTITY headerCenter.tip    "Cabeçalho do centro">
+<!ENTITY headerRight.tip     "Cabeçalho direito">
+<!ENTITY footerLeft.tip      "Rodapé esquerdo">
+<!ENTITY footerCenter.tip    "Rodapé do centro">
+<!ENTITY footerRight.tip     "Rodapé direito">
+
+<!ENTITY hfTitle             "Título">
+<!ENTITY hfTitle.code        "[&amp;T]">
+<!ENTITY hfURL               "Endereço">
+<!ENTITY hfURL.code          "[&amp;U]">
+<!ENTITY hfDateAndTime       "Data/Hora">
+<!ENTITY hfDateAndTime.code  "&amp;D">
+<!ENTITY hfPage              "Página #">
+<!ENTITY hfPage.code         "[&amp;P]">
+<!ENTITY hfPageAndTotal      "Página # de #">
+<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfBlank             "--em branco--">
+<!ENTITY hfCustom            "Personalizar...">
+
+<!ENTITY customPrompt.title  "Personalizar">
+<!ENTITY customPrompt.prompt "Forneça o texto do cabeçalho/rodapé:">

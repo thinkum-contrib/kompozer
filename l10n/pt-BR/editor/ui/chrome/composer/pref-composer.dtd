@@ -1,0 +1,30 @@
+<!ENTITY AutoSaveCheck "Salvar automaticamente a cada">
+<!ENTITY chooseButton.label "Selecionar">
+<!ENTITY cssEditing.label "Edição de Cascading Style Sheets (CSS)">
+<!ENTITY documentsInMenu "Número máximo de páginas listadas:">
+<!ENTITY documentsInMenu.accesskey "x">
+<!ENTITY exterLegend.label "Editores externos">
+<!ENTITY htmlSource "Código fonte HTML:">
+<!ENTITY imageeditor "Imagens:">
+<!ENTITY lHeader "Nvu">
+<!ENTITY maintainStructure.accesskey "M">
+<!ENTITY maintainTableStructure.label "Manter o layout da tabela quando inserir ou remover células">
+<!ENTITY maintainTableStructure.tooltip "Preservar formato retangular da tabela adicionando células após inserir ou remover células">
+<!ENTITY minText "minutos">
+<!ENTITY openInNewTab.label "Sempre abrir documentos em novas abas">
+<!ENTITY preserveExistingFormatting "Preservar a formatação original do código fonte">
+<!ENTITY preserveExistingFormatting.accesskey "P">
+<!ENTITY preserveExistingFormatting.tooltip "Preservar quebras de linha e formatações originais da página">
+<!ENTITY rHeader "Configurações para novas páginas web">
+<!ENTITY recentFiles.title "Menu de páginas recentes">
+<!ENTITY reformat.accesskey "R">
+<!ENTITY reformat.label "Reformatar o código fonte HTML">
+<!ENTITY reformat.tooltip "Reformatar tags HTML usando quebras de linha e indentação">
+<!ENTITY saveAssociatedFiles.label "Salvar imagens e outros arquivos associados quando salvar páginas">
+<!ENTITY saving "Salvando">
+<!ENTITY savingFiles.title "Ao salvar ou publicar páginas">
+<!ENTITY showPublishDialog.label "Sempre exibir a janela de publicação quando publicar páginas">
+<!ENTITY siteManager.label "Gerenciador do site">
+<!ENTITY tableEditing.label "Edição de tabelas">
+<!ENTITY title.label "Nvu">
+<!ENTITY useCSS.label "Usar estilos CSS em vez de elementos e atributos HTML">

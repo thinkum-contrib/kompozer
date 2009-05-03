@@ -1,0 +1,46 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "Concluído">
+<!ENTITY canceled.label                   "Cancelado">
+<!ENTITY installing.label                 "Instalando...">
+
+<!ENTITY starting.label                   "Iniciando...">
+<!ENTITY failed.label                     "Malsucedido">
+
+<!ENTITY downloads.title                  "Downloads">
+
+<!ENTITY cmd.pause.label                  "Pausa">
+<!ENTITY cmd.pause.accesskey              "a">
+<!ENTITY cmd.resume.label                 "Continuar">
+<!ENTITY cmd.resume.accesskey             "o">
+<!ENTITY cmd.cancel.label                 "Cancelar">
+<!ENTITY cmd.cancel.accesskey             "C">
+<!ENTITY cmd.show.label                   "Abrir pasta">
+<!ENTITY cmd.show.labelMac                "Show in Finder">
+<!ENTITY cmd.show.accesskey               "b">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                   "Abrir">
+<!ENTITY cmd.open.accesskey               "A">
+<!ENTITY cmd.openWith.label               "Abrir com...">
+<!ENTITY cmd.openWith.accesskey           "A">
+<!ENTITY cmd.retry.label                  "Reiniciar">
+<!ENTITY cmd.retry.accesskey              "R">
+<!ENTITY cmd.remove.label                 "Excluir da lista">
+<!ENTITY cmd.remove.accesskey             "x">
+<!ENTITY cmd.properties.label             "Propriedades">
+<!ENTITY cmd.properties.accesskey         "P">
+<!ENTITY cmd.info.commandKey              "I">
+
+<!ENTITY cmd.close.commandKey             "W">
+<!ENTITY cmd.close2.commandKey            "J">
+<!ENTITY cmd.close2Unix.commandKey        "Y">
+<!ENTITY cmd.cleanUp.label                "Limpar lista">
+<!ENTITY cmd.cleanUp.tooltip              "Retirar da lista os downloads concluídos, cancelados ou interrompidos">
+<!ENTITY cmd.cleanUp.accesskey            "L">
+
+<!ENTITY closeWhenDone.label              "Fechar ao concluir os downloads">
+<!ENTITY closeWhenDone.tooltip            "Fechar a janela Downloads ao terminar todos os downloads">
+
+<!ENTITY filesSavedTo.label               "Salvar arquivos em:">
+<!ENTITY showFolder.label                 "Abrir esta pasta">

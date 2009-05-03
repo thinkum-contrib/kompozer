@@ -1,0 +1,48 @@
+<!ENTITY about.accesskey "b">
+<!ENTITY aboutCmd.label "Sobre">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY clear.accesskey "d">
+<!ENTITY clearCmd.label "Limpar">
+<!ENTITY close.accesskey "F">
+<!ENTITY closeCmd.label "Fechar">
+<!ENTITY contrast.accesskey "n">
+<!ENTITY contrastCmd.label "Contraste">
+<!ENTITY copy.accesskey "C">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY cut.accesskey "t">
+<!ENTITY cutCmd.label "Recortar">
+<!ENTITY delSpotCmd.label "Excluir spot">
+<!ENTITY mapeditMenu.label "Editar">
+<!ENTITY mapeditcopy.accesskey "c">
+<!ENTITY mapeditcut.accesskey "t">
+<!ENTITY mapeditmenu.accesskey "E">
+<!ENTITY mapeditpaste.accesskey "p">
+<!ENTITY mapeditprops.accesskey "h">
+<!ENTITY mapfileMenu.label "Arquivo">
+<!ENTITY mapfileclear.accesskey "a">
+<!ENTITY mapfileclose.accesskey "F">
+<!ENTITY mapfilemenu.accesskey "A">
+<!ENTITY maphelpMenu.label "Ajuda">
+<!ENTITY maphelpmenu.accesskey "u">
+<!ENTITY mapselectall.accesskey "s">
+<!ENTITY mapviewMenu.label "Exibir">
+<!ENTITY mapviewScale.label "Escala">
+<!ENTITY mapviewmenu.accesskey "x">
+<!ENTITY mapviewscale.accesskey "s">
+<!ENTITY mapviewtbar.accesskey "t">
+<!ENTITY paste.accesskey "o">
+<!ENTITY pasteCmd.label "Colar">
+<!ENTITY props.accesskey "p">
+<!ENTITY propsCmd.label "Propriedades do link">
+<!ENTITY selectall.accesskey "S">
+<!ENTITY selectallCmd.label "Selecionar tudo">
+<!ENTITY showhideTbarCmd.label "Ocultar barra de ferramentas">
+<!ENTITY tbar.accesskey "t">
+<!ENTITY windowTitle.label "Editor de mapa de imagem">
+<!ENTITY zoominCmd.label "Aumentar o zoom">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY zoomoutCmd.label "Diminuir o zoom">
+<!ENTITY zoomthree.accesskey "4">
+<!ENTITY zoomtwo.accesskey "2">

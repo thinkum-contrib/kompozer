@@ -1,0 +1,37 @@
+<!ENTITY LinkURLBox.label "Endereço do link">
+<!ENTITY XFNbox.label "Relacionamento">
+<!ENTITY acquaintance.label "conhecido">
+<!ENTITY blankRadio.label "em nova janela">
+<!ENTITY child.label "filho(a)">
+<!ENTITY coResident.label "co-residente">
+<!ENTITY coWorker.label "colega de trabalho">
+<!ENTITY colleague.label "colega">
+<!ENTITY contact.label "contato">
+<!ENTITY crush.label "paixão">
+<!ENTITY date.label "namorado">
+<!ENTITY family.label "Família">
+<!ENTITY friend.label "amigo">
+<!ENTITY friendship.label "Amizade">
+<!ENTITY geographical.label "Geografia">
+<!ENTITY kin.label "parente">
+<!ENTITY me.label "O destino do link é um outro endereço meu">
+<!ENTITY met.label "met">
+<!ENTITY muse.label "musa">
+<!ENTITY neighbor.label "vizinho">
+<!ENTITY none.label "nenhum">
+<!ENTITY parent.label "pai/mãe">
+<!ENTITY parentRadio.label "no quadro principal">
+<!ENTITY physical.label "Physical">
+<!ENTITY professional.label "Profissional">
+<!ENTITY romantic.label "Romance">
+<!ENTITY selfRadio.label "no quadro atual">
+<!ENTITY sibling.label "irmão(a)">
+<!ENTITY spouse.label "esposo(a)">
+<!ENTITY sweetheart.label "paquera">
+<!ENTITY targetBox.label "Destino">
+<!ENTITY technoratiTag.label "Technorati tags">
+<!ENTITY technoratiTagCheckbox.label "This is a Technorati tag">
+<!ENTITY topRadio.label "na mesma janela, descartando todos os quadros">
+<!ENTITY userDefinedRadio.label "neste quadro:">
+<!ENTITY userDefinedTarget.label "O link é para ser aberto">
+<!ENTITY windowTitle.label "Propriedades do link">

@@ -1,0 +1,43 @@
+<!ENTITY browseUrl.label 'Endereço HTTP de sua página (exemplo: "http://www.servidor.com.br/meunome"):'>
+<!ENTITY browseUrl.tooltip "O endereço HTTP:// do diretório home (não incluir o nome do arquivo)">
+<!ENTITY chooseDirButton.label "Selecionar...">
+<!ENTITY docDirList.label "Subdiretório do site para esta página:">
+<!ENTITY filename.label "Nome do arquivo:">
+<!ENTITY filename.tooltip 'Fornceça o nome deste arquivo, incluindo ".html", para a página web.'>
+<!ENTITY filenameExample.label "exemplo: &quot;meusite.html&quot;">
+<!ENTITY loginInfo.label "Informações de login">
+<!ENTITY newSiteButton.label "Novo site">
+<!ENTITY pageTitle.label "Título da página:">
+<!ENTITY pageTitle.tooltip "Forneça um título para identificar a página na janela e nos marcadores">
+<!ENTITY pageTitleExample.label "exemplo: &quot;Minha Página Web&quot;">
+<!ENTITY password.label "Senha:">
+<!ENTITY password.tooltip "A senha associada ao seu nome de usuário">
+<!ENTITY publishImgCheckbox.label "Incluir imagens e outros arquivos">
+<!ENTITY publishImgCheckbox.tooltip "Publicar imagens e outros arquivos referenciados por esta página">
+<!ENTITY publishSites.label "Sites para publicação">
+<!ENTITY publishTab.label "Publicar">
+<!ENTITY relatedDocs.label "Outros arquivos para publicar">
+<!ENTITY removeButton.label "Excluir site">
+<!ENTITY sameLocationRadio.label "Usar o mesmo endereço da página">
+<!ENTITY sameLocationRadio.tooltip "Publicar arquivos no mesmo endereço da página">
+<!ENTITY savePassword.label "Salvar senha">
+<!ENTITY savePassword.tooltip "Selecione isto para salvar sua senha com segurança usando o gerenciador de senhas">
+<!ENTITY selectDirectory.label "Selecionar diretório...">
+<!ENTITY serverInfo.label "Informações do servidor">
+<!ENTITY setDefSiteAndDir.label "Definir como site e diretório padrão">
+<!ENTITY setDefaultButton.label "Definir como padrão">
+<!ENTITY settingsTab.label "Configurações">
+<!ENTITY siteDirList.label "Selecione ou digite o nome do diretório no site de publicação:">
+<!ENTITY siteDirList.tooltip "Selecione ou forneça o nome do subdiretório remoto para publicar">
+<!ENTITY siteList.label "Nome do site:">
+<!ENTITY siteList.tooltip "Selecione o site no qual você deseja publicar">
+<!ENTITY siteName.label "Nome do site:">
+<!ENTITY siteName.tooltip 'Um apelido que identifique este site de publicação (exemplo: "MeuSite")'>
+<!ENTITY siteUrl.label 'Endereço de publicação (exemplo: "ftp://ftp.servidor.com.br/meunome"):'>
+<!ENTITY siteUrl.tooltip "O endereço FTP:// ou HTTP:// fornecido pelo seu provedor de hospedagem">
+<!ENTITY useSubdir.tooltip "Selecione ou forneça o nome de um subdiretório aonde os arquivos serão publicados">
+<!ENTITY useSubdirRadio.label "Usar este subdiretório do site:">
+<!ENTITY username.label "Nome de usuário:">
+<!ENTITY username.tooltip "O nome de usuário que você utiliza no seu provedor de hospedagem">
+<!ENTITY windowTitle.label "Publicar página">
+<!ENTITY windowTitleSettings.label "Configurações de publicação">

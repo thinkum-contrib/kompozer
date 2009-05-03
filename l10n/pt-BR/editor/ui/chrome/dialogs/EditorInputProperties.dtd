@@ -1,0 +1,41 @@
+<!ENTITY Accept.accesskey "a">
+<!ENTITY Accept.label "Tipos aceitos:">
+<!ENTITY AccessKey.accesskey "s">
+<!ENTITY AccessKey.label "Tecla de acesso:">
+<!ENTITY GroupName.label "Nome do grupo:">
+<!ENTITY ImageProperties.accesskey "P">
+<!ENTITY ImageProperties.label "Propriedades da imagem...">
+<!ENTITY InitialValue.label "Valor inicial:">
+<!ENTITY InputChecked.accesskey "m">
+<!ENTITY InputChecked.label "Inicialmente marcado">
+<!ENTITY InputDisabled.accesskey "D">
+<!ENTITY InputDisabled.label "Desabilitado">
+<!ENTITY InputName.label "Nome:">
+<!ENTITY InputReadOnly.accesskey "l">
+<!ENTITY InputReadOnly.label "Somente leitura">
+<!ENTITY InputSelected.accesskey "i">
+<!ENTITY InputSelected.label "Inicialmente selecionado">
+<!ENTITY InputSettings.label "Configurações do campo">
+<!ENTITY InputType.accesskey "T">
+<!ENTITY InputType.label "Tipo">
+<!ENTITY InputValue.label "Valor:">
+<!ENTITY Name.accesskey "N">
+<!ENTITY TextLength.accesskey "C">
+<!ENTITY TextLength.label "Comprimento máximo:">
+<!ENTITY TextSize.accesskey "h">
+<!ENTITY TextSize.label "Tamanho do campo:">
+<!ENTITY Value.accesskey "V">
+<!ENTITY button.value "Botão">
+<!ENTITY checkbox.value "Caixas de seleção">
+<!ENTITY file.value "Botão Arquivo">
+<!ENTITY hidden.value "Oculto">
+<!ENTITY image.value "Imagem">
+<!ENTITY password.value "Senha">
+<!ENTITY radio.value "Rádio">
+<!ENTITY reset.value "Botão Reset">
+<!ENTITY submit.value "Botão Enviar">
+<!ENTITY tabIndex.accesskey "b">
+<!ENTITY tabIndex.label "Índice para tab:">
+<!ENTITY text.value "Texto">
+<!ENTITY windowTitle.label "Propriedades do campo do formulário">
+<!ENTITY windowTitleImage.label "Propriedades da imagem do formulário">

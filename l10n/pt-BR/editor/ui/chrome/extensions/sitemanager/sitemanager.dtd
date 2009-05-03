@@ -1,0 +1,21 @@
+<!ENTITY createDir.label "Novo subdiretório">
+<!ENTITY createDirButton.tooltip "Novo diretório">
+<!ENTITY createdir.accesskey "N">
+<!ENTITY deleteFile.label "Apagar arquivo">
+<!ENTITY deletefile.accesskey "D">
+<!ENTITY editSitesList.label "Editar sites">
+<!ENTITY filenameColumn.label "Nome">
+<!ENTITY filterAll.label "Todos os arquivos">
+<!ENTITY filterControl.label "Exibir:">
+<!ENTITY filterHTML.label "Documentos HTML">
+<!ENTITY filterImages.label "Imagens">
+<!ENTITY lastModifiedColumn.label "Data de modificação">
+<!ENTITY reloadButton.tooltip "Atualizar">
+<!ENTITY removeButton.tooltip "Apagar">
+<!ENTITY removeDir.label "Remover diretório">
+<!ENTITY removedir.accesskey "R">
+<!ENTITY renameButton.tooltip "Renomear arquivo ou diretório">
+<!ENTITY renameMenu.label "Renomear">
+<!ENTITY sizeColumn.label "Tamanho">
+<!ENTITY stopButton.tooltip "Parar">
+<!ENTITY treeViewCheckbox.label "Árvore">

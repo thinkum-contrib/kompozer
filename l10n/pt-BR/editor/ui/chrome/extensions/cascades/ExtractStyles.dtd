@@ -1,0 +1,10 @@
+<!ENTITY allElements.label "all elements">
+<!ENTITY alreadyUsedWarning.label "Warning, this name is already used!!!">
+<!ENTITY autoChoice.label "Choose for me!">
+<!ENTITY description.label "Extract the CSS inline styles attached to this element and create a CSS style rule applied to">
+<!ENTITY nameNeededWarning.label "You must give a name to this element">
+<!ENTITY ofClass.label "of class:">
+<!ENTITY ofType.label "of same element type">
+<!ENTITY thisElementOnly.label "this element only">
+<!ENTITY whenHovered.label "hovered by the pointer">
+<!ENTITY window.title "Create generic style">

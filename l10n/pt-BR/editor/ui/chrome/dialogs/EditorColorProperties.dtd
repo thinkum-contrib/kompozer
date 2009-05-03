@@ -1,0 +1,22 @@
+<!ENTITY activeLinkText.accessKey "a">
+<!ENTITY activeLinkText.label "Texto - link ativo">
+<!ENTITY background.accessKey "u">
+<!ENTITY background.label "Plano de fundo:">
+<!ENTITY backgroundImage.accessKey "I">
+<!ENTITY backgroundImage.label "Imagem do plano de fundo:">
+<!ENTITY backgroundImage.tooltip "Usar um arquivo de imagem como plano de fundo para a página">
+<!ENTITY colon.character ":">
+<!ENTITY customColorsRadio.accessKey "z">
+<!ENTITY customColorsRadio.label "Usar cores personalizadas:">
+<!ENTITY customColorsRadio.tooltip "Estas configurações de cores anulam as do navegador do visitante">
+<!ENTITY defaultColorsRadio.accessKey "s">
+<!ENTITY defaultColorsRadio.label "Não definir as cores da página (usar as cores padrão do internauta)">
+<!ENTITY defaultColorsRadio.tooltip "Usar as configurações de cor do navegador do visitante">
+<!ENTITY linkText.accessKey "l">
+<!ENTITY linkText.label "Texto - link">
+<!ENTITY normalText.accessKey "n">
+<!ENTITY normalText.label "Texto - normal">
+<!ENTITY pageColors.label "Cores da página">
+<!ENTITY visitedLinkText.accessKey "v">
+<!ENTITY visitedLinkText.label "Texto - link visitado">
+<!ENTITY windowTitle.label "Plano de fundo e cores da página">

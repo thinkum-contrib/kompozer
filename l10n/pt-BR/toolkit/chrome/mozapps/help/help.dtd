@@ -1,0 +1,46 @@
+<!ENTITY printCmd.commandkey            "P">
+
+<!ENTITY findOnCmd.commandkey           "f">
+<!ENTITY findAgainCmd.commandkey        "g">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+
+<!ENTITY backButton.label               "Voltar">
+<!ENTITY backButton.accesskey           "V">
+<!ENTITY backButton.tooltip             "Retornar para a página anterior">
+<!ENTITY forwardButton.label            "Avançar">
+<!ENTITY forwardButton.accesskey        "A">
+<!ENTITY forwardButton.tooltip          "Próxima página">
+<!ENTITY copyCmd.label                  "Copiar">
+<!ENTITY copyCmd.accesskey              "C">
+<!ENTITY selectAllCmd.label             "Selecionar tudo">
+<!ENTITY selectAllCmd.accesskey         "S">
+<!ENTITY goBackCmd.commandkey           "[">
+<!ENTITY goForwardCmd.commandkey        "]">
+<!ENTITY homeButton.label               "Página inicial">
+<!ENTITY homeButton.tooltip             "Ir para a página inicial da ajuda">
+<!ENTITY printButton.label              "Imprimir">
+<!ENTITY printButton.tooltip            "Imprimir a página">
+<!ENTITY closeWindow.commandkey         "w">
+
+<!ENTITY throbberItem.title             "Indicador de atividade">
+<!ENTITY throbber.tooltip               "Ir para a ajuda da seção Ajuda">
+
+<!ENTITY searchtab.label    	  	"Localizar:">
+<!ENTITY searchtab.accesskey            "z">
+<!ENTITY toctab.label       	  	"Conteúdo">
+<!ENTITY toctab.accesskey               "c">
+
+<!ENTITY textZoomReduceCmd.commandkey	"-">
+<!ENTITY textZoomEnlargeCmd.commandkey	"+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey    "0">
+
+<!ENTITY helpSearch.commandkey          "k">
+
+<!ENTITY zLevel.label                   "Sempre visível">
+<!ENTITY zLevel.accesskey               "S">
+
+<!ENTITY textZoomReduceBtn.label        "Diminuir texto">
+<!ENTITY textZoomReduceBtn.accesskey    "d">
+<!ENTITY textZoomEnlargeBtn.label       "Aumentar texto">
+<!ENTITY textZoomEnlargeBtn.accesskey   "A">

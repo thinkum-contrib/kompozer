@@ -1,0 +1,11 @@
+<!ENTITY areaName.label "Area name">
+<!ENTITY areaType.label "Area type">
+<!ENTITY blockAreaRadio.label "Block">
+<!ENTITY flowAreaRadio.label "Flow of text">
+<!ENTITY movableAreaCheckbox.label "Area is movable">
+<!ENTITY optionalAreaCheckbox.label "Area is optional">
+<!ENTITY options.label "Options">
+<!ENTITY provideId.label "Please give a name to that editable area:">
+<!ENTITY repeatableAreaCheckbox.label "Area is repeatable">
+<!ENTITY warning.label "Warning, this name is already used!!!">
+<!ENTITY window.title "Insert an editable area">

@@ -1,0 +1,13 @@
+<!ENTITY AttName.label "Atributo: ">
+<!ENTITY AttValue.label "Valor: ">
+<!ENTITY PropertyName.label "Propriedade: ">
+<!ENTITY WindowTitle.label "Propriedades avançadas">
+<!ENTITY currentattributesfor.label "Atributos atuais para:">
+<!ENTITY editAttribute.label "Clique em um item acima para editar seu valor.">
+<!ENTITY removeAttribute.label "Excluir">
+<!ENTITY tabCSS.label "Estilos inline">
+<!ENTITY tabHTML.label "Atributos do HTML">
+<!ENTITY tabJSE.label "Eventos de JavaScript">
+<!ENTITY tree.attributeHeader.label "Atributo">
+<!ENTITY tree.propertyHeader.label "Propriedade">
+<!ENTITY tree.valueHeader.label "Valor">

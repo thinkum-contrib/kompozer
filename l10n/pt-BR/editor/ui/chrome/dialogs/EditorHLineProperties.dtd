@@ -1,0 +1,19 @@
+<!ENTITY alignmentBox.label "Alinhamento">
+<!ENTITY centerRadio.accessKey "C">
+<!ENTITY centerRadio.value "Centralizado">
+<!ENTITY dimensionsBox.label "Dimensões">
+<!ENTITY heightEditField.accessKey "A">
+<!ENTITY heightEditField.label "Altura:">
+<!ENTITY leftRadio.accessKey "r">
+<!ENTITY leftRadio.value "Esquerdo">
+<!ENTITY pixelsPopup.value "pontos">
+<!ENTITY rightRadio.accessKey "o">
+<!ENTITY rightRadio.value "Direito">
+<!ENTITY saveSettings.accessKey "v">
+<!ENTITY saveSettings.label "Salvar como padrão">
+<!ENTITY saveSettings.tooltip "Salvar estas opções para usar ao inserir novas linhas horizontais">
+<!ENTITY threeDShading.accessKey "m">
+<!ENTITY threeDShading.label "Sombra 3D">
+<!ENTITY widthEditField.accessKey "L">
+<!ENTITY widthEditField.label "Largura:">
+<!ENTITY windowTitle.label "Propriedades da linha horizontal">
