@@ -29,6 +29,13 @@
 import os
 import sys
 
+
+###############################################################################
+#                                                                             #
+#     Global constants                                                        #
+#                                                                             #
+###############################################################################
+
 # preferences: adapt these lines to your config
 L10N_ROOT     = "l10n/"
 CHROME_ROOT   = "../chrome/"
@@ -61,7 +68,6 @@ def shell(cmd):
 	else:
 		os.system(cmd)
 
-
 # copy source to dest and create directory if needed
 def xcopy(source, dest):
 	# warning: won't work on Windows unless you're in a Cygwin shell
@@ -77,14 +83,6 @@ def xcopy(source, dest):
 #     l10n converters                                                         #
 #                                                                             #
 ###############################################################################
-
-# copy all locales from "l10n.CVS" to "l10n", check value of "IMPORT_ROOT" above
-def l10nCopyAll():
-	dirList = os.listdir(IMPORT_ROOT)
-	for dir in dirList:
-		if dir != "CVS":
-			l10nCopy(IMPORT_ROOT + dir, "l10n/" + dir)
-
 
 # import relevant files in the Mozilla CVS trunk (= 1.8.1) to the KompoZer l10n repository
 # cvs -d :pserver:anonymous@cvs-mirror.mozilla.org/l10n co l10n
@@ -106,7 +104,6 @@ def l10nCopy(sourceDir, destDir):
 			# copy file to l10n directory
 			xcopy(source, dest)
 
-
 # import chrome files into the l10n repository
 def chrome2l10n(chromeDir, l10nDir):
 	print "importing " + chromeDir + " to " + l10nDir + ", following " + INDEX_FILE
@@ -125,7 +122,6 @@ def chrome2l10n(chromeDir, l10nDir):
 
 			# copy chrome file to l10n directory
 			xcopy(chrome, l10n)
-
 
 # export chrome files from the l10n repository
 def l10n2chrome(l10nDir, chromeDir):
@@ -149,9 +145,12 @@ def l10n2chrome(l10nDir, chromeDir):
 	# this file has to be added separately (not to be translated)
 	xcopy(BRAND_FILE, chromeDir + "/global/brand.dtd")
 
-
 # create XPI langpack from a chrome-path directory
 def chrome2xpi(locale):
+	cwd = os.getcwd()
+	if not os.path.exists(CHROME_ROOT + locale):
+		l10n2chrome(L10N_ROOT + locale, CHROME_ROOT + locale)
+
 	# warning: won't work on Windows unless you're in a Cygwin shell
 	xpiFile = "kompozer-" + locale + ".xpi"
 	print "making " + xpiFile
@@ -191,6 +190,7 @@ def chrome2xpi(locale):
 	# remove temp files
 	os.chdir("..")
 	shell("rm -rf " + tmpDir)
+	os.chdir(cwd)
 
 
 ###############################################################################
@@ -200,55 +200,97 @@ def chrome2xpi(locale):
 ###############################################################################
 
 # script usage information
-def usage():
-	print 
+def usage(full):
 	print "usage:"
-	print "    ./convert-locales.py <command> locale [index]"
+	print "    ./convert-locales.py <command> locale [index] [source]"
 	print 
-	print "command:"
-	print "    copy : copy all files required by KompoZer from a Mozilla-CVS l10n directory"
-	print "    push : copy files from the chrome-path directory to the l10n directory"
-	print "    pull : copy files from the l10n directory to the chrome-path directory"
-	print "    make : create an XPI langpack from the chrome-path directory"
-	print 
-	print "locale:"
-	print "    locale identifier, e.g. 'en-US' or 'fr'"
-	print 
-	print "index:"
-	print "    optional index file for the [copy|push|pull] commands"
-	print "    default is '" + INDEX_FILE + "'"
-	print 
-	print "current settings:"
-	print "    l10n directory        : " + L10N_ROOT
-	print "    chrome-path directory : " + CHROME_ROOT
-	print "    Mozilla-CVS directory : " + IMPORT_ROOT
-	print "    (please edit this script if you want to change these settings)"
-	print 
-	print "examples:"
-	print "    ./convert-locales.py push en-US"
-	print "    ./convert-locales.py pull fr"
-	print "    ./convert-locales.py make fr"
+	if (full):
+		print "command:"
+		print "    copy : copy all files required by KompoZer from a Mozilla-CVS l10n directory"
+		print "    push : copy files from the chrome-path directory to the l10n directory"
+		print "    pull : copy files from the l10n directory to the chrome-path directory"
+		print "    make : create an XPI langpack from the chrome-path directory"
+		print "    help : display this message"
+		print 
+		print "locale:"
+		print "    locale identifier, e.g. 'en-US' or 'fr'"
+		print "    use 'all' to process all available locales"
+		print 
+		print "index:"
+		print "    optional index file for the [copy|push] commands"
+		print "    default is '" + INDEX_FILE + "'"
+		print 
+		print "source:"
+		print "    optional source directory for the [push] commands"
+		print "    will be used instead of the locale in the chrome-path directory"
+		print 
+		print "current settings:"
+		print "    l10n directory        : " + L10N_ROOT
+		print "    chrome-path directory : " + CHROME_ROOT
+		print "    Mozilla-CVS directory : " + IMPORT_ROOT
+		print "    (please edit this script if you want to change these settings)"
+		print 
+		print "examples:"
+		print "    ./convert-locales.py push en-US"
+		print "    ./convert-locales.py pull fr"
+		print "    ./convert-locales.py make fr"
+		print 
+	print "You probably want to run:"
+	print "    ./convert-locales.py make [locale]"
+	print "where [locale] is your language identifier: de, es, fr, it, pt-BR... to generate an XPI langpack in the " + CHROME_ROOT + " directory."
 	print 
 
 # main: parse command-line arguments
-if len(sys.argv) < 3:
-	usage()
-else:
-	command    = sys.argv[1]
-	locale     = sys.argv[2]
-	chrome_dir = CHROME_ROOT + locale
-	l10n_dir   = L10N_ROOT   + locale
-	if len(sys.argv) > 3:
-		INDEX_FILE = sys.argv[3]
-	# go, go, go!
-	if (command == "copy"):
-		l10nCopy(l10n_import + sys.argv[2], l10n_dir)
-	elif (command == "push"):
-		chrome2l10n(chrome_dir, l10n_dir)
-	elif (command == "pull"):
-		l10n2chrome(l10n_dir, chrome_dir)
-	elif (command == "make"):
-		chrome2xpi(locale)
+def main():
+	if len(sys.argv) < 2:
+		usage(0)
+
+	elif len(sys.argv) == 2:
+		usage(sys.argv[1].endswith("help"))
+
 	else:
-		usage()
+		# get command and locale arguments
+		command = sys.argv[1]
+		locale  = sys.argv[2]
+		if locale == "all":
+			if command == "copy":
+				localeList = os.listdir(IMPORT_ROOT)
+			else:
+				localeList = os.listdir(L10N_ROOT)
+				print localeList
+		else:
+			localeList = []
+			localeList.append(locale)
+
+		# process command on each locale
+		for locale in localeList:
+			# ignore 'CVS' and hidden directories
+			if os.path.isdir(L10N_ROOT + locale) and locale != "CVS" and not locale.startswith("."):
+
+				# get parameters
+				chrome_dir = CHROME_ROOT + locale
+				l10n_dir   = L10N_ROOT   + locale
+				indexFile  = INDEX_FILE
+				if len(sys.argv) > 3:
+					indexFile = sys.argv[3]
+				if len(sys.argv) > 4 and command == "push":
+					chrome_dir = sys.argv[4]
+  
+				# go, go, go!
+				if (command == "copy"):
+					l10nCopy(l10n_import + sys.argv[2], l10n_dir)
+				elif (command == "push"):
+					chrome2l10n(chrome_dir, l10n_dir)
+				elif (command == "pull"):
+					l10n2chrome(l10n_dir, chrome_dir)
+				elif (command == "make"):
+					chrome2xpi(locale)
+				else:
+					print "Error: invalid command '" + command + "'"
+					print
+					usage(1)
+					sys.exit()
+
+if __name__ == "__main__":
+	main()
 
