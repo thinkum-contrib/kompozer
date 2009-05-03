@@ -1,0 +1,6 @@
+<!ENTITY windowTitle.label "画像とアンカーのチェック">
+<!ENTITY urlsNotFound.label "以下の画像・アンカーがリンク切れです。">
+<!ENTITY notFoundKey.label "(&quot;X&quot;＝リンク切れ、&quot;?&quot;＝接続時に時間切れ)">
+<!ENTITY changeUrlButton.label "URIを修正">
+<!ENTITY succeeded.label "成功">
+<!ENTITY failed.label "失敗">

@@ -1,0 +1,24 @@
+<!ENTITY editorWindow.titlemodifier "KompoZer">
+<!ENTITY editorWindow.titlemodifiermenuseparator " - ">
+<!ENTITY textEditorWindow.titlemodifier "テキストエディタ">
+
+
+
+
+<!ENTITY viewMenu.label "表示">
+<!ENTITY viewmenu.accesskey "v">
+
+
+<!ENTITY formatMenu.label "書式">
+<!ENTITY formatmenu.accesskey "o">
+
+
+<!ENTITY helpMenu.label "ヘルプ">
+<!ENTITY aboutCmd.label ".About">
+
+<!ENTITY editMode.label "編集モード:">
+
+<!ENTITY statusText.label "ページ読み込み完了">
+
+<!ENTITY preferencesCmd.label "設定...">
+<!ENTITY preferencesCmd.accesskey "O">

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+<Description about="urn:root">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="ja-a"  nc:name="あ"/></li>
+   <li><Description ID="ja-i"  nc:name="い"/></li>
+   <li><Description ID="ja-u"  nc:name="う"/></li>
+   <li><Description ID="ja-e"  nc:name="え"/></li>
+   <li><Description ID="ja-o"  nc:name="お"/></li>
+   <li><Description ID="ja-ka" nc:name="か"/></li>
+   <li><Description ID="ja-ki" nc:name="き"/></li>
+   <li><Description ID="ja-ku" nc:name="く"/></li>
+   <li><Description ID="ja-ke" nc:name="け"/></li>
+   <li><Description ID="ja-ko" nc:name="こ"/></li>
+   <li><Description ID="ja-sa" nc:name="さ"/></li>
+   <li><Description ID="ja-si" nc:name="し"/></li>
+   <li><Description ID="ja-su" nc:name="す"/></li>
+   <li><Description ID="ja-se" nc:name="せ"/></li>
+   <li><Description ID="ja-so" nc:name="そ"/></li>
+   <li><Description ID="ja-ta" nc:name="た"/></li>
+   <li><Description ID="ja-ti" nc:name="ち"/></li>
+   <li><Description ID="ja-tu" nc:name="つ"/></li>
+   <li><Description ID="ja-te" nc:name="て"/></li>
+   <li><Description ID="ja-to" nc:name="と"/></li>
+   <li><Description ID="ja-na" nc:name="な"/></li>
+   <li><Description ID="ja-ni" nc:name="に"/></li>
+   <li><Description ID="ja-nu" nc:name="ぬ"/></li>
+   <li><Description ID="ja-ne" nc:name="ね"/></li>
+   <li><Description ID="ja-no" nc:name="の"/></li>
+   <li><Description ID="ja-ha" nc:name="は"/></li>
+   <li><Description ID="ja-hi" nc:name="ぴ"/></li>
+   <li><Description ID="ja-fu" nc:name="ふ"/></li>
+   <li><Description ID="ja-he" nc:name="へ"/></li>
+   <li><Description ID="ja-ho" nc:name="ほ"/></li>
+   <li><Description ID="ja-ma" nc:name="ま"/></li>
+   <li><Description ID="ja-mi" nc:name="み"/></li>
+   <li><Description ID="ja-mu" nc:name="む"/></li>
+   <li><Description ID="ja-me" nc:name="め"/></li>
+   <li><Description ID="ja-mo" nc:name="も"/></li>
+   <li><Description ID="ja-ya" nc:name="や"/></li>
+   <li><Description ID="ja-yu" nc:name="ゆ"/></li>
+   <li><Description ID="ja-yo" nc:name="よ"/></li>
+   <li><Description ID="ja-ra" nc:name="ら"/></li>
+   <li><Description ID="ja-ri" nc:name="り"/></li>
+   <li><Description ID="ja-ru" nc:name="る"/></li>
+   <li><Description ID="ja-re" nc:name="れ"/></li>
+   <li><Description ID="ja-ro" nc:name="ろ"/></li>
+   <li><Description ID="ja-wa" nc:name="わ"/></li>
+   <li><Description ID="ja-wo" nc:name="を"/></li>
+   <li><Description ID="ja-nn" nc:name="ん"/></li>
+   <li><Description ID="alphabet" nc:name="英文字"/></li>
+
+   <li><Description ID="a" nc:name="A"/></li>
+   <li><Description ID="b" nc:name="B"/></li>
+   <li><Description ID="c" nc:name="C"/></li>
+   <li><Description ID="d" nc:name="D"/></li>
+   <li><Description ID="e" nc:name="E"/></li>
+   <li><Description ID="f" nc:name="F"/></li>
+   <li><Description ID="g" nc:name="G"/></li>
+   <li><Description ID="h" nc:name="H"/></li>
+   <li><Description ID="i" nc:name="I"/></li>
+   <li><Description ID="j" nc:name="J"/></li>
+   <li><Description ID="k" nc:name="K"/></li>
+   <li><Description ID="l" nc:name="L"/></li>
+   <li><Description ID="m" nc:name="M"/></li>
+   <li><Description ID="n" nc:name="N"/></li>
+   <li><Description ID="o" nc:name="O"/></li>
+   <li><Description ID="p" nc:name="P"/></li>
+   <li><Description ID="q" nc:name="Q"/></li>
+   <li><Description ID="r" nc:name="R"/></li>
+   <li><Description ID="s" nc:name="S"/></li>
+   <li><Description ID="t" nc:name="T"/></li>
+   <li><Description ID="u" nc:name="U"/></li>
+   <li><Description ID="v" nc:name="V"/></li>
+   <li><Description ID="w" nc:name="W"/></li>
+   <li><Description ID="x" nc:name="X"/></li>
+   <li><Description ID="y" nc:name="Y"/></li>
+   <li><Description ID="z" nc:name="Z"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#a">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="accessibility-options" nc:name="Accessibility Options" nc:link="prefs.xhtml#accessibility"/></li>
+   <li><Description ID="advanced-options" nc:name="Advanced Options" nc:link="prefs.xhtml#advanced_options"/></li>
+   <li><Description nc:name="Advanced Property Editor" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#b">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Background Colors, Page" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></li>
+   <li><Description nc:name="Browsing Page" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#c">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Changing Text Color, Style, Font" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></li>
+   <li><Description nc:name="Composition Toolbar" nc:link="composer_tutorial.xhtml#composition_toolbar"/></li>
+   <li><Description nc:name="Copying Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></li>
+   <li><Description nc:name="Creating Stylesheets" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></li>
+   <li><Description nc:name="Creating Templates" nc:link="templates.xhtml#creating_a_template"/></li>
+   <li><Description nc:name="Creating Webpages" nc:link="composer_help.xhtml"/></li>
+   <li><Description nc:name="CSS" nc:link="css.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#d">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Deleting Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#e">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Editing Mode Toolbar" nc:link="composer_tutorial.xhtml#edit_mode_toolbar"/></li>
+   <li><Description ID="editing_modes" nc:name="Editing Modes" nc:link="composer_help.xhtml#choosing_the_right_editing_mode"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#f">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Finding Text" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></li>
+   <li><Description nc:name="Format Toolbar" nc:link="composer_tutorial.xhtml#format_toolbar"/></li>
+   <li><Description nc:name="Formatting" nc:link="formatting_webpages.xhtml"/></li>
+   <li><Description ID="formatting_paragraphs" nc:name="formatting paragraphs" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#h">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="help-viewer" nc:name="Help Viewer" nc:link="welcome.xhtml"/></li>
+   <li><Description nc:name="Horizontal Lines, Insert" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></li>
+   <li><Description nc:name="Hyperlinks" nc:link="links.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#help-viewer">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="help-viewer:how-to-use" nc:name="How To Use" nc:link="welcome.xhtml"/></li>
+   <li><Description ID="help-viewer:finding-a-topic" nc:name="Finding a Topic" nc:link="welcome.xhtml#finding_the_topic_you_want"/></li>
+   <li><Description ID="help-viewer:search-tips" nc:name="Search Tips" nc:link="welcome.xhtml#search_tips"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+
+
+<Description about="#i">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="images" nc:name="Images" nc:link="images.xhtml"/></li>
+   <li><Description nc:name="Images as Links" nc:link="links.xhtml#using_images_as_links"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#images">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="images_edit" nc:name="editing image properties" nc:link="composer_help.xhtml#editing_image_properties"/></li>
+   <li><Description ID="images_insert" nc:name="inserting images" nc:link="inserting_an_image_into_your_page"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#k">
+ <nc:subheadings>
+  <Seq>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#l">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="links" nc:name="Links" nc:link="composer_help.xhtml#creating_links_in_composer"/></li>
+   <li><Description ID="lists" nc:name="Lists" nc:link="composer_help.xhtml#formatting_your_web_pages"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#links">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="links_creating" nc:name="creating link on same page" nc:link="composer_help.xhtml#creating_links_within_the_same_page"/></li>
+   <li><Description ID="links_external" nc:name="creating external links" nc:link="composer_help.xhtml#creating_links_to_other_pages"/></li>
+   <li><Description ID="links_images" nc:name="using images as links" nc:link="composer_help.xhtml#removing_or_discontinuing_links"/></li>
+   <li><Description ID="links_removing" nc:name="removing links" nc:link="composer_help.xtml#removing_or_discontinuing_links"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#lists">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="lists_list_item" nc:name="list items" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists"/></li>
+   <li><Description ID="lists_work" nc:name="working with lists" nc:link="composer_help.xhtml#working_with_lists"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#m">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Move Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#n">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="New Document" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#p">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="page" nc:name="page" nc:link="page_properties.xhtml"/></li>
+   <li><Description ID="preferences" nc:name="preferences" nc:link="preferences.xhtml"/></li>
+   <li><Description ID="publishing" nc:name="publishing" nc:link="publishing_help.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#page">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="page-properties" nc:name="setting page properties" nc:link="composer_help.xhtml#setting_page_properties_and_meta_tags"/></li>
+   <li><Description ID="page-color-background" nc:name="setting page colors and background" nc:link="composer_help.xhtml#setting_page_colors_and_backgrounds"/></li>
+   <li><Description ID="page-save" nc:name="saving page" nc:link="composer_help.xhtml#Saving and Browsing Your New Page"/></li>
+   <li><Description ID="page-create" nc:name="新しいページを作る" nc:link="composer_help.xhtml#creating_a_new_page"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#preferences">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="preferences_general_settings" nc:name="general settings" nc:link="composer_help.xhtml#preferences_general_settings"/></li>
+   <li><Description ID="preferences-new-page-settings" nc:name="new page settings" nc:link="preferences.xhtml#preferences_new_page_settings"/></li>
+   <li><Description ID="preferences-advanced-settings" nc:name="advanced settings" nc:link="preferences.xhtml#preferences-advanced-settings"/></li>
+   <li><Description ID="preferences_fonts" nc:name="Fonts" nc:link="preferences.xhtml#preferences_fonts"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#r">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Remove Text Styles" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></li>
+   <li><Description nc:name="Removing Links" nc:link="links.xhtml#removing_or_discontinuing_links"/></li>
+   <li><Description nc:name="Replacing Text" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#s">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="Saving Page" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></li>
+   <li><Description nc:name="Selecting Tables" nc:link="tables.xhtml#selecting_table_elements"/></li>
+   <li><Description ID="special-characters" nc:name="special characters" nc:link="formatting_webpages.xhtml#inserting_special_characters"/></li>
+   <li><Description nc:name="Status Toolbar" nc:link="composer_tutorial.xhtml#status_toolbar"/></li>
+   <li><Description nc:name="Style Sheets" nc:link="css.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+
+<Description about="#t">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="tables" nc:name="Tables" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></li>
+   <li><Description ID="text" nc:name="Text" nc:link="composer_help.xhtml#formatting_your_web_pages"/></li>
+   <li><Description ID="tabs" nc:name="Tabs" nc:link="composer_help.xhtml#create_document"/></li>
+   <li><Description ID="tutorial" nc:name="Tutorial" nc:link="composer_tutorial.xhtml"/></li>
+   <li><Description ID="toolbars" nc:name="Toolbars" nc:link=""/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#tables">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="adding-tables-to-your-web-page" nc:name="Adding Tables to Your Web Page" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></li>
+   <li><Description ID="" nc:name="" nc:link=""/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#text">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="changing-text-color" nc:name="changing text color" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></li>
+   <li><Description ID="changing-text-font" nc:name="changing text font" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></li>	
+   <li><Description ID="changing-text-style" nc:name="changing text style" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></li>
+   <li><Description ID="finding-replacing-text" nc:name="finding/replacing text" nc:link="composer_help.xhtml#finding_and_replacing_text"/></li>
+   <li><Description ID="removing-or-discontinuing-text-styles" nc:name="removing or discontinuing text styles" nc:link="composer_help.xhtml#removing_or_discontinuing_text_styles"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#u">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="User Interface" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#v">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="validate" nc:name="Validating HTML" nc:link="composer_help.xhtml#validating_the_html"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#ja-a">
+ <nc:subheadings>
+  <Seq>
+
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#ja-i">
+ <nc:subheadings>
+  <Seq>
+
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#ja-ki">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="キーボードショートカット" nc:link="shortcuts.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#ja-si">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="ショートカット (キーボード)" nc:link="shortcuts.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#ja-mo">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="toc" nc:name="目次" nc:link="composer_help.xhtml#working_with_table_of_contents_on_your_web_page"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#alphabet">
+ <nc:subheadings>
+  <Seq>
+   <li><Description nc:name="HTML" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+</RDF>

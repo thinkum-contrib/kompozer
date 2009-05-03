@@ -1,0 +1,9 @@
+<!ENTITY windowTitle.label "テーブルへの変換">
+<!ENTITY instructions1.label "選択範囲内の各段落を各行とするテーブルを作成します。">
+<!ENTITY instructions2.label "選択文字列から列を切り出すとき、区切りとして使用する文字を選択してください。">
+<!ENTITY commaRadio.label "カンマ">
+<!ENTITY spaceRadio.label "空白">
+<!ENTITY otherRadio.label "その他:">
+<!ENTITY deleteCharCheck.label "区切り文字を削除する">
+<!ENTITY collapseSpaces.label "追加されている空白を無視する">
+<!ENTITY collapseSpaces.tooltip "区切り文字に隣接する空白も区切りする">

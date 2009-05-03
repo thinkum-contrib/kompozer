@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:nc="http://home.netscape.com/NC-rdf#">
+<!-- メモ：「<dt id="(.*)">([^<]*)</dt>\n<dd>.*</dd>」→「\t\t\t\t<li> <Description nc:name="\2" nc:link="glossary.xhtml#\1"/></li>\n」-->
+<Description about="urn:root" nc:base="chrome://help/locale/glossary.xhtml">
+ <nc:subheadings>
+  <Seq>
+   <li> <Description nc:name="アドレス [address]" nc:link="glossary.xhtml#address"/></li>
+   <li> <Description nc:name="暗号化 [encryption]" nc:link="glossary.xhtml#encryption"/></li>
+   <li> <Description nc:name="暗号解読法 [cryptography]" nc:link="glossary.xhtml#cryptography"/></li>
+   <li> <Description nc:name="インターネット [The Internet]" nc:link="glossary.xhtml#Internet"/></li>
+   <li> <Description nc:name="ウェブページ [web page]" nc:link="glossary.xhtml#web_page"/></li>
+   <li> <Description nc:name="ウェブサイト [web site]" nc:link="glossary.xhtml#web_site"/></li>
+   <li> <Description nc:name="ウェブサーバ [web server]" nc:link="glossary.xhtml#web_server"/></li>
+   <li> <Description nc:name="キャッシュ [cache]" nc:link="glossary.xhtml#cache"/></li>
+   <li> <Description nc:name="クライアント [client]" nc:link="glossary.xhtml#client"/></li>
+   <li> <Description nc:name="検索エンジン [search engine]" nc:link="glossary.xhtml#search_engine"/></li>
+   <li> <Description nc:name="公開 [publishing]" nc:link="glossary.xhtml#publish"/></li>
+   <li> <Description nc:name="サイトマネージャ" nc:link="glossary.xhtml#site_manager"/></li>
+   <li> <Description nc:name="サーバ [server]" nc:link="glossary.xhtml#server"/></li>
+   <li> <Description nc:name="証明書 [certificate]" nc:link="glossary.xhtml#certificate"/></li>
+   <li> <Description nc:name="ステータスバー [Status Bar]" nc:link="glossary.xhtml#Status_Bar"/></li>
+   <li> <Description nc:name="セキュア・ファイル転送プロトコル (SFTP) [Secure Shell File Transfer Protocol]" nc:link="glossary.xhtml#secure_shell_file_transfer_protocol"/></li>
+   <li> <Description nc:name="ツールチップ [tooltip]" nc:link="glossary.xhtml#tooltip"/></li>
+   <li> <Description nc:name="デジタルID [digital ID]" nc:link="glossary.xhtml#digital_ID"/></li>
+   <li> <Description nc:name="ナビゲーションツールバー [Navigation Toolbar]" nc:link="glossary.xhtml#navigation_toolbar"/></li>
+   <li> <Description nc:name="認証 [authentication]" nc:link="glossary.xhtml#authentication"/></li>
+   <li> <Description nc:name="ファイル転送プロトコル (FTP) [File Transfer Protocol]" nc:link="glossary.xhtml#File_Transfer_Protocol"/></li>
+   <li> <Description nc:name="パスワードマネージャ [Password Manager]" nc:link="glossary.xhtml#Password_Manager"/></li>
+   <li> <Description nc:name="秘密鍵 [private key]" nc:link="glossary.xhtml#private_key"/></li>
+   <li> <Description nc:name="復号化 [decryption]" nc:link="glossary.xhtml#decryption"/></li>
+   <li> <Description nc:name="不正表示 [misrepresentation]" nc:link="glossary.xhtml#misrepresentation"/></li>
+   <li> <Description nc:name="プラグイン [plug-in]" nc:link="glossary.xhtml#plug-in"/></li>
+   <li> <Description nc:name="プロキシ [proxy]" nc:link="glossary.xhtml#proxy"/></li>
+   <li> <Description nc:name="ヘルパーアプリケーション [helper application]" nc:link="glossary.xhtml#helper_application"/></li>
+   <li> <Description nc:name="保護されたサイト [secure site]" nc:link="glossary.xhtml#secure_site"/></li>
+   <li> <Description nc:name="マスターパスワード [master password]" nc:link="glossary.xhtml#master_password"/></li>
+   <li> <Description nc:name="CSS [Cascading Style Sheet]" nc:link="glossary.xhtml#css"/></li>
+   <li> <Description nc:name="FIPS PUBS 140-1" nc:link="glossary.xhtml#FIPS_PUBS_140-1"/></li>
+   <li> <Description nc:name="FTP [File Transfer Protocol]" nc:link="glossary.xhtml#FTP"/></li>
+   <li> <Description nc:name="HTML [Hypertext Markup Language]" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></li>
+   <li> <Description nc:name="IPアドレス [Internet protocol address]" nc:link="glossary.xhtml#Internet_protocol_address"/></li>
+   <li> <Description nc:name="Java" nc:link="glossary.xhtml#Java"/></li>
+   <li> <Description nc:name="JavaScript" nc:link="glossary.xhtml#JavaScript"/></li>
+   <li> <Description nc:name="PKCS #11 [public-key cryptography standard #11]" nc:link="glossary.xhtml#PKCS_11"/></li>
+   <li> <Description nc:name="SFTP [Secure Shell File Transfer Protocol]" nc:link="glossary.xhtml#sftp"/></li>
+   <li> <Description nc:name="SSL [Secure Sockets Layer]" nc:link="glossary.xhtml#SSL"/></li>
+   <li> <Description nc:name="TLS" nc:link="glossary.xhtml#TLS"/></li>
+   <li> <Description nc:name="TCP/IP [Transmission Control Protocol/Internet Protocol]" nc:link="glossary.xhtml#TCP_IP"/></li>
+   <li> <Description nc:name="URL [Uniform Resource Locator]" nc:link="glossary.xhtml#Uniform_Resource_Locator"/></li>
+   <li> <Description nc:name="URI [Uniform Resource Identifier]" nc:link="glossary.xhtml#Uniform_Resource_Identifier"/></li>
+   <li> <Description nc:name="W3C [World Wide Web Consortium]" nc:link="glossary.xhtml#w3c"/></li>
+   <li> <Description nc:name="World Wide Web (WWW)" nc:link="glossary.xhtml#world_wide_web"/></li>
+   <li> <Description nc:name="XML [Extensible Markup Language]" nc:link="glossary.xhtml#XML"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+</RDF>

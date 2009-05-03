@@ -1,0 +1,11 @@
+<!ENTITY window.title "編集可能部分の挿入">
+<!ENTITY areaName.label "名前">
+<!ENTITY provideId.label "この編集可能とする部分に名前を付けてください。">
+<!ENTITY warning.label "警告！この名前は既に使われています！">
+<!ENTITY areaType.label "種類">
+<!ENTITY flowAreaRadio.label "文章">
+<!ENTITY blockAreaRadio.label "ブロック">
+<!ENTITY options.label "その他">
+<!ENTITY optionalAreaCheckbox.label "この部分は無くても構わない">
+<!ENTITY repeatableAreaCheckbox.label "この部分は再使用可能 (repeatable)">
+<!ENTITY movableAreaCheckbox.label "この領域は移動可能">

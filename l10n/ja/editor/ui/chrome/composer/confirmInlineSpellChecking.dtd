@@ -1,0 +1,3 @@
+<!ENTITY window.title "確認して下さい">
+<!ENTITY confirmInlineSpellChecking.label "インライン綴りチェックが有効になっていて、ソース表示モードから他のモードに移行するときに前ページが綴りチェックの対象となります。文書の長さとその内容によっては、重い処理となり得ます。綴りチェックを行いますか、それとも無効にしますか？">
+<!ENTITY exitWarningCheckbox.label "Don't show this dialog again ">

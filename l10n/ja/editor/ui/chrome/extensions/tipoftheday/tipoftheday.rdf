@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN" "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD;
+]>
+<rss version="0.91">
+<channel>
+<title>&brandShortName;のヒント</title>
+<link>http://www.nvu.com/</link>
+<description>&brandShortName;のヒント一覧</description>
+<language>ja-jp</language>
+
+<item>
+<title>……要素は移動できます！</title>
+<description>移動したいブロックにカーソルを移動して、レイヤーボタンをクリックすると、ブロックが移動可能になります。</description>
+</item>
+
+<item>
+<title>……ツールバーはカスタマイズ可能です！</title>
+<description>[表示]→[ツールバー]→[カスタマイズ...] を選択すると、ツールバーカスタマイズのパネルが開きます。そこから、ボタンや区切り、空白をドラッグアンドドロップして追加・削除できます。</description>
+</item>
+
+<item>
+<title>……ツールバーは追加できます！</title>
+<description>[表示]→[ツールバー]→[カスタマイズ...] を選択すると、ツールバーカスタマイズのパネルが開きます。そこから、[ツールバーを追加] ボタンを押してください。ツールバーを空にしておくと、カスタマイズパネルを閉じたときに削除されます。</description>
+</item>
+
+<item>
+<title>……&brandShortName;にはCSSエディタがあります！</title>
+<description>&brandShortName;にはCSSエディタ「CaScadeS」が内蔵されています。[ツール]→[CSSエディタ]から、これを起動できます。</description>
+</item>
+
+<item>
+<title>……&brandShortName;にはサイトマネージャがあります！</title>
+<description>F9キーを押すか、[表示]→[ツールバー]→[サイトマネージャ] を選択すると、サイトマネージャの表示・非表示が切り替えられます。</description>
+</item>
+
+<item>
+<title>……要素にstyle属性でスタイルシートを適用できます！</title>
+<description>スタイルを適用させたい要素にカーソルを移動し、画面下部の構造ツールバーの要素タグを右クリックしてください。メニューアイテム「インラインスタイル指定」の子メニューから、その要素のスタイルを直接変更できます。</description>
+</item>
+
+<item>
+<title>……文字方向の制御が出来ます！</title>
+<description>ツールバーのカスタマイズパネルに、文字方向を変更する2つのボタンがあります。これを使いましょう。</description>
+</item>
+
+<item>
+<title>……マウスでテーブルの大きさを変更できます！</title>
+<description>表示→表示切り替え→物差し を選択して物差しを表示し、キャレットをテーブルセル内に移動すると、大きさ変更アイコンが現れます。</description>
+</item>
+
+<item>
+<title>……ツールバーのカスタマイズが出来ます、とても簡単に！</title>
+<description>ツールバー上で右クリックするだけで…</description>
+</item>
+
+<item>
+<title>&brandShortName;ユーザのコミュニティに簡単にアクセスできます！</title>
+<description>メニューバーから ヘルプ→フォーラム を選択するだけです。</description>
+</item>
+
+<item>
+<title>……&brandShortName;起動時に文書を開くことができます！</title>
+<description>コマンドラインオプション「-edit」を用いて次のようにします。
+&brandShortName; -edit 文書のURL</description>
+</item>
+
+<item>
+<title>……同時に複数のサイトを編集できます！</title>
+<description>サイトマネージャで、同時に複数のウェブサイトを開いたり閲覧したり出来ます。</description>
+</item>
+
+<item>
+<title>……&brandShortName;はクロス・プラットフォームです！</title>
+<description>&brandShortName;は多くの種類のオペレーティング・システム (OS) で利用できます。例えば、Windows, Mac OS X, Linuxの多くのディストリビューション, OS/2, …</description>
+</item>
+
+<item>
+<title>……キーボードから新しいタブを開くことが出来ます！</title>
+<description>Ctrl+T (Mac OS XではCommand+T) で新しいタブが開かれます。</description>
+</item>
+
+<item>
+<title>……キーボードから新しいウィンドウを開くことが出来ます！</title>
+<description>Ctrl+Shift+N (Mac OS XではCommand+Shift+T) で新しいウィンドウが開かれます。</description>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,13 @@
+<!ENTITY windowTitle.label "fieldsetのプロパティ">
+<!ENTITY Legend.label "Legend">
+<!ENTITY Legend.accesskey "L">
+<!ENTITY EditLegendText.label "説明テキスト:">
+<!ENTITY EditLegendText.accesskey "T">
+<!ENTITY LegendAlign.label "説明テキストの配置:">
+<!ENTITY LegendAlign.accesskey "A">
+<!ENTITY AlignDefault.label "標準">
+<!ENTITY AlignLeft.label "左">
+<!ENTITY AlignCenter.label "中央">
+<!ENTITY AlignRight.label "右">
+<!ENTITY RemoveFieldSet.label "fieldsetを削除">
+<!ENTITY RemoveFieldSet.accesskey "R">

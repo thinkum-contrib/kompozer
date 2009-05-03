@@ -1,0 +1,14 @@
+<!ENTITY WindowTitle.label "プロパティの詳細編集">
+<!ENTITY AttName.label "属性">
+<!ENTITY AttValue.label "値">
+<!ENTITY PropertyName.label "特性">
+<!ENTITY currentattributesfor.label "次の要素に設定されている属性の一覧">
+<!ENTITY tree.attributeHeader.label "属性">
+<!ENTITY tree.propertyHeader.label "特性">
+<!ENTITY tree.valueHeader.label "値">
+<!ENTITY tabHTML.label "HTML属性">
+<!ENTITY tabCSS.label "インラインスタイルシート">
+<!ENTITY tabJSE.label "JavaScriptイベント">
+
+<!ENTITY editAttribute.label "上の各項目をクリックすると、その値を編集できます。">
+<!ENTITY removeAttribute.label "削除">

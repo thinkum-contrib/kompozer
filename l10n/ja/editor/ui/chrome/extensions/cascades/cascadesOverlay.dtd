@@ -1,0 +1,22 @@
+<!ENTITY cascadesMenuItem.label "CSSエディタ">
+<!ENTITY cascadesMenuItem.accesskey "c">
+<!ENTITY cascadesMenuItem.keybinding "VK_F11">
+
+
+<!ENTITY classSelectMenu.label "class">
+<!ENTITY idSelectMenu.label "ID">
+<!ENTITY inlineStyles.label "インラインスタイル">
+<!ENTITY inlinestyles.accesskey "i">
+
+<!ENTITY textProperties.label "テキスト関連プロパティ">
+<!ENTITY textproperties.accesskey "t">
+<!ENTITY borderProperties.label "枠線関連プロパティ">
+<!ENTITY borderproperties.accesskey "b">
+<!ENTITY backgroundProperties.label "背景関連プロパティ">
+<!ENTITY backgroundproperties.accesskey "g">
+<!ENTITY boxProperties.label "ボックス関連プロパティ">
+<!ENTITY boxproperties.accesskey "x">
+<!ENTITY auralProperties.label "音声関連プロパティ">
+<!ENTITY auralproperties.accesskey "a">
+<!ENTITY makeCSSRule.label "スタイルを抽出、一般規則を生成">
+<!ENTITY makecssrule.accesskey "e">

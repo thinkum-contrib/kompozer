@@ -1,0 +1,26 @@
+<!ENTITY sidebar.panels.label "Sidebar">
+<!ENTITY sidebar.reload.label "Reload">
+<!ENTITY sidebar.reload.accesskey "R">
+<!ENTITY sidebar.picker.label "Tabs">
+<!ENTITY sidebar.customize.label "Customize Sidebar...">
+<!ENTITY sidebar.customize.accesskey "u">
+<!ENTITY sidebar.hide.label "Hide Tab">
+<!ENTITY sidebar.hide.accesskey "H">
+<!ENTITY sidebar.switch.label "Switch to Tab">
+<!ENTITY sidebar.switch.accesskey "T">
+<!ENTITY sidebarCmd.label "サイトマネージャ">
+<!ENTITY sidebarCmd.accesskey "m">
+<!ENTITY sidebar.loading.label "読み込み中...">
+<!ENTITY sidebar.loadstopped.label "Load stopped">
+<!ENTITY sidebar.loading.stop.label "Stop">
+<!ENTITY sidebar.loading.stop.accesskey "S">
+
+<!ENTITY sidebar.no-panels.state "The sidebar is currently empty.">
+<!ENTITY sidebar.no-panels.add 'You may add tabs by clicking on the "Tabs" button above.'>
+<!ENTITY sidebar.no-panels.hide 'If you would like to completely hide the Sidebar, click on the "View" menu above, and select "Sidebar."'>
+<!ENTITY sidebar.sbDirectory.label "Sidebar Directory...">
+
+<!ENTITY sidebar.pagenotfound.label "This tab is not available right now.">
+<!ENTITY sidebar.close.tooltip "サイトマネージャを閉じる">
+<!ENTITY sidebar.open.tooltip "Open Sidebar">
+

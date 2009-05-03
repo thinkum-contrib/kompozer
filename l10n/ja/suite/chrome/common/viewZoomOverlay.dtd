@@ -1,0 +1,10 @@
+<!ENTITY textZoomEnlargeCmd.label "大きく">
+<!ENTITY textZoomEnlargeCmd.accesskey "L">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomReduceCmd.label "小さく">
+<!ENTITY textZoomReduceCmd.accesskey "S">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY textZoomMenu.accesskey "z">
+<!ENTITY textZoomOtherCmd.accesskey "o">

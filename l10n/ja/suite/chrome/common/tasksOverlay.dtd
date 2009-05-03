@@ -1,0 +1,43 @@
+
+
+<!ENTITY navigatorCmd.label "Navigator">
+<!ENTITY navigatorCmd.accesskey "n">
+<!ENTITY navigatorCmd.commandkey "1">
+
+<!ENTITY editorCmd.label "Composer">
+<!ENTITY editorCmd.accesskey "c">
+<!ENTITY editorCmd.commandkey "4">
+
+<!ENTITY securityInfoCmd.label ".Security Info">
+<!ENTITY securityInfoCmd.accesskey "s">
+<!ENTITY javaConsoleCmd.label "Javaコンソール">
+<!ENTITY javaConsoleCmd.accesskey "j">
+
+<!ENTITY javaScriptConsoleCmd.label "JavaScriptコンソール">
+<!ENTITY javaScriptConsoleCmd.accesskey "S">
+
+
+<!ENTITY privacyMenu.label "Privacy &amp; Security">
+<!ENTITY privacyMenu.accesskey "p">
+
+<!ENTITY taskNavigator.tooltip "Navigator">
+<!ENTITY taskComposer.tooltip "Composer">
+<!ENTITY taskBar.tooltip "ステータスバー">
+
+<!ENTITY webDevelopment.label "ウェブ開発">
+<!ENTITY webDevelopment.accesskey "W">
+
+<!ENTITY windowMenu.label "ウインドウ">
+<!ENTITY windowMenu.accesskey "W">
+
+<!ENTITY tasksMenu.label "ツール">
+<!ENTITY tasksMenu.accesskey "T">
+
+<!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
+<!ENTITY downloadManagerCmd.accesskey "D">
+
+<!ENTITY switchProfileCmd.label "Switch Profile...">
+<!ENTITY switchProfileCmd.accesskey "h">
+
+<!ENTITY extensions.label "機能拡張">
+<!ENTITY themes.label "テーマ">

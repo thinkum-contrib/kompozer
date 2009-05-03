@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi@yahoo.com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <title>&brandShortName;メニューリファレンス</title>
+ <link rel="stylesheet" type="text/css" href="ja.css"/>
+ <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">表示・非表示</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">ヘルプセンター</span></td>
+</tr>
+</table>
+  <div id="contentsBox">節一覧：
+  <a href="#file">ファイル</a>
+  <a href="#edit">編集</a>
+  <a href="#view">表示</a>
+  <a href="#insert">挿入</a>
+  <a href="#format">書式</a>
+  <a href="#table">テーブル</a>
+  <a href="#tools">ツール</a>
+  <a href="#help">ヘルプ</a>
+  </div>
+
+  <h1 id="menu_reference">&brandShortName;メニューリファレンス</h1>
+  <div>このメニューリファレンスでは、&brandShortName;のメインウィンドウの各メニューの項目を解説します。</div>
+
+  <h2 id="file">ファイル</h2>
+
+  <h3 id="new_window">新規作成</h3>
+  <p>新しい文書を&brandShortName;の新しいタブ、または新しいウィンドウで開きます。</p>
+
+  <h3 id="open_file">ファイルを開く...</h3>
+  <p>ディスク中のファイルを選択するダイアログを表示します。&brandShortName;を利用して、HTML、HTMLの雛型、テキストファイルを表示することが出来ます。</p>
+
+  <h3 id="open_web_location">URIを指定して開く...</h3>
+  <p>文書のURLを指定してその文書の編集を開始します。またローカルファイルも指定できます。</p>
+
+  <h3 id="recent_pages">最近使用したページ</h3>
+  <p>最近編集したファイルの一覧を表示します。</p>
+
+  <h3 id="close">閉じる</h3>
+  <p>現在のウィンドウを閉じます。</p>
+
+  <h3 id="close_all">すべて閉じる</h3>
+  <p>現在のウィンドウのすべてのタブを閉じます。</p>
+
+  <h3 id="save">保存</h3>
+  <p>現在選択されているタブのファイルを保存します。</p>
+
+  <h3 id="save_as">名前を付けて保存...</h3>
+  <p>現在編集中のページに別の名前を付けて保存します。</p>
+
+  <h3 id="save_as_charset">文字エンコードを指定して保存...</h3>
+  <p>ページの文字エンコーディングを指定するダイアログを先に表示して、現在編集中のページを「名前を付けて保存」します。</p>
+
+  <h3 id="publish">公開</h3>
+  <p>現在編集中のページを公開 (FTPにアップロードなどする) する、公開ダイアログを表示します。</p>
+
+  <h3 id="publish_as">名前を付けて公開...</h3>
+  <p>現在編集中のページを公開 (FTPにアップロードなどする) する、公開ダイアログを表示します。「公開」と同じ動作です。</p>
+
+  <h3 id="revert">変更の破棄</h3>
+  <p>現在編集中のページに加えられた変更を破棄し、直前に保存した内容まで巻き戻します。</p>
+
+  <h3 id="reload_image">画像の再読み込み</h3><!-- KompoZer only -->
+  <p>現在編集中のページ内に埋め込まれた画像のみを再読み込みします。</p>
+
+  <h3 id="export_to_text">テキストとして出力...</h3>
+  <p>現在の文書の内容をプレーンテキストとして出力します。</p>
+
+  <h3 id="browse_page">ページをプレビュー</h3>
+  <p>現在編集中のページを標準で関連付けられたウェブブラウザで表示します。</p>
+
+  <h3 id="page_setup">印刷ページ設定...</h3>
+  <p>印刷ページ設定ダイアログを表示して、印刷時の余白、ヘッダ、フッタ、印刷方向の指定が出来るようにします。</p>
+
+  <h3 id="print_preview">印刷プレビュー</h3>
+  <p>現在表示中のページを印刷するとどのようになるのかのプレビュー画面を表示します。印刷ページ設定ダイアログの設定が反映されます。</p>
+
+  <h3 id="print">印刷...</h3>
+  <p>何枚印刷するかなどを設定する、印刷ダイアログを表示します。<em>OK</em>をクリックするとページを印刷します。</p>
+
+  <h3 id="exit">終了</h3>
+  <p>&brandShortName;のすべてのウィンドウを閉じ、現在継続中のダウンロードを中止して、&brandShortName;を完全に終了します。もし複数のタブが開いたままになっていれば、それを閉じてよいか確認するダイアログが表示されます。誤って終了操作をしても安心です。</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">この節の先頭へ</a> ]</p>
+
+  <h2 id="edit">編集</h2>
+
+  <h3 id="undo">元に戻す</h3>
+  <p>現在編集中の文書に対して行った最後の操作を取り消します。この操作自体を取り消したいときは、「やり直し」コマンドを使用してください。</p>
+
+  <h3 id="redo">やり直し</h3>
+  <p>最後の「元に戻す」コマンドを取り消します。</p>
+
+  <h3 id="cut">切り取り</h3>
+  <p>現在編集中の文書の選択文字列を削除し、その内容をクリップボードに保存します。「貼り付け」コマンドでその文字列をどこにでも挿入することが出来ます。</p>
+
+  <h3 id="copy">コピー</h3>
+  <p>選択文字列の内容をクリップボードに保存します。「貼り付け」コマンドでその文字列をどこにでも挿入することが出来ます。</p>
+
+  <h3 id="paste">貼り付け</h3>
+  <p>クリップボード内の文字列を、カーソル位置に貼り付けます。</p>
+
+  <h3 id="paste_without_formatting">書式情報を省いて貼り付け</h3>
+  <p>クリップボード内の文字列を単純な文字列として、カーソル位置に貼り付けます。つまり、書式に関する情報は省略されます。</p>
+
+  <h3 id="delete">削除</h3>
+  <p>現在編集中の文書の選択文字列を削除します。</p>
+
+  <h3 id="select_all">すべて選択</h3>
+  <p>現在編集中の文書のすべての文字列を選択します。</p>
+
+  <h3 id="find_and_replace">検索・置換...</h3>
+  <p>文字列を検索したり、他の文字列に置き換えることができる、ダイアログを表示します。この検索は現在の文書に対して行われます。</p>
+
+  <h3 id="find_again">次を検索</h3>
+  <p><em>検索・置換</em>コマンドで指定した文字列の次に該当する部分検索します。この検索は現在の文書に対して行われます。</p>
+
+  <h3 id="find_previous">前を検索</h3>
+  <p><em>検索・置換</em>コマンドで指定した文字列の前に該当する部分検索します。</p>
+
+  <h3 id="check_spelling">綴りをチェック</h3>
+  <p>現在編集中のページの綴りを確認する為のダイアログを表示します。</p>
+
+  <h3 id="detach_from_template">雛型と区別する</h3>
+  <p>「雛型」を編集した文書を、<em>html</em>として保存できるように区別するようにします。</p>
+
+  <h3 id="publish_site_settings">公開サイト設定</h3>
+  <p>サイトマネージャを開き、公開対象のサイトを指定、設定を変更します。</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">この節の先頭へ</a> ]</p>
+
+  <h2 id="view">表示</h2>
+
+  <h3 id="show_hide">表示切替え</h3>
+
+  <h4 id="composition_toolbar">編集ツールバー</h4>
+  <p>アンカー、リンク、画像など、編集時に用いるボタンがある編集ツールバーの表示・非表示を切り替えます。</p>
+
+  <h4 id="format_toolbar">書式ツールバー</h4>
+  <p>文字色、文字揃えなど、書式を整える時に用いるボタンがある、書式ツールバーの表示・非表示を切り替えます。</p>
+
+  <h4 id="edit_mode_toolbar">編集モードツールバー</h4>
+  <p>編集モードツールバーの表示・非表示を切り替えます。編集モードツールバーとは、&brandShortName;最下段にあるステータスバーの上のバーのことです。<em>HTMLタグ表示</em>、<em>HTMLソース表示</em>などの編集モードを切り替えることが出来ます。</p>
+
+  <h4 id="status_bar">ステータスバー</h4>
+  <p>&brandShortName;ウィンドウの一番下にある、ステータスバーの表示・非表示を切り替えます。</p>
+  <h4 id="rulers">物差し</h4>
+  <p>編集画面の上、左に表示される物差しの表示・非表示を切り替えます。</p>
+
+  <h4 id="customize_toolbar">ツールバーのカスタマイズ</h4>
+
+  <h5 id="main_toolbar">メインツールバー</h5>
+  <p>編集ツールバーのカスタマイズパネルを開きます。ボタンなどの部品をパネルからツールバーにドラッグアンドドロップすることで新しいボタンを追加したり、逆に取り外したり出来ます。</p>
+
+  <h5 id="format_toolbar">書式ツールバー</h5>
+  <p>書式ツールバーのカスタマイズパネルを開きます。ボタンなどの部品をパネルからツールバーにドラッグアンドドロップすることで新しいボタンを追加したり、逆に取り外したり出来ます。</p>
+
+  <h4 id="site_manager">サイトマネージャ</h4>
+  <p>&brandShortName;ウィンドウの<em>サイトマネージャ</em>の表示・非表示を切り替えます。</p>
+
+  <h3 id="normal_edit_mode">通常の編集モード</h3>
+  <p>通常の編集モードへと表示モードを切り替えます。</p>
+
+  <h3 id="html_tags">HTMLタグ</h3>
+  <p>HTMLタグ表示モードへと切り替えます。</p>
+
+  <h3 id="html_source">HTMLソース</h3>
+  <p>HTMLソース表示モードへと切り替えます。</p>
+
+  <h3 id="preview">プレビュー</h3>
+  <p>プレビューモードへと切り替えます。</p>
+
+  <!--h3 id="carriage_returns">Carriage Returns</h3>
+  <p>Toggles the visibility of carriage returns.</p--><!-- XXXmotohiko:こんなのNvuに無い… -->
+
+  <h3 id="block_outline">ブロックの輪郭</h3>
+  <p>ページ中のブロックレベル要素の輪郭線の表示・非表示を切り替えます。</p>
+
+  <h3 id="text_zoom">文字サイズ</h3>
+
+    <h4 id="decrease_text_size">小さく</h4>
+    <p>ページ中の文字を小さくします。同様の操作はマウスやキーボードショートカットを使っても出来ます (次項参照)。元通りにするには、<kbd>Ctrl</kbd>+<kbd>0</kbd>を押します。</p>
+
+    <h4 id="increase_text_size">大きく</h4>
+    <p>ページ中の文字を大きくします。同様の操作は<kbd>Ctrl</kbd>キーを押しながらマウスホイールを動かしたり、<kbd>+</kbd>や<kbd>-</kbd>キーを押すことでも出来ます。元通りにするには、<kbd>Ctrl</kbd>+<kbd>0</kbd>を押します。</p>
+
+  <h3 id="character_encoding">文字エンコード</h3>
+  <p>ウェブページの文字エンコードを手動で変更することが出来ます。<!--&brandShortName;は通常は自動識別することが出来ます。--></p>
+
+  <h2 id="insert">挿入</h2>
+
+  <p>現在編集中の文書に、様々なHTML要素を追加します。</p>
+
+  <h3 id="insert_image">画像...</h3>
+  <p>現在の文書に画像を挿入するダイアログを開きます。</p>
+
+  <h3 id="insert_table">テーブル...</h3>
+  <p>現在の文書にテーブルを挿入するダイアログを開きます。</p>
+
+  <h3 id="insert_form">入力フォーム</h3>
+  <p></p>
+
+  <h3 id="insert_link">リンク...</h3>
+  <p>現在の文書にリンクを作成する、ダイアログを開きます。文字列選択時にこのコマンドを実行すると、選択文字列をリンクとします。また、<em>詳細表示</em>から、リンクの関連性を定義する<abbr>XFN</abbr> (XHTML Friends Network) などを定義することが出来ます。</p>
+
+  <h3 id="named_anchor">名前付きアンカー...</h3>
+  <p>現在のカーソル位置に、名前付きアンカーを挿入するダイアログを開きます。</p>
+
+  <h3 id="horizontal_line">水平線</h3>
+  <p>現在の文書に水平線 (<code>&lt;hr&gt;</code>) を挿入します。</p>
+
+  <h3 id="html">HTML...</h3>
+  <p>HTMLを直接入力するダイアログを開きます。</p>
+
+  <h3 id="character_and_symbols">文字・シンボル...</h3>
+  <p>特殊文字や記号などを選択するダイアログを開きます。選択された文字はカーソル位置に挿入されます。</p>
+
+  <h3 id="table_of_contents">目次...</h3>
+  <p>目次を作成し、現在のカーソル位置に挿入します。目次は<code>&lt;h1&gt;</code>～<code>&lt;h6&gt;</code>、<code>&lt;div&gt;</code>、<code>&lt;p&gt;</code>タグから作成することが出来ます。</p>
+
+  <h3 id="smart_widgets">ページ部品</h3>
+  <p>ページの構成要素となる部品を挿入します。</p>
+
+  <h4 id="made_with_nvu">'Made With &brandShortName;'ボタン</h4>
+  <p>"Made with &brandShortName;" を挿入します。</p>
+
+  <h4 id="calendar">カレンダー</h4>
+  <p>動的に生成される、カレンダーを挿入します。</p>
+
+  <h3 id="templates">雛型</h3>
+  <p>「雛型」(テンプレート) を作成時に、このコマンドで編集可能領域を追加することが出来ます。</p>
+
+  <h3 id="php_code">PHPコード</h3>
+  <p>PHPコードをHTML文書に挿入します。</p>
+
+  <h3 id="comment">コメント</h3>
+  <p>HTMLのコメントをHTML文書に挿入します。</p>
+
+  <h3 id="break_below_images">画像の下で改行</h3>
+  <p>「画像の下で改行」を追加します。具体的には、<code>&lt;br clear="all"&gt;</code>を挿入します。</p>
+
+  <h2 id="format">書式</h2>
+
+  <p>文書の書式を整えるコマンドがあります。</p>
+
+  <h3 id="font">フォント</h3>
+
+  <p>現在編集中の文書で選択されている文字列の、フォントフェイスを選択します。システムにインストール済みのすべてのフォントなどから選択することが出来ます。</p>
+
+  <h3 id="size">サイズ</h3>
+  <p><em>1段階小さく (smaller)</em>、<em>1段階大きく (larger)</em>で、現在表示されている文字の大きさから相対的に変更します。</p>
+  <p><em>とても小さい (xx-small)</em>、<em>小さい (x-small)</em>、<em>ちょっと小さい (small)</em>、<em>通常 (medium)</em>、<em>ちょっと大きい (large)</em>、<em>大きい (x-large)</em>、<em>とても大きい (xx-large)</em>を指定すると、それに相当する大きさに変更します</p>
+
+  <h3 id="text_style">文字装飾</h3>
+  <p>現在編集中の文書で選択されている文字列の、HTMLの文字スタイルを選択することが出来ます。</p>
+
+  <h4 id="text_style_bold">ボールド体 (太字)</h4>
+
+  <p>ボールド体で表示する指定を追加します。一般的には「太字」とされているものです。例：<b>ボールド体</b></p>
+
+  <h4 id="text_style_italic">イタリック体 (斜体)</h4>
+
+  <p>イタリック体で表示する指定を追加します。例：<i>イタリック</i></p>
+
+  <h4 id="text_style_italic">下線付き</h4>
+
+  <p>選択文字列に下線を付けます。例：<u>下線付き</u></p>
+
+  <h4 id="text_style_strikethrough">打ち消し線付き</h4>
+
+  <p>選択文字列に重なる横線を付けます。例：<span style="text-decoration: line-through;">打ち消し線付き</span></p>
+
+  <h4 id="text_style_superscript">上付き文字</h4>
+
+  <p>選択文字列の文字の大きさを少し小さくして、通常文字より位置を少し上にします。例：<sup>上付き文字</sup></p>
+
+  <h4 id="text_style_subscript">下付き文字</h4>
+
+  <p>選択文字列の文字の大きさを少し小さくして、通常文字より位置を少し下にします。例：<sub>上付き文字</sub></p>
+
+  <h4 id="text_style_fixed_width">固定幅</h4>
+
+  <p>選択文字列のフォントフェイスを等幅フォント (<code>monospace</code>) にします。例：<tt>固定幅</tt></p>
+
+  <h4 id="text_style_non_breaking">途中で改行しない</h4>
+
+  <p>HTMLを表示する際、連続する空白は一つに纏められ、その位置で改行されることがあります。その位置で改行して欲しくない場合には、空白を選択してこのコマンドを実行してください。例：&nbsp;&nbsp;&nbsp;この前に3つの「改行禁止の空白」があります。</p>
+
+  <h4 id="text_style_emphasis">強調 (em)</h4>
+
+  <p>選択文字列を「強調」します。HTMLでの<code>&lt;em&gt;</code>です。例：<em>強調</em></p>
+
+  <h4 id="text_style_stronger_emphasis">より強調 (strong)</h4>
+
+  <p>選択文字列を「より強調」します。HTMLでの<code>&lt;strong&gt;</code>です。例：<strong>より強調</strong></p>
+
+  <h4 id="text_style_citation">引用元 (cite)</h4>
+
+  <p>選択文字列を「引用元」を表すものとしてマークアップします。HTMLでの<code>&lt;cite&gt;</code>です。例：<cite>引用元</cite></p>
+
+  <h4 id="text_style_abbreviation">略語 (abbr)</h4>
+
+  <p>選択文字列を「略語」を表すものとしてマークアップします。HTMLでの<code>&lt;abbr&gt;</code>です。例：<abbr>UN</abbr> (United Nations: 国連)</p>
+
+  <h4 id="text_style_acronym">頭字語 (acronym)</h4>
+
+  <p>選択文字列を「頭字語」を表すものとしてマークアップします。HTMLでの<code>&lt;acronym&gt;</code>です。例：<acronym>WWW</acronym> (World Wide Web)</p>
+
+  <h4 id="text_style_code">プログラムコード (code)</h4>
+
+  <p>選択文字列を「プログラムコード」を表すものとしてマークアップします。HTMLでの<code>&lt;code&gt;</code>です。例：<code>プログラムコードの断片</code></p>
+
+  <h4 id="text_style_sample_output">出力例 (samp)</h4>
+
+  <p>選択文字列をコンピュータの「出力例」を表すものとしてマークアップします。HTMLでの<code>&lt;samp&gt;</code>です。例：<samp>プログラムが出力するデータの例</samp></p>
+
+  <h4 id="text_style_variable">変数 (var)</h4>
+
+  <p>選択文字列を「プログラム変数」を表すものとしてマークアップします。HTMLでの<code>&lt;var&gt;</code>です。例：<var>変数foo</var></p>
+
+  <h3 id="text_color">文字色...</h3>
+
+  <p>Opens the color picker popup window to choose the color for
+  selected text.</p>
+  <p>色選択ダイアログを開き、選択文字列の文字色を変更します。</p>
+
+  <h3 id="writing_direction">文字方向</h3>
+
+  <p>選択文字列の文字描画方向を指定します。方向は<em>左から右へ</em> (英語など)、<em>右から左へ</em> (アラビア語など) からせん宅で着ます。この描画方向は、インラインレベル要素ではなくブロックレベル要素に指定されねばなりません。</p>
+
+  <h3 id="discontinue_text_styles">すべての装飾を解除</h3>
+
+  <p>現在のカーソル位置で、すべての装飾を解除します。</p>
+
+  <h3 id="discontinue_link">リンクを解除</h3>
+
+  <p>現在のカーソル位置の前までをリンクとし、以降をリンクから外します。</p>
+
+  <h3 id="remove_named_anchors">名前付きアンカーを削除</h3>
+
+  <p>現在選択されている、名前付きアンカーを削除します。</p>
+
+  <h3 id="paragraph">段落</h3>
+
+  <p>選択文字列の属するブロックレベル要素を、<em>body直下</em> (注：Strict DTDでは不正)、<em>段落</em>、<em>H1</em>～<em>H6</em>、<em>引用</em>、<em>連絡先</em>、<em>Pre</em>から選択します。</p>
+
+  <h3 id="list">リスト</h3>
+
+  <p>一覧としてマークアップするものが選択できます。<em>順番付き</em> (<code>&lt;ol&gt;</code>)、<em>順番なし</em> (<code>&lt;ul&gt;</code>)、<em>定義項目</em> (<code>&lt;dt&gt;</code>)、<em>定義内容</em> (<code>&lt;dd&gt;</code>)、そして<em>リストのプロパティ</em>が選択可能です。</p>
+
+  <h3 id="increase_indent">インデントを1段階深くする</h3>
+
+  <p>ブロックレベル要素にインデントを表すスタイルを付けます。もし既に付いていればそれをさらに深くします。</p>
+
+  <h3 id="decrease_indent">インデントを1段階浅くする</h3>
+
+  <p>ブロックレベル要素のインデントを表すスタイルを浅い値にします。</p>
+
+  <h3 id="align">配置</h3>
+
+  <p>選択文字列を含むブロックレベル要素の配置を決定します。<em>左</em>、<em>右</em>、<em>中央</em>、そして<em>均等割り (justify)</em>が選択可能です。</p>
+
+  <h3 id="positioning_grid">グリッド配置</h3>
+
+  <p>レイヤーを移動する際の解像度を設定するダイアログを開きます。</p>
+
+  <h3 id="advanced_properties">詳細プロパティ</h3>
+
+  <p>「詳細プロパティ」ダイアログを開きます。このダイアログから、HTML属性、インラインスタイル、JavaScriptイベントの追加・編集が出来ます。</p>
+
+  <h3 id="page_colors_and_background">ページの配色と背景...</h3>
+
+  <p>ページの色、背景画像を選択するダイアログを開きます。<em>本文</em>、<em>リンク文字列</em>、<em>選択されたリンク文字列</em>、<em>訪問済みリンク文字列</em>の色、<em>背景</em>の色と<em>背景画像</em>が選択可能です。</p>
+
+  <h3 id="page_title_and_properties">ページのタイトルとプロパティ...</h3>
+
+  <p>「ページのプロパティ」ダイアログを開きます。このダイアログから、ページの<em>タイトル</em>、<em>著作者</em>、<em>内容の説明</em>、ページ内容が記述されている<em>言語</em>、<em>文字方向</em>が指定できます。もし現在編集中のページを「雛型」(テンプレート) として用いるのであれば、<em>このページを「雛型」として用いる</em>にチェックを入れてください。</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">この節の先頭へ</a> ]</p>
+
+  <h2 id="table">テーブル</h2>
+
+  <p>HTML文書のテーブル作成・編集のコマンドがあります。</p>
+
+  <h3 id="table_insert">挿入</h3>
+
+  <p>テーブル編集のサブメニューです。</p>
+
+  <h4 id="insert_table">テーブル</h4>
+
+  <p>現在編集中の文書のカーソル位置に挿入するテーブルに関するダイアログを開きます。テーブルの大きさを、図のクリックや、「詳細設定」タブからの数値入力で指定したりすることが出来ます。<code>cellspacing</code>、<code>cellpadding</code>などのプロパティも指定できます。</p>
+
+  <h4 id="insert_row_above">行の上に</h4>
+
+  <p>現在選択されているテーブルの行の上に、空の行を追加します。</p>
+
+  <h4 id="insert_row_below">行の下に</h4>
+
+  <p>現在選択されているテーブルの行の下に、空の行を追加します。</p>
+
+  <h4 id="insert_column_before">列の前に</h4>
+
+  <p>現在選択されているテーブルの列の前に、空の列を追加します。</p>
+
+  <h4 id="insert_column_after">列の次に</h4>
+
+  <p>現在選択されているテーブルの列の後ろに、空の列を追加します。</p>
+
+  <h4 id="insert_cell_before">セルの前に</h4>
+
+  <p>現在選択されているテーブルのセルの前に、空のセルを追加します。</p>
+
+  <h4 id="insert_cell_after">セルの次に</h4>
+
+  <p>現在選択されているテーブルのセルの後ろに、空のセルを追加します。</p>
+
+  <h3 id="table_select">選択</h3>
+
+  <p>現在のテーブルの指定されたものを選択します。</p>
+
+  <h4 id="select_table">テーブル</h4>
+
+  <p>テーブル全体を選択します。</p>
+
+  <h4 id="select_row">行</h4>
+
+  <p>テーブルのカーソルのある行を選択します。</p>
+
+  <h4 id="select_column">列</h4>
+
+  <p>テーブルのカーソルのある列を選択します。</p>
+
+  <h4 id="select_all_cells">すべてのセル</h4>
+
+  <p>テーブルのセルをすべて選択します。<em>テーブル</em>との違いは、変更がテーブルそのものでなく各セルに適用されるというものになります。</p>
+
+  <h3 id="table_delete">削除</h3>
+
+  <p>現在のテーブルの指定されたものを削除するサブメニューを開きます。</p>
+
+  <h4 id="delete_table">テーブル</h4>
+
+  <p>テーブル全体を削除します。テーブルの内容も削除されることに注意してください。</p>
+
+  <h4 id="delete_rows">行</h4>
+
+  <p>テーブルの、カーソルのある行を削除します。</p>
+
+  <h4 id="delete_columns">列</h4>
+
+  <p>テーブルの、カーソルのある列を削除します。</p>
+
+  <h4 id="delete_cells">セル</h4>
+
+  <p>テーブルの、カーソルのあるセル、あるいは選択されたセルを削除します。</p>
+
+  <h4 id="delete_cell_contents">セル内容</h4>
+
+  <p>テーブルの、カーソルのあるセルの内容を削除します。</p>
+
+  <h3 id="join_with_cell_to_the_right">このセルを右と結合</h3>
+
+  <p>カーソル位置のセルを、右にあるセルと結合します。</p>
+
+  <h3 id="split_cell">セルを分割</h3>
+
+  <p>カーソル位置のセルに1より大きいの<code>colspan</code>が指定されていれば、そのセルを分割します。</p>
+
+  <h3 id="create_table_from_selection">選択文字列からテーブルを作成</h3>
+
+  <p>選択文字列からテーブルを作成します。選択文字列の各行が行となり、コンマ (,)、空白、あるいはユーザの指定する値で分割された内容が各セルとなります。</p>
+
+  <h3 id="table_or_cell_background_color">テーブル・セルの背景色...</h3>
+
+  <p>テーブルやセルの背景色を指定するダイアログを開きます。</p>
+
+  <h3 id="table_properties">テーブルのプロパティ...</h3>
+
+  <p>テーブルやセルのプロパティを編集するウィンドウを開きます。</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">この節の先頭へ</a> ]</p>
+
+  <h2 id="tools">ツール</h2>
+
+  <h3 id="markup_cleaner">HTMLの清書</h3>
+
+  <p>HTMLの清書ウィンドウを開きます。清書機能を用いることにより、余計な&lt;br&gt;タグや空のブロックを削除したりすることが出来ます。</p>
+
+  <h3 id="validate_html">HTMLの文法をチェック</h3>
+
+  <p>現在編集中の文書の、<a href="http://validator.w3.org" target="_blank">W3CのHTML validator</a>による文法チェックの結果を表示します。</p>
+
+  <h3 id="css_editor">CSSエディタ</h3>
+
+  <p>組み込みCSSエディタ「CaScadeS」を開きます。</p>
+
+  <h3 id="extensions">機能拡張</h3>
+
+  <p>機能拡張マネージャを開きます。マネージャから機能拡張をインストールしたり、削除 (アンインストール) することも出来ます。機能拡張とは、&brandShortName;の機能を拡張したりするパッケージのことです。</p>
+
+  <h3 id="themes">テーマ</h3>
+
+  <p>テーママネージャを開きます。マネージャからテーマをインストールしたり、削除 (アンインストール) することも出来ます。</p>
+
+  <h3 id="web_development">ウェブ開発</h3>
+
+  <p>ウェブ開発者向けに同梱されている様々なツールを起動します。</p>
+
+  <h4 id="javascript_console">JavaScriptコンソール</h4>
+
+  <p>JavaScriptコンソールウィンドウを開きます。</p>
+
+  <h4 id="java_console">Java Console</h4>
+
+  <p>Javaコンソールのウィンドウを開きます。</p>
+
+  <!--h4 id="dom_inspector">DOM Inspector</h4>
+
+  <p>Opens the Document Object Model (DOM) Inspector.</p>
+
+  <h4 id="javascript_debugger">Javascript Debugger</h4>
+
+  <p>Opens the Javascript debugger Venkman for debugging javascript
+  code in the document.</p-->
+
+  <h3 id="preferences">設定</h3>
+  <p><em>設定</em>ウィンドウを開きます。このウィンドウでは、&brandShortName;の各種設定を変更できます。</p>
+
+  <h2 id="help">ヘルプ</h2>
+
+  <h3 id="help_contents">ヘルプ目次</h3>
+
+  <p>ヘルプ閲覧ウィンドウを表示します。</p>
+
+  <h3 id="nvu_website">&brandShortName;のウェブサイト</h3>
+
+  <p>&brandShortName;のウェブサイトを、標準で設定されたブラウザで開きます。</p>
+
+  <h3 id="nvu_faq">よくある質問</h3>
+
+  <p>&brandShortName;に関する良くある質問ページを、標準で設定されたブラウザで開きます。</p>
+
+  <h3 id="bug_reports_and_suggestions">バグ報告・提案</h3>
+
+  <p>&brandShortName;のバグを報告したり提案をするページを、標準で設定されたブラウザで開きます。</p>
+
+  <h3 id="developers_community">開発者コミュニティ</h3>
+
+  <p>&brandShortName;の開発者コミュニティのウェブサイトを、標準で設定されたブラウザで開きます。</p>
+
+  <h3 id="localizing_nvu">Localizing &brandShortName;</h3>
+
+  <p>Opens the web page with instructions on how to start the &brandShortName;
+  localization process.</p>
+
+  <h3 id="forums">フォーラム</h3>
+
+  <p>&brandShortName;のフォーラムサイトを、標準で設定されたブラウザで開きます。</p>
+
+  <h3 id="tip_of_day">今日の一言</h3>
+
+  <p><em>今日の一言</em>の小さなウィンドウを開きます。</p>
+
+  <h3 id="about_nvu">&brandShortName;について</h3>
+
+  <p>&brandShortName;に関するダイアログを開きます。バージョン番号、貢献者一覧が表示されます。</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">この節の先頭へ</a> ]</p>
+
+  <div class="copyrightBox"><em>21 March 2005</em></div>
+
+  <p>Copyright &copy; 2004-2006 Contributors to the Nvu
+  Help Documentation Project.</p>
+
+</body>
+
+</html>

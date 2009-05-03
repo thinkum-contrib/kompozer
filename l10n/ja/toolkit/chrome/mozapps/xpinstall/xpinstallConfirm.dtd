@@ -1,0 +1,8 @@
+<!-- extracted from institems.xul -->
+
+<!ENTITY dialog.title		"ソフトウェアインストール">
+<!ENTITY warningText2.label	"悪意のあるソフトウェアがあなたのコンピュータに損傷を与えたり、あなたのプライバシーを侵害する恐れがあります。">
+<!ENTITY warningText3.label	"信頼できるサイトによるソフトウェアだけをインストールするようにしてください。">
+
+<!ENTITY from.label		"URL:">
+

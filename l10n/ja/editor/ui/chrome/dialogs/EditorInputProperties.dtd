@@ -1,0 +1,44 @@
+<!ENTITY windowTitle.label "form/inputのプロパティ">
+<!ENTITY windowTitleImage.label "form/imageのプロパティ">
+
+<!ENTITY InputType.label "入力フィールドの種類">
+<!ENTITY InputType.accesskey "T">
+<!ENTITY text.value "1行文字列">
+<!ENTITY password.value "パスワード">
+<!ENTITY checkbox.value "チェックボックス">
+<!ENTITY radio.value "ラジオボタン">
+<!ENTITY submit.value "送信ボタン">
+<!ENTITY reset.value "初期化ボタン">
+<!ENTITY file.value "ファイルボタン">
+<!ENTITY hidden.value "隠しパラメータ">
+<!ENTITY image.value "画像">
+<!ENTITY button.value "ボタン">
+
+<!ENTITY InputSettings.label "フィールド設定">
+<!ENTITY InputName.label "フィールド名">
+<!ENTITY GroupName.label "グループ名">
+<!ENTITY Name.accesskey "N">
+<!ENTITY InputValue.label "値">
+<!ENTITY InitialValue.label "初期値">
+<!ENTITY Value.accesskey "V">
+<!ENTITY InputChecked.label "チェック済み">
+<!ENTITY InputChecked.accesskey "C">
+<!ENTITY InputSelected.label "選択済み">
+<!ENTITY InputSelected.accesskey "S">
+<!ENTITY InputReadOnly.label "変更不可">
+<!ENTITY InputReadOnly.accesskey "R">
+<!ENTITY InputDisabled.label "無効">
+<!ENTITY InputDisabled.accesskey "D">
+<!ENTITY tabIndex.label "Tab順序">
+<!ENTITY tabIndex.accesskey "I">
+<!ENTITY TextSize.label "フィールドの大きさ">
+<!ENTITY TextSize.accesskey "F">
+<!ENTITY TextLength.label "最大文字列長">
+<!ENTITY TextLength.accesskey "L">
+<!ENTITY AccessKey.label "アクセスキー">
+<!ENTITY AccessKey.accesskey "K">
+<!ENTITY Accept.label "許容メディアタイプ">
+<!ENTITY Accept.accesskey "A">
+
+<!ENTITY ImageProperties.label "画像のプロパティ...">
+<!ENTITY ImageProperties.accesskey "E">

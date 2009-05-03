@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja"> <head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+<title>&brandShortName;でウェブページを作成する</title>
+<link rel="stylesheet" type="text/css" href="ja.css"/>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">表示・非表示</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">ヘルプセンター</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">節一覧：
+ <a href="#publishing_a_document">文書を公開する</a>
+ <a href="#publishing_settings">公開サイト設定</a>
+ <a href="#solving_common_publishing_problems">文書公開についてのよくある問題について</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">&brandShortName;でウェブページを作成する</h1>
+
+<p>まだページをコンピュータのハードディスクに置いているだけなら、それは個人的に見ることが出来るだけです。&brandShortName;で、それらを「ウェブサーバ」と呼ばれる外部のコンピュータで他の人にも公開することが出来ます。</p>
+
+<p>ウェブサーバでページを公開するということは、他の人が閲覧する際にアクセスするコンピュータに、そのページをコピー (アップロードする) ことを意味します。多くの<abbr>ISP</abbr> (インターネット接続業者) では、ウェブページを公開する為のウェブサーバの領域を提供しています。ウェブページを公開する為のウェブサーバについては、利用している<abbr>ISP</abbr> (インターネット接続業者) か、問い合わせ窓口、システム管理者などに問い合わせてください。</p>
+
+<h2 id="publishing_a_document">文書を公開する</h2>
+
+<p>文書を公開 (アップロード) するには、以下のようにします。</p>
+
+<ol>
+  <li>公開したいHTML文書を開くか、&brandShortName;で新しい文書を作成するなどして準備します。</li>
+
+  <li>準備が完了したなら、<kbd>公開</kbd>ボタン <img src="images/publish.png" width="26" height="26" alt="" />を押します。
+  <p>以前に公開したことがある文書であれば、&brandShortName;にその手続きなどが記憶されていますので、自動的に文書をサーバに転送します。公開作業中は、進捗状況がダイアログで表示されます。</p>
+
+  <ul>
+    <li>新たな文書の公開であれば、[ページの公開] ダイアログの [設定] タブが表示されます。ここに、外部サーバの場所などに関する情報を入力します。詳しくは<a href="#publish_page_settings">ページの公開 - 設定</a>を参照してください。情報の入力が終わったら、<kbd>公開</kbd>ボタンをクリックしてください。</li>
+
+    <li>未保存の文書の公開であれば、[ページの公開] ダイアログの [公開] タブが表示されます。こちらでは、ファイル名も入力できます。詳しくは<a href="#publish_page_publish">ページの公開 - 公開</a>を参照してください。情報の入力が終わったら、<kbd>公開</kbd>ボタンをクリックしてください。</li>
+  </ul>
+  </li>
+
+  <li>公開したページをブラウザで表示したい場合は、<kbd>閲覧</kbd>ボタンをクリックしてください。ページ中の画像がきちんと読み込めるか、またリンク切れがないかなどを確認して下さい。</li>
+
+  <li>必要であればページの編集を続けることが出来ます。公開済みのページを新しい内容に更新したい場合は、<kbd>公開</kbd>ボタンをクリックしてください。</li>
+</ol>
+
+<p>文書を一旦公開すると、公開済みの文書であることが判るように、文書の<abbr>URL</abbr>を<code>file://</code>プロトコルから<code>http://</code>プロトコルへと変更します。もしその文書をコンピュータのハードディスクに保存したい場合、<kbd>保存</kbd>ボタンをクリックしてください。保存先とファイル名を指定するダイアログが表示されます。</p>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">リンク切れや画像の欠落を防ぐ為には</h3>
+
+<ul>
+  <li>&brandShortName;で編集するHTMLファイルの最後に来る拡張子を、<code>.html</code>や<code>.htm</code>にします。画像ファイルの最後に来る拡張子を、<code>.jpg</code>や<code>.gif</code>、<code>.png</code>にします。ファイル名には空白や日本語などの (コンピュータにとって) 特別な文字を指定しないようにします。ファイル名は半角英数字の、小文字もしくは大文字に統一するようにしましょう。</li>
+
+  <li>文書をウェブブラウザで表示したとき、画像が読み込まれないようであれば、その画像をウェブサーバに公開していない為と考えられます。<kbd>ファイル</kbd>メニューから、<kbd>名前を付けて公開</kbd>を選択すると [ページの公開] ダイアログが表示されます。その [公開] タブから、[画像などの関連ファイルも含める] にチェックを入れて、<kbd>公開</kbd>ボタンをクリックしてください。</li>
+</ul>
+
+<p>他にもいくつかの問題解決法が、<a href="#solving_common_publishing_problems">文書公開についてのよくある問題について</a>にありますので参照してください。</p>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h3 id="updating_a_published_document">公開済みの文書を更新する</h3>
+
+<p>公開済みの文書を最新の内容に更新するには以下のようにします。</p>
+
+<ol>
+  <li><kbd>ファイル</kbd>メニューから、<kbd>最近使用したページ</kbd>を選択、そのサブメニュー内にある文書一覧から選択します。<p>もしくは、<kbd>URLを指定して開く</kbd>から、編集したい文書の<abbr>HTTP</abbr>アドレスを指定して開きます。</p></li><!-- XXXmotohiko: changed Nvu specific -->
+
+  <!--li>Open the File menu, and choose Edit Page.</li> XXXmotohiko: Nvu does not needs this, deleted -->
+
+  <li>適宜編集します。</li>
+
+  <li>編集完了したら、<kbd>公開</kbd>ボタンを押します。</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>ヒント</strong>: ウェブサーバ上に公開済みの文書や画像を削除するには、<abbr>FTP</abbr> (File Transfer Protocol) プログラムを用いるか、&brandShortName;のサイトマネージャを利用します。サブディレクトリの作成や、ファイルの名前の変更も同様です。サイトマネージャに関する項目は、現在このヘルプにはありません。悪しからず。</p><p>利用しているウェブページ公開サービスが、特定のFTPプログラムの利用を推奨しているかどうかを確認して下さい。「ヘルプ」とか「サポート」というセクションにあるでしょう。Vectorなどのソフトウェア紹介サイトからもFTPプログラムは入手可能です。</p>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">ファイルを公開する場所、ファイル名を変更する</h3>
+
+<p>文書のファイル名や公開する場所を変更するには、次のようにします。</p>
+
+<ol>
+  <li><kbd>ファイル</kbd>メニューから、<kbd>最近使用したページ</kbd>を選択、そのサブメニュー内にある文書一覧から選択します。<p>もしくは、<kbd>URLを指定して開く</kbd>から、編集したい文書の<abbr>HTTP</abbr>アドレスを指定して開きます。</p></li><!-- XXXmotohiko: changed Nvu specific -->
+
+  <!--li>Open the File menu, and choose Edit Page.</li> XXXmotohiko: Nvu does not needs this, deleted -->
+
+  <li>適宜編集します。</li>
+
+  <li>編集完了したら、<kbd>名前を付けて公開</kbd>ボタンを押します。[ページの公開] ダイアログの [公開] タブが表示されます。</li>
+
+  <li>ページの題名を変更するなら、ここで指定します。</li>
+
+  <li>ファイル名についても同様です。</li>
+
+  <li>サイト名一覧から、公開したいサイトの場所を選択します。新しい場所に公開するなら、<kbd>新規サイト</kbd>ボタンをクリックします。詳細については<a href="#publish_page_settings">ページの公開 - 設定</a>を参照してください。</li>
+
+  <li><kbd>公開</kbd>ボタンを押すと、新たな場所に文書が公開されます。</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">公開サイトを追加作成する</h3>
+
+<p>複数の場所に文書を公開するのであれば、予め利用するサイトに関する情報を設定しておき、公開作業毎にする作業を減らすことが出来ます。</p>
+
+<p>公開サイトを設定するには、&brandShortName;のウィンドウで次のようにします。</p>
+
+<ol>
+  <li><kbd>編集</kbd>→<kbd>公開サイト設定</kbd>を選択して、[公開設定] ダイアログを表示します。</li>
+
+  <li><kbd>新規サイト</kbd>をクリックします。</li>
+
+  <li>「サイト名」に、サイトを区別する為の名前を入力します。
+
+  <p>例えば「流れ星」に関するサイトを作りたければ、サイト名にも「流れ星」とすると判り易いです。各々のサイトが区別しやすいような名前を選ぶとよいでしょう。</p></li>
+
+  <li>「サーバのアドレス」に、<code>ftp://</code>や<code>http://</code>で始まるURLを指定します。インターネット接続業者やシステム管理者、ウェブホスティングサービスが指定した、サーバのアドレスを指定します。
+
+  <p>「サーバのアドレス」には、公開 (アップロード) 時に用いるURLを指定します。これが判らなければ、インターネット接続業者やシステム管理者に問い合わせてください。</p></li>
+
+  <li>「サイトのhttpアドレス」には、対応する<code>http://</code>アドレスを指定します。これはブラウザ表示時に用いられます。ファイル名や自分が作成したサブディレクトリなどは含めないようにして下さい。
+
+  <p>このURLは必ず<code>http://</code>で始まっていなければなりません。公開アドレスと同一のものであることもあります。これが判らなければ、インターネット接続業者やシステム管理者に問い合わせるか、空欄のままにしておいてください。</p></li>
+
+  <li>「ユーザ名」にはサイトにログインする際に用いる、インターネット接続業者やウェブホスティングサービスが指定したユーザ名を入力します。</li>
+
+  <li>「パスワード」にはユーザ名に対応したパスワードを入力します。</li>
+
+  <li>「パスワードを保存」にチェックしておけば、パスワードマネージャにパスワードを保存します。これにより、このサイトにファイルを公開する度にパスワードを入力せずに済むようになります。</li>
+
+  <li><kbd>OK</kbd>をクリックすれば完了です。</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">公開するサイトの初期設定を変更する</h3>
+
+<p>複数のサイトが設定されていて、そのうちの一つを最もよく用いるというのであれば、それを初期設定の値にすることが出来ます。こうすることにより、特に指定しない限りそのサイトに公開することが出来るようになります。</p>
+
+<p>設定済みのサイトとは関係なく、いつでも<kbd>ファイル</kbd>→<kbd>名前を付けて公開</kbd>からその他の場所へと文書を公開することが出来ます。詳しくは<a href="#changing_the_filename_or_publishing_location">ファイルを公開する場所、ファイル名を変更する</a>を参照してください。</p>
+
+<p>よく公開する場所を、初期設定の公開サイトに設定するには次のようにします。</p>
+
+<ol>
+  <li><kbd>編集</kbd>→<kbd>公開サイト設定</kbd>を選択して、公開設定のダイアログを表示します。</li>
+
+  <li>一覧中からサイトを選択します。
+
+  <p>設定されているサイトが一つだけであれば、常にそのサイトが利用されます。</p></li>
+
+  <li><kbd>標準設定にする</kbd>をクリックします。</li>
+
+  <li><kbd>OK</kbd>を押すと、設定が反映されます。</li></ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">設定済みの公開サイトを削除する</h3>
+
+<p>公開サイトとして設定されているサイトを削除できます。もし再度そのサイトで公開をしたい場合は、もう一度設定しなおす必要があります。</p>
+
+<p>設定済みの公開サイトを削除するには、次のようにします。</p>
+
+<ol>
+  <li><kbd>編集</kbd>→<kbd>公開サイト設定</kbd>を選択して、公開設定のダイアログを表示します。</li>
+
+  <li>一覧中からサイトを選択します。</li>
+
+  <li><kbd>サイトを削除</kbd>をクリックします。
+  <p>削除されるのは飽く迄そのサイトに関する設定情報だけであり、サイトに公開済みのデータはそのままになります。</p></li>
+
+  <li><kbd>OK</kbd>を押すと、設定が反映されます。</li>
+</ol>
+
+<p class="returnToSection">[ <a href="#publishing_a_document">この節の先頭に戻る</a> ]</p>
+
+<h2 id="publishing_settings">公開サイト設定</h2>
+
+<p>この節では、サイトの公開 (アップロード) の設定に関して解説します。&brandShortName;の一般的な設定については、<a href="composer_help.xhtml#composer_preferences">&brandShortName;の設定</a>を参照してください。</p>
+
+<h3 id="publish_page_publish">ページの公開 - 公開</h3>
+
+<p>[ページの公開] ダイアログの [公開] タブでは、どこに文書を公開するかを設定します。これは現在のページに対する設定になります。</p>
+
+<p>[ページの公開] ダイアログの [公開] タブを表示するには次のようにします。</p>
+
+<ol>
+  <li><kbd>ファイル</kbd>→<kbd>名前を付けて公開</kbd>を選択します。[ページの公開] ダイアログが表示されます。</li>
+
+  <li>[公開] タブが表示されます。</li>
+</ol>
+
+<ul> <li><strong>サイト名：</strong> 設定済みのサイトから、公開したいサイトを選択できます。ここにない場所に公開したいなら、<kbd>新規サイト</kbd>をクリックします。</li>
+
+<li><strong>ページタイトル：</strong> ページの題名を指定します。これは、ブラウザウィンドウのタイトルバーに表示されたり、ブックマークされたときにその名前となるものです。</li>
+
+<li><strong>ファイル名：</strong> 文書のファイル名を指定します。拡張子として<code>.html</code>や<code>.htm</code>も指定してください。</li>
+
+<li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+<p><strong>注意</strong>： もし公開するサイトに、既に同じファイル名のファイルがあれば、それを上書きしてしまいます。この際確認されることはありません。</p></li>
+
+<li><strong>このページのサイト内でのサブディレクトリ：</strong> これを空欄にしておくと、そのサイトの一番上のディレクトリにファイルを公開します。外部サーバのサブディレクトリにファイルを公開したければ、サブディレクトリ名を入力するか、その名前をドロップダウンリストから選択してください。ディレクトリ名は大文字・小文字を区別することに注意してください。</li>
+
+<li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+<p><strong>メモ：</strong> サイトのサブディレクトリは既に作成されてある必要があります。</p>
+</li>
+
+<li><strong>画像などの関連ファイルも含める</strong>: チェックされているなら、このページから参照される画像ファイルなどのファイルも同時に公開します。同じディレクトリ内に配置するか、指定した下位ディレクトリ内に配置するかも選択できます。</li>
+</ul>
+
+<p><strong>ヒント</strong>: サブディレクトリを作成したり、ウェブサーバ上に公開済みの文書や画像を削除するには、<abbr>FTP</abbr> (File Transfer Protocol) プログラムを用いるか、&brandShortName;のサイトマネージャを利用します。サイトマネージャに関する項目は、現在このヘルプにはありません。悪しからず。</p><p>利用しているウェブページ公開サービスが、特定のFTPプログラムの利用を推奨しているかどうかを確認して下さい。「ヘルプ」とか「サポート」というセクションにあるでしょう。Vectorなどのソフトウェア紹介サイトからもFTPプログラムは入手可能です。</p>
+
+<p class="returnToSection">[ <a href="#publishing_settings">この節の先頭に戻る</a> ]</p>
+
+<h3 id="publish_page_settings">ページの公開 - 設定</h3>
+
+<p>[ページの公開] ダイアログの [設定] タブでは、公開するサーバへのログイン情報などを設定できます。公開サイト設定と同様になります。これらの設定は、同じ場所に公開する文書に対しても利用されます。</p>
+
+<p>[ページの公開] ダイアログの [設定] タブを表示するには次のようにします。</p>
+
+<ol>
+  <li><kbd>ファイル</kbd>→<kbd>名前を付けて公開</kbd>を選択します。[ページの公開] ダイアログが表示されます。</li>
+
+  <li>[設定] タブを選択します。</li>
+</ol>
+
+<ul>
+  <li><strong>サイト名</strong>: サイトを区別する為の名前を入力します。区別しやすい、短めの名前にするとよいでしょう。</li>
+
+  <li id="host_name_for_publishingSDX"><strong>サーバのアドレス</strong>: インターネット接続業者やシステム管理者、ウェブホスティングサービスが指定した、サーバのアドレスを指定します。<code>ftp://</code>や<code>http://</code>で始まるURLになります。「ホスト名」とか「ホストのサーバ名」とか言われるものです。</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>サーバのアドレスには、どのURLにファイルを公開 (アップロード) すればいいかを指定します。何を指定すればいいか判らなければ、インターネット接続業者やシステム管理者に問い合わせてください。
+  </p></li>
+
+  <li><strong>サイトのhttpアドレス</strong>: 対応する<code>http://</code>アドレスを指定します。これはブラウザ表示時に用いられます。ファイル名や自分が作成したサブディレクトリなどは含めないようにして下さい。</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>このURLは必ず<code>http://</code>で始まっていなければなりません。公開アドレスと同一のものであることもあります。これが判らなければ、インターネット接続業者やシステム管理者に問い合わせるか、空欄のままにしておいてください。</p></li>
+
+  <li><strong>ユーザ名</strong>: サイトにログインする際に用いる、インターネット接続業者やウェブホスティングサービスが指定したユーザ名を指定します。</li>
+
+  <li><strong>パスワード</strong>: ユーザ名に対応したパスワードを指定します。</li>
+
+  <li><strong>パスワードを保存</strong>: チェックすれば、パスワードマネージャにパスワードを保存するようにします。これにより、このサイトにファイルを公開する度にパスワードを入力せずに済むようになります。</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#publishing_settings">この節の先頭に戻る</a> ]</p>
+
+<h3 id="publish_settings">公開サイト設定</h3>
+
+<p>[公開サイト設定] のダイアログでは、サイトに関する設定を追加したり、保存済みのものを編集、削除したり出来ます。また、公開時に通常用いるサイトも設定できます。</p>
+
+<p>[公開サイト設定] ダイアログを表示するには、次のようにします。</p>
+
+<ol>
+  <li><kbd>編集</kbd>→<kbd>公開サイト設定</kbd>を選択して、[公開設定] ダイアログを表示します。</li></ol>
+
+<ul>
+  <li><strong>新規サイト</strong>: 新たな公開するサイトの設定を始めます。設定済みのサイトの一覧に追加されます。</li>
+
+  <li><strong>標準設定にする</strong>: 公開時に標準で利用されるサイトに設定します。つまり、よく使われるサイトに指定するとよいでしょう。特に [公開設定] で指定しない限り、このサイトに公開されるようになります。</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>文書を違う場所に公開するには、<kbd>ファイル</kbd>→<kbd>名前を付けて公開</kbd>を選択すれば出来ます。</p>
+  </li>
+
+  <li><strong>サイトを削除</strong>: そのサイトに関する設定を削除します。</li>
+
+  <li><strong>サイト名</strong>: 公開するサイトを区別する名前を指定します。</li>
+
+  <li><strong>サーバのアドレス</strong>: インターネット接続業者やシステム管理者、ウェブホスティングサービスが指定した、サーバのアドレスを指定します。<code>ftp://</code>や<code>http://</code>で始まるURLになります。</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>公開 (アップロード) に用いるURLを指定します。これが判らなければ、インターネット接続業者やシステム管理者に問い合わせてください。</p>
+  </li>
+
+  <li><strong>サイトのhttpアドレス</strong>: 対応する<code>http://</code>アドレスのホームディレクトリを指定します。ファイル名や自分が作成したサブディレクトリなどは含めないようにして下さい。</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <p>このURLは必ず<code>http://</code>で始まっていなければなりません。公開アドレスと同一のものであることもあります。これが判らなければ、インターネット接続業者やシステム管理者に問い合わせるか、空欄のままにしておいてください。</p></li>
+
+  <li><strong>ユーザ名</strong>: サーバにログインする際に用いる、インターネット接続業者やウェブホスティングサービスが指定したユーザ名を入力します。</li>
+
+  <li><strong>パスワード</strong>: ユーザ名に対応したパスワードを入力します。</li>
+
+  <li><strong>パスワードを保存</strong>: これにチェックしておくと、パスワードマネージャにパスワードを保存します。これにより、このサイトにファイルを公開する度にパスワードを入力せずに済むようになります。</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#publishing_settings">この節の先頭に戻る</a> ]</p>
+
+
+<h2 id="solving_common_publishing_problems">文書公開についてのよくある問題について</h2>
+
+<p>文書の公開 (アップロード) に失敗すると、公開作業ダイアログにエラーメッセージが表示されます。これを読めば、どうすればいいかが判ります。<kbd>問題解決法</kbd>ボタンをクリックすると、ヘルプの関連ページを開きます。</p>
+
+<p>ただし、&brandShortName;では今のところこの機能が利用できません。</p><!--XXXmotohiko: Nvu specific -->
+
+<p>まだファイルを公開できないなら、一旦<kbd>ファイル</kbd>→<kbd>名前を付けて保存</kbd>でファイルをハードディスクに保存しましょう。こうすればまた後ほど保存することが出来ます。<kbd>ファイル</kbd>→<kbd>最近使用したページ</kbd>を使うと簡単に呼び出すことが出来ます。</p>
+
+<h3 id="verifying_your_publishing_settings">公開サイト設定を確認する</h3>
+
+<p>公開サイト設定を確認する為には、次のようにします。</p>
+
+<ol>
+  <li>公開作業のダイアログが開かれていれば、それを閉じます。</li>
+
+  <li><kbd>編集</kbd>→<kbd>公開サイト設定</kbd>を選択します。</li>
+
+  <li>開かれた公開設定ダイアログで、現在のページを公開するサイトに関する設定を確認します。よく判らないことがあれば、インターネット接続業者やウェブホスティングサービスに問い合わせてください。</li>
+
+  <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
+    <ul>
+      <li><strong>公開設定が正しく入力されたかを確認して下さい。</strong>設定の入力を間違えた可能性が有ります。</li>
+
+      <li><strong>公開するアドレスが正しく入力されたかを確認して下さい。</strong>ウェブホスティングサービスやインターネット接続業者は、これを「サーバ名」とか「ホスト名」、あるいは「サーバ／ホスト」と言っています。公開アドレスとしてよくあるものは、<code>ftp.myisp.com/ユーザ名</code> (<code>ユーザ名</code>はあなたのアカウント名) のような形です。
+
+      <p>正しい公開アドレスは、<code>ftp://</code>、あるいは<code>http://</code>が前に付きます。例えば上で挙げた例では、<code>ftp://ftp.myisp.com/ユーザ名</code>となるでしょう。</p> </li>
+    </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a href="#solving_common_publishing_problems">この節の先頭に戻る</a> ]</p>
+
+<h3 id="checking_your_filenames">ファイル名を確認する</h3>
+
+<p>公開 (アップロード) 出来なかったファイルの名前を調べてください。ファイル名は次のようなものにしましょう。</p>
+
+<ul>
+  <li>数字とアルファベット (小文字) のみにしましょう。大文字のアルファベットは利用できますが、ファイル名を小文字のアルファベットに統一するとファイルアップロード時の問題を減らすことが出来ます。
+
+  <p>ウェブサーバにファイルを公開 (アップロード) すると、ウェブサーバ上ではファイル名は大文字小文字を区別するようになります。大文字のみ、あるいは大文字小文字を混合したファイル名では覚えづらいでしょ？</p>
+
+  <p>例えば、公開したファイルを開くとき、ブラウザのロケーションバーにファイル名を正確に入力する必要があります。このとき大文字小文字も正確に用いる必要があるわけです。</p> </li>
+
+  <li>カンマやピリオド、空白は用いないで下さい。アンダーバー "_" やハイフン "-" はOKです。</li>
+
+  <li>また、日本語 (いわゆる全角アルファベットを含む) は絶対に用いないで下さい。サーバによってはそもそも受け付けませんし、リンクで参照することも容易ではありません。</li><!-- XXXmotohiko: added for i18n -->
+
+  <li><code>.html</code>または<code>.htm</code>で終わるようにします (&brandShortName;のファイル名として)。</li>
+
+  <li>32文字未満にします。</li>
+</ul>
+
+<p class="returnToSection">[ <a href="#solving_common_publishing_problems">この節の先頭に戻る</a> ]</p>
+
+<h3 id="fixing_publishing_errors">公開時のエラーの解決</h3>
+
+<p>公開 (アップロード) 出来なかったファイルがあったら、公開作業ダイアログの公開ステータス欄のメッセージを見てください。このメッセージを見れば、何が悪くてどうすればいいか判るはずです。</p>
+
+<div class="errorMessage">
+  <p id="file_not_found"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>ファイル「<var>ファイル名</var>」が見つかりません。</code>
+  <p>または</p>
+<code>全<var>X</var>ファイル中、<var>Y</var>ファイルが公開できませんでした。</code> </div>
+
+<p><strong>エラーの説明：</strong>
+画像、CSSファイルに見つからないものがあります。よくある理由は次のようなものです。</p>
+
+<ul>
+  <li>ファイルのパスが間違っている。</li>
+
+  <li>ファイルのウェブ上での場所にアクセスできない。</li>
+
+  <li>ファイル名が変更されたか、他の場所に移動された。</li>
+</ul>
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <li>公開しようとしているページの「壊れた」画像を探します。この「壊れた」画像は、このアイコン<img src="images/broken.gif" width="20" height="20" alt="" />のようになります。画像のアドレスを修正するには、「壊れた」画像上でダブルクリックして画像のプロパティダイアログを表示し、そこで修正します。</li>
+
+  <li>「壊れた」画像を削除するには、画像を選択 (そこで1回クリック) して、<kbd>BackSpace</kbd>キーか<kbd>Delete</kbd>キーを押します。</li>
+
+  <li>画像があるサーバに接続できなくて、画像を取得できない場合は、ページの公開を後ほどにして下さい。</li>
+
+  <li>足りないファイルが<abbr>CSS</abbr>ファイルであれば、ます最初にCSSファイルの場所を確認して下さい。ファイルのURLを修正するには、<kbd>HTMLソース</kbd>タブをクリックしてソースコードを修正してください。HTMLタグに精通していない限りはHTMLソースを修正しないで下さい。</li>
+</ul> </div>
+
+<div class="errorMessage">
+  <p id="subdir_not_found"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>サブディレクトリ「<var>ディレクトリ名</var>」がこのサイトにないか、もしくはファイル名「<var>ファイル名</var>」が既存のサブディレクトリ名として使用されています。</code>
+  <p>か</p>
+  <code>Tファイル名「<var>ファイル名</var>」は既存のサブディレクトリ名として使用されています。</code> </div>
+
+<p><strong>エラーの説明：</strong>
+公開するサイトにないディレクトリの名前を指定したことによるエラーです。既にあるサブディレクトリ中にしか、ファイルを公開できません。または公開するサイトに既にあるディレクトリの名前と、指定したファイル名が重複しています。</p>
+
+<p>例えば、[ページの公開] ダイアログの [公開] タブで以下のような指定をした場合が考えられます。</p>
+
+<ul>
+  <li>"公開サイト内のディレクトリ名" に、公開する場所にないディレクトリ名を指定した。</li>
+
+  <li>"画像などの関連ファイルも含める" にチェックし、同時に入力したディレクトリ名が公開する場所にない。</li>
+
+  <li>公開しようとしたファイルのうちいずれかが、公開するサイトの既存のディレクトリ名と同一になっている。</li>
+</ul>
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <li>&brandShortName;のサイトマネージャから、サブディレクトリを作成します。アイコンをクリックして指示に従ってください。</li><!-- XXXmotohiko: Nvu specific -->
+
+  <li>サブディレクトリの名前の末尾に "<code>.html</code>" とか "<code>.htm</code>" をつけないで下さい。&brandShortName;が作成できるファイルはこれらの文字が末尾につく必要があるためです。</li>
+
+  <li>サブディレクトリ名は大文字・小文字を区別します。入力内容が正しいか確認して下さい。</li>
+</ul>
+</div>
+
+<div class="errorMessage">
+  <p id="server_not_found"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>サーバに接続できません。接続状況を確認して、もう一度試してみてください。</code> </div>
+
+<p><strong>エラーの説明：</strong>
+このエラーの発生原因は多岐に渡ります。例えば次のようなものです。</p>
+
+<ul>
+  <li>公開サイト設定の内容が正しくない。</li>
+
+  <li>インターネットに正しく接続できていない。</li>
+
+  <li>モデムなどのネットワークに接続する装置が正常に機能していない。</li>
+
+  <li>公開するウェブサーバが、技術的な問題あるいは諸般の事情により見えなくなっている。</li>
+
+  <li>インターネット接続業者、ウェブホスティングサービスが技術的な問題によりダウンしている。</li>
+</ul>
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <li>公開サイト設定が、自分が入力したままで正しい値になっているか確認します。詳しくは<a href="#verifying_your_publishing_settings">公開サイト設定を確認する</a>を参照してください。</li>
+
+  <li>インターネットに正常に接続されているか、ブラウザを起動してウェブページを表示してみてください。例えば<code>http://www.mozilla.org/</code>が正しく表示できるかで確認できます。</li>
+
+  <li>インターネットとの接続がおかしいようなら、ハードウェア、回線、モデム、ネットワーク接続が正しく機能しているかを確認します。</li>
+
+  <li>公開するサイトのページをブラウザで表示してみてください。そのサイトだけダメというのであれば、インターネット接続業者、あるいはウェブホスティングサービスに何か技術的な問題が発生していると推測できます。</li>
+
+  <li>公開作業を後ほど試してみてください。インターネット接続業者、ウェブホスティングサービスあるいはウェブサーバに一時的な障害が発生しているかもしれませんので。</li>
+</ul> </div>
+
+<div class="errorMessage">
+  <p id="no_permission"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>この位置に公開する権限を持っていません。</code>
+</div>
+
+<p><strong>エラーの説明：</strong>
+利用できない位置へファイルを公開しようとしました。インターネット接続業者、あるいはウェブホスティングサービスに許可された場所にしか公開することは出来ません。</p>
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <li>[公開サイト設定] ダイアログか [ページの公開] ダイアログの [公開] タブから、ユーザ名とパスワードを正しく指定してあるかを確認します。</li>
+
+  <li>サイトのどの場所になら公開できるか、提供業者に確認して下さい。</li>
+
+  <li>ウェブホスティングサービスの代わりを探してみてください。ブラウザから「web hosting」とかで検索するとよいでしょう。</li>
+
+  <!--li>Use &brandShortName; My Webpage
+  <a href="http://mywebpage.netscape.com/"
+  target="_blank"><code>http://mywebpage.netscape.com/</code></a>
+  to host your web pages, up to 20 megabytes for free.</li--><!-- XXXmotohiko: tie-up with free web service! -->
+</ul>
+</div>
+
+<div class="errorMessage">
+  <p id="offline_error"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>現在オフラインになっています。いずれかのウィンドウの右下隅にあるアイコンをクリックして、オンラインにしてください。</code> </div>
+
+<p><strong>エラーの説明：</strong>
+公開処理 (アップロード) をしようとしましたが、&brandShortName;のインターネット接続モードが「オフライン」になっています。「オンライン」状態 (インターネットと接続している状態) でなければ公開の処理は出来ません。</p>
+
+<p>&brandShortName;はオンライン・オフライン状態を標準では切り替えることは出来ません。ですのでこのエラーは発生しないはずです。<!--Verify that your Internet connection is currently offline by
+looking at the online/offline
+icon in the lower right corner of any &brandShortName; window. If
+you are currently offline, the
+icon appears as <img src="images/offline.gif" width="32" height="21"
+alt="" />.--></p><!-- XXXmotohiko: Nvu doesn't have a way to change offline/online state -->
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <!--li>Click the online/offline icon to go online. In the online state,
+  the icon should look
+  like this: <img src="images/online.gif" width="32" height="20"
+  alt="" />.</li-->
+
+  <li>インターネットに正しく接続できているかを確認する為、ブラウザを起動してウェブページを表示してください。例えば、<code>http://www.mozilla.org</code>を表示できるかどうかで確認できます。</li>
+</ul> </div>
+
+<div class="errorMessage">
+  <p id="no_disk_space"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>ディスクの空き領域が足りません。ファイル「<var>ファイル名</var>」が保存出来ません。</code> </div>
+
+<p><strong>エラーの説明：</strong>
+外部のウェブサーバのハードディスクが一杯になっている、または利用が許されているディスク領域が一杯になって居ます。</p>
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <li>サイトマネージャから、サーバ上の要らないファイルを探して削除してください。</li>
+
+  <li>インターネット接続業者またはウェブホスティングサービスで、利用可能なディスク領域の増やし方を調べてみてください。もしくは要望を満足させるような別のサービスに乗り換えてください。</li>
+
+  <li>ウェブサーバがあなたの会社や学校であれば、ネットワーク管理者に、空きスペースがある別の場所を利用させてもらえないか聞いてみてください。もしくは現在の場所のディスク領域を増やせないか訊ねて下さい。</li>
+</ul> </div>
+
+<div class="errorMessage">
+  <p id="name_too_long"><strong>エラーメッセージ：</strong></p>
+
+<div class="contentsBox" style="background-color: #ebebeb;">
+  <code>ファイル名、またはサブディレクトリ名が長すぎます。</code>
+</div>
+
+<p><strong>エラーの説明：</strong>
+ファイル名・サブディレクトリ名が、公開しようとしているサーバで利用できる長さの限度を越えています。</p>
+
+<p><strong>解決法の例：</strong></p>
+
+<ul>
+  <li>ファイル名・サブディレクトリ名の長さを32文字未満にします。<abbr title="Operating System">OS</abbr>によっては32文字以上の長いファイル名に対応していないということがあります。</li>
+</ul> </div>
+
+<p class="returnToSection">[ <a href="#solving_common_publishing_problems">この節の先頭に戻る</a> ]</p>
+
+<div class="copyrightBox"><em>29 November 2004</em></div>
+
+<p>Copyright &copy; 2004-2006 Contributors to the Nvu Help Documentation Project.</p>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!ENTITY printCmd.commandkey		"p">
+
+<!ENTITY findOnCmd.commandkey		"F">
+<!ENTITY findAgainCmd.commandkey	"G">
+<!ENTITY findAgainCmd.commandkey2	"VK_F3">
+
+<!ENTITY backButton.label		"戻る">
+<!ENTITY backButton.accesskey		"B">
+<!ENTITY backButton.tooltip		"前のページへ戻ります"><!-- 一つ前以外も -->
+<!ENTITY forwardButton.label		"進む">
+<!ENTITY forwardButton.accesskey	"F">
+<!ENTITY forwardButton.tooltip		"次のページへ進みます"><!-- 一つ次以外も -->
+<!ENTITY copyCmd.label			"コピー">
+<!ENTITY copyCmd.accesskey		"C">
+<!ENTITY selectAllCmd.label		"すべて選択">
+<!ENTITY selectAllCmd.accesskey		"A">
+<!ENTITY goBackCmd.commandkey		"[">
+<!ENTITY goForwardCmd.commandkey	"]">
+<!ENTITY homeButton.label		"ホーム">
+<!ENTITY homeButton.tooltip		"ヘルプの開始ページに移動します">
+<!ENTITY printButton.label		"印刷">
+<!ENTITY printButton.tooltip		"このページを印刷します">
+<!ENTITY closeWindow.commandkey		"W">
+
+<!ENTITY throbberItem.title		"読み込み中アイコン">
+<!ENTITY throbber.tooltip		"ヘルプの開始ページに移動します"><!-- (^^; Go to the Help on Help section を ヘルプのヘルプに移動…とかいうと笑えるだけなので、homeButton.tooltip に合わせた 機能的に等価なのかは不明だが… -->
+
+<!ENTITY searchtab.label		"検索">
+<!ENTITY searchtab.accesskey		"S">
+<!ENTITY toctab.label			"目次">
+<!ENTITY toctab.accesskey		"C">
+
+<!ENTITY textZoomReduceCmd.commandkey	"-">
+<!ENTITY textZoomEnlargeCmd.commandkey	"+">
+<!ENTITY textZoomEnlargeCmd.commandkey2	"="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey	"0">
+
+<!ENTITY helpSearch.commandkey		"k">
+
+<!ENTITY zLevel.label			"常に最前面に表示する">
+<!ENTITY zLevel.accesskey		"T">
+
+<!ENTITY textZoomReduceBtn.label	"文字サイズを小さく">
+<!ENTITY textZoomReduceBtn.accesskey	"D">
+<!ENTITY textZoomEnlargeBtn.label	"文字サイズを大きく">
+<!ENTITY textZoomEnlargeBtn.accesskey	"I">

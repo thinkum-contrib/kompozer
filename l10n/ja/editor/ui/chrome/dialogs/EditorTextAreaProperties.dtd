@@ -1,0 +1,26 @@
+<!ENTITY windowTitle.label "テキスト入力エリアのプロパティ">
+<!ENTITY Settings.label "設定">
+<!ENTITY TextAreaName.label "フィールド名">
+<!ENTITY TextAreaName.accessKey "N">
+<!ENTITY TextAreaRows.label "行数">
+<!ENTITY TextAreaRows.accessKey "R">
+<!ENTITY TextAreaCols.label "列数">
+<!ENTITY TextAreaCols.accessKey "C">
+<!ENTITY TextAreaReadOnly.label "編集不可">
+<!ENTITY TextAreaReadOnly.accessKey "O">
+<!ENTITY TextAreaDisabled.label "無効">
+<!ENTITY TextAreaDisabled.accessKey "D">
+<!ENTITY TextAreaTabIndex.label "Tab順序">
+<!ENTITY TextAreaTabIndex.accessKey "I">
+<!ENTITY TextAreaAccessKey.label "アクセスキー">
+<!ENTITY TextAreaAccessKey.accessKey "K">
+<!ENTITY InitialText.label "初期設定の文字列">
+<!ENTITY InitialText.accessKey "T">
+<!ENTITY TextAreaWrap.label "折り返しモード">
+<!ENTITY TextAreaWrap.accessKey "W">
+<!ENTITY WrapDefault.value "標準">
+<!ENTITY WrapOff.value "なし">
+<!ENTITY WrapHard.value "自動改行 (hard)">
+<!ENTITY WrapSoft.value "表示のみ自動改行 (soft)">
+<!ENTITY WrapPhysical.value "自動改行 (physical)">
+<!ENTITY WrapVirtual.value "表示のみ自動改行 (virtual)">

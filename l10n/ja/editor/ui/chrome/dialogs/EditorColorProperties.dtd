@@ -1,0 +1,22 @@
+<!ENTITY windowTitle.label "ページの配色と背景">
+<!ENTITY pageColors.label "ページの配色">
+<!ENTITY defaultColorsRadio.label "標準色で描画する (ページ中に色指定を記述しない)">
+<!ENTITY defaultColorsRadio.accessKey "D">
+<!ENTITY defaultColorsRadio.tooltip "ブラウザで設定されている色で描画する">
+<!ENTITY customColorsRadio.label "次の配色にする">
+<!ENTITY customColorsRadio.accessKey "C">
+<!ENTITY customColorsRadio.tooltip "ブラウザの設定を上書きして、これらの色で用いて描画する">
+<!ENTITY normalText.label "本文">
+<!ENTITY normalText.accessKey "N">
+<!ENTITY linkText.label "リンク文字列">
+<!ENTITY linkText.accessKey "L">
+<!ENTITY activeLinkText.label "選択されたリンク文字列">
+<!ENTITY activeLinkText.accessKey "A">
+<!ENTITY visitedLinkText.label "訪問済みのリンク文字列">
+<!ENTITY visitedLinkText.accessKey "V">
+<!ENTITY background.label "背景:">
+<!ENTITY background.accessKey "B">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "背景画像">
+<!ENTITY backgroundImage.accessKey "m">
+<!ENTITY backgroundImage.tooltip "ページの背景を指定">

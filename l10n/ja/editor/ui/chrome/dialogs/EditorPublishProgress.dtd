@@ -1,0 +1,12 @@
+<!ENTITY siteUrl.label "サイトのURL:">
+<!ENTITY docSubdir.label "ページのサブディレクトリ:">
+<!ENTITY otherSubdir.label "画像用サブディレクトリ:">
+<!ENTITY status.label "公開...">
+<!ENTITY fileList.label "転送状態">
+<!ENTITY statusHeader.label "状態">
+<!ENTITY filenameHeader.label "ファイル名">
+<!ENTITY succeeded.label "成功">
+<!ENTITY failed.label "失敗">
+<!ENTITY troubleshooting.label "問題解決法">
+<!ENTITY troubleshooting.accessKey "T">
+<!ENTITY keepOpen "公開完了後もこのウィンドウを開いたままにする">

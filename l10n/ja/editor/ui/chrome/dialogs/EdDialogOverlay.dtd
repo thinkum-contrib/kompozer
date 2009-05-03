@@ -1,0 +1,15 @@
+<!ENTITY AdvancedEditButton.label "詳細編集...">
+<!ENTITY AdvancedEditButton.accessKey "E">
+<!ENTITY AdvancedEditButton.tooltip "HTML属性・style属性・JavaScriptの編集">
+<!ENTITY chooseButton.label "ファイルを選択...">
+<!ENTITY chooseFile.accessKey "F">
+<!ENTITY chooseFileLink.accessKey "o">
+<!ENTITY makeUrlRelative.label "相対URLを使用する">
+<!ENTITY makeUrlRelative.accessKey "r">
+<!ENTITY makeUrlRelative.tooltip "相対・絶対URLのどちらを使用するか選択。保存するまで反映されない">
+
+
+<!ENTITY LinkURLEditField.label "ウェブページのURI、ローカルファイルのパス、電子メールアドレスを入力するか、名前付きアンカー・見出しをポップアップされる一覧から選んでください。">
+<!ENTITY LinkURLEditField.accessKey "L">
+
+<!ENTITY isMailAddress.label "電子メールアドレスとして扱う">

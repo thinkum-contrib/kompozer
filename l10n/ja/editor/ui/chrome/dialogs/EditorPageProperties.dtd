@@ -1,0 +1,31 @@
+<!ENTITY windowTitle.label "ページのプロパティ">
+
+<!ENTITY general.label "一般情報">
+<!ENTITY location.label "URI:">
+<!ENTITY lastModified.label "最終更新:">
+<!ENTITY titleInput.label "タイトル:">
+<!ENTITY titleInput.accessKey "T">
+<!ENTITY authorInput.label "著作者:">
+<!ENTITY authorInput.accessKey "A">
+<!ENTITY descriptionInput.label "内容の説明:">
+<!ENTITY descriptionInput.accessKey "D">
+<!ENTITY locationNewPage.label "[未保存の新規ページ]">
+<!ENTITY EditHEADSource1.label "上級者向け:">
+<!ENTITY EditHEADSource2.label "&lt;head&gt;部分のその他の内容を編集するには、[表示] メニューまたは編集モードツールバーから [HTMLソース] を選択してください。">
+
+<!ENTITY template.label "雛型">
+<!ENTITY templateCheckbox.label "このページを「雛型」として用いる">
+<!ENTITY fromTemplate.label "このページは雛型となる文書に基づいているものです。">
+
+<!ENTITY i18nHeader "国際化関連">
+
+<!ENTITY writingDirection.label "文字方向:">
+<!ENTITY defaultDirectionRadio.label "指定なし">
+<!ENTITY ltrDirectionRadio.label "左から右へ">
+<!ENTITY rtlDirectionRadio.label "右から左へ">
+
+<!ENTITY language.label "言語:">
+<!ENTITY languageChoiceButton.label "言語を選択">
+
+<!ENTITY defaultCharset.label "文字エンコード:">
+<!ENTITY chooseCharsetButton.label "文字エンコードを選択">

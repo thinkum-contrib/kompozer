@@ -1,0 +1,70 @@
+<!ENTITY windowTitle.label "画像のプロパティ">
+
+<!ENTITY pixelsPopup.value "ピクセル">
+<!ENTITY percentPopup.value "％">
+
+<!ENTITY locationEditField.label "画像のURI">
+<!ENTITY locationEditField.accessKey "L">
+<!ENTITY locationEditField.tooltip "画像のファイル名、URIを入力">
+<!ENTITY title.label "ツールチップ">
+<!ENTITY title.accessKey "T">
+<!ENTITY title.tooltip "HTMLでのtitle属性の値となります。多くのブラウザではツールチップとして表示されます。">
+<!ENTITY altText.label "代替テキスト">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "画像の代わりとなる文字列を指定">
+<!ENTITY noAltText.label "代替テキストなし">
+<!ENTITY noAltText.accessKey "D">
+
+<!ENTITY previewBox.label "画像のプレビュー">
+<!ENTITY MoreFewerButton.tooltip "簡略・詳細表示の切り替え">
+
+<!ENTITY actualSize.label "実際の大きさ">
+<!ENTITY actualSizeRadio.label "実際の大きさ">
+<!ENTITY actualSizeRadio.accessKey "A">
+<!ENTITY actualSizeRadio.tooltip "画像の実際の大きさを取得する">
+<!ENTITY customSizeRadio.label "ユーザ指定">
+<!ENTITY customSizeRadio.accessKey "S">
+<!ENTITY customSizeRadio.tooltip "画像表示時の大きさを変更">
+<!ENTITY heightEditField.label "高さ">
+<!ENTITY heightEditField.accessKey "G">
+<!ENTITY widthEditField.label "幅">
+<!ENTITY widthEditField.accessKey "W">
+<!ENTITY constrainCheckbox.label "縦横比を保存">
+<!ENTITY constrainCheckbox.accessKey "C">
+<!ENTITY constrainCheckbox.tooltip "画像の縦横比を保存します">
+
+<!ENTITY imagemapBox.label "イメージマップ">
+<!ENTITY removeImageMapButton.label "削除">
+<!ENTITY removeImageMapButton.accessKey "R">
+<!ENTITY editImageMapButton.label "編集...">
+<!ENTITY editImageMapButton.tooltip "クリック可能なスポットを作成">
+
+<!ENTITY alignment.label "画像に対する文章の配置">
+<!ENTITY bottomPopup.value "下に揃える">
+<!ENTITY topPopup.value "上に揃える">
+<!ENTITY centerPopup.value "画像の中央に">
+<!ENTITY wrapRightPopup.value "右に回りこむ">
+<!ENTITY wrapLeftPopup.value "左に回りこむ">
+
+<!ENTITY spacingBox.label "余白">
+<!ENTITY spacingBox.tooltip "画像の余白を指定">
+<!ENTITY leftRightEditField.label "左右">
+<!ENTITY leftRightEditField.accessKey "L">
+<!ENTITY topBottomEditField.label "上下">
+<!ENTITY topBottomEditField.accessKey "T">
+<!ENTITY borderEditField.label "輪郭線:">
+<!ENTITY borderEditField.accessKey "B">
+
+<!ENTITY showImageLinkBorder.label "リンクされた画像に輪郭線を描画する">
+<!ENTITY showImageLinkBorder.accessKey "B">
+
+<!ENTITY makePageBackgroundCheckbox.label "ページの背景画像にする">
+<!ENTITY makePageBackgroundCheckbox.tooltip "ページの背景画像に設定">
+<!ENTITY editImageButton.label "画像を編集">
+<!ENTITY editImageButton.tooltip "画像エディタを起動">
+
+<!ENTITY imageInputTab.label "フォーム">
+<!ENTITY imageLocationTab.label "URI">
+<!ENTITY imageDimensionsTab.label "大きさ">
+<!ENTITY imageAppearanceTab.label "表示">
+<!ENTITY imageLinkTab.label "リンク対象">

@@ -1,0 +1,25 @@
+<!ENTITY license.part0			"is copyright">
+<!ENTITY license.part1			"by its">
+<!ENTITY license.contrib		"contributors">
+<!ENTITY license.part2			"according to terms set out in the">
+<!ENTITY license.part3			"document. All Rights Reserved.">
+
+<!ENTITY about.version			"version">
+
+<!ENTITY about.copy.beforeLink		"Copyright &copy; 1998-2006 by">
+<!ENTITY about.copy.linkTitle		"contributors">
+<!ENTITY about.copy.afterLink		"to the Mozilla Project.">
+
+<!ENTITY about.license.beforeLink	"">
+<!ENTITY about.license.linkTitle	"この製品のライセンス情報"><!-- (^^; 前後に勝手に空白はいるので注意 -->
+<!ENTITY about.license.afterLink	"">
+
+<!ENTITY about.relnotes.beforeLink	"">
+<!ENTITY about.relnotes.linkTitle	"このバージョンのリリースノート"><!-- (^^; 同上 -->
+<!ENTITY about.relnotes.afterLink	"">
+
+<!ENTITY about.buildconfig.beforeLink	"">
+<!ENTITY about.buildconfig.linkTitle	"このバージョンのビルド設定"><!-- (^^; 同上 -->
+<!ENTITY about.buildconfig.afterLink	"">
+
+<!ENTITY about.buildIdentifier		"ビルド ID: ">

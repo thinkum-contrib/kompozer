@@ -1,0 +1,18 @@
+<!ENTITY enter.label "雛型となるファイルのURIか、ディスク上での場所を指定してください。">
+<!ENTITY enter.accesskey "E">
+<!ENTITY chooseFile.label "ファイルを選択...">
+<!ENTITY chooseFile.accesskey "C">
+<!ENTITY cancel.label "キャンセル">
+<!ENTITY caption.label "新しい文書、または文書の雛型となるファイルを作成します。">
+<!ENTITY openWhere.label "このファイルを">
+<!ENTITY openWhere.accesskey "C">
+<!ENTITY newTab.label "新しいタブで開く">
+<!ENTITY editNewWindow.label "新しいウィンドウで開く">
+
+<!ENTITY documentTypeCaption.label "どのような種類のファイルを作成しますか？">
+<!ENTITY blankDocument.label "文書 (内容は空白)">
+<!ENTITY newFromTemplate.label "雛型に基づいた文書">
+<!ENTITY blankTemplate.label "雛型 (内容は空白)">
+
+<!ENTITY xhtmlDocument.label "XHTMLで文書を作成">
+<!ENTITY strictDtd.label "Strict DTDで文書を作成">

@@ -1,0 +1,13 @@
+<!ENTITY window.title "HTMLの清書">
+
+<!ENTITY trailingBR.label "文書末の連続した&lt;br&gt;を削除">
+<!ENTITY emptyBlocks.label "空のブロックを削除">
+<!ENTITY emptyCells.label "空のテーブルセルの、配置指定 (align属性) を削除">
+<!ENTITY nestedLists.label "入れ子になったリストを修正">
+<!ENTITY localUrls.label   "相対URLに出来るものをする">
+
+<!ENTITY cleanUp.label "清書">
+<!ENTITY close.label "閉じる">
+
+<!ENTITY actionColumnHeader.label "命令">
+<!ENTITY reportColumnHeader.label "結果">

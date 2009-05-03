@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE RDF [
+ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd"> %brandDTD;
+]>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+<Description about="urn:root" nc:title="&brandShortName;のヘルプ" nc:defaulttopic="comp-doc" nc:base="chrome://help/locale/">
+ <nc:panellist>
+  <Seq>
+   <li>
+    <Description nc:panelid="glossary" nc:datasources="firebird-glossary.rdf"/>
+   </li>
+   <li>
+    <Description nc:panelid="index" nc:datasources="nvu-index.rdf"/>
+   </li>
+   <li>
+    <Description nc:panelid="search" nc:datasources="" nc:emptysearchtext="[該当するものが見つかりませんでした]" nc:emptysearchlink="chrome://help/locale/welcome.xhtml#search_tips"/>
+   </li>
+   <li>
+    <Description nc:panelid="toc" nc:datasources="help-toc.rdf nvu-toc.rdf"/>
+   </li>
+  </Seq>
+ </nc:panellist>
+</Description>
+</RDF>

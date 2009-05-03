@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+ <title>このヘルプの使い方</title>
+ <link rel="stylesheet" type="text/css" href="ja.css"/>
+ <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">表示・非表示</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">ヘルプセンター</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">節一覧：
+ <a href="#finding_the_topic_you_want">トピックの検索方法</a>
+ <a href="#retracing_your_steps">閲覧履歴の辿り方</a>
+ <a href="#search_tips">検索のヒント</a>
+</div>
+
+<h1 id="help_window_top">このヘルプの使い方</h1>
+
+<p>この章ではヘルプウィンドウの使い方 (この文章が表示されている部分や、左にあるサイドバーなど) を解説します。</p>
+
+<h2 id="finding_the_topic_you_want">トピックの検索方法</h2>
+
+<p>ヘルプ画面の左フレームにあるタブをクリックすると、ヘルプの内容を色々な
+方法で閲覧することが出来ます。</p>
+<ul>
+ <li><strong>目次</strong>：主なトピックの一覧を表示します。<br/>
+読みたいトピックをクリックしてください。ダブルクリックでサブトピックを
+表示します。</li>
+ <li><strong>検索</strong>：ヘルプ内を検索します。<br/>
+語句を入力してEnterキーを押すと、関連トピックを表示します。読みたい
+トピックをクリックしてください。<br/><br/>
+該当するトピックが見つからなかった場合、もっと短い語か簡単な語に
+置き換えてみてください。</li>
+ <li><strong>索引</strong>：アルファベット順のトピックの一覧です。<br/>
+トピックの内容をみるときは、そのタイトルをクリックしてください。</li>
+ <li><strong>用語集</strong>：用語のアルファベット順の一覧です。<br/>
+用語の解説をみるときは、そのタイトルをクリックしてください。</li>
+</ul>
+
+ <p>閲覧中のヘルプトピックに関連した情報を調べたいときは、ウェブページ閲覧時と同様に
+リンクをクリックしてください。</p>
+
+<h2 id="retracing_your_steps">閲覧履歴の辿り方</h2>
+<p>ヘルプの閲覧履歴を辿ることも出来ます。ウィンドウ左上のボタンをクリックしてください。</p>
+
+<p><img src="http://www.mozilla.org/projects/firefox/help/1.0/help-buttons.png" alt="" width="209" height="43"/></p>
+
+ <div>
+ <ul>
+  <li>サイドバーを開く／閉じるボタンを押すと、ヘルプウィンドウ左のサイドバーを開いたり閉じたり出来ます。</li>
+  <li>「戻る」ボタンをクリックすると、直前に閲覧していたトピックに戻ります。ブラウザの同名のボタンと同じです。</li>
+  <li>「進む」ボタンをクリックすると、履歴上の次のページに進みます。ブラウザの同名のボタンと同じです。</li>
+  <li>「ホーム」ボタンでヘルプとサポートセンターページを開きます。サポートオプションやネット上の参考ページへのリンクがあります。</li>
+ </ul>
+ </div>
+
+ <p>以下のようにして印刷することが出来ます。</p>
+ <div>
+  <ul>
+  <li>現在表示中のヘルプページ全体を印刷したいときは、ヘルプウィンドウ上部の「印刷」ボタンをクリックしてください。<br/>
+  <img src="http://www.mozilla.org/projects/firefox/help/1.0/print.png" alt="" width="38" height="43"/></li>
+  <li>ページの一部を印刷したいときは、ドラッグでページの部分を選択して、「印刷」ボタンをクリックしてください。</li>
+ </ul>
+ </div>
+
+<h2 id="search_tips">検索する上でのヒント</h2>
+ <p>検索したいものが見つからないときは、次のようにすると見つかりやすいです。</p>
+
+ <ul>
+  <li>&brandShortName;関連のものにします。これは一般のインターネット検索ではありません。</li>
+  <li>検索されやすい語句を選びます。あまりに特殊な語にしないようにします。違う単語が用いられているかも知れません。</li>
+  <li>一般的過ぎる語にはしないようにしましょう。&quot;&vendorShortName;&quot;はすべてのページに該当してしまうでしょう。 </li>
+ </ul>
+
+<div class="copyrightBox"><em>16 September 2003</em></div>
+<p>Copyright &copy; 2003-2004 Contributors to the Mozilla Help Viewer Project.
+<br/>翻訳：もとひこ 2005/7/4</p>
+
+</body>
+</html>

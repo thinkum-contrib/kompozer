@@ -1,0 +1,28 @@
+<!ENTITY editSitesList.label "サイトを編集">
+
+<!ENTITY filterAll.label "すべて">
+<!ENTITY filterHTML.label "HTML文書">
+<!ENTITY filterImages.label "画像">
+
+<!ENTITY treeViewCheckbox.label "ツリー表示">
+
+<!ENTITY filenameColumn.label "名前">
+<!ENTITY sizeColumn.label "サイズ">
+<!ENTITY lastModifiedColumn.label "最終更新日">
+
+<!ENTITY deleteFile.label "ファイルを削除">
+<!ENTITY deletefile.accesskey "D">
+<!ENTITY createDir.label "新しいディレクトリ">
+<!ENTITY createdir.accesskey "N">
+<!ENTITY removeDir.label "ディレクトリを削除">
+<!ENTITY removedir.accesskey "R">
+
+<!ENTITY reloadButton.tooltip "再読み込みし、最新の内容にする">
+<!ENTITY createDirButton.tooltip "新しいディレクトリの作成">
+<!ENTITY removeButton.tooltip "ファイルの削除">
+<!ENTITY stopButton.tooltip "中止">
+
+<!ENTITY renameMenu.label "名前を変更">
+<!ENTITY renameButton.tooltip "ファイル名・フォルダ名の変更">
+
+<!ENTITY filterControl.label "ファイル種類:">

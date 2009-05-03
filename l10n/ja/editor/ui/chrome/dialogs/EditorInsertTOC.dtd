@@ -1,0 +1,13 @@
+<!ENTITY Window.title "目次">
+<!ENTITY buildToc.label "目次を次のものから作成する:">
+<!ENTITY style.label "スタイル:">
+<!ENTITY tag.label "タグ:">
+<!ENTITY class.label "class:">
+<!ENTITY header1.label "第1レベル">
+<!ENTITY header2.label "第2レベル">
+<!ENTITY header3.label "第3レベル">
+<!ENTITY header4.label "第4レベル">
+<!ENTITY header5.label "第5レベル">
+<!ENTITY header6.label "第6レベル">
+<!ENTITY makeReadOnly.label "目次を編集不可にする">
+<!ENTITY orderedList.label "目次中のすべての項目に番号を振る">

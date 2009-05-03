@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+<title>&brandShortName;のキーボードショートカット</title>
+<link rel="stylesheet" type="text/css" href="ja.css"/>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">表示・非表示</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">ヘルプセンター</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">節一覧：
+ <a href="#using_shortcuts">ショートカットの使い方</a>
+ <a href="#general_shortcuts">一般的なショートカット</a>
+ <a href="#nvu_composition_shortcuts">&brandShortName;のショートカット</a>
+ <a href="#help_window_shortcuts">ヘルプウィンドウのショートカット</a>
+</div>
+
+<h1>&brandShortName;のキーボードショートカット</h1>
+
+<h2 id="using_shortcuts">ショートカットの使い方</h2>
+
+<p>ここでは、次のような形でショートカットの一覧を掲載しています。</p>
+
+<p><strong>例：</strong></p>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"/>
+  <col class="osFirstColumn"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>命令</th>
+    <th><span class="win">Windows</span><span class="mac">Mac OS</span><span class="unix">UNIX/Linux</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>コピー</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd>+<kbd>C</kbd></span><span class="mac"><kbd>Cmd</kbd>+<kbd>C</kbd></span></td>
+  </tr>
+</tbody>
+</table>
+
+<p>コマンドを実行するには、一緒に表示されているボタンを同時に押してください。
+例えば、コピーを行うには、<kbd class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd>
+キーと<kbd>C</kbd>キーを同時に押します。</p>
+
+<p><strong>ヒント</strong>: プラス (+) 記号は、その左右に書かれたキーを同時に
+推すことを意味します。複数のプラス記号がある場合、例えば<kbd>Ctrl</kbd>+
+<kbd>Shift</kbd>+<kbd>C</kbd>のような場合は、記号の前後に書かれた3つのキーを
+同時に押してください。</p>
+
+<p><strong>凡例：</strong></p>
+
+<ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">コントロールキー</span><span class="mac">Mac OS用キーボードのコマンドキー</span></li>
+</ul>
+
+<p><strong>注意</strong>: キーボードショートカットの中には、カーソルの位置
+(フォーカスされている場所) によって異なる機能が割り当てられているものがあります。
+一例を挙げると、Windowsの場合、ウェブページを閲覧中に<kbd>Home</kbd>キーを
+押すと、ウェブページの先頭に移動します。これがカーソルがテキスト入力欄の時は、
+カーソルの位置が入力欄の先頭に移動します。</p>
+
+<p class="returnToSection">[ <a href="#using_shortcuts">この節の先頭へ</a> ]</p>
+
+<h2 id="general_shortcuts">&brandShortName;の一般的なショートカット</h2>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"/>
+  <col class="osFirstColumn"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>命令</th>
+    <th><span class="win">Windows</span><span class="mac">Mac OS</span><span class="unix">UNIX/Linux</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>ファイルを開く</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>O</kbd></td>
+  </tr>
+  <tr>
+    <td>新しいページ／雛型ページを開く</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>N</kbd></td>
+  </tr>
+  <tr>
+    <td>新しいタブを開く</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>T</kbd></td>
+  </tr>
+  <tr>
+    <td>名前を付けてファイルに保存</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>S</kbd></td>
+  </tr>
+  <tr>
+    <td>コピー</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>C</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>貼り付け</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>V</kbd></td>
+  </tr>
+  <tr>
+    <td>切り取り</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>X</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>すべてを選択</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>A</kbd></td>
+  </tr>
+  <tr>
+    <td>ウィンドウを閉じる</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>W</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>カーソル以降の1語を削除</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Del</kbd></td>
+  </tr>
+  <tr>
+    <td>1ページ上にスクロール</td>
+    <td><kbd>Page Up</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>1ページ下にスクロール</td>
+    <td><kbd>Page Down</kbd></td>
+  </tr>
+  <tr>
+    <td>1行上に移動</td>
+    <td><kbd>↑</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>1行下に移動</td>
+    <td><kbd>↓</kbd></td>
+  </tr>
+  <tr>
+    <td>元に戻す</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Z</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>やり直し</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Shift</kbd>+<kbd>Z</kbd></td>
+  </tr>
+  <tr>
+    <td>検索</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>F</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>次を検索</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd>+<kbd>G</kbd></span><span class="win">か<kbd>F3</kbd></span><span class="mac"><kbd>Cmd</kbd>+<kbd>G</kbd></span></td>
+  </tr>
+  <tr>
+    <td>前を検索</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd></span><span class="mac">?</span></td>
+  </tr>
+  <tr>
+    <td>コンテキストメニューを開く</td>
+    <td><span class="noMac"><kbd>Shift</kbd>+<kbd>F10</kbd></span><span class="mac"><kbd>Ctrl</kbd>+<kbd>　</kbd> (スペース)</span></td>
+  </tr>
+  <tr class="even">
+    <td>
+      メインメニューを開く<span class="noMac"> (ウィンドウ上部のドロップダウン
+メニューの最初のものに移動)</span>
+    </td>
+    <td><span class="win"><kbd>Alt</kbd>か</span><span class="noMac"><kbd>F10</kbd></span><span class="mac">コントロールパネルのキーボード設定による</span></td>
+  </tr>
+  <tr>
+    <td>行の先頭に移動 (テキスト入力欄で)</td>
+    <td><span class="win"><kbd>Home</kbd></span><span class="mac"><kbd>Cmd</kbd>+<kbd>←</kbd></span><span class="unix"><kbd>Ctrl</kbd>+<kbd>A</kbd></span></td>
+  </tr>
+  <tr class="even">
+    <td>行の最後に移動 (テキスト入力欄で)</td>
+    <td><span class="win"><kbd>End</kbd></span><span class="mac"><kbd>Cmd</kbd>+<kbd>→</kbd></span><span class="unix"><kbd>Ctrl</kbd>+<kbd>E</kbd></span></td>
+  </tr>
+  <tr>
+    <td>次のタブに移動 (複数のタブがある場合)</td>
+    <td><kbd>Ctrl</kbd>+<kbd>Page Down</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>前のタブに移動 (複数のタブがある場合)</td>
+    <td><kbd>Ctrl</kbd>+<kbd>Page Up</kbd></td>
+  </tr>
+  <tr>
+    <td>タブを閉じる</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>W</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>&brandShortName;を終了</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Q</kbd></td>
+  </tr>
+</tbody>
+</table>
+
+<p class="returnToSection">[ <a href="#general_shortcuts">この節の先頭へ</a> ]</p>
+
+<h2 id="nvu_composition_shortcuts">&brandShortName;の編集用ショートカット</h2>
+
+<p>&brandShortName;でHTMLページを編集する際に必要なショートカットの一覧です。</p>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"/>
+  <col class="osFirstColumn"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>命令</th>
+    <th><span class="win">Windows</span><span class="mac">Mac OS</span><span class="unix">UNIX/Linux</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>ウェブページを開く</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Shift</kbd>+<kbd>L</kbd></td>
+  </tr>
+  <tr>
+    <td>ウェブページを公開</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Shift</kbd>+<kbd>S</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>文字を小さく</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>-</kbd></td>
+  </tr>
+  <tr>
+    <td>文字を大きく</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>=</kbd>か<span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>+</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>文字の大きさを元に戻す</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>O</kbd></td>
+  </tr>
+  <tr>
+    <td>リンクを挿入／編集</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>L</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>文字装飾：<b>ボールド体</b></td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>B</kbd></td>
+  </tr>
+  <tr>
+    <td>文字装飾：<i>イタリック体</i></td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>I</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>文字装飾：<u>下線付き</u></td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>U</kbd></td>
+  </tr>
+  <tr>
+    <td>インデントを深く</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>[</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>インデントを浅く</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>]</kbd></td>
+  </tr>
+  <tr>
+    <td>文字装飾を解除</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Shift</kbd>+<kbd>Y</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>リンクを解除</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>Shift</kbd>+<kbd>K</kbd></td>
+  </tr>
+  <tr>
+    <td>行／列を選択</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+ドラッグ</td>
+  </tr>
+  <tr class="even">
+    <td>テーブルセルを選択</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+クリック (ドラッグすると複数のセルを選択できます。また、複数のセルを選択することも出来ます)</td>
+  </tr>
+  <tr>
+    <td>サイトマネージャ</td>
+    <td><kbd>F9</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>綴りをチェックする</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd>+<kbd>K</kbd></span><span class="mac"><kbd>Cmd</kbd>+<kbd>K</kbd></span></td>
+  </tr>
+</tbody>
+</table>
+
+<p class="returnToSection">[ <a href="#nvu_composition_shortcuts">この節の先頭へ</a> ]</p>
+
+<h2 id="help_window_shortcuts">ヘルプウィンドウのショートカット</h2>
+
+<p>ヘルプウィンドウではこれらのショートカットが利用できます。</p>
+
+<table class="defaultTable">
+<colgroup>
+  <col class="commandColumn"/>
+  <col class="osFirstColumn"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>命令</th>
+    <th><span class="win">Windows</span><span class="mac">Mac OS</span><span class="unix">UNIX/Linux</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>文字を大きく</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>=</kbd>か<span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>+</kbd></td>
+  </tr>
+  <tr>
+    <td>文字を小さく</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>-</kbd></td>
+  </tr>
+  <tr>
+    <td>内容ブロック (ウィンドウの右の部分) のリンクを移動</td>
+    <td><kbd>Tab</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>内容ブロックと、検索／目次／索引／用語集ブロックを切り替える</td>
+    <td><kbd>F6</kbd></td>
+  </tr>
+  <tr>
+    <td>索引の項目を移動 (索引ページが選択されているとき)</td>
+    <td><kbd>↑</kbd> / <kbd>↓</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>ブロック (内容、目次、索引) をスクロール</td>
+    <td><kbd>↑</kbd> / <kbd>↓</kbd></td>
+  </tr>
+  <tr>
+    <td>目次の項目ツリーを開く／折り畳む</td>
+    <td><kbd>←</kbd> / <kbd>→</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>ページを印刷</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>P</kbd></td>
+  </tr>
+  <tr>
+    <td>前のページに戻る</td>
+    <td><span class="noMac"><kbd>Alt</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>←</kbd></td>
+  </tr>
+  <tr class="even">
+    <td>次のページに進む</td>
+    <td><span class="noMac"><kbd>Alt</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>→</kbd></td>
+  </tr>
+  <tr>
+    <td>&brandShortName;のヘルプウィンドウを閉じる</td>
+    <td><span class="noMac"><kbd>Ctrl</kbd></span><span class="mac"><kbd>Cmd</kbd></span>+<kbd>W</kbd></td>
+  </tr>
+</tbody>
+</table>
+
+<p class="returnToSection">[ <a href="#help_window_shortcuts">この節の先頭へ</a> ]</p>
+
+<div class="copyrightBox"><em>30 May 2005</em></div>
+
+<p>Copyright &copy; 2004-2006 Contributors to the Nvu Help Documentation Project.</p>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!ENTITY helpers.label "詳細設定">
+<!ENTITY useSystemBrowser.label "システム設定を使用する">
+<!ENTITY userDefinedBrower.label "ユーザ設定">
+
+<!ENTITY cmdLine.label "コマンドライン">
+<!ENTITY hints.label "URLを表すものとして '$s' を用いることが出来ます。例：">
+<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+
+<!ENTITY imageEditor.label "画像エディタ">
+
+<!ENTITY connection.label "プロキシ設定">
+<!ENTITY connectionDescription.label "インターネット接続時に用いるプロキシの設定です。">
+<!ENTITY connectionButton.label "プロキシ設定">
+<!ENTITY connectionbutton.accesskey "n">
+
+<!ENTITY carriageReturns.label "Enterキーの挙動">
+<!ENTITY crInPCreatesNewP.label "段落中でEnterキーを押すと、必ず新しい段落を作成する">
+
+<!ENTITY specialChars.label "特殊な文字の扱い">
+<!ENTITY specialChars.description "特定の文字を実体参照として出力する。">
+<!ENTITY basicEncoding.label "&amp; &lt; &gt; nbsp">
+<!ENTITY latin1EntitiesEncoding.label "&amp; &lt; &gt; nbsp 及び拡張ラテン文字 (ウムラウト付きなど)">
+<!ENTITY htmlEntitiesEncoding.label "HTML 4の特殊文字">
+<!ENTITY allEntitiesEncoding.label "非ASCII文字をすべて数値文字参照として">
+
+<!ENTITY realtimeSpellCheck.label "入力中に綴りをチェックする">
+
+<!ENTITY spellCheckRealTime.label "綴りが間違っている語に下線を引く">
+<!ENTITY spellCheckRealTime.accesskey "u">
+
+<!ENTITY dialect.label "マークアップ形式">
+<!ENTITY markupLanguage.label "言語:">
+<!ENTITY dtd.label "DTD:">
+<!ENTITY htmlMarkupLanguage.label "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">
+<!ENTITY looseDTD.label "Transitional">
+<!ENTITY strictDTD.label "Strict">
+
+<!ENTITY noGTEncoding.label "属性値以外で現れた '&gt;' を実体参照に変換しない">
+<!ENTITY noEscaping.label "属性値に記述された特殊な文字を実体参照に変換しない">

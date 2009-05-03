@@ -1,0 +1,14 @@
+<!ENTITY windowTitle.label "スポットのプロパティ">
+<!ENTITY link.label "リンク">
+<!ENTITY urlFieldset.label "リンク対象のURI:">
+<!ENTITY altFieldset.label "代替テキスト:">
+<!ENTITY browseButton.label "選択...">
+<!ENTITY targetFieldset.label "ターゲット設定">
+<!ENTITY target.label "ターゲット">
+<!ENTITY commonFieldset.label "共通ターゲット">
+<!ENTITY none.value "(なし)">
+<!ENTITY same.value "同じフレーム">
+<!ENTITY whole.value "ページ全体">
+<!ENTITY new.value "新しいウィンドウ">
+<!ENTITY parent.value "親フレーム">
+

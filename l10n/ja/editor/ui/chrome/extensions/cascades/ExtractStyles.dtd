@@ -1,0 +1,12 @@
+<!ENTITY window.title "スタイル抽出">
+
+<!ENTITY description.label "この要素に適用されているインラインスタイルを抜き出し、次のような要素に適用する">
+<!ENTITY thisElementOnly.label "この要素のみ">
+<!ENTITY allElements.label "すべての要素">
+
+<!ENTITY ofClass.label "このclassを持つ要素に:">
+<!ENTITY ofType.label "同じ種類の要素に">
+<!ENTITY whenHovered.label "マウスカーソルが要素上に来たときに">
+<!ENTITY autoChoice.label "Choose for me!">
+<!ENTITY alreadyUsedWarning.label "警告！ この名前は既に利用されています。">
+<!ENTITY nameNeededWarning.label  "この要素に名前を付けてください。">

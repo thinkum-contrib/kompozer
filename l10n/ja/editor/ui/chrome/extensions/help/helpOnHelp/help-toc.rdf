@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:nc="http://home.netscape.com/NC-rdf#">
+<Description about="urn:root">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="use-help" nc:name="このヘルプの使い方" nc:link="welcome.xhtml"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+
+<Description about="#use-help">
+ <nc:subheadings>
+  <Seq>
+   <li><Description ID="use-help-finding-the-topic-you-want" nc:name="トピックの検索方法" nc:link="welcome.xhtml#finding_the_topic_you_want"/></li>
+   <li><Description ID="use-help-retracing-your-steps" nc:name="閲覧履歴の辿り方" nc:link="welcome.xhtml#retracing_your_steps"/></li>
+   <li><Description ID="use-help-search" nc:name="検索のヒント" nc:link="welcome.xhtml#search_tips"/></li>
+  </Seq>
+ </nc:subheadings>
+</Description>
+</RDF>

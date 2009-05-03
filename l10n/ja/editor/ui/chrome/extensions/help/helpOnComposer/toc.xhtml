@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD;
+]>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head xml:lang="ja">
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>&brandShortName;でウェブページを作る</title>
+<link rel="stylesheet" type="text/css" href="ja.css"/>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">表示・非表示</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">ヘルプセンター</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">節一覧：
+  <a href="composer_help.xhtml#starting_a_new_page">新しいページから始める</a>
+  <a href="formatting_webpages.xhtml">既存のウェブページの書式を整える</a>
+  <a href="css.xhtml">スタイルシートで見た目を整える</a>
+  <a href="tables.xhtml">表を追加する</a>
+  <a href="images.xhtml">画像を追加する</a>
+  <a href="toc.xhtml">ウェブページの目次を作る</a>
+  <a href="templates.xhtml">雛型を利用する</a>
+  <a href="page_properties.xhtml">ページのプロパティを設定する</a>
+  <a href="links.xhtml">リンクを作成する</a>
+  <a href="customize.xhtml">&brandShortName;の設定をする</a>
+</div>
+
+<h2 id="working_with_table_of_contents_on_your_web_page">ウェブページの目次を作る</h2>
+
+<h3 id="adding_table_of_contents_to_your_web_page">ウェブページの目次を追加する</h3>
+
+<p>複数の章や節からなるHTML文書を一つのファイルにすると、その内容の案内が大変になってしまいます。各章・節の案内を簡単にする為に、&brandShortName;には目次を簡単に作成する機能が備わっています。HTML文書の目次を作成するには次のようにします。</p>
+
+<ol>
+  <li>HTMLの見出しタグ (<code>h1</code>、<code>h2</code>、<code>h3</code>、<code>h4</code>、<code>h5</code>、<code>h6</code>) を用いて、章や節の深さ毎に区別をします。そして文書を保存します。</li>
+
+  <li><span class="menuPath">挿入 → 目次</span>をクリックし、<em>挿入</em>を選択します。「目次」ウィンドウが表示されます。</li>
+
+  <li>章・節を表すのに用いた見出しのレベルを選択します。</li>
+
+  <li><em>OK</em>をクリックすると見出しが生成されます。</li>
+</ol>
+
+<p>通常はすべての目次の項目が番号付きで生成され、対応する章・節へのアンカーがつきます。「目次中のすべての項目に番号を振る」のチェックを外すと、目次を順番なしの一覧として生成します。「目次を編集不可にする」と、目次にアンカーを生成せず文字列のみにします。</p>
+
+<p class="returnToSection">[ <a href="#working_with_table_of_contents_on_your_web_page">先頭に戻る</a> ]</p>
+
+<h3 id="updating_or_removing_table_of_contents">目次の更新・削除する</h3>
+
+<p>目次を作成してから文書に章・節を追加しても、追加されたものは目次には載っていません。新しく追加された章・節を目次に追加するには、<span class="menuPath">挿入 → 目次</span>をクリックし、<em>更新</em>を選択します。新しい項目が追加されます。</p>
+
+<p>目次を削除するには、<span class="menuPath">挿入 → 目次</span>をクリックし、<em>削除</em>を選択します。目次は削除され、目次作成に伴い追加されたHTMLコードは削除されます。</p>
+
+<p class="returnToSection">[ <a href="#working_with_table_of_contents_on_your_web_page">先頭に戻る</a> ]</p>
+
+<p>[<a href="templates.xhtml">次</a>] [<a href="images.xhtml">前</a>]</p>
+
+  <div class="copyrightBox"><em>20 June 2005</em></div>
+
+<p>Copyright &copy; 2004-2006 Contributors to the Nvu
+Help Documentation Project.</p>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!ENTITY window.width			"40em"><!-- en-US: 38em -->
+
+<!ENTITY ocspDialog.title		"OCSP">
+<!ENTITY validation.ocsp.description	"OCSP (Online Certificate Status Protocol) はデジタル証明書の有効性をオンラインで検証するためのプロトコルです。 OCSP の利用方法を選択してください:">
+<!ENTITY disableOCSP.label		"証明書の検証に OCSP を利用しない">
+<!ENTITY certOCSP.label			"証明書に OCSP サービス URL が記載されている場合にのみ利用する">
+<!ENTITY proxyOCSP.label		"次の OCSP レスポンダを利用してすべての証明書を検証する:">
+<!ENTITY serviceURL.label		"サービス URL:">
+<!ENTITY serviceURL.accesskey		"S">
+<!ENTITY signingCA.label		"レスポンダ:">
+<!ENTITY signingCA.accesskey		"R">

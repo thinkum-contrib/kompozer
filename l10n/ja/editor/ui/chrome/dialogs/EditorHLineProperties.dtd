@@ -1,0 +1,21 @@
+<!ENTITY windowTitle.label "水平線 (hr) のプロパティ">
+
+<!ENTITY dimensionsBox.label "大きさ">
+<!ENTITY heightEditField.label "高さ：">
+<!ENTITY heightEditField.accessKey "G">
+<!ENTITY widthEditField.label "幅：">
+<!ENTITY widthEditField.accessKey "W">
+<!ENTITY pixelsPopup.value "ピクセル">
+<!ENTITY alignmentBox.label "配置">
+<!ENTITY leftRadio.value "左">
+<!ENTITY leftRadio.accessKey "L">
+<!ENTITY centerRadio.value "中央">
+<!ENTITY centerRadio.accessKey "C">
+<!ENTITY rightRadio.value "右">
+<!ENTITY rightRadio.accessKey "R">
+
+<!ENTITY threeDShading.label "3D表示">
+<!ENTITY threeDShading.accessKey "S">
+<!ENTITY saveSettings.label "この設定を標準とする">
+<!ENTITY saveSettings.accessKey "D">
+<!ENTITY saveSettings.tooltip "この設定を新しい水平線にも適用">

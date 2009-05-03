@@ -1,0 +1,34 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - 
+   - Contributor(s):
+   -   Javier Delgadillo <javi@netscape.com>
+   -   Bob Lord <lord@netscape.com>
+   - 
+   - Localizer(s):
+   -   Kazu Yamamoto <kazu@mozilla.gr.jp>
+   -   Ryoichi Furukawa <furu@mozilla.gr.jp>
+   -   Tsukasa Maruyama <mal@mozilla.gr.jp>
+   -   Teiji Matsuba <matsuba@dream.com>
+   -   dynamis
+  --> 
+
+<!-- Values for newserver.xul -->
+<!ENTITY newserver.title	"Web サイトが未知の認証局により認証されています">
+<!ENTITY newserver.reasons	"このエラーの原因は次のいずれかと考えられます:">
+<!ENTITY newserver.reason1	"- このサイトの証明書を発行した認証局が不明です。">
+<!ENTITY newserver.reason2	"- このサイトのサーバ設定ミスによりサイト証明書が不完全です。">
+<!ENTITY newserver.notify	"この問題をサイトの管理者に知らせてください。">
+<!ENTITY newserver.examine	"証明書を審査する...">
+<!ENTITY newserver.remember	"今後この証明書を受け入れる">
+<!ENTITY newserver.session	"このセッションの間だけ一時的に証明書を受け入れる">
+<!ENTITY newserver.refuse	"この証明書を受け入れず、サイトに接続しない">

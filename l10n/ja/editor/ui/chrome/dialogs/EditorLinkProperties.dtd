@@ -1,0 +1,46 @@
+<!ENTITY windowTitle.label "リンクのプロパティ">
+<!ENTITY LinkURLBox.label "リンク対象">
+<!ENTITY XFNbox.label "XHTML Friends Network">
+
+<!ENTITY me.label "リンク先は自サイト内の別の場所になっています。">
+
+<!ENTITY friendship.label "友好関係 (friendship)">
+<!ENTITY acquaintance.label "知人 (acquaintance)">
+<!ENTITY friend.label "友達 (friend)">
+<!ENTITY contact.label "顔見知り (contact)">
+<!ENTITY none.label "なし (none)">
+
+<!ENTITY physical.label "体験 (physical)">
+<!ENTITY met.label "面識がある (met)">
+
+<!ENTITY professional.label "仕事関係 (professional)">
+<!ENTITY coWorker.label "職場の同僚 (co-worker)">
+<!ENTITY colleague.label "同業者 (colleague)">
+
+<!ENTITY geographical.label "地理上 (geographical)">
+<!ENTITY coResident.label "同一地域内の住人 (co-resident)">
+<!ENTITY neighbor.label "隣人 (neighbor)">
+
+<!ENTITY family.label "家族関係 (family)">
+<!ENTITY child.label "子 (child)">
+<!ENTITY parent.label "親 (parent)">
+<!ENTITY sibling.label "兄弟姉妹 (slibing)">
+<!ENTITY spouse.label "配偶者 (spouse)">
+<!ENTITY kin.label "家族同様の人物 (kin)">
+
+<!ENTITY romantic.label "精神的な関係 (romantic)">
+<!ENTITY muse.label "インスピレーションを与えてくれる人 (muse)">
+<!ENTITY crush.label "トラブルを抱えている対象の人 (crush)">
+<!ENTITY date.label "デートしたことのある人 (date)">
+<!ENTITY sweetheart.label "恋人 (sweetheart)">
+
+<!ENTITY targetBox.label "リンクターゲット">
+<!ENTITY userDefinedTarget.label "リンク先を">
+<!ENTITY topRadio.label "同じウィンドウに、フレームを外して開く">
+<!ENTITY blankRadio.label "新しいウィンドウに開く">
+<!ENTITY parentRadio.label "親フレーム内に開く">
+<!ENTITY selfRadio.label "現在のフレームに開く">
+<!ENTITY userDefinedRadio.label "指定されたフレームに開く:">
+
+<!ENTITY technoratiTag.label "テクノラティのタグ">
+<!ENTITY technoratiTagCheckbox.label "この内容をテクノラティのタグとする">

@@ -1,0 +1,36 @@
+<!ENTITY windowTitle.label "テーブルの挿入">
+
+<!ENTITY size.label "大きさ">
+<!ENTITY numRowsEditField.label "行数:">
+<!ENTITY numRowsEditField.accessKey "R">
+<!ENTITY numColumnsEditField.label "列数:">
+<!ENTITY numColumnsEditField.accessKey "C">
+<!ENTITY widthEditField.label "テーブルの横幅:">
+<!ENTITY widthEditField.accessKey "W">
+<!ENTITY borderEditField.label "枠線の太さ:">
+<!ENTITY borderEditField.accessKey "B">
+<!ENTITY borderEditField.tooltip "テーブルの枠線の太さを指定してください。描画しない場合は 0 にして下さい。">
+<!ENTITY pixels.label "ピクセル">
+
+<!ENTITY quicklyTab.label "簡略設定">
+<!ENTITY preciselyTab.label "詳細設定">
+<!ENTITY cellTab.label "セル">
+
+<!ENTITY horizAlignment.label "横方向の配置:">
+<!ENTITY unspecifiedHAlignment.label "(指定なし)">
+<!ENTITY leftHAlignment.label "左">
+<!ENTITY centerHAlignment.label "中央">
+<!ENTITY rightHAlignment.label "右">
+
+<!ENTITY vertAlignment.label "縦方向の配置:">
+<!ENTITY unspecifiedVAlignment.label "(指定なし)">
+<!ENTITY topVAlignment.label "上">
+<!ENTITY middleVAlignment.label "中央">
+<!ENTITY bottomVAlignment.label "下">
+
+<!ENTITY textWrapping.label "セル中での折り返し:">
+<!ENTITY wrapWrapping.label "する">
+<!ENTITY nowrapWrapping.label "しない (nowrap)">
+
+<!ENTITY cellSpacing.label "セルの間隔 (cellspacing)">
+<!ENTITY cellPadding.label "セル内の余白 (cellpadding)">

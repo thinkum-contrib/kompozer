@@ -1,0 +1,14 @@
+<!ENTITY windowTitle.label "リストのプロパティ">
+<!ENTITY ListType.label "リストの種類">
+<!ENTITY bulletStyle.label "マークの種類:">
+<!ENTITY startingNumber.label "開始番号:">
+<!ENTITY startingNumber.accessKey "S">
+<!ENTITY none.value "なし">
+<!ENTITY bulletList.value "順番なしリスト">
+<!ENTITY numberList.value "順序リスト">
+<!ENTITY definitionList.value "定義リスト">
+<!ENTITY changeListMsg.label "リストの種類を変更するとき、">
+<!ENTITY changeEntireListRadio.label "変更をリスト全体に適用する">
+<!ENTITY changeEntireListRadio.accessKey "C">
+<!ENTITY changeSelectedRadio.label "選択されているもののみを変更する">
+<!ENTITY changeSelectedRadio.accessKey "I">

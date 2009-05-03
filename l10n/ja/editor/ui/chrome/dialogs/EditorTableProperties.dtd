@@ -1,0 +1,74 @@
+<!ENTITY tableWindow.title "テーブルのプロパティ">
+<!ENTITY tableTab.label "テーブル">
+<!ENTITY cellTab.label "セル">
+<!ENTITY tableRows.label "行:">
+<!ENTITY tableRows.accessKey "R">
+<!ENTITY tableColumns.label "列:">
+<!ENTITY tableColumns.accessKey "C">
+<!ENTITY tableHeight.label "高さ:">
+<!ENTITY tableHeight.accessKey "G">
+<!ENTITY tableWidth.label "幅:">
+<!ENTITY tableWidth.accessKey "W">
+<!ENTITY tableBorderSpacing.label "枠線・間隔・余白">
+<!ENTITY tableBorderWidth.label "枠線:">
+<!ENTITY tableBorderWidth.accessKey "B">
+<!ENTITY tableSpacing.label "セル間隔 (spacing):セル同士の間を">
+<!ENTITY tableSpacing.accessKey "S">
+<!ENTITY tablePadding.label "余白 (padding):セルの輪郭と内容の間を">
+<!ENTITY tablePadding.accessKey "P">
+<!ENTITY tablePxBetwCells.label "ピクセル開ける">
+<!ENTITY tablePxBetwBrdrCellContent.label "ピクセル開ける">
+<!ENTITY tableAlignment.label "テーブルの配置:">
+<!ENTITY tableAlignment.accessKey "T">
+<!ENTITY tableCaption.label "テーブルの表題 (caption):">
+<!ENTITY tableCaption.accessKey "N">
+<!ENTITY tableCaptionAbove.label "テーブルの上に">
+<!ENTITY tableCaptionBelow.label "テーブルの下に">
+<!ENTITY tableCaptionLeft.label "テーブルの左に">
+<!ENTITY tableCaptionRight.label "テーブルの右に">
+<!ENTITY tableCaptionNone.label "なし">
+<!ENTITY tableInheritColor.label "(ページの色を継承する)">
+
+<!ENTITY cellPercent.label "％ (テーブルの大きさに対して)">
+<!ENTITY cellSelection.label "選択">
+<!ENTITY cellSelectCell.label "セル">
+<!ENTITY cellSelectRow.label "行">
+<!ENTITY cellSelectColumn.label "列">
+<!ENTITY cellSelectNext.label "次">
+<!ENTITY cellSelectNext.accessKey "N">
+<!ENTITY cellSelectPrevious.label "前">
+<!ENTITY cellSelectPrevious.accessKey "P">
+<!ENTITY cellApplyBeforeMove.label "Apply changes before changing selection  ">
+<!ENTITY cellKeepCurrentData.label "Keep current settings  ">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label "Current changes will be applied  ">
+<!ENTITY applyBeforeChange2.label "before changing the selection.  ">
+<!ENTITY cellRowSpan.label "行結合:">
+<!ENTITY cellColSpan.label "列結合:">
+<!ENTITY cellContentAlignment.label "内容の配置">
+<!ENTITY cellHorizontal.label "水平方向:">
+<!ENTITY cellHorizontal.accessKey "Z">
+<!ENTITY cellVertical.label "垂直方向:">
+<!ENTITY cellVertical.accessKey "V">
+<!ENTITY cellStyle.label "セルの種類:">
+<!ENTITY cellStyle.accessKey "C">
+<!ENTITY cellNormal.label "通常">
+<!ENTITY cellHeader.label "見出し">
+<!ENTITY cellTextWrap.label "文字列の折り返し:">
+<!ENTITY cellTextWrap.accessKey "T">
+<!ENTITY cellWrap.label "する (通常)">
+<!ENTITY cellNoWrap.label "しない">
+<!ENTITY cellAlignTop.label "上">
+<!ENTITY cellAlignMiddle.label "中央">
+<!ENTITY cellAlignBottom.label "下">
+<!ENTITY cellAlignJustify.label "均等割り">
+<!ENTITY cellAlignAtChar.label "At Character:">
+<!ENTITY cellInheritColor.label "(テーブルの色を継承する)">
+<!ENTITY cellUseCheckboxHelp.label "Use checkboxes to determine which properties are applied to all selected cells ">
+<!ENTITY size.label "大きさ">
+<!ENTITY pixels.label "ピクセル">
+<!ENTITY backgroundColor.label "背景色:">
+<!ENTITY backgroundColor.accessKey "B">
+<!ENTITY AlignLeft.label "左">
+<!ENTITY AlignCenter.label "中央">
+<!ENTITY AlignRight.label "右">

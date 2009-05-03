@@ -1,0 +1,49 @@
+<!ENTITY windowTitle.label "ページの公開">
+<!ENTITY windowTitleSettings.label "公開設定">
+
+<!ENTITY publishTab.label "公開">
+<!ENTITY settingsTab.label "設定">
+
+
+<!ENTITY siteList.label "サイト名:">
+<!ENTITY siteList.tooltip "公開するサイトの名前">
+<!ENTITY newSiteButton.label "新規サイト">
+<!ENTITY siteDirList.label "公開サイト内のディレクトリ名:">
+<!ENTITY siteDirList.tooltip "サーバのサブディレクトリ名を指定">
+<!ENTITY docDirList.label "このページのサイト内でのサブディレクトリ:">
+<!ENTITY publishImgCheckbox.label "画像などの関連ファイルも含める">
+<!ENTITY publishImgCheckbox.tooltip "ページが参照する画像などのファイルも同時にアップロード">
+<!ENTITY sameLocationRadio.label "ページと同じ場所に配置">
+<!ENTITY sameLocationRadio.tooltip "ページと同じディレクトリにアップロード">
+<!ENTITY useSubdirRadio.label "サイト内のこのサブディレクトリに配置:">
+<!ENTITY useSubdir.tooltip "サーバのサブディレクトリを指定してそこにアップロード">
+<!ENTITY chooseDirButton.label "選択...">
+<!ENTITY pageTitle.label "ページタイトル:">
+<!ENTITY pageTitle.tooltip "ページ表示時・ブックマーク時に区別できるようなタイトルを指定">
+<!ENTITY pageTitleExample.label "例：「私のほーむぺーじ」">
+<!ENTITY filename.label "ファイル名:">
+<!ENTITY filename.tooltip "ファイル名を、ウェブページを示す「.html」込みで指定">
+<!ENTITY filenameExample.label "例：「mypage.html」">
+<!ENTITY relatedDocs.label "公開されるべき関連ファイル一覧">
+<!ENTITY setDefaultButton.label "標準設定にする">
+<!ENTITY setDefSiteAndDir.label "標準のサイト・ディレクトリ設定として用いるようにします。">
+<!ENTITY removeButton.label "サイトを削除">
+
+
+<!ENTITY publishSites.label "公開サイト">
+<!ENTITY serverInfo.label "サーバ情報">
+<!ENTITY loginInfo.label "ログイン情報">
+<!ENTITY siteName.label "サイト名:">
+<!ENTITY siteName.tooltip "公開するサイトを識別するための名前です (例：'私のほーむぺーじ')">
+<!ENTITY siteUrl.label "サーバのアドレス (例：'ftp://ftp.myisp.com/myusername'):">
+<!ENTITY siteUrl.tooltip "ISP (プロバイダ) またはホスティングサービスが指定する、ftp:// か http:// アドレス">
+<!ENTITY browseUrl.label "サイトのhttpアドレス (例：'http://www.myisp.com/myusername'):">
+<!ENTITY browseUrl.tooltip "ファイル名を除いた、ホームディレクトリの http:// アドレス">
+<!ENTITY username.label "ユーザ名:">
+<!ENTITY username.tooltip "ISP (プロバイダ) またはホスティングサービスにログインするときに用いるユーザ名">
+<!ENTITY password.label "パスワード:">
+<!ENTITY password.tooltip "ユーザ名に対応したパスワード">
+<!ENTITY savePassword.label "パスワードを保存">
+<!ENTITY savePassword.tooltip "パスワードをパスワードマネージャに記憶">
+
+<!ENTITY selectDirectory.label "ディレクトリを選択">
