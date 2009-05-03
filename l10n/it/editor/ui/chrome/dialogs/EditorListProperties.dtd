@@ -1,0 +1,14 @@
+<!ENTITY ListType.label "Tipo elenco:">
+<!ENTITY bulletList.value "Elenco puntato (non numerato)">
+<!ENTITY bulletStyle.label "Stile:">
+<!ENTITY changeEntireListRadio.accessKey "C">
+<!ENTITY changeEntireListRadio.label "Cambia l'intero elenco">
+<!ENTITY changeListMsg.label "Quando si cambia tipo elenco:">
+<!ENTITY changeSelectedRadio.accessKey "e">
+<!ENTITY changeSelectedRadio.label "Cambia solo gli elementi selezionati">
+<!ENTITY definitionList.value "Elenco definizioni">
+<!ENTITY none.value "Nessuno (paragrafo normale)">
+<!ENTITY numberList.value "Elenco numerato">
+<!ENTITY startingNumber.accessKey "N">
+<!ENTITY startingNumber.label "Numero iniziale:">
+<!ENTITY windowTitle.label "Proprietà elenco">

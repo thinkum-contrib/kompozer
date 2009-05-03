@@ -1,0 +1,40 @@
+<!ENTITY activeLinkText.accesskey "v">
+<!ENTITY activeLinkText.label "Testo collegamento attivo">
+<!ENTITY authorName.accesskey "A">
+<!ENTITY authorName.label "Autore:">
+<!ENTITY background.accesskey "f">
+<!ENTITY background.label "Sfondo:">
+<!ENTITY backgroundImage.accesskey "I">
+<!ENTITY backgroundImage.label "Immagine di sfondo:">
+<!ENTITY chooseCharsetButton.label "Seleziona un set di caratteri">
+<!ENTITY chooseFile.accesskey "S">
+<!ENTITY chooseFile.label "Seleziona file...">
+<!ENTITY colon.character ":">
+<!ENTITY customColors.accesskey "c">
+<!ENTITY customColorsRadio.label "Usa colori personalizzati:">
+<!ENTITY defaultCharset.label "Set di caratteri:">
+<!ENTITY defaultColors.accesskey "n">
+<!ENTITY defaultColorsRadio.label "Colori predefiniti utente (non modificare i colori nella pagina)">
+<!ENTITY defaultDirectionRadio.label "Nessuna direzione specificata">
+<!ENTITY dialect.label "Markup">
+<!ENTITY dtd.label "DTD:">
+<!ENTITY htmlMarkupLanguage.label "HTML 4">
+<!ENTITY i18nHeader "Internazionalizzazione">
+<!ENTITY lHeader "Imposta pagina">
+<!ENTITY language.label "Lingua:">
+<!ENTITY languageChoiceButton.label "Seleziona lingua">
+<!ENTITY linkText.accesskey "l">
+<!ENTITY linkText.label "Testo collegamento">
+<!ENTITY looseDTD.label "Transitional">
+<!ENTITY ltrDirectionRadio.label "Sinistra a destra">
+<!ENTITY markupLanguage.label "Lingua:">
+<!ENTITY normalText.accesskey "T">
+<!ENTITY normalText.label "Testo semplice">
+<!ENTITY pageColorHeader "Aspetto predefinito della pagina">
+<!ENTITY rHeader "Valori predefiniti per le nuove pagine">
+<!ENTITY rtlDirectionRadio.label "Destra a sinistra">
+<!ENTITY strictDTD.label "Strict">
+<!ENTITY visitedLinkText.accesskey "m">
+<!ENTITY visitedLinkText.label "Testo collegamento visitato">
+<!ENTITY writingDirection.label "Direzione scrittura:">
+<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">

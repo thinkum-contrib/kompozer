@@ -1,0 +1,6 @@
+<!ENTITY changeUrlButton.label "Modifica indirizzo elemento selezionato">
+<!ENTITY failed.label "Non trovato">
+<!ENTITY notFoundKey.label "(&quot;X&quot; = file non trovato, &quot;?&quot; = tempo scaduto durante il tentativo di connessione.)">
+<!ENTITY succeeded.label "Verificato">
+<!ENTITY urlsNotFound.label "Impossibile trovare i seguenti indirizzi dei collegamenti o dell'immagine:">
+<!ENTITY windowTitle.label "Verifica indirizzi collegamenti e immagine">

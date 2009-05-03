@@ -1,0 +1,43 @@
+<!ENTITY browseUrl.label "Indirizzo HTTP della pagina home (ad es.: 'http://www.isp.com/nomeutente'):">
+<!ENTITY browseUrl.tooltip "L'indirizzo http:// della cartella home (senza il nome del file)">
+<!ENTITY chooseDirButton.label "Scegli...">
+<!ENTITY docDirList.label "Percorso nel sito per la pagina:">
+<!ENTITY filename.label "Nome file:">
+<!ENTITY filename.tooltip "Inserire un nome per questo file, incluso '.html' per pagine web">
+<!ENTITY filenameExample.label "es.: &quot;lamiapagina.html&quot;">
+<!ENTITY loginInfo.label "Informazioni di accesso">
+<!ENTITY newSiteButton.label "Nuovo sito">
+<!ENTITY pageTitle.label "Titolo pagina:">
+<!ENTITY pageTitle.tooltip "Inserire un titolo per identificare la pagina nella finestra e nei segnalibri">
+<!ENTITY pageTitleExample.label "es.: &quot;La mia pagina web&quot;">
+<!ENTITY password.label "Password:">
+<!ENTITY password.tooltip "La password associata al proprio nome utente">
+<!ENTITY publishImgCheckbox.label "Includi immagini e altri file">
+<!ENTITY publishImgCheckbox.tooltip "Pubblica le immagini e gli altri file cui si fa riferimento in questa pagina">
+<!ENTITY publishSites.label "Siti di pubblicazione">
+<!ENTITY publishTab.label "Pubblicazione">
+<!ENTITY relatedDocs.label "Altri file da pubblicare">
+<!ENTITY removeButton.label "Rimuovi sito">
+<!ENTITY sameLocationRadio.label "Utilizza lo stesso percorso della pagina">
+<!ENTITY sameLocationRadio.tooltip "Pubblica i file nella stesso percorso della pagina">
+<!ENTITY savePassword.label "Salva password">
+<!ENTITY savePassword.tooltip "Spuntare per salvare la propria password in sicurezza usando la Gestione password">
+<!ENTITY selectDirectory.label "Seleziona cartella">
+<!ENTITY serverInfo.label "Informazioni server">
+<!ENTITY setDefSiteAndDir.label "Imposta come cartella e sito predefiniti">
+<!ENTITY setDefaultButton.label "Imposta come predefinito">
+<!ENTITY settingsTab.label "Impostazioni">
+<!ENTITY siteDirList.label "Selezionare o inserire il nome di una cartella del proprio sito:">
+<!ENTITY siteDirList.tooltip "Scegliere o inserire il nome della sottocartella remota in cui pubblicare">
+<!ENTITY siteList.label "Nome sito:">
+<!ENTITY siteList.tooltip "Scegliere il sito su cui si vuole pubblicare">
+<!ENTITY siteName.label "Nome sito:">
+<!ENTITY siteName.tooltip "Un nome che identifica questo sito di pubblicazione (ad es. 'mioSito')">
+<!ENTITY siteUrl.label "Percorso di pubblicazione (ad es.: 'ftp://ftp.isp.com/nomeutente'):">
+<!ENTITY siteUrl.tooltip "L'indirizzo ftp:// o http:// fornito dal proprio ISP o servizio di hosting web">
+<!ENTITY useSubdir.tooltip "Scegliere o inserire il nome della sottocartella remota dove verranno pubblicati i file">
+<!ENTITY useSubdirRadio.label "Utilizza questa sottocartella:">
+<!ENTITY username.label "Nome utente:">
+<!ENTITY username.tooltip "Il nome utente usato per accedere all'ISP od al servizio di hosting web">
+<!ENTITY windowTitle.label "Pubblicazione pagina">
+<!ENTITY windowTitleSettings.label "Impostazioni pubblicazione">

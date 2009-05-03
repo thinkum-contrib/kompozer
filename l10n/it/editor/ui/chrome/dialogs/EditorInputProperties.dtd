@@ -1,0 +1,41 @@
+<!ENTITY Accept.accesskey "a">
+<!ENTITY Accept.label "Tipi accettati:">
+<!ENTITY AccessKey.accesskey "o">
+<!ENTITY AccessKey.label "Scorciatoia tastiera:">
+<!ENTITY GroupName.label "Nome gruppo:">
+<!ENTITY ImageProperties.accesskey "m">
+<!ENTITY ImageProperties.label "Proprietà immagine...">
+<!ENTITY InitialValue.label "Valore iniziale:">
+<!ENTITY InputChecked.accesskey "S">
+<!ENTITY InputChecked.label "Spuntato">
+<!ENTITY InputDisabled.accesskey "b">
+<!ENTITY InputDisabled.label "Disabilitato">
+<!ENTITY InputName.label "Nome campo:">
+<!ENTITY InputReadOnly.accesskey "S">
+<!ENTITY InputReadOnly.label "Sola lettura">
+<!ENTITY InputSelected.accesskey "S">
+<!ENTITY InputSelected.label "Selezionato">
+<!ENTITY InputSettings.label "Impostazioni campo">
+<!ENTITY InputType.accesskey "T">
+<!ENTITY InputType.label "Tipo campo">
+<!ENTITY InputValue.label "Valore campo:">
+<!ENTITY Name.accesskey "N">
+<!ENTITY TextLength.accesskey "L">
+<!ENTITY TextLength.label "Lunghezza massima:">
+<!ENTITY TextSize.accesskey "D">
+<!ENTITY TextSize.label "Dimensioni campo:">
+<!ENTITY Value.accesskey "r">
+<!ENTITY button.value "Pulsante">
+<!ENTITY checkbox.value "Casella da spuntare">
+<!ENTITY file.value "File">
+<!ENTITY hidden.value "Nascosto">
+<!ENTITY image.value "Immagine">
+<!ENTITY password.value "Password">
+<!ENTITY radio.value "Bottone radio">
+<!ENTITY reset.value "Pulsante di ripristino">
+<!ENTITY submit.value "Pulsante di invio">
+<!ENTITY tabIndex.accesskey "I">
+<!ENTITY tabIndex.label "Indice tabulazione:">
+<!ENTITY text.value "Testo">
+<!ENTITY windowTitle.label "Proprietà campo modulo">
+<!ENTITY windowTitleImage.label "Proprietà immagine modulo">

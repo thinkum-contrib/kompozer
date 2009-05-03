@@ -1,0 +1,21 @@
+<!ENTITY createDir.label "Nuova sottocartella">
+<!ENTITY createDirButton.tooltip "Nuova cartella">
+<!ENTITY createdir.accesskey "N">
+<!ENTITY deleteFile.label "Elimina file">
+<!ENTITY deletefile.accesskey "E">
+<!ENTITY editSitesList.label "Modifica siti">
+<!ENTITY filenameColumn.label "Nome">
+<!ENTITY filterAll.label "Tutti i file">
+<!ENTITY filterControl.label "Vista:">
+<!ENTITY filterHTML.label "Documenti HTML">
+<!ENTITY filterImages.label "File immagine">
+<!ENTITY lastModifiedColumn.label "Ultimo modificato">
+<!ENTITY reloadButton.tooltip "Aggiorna">
+<!ENTITY removeButton.tooltip "Elimina">
+<!ENTITY removeDir.label "Rimuovi cartella">
+<!ENTITY removedir.accesskey "R">
+<!ENTITY renameButton.tooltip "Rinomina file o cartella">
+<!ENTITY renameMenu.label "Rinomina">
+<!ENTITY sizeColumn.label "Dimensione">
+<!ENTITY stopButton.tooltip "Interrompi">
+<!ENTITY treeViewCheckbox.label "Vista albero">

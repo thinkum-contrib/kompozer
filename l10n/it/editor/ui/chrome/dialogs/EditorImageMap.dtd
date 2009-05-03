@@ -1,0 +1,48 @@
+<!ENTITY about.accesskey "i">
+<!ENTITY aboutCmd.label "Informazioni su">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY clear.accesskey "d">
+<!ENTITY clearCmd.label "Rimuovi">
+<!ENTITY close.accesskey "l">
+<!ENTITY closeCmd.label "Chiudi">
+<!ENTITY contrast.accesskey "c">
+<!ENTITY contrastCmd.label "Contrasto">
+<!ENTITY copy.accesskey "c">
+<!ENTITY copyCmd.label "Copia">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY cut.accesskey "x">
+<!ENTITY cutCmd.label "Taglia">
+<!ENTITY delSpotCmd.label "Elimina area">
+<!ENTITY mapeditMenu.label "Modifica">
+<!ENTITY mapeditcopy.accesskey "c">
+<!ENTITY mapeditcut.accesskey "t">
+<!ENTITY mapeditmenu.accesskey "M">
+<!ENTITY mapeditpaste.accesskey "i">
+<!ENTITY mapeditprops.accesskey "P">
+<!ENTITY mapfileMenu.label "File">
+<!ENTITY mapfileclear.accesskey "R">
+<!ENTITY mapfileclose.accesskey "c">
+<!ENTITY mapfilemenu.accesskey "F">
+<!ENTITY maphelpMenu.label "?">
+<!ENTITY maphelpmenu.accesskey "?">
+<!ENTITY mapselectall.accesskey "s">
+<!ENTITY mapviewMenu.label "Visualizza">
+<!ENTITY mapviewScale.label "Zoom">
+<!ENTITY mapviewmenu.accesskey "V">
+<!ENTITY mapviewscale.accesskey "Z">
+<!ENTITY mapviewtbar.accesskey "b">
+<!ENTITY paste.accesskey "v">
+<!ENTITY pasteCmd.label "Incolla">
+<!ENTITY props.accesskey "p">
+<!ENTITY propsCmd.label "Proprietà area collegamento">
+<!ENTITY selectall.accesskey "a">
+<!ENTITY selectallCmd.label "Seleziona tutto">
+<!ENTITY showhideTbarCmd.label "Nascondi barra strumenti">
+<!ENTITY tbar.accesskey "t">
+<!ENTITY windowTitle.label "Editor mappa dell'immagine">
+<!ENTITY zoominCmd.label "Aumenta zoom">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY zoomoutCmd.label "Diminuisci zoom">
+<!ENTITY zoomthree.accesskey "4">
+<!ENTITY zoomtwo.accesskey "2">

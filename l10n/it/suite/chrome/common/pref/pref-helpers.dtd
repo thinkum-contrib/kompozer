@@ -1,0 +1,31 @@
+<!ENTITY allEntitiesEncoding.label "Utilizzare &amp;#..; per tutti i caratteri non ASCII">
+<!ENTITY basicEncoding.label "Solo &amp; &lt; &gt; ' e spazi non interompibili">
+<!ENTITY carriageReturns.label "Comportamento del tasto Invio">
+<!ENTITY cmdLine.label "Linea comando:">
+<!ENTITY connection.label "Connessione">
+<!ENTITY connectionButton.label "Impostazioni connessione">
+<!ENTITY connectionDescription.label "Abilita i Proxies per accedere a Internet">
+<!ENTITY connectionbutton.accesskey "n">
+<!ENTITY crInPCreatesNewP.label "Il ritorno a capo nel paragrafo crea sempre un nuovo paragrafo">
+<!ENTITY dialect.label "Markup">
+<!ENTITY dtd.label "DTD:">
+<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+<!ENTITY helpers.label "Impostazioni avanzate">
+<!ENTITY hints.label "Potete specificare il URL usando '$s'. Esempio:">
+<!ENTITY htmlEntitiesEncoding.label "Caratteri speciali HTML 4">
+<!ENTITY htmlMarkupLanguage.label "HTML 4">
+<!ENTITY imageEditor.label "Editor Immagine">
+<!ENTITY latin1EntitiesEncoding.label "Quanto sopra e lettere Latin-1">
+<!ENTITY looseDTD.label "Transitional">
+<!ENTITY markupLanguage.label "Lingua:">
+<!ENTITY noEscaping.label "Non codificare i caratteri speciali nei valori attributi">
+<!ENTITY noGTEncoding.label "Non codificare '&gt;' al di fuori dei valori attributi">
+<!ENTITY realtimeSpellCheck.label "Correttore ortografico in tempo reale">
+<!ENTITY specialChars.description "Output i seguenti caratteri come entità:">
+<!ENTITY specialChars.label "Caratteri speciali">
+<!ENTITY spellCheckRealTime.accesskey "S">
+<!ENTITY spellCheckRealTime.label "Sottolinea le parole errate">
+<!ENTITY strictDTD.label "Strict">
+<!ENTITY useSystemBrowser.label "Usa impostazioni di sistema">
+<!ENTITY userDefinedBrower.label "Definito dall'utente">
+<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">

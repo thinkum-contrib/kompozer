@@ -1,0 +1,30 @@
+<!ENTITY AutoSaveCheck "Salvare automaticamente ogni">
+<!ENTITY chooseButton.label "Scegliere">
+<!ENTITY cssEditing.label "Formattazione tramite CSS (Fogli di stile)">
+<!ENTITY documentsInMenu "Numero massimo di pagine elencate:">
+<!ENTITY documentsInMenu.accesskey "N">
+<!ENTITY exterLegend.label "Editor esterni">
+<!ENTITY htmlSource "Sorgente HTML:">
+<!ENTITY imageeditor "Immagini:">
+<!ENTITY lHeader "Generale">
+<!ENTITY maintainStructure.accesskey "a">
+<!ENTITY maintainTableStructure.label "Mantieni la struttura della tabella quando si inseriscono o eliminano celle">
+<!ENTITY maintainTableStructure.tooltip "Conserva la forma rettangolare della tabella aggiungendo automaticamente celle dopo l'inserimento o la rimozione di celle.">
+<!ENTITY minText "minuti">
+<!ENTITY openInNewTab.label "Apri sempre un documento in una scheda nuova">
+<!ENTITY preserveExistingFormatting "Mantieni impaginazione sorgente">
+<!ENTITY preserveExistingFormatting.accesskey "M">
+<!ENTITY preserveExistingFormatting.tooltip "Conserva a capo e struttura originale della pagina">
+<!ENTITY rHeader "Impostazioni per la titolarità di nuove pagine web">
+<!ENTITY recentFiles.title "Menu pagine recenti">
+<!ENTITY reformat.accesskey "R">
+<!ENTITY reformat.label "Riformatta sorgente HTML">
+<!ENTITY reformat.tooltip "Riformatta i tag HTML usando ritorni a capo e rientri">
+<!ENTITY saveAssociatedFiles.label "Salva assieme alla pagina immagini e altri file associati ">
+<!ENTITY saving "Salvataggio in corso">
+<!ENTITY savingFiles.title "Salvando o pubblicando le pagine">
+<!ENTITY showPublishDialog.label "Visualizza sempre la finestra di dialogo quando si pubblica">
+<!ENTITY siteManager.label "Gestione siti">
+<!ENTITY tableEditing.label "Tabelle">
+<!ENTITY title.label "Generale">
+<!ENTITY useCSS.label "Usa stili CSS al posto di elementi ed attributi HTML">

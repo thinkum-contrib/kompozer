@@ -1,0 +1,30 @@
+<!ENTITY borderEditField.accessKey "B">
+<!ENTITY borderEditField.label "Bordo:">
+<!ENTITY borderEditField.tooltip "Inserire un numero spessore bordo della tabella, o zero (0) per eliminare il bordo">
+<!ENTITY bottomVAlignment.label "In basso">
+<!ENTITY cellPadding.label "Margine">
+<!ENTITY cellSpacing.label "Riempimento">
+<!ENTITY cellTab.label "Cella">
+<!ENTITY centerHAlignment.label "Centro">
+<!ENTITY horizAlignment.label "Allineamento Orizzontale">
+<!ENTITY leftHAlignment.label "Sinistra">
+<!ENTITY middleVAlignment.label "Al centro">
+<!ENTITY nowrapWrapping.label "Mantieni in una riga">
+<!ENTITY numColumnsEditField.accessKey "c">
+<!ENTITY numColumnsEditField.label "Numero di colonne:">
+<!ENTITY numRowsEditField.accessKey "N">
+<!ENTITY numRowsEditField.label "Numero di righe:">
+<!ENTITY pixels.label "pixel">
+<!ENTITY preciselyTab.label "Precisamente">
+<!ENTITY quicklyTab.label "Velocemente">
+<!ENTITY rightHAlignment.label "Destra">
+<!ENTITY size.label "Dimensioni">
+<!ENTITY textWrapping.label "Ritorno a capo testo:">
+<!ENTITY topVAlignment.label "In alto">
+<!ENTITY unspecifiedHAlignment.label "Non specificato">
+<!ENTITY unspecifiedVAlignment.label "Non specificato">
+<!ENTITY vertAlignment.label "Allineamento Verticale">
+<!ENTITY widthEditField.accessKey "L">
+<!ENTITY widthEditField.label "Larghezza tabella:">
+<!ENTITY windowTitle.label "Inserimento tabella">
+<!ENTITY wrapWrapping.label "Manda a capo">

@@ -1,0 +1,37 @@
+<!ENTITY LinkURLBox.label "Collegamento a:">
+<!ENTITY XFNbox.label "XFN - Relazioni interpersonali">
+<!ENTITY acquaintance.label "conoscente (acquaintance)">
+<!ENTITY blankRadio.label "in una nuova finestra">
+<!ENTITY child.label "figlio (child)">
+<!ENTITY coResident.label "co-residente (co-resident)">
+<!ENTITY coWorker.label "co-lavoratore (co-worker)">
+<!ENTITY colleague.label "collega (colleague)">
+<!ENTITY contact.label "contatto (contact)">
+<!ENTITY crush.label "relazione (crush)">
+<!ENTITY date.label "appuntamento (date)">
+<!ENTITY family.label "Famiglia">
+<!ENTITY friend.label "amico (friend)">
+<!ENTITY friendship.label "Amicizia">
+<!ENTITY geographical.label "Geografico">
+<!ENTITY kin.label "familiare (kin)">
+<!ENTITY me.label "Il collegamento è un'altro indirizzo mio">
+<!ENTITY met.label "incontrato (met)">
+<!ENTITY muse.label "musa (muse)">
+<!ENTITY neighbor.label "vicino (neighbor)">
+<!ENTITY none.label "nessuno">
+<!ENTITY parent.label "genitore (parent)">
+<!ENTITY parentRadio.label "nel frameset parent">
+<!ENTITY physical.label "Fisico">
+<!ENTITY professional.label "Professionale">
+<!ENTITY romantic.label "Romantico">
+<!ENTITY selfRadio.label "nel frame corrente">
+<!ENTITY sibling.label "fratello (sibling)">
+<!ENTITY spouse.label "coniuge (spouse)">
+<!ENTITY sweetheart.label "amore (sweetheart)">
+<!ENTITY targetBox.label "Destinazione">
+<!ENTITY technoratiTag.label "Tag Technorati">
+<!ENTITY technoratiTagCheckbox.label "Questo è un tag Technorati">
+<!ENTITY topRadio.label "nella stessa finestra, senza i frameset">
+<!ENTITY userDefinedRadio.label "in questo frame:">
+<!ENTITY userDefinedTarget.label "Collegamento in fase di apertura">
+<!ENTITY windowTitle.label "Proprietà collegamento">

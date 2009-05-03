@@ -1,0 +1,26 @@
+<!ENTITY InitialText.accessKey "T">
+<!ENTITY InitialText.label "Testo iniziale:">
+<!ENTITY Settings.label "Impostazioni">
+<!ENTITY TextAreaAccessKey.accessKey "o">
+<!ENTITY TextAreaAccessKey.label "Scorciatoia tastiera:">
+<!ENTITY TextAreaCols.accessKey "C">
+<!ENTITY TextAreaCols.label "Colonne:">
+<!ENTITY TextAreaDisabled.accessKey "D">
+<!ENTITY TextAreaDisabled.label "Disabilitato">
+<!ENTITY TextAreaName.accessKey "N">
+<!ENTITY TextAreaName.label "Nome campo">
+<!ENTITY TextAreaReadOnly.accessKey "S">
+<!ENTITY TextAreaReadOnly.label "Sola lettura">
+<!ENTITY TextAreaRows.accessKey "R">
+<!ENTITY TextAreaRows.label "Righe:">
+<!ENTITY TextAreaTabIndex.accessKey "I">
+<!ENTITY TextAreaTabIndex.label "Indice tabulazione:">
+<!ENTITY TextAreaWrap.accessKey "A">
+<!ENTITY TextAreaWrap.label "A capo:">
+<!ENTITY WrapDefault.value "Predefinito">
+<!ENTITY WrapHard.value "Alla larghezza">
+<!ENTITY WrapOff.value "Disabilitato">
+<!ENTITY WrapPhysical.value "Fisico">
+<!ENTITY WrapSoft.value "Tra le parole">
+<!ENTITY WrapVirtual.value "Virtuale">
+<!ENTITY windowTitle.label "Proprietà campo di testo">

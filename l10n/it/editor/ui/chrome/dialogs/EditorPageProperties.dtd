@@ -1,0 +1,25 @@
+<!ENTITY EditHEADSource1.label "Utenti avanzati:">
+<!ENTITY EditHEADSource2.label "Per modificare altri contenuti della regione &lt;head&gt;, utilizzare &quot;Sorgente HTML&quot; dal menu Visualizza o dalla Barra modalità composizione.">
+<!ENTITY authorInput.accessKey "A">
+<!ENTITY authorInput.label "Autore:">
+<!ENTITY chooseCharsetButton.label "Seleziona un set di caratteri">
+<!ENTITY defaultCharset.label "Set di caratteri:">
+<!ENTITY defaultDirectionRadio.label "Nessuna direzione specificata">
+<!ENTITY descriptionInput.accessKey "D">
+<!ENTITY descriptionInput.label "Descrizione:">
+<!ENTITY fromTemplate.label "Questo documento è collegato ad un modello">
+<!ENTITY general.label "Informazioni generali">
+<!ENTITY i18nHeader "Internazionalizzazione">
+<!ENTITY language.label "Lingua:">
+<!ENTITY languageChoiceButton.label "Seleziona lingua">
+<!ENTITY lastModified.label "Modificato il:">
+<!ENTITY location.label "Indirizzo:">
+<!ENTITY locationNewPage.label "[Nuova pagina, non ancora salvata]">
+<!ENTITY ltrDirectionRadio.label "SInistra a destra">
+<!ENTITY rtlDirectionRadio.label "Destra a sinistra">
+<!ENTITY template.label "Modelli">
+<!ENTITY templateCheckbox.label "Questa pagina è un modello">
+<!ENTITY titleInput.accessKey "T">
+<!ENTITY titleInput.label "Titolo:">
+<!ENTITY windowTitle.label "Proprietà pagina">
+<!ENTITY writingDirection.label "Direzione scrittura:">

@@ -1,0 +1,38 @@
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.label "Copia">
+<!ENTITY cutCmd.accesskey "T">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.label "Taglia">
+<!ENTITY deleteCmd.accesskey "E">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.label "Elimina">
+<!ENTITY findTypeLinksCmd.accesskey "T">
+<!ENTITY findTypeLinksCmd.label "Trova testo digitato nei colleg.">
+<!ENTITY findTypeTextCmd.accesskey "T">
+<!ENTITY findTypeTextCmd.label "Trova testo digitato">
+<!ENTITY newBlankPageCmd.accesskey "C">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newBlankPageCmd.label "Composizione pagina">
+<!ENTITY newNavigatorCmd.accesskey "F">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.label "Finestra di Navigator">
+<!ENTITY newPageFromTemplateCmd.accesskey "P">
+<!ENTITY newPageFromTemplateCmd.label "Pagina da modello">
+<!ENTITY pasteCmd.accesskey "I">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.label "Incolla">
+<!ENTITY preferencesCmd.accesskey "P">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.label "Preferenze...">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.label "Ripeti">
+<!ENTITY selectAllCmd.accesskey "S">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.label "Seleziona tutto">
+<!ENTITY undoCmd.accesskey "A">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.label "Annulla">
+<!ENTITY viewToolbarsMenu.accesskey "M">
+<!ENTITY viewToolbarsMenu.label "Mostra/Nascondi">

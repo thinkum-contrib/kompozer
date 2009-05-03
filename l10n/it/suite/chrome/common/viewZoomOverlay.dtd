@@ -1,0 +1,10 @@
+<!ENTITY textZoomEnlargeCmd.label "Aumenta">
+<!ENTITY textZoomEnlargeCmd.accesskey "A">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomReduceCmd.label "Riduci">
+<!ENTITY textZoomReduceCmd.accesskey "R">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY textZoomMenu.accesskey "D">
+<!ENTITY textZoomOtherCmd.accesskey "o">

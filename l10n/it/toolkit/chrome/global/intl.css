@@ -1,0 +1,9 @@
+window { 
+  font: 3mm tahoma,arial,helvetica,sans-serif;
+}
+
+@-moz-document url(chrome://mozapps/content/extensions/update.xul) {
+   #updateWizard {
+      width: 44em !important;
+   }
+}

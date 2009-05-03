@@ -1,0 +1,60 @@
+<!ENTITY MoreFewerButton.tooltip "Visualizza o nasconde proprietà aggiuntive">
+<!ENTITY actualSize.label "Dimensione originale:">
+<!ENTITY actualSizeRadio.accessKey "D">
+<!ENTITY actualSizeRadio.label "Dimensione originale">
+<!ENTITY actualSizeRadio.tooltip "Torna alle dimensioni reali dell'immagine">
+<!ENTITY alignment.label "Allineamento del testo rispetto all'immagine:">
+<!ENTITY altText.accessKey "T">
+<!ENTITY altText.label "Testo alternativo:">
+<!ENTITY altTextEditField.tooltip "Inserire il testo da visualizzare in mancanza dell'immagine">
+<!ENTITY borderEditField.accessKey "L">
+<!ENTITY borderEditField.label "Larghezza bordo:">
+<!ENTITY bottomPopup.value "alla base">
+<!ENTITY centerPopup.value "al centro">
+<!ENTITY constrainCheckbox.accessKey "M">
+<!ENTITY constrainCheckbox.label "Mantieni proporzioni">
+<!ENTITY constrainCheckbox.tooltip "Mantiene le proporzioni dell'immagine">
+<!ENTITY customSizeRadio.accessKey "p">
+<!ENTITY customSizeRadio.label "Dimensioni personalizzate">
+<!ENTITY customSizeRadio.tooltip "Modifica le dimensioni di visualizzazione dell'immagine">
+<!ENTITY editImageButton.label "Modifica immagine">
+<!ENTITY editImageButton.tooltip "Modifica l'immagine in un altro programma">
+<!ENTITY editImageMapButton.label "Modifica...">
+<!ENTITY editImageMapButton.tooltip "Crea aree cliccabili su questa immagine">
+<!ENTITY heightEditField.accessKey "A">
+<!ENTITY heightEditField.label "Altezza:">
+<!ENTITY imageAppearanceTab.label "Aspetto">
+<!ENTITY imageDimensionsTab.label "Dimensioni">
+<!ENTITY imageInputTab.label "Modulo">
+<!ENTITY imageLinkTab.label "Collegamento">
+<!ENTITY imageLocationTab.label "Indirizzo">
+<!ENTITY imagemapBox.label "Mappa immagine">
+<!ENTITY leftRightEditField.accessKey "D">
+<!ENTITY leftRightEditField.label "Destra e sinistra:">
+<!ENTITY locationEditField.accessKey "I">
+<!ENTITY locationEditField.label "Indirizzo immagine:">
+<!ENTITY locationEditField.tooltip "Inserire il nome del file o l'indirizzo dell'immagine">
+<!ENTITY makePageBackgroundCheckbox.label "Usa pagina come sfondo">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Usa l'immagine come sfondo per la pagina">
+<!ENTITY noAltText.accessKey "N">
+<!ENTITY noAltText.label "Non usare testo alternativo">
+<!ENTITY percentPopup.value "percento">
+<!ENTITY pixelsPopup.value "pixel">
+<!ENTITY previewBox.label "Anteprima immagine">
+<!ENTITY removeImageMapButton.accessKey "R">
+<!ENTITY removeImageMapButton.label "Rimuovi">
+<!ENTITY showImageLinkBorder.accessKey "b">
+<!ENTITY showImageLinkBorder.label "Visualizza un bordo attorno all'immagine per indicare la presenza del collegamento">
+<!ENTITY spacingBox.label "Spaziatura">
+<!ENTITY spacingBox.tooltip "Inserire un valore per la quantità di spazio attorno all'immagine">
+<!ENTITY title.accessKey "T">
+<!ENTITY title.label "Tooltip:">
+<!ENTITY title.tooltip "L'attributo html 'title'. Verrà visualizzato un tooltip">
+<!ENTITY topBottomEditField.accessKey "S">
+<!ENTITY topBottomEditField.label "Sopra e sotto:">
+<!ENTITY topPopup.value "alla sommità">
+<!ENTITY widthEditField.accessKey "L">
+<!ENTITY widthEditField.label "Larghezza:">
+<!ENTITY windowTitle.label "Proprietà immagine">
+<!ENTITY wrapLeftPopup.value "inserisci a sinistra">
+<!ENTITY wrapRightPopup.value "inserisci a destra">

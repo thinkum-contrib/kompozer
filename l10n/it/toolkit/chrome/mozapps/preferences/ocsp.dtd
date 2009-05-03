@@ -1,0 +1,10 @@
+<!ENTITY window.width "53.8em">
+<!ENTITY ocspDialog.title "Verifica">
+<!ENTITY validation.ocsp.description "&brandShortName; può utilizzare il Protocollo per lo Stato dei Certificati Online (OCSP) per verificare i certificati. &brandShortName; utilizzerà OCSP come segue:">
+<!ENTITY disableOCSP.label "Non utilizzare OCSP per la verifica dei certificati">
+<!ENTITY certOCSP.label "Utilizzare OCSP per verificare solo i certificati che specificano un indirizzo a un servizio OCSP">
+<!ENTITY proxyOCSP.label "Utilizzare OCSP per verificare tutti i certificati usando questo firmatario e questo indirizzo:">
+<!ENTITY serviceURL.label "Indirizzo servizio:">
+<!ENTITY serviceURL.accesskey "I">
+<!ENTITY signingCA.label "Firmatario risposta:">
+<!ENTITY signingCA.accesskey "F">

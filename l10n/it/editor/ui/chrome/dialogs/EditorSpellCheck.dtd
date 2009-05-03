@@ -1,0 +1,32 @@
+<!ENTITY addToUserDictionaryButton.accessKey "A">
+<!ENTITY addToUserDictionaryButton.label "Aggiungi vocabolo">
+<!ENTITY checkwordButton.accessKey "n">
+<!ENTITY checkwordButton.label "Controlla vocabolo">
+<!ENTITY closeButton.accessKey "C">
+<!ENTITY closeButton.label "Chiudi">
+<!ENTITY editUserDictionaryButton.accessKey "M">
+<!ENTITY editUserDictionaryButton.label "Modifica...">
+<!ENTITY ignoreAllButton.accessKey "g">
+<!ENTITY ignoreAllButton.label "Ignora tutti">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreButton.label "Ignora">
+<!ENTITY languagePopup.accessKey "L">
+<!ENTITY languagePopup.label "Lingua:">
+<!ENTITY misspelledWord.label "Parola errata:">
+<!ENTITY moreDictionaries.label "Scarica altri">
+<!ENTITY recheckButton.accessKey "R">
+<!ENTITY recheckButton.label "Ricontrolla">
+<!ENTITY replaceAllButton.accessKey "t">
+<!ENTITY replaceAllButton.label "Sostituisci tutti">
+<!ENTITY replaceButton.accessKey "S">
+<!ENTITY replaceButton.label "Sostituisci">
+<!ENTITY sendButton.accessKey "I">
+<!ENTITY sendButton.label "Invia">
+<!ENTITY stopButton.accessKey "p">
+<!ENTITY stopButton.label "Interrompi">
+<!ENTITY suggestions.accessKey "u">
+<!ENTITY suggestions.label "Suggerimenti:">
+<!ENTITY userDictionary.label "Dizionario personale:">
+<!ENTITY windowTitle.label "Controllo ortografico">
+<!ENTITY wordEditField.accessKey "o">
+<!ENTITY wordEditField.label "Sostituisci con:">

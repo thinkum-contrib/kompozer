@@ -1,0 +1,35 @@
+<!ENTITY charset.customize.right.header "Selezionare le codifiche caratteri gestite">
+<!ENTITY langtitle.label "Lingue per le pagine web">
+<!ENTITY languages.customize.Charset.grouplabel "Codifica caratteri">
+<!ENTITY languages.customize.DefaultCharset.accesskey "C">
+<!ENTITY languages.customize.DefaultCharset.label "Codifica caratteri predefinita:">
+<!ENTITY languages.customize.active.label "Lingue in ordine di preferenza:">
+<!ENTITY languages.customize.add.label "Aggiungi">
+<!ENTITY languages.customize.add.title.label "Inserimento lingua">
+<!ENTITY languages.customize.addButton.accesskey "g">
+<!ENTITY languages.customize.addButton.label "Aggiungi...">
+<!ENTITY languages.customize.additional.label "Set di caratteri disponibili">
+<!ENTITY languages.customize.available.label "Lingue:">
+<!ENTITY languages.customize.cancel.label "Annulla">
+<!ENTITY languages.customize.deleteButton.accesskey "R">
+<!ENTITY languages.customize.deleteButton.label "Rimuovi">
+<!ENTITY languages.customize.engOption.label "Inglese">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.lHeader "Lingue">
+<!ENTITY languages.customize.left.header "Codifica caratteri">
+<!ENTITY languages.customize.moveDown.accesskey "b">
+<!ENTITY languages.customize.moveDown.label "Muovi in basso">
+<!ENTITY languages.customize.moveUp.accesskey "M">
+<!ENTITY languages.customize.moveUp.label "Muovi in alto">
+<!ENTITY languages.customize.ok.label "OK">
+<!ENTITY languages.customize.others.accesskey "A">
+<!ENTITY languages.customize.others.examples "es.: en-bz, ar-jo">
+<!ENTITY languages.customize.others.label "Altri:">
+<!ENTITY languages.customize.prefAddLangDescript "Selezionare una o più lingue da aggiungere.">
+<!ENTITY languages.customize.prefLangDescript "Le pagine web sono a volte disponibili in più lingue. Scegliere le lingue con cui mostrare le pagine web, in ordine di preferenza.">
+<!ENTITY languages.customize.rHeader "Lingue in cui sono mostrate le pagine web">
+<!ENTITY languages.customize.remove.label "Rimuovi">
+<!ENTITY languages.customize.reorder.label "Riordina">
+<!ENTITY languages.customize.save.label "Salva">
+<!ENTITY languages.customize.save.popup "Riavviare il browser per rendere effettive le modifiche...">
+<!ENTITY languages.customize.title.label "Personalizza lingue">

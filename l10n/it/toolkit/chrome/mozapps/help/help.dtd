@@ -1,0 +1,38 @@
+<!ENTITY printCmd.commandkey "p">
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY backButton.label "Indietro">
+<!ENTITY backButton.accesskey "I">
+<!ENTITY backButton.tooltip "Torna indietro una pagina">
+<!ENTITY forwardButton.label "Avanti">
+<!ENTITY forwardButton.accesskey "A">
+<!ENTITY forwardButton.tooltip "Vai avanti una pagina">
+<!ENTITY copyCmd.label "Copia">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY selectAllCmd.label "Seleziona tutto">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "Pagina iniziale">
+<!ENTITY homeButton.tooltip "Vai alla pagina iniziale della guida">
+<!ENTITY printButton.label "Stampa">
+<!ENTITY printButton.tooltip "Stampa questa pagina">
+<!ENTITY closeWindow.commandkey "w">
+<!ENTITY throbberItem.title "Indicatore attività">
+<!ENTITY throbber.tooltip "Aiuto su come utilizzare la guida">
+<!ENTITY searchtab.label "Cerca">
+<!ENTITY searchtab.accesskey "C">
+<!ENTITY toctab.label "Contenuti">
+<!ENTITY toctab.accesskey "C">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY helpSearch.commandkey "k">
+<!ENTITY zLevel.label "Sempre in primo piano">
+<!ENTITY zLevel.accesskey "S">
+<!ENTITY textZoomReduceBtn.label "Diminuisci dimensione testo">
+<!ENTITY textZoomReduceBtn.accesskey "D">
+<!ENTITY textZoomEnlargeBtn.label "Aumenta dimensione testo">
+<!ENTITY textZoomEnlargeBtn.accesskey "A">

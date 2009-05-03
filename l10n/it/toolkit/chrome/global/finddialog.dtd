@@ -1,0 +1,20 @@
+<!ENTITY findDialog.title "Trova in questa pagina">
+<!ENTITY findDialogFrame.title "Trova in questo riquadro">
+<!ENTITY findField.label "Trova:">
+<!ENTITY findField.accesskey "v">
+<!ENTITY caseSensitiveCheckbox.label "Maiuscole/minuscole">
+<!ENTITY caseSensitiveCheckbox.accesskey "M">
+<!ENTITY wrapCheckbox.label "Riparti">
+<!ENTITY wrapCheckbox.accesskey "R">
+<!ENTITY backwardsCheckbox.label "Cerca a ritroso">
+<!ENTITY backwardsCheckbox.accesskey "C">
+<!ENTITY findField.tooltip "Inserire una o più parole da cercare">
+<!ENTITY findButton.label "Trova successivo">
+<!ENTITY findButton.accesskey "T">
+<!ENTITY cancelButton.label "Annulla">
+<!ENTITY closeButton.label "Chiudi">
+<!ENTITY up.label "Su">
+<!ENTITY up.accesskey "S">
+<!ENTITY down.label "Giù">
+<!ENTITY down.accesskey "G">
+<!ENTITY direction.label "Direzione">

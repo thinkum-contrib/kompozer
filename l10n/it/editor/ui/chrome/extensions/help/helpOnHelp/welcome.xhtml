@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    %brandDTD;
+]
+>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Come usare la finestra della guida</title>
+	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
+</table>
+<div id="contentsBox">In questa sezione:
+  <a href="#finding_the_topic_you_want">Trovare l'argomento voluto</a>
+  <a href="#retracing_your_steps">Ripercorrere la propria consultazione</a>
+  <a href="#search_tips">Suggerimenti per la ricerca</a>
+</div>
+
+<h1 id="help_window_top">Come usare la finestra della guida</h1>
+
+<p>Questa sezione descrive come usare la finestra della guida (l'intera finestra in cui sono visualizzati questo testo e la barra laterale sulla sinistra).</p>
+
+<h2 id="finding_the_topic_you_want">Trovare l'argomento voluto</h2>
+
+	<p>Mentre si visualizza la finestra della guida, fare clic sulle voci nel riquadro di sinistra per esaminarne i contenuti in modi diversi:</p>
+	<ul>
+<li><strong>Contenuti</strong>: mostra la lista degli argomenti principali.<br/>
+		  Fare clic su un argomento per leggere ci&ograve; che vi &egrave; esposto. Un doppio clic mostra i relativi sotto-argomenti.</li>
+
+		 <li><strong>Cerca</strong>: permette di ricercare ci&ograve; che interessa all'interno della Guida.<br/>
+		  Inserire una parola o una frase e premere il tasto Invio per visualizzare gli argomenti correlati. Fare clic quindi sull'argomento che si vuole consultare.<br/>
+		 Se la ricerca non d&agrave; alcun risultato, riprovare scrivendo un numero inferiore di parole o una differente combinazione di termini.</li>
+	  <li><strong>Indice</strong>: visualizza l'elenco degli argomenti in ordine alfabetico.<br/>
+
+      Fare clic su una voce dell'indice per visualizzarne le informazioni.</li>
+		 <li><strong>Glossario</strong>: elenca le definizioni in ordine alfabetico.<br/>
+		   Fare clic su una voce del glossario per visualizzare le sue definizioni.</li>
+	</ul>
+
+	<p>Per visualizzare le informazioni correlate all'argomento della guida che si sta leggendo, fare clic sui collegamenti presenti nel testo come si farebbe in una normale pagina web.</p>
+
+<h2 id="retracing_your_steps">Ripercorrere la propria consultazione</h2>
+	<p>Per ripercorrere la propria consultazione all'interno della guida, fare clic sui pulsanti nell'angolo in alto a sinistra di questa finestra:</p>
+
+	<p><img src="http://mozilla.org/projects/firefox/help/1.0/help-buttons.png" alt="" width="209" height="43"/></p>
+
+	<ul>
+	        <li>Fare clic sul pulsante  Mostra/Nascondi Barra Laterale per visualizzare e nascondere la Barra Laterale contenuta
+	          sul lato sinistro delal finestra delal guida.</li>
+		<li>Fare clic sul pulsante Indietro per ripercorrere all'indietro  le pagine consultate precedentemente. Il pulsante Indietro funziona esattamente come quello della finestra principale di &brandShortName;.</li>
+
+		<li>Fare clic sul pulsante Avanti per percorrere in avanti le pagine consultate precedentemente. Il pulsante Avanti funziona esattamente come quello della finestra principale di &brandShortName;.</li>
+		<li>Fare clic sul pulsante  Home per visualizzare la pagina di benvenuto della guida, contenente i collegamenti alle altre opzioni d'aiuto e alle risorse sul web.</li>
+	</ul>
+
+	<p>In alternativa, stampare le istruzioni che si vogliono seguire:</p>
+
+	<ul>
+		  <li>Per stampare l'intera pagina visualizzata nella finestra della guida, fare clic  sul pulsante Stampa  in alto a destra.<br/>
+
+		<img src="http://mozilla.org/projects/firefox/help/1.0/print.png" alt="" width="38" height="43"/></li>
+
+		<li>Per stampare solo una parte della pagina, selezionare la porzione di testo voluta e quindi premere il pulsante Stampa.</li>
+	</ul>
+
+<h2 id="search_tips">Suggerimenti per la ricerca</h2>
+	<p>Nel caso non si riuscisse a trovare ci&ograve; che si sta cercando ecco alcuni utili suggerimenti:</p>
+
+	<ul>
+			<li>Assicurarsi che la ricerca sia relativa a &brandShortName;; questa non &egrave; una ricerca sul web.</li>
+        	<li>Provare ad estendere la propria ricerca - non essere troppo specifici; i termini potrebbero essere espressi in modo differente.</li>
+		    <li>Evitare le generalizzazioni durante la ricerca: parole come &quot;&brandShortName;&quot;
+		  e &quot;Mozilla&quot; potrebbero dare come risultato tutte le pagine contenute nella Guida.</li>
+
+	</ul>
+
+<div class="copyrightBox"><em>29 Marzo 2005</em></div>
+<p>Copyright &copy; 2003-2004 Collaboratori al Progetto &brandShortName; Help Documentation.</p>
+
+</body>
+</html>

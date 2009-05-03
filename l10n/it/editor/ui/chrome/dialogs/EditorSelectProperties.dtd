@@ -1,0 +1,39 @@
+<!ENTITY AddOptGroup.accesskey "u">
+<!ENTITY AddOptGroup.label "Aggiungi gruppo">
+<!ENTITY AddOption.accesskey "A">
+<!ENTITY AddOption.label "Aggiungi opzione">
+<!ENTITY MoveElementDown.accesskey "g">
+<!ENTITY MoveElementDown.label "Muovi giù">
+<!ENTITY MoveElementUp.accesskey "s">
+<!ENTITY MoveElementUp.label "Muovi su">
+<!ENTITY OptGroup.label "Gruppo opzioni">
+<!ENTITY OptGroupDisabled.accesskey "D">
+<!ENTITY OptGroupDisabled.label "Disabilitato">
+<!ENTITY OptGroupLabel.accesskey "t">
+<!ENTITY OptGroupLabel.label "Etichetta:">
+<!ENTITY Option.label "Opzione">
+<!ENTITY OptionDisabled.accesskey "D">
+<!ENTITY OptionDisabled.label "Disabilitato">
+<!ENTITY OptionSelected.accesskey "S">
+<!ENTITY OptionSelected.label "Selezionato">
+<!ENTITY OptionText.accesskey "T">
+<!ENTITY OptionText.label "Testo:">
+<!ENTITY OptionValue.accesskey "o">
+<!ENTITY OptionValue.label "Valore:">
+<!ENTITY RemoveElement.accesskey "E">
+<!ENTITY RemoveElement.label "Elimina">
+<!ENTITY Select.label "Lista di selezione">
+<!ENTITY SelectDisabled.accesskey "D">
+<!ENTITY SelectDisabled.label "Disabilitato">
+<!ENTITY SelectMultiple.accesskey "m">
+<!ENTITY SelectMultiple.label "Selezione multipla">
+<!ENTITY SelectName.accesskey "N">
+<!ENTITY SelectName.label "Nome lista:">
+<!ENTITY SelectSize.accesskey "z">
+<!ENTITY SelectSize.label "Altezza:">
+<!ENTITY SelectTabIndex.accesskey "I">
+<!ENTITY SelectTabIndex.label "Indice tabulazione:">
+<!ENTITY SelectedHeader.label "Selezionato">
+<!ENTITY TextHeader.label "Testo">
+<!ENTITY ValueHeader.label "Valore">
+<!ENTITY windowTitle.label "Proprietà lista di selezione">

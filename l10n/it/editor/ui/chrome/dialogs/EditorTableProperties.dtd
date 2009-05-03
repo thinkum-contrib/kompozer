@@ -1,0 +1,72 @@
+<!ENTITY AlignCenter.label "Centro">
+<!ENTITY AlignLeft.label "Sinistra">
+<!ENTITY AlignRight.label "Destra">
+<!ENTITY applyBeforeChange1.label "Saranno applicati i cambiamenti correnti">
+<!ENTITY applyBeforeChange2.label "prima di cambiare la selezione.">
+<!ENTITY backgroundColor.accessKey "r">
+<!ENTITY backgroundColor.label "Colore di sfondo:">
+<!ENTITY cellAlignAtChar.label "Al caratteri:">
+<!ENTITY cellAlignBottom.label "In basso">
+<!ENTITY cellAlignJustify.label "Giustifica">
+<!ENTITY cellAlignMiddle.label "Al centro">
+<!ENTITY cellAlignTop.label "In alto">
+<!ENTITY cellApplyBeforeMove.label "Applica le modifiche prima cambiare selezione">
+<!ENTITY cellColSpan.label "Spazio tra colonne:">
+<!ENTITY cellContentAlignment.label "Allineamento contenuto">
+<!ENTITY cellHeader.label "Intestazione">
+<!ENTITY cellHorizontal.accessKey "O">
+<!ENTITY cellHorizontal.label "Orizzontale:">
+<!ENTITY cellInheritColor.label "(Colore della tabella visibile in trasparenza)">
+<!ENTITY cellKeepCurrentData.label "Mantiene impostazioni correnti">
+<!ENTITY cellNoWrap.label "Mantieni in una riga">
+<!ENTITY cellNormal.label "Normale">
+<!ENTITY cellPercent.label "percentuale tabella">
+<!ENTITY cellRowSpan.label "Spazio tra righe:">
+<!ENTITY cellSelectCell.label "Cella">
+<!ENTITY cellSelectColumn.label "Colonna">
+<!ENTITY cellSelectNext.accessKey "S">
+<!ENTITY cellSelectNext.label "Successiva">
+<!ENTITY cellSelectPrevious.accessKey "P">
+<!ENTITY cellSelectPrevious.label "Precedente">
+<!ENTITY cellSelectRow.label "Riga">
+<!ENTITY cellSelection.label "Selezione">
+<!ENTITY cellStyle.accessKey "t">
+<!ENTITY cellStyle.label "Stile cella:">
+<!ENTITY cellTab.label "Celle">
+<!ENTITY cellTextWrap.accessKey "c">
+<!ENTITY cellTextWrap.label "A capo testo:">
+<!ENTITY cellUseCheckboxHelp.label "Usare le caselle di selezione per determinare quali proprietà saranno applicate alle celle selezionate.">
+<!ENTITY cellVertical.accessKey "e">
+<!ENTITY cellVertical.label "Verticale:">
+<!ENTITY cellWrap.label "Manda a capo">
+<!ENTITY pixels.label "pixel">
+<!ENTITY size.label "Dimensioni">
+<!ENTITY tableAlignment.accessKey "n">
+<!ENTITY tableAlignment.label "Allineamento tabella:">
+<!ENTITY tableBorderSpacing.label "Bordi e spaziatura">
+<!ENTITY tableBorderWidth.accessKey "b">
+<!ENTITY tableBorderWidth.label "Larghezza bordo:">
+<!ENTITY tableCaption.accessKey "e">
+<!ENTITY tableCaption.label "Legenda:">
+<!ENTITY tableCaptionAbove.label "Sopra la tabella">
+<!ENTITY tableCaptionBelow.label "Sotto la tabella">
+<!ENTITY tableCaptionLeft.label "Prima della tabella">
+<!ENTITY tableCaptionNone.label "Nessuna">
+<!ENTITY tableCaptionRight.label "Dopo della tabella">
+<!ENTITY tableColumns.accessKey "C">
+<!ENTITY tableColumns.label "Colonne:">
+<!ENTITY tableHeight.accessKey "z">
+<!ENTITY tableHeight.label "Altezza:">
+<!ENTITY tableInheritColor.label "(Colore della pagina visibile in trasparenza)">
+<!ENTITY tablePadding.accessKey "M">
+<!ENTITY tablePadding.label "Margini:">
+<!ENTITY tablePxBetwBrdrCellContent.label "pixel tra i bordi e i contenuti della cella">
+<!ENTITY tablePxBetwCells.label "pixel tra le celle">
+<!ENTITY tableRows.accessKey "R">
+<!ENTITY tableRows.label "Righe:">
+<!ENTITY tableSpacing.accessKey "S">
+<!ENTITY tableSpacing.label "Spaziatura:">
+<!ENTITY tableTab.label "Tabella">
+<!ENTITY tableWidth.accessKey "L">
+<!ENTITY tableWidth.label "Larghezza:">
+<!ENTITY tableWindow.title "Proprietà tabella">
