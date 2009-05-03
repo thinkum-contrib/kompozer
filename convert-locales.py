@@ -29,13 +29,6 @@
 import os
 import sys
 
-
-###############################################################################
-#                                                                             #
-#     Global constants                                                        #
-#                                                                             #
-###############################################################################
-
 # preferences: adapt these lines to your config
 L10N_ROOT     = "l10n/"
 CHROME_ROOT   = "../chrome/"
@@ -86,10 +79,10 @@ def xcopy(source, dest):
 
 # import relevant files in the Mozilla CVS trunk (= 1.8.1) to the KompoZer l10n repository
 # cvs -d :pserver:anonymous@cvs-mirror.mozilla.org/l10n co l10n
-def l10nCopy(sourceDir, destDir):
-	print "copying " + sourceDir + " to " + destDir + ", following " + INDEX_FILE
+def l10nCopy(sourceDir, destDir, indexFile):
+	print "copying " + sourceDir + " to " + destDir + " following " + indexFile
 
-	infile = open(INDEX_FILE, "r")
+	infile = open(indexFile, "r")
 	for line in infile:
 
 		# ignore line if l10n is not defined
@@ -105,10 +98,10 @@ def l10nCopy(sourceDir, destDir):
 			xcopy(source, dest)
 
 # import chrome files into the l10n repository
-def chrome2l10n(chromeDir, l10nDir):
-	print "importing " + chromeDir + " to " + l10nDir + ", following " + INDEX_FILE
+def chrome2l10n(chromeDir, l10nDir, indexFile):
+	print "importing " + chromeDir + " to " + l10nDir + " following " + indexFile
 
-	infile = open(INDEX_FILE, "r")
+	infile = open(indexFile, "r")
 	for line in infile:
 
 		# ignore line if chrome and/or l10n is not defined
@@ -125,7 +118,7 @@ def chrome2l10n(chromeDir, l10nDir):
 
 # export chrome files from the l10n repository
 def l10n2chrome(l10nDir, chromeDir):
-	print "exporting " + l10nDir + " to " + chromeDir + ", following " + INDEX_FILE
+	print "exporting " + l10nDir + " to " + chromeDir + " following " + INDEX_FILE
 
 	infile = open(INDEX_FILE, "r")
 	for line in infile:
@@ -236,15 +229,14 @@ def usage(full):
 		print "    ./convert-locales.py make fr"
 		print 
 	print "You probably want to run:"
-	print "    ./convert-locales.py make [locale]"
-	print "where [locale] is your language identifier: de, es, fr, it, pt-BR... to generate an XPI langpack in the " + CHROME_ROOT + " directory."
+	print "    ./convert-locales.py make all"
+	print "to generate all available XPI langpacks in the " + CHROME_ROOT + " directory."
 	print 
 
 # main: parse command-line arguments
 def main():
 	if len(sys.argv) < 2:
 		usage(0)
-
 	elif len(sys.argv) == 2:
 		usage(sys.argv[1].endswith("help"))
 
@@ -252,39 +244,46 @@ def main():
 		# get command and locale arguments
 		command = sys.argv[1]
 		locale  = sys.argv[2]
+
+		# if all locales are requested, get the directory list
 		if locale == "all":
-			if command == "copy":
+			if command == "push":
+				print "'all' is not allowed with 'push'"
+				sys.exit()
+			elif command == "copy":
 				localeList = os.listdir(IMPORT_ROOT)
 			else:
 				localeList = os.listdir(L10N_ROOT)
-				print localeList
 		else:
 			localeList = []
 			localeList.append(locale)
+
+		# a specific index file may be specified for 'push' or 'copy'
+		indexFile = INDEX_FILE
+		if len(sys.argv) > 3 and (command == "push" or command == "copy"):
+			indexFile = sys.argv[3]
 
 		# process command on each locale
 		for locale in localeList:
 			# ignore 'CVS' and hidden directories
 			if os.path.isdir(L10N_ROOT + locale) and locale != "CVS" and not locale.startswith("."):
-
-				# get parameters
 				chrome_dir = CHROME_ROOT + locale
 				l10n_dir   = L10N_ROOT   + locale
-				indexFile  = INDEX_FILE
-				if len(sys.argv) > 3:
-					indexFile = sys.argv[3]
-				if len(sys.argv) > 4 and command == "push":
-					chrome_dir = sys.argv[4]
   
-				# go, go, go!
 				if (command == "copy"):
-					l10nCopy(l10n_import + sys.argv[2], l10n_dir)
+					l10nCopy(IMPORT_ROOT + locale, l10n_dir, indexFile)
+  
 				elif (command == "push"):
-					chrome2l10n(chrome_dir, l10n_dir)
+					if len(sys.argv) > 4:
+						chrome_dir = sys.argv[4]
+					chrome2l10n(chrome_dir, l10n_dir, indexFile)
+  
 				elif (command == "pull"):
 					l10n2chrome(l10n_dir, chrome_dir)
+  
 				elif (command == "make"):
 					chrome2xpi(locale)
+  
 				else:
 					print "Error: invalid command '" + command + "'"
 					print
