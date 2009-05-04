@@ -1,0 +1,41 @@
+<!ENTITY lHeader                   "Настройка за новите страници">
+<!ENTITY rHeader                   "Подразбрани за новите страници">
+
+<!ENTITY authorName.label          "Създател:">
+<!ENTITY authorName.accesskey      "С">
+<!ENTITY pageColorHeader           "Подразбран облик на страниците">
+
+<!ENTITY defaultColorsRadio.label   "Собствените цветове на четящия (Не задавай цветовете в страниците)">
+<!ENTITY defaultColors.accesskey    "ч">
+<!ENTITY customColorsRadio.label    "Използвай собствени цветове:">
+<!ENTITY customColors.accesskey     "с">
+
+<!ENTITY normalText.label           "Обикновен текст">
+<!ENTITY normalText.accesskey       "О">
+<!ENTITY linkText.label             "Връзки">
+<!ENTITY linkText.accesskey         "В">
+<!ENTITY activeLinkText.label       "Текуща връзка">
+<!ENTITY activeLinkText.accesskey   "Т">
+<!ENTITY visitedLinkText.label      "Посетена връзка">
+<!ENTITY visitedLinkText.accesskey  "П">
+<!ENTITY background.label           "Подцветка:">
+<!ENTITY background.accesskey       "П">
+<!ENTITY colon.character            ":">
+
+<!ENTITY backgroundImage.label      "Фоново изображение:">
+<!ENTITY backgroundImage.accesskey  "Ф">
+<!ENTITY chooseFile.label           "Избери файл...">
+<!ENTITY chooseFile.accesskey       "ф">
+
+<!ENTITY i18nHeader                  "Международни">
+
+<!ENTITY writingDirection.label      "Посока на писане:">
+<!ENTITY defaultDirectionRadio.label "Неуказана">
+<!ENTITY ltrDirectionRadio.label     "Отляво надясно">
+<!ENTITY rtlDirectionRadio.label     "Отдясно наляво">
+
+<!ENTITY language.label              "Език:">
+<!ENTITY languageChoiceButton.label  "Избери език">
+
+<!ENTITY defaultCharset.label        "Знаков набор:">
+<!ENTITY chooseCharsetButton.label   "Избери знаков набор">

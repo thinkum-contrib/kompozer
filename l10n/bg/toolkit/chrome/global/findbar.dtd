@@ -1,0 +1,17 @@
+<!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
+<!-- LOCALIZATION NOTE : FILE use the Find Bar. -->
+<!-- entities split out from browser.dtd -->
+<!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
+
+<!ENTITY next.label "Търсене напред">
+<!ENTITY next.accesskey "п">
+<!ENTITY next.tooltip "Търсене на следващо съвпадение на низа">
+<!ENTITY previous.label "Търсене назад">
+<!ENTITY previous.accesskey "з">
+<!ENTITY previous.tooltip "Търсене на предишно съвпадение на низа">
+<!ENTITY findCloseButton.tooltip "Затваряне на лентата">
+<!ENTITY highlight.label "Открояване на всички">
+<!ENTITY highlight.accesskey "к">
+<!ENTITY highlight.tooltiptext "Открояване на всички съвпадения на низа">
+<!ENTITY caseSensitiveCheckbox.label "Големи/малки">
+<!ENTITY caseSensitiveCheckbox.accesskey "Г">

@@ -1,0 +1,22 @@
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "Търсене в тази страница">
+<!ENTITY findDialogFrame.title "Търсене в тази рамка">
+<!ENTITY findField.label "Търсене на:">
+<!ENTITY findField.accesskey "р">
+<!ENTITY caseSensitiveCheckbox.label "Главни/малки букви">
+<!ENTITY caseSensitiveCheckbox.accesskey "б">
+<!ENTITY wrapCheckbox.label "Пренасяне">
+<!ENTITY wrapCheckbox.accesskey "П">
+<!ENTITY backwardsCheckbox.label "Търсене назад">
+<!ENTITY backwardsCheckbox.accesskey "н">
+<!ENTITY findField.tooltip "Напишете една или повече думи за търсене">
+<!ENTITY findButton.label "Търсене следващ">
+<!ENTITY findButton.accesskey "с">
+<!ENTITY cancelButton.label "Отказ">
+<!ENTITY closeButton.label "Затваряне">
+<!ENTITY up.label "Нагоре">
+<!ENTITY up.accesskey "г">
+<!ENTITY down.label "Надолу">
+<!ENTITY down.accesskey "д">
+<!ENTITY direction.label "Посока">

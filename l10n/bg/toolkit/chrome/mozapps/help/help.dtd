@@ -1,0 +1,47 @@
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+
+<!ENTITY backButton.label "Назад">
+<!ENTITY backButton.accesskey "з">
+<!ENTITY backButton.tooltip "Връщане назад с една страница">
+<!ENTITY forwardButton.label "Напред">
+<!ENTITY forwardButton.accesskey "п">
+<!ENTITY forwardButton.tooltip "Отиване напред с една страница">
+<!ENTITY copyCmd.label "Copy">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY selectAllCmd.label "Select All">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "Начало">
+<!ENTITY homeButton.tooltip "Отиване в началната страница на помощта">
+<!ENTITY printButton.label "Печат">
+<!ENTITY printButton.tooltip "Отпечатване на тази страница">
+<!ENTITY closeWindow.commandkey "W">
+
+<!ENTITY throbberItem.title "Индикатор на активността">
+<!ENTITY throbber.tooltip "Отиване в помощта на секцията Помощ">
+
+<!ENTITY searchtab.label "Търсене">
+<!ENTITY searchtab.accesskey "Т">
+<!ENTITY toctab.label "Съдържание">
+<!ENTITY toctab.accesskey "С">
+
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!ENTITY helpSearch.commandkey "k">
+
+<!ENTITY zLevel.label "Винаги най-отгоре">
+<!ENTITY zLevel.accesskey "г">
+
+<!ENTITY textZoomReduceBtn.label "Намаляване на големината на текста">
+<!ENTITY textZoomReduceBtn.accesskey "м">
+<!ENTITY textZoomEnlargeBtn.label "Увеличаване на големината на текста">
+<!ENTITY textZoomEnlargeBtn.accesskey "У">

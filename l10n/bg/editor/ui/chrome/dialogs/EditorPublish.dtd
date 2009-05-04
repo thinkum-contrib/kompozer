@@ -1,0 +1,73 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label         "Обнародване на страница">
+<!ENTITY windowTitleSettings.label "Настройки на обнародването">
+
+<!ENTITY publishTab.label         "Обнародване">
+<!ENTITY settingsTab.label        "Настройки">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label           "Име на възела (сайта):">
+<!ENTITY siteList.tooltip         "Изберете възела, в който иската да обнародвате">
+<!ENTITY newSiteButton.label      "Нов възел">
+<!ENTITY siteDirList.label        "Изберете или напишете име на папка във възела, в който ще обнародвате:">
+<!ENTITY siteDirList.tooltip      "Изберете или въведете името на отдалечената папка в която да обнародвате">
+<!ENTITY docDirList.label         "Подпапка на възела за тази страница:">
+<!ENTITY publishImgCheckbox.label "Включване на изображенията и другите файлове">
+<!ENTITY publishImgCheckbox.tooltip "Обнародвай изображенията и другите файлове, използвани от страницата">
+<!ENTITY sameLocationRadio.label  "Използвай същото разположение като на страницата">
+<!ENTITY sameLocationRadio.tooltip "Обнародва файловете на същото място, където е и страницата">
+<!ENTITY useSubdirRadio.label     "Използвай тази папка на възела:">
+<!ENTITY useSubdir.tooltip        "Изберете или въведете име на отдалечена подпапка, в която да бъдат обнародвани файловете.">
+<!ENTITY chooseDirButton.label    "Избор...">
+<!ENTITY pageTitle.label          "Заглавие на страницата:">
+<!ENTITY pageTitle.tooltip        "Въведете заглавие, което да означава страницата в прозореца  и отметките">
+<!ENTITY pageTitleExample.label   "e.g.: &quot;My Web Page&quot;">
+<!ENTITY filename.label           "Файлово име:">
+<!ENTITY filename.tooltip         "Въведете име на файла, заедно с  '.html' разширението">
+<!ENTITY filenameExample.label    "e.g,: &quot;mypage.html&quot;">
+<!ENTITY relatedDocs.label        "Други файлове за обнародване">
+<!ENTITY setDefaultButton.label   "Направи подразбрани">
+<!ENTITY setDefSiteAndDir.label   "Прави възела и папката подразбрани">
+<!ENTITY removeButton.label       "Премахни възела">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label   "Възли (сайтове)">
+<!ENTITY serverInfo.label     "Сведения за мрежовия възел">
+<!ENTITY loginInfo.label      "Обнародващ сървър">
+<!ENTITY siteName.label       "Име на възела:">
+<!ENTITY siteName.tooltip     "Прозвище, което да служи за разпознаване на възела (например: 'MySite')">
+<!ENTITY siteUrl.label        "Адрес за обанродване (например: 'ftp://ftp.myisp.com/myusername'):">
+<!ENTITY siteUrl.tooltip      "FTP:// или HTTP:// адресът, даден от интернет доставчика ви или от осигуряващия приютяването.">
+<!ENTITY browseUrl.label      "HTTP адрес на домашната ви страница (e.g.: 'http://www.myisp.com/myusername'):">
+<!ENTITY browseUrl.tooltip    "HTTP:// адресът на домашната ви папка (без файловото име)">
+<!ENTITY username.label       "Потребителско име:">
+<!ENTITY username.tooltip     "Потребителското име, което използвате за да влезете при интернет доставчика ви или от осигуряващия приютяването.">
+<!ENTITY password.label       "Парола:">
+<!ENTITY password.tooltip     "Паролата за вашето потребителско име">
+<!ENTITY savePassword.label   "Съхрани паролата">
+<!ENTITY savePassword.tooltip "Ако изберете това, паролата ви ще бъде безопасно съхранена от управителя на паролите.">
+
+<!ENTITY selectDirectory.label "Изберете папка">

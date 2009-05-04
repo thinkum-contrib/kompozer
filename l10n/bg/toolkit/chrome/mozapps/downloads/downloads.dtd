@@ -1,0 +1,46 @@
+<!ENTITY window.width "500">
+<!ENTITY window.height "300">
+
+<!ENTITY done.label "Изтеглен">
+<!ENTITY canceled.label "Прекъснато изтегляне">
+<!ENTITY installing.label "Инсталиране...">
+
+<!ENTITY starting.label "Стартиране...">
+<!ENTITY failed.label "Неуспешно изтегляне">
+
+<!ENTITY downloads.title "Изтегляне на файлове">
+
+<!ENTITY cmd.pause.label "Спиране">
+<!ENTITY cmd.pause.accesskey "С">
+<!ENTITY cmd.resume.label "Продължаване">
+<!ENTITY cmd.resume.accesskey "П">
+<!ENTITY cmd.cancel.label "Прекъсване">
+<!ENTITY cmd.cancel.accesskey "П">
+<!ENTITY cmd.show.label "Отваряне на съдържащата папка">
+<!ENTITY cmd.show.labelMac "Показване във Finder">
+<!ENTITY cmd.show.accesskey "п">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.open.label "Отваряне">
+<!ENTITY cmd.open.accesskey "О">
+<!ENTITY cmd.openWith.label "Отваряне с...">
+<!ENTITY cmd.openWith.accesskey "с">
+<!ENTITY cmd.retry.label "Наново">
+<!ENTITY cmd.retry.accesskey "Н">
+<!ENTITY cmd.remove.label "Премахване">
+<!ENTITY cmd.remove.accesskey "П">
+<!ENTITY cmd.properties.label "Свойства">
+<!ENTITY cmd.properties.accesskey "С">
+<!ENTITY cmd.info.commandKey "i">
+
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "Изчистване">
+<!ENTITY cmd.cleanUp.tooltip "Премахване на завършени, прекъснати или неуспешни изтегляния от списъка">
+<!ENTITY cmd.cleanUp.accesskey "И">
+
+<!ENTITY closeWhenDone.label "Затваряне, когато изтеглянията завършат">
+<!ENTITY closeWhenDone.tooltip "Затваряне на прозореца на изтеглянията, когато всички файлове са изтеглени">
+
+<!ENTITY filesSavedTo.label "Файловете се изтеглят в:">
+<!ENTITY showFolder.label "Показване на папката">

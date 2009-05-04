@@ -1,0 +1,11 @@
+<!ENTITY window.width "45em">
+
+<!ENTITY ocspDialog.title "Проверка">
+<!ENTITY validation.ocsp.description "&brandShortName; може да използва Online Certificate Status Protocol (OCSP), за да проверява сертификати. Това ще бъде направено по следния начин:">
+<!ENTITY disableOCSP.label "Без използване на OCSP за проверка на сертификати">
+<!ENTITY certOCSP.label "Използване на OCSP за проверка само на тези сертификати, които съдържат URL на услугата OCSP">
+<!ENTITY proxyOCSP.label "Използване на OCSP за проверка на всички сертификати, като винаги се използва следния URL и подписване:">
+<!ENTITY serviceURL.label "URL на услугата:">
+<!ENTITY serviceURL.accesskey "у">
+<!ENTITY signingCA.label "Подписващ отговорите:">
+<!ENTITY signingCA.accesskey "П">
