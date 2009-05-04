@@ -1,0 +1,27 @@
+<!ENTITY cancel "取消">
+<!ENTITY close "关闭">
+<!ENTITY completeMsg "下载完成，共下载 #2 KB（耗时 #1）">
+<!ENTITY defaultTitle "正在保存">
+<!ENTITY keep "下载完成后继续打开此窗口。">
+<!ENTITY launch "执行文件">
+<!ENTITY longTimeFormat "#1:#2:#3">
+<!ENTITY openingSource "打开来自：">
+<!ENTITY openingTarget "用：">
+<!ENTITY openingTitle "已完成#2&#037;，共 #1 项">
+<!ENTITY pause "暂停">
+<!ENTITY pausedMsg "暂停下载">
+<!ENTITY percentMsg "#1&#037;">
+<!ENTITY progress "进度：">
+<!ENTITY progressMsg "已下载 #1K 字节，共 #2K 字节（ #3K 字节/秒）">
+<!ENTITY resume "继续">
+<!ENTITY reveal "显示文件位置">
+<!ENTITY savingSource "保存来自：">
+<!ENTITY savingTarget "保存到：">
+<!ENTITY savingTitle "已保存 #2&#037; ，共 #1 项">
+<!ENTITY shortTimeFormat "#2:#3">
+<!ENTITY status "状态：">
+<!ENTITY timeElapsed "已耗时：">
+<!ENTITY timeLeft "剩余时间：">
+<!ENTITY unknownOpeningTitle "打开 #1">
+<!ENTITY unknownSavingTitle "保存 #1">
+<!ENTITY unknownTime "未知">

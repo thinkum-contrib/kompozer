@@ -1,0 +1,97 @@
+<!ENTITY addons.title "附加软件">
+<!ENTITY em.width "520">
+<!ENTITY em.height "380">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.options.commandKey ",">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY extensions.label "扩展">
+<!ENTITY themes.label "主题">
+<!ENTITY locales.label "语言">
+<!ENTITY plugins.label "插件">
+<!ENTITY update.label "更新">
+<!ENTITY install.label "安装">
+<!ENTITY cmd.checkUpdatesAll.label "查找更新">
+<!ENTITY cmd.checkUpdatesAll.accesskey "F">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "查找附加软件的更新">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "查找主题的更新">
+<!ENTITY cmd.installLocalFile.label "从本地文件安装...">
+<!ENTITY cmd.installFile.accesskey "I">
+<!ENTITY cmd.installFileAddon.tooltip "安装附加软件">
+<!ENTITY cmd.installFileTheme.tooltip "安装主题">
+<!ENTITY cmd.installUpdatesAll.label "安装更新">
+<!ENTITY cmd.installUpdatesAll.accesskey "I">
+<!ENTITY cmd.installUpdatesAll.tooltip "安装选中的更新">
+<!ENTITY cmd.restartApp.label "重启 &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey "R">
+<!ENTITY cmd.restartApp.tooltip "重新启动 &brandShortName; 以完成安装">
+<!ENTITY cmd.skip.label "跳过">
+<!ENTITY cmd.skip.accesskey "S">
+<!ENTITY cmd.skip.tooltip "跳过这些更新">
+<!ENTITY cmd.continue.label "继续">
+<!ENTITY cmd.continue.accesskey "C">
+<!ENTITY cmd.continue.tooltip "继续载入 &brandShortName;">
+<!ENTITY cmd.enableAll.label "全部启用">
+<!ENTITY cmd.enableAll.accesskey "a">
+<!ENTITY cmd.enableAll.tooltip "启用全部显示的附加软件">
+<!ENTITY cmd.disableAll.label "全部禁用">
+<!ENTITY cmd.disableAll.accesskey "s">
+<!ENTITY cmd.disableAll.tooltip "禁用全部显示的附加软件">
+<!ENTITY cmd.useTheme.label "使用主题">
+<!ENTITY cmd.useTheme.accesskey "U">
+<!ENTITY cmd.useTheme.tooltip "更换 &brandShortName; 的主题。">
+<!ENTITY cmd.options.label "选项">
+<!ENTITY cmd.options.accesskey "O">
+<!ENTITY cmd.options.tooltip "设置所选扩展的选项">
+<!ENTITY cmd.optionsUnix.label "首选项">
+<!ENTITY cmd.optionsUnix.accesskey "r">
+<!ENTITY cmd.optionsUnix.tooltip "编辑所选扩展的首选项">
+<!ENTITY cmd.enable.label "启用">
+<!ENTITY cmd.enable.accesskey "E">
+<!ENTITY cmd.enable.tooltip "&brandShortName; 重启后启用此附加软件">
+<!ENTITY cmd.disable.label "禁用">
+<!ENTITY cmd.disable.accesskey "D">
+<!ENTITY cmd.disable.tooltip "&brandShortName; 重启后禁用此附加软件">
+<!ENTITY cmd.uninstall.label "卸载">
+<!ENTITY cmd.uninstall2.accesskey "U">
+<!ENTITY cmd.uninstall2.tooltip "在 &brandShortName; 重启后卸载此附加软件">
+<!ENTITY cmd.cancelUninstall.label "取消卸载">
+<!ENTITY cmd.cancelUninstall.accesskey "C">
+<!ENTITY cmd.cancelUninstall.tooltip "取消安装附加软件">
+<!ENTITY cmd.installUpdate.label "安装更新">
+<!ENTITY cmd.installUpdate.accesskey "I">
+<!ENTITY cmd.installUpdate.tooltip "安装此附加软件的更新">
+<!ENTITY cancel.label "取消">
+<!ENTITY cancel.accesskey "C">
+<!ENTITY cmd.homepage.label "访问主页">
+<!ENTITY cmd.homepage.accesskey "H">
+<!ENTITY cmd.about2.label "关于此附加软件">
+<!ENTITY cmd.about.accesskey "A">
+<!ENTITY cmd.checkUpdate.label "查找更新">
+<!ENTITY cmd.checkUpdate.accesskey "F">
+<!ENTITY cmd.includeUpdate.label "包括更新">
+<!ENTITY cmd.includeUpdate.accesskey "n">
+<!ENTITY includeUpdate.label "包括此更新">
+<!ENTITY includeUpdate.accesskey "n">
+<!ENTITY includeUpdate.tooltip "安装更新时包括此附加软件">
+<!ENTITY needsDependencies.label "需要其他项。">
+<!ENTITY blocklisted.label "出于保护目的禁用">
+<!ENTITY toBeDisabled.label "此附加软件将在 &brandShortName; 重启后禁用。">
+<!ENTITY toBeEnabled.label "此附加软件将在 &brandShortName; 重启后启用。">
+<!ENTITY toBeInstalled.label "此附加软件将在 &brandShortName; 重启后安装。">
+<!ENTITY toBeUninstalled.label "此附加软件将在 &brandShortName; 重启后卸载。">
+<!ENTITY toBeUpgraded.label "此附加软件将在 &brandShortName; 重启后升级。">
+<!ENTITY getExtensions.label "获取扩展">
+<!ENTITY getExtensions.tooltip "从 addons.mozilla.org 获取扩展">
+<!ENTITY getThemes.label "获取主题">
+<!ENTITY getThemes.tooltip "从 addons.mozilla.org 获取主题">
+<!ENTITY previewNoThemeSelected.label "未选择主题">
+<!ENTITY previewNoPreviewImage.label "此主题中未包含预览图片">
+<!ENTITY moreInfo.label "更多信息">
+<!ENTITY closeMessage.tooltip "关闭此消息">
+<!ENTITY updateSuccess.label "成功完成更新。">
+<!ENTITY installSuccess.label "安装成功完成">
+<!ENTITY installSuccessRestart.label "重启以完成安装。">
+<!ENTITY installWaiting.label "等待...">
+<!ENTITY installIncompatibleUpdate.label "检查兼容性...">
+<!ENTITY installFinishing.label "正在安装...">
+<!ENTITY installFailure.label "安装失败">

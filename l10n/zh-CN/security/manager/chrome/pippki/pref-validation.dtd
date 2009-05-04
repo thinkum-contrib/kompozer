@@ -1,0 +1,45 @@
+<!ENTITY certOCSP.accesskey "U">
+<!ENTITY certOCSP.label "仅使用OCSP来验证已指定OCSP服务URL的证书">
+<!ENTITY crl.autoupdate.fail.cnt.label "从前的更新失败记录：">
+<!ENTITY crl.autoupdate.fail.reason.label "上次更新失败详细信息：">
+<!ENTITY crl.import.nextupdate.label "下次更新日期：">
+<!ENTITY crl.import.status.title "CRL导入状态">
+<!ENTITY crl.import.success.message "成功到入此废弃证书列表（CRL）。">
+<!ENTITY crl.issuer.label "CRL发行者：">
+<!ENTITY crl.issuer.org.label "组织：">
+<!ENTITY crl.issuer.orgunit.label "单元：">
+<!ENTITY disableOCSP.accesskey "D">
+<!ENTITY disableOCSP.label "不使用OCSP进行证书验证">
+<!ENTITY edit.button "设置">
+<!ENTITY pref.validation.title "验证">
+<!ENTITY proxyOCSP.accesskey "O">
+<!ENTITY proxyOCSP.label "通过下面的URL和签署器使用OCSP验证所有的证书：">
+<!ENTITY serviceURL.accesskey "S">
+<!ENTITY serviceURL.label "服务URL:">
+<!ENTITY signingCA.accesskey "R">
+<!ENTITY signingCA.label "回应签署器:">
+<!ENTITY validation.advanced.accesskey "S">
+<!ENTITY validation.advanced.label "设置">
+<!ENTITY validation.crl.autoupdate.enable.label "对此CRL启用自动更新">
+<!ENTITY validation.crl.autoupdate.freq.label1 "更新每隔">
+<!ENTITY validation.crl.autoupdate.freq.label2 "天">
+<!ENTITY validation.crl.autoupdate.time.label1 "更新">
+<!ENTITY validation.crl.autoupdate.time.label2 "天，下次更新之前">
+<!ENTITY validation.crl.autoupdate.title "自动CRL更新首选项">
+<!ENTITY validation.crl.autoupdate.url.label "导入CRL，从：">
+<!ENTITY validation.crl.caption "CRL">
+<!ENTITY validation.crl.description "使用CRL管理器来管理存储在您证书数据库中的废弃证书列表(CRL)。">
+<!ENTITY validation.crlautoupdateenabled.label "自动更新">
+<!ENTITY validation.crlautoupdatestatus.label "自动更新状态">
+<!ENTITY validation.crllastupdate.label "上次更新">
+<!ENTITY validation.crlmanager.label "管理 CRL">
+<!ENTITY validation.crlname.label "名称">
+<!ENTITY validation.crlnextupdate.label "下次更新">
+<!ENTITY validation.deletecrl.accesskey "D">
+<!ENTITY validation.deletecrl.label "删除">
+<!ENTITY validation.managecrls.accesskey "M">
+<!ENTITY validation.managecrls.button "管理 CRL...">
+<!ENTITY validation.ocsp.caption "OCSP">
+<!ENTITY validation.ocsp.description "&brandShortName; 能使用在线证书状态协议（OCSP）来验证证书。选择让&brandShortName; 使用OCSP的情况：">
+<!ENTITY validation.updatecrl.accesskey "U">
+<!ENTITY validation.updatecrl.label "更新">

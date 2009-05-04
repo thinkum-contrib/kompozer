@@ -1,0 +1,9 @@
+<!ENTITY newserver.examine "检查证书...">
+<!ENTITY newserver.notify "请通知该站点的管理员这个问题。">
+<!ENTITY newserver.reason1 "- 您的浏览器未辨别出发行此站点证书的证书中心。">
+<!ENTITY newserver.reason2 "- 此站点的证书因为服务器配置不正确而不完整。">
+<!ENTITY newserver.reasons "发生此错误的可能原因：">
+<!ENTITY newserver.refuse "不接受此证书，也不要连接到该网站">
+<!ENTITY newserver.remember "永远接受此证书">
+<!ENTITY newserver.session "仅在当前会话中接受此证书">
+<!ENTITY newserver.title "站点由一个未知授权认证">

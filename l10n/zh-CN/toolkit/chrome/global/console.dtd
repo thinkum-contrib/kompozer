@@ -1,0 +1,25 @@
+<!ENTITY all.accesskey "A">
+<!ENTITY all.label "所有消息">
+<!ENTITY clear.accesskey "C">
+<!ENTITY clear.label "清除">
+<!ENTITY closeCmd.commandkey "w">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.commandkey "C">
+<!ENTITY copyCmd.label "复制">
+<!ENTITY errColumn.label "列：">
+<!ENTITY errFile.label "源文件：">
+<!ENTITY errLine.label "行：">
+<!ENTITY errorConsole.title "错误控制台">
+<!ENTITY errors.accesskey "E">
+<!ENTITY errors.label "错误">
+<!ENTITY evaluate.label "查看">
+<!ENTITY focus1.commandkey "l">
+<!ENTITY focus2.commandkey "d">
+<!ENTITY messages.accesskey "M">
+<!ENTITY messages.label "消息">
+<!ENTITY sortFirst.accesskey "f">
+<!ENTITY sortFirst.label "第一>最后 排序顺序">
+<!ENTITY sortLast.accesskey "l">
+<!ENTITY sortLast.label "最后>第一 排序顺序">
+<!ENTITY warnings.accesskey "W">
+<!ENTITY warnings.label "警告">

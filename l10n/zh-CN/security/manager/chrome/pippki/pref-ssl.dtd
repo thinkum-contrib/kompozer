@@ -1,0 +1,26 @@
+<!ENTITY SSLProtocolVersions.caption "SSL 协议版本">
+<!ENTITY SSLWarnings.caption "SSL 警告">
+<!ENTITY SSLClientAuthMethod.caption "客户证书选择">
+<!ENTITY pref.ssl.title "安全套接字层 (SSL)">
+<!ENTITY enable.ssl3 "启用SSL版本3">
+<!ENTITY enable.ssl3.accesskey "3">
+<!ENTITY enable.tls "启用TLS">
+<!ENTITY enable.tls.accesskey "T">
+<!ENTITY warn.description "&brandShortName; 能警告您关于您查看的网页的安全信息。让&brandShortName;显示警告或者请求权限，当：">
+<!ENTITY warn.enteringsecure "载入支持加密的页">
+<!ENTITY warn.enteringsecure.accesskey "L">
+<!ENTITY warn.enteringweak "载入使用弱加密的页">
+<!ENTITY warn.enteringweak.accesskey "o">
+<!ENTITY warn.insecurepost "从加密页发送表单信息到未加密页">
+<!ENTITY warn.insecurepost.accesskey "S">
+<!ENTITY warn.leavingsecure "离开支持加密的页">
+<!ENTITY warn.leavingsecure.accesskey "a">
+<!ENTITY warn.secureredirect "从加密页重定向到另一加密页">
+<!ENTITY warn.secureredirecttoinsecure "从加密页重定向到另一未加密页">
+<!ENTITY warn.viewmixed "查看加密/未加密混合页">
+<!ENTITY warn.viewmixed.accesskey "V">
+<!ENTITY certselect.description "用于决定 &brandShortName; 如何为那些请求证书的web站点选择安全证书：">
+<!ENTITY certselect.auto "自动选择">
+<!ENTITY certselect.auto.accesskey "A">
+<!ENTITY certselect.ask "每次都询问">
+<!ENTITY certselect.ask.accesskey "E">

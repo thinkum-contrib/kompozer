@@ -1,0 +1,13 @@
+<!ENTITY certs.label "证书">
+<!ENTITY managecerts.accesskey "M">
+<!ENTITY managecerts.button "管理证书...">
+<!ENTITY managecerts.caption "管理证书">
+<!ENTITY managecerts.text "使用证书管理器来管理您个人的认证信息，还有其他人的认证授权信息等。">
+<!ENTITY managedevices.accesskey "S">
+<!ENTITY managedevices.button "管理安全设备...">
+<!ENTITY managedevices.caption "管理安全设备">
+<!ENTITY managedevices.text "使用此按钮来管理您的安全设备，如smart卡等。">
+<!ENTITY pref.certs.title "证书">
+<!ENTITY resetpreferences.label "重置首选项...">
+<!ENTITY resetsettings.label "重置设置">
+<!ENTITY ssl.label "SSL">

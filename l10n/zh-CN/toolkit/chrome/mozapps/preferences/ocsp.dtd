@@ -1,0 +1,10 @@
+<!ENTITY window.width "38em">
+<!ENTITY ocspDialog.title "验证">
+<!ENTITY validation.ocsp.description "&brandShortName; 能使用在线证书状态协议（OCSP）来验证证书。选择让&brandShortName; 使用OCSP的情况：">
+<!ENTITY disableOCSP.label "不使用OCSP进行证书验证">
+<!ENTITY certOCSP.label "仅对指出 OCSP 服务 URL 的证书使用 OCSP 来验证">
+<!ENTITY proxyOCSP.label "通过下面的URL和签署器使用OCSP验证所有的证书：">
+<!ENTITY serviceURL.label "服务 URL：">
+<!ENTITY serviceURL.accesskey "S">
+<!ENTITY signingCA.label "回应签署器：">
+<!ENTITY signingCA.accesskey "R">
