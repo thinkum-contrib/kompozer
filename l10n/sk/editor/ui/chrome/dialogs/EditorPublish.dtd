@@ -1,0 +1,43 @@
+<!ENTITY windowTitle.label "Publikovanie stránky">
+<!ENTITY windowTitleSettings.label "Nastavenia pre publikovanie">
+<!ENTITY publishTab.label "Publikovať">
+<!ENTITY settingsTab.label "Nastavenie">
+<!ENTITY siteList.label "Názov servera:">
+<!ENTITY siteList.tooltip "Zvoľte si server, na ktorý chcete publikovať">
+<!ENTITY newSiteButton.label "Nový server">
+<!ENTITY siteDirList.label "Vyberte alebo zadajte názov priečinka na publikačnom serveri:">
+<!ENTITY siteDirList.tooltip "Zvoľte alebo zadajte názov vzdialeného priečinka, do ktorého chcete publikovať">
+<!ENTITY docDirList.label "Priečinok na serveri pre túto stránku:">
+<!ENTITY publishImgCheckbox.label "Publikovať aj obrázky a iné súbory">
+<!ENTITY publishImgCheckbox.tooltip "Publikovať obrázky a iné súbory, na ktoré odkazuje táto stránka">
+<!ENTITY sameLocationRadio.label "Použiť to isté umiestnenie ako stránka">
+<!ENTITY sameLocationRadio.tooltip "Publikovať súbory na to isté miesto ako stránku">
+<!ENTITY useSubdirRadio.label "Použiť tento priečinok na serveri:">
+<!ENTITY useSubdir.tooltip "Zvoľte alebo zadajte názov vzdialeného priečinka, kam sa majú súbory publikovať">
+<!ENTITY chooseDirButton.label "Vybrať...">
+<!ENTITY pageTitle.label "Titulok stránky:">
+<!ENTITY pageTitle.tooltip "Zadajte titulok, ktorý bude stránku identifikovať v okne a v záložkách">
+<!ENTITY pageTitleExample.label "napríklad: &quot;Moja WWW stránka&quot;">
+<!ENTITY filename.label "Názov súboru:">
+<!ENTITY filename.tooltip "Zadajte názov súboru, vrátane '.html' pre web stránku ">
+<!ENTITY filenameExample.label "napríklad: &quot;mojastranka.html&quot;">
+<!ENTITY relatedDocs.label "Ďalšie súbory, ktoré sa budú publikovať:">
+<!ENTITY setDefaultButton.label "Nastaviť ako predvolený">
+<!ENTITY setDefSiteAndDir.label "Nastaviť ako predvolený server a priečinok">
+<!ENTITY removeButton.label "Odstrániť server">
+<!ENTITY publishSites.label "Publikačné servery">
+<!ENTITY serverInfo.label "Informácie o serveri">
+<!ENTITY loginInfo.label "Prihlasovacie informácie">
+<!ENTITY siteName.label "Názov servera:">
+<!ENTITY siteName.tooltip "Prezývka, ktorá identifikuje tento publikačný server (napríklad MojServer)">
+<!ENTITY siteUrl.label "Publikačná adresa (napríklad 'ftp://ftp.mojisp.sk/mojemeno'):">
+<!ENTITY siteUrl.tooltip "FTP:// or HTTP:// adresa, poskytnutá vaším poskytovateľom internetu alebo webhostingovou službou">
+<!ENTITY browseUrl.label "HTTP adresa vašej domovskej stránky (napríklad 'http://www.mojisp.sk/mojemeno'): ">
+<!ENTITY browseUrl.tooltip "HTTP:// adresa vášho domovského priečinka (bez názvu súboru)">
+<!ENTITY username.label "Používateľské meno:">
+<!ENTITY username.tooltip "Používateľské meno, ktorým sa prihlasujete k vášmu poskytovateľovi alebo webhostingovej službe">
+<!ENTITY password.label "Heslo:">
+<!ENTITY password.tooltip "Heslo">
+<!ENTITY savePassword.label "Uložiť heslo">
+<!ENTITY savePassword.tooltip "Zaškrtnite toto, ak chcete, aby Správca hesiel uložil toto heslo">
+<!ENTITY selectDirectory.label "Výber priečinka">

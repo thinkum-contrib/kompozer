@@ -1,0 +1,46 @@
+<!ENTITY printCmd.commandkey            "p">
+
+<!ENTITY findOnCmd.commandkey           "F">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+
+<!ENTITY backButton.label               "Naspäť">
+<!ENTITY backButton.accesskey           "N">
+<!ENTITY backButton.tooltip             "Prejde o jednu stránku naspäť">
+<!ENTITY forwardButton.label            "Dopredu">
+<!ENTITY forwardButton.accesskey        "D">
+<!ENTITY forwardButton.tooltip          "Prejde na nasledujúcu stránku">
+<!ENTITY copyCmd.label                  "Kopírovať">
+<!ENTITY copyCmd.accesskey              "K">
+<!ENTITY selectAllCmd.label             "Vybrať všetko">
+<!ENTITY selectAllCmd.accesskey         "b">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "Domov">
+<!ENTITY homeButton.tooltip "Prejde na hlavnú stránku Pomocníka">
+<!ENTITY printButton.label "Tlačiť">
+<!ENTITY printButton.tooltip "Vytlačí túto stránku">
+<!ENTITY closeWindow.commandkey "W">
+
+<!ENTITY throbberItem.title "Priebeh">
+<!ENTITY throbber.tooltip "Prejde do kapitoly Ako používať Pomocníka">
+
+<!ENTITY searchtab.label "Hľadať">
+<!ENTITY searchtab.accesskey "H">
+<!ENTITY toctab.label "Obsah">
+<!ENTITY toctab.accesskey "O">
+
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!ENTITY helpSearch.commandkey "k">
+
+<!ENTITY zLevel.label "Vždy navrchu">
+<!ENTITY zLevel.accesskey "d">
+
+<!ENTITY textZoomReduceBtn.label "Zmenšiť text">
+<!ENTITY textZoomReduceBtn.accesskey "m">
+<!ENTITY textZoomEnlargeBtn.label "Zväčšiť text">
+<!ENTITY textZoomEnlargeBtn.accesskey "v">

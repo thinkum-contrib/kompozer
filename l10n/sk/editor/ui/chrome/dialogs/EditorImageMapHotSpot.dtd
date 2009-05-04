@@ -1,0 +1,13 @@
+<!ENTITY windowTitle.label "Vlastnosti aktívneho bodu">
+<!ENTITY link.label "Odkaz">
+<!ENTITY urlFieldset.label "URL:">
+<!ENTITY altFieldset.label "Alternatívny text:">
+<!ENTITY browseButton.label "Vyhľadať...">
+<!ENTITY targetFieldset.label "Nastavenie cieľa">
+<!ENTITY target.label "Cieľ aktívneho bodu">
+<!ENTITY commonFieldset.label "Obvyklé ciele:">
+<!ENTITY none.value "(nič)">
+<!ENTITY same.value "Rovnaký rámec">
+<!ENTITY whole.value "Celá stránka">
+<!ENTITY new.value "Nové okno">
+<!ENTITY parent.value "Rodičovský rámec">

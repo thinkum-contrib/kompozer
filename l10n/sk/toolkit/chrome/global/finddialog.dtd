@@ -1,0 +1,21 @@
+<!-- extracted from finddialog.xul -->
+<!ENTITY findDialog.title "Hľadanie na tejto stránke">
+<!ENTITY findDialogFrame.title "Hľadať v rámci">
+<!ENTITY findField.label "Hľadať text:">
+<!ENTITY findField.accesskey "t">
+<!ENTITY caseSensitiveCheckbox.label "Rozlišovať malé a veľké písmená">
+<!ENTITY caseSensitiveCheckbox.accesskey "R">
+<!ENTITY wrapCheckbox.label "Hľadať dokola">
+<!ENTITY wrapCheckbox.accesskey "d">
+<!ENTITY backwardsCheckbox.label "Hľadať naspäť">
+<!ENTITY backwardsCheckbox.accesskey "n">
+<!ENTITY findField.tooltip "Zadajte jedno alebo viacero slov, ktoré sa majú nájsť">
+<!ENTITY findButton.label "Hľadať">
+<!ENTITY findButton.accesskey "H">
+<!ENTITY cancelButton.label "Zrušiť">
+<!ENTITY closeButton.label "Zavrieť">
+<!ENTITY up.label "Nahor">
+<!ENTITY up.accesskey "N">
+<!ENTITY down.label "Nadol">
+<!ENTITY down.accesskey "d">
+<!ENTITY direction.label "Smer hľadania">

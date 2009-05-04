@@ -1,0 +1,60 @@
+<!ENTITY windowTitle.label "Vlastnosti obrázka">
+<!ENTITY pixelsPopup.value "bodov">
+<!ENTITY percentPopup.value "percent">
+<!ENTITY locationEditField.label "Umiestnenie obrázka">
+<!ENTITY locationEditField.accessKey "U">
+<!ENTITY locationEditField.tooltip "Zadajte názov súboru alebo umiestnenie obrázka">
+<!ENTITY title.label "Pomocný názov:">
+<!ENTITY title.accessKey "P">
+<!ENTITY title.tooltip "HTML atribút 'title', ktorý sa zobrazí pri zastavení myši nad obrázkom">
+<!ENTITY altText.label "Alternatívny text:">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "Alternatívny text">
+<!ENTITY noAltText.label "Nepoužiť alternatívny text">
+<!ENTITY noAltText.accessKey "N">
+<!ENTITY previewBox.label "Náhľad obrázka">
+<!ENTITY MoreFewerButton.tooltip "Zobraziť viac alebo menej vlastností">
+<!ENTITY actualSize.label "Skutočná veľkosť:">
+<!ENTITY actualSizeRadio.label "Skutočná veľkosť">
+<!ENTITY actualSizeRadio.accessKey "S">
+<!ENTITY actualSizeRadio.tooltip "Vrátiť na skutočnú veľkosť obrázka">
+<!ENTITY customSizeRadio.label "Vlastná veľkosť">
+<!ENTITY customSizeRadio.accessKey "a">
+<!ENTITY customSizeRadio.tooltip "Vlastná veľkosť">
+<!ENTITY heightEditField.label "Výška">
+<!ENTITY heightEditField.accessKey "V">
+<!ENTITY widthEditField.label "Šírka">
+<!ENTITY widthEditField.accessKey "r">
+<!ENTITY constrainCheckbox.label "Obmedziť">
+<!ENTITY constrainCheckbox.accessKey "O">
+<!ENTITY constrainCheckbox.tooltip "Obmedziť">
+<!ENTITY imagemapBox.label "Mapa">
+<!ENTITY removeImageMapButton.label "Odstrániť mapu">
+<!ENTITY removeImageMapButton.accessKey "O">
+<!ENTITY editImageMapButton.label "Upraviť mapu...">
+<!ENTITY editImageMapButton.tooltip "Upraviť mapu">
+<!ENTITY alignment.label "Zarovnať text k obrázku">
+<!ENTITY bottomPopup.value "dole">
+<!ENTITY topPopup.value "hore">
+<!ENTITY centerPopup.value "v prostriedku">
+<!ENTITY wrapRightPopup.value "zalomiť doprava">
+<!ENTITY wrapLeftPopup.value "zalomiť doľava">
+<!ENTITY spacingBox.label "Rozostup">
+<!ENTITY spacingBox.tooltip "Rozostup">
+<!ENTITY leftRightEditField.label "Vľavo a vpravo">
+<!ENTITY leftRightEditField.accessKey "V">
+<!ENTITY topBottomEditField.label "Hore a dole">
+<!ENTITY topBottomEditField.accessKey "H">
+<!ENTITY borderEditField.label "Plný okraj:">
+<!ENTITY borderEditField.accessKey "P">
+<!ENTITY showImageLinkBorder.label "Zobraziť rám okolo obrázka z odkazom">
+<!ENTITY showImageLinkBorder.accessKey "b">
+<!ENTITY makePageBackgroundCheckbox.label "Na pozadie">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Na pozadie">
+<!ENTITY editImageButton.label "Upraviť obrázok">
+<!ENTITY editImageButton.tooltip "Upraviť obrázok">
+<!ENTITY imageInputTab.label "Formulár">
+<!ENTITY imageLocationTab.label "Umiestnenie">
+<!ENTITY imageDimensionsTab.label "Rozmery">
+<!ENTITY imageAppearanceTab.label "Zobrazenie">
+<!ENTITY imageLinkTab.label "Odkaz">

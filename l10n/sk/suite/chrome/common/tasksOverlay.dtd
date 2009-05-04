@@ -1,0 +1,29 @@
+<!ENTITY navigatorCmd.label "Navigátor">
+<!ENTITY navigatorCmd.accesskey "n">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY editorCmd.label "Composer">
+<!ENTITY editorCmd.accesskey "c">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY securityInfoCmd.label ".Informácie o zabezpečení">
+<!ENTITY securityInfoCmd.accesskey "z">
+<!ENTITY javaConsoleCmd.label "Konzola Javy">
+<!ENTITY javaConsoleCmd.accesskey "j">
+<!ENTITY javaScriptConsoleCmd.label "Konzola JavaScriptu">
+<!ENTITY javaScriptConsoleCmd.accesskey "s">
+<!ENTITY privacyMenu.label "Bezpečnosť a súkromie">
+<!ENTITY privacyMenu.accesskey "z">
+<!ENTITY taskNavigator.tooltip "Navigátor">
+<!ENTITY taskComposer.tooltip "Composer">
+<!ENTITY taskBar.tooltip "Stavový riadok">
+<!ENTITY webDevelopment.label "Vývojové nástroje">
+<!ENTITY webDevelopment.accesskey "V">
+<!ENTITY windowMenu.label "Okno">
+<!ENTITY windowMenu.accesskey "O">
+<!ENTITY tasksMenu.label "Nástroje">
+<!ENTITY tasksMenu.accesskey "N">
+<!ENTITY downloadManagerCmd.label "Správca sťahovania súborov">
+<!ENTITY downloadManagerCmd.accesskey "S">
+<!ENTITY switchProfileCmd.label "Prepnúť profil...">
+<!ENTITY switchProfileCmd.accesskey "e">
+<!ENTITY extensions.label "Rozšírenia">
+<!ENTITY themes.label "Témy">

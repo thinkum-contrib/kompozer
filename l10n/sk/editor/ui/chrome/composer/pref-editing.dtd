@@ -1,0 +1,33 @@
+<!ENTITY lHeader "Nastavenie novej stránky">
+<!ENTITY rHeader "Predvoľby pre nové stránky">
+<!ENTITY authorName.label "Autor:">
+<!ENTITY authorName.accesskey "u">
+<!ENTITY pageColorHeader "Vzhľad stránky">
+<!ENTITY defaultColorsRadio.label "Použiť farby čitateľa (nenastavovať farby na stránke)">
+<!ENTITY defaultColors.accesskey "f">
+<!ENTITY customColorsRadio.label "Použiť vlastné farby:">
+<!ENTITY customColors.accesskey "v">
+<!ENTITY normalText.label "Normálny text">
+<!ENTITY normalText.accesskey "N">
+<!ENTITY linkText.label "Odkaz">
+<!ENTITY linkText.accesskey "d">
+<!ENTITY activeLinkText.label "Aktívny odkaz">
+<!ENTITY activeLinkText.accesskey "A">
+<!ENTITY visitedLinkText.label "Navštívený odkaz">
+<!ENTITY visitedLinkText.accesskey "e">
+<!ENTITY background.label "Pozadie:">
+<!ENTITY background.accesskey "i">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Obrázok pozadia:">
+<!ENTITY backgroundImage.accesskey "b">
+<!ENTITY chooseFile.label "Vybrať súbor...">
+<!ENTITY chooseFile.accesskey "s">
+<!ENTITY i18nHeader "Medzinárodné nastavenia">
+<!ENTITY writingDirection.label "Smer písania:">
+<!ENTITY defaultDirectionRadio.label " Nie je určený smer">
+<!ENTITY ltrDirectionRadio.label "Z ľava do prava">
+<!ENTITY rtlDirectionRadio.label "Z prava do ľava">
+<!ENTITY language.label "Jazyk:">
+<!ENTITY languageChoiceButton.label "Vyberte jazyk ">
+<!ENTITY defaultCharset.label "Kódovanie:">
+<!ENTITY chooseCharsetButton.label "Vybrať kódovanie">

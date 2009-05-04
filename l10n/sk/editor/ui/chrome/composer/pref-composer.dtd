@@ -1,0 +1,68 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -   
+   -   
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY title.label "Composer">
+<!ENTITY lHeader "Composer">
+<!ENTITY rHeader "Nastavenie pre tvorbu nových WWW stránok.">
+<!ENTITY tableEditing.label "Úpravy tabuliek">
+<!ENTITY maintainTableStructure.label "Udržiavať rozloženie tabuľky pri vkladaní alebo mazaní buniek">
+<!ENTITY maintainTableStructure.tooltip "Zachováva pravouhlý tvar tabuľky automatickým pridávaním buniek po pridaní alebo vymazaní buniek.">
+<!ENTITY maintainStructure.accesskey "m">
+<!ENTITY savingFiles.title "Pri ukladaní alebo publikovaní súborov">
+<!ENTITY preserveExistingFormatting "Udržiavať formátovanie zdrojového kódu">
+<!ENTITY preserveExistingFormatting.accesskey "u">
+<!ENTITY preserveExistingFormatting.tooltip "Zabráni zmenám v koncoch riadkov a v pôvodnej štruktúre stránky.">
+<!ENTITY reformat.label "Preformátovať zdrojový kód HTML">
+<!ENTITY reformat.accesskey "r">
+<!ENTITY reformat.tooltip "Preformátovať značky HTML pomocou koncov riadkov a odsadenia">
+<!ENTITY saveAssociatedFiles.label "Pri ukladaní stránok ukladať aj obrázky a iné súvisiace súbory">
+<!ENTITY showPublishDialog.label "Pri publikovaní stránok vždy zobrazovať dialógové okno publikovania.">
+<!ENTITY saving "Ukladanie">
+<!ENTITY AutoSaveCheck "Automaticky ukladať každých ">
+<!ENTITY minText "minút">
+<!ENTITY exterLegend.label "Externé editory">
+<!ENTITY htmlSource "Zdrojový kód HTML:">
+<!ENTITY imageeditor "Obrázky:">
+<!ENTITY chooseButton.label "Vybrať">
+<!ENTITY recentFiles.title "Menu naposledy otvorených stránok">
+<!ENTITY documentsInMenu.accesskey "M">
+<!ENTITY documentsInMenu "Maximálny počet zobrazených stránok:">
+<!ENTITY cssEditing.label "Úpravy Cascading Style Sheets (CSS)">
+<!ENTITY useCSS.label "Používať štýly CSS namiesto HTML prvkov a atribútov ">
+<!ENTITY siteManager.label "Bočný panel">
+<!ENTITY openInNewTab.label "Vždy otvoriť dokument v novej karte">

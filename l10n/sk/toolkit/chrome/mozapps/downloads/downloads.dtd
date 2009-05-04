@@ -1,0 +1,47 @@
+<!ENTITY window.width                     "450">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "Hotovo">
+<!ENTITY canceled.label                   "Zrušené">
+<!ENTITY installing.label                 "Inštaluje sa...">
+
+<!ENTITY starting.label                   "Začína sa...">
+<!ENTITY failed.label                     "Neúspešné">
+
+<!ENTITY downloads.title                  "Sťahované súbory">
+
+<!ENTITY cmd.pause.label                  "Pozastaviť">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Pokračovať">
+<!ENTITY cmd.resume.accesskey             "r">
+<!ENTITY cmd.cancel.label                 "Zrušiť">
+<!ENTITY cmd.cancel.accesskey             "Z">
+<!ENTITY cmd.show.label                   "Otvoriť obsahujúci priečinok">
+<!ENTITY cmd.show.labelMac                "Zobraziť vo Finderi">
+<!ENTITY cmd.show.accesskey               "t">
+<!ENTITY cmd.show.accesskeyMac            "b">
+<!ENTITY cmd.open.label                   "Otvoriť">
+<!ENTITY cmd.open.accesskey               "O">
+<!ENTITY cmd.openWith.label               "Otvoriť pomocou...">
+<!ENTITY cmd.openWith.accesskey           "u">
+<!ENTITY cmd.retry.label                  "Znovu">
+<!ENTITY cmd.retry.accesskey              "n">
+<!ENTITY cmd.remove.label                 "Odstrániť">
+<!ENTITY cmd.remove.accesskey             "d">
+<!ENTITY cmd.properties.label             "Vlastnosti">
+<!ENTITY cmd.properties.accesskey         "V">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Vymazať">
+<!ENTITY cmd.cleanUp.tooltip              "Odstráni dokončené, zrušené alebo neúspešne stiahnuté súbory zo zoznamu">
+<!ENTITY cmd.cleanUp.accesskey            "a">
+  
+<!ENTITY closeWhenDone.label              "Zavrieť, keď sa sťahovanie ukončí">
+<!ENTITY closeWhenDone.tooltip            "Zatvorí okno Správcu sťahovania, keď sa skončí sťahovanie všetkých súborov">
+
+<!ENTITY filesSavedTo.label               "Všetky súbory stiahnuté do:">
+<!ENTITY showFolder.label                 "Zobraziť tento priečinok">
+

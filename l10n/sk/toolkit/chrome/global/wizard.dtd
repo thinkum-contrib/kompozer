@@ -1,0 +1,22 @@
+<!ENTITY  button-back-mac.label        "Choď späť">
+<!ENTITY  button-back-mac.accesskey    "S">
+<!ENTITY  button-next-mac.label        "Pokračovať">
+<!ENTITY  button-next-mac.accesskey    "P">
+<!ENTITY  button-finish-mac.label      "Hotovo">
+<!ENTITY  button-cancel-mac.label      "Zrušiť">
+
+<!ENTITY  button-back-unix.label       "Späť">
+<!ENTITY  button-back-unix.accesskey   "S">
+<!ENTITY  button-next-unix.label       "Ďalej">
+<!ENTITY  button-next-unix.accesskey   "a">
+<!ENTITY  button-finish-unix.label     "Dokončiť">
+<!ENTITY  button-cancel-unix.label     "Zrušiť">
+
+<!ENTITY  button-back-win.label        "&lt; Späť">
+<!ENTITY  button-back-win.accesskey    "S">
+<!ENTITY  button-next-win.label        "Ďalej &gt;">
+<!ENTITY  button-next-win.accesskey    "a">
+<!ENTITY  button-finish-win.label      "Dokončiť">
+<!ENTITY  button-cancel-win.label      "Zrušiť">
+
+

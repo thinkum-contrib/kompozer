@@ -1,0 +1,32 @@
+<!ENTITY windowTitle.label "Kontrola pravopisu">
+<!ENTITY misspelledWord.label "Chybné slovo:">
+<!ENTITY wordEditField.label "Čím nahradiť:">
+<!ENTITY wordEditField.accessKey "m">
+<!ENTITY checkwordButton.label "Otestovať slovo">
+<!ENTITY checkwordButton.accessKey "t">
+<!ENTITY suggestions.label "Návrhy:">
+<!ENTITY suggestions.accessKey "h">
+<!ENTITY ignoreButton.label "Ignorovať">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreAllButton.label "Ignorovať stále">
+<!ENTITY ignoreAllButton.accessKey "g">
+<!ENTITY replaceButton.label "Nahradiť">
+<!ENTITY replaceButton.accessKey "N">
+<!ENTITY replaceAllButton.label "Nahradiť všetky">
+<!ENTITY replaceAllButton.accessKey "v">
+<!ENTITY stopButton.label "Zastaviť">
+<!ENTITY stopButton.accessKey "s">
+<!ENTITY userDictionary.label "Osobný slovník:">
+<!ENTITY moreDictionaries.label "Stiahnuť viac">
+<!ENTITY addToUserDictionaryButton.label "Pridať slovo">
+<!ENTITY addToUserDictionaryButton.accessKey "P">
+<!ENTITY editUserDictionaryButton.label "Upraviť">
+<!ENTITY editUserDictionaryButton.accessKey "U">
+<!ENTITY recheckButton.label "Znovu skontrolovať stránku">
+<!ENTITY recheckButton.accessKey "k">
+<!ENTITY closeButton.label "Zavrieť">
+<!ENTITY closeButton.accessKey "Z">
+<!ENTITY sendButton.label "Odoslať">
+<!ENTITY sendButton.accessKey "O">
+<!ENTITY languagePopup.label "Jazyk:">
+<!ENTITY languagePopup.accessKey "J">

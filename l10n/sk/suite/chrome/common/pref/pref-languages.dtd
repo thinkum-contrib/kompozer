@@ -1,0 +1,35 @@
+<!ENTITY languages.customize.prefLangDescript "WWW stránky sú niekedy k dispozícii vo viacerých jazykoch. Vyberte si jazyky pre zobrazovanie WWW stránok a zoraďte ich podľa priority.">
+<!ENTITY languages.customize.lHeader "Jazyky">
+<!ENTITY languages.customize.rHeader "Jazyky, v ktorých sú zobrazené WWW stránky.">
+<!ENTITY langtitle.label "Jazyky pre WWW stránky">
+<!ENTITY languages.customize.prefAddLangDescript "Vyberte jazyk(y), ktorý(é) chcete pridať.">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.engOption.label "Angličtina">
+<!ENTITY languages.customize.addButton.label "Pridať...">
+<!ENTITY languages.customize.addButton.accesskey "r">
+<!ENTITY languages.customize.deleteButton.label "Odstrániť">
+<!ENTITY languages.customize.deleteButton.accesskey "d">
+<!ENTITY languages.customize.title.label "Upraviť jazyky">
+<!ENTITY languages.customize.add.title.label "Pridať jazyky">
+<!ENTITY languages.customize.left.header "Kódovanie">
+<!ENTITY charset.customize.right.header "Vyberte podporované kódovania">
+<!ENTITY languages.customize.available.label "Jazyky:">
+<!ENTITY languages.customize.active.label "Jazyky podľa priority:">
+<!ENTITY languages.customize.reorder.label "Preusporiadať">
+<!ENTITY languages.customize.remove.label "Odstrániť">
+<!ENTITY languages.customize.additional.label "Dostupné kódovanie">
+<!ENTITY languages.customize.add.label "Pridať">
+<!ENTITY languages.customize.others.label "Iné:">
+<!ENTITY languages.customize.others.accesskey "I">
+<!ENTITY languages.customize.Charset.grouplabel "Kódovanie">
+<!ENTITY languages.customize.DefaultCharset.label "Implicitné kódovanie:">
+<!ENTITY languages.customize.DefaultCharset.accesskey "I">
+<!ENTITY languages.customize.others.examples "napr.: en-bz, ar-jo">
+<!ENTITY languages.customize.cancel.label "Zrušiť">
+<!ENTITY languages.customize.save.label "Uložiť">
+<!ENTITY languages.customize.ok.label "OK">
+<!ENTITY languages.customize.save.popup "Prosím, reštartujte prehliadač, aby sa zmeny prejavili.">
+<!ENTITY languages.customize.moveUp.label "Vyššie">
+<!ENTITY languages.customize.moveUp.accesskey "v">
+<!ENTITY languages.customize.moveDown.label "Nižšie">
+<!ENTITY languages.customize.moveDown.accesskey "n">

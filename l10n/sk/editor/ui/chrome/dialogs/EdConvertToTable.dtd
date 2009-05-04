@@ -1,0 +1,9 @@
+<!ENTITY windowTitle.label "Previesť do tabuľky">
+<!ENTITY instructions1.label "Composer vytvorí nový riadok tabuľky pre každý odstavec vo označenom texte.">
+<!ENTITY instructions2.label "Zvoľte znak použitý na rozdelenie vybraného textu na stĺpce:">
+<!ENTITY commaRadio.label "Čiarka">
+<!ENTITY spaceRadio.label "Medzera">
+<!ENTITY otherRadio.label "Iný znak:">
+<!ENTITY deleteCharCheck.label "Odstrániť oddeľovací znak">
+<!ENTITY collapseSpaces.label "Ignorovať nadbytočné medzery">
+<!ENTITY collapseSpaces.tooltip "Premeniť susediace medzery na jeden oddeľovač">

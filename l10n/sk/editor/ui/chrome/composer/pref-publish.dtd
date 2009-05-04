@@ -1,0 +1,12 @@
+<!ENTITY window.title "Publikovať">
+<!ENTITY composerHeader.label "Publikovať">
+<!ENTITY maintainCheckbox.label "Udržiavať odkazy">
+<!ENTITY keepCheck.label "Obrázky so stránkou">
+<!ENTITY adjustDesc.label "Upraví odkazy tak, aby fungovali z adresy stránky. (Odkazy na lokálne stránky budú fungovať ak 
+			      existujú lokálne verzie.)           ">
+<!ENTITY saveDesc.label "Uloží kópie obrázkov k stránke. Obrázky budú vždy
+				zobrazené v lokálnej verzii stránky aj po publikovaní stránky.">
+<!ENTITY tip.label "Tip: Použite obidve voľby ak budete stránky publikovať vzdialene.">
+<!ENTITY defaultHeader.label "Implicitná adresa pre publikovanie">
+<!ENTITY publishFtp.label "Ak publikujete na FTP server, zadajte do HTML adresu pre zobrazenie výsledku:">
+<!ENTITY publishhtp.label "Ak publikujete na FTP server, zadajte do HTML adresu pre zobrazenie výsledku:">

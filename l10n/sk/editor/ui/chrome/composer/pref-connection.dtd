@@ -1,0 +1,35 @@
+<!ENTITY lHeader "Nastavenia pripojenia">
+<!ENTITY proxyTitle.label "Nastavenie proxy serverov pre prístup na Internet">
+<!ENTITY directTypeRadio.label "Priame pripojenie na Internet">
+<!ENTITY directTypeRadio.accesskey "P">
+<!ENTITY manualTypeRadio.label "Ručné  nastavenie proxy serverov">
+<!ENTITY manualTypeRadio.accesskey "R">
+<!ENTITY autoTypeRadio.label "URL pre automatické nastavenie proxy serverov:">
+<!ENTITY autoTypeRadio.accesskey "U">
+<!ENTITY configAutoconfigText.label "Adresa nastavenia (URL):">
+<!ENTITY configAutoconfigText.accesskey "A">
+<!ENTITY reload.label "Obnoviť">
+<!ENTITY reload.accesskey "O">
+<!ENTITY ftp.label "FTP Proxy:">
+<!ENTITY ftp.accesskey "f">
+<!ENTITY gopher.label "Gopher Proxy:">
+<!ENTITY gopher.accesskey "g">
+<!ENTITY http.label "HTTP Proxy:">
+<!ENTITY http.accesskey "h">
+<!ENTITY ssl.label "SSL Proxy:">
+<!ENTITY ssl.accesskey "s">
+<!ENTITY socks.label "SOCKS Server:">
+<!ENTITY socks.accesskey "S">
+<!ENTITY socks4.label "SOCKS v4">
+<!ENTITY socks4.accesskey "k">
+<!ENTITY socks5.label "SOCKS v5">
+<!ENTITY socks5.accesskey "v">
+<!ENTITY port.label "Port:">
+<!ENTITY HTTPport.accesskey "p">
+<!ENTITY SSLport.accesskey "o">
+<!ENTITY FTPport.accesskey "r">
+<!ENTITY gopherPort.accesskey "">
+<!ENTITY SOCKSport.accesskey "t">
+<!ENTITY noproxy.label "Nepoužívať proxy pre:">
+<!ENTITY noproxy.accesskey "N">
+<!ENTITY noproxyExplain.label "Príklad: .mozilla.org, .net.nz">

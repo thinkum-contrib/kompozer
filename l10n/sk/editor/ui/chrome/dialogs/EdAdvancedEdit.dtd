@@ -1,0 +1,13 @@
+<!ENTITY WindowTitle.label "Editor vlastností pre pokročilých">
+<!ENTITY AttName.label "Atribút: ">
+<!ENTITY AttValue.label "Hodnota:">
+<!ENTITY PropertyName.label "Vlastnosť:">
+<!ENTITY currentattributesfor.label "Aktuálne atribúty pre:">
+<!ENTITY tree.attributeHeader.label "Atribút">
+<!ENTITY tree.propertyHeader.label "Vlastnosť">
+<!ENTITY tree.valueHeader.label "Hodnota">
+<!ENTITY tabHTML.label "HTML atribúty">
+<!ENTITY tabCSS.label "Vložený štýl">
+<!ENTITY tabJSE.label "Udalosti JavaScriptu">
+<!ENTITY editAttribute.label "Kliknutím upravíte hodnotu položky">
+<!ENTITY removeAttribute.label "Odstrániť">
