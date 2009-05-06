@@ -4,13 +4,13 @@
   <Description about="urn:mozilla:install-manifest"
                em:id="langpack-@AB_CD@@kompozer.net"
                em:name="Language Pack (@AB_CD@)"
-               em:version="0.7.99.3"
+               em:version="0.8a3"
                em:type="8">
     <em:targetApplication>
       <Description>
         <em:id>{136c295a-4a5a-41cf-bf24-5cee526720d5}</em:id>
         <em:minVersion>0.7.99.3</em:minVersion>
-        <em:maxVersion>0.7.99.3</em:maxVersion>
+        <em:maxVersion>0.7.8a3</em:maxVersion>
       </Description>
     </em:targetApplication>
   </Description>

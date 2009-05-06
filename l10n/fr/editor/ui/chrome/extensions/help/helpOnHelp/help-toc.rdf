@@ -5,8 +5,8 @@
   <rdf:Description about="urn:root">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description ID="use-help" nc:name="Utiliser la fenêtre d'Aide"
-                  nc:link="welcome.xhtml"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help" nc:name="Utilisation de la fenêtre d'aide" 
+                  nc:link="chrome://help/locale/welcome.xhtml"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
@@ -14,9 +14,8 @@
   <rdf:Description about="#use-help">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="Trouver une rubrique" nc:link="welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="use-help-retracing-your-steps" nc:name="Naviguer dans l'Aide" nc:link="welcome.xhtml#retracing_your_steps"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="use-help-search" nc:name="Astuces de recherche dans l'Aide" nc:link="welcome.xhtml#search_tips"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="Recherche d'un sujet" nc:link="chrome://help/locale/welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-search" nc:name="Astuces de recherche" nc:link="chrome://help/locale/welcome.xhtml#search_tips"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>

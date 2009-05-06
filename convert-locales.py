@@ -31,8 +31,8 @@ import sys
 
 # preferences: adapt these lines to your config
 L10N_ROOT     = "l10n/"
-CHROME_ROOT   = "../chrome/"
-IMPORT_ROOT   = "../l10n.CVS/"
+IMPORT_ROOT   = "l10n.CVS/"
+CHROME_ROOT   = "chrome/"
 INDEX_FILE    = "index.mn"
 
 # these files should be in the l10n directory
@@ -178,7 +178,7 @@ def chrome2xpi(locale):
 	# make an XPI
 	os.chdir(tmpDir)
 	shell("zip -qr " + xpiFile + " *")
-	shell("mv " + xpiFile + " ..")
+	shell("mv " + xpiFile + " " + cwd)
 
 	# remove temp files
 	os.chdir("..")
