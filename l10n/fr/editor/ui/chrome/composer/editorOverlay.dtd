@@ -103,8 +103,8 @@
 
 <!-- Edit menu items -->
 
-<!ENTITY editMenu.label "Edition">
-<!ENTITY editmenu.accesskey "E">
+<!ENTITY editMenu.label "Édition">
+<!ENTITY editmenu.accesskey "n">
 <!ENTITY pasteNoFormatting.label "Coller sans mise en forme">
 <!ENTITY pasteNoFormatting.accesskey "m">
 <!ENTITY pasteAs.label "Coller en tant que…">
@@ -139,7 +139,7 @@
 <!ENTITY findCmd.label "Rechercher et remplacer…">
 <!ENTITY editfind.accesskey "R">
 <!ENTITY editfind.keybinding "f">
-<!ENTITY editfind.keybinding2 "VK_F19">                                         
+<!ENTITY editfind.keybinding2 "VK_F19">
 <!ENTITY findAgainCmd.label "Rechercher à nouveau">
 <!ENTITY editfindnext.accesskey "n">
 <!ENTITY editfindnext.keybinding "g">
@@ -171,7 +171,7 @@
 <!ENTITY viewParagraphMarks.label "Retour à la ligne">
 <!ENTITY viewparagraphmarks.accesskey "i">
 <!ENTITY blockOutlines.label "Mise en évidence des blocs">
-<!ENTITY blockoutlines.accesskey "n">
+<!ENTITY blockoutlines.accesskey "v">
 <!ENTITY viewRulersCmd.label "Règles">
 <!ENTITY viewrulerscmd.accesskey "r">
 
@@ -456,7 +456,7 @@
 
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tableau">
-<!ENTITY tablemenu.accesskey "b">
+<!ENTITY tablemenu.accesskey "T">
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Sélectionner">
 <!ENTITY tableselectmenu.accesskey "s">
@@ -615,10 +615,10 @@
 <!-- Display Mode toolbar and View menu items -->
 <!ENTITY NormalModeTab.label "Normal">
 <!ENTITY NormalMode.label "Mode d'édition normal">
-<!ENTITY NormalMode.accesskey "n">
+<!ENTITY NormalMode.accesskey "M">
 <!ENTITY NormalMode.tooltip "Afficher les bordures de tableau et les ancres">
 <!ENTITY AllTagsMode.label "Balises HTML">
-<!ENTITY AllTagsMode.accesskey "a">
+<!ENTITY AllTagsMode.accesskey "B">
 <!ENTITY AllTagsMode.tooltip "Afficher des icônes pour toutes les balises HTML">
 
 <!-- Edit Mode toolbar and View menu items -->
@@ -626,7 +626,7 @@
 <!ENTITY DesignMode.accesskey "C">
 <!ENTITY DesignMode.tooltip "Mode d'édition normal">
 <!ENTITY SplitMode.label "Mixte">
-<!ENTITY SplitMode.accesskey "D">
+<!ENTITY SplitMode.accesskey "x">
 <!ENTITY SplitMode.tooltip "Afficher le code source HTML de l'élément courant">
 <!ENTITY HTMLSourceMode.label "Source HTML">
 <!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
@@ -634,7 +634,7 @@
 <!ENTITY HTMLSourceMode.accesskey "h">
 <!ENTITY HTMLSourceMode.tooltip "Éditer la source HTML">
 <!ENTITY PreviewMode.label "Aperçu">
-<!ENTITY PreviewMode.accesskey "p">
+<!ENTITY PreviewMode.accesskey "A">
 <!ENTITY PreviewMode.tooltip "Afficher en WYSIWYG (pas d'icône pour les balises invisibles)">
 
 <!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
@@ -681,7 +681,7 @@
 
 <!-- Smart Widgets menu -->
 <!ENTITY insertSmartWidgetsMenu.label   "Autres insertions">
-<!ENTITY madeWithNvu.label              "Bouton « Made with &brandShortName; »">
+<!ENTITY madeWithNvu.label              "Bouton « Créé avec &brandShortName; »">
 <!ENTITY insertCalendarSW.label         "Calendrier">
 
 <!-- Toolbar customization -->
@@ -714,7 +714,7 @@
 
 <!-- Help menu -->
 <!ENTITY helpMenu.label           "Aide">
-<!ENTITY helpmenu.accesskey       "A">
+<!ENTITY helpmenu.accesskey       "e">
 
 <!ENTITY nvuComMenu.label          "Site Web de &brandShortName; (en)">
 <!ENTITY nvucommenu.accesskey      "K">
