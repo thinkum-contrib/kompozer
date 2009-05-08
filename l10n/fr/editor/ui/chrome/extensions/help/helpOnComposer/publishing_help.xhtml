@@ -6,29 +6,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
 <title>Publier des pages Web avec &brandShortName;</title>
-<link rel="stylesheet" type="text/css" href="help-fr.css"/>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
-<script type="text/javascript">
-var isDisplayed = true;
 
-function togglePanel() {
-  isDisplayed = !isDisplayed;
-  var displayValue = isDisplayed ? "display: block" : "display: none";
-  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
-
-  document.getElementById("contentsBox").setAttribute("style", displayValue);
-  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-}
-</script>
-
-<table width="100%" id="navTable">
-<tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Montrer/cacher</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Centre d'aide</span></td>
-</tr>
-</table>
+#include topnav.inc
 
 <div id="contentsBox">Dans cette section&nbsp;:
    <a href="#publishing_a_document">Publier un document</a>

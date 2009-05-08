@@ -6,22 +6,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
 <title>Cr&eacute;er des pages Web avec &brandShortName;</title>
-<link rel="stylesheet" type="text/css" href="help-fr.css" />
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
-<script type="text/javascript">
-var isDisplayed = true;
 
-function togglePanel() {
-  isDisplayed = !isDisplayed;
-  var displayValue = isDisplayed ? "display: block" : "display: none";
-  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
-
-  document.getElementById("contentsBox").setAttribute("style", displayValue);
-  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-}
-</script>
+#include topnav.inc
 
 <table width="100%" id="navTable">
 <tr>

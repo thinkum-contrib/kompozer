@@ -43,7 +43,7 @@
 ]>
 <rss version="0.91">
   <channel>
-    <title>&brandShortName; tips</title>
+    <title>Astuces de &brandShortName;</title>
     <link>http://kompozer.sourceforge.net/</link>
     <description>Astuce du jour de &brandShortName;</description>
     <language>fr</language>
@@ -51,7 +51,7 @@
     <item>
       <title>…vous pouvez déplacer des éléments ?</title>
       <description>Placez le curseur dans le bloc que vous voulez déplacer et
-                   cliquez sur le bouton Layer pour rendre le bloc déplaçable.
+                   cliquez sur le bouton « Dissocier du texte » pour rendre le bloc déplaçable.
       </description>
     </item>
   
