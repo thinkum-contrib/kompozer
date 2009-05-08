@@ -25,7 +25,7 @@
 <!-- These strings are for use specifically in the editor's image map dialog. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Éditeur d'image map">
+<!ENTITY windowTitle.label "Éditeur d'image">
 
 <!-- Menu Items -->
 <!-- File menu -->
@@ -37,8 +37,8 @@
 <!ENTITY mapfileclose.accesskey "F">
 
 <!-- Edit menu -->
-<!ENTITY mapeditMenu.label "Edition">
-<!ENTITY mapeditmenu.accesskey "E">
+<!ENTITY mapeditMenu.label "Édition">
+<!ENTITY mapeditmenu.accesskey "n">
 <!ENTITY cutCmd.label "Couper">
 <!ENTITY mapeditcut.accesskey "o">
 <!ENTITY copyCmd.label "Copier">
@@ -70,7 +70,7 @@
 
 <!-- Help menu -->
 <!ENTITY maphelpMenu.label "Aide">
-<!ENTITY maphelpmenu.accesskey "A">
+<!ENTITY maphelpmenu.accesskey "e">
 <!ENTITY aboutCmd.label "À propos de…">
 <!ENTITY about.accesskey "b">
 

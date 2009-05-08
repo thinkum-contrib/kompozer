@@ -175,7 +175,7 @@
   <rdf:Description about="#comp-doc-publish-settings">
     <nc:subheadings>
       <rdf:Seq>
-	<rdf:li> <rdf:Description ID="comp-doc-publish-settings-publish" nc:name="Publier une page - Edition"  nc:link="publishing_help.xhtml#publish_page_publish"/> </rdf:li>
+	<rdf:li> <rdf:Description ID="comp-doc-publish-settings-publish" nc:name="Publier une page - Édition"  nc:link="publishing_help.xhtml#publish_page_publish"/> </rdf:li>
 	<rdf:li> <rdf:Description ID="comp-doc-publish-settings-settings" nc:name="Publier une page - Paramètres"  nc:link="publishing_help.xhtml#publish_page_settings"/> </rdf:li>
 	<rdf:li> <rdf:Description ID="comp-doc-publish-settings-publish-settings" nc:name="Paramètres de publication"  nc:link="publishing_help.xhtml#publish_settings"/> </rdf:li>	
       </rdf:Seq>
@@ -228,7 +228,7 @@
      <nc:subheadings>
        <rdf:Seq>
          <rdf:li> <rdf:Description ID="comp-doc-menu-file" nc:name="Fichier" nc:link="menu_reference.xhtml#file"/> </rdf:li>
-         <rdf:li> <rdf:Description ID="comp-doc-menu-edit" nc:name="Edition" nc:link="menu_reference.xhtml#edit"/> </rdf:li>
+         <rdf:li> <rdf:Description ID="comp-doc-menu-edit" nc:name="Édition" nc:link="menu_reference.xhtml#edit"/> </rdf:li>
          <rdf:li> <rdf:Description ID="comp-doc-menu-view" nc:name="Affichage" nc:link="menu_reference.xhtml#view"/> </rdf:li>
          <rdf:li> <rdf:Description ID="comp-doc-menu-insert" nc:name="Insertion" nc:link="menu_reference.xhtml#insert"/> </rdf:li>
          <rdf:li> <rdf:Description ID="comp-doc-menu-format" nc:name="Format" nc:link="menu_reference.xhtml#format"/> </rdf:li>
