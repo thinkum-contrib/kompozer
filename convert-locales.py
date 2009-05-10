@@ -214,7 +214,7 @@ def usage(full):
 		print "    default is '" + INDEX_FILE + "'"
 		print 
 		print "source:"
-		print "    optional source directory for the [push] commands"
+		print "    optional source directory for the [copy|push] commands"
 		print "    will be used instead of the locale in the chrome-path directory"
 		print 
 		print "current settings:"
@@ -227,6 +227,10 @@ def usage(full):
 		print "    ./convert-locales.py push en-US"
 		print "    ./convert-locales.py pull fr"
 		print "    ./convert-locales.py make fr"
+		print 
+	else:
+		print "To get the full help, please use:"
+		print "    ./convert-locales.py help"
 		print 
 	print "You probably want to run:"
 	print "    ./convert-locales.py make all"
@@ -245,51 +249,52 @@ def main():
 		command = sys.argv[1]
 		locale  = sys.argv[2]
 
-		# if all locales are requested, get the directory list
-		rootDir = L10N_ROOT
-		if command == "copy":
-			rootDir = IMPORT_ROOT
-		if locale == "all":
-			if command == "push":
-				print "'all' is not allowed with 'push'"
+		# 'push' and 'copy' put files into the 'l10n' directory
+		# and may get two additional parameters: index and source
+		if command == "push" or command == "copy":
+			if locale == "all":
+				print "'all' is not allowed with '" + command + "'"
 				sys.exit()
+			# default parameters
+			index_file = INDEX_FILE
+			import_dir = IMPORT_ROOT + locale
+			chrome_dir = CHROME_ROOT + locale
+			l10n_dir   = L10N_ROOT   + locale
+			# specific parameters
+			if len(sys.argv) > 3:
+				index_file = sys.argv[3]
+			if len(sys.argv) > 4:
+				import_dir = sys.argv[4]
+				chrome_dir = sys.argv[4]
+			# process command on the requested locale
+			if command == "copy" and os.path.isdir(import_dir):
+				l10nCopy(import_dir, l10n_dir, index_file)
+			elif command == "push" and os.path.isdir(chrome_dir):
+				chrome2l10n(chrome_dir, l10n_dir, index_file)
+			sys.exit()
+
+		# 'pull' and 'make' read files from the 'l10n' directory
+		# and may get 'all' as locale identifier
+		elif command == "pull" or command == "make":
+			if locale == "all":
+				localeList = os.listdir(L10N_ROOT)
 			else:
-				localeList = os.listdir(rootDir)
+				localeList = []
+				localeList.append(locale)
+			# process command on each locale (ignore 'CVS' and hidden directories)
+			for locale in localeList:
+				if os.path.isdir(L10N_ROOT + locale) and locale != "CVS" and not locale.startswith("."):
+					if (command == "pull"):
+						l10n2chrome(L10N_ROOT + locale, CHROME_ROOT + locale)
+					elif (command == "make"):
+						chrome2xpi(locale)
+			sys.exit()
+    
 		else:
-			localeList = []
-			localeList.append(locale)
-
-		# a specific index file may be specified for 'push' or 'copy'
-		indexFile = INDEX_FILE
-		if len(sys.argv) > 3 and (command == "push" or command == "copy"):
-			indexFile = sys.argv[3]
-
-		# process command on each locale
-		for locale in localeList:
-			# ignore 'CVS' and hidden directories
-			if os.path.isdir(rootDir + locale) and locale != "CVS" and not locale.startswith("."):
-				chrome_dir = CHROME_ROOT + locale
-				l10n_dir   = L10N_ROOT   + locale
-  
-				if (command == "copy"):
-					l10nCopy(IMPORT_ROOT + locale, l10n_dir, indexFile)
-  
-				elif (command == "push"):
-					if len(sys.argv) > 4:
-						chrome_dir = sys.argv[4]
-					chrome2l10n(chrome_dir, l10n_dir, indexFile)
-  
-				elif (command == "pull"):
-					l10n2chrome(l10n_dir, chrome_dir)
-  
-				elif (command == "make"):
-					chrome2xpi(locale)
-  
-				else:
-					print "Error: invalid command '" + command + "'"
-					print
-					usage(1)
-					sys.exit()
+			print "Error: invalid command '" + command + "'"
+			print
+			usage(1)
+			sys.exit()
 
 if __name__ == "__main__":
 	main()
