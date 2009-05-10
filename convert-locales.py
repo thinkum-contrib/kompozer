@@ -1,6 +1,6 @@
 #!/usr/bin/python
+# author      : Fabien Cazenave <kaze@kompozer.net>
 # purpose     : l10n utility script for KompoZer 0.8
-# developer   : Fabien Cazenave <kaze@kompozer.net>
 # last update : 2009-05-03
 
 ###############################################################################
@@ -246,14 +246,15 @@ def main():
 		locale  = sys.argv[2]
 
 		# if all locales are requested, get the directory list
+		rootDir = L10N_ROOT
+		if command == "copy":
+			rootDir = IMPORT_ROOT
 		if locale == "all":
 			if command == "push":
 				print "'all' is not allowed with 'push'"
 				sys.exit()
-			elif command == "copy":
-				localeList = os.listdir(IMPORT_ROOT)
 			else:
-				localeList = os.listdir(L10N_ROOT)
+				localeList = os.listdir(rootDir)
 		else:
 			localeList = []
 			localeList.append(locale)
@@ -266,7 +267,7 @@ def main():
 		# process command on each locale
 		for locale in localeList:
 			# ignore 'CVS' and hidden directories
-			if os.path.isdir(L10N_ROOT + locale) and locale != "CVS" and not locale.startswith("."):
+			if os.path.isdir(rootDir + locale) and locale != "CVS" and not locale.startswith("."):
 				chrome_dir = CHROME_ROOT + locale
 				l10n_dir   = L10N_ROOT   + locale
   
