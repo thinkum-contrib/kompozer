@@ -1,0 +1,12 @@
+<!ENTITY accel.emacs_conflict "accel,shift">
+<!ENTITY closeCmd.accesskey "c">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.label "Close">
+<!ENTITY findTypeLinksCmd.key "'">
+<!ENTITY findTypeTextCmd.key "/">
+<!ENTITY quitApplicationCmd.accesskey "L">
+<!ENTITY quitApplicationCmd.key "Q">
+<!ENTITY quitApplicationCmd.label "Lopeta">
+<!ENTITY redoCmd.accesskey "T">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.label "Tee uudelleen">

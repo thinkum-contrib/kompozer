@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+  <a href="composer_help.xhtml#starting_a_new_page">Uuden sivun aloittaminen</a>
+
+  <a href="#">Www-sivujen muotoileminen</a>
+
+  <a href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a>
+
+  <a href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a>
+
+  <a href="images.xhtml">Kuvien lisääminen www-sivuille</a>
+
+  <a href="toc.xhtml">Sisällysluettelon luominen ja muokkaaminen</a>
+
+  <a href="templates.xhtml">Mallisivujen käyttäminen</a>
+
+  <a href="page_properties.xhtml">Sivun ominaisuuksien asettaminen</a>
+
+  <a href="links.xhtml">Linkkien luominen &brandShortName;:ssa</a>
+
+  <a href="customize.xhtml">&brandShortName;:n muokkaaminen</a>
+
+</div>
+
+<h2 id="formatting_your_web_pages">Www-sivujen muotoileminen</h2>
+
+<h3 id="formatting_paragraphs_heading_and_lists">Kappaleiden, otsikoiden ja luetteloiden muotoileminen</h3>
+
+<p>Jos haluat muotoilla kappaleen, tee näin &brandShortName;:n ikkunassa:</p>
+
+<ol>
+  <li>Valitse muotoilun aloituskohta napsauttamalla tai valitse teksti, jonka haluat muotoilla.</li>
+
+  <li>Valitse kappalemuotoilu muotoilutyökalupalkin pudotusvalikosta:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Leipäteksti</strong>: Käyttää ohjelman oletuskirjasinlajia ja -tyyliä tavallisessa tekstissä eikä vaikuta väleihin ennen tai jälkeen tekstin.</li>
+
+      <li><strong>Kappale</strong>: Lisää kappaletagin (käytä tätä kun haluat aloittaa uuden kappaleen). Kappaleella on ylä- ja alamarginaalit.</li>
+
+      <li><strong>Otsikko 1</strong>&nbsp;&ndash;&nbsp;<strong>Otsikko 6</strong>: Tekee kappaleesta otsikon. Otsikko 1 on korkeimman tason otsikko ja Otsikko 6 matalimman.</li>
+
+      <li><strong>Osoite</strong>: Käytä Osoite-muotoilua sivun "allekirjoituksessa", jossa kerrot mm. sivun tekijän tai yhteystiedot, esimerkiksi <tt>erkki@esimerkki.fi</tt>
+
+      <p>Voit myös halutessasi lisätä päivämäärän ja tekijänoikeustiedot. Tätä muotoilua käytetään yleensä sivun lopussa, ja sen yläpuolella on usein vaakaviiva. Monet selaimet näyttävät tämän muotoilun oletuksena kursivoituna.</p>
+      </li>
+
+      <li><strong>Esimuotoiltu</strong>: Tämä muotoilu on käytännöllinen mm. koodiesimerkeissä, tekstissä, jossa on käsin aseteltuja sarakkeita, tai sähköpostiviesteissä&nbsp;&ndash;&nbsp;jos siis haluat esittää tekstin kiinteäleveyksisellä kirjasinlajilla. Monet selaimet poistavat tavallisesta tekstistä ylimääräiset välilyönnit, sarkaimet ja kappaleenvaihdot. Esimuotoillussa tekstissä tyhjätilamerkit kuitenkin säilytetään alkuperäisessä muodossaan, joten lähdetekstin ulkoasu säilyy.</li>
+      </ul>
+  </li>
+</ol>
+
+<p>Tekstin muotoilemin otsikoksi:</p>
+
+<ol>
+  <li>Aseta kohdistin mihin tahansa kohtaan tekstiä, jonka haluat muotoilla.</li>
+
+  <li>Valitse otsikkotaso muotoilutyökalupalkin pudotusvalikosta: taso 1 on korkein, taso 6 matalin. Valitse pääotsikon tasoksi Otsikko 1, seuraavaan tasoon Otsikko 2 jne.</li>
+</ol>
+
+<p>Tekstin muotoileminen luettelon kohdaksi:</p>
+
+<ol>
+  <li>Aseta kohdistin mihin tahansa kohtaan tekstiriviä, jonka haluat muotoilla.</li>
+
+  <li>Valitse Muotoile-valikosta Luettelo.</li>
+
+  <li>Valitse luettelon tyyli:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>Järjestämätön</strong>: Jokaisen luettelon kohdan edessä on luettelomerkki, kuten tässä luettelossa (merkki on oletuksena pallo).</li>
+
+      <li><strong>Numeroitu</strong>: Luettelon kohdat on numeroitu.</li>
+      
+      <li><strong>Termi</strong> ja <strong>Määritelmä</strong>: nämä kaksi tyyliä muodostavat yhteensä sanastomaisen rakenteen. Käytä Termi-muotoilua määriteltävään asiaan ja Määritelmä-muotoilua itse määritelmään. Termiksi muotoiltu teksti näkyy sivun vasemmassa reunassa. Määritelmä on puolestaan hieman sisennetty.</li>
+      </ul>
+  </li>
+</ol>
+
+<p><strong>Vinkki</strong>: Voit muotoilla tekstilohkon nopeasti luetteloksi valitsemalla tekstin ja sen jälkeen valitsemalla muotoilutyökalupalkista Numeroitu luettelo <img src="images/numbers.png" width="21" height="21" alt="" />
+tai Järjestämätön luettelo <img src="images/bullets.png" width="21" height="21" alt="" />.</p>
+
+<p>Luettelomerkkien tai numeroinnin tyylin muuttaminen:</p>
+
+<ol>
+  <li>Aseta kohdistin luettelon kohtaan, jota haluat muokata, tai valitse yksi tai useampi luettelon kohta, jos haluat muotoilla koko luettelon.</li>
+
+  <li>Valitse Muotoile-valikosta Luettelon ominaisuudet.</li>
+
+  <li>Valitse pudotusvalikosta luettelomerkin tai numeroinnin tyyli. Voit määrätä, mistä numerosta numeroitu luettelo alkaa. Myös järjestämättömän luettelon merkin tyyliä voi vaihtaa.</li>
+</ol>
+
+<p><strong>Vinkki</strong>: Voit avata Luettelon ominaisuudet -valintaikkunan myös kaksoisnapsauttamalla luettelomerkkiä tai numeroa.</p>
+
+<p>Jos haluat muuttaa kappaleen tai sivulla olevan tekstin tasausta, esimerkiksi keskittää sen tai tasata sen vasempaan tai oikeaan reunaan,</p>
+
+<ol>
+  <li>Aseta kohdistin haluamaasi kappaleeseen tai tekstiriviin.</li>
+
+  <li>Valitse Muotoile-valikosta Tasaus ja sitten tasaustyyli.</li>
+</ol>
+
+<p><strong>Huom</strong>: Voit tasata tekstiä myös muotoilutyökalupalkin painikkeilla.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="working_with_lists">Luetteloiden käyttäminen</h3>
+
+<p>Kun haluat lopettaa luettelon ja jatkaa leipätekstin kirjoittamista,</p>
+
+<ul>
+  <li>aseta kohdistin viimeisen luettelon kohdan loppuun ja paina Enter (Mac OS: Return) kahdesti.</li>
+</ul>
+
+<p>Jos haluat muuttaa yhden tai useamman luettelon kohdan leipätekstiksi,</p>
+
+<ol>
+  <li>Siirrä kohdistin luettelon kohtaan tai valitse muutettavat kohdat.</li>
+
+  <li>Jos luettelo on numeroitu, napsauta Numeroitu luettelo -painiketta muotoilutyökalupalkissa. Jos luettelo on järjestämätön, valitse Järjestämätön luettelo -painike.</li>
+</ol>
+
+<p>Jos haluat lisätä sisennettyä tekstiä luettelon kohdan alle,</p>
+
+<ol>
+  <li>Aseta kohdistin luettelon kohtaan.</li>
+
+  <li>Luo riippuva sisennys painamalla Vaihto+Enter.</li>
+
+  <li>Kirjoita teksti, jonka haluat sisennettävän.</li>
+
+  <li>Jos haluat luoda uuden sisennetyn kappaleen, paina Vaihto+Enter. Jos haluat jatkaa luetteloa, paina Enter.</li>
+</ol>
+
+<p id="increase_or_decrease_the_indentation_of_list_items"><strong>Vinkki</strong>: Voit lisätä tai vähentää luettelon kohtien sisennystä siirtämällä kohdistimen muutettavaan luettelon kohtaan ja valitsemalla muotoilutyökalupalkista Lisää sisennystä tai Vähennä sisennystä. Voit myös lisätä tai vähentää sisennystä näppäimistöllä: Sarkain lisää ja Vaihto+Sarkain vähentää sisennystä yhdellä tasolla.</p>
+
+<p>Jos haluat yhdistää kaksi vierekkäistä luetteloa,</p>
+
+<ol>
+  <li>Valitse molemmat yhdistettävät luettelot. Tarkista, että olet valinnut kaikki luettelon kohdat. Huomaa, että kaikki luetteloiden välissä oleva teksti tulee myös osaksi yhdistettyä luetteloa.</li>
+
+  <li>Valitse Järjestämätön luettelo- tai Numeroitu luettelo -painike muotoilutyökalupalkista.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="changing_text_color_style_and_font">Tekstin värin, tyylin ja kirjasinlajin muuttaminen</h3>
+
+<p>Jos haluat muuttaa valitun tekstin väriä, tyyliä tai kirjasinlajia,</p>
+
+<ol>
+  <li>Valitse muotoiltava teksti.</li>
+
+  <li>Valitse Muotoile-valikosta jokin seuraavista:</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <ul>
+      <li><strong>Kirjasinlaji</strong>: Valitse kirjasinlaji. Jos haluat, että lukijan selain saa päättää käytettävän fontin, valitse Suhteellinen tai Kiinteäleveyksinen.
+
+      <p><strong>Huom</strong>: Kaikki asennetut kirjasinlajit eivät näy luettelossa. Sen sijaan, että valitsisit kirjasinlajin, jota kaikilla lukijoilla ei ehkä ole, kannattaa valita jokin luettelossa näkyvistä: nämä kirjasinlajit toimivat kaikilla tietokoneilla. Esimerkiksi Helvetica, Arial, Times ja Courier näyttävät yleisesti ottaen samoilta eri tietokoneilla. Jos valitset jonkin muun kirjasinlajin, se ei ehkä näy oikein eri tietokoneissa.</p> 
+      </li>
+
+      <li><strong>Koko</strong>: Valitse <em>suhteellinen</em> kirjasinkoko, tai suurenna tai pienennä kirjasinkokoa (suhteessa ympäröivään tekstiin).</li>
+
+      <li><strong>Tekstin tyyli</strong>: Valitse tyyli kuten Lihavoitu, Kursivoitu tai Alleviivattu, tai valitse rakenteellinen tyyli kuten Koodi.</li>
+
+      <li><strong>Tekstin väri</strong>: Valitse väri käyttämällä värinvalitsinta. Jos tunnet HTML:n heksadesimaalivärikoodeja, voit antaa haluamasi koodin, tai kirjoita jokin esimääritellyistä värien nimistä (esim. "blue"). <a href="http://builder.com.com/1200-31-5087779.html" target="_blank">Kätevä värimuunnin</a> (www).
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p>Sivun taustavärin muuttaminen:</p>
+
+<ol>
+  <li>Napsauta sivua jossakin kohtaa.</li>
+
+  <li>Napsauta Valitse taustaväri-ruutua muotoilutyökalupalkissa.</li>
+
+  <li>Valitse väri Lohkon taustaväri -ikkunasta.</li>
+
+  <li>Valitse OK.</li>
+</ol>
+
+<p><strong>Vinkki</strong>: Jos haluat muuttaa tekstin värin nopeasti viimeksi käytetyksi väriksi, valitse teksti ja napsauta Valitse tekstin väri -ruutua muotoilutyökalupalkissa Vaihto pohjassa. Näin voit helposti käyttää tiettyä väriä erillisillä tekstiriveillä.</p>
+
+<p>Voit käyttää myös taustakuvaa. Katso <a href="#setting_page_colors_and_backgrounds">Sivun värien ja taustojen asettaminen</a> -kohta.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="removing_or_discontinuing_text_styles">Tekstityylien poistaminen tai tyylitellyn tekstin kirjoittamisen lopettaminen</h3>
+
+<p>Jos haluat poistaa kaikki tyylit (lihavointi, kursivointi jne.) valitusta tekstistä,</p>
+
+<ol>
+  <li>Valitse teksti.</li>
+
+  <li>Valitse Muotoile-valikosta Poista kaikki tekstityylit.</li>
+
+  <li>Jatka kirjoittamista.</li>
+</ol>
+
+<p>Jos haluat jatkaa kirjoittamista siten, että teksti ei enää ole tyyliteltyä:</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, jossa haluat lopettaa tyylit.</li>
+
+  <li>Valitse Muotoile-valikosta Keskeytä tekstityylit.</li>
+
+  <li>Jatka kirjoittamista.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="finding_and_replacing_text">Tekstin etsiminen ja korvaaminen</h3>
+
+<p>Jos haluat etsiä tekstiä sivulta, jonka parissa parhaillaan työskentelet,</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, josta haluat aloittaa etsimisen.</li>
+
+  <li>Valitse Muokkaa-valikosta Etsi ja korvaa. Etsi ja korvaa -valintaikkuna aukeaa.</li>
+
+  <li>Kirjoita etsittävä teksti Etsi tekstiä -ruutuun. Jos haluat tarkentaa hakuehtoja, valitse joitakin seuraavista:
+
+  <ul>
+    <li><strong>Huomioi kirjainkoko</strong>: Tekstin kirjainten lisäksi myös kirjainkoon tulee täsmätä.</li>
+
+    <li><strong>Kierrä lopusta alkuun</strong>: Etsintä suoritetaan sivun loppuun, minkä jälkeen jatketaan sivun alusta (jos Etsi taaksepäin, hypätään sivun alusta sen loppuun).</li>
+
+    <li><strong>Etsi taaksepäin</strong>: Etsintä suoritetaan taaksepäin kohdistimesta alkaen aina sivun alkuun asti.</li>
+
+  </ul>
+  </li>
+  <li>Aloita haku valitsemalla Etsi seuraava. Kun &brandShortName; on löytänyt ensimmäisen osuman, voit jatkaa etsintää valitsemalla Etsi seuraava.</li>
+  <li>Kun olet valmis, valitse Sulje.</li>
+</ol>
+
+<p>Jos haluat etsiä ja korvata tekstiä sivulta, jonka parissa parhaillaan työskentelet,</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, josta haluat aloittaa etsimisen.</li>
+
+  <li>Valitse Muokkaa-valikosta Etsi ja korvaa. Etsi ja korvaa -valintaikkuna aukeaa.</li>
+
+  <li>Kirjoita etsittävä teksti Etsi tekstiä -ruutuun ja korvaava teksti Korvaava teksti -ruutuun.</li>
+
+  <li>Jos haluat tarkentaa hakuehtoja, valitse joitakin seuraavista:
+
+  <ul>
+    <li><strong>Huomioi kirjainkoko</strong>: Tekstin kirjainten lisäksi myös kirjainkoon tulee täsmätä.</li>
+
+    <li><strong>Kierrä lopusta alkuun</strong>: Etsintä suoritetaan sivun loppuun, minkä jälkeen jatketaan sivun alusta (jos Etsi taaksepäin, hypätään sivun alusta sen loppuun).</li>
+
+    <li><strong>Etsi taaksepäin</strong>: Etsintä suoritetaan taaksepäin kohdistimesta alkaen aina sivun alkuun asti.</li>
+
+  </ul>
+  </li>
+
+  <li>Kun haluat etsiä seuraavan esiintymän, valitse Etsi seuraava. &brandShortName; valitsee löytämänsä tekstin.</li>
+
+  <li>Jos haluat korvata valitun tekstin Korvaava teksti -ruudun tekstillä, valitse Korvaa. Jos haluat korvata valitun tekstin ja etsiä seuraavan esiintymän, valitse Korvaa ja etsi. Jos haluat korvata kaikki esiintymät korvaavalla tekstillä, valitse Korvaa kaikki.</li>
+
+  <li>Kun olet valmis, valitse Sulje.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="inserting_horizontal_lines">Vaakaviivojen lisääminen</h3>
+
+<p>Vaakaviivoja käytetään yleensä erottamaan dokumentin eri osia. Jos haluat lisätä vaakaviivan,</p>
+
+<ol>
+  <li>Siirrä kohdistin kohtaan, johon haluat vaakaviivan.</li>
+
+  <li>Valitse Lisää-valikosta Vaakaviiva.</li>
+</ol>
+
+<h3 id="setting_horizontal_line_properties">Vaakaviivojen ominaisuuksien asettaminen</h3>
+
+<p>Voit määrittää vaakaviivan korkeuden, pituuden, leveyden, tasauksen ja varjostuksen.</p>
+
+<ol>
+  <li>Avaa Vaakaviivan ominaisuudet -ikkunan kaksoisnapsauttamalla viivaa.</li>
+
+  <li>Muokkaa ominaisuuksia:
+
+  <ul>
+    <li><strong>Leveys</strong>: Syötä leveys ja valitse "% ikkunasta" tai "kuvapistettä." Jos annat koon prosentteina, viivan leveys muuttuu, kun muutat &brandShortName;:n tai selaimen ikkunan kokoa.</li>
+
+    <li><strong>Korkeus</strong>: Anna viivan korkeus kuvapisteinä.</li>
+
+    <li>3D-varjostus</li>: Kun 3D-varjostus on valittu, viivan lisätään kolmiulotteinen varjostus.
+
+    <li><strong>Tasaus</strong>: Valitse, mihin viiva sijoittuu (vasemmalle, keskelle vai oikealle).</li>
+  </ul>
+  </li>
+
+  <li>Jos haluat käyttää samoja arvoja, kun lisäät uusia vaakaviivoja, valitse Käytä oletusarvona.</li>
+
+  <li>Jos haluat muokata vaakaviivan ominaisuuksia käsin, valitse Laajennettu muokkaus. Saat lisätietoja <a  href="#using_the_advanced_property_editor">Lisäominaisuuksien muokkaus</a> -aiheesta.</li>
+</ol>
+
+<p><strong>Vinkki</strong>: Kun valitset Näytä-valikosta HTML-tagit, kaikkien HTML-elementtien viereen ilmestyy elementin nimi keltaisessa laatikossa. Kun napsautat laatikkoa, koko elementin sisältö valitaan. Kun kaksoisnapsautat laatikkoa, <a href="#using_the_advanced_property_editor">Lisäominaisuuksien muokkaus</a> -valintaikkuna ilmestyy.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="inserting_special_characters">Erikoismerkkien lisääminen</h3>
+
+<p>Jos haluat lisätä erikoismerkkejä, kuten aksenttimerkkejä, tekijänoikeusmerkkejä tai valuuttasymboleja,</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, johon haluat erikoismerkin.</li>
+
+  <li>Valitse Lisää-valikosta Merkit ja symbolit. Lisää merkki -valintaikkuna avautuu.</li>
+
+  <li>Valitse merkkiluokka.
+
+  <ul> <li>Jos valitset Aksentti, iso kirjain tai Aksentti, pieni kirjain, valitse kirjain Kirjain-pudotusvalikosta ja sitten haluamasi aksentti Merkki-pudotusvalikosta. (Huom: kaikista kirjaimista ei ole aksenttimuotoja.) Jos haluat lisätä erikoismerkkejä, kuten tekijänoikeusmerkkejä tai murtolukuja, valitse Yleiset symbolit.</li>
+  </ul>
+  </li>
+
+  <li>Valitse lisättävä merkki Merkki-pudotusvalikosta.</li>
+
+  <li>Valitse Lisää.
+
+  <p>Voit jatkaa kirjoittamista ja pitää tätä valintaikkunaa edelleen auki, jos haluat lisätä lisää merkkejä myöhemmin.</p> </li>
+
+  <li>Valitse Sulje, kun et enää halua lisätä merkkejä.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="inserting_html_elements_and_attributes">HTML-elementtien ja -attribuuttien lisääminen</h3>
+
+<p>Jos tunnet HTML-koodia, voit lisätä tageja, tyyliattribuutteja sekä JavaScriptia sivullesi. Ellet hallitse HTML:ää, on parempi, ettet muuta sitä. Voit muokata HTML-koodia seuraavilla tavoilla:</p>
+
+<ul>
+  <li>Siirrä kohdistin paikkaan, johon haluat lisätä HTML-koodia, tai valitse teksti, jota haluat muuttaa, ja valitse sitten Lisää-valikosta HTML.</li>
+
+  <li>Valitse elementti, kuten taulukko, nimetty ankkuri, kuva tai vaakaviiva. Avaa elementin ominaisuusikkuna kaksoisnapsauttamalla sitä. Avaa Lisäominaisuuksien muokkaus -ikkuna valitsemalla Laajennettu muokkaus. Tässä valintaikkunassa voit lisätä HTML-attribuutteja, JavaScriptiä ja CSS:ää.</li>
+
+  <li>Valitse Näytä-valikosta HTML-lähdekoodi tai napsauta Lähdekoodi-välilehteä muokkaustilapalkissa. (Ellet näe muokkaustilapalkkia, ota se käyttöön valitsemalla Näytä-valikosta Palkit ja paneelit ja sitten Muokkaustilapalkki.)</li>
+</ul>
+
+<h3 id="using_the_advanced_property_editor">Lisäominaisuuksien muokkaus</h3>
+
+<p>Voit lisätä HTML-attribuutteja ja JavaScriptiä Lisäominaisuuksien muokkaus -ikkunassa elementteihin, kuten taulukot, kuvat ja vaakaviivat.</p>
+
+<p><strong>Huom</strong>: Muuta HTML-attribuutteja ja niiden arvoja vain, jos tiedät mitä olet tekemässä.</p>
+
+<p>Jos haluat avata Lisäominaisuuksien muokkaus -ikkunan,</p>
+
+<ol>
+  <li>Valitse Näytä-valikosta (tai muokkaustilapalkista) HTML-tagit.</li>
+
+  <li>Kaksoisnapsauta elementtiä, jota haluat muuttaa. Elementin ominaisuusikkuna avautuu.</li>
+
+  <li>Avaa Lisäominaisuuksien muokkaus -ikkuna valitsemalla Laajennettu muokkaus. Lisäominaisuuksien muokkaus -ikkunassa on kolme välilehteä, joilla voit muuttaa ja lisätä valitun elementin ominaisuuksia:
+
+  <ul>
+    <li><strong>HTML-attribuutit</strong>: Tarkastele ja lisää HTML-attribuutteja.</li>
+
+    <li><strong>Sisällytetyt tyylit</strong>: Tarkastele ja lisää CSS-määrityksiä style-attribuutin avulla. Lisätietoja CSS-tyylien käyttämisestä &brandShortName;:ssa saat <a href="preferences.xhtml">&brandShortName;:n asetukset</a> -aiheesta.</li>
+
+    <li><strong>JavaScript-tapahtumat</strong>: Tarkastele ja lisää JavaScript-tapahtumia.</li>
+
+  </ul>
+  </li>
+
+  <li>Jos haluat muokata ominaisuutta tai attribuuttia, valitse muokattava ominaisuus. Sitten voit muokata attribuutin nimeä ja arvoa Attribuutti- ja Arvo-ruutujen avulla. Luetteloon lisätään uusi attribuutti automaattisesti, kun napsautat Arvo-ruudussa. Jos haluat poistaa jonkin attribuutin, valitse se luettelosta ja valitse sitten Poista attribuutti. <p><strong>Huom</strong>: Pakolliset attribuutit on korostettu luettelossa.</p></li>
+
+  <li>Ota muutokset käyttöön valitsemalla OK.</li>
+
+  <li>Sulje ominaisuusikkuna valitsemalla OK.</li>
+</ol>
+
+<p>&brandShortName; lisää automaattisesti lainausmerkit kaikkien attribuuttien arvojen ympärille.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="validating_the_html">HTML-koodin oikeellisuuden tarkastaminen</h3>
+
+<p>Ennen kuin siirrät dokumentin www-palvelimelle (eli julkaiset sen), on hyvä ensin tarkistaa HTML-muotoilun oikeellisuus, jotta se noudattaa www-standardeja. Jos dokumentin koodi on standardien mukaista, se toimii todennäköisemmin oikein eri selaimissa. Pelkkä silmämääräinen tarkastaminen ei riitä varmistamaan, että dokumentti näkyy oikein eri selaimissa.</p>
+
+<p>&brandShortName;:n avulla on helppo tarkistaa, että dokumenttisi on W3C:n (World Wide Web Consortium) HTML-standardien mukainen. &brandShortName; käyttää W3C:n HTML-tarkastuspalvelua, joka tarkastaa, noudattaako dokumenttisi HTML 4.01 -standardia. Palvelu tarjoaa myös tiedot, kuinka dokumentti tulee tarvittaessa korjata.</p>
+
+<p><strong>Huom</strong>: Sinun tulee olla yhteydessä Internetiin, jotta voisit käyttää tätä toimintoa.</p>
+
+<p>Jos haluat tarkastaa dokumentin HTML-koodin,</p>
+
+<ol>
+  <li>Valitse Työkalut-valikosta Tarkasta HTML. Jos dokumenttia ei ole tallennettu, &brandShortName; pyytää tallentamaan sen ennen tarkastusta.</li>
+
+  <li>&brandShortName; avaa toisen ikkunan, joka kertoo tarkastuksen tulokset, kun W3C:n tarkastuspalvelu on tulkinnut dokumentin.</li>
+
+</ol>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="choosing_the_right_editing_mode">Sopivan muokkaustilan valitseminen</h3>
+
+<p>Tavallisesti sinun ei tarvitse poistua Normaali-tilasta. Jos kuitenkin haluat muokata dokumentin HTML-lähdekoodia, muokkaustilan vaihtaminen saattaa olla tarpeen.</p>
+
+<p>Voit vaihtaa nopeasti &brandShortName;:n neljän muokkaustilan välillä. Voit työstää dokumenttia jokaisessa tilassa, mutta ne näyttävät HTML-tageja (ja niiden kuvakkeita) eri tasoilla.</p>
+
+<p>Ennen kuin valitset muokkaustilan:</p>
+
+<ul>
+  <li>Valitse Näytä-valikosta Palkit ja paneelit, ja tarkista, että Muokkaustilapalkki on valittu.</li>
+</ul>
+
+<p>Muokkaustilapalkissa on neljä välilehteä:</p>
+
+<ul>
+  <li><strong>Normaali</strong>: Tässä muokkaustilassa näet dokumentin siinä asussa kuin se näkyy verkossa, samalla kun muokkaat sitä. Taulukoiden reunat ja nimettyjen ankkureiden kuvakkeet näkyvät tässä tilassa, mutta muut HTML-tagien kuvakkeet on piilotettu.</li>
+
+  <li><strong>HTML-tagit</strong>: Tässä muokkaustilassa elementtien vieressä näytetään tagia vastaava kuvake.</li>
+
+  <li><strong>Lähdekoodi</strong>: Tässä muokkaustilassa voit tarkastella ja muokata dokumentin muotoilematonta HTML-lähdekoodia. Kun tallennat dokumentin, &brandShortName; siirtyy takaisin Normaali-tilaan.</li>
+  
+  <li><strong>Esikatselu</strong>: Tässä muokkaustilassa voit tarkastella ja muokata dokumenttia täsmälleen sellaisena kuin se näkyy selaimessa. Ainoastaan linkit ja JavaScript-funktiot eivät ole käytössä.</li>
+</ul>
+
+<p><strong>Huom</strong>: JavaScript-funktiot, kehykset, linkit, Java, upotetut objektit ja animoidut GIF-kuvat eivät ole toiminnassa missään muokkaustilassa. Jos haluat tarkastella näitä toiminnassa, valitse luontityökalupalkista Selaa, jolloin sivu avataan selaimeen.</p>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="using_status_bar_for_formatting_your_web_page">Www-sivun muotoileminen tilarivin avulla</h3>
+
+<p>&brandShortName; tarjoaa käytännöllisen tavan valitun tekstin tyylien sekä class- ja id-attribuuttien asettamiseen tilarivin kautta. Voit käyttää tilariviä muotoiluun kaikissa muissa muokkaustilassa paitsi Lähdekoodi-tilassa.</p>
+
+<ul>
+  <li><strong>Valitse</strong> valitsee elementin sisältämän tekstin.</li>
+  <li><strong>Poista tagi</strong> poistaa elementin tagit, jolloin myös elementin tyylit poistuvat ja teksti muuttuu leipätekstiksi.</li>
+
+  <li><strong>Muuta tagia</strong> -valinnalla voit muuttaa kyseistä tagia hyvin helposti. Kun valitset Muuta tagia, voit muuttaa tagin nimeä suoraan tilarivillä: kirjoita haluamasi nimi ja paina Enter. Kyseisen tagin oletusmuotoilu tulee käyttöön.</li>
+
+  <li><strong>Sisällytetyt tyylit</strong>: Normaali-, HTML-tagit- ja Esikatselu-tiloissa kohdistinta ympäröivät tagit näkyvät &brandShortName;:n tilarivissä. Voit asettaa tagien muotoiluominaisuuksia ponnahdusvalikosta:
+
+  <ol>
+    <li>Napsauta haluamaasi tagia hiiren kakkospainikkeella.</li>
+    <li>Valitse Sisällytetyt tyylit.</li>
+    <li>Valitse muokattava tyyliominaisuus:
+    <ul>
+      <li>Tekstin ominaisuudet</li>
+      <li>Reunuksen ominaisuudet</li>
+      <li>Taustan ominaisuudet</li>
+      <li>Laatikon ominaisuudet</li>
+      <li>Puheominaisuudet</li>
+      <li>Erota ja luo yleinen tyyli</li>
+    </ul></li>
+  </ol>
+
+  <p>Muut kohdat, paitsi viimeinen, avaavat vastaavan välilehden CaScadeS-CSS-editorista (lisätietoja CaScadeS-editorista saat <a href="#using_style_sheets_for_your_web_pages">Tyylisivujen käyttäminen www-sivujen muotoilussa</a> -aiheesta). Näiden ikkunoiden avulla voit asettaa CSS-määritysten mukaisia muotoiluja.</p>
+
+  <p><strong>Erota ja luo yleinen tyyli</strong> -valinnan avulla voit erottaa sisällytetyn tyylimäärityksen ja tehdä siitä ulkoisen tai sisäisen tyylisivun säännön.</p> </li>
+
+  <li><strong>Mallit</strong>-valikossa on kaksi vaihtoehtoa: "Muuta muokattavaksi" sekä "Poista muokattava alue", joita voi hyödyntää mallien yhteydessä. Lisätietoja mallien käyttämisestä saat <a href="#working_with_templates">Mallien käyttäminen</a> -aiheesta.</li>
+
+  <li><strong>ID</strong> näyttää dokumentin tyylisivun mahdolliset ID-määritykset. Ota ID käyttöön valitussa tagissa napsauttamalla sitä.</li>
+
+  <li><strong>Luokat</strong> näyttää dokumentin tyylisivussa mahdollisesti määritellyt luokat. Ota luokka käyttöön valitussa tagissa napsauttamalla.</li>
+
+  <li><strong>Lisäominaisuudet</strong>-valinta avaa Lisäominaisuuksien muokkaus -ikkunan, jossa voit lisätä HTML-attribuutteja sekä JavaScriptiä mm. taulukko-, kuva- ja linkkielementteihin. Lisätietoja saat <a href="#using_the_advanced_property_editor">Lisäominaisuuksien muokkaus</a> -osasta.</li>
+
+</ul>
+
+<p class="returnToSection">[ <a
+href="#formatting_your_web_pages">Palaa osan alkuun</a>
+]</p>
+
+<p>[<a href="css.xhtml">Seuraava</a>] [<a href="composer_help.xhtml">Edellinen</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

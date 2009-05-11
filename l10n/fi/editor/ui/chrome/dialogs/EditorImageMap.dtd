@@ -1,0 +1,89 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Dan Haddix (dan6992@hotmail.com)
+   -   Brian King (briano9@yahoo.com)
+  -->
+
+<!-- These strings are for use specifically in the editor's image map dialog. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label  "Kuvakarttaeditori">
+
+<!-- Menu Items -->
+<!-- File menu -->
+<!ENTITY mapfileMenu.label  "Tiedosto">
+<!ENTITY mapfilemenu.accesskey  "T">
+<!ENTITY clearCmd.label  "Tyhjennä">
+<!ENTITY mapfileclear.accesskey  "T">
+<!ENTITY closeCmd.label  "Sulje">
+<!ENTITY mapfileclose.accesskey  "S">
+
+<!-- Edit menu -->
+<!ENTITY mapeditMenu.label  "Muokkaa">
+<!ENTITY mapeditmenu.accesskey  "M">
+<!ENTITY cutCmd.label  "Leikkaa">
+<!ENTITY mapeditcut.accesskey  "a">
+<!ENTITY copyCmd.label  "Kopioi">
+<!ENTITY mapeditcopy.accesskey  "o">
+<!ENTITY pasteCmd.label  "Liitä">
+<!ENTITY mapeditpaste.accesskey  "L">
+<!ENTITY selectallCmd.label  "Valitse kaikki">
+<!ENTITY mapselectall.accesskey  "V">
+<!ENTITY propsCmd.label  "Aktiivisen pisteen ominaisuudet">
+<!ENTITY mapeditprops.accesskey  "u">
+
+<!-- View menu -->
+<!ENTITY mapviewMenu.label  "Näytä">
+<!ENTITY mapviewmenu.accesskey  "N">
+<!ENTITY showhideTbarCmd.label  "Piilota työkalupalkki">
+<!ENTITY mapviewtbar.accesskey  "P">
+<!-- Scaling -->
+<!ENTITY mapviewScale.label  "Mittakaava">
+<!ENTITY mapviewscale.accesskey  "M">
+<!ENTITY apercentCmd.label  "100">
+<!ENTITY zoomone.accesskey  "1">
+<!ENTITY bpercentCmd.label  "200">
+<!ENTITY zoomtwo.accesskey  "2">
+<!ENTITY cpercentCmd.label  "400">
+<!ENTITY zoomthree.accesskey  "4">
+<!-- end scaling-->
+<!ENTITY contrastCmd.label  "Kontrasti">
+<!ENTITY contrast.accesskey  "K">
+
+<!-- Help menu -->
+<!ENTITY maphelpMenu.label  "Ohje">
+<!ENTITY maphelpmenu.accesskey  "O">
+<!ENTITY aboutCmd.label  "Tietoja">
+<!ENTITY about.accesskey  "T">
+
+<!ENTITY zoominCmd.label  "Lähennä">
+<!ENTITY zoomoutCmd.label  "Loitonna">
+<!ENTITY delSpotCmd.label  "Poista piste">
+
+<!-- Keys -->
+<!ENTITY clear.accesskey  "P">
+<!ENTITY selectall.accesskey  "a">
+<!ENTITY close.accesskey  "l">
+<!ENTITY cut.accesskey  "a">
+<!ENTITY copy.accesskey  "o">
+<!ENTITY paste.accesskey  "L">
+<!ENTITY props.accesskey  "m">
+<!ENTITY tbar.accesskey  "t">

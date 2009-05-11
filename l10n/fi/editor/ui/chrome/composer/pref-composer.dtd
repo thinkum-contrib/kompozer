@@ -1,0 +1,80 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- extracted from content/pref-composer.xul -->
+
+<!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
+
+<!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
+<!ENTITY  title.label                "Yleiset">
+<!ENTITY  lHeader                    "Yleiset">
+<!ENTITY  rHeader                    "Asetukset, jotka koskevat uusien www-sivujen laatimista">
+
+<!ENTITY  tableEditing.label                     "Taulukon muokkaaminen">
+<!ENTITY  maintainTableStructure.label           "Säilytä taulukon asettelu soluja lisättäessä tai poistettaessa">
+<!ENTITY  maintainTableStructure.tooltip         "Säilytä taulukon suorakulmainen muoto lisäämällä soluja poistamisen tai lisäämisen jälkeen.">
+<!ENTITY  maintainStructure.accesskey            "t">
+
+<!ENTITY  savingFiles.title            "Kun tallennan tai julkaisen sivun">
+<!ENTITY  preserveExistingFormatting   "Säilytä alkuperäinen lähdekoodin muotoilu">
+<!ENTITY  preserveExistingFormatting.accesskey   "a">
+<!ENTITY  preserveExistingFormatting.tooltip     "Säilytä rivinvaihdot ja sivun alkuperäinen muotoilu">
+<!ENTITY  reformat.label               "Muotoile HTML-koodi uudelleen">
+<!ENTITY  reformat.accesskey           "M">
+<!ENTITY  reformat.tooltip             "Muotoile HTML-tagit uudelleen käyttäen rivinvaihtoja ja sisennystä">
+
+<!ENTITY  saveAssociatedFiles.label  "Tallenna myös sivuun liittyvät kuvat ja muut tiedostot sivua tallennettaessa">
+<!ENTITY  showPublishDialog.label    "Näytä julkaisuikkuna aina sivuja julkaistaessa">
+
+<!ENTITY  saving                     "Tallennus">
+<!ENTITY  AutoSaveCheck              "Tallenna automaattisesti joka">
+<!ENTITY  minText                    ". minuutti">
+
+<!ENTITY  exterLegend.label          "Ulkoiset editorit">
+<!ENTITY  htmlSource                 "HTML-lähdekoodi:">
+<!ENTITY  imageeditor                "Kuvat:">
+<!ENTITY  chooseButton.label         "Valitse">
+
+<!ENTITY  recentFiles.title          "Viimeisimmät sivut -valikko">
+<!ENTITY  documentsInMenu.accesskey      "S">
+<!ENTITY  documentsInMenu            "Suurin lueteltujen sivujen määrä:">
+
+<!ENTITY  cssEditing.label           "Tyylisivujen (CSS) muokkaus">
+<!ENTITY  useCSS.label               "Käytä CSS-tyylejä HTML-elementtien ja attribuuttien sijaan">
+
+<!ENTITY  siteManager.label          "Sivustonhallinta">
+<!ENTITY  openInNewTab.label         "Avaa dokumentit aina uuteen välilehteen">

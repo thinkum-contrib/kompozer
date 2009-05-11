@@ -1,0 +1,31 @@
+<!ENTITY allEntitiesEncoding.label "Käytä &amp;#..;-merkintätapaa kaikille ei-ASCII-merkeille">
+<!ENTITY basicEncoding.label "Vain &amp; &lt; &gt; ' sekä kiinteä välilyönti">
+<!ENTITY carriageReturns.label "Enter-näppäimen toiminta">
+<!ENTITY cmdLine.label "Komentorivi:">
+<!ENTITY connection.label "Yhteys">
+<!ENTITY connectionButton.label "Yhteysasetukset">
+<!ENTITY connectionDescription.label "Määritä yhteyden välityspalvelimet">
+<!ENTITY connectionbutton.accesskey "Y">
+<!ENTITY crInPCreatesNewP.label "Enter-näppäimen painallus kappaleessa luo aina uuden kappaleen">
+<!ENTITY dialect.label "Merkkaus">
+<!ENTITY dtd.label "DTD:">
+<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+<!ENTITY helpers.label "Lisäasetukset">
+<!ENTITY hints.label "Voit määrittää osoitteen käyttämällä '$s':ää, esim.:">
+<!ENTITY htmlEntitiesEncoding.label "HTML 4 -erikoismerkit">
+<!ENTITY htmlMarkupLanguage.label "HTML 4">
+<!ENTITY imageEditor.label "Kuvaeditori">
+<!ENTITY latin1EntitiesEncoding.label "Ylläolevat sekä Latin-1-merkit">
+<!ENTITY looseDTD.label "Transitional">
+<!ENTITY markupLanguage.label "Kieli:">
+<!ENTITY noEscaping.label "Älä koodaa erikoismerkkejä attribuuttien arvoissa">
+<!ENTITY noGTEncoding.label "Älä koodaa '&gt;' -merkkiä attribuuttien arvojen ulkopuolella">
+<!ENTITY realtimeSpellCheck.label "Reaaliaikainen oikoluku">
+<!ENTITY specialChars.description "Merkitse seuraavat merkit entiteetteinä lähdekoodiin:">
+<!ENTITY specialChars.label "Erikoismerkit">
+<!ENTITY spellCheckRealTime.accesskey "v">
+<!ENTITY spellCheckRealTime.label "Alleviivaa väärin kirjoitetut sanat">
+<!ENTITY strictDTD.label "Strict">
+<!ENTITY useSystemBrowser.label "Käytä järjestelmän asetusta">
+<!ENTITY userDefinedBrower.label "Käyttäjän määrittämä">
+<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+  <a href="composer_help.xhtml#starting_a_new_page">Uuden sivun aloittaminen</a>
+
+  <a href="formatting_webpages.xhtml">Www-sivujen muotoileminen</a>
+
+  <a href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a>
+
+  <a href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a>
+
+  <a href="images.xhtml">Kuvien lisääminen www-sivuille</a>
+
+  <a href="toc.xhtml">Sisällysluettelon luominen ja muokkaaminen</a>
+
+  <a href="templates.xhtml">Mallisivujen käyttäminen</a>
+
+  <a href="page_properties.xhtml">Sivun ominaisuuksien asettaminen</a>
+
+  <a href="links.xhtml">Linkkien luominen &brandShortName;:ssa</a>
+
+  <a href="customize.xhtml">&brandShortName;:n muokkaaminen</a>
+
+</div>
+
+<h2 id="working_with_templates">Mallisivujen käyttäminen</h2>
+
+<p>Mallisivut ovat kätevä apuväline, jos tarkoituksenasi on tehdä useita sivuja, jotka ovat samanlaisia puitteiltaan mutta erilaisia sisällöltään. &brandShortName;:n avulla voit suunnitella mallisivuja ja käyttää niitä www-sivujen pohjana.</p>
+
+<h3 id="creating_a_template">Mallisivun luominen</h3>
+
+<ol>
+  <li>Jos haluat luoda mallisivun,
+  <ul>
+    <li>Valitse valikosta <span class="menuPath">Tiedosto | Uusi</span> tai napsauta Uusi-painikkeen vieressä olevaa nuolta ja valitse Lisää asetuksia.</li>
+    <li>Valitse <strong>Tyhjä malli</strong> ja sitten Avaa.</li>
+  </ul></li>
+  <li>Lisää ja muotoile vakiona pysyvä sisältö samoin kuin loisit tavallista www-sivua.</li>
+  <li>Luo muokattavia alueita kohtiin, jotka ovat erilaisia eri sivuilla. Voit lisätä muokattavan alueen valitsemalla valikosta Lisää | Mallit | Lisää muokattava alue. Muokattavan alueen asetukset ovat:
+  <ul>
+    <li>Alue on vapaaehtoinen</li>
+    <li>Alue on toistettavissa</li>
+    <li>Alue on siirrettävä</li>
+  </ul></li>
+  <li>Tallenna malli MZT-mallitiedostoon.</li>
+</ol>
+
+<p><strong>Vinkki</strong>: Voit poistaa muokattavan alueen tai muuttaa alueen muokattavaksi tilarivistä. Lisätietoja saat <a href="formatting_webpages.xhtml#using_status_bar_for_formatting_your_web_page">Www-sivun muotoileminen tilarivin avulla</a> -ohjeesta.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Palaa osan alkuun</a> ]</p>
+
+<h3 id="using_a_template">Mallin käyttäminen</h3>
+
+<p>Jos haluat käyttää mallia www-sivun tekemisessä,</p>
+
+<ol>
+  <li>Valitse valikosta <span class="menuPath">Tiedosto | Uusi</span> tai paina Ctrl+N.</li>
+  <li>Valitse "Uusi malliin perustuva dokumentti" ja valitse käytettävä malli valitsemalla Valitse tiedosto.</li>
+  <li>Valitse <span class="menuPath">Avaa</span>.</li>
+  <li>Muokkaa muokattavien alueiden sisältöä.</li>
+  <li>Tallenna dokumentti HTML-tiedostona.</li>
+</ol>
+
+<p><strong>Vinkki</strong>: Jos haluat irrottaa dokumentin mallista, valitse valikosta <span class="menuPath">Muokkaa | Irrota mallista</span>.</p>
+
+<p><strong>Vinkki</strong>: Voit muuttaa dokumentin malliksi ja päin vastoin valitsemalla valikosta Muotoile | Sivun otsikko ja ominaisuudet ja muuttamalla Tämä sivu on malli -asetusta.</p>
+
+<p class="returnToSection">[ <a href="#working_with_templates">Palaa osan alkuun</a> ]</p>
+
+<p>[<a href="page_properties.xhtml">Seuraava</a>] [<a href="toc.xhtml">Edellinen</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

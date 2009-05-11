@@ -1,0 +1,6 @@
+<!--LOCALIZATION NOTE printPreviewProgress.dtd Main UI for Print Preview Progress Dialog -->
+<!ENTITY printWindow.title  "Tulostuksen esikatselu">
+<!ENTITY title    "Otsikko:">
+<!ENTITY spaces     "            ">
+<!ENTITY preparing  "Valmistellaan...">
+<!ENTITY progress  "Edistyminen:">

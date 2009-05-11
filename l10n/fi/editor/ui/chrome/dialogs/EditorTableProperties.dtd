@@ -1,0 +1,98 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY tableWindow.title                 "Taulukon ominaisuudet">
+<!ENTITY tableTab.label                    "Taulukko">
+<!ENTITY cellTab.label                     "Solut">
+<!ENTITY tableRows.label                   "Rivit:">
+<!ENTITY tableRows.accessKey               "R">
+<!ENTITY tableColumns.label                "Sarakkeet:">
+<!ENTITY tableColumns.accessKey            "a">
+<!ENTITY tableHeight.label                 "Korkeus:">
+<!ENTITY tableHeight.accessKey             "o">
+<!ENTITY tableWidth.label                  "Leveys:">
+<!ENTITY tableWidth.accessKey              "y">
+<!ENTITY tableBorderSpacing.label          "Reunukset ja välistys">
+<!ENTITY tableBorderWidth.label            "Reunus:">
+<!ENTITY tableBorderWidth.accessKey        "R">
+<!ENTITY tableSpacing.label                "Välistys:">
+<!ENTITY tableSpacing.accessKey            "ä">
+<!ENTITY tablePadding.label                "Täyte:">
+<!ENTITY tablePadding.accessKey            "T">
+<!ENTITY tablePxBetwCells.label            "kuvapistettä solujen välissä">
+<!ENTITY tablePxBetwBrdrCellContent.label  "kuvapistettä solujen reunuksen ja sisällön välissä">
+<!ENTITY tableAlignment.label              "Taulukon tasaus:">
+<!ENTITY tableAlignment.accessKey          "T">
+<!ENTITY tableCaption.label                "Taulukon otsikko:">
+<!ENTITY tableCaption.accessKey            "o">
+<!ENTITY tableCaptionAbove.label           "Taulukon yläpuolella">
+<!ENTITY tableCaptionBelow.label           "Taulukon alapuolella">
+<!ENTITY tableCaptionLeft.label            "Taulukon vasemmalla puolella">
+<!ENTITY tableCaptionRight.label           "Taulukon oikealla puolella">
+<!ENTITY tableCaptionNone.label            "Ei mitään">
+<!ENTITY tableInheritColor.label            "(Anna sivun värin näkyä läpi)">
+
+<!ENTITY cellPercent.label                 "prosenttia taulukosta">
+<!ENTITY cellSelection.label               "Valinta">
+<!ENTITY cellSelectCell.label              "Solu">
+<!ENTITY cellSelectRow.label               "Rivi">
+<!ENTITY cellSelectColumn.label            "Sarake">
+<!ENTITY cellSelectNext.label              "Seuraava">
+<!ENTITY cellSelectNext.accessKey          "S">
+<!ENTITY cellSelectPrevious.label          "Edellinen">
+<!ENTITY cellSelectPrevious.accessKey      "d">
+<!ENTITY cellApplyBeforeMove.label         "Ota muutokset käytöön ennen valinnan vaihtamista">
+<!ENTITY cellKeepCurrentData.label         "Säilytä nykyiset asetukset">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label          "Nykyiset asetukset otetaan käyttöön">
+<!ENTITY applyBeforeChange2.label          "ennen valinnan vaihtamista.">
+<!ENTITY cellRowSpan.label                 "Rivin laajuus:">
+<!ENTITY cellColSpan.label                 "Sarakkeen laajuus:">
+<!ENTITY cellContentAlignment.label        "Sisällön tasaus">
+<!ENTITY cellHorizontal.label              "Vaakatasaus:">
+<!ENTITY cellHorizontal.accessKey          "V">
+<!ENTITY cellVertical.label                "Pystytasaus:">
+<!ENTITY cellVertical.accessKey            "P">
+<!ENTITY cellStyle.label                   "Solun tyyli:">
+<!ENTITY cellStyle.accessKey               "n">
+<!ENTITY cellNormal.label                  "Normaali">
+<!ENTITY cellHeader.label                  "Otsikko">
+<!ENTITY cellTextWrap.label                "Tekstin rivitys:">
+<!ENTITY cellTextWrap.accessKey            "k">
+<!ENTITY cellWrap.label                    "Rivitä">
+<!ENTITY cellNoWrap.label                  "Älä rivitä">
+<!ENTITY cellAlignTop.label                "Ylös">
+<!ENTITY cellAlignMiddle.label             "Keskelle">
+<!ENTITY cellAlignBottom.label             "Alas">
+<!ENTITY cellAlignJustify.label            "Molempiin reunoihin">
+<!ENTITY cellAlignAtChar.label             "Merkkiin:">
+<!ENTITY cellInheritColor.label            "(Anna taulukon värin näkyä läpi)">
+<!ENTITY cellUseCheckboxHelp.label         "Valitse valintaruuduilla solujen ominaisuudet.">
+
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label                        "Koko">
+<!ENTITY pixels.label                      "kuvapistettä">
+<!ENTITY backgroundColor.label             "Taustaväri:">
+<!ENTITY backgroundColor.accessKey         "i">
+<!ENTITY AlignLeft.label                   "Vasemmalle">
+<!ENTITY AlignCenter.label                 "Keskitetty">
+<!ENTITY AlignRight.label                  "Oikealle">

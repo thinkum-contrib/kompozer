@@ -1,0 +1,15 @@
+
+<!ENTITY  history.title              "Päivityshistoria">
+<!ENTITY  history.intro              "Seuraavat päivitykset on asennettu:">
+<!ENTITY  closebutton.label          "Sulje">
+                                     
+<!ENTITY  detailsButton.label        "Lisätietoja">
+<!ENTITY  detailsButton.accesskey    "L">
+
+<!ENTITY  noupdates.label            "Ei asennettuja päivityksiä">
+
+<!ENTITY  name.header                "Päivityksen nimi">
+<!ENTITY  date.header                "Asennuspäivä">
+<!ENTITY  type.header                "Tyyppi">
+<!ENTITY  state.header               "Tila">
+

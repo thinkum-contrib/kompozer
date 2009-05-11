@@ -1,0 +1,82 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label                  "Yhteydetön tila">
+<!ENTITY  offlineGoOfflineCmd.accesskey              "e">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					 "Tiedosto">
+<!ENTITY fileMenu.accesskey				 "T">
+<!ENTITY newMenu.label						 "Uusi">
+<!ENTITY newMenu.accesskey					 "U">
+<!ENTITY newBlankPageCmd.label  "Composer-sivu">
+<!ENTITY newBlankPageCmd.accesskey  "C">
+<!ENTITY newBlankPageCmd.key  "n">
+<!ENTITY newPageFromTemplateCmd.label  "Malliin perustuva sivu">
+<!ENTITY newPageFromTemplateCmd.accesskey  "t">
+<!ENTITY newPageFromDraftCmd.label  "Luonnokseen perustuva sivu">
+<!ENTITY newPageFromDraftCmd.accesskey  "L">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				 "Navigator-ikkuna">
+<!ENTITY newNavigatorCmd.key				 "N">
+<!ENTITY newNavigatorCmd.accesskey			 "N">
+
+<!ENTITY editMenu.label					 "Muokkaa">
+<!ENTITY editMenu.accesskey				 "M">
+<!ENTITY undoCmd.label						 "Kumoa">
+<!ENTITY undoCmd.key						 "Z">
+<!ENTITY undoCmd.accesskey					 "m">
+<!ENTITY redoCmd.label						 "Tee uudelleen">
+<!ENTITY redoCmd.key						 "Y">
+<!ENTITY redoCmd.accesskey					 "T">
+<!ENTITY cutCmd.label						 "Leikkaa">
+<!ENTITY cutCmd.key							 "X">
+<!ENTITY cutCmd.accesskey					 "L">
+<!ENTITY copyCmd.label						 "Kopioi">
+<!ENTITY copyCmd.key						 "C">
+<!ENTITY copyCmd.accesskey					 "K">
+<!ENTITY pasteCmd.label						 "Liitä">
+<!ENTITY pasteCmd.key						 "V">
+<!ENTITY pasteCmd.accesskey					 "i">
+<!ENTITY deleteCmd.label					 "Poista">
+<!ENTITY deleteCmd.key						 "D">
+<!ENTITY deleteCmd.accesskey				 "o">
+<!ENTITY selectAllCmd.label					 "Valitse kaikki">
+<!ENTITY selectAllCmd.key					 "A">
+<!ENTITY selectAllCmd.accesskey				 "V">
+<!ENTITY preferencesCmd.label				 "Asetukset...">
+<!ENTITY preferencesCmd.key					 "E">
+<!ENTITY preferencesCmd.accesskey			 "A">
+<!ENTITY findTypeTextCmd.label  "Etsi tekstistä kirjoittaessa">
+<!ENTITY findTypeTextCmd.accesskey  "r">
+<!ENTITY findTypeLinksCmd.label  "Etsi linkkejä kirjoitettaessa">
+<!ENTITY findTypeLinksCmd.accesskey  "i">
+
+<!ENTITY viewMenu.label					 "Näytä">
+<!ENTITY viewMenu.accesskey				 "N">
+<!ENTITY viewToolbarsMenu.label				 "Palkit ja paneelit">
+<!ENTITY viewToolbarsMenu.accesskey			 "P">
+<!ENTITY showTaskbarCmd.label					 "Tilarivi">
+<!ENTITY showTaskbarCmd.accesskey				 "T">
+
+<!ENTITY helpMenu.label					 "Ohje">
+<!ENTITY helpMenu.accesskey				 "O">
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				 "Uutta">
+
+<!ENTITY releaseCmd.label				 "Julkaisutiedot">
+<!ENTITY releaseCmd.accesskey				 "J">
+<!ENTITY aboutCmd.label					 "Tietoja &brandShortName;:sta">
+<!ENTITY aboutCmd.accesskey				 "T">
+<!ENTITY aboutCommPluginsCmd.label			 "Tietoja liitännäisistä">
+<!ENTITY aboutCommPluginsCmd.accesskey			 "l">
+
+<!ENTITY direct.label                                    "Yhteystilassa (ei välityspalvelinta)">
+<!ENTITY direct.accesskey                                "e">
+<!ENTITY manual.label                                    "Yhteystilassa (välityspalvelin: manuaalinen)">
+<!ENTITY manual.accesskey                                "m">
+<!ENTITY pac.label                                       "Yhteystilassa (välityspalvelin: automaattinen)">
+<!ENTITY pac.accesskey                                   "a">
+
+<!ENTITY proxy.label                                     "Välityspalvelimen asetukset...">
+<!ENTITY proxy.accesskey                                 "V">

@@ -1,0 +1,35 @@
+<!ENTITY charset.customize.right.header "Valitse tuetut merkkikoodaukset">
+<!ENTITY langtitle.label "Verkkosivujen kielet">
+<!ENTITY languages.customize.Charset.grouplabel "Merkkikoodaus">
+<!ENTITY languages.customize.DefaultCharset.accesskey "m">
+<!ENTITY languages.customize.DefaultCharset.label "Oletusmerkkikoodaus:">
+<!ENTITY languages.customize.active.label "Kielet suosituimmuusjärjestyksessä:">
+<!ENTITY languages.customize.add.label "Lisää">
+<!ENTITY languages.customize.add.title.label "Lisää kieliä">
+<!ENTITY languages.customize.addButton.accesskey "L">
+<!ENTITY languages.customize.addButton.label "Lisää...">
+<!ENTITY languages.customize.additional.label "Käytettävät merkistöt">
+<!ENTITY languages.customize.available.label "Kielet:">
+<!ENTITY languages.customize.cancel.label "Peruuta">
+<!ENTITY languages.customize.deleteButton.accesskey "P">
+<!ENTITY languages.customize.deleteButton.label "Poista">
+<!ENTITY languages.customize.engOption.label "Englanti">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.lHeader "Kielet">
+<!ENTITY languages.customize.left.header "Merkkikoodaus">
+<!ENTITY languages.customize.moveDown.accesskey "a">
+<!ENTITY languages.customize.moveDown.label "Siirrä alas">
+<!ENTITY languages.customize.moveUp.accesskey "y">
+<!ENTITY languages.customize.moveUp.label "Siirrä ylös">
+<!ENTITY languages.customize.ok.label "OK">
+<!ENTITY languages.customize.others.accesskey "M">
+<!ENTITY languages.customize.others.examples "esim.: en-bz, ar-jo">
+<!ENTITY languages.customize.others.label "Muut:">
+<!ENTITY languages.customize.prefAddLangDescript "Valitse kielet, jotka haluat lisätä.">
+<!ENTITY languages.customize.prefLangDescript "Verkkosivut ovat joskus saatavilla useammalla kuin yhdellä kielellä. Valitse suosituimmuusjärjestyksessä kielet, joilla haluat nähdä sivut.">
+<!ENTITY languages.customize.rHeader "Kielet, joilla verkkosivut esitetään, jos mahdollista">
+<!ENTITY languages.customize.remove.label "Poista">
+<!ENTITY languages.customize.reorder.label "Järjestä uudelleen">
+<!ENTITY languages.customize.save.label "Tallenna">
+<!ENTITY languages.customize.save.popup "Uudelleenkäynnistä selain saattaaksesi asetukset voimaan...">
+<!ENTITY languages.customize.title.label "Mukauta kieliä">

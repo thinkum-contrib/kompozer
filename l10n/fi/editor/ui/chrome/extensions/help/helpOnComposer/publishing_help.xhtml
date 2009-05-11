@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+ <a href="#publishing_a_document">Dokumentin julkaiseminen</a>
+ <a href="#publishing_settings">Julkaisuasetukset</a>
+ <a href="#solving_common_publishing_problems">Yleisten julkaisuongelmien ratkaiseminen</a>
+</div>
+
+<h1 id="publishing_web_pages_with_nvu">Www-sivujen julkaiseminen &brandShortName;:lla</h1>
+
+<p>Jos www-sivusi ovat kiintolevylläsi, vain sinä ja muut saman tietokoneen käyttäjät voivat tarkastella niitä. &brandShortName;:n avulla voit julkaista sivusi Internet-etäkoneella, jota kutsutaan www-palvelimeksi.</p>
+
+<p>Kun julkaiset sivusi, &brandShortName; kopioi ne www-palvelimelle, jolta myös muut voivat ladata niitä selaimeensa. Useimmat palveluntarjoajat tarjoavat www-sivutilaa. Jos haluat selvittää, mille palvelimelle voit julkaista sivusi, kysy palveluntarjoajaltasi, teknisestä tuesta tai järjestelmänvalvojalta.</p>
+
+<h2 id="publishing_a_document">Dokumentin julkaiseminen</h2>
+
+<p>Jos haluat julkaista dokumentin,</p>
+
+<ol>
+  <li>Avaa HTML-dokumentti, jonka haluat julkaista, tai luo uusi &brandShortName;-dokumentti.</li>
+
+  <li>Kun dokumentti on valmis julkaistavaksi, valitse luontityökalupalkista Julkaise <img src="images/publish.png" width="26" height="26" alt="" />.
+
+  <p>Jos olet julkaissut dokumentin ennen, &brandShortName; muistaa dokumentin julkaisuasetukset ja aloittaa julkaisemisen heti. &brandShortName; näyttää julkaisun edistymisestä kertovan ikkunan, kun julkaiseminen on käynnissä.</p>
+
+  <ul>
+    <li>Jos et ole julkaissut dokumenttia aiemmin, &brandShortName; avaa Julkaise sivu -ikkunaan Asetukset-välilehden. Anna ikkunaan julkaisupalvelimen asetukset. Saat lisätietoja asetuksista <a href="#publish_page_settings">Julkaise sivu&nbsp;&ndash;&nbsp;Asetukset</a> -aiheesta. Kun olet antanut tarvittavat tiedot, valitse Julkaise.</li>
+
+    <li>Jos et ole tallentanut dokumenttia, &brandShortName; avaa Julkaise sivu -ikkunaan Julkaise-välilehden. Anna dokumentille tiedostonimi. Saat lisätietoja <a href="#publish_page_settings">Julkaise sivu&nbsp;&ndash;&nbsp;Julkaise</a> -aiheesta. Kun olet antanut tarvittavat tiedot, valitse Julkaise.</li>
+  </ul>
+  </li>
+  
+  <li>Jos haluat avata julkaisemasi sivun selaimeen, valitse Selaa. Kokeile sivun linkkejä ja tarkista, ettei sivulta puutu kuvia.</li>
+
+  <li>Jatka sivun muokkaamista tarvittaessa. Kun haluat päivittää sivun www-palvelimella, valitse Julkaise-painike uudelleen.</li>
+</ol>
+
+<p>Kun julkaiset sivun ensimmäistä kertaa, &brandShortName; muuttaa dokumentin <tt>file:///</tt>-osoitteen <tt>http://</tt>-osoitteeksi sen merkiksi, että muokkaat julkaistua dokumenttia. Jos haluat tallentaa dokumentin paikallisesti (omalle kiintolevyllesi), valitse Tallenna. &brandShortName; pyytää antamaan dokumentille sijainnin ja tiedostonimen.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">Vinkkejä rikkinäisten linkkien ja puuttuvien kuvien välttämiseksi</h3>
+
+<ul>
+  <li>Varmista, että &brandShortName;-dokumenttien tiedostonimien pääte on .html tai .htm. Varmista että kuvatiedostojen pääte on .jpg, .gif tai .png. Älä käytä välilyöntejä tai muita erikoismerkkejä tiedostojen nimissä. Pidä tiedostonimet lyhyinä, ja käytä joko pelkkiä isoja tai pieniä kirjaimia (numeroiden lisäksi).</li>
+
+  <li>Jos kuvat näkyvät rikkinäisinä linkkeinä, kun tarkastelet dokumenttia www-palvelimelta, olet ehkä unohtanut julkaista kuvat sivujen lisäksi. Avaa Julkaise sivu -valintaikkuna valitsemalla Tiedosto-valikosta Julkaise nimellä. Varmista, että Julkaise-välilehdeltä on valittu Sisällytä kuvat ja muut tiedostot, ja valitse sitten Julkaise.</li>
+</ul>
+
+<p>Lisää ongelmanratkaisuvinkkejä löydät <a href="#solving_common_publishing_problems">Yleisten julkaisuongelmien ratkaiseminen</a> -aiheesta.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h3 id="updating_a_published_document">Julkaistun dokumentin päivittäminen</h3>
+
+<p>Jos haluat päivittää julkaistun dokumentin,</p>
+
+<ol>
+  <li>Avaa päivitettävä dokumentti ja tee haluamasi muutokset.</li>
+
+  <li>Kun dokumentti on valmis julkaistavaksi, valitse Julkaise luontityökalupalkista.</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>Vinkki</strong>: Jos haluat poistaa julkaisemasi sivun tai kuvan www-palvelimelta, sinun tulee käyttää FTP-ohjelmaa (File Transfer Protocol). FTP-ohjelma on tarpeen myös, jos haluat luoda palvelimelle alihakemistoja tai nimetä tiedostoja uudelleen. Kysy palveluntarjoajasi mahdollista FTP-ohjelmasuositusta. Lisätietoja FTP-ohjelmista löytyy yleensä palveluntarjoajan www-sivuston ohje- tai tukiosasta. FTP-ohjelmia löydät mm. shareware-sivustoilta, kuten ZDNet Downloads.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">Tiedostonimen tai julkaisupaikan muuttaminen</h3>
+
+<p>Jos haluat muuttaa dokumentin tiedostonimeä tai julkaisupaikkaa,</p>
+
+<ol>
+  <li>Avaa haluamasi dokumentti ja muokkaa sitä tarvittaessa.</li>
+
+  <li>Valitse Tiedosto-valikosta Julkaise nimellä. Julkaise-välilehti avautuu Julkaise sivu -ikkunaan.</li>
+
+  <li>Anna tarvittaessa sivulle uusi otsikko.</li>
+
+  <li>Anna tarvittaessa sivulle uusi tiedostonimi.</li>
+
+  <li>Valitse haluamasi julkaisupaikka Sivuston nimi -luettelosta. Jos haluat käyttää uutta julkaisupaikkaa, valitse Uusi sivusto. Saat lisätietoja <a href="#publish_page_settings">Julkaise sivu&nbsp;&ndash;&nbsp;Asetukset</a> -aiheesta.</li>
+
+  <li>Tallenna dokumentti uuteen paikkaan valitsemalla Tallenna.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">Uuden julkaisusivuston luominen</h3>
+
+<p>Jos aiot julkaista dokumentteja useampaan paikkaan, voit asettaa &brandShortName;:n tallentamaan julkaisutiedot jokaiselle julkaisusivustolle. Tällöin sinun ei tarvitse antaa julkaisutietoja erikseen joka kerta, kun julkaiset dokumentin.</p>
+
+<p>Jos haluat luoda uuden julkaisusivuston,</p>
+
+<ol>
+  <li>Valitse Muokkaa-valikosta Sivun julkaisun asetukset. Julkaisuasetukset-ikkuna avautuu.</li>
+
+  <li>Valitse Uusi sivusto.</li>
+
+  <li>Kirjoita Sivuston nimi -ruutuun jokin sivustoa kuvaava nimi.
+
+  <p>Sivuston nimi auttaa sinua muistamaan, mitä dokumentteja olet julkaissut. Jos sivustosi käsittelisi esimerkiksi Meteor-nimistä projektia, voisit kirjoittaa sivuston nimeksi "Meteor."</p>
+  </li>
+
+  <li>Kirjoita Julkaisuosoite-ruutuun palveluntarjoajasi, järjestelmänvalvojasi tai www-hotellipalvelusi antama kokonainen osoite. Tämän osoitteen tulee alkaa <tt>ftp://</tt> tai <tt>http://</tt>.
+
+  <p>Julkaisuosoite määrää paikan, johon dokumentit julkaistaan (kopioidaan) tällä sivustolla. Jos et ole varma oikeasta osoitteesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi.</p>
+  </li>
+
+  <li>Kirjoita Www-sivustosi HTTP-osoite -ruutuun täydellisenä osoite, jonka kirjoittaisit selaimen osoitepalkkiin, kun haluaisit siirtyä sivustosi aloitussivulle. Älä lisää osoitteeseen tiedostonimeä tai sivuston sisäisiä alihakemistoja.
+
+  <p>Osoitteen tulee alkaa aina <tt>http://</tt>. Joskus tämä osoite on sama kuin julkaisuosoite. Jos et ole varma osoitteesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi tai jätä se tyhjäksi.</p>
+  </li>
+
+  <li>Kirjoita Käyttäjätunnus-ruutuun tunnus, jolla kirjaudut palveluntarjoajasi tai www-hotellipalvelusi järjestelmään.</li>
+
+  <li>Kirjoita Salasana-ruutuun käyttäjätunnusta vastaava salasana.</li>
+
+  <li>Valitse Tallenna salasana, jos haluat tallentaa salasanasi turvallisesti salasanojen hallintaan siten, että sinun ei tarvitse syöttää sitä joka kerta, kun julkaiset sivuja tällä sivustolla.</li>
+
+  <li>Valitse OK.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">Oletusjulkaisusivuston muuttaminen</h3>
+
+<p>Jos olet määrittänyt useamman julkaisusivuston, mutta käytät niistä enimmäkseen vain yhtä, voit tehdä eniten käytetystä sivustosta oletuksen. &brandShortName; käyttää oletussivustoa kaikille julkaistaville dokumenteille, ellet erikseen valitse jotakin toista sivustoa.</p>
+
+<p>Voit julkaista dokumenttisi eri sivustolla valitsemalla Tiedosto-valikosta Julkaise nimellä riippumatta sivustojesi määrästä. Lisätietoja saat <a href="#changing_the_filename_or_publishing_location">Tiedostonimen tai julkaisupaikan muuttaminen</a> -aiheesta.</p>
+
+<p>Jos haluat määrittää oletusjulkaisusivuston,</p>
+
+<ol>
+  <li>Valitse Muokkaa-valikosta Sivun julkaisun asetukset.</li>
+
+  <li>Valitse julkaisusivusto luettelosta.
+
+  <p>Jos olet määrittänyt vain yhden sivuston, sitä käytetään oletussivustona automaattisesti.</p> </li>
+
+  <li>Valitse Aseta oletukseksi.</li>
+
+<li>Hyväksy muutokset valitsemalla OK.</li> </ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">Julkaisusivuston poistaminen</h3>
+
+<p>Jos poistat julkaisusivuston, sen asetukset poistuvat &brandShortName;:sta. Jos haluat julkaista poistamallasi sivustolla jälleen myöhemmin, sinun täytyy syöttää sivuston asetukset uudelleen.</p>
+
+<p>Jos haluat poistaa julkaisusivuston asetukset,</p>
+
+<ol>
+  <p>Valitse Muokkaa-valikosta Sivun julkaisun asetukset.</p>
+  
+  <li>Valitse julkaisusivusto luettelosta.</li>
+  
+  <li>Valitse Poista sivusto.
+  <p>&brandShortName; poistaa vain sivuston asetukset. Poistaminen ei vaikuta sivuston tiedostoihin.</p></li>
+
+  <li>Hyväksy muutokset valitsemalla OK.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">Palaa osan alkuun</a> ]</p>
+
+<h2 id="publishing_settings">Julkaisuasetukset</h2>
+
+<p>Tämä aihe kertoo &brandShortName;:n julkaisuasetuksista. Saat lisätietoja &brandShortName;:n yleisistä ja uuden sivun asetuksista <a href="composer_help.xhtml#composer_preferences">&brandShortName;:n asetukset</a> -aiheesta.</p>
+
+<h3 id="publish_page_publish">Julkaise sivu&nbsp;&ndash;&nbsp;Julkaise</h3>
+
+<p>Julkaise sivu -ikkunan Julkaise-välilehdellä voit asettaa, missä dokumentti julkaistaan. Asetukset koskevat ainoastaan aktiivista dokumenttia.</p>
+
+<p>Jos haluat avata Julkaise sivu -ikkunan Julkaise-välilehden,</p>
+
+<ol>
+  <li>Valitse Tiedosto-valikosta Julkaise nimellä.</li>
+
+  <li>Siirry Julkaise-välilehdelle.</li>
+</ol>
+
+<ul>
+<li><strong>Sivuston nimi:</strong> Näyttää kaikki luomasi julkaisusivustot. Valitse sivusto, jossa haluat julkaista dokumentin. Jos haluat luoda uuden sivuston, valitse Uusi sivusto.</li>
+
+<li><strong>Sivun otsikko:</strong> Kirjoita otsikko, joka näytetään selainikkunan otsikkopalkissa. Sivun otsikko näkyy myös kirjanmerkkiluettelossa, jos teet sivusta kirjanmerkin.</li>
+
+<li><strong>Tiedostonimi:</strong> Kirjoita dokumentin tiedostonimi. Kirjoita tiedostonimeen myös .html- tai .htm-pääte.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;">
+    <p><strong>Varoitus</strong>: Jos julkaisusivustolla on tiedosto, jolla on sama tiedostonimi kuin julkaistavalla sivulla, julkaisusivuston tiedosto korvataan. Tiedostoa korvattaessa ei kysytä vahvistusta.</p>
+    </li>
+
+<li><strong>Tämän sivun alihakemisto sivustossa:</strong> Jos jätät tämän ruudun tyhjäksi, &brandShortName; julkaisee dokumentin sivuston päähakemistoon. Jos haluat julkaista dokumentin johonkin päähakemiston alaiseen hakemistoon, kirjoita haluamasi hakemisto ruutuun tai valitse se luettelosta. &brandShortName; muistaa ruutuun kirjoittamasi hakemistot, joten voit valita helposti aiemmin käyttämiäsi hakemistoja. Muista, että kirjainkoolla on merkitystä hakemistonimissä.</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> 
+    <p><strong>Huom:</strong> Valitsemasi hakemiston tulee olla olemassa palvelimella.</p>
+</li>
+
+<li><strong>Sisällytä kuvat ja muut tiedostot</strong>: Jos valitset tämän ruudun, &brandShortName; julkaisee myös kuvat ja muut tiedostot, jota tämä sivu käyttää. Voit julkaista tiedostot samaan hakemistoon kuin itse sivu tai valita jonkin julkaisupäähakemiston alaisen hakemiston.</li>
+</ul>
+
+<p><strong>Vinkki</strong>: Jos haluat luoda hakemistoja tai poistaa julkaisemasi sivun tai kuvan www-palvelimelta, sinun tulee käyttää FTP-ohjelmaa (File Transfer Protocol). FTP-ohjelma on tarpeen myös, jos haluat luoda palvelimelle alihakemistoja tai nimetä tiedostoja uudelleen. Kysy palveluntarjoajasi mahdollista FTP-ohjelmasuositusta. Lisätietoja FTP-ohjelmista löytyy yleensä palveluntarjoajan www-sivuston ohje- tai tukiosasta. FTP-ohjelmia löydät mm. shareware-sivustoilta, kuten ZDNet Downloads.</p>
+
+<p class="publishing_settings">[ <a
+href="#">Palaa osan alkuun</a> ]</p>
+
+<h3 id="publish_page_settings">Julkaise sivu&nbsp;&ndash;&nbsp;Asetukset</h3>
+
+<p>Julkaise sivu -ikkunan Asetukset-välilehdellä voit määrittää julkaisusivuston kirjautumis- ja julkaisuasetuksia. Nämä asetukset vaikuttavat kaikkiin dokumentteihin, jotka julkaistaan määrittämiisi sivustoihin.</p>
+
+<p>Jos haluat avata Julkaise sivu -ikkunan Asetukset-välilehden,</p>
+
+<ol>
+  <li>Valitse Tiedosto-valikosta Julkaise nimellä.</li>
+
+  <li>Siirry Asetukset-välilehdelle.</li>
+</ol>
+
+<ul>
+  <li><strong>Sivuston nimi:</strong>: Kirjoita Sivuston nimi -ruutuun jokin sivustoa kuvaava nimi, joka auttaa sivuston tunnistamisessa.</li>
+
+  <li id="host_name_for_publishingSDX"><strong>Julkaisuosoite</strong>: Kirjoita Julkaisuosoite-ruutuun palveluntarjoajasi tai järjestelmänvalvojasi antama kokonainen osoite. Tämän osoitteen tulee alkaa <tt>ftp://</tt> tai <tt>http://</tt>. Tätä osoitetta kutsutaan usein myös isäntäpalvelimen (host) osoitteeksi.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Julkaisuosoite määrää paikan, johon dokumentit julkaistaan (kopioidaan) tällä sivustolla. Jos et ole varma oikeasta osoitteesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi.
+  </p></li>
+
+  <li><strong>Www-sivustosi HTTP-osoite</strong>: Kirjoita julkaisusivuston täydellinen osoite eli sivustosi pääsivun osoite. Älä kuitenkaan lisää osoitteeseen tiedostonimeä tai sivuston sisäisiä alihakemistoja.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+    <p>Osoitteen tulee alkaa aina <tt>http://</tt>. Joskus tämä osoite on sama kuin julkaisuosoite. Jos et ole varma osoitteesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi tai jätä se tyhjäksi.</p></li>
+
+  <li><strong>Käyttäjätunnus</strong>: Kirjoita tunnus, jolla kirjaudut palveluntarjoajasi tai www-hotellipalvelusi järjestelmään.</li>
+
+  <li><strong>Salasana</strong>: Kirjoita käyttäjätunnusta vastaava salasana.</li>
+
+  <li><strong>Tallenna salasana</strong>: Valitse tämä, jos haluat tallentaa salasanasi turvallisesti salasanojen hallintaan siten, että sinun ei tarvitse syöttää sitä joka kerta, kun julkaiset sivuja tällä sivustolla.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#publishing_settings">Palaa osan alkuun</a> ]</p>
+
+<h3 id="publish_settings">Julkaisuasetukset</h3>
+
+<p>Julkaisuasetukset-ikkunassa voit luoda, muokata ja poistaa julkaisusivustoja sekä asettaa oletussivuston.</p>
+
+<p>Jos haluat avata Julkaisuasetukset-ikkunan,</p>
+
+<ol>
+  <li>Valitse Muokkaa-valikosta Sivun julkaisun asetukset.</li>
+</ol>
+
+<ul>
+  <li><strong>Uusi sivusto</strong>: Voit luoda uuden sivuston ja määrittää sen asetukset. &brandShortName; lisää sivuston käytettävien sivustojen luetteloon.</li>
+
+  <li><strong>Aseta oletukseksi</strong>: Asettaa valitun julkaisusivuston oletussivustoksi. Yleensä oletussivustoksi kannattaa valita useimmin käytetty sivusto. &brandShortName; käyttää oletussivustoa kaikille julkaistaville dokumenteille, ellet erikseen valitse jotakin toista sivustoa.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Voit julkaista dokumenttisi eri sivustolla valitsemalla Tiedosto-valikosta Julkaise nimellä.</p>
+  </li>
+
+  <li><strong>Poista sivusto</strong>: Poistaa sivuston ja sen asetukset &brandShortName;:sta.</li>
+
+  <li><strong>Sivuston nimi</strong>: Kirjoita nimi, jolla haluat kutsua tätä sivustoa.</li>
+
+  <li><strong>Julkaisuosoite</strong>: Kirjoita palveluntarjoajasi tai järjestelmänvalvojasi antama kokonainen osoite. Tämän osoitteen tulee alkaa <tt>ftp://</tt> tai <tt>http://</tt>.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Julkaisuosoite määrää paikan, johon dokumentit julkaistaan (kopioidaan) tällä sivustolla. Jos et ole varma oikeasta osoitteesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi.</p>
+  </li>
+
+  <li><strong>Www-sivustosi HTTP-osoite</strong>: Kirjoita julkaisusivuston täydellinen osoite eli sivustosi pääsivun osoite. Älä kuitenkaan lisää osoitteeseen tiedostonimeä tai sivuston sisäisiä alihakemistoja.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>Osoitteen tulee alkaa aina <tt>http://</tt>. Joskus tämä osoite on sama kuin julkaisuosoite. Jos et ole varma osoitteesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi tai jätä se tyhjäksi.</p> </li>
+
+  <li><strong>Käyttäjätunnus</strong>: Kirjoita tunnus, jolla kirjaudut palveluntarjoajasi tai www-hotellipalvelusi järjestelmään.</li>
+
+  <li><strong>Salasana</strong>: Kirjoita käyttäjätunnusta vastaava salasana.</li>
+
+  <li><strong>Tallenna salasana</strong>: Valitse tämä, jos haluat tallentaa salasanasi turvallisesti salasanojen hallintaan siten, että sinun ei tarvitse syöttää sitä joka kerta, kun julkaiset sivuja tällä sivustolla.</li>
+</ul>
+
+<p>[ <a href="#publishing_settings">Palaa osan alkuun</a> ]</p>
+
+
+<h2 id="solving_common_publishing_problems">Yleisten julkaisuongelmien ratkaiseminen</h2>
+
+<p>Jos jotakin tiedostoistasi ei voi julkaista, Julkaisun tila -ikkuna näyttää virheilmoituksen, jonka avulla on mahdollista päätellä ongelman aiheuttaja ja korjaustapa. Saat apua julkaisuongelman ratkaisemisessa valitsemalla Julkaisun tila -ikkunassa Vianetsintä.</p>
+
+<p>Jos et edelleenkään pysty julkaisemaan tiedostoa, tallenna tiedosto kiintolevyllesi valitsemalla Tiedosto-valikosta Tallenna. Voit avata tiedoston myöhemmin ja yrittää julkaisemista uudelleen. Voit avata äskettäin käytettyjä tiedostoja nopeasti valitsemalla Tiedosto-valikosta Viimeisimmät sivut.</p>
+
+<h3 id="verifying_your_publishing_settings">Julkaisuasetusten tarkistaminen</h3>
+
+<p>Jos haluat tarkistaa julkaisuasetuksesi,</p>
+
+<ol>
+  <li>Jos Julkaisun tila -ikkuna on auki, sulje se.</li>
+
+  <li>Valitse Muokkaa-valikosta Sivun julkaisun asetukset.</li>
+
+  <li>Tarkista, että sivuston, johon yrität julkaista, asetukset ovat oikein. Jos et ole varma jostakin asetuksesta, kysy palveluntarjoajaltasi tai järjestelmänvalvojaltasi.</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;">
+      <ul>
+      <li><strong>Varmista, että olet kirjoittanut julkaisuasetukset oikein.</strong> Jossakin asetuksessa saattaa olla kirjoitusvirhe.</li>
+
+      <li><strong>Tarkista, että olet kirjoittanut oikean julkaisuosoitteen.</strong> Palveluntarjoajasi saattaa kutsua julkaisuosoitetta esimerkiksi "palvelimen osoitteeksi", "isäntäpalvelimeksi" tai "www-palvelimen nimeksi." Julkaisuosoite annetaan usein muodossa <tt>ftp.example.com/kayttajatunnus</tt>.
+
+      <p>Jotta julkaisuosoite olisi oikea, sen edessä tulee olla joko <tt>ftp://</tt> tai <tt>http://</tt>. Yllä mainittu osoite olisi oikeassa muodossaan <tt>ftp://ftp.example.com/kayttajatunnus</tt>.</p>
+      </li>
+      </ul>
+  </li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Palaa osan alkuun</a> ]</p>
+
+<h3 id="checking_your_filenames">Tiedostonimien tarkistaminen</h3>
+
+<p>Tutki niiden tiedostojen nimet, joiden julkaiseminen epäonnistui. Tarkista, että tiedostonimet täyttävät seuraavat ehdot:</p>
+
+<ul>
+  <li>Käytä nimissä vain numeroita ja joko pieniä tai isoja kirjaimia. Vaikka onkin sallittua käyttää tiedostojen nimissä myös isoja kirjaimia, vältät mahdolliset virhetilanteet julkaisemasi tiedoston löytymisessä, jos käytät nimissä ainoastaan pieniä kirjaimia.
+
+  <p>Www-palvelimella tiedostonimien kirjainkoolla on merkitystä (siis "Tiedosto.html" ja "tiedosto.html" ovat kaksi eri tiedostoa). Nimien oikean kirjainkoon muistaminen saattaa olla vaikeaa, ja siksi on hyvä noudattaa jotakin säännöllistä käytäntöä.</p>
+
+  <p>Jos esimerkiksi haluat avata sivun selaimeen kirjoittamalla sen osoitteen osoitepalkkiin, osoitteen tulee olla täsmälleen oikeassa muodossa ja isojen sekä pienten kirjainten siinä muodossa, kuin ne ovat palvelimella.</p>
+  </li>
+
+  <li>Älä käytä välimerkkejä tai välilyöntejä. Alaviivat (_) sekä tavuviivat (-) ovat kuitenkin sallittuja.</li>
+
+  <li>Päätä &brandShortName;:n dokumenttien tiedostonimet .html- tai .htm-tarkentimeen.</li>
+
+  <li>Pidä nimet alle 32 merkin mittaisina.</li>
+</ul>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Palaa osan alkuun</a> ]</p>
+
+<h3 id="fixing_publishing_errors">Julkaisuvirheiden korjaaminen</h3>
+
+<p>Jos jonkin tiedoston julkaiseminen epäonnistuu, &brandShortName; näyttää virheilmoituksen. Ilmoituksen perusteella on mahdollista päätellä ongelman syy ja sen korjaus.</p>
+
+<div class="errorMessage"> <p id="file_not_found"><strong>Virheilmoitus:</strong></p>
+
+<div class="errorBox">
+  <tt>Tiedostoa <var>tiedosto</var> ei löytynyt</tt>
+  <p>tai</p>
+<tt><var>X</var> tiedoston <var>Y</var> tiedostosta julkaiseminen epäonnistui</tt> </div>
+
+<p><strong>Virheen kuvaus:</strong> Yhtä tai useampaa kuva- tai CSS-tiedostoa ei voitu julkaista, koska &brandShortName; ei löytänyt niitä. Joitakin yleisiä syitä:</p>
+
+<ul>
+  <li>Annettu tiedoston sijainti on virheellinen.</li>
+
+  <li>Internetissä oleva tiedosto ei ole käytettävissä.</li>
+
+  <li>Tiedosto on siirretty tai poistettu.</li>
+</ul>
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Etsi rikkinäisiä kuvia sivulta, jota yrität julkaista. Rikkinäisten kuvien tilalla näkyy seuraavanlainen kuvake: <img src="images/broken.gif" width="20" height="20" alt="" />. Jos jonkin kuvan osoite täytyy korjata, avaa Kuvan ominaisuudet -ikkuna kaksoisnapsauttamalla kuvaa. Syötä sitten oikea osoite.</li>
+
+  <li>Poista kuva sivulta. Valitse kuva, ja paina sitten Askelpalautin- tai Delete-näppäintä.</li>
+
+  <li>Jos kuva ei ole käytettävissä, koska kuvan palvelimeen ei saada yhteyttä, yritä julkaisemista myöhemmin uudelleen.</li>
+
+  <li>Jos puuttuva tiedosto on CSS-tiedosto, tarkista ensin tiedoston oikea sijainti. Jos haluat korjata tiedoston osoitteen &brandShortName;:ssa, napsauta Lähdekoodi-muokkaustilan välilehteä ja korjaa sijainti lähdekoodiin. Muokkaa HTML-koodia vain, jos osaat käsitellä HTML-tageja.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Virheilmoitus:</strong></p>
+
+<div class="errorBox">
+  <tt>Alihakemistoa <var>hakemisto</var> ei ole olemassa tällä sivustolla tai tiedoston nimi <var>tiedosto</var> on jo jonkin toisen alihakemiston käytössä</tt>
+  <p>tai</p>
+  <tt>Tiedostonimi <var>tiedosto</var> on jo jonkin toisen alihakemiston käytössä.</tt>
+</div>
+
+<p><strong>Virheen kuvaus:</strong> <ol><li>Annettua alihakemistoa ei ole olemassa julkaisupalvelimella. &brandShortName; voi julkaista vain alihakemistoihin, jotka ovat jo olemassa.</li> <li>Annettu tiedostonimi on on jo jonkin palvelimen alihakemiston käytössä.</li></ol></p>
+
+<p>Mahdollisia syitä:</p>
+
+<ul>
+  <li>Julkaise sivu -ikkunan Julkaise-välilehdellä on ehkä asetettu hakemistonimi, jota ei ole olemassa palvelimella.</li>
+
+  <li>Julkaise sivu -ikkunan Julkaise-välilehdellä on ehkä valittuna "Sisällytä kuvat ja muut tiedostot" sekä "Käytä tätä sivuston alihakemistoa", ja annettua hakemistoa ei ole olemassa palvelimella.</li>
+
+  <li>Jokin julkaistava tiedosto on saman niminen kuin jokin palvelimen alihakemisto.</li>
+</ul>
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Jos haluat luoda, nimetä uudelleen tai poistaa hakemistoja www-palvelimelta, sinun tulee käyttää FTP-ohjelmaa (File Transfer Protocol). Kysy palveluntarjoajasi mahdollista FTP-ohjelmasuositusta. Lisätietoja FTP-ohjelmista löytyy yleensä palveluntarjoajan www-sivuston ohje- tai tukiosasta. FTP-ohjelmia löydät mm. shareware-sivustoilta, kuten ZDNet Downloads.</li>
+
+  <li>Älä käytä hakemistonimiä, jotka loppuvat ".html" tai ".htm". Varaa ".html"- ja ".htm"-loppuiset nimet &brandShortName;-dokumenttien käyttöön.</li>
+
+  <li>Hakemistonimissä kirjainkoolla on merkitystä, joten anna hakemistonimet täsmälleen siinä muodossa kuin ne ovat palvelimella.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="server_not_found"><strong>Virheilmoitus:</strong></p>
+
+<div class="errorBox">
+  <tt>Palvelin ei ole käytettävissä. Tarkista yhteytesi ja yritä myöhemmin uudelleen.</tt> </div>
+
+<p><strong>Virheen kuvaus:</strong> Virheellä voi olla useita syitä, mm.:</p>
+
+<ul>
+  <li>Julkaisuasetukset saattavat olla virheelliset.</li>
+
+  <li>Internet-yhteytesi on ehkä katkennut.</li>
+
+  <li>Modeemisi tai jokin muu Internet-yhteyslaite ei ehkä toimi oikein.</li>
+
+  <li>Www-palvelin, johon yrität julkaista, ei ehkä ole käytettävissä teknisestä ongelmasta tai muusta syystä johtuen.</li>
+
+  <li>Palveluntarjoajallasi tai www-hotellipalvelullasi on teknisiä ongelmia.</li>
+</ul>
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Tarkista julkaisuasetuksesi. Lisäohjeita saat <a href="#verifying_your_publishing_settings">Julkaisuasetuksien tarkistaminen</a> -aiheesta.</li>
+
+  <li>Tarkista, että Internet-yhteytesi toimii koettamalla ladata jotakin www-sivua. Varmista, että pääset selaimellasi esimerkiksi osoitteeseen <tt>http://www.mozilla.org/</tt>.</li>
+
+  <li>Jos Internet-yhteytesi ei toimi, tarkista, että kaikki laitteesi, puhelimesi, modeemisi sekä verkkoyhteytesi toimivat oikein.</li>
+
+  <li>Yritä avata selaimella jokin sivu palvelimelta, johon yrität julkaista. Jos et voi avata julkaisupalvelimen sivuja, mutta muut sivustot toimivat normaalisti, palveluntarjoajallasi saattaa olla teknisiä ongelmia.</li>
+
+  <li>Yritä julkaisemista myöhemmin. Palveluntarjoajallasi, www-tilantarjoajallasi tai www-palvelimella saattaa olla väliaikaisia teknisiä ongelmia.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_permission"><strong>Virheilmoitus</strong></p>
+
+<div class="errorBox">
+  <tt>Sinulla ei ole oikeuksia julkaista tähän sijaintiin.</tt>
+</div>
+
+<p><strong>Virheen kuvaus:</strong> Yrität julkaista sijaintiin, jota sinulla ei ole oikeus käyttää. Voit julkaista vain sijainteihin, joihin palveluntarjoajasi tai www-tilantarjoajasi on antanut sinulle käyttöoikeudet.</p>
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Tarkista, että olet antanut oikean käyttäjätunnuksen ja salasanan Sivun julkaisuasetukset -ikkunassa tai Julkaise sivu -ikkunan Julkaise-välilehdellä.</li>
+
+  <li>Kysy palveluntarjoajaltasi, mihin sinulla on oikeus julkaista sivujasi.</li>
+
+  <li>Etsi www-tilantarjoaja, jota voit käyttää sivujesi julkaisemiseen.</li>
+
+  <li>Käytä Netscapen <a href="http://mywebpage.netscape.com/" target="_blank">My Webpage</a> -palvelua, josta voit hankkia jopa 20 Mt sivutilaa.</li>
+</ul>
+</div>
+
+<div class="errorMessage"> <p id="offline_error"><strong>Virheilmoitus:</strong></p>
+
+<div class="errorBox">
+  <tt>Olet yhteydettömässä tilassa. Voit siirtyä yhteystilaan napsauttamalla ikkunan oikeassa alakulmassa olevaa kuvaketta.</tt>
+</div>
+
+<p><strong>Virheen kuvaus:</strong> Yrität julkaista sivuja, mutta &brandShortName;:n Internet-yhteys ei ole aktiivinen. Sinun täytyy olla yhteystilassa (Internet-yhteyden olla aktiivinen), jotta voisit julkaista sivuja.</p>
+
+<p>Tarkista, oletko yhteydettömässä tilassa. Jos olet yhteydettömässä tilassa, &brandShortName;:n ikkunan oikeassa alakulmassa näkyy <img src="images/offline.gif" width="32" height="21" alt="" />-kuvake.</p>
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Napsauta yhteydettömän tilan kuvaketta. Yhteystilassa kuvake muuttuu seuraavaksi: <img src="images/online.gif" width="32" height="20" alt="" />.</li>
+
+  <li>Tarkista, että Internet-yhteytesi toimii koettamalla ladata jotakin www-sivua. Varmista, että pääset selaimellasi esimerkiksi osoitteeseen <tt>http://www.mozilla.org/</tt>.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="no_disk_space"><strong>Virheilmoitus:</strong></p>
+
+<div class="errorBox">
+  <tt>Levytila ei riitä tiedoston <var>tiedosto</var> tallentamiseen.</tt> </div>
+
+<p><strong>Virheen kuvaus:</strong> Www-palvelimen kiintolevy on täynnä tai olet ylittänyt tilakiintiön, jonka palveluntarjoajasi tai tilantarjoajasi on asettanut.</p>
+
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Poista tarpeettomia tiedostoja erillisellä FTP-ohjelmalla. Kysy palveluntarjoajasi mahdollista FTP-ohjelmasuositusta. Lisätietoja FTP-ohjelmista löytyy yleensä palveluntarjoajan www-sivuston ohje- tai tukiosasta. FTP-ohjelmia löydät mm. shareware-sivustoilta, kuten ZDNet Downloads.</li>
+
+  <li>Kysy palveluntarjoajaltasi lisälevytilasta tai vaihda palveluntarjoajaan, joka tarjoaa riittävästi tilaa.</li>
+
+  <li>Jos kyseessä on työpaikkasi tai koulusi www-palvelin, kysy verkon ylläpitäjältä, voitko julkaista sivusi sijaintiin, jossa on enemmän tilaa, tai kysy mahdollisuudesta lisälevytilaan.</li>
+</ul> </div>
+
+<div class="errorMessage"> <p id="name_too_long"><strong>Virheilmoitus:</strong></p>
+
+<div class="errorBox">
+<tt>Tiedoston tai alihakemiston nimi on liian pitkä.</tt> </div>
+
+<p><strong>Virheen kuvaus:</strong> Tiedoston tai hakemiston nimessä on enemmän merkkejä kuin www-palvelintietokoneen järjestelmä tukee.</p>
+
+<p><strong>Mahdollisia ratkaisuja:</strong></p>
+
+<ul>
+  <li>Älä käytä tiedostojen ja hakemistojen nimissä yli 32 merkkiä. Jotkin käyttöjärjestelmät eivät tue yli 32 merkin pituisia nimiä.</li>
+</ul> </div>
+
+<p class="returnToSection">[ <a
+href="#solving_common_publishing_problems">Palaa osan alkuun</a> ]</p>
+
+<div class="copyrightBox"><em>21.3.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

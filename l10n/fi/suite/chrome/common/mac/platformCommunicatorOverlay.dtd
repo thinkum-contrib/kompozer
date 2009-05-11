@@ -1,0 +1,12 @@
+<!ENTITY accel.emacs_conflict "accel">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.label "Close">
+<!ENTITY findTypeLinksCmd.key "">
+<!ENTITY findTypeTextCmd.key "">
+<!ENTITY historyCmd.key "H">
+<!ENTITY printSetupCmd.accesskey "u">
+<!ENTITY printSetupCmd.label "Sivun asetukset">
+<!ENTITY quitApplicationCmd.key "Q">
+<!ENTITY quitApplicationCmd.label "Lopeta">
+<!ENTITY redoCmd.key "Z">
+<!ENTITY redoCmd.label "Tee uudelleen">

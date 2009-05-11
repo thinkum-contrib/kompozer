@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD;
+]>
+
+<!--
+Original Author:
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>&brandShortName;:n näppäinkomennot</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  </head>
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">Tässä osassa:
+     <a href="#using_shortcuts">Näppäinkomentojen käyttäminen</a>
+     <a href="#general_shortcuts">Yleisiä näppäinkomentoja</a>
+     <a href="#nvu_composition_shortcuts">&brandShortName;:n muokkaustilan 
+     näppäinkomennot</a>
+     <a href="#help_window_shortcuts">Ohjeikkunan näppäinkomennot</a>
+    </div>
+
+    <h1>&brandShortName;:n näppäinkomennot</h1>
+
+    <h2 id="using_shortcuts">Näppäinkomentojen käyttö</h2>
+
+    <p>Tämä dokumentti luetteloi näppäinkomennot seuraavassa muodossa:</p>
+
+    <p><strong>Esimerkki:</strong></p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Toiminto</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Kopioi</td>
+	  <td><span class="noMac">Ctrl+C</span><span
+	  class="mac">Cmd+C</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Suorita komento painamalla toimintonäppäin <kbd class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd> pohjaan ja paina
+    näppäinkomennon toista näppäintä <kbd>C</kbd> kerran, jonka jälkeen voit päästää toimintonäppäimen irti.</p>
+
+    <p><strong>Vinkki</strong>: Plus-merkki (+) tarkoittaa, että merkkiä ympäröiviä näppäimiä tulee painaa samaan aikaan. Jos     plus-merkkejä on enemmän kuin yksi (esimerkiksi Ctrl+Shift+C), tulee kaikkia plus-merkkejä ympäröiviä näppäimiä painaa samaan aikaan.</p>
+
+    <p><strong>Lyhenteitä:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">Control-näppäin</span><span class="mac">
+      Command-näppäin Mac OS:n näppäimistössä</span></li>
+    </ul>
+
+    <p><strong>Huomaa</strong>: Jotkut näppäinkomennot suorittavat eri
+    komentoja riippuen kohdistimen sijainnista. Jos esimerkiksi painat 
+    Home-näppäintä Windowsissa tarkastellessasi www-sivua, &brandShortName; 
+    siirtyy sivun yläreunaan. Jos painat Home-näppäintä Windowsissa
+    kun kohdistin on tekstikentässä, kohdistin siirtyy tekstikentän alkuun. 
+    </p>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="general_shortcuts">Yleisiä näppäinkomentoja</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Toiminto</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Avaa tiedosto</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Luo uusi dokumentti tai malli</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+N</td>
+	</tr>
+	<tr>
+	  <td>Avaa uusi välilehti</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+T</td>
+	</tr>
+	<tr>
+	  <td>Tallenna tiedosto</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+S</td>
+	</tr>
+	<tr>
+	  <td>Kopioi</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+C</td>
+	</tr>
+	<tr class="even">
+	  <td>Liitä</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+V</td>
+	</tr>
+	<tr>
+	  <td>Leikkaa</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+X</td>
+	</tr>
+	<tr class="even">
+	  <td>Valitse kaikki</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+A</td>
+	</tr>
+	<tr>
+	  <td>Sulje ikkuna</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Poista seuraava sana</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Del</td>
+	</tr>
+	<tr>
+	  <td>Siirry yksi sivu ylöspäin</td>
+	  <td>Page Up</td>
+	</tr>
+	<tr class="even">
+	  <td>Siirry yksi sivu alaspäin</td>
+	  <td>Page Down</td>
+	</tr>
+	<tr>
+	  <td>Siirry yksi rivi ylöspäin</td>
+	  <td>Up Arrow</td>
+	</tr>
+	<tr class="even">
+	  <td>Siirry yksi rivi alaspäin</td>
+	  <td>Down Arrow</td>
+	</tr>
+	<tr>
+	  <td>Kumoa</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Z</td>
+	</tr>
+	<tr class="even">
+	  <td>Tee uudelleen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Z</td>
+	</tr>
+	<tr>
+	  <td>Etsi</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+F</td>
+	</tr>
+	<tr class="even">
+	  <td>Etsi seuraava</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> TAI
+	  F3</span><span class="mac">Cmd+G</span></td>
+	</tr>
+	<tr>
+	  <td>Etsi edellinen</td>
+	  <td><span class="noMac">Ctrl+Shift+F</span><span
+	  class="mac">?</span></td>
+	</tr>
+	<tr>
+	  <td>Avaa ponnahdusvalikko</td>
+	  <td><span class="noMac">Shift+F10</span><span
+	  class="mac">Ctrl+Space</span></td>
+	</tr>
+	<tr class="even">
+	  <td>
+	    Avaa päävalikko <span class="noMac">(siirtyy ensimmäiseen ikkunan
+	    yläreunan pudotusvalikoista)</span>
+	  </td>
+	  <td><span class="win">Alt tai</span><span
+	  class="noMac">F10</span><span class="mac">Määritetään 
+	  näppäimistöasetusten kautta Ohjauspaneelissa</span></td>
+	</tr>
+	<tr>
+	  <td>Siirry rivin alkuun (tekstikentässä)</td>
+	  <td><span class="win">Home</span><span class="mac">Cmd + Nuoli vasemmalle
+	  </span><span class="unix">Ctrl+A</span></td>
+	</tr>
+	<tr class="even">
+	  <td>Siirry rivin loppuun (tekstikentässä)</td>
+	  <td><span class="win">End</span><span class="mac">Cmd + Nuoli oikealle
+	  </span><span class="unix">Ctrl+E</span></td>
+	</tr>
+	<tr>
+	  <td>Siirry seuraavaan välilehteen</td>
+	  <td>Ctrl+Page Down</td>
+	</tr>
+	<tr class="even">
+	  <td>Siirry edelliseen välilehteen</td>
+	  <td>Ctrl+Page Up</td>
+	</tr>
+	<tr>
+	  <td>Sulje välilehti</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+W</td>
+	</tr>
+	<tr class="even">
+	  <td>Lopeta &brandShortName;</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Q</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="nvu_composition_shortcuts">&brandShortName;:n muokkaustilan 
+    näppäinkomennot</h2>
+
+    <p>Näitä näppäinkomentoja käytetään muokattaessa HTML-sivuja 
+    &brandShortName;:lla. </p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Toiminto</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Avaa www-dokumentti mallina</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+L</td>
+	</tr>
+	<tr>
+	  <td>Julkaise</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+S</td>
+	</tr>
+	<tr class="even">
+	  <td>Tekstin koon pienentäminen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+-</td>
+	</tr>
+	<tr>
+	  <td>Tekstin koon suurentaminen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= TAI
+	  <span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>++ (plus)</td>
+	</tr>
+	<tr class="even">
+	  <td>Tekstin koon muuttaminen alkuperäiseksi (100 %)</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+O</td>
+	</tr>
+	<tr>
+	  <td>Lisää tai muokkaa linkkiä</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+L</td>
+	</tr>
+	<tr class="even">
+	  <td>Tekstin <b>lihavointi</b></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+B</td>
+	</tr>
+	<tr>
+	  <td>Tekstin <i>kursivointi</i></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+I</td>
+	</tr>
+	<tr class="even">
+	  <td>Tekstin <u>alleviivaus</u></td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+U</td>
+	</tr>
+	<tr>
+	  <td>Sisennyksen lisääminen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+[</td>
+	</tr>
+	<tr class="even">
+	  <td>Sisennyksen vähentäminen</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+]</td>
+	</tr>
+	<tr>
+	  <td>Keskeytä tekstityylit</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+Y</td>
+	</tr>
+	<tr class="even">
+	  <td>Keskeytä linkki</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift+K</td>
+	</tr>
+	<tr>
+	  <td>Valitse rivi tai sarake</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+vedä</td>
+	</tr>
+	<tr class="even">
+	  <td>Valitse solu(ja)</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+ napsautus (valitse useita vierekkäisiä soluja vetämällä tai erillisiä soluja napsauttamalla)</td>
+	</tr>
+	<tr>
+	  <td>Sivustonhallinta</td>
+	  <td>F9</td>
+	</tr>
+	<tr class="even">
+	  <td>Aloita oikeinkirjoituksen tarkistus</td>
+	  <td><span class="noMac">Ctrl+K</span><span
+	  class="mac">Cmd+K</span></td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="help_window_shortcuts">Ohjeikkunan näppäinkomennot</h2>
+
+    <p>Nämä näppäinkomennot toimivat ohjeikkunoissa.</p>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Toiminto</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Siirry seuraavan sisältöosan linkkiin</td>
+	  <td>Sarkain</td>
+	</tr>
+	<tr>
+	  <td>Näytä tai piilota sivupalkki</td>
+	  <td>F9</td>
+	</tr>
+	<tr>
+	  <td>Suurenna tekstin kokoa</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+= TAI <span
+	  class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+Shift++ (plus)</td>
+	</tr>
+	<tr>
+	  <td>Pienennä tekstin kokoa</td>
+	  <td><span class="noMac">Ctrl</span><span
+	  class="mac">Cmd</span>+- (miinus)</td>
+	</tr>
+	<tr>
+	  <td>Siirry sisällön ja sivupalkin välillä</td>
+	  <td>F6</td>
+	</tr>
+	<tr>
+	  <td>Liiku sisällysluettelossa (sisällysluettelopaneelin ollessa valittuna)
+	   </td>
+	  <td>Nuoli ylös ja Nuoli alas</td>
+	</tr>
+	<tr>
+	  <td>Vieritä paneelia (Sisältö, sisällysluettelo tai hakemisto)</td>
+	  <td>Nuoli ylös ja Nuoli alas</td>
+	</tr>
+	<tr>
+	  <td>Laajenna tai supista sisällysluettelon puurakennetta</td>
+	  <td>Nuoli ylös ja Nuoli alas</td>
+	</tr>
+	<tr>
+	  <td>Tulosta sivu</td>
+	  <td><span class="noMac">Ctrl+P</span><span
+	  class="mac">Cmd+P</span></td>
+	</tr>
+	<tr>
+	  <td>Palaa edelliselle sivulle</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span> + Nuoli vasemmalle</td>
+	</tr>
+	<tr>
+	  <td>Siirry sivu eteenpäin</td>
+	  <td><span class="noMac">Alt</span><span
+	  class="mac">Cmd</span> + Nuoli oikealle</td>
+	</tr>
+	<tr>
+	  <td>Sulje &brandShortName;:n ohjeikkuna</td>
+	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Siirry osan alkuun</a> ]</p>
+
+    <div class="copyrightBox"><em>30.5.2005</em></div>
+
+    <p>Copyright © 2004&ndash;2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label  "Oikolue">
+
+<!ENTITY misspelledWord.label  "Väärin kirjoitettu sana:">
+<!ENTITY wordEditField.label  "Korvaa sanalla:">
+<!ENTITY wordEditField.accessKey  "v">
+<!ENTITY checkwordButton.label  "Tarkista sana">
+<!ENTITY checkwordButton.accessKey  "n">
+<!ENTITY suggestions.label  "Ehdotukset:">
+<!ENTITY suggestions.accessKey  "d">
+<!ENTITY ignoreButton.label  "Ohita">
+<!ENTITY ignoreButton.accessKey  "O">
+<!ENTITY ignoreAllButton.label  "Ohita kaikki">
+<!ENTITY ignoreAllButton.accessKey  "h">
+<!ENTITY replaceButton.label  "Korvaa">
+<!ENTITY replaceButton.accessKey  "R">
+<!ENTITY replaceAllButton.label  "korvaa kaikki">
+<!ENTITY replaceAllButton.accessKey  "A">
+<!ENTITY stopButton.label  "Pysäytä">
+<!ENTITY stopButton.accessKey  "P">
+<!ENTITY userDictionary.label  "Henkilökohtainen sanasto:">
+<!ENTITY moreDictionaries.label  "Nouda lisää">
+<!ENTITY addToUserDictionaryButton.label  "Lisää sana">
+<!ENTITY addToUserDictionaryButton.accessKey  "L">
+<!ENTITY editUserDictionaryButton.label  "Muokkaa...">
+<!ENTITY editUserDictionaryButton.accessKey  "M">
+<!ENTITY recheckButton.label  "Tarkista sivu uudelleen">
+<!ENTITY recheckButton.accessKey  "T">
+<!ENTITY closeButton.label  "Sulje">
+<!ENTITY closeButton.accessKey  "S">
+<!ENTITY sendButton.label  "Lähetä">
+<!ENTITY sendButton.accessKey  "e">
+<!ENTITY languagePopup.label  "Kieli:">
+<!ENTITY languagePopup.accessKey  "K">

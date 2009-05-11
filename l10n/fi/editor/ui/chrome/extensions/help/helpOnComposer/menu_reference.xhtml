@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[ <!ENTITY % brandDTD
+SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi@yahoo.com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>&brandShortName;:n valikkojen kuvaukset</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">Tässä osassa:
+  <a href="#file">Tiedosto</a>
+  <a href="#edit">Muokkaa</a>
+  <a href="#view">Näytä</a>
+  <a href="#insert">Lisää</a>
+  <a href="#format">Muotoile</a>
+  <a href="#table">Taulukko</a>
+  <a href="#tools">Työkalut</a>
+  <a href="#help">Ohje</a>
+  </div>
+
+  <h1 id="menu_reference">&brandShortName;:n valikkojen kuvaukset</h1>
+  <div>Tässä dokumentissa kuvaillaan &brandShortName;:n pääikkunan jokaisen valikon sisältö.</div>
+
+  <h2 id="file">Tiedosto</h2>
+
+  <h3 id="new_window">Uusi</h3>
+  <p>Avaa uuden &brandShortName;-ikkunan.</p>
+
+  <h3 id="open_file">Avaa tiedosto...</h3>
+  <p>Näyttää Avaa tiedosto -valintaikkunan, jossa voit valita tiedoston paikalliselta levyltä tai verkosta. &brandShortName;:hun voit avata HTML-, HTML-mallipohja- sekä tekstitiedostoja.</p>
+
+  <h3 id="open_web_location">Avaa www-dokumentti mallina...</h3>
+  <p>Näyttää Avaa www-dokumentti mallina -ikkunan, johon voit kirjoittaa www-sivun osoitteen ja käyttää kyseistä sivua mallina, tai avata paikallisen tiedoston.</p>
+
+  <h3 id="recent_pages">Viimeisimmät sivut</h3>
+  <p>Näyttää luettelon äskettäin muokatuista sivuista.</p>
+  
+  <h3 id="close">Sulje</h3>
+  <p>Sulkee avoimen ikkunan.</p>
+
+  <h3 id="close_all">Sulje kaikki</h3>
+  <p>Sulkee kaikki ikkunan välilehdet.</p>
+  
+  <h3 id="save">Tallenna</h3>
+  <p>Tallentaa tiedoston, joka on nykyisessä välilehdessä.</p>
+  
+  <h3 id="save_as">Tallenna nimellä...</h3>
+  <p>Tallentaa nykyisessä välilehdessä olevan tiedoston uudella nimellä.</p>
+
+  <h3 id="save_character_encoding">Tallenna merkistökoodauksella...</h3>
+  <p>Voit muuttaa sivun merkistökoodausta ennen Tallenna nimellä -valintaikkunaa.</p>
+
+  <h3 id="publish">Julkaise</h3>
+  <p>Avaa Julkaise sivu -ikkunan nykyisen sivun julkaisemista varten.</p>
+
+  <h3 id="publish_as">Julkaise nimellä...</h3>
+  <p>Avaa Julkaise sivu -ikkunan nykyisen sivun julkaisemista varten. Toimii kuten Julkaise.</p>
+
+  <h3 id="revert">Palaa alkutilaan</h3>
+  <p>Kumoaa kaikki muutokset, jotka on tehty edellisen tallennuksen jälkeen.</p>
+
+  <h3 id="export_to_text">Vie tekstitiedostoon...</h3>
+  <p>Vie nykyisen dokumentin sisällön tekstitiedostoon. Dokumentin muotoilut eivät siirry tekstitiedostoon vietäessä.</p>
+
+  <h3 id="browse_page">Avaa selaimeen</h3>
+  <p>Avaa nykyisen sivun oletusselaimeen.</p>
+
+  <h3 id="page_setup">Sivun asetukset...</h3>
+  <p>Avaa Sivun asetukset -ikkunan, jossa voit määrittää tulostusasetuksia.</p>
+
+  <!-- <h3 id="print_preview">Tulostuksen esikatselu</h3>
+  <p>Avaa esikatseluikkunan, jossa dokumentti näytetään kuten se näkyy tulostettaessa.</p> -->
+
+  <h3 id="print">Tulosta...</h3>
+  <p>Avaa Tulosta-valintaikkunaan, jossa voit valita tulostimen, asettaa tulostettavien kopioiden määrän jne. Tulosta sivu valitsemalla <em>OK</em>.</p>
+
+  <h3 id="exit">Lopeta</h3>
+  <p>Sulkee kaikki &brandShortName;:n ikkunat, myös sellaiset, joissa on useampi välilehti avoinna. Jos kaikkia avoimia dokumentteja ei ole tallennettu, &brandShortName; kysyy, tallennetaanko muutokset ennen sulkemista.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="edit">Muokkaa</h2>
+
+  <h3 id="undo">Kumoa</h3>
+  <p>Kumoaa viimeisimmän muutoksen nykyisessä dokumentissa. Jos haluat perua kumoamisen, valitse Tee uudelleen.</p>
+
+  <h3 id="redo">Tee uudelleen</h3>
+  <p>Peruuttaa viimeisimmän muutosten kumoamisen.</p>
+
+  <h3 id="cut">Leikkaa</h3>
+  <p>Leikkaa valitun tekstin dokumentista ja siirtää sen leikepöydälle. Voit liittää tekstin muualle valitsemalla Liitä.</p>
+
+  <h3 id="copy">Kopioi</h3>
+  <p>Kopioi valitun tekstin dokumentista ja siirtää sen leikepöydälle. Voit liittää tekstin muualle valitsemalla Liitä.</p>
+
+  <h3 id="paste">Liitä</h3>
+  <p>Liittää Leikkaa- tai Kopioi-komennoilla leikepöydälle siirretyn tekstin kohdistimen osoittamaan paikkaan dokumentissa.</p>
+
+  <h3 id="paste_without_formatting">Liitä ilman muotoilua</h3>
+  <p>Liittää Leikkaa- tai Kopioi-komennoilla leikepöydälle siirretyn tekstin kohdistimen osoittamaan paikkaan dokumentissa. Teksti liitetään ilman muotoiluja.</p>
+
+  <h3 id="delete">Poista</h3>
+  <p>Poistaa valitun tekstin nykyisestä dokumentista.</p>
+
+  <h3 id="select_all">Valitse kaikki</h3>
+  <p>Valitsee koko dokumentin sisällön.</p>
+
+  <h3 id="find_and_replace">Etsi ja korvaa...</h3>
+  <p>Näyttää Etsi ja korvaa -valintaikkunan, jonka avulla voit etsiä tekstiä ja halutessasi korvata esiintymät toisella tekstillä. Etsintä suoritetaan nykyisessä dokumentissa.</p>
+
+  <h3 id="find_again">Etsi seuraava</h3>
+  <p>Toistaa Etsi ja korvaa -toiminnolla tehdyn etsinnän, ja etsii seuraavan esiintymän. Etsintä suoritetaan nykyisessä dokumentissa.</p>
+
+  <h3 id="find_previous">Etsi edellinen</h3>
+  <p>Toistaa Etsi ja korvaa -toiminnolla tehdyn etsinnän, ja etsii edellisen esiintymän. Etsintä suoritetaan nykyisessä dokumentissa.</p>
+
+  <h3 id="check_spelling">Oikolue</h3>
+  <p>Avaa Oikoluku-ikkunan, jonka avulla voit tarkistaa nykyisen dokumentin oikeinkirjoituksen.</p>
+
+  <h3 id="detach_from_template">Irrota mallista</h3>
+  <p>Irrottaa nykyisen dokumentin mallista, jota sen luomiseen on käytetty.</p>
+
+  <h3 id="publish_site_settings">Sivun julkaisun asetukset</h3>
+  <p>Avaa sivustonhallinnan, jossa voit muuttaa julkaisusivuston asetuksia.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="view">Näytä</h2>
+
+  <h3 id="show_hide">Palkit ja paneelit</h3>
+
+  <h4 id="composition_toolbar">Luontityökalupalkki</h4>
+  <p>Näyttää tai piilottaa luontityökalurivin, joka sisältää www-sivun kirjoittamisessa käytetyt perustyökalut (Ankkuri, Linkki, Kuva jne.)</p>
+
+  <h4 id="format_toolbar">Muotoilutyökalupalkki</h4>
+  <p>Näyttää tai piilottaa muotoilutyökalupalkin, joka sisältää useita muotoilutoimintoja.</p>
+
+  <h4 id="edit_mode_toolbar">Muokkaustilapalkki</h4>
+  <p>Näyttää tai piilottaa muokkaustilapalkin. Muokkaustilapalkki näkyy &brandShortName;:n ikkunan alaosassa, tilarivin yläpuolella. Voit siirtyä eri muokkaustiloihin (<em>HTML-tagit</em>, <em>Lähdekoodi</em> jne.) muokkaustilapalkkia käyttämällä.</p>
+
+  <h4 id="status_bar">Tilarivi</h4>
+  <p>Näyttää tai piilottaa tilarivin, joka näkyy &brandShortName;:n ikkunan alareunassa.</p>
+
+  <h4 id="rulers">Viivaimet</h4>
+  <p>Näyttää tai piilottaa vaaka- ja pystyviivaimen.</p>
+
+  <h4 id="customize_toolbar">Muokkaa työkalupalkkia</h4>
+
+  <h5 id="main_toolbar">Luontityökalupalkki</h5>
+  <p>Avaa ikkunan, jossa voit muokata luontityökalupalkkia. Voit lisätä ja poistaa painikkeita vetämällä ja pudottamalla.</p>
+
+  <h5 id="format_toolbar">Muotoilutyökalupalkki</h5>
+  <p>Avaa ikkunan, jossa voit muokata muotoilutyökalupalkkia. Voit lisätä ja poistaa painikkeita vetämällä ja pudottamalla.</p>
+
+  <h4 id="site_manager">Sivustonhallinta</h4>
+  <p>Näyttää tai piilottaa &brandShortName;:n sivustonhallintapaneelin.</p>
+
+  <h3 id="normal_edit_mode">Normaali muokkaustila</h3>
+  <p>Siirtyy Normaali-muokkaustilaan.</p>
+
+  <h3 id="html_tags">HTML-tagit</h3>
+  <p>Siirtyy HTML-tagit-muokkaustilaan.</p>
+
+  <h3 id="html_source">Lähdekoodi</h3>
+  <p>Siirtyy Lähdekoodi-muokkaustilaan.</p>
+
+  <h3 id="preview">Esikatselu</h3>
+  <p>Siirtyy Esikatselu-muokkaustilaan.</p>
+
+  <!-- <h3 id="carriage_returns">Kappaleenvaihdot</h3>
+  <p>Näyttää tai piilottaa kappaleenvaihtomerkit.</p> -->
+
+  <h3 id="block_outline">Reunus lohkojen ympärillä</h3>
+  <p>Näyttää tai piilottaa reunuksen, joka näytetään lohkoelementtien ympärillä.</p>
+
+  <h3 id="text_zoom">Tekstin koko</h3>
+
+  <h4 id="text_zoom_smaller">Pienennä</h4>
+  <p>Pienentää sivun tekstin kokoa. Voit tehdä tämän myös hiirellä: pidä <kbd>Ctrl</kbd> painettuna ja liikuta hiiren rullaa alaspäin. Voit palauttaa tekstin koon normaaliksi painamalla <kbd>Ctrl</kbd>+<kbd>0</kbd>.</p>
+
+  <h4 id="text_zoom_larger">Suurenna</h4>
+  <p>Suurentaa sivun tekstin kokoa. Voit tehdä tämän myös hiirellä: pidä <kbd>Ctrl</kbd> painettuna ja liikuta hiiren rullaa ylöspäin. Voit palauttaa tekstin koon normaaliksi painamalla <kbd>Ctrl</kbd>+<kbd>0</kbd>.</p>
+
+  <h3 id="character_encoding">Merkistökoodaus</h3>
+  <p>Voit asettaa www-sivun merkistökoodauksen käsin. Tavallisesti &brandShortName; tekee tämän automaattisesti.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="insert">Lisää</h2>
+
+  <p>Voit lisätä dokumenttiin erilaisia HTML-elementtejä Lisää-valikosta.</p>
+
+  <h3 id="insert_image">Kuva...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin kuvan.</p>
+
+  <h3 id="insert_table">Taulukko...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin taulukon.</p>
+
+  <h3 id="insert_form">Lomake...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin lomakkeen.</p>
+
+  <h3 id="insert_link">Linkki...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin linkin. Jos dokumentista on valittu tekstiä, valinnasta tehdään linkki. Voit myös määrittää Ystävyys (XFN) -asetuksia valitsemalla valintaikkunassa "Lisää ominaisuuksia."</p>
+
+  <h3 id="named_anchor">Nimetty ankkuri...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin nimetyn ankkurin.</p>
+
+  <h3 id="horizontal_line">Vaakaviiva</h3>
+  <p>Lisää vaakaviivan dokumenttiin.</p>
+
+  <h3 id="html">HTML...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit käsin lisätä dokumenttiin HTML-koodia. Tämän valinnan kautta voit lisätä myös kommentteja, komentosarjakoodia jne.</p>
+
+  <h3 id="character_and_symbols">Merkit ja symbolit...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin merkkejä ja symboleja.</p>
+
+  <h3 id="table_of_contents">Sisällysluettelo...</h3>
+  <p>Avaa valintaikkunan, jonka avulla voit lisätä dokumenttiin sisällysluettelon. Sisällysluettelo voidaan muodostaa otsikkotasojen 1&ndash;6 sekä div- ja p-tagien perusteella.</p>
+
+  <h3 id="smart_widgets">Älykkäät elementit</h3>
+  <p>Lisää älykkäitä elementtejä dokumenttiin.</p>
+
+  <h4 id="made_with_nvu">Tehty Nvu:lla -painike</h4>
+  <p>Lisää dokumenttiin "Tehty Nvu:lla" -painikkeen.</p>
+
+  <h4 id="calendar">Kalenteri</h4>
+  <p>Lisää dokumenttiin kalenteriolion.</p>
+
+  <h3 id="templates">Mallit</h3>
+  <p>Kun kirjoitat mallisivua, voit lisätä malliin muokattavia alueita tästä valikosta.</p>
+
+  <h3 id="php_code">PHP-koodi</h3>
+  <p>Lisää dokumenttiin PHP-koodia.</p>
+
+  <h3 id="comment">Kommentti</h3>
+  <p>Lisää kommentin HTML-dokumenttiin.</p>
+
+  <h3 id="break_below_images">Rivinvaihto kuvien jälkeen</h3>
+  <p>Lisää kuvien perään rivinvaihdon, jotta kuvan jälkeen kirjoitettu teksti tulee kuvan alapuolelle.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="format">Muotoile</h2>
+
+  <p>Muotoile-valikko sisältää erilaisia muotoilutoimintoja.</p>
+
+  <h3 id="font">Kirjasinlaji</h3>
+
+  <p>Valitse kirjasinlaji, jota haluat käyttää valitussa tekstissä. Luettelo sisältää kaikki tietokoneeseesi asennetut kirjasinlajit.</p>
+
+  <h3 id="size">Koko</h3>
+  <p>Pienennä- ja Suurenna-valinnat muuttavat &brandShortName;:ssa näytettävän tekstin kokoa.</p>
+  <p>Muut valinnat muuttavat valitun tekstin kirjasinkokoa dokumentissa.</p>
+
+  <h3 id="text_style">Tekstin tyyli</h3>
+  <p>Voit asettaa valitun tekstin HTML-tyylin.</p>
+
+  <h4 id="text_style_bold">Lihavoitu</h4>
+  <p>Lihavoi valitun tekstin. Esimerkki: <b>lihavoitu</b>.</p>
+
+  <h4 id="text_style_italic">Kursivoitu</h4>
+  <p>Kursivoi valitun tekstin. Esimerkki: <i>kursivoitu</i>.</p>
+
+  <h4 id="text_style_italic">Alleviivattu</h4>
+  <p>Alleviivaa valitun tekstin. Esimerkki: <u>alleviivattu</u>.</p>
+
+  <h4 id="text_style_strikethrough">Yliviivaa</h4>
+  <p>Yliviivaa valitun tekstin. Esimerkki: <span style="text-decoration: line-through;">yliviivattu</span>.</p>
+
+  <h4 id="text_style_superscript">Yläindeksi</h4>
+  <p>Muotoilee valitun tekstin yläindeksiksi. Esimerkki: <sup>yläindeksi</sup>.</p>
+
+  <h4 id="text_style_subscript">Alaindeksi</h4>
+  <p>Muotoilee valitun tekstin alaindeksiksi. Esimerkki: <sub>alaindeksi</sub>.</p>
+
+  <h4 id="text_style_fixed_width">Kiinteäleveyksinen</h4>
+  <p>Muuttaa valitun tekstin kirjasinlajin kiinteäleveyksiseksi. Esimerkki: <span style="font-family: monospace;">kiinteäleveyksinen teksti</span>.</p>
+
+  <h4 id="text_style_non_breaking">Rivittymätön</h4>
+  <p>HTML-koodissa olevat useat peräkkäiset välilyönnit tulkitaan yhtenä välilyöntinä, ja välilyöntien kohdalta voi oletuksena rivittää. Jos haluat käyttää rivittymättömiä välilyöntejä, valitse kirjoittamasi välilyönnit, ja valitse sitten Muotoile | Tekstin tyyli | Rivittymätön. Esimerkki: kolme rivittymätöntä&nbsp;&nbsp;&nbsp;välilyöntiä.</p>
+
+  <h4 id="text_style_emphasis">Korostettu</h4>
+  <p>Korostaa valitun tekstin. Esimerkki: <em>korostettu</em>.</p>
+
+  <h4 id="text_style_stronger_emphasis">Vahvennettu</h4>
+  <p>Vahventaa valitun tekstin. Esimerkki: <strong>vahvennettu</strong>.</p>
+
+  <h4 id="text_style_citation">Sitaatti</h4>
+  <p>Muotoilee valitun tekstin sitaatiksi. Esimerkki: <cite>sitaatti</cite>.</p>
+
+  <h4 id="text_style_abbreviation">Lyhenne</h4>
+  <p>Merkitsee valitun tekstin lyhenteeksi. Esimerkki: <abbr>esim.</abbr></p>
+
+  <h4 id="text_style_acronym">Kirjainlyhenne</h4>
+  <p>Merkitsee valitun tekstin kirjainlyhenteeksi. Esimerkki: <acronym>www</acronym>.</p>
+
+  <h4 id="text_style_code">Koodi</h4>
+  <p>Muotoilee valitun tekstin koodiksi. Esimerkki: <code>koodia</code>.</p>
+
+  <h4 id="text_style_sample_output">Malliteksti</h4>
+  <p>Muotoilee ja merkitsee valitun tekstin mallikoodiksi tai näytöllä näkyväksi mallitekstiksi. Esimerkki: <samp>mallitekstiä</samp>.</p>
+
+  <h4 id="text_style_variable">Muuttuja</h4>
+  <p>Muotoilee ja merkitsee valitun tekstin muuttujaksi. Esimerkki: <var>muuttuja</var>.</p>
+
+  <h3 id="text_color">Tekstin väri...</h3>
+  <p>Avaa värinvalitsimen, josta voit asettaa valitun tekstin värin.</p>
+
+  <h3 id="writing_direction">Kirjoitussuunta</h3>
+  <p>Voit valita, kirjoitetaanko ja näytetäänkö teksti vasemmalta oikealle vai oikealta vasemmalle. Valitun tekstin tulee olla lohko- eikä rivitekstiä.</p>
+
+  <h3 id="discontinue_text_styles">Keskeytä tekstityylit</h3>
+  <p>Poistaa tekstityylin käyttämisen kohdistimen sijainnista alkaen.</p>
+
+  <h3 id="discontinue_link">Keskeytä linkki</h3>
+  <p>Lopettaa linkin kohdistimen sijaintiin.</p>
+
+  <h3 id="remove_named_anchors">Poista nimetyt ankkurit</h3>
+  <p>Poistaa valitun nimetyn ankkurin.</p>
+
+  <h3 id="paragraph">Kappale</h3>
+  <p>Voit muotoilla valitun tekstin leipätekstiksi, kappaletekstiksi, otsikkotasoiksi 1&ndash;6, osoitteeksi tai esimuotoilluksi.</p>
+
+  <h3 id="list">Luettelo</h3>
+  <p>Luo luettelon, jonka kohdat ovat joitakin seuraavista tyypeistä: järjestämätön, numeroitu, termi tai luettelo. Voit muokata luettelon ominaisuuksia valitsemalla Luettelon ominaisuudet.</p>
+
+  <h3 id="increase_indent">Lisää sisennystä</h3>
+  <p>Lisää valitun tekstilohkon sisennystä.</p>
+
+  <h3 id="decrease_indent">Vähennä sisennystä</h3>
+  <p>Vähentää valitun tekstilohkon sisennystä.</p>
+
+  <h3 id="align">Tasaus</h3>
+  <p>Aseta valitun tekstin tasaus. Voit tasata tekstin vasempaan, oikeaan tai molempiin reunoihin tai keskittää sen.</p>
+
+  <h3 id="positioning_grid">Asetteluruudukko</h3>
+  <p>Avaa Kohdista ruudukkoon -valintaikkunan, jossa voit asettaa kerrosten asettelua helpottavan ruudukon koon.</p>
+
+  <h3 id="advanced_properties">Lisäominaisuudet</h3>
+  <p>Avaa Lisäominaisuuksien muokkaus -ikkunan, jossa voit lisätä ja muokata HTML-attribuutteja, sisällytettyjä tyylejä ja JavaScript-tapahtumia.</p>
+
+  <h3 id="page_colors_and_background">Sivun värit ja tausta...</h3>
+  <p>Avaa Sivun värit ja tausta -ikkunan, jossa voit valita väri- ja tausta-asetuksia. Voit valita normaalin tekstin ja erilaisten linkkien värin. Voit myös valita sivulle taustavärin ja -kuvan.</p>
+
+  <h3 id="page_title_and_properties">Sivun otsikko ja ominaisuudet...</h3>
+  <p>Avaa Sivun ominaisuudet -ikkunan, jossa voit asettaa sivun otsikon, tekijän ja kuvauksen. Voit myös määrittää dokumentin kielen sekä kirjoitussuunnan. Jos haluat tehdä dokumentista mallin, valitse Tämä sivu on malli.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="table">Taulukko</h2>
+
+  <p>Taulukko-valikon avulla voit lisätä ja muokata HTML-taulukoita.</p>
+
+  <h3 id="table_insert">Lisää</h3>
+  <p>Avaa alivalikon, jossa on erilaisia taulukon luonti- ja muokkaustoimintoja.</p>
+
+  <h4 id="insert_table">Taulukko</h4>
+  <p>Avaa Lisää taulukko -ikkunan, jossa voit valita lisättävän taulukon ominaisuuksia. Taulukon koon voi valita ruudukkoa napsauttamalla tai antamalla tarkan koon. Voit myös valita mm. solujen välistyksen ja täytteen.</p>
+
+  <h4 id="insert_row_above">Rivi yläpuolelle</h4>
+  <p>Lisää tyhjän rivin taulukon aktiivisen rivin <em>yläpuolelle</em>.</p>
+
+  <h4 id="insert_row_below">Rivi alapuolelle</h4>
+  <p>Lisää tyhjän rivin taulukon aktiivisen rivin <em>alapuolelle</em>.</p>
+
+  <h4 id="insert_column_before">Sarake vasemmalle</h4>
+  <p>Lisää tyhjän sarakkeen taulukon aktiivisen sarakkeen <em>vasemmalle puolelle</em>.</p>
+
+  <h4 id="insert_column_after">Sarake oikealle</h4>
+  <p>Lisää tyhjän sarakkeen taulukon aktiivisen sarakkeen <em>oikealle puolelle</em>.</p>
+
+  <h4 id="insert_cell_before">Solu eteen</h4>
+  <p>Lisää tyhjän solun taulukon aktiivisen solun <em>eteen</em>.</p>
+
+  <h4 id="insert_cell_after">Solu perään</h4>
+  <p>Lisää tyhjän solun taulukon aktiivisen solun <em>perään</em>.</p>
+
+  <h3 id="table_select">Valitse</h3>
+  <p>Valitsee taulukon eri osia.</p>
+
+  <h4 id="select_table">Taulukko</h4>
+  <p>Valitsee koko taulukon.</p>
+
+  <h4 id="select_row">Rivi</h4>
+  <p>Valitsee aktiivisen rivin.</p>
+
+  <h4 id="select_column">Sarake</h4>
+  <p>Valitsee aktiivisen sarakkeen.</p>
+
+  <h4 id="select_all_cells">Kaikki solut</h4>
+  <p>Valitsee kaikki solut. Tämä valinta eroaa koko taulukon valitsemisesta siinä, että muutokset kohdistuvat vain soluihin, ei taulukkoon.</p>
+
+  <h3 id="table_delete">Poista</h3>
+  <p>Poistaa taulukon eri osia.</p>
+
+  <h4 id="delete_table">Taulukko</h4>
+  <p>Poistaa koko taulukon.</p>
+
+  <h4 id="delete_rows">Rivit</h4>
+  <p>Poistaa aktiivisen rivin tai valitut rivit.</p>
+
+  <h4 id="delete_columns">Sarakkeet</h4>
+  <p>Poistaa aktiivisen sarakkeen tai valitut sarakkeet.</p>
+
+  <h4 id="delete_cells">Solut</h4>
+  <p>Poistaa aktiivisen solun tai valitut solut.</p>
+
+  <h4 id="delete_cell_contents">Solun sisältö</h4>
+  <p>Poistaa aktiivisen solun sisällön.</p>
+
+  <h3 id="join_with_cell_to_the_right">Yhdistä oikeanpuoleiseen soluun</h3>
+  <p>Yhdistää aktiivisen solun oikeanpuoleiseen soluun.</p>
+
+  <h3 id="split_cell">Jaa solu</h3>
+  <p>Jakaa solun, joka koostuu yhdistetyistä soluista.</p>
+
+  <h3 id="create_table_from_selection">Luo taulukko valinnasta</h3>
+  <p>Luo valitusta tekstistä taulukon. Jokaisesta kappaleesta luodaan taulukon rivi. Voit valita sarake-erottimeksi pilkun, välilyönnin tai jonkin muun merkin.</p>
+
+  <h3 id="table_or_cell_background_color">Taulukon tai solun taustaväri...</h3>
+  <p>Avaa valintaikkunan, jossa voit asettaa taulukon tai solun taustavärin.</p>
+
+  <h3 id="table_properties">Taulukon ominaisuudet...</h3>
+  <p>Avaa Taulukon ominaisuudet -ikkunan, jossa voit asettaa taulukon ja solujen ominaisuuksia.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="tools">Työkalut</h2>
+  <h3 id="markup_cleaner">Merkkauksen siistijä</h3>
+  <p>Avaa Merkkauksen siistijä -ikkunan. Merkkauksen siistijä poistaa HTML-koodista turhia osia, kuten ylimääräiset rivinvaihdot ja tyhjät elementit.</p>
+
+  <h3 id="validate_html">Tarkasta HTML-koodi</h3>
+  <p>Avaa ikkunan, jossa näytetään <a href="http://validator.w3.org">W3C:n HTML-tarkastajan</a> tulokset.</p>
+
+  <h3 id="css_editor">CSS-editori</h3>
+  <p>Avaa &brandShortName;:n sisäänrakennetun CaScadeS-CSS-editorin.</p>
+
+  <h3 id="extensions">Laajennukset</h3>
+  <p>Avaa Laajennukset-ikkunan, jossa voit asentaa tai poistaa laajennuksia. Laajennukset lisäävät ominaisuuksia &brandShortName;:hun.</p>
+
+  <h3 id="themes">Teemat</h3>
+  <p>Avaa Teemat-ikkunan, jossa voit asentaa ja poistaa &brandShortName;:n teemoja.</p>
+
+  <h3 id="web_development">Web-työkalut</h3>
+  <p>Erilaisia &brandShortName;:n www-kehitystyökaluja.</p>
+
+  <h4 id="javascript_console">JavaScript-konsoli</h4>
+  <p>Avaa JavaScript-konsolin.</p>
+
+  <h4 id="java_console">Java-konsoli</h4>
+
+  <p>Avaa Java-konsolin.</p>
+
+  <!-- <h4 id="dom_inspector">DOM-tutkija</h4>
+
+  <p>Avaa Document Object Model (DOM) -tutkijan.</p>
+
+  <h4 id="javascript_debugger">Javascript-virheenetsintä</h4>
+
+  <p>Avaa Venkman-Javascript-vrheenetsijän.</p> -->
+
+  <h3 id="preferences">Asetukset</h3>
+  <p>Avaa Asetukset-ikkunan, jossa voit muokata &brandShortName;:n asetuksia.</p>
+
+  <p class="returnToSection">[ <a
+  href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <h2 id="help">Ohje</h2>
+
+  <h3 id="help_contents">Ohjeen aiheet</h3>
+  <p>Avaa ohjeikkunan.</p>
+
+  <h3 id="nvu_website">&brandShortName;:n www-sivu</h3>
+
+  <p>Avaa &brandShortName;:n www-sivun selaimeen.</p>
+
+  <h3 id="nvu_faq">FAQ</h3>
+
+  <p>Avaa &brandShortName;:n FAQ-sivun selaimeen.</p>
+
+  <h3 id="bug_reports_and_suggestions">Vikaraportit ja ehdotukset</h3>
+
+  <p>Avaa &brandShortName;:n vikaraportti- ja ehdotussivun selaimeen.</p>
+
+  <h3 id="developers_community">Kehittäjien yhteisö</h3>
+
+  <p>Avaa &brandShortName;:n kehittäjäsivuston selaimeen.</p>
+
+  <h3 id="localizing_nvu">&brandShortName;:n lokalisointi</h3>
+  <p>Avaa sivun, jossa on ohjeita &brandShortName;:n lokalisointia varten.</p>
+
+  <h3 id="forums">Keskustelualueet</h3>
+
+  <p>Avaa &brandShortName;:n keskustelualuesivuston selaimeen.</p>
+
+  <h3 id="tip_of_day">Päivän vinkki</h3>
+
+  <p>Näyttää Päivän vinkki -ikkunan.</p>
+
+  <h3 id="about_nvu">Tietoja &brandShortName;:sta</h3>
+  <p>Näyttää Tietoja &brandShortName;:sta -ikkunan, josta näet mm. ohjelman versionumeron sekä lyhyen luettelon tekijöistä.</p>
+
+  <p class="returnToSection">[ <a href="#menu_reference">Palaa osan alkuun</a> ]</p>
+
+  <div class="copyrightBox"><em>21.3.2005</em></div>
+
+  <p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+
+</html>

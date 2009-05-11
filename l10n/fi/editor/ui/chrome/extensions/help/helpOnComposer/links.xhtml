@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+  <a href="composer_help.xhtml#starting_a_new_page">Uuden sivun aloittaminen</a>
+
+  <a href="formatting_webpages.xhtml">Www-sivujen muotoileminen</a>
+
+  <a href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a>
+
+  <a href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a>
+
+  <a href="images.xhtml">Kuvien lisääminen www-sivuille</a>
+
+  <a href="toc.xhtml">Sisällysluettelon luominen ja muokkaaminen</a>
+
+  <a href="templates.xhtml">Mallisivujen käyttäminen</a>
+
+  <a href="page_properties.xhtml">Sivun ominaisuuksien asettaminen</a>
+
+  <a href="links.xhtml">Linkkien luominen &brandShortName;:ssa</a>
+
+  <a href="customize.xhtml">&brandShortName;:n muokkaaminen</a>
+
+</div>
+
+<h2 id="creating_links_in_composer">Linkkien luominen &brandShortName;:ssa</h2>
+
+<h3 id="creating_links_within_the_same_page">Sivunsisäisten linkkien luominen</h3>
+
+<p>Jos haluat luoda sivunsisäisen linkin, jonka avulla voi esimerkiksi hypätä sivun osasta toiseen, sinun tulee ensin luoda <em>ankkuri</em> ja sitten linkki, joka osoittaa ankkuriin. Ankkureita kutsutaan myös <em>nimetyiksi ankkureiksi</em>.</p>
+
+<ol>
+  <li>Siirrä kohdistin ankkuroitavan rivin alkuun tai valitse tekstiä.</li>
+  
+  <li>Valitse luontityökalupalkista Ankkuri <img src="images/anchor.png" width="26" height="26" alt="" />, tai valitse Lisää-valikosta Nimetty ankkuri. Nimetyn ankkurin ominaisuudet -ikkuna avautuu.</li>
+  
+  <li>Kirjoita ankkurille nimi, jota ei ole millään muulla sivun ankkurilla, ja joka on enintään 30 merkkiä pitkä. Jos nimi sisältää välilyöntejä, ne muunnetaan alaviivoiksi (_). Jos valitsit tekstiä ensimmäisessä kohdassa, valittu teksti on Ankkurin nimi -ruudussa.</li>
+  
+  <li>Valitse OK. Ankkurin paikka merkitään dokumenttiin ankkurikuvakkeella <img src="images/anchor-in-doc.gif" width="20" height="17" alt="" /></li>
+</ol>
+
+<p>Jos haluat luoda linkin, josta voi siirtyä ankkuriin:</p>
+
+<ol>
+  <li>Valitse teksti tai kuva, josta haluat luoda linkin.</li>
+
+  <li>Valitse luontityökalupalkista Linkki, tai valitse Lisää-valikosta Linkki. Linkin ominaisuudet -valintaikkuna avautuu.
+  
+  <ul>
+    <li>Jos haluat luoda linkin tietokoneellasi olevaan HTML-tiedostoon, paikanna tiedosto valitsemalla Valitse tiedosto.</li>
+    
+    <li>Jos haluat luoda linkin nimettyyn ankkuriin, valitse ankkuri pudotusvalikosta.</li>
+    
+    <li>Jos haluat luoda linkin otsikkoon (Otsikko 1&nbsp;&ndash;&nbsp;Otsikko 6), valitse haluamasi otsikko pudotusvalikosta.</li>
+    
+  </ul>
+  </li>
+  
+  <li>Valitse OK.</li> 
+</ol>
+
+<p><strong>Huom</strong>: Jos haluat testata juuri luomaasi linkkiä, valitse Tiedosto-valikosta Avaa selaimeen.</p>
+
+<p><strong>Vinkki</strong>: Jos et ole luonut nimettyjä ankkureita, voit luoda linkkejä myös otsikoihin Linkin ominaisuudet -valintaikkunassa.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="creating_links_to_other_pages">Linkkien luominen muihin sivuihin</h3>
+
+<p>Voit luoda linkkejä, jotka osoittavat esimerkiksi omalla tietokoneellasi tai työpaikkasi verkossa oleviin, paikallisiin sivuihin tai Internetissä oleviin sivuihin.</p>
+
+<p><strong>Vinkki</strong>: On suositeltavaa, että tallennat tai julkaiset sivun ennen linkkien luomista muihin sivuihin. Tällöin &brandShortName; osaa automaattisesti käyttää suhteellisia viittauksia luomissasi linkeissä.</p>
+
+<p id="to_create_a_link_to_another_page">Jos haluat luoda linkin, joka osoittaa jollekin toiselle sivulle:</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, johon haluat lisätä linkin, tai valitse teksti tai kuva, josta haluat tehdä linkin.</li>
+  
+  <li>Valitse luontityökaluriviltä Linkki. Linkin ominaisuudet -valintaikkuna avautuu.</li>
+  
+  <li>Määritä linkin asetukset:
+  
+  <ul>
+    <li><strong>Linkin teksti</strong>: Jos olet valinnut tekstiä tai kuvan, valittu teksti tai kuvatiedoston nimi näkyy tässä. Muutoin kirjoita linkin teksti tähän.</li>
+
+    <li><strong>Linkin kohde</strong>: Kirjoita paikallisen sivun sijainti tai Internetissä olevan sivun osoite tähän. Jos haluat paikantaa paikallisen tiedoston kiintolevyltä tai verkosta, valitse Valitse tiedosto. Voit halutessasi kopioida Internetissä olevan sivun osoitteen selaimen osoitepalkista. Voit myös valita pudotusvalikosta jonkin nykyisen sivun nimetyn ankkurin tai otsikon.</li>
+    
+    <li><strong>Osoite on suhteellinen</strong>: Jos tämä ruutu on valittu, &brandShortName; muuntaa kohdesivun osoitteen (URL:n) suhteelliseksi nykyisen sivun osoitteeseen nähden. Tämä asetus on erityisen hyödyllinen, jos aiot julkaista sivusi www-palvelimella. Jos käytät suhteellisia osoitteita, voit pitää kaikki linkitetyt tiedostot samassa paikassa riippumatta niiden todellisesta sijainnista kiintolevyllä tai www-palvelimella.
+    
+    <p>Jos poistat valinnan tästä ruudusta, &brandShortName; muuntaa osoitteen täydelliseksi (absoluuttiseksi) osoitteeksi. Absoluuttisia osoitteita käytetään yleensä kuvissa, jotka ladataan toisilta www-palvelimilta (ja joita ei ole siis tallennettu paikallisesti kiintolevylle).</p>
+    
+    <p>Jotta voisit valita tämän ruudun, dokumentin tulee olla tallennettu tai julkaistu ainakin kerran.</p>
+    </li>
+  </ul>
+  </li>
+  <p><strong>Huom</strong>: Jos haluat asettaa muita attribuutteja tai JavaScript-tapahtumia, avaa <a href="formatting_webpages.xhtml#using_the_advanced_property_editor">Lisäominaisuuksien muokkaus</a> -ikkuna valitsemalla Laajennettu muokkaus.</p>
+  
+  <li>Valitse OK.</li>
+  
+<p><strong>Huom</strong>: Jos haluat testata juuri luomaasi linkkiä, valitse Tiedosto-valikosta Avaa selaimeen. Napsauta linkkiä, ja näet, toimiiko se halutulla tavalla.</p>
+
+</ol>
+
+<p><strong>Vinkki</strong>: Jos haluat lisätä linkin sivulle nopeasti, voit tehdä sen vetämällä ja pudottamalla osoitteen toisesta ikkunasta. Voit vetää linkin esimerkiksi www-sivulta, kirjanmerkistä tai sähköpostista ja pudottaa sivulle. Voit myös napsauttaa www-sivun linkkiä hiiren kakkospainikkeella (Mac OS: napsauta Control pohjassa) ja valita Kopioi linkin osoite. Liitä sitten osoite Linkin ominaisuudet -ikkunan Linkin kohde -ruutuun.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="adding_xfn_information_within_your_links">XFN-tietojen lisääminen linkkeihin</h3>
+
+<p>&brandShortName;:ssa voit lisätä linkkeihisi <a target="_blank" href="http://gmpg.org/xfn/">XFN-tietoja</a> (XHTML Friends Network). XFN-järjestelmä on yksinkertainen tapa esittää ihmissuhteita hyperlinkkien avulla. Jos haluat lisätä linkkeihin XFN-tietoja,</p>
+
+<ol>
+  <li>Napsauta hiiren kakkospainikkeella linkkiä, johon haluat lisätä XFN-tietoja.</li>
+  <li>Valitse "Linkin ominaisuudet".</li>
+  <li>Valitse Linkin ominaisuudet -ikkunassa Enemmän ominaisuuksia.</li>
+  <li>Valitse sopivat Ystävyys-osan ruudut (XFN-tiedot).</li>
+  <li>Valitse OK.</li>
+</ol>
+
+<p><strong>Huom</strong>: Osa XFN-tiedoista on toisensa poissulkevia.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="using_images_as_links">Kuvien käyttäminen linkkeinä</h3>
+
+<p>Voit käyttää myös kuvia linkkeinä. Kun sivun lukija napsauttaa linkkikuvaa, selain siirtyy linkin kohdesivulle.</p>
+
+<ol>
+  <li>Valitse haluamasi kuva sivulta.</li>
+
+  <li>Valitse Lisää-valikosta tai luontityökaluriviltä Linkki <img src="images/link.png" width="26" height="26" alt="" />.</li>
+  
+  <li>Linkitä kuva Linkin ominaisuudet -ikkunassa <a href="#creating_links_within_the_same_page">nimettyyn ankkuriin tai sivun otsikkoon</a> tai <a href="#creating_links_to_other_pages">erilliseen, paikalliseen tai Internetissä olevaan sivuun</a>.</li>
+</ol>
+
+<p><strong>Vinkki</strong>: Voit vetää linkkikuvan selaimesta ja pudottaa sen &brandShortName;:hun, jolloin sekä kuva että linkki kopioituvat.</p>
+
+<p><strong>Huom</strong>: Jos haluat poistaa sinisen reunan linkkikuvien ympäriltä, avaa Linkin ominaisuudet -ikkuna, siirry Linkki-välilehdelle ja poista valinta Näytä reunus linkkinä toimivan kuvan ympärillä -ruudusta.</p>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="removing_or_discontinuing_links">Linkkien poistaminen tai keskeyttäminen</h3>
+
+<p>Jos haluat poistaa linkin,</p>
+
+<ol>
+  <li>Valitse linkkiteksti (tavallisesti sininen ja alleviivattu) tai -kuva.</li>
+
+  <li>Valitse Muotoile-valikosta Poista linkit.</li>
+</ol>
+
+<p>Jos haluat keskeyttää linkin siten, että kirjoittamasi teksti ei enää kuulu linkkiin,</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, johon haluat lopettaa linkin.</li>
+
+  <li>Valitse Muotoile-valikosta Keskeytä linkki.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#creating_links_in_composer">Palaa osan alkuun</a>
+]</p>
+
+<p>[<a href="customize.xhtml">Seuraava</a>] [<a href="page_properties.xhtml">Edellinen</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

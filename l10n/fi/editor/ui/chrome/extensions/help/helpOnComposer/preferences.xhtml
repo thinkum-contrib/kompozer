@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Contributor(s):
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>&brandShortName;:n asetukset</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">
+
+    <a href="#preferences_general_settings">Yleiset asetukset</a>
+
+    <a href="#preferences_fonts">Kirjasinlajit</a>
+
+    <a href="#preferences_new_page_settings">Uuden sivun asetukset</a>
+
+    <a href="#preferences_advanced_settings">Lisäasetukset</a>
+
+  </div>
+
+  <h1 id="preferences">&brandShortName;:n asetukset</h1>
+
+  <p>Asetukset-ikkuna sisältää useita keskeisiä, &brandShortName;:n 
+  toimintaan vaikuttavia asetuksia.</p>
+
+  <p>Tämä ohje kuvailee &brandShortName;:n asetukset ja niiden merkityksen. 
+  Jos haluat avata Asetukset-ikkunan,</p>
+
+  <ol>
+
+    <li>Avaa Asetukset-ikkuna valitsemalla valikosta <span class="menuPath">Työkalut | Asetukset</span>.</li>
+
+    <li>Valitse haluamasi asetusryhmä vasemmanpuolisesta luettelosta.</li>
+  </ol>
+
+  <p>Jos haluat lisätietoja julkaisuasetuksista, katso <a href="publishing_help.xhtml#publishing_settings">
+  Julkaisuasetukset</a> -aihe.</p>
+
+  <h2 id="preferences_general_settings">Yleiset asetukset</h2>
+
+  <p>Yleiset asetukset sisältävät tiedostojen tallentamiseen ja 
+  taulukkojen muokkaamiseen liittyvät asetukset. Nämä asetukset
+  vaikuttavat jokaiseen luomaasi dokumenttiin.</p>
+
+  <p>Jos haluat muokata yleisiä asetuksia,</p>
+
+  <ol>
+    <li>Valitse Muokkaa-valikosta (Mac OS: &brandShortName;-valikosta) Asetukset.</li>
+
+    <li>Valitse Yleiset asetusikkunan osapalkista.</li>
+  </ol>
+
+  <h3 id="preferences_general_settings_recent">Viimeisimmät sivut -valikko</h3>
+
+  <p><strong>Suurin lueteltujen sivujen määrä:</strong> Aseta 
+  Viimeisimmät sivut -valikossa lueteltujen sivujen suurin mahdollinen määrä.</p>
+
+  <h3 id="preferences_general_settings_saving_publishing">Kun tallennan tai 
+  julkaisen sivun</h3>
+
+  <ul>
+
+    <li><strong>Säilytä alkuperäinen lähdekoodin muotoilu</strong>: 
+    Tämä valinta säilyttää rivinvaihdot ja sivun lähdekoodin alkuperäisen
+    muotoilun. Valitse tämä, mikäli haluat säilyttää tyhjätilamerkit 
+    (ylimääräiset rivit, sarkainmerkit, yms.), jotka parantavat
+    HTML-lähdekoodin luettavuutta. Tämä asetus ei vaikuta sivujen 
+    näkymiseen selainikkunassa. </li>
+
+    <li><strong>Muotoile HTML-koodi uudelleen</strong>: Tämä asetus
+    muotoilee HTML-lähdekoodin ja parantaa sen luettavuutta.
+    Jos tämä asetus on valittu, &brandShortName; lisää sivun lähdekoodiin 
+    rivinvaihtoja ja sisennyksiä. Tämä asetus ei vaikuta sivujen näkymiseen 
+    selainikkunassa. </li>
+
+    <li><strong>Tallenna myös sivuun liittyvät kuvat ja muut tiedostot
+    sivua tallennettaessa</strong>: Jos tämä asetus on valittu, kaikki kuvat, 
+    JavaScript-komentosarjat (JS), tyylisivut (CSS) ja muut dokumenttiin
+    liittyvät tiedostot tallennetaan samaan paikkaan kuin dokumentti, kun
+    dokumentti tallennetaan ensimmäisen kerran tai kun dokumentti
+    tallennetaan uuteen paikkaan. Jos asetus ei ole valittuna, tallennuksen 
+    yhteydessä tallennetaan vain HTML-tiedosto. </li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p>Jos esimerkiksi muokkaat www-dokumenttia, 
+    tämä asetus varmistaa, että kaikki dokumenttiin liittyvät tiedostot 
+    tallennetaan paikallisesti, kun tallennat sivun kiintolevylle. </p> </li>
+
+    <li><strong>Näytä julkaisuikkuna aina sivuja julkaistessa</strong>: 
+    Jos valittu, &brandShortName; näyttää Julkaise sivu -ikkunan aina,
+    kun valitset Julkaise-painikkeen tai valitset Tiedosto-valikosta
+    Julkaise. Jos tämä asetus ei ole valittuna, &brandShortName;
+    näyttää Julkaise sivu -ikkunan vain, jos se tarvitsee lisätietoja 
+    julkaistakseen sivun. </li>
+
+  </ul>
+
+  [<a href="#preferences_general_settings">Siirry osan alkuun</a>]
+
+  <h3 id="preferences_general_settings_table_editing">Taulukon muokkaaminen</h3>
+
+  <p><strong>Säilytä taulukon asettelu soluja lisättäessä tai poistettaessa</strong>: 
+  Valitse tämä, jos haluat, että &brandShortName; säilyttää aina taulukon asettelun
+  (eli pitää sen suorakulmaisessa muodossa) lisäämällä soluja tarpeen vaatiessa. Jos
+  tämä asetus ei ole valittuna ja poistat solun, &brandShortName; poistaa myös
+  solun reunuksen, jolloin taulukkoon saattaa ilmestyä tyhjiä kohtia tai sen muoto muuttuu
+  epäsäännölliseksi, koska solujen määrä ei ole tasainen.</p>
+
+  [<a href="#preferences_general_settings">Siirry osan alkuun</a>]
+
+  <h3 id="preferences_general_settings_cascading_style_sheets_editing">Tyylisivujen (CSS) 
+  muokkaus</h3>
+
+  <p><strong>Käytä CSS-tyylejä HTML-elementtien ja attribuuttien 
+  sijaan</strong>: Jos tämä asetus on valittu, &brandShortName; muotoilee 
+  dokumenttisi tyylien (CSS) avulla. Tällöin &brandShortName; tekee halutun 
+  muotoilun käyttäen HTML 4.01:ä, johon on sisäisesti upotettu 
+  CSS-tyylimäärittelyjä. </p>
+
+  <p>Jos asetus ei ole valittuna, &brandShortName; muotoilee dokumentin
+  käyttäen HTML 4.01 -elementtien ja -attribuuttien avulla ilman CSS-tyylejä. </p>
+
+  <p>CSS-pohjainen muotoilu HTML:n ohella on siirrettävämpää, helpompaa 
+  ylläpitää ja yhteensopivampaa käytettäessä eri selaimia verrattuna pelkkiin 
+  HTML-muotoiluihin. Jos valitset tämän asetuksen ja muokkaat dokumenttia jossa
+  ei ole käytetty CSS:ää, &brandShortName; korvaa muokatut elementit
+  CSS-tyyleillä. </p>
+
+  <p>Jos valitset CSS-tyylit, voit valita tekstin korostusvärin valitulle
+  tekstille käyttämällä Valitse tekstin korostusväri -painiketta
+  muokkaustyökalupalkissa. Voit myös valita taustavärin mille tahansa 
+  sivulla olevalle elementille (nämä ominaisuudet eivät ole tarjolla,
+  mikäli tämä asetus ei ole valittuna.)</p>
+
+  [<a href="#preferences_general_settings">Siirry osan alkuun</a>]
+
+  <h3 id="preferences_general_settings_site_manager">Sivustonhallinta</h3>
+
+  <p><strong>Avaa dokumentit aina uuteen välilehteen</strong>: 
+  Valitse tämä, jos haluat avata dokumentit uudessa välilehdessä 
+  Sivustonhallintaa käyttäessäsi. Jos asetus ei ole valittuna, 
+  tiedostonimien valitseminen Sivustonhallinnasta avaa tiedostot 
+  uusiin ikkunoihin. </p>
+
+  <p class="returnToSection">[ <a href="#preferences">Siirry osan alkuun</a>
+   ]</p>
+
+  <h2 id="preferences_fonts">Kirjasinlajit</h2>
+
+  <!-- The documentation for the Fonts section has been blatantly
+       copied from Firefox Help and then an attempt was made to
+       conform it to Nvu realm. -->
+
+  <p>&brandShortName;:n näyttämät kirjasinlajit ovat joko ohjelman
+  vakiokirjasinlajeja tai käyttäjän itse määrittelemiä. </p>
+
+  <h3 id="preferences_fonts_fonts_for">Kirjasinlajit merkistölle</h3>
+
+  <p>Voit valita kirjasinlajeja &brandShortName;:n <em>Kirjasinlajit merkistölle</em> -ruudussa. Jos haluat muuttaa vakiokirjasinlajia,</p>
+
+  <ol>
+
+    <li>Valitse merkistö <em>Kirjasinlajit merkistölle</em> -pudotusvalikosta. 
+    Jos haluat muuttaa esimerkiksi länsimaisen merkistön kirjasinlajeja, valitse
+    <em>länsimainen</em>. </li>
+
+    <li>Valitse suhteellisen tekstin tyyppi, eli haluatko sen olevan
+    serif (päätteellinen, esimerkiksi "Times New Roman") vai sans-serif 
+    (päätteetön, esimerkiksi "Arial"). Valitse tämän jälkeen sopiva merkkikoko 
+    suhteelliselle tekstille. </li>
+
+    <li>Valitse päätteellisen, päätteettömän, kursivoidun, koristellun sekä 
+    kiinteäleveyksisen tekstin kirjasinlajit. Voit myös muuttaa 
+    <tt>kiinteäleveyksisen</tt> tekstin merkkikokoa. </li>
+
+  </ol>
+
+  <p>Voit myös valita <em>pienimmän merkkikoon</em>, jota haluat käyttää. 
+  Pienimmän merkkikoon valitsemisesta voi olla hyötyä, jos muokkaat sivuja, 
+  joilla on erittäin pieniä merkkikokoja ja joita on muutoin vaikea lukea.</p>
+
+  <p>Voit myös asettaa näytön resoluution (joka on normaalisti 96 dpi). 
+  Voit valita jonkin esimääritellyn arvon (72 dpi tai 96 dpi) tai 
+  <em>Järjestelmän asetuksen</em>, tai asettaa resoluution käsin valitsemalla 
+  <em>Muu</em>.</p>
+
+  <p class="returnToSection">[ <a href="#preferences">Siirry osan alkuun
+  </a> ]</p>
+
+  <h2 id="preferences_new_page_settings">Uuden sivun asetukset</h2>
+
+  <p>Voit valita jokaisen luomasi dokumentin värit ja taustakuvan uuden sivun 
+  asetuksista.</p>
+
+  <p>Jos haluat muokata uuden sivun asetuksia,</p>
+
+  <ol> <li>Avaa Asetukset-ikkuna valitsemalla valikosta <span class="menuPath">Työkalut | Asetukset</span>.</li>
+
+  <li>Valitse ikkunan vasemman reunan osaluettelosta Uusi sivu.</li>
+  </ol>
+
+  <h3 id="preferences_new_page_settings_author">Tekijä</h3>
+
+  <p>Kirjoita tähän nimesi, jolloin se lisätään jokaisen uuden luomasi sivun
+  HTML-lähdekoodiin. Nimesi lisätään sivun head-lohkoon sivussa, eikä se näy
+  selaimessa suoraan.</p>
+
+  [<a href="#preferences_new_page_settings">Siirry osan alkuun</a>]
+
+  <h3
+  id="preferences_new_page_settings_default_page_appearance">Sivun 
+  oletusulkoasu</h3>
+
+  <ul>
+
+    <li><strong>Selaimen oletusvärit</strong>: Valitse tämä, mikäli haluat
+    sivujesi käyttävän aina käyttäjän valitsemia selaimen oletusvärejä
+    tekstissä ja linkeissä.</li>
+
+    <li><strong>Käytä mukautettuja värejä</strong>: Valitse tämä, jos haluat
+    aina määrittää omat valintasi sivujen tekstin ja linkkien väreiksi. 
+    Valitse tämän jälkeen jokaiselle elementtityypille väri valitsemalla 
+    tyypin nimen vieressä oleva painike. Valitse sitten väri värinvalitsimesta.</li>
+
+    <li><strong>Taustakuva</strong>: Syötä kuvatiedoston sijainti ja tiedostonimi
+    tai paikanna tiedosto kiintolevyltä tai verkosta valitsemalla Valitse tiedosto.
+
+    <p><strong>Huomaa</strong>: Taustakuvaa toistetaan niin, että se täyttää
+    koko sivun. Taustakuva korvaa taustavärin.</p> </li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+	       list-style-image: none;">
+
+      <p>Jos haluat vaihtaa yksittäisen sivun tekijän nimeä, valitse 
+      Muotoile-valikosta Sivun otsikko ja ominaisuudet.</p>
+
+      <p>Jos haluat muuttaa yksittäisen sivun värejä ja taustakuvaa, valitse 
+      Muotoile-valikosta Sivun värit ja tausta.</p></li>
+
+  </ul>
+
+  [<a href="#preferences_new_page_settings">Siirry osan alkuun</a>]
+
+  <h3
+  id="preferences_new_page_settings_internationalization">Kansainväliset asetukset</h3>
+
+  <ul>
+
+    <li><strong>Kieli</strong>: Valitse kieli, jolla HTML-dokumentti on kirjoitettu. </li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p>Jos dokumentti on kirjoitettu esimerkiksi
+    suomeksi, valitse luettelosta "suomi [fi]". Tällöin dokumentin HTML-koodiin
+    merkitään tieto käytetystä kielestä.</p></li>
+
+    <li><strong>Kirjoitussuunta</strong>: Valitse tekstin kirjoituksen 
+    suunta, joka riippuu dokumentissa käytetystä kielestä.</li>
+
+    <li style="list-style-type: none; list-style-position: outside;
+	       list-style-image: none;">
+
+      <p>Jos haluat muuttaa yksittäisen sivun kieliasetuksia, valitse Muotoile-valikosta Sivun otsikko ja ominaisuudet. Valitse      sitten haluamasi kieli Kansainväliset asetukset-osiosta.</p>
+
+      <p>Jos haluat muuttaa yksittäisen sivun kirjoitussuunnan, valitse Muotoile-valikosta Sivun otsikko ja ominaisuudet. Valitse sitten haluamasi kirjoitussuunta Kansainväliset asetukset-osiosta. </p></li>
+
+    <li><strong>Merkistö</strong>: Merkistöt määrittelevät tavan, jolla
+    <acronym title="HyperText Markup Language">HTML</acronym>-dokumenttisi 
+    tekstiä kuvaavat bitit muunnetaan luettaviksi merkeiksi. Tällä asetuksella 
+    voit valita www-sivullesi haluamasi merkistön. Oletuksena käytetään 
+    <em>ISO-8859-1</em>-merkistöä, mutta voit käyttää myös muita merkistöjä, 
+    kuten <em>UTF-8</em>, <em>ISO-8859-15</em>, tai käyttäjän määrittämää 
+    merkistöä. </li>
+
+  </ul>
+
+  <p class="returnToSection">[ <a href="#preferences_settings">Siirry osan alkuun</a> ]</p>
+
+  <h2 id="preferences_advanced_settings">Lisäasetukset</h2>
+
+  <h3
+      id="preferences_advanced_settings_connection">Yhteys</h3>
+
+  <p>Tässä osassa kerrotaan, kuinka voit käyttää Yhteysasetukset-ikkunaa. Jos haluat avata Yhteysasetukset-ikkunan,</p>
+
+  <ol>
+    <li>Valitse Työkalut-valikosta (Mac OS: &brandShortName;-valikosta) Asetukset.</li>
+
+    <li>Siirry Lisäasetukset-osaan ja valitse Yhteysasetukset.</li>
+  </ol>
+
+  <p>Yhteysasetukset-ikkunassa voit asettaa &brandShortName;:n käyttämään 
+  tiettyä välityspalvelinta.</p>
+
+  <p><strong>Ennen kuin aloitat:</strong> Kysy verkonvalvojaltasi, käytetäänkö verkossanne välityspalvelimen asetustiedostoja, tai selvitä käytössä olevien välityspalvelinten nimet ja porttinumerot.</p>
+
+  <ul>
+
+    <li><strong>Suora yhteys Internetiin</strong>: Valitse tämä, jos
+    et halua käyttää välityspalvelinta.</li>
+
+    <li><strong>Aseta välityspalvelinasetukset käsin</strong>: Valitse
+    tämä, jos et tiedä välityspalvelinasetuksien sijaintia (URL).
+    <ul>
+
+      <li><strong>HTTP-välityspalvelin</strong>, <strong>SSL-välityspalvelin</strong>,
+      <strong>FTP-välityspalvelin</strong>, <strong>Gopher-välityspalvelin</strong>: Kirjoita 
+      välityspalvelimen nimi tai IP-osoite sekä porttinumero.</li>
+
+      <li><strong>SOCKS-palvelin</strong>: Kirjoita välityspalvelimen
+      nimi tai IP-osoite sekä porttinumero. <ul>
+
+	<li><strong>SOCKS v4, SOCKS v5</strong>: Jos asetat SOCKS-välityspalvelimen, 
+	valitse myös &quot;SOCKS v4&quot; tai &quot;SOCKS v5&quot;
+	riippuen välityspalvelimen käyttämästä SOCKS-versiosta. </li>
+      </ul>
+      </li>
+
+      <li><strong>Ei välitystä osoitteille</strong>: Syötä aluetunnukset ja 
+      IP-osoitteet, joille ei käytetä välitystä. Erota jokainen antamasi aluetunnus tai osoite
+      pilkulla. Esimerkki: <samp>.example.org, .example.invalid, 192.168.1.0/24</samp>.
+		</li>
+    </ul>
+    </li>
+
+    <li><strong>Nouda välityspalvelinasetukset osoitteesta</strong>: 
+    Valitse tämä, jos käytössä on välityspalvelinasetusten asetustiedosto 
+    ja tiedät sen sijainnin. Kirjoita asetustiedoston osoite  alla olevaan kenttään. </li>
+
+  </ul>
+
+  <p class="returnToSection">[ <a
+  href="#preferences_advanced_settings">Siirry osan alkuun</a> ]</p>
+  
+    <h3 id="preferences_new_page_settings_markup">Merkkaus</h3>
+
+  <ul>
+
+    <li><strong>Kieli</strong>: Voit valita, mitä merkkauskieltä uudet dokumentit käyttävät. Valitse
+    joko <acronym title="Hypertext Markup Language">HTML</acronym>4.0
+    tai <acronym title="Extensible Hypertext Markup Language">XHTML</acronym>1.0.</li>
+
+    <li><strong>DTD</strong>: Valitse haluamasi <acronym title="Document Type
+    Definition">DTD</acronym>, jota uudet dokumentit käyttävät. Voit valita asetukseksi joko <em>Transitional</em> 
+    tai <em>Strict</em>.</li>
+
+  </ul>
+
+  [<a href="#preferences_new_page_settings">Siirry osan alkuun</a>]
+
+  <h3 id="preferences_advanced_settings_return_key_behaviour">Enter-
+  näppäimen toiminta</h3>
+
+  <p>Jos valitset "Enter-näppäimen painallus kappaleessa luo aina uuden kappaleen", Enterin painaminen luo uuden kappaleen.
+  Mikäli asetus ei ole valittuna, rivinvaihdot tehdään br-tageilla.</p>
+
+  <p class="returnToSection">[ <a
+  href="#preferences_advanced_settings">Siirry osan alkuun</a> ]</p>
+
+  <h3 id="preferences_advanced_settings_spellcheck">Reaaliaikainen oikoluku</h3>
+
+  <p>Jos valitset "Alleviivaa väärin kirjoitetut sanat", &brandShortName;:n sisäänrakennettu <strong>reaaliaikainen</strong> oikoluku otetaan käyttöön. Reaaliaikainen oikoluku alleviivaa väärin kirjoitetut sanat punaisella.</p>
+
+  <p class="returnToSection">[ <a
+  href="#preferences_advanced_settings">Siirry osan alkuun</a> ]</p>
+  
+  <h3 id="preferences_advanced_settings_special_characters">Erikoismerkit
+  </h3>
+
+  <p>Voit valita, mitkä erikoismerkit &brandShortName; merkitsee entiteetteinä (esim. &quot;&amp;&quot; merkitään &amp;amp;). Valitse jokin vaihtoehdoista:</p>
+  <p></p>
+
+  <ul><li>Vain &amp; &lt; &gt; &apos; sekä kiinteä välilyönti</li>
+
+  <li>Ylläolevat sekä Latin-1-merkit</li>
+
+  <li>HTML 4 -erikoismerkit</li>
+
+  <li>Käytä &amp;#..;-merkintätapaa kaikille ei-ASCII-merkeille</li>
+  </ul>
+
+  <p class="returnToSection">[ <a href="#preferences">Palaa osan alkuun</a> ]</p>
+
+  <div class="copyrightBox"><em>29.3.2005</em></div>
+
+  <p>Copyright © 2004&ndash;2005 Nvu:n ohjedokumentaatioprojektin avustajat</p>
+
+</body>
+</html>

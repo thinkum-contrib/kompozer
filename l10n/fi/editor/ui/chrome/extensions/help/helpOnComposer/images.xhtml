@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+  <a href="composer_help.xhtml#starting_a_new_page">Uuden sivun aloittaminen</a>
+
+  <a href="formatting_webpages.xhtml">Www-sivujen muotoileminen</a>
+
+  <a href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a>
+
+  <a href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a>
+
+  <a href="images.xhtml">Kuvien lisääminen www-sivuille</a>
+
+  <a href="toc.xhtml">Sisällysluettelon luominen ja muokkaaminen</a>
+
+  <a href="templates.xhtml">Mallisivujen käyttäminen</a>
+
+  <a href="page_properties.xhtml">Sivun ominaisuuksien asettaminen</a>
+
+  <a href="links.xhtml">Linkkien luominen &brandShortName;:ssa</a>
+
+  <a href="customize.xhtml">&brandShortName;:n muokkaaminen</a>
+
+</div>
+
+<h2 id="adding_pictures_to_your_web_page">Kuvien lisääminen www-sivuille</h2>
+
+<h3 id="inserting_an_image_into_your_page">Kuvan lisääminen sivulle</h3>
+
+<p>Voit lisätä GIF-, JPEG-, BMP- ja PNG-kuvia (Portable Network Graphics) www-sivuillesi. Voit käyttää kuvia myös <a href="#using_images_as_links">linkkeinä</a>. Kun lisäät kuvan sivulle, &brandShortName; luo viitteen kuvaan.</p>
+
+<p><strong>Huom</strong>: Jos aiot julkaista sivusi www:ssä, vältä BMP-kuvia.</p>
+
+<p><strong>Vinkki</strong>: On suositeltavaa, että tallennat tai julkaiset sivusi ennen kuin lisäät siihen kuvia. Tällöin &brandShortName; voi käyttää suhteellisia viittauksia suoraan, kun lisäät kuvan.</p>
+
+<p>Kuvan lisääminen:</p>
+
+<ol>
+  <li>Siirrä kohdistin paikkaan, johon haluat lisätä kuvan.</li>
+
+  <li>Valitse Lisää-valikosta tai työkalupalkista Kuva <img src="images/image.png" width="26" height="26" alt="" />. Kuvan ominaisuudet -valintaikkuna avautuu.</li>
+
+  <li>Kirjoita kuvan sijainti ja tiedostonimi tai paikanna kuvatiedosto kiintolevyltä tai verkosta valitsemalla Valitse tiedosto.</li>
+
+  <li>Kirjoita vaihtoehtoiseksi tekstiksi lyhyt kuvaus. Vaihtoehtoinen teksti näkyy tekstiselaimissa kuvan tilalla ja muissa selaimissa, kun kuvaa ladataan tai kuvien näyttäminen on kytketty pois päältä.
+  
+  <p>Voit myös olla käyttämättä vaihtoehtoista tekstiä.</p>
+  </li>
+
+  <li>Säädä tarvittaessa asetuksia (esimerkiksi tasausta) muilta <a href="#editing_image_properties">Kuvan ominaisuudet</a> -ikkunan välilehdiltä.</li>
+
+  </ol>
+
+<p><strong>Vinkki</strong>: Voit lisätä kuvan myös vetämällä ja pudottamalla sen sivulle.</p>
+
+<p><strong>Vinkki</strong>: Jos haluat lisätä rivinvaihdon kaikkien kappaleen kuvien jälkeen, valitse Lisää-valikosta Rivinvaihto kuvien jälkeen.</p>
+
+<p class="returnToSection">[ <a
+href="#adding_pictures_to_your_web_page">Palaa osan alkuun</a> ]</p>
+
+<h3 id="editing_image_properties">Kuvan ominaisuuksien muokkaaminen</h3>
+
+<p>Kun olet lisännyt kuvan sivulle, voit muuttaa sen ominaisuuksia ja asettelua, kuten leveyttä, korkeutta, välistystä ja tekstin tasausta. Avaa Kuvan ominaisuudet -ikkuna seuraavasti:</p>
+
+<p>Valitun kuvan ominaisuuksien muokkaaminen:</p>
+
+<ol>
+  <li>Kaksoisnapsauta kuvaa, tai valitse kuva ja valitse sitten työkalupalkista Kuva <img src="images/image.png" width="26" height="26" alt="" />. Kuvan ominaisuudet -ikkuna avautuu.</li>
+
+  <li>Voit muuttaa seuraavia ominaisuuksia Sijainti-välilehdeltä:
+
+  <ul>
+    <li><strong>Kuvan sijainti</strong>: Anna kuvan tiedostonimi ja sijainti tai paikanna kuvatiedosto kiintolevyltä tai verkosta valitsemalla Valitse tiedosto.</li>
+
+    <li><strong>Osoite on suhteellinen</strong>: Jos tämä ruutu on valittu, &brandShortName; muuntaa kuvan osoitteen (URL:n) suhteelliseksi sivun osoitteeseen nähden. Tämä asetus on erityisen hyödyllinen, jos aiot julkaista sivusi www-palvelimella. Jos käytät suhteellisia osoitteita, voit pitää kaikki linkitetyt tiedostot samassa paikassa riippumatta niiden todellisesta sijainnista kiintolevyllä tai www-palvelimella.
+    <p>Jos poistat valinnan tästä ruudusta, &brandShortName; muuntaa osoitteen täydelliseksi (absoluuttiseksi) osoitteeksi. Absoluuttisia osoitteita käytetään yleensä kuvissa, jotka ladataan toisilta www-palvelimilta (ja joita ei ole siis tallennettu paikallisesti kiintolevylle).</p>
+    <p>Jotta voisit valita tämän ruudun, dokumentin tulee olla tallennettu tai julkaistu ainakin kerran.</p>
+    </li>
+
+    <li><strong>Vaihtoehtoinen teksti</strong>: Kirjoita teksti, joka näytetään kuvan tilalla: lyhyt kuvaus kuvan sisällöstä sopii hyvin vaihtoehtoiseksi tekstiksi. On suositeltavaa, että annat kuville vaihtoehtoisen tekstin tekstiselaimen käyttäjiä ja niitä käyttäjiä, jotka ovat kytkeneet kuvien näyttämisen pois, varten.</li>
+    
+    <li><strong>Älä käytä vaihtoehtoista tekstiä</strong>: Valitse tämä, jos kuvan merkitys ei vaadi vaihtoehtoista tekstiä.</li>
+    
+  </ul>
+  </li>
+  <li>Voit muuttaa seuraavia ominaisuuksia Mitat-välilehdeltä:
+  <ul>
+    <li><strong>Todellinen koko</strong>: Palauttaa kuvan mittasuhteet alkuperäisiksi, jos olet tehnyt niihin muutoksia.</li>
+    
+    <li><strong>Mukautettu koko</strong>: Muuttaa kuvan kokoa. Anna uusi koko kuvapisteinä tai prosentteina. Tämä asetus ei vaikuta alkuperäiseen kuvatiedostoon vaan ainoastaan siihen, kuinka kuva piirretään sivulle.</li>
+    
+    <li><strong>Säilytä muoto</strong>: On suositeltavaa, että valitset tämän asetuksen, jos muutat kuvan kokoa. Asetus säilyttää kuvan kuvasuhteen, jotta se ei näyttäisi vääristyneeltä. Jos valitset Säilytä muoto -asetuksen, sinun tarvitsee muuttaa vain leveyttä tai korkeutta muttei kumpaakin.</li>
+    
+  </ul>
+  </li>
+  <li>Voit muuttaa seuraavia ominaisuuksia Ulkoasu-välilehdeltä:
+  <ul>
+    <li><strong>Välistys</strong>: Aseta kuvaa ympäröivän tilan määrä (kuvan ja tekstin välissä). Voit myös asettaa kuvan ympärille mustan reunuksen, tai jos et halua reunusta, anna sen leveydeksi 0.</li>
+
+    <li><strong>Kuvan ja tekstin tasaus</strong>: Valitse luettelosta, kuinka kuva tasataan suhteessa ympäröivään tekstiin.</li>
+
+    <li><strong>Kuvakartta</strong>: Valitse Posta, jos haluat poistaa kuvalle määritetyn kuvakartan.</li>
+
+  </ul>
+  </li>
+  <li>Voit muuttaa seuraavia ominaisuuksia Ulkoasu-välilehdeltä:
+  <ul>
+    <li><strong>Anna www-sivun osoite</strong>: Jos haluat tehdä kuvasta linkin, anna kohdesivun osoite tai valitse nimetty ankkuri tai otsikko pudotusvalikosta. Jos haluat paikantaa tiedoston kiintolevyltä tai verkosta, valitse Valitse tiedosto.</li>
+    
+    <li><strong>Osoite on suhteellinen</strong>: Jos tämä ruutu on valittu, &brandShortName; muuntaa osoitteen (URL:n) suhteelliseksi sivun osoitteeseen nähden. Tämä asetus on erityisen hyödyllinen, jos aiot julkaista sivusi www-palvelimella. Jos käytät suhteellisia osoitteita, voit pitää kaikki linkitetyt tiedostot samassa paikassa riippumatta niiden todellisesta sijainnista kiintolevyllä tai www-palvelimella.
+    <p>Jos poistat valinnan tästä ruudusta, &brandShortName; muuntaa osoitteen täydelliseksi (absoluuttiseksi) osoitteeksi. Absoluuttisia osoitteita käytetään yleensä sivuissa, jotka ladataan toisilta www-palvelimilta (ja joita ei ole siis tallennettu paikallisesti kiintolevylle).</p>
+    <p>Jotta voisit valita tämän ruudun, dokumentin tulee olla tallennettu tai julkaistu ainakin kerran.</p>
+    </li>
+
+    <li><strong>Näytä reunus linkkinä toimivan kuvan ympärillä</strong>: Näyttää kuvan ympärillä linkin värisen reunuksen.</li>
+  </ul>
+  </li>
+  
+  <li>Jos haluat käyttää muita attribuutteja tai JavaScript-tapahtumia, avaa <a href="#using_the_advanced_property_editor">Lisäominaisuuksien muokkaus</a> -ikkuna valitsemalla Laajennettu muokkaus.</li>
+
+  <li>Hyväksy muutokset valitsemalla OK.</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#adding_pictures_to_your_web_page">Palaa osan alkuun</a> ]</p>
+
+<p>[<a href="toc.xhtml">Seuraava</a>] [<a href="tables.xhtml">Edellinen</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

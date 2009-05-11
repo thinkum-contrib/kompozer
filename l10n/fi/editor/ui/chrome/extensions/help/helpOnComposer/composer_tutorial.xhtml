@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Johdatus &brandShortName;:hun</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+  </head>
+
+  <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+    <div id="contentsBox">Tässä osassa:
+    <a href="#scope_of_this_tutorial">Tämän ohjeen kohderyhmä</a>
+    <a href="#introduction_to_the_user_interface">Johdatus käyttöliittymään</a>
+    <a href="#starting_a_new_document">Uuden dokumentin aloittaminen</a>
+    <a href="#basic_formatting_of_the_document">Dokumentin perusmuotoilu</a>
+    <a href="#inserting_images_and_tables">Kuvien ja taulukoiden lisääminen</a>
+    <a href="#advanced_styles">Edistynyt muotoilu</a>
+    <a href="#publishing_your_documents_basics">Dokumentin julkaisemisen perusteet</a>
+    </div>
+
+    <h1 id="nvu_tutorial">Johdatus &brandShortName;:hun</h1>
+
+    <p>&brandShortName; on avoimen lähdekoodin www-sivujen julkaisujärjestelmä.
+    Se perustuu Geckoon, Mozillan sivuntuottomoottoriin. &brandShortName; on
+    täysin ilmainen ja sen voi ladata <a href="http://www.nvu.com/">
+    &brandShortName;:n</a> www-sivuilta. </p>
+
+    <h2 id="scope_of_this_tutorial">Tämän ohjeen kohderyhmä</h2>
+
+    <p>Tämä ohje on suunniteltu aloittelijoille, jotka eivät ole ennen
+    suunnitelleet www-sivuja WYSIWYG-julkaisuohjelmalla. Tämä ohje tarjoaa
+    sinulle tarpeeksi apua, jotta voit aloittaa &brandShortName;:n käyttämisen
+    sivujen suunnittelussa. Tämä ohje ei ole johdatus HTML-, XHTML- tai 
+    CSS-kuvauskieliin. Ohjeen ainoa tarkoitus on antaa sinulle perustiedot 
+    &brandShortName;:n käyttämisestä.</p>
+
+    <p>Tästä ohjeesta on jätetty pois joitakin vähemmän merkittäviä HTML:n 
+    perusasioita. On suositeltavaa, että hankit tarvittaessa lisätietoja itse. 
+    Ohje sisältää myös vain lyhyen johdatuksen sisäänrakennetun 
+    CaScadeS-CSS-editorin käyttämiseen.</p>
+
+    <p>HTML:n, CSS:n jne. yksityiskohdista kiinnostuneemmat löytävät paljon 
+    hyödyllistä tietoa <a href="http://www.w3.org/">W3C:n sivustolta
+    </a> mm. yhteenliittymän kehittämistä ns. www-standardeista. Voit myös 
+    hakea tietoa www:stä tai hankkia jonkin monista HTML:ää opettavista 
+    kirjoista. </p>
+
+    <!-- The approach of this tutorial is to give the most basic
+         instructions on getting major things done with Nvu. This will
+         give the user an idea as to how to achieve the objective of
+         the secion. In the end of each section a link should be
+         provided targetting corresponding section in the main Help
+         for detailed treatment of the same objective.-->
+
+    <h3 id="in_this_tutorial">Tässä ohjeessa</h3>
+
+    <p>Ohje aloittaa tutustuttamalla sinut &brandShortName;:n käyttöliittymään. 
+    Tämän jälkeen opit perusmuotoilut, ja sen jälkeisessä osiossa kerrotaan
+    kuinka kuvia, taulukoita, lomakkeita ja muita elementtejä sijoitetaan
+    sivulle. Tämän jälkeen seuraa lyhyt osio, joka keskittyy dokumentin muotoiluun
+    CSS-tyylisivujen avulla. Ohjeen lopussa annetaan perusohjeet dokumenttien
+    julkaisemisesta. </p>
+
+    <p>[ <a href="#scope_of_this_tutorial">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="introduction_to_the_user_interface">Johdatus käyttöliittymään</h2>
+
+    <p>&brandShortName;:n valikkoon on koottu kaikki &brandShortName;:n 	
+    tärkeimmät toiminnot. <a href="menu_reference.xhtml">Valikkojen kuvauksista</a> löydät
+    tarkemmat tiedot &brandShortName;:n valikoista. &brandShortName;:ssa on viisi
+    eri työkalu- ja muuta palkkia:</p>
+
+    <ul>
+      <li><a href="#composition_toolbar">Luontityökalupalkki</a></li>
+      <li><a href="#format_toolbar">Muokkaustyökalupalkki</a></li>
+      <li><a href="#tab_browser_toolbar">Välilehtipalkki</a></li>
+      <li><a href="#edit_mode_toolbar">Muokkaustilapalkki</a></li>
+      <li><a href="#status_toolbar">Tilarivi</a></li>
+    </ul>
+
+    <h3 id="composition_toolbar">Luontityökalupalkki</h3>
+
+    <p>Luontityökalupalkki sisältää painikkeet käytetyimmille toiminnoille. Alla
+    on kuva luontityökalupalkista sellaisena, kuin se näkyy käynnistettyäsi  
+    &brandShortName;:n. Kuvan työkalupalkissa kuvakkeiden alla ovat tekstit, jotka
+    kertovat painikkeiden käyttötarkoituksen.</p>
+
+    <p><img src="images/tut_composition_tb.png" title="Luontityökalupalkki" width="802" height="55" alt="" /></p>
+
+    <h3 id="format_toolbar">Muokkaustyökalupalkki</h3>
+
+    <p>Muokkaustyökalupalkki on hyödyllinen apu muokattaessa www-sivuja
+    &brandShortName;:lla. Muokkauspalkilla voit asettaa kappalemuotoilun, 
+    valita kirjasinlajin, vaihtaa taustakuvaa tai -väriä, pienentää ja suurentaa
+    tekstin kokoa, vaihtaa tekstin väriä ja korostaa osaa tekstistä. Voit myös 
+    luoda numeroidun tai järjestämättömän luettelon ja tasata osan tekstistä 
+    vasemmalle tai oikealle tai keskittää sen. Jos haluat tietää, mitä 
+    jokin painike tekee, siirrä hiiren osoitin painikkeen ylle. Osoittimen
+    alapuolelle ilmestyy tällöin työkaluvihje, joka kertoo painikkeen merkityksen. </p>
+
+    <p><img src="images/tut_formating_tb.png" title="Muokkaustyökalupalkki" width="802" height="34" alt="" /></p>
+
+    <h3 id="tab_browser_toolbar">Välilehtipalkki</h3>
+
+    <p>&brandShortName;:ssa voit muokata samanaikaisesti useita www-sivuja
+    käyttäen joka sivulle eri välilehteä. Käytettäessä useita välilehtiä työpöytäsi pysyy
+    siistimpänä, koska erilliset ikkunat joka 
+    dokumentille eivät sotke sitä. Muokattujen mutta tallentamattomien sivujen nimen 
+    viereen välilehtipalkissa ilmestyy <em>punainen levykekuvake</em>.</p>
+
+    <p><img src="images/tut_tabbrowser_tb.png" title="Välilehtipalkki" width="636" height="29" alt="" /></p>
+
+    <h3 id="edit_mode_toolbar">Muokkaustilapalkki</h3>
+
+    <p>Muokkaustilapalkista näet aktiivisen dokumentin muokkaustilan. 
+    Mahdolliset muokkaustilat ovat Normaali, HTML-tagit, Lähdekoodi sekä 
+    Esikatselu. Voit helposti vaihtaa muokkaustilaa valitsemalla minkä 
+    tahansa muista kolmesta välilehdestä napsauttamalla.</p>
+
+    <p><img src="images/tut_editmode_tb.png" title="Muokkaustilapalkki" width="408" height="30" alt="" /></p>
+
+    <h3 id="status_toolbar">Tilarivi</h3>
+
+    <p>&brandShortName;:n tilarivi luettelee kohdistinta ympäröivät HTML-tagit. 
+    Voit muokata tilarivillä näkyvän tagin ominaisuuksia
+    napsauttamalla tagia hiiren kakkospainikkeella ja valitsemalla halutun 	
+    toiminnon. Tagin napsauttaminen hiiren ykköspainikkeella valitsee
+    tagin sisällä olevan tekstin. </p>
+
+    <p><img src="images/tut_status_tb.png" title="Tilarivir" width="326" height="48" alt="" /></p>
+
+    <p>[ <a href="#introduction_to_the_user_interface">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="starting_a_new_document">Uuden dokumentin aloittaminen</h2>
+
+    <p>Voit aloittaa uuden dokumentin joko valitsemalla Uusi-painikkeen 
+    luontityökalupalkista tai valitsemalla Tiedosto | Uusi, ja valitsemalla
+    valintaikkunasta vaihtoehdon "Tyhjä dokumentti" ja sitten Avaa. Mikäli 
+    haluat muokata olemassa olevaa tiedostoa, valitse Tiedosto | Avaa,
+    ja valitse haluamasi tiedosto. Tarkempia ohjeita löydät &brandShortName;:n ohjeen <a
+    href="composer_help.xhtml#starting_a_new_page">Uuden sivun aloittaminen
+    </a> -aiheesta.</p>
+
+    <p>Voit myös perustaa uuden dokumentin malliin normaalin HTML-tiedoston
+    sijaan. Malleja käytetään www-sivun ylläpidon helpottamiseen, sillä 
+    ylläpitäjän tarvitsee vain muokata yhden sivun tekstiä eikä mallin
+    sisältämästä ulkoasusta tarvitse huolehtia. Tämä ohje ei kerro enempää 
+    mallien luomisesta ja käyttämisestä. Saat lisätietoja &brandShortName;:n ohjeen
+    <a href="templates.xhtml">Mallisivujen käyttäminen</a> -aiheesta.</p>
+
+    <p>[ <a href="#starting_a_new_document">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="basic_formatting_of_the_document">Dokumentin perusmuotoilu</h2>
+
+    <p>Käytämme seuraavaa tekstiä dokumentissamme, jonka luomme pian tekstin muotoilun
+    kokeilemista varten. Opettelemme &brandShortName;:n perusmuotoilujen käyttämistä 
+    lisäämällä niitä alla olevaan tekstiin. Kopioi teksti ja liitä 
+    se uuteen dokumenttiin. </p>
+
+    <h3 id="tutorial_text">Esimerkkiteksti</h3>
+
+    <!-- The text for the tutorial is a general text. It was by chance
+         that I was reading a book by Jim Corbett when I was planning
+         about the text to be used for the tutorial. So I wrote a few
+         paragraphs with the information I collected from a couple of
+         books and several websites. I do not guarantee for the
+         information to be correct. So, if you want detailed
+         information about Corbett National Park, consult tourist
+         books, and the WWW. In case you want to change the text,
+         please make sure that neither the new text is not copyrighted
+         nor you should use copyrighted images. All text and images
+         used in the tutorial are supposed to be distributed under the
+         GNU GPL, and MPL license. -->
+
+    <p>Corbett National Park</p>
+
+    <p>Corbett National Park, named in the memory of Jim Corbett, was
+    created in 1938 and was the first national park to be established
+    in Asia. It is situated in the northern state of Uttranchal in
+    India. It has an area of 512 sq. km. The combined area of Corbett
+    National Park, Sonandi Wildlife sanctuary and Reserve Forest areas
+    summing up to 1288 sq. km. constitute a bigger project called
+    Corbett Tiger Reserve.</p>
+
+    <p>The most famous animals of Corbett National Park are the Bengal
+    Tiger and the Asiatic elephant. It is also a home to other animals
+    like etc etc. Situated at the junction of the Garhwal and Kumaon
+    hill regions it also boasts of the combination of cultures of
+    people of both regions.</p>
+
+    <p>Jim Corbett</p>
+
+    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
+    converted into a museum by the government as a dedication to his
+    life and times. He was a naturalist, conservationalist and an avid
+    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
+    Nanital. After fighting for the British army in the WWI, he came
+    back to India and settled in Kaladhungi with his sister,
+    Maggie. He was called up several times by village people and the
+    government to get rid of man-eating tigers and leopards.</p>
+
+    <p>Visiting Corbett National Park</p>
+
+    <p>General Information</p>
+
+    <p>Altitude: 385-1100m above sea level</p>
+
+    <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+    <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+    <p>Open for tourists from 15 November to 15 June.</p>
+
+    <p>Getting there:</p>
+
+    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
+    road it is connected to Delhi, Moradabad, Bareilly and
+    Nanital. State transport buses ply from Delhi, Moradabad and
+    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+    taking a train from New Delhi.</p>
+
+    <h3>Tekstin muotoilu</h3>
+
+    <p>Ensimmäinen käsiteltävä asia on otsikot ja alaotsikot. 
+    Valitse teksti "Corbett National Park" dokumentin yläosasta, avaa
+    <em>Leipäteksti</em>-pudotusvalikko muokkauspalkista ja valitse
+    <tt>Otsikko 1</tt>. Teksti muotoillaan ensimmäisen tason otsikoksi. 
+    Valitse vastaavasti teksti "Visiting Corbett National Park" ja tee 
+    siitä toisen kaksi otsikko. </p>
+    
+    <p>Seuraavaksi kannattaa yleensä valita tekstistä kokonaiset kappaleet
+    ja valita niiden muotoiluksi <em>Kappaletyyli</em>. Tämä käy samoin kuin otsikoksi muotoileminen.
+    Annetussa tekstissä tämä on jo tehty, jotta tekstin käsittely olisi helpompaa, 
+    mutta yleensäkin kappaleiden merkitseminen nimenomaan
+    kappaleiksi on hyvä tapa.</p>
+    
+    <p>Voit myös muotoilla tärkeitä sanoja tai ilmauksia käyttäen <strong>
+    lihavointia</strong> (<strong>B</strong>), <em>kursivointia</em> (<strong>
+    <em>I</em></strong>) tai <u>alleviivausta</u> (<strong><u>U</u></strong>)
+    valitsemalla haluamasi toiminnon <strong>muokkauspalkista</strong>, kuten 
+    tällä rivillä on tehty. Muokkauspalkista löytyy myös muita 
+    muotoiluasetuksia samoin kuin Muotoile-valikosta. Kokeile joitakin muotoiluja, 
+    jotta totut niiden käyttämiseen. Jos teet virheen, kumoa tekemäsi muutos 
+    painamalla näppäimistöltä <kbd>Ctrl+Z</kbd> kerran. Jos haluat tarkempia ohjeita
+    erilaisista tavoista muotoilla tekstiä www-sivulla, lue <a
+    href="composer_help.xhtml#formatting_your_web_pages">www-sivujen muotoilu</a>
+    -aihe &brandShortName;:n ohjeesta.</p>
+
+    <p>Tässä vaiheessa esimerkkitekstisi tulisi näyttää suunnilleen tältä:</p>
+
+    <hr />
+
+    <div style="font-size:x-large;">Corbett National Park</div>
+
+    <p><em>Corbett National Park</em>, named in the memory of
+    <strong>Jim Corbett</strong>, was created in 1938 and was the
+    first national park to be established in Asia. It is situated in
+    the northern state of Uttranchal in India. It has an area of 512
+    sq. km. The combined area of Corbett National Park, Sonandi
+    Wildlife sanctuary and Reserve Forest areas summing up to 1288
+    sq. km. constitute a bigger project called Corbett Tiger
+    Reserve.</p>
+
+    <p>The most famous animals of Corbett National Park are the
+    <em>Bengal Tiger</em> and the <em>Asiatic elephant</em>. It is
+    also a home to other animals like etc etc. Situated at the
+    junction of the Garhwal and Kumaon hill regions it also boasts of
+    the combination of cultures of people of both regions.</p>
+
+    <div style="font-size:large;">Jim Corbett</div>
+
+    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
+    converted into a museum by the government as a dedication to his
+    life and times. He was a naturalist, conservationalist and an avid
+    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
+    Nanital. After fighting for the British army in the WWI, he came
+    back to India and settled in Kaladhungi with his sister,
+    Maggie. He was called up several times by village people and the
+    government to get rid of man-eating tigers and leopards.</p>
+
+    <div style="font-size:large;">Visiting Corbett National Park</div>
+
+    <p>General Information</p>
+
+    <p>Altitude: 385-1100m above sea level</p>
+
+    <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+    <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+    <p>Open for tourists from 15 November to 15 June.</p>
+
+    <p>Getting there:</p>
+
+    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
+    road it is connected to Delhi, Moradabad, Bareilly and
+    Nanital. State transport buses ply from Delhi, Moradabad and
+    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+    taking a train from New Delhi.</p>
+
+    <hr />
+
+    <p>[ <a href="#basic_formatting_of_the_document">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="inserting_images_and_tables">Kuvien ja taulukoiden lisääminen</h2>
+
+    <p>Voit lisätä dokumenttiisi kuvia, taulukoita ja lomakkeita käyttämällä
+    <strong>luontityökalupalkkia</strong>. Aloitamme lisäämällä 
+    esimerkkitekstiimme taulukon ja kopioimalla "General Information"-osan sisällön
+    siihen. Valitse <em>Taulukko</em>-painike <img src="images/table.png" 
+    width="26" height="26" alt="" /> luontityökalupalkista. Valitse tämän jälkeen
+    avautuvasta ikkunasta hiirellä taulukon mitoiksi viisi riviä ja kaksi 
+    saraketta. Viidennellä rivillä, toisessa sarakkeessa olevan neliön 	
+    valitseminen hiirellä luo halutunkokoisen normaalin taulukon.</p>
+    
+    <p>Täytä taulukko valmiiksi kirjoitetulla tekstillä. Leikkaa (<kbd>Ctrl+X</kbd>) tarvittava tekstin osa ja liitä (<kbd>Ctrl+V</kbd>) se vastaavaan taulukon soluun. Kun olet valmis, taulukon pitäisi näyttää 
+    seuraavalta:</p>
+
+    <!-- Do not remove inline styles from tutorial text.
+	 This is to override the style sheet rules.-->
+
+    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+	<tr>
+	  <td style="width: 186px;">Altitude</td>
+
+	  <td style="width: 451px;">85-1100m above sea level</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Annual Rainfall</td>
+	  <td style="width: 451px;">1400mm - 2800mm</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Temperature range</td>
+	  <td style="width: 451px;">4C in winter to 42C in summer</td>
+	</tr>
+	<tr>
+	  <td style="width: 186px;">Open for tourists</td>
+	  <td style="width: 451px;">15 November to 15 June</td>
+	</tr>
+
+	<tr>
+	  <td style="width: 186px;">Getting there</td>
+	  <td style="width: 451px;">The head quarters of Corbett Tiger
+	  Reserver are at Ramnagar. By road it is connected to Delhi,
+	  Moradabad, Bareilly and Nanital. State transport buses ply
+	  from Delhi, Moradabad and Haldwani to Ramnagar. By rail
+	  tourists can reach Ramnagar by taking a train from New
+	  Delhi.</td>
+	</tr>
+      </tbody>
+    </table>
+
+    <p>Kun perustaulukko on muodostettu, voit muuttaa taulukon 
+    ominaisuuksia aktivoimalla taulukon (eli siirtämällä kohdistimen taulukkoon)
+    ja valitsemalla <strong>Taulukko</strong>-painikkeen <strong>
+    luontityökalupalkista</strong>. Taulukon ominaisuudet -valintaikkunassa
+    voit asettaa useita eri taulukon, solujen, rivien ja 
+    sarakkeiden  ominaisuuksia, esimerkiksi taulukon tai solun taustavärin, taulukon
+    otsikon sijainnin, taulukon tasauksen, taulukon tai sarakkeen leveyden jne.
+    </p>
+
+    <p>Jos haluat lisätietoja taulukon monista ominaisuuksista, katso <a
+    href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a> -aihe &brandShortName;:n ohjeessa.</p>
+
+    <p>[ <a href="#inserting_images_and_tables">Siirry osan alkuun</a> ]</p>
+
+    <h2 id="advanced_styles">Edistynyt muotoilu</h2>
+
+    <p>&brandShortName;:ssa voit luoda ja muokata CSS-tyylisivuja sisäänrakennetun tyylisivujen muokkausohjelma CaScadeSin avulla. CaScadeSilla voit käyttää joko sisäisiä tai ulkoisia
+    tyylisivuja muokattavissa dokumenteissa. CaScadeSin käytön yksityiskohdat 
+    eivät kuulu tämän ohjeen aihepiiriin. On suositeltavaa, että tutustut <a
+    href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a> -aiheeseen &brandShortName;:n ohjeessa.</p>
+
+    <p>[ <a href="#advanced_styles">Siirry osan alkuun</a>
+    ]</p>
+
+    <h2 id="publishing_your_documents_basics">Dokumentin julkaisemisen perusteet</h2>
+
+    <p>Voit julkaista dokumentteja &brandShortName;:n 
+    sisäänrakennetun sivustonhallinnan avulla. Voit näyttää tai piilottaa sivustonhallinnan painamalla <kbd>F9</kbd>. </p>
+
+    <p>Sivustonhallinta tullaan uusimaan, ja siksi tätä ohjeen osaa ei 
+    ole vielä kirjoitettu, vaan se tulee vasta seuraavaan julkaisuversioon.</p>
+
+    <p>[ <a href="#publishing_your_documents_basics">Siirry osan alkuun</a> ]</p>
+
+    <div class="copyrightBox"><em>19.11.2004</em></div>
+
+    <p>Copyright &copy; 2003-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+  </body>
+</html>

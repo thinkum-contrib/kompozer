@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<!--
+Original Author:
+"KDS Sahambi" <ksahambi AT yahoo DOT com>
+Contributor(s):
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+  <title>&brandShortName;:n mukauttaminen</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+  <div id="contentsBox">Tässä osassa: 
+  <a href="#toolbar_customization">Työkalupalkkien muokkaaminen</a>
+  <a href="#enhancing_nvu_functionality">&brandShortName;:n toiminnan
+  tehostaminen</a>
+  </div>
+
+  <h1 id="customizing_toolbars">&brandShortName;:n mukauttaminen</h1>
+
+  <h2 id="toolbar_customization">Työkalupalkkien muokkaaminen</h2>
+
+  <p>Voit muokata &brandShortName;:n työkalupalkkeja mieleisiksesi. Voit pitää useimmin tarvitsemasi painikkeet
+  työkalupalkeissa ja piilottaa harvemmin tarvitsemasi ja siten parantaa ohjelman käytettävyyttä.</p>
+
+  <h3 id="how_to_customize_toolbars">Kuinka muokkaan työkalupalkkeja?</h3>
+
+  <p>Avaa työkalupalkkien muokkausikkuna valitsemalla valikosta <span class="menuPath">Näytä | Palkit ja paneelit | Muokkaa työkalupalkkia</span> ja sitten haluamasi työkalupalkin. Voit avata muokkausikkunan myös napsauttamalla haluamaasi työkalupalkkia hiiren kakkosnapilla ja valitsemalla Muokkaa työkalupalkkia.</p>
+
+  <p>Muokataksesi työkalupalkkeja</p>
+
+  <p>Jos haluat muokata työkalupalkkeja,</p>
+  
+  <ul>
+    <li>Vedä ja pudota painike, erotin, mukautuva tyhjä tila tai tyhjä tila haluamaasi paikkaan työkalupalkissa.</li>
+    
+    <li>Voit poistaa työkalupalkin osia vetämällä ja pudottamalla niitä takaisin muokkausikkunaan.</li>
+    
+    <li>Voit muuttaa luontityökalupalkin painikkeiden ulkoasua valitsemalla Näytä-pudotusvalikosta Kuvakkeet ja teksti, Kuvakkeet tai Teksti.</li>
+  </ul>
+
+  <p class="returnToSection">[ <a href="#customizing_toolbars">Siirry osan alkuun
+  </a> ]</p>
+
+  <h2 id="enhancing_nvu_functionality">&brandShortName;:n toiminnan 
+  tehostaminen</h2>
+
+  <p>Voit tehostaa &brandShortName;:n toimintaa asentamalla siihen <em>laajennuksia</em>. Laajennukset ovat pieniä ohjelmia, jotka muuttavat tai laajentavat &brandShortName;:n toimintoja. Voit asentaa juuri haluamasi laajennukset ja siten muokata &brandShortName;:sta haluamasi laisen. Laajennuksen asentaminen:</p>
+
+  <ul> <li>Lataa laajennus tietokoneellesi ja tallenna se sopivaan paikkaan. 
+  Voit ladata useimmat laajennukset suoraan &brandShortName;:n 
+  www-sivustolta. </li>
+
+  <li>Avaa <strong>Laajennukset-ikkuna</strong> valitsemalla <span class="menuPath">
+  Työkalut | Laajennukset</span>. Ikkunassa näkyvät nyt kaikki asennetut laajennukset
+  (mikäli laajennuksia on asennettuna). </li>
+
+  <li>Asenna juuri lataamasi laajennus valitsemalla <em>Asenna</em>.</li>
+
+  <li>Paikanna laajennus tiedostoselaimen avulla ja valitse sitten <em>Avaa</em>.</li>
+
+  <li>Valitse <em>Asenna heti</em>-painike Ohjelman asennus -ikkunasta.</li>
+
+  <li>Kun asennus on valmis, käynnistä &brandShortName; uudelleen, jotta laajennuksen lisäämät toiminnot tulevat käyttöön.</li>
+
+  </ul>
+
+  <p>Asennettuihin laajennuksiin julkaistut päivitykset on hyvä tarkistaa 
+  säännöllisesti Laajennukset-ikkunan avulla. Päivitykset parantavat usein 
+  laajennuksen tarjoamia ominaisuuksia ja ratkaisevat vanhempien versioiden
+  ongelmia. </p>
+
+<p>[<a href="links.xhtml">Edellinen</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+  <p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

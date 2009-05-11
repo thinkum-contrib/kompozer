@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Ohjekeskus</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+  <a href="#starting_a_new_page">Uuden sivun aloittaminen</a>
+
+  <a href="formatting_webpages.xhtml">Www-sivujen muotoileminen</a>
+
+  <a href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a>
+
+  <a href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a>
+
+  <a href="images.xhtml">Kuvien lisääminen www-sivuille</a>
+
+  <a href="toc.xhtml">Sisällysluettelon luominen ja muokkaaminen</a>
+
+  <a href="templates.xhtml">Mallisivujen käyttäminen</a>
+
+  <a href="page_properties.xhtml">Sivun ominaisuuksien asettaminen</a>
+
+  <a href="links.xhtml">Linkkien luominen &brandShortName;:ssa</a>
+
+  <a href="customize.xhtml">&brandShortName;:n muokkaaminen</a>
+
+</div>
+
+<h1 id="creating_web_pages_with_composer">Www-sivujen luominen &brandShortName;:lla</h1>
+
+<p>&brandShortName;:n avulla voit luoda www-sivuja ja julkaista ne verkossa. Sinun ei tarvitse osata HTML-koodausta, jotta voisit käyttää &brandShortName;:ta&nbsp;&ndash;&nbsp;se on yhtä helppokäyttöinen kuin tekstinkäsittelyohjelma.</p>
+
+<p>Voit lisätä luetteloita, taulukoita, kuvia ja linkkejä sekä asettaa värejä ja kirjasinlajeja työkalupainikkeiden avulla. Näet, miltä dokumentti näyttää verkossa, samalla kun kirjoitat tai muokkaat sitä. Voit myös helposti jakaa dokumenttejasi toisten käyttäjien kanssa heidän käyttämästään selaimesta tai sähköpostiohjelmasta riippumatta.</p>
+
+<h2 id="starting_a_new_page">Uuden sivun aloittaminen</h2>
+
+<h3 id="creating_a_new_page">Uuden sivun luominen</h3>
+
+<p>&brandShortName; on HTML-editori (Hypertext Markup Language), jolla voit luoda ja muokata www-sivuja. &brandShortName; on myös <em>WYSIWYG</em>-editori (What You See Is What You Get), joten näet, miltä sivu näyttää selaimessa, samalla kun muokkaat sitä. Sinun ei tarvitse osata HTML:ää, sillä useimmat perus-HTML-toiminnot löytyvät työkalupalkeista ja valikoista.</p>
+
+<p>Voit myös tutkia HTML-lähdekoodia niin halutessasi. Jos haluat tarkastella tai muokata lähdekoodia &brandShortName;:ssa, valitse Näytä-valikosta HTML-lähdekoodi tai napsauta Lähdekoodi-välilehteä ikkunan alareunan muokkaustilapalkissa.</p>
+
+<p>Voit luoda www-sivun jollakin alla olevista tavoista. Kun olet aloittanut sivun tekemisen, voit lisätä siihen tekstiä ja muokata sitä kuten tekstinkäsittelyohjelmassa.</p>
+
+<p><strong>Jos haluat luoda uuden sivun &brandShortName;:ssa,</strong>:</p>
+
+<ul>
+  <li>valitse Uusi-painike työkalupalkista.</li>
+</ul>
+
+<p><strong>Jos haluat käyttää pohjana HTML-tiedostoa, joka sijaitsee paikallisella levyasemalla,</strong></p>
+
+<ol>
+  <li>Valitse <span class="menuPath">Tiedosto</span>-valikosta <span class="menuPath">Avaa tiedosto</span>. Avaa HTML-tiedosto -ikkuna ilmestyy.</li>
+
+  <li>Paikanna levyltäsi tiedosto, jota haluat muokata.</li>
+
+  <li>Valitse <span class="menuPath">Avaa</span>, ja valitsemasi tiedosto aukeaa &brandShortName;:n ikkunaan.</li>
+</ol>
+
+<p><strong>Www-sivun muokkaaminen</strong>:</p>
+
+<ol>
+  <li>Avaa &brandShortName;</li>
+
+  <li>Valitse <span class="menuPath">Tiedosto</span>-valikosta <span class="menuPath">Avaa www-dokumentti mallina</span>. Valintaikkuna ilmestyy.</li>
+
+  <li>Syötä ruutuun haluamasi sivun osoite, esimerkiksi (<tt>http://www.mozilla.org</tt>), ja valitse Avaa. Sivu aukeaa &brandShortName;:n ikkunaan.</li>
+</ol>
+
+<p>Voit myös luoda <acronym title="Extensible Hyper Text Markup Language">XHTML</acronym>-muotoisia dokumentteja &brandShortName;:ssa. Tämä onnistuu valitsemalla "Luo XHTML-dokumentti" <em>Luo uusi dokumentti tai malli</em> -ikkunassa.</p>
+
+<p><strong>Vinkki:</strong> Voit avata &brandShortName;:hun äskettäin muokkaamiasi tiedostoja valitsemalla Tiedosto-valikon Viimeisimmät sivut -alivalikosta haluamasi.</p>
+
+<p>[ <a href="#starting_a_new_page">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="tabs_editing_multiple_documents">Välilehdet - usean dokumentin muokkaaminen</h3>
+
+<p>Voit muokata samanaikaisesti myös useampaa dokumenttia &brandShortName;:ssa. Sen sijaan että joutuisit vaihtamaan ikkunasta toiseen dokumenttien välillä, &brandShortName;:ssa on kätevät <strong>välilehdet</strong>. Voit avata useamman dokumentin saman ikkunan eri välilehtiin.</p>
+
+<p>Voit avata välilehden joko painamalla <kbd>Ctrl+T</kbd> tai valitsemalla Avaa: <em>Uudessa välilehdessä</em> Uusi-valintaikkunassa. Vaikka useampi välilehti olisi auki, jokainen niistä toimii itsenäisesti. Näet jokaisen dokumentin tilan kustakin välilehdestä: dokumentin nimen vieressä on punainen levyke, jos sitä on muokattu muttei tallennettu.</p>
+
+<p>[ <a href="#starting_a_new_page">Palaa osan alkuun</a>
+]</p>
+
+<h3 id="saving_and_browsing_your_new_page">Uuden sivun tallentaminen ja avaaminen selaimeen</h3>
+
+<p>Voit tallentaa &brandShortName;:n dokumentteja HTML:nä tai pelkkänä tekstinä. HTML-muodossa tallentaminen säilyttää dokumentin muotoilun, kuten tekstityylit (esim. lihavoinnit ja kursivoinnit), taulukot, linkit sekä kuvat. Pelkkänä tekstinä tallentaminen poistaa HTML-tagit mutta säilyttää dokumentin tekstin.</p>
+
+<p>Dokumentin tallentaminen HTML-tiedostona:</p>
+
+<ul>
+  <li>Valitse Tiedosto-valikosta Tallenna tai valitse Tallenna-painike työkalupalkista.</li>
+  
+  <p>Ellet jo ole antanut sivulle otsikkoa, &brandShortName; pyytää sitä nyt. &brandShortName; näyttää sivun otsikon selainikkunan otsikkopalkissa, kun avaat sivun selaimessa. Dokumentin otsikko näkyy myös kirjanmerkkiluettelossa, jos teet siitä kirjanmerkin.</p>
+  
+  <p>&brandShortName; pyytää sitten tiedostonimeä ja kysyy paikkaa, jonne tiedosto tulisi tallentaa. Varmista, että .html-tarkennin pysyy tiedoston nimen perässä. Kun tallennat tai muokkaat XHTML-tiedostoja, niiden tarkenteen tulisi olla <tt>.xhtml</tt>. Tiedostoja, joiden tarkenne on <tt>.html</tt>, mutta jotka sisältävät HXTML-doctypen, ei käsitellä XHTML-dokumentteina.</p>
+</ul>
+
+<p>Olemassa olevan HTML-tiedoston nimen tai sijainnin muuttaminen:</p>
+
+<ul>
+  <li>Valitse valikosta <span class="menuPath">Tiedosto | Tallenna nimellä</span> ja valitse toinen tiedostonimi tai sijainti.</li>
+</ul>
+
+<p>Kun tallennat sivun &brandShortName;, kaikki sivun osat (HTML-koodi, kuvat ja muut tiedostot kuten äänet ja tyylisivut) tallentuvat paikallisesti kiintolevylle. Jos haluat tallentaa ainoastaan sivun HTML-osan, &brandShortName;:n tallennusasetuksia täytyy muuttaa. Saat lisätietoja &brandShortName;:n tallennusasetuksista <a href="preferences.xhtml">&brandShortName;:n asetukset</a> -aiheesta.</p>
+
+<p>Jos kuvan osoite on absoluuttinen (alkaa "http://") ja olet yhteydessä Internetiin, näet kuvan edelleen &brandShortName;:ssa ja selaimessa. Jos kuvan sijainti on suhteellinen (alkaa "file:///""), et näe kuvaa dokumentin paikallisessa versiossa.</p>
+
+<p>Dokumentin tallentaminen pelkkänä tekstinä:</p>
+
+<ol>
+  <li>Valitse <span class="menuPath">Tiedosto</span>-valikosta <span class="menuPath">Vie tekstitiedostoon</span>.</li>
+
+  <li>Anna tiedostonimi sekä sijainti, johon haluat tallentaa tiedoston.</li>
+</ol>
+
+<p><strong>Huom</strong>: Kuvat eivät näy dokumenteissa, jotka on tallennettu pelkkänä tekstinä.</p>
+
+<p><strong>Vinkki</strong>: Voit valita Tiedosto-valikosta Palauta, jos haluat palauttaa dokumentin tilaan, jossa se oli juuri viimeisimmän tallennuksen jälkeen. Huomaa, että tallennuksen jälkeen tekemäsi muutokset menetetään.</p>
+
+<p>Sivun avaaminen selaimeen (esim. linkkien testaamiseksi):</p>
+
+<ul>
+  <li>Valitse Tiedosto-valikosta Avaa selaimeen (tai valitse Selaa luontityökalupalkista). Jos et ole vielä tallentanut dokumenttia, &brandShortName; kysyy sinulta sivun otsikkoa, tiedostonimeä ja sijaintia. &brandShortName;:n ikkuna pysyy auki selainikkunan taustalla.</li>
+</ul>
+
+<p>[<a href="#starting_a_new_page">Palaa osan alkuun</a>]</p>
+
+<p>[<a href="formatting_webpages.xhtml">Seuraava</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!ENTITY Window.title "CSS-tyylisivut">
+<!ENTITY absolutePosition.label "absoluuttinen">
+<!ENTITY armenianListStyleType.label "armenia">
+<!ENTITY auralTab.label "Ääni">
+<!ENTITY autoOverflow.label "auto">
+<!ENTITY backgroundAttachmentCheckbox.label "Kuva vierii sivun mukana">
+<!ENTITY backgroundColor.label "Väri:">
+<!ENTITY backgroundImage.label "Kuva:">
+<!ENTITY backgroundPosition.label "Sijainti:">
+<!ENTITY backgroundRepeat.label "Toista:">
+<!ENTITY backgroundTab.label "Tausta">
+<!ENTITY blinkTextDecoration.label "Vilkutus">
+<!ENTITY blockDisplay.label "lohko (block)">
+<!ENTITY boldValue.label "Lihavoi">
+<!ENTITY bolderValue.label "Lihavampi">
+<!ENTITY borderColor.label "Väri:">
+<!ENTITY borderPreview.label "Esikatselu">
+<!ENTITY borderStyle.label "Tyyli:">
+<!ENTITY borderTab.label "Reunukset">
+<!ENTITY borderWidth.label "Leveys:">
+<!ENTITY bothClear.label "molemmat">
+<!ENTITY bottom.label "Alareuna:">
+<!ENTITY bottomBorder.label "Alareuna:">
+<!ENTITY bottomYBackgroundPosition.label "Alareuna">
+<!ENTITY boxTab.label "Laatikko">
+<!ENTITY capitalizeValue.label "Kaikki Isolla Alkukirjaimella">
+<!ENTITY centerTextAlign.label "Keskitä">
+<!ENTITY centerXBackgroundPosition.label "Keskitä">
+<!ENTITY centerYBackgroundPosition.label "Keskitä">
+<!ENTITY chooseFileButton.label "Valitse tiedosto">
+<!ENTITY circleListStyleType.label "ympyrä">
+<!ENTITY clear.label "Kellutuksen ohitus:">
+<!ENTITY closeButton.label "Sulje">
+<!ENTITY collapseVisibility.label "supista">
+<!ENTITY color.label "Väri:">
+<!ENTITY compactDisplay.label "tiivis (compact)">
+<!ENTITY compatibilityTab.label "Yhteensopivuus">
+<!ENTITY cueAfter.label "Merkki ennen:">
+<!ENTITY cueBefore.label "Merkki jälkeen:">
+<!ENTITY dashedBorderStyle.label "katkoviiva">
+<!ENTITY decimalLeadingZeroListStyleType.label "numero (ja etunolla)">
+<!ENTITY decimalListStyleType.label "numero">
+<!ENTITY discListStyleType.label "pallo">
+<!ENTITY display.label "Näytä:">
+<!ENTITY dottedBorderStyle.label "pisteviiva">
+<!ENTITY doubleBorderStyle.label "kaksinkertainen">
+<!ENTITY downButton.label "Alas">
+<!ENTITY exampleSentence.label "The quick brown fox jumps over the lazy dog">
+<!ENTITY expertModeChecbox.label "Laajennettu tila">
+<!ENTITY fastSpeechRate.label "nopea">
+<!ENTITY fasterSpeechRate.label "nopeampi">
+<!ENTITY fixedPosition.label "kiinnitetty">
+<!ENTITY float.label "Kellutus:">
+<!ENTITY fontData.label "Kirjasindata">
+<!ENTITY fontFamily.label "Kirjasinlaji:">
+<!ENTITY fontSize.label "Tekstin koko:">
+<!ENTITY fontStyle.label "Kirjasintyyli:">
+<!ENTITY fontWeight.label "Lihavuus:">
+<!ENTITY georgianListStyleType.label "georgia">
+<!ENTITY grooveBorderStyle.label "ura">
+<!ENTITY height.label "Korkeus:">
+<!ENTITY hiddenBorderStyle.label "piilotettu">
+<!ENTITY hiddenOverflow.label "piilotettu">
+<!ENTITY hiddenVisibility.label "piilotettu">
+<!ENTITY importRuleButton.label "@import">
+<!ENTITY inheritedFontFamily.label "peritty">
+<!ENTITY inheritedValue.label "peritty">
+<!ENTITY inlineDisplay.label "tekstin joukossa (inline)">
+<!ENTITY inlinetableDisplay.label "taulukko tekstin joukossa (inline-table)">
+<!ENTITY insetBorderStyle.label "syvennys">
+<!ENTITY insideListStylePosition.label "sisällä">
+<!ENTITY italicValue.label "Kursiivi">
+<!ENTITY justifyTextAlign.label "Molempiin reunoihin">
+<!ENTITY largeFontSize.label "suuri (large)">
+<!ENTITY largerFontSize.label "suurempi (larger)">
+<!ENTITY left.label "Vasen:">
+<!ENTITY leftBorder.label "Vasen:">
+<!ENTITY leftClear.label "vasen">
+<!ENTITY leftFloat.label "vasemmalle">
+<!ENTITY leftTextAlign.label "Vasemmalle">
+<!ENTITY leftXBackgroundPosition.label "Vasen">
+<!ENTITY lighterValue.label "Ohuempi">
+<!ENTITY lineHeight.label "Rivin korkeus:">
+<!ENTITY linethroughTextDecoration.label "Yliviivaus">
+<!ENTITY linkedSheetButton.label "Ulkoinen linkki">
+<!ENTITY listStyleImage.label "Luettelomerkin kuva:">
+<!ENTITY listStylePosition.label "Luettelomerkin paikka:">
+<!ENTITY listStyleType.label "Luettelomerkin tyyppi:">
+<!ENTITY listTab.label "Luettelot">
+<!ENTITY listitemDisplay.label "luettelon kohta (list-item)">
+<!ENTITY loudVolume.label "voimakas">
+<!ENTITY lowerAlphaListStyleType.label "pienaakkonen">
+<!ENTITY lowerGreekListStyleType.label "pieni kreikkalainen">
+<!ENTITY lowerRomanListStyleType.label "pieni roomalainen numero">
+<!ENTITY lowercaseValue.label "pienet kirjaimet">
+<!ENTITY margins.label "Marginaalit:">
+<!ENTITY marginsTab.label "Marginaalit">
+<!ENTITY maxHeight.label "Maksimikorkeus:">
+<!ENTITY maxWidth.label "Maksimileveys:">
+<!ENTITY mediaRuleButton.label "@media">
+<!ENTITY mediumFontSize.label "keskikokoinen (medium)">
+<!ENTITY mediumSpeechRate.label "keskitaso">
+<!ENTITY mediumVolume.label "keskitaso">
+<!ENTITY minHeight.label "Minimikorkeus">
+<!ENTITY minWidth.label "Minimileveys">
+<!ENTITY muteVolume.label "Mykistä">
+<!ENTITY noneBorderStyle.label "ei mitään">
+<!ENTITY noneClear.label "ei mitään">
+<!ENTITY noneDisplay.label "ei mitään">
+<!ENTITY noneFloat.label "ei mitään">
+<!ENTITY noneListStyleType.label "ei mitään">
+<!ENTITY noneSpeak.label "ei mitään">
+<!ENTITY noneTextDecoration.label "Ei mitään">
+<!ENTITY noneTextTransformValue.label "Ei muutosta">
+<!ENTITY norepeatBackgroundRepeat.label "älä toista">
+<!ENTITY normalLineHeight.label "normaali">
+<!ENTITY normalSpeak.label "normaali">
+<!ENTITY normalValue.label "Normaali">
+<!ENTITY obliqueValue.label "Vino">
+<!ENTITY offsets.label "Poikkeutus:">
+<!ENTITY opacity.label "Läpinäkyvyys:">
+<!ENTITY outsetBorderStyle.label "korotettu">
+<!ENTITY outsideListStylePosition.label "ulkopuolella">
+<!ENTITY overflow.label "Tekstin ylivuoto">
+<!ENTITY overlineTextDecoration.label "Yläviiva">
+<!ENTITY paddings.label "Täytteet:">
+<!ENTITY pauseAfter.label "Tauko jälkeen:">
+<!ENTITY pauseBefore.label "Tauko ennen:">
+<!ENTITY position.label "Sijainti:">
+<!ENTITY predefFontFamilyRadio.label "Ennalta määritetty:">
+<!ENTITY refreshButton.label "Päivitä">
+<!ENTITY relativePosition.label "suhteellinen">
+<!ENTITY removeButton.label "Poista">
+<!ENTITY repeatBackgroundRepeat.label "vaaka- ja pystysuunnassa">
+<!ENTITY repeatxBackgroundRepeat.label "vaakasuunnassa">
+<!ENTITY repeatyBackgroundRepeat.label "pystysuunnassa">
+<!ENTITY ridgeBorderStyle.label "korkoviiva">
+<!ENTITY right.label "Oikea:">
+<!ENTITY rightBorder.label "Oikea:">
+<!ENTITY rightClear.label "oikea">
+<!ENTITY rightFloat.label "oikealle">
+<!ENTITY rightTextAlign.label "Oikealle">
+<!ENTITY rightXBackgroundPosition.label "Oikea">
+<!ENTITY ruleButton.label "Sääntö">
+<!ENTITY runinDisplay.label "lisätty tekstiin (run-in)">
+<!ENTITY scrollOverflow.label "vieritys">
+<!ENTITY sheetInfoTab.label "Yleiset">
+<!ENTITY sheetsTreeColumn.label "Tyylisivut ja -säännöt">
+<!ENTITY slowSpeechRate.label "hidas">
+<!ENTITY slowerSpeechRate.label "hitaampi">
+<!ENTITY smallFontSize.label "pieni (small)">
+<!ENTITY smallerFontSize.label "pienempi (smaller)">
+<!ENTITY softVolume.label "hiljainen">
+<!ENTITY solidBorderStyle.label "yhtenäinen">
+<!ENTITY speak.label "Lukutapa:">
+<!ENTITY speechRate.label "Lukunopeus:">
+<!ENTITY spelloutSpeak.label "tavaa">
+<!ENTITY squareListStyleType.label "neliö">
+<!ENTITY staticPosition.label "staattinen">
+<!ENTITY styleSheetButton.label "Sisäinen tyylisivu">
+<!ENTITY tableDisplay.label "taulukko (table)">
+<!ENTITY tablecaptionDisplay.label "taulukon seliteotsikko (table-caption)">
+<!ENTITY tablecellDisplay.label "taulukon solu (table-cell)">
+<!ENTITY tablecolumnDisplay.label "taulukon sarake (table-column)">
+<!ENTITY tablecolumngroupDisplay.label "taulukon sarakeryhmä (table-colmun-group)">
+<!ENTITY tablefootergroupDisplay.label "taulukon alatunnisteryhmä (table-footer-group)">
+<!ENTITY tableheadergroupDisplay.label "taulukon otsikkoryhmä (table-header-group)">
+<!ENTITY tablerowDisplay.label "taulukon rivi (table-row)">
+<!ENTITY tablerowgroupDisplay.label "taulukon riviryhmä (table-row-group)">
+<!ENTITY textAlign.label "Tasaus:">
+<!ENTITY textDecoration.label "Tekstin koristeet:">
+<!ENTITY textTab.label "Teksti">
+<!ENTITY textTransform.label "Kirjainkoko:">
+<!ENTITY top.label "Yläreuna:">
+<!ENTITY topBorder.label "Yläreuna:">
+<!ENTITY topYBackgroundPosition.label "Yläreuna">
+<!ENTITY transparentOpacity.label "läpinäkyvä">
+<!ENTITY underlineTextDecoration.label "Alleviivaus">
+<!ENTITY unspecifiedValue.label "Ei määritetty">
+<!ENTITY upButton.label "Ylös">
+<!ENTITY upperAlphaListStyleType.label "suurakkonen">
+<!ENTITY upperRomanListStyleType.label "iso roomalainen numero">
+<!ENTITY uppercaseValue.label "ISOT KIRJAIMET">
+<!ENTITY useBorderShorthand.label "Kaikki sivut käyttävät samaa reunusta">
+<!ENTITY useCustomFontFamily.label "Käytä määrättyä kirjasinlajia:">
+<!ENTITY visibility.label "Näkyvyys:">
+<!ENTITY visibleOverflow.label "näkyvä">
+<!ENTITY visibleVisibility.label "näkyvissä">
+<!ENTITY volume.label "Äänenvoimakkuus:">
+<!ENTITY width.label "Leveys:">
+<!ENTITY xfastSpeechRate.label "hyvin nopea (x-fast)">
+<!ENTITY xlargeFontSize.label "hyvin suuri (x-large)">
+<!ENTITY xloudVolume.label "hyvin voimakas (x-loud)">
+<!ENTITY xslowSpeechRate.label "hyvin hidas (x-slow)">
+<!ENTITY xsmallFontSize.label "hyvin pieni (x-small)">
+<!ENTITY xsoftVolume.label "hyvin hiljainen (x-soft)">
+<!ENTITY xxlargeFontSize.label "erittäin suuri (xx-large)">
+<!ENTITY xxsmallFontSize.label "erittäin pieni (xx-small)">
+<!ENTITY zIndex.label "Z-indeksi:">

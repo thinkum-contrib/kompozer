@@ -1,0 +1,23 @@
+<!ENTITY sidebar.close.tooltip "Sulje sivustonhallinta">
+<!ENTITY sidebar.customize.accesskey "M">
+<!ENTITY sidebar.customize.label "Muokkaa sivustonhallintaa...">
+<!ENTITY sidebar.hide.accesskey "v">
+<!ENTITY sidebar.hide.label "Piilota välilehti">
+<!ENTITY sidebar.loading.label "Lataa...">
+<!ENTITY sidebar.loading.stop.accesskey "s">
+<!ENTITY sidebar.loading.stop.label "Pysäytä">
+<!ENTITY sidebar.loadstopped.label "Lataus pysäytetty">
+<!ENTITY sidebar.no-panels.add 'Voit lisätä välilehtiä napsauttamalla "välilehdet" painiketta.'>
+<!ENTITY sidebar.no-panels.hide "Jos haluat piilottaa sivustonhallinnan kokonaan, valitse Näytä-valikosta Sivustonhallinta">
+<!ENTITY sidebar.no-panels.state "Sivustonhallinta on tyhjä.">
+<!ENTITY sidebar.open.tooltip "Avaa sivustonhallinta">
+<!ENTITY sidebar.pagenotfound.label "Tämä välilehti ei ole nyt saatavilla.">
+<!ENTITY sidebar.panels.label "Sivustonhallinta">
+<!ENTITY sidebar.picker.label "Välilehdet">
+<!ENTITY sidebar.reload.accesskey "P">
+<!ENTITY sidebar.reload.label "Päivitä">
+<!ENTITY sidebar.sbDirectory.label "Sivupaneelihakemisto...">
+<!ENTITY sidebar.switch.accesskey "h">
+<!ENTITY sidebar.switch.label "Siirry välilehteen">
+<!ENTITY sidebarCmd.accesskey "S">
+<!ENTITY sidebarCmd.label "Sivustonhallinta">

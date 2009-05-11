@@ -1,0 +1,29 @@
+<!ENTITY downloadManagerCmd.accesskey "t">
+<!ENTITY downloadManagerCmd.label "Latausten hallinta">
+<!ENTITY editorCmd.accesskey "c">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY editorCmd.label "Composer">
+<!ENTITY extensions.label "Laajennukset">
+<!ENTITY javaConsoleCmd.accesskey "J">
+<!ENTITY javaConsoleCmd.label "Java-konsoli">
+<!ENTITY javaScriptConsoleCmd.accesskey "S">
+<!ENTITY javaScriptConsoleCmd.label "JavaScript-konsoli">
+<!ENTITY navigatorCmd.accesskey "n">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label "Navigator">
+<!ENTITY privacyMenu.accesskey "T">
+<!ENTITY privacyMenu.label "Tietosuoja">
+<!ENTITY securityInfoCmd.accesskey "u">
+<!ENTITY securityInfoCmd.label ".Turvallisuustiedot">
+<!ENTITY switchProfileCmd.accesskey "V">
+<!ENTITY switchProfileCmd.label "Vaihda profiilia...">
+<!ENTITY taskBar.tooltip "Tilarivi">
+<!ENTITY taskComposer.tooltip "Composer">
+<!ENTITY taskNavigator.tooltip "Navigator">
+<!ENTITY tasksMenu.accesskey "y">
+<!ENTITY tasksMenu.label "Työkalut">
+<!ENTITY themes.label "Teemat">
+<!ENTITY webDevelopment.accesskey "W">
+<!ENTITY webDevelopment.label "Web-työkalut">
+<!ENTITY windowMenu.accesskey "I">
+<!ENTITY windowMenu.label "Ikkunat">

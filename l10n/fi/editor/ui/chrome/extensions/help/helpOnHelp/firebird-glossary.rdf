@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+<!--  HELP Glossary SECTION -->
+  <rdf:Description about="urn:root" nc:base="chrome://help/locale/glossary.xhtml">
+    <nc:subheadings>
+      <rdf:Seq>
+      <rdf:li> <rdf:Description nc:name="Apuohjelma" nc:link="glossary.xhtml#helper_application"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Asiakas" nc:link="glossary.xhtml#client"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="CSS" nc:link="glossary.xhtml#css"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Digitaalinen tunnus" nc:link="glossary.xhtml#digital_ID"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Extensible Markup Language (XML)" nc:link="glossary.xhtml#XML"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="File Transfer Protocol (FTP)" nc:link="glossary.xhtml#file_transfer_protocol"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="FIPS PUBS 140-1" nc:link="glossary.xhtml#FIPS_PUBS_140-1"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Hakukone" nc:link="glossary.xhtml#search_engine"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Hypertext Markup Language (HTML)" nc:link="glossary.xhtml#Hypertext_Markup_Language"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Internet" nc:link="glossary.xhtml#Internet"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="IP-osoite" nc:link="glossary.xhtml#Internet_protocol_address"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Java" nc:link="glossary.xhtml#Java"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="JavaScript" nc:link="glossary.xhtml#JavaScript"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Julkaiseminen" nc:link="glossary.xhtml#publish"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Kryptografia" nc:link="glossary.xhtml#cryptography"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Liitännäinen" nc:link="glossary.xhtml#plug-in"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Navigaatiopalkki" nc:link="glossary.xhtml#navigation_toolbar"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Pääsalasana" nc:link="glossary.xhtml#master_password"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Palvelin" nc:link="glossary.xhtml#server"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="PKCS #11" nc:link="glossary.xhtml#PKCS_11"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Purkaminen (salauksen)" nc:link="glossary.xhtml#decryption"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Salaaminen" nc:link="glossary.xhtml#encryption"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Salainen avain" nc:link="glossary.xhtml#private_key"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Salasanojen hallinta" nc:link="glossary.xhtml#Password_Manager"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Secure Sockets Layer (SSL)" nc:link="glossary.xhtml#SSL"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="SFTP" nc:link="glossary.xhtml#secure_shell_file_transfer_protocol"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Sivustonhallinta" nc:link="glossary.xhtml#site_manager"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Suojattu sivusto" nc:link="glossary.xhtml#secure_site"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="TCP/IP (Transmission Control Protocol/Internet Protocol)" nc:link="glossary.xhtml#TCP_IP"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Tilarivi" nc:link="glossary.xhtml#Status_Bar"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="TLS" nc:link="glossary.xhtml#TLS"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Todentaminen" nc:link="glossary.xhtml#authentication"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Uniform Resource Locator (URL)" nc:link="glossary.xhtml#Uniform_Resource_Locator"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Väliaikaistiedostot" nc:link="glossary.xhtml#cache"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Välityspalvelin" nc:link="glossary.xhtml#proxy"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Varmenne" nc:link="glossary.xhtml#certificate"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="W3C" nc:link="glossary.xhtml#w3c"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="World Wide Web" nc:link="glossary.xhtml#world_wide_web"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Www-palvelin" nc:link="glossary.xhtml#web_server"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Www-sivu" nc:link="glossary.xhtml#web_page"/> </rdf:li>
+      <rdf:li> <rdf:Description nc:name="Www-sivusto" nc:link="glossary.xhtml#web_site"/> </rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+</rdf:RDF>

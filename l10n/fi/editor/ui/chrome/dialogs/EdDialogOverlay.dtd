@@ -1,0 +1,37 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY AdvancedEditButton.label  "Laajennettu muokkaus...">
+<!ENTITY AdvancedEditButton.accessKey  "L">
+<!ENTITY AdvancedEditButton.tooltip  "Lisää tai muokkaa HTML- ja tyyliattribuutteja sekä JavaScriptiä">
+<!ENTITY chooseButton.label  "Valitse tiedosto...">
+<!ENTITY chooseFile.accessKey  "V">
+<!ENTITY chooseFileLink.accessKey  "V">
+<!ENTITY makeUrlRelative.label  "Osoite on suhteellinen">
+<!ENTITY makeUrlRelative.accessKey  "U">
+<!ENTITY makeUrlRelative.tooltip  "Vaihda osoite suhteelliseksi tai absoluuttiseksi. Voit tehdä muutoksen vain, jos sivu on tallennettu.">
+
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label  "Anna www-sivun osoite, paikallisen tiedoston sijainti tai sähköpostiosoite, tai valitse nimetty ankkuri tai otsikko pudotusvalikosta:">
+<!ENTITY LinkURLEditField.accessKey  "s">
+
+<!ENTITY isMailAddress.label  "Yllä oleva on sähköpostiosoite">

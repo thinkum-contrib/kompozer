@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
+"-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+%brandDTD; ] >
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <head>
+<title>Www-sivujen luominen &brandShortName;:lla</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+</head>
+
+<body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Näytä/Piilota</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
+</table>
+
+<div id="contentsBox">Tässä osassa:
+  <a href="composer_help.xhtml#starting_a_new_page">Uuden sivun aloittaminen</a>
+
+  <a href="formatting_webpages.xhtml">Www-sivujen muotoileminen</a>
+
+  <a href="css.xhtml">Tyylisivujen käyttäminen www-sivujen muotoilussa</a>
+
+  <a href="tables.xhtml">Taulukoiden lisääminen www-sivuille</a>
+
+  <a href="images.xhtml">Kuvien lisääminen www-sivuille</a>
+
+  <a href="toc.xhtml">Sisällysluettelon luominen ja muokkaaminen</a>
+
+  <a href="templates.xhtml">Mallisivujen käyttäminen</a>
+
+  <a href="page_properties.xhtml">Sivun ominaisuuksien asettaminen</a>
+
+  <a href="links.xhtml">Linkkien luominen &brandShortName;:ssa</a>
+
+  <a href="customize.xhtml">&brandShortName;:n muokkaaminen</a>
+
+</div>
+
+<h2 id="using_style_sheets_for_your_web_pages">Tyylisivujen käyttäminen www-sivujen muotoilussa</h2>
+
+<h3 id="using_cascade_style_sheets">Tyylisivujen käyttäminen</h3>
+
+<p>CSS-tyylimäärityksillä (Cascading Style Sheets) voi vaikuttaa dokumentin ulkoasuun kolmella tapaa:</p>
+<ol>
+  <li>käyttämällä sisällytettyjä tyylejä,</li>
+
+  <li>käyttämällä sisäistä tyylisivua sekä</li>
+
+  <li>käyttämällä ulkoista tyylisivua.</li>
+</ol>
+
+<p>&brandShortName;:ssa on sisäänrakennettu tyylisivueditori nimeltään CaScadeS. CaScadeS-editorilla voi luoda joko sisäisiä tai ulkoisia tyylisivuja. Toisin kuin sisällytetyt tyylit, sisäiset ja ulkoiset tyylisivut auttavat pitämään sisällön ja ulkoasumääritykset erillään.</p>
+
+<p>Jos haluat määrittää dokumentillesi tyylisivun, avaa CaScadeS valitsemalla Työkalut-valikosta CSS-editori. Editorissa on kaksi muokkaustilaa:</p>
+
+<ol>
+  <li><strong>Perustila</strong>: Tässä tilassa voit luoda luokkavalitsimiin ja elementtien tyyppeihin pohjautuvia tyylisääntöjä.</li>
+
+  <li><strong>Laajennettu tila</strong>: Tässä tilassa voit luoda tyylisääntöjä rajoituksetta.</li>
+</ol>
+
+<p>Ellei dokumentille ole määritetty tyylisivua, uusi tyylisivu luodaan automaattisesti.</p>
+
+<p class="returnToSection">[ <a
+href="#using_style_sheets_for_your_web_pages">Palaa osan alkuun</a> ]</p>
+
+<h3 id="creating_style_sheets_with_nvu">Tyylisivujen luominen &brandShortName;:lla</h3>
+
+<p>CaScadeS-editorilla voi luoda sisäisiä ja ulkoisia tyylisivuja. Jos haluat luoda sisäisen tyylisivun,</p>
+<ol>
+  <li>Valitse Sisäinen tyylisivu
+  <ul>
+    <li>(Vapaaehtoinen) Anna tiedot Tietovälineet- ja Otsikko-ruutuihin.</li>
+  </ul>
+  </li>
+
+  <li>Valitse Luo tyylisivu.</li>
+</ol>
+
+<p>Jos haluat luoda ulkoisen tyylisivun,</p>
+
+<ol>
+  <li>Valitse Ulkoinen linkki.</li>
+
+  <li>Anna tyylisivun osoite URL-ruutuun. Uusi tiedosto luodaan paikalliselle levylle, jos sitä ei ole olemassa.
+
+  <ul>
+    <li>(Vapaaehtoinen) Anna tiedot Tietovälineet- ja Otsikko-ruutuihin.</li>
+  </ul>
+  </li>
+
+  <li>Valitse "valitse, jos haluat luoda vaihtoehtoisen tyylisivun", jos olet luomassa vaihtoehtoista tyylisivua.</li>
+</ol>
+
+<p><strong>Vinkki:</strong> Tallenna HTML-tiedosto aina ennen kuin liität siihen paikallisen tyylisivun. Tallenna dokumentti myös heti CSS-editorin sulkemisen jälkeen.</p>
+
+<p><strong>Vinkki:</strong> Valitse Päivitä sivustonhallintapaneelista, jos tyylisivu ei lataudu heti.</p>
+
+<p class="returnToSection">[ <a
+href="#using_style_sheets_for_your_web_pages">Palaa osan alkuun</a> ]</p>
+
+<h3 id="creating_rules_for_stylesheets">Sääntöjen luominen tyylisivuun</h3>
+
+<p>Kun olet luonut yhden tai useamman tyylisivun HTML-dokumenttia varten, voit luoda yksittäisiä sääntöjä. Voit valita muokattavan tyylisivun vasemman reunan luettelosta. Näet tyylisivun tiedot Yleiset-välilehdellä. Jos haluat luoda uusia sääntöjä:</p>
+
+<ol>
+  <li>Valitse Sääntö ikkunan vasemmalta puolelta.</li>
+
+  <li>Oikealla puolella näkyy vaihtoehtoja, millaisen säännön voit luoda. Valittavissa ovat:
+
+  <ul>
+    <li>nimetty tyyli, joka koskee luokkia</li>
+
+    <li>tyyli, jota käytetään kaikkiin tätä tyyppiä oleviin elementteihin</li>
+
+    <li>tyyli, joka koskee kaikkia elementtejä seuraavan valitsimen mukaisesti</li>
+
+  </ul>
+  </li>
+  <li>Anna säännölle nimi.</li>
+
+  <li>Valitse Luo tyylisääntö.</li>
+</ol>
+
+<p>Voit määritellä tyylit eri välilehdiltä löytyvillä asetuksilla (teksti, tausta, reunukset, laatikko, luettelo ja ääni). Jos haluat nähdä kaikki sääntöön liittyvät määritykset, valitse sääntö vasemman puolen luettelosta ja siirry Yleiset-välilehdelle.</p>
+
+<p class="returnToSection">[ <a
+href="#using_style_sheets_for_your_web_pages">Palaa osan alkuun</a> ]</p>
+
+<p>[<a href="tables.xhtml">Seuraava</a>] [<a href="formatting_webpages.xhtml">Edellinen</a>]</p>
+
+  <div class="copyrightBox"><em>20.6.2005</em></div>
+
+<p>Copyright &copy; 2004-2005 Nvu:n ohjedokumentaatioprojektin avustajat.</p>
+
+</body>
+</html>

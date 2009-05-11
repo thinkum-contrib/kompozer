@@ -1,0 +1,46 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                        "Valmis">
+<!ENTITY canceled.label                    "Peruutettu">
+<!ENTITY installing.label                  "Asennetaan...">
+
+<!ENTITY starting.label                    "Aloitetaan...">
+<!ENTITY failed.label                      "Epäonnistui">
+
+<!ENTITY downloads.title                   "Lataukset">
+
+<!ENTITY cmd.pause.label                   "Pysäytä">
+<!ENTITY cmd.pause.accesskey               "y">
+<!ENTITY cmd.resume.label                  "Jatka">
+<!ENTITY cmd.resume.accesskey              "J">
+<!ENTITY cmd.cancel.label                  "Peruuta">
+<!ENTITY cmd.cancel.accesskey              "P">
+<!ENTITY cmd.show.label                    "Avaa tallennuskansio">
+<!ENTITY cmd.show.labelMac                "Avaa Finderissa">
+<!ENTITY cmd.show.accesskey                "k">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                    "Avaa">
+<!ENTITY cmd.open.accesskey                "A">
+<!ENTITY cmd.openWith.label                "Avaa ohjelmalla...">
+<!ENTITY cmd.openWith.accesskey            "A">
+<!ENTITY cmd.retry.label                   "Yritä uudestaan">
+<!ENTITY cmd.retry.accesskey               "u">
+<!ENTITY cmd.remove.label                  "Poista">
+<!ENTITY cmd.remove.accesskey              "o">
+<!ENTITY cmd.properties.label              "Ominaisuudet">
+<!ENTITY cmd.properties.accesskey          "O">
+<!ENTITY cmd.info.commandKey               "i">
+
+<!ENTITY cmd.close.commandKey              "w">
+<!ENTITY cmd.close2.commandKey             "j">
+<!ENTITY cmd.close2Unix.commandKey         "y">
+<!ENTITY cmd.cleanUp.label                 "Tyhjennä">
+<!ENTITY cmd.cleanUp.tooltip               "Poistaa valmiit, peruutetut tai epäonnistuneet lataukset listasta">
+<!ENTITY cmd.cleanUp.accesskey             "T">
+
+<!ENTITY closeWhenDone.label               "Sulje tiedostojen latauduttua">
+<!ENTITY closeWhenDone.tooltip             "Sulkee latausikkunan kun kaikki tiedostot ovat latautuneet">
+
+<!ENTITY filesSavedTo.label                "Kaikki lataukset kansioon:">
+<!ENTITY showFolder.label                  "Näytä kansio">

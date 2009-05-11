@@ -1,0 +1,14 @@
+<!ENTITY textZoomEnlargeCmd.label        "Suurenna">
+<!ENTITY textZoomEnlargeCmd.accesskey    "S">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+
+<!ENTITY textZoomReduceCmd.label         "Pienennä">
+<!ENTITY textZoomReduceCmd.accesskey     "P">
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+
+<!ENTITY textZoomResetCmd.commandkey     "0">
+
+<!-- see textZoomOtherLabel in navigator.properties -->
+<!ENTITY textZoomMenu.accesskey          "T">
+<!ENTITY textZoomOtherCmd.accesskey      "M">

@@ -1,0 +1,272 @@
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:nc="http://home.netscape.com/NC-rdf#">
+
+  <rdf:Description about="urn:root">
+    <nc:subheadings>
+      <rdf:Seq>
+        <rdf:li> <rdf:Description ID="a" nc:name="A"/></rdf:li>
+        <rdf:li> <rdf:Description ID="b" nc:name="B"/></rdf:li>
+        <rdf:li> <rdf:Description ID="c" nc:name="C"/></rdf:li>
+        <rdf:li> <rdf:Description ID="d" nc:name="D"/></rdf:li>
+        <rdf:li> <rdf:Description ID="e" nc:name="E"/></rdf:li>
+        <rdf:li> <rdf:Description ID="f" nc:name="F"/></rdf:li>
+        <rdf:li> <rdf:Description ID="g" nc:name="G"/></rdf:li>
+        <rdf:li> <rdf:Description ID="h" nc:name="H"/></rdf:li>
+        <rdf:li> <rdf:Description ID="i" nc:name="I"/></rdf:li>
+        <rdf:li> <rdf:Description ID="j" nc:name="J"/></rdf:li>
+        <rdf:li> <rdf:Description ID="k" nc:name="K"/></rdf:li>
+        <rdf:li> <rdf:Description ID="l" nc:name="L"/></rdf:li>
+        <rdf:li> <rdf:Description ID="m" nc:name="M"/></rdf:li>
+        <rdf:li> <rdf:Description ID="n" nc:name="N"/></rdf:li>
+        <rdf:li> <rdf:Description ID="o" nc:name="O"/></rdf:li>
+        <rdf:li> <rdf:Description ID="p" nc:name="P"/></rdf:li>
+        <rdf:li> <rdf:Description ID="q" nc:name="Q"/></rdf:li>
+        <rdf:li> <rdf:Description ID="r" nc:name="R"/></rdf:li>
+        <rdf:li> <rdf:Description ID="s" nc:name="S"/></rdf:li>
+        <rdf:li> <rdf:Description ID="t" nc:name="T"/></rdf:li>
+        <rdf:li> <rdf:Description ID="u" nc:name="U"/></rdf:li>
+        <rdf:li> <rdf:Description ID="v" nc:name="V"/></rdf:li>
+        <rdf:li> <rdf:Description ID="w" nc:name="W"/></rdf:li>
+        <rdf:li> <rdf:Description ID="x" nc:name="X"/></rdf:li>
+        <rdf:li> <rdf:Description ID="y" nc:name="Y"/></rdf:li>
+        <rdf:li> <rdf:Description ID="z" nc:name="Z"/></rdf:li>
+      </rdf:Seq>
+    </nc:subheadings>
+  </rdf:Description>
+
+
+    <rdf:Description about="#a">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="preferences" nc:name="Asetukset" nc:link="preferences.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#c">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="CSS" nc:link="css.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#e">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="special-characters" nc:name="Erikoismerkit" nc:link="formatting_webpages.xhtml#inserting_special_characters"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#h">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="html" nc:name="HTML" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></rdf:li>
+                <rdf:li><rdf:Description ID="validate" nc:name="HTML-koodin tarkastaminen" nc:link="formatting_webpages.xhtml#validating_the_html"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Hyperlinkit" nc:link="links.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#help-viewer">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="Aiheen löytäminen" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="Etsintävinkit" nc:link="welcome.xhtml#search_tips"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="Käyttäminen" nc:link="welcome.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#images">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="images_edit" nc:name="Kuvan ominaisuudet" nc:link="images.xhtml#editing_image_properties"/></rdf:li>
+		<rdf:li><rdf:Description ID="images_insert" nc:name="Kuvien lisääminen" nc:link="images.xhtml#inserting_an_image_into_your_page"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#j">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="tutorial" nc:name="Johdatus" nc:link="composer_tutorial.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="publishing" nc:name="Julkaiseminen" nc:link="publishing_help.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#k">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="formatting_paragraphs" nc:name="Kappaleiden muotoileminen" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Kuvalinkit" nc:link="links.xhtml#using_images_as_links"/></rdf:li>
+                <rdf:li><rdf:Description ID="images" nc:name="Kuvat" nc:link="images.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Käyttöliittymä" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#l">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="links" nc:name="Linkit" nc:link="links.xhtml#creating_links_in_composer"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Linkkien poistaminen" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Lisäominaisuuksien muokkaus" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
+                <rdf:li><rdf:Description ID="lists" nc:name="Luettelot" nc:link="formatting_webpages.xhtml#working_with_lists"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Luontityökalupalkki" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#links">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="links_images" nc:name="Kuvalinkit" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
+                <rdf:li><rdf:Description ID="links_external" nc:name="Linkit muille sivuille" nc:link="links.xhtml#creating_links_to_other_pages"/></rdf:li>
+                <rdf:li><rdf:Description ID="links_removing" nc:name="Linkkien poistaminen" nc:link="links.xtml#removing_or_discontinuing_links"/></rdf:li>
+                <rdf:li><rdf:Description ID="links_creating" nc:name="Sivunsisäiset linkit" nc:link="links.xhtml#creating_links_within_the_same_page"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#lists">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="lists_work" nc:name="Luetteloiden käyttäminen" nc:link="formatting_webpages.xhtml#working_with_lists"/></rdf:li>
+                <rdf:li><rdf:Description ID="lists_list_item" nc:name="Luettelon kohdat" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#m">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Mallien luominen" nc:link="templates.xhtml#creating_a_template"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Muokkaustilapalkki" nc:link="composer_tutorial.xhtml#edit_mode_toolbar"/></rdf:li>
+                <rdf:li><rdf:Description ID="editing_modes" nc:name="Muokkaustilat" nc:link="formatting_webpages.xhtml#choosing_the_right_editing_mode"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Muotoileminen" nc:link="formatting_webpages.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Muotoilutyökalupalkki" nc:link="composer_tutorial.xhtml#format_toolbar"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#n">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Näppäinkomennot" nc:link="shortcuts.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#o">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="help-viewer" nc:name="Ohjeselain" nc:link="welcome.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#page">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="page-properties" nc:name="Sivun asetukset" nc:link="page_properties.xhtml#setting_page_properties_and_meta_tags"/></rdf:li>
+                <rdf:li><rdf:Description ID="page-create" nc:name="Sivun luominen" nc:link="composer_help.xhtml#creating_a_new_page"/></rdf:li>
+                <rdf:li><rdf:Description ID="page-save" nc:name="Sivun tallentaminen" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+                <rdf:li><rdf:Description ID="page-color-background" nc:name="Sivun värit ja tausta" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#preferences">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="preferences_fonts" nc:name="Kirjasinlajit" nc:link="preferences.xhtml#preferences_fonts"/></rdf:li>
+                <rdf:li><rdf:Description ID="preferences-advanced-settings" nc:name="Lisäasetukset" nc:link="preferences.xhtml#preferences_advanced_settings"/></rdf:li>
+                <rdf:li><rdf:Description ID="preferences-new-page-settings" nc:name="Uuden sivun asetukset" nc:link="preferences.xhtml#preferences_new_page_settings"/></rdf:li>
+                <rdf:li><rdf:Description ID="preferences_general_settings" nc:name="Yleiset asetukset" nc:link="preferences.xhtml#preferences_general_settings"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#s">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="toc" nc:name="Sisällysluettelo" nc:link="toc.xhtml#working_with_table_of_contents_on_your_web_page"/></rdf:li>
+                <rdf:li><rdf:Description ID="page" nc:name="Sivu" nc:link="page_properties.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Sivun avaaminen selaimeen" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Sivun tallentaminen" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#t">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Taulukoiden kopioiminen" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Taulukoiden poistaminen" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Taulukoiden siirtäminen" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Taulukoiden valitseminen" nc:link="tables.xhtml#selecting_table_elements"/></rdf:li>
+                <rdf:li><rdf:Description ID="tables" nc:name="Taulukot" nc:link="tables.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Taustaväri, sivun" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
+                <rdf:li><rdf:Description ID="text" nc:name="Teksti" nc:link="formatting_webpages.xhtml#formatting_your_web_pages"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tekstin etsiminen" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tekstin korvaaminen" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tekstin väri, tyyli ja kirjasinlaji" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tekstityylien poistaminen" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tilarivi" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tyylisivujen luominen" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="Tyylisivut" nc:link="css.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="toolbars" nc:name="Työkalupalkit" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#tables">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="adding-tables-to-your-web-page" nc:name="Taulukoiden lisääminen" nc:link="tables.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#text">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description ID="finding-replacing-text" nc:name="Tekstin etsiminen ja korvaaminen" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description ID="changing-text-font" nc:name="Tekstin kirjasinlajin muuttaminen" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+                <rdf:li><rdf:Description ID="changing-text-style" nc:name="Tekstin tyylin muuttaminen" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+                <rdf:li><rdf:Description ID="changing-text-color" nc:name="Tekstin värin muuttaminen" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+                <rdf:li><rdf:Description ID="removing-or-discontinuing-text-styles" nc:name="Tekstityylien poistaminen ja keskeyttäminen" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#u">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Uusi dokumentti" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#v">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Vaakaviivojen lisääminen" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></rdf:li>
+                <rdf:li><rdf:Description ID="tabs" nc:name="Välilehdet" nc:link="composer_tutorial.xhtml#tab_browser_toolbar"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#w">
+        <nc:subheadings>
+            <rdf:Seq>
+                <rdf:li><rdf:Description nc:name="Www-sivujen luominen" nc:link="composer_help.xhtml"/></rdf:li>
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+</rdf:RDF>

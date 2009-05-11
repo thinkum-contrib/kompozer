@@ -1,0 +1,41 @@
+<!ENTITY lHeader                    "Uusi sivu">
+<!ENTITY rHeader                    "Uusien sivujen oletukset">
+
+<!ENTITY authorName.label           "Tekijä:">
+<!ENTITY authorName.accesskey       "T">
+<!ENTITY pageColorHeader            "Sivun oletusulkoasu">
+
+<!ENTITY defaultColorsRadio.label    "Selaimen oletusvärit (älä aseta värejä sivulla)">
+<!ENTITY defaultColors.accesskey     "o">
+<!ENTITY customColorsRadio.label     "Käytä mukautettuja värejä:">
+<!ENTITY customColors.accesskey      "K">
+
+<!ENTITY normalText.label            "Normaali teksti">
+<!ENTITY normalText.accesskey        "N">
+<!ENTITY linkText.label              "Linkkiteksti">
+<!ENTITY linkText.accesskey          "L">
+<!ENTITY activeLinkText.label        "Aktiivisen linkin teksti">
+<!ENTITY activeLinkText.accesskey    "A">
+<!ENTITY visitedLinkText.label       "Avatun linkin teksti">
+<!ENTITY visitedLinkText.accesskey   "v">
+<!ENTITY background.label            "Tausta:">
+<!ENTITY background.accesskey        "u">
+<!ENTITY colon.character             ":">
+
+<!ENTITY backgroundImage.label       "Taustakuva:">
+<!ENTITY backgroundImage.accesskey   "k">
+<!ENTITY chooseFile.label            "Valitse tiedosto...">
+<!ENTITY chooseFile.accesskey        "e">
+
+<!ENTITY i18nHeader                   "Kansainväliset asetukset">
+
+<!ENTITY writingDirection.label       "Kirjoitussuunta">
+<!ENTITY defaultDirectionRadio.label  "Ei määritettyä suuntaa">
+<!ENTITY ltrDirectionRadio.label      "Vasemmalta oikealle">
+<!ENTITY rtlDirectionRadio.label      "Oikealta vasemmalle">
+
+<!ENTITY language.label               "Kieli">
+<!ENTITY languageChoiceButton.label   "Valitse kieli">
+
+<!ENTITY defaultCharset.label         "Merkistö">
+<!ENTITY chooseCharsetButton.label    "Valitse merkistö">
