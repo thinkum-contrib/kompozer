@@ -1,0 +1,39 @@
+<!-- extracted from content/pref-proxies.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
+<!ENTITY  lHeader                       "Nastavitve povezave">
+<!ENTITY  proxyTitle.label              "Nastavi proxy za dostop do interneta">
+<!ENTITY  directTypeRadio.label         "Neposredna povezava na internet">
+<!ENTITY  directTypeRadio.accesskey     "N">
+<!ENTITY  manualTypeRadio.label         "Samodejna nastavitev proxy">
+<!ENTITY  manualTypeRadio.accesskey     "S">
+<!ENTITY  autoTypeRadio.label           "URL za samodejno nastavitev proxy:">
+<!ENTITY  autoTypeRadio.accesskey       "a">
+<!ENTITY  configAutoconfigText.label    "Mesto nastavitve (URL):">
+<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  reload.label                  "Ponovno naloži">
+<!ENTITY  reload.accesskey              "l">
+<!ENTITY  ftp.label                     "Proxy FTP:">
+<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  gopher.label                  "Proxy Gopher:">
+<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  http.label                    "Proxy HTTP:">
+<!ENTITY  http.accesskey                "h">
+<!ENTITY  ssl.label                     "Proxy SSL:">
+<!ENTITY  ssl.accesskey                 "s">
+<!ENTITY  socks.label                   "Gostitelj SOCKS:">
+<!ENTITY  socks.accesskey               "c">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "k">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  port.label                    "Vrata:">
+<!ENTITY  HTTPport.accesskey            "v">
+<!ENTITY  SSLport.accesskey             "r">
+<!ENTITY  FTPport.accesskey             "a">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY  noproxy.label                 "Brez proxyja za:">
+<!ENTITY  noproxy.accesskey             "b">
+<!ENTITY  noproxyExplain.label          "Primer: .mozilla.org, .net.nz">

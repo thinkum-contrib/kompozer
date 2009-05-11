@@ -1,0 +1,35 @@
+<!ENTITY languages.customize.additional.label "Nabori znakov na voljo">
+<!ENTITY languages.customize.add.title.label "Dodajanje jezikov">
+<!ENTITY languages.customize.ok.label "V redu">
+<!ENTITY languages.customize.save.popup "Da bi spremembe začele veljati, ponovno zaženite brskalnik ...">
+<!ENTITY languages.customize.save.label "Shrani">
+<!ENTITY languages.customize.lHeader "Jeziki">
+<!ENTITY languages.customize.moveUp.accesskey "r">
+<!ENTITY languages.customize.title.label "Prilagoditev jezikov">
+<!ENTITY langtitle.label "Jeziki za spletne strani">
+<!ENTITY languages.customize.moveUp.label "Premakni navzgor">
+<!ENTITY languages.customize.prefLangDescript "Spletne strani so včasih na voljo v več kot enem jeziku. Izberite jezike za prikazovanje spletnih strani v željenem vrstnem redu.">
+<!ENTITY languages.customize.Charset.grouplabel "Nabor znakov">
+<!ENTITY languages.customize.others.label "Drugi:">
+<!ENTITY languages.customize.active.label "Jeziki v vrstnem redu:">
+<!ENTITY languages.customize.cancel.label "Prekliči">
+<!ENTITY languages.customize.addButton.label "Dodaj ...">
+<!ENTITY languages.customize.prefAddLangDescript "Izberite jezike, ki jih želite dodati.">
+<!ENTITY languages.customize.engOption.label "Angleško">
+<!ENTITY languages.customize.rHeader "Jeziki, v katerih so prikazane spletne strani">
+<!ENTITY languages.customize.DefaultCharset.label "Privzeti nabor znakov:">
+<!ENTITY languages.customize.reorder.label "Prerazporedi">
+<!ENTITY languages.customize.available.label "Jeziki:">
+<!ENTITY languages.customize.deleteButton.label "Odstrani">
+<!ENTITY languages.customize.moveDown.accesskey "d">
+<!ENTITY languages.customize.others.examples "npr.: en-bz, ar-jo">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.add.label "Dodaj">
+<!ENTITY languages.customize.moveDown.label "Premakni navzdol">
+<!ENTITY languages.customize.remove.label "Odstrani">
+<!ENTITY languages.customize.left.header "Nabor znakov">
+<!ENTITY languages.customize.DefaultCharset.accesskey "k">
+<!ENTITY languages.customize.addButton.accesskey "A">
+<!ENTITY languages.customize.deleteButton.accesskey "R">
+<!ENTITY languages.customize.others.accesskey "g">
+<!ENTITY charset.customize.right.header "Izberi podprte nabore znakov">

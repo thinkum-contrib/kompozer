@@ -1,0 +1,21 @@
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY  window.title "Objavi">
+<!ENTITY  composerHeader.label "Objavi">
+<!ENTITY  maintainCheckbox.label "Vzdržuj povezave">
+<!ENTITY  keepCheck.label "Obdrži slike s stranjo">
+
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  adjustDesc.label "Prilagodi povezave za delo ne glede na mesto strani. (Povezave na lokalne strani bodo delovale, če
+			      lokalne različice obstajajo.)           ">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  saveDesc.label "Shrani kopije slik na isto mesto kot stran.  Slike se bodo vedno
+				prikazale v lokalnih različicah strani in ko bo stran objavljena.">
+<!ENTITY  tip.label "Nasvet: izberite obe možnosti, če boste uporabljali oddaljeno objavljanje.">
+<!ENTITY defaultHeader.label  "Privzeto mesto za objavo">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY  publishFtp.label "Če objavljate preko strežnika FTP, vnesite naslov HTTP za brskanje:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "Če objavljate preko strežnika FTP, vnesite naslov HTTP za brskanje:">
+

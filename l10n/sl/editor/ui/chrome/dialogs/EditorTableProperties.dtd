@@ -1,0 +1,98 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY tableWindow.title                "Lastnosti tabele">
+<!ENTITY tableTab.label                   "Tabela">
+<!ENTITY cellTab.label                    "Celice">
+<!ENTITY tableRows.label                  "Vrstice:">
+<!ENTITY tableRows.accessKey              "V">
+<!ENTITY tableColumns.label               "Stolpci:">
+<!ENTITY tableColumns.accessKey           "S">
+<!ENTITY tableHeight.label                "Višina:">
+<!ENTITY tableHeight.accessKey            "V">
+<!ENTITY tableWidth.label                 "Širina:">
+<!ENTITY tableWidth.accessKey             "i">
+<!ENTITY tableBorderSpacing.label         "Okvirji in razmik">
+<!ENTITY tableBorderWidth.label           "Okvir:">
+<!ENTITY tableBorderWidth.accessKey       "O">
+<!ENTITY tableSpacing.label               "Razmik:">
+<!ENTITY tableSpacing.accessKey           "R">
+<!ENTITY tablePadding.label               "Odmik:">
+<!ENTITY tablePadding.accessKey           "d">
+<!ENTITY tablePxBetwCells.label           "pik med celicami">
+<!ENTITY tablePxBetwBrdrCellContent.label "pik med okvirjem celice in vsebino">
+<!ENTITY tableAlignment.label             "Poravnava tabele:">
+<!ENTITY tableAlignment.accessKey         "P">
+<!ENTITY tableCaption.label               "Napis:">
+<!ENTITY tableCaption.accessKey           "N">
+<!ENTITY tableCaptionAbove.label          "Nad tabelo">
+<!ENTITY tableCaptionBelow.label          "Pod tabelo">
+<!ENTITY tableCaptionLeft.label           "Levo do tabele">
+<!ENTITY tableCaptionRight.label          "Desno od tabele">
+<!ENTITY tableCaptionNone.label           "Brez">
+<!ENTITY tableInheritColor.label           "(Barva strani naj bo prosojna)">
+
+<!ENTITY cellPercent.label                "odstotkov tabele">
+<!ENTITY cellSelection.label              "Izbor">
+<!ENTITY cellSelectCell.label             "Celica">
+<!ENTITY cellSelectRow.label              "Vrstica">
+<!ENTITY cellSelectColumn.label           "Stolpec">
+<!ENTITY cellSelectNext.label             "Naprej">
+<!ENTITY cellSelectNext.accessKey         "N">
+<!ENTITY cellSelectPrevious.label         "Nazaj">
+<!ENTITY cellSelectPrevious.accessKey     "z">
+<!ENTITY cellApplyBeforeMove.label        "Uveljavi spremembe pred spremembo izbire">
+<!ENTITY cellKeepCurrentData.label        "Obdrži trenutne nastavitve">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label         "Trenutne spremembe bodo uveljavljene">
+<!ENTITY applyBeforeChange2.label         "pred spremembo izbire.">
+<!ENTITY cellRowSpan.label                "Razpon vrstic:">
+<!ENTITY cellColSpan.label                "Razpon stolpcev:">
+<!ENTITY cellContentAlignment.label       "Poravnava vsebine">
+<!ENTITY cellHorizontal.label             "Vodoravno:">
+<!ENTITY cellHorizontal.accessKey         "V">
+<!ENTITY cellVertical.label               "Navpično:">
+<!ENTITY cellVertical.accessKey           "N">
+<!ENTITY cellStyle.label                  "Slog celic:">
+<!ENTITY cellStyle.accessKey              "S">
+<!ENTITY cellNormal.label                 "Navadno">
+<!ENTITY cellHeader.label                 "Glava">
+<!ENTITY cellTextWrap.label               "Oblivanje besedila:">
+<!ENTITY cellTextWrap.accessKey           "b">
+<!ENTITY cellWrap.label                   "Oblij">
+<!ENTITY cellNoWrap.label                 "Ne oblij">
+<!ENTITY cellAlignTop.label               "Vrh">
+<!ENTITY cellAlignMiddle.label            "Sredina">
+<!ENTITY cellAlignBottom.label            "Dno">
+<!ENTITY cellAlignJustify.label           "Obojestransko">
+<!ENTITY cellAlignAtChar.label            "Ob znaku:">
+<!ENTITY cellInheritColor.label           "(Barva tabele naj bo prosojna)">
+<!ENTITY cellUseCheckboxHelp.label        "Uporabite potrditvena polja, da določite, katere lastnosti bodo uporabljene na vseh izbranih celicah">
+
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label                       "Velikost">
+<!ENTITY pixels.label                     "pik">
+<!ENTITY backgroundColor.label            "Barva ozadja:">
+<!ENTITY backgroundColor.accessKey        "B">
+<!ENTITY AlignLeft.label                  "Levo">
+<!ENTITY AlignCenter.label                "Na sredini">
+<!ENTITY AlignRight.label                 "Desno">

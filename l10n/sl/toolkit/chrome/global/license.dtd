@@ -1,0 +1,25 @@
+<!ENTITY license.part0     "je avtorsko zaščiten">
+<!ENTITY license.part1     "s strani">
+<!ENTITY license.contrib   "sodelavcev">
+<!ENTITY license.part2     "glede na pogoje, določene v ">
+<!ENTITY license.part3     ". Vse pravice pridržane.">
+
+<!ENTITY about.version                "različice">
+
+<!ENTITY about.copy.beforeLink        "Copyright &copy; 1998-2006 s strani">
+<!ENTITY about.copy.linkTitle         "sodelavcev">
+<!ENTITY about.copy.afterLink         "v projektu Mozilla.">
+
+<!ENTITY about.license.beforeLink     "Preberite si">
+<!ENTITY about.license.linkTitle      "licenčne podatke">
+<!ENTITY about.license.afterLink      "o tem izdelku.">
+
+<!ENTITY about.relnotes.beforeLink    "Preberite si">
+<!ENTITY about.relnotes.linkTitle     "opombe ob izdaji">
+<!ENTITY about.relnotes.afterLink     "za to različico.">
+
+<!ENTITY about.buildconfig.beforeLink "Oglejte si">
+<!ENTITY about.buildconfig.linkTitle  "nastavitve gradnje">
+<!ENTITY about.buildconfig.afterLink  "za to različico.">
+
+<!ENTITY about.buildIdentifier        "Oznaka gradnje: ">

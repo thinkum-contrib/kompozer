@@ -1,0 +1,117 @@
+<!ENTITY addons.title                     "Razširitve in teme">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Razširitve">
+<!ENTITY themes.label                     "Teme">
+<!ENTITY locales.label                    "Jeziki">
+<!ENTITY plugins.label                    "Dodatki">
+<!ENTITY update.label                     "Posodobitve">
+<!ENTITY install.label                    "Namestitev">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Poišči posodobitve">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "s">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Poišče posodobitve vaših razširitev in tem">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Poišče posodobtive vaših tem">
+<!ENTITY cmd.installLocalFile.label       "Namesti ...">
+<!ENTITY cmd.installFile.accesskey        "N">
+<!ENTITY cmd.installFileAddon.tooltip     "Namesti razširitev ali temo">
+<!ENTITY cmd.installFileTheme.tooltip     "Namesti temo">
+<!ENTITY cmd.installUpdatesAll.label      "Namesti posodobitve">
+<!ENTITY cmd.installUpdatesAll.accesskey  "m">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Namesti izbrane posodobitve">
+<!ENTITY cmd.restartApp.label             "Ponovno zaženi &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey         "z">
+<!ENTITY cmd.restartApp.tooltip           "Ponovno zažene &brandShortName;, da se namestitev konča">
+<!ENTITY cmd.skip.label                   "Preskoči">
+<!ENTITY cmd.skip.accesskey               "s">
+<!ENTITY cmd.skip.tooltip                 "Preskoči te posodobitve">
+<!ENTITY cmd.continue.label               "Nadaljuj">
+<!ENTITY cmd.continue.accesskey           "N">
+<!ENTITY cmd.continue.tooltip             "Nadaljuje z nalaganjem &brandShortName;a">
+
+<!ENTITY cmd.enableAll.label              "Omogoči vse">
+<!ENTITY cmd.enableAll.accesskey          "v">
+<!ENTITY cmd.enableAll.tooltip            "Omogoči vse prikazane razširitve in teme">
+<!ENTITY cmd.disableAll.label             "Onemogoči vse">
+<!ENTITY cmd.disableAll.accesskey         "n">
+<!ENTITY cmd.disableAll.tooltip           "Onemogoči vse prikazane razširitve in teme">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "Uporabi temo">
+<!ENTITY cmd.useTheme.accesskey           "U">
+<!ENTITY cmd.useTheme.tooltip             "Spremeni temo, ki jo uporablja &brandShortName;.">
+
+<!ENTITY cmd.options.label                "Možnosti">
+<!ENTITY cmd.options.accesskey            "M">
+<!ENTITY cmd.options.tooltip              "Nastavi možnosti za izbrano razširitev">
+<!ENTITY cmd.optionsUnix.label            "Nastavitve">
+<!ENTITY cmd.optionsUnix.accesskey        "n">
+<!ENTITY cmd.optionsUnix.tooltip          "Nastavi možnosti za izbrano razširitev">
+<!ENTITY cmd.enable.label                 "Omogoči">
+<!ENTITY cmd.enable.accesskey             "m">
+<!ENTITY cmd.enable.tooltip               "Omogoči to razširitev/temo, ko se &brandShortName; naslednjič zažene">
+<!ENTITY cmd.disable.label                "Onemogoči">
+<!ENTITY cmd.disable.accesskey            "n">
+
+<!ENTITY cmd.disable.tooltip              "Onemogoči to razširitev/temo, ko se &brandShortName; naslednjič zažene">
+<!ENTITY cmd.uninstall.label              "Odstrani">
+<!ENTITY cmd.uninstall2.accesskey         "i">
+<!ENTITY cmd.uninstall2.tooltip           "Odstrani izbrano razširitev/temo, ko se &brandShortName; naslednjič zažene">
+<!ENTITY cmd.cancelUninstall.label        "Prekliči odstranitev">
+<!ENTITY cmd.cancelUninstall.accesskey    "k">
+<!ENTITY cmd.cancelUninstall.tooltip      "Prekliče odstranitev te razširitve/teme">
+<!ENTITY cmd.installUpdate.label          "Namesti posodobitev">
+<!ENTITY cmd.installUpdate.accesskey      "N">
+<!ENTITY cmd.installUpdate.tooltip        "Namesti posodobitev za to razširitev/temo">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Prekliči">
+<!ENTITY cancel.accesskey                 "P">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Obišči domačo stran">
+<!ENTITY cmd.homepage.accesskey           "d">
+<!ENTITY cmd.about2.label                 "O tej razširitvi/temi">
+<!ENTITY cmd.about.accesskey              "O">
+<!ENTITY cmd.checkUpdate.label            "Poišči posodobitev">
+<!ENTITY cmd.checkUpdate.accesskey        "P">
+
+<!ENTITY cmd.includeUpdate.label          "Vključi posodobitev">
+<!ENTITY cmd.includeUpdate.accesskey      "v">
+<!ENTITY includeUpdate.label              "Vključi to posodobitev">
+<!ENTITY includeUpdate.accesskey          "v">
+<!ENTITY includeUpdate.tooltip            "Vključi to razširitev/temo pri nameščanju posodobitev">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Ima dodatne zahteve.">
+<!ENTITY blocklisted.label                "Onemogočeno za vašo varnost.">
+<!ENTITY toBeDisabled.label               "Onemogočam ob naslednjem zagonu.">
+<!ENTITY toBeEnabled.label                "Omogočam ob naslednjem zagonu.">
+<!ENTITY toBeInstalled.label              "Nameščam ob naslednjem zagonu.">
+<!ENTITY toBeUninstalled.label            "Odstranjujem ob naslednjem zagonu.">
+<!ENTITY toBeUpgraded.label               "Posodabljam ob naslednjem zagonu.">
+
+<!ENTITY getExtensions.label              "Več razširitev">
+<!ENTITY getExtensions.tooltip            "Več razširitev na addons.mozilla.org">
+<!ENTITY getThemes.label                  "Več tem">
+<!ENTITY getThemes.tooltip                "Več tem na addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label     "Ni izbrane teme">
+<!ENTITY previewNoPreviewImage.label      "Ta tema nima slike za predogled.">
+<!ENTITY moreInfo.label                   "Več podatkov">
+<!ENTITY closeMessage.tooltip             "Zapre to sporočilo">
+
+<!ENTITY updateSuccess.label              "Posodobitev uspešno zaključena.">
+<!ENTITY installSuccess.label             "Namestitev uspešno zaključena.">
+<!ENTITY installSuccessRestart.label      "Ponoven zagon je potreben za končanje namestitve.">
+<!ENTITY installWaiting.label             "Čakam ...">
+<!ENTITY installIncompatibleUpdate.label  "Preverjam združljivost ...">
+<!ENTITY installFinishing.label           "Nameščam ...">
+<!ENTITY installFailure.label             "Namestitev neuspešna.">

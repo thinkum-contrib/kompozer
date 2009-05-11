@@ -1,0 +1,53 @@
+<!-- 
+   - The contents of this file are subject to the Mozilla Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/MPL/
+   - 
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   - 
+   - The Original Code is mozilla.org code.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corp.  Portions created by Netscape are
+   - Copyright (C) 2001 Netscape Communications Corp.  All
+   - Rights Reserved.
+   - 
+   - Contributor(s):
+   -   Bob Lord <lord@netscape.com>
+   -   Terry Hayes <thayes@netscape.com>
+  -->
+
+<!ENTITY  SSLProtocolVersions.caption          "Različice protokola SSL">
+<!ENTITY  SSLWarnings.caption                  "Opozorila SSL">
+<!ENTITY  SSLClientAuthMethod.caption          "Izbira certifikatov klienta">
+
+<!ENTITY pref.ssl.title 		    "Secure Sockets Layer (SSL)">
+<!ENTITY enable.ssl3 			    "Omogoči SSL različice 3">
+<!ENTITY enable.ssl3.accesskey              "3">
+<!ENTITY enable.tls 			    "Omogoči TLS">
+<!ENTITY enable.tls.accesskey               "T">
+
+<!ENTITY warn.description "&brandShortName; vas lahko opozori o varnostnem stanju obiskanih strani. &brandShortName; trenutno prikaže opozorilo in prosi za dovoljenje pred nalaganjem naslednjega:">
+<!ENTITY warn.enteringsecure "Nalaganje strani, ki podpira šifriranje">
+<!ENTITY warn.enteringsecure.accesskey      "N">
+<!ENTITY warn.enteringweak "Nalaganje strani, ki uporablja nizkostopenjsko zaščito">
+<!ENTITY warn.enteringweak.accesskey        "a">
+<!ENTITY warn.insecurepost "Pošiljanje podatkov obrazca iz nešifrirane strani na nešifrirano stran">
+<!ENTITY warn.insecurepost.accesskey        "P">
+<!ENTITY warn.leavingsecure "Zapuščanje strani, ki podpira šifriranje">
+<!ENTITY warn.leavingsecure.accesskey       "Z">
+<!ENTITY warn.secureredirect "Napotitev iz ene šifrirane strani na drugo">
+<!ENTITY warn.secureredirecttoinsecure "Napotitev iz šifrirane strani na nešifrirano">
+<!ENTITY warn.viewmixed "Nalaganje strani z mešanico šifriranega in šifriranega">
+<!ENTITY warn.viewmixed.accesskey           "V">
+
+<!ENTITY certselect.description "Odločite se, kako naj &brandShortName; predstavi varnostni certifikat stranem, ki ga zahtevajo:">
+<!ENTITY certselect.auto "Izberi samodejno">
+<!ENTITY certselect.auto.accesskey          "s">
+<!ENTITY certselect.ask "Vsakokrat vprašaj">
+<!ENTITY certselect.ask.accesskey           "V">
+

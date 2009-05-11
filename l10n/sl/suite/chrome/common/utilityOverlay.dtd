@@ -1,0 +1,82 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY offlineGoOfflineCmd.label "Brez povezave">
+<!ENTITY  offlineGoOfflineCmd.accesskey             "v">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					"Datoteka"> 
+<!ENTITY fileMenu.accesskey				"d">
+<!ENTITY newMenu.label						"Novo">
+<!ENTITY newMenu.accesskey					"N">
+<!ENTITY newBlankPageCmd.label "Stran Composerja">
+<!ENTITY newBlankPageCmd.accesskey "S" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Stran z uporabo predloge">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+<!ENTITY newPageFromDraftCmd.label "Stran z uporabo osnutka">
+<!ENTITY newPageFromDraftCmd.accesskey "o">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				"Okno Navigatorja">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">
+
+<!ENTITY editMenu.label					"Urejanje"> 
+<!ENTITY editMenu.accesskey				"e"> 
+<!ENTITY undoCmd.label						"Razveljavi">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"z"> 
+<!ENTITY redoCmd.label						"Ponovi">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"o"> 
+<!ENTITY cutCmd.label						"Izreži">  
+<!ENTITY cutCmd.key							"X">  
+<!ENTITY cutCmd.accesskey					"I"> 
+<!ENTITY copyCmd.label						"Kopiraj">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"K"> 
+<!ENTITY pasteCmd.label						"Prilepi">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"P"> 
+<!ENTITY deleteCmd.label					"Zbriši">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey				"b"> 
+<!ENTITY selectAllCmd.label					"Izberi vse">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey				"v"> 
+<!ENTITY preferencesCmd.label				"Nastavitve ...">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"e"> 
+<!ENTITY findTypeTextCmd.label "Najdi besedilo med tipkanjem">
+<!ENTITY findTypeTextCmd.accesskey "t">
+<!ENTITY findTypeLinksCmd.label "Najdi povezave med tipkanjem">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewMenu.label					"Pogled"> 
+<!ENTITY viewMenu.accesskey				"P"> 
+<!ENTITY viewToolbarsMenu.label				"Pokaži/Skrij"> 
+<!ENTITY viewToolbarsMenu.accesskey			"p"> 
+<!ENTITY showTaskbarCmd.label					"Vrstica stanja">  
+<!ENTITY showTaskbarCmd.accesskey				"S"> 
+
+<!ENTITY helpMenu.label					"Pomoč"> 
+<!ENTITY helpMenu.accesskey				"m"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"Kaj je novega">  
+
+<!ENTITY releaseCmd.label				"Opombe k izdaji">
+<!ENTITY releaseCmd.accesskey				"i">
+<!ENTITY aboutCmd.label					"O Nvu">
+<!ENTITY aboutCmd.accesskey				"O">
+<!ENTITY aboutCommPluginsCmd.label			"O vstavkih">
+<!ENTITY aboutCommPluginsCmd.accesskey			"v">
+
+<!ENTITY direct.label                                   "Na zvezi (brez proxyja)">
+<!ENTITY direct.accesskey                               "b">
+<!ENTITY manual.label                                   "Na zvezi (proxy: ročno)">
+<!ENTITY manual.accesskey                               "r">
+<!ENTITY pac.label                                      "Na zvezi (proxy: samodejno)">
+<!ENTITY pac.accesskey                                  "s">
+
+<!ENTITY proxy.label                                    "Nastavitve proxy ...">
+<!ENTITY proxy.accesskey                                "N">

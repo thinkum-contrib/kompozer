@@ -1,0 +1,19 @@
+<!ENTITY cutCmd.label "Izreži">
+<!ENTITY cutCmd.accesskey "I">
+<!ENTITY copyCmd.label "Kopiraj">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY pasteCmd.label "Prilepi">
+<!ENTITY pasteCmd.accesskey "p">
+<!ENTITY undoCmd.label "Razveljavi">
+<!ENTITY undoCmd.accesskey "z">
+<!ENTITY selectAllCmd.label "Izberi vse">
+<!ENTITY selectAllCmd.accesskey "v">
+<!ENTITY deleteCmd.label "Izbriši">
+<!ENTITY deleteCmd.accesskey "b">
+<!ENTITY spellAddToDictionary.label "Dodaj v slovar">
+<!ENTITY spellAddToDictionary.accesskey "s">
+<!ENTITY spellEnable.label "Preglej črkovanje v tem polju">
+<!ENTITY spellEnable.accesskey "g">
+<!ENTITY spellNoSuggestions.label "(ni predlogov za popravilo črkovanja)">
+<!ENTITY spellDictionaries.label "Jeziki">
+<!ENTITY spellDictionaries.accesskey "J">

@@ -1,0 +1,61 @@
+<!ENTITY cursive.label "Ležeče:">
+<!ENTITY font.langGroup.baltic "Baltsko">
+<!ENTITY sizes.label "Velikost (slikovne pike)">
+<!ENTITY useDefaultFontSansSerif.label "Brez serifov">
+<!ENTITY minSize.accesskey "a">
+<!ENTITY useDocumentFonts.label "Dovoli, da dokumenti uporabljajo druge pisave">
+<!ENTITY typefaces.label "Tipografija">
+<!ENTITY resolution.other "Drugo ...">
+<!ENTITY proportional.accesskey "P">
+<!ENTITY cursive.accesskey "l">
+<!ENTITY useDocFontNonDynamic.accesskey "p">
+<!ENTITY proportional.label "Spremenljivo:">
+<!ENTITY minSize.none "Brez">
+<!ENTITY font.langGroup.arabic "Arabsko">
+<!ENTITY serif.label "S serifi:">
+<!ENTITY font.langGroup.thai "Tajsko">
+<!ENTITY font.langGroup.simpl-chinese "Kitajsko poenostavljeno">
+<!ENTITY useDefaultFont.label "Uporabi moje privzete pisave in prezri pisave, ki jih je izbrala stran">
+<!ENTITY font.langGroup.latin2 "Srednjeevropsko">
+<!ENTITY calibrate.instructions "Dolžina vrstice zgoraj je:">
+<!ENTITY font.langGroup.latin1 "Zahodno">
+<!ENTITY language.label "Pisave za:">
+<!ENTITY useDefaultFontSerif.label "Serifi">
+<!ENTITY fontsize.units "slikovne pike">
+<!ENTITY sans-serif.label "Brez serifov:">
+<!ENTITY units.inches "palci">
+<!ENTITY units.centimetres "centimetri">
+<!ENTITY font.langGroup.el "Grško">
+<!ENTITY resolution.dpi "dpi">
+<!ENTITY resolution.dpival "$val &resolution.dpi;">
+<!ENTITY font.langGroup.hebrew "Hebrejsko">
+<!ENTITY font.langGroup.unicode "Unicode">
+<!ENTITY useDocFontDynamic.label "Uporabi vse pisave, ki jih izbere stran">
+<!ENTITY minSize.label "Najmanjša velikost pisave:">
+<!ENTITY resolution.label "Ločljivost prikaza:">
+<!ENTITY font.langGroup.korean "Korejsko">
+<!ENTITY useDocFontNonDynamic.label "Uporabi pisave, ki jih izbere stran">
+<!ENTITY calibrateDialog.title "Umerjanje ločljivosti">
+<!ENTITY fantasy.accesskey "D">
+<!ENTITY header2 "Kadar spletna stran izbere lastne pisave">
+<!ENTITY lHeader "Pisave">
+<!ENTITY font.langGroup.turkish "Turško">
+<!ENTITY fantasy.label "Domišljijsko:">
+<!ENTITY font.langGroup.user-def "Uporabniško določeno">
+<!ENTITY font.langGroup.japanese "Japonsko">
+<!ENTITY font.langGroup.cyrillic "Cirilsko">
+<!ENTITY language.accesskey "p">
+<!ENTITY sans-serif.accesskey "s">
+<!ENTITY font.langGroup.trad-chinese "Tradicionalno kitajsko (Tajvan)">
+<!ENTITY serif.accesskey "s">
+<!ENTITY useDocumentFonts.accesskey "o">
+<!ENTITY monospace.label "Enoširinska pisava:">
+<!ENTITY monospace.accesskey "o">
+<!ENTITY resolution.accesskey "r">
+<!ENTITY resolution.system.label "Sistemska nastavitev">
+<!ENTITY newLanguages.label "Nove jezike lahko nastavljate s pomočjo plošče Jeziki">
+<!ENTITY useDefaultFont.accesskey "v">
+<!ENTITY useDocFontDynamic.accesskey "a">
+<!ENTITY font.langGroup.devanagari "Devanagari">
+<!ENTITY font.langGroup.tamil "Tamil">
+<!ENTITY font.langGroup.trad-chinese-hk "Tradicionalno kitajsko (Hong Kong)">

@@ -1,0 +1,22 @@
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "Iskanje po strani">
+<!ENTITY findDialogFrame.title "Iskanje po okviru">
+<!ENTITY findField.label "Najdi besedilo:">
+<!ENTITY findField.accesskey "n">
+<!ENTITY caseSensitiveCheckbox.label "Razlikuj velike in male črke">
+<!ENTITY caseSensitiveCheckbox.accesskey "z">
+<!ENTITY wrapCheckbox.label "Nadaljuj na začetku">
+<!ENTITY wrapCheckbox.accesskey "z">
+<!ENTITY backwardsCheckbox.label "Išči nazaj">
+<!ENTITY backwardsCheckbox.accesskey "n">
+<!ENTITY findField.tooltip "Vnesite eno ali več besed za iskanje">
+<!ENTITY findButton.label "Najdi">
+<!ENTITY findButton.accesskey "n">
+<!ENTITY cancelButton.label "Prekliči">
+<!ENTITY closeButton.label "Zapri">
+<!ENTITY up.label "Gor">
+<!ENTITY up.accesskey "G">
+<!ENTITY down.label "Dol">
+<!ENTITY down.accesskey "D">
+<!ENTITY direction.label "Smer">

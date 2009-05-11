@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "38em">
+
+<!ENTITY ocspDialog.title             "Preverjanje">
+<!ENTITY validation.ocsp.description  "&brandShortName; lahko uporabi protokol Online Certificate Status Protocol (OCSP) za preverjanje certifikatov. Za uporabo OCSP nastavite sledeče:">
+<!ENTITY disableOCSP.label            "Ne uporabljaj OCSP za preverjanje certifikatov">
+<!ENTITY certOCSP.label               "Uporabljaj OCSP le za preverjanje certifikatov, ki podajo naslov za OCSP">
+<!ENTITY proxyOCSP.label              "Uporabljaj OCSP za preverjanje vseh certifikatov, uporabljajoč naslednji naslov:">
+<!ENTITY serviceURL.label             "URI storitve:">
+<!ENTITY serviceURL.accesskey         "S">
+<!ENTITY signingCA.label              "Podpisnik odgovora:">
+<!ENTITY signingCA.accesskey          "P">

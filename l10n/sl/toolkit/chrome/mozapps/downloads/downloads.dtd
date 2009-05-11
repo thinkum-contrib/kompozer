@@ -1,0 +1,47 @@
+<!ENTITY window.width                     "430">
+<!ENTITY window.height                    "310">
+
+<!ENTITY done.label                       "Končano">
+<!ENTITY canceled.label                   "Preklicano">
+<!ENTITY installing.label                 "Nameščam ...">
+
+<!ENTITY starting.label                   "Začenjam ...">
+<!ENTITY failed.label                     "Neuspešno">
+
+<!ENTITY downloads.title                  "Prenosi">
+
+<!ENTITY cmd.pause.label                  "Premor">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Nadaljuj">
+<!ENTITY cmd.resume.accesskey             "N">
+<!ENTITY cmd.cancel.label                 "Prekliči">
+<!ENTITY cmd.cancel.accesskey             "P">
+<!ENTITY cmd.show.label                   "Odpri vsebujoči imenik">
+<!ENTITY cmd.show.labelMac                "Odpri vsebujoči imenik">
+<!ENTITY cmd.show.accesskey               "v">
+<!ENTITY cmd.show.accesskeyMac            "v">
+<!ENTITY cmd.open.label                   "Odpri">
+<!ENTITY cmd.open.accesskey               "O">
+<!ENTITY cmd.openWith.label               "Odpri s programom ...">
+<!ENTITY cmd.openWith.accesskey           "g">
+<!ENTITY cmd.retry.label                  "Ponovno poskusi">
+<!ENTITY cmd.retry.accesskey              "v">
+<!ENTITY cmd.remove.label                 "Odstrani">
+<!ENTITY cmd.remove.accesskey             "d">
+<!ENTITY cmd.properties.label             "Lastnosti">
+<!ENTITY cmd.properties.accesskey         "L">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Počisti">
+<!ENTITY cmd.cleanUp.tooltip              "Odstrani končane, preklicane in neuspešne prenose s seznama">
+<!ENTITY cmd.cleanUp.accesskey            "o">
+
+<!ENTITY closeWhenDone.label              "Zapri, ko so vsi prenosi končani">
+<!ENTITY closeWhenDone.tooltip            "Zapre okno s prenosi, ko je prenašanje vseh datotek končano">
+
+<!ENTITY filesSavedTo.label               "Vse datoteke shrani v:">
+<!ENTITY showFolder.label                 "Prikaži ta imenik">
+

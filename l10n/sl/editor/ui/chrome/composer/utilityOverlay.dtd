@@ -1,0 +1,41 @@
+<!ENTITY undoCmd.label						"Razveljavi">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"z"> 
+<!ENTITY redoCmd.label						"Ponovi">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"o"> 
+<!ENTITY cutCmd.label						"Izreži">  
+<!ENTITY cutCmd.key						"X">  
+<!ENTITY cutCmd.accesskey					"I"> 
+<!ENTITY copyCmd.label						"Kopiraj">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"K"> 
+<!ENTITY pasteCmd.label						"Prilepi">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"P"> 
+<!ENTITY deleteCmd.label					"Zbriši">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey					"b"> 
+<!ENTITY selectAllCmd.label					"Izberi vse">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey					"v">
+<!ENTITY preferencesCmd.label				"Nastavitve ...">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"e"> 
+<!ENTITY findTypeTextCmd.label "Najdi besedilo med tipkanjem">
+<!ENTITY findTypeTextCmd.accesskey "b">
+<!ENTITY findTypeLinksCmd.label "Najdi povezave med tipkanjem">
+<!ENTITY findTypeLinksCmd.accesskey "p">
+
+<!ENTITY viewToolbarsMenu.label				"Pokaži/skrij"> 
+<!ENTITY viewToolbarsMenu.accesskey			"k"> 
+
+<!ENTITY newBlankPageCmd.label "Stran Nvu">
+<!ENTITY newBlankPageCmd.accesskey "S" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Stran z uporabo predloge">
+<!ENTITY newPageFromTemplateCmd.accesskey "p">
+
+<!ENTITY newNavigatorCmd.label				"Okno Navigatorja">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">

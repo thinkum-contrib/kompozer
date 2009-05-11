@@ -1,0 +1,104 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Lastnosti slike">
+
+<!ENTITY pixelsPopup.value "pik">
+<!ENTITY percentPopup.value "odstotkov">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Mesto slike:">
+<!ENTITY locationEditField.accessKey "M">
+<!ENTITY locationEditField.tooltip "Vnesite ime ali mesto slikovne datoteke">
+<!ENTITY title.label "Namig:">
+<!ENTITY title.accessKey "N">
+<!ENTITY title.tooltip "Atribut 'title' jezika HTML, ki se prikaže kot namig">
+<!ENTITY altText.label "Nadomestno besedilo:">
+<!ENTITY altText.accessKey "N">
+<!ENTITY altTextEditField.tooltip "Vnesite besedilo, ki naj se prikaže namesto slike">
+<!ENTITY noAltText.label "Ne uporabi nadomestnega besedila">
+<!ENTITY noAltText.accessKey "N">
+
+<!ENTITY previewBox.label "Predogled slike">
+<!ENTITY MoreFewerButton.tooltip "Prikaži več ali manj lastnosti za urejanje">
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Trenutna velikost:">
+<!ENTITY actualSizeRadio.label "Trenutna velikost">
+<!ENTITY actualSizeRadio.accessKey "T">
+<!ENTITY actualSizeRadio.tooltip "Povrni izvirno velikost slike">
+<!ENTITY customSizeRadio.label "Velikost po meri">
+<!ENTITY customSizeRadio.accessKey "p">
+<!ENTITY customSizeRadio.tooltip "Spremeni velikost slike kot je prikazano na strani">
+<!ENTITY heightEditField.label "Višina:">
+<!ENTITY heightEditField.accessKey "V">
+<!ENTITY widthEditField.label "Širina:">
+<!ENTITY widthEditField.accessKey "i">
+<!ENTITY constrainCheckbox.label "Zakleni">
+<!ENTITY constrainCheckbox.accessKey "Z">
+<!ENTITY constrainCheckbox.tooltip "Ohrani razmerje stranic slike">
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Zemljevid slik">
+<!ENTITY removeImageMapButton.label "Odstrani">
+<!ENTITY removeImageMapButton.accessKey "r">
+<!ENTITY editImageMapButton.label "Urejanje ...">
+<!ENTITY editImageMapButton.tooltip "Ustvari vroče točke, ki se jih da klikati">
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Poravnaj besedilo k sliki">
+<!ENTITY bottomPopup.value "Na dno">
+<!ENTITY topPopup.value "Na vrh">
+<!ENTITY centerPopup.value "Na sredino">
+<!ENTITY wrapRightPopup.value "Oblij ob desni">
+<!ENTITY wrapLeftPopup.value "Oblij ob levi">
+
+<!-- These controls are in the Spacing Box -->
+<!ENTITY spacingBox.label "Razmik">
+<!ENTITY spacingBox.tooltip "Vnesite število, ki predstavlja količino prostora okoli slike">
+<!ENTITY leftRightEditField.label "Levo in desno:">
+<!ENTITY leftRightEditField.accessKey "L">
+<!ENTITY topBottomEditField.label "Zgoraj in spodaj:">
+<!ENTITY topBottomEditField.accessKey "Z">
+<!ENTITY borderEditField.label "Poln okvir:">
+<!ENTITY borderEditField.accessKey "P">
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Prikaži okvir okoli povezane slike">
+<!ENTITY showImageLinkBorder.accessKey "P">
+
+<!-- These controls may be added some day; currently not used -->
+<!ENTITY makePageBackgroundCheckbox.label "Ustvari ozadje strani">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Uporabite sliko za ozadje vaše strani">
+<!ENTITY editImageButton.label "Uredi sliko">
+<!ENTITY editImageButton.tooltip "Uredi sliko v zunanjem programu">
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Obrazec">
+<!ENTITY imageLocationTab.label "Mesto">
+<!ENTITY imageDimensionsTab.label "Mere">
+<!ENTITY imageAppearanceTab.label "Izgled">
+<!ENTITY imageLinkTab.label "Povezava">

@@ -1,0 +1,73 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label         "Objavi stran">
+<!ENTITY windowTitleSettings.label "Nastavitve objave">
+
+<!ENTITY publishTab.label         "Objavi">
+<!ENTITY settingsTab.label        "Nastavitve">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label           "Ime mesta:">
+<!ENTITY siteList.tooltip         "Izberite spletno mesto, na katerem želite objavljati">
+<!ENTITY newSiteButton.label      "Novo mesto">
+<!ENTITY siteDirList.label        "Izberite ali vnesite mapo na vašem spletnem mestu:">
+<!ENTITY siteDirList.tooltip      "Izberite ali vnesite podmapo na vašem spletnem mestu">
+<!ENTITY docDirList.label         "Podmapa spletnega mesta za to stran:">
+<!ENTITY publishImgCheckbox.label "Vključi slike in druge datoteke">
+<!ENTITY publishImgCheckbox.tooltip "Objavi slike in druge datoteke, ki jih uporablja ta stran">
+<!ENTITY sameLocationRadio.label  "Uporabi enako mesto kot za stran">
+<!ENTITY sameLocationRadio.tooltip "Datoteke objavi na isto mesto kot stran">
+<!ENTITY useSubdirRadio.label     "Uporabi to podmapo strani:">
+<!ENTITY useSubdir.tooltip        "Izberite ali vnesite ime podmape, kjer bodo objavljene datoteke">
+<!ENTITY chooseDirButton.label    "Izberi ...">
+<!ENTITY pageTitle.label          "Naslov strani:">
+<!ENTITY pageTitle.tooltip        "Vnesite naslov, ki bo predstavljal stran v oknu in med zaznamki">
+<!ENTITY pageTitleExample.label   "npr.: &quot;Moja spletna stran&quot;">
+<!ENTITY filename.label           "Ime datoteke:">
+<!ENTITY filename.tooltip         "Vnesite ime datoteke spletne strani, skupaj s '.html'">
+<!ENTITY filenameExample.label    "npr.: &quot;mojastran.html&quot;">
+<!ENTITY relatedDocs.label        "Ostale datoteke za objavo">
+<!ENTITY setDefaultButton.label   "Nastavi kot privzeto">
+<!ENTITY setDefSiteAndDir.label   "Nastavi kot privzeto stran in mapo">
+<!ENTITY removeButton.label       "Odstrani stran">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label   "Strani za objavo">
+<!ENTITY serverInfo.label     "Podatki o spletni strani">
+<!ENTITY loginInfo.label      "Strežnik za objavo">
+<!ENTITY siteName.label       "Ime spletnega mesta:">
+<!ENTITY siteName.tooltip     "Vzdevek, ki predstavlja to mesto za objavo (npr.: 'MojeMesto')">
+<!ENTITY siteUrl.label        "Naslov za objavo (npr.: 'ftp://ftp.mojisp.com/mojeime'):">
+<!ENTITY siteUrl.tooltip      "Naslov FTP:// ali HTTP://, ki vam ga je dal vaš ponudnik internetnih storitev">
+<!ENTITY browseUrl.label      "Naslov HTTP vaše strani (npr.: 'http://www.mojisp.com/mojeime'):">
+<!ENTITY browseUrl.tooltip    "Naslov HTTP:// vaše domače mape (ne vključuje imena datoteke)">
+<!ENTITY username.label       "Uporabniško ime:">
+<!ENTITY username.tooltip     "Uporabniško ime, ki ga potrebujete za prijavo k vašemu ponudniku internetnih storitev">
+<!ENTITY password.label       "Geslo:">
+<!ENTITY password.tooltip     "Geslo, ki pripada uporabniškemu imenu">
+<!ENTITY savePassword.label   "Shrani geslo">
+<!ENTITY savePassword.tooltip "Izberite to možnost, če želite varno shraniti geslo s pomočjo Upravitelja gesel">
+
+<!ENTITY selectDirectory.label "Izberi mapo">
