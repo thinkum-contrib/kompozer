@@ -1,7 +1,7 @@
 <!-- mac -->
-<!-- LOCALIZATION NOTE: FILE Do not translate all the entities ending with
-  Cmd.key. -->
-<!ENTITY quitApplicationCmd.label       "Quitter &brandShortName;"> 
+<!-- LOCALIZATION NOTE: FILE Do not translate all the entities ending with Cmd.key. -->
+<!--<!ENTITY quitApplicationCmd.label       "Quitter &brandShortName;"> -->
+<!ENTITY quitApplicationCmd.label       "Quitter KompoZer"> 
 <!ENTITY quitApplicationCmd.key         "Q">
 <!-- End of Application menu -->
 
@@ -33,8 +33,8 @@
   will show the standard OS X shortcut (Cmd+? on most locales) in the Help
   menu. To make the shortcut work, mapping (Cmd+Shift+/ on en-US) is done with
   openHelpCmd.key and openHelpCmd.modifiers. -->
-<!ENTITY openHelpFrontend.key       "?">
-<!ENTITY openHelpFrontend.modifiers "accel">
-<!ENTITY openHelpCmd.key            "/">
-<!ENTITY openHelpCmd.modifiers      "accel,shift">
-<!ENTITY openHelp2Cmd.key           "VK_HELP">
+<!ENTITY openHelpFrontend.key           "?">
+<!ENTITY openHelpFrontend.modifiers     "accel">
+<!ENTITY openHelpCmd.key                "/">
+<!ENTITY openHelpCmd.modifiers          "accel,shift">
+<!ENTITY openHelp2Cmd.key               "VK_HELP">

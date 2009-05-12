@@ -646,38 +646,22 @@
 <!ENTITY SourceTabDirection "ltr">
 
 <!-- Structure Toolbar Context Menu items -->
-<!ENTITY structSelect.label         "Sélectionner">
-<!ENTITY structSelect.accesskey     "s">
-<!ENTITY structRemoveTag.label      "Supprimer la balise">
-<!ENTITY structRemoveTag.accesskey  "r">
-<!ENTITY structChangeTag.label      "Modifier la balise">
-<!ENTITY structChangeTag.accesskey  "M">
-<!-- Kaze: moved to cascadesOverlay.dtd
-<!ENTITY inlineStyles.label                  "Inline styles">
-<!ENTITY inlinestyles.accesskey              "i">
-<!ENTITY textProperties.label                "Text properties">
-<!ENTITY textproperties.accesskey            "t">
-<!ENTITY borderProperties.label              "Border properties">
-<!ENTITY borderproperties.accesskey          "b">
-<!ENTITY backgroundProperties.label          "Background properties">
-<!ENTITY backgroundproperties.accesskey      "g">
-<!ENTITY boxProperties.label                 "Box properties">
-<!ENTITY boxproperties.accesskey             "x">
-<!ENTITY auralProperties.label               "Aural properties">
-<!ENTITY auralproperties.accesskey           "a">
-<!ENTITY makeCSSRule.label                   "Extract and create generic style">
-<!ENTITY makecssrule.accesskey               "e">
--->
+<!ENTITY structSelect.label             "Sélectionner">
+<!ENTITY structSelect.accesskey         "s">
+<!ENTITY structRemoveTag.label          "Supprimer la balise">
+<!ENTITY structRemoveTag.accesskey      "r">
+<!ENTITY structChangeTag.label          "Modifier la balise">
+<!ENTITY structChangeTag.accesskey      "M">
 
 <!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Insérer">
-<!ENTITY insertTOC.accesskey      "i">
-<!ENTITY updateTOC.label          "Mettre à jour">
-<!ENTITY updateTOC.accesskey      "u">
-<!ENTITY removeTOC.label          "Supprimer">
-<!ENTITY removeTOC.accesskey      "S">
-<!ENTITY tocMenu.label            "Table des matières">
-<!ENTITY tocMenu.accesskey        "b">
+<!ENTITY insertTOC.label                "Insérer">
+<!ENTITY insertTOC.accesskey            "i">
+<!ENTITY updateTOC.label                "Mettre à jour">
+<!ENTITY updateTOC.accesskey            "u">
+<!ENTITY removeTOC.label                "Supprimer">
+<!ENTITY removeTOC.accesskey            "S">
+<!ENTITY tocMenu.label                  "Table des matières">
+<!ENTITY tocMenu.accesskey              "b">
 
 <!-- Smart Widgets menu -->
 <!ENTITY insertSmartWidgetsMenu.label   "Autres insertions">
@@ -685,21 +669,16 @@
 <!ENTITY insertCalendarSW.label         "Calendrier">
 
 <!-- Toolbar customization -->
-<!ENTITY customizeToolbar.label     "Personnalisation des barres d'outils">
-<!ENTITY customizeToolbar.accesskey "P">
+<!ENTITY customizeToolbar.label         "Personnalisation des barres d'outils">
+<!ENTITY customizeToolbar.accesskey     "P">
 
 <!-- Templates -->
-<!ENTITY templatesMenu.label      "Modèles">
-<!ENTITY insertEditableArea.label "Insérer une zone éditable">
-<!ENTITY removeEditableArea.label "Supprimer la zone éditable">
-<!ENTITY makeEditableArea.label   "Rendre éditable">
+<!ENTITY templatesMenu.label            "Modèles">
+<!ENTITY insertEditableArea.label       "Insérer une zone éditable">
+<!ENTITY removeEditableArea.label       "Supprimer la zone éditable">
+<!ENTITY makeEditableArea.label         "Rendre éditable">
 
-<!-- Advanced -->
-<!-- Kaze: moved to cascadesOverlay.dtd
-<!ENTITY classSelectMenu.label               "Classes">
-<!ENTITY idSelectMenu.label                  "ID">
--->
-
+<!-- RTL -->
 <!ENTITY writingDirectionMenu.label     "Sens d'écriture">
 <!ENTITY writingdirectionmenu.accesskey "e">
 <!ENTITY defaultDirectionMenu.label     "Non spécifié">
@@ -708,53 +687,58 @@
 <!ENTITY ltrdirectionmenu.accesskey     "g">
 <!ENTITY rtlDirectionMenu.label         "De droite à gauche">
 <!ENTITY rtldirectionmenu.accesskey     "d">
-
-<!ENTITY dirLtr.tooltip           "Appliquer un sens d'écriture de gauche à droite">
-<!ENTITY dirRtl.tooltip           "Appliquer un sens d'écriture de droite à gauche">
+<!ENTITY dirLtr.tooltip                 "Appliquer un sens d'écriture de gauche à droite">
+<!ENTITY dirRtl.tooltip                 "Appliquer un sens d'écriture de droite à gauche">
 
 <!-- Help menu -->
-<!ENTITY helpMenu.label           "Aide">
-<!ENTITY helpmenu.accesskey       "e">
+<!ENTITY helpMenu.label                 "Aide">
+<!ENTITY helpmenu.accesskey             "e">
+                                        
+<!ENTITY nvuComMenu.label               "Site Web de &brandShortName; (en)">
+<!ENTITY nvucommenu.accesskey           "K">
+<!ENTITY faqMenu.label                  "FAQ (en)">
+<!ENTITY faqmenu.accesskey              "F">
+<!ENTITY bugReportsMenu.label           "Bugs et suggestions (en)">
+<!ENTITY bugreportsmenu.accesskey       "B">
+<!ENTITY nvudevOrgMenu.label            "Communauté des développeurs (en)">
+<!ENTITY nvudevorgmenu.accesskey        "D">
+<!ENTITY nvuForumsMenu.label            "Forums">
+<!ENTITY nvuforumsmenu.accesskey        "o">
+<!ENTITY supportKompoZer.label          "Soutenir &brandShortName;">
+<!ENTITY supportKompoZer.accesskey      "s">
+<!ENTITY tipofthedayMenu.label          "Astuce du jour">
+<!ENTITY tipofthedaymenu.accesskey      "a">
+<!ENTITY aboutMenu.label                "À propos de &brandShortName;">
+<!ENTITY aboutmenu.accesskey            "p">
+<!ENTITY localizingnvu.accesskey        "t">
+<!ENTITY localizingNvu.label            "Traduire &brandShortName; (en)">
+<!ENTITY userGuideMenu.label            "Manuel utilisateur (en)">
+<!ENTITY userguidemenu.accesskey        "U">
+<!ENTITY aboutLinspire.label            "À propos de Linspire Inc.">
+<!ENTITY aboutlinspire.accesskey        "L">
+<!ENTITY aboutDI.label                  "À propos de Disruptive Innovations">
+<!ENTITY aboutDI.accesskey              "I">
 
-<!ENTITY nvuComMenu.label          "Site Web de &brandShortName; (en)">
-<!ENTITY nvucommenu.accesskey      "K">
-<!ENTITY faqMenu.label             "FAQ (en)">
-<!ENTITY faqmenu.accesskey         "F">
-<!ENTITY bugReportsMenu.label      "Bugs et suggestions (en)">
-<!ENTITY bugreportsmenu.accesskey  "B">
-<!ENTITY nvudevOrgMenu.label       "Communauté des développeurs (en)">
-<!ENTITY nvudevorgmenu.accesskey   "D">
-<!ENTITY nvuForumsMenu.label       "Forums">
-<!ENTITY nvuforumsmenu.accesskey   "o">
-<!ENTITY supportKompoZer.label     "Soutenir &brandShortName;">
-<!ENTITY supportKompoZer.accesskey "s">
-<!ENTITY tipofthedayMenu.label     "Astuce du jour">
-<!ENTITY tipofthedaymenu.accesskey "a">
-<!ENTITY aboutMenu.label           "À propos de &brandShortName;">
-<!ENTITY aboutmenu.accesskey       "p">
-<!ENTITY localizingnvu.accesskey   "t">
-<!ENTITY localizingNvu.label       "Traduire &brandShortName; (en)">
-<!ENTITY userGuideMenu.label       "Manuel utilisateur (en)">
-<!ENTITY userguidemenu.accesskey   "U">
-<!ENTITY aboutLinspire.label       "À propos de Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey   "L">
-<!ENTITY aboutDI.label             "À propos de Disruptive Innovations">
-<!ENTITY aboutDI.accesskey         "I">
+<!ENTITY leftGlued.tooltip              "Attacher à la bordure gauche">
+<!ENTITY rightGlued.tooltip             "Attacher à la bordure droite">
+<!ENTITY centerGlued.tooltip            "Laisser au centre">
+<!ENTITY topGlued.tooltip               "Attacher en haut">
+<!ENTITY bottomGlued.tooltip            "Attacher en bas">
+<!ENTITY middleGlued.tooltip            "Laisser au milieu">
 
-<!ENTITY leftGlued.tooltip        "Attacher à la bordure gauche">
-<!ENTITY rightGlued.tooltip       "Attacher à la bordure droite">
-<!ENTITY centerGlued.tooltip      "Laisser au centre">
-<!ENTITY topGlued.tooltip         "Attacher en haut">
-<!ENTITY bottomGlued.tooltip      "Attacher en bas">
-<!ENTITY middleGlued.tooltip      "Laisser au milieu">
+<!ENTITY spellSuggestions.label         "Suggestions orthographiques">
+<!ENTITY spellSuggestions.accesskey     "S">
+<!ENTITY spellAddToDictionary.label     "Ajouter au dictionnaire">
 
-<!ENTITY spellSuggestions.label     "Suggestions orthographiques">
-<!ENTITY spellSuggestions.accesskey "S">
-<!ENTITY spellAddToDictionary.label "Ajouter au dictionnaire">
+<!-- KompoZer 0.8: viewSource -->
+<!ENTITY editNode.label                 "Modifier le code HTML">
+<!ENTITY editHead.label                 "Modifier le contenu &lt;head&gt;">
+<!ENTITY editBody.label                 "Modifier le contenu &lt;body&gt;">
+<!ENTITY confirmNode.label              "Confirmer les changements">
+<!ENTITY cancelNode.label               "Annuler les changements">
 
-<!-- Kaze: viewSource -->
-<!ENTITY editNode.label "Modifier le code HTML">
-<!ENTITY editHead.label "Modifier le contenu &lt;head&gt;">
-<!ENTITY editBody.label "Modifier le contenu &lt;body&gt;">
-<!ENTITY confirmNode.label "Confirmer les changements">
-<!ENTITY cancelNode.label "Annuler les changements">
+<!-- KompoZer 0.8: text editor -->
+<!ENTITY extEditor.label                "HTML">
+<!ENTITY extEditor.tooltip              "Ouvrir le document courant dans un éditeur texte">
+<!ENTITY extEditorCmd.label             "Éditeur texte externe">
+<!ENTITY extEditorCmd.accesskey         "e">
