@@ -1,55 +1,75 @@
-<!-- 
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
    - The contents of this file are subject to the Mozilla Public License Version
    - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
    -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
    -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY AddOptGroup.accesskey "г">
-<!ENTITY AddOptGroup.label "Добавить группу">
-<!ENTITY AddOption.accesskey "Д">
-<!ENTITY AddOption.label "Добавить опцию">
-<!ENTITY MoveElementDown.accesskey "В">
-<!ENTITY MoveElementDown.label "Вниз">
-<!ENTITY MoveElementUp.accesskey "н">
-<!ENTITY MoveElementUp.label "Вверх">
-<!ENTITY OptGroup.label "Группа опций">
-<!ENTITY OptGroupDisabled.accesskey "О">
-<!ENTITY OptGroupDisabled.label "Отключено">
-<!ENTITY OptGroupLabel.accesskey "р">
-<!ENTITY OptGroupLabel.label "Метка:">
-<!ENTITY Option.label "Опция">
-<!ENTITY OptionDisabled.accesskey "О">
-<!ENTITY OptionDisabled.label "Отключено">
-<!ENTITY OptionSelected.accesskey "б">
-<!ENTITY OptionSelected.label "Выбрано первоначально">
-<!ENTITY OptionText.accesskey "Т">
-<!ENTITY OptionText.label "Текст:">
-<!ENTITY OptionValue.accesskey "З">
-<!ENTITY OptionValue.label "Значение:">
-<!ENTITY RemoveElement.accesskey "У">
-<!ENTITY RemoveElement.label "Удалить">
+   - The Original Code is Input Tag Properties Dialog.
+   -
+   - The Initial Developer of the Original Code is
+   - Neil Rashbrook.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s): Neil Rashbrook <neil@parkwaycc.co.uk>
+   -   
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY windowTitle.label "Свойства списка выбора">
 <!ENTITY Select.label "Список выборов">
-<!ENTITY SelectDisabled.accesskey "О">
-<!ENTITY SelectDisabled.label "Отключено">
-<!ENTITY SelectMultiple.accesskey "М">
-<!ENTITY SelectMultiple.label "Множественный выбор">
-<!ENTITY SelectName.accesskey "И">
 <!ENTITY SelectName.label "Имя списка:">
-<!ENTITY SelectSize.accesskey "ы">
+<!ENTITY SelectName.accesskey "И">
 <!ENTITY SelectSize.label "Высота:">
-<!ENTITY SelectTabIndex.accesskey "П">
+<!ENTITY SelectSize.accesskey "ы">
+<!ENTITY SelectMultiple.label "Множественный выбор">
+<!ENTITY SelectMultiple.accesskey "М">
+<!ENTITY SelectDisabled.label "Отключено">
+<!ENTITY SelectDisabled.accesskey "О">
 <!ENTITY SelectTabIndex.label "Последовательность перехода:">
-<!ENTITY SelectedHeader.label "Выбрано">
+<!ENTITY SelectTabIndex.accesskey "П">
+<!ENTITY OptGroup.label "Группа опций">
+<!ENTITY OptGroupLabel.label "Метка:">
+<!ENTITY OptGroupLabel.accesskey "р">
+<!ENTITY OptGroupDisabled.label "Отключено">
+<!ENTITY OptGroupDisabled.accesskey "О">
+<!ENTITY Option.label "Опция">
+<!ENTITY OptionText.label "Текст:">
+<!ENTITY OptionText.accesskey "Т">
+<!ENTITY OptionValue.label "Значение:">
+<!ENTITY OptionValue.accesskey "З">
+<!ENTITY OptionSelected.label "Выбрано первоначально">
+<!ENTITY OptionSelected.accesskey "б">
+<!ENTITY OptionDisabled.label "Отключено">
+<!ENTITY OptionDisabled.accesskey "О">
 <!ENTITY TextHeader.label "Текст">
 <!ENTITY ValueHeader.label "Значение">
-<!ENTITY windowTitle.label "Свойства списка выбора">
+<!ENTITY SelectedHeader.label "Выбрано">
+<!ENTITY AddOption.label "Добавить опцию">
+<!ENTITY AddOption.accesskey "Д">
+<!ENTITY AddOptGroup.label "Добавить группу">
+<!ENTITY AddOptGroup.accesskey "г">
+<!ENTITY RemoveElement.label "Удалить">
+<!ENTITY RemoveElement.accesskey "У">
+<!ENTITY MoveElementUp.label "Вверх">
+<!ENTITY MoveElementUp.accesskey "н">
+<!ENTITY MoveElementDown.label "Вниз">
+<!ENTITY MoveElementDown.accesskey "В">

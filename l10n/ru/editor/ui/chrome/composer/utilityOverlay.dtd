@@ -1,54 +1,38 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY copyCmd.accesskey "К">
-<!ENTITY copyCmd.key "C">
-<!ENTITY copyCmd.label "Копировать">
-<!ENTITY cutCmd.accesskey "В">
-<!ENTITY cutCmd.key "X">
+<!ENTITY undoCmd.label "Отменить">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "О">
+<!ENTITY redoCmd.label "Повторить">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "П">
 <!ENTITY cutCmd.label "Вырезать">
-<!ENTITY deleteCmd.accesskey "У">
-<!ENTITY deleteCmd.key "D">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "В">
+<!ENTITY copyCmd.label "Копировать">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "К">
+<!ENTITY pasteCmd.label "Вставить">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "с">
 <!ENTITY deleteCmd.label "Удалить">
-<!ENTITY findTypeLinksCmd.accesskey "л">
-<!ENTITY findTypeLinksCmd.label "Поиск ссылок по мере набора">
-<!ENTITY findTypeTextCmd.accesskey "и">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.accesskey "У">
+<!ENTITY selectAllCmd.label "Выделить все">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "ы">
+<!ENTITY preferencesCmd.label "Настройки...">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.accesskey "р">
 <!ENTITY findTypeTextCmd.label "Поиск текста по мере набора">
+<!ENTITY findTypeTextCmd.accesskey "и">
+<!ENTITY findTypeLinksCmd.label "Поиск ссылок по мере набора">
+<!ENTITY findTypeLinksCmd.accesskey "л">
+<!ENTITY viewToolbarsMenu.label "Показать/скрыть">
+<!ENTITY viewToolbarsMenu.accesskey "П">
+<!ENTITY newBlankPageCmd.label "Страницу Компоновщика">
 <!ENTITY newBlankPageCmd.accesskey "т">
 <!ENTITY newBlankPageCmd.key "n">
-<!ENTITY newBlankPageCmd.label "Страницу Компоновщика">
-<!ENTITY newNavigatorCmd.accesskey "О">
-<!ENTITY newNavigatorCmd.key "N">
-<!ENTITY newNavigatorCmd.label "Окно Навигатора">
-<!ENTITY newPageFromTemplateCmd.accesskey "ш">
 <!ENTITY newPageFromTemplateCmd.label "Страницу с помощью шаблона">
-<!ENTITY pasteCmd.accesskey "с">
-<!ENTITY pasteCmd.key "V">
-<!ENTITY pasteCmd.label "Вставить">
-<!ENTITY preferencesCmd.accesskey "р">
-<!ENTITY preferencesCmd.key "E">
-<!ENTITY preferencesCmd.label "Настройки...">
-<!ENTITY redoCmd.accesskey "П">
-<!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.label "Повторить">
-<!ENTITY selectAllCmd.accesskey "ы">
-<!ENTITY selectAllCmd.key "A">
-<!ENTITY selectAllCmd.label "Выделить все">
-<!ENTITY undoCmd.accesskey "О">
-<!ENTITY undoCmd.key "Z">
-<!ENTITY undoCmd.label "Отменить">
-<!ENTITY viewToolbarsMenu.accesskey "П">
-<!ENTITY viewToolbarsMenu.label "Показать/скрыть">
+<!ENTITY newPageFromTemplateCmd.accesskey "ш">
+<!ENTITY newNavigatorCmd.label "Окно Навигатора">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.accesskey "О">

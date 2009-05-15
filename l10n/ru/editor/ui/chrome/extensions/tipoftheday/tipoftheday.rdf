@@ -15,13 +15,13 @@
    -
    - The Original Code is Nvu.
    -
-   - The Initial Developer of the Original Code is
-   - Lindows Inc.
+   - The Initial Developer of the Original Code is Linspire Inc.
    - Portions created by the Initial Developer are Copyright (C) 2004
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
    -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -38,136 +38,117 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
-                     "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
+]>
 <rss version="0.91">
   <channel>
-    <title>Полезные советы KompoZer</title>
-    <link>http://www.kompozer.net/</link>
-    <description>Архив полезных советов KompoZer</description>
-    <language>ru-ru</language>
+    <title>&brandShortName; tips</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>&brandShortName; tip of the day Archive</description>
+    <language>en-us</language>
   
     <item>
-      <title>... вы можете перемещать элементы?</title>
-      <description> Просто поместите курсор в блок, который вы хотели бы переместить
-                    и один раз кликните по кнопке "Слой", чтобы сделать этот блок перемещаемым.
-     </description>
+      <title>…you can move elements?</title>
+      <description>Just place the caret in the block you'd like to move and
+                   click once on the Layer button to make the block movable.
+      </description>
     </item>
   
     <item>
-      <title>... вы можете настраивать панели инструментов?</title>
-      <description>Воспользуйтесь меню "Вид > Показать/Скрыть > Настроить...", чтобы открыть
-                   окно настройки панелей инструментов. С помощью drag and drop добавляйте, 
-                   перемещайте или удаляйте кнопки и разделители.
-     </description>
+      <title>…you can customize the toolbars?</title>
+      <description>Use the menu "View > Show/Hide > Customize Toolbar" to open
+                   the toolbar customization panel. Then use drag and drop to
+                   add, move or remove buttons and spaces/separators.
+      </description>
     </item>
   
     <item>
-      <title>... вы можете создать новую панель инструментов?</title>
-      <description>Воспользуйтесь меню "Вид > Показать/Скрыть > Настроить... > Панель форматирования",
-                   чтобы открыть окно настройки панели инструментов. В нем кликните по кнопке "Новая 
-                   панель инструментов". Пустые панели инструментов автоматически исчезают, после 
-                   закрытия окна настройки.
-     </description>
+      <title>…&brandShortName; has a CSS editor?</title>
+      <description>&brandShortName; integrates the CaScadeS CSS editor. Open it using the
+                   Tool > CSS Editor menu.</description>
     </item>
   
     <item>
-      <title>... в KompoZer есть редактор CSS (Каскадных Таблиц стилей)?</title>
-      <description>В KompoZer интегрирован редактор таблиц CSS. Вы можете открыть его в меню "Инструменты > Редактор CSS".
-     </description>
-    </item>
-  
-    <item>
-      <title>... в KompoZer есть Менеджер Сайта?</title>
-      <description>Воспользуйтесь клавишей F9, или меню "Вид > Показать/Скрыть > 
-                   Менеджер Сайта", чтобы показать или скрыть Менеджер Сайта.
-     </description>
+      <title>…&brandShortName; has a Site Manager?</title>
+      <description>Use the F9 key or the "View > Show/Hide > Site Manager"
+                   menu to show or hide the Site Manager.</description>
     </item>
 
-<!--    <item>
-      <title>...you can apply CSS styles to any element?</title>
+    <item>
+      <title>…you can apply CSS styles to any element?</title>
       <description>Place the caret in the element you wish to style and right-
                    click on the element's tag in the structure toolbar at the
-                   bottom of the main window of KompoZer. The "Inline styles" and
-                   its menu items will let you style directly that element.
+                   bottom of the main window of &brandShortName;. The "Inline styles"
+                   menu item will let you style directly that element.
       </description>
-    </item>  -->
-
-    <item>
-      <title>... вы можете изменять направление письма?</title>
-      <description>Настройте ваши панели инструментов, и добавьте две кнопки 
-                   управления направлением письма.
-     </description>
     </item>
 
     <item>
-      <title>... вы можете изменить размеры таблицы мышью?</title>
-      <description>Просто включите отображение линеек, в меню "Вид > Показать/Скрыть > Линейки" 
-                   и поместите курсор в ячейку таблицы, чтобы следить за ее изменением.
-     </description>
+      <title>…you can control the writing direction?</title>
+      <description>Customize your toolbars and add the two direction control
+                   buttons.</description>
     </item>
 
     <item>
-      <title>... вы можете очень легко настроить панель инструментов?</title>
-      <description>Просто кликните по ней правой кнопкой мыши...
-     </description>
+      <title>…you can resize table with the mouse?</title>
+      <description>Just show the rulers using View > Show/Hide > Rulers and
+                   place the caret inside a table cell to see resizers appear.
+      </description>
     </item>
 
     <item>
-      <title>...вы имеете прямой доступ к сообществу пользователей KompoZer?</title>
-      <description>Просто выберите меню "Справка > Форумы".
-     </description>
+      <title>…you can very easily customize a toolbar?</title>
+      <description>Just right-click on it…</description>
     </item>
 
     <item>
-      <title>...KompoZer может автоматически открыть документ при запуске?</title>
-      <description>Используйте в командной строке: KompoZer _ваш_url_
-     </description>
+      <title>…you have direct access to the &brandShortName; community?</title>
+      <description>Just select the Help > Forums menu entry.</description>
     </item>
 
     <item>
-      <title>...вы можете обсудить работу KompoZer на русском языке?</title>
-      <description>Для этого на форуме российских пользователей Mozilla http://forum.mozilla.ru существует раздел посвященный KompoZer. 
-     </description>
+      <title>…&brandShortName; can automatically open a document at launch?</title>
+      <description>Use the command-line:      kompozer _your_url_</description>
     </item>
 
     <item>
-      <title>...вы можете одновременно редактировать больше одного сайта?</title>
-      <description>Менеджер сайтов позволяет открывать и просматривать содержимое нескольких сайтов одновременно. 
-     </description>
+      <title>…you can edit more than one site at the same time?</title>
+      <description>The Site Manager can open and show the contents of multiple web sites
+                   at the same time.</description>
     </item>
 
     <item>
-      <title>...KompoZer кросс-платформенный редактор?</title>
-      <description>Версии KompoZer существуют для большого количества операционных систем включая Windows, Mac OS, различных вариантов Linux, OS/2... 
-     </description>
+      <title>…&brandShortName; is cross-platform?</title>
+      <description>&brandShortName; exists on a wide variety of operating systems, including
+                   Windows, Mac OS X, many flavors of Linux, OS/2, …</description>
     </item>
 
     <item>
-      <title>...вы можете создать новую вкладку с помощью горячих клавиш?</title>
-      <description>Нажатие Control+t (Command+t в Mac OS X) создаст новую пустую вкладку.
-     </description>
+      <title>…you can create a new tab with a key combination?</title>
+      <description>Control+t (Command+t on Mac OS X) will create a new blank tab</description>
     </item>
 
     <item>
-      <title>...вы можете открыть новое окно с помощью горячих клавиш?</title>
-      <description>Нажатие Control+shift+n (Command+shift+t в Mac OS X) создаст новое пустое окно.
-     </description>
+      <title>…you can create a new window with a key combination?</title>
+      <description>Control+shift+n (Command+shift+t on Mac OS X) will create a new blank window</description>
     </item>
 
     <item>
-      <title>...вы можете изменить обрамление у отдельной ячейки таблицы?</title>
-      <description>Установите курсор в ячейку, щелкните правой кнопкой мыши по ячейке в строке статуса и выберите Inline стили &gt; Свойства обрамления.</description>
+      <title>…you can change the border of a single table cell?</title>
+      <description>Place the caret in that cell, right-click on the cell in the status bar and select Inline Styles &gt; Border tab</description>
     </item>
 
     <item>
-      <title>...вы можете закрыть вкладку одним щелчком?</title>
-      <description>Просто щелкните по вкладке средней кнопкой мыши.</description>
+      <title>…you can close a tab with one click?</title>
+      <description>Just middle-click on the tab itself</description>
     </item>
 
     <item>
-      <title>...вы можете закрыть текущую вкладку одной клавишей?</title>
-      <description>Комбинация Control-F4 закроет текущую вкладку.</description>
+      <title>…you can close the current tab with one key?</title>
+      <description>Control-F4 will close the current tab.</description>
     </item>
+
   </channel>
 </rss>
 

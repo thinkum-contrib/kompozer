@@ -1,43 +1,43 @@
-<!ENTITY advanced.tab "Поля и колонтитулы">
+<!ENTITY printSetup.title "Параметры страницы">
 <!ENTITY basic.tab "Формат и свойства">
-<!ENTITY customPrompt.prompt "Введите собственный текст колонтитула">
-<!ENTITY customPrompt.title "Настройка...">
-<!ENTITY footerCenter.tip "Нижний колонтитул (по центру)">
-<!ENTITY footerLeft.tip "Нижний колонтитул (слева)">
-<!ENTITY footerRight.tip "Нижний колонтитул (справа)">
 <!ENTITY formatGroup.label "Формат">
-<!ENTITY headerCenter.tip "Верхний колонтитул (по центру)">
-<!ENTITY headerFooter.label "Колонтитулы">
-<!ENTITY headerLeft.tip "Верхний колонтитул (слева)">
-<!ENTITY headerRight.tip "Верхний колонтитул (справа)">
-<!ENTITY hfBlank "--пусто--">
-<!ENTITY hfCenter.label "По центру:">
-<!ENTITY hfCustom "Настройка...">
-<!ENTITY hfDateAndTime "Дата/время">
-<!ENTITY hfDateAndTime.code "&amp;D">
-<!ENTITY hfLeft.label "Слева:">
-<!ENTITY hfPage "Страница #">
-<!ENTITY hfPage.code "[&amp;P]">
-<!ENTITY hfPageAndTotal "Страница # из #">
-<!ENTITY hfPageAndTotal.code "[&amp;PT]">
-<!ENTITY hfRight.label "Справа:">
-<!ENTITY hfTitle "Заголовок">
-<!ENTITY hfTitle.code "[&amp;T]">
-<!ENTITY hfURL "URL">
-<!ENTITY hfURL.code "[&amp;U]">
-<!ENTITY landscape "Альбомная">
-<!ENTITY marginBottom.label "Снизу:">
-<!ENTITY marginGroup.label "Поля (#1)">
-<!ENTITY marginLeft.label "Слева:">
-<!ENTITY marginRight.label "Справа:">
-<!ENTITY marginTop.label "Сверху:">
-<!ENTITY marginUnits.inches "дюймов">
-<!ENTITY marginUnits.metric "миллиметров">
-<!ENTITY optionsGroup.label "Свойства">
 <!ENTITY orientation.label "Ориентация:">
 <!ENTITY portrait "Книжная">
-<!ENTITY printBG.label "Печать фона (цвета и изображения)">
-<!ENTITY printSetup.title "Параметры страницы">
+<!ENTITY landscape "Альбомная">
 <!ENTITY scale.label "Масштаб:">
 <!ENTITY scalePercent "&#037;">
 <!ENTITY shrinkToFit.label "Сжать до ширины страницы">
+<!ENTITY optionsGroup.label "Свойства">
+<!ENTITY printBG.label "Печать фона (цвета и изображения)">
+<!ENTITY advanced.tab "Поля и колонтитулы">
+<!ENTITY marginGroup.label "Поля (#1)">
+<!ENTITY marginUnits.inches "дюймов">
+<!ENTITY marginUnits.metric "миллиметров">
+<!ENTITY marginTop.label "Сверху:">
+<!ENTITY marginBottom.label "Снизу:">
+<!ENTITY marginLeft.label "Слева:">
+<!ENTITY marginRight.label "Справа:">
+<!ENTITY headerFooter.label "Колонтитулы">
+<!ENTITY hfLeft.label "Слева:">
+<!ENTITY hfCenter.label "По центру:">
+<!ENTITY hfRight.label "Справа:">
+<!ENTITY headerLeft.tip "Верхний колонтитул (слева)">
+<!ENTITY headerCenter.tip "Верхний колонтитул (по центру)">
+<!ENTITY headerRight.tip "Верхний колонтитул (справа)">
+<!ENTITY footerLeft.tip "Нижний колонтитул (слева)">
+<!ENTITY footerCenter.tip "Нижний колонтитул (по центру)">
+<!ENTITY footerRight.tip "Нижний колонтитул (справа)">
+<!ENTITY hfTitle "Заголовок страницы">
+<!ENTITY hfTitle.code "[&amp;T]">
+<!ENTITY hfURL "Адрес страницы">
+<!ENTITY hfURL.code "[&amp;U]">
+<!ENTITY hfDateAndTime "Дата и время">
+<!ENTITY hfDateAndTime.code "&amp;D">
+<!ENTITY hfPage "Номер страницы">
+<!ENTITY hfPage.code "[&amp;P]">
+<!ENTITY hfPageAndTotal "Страница # из #">
+<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfBlank "--пусто--">
+<!ENTITY hfCustom "Настроить…">
+<!ENTITY customPrompt.title "Настройка…">
+<!ENTITY customPrompt.prompt "Введите собственный текст колонтитула">

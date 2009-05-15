@@ -7,9 +7,9 @@
 <!ENTITY name.label "Имя">
 <!ENTITY size.label "Размер">
 <!ENTITY lastModified.label "Последнее изменение">
-<!ENTITY permissions.label "Права">
+<!ENTITY permissions.label "Права доступа">
 <!ENTITY showHiddenFiles.label "Показывать скрытые файлы и каталоги">
-<!ENTITY showHiddenFiles.accesskey "П">
+<!ENTITY showHiddenFiles.accesskey "с">
 <!ENTITY noPermissionError.label "У вас нет необходимых прав для просмотра этого каталога.">
 <!ENTITY folderUp.tooltiptext "Перейти на уровень выше">
 <!ENTITY folderHome.tooltiptext "Перейти на домашнюю страницу">

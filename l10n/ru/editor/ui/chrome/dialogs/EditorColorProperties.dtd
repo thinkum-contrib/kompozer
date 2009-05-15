@@ -1,38 +1,22 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY activeLinkText.accessKey "А">
-<!ENTITY activeLinkText.label "Активная ссылка">
-<!ENTITY background.accessKey "Ф">
-<!ENTITY background.label "Фон:">
-<!ENTITY backgroundImage.accessKey "н">
-<!ENTITY backgroundImage.label "Фоновое изображение:">
-<!ENTITY backgroundImage.tooltip "Использование изображения в качестве фона страницы">
-<!ENTITY colon.character ":">
-<!ENTITY customColorsRadio.accessKey "И">
-<!ENTITY customColorsRadio.label "Использовать цвета:">
-<!ENTITY customColorsRadio.tooltip "Эти настройки цвета перекрывают настройки в браузере пользователя">
-<!ENTITY defaultColorsRadio.accessKey "Ц">
-<!ENTITY defaultColorsRadio.label "Цвета пользователя по умолчанию (не указывать цвета)">
-<!ENTITY defaultColorsRadio.tooltip "Использование цветов,  указанных в браузере пользователя">
-<!ENTITY linkText.accessKey "С">
-<!ENTITY linkText.label "Ссылка">
-<!ENTITY normalText.accessKey "О">
-<!ENTITY normalText.label "Обычный текст">
-<!ENTITY pageColors.label "Цвета страницы">
-<!ENTITY visitedLinkText.accessKey "П">
-<!ENTITY visitedLinkText.label "Просмотренная ссылка">
 <!ENTITY windowTitle.label "Цвета и фон страницы">
+<!ENTITY pageColors.label "Цвета страницы">
+<!ENTITY defaultColorsRadio.label "Цвета пользователя по умолчанию (не указывать цвета)">
+<!ENTITY defaultColorsRadio.accessKey "Ц">
+<!ENTITY defaultColorsRadio.tooltip "Использование цветов,  указанных в браузере пользователя">
+<!ENTITY customColorsRadio.label "Использовать цвета:">
+<!ENTITY customColorsRadio.accessKey "И">
+<!ENTITY customColorsRadio.tooltip "Эти настройки цвета перекрывают настройки в браузере пользователя">
+<!ENTITY normalText.label "Обычный текст">
+<!ENTITY normalText.accessKey "О">
+<!ENTITY linkText.label "Ссылка">
+<!ENTITY linkText.accessKey "С">
+<!ENTITY activeLinkText.label "Активная ссылка">
+<!ENTITY activeLinkText.accessKey "А">
+<!ENTITY visitedLinkText.label "Просмотренная ссылка">
+<!ENTITY visitedLinkText.accessKey "П">
+<!ENTITY background.label "Фон:">
+<!ENTITY background.accessKey "Ф">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Фоновое изображение:">
+<!ENTITY backgroundImage.accessKey "н">
+<!ENTITY backgroundImage.tooltip "Использование изображения в качестве фона страницы">

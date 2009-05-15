@@ -1,88 +1,72 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY AlignCenter.label "По центру">
-<!ENTITY AlignLeft.label "Влево">
-<!ENTITY AlignRight.label "Вправо">
-<!ENTITY applyBeforeChange1.label "Будут применены текущие изменения">
-<!ENTITY applyBeforeChange2.label "перед преобразованием выделения.">
-<!ENTITY backgroundColor.accessKey "Ц">
-<!ENTITY backgroundColor.label "Цвет фона:">
-<!ENTITY cellAlignAtChar.label "По символу:">
-<!ENTITY cellAlignBottom.label "Внизу">
-<!ENTITY cellAlignJustify.label "Относительно других объектов">
-<!ENTITY cellAlignMiddle.label "Посередине">
-<!ENTITY cellAlignTop.label "Вверху">
-<!ENTITY cellApplyBeforeMove.label "Применить изменения перед преобразованием выделения">
-<!ENTITY cellColSpan.label "Объединение столбцов:">
-<!ENTITY cellContentAlignment.label "Выравнивание содержимого">
-<!ENTITY cellHeader.label "Заголовок">
-<!ENTITY cellHorizontal.accessKey "з">
-<!ENTITY cellHorizontal.label "Горизонтальное:">
-<!ENTITY cellInheritColor.label "(Будет виден фон таблицы)">
-<!ENTITY cellKeepCurrentData.label "Сохранить текущие параметры">
-<!ENTITY cellNoWrap.label "Не разбивать на строки">
-<!ENTITY cellNormal.label "Обычный">
-<!ENTITY cellPercent.label "процентов от таблицы">
-<!ENTITY cellRowSpan.label "Объединение строк:">
-<!ENTITY cellSelectCell.label "Ячейки">
-<!ENTITY cellSelectColumn.label "Столбца">
-<!ENTITY cellSelectNext.accessKey "С">
-<!ENTITY cellSelectNext.label "Следующая">
-<!ENTITY cellSelectPrevious.accessKey "П">
-<!ENTITY cellSelectPrevious.label "Предыдущая">
-<!ENTITY cellSelectRow.label "Строки">
-<!ENTITY cellSelection.label "Выделение">
-<!ENTITY cellStyle.accessKey "С">
-<!ENTITY cellStyle.label "Стиль ячейки:">
+<!ENTITY tableWindow.title "Свойства таблицы">
+<!ENTITY tableTab.label "Таблица">
 <!ENTITY cellTab.label "Ячейки">
-<!ENTITY cellTextWrap.accessKey "Р">
-<!ENTITY cellTextWrap.label "Разбивка текста на строки:">
-<!ENTITY cellUseCheckboxHelp.label "Установите флажки, чтобы определить, какие свойства будут применены ко всем выбранным ячейкам">
-<!ENTITY cellVertical.accessKey "В">
-<!ENTITY cellVertical.label "Вертикальное:">
-<!ENTITY cellWrap.label "Разбить на строки">
-<!ENTITY pixels.label "пикселов">
-<!ENTITY size.label "Размер">
-<!ENTITY tableAlignment.accessKey "ы">
-<!ENTITY tableAlignment.label "Выравнивание таблицы:">
+<!ENTITY tableRows.label "Строки:">
+<!ENTITY tableRows.accessKey "С">
+<!ENTITY tableColumns.label "Столбцы:">
+<!ENTITY tableColumns.accessKey "т">
+<!ENTITY tableHeight.label "Высота:">
+<!ENTITY tableHeight.accessKey "В">
+<!ENTITY tableWidth.label "Ширина:">
+<!ENTITY tableWidth.accessKey "Ш">
 <!ENTITY tableBorderSpacing.label "Обрамление и поля">
-<!ENTITY tableBorderWidth.accessKey "р">
 <!ENTITY tableBorderWidth.label "Рамка:">
-<!ENTITY tableCaption.accessKey "З">
+<!ENTITY tableBorderWidth.accessKey "р">
+<!ENTITY tableSpacing.label "Поля:">
+<!ENTITY tableSpacing.accessKey "П">
+<!ENTITY tablePadding.label "Поля  внутри ячейки:">
+<!ENTITY tablePadding.accessKey "я">
+<!ENTITY tablePxBetwCells.label "пикселов между ячейками">
+<!ENTITY tablePxBetwBrdrCellContent.label "пикселов между рамкой ячейки и ее содержимым">
+<!ENTITY tableAlignment.label "Выравнивание таблицы:">
+<!ENTITY tableAlignment.accessKey "ы">
 <!ENTITY tableCaption.label "Заголовок:">
+<!ENTITY tableCaption.accessKey "З">
 <!ENTITY tableCaptionAbove.label "Над таблицей">
 <!ENTITY tableCaptionBelow.label "Под таблицей">
 <!ENTITY tableCaptionLeft.label "Слева от таблицы">
-<!ENTITY tableCaptionNone.label "Нет">
 <!ENTITY tableCaptionRight.label "Справа от таблицы">
-<!ENTITY tableColumns.accessKey "т">
-<!ENTITY tableColumns.label "Столбцы:">
-<!ENTITY tableHeight.accessKey "В">
-<!ENTITY tableHeight.label "Высота:">
+<!ENTITY tableCaptionNone.label "Нет">
 <!ENTITY tableInheritColor.label "(Будет виден фон страницы)">
-<!ENTITY tablePadding.accessKey "я">
-<!ENTITY tablePadding.label "Поля  внутри ячейки:">
-<!ENTITY tablePxBetwBrdrCellContent.label "пикселов между рамкой ячейки и ее содержимым">
-<!ENTITY tablePxBetwCells.label "пикселов между ячейками">
-<!ENTITY tableRows.accessKey "С">
-<!ENTITY tableRows.label "Строки:">
-<!ENTITY tableSpacing.accessKey "П">
-<!ENTITY tableSpacing.label "Поля:">
-<!ENTITY tableTab.label "Таблица">
-<!ENTITY tableWidth.accessKey "Ш">
-<!ENTITY tableWidth.label "Ширина:">
-<!ENTITY tableWindow.title "Свойства таблицы">
+<!ENTITY cellPercent.label "процентов от таблицы">
+<!ENTITY cellSelection.label "Выделение">
+<!ENTITY cellSelectCell.label "Ячейки">
+<!ENTITY cellSelectRow.label "Строки">
+<!ENTITY cellSelectColumn.label "Столбца">
+<!ENTITY cellSelectNext.label "Следующая">
+<!ENTITY cellSelectNext.accessKey "С">
+<!ENTITY cellSelectPrevious.label "Предыдущая">
+<!ENTITY cellSelectPrevious.accessKey "П">
+<!ENTITY cellApplyBeforeMove.label "Применить изменения перед преобразованием выделения">
+<!ENTITY cellKeepCurrentData.label "Сохранить текущие параметры">
+<!ENTITY applyBeforeChange1.label "Будут применены текущие изменения">
+<!ENTITY applyBeforeChange2.label "перед преобразованием выделения.">
+<!ENTITY cellRowSpan.label "Объединение строк:">
+<!ENTITY cellColSpan.label "Объединение столбцов:">
+<!ENTITY cellContentAlignment.label "Выравнивание содержимого">
+<!ENTITY cellHorizontal.label "Горизонтальное:">
+<!ENTITY cellHorizontal.accessKey "з">
+<!ENTITY cellVertical.label "Вертикальное:">
+<!ENTITY cellVertical.accessKey "В">
+<!ENTITY cellStyle.label "Стиль ячейки:">
+<!ENTITY cellStyle.accessKey "С">
+<!ENTITY cellNormal.label "Обычный">
+<!ENTITY cellHeader.label "Заголовок">
+<!ENTITY cellTextWrap.label "Разбивка текста на строки:">
+<!ENTITY cellTextWrap.accessKey "Р">
+<!ENTITY cellWrap.label "Разбить на строки">
+<!ENTITY cellNoWrap.label "Не разбивать на строки">
+<!ENTITY cellAlignTop.label "Вверху">
+<!ENTITY cellAlignMiddle.label "Посередине">
+<!ENTITY cellAlignBottom.label "Внизу">
+<!ENTITY cellAlignJustify.label "Относительно других объектов">
+<!ENTITY cellAlignAtChar.label "По символу:">
+<!ENTITY cellInheritColor.label "(Будет виден фон таблицы)">
+<!ENTITY cellUseCheckboxHelp.label "Установите флажки, чтобы определить, какие свойства будут применены ко всем выбранным ячейкам">
+<!ENTITY size.label "Размер">
+<!ENTITY pixels.label "пикселов">
+<!ENTITY backgroundColor.label "Цвет фона:">
+<!ENTITY backgroundColor.accessKey "Ц">
+<!ENTITY AlignLeft.label "Влево">
+<!ENTITY AlignCenter.label "По центру">
+<!ENTITY AlignRight.label "Вправо">

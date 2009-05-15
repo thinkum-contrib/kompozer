@@ -1,5 +1,5 @@
 <!ENTITY dialog.title "Настройка панелей инструментов">
-<!ENTITY dialog.style "width: 680px; height: 400px;">
+<!ENTITY dialog.style "width: 730px; height: 400px;">
 <!ENTITY instructions.description "Вы можете добавлять или удалять элементы на панелях инструментов, перетаскивая их мышью.">
 <!ENTITY show.label "Показывать:">
 <!ENTITY iconsAndText.label "Значки и текст">
@@ -7,6 +7,6 @@
 <!ENTITY text.label "Только текст">
 <!ENTITY useSmallIcons.label "Маленькие значки">
 <!ENTITY restoreDefaultSet.label "Восстановить">
-<!ENTITY addNewToolbar.label "Добавить новую панель">
+<!ENTITY addNewToolbar.label "Добавить панель">
 <!ENTITY saveChanges.label "Готово">
 <!ENTITY undoChanges.label "Отменить изменения">

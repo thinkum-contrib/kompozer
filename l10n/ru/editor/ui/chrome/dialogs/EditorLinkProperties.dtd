@@ -1,54 +1,74 @@
-<!-- 
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
    - The contents of this file are subject to the Mozilla Public License Version
    - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
    -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
    -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
+   - The Original Code is Mozilla.org.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -   
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY windowTitle.label "Свойства ссылки">
 <!ENTITY LinkURLBox.label "Адрес объекта ссылки">
 <!ENTITY XFNbox.label "Дружественные связи (XHTML Friends Network)">
+<!ENTITY me.label "Объект ссылки - еще один мой адрес">
+<!ENTITY friendship.label "Дружеские">
 <!ENTITY acquaintance.label "знакомый">
-<!ENTITY blankRadio.label "в новом окне">
-<!ENTITY child.label "ребенок">
-<!ENTITY coResident.label "земляк">
+<!ENTITY friend.label "друг">
+<!ENTITY contact.label "партнер">
+<!ENTITY none.label "нет">
+<!ENTITY physical.label "Физические">
+<!ENTITY met.label "встреча">
+<!ENTITY professional.label "Профессиональные">
 <!ENTITY coWorker.label "сотрудник">
 <!ENTITY colleague.label "коллега">
-<!ENTITY contact.label "партнер">
-<!ENTITY crush.label "страсть">
-<!ENTITY date.label "свидание">
-<!ENTITY family.label "Семейные">
-<!ENTITY friend.label "друг">
-<!ENTITY friendship.label "Дружеские">
 <!ENTITY geographical.label "Географические">
-<!ENTITY kin.label "родственник">
-<!ENTITY me.label "Объект ссылки - еще один мой адрес">
-<!ENTITY met.label "встреча">
-<!ENTITY muse.label "муза">
+<!ENTITY coResident.label "земляк">
 <!ENTITY neighbor.label "сосед">
-<!ENTITY none.label "нет">
+<!ENTITY family.label "Семейные">
+<!ENTITY child.label "ребенок">
 <!ENTITY parent.label "родитель">
-<!ENTITY parentRadio.label "в родительском фрейме">
-<!ENTITY physical.label "Физические">
-<!ENTITY professional.label "Профессиональные">
-<!ENTITY romantic.label "Романтические">
-<!ENTITY selfRadio.label "в текущем фрейме">
 <!ENTITY sibling.label "брат">
 <!ENTITY spouse.label "супруг">
+<!ENTITY kin.label "родственник">
+<!ENTITY romantic.label "Романтические">
+<!ENTITY muse.label "муза">
+<!ENTITY crush.label "страсть">
+<!ENTITY date.label "свидание">
 <!ENTITY sweetheart.label "возлюбленный">
 <!ENTITY targetBox.label "Ссылка будет открыта в">
-<!ENTITY topRadio.label "в текущем окне, без фреймов">
-<!ENTITY userDefinedRadio.label "в этом фрейме:">
 <!ENTITY userDefinedTarget.label "Открытие ссылок">
-<!ENTITY windowTitle.label "Свойства ссылки">
-
+<!ENTITY topRadio.label "в текущем окне, без фреймов">
+<!ENTITY blankRadio.label "в новом окне">
+<!ENTITY parentRadio.label "в родительском фрейме">
+<!ENTITY selfRadio.label "в текущем фрейме">
+<!ENTITY userDefinedRadio.label "в этом фрейме:">
 <!ENTITY technoratiTag.label "Теги Technorati">
 <!ENTITY technoratiTagCheckbox.label "Это Technorati тег">

@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -  Samir Gehani <sgehani@netscape.com> (Original Author)
-   -   Alexander L. Slovesnik <unghost@mozilla-russia.org>
+   -   
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -40,7 +40,7 @@
 <!ENTITY pageSetup.label "Параметры страницы...">
 <!ENTITY pageSetup.accesskey "а">
 <!ENTITY page.label "Страница:">
-<!ENTITY page.accesskey "С">
+<!ENTITY page.accesskey "т">
 <!ENTITY of.label "из">
 <!ENTITY scale.label "Масштаб:">
 <!ENTITY scale.accesskey "М">
@@ -69,4 +69,4 @@
 <!ENTITY homearrow.tooltip "Первая страница">
 <!ENTITY endarrow.tooltip "Последняя страница">
 <!ENTITY rightarrow.tooltip "Следующая страница">
-<!ENTITY leftarrow.tooltip "Предыдущая страница">
+<!ENTITY leftarrow.tooltip "Преыдущая страница">

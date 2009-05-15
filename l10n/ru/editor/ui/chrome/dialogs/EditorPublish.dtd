@@ -1,59 +1,97 @@
-<!-- 
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
    - The contents of this file are subject to the Mozilla Public License Version
    - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
    -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
    -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY browseUrl.label "HTTP-адрес домашней страницы (например, &quot;http://www.myisp.com/myusername&quot;):">
-<!ENTITY browseUrl.tooltip "HTTP-адрес вашего домашнего каталога (без имени файла)">
-<!ENTITY chooseDirButton.label "Выбрать...">
-<!ENTITY docDirList.label "Каталог сайта для этой страницы:">
-<!ENTITY filename.label "Имя файла:">
-<!ENTITY filename.tooltip "Введите имя этого файла, не забудьте расширение &quot;.html&quot;, если это веб-страница">
-<!ENTITY filenameExample.label "например, &quot;mypage.html&quot;">
-<!ENTITY loginInfo.label "Регистрационная информация">
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY windowTitle.label "Публикация страницы">
+<!ENTITY windowTitleSettings.label "Параметры публикации">
+<!ENTITY publishTab.label "Опубликовать">
+<!ENTITY settingsTab.label "Параметры">
+<!ENTITY publishButton.label "Публикация">
+<!ENTITY siteList.label "Имя сайта:">
+<!ENTITY siteList.tooltip "Выберите сайт, в который произвести публикацию">
 <!ENTITY newSiteButton.label "Добавить сайт">
+<!ENTITY siteDirList.label "Выберите или введите имя каталога публикуемого сайта:">
+<!ENTITY siteDirList.tooltip "Выберите или введите имя удаленного каталога для публикации">
+<!ENTITY docDirList.label "Каталог сайта для этой страницы:">
+<!ENTITY publishImgCheckbox.label "Включать изображения и другие файлы">
+<!ENTITY publishImgCheckbox.tooltip "Опубликовать изображения и другие файлы, ссылки на которые содержатся на этой странице">
+<!ENTITY sameLocationRadio.label "Использовать тот же адрес, что и у страницы">
+<!ENTITY sameLocationRadio.tooltip "Опубликовать файлы вместе со страницей">
+<!ENTITY useSubdirRadio.label "Использовать этот подкаталог:">
+<!ENTITY useSubdir.tooltip "Выберите или введите имя удаленного каталога для публикации файлов">
+<!ENTITY chooseDirButton.label "Выбрать...">
 <!ENTITY pageTitle.label "Заголовок страницы:">
 <!ENTITY pageTitle.tooltip "Введите назавание, которое будет отображаться в строке заголовка окна и в закладках">
 <!ENTITY pageTitleExample.label "например, &quot;Моя веб-страница&quot;">
-<!ENTITY password.label "Пароль:">
-<!ENTITY password.tooltip "Пароль, связанный с вашим именем пользователя">
-<!ENTITY publishImgCheckbox.label "Включать изображения и другие файлы">
-<!ENTITY publishImgCheckbox.tooltip "Опубликовать изображения и другие файлы, ссылки на которые содержатся на этой странице">
-<!ENTITY publishSites.label "Сайты публикации">
-<!ENTITY publishTab.label "Опубликовать">
+<!ENTITY filename.label "Имя файла:">
+<!ENTITY filename.tooltip "Введите имя этого файла, не забудьте расширение &quot;.html&quot;, если это веб-страница">
+<!ENTITY filenameExample.label "например, &quot;mypage.html&quot;">
 <!ENTITY relatedDocs.label "Другие файлы для публикации">
-<!ENTITY removeButton.label "Удалить сайт">
-<!ENTITY sameLocationRadio.label "Использовать тот же адрес, что и у страницы">
-<!ENTITY sameLocationRadio.tooltip "Опубликовать файлы вместе со страницей">
-<!ENTITY savePassword.label "Сохранить пароль">
-<!ENTITY savePassword.tooltip "Выбор этой опции позволит Менеджеру паролей запомнить ваш пароль">
-<!ENTITY selectDirectory.label "Выбрать директорию">
-<!ENTITY serverInfo.label "Информация о сервере">
-<!ENTITY setDefSiteAndDir.label "Установить как сайт и каталог по умолчанию">
 <!ENTITY setDefaultButton.label "Установить по умолчанию">
-<!ENTITY settingsTab.label "Параметры">
-<!ENTITY siteDirList.label "Выберите или введите имя каталога публикуемого сайта:">
-<!ENTITY siteDirList.tooltip "Выберите или введите имя удаленного каталога для публикации">
-<!ENTITY siteList.label "Имя сайта:">
-<!ENTITY siteList.tooltip "Выберите сайт, в который произвести публикацию">
+<!ENTITY setDefSiteAndDir.label "Установить как сайт и каталог по умолчанию">
+<!ENTITY removeButton.label "Удалить сайт">
+<!ENTITY publishSites.label "Сайты публикации">
+<!ENTITY serverInfo.label "Информация о сервере">
+<!ENTITY loginInfo.label "Регистрационная информация">
 <!ENTITY siteName.label "Имя сайта:">
 <!ENTITY siteName.tooltip "Псевдоним, индентифицирующий этот сайт (например, &quot;Мой сайт&quot;)">
 <!ENTITY siteUrl.label "URL публикации (например, &quot;ftp://ftp.myisp.com/myusername&quot;):">
 <!ENTITY siteUrl.tooltip "FTP- или HTTP-адрес, данный вам поставщиком услуг Интернета или услуг по размещению информации в Сети">
-<!ENTITY useSubdir.tooltip "Выберите или введите имя удаленного каталога для публикации файлов">
-<!ENTITY useSubdirRadio.label "Использовать этот подкаталог:">
+<!ENTITY browseUrl.label "HTTP-адрес домашней страницы (например, &quot;http://www.myisp.com/myusername&quot;):">
+<!ENTITY browseUrl.tooltip "HTTP-адрес вашего домашнего каталога (без имени файла)">
 <!ENTITY username.label "Имя пользователя:">
 <!ENTITY username.tooltip "Имя пользователя, данное вам поставщиком услуг Интернета или услуг по размещению информации в Сети">
-<!ENTITY windowTitle.label "Публикация страницы">
-<!ENTITY windowTitleSettings.label "Параметры публикации">
+<!ENTITY password.label "Пароль:">
+<!ENTITY password.tooltip "Пароль, связанный с вашим именем пользователя">
+<!ENTITY savePassword.label "Сохранить пароль">
+<!ENTITY savePassword.tooltip "Выбор этой опции позволит Менеджеру паролей запомнить ваш пароль">
+<!ENTITY selectDirectory.label "Выбрать директорию">
+<!ENTITY generalSettings.label "Основные настройки">
+<!ENTITY ftpSettings.label "Настройки FTP">
+<!ENTITY localSettings.label "Локальные настройки">
+<!ENTITY siteDirectory.label "Папка сайта:">
+<!ENTITY siteDirectory.tooltip "Папка на вашем жестком диске, куда будет сохранён ваш сайт">
+<!ENTITY browsePrefix.label "Префикс:">
+<!ENTITY browsePrefix.tooltip "Префикс, удаляемый из FTP-пути при формировании ссылки, например /public_html">
+<!ENTITY connection.label "Тип соединения">
+<!ENTITY port.label "Порт:">
+<!ENTITY pasv.label "Пассивный режим">
+<!ENTITY security.label "Безопасность">
+<!ENTITY none.label "нет">
+<!ENTITY authtls.label "Авторизация TLS (Отлично)">
+<!ENTITY authssl.label "Авторизация SSL (Лучше)">
+<!ENTITY implicit.label "Неявный SSL (Хорошо)">
+<!ENTITY treesync.label "Синхронизировать каталоги при навигации">

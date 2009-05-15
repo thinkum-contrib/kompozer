@@ -1,76 +1,113 @@
-<!ENTITY certmgr.add.accesskey "о">
-<!ENTITY certmgr.add.label "Добавить">
-<!ENTITY certmgr.backup.accesskey "е">
-<!ENTITY certmgr.backup.label "Резервная копия">
-<!ENTITY certmgr.backupall.accesskey "в">
-<!ENTITY certmgr.backupall.label "Резервные копии всех">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Ian McGreer <mcgreer@netscape.com>
+   -   
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY certmgr.title "Менеджер сертификатов">
+<!ENTITY certmgr.tab.mine "Личные сертификаты">
+<!ENTITY certmgr.tab.others "Другие люди">
+<!ENTITY certmgr.tab.websites "Веб-сайты">
+<!ENTITY certmgr.tab.ca "Центры сертификации">
 <!ENTITY certmgr.ca.builtins "Встроенные центры сертификации">
 <!ENTITY certmgr.ca.mycas "Центры, управляемые вами">
+<!ENTITY certmgr.mine "У вас хранятся сертификаты от организаций, которые идентифицируют вас:">
+<!ENTITY certmgr.others "У вас хранятся сертификаты, которые идентифицируют этих людей:">
+<!ENTITY certmgr.websites "У вас хранятся сертификаты, которые идентифицируют эти веб-сайты:">
 <!ENTITY certmgr.cas "У вас хранятся сертификаты, которые идентифицируют следующие центры сертификации:">
+<!ENTITY certmgr.detail.general_tab.title "Основное">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Подробности">
+<!ENTITY certmgr.subjectinfo.label "Кому выдано">
+<!ENTITY certmgr.issuerinfo.label "Кем выдано">
+<!ENTITY certmgr.validity.label "Действителен">
+<!ENTITY certmgr.fingerprints.label "Отпечатки">
+<!ENTITY certmgr.certdetail.title "Подробности сертификата">
 <!ENTITY certmgr.certdetail.cn "Общее имя (CN)">
-<!ENTITY certmgr.certdetail.md5fingerprint "Отпечаток MD5">
 <!ENTITY certmgr.certdetail.o "Организация (O)">
 <!ENTITY certmgr.certdetail.ou "Организационная единица (OU)">
 <!ENTITY certmgr.certdetail.serialnumber "Серийный номер">
 <!ENTITY certmgr.certdetail.sha1fingerprint "Отпечаток SHA1">
-<!ENTITY certmgr.certdetail.title "Подробности сертификата">
-<!ENTITY certmgr.certname "Имя сертификата">
-<!ENTITY certmgr.close.accesskey "а">
-<!ENTITY certmgr.close.label "Закрыть">
-<!ENTITY certmgr.delete.accesskey "д">
-<!ENTITY certmgr.delete.label "Удалить…">
-<!ENTITY certmgr.deletecert.aftername "Вы действительно хотите удалить этот сертификат?">
-<!ENTITY certmgr.deletecert.beforename "Будет удален следующий сертификат:">
-<!ENTITY certmgr.deletecert.title "Удаление сертификата">
-<!ENTITY certmgr.deleteusercert.aftername "После удаления этого сертификата, чтение почты, зашифрованной с его помощью, станет невозможным.">
-<!ENTITY certmgr.deleteusercert.beforename "Будет удален следующий сертификат:">
-<!ENTITY certmgr.deleteusercert.title "Удаление собственного сертификата">
-<!ENTITY certmgr.detail.general_tab.title "Основное">
-<!ENTITY certmgr.detail.prettyprint_tab.title "Подробности">
-<!ENTITY certmgr.details.accesskey "я">
-<!ENTITY certmgr.details.label "Поля сертификатов">
-<!ENTITY certmgr.edit.accesskey "з">
-<!ENTITY certmgr.edit.label "Изменить…">
-<!ENTITY certmgr.editca.accesskey "д">
-<!ENTITY certmgr.editca.label "Изменить доверие центру сертификации">
-<!ENTITY certmgr.editcacert.title "Изменение степени доверия сертификату CA">
-<!ENTITY certmgr.editcert.edittrust "Изменить степень доверия:">
+<!ENTITY certmgr.certdetail.md5fingerprint "Отпечаток MD5">
 <!ENTITY certmgr.editcert.title "Изменение параметров сертификата">
+<!ENTITY certmgr.editcacert.title "Изменение степени доверия сертификату CA">
+<!ENTITY certmgr.editsslcert.title "Изменение степени доверия сертификату веб-сайта">
+<!ENTITY certmgr.editcert.edittrust "Изменить степень доверия:">
+<!ENTITY certmgr.editcert.trustssl "Этот сертификат может идентифицировать веб-сайты.">
 <!ENTITY certmgr.editcert.trustemail "Этот сертификат может идентифицировать пользователей электронной почты.">
 <!ENTITY certmgr.editcert.trustobjsign "Этот сертификат может идентифицировать программное обеспечение.">
-<!ENTITY certmgr.editcert.trustssl "Этот сертификат может идентифицировать веб-сайты.">
-<!ENTITY certmgr.editemailcert.donttrust "Не доверять подлинности сертификата.">
-<!ENTITY certmgr.editemailcert.dotrust "Доверять подлинности сертификата.">
-<!ENTITY certmgr.editemailcert.edittrust "Укажите степень доверия сертификату:">
-<!ENTITY certmgr.editemailcert.title "Изменение доверия сертификатам электронной почты">
-<!ENTITY certmgr.editsslcert.donttrust "Не доверять этому сертификату.">
-<!ENTITY certmgr.editsslcert.dotrust "Доверять этому сертификату.">
 <!ENTITY certmgr.editsslcert.edittrust "Изменить доверие сертификату:">
-<!ENTITY certmgr.editsslcert.title "Изменение степени доверия сертификату веб-сайта">
-<!ENTITY certmgr.email "Адрес электронной почты">
-<!ENTITY certmgr.expires "Срок действия">
-<!ENTITY certmgr.fields.accesskey "ч">
-<!ENTITY certmgr.fields.label "Значение поля">
-<!ENTITY certmgr.fingerprints.label "Отпечатки">
-<!ENTITY certmgr.hierarchy.accesskey "к">
-<!ENTITY certmgr.hierarchy.label "Иерархия сертификатов">
-<!ENTITY certmgr.issued "Выдан">
-<!ENTITY certmgr.issuerinfo.label "Кем выдано">
-<!ENTITY certmgr.mine "У вас хранятся сертификаты от организаций, которые идентифицируют вас:">
-<!ENTITY certmgr.ocsp_info "Действительность сертификатов не была проверена с помощью OCSP. Щелкните по кнопке Просмотр, чтобы произвести эту проверку.">
-<!ENTITY certmgr.others "У вас хранятся сертификаты, которые идентифицируют этих людей:">
-<!ENTITY certmgr.purpose "Цели">
-<!ENTITY certmgr.restore.accesskey "м">
-<!ENTITY certmgr.restore.label "Импортировать…">
-<!ENTITY certmgr.serial "Серийный номер">
-<!ENTITY certmgr.subjectinfo.label "Кому выдано">
-<!ENTITY certmgr.tab.ca "Центры сертификации">
-<!ENTITY certmgr.tab.mine "Личные сертификаты">
-<!ENTITY certmgr.tab.others "Другие люди">
-<!ENTITY certmgr.tab.websites "Веб-сайты">
-<!ENTITY certmgr.title "Менеджер сертификатов">
+<!ENTITY certmgr.editsslcert.dotrust "Доверять этому сертификату.">
+<!ENTITY certmgr.editsslcert.donttrust "Не доверять этому сертификату.">
+<!ENTITY certmgr.editemailcert.title "Изменение доверия сертификатам электронной почты">
+<!ENTITY certmgr.editemailcert.edittrust "Укажите степень доверия сертификату:">
+<!ENTITY certmgr.editemailcert.dotrust "Доверять подлинности сертификата.">
+<!ENTITY certmgr.editemailcert.donttrust "Не доверять подлинности сертификата.">
+<!ENTITY certmgr.deletecert.title "Удаление сертификата">
+<!ENTITY certmgr.deletecert.beforename "Будет удален следующий сертификат:">
+<!ENTITY certmgr.deletecert.aftername "Вы действительно хотите удалить этот сертификат?">
+<!ENTITY certmgr.deleteusercert.title "Удаление собственного сертификата">
+<!ENTITY certmgr.deleteusercert.beforename "Будет удален следующий сертификат:">
+<!ENTITY certmgr.deleteusercert.aftername "После удаления этого сертификата, чтение почты, зашифрованной с его помощью, станет невозможным.">
+<!ENTITY certmgr.certname "Имя сертификата">
 <!ENTITY certmgr.tokenname "Устройство защиты">
-<!ENTITY certmgr.validity.label "Действителен">
-<!ENTITY certmgr.view.accesskey "с">
+<!ENTITY certmgr.purpose "Цели">
+<!ENTITY certmgr.issued "Выдан">
+<!ENTITY certmgr.expires "Срок действия">
+<!ENTITY certmgr.email "Адрес электронной почты">
+<!ENTITY certmgr.serial "Серийный номер">
+<!ENTITY certmgr.ocsp_info "Действительность сертификатов не была проверена с помощью OCSP. Щелкните по кнопке Просмотр, чтобы произвести эту проверку.">
+<!ENTITY certmgr.close.label "Закрыть">
+<!ENTITY certmgr.close.accesskey "а">
 <!ENTITY certmgr.view.label "Просмотреть…">
-<!ENTITY certmgr.websites "У вас хранятся сертификаты, которые идентифицируют эти веб-сайты:">
+<!ENTITY certmgr.view.accesskey "с">
+<!ENTITY certmgr.edit.label "Изменить…">
+<!ENTITY certmgr.edit.accesskey "з">
+<!ENTITY certmgr.editca.label "Изменить доверие центру сертификации">
+<!ENTITY certmgr.editca.accesskey "д">
+<!ENTITY certmgr.add.label "Добавить">
+<!ENTITY certmgr.add.accesskey "о">
+<!ENTITY certmgr.delete.label "Удалить…">
+<!ENTITY certmgr.delete.accesskey "д">
+<!ENTITY certmgr.backup.label "Резервная копия">
+<!ENTITY certmgr.backup.accesskey "е">
+<!ENTITY certmgr.backupall.label "Резервные копии всех">
+<!ENTITY certmgr.backupall.accesskey "в">
+<!ENTITY certmgr.restore.label "Импортировать…">
+<!ENTITY certmgr.restore.accesskey "м">
+<!ENTITY certmgr.details.label "Поля сертификатов">
+<!ENTITY certmgr.details.accesskey "я">
+<!ENTITY certmgr.fields.label "Значение поля">
+<!ENTITY certmgr.fields.accesskey "ч">
+<!ENTITY certmgr.hierarchy.label "Иерархия сертификатов">
+<!ENTITY certmgr.hierarchy.accesskey "к">

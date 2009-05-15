@@ -1,41 +1,25 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
+<!ENTITY windowTitle.label "Свойства страницы">
+<!ENTITY general.label "Основная информация">
+<!ENTITY location.label "Адрес:">
+<!ENTITY lastModified.label "Последнее изменение:">
+<!ENTITY titleInput.label "Заголовок:">
+<!ENTITY titleInput.accessKey "З">
+<!ENTITY authorInput.label "Автор:">
+<!ENTITY authorInput.accessKey "А">
+<!ENTITY descriptionInput.label "Описание:">
+<!ENTITY descriptionInput.accessKey "О">
+<!ENTITY locationNewPage.label "[Новая страница, еще не сохранена]">
 <!ENTITY EditHEADSource1.label "Опытным пользователям:">
 <!ENTITY EditHEADSource2.label "Чтобы изменить другое содержимое секции &lt;head&gt;, выберите &quot;HTML-код&quot; из меню &quot;Вид&quot; панели режима редактирования.">
-<!ENTITY authorInput.accessKey "А">
-<!ENTITY authorInput.label "Автор:">
-<!ENTITY chooseCharsetButton.label "Выбрать кодировку">
-<!ENTITY defaultCharset.label "Кодировка:">
-<!ENTITY defaultDirectionRadio.label "Направление не определено">
-<!ENTITY descriptionInput.accessKey "О">
-<!ENTITY descriptionInput.label "Описание:">
-<!ENTITY fromTemplate.label "Этот документ присоединен к шаблону">
-<!ENTITY general.label "Основная информация">
-<!ENTITY i18nHeader "Интернационализация">
-<!ENTITY language.label "Язык:">
-<!ENTITY languageChoiceButton.label "Выбрать язык">
-<!ENTITY lastModified.label "Последнее изменение:">
-<!ENTITY location.label "Адрес:">
-<!ENTITY locationNewPage.label "[Новая страница, еще не сохранена]">
-<!ENTITY ltrDirectionRadio.label "Слева направо">
-<!ENTITY rtlDirectionRadio.label "Справа налево">
 <!ENTITY template.label "Шаблоны">
 <!ENTITY templateCheckbox.label "Эта страница - шаблон">
-<!ENTITY titleInput.accessKey "З">
-<!ENTITY titleInput.label "Заголовок:">
-<!ENTITY windowTitle.label "Свойства страницы">
+<!ENTITY fromTemplate.label "Этот документ присоединен к шаблону">
+<!ENTITY i18nHeader "Интернационализация">
 <!ENTITY writingDirection.label "Направление письма:">
+<!ENTITY defaultDirectionRadio.label "Направление не определено">
+<!ENTITY ltrDirectionRadio.label "Слева направо">
+<!ENTITY rtlDirectionRadio.label "Справа налево">
+<!ENTITY language.label "Язык:">
+<!ENTITY languageChoiceButton.label "Выбрать язык">
+<!ENTITY defaultCharset.label "Кодировка:">
+<!ENTITY chooseCharsetButton.label "Выбрать кодировку">

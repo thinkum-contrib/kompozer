@@ -1,5 +1,9 @@
-<!ENTITY prefWindow.size "width: 70em; height: 45em;">
+<!ENTITY winhooks.label "Система">
+<!ENTITY defaultBrowserGroup.label "Браузер по умолчанию">
+<!ENTITY defaultBrowserButton.label "По умолчанию">
+<!ENTITY alreadyDefaultText "&brandShortName; уже является вашим браузером по умолчанию.">
+<!ENTITY defaultPendingText "&brandShortName; станет вашим браузером по умолчанию после нажатия кнопки &quot;OK&quot;.">
+<!ENTITY makeDefaultText "Сделать &brandShortName; браузером по умолчанию.">
 <!ENTITY urlbar.label "нажатии Control+Enter в строке адреса">
-<!ENTITY urlbar.accesskey "а">
 <!ENTITY middleClick.label "нажатии средней кнопки мыши, нажатии левой кнопки мыши с удержанием Control или нажатии Control+Enter на ссылках веб-страниц">
-<!ENTITY middleClick.accesskey "с">
+<!ENTITY prefWindow.size "width: 60em; height: 45em;">

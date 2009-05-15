@@ -1,76 +1,60 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
+<!ENTITY windowTitle.label "Свойства изображения">
+<!ENTITY pixelsPopup.value "пикселов">
+<!ENTITY percentPopup.value "процентов">
+<!ENTITY locationEditField.label "Адрес изображения:">
+<!ENTITY locationEditField.accessKey "А">
+<!ENTITY locationEditField.tooltip "Введите имя файла с изображением или его адрес">
+<!ENTITY title.label "Всплывающая подсказка:">
+<!ENTITY title.accessKey "В">
+<!ENTITY title.tooltip "Атрибут &quot;title&quot;, отображаемый как всплывающая подсказка">
+<!ENTITY altText.label "Альтернативный текст:">
+<!ENTITY altText.accessKey "л">
+<!ENTITY altTextEditField.tooltip "Введите текст, показываемый на месте изображения">
+<!ENTITY noAltText.label "Не использовать альтернативный текст">
+<!ENTITY noAltText.accessKey "Н">
+<!ENTITY previewBox.label "Предварительный просмотр изображения">
 <!ENTITY MoreFewerButton.tooltip "Показывать больше или меньше свойств для изменения">
 <!ENTITY actualSize.label "Исходный размер:">
-<!ENTITY actualSizeRadio.accessKey "И">
 <!ENTITY actualSizeRadio.label "Исходный размер">
+<!ENTITY actualSizeRadio.accessKey "И">
 <!ENTITY actualSizeRadio.tooltip "Вернуться к исходным размерам изображения">
-<!ENTITY alignment.label "Расположение текста по отношению к изображению">
-<!ENTITY altText.accessKey "л">
-<!ENTITY altText.label "Альтернативный текст:">
-<!ENTITY altTextEditField.tooltip "Введите текст, показываемый на месте изображения">
-<!ENTITY borderEditField.accessKey "п">
-<!ENTITY borderEditField.label "Сплошная рамка:">
-<!ENTITY bottomPopup.value "Внизу">
-<!ENTITY centerPopup.value "По центру">
-<!ENTITY constrainCheckbox.accessKey "С">
-<!ENTITY constrainCheckbox.label "Соблюдать пропорции">
-<!ENTITY constrainCheckbox.tooltip "Соблюдать пропорции при изменении размера изображения">
-<!ENTITY customSizeRadio.accessKey "З">
 <!ENTITY customSizeRadio.label "Задать размер">
+<!ENTITY customSizeRadio.accessKey "З">
 <!ENTITY customSizeRadio.tooltip "Изменить размер изображения так, как это выглядит на странице">
-<!ENTITY editImageButton.label "Редактировать изображение">
-<!ENTITY editImageButton.tooltip "Редактировать изображение в другом приложении">
+<!ENTITY heightEditField.label "Высота:">
+<!ENTITY heightEditField.accessKey "В">
+<!ENTITY widthEditField.label "Ширина:">
+<!ENTITY widthEditField.accessKey "Ш">
+<!ENTITY constrainCheckbox.label "Соблюдать пропорции">
+<!ENTITY constrainCheckbox.accessKey "С">
+<!ENTITY constrainCheckbox.tooltip "Соблюдать пропорции при изменении размера изображения">
+<!ENTITY imagemapBox.label "Изображение-карта">
+<!ENTITY removeImageMapButton.label "Убрать">
+<!ENTITY removeImageMapButton.accessKey "У">
 <!ENTITY editImageMapButton.label "Редактировать...">
 <!ENTITY editImageMapButton.tooltip "Создать области, чувствительные к нажатию мышью">
-<!ENTITY heightEditField.accessKey "В">
-<!ENTITY heightEditField.label "Высота:">
-<!ENTITY imageAppearanceTab.label "Внешний вид">
-<!ENTITY imageDimensionsTab.label "Размеры">
-<!ENTITY imageInputTab.label "Форма">
-<!ENTITY imageLinkTab.label "Ссылка">
-<!ENTITY imageLocationTab.label "Адрес">
-<!ENTITY imagemapBox.label "Изображение-карта">
-<!ENTITY leftRightEditField.accessKey "е">
-<!ENTITY leftRightEditField.label "Слева и справа:">
-<!ENTITY locationEditField.accessKey "А">
-<!ENTITY locationEditField.label "Адрес изображения:">
-<!ENTITY locationEditField.tooltip "Введите имя файла с изображением или его адрес">
-<!ENTITY makePageBackgroundCheckbox.label "Сделать фоном страницы">
-<!ENTITY makePageBackgroundCheckbox.tooltip "Использовать изображение как фоновое для этой страницы">
-<!ENTITY noAltText.accessKey "Н">
-<!ENTITY noAltText.label "Не использовать альтернативный текст">
-<!ENTITY percentPopup.value "процентов">
-<!ENTITY pixelsPopup.value "пикселов">
-<!ENTITY previewBox.label "Предварительный просмотр изображения">
-<!ENTITY removeImageMapButton.accessKey "У">
-<!ENTITY removeImageMapButton.label "Убрать">
-<!ENTITY showImageLinkBorder.accessKey "г">
-<!ENTITY showImageLinkBorder.label "Показывать рамку вокруг изображения, содержащего ссылку">
+<!ENTITY alignment.label "Расположение текста по отношению к изображению">
+<!ENTITY bottomPopup.value "Внизу">
+<!ENTITY topPopup.value "Вверху">
+<!ENTITY centerPopup.value "По центру">
+<!ENTITY wrapRightPopup.value "Влево, окружить текстом справа">
+<!ENTITY wrapLeftPopup.value "Вправо, окружить текстом слева">
 <!ENTITY spacingBox.label "Поля">
 <!ENTITY spacingBox.tooltip "Введите размер пустых полей вокруг изображения">
-<!ENTITY title.accessKey "В">
-<!ENTITY title.label "Всплывающая подсказка:">
-<!ENTITY title.tooltip "Атрибут &quot;title&quot;, отображаемый как всплывающая подсказка">
-<!ENTITY topBottomEditField.accessKey "в">
+<!ENTITY leftRightEditField.label "Слева и справа:">
+<!ENTITY leftRightEditField.accessKey "е">
 <!ENTITY topBottomEditField.label "Сверху и снизу:">
-<!ENTITY topPopup.value "Вверху">
-<!ENTITY widthEditField.accessKey "Ш">
-<!ENTITY widthEditField.label "Ширина:">
-<!ENTITY windowTitle.label "Свойства изображения">
-<!ENTITY wrapLeftPopup.value "Вправо, окружить текстом слева">
-<!ENTITY wrapRightPopup.value "Влево, окружить текстом справа">
+<!ENTITY topBottomEditField.accessKey "в">
+<!ENTITY borderEditField.label "Сплошная рамка:">
+<!ENTITY borderEditField.accessKey "п">
+<!ENTITY showImageLinkBorder.label "Показывать рамку вокруг изображения, содержащего ссылку">
+<!ENTITY showImageLinkBorder.accessKey "г">
+<!ENTITY makePageBackgroundCheckbox.label "Сделать фоном страницы">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Использовать изображение как фоновое для этой страницы">
+<!ENTITY editImageButton.label "Редактировать изображение">
+<!ENTITY editImageButton.tooltip "Редактировать изображение в другом приложении">
+<!ENTITY imageInputTab.label "Форма">
+<!ENTITY imageLocationTab.label "Адрес">
+<!ENTITY imageDimensionsTab.label "Размеры">
+<!ENTITY imageAppearanceTab.label "Внешний вид">
+<!ENTITY imageLinkTab.label "Ссылка">

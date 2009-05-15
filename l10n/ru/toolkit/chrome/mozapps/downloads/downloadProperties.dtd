@@ -1,7 +1,7 @@
-<!ENTITY acceptButton.label "Закрыть">
-<!ENTITY cmd.close.commandKey "w">
-<!ENTITY dateEnded.label "Завершение:">
 <!ENTITY dateStarted.label "Начало:">
-<!ENTITY downloadedFrom.label "URL:">
-<!ENTITY path.label "Локальный путь:">
+<!ENTITY dateEnded.label "Завершение:">
 <!ENTITY window.title "Свойства">
+<!ENTITY downloadedFrom.label "Источник:">
+<!ENTITY path.label "Локальный путь:">
+<!ENTITY acceptButton.label "Закрыть">
+<!ENTITY cmd.close.commandKey "з">

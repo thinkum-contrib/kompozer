@@ -1,51 +1,35 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY charset.customize.right.header "Выбор поддерживаемых кодировок">
-<!ENTITY langtitle.label "Языки для веб-страниц">
-<!ENTITY languages.customize.Charset.grouplabel "Кодировка">
-<!ENTITY languages.customize.DefaultCharset.accesskey "К">
-<!ENTITY languages.customize.DefaultCharset.label "Кодировка по умолчанию:">
-<!ENTITY languages.customize.active.label "Языки в порядке предпочтения:">
-<!ENTITY languages.customize.add.label "Добавить">
-<!ENTITY languages.customize.add.title.label "Добавление языков">
-<!ENTITY languages.customize.addButton.accesskey "Д">
-<!ENTITY languages.customize.addButton.label "Добавить...">
-<!ENTITY languages.customize.additional.label "Доступные кодировки">
-<!ENTITY languages.customize.available.label "Языки:">
-<!ENTITY languages.customize.cancel.label "Отмена">
-<!ENTITY languages.customize.deleteButton.accesskey "У">
-<!ENTITY languages.customize.deleteButton.label "Удалить">
-<!ENTITY languages.customize.engOption.label "Английский">
-<!ENTITY languages.customize.engOrder.label "1">
-<!ENTITY languages.customize.lHeader "Языки">
-<!ENTITY languages.customize.left.header "Кодировка">
-<!ENTITY languages.customize.moveDown.accesskey "н">
-<!ENTITY languages.customize.moveDown.label "Вниз">
-<!ENTITY languages.customize.moveUp.accesskey "В">
-<!ENTITY languages.customize.moveUp.label "Вверх">
-<!ENTITY languages.customize.ok.label "ОК">
-<!ENTITY languages.customize.others.accesskey "р">
-<!ENTITY languages.customize.others.examples "например: en-bz, ru-ru">
-<!ENTITY languages.customize.others.label "Другие:">
-<!ENTITY languages.customize.prefAddLangDescript "Выберите язык(и), которые хотели бы добавить.">
 <!ENTITY languages.customize.prefLangDescript "Некоторые веб-страницы доступны на более чем одном языке. Укажите порядок выбора языка веб-страницы.">
+<!ENTITY languages.customize.lHeader "Языки">
 <!ENTITY languages.customize.rHeader "Языки, отображаемые на веб-страницах">
-<!ENTITY languages.customize.remove.label "Удалить">
-<!ENTITY languages.customize.reorder.label "Пересортировать">
-<!ENTITY languages.customize.save.label "Сохранить">
-<!ENTITY languages.customize.save.popup "Перезапустите браузер, чтобы изменения вступили в силу...">
+<!ENTITY langtitle.label "Языки для веб-страниц">
+<!ENTITY languages.customize.prefAddLangDescript "Выберите язык(и), которые хотели бы добавить.">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.engOption.label "Английский">
+<!ENTITY languages.customize.addButton.label "Добавить...">
+<!ENTITY languages.customize.addButton.accesskey "Д">
+<!ENTITY languages.customize.deleteButton.label "Удалить">
+<!ENTITY languages.customize.deleteButton.accesskey "У">
 <!ENTITY languages.customize.title.label "Настройка языков">
+<!ENTITY languages.customize.add.title.label "Добавление языков">
+<!ENTITY languages.customize.left.header "Кодировка">
+<!ENTITY charset.customize.right.header "Выбор поддерживаемых кодировок">
+<!ENTITY languages.customize.available.label "Языки:">
+<!ENTITY languages.customize.active.label "Языки в порядке предпочтения:">
+<!ENTITY languages.customize.reorder.label "Пересортировать">
+<!ENTITY languages.customize.remove.label "Удалить">
+<!ENTITY languages.customize.additional.label "Доступные кодировки">
+<!ENTITY languages.customize.add.label "Добавить">
+<!ENTITY languages.customize.others.label "Другие:">
+<!ENTITY languages.customize.others.accesskey "р">
+<!ENTITY languages.customize.Charset.grouplabel "Кодировка">
+<!ENTITY languages.customize.DefaultCharset.label "Кодировка по умолчанию:">
+<!ENTITY languages.customize.DefaultCharset.accesskey "К">
+<!ENTITY languages.customize.others.examples "например: en-bz, ru-ru">
+<!ENTITY languages.customize.cancel.label "Отмена">
+<!ENTITY languages.customize.save.label "Сохранить">
+<!ENTITY languages.customize.ok.label "ОК">
+<!ENTITY languages.customize.save.popup "Перезапустите браузер, чтобы изменения вступили в силу...">
+<!ENTITY languages.customize.moveUp.label "Вверх">
+<!ENTITY languages.customize.moveUp.accesskey "В">
+<!ENTITY languages.customize.moveDown.label "Вниз">
+<!ENTITY languages.customize.moveDown.accesskey "н">

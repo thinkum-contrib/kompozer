@@ -1,64 +1,48 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY about.accesskey "О">
-<!ENTITY aboutCmd.label "О программе">
-<!ENTITY apercentCmd.label "100">
-<!ENTITY bpercentCmd.label "200">
-<!ENTITY clear.accesskey "ч">
-<!ENTITY clearCmd.label "Очистить">
-<!ENTITY close.accesskey "з">
-<!ENTITY closeCmd.label "Закрыть">
-<!ENTITY contrast.accesskey "К">
-<!ENTITY contrastCmd.label "Контраст">
-<!ENTITY copy.accesskey "К">
-<!ENTITY copyCmd.label "Копировать">
-<!ENTITY cpercentCmd.label "400">
-<!ENTITY cut.accesskey "ы">
-<!ENTITY cutCmd.label "Вырезать">
-<!ENTITY delSpotCmd.label "Удалить участок">
-<!ENTITY mapeditMenu.label "Правка">
-<!ENTITY mapeditcopy.accesskey "К">
-<!ENTITY mapeditcut.accesskey "В">
-<!ENTITY mapeditmenu.accesskey "П">
-<!ENTITY mapeditpaste.accesskey "с">
-<!ENTITY mapeditprops.accesskey "а">
+<!ENTITY windowTitle.label "Редактор карты изображения">
 <!ENTITY mapfileMenu.label "Файл">
-<!ENTITY mapfileclear.accesskey "О">
-<!ENTITY mapfileclose.accesskey "З">
 <!ENTITY mapfilemenu.accesskey "Ф">
+<!ENTITY clearCmd.label "Очистить">
+<!ENTITY mapfileclear.accesskey "О">
+<!ENTITY closeCmd.label "Закрыть">
+<!ENTITY mapfileclose.accesskey "З">
+<!ENTITY mapeditMenu.label "Правка">
+<!ENTITY mapeditmenu.accesskey "П">
+<!ENTITY cutCmd.label "Вырезать">
+<!ENTITY mapeditcut.accesskey "В">
+<!ENTITY copyCmd.label "Копировать">
+<!ENTITY mapeditcopy.accesskey "К">
+<!ENTITY pasteCmd.label "Вставить">
+<!ENTITY mapeditpaste.accesskey "с">
+<!ENTITY selectallCmd.label "Выделить все">
+<!ENTITY mapselectall.accesskey "ы">
+<!ENTITY propsCmd.label "Свойства активного участка">
+<!ENTITY mapeditprops.accesskey "а">
+<!ENTITY mapviewMenu.label "Вид">
+<!ENTITY mapviewmenu.accesskey "В">
+<!ENTITY showhideTbarCmd.label "Скрыть панель инструментов">
+<!ENTITY mapviewtbar.accesskey "т">
+<!ENTITY mapviewScale.label "Масштаб">
+<!ENTITY mapviewscale.accesskey "М">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY zoomthree.accesskey "4">
+<!ENTITY contrastCmd.label "Контраст">
+<!ENTITY contrast.accesskey "К">
 <!ENTITY maphelpMenu.label "Справка">
 <!ENTITY maphelpmenu.accesskey "С">
-<!ENTITY mapselectall.accesskey "ы">
-<!ENTITY mapviewMenu.label "Вид">
-<!ENTITY mapviewScale.label "Масштаб">
-<!ENTITY mapviewmenu.accesskey "В">
-<!ENTITY mapviewscale.accesskey "М">
-<!ENTITY mapviewtbar.accesskey "т">
-<!ENTITY paste.accesskey "c">
-<!ENTITY pasteCmd.label "Вставить">
-<!ENTITY props.accesskey "с">
-<!ENTITY propsCmd.label "Свойства активного участка">
-<!ENTITY selectall.accesskey "ы">
-<!ENTITY selectallCmd.label "Выделить все">
-<!ENTITY showhideTbarCmd.label "Скрыть панель инструментов">
-<!ENTITY tbar.accesskey "т">
-<!ENTITY windowTitle.label "Редактор карты изображения">
+<!ENTITY aboutCmd.label "О программе">
+<!ENTITY about.accesskey "О">
 <!ENTITY zoominCmd.label "Увеличить">
-<!ENTITY zoomone.accesskey "1">
 <!ENTITY zoomoutCmd.label "Уменьшить">
-<!ENTITY zoomthree.accesskey "4">
-<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY delSpotCmd.label "Удалить участок">
+<!ENTITY clear.accesskey "ч">
+<!ENTITY selectall.accesskey "ы">
+<!ENTITY close.accesskey "з">
+<!ENTITY cut.accesskey "ы">
+<!ENTITY copy.accesskey "К">
+<!ENTITY paste.accesskey "c">
+<!ENTITY props.accesskey "с">
+<!ENTITY tbar.accesskey "т">

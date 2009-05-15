@@ -1,46 +1,30 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY borderEditField.accessKey "р">
-<!ENTITY borderEditField.label "Рамка:">
-<!ENTITY borderEditField.tooltip "Введите ширину рамки или ноль (0), если хотите сделать рамку невидимой">
-<!ENTITY bottomVAlignment.label "По низу">
-<!ENTITY cellPadding.label "Отступ от границы до содержимого ячейки">
-<!ENTITY cellSpacing.label "Расстояние между соседними ячейками">
-<!ENTITY cellTab.label "Ячейка">
-<!ENTITY centerHAlignment.label "По центру">
-<!ENTITY horizAlignment.label "Гориз. выравнивание:">
-<!ENTITY leftHAlignment.label "Влево">
-<!ENTITY middleVAlignment.label "По середине">
-<!ENTITY nowrapWrapping.label "Нет">
-<!ENTITY numColumnsEditField.accessKey "т">
-<!ENTITY numColumnsEditField.label "Столбцов:">
-<!ENTITY numRowsEditField.accessKey "С">
-<!ENTITY numRowsEditField.label "Строк:">
-<!ENTITY pixels.label "пикселов">
-<!ENTITY preciselyTab.label "Точная">
-<!ENTITY quicklyTab.label "Простая">
-<!ENTITY rightHAlignment.label "Вправо">
-<!ENTITY size.label "Размер">
-<!ENTITY textWrapping.label "Переносить текст">
-<!ENTITY topVAlignment.label "По верху">
-<!ENTITY unspecifiedHAlignment.label "Не определено">
-<!ENTITY unspecifiedVAlignment.label "Не определено">
-<!ENTITY vertAlignment.label "Верт. выравнивание:">
-<!ENTITY widthEditField.accessKey "Ш">
-<!ENTITY widthEditField.label "Ширина:">
 <!ENTITY windowTitle.label "Вставка таблицы">
+<!ENTITY size.label "Размер">
+<!ENTITY numRowsEditField.label "Строк:">
+<!ENTITY numRowsEditField.accessKey "С">
+<!ENTITY numColumnsEditField.label "Столбцов:">
+<!ENTITY numColumnsEditField.accessKey "т">
+<!ENTITY widthEditField.label "Ширина:">
+<!ENTITY widthEditField.accessKey "Ш">
+<!ENTITY borderEditField.label "Рамка:">
+<!ENTITY borderEditField.accessKey "р">
+<!ENTITY borderEditField.tooltip "Введите ширину рамки или ноль (0), если хотите сделать рамку невидимой">
+<!ENTITY pixels.label "пикселов">
+<!ENTITY quicklyTab.label "Простая">
+<!ENTITY preciselyTab.label "Точная">
+<!ENTITY cellTab.label "Ячейка">
+<!ENTITY horizAlignment.label "Гориз. выравнивание:">
+<!ENTITY unspecifiedHAlignment.label "Не определено">
+<!ENTITY leftHAlignment.label "Влево">
+<!ENTITY centerHAlignment.label "По центру">
+<!ENTITY rightHAlignment.label "Вправо">
+<!ENTITY vertAlignment.label "Верт. выравнивание:">
+<!ENTITY unspecifiedVAlignment.label "Не определено">
+<!ENTITY topVAlignment.label "По верху">
+<!ENTITY middleVAlignment.label "По середине">
+<!ENTITY bottomVAlignment.label "По низу">
+<!ENTITY textWrapping.label "Переносить текст">
 <!ENTITY wrapWrapping.label "Да">
+<!ENTITY nowrapWrapping.label "Нет">
+<!ENTITY cellSpacing.label "Расстояние между соседними ячейками">
+<!ENTITY cellPadding.label "Отступ от границы до содержимого ячейки">

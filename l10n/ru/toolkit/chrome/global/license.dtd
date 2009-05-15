@@ -1,19 +1,19 @@
-<!ENTITY license.part0 "is copyright">
-<!ENTITY license.part1 "Авторское право принадлежит">
-<!ENTITY license.contrib "авторам">
-<!ENTITY license.part2 "согласно условиям установленным в">
+<!ENTITY license.part0 "авторское право">
+<!ENTITY license.part1 "принадлежит">
+<!ENTITY license.contrib "участникам проекта">
+<!ENTITY license.part2 "согласно условиям, установленным в документе">
 <!ENTITY license.part3 " . Все права защищены.">
 <!ENTITY about.version "версия">
-<!ENTITY about.copy.beforeLink "Copyright &copy; 1998-2006">
-<!ENTITY about.copy.linkTitle "Люди внесшие свой вклад">
-<!ENTITY about.copy.afterLink "в проект Mozilla.">
-<!ENTITY about.license.beforeLink "Прочитать">
-<!ENTITY about.license.linkTitle "информацию о лицензии">
-<!ENTITY about.license.afterLink "используемой в этом продукте.">
-<!ENTITY about.relnotes.beforeLink "Прочитать">
-<!ENTITY about.relnotes.linkTitle "замечания к релизу">
-<!ENTITY about.relnotes.afterLink "этой версии.">
-<!ENTITY about.buildconfig.beforeLink "Просмотреть">
-<!ENTITY about.buildconfig.linkTitle "конфигурацию сборки">
-<!ENTITY about.buildconfig.afterLink "используемую в этой версии.">
-<!ENTITY about.buildIdentifier "Идентификатор сборки:">
+<!ENTITY about.copy.beforeLink "Copyright &copy; 1998-2008 by">
+<!ENTITY about.copy.linkTitle "contributors">
+<!ENTITY about.copy.afterLink "to the Mozilla Project.">
+<!ENTITY about.license.beforeLink "Read the">
+<!ENTITY about.license.linkTitle "licensing information">
+<!ENTITY about.license.afterLink "for this product.">
+<!ENTITY about.relnotes.beforeLink "Read the">
+<!ENTITY about.relnotes.linkTitle "release notes">
+<!ENTITY about.relnotes.afterLink "for this version.">
+<!ENTITY about.buildconfig.beforeLink "See the">
+<!ENTITY about.buildconfig.linkTitle "build configuration">
+<!ENTITY about.buildconfig.afterLink "used for this version.">
+<!ENTITY about.buildIdentifier "Build identifier: ">

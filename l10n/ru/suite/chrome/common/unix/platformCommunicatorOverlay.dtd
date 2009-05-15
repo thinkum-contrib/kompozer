@@ -10,9 +10,6 @@
 <!ENTITY findTypeTextCmd.key "/">
 <!ENTITY findTypeLinksCmd.key "'">
 <!ENTITY accel.emacs_conflict "accel,shift">
-<!ENTITY openHelpCmd.label "Содержание">
+<!ENTITY openHelpCmd.label "Содержимое справки">
 <!ENTITY openHelpCmd.accesskey "С">
 <!ENTITY openHelpCmd.key "VK_F1">
-<!ENTITY ctrlKey.label "Ctrl">
-<!ENTITY altKey.label "Alt">
-<!ENTITY shiftKey.label "Shift">

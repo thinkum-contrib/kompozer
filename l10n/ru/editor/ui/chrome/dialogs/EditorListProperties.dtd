@@ -1,30 +1,14 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY ListType.label "Тип списка">
-<!ENTITY bulletList.value "Маркированный (ненумерованный) список">
-<!ENTITY bulletStyle.label "Стиль маркированного списка:">
-<!ENTITY changeEntireListRadio.accessKey "И">
-<!ENTITY changeEntireListRadio.label "Изменить весь список">
-<!ENTITY changeListMsg.label "При изменении типа списка:">
-<!ENTITY changeSelectedRadio.accessKey "в">
-<!ENTITY changeSelectedRadio.label "Изменить выбранные элементы">
-<!ENTITY definitionList.value "Список определений">
-<!ENTITY none.value "Ничего">
-<!ENTITY numberList.value "Нумерованный список">
-<!ENTITY startingNumber.accessKey "Н">
-<!ENTITY startingNumber.label "Начинать с:">
 <!ENTITY windowTitle.label "Свойства списка">
+<!ENTITY ListType.label "Тип списка">
+<!ENTITY bulletStyle.label "Стиль маркированного списка:">
+<!ENTITY startingNumber.label "Начинать с:">
+<!ENTITY startingNumber.accessKey "Н">
+<!ENTITY none.value "Ничего">
+<!ENTITY bulletList.value "Маркированный (ненумерованный) список">
+<!ENTITY numberList.value "Нумерованный список">
+<!ENTITY definitionList.value "Список определений">
+<!ENTITY changeListMsg.label "При изменении типа списка:">
+<!ENTITY changeEntireListRadio.label "Изменить весь список">
+<!ENTITY changeEntireListRadio.accessKey "И">
+<!ENTITY changeSelectedRadio.label "Изменить выбранные элементы">
+<!ENTITY changeSelectedRadio.accessKey "в">

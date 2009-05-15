@@ -20,15 +20,15 @@
 <!ENTITY font.langGroup.latin2 "Центральноевропейский">
 <!ENTITY font.langGroup.japanese "Японский">
 <!ENTITY font.langGroup.trad-chinese "Традиционный китайский (Тайвань)">
-<!ENTITY font.langGroup.simpl-chinese "Упрощённый китайский">
+<!ENTITY font.langGroup.simpl-chinese "Упрощенный китайский">
 <!ENTITY font.langGroup.trad-chinese-hk "Традиционный китайский (Гонконг)">
 <!ENTITY font.langGroup.korean "Корейский">
 <!ENTITY font.langGroup.cyrillic "Кириллица">
 <!ENTITY font.langGroup.baltic "Прибалтийский">
 <!ENTITY font.langGroup.el "Греческий">
 <!ENTITY font.langGroup.turkish "Турецкий">
-<!ENTITY font.langGroup.unicode "Другие языки">
-<!ENTITY font.langGroup.user-def "Определённая пользователем">
+<!ENTITY font.langGroup.unicode "Юникод">
+<!ENTITY font.langGroup.user-def "Определено пользователем">
 <!ENTITY font.langGroup.thai "Тайский">
 <!ENTITY font.langGroup.hebrew "Иврит">
 <!ENTITY font.langGroup.arabic "Арабский">
@@ -49,9 +49,9 @@
 <!ENTITY useDefaultFontSerif.label "С засечками">
 <!ENTITY useDefaultFontSansSerif.label "Без засечек">
 <!ENTITY newLanguages.label "Новые группы языков могут быть определены с помощью панели языков.">
-<!ENTITY useDocumentFonts.label "Разрешить сообщениям использовать другие шрифты">
+<!ENTITY useDocumentFonts.label "Разрешить документам использовать другие шрифты">
 <!ENTITY useDocumentFonts.accesskey "Р">
-<!ENTITY header2 "Когда для страницы определён другой шрифт">
+<!ENTITY header2 "Когда для страницы определен другой шрифт">
 <!ENTITY useDefaultFont.label "Использовать мои шрифты, игнорируя указанные для страницы">
 <!ENTITY useDefaultFont.accesskey "о">
 <!ENTITY useDocFontNonDynamic.label "Использовать шрифты, указанные для страницы">

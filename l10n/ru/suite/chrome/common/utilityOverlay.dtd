@@ -7,9 +7,9 @@
 <!ENTITY newBlankPageCmd.label "Страницу Компоновщика">
 <!ENTITY newBlankPageCmd.accesskey "т">
 <!ENTITY newBlankPageCmd.key "n">
-<!ENTITY newPageFromTemplateCmd.label "Страницу с помощью шаблона">
+<!ENTITY newPageFromTemplateCmd.label "Страницу из шаблона">
 <!ENTITY newPageFromTemplateCmd.accesskey "ш">
-<!ENTITY newPageFromDraftCmd.label "Страницу с помощью черновика">
+<!ENTITY newPageFromDraftCmd.label "Страницу из черновика">
 <!ENTITY newPageFromDraftCmd.accesskey "ч">
 <!ENTITY newNavigatorCmd.label "Окно Навигатора">
 <!ENTITY newNavigatorCmd.key "N">
@@ -34,12 +34,12 @@
 <!ENTITY deleteCmd.label "Удалить">
 <!ENTITY deleteCmd.key "D">
 <!ENTITY deleteCmd.accesskey "У">
-<!ENTITY selectAllCmd.label "Выделить всё">
+<!ENTITY selectAllCmd.label "Выделить все">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "ы">
 <!ENTITY preferencesCmd.label "Настройки...">
 <!ENTITY preferencesCmd.key "E">
-<!ENTITY preferencesCmd.accesskey "Н">
+<!ENTITY preferencesCmd.accesskey "р">
 <!ENTITY findTypeTextCmd.label "Поиск текста по мере набора">
 <!ENTITY findTypeTextCmd.accesskey "и">
 <!ENTITY findTypeLinksCmd.label "Поиск ссылок по мере набора">
@@ -53,22 +53,22 @@
 <!ENTITY helpMenu.label "Справка">
 <!ENTITY helpMenu.accesskey "С">
 <!ENTITY whatNewCmd.label "Что нового">
-<!ENTITY releaseCmd.label "Примечания к релизу">
-<!ENTITY releaseCmd.accesskey "р">
+<!ENTITY releaseCmd.label "Версии">
+<!ENTITY releaseCmd.accesskey "В">
 <!ENTITY aboutCmd.label "О &brandShortName;">
 <!ENTITY aboutCmd.accesskey "О">
-<!ENTITY aboutCommPluginsCmd.label "Плагины (plug-ins)">
-<!ENTITY aboutCommPluginsCmd.accesskey "П">
-<!ENTITY direct.label "В сети (Прокси: нет)">
+<!ENTITY aboutCommPluginsCmd.label "О модулях (plug-ins)">
+<!ENTITY aboutCommPluginsCmd.accesskey "М">
+<!ENTITY direct.label "Подключено (прокси: нет)">
 <!ENTITY direct.accesskey "н">
-<!ENTITY manual.label "В сети (Прокси настроено вручную)">
+<!ENTITY manual.label "Подключено (прокси: вручную)">
 <!ENTITY manual.accesskey "в">
-<!ENTITY pac.label "В сети (Адрес прокси получен из URL автонастройки)">
-<!ENTITY pac.accesskey "п">
-<!ENTITY wpad.label "В сети (Прокси найдено автоматически)">
-<!ENTITY wpad.accesskey "а">
-<!ENTITY proxy.label "Конфигурация прокси-соединения">
-<!ENTITY proxy.accesskey "К">
-<!ENTITY bidiSwitchTextDirectionItem.label "Переключить направление текста на странице">
-<!ENTITY bidiSwitchTextDirectionItem.accesskey "т">
+<!ENTITY pac.label "Подключено (прокси: автоматически)">
+<!ENTITY pac.accesskey "а">
+<!ENTITY wpad.label "Подключено (прокси: Auto Discover)">
+<!ENTITY wpad.accesskey "ю">
+<!ENTITY proxy.label "Настройка прокси...">
+<!ENTITY proxy.accesskey "й">
+<!ENTITY bidiSwitchTextDirectionItem.label "Переключить направление текста">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "е">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey "X">

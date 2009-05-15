@@ -1,51 +1,35 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY FTPport.accesskey "о">
-<!ENTITY HTTPport.accesskey "п">
-<!ENTITY SOCKSport.accesskey "т">
-<!ENTITY SSLport.accesskey "р">
-<!ENTITY autoTypeRadio.accesskey "в">
-<!ENTITY autoTypeRadio.label "URL автоматической настройки прокси:">
-<!ENTITY configAutoconfigText.accesskey "А">
-<!ENTITY configAutoconfigText.label "Адрес конфигурации (URL):">
-<!ENTITY directTypeRadio.accesskey "П">
-<!ENTITY directTypeRadio.label "Прямое подключение к Интернету">
-<!ENTITY ftp.accesskey "к">
-<!ENTITY ftp.label "FTP-прокси:">
-<!ENTITY gopher.accesskey "с">
-<!ENTITY gopher.label "Gopher-прокси:">
-<!ENTITY gopherPort.accesskey "">
-<!ENTITY http.accesskey "и">
-<!ENTITY http.label "HTTP-прокси:">
 <!ENTITY lHeader "Параметры соединения">
-<!ENTITY manualTypeRadio.accesskey "й">
-<!ENTITY manualTypeRadio.label "Настройка прокси вручную">
-<!ENTITY noproxy.accesskey "Н">
-<!ENTITY noproxy.label "Не использовать прокси для:">
-<!ENTITY noproxyExplain.label "Например: .mozilla.org, .net.nz">
-<!ENTITY port.label "Порт:">
 <!ENTITY proxyTitle.label "Настройка прокси для доступа в Интернет">
-<!ENTITY reload.accesskey "О">
+<!ENTITY directTypeRadio.label "Прямое подключение к Интернету">
+<!ENTITY directTypeRadio.accesskey "П">
+<!ENTITY manualTypeRadio.label "Настройка прокси вручную">
+<!ENTITY manualTypeRadio.accesskey "й">
+<!ENTITY autoTypeRadio.label "URL автоматической настройки прокси:">
+<!ENTITY autoTypeRadio.accesskey "в">
+<!ENTITY configAutoconfigText.label "Адрес конфигурации (URL):">
+<!ENTITY configAutoconfigText.accesskey "А">
 <!ENTITY reload.label "Обновить">
-<!ENTITY socks.accesskey "У">
-<!ENTITY socks.label "Узел SOCKS:">
-<!ENTITY socks4.accesskey "4">
-<!ENTITY socks4.label "SOCKS 4">
-<!ENTITY socks5.accesskey "5">
-<!ENTITY socks5.label "SOCKS 5">
-<!ENTITY ssl.accesskey "р">
+<!ENTITY reload.accesskey "О">
+<!ENTITY ftp.label "FTP-прокси:">
+<!ENTITY ftp.accesskey "к">
+<!ENTITY gopher.label "Gopher-прокси:">
+<!ENTITY gopher.accesskey "с">
+<!ENTITY http.label "HTTP-прокси:">
+<!ENTITY http.accesskey "и">
 <!ENTITY ssl.label "SSL-прокси:">
+<!ENTITY ssl.accesskey "р">
+<!ENTITY socks.label "Узел SOCKS:">
+<!ENTITY socks.accesskey "У">
+<!ENTITY socks4.label "SOCKS 4">
+<!ENTITY socks4.accesskey "4">
+<!ENTITY socks5.label "SOCKS 5">
+<!ENTITY socks5.accesskey "5">
+<!ENTITY port.label "Порт:">
+<!ENTITY HTTPport.accesskey "п">
+<!ENTITY SSLport.accesskey "р">
+<!ENTITY FTPport.accesskey "о">
+<!ENTITY gopherPort.accesskey "">
+<!ENTITY SOCKSport.accesskey "т">
+<!ENTITY noproxy.label "Не использовать прокси для:">
+<!ENTITY noproxy.accesskey "Н">
+<!ENTITY noproxyExplain.label "Например: .mozilla.org, .net.nz">

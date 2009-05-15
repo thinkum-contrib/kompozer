@@ -1,21 +1,5 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY documentCharsetDesc.label "Выберите кодировку, в которой хотите сохранить страницу:">
-<!ENTITY documentCharsetTitle.label "Кодировка">
-<!ENTITY documentExportToText.label "Экспорт в текстовый формат">
-<!ENTITY documentTitleTitle.label "Заголовок страницы">
 <!ENTITY windowTitle.label "Сохранить и сменить кодировку">
+<!ENTITY documentTitleTitle.label "Заголовок страницы">
+<!ENTITY documentCharsetTitle.label "Кодировка">
+<!ENTITY documentCharsetDesc.label "Выберите кодировку, в которой хотите сохранить страницу:">
+<!ENTITY documentExportToText.label "Экспорт в текстовый формат">

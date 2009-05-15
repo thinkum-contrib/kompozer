@@ -1,38 +1,77 @@
 <!ENTITY printCmd.commandkey "p">
+<!ENTITY viewCustomizeToolbar.label "Настроить панель...">
+<!ENTITY viewCustomizeToolbar.accesskey "Н">
 <!ENTITY findOnCmd.commandkey "F">
 <!ENTITY findAgainCmd.commandkey "G">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findDialog.title "Найти на этой странице">
+<!ENTITY findDialogFrame.title "Найти в этом фрейме">
+<!ENTITY findField.label "Поиск:">
+<!ENTITY findField.accesskey "п">
+<!ENTITY caseSensitiveCheckbox.label "С учетом регистра">
+<!ENTITY caseSensitiveCheckbox.accesskey "у">
+<!ENTITY wrapCheckbox.label "Перенос">
+<!ENTITY wrapCheckbox.accesskey "п">
+<!ENTITY backwardsCheckbox.label "Искать с конца">
+<!ENTITY backwardsCheckbox.accesskey "ц">
+<!ENTITY findField.tooltip "Введите одно или несколько слов чтобы найти их">
+<!ENTITY findButton.label "Искать дальше">
+<!ENTITY findButton.accesskey "н">
+<!ENTITY cancelButton.label "Отмена">
+<!ENTITY up.label "Вверх">
+<!ENTITY up.accesskey "р">
+<!ENTITY down.label "Вниз">
+<!ENTITY down.accesskey "н">
+<!ENTITY direction.label "Направление">
+<!ENTITY find.label "Найти:">
+<!ENTITY findNext.label "Искать дальше">
+<!ENTITY findNext.tooltip "Найти следующее совпадение">
+<!ENTITY findPrevious.label "Вернуться назад">
+<!ENTITY findPrevious.tooltip "Найти предыдущее совпадение">
+<!ENTITY findCloseButton.tooltip "Закрыть панель поиска">
+<!ENTITY highlight.label "Подсветка">
+<!ENTITY highlight.tooltip "Подсветить все совпадения (Ctrl+Enter)">
 <!ENTITY backButton.label "Назад">
-<!ENTITY backButton.accesskey "а">
+<!ENTITY backButton.accesskey "Н">
 <!ENTITY backButton.tooltip "На предыдущую страницу">
-<!ENTITY forwardButton.label "Вперёд">
-<!ENTITY forwardButton.accesskey "п">
+<!ENTITY forwardButton.label "Вперед">
+<!ENTITY forwardButton.accesskey "В">
 <!ENTITY forwardButton.tooltip "На следующую страницу">
-<!ENTITY copyCmd.label "Копировать">
-<!ENTITY copyCmd.accesskey "о">
-<!ENTITY selectAllCmd.label "Выделить всё">
-<!ENTITY selectAllCmd.accesskey "ы">
-<!ENTITY goBackCmd.commandkey "[">
-<!ENTITY goForwardCmd.commandkey "]">
 <!ENTITY homeButton.label "К началу">
 <!ENTITY homeButton.tooltip "Перейти к начальной странице справки">
 <!ENTITY printButton.label "Печать">
-<!ENTITY printButton.tooltip "Распечатать эту страницу">
+<!ENTITY printButton.tooltip "Напечатать эту страницу">
+<!ENTITY findBtn.label "Найти">
+<!ENTITY sidebarBtn.label "Показать боковую панель">
+<!ENTITY sidebarBtn.tooltip "Показать или скрыть боковую панель справки">
+<!ENTITY textZoomReduceBtn.label "Уменьшить размер шрифта">
+<!ENTITY textZoomReduceBtn.accesskey "м">
+<!ENTITY textZoomReduceBtn.tooltip "Уменьшить размер шрифта в справке.">
+<!ENTITY textZoomEnlargeBtn.label "Увеличить размер шрифта">
+<!ENTITY textZoomEnlargeBtn.accesskey "в">
+<!ENTITY textZoomEnlargeBtn.tooltip "Увеличить размер шрифта в справке. ">
+<!ENTITY customizeButton.tooltip "Настроить какие кнопки будут показаны на панели Справки. ">
+<!ENTITY reloadCmd.label "Обновить">
+<!ENTITY reloadCmd.accesskey "О">
 <!ENTITY closeWindow.commandkey "W">
+<!ENTITY copyCmd.label "Копировать">
+<!ENTITY copyCmd.accesskey "К">
 <!ENTITY throbberItem.title "Индикатор активности">
-<!ENTITY throbber.tooltip "Перейти к справке в разделе справки">
+<!ENTITY cmd_CustomizeToolbars.label "Настроить">
 <!ENTITY searchtab.label "Поиск">
-<!ENTITY searchtab.accesskey "и">
+<!ENTITY searchtab.accesskey "П">
+<!ENTITY searchbtn.label "Найти">
 <!ENTITY toctab.label "Содержание">
-<!ENTITY toctab.accesskey "д">
+<!ENTITY toctab.accesskey "С">
+<!ENTITY indextab.label "Индекс">
+<!ENTITY indextab.accesskey "И">
+<!ENTITY ixname.label "Имя">
+<!ENTITY glossarytab.label "Словарь">
+<!ENTITY glossarytab.accesskey "С">
+<!ENTITY glossname.label "Имя">
+<!ENTITY gobtn.label "Поиск">
+<!ENTITY name.label "Элемент">
 <!ENTITY textZoomReduceCmd.commandkey "-">
 <!ENTITY textZoomEnlargeCmd.commandkey "+">
 <!ENTITY textZoomEnlargeCmd.commandkey2 "=">
 <!ENTITY textZoomResetCmd.commandkey "0">
-<!ENTITY helpSearch.commandkey "k">
-<!ENTITY zLevel.label "Всегда наверху">
-<!ENTITY zLevel.accesskey "н">
-<!ENTITY textZoomReduceBtn.label "Уменьшить размер шрифта">
-<!ENTITY textZoomReduceBtn.accesskey "м">
-<!ENTITY textZoomEnlargeBtn.label "Увеличить размер шрифта">
-<!ENTITY textZoomEnlargeBtn.accesskey "в">

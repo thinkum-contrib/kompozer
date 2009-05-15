@@ -1,50 +1,33 @@
-<!-- 
-   - The contents of this file are subject to the Mozilla Public License Version
-   - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
-   -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
-   -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY activeLinkText.accesskey "к">
-<!ENTITY activeLinkText.label "Активная ссылка">
-<!ENTITY authorName.accesskey "А">
-<!ENTITY authorName.label "Автор:">
-<!ENTITY background.accesskey "о">
-<!ENTITY background.label "Фон:">
-<!ENTITY backgroundImage.accesskey "Ф">
-<!ENTITY backgroundImage.label "Фоновое изображение:">
-<!ENTITY chooseCharsetButton.label "Выбрать кодировку">
-<!ENTITY chooseFile.accesskey "б">
-<!ENTITY chooseFile.label "Выбрать файл...">
-<!ENTITY colon.character ":">
-<!ENTITY customColors.accesskey "И">
-<!ENTITY customColorsRadio.label "Использовать цвета:">
-<!ENTITY defaultCharset.label "Кодировка:">
-<!ENTITY defaultColors.accesskey "Ц">
-<!ENTITY defaultColorsRadio.label "Цвета пользователя по умолчанию (не устанавливать цвета на странице)">
-<!ENTITY defaultDirectionRadio.label "Направление не определено">
-<!ENTITY i18nHeader "Интернационализация">
 <!ENTITY lHeader "Параметры новой страницы">
+<!ENTITY rHeader "Установки по умолчанию для новых страниц">
+<!ENTITY authorName.label "Автор:">
+<!ENTITY authorName.accesskey "А">
+<!ENTITY pageColorHeader "Оформление по умолчанию">
+<!ENTITY defaultColorsRadio.label "Цвета пользователя по умолчанию (не устанавливать цвета на странице)">
+<!ENTITY defaultColors.accesskey "Ц">
+<!ENTITY customColorsRadio.label "Использовать цвета:">
+<!ENTITY customColors.accesskey "И">
+<!ENTITY normalText.label "Обычный текст">
+<!ENTITY normalText.accesskey "ы">
+<!ENTITY linkText.label "Текст ссылки">
+<!ENTITY linkText.accesskey "Т">
+<!ENTITY activeLinkText.label "Активная ссылка">
+<!ENTITY activeLinkText.accesskey "к">
+<!ENTITY visitedLinkText.label "Просмотренная ссылка">
+<!ENTITY visitedLinkText.accesskey "П">
+<!ENTITY background.label "Фон:">
+<!ENTITY background.accesskey "о">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Фоновое изображение:">
+<!ENTITY backgroundImage.accesskey "Ф">
+<!ENTITY chooseFile.label "Выбрать файл...">
+<!ENTITY chooseFile.accesskey "б">
+<!ENTITY i18nHeader "Интернационализация">
+<!ENTITY writingDirection.label "Направление письма:">
+<!ENTITY defaultDirectionRadio.label "Направление не определено">
+<!ENTITY ltrDirectionRadio.label "Слева направо">
+<!ENTITY rtlDirectionRadio.label "Справа налево">
 <!ENTITY language.label "Язык:">
 <!ENTITY languageChoiceButton.label "Выбрать язык">
-<!ENTITY linkText.accesskey "Т">
-<!ENTITY linkText.label "Текст ссылки">
-<!ENTITY ltrDirectionRadio.label "Слева направо">
-<!ENTITY normalText.accesskey "ы">
-<!ENTITY normalText.label "Обычный текст">
-<!ENTITY pageColorHeader "Оформление по умолчанию">
-<!ENTITY rHeader "Установки по умолчанию для новых страниц">
-<!ENTITY rtlDirectionRadio.label "Справа налево">
-<!ENTITY visitedLinkText.accesskey "П">
-<!ENTITY visitedLinkText.label "Просмотренная ссылка">
-<!ENTITY writingDirection.label "Направление письма:">
-
+<!ENTITY defaultCharset.label "Кодировка:">
+<!ENTITY chooseCharsetButton.label "Выбрать кодировку">

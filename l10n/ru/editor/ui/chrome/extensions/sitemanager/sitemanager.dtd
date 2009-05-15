@@ -1,37 +1,71 @@
-<!-- 
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
    - The contents of this file are subject to the Mozilla Public License Version
    - 1.1 (the "License"); you may not use this file except in compliance with
-   - the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
    -
-   - This file translated Mozilla.ru Team http://www.mozilla.ru
-   -   Translator: Alexey Gubanov (Mozilla.ru Team) <ragnaar@mozilla.ru>
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
    -
-   - Translation contains parts translated by
-   -   Alexander Slovesnik (Mozilla.ru Team)
-   -   Valentina Vaneeva (ALTLinux Team)
-   -   Vadim Vinichenko (ALTLinux Team)
-   -   Sergey Degtjaryov (ALTLinux Team)
-   -   Elena Shevelyova (ALTLinux Team)
-   --> 
-
-<!ENTITY createDir.label "Новая поддиректория">
-<!ENTITY createDirButton.tooltip "Новая папка">
-<!ENTITY createdir.accesskey "н">
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc., Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -   
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY editSitesList.label "Редактировать сайты">
+<!ENTITY filterAll.label "Все файлы">
+<!ENTITY filterHTML.label "HTML документы">
+<!ENTITY filterCSS.label "Таблицы стилей CSS">
+<!ENTITY filterImages.label "Изображения">
+<!ENTITY filterMedia.label "Медиа-файлы">
+<!ENTITY filterScripts.label "Текстовые файлы">
+<!ENTITY treeViewCheckbox.label "Дерево просмотра">
+<!ENTITY filenameColumn.label "Имя">
+<!ENTITY sizeColumn.label "Размер">
+<!ENTITY lastModifiedColumn.label "Последнее изменение">
 <!ENTITY deleteFile.label "Удалить файл">
 <!ENTITY deletefile.accesskey "у">
-<!ENTITY editSitesList.label "Редактировать сайты">
-<!ENTITY filenameColumn.label "Имя">
-<!ENTITY filterAll.label "Все файлы">
-<!ENTITY filterControl.label "Просмотр">
-<!ENTITY filterHTML.label "HTML документы">
-<!ENTITY filterImages.label "Изображения">
-<!ENTITY lastModifiedColumn.label "Последнее изменение">
-<!ENTITY reloadButton.tooltip "Обновить">
-<!ENTITY removeButton.tooltip "Удалить">
+<!ENTITY createDir.label "Новая поддиректория">
+<!ENTITY createdir.accesskey "н">
 <!ENTITY removeDir.label "Удалить директорию">
 <!ENTITY removedir.accesskey "д">
-<!ENTITY renameButton.tooltip "Переименовать файл или папку">
-<!ENTITY renameMenu.label "Переименовать">
-<!ENTITY sizeColumn.label "Размер">
+<!ENTITY reloadButton.tooltip "Обновить">
+<!ENTITY createDirButton.tooltip "Новая папка">
+<!ENTITY removeButton.tooltip "Удалить">
 <!ENTITY stopButton.tooltip "Стоп">
-<!ENTITY treeViewCheckbox.label "Дерево просмотра">
+<!ENTITY renameMenu.label "Переименовать">
+<!ENTITY renameButton.tooltip "Переименовать файл или папку">
+<!ENTITY filterControl.label "Просмотр">
+<!ENTITY localTab.label "Локальный">
+<!ENTITY remoteTab.label "Удалённый">
+<!ENTITY openItem.label "Открыть">
+<!ENTITY openAsText.label "Открыть как текст">
+<!ENTITY openRemote.label "Открыть удалённый каталог">
+<!ENTITY insertImage.label "Вставить изображение">
+<!ENTITY previewItem.label "Предпросмотр">
+<!ENTITY uploadItem.label "Загрузить...">
+<!ENTITY downloadItem.label "Восстановить...">
+<!ENTITY itemProperties.label "Настройки...">
