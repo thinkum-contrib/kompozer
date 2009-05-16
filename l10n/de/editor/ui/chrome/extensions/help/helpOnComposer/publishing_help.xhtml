@@ -5,941 +5,951 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Webseitenerstellung mit &brandShortName;</title>
+<title>Creating Web Pages with &brandShortName;</title>
 <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
+<script type="text/javascript">
+var isDisplayed = true;
 
-<h1 id="publishing_web_pages_with_nvu">Publizieren Ihrer Seite im Web</h1>
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
 
-<p>Wenn Ihre Webseite nur auf Ihrer lokalen Festplatte liegt, kann Sie von
-      niemandem au&#223;er Ihnen gelesen werden. &brandShortName; unterst&#252;tzt Sie beim
-      Publizieren (ver&#246;ffentlichen) Ihrer Seite auf einem sogenannten
-      Webserver.
-</p>
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
 
-<p>Wenn Sie Ihre Seite auf einem Webserver publizieren, kopiert &brandShortName;
-      Ihre Seiten auf einen Computer, auf dem auch andere Ihre Seiten ansehen
-      k&#246;nnen (sog. <q>Upload</q>). Um einen Webserver f&#252;r die Publikation
-      Ihrer Seiten zu finde, fragen Sie Ihren Internet Service Provider oder
-      Ihren Systemadministrator.
-</p>
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
+</table>
 
-<div id="contentsBox">In diesem Abschnitt:
- <ul>
-   <li><a href="#publishing_a_document">Ein Dokument publizieren</a></li>
-   <li><a href="#publishing_settings">Publizierungs Einstellungen</a></li>
-   <li><a href="#solving_common_publishing_problems">L&#246;sen allgemeiner
-          Probleme beim Publizieren</a></li>
- </ul>
- </div>
+<div id="contentsBox">In this section:
+ <a href="#publishing_a_document">Publishing a Document</a>
+ <a href="#publishing_settings">Publishing Settings</a>
+ <a href="#solving_common_publishing_problems">Solving Common Publishing Problems</a>
+</div>
 
-<h2 id="publishing_a_document">Ein Dokument publizieren</h2>
+<h1 id="publishing_web_pages_with_nvu">Publishing Web Pages with &brandShortName;</h1>
 
-<p>Um ein Dokument auf einem Webserver zu publizieren:</p>
+<p>If your pages exist only on your local hard disk, you can privately
+view your HTML pages. &brandShortName; lets you publish
+your pages to a remote computer called a web server.</p>
+
+<p>When you publish your pages to a web server, &brandShortName;
+copies (uploads) your pages to a computer that lets others browse your
+pages. Most ISPs provide space on their web servers for web page
+publishing. To find a web server where you can publish your pages, ask
+your ISP, help desk, or system administrator.</p>
+
+<h2 id="publishing_a_document">Publishing a Document</h2>
+
+<p>To publish a document:</p>
 
 <ol>
-  <li>&#246;ffnen Sie das HTML-Dokument, das Sie publizieren wollen, oder legen
-        Sie ein neues &brandShortName;-Dokument an.
-  </li>
+  <li>Open the HTML document that you want to publish, or create a new
+  &brandShortName; document.</li>
 
-  <li>Wenn Sie bereit sind dieses Dokument zu publizieren, klicken Sie auf
-        den <q>Publizieren</q>-Button in der Statusleiste. 
-  <p>Wenn Sie dieses Dokument bereits einmal publiziert haben, sind die
-          daf&#252;r notwendigen Einstellungen &brandShortName; bereits bekannt und
-          beginnt sofort mit dem Publizieren. W&#228;hrend dieses Prozesses wird
-          eine Status-Anzeige eingeblendet.
-  </p>
+  <li>When you're ready to publish the document remotely, click the
+  Publish button <img src="images/publish.png" width="26" height="26" alt="" />. 
+
+  <p>If you have published this document before, &brandShortName;
+  remembers the document's publishing settings and starts publishing the
+  document. While publishing is in progress, &brandShortName; displays a
+  publishing status dialog box.</p>
 
   <ul>
-    <li>Fall Sie noch keinen Publizierungsort f&#252;r dieses Dokument
-            festgelegt haben, fordert Sie &brandShortName; im Tab
-            <q>Einstellungen</q> im Dialog <q>Seite publizieren</q>
-            auf, die notwendigen Einstellungen vorzunehmen, siehe auch <a href=
-            "#publish_page_settings"><q>Seite publizieren -
-            Einstellungen</q></a>. Wenn Sie alle geforderten Einstellungen
-            gemacht haben klicken Sie auf <q>Publizieren</q>
-    </li>
+    <li>If you have never published this document before,
+    &brandShortName; displays the Settings tab
+    in the Publish Page dialog box so you can enter
+    information about the document's remote
+    publishing location. See <a
+    href="#publish_page_settings">Publish Page - Settings</a> for more
+    information. When you're done entering information, click
+    Publish.</li>
 
-    <li>Falls Sie das Dokument noch nicht gespeichert haben, zeigt Ihnen
-            &brandShortName; den Tab <q>Publizieren</q> des Dialogs
-            <q>Seite publizieren</q>, damit Sie einen Dateinamen eingeben
-            k&#246;nnen, siehe auch <a href="#publish_page_publish">Seite
-            publizieren - Publizieren</a>. Nachdem Sie einen Dateinamen
-            vergeben haben klicken Sie auf <q>Publizieren</q>
-    </li>
+    <li>If you have never saved the document, &brandShortName;
+    displays the Publish tab in the Publish
+    Page dialog box, so you can enter the document's
+    filename. See
+    <a href="#publish_page_publish">Publish Page - Publish</a>
+    for more information.
+    After entering the filename, click Publish.</li>
   </ul>
   </li>
   
-  <li>Um Ihre Seite anzusehen, klicken Sie auf den Vorschau Button in der
-        Symbolleiste. Testen Sie die Links auf der Seite und stellen Sie
-        sicher, da&#223; alle Bilder vorhanden sind.</li>
+  <li>To browse your published page, click the Browse button. Test the
+  page's links and make
+  sure there are no missing images.</li>
 
-  <li>Bearbeiten Sie die Seite je nach Bedarf weiter. Wenn Sie fertig sind,
-        klicken Sie auf den Button <q>Publizieren</q>.</li>
+  <li>Continue editing the page as necessary. When you're ready to
+  update the remote page
+  with your changes, click the Publish button.</li>
 </ol>
 
-<p>Wenn Sie das Dokument das erste mal publizieren, &#228;ndert &brandShortName; alle
-      <tt>file:///</tt>-Links zu <tt>http://</tt>-Links um anzuzeigen, da&#223; Sie
-      jetzt eine publizierte Seite bearbeiten. Wenn Sie das Dokument lokal
-      abspeichern wollen, klicken Sie auf den <q>Speichern</q>-Button. Nun
-      werden Sie nach einem Dateinamen und dem Speicherort des Dokuments
-      gefragt.
-</p>
+<p>When you publish a document for the first time, &brandShortName;
+changes the document's <tt>file:///</tt> URL to an <tt>http://</tt>
+URL to indicate that you are now editing the published document. If
+you want to save the document locally (on your computer's hard disk),
+click the Save button. You'll be prompted to choose a filename and
+location on your hard disk for the document.</p>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h3 id="avoiding_broken_links_or_images">Tipps, um kaputte Links und fehlende Bilder zu vermeiden</h3>
+<h3 id="avoiding_broken_links_or_images">Tips for Avoiding Broken
+Links or Missing Images</h3>
 
 <ul>
-  <li>&#252;berpr&#252;fen Sie, ob die Dateinamen &brandShortName;-Dateien die Erweiterung
-        <q>.html</q> besitzen &#252;berpr&#252;fen Sie, ob die Dateinamen der Bilder
-        die Dateiendungen .JPG, .GIF, oder .PNG besitzen. Vermeiden Sie
-        Leerzeichen sowie Sonderzeichen in den Dateinamen. Halten Sie
-        Dateinamen kurz und verwenden Sie nur Kleinbuchstaben und Zahlen.
-  </li>
+  <li>Make sure your &brandShortName; filenames end with the .html
+  or .htm file extension. Make sure your image filenames end with the
+  .JPG, .GIF, or .PNG file extension. Don't use spaces or other special
+  symbols in your filenames. Keep your filenames short and only use
+  lowercase or uppercase letters and numbers.</li>
 
-  <li>Falls Ihre Bilder beim Betrachten Ihrer Webseite als kaputte Links
-        erscheinen, &#246;ffnen Sie den Dialog <q>Bildeigenschaften</q> f&#252;r
-        jedes Bild (Doppelklick) und &#252;berpr&#252;fen Sie, ob Sie den
-        <q><tt>file:///</tt></q>-Teil der URL entfernt haben. Publizieren
-        Sie die Seite nach der Korrektur noch einmal.
-  </li>
+  <li>If your images appear as broken links when you browse a document
+  on the web server, you may have forgotten to include the images when
+  you published. Open the File menu, and choose Publish As to display
+  the Publish Page dialog box. In the Publish tab, make sure you check
+  "Include images and other files" and then click Publish.</li>
 </ul>
 
-<p>F&#252;r mehr Tipps zur Fehlerbeseitigung, sehen Sie unter <a href=
-      "#solving_common_publishing_problems"><q>L&#246;sen allgemeiner Probleme
-      beim Publizieren</q></a> nach.
-</p>
+<p>For more troubleshooting tips, see
+<a href="#solving_common_publishing_problems">Solving Common
+Publishing Problems</a>.</p>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h3 id="updating_a_published_document">Ein publiziertes Dokument aktualisieren</h3>
+<h3 id="updating_a_published_document">Updating a Published
+Document</h3>
 
-<p>Um ein bereits publiziertes Dokument zu aktualisieren, folgen Sie diesen
-      Anweisungen:</p>
+<p>To update a published document:</p>
 
 <ol>
-  <li>In einem &brandShortName;-Fenster &#246;ffnen Sie das <q>Datei</q>-Men&#252; und w&#228;hlen
-        das gew&#252;nschte Dokument aus der <q>Zuletzt benutzen</q>-Liste.
-   <p>Alternativ k&#246;nnen Sie auch in einem Browser-Fenster zur gew&#252;nschten
-          Seite surfen, indem Sie die Adresse der Seite im Adress-Feld
-          eingeben.
-   </p></li>
+  <li>In a &brandShortName; window, open the File menu, and choose
+  Recent Pages, then select the
+  document from the list. <p>Alternatively, browse to the location
+  of the document you
+  want to update by entering the document's HTTP address (the
+  document's web address)
+  in the Navigator browser's Location field.</p></li>
   
-  <li>W&#228;hlen Sie nun im <q>Datei</q>-Men&#252; den Punkt <q>Seite
-        bearbeiten</q>.</li>
+  <li>Open the File menu, and choose Edit Page.</li>
 
-  <li>Bearbeiten Sie das Dokument nach Ihren Vorstellungen.</li>
+  <li>Edit the document as necessary.</li>
 
-  <li>Sobald Sie bereit sind die bearbeitete Seite mit Ihren Modifikationen
-        upzudaten klicken Sie auf den <q>Publizieren</q>-Button in der
-        Symbolleiste.
-  </li>
+  <li>When you're ready to update the remote page with your changes,
+  click Publish in &brandShortName;'s toolbar.</li>
 </ol>
 
-<p id="deleting_a_published_page_or_image"><strong>Tipp</strong>: Um eine Seite oder ein Bild das Sie publiziert
-      haben umzubenennen oder zu löschen m&#252;ssen Sie ein FTP
-      (<strong>F</strong>ile-<strong>T</strong>ransfer-<strong>P</strong>rotokoll)
-      Programm benutzen. Falls Sie Unterverzeichnisse anlegen wollen, oder
-      Dateien umbenennen, m&#252;ssen Sie ebenfalls ein FTP-Programm benutzen.
-      Fragen Sie Ihren Internet-Provider, ob dieser ein spezielles FTP-Programm
-      empfiehlt. Informationen &#252;ber FTP-Programme finden Sie &#252;blicherweise auf
-      der <q>Hilfe und Support</q>-Sektion auf der Homepage Ihres
-      Internet-Providers. FTP-Programme k&#246;nnen auch von Shareware-Seiten wie
-      z.B. ZDNet heruntergeladen werden.</p>
+<p id="deleting_a_published_page_or_image"><strong>Tip</strong>: To
+delete a page or image you've published on a web server, you must use
+an FTP (File Transfer Protocol) program. You also must use an FTP
+program if you want to create subdirectories or to rename files on the
+web server. Ask your service provider if they recommend a particular
+FTP program. You can usually find information on FTP programs in the
+Help or Support sections of your service provider's web site. FTP
+programs are also available from shareware sites such as ZDNet
+Downloads.</p>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h3 id="changing_the_filename_or_publishing_location">Dateinamen oder die Publizierungs-Seite &#228;ndern</h3>
+<h3 id="changing_the_filename_or_publishing_location">Changing the
+Filename or Publishing Location</h3>
 
-<p>Um den Dateinamen eines Dokuments oder dessen Publikations-Seite zu
-      &#228;ndern gehen Sie wie folgt vor:</p>
+<p>To change a document's filename or publishing location:</p>
 
 <ol>
-  <li>In einem &brandShortName;-Fenster &#246;ffnen Sie das <q>Datei</q>-Men&#252; und w&#228;hlen
-        das gew&#252;nschte Dokument aus der <q>Zuletzt benutzen</q>-Liste.
-  <p>Alternativ k&#246;nnen Sie auch in einem Browser-Fenster zur gew&#252;nschten
-          Seite surfen, indem Sie die Adresse der Seite im Adress-Feld
-          eingeben.
-  </p></li>
+  <li>In a &brandShortName; window, open the File menu, and choose
+  Recent Pages, then select the
+  document from the list. <p>Alternatively, browse to the location
+  of the document you
+  want to update by entering the document's HTTP address (the
+  document's web address)
+  in the Navigator browser's Location field.</p></li>
   
-  <li>W&#228;hlen Sie nun im <q>Datei</q>-Men&#252; den Punkt <q>Seite
-        bearbeiten</q>.</li>
+  <li>Open the File menu, and choose Edit Page.</li>
   
-  <li>Bearbeiten Sie das Dokument nach Ihren Vorstellungen.</li>
+  <li>Edit the document as necessary.</li>
 
-  <li>W&#228;hlen Sie nun im <q>Datei</q>-Men&#252; den Punkt <q>Publizieren
-        als</q>. &brandShortName; wird nun das Publizierungs-Tab im
-        Publizierungs-Dialog anzeigen.
-  </li>
+  <li>Open &brandShortName;'s File menu and choose Publish
+  As. &brandShortName; displays the Publish tab
+  in the Publish Page dialog box.</li>
 
-  <li>Geben Sie den neuen Seiten-Titel ein, wenn Sie diesen &#228;ndern m&#246;chten.</li>
+  <li>Enter a different page title, if necessary.</li>
 
-  <li>Geben Sie den neuen Dateinamen ein, wenn Sie diesen &#228;ndern m&#246;chten.</li>
+  <li>Enter a different filename for the page, if necessary.</li>
 
-  <li>W&#228;hlen Sie den neuen Speicherort aus Liste der bekannten
-        Publizierungs-Ziele. Ist das gew&#252;nschte Ziel nicht in der Liste,
-        klicken Sie auf <q>Neue Seite</q>. Mehr Informationen dazu finden
-        Sie unter <a href="#publish_page_settings">Publizieren -
-        Einstellungen</a>.
-  </li>
+  <li>From the Site Name list, choose the publishing location you want
+  to use. To set up a new
+  publishing location, click New Site. See
+  <a href="#publish_page_settings">Publish Page - Settings</a>
+  for more information.</li>
 
-  <li>Klicken Sie auf den <q>Publizieren</q>-Button um das Dokument an
-        der neuen Stelle zu speichern.</li>
+  <li>Click Publish to save the document to the new location.</li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h3 id="creating_a_new_publishing_site">Eine neue Publizierungs-Site anlegen</h3>
+<h3 id="creating_a_new_publishing_site">Creating a New Publishing
+Site</h3>
 
-<p>Wenn Sie &#246;fter Dokumente an eine oder mehrere Adressen publizieren,
-      k&#246;nnen Sie die Publizierungseinstellungen von &brandShortName; speichern lassen,
-      so da&#223; Sie diese nicht jedesmal neu eingeben m&#252;ssen, wenn Sie eine Seite
-      publzieren wollen.
-</p>
+<p>If you plan to publish documents to more than one remote location,
+you can set up &brandShortName; to save the publishing information for
+each remote site you use, so that you don't have to enter it each time
+you want to publish.</p>
 
-<p>Um einen neue Publizierungs-Seite einzutragen, gehen Sie ausgehend wie folgt vor:
-</p>
+<p>To create a new publishing site, begin from a &brandShortName;
+window:</p>
 
 <ol>
-  <li>W&#228;hlen Sie im Men&#252; Bearbeiten den Punkt
-        <q>Publikations-Einstellungen</q>. &brandShortName; zeigt Ihnen nun
-        den <q>Publizierungs</q>/<q>Eigenschafts</q>-Dialog.
-  </li>
+  <li>Open the Edit menu and choose Publishing Site Settings.
+  &brandShortName; displays the Publish Settings dialog box.</li>
 
-  <li>Klicken Sie auf <q>Neue Seite</q>.</li>
+  <li>Click New Site.</li>
 
-  <li>Geben Sie den Seiten-Namen ein, den Sie dieser Adresse zuweisen
-        m&#246;chten.
+  <li>For "Site Name," enter the nickname by which you want to refer to
+  this publishing site.
 
-  <p>Wenn Sie z.B. auf der neuen Seite Dokumente bez&#252;glich eines Projekts
-          mit dem Titel <q>Meteor</q> ver&#246;ffentlichen, empfiehlt es sich
-          der Seite den Namen <q>Meteor</q> zu geben. Damit werden Sie
-          durch den Seiten-Titel and den Zweck der dort ver&#246;ffentlichten
-          Dokumente erinnert.</p> </li>
+  <p>For example, if you will use the new site to publish documents
+  related to the "Meteor" project, you might want to use the site name
+  "Meteor". Site names remind you about the types of documents you
+  publish at each site.</p> </li>
 
-  <li>Bei <q>Publikations-Adresse</q> geben Sie die komplette Adresse,
-        welche Sie von ihren Internet-Provider, System-Administrator oder
-        Web-Hoster bekommen haben. Diese Adresse mu&#223; mit <tt>ftp://</tt> oder
-        <tt>http://</tt> beginnen.
+  <li>For "Publishing address," enter the complete URL provided to you
+  by your ISP, system administrator, or web hosting service. This URL
+  must begin with either <tt>ftp://</tt> or <tt>http://</tt>.
 
-  <p>Die <q>Publikations-Adresse</q> bezeichnet den Platz, wo ihre
-          Dokumente ver&#246;ffentlicht (hochgeladen) werden. Wenn Sie sich nicht
-          sicher sind, fragen Sie ihren System-Administrator oder
-          Internet-Provider.</p> </li>
+  <p>The publishing address specifies the location where documents are
+  published (uploaded) at this site. If you are not sure what to enter,
+  ask your ISP or system administrator.</p> </li>
 
-  <li>Bei <q>HTTP-Adresse der Homepage</q> geben Sie die komplette
-        Adresse, welche Sie eingeben wenn Sie Ihre Seite im
-        Browser betrachten, ein. Verzichten Sie auf Dateinamen
-        oder Unterverzeichnisse als Teil der Adresse.
+  <li>For "HTTP address of your home page," enter the complete URL that
+  you would enter in the Navigator browser to view pages at this
+  site. Do not include a filename or subdirectory as part of the URL.
 
 
-  <p>Diese Adresse mu&#223; mit <tt>http://</tt> beginnen. In manchen F&#228;llen
-          ist diese Adresse mit der <q>Publikations-Adresse</q> identisch.
-          Wenn Sie sich nicht sicher sind, fragen Sie Ihren Internet-Provider
-          oder System-Administrator oder lassen Sie das Feld leer.</p> </li>
+  <p>This URL must always begin with <tt>http://</tt>. In some cases,
+  this URL is the same as the publishing address. If you are not sure
+  what to enter, ask your ISP or system administrator, or else leave it
+  blank.</p> </li>
 
-  <li>Im Feld <q>Benutzername</q> geben Sie den Usernamen ein, den Sie von
-        Ihrem Internet-Provider oder Webhoster bekommen haben.</li>
+  <li>For user name, enter the user name you use to log in to your ISP
+  or web hosting service.</li>
 
-  <li>Im Feld <q>Passwort</q> geben Sie das Kennwort zu dem zuvor
-        eingegebenen Benutzernamen ein.</li>
+  <li>For password, enter the password for your user name.</li>
 
-  <li>W&#228;hlen Sie <q>Passwort speichern</q> um das Passwort im
-        Passwort-Manager zu speichern, so da&#223; Sie es nicht jedesmal neu
-        eingeben m&#252;ssen, wenn Sie etwas zu dieser Adresse publizieren.</li>
+  <li>Select "Save Password" to save your password securely using
+  Password Manager so that you don't have to enter it each time you
+  publish pages at this site.</li>
 
-  <li>Klicken Sie auf OK.</li>
+  <li>Click OK.</li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h3 id="changing_the_default_publishing_site">Die Standard-Publizierungs-Site &#228;ndern</h3>
+<h3 id="changing_the_default_publishing_site">Changing the Default
+Publishing Site</h3>
 
-<p>Wenn Sie mehr als eine Publizierungs-Adresse angelegt haben, aber
-      haupts&#228;chlich eine Seite nutzen, k&#246;nnen Sie diese Seite als ihre
-      <q>Haupt-Publikations</q>-Adresse ausw&#228;hlen. &brandShortName; wird diese
-      Adresse dann f&#252;r alle Publikationen verwenden, es sei den Sie w&#228;hlen eine
-      andere Adresse aus.
-</p>
+<p>If you have set up more than one publishing site, but you typically
+use only one site for most of your publishing needs, you can designate
+the site you use most often as the default publishing
+site. &brandShortName; will use the default publishing site for all
+documents that you publish, unless you specifically choose an
+alternate site.</p>
 
-<p>Unabh&#228;ngig wie viele Seiten Sie verwenden, k&#246;nnen Sie immer zu anderen
-      Adressen publizieren in dem Sie aus dem <q>Datei</q>-Men&#252; den Punkt
-      <q>Publizieren als</q> verwenden. Mehr Informationen erhalten Sie
-      unter <a href="#changing_the_filename_or_publishing_location">Dateinamen
-      oder den Publizierungsort &#228;ndern</a>.
-</p>
+<p>Regardless of how many sites you've set up, you can always publish
+a document to a different site by choosing Publish As from
+&brandShortName;'s File menu. See <a
+href="#changing_the_filename_or_publishing_location">Changing the
+Filename or Publishing Location</a> for more information.</p>
 
-<p>Um die Standard-Publikations-Adresse zu &#228;ndern, folgen Sie diesen Punkten
-      ausgehend vom &brandShortName;-Fenster:
-</p>
+<p>To choose the default publishing site, begin from a
+&brandShortName; window:</p>
 
 <ol>
-  <li>W&#228;hlen Sie aus dem Men&#252; "Bearbeiten" den Punkt
-        <q>Publikations-Einstellungen</q>. &brandShortName; wird dann
-        den <q>Puplikations-Einstellungen</q>-Dialog anzeigen.
-    </li>
+  <li>Open the Edit menu, and choose Publishing Site Settings.
+  &brandShortName; displays the Publish Settings dialog box.</li>
 
-  <li>W&#228;hlen Sie die Seite, welche Ihre neue Standard-Adresse werden soll aus
-        der Liste.
+  <li>Select a publishing site from the list.
 
-  <p>Wenn Sie nur eine Publikations-Adresse besitzen, wird automatisch
-          diese als Standard-Publikations-Adresse gesetzt.</p> </li>
+  <p>If you only have one publishing site set up, &brandShortName; uses
+  that one as the default site.</p> </li>
 
-  <li>Klicken Sie auf <q>Als Standard ausw&#228;hlen</q>.</li>
+  <li>Click Set as Default.</li>
 
-<li>Klicken Sie auf OK um Ihre &#228;nderungen zu best&#228;tigen.</li> </ol>
+<li>Click OK to confirm your changes.</li> </ol>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h3 id="deleting_a_publishing_site">Eine Publizierungs-Site l&#246;schen</h3>
+<h3 id="deleting_a_publishing_site">Deleting a Publishing Site</h3>
 
-<p>L&#246;schen einer Publikations-Seite l&#246;scht alle dieser Publikations-Seite
-      zugeordneten Einstellungen in &brandShortName;. Wenn Sie sp&#228;ter erneut etwas zu
-      dieser Seite publizieren, m&#252;ssen Sie alle Einstellungen erneut eingeben.
-</p>
+<p>Deleting a publishing site removes the site's settings from
+&brandShortName;. If you later wish to publish to the site, you must
+re-enter the site's settings.</p>
 
-<p>Um Seiten-Eigenschaften zu l&#246;schen, folgen Sie diesen Punkten ausgehend
-      vom &brandShortName;-Fenster:
-</p>
+<p>To delete a publishing site's settings, begin from a
+&brandShortName; window:</p>
 
 <ol>
-  <li>W&#228;hlen Sie aus dem Men&#252; "Bearbeiten" den Punkt
-        <q>Publikations-Einstellungen</q>. &brandShortName; wird dann
-        den <q>Puplikations-Einstellungen</q>-Dialog anzeigen.
-  </li>
+  <li>Open the Edit menu, and choose Publishing Site
+  Settings. &brandShortName; displays the Publish
+  Settings dialog box.</li>
   
-  <li>W&#228;hlen Sie die Seite aus der Liste.</li>
+  <li>Select a publishing site from the list.</li>
   
-  <li>Klicken Sie auf <q>Seite l&#246;schen</q>.
-  <p>&brandShortName; l&#246;scht nur die Seiten-Einstellungen; die Seite selbst
-          bleibt unber&#252;hrt.</p></li>
+  <li>Click Remove Site.
+  <p>&brandShortName; only removes the site's settings; the remote
+  site itself is not
+  affected.</p></li>
 
-  <li>Klicken Sie auf OK um Ihre &#228;nderungen zu best&#228;tigen.</li>
+  <li>Click OK to confirm your changes.</li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#publishing_a_document">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_a_document">Return to beginning of
+section</a> ]</p>
 
-<h2 id="publishing_settings">Publizierungseinstellungen</h2>
+<h2 id="publishing_settings">Publishing Settings</h2>
 
-<p>In dieser Sektion werden die Publikations-Einstellungen von &brandShortName;
-      beschrieben. Informationen zu den Generellen &brandShortName;-Einstellungen und
-      den Einstellungen f&#252;r Neue Seiten finden Sie in der <a href=
-      "composer_help.xhtml#composer_preferences"><q>&brandShortName;-Einstellungen</q></a> Sektion.
-</p>
+<p>This section describes &brandShortName;'s publishing settings. For
+information on &brandShortName;'s general and new page settings, see
+<a href="composer_help.xhtml#composer_preferences">&brandShortName; Preferences</a>.</p>
 
-<h3 id="publish_page_publish">Seite Publizieren - Publizieren</h3>
+<h3 id="publish_page_publish">Publish Page - Publish</h3>
 
-<p>Das Publizieren-Tab im Dialog <q>Seite Publizieren</q> erm&#246;glicht es
-      Ihnen den Publikations-Ort des aktuellen Dokuments einzutragen. Diese
-      Einstellungen gelten nur f&#252;r das aktuelle Dokument.</p>
+<p>The Publish Page - Publish tab lets you specify where you want to
+publish a document. These settings apply to the current document.</p>
 
-<p>Wenn Sie das Publizieren-Tab noch nicht ge&#246;ffnet haben, folgen Sie dieser
-      Anleitung:</p>
+<p>If you are not already viewing the Publish Page - Publish tab,
+follow these steps:</p>
 
 <ol>
-  <li>W&#228;hlen Sie aus dem <q>Datei</q>-Men&#252; den Punkt <q>Publizieren
-        als</q>. Der Dialog <q>Seite Publizieren</q> wird angezeigt.</li>
+  <li>Open the File menu and choose Publish As. The Publish Page
+  dialog box appears.</li>
 
-  <li>Klicken Sie auf das Publizieren-Tab.</li>
+  <li>Click the Publish tab.</li>
 </ol>
 
-<ul> <li><strong>Seitenname:</strong> Liste aller eingetragenen
-        Publikations-Seiten, um die Auswahl des Publikations-Ortes zu
-        verienfachen. Um eine neue Publikations-Seite anzulegen klicken Sie auf
-        <q>Neue Seite hinzuf&#252;gen</q></li>
+<ul> <li><strong>Site Name:</strong> Lists all the publishing sites
+you've created, so you can choose the site that you want to publish
+to. To create a new site, click New Site.</li>
 
-<li><strong>Seitentitel:</strong> Titel der Seite wie er angezeigt wird,
-        wenn Sie die Seite im Browser anzeigen. Der Seitentitel
-        wird auch in der Lesezeichen-Liste angezeigt, wenn f&#252;r die Seite ein
-        Lesezeichen angelegt wird.</li>
+<li><strong>Page Title:</strong> Specifies the document's page title
+as it appears in the browser window's title bar when you view the page
+in the browser. The document's page title also appears in your list of
+bookmarks if you bookmark the page.</li>
 
-<li><strong>Dateiname:</strong> Geben Sie hier den Dateinamen des Dokuments
-        ein. Setellen Sie sicher, da&#223; es die Endung <q>.html</q> oder
-        <q>.htm</q> enth&#228;lt.</li>
+<li><strong>Filename:</strong> Specifies the document's filename. Make
+sure you include the .html or .htm extension in the filename.</li>
 
 <li style="list-style-type: none; list-style-position: outside;
-    list-style-image: none;"> <p><strong>Warnung</strong>: Sollte das zu publizierende Dokument am
-          Server bereits vorhanden sein wird es es automatisch mit der
-          aktuelleren Version &#252;berschrieben. Es wird keine Nachfrage zum
-          &#252;berschreiben angezeigt.</p> </li>
+    list-style-image: none;"> <p><strong>Warning</strong>: If a file on
+    the remote site you're publishing to has the same filename as one
+    you're uploading, the newly uploaded file will replace the existing
+one. You will not be asked to confirm the action.</p> </li>
 
-<li><strong>Unterverzeichnis f&#252;r diese Seite:</strong> Wenn Sie dieses Feld
-        leer lassen wird &brandShortName; das Dokument in das angegebene
-        Hauptverzeichnis publizieren. Wenn Sie das Dokument in ein
-        Unterverzeichnis publizieren m&#246;chten, geben Sie den gew&#252;nschten
-        Verzeichnisnamen ein oder w&#228;hlen Sie diesen aus der Liste. Die hier
-        eingegebenen Verzeichnisnamen werden von &brandShortName; gespeichert, so da&#223;
-        Sie bereits verwendete Verzeichnisnamen aus der Liste w&#228;hlen k&#246;nnen und
-        diese nicht erneut eingeben m&#252;ssen. Beachten Sie bei Verzeichnisnamen
-        Gro&#223;- und Kleinschreibung.
-        </li>
+<li><strong>Site subdirectory for this page:</strong> If you leave
+this blank, &brandShortName; publishes the page to the main (root)
+publishing directory at this site. If you want to publish the page to
+a remote subdirectory that resides underneath the main publishing
+directory at this site, enter the name of the subdirectory or choose
+it from the list. &brandShortName; keeps track of the locations you
+type here, so you can select from a list of remote locations you've
+previously used. Keep in mind that subdirectory names are
+case-sensitive.</li>
 
 <li style="list-style-type: none; list-style-position: outside;
-    list-style-image: none;"> <p><strong>Anmerkung:</strong> Das Unterverzeichnis, welches Sie
-          ausgew&#228;hlt haben, mu&#223; am Server bereits existieren.</p>
+    list-style-image: none;"> <p><strong>Note:</strong> The site
+    subdirectory you choose must already exist at the remote server.</p>
 </li>
 
-<li><strong>Bilder und sonstige Dateien einbinden</strong>: Wenn diese
-        Option aktiv ist, werden beim Publizieren alle Dateien auf welche das
-        aktuelle Dokument eine Referenz hat mit publiziert. Sie k&#246;nnen w&#228;hlen,
-        ob Sie diese Dateien im selben Verzeichnis wie das Dokument oder in ein
-        Unterverzeichnis publizieren m&#246;chten.</li>
+<li><strong>Include images and other files</strong>: If checked,
+&brandShortName; publishes any images and other files referenced by
+this page. You can choose to publish these files to the same location
+as the page, or else you can choose to publish these files into a
+remote subdirectory that exists underneath the main publishing
+directory.</li>
 </ul>
 
-<p><strong>Tipp</strong>: Benutzen Sie ein separates FTP-Programm, wenn Sie
-      Verzeichnisse erstellen, umbenennen oder l&#246;schen m&#246;chten oder nicht mehr
-      ben&#246;tigte Dateien entfernen m&#246;chten. Fragen Sie Ihren Internet-Provider,
-      ob dieser ein spezielles FTP-Programm empfiehlt. Informationen &#252;ber
-      FTP-Programme finden Sie &#252;blicherweise auf der <q>Hilfe und
-      Support</q>-Sektion auf der Homepage Ihres Internet-Providers.
-      FTP-Programme k&#246;nnen auch von Shareware-Seiten wie z.B. ZDNet
-      heruntergeladen werden.</p>
+<p><strong>Tip</strong>: To create remote subdirectories or delete
+published pages or images, you must use an FTP (File Transfer
+Protocol) program. Ask your service provider if they recommend a
+particular FTP program. You can usually find information on FTP
+programs in the Help or Support sections of your service provider's
+web site. FTP programs are also available from shareware sites such as
+ZDNet Downloads.</p>
 
 <p class="publishing_settings">[ <a
-href="#">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#">Return to beginning of
+section</a> ]</p>
 
-<h3 id="publish_page_settings">Seite publizieren - Einstellungen</h3>
+<h3 id="publish_page_settings">Publish Page - Settings</h3>
 
-<p>Das Tab <q>Einstellungen</q> im Seite Publizieren-Dialog erm&#246;glicht
-      es Ihnen Login-Informationen &#252;ber die Publikations-Seite und deren
-      Publikations-Einstellungen einzugeben. Diese Einstellungen beziehen sich
-      nur auf das aktuelle Dokument und andere Dokumente, die Sie auf dieser
-      Seite publizieren m&#246;chten.</p>
+<p>The Publish Page - Settings tab lets you specify your login
+information for the remote
+publishing site, as well as the publishing settings for the remote
+site. These settings
+apply to the current document and any other files you publish to
+this location.</p>
 
-<p>Wenn Sie das Einstellungen-Tab noch nicht ge&#246;ffnet haben, folgen Sie
-      dieser Anleitung:</p>
+<p>If you are not already viewing the Publish Page - Settings tab,
+follow these steps:</p>
 
 <ol>
-  <li>W&#228;hlen Sie aus dem <q>Datei</q>-Men&#252; den Punkt <q>Publizieren
-        als</q>. Der Dialog <q>Seite Publizieren</q> wird angezeigt.</li>
+  <li>Open the File menu and choose Publish As. The Publish Page
+  dialog box appears.</li>
 
-  <li>Klicken Sie auf das Einstellungen - Tab.</li>
+  <li>Click the Settings tab.</li>
 </ol>
 
 <ul>
-  <li><strong>Seitenname</strong>: Geben Sie den Seiten-Namen ein, den Sie
-        dieser Adresse zuweisen m&#246;chten. Dieser Name soll sp&#228;ter dazu dienen
-        diesen Publikations-Ort zu identifizieren.</li>
+  <li><strong>Site Name</strong>: Specifies the nickname you want to
+  use for this publishing site.
+  Enter a short name that will help you identify this publishing
+  site.</li>
 
-  <li id="host_name_for_publishingSDX"><strong>Publikations-Adresse</strong>: Bezeichnet die komplette
-        Adresse, welche Sie von ihren Internet-Provider, System-Administrator
-        oder Web-Hoster bekommen haben. Diese Adresse mu&#223; mit <tt>ftp://</tt>
-        oder <tt>http://</tt> beginnen.</li>
+  <li id="host_name_for_publishingSDX"><strong>Publishing
+  address</strong>: Specifies the complete
+  URL provided to you by your ISP or system administrator. This URL
+  should begin with
+  either <tt>ftp://</tt> or <tt>http://</tt>. This name is often
+  referred to as the "host name" or the "host server name".</li>
 
   <li style="list-style-type: none; list-style-position: outside;
       list-style-image: none;">
-    <p>Die <q>Publikations-Adresse</q> bezeichnet den Platz, wo ihre
-          Dokumente ver&#246;ffentlicht (hochgeladen) werden. Wenn Sie sich nicht
-          sicher sind, fragen Sie ihren System-Administrator oder
-          Internet-Provider.
+    <p>The publishing address specifies the location where documents
+    are published (uploaded)
+    at this site. If you are not sure what to enter, ask your
+    ISP or system administrator.
   </p></li>
 
-  <li><strong>HTTP-Adresse der Homepage</strong>: Bezeichnet die komplette
-        Adresse, welche Sie eingeben wenn Sie Ihre Seite im
-        Browser betrachten. Verzichten Sie auf Dateinamen oder
-        Unterverzeichnisse als Teil der Adresse.</li>
+  <li><strong>HTTP address of your home page</strong>: Specifies the
+  complete address of your publishing
+  home directory. This is the web address of the home page at your
+  web site. Do not include
+  a filename or subdirectory as part of the URL.</li>
 
   <li style="list-style-type: none; list-style-position: outside;
       list-style-image: none;">
-    <p>Diese Adresse mu&#223; mit <tt>http://</tt> beginnen. In manchen F&#228;llen
-          ist diese Adresse mit der <q>Publikations-Adresse</q> identisch.
-          Wenn Sie sich nicht sicher sind, fragen Sie Ihren Internet-Provider
-          oder System-Administrator oder lassen Sie das Feld leer.</p></li>
+    <p>This URL must always begin with <tt>http://</tt>. In some
+    cases, this URL is the same
+    as the publishing address. If you are not sure what to
+    enter, ask your ISP or system
+  administrator, or else leave it blank.</p></li>
 
-  <li><strong>Benutzername</strong>: Bezeichnet den Benutzernamen, den Sie eingeben
-        m&#252;ssen, wenn Sie sich bei dieser Publikations-Adresse anmelden.</li>
+  <li><strong>User name</strong>: Specifies the user name you use to
+  log into your ISP or network.</li>
 
-  <li><strong>Passwort</strong>: Bezeichnet das Passwort f&#252;r den oben
-        genannten Benutzernamen.</li>
+  <li><strong>Password</strong>: Specifies the password for your user
+  name.</li>
 
-  <li><strong>Passwort speichern</strong>: W&#228;hlen Sie diese Option um das
-        Passwort im Passwort-Manager zu speichern, so da&#223; Sie es nicht jedesmal
-        neu eingeben m&#252;ssen, wenn Sie etwas zu dieser Adresse publizieren
-        m&#246;chten.</li>
+  <li><strong>Save Password</strong>: Select this to encrypt and save
+  your password securely
+  using Password Manager so that you don't have to enter it each
+  time you publish pages at
+  this site.</li>
 </ul>
 
 <p class="returnToSection">[ <a
-href="#publishing_settings">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#publishing_settings">Return to beginning of
+section</a> ]</p>
 
-<h3 id="publish_settings">Publikations-Einstellungen</h3>
+<h3 id="publish_settings">Publish Settings</h3>
 
-<p>Der Publikations-Einstellungen Dialog erlaubt es Ihnen
-      Publikations-Seiten zu erstellen, editieren und zu diese zu l&#246;schen.
-      Weiters k&#246;nnen Sie aus diesen auch eine Standard-Publikations-Seite
-      w&#228;hlen.</p>
+<p>The Publish Settings dialog box lets you create, edit, and delete
+publishing site settings, and also lets you set the default publishing
+site.</p>
 
-<p>Wenn Sie den Publikations-Einstellungen Dialog noch nicht sehen, befolgen
-      Sie diese Anweisungen:</p>
+<p>If you are not already viewing the Publish Settings dialog box,
+follow these steps:</p>
 
 <ol>
-  <li>W&#228;hlen Sie <q>Publikations-Einstellungen</q> aus dem "Bearbeiten"-Men&#252;. 
-  &brandShortName; wird daraufhin den
-        <q>Publikations-Einstellungen</q> - Dialog anzeigen.
-  </li>
+  <li>Open the Edit menu and choose Publishing Site Settings.
+  &brandShortName; displays the Publish Settings dialog box.</li>
 </ol>
 
 <ul>
-  <li><strong>Neue Seite</strong>: Erlaubt es Ihnen eine neue
-        Publikations-Seite anzulegen. &brandShortName; wird den Namen der neuen
-        Publikations-Seite zu der Liste der verf&#252;gbaren Seiten hinzuf&#252;gen.</li>
+  <li><strong>New Site</strong>: Lets you specify settings for a
+  new publishing site. &brandShortName; adds the name of the new
+  publishing site to the list of available publishing sites.</li>
 
-  <li><strong>Als Standard ausw&#228;hlen</strong>: Markiert die gew&#228;hlte
-        Publikations-Seite zu Ihrer Haupt-Publikations-Seite. Dies ist
-        normalerweise jene Adresse zu der Sie am meisten Dokumente publizieren.
-        Alle Dokumente, welche Sie erstellen oder bearbeiten werden zu dieser
-        Adresse publiziert, es sei den Sie w&#228;hlen eine alternative
-        Publikationsseite im Publikations-Dialog.</li>
+  <li><strong>Set as Default</strong>: Sets the selected publishing site
+  as the default publishing site. Typically, the default publishing site
+  is the remote location that you most often use for publishing
+  documents. All documents you create or edit will be published to the
+  default publishing site, unless you specifically choose an alternate
+  site in the Publish Page dialog box.</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <p>Um eine alternative Publikations-Adresse zu w&#228;hlen, w&#228;hlen Sie aus
-          dem <q>Datei</q>-Men&#252; den Punkt <q>Publizieren als</q>.</p>
+      list-style-image: none;"> <p>To publish a document to a different
+      remote location, open the File menu and choose Publish As to choose a
+      different publishing destination.</p>
   </li>
 
-  <li><strong>Seite entfernen</strong>: Entfernt die ausgew&#228;hlte Seite und
-        deren Einstellungen aus &brandShortName;.</li>
+  <li><strong>Remove Site</strong>: Removes the selected site and its
+  settings from &brandShortName;.</li>
 
-  <li><strong>Seitenname</strong>: Geben Sie den Seiten-Namen ein, den Sie
-        dieser Adresse zuweisen m&#246;chten.</li>
+  <li><strong>Site Name</strong>: Specifies the name by which you want
+  to refer to this publishing site.</li>
 
-  <li><strong>Publikations-Adresse</strong>: Bezeichnet die komplette
-        Adresse, welche Sie von ihren Internet-Provider, System-Administrator
-        oder Web-Hoster bekommen haben. Diese Adresse mu&#223; mit <tt>ftp://</tt>
-        oder <tt>http://</tt> beginnen.</li>
+  <li><strong>Publishing address</strong>: Specifies the complete URL
+  provided to you by your ISP or system administrator. This URL should
+  begin with either <tt>ftp://</tt> or <tt>http://</tt>.</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <p>Die <q>Publikations-Adresse</q> bezeichnet den Platz, wo ihre
-          Dokumente ver&#246;ffentlicht (hochgeladen) werden. Wenn Sie sich nicht
-          sicher sind, fragen Sie ihren System-Administrator oder
-          Internet-Provider.</p>
+      list-style-image: none;"> <p>The publishing address specifies the
+      location where documents are published (uploaded) at this site. If you
+      are not sure what to enter, ask your ISP or system administrator.</p>
   </li>
 
-  <li><strong>HTTP-Adresse der Homepage</strong>: Bezeichnet die komplette
-        Adresse, welche Sie eingeben wenn Sie Ihre Seite im
-        Browser betrachten. Verzichten Sie auf Dateinamen oder
-        Unterverzeichnisse als Teil der Adresse.</li>
+  <li><strong>HTTP address of your homepage</strong>: Specifies the HTTP
+  address of your publishing home directory. Do not include a filename
+  or subdirectory as part of the URL.</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <p>Diese Adresse mu&#223; mit <tt>http://</tt> beginnen. In manchen F&#228;llen
-          ist diese Adresse mit der <q>Publikations-Adresse</q> identisch.
-          Wenn Sie sich nicht sicher sind, fragen Sie Ihren Internet-Provider
-          oder System-Administrator oder lassen Sie das Feld leer.</p> </li>
+      list-style-image: none;"> <p>This URL must always begin with
+      <tt>http://</tt>. In some cases, this URL is the same as the
+      publishing address. If you are not sure what to enter, ask your ISP or
+  system administrator, or else leave it blank.</p> </li>
 
-  <li><strong>Benutzername</strong>: Bezeichnet den Benutzernamen, den Sie eingeben
-        m&#252;ssen, wenn Sie sich bei dieser Publikations-Adresse anmelden.</li>
+  <li><strong>User name</strong>: Specifies the user name you use to log
+  in to your ISP or network.</li>
 
-  <li><strong>Passwort</strong>: Bezeichnet das Passwort f&#252;r den oben
-        genannten Benutzernamen.</li>
+  <li><strong>Password</strong>: Specifies the password for your user
+  name.</li>
 
-  <li><strong>Passwort speichern</strong>: W&#228;hlen Sie diese Option um das
-        Passwort im Passwort-Manager zu speichern, so da&#223; Sie es nicht jedesmal
-        neu eingeben m&#252;ssen, wenn Sie etwas zu dieser Adresse publizieren
-        m&#246;chten.</li>
+  <li><strong>Save Password</strong>: Select this to save your password
+  securely using Password Manager so you don't have to enter it each
+  time you publish pages at this site.</li>
 </ul>
 
-<p>[ <a href="#publishing_settings">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+<p>[ <a href="#publishing_settings">Return to beginning of section</a> ]</p>
 
 
-<h2 id="solving_common_publishing_problems">L&#246;sen allgemeiner Probleme beim Publizieren</h2>
+<h2 id="solving_common_publishing_problems">Solving Common Publishing
+Problems</h2>
 
-<p>Sollte das publizieren eines oder mehrer Dateien fehlschlagen, wird in
-      der Publikations-Status-Anzeige eine Fehlermeldung angezeigt, welche
-      Ihnen helfen kann, was der Fehler ist und wie Sie ihn geseitigen k&#246;nnen.
-      Klicken Sie auf den Button <q>Fehlerbehebung</q> in der
-      Publikations-Status-Anzeige um Hilfe beim Beheben Ihrer
-      Publikations-Fehler zu erhalten.</p>
+<p>If any of your files fails to publish, the Publishing Status
+dialog box displays an error message that can help you determine what
+went wrong and how to fix it. Click the Troubleshooting button in the
+Publishing Status dialog box to get help on solving your publishing
+problem.</p>
 
-<p>Sollte es Ihnen trotz allem nicht gelingen eine Datei zu publizieren,
-      speichern Sie die Datei auf Ihrer Festplatte, indem Sie aus dem
-      <q>Datei</q>-Men&#252; den Punkt <q>Speichern</q> in &brandShortName; w&#228;hlen. Sie
-      k&#246;nnen die Datei dann sp&#228;ter wieder &#246;ffnen und erneut versuchen, diese zu
-      Publizieren. Um die gespeicherte Datei sp&#228;ter schnell wiederzufinden,
-      &#246;ffnen Sie das <q>Datei</q>-Men&#252; von &brandShortName; und w&#228;hlen <q>Zuletzt
-      bearbeitete Seiten</q>.
-</p>
+<p>If you are still unable to publish a file, save the file to your
+hard disk by opening &brandShortName;'s File menu, and choosing
+Save. You can then open the file at a later time to try to publish
+it. To quickly locate the file later, open &brandShortName;'s File
+menu, and choose Recent Pages.</p>
 
-<h3 id="verifying_your_publishing_settings">&#252;berpr&#252;fen Ihrer Publikations-Einstellungen</h3>
+<h3 id="verifying_your_publishing_settings">Verifying Your Publishing
+Settings</h3>
 
-<p>Um Ihre Publikations-Einstellungen zu &#252;berpr&#252;fen:</p>
+<p>To verify your publishing settings:</p>
 
 <ol>
-  <li>Schließen Sie die Publikations-Status-Anzeige, sofern diese offen ist.</li>
+  <li>Close the Publishing Status dialog box, if it is open.</li>
 
-  <li>W&#228;hlen Sie im Men&#252; "Bearbeiten" den Punkt
-        <q>Publikations-Einstellungen</q>.</li>
+  <li>Open the Edit menu and choose Publishing Site Settings.</li>
 
-  <li>Es erscheint der Publikations-Einstellungs-Dialog. Stellen Sie dort
-        sicher, da&#223; ihre Einstellungen f&#252;r diese Seite korrekt sind. Wenn Sie
-        nicht sicher sind, &#252;berpr&#252;fen Sie es mit ihrem Internet-Provider oder
-        Web-Hoster.</li>
+  <li>In the Publish Settings dialog box, confirm that the site settings
+  are correct for the site you are trying to publish to. If you're not
+  sure, check with your ISP or web hosting service.</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <ul> <li><strong>Stellen Sie sicher, da&#223; Ihre Publikations-Einstellungen
-            korrekt sind.</strong> M&#246;glicherweise haben Sie eine der
-            Einstellungen falsch eingetippt.</li>
+      list-style-image: none;"> <ul> <li><strong>Verify that you correctly
+      entered the publishing settings.</strong> You may have accidentally
+      mistyped one of the settings.</li>
 
-      <li><strong>Stellen Sie sicher, da&#223; die Publikations-Adresse korrekt
-            ist.</strong> Internet-Provider oder Web-Hoster k&#246;nnen die
-            Publikations-Adresse auch auf ServerName, Hostname oder Server/Host
-            verweisen lassen. Sie benutzen oft Adressen wie
-            <tt>ftp.myisp.at/username</tt>, wobei <tt>username</tt> Ihrem
-            Usernamen entspricht.
+      <li><strong>Verify that you entered the correct publishing
+      address.</strong> Web hosting services or ISPs may refer to the
+      publishing address as the "server name", the "hostname", or the
+      "server/host". They often specify the publishing location as
+      <tt>ftp.myisp.com/username</tt>, where <tt>username</tt> is your user
+      name.
 
-      <p>Eine korrekte Publikations-Adresse mu&#223; entweder mit
-              <tt>ftp://</tt> oder <tt>http://</tt> beginnen. Die korrekte
-              Publikations-Adresse des oben erw&#228;hnten Beispiels w&#228;re demnach
-              <tt>ftp://ftp.myisp.at/username</tt>.</p> </li>
+      <p>For the publishing address to be correct, you must precede the
+      publishing location with either <tt>ftp://</tt> or
+      <tt>http://</tt>. For example, the correct publishing address for the
+      above-mentioned site would be
+      <tt>ftp://ftp.myisp.com/username</tt>.</p> </li>
       </ul>
   </li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#solving_common_publishing_problems">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#solving_common_publishing_problems">Return to beginning of
+section</a> ]</p>
 
-<h3 id="checking_your_filenames">&#252;berpr&#252;fen Ihrer Dateinamen</h3>
+<h3 id="checking_your_filenames">Checking Your Filenames</h3>
 
-<p>&#252;berpr&#252;fen Sie alle Dateinamen, welche bei der Publikation fehlgeschlagen
-      sind. Stellen Sie sicher, da&#223; folgende Punkte beachtet werden:</p>
+<p>Examine the names of any files that failed to publish. Make sure
+that the filenames:</p>
 
 <ul>
-  <li>Benutzen Sie nur Nummern, Klein- oder Gro&#223;buchstaben. Es ist zwar
-        erlaubt, Dateinamen mit Gro&#223;buchstaben zu erstellen, jedoch k&#246;nnen Sie
-        potentielle Fehler beim sp&#228;teren wiederfinden der publizierten Datei
-        vermeiden, wenn Sie nur kleinbuchstaben benutzen.
+  <li>Use only numbers or lowercase or uppercase letters. While
+  it's acceptable to create filenames that use uppercase letters, you
+  can avoid potential errors in later locating the published file if you
+  only use lowercase letters in your filenames.
 
-  <p>Wenn Sie Dateien auf einem Webserver ver&#246;ffentlichen, unterscheidet
-          dieser meist zwischen Gro&#223;- und Kleinbuchstaben. Dies kann sp&#228;ter zum
-          Problem f&#252;hren, da&#223; Sie sich nicht and Dateinamen mit nur
-          Gro&#223;buchstaben oder einem Mix aus Gro&#223;- und Kleinbuchstaben erinnern
-          k&#246;nnen.</p>
+  <p>When you publish files to a web server, filenames become
+  case-sensitive on the web server. It may be harder for you to remember
+  files names that use only uppercase letters or that use a mix of
+  uppercase and lowercase letters.</p>
 
-  <p>Wenn Sie z.B. versuchen, eine publizierte Datei im
-          Browser zu besuchen, indem Sie die Adresse im
-          Adress-Feld eingeben, m&#252;ssen Sie den Dateinamen exakt gleich
-          eingeben, wie Sie ihn urspr&#252;nglich angelegt haben, in der selben
-          Gro&#223;- und Kleinbuchstaben-Kombination.</p> </li>
+  <p>For example, when you try to locate a published file by typing the
+  filename's web address into Navigator's Location field, you must enter
+  the filename exactly as you created it, using the same combination of
+  uppercase and lowercase letters.</p> </li>
 
-  <li>Nutzen Sie keine Punkte oder Leerzeichen. Unterstriche ( _ ) und
-        Bindestriche ( - ) sind in Ordnung. Auch auf Umlaute wie &#228;,&#246; oder
-        &#223; sollten Sie verzichten.</li>
+  <li>Don't use punctuation characters or spaces. Underscores ( _ ) or
+  hyphens ( - ) are OK.</li>
 
-  <li>Stellen Sie sicher, da&#223; alle &brandShortName;-Dateien die Dateierweiterung
-        .html oder .htm haben.
-  </li>
+  <li>End with .html or .htm (for &brandShortName; filenames).</li>
 
-  <li>Benutzen Sie nur Dateinamen mit maximal 32 Zeichen.</li>
+  <li>Use less than 32 characters.</li>
 </ul>
 
 <p class="returnToSection">[ <a
-href="#solving_common_publishing_problems">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#solving_common_publishing_problems">Return to beginning of
+section</a> ]</p>
 
-<h3 id="fixing_publishing_errors">Beheben von Publikations-Fehlern</h3>
+<h3 id="fixing_publishing_errors">Fixing Publishing Errors</h3>
 
-<p>Sollte das publizieren einer oder mehrer Dateien fehlschlagen, wird in
-      der Publikations-Status-Anzeige eine Fehlermeldung angezeigt, welche
-      Ihnen helfen kann, was der Fehler ist und wie Sie ihn beseitigen k&#246;nnen.
-      Klicken Sie auf den Button <q>Fehlerbehebung</q> in der
-      Publikations-Status-Anzeige um Hilfe beim Beheben Ihrer
-      Publikations-Fehler zu erhalten.
-</p>
+<p>If one or more of your files fails to publish, look at the messages
+&brandShortName; displays in the Publishing Status area of the
+Publishing dialog box. You can use these error messages to help
+determine what went wrong and what to do to fix the problem.</p>
 
-<div class="errorMessage"> <p id="file_not_found"><strong>Fehlermeldungen:</strong></p>
+<div class="errorMessage"> <p id="file_not_found"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-  <tt><var>Dateiname</var> nicht gefunden</tt>
+<div class="errorBox">
+  <tt><var>Filename</var> not found</tt>
   <p>or</p>
-<tt><var>X</var> von <var>Y</var> Dateien
-        konnten nicht publiziert werden</tt> </div>
+<tt><var>X</var> of <var>Y</var> files failed to publish</tt> </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Eine oder mehrer Bild-Dateien oder
-        CSS-Dateien konnten nicht publiziert werden, da &brandShortName; diese
-        nicht finden konnte. Typische Gr&#252;nde sind:</p>
+<p><strong>Error Description:</strong> One or more image files or CSS
+files failed to
+publish because &brandShortName; could not find them. Some typical
+reasons might be:</p>
 
 <ul>
-  <li>Der eingegebene Dateipfad ist falsch.</li>
+  <li>The file location you typed is incorrect.</li>
   
-  <li>Der Speicherplatz der Datei im Internet ist nicht erreichbar.</li>
+  <li>The file's location on the web is not accessible.</li>
 
-  <li>Der Dateipfad hat sich ge&#228;ndert, die Datei wurde gel&#246;scht oder
-          verschoben.</li>
+  <li>The file's location was changed or the file was deleted or moved
+  to another
+  location.</li>
 </ul>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>&#252;berpr&#252;fen Sie die zu publizierende Seite nach ung&#252;ltigen
-          Bilddateien. Ung&#252;ltige Bilddateien werden mit diesem Symbol <img src=
-          "images/broken.gif" width="20" height="20" alt="" /> auf der Seite
-          dargestellt. Um die Adresse der Datei zu korrigieren, doppelklicken
-          Sie auf die ung&#252;ltige Bilddatei um den
-          <q>Datei</q>/<q>Eigenschafts</q>-Dialog anzuzeigen. Dort k&#246;nnen
-          Sie dann die Adresse der Bilddatei korrigieren.
-  </li>
+  <li>Look for broken images in the page you are trying to
+  publish. Broken images will
+  appear with this icon <img src="images/broken.gif" width="20"
+  height="20" alt="" />
+  in the page. To correct the image's address, double-click the
+  broken image to
+  display the Image Properties dialog box so you can enter the
+  correct address.</li>
 
-  <li>Entfernen Sie das ung&#252;ltige Bild von der Seite, indem Sie das
-          ung&#252;ltige Bild ausw&#228;hlen (einmal draufklicken) und anschließend die
-          "Entf"-Taste oder die "R&#252;ckstell"-Taste bet&#228;tigen.
-  </li>
+  <li>Remove the broken image from the page by selecting it (click
+  once on the image),
+  and then pressing Backspace or Delete on your keyboard.</li>
 
-  <li>Wenn das Bild nicht verf&#252;gbar ist, weil der Server auf dem sich das
-          Bild befindet, nicht erreichbar ist, versuchen Sie einige Zeit sp&#228;ter
-          nochmal zu publizieren.</li>
+  <li>If the image is unavailable because the server where the image
+  resides is
+  inaccessible, try publishing the page at a later time.</li>
 
-  <li>Wenn es sich bei der fehlenden Datei um eine CSS-Datei handelt,
-          &#252;berpr&#252;fen Sie, ob die Pfadangabe zu dieser CSS-Datei korrekt ist. Um
-          die Pfadangabe zur CSS-Datei in &brandShortName; zu korrigieren, klicken Sie
-          auf das <q>HTML-Quelltext</q>-Tab und bearbeiten die Pfadangabe im
-          HTML-Quellcode. Sie sollten den HTML-Quellcode nur dann bearbeiten,
-          wenn Sie mit den HTML-Tags vertraut sind.
-  </li>
+  <li>If the missing file is a CSS file, you must first verify the
+  correct location of
+  the CSS file. To fix the file's address in &brandShortName;, click
+  the HTML Source tab and
+  edit the file's location in the HTML source code. You should
+  only edit the HTML source
+  if you are familiar with HTML tags.</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="subdir_not_found"><strong>Fehlermeldung:</strong></p>
+<div class="errorMessage"> <p id="subdir_not_found"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-  <tt>Das Unterverzeichnis <var>Verzeichnisname</var> existiert nicht auf
-        dieser Seite oder der Dateiname <var>Dateiname</var> ist bereits von
-        einem Underverzeichnis verwendet</tt>
-  <p>oder</p>
-  <tt>Der Dateiname <var>Dateiname</var> wird bereits von einem
-        Unterverzeichnis verwendet</tt> </div>
+<div class="errorBox">
+  <tt>The subdirectory <var>directory name</var> doesn't exist on this
+  site or the filename
+  <var>filename</var> is already in use by another subdirectory</tt>
+  <p>or</p>
+  <tt>The filename <var>filename</var> is already in use by another
+subdirectory</tt> </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Sie haben ein Unterverzeichnis
-        angegeben, das auf der Publikations-Seite nicht existiert. &brandShortName;
-        kann nur in Verzeichnisse publizieren welche bereits existieren. Oder
-        Sie haben einen Dateinamen angegeben, der identisch mit dem Namen eines
-        bereits vorhandenen Unterverzeichnis.</p>
+<p><strong>Error Description:</strong> You specified the name of a
+remote subdirectory that
+does not exist at the publishing site. &brandShortName; can only
+publish to a remote subdirectory
+that already exists at the publishing location. Or, you specified a
+filename that is
+identical to the name of an existing subdirectory at the publishing
+site.</p>
 
-<p>Beispielsweise im <q>Publizieren</q>-Tab des <q>Seite
-        publizieren</q>-Dialogs:</p>
+<p>For example, in the Publish Page dialog box, under the Publish
+tab:</p>
 
 <ul>
-  <li>Wurde im Feld <q>Unterverzeichnis f&#252;r diese Seite</q> ein
-          Unterverzeichnis angegeben, welches im Publikations-Verzeichnis nicht
-          existiert.</li>
+  <li>for "Site subdirectory for this page", you may have typed the
+  name of a subdirectory
+  that does not exist at the publishing location.</li>
 
-  <li>Wurde die Option <q>Bilder und sonstige Dateien einbinden</q>
-          aktiviert und ein Verzeichnis angegeben wurde, das im
-          Publikations-Verzeichnis nicht existiert.</li>
+  <li>you checked "Include images and other files," and then you typed
+  the name of a
+  subdirectory that does not exist at the publishing location.</li>
 
-  <li>eine der Dateien, welche Sie publizieren m&#246;chten hat den selben Namen
-          wie ein Unterverzeichnis im Publikations-Verzeichnis.</li>
+  <li>one of the files you are attempting to publish has the same name
+  as a subdirectory at
+  the publishing site.</li>
 </ul>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>Benutzen Sie ein separates FTP-Programm, wenn Sie Verzeichnisse
-          erstellen, umbenennen oder l&#246;schen m&#246;chten. Fragen Sie Ihren
-          Internet-Provider, ob dieser ein spezielles FTP-Programm empfiehlt.
-          Informationen &#252;ber FTP-Programme finden Sie &#252;blicherweise auf der
-          <q>Hilfe und Support</q>-Sektion auf der Homepage Ihres
-          Internet-Providers. FTP-Programme k&#246;nnen auch von Shareware-Seiten
-          wie z.B. ZDNet heruntergeladen werden.</li>
+  <li>Use a separate FTP program if you want to create, rename, or
+  delete subdirectories at
+  the publishing site. Ask your service provider if they recommend a
+  particular FTP
+  program. You can usually find information on FTP programs in
+  the Help or Support
+  sections of your service provider's web site. FTP programs are
+  also available from
+  shareware sites such as ZDNet Downloads.</li>
 
-  <li>Benutzen Sie keine Verzeichnis-Namen mit den Endungen
-          <q>.html</q> oder <q>.htm</q>. Nur ihre &brandShortName;-Dateien
-          sollten die Endung <q>.html</q> oder <q>.htm</q> tragen.
-  </li>
+  <li>Don't use subdirectory names that end with ".html" or
+  ".htm". Only your &brandShortName;
+  filenames should end with ".html" or ".htm".</li>
 
-  <li>Beachten Sie die Schreibweise der Verzeichnisnamen. Sie m&#252;ssen exakt
-          die selbe Schreibweise benutzen mit, welches Sie es erstellen haben.</li>
+  <li>Subdirectory names are case-sensitive, so be sure to enter a
+  subdirectory name exactly as it appears at the publishing location.</li>
 </ul>
 </div>
 
-<div class="errorMessage"> <p id="server_not_found"><strong>Fehlermeldung:</strong></p>
+<div class="errorMessage"> <p id="server_not_found"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-  <tt>Der Server ist nicht erreichbar. &#252;berpr&#252;fen Sie Ihre
-        Internetverbindung und versuchen Sie es nochmal.</tt> </div>
+<div class="errorBox">
+  <tt>The server is not available. Check your connection and try again
+later.</tt> </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Dieser Fehler kann viele Ursachen
-        haben. Zum Beispiel:</p>
+<p><strong>Error Description:</strong> This error can have many
+causes. For example:</p>
 
 <ul>
-  <li>Ihre <q>Publikations-Seiten</q>-Einstellungen sind nicht
-          korrekt.</li>
+  <li>Your publishing site settings may not be correct.</li>
 
-  <li>Ihre Internet-Verbindung wurde unterbrochen.</li>
+  <li>Your Internet connection may have been lost.</li>
 
-  <li>Ihr Modem oder Ihr Ger&#228;t, welches Sie zum Verbinden ins
-          Internet verwenden, funktioniert nicht korrekt.</li>
+  <li>Your modem or other equipment that you use to connect to the
+  Internet might not be
+  functioning correctly.</li>
 
-  <li>Der Webserver auf welchem Sie versuchen das Dokument zu publizieren
-          versuchen ist momentan wegen technischer Probleme oder sonstigen
-          unbekannten Ursachen nicht verf&#252;gbar.</li>
+  <li>The web server that you are trying to publish to might be
+  unavailable due to a
+  technical problem or to an unknown circumstance.</li>
 
-  <li>Ihr Internet-Provider oder Webhoster hat technische Probleme.</li>
+  <li>Your ISP or web hosting service may be experiencing technical
+  problems.</li>
 </ul>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>Stellen Sie sicher, da&#223; Ihre Publikations-Einstellungen korrekt sind
-          und diese korrekt eingetragen sind. Mehr Informationen finden finden
-          Sie unter <a href="#verifying_your_publishing_settings">&#252;berpr&#252;fen
-          Ihrer Publikations-Einstellungen</a>.
-  </li>
+  <li>Verify that your publishing settings are correct and that you
+  entered them correctly.
+  See <a href="#verifying_your_publishing_settings">Verifying Your
+  Publishing Settings</a>
+  for more information.</li>
 
-  <li>Stellen Sie sicher, da&#223; Ihre Internet-Verbindung funktioniert, indem
-          Sie eine Internet-Seite im Browser-Fenster laden.&#252;berpr&#252;fen Sie zum
-          Beispiel, da&#223; Sie die Seite <tt>http://www.mozilla.org/</tt> anzeigen
-          k&#246;nnen.</li>
+  <li>Make sure your Internet connection is working by attempting to
+  view a web page using
+  the Navigator browser. For example, confirm that you can
+  successfully view the page
+  <tt>http://www.mozilla.org</tt>.</li>
 
-  <li>Sollte Ihre Internet-Verbindung nicht funktionieren, &#252;berpr&#252;fen Sie,
-          da&#223; alle Hardware, Telefon-Verbindungen, Modems und
-          Netzwerk-Verbindungen voll funktionst&#252;chtig sind.</li>
+  <li>If your Internet connection is not working, verify that all
+  hardware, telephone
+  connections, modems, and network connections are functioning
+  properly.</li>
 
-  <li>Benutzen Sie ein Browser-Fenster um die Publikations-Seite
-          aufzurufen. Sollten Sie in der Lage sein andere Seiten anzuzeigen,
-          diese jedoch nicht, hat ihr Internet-Provider oder Webhoster
-          technische Probleme.</li>
+  <li>Use the Navigator browser to try to view a page at the web site
+  you are attempting
+  to publish to. If you can successfully view other web sites but
+  cannot view a page at
+  the publishing site, your ISP or web hosting service may be
+  experiencing technical
+  problems.</li>
 
-  <li>Versuchen Sie sp&#228;ter nochmal zu publizieren. Ihr Internet-Provider,
-          Webhoster oder Webserver hat m&#246;glicherweise technische Probleme.</li>
+  <li>Try publishing again later. Your ISP, web hosting service, or the
+  web server may be
+  experiencing temporary technical difficulties.</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="no_permission"><strong>Fehlermeldung:</strong></p>
+<div class="errorMessage"> <p id="no_permission"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-  <tt>Sie haben nicht die erforderlichen Rechte um in diesem Verzeichnis
-        zu publizieren.</tt>
+<div class="errorBox">
+  <tt>You do not have permission to publish to this location.</tt>
 </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Sie versuchen in ein Verzeichnis
-        zu publizieren, auf welches Sie keine Schreibrechte besitzen. Sie
-        k&#246;nnen nur in Verzeichnisse publizieren, auf welche Sie von Ihrem
-        Internet-Provider oder Webhoster die erforderlichen Rechte bekommen
-        haben.</p>
+<p><strong>Error Description:</strong> You are attempting to publish
+to a location that
+you are not authorized to use. You can only publish to sites where
+you have been granted
+access by your ISP or web hosting service.</p>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>Stellen Sie sicher, da&#223; Sie den korrekten Benutzernamen und Passwort in
-          dem <q>Publikations-Seiten</q>-Einstellungen, oder im
-          <q>Publikations</q>-Tab des Publikations-Dialogs eingegeben
-          haben.</li>
+  <li>Verify that you entered the correct user name and password in
+  the Publishing Site
+  Settings dialog box, or in the Publish tab of the Publish dialog
+  box.</li>
 
-  <li>Kontaktieren Sie Ihren Internet-Provider oder Webhoster um
-          herauszufinden wo Sie Ihre Dokumente publizieren k&#246;nnen.</li>
+  <li>Contact your ISP to find out where you can publish your pages at
+  their site.</li>
 
-  <li>Finden Sie einen Webhoster, bei dem Sie Ihre Seiten publizieren
-          k&#246;nnen. Im Browser-Fenster suchen Sie nach <q>web hosting</q>.</li>
+  <li>Find a web hosting service that you can use to publish your
+  pages. In the Navigator
+  browser, search for "web hosting".</li>
 
-  <li>Benutzen Sie <q>Netscape My Webpage</q> <a href=
-          "http://mywebpage.netscape.com/" target=
-          "_blank"><tt>http://mywebpage.netscape.com/</tt></a> um Ihre
-          Webseiten zu hosten, Sie haben dort kostenlos 20 Megabyte zur
-          Verf&#252;gung.</li>
+  <li>Use &brandShortName; My Webpage
+  <a href="http://mywebpage.netscape.com/"
+  target="_blank"><tt>http://mywebpage.netscape.com/</tt></a>
+  to host your web pages, up to 20 megabytes for free.</li>
 </ul>
 </div>
 
-<div class="errorMessage"> <p id="offline_error"><strong>Fehlermeldung:</strong></p>
+<div class="errorMessage"> <p id="offline_error"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-  <tt>Sie befinden sich derzeit im Offline-Modus. Klicken Sie auf das
-        Symbol in der rechten unteren Ecke in irgendeinem &brandShortName;-Fenster um in
-        den Online-Modus zu wechseln.</tt> </div>
+<div class="errorBox">
+  <tt>You are currently offline. Click the icon near the lower-right
+  corner of any
+window to go online.</tt> </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Sie versuchen ein Dokument zu
-        publizieren, aber &brandShortName; befindet sich im
-        <q>Offline</q>-Modus. Sie m&#252;ssen in dem <q>Online</q>-Modus
-        wechseln um Ihr Dokument publizieren zu k&#246;nnen.</p>
+<p><strong>Error Description:</strong> You are attempting to publish,
+but your &brandShortName;
+Internet connection is currently in the "offline" state. Your
+Internet connection must
+be in the "online" state (connected to the Internet) in order to
+publish your pages.</p>
 
-<p>Vergewissern Sie sich, da&#223; Sie im <q>Online</q>-Modus sind, indem
-        Sie das Online/Offline-Symbol in der rechten unteren Ecke jedes
-        &brandShortName;-Fensters beachten. Wenn Sie sich im Offline-Modus befinden,
-        sieht das das Symbol so aus<img src="images/offline.png" width="32"
-        height="21" alt="" />.
-</p>
+<p>Verify that your Internet connection is currently offline by
+looking at the online/offline
+icon in the lower right corner of any &brandShortName; window. If
+you are currently offline, the
+icon appears as <img src="images/offline.gif" width="32" height="21"
+alt="" />.</p>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>Klicken Sie auf das Online/Offline-Symbol um in den Online-Modus zu
-          wechseln. Im Online-Modus sieht das Symbol so aus<img src=
-          "images/online.png" width="32" height="20" alt="" />.</li>
+  <li>Click the online/offline icon to go online. In the online state,
+  the icon should look
+  like this: <img src="images/online.gif" width="32" height="20"
+  alt="" />.</li>
 
-  <li>Stellen Sie sicher, da&#223; Ihre Internet-Verbindung funktioniert, indem
-          Sie eine Internet-Seite im Browser-Fenster laden. &#252;berpr&#252;fen Sie
-          zum Beispiel, da&#223; Sie die Seite <tt>http://www.mozilla.org/</tt>
-          anzeigen k&#246;nnen.</li>
+  <li>Make sure your Internet connection is working by attempting to
+  view a web page using
+  the Navigator browser. For example, confirm that you can
+  successfully view the page
+  <tt>http://www.mozilla.org</tt>.</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="no_disk_space"><strong>Fehlermeldung:</strong></p>
+<div class="errorMessage"> <p id="no_disk_space"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-  <tt>Es ist nicht mehr gen&#252;gend Speicherplatz verf&#252;gbar um die Datei
-<var>Dateiname</var> zu speichern.</tt> </div>
+<div class="errorBox">
+  <tt>There is not enough disk space available to save the file
+<var>filename</var>.</tt> </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Am Webserver ist kein weiterer
-        Speicherplatz frei, oder Sie haben die Ihnen zugeteilte
-        Speicherkapazit&#228;t erreicht.</p>
+<p><strong>Error Description:</strong> The remote web server's hard
+disk is full, or you
+may have exceeded the amount of disk space allocated to you by your
+ISP or web hosting
+service.</p>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>Benutzen Sie ein separates FTP-Programm um nicht mehr ben&#246;tigte
-          Dateien vom Server zu l&#246;schen. Fragen Sie Ihren Internet-Provider, ob
-          dieser ein spezielles FTP-Programm empfiehlt. Informationen &#252;ber
-          FTP-Programme finden Sie &#252;blicherweise auf der <q>Hilfe und
-          Support</q>-Sektion auf der Homepage Ihres Internet-Providers.
-          FTP-Programme k&#246;nnen auch von Shareware-Seiten wie z.B. ZDNet
-          heruntergeladen werden.</li>
+  <li>Use a separate FTP program to delete unnecessary files at your
+  publishing site. Ask
+  your service provider if they recommend a particular FTP
+  program. You can usually find
+  information on FTP programs in the Help or Support sections of
+  your service provider's
+  web site. FTP programs are also available from shareware sites
+  such as ZDNet
+  Downloads.</li>
 
-  <li>Finden Sie heraus, wie viel Speicherplatz Ihnen von von Ihrem
-          Internet-Provider oder Webhoster zugeteilt worden ist und wie Sie
-          diesen vergr&#246;&#223;ern k&#246;nnen oder wechseln Sie zu einem anderen Anbieter,
-          der Ihren Anspr&#252;chen gen&#252;gt.</li>
+  <li>Find out from your ISP or web hosting service about increasing
+  your disk space
+  allocation, or switch to a different service that can satisfy your
+  needs.</li>
 
-  <li>Sollte der Webserver Ihrer Firma oder Schule geh&#246;ren, kontaktieren
-          Sie den Netzwerk-Administrator um herauszufinden, ob Sie Ihre Seite
-          an einem anderen Ort speichern k&#246;nnen, welcher mehr Speicherplatz
-          bietet, oder ob Sie zus&#228;tzlichen Speicherplatz bekommen k&#246;nnen.</li>
+  <li>If the web server is located at your company or school, contact
+  the network
+  administrator to find out if you can publish to a different
+  location that has more disk
+  space, or if you can request that additional disk space be
+  allocated to your current
+  publishing location.</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="name_too_long"><strong>Fehlermeldung:</strong></p>
+<div class="errorMessage"> <p id="name_too_long"><strong>Error
+Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
-<tt>Der Dateiname oder der Verzeichnisname ist zu lang.</tt> </div>
+<div class="errorBox">
+<tt>The filename or subdirectory name is too long.</tt> </div>
 
-<p><strong>Fehlerbeschreibung:</strong> Die derzeitige L&#228;nge des
-        Dateinamen oder Verzeichnisnamen wird vom Webserver nicht unterst&#252;tzt.</p>
+<p><strong>Error Description:</strong> The number of characters in the
+filename or the
+subdirectory name is not supported by the web server computer that
+you are trying to
+publish to.</p>
 
-<p><strong>L&#246;sungsvorschl&#228;ge:</strong></p>
+<p><strong>Possible Solutions:</strong></p>
 
 <ul>
-  <li>Stellen Sie sicher, da&#223; der Dateiname oder der Verzeichnisname nicht
-          l&#228;nger aus 32 Zeichen ist. Manche Betriebsystem unterst&#252;tzen keine
-          Namen mit mehr als 32 Zeichen.</li>
+  <li>Limit the length of your filenames and subdirectory names to
+  less than 32 characters.
+  Some operating systems do not support names longer than 32
+  characters.</li>
 </ul> </div>
 
 <p class="returnToSection">[ <a
-href="#solving_common_publishing_problems">Zur&#252;ck zum Beginn des
-      Abschnitts</a> ]</p>
+href="#solving_common_publishing_problems">Return to beginning of
+section</a> ]</p>
 
+<div class="copyrightBox"><em>21 March 2005</em></div>
 
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
+Help Documentation Project.</p>
 
 </body>
 </html>

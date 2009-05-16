@@ -63,4 +63,17 @@
 <!ENTITY renameButton.tooltip     "Datei oder Verzeichnis umbenennen">
 
 <!ENTITY filterControl.label      "Ansicht:">
+<!ENTITY filterCSS.label	"">
+<!ENTITY filterMedia.label	"">
+<!ENTITY filterScripts.label	"">
+<!ENTITY localTab.label	"">
+<!ENTITY     remoteTab.label	"">
+<!ENTITY     openItem.label	"">
+<!ENTITY     openAsText.label	"">
+<!ENTITY     openRemote.label	"">
+<!ENTITY     insertImage.label	"">
+<!ENTITY     previewItem.label	"">
+<!ENTITY     uploadItem.label	"">
+<!ENTITY     downloadItem.label	"">
+<!ENTITY     itemProperties.label	"">
 

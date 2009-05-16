@@ -5,168 +5,322 @@
 ]
 >
 
+<!-- Original text: Mozilla Help Viewer Documentation Project,
+     Nvu relevance changes: Nvu Help Viewer Documentation Project,
+Contributor(s):
+  KDS Sahambi <ksahambi@yahoo.com>
+-->
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Glossary</title>
-	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  <title>Glossary</title>
+  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
-<body>
+<body id="noMarginBody">
 
-<p>Dieses Glossar dient nur zu Ihrer Information und ist nicht bestimmt als vollständige oder verbindliche Beschreibung untenstehender Begriffe oder der Auswirkungen auf den Datenschutz und/oder die Sicherheit der dargestellten Technologien.</p>
+<p>This glossary is provided for your information only; it is not
+meant to be relied upon as a complete or authoritative description of
+the terms defined below or of the privacy and/or security
+ramifications of the technologies described.</p>
+
 <hr/>
 
-<h1 id="glossary">Glossar</h1>
+<h1 id="glossary">Glossary</h1>
 
 <dl>
 
-<dt id="location_bar">Adressleiste</dt>
-<dd>Der Bereich (und zugehörige Schaltflächen) oben im &brandShortName;-Fenster in dem Sie eine <a href="#Uniform_Resource_Locator">URL</a> oder Suchbegriffe eingeben können.</dd>
+<dt id="authentication">authentication</dt>
+<dd>The use of a password, certificate, personal identification number
+  (PIN), or other information to validate an identity over a computer
+  network.</dd>
 
-<dt id="authentication">Authentifizierung</dt>
-<dd>Der Einsatz eines Passworts, eines Zertifikats, einer Geheimzahl (PIN) oder anderer Angaben, um eine Identität &#252;ber ein Computernetzwerk zu bestätigen.</dd>
+<dt id="cache">cache</dt>
+<dd>A collection of web page copies stored on your computer's hard disk or in
+  its random-access memory (RAM). &brandShortName; accumulates these copies as you
+  browse the Web. When you click a link or type a
+  <a href="#Uniform_Resource_Locator">URL</a> to fetch a particular web page for
+  which the cache already contains a copy, &brandShortName; compares the cached copy
+  to the original. If there have been no changes, &brandShortName; uses the cached
+  copy rather than refetching the original, saving processing and download time.</dd>
 
+<dt id="certificate">certificate</dt>
+<dd>The digital equivalent of an ID card. A certificate specifies the name of an
+  individual, company, or other entity and certifies that a public key, which
+  is included in the certificate, belongs to that entity. When you digitally
+  sign a message or other data, the digital signature for that message is
+  created with the aid of the private key that corresponds to the public key
+  in your certificate.</dd>
 
-<dt id="cache">Cache</dt>
-<dd>Eine Ansammlung von Webseiten-Kopien, die auf der Festplatte oder im Hauptspeicher (RAM) Ihres Computers gespeichert werden. &brandShortName; speichert diese Kopien während sie im Internet surfen. Sobald Sie auf einen Link klicken oder eine <a href="#Uniform_Resource_Locator">URL</a> eingeben, um eine bestimmte Webseite aufzurufen, f&#252;r die im Cache bereits eine Kopie vorhanden ist, wird &brandShortName; die gespeicherte Seite mit dem Original vergleichen. Falls keine Änderungen erfolgten, wird &brandShortName; die zwischengespeicherte Kopie benutzen, anstatt das Original wieder abzurufen. Dies spart Rechen- und Download-Zeit. </dd>
+<dt id="client">client</dt>
+<dd>Software (such as an Internet browser) that sends requests to and receives
+  information from a <a href="#server">server</a>, which is usually running
+  on a different computer. A computer on which client software runs is also
+  described as a client.</dd>
 
+<dt id="cryptography">cryptography</dt>
+<dd>The art and practice of scrambling (encrypting) and unscrambling (decrypting)
+  information. For example, cryptographic techniques are used to scramble and unscramble
+  information flowing between commercial web sites and &brandShortName;.</dd>
 
-<dt id="client">Client</dt>
-<dd>Software (beispielsweise ein Browser), die Anfragen an einen <a href="#server">Server</a> sendet und Daten von ihm erhält. Der Server läuft &#252;blicherweise auf einem anderen Rechner. Ein Computer, auf dem Client-Software ausgef&#252;hrt wird, wird ebenso als Client bezeichnet.</dd>
+<dt id="css">Cascading Style Sheets(CSS)</dt>
+<dd>CSS is a simple mechanism to add style e.g. fonts, colors,
+positioning, etc to web documents. CSS allows complete and total
+control over the style of a hypertext document.</dd>
 
-<dt id="cookie">Cookie</dt>
-<dd>Eine kleine Datei die einige Websites auf Ihrem Computer abspeichern. Wenn sie solch eine Website besuchen, bittet diese &brandShortName;, ein oder mehrere Cookies auf Ihrer Festplatte abzulegen. Wenn Sie später zu dieser Website zur&#252;ckkehren, sendet &brandShortName; die zugehörigen Cookies dorthin. Cookies unterst&#252;tzen Websites dabei, eine Übersicht &#252;ber personalisierte Informationen zu behalten, wie z.B. den Inhalt Ihres Warenkorbs. Sie können Ihre Cookie-Einstellungen konfigurieren, um zu kontrollieren, wie Cookies genutzt werden und wie viele Angaben Sie darin gespeichert haben wollen.</dd>
+<dt id="decryption">decryption</dt>
+<dd>The process of unscrambling data that has been encrypted. See also
+  <a href="#encryption">encryption</a>.</dd>
 
-<dt id="Cookie_Manager">Cookie-Manager</dt>
-<dd>Der Teil von &brandShortName;, mit dem Sie <a href="#cookie">Cookies</a> kontrollieren k&ouml;nnen.</dd>
+<dt id="digital_ID">digital ID</dt>
+<dd>See <a href="#certificate">certificate</a>.</dd>
 
-
-
-<dt id="digital_ID">Digitale Signatur</dt>
-<dd>Siehe <a href="#certificate">Zertifikat</a>.</dd>
-
-<dt id="live_bookmark">Dynamische Lesezeichen</dt>
-<dd>Eine spezielle Art von Lesezeichen, die in einem Ordner alle von einem <a href="#feed">Feed</a> gelieferten Links beinhaltet. Sie können ein dynamisches Lesezeichen erstellen indem Sie eine Website mit einem Feed besuchen, auf das Symbol des dynamischen Lesezeichen in der Statusleiste klicken und das gew&#252;nschte Format auswählen.</dd>
-
-<dt id="decryption">Entschl&#252;sselung</dt>
-<dd>Der Vorgang des Lesbarmachens von chiffrierten Daten. Siehe auch <a href="#encryption">Verschl&#252;sselung</a>.</dd>
+<dt id="encryption">encryption</dt>
+<dd>The process of scrambling information in a way that disguises its meaning.
+  For example, encrypted connections between computers make it very difficult
+  for third-parties to unscramble, or <em>decrypt,</em> information flowing
+  over the connection. Encrypted information can be decrypted only by someone
+  who possesses the appropriate key.</dd>
 
 <dt id="XML">Extensible Markup Language (XML)</dt>
-<dd>Ein offener Standard zur Datenbeschreibung. Anders als bei HTML kann bei XML der Entwickler einer Webseite spezielle Tags definieren. Weitere Informationen finden Sie in dem Online-Dokument der W3C zur <a href="http://www.w3.org/XML/">Extensible Markup Language (XML)</a>.</dd>
+<dd>An open standard for describing data. Unlike HTML, XML allows the
+  developer of a web page to define special tags. For more information,
+  see the online W3C document <a href="http://www.w3.org/XML/">Extensible
+  Markup Language (XML)</a>.</dd>
 
-<dt id="feed">Feed</dt>
-<dd>Eine <a href="#XML">XML</a> Webseite, die eine Liste von Links auf andere Webseiten enthält. Spezielle Programme generieren aus dem Feed eine Liste mit Schlagzeilen, die bei jeder Änderung aktualisiert wird. Nachrichten-Portale benutzen Feeds, um die neusten Schlagzeilen schnell zu veröffentlichen, private Seiten um den Besucher auf neue Einträge aufmerksam zu machen. Siehe auch <a href="#live_bookmark">dynamische Lesezeichen</a>.</dd>
-
-<dt id="File_Transfer_Protocol">File Transfer Protocol (FTP)</dt>
-<dd>Ein Standard, mit dem Dateien von einem Computer zum anderen &#252;ber ein Netzwerk &#252;bermittelt werden können. Sie können &brandShortName; benutzen, um Dateien via FTP abzurufen.</dd>
+<dt id="file_transfer_protocol">File Transfer Protocol (FTP)</dt>
+<dd>A File Transfer Protocol(FTP) is a protocol standard for
+transfering computer files between different computers connected via a
+network. A remote computer, the FTP server, accepts connections from
+other computers called clients. Once the connection is established,
+clients can get files from the server or put files on the server
+depending upon the login account privileges.However, a security hole
+in FTP is that passwords are sent as clear text, unlike <a
+href="#secure_file_transfer_protocol">sFTP</a>. &brandShortName; Site
+Manager uses FTP for publishing web pages.</dd>
 
 <dt id="FIPS_PUBS_140-1">FIPS PUBS 140-1</dt>
-<dd>Federal Information Processing Standards Publications (FIPS PUBS) 140-1 ist ein Standard der US-Regierung f&#252;r die Implementation kryptographischer Module, d.h. Hard- oder Software, die Daten ver- und entschl&#252;sselt oder andere kryptographische Arbeitsgänge ausf&#252;hrt (wie z.B. das Erzeugen oder &#252;berpr&#252;fen digitaler Unterschriften). Viele an die US-Regierung verkaufte Produkte m&#252;ssen einem oder mehreren FIPS-Standards entsprechen.</dd>
+<dd>Federal Information Processing Standards Publications (FIPS PUBS) 140-1 is
+  a US government standard for implementations of cryptographic modules &mdash;
+  hardware or software that encrypts and decrypts data or performs other
+  cryptographic operations (such as creating or verifying digital signatures).
+  Many products sold to the US government must comply with one or more of the
+  FIPS standards.</dd>
 
-<dt id="helper_application">Hilfsanwendung</dt>
-<dd>Jedes Programm, das zum öffnen oder Anschauen einer von &brandShortName; heruntergeladenen Datei genutzt wird. Ein <a href="#plug-in">Plugin</a> ist eine besondere Art von Hilfsanwendung, die sich selbst in das Plugin-Verzeichnis von &brandShortName; installiert und typischerweise von &brandShortName; selbst (intern) gestartet werden kann. Microsoft Word, Adobe Photoshop und andere externe Applikationen werden als Hilfsanwendung betrachtet, aber nicht als Plugins, da sie sich nicht selbst ins &brandShortName;-Verzeichnis installieren, aber vom Download-Manager aus gestartet werden können.</dd>
-
+<dt id="helper_application">helper application</dt>
+<dd>Any application that is used to open or view a file downloaded by &brandShortName;.
+  A <a href="#plug-in">plug-in</a> is a special kind of helper application that
+  installs itself into the Plugins directory of the main &brandShortName; installation
+  directory and can typically be opened within &brandShortName; itself. Microsoft Word,
+  Adobe Photoshop, and other external applications are considered helper applications
+  but not plug-ins, because they don't install themselves into the browser directory
+  but can be opened from the download dialog box.</dd>
 
 <dt id="Hypertext_Markup_Language">Hypertext Markup Language (HTML)</dt>
-<dd>Das Dokumentformat das bei Webseiten angewendet wird. Der HTML-Standard definiert Tags - Das sind Markierungen oder Codes, die das Text-Layout, die Schriftarten und -stile, Grafiken und andere Elemente einer Webseite festlegen.</dd>
+<dd>The document format used for web pages. The HTML standard defines tags, or
+  codes, used to define the text layout, fonts, style, images, and other
+  elements that make up a web page.</dd>
 
 <dt id="Internet">Internet</dt>
-<dd>Ein weltweites Netzwerk von Millionen von Rechnern, die miteinander per Standardprotokollen wie z.B. <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a> kommunizieren. Urspr&#252;nglich im Jahre 1969 f&#252;r das US-Militär entwickelt, wuchs das Internet durch die Einbeziehung von Bildungs- und Forschungsstätten und seit den späten 1990er Jahren auch von Millionen von Unternehmen, Organisationen und Einzelpersonen. Heute wird das Internet f&#252;r E-Mails, das Surfen im <a href="#World_Wide_Web">World Wide Web</a>, Instant Messaging, Usenet News und viele andere Zwecke verwendet.</dd>
+<dd>A worldwide network of millions of computers that communicate with each
+  other using standard protocols such as
+  <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a>.
+  Originally developed for the US military in 1969, the Internet grew to include
+  educational and research institutions and, in the late 1990s, millions of
+  businesses, organizations, and individuals. Today the Internet is used for email,
+  browsing the <a href="#World_Wide_Web">World Wide Web</a>, instant messaging,
+  mailing lists and usegroups, and many other purposes.</dd>
 
-<dt id="Internet_protocol_address">Internet-Protokoll-Adresse (IP-Adresse)</dt>
-<dd>Die Adresse eines Computers in einem <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a>-Netzwerk. Jeder Rechner im Internet hat eine IP-Adresse. <a href="#client">Clients</a> haben entweder eine dauerhafte IP-Adresse oder ihnen wird dynamisch eine zugewiesen, sobald sie sich mit dem Netzwerk verbinden.</dd>
+<dt id="Internet_protocol_address">Internet protocol address (IP address)</dt>
+<dd>The address of a computer on a
+  <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a> network.
+  Every computer on the Internet has an IP address. <a href="#client">Clients</a>
+  have either a permanent IP address or one that is dynamically assigned to them
+  each time they connect with the network.</dd>
 
 <dt id="Java">Java</dt>
-<dd>Eine Programmiersprache, die von Sun Microsystems entwickelt wurde. Ein Java-Programm kann auf vielen unterschiedlichen Computersystemen laufen, damit m&#252;ssen Programmierer nicht mehr gesonderte Programmversionen f&#252;r jeden Computertyp erstellen. &brandShortName; kann automatisch Java-Programme (sog. Applets) herunterladen und starten.</dd>
+<dd>A programming language developed by Sun Microsystems. A single Java program
+  can run on many different kinds of computers, thus avoiding the need for
+  programmers to create a separate version of each program for each kind of
+  computer. After Java is installed, &brandShortName; can automatically download
+  and run Java programs (also called applets).</dd>
 
 <dt id="JavaScript">JavaScript</dt>
-<dd>Eine Skriptsprache ,die häufig zum Gestalten von Webseiten gebraucht wird. Programmierer nutzen JavaScript um Webseiten interaktiver zu konzipieren, z.B. um Formulare und Schaltflächen darzustellen. JavaScript kann mit Java zusammen verwendet werden, aber es sind technisch gesehen zwei verschiedene Sprachen. Java wird nicht benötigt damit JavaScript richtig funktioniert.</dd>
+<dd>A scripting language commonly used to construct web pages. Programmers use
+  JavaScript to make web pages more interactive; JavaScript is often used to
+  dynamically validate forms and select buttons. JavaScript can be used with
+  Java, but it is technically a separate language. Java is not required for
+  JavaScript to work correctly.</dd>
 
-<dt id="cryptography">Kryptographie</dt>
-<dd>Die Art und Weise, Informationen unlesbar (Verschl&#252;sselung) und wieder lesbar (Entschl&#252;sselung) zu machen. Kryptographische Techniken werden zum Beispiel dazu verwendet, um zwischen einer gewerblichen Webseite und &brandShortName; ausgetauschte Daten zu ver- und entschl&#252;sseln.</dd>
+<dt id="master_password">master password</dt>
+<dd>A password used to protect saved passwords and other private data.
+  &brandShortName; will prompt you for your master password when you wish to
+  access this data. If you have multiple security devices, each security device
+  will require a separate master password.</dd>
 
-<dt id="bookmark">Lesezeichen</dt>
-<dd>Eine gespeicherte Webadresse (<a href="#Uniform_Resource_Locator">URL</a>)
-  zu der man leicht gelangt, indem man ein Lesezeichensymbol in der Lesezeichen-Symbolleiste oder den Namen des Lesezeichens aus dem Men&#252; "Lesezeichen" auswählt.</dd>
+<dt id="navigation_toolbar">Navigation Toolbar</dt>
+<dd>The toolbar near the top of the &brandShortName; window that includes
+  the <em>Back</em> and <em>Forward</em> buttons.</dd>
 
-<dt id="Bookmarks_Toolbar">Lesezeichen-Symbolleiste</dt>
-<dd>Diese anpassbare Symbolleiste erscheint in &brandShortName; standardmäßig direkt unter der Navigations-Leiste. Sie enthält Buttons f&#252;r Ihre Lieblingslesezeichen (oder Ordner mit gruppierten Lesezeichnen) welche Sie hinzuf&#252;gen oder löschen können.</dd>
-
-<dt id="master_password">Master-Passwort</dt>
-<dd>Ein Passwort um gespeicherte Passwörter und andere privaten Daten zu sch&#252;tzen. &brandShortName; wird Sie nach dem Master-Passwort fragen, wenn Sie auf diese Daten zugreifen möchten. Falls Sie mehrere Kryptographie-Module haben benötigt jedes ein separates Master-Passwort.</dd>
-
-<dt id="navigation_toolbar">Navigationsleiste</dt>
-<dd>Die Symbolleiste oben im &brandShortName;-Fenster, die unter anderem die Schaltflächen <em>Vor</em> und <em>Zur&#252;ck</em> enthält.</dd>
-
-<dt id="Password_Manager">Passwort-Manager</dt>
-<dd>Jener Teil von &brandShortName;, der Ihnen hilft, sich an einige oder alle Ihrer Benutzernamen und Passwörter zu erinnern, indem er diese auf Ihrer Festplatte speichert und automatisch beim Besuch der entsprechenden Website einträgt.</dd>
+<dt id="Password_Manager">Password Manager</dt>
+<dd>The part of &brandShortName; that can help you remember some or all of
+  your names and passwords by storing them on your computer's hard disk and
+  entering them for you automatically when you visit such sites.</dd>
 
 <dt id="PKCS_11">PKCS #11</dt>
-<dd>Der Kryptographiestandard f&#252;r das Verschl&#252;sseln mit öffentlichen Schl&#252;sseln, der kryptographische Module wie z.B. Smart-Cards reglementiert.</dd>
+<dd>The public-key cryptography standard that governs security devices such
+  as smart cards.</dd>
 
-<dt id="plug-in">Plugin</dt>
-<dd>Ein Typ einer <a href="#helper_application">Hilfsanwendung</a>, die neue Leistungsmerkmale zu &brandShortName; hinzuf&#252;gt, wie z.B. die Fähigkeit, Audio- oder Videoclips abzuspielen. Anders als andere Arten von Hilfsanwendungen, installiert sich ein Plugin selbst in das Plugin-Verzeichnis innerhalb des Verzeichnisses, in das &brandShortName; installiert wurde und kann typischerweise von &brandShortName; selbst gestartet werden (intern). Zum Beispiel ermöglicht es ein Audio-Plugin Musikdateien auf einer Webseite oder in einer E-Mail anzuhören. Macromedia Flash Player und Java sind beides Beispiele f&#252;r Plugin-Applikationen.</dd>
+<dt id="plug-in">plug-in</dt>
+<dd>A type of <a href="#helper_application">helper application</a> that
+  adds new capabilities to &brandShortName;, such as the ability to play audio
+  or video clips. Unlike other kinds of helper applications, a plug-in
+  application installs itself into the Plugins directory within the main
+  &brandShortName; installation directory and typically can be opened within
+  &brandShortName; itself (internally). For example, an audio plug-in lets you
+  listen to audio files on a web page or in an e-mail message. Macromedia
+  Flash Player and Java are both examples of plug-in applications.</dd>
 
-<dt id="private_key">Privater Schl&#252;ssel</dt>
-<dd>Ein Schl&#252;ssel des bei der Verschl&#252;sselung mit öffentlichem Schl&#252;ssel genutzten Schl&#252;sselpaares. Der geheime Schl&#252;ssel ist vertraulich und wird zum Entschl&#252;sseln von Daten gebraucht, die mit dem zugehörigen öffentlichen Schl&#252;ssel chiffriert wurden.</dd>
+<dt id="private_key">private key</dt>
+<dd>One of a pair of keys used in public-key cryptography. The private key is 
+kept secret and is used to decrypt data that has been encrypted with the 
+corresponding public key.</dd>
 
-<dt id="proxy">Proxy</dt>
-<dd>Ein zwischengeschaltetes oder "Mittelsmann"-Programm, das sowohl als <a href="#server">Server</a> wie auch als <a href="#client">Client</a> f&#252;r das Senden von Anfragen im Auftrag von anderen Clients fungiert.</dd>
+<dt id="proxy">proxy</dt>
+<dd>An intermediary or &quot;go-between&quot; program that acts as both a
+  <a href="#server">server</a> and a <a href="#client">client</a> for
+  the purpose of making requests on behalf of other clients.</dd>
 
+<dt id="publish">Publishing</dt>
+<dd>The process of <em>uploading</em> web document(s) to a <a
+href="#web_server">web server</a> is called publishing. It is only
+after publishing your web documents to the <a href="#web_server">web
+server</a> others can view the documents using their <a
+href="#client">clients</a>. In &brandShortName;, the <a
+href="#site_manager">Site Manager</a> accomplishes the task of
+publishing.</dd>
 
+<dt id="search_engine">search engine</dt>
+<dd>A web-based program that allows users to search for and retrieve
+  specific information from the World Wide Web. The search engine may
+  search the full text of web documents or a list of keywords; it may
+  also use librarians who review web documents and index them manually
+  for retrieval. Typically, the user types a word or phrase into a
+  search box, and the search engine displays links to relevant web
+  pages.</dd>
+
+<dt id="secure_shell_file_transfer_protocol">Secure Shell File Transfer Protocol</dt>
+<dd>Secure Shell File Transfer Protocol(sFTP) is similar to <a
+href="#file_transfer_protocol">FTP</a> with the difference that the
+session is encrypted making it more secure.</dd>
+
+<dt id="secure_site">secure site</dt>
+<dd>A site that uses <a href="#encryption">encryption</a> in connections
+  with &brandShortName; to prevent other malicious Internet users from
+  viewing transmitted data.  When you visit secure sites, &brandShortName;
+  displays a lock icon in the <a href="#Status_Bar">Status Bar</a> and the
+  <a href="#location_bar">Location Bar</a>.  &brandShortName; also
+  displays the site's domain name in the Status Bar (to prevent malicious
+  sites from stealing your data) and turns the background of the Location
+  Bar to yellow.</dd>
+<dd>Some sites may consist of both secure and insecure data; the insecure data
+  usually is non-private, although it isn't guaranteed to be so.  For such
+  sites &brandShortName; will display a lock icon with a slash through it in
+  the Status Bar and Location Bar and will <em>not</em> display the site's
+  domain name in the Status Bar so that you know that the current web page
+  isn't completely secure.</dd>
 
 <dt id="SSL">Secure Sockets Layer (SSL)</dt>
-<dd>Ein Protokoll, das gegenseitige Authentifizierung zwischen einem <a href="#client">Client</a> und einem <a href="#server">Server</a> zwecks Aufbau einer authentifizierten und verschl&#252;sselten Verbindung erlaubt. SSL liegt &#252;ber TCP/IP und unter HTTP, LDAP, IMAP, NNTP und anderen Netzwerkprotokollen der höheren Schichten. Der neue Standard der Internet Engineering Task Force (IETF) namens Transport Layer Security (TLS) baut auf SSL auf. Siehe auch <a href="#authentication">Authentifizierung</a>, <a href="#encryption">Verschl&#252;sselung</a>.</dd>
+<dd>A protocol that allows mutual authentication between a
+  <a href="#client">client</a> and a <a href="#server">server</a>
+  for the purpose of establishing an authenticated and encrypted
+  connection. SSL runs above TCP/IP and below HTTP, LDAP, IMAP, NNTP,
+  and other high-level network protocols. The new Internet Engineering
+  Task Force (IETF) standard called Transport Layer Security (TLS) is
+  based on SSL. See also <a href="#authentication">authentication</a>,
+  <a href="#encryption">encryption</a>.</dd>
 
-<dt id="server">Server</dt>
-<dd>Software (z.B. Software, die Webseiten bereitstellt) die Anfragen von <a href="#client">Clients</a> erhält und Daten zur&#252;ckschickt. Der Client wird &#252;blicherweise auf einem anderen Rechner betrieben. Ein Computer, auf dem Server-Software läuft, wird auch als Server bezeichnet.</dd>
+<dt id="server">server</dt>
+<dd>Software (such as software that serves up web pages) that receives
+  requests from and sends information to a <a href="#client">client</a>,
+  which is usually running on a different computer. A computer on which
+  server software runs is also described as a server.</dd>
 
-<dt id="secure_site">Sichere Seite</dt>
-<dd>Eine Webseite, die bei der Verbindung mit &brandShortName; <a href="#encryption">Verschl&#252;sselung</a> benutzt, um Dritte daran zu hindern, die &uuml;bertragenen Daten einzusehen. Wenn Sie eine sichere Seite besuchen, zeigt Ihnen &brandShortName; ein Schloss-Symbol in der <a href="#Status_Bar">Statusleiste</a> und in der <a href="#location_bar">Adressleiste</a> an. &brandShortName; zeigt auch den Domain-Name in der Statusleiste an (um böswillige Seiten davon abzuhalten Ihre Daten zu stehlen) und färbt den Hintergrund der Adressleiste gelb.</dd>
-<dd>Manche Seiten können sich aus sicheren und unsicheren Daten zusammensetzen, die unsicheren Daten sind f&#252;r gewöhnlich öffentlich, aber nicht zwingenderweise. F&#252;r diese Seiten zeigt &brandShortName; ein gebrochenes Schloss-Symbol in der Statusleiste und Adressleiste an und der Domain-Name wird <em>nicht</em> in der Statusleiste angezeigt, so dass Sie wissen dass die momentane Webseite nicht vollständig sicher ist.</dd>
+<dt id="site_manager">Site Manager</dt>
+<dd>The part of &brandShortName; which manages the uploading and
+downloading of the web documents created with &brandShortName;. The
+Site Manager uses <a href="#file_transfer_protocol">FTP</a> to
+transfer the web documents to and from the <a href="#web_server">web
+server</a>.</dd>
 
-<dt id="home_page">Startseite</dt>
-<dd>Die Seite, die bei jedem Start von &brandShortName; oder beim Anklicken der Schaltfläche &quot;Startseite&quot; angezeigt wird. Der Begriff bezieht sich &#252;blicherweise auch auf die Hauptseite einer Website, von der Sie zum Rest der Website gelangen können.</dd>
-
-<dt id="Status_Bar">Statusleiste</dt>
-<dd>Die Symbolleiste, die unten in jedem &brandShortName;-Fenster erscheint. Sie enthält die Status-Icons auf der rechten Seite.</dd>
-
-<dt id="search_engine">Suchmaschine</dt>
-<dd>Ein web-basiertes Programm, das es Nutzern ermöglicht im World Wide Web nach Informationen zu suchen und spezifische Daten abzurufen. Die Suchmaschine kann den gesamten Text von Web-Seiten oder eine Liste von Schl&#252;sselwörtern durchsuchen oder Bibliothekare sehen die Web-Seiten durch und katalogisieren diese manuell f&#252;r die Suche. Typischerweise tippt der Nutzer ein Wort oder einen Satz, auch Abfrage genannt, in ein Eingabefeld ein und die Suchmaschine zeigt Links zu relevanten Webseiten an.</dd>
+<dt id="Status_Bar">Status Bar</dt>
+<dd>The toolbar that appears at the bottom of any &brandShortName; window. It
+  shows the tags enclosing the current cursor position.</dd>
 
 <dt id="TLS">TLS</dt>
-<dd>Siehe <a href="#Secure_Sockets_Layer">Secure Sockets Layer (SSL)</a>.</dd>
+<dd>See <a href="#Secure_Sockets_Layer">Secure Sockets Layer (SSL)</a>.</dd>
 
 <dt id="TCP_IP">Transmission Control Protocol/Internet Protocol (TCP/IP)</dt>
-<dd>Ein Unix Protokoll, das verwendet wird, um Computer zu verbinden, die mit verschiedensten Betriebssystemen betrieben werden. TCP/IP ist ein wesentliches Internet Protokoll und wurde allgemeiner Standard.</dd>
-
+<dd>A Unix protocol used to connect computers running a variety of operating systems.
+  TCP/IP is an essential Internet protocol and has become a global standard.</dd>
 
 <dt id="Uniform_Resource_Locator">Uniform Resource Locator (URL)</dt>
-<dd>Die standardisierte Adresse, die &brandShortName; sagt, wo er eine Datei oder eine andere Ressource im Web findet, z.B. <tt>http://www.mozilla.org</tt>. Um auf Webseiten zuzugreifen, können Sie URLs in die Adressleiste von &brandShortName; eingeben. URLs werden auch bei den Links auf Webseiten gebraucht, die Sie anklicken können, um zu anderen Webseiten zu gelangen. Auch bekannt als Internet-Adresse.</dd>
+<dd>The standardized address that tells &brandShortName; how to locate a file or
+  other resource on the Web (for example, <tt>http://www.mozilla.org</tt>).
+  Type URLs into &brandShortName;'s Location Bar to access web pages. URLs
+  are also used in the links on web pages go to other web pages. Also known
+  as an Internet or Web address.</dd>
 
-<dt id="encryption">Verschl&uuml;sselung</dt>
-<dd>Das Verfahren, Informationen insofern unleserlich zu machen, dass ihre Bedeutung verschleiert wird. Verschl&#252;sselte Verbindungen zwischen Computern machen es z.B. einem Dritten sehr schwer, Informationen zu lesen, die &#252;ber diese Verbindung gesendet werden. Verschl&#252;sselte Informationen können nur von jemandem entschl&#252;sselt werden der den passenden Schl&#252;ssel besitzt.</dd>
+<dt id="w3c">W3C</dt>
+<dd>World Wide Web Consortium(W3C) is a <em>consortium</em> that
+produces standards recommendations for the <a
+href="world_wide_web">World Wide Web</a>. According to
+<strong>W3C</strong>, "The World Wide Web Consortium (W3C) develops
+interoperable technologies (specifications, guidelines, software, and
+tools) to lead the Web to its full potential". These recommendations
+e.g. HTML 4.01, XHTML 1.1, CSS 2.1, etc. are often called <em>Web
+Standards</em>.</dd>
 
-<dt id="web_page">Webseite</dt>
-<dd>Ein einzelnes Dokument im World Wide Web, das durch eine eindeutige Adresse oder URL bestimmt wird. Es kann Text, Hyperlinks und Grafiken enthalten.</dd>
+<dt id="web_page">web page</dt>
+<dd>A single document on the World Wide Web that is specified by a unique
+  address or URL.  A web page may contain text, hyperlinks, and graphics.</dd>
 
-<dt id="web_site">Website</dt>
-<dd>Eine Gruppe von Webseiten, die untereinander in Beziehung stehen und durch Links verbunden sind. Sie werden von einer einzelnen Firma, Organisation oder Person verwaltet. Eine Website kann Text, Grafiken, Ton- und Bilddateien sowie Links zu anderen Websites enthalten.</dd>
+<dt id="web_server">Web Server</dt>
+<dd>Web Server is the machine running the web server software(e.g. <a
+href="http://httpd.apache.org">Apache</a>). It serves various kinds of
+web documents to a <a href="#client">client</a>. It is the web server
+software which is responsible to send us the reqired data so that we
+can see the requested <a href="#web_site">web site</a> in a web
+browser.</dd>
 
-<dt id="World_Wide_Web">World Wide Web</dt>
-<dd>Auch bekannt als das Web. Ein Teil des Internets, das aus Webseiten besteht, die auf <a href="#server">Webservern</a> gespeichert sind und von <a href="#client">Clients</a>, so genannten Web-Browsern wie z.B. &brandShortName;, angezeigt werden.</dd>
+<dt id="web_site">web site</dt>
+<dd>A group of related web pages linked by hyperlinks and managed by a single
+  company, organization, or individual. A web site may include text, graphics,
+  audio and video files, and links to other web sites.</dd>
 
-<dt id="certificate">Zertifikat</dt>
-<dd>Das digitale Äquivalent eines Ausweises. Ein Zertifikat benennt eindeutig den Namen einer Einzelperson, einer Firma oder einer anderen Instanz. Es bescheinigt, dass ein öffentlicher Schl&#252;ssel, der im Zertifikat mitgeliefert wird, zu dieser Instanz gehört. Wenn Sie eine Nachricht oder andere Daten digital signieren, wird die digitale Signatur dieser Nachricht mit Hilfe des geheimen Schl&#252;ssels erstellt, der zu dem öffentlichen Schl&#252;ssel in ihrem Zertifikat gehört.</dd>
+<dt id="world_wide_web">World Wide Web</dt>
+<dd>Also known as the Web. A portion of the Internet that is made up of web
+  pages stored by web <a href="#server">servers</a> and displayed by
+  <a href="#client">clients</a> called web browsers (such as
+  &brandShortName;).</dd>
+
+
+
+
+
+
+
+
+
+
 
 </dl>
 
 <p>
-[&nbsp;<a href="#glossary">Zur&#252;ck zum Glossaranfang</a>&nbsp;]
+[&nbsp;<a href="#glossary">Return to beginning of Glossary</a>&nbsp;]
 </p>
 
-<div class="contentsBox"><em>9. Dezember 2004</em></div>
-<p>Copyright &copy; 2003-2004 Mitwirkende des Mozilla-Hilfe-Projekts.</p>
+<div class="copyrightBox"><em>09 October 2004</em></div>
+<p>Copyright &copy; 2003-2004 Contributors to the Mozilla Help Viewer Project.</p>
 </body>
 </html>
-

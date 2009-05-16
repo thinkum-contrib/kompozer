@@ -137,15 +137,13 @@
 <!ENTITY findCmd.label "Suchen und ersetzen...">
 <!ENTITY editfind.accesskey "s">
 <!ENTITY editfind.keybinding "f">
-<!ENTITY editfind.keybinding2 "VK_F19">                                         
+<!ENTITY editfind.keybinding2 "VK_F19">                                      
 <!ENTITY findAgainCmd.label "Weitersuchen">
 <!ENTITY editfindnext.accesskey "w">
 <!ENTITY editfindnext.keybinding "g">
-<!ENTITY editfindnext.keybinding2 "VK_F3">
 <!ENTITY findPrevCmd.label "Vorherige suchen">
 <!ENTITY editfindprev.accesskey "v">
 <!ENTITY editfindprev.keybinding "g">
-<!ENTITY editfindprev.keybinding2 "VK_F3">
 <!ENTITY checkSpellingCmd.label "Rechtschreibprüfung">
 <!ENTITY validateCmd.label "Quelltext überprüfen">
 <!ENTITY validate.accesskey "ü">
@@ -724,4 +722,15 @@
 <!ENTITY spellSuggestions.label   "Vorschläge">
 <!ENTITY spellSuggestions.accesskey "V">
 <!ENTITY spellAddToDictionary.label "Zum Wörterbuch hinzufügen">
+<!ENTITY DesignMode.label 	"WYSIWYG">
+<!ENTITY DesignMode.accesskey "">
+<!ENTITY DesignMode.tooltip "Normalansicht">
+<!ENTITY SplitMode.label "Teilen">
+<!ENTITY SplitMode.accesskey "">
+<!ENTITY SplitMode.tooltip "Teilt das Bearbeitungsfenster in HTML und Normalansicht">
+<!ENTITY editNode.label "Bearbeitungsansicht">
+<!ENTITY editHead.label "Seitenkopf">
+<!ENTITY editBody.label "Seite">
+<!ENTITY confirmNode.label "Anwenden">
+<!ENTITY cancelNode.label "Abbrechen">
 

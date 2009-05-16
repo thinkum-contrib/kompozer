@@ -7,72 +7,108 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Anleitung zur Nutzung der Hilfe</title>
+	<title>Using the Help Window</title>
 	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
 
-<h1 id="help_window_top">Anleitung zur Nutzung der Hilfe</h1>
+<script type="text/javascript">
+var isDisplayed = true;
 
-<p>Dieser Abschnitt beschreibt, wie Sie das Hilfe-Fenster benutzen. Das Hilfe-Fenster ist das gesamte Fenster, in welchem sich dieser Text sowie die Navigationsleiste auf der linken Seite befinden.</p>
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
 
-<div id="contentsBox">In diesem Abschnitt:
-  <ul>
-    <li><a href="#finding_the_topic_you_want">Hilfe-Themen finden</a></li>
-    <li><a href="#retracing_your_steps">Durch die Hilfe navigieren</a></li>
-    <li><a href="#search_tips">Hilfe-Tipps</a></li>
-  </ul>
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
+</table>
+<div id="contentsBox">In this section:
+  <a href="#finding_the_topic_you_want">Finding the Topic You Want</a>
+  <a href="#retracing_your_steps">Retracing Your Steps</a>
+  <a href="#search_tips">Search Tips</a>
 </div>
 
-<h2 id="finding_the_topic_you_want">Hilfe-Themen finden</h2>
+<h1 id="help_window_top">Using the Help Window</h1>
 
-	<p>Wenn Sie das Hilfe-Fenster geöffnet haben, können sie durch Klicken auf die Tabs im linken Teil des Fensters die Inhalte der Hilfe mit einer anderen Gliederung anzeigen:</p>
+<p>This section describes how to use the Help window (the entire window in
+  which this text and the Sidebar on the left are displayed).</p>
+
+<h2 id="finding_the_topic_you_want">Finding the Topic You Want</h2>
+
+	<p>When you're viewing the Help window, click the tabs in the left frame to view
+	  the Help contents in different ways:</p>
 	<ul>
-		<li><strong>Inhalte</strong> zeigt die Liste der Themengebiete.<br/>
-		  Klicken Sie auf ein Thema, um etwas darüber zu lesen. Durch Klick auf die +/- Zeichen können Sie sich die einzelnen Unterabschnitte anzeigen lassen.</li>
-		 <li><strong>Suche</strong> lässt Sie die Hilfe durchsuchen.<br/>
-		  Geben Sie ein Wort oder einen Satz ein und drücken Sie Enter, um die dazugehörigen Themenabschnitte anzuzeigen. Klicken Sie auf den Abschnitt, den Sie lesen möchten.<br/><br/>
-		   Wenn Ihre Suche erfolglos ist, versuchen Sie es mit weniger Wörtern oder anderen Wortkombinationen.</li>
-		 <li><strong>Index</strong> zeigt die Abschnitte alphabetisch geordnet.<br/> Klicken Sie auf einen Index-Eintrag, um den Abschnitt einzusehen.</li>
-		 <li><strong>Glossar</strong> listet die wichtigsten Begriffe alphabetisch auf.<br/> Klicken Sie auf einen Glossar-Eintrag, um ihn erklärt zu bekommen.</li>
+		<li><strong>Contents</strong> shows the list of main topics.<br/>
+		  Click a topic to read about it. Double-click to see its subtopics.</li>
+		 <li><strong>Search</strong> lets you search the Help files.<br/>
+		  Type a word or phrase and press Enter to see related topics. Then click
+		  the topic you want to read about.<br/><br/>
+		  If your search doesn't return any topics, try typing fewer words or a
+		  different combination of words.</li>
+		 <li><strong>Index</strong> lists topics alphabetically.<br/>Click an index entry
+		 to view information on that topic.</li>
+		 <li><strong>Glossary</strong> lists definitions alphabetically.<br/>Click
+		 a glossary term to see its definition.</li>
 	</ul>
 
-	<p>Sie können mehr über Themen erfahren, die mit dem gerade angezeigten Abschnitt zusammenhängen. Klicken Sie auf die entsprechenden Links, so wie Sie es auf einer normalen Webseite tun würden.</p>
+	<p>To see information related to the Help topic you are reading, click
+	  links in the Help window just as you would in a regular web page.</p>
 
-<h2 id="retracing_your_steps">Durch die Hilfe navigieren</h2>
-	<p>Sie können Ihre Schritte in der Hilfe zurückverfolgen, indem Sie auf die Symbole in der linken oberen Ecke des Fensters klicken:</p>
+<h2 id="retracing_your_steps">Retracing Your Steps</h2>
+	<p>To retrace your steps in Help, click the buttons near the top left corner of
+	  the Help window:</p>
 
 	<p><img src="http://mozilla.org/projects/firefox/help/1.0/help-buttons.png" alt="" width="209" height="43"/></p>
 
 	<ul>
-	        <li>Klicken Sie auf das Anzeigen/Verstecken-Symbol, um die Sidebar auf der linken Seite des Hilfefensters auszublenden oder anzuzeigen.</li>
-		<li>Klicken Sie auf das Zurück-Symbol, um zu der vorherigen Seite zurückzukehren. Dies funktioniert genauso wie mit dem Zurück-Symbol im &brandShortName;-Fenster.</li>
-		<li>Klicken Sie auf das Vorwärts-Symbol, um vorwärts durch die zuvor besuchten Seiten zu blättern. Dies funktioniert wie mit dem Vorwärts-Symbol im &brandShortName;-Fenster.</li>
-		<li>Klicken Sie auf das Startseiten-Symbol, um zum Hilfe- und Supportcenter zu gelangen. Dieses enthält Links zu Support-Seiten und weiteren Web-basierenden Ressourcen.</li>
+	        <li>Click the Show/Hide Sidebar button to show and hide the Sidebar contained
+	          on the left side of the Help Window.</li>
+		<li>Click the Back button to move back through pages you have previously
+		  visited. It works just like the Back button in the main &brandShortName;
+		  window.</li>
+		<li>Click the Forward button to move forward through pages you have previously
+		  visited. It works just like the Forward button in the main &brandShortName;
+		  window.</li>
+		<li>Click the Home button to see the Help and Support Center, which includes
+		  links to support options and web-based resources.</li>
 	</ul>
 
-	<p>Alternativ können Sie auch die gewünschten Informationen drucken:</p>
+	<p>Alternatively, print the instructions you want to follow:</p>
 
 	<ul>
-		<li>Um die komplette zurzeit angezeigte Seite zu drucken, klicken Sie auf das Drucken-Symbol in der rechten oberen Ecke des Hilfe-Fensters:<br/>
+		<li>To print the whole page that's currently displayed in the Help window,
+		  click the Print button near the top-right corner of the Help window:<br/>
 
 		<img src="http://mozilla.org/projects/firefox/help/1.0/print.png" alt="" width="38" height="43"/></li>
 
-		<li>Um nur einen Teil der Seite zu drucken, markieren Sie den gewünschten Bereich und klicken dann auf das Drucken-Symbol.</li>
+		<li>To print just a portion of the page, first click and drag to select the
+		  area you want to print and then click the Print button.</li>
 	</ul>
 
-<h2 id="search_tips">Hilfe-Tipps</h2>
-	<p>Wenn Sie bei Ihrer Suche nicht fündig werden, können Ihnen vielleicht folgende Tipps weiterhelfen:</p>
+<h2 id="search_tips">Search Tips</h2>
+	<p>If you aren't finding what you want in your search, here are a few helpful tips:</p>
 
 	<ul>
-		<li>Sind Sie sicher, dass Sie etwas im Zusammenhang mit &brandShortName; suchen? Dies ist keine generelle Internet-Suche.</li>
-        	<li>Verallgemeinern Sie die Suchbegriffe - diese sollten nicht zu speziell sein. Manchmal sind Ausdrücke abweichend von Ihren Sucheingaben benannt.</li>
-		<li>Vermeiden Sie auch pauschale Suchbegriffe. Wörter wie &quot;&brandShortName;&quot; und &quot;&vendorShortName;&quot; liefern Ihnen möglicherweise alle Seiten der Hilfe als Suchergebnis.</li>
+		<li>Be sure that you are searching for something that relates to
+		  &brandShortName;; this is not a general Internet search.</li>
+        	<li>Try to broaden your search - don't be too specific; terms
+		  could be worded differently than your search.</li>
+		<li>Avoid being too broad with your search: words like &quot;&brandShortName;&quot;
+		  and &quot;&vendorShortName;&quot; could possibly return all of the pages in the help file.</li>
 	</ul>
 
-<div class="contentsBox"><em>9. Dezember 2004</em></div>
-<p>Copyright &copy; 2003-2004 Mitwirkende des Mozilla-Hilfe-Projekts.</p>
+<div class="copyrightBox"><em>29 March 2005</em></div>
+<p>Copyright &copy; 2003-2004 Contributors to the Nvu Help Documentation Project.</p>
 
 </body>
 </html>

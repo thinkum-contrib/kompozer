@@ -70,4 +70,21 @@
 <!ENTITY savePassword.label   "Passwort speichern">
 <!ENTITY savePassword.tooltip "Wählen Sie dies aus, um Ihr Passwort sicher mit dem Passwort-Manager zu speichern.">
 
-<!ENTITY selectDirectory.label "Durchsuchen...">
+<!ENTITY selectDirectory.label "Verzeichnis wählen">
+<!ENTITY publishButton.label "Veröffentlichen">
+<!ENTITY generalSettings.label "Allgemeine Einstellungen">
+<!ENTITY ftpSettings.label "ftp Einstellungen">
+<!ENTITY localSettings.label "Lokales Verzeichnis">
+<!ENTITY siteDirectory.label "Server Verzeichnis">
+<!ENTITY siteDirectory.tooltip "Hauptverzeichnis auf Ihrem Server">
+<!ENTITY browsePrefix.label "Durchsuchen">
+<!ENTITY browsePrefix.tooltip "Verzeichnis durchsuchen">
+<!EBTITY connection.label "Verbinden">
+<!ENTITY port.label "Port-Mode">
+<!ENTITY pasv.label "Passiv-Mode">
+<!ENTITY security.label "Sicherheitseinstellungen">
+<!ENTITY none.label "Keine">
+<!ENTITY authtls.label "Verbindung mit TLS-Verschlüsselung">
+<!ENTITY authssl.label "Verbindung mit SSL-Verschlüsselung">
+<!ENTITY implicit.label "Verbindung trennen">
+<!ENTITY treesync.label "Verzeichnisbaum aktualisieren">
