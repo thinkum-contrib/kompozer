@@ -734,3 +734,8 @@
 <!ENTITY confirmNode.label "Anwenden">
 <!ENTITY cancelNode.label "Abbrechen">
 
+<!ENTITY    extEditor.label "Editor">
+<!ENTITY    extEditor.tooltip "Öffnet das Dokument in einem Externer Editor">
+<!ENTITY    extEditorCmd.label "">
+<!ENTITY    extEditorCmd.accesskey "">
+
