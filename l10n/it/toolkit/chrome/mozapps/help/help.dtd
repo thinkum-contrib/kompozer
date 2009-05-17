@@ -10,17 +10,12 @@
 <!ENTITY forwardButton.tooltip "Vai avanti una pagina">
 <!ENTITY copyCmd.label "Copia">
 <!ENTITY copyCmd.accesskey "C">
-<!ENTITY selectAllCmd.label "Seleziona tutto">
-<!ENTITY selectAllCmd.accesskey "A">
-<!ENTITY goBackCmd.commandkey "[">
-<!ENTITY goForwardCmd.commandkey "]">
 <!ENTITY homeButton.label "Pagina iniziale">
 <!ENTITY homeButton.tooltip "Vai alla pagina iniziale della guida">
 <!ENTITY printButton.label "Stampa">
 <!ENTITY printButton.tooltip "Stampa questa pagina">
 <!ENTITY closeWindow.commandkey "w">
 <!ENTITY throbberItem.title "Indicatore attività">
-<!ENTITY throbber.tooltip "Aiuto su come utilizzare la guida">
 <!ENTITY searchtab.label "Cerca">
 <!ENTITY searchtab.accesskey "C">
 <!ENTITY toctab.label "Contenuti">
@@ -29,10 +24,54 @@
 <!ENTITY textZoomEnlargeCmd.commandkey "+">
 <!ENTITY textZoomEnlargeCmd.commandkey2 "=">
 <!ENTITY textZoomResetCmd.commandkey "0">
-<!ENTITY helpSearch.commandkey "k">
-<!ENTITY zLevel.label "Sempre in primo piano">
-<!ENTITY zLevel.accesskey "S">
 <!ENTITY textZoomReduceBtn.label "Diminuisci dimensione testo">
 <!ENTITY textZoomReduceBtn.accesskey "D">
 <!ENTITY textZoomEnlargeBtn.label "Aumenta dimensione testo">
 <!ENTITY textZoomEnlargeBtn.accesskey "A">
+<!ENTITY viewCustomizeToolbar.label "Personalizza…">
+<!ENTITY viewCustomizeToolbar.accesskey "P">
+<!ENTITY findDialog.title "Cerca in questa pagina">
+<!ENTITY findDialogFrame.title "Cerca in questo Frame">
+<!ENTITY findField.label "Cerca Questo:">
+<!ENTITY findField.accesskey "Q">
+<!ENTITY caseSensitiveCheckbox.label "Maiusc.-Minusc.">
+<!ENTITY caseSensitiveCheckbox.accesskey "M">
+<!ENTITY wrapCheckbox.label "Unisci">
+<!ENTITY wrapCheckbox.accesskey "U">
+<!ENTITY backwardsCheckbox.label "Cerca Indietro">
+<!ENTITY backwardsCheckbox.accesskey "I">
+<!ENTITY findField.tooltip "Digita le parole da cercare">
+<!ENTITY findButton.label "Cerca avanti">
+<!ENTITY findButton.accesskey "C">
+<!ENTITY cancelButton.label "Cancella">
+<!ENTITY up.label "Sù">
+<!ENTITY up.accesskey "S">
+<!ENTITY down.label "Giù">
+<!ENTITY down.accesskey "G">
+<!ENTITY direction.label "Direzione">
+<!ENTITY find.label "Cerca:">
+<!ENTITY findNext.label "Cerca ancora">
+<!ENTITY findNext.tooltip "Cerca la prossima occorrenza della frase">
+<!ENTITY findPrevious.label "Cerca indietro">
+<!ENTITY findPrevious.tooltip "Cerca la precedente occorrenza della frase">
+<!ENTITY findCloseButton.tooltip "Chiudi la ricerca">
+<!ENTITY highlight.label "Evidenzia">
+<!ENTITY highlight.tooltip "Evidenzia tutte le occorrenze della frase (Ctrl+Enter)">
+<!ENTITY findBtn.label "Cerca">
+<!ENTITY sidebarBtn.label "Richiudi la Sidebar">
+<!ENTITY sidebarBtn.tooltip "Mostra o nascondi la Sidebar degli aiuti">
+<!ENTITY textZoomReduceBtn.tooltip "Riduci la dimensione del testo degli aiuti.">
+<!ENTITY textZoomEnlargeBtn.tooltip "Aumenta la dimensione del testo degli aiuti.">
+<!ENTITY customizeButton.tooltip "Scegli i bottoni visibili nella toolbar degli aiuti.">
+<!ENTITY reloadCmd.label "Ricarica">
+<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY cmd_CustomizeToolbars.label "Personalizza" >
+<!ENTITY searchbtn.label "Cerca">
+<!ENTITY indextab.label "Indice">
+<!ENTITY indextab.accesskey "I">
+<!ENTITY ixname.label "Nome">
+<!ENTITY glossarytab.label "Glossario">
+<!ENTITY glossarytab.accesskey "G">
+<!ENTITY glossname.label "Nome">
+<!ENTITY gobtn.label "Ricerca">
+<!ENTITY name.label "Nome">

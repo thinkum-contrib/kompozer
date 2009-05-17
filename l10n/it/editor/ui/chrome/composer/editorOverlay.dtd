@@ -109,8 +109,6 @@
 <!ENTITY bodyTextCmd.label "Corpo del testo">
 <!ENTITY bodytext.accesskey "C">
 <!ENTITY boldToolbarCmd.tooltip "Grassetto">
-<!ENTITY borderProperties.label "Proprietà bordo">
-<!ENTITY borderproperties.accesskey "b">
 <!ENTITY bottomGlued.tooltip "Incolla al fondo">
 <!ENTITY bugReportsMenu.label "Segnalazioni difetti e suggerimenti">
 <!ENTITY bugreportsmenu.accesskey "d">
@@ -612,3 +610,14 @@
 <!ENTITY viewrulerscmd.accesskey "r">
 <!ENTITY writingDirectionMenu.label "Direzione di scrittura">
 <!ENTITY writingdirectionmenu.accesskey "c">
+<!ENTITY DesignMode.label "Disegno">
+<!ENTITY DesignMode.accesskey "d">
+<!ENTITY DesignMode.tooltip "Modo normale">
+<!ENTITY SplitMode.label "Spezza">
+<!ENTITY SplitMode.accesskey "s">
+<!ENTITY SplitMode.tooltip "Mostra il codice HTML dell'elemento corrente">
+<!ENTITY editNode.label "Modifica HTML">
+<!ENTITY editHead.label "Modifica contenuto &lt;head&gt;">
+<!ENTITY editBody.label "Modifica contenuto &lt;body&gt;">
+<!ENTITY confirmNode.label "Conferma">
+<!ENTITY cancelNode.label "Annulla">

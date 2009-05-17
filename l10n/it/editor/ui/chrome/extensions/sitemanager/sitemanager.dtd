@@ -19,3 +19,16 @@
 <!ENTITY sizeColumn.label "Dimensione">
 <!ENTITY stopButton.tooltip "Interrompi">
 <!ENTITY treeViewCheckbox.label "Vista albero">
+<!ENTITY filterCSS.label "Foglio di stile CSS">
+<!ENTITY filterMedia.label "File multimediali">
+<!ENTITY filterScripts.label "File di testo">
+<!ENTITY localTab.label "Locale">
+<!ENTITY remoteTab.label "Remoto">
+<!ENTITY openItem.label "Apri">
+<!ENTITY openAsText.label "Apri come testo">
+<!ENTITY openRemote.label "Apri directory remota">
+<!ENTITY insertImage.label "Inserisci immagine">
+<!ENTITY previewItem.label "Anteprima">
+<!ENTITY uploadItem.label "Carica…">
+<!ENTITY downloadItem.label "Ripristina…">
+<!ENTITY itemProperties.label "Propietà…">

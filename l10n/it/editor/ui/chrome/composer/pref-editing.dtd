@@ -16,25 +16,18 @@
 <!ENTITY defaultColors.accesskey "n">
 <!ENTITY defaultColorsRadio.label "Colori predefiniti utente (non modificare i colori nella pagina)">
 <!ENTITY defaultDirectionRadio.label "Nessuna direzione specificata">
-<!ENTITY dialect.label "Markup">
-<!ENTITY dtd.label "DTD:">
-<!ENTITY htmlMarkupLanguage.label "HTML 4">
 <!ENTITY i18nHeader "Internazionalizzazione">
 <!ENTITY lHeader "Imposta pagina">
 <!ENTITY language.label "Lingua:">
 <!ENTITY languageChoiceButton.label "Seleziona lingua">
 <!ENTITY linkText.accesskey "l">
 <!ENTITY linkText.label "Testo collegamento">
-<!ENTITY looseDTD.label "Transitional">
 <!ENTITY ltrDirectionRadio.label "Sinistra a destra">
-<!ENTITY markupLanguage.label "Lingua:">
 <!ENTITY normalText.accesskey "T">
 <!ENTITY normalText.label "Testo semplice">
 <!ENTITY pageColorHeader "Aspetto predefinito della pagina">
 <!ENTITY rHeader "Valori predefiniti per le nuove pagine">
 <!ENTITY rtlDirectionRadio.label "Destra a sinistra">
-<!ENTITY strictDTD.label "Strict">
 <!ENTITY visitedLinkText.accesskey "m">
 <!ENTITY visitedLinkText.label "Testo collegamento visitato">
 <!ENTITY writingDirection.label "Direzione scrittura:">
-<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">

@@ -41,3 +41,21 @@
 <!ENTITY username.tooltip "Il nome utente usato per accedere all'ISP od al servizio di hosting web">
 <!ENTITY windowTitle.label "Pubblicazione pagina">
 <!ENTITY windowTitleSettings.label "Impostazioni pubblicazione">
+<!ENTITY publishButton.label "Pubblicazione">
+<!ENTITY generalSettings.label "Impostazioni generali">
+<!ENTITY ftpSettings.label "Impostazioni FTP">
+<!ENTITY localSettings.label "Localizzazione">
+<!ENTITY siteDirectory.label "Cartella sito:">
+<!ENTITY siteDirectory.tooltip "La directory del tuo hard disk in cui hai salvato il sito">
+<!ENTITY browsePrefix.label "Prefisso:">
+<!ENTITY browsePrefix.tooltip "Prefisso da rimuovere nell'URL FTP, ad es. /public_html">
+
+<!ENTITY connection.label "Tipo di connessione">
+<!ENTITY port.label "Porta:">
+<!ENTITY pasv.label "Modalità passiva">
+<!ENTITY security.label "Sicurezza">
+<!ENTITY none.label "Nessuno">
+<!ENTITY authtls.label "Auth TLS (Migliore)">
+<!ENTITY authssl.label "Auth SSL (Ottimo)">
+<!ENTITY implicit.label "SSL Implicito (Buono)">
+<!ENTITY treesync.label "Sincronizza cartelle durante la navigazione">
