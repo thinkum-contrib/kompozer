@@ -54,17 +54,17 @@
 <!ENTITY bookmarkLinkCmd.accesskey "c">
 <!ENTITY bookmarkFrameCmd.label "Lesezeichen für diesen Frame hinzufügen">
 <!ENTITY bookmarkFrameCmd.accesskey "z">
-<!ENTITY savePageAsCmd.label "Seite speichern unter...">
+<!ENTITY savePageAsCmd.label "Seite speichern unter…">
 <!ENTITY savePageCmd.label "Seite speichern">
 <!ENTITY savePageCmd.accesskey "p">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY saveFrameAsCmd.label "Frame speichern unter...">
+<!ENTITY saveFrameAsCmd.label "Frame speichern unter…">
 <!ENTITY saveFrameCmd.label "Frame speichern">
 <!ENTITY saveFrameCmd.accesskey "m">
-<!ENTITY saveLinkAsCmd.label "Link-Ziel speichern unter...">
+<!ENTITY saveLinkAsCmd.label "Link-Ziel speichern unter…">
 <!ENTITY saveLinkCmd.label "Link-Ziel speichern">
 <!ENTITY saveLinkCmd.accesskey "Z">
-<!ENTITY saveImageAsCmd.label "Grafik speichern unter...">
+<!ENTITY saveImageAsCmd.label "Grafik speichern unter…">
 <!ENTITY saveImageCmd.label "Grafik speichern">
 <!ENTITY saveImageCmd.accesskey "p">
 <!ENTITY copyCmd.label "Kopieren">
@@ -103,5 +103,5 @@
 <!ENTITY spellNoSuggestions.label "(Keine Rechtschreib-Vorschläge)">
 <!ENTITY spellDictionaries.label "Sprachen">
 <!ENTITY spellDictionaries.accesskey "S">
-<!ENTITY spellAddDictionaries.label "Weitere Wörterbücher herunterladen...">
+<!ENTITY spellAddDictionaries.label "Weitere Wörterbücher herunterladen…">
 <!ENTITY spellAddDictionaries.accesskey "W">

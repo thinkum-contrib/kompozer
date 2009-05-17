@@ -42,7 +42,7 @@
 <!ENTITY sidebar.reload.label           "Aktualisieren">
 <!ENTITY sidebar.reload.accesskey       "A">
 <!ENTITY sidebar.picker.label           "Tabs">
-<!ENTITY sidebar.customize.label        "Sidebar anpassen...">
+<!ENTITY sidebar.customize.label        "Sidebar anpassen…">
 <!ENTITY sidebar.customize.accesskey    "s">
 <!ENTITY sidebar.hide.label             "Tab verstecken">
 <!ENTITY sidebar.hide.accesskey         "V">
@@ -50,7 +50,7 @@
 <!ENTITY sidebar.switch.accesskey       "W">
 <!ENTITY sidebarCmd.label               "Seitenverwaltung">
 <!ENTITY sidebarCmd.accesskey           "S">
-<!ENTITY sidebar.loading.label          "Lädt...">
+<!ENTITY sidebar.loading.label          "Lädt…">
 <!ENTITY sidebar.loadstopped.label      "Laden angehalten">
 <!ENTITY sidebar.loading.stop.label     "Anhalten">
 <!ENTITY sidebar.loading.stop.accesskey "N">
@@ -58,7 +58,7 @@
 <!ENTITY sidebar.no-panels.state     "DIe Sidebar ist zur Zeit leer.">
 <!ENTITY sidebar.no-panels.add       'Für neue Tabs klicken Sie oben auf die "Tabs"-Schaltfläche.'>
 <!ENTITY sidebar.no-panels.hide      'If you would like to completely hide the Sidebar, click on the "View" menu above, and select "Sidebar."'>
-<!ENTITY sidebar.sbDirectory.label   "Sidebar Directory...">
+<!ENTITY sidebar.sbDirectory.label   "Sidebar Directory…">
 
 <!ENTITY sidebar.pagenotfound.label  "This tab is not available right now.">
 <!ENTITY sidebar.close.tooltip       "Seitenverwaltung schließen">

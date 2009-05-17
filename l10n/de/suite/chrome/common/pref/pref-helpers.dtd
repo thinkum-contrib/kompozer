@@ -58,11 +58,11 @@
 <!ENTITY basicEncoding.label           "Nur &amp; &lt; &gt; ' und nicht umbrechbare Leerräume">
 <!ENTITY latin1EntitiesEncoding.label  "Obenstehende und Latin-1-Buchstaben">
 <!ENTITY htmlEntitiesEncoding.label    "Spezialzeichen in HTML 4">
-<!ENTITY allEntitiesEncoding.label     "Benutze &amp;#..; Darstellung für alle Nicht-ASCII-Zeichen">
+<!ENTITY allEntitiesEncoding.label     "Benutze &amp;#…; Darstellung für alle Nicht-ASCII-Zeichen">
 
 <!ENTITY realtimeSpellCheck.label      "Echtzeit-Rechtschreibpr&#252;fung">
 
-<!ENTITY spellCheckRealTime.label      "Unterstreiche falsch geschriebene W&#246;rter">
+<!ENTITY spellCheckRealTime.label      "Falsch geschriebene Wörter unterschreiben">
 <!ENTITY spellCheckRealTime.accesskey  "u">
 
 

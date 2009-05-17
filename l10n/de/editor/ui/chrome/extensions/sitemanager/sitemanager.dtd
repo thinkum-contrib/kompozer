@@ -63,17 +63,17 @@
 <!ENTITY renameButton.tooltip     "Datei oder Verzeichnis umbenennen">
 
 <!ENTITY filterControl.label      "Ansicht:">
-<!ENTITY filterCSS.label	"CSS">
-<!ENTITY filterMedia.label	"Objekt">
-<!ENTITY filterScripts.label	"Script">
-<!ENTITY localTab.label		"Lokal">
-<!ENTITY     remoteTab.label	"Server">
-<!ENTITY     openItem.label	"Objekt öffnen">
-<!ENTITY     openAsText.label	"Als Text öffnen">
-<!ENTITY     openRemote.label	"Auf Server öffnen">
-<!ENTITY     insertImage.label	"Bild einfügen">
-<!ENTITY     previewItem.label	"Objektvorschau">
-<!ENTITY     uploadItem.label	"Objekt hochladen">
-<!ENTITY     downloadItem.label	"Objekt herunterladen">
-<!ENTITY     itemProperties.label	"Objekteigenschaften">
+<!ENTITY filterCSS.label	        "CSS">
+<!ENTITY filterMedia.label	      "Objekt">
+<!ENTITY filterScripts.label	    "Skripte">
+<!ENTITY localTab.label		        "Lokal">
+<!ENTITY remoteTab.label	        "Server">
+<!ENTITY openItem.label	          "Datei öffnen">
+<!ENTITY openAsText.label	        "Als Text öffnen">
+<!ENTITY openRemote.label	        "Auf Server öffnen">
+<!ENTITY insertImage.label	      "Bild einfügen">
+<!ENTITY previewItem.label	      "Objektvorschau">
+<!ENTITY uploadItem.label	        "Objekt hochladen">
+<!ENTITY downloadItem.label	      "Objekt herunterladen">
+<!ENTITY itemProperties.label	    "Objekteigenschaften">
 

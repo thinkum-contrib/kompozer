@@ -9,10 +9,10 @@
 <!ENTITY findAgainCmd.label "Weitersuchen">
 <!ENTITY findOnCmd.accesskey "d">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findOnCmd.label "Quelltext durchsuchen...">
+<!ENTITY findOnCmd.label "Quelltext durchsuchen…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
-<!ENTITY goToLineCmd.label "Gehe zu Zeile...">
+<!ENTITY goToLineCmd.label "Gehe zu Zeile…">
 <!ENTITY mainWindow.preface "Quelltext von: ">
 <!ENTITY mainWindow.title "&brandFullName;">
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
@@ -26,15 +26,15 @@
 <!ENTITY menu_wrapLongLines.accesskey "L">
 <!ENTITY menu_wrapLongLines.title "Lange Zeilen umbrechen">
 <!ENTITY pageSetupCmd.accesskey "e">
-<!ENTITY pageSetupCmd.label "Seite einrichten...">
+<!ENTITY pageSetupCmd.label "Seite einrichten…">
 <!ENTITY printCmd.accesskey "D">
 <!ENTITY printCmd.commandkey "P">
-<!ENTITY printCmd.label "Drucken...">
+<!ENTITY printCmd.label "Drucken…">
 <!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printPreviewCmd.label "Druckvorschau">
 <!ENTITY savePageCmd.accesskey "S">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY savePageCmd.label "Speichern unter...">
+<!ENTITY savePageCmd.label "Speichern unter…">
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textReduce.commandkey "-">

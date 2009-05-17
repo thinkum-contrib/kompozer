@@ -1,19 +1,19 @@
 <!ENTITY actionQuestion.label "Wie soll &brandShortName; mit dieser Datei verfahren?">
 <!ENTITY chooseHandler.accesskey "D">
-<!ENTITY chooseHandler.label "Durchsuchen...">
+<!ENTITY chooseHandler.label "Durchsuchen…">
 <!ENTITY chooseHandlerMac.accesskey "D">
-<!ENTITY chooseHandlerMac.label "Durchsuchen...">
+<!ENTITY chooseHandlerMac.label "Durchsuchen…">
 <!ENTITY from.label "Von:">
 <!ENTITY intro.label "Sie möchten folgende Datei herunterladen:">
 <!ENTITY openWith.accesskey "Ö">
 <!ENTITY openWith.label "Öffnen mit">
-<!ENTITY other.label "Andere...">
+<!ENTITY other.label "Andere…">
 <!ENTITY rememberChoice.accesskey "F">
 <!ENTITY rememberChoice.label "Für Dateien dieses Typs immer diese Aktion ausführen">
 <!ENTITY save.accesskey "A">
 <!ENTITY save.label "Auf Diskette/Festplatte speichern">
-<!ENTITY settingsChange.label "Die Einstellungen können unter 'Extras' > 'Einstellungen...' > 'Inhalt' geändert werden.">
-<!ENTITY settingsChangeMac.label "Die Einstellungen können unter 'Extras' > 'Einstellungen...' > 'Inhalt' geändert werden.">
-<!ENTITY settingsChangeUnix.label "Die Einstellungen können unter 'Extras' > 'Einstellungen...' > 'Inhalt' geändert werden.">
+<!ENTITY settingsChange.label "Die Einstellungen können unter 'Extras' > 'Einstellungen…' > 'Inhalt' geändert werden.">
+<!ENTITY settingsChangeMac.label "Die Einstellungen können unter 'Extras' > 'Einstellungen…' > 'Inhalt' geändert werden.">
+<!ENTITY settingsChangeUnix.label "Die Einstellungen können unter 'Extras' > 'Einstellungen…' > 'Inhalt' geändert werden.">
 <!ENTITY unknownPromptText.label "Möchten Sie diese Datei auf Diskette/Festplatte speichern?">
 <!ENTITY whichIsA.label "Vom Typ:">

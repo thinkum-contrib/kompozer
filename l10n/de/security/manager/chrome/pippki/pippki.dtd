@@ -9,8 +9,8 @@
 <!ENTITY clientAuthAsk.message2 "Wählen Sie ein Zertifikat, das als Identifikation vorgezeigt wird:">
 <!ENTITY clientAuthAsk.message3 "Details des gewählten Zertifikats:">
 <!ENTITY clientAuthAsk.title "Benutzer-Identifikationsanfrage">
-<!ENTITY createCertInfo.msg1 "Der Schlüssel wird generiert... Dies kann einige Minuten dauern...">
-<!ENTITY createCertInfo.msg2 "Bitte warten...">
+<!ENTITY createCertInfo.msg1 "Der Schlüssel wird generiert… Dies kann einige Minuten dauern…">
+<!ENTITY createCertInfo.msg2 "Bitte warten…">
 <!ENTITY createCertInfo.title "Generierung eines privaten Schlüssels">
 <!ENTITY domainMismatch.title "Sicherheitsfehler: Domainnamen stimmen nicht überein">
 <!ENTITY downloadCert.message1 "Sie wurden gebeten, einer neuen Zertifizierungsstelle (CA) zu vertrauen.">

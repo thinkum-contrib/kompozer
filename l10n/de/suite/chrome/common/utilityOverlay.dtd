@@ -37,7 +37,7 @@
 <!ENTITY selectAllCmd.label "Alles auswählen">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "u">
-<!ENTITY preferencesCmd.label "Einstellungen...">
+<!ENTITY preferencesCmd.label "Einstellungen…">
 <!ENTITY preferencesCmd.key "E">
 <!ENTITY preferencesCmd.accesskey "n">
 <!ENTITY findTypeTextCmd.label "Text während der Eingabe suchen">
@@ -67,7 +67,7 @@
 <!ENTITY pac.accesskey "A">
 <!ENTITY wpad.label "Online (Proxy: Auto-Erkennung)">
 <!ENTITY wpad.accesskey "E">
-<!ENTITY proxy.label "Proxy-Konfiguration...">
+<!ENTITY proxy.label "Proxy-Konfiguration…">
 <!ENTITY proxy.accesskey "K">
 <!ENTITY bidiSwitchTextDirectionItem.label "Textrichtung wechseln">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey "w">

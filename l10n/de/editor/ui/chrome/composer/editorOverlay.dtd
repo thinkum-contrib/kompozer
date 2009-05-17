@@ -44,18 +44,18 @@
 <!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
 
 <!-- File menu items -->
-<!ENTITY fileMenu.label "Datei">
-<!ENTITY filemenu.accesskey "d">
-<!ENTITY newBlankPageCmd.label "Seite in neuem Fenster">
-<!ENTITY newBlankPage.accesskey "F" >
-<!ENTITY newOtherCmd.label "Erweitert...">
+<!ENTITY fileMenu.label            "Datei">
+<!ENTITY filemenu.accesskey        "d">
+<!ENTITY newBlankPageCmd.label     "Seite in neuem Fenster">
+<!ENTITY newBlankPage.accesskey    "F" >
+<!ENTITY newOtherCmd.label         "Erweitert…">
 
-<!ENTITY newMenu.label             "Neu...">
+<!ENTITY newMenu.label             "Neu…">
 <!ENTITY newTab.label              "Seite in neuem Tab">
-<!ENTITY openFileCmd.label         "Datei öffnen...">
+<!ENTITY openFileCmd.label         "Datei öffnen…">
 <!ENTITY fileopen.accesskey        "ö">
 <!ENTITY fileopen.keybinding       "o">
-<!ENTITY openremoteCmd.label       "Webadresse öffnen...">
+<!ENTITY openremoteCmd.label       "Webadresse öffnen…">
 <!ENTITY fileopenremote.accesskey  "f">
 <!ENTITY fileopenremote.keybinding "f">
 <!ENTITY fileRecentMenu.label      "Letzte geladene Seiten">
@@ -68,28 +68,28 @@
 <!ENTITY saveCmd.label             "Speichern">
 <!ENTITY filesave.accesskey        "s">
 <!ENTITY filesave.keybinding       "s">
-<!ENTITY saveAsCmd.label           "Speichern unter...">
+<!ENTITY saveAsCmd.label           "Speichern unter…">
 <!ENTITY filesaveas.accesskey      "u">
 
-<!ENTITY publishCmd.label "Publizieren...">
+<!ENTITY publishCmd.label "Publizieren…">
 <!ENTITY publishcmd.accesskey "b">
-<!ENTITY publishAsCmd.label "Publizieren als...">
+<!ENTITY publishAsCmd.label "Publizieren als…">
 <!ENTITY publishas.accesskey "z">
-<!ENTITY exportToTextCmd.label "Als Text exportieren...">
+<!ENTITY exportToTextCmd.label "Als Text exportieren…">
 <!ENTITY fileexporttotext.accesskey "X">
 <!ENTITY saveAsChangeEncodingCmd.label "Ändern der Zeichenkodierung und speichern">
 <!ENTITY filesaveandchangeencoding.accesskey "K">
 <!ENTITY previewCmd.label "Vorschau">
 <!ENTITY filepreview.accesskey "V">
 <!ENTITY filepreview.keybinding "VK_F5">
-<!ENTITY sendPageCmd.label "Seite senden...">
+<!ENTITY sendPageCmd.label "Seite senden…">
 <!ENTITY sendPage.accesskey "s">
-<!ENTITY printSetupCmd.label "Seite einrichten...">
+<!ENTITY printSetupCmd.label "Seite einrichten…">
 <!ENTITY fileprintsetup.accesskey "t">
 <!ENTITY printPreviewCmd.label "Druckvorschau">
 <!ENTITY fileprintpreview.accesskey "r">
-<!ENTITY printCmd.label "Drucken...">
-<!ENTITY printButtonCmd.label "Drucken...">
+<!ENTITY printCmd.label "Drucken…">
+<!ENTITY printButtonCmd.label "Drucken…">
 <!ENTITY fileprint.accesskey "D">
 <!ENTITY fileprint.keybinding "p">
 <!ENTITY closeCmd.label "Schließen">
@@ -107,7 +107,7 @@
 <!ENTITY pasteNoFormatting.accesskey "m">
 <!ENTITY pasteAs.label "Einfügen als">
 <!ENTITY pasteAs.accesskey "a">
-<!ENTITY publishSettings.label "Publizierungseinstellungen...">
+<!ENTITY publishSettings.label "Publizierungseinstellungen…">
 <!ENTITY publishSettings.accesskey "b">
 <!ENTITY detachFromTemplate.label "Von der Vorlage trennen">
 
@@ -134,7 +134,7 @@
 <!ENTITY editpastequotation.keybinding "v">
 <!ENTITY editStripQuotesCmd.label "Zitat-Ausschnitt">
 <!ENTITY editRewrapCmd.label "Neu umbrechen">
-<!ENTITY findCmd.label "Suchen und ersetzen...">
+<!ENTITY findCmd.label "Suchen und ersetzen…">
 <!ENTITY editfind.accesskey "s">
 <!ENTITY editfind.keybinding "f">
 <!ENTITY editfind.keybinding2 "VK_F19">                                      
@@ -176,30 +176,30 @@
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Einfügen">
 <!ENTITY insertmenu.accesskey "e">
-<!ENTITY insertLinkCmd.label "Link...">
+<!ENTITY insertLinkCmd.label "Link…">
 <!ENTITY insertlink.accesskey "l">
 <!ENTITY insertlink.keybinding "l">
-<!ENTITY insertAnchorCmd.label "Benanntes Ziel...">
+<!ENTITY insertAnchorCmd.label "Benanntes Ziel…">
 <!ENTITY insertanchor.accesskey "Z">
-<!ENTITY insertImageCmd.label "Grafik...">
+<!ENTITY insertImageCmd.label "Grafik…">
 <!ENTITY insertimage.accesskey "g">
-<!ENTITY insertImageMapCmd.label "Image Map...">
+<!ENTITY insertImageMapCmd.label "Image Map…">
 <!ENTITY insertHLineCmd.label "Horizontale Linie">
 <!ENTITY inserthline.accesskey "o">
-<!ENTITY insertTableCmd.label "Tabelle...">
+<!ENTITY insertTableCmd.label "Tabelle…">
 <!ENTITY inserttable.accesskey "t">
-<!ENTITY insertFormMenu.label "Formular...">
+<!ENTITY insertFormMenu.label "Formular…">
 <!ENTITY insertformmenu.accesskey "F">
-<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "h">
-<!ENTITY insertCharsCmd.label "Schriftzeichen und Symbole...">
+<!ENTITY insertCharsCmd.label "Schriftzeichen und Symbole…">
 <!ENTITY insertchars.accesskey "C">
 <!ENTITY insertBreakCmd.label "Zeilenvorschub">
 <!ENTITY insertbreak.accesskey "v">
 <!ENTITY insertBreakAllCmd.label "Neue Zeile unter Grafik(en)">
 <!ENTITY insertbreakall.accesskey "k">
 
-<!ENTITY insertNbspCmd.label "Nicht umbrechbare Leerräume...">
+<!ENTITY insertNbspCmd.label "Nicht umbrechbare Leerräume…">
 <!ENTITY insertNbsp.accesskey "n">
 
 <!ENTITY insertPHPCode.label "PHP Code">
@@ -208,27 +208,27 @@
 <!ENTITY insertcomment.accesskey "m">
 
 <!-- Insert form menu items -->
-<!ENTITY insertFormCmd.label "Formular definieren...">
+<!ENTITY insertFormCmd.label "Formular definieren…">
 <!ENTITY insertform.accesskey "F">
-<!ENTITY insertInputTagCmd.label "Formularfeld...">
+<!ENTITY insertInputTagCmd.label "Formularfeld…">
 <!ENTITY insertinputtag.accesskey "e">
-<!ENTITY insertInputImageCmd.label "Formulargrafik...">
+<!ENTITY insertInputImageCmd.label "Formulargrafik…">
 <!ENTITY insertinputimage.accesskey "I">
-<!ENTITY insertTextAreaCmd.label "Textfeld...">
+<!ENTITY insertTextAreaCmd.label "Textfeld…">
 <!ENTITY inserttextarea.accesskey "T">
-<!ENTITY insertSelectCmd.label "Auswahlliste...">
+<!ENTITY insertSelectCmd.label "Auswahlliste…">
 <!ENTITY insertselect.accesskey "S">
-<!ENTITY insertButtonCmd.label "Schaltfläche definieren...">
+<!ENTITY insertButtonCmd.label "Schaltfläche definieren…">
 <!ENTITY insertbutton.accesskey "S">
 <!ENTITY insertLabelCmd.label "Beschreibung definieren">
 <!ENTITY insertlabel.accesskey "B">
-<!ENTITY insertFieldSetCmd.label "Felderbereich definieren...">
+<!ENTITY insertFieldSetCmd.label "Felderbereich definieren…">
 <!ENTITY insertfieldset.accesskey "F">
 <!ENTITY insertIsIndexCmd.label "Indexsuche">
 <!ENTITY insertisindex.accesskey "x">
 
 <!-- Used just in context popup. -->
-<!ENTITY createLinkCmd.label "Link erstellen...">
+<!ENTITY createLinkCmd.label "Link erstellen…">
 <!ENTITY createlink.accesskey "k">
 <!ENTITY editLinkCmd.label "Link in neuem Fenster bearbeiten">
 <!ENTITY editlink.accesskey "i">
@@ -332,9 +332,9 @@
 <!ENTITY styleVar.label "Variable">
 <!ENTITY styleVar.accesskey "v">
 
-<!ENTITY formatFontColor.label "Textfarbe...">
+<!ENTITY formatFontColor.label "Textfarbe…">
 <!ENTITY formatfontcolor.accesskey "f">
-<!ENTITY tableOrCellColor.label "Tabellen- oder Zellen-Hintergrundfarbe...">
+<!ENTITY tableOrCellColor.label "Tabellen- oder Zellen-Hintergrundfarbe…">
 <!ENTITY tableOrCellColor.accesskey "B">
 
 <!ENTITY formatremovestyles.keybinding "y">
@@ -387,7 +387,7 @@
 <!ENTITY listterm.accesskey "k">
 <!ENTITY listDefinitionCmd.label "Definition">
 <!ENTITY listdefinition.accesskey "d">
-<!ENTITY listProps.label "Listeneigenschaften...">
+<!ENTITY listProps.label "Listeneigenschaften…">
 <!ENTITY listprops.accesskey "l">
 
 <!ENTITY ParagraphSelect.tooltip "Absatzformat auswählen">
@@ -447,9 +447,9 @@
 <!ENTITY grid.label "Positionierungsgitter">
 <!ENTITY grid.accesskey "g">
 
-<!ENTITY pageProperties.label "Seitentitel und -einstellungen...">
+<!ENTITY pageProperties.label "Seitentitel und -einstellungen…">
 <!ENTITY pageproperties.accesskey "e">
-<!ENTITY colorsAndBackground.label "Seitenfarben und -hintergrund...">
+<!ENTITY colorsAndBackground.label "Seitenfarben und -hintergrund…">
 <!ENTITY colorsandbackground.accesskey "s">
 
 <!-- Table Menu -->
@@ -510,7 +510,7 @@
 <!ENTITY tablesplitcell.accesskey "i">
 <!ENTITY convertToTable.label "Tabelle aus Auswahl erstellen">
 <!ENTITY converttotable.accesskey "r">
-<!ENTITY tableProperties.label "Tabelleneigenschaften...">
+<!ENTITY tableProperties.label "Tabelleneigenschaften…">
 <!ENTITY tableProperties.accesskey "t">
 
 <!-- Tools menu -->
@@ -611,22 +611,22 @@
 <!ENTITY ok.label "OK">
 
 <!-- Display Mode toolbar and View menu items -->
-<!ENTITY NormalModeTab.label "Normal">
-<!ENTITY NormalMode.label "Normaler Editier-Modus">
-<!ENTITY NormalMode.accesskey "n">
-<!ENTITY NormalMode.tooltip "Tabellenränder und benannte Ziele anzeigen">
-<!ENTITY AllTagsMode.label "HTML-Tags">
-<!ENTITY AllTagsMode.accesskey "t">
-<!ENTITY AllTagsMode.tooltip "Symbole für alle HTML-Tags anzeigen">
-
-<!ENTITY HTMLSourceMode.label "Quelltext">
+<!ENTITY NormalModeTab.label            "Normal">
+<!ENTITY NormalMode.label               "Normale Ansicht">
+<!ENTITY NormalMode.accesskey           "n">
+<!ENTITY NormalMode.tooltip             "Tabellenränder und benannte Ziele anzeigen">
+<!ENTITY AllTagsMode.label              "HTML-Tags">
+<!ENTITY AllTagsMode.accesskey          "t">
+<!ENTITY AllTagsMode.tooltip            "Symbole für alle HTML-Tags anzeigen">
+                                        
+<!ENTITY HTMLSourceMode.label           "Quelltext">
 <!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
-<!ENTITY SourceMode.label "Quelltext">
-<!ENTITY HTMLSourceMode.accesskey "q">
-<!ENTITY HTMLSourceMode.tooltip "Quelltext ändern">
-<!ENTITY PreviewMode.label "Vorschau">
-<!ENTITY PreviewMode.accesskey "v">
-<!ENTITY PreviewMode.tooltip "WYSIWYG-Ansicht">
+<!ENTITY SourceMode.label               "Quelltext">
+<!ENTITY HTMLSourceMode.accesskey       "q">
+<!ENTITY HTMLSourceMode.tooltip         "Quelltext ändern">
+<!ENTITY PreviewMode.label              "Vorschau">
+<!ENTITY PreviewMode.accesskey          "v">
+<!ENTITY PreviewMode.tooltip            "Vorschau Ansicht">
 
 <!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
      Use latin "ltr" if you want the <html> image to left of the 
@@ -637,105 +637,105 @@
 <!ENTITY SourceTabDirection "ltr">
 
 <!-- Structure Toolbar Context Menu items -->
-<!ENTITY structSelect.label         "Auswählen">
-<!ENTITY structSelect.accesskey     "u">
-<!ENTITY structRemoveTag.label      "Tag entfernen">
-<!ENTITY structRemoveTag.accesskey  "e">
-<!ENTITY structChangeTag.label      "Tag ändern">
-<!ENTITY structChangeTag.accesskey  "a">
-
-<!-- TOC manipulation -->
-<!ENTITY insertTOC.label          "Einfügen">
-<!ENTITY insertTOC.accesskey      "e">
-<!ENTITY updateTOC.label          "Aktualisieren">
-<!ENTITY updateTOC.accesskey      "a">
-<!ENTITY removeTOC.label          "Entfernen">
-<!ENTITY removeTOC.accesskey      "f">
-<!ENTITY tocMenu.label            "Inhaltsverzeichnis...">
-<!ENTITY tocMenu.accesskey        "h">
+<!ENTITY structSelect.label             "Auswählen">
+<!ENTITY structSelect.accesskey         "u">
+<!ENTITY structRemoveTag.label          "Tag entfernen">
+<!ENTITY structRemoveTag.accesskey      "e">
+<!ENTITY structChangeTag.label          "Tag ändern">
+<!ENTITY structChangeTag.accesskey      "a">
+                                        
+<!-- TOC manipulation -->               
+<!ENTITY insertTOC.label                "Einfügen">
+<!ENTITY insertTOC.accesskey            "e">
+<!ENTITY updateTOC.label                "Aktualisieren">
+<!ENTITY updateTOC.accesskey            "a">
+<!ENTITY removeTOC.label                "Entfernen">
+<!ENTITY removeTOC.accesskey            "f">
+<!ENTITY tocMenu.label                  "Inhaltsverzeichnis…">
+<!ENTITY tocMenu.accesskey              "h">
 
 <!-- Smart Widgets menu -->
 <!ENTITY insertSmartWidgetsMenu.label   "Objekte">
-<!ENTITY madeWithNvu.label        "'Made with &brandShortName;'-Logo">
-<!ENTITY insertCalendarSW.label   "Kalender">
+<!ENTITY madeWithNvu.label              "'Made with &brandShortName;'-Logo">
+<!ENTITY insertCalendarSW.label         "Kalender">
 
 <!-- Toolbar customization -->
-<!ENTITY customizeToolbar.label   "Symbolleiste anpassen">
-<!ENTITY customizeToolbar.accesskey "a">
+<!ENTITY customizeToolbar.label         "Symbolleiste anpassen">
+<!ENTITY customizeToolbar.accesskey     "a">
 
 <!-- Templates -->
-<!ENTITY templatesMenu.label      "Vorlagen">
-<!ENTITY insertEditableArea.label "Editierbaren Bereich einfügen">
-<!ENTITY removeEditableArea.label "Editierbaren Bereich entfernen">
-<!ENTITY makeEditableArea.label   "Editierbar machen">
+<!ENTITY templatesMenu.label            "Vorlagen">
+<!ENTITY insertEditableArea.label       "Editierbaren Bereich einfügen">
+<!ENTITY removeEditableArea.label       "Editierbaren Bereich entfernen">
+<!ENTITY makeEditableArea.label         "Editierbar machen">
 
 <!-- Advanced -->
-<!ENTITY writingDirectionMenu.label "Schreibrichtung">
+<!ENTITY writingDirectionMenu.label     "Schreibrichtung">
 <!ENTITY writingdirectionmenu.accesskey "r">
-<!ENTITY defaultDirectionMenu.label "Keine Richtung angegeben">
+<!ENTITY defaultDirectionMenu.label     "Keine Richtung angegeben">
 <!ENTITY defaultdirectionmenu.accesskey "k">
-<!ENTITY ltrDirectionMenu.label     "Links nach rechts">
-<!ENTITY ltrdirectionmenu.accesskey "l">
-<!ENTITY rtlDirectionMenu.label     "Rechts nach links">
-<!ENTITY rtldirectionmenu.accesskey "r">
+<!ENTITY ltrDirectionMenu.label         "Links nach rechts">
+<!ENTITY ltrdirectionmenu.accesskey     "l">
+<!ENTITY rtlDirectionMenu.label         "Rechts nach links">
+<!ENTITY rtldirectionmenu.accesskey     "r">
 
-<!ENTITY dirLtr.tooltip           "Links nach rechts">
-<!ENTITY dirRtl.tooltip           "Rechts nach links">
+<!ENTITY dirLtr.tooltip                 "Links nach rechts">
+<!ENTITY dirRtl.tooltip                 "Rechts nach links">
+                                        
+<!-- Help menu -->                      
+<!ENTITY helpMenu.label                 "Hilfe">
+<!ENTITY helpmenu.accesskey             "H">
+                                        
+<!ENTITY nvuComMenu.label               "&brandShortName; Website">
+<!ENTITY nvucommenu.accesskey           "K">
+<!ENTITY faqMenu.label                  "FAQ">
+<!ENTITY faqmenu.accesskey              "F">
+<!ENTITY bugReportsMenu.label           "Bugs und Vorschläge">
+<!ENTITY bugreportsmenu.accesskey       "B">
+<!ENTITY nvudevOrgMenu.label            "Entwicklungsseite &brandShortName;">
+<!ENTITY nvudevorgmenu.accesskey        "E">
+<!ENTITY nvuForumsMenu.label            "Forum">
+<!ENTITY nvuforumsmenu.accesskey        "o">
+<!ENTITY supportKompoZer.label          "Unterstützen Sie &brandShortName;">
+<!ENTITY supportKompoZer.accesskey      "s">
+<!ENTITY tipofthedayMenu.label          "Tipp des Tages">
+<!ENTITY tipofthedaymenu.accesskey      "T">
+<!ENTITY aboutMenu.label                "Über &brandShortName;">
+<!ENTITY aboutmenu.accesskey            "Ü">
 
-<!-- Help menu -->
-<!ENTITY helpMenu.label           "Hilfe">
-<!ENTITY helpmenu.accesskey       "H">
+<!ENTITY localizingnvu.accesskey        "S">
+<!ENTITY localizingNvu.label            "&brandShortName; lokalisieren">
+<!ENTITY userGuideMenu.label            "Online Handbuch [en]">
+<!ENTITY userguidemenu.accesskey        "O">
+<!ENTITY aboutLinspire.label            "Über Linspire Inc.">
+<!ENTITY aboutlinspire.accesskey        "L">
+<!ENTITY aboutDI.label                  "Über Disruptive Innovations">
+<!ENTITY aboutDI.accesskey              "I">
+                                        
+<!ENTITY leftGlued.tooltip              "Am linken Rand anheften">
+<!ENTITY rightGlued.tooltip             "Am rechten Rand anheften">
+<!ENTITY centerGlued.tooltip            "Zentriert anheften">
+<!ENTITY topGlued.tooltip               "Oben anheften">
+<!ENTITY bottomGlued.tooltip            "Unten anheften">
+<!ENTITY middleGlued.tooltip            "In der Mitte anheften">
 
-<!ENTITY nvuComMenu.label         "&brandShortName; Website">
-<!ENTITY nvucommenu.accesskey     "K">
-<!ENTITY faqMenu.label            "FAQ">
-<!ENTITY faqmenu.accesskey        "F">
-<!ENTITY bugReportsMenu.label     "Bugs und Vorschläge">
-<!ENTITY bugreportsmenu.accesskey "B">
-<!ENTITY nvudevOrgMenu.label      "Entwicklungsseite &brandShortName;">
-<!ENTITY nvudevorgmenu.accesskey  "E">
-<!ENTITY nvuForumsMenu.label      "Forum">
-<!ENTITY nvuforumsmenu.accesskey  "o">
-<!ENTITY supportKompoZer.label     "Unterstützen Sie &brandShortName;">
-<!ENTITY supportKompoZer.accesskey "s">
-<!ENTITY tipofthedayMenu.label    "Tipp des Tages">
-<!ENTITY tipofthedaymenu.accesskey "T">
-<!ENTITY aboutMenu.label          "Über &brandShortName;">
-<!ENTITY aboutmenu.accesskey      "Ü">
+<!ENTITY spellSuggestions.label         "Vorschläge">
+<!ENTITY spellSuggestions.accesskey     "V">
+<!ENTITY spellAddToDictionary.label     "Zum Wörterbuch hinzufügen">
+<!ENTITY DesignMode.label 	            "WYSIWYG">
+<!ENTITY DesignMode.accesskey           "W">
+<!ENTITY DesignMode.tooltip             "WYSIWYG-Editier-Modus">
+<!ENTITY SplitMode.label                "Teilen">
+<!ENTITY SplitMode.accesskey            "T">
+<!ENTITY SplitMode.tooltip              "Teilt das Bearbeitungsfenster in Quelltext und WYSIWYG-Editier-Modus">
+<!ENTITY editNode.label                 "Element bearbeiten">
+<!ENTITY editHead.label                 "<head>-Element bearbeiten">
+<!ENTITY editBody.label                 "<body>-Element bearbeiten">
+<!ENTITY confirmNode.label              "Anwenden">
+<!ENTITY cancelNode.label               "Abbrechen">
 
-<!ENTITY localizingnvu.accesskey  "S">
-<!ENTITY localizingNvu.label      "&brandShortName; lokalisieren">
-<!ENTITY userGuideMenu.label      "Online Handbuch [en]">
-<!ENTITY userguidemenu.accesskey  "O">
-<!ENTITY aboutLinspire.label      "Über Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey  "L">
-<!ENTITY aboutDI.label            "Über Disruptive Innovations">
-<!ENTITY aboutDI.accesskey        "I">
-
-<!ENTITY leftGlued.tooltip        "Am linken Rand anheften">
-<!ENTITY rightGlued.tooltip       "Am rechten Rand anheften">
-<!ENTITY centerGlued.tooltip      "Zentriert anheften">
-<!ENTITY topGlued.tooltip         "Oben anheften">
-<!ENTITY bottomGlued.tooltip      "Unten anheften">
-<!ENTITY middleGlued.tooltip      "In der Mitte anheften">
-
-<!ENTITY spellSuggestions.label   "Vorschläge">
-<!ENTITY spellSuggestions.accesskey "V">
-<!ENTITY spellAddToDictionary.label "Zum Wörterbuch hinzufügen">
-<!ENTITY DesignMode.label 	"WYSIWYG">
-<!ENTITY DesignMode.accesskey "W">
-<!ENTITY DesignMode.tooltip "Normalansicht">
-<!ENTITY SplitMode.label "Teilen">
-<!ENTITY SplitMode.accesskey "T">
-<!ENTITY SplitMode.tooltip "Teilt das Bearbeitungsfenster in HTML und Normalansicht">
-<!ENTITY editNode.label "Bearbeitungsansicht">
-<!ENTITY editHead.label "Seitenkopf">
-<!ENTITY editBody.label "Seite">
-<!ENTITY confirmNode.label "Anwenden">
-<!ENTITY cancelNode.label "Abbrechen">
-
-<!ENTITY    extEditor.label "Editor">
-<!ENTITY    extEditor.tooltip "Öffnet das Dokument in einem Externer Editor">
-<!ENTITY    extEditorCmd.label "Externer Text Editor">
-<!ENTITY    extEditorCmd.accesskey "x">
+<!ENTITY extEditor.label                "Editor">
+<!ENTITY extEditor.tooltip              "Öffnet das Dokument in einem Externer Editor">
+<!ENTITY extEditorCmd.label             "Externer Text Editor">
+<!ENTITY extEditorCmd.accesskey         "x">
 

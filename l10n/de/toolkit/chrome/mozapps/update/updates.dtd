@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth                 "39em">
 
 <!ENTITY  checking.title                  "Überprüfe auf verfügbare Updates">
-<!ENTITY  checking.label                  "Es wird nun überprüft, ob Updates für &brandShortName; zur Verfügung stehen...">
+<!ENTITY  checking.label                  "Es wird nun überprüft, ob Updates für &brandShortName; zur Verfügung stehen…">
 
 <!ENTITY  cancel.label                    "Abbrechen">
 <!ENTITY  cancel.accesskey                "A">
@@ -37,8 +37,8 @@
 <!ENTITY  license.decline.accesskey       "e">
 
 <!ENTITY  downloading.title               "Update herunterladen">
-<!ENTITY  downloading.intro               "Das Update wird heruntergeladen...">
-<!ENTITY  connecting.label                "Mit dem Update-Server verbinden...">
+<!ENTITY  downloading.intro               "Das Update wird heruntergeladen…">
+<!ENTITY  connecting.label                "Mit dem Update-Server verbinden…">
 <!ENTITY  verificationFailedText.label    "Die Integrität des heruntergeladenen, inkrementellen Updates für &brandShortName; konnte nicht sichergestellt werden. Daher wird nun das komplette Update-Paket heruntergeladen.">
 
 <!ENTITY  details.link                    "Details">
@@ -66,7 +66,7 @@
 
 <!ENTITY  installed.title                 "Update installiert">
 <!ENTITY  installed.intro                 "Das Update wurde erfolgreich installiert.">
-<!ENTITY  whatsnew.label                  "Lesen Sie mehr über die Neuigkeiten...">
+<!ENTITY  whatsnew.label                  "Lesen Sie mehr über die Neuigkeiten…">
 
 <!ENTITY  update.details.label            "Details">
 <!ENTITY  update.installedOn.label        "Installiert am:">

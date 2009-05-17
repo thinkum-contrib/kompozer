@@ -37,7 +37,7 @@
 <!ENTITY validation.deletecrl.label              "Löschen">
 <!ENTITY validation.deletecrl.accesskey          "L">
 <!ENTITY validation.managecrls.accesskey "E">
-<!ENTITY validation.managecrls.button "CRLs verwalten...">
+<!ENTITY validation.managecrls.button "CRLs verwalten…">
 <!ENTITY validation.ocsp.description "&brandShortName; kann das Online Certificate Status Protocol (OCSP) zum Verifizieren von Zertifikaten verwenden. OCSP wie folgt verwenden:">
 <!ENTITY validation.ocsp.caption "OCSP">
 <!ENTITY pref.validation.title "Validierung">
