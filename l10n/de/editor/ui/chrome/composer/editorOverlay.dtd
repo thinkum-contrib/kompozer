@@ -723,10 +723,10 @@
 <!ENTITY spellSuggestions.accesskey "V">
 <!ENTITY spellAddToDictionary.label "Zum Wörterbuch hinzufügen">
 <!ENTITY DesignMode.label 	"WYSIWYG">
-<!ENTITY DesignMode.accesskey "">
+<!ENTITY DesignMode.accesskey "W">
 <!ENTITY DesignMode.tooltip "Normalansicht">
 <!ENTITY SplitMode.label "Teilen">
-<!ENTITY SplitMode.accesskey "">
+<!ENTITY SplitMode.accesskey "T">
 <!ENTITY SplitMode.tooltip "Teilt das Bearbeitungsfenster in HTML und Normalansicht">
 <!ENTITY editNode.label "Bearbeitungsansicht">
 <!ENTITY editHead.label "Seitenkopf">
@@ -736,6 +736,6 @@
 
 <!ENTITY    extEditor.label "Editor">
 <!ENTITY    extEditor.tooltip "Öffnet das Dokument in einem Externer Editor">
-<!ENTITY    extEditorCmd.label "">
-<!ENTITY    extEditorCmd.accesskey "">
+<!ENTITY    extEditorCmd.label "Externer Text Editor">
+<!ENTITY    extEditorCmd.accesskey "x">
 

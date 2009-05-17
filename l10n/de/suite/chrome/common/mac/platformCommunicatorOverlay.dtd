@@ -10,16 +10,16 @@
 <!ENTITY quitApplicationCmd.key         "Q">
 
 <!-- End of Application menu -->
-<!ENTITY closeCmd.label                 "Schließen">  
-<!ENTITY closeCmd.key                   "W">  
+<!ENTITY closeCmd.label                 "Schließen">
+<!ENTITY closeCmd.key                   "W">
 
 <!ENTITY printSetupCmd.label            "Seite einrichten…">
 <!ENTITY printSetupCmd.accesskey        "S">
 
-<!ENTITY redoCmd.label                  "Wiederholen">  
-<!ENTITY redoCmd.key                    "Z">  
+<!ENTITY redoCmd.label                  "Wiederholen">
+<!ENTITY redoCmd.key                    "Z">
 
-<!ENTITY historyCmd.key                 "H">  
+<!ENTITY historyCmd.key                 "H">
 
 <!ENTITY findTypeTextCmd.key            "">
 <!ENTITY findTypeLinksCmd.key           "">
@@ -33,10 +33,13 @@
 <!-- Help menu -->
 <!ENTITY openHelpCmd.label              "&brandShortName;-Hilfe">
 <!ENTITY openHelpCmd.accesskey          "H">
-<!ENTITY openHelpCmd.key                "?">
-<!ENTITY openHelpCmd.modifiers          "accel">
 
-<!-- Key labels, for mousewheel prefs -->
-<!ENTITY openHelpFrontend.key		"">
-<!ENTITY openHelpFrontend.modifiers	"">
-<!ENTITY openHelp2Cmd.key 		"">
+<!-- LOCALIZATION NOTE: openHelpFrontend.key and openHelpFrontend.modifiers
+  will show the standard OS X shortcut (Cmd+? on most locales) in the Help
+  menu. To make the shortcut work, mapping (Cmd+Shift+/ on en-US) is done with
+  openHelpCmd.key and openHelpCmd.modifiers. -->
+<!ENTITY openHelpFrontend.key       "?">
+<!ENTITY openHelpFrontend.modifiers "accel">
+<!ENTITY openHelpCmd.key            "/">
+<!ENTITY openHelpCmd.modifiers      "accel,shift">
+<!ENTITY openHelp2Cmd.key           "VK_HELP">
