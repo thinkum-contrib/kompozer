@@ -1,0 +1,16 @@
+<!ENTITY helpers.label "Внешние приложения">
+<!ENTITY application.label "Приложение:">
+<!ENTITY webBrowser.label "Браузер">
+<!ENTITY textEditor.label "Текстовый редактор">
+<!ENTITY imageEditor.label "Графический редактор">
+<!ENTITY mediaPlayer.label "Медиа-проигрыватель">
+<!ENTITY fileManager.label "Файловый менеджер">
+<!ENTITY ftpClient.label "FTP клиент">
+<!ENTITY useSystemHelper.label "Использовать системные установки">
+<!ENTITY useCustomHelper.label "Использовать особое приложение:">
+<!ENTITY path.label "путь до файла">
+<!ENTITY arguments.label "агрументы">
+<!ENTITY filePicker.tooltip "Выбрать файл...">
+<!ENTITY fileFilter.label "Расширение файлов (*) для:">
+<!ENTITY default.label "по умолчанию">
+<!ENTITY needToRestart.label "(*) Изменения этих настроек вступят в силу после повторного запуска KompoZer.">
