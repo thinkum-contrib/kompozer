@@ -15,7 +15,7 @@
 <!ENTITY fantasy.accesskey "f">
 <!ENTITY cursive.label "Cursiva:">
 <!ENTITY cursive.accesskey "c">
-<!ENTITY fontsize.units "pixels">
+<!ENTITY fontsize.units "píxeles">
 <!ENTITY font.langGroup.latin1 "Occidental">
 <!ENTITY font.langGroup.latin2 "Centroeuropeo">
 <!ENTITY font.langGroup.japanese "Japonés">
@@ -27,7 +27,7 @@
 <!ENTITY font.langGroup.baltic "Báltico">
 <!ENTITY font.langGroup.el "Griego">
 <!ENTITY font.langGroup.turkish "Turco">
-<!ENTITY font.langGroup.unicode "Otros idiomas">
+<!ENTITY font.langGroup.unicode "Other Languages">
 <!ENTITY font.langGroup.user-def "Definido por el usuario">
 <!ENTITY font.langGroup.thai "Tailandés">
 <!ENTITY font.langGroup.hebrew "Hebreo">
@@ -42,7 +42,7 @@
 <!ENTITY font.langGroup.gujarati "Gujarati">
 <!ENTITY font.langGroup.gurmukhi "Gurmukhi">
 <!ENTITY font.langGroup.khmer "Khmer">
-<!ENTITY font.langGroup.malayalam "Malayo">
+<!ENTITY font.langGroup.malayalam "Malayalam">
 <!ENTITY minSize.label "Tamaño de letra mínimo:">
 <!ENTITY minSize.accesskey "o">
 <!ENTITY minSize.none "Ninguno">
@@ -52,7 +52,7 @@
 <!ENTITY useDocumentFonts.label "Permitir a los documentos usar otros tipos de letra">
 <!ENTITY useDocumentFonts.accesskey "o">
 <!ENTITY header2 "Cuando una página web escoja sus propios tipos de letra">
-<!ENTITY useDefaultFont.label "Usar mis tipos de letra predeterminados, ignorando los que la página haya escogido">
+<!ENTITY useDefaultFont.label "Usar mis tipos de letra predeterminados, descartando los que la página haya escogido">
 <!ENTITY useDefaultFont.accesskey "u">
 <!ENTITY useDocFontNonDynamic.label "Usar los tipos de letra escogidos por la página">
 <!ENTITY useDocFontNonDynamic.accesskey "p">

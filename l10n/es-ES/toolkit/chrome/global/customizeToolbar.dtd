@@ -1,12 +1,12 @@
 <!ENTITY dialog.title "Modificar barra de herramientas">
 <!ENTITY dialog.style "width: 635px; height: 400px;">
-<!ENTITY instructions.description "Puede añadir o borrar elementos arrastrándolos a la barra de herramientas.">
+<!ENTITY instructions.description "Puede añadir o eliminar un elemento arrastrándolo a la barra de herramientas.">
 <!ENTITY show.label "Mostrar:">
 <!ENTITY iconsAndText.label "Iconos y texto">
 <!ENTITY icons.label "Iconos">
 <!ENTITY text.label "Texto">
-<!ENTITY useSmallIcons.label "Usar iconos pequeños">
-<!ENTITY restoreDefaultSet.label "Valores por defecto">
-<!ENTITY addNewToolbar.label "Añadir barra">
-<!ENTITY saveChanges.label "Terminado">
+<!ENTITY useSmallIcons.label "Iconos pequeños">
+<!ENTITY restoreDefaultSet.label "Valores predeterminados">
+<!ENTITY addNewToolbar.label "Añadir barra de herramientas">
+<!ENTITY saveChanges.label "Hecho">
 <!ENTITY undoChanges.label "Deshacer cambios">

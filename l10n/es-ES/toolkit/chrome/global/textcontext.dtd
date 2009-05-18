@@ -8,12 +8,12 @@
 <!ENTITY undoCmd.accesskey "h">
 <!ENTITY selectAllCmd.label "Seleccionar todo">
 <!ENTITY selectAllCmd.accesskey "a">
-<!ENTITY deleteCmd.label "Borrar">
-<!ENTITY deleteCmd.accesskey "B">
+<!ENTITY deleteCmd.label "Eliminar">
+<!ENTITY deleteCmd.accesskey "l">
 <!ENTITY spellAddToDictionary.label "Añadir al diccionario">
 <!ENTITY spellAddToDictionary.accesskey "d">
-<!ENTITY spellEnable.label "Comprobar ortografía de este campo">
-<!ENTITY spellEnable.accesskey "S">
+<!ENTITY spellEnable.label "Revisar ortografía de este campo">
+<!ENTITY spellEnable.accesskey "e">
 <!ENTITY spellNoSuggestions.label "(No hay sugerencias)">
 <!ENTITY spellDictionaries.label "Idiomas">
 <!ENTITY spellDictionaries.accesskey "I">

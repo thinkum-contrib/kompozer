@@ -1,5 +1,9 @@
-<!ENTITY prefWindow.size "width: 57em; height: 41em;">
+<!ENTITY winhooks.label "Sistema">
+<!ENTITY defaultBrowserGroup.label "Navegador predeterminado">
+<!ENTITY defaultBrowserButton.label "Fijar navegador predeterminado">
+<!ENTITY alreadyDefaultText "&brandShortName; ya es su navegador predeterminado.">
+<!ENTITY defaultPendingText "&brandShortName; se fijará como su navegador por omisión cuando pulse Aceptar.">
+<!ENTITY makeDefaultText "Fijar &brandShortName; como su navegador predeterminado.">
 <!ENTITY urlbar.label "Ctrl+Enter en la barra de direcciones">
-<!ENTITY urlbar.accesskey "L">
 <!ENTITY middleClick.label "Clic con el botón central, Ctrl+clic o Ctrl+Enter en enlaces en una página web">
-<!ENTITY middleClick.accesskey "e">
+<!ENTITY prefWindow.size "width: 52em; height: 41em;">

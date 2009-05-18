@@ -23,7 +23,7 @@
    -   Blake Ross <BlakeR1234@aol.com>
    -   Samir Gehani <sgehani@netscape.com>
    -   Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
-   -   
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -43,13 +43,13 @@
 <!ENTITY sidebar.reload.accesskey "R">
 <!ENTITY sidebar.picker.label "Pestañas">
 <!ENTITY sidebar.customize.label "Personalizar el panel lateral...">
-<!ENTITY sidebar.customize.accesskey "P">
+<!ENTITY sidebar.customize.accesskey "n">
 <!ENTITY sidebar.hide.label "Esconder pestaña">
 <!ENTITY sidebar.hide.accesskey "E">
 <!ENTITY sidebar.switch.label "Cambiar a la pestaña">
-<!ENTITY sidebar.switch.accesskey "T">
+<!ENTITY sidebar.switch.accesskey "C">
 <!ENTITY sidebarCmd.label "Administrador de sitios">
-<!ENTITY sidebarCmd.accesskey "m">
+<!ENTITY sidebarCmd.accesskey "A">
 <!ENTITY sidebar.loading.label "Cargando...">
 <!ENTITY sidebar.loadstopped.label "Carga detenida">
 <!ENTITY sidebar.loading.stop.label "Parar">

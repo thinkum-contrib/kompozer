@@ -1,11 +1,11 @@
 <!ENTITY mainWindow.title "&brandFullName;">
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!ENTITY mainWindow.titlemodifierseparator " - ">
-<!ENTITY mainWindow.preface "Código fuente de:">
+<!ENTITY mainWindow.preface "Código fuente de: ">
 <!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "A">
-<!ENTITY savePageCmd.label "Guardar página actual como...">
-<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.label "Guardar como...">
+<!ENTITY savePageCmd.accesskey "G">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Configurar página...">
 <!ENTITY pageSetupCmd.accesskey "u">
@@ -34,17 +34,17 @@
 <!ENTITY menu_highlightSyntax.label "Resaltar sintaxis">
 <!ENTITY menu_highlightSyntax.accesskey "x">
 <!ENTITY menu_textSize.label "Tamaño del texto">
-<!ENTITY menu_textSize.accesskey "t">
-<!ENTITY menu_textEnlarge.label "Aumentar">
+<!ENTITY menu_textSize.accesskey "T">
+<!ENTITY menu_textEnlarge.label "Aumentar el tamaño del texto">
 <!ENTITY menu_textEnlarge.accesskey "A">
-<!ENTITY menu_textReduce.label "Reducir">
-<!ENTITY menu_textReduce.accesskey "D">
+<!ENTITY menu_textReduce.label "Reducir el tamaño del texto">
+<!ENTITY menu_textReduce.accesskey "R">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
-<!ENTITY findOnCmd.label "Buscar en esta página...">
-<!ENTITY findOnCmd.accesskey "p">
+<!ENTITY findOnCmd.label "Encontrar en esta página...">
+<!ENTITY findOnCmd.accesskey "E">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label "Repetir la búsqueda">
-<!ENTITY findAgainCmd.accesskey "q">
+<!ENTITY findAgainCmd.accesskey "b">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">

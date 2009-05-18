@@ -11,15 +11,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Nvu.
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
    -
    - The Initial Developer of the Original Code is
-   - Linspire Inc..
-   - Portions created by the Initial Developer are Copyright (C) 2004
+   - Fabien Cazenave.
+   - Portions created by the Initial Developer are Copyright (C) 2002
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Daniel Glazman <glazman@disruptive-innovations.com>, on behalf of Linspire Inc.
+   -   Original author: Fabien Cazenave <kaze@kompozer.net>
    -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
@@ -35,13 +35,4 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY window.title "Limpiador de código">
-<!ENTITY trailingBR.label "Eliminar &lt;br&gt; del final">
-<!ENTITY emptyBlocks.label "Eliminar bloques vacíos">
-<!ENTITY emptyCells.label "Elminar alineación en celdas vacías">
-<!ENTITY nestedLists.label "Corregir listas anidadas">
-<!ENTITY localUrls.label "Hacer relativas las URLs locales">
-<!ENTITY cleanUp.label "Hacer limpieza">
-<!ENTITY close.label "Cerrar">
-<!ENTITY actionColumnHeader.label "Acción">
-<!ENTITY reportColumnHeader.label "Resultado">
+<!ENTITY domExplorer.label "Explorador DOM">

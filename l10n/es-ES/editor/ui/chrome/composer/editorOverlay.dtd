@@ -27,7 +27,7 @@
    -    Stephen Donner (technutz@netscape.net)
    -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
    -    Fabien Cazenave (kaze@kompozer.net)
-   -   
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -535,13 +535,19 @@
 <!ENTITY AllTagsMode.label "Etiquetas HTML">
 <!ENTITY AllTagsMode.accesskey "a">
 <!ENTITY AllTagsMode.tooltip "Muestra iconos para todas las etiquetas HTML">
+<!ENTITY PreviewMode.label "Vista preliminar">
+<!ENTITY PreviewMode.accesskey "p">
+<!ENTITY PreviewMode.tooltip "Muestra como WYSIWYG (sin iconos para las marcas invisibles)">
+<!ENTITY DesignMode.label "Diseño">
+<!ENTITY DesignMode.accesskey "d">
+<!ENTITY DesignMode.tooltip "Modo de edición normal">
+<!ENTITY SplitMode.label "Dividir">
+<!ENTITY SplitMode.accesskey "v">
+<!ENTITY SplitMode.tooltip "Mostrar el código HTML del elemento actual">
 <!ENTITY HTMLSourceMode.label "Código fuente HTML">
 <!ENTITY SourceMode.label "Código fuente">
 <!ENTITY HTMLSourceMode.accesskey "H">
 <!ENTITY HTMLSourceMode.tooltip "Edita el código fuente HTML">
-<!ENTITY PreviewMode.label "Vista preliminar">
-<!ENTITY PreviewMode.accesskey "p">
-<!ENTITY PreviewMode.tooltip "Muestra como WYSIWYG (sin iconos para las marcas invisibles)">
 <!ENTITY SourceTabDirection "ltr">
 <!ENTITY structSelect.label "Seleccionar">
 <!ENTITY structSelect.accesskey "s">
@@ -578,7 +584,7 @@
 <!ENTITY dirRtl.tooltip "De derecha a izquierda">
 <!ENTITY helpMenu.label "Ayuda">
 <!ENTITY helpmenu.accesskey "u">
-<!ENTITY nvuComMenu.label "Sito web de &brandShortName;">
+<!ENTITY nvuComMenu.label "Sitio web de &brandShortName;">
 <!ENTITY nvucommenu.accesskey "K">
 <!ENTITY faqMenu.label "FAQ">
 <!ENTITY faqmenu.accesskey "F">
@@ -588,8 +594,8 @@
 <!ENTITY nvudevorgmenu.accesskey "D">
 <!ENTITY nvuForumsMenu.label "Foros">
 <!ENTITY nvuforumsmenu.accesskey "o">
-<!ENTITY supportKompoZer.label     "*Support &brandShortName;">
-<!ENTITY supportKompoZer.accesskey "s">
+<!ENTITY supportKompoZer.label "Apoyar &brandShortName;">
+<!ENTITY supportKompoZer.accesskey "y">
 <!ENTITY tipofthedayMenu.label "Consejo del día">
 <!ENTITY tipofthedaymenu.accesskey "j">
 <!ENTITY aboutMenu.label "Acerca de &brandShortName;">
@@ -611,3 +617,12 @@
 <!ENTITY spellSuggestions.label "Sugerencias de ortografía">
 <!ENTITY spellSuggestions.accesskey "S">
 <!ENTITY spellAddToDictionary.label "Añadir al diccionario">
+<!ENTITY editNode.label "Editar HTML">
+<!ENTITY editHead.label "Editar contenido de &lt;head&gt;">
+<!ENTITY editBody.label "Editar contenido de &lt;body&gt;">
+<!ENTITY confirmNode.label "Confirmar cambios">
+<!ENTITY cancelNode.label "Cancelar cambios">
+<!ENTITY extEditor.label "HTML">
+<!ENTITY extEditor.tooltip "Abrir el documento actual en un editor de textos externo">
+<!ENTITY extEditorCmd.label "Editor de textos externo">
+<!ENTITY extEditorCmd.accesskey "E">

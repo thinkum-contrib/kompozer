@@ -49,7 +49,7 @@
     <language>es-es</language>
   
     <item>
-      <title>...puede mover elementos?</title>
+      <title>…puede mover elementos?</title>
       <description>S&#243;lo tiene que situar el cursor en el bloque que quiere
                    mover y hacer clic una vez en el bot&#243;n Capa para convertir
                    el bloque en movible.
@@ -57,7 +57,7 @@
     </item>
   
     <item>
-      <title>...puede personalizar las barras de herramientas?</title>
+      <title>…puede personalizar las barras de herramientas?</title>
       <description>Use el men&#250; "Ver > Mostrar/Ocultar > Personalizar barra de
                    herramientas" para abrir el panel de personalizaci&#243;n de la
                    barra de herramientas. Luego arrastre y suelte para a&#241;adir,
@@ -66,30 +66,20 @@
     </item>
   
     <item>
-      <title>...puede crear una nueva barra de herramientas?</title>
-      <description>Use el men&#250; "Ver > Mostrar/Ocultar > Personalizar barra de
-                   herramientas > Barra de formato" para abrir el panel de
-                   personalizaci&#243;n de la barra de herramientas. Luego pulse
-                   en el bot&#243;n "A&#241;adir nueva barra". Las barras vac&#237;as
-                   desaparecen autom&#225;ticamente cuando se cierra el panel de
-                   personalizaci&#243;n.</description>
-    </item>
-  
-    <item>
-      <title>...&brandShortName; tiene un editor CSS?</title>
+      <title>…&brandShortName; tiene un editor CSS?</title>
       <description>&brandShortName; integra el editor CSS CaScadeS. &#193;bralo usando el
                    men&#250; Herramientas > Editor CSS.</description>
     </item>
   
     <item>
-      <title>...&brandShortName; tiene un administrador de sitios web?</title>
+      <title>…&brandShortName; tiene un administrador de sitios web?</title>
       <description>Use la tecla F9 o el men&#250; "Ver > Mostrar/Ocultar >
                    Administrador de sitios" para mostrar u ocultar el
                    administrador de sitios.</description>
     </item>
 
     <item>
-      <title>...puede aplicar estilos CSS a cualquier elemento?</title>
+      <title>…puede aplicar estilos CSS a cualquier elemento?</title>
       <description>Sit&#250;e el cursor en el elemento al que desea aplicar
                    un estilo y haga clic con el bot&#243;n derecho en la etiqueta
                    del elemento en la barra de estructura, en la parte
@@ -100,13 +90,13 @@
     </item>
 
     <item>
-      <title>...puede controlar la direcci&#243;n de escritura?</title>
+      <title>…puede controlar la direcci&#243;n de escritura?</title>
       <description>Personalice sus barras de herramientas y a&#241;ada los
                    dos botones de control de direcci&#243;n.</description>
     </item>
 
     <item>
-      <title>...puede redimensionar tablas con el rat&#243;n?</title>
+      <title>…puede redimensionar tablas con el rat&#243;n?</title>
       <description>S&#243;lo tiene que mostrar las reglas usando Ver > Mostrar/Ocultar
                    > Reglas y situar el cursor dentro de la celda de una
                    tabla para que aparezcan los redimensionadores.
@@ -114,58 +104,58 @@
     </item>
 
     <item>
-      <title>...puede personalizar f&#225;cilmente una barra de herramientas?</title>
+      <title>…puede personalizar f&#225;cilmente una barra de herramientas?</title>
       <description>S&#243;lo tiene que hacer clic con el bot&#243;n derecho en
-                   ella...</description>
+                   ella…</description>
     </item>
 
     <item>
-      <title>...tiene acceso directo a la comunidad &brandShortName;?</title>
+      <title>…tiene acceso directo a la comunidad &brandShortName;?</title>
       <description>S&#243;lo tiene que seleccionar la entrada de men&#250;
                    Ayuda > Foros.</description>
     </item>
 
     <item>
-      <title>...&brandShortName; puede abrir un documento autom&#225;ticamente al iniciarse?</title>
+      <title>…&brandShortName; puede abrir un documento autom&#225;ticamente al iniciarse?</title>
       <description>Use la l&#237;nea de &#243;rdenes:      kompozer _su_url_</description>
     </item>
 
     <item>
-      <title>...puede editar m&#225;s de un sitio al mismo tiempo?</title>
+      <title>…puede editar m&#225;s de un sitio al mismo tiempo?</title>
       <description>El administrador de sitios web puede abrir y mostrar los
                    contenidos de m&#250;ltiples sitios web al mismo tiempo.</description>
     </item>
 
     <item>
-      <title>...&brandShortName; es multiplataforma?</title>
+      <title>…&brandShortName; es multiplataforma?</title>
       <description>&brandShortName; existe en una amplia variedad de sistemas operativos,
                    incluyendo Windows, Mac OS X, muchas variantes de Linux,
-                   OS/2, ...</description>
+                   OS/2…</description>
     </item>
 
     <item>
-      <title>...puede crear una nueva pesta&#241;a con una combinaci&#243;n de teclas?</title>
+      <title>…puede crear una nueva pesta&#241;a con una combinaci&#243;n de teclas?</title>
       <description>Control+t (Command+t en Mac OS X) crea una nueva pesta&#241;a vac&#237;a.</description>
     </item>
 
     <item>
-      <title>...puede crear una nueva ventana con una combinaci&#243;n de teclas?</title>
+      <title>…puede crear una nueva ventana con una combinaci&#243;n de teclas?</title>
       <description>Control+Mays+n (Command+Mays+t en Mac OS X) crea una nueva ventana
                    vac&#237;a.</description>
     </item>
 
     <item>
-      <title>...puede cambiar el borde de una &#250;nica celda en una tabla?</title>
+      <title>…puede cambiar el borde de una &#250;nica celda en una tabla?</title>
       <description>Sit&#250;e el cursor en esa celda, haga clic con el bot&#243;n derecho en la etiqueta de la celda en la barra de estado y seleccione Estilos incrustados &gt; Propiedades del borde</description>
     </item>
 
     <item>
-      <title>...puede cerrar una pesta&#241;a con un clic?</title>
+      <title>…puede cerrar una pesta&#241;a con un clic?</title>
       <description>S&#243;lo tiene que hacer clic con el bot&#243;n central en la propia pesta&#241;a</description>
     </item>
 
     <item>
-      <title>...puede cerrar la pesta&#241;a actual con una pulsaci&#243;n de tecla?</title>
+      <title>…puede cerrar la pesta&#241;a actual con una pulsaci&#243;n de tecla?</title>
       <description>Control-F4 cierra la pesta&#241;a activa.</description>
     </item>
   </channel>

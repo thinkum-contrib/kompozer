@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Original author: Daniel Glazman (daniel@glazman.org)
-   -   
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -40,9 +40,9 @@
 <!ENTITY expertModeChecbox.label "Modo experto">
 <!ENTITY importRuleButton.label "@import">
 <!ENTITY mediaRuleButton.label "@media">
-<!ENTITY linkedSheetButton.label "Elem. enlace">
-<!ENTITY styleSheetButton.label "Elem. estilo">
-<!ENTITY ruleButton.label "Regla">
+<!ENTITY linkedSheetButton.label "Hoja de estilos enlazada">
+<!ENTITY styleSheetButton.label "Hoja de estilos interna">
+<!ENTITY ruleButton.label "Regla de estilo">
 <!ENTITY upButton.label "Subir">
 <!ENTITY downButton.label "Abajo">
 <!ENTITY refreshButton.label "Recargar">
@@ -234,15 +234,11 @@
 <!ENTITY listStylePosition.label "Posición para el estilo de lista:">
 <!ENTITY insideListStylePosition.label "dentro">
 <!ENTITY outsideListStylePosition.label "fuera">
-
-<!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extraer y crear estilo genérico">
-<!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Estilos actuales para:">
-<!ENTITY renameButton.label                     "Editar">
-
-<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
-<!ENTITY autoMarginUnit.label                   "auto">
-<!ENTITY thinBorderUnit.label                   "thin">
-<!ENTITY mediumBorderUnit.label                 "medium">
-<!ENTITY thickBorderUnit.label                  "thick">
+<!ENTITY makeCSSRule.label "Extraer y crear estilo genérico">
+<!ENTITY makecssrule.accesskey "E">
+<!ENTITY currentstylesfor.label "Estilos actuales para:">
+<!ENTITY renameButton.label "Selector de edición">
+<!ENTITY autoMarginUnit.label "auto">
+<!ENTITY thinBorderUnit.label "fino">
+<!ENTITY mediumBorderUnit.label "Medio">
+<!ENTITY thickBorderUnit.label "grueso">

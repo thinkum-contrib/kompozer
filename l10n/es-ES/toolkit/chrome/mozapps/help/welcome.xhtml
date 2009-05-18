@@ -1,69 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
-    <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd" >
+    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
     %brandDTD;
 ]
 >
-<!--
-Contributors:
-  R.J. Keller <rlk@trfenv.com> (original author)
-  Jeff Walden <jwalden+code@mit.edu>
-  Steffen Wilberg <steffen.wilberg@web.de>
-
- Proyecto NAVE (http://nave.escomposlinux.org/)
--->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Usar la ventana de ayuda</title>
-  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+	<title>Usar la ventana de ayuda</title>
+	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
+  <script type="text/javascript">
+    var isDisplayed = true;
+
+    function togglePanel() {
+      isDisplayed = !isDisplayed;
+      var displayValue = isDisplayed ? "display: block" : "display: none";
+      var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+      document.getElementById("contentsBox").setAttribute("style", displayValue);
+      document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+    }
+  </script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
+</tr>
+</table>
+<div id="contentsBox">En esta secci&oacute;n:
+  <a href="#finding_the_topic_you_want">Buscar el tema deseado</a>
+  <a href="#retracing_your_steps">Volver sobre sus pasos</a>
+  <a href="#search_tips">Consejos de b&uacute;squeda</a>
+</div>
 
 <h1 id="help_window_top">Usar la ventana de ayuda</h1>
 
-<div class="contentsBox">En esta secci&oacute;n:
-  <ul>
-    <li><a href="#finding_the_topic_you_want">Encontrar el tema deseado</a></li>
-    <li><a href="#search_tips">Consejos para buscar</a></li>
-  </ul>
-</div>
+<p>Esta secci&oacute;n describe c&oacute;mo utilizar la ventana de ayuda (la ventana completa
+en la cual se muestran este texto y la barra lateral de la izquierda).</p>
 
-<h2 id="finding_the_topic_you_want">Encontrar el tema deseado</h2>
+<h2 id="finding_the_topic_you_want">Buscar el tema deseado</h2>
 
-<p>Para mostrar informaci&oacute;n de la ayuda en esta ventana, pulse en un tema
-  en el panel lateral <em>Contenidos</em>. Pulse el <span class="noMac">icono con el signo +</span>
-  <span class="mac">tri&aacute;ngulo</span> junto a un tema para ver los subtemas.</p>
+	<p>Mientras est&aacute; viendo la ventana de ayuda, pulse las pesta&ntilde;as
+	en el marco izquierdo para visualizar los contenidos de ayuda en diferentes
+	modos:</p>
 
-<p>Para buscar por un tema de ayuda, escriba una palabra o frase en la barra de <em>b&uacute;squeda</em>
-  para ver los temas relacionados. Pulse en un tema para leer acerca del mismo. Si su b&uacute;squeda
-  no devuelve ning&uacute;n tema, intente escribir menos palabras o una combinaci&oacute;n de palabras distinta.
-  Los resultados se mostrar&aacute;n en el panel lateral <em>Buscar</em> mientras escribe.
-  Para volver a mostrar los contenidos del panel lateral, pulse el bot&oacute;n Cerrar en el panel
-  lateral <em>Buscar</em>, vacie la barra <em>Buscar</em> o pulse <kbd>Esc</kbd>.</p>
+	<ul>
+		<li><strong>Contenido</strong> muestra la lista de temas principales.<br/>
+		  Haga clic en un tema para leer sobre &eacute;l, o doble-clic para ver sus subtemas.</li>
+		 <li><strong>B&uacute;squeda</strong> le permite buscar los archivos de la ayuda.<br/>
+		  Escriba una palabra o frase y presione Intro para ver los temas relacionados. Luego pulse
+		  en el tema sobre el que quiere leer.<br/><br/>
+		  Si su b&uacute;squeda no devuelve ning&uacute;n tema, intente escribir menos palabras o una
+		  combinaci&oacute;n diferente de palabras.</li>
+		 <li><strong>&Iacute;ndice</strong> lista los temas alfab&eacute;ticamente.<br/>
+		 Pulse en una entrada del &iacute;ndice para ver informaci&oacute;n sobre ese tema.</li>
+		 <li><strong>Glosario</strong> muestra las definiciones alfab&eacute;ticamente.<br/>
+		 Presione en un t&eacute;rmino del glosario para ver su definici&oacute;n.</li>
+	</ul>
 
-<p>Para ver informaci&oacute;n relacionada con el tema de ayuda que est&aacute; leyendo, pulse los enlaces en
-  la ventana de ayuda igual que si fuera una p&aacute;gina web normal. Tambi&eacute;n se puede mover
-  hacia atr&aacute;s y hacia adelente entre las p&aacute;ginas que ya ha visitado usando los botones
-  Adelante y Atr&aacute;s.</p>
+	<p>Para ver la informaci&oacute;n relacionada con el tema de la ayuda que est&aacute; leyendo,
+	pulse en los enlaces de la ventana de ayuda como har&iacute;a en una p&aacute;gina web normal.</p>
+	
+<h2 id="retracing_your_steps">Volver sobre sus pasos</h2>
+	<p>Para volver sobre sus pasos en la ayuda, pulse en los botones cercanos a la esquina superior izquierda de
+	  la ventana de ayuda:</p>
 
-<h2 id="search_tips">Consejos para buscar</h2>
+	<p><img src="images/help-buttons.png" alt="" width="209" height="43"/></p>
 
-<p>Si no encuentra lo que busca, a continuaci&oacute;n hay algunos consejos &uacute;tiles:</p>
+	<ul>
+    <li>Pulse en el bot&oacute;n Mostrar/Ocultar panel lateral para mostrar y
+    ocultar el contenido del panel de control en el lado izquierdo de la ventana de
+    ayuda.</li>
+		<li>Pulse en el bot&oacute;n Anterior para ir hacia atr&aacute;s por las
+		p&aacute;ginas que ha visitado previamente. Funciona igual que el bot&oacute;n
+		Anterior de la ventana principal de &brandShortName;.</li>
+		<li>Pulse en el bot&oacute;n Adelante para ir hacia adelante por las
+		p&aacute;ginas que ha visitado previamente. Funciona igual que el
+		bot&oacute;n Adelante de la ventana principal de &brandShortName;.</li>
+		<li>Pulse en el bot&oacute;n Inicio para ver el Centro de ayuda y soporte,
+		que incluye enlaces a alternativas de soporte y recursos basados en web.</li>
+	</ul>
 
-<ul>
-  <li>Aseg&uacute;rese de que busca algo relacionado con &brandShortName;; &eacute;sta no es una b&uacute;squeda
-    general por Internet.</li>
-  <li>Intente ampliar la b&uacute;squeda - no sea demasiado espec&iacute;fico, ya que los t&eacute;rminos pueden estar
-    escritos de forma distinta a la utilizada en la b&uacute;squeda.</li>
-  <li>Evite ser demasido amplio al buscar. Por ejemplo, una palabra de uso com&uacute;n como
-    &quot;p&aacute;gina&quot; devolver&aacute;n m&aacute;s temas de los deseados.</li>
-</ul>
+	<p>Alternativamente, imprima las instrucciones que quiere seguir:</p>
 
-<div class="contentsBox"><p><em>09 Julio 2005</em></p>
-<p><em>Traducido el 13 de mayo de 2006</em></p></div>
-<p>Copyright &copy; 2003-2006 Colaboradores del proyecto del visor de ayuda para Mozilla.</p>
+	<ul>
+		<li>Para imprimir la p&aacute;gina entera que se muestra actualmente en la
+		ventana de ayuda, pulse el bot&oacute;n Imprimir cerca de la esquina superior
+		derecha de la ventana de ayuda:<br/>
+
+		<img src="images/print.png" alt="" width="38" height="43"/></li>
+
+		<li>Para imprimir s&oacute;lo una parte de la p&aacute;gina, primero pulse y arrastre
+		para seleccionar el &aacute;rea que quiere imprimir y luego haga clic en el
+		bot&oacute;n Imprimir.</li>
+	</ul>
+
+<h2 id="search_tips">Consejos de b&uacute;squeda</h2>
+	<p>Si no encuentra lo que quiere en la b&uacute;squeda, aqu&iacute; hay algunas
+	sugerencias provechosas:</p>
+
+	<ul>
+		<li>Aseg&uacute;rese de que est&aacute; buscando algo relacionado con &brandShortName;;
+		esto no es una b&uacute;squeda general de Internet.</li>
+   	<li>Intente ampliar su b&uacute;squeda, no sea demasiado espec&iacute;fico;
+   	los t&eacute;rminos podr&iacute;an estar redactados de forma diferente a
+   	como est&aacute;n escritos en su b&uacute;squeda.</li>
+		<li>Evite ser demasiado amplio con su b&uacute;squeda; las palabras como
+		&quot;&brandShortName;&quot; y &quot;&vendorShortName;&quot; podr&iacute;an
+		devolver posiblemente todas las p&aacute;ginas en el archivo de ayuda.</li>
+	</ul>
+
+<div class="copyrightBox"><em>29 de marzo de 2005</em></div>
+
+<p>Copyright &copy; 2003-2004 Contributors to the Nvu Help Documentation Project.</p>
 
 </body>
 </html>

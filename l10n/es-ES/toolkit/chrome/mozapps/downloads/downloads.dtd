@@ -8,7 +8,7 @@
 <!ENTITY downloads.title "Descargas">
 <!ENTITY cmd.pause.label "Pausar">
 <!ENTITY cmd.pause.accesskey "P">
-<!ENTITY cmd.resume.label "Continuar">
+<!ENTITY cmd.resume.label "Reanudar">
 <!ENTITY cmd.resume.accesskey "R">
 <!ENTITY cmd.cancel.label "Cancelar">
 <!ENTITY cmd.cancel.accesskey "C">
@@ -23,7 +23,7 @@
 <!ENTITY cmd.retry.label "Reintentar">
 <!ENTITY cmd.retry.accesskey "R">
 <!ENTITY cmd.remove.label "Eliminar">
-<!ENTITY cmd.remove.accesskey "e">
+<!ENTITY cmd.remove.accesskey "E">
 <!ENTITY cmd.properties.label "Propiedades">
 <!ENTITY cmd.properties.accesskey "i">
 <!ENTITY cmd.info.commandKey "i">
@@ -32,7 +32,7 @@
 <!ENTITY cmd.close2Unix.commandKey "y">
 <!ENTITY cmd.cleanUp.label "Limpiar">
 <!ENTITY cmd.cleanUp.tooltip "Elimina de la lista las descargas completadas, canceladas o fallidas">
-<!ENTITY cmd.cleanUp.accesskey "a">
+<!ENTITY cmd.cleanUp.accesskey "L">
 <!ENTITY closeWhenDone.label "Cerrar cuando se completen las descargas">
 <!ENTITY closeWhenDone.tooltip "Cierra la ventana de descargas cuando todos los archivos se hayan descargado">
 <!ENTITY filesSavedTo.label "Todos los ficheros descargados en:">

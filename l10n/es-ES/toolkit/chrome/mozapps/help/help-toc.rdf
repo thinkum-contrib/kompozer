@@ -5,8 +5,8 @@
   <rdf:Description about="urn:root">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description ID="use-help" nc:name="Usar la ventana de la ayuda"
-                  nc:link="chrome://help/locale/welcome.xhtml"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help" nc:name="Usar la ventana de ayuda"
+                  nc:link="welcome.xhtml"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
@@ -14,10 +14,10 @@
   <rdf:Description about="#use-help">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="Encontrar el asunto deseado" nc:link="chrome://help/locale/welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="use-help-search" nc:name="Consejos para buscar" nc:link="chrome://help/locale/welcome.xhtml#search_tips"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="Buscar el tema deseado" nc:link="welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-retracing-your-steps" nc:name="Volver sobre sus pasos" nc:link="welcome.xhtml#retracing_your_steps"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-search" nc:name="Consejos de b&#250;squeda" nc:link="welcome.xhtml#search_tips"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
-
 </rdf:RDF>

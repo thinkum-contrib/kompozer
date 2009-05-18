@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Peter Annema <disttsc@bart.nl> (Original Author)
-   -   Proyecto NAVE (http://www.proyectonave.es/)
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either of the GNU General Public License Version 2 or later (the "GPL"),
@@ -35,5 +35,5 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY askViewZoom.title "Tamaño">
-<!ENTITY selectZoom.label "Seleccione el tamaño (&#037;):">
+<!ENTITY askViewZoom.title "Tamaño del texto">
+<!ENTITY selectZoom.label "Seleccione el tamaño del texto (&#037;):">

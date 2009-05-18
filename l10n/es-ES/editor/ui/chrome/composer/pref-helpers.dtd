@@ -1,0 +1,16 @@
+<!ENTITY helpers.label "Aplicaciones externas">
+<!ENTITY application.label "Aplicación:">
+<!ENTITY webBrowser.label "Navegador web">
+<!ENTITY textEditor.label "Editor de textos">
+<!ENTITY imageEditor.label "Editor de imágenes">
+<!ENTITY mediaPlayer.label "Reproductor multimedia">
+<!ENTITY fileManager.label "Administrador de archivos">
+<!ENTITY ftpClient.label "Cliente FTP">
+<!ENTITY useSystemHelper.label "usar valores del sistema">
+<!ENTITY useCustomHelper.label "usar aplicación personalizada:">
+<!ENTITY path.label "ruta del archivo">
+<!ENTITY arguments.label "argumentos">
+<!ENTITY filePicker.tooltip "Elegir archivo…">
+<!ENTITY fileFilter.label "Extensiones de archivo (*) para:">
+<!ENTITY default.label "predeterminado">
+<!ENTITY needToRestart.label "(*) Las modificaciones de estas preferencias tendrán efecto cuando se reinicia KompoZer.">

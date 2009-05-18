@@ -1,5 +1,5 @@
 <!ENTITY editMenu.label "Editar">
-<!ENTITY editMenu.accesskey "e">
+<!ENTITY editMenu.accesskey "E">
 <!ENTITY undoCmd.label "Deshacer">
 <!ENTITY undoCmd.key "Z">
 <!ENTITY undoCmd.accesskey "h">
@@ -15,8 +15,8 @@
 <!ENTITY pasteCmd.label "Pegar">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteCmd.accesskey "p">
-<!ENTITY deleteCmd.label "Borrar">
-<!ENTITY deleteCmd.accesskey "b">
+<!ENTITY deleteCmd.label "Eliminar">
+<!ENTITY deleteCmd.accesskey "l">
 <!ENTITY selectAllCmd.label "Seleccionar todo">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "a">
@@ -27,5 +27,5 @@
 <!ENTITY findAgainCmd.key "G">
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findAgainCmd.accesskey "q">
-<!ENTITY findPreviousCmd.label "Buscar anterior">
+<!ENTITY findPreviousCmd.label "Encontrar anterior">
 <!ENTITY findPreviousCmd.accesskey "i">

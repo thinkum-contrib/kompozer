@@ -35,7 +35,7 @@
   </RDF:Description>
 
   <RDF:Description about='urn:clienturl:toolbar:relnotes'>
-    <NC:title>Notas de la version</NC:title>
+    <NC:title>Notas de la versiÃÂÃÂ³n</NC:title>
     <NC:content>http://www.mozilla.org/releases/</NC:content>
   </RDF:Description>
 
@@ -49,8 +49,8 @@
   <!-- Composer -->
 
   <RDF:Description about='urn:clienturl:composer:spellcheckers'>
-    <NC:title>Correctores ortograficos</NC:title>
-    <NC:content>http://nave.escomposlinux.org/productos/extensiones/spellcheck/</NC:content>
+    <NC:title>Correctores ortogrÃÂÃÂ¡ficos</NC:title>
+    <NC:content>http://dictionaries.mozdev.org/installation.html</NC:content>
   </RDF:Description>
 
 </RDF:RDF>

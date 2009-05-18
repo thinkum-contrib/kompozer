@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
-   -   
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -38,7 +38,10 @@
 <!ENTITY editSitesList.label "Editar sitios">
 <!ENTITY filterAll.label "Todos los archivos">
 <!ENTITY filterHTML.label "Documentos HTML">
+<!ENTITY filterCSS.label "Hojas de estilo CSS">
 <!ENTITY filterImages.label "Archivos de imagen">
+<!ENTITY filterMedia.label "Archivos multimedia">
+<!ENTITY filterScripts.label "Archivos de texto">
 <!ENTITY treeViewCheckbox.label "Vista en árbol">
 <!ENTITY filenameColumn.label "Nombre">
 <!ENTITY sizeColumn.label "Tamaño">
@@ -56,3 +59,13 @@
 <!ENTITY renameMenu.label "Renombrar">
 <!ENTITY renameButton.tooltip "Renombrar archivo o carpeta">
 <!ENTITY filterControl.label "Ver:">
+<!ENTITY localTab.label "Local">
+<!ENTITY remoteTab.label "Remoto">
+<!ENTITY openItem.label "Abrir">
+<!ENTITY openAsText.label "Abrir como texto">
+<!ENTITY openRemote.label "Abrir directorio remoto">
+<!ENTITY insertImage.label "Insertar imagen">
+<!ENTITY previewItem.label "Previsualizar">
+<!ENTITY uploadItem.label "Subir…">
+<!ENTITY downloadItem.label "Restaurar…">
+<!ENTITY itemProperties.label "Propiedades…">

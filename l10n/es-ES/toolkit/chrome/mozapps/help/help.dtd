@@ -1,38 +1,77 @@
 <!ENTITY printCmd.commandkey "p">
+<!ENTITY viewCustomizeToolbar.label "Personalizar...">
+<!ENTITY viewCustomizeToolbar.accesskey "z">
 <!ENTITY findOnCmd.commandkey "F">
 <!ENTITY findAgainCmd.commandkey "G">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
-<!ENTITY backButton.label "Atrás">
+<!ENTITY findDialog.title "Buscar en esta página">
+<!ENTITY findDialogFrame.title "Buscar en este marco">
+<!ENTITY findField.label "Buscar:">
+<!ENTITY findField.accesskey "s">
+<!ENTITY caseSensitiveCheckbox.label "Coincidencia de mayúsculas/minúsculas">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY wrapCheckbox.label "Ajustar">
+<!ENTITY wrapCheckbox.accesskey "j">
+<!ENTITY backwardsCheckbox.label "Buscar hacia atrás">
+<!ENTITY backwardsCheckbox.accesskey "b">
+<!ENTITY findField.tooltip "Escriba una o más palabras a buscar">
+<!ENTITY findButton.label "Buscar siguiente">
+<!ENTITY findButton.accesskey "B">
+<!ENTITY cancelButton.label "Cancelar">
+<!ENTITY up.label "Arriba">
+<!ENTITY up.accesskey "r">
+<!ENTITY down.label "Abajo">
+<!ENTITY down.accesskey "b">
+<!ENTITY direction.label "Dirección">
+<!ENTITY find.label "Buscar:">
+<!ENTITY findNext.label "Buscar siguiente">
+<!ENTITY findNext.tooltip "Buscar la siguiente ocurrencia de la frase">
+<!ENTITY findPrevious.label "Buscar anterior">
+<!ENTITY findPrevious.tooltip "Buscar la ocurrencia anterior de la frase">
+<!ENTITY findCloseButton.tooltip "Cerrar barra de búsqueda">
+<!ENTITY highlight.label "Destacar">
+<!ENTITY highlight.tooltip "Destacar todas las ocurrencias de la frase (Ctrl+Enter)">
+<!ENTITY backButton.label "Anterior">
 <!ENTITY backButton.accesskey "t">
 <!ENTITY backButton.tooltip "Retroceder una página">
-<!ENTITY forwardButton.label "Siguiente">
-<!ENTITY forwardButton.accesskey "g">
-<!ENTITY forwardButton.tooltip "Avanzar una página">
-<!ENTITY copyCmd.label "Copiar">
-<!ENTITY copyCmd.accesskey "C">
-<!ENTITY selectAllCmd.label "Seleccionar todo">
-<!ENTITY selectAllCmd.accesskey "A">
-<!ENTITY goBackCmd.commandkey "[">
-<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY forwardButton.label "Adelante">
+<!ENTITY forwardButton.accesskey "d">
+<!ENTITY forwardButton.tooltip "Avanzar a la página siguiente">
 <!ENTITY homeButton.label "Inicio">
 <!ENTITY homeButton.tooltip "Ir a la página de inicio">
 <!ENTITY printButton.label "Imprimir">
 <!ENTITY printButton.tooltip "Imprimir esta página">
+<!ENTITY findBtn.label "Buscar">
+<!ENTITY sidebarBtn.label "Alternar panel lateral">
+<!ENTITY sidebarBtn.tooltip "Mostrar u ocultar el panel lateral de ayuda">
+<!ENTITY textZoomReduceBtn.label "Reducir el tamaño del texto">
+<!ENTITY textZoomReduceBtn.accesskey "D">
+<!ENTITY textZoomReduceBtn.tooltip "Reducir el tamaño del texto en los documentos de la ayuda.">
+<!ENTITY textZoomEnlargeBtn.label "Incrementar el tamaño del texto">
+<!ENTITY textZoomEnlargeBtn.accesskey "I">
+<!ENTITY textZoomEnlargeBtn.tooltip "Incrementar el tamaño del texto en los documentos de la ayuda.">
+<!ENTITY customizeButton.tooltip "Personalizar qué botones se muestran en la barra de herramientas de ayuda.">
+<!ENTITY reloadCmd.label "Recargar">
+<!ENTITY reloadCmd.accesskey "R">
 <!ENTITY closeWindow.commandkey "W">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY copyCmd.accesskey "C">
 <!ENTITY throbberItem.title "Indicador de actividad">
-<!ENTITY throbber.tooltip "Ir a la sección de ayuda en la ayuda">
-<!ENTITY searchtab.label "Buscar">
+<!ENTITY cmd_CustomizeToolbars.label "Personalizar">
+<!ENTITY searchtab.label "Búsqueda">
 <!ENTITY searchtab.accesskey "S">
+<!ENTITY searchbtn.label "Buscar">
 <!ENTITY toctab.label "Contenido">
 <!ENTITY toctab.accesskey "C">
+<!ENTITY indextab.label "Índice">
+<!ENTITY indextab.accesskey "I">
+<!ENTITY ixname.label "Nombre">
+<!ENTITY glossarytab.label "Glosario">
+<!ENTITY glossarytab.accesskey "G">
+<!ENTITY glossname.label "Nombre">
+<!ENTITY gobtn.label "Búsqueda">
+<!ENTITY name.label "Elemento">
 <!ENTITY textZoomReduceCmd.commandkey "-">
 <!ENTITY textZoomEnlargeCmd.commandkey "+">
 <!ENTITY textZoomEnlargeCmd.commandkey2 "=">
 <!ENTITY textZoomResetCmd.commandkey "0">
-<!ENTITY helpSearch.commandkey "k">
-<!ENTITY zLevel.label "Siempre encima">
-<!ENTITY zLevel.accesskey "p">
-<!ENTITY textZoomReduceBtn.label "Reducir el tamaño del texto">
-<!ENTITY textZoomReduceBtn.accesskey "D">
-<!ENTITY textZoomEnlargeBtn.label "Aumentar el tamaño del texto">
-<!ENTITY textZoomEnlargeBtn.accesskey "n">

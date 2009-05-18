@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
-   -   
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -46,7 +46,7 @@
 <!ENTITY preserveExistingFormatting "Mantener el formato del código fuente original">
 <!ENTITY preserveExistingFormatting.accesskey "o">
 <!ENTITY preserveExistingFormatting.tooltip "Conserva los saltos de linea y el formato original de la página">
-<!ENTITY reformat.label "Reformatear (&quot;pretty print&quot;) el código HTML">
+<!ENTITY reformat.label "Reformatear el código HTML">
 <!ENTITY reformat.accesskey "R">
 <!ENTITY reformat.tooltip "Reformatea las etiquetas HTML usando saltos de línea y sangrías">
 <!ENTITY saveAssociatedFiles.label "Guardar imágenes y otros archivos asociados al guardar las páginas">
@@ -65,3 +65,4 @@
 <!ENTITY useCSS.label "Usar estilos CSS en lugar de elementos y atributos HTML.">
 <!ENTITY siteManager.label "Administrador de sitios">
 <!ENTITY openInNewTab.label "Abrir siempre un documento en una pestaña nueva">
+<!ENTITY useSystemIcons.label "Usar iconos del sistema">

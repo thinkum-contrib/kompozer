@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
-   -   
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,8 +37,8 @@
    - ***** END LICENSE BLOCK ***** -->
 <!ENTITY aboutDialog.title "Acerca de &brandShortName;">
 <!ENTITY copyright "Copyright e información de colaboradores">
-<!ENTITY copyrightLink "http://nvu.com/about.html">
+<!ENTITY copyrightLink "http://kompozer.net/about/">
 <!ENTITY credits "Créditos">
 <!ENTITY aboutVersion "Versión">
-<!ENTITY copyrightText "©1998-2006 Colaboradores. Todos los derechos reservados.">
+<!ENTITY copyrightText "©1998-2007 Colaboradores. Todos los derechos reservados.">
 <!ENTITY aboutLink "&lt; Acerca de &brandShortName;">

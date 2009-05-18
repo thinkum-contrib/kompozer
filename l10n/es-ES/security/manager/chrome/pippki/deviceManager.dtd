@@ -20,7 +20,7 @@
    -
    - Contributor(s):
    -   Ian McGreer <mcgreer@netscape.com>
-   -   Proyecto NAVE (http://www.proyectonave.es/)
+   -   Proyecto NAVE
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -44,22 +44,22 @@
 <!ENTITY devmgr.button.changeslotname.label "Cambiar nombre de la ranura">
 <!ENTITY devmgr.button.changeslotname.accesskey "C">
 <!ENTITY devmgr.button.login.label "Iniciar sesión">
-<!ENTITY devmgr.button.login.accesskey "n">
+<!ENTITY devmgr.button.login.accesskey "I">
 <!ENTITY devmgr.button.logout.label "Terminar sesión">
 <!ENTITY devmgr.button.logout.accesskey "T">
 <!ENTITY devmgr.button.changepw.label "Cambiar contraseña">
-<!ENTITY devmgr.button.changepw.accesskey "C">
+<!ENTITY devmgr.button.changepw.accesskey "b">
 <!ENTITY devmgr.button.load.label "Cargar">
-<!ENTITY devmgr.button.load.accesskey "C">
+<!ENTITY devmgr.button.load.accesskey "r">
 <!ENTITY devmgr.button.unload.label "Descargar">
 <!ENTITY devmgr.button.unload.accesskey "D">
 <!ENTITY devmgr.button.fips.accesskey "F">
 <!ENTITY loaddevice.info "Introduzca la información para el módulo que quiere añadir.">
 <!ENTITY loaddevice.modname "Nombre del módulo:">
-<!ENTITY loaddevice.modname.accesskey "M">
+<!ENTITY loaddevice.modname.accesskey "N">
 <!ENTITY loaddevice.modname.default "Nuevo módulo PKCS#11">
 <!ENTITY loaddevice.filename "Archivo del módulo:">
 <!ENTITY loaddevice.filename.accesskey "A">
 <!ENTITY loaddevice.browse "Examinar...">
-<!ENTITY loaddevice.browse.accesskey "x">
+<!ENTITY loaddevice.browse.accesskey "E">
 <!ENTITY loaddevice.title "Cargar dispositivo PKCS#11">
