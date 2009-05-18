@@ -37,13 +37,13 @@
 
 
 <!-- Window title -->
-<!ENTITY cascadesMenuItem.label         "CSS Editor">
+<!ENTITY cascadesMenuItem.label         "CSS-Editor">
 <!ENTITY cascadesMenuItem.accesskey     "c">
 <!ENTITY cascadesMenuItem.keybinding    "VK_F11">
 
 <!ENTITY classSelectMenu.label          "Klassen">
 <!ENTITY idSelectMenu.label             "ID">
-<!ENTITY inlineStyles.label             "Inline Styles">
+<!ENTITY inlineStyles.label             "Inline-Styles">
 <!ENTITY inlinestyles.accesskey         "i">
 
 <!ENTITY textProperties.label           "Text-Eigenschaften">

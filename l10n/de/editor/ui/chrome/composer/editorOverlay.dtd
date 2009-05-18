@@ -202,7 +202,7 @@
 <!ENTITY insertNbspCmd.label "Nicht umbrechbare Leerräume…">
 <!ENTITY insertNbsp.accesskey "n">
 
-<!ENTITY insertPHPCode.label "PHP Code">
+<!ENTITY insertPHPCode.label "PHP-Code">
 <!ENTITY insertphpcode.accesskey "p">
 <!ENTITY insertComment.label "Kommentar">
 <!ENTITY insertcomment.accesskey "m">
@@ -729,8 +729,8 @@
 <!ENTITY SplitMode.accesskey            "T">
 <!ENTITY SplitMode.tooltip              "Teilt das Bearbeitungsfenster in Quelltext und WYSIWYG-Editier-Modus">
 <!ENTITY editNode.label                 "Element bearbeiten">
-<!ENTITY editHead.label                 "<head>-Element bearbeiten">
-<!ENTITY editBody.label                 "<body>-Element bearbeiten">
+<!ENTITY editHead.label                 "&lt;head&gt;-Element bearbeiten">
+<!ENTITY editBody.label                 "&lt;body&gt;-Element bearbeiten">
 <!ENTITY confirmNode.label              "Anwenden">
 <!ENTITY cancelNode.label               "Abbrechen">
 
