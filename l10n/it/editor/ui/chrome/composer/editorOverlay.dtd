@@ -621,3 +621,7 @@
 <!ENTITY editBody.label "Modifica contenuto &lt;body&gt;">
 <!ENTITY confirmNode.label "Conferma">
 <!ENTITY cancelNode.label "Annulla">
+<!ENTITY extEditor.label                     "HTML">
+<!ENTITY extEditor.tooltip                   "Apri il documento corrente in un editor esterno">
+<!ENTITY extEditorCmd.label                  "Editor esterno">
+<!ENTITY extEditorCmd.accesskey              "E">
