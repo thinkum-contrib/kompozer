@@ -1,20 +1,19 @@
-<!ENTITY helpers.label                "External Applications">
+<!ENTITY helpers.label                "Externe Anwendungen">
 
-<!ENTITY application.label            "Application:">
-<!ENTITY webBrowser.label             "Web browser">
-<!ENTITY textEditor.label             "Text editor">
-<!ENTITY imageEditor.label            "Image editor">
-<!ENTITY mediaPlayer.label            "Media player">
-<!ENTITY fileManager.label            "File manager">
-<!ENTITY ftpClient.label              "FTP client">
+<!ENTITY application.label            "Anwendung:">
+<!ENTITY webBrowser.label             "Webbrowser">
+<!ENTITY textEditor.label             "Texteditor">
+<!ENTITY imageEditor.label            "Bildbearbeitungsprogramm">
+<!ENTITY mediaPlayer.label            "Mediaplayer">
+<!ENTITY fileManager.label            "Dateimanager">
+<!ENTITY ftpClient.label              "FTP-Client">
 
-<!ENTITY useSystemHelper.label        "use system default">
-<!ENTITY useCustomHelper.label        "use custom application:">
-<!ENTITY path.label                   "file path">
-<!ENTITY arguments.label              "arguments">
-<!ENTITY filePicker.tooltip           "Choose file…">
+<!ENTITY useSystemHelper.label        "Systemstandard verwenden">
+<!ENTITY useCustomHelper.label        "Benutzerdefinierte Anwendung verwenden:">
+<!ENTITY path.label                   "Dateipfad">
+<!ENTITY arguments.label              "Parameter">
+<!ENTITY filePicker.tooltip           "Datei wählen…">
 
-<!ENTITY fileFilter.label             "File extensions (*) for:">
-<!ENTITY default.label                "default">
-<!ENTITY needToRestart.label          "(*) Modifications of these preferences will take effect when KompoZer is restarted.">
-
+<!ENTITY fileFilter.label             "Dateierweiterungen (*) für:">
+<!ENTITY default.label                "Standard">
+<!ENTITY needToRestart.label          "(*) KompoZer muss neu gestartet werden, damit die Änderungen wirksam werden.">
