@@ -20,10 +20,10 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label "Haladó szerkesztés...">
+<!ENTITY AdvancedEditButton.label "Haladó szerkesztés…">
 <!ENTITY AdvancedEditButton.accessKey "H">
 <!ENTITY AdvancedEditButton.tooltip "HTML-attribútumok, stílusattribútumok és JavaScript hozzáadása vagy módosítása">
-<!ENTITY chooseButton.label "Tallózás...">
+<!ENTITY chooseButton.label "Tallózás…">
 <!ENTITY chooseFile.accessKey "T">
 <!ENTITY chooseFileLink.accessKey "a">
 <!ENTITY makeUrlRelative.label "Az URL relatív az oldal elhelyezkedéséhez képest">

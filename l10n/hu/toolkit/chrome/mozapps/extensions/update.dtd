@@ -11,8 +11,8 @@
 <!ENTITY  mismatch.bottom.label           "A &brandShortName; megkeresheti és telepítheti ezen kiegészítők újabb, kompatibilis változatait. ">
 
 <!ENTITY  checking.wizard.title           "Kompatibilis kiegészítők keresése">
-<!ENTITY  checking.top.label              "A nem kompatibilis kiegészítők frissítéseinek keresése...">
-<!ENTITY  checking.status                 "Ez eltarthat egy pár percig...">
+<!ENTITY  checking.top.label              "A nem kompatibilis kiegészítők frissítéseinek keresése…">
+<!ENTITY  checking.status                 "Ez eltarthat egy pár percig…">
 
 <!ENTITY  found.wizard.title               "Vannak kompatibilis kiegészítők">
 <!ENTITY  found.top.label                 "Válassza ki a telepíteni kívánt kiegészítőket:">
@@ -22,7 +22,7 @@
 <!ENTITY found.enableXPInstall.accesskey "S">
 
 <!ENTITY  installing.wizard.title         "Kompatibilis kiegészítők telepítése">
-<!ENTITY  installing.top.label            "Kiegészítők frissítéseinek letöltése és telepítése...">
+<!ENTITY  installing.top.label            "Kiegészítők frissítéseinek letöltése és telepítése…">
 
 <!ENTITY  noupdates.wizard.title          "Nincsenek kompatibilis kiegészítők">
 <!ENTITY  noupdates.intro.desc            "A &brandShortName; nem talált frissítéseket a nem
@@ -45,7 +45,7 @@
 <!ENTITY  versioninfo.wizard.title        "Kiegészítők kompatibilitásának ellenőrzése">
 <!ENTITY  versioninfo.top.label           "A program ellenőrzi, hogy a kiegészítők kompatibilisek-e
                                            a &brandShortName; jelen verziójával.">
-<!ENTITY  versioninfo.waiting             "Ez eltarthat egy pár percig...">
+<!ENTITY  versioninfo.waiting             "Ez eltarthat egy pár percig…">
 
 <!ENTITY  installerrors.wizard.title      "Problémák a frissítések telepítése közben">
 <!ENTITY  installerrors.intro.label       "A &brandShortName; problémákba ütközött egyes kiegészítők
@@ -54,5 +54,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "A &brandShortName; indításának folytatásához kattintson a Befejezés gombra.">
 <!ENTITY  enableChecking.label            "&brandShortName;-frissítések ellenőrzésének engedélyezése">
-<!ENTITY  details.label                   "Részletek...">
+<!ENTITY  details.label                   "Részletek…">
 <!ENTITY details.accesskey               "R">

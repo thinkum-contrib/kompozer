@@ -42,7 +42,7 @@
 <!ENTITY sidebar.reload.label           "Odśwież" >
 <!ENTITY sidebar.reload.accesskey       "O" >
 <!ENTITY sidebar.picker.label           "Panele" >
-<!ENTITY sidebar.customize.label        "Dostosuj Sidebar..." >
+<!ENTITY sidebar.customize.label        "Dostosuj Sidebar…" >
 <!ENTITY sidebar.customize.accesskey    "D" >
 <!ENTITY sidebar.hide.label             "Ukryj panel" >
 <!ENTITY sidebar.hide.accesskey         "U" >
@@ -50,7 +50,7 @@
 <!ENTITY sidebar.switch.accesskey       "P" >
 <!ENTITY sidebarCmd.label               "Sidebar" >
 <!ENTITY sidebarCmd.accesskey           "b" >
-<!ENTITY sidebar.loading.label          "Ładowanie..." >
+<!ENTITY sidebar.loading.label          "Ładowanie…" >
 <!ENTITY sidebar.loadstopped.label      "Wczytywanie zatrzymane" >
 <!ENTITY sidebar.loading.stop.label     "Zatrzymaj" >
 <!ENTITY sidebar.loading.stop.accesskey "Z" >						
@@ -58,7 +58,7 @@
 <!ENTITY sidebar.no-panels.state     "Sidebar jest obecnie pusty." >
 <!ENTITY sidebar.no-panels.add       "Możesz dodać panele klikając przycisk Panele." >
 <!ENTITY sidebar.no-panels.hide      "Jeśli chcesz całkowicie schować Sidebar, wybierz pozycję Sidebar z menu Widok." >
-<!ENTITY sidebar.sbDirectory.label   "Katalog Sidebar..." >																			
+<!ENTITY sidebar.sbDirectory.label   "Katalog Sidebar…" >																			
                                  
 <!ENTITY sidebar.pagenotfound.label "Ten panel w chwili obecnej jest niedostępny." >
 <!ENTITY sidebar.close.tooltip      "Zamknij Sidebar" >

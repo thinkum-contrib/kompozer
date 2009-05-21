@@ -42,7 +42,7 @@
 <!ENTITY sidebar.reload.label "Recarrega">
 <!ENTITY sidebar.reload.accesskey "R">
 <!ENTITY sidebar.picker.label "Pestanyes">
-<!ENTITY sidebar.customize.label "Personalitza el panell lateral...">
+<!ENTITY sidebar.customize.label "Personalitza el panell lateral…">
 <!ENTITY sidebar.customize.accesskey "P">
 <!ENTITY sidebar.hide.label "Amaga la pestanya">
 <!ENTITY sidebar.hide.accesskey "A">
@@ -50,14 +50,14 @@
 <!ENTITY sidebar.switch.accesskey "T">
 <!ENTITY sidebarCmd.label "Administrador de llocs web">
 <!ENTITY sidebarCmd.accesskey "m">
-<!ENTITY sidebar.loading.label "S'està carregant...">
+<!ENTITY sidebar.loading.label "S'està carregant…">
 <!ENTITY sidebar.loadstopped.label "Càrrega detinguda">
 <!ENTITY sidebar.loading.stop.label "Para">
 <!ENTITY sidebar.loading.stop.accesskey "P">
 <!ENTITY sidebar.no-panels.state "El panell lateral està buit en aquest moment.">
 <!ENTITY sidebar.no-panels.add 'Podeu afegir pestanyes si premeu en el botó "Pestanyes" que està sobre.'>
 <!ENTITY sidebar.no-panels.hide 'Si desitgeu amagar totalment el panell lateral, premeu en el menú "Visualitza" de la part superior i seleccioneu "Panell lateral".'>
-<!ENTITY sidebar.sbDirectory.label "Directori del panell lateral...">
+<!ENTITY sidebar.sbDirectory.label "Directori del panell lateral…">
 <!ENTITY sidebar.pagenotfound.label "Aquesta pestanya no està disponible en aquest moment.">
 <!ENTITY sidebar.close.tooltip "Tanca l'adminsitrador de llocs web">
 <!ENTITY sidebar.open.tooltip "Obre el panell lateral">

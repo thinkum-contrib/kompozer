@@ -43,7 +43,7 @@
 <!ENTITY selectAllCmd.label					"Izberi vse">  
 <!ENTITY selectAllCmd.key					"A">  
 <!ENTITY selectAllCmd.accesskey				"v"> 
-<!ENTITY preferencesCmd.label				"Nastavitve ...">
+<!ENTITY preferencesCmd.label				"Nastavitve …">
 <!ENTITY preferencesCmd.key					"E">  
 <!ENTITY preferencesCmd.accesskey			"e"> 
 <!ENTITY findTypeTextCmd.label "Najdi besedilo med tipkanjem">
@@ -78,5 +78,5 @@
 <!ENTITY pac.label                                      "Na zvezi (proxy: samodejno)">
 <!ENTITY pac.accesskey                                  "s">
 
-<!ENTITY proxy.label                                    "Nastavitve proxy ...">
+<!ENTITY proxy.label                                    "Nastavitve proxy …">
 <!ENTITY proxy.accesskey                                "N">

@@ -46,98 +46,98 @@
     <language>fi-fi</language>
   
     <item>
-      <title>...voit siirtää elementtejä?</title>
+      <title>…voit siirtää elementtejä?</title>
       <description>Aseta kohdistin lohkoon, jota haluat siirtää, ja napsauta
                    Kerros-painiketta. Tällöin elementti muuttuu siirrettäväksi.
       </description>
     </item>
   
     <item>
-      <title>...voit muokata työkalupalkkeja?</title>
+      <title>…voit muokata työkalupalkkeja?</title>
       <description>Valitse valikosta Näytä | Palkit ja paneelit | Muokkaa työkalupalkkia. Muokkausikkuna avautuu. Voit lisätä, poistaa ja siirtää painikkeita ja erottimia vetämällä ja pudottamalla.</description>
     </item>
   
     <item>
-      <title>...voit luoda uuden työkalupalkin?</title>
+      <title>…voit luoda uuden työkalupalkin?</title>
       <description>Valitse valikosta Näytä | Palkit ja paneelit | Muokkaa työkalupalkkia | Muotoilutyökalupalkki. Muokkausikkuna avautuu.Valitse sitten Lisää uusi työkalupalkki.
                Tyhjät palkit poistuvat automaattisesti, kun suljet muokkausikkunan.</description>
     </item>
   
     <item>
-      <title>...Nvu:ssa on CSS-editori?</title>
+      <title>…Nvu:ssa on CSS-editori?</title>
       <description>Nvu sisältää CaScadeS-CSS-editorin. Voit käyttää editoria valitsemalla valikosta Työkalut | CSS-editori.</description>
     </item>
   
     <item>
-      <title>...Nvu:ssa on sivustonhallinta?</title>
+      <title>…Nvu:ssa on sivustonhallinta?</title>
       <description>Voit avata sivustonhallinnan painamalla F9 tai valitsemalla valikosta Näytä | Palkit ja paneelit | Sivustonhallinta.</description>
     </item>
 
     <item>
-      <title>...voit käyttää CSS-tyylejä minkä tahansa elementin kanssa?</title>
+      <title>…voit käyttää CSS-tyylejä minkä tahansa elementin kanssa?</title>
       <description>Siirrä kohdistin sen elementin sisään, jonka tyylin tahdot määrittää. Napsauta elementin tagia rakennepalkissa hiiren kakkospainikkeella. Rakennepalkki on Nvu:n ikkunan alareunassa. Sisällytetyt tyylit -valikon vaihtoehdoilla voit määrittää elementin tyylin suoraan.
       </description>
     </item>
 
     <item>
-      <title>...voit määrätä kirjoitussuunnan?</title>
+      <title>…voit määrätä kirjoitussuunnan?</title>
       <description>Muokkaa työkalupalkkeja ja lisää kirjoitussuunnan määräyspainikkeet tai valitse valikosta Muotoile | Kirjoitussuunta.</description>
     </item>
 
     <item>
-      <title>...voit muuttaa taulukon kokoa hiirellä?</title>
+      <title>…voit muuttaa taulukon kokoa hiirellä?</title>
       <description>Ota viivaimet käyttöön valitsemalla valikosta Näytä | Palkit ja paneelit | Viivaimet. Siirrä sitten kohdistin johonkin taulukon soluun, jolloin koon muutoskahvat ilmestyvät viivaimiin.
       </description>
     </item>
 
     <item>
-      <title>...voit muokata työkalupalkkeja helposti?</title>
+      <title>…voit muokata työkalupalkkeja helposti?</title>
       <description>Voit muokata työkalupalkkia napsauttamalla sitä hiiren kakkospainikkeella.</description>
     </item>
 
     <item>
-      <title>...Nvu-yhteisö on suoraan käytettävissäsi?</title>
+      <title>…Nvu-yhteisö on suoraan käytettävissäsi?</title>
       <description>Valitse valikosta Ohje | Keskustelualueet.</description>
     </item>
 
     <item>
-      <title>...Nvu voi avata dokumentin suoraan käynnistettäessä?</title>
+      <title>…Nvu voi avata dokumentin suoraan käynnistettäessä?</title>
       <description>Käytä komentoriviä: nvu dokumentti.html</description>
     </item>
 
     <item>
-      <title>...voit muokata useampia sivustoja yhtä aikaa?</title>
+      <title>…voit muokata useampia sivustoja yhtä aikaa?</title>
       <description>Sivustonhallinta pystyy näyttämään useita sivustoja yhtä aikaa.</description>
     </item>
 
     <item>
-      <title>...Nvu on alustariippumaton?</title>
+      <title>…Nvu on alustariippumaton?</title>
       <description>Nvu on saatavilla monille eri käyttöjärjetelmille, mm.
                    Windowsille, Mac OS X:lle, monille Linux-jakeluille, OS/2:lle jne.</description>
     </item>
 
     <item>
-      <title>...voit avata uuden välilehden näppäinyhdistelmällä?</title>
+      <title>…voit avata uuden välilehden näppäinyhdistelmällä?</title>
       <description>Ctrl+T (Mac OS X:ssä Cmd+T) avaa uuden, tyhjän välilehden.</description>
     </item>
 
     <item>
-      <title>...voit avata uuden ikkunan näppäinyhdistelmällä?</title>
+      <title>…voit avata uuden ikkunan näppäinyhdistelmällä?</title>
       <description>Ctrl+Vaihto+N (Mac OS X:ssä Cmd+Vaihto+N) avaa uuden, tyhjän ikkunan.</description>
     </item>
     
     <item>
-      <title>...voit muuttaa yksittäisen solun reunusta?</title>
+      <title>…voit muuttaa yksittäisen solun reunusta?</title>
       <description>Aseta kohdistin soluun, napsauta solua tilarivissä kakkospainikkeella ja valitse Sisällytetyt tyylit | Reunuksen ominaisuudet.</description>
     </item>
 
     <item>
-      <title>...voit sulkea välilehden yhdellä napsautuksella?</title>
+      <title>…voit sulkea välilehden yhdellä napsautuksella?</title>
       <description>Napsauta vain välilehteä hiiren keskinapilla (tai rullalla).</description>
     </item>
 
     <item>
-      <title>...voit sulkea nykyisen välilehden yhdellä näppäinyhdistelmälllä?</title>
+      <title>…voit sulkea nykyisen välilehden yhdellä näppäinyhdistelmälllä?</title>
       <description>Ctrl+F4 sulkee nykyisen välilehden.</description>
     </item>
 

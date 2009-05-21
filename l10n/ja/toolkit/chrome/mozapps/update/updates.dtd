@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth		"39em">
 
 <!ENTITY  checking.title		"更新の確認">
-<!ENTITY  checking.label		"&brandShortName; は更新がないか確認しています...">
+<!ENTITY  checking.label		"&brandShortName; は更新がないか確認しています…">
 
 <!ENTITY  cancel.label			"キャンセル">
 <!ENTITY  cancel.accesskey		"C">
@@ -37,8 +37,8 @@
 <!ENTITY  license.decline.accesskey	"T">
 
 <!ENTITY  downloading.title		"更新をダウンロード">
-<!ENTITY  downloading.intro		"更新をダウンロードしています...">
-<!ENTITY  connecting.label		"更新サーバに接続しています...">
+<!ENTITY  downloading.intro		"更新をダウンロードしています…">
+<!ENTITY  connecting.label		"更新サーバに接続しています…">
 <!ENTITY  verificationFailedText.label	"ダウンロードした差分更新の完全性を確認できなかったため、完全更新パッケージをダウンロードしています。">
 
 <!ENTITY  details.link			"詳細">
@@ -66,7 +66,7 @@
 
 <!ENTITY  installed.title		"更新をインストールしました">
 <!ENTITY  installed.intro		"更新を正常にインストールしました。">
-<!ENTITY  whatsnew.label		"更新の詳細...">
+<!ENTITY  whatsnew.label		"更新の詳細…">
 
 <!ENTITY  update.details.label		"詳細">
 <!ENTITY  update.installedOn.label	"インストール日時:">

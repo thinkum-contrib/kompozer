@@ -17,7 +17,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "尋找附加元件的更新檔">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "尋找佈景主題的更新檔">
-<!ENTITY cmd.installLocalFile.label       "安裝...">
+<!ENTITY cmd.installLocalFile.label       "安裝…">
 <!ENTITY cmd.installFile.accesskey        "I">
 <!ENTITY cmd.installFileAddon.tooltip     "安裝附加元件">
 <!ENTITY cmd.installFileTheme.tooltip     "安裝佈景主題">
@@ -98,7 +98,7 @@
 <!ENTITY updateSuccess.label              "更新已完成。">
 <!ENTITY installSuccess.label             "安裝已完成。">
 <!ENTITY installSuccessRestart.label      "重新啟動以完成安裝程序。">
-<!ENTITY installWaiting.label             "請稍候...">
-<!ENTITY installIncompatibleUpdate.label  "正在檢查相容性...">
-<!ENTITY installFinishing.label           "安裝中...">
+<!ENTITY installWaiting.label             "請稍候…">
+<!ENTITY installIncompatibleUpdate.label  "正在檢查相容性…">
+<!ENTITY installFinishing.label           "安裝中…">
 <!ENTITY installFailure.label             "安裝失敗。">

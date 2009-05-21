@@ -14,8 +14,8 @@
                                            compatibles disponibles d'aquests complements.">
 
 <!ENTITY checking.wizard.title "S'està comprovant si hi ha complements compatibles">
-<!ENTITY  checking.top.label              "S'està comprovant si hi ha complements incompatibles per a les actualitzacions...">
-<!ENTITY checking.status "Pot trigar uns minuts...">
+<!ENTITY  checking.top.label              "S'està comprovant si hi ha complements incompatibles per a les actualitzacions…">
+<!ENTITY checking.status "Pot trigar uns minuts…">
 
 <!ENTITY  found.wizard.title               "S'han trobat complements compatibles">
 <!ENTITY  found.top.label                 "Seleccioneu els complements que voleu instal·lar:">
@@ -25,7 +25,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "P">
 
 <!ENTITY installing.wizard.title "S'estan instal·lant els components compatibles">
-<!ENTITY installing.top.label "S'estan baixant i instal·lant les actualitzacions dels vostres complements...">
+<!ENTITY installing.top.label "S'estan baixant i instal·lant les actualitzacions dels vostres complements…">
 
 <!ENTITY  noupdates.wizard.title          "No s'han trobat complements compatibles">
 <!ENTITY  noupdates.intro.desc            "El &brandShortName; no ha pogut trobar actualitzacions
@@ -49,7 +49,7 @@
 <!ENTITY  versioninfo.wizard.title        "S'està comprovant la compatibilitat dels complements">
 <!ENTITY  versioninfo.top.label           "S'està comprovant si hi ha complements compatibles amb aquesta
                                            versió del &brandShortName;.">
-<!ENTITY  versioninfo.waiting             "Pot trigar uns minuts...">
+<!ENTITY  versioninfo.waiting             "Pot trigar uns minuts…">
 
 <!ENTITY  installerrors.wizard.title      "S'han produït problemes en instal·lar les actualitzacions">
 <!ENTITY  installerrors.intro.label       "El &brandShortName; ha trobat problemes quan actualitzava
@@ -58,5 +58,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Feu clic a Finalitza per a continuar amb l'inici del &brandShortName;.">
 <!ENTITY  enableChecking.label            "Permet que el &brandShortName; comprovi si hi ha actualitzacions.">
-<!ENTITY  details.label                   "Detalls...">
+<!ENTITY  details.label                   "Detalls…">
 <!ENTITY  details.accesskey               "D">

@@ -38,7 +38,7 @@
 <!ENTITY aboutMenu.label "Sobre o &brandShortName;">
 <!ENTITY aboutlinspire.accesskey "L">
 <!ENTITY aboutmenu.accesskey "S">
-<!ENTITY advancedPropertiesCmd.label "Propriedades avançadas...">
+<!ENTITY advancedPropertiesCmd.label "Propriedades avançadas…">
 <!ENTITY advancedproperties.accesskey "P">
 <!ENTITY alignCenter.label "Centralizado">
 <!ENTITY alignCenter.tooltip "Centralizar">
@@ -89,7 +89,7 @@
 <!ENTITY colorLabel.label "Cor:">
 <!ENTITY colorPicker.default.accesskey "r">
 <!ENTITY colorPicker.default.label "Cor usada pelo internauta">
-<!ENTITY colorsAndBackground.label "Plano de fundo e cores...">
+<!ENTITY colorsAndBackground.label "Plano de fundo e cores…">
 <!ENTITY colorsandbackground.accesskey "u">
 <!ENTITY compositionToolbar.tooltip "Barra de ferramentas (clique para exibir)">
 <!ENTITY compositionToolbarCmd.label "Barra de ferramentas">
@@ -98,7 +98,7 @@
 <!ENTITY converttotable.accesskey "t">
 <!ENTITY copy.accesskey "C">
 <!ENTITY copyCmd.label "Copiar">
-<!ENTITY createLinkCmd.label "Inserir link...">
+<!ENTITY createLinkCmd.label "Inserir link…">
 <!ENTITY createlink.accesskey "l">
 <!ENTITY customizeToolbar.accesskey "c">
 <!ENTITY customizeToolbar.label "Personalizar barra de ferramentas">
@@ -150,7 +150,7 @@
 <!ENTITY executeJSTransactionViaEditor.label "Executar JS Transaction Via Editor">
 <!ENTITY executeJSTransactionViaTxmgr.label "Executar JS Transaction Via Transaction Manager">
 <!ENTITY exitCmd.label "Sair">
-<!ENTITY exportToTextCmd.label "Exportar como texto...">
+<!ENTITY exportToTextCmd.label "Exportar como texto…">
 <!ENTITY faqMenu.label "FAQ">
 <!ENTITY faqmenu.accesskey "F">
 <!ENTITY fileMenu.label "Arquivo">
@@ -182,7 +182,7 @@
 <!ENTITY filesaveandchangeencoding.accesskey "E">
 <!ENTITY filesaveas.accesskey "l">
 <!ENTITY findAgainCmd.label "Localizar próxima">
-<!ENTITY findCmd.label "Localizar e substituir...">
+<!ENTITY findCmd.label "Localizar e substituir…">
 <!ENTITY findPrevCmd.label "Localizar anterior">
 <!ENTITY findToolbarCmd.label "Localizar">
 <!ENTITY findToolbarCmd.tooltip "Localizar e substituir">
@@ -201,7 +201,7 @@
 <!ENTITY fontvarwidth.accesskey "P">
 <!ENTITY formToolbarCmd.label "Formulário">
 <!ENTITY formToolbarCmd.tooltip "Inserir novo formulário ou editar o formulário selecionado">
-<!ENTITY formatFontColor.label "Cor do texto...">
+<!ENTITY formatFontColor.label "Cor do texto…">
 <!ENTITY formatRemoveNamedAnchors.accesskey "n">
 <!ENTITY formatRemoveNamedAnchors.label "Excluir âncoras nomeadas">
 <!ENTITY formatToolbar.boldChar "N">
@@ -228,7 +228,7 @@
 <!ENTITY genericContainerCmd.label "Contêiner genérico (div)">
 <!ENTITY genericcontainer.accesskey "d">
 <!ENTITY grid.accesskey "s">
-<!ENTITY grid.label "Posicionar na grade...">
+<!ENTITY grid.label "Posicionar na grade…">
 <!ENTITY heading1.accesskey "1">
 <!ENTITY heading1Cmd.label "Título 1">
 <!ENTITY heading2.accesskey "2">
@@ -259,37 +259,37 @@
 <!ENTITY indentToolbarCmd.tooltip "Recuar texto (mover para a direita)">
 <!ENTITY inlineStyles.label "Inline styles">
 <!ENTITY inlinestyles.accesskey "i">
-<!ENTITY insertAnchorCmd.label "Âncora nomeada...">
+<!ENTITY insertAnchorCmd.label "Âncora nomeada…">
 <!ENTITY insertBreakAllCmd.label "Quebrar abaixo da imagem">
 <!ENTITY insertBreakCmd.label "Quebra de linha">
-<!ENTITY insertButtonCmd.label "Definir botão...">
+<!ENTITY insertButtonCmd.label "Definir botão…">
 <!ENTITY insertCalendarSW.label "Calendário">
-<!ENTITY insertCharsCmd.label "Caracteres e símbolos...">
+<!ENTITY insertCharsCmd.label "Caracteres e símbolos…">
 <!ENTITY insertComment.label "Comentário">
 <!ENTITY insertEditableArea.label "Área">
-<!ENTITY insertFieldSetCmd.label "Definir fieldset...">
-<!ENTITY insertFormCmd.label "Definir formulário...">
+<!ENTITY insertFieldSetCmd.label "Definir fieldset…">
+<!ENTITY insertFormCmd.label "Definir formulário…">
 <!ENTITY insertFormMenu.label "Formulário">
 <!ENTITY insertHLineCmd.label "Linha horizontal">
 <!ENTITY insertHTMLCmd.accesskey "H">
-<!ENTITY insertHTMLCmd.label "Código-fonte HTML...">
-<!ENTITY insertImageCmd.label "Imagem...">
-<!ENTITY insertImageMapCmd.label "Mapa da imagem...">
-<!ENTITY insertInputImageCmd.label "Imagem do formulário...">
-<!ENTITY insertInputTagCmd.label "Campo de formulário...">
+<!ENTITY insertHTMLCmd.label "Código-fonte HTML…">
+<!ENTITY insertImageCmd.label "Imagem…">
+<!ENTITY insertImageMapCmd.label "Mapa da imagem…">
+<!ENTITY insertInputImageCmd.label "Imagem do formulário…">
+<!ENTITY insertInputTagCmd.label "Campo de formulário…">
 <!ENTITY insertIsIndexCmd.label "Índice da pesquisa">
 <!ENTITY insertLabelCmd.label "Definir descrição">
-<!ENTITY insertLinkCmd.label "Link...">
+<!ENTITY insertLinkCmd.label "Link…">
 <!ENTITY insertMenu.label "Inserir">
 <!ENTITY insertNbsp.accesskey "n">
-<!ENTITY insertNbspCmd.label "Non breakable whitespace...">
+<!ENTITY insertNbspCmd.label "Non breakable whitespace…">
 <!ENTITY insertPHPCode.label "Código PHP">
-<!ENTITY insertSelectCmd.label "Lista de seleção...">
+<!ENTITY insertSelectCmd.label "Lista de seleção…">
 <!ENTITY insertSmartWidgetsMenu.label "Smart Widgets">
 <!ENTITY insertTOC.accesskey "I">
-<!ENTITY insertTOC.label "Inserir...">
-<!ENTITY insertTableCmd.label "Tabela...">
-<!ENTITY insertTextAreaCmd.label "Área de texto...">
+<!ENTITY insertTOC.label "Inserir…">
+<!ENTITY insertTableCmd.label "Tabela…">
+<!ENTITY insertTextAreaCmd.label "Área de texto…">
 <!ENTITY insertTextCmd.label "Inserir texto">
 <!ENTITY insertanchor.accesskey "N">
 <!ENTITY insertbreak.accesskey "b">
@@ -348,7 +348,7 @@
 <!ENTITY newBlankPageCmd.label "Janela">
 <!ENTITY newEditorTestPage.label "Composer - página de teste">
 <!ENTITY newMenu.label "Novo">
-<!ENTITY newOtherCmd.label "Mais opções...">
+<!ENTITY newOtherCmd.label "Mais opções…">
 <!ENTITY newTab.label "Página em nova aba">
 <!ENTITY newToolbarCmd.tooltip "Criar uma nova página no &brandShortName;">
 <!ENTITY noClass.label "(nenhuma classe)">
@@ -362,14 +362,14 @@
 <!ENTITY nvudevorgmenu.accesskey "D">
 <!ENTITY nvuforumsmenu.accesskey "m">
 <!ENTITY ok.label "OK">
-<!ENTITY openFileCmd.label "Abrir arquivo...">
+<!ENTITY openFileCmd.label "Abrir arquivo…">
 <!ENTITY openToolbarCmd.label "Abrir">
 <!ENTITY openToolbarCmd.tooltip "Abrir um arquivo do computador">
-<!ENTITY openremoteCmd.label "Abrir...">
+<!ENTITY openremoteCmd.label "Abrir…">
 <!ENTITY outdentToolbarCmd.tooltip "Diminuir recuo (mover para a esquerda)">
 <!ENTITY outputHTMLCmd.label "Saída em HTML">
 <!ENTITY outputTextCmd.label "Saída em texto">
-<!ENTITY pageProperties.label "Propriedades da página...">
+<!ENTITY pageProperties.label "Propriedades da página…">
 <!ENTITY pageproperties.accesskey "o">
 <!ENTITY paragraphAddressCmd.label "Endereço">
 <!ENTITY paragraphBlockquoteCmd.label "Blockquote">
@@ -402,16 +402,16 @@
 <!ENTITY previewCmd.label "Visualizar">
 <!ENTITY previewToolbarCmd.label "Visualizar">
 <!ENTITY previewToolbarCmd.tooltip "Carregar esta página no navegador">
-<!ENTITY printButtonCmd.label "Imprimir...">
-<!ENTITY printCmd.label "Imprimir...">
+<!ENTITY printButtonCmd.label "Imprimir…">
+<!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printPreviewCmd.label "Visualizar impressão">
-<!ENTITY printSetupCmd.label "Configurar página...">
+<!ENTITY printSetupCmd.label "Configurar página…">
 <!ENTITY printToolbarCmd.label "Imprimir">
 <!ENTITY printToolbarCmd.tooltip "Imprimir a página">
-<!ENTITY publishAsCmd.label "Publicar como...">
+<!ENTITY publishAsCmd.label "Publicar como…">
 <!ENTITY publishCmd.label "Publicar">
 <!ENTITY publishSettings.accesskey "n">
-<!ENTITY publishSettings.label "Configurações de publicação...">
+<!ENTITY publishSettings.label "Configurações de publicação…">
 <!ENTITY publishToolbarCmd.tooltip "Fazer o upload do arquivo">
 <!ENTITY publishas.accesskey "u">
 <!ENTITY publishcmd.accesskey "P">
@@ -428,7 +428,7 @@
 <!ENTITY saveAsChangeEncodingCmd.label "Salvar e modificar a codificação de caracteres">
 <!ENTITY refreshImages.label "Recarregar Imagens">
 <!ENTITY refreshImages.accesskey "i">
-<!ENTITY saveAsCmd.label "Salvar como...">
+<!ENTITY saveAsCmd.label "Salvar como…">
 <!ENTITY saveCmd.label "Salvar">
 <!ENTITY saveToolbarCmd.tooltip "Salvar a página localmente">
 <!ENTITY selectAllCmd.label "Selecionar tudo">
@@ -519,7 +519,7 @@
 <!ENTITY tableJoinCells.label "j">
 <!ENTITY tableMenu.label "Tabela">
 <!ENTITY tableOrCellColor.accesskey "f">
-<!ENTITY tableOrCellColor.label "Cor do plano de fundo...">
+<!ENTITY tableOrCellColor.label "Cor do plano de fundo…">
 <!ENTITY tableProperties.accesskey "o">
 <!ENTITY tableProperties.label "Propriedades da tabela">
 <!ENTITY tableRow.label "Linha">

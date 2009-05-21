@@ -48,14 +48,14 @@
 <!ENTITY filemenu.accesskey "F">
 <!ENTITY newBlankPageCmd.label "Oldal új ablakban">
 <!ENTITY newBlankPage.accesskey "Ú">
-<!ENTITY newOtherCmd.label "További beállítások...">
+<!ENTITY newOtherCmd.label "További beállítások…">
 
 <!ENTITY newMenu.label "Új">
 <!ENTITY newTab.label "Oldal új lapon">
 <!ENTITY openFileCmd.label "Fájl megnyitása">
 <!ENTITY fileopen.accesskey "F">
 <!ENTITY fileopen.keybinding "o">
-<!ENTITY openremoteCmd.label "Webcím megnyitása...">
+<!ENTITY openremoteCmd.label "Webcím megnyitása…">
 <!ENTITY fileopenremote.accesskey "W">
 <!ENTITY fileopenremote.keybinding "l">
 <!ENTITY fileRecentMenu.label "Legutóbb szerkesztett oldalak">
@@ -65,27 +65,27 @@
 <!ENTITY saveCmd.label "Mentés">
 <!ENTITY filesave.accesskey "M">
 <!ENTITY filesave.keybinding "s">
-<!ENTITY saveAsCmd.label "Mentés másként...">
+<!ENTITY saveAsCmd.label "Mentés másként…">
 <!ENTITY filesaveas.accesskey "e">
 
 <!ENTITY publishCmd.label "Közzététel">
 <!ENTITY publishcmd.accesskey "ö">
-<!ENTITY publishAsCmd.label "Közzététel...">
+<!ENTITY publishAsCmd.label "Közzététel…">
 <!ENTITY publishas.accesskey "z">
-<!ENTITY exportToTextCmd.label "Exportálás szövegként...">
+<!ENTITY exportToTextCmd.label "Exportálás szövegként…">
 <!ENTITY fileexporttotext.accesskey "t">
-<!ENTITY saveAsChangeEncodingCmd.label "Mentés és a karakterkódolás megváltoztatása...">
+<!ENTITY saveAsChangeEncodingCmd.label "Mentés és a karakterkódolás megváltoztatása…">
 <!ENTITY filesaveandchangeencoding.accesskey "r">
 <!ENTITY previewCmd.label "Oldal megtekintése">
 <!ENTITY filepreview.accesskey "t">
-<!ENTITY sendPageCmd.label "Oldal küldése...">
+<!ENTITY sendPageCmd.label "Oldal küldése…">
 <!ENTITY sendPage.accesskey "O">
-<!ENTITY printSetupCmd.label "Oldalbeállítás...">
+<!ENTITY printSetupCmd.label "Oldalbeállítás…">
 <!ENTITY fileprintsetup.accesskey "l">
 <!ENTITY printPreviewCmd.label "Nyomtatási kép">
 <!ENTITY fileprintpreview.accesskey "t">
-<!ENTITY printCmd.label "Nyomtatás...">
-<!ENTITY printButtonCmd.label "Nyomtatás...">
+<!ENTITY printCmd.label "Nyomtatás…">
+<!ENTITY printButtonCmd.label "Nyomtatás…">
 <!ENTITY fileprint.accesskey "N">
 <!ENTITY fileprint.keybinding "p">
 <!ENTITY closeCmd.label "Bezárás">
@@ -103,7 +103,7 @@
 <!ENTITY pasteNoFormatting.accesskey "f">
 <!ENTITY pasteAs.label "Irányított beillesztés">
 <!ENTITY pasteAs.accesskey "I">
-<!ENTITY publishSettings.label "Közzététel helyének beállításai...">
+<!ENTITY publishSettings.label "Közzététel helyének beállításai…">
 <!ENTITY publishSettings.accesskey "z">
 <!ENTITY detachFromTemplate.label "Leválasztás a sablonról">
 
@@ -130,7 +130,7 @@
 <!ENTITY editpastequotation.keybinding "v">
 <!ENTITY editStripQuotesCmd.label "Idézés törlése">
 <!ENTITY editRewrapCmd.label "Újratördelés">
-<!ENTITY findCmd.label "Keresés és csere...">
+<!ENTITY findCmd.label "Keresés és csere…">
 <!ENTITY editfind.accesskey "K">
 <!ENTITY editfind.keybinding "f">
 <!ENTITY editfind.keybinding2 "VK_F19">                                         
@@ -174,30 +174,30 @@
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Beszúrás">
 <!ENTITY insertmenu.accesskey "B">
-<!ENTITY insertLinkCmd.label "Hivatkozás...">
+<!ENTITY insertLinkCmd.label "Hivatkozás…">
 <!ENTITY insertlink.accesskey "H">
 <!ENTITY insertlink.keybinding "l">
-<!ENTITY insertAnchorCmd.label "Horgony...">
+<!ENTITY insertAnchorCmd.label "Horgony…">
 <!ENTITY insertanchor.accesskey "o">
-<!ENTITY insertImageCmd.label "Kép...">
+<!ENTITY insertImageCmd.label "Kép…">
 <!ENTITY insertimage.accesskey "K">
-<!ENTITY insertImageMapCmd.label "Hivatkozástérkép...">
+<!ENTITY insertImageMapCmd.label "Hivatkozástérkép…">
 <!ENTITY insertHLineCmd.label "Vízszintes vonal">
 <!ENTITY inserthline.accesskey "V">
-<!ENTITY insertTableCmd.label "Táblázat...">
+<!ENTITY insertTableCmd.label "Táblázat…">
 <!ENTITY inserttable.accesskey "T">
-<!ENTITY insertFormMenu.label "Űrlap...">
+<!ENTITY insertFormMenu.label "Űrlap…">
 <!ENTITY insertformmenu.accesskey "r">
-<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "h">
-<!ENTITY insertCharsCmd.label "Karakterek és szimbólumok...">
+<!ENTITY insertCharsCmd.label "Karakterek és szimbólumok…">
 <!ENTITY insertchars.accesskey "K">
 <!ENTITY insertBreakCmd.label "Sortörés">
 <!ENTITY insertbreak.accesskey "S">
 <!ENTITY insertBreakAllCmd.label "Sortörés a kép(ek) alatt">
 <!ENTITY insertbreakall.accesskey "k">
 
-<!ENTITY insertNbspCmd.label "Nem törhető szóköz...">
+<!ENTITY insertNbspCmd.label "Nem törhető szóköz…">
 <!ENTITY insertNbsp.accesskey "n">
 
 <!ENTITY insertPHPCode.label "PHP-kód">
@@ -206,27 +206,27 @@
 <!ENTITY insertcomment.accesskey "m">
 
 <!-- Insert form menu items -->
-<!ENTITY insertFormCmd.label "Űrlapkészítés...">
+<!ENTITY insertFormCmd.label "Űrlapkészítés…">
 <!ENTITY insertform.accesskey "r">
-<!ENTITY insertInputTagCmd.label "Űrlapmező...">
+<!ENTITY insertInputTagCmd.label "Űrlapmező…">
 <!ENTITY insertinputtag.accesskey "m">
-<!ENTITY insertInputImageCmd.label "Űrlapkép...">
+<!ENTITY insertInputImageCmd.label "Űrlapkép…">
 <!ENTITY insertinputimage.accesskey "k">
-<!ENTITY insertTextAreaCmd.label "Szövegterület...">
+<!ENTITY insertTextAreaCmd.label "Szövegterület…">
 <!ENTITY inserttextarea.accesskey "T">
-<!ENTITY insertSelectCmd.label "Választólista...">
+<!ENTITY insertSelectCmd.label "Választólista…">
 <!ENTITY insertselect.accesskey "L">
-<!ENTITY insertButtonCmd.label "Gomb beszúrása...">
+<!ENTITY insertButtonCmd.label "Gomb beszúrása…">
 <!ENTITY insertbutton.accesskey "G">
 <!ENTITY insertLabelCmd.label "Címke beszúrása">
 <!ENTITY insertlabel.accesskey "C">
-<!ENTITY insertFieldSetCmd.label "Mezőcsoport beszúrása...">
+<!ENTITY insertFieldSetCmd.label "Mezőcsoport beszúrása…">
 <!ENTITY insertfieldset.accesskey "s">
 <!ENTITY insertIsIndexCmd.label "Keresőmező">
 <!ENTITY insertisindex.accesskey "e">
 
 <!-- Used just in context popup. -->
-<!ENTITY createLinkCmd.label "Hivatkozás létrehozása...">
+<!ENTITY createLinkCmd.label "Hivatkozás létrehozása…">
 <!ENTITY createlink.accesskey "k">
 <!ENTITY editLinkCmd.label "Hivatkozás szerkesztése új ablakban">
 <!ENTITY editlink.accesskey "i">
@@ -330,9 +330,9 @@
 <!ENTITY styleVar.label "Változó">
 <!ENTITY styleVar.accesskey "v">
 
-<!ENTITY formatFontColor.label "Szövegszín...">
+<!ENTITY formatFontColor.label "Szövegszín…">
 <!ENTITY formatfontcolor.accesskey "z">
-<!ENTITY tableOrCellColor.label "Táblázat vagy cella háttérszíne...">
+<!ENTITY tableOrCellColor.label "Táblázat vagy cella háttérszíne…">
 <!ENTITY tableOrCellColor.accesskey "b">
 
 <!ENTITY formatremovestyles.keybinding "y">
@@ -385,7 +385,7 @@
 <!ENTITY listterm.accesskey "K">
 <!ENTITY listDefinitionCmd.label "Definíció (DD)">
 <!ENTITY listdefinition.accesskey "d">
-<!ENTITY listProps.label "Felsorolás tulajdonságai...">
+<!ENTITY listProps.label "Felsorolás tulajdonságai…">
 <!ENTITY listprops.accesskey "F">
 
 <!ENTITY ParagraphSelect.tooltip "Bekezdésformátum választása">
@@ -445,9 +445,9 @@
 <!ENTITY grid.label "Pozicionáló rács">
 <!ENTITY grid.accesskey "P">
 
-<!ENTITY pageProperties.label "Oldal címe és tulajdonságai...">
+<!ENTITY pageProperties.label "Oldal címe és tulajdonságai…">
 <!ENTITY pageproperties.accesskey "O">
-<!ENTITY colorsAndBackground.label "Oldal színei és háttere...">
+<!ENTITY colorsAndBackground.label "Oldal színei és háttere…">
 <!ENTITY colorsandbackground.accesskey "h">
 
 <!-- Table Menu -->
@@ -508,7 +508,7 @@
 <!ENTITY tablesplitcell.accesskey "c">
 <!ENTITY convertToTable.label "Táblázat létrehozása a kijelölésből">
 <!ENTITY converttotable.accesskey "z">
-<!ENTITY tableProperties.label "Táblázat tulajdonságai...">
+<!ENTITY tableProperties.label "Táblázat tulajdonságai…">
 <!ENTITY tableProperties.accesskey "b">
 
 <!-- Tools menu -->
@@ -651,7 +651,7 @@
 <!ENTITY updateTOC.accesskey      "F">
 <!ENTITY removeTOC.label          "Eltávolítás">
 <!ENTITY removeTOC.accesskey      "E">
-<!ENTITY tocMenu.label            "Tartalomjegyzék...">
+<!ENTITY tocMenu.label            "Tartalomjegyzék…">
 <!ENTITY tocMenu.accesskey        "T">
 
 <!-- Smart Widgets menu -->

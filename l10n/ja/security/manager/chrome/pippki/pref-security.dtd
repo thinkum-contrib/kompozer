@@ -44,14 +44,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY  resetsettings.label		"設定のリセット">
-<!ENTITY  resetpreferences.label	"設定のリセット...">
+<!ENTITY  resetpreferences.label	"設定のリセット…">
 <!ENTITY  managecerts.caption		"証明書マネージャ">
 <!ENTITY  managecerts.text		"証明書マネージャでは、あなたの個人証明書の他、他の人や認証局の識別に利用する証明書を管理します。">
-<!ENTITY  managecerts.button		"証明書マネージャ...">
+<!ENTITY  managecerts.button		"証明書マネージャ…">
 <!ENTITY  managecerts.accesskey		"M">
 <!ENTITY  managedevices.caption		"セキュリティデバイスの管理">
 <!ENTITY  managedevices.text		"セキュリティマネージャでは、スマートカードなどのセキュリティデバイスを管理します。">
-<!ENTITY  managedevices.button		"セキュリティデバイスマネージャ...">
+<!ENTITY  managedevices.button		"セキュリティデバイスマネージャ…">
 <!ENTITY  managedevices.accesskey	"S">
 
 <!ENTITY  ssl.label			"SSL">

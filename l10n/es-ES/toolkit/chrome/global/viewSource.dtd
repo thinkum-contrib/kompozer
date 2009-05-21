@@ -4,14 +4,14 @@
 <!ENTITY mainWindow.preface "Código fuente de: ">
 <!ENTITY fileMenu.label "Archivo">
 <!ENTITY fileMenu.accesskey "A">
-<!ENTITY savePageCmd.label "Guardar como...">
+<!ENTITY savePageCmd.label "Guardar como…">
 <!ENTITY savePageCmd.accesskey "G">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Configurar página...">
+<!ENTITY pageSetupCmd.label "Configurar página…">
 <!ENTITY pageSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "Vista preliminar">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Imprimir...">
+<!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Cerrar">
@@ -21,7 +21,7 @@
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
-<!ENTITY goToLineCmd.label "Ir a la línea...">
+<!ENTITY goToLineCmd.label "Ir a la línea…">
 <!ENTITY goToLineCmd.accesskey "I">
 <!ENTITY goToLineCmd.commandkey "l">
 <!ENTITY viewMenu.label "Ver">
@@ -41,7 +41,7 @@
 <!ENTITY menu_textReduce.accesskey "R">
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
-<!ENTITY findOnCmd.label "Encontrar en esta página...">
+<!ENTITY findOnCmd.label "Encontrar en esta página…">
 <!ENTITY findOnCmd.accesskey "E">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label "Repetir la búsqueda">

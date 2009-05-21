@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth                 "39em">
 
 <!ENTITY  checking.title                  "Zisťujú sa aktualizácie">
-<!ENTITY  checking.label                  "&brandShortName; kontroluje dostupnosť aktualizácií...">
+<!ENTITY  checking.label                  "&brandShortName; kontroluje dostupnosť aktualizácií…">
 
 <!ENTITY  cancel.label                    "Zrušiť">
 <!ENTITY  cancel.accesskey                "Z">
@@ -42,8 +42,8 @@
 <!ENTITY  license.decline.accesskey       "N">
 
 <!ENTITY downloading.title                "Sťahovanie aktualizácií">
-<!ENTITY downloading.intro                "Sťahovanie aktualizácií...">
-<!ENTITY connecting.label                 "Pripájanie k aktualizačnému serveru...">
+<!ENTITY downloading.intro                "Sťahovanie aktualizácií…">
+<!ENTITY connecting.label                 "Pripájanie k aktualizačnému serveru…">
 <!ENTITY verificationFailedText.label     "&brandShortName; nedokázal overiť integritu  
                                            stiahnutej rozdielovej aktualizácie. Mali by ste stiahnuť
                                            kompletný aktualizačný balík.">
@@ -78,7 +78,7 @@
                                            
 <!ENTITY installed.title                  "Aktualizácia nainštalovaná">
 <!ENTITY installed.intro                  "Aktualizácia bola úspešne nainštalovaná.">
-<!ENTITY whatsnew.label                   "Prečítajte si, čo je nové...">
+<!ENTITY whatsnew.label                   "Prečítajte si, čo je nové…">
 
 <!ENTITY update.details.label             "Podrobnosti">
 <!ENTITY update.installedOn.label         "Nainštalované:">

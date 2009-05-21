@@ -85,8 +85,8 @@
 <!ENTITY escrowWarn.message2 "Jednakże należy mieć na uwadze, że Twój prywatny klucz szyfrujący, będąc przechowywanym przez organ certyfikacji, może zostać wykorzystany do czytania zaszyfrowanej przy użyciu tego klucza poczty lub dokumentów bez Twojej zgody." >
 <!ENTITY serverCrlNextupdate.message "W celu uzyskania dalszych informacji należy skontaktować się z administratorem sieci." >
 <!ENTITY createCertInfo.title "Generowanie prywatnego klucza" >
-<!ENTITY createCertInfo.msg1 "Trwa generowanie klucza... Może to potrwać kilka minut...." >
-<!ENTITY createCertInfo.msg2 "Proszę czekać..." >
+<!ENTITY createCertInfo.msg1 "Trwa generowanie klucza… Może to potrwać kilka minut…." >
+<!ENTITY createCertInfo.msg2 "Proszę czekać…" >
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Żądanie podpisu">

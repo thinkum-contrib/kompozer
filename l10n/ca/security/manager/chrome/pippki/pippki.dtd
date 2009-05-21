@@ -127,8 +127,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "S'està generant una clau privada">
-<!ENTITY createCertInfo.msg1 "S'està generant la clau... açò pot tardar uns minuts...">
-<!ENTITY createCertInfo.msg2 "Si us plau, espereu...">
+<!ENTITY createCertInfo.msg1 "S'està generant la clau… açò pot tardar uns minuts…">
+<!ENTITY createCertInfo.msg2 "Si us plau, espereu…">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Sol·licitud de signatura del text">

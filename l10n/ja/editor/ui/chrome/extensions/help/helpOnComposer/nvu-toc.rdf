@@ -243,21 +243,21 @@
  <nc:subheadings>
   <Seq>
    <li><Description ID="comp-doc-menu-file-new-window" nc:name="新規作成" nc:link="menu_reference.xhtml#new_window"/></li>
-   <li><Description ID="comp-doc-menu-file-open-file" nc:name="ファイルを開く..." nc:link="menu_reference.xhtml#open_file"/></li>
-   <li><Description ID="comp-doc-menu-file-open-web-location" nc:name="URIを指定して開く..." nc:link="menu_reference.xhtml#open_web_location"/></li>
+   <li><Description ID="comp-doc-menu-file-open-file" nc:name="ファイルを開く…" nc:link="menu_reference.xhtml#open_file"/></li>
+   <li><Description ID="comp-doc-menu-file-open-web-location" nc:name="URIを指定して開く…" nc:link="menu_reference.xhtml#open_web_location"/></li>
    <li><Description ID="comp-doc-menu-file-recent-pages" nc:name="最近使用したページ" nc:link="menu_reference.xhtml#recent_pages"/></li>
    <li><Description ID="comp-doc-menu-file-close" nc:name="閉じる" nc:link="menu_reference.xhtml#close"/></li>
    <li><Description ID="comp-doc-menu-file-close-all" nc:name="すべて閉じる" nc:link="menu_reference.xhtml#close_all"/></li>
    <li><Description ID="comp-doc-menu-file-save" nc:name="保存" nc:link="menu_reference.xhtml#save"/></li>
-   <li><Description ID="comp-doc-menu-file-save-as" nc:name="名前を付けて保存..." nc:link="menu_reference.xhtml#save_as"/></li>
-   <li><Description ID="comp-doc-menu-file-save-as-charset" nc:name="文字エンコードを指定して保存..." nc:link="menu_reference.xhtml#save_as_charset"/></li>
+   <li><Description ID="comp-doc-menu-file-save-as" nc:name="名前を付けて保存…" nc:link="menu_reference.xhtml#save_as"/></li>
+   <li><Description ID="comp-doc-menu-file-save-as-charset" nc:name="文字エンコードを指定して保存…" nc:link="menu_reference.xhtml#save_as_charset"/></li>
    <li><Description ID="comp-doc-menu-file-publish" nc:name="公開" nc:link="menu_reference.xhtml#publish"/></li>
-   <li><Description ID="comp-doc-menu-file-publish-as" nc:name="名前を付けて公開..." nc:link="menu_reference.xhtml#publish_as"/></li>
+   <li><Description ID="comp-doc-menu-file-publish-as" nc:name="名前を付けて公開…" nc:link="menu_reference.xhtml#publish_as"/></li>
    <li><Description ID="comp-doc-menu-file-revert" nc:name="変更の破棄" nc:link="menu_reference.xhtml#revert"/></li>
    <li><Description ID="komp-doc-menu-file-reload-image" nc:name="画像の再読み込み" nc:link="menu_reference.xhtml#reload-image"/></li>
-   <li><Description ID="comp-doc-menu-file-export-to-text" nc:name="テキストとして出力..." nc:link="menu_reference.xhtml#export_to_text"/></li>
+   <li><Description ID="comp-doc-menu-file-export-to-text" nc:name="テキストとして出力…" nc:link="menu_reference.xhtml#export_to_text"/></li>
    <li><Description ID="comp-doc-menu-file-browse-page" nc:name="ページのプレビュー" nc:link="menu_reference.xhtml#browse_page"/></li>
-   <li><Description ID="comp-doc-menu-file-page-setup" nc:name="印刷ページ設定..." nc:link="menu_reference.xhtml#page_setup"/></li>
+   <li><Description ID="comp-doc-menu-file-page-setup" nc:name="印刷ページ設定…" nc:link="menu_reference.xhtml#page_setup"/></li>
    <li><Description ID="comp-doc-menu-file-print-preview" nc:name="印刷プレビュー" nc:link="menu_reference.xhtml#print_preview"/></li>
    <li><Description ID="comp-doc-menu-file-print" nc:name="印刷" nc:link="menu_reference.xhtml#print"/></li>
    <li><Description ID="comp-doc-menu-file-quit" nc:name="終了" nc:link="menu_reference.xhtml#exit"/></li>
@@ -276,7 +276,7 @@
    <li><Description ID="comp-doc-menu-edit-paste-without-formatting" nc:name="書式情報を省いて貼り付け" nc:link="menu_reference.xhtml#paste_without_formatting"/></li>
    <li><Description ID="comp-doc-menu-edit-delete" nc:name="削除" nc:link="menu_reference.xhtml#delete"/></li>
    <li><Description ID="comp-doc-menu-edit-select-all" nc:name="すべて選択" nc:link="menu_reference.xhtml#select_all"/></li>
-   <li><Description ID="comp-doc-menu-edit-find-replace" nc:name="検索・置換..." nc:link="menu_reference.xhtml#find_and_replace"/></li>
+   <li><Description ID="comp-doc-menu-edit-find-replace" nc:name="検索・置換…" nc:link="menu_reference.xhtml#find_and_replace"/></li>
    <li><Description ID="comp-doc-menu-edit-find-again" nc:name="次を検索" nc:link="menu_reference.xhtml#find_again"/></li>
    <li><Description ID="comp-doc-menu-edit-find-previous" nc:name="前を検索" nc:link="menu_reference.xhtml#find_previous"/></li>
    <li><Description ID="comp-doc-menu-edit-check-spelling" nc:name="綴りをチェック" nc:link="menu_reference.xhtml#check_spelling"/></li>
@@ -305,15 +305,15 @@
 <Description about="#comp-doc-menu-insert">
  <nc:subheadings>
   <Seq>
-   <li><Description ID="comp-doc-menu-insert-image" nc:name="画像..." nc:link="menu_reference.xhtml#insert_image"/></li>
-   <li><Description ID="comp-doc-menu-insert-table" nc:name="テーブル..." nc:link="menu_reference.xhtml#inserttable"/></li>
-   <li><Description ID="comp-doc-menu-insert-form" nc:name="入力フォーム..." nc:link="menu_reference.xhtml#insert_form"/></li>
-   <li><Description ID="comp-doc-menu-insert-link" nc:name="リンク..." nc:link="menu_reference.xhtml#insert_link"/></li>
-   <li><Description ID="comp-doc-menu-insert-anchor" nc:name="名前付きアンカー..." nc:link="menu_reference.xhtml#named_anchor"/></li>
+   <li><Description ID="comp-doc-menu-insert-image" nc:name="画像…" nc:link="menu_reference.xhtml#insert_image"/></li>
+   <li><Description ID="comp-doc-menu-insert-table" nc:name="テーブル…" nc:link="menu_reference.xhtml#inserttable"/></li>
+   <li><Description ID="comp-doc-menu-insert-form" nc:name="入力フォーム…" nc:link="menu_reference.xhtml#insert_form"/></li>
+   <li><Description ID="comp-doc-menu-insert-link" nc:name="リンク…" nc:link="menu_reference.xhtml#insert_link"/></li>
+   <li><Description ID="comp-doc-menu-insert-anchor" nc:name="名前付きアンカー…" nc:link="menu_reference.xhtml#named_anchor"/></li>
    <li><Description ID="comp-doc-menu-insert-horizontal-line" nc:name="水平線" nc:link="menu_reference.xhtml#horizontal_line"/></li>
-   <li><Description ID="comp-doc-menu-insert-html" nc:name="HTML..." nc:link="menu_reference.xhtml#html"/></li>
-   <li><Description ID="comp-doc-menu-insert-character-symbols" nc:name="文字・シンボル..." nc:link="menu_reference.xhtml#character_and_symbols"/></li>
-   <li><Description ID="comp-doc-menu-insert-toc" nc:name="目次..." nc:link="menu_reference.xhtml#table_of_contents"/></li>
+   <li><Description ID="comp-doc-menu-insert-html" nc:name="HTML…" nc:link="menu_reference.xhtml#html"/></li>
+   <li><Description ID="comp-doc-menu-insert-character-symbols" nc:name="文字・シンボル…" nc:link="menu_reference.xhtml#character_and_symbols"/></li>
+   <li><Description ID="comp-doc-menu-insert-toc" nc:name="目次…" nc:link="menu_reference.xhtml#table_of_contents"/></li>
    <li><Description ID="comp-doc-menu-insert-smart-widgets" nc:name="ページ部品" nc:link="menu_reference.xhtml#smart_widgets"/></li>
    <li><Description ID="comp-doc-menu-insert-templates" nc:name="雛型" nc:link="menu_reference.xhtml#templates"/></li>
    <li><Description ID="comp-doc-menu-insert-php-code" nc:name="PHPコード" nc:link="menu_reference.xhtml#php_code"/></li>
@@ -329,7 +329,7 @@
    <li><Description ID="comp-doc-menu-format-font" nc:name="フォント" nc:link="menu_reference.xhtml#font"/></li>
    <li><Description ID="comp-doc-menu-format-size" nc:name="サイズ" nc:link="menu_reference.xhtml#size"/></li>
    <li><Description ID="comp-doc-menu-format-text-style" nc:name="文字装飾" nc:link="menu_reference.xhtml#text_style"/></li>
-   <li><Description ID="comp-doc-menu-format-text-color" nc:name="文字色..." nc:link="menu_reference.xhtml#text_color"/></li>
+   <li><Description ID="comp-doc-menu-format-text-color" nc:name="文字色…" nc:link="menu_reference.xhtml#text_color"/></li>
    <li><Description ID="comp-doc-menu-format-direction" nc:name="文字方向" nc:link="menu_reference.xhtml#writing_direction"/></li>
    <li><Description ID="comp-doc-menu-format-discontinue-text-styles" nc:name="すべての装飾を解除" nc:link="menu_reference.xhtml#discontinue_text_styles"/></li>
    <li><Description ID="comp-doc-menu-format-discontinue-link" nc:name="リンクを解除" nc:link="menu_reference.xhtml#discontinue_link"/></li>
@@ -340,9 +340,9 @@
    <li><Description ID="comp-doc-menu-format-decrease-indent" nc:name="インデントを1段階浅くする" nc:link="menu_reference.xhtml#decrease_indent"/></li>
    <li><Description ID="comp-doc-menu-format-align" nc:name="配置" nc:link="menu_reference.xhtml#align"/></li>
    <li><Description ID="comp-doc-menu-format-positioning-grid" nc:name="グリッド配置" nc:link="menu_reference.xhtml#positioning_grid"/></li>
-   <li><Description ID="comp-doc-menu-format-advanced-properties" nc:name="詳細プロパティ..." nc:link="menu_reference.xhtml#advanced_properties"/></li>
-   <li><Description ID="comp-doc-menu-format-page-color-background" nc:name="ページの配色と背景..." nc:link="menu_reference.xhtml#page_colors_and_background"/></li>
-   <li><Description ID="comp-doc-menu-format-title-properties" nc:name="ページのタイトルとプロパティ..." nc:link="menu_reference.xhtml#page_title_and_properties"/></li>
+   <li><Description ID="comp-doc-menu-format-advanced-properties" nc:name="詳細プロパティ…" nc:link="menu_reference.xhtml#advanced_properties"/></li>
+   <li><Description ID="comp-doc-menu-format-page-color-background" nc:name="ページの配色と背景…" nc:link="menu_reference.xhtml#page_colors_and_background"/></li>
+   <li><Description ID="comp-doc-menu-format-title-properties" nc:name="ページのタイトルとプロパティ…" nc:link="menu_reference.xhtml#page_title_and_properties"/></li>
   </Seq>
  </nc:subheadings>
 </Description>
@@ -356,8 +356,8 @@
    <li><Description ID="comp-doc-menu-table-join-cell" nc:name="このセルを右と結合" nc:link="menu_reference.xhtml#join_with_cell_to_the_right"/></li>
    <li><Description ID="comp-doc-menu-table-split-cell" nc:name="セルを分割" nc:link="menu_reference.xhtml#split_cell"/></li>
    <li><Description ID="comp-doc-menu-table-create-table" nc:name="選択文字列からテーブルを作成" nc:link="menu_reference.xhtml#create_table_from_selection"/></li>
-   <li><Description ID="comp-doc-menu-table-background-color" nc:name="テーブル・セルの背景色..." nc:link="menu_reference.xhtml#table_or_cell_background_color"/></li>
-   <li><Description ID="comp-doc-menu-table-table-properties" nc:name="テーブルのプロパティ..." nc:link="menu_reference.xhtml#table_properties"/></li>
+   <li><Description ID="comp-doc-menu-table-background-color" nc:name="テーブル・セルの背景色…" nc:link="menu_reference.xhtml#table_or_cell_background_color"/></li>
+   <li><Description ID="comp-doc-menu-table-table-properties" nc:name="テーブルのプロパティ…" nc:link="menu_reference.xhtml#table_properties"/></li>
   </Seq>
  </nc:subheadings>
 </Description>

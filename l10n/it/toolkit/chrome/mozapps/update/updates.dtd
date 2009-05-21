@@ -2,7 +2,7 @@
 <!ENTITY window.width "36em">
 <!ENTITY window.macWidth "42em">
 <!ENTITY checking.title "Controllo aggiornamenti">
-<!ENTITY checking.label "&brandShortName; sta controllando gli aggiornamenti...">
+<!ENTITY checking.label "&brandShortName; sta controllando gli aggiornamenti…">
 <!ENTITY cancel.label "Annulla">
 <!ENTITY cancel.accesskey "A">
 <!ENTITY noupdatesfound.title "Nessun aggiornamento trovato">
@@ -27,8 +27,8 @@
 <!ENTITY license.decline "Non accetto i termini del contratto di licenza">
 <!ENTITY license.decline.accesskey "N">
 <!ENTITY downloading.title "Download degli aggiornamenti">
-<!ENTITY downloading.intro "Download degli aggiornamenti...">
-<!ENTITY connecting.label "Connessione al server degli aggiornamenti...">
+<!ENTITY downloading.intro "Download degli aggiornamenti…">
+<!ENTITY connecting.label "Connessione al server degli aggiornamenti…">
 <!ENTITY verificationFailedText.label "&brandShortName; non può verificare l'integrità dell'aggiornamento 
                                             incrementale scaricato, perciò verrà scaricato il pacchetto di
                                             aggiornamento completo.">
@@ -53,7 +53,7 @@ Fare clic sul link sottostante per maggiori dettagli.">
 <!ENTITY finishedBackground.more2 "Fare clic su Più tardi per chiudere questo avviso e continuare con il lavoro. &brandShortName; installerà l'aggiornamento al prossimo avvio.">
 <!ENTITY installed.title "Aggiornamento installato">
 <!ENTITY installed.intro "L'aggiornamento è stato installato correttamente.">
-<!ENTITY whatsnew.label "Informazioni sulle novità...">
+<!ENTITY whatsnew.label "Informazioni sulle novità…">
 <!ENTITY update.details.label "Dettagli">
 <!ENTITY update.installedOn.label "Installato in:">
 <!ENTITY update.status.label "Stato:">

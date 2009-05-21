@@ -42,7 +42,7 @@
 <!ENTITY sidebar.reload.label           "Презареждане">
 <!ENTITY sidebar.reload.accesskey       "П">
 <!ENTITY sidebar.picker.label           "Изрези">
-<!ENTITY sidebar.customize.label        "Натъкмяване на страничната лента...">
+<!ENTITY sidebar.customize.label        "Натъкмяване на страничната лента…">
 <!ENTITY sidebar.customize.accesskey    "Н">
 <!ENTITY sidebar.hide.label             "Скриване на изреза">
 <!ENTITY sidebar.hide.accesskey         "к">
@@ -50,7 +50,7 @@
 <!ENTITY sidebar.switch.accesskey       "П">
 <!ENTITY sidebarCmd.label               "Възлов управител">
 <!ENTITY sidebarCmd.accesskey           "у">
-<!ENTITY sidebar.loading.label          "Зареждане...">
+<!ENTITY sidebar.loading.label          "Зареждане…">
 <!ENTITY sidebar.loadstopped.label      "Зареждането прекъснато">
 <!ENTITY sidebar.loading.stop.label     "Спиране">
 <!ENTITY sidebar.loading.stop.accesskey "С">
@@ -58,7 +58,7 @@
 <!ENTITY sidebar.no-panels.state     "Страничната летва е празна.">
 <!ENTITY sidebar.no-panels.add       'Можете да добавяте изрези, като  натиснете копчето "Изрези".'>
 <!ENTITY sidebar.no-panels.hide      'If you would like to completely hide the Sidebar, click on the "View" menu above, and select "Странична лента."'>
-<!ENTITY sidebar.sbDirectory.label   "Папка на страничната летва...">
+<!ENTITY sidebar.sbDirectory.label   "Папка на страничната летва…">
 
 <!ENTITY sidebar.pagenotfound.label  "Изрезът не е наличен.">
 <!ENTITY sidebar.close.tooltip       "Затваряне възловия управител">

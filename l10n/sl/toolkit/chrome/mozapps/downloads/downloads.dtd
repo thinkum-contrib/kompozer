@@ -3,9 +3,9 @@
 
 <!ENTITY done.label                       "Končano">
 <!ENTITY canceled.label                   "Preklicano">
-<!ENTITY installing.label                 "Nameščam ...">
+<!ENTITY installing.label                 "Nameščam …">
 
-<!ENTITY starting.label                   "Začenjam ...">
+<!ENTITY starting.label                   "Začenjam …">
 <!ENTITY failed.label                     "Neuspešno">
 
 <!ENTITY downloads.title                  "Prenosi">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac            "v">
 <!ENTITY cmd.open.label                   "Odpri">
 <!ENTITY cmd.open.accesskey               "O">
-<!ENTITY cmd.openWith.label               "Odpri s programom ...">
+<!ENTITY cmd.openWith.label               "Odpri s programom …">
 <!ENTITY cmd.openWith.accesskey           "g">
 <!ENTITY cmd.retry.label                  "Ponovno poskusi">
 <!ENTITY cmd.retry.accesskey              "v">

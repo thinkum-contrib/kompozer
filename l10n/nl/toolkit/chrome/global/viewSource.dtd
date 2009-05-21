@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label "Bestand">
 <!ENTITY fileMenu.accesskey "B">
-<!ENTITY savePageCmd.label "Pagina opslaan als...">
+<!ENTITY savePageCmd.label "Pagina opslaan als…">
 <!ENTITY savePageCmd.accesskey "l">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Pagina-instellingen...">
+<!ENTITY pageSetupCmd.label "Pagina-instellingen…">
 <!ENTITY pageSetupCmd.accesskey "I">
 <!ENTITY printPreviewCmd.label "Afdrukvoorbeeld">
 <!ENTITY printPreviewCmd.accesskey "V">
-<!ENTITY printCmd.label "Afdrukken...">
+<!ENTITY printCmd.label "Afdrukken…">
 <!ENTITY printCmd.accesskey "D">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Sluiten">
@@ -29,7 +29,7 @@
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
 
-<!ENTITY goToLineCmd.label "Ga naar regel...">
+<!ENTITY goToLineCmd.label "Ga naar regel…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "L">
 
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label "Normaal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Zoeken op deze pagina...">
+<!ENTITY findOnCmd.label     "Zoeken op deze pagina…">
 <!ENTITY findOnCmd.accesskey "Z">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Opnieuw zoeken">

@@ -10,8 +10,8 @@
 <!ENTITY mismatch.bottom.label "&brandShortName; може да провери дали има налични съвместими версии на тези добавки.">
 
 <!ENTITY checking.wizard.title "Проверяване за съвместими добавки">
-<!ENTITY checking.top.label "Проверяване на Вашите несъвместими добавки за обновявания...">
-<!ENTITY checking.status "Това може да отнеме няколко минути...">
+<!ENTITY checking.top.label "Проверяване на Вашите несъвместими добавки за обновявания…">
+<!ENTITY checking.status "Това може да отнеме няколко минути…">
 
 <!ENTITY found.wizard.title "Намерени съвместими добавки">
 <!ENTITY found.top.label "Изберете добавките, които искате да инсталирате:">
@@ -20,7 +20,7 @@
 <!ENTITY found.enableXPInstall.accesskey "Р">
 
 <!ENTITY installing.wizard.title "Инсталиране на съвместими добавки">
-<!ENTITY installing.top.label "Изтегляне и инсталиране на обновявания на Вашите добавки...">
+<!ENTITY installing.top.label "Изтегляне и инсталиране на обновявания на Вашите добавки…">
 
 <!ENTITY noupdates.wizard.title "Няма съвместими добавки">
 <!ENTITY noupdates.intro.desc "&brandShortName; не може да намери обновявания на Вашите несъвместими добавки.">
@@ -37,7 +37,7 @@
 
 <!ENTITY versioninfo.wizard.title "Проверяване на съвместимост на добавки">
 <!ENTITY versioninfo.top.label "Проверяване на Вашите добавки за съвместимост с тази версия на &brandShortName;.">
-<!ENTITY versioninfo.waiting "Това може да отнеме няколко минути...">
+<!ENTITY versioninfo.waiting "Това може да отнеме няколко минути…">
 
 <!ENTITY installerrors.wizard.title "Проблеми при инсталиране на обновявания">
 <!ENTITY installerrors.intro.label "&brandShortName; се натъкна на проблеми при обновяване на някои Ваши добавки.">
@@ -45,5 +45,5 @@
 
 <!ENTITY clickFinish.label "Натиснете Завършване за продължаване стартирането на &brandShortName;.">
 <!ENTITY enableChecking.label "Разрешаване на &brandShortName; да проверява за обновявания.">
-<!ENTITY details.label "Подробности...">
+<!ENTITY details.label "Подробности…">
 <!ENTITY details.accesskey "П">

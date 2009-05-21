@@ -243,18 +243,18 @@
      <nc:subheadings>
        <rdf:Seq>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-new-window" nc:name="Nieuw" nc:link="menu_reference.xhtml#new_window"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-file" nc:name="Bestand openen..." nc:link="menu_reference.xhtml#open_file"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-web-location" nc:name="Weblocatie openen..." nc:link="menu_reference.xhtml#open_web_location"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-file" nc:name="Bestand openen…" nc:link="menu_reference.xhtml#open_file"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-web-location" nc:name="Weblocatie openen…" nc:link="menu_reference.xhtml#open_web_location"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-recent-pages" nc:name="Recente pagina's" nc:link="menu_reference.xhtml#recent_pages"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-close" nc:name="Sluiten" nc:link="menu_reference.xhtml#close"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-close-all" nc:name="Alles sluiten" nc:link="menu_reference.xhtml#close_all"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-save" nc:name="Opslaan" nc:link="menu_reference.xhtml#save"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as" nc:name="Opslaan als..." nc:link="menu_reference.xhtml#save_as"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as-charset" nc:name="Save As Charset..." nc:link="menu_reference.xhtml#save_as_charset"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as" nc:name="Opslaan als…" nc:link="menu_reference.xhtml#save_as"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as-charset" nc:name="Save As Charset…" nc:link="menu_reference.xhtml#save_as_charset"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-publish" nc:name="Publiceren" nc:link="menu_reference.xhtml#publish"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-publish-as" nc:name="Publiceren als..." nc:link="menu_reference.xhtml#publish_as"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-publish-as" nc:name="Publiceren als…" nc:link="menu_reference.xhtml#publish_as"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-revert" nc:name="Terugkeren" nc:link="menu_reference.xhtml#revert"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-export-to-text" nc:name="Exporteren als tekst..." nc:link="menu_reference.xhtml#export_to_text"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-export-to-text" nc:name="Exporteren als tekst…" nc:link="menu_reference.xhtml#export_to_text"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-browse-page" nc:name="Pagina bekijken" nc:link="menu_reference.xhtml#browse_page"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-print" nc:name="Afdrukken" nc:link="menu_reference.xhtml#print"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-file-quit" nc:name="Afsluiten" nc:link="menu_reference.xhtml#exit"/> </rdf:li>
@@ -273,7 +273,7 @@
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-paste-without-formatting" nc:name="Plakken zonder opmaak" nc:link="menu_reference.xhtml#paste_without_formatting"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-delete" nc:name="Verwijderen" nc:link="menu_reference.xhtml#delete"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-select-all" nc:name="Alles selecteren" nc:link="menu_reference.xhtml#select_all"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-replace" nc:name="Zoeken en vervangen..." nc:link="menu_reference.xhtml#find_and_replace"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-replace" nc:name="Zoeken en vervangen…" nc:link="menu_reference.xhtml#find_and_replace"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-again" nc:name="Opnieuw zoeken" nc:link="menu_reference.xhtml#find_again"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-previous" nc:name="Vorige zoeken" nc:link="menu_reference.xhtml#find_previous"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-edit-check-spelling" nc:name="Spelling controleren" nc:link="menu_reference.xhtml#check_spelling"/> </rdf:li>
@@ -302,15 +302,15 @@
   <rdf:Description about="#comp-doc-menu-insert">
      <nc:subheadings>
        <rdf:Seq>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-image" nc:name="Afbeelding..." nc:link="menu_reference.xhtml#insert_image"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-table" nc:name="Tabel..." nc:link="menu_reference.xhtml#inserttable"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-image" nc:name="Afbeelding…" nc:link="menu_reference.xhtml#insert_image"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-table" nc:name="Tabel…" nc:link="menu_reference.xhtml#inserttable"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-form" nc:name="Formulier" nc:link="menu_reference.xhtml#insert_form"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-link" nc:name="Koppeling..." nc:link="menu_reference.xhtml#insert_link"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-anchor" nc:name="Gelabelde positie..." nc:link="menu_reference.xhtml#named_anchor"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-link" nc:name="Koppeling…" nc:link="menu_reference.xhtml#insert_link"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-anchor" nc:name="Gelabelde positie…" nc:link="menu_reference.xhtml#named_anchor"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-horizontal-line" nc:name="Horizontale lijn" nc:link="menu_reference.xhtml#horizontal_line"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-html" nc:name="HTML..." nc:link="menu_reference.xhtml#html"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-character-symbols" nc:name="Tekens en symbolen..." nc:link="menu_reference.xhtml#character_and_symbols"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-toc" nc:name="Inhoudsopgave..." nc:link="menu_reference.xhtml#table_of_contents"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-html" nc:name="HTML…" nc:link="menu_reference.xhtml#html"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-character-symbols" nc:name="Tekens en symbolen…" nc:link="menu_reference.xhtml#character_and_symbols"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-toc" nc:name="Inhoudsopgave…" nc:link="menu_reference.xhtml#table_of_contents"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-smart-widgets" nc:name="Slimme bouwstenen" nc:link="menu_reference.xhtml#smart_widgets"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-templates" nc:name="Sjablonen" nc:link="menu_reference.xhtml#templates"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-insert-break-below-images" nc:name="Enter na afbeelding(en)" nc:link="menu_reference.xhtml#break_below_images"/> </rdf:li>
@@ -326,7 +326,7 @@
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-font" nc:name="Lettertype" nc:link="menu_reference.xhtml#font"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-size" nc:name="Grootte" nc:link="menu_reference.xhtml#size"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-text-style" nc:name="Tekststijl" nc:link="menu_reference.xhtml#text_style"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-text-color" nc:name="Tekstkleur..." nc:link="menu_reference.xhtml#text_color"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-text-color" nc:name="Tekstkleur…" nc:link="menu_reference.xhtml#text_color"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-direction" nc:name="Schrijfrichting" nc:link="menu_reference.xhtml#writing_direction"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-discontinue-text-styles" nc:name="Tekststijlen niet voortzetten" nc:link="menu_reference.xhtml#discontinue_text_styles"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-discontinue-link" nc:name="Koppeling niet voortzetten" nc:link="menu_reference.xhtml#discontinue_link"/> </rdf:li>
@@ -337,9 +337,9 @@
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-decrease-indent" nc:name="Inspringing verkleinen" nc:link="menu_reference.xhtml#decrease_indent"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-align" nc:name="Uitlijnen" nc:link="menu_reference.xhtml#align"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-positioning-grid" nc:name="Uitlijnen op raster" nc:link="menu_reference.xhtml#positioning_grid"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-advanced-properties" nc:name="Geavanceerde eigenschappen..." nc:link="menu_reference.xhtml#advanced_properties"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-page-color-background" nc:name="Paginakleuren en achtergrond..." nc:link="menu_reference.xhtml#page_colors_and_background"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-title-properties" nc:name="Paginatitel en eigenschappen..." nc:link="menu_reference.xhtml#page_title_and_properties"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-advanced-properties" nc:name="Geavanceerde eigenschappen…" nc:link="menu_reference.xhtml#advanced_properties"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-page-color-background" nc:name="Paginakleuren en achtergrond…" nc:link="menu_reference.xhtml#page_colors_and_background"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-format-title-properties" nc:name="Paginatitel en eigenschappen…" nc:link="menu_reference.xhtml#page_title_and_properties"/> </rdf:li>
        </rdf:Seq>
      </nc:subheadings>
    </rdf:Description>
@@ -353,8 +353,8 @@
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-join-cell" nc:name="Samenvoegen met rechtercel" nc:link="menu_reference.xhtml#join_with_cell_to_the_right"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-split-cell" nc:name="Cel splitsen" nc:link="menu_reference.xhtml#split_cell"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-create-table" nc:name="Tabel van selectie maken" nc:link="menu_reference.xhtml#create_table_from_selection"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-background-color" nc:name="Tabel- of celachtergrondkleur..." nc:link="menu_reference.xhtml#table_or_cell_background_color"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-table-properties" nc:name="Tabeleigenschappen..." nc:link="menu_reference.xhtml#table_properties"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-background-color" nc:name="Tabel- of celachtergrondkleur…" nc:link="menu_reference.xhtml#table_or_cell_background_color"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-table-table-properties" nc:name="Tabeleigenschappen…" nc:link="menu_reference.xhtml#table_properties"/> </rdf:li>
        </rdf:Seq>
      </nc:subheadings>
    </rdf:Description>

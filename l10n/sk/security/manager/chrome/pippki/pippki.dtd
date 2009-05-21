@@ -107,8 +107,8 @@
 <!ENTITY serverCrlNextupdate.message "Požiadajte prosím vášho systémového administrátora o pomoc">
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Generuje sa privátny kľúč">
-<!ENTITY createCertInfo.msg1 "Prebieha generovanie kľúča... To môže trvať niekoľko minút...">
-<!ENTITY createCertInfo.msg2 "Čakajte prosím...">
+<!ENTITY createCertInfo.msg1 "Prebieha generovanie kľúča… To môže trvať niekoľko minút…">
+<!ENTITY createCertInfo.msg2 "Čakajte prosím…">
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Žiadosť o podpísanie textu">
 <!ENTITY formSigning.cert "Popis certifikátu">

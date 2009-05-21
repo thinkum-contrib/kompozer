@@ -39,7 +39,7 @@
 
 <!ENTITY validation.crl.caption                   "CRL">
 <!ENTITY validation.crl.description               "Gebruik de CRL-beheerder om de certificaatherroepingslijsten (CRL) te beheren die worden opgeslagen in uw certificaatdatabase.">
-<!ENTITY validation.managecrls.button             "CRL’s beheren...">
+<!ENTITY validation.managecrls.button             "CRL’s beheren…">
 <!ENTITY validation.managecrls.accesskey          "C">
 <!ENTITY validation.crlmanager.label              "CRL’s beheren">
 <!ENTITY validation.crlname.label                 "Naam">

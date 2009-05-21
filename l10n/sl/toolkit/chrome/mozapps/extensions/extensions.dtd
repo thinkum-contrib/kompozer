@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "s">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Poišče posodobitve vaših razširitev in tem">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Poišče posodobtive vaših tem">
-<!ENTITY cmd.installLocalFile.label       "Namesti ...">
+<!ENTITY cmd.installLocalFile.label       "Namesti …">
 <!ENTITY cmd.installFile.accesskey        "N">
 <!ENTITY cmd.installFileAddon.tooltip     "Namesti razširitev ali temo">
 <!ENTITY cmd.installFileTheme.tooltip     "Namesti temo">
@@ -111,7 +111,7 @@
 <!ENTITY updateSuccess.label              "Posodobitev uspešno zaključena.">
 <!ENTITY installSuccess.label             "Namestitev uspešno zaključena.">
 <!ENTITY installSuccessRestart.label      "Ponoven zagon je potreben za končanje namestitve.">
-<!ENTITY installWaiting.label             "Čakam ...">
-<!ENTITY installIncompatibleUpdate.label  "Preverjam združljivost ...">
-<!ENTITY installFinishing.label           "Nameščam ...">
+<!ENTITY installWaiting.label             "Čakam …">
+<!ENTITY installIncompatibleUpdate.label  "Preverjam združljivost …">
+<!ENTITY installFinishing.label           "Nameščam …">
 <!ENTITY installFailure.label             "Namestitev neuspešna.">

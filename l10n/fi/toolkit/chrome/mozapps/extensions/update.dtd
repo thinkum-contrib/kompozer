@@ -14,8 +14,8 @@
                                            näistä lisäosista.">
 
 <!ENTITY  checking.wizard.title           "Haetaan yhteensopivia lisäosia">
-<!ENTITY  checking.top.label              "Haetaan päivityksiä epäyhteensopiviin lisäosiin...">
-<!ENTITY  checking.status                 "Tämä voi kestää muutaman minuutin...">
+<!ENTITY  checking.top.label              "Haetaan päivityksiä epäyhteensopiviin lisäosiin…">
+<!ENTITY  checking.status                 "Tämä voi kestää muutaman minuutin…">
 
 <!ENTITY  found.wizard.title               "Löydettiin yhteensopivia lisäosia">
 <!ENTITY  found.top.label                 "Valitse asennettavat lisäosat:">
@@ -25,7 +25,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "S">
 
 <!ENTITY  installing.wizard.title         "Asennetaan yhteensopivia lisäosia">
-<!ENTITY  installing.top.label            "Ladataan ja asennetaan päivityksiä lisäosiin...">
+<!ENTITY  installing.top.label            "Ladataan ja asennetaan päivityksiä lisäosiin…">
 
 <!ENTITY  noupdates.wizard.title          "Yhteensopivia lisäosia ei löytynyt">
 <!ENTITY  noupdates.intro.desc            "&brandShortName; ei löytänyt päivityksiä
@@ -49,7 +49,7 @@
 <!ENTITY  versioninfo.wizard.title        "Tarkistetaan lisäosien yhteensopivuutta">
 <!ENTITY  versioninfo.top.label           "Tarkistetaan lisäosien yhteeensopivuutta tämän &brandShortName;in
                                            version kanssa.">
-<!ENTITY  versioninfo.waiting             "Tämä voi kestää muutaman minuutin...">
+<!ENTITY  versioninfo.waiting             "Tämä voi kestää muutaman minuutin…">
 
 <!ENTITY  installerrors.wizard.title      "Päivitysten asentamisongelmia">
 <!ENTITY  installerrors.intro.label       "Joidenkin lisäosien päivittämisessä tapahtui virhe.">
@@ -58,5 +58,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Jatka &brandShortName;in käynnistystä napsauttamalla Valmis.">
 <!ENTITY  enableChecking.label            "&brandShortName; saa hakea päivityksiä.">
-<!ENTITY  details.label                   "Lisätietoja...">
+<!ENTITY  details.label                   "Lisätietoja…">
 <!ENTITY  details.accesskey               "L">

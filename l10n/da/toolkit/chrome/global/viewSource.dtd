@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label "Filer">
 <!ENTITY fileMenu.accesskey "F">
-<!ENTITY savePageCmd.label "Gem side som...">
+<!ENTITY savePageCmd.label "Gem side som…">
 <!ENTITY savePageCmd.accesskey "e">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Sideopsætning...">
+<!ENTITY pageSetupCmd.label "Sideopsætning…">
 <!ENTITY pageSetupCmd.accesskey "O">
 <!ENTITY printPreviewCmd.label "Vis udskrift">
 <!ENTITY printPreviewCmd.accesskey "v">
-<!ENTITY printCmd.label "Udskriv...">
+<!ENTITY printCmd.label "Udskriv…">
 <!ENTITY printCmd.accesskey "U">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Luk">
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "N">
 
-<!ENTITY findOnCmd.label     "Find på denne side...">
+<!ENTITY findOnCmd.label     "Find på denne side…">
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Find næste">

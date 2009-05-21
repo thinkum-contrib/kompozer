@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "n">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Znajdź aktualizacje zainstalowanych dodatków">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Znajdź aktualizacje zainstalowanych motywów">
-<!ENTITY cmd.installLocalFile.label            "Zainstaluj...">
+<!ENTITY cmd.installLocalFile.label            "Zainstaluj…">
 <!ENTITY cmd.installFile.accesskey        "Z">
 <!ENTITY cmd.installFileAddon.tooltip     "Zainstaluj dodatek">
 <!ENTITY cmd.installFileTheme.tooltip     "Zainstaluj motyw">
@@ -110,7 +110,7 @@
 <!ENTITY updateSuccess.label              "Aktualizacja zakończona powodzeniem.">
 <!ENTITY installSuccess.label             "Instalacja zakończona powodzeniem.">
 <!ENTITY installSuccessRestart.label      "Uruchom program ponownie, by dokończyć instalację.">
-<!ENTITY installWaiting.label             "Oczekiwanie...">
-<!ENTITY installIncompatibleUpdate.label  "Sprawdzanie kompatybilności...">
-<!ENTITY installFinishing.label           "Instalowanie...">                      
+<!ENTITY installWaiting.label             "Oczekiwanie…">
+<!ENTITY installIncompatibleUpdate.label  "Sprawdzanie kompatybilności…">
+<!ENTITY installFinishing.label           "Instalowanie…">                      
 <!ENTITY installFailure.label             "Instalacja nie powiodła się.">

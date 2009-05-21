@@ -39,7 +39,7 @@
 
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "Управлението на CRL работи със списъка с анулирани сертификати (CRL), съхранени в базата сертификати.">
-<!ENTITY validation.managecrls.button "Управление на CRL...">
+<!ENTITY validation.managecrls.button "Управление на CRL…">
 <!ENTITY validation.managecrls.accesskey "У">
 <!ENTITY validation.crlmanager.label "Управление на CRL">
 <!ENTITY validation.crlname.label "Име">

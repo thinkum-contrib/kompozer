@@ -1,7 +1,7 @@
 <!ENTITY pluginWizard.title "Servei de cerca de connectors">
 <!ENTITY pluginWizard.firstPage.title                        "Sou al &pluginWizard.title;">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label "El &brandShortName; està comprovant els connectors disponibles...">
+<!ENTITY pluginWizard.checkingForPlugins.description.label "El &brandShortName; està comprovant els connectors disponibles…">
 
 <!ENTITY pluginWizard.availablePluginsPage.title "Baixades de connectors disponibles">
 <!ENTITY pluginWizard.availablePluginsPage.description.label "Els següents connectors estan disponibles:">
@@ -13,7 +13,7 @@
 <!ENTITY pluginWizard.licensePage.deny.label "No hi estic d'acord (el connector no s'instal·larà).">
 
 <!ENTITY pluginWizard.installPluginsPage.title "S'estan instal·lant els connectors">
-<!ENTITY pluginWizard.installPluginsPage.description.label "El &brandShortName; està instal·lant els connectors...">
+<!ENTITY pluginWizard.installPluginsPage.description.label "El &brandShortName; està instal·lant els connectors…">
 
 <!ENTITY pluginWizard.finalPage.description.label "El &brandShortName; ha acabat d'instal·lar els connectors que hi mancaven:">
 

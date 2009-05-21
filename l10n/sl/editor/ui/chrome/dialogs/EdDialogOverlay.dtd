@@ -20,10 +20,10 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label "Napredno spreminjanje ...">
+<!ENTITY AdvancedEditButton.label "Napredno spreminjanje …">
 <!ENTITY AdvancedEditButton.accessKey "E">
 <!ENTITY AdvancedEditButton.tooltip "Dodaj ali spremeni atribute HTML, slogovne atribute in JavaScript">
-<!ENTITY chooseButton.label "Izberi datoteko ...">
+<!ENTITY chooseButton.label "Izberi datoteko …">
 <!ENTITY chooseFile.accessKey "d">
 <!ENTITY chooseFileLink.accessKey "o">
 <!ENTITY makeUrlRelative.label "URI je relativen glede na mesto strani">

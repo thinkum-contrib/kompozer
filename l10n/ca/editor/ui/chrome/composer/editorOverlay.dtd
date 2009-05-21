@@ -48,7 +48,7 @@
 <!ENTITY filemenu.accesskey "f">
 <!ENTITY newBlankPageCmd.label "Pàgina en una finestra nova">
 <!ENTITY newBlankPage.accesskey "P" >
-<!ENTITY newOtherCmd.label "Més opcions...">
+<!ENTITY newOtherCmd.label "Més opcions…">
 
 <!ENTITY newMenu.label "Nou">
 <!ENTITY newMenu.accesskey "N">
@@ -56,7 +56,7 @@
 <!ENTITY openFileCmd.label "Obre un fitxer">
 <!ENTITY fileopen.accesskey "o">
 <!ENTITY fileopen.keybinding "o">
-<!ENTITY openremoteCmd.label "Obre una ubicació web...">
+<!ENTITY openremoteCmd.label "Obre una ubicació web…">
 <!ENTITY fileopenremote.accesskey "W">
 <!ENTITY fileopenremote.keybinding "l">
 <!ENTITY fileRecentMenu.label "Pàgines recents">
@@ -67,28 +67,28 @@
 <!ENTITY saveCmd.label "Desa">
 <!ENTITY filesave.accesskey "s">
 <!ENTITY filesave.keybinding "s">
-<!ENTITY saveAsCmd.label "Anomena i desa...">
+<!ENTITY saveAsCmd.label "Anomena i desa…">
 <!ENTITY filesaveas.accesskey "A">
 
 <!ENTITY publishCmd.label "Publica">
 <!ENTITY publishcmd.accesskey "b">
-<!ENTITY publishAsCmd.label "Publica com...">
+<!ENTITY publishAsCmd.label "Publica com…">
 <!ENTITY publishas.accesskey "m">
-<!ENTITY exportToTextCmd.label "Exporta a text...">
+<!ENTITY exportToTextCmd.label "Exporta a text…">
 <!ENTITY fileexporttotext.accesskey "t">
 <!ENTITY saveAsChangeEncodingCmd.label "Desa i canvia la codificació dels caràcters">
 <!ENTITY filesaveandchangeencoding.accesskey "E">
 <!ENTITY previewCmd.label "Navega pàgina">
 <!ENTITY filepreview.accesskey "g">
 <!ENTITY filepreview.keybinding "VK_F5">
-<!ENTITY sendPageCmd.label "Envia pàgina...">
+<!ENTITY sendPageCmd.label "Envia pàgina…">
 <!ENTITY sendPage.accesskey "d">
-<!ENTITY printSetupCmd.label "Configuració de la pàgina...">
+<!ENTITY printSetupCmd.label "Configuració de la pàgina…">
 <!ENTITY fileprintsetup.accesskey "u">
 <!ENTITY printPreviewCmd.label "Vista prèvia de la impressió">
 <!ENTITY fileprintpreview.accesskey "v">
-<!ENTITY printCmd.label "Imprimeix...">
-<!ENTITY printButtonCmd.label "Imprimeix...">
+<!ENTITY printCmd.label "Imprimeix…">
+<!ENTITY printButtonCmd.label "Imprimeix…">
 <!ENTITY fileprint.accesskey "p">
 <!ENTITY fileprint.keybinding "p">
 <!ENTITY closeCmd.label "Tanca">
@@ -106,7 +106,7 @@
 <!ENTITY pasteNoFormatting.accesskey "f">
 <!ENTITY pasteAs.label "Enganxa com a">
 <!ENTITY pasteAs.accesskey "a">
-<!ENTITY publishSettings.label "Publica els paràmetres del lloc web...">
+<!ENTITY publishSettings.label "Publica els paràmetres del lloc web…">
 <!ENTITY publishSettings.accesskey "b">
 <!ENTITY detachFromTemplate.label "Separa de la plantilla">
 
@@ -133,7 +133,7 @@
 <!ENTITY editpastequotation.keybinding "v">
 <!ENTITY editStripQuotesCmd.label "Treu cometes">
 <!ENTITY editRewrapCmd.label "Rewrap">
-<!ENTITY findCmd.label "Cerca i reemplaça...">
+<!ENTITY findCmd.label "Cerca i reemplaça…">
 <!ENTITY editfind.accesskey "r">
 <!ENTITY editfind.keybinding "f">
 <!ENTITY editfind.keybinding2 "VK_F19">                                         
@@ -177,30 +177,30 @@
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Insereix">
 <!ENTITY insertmenu.accesskey "I">
-<!ENTITY insertLinkCmd.label "Hiperenllaç...">
+<!ENTITY insertLinkCmd.label "Hiperenllaç…">
 <!ENTITY insertlink.accesskey "l">
 <!ENTITY insertlink.keybinding "H">
-<!ENTITY insertAnchorCmd.label "Àncora...">
+<!ENTITY insertAnchorCmd.label "Àncora…">
 <!ENTITY insertanchor.accesskey "A">
-<!ENTITY insertImageCmd.label "Imatge...">
+<!ENTITY insertImageCmd.label "Imatge…">
 <!ENTITY insertimage.accesskey "i">
-<!ENTITY insertImageMapCmd.label "Mapa d'imatge...">
+<!ENTITY insertImageMapCmd.label "Mapa d'imatge…">
 <!ENTITY insertHLineCmd.label "Línia horitzontal">
 <!ENTITY inserthline.accesskey "o">
-<!ENTITY insertTableCmd.label "Taula...">
+<!ENTITY insertTableCmd.label "Taula…">
 <!ENTITY inserttable.accesskey "t">
-<!ENTITY insertFormMenu.label "Formulari...">
+<!ENTITY insertFormMenu.label "Formulari…">
 <!ENTITY insertformmenu.accesskey "F">
-<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "h">
-<!ENTITY insertCharsCmd.label "Caràcters i símbols...">
+<!ENTITY insertCharsCmd.label "Caràcters i símbols…">
 <!ENTITY insertchars.accesskey "C">
 <!ENTITY insertBreakCmd.label "Salt de línia">
 <!ENTITY insertbreak.accesskey "b">
 <!ENTITY insertBreakAllCmd.label 'Ruptura sota la(es) imatge(s) (&lt;br clear="all"&gt;)'>
 <!ENTITY insertbreakall.accesskey "S">
 
-<!ENTITY insertNbspCmd.label "Non breakable whitespace...">
+<!ENTITY insertNbspCmd.label "Non breakable whitespace…">
 <!ENTITY insertNbsp.accesskey "n">
 
 <!ENTITY insertPHPCode.label "Codi en PHP">
@@ -209,27 +209,27 @@
 <!ENTITY insertcomment.accesskey "m">
 
 <!-- Insert form menu items -->
-<!ENTITY insertFormCmd.label "Defineix un formulari...">
+<!ENTITY insertFormCmd.label "Defineix un formulari…">
 <!ENTITY insertform.accesskey "D">
-<!ENTITY insertInputTagCmd.label "Camps del formulari...">
+<!ENTITY insertInputTagCmd.label "Camps del formulari…">
 <!ENTITY insertinputtag.accesskey "e">
-<!ENTITY insertInputImageCmd.label "Imatge del formulari...">
+<!ENTITY insertInputImageCmd.label "Imatge del formulari…">
 <!ENTITY insertinputimage.accesskey "I">
-<!ENTITY insertTextAreaCmd.label "Àrea de text...">
+<!ENTITY insertTextAreaCmd.label "Àrea de text…">
 <!ENTITY inserttextarea.accesskey "T">
-<!ENTITY insertSelectCmd.label "Llista de selecció...">
+<!ENTITY insertSelectCmd.label "Llista de selecció…">
 <!ENTITY insertselect.accesskey "S">
-<!ENTITY insertButtonCmd.label "Defineix botó...">
+<!ENTITY insertButtonCmd.label "Defineix botó…">
 <!ENTITY insertbutton.accesskey "B">
 <!ENTITY insertLabelCmd.label "Defineix etiqueta">
 <!ENTITY insertlabel.accesskey "q">
-<!ENTITY insertFieldSetCmd.label "Defineix especificació del camp...">
+<!ENTITY insertFieldSetCmd.label "Defineix especificació del camp…">
 <!ENTITY insertfieldset.accesskey "F">
 <!ENTITY insertIsIndexCmd.label "Índex de cerca">
 <!ENTITY insertisindex.accesskey "x">
 
 <!-- Used just in context popup. -->
-<!ENTITY createLinkCmd.label "Crea un enllaç...">
+<!ENTITY createLinkCmd.label "Crea un enllaç…">
 <!ENTITY createlink.accesskey "C">
 <!ENTITY editLinkCmd.label "Edita l'enllaç en una nova finestra">
 <!ENTITY editlink.accesskey "i">
@@ -333,9 +333,9 @@
 <!ENTITY styleVar.label "Variable">
 <!ENTITY styleVar.accesskey "v">
 
-<!ENTITY formatFontColor.label "Color del text...">
+<!ENTITY formatFontColor.label "Color del text…">
 <!ENTITY formatfontcolor.accesskey "c">
-<!ENTITY tableOrCellColor.label "Color de fons de la taula o la cel·la...">
+<!ENTITY tableOrCellColor.label "Color de fons de la taula o la cel·la…">
 <!ENTITY tableOrCellColor.accesskey "C">
 
 <!ENTITY formatremovestyles.keybinding "y">
@@ -388,7 +388,7 @@
 <!ENTITY listterm.accesskey "T">
 <!ENTITY listDefinitionCmd.label "Definició">
 <!ENTITY listdefinition.accesskey "D">
-<!ENTITY listProps.label "Llista propietats...">
+<!ENTITY listProps.label "Llista propietats…">
 <!ENTITY listprops.accesskey "l">
 
 <!ENTITY ParagraphSelect.tooltip "Escull un format de paràgraf">
@@ -448,9 +448,9 @@
 <!ENTITY grid.label "Engraellat de posicionament">
 <!ENTITY grid.accesskey "t">
 
-<!ENTITY pageProperties.label "Títol de pàgina i propietats...">
+<!ENTITY pageProperties.label "Títol de pàgina i propietats…">
 <!ENTITY pageproperties.accesskey "g">
-<!ENTITY colorsAndBackground.label "Colors de la pàgina i del fons...">
+<!ENTITY colorsAndBackground.label "Colors de la pàgina i del fons…">
 <!ENTITY colorsandbackground.accesskey "f">
 
 <!-- Table Menu -->
@@ -511,7 +511,7 @@
 <!ENTITY tablesplitcell.accesskey "c">
 <!ENTITY convertToTable.label "Crea una taula a partir de la selecció">
 <!ENTITY converttotable.accesskey "r">
-<!ENTITY tableProperties.label "Propietats de la taula...">
+<!ENTITY tableProperties.label "Propietats de la taula…">
 <!ENTITY tableProperties.accesskey "P">
 
 <!-- Tools menu -->
@@ -668,7 +668,7 @@
 <!ENTITY updateTOC.accesskey      "u">
 <!ENTITY removeTOC.label          "Suprimeix">
 <!ENTITY removeTOC.accesskey      "r">
-<!ENTITY tocMenu.label            "Taula de continguts...">
+<!ENTITY tocMenu.label            "Taula de continguts…">
 <!ENTITY tocMenu.accesskey        "g">
 
 <!-- Smart Widgets menu -->

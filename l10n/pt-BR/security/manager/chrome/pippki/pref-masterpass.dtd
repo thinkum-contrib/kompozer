@@ -50,12 +50,12 @@
 
 <!ENTITY  changepassword.caption                 "Modificar a senha mestra">
 <!ENTITY  changepassword.text                    "Sua senha mestra protege informações confidenciais tais como certificados e senhas de sites.">
-<!ENTITY  changepassword.button                  "Modificar...">
+<!ENTITY  changepassword.button                  "Modificar…">
 <!ENTITY  changepassword.accesskey               "M">
 
 <!ENTITY  resetpassword.caption                  "Excluir a senha mestra">
 <!ENTITY  resetpassword.text                     "Se remover a senha mestra, todas as suas senhas de sites e email, dados de formulários, certificados particulares e chaves públicas serão perdidas.">
-<!ENTITY  resetpassword.button                   "Excluir...">
+<!ENTITY  resetpassword.button                   "Excluir…">
 <!ENTITY  resetpassword.accesskey                "x">
 <!ENTITY  encryptExpire.label                    "Nunca memorizar a senha mestra">
 <!ENTITY  encryptExpire.accesskey                "N">

@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "A kiegészítők újabb változatainak keresése">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "A témák újabb változatainak keresése">
-<!ENTITY cmd.installLocalFile.label       "Telepítés...">
+<!ENTITY cmd.installLocalFile.label       "Telepítés…">
 <!ENTITY cmd.installFile.accesskey        "T">
 <!ENTITY cmd.installFileAddon.tooltip     "Kiegészítő telepítése">
 <!ENTITY cmd.installFileTheme.tooltip     "Téma telepítése">
@@ -109,9 +109,9 @@
 <!ENTITY updateSuccess.label              "A frissítés sikeresen befejeződött.">
 <!ENTITY installSuccess.label             "A telepítés sikeresen befejeződött.">
 <!ENTITY installSuccessRestart.label      "Indítsa újra a telepítés befejezéséhez.">
-<!ENTITY installWaiting.label             "Kérem, várjon...">
-<!ENTITY installIncompatibleUpdate.label  "Kompatibilitás ellenőrzése...">
-<!ENTITY installFinishing.label           "Telepítés...">
+<!ENTITY installWaiting.label             "Kérem, várjon…">
+<!ENTITY installIncompatibleUpdate.label  "Kompatibilitás ellenőrzése…">
+<!ENTITY installFinishing.label           "Telepítés…">
 <!ENTITY installFailure.label             "A telepítés nem sikerült.">
 
 

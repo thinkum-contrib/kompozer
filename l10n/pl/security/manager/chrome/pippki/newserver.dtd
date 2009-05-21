@@ -20,7 +20,7 @@
 <!ENTITY newserver.reason1 "- Przeglądarka nie rozpoznaje organu certyfikacji, który wystawił certyfikat witryny." >
 <!ENTITY newserver.reason2 "- Z powodu nieprawidłowej konfiguracji serwera przedstawiany przez tę witrynę certyfikat nie zawiera wszystkich niezbędnych danych." >
 <!ENTITY newserver.notify "Należy powiadomić administratora tej witryny o problemie." >
-<!ENTITY newserver.examine "Sprawdź certyfikat..." >
+<!ENTITY newserver.examine "Sprawdź certyfikat…" >
 <!ENTITY newserver.remember "Zaakceptuj ten certyfikat na stałe" >
 <!ENTITY newserver.session "Zaakceptuj ten certyfikat tymczasowo, na okres trwania bieżącej sesji" >
 <!ENTITY newserver.refuse "Odrzuć ten certyfikat i przerwij połączenie z tą witryną (zalecane)" >

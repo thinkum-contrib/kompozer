@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label  "Tiedosto">
 <!ENTITY fileMenu.accesskey  "T">
-<!ENTITY savePageCmd.label  "Tallenna sivu nimellä...">
+<!ENTITY savePageCmd.label  "Tallenna sivu nimellä…">
 <!ENTITY savePageCmd.accesskey  "n">
 <!ENTITY savePageCmd.commandkey  "S">
-<!ENTITY pageSetupCmd.label  "Sivun asetukset...">
+<!ENTITY pageSetupCmd.label  "Sivun asetukset…">
 <!ENTITY pageSetupCmd.accesskey  "e">
 <!ENTITY printPreviewCmd.label  "Tulostuksen esikatselu">
 <!ENTITY printPreviewCmd.accesskey  "k">
-<!ENTITY printCmd.label  "Tulosta...">
+<!ENTITY printCmd.label  "Tulosta…">
 <!ENTITY printCmd.accesskey  "o">
 <!ENTITY printCmd.commandkey  "P">
 <!ENTITY closeCmd.label  "Sulje">
@@ -29,7 +29,7 @@
 <!ENTITY textReduce.commandkey  "-">
 <!ENTITY textReset.commandkey  "0">
 
-<!ENTITY goToLineCmd.label  "Siirry riville...">
+<!ENTITY goToLineCmd.label  "Siirry riville…">
 <!ENTITY goToLineCmd.accesskey  "r">
 <!ENTITY goToLineCmd.commandkey  "l">
 
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label  "Normaali">
 <!ENTITY menu_textReset.accesskey  "N">
 
-<!ENTITY findOnCmd.label      "Etsi tältä sivulta...">
+<!ENTITY findOnCmd.label      "Etsi tältä sivulta…">
 <!ENTITY findOnCmd.accesskey  "E">
 <!ENTITY findOnCmd.commandkey  "f">
 <!ENTITY findAgainCmd.label   "Etsi seuraava">

@@ -109,9 +109,9 @@
 <!ENTITY updateSuccess.label              "Aktualizácia úspešne dokončená.">
 <!ENTITY installSuccess.label             "Inštalácia úspešne dokončená.">
 <!ENTITY installSuccessRestart.label      "Inštalácia bude dokončená po reštarte programu.">
-<!ENTITY installWaiting.label             "Čakajte...">
-<!ENTITY installIncompatibleUpdate.label  "Kontrola kompatibility...">
-<!ENTITY installFinishing.label           "Inštaluje sa...">
+<!ENTITY installWaiting.label             "Čakajte…">
+<!ENTITY installIncompatibleUpdate.label  "Kontrola kompatibility…">
+<!ENTITY installFinishing.label           "Inštaluje sa…">
 <!ENTITY installFailure.label             "Inštalácia zlyhala.">
 
 

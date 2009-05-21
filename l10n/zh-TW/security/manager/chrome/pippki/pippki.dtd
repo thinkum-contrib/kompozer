@@ -60,8 +60,8 @@
 <!ENTITY escrowWarn.message2 "但是，你的加密私密金鑰 (Private key) 會被認證中心存起來，而且有可能會在未經你的同意下被拿去做壞事。">
 <!ENTITY serverCrlNextupdate.message "請尋求你的系統管理者的協助">
 <!ENTITY createCertInfo.title "產生 Private Key">
-<!ENTITY createCertInfo.msg1 "正在製造 Key... 請稍待數分鐘...">
-<!ENTITY createCertInfo.msg2 "請稍候...">
+<!ENTITY createCertInfo.msg1 "正在製造 Key… 請稍待數分鐘…">
+<!ENTITY createCertInfo.msg2 "請稍候…">
 <!ENTITY formSigning.title "文字簽署要求">
 <!ENTITY formSigning.cert "簽署憑證中">
 <!ENTITY formSigning.confirmPassword "為了確認你同意使用你選擇的憑證簽署此文字訊息，請輸入你的主控密碼:">

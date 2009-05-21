@@ -46,7 +46,7 @@
 
 <!ENTITY  openWith.label		"アプリケーションで開く:">
 <!ENTITY  openWith.accesskey		"o">
-<!ENTITY  other.label			"その他...">
+<!ENTITY  other.label			"その他…">
 
 <!ENTITY  save.label			"ディスクに保存する">
 <!ENTITY  save.accesskey		"s">
@@ -60,9 +60,9 @@
 
 <!ENTITY  whichIsA.label		"ファイルの種類:">
 
-<!ENTITY  chooseHandlerMac.label	"選択...">
+<!ENTITY  chooseHandlerMac.label	"選択…">
 <!ENTITY  chooseHandlerMac.accesskey	"C">  
-<!ENTITY  chooseHandler.label		"参照...">
+<!ENTITY  chooseHandler.label		"参照…">
 <!ENTITY  chooseHandler.accesskey	"B">
 
 <!ENTITY  unknownPromptText.label	"このファイルを保存しますか？">

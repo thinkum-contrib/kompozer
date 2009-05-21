@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey		"F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip	"アドオンの更新がないか確認します">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip	"テーマの更新がないか確認します">
-<!ENTITY cmd.installLocalFile.label		"インストール...">
+<!ENTITY cmd.installLocalFile.label		"インストール…">
 <!ENTITY cmd.installFile.accesskey		"I">
 <!ENTITY cmd.installFileAddon.tooltip		"アドオンをインストールします">
 <!ENTITY cmd.installFileTheme.tooltip		"テーマをインストールします">
@@ -109,7 +109,7 @@
 <!ENTITY updateSuccess.label			"更新が正常に完了しました。">
 <!ENTITY installSuccess.label			"インストールが正常に完了しました。">
 <!ENTITY installSuccessRestart.label		"再起動してインストールを完了してください。">
-<!ENTITY installWaiting.label			"待機しています...">
-<!ENTITY installIncompatibleUpdate.label	"互換性を確認しています...">
-<!ENTITY installFinishing.label			"インストールしています...">
+<!ENTITY installWaiting.label			"待機しています…">
+<!ENTITY installIncompatibleUpdate.label	"互換性を確認しています…">
+<!ENTITY installFinishing.label			"インストールしています…">
 <!ENTITY installFailure.label			"インストールできませんでした。">

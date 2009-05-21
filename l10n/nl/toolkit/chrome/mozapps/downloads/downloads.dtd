@@ -3,9 +3,9 @@
 
 <!ENTITY done.label                     "Klaar">
 <!ENTITY canceled.label                 "Geannuleerd">
-<!ENTITY installing.label               "Installeren...">
+<!ENTITY installing.label               "Installeren…">
 
-<!ENTITY starting.label                 "Starten...">
+<!ENTITY starting.label                 "Starten…">
 <!ENTITY failed.label                   "Mislukt">
 
 <!ENTITY downloads.title                "Downloads">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac          "F">
 <!ENTITY cmd.open.label                 "Openen">
 <!ENTITY cmd.open.accesskey             "O">
-<!ENTITY cmd.openWith.label             "Openen met...">
+<!ENTITY cmd.openWith.label             "Openen met…">
 <!ENTITY cmd.openWith.accesskey         "t">
 <!ENTITY cmd.retry.label                "Opnieuw">
 <!ENTITY cmd.retry.accesskey            "u">

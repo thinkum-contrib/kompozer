@@ -14,8 +14,8 @@
                                            versies van deze add-ons.">
 
 <!ENTITY  checking.wizard.title           "Controleren op compatibele add-ons">
-<!ENTITY  checking.top.label              "Controleren op updates voor uw incompatibele add-ons...">
-<!ENTITY  checking.status                 "Dit kan enkele minuten duren...">
+<!ENTITY  checking.top.label              "Controleren op updates voor uw incompatibele add-ons…">
+<!ENTITY  checking.status                 "Dit kan enkele minuten duren…">
 
 <!ENTITY  found.wizard.title              "Compatibele add-ons gevonden">
 <!ENTITY  found.top.label                 "Selecteer de add-ons die u wilt installeren:">
@@ -25,7 +25,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "W">
 
 <!ENTITY  installing.wizard.title         "Compatibele add-ons installeren">
-<!ENTITY  installing.top.label            "Downloaden en installeren van updates voor uw add-ons...">
+<!ENTITY  installing.top.label            "Downloaden en installeren van updates voor uw add-ons…">
 
 <!ENTITY  noupdates.wizard.title          "Geen compatibele add-ons gevonden">
 <!ENTITY  noupdates.intro.desc            "&brandShortName; kan geen updates vinden voor uw
@@ -49,7 +49,7 @@
 <!ENTITY  versioninfo.wizard.title        "Compatibiliteitscontrole van add-ons">
 <!ENTITY  versioninfo.top.label           "Controleren op compatibiliteit van uw add-ons met deze
                                            versie van &brandShortName;.">
-<!ENTITY  versioninfo.waiting             "Dit kan enkele minuten duren...">
+<!ENTITY  versioninfo.waiting             "Dit kan enkele minuten duren…">
 
 <!ENTITY  installerrors.wizard.title      "Problemen bij het installeren van updates">
 <!ENTITY  installerrors.intro.label       "&brandShortName; had problemen bij het bijwerken van 
@@ -58,5 +58,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Klik op Voltooien om door te gaan met het starten van &brandShortName;.">
 <!ENTITY  enableChecking.label            "&brandShortName; toestaan om te controleren op updates.">
-<!ENTITY  details.label                   "Details...">
+<!ENTITY  details.label                   "Details…">
 <!ENTITY  details.accesskey               "D">

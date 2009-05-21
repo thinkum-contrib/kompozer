@@ -45,7 +45,7 @@
 <!ENTITY newserver.reason1 "- El vostre navegador no reconeix l'entitat certificadora que ha emès el certificat del lloc.">
 <!ENTITY newserver.reason2 "- El certificat del lloc és incomplet a causa d'una configuració incorrecta del servidor.">
 <!ENTITY newserver.notify "Si us plau, informeu d'aquest problema a l'administrador del lloc.">
-<!ENTITY newserver.examine "Examina el certificat...">
+<!ENTITY newserver.examine "Examina el certificat…">
 <!ENTITY newserver.remember "Accepta aquest certificat de manera permanent">
 <!ENTITY newserver.session "Accepta aquest certificat temporalment per a aquesta sessió">
 <!ENTITY newserver.refuse "No acceptis aquest certificat i no connectis a aquest lloc web">

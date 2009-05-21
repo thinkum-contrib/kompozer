@@ -43,7 +43,7 @@
 
 <!ENTITY  validation.crl.caption                  "CRL">
 <!ENTITY  validation.crl.description              "Użyj Menedżera list CRL, by zarządzać listami unieważnionych certyfikatów (CRL), przechowywanymi w Twojej bazie certyfikatów.">
-<!ENTITY  validation.managecrls.button            "Zarządzaj listami CRL...">
+<!ENTITY  validation.managecrls.button            "Zarządzaj listami CRL…">
 <!ENTITY  validation.managecrls.accesskey         "Z">
 <!ENTITY  validation.crlmanager.label             "Menedżer list CRL">
 <!ENTITY  validation.crlname.label                "Nazwa">

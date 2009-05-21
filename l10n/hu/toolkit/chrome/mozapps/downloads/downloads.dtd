@@ -3,9 +3,9 @@
 
 <!ENTITY done.label                       "Kész">
 <!ENTITY canceled.label                   "Megszakítva">
-<!ENTITY installing.label                 "Telepítés...">
+<!ENTITY installing.label                 "Telepítés…">
 
-<!ENTITY starting.label                   "Kezdés...">
+<!ENTITY starting.label                   "Kezdés…">
 <!ENTITY failed.label                     "Sikertelen">
 
 <!ENTITY downloads.title                  "Letöltések">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac            "F">
 <!ENTITY cmd.open.label                   "Megnyitás">
 <!ENTITY cmd.open.accesskey               "e">
-<!ENTITY cmd.openWith.label               "Megnyitás mással...">
+<!ENTITY cmd.openWith.label               "Megnyitás mással…">
 <!ENTITY cmd.openWith.accesskey           "n">
 <!ENTITY cmd.retry.label                  "Újra">
 <!ENTITY cmd.retry.accesskey              "r">

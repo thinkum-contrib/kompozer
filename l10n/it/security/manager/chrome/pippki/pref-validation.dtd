@@ -38,7 +38,7 @@
 <!ENTITY pref.validation.title "Verifica">
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "Gestione CRL permette di tenere traccia delle Liste di Revoca dei Certificati (CRL) riguardanti i certificati memorizzarti nell'archivio.">
-<!ENTITY validation.managecrls.button "Gestione CRL...">
+<!ENTITY validation.managecrls.button "Gestione CRL…">
 <!ENTITY validation.managecrls.accesskey "G">
 <!ENTITY validation.crlmanager.label "Gestione CRL">
 <!ENTITY validation.crlname.label "Nome">

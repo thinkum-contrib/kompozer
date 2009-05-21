@@ -46,13 +46,13 @@
 <!ENTITY filemenu.accesskey "Ф">
 <!ENTITY newBlankPageCmd.label "Страницу в новом окне">
 <!ENTITY newBlankPage.accesskey "т">
-<!ENTITY newOtherCmd.label "Еще настройки...">
+<!ENTITY newOtherCmd.label "Еще настройки…">
 <!ENTITY newMenu.label "Создать">
 <!ENTITY newTab.label "Страницу в новой вкладке">
-<!ENTITY openFileCmd.label "Открыть файл...">
+<!ENTITY openFileCmd.label "Открыть файл…">
 <!ENTITY fileopen.accesskey "О">
 <!ENTITY fileopen.keybinding "o">
-<!ENTITY openremoteCmd.label "Открыть адрес в Интернете...">
+<!ENTITY openremoteCmd.label "Открыть адрес в Интернете…">
 <!ENTITY fileopenremote.accesskey "И">
 <!ENTITY fileopenremote.keybinding "l">
 <!ENTITY fileRecentMenu.label "Последние открытые страницы">
@@ -64,26 +64,26 @@
 <!ENTITY saveCmd.label "Сохранить">
 <!ENTITY filesave.accesskey "х">
 <!ENTITY filesave.keybinding "s">
-<!ENTITY saveAsCmd.label "Сохранить как...">
+<!ENTITY saveAsCmd.label "Сохранить как…">
 <!ENTITY filesaveas.accesskey "к">
 <!ENTITY publishCmd.label "Опубликовать">
 <!ENTITY publishcmd.accesskey "б">
-<!ENTITY publishAsCmd.label "Опубликовать как...">
+<!ENTITY publishAsCmd.label "Опубликовать как…">
 <!ENTITY publishas.accesskey "у">
-<!ENTITY exportToTextCmd.label "Экспорт в текстовый формат...">
+<!ENTITY exportToTextCmd.label "Экспорт в текстовый формат…">
 <!ENTITY fileexporttotext.accesskey "Э">
 <!ENTITY saveAsChangeEncodingCmd.label "Сохранить с изменением кодировки">
 <!ENTITY filesaveandchangeencoding.accesskey "с">
 <!ENTITY previewCmd.label "Просмотр страницы">
 <!ENTITY filepreview.accesskey "м">
-<!ENTITY sendPageCmd.label "Отправить страницу...">
+<!ENTITY sendPageCmd.label "Отправить страницу…">
 <!ENTITY sendPage.accesskey "п">
-<!ENTITY printSetupCmd.label "Параметры страницы...">
+<!ENTITY printSetupCmd.label "Параметры страницы…">
 <!ENTITY fileprintsetup.accesskey "а">
 <!ENTITY printPreviewCmd.label "Предварительный просмотр">
 <!ENTITY fileprintpreview.accesskey "д">
-<!ENTITY printCmd.label "Печать...">
-<!ENTITY printButtonCmd.label "Печать...">
+<!ENTITY printCmd.label "Печать…">
+<!ENTITY printButtonCmd.label "Печать…">
 <!ENTITY fileprint.accesskey "е">
 <!ENTITY fileprint.keybinding "p">
 <!ENTITY closeCmd.label "Закрыть">
@@ -101,7 +101,7 @@
 <!ENTITY pasteNoFormatting.accesskey "б">
 <!ENTITY pasteAs.label "Вставить как">
 <!ENTITY pasteAs.accesskey "к">
-<!ENTITY publishSettings.label "Параметры сайта публикации...">
+<!ENTITY publishSettings.label "Параметры сайта публикации…">
 <!ENTITY publishSettings.accesskey "б">
 <!ENTITY detachFromTemplate.label "Отделить от шаблона">
 <!ENTITY pasteHTMLCmd.label "HTML">
@@ -122,7 +122,7 @@
 <!ENTITY editpastequotation.keybinding "v">
 <!ENTITY editStripQuotesCmd.label "Убрать кавычки">
 <!ENTITY editRewrapCmd.label "Переформатировать">
-<!ENTITY findCmd.label "Найти и заменить...">
+<!ENTITY findCmd.label "Найти и заменить…">
 <!ENTITY editfind.accesskey "з">
 <!ENTITY editfind.keybinding "f">
 <!ENTITY editfind.keybinding2 "VK_F19">
@@ -160,53 +160,53 @@
 <!ENTITY viewrulerscmd.accesskey "Л">
 <!ENTITY insertMenu.label "Вставка">
 <!ENTITY insertmenu.accesskey "с">
-<!ENTITY insertLinkCmd.label "Ссылка...">
+<!ENTITY insertLinkCmd.label "Ссылка…">
 <!ENTITY insertlink.accesskey "С">
 <!ENTITY insertlink.keybinding "l">
-<!ENTITY insertAnchorCmd.label "Якорь с именем...">
+<!ENTITY insertAnchorCmd.label "Якорь с именем…">
 <!ENTITY insertanchor.accesskey "Я">
-<!ENTITY insertImageCmd.label "Изображение...">
+<!ENTITY insertImageCmd.label "Изображение…">
 <!ENTITY insertimage.accesskey "И">
-<!ENTITY insertImageMapCmd.label "Изображение-карта...">
+<!ENTITY insertImageMapCmd.label "Изображение-карта…">
 <!ENTITY insertHLineCmd.label "Разделитель">
 <!ENTITY inserthline.accesskey "Р">
-<!ENTITY insertTableCmd.label "Таблица...">
+<!ENTITY insertTableCmd.label "Таблица…">
 <!ENTITY inserttable.accesskey "Т">
 <!ENTITY insertFormMenu.label "Форма">
 <!ENTITY insertformmenu.accesskey "Ф">
-<!ENTITY insertCharsCmd.label "Буквы и символы...">
+<!ENTITY insertCharsCmd.label "Буквы и символы…">
 <!ENTITY insertchars.accesskey "Б">
 <!ENTITY insertBreakCmd.label "Разрыв строки">
 <!ENTITY insertbreak.accesskey "а">
 <!ENTITY insertBreakAllCmd.label "Разрыв под изображениями">
 <!ENTITY insertbreakall.accesskey "з">
-<!ENTITY insertNbspCmd.label "Неразрывный пробел...">
+<!ENTITY insertNbspCmd.label "Неразрывный пробел…">
 <!ENTITY insertNbsp.accesskey "н">
-<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "H">
 <!ENTITY insertPHPCode.label "PHP код">
 <!ENTITY insertphpcode.accesskey "д">
 <!ENTITY insertComment.label "Комментарий">
 <!ENTITY insertcomment.accesskey "о">
-<!ENTITY insertFormCmd.label "Определить форму...">
+<!ENTITY insertFormCmd.label "Определить форму…">
 <!ENTITY insertform.accesskey "О">
-<!ENTITY insertInputTagCmd.label "Поле формы...">
+<!ENTITY insertInputTagCmd.label "Поле формы…">
 <!ENTITY insertinputtag.accesskey "е">
-<!ENTITY insertInputImageCmd.label "Изображение формы...">
+<!ENTITY insertInputImageCmd.label "Изображение формы…">
 <!ENTITY insertinputimage.accesskey "И">
-<!ENTITY insertTextAreaCmd.label "Текстовое поле...">
+<!ENTITY insertTextAreaCmd.label "Текстовое поле…">
 <!ENTITY inserttextarea.accesskey "Т">
-<!ENTITY insertSelectCmd.label "Список выбора...">
+<!ENTITY insertSelectCmd.label "Список выбора…">
 <!ENTITY insertselect.accesskey "С">
-<!ENTITY insertButtonCmd.label "Определить кнопку...">
+<!ENTITY insertButtonCmd.label "Определить кнопку…">
 <!ENTITY insertbutton.accesskey "О">
 <!ENTITY insertLabelCmd.label "Определить метку">
 <!ENTITY insertlabel.accesskey "М">
-<!ENTITY insertFieldSetCmd.label "Определить набор полей...">
+<!ENTITY insertFieldSetCmd.label "Определить набор полей…">
 <!ENTITY insertfieldset.accesskey "н">
 <!ENTITY insertIsIndexCmd.label "Поиск по индексу">
 <!ENTITY insertisindex.accesskey "П">
-<!ENTITY createLinkCmd.label "Создать ссылку...">
+<!ENTITY createLinkCmd.label "Создать ссылку…">
 <!ENTITY createlink.accesskey "С">
 <!ENTITY editLinkCmd.label "Редактировать объект в новом окне">
 <!ENTITY editlink.accesskey "Р">
@@ -301,9 +301,9 @@
 <!ENTITY styleSamp.accesskey "ы">
 <!ENTITY styleVar.label "Переменная">
 <!ENTITY styleVar.accesskey "р">
-<!ENTITY formatFontColor.label "Цвет текста...">
+<!ENTITY formatFontColor.label "Цвет текста…">
 <!ENTITY formatfontcolor.accesskey "Ц">
-<!ENTITY tableOrCellColor.label "Цвет фона ячейки или таблицы...">
+<!ENTITY tableOrCellColor.label "Цвет фона ячейки или таблицы…">
 <!ENTITY tableOrCellColor.accesskey "ч">
 <!ENTITY formatremovestyles.keybinding "и">
 <!ENTITY formatremovelinks.keybinding "л">
@@ -350,7 +350,7 @@
 <!ENTITY listterm.accesskey "Т">
 <!ENTITY listDefinitionCmd.label "Определение">
 <!ENTITY listdefinition.accesskey "О">
-<!ENTITY listProps.label "Свойства списка...">
+<!ENTITY listProps.label "Свойства списка…">
 <!ENTITY listprops.accesskey "С">
 <!ENTITY ParagraphSelect.tooltip "Выбор формата абзаца">
 <!ENTITY bodyTextCmd.label "Обычный текст">
@@ -396,9 +396,9 @@
 <!ENTITY blockBorders.tooltip "Обрамление">
 <!ENTITY grid.label "Сетка позиционирования">
 <!ENTITY grid.accesskey "ц">
-<!ENTITY pageProperties.label "Заголовок и свойства страницы...">
+<!ENTITY pageProperties.label "Заголовок и свойства страницы…">
 <!ENTITY pageproperties.accesskey "З">
-<!ENTITY colorsAndBackground.label "Цвета и фон страницы...">
+<!ENTITY colorsAndBackground.label "Цвета и фон страницы…">
 <!ENTITY colorsandbackground.accesskey "ф">
 <!ENTITY tableMenu.label "Таблица">
 <!ENTITY tablemenu.accesskey "Т">
@@ -443,7 +443,7 @@
 <!ENTITY tablesplitcell.accesskey "Р">
 <!ENTITY convertToTable.label "Создать таблицу из выделения">
 <!ENTITY converttotable.accesskey "С">
-<!ENTITY tableProperties.label "Свойства таблицы...">
+<!ENTITY tableProperties.label "Свойства таблицы…">
 <!ENTITY tableProperties.accesskey "й">
 <!ENTITY toolsmenu.accesskey "и">
 <!ENTITY toolbrowser.accesskey "б">
@@ -561,12 +561,12 @@
 <!ENTITY updateTOC.accesskey "О">
 <!ENTITY removeTOC.label "Убрать">
 <!ENTITY removeTOC.accesskey "У">
-<!ENTITY tocMenu.label "Оглавление...">
+<!ENTITY tocMenu.label "Оглавление…">
 <!ENTITY tocMenu.accesskey "г">
 <!ENTITY insertSmartWidgetsMenu.label "Украшения">
 <!ENTITY madeWithNvu.label "Кнопка 'Создано в &brandShortName;'">
 <!ENTITY insertCalendarSW.label "Календарь">
-<!ENTITY customizeToolbar.label "Настроить...">
+<!ENTITY customizeToolbar.label "Настроить…">
 <!ENTITY customizeToolbar.accesskey "Н">
 <!ENTITY templatesMenu.label "Шаблоны">
 <!ENTITY insertEditableArea.label "Вставить редактируемую область">

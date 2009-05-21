@@ -14,8 +14,8 @@
 
 
 <!ENTITY checking.wizard.title "Kontrola dostupnosti kompatibilních doplňků">
-<!ENTITY checking.top.label "Kontrola dostupnosti aktualizací vašich nekompatibilních doplňků...">
-<!ENTITY checking.status "Tato operace může trvat i několik minut...">
+<!ENTITY checking.top.label "Kontrola dostupnosti aktualizací vašich nekompatibilních doplňků…">
+<!ENTITY checking.status "Tato operace může trvat i několik minut…">
 
 <!ENTITY found.wizard.title "Nalezeny kompatibilních doplňky">
 <!ENTITY found.top.label "Zvolte doplňky, které chcete nainstalovat:">
@@ -25,7 +25,7 @@
 <!ENTITY found.enableXPInstall.accesskey "P">
 
 <!ENTITY installing.wizard.title "Instalace kompatibilních doplňků">
-<!ENTITY installing.top.label "Stahování a instalace aktualizací vašich doplňků...">
+<!ENTITY installing.top.label "Stahování a instalace aktualizací vašich doplňků…">
 
 <!ENTITY noupdates.wizard.title "Kompatibilních doplňky nenalezeny">
 <!ENTITY noupdates.intro.desc "Aplikace &brandShortName; nenalezla žádné aktualizace vašich nekompatibilních doplňků.">
@@ -49,7 +49,7 @@
 <!ENTITY versioninfo.wizard.title "Kontrola kompatibility doplňků">
 <!ENTITY versioninfo.top.label "Kontrola kompatibility vašich doplňků se současnou verzí aplikace &brandShortName;.">
 
-<!ENTITY versioninfo.waiting "Tato operace může trvat i několik minut...">
+<!ENTITY versioninfo.waiting "Tato operace může trvat i několik minut…">
 
 <!ENTITY installerrors.wizard.title "Problémy při aktualizací">
 <!ENTITY installerrors.intro.label "Aplikace &brandShortName; zaznamenala při aktualizaci některých vašich doplňků.">
@@ -58,6 +58,6 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY clickFinish.label "Klepněte na Hotovo pro start aplikace &brandShortName;.">
 <!ENTITY enableChecking.label "Povolit aplikaci &brandShortName; kontrolovat dostupnost aktualizací.">
-<!ENTITY details.label "Detaily...">
+<!ENTITY details.label "Detaily…">
 <!ENTITY details.accesskey "D">
  

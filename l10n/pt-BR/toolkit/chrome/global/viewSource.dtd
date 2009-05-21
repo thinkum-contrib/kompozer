@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label "Arquivo">
 <!ENTITY fileMenu.accesskey "A">
-<!ENTITY savePageCmd.label "Salvar como...">
+<!ENTITY savePageCmd.label "Salvar como…">
 <!ENTITY savePageCmd.accesskey "v">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY pageSetupCmd.label "Configurar página...">
+<!ENTITY pageSetupCmd.label "Configurar página…">
 <!ENTITY pageSetupCmd.accesskey "C">
 <!ENTITY printPreviewCmd.label "Visualizar impressão">
 <!ENTITY printPreviewCmd.accesskey "z">
-<!ENTITY printCmd.label "Imprimir...">
+<!ENTITY printCmd.label "Imprimir…">
 <!ENTITY printCmd.accesskey "I">
 <!ENTITY printCmd.commandkey "p">
 <!ENTITY closeCmd.label "Fechar">
@@ -29,7 +29,7 @@
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
 
-<!ENTITY goToLineCmd.label "Ir para linha...">
+<!ENTITY goToLineCmd.label "Ir para linha…">
 <!ENTITY goToLineCmd.accesskey "I">
 <!ENTITY goToLineCmd.commandkey "L">
 
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label "Normal">
 <!ENTITY menu_textReset.accesskey "n">
 
-<!ENTITY findOnCmd.label     "Localizar...">
+<!ENTITY findOnCmd.label     "Localizar…">
 <!ENTITY findOnCmd.accesskey "z">
 <!ENTITY findOnCmd.commandkey "F">
 <!ENTITY findAgainCmd.label  "Localizar próxima">

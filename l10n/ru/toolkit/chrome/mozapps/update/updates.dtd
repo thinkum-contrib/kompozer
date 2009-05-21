@@ -1,8 +1,8 @@
 <!ENTITY updateWizard.title "Обновление программного обеспечения">
 <!ENTITY window.width "46em">
 <!ENTITY window.macWidth "49em">
-<!ENTITY checking.title "Проверяется наличие обновлений...">
-<!ENTITY checking.label "&brandShortName; проверяет наличие обновлений...">
+<!ENTITY checking.title "Проверяется наличие обновлений…">
+<!ENTITY checking.label "&brandShortName; проверяет наличие обновлений…">
 <!ENTITY cancel.label "Отмена">
 <!ENTITY cancel.accesskey "н">
 <!ENTITY noupdatesfound.title "Обновления отсутствуют">
@@ -26,8 +26,8 @@
 <!ENTITY license.decline "Я НЕ принимаю условия Лицензионного соглашения">
 <!ENTITY license.decline.accesskey "Н">
 <!ENTITY downloading.title "Загрузка обновления">
-<!ENTITY downloading.intro "Идёт загрузка обновления...">
-<!ENTITY connecting.label "Соединение с сервером обновлений...">
+<!ENTITY downloading.intro "Идёт загрузка обновления…">
+<!ENTITY connecting.label "Соединение с сервером обновлений…">
 <!ENTITY verificationFailedText.label "&brandShortName; не смог проверить целостность загруженного частичного обновления, поэтому он загружает полное обновление.">
 <!ENTITY details.link "Подробности">
 <!ENTITY pause.label "Приостановить">
@@ -47,7 +47,7 @@
 <!ENTITY finishedBackground.more2 "Нажмите Позже, чтобы закрыть это диалоговое окно и продолжить работу. &brandShortName; установит обновление при своем следующем запуске.">
 <!ENTITY installed.title "Обновление установлено">
 <!ENTITY installed.intro "Обновление было успешно установлено.">
-<!ENTITY whatsnew.label "Изменения в новой версии...">
+<!ENTITY whatsnew.label "Изменения в новой версии…">
 <!ENTITY update.details.label "Подробности">
 <!ENTITY update.installedOn.label "Установлено:">
 <!ENTITY update.status.label "Статус:">

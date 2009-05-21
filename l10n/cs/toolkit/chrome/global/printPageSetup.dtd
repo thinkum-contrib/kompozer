@@ -1,5 +1,5 @@
 <!-- extracted from printjoboptions.xul -->
-<!ENTITY printSetup.title "Vzhled stránky...">
+<!ENTITY printSetup.title "Vzhled stránky…">
 <!ENTITY basic.tab "Formát a možnosti">
 <!ENTITY formatGroup.label "Formát">
 <!ENTITY orientation.label "Orientace:">
@@ -39,6 +39,6 @@
 <!ENTITY hfPageAndTotal "Strana  # z #">
 <!ENTITY hfPageAndTotal.code "[&amp;PT]">
 <!ENTITY hfBlank "--prázdno--">
-<!ENTITY hfCustom "Vlastní...">
-<!ENTITY customPrompt.title "Vlastní...">
+<!ENTITY hfCustom "Vlastní…">
+<!ENTITY customPrompt.title "Vlastní…">
 <!ENTITY customPrompt.prompt "Zadejte váš vlastní text pro záhlaví/zápatí">

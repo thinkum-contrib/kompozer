@@ -54,17 +54,17 @@
 <!ENTITY bookmarkLinkCmd.accesskey "з">
 <!ENTITY bookmarkFrameCmd.label "Добавить фрейм в закладки">
 <!ENTITY bookmarkFrameCmd.accesskey "Д">
-<!ENTITY savePageAsCmd.label "Сохранить как...">
+<!ENTITY savePageAsCmd.label "Сохранить как…">
 <!ENTITY savePageCmd.label "Сохранить страницу">
 <!ENTITY savePageCmd.accesskey "с">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY saveFrameAsCmd.label "Сохранить фрейм как...">
+<!ENTITY saveFrameAsCmd.label "Сохранить фрейм как…">
 <!ENTITY saveFrameCmd.label "Сохранить фрейм">
 <!ENTITY saveFrameCmd.accesskey "С">
-<!ENTITY saveLinkAsCmd.label "Сохранить объект как...">
+<!ENTITY saveLinkAsCmd.label "Сохранить объект как…">
 <!ENTITY saveLinkCmd.label "Сохранить объект">
 <!ENTITY saveLinkCmd.accesskey "С">
-<!ENTITY saveImageAsCmd.label "Сохранить изображение как...">
+<!ENTITY saveImageAsCmd.label "Сохранить изображение как…">
 <!ENTITY saveImageCmd.label "Сохранить изображение">
 <!ENTITY saveImageCmd.accesskey "х">
 <!ENTITY copyCmd.label "Копировать">
@@ -103,5 +103,5 @@
 <!ENTITY spellNoSuggestions.label "(предположений не найдено)">
 <!ENTITY spellDictionaries.label "Языки">
 <!ENTITY spellDictionaries.accesskey "Я">
-<!ENTITY spellAddDictionaries.label "Загрузить дополнительные словари...">
+<!ENTITY spellAddDictionaries.label "Загрузить дополнительные словари…">
 <!ENTITY spellAddDictionaries.accesskey "З">

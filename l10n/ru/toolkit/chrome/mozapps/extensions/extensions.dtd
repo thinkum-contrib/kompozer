@@ -14,7 +14,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey "а">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Производит поиск обновлений для ваших дополнений">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Производит поиск обновлений для ваших тем">
-<!ENTITY cmd.installLocalFile.label "Установить...">
+<!ENTITY cmd.installLocalFile.label "Установить…">
 <!ENTITY cmd.installFile.accesskey "с">
 <!ENTITY cmd.installFileAddon.tooltip "Установить дополнение">
 <!ENTITY cmd.installFileTheme.tooltip "Установить тему">
@@ -91,7 +91,7 @@
 <!ENTITY updateSuccess.label "Обновление успешно завершено.">
 <!ENTITY installSuccess.label "Установка успешно завершена.">
 <!ENTITY installSuccessRestart.label "Для завершения установки требуется перезапуск.">
-<!ENTITY installWaiting.label "Ожидание...">
-<!ENTITY installIncompatibleUpdate.label "Идёт проверка совместимости...">
-<!ENTITY installFinishing.label "Идёт установка...">
+<!ENTITY installWaiting.label "Ожидание…">
+<!ENTITY installIncompatibleUpdate.label "Идёт проверка совместимости…">
+<!ENTITY installFinishing.label "Идёт установка…">
 <!ENTITY installFailure.label "Установка не удалась.">

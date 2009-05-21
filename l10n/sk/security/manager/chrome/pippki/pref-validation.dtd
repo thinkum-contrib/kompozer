@@ -38,7 +38,7 @@
 
 <!ENTITY validation.crl.caption                     "CRL">
 <!ENTITY validation.crl.description                 "Na správu CRL (Certificate revocation list), uložených vo vašej databáze certifikátov, použite Správcu zoznamu zrušených certifikátov (CRL).">
-<!ENTITY validation.managecrls.button               "Správa CRL...">
+<!ENTITY validation.managecrls.button               "Správa CRL…">
 <!ENTITY validation.managecrls.accesskey            "S">
 <!ENTITY validation.crlmanager.label                "Správca zoznamu zrušených certifikátov (CRL)">
 <!ENTITY validation.crlname.label                   "Meno">

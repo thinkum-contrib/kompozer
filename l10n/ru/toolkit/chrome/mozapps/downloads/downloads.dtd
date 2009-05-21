@@ -2,8 +2,8 @@
 <!ENTITY window.height "300">
 <!ENTITY done.label "Готово">
 <!ENTITY canceled.label "Отменено">
-<!ENTITY installing.label "Идёт установка...">
-<!ENTITY starting.label "Начинаю...">
+<!ENTITY installing.label "Идёт установка…">
+<!ENTITY starting.label "Начинаю…">
 <!ENTITY failed.label "Ошибка">
 <!ENTITY downloads.title "Загрузки">
 <!ENTITY cmd.pause.label "Приостановить">
@@ -18,7 +18,7 @@
 <!ENTITY cmd.show.accesskeyMac "F">
 <!ENTITY cmd.open.label "Открыть">
 <!ENTITY cmd.open.accesskey "О">
-<!ENTITY cmd.openWith.label "Открыть с помощью...">
+<!ENTITY cmd.openWith.label "Открыть с помощью…">
 <!ENTITY cmd.openWith.accesskey "п">
 <!ENTITY cmd.retry.label "Повторить попытку">
 <!ENTITY cmd.retry.accesskey "в">

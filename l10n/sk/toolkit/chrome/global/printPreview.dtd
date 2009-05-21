@@ -34,9 +34,9 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY print.label "Tlač...">
+<!ENTITY print.label "Tlač…">
 <!ENTITY print.accesskey "T">
-<!ENTITY pageSetup.label "Nastavenie tlače...">
+<!ENTITY pageSetup.label "Nastavenie tlače…">
 <!ENTITY pageSetup.accesskey "N">
 <!ENTITY page.label "Strana:">
 <!ENTITY page.accesskey "S">
@@ -62,9 +62,9 @@
 <!ENTITY p150.label "150&#037;">
 <!ENTITY p175.label "175&#037;">
 <!ENTITY p200.label "200&#037;">
-<!ENTITY Custom.label "Vlastná...">
+<!ENTITY Custom.label "Vlastná…">
 <!ENTITY ShrinkToFit.label "Na šírku strany">
-<!ENTITY customPrompt.title "Vlastná mierka...">
+<!ENTITY customPrompt.title "Vlastná mierka…">
 
 <!ENTITY homearrow.tooltip "Prvá stránka">
 <!ENTITY endarrow.tooltip "Posledná stránka">

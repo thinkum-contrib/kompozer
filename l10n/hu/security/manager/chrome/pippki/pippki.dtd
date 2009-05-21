@@ -124,8 +124,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Személyes kulcs generálása">
-<!ENTITY createCertInfo.msg1 "Kulcsgenerálás folyamatban... Ez eltarthat egy pár percig...">
-<!ENTITY createCertInfo.msg2 "Kérem várjon...">
+<!ENTITY createCertInfo.msg1 "Kulcsgenerálás folyamatban… Ez eltarthat egy pár percig…">
+<!ENTITY createCertInfo.msg2 "Kérem várjon…">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Szövegaláírási kérés">

@@ -1,7 +1,7 @@
 <!ENTITY pluginWizard.title                                   "Liitännäisten etsijä">
 <!ENTITY pluginWizard.firstPage.title                         "Liitännäisten etsijä">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label    "&brandShortName; hakee soveltuvia liitännäisiä...">
+<!ENTITY pluginWizard.checkingForPlugins.description.label    "&brandShortName; hakee soveltuvia liitännäisiä…">
 
 <!ENTITY pluginWizard.availablePluginsPage.title              "Saatavilla olevat liitännäiset">
 <!ENTITY pluginWizard.availablePluginsPage.description.label  "Seuraavat liitännäiset voidaan asentaa:">
@@ -13,7 +13,7 @@
 <!ENTITY pluginWizard.licensePage.deny.label                  "En hyväksy (liitännäistä ei asenneta)">
 
 <!ENTITY pluginWizard.installPluginsPage.title                "Liitännäisten asentaminen">
-<!ENTITY pluginWizard.installPluginsPage.description.label    "&brandShortName; asentaa liitännäisiä...">
+<!ENTITY pluginWizard.installPluginsPage.description.label    "&brandShortName; asentaa liitännäisiä…">
 
 <!ENTITY pluginWizard.finalPage.description.label             "Tarvittujen liitännäisten asennus suoritettu:">
 

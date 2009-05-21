@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey "h">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Vyhledá aktualizaci doplňku">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Vyhledá aktualizaci motivu vzhledu">
-<!ENTITY cmd.installLocalFile.label "Instalovat...">
+<!ENTITY cmd.installLocalFile.label "Instalovat…">
 <!ENTITY cmd.installFile.accesskey "I">
 <!ENTITY cmd.installFileAddon.tooltip "Instaluje doplněk">
 <!ENTITY cmd.installFileTheme.tooltip "Instaluje motiv vzhledu">
@@ -109,7 +109,7 @@
 <!ENTITY updateSuccess.label "Aktualizace dokončena úspěšně.">
 <!ENTITY installSuccess.label "Instalace dokončena úspěšně.">
 <!ENTITY installSuccessRestart.label "Pro dokončení instalace je vyžadován restart.">
-<!ENTITY installWaiting.label "Čekání...">
-<!ENTITY installIncompatibleUpdate.label "Kontrola kompatibility...">
-<!ENTITY installFinishing.label "Instalování...">
+<!ENTITY installWaiting.label "Čekání…">
+<!ENTITY installIncompatibleUpdate.label "Kontrola kompatibility…">
+<!ENTITY installFinishing.label "Instalování…">
 <!ENTITY installFailure.label "Instalace se nezdařila.">

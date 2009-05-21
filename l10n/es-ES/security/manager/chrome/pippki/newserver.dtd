@@ -41,7 +41,7 @@
 <!ENTITY newserver.reason1 "- Su navegador no reconoce la autoridad certificadora que emitió el certificado de este sitio.">
 <!ENTITY newserver.reason2 "- El certificado del sitio está incompleto debido a una configuración errónea del servidor.">
 <!ENTITY newserver.notify "Por favor, notifique este problema al webmaster del sitio.">
-<!ENTITY newserver.examine "Examinar certificado...">
+<!ENTITY newserver.examine "Examinar certificado…">
 <!ENTITY newserver.remember "Aceptar este certificado permanentemente">
 <!ENTITY newserver.session "Aceptar este certificado temporalmente para esta sesión">
 <!ENTITY newserver.refuse "No aceptar este certificado y no conectar a este sitio web">

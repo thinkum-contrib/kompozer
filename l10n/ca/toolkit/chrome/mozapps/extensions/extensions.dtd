@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "z">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Cerca actualitzacions dels complements">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Cerca actualitzacions dels temes">
-<!ENTITY cmd.installLocalFile.label       "Instal·la...">
+<!ENTITY cmd.installLocalFile.label       "Instal·la…">
 <!ENTITY cmd.installFile.accesskey        "I">
 <!ENTITY cmd.installFileAddon.tooltip     "Instal·la un complement">
 <!ENTITY cmd.installFileTheme.tooltip     "Instal·la un tema">
@@ -109,7 +109,7 @@
 <!ENTITY updateSuccess.label              "L'actualització ha acabat amb èxit.">
 <!ENTITY installSuccess.label             "La instal·lació ha acabat amb èxit.">
 <!ENTITY installSuccessRestart.label      "Reinicieu per a acabar la instal·lació.">
-<!ENTITY installWaiting.label             "S'està esperant...">
-<!ENTITY installIncompatibleUpdate.label  "S'està comprovant la compatibilitat...">
-<!ENTITY installFinishing.label           "S'està instal·lant...">
+<!ENTITY installWaiting.label             "S'està esperant…">
+<!ENTITY installIncompatibleUpdate.label  "S'està comprovant la compatibilitat…">
+<!ENTITY installFinishing.label           "S'està instal·lant…">
 <!ENTITY installFailure.label             "La instal·lació ha fallat.">

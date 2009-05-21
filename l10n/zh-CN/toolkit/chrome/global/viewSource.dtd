@@ -9,10 +9,10 @@
 <!ENTITY findAgainCmd.label "查找下一个">
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findOnCmd.label "在当前页查找...">
+<!ENTITY findOnCmd.label "在当前页查找…">
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "l">
-<!ENTITY goToLineCmd.label "转到行...">
+<!ENTITY goToLineCmd.label "转到行…">
 <!ENTITY mainWindow.preface "源：">
 <!ENTITY mainWindow.title "&brandFullName;">
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
@@ -30,10 +30,10 @@
 <!ENTITY menu_wrapLongLines.accesskey "W">
 <!ENTITY menu_wrapLongLines.title "将较长的行自动换行">
 <!ENTITY pageSetupCmd.accesskey "u">
-<!ENTITY pageSetupCmd.label "页面设置...">
+<!ENTITY pageSetupCmd.label "页面设置…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "P">
-<!ENTITY printCmd.label "打印...">
+<!ENTITY printCmd.label "打印…">
 <!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printPreviewCmd.label "打印预览">
 <!ENTITY reloadCmd.accesskey "R">
@@ -41,7 +41,7 @@
 <!ENTITY reloadCmd.label "重新载入">
 <!ENTITY savePageCmd.accesskey "A">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY savePageCmd.label "页面另存为...">
+<!ENTITY savePageCmd.label "页面另存为…">
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textReduce.commandkey "-">

@@ -42,7 +42,7 @@
 <!ENTITY newserver.reason1  "- Uw browser herkent de certificatieautoriteit (CA) niet die het certificaat van de website heeft uitgegeven.">
 <!ENTITY newserver.reason2  "- Het certificaat van de website is incompleet door een server-misconfiguratie.">
 <!ENTITY newserver.notify   "Informeer de webmaster van de website over dit probleem.">
-<!ENTITY newserver.examine  "Certificaat onderzoeken...">
+<!ENTITY newserver.examine  "Certificaat onderzoeken…">
 <!ENTITY newserver.remember "Dit certificaat permanent accepteren">
 <!ENTITY newserver.session  "Dit certificaat tijdelijk accepteren, voor de duur van deze sessie">
 <!ENTITY newserver.refuse   "Dit certificaat niet accepteren en niet verbinden met deze website">

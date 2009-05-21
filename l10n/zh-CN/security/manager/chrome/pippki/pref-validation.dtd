@@ -38,7 +38,7 @@
 <!ENTITY validation.deletecrl.accesskey "D">
 <!ENTITY validation.deletecrl.label "删除">
 <!ENTITY validation.managecrls.accesskey "M">
-<!ENTITY validation.managecrls.button "管理 CRL...">
+<!ENTITY validation.managecrls.button "管理 CRL…">
 <!ENTITY validation.ocsp.caption "OCSP">
 <!ENTITY validation.ocsp.description "&brandShortName; 能使用在线证书状态协议（OCSP）来验证证书。选择让&brandShortName; 使用OCSP的情况：">
 <!ENTITY validation.updatecrl.accesskey "U">

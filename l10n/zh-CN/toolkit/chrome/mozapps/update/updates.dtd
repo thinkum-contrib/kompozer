@@ -2,7 +2,7 @@
 <!ENTITY window.width "36em">
 <!ENTITY window.macWidth "39em">
 <!ENTITY checking.title "正在检查更新">
-<!ENTITY checking.label "&brandShortName; 正在检查更新...">
+<!ENTITY checking.label "&brandShortName; 正在检查更新…">
 <!ENTITY cancel.label "取消">
 <!ENTITY cancel.accesskey "C">
 <!ENTITY noupdatesfound.title "无新的更新">
@@ -26,8 +26,8 @@
 <!ENTITY license.decline "我拒绝接受许可协议条款">
 <!ENTITY license.decline.accesskey "T">
 <!ENTITY downloading.title "正在下载更新">
-<!ENTITY downloading.intro "正在下载更新...">
-<!ENTITY connecting.label "正在连接至更新服务器...">
+<!ENTITY downloading.intro "正在下载更新…">
+<!ENTITY connecting.label "正在连接至更新服务器…">
 <!ENTITY verificationFailedText.label "&brandShortName; 无法验证下载的增量更新的完整性，因此，它将尝试下载完全的更新包。">
 <!ENTITY details.link "详细信息">
 <!ENTITY pause.label "暂停">
@@ -47,7 +47,7 @@
 <!ENTITY finishedBackground.more2 "单击 稍后 以关闭此对话框并继续工作， &brandShortName; 将在下次启动时安装更新。">
 <!ENTITY installed.title "更新已安装">
 <!ENTITY installed.intro "更新已被成功安装">
-<!ENTITY whatsnew.label "查看新特性详细信息...">
+<!ENTITY whatsnew.label "查看新特性详细信息…">
 <!ENTITY update.details.label "详细信息">
 <!ENTITY update.installedOn.label "安装日期：">
 <!ENTITY update.status.label "状态：">

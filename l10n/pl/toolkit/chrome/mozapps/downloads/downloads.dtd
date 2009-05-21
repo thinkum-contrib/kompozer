@@ -3,9 +3,9 @@
 
 <!ENTITY done.label			"Zakończono" >
 <!ENTITY canceled.label			"Anulowano" >
-<!ENTITY installing.label		"Instalowanie..." >
+<!ENTITY installing.label		"Instalowanie…" >
 
-<!ENTITY starting.label 		"Rozpoczynanie..." >
+<!ENTITY starting.label 		"Rozpoczynanie…" >
 <!ENTITY failed.label 			"Nie powiodło się" >
 
 <!ENTITY downloads.title 		"Pobieranie plików" >
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac          "F">
 <!ENTITY cmd.open.label 		"Otwórz" >
 <!ENTITY cmd.open.accesskey 		"O" >
-<!ENTITY cmd.openWith.label 		"Otwórz za pomocą..." >
+<!ENTITY cmd.openWith.label 		"Otwórz za pomocą…" >
 <!ENTITY cmd.openWith.accesskey 	"z" >
 <!ENTITY cmd.retry.label 		"Pobierz ponownie" >
 <!ENTITY cmd.retry.accesskey 		"p" >

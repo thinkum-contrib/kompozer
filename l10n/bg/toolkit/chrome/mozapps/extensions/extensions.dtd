@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey "о">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Проверка за обновявания на добавките">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Проверка за обновявания на темите">
-<!ENTITY cmd.installLocalFile.label "Инсталиране...">
+<!ENTITY cmd.installLocalFile.label "Инсталиране…">
 <!ENTITY cmd.installFile.accesskey "И">
 <!ENTITY cmd.installFileAddon.tooltip "Инсталиране на добавка">
 <!ENTITY cmd.installFileTheme.tooltip "Инсталиране на тема">
@@ -109,8 +109,8 @@
 <!ENTITY updateSuccess.label "Обновяването завърши успешно.">
 <!ENTITY installSuccess.label "Инсталирането завърши успешно.">
 <!ENTITY installSuccessRestart.label "Рестартирайте за завършване на инсталацията.">
-<!ENTITY installWaiting.label "Чакане...">
-<!ENTITY installIncompatibleUpdate.label "Проверка на съвместимостта...">
-<!ENTITY installFinishing.label "Инсталиране...">
+<!ENTITY installWaiting.label "Чакане…">
+<!ENTITY installIncompatibleUpdate.label "Проверка на съвместимостта…">
+<!ENTITY installFinishing.label "Инсталиране…">
 <!ENTITY installFailure.label "Грешка при инсталиране.">
 

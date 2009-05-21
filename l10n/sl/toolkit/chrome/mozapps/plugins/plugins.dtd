@@ -1,7 +1,7 @@
 <!ENTITY pluginWizard.title                                  "Storitev iskanja dodatkov">
 <!ENTITY pluginWizard.firstPage.title                        "Dobrodošli v storitvi iskanja dodatkov">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; išče dodatke ...">
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; išče dodatke …">
 
 <!ENTITY pluginWizard.availablePluginsPage.title             "Dodatki na voljo">
 <!ENTITY pluginWizard.availablePluginsPage.description.label "Sledeči dodatki so na voljo:">
@@ -13,7 +13,7 @@
 <!ENTITY pluginWizard.licensePage.deny.label                 "Ne strinjam se (dodatek se ne bo namestil).">
 
 <!ENTITY pluginWizard.installPluginsPage.title               "Nameščanje dodatkov">
-<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; namešča dodatke ...">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; namešča dodatke …">
 
 <!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; je končal z namestitvijo manjkajočih dodatkov:">
 

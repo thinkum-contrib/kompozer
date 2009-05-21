@@ -42,7 +42,7 @@
 <!ENTITY newserver.reason1  "- Din browser kender ikke den CA der har udstedt webstedets certifikat.">
 <!ENTITY newserver.reason2  "- Certifikatet er mangelfuldt pga. en forkert opsætning af serveren.">
 <!ENTITY newserver.notify   "Gør webstedets webmaster opmærksom på problemet.">
-<!ENTITY newserver.examine  "Se nærmere på certifikatet...">
+<!ENTITY newserver.examine  "Se nærmere på certifikatet…">
 <!ENTITY newserver.remember "Godkend dette certifikat for altid">
 <!ENTITY newserver.session  "Godkend dette certifikat midlertidigt for denne session">
 <!ENTITY newserver.refuse   "Godkend ikke dette certifikat og gå ikke ind på webstedet">

@@ -38,7 +38,7 @@
 <!ENTITY pref.validation.title "Подтверждение действительности">
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "Используйте Менеджер CRL для управления списками отозванных сертификатов (CRL), хранящихся в вашей базе сертификатов.">
-<!ENTITY validation.managecrls.button "Управление CRL...">
+<!ENTITY validation.managecrls.button "Управление CRL…">
 <!ENTITY validation.managecrls.accesskey "п">
 <!ENTITY validation.crlmanager.label "Управление CRL">
 <!ENTITY validation.crlname.label "Имя">

@@ -42,7 +42,7 @@
 
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "Utilitzeu el gestor de CRL per a gestionar les llistes de revocació de certificats (CRL) que estan emmagatzemades a la vostra base de dades de certificats.">
-<!ENTITY validation.managecrls.button "Gestiona les CRL...">
+<!ENTITY validation.managecrls.button "Gestiona les CRL…">
 <!ENTITY validation.managecrls.accesskey "G">
 <!ENTITY validation.crlmanager.label "Gestiona les CRL">
 <!ENTITY validation.crlname.label "Nom">

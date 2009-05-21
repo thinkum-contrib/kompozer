@@ -54,17 +54,17 @@
 <!ENTITY bookmarkLinkCmd.accesskey "e" >
 <!ENTITY bookmarkFrameCmd.label "Dodaj ramkę do zakładek" >
 <!ENTITY bookmarkFrameCmd.accesskey "D" >
-<!ENTITY savePageAsCmd.label "Zapisz stronę jako..." >
+<!ENTITY savePageAsCmd.label "Zapisz stronę jako…" >
 <!ENTITY savePageCmd.label "Zapisz stronę" >
 <!ENTITY savePageCmd.accesskey "a" >
 <!ENTITY savePageCmd.commandkey "S" >
-<!ENTITY saveFrameAsCmd.label "Zapisz ramkę jako..." >
+<!ENTITY saveFrameAsCmd.label "Zapisz ramkę jako…" >
 <!ENTITY saveFrameCmd.label "Zapisz ramkę" >
 <!ENTITY saveFrameCmd.accesskey "Z" >
-<!ENTITY saveLinkAsCmd.label "Zapisz element docelowy jako..." >
+<!ENTITY saveLinkAsCmd.label "Zapisz element docelowy jako…" >
 <!ENTITY saveLinkCmd.label "Zapisz element docelowy" >
 <!ENTITY saveLinkCmd.accesskey "s" >
-<!ENTITY saveImageAsCmd.label "Zapisz obrazek jako..." >
+<!ENTITY saveImageAsCmd.label "Zapisz obrazek jako…" >
 <!ENTITY saveImageCmd.label "Zapisz obrazek" >
 <!ENTITY saveImageCmd.accesskey "b" >
 <!ENTITY copyCmd.label "Kopiuj" >
@@ -103,5 +103,5 @@
 <!ENTITY spellNoSuggestions.label "(brak sugestii)" >
 <!ENTITY spellDictionaries.label "Języki" >
 <!ENTITY spellDictionaries.accesskey "J" >
-<!ENTITY spellAddDictionaries.label "Dodaj słowniki..." >
+<!ENTITY spellAddDictionaries.label "Dodaj słowniki…" >
 <!ENTITY spellAddDictionaries.accesskey "D" >

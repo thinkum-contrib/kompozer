@@ -38,7 +38,7 @@
 
 <!ENTITY  validation.crl.caption                  "CRL">
 <!ENTITY validation.crl.description "Brug CRLadministrationen til at håndtere certifikat-tilbagetræknings-listerne (CRL) der er gemt i din certifikat-database.">
-<!ENTITY validation.managecrls.button      "Håndter CRLer...">
+<!ENTITY validation.managecrls.button      "Håndter CRLer…">
 <!ENTITY validation.managecrls.accesskey   "H">
 <!ENTITY validation.crlmanager.label       "Håndter CRLer">
 <!ENTITY validation.crlname.label          "Navn">

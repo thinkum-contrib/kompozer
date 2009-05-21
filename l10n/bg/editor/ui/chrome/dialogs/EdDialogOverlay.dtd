@@ -20,10 +20,10 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label "Разширена обработка...">
+<!ENTITY AdvancedEditButton.label "Разширена обработка…">
 <!ENTITY AdvancedEditButton.accessKey "Р">
 <!ENTITY AdvancedEditButton.tooltip "Добави или промени HTML свойства, свойства на стиловете и на JavaScript">
-<!ENTITY chooseButton.label "Избери файл...">
+<!ENTITY chooseButton.label "Избери файл…">
 <!ENTITY chooseFile.accessKey "F">
 <!ENTITY chooseFileLink.accessKey "ф">
 <!ENTITY makeUrlRelative.label "URL е относим към разположението на страницата">

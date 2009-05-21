@@ -37,14 +37,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY resetsettings.label "Нулиране на настройки">
-<!ENTITY resetpreferences.label "Нулиране на настройки...">
+<!ENTITY resetpreferences.label "Нулиране на настройки…">
 <!ENTITY managecerts.caption "Управление на сертификати">
 <!ENTITY managecerts.text "Използвайте управлението на сертификати за боравите с личните ви сертификати, както и тези от други хора и сертификатни удостоверители.">
-<!ENTITY managecerts.button "Управление на сертификати...">
+<!ENTITY managecerts.button "Управление на сертификати…">
 <!ENTITY managecerts.accesskey "с">
 <!ENTITY managedevices.caption "Управление на устройствата по сигурността">
 <!ENTITY managedevices.text "Този бутон е за управление на вашите сигурни устройства, като например смарт-картите.">
-<!ENTITY managedevices.button "Управление на сигурни устройства...">
+<!ENTITY managedevices.button "Управление на сигурни устройства…">
 <!ENTITY managedevices.accesskey "У">
 
 <!ENTITY ssl.label "SSL">

@@ -43,7 +43,7 @@
 <!ENTITY selectAllCmd.label "Selecciona-ho tot">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "a">
-<!ENTITY preferencesCmd.label "Preferències...">
+<!ENTITY preferencesCmd.label "Preferències…">
 <!ENTITY preferencesCmd.key "E">
 <!ENTITY preferencesCmd.accesskey "e">
 <!ENTITY findTypeTextCmd.label "Cerca text a mesura que escric">
@@ -80,7 +80,7 @@
 <!ENTITY wpad.label "En línia (servidor intermediari: descobriment automàtic)">
 <!ENTITY wpad.accesskey "d">
 
-<!ENTITY proxy.label "Configuració del servidor intermediari...">
+<!ENTITY proxy.label "Configuració del servidor intermediari…">
 <!ENTITY proxy.accesskey "C">
 
 <!ENTITY bidiSwitchTextDirectionItem.label        "Commuta la direcció del text">

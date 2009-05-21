@@ -37,7 +37,7 @@
 <!ENTITY selectAllCmd.label "Выделить все">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "ы">
-<!ENTITY preferencesCmd.label "Настройки...">
+<!ENTITY preferencesCmd.label "Настройки…">
 <!ENTITY preferencesCmd.key "E">
 <!ENTITY preferencesCmd.accesskey "р">
 <!ENTITY findTypeTextCmd.label "Поиск текста по мере набора">
@@ -67,7 +67,7 @@
 <!ENTITY pac.accesskey "а">
 <!ENTITY wpad.label "Подключено (прокси: Auto Discover)">
 <!ENTITY wpad.accesskey "ю">
-<!ENTITY proxy.label "Настройка прокси...">
+<!ENTITY proxy.label "Настройка прокси…">
 <!ENTITY proxy.accesskey "й">
 <!ENTITY bidiSwitchTextDirectionItem.label "Переключить направление текста">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey "е">

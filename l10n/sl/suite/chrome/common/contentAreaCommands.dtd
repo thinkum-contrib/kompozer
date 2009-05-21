@@ -55,14 +55,14 @@
 <!ENTITY bookmarkLinkCmd.accesskey    "p">
 <!ENTITY bookmarkFrameCmd.label "Dodaj okvir med Zaznamke">
 <!ENTITY bookmarkFrameCmd.accesskey   "o">
-<!ENTITY savePageCmd.label "Shrani stran kot ...">
+<!ENTITY savePageCmd.label "Shrani stran kot …">
 <!ENTITY savePageCmd.accesskey        "A">
 <!ENTITY savePageCmd.commandkey       "s">
-<!ENTITY saveFrameCmd.label "Shrani okvir kot ...">
+<!ENTITY saveFrameCmd.label "Shrani okvir kot …">
 <!ENTITY saveFrameCmd.accesskey       "o">
-<!ENTITY saveLinkCmd.label "Shrani cilj povezave kot ...">
+<!ENTITY saveLinkCmd.label "Shrani cilj povezave kot …">
 <!ENTITY saveLinkCmd.accesskey        "r">
-<!ENTITY saveImageCmd.label "Shrani sliko kot ...">
+<!ENTITY saveImageCmd.label "Shrani sliko kot …">
 <!ENTITY saveImageCmd.accesskey       "s">
 <!ENTITY copyCmd.label                "Kopiraj">
 <!ENTITY copyCmd.accesskey            "K">

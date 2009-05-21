@@ -38,14 +38,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
   <!ENTITY  resetsettings.label      "Zresetuj ustawienia">
-<!ENTITY  resetpreferences.label   "Zresetuj preferencje...">
+<!ENTITY  resetpreferences.label   "Zresetuj preferencje…">
 <!ENTITY  managecerts.caption      "Menedżer certyfikatów">
 <!ENTITY  managecerts.text         "Użyj menedżera certyfikatów, by zarządzać zarówno certyfikatami osobistym, jak i certyfikatami pochodzącymi od innych osób i organów certyfikacji.">
-<!ENTITY  managecerts.button       "Zarządzaj certyfikatami...">
+<!ENTITY  managecerts.button       "Zarządzaj certyfikatami…">
 <!ENTITY  managecerts.accesskey    "Z">
 <!ENTITY  managedevices.caption    "Menedżer urządzeń zabezpieczających">
 <!ENTITY  managedevices.text       "Naciśnij ten przycisk, by zarządzać swoimi urządzeniami zabezpieczającymi, takimi jak karty elektroniczne.">
-<!ENTITY  managedevices.button     "Zarządzaj urządzeniami zabezpieczającymi...">
+<!ENTITY  managedevices.button     "Zarządzaj urządzeniami zabezpieczającymi…">
 <!ENTITY  managedevices.accesskey  "S">
 
 <!ENTITY  ssl.label                "SSL">

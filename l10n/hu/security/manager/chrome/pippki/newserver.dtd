@@ -42,7 +42,7 @@
 <!ENTITY newserver.reason1  "- A böngésző nem ismeri a webhely tanúsítványát kiadó hitelesítésszolgáltatót.">
 <!ENTITY newserver.reason2  "- A webhely tanúsítványa nem teljes a kiszolgáló helytelen beállítása miatt.">
 <!ENTITY newserver.notify   "A webhely rendszergazdájának értesítése a hibáról.">
-<!ENTITY newserver.examine  "Tanúsítvány vizsgálata...">
+<!ENTITY newserver.examine  "Tanúsítvány vizsgálata…">
 <!ENTITY newserver.remember "Tanúsítvány tartós elfogadása">
 <!ENTITY newserver.session  "Tanúsítvány ideiglenes elfogadása erre a munkamenetre">
 <!ENTITY newserver.refuse   "Tanúsítvány elutasítása és a kapcsolat megszakítása a webhellyel">

@@ -12,14 +12,14 @@
 
 <!ENTITY fileMenu.label "Файл">
 <!ENTITY fileMenu.accesskey "Ф">
-<!ENTITY savePageCmd.label "Запис на страницата като...">
+<!ENTITY savePageCmd.label "Запис на страницата като…">
 <!ENTITY savePageCmd.accesskey "к">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Настройка на страница...">
+<!ENTITY pageSetupCmd.label "Настройка на страница…">
 <!ENTITY pageSetupCmd.accesskey "Н">
 <!ENTITY printPreviewCmd.label "Преглед за отпечатване">
 <!ENTITY printPreviewCmd.accesskey "г">
-<!ENTITY printCmd.label "Печат...">
+<!ENTITY printCmd.label "Печат…">
 <!ENTITY printCmd.accesskey "П">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Затваряне">
@@ -31,7 +31,7 @@
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
 
-<!ENTITY goToLineCmd.label "Към ред...">
+<!ENTITY goToLineCmd.label "Към ред…">
 <!ENTITY goToLineCmd.accesskey "д">
 <!ENTITY goToLineCmd.commandkey "l">
 
@@ -53,7 +53,7 @@
 <!ENTITY menu_textReset.label "Нормална">
 <!ENTITY menu_textReset.accesskey "Н">
 
-<!ENTITY findOnCmd.label "Търсене в тази страница...">
+<!ENTITY findOnCmd.label "Търсене в тази страница…">
 <!ENTITY findOnCmd.accesskey "Т">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label "Търсене отново">

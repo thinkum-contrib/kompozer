@@ -3,9 +3,9 @@
 
 <!ENTITY done.label			"完了">
 <!ENTITY canceled.label			"キャンセルされました">
-<!ENTITY installing.label		"インストールしています...">
+<!ENTITY installing.label		"インストールしています…">
 
-<!ENTITY starting.label			"開始しました...">
+<!ENTITY starting.label			"開始しました…">
 <!ENTITY failed.label			"失敗">
 
 <!ENTITY downloads.title		"ダウンロードマネージャ"><!-- (^^; -->
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac		"F">
 <!ENTITY cmd.open.label			"開く">
 <!ENTITY cmd.open.accesskey		"O">
-<!ENTITY cmd.openWith.label		"アプリケーションで開く...">
+<!ENTITY cmd.openWith.label		"アプリケーションで開く…">
 <!ENTITY cmd.openWith.accesskey		"h">
 <!ENTITY cmd.retry.label		"やり直し">
 <!ENTITY cmd.retry.accesskey		"R">

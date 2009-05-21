@@ -101,7 +101,7 @@
 <!ENTITY certmgr.close.accesskey              "F">
 <!ENTITY certmgr.view.label                   "Exibir">
 <!ENTITY certmgr.view.accesskey               "x">
-<!ENTITY certmgr.edit.label                   "Editar...">
+<!ENTITY certmgr.edit.label                   "Editar…">
 <!ENTITY certmgr.edit.accesskey               "E">
 <!ENTITY certmgr.editca.label                 "Editar confiança da CA">
 <!ENTITY certmgr.editca.accesskey             "d">
@@ -113,7 +113,7 @@
 <!ENTITY certmgr.backup.accesskey             "B">
 <!ENTITY certmgr.backupall.label              "Fazer backup de tudo">
 <!ENTITY certmgr.backupall.accesskey          "t">
-<!ENTITY certmgr.restore.label                "Importar...">
+<!ENTITY certmgr.restore.label                "Importar…">
 <!ENTITY certmgr.restore.accesskey            "I">
 <!ENTITY certmgr.details.label                "Campos do certificado:">
 <!ENTITY certmgr.details.accesskey            "C">

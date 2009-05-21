@@ -1,7 +1,7 @@
 <!ENTITY pluginWizard.title                                  "Plug-in-zoekservice">
 <!ENTITY pluginWizard.firstPage.title                        "Welkom bij de &pluginWizard.title;">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; controleert nu op beschikbare plug-ins...">
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; controleert nu op beschikbare plug-ins…">
 
 <!ENTITY pluginWizard.availablePluginsPage.title             "Beschikbare plug-indownloads">
 <!ENTITY pluginWizard.availablePluginsPage.description.label "De volgende plug-ins zijn beschikbaar:">
@@ -13,7 +13,7 @@
 <!ENTITY pluginWizard.licensePage.deny.label                 "Ik ga niet akkoord (plug-in zal niet worden geïnstalleerd).">
 
 <!ENTITY pluginWizard.installPluginsPage.title               "Plug-ins installeren">
-<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; is plug-ins aan het installeren...">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; is plug-ins aan het installeren…">
 
 <!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; heeft het installeren van de ontbrekende plug-ins voltooid:">
 

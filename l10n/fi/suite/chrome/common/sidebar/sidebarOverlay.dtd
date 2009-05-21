@@ -1,9 +1,9 @@
 <!ENTITY sidebar.close.tooltip "Sulje sivustonhallinta">
 <!ENTITY sidebar.customize.accesskey "M">
-<!ENTITY sidebar.customize.label "Muokkaa sivustonhallintaa...">
+<!ENTITY sidebar.customize.label "Muokkaa sivustonhallintaa…">
 <!ENTITY sidebar.hide.accesskey "v">
 <!ENTITY sidebar.hide.label "Piilota välilehti">
-<!ENTITY sidebar.loading.label "Lataa...">
+<!ENTITY sidebar.loading.label "Lataa…">
 <!ENTITY sidebar.loading.stop.accesskey "s">
 <!ENTITY sidebar.loading.stop.label "Pysäytä">
 <!ENTITY sidebar.loadstopped.label "Lataus pysäytetty">
@@ -16,7 +16,7 @@
 <!ENTITY sidebar.picker.label "Välilehdet">
 <!ENTITY sidebar.reload.accesskey "P">
 <!ENTITY sidebar.reload.label "Päivitä">
-<!ENTITY sidebar.sbDirectory.label "Sivupaneelihakemisto...">
+<!ENTITY sidebar.sbDirectory.label "Sivupaneelihakemisto…">
 <!ENTITY sidebar.switch.accesskey "h">
 <!ENTITY sidebar.switch.label "Siirry välilehteen">
 <!ENTITY sidebarCmd.accesskey "S">

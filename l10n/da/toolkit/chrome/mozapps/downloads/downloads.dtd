@@ -3,9 +3,9 @@
 
 <!ENTITY done.label                       "Færdig">
 <!ENTITY canceled.label                   "Afbrudt">
-<!ENTITY installing.label                 "Installerer...">
+<!ENTITY installing.label                 "Installerer…">
 
-<!ENTITY starting.label                   "Starter...">
+<!ENTITY starting.label                   "Starter…">
 <!ENTITY failed.label                     "Mislykket">
 
 <!ENTITY downloads.title                  "Downloads">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac            "F">
 <!ENTITY cmd.open.label                   "Åbn">
 <!ENTITY cmd.open.accesskey               "b">
-<!ENTITY cmd.openWith.label               "Åbn med...">
+<!ENTITY cmd.openWith.label               "Åbn med…">
 <!ENTITY cmd.openWith.accesskey           "Å">
 <!ENTITY cmd.retry.label                  "Forsøg igen">
 <!ENTITY cmd.retry.accesskey              "i">

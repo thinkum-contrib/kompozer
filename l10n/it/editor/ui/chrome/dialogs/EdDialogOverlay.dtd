@@ -20,10 +20,10 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label 		"Proprietà avanzate...">
+<!ENTITY AdvancedEditButton.label 		"Proprietà avanzate…">
 <!ENTITY AdvancedEditButton.accessKey 	"v">
 <!ENTITY AdvancedEditButton.tooltip 	"Aggiunge o modifica attributi o stili HTML, ed eventi JavaScript per questo oggetto.">
-<!ENTITY chooseButton.label 			"Seleziona file...">
+<!ENTITY chooseButton.label 			"Seleziona file…">
 <!ENTITY chooseFile.accessKey 			"f">
 <!ENTITY chooseFileLink.accessKey 		"o">
 <!ENTITY makeUrlRelative.label 			"L'URL è relativo all'indirizzo della pagina">

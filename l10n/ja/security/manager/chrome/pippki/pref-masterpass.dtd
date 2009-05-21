@@ -56,7 +56,7 @@
 
 <!ENTITY  changepassword.caption		"マスターパスワードの変更">
 <!ENTITY  changepassword.text			"マスターパスワードは Web パスワードや証明書などの機密情報を保護します。">
-<!ENTITY  changepassword.button			"パスワードを変更...">
+<!ENTITY  changepassword.button			"パスワードを変更…">
 <!ENTITY  changepassword.accesskey		"C">
 
 <!ENTITY  resetpassword.caption			"マスターパスワードのリセット">

@@ -124,8 +124,8 @@
 <!-- Strings for the CreateCertInfo dialog  -->
 
 <!ENTITY createCertInfo.title "Генериране на личен ключ">
-<!ENTITY createCertInfo.msg1 "В ход е генериране на ключ... Може да отнеме няколко минути....">
-<!ENTITY createCertInfo.msg2 "Моля, почакайте...">
+<!ENTITY createCertInfo.msg1 "В ход е генериране на ключ… Може да отнеме няколко минути….">
+<!ENTITY createCertInfo.msg2 "Моля, почакайте…">
 <!-- Form Signing confirmation prompt -->
 
 <!ENTITY formSigning.title "Текстова заявка за подписване">

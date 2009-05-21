@@ -1,7 +1,7 @@
 <!ENTITY pluginWizard.title                                  "Plug-in Finder Tjenesten">
 <!ENTITY pluginWizard.firstPage.title                        "Velkommen til &pluginWizard.title;">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; undersøger nu for tilgænglige plug-ins...">
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; undersøger nu for tilgænglige plug-ins…">
 
 <!ENTITY pluginWizard.availablePluginsPage.title             "Tilgænglige plug-in downloads">
 <!ENTITY pluginWizard.availablePluginsPage.description.label "De følgende plug-ins er tilgænglige:">
@@ -13,7 +13,7 @@
 <!ENTITY pluginWizard.licensePage.deny.label                 "Jeg accepterer IKKE (plug-in vil ikke blive installeret).">
 
 <!ENTITY pluginWizard.installPluginsPage.title               "Installerer plug-ins">
-<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; installerer plug-ins...">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; installerer plug-ins…">
 
 <!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; blev færdig med at installere de manglende plug-ins:">
 

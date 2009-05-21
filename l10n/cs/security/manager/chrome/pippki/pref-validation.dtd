@@ -39,7 +39,7 @@
 
 <!ENTITY validation.crl.caption "Seznam zneplatněných certifikátů">
 <!ENTITY validation.crl.description "Správce CRL (Certificate Revocation Lists) použijte pro správu seznamu zneplatněných certifikátů ve vaší databázi certifikátů.">
-<!ENTITY validation.managecrls.button "Zneplatnění...">
+<!ENTITY validation.managecrls.button "Zneplatnění…">
 <!ENTITY validation.managecrls.accesskey "Z">
 <!ENTITY validation.crlmanager.label "Seznam zneplatněných certifikátů">
 <!ENTITY validation.crlname.label "Název">

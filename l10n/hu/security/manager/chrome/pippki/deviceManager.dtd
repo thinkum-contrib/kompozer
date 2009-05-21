@@ -63,7 +63,7 @@
 <!ENTITY loaddevice.modname.default             "Új PKCS#11 modul">
 <!ENTITY loaddevice.filename                    "Modul fájlneve:">
 <!ENTITY loaddevice.filename.accesskey          "f">
-<!ENTITY loaddevice.browse                      "Tallózás...">
+<!ENTITY loaddevice.browse                      "Tallózás…">
 <!ENTITY loaddevice.browse.accesskey            "T">
 
 <!ENTITY loaddevice.title                       "PKCS#11 eszköz betöltése">

@@ -37,14 +37,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY resetsettings.label    "Nulstil indstillinger">
-<!ENTITY resetpreferences.label "Nulstil Præferencer...">
+<!ENTITY resetpreferences.label "Nulstil Præferencer…">
 <!ENTITY managecerts.caption    "Håndter certifikater">
 <!ENTITY managecerts.text       "Brug certifikatadministrationen til at håndtere dine personlige certifikater, såvel som andre folks og Certifikat Autoriteter.">
-<!ENTITY managecerts.button     "Håndter certifikater...">
+<!ENTITY managecerts.button     "Håndter certifikater…">
 <!ENTITY managecerts.accesskey  "c">
 <!ENTITY  managedevices.caption "Håndter sikkerhedsenheder">
 <!ENTITY managedevices.text     "Brug denne knap til at håndtere dine sikkerhedsenheder, såsom smart cards.">
-<!ENTITY managedevices.button   "Håndter sikkerhedsenheder...">
+<!ENTITY managedevices.button   "Håndter sikkerhedsenheder…">
 <!ENTITY managedevices.accesskey "s">
 
 <!ENTITY ssl.label              "SSL">

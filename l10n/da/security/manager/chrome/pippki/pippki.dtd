@@ -124,8 +124,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Generer En Privat Nøgle">
-<!ENTITY createCertInfo.msg1 "Nøglegenerering i gang... Dette kan tage er par minutter....">
-<!ENTITY createCertInfo.msg2 "Vent venligst...">
+<!ENTITY createCertInfo.msg1 "Nøglegenerering i gang… Dette kan tage er par minutter….">
+<!ENTITY createCertInfo.msg2 "Vent venligst…">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Tekst signerings forespørgsel">

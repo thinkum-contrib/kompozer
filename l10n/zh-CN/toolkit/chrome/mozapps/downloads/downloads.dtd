@@ -2,8 +2,8 @@
 <!ENTITY window.height "300">
 <!ENTITY done.label "完成">
 <!ENTITY canceled.label "已取消">
-<!ENTITY installing.label "正在安装...">
-<!ENTITY starting.label "开始...">
+<!ENTITY installing.label "正在安装…">
+<!ENTITY starting.label "开始…">
 <!ENTITY failed.label "失败">
 <!ENTITY downloads.title "下载">
 <!ENTITY cmd.pause.label "暂停">
@@ -18,7 +18,7 @@
 <!ENTITY cmd.show.accesskeyMac "F">
 <!ENTITY cmd.open.label "打开">
 <!ENTITY cmd.open.accesskey "O">
-<!ENTITY cmd.openWith.label "打开方式...">
+<!ENTITY cmd.openWith.label "打开方式…">
 <!ENTITY cmd.openWith.accesskey "h">
 <!ENTITY cmd.retry.label "重试">
 <!ENTITY cmd.retry.accesskey "R">

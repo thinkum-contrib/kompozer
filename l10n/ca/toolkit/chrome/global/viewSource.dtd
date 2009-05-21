@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label "Fitxer">
 <!ENTITY fileMenu.accesskey "F">
-<!ENTITY savePageCmd.label "Anomena i desa...">
+<!ENTITY savePageCmd.label "Anomena i desa…">
 <!ENTITY savePageCmd.accesskey "A">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Configuració de la pàgina...">
+<!ENTITY pageSetupCmd.label "Configuració de la pàgina…">
 <!ENTITY pageSetupCmd.accesskey "g">
 <!ENTITY printPreviewCmd.label "Exemple d'impressió">
 <!ENTITY printPreviewCmd.accesskey "x">
-<!ENTITY printCmd.label "Imprimeix...">
+<!ENTITY printCmd.label "Imprimeix…">
 <!ENTITY printCmd.accesskey "p">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Tanca">
@@ -29,7 +29,7 @@
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
 
-<!ENTITY goToLineCmd.label "Vés a la línia...">
+<!ENTITY goToLineCmd.label "Vés a la línia…">
 <!ENTITY goToLineCmd.accesskey "l">
 <!ENTITY goToLineCmd.commandkey "l">
 
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label "Restableix">
 <!ENTITY menu_textReset.accesskey "R">
 
-<!ENTITY findOnCmd.label     "Cerca en aquesta pàgina...">
+<!ENTITY findOnCmd.label     "Cerca en aquesta pàgina…">
 <!ENTITY findOnCmd.accesskey "i">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Torna a cercar">

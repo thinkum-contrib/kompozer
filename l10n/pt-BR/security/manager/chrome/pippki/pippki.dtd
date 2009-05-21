@@ -86,7 +86,7 @@
 
 <!-- Strings for the MismatchDomain dialog  -->
 <!ENTITY domainMismatch.title "Erro de segurança: nome de domínio não confere">
-<!ENTITY examineCert.label "Exibir certificado...">
+<!ENTITY examineCert.label "Exibir certificado…">
 <!ENTITY examineCert.accesskey "x">
 
 <!-- Strings for the Server cert expired dialog  -->
@@ -125,8 +125,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Gerando uma chave privada">
-<!ENTITY createCertInfo.msg1 "Geração de chave em andamento... Isto pode levar alguns minutos...">
-<!ENTITY createCertInfo.msg2 "Por favor, aguarde...">
+<!ENTITY createCertInfo.msg1 "Geração de chave em andamento… Isto pode levar alguns minutos…">
+<!ENTITY createCertInfo.msg2 "Por favor, aguarde…">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Text Signing Request">

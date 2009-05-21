@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth                 "39em">
 
 <!ENTITY  checking.title                   "Haetaan päivityksiä">
-<!ENTITY  checking.label                   "&brandShortName; hakee päivityksiä...">
+<!ENTITY  checking.label                   "&brandShortName; hakee päivityksiä…">
 
 <!ENTITY  cancel.label                     "Peruuta">
 <!ENTITY  cancel.accesskey                 "P">
@@ -42,8 +42,8 @@
 <!ENTITY  license.decline.accesskey       "E">
 
 <!ENTITY  downloading.title                "Ladataan päivitystä">
-<!ENTITY  downloading.intro                "Ladataan päivitystä...">
-<!ENTITY  connecting.label                 "Muodostetaan yhteyttä päivityspalvelimeen...">
+<!ENTITY  downloading.intro                "Ladataan päivitystä…">
+<!ENTITY  connecting.label                 "Muodostetaan yhteyttä päivityspalvelimeen…">
 <!ENTITY  verificationFailedText.label     "Päivityspaketti ei läpäissyt virheettömyystarkistusta, joten
                                             &brandShortName; lataa uuden version kokonaisuudessaan.">
 
@@ -78,7 +78,7 @@
 
 <!ENTITY  installed.title                  "Päivitys asennettiin">
 <!ENTITY  installed.intro                  "Päivityksen asennus onnistui.">
-<!ENTITY  whatsnew.label                   "Lue enemmän muutoksista...">
+<!ENTITY  whatsnew.label                   "Lue enemmän muutoksista…">
 
 <!ENTITY  update.details.label             "Yksityiskohdat">
 <!ENTITY  update.installedOn.label         "Asennusaika:">

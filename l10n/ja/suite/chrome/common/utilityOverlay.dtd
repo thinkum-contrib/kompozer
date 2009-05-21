@@ -37,7 +37,7 @@
 <!ENTITY selectAllCmd.label "すべて選択">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "a">
-<!ENTITY preferencesCmd.label "設定...">
+<!ENTITY preferencesCmd.label "設定…">
 <!ENTITY preferencesCmd.key "E">
 <!ENTITY preferencesCmd.accesskey "e">
 <!ENTITY findTypeTextCmd.label "テキストをタイプ検索">
@@ -67,7 +67,7 @@
 <!ENTITY pac.accesskey "A">
 <!ENTITY wpad.label "オンライン (プロキシ: 自動検出)">
 <!ENTITY wpad.accesskey "D">
-<!ENTITY proxy.label "プロキシ設定...">
+<!ENTITY proxy.label "プロキシ設定…">
 <!ENTITY proxy.accesskey "C">
 <!ENTITY bidiSwitchTextDirectionItem.label "テキストの書記方向を切り換え">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey "w">

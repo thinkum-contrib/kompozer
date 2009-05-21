@@ -11,15 +11,15 @@
 <!ENTITY mismatch.bottom.label "&brandShortName; può controllare se esistono versioni compatibili
                                            di questi componenti aggiuntivi.">
 <!ENTITY checking.wizard.title "Ricerca di componenti compatibili">
-<!ENTITY checking.top.label "Ricerca di aggiornamenti per i componenti incompatibili in corso...">
-<!ENTITY checking.status "Potrebbero essere necessari alcuni minuti di attesa...">
+<!ENTITY checking.top.label "Ricerca di aggiornamenti per i componenti incompatibili in corso…">
+<!ENTITY checking.status "Potrebbero essere necessari alcuni minuti di attesa…">
 <!ENTITY found.wizard.title "Componenti aggiuntivi compatibili trovati">
 <!ENTITY found.top.label "Selezionare i componenti aggiuntivi che si desidera installare:">
 <!ENTITY found.disabledXPinstall.label "Questi aggiornamenti non possono essere installati poiché l'installazione di software è stata disattivata. È possibile modificare questa impostazione qui sotto.">
 <!ENTITY found.enableXPInstall.label "Permetti ai siti web di installare software">
 <!ENTITY found.enableXPInstall.accesskey "P">
 <!ENTITY installing.wizard.title "Installazione in corso di componenti aggiuntivi compatibili">
-<!ENTITY installing.top.label "Download e installazione degli aggiornamenti ai componenti aggiuntivi...">
+<!ENTITY installing.top.label "Download e installazione degli aggiornamenti ai componenti aggiuntivi…">
 <!ENTITY noupdates.wizard.title "Nessun componente compatibile trovato">
 <!ENTITY noupdates.intro.desc "Impossibile trovare aggiornamenti per i componenti aggiuntivi incompatibili.">
 <!ENTITY noupdates.error.desc "Si sono verificati alcuni problemi nella ricerca di nuovi aggiornamenti.">
@@ -37,11 +37,11 @@
                                            Contattare il proprio amministratore di sistema per ricevere assistenza.">
 <!ENTITY versioninfo.wizard.title "Controllo compatibilità per i componenti aggiuntivi">
 <!ENTITY versioninfo.top.label "Controllo di compatibilità per i componenti aggiuntivi con questa versione di &brandShortName;.">
-<!ENTITY versioninfo.waiting "Potrebbero essere necessari alcuni minuti di attesa...">
+<!ENTITY versioninfo.waiting "Potrebbero essere necessari alcuni minuti di attesa…">
 <!ENTITY installerrors.wizard.title "Problemi nell'installazione degli aggiornamenti">
 <!ENTITY installerrors.intro.label "Si sono verificati dei problemi durante l'aggiornamento
                                            di alcuni componenti.">
 <!ENTITY clickFinish.label "Fare clic su Fine per continuare l'avvio di &brandShortName;.">
 <!ENTITY enableChecking.label "Permetti a &brandShortName; di cercare aggiornamenti.">
-<!ENTITY details.label "Dettagli...">
+<!ENTITY details.label "Dettagli…">
 <!ENTITY details.accesskey "D">

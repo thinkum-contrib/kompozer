@@ -3,9 +3,9 @@
 
 <!ENTITY done.label "Изтеглен">
 <!ENTITY canceled.label "Прекъснато изтегляне">
-<!ENTITY installing.label "Инсталиране...">
+<!ENTITY installing.label "Инсталиране…">
 
-<!ENTITY starting.label "Стартиране...">
+<!ENTITY starting.label "Стартиране…">
 <!ENTITY failed.label "Неуспешно изтегляне">
 
 <!ENTITY downloads.title "Изтегляне на файлове">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac "F">
 <!ENTITY cmd.open.label "Отваряне">
 <!ENTITY cmd.open.accesskey "О">
-<!ENTITY cmd.openWith.label "Отваряне с...">
+<!ENTITY cmd.openWith.label "Отваряне с…">
 <!ENTITY cmd.openWith.accesskey "с">
 <!ENTITY cmd.retry.label "Наново">
 <!ENTITY cmd.retry.accesskey "Н">

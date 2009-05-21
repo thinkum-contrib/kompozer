@@ -3,9 +3,9 @@
 
 <!ENTITY done.label                       "Hotovo">
 <!ENTITY canceled.label                   "Zrušené">
-<!ENTITY installing.label                 "Inštaluje sa...">
+<!ENTITY installing.label                 "Inštaluje sa…">
 
-<!ENTITY starting.label                   "Začína sa...">
+<!ENTITY starting.label                   "Začína sa…">
 <!ENTITY failed.label                     "Neúspešné">
 
 <!ENTITY downloads.title                  "Sťahované súbory">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac            "b">
 <!ENTITY cmd.open.label                   "Otvoriť">
 <!ENTITY cmd.open.accesskey               "O">
-<!ENTITY cmd.openWith.label               "Otvoriť pomocou...">
+<!ENTITY cmd.openWith.label               "Otvoriť pomocou…">
 <!ENTITY cmd.openWith.accesskey           "u">
 <!ENTITY cmd.retry.label                  "Znovu">
 <!ENTITY cmd.retry.accesskey              "n">

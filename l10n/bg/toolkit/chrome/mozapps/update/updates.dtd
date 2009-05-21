@@ -4,7 +4,7 @@
 <!ENTITY window.macWidth "39em">
 
 <!ENTITY checking.title "Проверяване за обновявания">
-<!ENTITY checking.label "&brandShortName; сега проверява за обновявания...">
+<!ENTITY checking.label "&brandShortName; сега проверява за обновявания…">
 
 <!ENTITY cancel.label "Прекъсване">
 <!ENTITY cancel.accesskey "П">
@@ -37,8 +37,8 @@
 <!ENTITY license.decline.accesskey "Н">
 
 <!ENTITY downloading.title "Изтегляне на обновяване">
-<!ENTITY downloading.intro "Изтегляне на обновяването...">
-<!ENTITY connecting.label "Свързване със сървъра за обновявания...">
+<!ENTITY downloading.intro "Изтегляне на обновяването…">
+<!ENTITY connecting.label "Свързване със сървъра за обновявания…">
 <!ENTITY verificationFailedText.label "&brandShortName; не можа да провери целостта на малкото обновяване, което бе изтеглено, така че сега се изтегля пълния пакет с обновявания.">
 
 <!ENTITY details.link "Подробности">
@@ -65,7 +65,7 @@
 
 <!ENTITY installed.title "Обновяването е инсталирано">
 <!ENTITY installed.intro "Обновяването беше успешно инсталирано.">
-<!ENTITY whatsnew.label "Повече за това какво е новото...">
+<!ENTITY whatsnew.label "Повече за това какво е новото…">
 
 <!ENTITY update.details.label "Подробности">
 <!ENTITY update.installedOn.label "Инсталирано на:">

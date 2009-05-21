@@ -35,9 +35,9 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY print.label "Stampa...">
+<!ENTITY print.label "Stampa…">
 <!ENTITY print.accesskey "S">
-<!ENTITY pageSetup.label "Imposta pagina...">
+<!ENTITY pageSetup.label "Imposta pagina…">
 <!ENTITY pageSetup.accesskey "I">
 <!ENTITY page.label "Pagina:">
 <!ENTITY page.accesskey "a">
@@ -63,9 +63,9 @@
 <!ENTITY p150.label "150&#037;">
 <!ENTITY p175.label "175&#037;">
 <!ENTITY p200.label "200&#037;">
-<!ENTITY Custom.label "Personalizza...">
+<!ENTITY Custom.label "Personalizza…">
 <!ENTITY ShrinkToFit.label "Adatta alla pagina">
-<!ENTITY customPrompt.title "Scala personalizzata...">
+<!ENTITY customPrompt.title "Scala personalizzata…">
 <!ENTITY homearrow.tooltip "Prima pagina">
 <!ENTITY endarrow.tooltip "Ultima pagina">
 <!ENTITY rightarrow.tooltip "Pagina successiva">

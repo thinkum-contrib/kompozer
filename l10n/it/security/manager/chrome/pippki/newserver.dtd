@@ -41,7 +41,7 @@
 <!ENTITY newserver.reason1 "- Questo browser non riconosce l'Autorità di Certificazione (CA) che ha emesso il certificato del sito.">
 <!ENTITY newserver.reason2 "- Il certificato del sito è incompleto a causa di una configurazione errata del server.">
 <!ENTITY newserver.notify "Contattare il webmaster per informarlo del problema.">
-<!ENTITY newserver.examine "Esamina certificato...">
+<!ENTITY newserver.examine "Esamina certificato…">
 <!ENTITY newserver.remember "Accetta questo certificato in modo permanente">
 <!ENTITY newserver.session "Accetta questo certificato limitatamente a questa sessione">
 <!ENTITY newserver.refuse "Non accettare questo certificato e non connettersi a questo sito web">

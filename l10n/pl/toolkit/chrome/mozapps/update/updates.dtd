@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth                 "39em">                               
 
 <!ENTITY  checking.title                  "Sprawdzanie aktualizacji">
-<!ENTITY  checking.label                  "&brandShortName; sprawdza, czy są dostępne aktualizacje...">
+<!ENTITY  checking.label                  "&brandShortName; sprawdza, czy są dostępne aktualizacje…">
 
 <!ENTITY  cancel.label                    "Anuluj">
 <!ENTITY  cancel.accesskey                "A">
@@ -15,7 +15,7 @@
 
 <!ENTITY  moreDetails.label               "Wiecej szczegółów &#0187;">
 <!ENTITY  moreDetails.accesskey           "g">
-<!ENTITY  clickHere.label                 "Wyświetl więcej informacji o tej aktualizacji...">
+<!ENTITY  clickHere.label                 "Wyświetl więcej informacji o tej aktualizacji…">
 
 <!ENTITY  incompatible.warning            "Ta aktualizacja spowoduje, że niektóre z rozszerzeń lub motywów przestaną działać, dopóki nie zostaną zaktualizowane.">
 <!ENTITY  listIncompatible.label          "Pokaż listę">
@@ -37,8 +37,8 @@
 
 <!ENTITY  downloading.title               "Pobieranie aktualizacji">
 
-<!ENTITY  downloading.intro               "Trwa pobieranie aktualizacji...">
-<!ENTITY  connecting.label                "Łączenie z serwerem aktualizacji...">
+<!ENTITY  downloading.intro               "Trwa pobieranie aktualizacji…">
+<!ENTITY  connecting.label                "Łączenie z serwerem aktualizacji…">
 <!ENTITY  verificationFailedText.label    "Nie udało się potwierdzić integralności pobranej aktualizacji. Rozpoczęto pobieranie całego programu.">
 
 <!ENTITY  details.link                    "Szczegóły">
@@ -66,7 +66,7 @@
 
 <!ENTITY  installed.title                 "Aktualizacja zainstalowana">  
 <!ENTITY  installed.intro                 "Instalacja aktualizacji zakończyła się powodzeniem.">
-<!ENTITY  whatsnew.label                  "Spis najważniejszych zmian..."> 
+<!ENTITY  whatsnew.label                  "Spis najważniejszych zmian…"> 
 
 <!ENTITY  update.details.label            "Szczegóły">
 <!ENTITY  update.installedOn.label        "Zainstalowano:">

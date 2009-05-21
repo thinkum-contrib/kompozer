@@ -41,7 +41,7 @@
 <!ENTITY newserver.reason1 "- Program nerozpoznal certifikační autoritu, která vydala certifikát tohoto serveru.">
 <!ENTITY newserver.reason2 "- Certifikát serveru není kompletní kvůli špatné konfigurace serveru.">
 <!ENTITY newserver.notify "Informujte prosím o tomto problému správce serveru.">
-<!ENTITY newserver.examine "Prozkoumat certifikát...">
+<!ENTITY newserver.examine "Prozkoumat certifikát…">
 <!ENTITY newserver.remember "Přijmout tento certifikát natrvalo">
 <!ENTITY newserver.session "Přijmout tento certifikát dočasně pro tuto relaci">
 <!ENTITY newserver.refuse "Nepřijmout tento certifikát a nepřipojit se k tomuto serveru">

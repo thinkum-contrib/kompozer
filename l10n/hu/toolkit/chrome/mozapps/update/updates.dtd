@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth                 "39em">
 
 <!ENTITY  checking.title                  "Frissítések keresése">
-<!ENTITY  checking.label                  "A &brandShortName; keresi a rendelkezésre álló frissítéseket...">
+<!ENTITY  checking.label                  "A &brandShortName; keresi a rendelkezésre álló frissítéseket…">
 
 <!ENTITY  cancel.label                    "Mégse">
 <!ENTITY cancel.accesskey                "M">
@@ -42,8 +42,8 @@
 <!ENTITY license.decline.accesskey       "N">
 
 <!ENTITY  downloading.title               "Frissítés letöltése">
-<!ENTITY  downloading.intro               "Frissítés letöltése...">
-<!ENTITY  connecting.label                "Kapcsolódás a kiszolgálóhoz...">
+<!ENTITY  downloading.intro               "Frissítés letöltése…">
+<!ENTITY  connecting.label                "Kapcsolódás a kiszolgálóhoz…">
 <!ENTITY  verificationFailedText.label    "A &brandShortName; nem tudta ellenőrizni a letöltött inkrementális
                                            frissítés sértetlenségét, ezért most kénytelen a teljes frissítési
                                            csomagot letölteni.">
@@ -77,7 +77,7 @@
 
 <!ENTITY  installed.title                 "Frissítés telepítve">
 <!ENTITY  installed.intro                 "A frissítés sikeresen telepítve lett.">
-<!ENTITY  whatsnew.label                  "Olvassa el az újdonságok ismertetését...">
+<!ENTITY  whatsnew.label                  "Olvassa el az újdonságok ismertetését…">
 
 <!ENTITY  update.details.label            "Részletek">
 <!ENTITY  update.installedOn.label        "Telepítve:">

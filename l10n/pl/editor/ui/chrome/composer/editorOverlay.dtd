@@ -48,14 +48,14 @@
 <!ENTITY filemenu.accesskey "P" >
 <!ENTITY newBlankPageCmd.label "Strona w nowym oknie" >
 <!ENTITY newBlankPage.accesskey "s" >
-<!ENTITY newOtherCmd.label "Więcej opcji...">
+<!ENTITY newOtherCmd.label "Więcej opcji…">
 
 <!ENTITY newMenu.label "Nowy" >
 <!ENTITY newTab.label "Strona w nowym panelu">
-<!ENTITY openFileCmd.label "Otwórz plik..." >
+<!ENTITY openFileCmd.label "Otwórz plik…" >
 <!ENTITY fileopen.accesskey "o" >
 <!ENTITY fileopen.keybinding "o" >
-<!ENTITY openremoteCmd.label "Otwórz adres internetowy..." >
+<!ENTITY openremoteCmd.label "Otwórz adres internetowy…" >
 <!ENTITY fileopenremote.accesskey "i" >
 <!ENTITY fileopenremote.keybinding "l" >
 <!ENTITY fileRecentMenu.label "Ostatnio edytowane strony" >
@@ -66,13 +66,13 @@
 <!ENTITY saveCmd.label "Zapisz" >
 <!ENTITY filesave.accesskey "p" >
 <!ENTITY filesave.keybinding "s" >
-<!ENTITY saveAsCmd.label "Zapisz jako..." >
+<!ENTITY saveAsCmd.label "Zapisz jako…" >
 <!ENTITY filesaveas.accesskey "a" >
 <!ENTITY publishCmd.label "Publikuj" >
 <!ENTITY publishcmd.accesskey "b" >
-<!ENTITY publishAsCmd.label "Opublikuj jako..." >
+<!ENTITY publishAsCmd.label "Opublikuj jako…" >
 <!ENTITY publishas.accesskey "j" >
-<!ENTITY exportToTextCmd.label "Eksportuj do formatu tekstowego..." >
+<!ENTITY exportToTextCmd.label "Eksportuj do formatu tekstowego…" >
 <!ENTITY fileexporttotext.accesskey "t" >
 <!ENTITY saveAsChangeEncodingCmd.label "Zapisz i zmień kodowanie znaków" >
 <!ENTITY filesaveandchangeencoding.accesskey "E" >
@@ -82,14 +82,14 @@
 <!ENTITY refreshImages.label "Odśwież obrazki">
 <!ENTITY refreshImages.accesskey "O">
 
-<!ENTITY sendPageCmd.label "Wyślij stronę..." >
+<!ENTITY sendPageCmd.label "Wyślij stronę…" >
 <!ENTITY sendPage.accesskey "s" >
-<!ENTITY printSetupCmd.label "Ustawienia strony..." >
+<!ENTITY printSetupCmd.label "Ustawienia strony…" >
 <!ENTITY fileprintsetup.accesskey "U" >
 <!ENTITY printPreviewCmd.label "Podgląd wydruku" >
 <!ENTITY fileprintpreview.accesskey "l" >
-<!ENTITY printCmd.label "Drukuj..." >
-<!ENTITY printButtonCmd.label "Drukuj..." >
+<!ENTITY printCmd.label "Drukuj…" >
+<!ENTITY printButtonCmd.label "Drukuj…" >
 <!ENTITY fileprint.accesskey "D" >
 <!ENTITY fileprint.keybinding "p" >
 <!ENTITY closeCmd.label "Zamknij" >
@@ -105,7 +105,7 @@
 <!ENTITY pasteNoFormatting.accesskey "W" >
 <!ENTITY pasteAs.label "Wklej jako" >
 <!ENTITY pasteAs.accesskey "a" >
-<!ENTITY publishSettings.label "Ustawienia miejsc publikacji..." >
+<!ENTITY publishSettings.label "Ustawienia miejsc publikacji…" >
 <!ENTITY publishSettings.accesskey "b" >
 <!ENTITY detachFromTemplate.label "Odłącz od szablonu">
 
@@ -127,7 +127,7 @@
 <!ENTITY editpastequotation.keybinding "v" >
 <!ENTITY editStripQuotesCmd.label "Usuń cytaty" >
 <!ENTITY editRewrapCmd.label "Zawiń wiersze" >
-<!ENTITY findCmd.label "Znajdź i zamień..." >
+<!ENTITY findCmd.label "Znajdź i zamień…" >
 <!ENTITY editfind.accesskey "m" >
 <!ENTITY editfind.keybinding "f" >
 <!ENTITY editfind.keybinding2 "VK_F19" >
@@ -166,30 +166,30 @@
 
 <!ENTITY insertMenu.label "Wstaw" >
 <!ENTITY insertmenu.accesskey "s" >
-<!ENTITY insertLinkCmd.label "Odnośnik..." >
+<!ENTITY insertLinkCmd.label "Odnośnik…" >
 <!ENTITY insertlink.accesskey "O" >
 <!ENTITY insertlink.keybinding "l" >
-<!ENTITY insertAnchorCmd.label "Kotwicę..." >
+<!ENTITY insertAnchorCmd.label "Kotwicę…" >
 <!ENTITY insertanchor.accesskey "K" >
-<!ENTITY insertImageCmd.label "Obrazek..." >
+<!ENTITY insertImageCmd.label "Obrazek…" >
 <!ENTITY insertimage.accesskey "b" >
-<!ENTITY insertImageMapCmd.label "Mapę obrazka..." >
+<!ENTITY insertImageMapCmd.label "Mapę obrazka…" >
 <!ENTITY insertHLineCmd.label "Linię poziomą" >
 <!ENTITY inserthline.accesskey "L" >
-<!ENTITY insertTableCmd.label "Tabelę..." >
+<!ENTITY insertTableCmd.label "Tabelę…" >
 <!ENTITY inserttable.accesskey "t" >
 <!ENTITY insertFormMenu.label "Formularz" >
 <!ENTITY insertformmenu.accesskey "F" >
-<!ENTITY insertHTMLCmd.label "HTML..." >
+<!ENTITY insertHTMLCmd.label "HTML…" >
 <!ENTITY insertHTMLCmd.accesskey "h" >
-<!ENTITY insertCharsCmd.label "Znaki i symbole..." >
+<!ENTITY insertCharsCmd.label "Znaki i symbole…" >
 <!ENTITY insertchars.accesskey "Z" >
 <!ENTITY insertBreakCmd.label "Podział wiersza" >
 <!ENTITY insertbreak.accesskey "b" >
 <!ENTITY insertBreakAllCmd.label "Linię podziału poniżej obrazka" >
 <!ENTITY insertbreakall.accesskey "p" >
 
-<!ENTITY insertNbspCmd.label "Twarda spacja...">
+<!ENTITY insertNbspCmd.label "Twarda spacja…">
 <!ENTITY insertNbsp.accesskey "w">
 
 <!ENTITY insertPHPCode.label "Kod PHP">
@@ -198,25 +198,25 @@
 <!ENTITY insertcomment.accesskey "k">
 
 
-<!ENTITY insertFormCmd.label "Zdefiniuj formularz..." >
+<!ENTITY insertFormCmd.label "Zdefiniuj formularz…" >
 <!ENTITY insertform.accesskey "D" >
-<!ENTITY insertInputTagCmd.label "Pole formularza..." >
+<!ENTITY insertInputTagCmd.label "Pole formularza…" >
 <!ENTITY insertinputtag.accesskey "f" >
-<!ENTITY insertInputImageCmd.label "Obrazek formularza..." >
+<!ENTITY insertInputImageCmd.label "Obrazek formularza…" >
 <!ENTITY insertinputimage.accesskey "O" >
-<!ENTITY insertTextAreaCmd.label "Pole tekstowe..." >
+<!ENTITY insertTextAreaCmd.label "Pole tekstowe…" >
 <!ENTITY inserttextarea.accesskey "t" >
-<!ENTITY insertSelectCmd.label "Lista wyboru..." >
+<!ENTITY insertSelectCmd.label "Lista wyboru…" >
 <!ENTITY insertselect.accesskey "L" >
-<!ENTITY insertButtonCmd.label "Zdefiniuj przycisk..." >
+<!ENTITY insertButtonCmd.label "Zdefiniuj przycisk…" >
 <!ENTITY insertbutton.accesskey "p" >
 <!ENTITY insertLabelCmd.label "Zdefiniuj etykietę" >
 <!ENTITY insertlabel.accesskey "e" >
-<!ENTITY insertFieldSetCmd.label "Zdefiniuj zestaw pól..." >
+<!ENTITY insertFieldSetCmd.label "Zdefiniuj zestaw pól…" >
 <!ENTITY insertfieldset.accesskey "z" >
 <!ENTITY insertIsIndexCmd.label "Indeks wyszukiwania" >
 <!ENTITY insertisindex.accesskey "I" >
-<!ENTITY createLinkCmd.label "Wstaw odnośnik..." >
+<!ENTITY createLinkCmd.label "Wstaw odnośnik…" >
 <!ENTITY createlink.accesskey "o" >
 <!ENTITY editLinkCmd.label "Edytuj odnośnik w nowym oknie &brandShortName;" >
 <!ENTITY editlink.accesskey "i" >
@@ -311,9 +311,9 @@
 <!ENTITY styleSamp.accesskey "y" >
 <!ENTITY styleVar.label "Zmienna" >
 <!ENTITY styleVar.accesskey "Z" >
-<!ENTITY formatFontColor.label "Kolor tekstu..." >
+<!ENTITY formatFontColor.label "Kolor tekstu…" >
 <!ENTITY formatfontcolor.accesskey "K" >
-<!ENTITY tableOrCellColor.label "Kolor tła komórki lub tabeli..." >
+<!ENTITY tableOrCellColor.label "Kolor tła komórki lub tabeli…" >
 <!ENTITY tableOrCellColor.accesskey "K" >
 <!ENTITY formatremovestyles.keybinding "Z" >
 <!ENTITY formatremovelinks.keybinding "k" >
@@ -362,7 +362,7 @@
 <!ENTITY listterm.accesskey "P" >
 <!ENTITY listDefinitionCmd.label "Definicja" >
 <!ENTITY listdefinition.accesskey "D" >
-<!ENTITY listProps.label "Właściwości listy..." >
+<!ENTITY listProps.label "Właściwości listy…" >
 <!ENTITY listprops.accesskey "i" >
 <!ENTITY ParagraphSelect.tooltip "Wybierz format akapitu" >
 <!ENTITY bodyTextCmd.label "Treść" >
@@ -410,9 +410,9 @@
 
 <!ENTITY grid.label "Siatka" >
 <!ENTITY grid.accesskey "t" >
-<!ENTITY pageProperties.label "Właściwości i tytuł strony..." >
+<!ENTITY pageProperties.label "Właściwości i tytuł strony…" >
 <!ENTITY pageproperties.accesskey "o" >
-<!ENTITY colorsAndBackground.label "Kolory strony i tło..." >
+<!ENTITY colorsAndBackground.label "Kolory strony i tło…" >
 <!ENTITY colorsandbackground.accesskey "y" >
 <!ENTITY tableMenu.label "Tabela" >
 <!ENTITY tablemenu.accesskey "T" >
@@ -457,7 +457,7 @@
 <!ENTITY tablesplitcell.accesskey "d" >
 <!ENTITY convertToTable.label "Utwórz tabelę z zaznaczenia" >
 <!ENTITY converttotable.accesskey "b" >
-<!ENTITY tableProperties.label "Właściwości tabeli..." >
+<!ENTITY tableProperties.label "Właściwości tabeli…" >
 <!ENTITY tableProperties.accesskey "t" >
 <!ENTITY toolsmenu.accesskey "l" >
 <!ENTITY toolbrowser.accesskey "b" >
@@ -575,7 +575,7 @@
 <!ENTITY updateTOC.accesskey "u" >
 <!ENTITY removeTOC.label "Usuń" >
 <!ENTITY removeTOC.accesskey "U" >
-<!ENTITY tocMenu.label "Spis treści..." >
+<!ENTITY tocMenu.label "Spis treści…" >
 <!ENTITY tocMenu.accesskey "S" >
 
 <!-- Smart Widgets menu -->

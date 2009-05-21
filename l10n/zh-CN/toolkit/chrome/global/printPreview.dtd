@@ -1,8 +1,8 @@
-<!ENTITY Custom.label "定制...">
+<!ENTITY Custom.label "定制…">
 <!ENTITY ShrinkToFit.label "调整到适合">
 <!ENTITY close.accesskey "C">
 <!ENTITY close.label "关闭">
-<!ENTITY customPrompt.title "定制尺寸...">
+<!ENTITY customPrompt.title "定制尺寸…">
 <!ENTITY endarrow.tooltip "末页">
 <!ENTITY homearrow.tooltip "第一页">
 <!ENTITY landscape.accesskey "L">
@@ -24,12 +24,12 @@
 <!ENTITY page.accesskey "a">
 <!ENTITY page.label "第">
 <!ENTITY pageSetup.accesskey "u">
-<!ENTITY pageSetup.label "页面设置...">
+<!ENTITY pageSetup.label "页面设置…">
 <!ENTITY percent.label "&#037;">
 <!ENTITY portrait.accesskey "o">
 <!ENTITY portrait.label "纵向">
 <!ENTITY print.accesskey "P">
-<!ENTITY print.label "打印...">
+<!ENTITY print.label "打印…">
 <!ENTITY rightarrow.tooltip "下页">
 <!ENTITY scale.accesskey "S">
 <!ENTITY scale.label "尺寸：">

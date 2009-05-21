@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label "Fájl">
 <!ENTITY fileMenu.accesskey "F">
-<!ENTITY savePageCmd.label "Oldal mentése...">
+<!ENTITY savePageCmd.label "Oldal mentése…">
 <!ENTITY savePageCmd.accesskey "m">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Oldalbeállítás...">
+<!ENTITY pageSetupCmd.label "Oldalbeállítás…">
 <!ENTITY pageSetupCmd.accesskey "O">
 <!ENTITY printPreviewCmd.label "Nyomtatási kép">
 <!ENTITY printPreviewCmd.accesskey "t">
-<!ENTITY printCmd.label "Nyomtatás...">
+<!ENTITY printCmd.label "Nyomtatás…">
 <!ENTITY printCmd.accesskey "N">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Bezárás">
@@ -29,7 +29,7 @@
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
 
-<!ENTITY goToLineCmd.label "Ugrás sorra...">
+<!ENTITY goToLineCmd.label "Ugrás sorra…">
 <!ENTITY goToLineCmd.accesskey "U">
 <!ENTITY goToLineCmd.commandkey "l">
 
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label "Normál">
 <!ENTITY menu_textReset.accesskey "o">
 
-<!ENTITY findOnCmd.label     "Keresés ezen az oldalon...">
+<!ENTITY findOnCmd.label     "Keresés ezen az oldalon…">
 <!ENTITY findOnCmd.accesskey "e">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Következő keresése">

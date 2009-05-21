@@ -40,14 +40,14 @@
 
 
 <!ENTITY resetsettings.label "Reinicia els paràmetres">
-<!ENTITY resetpreferences.label "Reinicia les preferències...">
+<!ENTITY resetpreferences.label "Reinicia les preferències…">
 <!ENTITY managecerts.caption "Gestiona els certificats">
 <!ENTITY managecerts.text "Utilitzeu el gestor de certificats per a gestionar els vostres certificats personals, així com els d'altres persones i entitats certificadores.">
-<!ENTITY managecerts.button "Gestiona els certificats...">
+<!ENTITY managecerts.button "Gestiona els certificats…">
 <!ENTITY managecerts.accesskey "G">
 <!ENTITY managedevices.caption "Gestiona els dispositius de seguretat">
 <!ENTITY managedevices.text "Utilitzeu aquest botó per a gestionar els vostres dispositius de seguretat, com ara les targetes intel·ligents.">
-<!ENTITY managedevices.button "Gestiona els dispositius de seguretat...">
+<!ENTITY managedevices.button "Gestiona els dispositius de seguretat…">
 <!ENTITY managedevices.accesskey "s">
 
 <!ENTITY ssl.label "SSL">

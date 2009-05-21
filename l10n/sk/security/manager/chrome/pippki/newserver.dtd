@@ -41,7 +41,7 @@
 <!ENTITY newserver.reason1 "- Váš prehliadač nespoznal certifikačnú autoritu, ktorá vydala certifikát servera.">
 <!ENTITY newserver.reason2 "- Certifikát servera je nekompletný z dôvodu nesprávnej konfigurácie servera.">
 <!ENTITY newserver.notify "Informujte prosím správcu servera o tomto probléme.">
-<!ENTITY newserver.examine "Prezrieť certifikát...">
+<!ENTITY newserver.examine "Prezrieť certifikát…">
 <!ENTITY newserver.remember "Akceptovať tento certifikát natrvalo">
 <!ENTITY newserver.session "Akceptovať tento certifikát iba pre túto reláciu">
 <!ENTITY newserver.refuse "Neakceptovať tento certifikát a nepripájať sa k tomuto serveru">

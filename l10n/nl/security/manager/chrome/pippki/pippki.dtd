@@ -124,8 +124,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Bezig met genereren van een privésleutel">
-<!ENTITY createCertInfo.msg1 "Bezig met genereren van sleutel... Dit kan enkele minuten duren...">
-<!ENTITY createCertInfo.msg2 "Even geduld alstublieft...">
+<!ENTITY createCertInfo.msg1 "Bezig met genereren van sleutel… Dit kan enkele minuten duren…">
+<!ENTITY createCertInfo.msg2 "Even geduld alstublieft…">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Tekstondertekeningsverzoek">

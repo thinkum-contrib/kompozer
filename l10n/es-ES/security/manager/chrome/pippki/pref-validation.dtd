@@ -38,7 +38,7 @@
 <!ENTITY pref.validation.title "Validación">
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "Utilice el administrador de CRLs para administrar las listas de certificados revocados (CRL) que estén guardadas en su base de datos de certificados.">
-<!ENTITY validation.managecrls.button "Administrar CRLs...">
+<!ENTITY validation.managecrls.button "Administrar CRLs…">
 <!ENTITY validation.managecrls.accesskey "M">
 <!ENTITY validation.crlmanager.label "Administrar CRLs">
 <!ENTITY validation.crlname.label "Nombre">

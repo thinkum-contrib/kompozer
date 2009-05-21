@@ -124,8 +124,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title  "Luodaan salaista avainta">
-<!ENTITY createCertInfo.msg1  "Avaimen luonti käynnissä... Tämä saattaa kestää muutaman minuutin....">
-<!ENTITY createCertInfo.msg2  "Odota...">
+<!ENTITY createCertInfo.msg1  "Avaimen luonti käynnissä… Tämä saattaa kestää muutaman minuutin….">
+<!ENTITY createCertInfo.msg2  "Odota…">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title  "Tekstin allekirjoituspyyntö">

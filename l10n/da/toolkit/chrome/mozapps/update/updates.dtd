@@ -4,7 +4,7 @@
 <!ENTITY window.macWidth                 "39em">
 
 <!ENTITY checking.title                  "Søger efter opdateringer">
-<!ENTITY checking.label                  "&brandShortName; leder nu efter opdateringer...">
+<!ENTITY checking.label                  "&brandShortName; leder nu efter opdateringer…">
 
 <!ENTITY cancel.label                    "Annuller">
 <!ENTITY cancel.accesskey                "A">
@@ -39,8 +39,8 @@
 <!ENTITY  license.decline.accesskey       "I">
 
 <!ENTITY downloading.title               "Downloader opdatering">
-<!ENTITY downloading.intro               "Downloader updateringen...">
-<!ENTITY connecting.label                "Forbinder til opdateringsserver...">
+<!ENTITY downloading.intro               "Downloader updateringen…">
+<!ENTITY connecting.label                "Forbinder til opdateringsserver…">
 <!ENTITY verificationFailedText.label    "&brandShortName; var ikke i stand til at verificere korrektheden af versionsopdateringen, som blev downloadet, så den henter nu i stedet den komplette opdateringspakke.">
 
 <!ENTITY details.link                    "Detaljer">
@@ -72,7 +72,7 @@
 
 <!ENTITY installed.title                 "Opdatering installeret">
 <!ENTITY installed.intro                 "Opdateringen blev korrekt installeret.">
-<!ENTITY whatsnew.label                  "Læs mere om hvad der er nyt...">
+<!ENTITY whatsnew.label                  "Læs mere om hvad der er nyt…">
 
 <!ENTITY update.details.label            "Detaljer">
 <!ENTITY update.installedOn.label        "Installeret på:">

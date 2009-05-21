@@ -22,14 +22,14 @@
   -->
 
 <!ENTITY  resetsettings.label    "Ponastavi nastavitve">
-<!ENTITY  resetpreferences.label "Ponastavi lastnosti ...">
+<!ENTITY  resetpreferences.label "Ponastavi lastnosti …">
 <!ENTITY  managecerts.caption      "Upravljanje certifikatov">
 <!ENTITY  managecerts.text       "Upravitelja certifikatov uporabljate za urejanje vaših osebnih certifikatov, kot tudi certifikatov drugih ljudi in uradnih oseb za certifikate (CA).">
-<!ENTITY  managecerts.button     "Upravljaj certifikate ...">
+<!ENTITY  managecerts.button     "Upravljaj certifikate …">
 <!ENTITY  managecerts.accesskey  "t">
 <!ENTITY  managedevices.caption    "Upravljanje varnostne naprave">
 <!ENTITY  managedevices.text     "Uporabite ta gumb za upravljanje vaših varnostnih naprav, kot so 'pametne kartice' (smart cards).">
-<!ENTITY  managedevices.button   "Upravljaj varnostne naprave ...">
+<!ENTITY  managedevices.button   "Upravljaj varnostne naprave …">
 <!ENTITY  managedevices.accesskey   "S">
 
 <!ENTITY  ssl.label              "SSL">

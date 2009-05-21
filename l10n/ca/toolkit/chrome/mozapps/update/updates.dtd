@@ -4,7 +4,7 @@
 <!ENTITY  window.macWidth                 "45em">
 
 <!ENTITY  checking.title                  "S'està comprovant si hi ha actualitzacions">
-<!ENTITY  checking.label                  "El &brandShortName; està comprovant si hi ha actualitzacions...">
+<!ENTITY  checking.label                  "El &brandShortName; està comprovant si hi ha actualitzacions…">
 
 <!ENTITY  cancel.label                    "Cancel·la">
 <!ENTITY  cancel.accesskey                "C">
@@ -42,8 +42,8 @@
 <!ENTITY  license.decline.accesskey       "N">
 
 <!ENTITY  downloading.title               "S'està baixant l'actualització">
-<!ENTITY  downloading.intro               "S'està baixant l'actualització...">
-<!ENTITY  connecting.label                "S'està connectant al servidor d'actualitzacions...">
+<!ENTITY  downloading.intro               "S'està baixant l'actualització…">
+<!ENTITY  connecting.label                "S'està connectant al servidor d'actualitzacions…">
 <!ENTITY  verificationFailedText.label    "El &brandShortName; no ha pogut verificar la integritat 
                                            de l'actualització incremental que ha baixat, per això, ara està baixant-se
                                            el paquet d'actualització complet.">
@@ -78,7 +78,7 @@
 
 <!ENTITY  installed.title                 "L'actualització s'ha instal·lat">
 <!ENTITY  installed.intro                 "L'actualització s'ha instal·lat amb èxit.">
-<!ENTITY  whatsnew.label                  "Llegiu-ne més quant a les novetats...">
+<!ENTITY  whatsnew.label                  "Llegiu-ne més quant a les novetats…">
 
 <!ENTITY  update.details.label            "Detalls">
 <!ENTITY  update.installedOn.label        "Instal·lat el:">

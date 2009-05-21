@@ -3,7 +3,7 @@
 <!ENTITY actionQuestion.label "¿Qué debería hacer &brandShortName; con este archivo?">
 <!ENTITY openWith.label "Abrir con">
 <!ENTITY openWith.accesskey "o">
-<!ENTITY other.label "Otros...">
+<!ENTITY other.label "Otros…">
 <!ENTITY save.label "Guardar en disco">
 <!ENTITY save.accesskey "G">
 <!ENTITY rememberChoice.label "Hacer esto automáticamente para los archivos como éste de ahora en adelante.">
@@ -12,8 +12,8 @@
 <!ENTITY settingsChangeMac.label "La configuración se puede cambiar en la sección de descargas de &brandShortName;, preferencias.">
 <!ENTITY settingsChangeUnix.label "La configuración se puede cambiar en la sección de descargas de Editar, preferencias.">
 <!ENTITY whichIsA.label "el cual es un:">
-<!ENTITY chooseHandlerMac.label "Elegir...">
+<!ENTITY chooseHandlerMac.label "Elegir…">
 <!ENTITY chooseHandlerMac.accesskey "E">
-<!ENTITY chooseHandler.label "Examinar...">
+<!ENTITY chooseHandler.label "Examinar…">
 <!ENTITY chooseHandler.accesskey "x">
 <!ENTITY unknownPromptText.label "¿Le gustaría guardar este archivo?">

@@ -10,14 +10,14 @@
 
 <!ENTITY fileMenu.label "Datoteka">
 <!ENTITY fileMenu.accesskey "D">
-<!ENTITY savePageCmd.label "Shrani stran kot ...">
+<!ENTITY savePageCmd.label "Shrani stran kot …">
 <!ENTITY savePageCmd.accesskey "A">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Nastavitve strani ...">
+<!ENTITY pageSetupCmd.label "Nastavitve strani …">
 <!ENTITY pageSetupCmd.accesskey "v">
 <!ENTITY printPreviewCmd.label "Predogled tiskanja">
 <!ENTITY printPreviewCmd.accesskey "g">
-<!ENTITY printCmd.label "Natisni ...">
+<!ENTITY printCmd.label "Natisni …">
 <!ENTITY printCmd.accesskey "N">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Zapri">
@@ -29,7 +29,7 @@
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
 
-<!ENTITY goToLineCmd.label "Pojdi v vrstico ...">
+<!ENTITY goToLineCmd.label "Pojdi v vrstico …">
 <!ENTITY goToLineCmd.accesskey "j">
 <!ENTITY goToLineCmd.commandkey "l">
 
@@ -51,7 +51,7 @@
 <!ENTITY menu_textReset.label "Običajna velikost">
 <!ENTITY menu_textReset.accesskey "O">
 
-<!ENTITY findOnCmd.label     "Najdi na strani ...">
+<!ENTITY findOnCmd.label     "Najdi na strani …">
 <!ENTITY findOnCmd.accesskey "N">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label  "Ponovno najdi">

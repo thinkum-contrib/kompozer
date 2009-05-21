@@ -243,20 +243,20 @@
     <nc:subheadings>
       <rdf:Seq>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-new-window" nc:name="Nowy" nc:link="menu_reference.xhtml#new_window"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-file" nc:name="Otwórz plik..." nc:link="menu_reference.xhtml#open_file"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-web-location" nc:name="Otwórz adres internetowy..." nc:link="menu_reference.xhtml#open_web_location"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-file" nc:name="Otwórz plik…" nc:link="menu_reference.xhtml#open_file"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-file-open-web-location" nc:name="Otwórz adres internetowy…" nc:link="menu_reference.xhtml#open_web_location"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-recent-pages" nc:name="Ostatnio edytowane strony" nc:link="menu_reference.xhtml#recent_pages"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-close" nc:name="Zamknij" nc:link="menu_reference.xhtml#close"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-close-all" nc:name="Zamknij wszystkie" nc:link="menu_reference.xhtml#close_all"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-save" nc:name="Zapisz" nc:link="menu_reference.xhtml#save"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as" nc:name="Zapisz jako..." nc:link="menu_reference.xhtml#save_as"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as" nc:name="Zapisz jako…" nc:link="menu_reference.xhtml#save_as"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-save-as-charset" nc:name="Zapisz i zmień kodowanie znaków" nc:link="menu_reference.xhtml#save_as_charset"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-publish" nc:name="Publikuj" nc:link="menu_reference.xhtml#publish"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-publish-as" nc:name="Publikuj jako" nc:link="menu_reference.xhtml#publish_as"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-revert" nc:name="Przywróć" nc:link="menu_reference.xhtml#revert"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-file-export-to-text" nc:name="Eksportuj do formatu tekstowego..." nc:link="menu_reference.xhtml#export_to_text"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-file-export-to-text" nc:name="Eksportuj do formatu tekstowego…" nc:link="menu_reference.xhtml#export_to_text"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-browse-page" nc:name="Otwórz stronę w przeglądarce" nc:link="menu_reference.xhtml#browse_page"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-file-page-setup" nc:name="Ustawienia strony..." nc:link="menu_reference.xhtml#page_setup"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-file-page-setup" nc:name="Ustawienia strony…" nc:link="menu_reference.xhtml#page_setup"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-print-preview" nc:name="Podgląd wydruku" nc:link="menu_reference.xhtml#print_preview"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-print" nc:name="Drukuj" nc:link="menu_reference.xhtml#print"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-file-quit" nc:name="Zakończ" nc:link="menu_reference.xhtml#exit"/> </rdf:li>
@@ -275,7 +275,7 @@
         <rdf:li> <rdf:Description ID="comp-doc-menu-edit-paste-without-formatting" nc:name="Wklej bez formatowania" nc:link="menu_reference.xhtml#paste_without_formatting"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-edit-delete" nc:name="Usuń" nc:link="menu_reference.xhtml#delete"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-edit-select-all" nc:name="Zaznacz wszystko" nc:link="menu_reference.xhtml#select_all"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-replace" nc:name="Znajdź i zamień..." nc:link="menu_reference.xhtml#find_and_replace"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-replace" nc:name="Znajdź i zamień…" nc:link="menu_reference.xhtml#find_and_replace"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-again" nc:name="Znajdź następne" nc:link="menu_reference.xhtml#find_again"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-edit-find-previous" nc:name="Znajdź poprzednie" nc:link="menu_reference.xhtml#find_previous"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-edit-check-spelling" nc:name="Sprawdź pisownię" nc:link="menu_reference.xhtml#check_spelling"/> </rdf:li>
@@ -304,15 +304,15 @@
   <rdf:Description about="#comp-doc-menu-insert">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-image" nc:name="Obrazek..." nc:link="menu_reference.xhtml#insert_image"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-table" nc:name="Tabelę..." nc:link="menu_reference.xhtml#inserttable"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-image" nc:name="Obrazek…" nc:link="menu_reference.xhtml#insert_image"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-table" nc:name="Tabelę…" nc:link="menu_reference.xhtml#inserttable"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-insert-form" nc:name="Formularz" nc:link="menu_reference.xhtml#insert_form"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-link" nc:name="Odnośnik..." nc:link="menu_reference.xhtml#insert_link"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-anchor" nc:name="Kotwicę..." nc:link="menu_reference.xhtml#named_anchor"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-link" nc:name="Odnośnik…" nc:link="menu_reference.xhtml#insert_link"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-anchor" nc:name="Kotwicę…" nc:link="menu_reference.xhtml#named_anchor"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-insert-horizontal-line" nc:name="Linię poziomą" nc:link="menu_reference.xhtml#horizontal_line"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-html" nc:name="HTML..." nc:link="menu_reference.xhtml#html"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-character-symbols" nc:name="Znaki i symbole..." nc:link="menu_reference.xhtml#character_and_symbols"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-toc" nc:name="Spis treści..." nc:link="menu_reference.xhtml#table_of_contents"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-html" nc:name="HTML…" nc:link="menu_reference.xhtml#html"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-character-symbols" nc:name="Znaki i symbole…" nc:link="menu_reference.xhtml#character_and_symbols"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-insert-toc" nc:name="Spis treści…" nc:link="menu_reference.xhtml#table_of_contents"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-insert-smart-widgets" nc:name="Inteligentne obiekty" nc:link="menu_reference.xhtml#smart_widgets"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-insert-templates" nc:name="Szablony" nc:link="menu_reference.xhtml#templates"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-insert-php-code" nc:name="Kod PHP" nc:link="menu_reference.xhtml#php_code"/> </rdf:li>
@@ -328,7 +328,7 @@
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-font" nc:name="Czcionka" nc:link="menu_reference.xhtml#font"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-size" nc:name="Rozmiar" nc:link="menu_reference.xhtml#size"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-text-style" nc:name="Styl pisma" nc:link="menu_reference.xhtml#text_style"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-format-text-color" nc:name="Kolor tekstu..." nc:link="menu_reference.xhtml#text_color"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-format-text-color" nc:name="Kolor tekstu…" nc:link="menu_reference.xhtml#text_color"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-direction" nc:name="Kierunek pisania" nc:link="menu_reference.xhtml#writing_direction"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-discontinue-text-styles" nc:name="Zakończ używanie stylów tekstu" nc:link="menu_reference.xhtml#discontinue_text_styles"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-discontinue-link" nc:name="Zakończ odnośnik" nc:link="menu_reference.xhtml#discontinue_link"/> </rdf:li>
@@ -339,9 +339,9 @@
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-decrease-indent" nc:name="Zmniejsz wcięcie" nc:link="menu_reference.xhtml#decrease_indent"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-align" nc:name="Wyrównaj" nc:link="menu_reference.xhtml#align"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-format-positioning-grid" nc:name="Siatka" nc:link="menu_reference.xhtml#positioning_grid"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-format-advanced-properties" nc:name="Zaawansowane właściwości..." nc:link="menu_reference.xhtml#advanced_properties"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-format-page-color-background" nc:name="Kolory strony i tło..." nc:link="menu_reference.xhtml#page_colors_and_background"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-format-title-properties" nc:name="Właściwości i tytuł strony..." nc:link="menu_reference.xhtml#page_title_and_properties"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-format-advanced-properties" nc:name="Zaawansowane właściwości…" nc:link="menu_reference.xhtml#advanced_properties"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-format-page-color-background" nc:name="Kolory strony i tło…" nc:link="menu_reference.xhtml#page_colors_and_background"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-format-title-properties" nc:name="Właściwości i tytuł strony…" nc:link="menu_reference.xhtml#page_title_and_properties"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
@@ -355,8 +355,8 @@
         <rdf:li> <rdf:Description ID="comp-doc-menu-table-join-cell" nc:name="Połącz z prawą komórką" nc:link="menu_reference.xhtml#join_with_cell_to_the_right"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-table-split-cell" nc:name="Podziel komórkę" nc:link="menu_reference.xhtml#split_cell"/> </rdf:li>
         <rdf:li> <rdf:Description ID="comp-doc-menu-table-create-table" nc:name="Utwórz tabelę z zaznaczenia" nc:link="menu_reference.xhtml#create_table_from_selection"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-table-background-color" nc:name="Kolor tła komórki lub tabeli..." nc:link="menu_reference.xhtml#table_or_cell_background_color"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="comp-doc-menu-table-table-properties" nc:name="Właściwości tabeli..." nc:link="menu_reference.xhtml#table_properties"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-table-background-color" nc:name="Kolor tła komórki lub tabeli…" nc:link="menu_reference.xhtml#table_or_cell_background_color"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="comp-doc-menu-table-table-properties" nc:name="Właściwości tabeli…" nc:link="menu_reference.xhtml#table_properties"/> </rdf:li>
      </rdf:Seq>
    </nc:subheadings>
   </rdf:Description>

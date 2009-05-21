@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "T">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Tjekker for opdateringer til dine tilføjelser">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Tjekker for opdateringer til dine temaer">
-<!ENTITY cmd.installLocalFile.label       "Installer...">
+<!ENTITY cmd.installLocalFile.label       "Installer…">
 <!ENTITY cmd.installFile.accesskey        "I">
 <!ENTITY cmd.installFileAddon.tooltip     "Installer en tilføjelse">
 <!ENTITY cmd.installFileTheme.tooltip     "Installer et tema">
@@ -110,7 +110,7 @@
 <!ENTITY updateSuccess.label              "Opdatering afsluttet succesfuldt.">
 <!ENTITY installSuccess.label             "Installering succesfuldt afsluttet.">
 <!ENTITY installSuccessRestart.label      "Genstart for at færddiggøre installationen.">
-<!ENTITY installWaiting.label             "Venter...">
-<!ENTITY installIncompatibleUpdate.label  "Undersøger kompatibilitet...">
-<!ENTITY installFinishing.label           "Installerer...">
+<!ENTITY installWaiting.label             "Venter…">
+<!ENTITY installIncompatibleUpdate.label  "Undersøger kompatibilitet…">
+<!ENTITY installFinishing.label           "Installerer…">
 <!ENTITY installFailure.label             "Installering fejlede.">

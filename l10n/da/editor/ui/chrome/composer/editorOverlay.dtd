@@ -46,13 +46,13 @@
 <!ENTITY filemenu.accesskey "F">
 <!ENTITY newBlankPageCmd.label "Side i nyt vindue">
 <!ENTITY newBlankPage.accesskey "n">
-<!ENTITY newOtherCmd.label "Flere indstillinger...">
+<!ENTITY newOtherCmd.label "Flere indstillinger…">
 <!ENTITY newMenu.label "Ny(t)">
 <!ENTITY newTab.label "Side i nyt faneblad">
-<!ENTITY openFileCmd.label "Åbn fil...">
+<!ENTITY openFileCmd.label "Åbn fil…">
 <!ENTITY fileopen.accesskey "Å">
 <!ENTITY fileopen.keybinding "o">
-<!ENTITY openremoteCmd.label "Åbn websted...">
+<!ENTITY openremoteCmd.label "Åbn websted…">
 <!ENTITY fileopenremote.accesskey "w">
 <!ENTITY fileopenremote.keybinding "l">
 <!ENTITY fileRecentMenu.label "Senest åbnede">
@@ -65,27 +65,27 @@
 <!ENTITY saveCmd.label "Gem">
 <!ENTITY filesave.accesskey "G">
 <!ENTITY filesave.keybinding "s">
-<!ENTITY saveAsCmd.label "Gem som...">
+<!ENTITY saveAsCmd.label "Gem som…">
 <!ENTITY filesaveas.accesskey "e">
 <!ENTITY publishCmd.label "Overfør">
 <!ENTITY publishcmd.accesskey "O">
-<!ENTITY publishAsCmd.label "Overfør som...">
+<!ENTITY publishAsCmd.label "Overfør som…">
 <!ENTITY publishas.accesskey "v">
-<!ENTITY exportToTextCmd.label "Eksporter som tekst...">
+<!ENTITY exportToTextCmd.label "Eksporter som tekst…">
 <!ENTITY fileexporttotext.accesskey "T">
 <!ENTITY saveAsChangeEncodingCmd.label "Gem med tegnsættet">
 <!ENTITY filesaveandchangeencoding.accesskey "e">
 <!ENTITY previewCmd.label "Gennemse side">
 <!ENTITY filepreview.accesskey "m">
 <!ENTITY filepreview.keybinding "VK_F5">
-<!ENTITY sendPageCmd.label "Send siden...">
+<!ENTITY sendPageCmd.label "Send siden…">
 <!ENTITY sendPage.accesskey "S">
-<!ENTITY printSetupCmd.label "Sideopsætning...">
+<!ENTITY printSetupCmd.label "Sideopsætning…">
 <!ENTITY fileprintsetup.accesskey "i">
 <!ENTITY printPreviewCmd.label "Vis udskrift">
 <!ENTITY fileprintpreview.accesskey "v">
-<!ENTITY printCmd.label "Udskriv...">
-<!ENTITY printButtonCmd.label "Udskriv...">
+<!ENTITY printCmd.label "Udskriv…">
+<!ENTITY printButtonCmd.label "Udskriv…">
 <!ENTITY fileprint.accesskey "u">
 <!ENTITY fileprint.keybinding "p">
 <!ENTITY closeCmd.label "Luk">
@@ -102,7 +102,7 @@
 <!ENTITY pasteNoFormatting.accesskey "u">
 <!ENTITY pasteAs.label "Indsæt som">
 <!ENTITY pasteAs.accesskey "I">
-<!ENTITY publishSettings.label "Overførselsindstillinger...">
+<!ENTITY publishSettings.label "Overførselsindstillinger…">
 <!ENTITY publishSettings.accesskey "o">
 <!ENTITY detachFromTemplate.label "Frigør fra skabelon">
 <!-- For a "Paste" submenu when more than 1 
@@ -128,7 +128,7 @@
 <!ENTITY editpastequotation.keybinding "v">
 <!ENTITY editStripQuotesCmd.label "Fjern gåseøjne">
 <!ENTITY editRewrapCmd.label "Ombryd igen">
-<!ENTITY findCmd.label "Søg og erstat...">
+<!ENTITY findCmd.label "Søg og erstat…">
 <!ENTITY editfind.accesskey "e">
 <!ENTITY editfind.keybinding "e">
 <!ENTITY editfind.keybinding2 "VK_F19">                                         
@@ -168,55 +168,55 @@
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label "Indsæt">
 <!ENTITY insertmenu.accesskey "d">
-<!ENTITY insertLinkCmd.label "Link...">
+<!ENTITY insertLinkCmd.label "Link…">
 <!ENTITY insertlink.accesskey "l">
 <!ENTITY insertlink.keybinding "l">
-<!ENTITY insertAnchorCmd.label "Anker...">
+<!ENTITY insertAnchorCmd.label "Anker…">
 <!ENTITY insertanchor.accesskey "A">
-<!ENTITY insertImageCmd.label "Billede...">
+<!ENTITY insertImageCmd.label "Billede…">
 <!ENTITY insertimage.accesskey "B">
-<!ENTITY insertImageMapCmd.label "Aktive billedområder...">
+<!ENTITY insertImageMapCmd.label "Aktive billedområder…">
 <!ENTITY insertHLineCmd.label "Vandret linje">
 <!ENTITY inserthline.accesskey "V">
-<!ENTITY insertTableCmd.label "Tabel...">
+<!ENTITY insertTableCmd.label "Tabel…">
 <!ENTITY inserttable.accesskey "T">
 <!ENTITY insertFormMenu.label "Formular">
 <!ENTITY insertformmenu.accesskey "F">
-<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "H">
-<!ENTITY insertCharsCmd.label "Tegn og symboler...">
+<!ENTITY insertCharsCmd.label "Tegn og symboler…">
 <!ENTITY insertchars.accesskey "s">
 <!ENTITY insertBreakCmd.label "Ny linje">
 <!ENTITY insertbreak.accesskey "l">
 <!ENTITY insertBreakAllCmd.label "Linjeskift under billede(r)">
 <!ENTITY insertbreakall.accesskey "k">
-<!ENTITY insertNbspCmd.label "Indsæt mellemrum...">
+<!ENTITY insertNbspCmd.label "Indsæt mellemrum…">
 <!ENTITY insertNbsp.accesskey "n">
 <!ENTITY insertPHPCode.label "Indsæt PHP-kode">
 <!ENTITY insertphpcode.accesskey "p">
 <!ENTITY insertComment.label "Indsæt kommentar">
 <!ENTITY insertcomment.accesskey "m">
 <!-- Insert form menu items -->
-<!ENTITY insertFormCmd.label "Definer formular...">
+<!ENTITY insertFormCmd.label "Definer formular…">
 <!ENTITY insertform.accesskey "D">
-<!ENTITY insertInputTagCmd.label "Formular-felt...">
+<!ENTITY insertInputTagCmd.label "Formular-felt…">
 <!ENTITY insertinputtag.accesskey "e">
-<!ENTITY insertInputImageCmd.label "Formular-billede...">
+<!ENTITY insertInputImageCmd.label "Formular-billede…">
 <!ENTITY insertinputimage.accesskey "I">
-<!ENTITY insertTextAreaCmd.label "Tekstområde...">
+<!ENTITY insertTextAreaCmd.label "Tekstområde…">
 <!ENTITY inserttextarea.accesskey "T">
-<!ENTITY insertSelectCmd.label "Valgliste...">
+<!ENTITY insertSelectCmd.label "Valgliste…">
 <!ENTITY insertselect.accesskey "S">
-<!ENTITY insertButtonCmd.label "Definer knap...">
+<!ENTITY insertButtonCmd.label "Definer knap…">
 <!ENTITY insertbutton.accesskey "k">
 <!ENTITY insertLabelCmd.label "Definer etikette">
 <!ENTITY insertlabel.accesskey "e">
-<!ENTITY insertFieldSetCmd.label "Definer feltsæt...">
+<!ENTITY insertFieldSetCmd.label "Definer feltsæt…">
 <!ENTITY insertfieldset.accesskey "f">
 <!ENTITY insertIsIndexCmd.label "Indeks-søgning">
 <!ENTITY insertisindex.accesskey "ø">
 <!-- Used just in context popup. -->
-<!ENTITY createLinkCmd.label "Opret link...">
+<!ENTITY createLinkCmd.label "Opret link…">
 <!ENTITY createlink.accesskey "k">
 <!ENTITY editLinkCmd.label "Rediger linket i et nyt vindue">
 <!ENTITY editlink.accesskey "i">
@@ -315,9 +315,9 @@
 <!ENTITY styleSamp.accesskey "E">
 <!ENTITY styleVar.label "Variabel">
 <!ENTITY styleVar.accesskey "v">
-<!ENTITY formatFontColor.label "Tekstfarve...">
+<!ENTITY formatFontColor.label "Tekstfarve…">
 <!ENTITY formatfontcolor.accesskey "f">
-<!ENTITY tableOrCellColor.label "Tabel- eller celle-baggrundsfarve...">
+<!ENTITY tableOrCellColor.label "Tabel- eller celle-baggrundsfarve…">
 <!ENTITY tableOrCellColor.accesskey "b">
 <!ENTITY formatremovestyles.keybinding "y">
 <!ENTITY formatremovelinks.keybinding "k">
@@ -365,7 +365,7 @@
 <!ENTITY listterm.accesskey "t">
 <!ENTITY listDefinitionCmd.label "Definition">
 <!ENTITY listdefinition.accesskey "d">
-<!ENTITY listProps.label "Listeegenskaber...">
+<!ENTITY listProps.label "Listeegenskaber…">
 <!ENTITY listprops.accesskey "L">
 <!ENTITY ParagraphSelect.tooltip "Vælg et afsnitsformat">
 <!-- Shared in Paragraph, and Toolbar menulist -->
@@ -416,9 +416,9 @@
 <!ENTITY blockBorders.tooltip "Kanter">
 <!ENTITY grid.label "Gitter">
 <!ENTITY grid.accesskey "t">
-<!ENTITY pageProperties.label "Sidens titel og egenskaber...">
+<!ENTITY pageProperties.label "Sidens titel og egenskaber…">
 <!ENTITY pageproperties.accesskey "b">
-<!ENTITY colorsAndBackground.label "Sidens farve og baggrund...">
+<!ENTITY colorsAndBackground.label "Sidens farve og baggrund…">
 <!ENTITY colorsandbackground.accesskey "v">
 <!-- Table Menu -->
 <!ENTITY tableMenu.label "Tabel">
@@ -475,7 +475,7 @@
 <!ENTITY tablesplitcell.accesskey "c">
 <!ENTITY convertToTable.label "Opret tabel af det markerede">
 <!ENTITY converttotable.accesskey "r">
-<!ENTITY tableProperties.label "Tabelegenskaber...">
+<!ENTITY tableProperties.label "Tabelegenskaber…">
 <!ENTITY tableProperties.accesskey "e">
 <!-- Tools menu -->
 <!ENTITY toolsmenu.accesskey "l">
@@ -603,7 +603,7 @@
 <!ENTITY updateTOC.accesskey "O">
 <!ENTITY removeTOC.label "Fjern">
 <!ENTITY removeTOC.accesskey "r">
-<!ENTITY tocMenu.label "Indholdsfortegnelse...">
+<!ENTITY tocMenu.label "Indholdsfortegnelse…">
 <!ENTITY tocMenu.accesskey "I">
 <!-- Smart Widgets menu -->
 <!ENTITY insertSmartWidgetsMenu.label "Smarte funktioner">

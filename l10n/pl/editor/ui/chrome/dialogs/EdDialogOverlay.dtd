@@ -21,10 +21,10 @@
    -     AviaryPL Team members <team@aviary.pl>
   -->
 
-<!ENTITY AdvancedEditButton.label "Edycja zaawansowana...">
+<!ENTITY AdvancedEditButton.label "Edycja zaawansowana…">
 <!ENTITY AdvancedEditButton.accessKey "E">
 <!ENTITY AdvancedEditButton.tooltip "Dodaj lub modyfikuj atrybuty HTML, atrybuty stylów oraz JavaScript">
-<!ENTITY chooseButton.label "Wybierz plik...">
+<!ENTITY chooseButton.label "Wybierz plik…">
 <!ENTITY chooseFile.accessKey "W">
 <!ENTITY chooseFileLink.accessKey "W">
 <!ENTITY makeUrlRelative.label "Adres URL jest relatywny do adresu strony">

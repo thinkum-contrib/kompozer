@@ -9,8 +9,8 @@
 <!ENTITY clientAuthAsk.message2 "选择一个证书作为标识：">
 <!ENTITY clientAuthAsk.message3 "所选证书细节：">
 <!ENTITY clientAuthAsk.title "使用确认请求">
-<!ENTITY createCertInfo.msg1 "正在生成密钥...可能需要几分钟....">
-<!ENTITY createCertInfo.msg2 "请稍候...">
+<!ENTITY createCertInfo.msg1 "正在生成密钥…可能需要几分钟….">
+<!ENTITY createCertInfo.msg2 "请稍候…">
 <!ENTITY createCertInfo.title "产生新的私钥">
 <!ENTITY domainMismatch.title "安全错误：域名不符合">
 <!ENTITY downloadCert.message1 "您被询问要求信任一个新的证书授权（CA）。">

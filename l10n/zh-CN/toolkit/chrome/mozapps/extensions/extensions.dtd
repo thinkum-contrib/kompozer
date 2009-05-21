@@ -14,7 +14,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey "F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "查找附加软件的更新">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "查找主题的更新">
-<!ENTITY cmd.installLocalFile.label "从本地文件安装...">
+<!ENTITY cmd.installLocalFile.label "从本地文件安装…">
 <!ENTITY cmd.installFile.accesskey "I">
 <!ENTITY cmd.installFileAddon.tooltip "安装附加软件">
 <!ENTITY cmd.installFileTheme.tooltip "安装主题">
@@ -91,7 +91,7 @@
 <!ENTITY updateSuccess.label "成功完成更新。">
 <!ENTITY installSuccess.label "安装成功完成">
 <!ENTITY installSuccessRestart.label "重启以完成安装。">
-<!ENTITY installWaiting.label "等待...">
-<!ENTITY installIncompatibleUpdate.label "检查兼容性...">
-<!ENTITY installFinishing.label "正在安装...">
+<!ENTITY installWaiting.label "等待…">
+<!ENTITY installIncompatibleUpdate.label "检查兼容性…">
+<!ENTITY installFinishing.label "正在安装…">
 <!ENTITY installFailure.label "安装失败">

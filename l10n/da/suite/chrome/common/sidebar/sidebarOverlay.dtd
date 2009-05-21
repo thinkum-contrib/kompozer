@@ -37,8 +37,8 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY sidebar.loading.label "Indlæser...">
-<!ENTITY sidebar.sbDirectory.label "Sidebjælke-mappe...">
+<!ENTITY sidebar.loading.label "Indlæser…">
+<!ENTITY sidebar.sbDirectory.label "Sidebjælke-mappe…">
 <!ENTITY sidebar.loadstopped.label "Indlæsning stoppet">
 <!ENTITY sidebar.loading.stop.label "Stop">
 <!ENTITY sidebar.panels.label "Sidebjælke">
@@ -48,7 +48,7 @@
 <!ENTITY sidebar.customize.accesskey "T">
 <!ENTITY sidebar.no-panels.hide 'Hvis du ønsker at skjule sidebjælken helt, klik på "Vis" menuen ovenfor, og vælg "Sidebjælken."'>
 <!ENTITY sidebar.picker.label "Faner">
-<!ENTITY sidebar.customize.label "Tilpas sidebjælken...">
+<!ENTITY sidebar.customize.label "Tilpas sidebjælken…">
 <!ENTITY sidebar.switch.accesskey "f">
 <!ENTITY sidebarCmd.label "Sidebjælken">
 <!ENTITY sidebar.no-panels.add 'Du kan tilføje faner, ved at klikke på "Faner" knappen ovenfor.'>

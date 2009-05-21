@@ -10,8 +10,8 @@
 <!ENTITY  mismatch.bottom.label           "&brandShortName; lahko najde in namesti združljive različice teh razširitev in tem.">
 
 <!ENTITY  checking.wizard.title           "Iščem združljive različice">
-<!ENTITY  checking.top.label              "Išče posodobitve za nezdružljive razžiritve in teme ...">
-<!ENTITY  checking.status                 "To lahko traja nekaj minut ...">
+<!ENTITY  checking.top.label              "Išče posodobitve za nezdružljive razžiritve in teme …">
+<!ENTITY  checking.status                 "To lahko traja nekaj minut …">
 
 <!ENTITY  found.wizard.title              "Najdene združljive različice">
 <!ENTITY  found.top.label                 "Izberite razširitve in teme, ki jih želite namestiti:">
@@ -21,7 +21,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "D">
 
 <!ENTITY  installing.wizard.title         "Nameščanje posodobitev">
-<!ENTITY  installing.top.label            "Prenašam in nameščam posodobitve ...">
+<!ENTITY  installing.top.label            "Prenašam in nameščam posodobitve …">
 
 <!ENTITY  noupdates.wizard.title          "Ni združljivih različic">
 <!ENTITY  noupdates.intro.desc            "&brandShortName; ne najde nobenih posodobitev.">
@@ -40,8 +40,8 @@
 <!ENTITY  adminDisabled.warning.label     "Ni mogoče posodobiti nezdružljivih komponent, ker nameščanje programske opreme ni dovoljeno. Za pomoč se obrnite na svojega skrbnika sistema.">
 
 <!ENTITY  versioninfo.wizard.title        "Posodobitve za združljivost">
-<!ENTITY  versioninfo.top.label           "Preverjam, če obstajajo s to različico &brandShortName;a združljive posodobitve nameščenih razširitev in tem ...">
-<!ENTITY  versioninfo.waiting             "To lahko traja nekaj minut ...">
+<!ENTITY  versioninfo.top.label           "Preverjam, če obstajajo s to različico &brandShortName;a združljive posodobitve nameščenih razširitev in tem …">
+<!ENTITY  versioninfo.waiting             "To lahko traja nekaj minut …">
 
 <!ENTITY  installerrors.wizard.title      "Problemi med posodabljanjem">
 <!ENTITY  installerrors.intro.label       "&brandShortName; ima težave pri posodabljanju nekaterih razširitev in tem.">
@@ -49,5 +49,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Kliknite gumb Dokončaj, če želite, da &brandShortName; nadaljuje z zagonom.">
 <!ENTITY  enableChecking.label            "Dovoli &brandShortName;u, da preverja za posodobitve.">
-<!ENTITY  details.label                   "Podrobnosti ...">
+<!ENTITY  details.label                   "Podrobnosti …">
 <!ENTITY  details.accesskey               "P">

@@ -14,8 +14,8 @@
                                            týchto doplnkov.">                                        
 
 <!ENTITY  checking.wizard.title           "Vyhľadávanie kompatibilných doplnkov">
-<!ENTITY  checking.top.label              "Vyhľadávajú sa aktualizácie vašich nekompatibilných doplnkov...">
-<!ENTITY  checking.status                 "Táto operácia môže trvať aj niekoľko minút...">
+<!ENTITY  checking.top.label              "Vyhľadávajú sa aktualizácie vašich nekompatibilných doplnkov…">
+<!ENTITY  checking.status                 "Táto operácia môže trvať aj niekoľko minút…">
 
 <!ENTITY  found.wizard.title              "Nájdené kompatibilné doplnky">
 <!ENTITY  found.top.label                 "Vyberte si doplnky, ktoré chcete nainštalovať:">
@@ -24,7 +24,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "s">
 
 <!ENTITY  installing.wizard.title         "Inštalácia kompatibilných doplnkov">
-<!ENTITY  installing.top.label            "Sťahovanie a inštalácia aktualizácií vašich doplnkov...">
+<!ENTITY  installing.top.label            "Sťahovanie a inštalácia aktualizácií vašich doplnkov…">
 
 <!ENTITY  noupdates.wizard.title          "Neboli nájdené žiadne kompatibilné doplnky">
 <!ENTITY  noupdates.intro.desc            "&brandShortName;u sa nepodarilo nájsť aktualizácie pre vaše nekompatibilné doplnky.">
@@ -43,7 +43,7 @@
 
 <!ENTITY  versioninfo.wizard.title        "Kontrola aktualizácií pre doplnky">
 <!ENTITY  versioninfo.top.label           "Vyhľadávanie aktualizácií doplnkov kompatibilných s touto verziou &brandShortName;u.">
-<!ENTITY  versioninfo.waiting             "Táto operácia môže trvať aj niekoľko minút...">
+<!ENTITY  versioninfo.waiting             "Táto operácia môže trvať aj niekoľko minút…">
 
 <!ENTITY  installerrors.wizard.title      "Problémy pri inštalácii aktualizácií">
 <!ENTITY  installerrors.intro.label       "&brandShortName; zistil problémy pri inštalácii niektorej z aktualizácií.">
@@ -51,7 +51,7 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Kliknutím na tlačidlo Dokončiť spustíte &brandShortName;.">
 <!ENTITY  enableChecking.label            "Povoliť &brandShortName;u kontrolovať aktualizácie.">
-<!ENTITY  details.label                   "Detaily...">
+<!ENTITY  details.label                   "Detaily…">
 <!ENTITY  details.accesskey               "D">
 
 

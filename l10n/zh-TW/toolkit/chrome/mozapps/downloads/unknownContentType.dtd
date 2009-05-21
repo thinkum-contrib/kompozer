@@ -4,7 +4,7 @@
 <!ENTITY actionQuestion.label "&brandShortName; 應該如何處理此檔案？">
 <!ENTITY openWith.label "開啟方式:">
 <!ENTITY openWith.accesskey "o">
-<!ENTITY other.label "其它...">
+<!ENTITY other.label "其它…">
 <!ENTITY save.label "存入磁碟">
 <!ENTITY save.accesskey "s">
 <!ENTITY rememberChoice.label "對此類檔案自動採用此處理方式。">
@@ -13,8 +13,8 @@
 <!ENTITY settingsChangeMac.label "設定可在 &brandShortName; 偏好設定的「內容」項目調整。">
 <!ENTITY settingsChangeUnix.label "設定可在「編輯」「偏好設定」「內容」項目調整。">
 <!ENTITY whichIsA.label "是:">
-<!ENTITY chooseHandlerMac.label "選取...">
+<!ENTITY chooseHandlerMac.label "選取…">
 <!ENTITY chooseHandlerMac.accesskey "C">
-<!ENTITY chooseHandler.label "瀏覽...">
+<!ENTITY chooseHandler.label "瀏覽…">
 <!ENTITY chooseHandler.accesskey "B">
 <!ENTITY  unknownPromptText.label     "你確定要儲存此檔案？">

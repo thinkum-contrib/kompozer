@@ -38,9 +38,9 @@
 <!-- Catalan Translation: Projecte Mozilla en català - Softcatalà - http://www.softcatala.org/projectes/mozilla/ -->
 
 
-<!ENTITY print.label "Imprimeix...">
+<!ENTITY print.label "Imprimeix…">
 <!ENTITY print.accesskey "I">
-<!ENTITY pageSetup.label "Configuració de la pàgina...">
+<!ENTITY pageSetup.label "Configuració de la pàgina…">
 <!ENTITY pageSetup.accesskey "C">
 <!ENTITY page.label "Pàgina:">
 <!ENTITY page.accesskey       "a">
@@ -66,9 +66,9 @@
 <!ENTITY p150.label "150&#037;">
 <!ENTITY p175.label "175&#037;">
 <!ENTITY p200.label "200&#037;">
-<!ENTITY Custom.label "Personalitza...">
+<!ENTITY Custom.label "Personalitza…">
 <!ENTITY ShrinkToFit.label "Encongeix per encabir-hi">
-<!ENTITY customPrompt.title "Escala personalitzada...">
+<!ENTITY customPrompt.title "Escala personalitzada…">
 
 <!ENTITY homearrow.tooltip    "Primera pàgina">
 <!ENTITY endarrow.tooltip     "Darrera pàgina">

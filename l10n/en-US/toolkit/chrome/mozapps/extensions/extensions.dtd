@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Finds Updates to your Add-ons">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Finds Updates to your Themes">
-<!ENTITY cmd.installLocalFile.label       "Install...">
+<!ENTITY cmd.installLocalFile.label       "Install…">
 <!ENTITY cmd.installFile.accesskey        "I">
 <!ENTITY cmd.installFileAddon.tooltip     "Install an Add-on">
 <!ENTITY cmd.installFileTheme.tooltip     "Install a Theme">
@@ -109,8 +109,8 @@
 <!ENTITY updateSuccess.label              "Update completed successfully.">
 <!ENTITY installSuccess.label             "Install completed successfully.">
 <!ENTITY installSuccessRestart.label      "Restart to complete the installation.">
-<!ENTITY installWaiting.label             "Waiting...">
-<!ENTITY installIncompatibleUpdate.label  "Checking compatibility...">
-<!ENTITY installFinishing.label           "Installing...">
+<!ENTITY installWaiting.label             "Waiting…">
+<!ENTITY installIncompatibleUpdate.label  "Checking compatibility…">
+<!ENTITY installFinishing.label           "Installing…">
 <!ENTITY installFailure.label             "Install failed.">
 

@@ -46,14 +46,14 @@
     <language>hu-hu</language>
   
     <item>
-      <title>...mozgathat elemeket?</title>
+      <title>…mozgathat elemeket?</title>
       <description>Csak helyezze a kurzort a mozgatni kívánt blokkon belülre,
                    és kattintson egyszer a Réteg gombra, hogy mozgathatóvá tegye.
       </description>
     </item>
   
     <item>
-      <title>...testreszabhatja az eszköztárakat?</title>
+      <title>…testreszabhatja az eszköztárakat?</title>
       <description>Az eszköztár testreszabása ablak megnyitásához használja
                    a "Nézet > Megjelenítés/Elrejtés > Eszköztárak testreszabása" menüpontot. Ezután a "fogd és vidd" módszerrel adhat hozzá, helyezhet át vagy
                    törölhet nyomógombokat és üres helyeket/elválasztókat.
@@ -61,7 +61,7 @@
     </item>
   
     <item>
-      <title>...készíthet új eszköztárat?</title>
+      <title>…készíthet új eszköztárat?</title>
       <description>Az eszköztár testreszabása ablak megnyitásához használja
                    a "Nézet > Megjelenítés/Elrejtés > Eszköztárak testreszabása > Formázás eszköztár"
                    menüpontot. Majd kattintson az "Új eszköztár" nyomógombra. Az üres eszköztárak automatikusan eltűnnek a testreszabás
@@ -69,19 +69,19 @@
     </item>
   
     <item>
-	    <title>...az KompoZer rendelkezik CSS-szerkesztővel?</title>
+	    <title>…az KompoZer rendelkezik CSS-szerkesztővel?</title>
 	    <description>Az KompoZer tartalmazza a CaScadeS CSS-szerkesztőt. Nyissa meg az
                    Eszközök > CSS-szerkesztő menüponttal.</description>
     </item>
   
     <item>
-	    <title>...az KompoZer rendelkezik webhelykezelővel?</title>
+	    <title>…az KompoZer rendelkezik webhelykezelővel?</title>
       <description>Használja az F9 billentyűt vagy a "Nézet > Megjelenítés/Elrejtés > Webhelykezelő"
                    menüpontot, hogy megjelenítse vagy elrejtse a webhelykezelőt.</description>
     </item>
 
     <item>
-      <title>...megadhat CSS-formázásokat az összes elemre?</title>
+      <title>…megadhat CSS-formázásokat az összes elemre?</title>
       <description>Helyezze a kurzort a formázandó elemen belülre, majd kattintson
 	      jobb egérgombbal az elem tag-jére az KompoZer főablaka alatt elhelyezkedő
                    sávon. A "Közvetlen formázás" menü menüpontjai segítségével
@@ -90,13 +90,13 @@
     </item>
 
     <item>
-      <title>...beállíthatja a szövegírás irányát?</title>
+      <title>…beállíthatja a szövegírás irányát?</title>
       <description>Az eszköztárak testreszabásával adja hozzá az egyikhez a szövegírás
                    irányát vezérlő két gombot.</description>
     </item>
 
     <item>
-      <title>...átméretezhet táblázatokat az egér segítségével?</title>
+      <title>…átméretezhet táblázatokat az egér segítségével?</title>
       <description>Csak jelenítse meg a vonalzókat a Nézet > Megjelenítés/Elrejtés > Vonalzók
                    menüpont használatával, és helyezze a kurzort a táblázat egy
                    cellájába, hogy az átméretezők megjelenjenek.
@@ -104,54 +104,54 @@
     </item>
 
     <item>
-      <title>...nagyon könnyen testreszabhatja az eszköztárakat?</title>
-      <description>Csak kattintson rá a jobb egérgombbal...</description>
+      <title>…nagyon könnyen testreszabhatja az eszköztárakat?</title>
+      <description>Csak kattintson rá a jobb egérgombbal…</description>
     </item>
 
     <item>
-	    <title>...közvetlenül elérheti az KompoZer-közösséget?</title>
+	    <title>…közvetlenül elérheti az KompoZer-közösséget?</title>
       <description>Csak válassza ki a Súgó > Fórumok menüpontot.</description>
     </item>
 
     <item>
-	    <title>...az KompoZer képes indulásakor automatikusan megnyitni egy dokumentumot?</title>
+	    <title>…az KompoZer képes indulásakor automatikusan megnyitni egy dokumentumot?</title>
       <description>A parancssorba írja be:     nvu _url_</description>
     </item>
 
     <item>
-      <title>...több weboldalt is szerkeszthet egy időben?</title>
+      <title>…több weboldalt is szerkeszthet egy időben?</title>
       <description>The Site Manager can open and show the contents of multiple web sites
                    at the same time.</description>
     </item>
 
     <item>
-	    <title>...az KompoZer keresztplatformos alkalmazás?</title>
+	    <title>…az KompoZer keresztplatformos alkalmazás?</title>
 	    <description>Az KompoZer operációs rendszerek széles választékán használható, ilyen rendszerek a
-                   Windows, Mac OS X, számos Linux-változat, OS/2, ...</description>
+                   Windows, Mac OS X, számos Linux-változat, OS/2, …</description>
     </item>
 
     <item>
-      <title>...létrehozhat új szerkesztőlapot egy billentyűkombinációval?</title>
+      <title>…létrehozhat új szerkesztőlapot egy billentyűkombinációval?</title>
       <description>A Ctrl+T (Cmd+T Mac OS X alatt) létrehoz egy új, üres szerkesztőlapot.</description>
     </item>
 
     <item>
-      <title>...létrehozhat új ablakot egy billentyűkombinációval?</title>
+      <title>…létrehozhat új ablakot egy billentyűkombinációval?</title>
       <description>Ctrl+Shift+N (Cmd+Shift+T Mac OS X alatt) létrehoz egy új, üres ablakot</description>
     </item>
 
     <item>
-      <title>...egyetlen cella keretének a tulajdonságait is megváltoztathatja?</title>
+      <title>…egyetlen cella keretének a tulajdonságait is megváltoztathatja?</title>
       <description>Helyezze a kurzort a cellába, kattintson a jobb egérgombbal az állapotsorban a cellán, majd válassza a Közvetlen formázás &gt; Szegély tulajdonságai parancsot a helyi menüből.</description>
     </item>
 
     <item>
-      <title>...bezárhat egy szerkesztőlapot egyetlen kattintással?</title>
+      <title>…bezárhat egy szerkesztőlapot egyetlen kattintással?</title>
       <description>Kattintson a középső egérgombbal a lapon.</description>
     </item>
 
     <item>
-      <title>...az aktuális szerkesztőlapot egy billentyűparanccsal bezárhatja?</title>
+      <title>…az aktuális szerkesztőlapot egy billentyűparanccsal bezárhatja?</title>
       <description>A Ctrl+F4 bezárja az aktuális lapot.</description>
     </item>
 

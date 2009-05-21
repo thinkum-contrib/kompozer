@@ -46,7 +46,7 @@
 
 <!ENTITY  validation.crl.caption		"CRL">
 <!ENTITY  validation.crl.description		"CRL マネージャでは、あなたの証明書データベースに記録された、証明書失効リスト (CRL) を管理します。">
-<!ENTITY  validation.managecrls.button		"CRL マネージャ...">
+<!ENTITY  validation.managecrls.button		"CRL マネージャ…">
 <!ENTITY  validation.managecrls.accesskey	"M">
 <!ENTITY  validation.crlmanager.label		"CRL マネージャ"><!-- (^^; これがダイアログ名と解説両方に… -->
 <!ENTITY  validation.crlname.label		"名前">

@@ -2,8 +2,8 @@
 <!ENTITY window.height "300">
 <!ENTITY done.label "Terminada">
 <!ENTITY canceled.label "Cancelada">
-<!ENTITY installing.label "Instalando...">
-<!ENTITY starting.label "Iniciando...">
+<!ENTITY installing.label "Instalando…">
+<!ENTITY starting.label "Iniciando…">
 <!ENTITY failed.label "Fallida">
 <!ENTITY downloads.title "Descargas">
 <!ENTITY cmd.pause.label "Pausar">
@@ -18,7 +18,7 @@
 <!ENTITY cmd.show.accesskeyMac "F">
 <!ENTITY cmd.open.label "Abrir">
 <!ENTITY cmd.open.accesskey "A">
-<!ENTITY cmd.openWith.label "Abrir con...">
+<!ENTITY cmd.openWith.label "Abrir con…">
 <!ENTITY cmd.openWith.accesskey "b">
 <!ENTITY cmd.retry.label "Reintentar">
 <!ENTITY cmd.retry.accesskey "R">

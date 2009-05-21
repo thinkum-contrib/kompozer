@@ -54,18 +54,18 @@
 <!ENTITY bookmarkLinkCmd.accesskey "L">
 <!ENTITY bookmarkFrameCmd.label "Añadir este marco a marcadores">
 <!ENTITY bookmarkFrameCmd.accesskey "m">
-<!ENTITY savePageAsCmd.label "Guardar página actual como...">
-<!ENTITY savePageCmd.label "Guardar página actual como...">
+<!ENTITY savePageAsCmd.label "Guardar página actual como…">
+<!ENTITY savePageCmd.label "Guardar página actual como…">
 <!ENTITY savePageCmd.accesskey "a">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY saveFrameAsCmd.label "Guardar marco como...">
-<!ENTITY saveFrameCmd.label "Guardar marco como...">
+<!ENTITY saveFrameAsCmd.label "Guardar marco como…">
+<!ENTITY saveFrameCmd.label "Guardar marco como…">
 <!ENTITY saveFrameCmd.accesskey "g">
-<!ENTITY saveLinkAsCmd.label "Guardar destino del enlace como...">
-<!ENTITY saveLinkCmd.label "Guardar destino del enlace como...">
+<!ENTITY saveLinkAsCmd.label "Guardar destino del enlace como…">
+<!ENTITY saveLinkCmd.label "Guardar destino del enlace como…">
 <!ENTITY saveLinkCmd.accesskey "r">
-<!ENTITY saveImageAsCmd.label "Guardar imagen como...">
-<!ENTITY saveImageCmd.label "Guardar imagen como...">
+<!ENTITY saveImageAsCmd.label "Guardar imagen como…">
+<!ENTITY saveImageCmd.label "Guardar imagen como…">
 <!ENTITY saveImageCmd.accesskey "u">
 <!ENTITY copyCmd.label "Copiar">
 <!ENTITY copyCmd.accesskey "C">
@@ -103,5 +103,5 @@
 <!ENTITY spellNoSuggestions.label "(No hay sugerencias)">
 <!ENTITY spellDictionaries.label "Idiomas">
 <!ENTITY spellDictionaries.accesskey "I">
-<!ENTITY spellAddDictionaries.label "Descargar más diccionarios...">
+<!ENTITY spellAddDictionaries.label "Descargar más diccionarios…">
 <!ENTITY spellAddDictionaries.accesskey "D">

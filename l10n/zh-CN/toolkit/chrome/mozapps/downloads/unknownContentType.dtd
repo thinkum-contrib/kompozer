@@ -3,7 +3,7 @@
 <!ENTITY actionQuestion.label "您想要 &brandShortName; 如何处理此文件？">
 <!ENTITY openWith.label "打开方式">
 <!ENTITY openWith.accesskey "o">
-<!ENTITY other.label "其他...">
+<!ENTITY other.label "其他…">
 <!ENTITY save.label "保存至磁盘">
 <!ENTITY save.accesskey "s">
 <!ENTITY rememberChoice.label "以后自动采用相同的动作处理此类文件。">
@@ -12,8 +12,8 @@
 <!ENTITY settingsChangeMac.label "设置可以在 &brandShortName;“首选项”的“内容”区域下载。">
 <!ENTITY settingsChangeUnix.label "设置可以在“编辑”首选项的“内容”区域修改。">
 <!ENTITY whichIsA.label "为：">
-<!ENTITY chooseHandlerMac.label "选择...">
+<!ENTITY chooseHandlerMac.label "选择…">
 <!ENTITY chooseHandlerMac.accesskey "C">
-<!ENTITY chooseHandler.label "浏览...">
+<!ENTITY chooseHandler.label "浏览…">
 <!ENTITY chooseHandler.accesskey "B">
 <!ENTITY unknownPromptText.label "您想要保存此文件吗？">

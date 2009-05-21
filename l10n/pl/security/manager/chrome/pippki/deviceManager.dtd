@@ -64,7 +64,7 @@
 <!ENTITY loaddevice.modname.default 			"Nowy moduł PKCS#11" >
 <!ENTITY loaddevice.filename 					"Nazwa pliku modułu:" >
 <!ENTITY loaddevice.filename.accesskey          "N">
-<!ENTITY loaddevice.browse 						"Przeglądaj..." >
+<!ENTITY loaddevice.browse 						"Przeglądaj…" >
 <!ENTITY loaddevice.browse.accesskey          	"P">
 
 <!ENTITY loaddevice.title 						"Załaduj urządzenie PKCS#11" >

@@ -10,8 +10,8 @@
 <!ENTITY  mismatch.bottom.label           "O &brandShortName; pode verificar se há versões compatíveis destes complementos.">
 
 <!ENTITY  checking.wizard.title           "Verificando complementos compatíveis">
-<!ENTITY  checking.top.label              "Verificando atualizações dos complementos incompatíveis...">
-<!ENTITY  checking.status                 "Isto pode levar alguns minutos...">
+<!ENTITY  checking.top.label              "Verificando atualizações dos complementos incompatíveis…">
+<!ENTITY  checking.status                 "Isto pode levar alguns minutos…">
 
 <!ENTITY  found.wizard.title               "Complementos compatíveis encontrados">
 <!ENTITY  found.top.label                 "Selecione os complementos que deseja instalar:">
@@ -20,7 +20,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "P">
 
 <!ENTITY  installing.wizard.title         "Instalando complementos compatíveis">
-<!ENTITY  installing.top.label            "Recebendo e instalando atualizações dos complementos...">
+<!ENTITY  installing.top.label            "Recebendo e instalando atualizações dos complementos…">
 
 <!ENTITY  noupdates.wizard.title          "Nenhum complemento compatível encontrado">
 <!ENTITY  noupdates.intro.desc            "O &brandShortName; não pôde localizar atualizações para os complementos incompatíveis.">
@@ -36,8 +36,8 @@
 <!ENTITY  adminDisabled.warning.label     "Não foi possível verificar atualizações de complementos incompatíveis porque a instalação de programas do &brandShortName; foi desativada. Por favor, contate o administrador do sistema para auxílio.">
 
 <!ENTITY  versioninfo.wizard.title        "Verificando compatibilidade dos complementos">
-<!ENTITY  versioninfo.top.label           "Verificando a compatibilidade dos complementos com esta versão do &brandShortName;...">
-<!ENTITY  versioninfo.waiting             "Isto pode levar alguns minutos...">
+<!ENTITY  versioninfo.top.label           "Verificando a compatibilidade dos complementos com esta versão do &brandShortName;…">
+<!ENTITY  versioninfo.waiting             "Isto pode levar alguns minutos…">
 
 <!ENTITY  installerrors.wizard.title      "Problemas ao instalar atualizações">
 <!ENTITY  installerrors.intro.label       "O &brandShortName; encontrou problemas ao atualizar alguns complementos.">
@@ -45,5 +45,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Clique em Concluir para continuar abrindo o &brandShortName;.">
 <!ENTITY  enableChecking.label            "Permitir que o &brandShortName; verifique atualizações.">
-<!ENTITY  details.label                   "Detalhes...">
+<!ENTITY  details.label                   "Detalhes…">
 <!ENTITY  details.accesskey               "D">

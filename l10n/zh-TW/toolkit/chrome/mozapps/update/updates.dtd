@@ -3,7 +3,7 @@
 <!ENTITY  window.width                    "36em">
 <!ENTITY  window.macWidth                 "39em">
 <!ENTITY checking.title "正在檢查是否有更新檔">
-<!ENTITY checking.label "&brandShortName; 正在檢查是否有可用的更新...">
+<!ENTITY checking.label "&brandShortName; 正在檢查是否有可用的更新…">
 <!ENTITY cancel.label "取消">
 <!ENTITY cancel.accesskey "C">
 <!ENTITY noupdatesfound.title "無任何更新">
@@ -27,8 +27,8 @@
 <!ENTITY  license.decline                 "我「不」接受授權協議的條款">
 <!ENTITY  license.decline.accesskey       "T">
 <!ENTITY downloading.title "正在下載更新檔">
-<!ENTITY downloading.intro "正在下載下列更新檔...">
-<!ENTITY connecting.label "連線至更新伺服器...">
+<!ENTITY downloading.intro "正在下載下列更新檔…">
+<!ENTITY connecting.label "連線至更新伺服器…">
 <!ENTITY verificationFailedText.label "&brandShortName; 無法確認下載更新的完整性，所以現在會重新下載完整的更新套件。">
 <!ENTITY details.link "細節">
 <!ENTITY pause.label "暫停">
@@ -48,7 +48,7 @@
 <!ENTITY finishedBackground.more2 "按「稍候」會關閉視窗並繼續執行。&brandShortName; 會在下次啟動時安裝更新。">
 <!ENTITY installed.title "已安裝更新檔">
 <!ENTITY installed.intro "已成功安裝更新。">
-<!ENTITY whatsnew.label "深入閱讀新版不同之處...">
+<!ENTITY whatsnew.label "深入閱讀新版不同之處…">
 <!ENTITY update.details.label "細節">
 <!ENTITY update.installedOn.label "安裝於:">
 <!ENTITY update.status.label "狀態:">

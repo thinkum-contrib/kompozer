@@ -54,18 +54,18 @@
 <!ENTITY bookmarkLinkCmd.accesskey "d">
 <!ENTITY bookmarkFrameCmd.label "Přidat rám k záložkám">
 <!ENTITY bookmarkFrameCmd.accesskey "d">
-<!ENTITY savePageAsCmd.label "Uložit stránku jako...">
-<!ENTITY savePageCmd.label "Uložit stránku jako...">
+<!ENTITY savePageAsCmd.label "Uložit stránku jako…">
+<!ENTITY savePageCmd.label "Uložit stránku jako…">
 <!ENTITY savePageCmd.accesskey "j">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY saveFrameAsCmd.label "Uložit rám jako...">
-<!ENTITY saveFrameCmd.label "Uložit rám jako...">
+<!ENTITY saveFrameAsCmd.label "Uložit rám jako…">
+<!ENTITY saveFrameCmd.label "Uložit rám jako…">
 <!ENTITY saveFrameCmd.accesskey "r">
-<!ENTITY saveLinkAsCmd.label "Uložit odkaz jako...">
-<!ENTITY saveLinkCmd.label "Uložit odkaz jako...">
+<!ENTITY saveLinkAsCmd.label "Uložit odkaz jako…">
+<!ENTITY saveLinkCmd.label "Uložit odkaz jako…">
 <!ENTITY saveLinkCmd.accesskey "k">
-<!ENTITY saveImageAsCmd.label "Uložit obrázek jako...">
-<!ENTITY saveImageCmd.label "Uložit obrázek jako...">
+<!ENTITY saveImageAsCmd.label "Uložit obrázek jako…">
+<!ENTITY saveImageCmd.label "Uložit obrázek jako…">
 <!ENTITY saveImageCmd.accesskey "a">
 <!ENTITY copyCmd.label "Kopírovat">
 <!ENTITY copyCmd.accesskey "k">
@@ -103,5 +103,5 @@
 <!ENTITY spellNoSuggestions.label "(Žádné návrhy nenalezeny)">
 <!ENTITY spellDictionaries.label "Jazyky">
 <!ENTITY spellDictionaries.accesskey "J">
-<!ENTITY spellAddDictionaries.label "Získat další slovníky...">
+<!ENTITY spellAddDictionaries.label "Získat další slovníky…">
 <!ENTITY spellAddDictionaries.accesskey "D">

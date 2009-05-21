@@ -8,14 +8,14 @@
 <!ENTITY mainWindow.preface "Zdrojový kód pre: ">
 <!ENTITY fileMenu.label "Súbor">
 <!ENTITY fileMenu.accesskey "S">
-<!ENTITY savePageCmd.label "Uložiť stránku ako...">
+<!ENTITY savePageCmd.label "Uložiť stránku ako…">
 <!ENTITY savePageCmd.accesskey "t">
 <!ENTITY savePageCmd.commandkey "S">
-<!ENTITY pageSetupCmd.label "Nastavenie tlače...">
+<!ENTITY pageSetupCmd.label "Nastavenie tlače…">
 <!ENTITY pageSetupCmd.accesskey "a">
 <!ENTITY printPreviewCmd.label "Ukážka pred tlačou">
 <!ENTITY printPreviewCmd.accesskey "e">
-<!ENTITY printCmd.label "Tlač...">
+<!ENTITY printCmd.label "Tlač…">
 <!ENTITY printCmd.accesskey "T">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Zavrieť">
@@ -25,7 +25,7 @@
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
-<!ENTITY goToLineCmd.label "Prejsť na riadok...">
+<!ENTITY goToLineCmd.label "Prejsť na riadok…">
 <!ENTITY goToLineCmd.accesskey "r">
 <!ENTITY goToLineCmd.commandkey "l">
 <!ENTITY viewMenu.label "Zobraziť">
@@ -45,7 +45,7 @@
 <!ENTITY menu_textReduce.accesskey "m">
 <!ENTITY menu_textReset.label "Normálne">
 <!ENTITY menu_textReset.accesskey "N">
-<!ENTITY findOnCmd.label "Hľadať na tejto stránke...">
+<!ENTITY findOnCmd.label "Hľadať na tejto stránke…">
 <!ENTITY findOnCmd.accesskey "t">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label "Hľadať znovu">

@@ -1,6 +1,6 @@
 <!ENTITY browseUrl.label 'Endereço HTTP de sua página (exemplo: "http://www.servidor.com.br/meunome"):'>
 <!ENTITY browseUrl.tooltip "O endereço HTTP:// do diretório home (não incluir o nome do arquivo)">
-<!ENTITY chooseDirButton.label "Selecionar...">
+<!ENTITY chooseDirButton.label "Selecionar…">
 <!ENTITY docDirList.label "Subdiretório do site para esta página:">
 <!ENTITY filename.label "Nome do arquivo:">
 <!ENTITY filename.tooltip 'Fornceça o nome deste arquivo, incluindo ".html", para a página web.'>
@@ -22,7 +22,7 @@
 <!ENTITY sameLocationRadio.tooltip "Publicar arquivos no mesmo endereço da página">
 <!ENTITY savePassword.label "Salvar senha">
 <!ENTITY savePassword.tooltip "Selecione isto para salvar sua senha com segurança usando o gerenciador de senhas">
-<!ENTITY selectDirectory.label "Selecionar diretório...">
+<!ENTITY selectDirectory.label "Selecionar diretório…">
 <!ENTITY serverInfo.label "Informações do servidor">
 <!ENTITY setDefSiteAndDir.label "Definir como site e diretório padrão">
 <!ENTITY setDefaultButton.label "Definir como padrão">

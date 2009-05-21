@@ -124,8 +124,8 @@
 
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "Ustvarjam privatni ključ">
-<!ENTITY createCertInfo.msg1 "Ustvarjanje ključa poteka ... To lahko traja nekaj minut ...">
-<!ENTITY createCertInfo.msg2 "Prosim, počakajte ...">
+<!ENTITY createCertInfo.msg1 "Ustvarjanje ključa poteka … To lahko traja nekaj minut …">
+<!ENTITY createCertInfo.msg2 "Prosim, počakajte …">
 
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "Zahteva podpisovanja besedila">

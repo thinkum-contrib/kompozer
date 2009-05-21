@@ -66,7 +66,7 @@
 <!ENTITY loaddevice.modname.default		"New PKCS #11 Module"><!-- (^^; 日本語名での登録はできないとのこと -->
 <!ENTITY loaddevice.filename			"モジュールファイル名:">
 <!ENTITY loaddevice.filename.accesskey		"f">
-<!ENTITY loaddevice.browse			"参照...">
+<!ENTITY loaddevice.browse			"参照…">
 <!ENTITY loaddevice.browse.accesskey		"B">
 
 <!ENTITY loaddevice.title			"PKCS #11 デバイスの追加">

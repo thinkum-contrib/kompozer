@@ -43,7 +43,7 @@
 <!ENTITY selectAllCmd.label					"Select All">  
 <!ENTITY selectAllCmd.key					"A">  
 <!ENTITY selectAllCmd.accesskey				"a"> 
-<!ENTITY preferencesCmd.label				"Preferences...">
+<!ENTITY preferencesCmd.label				"Preferences…">
 <!ENTITY preferencesCmd.key					"E">  
 <!ENTITY preferencesCmd.accesskey			"e"> 
 <!ENTITY findTypeTextCmd.label "Find Text As You Type">
@@ -80,7 +80,7 @@
 <!ENTITY wpad.label                                     "Online (Proxy: Auto Discover)">
 <!ENTITY wpad.accesskey                                 "D">
 
-<!ENTITY proxy.label                                    "Proxy Configuration...">
+<!ENTITY proxy.label                                    "Proxy Configuration…">
 <!ENTITY proxy.accesskey                                "C">
 
 <!ENTITY bidiSwitchTextDirectionItem.label        "Switch Text Direction">

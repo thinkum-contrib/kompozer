@@ -52,7 +52,7 @@
 <!ENTITY hfPageAndTotal		"ページ # / #">
 <!ENTITY hfPageAndTotal.code	"[&amp;PT]">
 <!ENTITY hfBlank		"--なし--">
-<!ENTITY hfCustom		"ユーザ設定...">
+<!ENTITY hfCustom		"ユーザ設定…">
 
-<!ENTITY customPrompt.title	"ユーザ設定...">
+<!ENTITY customPrompt.title	"ユーザ設定…">
 <!ENTITY customPrompt.prompt	"ヘッダ/フッタのテキストを入力してください">

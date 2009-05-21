@@ -3,9 +3,9 @@
 
 <!ENTITY done.label                        "Valmis">
 <!ENTITY canceled.label                    "Peruutettu">
-<!ENTITY installing.label                  "Asennetaan...">
+<!ENTITY installing.label                  "Asennetaan…">
 
-<!ENTITY starting.label                    "Aloitetaan...">
+<!ENTITY starting.label                    "Aloitetaan…">
 <!ENTITY failed.label                      "Epäonnistui">
 
 <!ENTITY downloads.title                   "Lataukset">
@@ -22,7 +22,7 @@
 <!ENTITY cmd.show.accesskeyMac            "F">
 <!ENTITY cmd.open.label                    "Avaa">
 <!ENTITY cmd.open.accesskey                "A">
-<!ENTITY cmd.openWith.label                "Avaa ohjelmalla...">
+<!ENTITY cmd.openWith.label                "Avaa ohjelmalla…">
 <!ENTITY cmd.openWith.accesskey            "A">
 <!ENTITY cmd.retry.label                   "Yritä uudestaan">
 <!ENTITY cmd.retry.accesskey               "u">

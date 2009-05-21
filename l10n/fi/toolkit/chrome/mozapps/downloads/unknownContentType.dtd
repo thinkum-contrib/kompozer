@@ -43,7 +43,7 @@
 
 <!ENTITY  openWith.label               "Avaa ohjelmalla">
 <!ENTITY  openWith.accesskey           "A">
-<!ENTITY  other.label                  "Muu...">
+<!ENTITY  other.label                  "Muu…">
 
 <!ENTITY  save.label                   "Tallenna levylle">
 <!ENTITY  save.accesskey               "T">
@@ -57,9 +57,9 @@
 
 <!ENTITY  whichIsA.label               "Tiedosto on tyyppiä:">
 
-<!ENTITY  chooseHandlerMac.label       "Valitse...">
+<!ENTITY  chooseHandlerMac.label       "Valitse…">
 <!ENTITY  chooseHandlerMac.accesskey   "V">
-<!ENTITY  chooseHandler.label          "Selaa...">
+<!ENTITY  chooseHandler.label          "Selaa…">
 <!ENTITY  chooseHandler.accesskey      "S">
 
 <!ENTITY  unknownPromptText.label     "Tallennetaanko tiedosto?">

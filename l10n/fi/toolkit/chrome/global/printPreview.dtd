@@ -35,9 +35,9 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY print.label           "Tulosta...">
+<!ENTITY print.label           "Tulosta…">
 <!ENTITY print.accesskey       "o">
-<!ENTITY pageSetup.label       "Sivun asetukset...">
+<!ENTITY pageSetup.label       "Sivun asetukset…">
 <!ENTITY pageSetup.accesskey   "e">
 <!ENTITY page.label            "Sivu:">
 <!ENTITY page.accesskey        "v">
@@ -63,9 +63,9 @@
 <!ENTITY p150.label            "150&#037;">
 <!ENTITY p175.label            "175&#037;">
 <!ENTITY p200.label            "200&#037;">
-<!ENTITY Custom.label          "Oma...">
+<!ENTITY Custom.label          "Oma…">
 <!ENTITY ShrinkToFit.label     "Sovita">
-<!ENTITY customPrompt.title    "Oma...">
+<!ENTITY customPrompt.title    "Oma…">
 
 <!ENTITY homearrow.tooltip     "Ensimmäinen sivu">
 <!ENTITY endarrow.tooltip      "Viimeinen sivu">

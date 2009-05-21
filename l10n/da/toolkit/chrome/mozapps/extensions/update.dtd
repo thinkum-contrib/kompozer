@@ -10,8 +10,8 @@
 <!ENTITY  mismatch.bottom.label           "&brandShortName; kan undersøge om der findes kompatible versioner af disse tilføjelser.">
 
 <!ENTITY  checking.wizard.title           "Leder efter kompatible tilføjelser">
-<!ENTITY  checking.top.label              "Undersøger dine inkompatible tilføjelser for opdateringer...">
-<!ENTITY  checking.status                 "Dette kan tage nogle minutter...">
+<!ENTITY  checking.top.label              "Undersøger dine inkompatible tilføjelser for opdateringer…">
+<!ENTITY  checking.status                 "Dette kan tage nogle minutter…">
 
 <!ENTITY  found.wizard.title               "Fandt kompatible tilføjelser">
 <!ENTITY  found.top.label                 "Vælg de tilføjelser du ønsker at installere:">
@@ -20,7 +20,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "T">
 
 <!ENTITY  installing.wizard.title         "Installerer kompatible tilføjelser">
-<!ENTITY  installing.top.label            "Downloader og installerer opdateringer til dine tilføjelser...">
+<!ENTITY  installing.top.label            "Downloader og installerer opdateringer til dine tilføjelser…">
 
 <!ENTITY  noupdates.wizard.title          "Ingen kompatible tilføjelser blev fundet">
 <!ENTITY  noupdates.intro.desc            "&brandShortName; var ikke i stand til at finde opdateringer til dine inkompatible tilføjelser.">
@@ -37,7 +37,7 @@
 
 <!ENTITY  versioninfo.wizard.title        "Undersøger kompatibilitet på tilføjelser">
 <!ENTITY  versioninfo.top.label           "Undersøger dine tilføjelser for kompatibilitet med denne version af &brandShortName;.">
-<!ENTITY  versioninfo.waiting             "Dette kan tage nogle minutter...">
+<!ENTITY  versioninfo.waiting             "Dette kan tage nogle minutter…">
 
 <!ENTITY  installerrors.wizard.title      "Problemer under installering af opdateringer">
 <!ENTITY  installerrors.intro.label       "&brandShortName; oplevede problemer under opdatering af nogle af dine tilføjelser.">
@@ -45,5 +45,5 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Klik 'afslut' for at fortsætte opstarten af &brandShortName;.">
 <!ENTITY  enableChecking.label            "Tillad &brandShortName; at søge efter opdateringer.">
-<!ENTITY  details.label                   "Detaljer...">
+<!ENTITY  details.label                   "Detaljer…">
 <!ENTITY  details.accesskey               "D">

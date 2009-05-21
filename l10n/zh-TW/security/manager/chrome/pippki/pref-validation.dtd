@@ -2,7 +2,7 @@
 <!ENTITY  pref.validation.title                   "驗證">
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "使用此 CRL 管理員以管理存在你的憑證資料庫裡的憑證廢止清冊 (Certificate Revocation Lists, CRL)。">
-<!ENTITY validation.managecrls.button "管理廢止清冊 (CRL)...">
+<!ENTITY validation.managecrls.button "管理廢止清冊 (CRL)…">
 <!ENTITY validation.managecrls.accesskey "M">
 <!ENTITY validation.crlmanager.label "管理廢止清冊 (CRL)">
 <!ENTITY validation.crlname.label "名稱">

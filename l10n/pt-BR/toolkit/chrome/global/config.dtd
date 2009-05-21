@@ -57,7 +57,7 @@
 <!ENTITY copyName.accesskey "c">
 <!ENTITY copyValue.label "Copiar valor">
 <!ENTITY copyValue.accesskey "v">
-<!ENTITY modify.label "Editar...">
+<!ENTITY modify.label "Editar…">
 <!ENTITY modify.accesskey "E">
 <!ENTITY toggle.label "Inverter valor">
 <!ENTITY toggle.accesskey "I">
@@ -65,11 +65,11 @@
 <!ENTITY reset.accesskey "R">
 <!ENTITY new.label "Nova opção">
 <!ENTITY new.accesskey "n">
-<!ENTITY string.label "String...">
+<!ENTITY string.label "String…">
 <!ENTITY string.accesskey "s">
-<!ENTITY integer.label "Inteira...">
+<!ENTITY integer.label "Inteira…">
 <!ENTITY integer.accesskey "I">
-<!ENTITY boolean.label "Boolean...">
+<!ENTITY boolean.label "Boolean…">
 <!ENTITY boolean.accesskey "b">
 <!ENTITY lock.label "Travar">
 <!ENTITY lock.accesskey "t">

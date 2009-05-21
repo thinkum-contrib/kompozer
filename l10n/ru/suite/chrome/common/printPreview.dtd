@@ -35,9 +35,9 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY print.label "Печать...">
+<!ENTITY print.label "Печать…">
 <!ENTITY print.accesskey "е">
-<!ENTITY pageSetup.label "Параметры страницы...">
+<!ENTITY pageSetup.label "Параметры страницы…">
 <!ENTITY pageSetup.accesskey "а">
 <!ENTITY page.label "Страница:">
 <!ENTITY page.accesskey "т">
@@ -63,9 +63,9 @@
 <!ENTITY p150.label "150&#037;">
 <!ENTITY p175.label "175&#037;">
 <!ENTITY p200.label "200&#037;">
-<!ENTITY Custom.label "Настройка...">
+<!ENTITY Custom.label "Настройка…">
 <!ENTITY ShrinkToFit.label "Сжать до ширины страницы">
-<!ENTITY customPrompt.title "Настройка масштаба...">
+<!ENTITY customPrompt.title "Настройка масштаба…">
 <!ENTITY homearrow.tooltip "Первая страница">
 <!ENTITY endarrow.tooltip "Последняя страница">
 <!ENTITY rightarrow.tooltip "Следующая страница">

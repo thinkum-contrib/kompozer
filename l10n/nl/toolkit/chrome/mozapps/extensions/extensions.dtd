@@ -21,7 +21,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey    "z">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Zoekt updates voor uw add-ons">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Zoekt updates voor uw thema’s">
-<!ENTITY cmd.installLocalFile.label       "Installeren...">
+<!ENTITY cmd.installLocalFile.label       "Installeren…">
 <!ENTITY cmd.installFile.accesskey        "s">
 <!ENTITY cmd.installFileAddon.tooltip     "Een add-on installeren">
 <!ENTITY cmd.installFileTheme.tooltip     "Een thema installeren">
@@ -109,7 +109,7 @@
 <!ENTITY updateSuccess.label              "Update succesvol voltooid.">
 <!ENTITY installSuccess.label             "Installatie succesvol voltooid.">
 <!ENTITY installSuccessRestart.label      "Herstart om de installatie te voltooien.">
-<!ENTITY installWaiting.label             "Wachten...">
-<!ENTITY installIncompatibleUpdate.label  "Compatibiliteit controleren...">
-<!ENTITY installFinishing.label           "Bezig met installeren...">
+<!ENTITY installWaiting.label             "Wachten…">
+<!ENTITY installIncompatibleUpdate.label  "Compatibiliteit controleren…">
+<!ENTITY installFinishing.label           "Bezig met installeren…">
 <!ENTITY installFailure.label             "Installatie mislukt.">

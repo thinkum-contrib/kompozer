@@ -24,7 +24,7 @@
 
 <!ENTITY  validation.crl.caption      "CRL">
 <!ENTITY  validation.crl.description "Uporabite upravitelja CRL za upravljanje z zavrnitvenimi seznami certifikatov (Certificate Revocation List - CRL), ki so spravljeni v vaši podatkovni bazi certifikatov.">
-<!ENTITY  validation.managecrls.button      "Upravljaj CRL-je ...">
+<!ENTITY  validation.managecrls.button      "Upravljaj CRL-je …">
 <!ENTITY  validation.managecrls.accesskey   "M">
 <!ENTITY  validation.crlmanager.label       "Upravljanje CRL-jev">
 <!ENTITY  validation.crlname.label          "Ime">

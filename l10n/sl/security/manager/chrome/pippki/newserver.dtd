@@ -42,7 +42,7 @@
 <!ENTITY newserver.reason1  "- Vaš brskalnik ne prepozna uradne osebe za certifikate (CA), ki je izdala certifikat tej strani">
 <!ENTITY newserver.reason2  "- Certifikat te strani ni popoln zaradi nepravilnih nastavitvev strežnika">
 <!ENTITY newserver.notify   "Prosim, obvestite vzdrževalca strani o tem problemu.">
-<!ENTITY newserver.examine  "Preveri certifikat ...">
+<!ENTITY newserver.examine  "Preveri certifikat …">
 <!ENTITY newserver.remember "Ta certifikat sprejmi za vedno">
 <!ENTITY newserver.session  "Ta certifikat sprejmi začasno, le za to sejo">
 <!ENTITY newserver.refuse   "Tega certifikata ne sprejmi in se ne poveži s to spletno stranjo">

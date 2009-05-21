@@ -14,7 +14,7 @@
 <!ENTITY cmd.checkUpdatesAll.accesskey "C">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Cerca aggiornamenti per i componenti installati">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Cerca aggiornamenti per i temi installati">
-<!ENTITY cmd.installLocalFile.label "Installa...">
+<!ENTITY cmd.installLocalFile.label "Installa…">
 <!ENTITY cmd.installFile.accesskey "I">
 <!ENTITY cmd.installFileAddon.tooltip "Installa un componente aggiuntivo">
 <!ENTITY cmd.installFileTheme.tooltip "Installa un tema">
@@ -91,7 +91,7 @@
 <!ENTITY updateSuccess.label "Aggiornamento completato correttamente.">
 <!ENTITY installSuccess.label "Installazione completata correttamente.">
 <!ENTITY installSuccessRestart.label "Riavviare per completare l'installazione.">
-<!ENTITY installWaiting.label "Attendere...">
-<!ENTITY installIncompatibleUpdate.label "Controllo compatibilità...">
-<!ENTITY installFinishing.label "Installazione in corso...">
+<!ENTITY installWaiting.label "Attendere…">
+<!ENTITY installIncompatibleUpdate.label "Controllo compatibilità…">
+<!ENTITY installFinishing.label "Installazione in corso…">
 <!ENTITY installFailure.label "Installazione fallita.">

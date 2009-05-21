@@ -3,8 +3,8 @@
 <!ENTITY window.height "300">
 <!ENTITY done.label "完成">
 <!ENTITY canceled.label "已取消">
-<!ENTITY installing.label "安裝中...">
-<!ENTITY starting.label "開啟中...">
+<!ENTITY installing.label "安裝中…">
+<!ENTITY starting.label "開啟中…">
 <!ENTITY failed.label "失敗">
 <!ENTITY downloads.title "下載">
 <!ENTITY cmd.pause.label "暫停">
@@ -19,7 +19,7 @@
 <!ENTITY cmd.show.accesskeyMac "F">
 <!ENTITY cmd.open.label "開啟">
 <!ENTITY cmd.open.accesskey "O">
-<!ENTITY cmd.openWith.label "開啟方式:...">
+<!ENTITY cmd.openWith.label "開啟方式:…">
 <!ENTITY cmd.openWith.accesskey "h">
 <!ENTITY cmd.retry.label "重試">
 <!ENTITY cmd.retry.accesskey "R">

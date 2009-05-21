@@ -2,14 +2,14 @@
 <!ENTITY filemenu.accesskey "f">
 <!ENTITY newBlankPageCmd.label "新規ページを新しいウィンドウで">
 <!ENTITY newBlankPage.accesskey "P" >
-<!ENTITY newOtherCmd.label "詳細...">
+<!ENTITY newOtherCmd.label "詳細…">
 
 <!ENTITY newMenu.label "新規作成">
 <!ENTITY newTab.label "新しいタブで">
 <!ENTITY openFileCmd.label "ファイルを開く">
 <!ENTITY fileopen.accesskey "o">
 <!ENTITY fileopen.keybinding "o">
-<!ENTITY openremoteCmd.label "URIを指定して開く...">
+<!ENTITY openremoteCmd.label "URIを指定して開く…">
 <!ENTITY fileopenremote.accesskey "l">
 <!ENTITY fileopenremote.keybinding "l">
 <!ENTITY fileRecentMenu.label "最近使用したページ">
@@ -21,27 +21,27 @@
 <!ENTITY saveCmd.label "保存">
 <!ENTITY filesave.accesskey "s">
 <!ENTITY filesave.keybinding "s">
-<!ENTITY saveAsCmd.label "名前を付けて保存...">
+<!ENTITY saveAsCmd.label "名前を付けて保存…">
 <!ENTITY filesaveas.accesskey "A">
 
 <!ENTITY publishCmd.label "公開">
 <!ENTITY publishcmd.accesskey "b">
-<!ENTITY publishAsCmd.label "名前を付けて公開...">
+<!ENTITY publishAsCmd.label "名前を付けて公開…">
 <!ENTITY publishas.accesskey "h">
-<!ENTITY exportToTextCmd.label "テキストとして出力...">
+<!ENTITY exportToTextCmd.label "テキストとして出力…">
 <!ENTITY fileexporttotext.accesskey "T">
-<!ENTITY saveAsChangeEncodingCmd.label "文字エンコードを指定して保存...">
+<!ENTITY saveAsChangeEncodingCmd.label "文字エンコードを指定して保存…">
 <!ENTITY filesaveandchangeencoding.accesskey "E">
 <!ENTITY previewCmd.label "ページをプレビュー">
 <!ENTITY filepreview.accesskey "w">
-<!ENTITY sendPageCmd.label "ページを送信...">
+<!ENTITY sendPageCmd.label "ページを送信…">
 <!ENTITY sendPage.accesskey "d">
-<!ENTITY printSetupCmd.label "印刷ページ設定...">
+<!ENTITY printSetupCmd.label "印刷ページ設定…">
 <!ENTITY fileprintsetup.accesskey "u">
 <!ENTITY printPreviewCmd.label "印刷プレビュー">
 <!ENTITY fileprintpreview.accesskey "v">
-<!ENTITY printCmd.label "印刷...">
-<!ENTITY printButtonCmd.label "印刷...">
+<!ENTITY printCmd.label "印刷…">
+<!ENTITY printButtonCmd.label "印刷…">
 <!ENTITY fileprint.accesskey "p">
 <!ENTITY fileprint.keybinding "p">
 <!ENTITY closeCmd.label "閉じる">
@@ -63,7 +63,7 @@
 <!ENTITY pasteNoFormatting.accesskey "o">
 <!ENTITY pasteAs.label "形式を指定して貼り付け">
 <!ENTITY pasteAs.accesskey "a">
-<!ENTITY publishSettings.label "公開サイト設定...">
+<!ENTITY publishSettings.label "公開サイト設定…">
 <!ENTITY publishSettings.accesskey "b">
 <!ENTITY detachFromTemplate.label "雛型と区別する">
 
@@ -90,7 +90,7 @@
 <!ENTITY editpastequotation.keybinding "v">
 <!ENTITY editStripQuotesCmd.label "引用符を外す">
 <!ENTITY editRewrapCmd.label "再改行">
-<!ENTITY findCmd.label "検索・置換...">
+<!ENTITY findCmd.label "検索・置換…">
 <!ENTITY editfind.accesskey "f">
 <!ENTITY editfind.keybinding "f">
 <!ENTITY editfind.keybinding2 "VK_F19">
@@ -134,59 +134,59 @@
 
 <!ENTITY insertMenu.label "挿入">
 <!ENTITY insertmenu.accesskey "i">
-<!ENTITY insertLinkCmd.label "リンク...">
+<!ENTITY insertLinkCmd.label "リンク…">
 <!ENTITY insertlink.accesskey "l">
 <!ENTITY insertlink.keybinding "l">
-<!ENTITY insertAnchorCmd.label "名前付きアンカー...">
+<!ENTITY insertAnchorCmd.label "名前付きアンカー…">
 <!ENTITY insertanchor.accesskey "A">
-<!ENTITY insertImageCmd.label "画像...">
+<!ENTITY insertImageCmd.label "画像…">
 <!ENTITY insertimage.accesskey "i">
-<!ENTITY insertImageMapCmd.label "イメージマップ...">
+<!ENTITY insertImageMapCmd.label "イメージマップ…">
 <!ENTITY insertHLineCmd.label "水平線">
 <!ENTITY inserthline.accesskey "o">
-<!ENTITY insertTableCmd.label "テーブル...">
+<!ENTITY insertTableCmd.label "テーブル…">
 <!ENTITY inserttable.accesskey "t">
-<!ENTITY insertFormMenu.label "入力フォーム...">
+<!ENTITY insertFormMenu.label "入力フォーム…">
 <!ENTITY insertformmenu.accesskey "F">
-<!ENTITY insertCharsCmd.label "文字・シンボル...">
+<!ENTITY insertCharsCmd.label "文字・シンボル…">
 <!ENTITY insertchars.accesskey "C">
 <!ENTITY insertBreakCmd.label "強制改行">
 <!ENTITY insertbreak.accesskey "b">
 <!ENTITY insertBreakAllCmd.label "画像の下で改行">
 <!ENTITY insertbreakall.accesskey "k">
 
-<!ENTITY insertNbspCmd.label "空白 (&amp;nbsp;)...">
+<!ENTITY insertNbspCmd.label "空白 (&amp;nbsp;)…">
 <!ENTITY insertNbsp.accesskey "n">
 
-<!ENTITY insertHTMLCmd.label "HTML...">
+<!ENTITY insertHTMLCmd.label "HTML…">
 <!ENTITY insertHTMLCmd.accesskey "h">
-<!ENTITY insertPHPCode.label "PHPコード...">
+<!ENTITY insertPHPCode.label "PHPコード…">
 <!ENTITY insertphpcode.accesskey "p">
-<!ENTITY insertComment.label "コメント...">
+<!ENTITY insertComment.label "コメント…">
 <!ENTITY insertcomment.accesskey "m">
 
 
-<!ENTITY insertFormCmd.label "フォーム...">
+<!ENTITY insertFormCmd.label "フォーム…">
 <!ENTITY insertform.accesskey "D">
-<!ENTITY insertInputTagCmd.label "フィールド...">
+<!ENTITY insertInputTagCmd.label "フィールド…">
 <!ENTITY insertinputtag.accesskey "e">
-<!ENTITY insertInputImageCmd.label "画像...">
+<!ENTITY insertInputImageCmd.label "画像…">
 <!ENTITY insertinputimage.accesskey "I">
-<!ENTITY insertTextAreaCmd.label "文字列入力エリア...">
+<!ENTITY insertTextAreaCmd.label "文字列入力エリア…">
 <!ENTITY inserttextarea.accesskey "T">
-<!ENTITY insertSelectCmd.label "選択リスト...">
+<!ENTITY insertSelectCmd.label "選択リスト…">
 <!ENTITY insertselect.accesskey "S">
-<!ENTITY insertButtonCmd.label "ボタン...">
+<!ENTITY insertButtonCmd.label "ボタン…">
 <!ENTITY insertbutton.accesskey "B">
 <!ENTITY insertLabelCmd.label "ラベル">
 <!ENTITY insertlabel.accesskey "L">
-<!ENTITY insertFieldSetCmd.label "フィールドセット...">
+<!ENTITY insertFieldSetCmd.label "フィールドセット…">
 <!ENTITY insertfieldset.accesskey "F">
 <!ENTITY insertIsIndexCmd.label "単純検索 (isindex)">
 <!ENTITY insertisindex.accesskey "x">
 
 
-<!ENTITY createLinkCmd.label "リンクを作成...">
+<!ENTITY createLinkCmd.label "リンクを作成…">
 <!ENTITY createlink.accesskey "k">
 <!ENTITY editLinkCmd.label "リンク対象を新しいウィンドウで編集">
 <!ENTITY editlink.accesskey "i">
@@ -290,9 +290,9 @@
 <!ENTITY styleVar.label "変数 (var)">
 <!ENTITY styleVar.accesskey "v">
 
-<!ENTITY formatFontColor.label "文字色...">
+<!ENTITY formatFontColor.label "文字色…">
 <!ENTITY formatfontcolor.accesskey "c">
-<!ENTITY tableOrCellColor.label "テーブル・セルの背景色...">
+<!ENTITY tableOrCellColor.label "テーブル・セルの背景色…">
 <!ENTITY tableOrCellColor.accesskey "B">
 
 <!ENTITY formatremovestyles.keybinding "y">
@@ -345,7 +345,7 @@
 <!ENTITY listterm.accesskey "t">
 <!ENTITY listDefinitionCmd.label "定義内容 (dd)">
 <!ENTITY listdefinition.accesskey "d">
-<!ENTITY listProps.label "リストのプロパティ...">
+<!ENTITY listProps.label "リストのプロパティ…">
 <!ENTITY listprops.accesskey "l">
 
 <!ENTITY ParagraphSelect.tooltip "段落の書式を選択">
@@ -405,9 +405,9 @@
 <!ENTITY grid.label "グリッド配置">
 <!ENTITY grid.accesskey "t">
 
-<!ENTITY pageProperties.label "ページのタイトルとプロパティ...">
+<!ENTITY pageProperties.label "ページのタイトルとプロパティ…">
 <!ENTITY pageproperties.accesskey "g">
-<!ENTITY colorsAndBackground.label "ページの配色と背景...">
+<!ENTITY colorsAndBackground.label "ページの配色と背景…">
 <!ENTITY colorsandbackground.accesskey "u">
 
 
@@ -468,7 +468,7 @@
 <!ENTITY tablesplitcell.accesskey "c">
 <!ENTITY convertToTable.label "選択文字列からテーブルを作成">
 <!ENTITY converttotable.accesskey "r">
-<!ENTITY tableProperties.label "テーブルのプロパティ...">
+<!ENTITY tableProperties.label "テーブルのプロパティ…">
 <!ENTITY tableProperties.accesskey "o">
 
 
@@ -625,7 +625,7 @@
 <!ENTITY updateTOC.accesskey "u">
 <!ENTITY removeTOC.label "削除">
 <!ENTITY removeTOC.accesskey "r">
-<!ENTITY tocMenu.label "目次...">
+<!ENTITY tocMenu.label "目次…">
 <!ENTITY tocMenu.accesskey "b">
 
 
