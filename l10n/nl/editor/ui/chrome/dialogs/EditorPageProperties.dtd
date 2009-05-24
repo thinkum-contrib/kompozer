@@ -1,25 +1,54 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Pagina eigenschappen">
+
+<!ENTITY general.label "Algemene informatie">
+<!ENTITY location.label "Locatie:">
+<!ENTITY lastModified.label "Laatst veranderd:">
+<!ENTITY titleInput.label "Titel:">
+<!ENTITY titleInput.accessKey "T">
+<!ENTITY authorInput.label "Auteur:">
+<!ENTITY authorInput.accessKey "A">
+<!ENTITY descriptionInput.label "Beschrijving:">
+<!ENTITY descriptionInput.accessKey "B">
+<!ENTITY locationNewPage.label "[Nieuwe pagina, nog niet opgeslagen]">
 <!ENTITY EditHEADSource1.label "Gevorderde gebruikers:">
 <!ENTITY EditHEADSource2.label "Gebruik &quot;HTML bron&quot; in het menu Beeld of de Bewerkingsmoduswerkbalk, om andere inhoud van het &lt;head&gt; gebied te bewerken.">
-<!ENTITY authorInput.accessKey "A">
-<!ENTITY authorInput.label "Auteur:">
-<!ENTITY chooseCharsetButton.label "Een tekenset selecteren">
-<!ENTITY defaultCharset.label "Tekenset">
-<!ENTITY defaultDirectionRadio.label "Geen richting aangegeven">
-<!ENTITY descriptionInput.accessKey "B">
-<!ENTITY descriptionInput.label "Beschrijving:">
-<!ENTITY fromTemplate.label "Dit document is aan een sjabloon aangehecht">
-<!ENTITY general.label "Algemene informatie">
-<!ENTITY i18nHeader "Internationalisatie">
-<!ENTITY language.label "Taal:">
-<!ENTITY languageChoiceButton.label "Een taal selecteren">
-<!ENTITY lastModified.label "Laatst veranderd:">
-<!ENTITY location.label "Locatie:">
-<!ENTITY locationNewPage.label "[Nieuwe pagina, nog niet opgeslagen]">
-<!ENTITY ltrDirectionRadio.label "Links naar rechts">
-<!ENTITY rtlDirectionRadio.label "Rechts naar links">
+
 <!ENTITY template.label "Sjablonen">
 <!ENTITY templateCheckbox.label "Deze pagina is een sjabloon">
-<!ENTITY titleInput.accessKey "T">
-<!ENTITY titleInput.label "Titel:">
-<!ENTITY windowTitle.label "Pagina eigenschappen">
-<!ENTITY writingDirection.label "Schrijfrichting:">
+<!ENTITY fromTemplate.label "Dit document is aan een sjabloon aangehecht">
+
+<!ENTITY i18nHeader                  "Internationalisatie">
+
+<!ENTITY writingDirection.label      "Schrijfrichting:">
+<!ENTITY defaultDirectionRadio.label "Geen richting aangegeven">
+<!ENTITY ltrDirectionRadio.label     "Links naar rechts">
+<!ENTITY rtlDirectionRadio.label     "Rechts naar links">
+
+<!ENTITY language.label              "Taal:">
+<!ENTITY languageChoiceButton.label  "Een taal selecteren">
+
+<!ENTITY defaultCharset.label        "Tekenset">
+<!ENTITY chooseCharsetButton.label   "Een tekenset selecteren">

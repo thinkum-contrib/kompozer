@@ -1,41 +1,80 @@
-<!ENTITY Accept.accesskey "O">
-<!ENTITY Accept.label "Soorten accepteren:">
-<!ENTITY AccessKey.accesskey "S">
-<!ENTITY AccessKey.label "Sneltoets:">
-<!ENTITY GroupName.label "Groepnaam:">
-<!ENTITY ImageProperties.accesskey "F">
-<!ENTITY ImageProperties.label "Afbeeldingseigenschappen…">
-<!ENTITY InitialValue.label "Beginwaarde:">
-<!ENTITY InputChecked.accesskey "A">
-<!ENTITY InputChecked.label "In het begin aangevinkt">
-<!ENTITY InputDisabled.accesskey "U">
-<!ENTITY InputDisabled.label "Uitgeschakeld">
-<!ENTITY InputName.label "Veldnaam:">
-<!ENTITY InputReadOnly.accesskey "A">
-<!ENTITY InputReadOnly.label "Alleen-lezen">
-<!ENTITY InputSelected.accesskey "G">
-<!ENTITY InputSelected.label "In het begin geselecteerd">
-<!ENTITY InputSettings.label "Veldinstellingen">
-<!ENTITY InputType.accesskey "V">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Input Tag Properties Dialog.
+   -
+   - The Initial Developer of the Original Code is
+   - Neil Rashbrook.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s): Neil Rashbrook <neil@parkwaycc.co.uk>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY windowTitle.label "Formulierveldeigenschappen">
+<!ENTITY windowTitleImage.label "Formulierafbeeldingseigenschappen">
+
 <!ENTITY InputType.label "Veldsoort">
-<!ENTITY InputValue.label "Veldwaarde:">
-<!ENTITY Name.accesskey "N">
-<!ENTITY TextLength.accesskey "M">
-<!ENTITY TextLength.label "Maximumlengte:">
-<!ENTITY TextSize.accesskey "V">
-<!ENTITY TextSize.label "Veldgrootte:">
-<!ENTITY Value.accesskey "W">
-<!ENTITY button.value "Knop">
+<!ENTITY InputType.accesskey "V">
+<!ENTITY text.value "Tekst">
+<!ENTITY password.value "Wachtwoord">
 <!ENTITY checkbox.value "Selectievakje">
+<!ENTITY radio.value "Keuzerondje">
+<!ENTITY submit.value "Verzendknop ">
+<!ENTITY reset.value "Herinitialisatieknop">
 <!ENTITY file.value "Bestand">
 <!ENTITY hidden.value "Verborgen">
 <!ENTITY image.value "Afbeelding">
-<!ENTITY password.value "Wachtwoord">
-<!ENTITY radio.value "Keuzerondje">
-<!ENTITY reset.value "Herinitialisatieknop">
-<!ENTITY submit.value "Verzendknop ">
-<!ENTITY tabIndex.accesskey "T">
+<!ENTITY button.value "Knop">
+
+<!ENTITY InputSettings.label "Veldinstellingen">
+<!ENTITY InputName.label "Veldnaam:">
+<!ENTITY GroupName.label "Groepnaam:">
+<!ENTITY Name.accesskey "N">
+<!ENTITY InputValue.label "Veldwaarde:">
+<!ENTITY InitialValue.label "Beginwaarde:">
+<!ENTITY Value.accesskey "W">
+<!ENTITY InputChecked.label "In het begin aangevinkt">
+<!ENTITY InputChecked.accesskey "a">
+<!ENTITY InputSelected.label "In het begin geselecteerd">
+<!ENTITY InputSelected.accesskey "g">
+<!ENTITY InputReadOnly.label "Alleen-lezen">
+<!ENTITY InputReadOnly.accesskey "A">
+<!ENTITY InputDisabled.label "Uitgeschakeld">
+<!ENTITY InputDisabled.accesskey "U">
 <!ENTITY tabIndex.label "Tabbladindex:">
-<!ENTITY text.value "Tekst">
-<!ENTITY windowTitle.label "Formulierveldeigenschappen">
-<!ENTITY windowTitleImage.label "Formulierafbeeldingseigenschappen">
+<!ENTITY tabIndex.accesskey "T">
+<!ENTITY TextSize.label "Veldgrootte:">
+<!ENTITY TextSize.accesskey "V">
+<!ENTITY TextLength.label "Maximumlengte:">
+<!ENTITY TextLength.accesskey "M">
+<!ENTITY AccessKey.label "Sneltoets:">
+<!ENTITY AccessKey.accesskey "S">
+<!ENTITY Accept.label "Soorten accepteren:">
+<!ENTITY Accept.accesskey "o">
+
+<!ENTITY ImageProperties.label "Afbeeldingseigenschappen…">
+<!ENTITY ImageProperties.accesskey "f">

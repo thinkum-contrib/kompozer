@@ -11,15 +11,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Nvu.
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
    -
    - The Initial Developer of the Original Code is
-   - Linspire Inc..
-   - Portions created by the Initial Developer are Copyright (C) 2004
+   - Fabien Cazenave.
+   - Portions created by the Initial Developer are Copyright (C) 2002
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -   Original author: Fabien Cazenave <kaze@kompozer.net>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,32 +35,6 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY previewColour.label       "Voorbeeld:">
-<!ENTITY dialog.title              "Kleurenkiezer">
 
-<!ENTITY predef.label              "Voorgedefinieerde kleuren:">
-<!ENTITY rgb.label                 "RGB">
-<!ENTITY hsb.label                 "KVH">
+<!ENTITY domExplorer.label                      "Tekst te vertalen">
 
-<!ENTITY red.label                 "Rood:">
-<!ENTITY green.label               "Groen:">
-<!ENTITY blue.label                "Blauw:">
-
-<!ENTITY hue.label                 "Kleurtoon:">
-<!ENTITY saturation.label          "Verzadiging:">
-<!ENTITY brightness.label          "Helderheid:">
-
-<!ENTITY transparency.label        "Transparant">
-
-<!ENTITY background.label          "Achtergrond voor:">
-<!ENTITY background.accessKey      "A">
-<!ENTITY table.label               "Tabel">
-<!ENTITY table.accessKey           "T">
-<!ENTITY cell.label                "Cel(len)">
-<!ENTITY cell.accessKey            "C">
-
-<!ENTITY lastPickedColor.label     "Laatst-gekozen kleur">
-<!ENTITY lastPickedColor.accessKey "L">
-
-<!ENTITY hexColor.label            "Hex:">
-<!ENTITY nameColor.label           "Naam:">

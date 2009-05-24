@@ -1,30 +1,59 @@
-<!ENTITY borderEditField.accessKey "R">
-<!ENTITY borderEditField.label "Rand:">
-<!ENTITY borderEditField.tooltip "Typ een nummer voor de tabelrand, of nul (0) voor geen rand.">
-<!ENTITY bottomVAlignment.label "Onder">
-<!ENTITY cellPadding.label "Celvulling (padding)">
-<!ENTITY cellSpacing.label "Cellafstand (spacing)">
-<!ENTITY cellTab.label "Cel">
-<!ENTITY centerHAlignment.label "Midden">
-<!ENTITY horizAlignment.label "Horizontale uitlijning:">
-<!ENTITY leftHAlignment.label "Links">
-<!ENTITY middleVAlignment.label "Midden">
-<!ENTITY nowrapWrapping.label "Niet afbreken">
-<!ENTITY numColumnsEditField.accessKey "K">
-<!ENTITY numColumnsEditField.label "Kolommen:">
-<!ENTITY numRowsEditField.accessKey "R">
-<!ENTITY numRowsEditField.label "Rijen:">
-<!ENTITY pixels.label "pixels">
-<!ENTITY preciselyTab.label "Precies">
-<!ENTITY quicklyTab.label "Snel">
-<!ENTITY rightHAlignment.label "Rechts">
-<!ENTITY size.label "Grootte">
-<!ENTITY textWrapping.label "Tekstafbreking:">
-<!ENTITY topVAlignment.label "Boven">
-<!ENTITY unspecifiedHAlignment.label "Niet opgegeven">
-<!ENTITY unspecifiedVAlignment.label "Niet opgegeven">
-<!ENTITY vertAlignment.label "Verticale uitlijning:">
-<!ENTITY widthEditField.accessKey "B">
-<!ENTITY widthEditField.label "Breedte:">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
 <!ENTITY windowTitle.label "Tabel invoegen">
+
+<!ENTITY size.label "Grootte">
+<!ENTITY numRowsEditField.label "Rijen:">
+<!ENTITY numRowsEditField.accessKey "R">
+<!ENTITY numColumnsEditField.label "Kolommen:">
+<!ENTITY numColumnsEditField.accessKey "K">
+<!ENTITY widthEditField.label "Breedte:">
+<!ENTITY widthEditField.accessKey "B">
+<!ENTITY borderEditField.label "Rand:">
+<!ENTITY borderEditField.accessKey "R">
+<!ENTITY borderEditField.tooltip "Typ een nummer voor de tabelrand, of nul (0) voor geen rand.">
+<!ENTITY pixels.label "pixels">
+
+<!ENTITY quicklyTab.label "Snel">
+<!ENTITY preciselyTab.label "Precies">
+<!ENTITY cellTab.label "Cel">
+
+<!ENTITY horizAlignment.label "Horizontale uitlijning:">
+<!ENTITY unspecifiedHAlignment.label "Niet opgegeven">
+<!ENTITY leftHAlignment.label "Links">
+<!ENTITY centerHAlignment.label "Midden">
+<!ENTITY rightHAlignment.label "Rechts">
+
+<!ENTITY vertAlignment.label "Verticale uitlijning:">
+<!ENTITY unspecifiedVAlignment.label "Niet opgegeven">
+<!ENTITY topVAlignment.label "Boven">
+<!ENTITY middleVAlignment.label "Midden">
+<!ENTITY bottomVAlignment.label "Onder">
+
+<!ENTITY textWrapping.label "Tekstafbreking:">
 <!ENTITY wrapWrapping.label "Afbreken">
+<!ENTITY nowrapWrapping.label "Niet afbreken">
+
+<!ENTITY cellSpacing.label "Cellafstand (spacing)">
+<!ENTITY cellPadding.label "Celvulling (padding)">

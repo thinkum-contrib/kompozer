@@ -43,7 +43,7 @@
 <!ENTITY setPassword.reenterPassword.label "Nieuw wachtwoord (nogmaals)">
 <!ENTITY setPassword.meter.label "Wachtwoordkwaliteitsmeter:">
 <!ENTITY setPassword.meter.loading "Bezig met laden">
-   
+
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "Herinitialiseren">
 <!ENTITY resetPassword.title  "Hoofdwachtwoord herinitialiseren">
@@ -86,7 +86,7 @@
 <!-- Strings for the MismatchDomain dialog  -->
 <!ENTITY domainMismatch.title "Beveiligingsfout: domeinnaam komt niet overeen">
 <!ENTITY examineCert.label "Certificaat weergeven">
-<!ENTITY examineCert.accesskey "W">
+<!ENTITY examineCert.accesskey "w">
 
 <!-- Strings for the Server cert expired dialog  -->
 <!ENTITY serverCertExpired.continue "Wilt u toch doorgaan?">
@@ -131,4 +131,3 @@
 <!ENTITY formSigning.title "Tekstondertekeningsverzoek">
 <!ENTITY formSigning.cert "Ondertekeningscertificaat">
 <!ENTITY formSigning.confirmPassword "Bevestig dat u instemt met het ondertekenen van dit tekstbericht door middel van het door u geselecteerde certificaat door het hoofdwachtwoord in te voeren:">
-

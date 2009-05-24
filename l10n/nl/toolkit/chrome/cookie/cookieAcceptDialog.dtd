@@ -5,7 +5,7 @@
 <!ENTITY     props.path.label               "Pad:">
 <!ENTITY     props.secure.label             "Verzenden bij:">
 <!ENTITY     props.expires.label            "Verloopt:">
-<!ENTITY     props.policy.label             "Beleid:">
+<!ENTITY     props.policy.label             "Beleid:"> 
 
 <!ENTITY     button.allow.label             "Toestaan">
 <!ENTITY     button.allow.accesskey         "T">
@@ -17,3 +17,4 @@
 <!ENTITY     dialog.title                   "Instellen van cookie bevestigen">
 <!ENTITY     dialog.remember.label          "Mijn keuze gebruiken voor alle cookies van deze website">
 <!ENTITY     dialog.remember.accesskey      "M">
+

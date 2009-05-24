@@ -39,7 +39,7 @@
 <!ENTITY  license.accept                  "Ik accepteer de voorwaarden van de licentieovereenkomst">
 <!ENTITY  license.accept.accesskey        "c">
 <!ENTITY  license.decline                 "Ik accepteer de voorwaarden van de licentieovereenkomst NIET">
-<!ENTITY  license.decline.accesskey       "T">
+<!ENTITY  license.decline.accesskey       "t">
 
 <!ENTITY  downloading.title               "Update downloaden">
 <!ENTITY  downloading.intro               "De update aan het downloaden…">
@@ -59,7 +59,7 @@
                                            
 <!ENTITY  errorManual.label               "U kunt &brandShortName; handmatig bijwerken door deze koppeling te
                                            bezoeken en de laatste versie te downloaden:">
-
+                                           
 <!ENTITY  errorpatching.title             "Bijwerken mislukt">
 <!ENTITY  errorpatching.intro             "De gedeeltelijke update kon niet worden toegepast. 
                                            &brandShortName; zal het opnieuw proberen door een volledige update te downloaden.">
@@ -71,7 +71,6 @@
 <!ENTITY  finishedBackground.title        "Update klaar om te installeren">
 <!ENTITY  finishedBackground.text         "&brandShortName; heeft een belangrijke update gedownload en gecontroleerd.
                                            Klik op de onderstaande koppeling voor meer details.">
-
 <!ENTITY  finishedBackground.name         "Update:">
 <!ENTITY  finishedBackground.more1        "Klik op &brandShortName; nu herstarten om de update nu te installeren.">
 <!ENTITY  finishedBackground.more2        "Klik op Later om dit dialoogvenster te sluiten en verder te werken.

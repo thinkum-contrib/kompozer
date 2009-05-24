@@ -1,22 +1,46 @@
-<!ENTITY activeLinkText.accessKey "C">
-<!ENTITY activeLinkText.label "Actieve koppelingstekst">
-<!ENTITY background.accessKey "H">
-<!ENTITY background.label "Achtergrond:">
-<!ENTITY backgroundImage.accessKey "T">
-<!ENTITY backgroundImage.label "Achtergrondafbeelding:">
-<!ENTITY backgroundImage.tooltip "Een afbeeldingsbestand gebruiken als achtergrond voor uw pagina">
-<!ENTITY colon.character ":">
-<!ENTITY customColorsRadio.accessKey "A">
-<!ENTITY customColorsRadio.label "Aangepaste kleuren gebruiken:">
-<!ENTITY customColorsRadio.tooltip "Deze kleurinstellingen negeren de instellingen van de browser van de lezer">
-<!ENTITY defaultColorsRadio.accessKey "S">
-<!ENTITY defaultColorsRadio.label "Standaard kleuren van lezer (kleuren niet in pagina instellen)">
-<!ENTITY defaultColorsRadio.tooltip "Alleen de kleurinstellingen van de browser (van de lezer) gebruiken">
-<!ENTITY linkText.accessKey "K">
-<!ENTITY linkText.label "Koppelingstekst">
-<!ENTITY normalText.accessKey "N">
-<!ENTITY normalText.label "Normale tekst">
-<!ENTITY pageColors.label "Paginakleuren">
-<!ENTITY visitedLinkText.accessKey "B">
-<!ENTITY visitedLinkText.label "Bezochte koppelingstekst">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
 <!ENTITY windowTitle.label "Paginakleuren en achtergrond">
+<!ENTITY pageColors.label "Paginakleuren">
+<!ENTITY defaultColorsRadio.label "Standaard kleuren van lezer (kleuren niet in pagina instellen)">
+<!ENTITY defaultColorsRadio.accessKey "S">
+<!ENTITY defaultColorsRadio.tooltip "Alleen de kleurinstellingen van de browser (van de lezer) gebruiken">
+<!ENTITY customColorsRadio.label "Aangepaste kleuren gebruiken:">
+<!ENTITY customColorsRadio.accessKey "A">
+<!ENTITY customColorsRadio.tooltip "Deze kleurinstellingen negeren de instellingen van de browser van de lezer">
+
+<!ENTITY normalText.label "Normale tekst">
+<!ENTITY normalText.accessKey "N">
+<!ENTITY linkText.label "Koppelingstekst">
+<!ENTITY linkText.accessKey "K">
+<!ENTITY activeLinkText.label "Actieve koppelingstekst">
+<!ENTITY activeLinkText.accessKey "C">
+<!ENTITY visitedLinkText.label "Bezochte koppelingstekst">
+<!ENTITY visitedLinkText.accessKey "B">
+<!ENTITY background.label "Achtergrond:">
+<!ENTITY background.accessKey "H">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Achtergrondafbeelding:">
+<!ENTITY backgroundImage.accessKey "T">
+<!ENTITY backgroundImage.tooltip "Een afbeeldingsbestand gebruiken als achtergrond voor uw pagina">

@@ -1,4 +1,4 @@
-<!ENTITY caption.label "Openen van #1">
+<!ENTITY caption.label         "Openen van #1">
 
 <!-- Localization note: The default intro text has 3 "inserts":
         #1 - replaced with the descriptive text that describes the mime type
@@ -26,16 +26,16 @@
 <!ENTITY saveToDisk.label      "Het opslaan op schijf">
 <!ENTITY saveToDisk.accesskey  "s">
 
-<!ENTITY useSystemDefault.label "Het openen met de standaardtoepassing (#1)">
+<!ENTITY useSystemDefault.label        "Het openen met de standaardtoepassing (#1)">
 <!ENTITY useSystemDefault.noDesc.label "Het openen met de standaardtoepassing">
-<!ENTITY useSystemDefault.accesskey "S">
+<!ENTITY useSystemDefault.accesskey    "s">
 
 <!-- LOCALIZATION NOTE:  do not localize "#1" -->
-<!ENTITY openUsing.label        "Het openen met">
-<!ENTITY openUsing.accesskey    "O">
+<!ENTITY openUsing.label       "Het openen met">
+<!ENTITY openUsing.accesskey   "o">
 
-<!ENTITY chooseApp.label        "Kiezen…">
-<!ENTITY chooseApp.accesskey    "K">
+<!ENTITY chooseApp.label       "Kiezen…">
+<!ENTITY chooseApp.accesskey   "K">
 
 <!ENTITY chooseAppFilePickerTitle "Hulptoepassing kiezen">
 

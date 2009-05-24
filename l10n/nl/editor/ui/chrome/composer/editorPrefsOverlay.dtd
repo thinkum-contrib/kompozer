@@ -1,8 +1,11 @@
-<!ENTITY advanced.label "Geavanceerd">
-<!ENTITY extensions.label "Extensies">
-<!ENTITY fonts.label "Lettertypen">
-<!ENTITY general.label "Algemeen">
-<!ENTITY i18n.label "Internationalisatie">
+
+<!ENTITY prefWindow.size       "width: 52.3em; height: 55em;">
+<!ENTITY prefWindow.title      "Opties">
+
+<!ENTITY general.label         "Algemeen">
+<!ENTITY extensions.label      "Extensies">
+<!ENTITY advanced.label        "Geavanceerd">
+<!ENTITY helpers.label         "Toepassingen">
 <!ENTITY newpagesettings.label "Nieuwe pagina">
-<!ENTITY prefWindow.size "width: 52.3em; height: 55em;">
-<!ENTITY prefWindow.title "Opties">
+<!ENTITY fonts.label           "Lettertypen">
+<!ENTITY i18n.label            "Internationalisatie">

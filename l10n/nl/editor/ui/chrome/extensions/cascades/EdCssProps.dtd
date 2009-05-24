@@ -1,207 +1,271 @@
-<!ENTITY Window.title "CSS Stijlbladen">
-<!ENTITY absolutePosition.label "absoluut">
-<!ENTITY auralTab.label "Spraak">
-<!ENTITY autoOverflow.label "auto">
-<!ENTITY backgroundAttachmentCheckbox.label "Afbeelding scrollt mee met pagina">
-<!ENTITY backgroundColor.label "Kleur:">
-<!ENTITY backgroundImage.label "Afbeelding:">
-<!ENTITY backgroundPosition.label "Positie:">
-<!ENTITY backgroundRepeat.label "Tegelen:">
-<!ENTITY backgroundTab.label "Achtergrond">
-<!ENTITY blinkTextDecoration.label "Knipperen">
-<!ENTITY blockDisplay.label "blok">
-<!ENTITY boldValue.label "Vet">
-<!ENTITY bolderValue.label "Vetter">
-<!ENTITY borderColor.label "Kleur:">
-<!ENTITY borderPreview.label "Voorbeeld">
-<!ENTITY borderStyle.label "Stijl:">
-<!ENTITY borderTab.label "Randen">
-<!ENTITY borderWidth.label "Breedte:">
-<!ENTITY bothClear.label "beide">
-<!ENTITY bottom.label "Onder:">
-<!ENTITY bottomBorder.label "Onder:">
-<!ENTITY bottomYBackgroundPosition.label "Onder">
-<!ENTITY boxTab.label "Blok">
-<!ENTITY capitalizeValue.label "Ieder Woord Met Een Hoofdletter Beginnen">
-<!ENTITY centerTextAlign.label "Midden">
-<!ENTITY centerXBackgroundPosition.label "Midden">
-<!ENTITY centerYBackgroundPosition.label "Midden">
-<!ENTITY chooseFileButton.label "Bestand kiezen">
-<!ENTITY clear.label "Opruimen:">
-<!ENTITY closeButton.label "Sluiten">
-<!ENTITY collapseVisibility.label "uitklapbaar">
-<!ENTITY color.label "Kleur:">
-<!ENTITY compactDisplay.label "compact">
-<!ENTITY compatibilityTab.label "Compatibiliteit">
-<!ENTITY cueAfter.label "Opdracht na">
-<!ENTITY cueBefore.label "Opdracht voor">
-<!ENTITY dashedBorderStyle.label "gestreept">
-<!ENTITY display.label "Weergave:">
-<!ENTITY dottedBorderStyle.label "gestippeld">
-<!ENTITY doubleBorderStyle.label "dubbel">
-<!ENTITY downButton.label "Omlaag">
-<!ENTITY exampleSentence.label "Pa's wijze lynx bezag vroom het fikse aquaduct.">
-<!ENTITY expertModeChecbox.label "Geavanceerde modus">
-<!ENTITY fastSpeechRate.label "snel">
-<!ENTITY fasterSpeechRate.label "sneller">
-<!ENTITY fixedPosition.label "vast">
-<!ENTITY float.label "Zweven:">
-<!ENTITY fontData.label "Lettertypengegevens">
-<!ENTITY fontFamily.label "Lettertype:">
-<!ENTITY fontSize.label "Lettergrootte:">
-<!ENTITY fontStyle.label "Tekenstijl:">
-<!ENTITY fontWeight.label "Letterdikte:">
-<!ENTITY grooveBorderStyle.label "gleuf">
-<!ENTITY height.label "Hoogte:">
-<!ENTITY hiddenBorderStyle.label "verborgen">
-<!ENTITY hiddenOverflow.label "verborgen">
-<!ENTITY hiddenVisibility.label "verborgen">
-<!ENTITY importRuleButton.label "@import">
-<!ENTITY inheritedFontFamily.label "Geërfd">
-<!ENTITY inheritedValue.label "Geërfd">
-<!ENTITY inlineDisplay.label "binnen">
-<!ENTITY inlinetableDisplay.label "binnen-tabel">
-<!ENTITY insetBorderStyle.label "binnen">
-<!ENTITY italicValue.label "Cursief">
-<!ENTITY justifyTextAlign.label "Uitvullen">
-<!ENTITY largeFontSize.label "groot">
-<!ENTITY largerFontSize.label "groter">
-<!ENTITY left.label "Links:">
-<!ENTITY leftBorder.label "Links:">
-<!ENTITY leftClear.label "links">
-<!ENTITY leftFloat.label "links">
-<!ENTITY leftTextAlign.label "Links">
-<!ENTITY leftXBackgroundPosition.label "Links">
-<!ENTITY lighterValue.label "Dunner">
-<!ENTITY lineHeight.label "Lijnhoogte:">
-<!ENTITY linethroughTextDecoration.label "Doorhalen">
-<!ENTITY linkedSheetButton.label "Link elt.">
-<!ENTITY listitemDisplay.label "lijst-item">
-<!ENTITY loudVolume.label "hard">
-<!ENTITY lowercaseValue.label "Kleine letters">
-<!ENTITY margins.label "Marges:">
-<!ENTITY marginsTab.label "Marges">
-<!ENTITY maxHeight.label "Max-hoogte:">
-<!ENTITY maxWidth.label "Max-breedte:">
-<!ENTITY mediaRuleButton.label "@media">
-<!ENTITY mediumFontSize.label "middelmatig">
-<!ENTITY mediumSpeechRate.label "middelmatig">
-<!ENTITY mediumVolume.label "middelmatig">
-<!ENTITY minHeight.label "Min-hoogte:">
-<!ENTITY minWidth.label "Min-breedte:">
-<!ENTITY muteVolume.label "Geen geluid">
-<!ENTITY noneBorderStyle.label "geen">
-<!ENTITY noneClear.label "geen">
-<!ENTITY noneDisplay.label "geen">
-<!ENTITY noneFloat.label "geen">
-<!ENTITY noneSpeak.label "geen">
-<!ENTITY noneTextDecoration.label "Geen">
-<!ENTITY noneTextTransformValue.label "Geen veranderingen">
-<!ENTITY norepeatBackgroundRepeat.label "niet tegelen">
-<!ENTITY normalLineHeight.label "normaal">
-<!ENTITY normalSpeak.label "normaal">
-<!ENTITY normalValue.label "Normaal">
-<!ENTITY obliqueValue.label "Oblique ">
-<!ENTITY offsets.label "Inspringen:">
-<!ENTITY opacity.label "Doorzichtigheid:">
-<!ENTITY outsetBorderStyle.label "buiten">
-<!ENTITY overflow.label "Overloop:">
-<!ENTITY overlineTextDecoration.label "Lijn boven tekst">
-<!ENTITY paddings.label "Opvulling:">
-<!ENTITY pauseAfter.label "Pause na">
-<!ENTITY pauseBefore.label "Pause voor">
-<!ENTITY position.label "Positie:">
-<!ENTITY predefFontFamilyRadio.label "voorgedefinieerd:">
-<!ENTITY refreshButton.label "Vernieuwen">
-<!ENTITY relativePosition.label "relatief">
-<!ENTITY removeButton.label "Verwijderen">
-<!ENTITY repeatBackgroundRepeat.label "horizontaal en verticaal">
-<!ENTITY repeatxBackgroundRepeat.label "horizontaal">
-<!ENTITY repeatyBackgroundRepeat.label "verticaal">
-<!ENTITY ridgeBorderStyle.label "rand">
-<!ENTITY right.label "Rechts:">
-<!ENTITY rightBorder.label "Rechts:">
-<!ENTITY rightClear.label "rechts">
-<!ENTITY rightFloat.label "rechts">
-<!ENTITY rightTextAlign.label "Rechts">
-<!ENTITY rightXBackgroundPosition.label "Rechts">
-<!ENTITY ruleButton.label "Regel">
-<!ENTITY runinDisplay.label "inlopend">
-<!ENTITY scrollOverflow.label "scrollen">
-<!ENTITY sheetInfoTab.label "Algemeen">
-<!ENTITY sheetsTreeColumn.label "Bladen en regels">
-<!ENTITY slowSpeechRate.label "langzaam">
-<!ENTITY slowerSpeechRate.label "langzamer">
-<!ENTITY smallFontSize.label "klein">
-<!ENTITY smallerFontSize.label "kleiner">
-<!ENTITY softVolume.label "zacht">
-<!ENTITY solidBorderStyle.label "vast">
-<!ENTITY speak.label "Spraak:">
-<!ENTITY speechRate.label "Spreeksnelheid:">
-<!ENTITY spelloutSpeak.label "spell-out">
-<!ENTITY staticPosition.label "statisch">
-<!ENTITY styleSheetButton.label "Stijl elt.">
-<!ENTITY tableDisplay.label "tabel">
-<!ENTITY tablecaptionDisplay.label "tabel-kop">
-<!ENTITY tablecellDisplay.label "tabel-cel">
-<!ENTITY tablecolumnDisplay.label "tabel-kolom">
-<!ENTITY tablecolumngroupDisplay.label "tabel-kolom-groep">
-<!ENTITY tablefootergroupDisplay.label "tabel-voettekst-groep">
-<!ENTITY tableheadergroupDisplay.label "tabel-kop-groep">
-<!ENTITY tablerowDisplay.label "tabel-rij">
-<!ENTITY tablerowgroupDisplay.label "tabel-rij-groep">
-<!ENTITY textAlign.label "Uitlijning:">
-<!ENTITY textDecoration.label "Tekstversiering:">
-<!ENTITY textTab.label "Tekst">
-<!ENTITY textTransform.label "Hoofdletters:">
-<!ENTITY top.label "Boven:">
-<!ENTITY topBorder.label "Boven:">
-<!ENTITY topYBackgroundPosition.label "Boven">
-<!ENTITY transparentOpacity.label "transparant">
-<!ENTITY underlineTextDecoration.label "Onderstrepen">
-<!ENTITY unspecifiedValue.label "niet gespecificeerd">
-<!ENTITY upButton.label "Omhoog">
-<!ENTITY uppercaseValue.label "Hoofdletters">
-<!ENTITY useBorderShorthand.label "Alle zijden dezelfde rand laten gebruiken">
-<!ENTITY useCustomFontFamily.label "Aangepast lettertype gebruiken:">
-<!ENTITY visibility.label "Zichtbaarheid:">
-<!ENTITY visibleOverflow.label "zichtbaar">
-<!ENTITY visibleVisibility.label "zichtbaar">
-<!ENTITY volume.label "Volume:">
-<!ENTITY width.label "Breedte:">
-<!ENTITY xfastSpeechRate.label "x-snel">
-<!ENTITY xlargeFontSize.label "x-groot">
-<!ENTITY xloudVolume.label "x-hard">
-<!ENTITY xslowSpeechRate.label "x-langzaam">
-<!ENTITY xsmallFontSize.label "x-klein">
-<!ENTITY xsoftVolume.label "x-zacht">
-<!ENTITY xxlargeFontSize.label "xx-groot">
-<!ENTITY xxsmallFontSize.label "xx-klein">
-<!ENTITY zIndex.label "Z-index:">
-
-<!ENTITY listTab.label			"Lijsten">
-
-<!ENTITY listStyleType.label		"Lijststijltype:">
-<!ENTITY noneListStyleType.label                        "geen">
-<!ENTITY discListStyleType.label                        "schijf">
-<!ENTITY circleListStyleType.label                      "cirkel">
-<!ENTITY squareListStyleType.label                      "vierkant">
-<!ENTITY decimalListStyleType.label                     "decimaal">
-<!ENTITY decimalLeadingZeroListStyleType.label        "decimaal met nul">
-<!ENTITY lowerRomanListStyleType.label                 "Romeins kleine letters">
-<!ENTITY upperRomanListStyleType.label                 "Romeins hoofdletters">
-<!ENTITY lowerGreekListStyleType.label                 "Grieks kleine letters">
-<!ENTITY lowerAlphaListStyleType.label                 "alfabet kleine letters">
-<!ENTITY upperAlphaListStyleType.label                 "alfabet hoofdletters">
-<!ENTITY armenianListStyleType.label                    "armeneens">
-<!ENTITY georgianListStyleType.label                    "georgiaans">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY listStyleImage.label		"Lijststijlafbeelding:">
+<!ENTITY Window.title                           "CSS Stijlbladen">
 
-<!ENTITY listStylePosition.label	"Lijststijlpositie:">
-<!ENTITY insideListStylePosition.label		"binnenin">
-<!ENTITY outsideListStylePosition.label		"buiten">
+<!ENTITY sheetsTreeColumn.label                 "Bladen en regels">
+<!ENTITY expertModeChecbox.label                "Geavanceerde modus">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "Link elt.">
+<!ENTITY styleSheetButton.label                 "Stijl elt.">
+<!ENTITY ruleButton.label                       "Regel">
+<!ENTITY upButton.label                         "Omhoog">
+<!ENTITY downButton.label                       "Omlaag">
+<!ENTITY refreshButton.label                    "Vernieuwen">
+<!ENTITY removeButton.label                     "Verwijderen">
+<!ENTITY sheetInfoTab.label                     "Algemeen">
+<!ENTITY textTab.label                          "Tekst">
+<!ENTITY borderTab.label                        "Randen">
+<!ENTITY marginsTab.label                       "Marges">
+<!ENTITY boxTab.label                           "Blok">
+<!ENTITY auralTab.label                         "Spraak">
+<!ENTITY fontFamily.label                       "Lettertype:">
+<!ENTITY inheritedFontFamily.label              "Geërfd">
+<!ENTITY useCustomFontFamily.label              "Aangepast lettertype gebruiken:">
+<!ENTITY fontData.label                         "Lettertypengegevens">
+<!ENTITY exampleSentence.label                  "Pa's wijze lynx bezag vroom het fikse aquaduct.">
+<!ENTITY backgroundTab.label                    "Achtergrond">
+
+<!ENTITY unspecifiedValue.label                 "niet gespecificeerd">
+<!ENTITY predefFontFamilyRadio.label            "voorgedefinieerd:">
+<!ENTITY fontSize.label                         "Lettergrootte:">
+<!ENTITY lineHeight.label                       "Lijnhoogte:">
+<!ENTITY normalLineHeight.label                 "normaal">
+<!ENTITY color.label                            "Kleur:">
+<!ENTITY fontWeight.label                       "Letterdikte:">
+<!ENTITY normalValue.label                      "Normaal">
+<!ENTITY boldValue.label                        "Vet">
+<!ENTITY bolderValue.label                      "Vetter">
+<!ENTITY lighterValue.label                     "Dunner">
+<!ENTITY inheritedValue.label                   "Geërfd">
+<!ENTITY fontStyle.label                        "Tekenstijl:">
+<!ENTITY italicValue.label                      "Cursief">
+<!ENTITY obliqueValue.label                     "Oblique ">
+<!ENTITY textTransform.label                    "Hoofdletters:">
+<!ENTITY noneTextTransformValue.label           "Geen veranderingen">
+<!ENTITY lowercaseValue.label                   "Kleine letters">
+<!ENTITY uppercaseValue.label                   "Hoofdletters">
+<!ENTITY capitalizeValue.label                  "Ieder Woord Met Een Hoofdletter Beginnen">
+
+<!ENTITY closeButton.label                      "Sluiten">
+
+<!ENTITY largerFontSize.label                   "groter">
+<!ENTITY smallerFontSize.label                  "kleiner">
+<!ENTITY xxsmallFontSize.label                  "xx-klein">
+<!ENTITY xsmallFontSize.label                   "x-klein">
+<!ENTITY smallFontSize.label                    "klein">
+<!ENTITY mediumFontSize.label                   "middelmatig">
+<!ENTITY largeFontSize.label                    "groot">
+<!ENTITY xlargeFontSize.label                   "x-groot">
+<!ENTITY xxlargeFontSize.label                  "xx-groot">
+
+<!ENTITY textAlign.label                        "Uitlijning:">
+<!ENTITY rightTextAlign.label                   "Rechts">
+<!ENTITY leftTextAlign.label                    "Links">
+<!ENTITY centerTextAlign.label                  "Midden">
+<!ENTITY justifyTextAlign.label                 "Uitvullen">
+
+<!ENTITY textDecoration.label                   "Tekstversiering:">
+<!ENTITY overlineTextDecoration.label           "Lijn boven tekst">
+<!ENTITY underlineTextDecoration.label          "Onderstrepen">
+<!ENTITY linethroughTextDecoration.label        "Doorhalen">
+<!ENTITY blinkTextDecoration.label              "Knipperen">
+<!ENTITY noneTextDecoration.label               "Geen">
+
+<!ENTITY backgroundColor.label                  "Kleur:">
+<!ENTITY backgroundImage.label                  "Afbeelding:">
+<!ENTITY chooseFileButton.label                 "Bestand kiezen">
+<!ENTITY backgroundRepeat.label                 "Tegelen:">
+<!ENTITY norepeatBackgroundRepeat.label         "niet tegelen">
+<!ENTITY repeatxBackgroundRepeat.label          "horizontaal">
+<!ENTITY repeatyBackgroundRepeat.label          "verticaal">
+<!ENTITY repeatBackgroundRepeat.label           "horizontaal en verticaal">
+<!ENTITY backgroundPosition.label               "Positie:">
+<!ENTITY leftXBackgroundPosition.label          "Links">
+<!ENTITY centerXBackgroundPosition.label        "Midden">
+<!ENTITY rightXBackgroundPosition.label         "Rechts">
+<!ENTITY topYBackgroundPosition.label           "Boven">
+<!ENTITY centerYBackgroundPosition.label        "Midden">
+<!ENTITY bottomYBackgroundPosition.label        "Onder">
+<!ENTITY backgroundAttachmentCheckbox.label     "Afbeelding scrollt mee met pagina">
+
+
+<!ENTITY useBorderShorthand.label               "Alle zijden dezelfde rand laten gebruiken">
+<!ENTITY borderStyle.label                      "Stijl:">
+<!ENTITY borderWidth.label                      "Breedte:">
+<!ENTITY borderColor.label                      "Kleur:">
+<!ENTITY topBorder.label                        "Boven:">
+<!ENTITY leftBorder.label                       "Links:">
+<!ENTITY rightBorder.label                      "Rechts:">
+<!ENTITY bottomBorder.label                     "Onder:">
+<!ENTITY borderPreview.label                    "Voorbeeld">
+<!ENTITY noneBorderStyle.label                  "geen">
+<!ENTITY hiddenBorderStyle.label                "verborgen">
+<!ENTITY solidBorderStyle.label                 "vast">
+<!ENTITY dottedBorderStyle.label                "gestippeld">
+<!ENTITY dashedBorderStyle.label                "gestreept">
+<!ENTITY doubleBorderStyle.label                "dubbel">
+<!ENTITY grooveBorderStyle.label                "gleuf">
+<!ENTITY ridgeBorderStyle.label                 "rand">
+<!ENTITY insetBorderStyle.label                 "binnen">
+<!ENTITY outsetBorderStyle.label                "buiten">
+
+<!ENTITY display.label                          "Weergave:">
+<!ENTITY noneDisplay.label                      "geen">
+<!ENTITY inlineDisplay.label                    "binnen">
+<!ENTITY blockDisplay.label                     "blok">
+<!ENTITY runinDisplay.label                     "inlopend">
+<!ENTITY compactDisplay.label                   "compact">
+<!ENTITY listitemDisplay.label                  "lijst-item">
+<!ENTITY tableDisplay.label                     "tabel">
+<!ENTITY tablerowDisplay.label                  "tabel-rij">
+<!ENTITY tablecellDisplay.label                 "tabel-cel">
+<!ENTITY tablecaptionDisplay.label              "tabel-kop">
+<!ENTITY inlinetableDisplay.label               "binnen-tabel">
+<!ENTITY tablecolumnDisplay.label               "tabel-kolom">
+<!ENTITY tablerowgroupDisplay.label             "tabel-rij-groep">
+<!ENTITY tableheadergroupDisplay.label          "tabel-kop-groep">
+<!ENTITY tablefootergroupDisplay.label          "tabel-voettekst-groep">
+<!ENTITY tablecolumngroupDisplay.label          "tabel-kolom-groep">
+
+<!ENTITY visibility.label                       "Zichtbaarheid:">
+<!ENTITY visibleVisibility.label                "zichtbaar">
+<!ENTITY hiddenVisibility.label                 "verborgen">
+<!ENTITY collapseVisibility.label               "uitklapbaar">
+
+<!ENTITY float.label                            "Zweven:">
+<!ENTITY leftFloat.label                        "links">
+<!ENTITY rightFloat.label                       "rechts">
+<!ENTITY noneFloat.label                        "geen">
+
+<!ENTITY clear.label                            "Opruimen:">
+<!ENTITY noneClear.label                        "geen">
+<!ENTITY leftClear.label                        "links">
+<!ENTITY rightClear.label                       "rechts">
+<!ENTITY bothClear.label                        "beide">
+
+
+<!ENTITY position.label                         "Positie:">
+<!ENTITY staticPosition.label                   "statisch">
+<!ENTITY fixedPosition.label                    "vast">
+<!ENTITY absolutePosition.label                 "absoluut">
+<!ENTITY relativePosition.label                 "relatief">
+
+<!ENTITY overflow.label                         "Overloop:">
+<!ENTITY visibleOverflow.label                  "zichtbaar">
+<!ENTITY hiddenOverflow.label                   "verborgen">
+<!ENTITY scrollOverflow.label                   "scrollen">
+<!ENTITY autoOverflow.label                     "auto">
+
+<!ENTITY zIndex.label                           "Z-index:">
+
+<!ENTITY width.label                            "Breedte:">
+<!ENTITY minWidth.label                         "Min-breedte:">
+<!ENTITY maxWidth.label                         "Max-breedte:">
+<!ENTITY height.label                           "Hoogte:">
+<!ENTITY minHeight.label                        "Min-hoogte:">
+<!ENTITY maxHeight.label                        "Max-hoogte:">
+
+<!ENTITY margins.label                          "Marges:">
+<!ENTITY paddings.label                         "Opvulling:">
+<!ENTITY offsets.label                          "Inspringen:">
+<!ENTITY top.label                              "Boven:">
+<!ENTITY left.label                             "Links:">
+<!ENTITY right.label                            "Rechts:">
+<!ENTITY bottom.label                           "Onder:">
+
+<!ENTITY volume.label                           "Volume:">
+<!ENTITY xsoftVolume.label                      "x-zacht">
+<!ENTITY softVolume.label                       "zacht">
+<!ENTITY mediumVolume.label                     "middelmatig">
+<!ENTITY loudVolume.label                       "hard">
+<!ENTITY xloudVolume.label                      "x-hard">
+<!ENTITY muteVolume.label                       "Geen geluid">
+
+<!ENTITY speak.label                            "Spraak:">
+<!ENTITY noneSpeak.label                        "geen">
+<!ENTITY normalSpeak.label                      "normaal">
+<!ENTITY spelloutSpeak.label                    "spell-out">
+
+<!ENTITY speechRate.label                       "Spreeksnelheid:">
+<!ENTITY slowerSpeechRate.label                 "langzamer">
+<!ENTITY fasterSpeechRate.label                 "sneller">
+<!ENTITY xslowSpeechRate.label                  "x-langzaam">
+<!ENTITY slowSpeechRate.label                   "langzaam">
+<!ENTITY mediumSpeechRate.label                 "middelmatig">
+<!ENTITY fastSpeechRate.label                   "snel">
+<!ENTITY xfastSpeechRate.label                  "x-snel">
+
+<!ENTITY opacity.label                          "Doorzichtigheid:">
+
+<!ENTITY compatibilityTab.label                 "Compatibiliteit">
+
+<!ENTITY transparentOpacity.label               "transparant">
+
+<!ENTITY pauseBefore.label                      "Pause voor">
+<!ENTITY cueBefore.label                        "Opdracht voor">
+<!ENTITY pauseAfter.label                       "Pause na">
+<!ENTITY cueAfter.label                         "Opdracht na">
+
+
+<!ENTITY listTab.label                          "Lijsten">
+
+<!ENTITY listStyleType.label                    "Lijststijltype:">
+<!ENTITY noneListStyleType.label                "geen">
+<!ENTITY discListStyleType.label                "schijf">
+<!ENTITY circleListStyleType.label              "cirkel">
+<!ENTITY squareListStyleType.label              "vierkant">
+<!ENTITY decimalListStyleType.label             "decimaal">
+<!ENTITY decimalLeadingZeroListStyleType.label  "decimaal met nul">
+<!ENTITY lowerRomanListStyleType.label          "Romeins kleine letters">
+<!ENTITY upperRomanListStyleType.label          "Romeins hoofdletters">
+<!ENTITY lowerGreekListStyleType.label          "Grieks kleine letters">
+<!ENTITY lowerAlphaListStyleType.label          "alfabet kleine letters">
+<!ENTITY upperAlphaListStyleType.label          "alfabet hoofdletters">
+<!ENTITY armenianListStyleType.label            "armeneens">
+<!ENTITY georgianListStyleType.label            "georgiaans">
+
+
+<!ENTITY listStyleImage.label                   "Lijststijlafbeelding:">
+<!ENTITY listStylePosition.label                "Lijststijlpositie:">
+<!ENTITY insideListStylePosition.label          "binnenin">
+<!ENTITY outsideListStylePosition.label         "buiten">
 
 <!-- Kaze: added -->
 <!ENTITY makeCSSRule.label                      "Extract and create generic style">
@@ -209,7 +273,6 @@
 <!ENTITY currentstylesfor.label                 "Current styles for:">
 <!ENTITY renameButton.label                     "Edit selector">
 
-<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
 <!ENTITY autoMarginUnit.label                   "auto">
 <!ENTITY thinBorderUnit.label                   "thin">
 <!ENTITY mediumBorderUnit.label                 "medium">

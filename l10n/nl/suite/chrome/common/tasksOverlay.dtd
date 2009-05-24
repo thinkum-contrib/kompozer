@@ -1,29 +1,44 @@
-<!ENTITY downloadManagerCmd.accesskey "D">
-<!ENTITY downloadManagerCmd.label "Downloadbeheerder">
-<!ENTITY editorCmd.accesskey "c">
-<!ENTITY editorCmd.commandkey "4">
-<!ENTITY editorCmd.label "Composer">
-<!ENTITY javaConsoleCmd.accesskey "j">
-<!ENTITY javaConsoleCmd.label "Java-console">
-<!ENTITY javaScriptConsoleCmd.accesskey "S">
-<!ENTITY javaScriptConsoleCmd.label "JavaScript-console">
-<!ENTITY navigatorCmd.accesskey "B">
-<!ENTITY navigatorCmd.commandkey "1">
-<!ENTITY navigatorCmd.label "Navigator">
-<!ENTITY privacyMenu.accesskey "P">
-<!ENTITY privacyMenu.label "Privacy &amp; Security">
-<!ENTITY securityInfoCmd.accesskey "s">
-<!ENTITY securityInfoCmd.label ".Veiligingsinfo">
-<!ENTITY switchProfileCmd.accesskey "h">
-<!ENTITY switchProfileCmd.label "Profiel wisselen">
-<!ENTITY taskBar.tooltip "Statusbalk">
-<!ENTITY taskComposer.tooltip "Editor">
-<!ENTITY taskNavigator.tooltip "Browser">
-<!ENTITY tasksMenu.accesskey "T">
-<!ENTITY tasksMenu.label "Extra">
-<!ENTITY webDevelopment.accesskey "W">
-<!ENTITY webDevelopment.label "Webontwikkeling">
-<!ENTITY windowMenu.accesskey "V">
-<!ENTITY windowMenu.label "Venster">
-<!ENTITY extensions.label "Extensies">
-<!ENTITY themes.label "Thema's">
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label              "Navigator">  
+<!ENTITY navigatorCmd.accesskey          "N">
+<!ENTITY navigatorCmd.commandkey         "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label                 "Composer">
+<!ENTITY editorCmd.accesskey             "C">
+<!ENTITY editorCmd.commandkey            "4">
+
+<!ENTITY securityInfoCmd.label           ".Veiligingsinfo">  
+<!ENTITY securityInfoCmd.accesskey       "s">
+<!ENTITY javaConsoleCmd.label            "Java-console">
+<!ENTITY javaConsoleCmd.accesskey        "J">
+
+<!ENTITY javaScriptConsoleCmd.label      "JavaScript-console">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label               "Privacy &amp; Security">
+<!ENTITY privacyMenu.accesskey           "P">
+
+<!ENTITY taskNavigator.tooltip           "Browser">
+<!ENTITY taskComposer.tooltip            "Editor">
+<!ENTITY taskBar.tooltip                 "Statusbalk">
+
+<!ENTITY webDevelopment.label            "Webontwikkeling">
+<!ENTITY webDevelopment.accesskey        "W">
+
+<!ENTITY windowMenu.label                "Venster">
+<!ENTITY windowMenu.accesskey            "V">
+
+<!ENTITY tasksMenu.label                 "Extra">
+<!ENTITY tasksMenu.accesskey             "t"> 
+
+<!ENTITY downloadManagerCmd.label        "Downloadbeheerder">
+<!ENTITY downloadManagerCmd.accesskey    "D">
+
+<!ENTITY switchProfileCmd.label          "Profiel wisselen">
+<!ENTITY switchProfileCmd.accesskey      "P">
+
+<!ENTITY addons.label                    "Add-ons">
+<!ENTITY extensions.label                "Extensies">
+<!ENTITY themes.label                    "Thema's">

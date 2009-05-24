@@ -1,25 +1,70 @@
-<!ENTITY allEntitiesEncoding.label "De &amp;#..; notatie gebruiken voor alle niet-ASCII tekens.">
-<!ENTITY basicEncoding.label "Alleen &amp; &lt; &gt; ' en niet-breekbare witruimtes">
-<!ENTITY carriageReturns.label "Gedrag van de entertoets">
-<!ENTITY cmdLine.label "Commandoregel:">
-<!ENTITY connection.label "Verbinding">
-<!ENTITY connectionButton.label "Verbindingsinstellingen">
-<!ENTITY connectionDescription.label "Proxies instellen voor toegang tot het Internet">
-<!ENTITY connectionbutton.accesskey "b">
-<!ENTITY crInPCreatesNewP.label "Enter binnenin een alinea altijd een nieuw alinea laten aanmaken.">
-<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
-<!ENTITY helpers.label "Geavanceerde instellingen">
-<!ENTITY hints.label "U kunt de URL specificeren door '$s' te gebruiken. Voorbeeld:">
-<!ENTITY htmlEntitiesEncoding.label "HTML 4 speciale tekens">
-<!ENTITY imageEditor.label "Afbeeldingenbewerker">
-<!ENTITY latin1EntitiesEncoding.label "Het bovenstaande en Latin-1 tekens">
-<!ENTITY realtimeSpellCheck.label "Continu spelling controleren">
-<!ENTITY specialChars.description "De volgende karakters als entiteit gebruiken">
-<!ENTITY specialChars.label "Speciale tekens">
-<!ENTITY spellCheckRealTime.accesskey "u">
-<!ENTITY spellCheckRealTime.label "Verkeerd gespelde woorden onderstrepen">
-<!ENTITY useSystemBrowser.label "Systeeminstellingen gebruiken">
-<!ENTITY userDefinedBrower.label "Door de gebruiker gedefinieerd">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc..
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY helpers.label                 "Geavanceerde instellingen">
+<!ENTITY useSystemBrowser.label        "Systeeminstellingen gebruiken">
+<!ENTITY userDefinedBrower.label       "Door de gebruiker gedefinieerd">
+
+<!ENTITY cmdLine.label                 "Commandoregel:">
+<!ENTITY hints.label                   "U kunt de URL specificeren door '$s' te gebruiken. Voorbeeld:">
+<!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+
+<!ENTITY imageEditor.label             "Afbeeldingenbewerker">
+
+<!ENTITY connection.label              "Verbinding">
+<!ENTITY connectionDescription.label   "Proxies instellen voor toegang tot het Internet">
+<!ENTITY connectionButton.label        "Verbindingsinstellingen">
+<!ENTITY connectionbutton.accesskey    "b">
+
+<!ENTITY carriageReturns.label         "Gedrag van de entertoets">
+<!ENTITY crInPCreatesNewP.label        "Enter binnenin een alinea altijd een nieuw alinea laten aanmaken.">
+
+<!ENTITY specialChars.label            "Speciale tekens">
+<!ENTITY specialChars.description      "De volgende karakters als entiteit gebruiken">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
+<!ENTITY basicEncoding.label           "Alleen &amp; &lt; &gt; ' en niet-breekbare witruimtes">
+<!ENTITY latin1EntitiesEncoding.label  "Het bovenstaande en Latin-1 tekens">
+<!ENTITY htmlEntitiesEncoding.label    "HTML 4 speciale tekens">
+<!ENTITY allEntitiesEncoding.label     "De &amp;#..; notatie gebruiken voor alle niet-ASCII tekens.">
+
+<!ENTITY realtimeSpellCheck.label      "Continu spelling controleren">
+
+<!ENTITY spellCheckRealTime.label      "Verkeerd gespelde woorden onderstrepen">
+<!ENTITY spellCheckRealTime.accesskey  "V">
 
 <!ENTITY dialect.label                 "Structuur">
 <!ENTITY markupLanguage.label          "Taal:">

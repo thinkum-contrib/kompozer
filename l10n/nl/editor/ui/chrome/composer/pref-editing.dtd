@@ -1,33 +1,41 @@
-<!ENTITY activeLinkText.accesskey "C">
-<!ENTITY activeLinkText.label "Actieve koppelingstekst">
-<!ENTITY authorName.accesskey "A">
-<!ENTITY authorName.label "Auteur:">
-<!ENTITY background.accesskey "H">
-<!ENTITY background.label "Achtergrond:">
-<!ENTITY backgroundImage.accesskey "E">
-<!ENTITY backgroundImage.label "Achtergrondafbeelding:">
-<!ENTITY chooseCharsetButton.label "Een tekenset selecteren">
-<!ENTITY chooseFile.accesskey "K">
-<!ENTITY chooseFile.label "Bestand kiezen…">
-<!ENTITY colon.character ":">
-<!ENTITY customColors.accesskey "N">
-<!ENTITY customColorsRadio.label "Aangepaste kleuren gebruiken:">
-<!ENTITY defaultCharset.label "Tekenset">
-<!ENTITY defaultColors.accesskey "S">
-<!ENTITY defaultColorsRadio.label "Standaardkleuren van lezer (kleuren niet in pagina instellen)">
+<!ENTITY lHeader                     "Nieuwe pagina">
+<!ENTITY rHeader                     "Standaarden voor nieuwe pagina's">
+
+<!ENTITY authorName.label            "Auteur:">
+<!ENTITY authorName.accesskey        "A">
+<!ENTITY pageColorHeader             "Standaard paginaweergave">
+
+<!ENTITY defaultColorsRadio.label    "Standaardkleuren van lezer (kleuren niet in pagina instellen)">
+<!ENTITY defaultColors.accesskey     "S">
+<!ENTITY customColorsRadio.label     "Aangepaste kleuren gebruiken:">
+<!ENTITY customColors.accesskey      "N">
+
+<!ENTITY normalText.label            "Normale tekst">
+<!ENTITY normalText.accesskey        "t">
+<!ENTITY linkText.label              "Koppelingstekst">
+<!ENTITY linkText.accesskey          "K">
+<!ENTITY activeLinkText.label        "Actieve koppelingstekst">
+<!ENTITY activeLinkText.accesskey    "c">
+<!ENTITY visitedLinkText.label       "Bezochte koppelingstekst">
+<!ENTITY visitedLinkText.accesskey   "B">
+<!ENTITY background.label            "Achtergrond:">
+<!ENTITY background.accesskey        "h">
+<!ENTITY colon.character             ":">
+
+<!ENTITY backgroundImage.label       "Achtergrondafbeelding:">
+<!ENTITY backgroundImage.accesskey   "e">
+<!ENTITY chooseFile.label            "Bestand kiezen…">
+<!ENTITY chooseFile.accesskey        "k">
+
+<!ENTITY i18nHeader                  "Internationalisatie">
+
+<!ENTITY writingDirection.label      "Schrijfrichting:">
 <!ENTITY defaultDirectionRadio.label "Geen richting aangegeven">
-<!ENTITY i18nHeader "Internationalisatie">
-<!ENTITY lHeader "Nieuwe pagina">
-<!ENTITY language.label "Taal:">
-<!ENTITY languageChoiceButton.label "Een taal selecteren">
-<!ENTITY linkText.accesskey "K">
-<!ENTITY linkText.label "Koppelingstekst">
-<!ENTITY ltrDirectionRadio.label "Links naar rechts">
-<!ENTITY normalText.accesskey "T">
-<!ENTITY normalText.label "Normale tekst">
-<!ENTITY pageColorHeader "Standaard paginaweergave">
-<!ENTITY rHeader "Standaarden voor nieuwe pagina's">
-<!ENTITY rtlDirectionRadio.label "Rechts naar links">
-<!ENTITY visitedLinkText.accesskey "B">
-<!ENTITY visitedLinkText.label "Bezochte koppelingstekst">
-<!ENTITY writingDirection.label "Schrijfrichting:">
+<!ENTITY ltrDirectionRadio.label     "Links naar rechts">
+<!ENTITY rtlDirectionRadio.label     "Rechts naar links">
+
+<!ENTITY language.label              "Taal:">
+<!ENTITY languageChoiceButton.label  "Een taal selecteren">
+
+<!ENTITY defaultCharset.label        "Tekenset">
+<!ENTITY chooseCharsetButton.label   "Een tekenset selecteren">

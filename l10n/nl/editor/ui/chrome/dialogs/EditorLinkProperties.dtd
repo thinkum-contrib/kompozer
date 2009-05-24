@@ -1,31 +1,75 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY windowTitle.label "Koppelingseigenschappen">
 <!ENTITY LinkURLBox.label "Koppelingslocatie">
 <!ENTITY XFNbox.label "Vriendschap">
+
+<!ENTITY me.label "De koppelingslocatie is een andere locatie van mij.">
+
+<!ENTITY friendship.label "Vriendschap">
 <!ENTITY acquaintance.label "kennis">
-<!ENTITY child.label "kind">
-<!ENTITY coResident.label "inwonend">
+<!ENTITY friend.label "vriend">
+<!ENTITY contact.label "contact">
+<!ENTITY none.label "geen">
+
+<!ENTITY physical.label "Fysiek">
+<!ENTITY met.label "ontmoet">
+
+<!ENTITY professional.label "Professioneel">
 <!ENTITY coWorker.label "medewerker">
 <!ENTITY colleague.label "collega">
-<!ENTITY contact.label "contact">
-<!ENTITY crush.label "verliefd">
-<!ENTITY date.label "verkeren">
-<!ENTITY family.label "Familie">
-<!ENTITY friend.label "vriend">
-<!ENTITY friendship.label "Vriendschap">
+
 <!ENTITY geographical.label "Geogradisch">
-<!ENTITY kin.label "familie">
-<!ENTITY me.label "De koppelingslocatie is een andere locatie van mij.">
-<!ENTITY met.label "ontmoet">
-<!ENTITY muse.label "muze">
+<!ENTITY coResident.label "inwonend">
 <!ENTITY neighbor.label "buur">
-<!ENTITY none.label "geen">
+
+<!ENTITY family.label "Familie">
+<!ENTITY child.label "kind">
 <!ENTITY parent.label "ouder">
-<!ENTITY physical.label "Fysiek">
-<!ENTITY professional.label "Professioneel">
-<!ENTITY romantic.label "Romantisch">
 <!ENTITY sibling.label "broer/zus">
 <!ENTITY spouse.label "partner">
+<!ENTITY kin.label "familie">
+
+<!ENTITY romantic.label "Romantisch">
+<!ENTITY muse.label "muze">
+<!ENTITY crush.label "verliefd">
+<!ENTITY date.label "verkeren">
 <!ENTITY sweetheart.label "liefje">
-<!ENTITY windowTitle.label "Koppelingseigenschappen">
 
 <!ENTITY targetBox.label "Doel">
 <!ENTITY userDefinedTarget.label "Koppeling moet geopend worden">

@@ -48,8 +48,8 @@
 <!ENTITY valueColumn.label "Waarde">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "Klik om te sorteren">
-<!ENTITY columnChooser.tooltip "Klik om kolommen te selecteren om te tonen">
+<!ENTITY prefColumnHeader.tooltip "Klik om te sorteren"> 
+<!ENTITY columnChooser.tooltip "Klik om kolommen te selecteren om te tonen"> 
 
 <!-- Context Menu -->
 <!ENTITY copyName.label "Naam kopiëren">
@@ -74,3 +74,4 @@
 <!ENTITY lock.accesskey "V">
 <!ENTITY unlock.label "Ontgrendelen">
 <!ENTITY unlock.accesskey "t">
+

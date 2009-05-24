@@ -1,14 +1,13 @@
-<!ENTITY untitledTab            "(Geen titel)">
-<!ENTITY newTab.label           "Nieuw tabblad">
-<!ENTITY newTab.accesskey       "N">
-<!ENTITY closeTab.label         "Tabblad sluiten">
-<!ENTITY closeTab.accesskey     "s">
-<!ENTITY closeOtherTabs.label   "Overige tabbladen sluiten">
-<!ENTITY closeOtherTabs.accesskey "e">
-<!ENTITY reloadAllTabs.label    "Alle tabbladen vernieuwen">
-<!ENTITY reloadAllTabs.accesskey "r">
-<!ENTITY reloadTab.label        "Tabblad vernieuwen">
-<!ENTITY reloadTab.accesskey    "v">
-<!ENTITY bookmarkGroup.label    "Bladwijzer voor deze tabbladengroep maken">
-<!ENTITY bookmarkGroup.accesskey "B">
-<!ENTITY newTabButton.tooltip   "Een nieuw tabblad openen">
+<!ENTITY  untitledTab            "(Geen titel)">
+<!ENTITY  newTab.label           "Nieuw tabblad">
+<!ENTITY  newTab.accesskey       "N">
+<!ENTITY  closeTab.label         "Tabblad sluiten">
+<!ENTITY  closeTab.accesskey         "s">
+<!ENTITY  closeOtherTabs.accesskey  "e">
+<!ENTITY  closeOtherTabs.label   "Overige tabbladen sluiten">
+<!ENTITY  reloadAllTabs.label    "Alle tabbladen vernieuwen">
+<!ENTITY  reloadAllTabs.accesskey         "r">
+<!ENTITY  reloadTab.label        "Tabblad vernieuwen">
+<!ENTITY  reloadTab.accesskey         "v">
+<!ENTITY  newTabButton.tooltip   "Een nieuw tabblad openen">
+<!ENTITY  listAllTabs.label      "Toon alle tabbladen">

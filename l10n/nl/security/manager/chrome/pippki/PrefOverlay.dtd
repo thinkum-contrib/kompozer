@@ -36,8 +36,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY masterpass.label "Hoofdwachtwoorden">
-<!ENTITY security.label "Privacy en beveiliging">
-<!ENTITY ssl.label "SSL">
-<!ENTITY certs.label "Certificaten">
-<!ENTITY validation.label "Geldigheid">
+<!ENTITY  masterpass.label             "Hoofdwachtwoorden">
+<!ENTITY  security.label               "Privacy en beveiliging">
+<!ENTITY  ssl.label                    "SSL">
+<!ENTITY  certs.label                  "Certificaten">
+<!ENTITY  validation.label             "Geldigheid">

@@ -35,7 +35,7 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY certmgr.title                        "Certificatenbeheerder">
+<!ENTITY certmgr.title                       "Certificatenbeheerder">
 
 <!ENTITY certmgr.tab.mine                     "Uw certificaten">
 <!ENTITY certmgr.tab.others                   "Die van anderen">
@@ -55,7 +55,7 @@
 
 <!ENTITY certmgr.subjectinfo.label            "Uitgegeven aan">
 <!ENTITY certmgr.issuerinfo.label             "Uitgegeven door">
-<!ENTITY certmgr.validity.label               "Geldigheid">
+<!ENTITY certmgr.validity.label               "Geldigheid" >
 <!ENTITY certmgr.fingerprints.label           "Vingerafdrukken">
 <!ENTITY certmgr.certdetail.title             "Detail van certificaat">
 <!ENTITY certmgr.certdetail.cn                "Algemene naam (CN)">
@@ -115,8 +115,9 @@
 <!ENTITY certmgr.restore.label                "Importeren">
 <!ENTITY certmgr.restore.accesskey            "I">
 <!ENTITY certmgr.details.label                "Certificaatvelden">
-<!ENTITY certmgr.details.accesskey            "F">
+<!ENTITY certmgr.details.accesskey            "f">
 <!ENTITY certmgr.fields.label                 "Veldwaarde">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Certificaathiërarchie">
 <!ENTITY certmgr.hierarchy.accesskey          "C">
+

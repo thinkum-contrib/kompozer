@@ -14,11 +14,11 @@
 <!ENTITY savePageCmd.accesskey "l">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Pagina-instellingen…">
-<!ENTITY pageSetupCmd.accesskey "I">
+<!ENTITY pageSetupCmd.accesskey "i">
 <!ENTITY printPreviewCmd.label "Afdrukvoorbeeld">
-<!ENTITY printPreviewCmd.accesskey "V">
+<!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "Afdrukken…">
-<!ENTITY printCmd.accesskey "D">
+<!ENTITY printCmd.accesskey "d">
 <!ENTITY printCmd.commandkey "P">
 <!ENTITY closeCmd.label "Sluiten">
 <!ENTITY closeCmd.accesskey "S">
@@ -33,12 +33,12 @@
 <!ENTITY goToLineCmd.accesskey "G">
 <!ENTITY goToLineCmd.commandkey "L">
 
-<!ENTITY viewMenu.label "Beeld">
-<!ENTITY viewMenu.accesskey "L">
+<!ENTITY viewMenu.label           "Beeld">
+<!ENTITY viewMenu.accesskey       "l">
 <!ENTITY reloadCmd.label "Vernieuwen">
 <!ENTITY reloadCmd.accesskey "V">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Automatische terugloop">
+<!ENTITY menu_wrapLongLines.title "Automatische terugloop"> 
 <!ENTITY menu_wrapLongLines.accesskey "A">
 <!ENTITY menu_highlightSyntax.label "Syntaxis-kleurcodes">
 <!ENTITY menu_highlightSyntax.accesskey "S">

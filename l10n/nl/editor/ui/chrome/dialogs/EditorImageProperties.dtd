@@ -1,60 +1,104 @@
-<!ENTITY MoreFewerButton.tooltip "Meer of minder eigenschappen weergeven om te bewerken">
-<!ENTITY actualSize.label "Ware grootte:">
-<!ENTITY actualSizeRadio.accessKey "E">
-<!ENTITY actualSizeRadio.label "Ware grootte">
-<!ENTITY actualSizeRadio.tooltip "Terugkeren naar ware grootte van afbeelding">
-<!ENTITY alignment.label "Tekst uitlijnen naar afbeelding">
-<!ENTITY altText.accessKey "T">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Afbeeldingseigenschappen">
+
+<!ENTITY pixelsPopup.value "pixels">
+<!ENTITY percentPopup.value "procent">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Afbeeldingslocatie:">
+<!ENTITY locationEditField.accessKey "A">
+<!ENTITY locationEditField.tooltip "Type de bestandsnaam of locatie van de afbeelding">
+<!ENTITY title.label "Tooltip:">
+<!ENTITY title.accessKey "T">
+<!ENTITY title.tooltip "Het HTML attribuut 'title' dat wordt weergegeven als tooltip">
 <!ENTITY altText.label "Alternatieve tekst:">
+<!ENTITY altText.accessKey "T">
 <!ENTITY altTextEditField.tooltip "Type de tekst die moet worden weergegeven op de plaats van de afbeelding">
-<!ENTITY borderEditField.accessKey "V">
-<!ENTITY borderEditField.label "Vaste rand:">
-<!ENTITY bottomPopup.value "Aan de onderkant">
-<!ENTITY centerPopup.value "In het midden">
-<!ENTITY constrainCheckbox.accessKey "E">
-<!ENTITY constrainCheckbox.label "Behouden">
-<!ENTITY constrainCheckbox.tooltip "Afbeeldingsverhouding behouden">
-<!ENTITY customSizeRadio.accessKey "A">
+<!ENTITY noAltText.label "Geen alternatieve tekst gebruiken">
+<!ENTITY noAltText.accessKey "G">
+
+<!ENTITY previewBox.label "Afbeeldingsvoorbeeld">
+<!ENTITY MoreFewerButton.tooltip "Meer of minder eigenschappen weergeven om te bewerken">
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Ware grootte:">
+<!ENTITY actualSizeRadio.label "Ware grootte">
+<!ENTITY actualSizeRadio.accessKey "E">
+<!ENTITY actualSizeRadio.tooltip "Terugkeren naar ware grootte van afbeelding">
 <!ENTITY customSizeRadio.label "Aangepaste grootte">
+<!ENTITY customSizeRadio.accessKey "A">
 <!ENTITY customSizeRadio.tooltip "De grootte van de afbeelding veranderen zoals weergegeven in de pagina">
-<!ENTITY editImageButton.label "Afbeelding bewerken">
-<!ENTITY editImageButton.tooltip "Afbeeldingsbestand bewerken in ander programma">
+<!ENTITY heightEditField.label "Hoogte:">
+<!ENTITY heightEditField.accessKey "H">
+<!ENTITY widthEditField.label "Breedte:">
+<!ENTITY widthEditField.accessKey "B">
+<!ENTITY constrainCheckbox.label "Behouden">
+<!ENTITY constrainCheckbox.accessKey "E">
+<!ENTITY constrainCheckbox.tooltip "Afbeeldingsverhouding behouden">
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Afbeeldingskaart">
+<!ENTITY removeImageMapButton.label "Verwijderen">
+<!ENTITY removeImageMapButton.accessKey "D">
 <!ENTITY editImageMapButton.label "Bewerken…">
 <!ENTITY editImageMapButton.tooltip "Klikbare hotspots maken voor deze afbeelding">
-<!ENTITY heightEditField.accessKey "H">
-<!ENTITY heightEditField.label "Hoogte:">
-<!ENTITY imageAppearanceTab.label "Vormgeving">
-<!ENTITY imageDimensionsTab.label "Afmetingen">
-<!ENTITY imageInputTab.label "Formulier">
-<!ENTITY imageLinkTab.label "Koppeling">
-<!ENTITY imageLocationTab.label "Locatie">
-<!ENTITY imagemapBox.label "Afbeeldingskaart">
-<!ENTITY leftRightEditField.accessKey "L">
-<!ENTITY leftRightEditField.label "Links en rechts:">
-<!ENTITY locationEditField.accessKey "A">
-<!ENTITY locationEditField.label "Afbeeldingslocatie:">
-<!ENTITY locationEditField.tooltip "Type de bestandsnaam of locatie van de afbeelding">
-<!ENTITY makePageBackgroundCheckbox.label "Maak pagina achtergrond">
-<!ENTITY makePageBackgroundCheckbox.tooltip "Afbeelding als achtergrond voor uw pagina gebruiken">
-<!ENTITY noAltText.accessKey "G">
-<!ENTITY noAltText.label "Geen alternatieve tekst gebruiken">
-<!ENTITY percentPopup.value "procent">
-<!ENTITY pixelsPopup.value "pixels">
-<!ENTITY previewBox.label "Afbeeldingsvoorbeeld">
-<!ENTITY removeImageMapButton.accessKey "D">
-<!ENTITY removeImageMapButton.label "Verwijderen">
-<!ENTITY showImageLinkBorder.accessKey "R">
-<!ENTITY showImageLinkBorder.label "Rand om gekoppelde afbeelding weergeven">
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Tekst uitlijnen naar afbeelding">
+<!ENTITY bottomPopup.value "Aan de onderkant">
+<!ENTITY topPopup.value "Aan de bovenkant">
+<!ENTITY centerPopup.value "In het midden">
+<!ENTITY wrapRightPopup.value "Aan rechterkant">
+<!ENTITY wrapLeftPopup.value "Aan linkerkant">
+
+<!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Tussenruimtes">
 <!ENTITY spacingBox.tooltip "Geef een nummer voor de hoeveelheid ruimte om de afbeelding">
-<!ENTITY title.accessKey "T">
-<!ENTITY title.label "Tooltip:">
-<!ENTITY title.tooltip "Het HTML attribuut 'title' dat wordt weergegeven als tooltip">
-<!ENTITY topBottomEditField.accessKey "B">
+<!ENTITY leftRightEditField.label "Links en rechts:">
+<!ENTITY leftRightEditField.accessKey "L">
 <!ENTITY topBottomEditField.label "Boven- en onderkant:">
-<!ENTITY topPopup.value "Aan de bovenkant">
-<!ENTITY widthEditField.accessKey "B">
-<!ENTITY widthEditField.label "Breedte:">
-<!ENTITY windowTitle.label "Afbeeldingseigenschappen">
-<!ENTITY wrapLeftPopup.value "Aan linkerkant">
-<!ENTITY wrapRightPopup.value "Aan rechterkant">
+<!ENTITY topBottomEditField.accessKey "B">
+<!ENTITY borderEditField.label "Vaste rand:">
+<!ENTITY borderEditField.accessKey "V">
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Rand om gekoppelde afbeelding weergeven">
+<!ENTITY showImageLinkBorder.accessKey "R">
+
+<!-- These controls may be added some day; currently not used -->
+<!ENTITY makePageBackgroundCheckbox.label "Maak pagina achtergrond">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Afbeelding als achtergrond voor uw pagina gebruiken">
+<!ENTITY editImageButton.label "Afbeelding bewerken">
+<!ENTITY editImageButton.tooltip "Afbeeldingsbestand bewerken in ander programma">
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Formulier">
+<!ENTITY imageLocationTab.label "Locatie">
+<!ENTITY imageDimensionsTab.label "Afmetingen">
+<!ENTITY imageAppearanceTab.label "Vormgeving">
+<!ENTITY imageLinkTab.label "Koppeling">

@@ -1,14 +1,14 @@
-<!ENTITY lookInMenuList.label       "Kijken in:">
+<!ENTITY lookInMenuList.label   "Kijken in:">
 <!ENTITY lookInMenuList.accesskey   "K">
-<!ENTITY textInput.label            "Bestandsnaam:">
-<!ENTITY textInput.accesskey        "N">
-<!ENTITY filterMenuList.label       "Bestanden van type:">
+<!ENTITY textInput.label        "Bestandsnaam:">
+<!ENTITY textInput.accesskey        "n">
+<!ENTITY filterMenuList.label   "Bestanden van type:">
 <!ENTITY filterMenuList.accesskey   "B">
-<!ENTITY name.label                 "Naam">
-<!ENTITY size.label                 "Grootte">
-<!ENTITY lastModified.label         "Laatst gewijzigd">
-<!ENTITY permissions.label          "Permissies">
-<!ENTITY showHiddenFiles.label      "Verborgen bestanden en mappen tonen">
+<!ENTITY name.label             "Naam">
+<!ENTITY size.label             "Grootte">
+<!ENTITY lastModified.label     "Laatst gewijzigd">
+<!ENTITY permissions.label      "Permissies">
+<!ENTITY showHiddenFiles.label  "Verborgen bestanden en mappen tonen">
 <!ENTITY showHiddenFiles.accesskey  "V">
 
 <!ENTITY noPermissionError.label "U hebt niet de benodigde permissies om deze map te bekijken.">
