@@ -1,0 +1,11 @@
+<!ENTITY window.width "46em">
+
+<!ENTITY ocspDialog.title "Fíorú">
+<!ENTITY validation.ocsp.description "Tig le &brandShortName; an Prótacal Stádas Teastais Ar-Líne (Online Certificate Status Protocol, OCSP) a úsáid chun teastais a fhíorú. Socraigh &brandShortName; chun OCSP a úsáid mar seo:">
+<!ENTITY disableOCSP.label "Ná húsáid OCSP do bhailíochtú teastas">
+<!ENTITY certOCSP.label "Úsáid OCSP do bhailíochtú teastas lena sanntar URL le seirbhís OCSP">
+<!ENTITY proxyOCSP.label "Úsáid OCSP do bhailíochtú teastas uile an URL seo agus an tsínitheora seo:">
+<!ENTITY serviceURL.label "URL na Seirbhíse:">
+<!ENTITY serviceURL.accesskey "S">
+<!ENTITY signingCA.label "Sínitheoir na bhFreagraí:">
+<!ENTITY signingCA.accesskey "R">

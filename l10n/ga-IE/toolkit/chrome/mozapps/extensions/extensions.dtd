@@ -1,0 +1,116 @@
+<!ENTITY addons.title "Breiseáin">
+<!-- Default window size for the addon manager in pixels -->
+
+<!ENTITY em.width "520">
+<!ENTITY em.height "380">
+
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.options.commandKey ",">
+<!ENTITY cmd.close.commandKey "w">
+<!-- View labels -->
+
+<!ENTITY extensions.label "Eisínteachtaí">
+<!ENTITY themes.label "Téamaí">
+<!ENTITY locales.label "Teangacha">
+<!ENTITY plugins.label "Forlíontáin">
+<!ENTITY update.label "Nuashonraigh">
+<!ENTITY install.label "Suiteáil">
+<!-- Command Bar items -->
+
+<!ENTITY cmd.checkUpdatesAll.label "Cuardaigh Nuashonruithe">
+<!ENTITY cmd.checkUpdatesAll.accesskey "C">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Lorgaíonn nuashonruithe le haghaidh do Bhreiseáin">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Aimsíonn nuashonruithe do do chuid Téamaí">
+<!ENTITY cmd.installLocalFile.label "Suiteáil...">
+<!ENTITY cmd.installFile.accesskey "I">
+<!ENTITY cmd.installFileAddon.tooltip "Suiteáil Breiseán">
+<!ENTITY cmd.installFileTheme.tooltip "Suiteáil Téama">
+<!ENTITY cmd.installUpdatesAll.label "Suiteáil Nuashonruithe">
+<!ENTITY cmd.installUpdatesAll.accesskey "S">
+<!ENTITY cmd.installUpdatesAll.tooltip "Suiteálann na nuashonruithe roghnaithe">
+<!ENTITY cmd.restartApp.label "Atosaigh &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey "A">
+<!ENTITY cmd.restartApp.tooltip "Atosaíonn &brandShortName; chun an tsuiteáil a chur i gcrích">
+<!ENTITY cmd.skip.label "Déan Neamhaird De">
+<!ENTITY cmd.skip.accesskey "N">
+<!ENTITY cmd.skip.tooltip "Déan neamhaird de na nuashonruithe seo">
+<!ENTITY cmd.continue.label "Ar Aghaidh">
+<!ENTITY cmd.continue.accesskey "A">
+<!ENTITY cmd.continue.tooltip "Lean ar aghaidh le luchtú &brandShortName;">
+
+<!ENTITY cmd.enableAll.label "Cumasaigh Uile">
+<!ENTITY cmd.enableAll.accesskey "a">
+<!ENTITY cmd.enableAll.tooltip "Cumasaigh na Breiseáin atá á dtaispeáint">
+<!ENTITY cmd.disableAll.label "Díchumasaigh Uile">
+<!ENTITY cmd.disableAll.accesskey "s">
+<!ENTITY cmd.disableAll.tooltip "Díchumasaigh na Breiseáin go léir atá á dtaispeáint">
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+
+<!ENTITY cmd.useTheme.label "Úsáid Téama">
+<!ENTITY cmd.useTheme.accesskey "T">
+<!ENTITY cmd.useTheme.tooltip "Athraíonn téama &brandShortName;">
+<!ENTITY cmd.options.label "Roghanna">
+<!ENTITY cmd.options.accesskey "R">
+<!ENTITY cmd.options.tooltip "Socraigh Roghanna na hEisínteachta roghnaithe">
+<!ENTITY cmd.optionsUnix.label "Sainroghanna">
+<!ENTITY cmd.optionsUnix.accesskey "r">
+<!ENTITY cmd.optionsUnix.tooltip "Cuir Sainroghanna na hEisínteachta roghnaithe in eagar">
+<!ENTITY cmd.enable.label "Cumasaigh">
+<!ENTITY cmd.enable.accesskey "C">
+<!ENTITY cmd.enable.tooltip "Cumasaigh an Breiseán seo nuair a atosófar &brandShortName;">
+<!ENTITY cmd.disable.label "Díchumasaigh">
+<!ENTITY cmd.disable.accesskey "D">
+<!ENTITY cmd.disable.tooltip "Díchumasaigh an Breiseán seo nuair a atosófar &brandShortName;">
+<!ENTITY cmd.uninstall.label "Díshuiteáil">
+<!ENTITY cmd.uninstall2.accesskey "U">
+<!ENTITY cmd.uninstall2.tooltip "Díshuiteáil an Breiseán seo nuair a atosófar &brandShortName;">
+<!ENTITY cmd.cancelUninstall.label "Cealaigh Díshuiteáil">
+<!ENTITY cmd.cancelUninstall.accesskey "C">
+<!ENTITY cmd.cancelUninstall.tooltip "Cealaigh díshuiteáil an Bhreiseáin seo">
+<!ENTITY cmd.installUpdate.label "Suiteáil Nuashonrú">
+<!ENTITY cmd.installUpdate.accesskey "I">
+<!ENTITY cmd.installUpdate.tooltip "Suiteáil nuashonrú don Bhreiseán seo">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label "Cealaigh">
+<!ENTITY cancel.accesskey "C">
+<!-- Only displayed in the selected Add-on's context menu -->
+
+<!ENTITY cmd.homepage.label "Féach ar an leathanach baile">
+<!ENTITY cmd.homepage.accesskey "B">
+<!ENTITY cmd.about2.label "Maidir leis an mBreiseán seo">
+<!ENTITY cmd.about.accesskey "W">
+<!ENTITY cmd.checkUpdate.label "Cuardaigh Nuashonrú">
+<!ENTITY cmd.checkUpdate.accesskey "C">
+
+<!ENTITY cmd.includeUpdate.label "Cuir an Nuashonrú san Áireamh">
+<!ENTITY cmd.includeUpdate.accesskey "n">
+<!ENTITY includeUpdate.label "Cuir an Nuashonrú seo san Áireamh">
+<!ENTITY includeUpdate.accesskey "n">
+<!ENTITY includeUpdate.tooltip "Cuir an Breiseán seo san áireamh agus na nuashonruithe á suiteáil">
+<!-- Status Messsages -->
+
+<!ENTITY needsDependencies.label "Míreanna breise de dhíth.">
+<!ENTITY blocklisted.label "Díchumasaithe ar mhaithe le do chosaint.">
+<!ENTITY toBeDisabled.label "Díchumasófar an Breiseán seo nuair a atosófar &brandShortName;.">
+<!ENTITY toBeEnabled.label "Cumasófar an Breiseán seo nuair a atosófar &brandShortName;.">
+<!ENTITY toBeInstalled.label "Déanfar suiteáil ar an mBreiseán seo nuair a atosófar &brandShortName;.">
+<!ENTITY toBeUninstalled.label "Déanfar díshuiteáil ar an mBreiseán seo nuair a atosófar &brandShortName;.">
+<!ENTITY toBeUpgraded.label "Beidh an breiseán seo uasghrádaithe tar éis duit &brandShortName; a atosú.">
+
+<!ENTITY getExtensions.label "Faigh Eisínteachtaí">
+<!ENTITY getExtensions.tooltip "Faigh Eisínteachtaí ó addons.mozilla.org">
+<!ENTITY getThemes.label "Faigh Téamaí">
+<!ENTITY getThemes.tooltip "Faigh Téamaí ó addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label "Níl aon téama roghnaithe">
+<!ENTITY previewNoPreviewImage.label "Níl íomhá réamhamhairc ag an téama seo">
+<!ENTITY moreInfo.label "Tuilleadh Eolais">
+<!ENTITY closeMessage.tooltip "Dún an teachtaireacht seo">
+
+<!ENTITY updateSuccess.label "D'éirigh leis an nuashonrú.">
+<!ENTITY installSuccess.label "D'éirigh leis an tsuiteáil.">
+<!ENTITY installSuccessRestart.label "Atosaigh chun an tsuiteáil a chur i gcrích.">
+<!ENTITY installWaiting.label "Ag feitheamh...">
+<!ENTITY installIncompatibleUpdate.label "Comhoiriúnacht á seiceáil...">
+<!ENTITY installFinishing.label "Á Shuiteáil...">
+<!ENTITY installFailure.label "Theip ar shuiteáil.">
+

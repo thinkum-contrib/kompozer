@@ -1,0 +1,47 @@
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+
+<!ENTITY backButton.label "Siar">
+<!ENTITY backButton.accesskey "S">
+<!ENTITY backButton.tooltip "Leathanach amháin siar">
+<!ENTITY forwardButton.label "Ar Aghaidh">
+<!ENTITY forwardButton.accesskey "A">
+<!ENTITY forwardButton.tooltip "Leathanach amháin ar aghaidh">
+<!ENTITY copyCmd.label "Cóipeáil">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY selectAllCmd.label "Roghnaigh Uile">
+<!ENTITY selectAllCmd.accesskey "U">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "Baile">
+<!ENTITY homeButton.tooltip "Téigh go dtí an Leathanach Tosaigh Chabhrach">
+<!ENTITY printButton.label "Priontáil">
+<!ENTITY printButton.tooltip "Priontáil an leathanach seo">
+<!ENTITY closeWindow.commandkey "W">
+
+<!ENTITY throbberItem.title "Táscaire Gníomhaíochta">
+<!ENTITY throbber.tooltip "Téigh go dtí an rannóg Cabhair maidir le Cabhair">
+
+<!ENTITY searchtab.label "Cuardaigh">
+<!ENTITY searchtab.accesskey "U">
+<!ENTITY toctab.label "Ábhar">
+<!ENTITY toctab.accesskey "B">
+
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!ENTITY helpSearch.commandkey "k">
+
+<!ENTITY zLevel.label "Chun Tosaigh i gCónaí">
+<!ENTITY zLevel.accesskey "T">
+
+<!ENTITY textZoomReduceBtn.label "Clómhéid Níos Lú">
+<!ENTITY textZoomReduceBtn.accesskey "L">
+<!ENTITY textZoomEnlargeBtn.label "Clómhéid Níos Mó">
+<!ENTITY textZoomEnlargeBtn.accesskey "M">

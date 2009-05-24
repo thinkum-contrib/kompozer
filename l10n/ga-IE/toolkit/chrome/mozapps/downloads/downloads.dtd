@@ -1,0 +1,46 @@
+<!ENTITY window.width "400">
+<!ENTITY window.height "300">
+
+<!ENTITY done.label "Déanta">
+<!ENTITY canceled.label "Cealaithe">
+<!ENTITY installing.label "Á Shuiteáil...">
+
+<!ENTITY starting.label "Ag Tosú...">
+<!ENTITY failed.label "Teipthe">
+
+<!ENTITY downloads.title "Íosluchtú">
+
+<!ENTITY cmd.pause.label "Cuir ar Shos">
+<!ENTITY cmd.pause.accesskey "S">
+<!ENTITY cmd.resume.label "Lean">
+<!ENTITY cmd.resume.accesskey "L">
+<!ENTITY cmd.cancel.label "Cealaigh">
+<!ENTITY cmd.cancel.accesskey "C">
+<!ENTITY cmd.show.label "Oscail an Fillteán Coinneála">
+<!ENTITY cmd.show.labelMac "Taispeáin san Aimsitheoir">
+<!ENTITY cmd.show.accesskey "F">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.open.label "Oscail">
+<!ENTITY cmd.open.accesskey "O">
+<!ENTITY cmd.openWith.label "Oscail Le...">
+<!ENTITY cmd.openWith.accesskey "l">
+<!ENTITY cmd.retry.label "Atriail">
+<!ENTITY cmd.retry.accesskey "A">
+<!ENTITY cmd.remove.label "Bain">
+<!ENTITY cmd.remove.accesskey "a">
+<!ENTITY cmd.properties.label "Airíonna">
+<!ENTITY cmd.properties.accesskey "i">
+<!ENTITY cmd.info.commandKey "i">
+
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "Glan">
+<!ENTITY cmd.cleanUp.tooltip "Baineann ón liosta na híosluchtuithe a chríochnaigh, a cealaíodh, nó a theip orthu">
+<!ENTITY cmd.cleanUp.accesskey "A">
+
+<!ENTITY closeWhenDone.label "Dún nuair a bhíonn íosluchtú críochnaithe">
+<!ENTITY closeWhenDone.tooltip "Dún an Bainisteoir Íosluchtaithe i ndiaidh an íosluchtaithe">
+
+<!ENTITY filesSavedTo.label "Íosluchtaítear gach comhad go:">
+<!ENTITY showFolder.label "Taispeáin an Fillteán seo">
