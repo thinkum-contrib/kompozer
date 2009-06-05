@@ -34,20 +34,20 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label "Formular-Eigenschaften">
+<!ENTITY windowTitle.label "Proprietà del modulo">
 
-<!ENTITY Settings.label "Einstellungen">
+<!ENTITY Settings.label "Impostazioni">
 
-<!ENTITY FormName.label "Formularname:">
+<!ENTITY FormName.label "Nome del modulo:">
 <!ENTITY FormName.accesskey "N">
-<!ENTITY FormAction.label "Aktions-URL:">
+<!ENTITY FormAction.label "URL azione:">
 <!ENTITY FormAction.accesskey "A">
-<!ENTITY FormMethod.label "Methode:">
+<!ENTITY FormMethod.label "Metodo:">
 <!ENTITY FormMethod.accesskey "M">
-<!ENTITY FormEncType.label "Kodierung:">
-<!ENTITY FormEncType.accesskey "K">
-<!ENTITY FormTarget.label "Ziel-Frame:">
-<!ENTITY FormTarget.accesskey "Z">
+<!ENTITY FormEncType.label "Codifica:">
+<!ENTITY FormEncType.accesskey "c">
+<!ENTITY FormTarget.label "Frame di destinazione:">
+<!ENTITY FormTarget.accesskey "T">
 
-<!ENTITY RemoveForm.label "Formular entfernen">
-<!ENTITY RemoveForm.accesskey "E">
+<!ENTITY RemoveForm.label "Rimuovere Form">
+<!ENTITY RemoveForm.accesskey "R">
