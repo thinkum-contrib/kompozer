@@ -1,39 +1,46 @@
-<!ENTITY window.width "400">
-<!ENTITY window.height "300">
-<!ENTITY done.label "完成">
-<!ENTITY canceled.label "已取消">
-<!ENTITY installing.label "正在安装…">
-<!ENTITY starting.label "开始…">
-<!ENTITY failed.label "失败">
-<!ENTITY downloads.title "下载">
-<!ENTITY cmd.pause.label "暂停">
-<!ENTITY cmd.pause.accesskey "P">
-<!ENTITY cmd.resume.label "继续">
-<!ENTITY cmd.resume.accesskey "R">
-<!ENTITY cmd.cancel.label "取消">
-<!ENTITY cmd.cancel.accesskey "C">
-<!ENTITY cmd.show.label "打开所在文件夹">
-<!ENTITY cmd.show.labelMac "在 Finder 中显示文件">
-<!ENTITY cmd.show.accesskey "F">
-<!ENTITY cmd.show.accesskeyMac "F">
-<!ENTITY cmd.open.label "打开">
-<!ENTITY cmd.open.accesskey "O">
-<!ENTITY cmd.openWith.label "打开方式…">
-<!ENTITY cmd.openWith.accesskey "h">
-<!ENTITY cmd.retry.label "重试">
-<!ENTITY cmd.retry.accesskey "R">
-<!ENTITY cmd.remove.label "移除">
-<!ENTITY cmd.remove.accesskey "e">
-<!ENTITY cmd.properties.label "属性">
-<!ENTITY cmd.properties.accesskey "i">
-<!ENTITY cmd.info.commandKey "i">
-<!ENTITY cmd.close.commandKey "w">
-<!ENTITY cmd.close2.commandKey "j">
-<!ENTITY cmd.close2Unix.commandKey "y">
-<!ENTITY cmd.cleanUp.label "清除">
-<!ENTITY cmd.cleanUp.tooltip "将已下载、取消或者失败的下载项从列表中移除">
-<!ENTITY cmd.cleanUp.accesskey "C">
-<!ENTITY closeWhenDone.label "下载全部完成之后自动关闭">
-<!ENTITY closeWhenDone.tooltip "下载全部完成之后自动关闭下载窗口">
-<!ENTITY filesSavedTo.label "全部文件下载至：">
-<!ENTITY showFolder.label "显示此文件夹">
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "完成">
+<!ENTITY canceled.label                   "取消">
+<!ENTITY installing.label                 "安装…">
+
+<!ENTITY starting.label                   "开始…">
+<!ENTITY failed.label                     "失败">
+
+<!ENTITY downloads.title                  "下载">
+
+<!ENTITY cmd.pause.label                  "暂停">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "忽略">
+<!ENTITY cmd.resume.accesskey             "R">
+<!ENTITY cmd.cancel.label                 "取消">
+<!ENTITY cmd.cancel.accesskey             "C">
+<!ENTITY cmd.show.label                   "打开包伙的文件夹">
+<!ENTITY cmd.show.labelMac                "在查看器中显示">
+<!ENTITY cmd.show.accesskey               "F">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                   "打开">
+<!ENTITY cmd.open.accesskey               "O">
+<!ENTITY cmd.openWith.label               "打开方式…">
+<!ENTITY cmd.openWith.accesskey           "h">
+<!ENTITY cmd.retry.label                  "重试">
+<!ENTITY cmd.retry.accesskey              "R">
+<!ENTITY cmd.remove.label                 "删除">
+<!ENTITY cmd.remove.accesskey             "e">
+<!ENTITY cmd.properties.label             "属性">
+<!ENTITY cmd.properties.accesskey         "i">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "清除">
+<!ENTITY cmd.cleanUp.tooltip              "将已完成、取消或者失败的下载项从列表中移除">
+<!ENTITY cmd.cleanUp.accesskey            "C">
+
+<!ENTITY closeWhenDone.label              "下载完成后关闭">
+<!ENTITY closeWhenDone.tooltip            "当所有文件都下载完成后，关闭下载窗口">
+
+<!ENTITY filesSavedTo.label               "所有文件下载到:">
+<!ENTITY showFolder.label                 "显示这个文件夹">

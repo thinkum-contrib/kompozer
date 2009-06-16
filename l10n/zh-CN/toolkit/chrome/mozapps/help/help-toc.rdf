@@ -6,7 +6,7 @@
     <nc:subheadings>
       <rdf:Seq>
         <rdf:li> <rdf:Description ID="use-help" nc:name="如何使用帮助"
-                  nc:link="chrome://help/locale/welcome.xhtml"/> </rdf:li>
+                  nc:link="welcome.xhtml"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
@@ -14,8 +14,9 @@
   <rdf:Description about="#use-help">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="查找主题" nc:link="chrome://help/locale/welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="use-help-search" nc:name="搜索技巧" nc:link="chrome://help/locale/welcome.xhtml#search_tips"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="查找您需要的主题" nc:link="welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-retracing-your-steps" nc:name="浏览足迹" nc:link="welcome.xhtml#retracing_your_steps"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-search" nc:name="搜索小提示" nc:link="welcome.xhtml#search_tips"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>

@@ -1,9 +1,49 @@
-<!ENTITY newserver.examine "检查证书…">
-<!ENTITY newserver.notify "请通知该站点的管理员这个问题。">
-<!ENTITY newserver.reason1 "- 您的浏览器未辨别出发行此站点证书的证书中心。">
-<!ENTITY newserver.reason2 "- 此站点的证书因为服务器配置不正确而不完整。">
-<!ENTITY newserver.reasons "发生此错误的可能原因：">
-<!ENTITY newserver.refuse "不接受此证书，也不要连接到该网站">
-<!ENTITY newserver.remember "永远接受此证书">
-<!ENTITY newserver.session "仅在当前会话中接受此证书">
-<!ENTITY newserver.title "站点由一个未知授权认证">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org Code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Javier Delgadillo <javi@netscape.com>
+   -   Bob Lord <lord@netscape.com>
+   -   TeliuTe <teliute@163.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- Values for newserver.xul -->
+<!ENTITY newserver.title    "站点证书由未知机构颁发">
+<!ENTITY newserver.reasons  "此错误的可能原因:">
+<!ENTITY newserver.reason1  "- 您的浏览器没有识别出颁发站点证书的证书机构。">
+<!ENTITY newserver.reason2  "- 站点证书由于服务器错误配置而不完整。">
+<!ENTITY newserver.notify   "请将此问题通知网站管理者。">
+<!ENTITY newserver.examine  "检验证书…">
+<!ENTITY newserver.remember "永久接受此证书">
+<!ENTITY newserver.session  "仅在当前会话临时接受此证书">
+<!ENTITY newserver.refuse   "不接受此证书，也不连接到这个网站上">

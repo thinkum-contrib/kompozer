@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label                 "在线工作">
+<!ENTITY  offlineGoOfflineCmd.accesskey             "w">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					"文件"> 
+<!ENTITY fileMenu.accesskey				"f">
+<!ENTITY newMenu.label						"新建">
+<!ENTITY newMenu.accesskey					"N">
+<!ENTITY newBlankPageCmd.label "页面控制">
+<!ENTITY newBlankPageCmd.accesskey "P" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "使用模板">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+<!ENTITY newPageFromDraftCmd.label "使用草稿">
+<!ENTITY newPageFromDraftCmd.accesskey "d">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				"浏览器窗口">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">
+
+<!ENTITY editMenu.label					"编辑"> 
+<!ENTITY editMenu.accesskey				"e"> 
+<!ENTITY undoCmd.label						"撤销">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"U"> 
+<!ENTITY redoCmd.label						"重做">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"R"> 
+<!ENTITY cutCmd.label						"剪切">  
+<!ENTITY cutCmd.key							"X">  
+<!ENTITY cutCmd.accesskey					"t"> 
+<!ENTITY copyCmd.label						"复制">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"c"> 
+<!ENTITY pasteCmd.label						"粘贴">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"p"> 
+<!ENTITY deleteCmd.label					"删除">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey				"d"> 
+<!ENTITY selectAllCmd.label					"全选">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey				"a"> 
+<!ENTITY preferencesCmd.label				"首选项…">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"e"> 
+<!ENTITY findTypeTextCmd.label "即输即查">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeLinksCmd.label "即输即查链接">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewMenu.label					"查看"> 
+<!ENTITY viewMenu.accesskey				"v"> 
+<!ENTITY viewToolbarsMenu.label				"显示/隐藏"> 
+<!ENTITY viewToolbarsMenu.accesskey			"w"> 
+<!ENTITY showTaskbarCmd.label					"状态栏">  
+<!ENTITY showTaskbarCmd.accesskey				"S"> 
+
+<!ENTITY helpMenu.label					"帮助"> 
+<!ENTITY helpMenu.accesskey				"h"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"自上次更新">  
+
+<!ENTITY releaseCmd.label				"发行注记">
+<!ENTITY releaseCmd.accesskey                   "N">
+<!ENTITY aboutCmd.label					"关于 &brandShortName;">
+<!ENTITY aboutCmd.accesskey				"A">
+<!ENTITY aboutCommPluginsCmd.label			"关于插件">
+<!ENTITY aboutCommPluginsCmd.accesskey			"p">
+
+<!ENTITY direct.label                                   "联网(无代理)">
+<!ENTITY direct.accesskey                               "N">
+<!ENTITY manual.label                                   "联网(手动设置代理)">
+<!ENTITY manual.accesskey                               "M">
+<!ENTITY pac.label                                      "联网(自动代理网址)">
+<!ENTITY pac.accesskey                                  "A">
+<!ENTITY wpad.label                                     "联网(自动寻找代理)">
+<!ENTITY wpad.accesskey                                 "D">
+
+<!ENTITY proxy.label                                    "配置代理…">
+<!ENTITY proxy.accesskey                                "C">
+
+<!ENTITY bidiSwitchTextDirectionItem.label        "切换文字方向">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "w">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">

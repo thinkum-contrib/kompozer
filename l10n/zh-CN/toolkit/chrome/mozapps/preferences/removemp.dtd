@@ -1,5 +1,6 @@
-<!ENTITY removeInfo.label "您必须输入您的当前密码才能继续操作：">
-<!ENTITY removePassword.title "移除主密码">
-<!ENTITY removeWarning1.label "主密码用于保护敏感信息如站点密码等。">
-<!ENTITY removeWarning2.label "如果您移除您的主密码，当您的计算机被入侵时您的信息就无法得到保护了。">
-<!ENTITY setPassword.oldPassword.label "当前密码：">
+<!ENTITY removePassword.title              "删除主密码">
+<!ENTITY removeInfo.label                  "你必须要先输入当前设置的密码:">
+<!ENTITY removeWarning1.label              "您的主密码用于保护像网站密码那样的敏感信息。">
+<!ENTITY removeWarning2.label              "如果您删除了主密码，如果您的计算机被他人使用，将会泄露您的信息。">
+<!ENTITY setPassword.oldPassword.label     "当前密码:">
+

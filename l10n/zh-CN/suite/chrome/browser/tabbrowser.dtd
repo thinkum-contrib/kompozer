@@ -1,0 +1,13 @@
+<!ENTITY  untitledTab            "(无标题)">
+<!ENTITY  newTab.label           "新标签">
+<!ENTITY  newTab.accesskey       "N">
+<!ENTITY  closeTab.label         "关闭标签">
+<!ENTITY  closeTab.accesskey         "c">
+<!ENTITY  closeOtherTabs.accesskey  "o">
+<!ENTITY  closeOtherTabs.label   "关闭其他标签">
+<!ENTITY  reloadAllTabs.label    "刷新所有标签">
+<!ENTITY  reloadAllTabs.accesskey         "A">
+<!ENTITY  reloadTab.label        "刷新标签">
+<!ENTITY  reloadTab.accesskey         "r">
+<!ENTITY  newTabButton.tooltip   "打开一个新标签">
+<!ENTITY  listAllTabs.label      "列出所有标签">

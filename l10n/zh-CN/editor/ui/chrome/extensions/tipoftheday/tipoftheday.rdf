@@ -21,6 +21,7 @@
    -
    - Contributor(s):
    -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,112 +36,106 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
                      "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
 <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
 ]>
-
 <rss version="0.91">
   <channel>
-    <title>&brandShortName; 小秘诀</title>
-    <link>http://kompozer.net/</link>
-    <description>&brandShortName; 今日小秘诀</description>
-    <language>zh-CN</language>
+    <title>&brandShortName; tips</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>&brandShortName; 日积月累文档</description>
+    <language>en-us</language>
   
     <item>
-      <title>你可以移动页面元素！</title>
-      <description>只要把光标（闪烁的 I 型游标）移动到想搬移的区块上，再按工具列上的「图文层」
-	  按钮，就可让区块变成可移动了。</description>
-    </item>
-  
-    <item>
-      <title>你可以自订工具列！</title>
-      <description>只要在设计工具列或格式工具列上，按鼠标右键，选「自订工具列」，便可在工具自订面板及工具列之间，利用拖放的方式来增加、移动或移除按钮、空白及分隔线。</description>
-    </item>
-  
-    <item>
-      <title>&brandShortName; 有 CSS 编辑器！</title>
-      <description>&brandShortName; 整合了 CaScadeS CSS 编辑器，可从工具选单内的 CSS 编辑器开启。
+      <title>…可以移动元素吗？</title>
+      <description>只要把光标移到区域内，然后点击层按钮使它变为可移动。
       </description>
     </item>
   
     <item>
-      <title>&brandShortName; 有网站管理员！</title>
-      <description>只要按 F9 键或主选单上的「检视＞显示／隐藏＞网站管理员 」就可显示或隐藏网站管理员了。</description>
+      <title>…可以自定义工具栏吗?</title>
+      <description>点菜单“查看 > 显示/隐藏 > 自定义工具栏”，打开工具栏自定义面板，然后是用拖拽的方法添加、移动或删除按钮，并且可以分隔空开。
+      </description>
+    </item>
+  
+    <item>
+      <title>…&brandShortName; 有 CSS 编辑器吗?</title>
+      <description>&brandShortName; 有完整的层叠样式表编辑器。点菜单“工具 > CSS 编辑器”。</description>
+    </item>
+  
+    <item>
+      <title>…&brandShortName; 有站点管理器吗？</title>
+      <description>按 F9 键，或点菜单“查看 > 显示/隐藏 > 站点管理器”。</description>
     </item>
 
     <item>
-      <title>你可以套用 CSS 样式到任何的页面元素上！</title>
-      <description>只要把光标（闪烁的 I 型游标）移动到要控制样式的元素上，再到
-	  &brandShortName; 底部的结构工具列（状态列）上相应的元素标识按下鼠标右键，
-	透过「行内样式」(Inline Style)选单及其内的项目，你能够直接调整该元素
-	的样式。</description>
-    </item>
-
-    <item>
-      <title>你可以控制段落的书写方向！</title>
-      <description>自订工具列，加入两个控制书写方向的按钮即可。</description>
-    </item>
-
-    <item>
-      <title>你可以用鼠标调整表格大小！</title>
-      <description>只要选择「检视＞显示／隐藏＞尺规」，然后把光标
-	  （闪烁的 I 型游标）移动到表格单元格内，就会在表格框线上出现大小控制钮。 
+      <title>…可以给元素应用 CSS 样式吗？</title>
+      <description>把光标放到元素中，然后在下边的状态栏元素标记上点右键，将会出来一个“内联样式”菜单，然后您就可以对元素设置样式。
       </description>
     </item>
 
     <item>
-      <title>要自订工具列有多容易？</title>
-      <description>只要在工具列按鼠标右键即可…</description>
+      <title>…可以控制书写方向吗？</title>
+      <description>自定义工具栏，添加两个方向控制按钮即可。</description>
     </item>
 
     <item>
-      <title>你可以直接联系 &brandShortName; 的社群！</title>
-      <description>只要在选单中选择「说明＞讨论区」，就可连接到官方的社群讨论区了。</description>
-    </item>
-
-    <item>
-      <title>&brandShortName; 可以在启动程式的同时，自动开启文件！</title>
-      <description>使用命令列指令： kompozer _your_url_</description>
-    </item>
-
-    <item>
-      <title>你可以同时编辑多个网站！</title>
-      <description>网站管理员能够同时开启多个网站并显示其内容。</description>
-    </item>
-
-    <item>
-      <title>&brandShortName; 是跨平台软体！</title>
-      <description>&brandShortName; 能在不同的作业系统上使用，包括 Windows、Mac OS X 及
-	  眾多分发版本的 Linux，甚至在 OS/2 也行。</description>
-    </item>
-
-    <item>
-      <title>你可以使用键盘快捷键开启新分页来编辑！</title>
-      <description>Control+t (Mac OS X 上是 Command+t) 就可以开启一个新的空白分页。
+      <title>…可以用鼠标改变表格大小吗？</title>
+      <description>点菜单“查看 > 显示/隐藏 > 标尺”，然后把光标放到表格的单元格里，就可以在标尺上看到改变大小标记。
       </description>
     </item>
 
     <item>
-      <title>你可以使用键盘快捷键开启新窗口来编辑！</title>
-      <description>Control+shift+n (Mac OS X 上是 Command+shift+t) 就可以开启一个新的空白窗口。
-      </description>
+      <title>…可以快捷定制工具栏吗？</title>
+      <description>只要在它上面点右键即可…</description>
     </item>
 
     <item>
-      <title>你可以修改表格单元格的框线！</title>
-      <description>只要把光标（闪烁的 I 型游标）移动到单元格内，在状态列上的相应的单元格
-	  标识按鼠标右键，选「行内样式＞框线属性」即可。</description>
+      <title>…可以直接访问 &brandShortName; 社区吗？</title>
+      <description>只要点菜单“帮助 > 论坛”即可。</description>
     </item>
 
     <item>
-      <title>你可以单击鼠标来关闭分页！</title>
-      <description>只要在该分页标识上按一下鼠标中键即可关闭分页。</description>
+      <title>…&brandShortName; 可以用启动器自动打开一个文档吗？</title>
+      <description>使用命令行: kompozer _your_url_</description>
     </item>
 
     <item>
-      <title>你可以使用键盘快捷键来关闭分页！</title>
-      <description>只要按 Ctrl+F4 就能关闭目前所在的分页。</description>
+      <title>…可以同时编辑多个站点吗？</title>
+      <description>在站点管理器中，可以同时打开并显示多个站点。</description>
+    </item>
+
+    <item>
+      <title>…&brandShortName; 是跨平台的吗？</title>
+      <description>&brandShortName; 运行在多种不同的操作系统上，包括
+                   Windows, Mac OS X, Linux, OS/2, …</description>
+    </item>
+
+    <item>
+      <title>…可以用一个组合键来创建新标签页吗？</title>
+      <description>Ctrl+t (Mac OS X 是 Command+t) 将创建一个新标签页</description>
+    </item>
+
+    <item>
+      <title>…可以用一个组合键来创建新窗口吗？</title>
+      <description>Ctrl+shift+n (Mac OS X 是 Command+shift+t) 将创建一个空白窗口</description>
+    </item>
+
+    <item>
+      <title>…可以改变一个表格单元格的边框吗？</title>
+      <description>把光标放到单元格里，然后在状态栏点右键选择“内联样式 &gt; 边框标签”</description>
+    </item>
+
+    <item>
+      <title>…可以点一下就关闭标签页吗？</title>
+      <description>用中键点击就可以</description>
+    </item>
+
+    <item>
+      <title>…可以用一个组合键来关闭当前标签吗？</title>
+      <description>Ctrl+F4 可以关闭当前标签页。</description>
     </item>
 
   </channel>

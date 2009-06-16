@@ -1,7 +1,7 @@
-<!ENTITY acceptButton.label "关闭">
-<!ENTITY cmd.close.commandKey "w">
-<!ENTITY dateEnded.label "完成时刻：">
-<!ENTITY dateStarted.label "开始时刻：">
-<!ENTITY downloadedFrom.label "来自：">
-<!ENTITY path.label "保存到：">
-<!ENTITY window.title "属性">
+<!ENTITY dateStarted.label      "开始:">
+<!ENTITY dateEnded.label        "完成:">
+<!ENTITY window.title           "属性">
+<!ENTITY downloadedFrom.label   "从:">
+<!ENTITY path.label             "到:">
+<!ENTITY acceptButton.label     "关闭">
+<!ENTITY cmd.close.commandKey   "w">

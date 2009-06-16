@@ -1,5 +1,6 @@
+<!--LOCALIZATION NOTE printPreviewProgress.dtd Main UI for Print Preview Progress Dialog -->
+<!ENTITY printWindow.title "打印预览"> 
+<!ENTITY title   "标题:"> 
+<!ENTITY spaces    "            ">
 <!ENTITY preparing "准备…">
-<!ENTITY printWindow.title "打印预览">
-<!ENTITY progress "进度：">
-<!ENTITY spaces "            ">
-<!ENTITY title "标题：">
+<!ENTITY progress "进度:">

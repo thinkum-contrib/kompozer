@@ -1,20 +1,22 @@
-<!ENTITY findDialog.title "在页面中查找">
-<!ENTITY findDialogFrame.title "在此帧中查找">
-<!ENTITY findField.label "查找：">
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "在当前页内查找">
+<!ENTITY findDialogFrame.title "在当前框架中查找">
+<!ENTITY findField.label "查找:">
 <!ENTITY findField.accesskey "n">
-<!ENTITY caseSensitiveCheckbox.label "区分大/小写">
+<!ENTITY caseSensitiveCheckbox.label "区分大小写">
 <!ENTITY caseSensitiveCheckbox.accesskey "c">
 <!ENTITY wrapCheckbox.label "循环">
 <!ENTITY wrapCheckbox.accesskey "W">
 <!ENTITY backwardsCheckbox.label "向后搜索">
 <!ENTITY backwardsCheckbox.accesskey "b">
-<!ENTITY findField.tooltip "输入一个或多个要搜索的词">
+<!ENTITY findField.tooltip "输入一个或多个搜索项">
 <!ENTITY findButton.label "查找下一个">
 <!ENTITY findButton.accesskey "F">
 <!ENTITY cancelButton.label "取消">
 <!ENTITY closeButton.label "关闭">
-<!ENTITY up.label "上">
+<!ENTITY up.label "向上">
 <!ENTITY up.accesskey "U">
-<!ENTITY down.label "下">
+<!ENTITY down.label "向下">
 <!ENTITY down.accesskey "D">
 <!ENTITY direction.label "方向">

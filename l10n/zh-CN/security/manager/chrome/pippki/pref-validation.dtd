@@ -1,45 +1,86 @@
-<!ENTITY certOCSP.accesskey "U">
-<!ENTITY certOCSP.label "仅使用OCSP来验证已指定OCSP服务URL的证书">
-<!ENTITY crl.autoupdate.fail.cnt.label "从前的更新失败记录：">
-<!ENTITY crl.autoupdate.fail.reason.label "上次更新失败详细信息：">
-<!ENTITY crl.import.nextupdate.label "下次更新日期：">
-<!ENTITY crl.import.status.title "CRL导入状态">
-<!ENTITY crl.import.success.message "成功到入此废弃证书列表（CRL）。">
-<!ENTITY crl.issuer.label "CRL发行者：">
-<!ENTITY crl.issuer.org.label "组织：">
-<!ENTITY crl.issuer.orgunit.label "单元：">
-<!ENTITY disableOCSP.accesskey "D">
-<!ENTITY disableOCSP.label "不使用OCSP进行证书验证">
-<!ENTITY edit.button "设置">
-<!ENTITY pref.validation.title "验证">
-<!ENTITY proxyOCSP.accesskey "O">
-<!ENTITY proxyOCSP.label "通过下面的URL和签署器使用OCSP验证所有的证书：">
-<!ENTITY serviceURL.accesskey "S">
-<!ENTITY serviceURL.label "服务URL:">
-<!ENTITY signingCA.accesskey "R">
-<!ENTITY signingCA.label "回应签署器:">
-<!ENTITY validation.advanced.accesskey "S">
-<!ENTITY validation.advanced.label "设置">
-<!ENTITY validation.crl.autoupdate.enable.label "对此CRL启用自动更新">
-<!ENTITY validation.crl.autoupdate.freq.label1 "更新每隔">
-<!ENTITY validation.crl.autoupdate.freq.label2 "天">
-<!ENTITY validation.crl.autoupdate.time.label1 "更新">
-<!ENTITY validation.crl.autoupdate.time.label2 "天，下次更新之前">
-<!ENTITY validation.crl.autoupdate.title "自动CRL更新首选项">
-<!ENTITY validation.crl.autoupdate.url.label "导入CRL，从：">
-<!ENTITY validation.crl.caption "CRL">
-<!ENTITY validation.crl.description "使用CRL管理器来管理存储在您证书数据库中的废弃证书列表(CRL)。">
-<!ENTITY validation.crlautoupdateenabled.label "自动更新">
-<!ENTITY validation.crlautoupdatestatus.label "自动更新状态">
-<!ENTITY validation.crllastupdate.label "上次更新">
-<!ENTITY validation.crlmanager.label "管理 CRL">
-<!ENTITY validation.crlname.label "名称">
-<!ENTITY validation.crlnextupdate.label "下次更新">
-<!ENTITY validation.deletecrl.accesskey "D">
-<!ENTITY validation.deletecrl.label "删除">
-<!ENTITY validation.managecrls.accesskey "M">
-<!ENTITY validation.managecrls.button "管理 CRL…">
-<!ENTITY validation.ocsp.caption "OCSP">
-<!ENTITY validation.ocsp.description "&brandShortName; 能使用在线证书状态协议（OCSP）来验证证书。选择让&brandShortName; 使用OCSP的情况：">
-<!ENTITY validation.updatecrl.accesskey "U">
-<!ENTITY validation.updatecrl.label "更新">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   David P. Drinan (ddrinan@netscape.com)
+   -   TeliuTe <teliute@163.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY  pref.validation.title                   "验证">
+
+<!ENTITY  validation.crl.caption                  "CRL">
+<!ENTITY  validation.crl.description              "使用 CRL 管理器管理撤销证书列表(CRL)，它存储了您的证书数据库。">
+<!ENTITY  validation.managecrls.button            "管理 CRL…">
+<!ENTITY  validation.managecrls.accesskey         "M">
+<!ENTITY  validation.crlmanager.label             "管理 CRL">
+<!ENTITY  validation.crlname.label                "名称">
+<!ENTITY  validation.crllastupdate.label          "最近更新">
+<!ENTITY  validation.crlnextupdate.label          "下一次更新">
+<!ENTITY  validation.crlautoupdateenabled.label   "自动更新">
+<!ENTITY  validation.crlautoupdatestatus.label    "自动更新状态">
+<!ENTITY  validation.deletecrl.label              "删除">
+<!ENTITY  validation.deletecrl.accesskey          "D">
+<!ENTITY  validation.updatecrl.label              "更新">
+<!ENTITY  validation.updatecrl.accesskey          "U">
+<!ENTITY  validation.advanced.label               "设置">
+<!ENTITY  validation.advanced.accesskey           "S">
+
+<!ENTITY  validation.crl.autoupdate.title         "自动 CRL 更新首选项">
+<!ENTITY  validation.crl.autoupdate.enable.label  "对这个 CRL 启用自动更新">
+<!ENTITY  validation.crl.autoupdate.time.label1   "更新e">
+<!ENTITY  validation.crl.autoupdate.time.label2   "距离下次更新的天数">
+<!ENTITY  validation.crl.autoupdate.freq.label1   "每次更新">
+<!ENTITY  validation.crl.autoupdate.freq.label2   "天">
+<!ENTITY  validation.crl.autoupdate.url.label     "CRL 将从这导入:">
+<!ENTITY  crl.import.status.title                 "CRL 导入状态">
+<!ENTITY  crl.import.success.message              "撤销证书列表 (CRL) 成功导入。">
+<!ENTITY  crl.issuer.label                        "CRL 颁发者:">
+<!ENTITY  crl.issuer.org.label                    "组织: ">
+<!ENTITY  crl.issuer.orgunit.label                "单元: ">
+<!ENTITY  crl.import.nextupdate.label             "下次更新时间: ">
+<!ENTITY  crl.autoupdate.fail.cnt.label           "以前失败的更新: ">
+<!ENTITY  crl.autoupdate.fail.reason.label        "最近一次更新失败的细节: ">
+<!ENTITY  edit.button                             "设置">
+
+<!ENTITY validation.ocsp.caption                  "OCSP">
+<!ENTITY validation.ocsp.description              "&brandShortName; 能够使用在线证书状态协议(OCSP)来校验证书。要设置 &brandShortName; 使用 OCSP，请按下面的步骤操作:">
+<!ENTITY disableOCSP.label                        "不使用 OCSP 校验证书">
+<!ENTITY disableOCSP.accesskey                    "D">
+<!ENTITY certOCSP.label                           "仅使用指定的 OCSP 服务器网址来校验证书">
+<!ENTITY certOCSP.accesskey                       "U">
+<!ENTITY proxyOCSP.label                          "使用 OCSP 验证这个网址和签名服务的所有证书:">
+<!ENTITY proxyOCSP.accesskey                      "O">
+<!ENTITY serviceURL.label                         "服务器网址:">
+<!ENTITY serviceURL.accesskey                     "S">
+<!ENTITY signingCA.label                          "回应签名服务:">
+<!ENTITY signingCA.accesskey                      "R">

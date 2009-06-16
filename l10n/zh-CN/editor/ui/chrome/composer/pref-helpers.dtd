@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "外部应用程序">
+
+<!ENTITY application.label            "应用程序:">
+<!ENTITY webBrowser.label             "网页浏览器">
+<!ENTITY textEditor.label             "文本编辑器">
+<!ENTITY imageEditor.label            "图片编辑器">
+<!ENTITY mediaPlayer.label            "媒体播放器">
+<!ENTITY fileManager.label            "文件管理器">
+<!ENTITY ftpClient.label              "FTP 客户端">
+
+<!ENTITY useSystemHelper.label        "使用系统默认">
+<!ENTITY useCustomHelper.label        "使用自定义程序:">
+<!ENTITY path.label                   "文件路径">
+<!ENTITY arguments.label              "参数">
+<!ENTITY filePicker.tooltip           "选择文件…">
+
+<!ENTITY fileFilter.label             "文件扩展名(*):">
+<!ENTITY default.label                "默认">
+<!ENTITY needToRestart.label          "(*)KompoZer 重启后更改才生效。">
+

@@ -7,51 +7,108 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>使用帮助窗口</title>
+	<title>Using the Help Window</title>
 	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
 
-<h1 id="help_window_top">使用帮助窗口</h1>
+<script type="text/javascript">
+var isDisplayed = true;
 
-<p>本节讲解如何使用帮助窗口(包括显示帮助文本以及左边侧栏的整个窗口)。</p>
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
 
-<div class="contentsBox">本节内容包括：
-  <ul>
-    <li><a href="#finding_the_topic_you_want">查找主题</a></li>
-    <li><a href="#retracing_your_steps">回溯浏览历史</a></li>
-    <li><a href="#search_tips">搜索技巧与提示</a></li>
-  </ul>
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
+<table width="100%" id="navTable">
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
+</table>
+<div id="contentsBox">In this section:
+  <a href="#finding_the_topic_you_want">Finding the Topic You Want</a>
+  <a href="#retracing_your_steps">Retracing Your Steps</a>
+  <a href="#search_tips">Search Tips</a>
 </div>
 
-<h2 id="finding_the_topic_you_want">查找主题</h2>
+<h1 id="help_window_top">Using the Help Window</h1>
 
-	<p>当您浏览帮助窗口时，点击左边帧内的标签可以以不同的方式查看帮助内容：</p>
+<p>This section describes how to use the Help window (the entire window in
+  which this text and the Sidebar on the left are displayed).</p>
+
+<h2 id="finding_the_topic_you_want">Finding the Topic You Want</h2>
+
+	<p>When you're viewing the Help window, click the tabs in the left frame to view
+	  the Help contents in different ways:</p>
 	<ul>
-		<li><strong>内容</strong> 显示主要的主题列表。<br/>
-		  点击主题，可以阅读此主题的内容。双击它则可以看到其下的子主题。</li>
-		 <li><strong>搜索</strong> 让您可以搜索帮助文件。<br/>
-		  输入一个单词或者词组并按下回车键可以看到相关主题。然后单击您希望阅读的主题。<br/><br/>
-		  如果您的搜索没有返回任何结果，试试输入少一点的单词或者是重新组合搜索词汇。</li>
-		 <li><strong>索引</strong> 按照字母表顺序列出主题。<br/>点击索引条目可以查看相关主题的信息。</li>
-		 <li><strong>术语表</strong> 按照字母表顺序列出术语定义。<br/>点击一个术语可以看到它的定义。</li>
+		<li><strong>Contents</strong> shows the list of main topics.<br/>
+		  Click a topic to read about it. Double-click to see its subtopics.</li>
+		 <li><strong>Search</strong> lets you search the Help files.<br/>
+		  Type a word or phrase and press Enter to see related topics. Then click
+		  the topic you want to read about.<br/><br/>
+		  If your search doesn't return any topics, try typing fewer words or a
+		  different combination of words.</li>
+		 <li><strong>Index</strong> lists topics alphabetically.<br/>Click an index entry
+		 to view information on that topic.</li>
+		 <li><strong>Glossary</strong> lists definitions alphabetically.<br/>Click
+		 a glossary term to see its definition.</li>
 	</ul>
 
-	<p>要查看您正在阅读的帮助主题的相关信息，在帮助窗口内点击链接，
-这和您浏览普通网页时所做的一样。</p>
+	<p>To see information related to the Help topic you are reading, click
+	  links in the Help window just as you would in a regular web page.</p>
 
-<h2 id="search_tips">搜索技巧与提示</h2>
-	<p>如果在搜索时您找不到你想要查找的内容，可以试试以下几招：</p>
+<h2 id="retracing_your_steps">Retracing Your Steps</h2>
+	<p>To retrace your steps in Help, click the buttons near the top left corner of
+	  the Help window:</p>
+
+	<p><img src="http://mozilla.org/projects/firefox/help/1.0/help-buttons.png" alt="" width="209" height="43"/></p>
 
 	<ul>
-		<li>确定您搜索的内容是和 &brandShortName; 相关的；这并不是通常的因特网搜索。</li>
-        	<li>尽量放宽您的搜索条件 － 不要太具体了。关键字有可能在拼写上和您的搜索不同。</li>
-		<li>避免搜索太过宽泛：像 &quot;&brandShortName;&quot; 以及&quot;&vendorShortName;&quot; 这样的单词有可能返回帮助文件里所有的页面。</li>
+	        <li>Click the Show/Hide Sidebar button to show and hide the Sidebar contained
+	          on the left side of the Help Window.</li>
+		<li>Click the Back button to move back through pages you have previously
+		  visited. It works just like the Back button in the main &brandShortName;
+		  window.</li>
+		<li>Click the Forward button to move forward through pages you have previously
+		  visited. It works just like the Forward button in the main &brandShortName;
+		  window.</li>
+		<li>Click the Home button to see the Help and Support Center, which includes
+		  links to support options and web-based resources.</li>
 	</ul>
 
-<div class="contentsBox"><em>2004 年 9 月 16 日</em></div>
-<p>&copy; 2003-2006，版权由 Mozilla Help Viewer Project 的贡献者所有。</p>
+	<p>Alternatively, print the instructions you want to follow:</p>
+
+	<ul>
+		<li>To print the whole page that's currently displayed in the Help window,
+		  click the Print button near the top-right corner of the Help window:<br/>
+
+		<img src="http://mozilla.org/projects/firefox/help/1.0/print.png" alt="" width="38" height="43"/></li>
+
+		<li>To print just a portion of the page, first click and drag to select the
+		  area you want to print and then click the Print button.</li>
+	</ul>
+
+<h2 id="search_tips">Search Tips</h2>
+	<p>If you aren't finding what you want in your search, here are a few helpful tips:</p>
+
+	<ul>
+		<li>Be sure that you are searching for something that relates to
+		  &brandShortName;; this is not a general Internet search.</li>
+        	<li>Try to broaden your search - don't be too specific; terms
+		  could be worded differently than your search.</li>
+		<li>Avoid being too broad with your search: words like &quot;&brandShortName;&quot;
+		  and &quot;&vendorShortName;&quot; could possibly return all of the pages in the help file.</li>
+	</ul>
+
+<div class="copyrightBox"><em>29 March 2005</em></div>
+<p>Copyright &copy; 2003-2004 Contributors to the Nvu Help Documentation Project.</p>
 
 </body>
 </html>
