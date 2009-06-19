@@ -40,9 +40,9 @@
 <!ENTITY expertModeChecbox.label			"Eksperttilstand">
 <!ENTITY importRuleButton.label				"@import">
 <!ENTITY mediaRuleButton.label				"@media">
-<!ENTITY linkedSheetButton.label			"Ekstern">
-<!ENTITY styleSheetButton.label				"Intern">
-<!ENTITY ruleButton.label					"Regel">
+<!ENTITY linkedSheetButton.label			"Eksternt">
+<!ENTITY styleSheetButton.label				"Internt">
+<!ENTITY ruleButton.label			"Stil">
 <!ENTITY upButton.label						"Op">
 <!ENTITY downButton.label					"Ned">
 <!ENTITY refreshButton.label				"Opfrisk">
@@ -50,7 +50,7 @@
 <!ENTITY sheetInfoTab.label					"Generelt">
 <!ENTITY textTab.label						"Tekst">
 <!ENTITY borderTab.label					"Kanter">
-<!ENTITY marginsTab.label					"Marginer">
+<!ENTITY marginsTab.label					"Margin">
 <!ENTITY boxTab.label						"Boks">
 <!ENTITY auralTab.label						"Lyd">
 <!ENTITY fontFamily.label					"Skrifttype:">
@@ -59,8 +59,8 @@
 <!ENTITY fontData.label						"Skrifttypeoplysninger">
 <!ENTITY exampleSentence.label				"The quick brown fox jumps over the lazy dog">
 <!ENTITY backgroundTab.label				"Baggrund">
-<!ENTITY unspecifiedValue.label				"ikke angivet">
-<!ENTITY predefFontFamilyRadio.label		"foruddefineret:">
+<!ENTITY unspecifiedValue.label			"Ikke angivet">
+<!ENTITY predefFontFamilyRadio.label		"Foruddefineret:">
 <!ENTITY fontSize.label						"Skriftsstørrelse:">
 <!ENTITY lineHeight.label                   "Linjehøjde:">
 <!ENTITY normalLineHeight.label             "normal">
@@ -77,22 +77,22 @@
 <!ENTITY textTransform.label				"Store/små:">
 <!ENTITY noneTextTransformValue.label		"Ingen ændring">
 <!ENTITY lowercaseValue.label				"Små bogstaver">
-<!ENTITY uppercaseValue.label				"store bogstaver">
-<!ENTITY capitalizeValue.label				"Kapitæler">
+<!ENTITY uppercaseValue.label		"Store bogstaver">
+<!ENTITY capitalizeValue.label	"Store forbogstaver">
 <!ENTITY closeButton.label					"Luk">
-<!ENTITY largerFontSize.label				"større">
-<!ENTITY smallerFontSize.label				"mindre">
-<!ENTITY xxsmallFontSize.label				"mindst">
-<!ENTITY xsmallFontSize.label				"mindre">
-<!ENTITY smallFontSize.label				"lille">
-<!ENTITY mediumFontSize.label				"mellem">
-<!ENTITY largeFontSize.label				"stor">
-<!ENTITY xlargeFontSize.label				"større">
-<!ENTITY xxlargeFontSize.label				"størst">
+<!ENTITY largerFontSize.label				"Større">
+<!ENTITY smallerFontSize.label				"Mindre">
+<!ENTITY xxsmallFontSize.label				"Mindst">
+<!ENTITY xsmallFontSize.label				"Mindre">
+<!ENTITY smallFontSize.label				"Lille">
+<!ENTITY mediumFontSize.label				"Mellem">
+<!ENTITY largeFontSize.label				"Stor">
+<!ENTITY xlargeFontSize.label				"Større">
+<!ENTITY xxlargeFontSize.label				"Størst">
 <!ENTITY textAlign.label					"Justering:">
 <!ENTITY rightTextAlign.label				"Højre">
 <!ENTITY leftTextAlign.label				"Venstre">
-<!ENTITY centerTextAlign.label				"Centrer">
+<!ENTITY centerTextAlign.label				"Centreret">
 <!ENTITY justifyTextAlign.label				"Lige marginer">
 <!ENTITY textDecoration.label				"Effekter:">
 <!ENTITY overlineTextDecoration.label		"Overstreg">
@@ -110,7 +110,7 @@
 <!ENTITY repeatBackgroundRepeat.label       "vandret og lodret">
 <!ENTITY backgroundPosition.label           "Position:">
 <!ENTITY leftXBackgroundPosition.label      "Venstre">
-<!ENTITY centerXBackgroundPosition.label    "Centrer">
+<!ENTITY centerXBackgroundPosition.label    "Centreret">
 <!ENTITY rightXBackgroundPosition.label     "Højre">
 <!ENTITY topYBackgroundPosition.label       "Top">
 <!ENTITY centerYBackgroundPosition.label    "Midt">
@@ -184,7 +184,7 @@
 <!ENTITY height.label                       "Højde:">
 <!ENTITY minHeight.label                    "Min-højde:">
 <!ENTITY maxHeight.label                    "Max-højde:">
-<!ENTITY margins.label                      "Marginer:">
+<!ENTITY margins.label                      "Margin:">
 <!ENTITY paddings.label                     "Indrykning:">
 <!ENTITY offsets.label                      "Afstand:">
 <!ENTITY top.label                          "Top:">
@@ -238,10 +238,10 @@
 <!ENTITY outsideListStylePosition.label		"udvendig">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extract and create generic style">
-<!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Current styles for:">
-<!ENTITY renameButton.label                     "Edit selector">
+<!ENTITY makeCSSRule.label "Udtræk og opret selvstændig stil">
+<!ENTITY makecssrule.accesskey                  "U">
+<!ENTITY currentstylesfor.label                 "Stilregler for:">
+<!ENTITY renameButton.label                     "Rediger stilnavn">
 
 <!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
 <!ENTITY autoMarginUnit.label                   "auto">

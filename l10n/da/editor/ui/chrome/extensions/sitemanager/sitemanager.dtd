@@ -37,7 +37,10 @@
 <!ENTITY editSitesList.label      "Rediger sites">
 <!ENTITY filterAll.label          "Alle filer">
 <!ENTITY filterHTML.label         "HTML-dokumenter">
+<!ENTITY filterCSS.label          "CSS-filer">
 <!ENTITY filterImages.label       "Billeder">
+<!ENTITY filterMedia.label        "Media-filer">
+<!ENTITY filterScripts.label      "Tekst-filer">
 <!ENTITY treeViewCheckbox.label   "Træ-oversigt">
 <!ENTITY filenameColumn.label     "Navn">
 <!ENTITY sizeColumn.label         "Størrelse">
@@ -55,3 +58,17 @@
 <!ENTITY renameMenu.label         "Omdøb">
 <!ENTITY renameButton.tooltip     "Omdøb fil eller mappe">
 <!ENTITY filterControl.label      "Vis:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Lokal">
+<!ENTITY remoteTab.label          "Fjern">
+
+<!ENTITY openItem.label           "Åbn">
+<!ENTITY openAsText.label         "Åbn som tekst">
+<!ENTITY openRemote.label         "Åbn fjernmappe">
+<!ENTITY insertImage.label        "Indsæt billede">
+<!ENTITY previewItem.label        "Smugkig">
+<!ENTITY uploadItem.label         "Upload…">
+<!ENTITY downloadItem.label       "Gendan…">
+<!ENTITY itemProperties.label     "Indstillinger…">
+

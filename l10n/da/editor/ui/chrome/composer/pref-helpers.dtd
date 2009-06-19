@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Eksterne programmer">
+
+<!ENTITY application.label            "Program:">
+<!ENTITY webBrowser.label             "Browser">
+<!ENTITY textEditor.label             "Tekst editor">
+<!ENTITY imageEditor.label            "Billedredigering">
+<!ENTITY mediaPlayer.label            "Medieafspiller">
+<!ENTITY fileManager.label            "Fil-manager">
+<!ENTITY ftpClient.label              "FTP-klient">
+
+<!ENTITY useSystemHelper.label        "Brug system-standarder">
+<!ENTITY useCustomHelper.label        "Brug valgfrit program:">
+<!ENTITY path.label                   "Sti">
+<!ENTITY arguments.label              "Parametre">
+<!ENTITY filePicker.tooltip           "Vælg fil…">
+
+<!ENTITY fileFilter.label             "Filtyper (*) til:">
+<!ENTITY default.label                "Standard">
+<!ENTITY needToRestart.label          "(*) En ændring af indstillingerne vil først få effekt efter en genstart af KompoZer.">
+

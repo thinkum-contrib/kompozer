@@ -53,11 +53,11 @@
 <!ENTITY latin1EntitiesEncoding.label  "Ovenstående og Latin-1-bogstaver">
 <!ENTITY htmlEntitiesEncoding.label    "Specielle html 4-tegn">
 <!ENTITY allEntitiesEncoding.label     "Brug &amp;#..; angivelser for alle ikke-ASCII-tegn">
-<!ENTITY realtimeSpellCheck.label      "Løbende stavekontrol">
+<!ENTITY realtimeSpellCheck.label      "Dynamisk stavekontrol">
 <!ENTITY spellCheckRealTime.label      "Understreg fejlstavede ord">
 <!ENTITY spellCheckRealTime.accesskey  "u">
 <!ENTITY dialect.label                 "Markup">
-<!ENTITY markupLanguage.label          "Language:">
+<!ENTITY markupLanguage.label          "Kodesprog:">
 <!ENTITY dtd.label                     "DTD:">
 <!ENTITY htmlMarkupLanguage.label      "HTML 4">
 <!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">

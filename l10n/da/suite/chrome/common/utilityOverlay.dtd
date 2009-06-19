@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label                 "Arbejd offline">
+<!ENTITY  offlineGoOfflineCmd.accesskey             "A">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					"Filer"> 
+<!ENTITY fileMenu.accesskey				"f">
+<!ENTITY newMenu.label						"Ny">
+<!ENTITY newMenu.accesskey					"N">
+<!ENTITY newBlankPageCmd.label "Composer Page">
+<!ENTITY newBlankPageCmd.accesskey "P" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Side fra en skabelon">
+<!ENTITY newPageFromTemplateCmd.accesskey "s">
+<!ENTITY newPageFromDraftCmd.label "Side fra en kladde">
+<!ENTITY newPageFromDraftCmd.accesskey "d">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				"Navigator Window">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"N">
+
+<!ENTITY editMenu.label					"Rediger"> 
+<!ENTITY editMenu.accesskey				"e"> 
+<!ENTITY undoCmd.label						"Fortryd">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"U"> 
+<!ENTITY redoCmd.label						"Gentag">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"R"> 
+<!ENTITY cutCmd.label						"Klip">  
+<!ENTITY cutCmd.key							"X">  
+<!ENTITY cutCmd.accesskey					"K"> 
+<!ENTITY copyCmd.label						"Kopier">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"o"> 
+<!ENTITY pasteCmd.label						"Sæt ind">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"i"> 
+<!ENTITY deleteCmd.label					"Slet">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey				"S"> 
+<!ENTITY selectAllCmd.label					"Marker alt">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey				"a"> 
+<!ENTITY preferencesCmd.label				"Indstillinger…">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"I"> 
+<!ENTITY findTypeTextCmd.label "Begynd søgning mens du taster">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeLinksCmd.label "Find Links mens du taster">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewMenu.label					"Vis"> 
+<!ENTITY viewMenu.accesskey				"v"> 
+<!ENTITY viewToolbarsMenu.label				"Vis/skjul"> 
+<!ENTITY viewToolbarsMenu.accesskey			"i"> 
+<!ENTITY showTaskbarCmd.label					"Statuslinje">  
+<!ENTITY showTaskbarCmd.accesskey				"S"> 
+
+<!ENTITY helpMenu.label					"Hjælp"> 
+<!ENTITY helpMenu.accesskey				"h"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"Hvad er nyt">  
+
+<!ENTITY releaseCmd.label				"Udgivelsesnoter">
+<!ENTITY releaseCmd.accesskey                   "N">
+<!ENTITY aboutCmd.label					"Om &brandShortName;">
+<!ENTITY aboutCmd.accesskey				"O">
+<!ENTITY aboutCommPluginsCmd.label			"Om tilføjelser">
+<!ENTITY aboutCommPluginsCmd.accesskey			"t">
+
+<!ENTITY direct.label                                   "Online (Proxy: ingen)">
+<!ENTITY direct.accesskey                               "I">
+<!ENTITY manual.label                                   "Online (Proxy: Manuelt)">
+<!ENTITY manual.accesskey                               "M">
+<!ENTITY pac.label                                      "Online (Proxy: Auto-URL)">
+<!ENTITY pac.accesskey                                  "A">
+<!ENTITY wpad.label                                     "Online (Proxy: Auto-detekter)">
+<!ENTITY wpad.accesskey                                 "D">
+
+<!ENTITY proxy.label                                    "Proxy-konfiguration…">
+<!ENTITY proxy.accesskey                                "k">
+
+<!ENTITY bidiSwitchTextDirectionItem.label        "Skift tekstretning">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "s">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">

@@ -47,7 +47,7 @@
 <!ENTITY newBlankPageCmd.label "Side i nyt vindue">
 <!ENTITY newBlankPage.accesskey "n">
 <!ENTITY newOtherCmd.label "Flere indstillinger…">
-<!ENTITY newMenu.label "Ny(t)">
+<!ENTITY newMenu.label "Ny">
 <!ENTITY newTab.label "Side i nyt faneblad">
 <!ENTITY openFileCmd.label "Åbn fil…">
 <!ENTITY fileopen.accesskey "Å">
@@ -149,13 +149,13 @@
 <!-- View menu items -->
 <!ENTITY viewToolbarsMenu.label "Vis/skjul"> 
 <!ENTITY viewToolbarsMenu.accesskey "v"> 
-<!ENTITY compositionToolbarCmd.label "Kompositionslinjen">
+<!ENTITY compositionToolbarCmd.label "Værktøjslinje">
 <!ENTITY compositiontb.accesskey "K">
-<!ENTITY formattingToolbarCmd.label "Formateringslinjen">
+<!ENTITY formattingToolbarCmd.label "Formateringslinje">
 <!ENTITY formattingtb.accesskey "F">
-<!ENTITY editmodeToolbarCmd.label "Redigeringstilstandslinjen">
+<!ENTITY editmodeToolbarCmd.label "Formatfaner">
 <!ENTITY editmodetb.accesskey "e">
-<!ENTITY taskbarCmd.label "Statuslinjen">  
+<!ENTITY taskbarCmd.label "Statuslinje">  
 <!ENTITY taskbarCmd.accesskey "S"> 
 <!ENTITY viewPageSource.label "Kildekode">
 <!ENTITY viewpagesource.accesskey "K">
@@ -265,19 +265,19 @@
 <!ENTITY increaseFontSize.keybinding2 "="> <!-- + is above this key on many keyboards -->
 <!ENTITY fontsizeMenu.label "Størrelse">
 <!ENTITY formatsizemenu.accesskey "S">
-<!ENTITY size-xx-smallCmd.label "mindst">
+<!ENTITY size-xx-smallCmd.label "Mindst">
 <!ENTITY size-xx-small.accesskey "a">
-<!ENTITY size-x-smallCmd.label "mindre">
+<!ENTITY size-x-smallCmd.label "Mindre">
 <!ENTITY size-x-small.accesskey "i">
-<!ENTITY size-smallCmd.label "lille">
+<!ENTITY size-smallCmd.label "Lille">
 <!ENTITY size-small.accesskey "l">
-<!ENTITY size-mediumCmd.label "mellem">
+<!ENTITY size-mediumCmd.label "Mellem">
 <!ENTITY size-medium.accesskey "e">
-<!ENTITY size-largeCmd.label "stor">
+<!ENTITY size-largeCmd.label "Stor">
 <!ENTITY size-large.accesskey "o">
-<!ENTITY size-x-largeCmd.label "større">
+<!ENTITY size-x-largeCmd.label "Større">
 <!ENTITY size-x-large.accesskey "ø">
-<!ENTITY size-xx-largeCmd.label "størst">
+<!ENTITY size-xx-largeCmd.label "Størst">
 <!ENTITY size-xx-large.accesskey "t">
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Tekststil">
@@ -348,9 +348,9 @@
 <!ENTITY paragraphpreformat.accesskey "P">
 <!ENTITY paragraphBlockquoteCmd.label "Blokcitat">
 <!ENTITY paragraphblockquote.accesskey "b">
-<!ENTITY genericContainerCmd.label "Indsæt div-container">
+<!ENTITY genericContainerCmd.label "Indsæt div-boks">
 <!ENTITY genericcontainer.accesskey "I">
-<!ENTITY applyClassToSelectionCmd.tooltip "Tilføj en stilregel til det markerede">
+<!ENTITY applyClassToSelectionCmd.tooltip "Tilføj en stil til det markerede">
 <!ENTITY noClass.label "(ingen klasse)">
 <!-- List menu items -->
 <!ENTITY formatlistMenu.label "Liste">
@@ -394,9 +394,9 @@
 <!ENTITY alignLeft.label "Venstre">
 <!ENTITY alignleft.accesskey "V">
 <!ENTITY alignLeft.tooltip "Venstrejuster">
-<!ENTITY alignCenter.label "Centrer">
+<!ENTITY alignCenter.label "Centreret">
 <!ENTITY aligncenter.accesskey "c">
-<!ENTITY alignCenter.tooltip "Centrer">
+<!ENTITY alignCenter.tooltip "Centreret">
 <!ENTITY alignRight.label "Højre">
 <!ENTITY alignright.accesskey "H">
 <!ENTITY alignRight.tooltip "Højrejuster">
@@ -473,7 +473,7 @@
 <!ENTITY tablejoincells.accesskey "f">
 <!ENTITY tableSplitCell.label "Opdel celle">
 <!ENTITY tablesplitcell.accesskey "c">
-<!ENTITY convertToTable.label "Opret tabel af det markerede">
+<!ENTITY convertToTable.label "Opret tabel med det markerede">
 <!ENTITY converttotable.accesskey "r">
 <!ENTITY tableProperties.label "Tabelegenskaber…">
 <!ENTITY tableProperties.accesskey "e">
@@ -555,8 +555,8 @@
 <!ENTITY alignCenterButton.tooltip "Centrer tekst">
 <!ENTITY alignRightButton.tooltip "Juster tekst langs højre margin">
 <!ENTITY alignjustifyButton.tooltip "Juster teksten langs højre og venstre margin">
-<!ENTITY definitionTermToolbarCmd.tooltip "Defination term">
-<!ENTITY definitionDescriptionToolbarCmd.tooltip "Defination beskrivelse">
+<!ENTITY definitionTermToolbarCmd.tooltip "Definitionsterm">
+<!ENTITY definitionDescriptionToolbarCmd.tooltip "Definitionsbeskrivelse">
 <!-- Formatting toolbar not used, but may be in future -->
 <!ENTITY formatToolbar.boldChar "B">
 <!ENTITY formatToolbar.italicChar "I">
@@ -574,6 +574,14 @@
 <!ENTITY AllTagsMode.label "Vis alle tags">
 <!ENTITY AllTagsMode.accesskey "a">
 <!ENTITY AllTagsMode.tooltip "Vis ikoner for alle HTML-tags">
+
+<!-- Edit Mode toolbar and View menu items -->
+<!ENTITY DesignMode.label                    "Design-visning">
+<!ENTITY DesignMode.accesskey                "d">
+<!ENTITY DesignMode.tooltip                  "Normal-visning">
+<!ENTITY SplitMode.label                     "Split">
+<!ENTITY SplitMode.accesskey                 "s">
+<!ENTITY SplitMode.tooltip  "Vis det aktive elements html-kode">
 <!ENTITY HTMLSourceMode.label "HTML-kildekode">
 <!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
 <!ENTITY SourceMode.label "Kildekode">
@@ -631,7 +639,7 @@
 <!-- Help menu -->
 <!ENTITY helpMenu.label "Hjælp">
 <!ENTITY helpmenu.accesskey "H">
-<!ENTITY nvuComMenu.label "&brandShortName;'s hjemmeside">
+<!ENTITY nvuComMenu.label "&brandShortName;s hjemmeside">
 <!ENTITY nvucommenu.accesskey "K">
 <!ENTITY faqMenu.label "FAQ">
 <!ENTITY faqmenu.accesskey "F">
@@ -641,7 +649,7 @@
 <!ENTITY nvudevorgmenu.accesskey "U">
 <!ENTITY nvuForumsMenu.label "Dansk hjælpeforum">
 <!ENTITY nvuforumsmenu.accesskey "o">
-<!ENTITY supportKompoZer.label     "Support &brandShortName;">
+<!ENTITY supportKompoZer.label     "Støt &brandShortName;">
 <!ENTITY supportKompoZer.accesskey "s">
 <!ENTITY tipofthedayMenu.label "Dagens tip">
 <!ENTITY tipofthedaymenu.accesskey "T">
@@ -657,10 +665,23 @@
 <!ENTITY aboutDI.accesskey "I">
 <!ENTITY leftGlued.tooltip "Hæft til venstre kant">
 <!ENTITY rightGlued.tooltip "Hæft til højre kant">
-<!ENTITY centerGlued.tooltip "Centrer">
+<!ENTITY centerGlued.tooltip "Centreret">
 <!ENTITY topGlued.tooltip "Hæft til toppen">
 <!ENTITY bottomGlued.tooltip "Hæft til bunden">
 <!ENTITY middleGlued.tooltip "Hæft til midten">
 <!ENTITY spellSuggestions.label "Staveforslag">
 <!ENTITY spellSuggestions.accesskey "S">
 <!ENTITY spellAddToDictionary.label "Tilføj til ordbog">
+
+<!-- KompoZer 0.8: viewSource -->
+<!ENTITY editNode.label                      "Rediger HTML">
+<!ENTITY editHead.label                      "Rediger indhold i &lt;head&gt;">
+<!ENTITY editBody.label                      "Rediger indhold i &lt;body&gt;">
+<!ENTITY confirmNode.label                   "Bekræft ændringer">
+<!ENTITY cancelNode.label                    "Fortryd ændringer">
+
+<!-- KompoZer 0.8: text editor -->
+<!ENTITY extEditor.label                     "HTML">
+<!ENTITY extEditor.tooltip                   "Åbn dokumentet i en ekstern editor">
+<!ENTITY extEditorCmd.label                  "Ekstern editor">
+<!ENTITY extEditorCmd.accesskey              "E">

@@ -11,19 +11,25 @@
   </head>
 
   <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
 <table width="100%" id="navTable">
 <tr>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.gif" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
 </tr>
 </table>
-    <h1 id="nvu_tutorial">&brandShortName; Tutorial</h1>
-
-    <p>&brandShortName; is an open source
-    What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
-    system. It is based on Gecko, the Mozilla rendering
-    engine. &brandShortName; is completely free and can be downloaded
-    from <a href="http://www.nvu.com/">&brandShortName;
-    website</a>.</p>
 
     <div id="contentsBox">In this section:
     <a href="#scope_of_this_tutorial">Scope of This Tutorial</a>
@@ -34,6 +40,15 @@
     <a href="#advanced_styles">Advanced Styles</a>
     <a href="#publishing_your_documents_basics">Publishing Your Document(s)-Basics</a>
     </div>
+
+    <h1 id="nvu_tutorial">&brandShortName; Tutorial</h1>
+
+    <p>&brandShortName; is an open source
+    What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
+    system. It is based on Gecko, the Mozilla rendering
+    engine. &brandShortName; is completely free and can be downloaded
+    from <a href="http://www.nvu.com/">&brandShortName;
+    website</a>.</p>
 
     <h2 id="scope_of_this_tutorial">Scope of This Tutorial</h2>
 
@@ -46,9 +61,9 @@
 
     <p>The manual does not even cover all the basic aspects of HTML in
     detail. Yes, this is a short tutorial and some basic albeit
-    unimportant things have been left out. You are enouraged to find
+    unimportant things have been left out. You are encouraged to find
     out about them yourself. Also the tutorial covers just an
-    introduction on how to use cascading style sheets with the inbuit
+    introduction on how to use cascading style sheets with the inbuilt
     editor, CaScadeS.</p>
 
     <p>For those of you who are more interested in learning about
@@ -59,7 +74,7 @@
     the many books available on learning HTML.</p>
 
     <!-- The approach of this tutorial is to give the most basic
-         instructions on getting major things done with &brandShortName;. This will
+         instructions on getting major things done with Nvu. This will
          give the user an idea as to how to achieve the objective of
          the secion. In the end of each section a link should be
          provided targetting corresponding section in the main Help
@@ -69,12 +84,12 @@
 
     <p>This tutorial first introduces you to &brandShortName;'s User
     Interface. This is followed by a basic formatting section. Next
-    secion, tells you how to insert elements like images, tables, and
+    section, tells you how to insert elements like images, tables, and
     forms in your document. Then we have small section devoted to
     styling your document using CSS. The document concludes with
     instructions for publishing your document to a web server.</p>
 
-    <p>[ <a href="#scope_of_this_tutorial">Return to begining of
+    <p>[ <a href="#scope_of_this_tutorial">Return to beginning of
     section</a> ]</p>
 
     <h2 id="introduction_to_the_user_interface">Introduction to the
@@ -83,7 +98,7 @@
     <p>&brandShortName;'s File Menu contains menu items for all major
     operations possible while using it. For full detailed reference
     read the <a href="menu_reference.xhtml">Menu Reference</a>
-    page. &brandShortName;'s toolbar user interface consists of:</p>
+    page. &brandShortName;'s tool bar user interface consists of:</p>
 
     <ul>
       <li><a href="#composition_toolbar">Composition Toolbar</a></li>
@@ -101,13 +116,13 @@
 
     <h3 id="format_toolbar">Format Toolbar</h3>
 
-    <p>The Format Toolbar is a very usefull tool while editing web
+    <p>The Format Toolbar is a very useful tool while editing web
     pages with &brandShortName;. With the Format Toolbar you can apply
     paragraph format, choose a font, change foreground or background
-    color, increase or decrease size, and emphasize a block of
+    colour, increase or decrease size, and emphasize a block of
     text. You can also create ordered or unordered lists and justify a
-    block of text to left, right or center. To know which button does
-    what just hover your mouse over the button and a tooltip will
+    block of text to left, right or centre. To know which button does
+    what just hover your mouse over the button and a tool tip will
     appear indicating the function of the button.</p>
 
     <p><img src="images/tut_formating_tb.png" title="Formating Toolbar" width="802" height="34" alt="" /></p>
@@ -125,8 +140,8 @@
 
     <h3 id="edit_mode_toolbar">Edit Mode Toolbar</h3>
 
-    <p>The Edit Mode Toolbar indicats the viewing mode which is
-    presently active for the current document. Availabe viewing modes
+    <p>The Edit Mode Toolbar indicates the viewing mode which is
+    presently active for the current document. Available viewing modes
     are the Normal view, HTML Tags view, HTML source view and the
     Preview mode. You can easily change your viewing mode by simply
     clicking any of the other three with the mouse.</p>
@@ -138,14 +153,14 @@
     <p>&brandShortName;'s status bar shows the position of the cursor
     with respect to the HTML tag hierarchy. You can easily edit/assign
     the properties of any particular tag in the status bar just by
-    right clicking and choosing the desired optoin. Simple left-click
+    right clicking and choosing the desired option. Simple left-click
     of the mouse on a tag in status bar selects the text surrounded by
     that tag.</p>
 
     <p><img src="images/tut_status_tb.png" title="Status Toolbar" width="326" height="48" alt="" /></p>
 
     <p>[ <a href="#introduction_to_the_user_interface">Return to
-    begining of section</a> ]</p>
+    beginning of section</a> ]</p>
 
     <h2 id="starting_a_new_document">Starting a New Document</h2>
 
@@ -167,7 +182,7 @@
     href="composer_help.xhtml#working_with_templates">Working with
     Templates</a> section of &brandShortName; Help documentation.</p>
 
-    <p>[ <a href="#starting_a_new_document">Return to begining of
+    <p>[ <a href="#starting_a_new_document">Return to beginning of
     section</a> ]</p>
 
     <h2 id="basic_formatting_of_the_document">Basic Formatting of the
@@ -216,7 +231,7 @@
     converted into a museum by the government as a dedication to his
     life and times. He was a naturalist, conservationalist and an avid
     photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighiting for the British army in the WWI, he came
+    Nanital. After fighting for the British army in the WWI, he came
     back to India and settled in Kaladhungi with his sister,
     Maggie. He was called up several times by village people and the
     government to get rid of man-eating tigers and leopards.</p>
@@ -301,7 +316,7 @@
     converted into a museum by the government as a dedication to his
     life and times. He was a naturalist, conservationalist and an avid
     photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighiting for the British army in the WWI, he came
+    Nanital. After fighting for the British army in the WWI, he came
     back to India and settled in Kaladhungi with his sister,
     Maggie. He was called up several times by village people and the
     government to get rid of man-eating tigers and leopards.</p>
@@ -329,7 +344,7 @@
     <hr />
 
     <p>[ <a href="#basic_formatting_of_the_document">Return to
-    begining of section</a> ]</p>
+    beginning of section</a> ]</p>
 
     <h2 id="inserting_images_and_tables">Inserting Images, and
     Tables</h2>
@@ -387,7 +402,7 @@
     table and then click on the "<strong>Table</strong>" button on the
     <strong>Composition Toolbar</strong>. In the Table Properties
     dialog, you can set various properties for the table, cell, row or
-    a column, e.g. background color for table or cell, table caption,
+    a column, e.g. background colour for table or cell, table caption,
     table alignment, table or column width, etc.</p>
 
     <p>For a detailed treatment of various properties of table, the
@@ -396,12 +411,12 @@
     to your Web Pages</a> in the &brandShortName; Help
     documentation.</p>
 
-    <p>[ <a href="#inserting_images_and_tables">Return to begining of
+    <p>[ <a href="#inserting_images_and_tables">Return to beginning of
     section</a> ]</p>
 
     <h2 id="advanced_styles">Advanced Styles</h2>
 
-    <p>&brandShortName; allows the users to create or edit cascading style sheets
+    <p>Nvu allows the users to create or edit cascading style sheets
     with the help of its inbuilt style sheet editor named
     "CaScadeS". CaScadeS has the ability of using either internal or
     external style sheets for documents being edited. Details on how
@@ -410,13 +425,13 @@
     href="composer_help.xhtml#using_style_sheets_for_your_web_pages">using
     style sheets</a> in the main Help section.</p>
 
-    <p>[ <a href="#advanced_styles">Return to begining of section</a>
+    <p>[ <a href="#advanced_styles">Return to beginning of section</a>
     ]</p>
 
     <h2 id="publishing_your_documents_basics">Publishing Your
     Document(s)-Basics</h2>
 
-    <p>You can publish your documents using &brandShortName;'s built-in the Site
+    <p>You can publish your documents using Nvu's built-in the Site
     Manager. The visibility of the site manager can be toggled by
     clicking the F9 button.</p>
 
@@ -424,11 +439,11 @@
     tutorial has been postponed till the new version is released.</p>
 
     <p>[ <a href="#publishing_your_documents_basics">Return to
-    begining of section</a> ]</p>
+    beginning of section</a> ]</p>
 
     <div class="copyrightBox"><em>19 November 2004</em></div>
 
-    <p>Copyright &copy; 2003-2004 Contributors to the &brandShortName;
+    <p>Copyright &copy; 2003-2004 Contributors to the Nvu
     Help Documentation Project.</p>
 
   </body>

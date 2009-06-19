@@ -25,6 +25,8 @@
 <!ENTITY windowTitleSettings.label "Overførselsindstillinger">
 <!ENTITY publishTab.label "Overfør">
 <!ENTITY settingsTab.label "Indstillinger">
+<!ENTITY publishButton.label        "Overfør">
+
 <!-- Publish Tab Panel -->
 <!ENTITY siteList.label "Stedets navn:">
 <!ENTITY siteList.tooltip "Vælg den side som du vil udgive til">
@@ -66,3 +68,23 @@
 <!ENTITY savePassword.label "Gem adgangskode">
 <!ENTITY savePassword.tooltip "Vælg dette for at gemme din adganskode sikkert ved hjælp af Adgangskodehåndtering">
 <!ENTITY selectDirectory.label "Vælg mappe">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Generelle indstillinger">
+<!ENTITY ftpSettings.label          "FTP-indstillinger">
+<!ENTITY localSettings.label        "Lokale indstillinger">
+<!ENTITY siteDirectory.label        "Site-mappe:">
+<!ENTITY siteDirectory.tooltip      "Mappen på den computer, hvor sitet er gemt.">
+<!ENTITY browsePrefix.label         "Prefix:">
+<!ENTITY browsePrefix.tooltip       "Prefix, der skal fjernes fra FTP-delen af URL'en, fx /public_html">
+
+<!ENTITY connection.label           "Forbindelsestype">
+<!ENTITY port.label                 "Port:">
+<!ENTITY pasv.label                 "Passiv tilstand">
+<!ENTITY security.label             "Sikkerhed">
+<!ENTITY none.label                 "Ingen">
+<!ENTITY authtls.label              "Auth TLS (bedst)">
+<!ENTITY authssl.label              "Auth SSL (bedre)">
+<!ENTITY implicit.label             "Implicit SSL (God)">
+<!ENTITY treesync.label             "Synkroniser mapperne, mens du navigerer">
+

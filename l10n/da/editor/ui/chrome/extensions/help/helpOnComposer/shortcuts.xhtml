@@ -8,7 +8,7 @@
 
 <!--
 Original Author:
-"KDS Sahambi" <ksahambi AT yahoo DOT com>
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
 Contributor(s):
 -->
 
@@ -18,19 +18,34 @@ Contributor(s):
     <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
   </head>
   <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
 <table width="100%" id="navTable">
 <tr>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.gif" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
 </tr>
 </table>
-    <h1>&brandShortName; Keyboard Shortcuts</h1>
 
     <div id="contentsBox">In this section:
-    <a href="#using_shortcuts">Using Shortcuts</a>
-    <a href="#general_shortcuts">General Shortcuts</a>
-    <a href="#nvu_composition_shortcuts">&brandShortName; Shortcuts</a>
-    <a href="#help_window_shortcuts">Help Window Shortcuts</a>
+     <a href="#using_shortcuts">Using Shortcuts</a>
+     <a href="#general_shortcuts">General Shortcuts</a>
+     <a href="#nvu_composition_shortcuts">&brandShortName; Shortcuts</a>
+     <a href="#help_window_shortcuts">Help Window Shortcuts</a>
     </div>
+
+    <h1>&brandShortName; Keyboard Shortcuts</h1>
 
     <h2 id="using_shortcuts">Using Shortcuts</h2>
 
@@ -439,9 +454,9 @@ Contributor(s):
     href="#using_shortcuts">Return to beginning of
     section</a> ]</p>
 
-    <div class="copyrightBox"><em>7 December 2004</em></div>
+    <div class="copyrightBox"><em>30 May 2005</em></div>
 
-    <p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+    <p>Copyright &copy; 2004-2005 Contributors to the Nvu
     Help Documentation Project.</p>
 
   </body>

@@ -25,10 +25,10 @@
 <!ENTITY chooseButton.label "Vælg fil…">
 <!ENTITY chooseFile.accessKey "f">
 <!ENTITY chooseFileLink.accessKey "V">
-<!ENTITY makeUrlRelative.label "Relativ URL ift. sidens placering">
+<!ENTITY makeUrlRelative.label "Relativ URL">
 <!ENTITY makeUrlRelative.accessKey "r">
 <!ENTITY makeUrlRelative.tooltip "Skift mellem relative og absolutte URL'er. Du skal gemme siden før du ændrer dette.">
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField.label "Angiv en hjemmesideadresse, en lokal fil, en mail-adresse, eller vælg et anker eller en overskrift fra popoplisten:">
+<!ENTITY LinkURLEditField.label "Angiv en hjemmesideadresse, en lokal fil, en mail-adresse, eller vælg et anker eller en overskrift fra pop op-listen:">
 <!ENTITY LinkURLEditField.accessKey "L">
 <!ENTITY isMailAddress.label "Ovenstående er en mail-adresse">

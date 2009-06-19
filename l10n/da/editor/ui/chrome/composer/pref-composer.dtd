@@ -67,3 +67,6 @@
 <!ENTITY useCSS.label "Brug CSS-stilark i stedet for HTML-elementer og -attributter">
 <!ENTITY  siteManager.label         "Site-manager">
 <!ENTITY  openInNewTab.label        "Åbn altid dokumenter i et nyt faneblad">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Brug systemikoner">
+

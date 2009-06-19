@@ -1,0 +1,13 @@
+<!ENTITY  untitledTab            "(Uden titel)">
+<!ENTITY  newTab.label           "Nyt faneblad">
+<!ENTITY  newTab.accesskey       "N">
+<!ENTITY  closeTab.label         "Luk faneblad">
+<!ENTITY  closeTab.accesskey         "L">
+<!ENTITY  closeOtherTabs.accesskey  "a">
+<!ENTITY  closeOtherTabs.label   "Luk andre faneblade">
+<!ENTITY  reloadAllTabs.label    "Genindlæs alle faneblade">
+<!ENTITY  reloadAllTabs.accesskey         "e">
+<!ENTITY  reloadTab.label        "Genindlæs faneblad">
+<!ENTITY  reloadTab.accesskey         "G">
+<!ENTITY  newTabButton.tooltip   "Åbn et nyt faneblad">
+<!ENTITY  listAllTabs.label      "Vis alle faneblade">

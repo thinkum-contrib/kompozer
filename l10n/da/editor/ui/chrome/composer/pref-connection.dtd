@@ -6,9 +6,9 @@
 <!ENTITY  directTypeRadio.accesskey     "D">
 <!ENTITY manualTypeRadio.label "Manuel proxykonfiguration">
 <!ENTITY  manualTypeRadio.accesskey     "m">
-<!ENTITY autoTypeRadio.label "Automatisk proxy-konfigurationsURL:">
+<!ENTITY autoTypeRadio.label "Automatisk proxykonfigurations-URL:">
 <!ENTITY autoTypeRadio.accesskey "a">
-<!ENTITY configAutoconfigText.label "Konfigurations-adresse (URL):">
+<!ENTITY configAutoconfigText.label "Konfigurationsadresse (URL):">
 <!ENTITY  configAutoconfigText.accesskey "u">
 <!ENTITY reload.label "Genindlæs">
 <!ENTITY reload.accesskey "n">

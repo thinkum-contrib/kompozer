@@ -25,9 +25,11 @@
 <!ENTITY windowMenu.accesskey "V">
 <!ENTITY tasksMenu.label "Funktioner">
 <!ENTITY tasksMenu.accesskey "F"> 
-<!ENTITY downloadManagerCmd.label "Download Manager">
+<!ENTITY downloadManagerCmd.label "Download-manager">
 <!ENTITY downloadManagerCmd.accesskey "D">
 <!ENTITY switchProfileCmd.label "Skift profil…">
 <!ENTITY switchProfileCmd.accesskey "s">
+
+<!ENTITY addons.label                    "Tilføjelser">
 <!ENTITY extensions.label "Udvidelser">
 <!ENTITY themes.label "Temaer">

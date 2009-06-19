@@ -16,14 +16,25 @@ Contributor(s):
 
 <body>
 
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
 <table width="100%" id="navTable">
 <tr>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.gif" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
 </tr>
 </table>
-  <h1 id="menu_reference">&brandShortName; Menu Reference</h1>
-  <div>This menu reference describes each menu item in the main
-  &brandShortName; window.</div>
 
   <div id="contentsBox">In this section:
   <a href="#file">File</a>
@@ -35,6 +46,10 @@ Contributor(s):
   <a href="#tools">Tools</a>
   <a href="#help">Help</a>
   </div>
+
+  <h1 id="menu_reference">&brandShortName; Menu Reference</h1>
+  <div>This menu reference describes each menu item in the main
+  &brandShortName; window.</div>
 
   <h2 id="file">File</h2>
 
@@ -67,7 +82,7 @@ Contributor(s):
   <p>Saves the page you are currently editing giving the option of
   saving it with a different filename. </p>
 
-  <h3 id="save_as_charset">Save As Charset…</h3>
+  <h3 id="save_character_encoding">Save And Change Character Encoding</h3>
   <p>Gives an option of changing the "Charset" of the web page
   before displaying the "Save As…" dialog.</p>
 
@@ -89,18 +104,24 @@ Contributor(s):
   <h3 id="browse_page">Browse Page</h3>
   <p>View the current page in your default web browser</p>
 
+  <h3 id="page_setup">Page Setup…</h3>
+  <p>Opens the Page Setup options
+  dialog for configuring printing options.</p>
   
-  <h3 id="print">Print…</h3>
-  <p>Displays the Print dialog, where you can specify the number of
-  printed copies,
+  <h3 id="print_preview">Print Preview</h3>
+  <p>Opens a window showing how the document will look when printed on
+  paper.</p>
+
+  <h3 id="print">Print…</h3> 
+  <p>Displays the Print dialog, where you
+  can select the printer, specify the number of printed copies,
   etc. Click <em>OK</em> to print the page.</p>
 
   <h3 id="exit">Quit</h3>
-  <p>Closes all &brandShortName; windows including any with more
-  than one tab open,
-  and exits &brandShortName; completely. If you happen to select
-  this option with unsaved documents, &brandShortName; will ask you to
-  confirm your choice to prevent accidental exits.</p>
+  <p>Closes all &brandShortName; windows including any with more than
+  one tab open, and exits &brandShortName; completely. If you happen
+  to select this option with unsaved documents, &brandShortName; will
+  ask you to confirm your choice to prevent accidental exits.</p>
 
   <p class="returnToSection">[ <a
   href="#menu_reference">Return to beginning of
@@ -289,8 +310,8 @@ Contributor(s):
   <h3 id="smart_widgets">Smart Widgets</h3>
   <p>Inserts Smart Widgets in your document.</p>
 
-  <h4 id="made_with_nvu">Made With &brandShortName; button</h4>
-  <p>Inserts a "Made with &brandShortName;" button in the document.</p>
+  <h4 id="made_with_nvu">Made With Nvu button</h4>
+  <p>Inserts a "Made with Nvu" button in the document.</p>
 
   <h4 id="calendar">Calendar</h4>
   <p>Inserts a calendar type object in the document.</p>
@@ -298,6 +319,12 @@ Contributor(s):
   <h3 id="templates">Templates</h3>
   <p>When working with Templates, you can use this menu item to insert
   an editable area in your template.</p>
+
+  <h3 id="php_code">PHP Code</h3>
+  <p>Insert PHP code in your HTML document.</p>
+
+  <h3 id="comment">Comment</h3>
+  <p>Insert a comment in your HTML document.</p>
 
   <h3 id="break_below_images">Break Below Image(s)</h3>
   <p>Inserts a break below images to make the text written besides the
@@ -316,7 +343,7 @@ Contributor(s):
 
   <h3 id="size">Size</h3>
   <p>By selecting Smaller or Larger you can change the size of text
-  being viewed in &brandShortName;.</p>
+  being viewed in Nvu.</p>
   <p>Selecting x-small, small, medium, large, x-large, or xx-large
   changes the font size of selected text in the current document.</p>
 
@@ -653,14 +680,14 @@ Contributor(s):
 
   <p>Opens Java console window.</p>
 
-  <h4 id="dom_inspector">DOM Inspector</h4>
+  <!-- h4 id="dom_inspector">DOM Inspector</h4>
 
   <p>Opens the Document Object Model (DOM) Inspector.</p>
 
   <h4 id="javascript_debugger">Javascript Debugger</h4>
 
   <p>Opens the Javascript debugger Venkman for debugging javascript
-  code in the document.</p>
+  code in the document.</p -->
 
   <h3 id="preferences">Preferences</h3>
   <p>Opens the <em>Preferences</em> window to change personal
@@ -691,6 +718,11 @@ Contributor(s):
   <p>Opens &brandShortName;'s Developer's website in your default
   browser.</p>
 
+  <h3 id="localizing_nvu">Localizing Nvu</h3>
+
+  <p>Opens the web page with instructions on how to start the Nvu
+  localization process.</p>
+
   <h3 id="forums">Forums</h3>
 
   <p>Opens &brandShortName; Forums website in your default browser.</p>
@@ -707,9 +739,9 @@ Contributor(s):
   <p class="returnToSection">[ <a href="#menu_reference">Return to
   beginning of section</a> ]</p>
 
-  <div class="copyrightBox"><em>7 December 2004</em></div>
+  <div class="copyrightBox"><em>21 March 2005</em></div>
 
-  <p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+  <p>Copyright &copy; 2004-2005 Contributors to the Nvu
   Help Documentation Project.</p>
 
 </body>

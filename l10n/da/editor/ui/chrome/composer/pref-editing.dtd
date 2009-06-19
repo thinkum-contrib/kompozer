@@ -3,24 +3,17 @@
 <!ENTITY authorName.label "Forfatter:">
 <!ENTITY authorName.accesskey "F">
 <!ENTITY pageColorHeader "Standardudseende for nye sider">
-<!ENTITY dialect.label              "Markup">
-<!ENTITY markupLanguage.label       "Sprog:">
-<!ENTITY dtd.label                  "DTD:">
-<!ENTITY htmlMarkupLanguage.label   "HTML 4">
-<!ENTITY xhtmlMarkupLanguage.label  "XHTML 1">
-<!ENTITY looseDTD.label             "Transitional">
-<!ENTITY strictDTD.label            "Strict">
-<!ENTITY defaultColorsRadio.label "Brugerens standardfarver (Angiv ikke farver)">
+<!ENTITY defaultColorsRadio.label "Standardfarver (Angiv ikke farver)">
 <!ENTITY defaultColors.accesskey    "d">
-<!ENTITY customColorsRadio.label "Brug brugerdefinerede farver:">
-<!ENTITY customColors.accesskey     "c">
+<!ENTITY customColorsRadio.label "Brugerdefinerede farver:">
+<!ENTITY customColors.accesskey     "u">
 <!ENTITY normalText.label "Normal tekst">
 <!ENTITY normalText.accesskey       "N">
 <!ENTITY linkText.label "Linktekst">
 <!ENTITY linkText.accesskey         "L">
-<!ENTITY activeLinkText.label "Aktive links tekst">
+<!ENTITY activeLinkText.label "Aktivt link">
 <!ENTITY activeLinkText.accesskey   "A">
-<!ENTITY visitedLinkText.label "Besøgte links tekst">
+<!ENTITY visitedLinkText.label "Besøgte links">
 <!ENTITY visitedLinkText.accesskey "B">
 <!ENTITY background.label "Baggrund:">
 <!ENTITY background.accesskey       "a">

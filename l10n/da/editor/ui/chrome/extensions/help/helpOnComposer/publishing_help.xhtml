@@ -10,11 +10,32 @@
 </head>
 
 <body>
+<script type="text/javascript">
+var isDisplayed = true;
+
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
+</script>
+
 <table width="100%" id="navTable">
 <tr>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.gif" alt="&brandShortName;" align="left"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
 </tr>
 </table>
+
+<div id="contentsBox">In this section:
+ <a href="#publishing_a_document">Publishing a Document</a>
+ <a href="#publishing_settings">Publishing Settings</a>
+ <a href="#solving_common_publishing_problems">Solving Common Publishing Problems</a>
+</div>
+
 <h1 id="publishing_web_pages_with_nvu">Publishing Web Pages with &brandShortName;</h1>
 
 <p>If your pages exist only on your local hard disk, you can privately
@@ -26,12 +47,6 @@ copies (uploads) your pages to a computer that lets others browse your
 pages. Most ISPs provide space on their web servers for web page
 publishing. To find a web server where you can publish your pages, ask
 your ISP, help desk, or system administrator.</p>
-
-<div id="contentsBox">In this section:
- <a href="#publishing_a_document">Publishing a Document</a>
- <a href="#publishing_settings">Publishing Settings</a>
- <a href="#solving_common_publishing_problems">Solving Common Publishing Problems</a>
-</div>
 
 <h2 id="publishing_a_document">Publishing a Document</h2>
 
@@ -626,7 +641,7 @@ determine what went wrong and what to do to fix the problem.</p>
 <div class="errorMessage"> <p id="file_not_found"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
   <tt><var>Filename</var> not found</tt>
   <p>or</p>
 <tt><var>X</var> of <var>Y</var> files failed to publish</tt> </div>
@@ -678,7 +693,7 @@ reasons might be:</p>
 <div class="errorMessage"> <p id="subdir_not_found"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
   <tt>The subdirectory <var>directory name</var> doesn't exist on this
   site or the filename
   <var>filename</var> is already in use by another subdirectory</tt>
@@ -737,7 +752,7 @@ tab:</p>
 <div class="errorMessage"> <p id="server_not_found"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
   <tt>The server is not available. Check your connection and try again
 later.</tt> </div>
 
@@ -797,7 +812,7 @@ causes. For example:</p>
 <div class="errorMessage"> <p id="no_permission"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
   <tt>You do not have permission to publish to this location.</tt>
 </div>
 
@@ -832,7 +847,7 @@ access by your ISP or web hosting service.</p>
 <div class="errorMessage"> <p id="offline_error"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
   <tt>You are currently offline. Click the icon near the lower-right
   corner of any
 window to go online.</tt> </div>
@@ -869,7 +884,7 @@ alt="" />.</p>
 <div class="errorMessage"> <p id="no_disk_space"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
   <tt>There is not enough disk space available to save the file
 <var>filename</var>.</tt> </div>
 
@@ -909,7 +924,7 @@ service.</p>
 <div class="errorMessage"> <p id="name_too_long"><strong>Error
 Message:</strong></p>
 
-<div class="contentsBox" style="background-color: #ebebeb;">
+<div class="errorBox">
 <tt>The filename or subdirectory name is too long.</tt> </div>
 
 <p><strong>Error Description:</strong> The number of characters in the
@@ -931,9 +946,9 @@ publish to.</p>
 href="#solving_common_publishing_problems">Return to beginning of
 section</a> ]</p>
 
-<div class="copyrightBox"><em>29 November 2004</em></div>
+<div class="copyrightBox"><em>21 March 2005</em></div>
 
-<p>Copyright &copy; 2004-2005 Contributors to the &brandShortName;
+<p>Copyright &copy; 2004-2005 Contributors to the Nvu
 Help Documentation Project.</p>
 
 </body>

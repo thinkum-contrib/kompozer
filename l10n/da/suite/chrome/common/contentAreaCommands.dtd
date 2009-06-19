@@ -1,0 +1,108 @@
+<!-- Context Menu -->
+<!ENTITY popupWindowRejectCmd.label     "Afvis pop op-vinduer fra dette websted">
+<!ENTITY popupWindowRejectCmd.accesskey "">
+<!ENTITY popupWindowAllowCmd.label      "Tillad pop op-vinduer fra dette websted">
+<!ENTITY popupWindowAllowCmd.accesskey  "">
+<!ENTITY openLinkCmd.label            "Åbn links i et nyt vindue">
+<!ENTITY openLinkCmd.accesskey        "v">
+<!ENTITY openLinkCmdInTab.label       "Åbn links i et nyt faneblad">
+<!ENTITY openLinkCmdInTab.accesskey   "f">
+<!ENTITY openLinkInWindowCmd.label    "Åbn">
+<!ENTITY openLinkInWindowCmd.accesskey "Å">
+<!ENTITY openFrameCmd.label           "Åbn ramme i et nyt vindue">
+<!ENTITY openFrameCmd.accesskey       "v">
+<!ENTITY openFrameCmdInTab.label      "Åbn ramme i et nyt faneblad">
+<!ENTITY openFrameCmdInTab.accesskey  "f">
+<!ENTITY showOnlyThisFrameCmd.label     "Vis kun denne ramme">
+<!ENTITY showOnlyThisFrameCmd.accesskey "v">
+<!ENTITY addToBookmarksCmd.label      "Bogmærk denne side">
+<!ENTITY addToBookmarksCmd.accesskey  "B">
+<!ENTITY goBackCmd.label              "Tilbage">
+<!ENTITY goBackCmd.accesskey          "T">
+<!ENTITY goForwardCmd.label           "Fremad">
+<!ENTITY goForwardCmd.accesskey       "F">
+<!ENTITY goUpCmd.label                "Op">
+<!ENTITY goUpCmd.accesskey            "O">
+<!ENTITY reloadCmd.label              "Genindlæs">
+<!ENTITY reloadCmd.accesskey          "G">
+<!ENTITY reloadCmd.commandkey         "r">
+<!ENTITY stopCmd.label                "Stop">
+<!ENTITY stopCmd.accesskey            "S">
+<!ENTITY reloadFrameCmd.label         "Genindlæs ramme">
+<!ENTITY reloadFrameCmd.accesskey     "R">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Vis markeringens kildekode">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "Vis kildekode for  MathML">
+<!ENTITY viewPartialSourceCmd.accesskey "e">
+<!ENTITY viewPageSourceCmd.label      "Vis kildekode">
+<!ENTITY viewPageSourceCmd.accesskey  "V">
+<!ENTITY viewFrameSourceCmd.label     "Vis rammens kildekode">
+<!ENTITY viewFrameSourceCmd.accesskey "V">
+<!ENTITY viewPageInfoCmd.label        "Vis sideoplysninger">
+<!ENTITY viewPageInfoCmd.accesskey    "I">
+<!ENTITY viewFrameInfoCmd.label       "Vis rammens oplysninger">
+<!ENTITY viewFrameInfoCmd.accesskey   "I">
+<!ENTITY fitImageCmd.label            "Tilpas billede til vinduet">
+<!ENTITY fitImageCmd.accesskey        "T">
+<!ENTITY viewImageCmd.label           "Vis billede">
+<!ENTITY viewImageCmd.accesskey       "I">
+<!ENTITY viewBGImageCmd.label         "Vis baggrundsbillede">
+<!ENTITY viewBGImageCmd.accesskey     "w">
+<!ENTITY setWallpaperCmd.label        "Brug som skrivebordsbaggrund">
+<!ENTITY setWallpaperCmd.accesskey    "S">
+<!ENTITY bookmarkPageCmd.label        "Bogmærk denne side">
+<!ENTITY bookmarkPageCmd.accesskey    "m">
+<!ENTITY bookmarkLinkCmd.label        "Bogmærk dette link">
+<!ENTITY bookmarkLinkCmd.accesskey    "L">
+<!ENTITY bookmarkFrameCmd.label       "Bogmærk denne ramme">
+<!ENTITY bookmarkFrameCmd.accesskey   "m">
+<!ENTITY savePageAsCmd.label          "Gem side som…">
+<!ENTITY savePageCmd.label            "Gem side">
+<!ENTITY savePageCmd.accesskey        "G">
+<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY saveFrameAsCmd.label         "Gem ramme som…">
+<!ENTITY saveFrameCmd.label           "Gem ramme">
+<!ENTITY saveFrameCmd.accesskey       "m">
+<!ENTITY saveLinkAsCmd.label          "Gem linkmål som…">
+<!ENTITY saveLinkCmd.label            "Gem linkmål">
+<!ENTITY saveLinkCmd.accesskey        "l">
+<!ENTITY saveImageAsCmd.label         "Gem billede som…">
+<!ENTITY saveImageCmd.label           "Gem billede">
+<!ENTITY saveImageCmd.accesskey       "b">
+<!ENTITY copyCmd.label                "Kopier">
+<!ENTITY copyCmd.accesskey            "o">
+<!ENTITY selectAllCmd.label           "Marker alt">
+<!ENTITY selectAllCmd.accesskey       "A">
+<!ENTITY copyLinkCmd.label            "Kopier linkadresse">
+<!ENTITY copyLinkCmd.accesskey        "k">
+<!ENTITY copyImageCmd.label           "Kopier billede">
+<!ENTITY copyImageCmd.accesskey       "o">
+<!ENTITY metadataCmd.label            "Egenskaber">
+<!ENTITY metadataCmd.accesskey        "E">
+<!ENTITY copyEmailCmd.label           "Kopier e-mail-adresse">
+<!ENTITY copyEmailCmd.accesskey       "E">
+<!ENTITY pasteCmd.label               "Sæt ind">
+<!ENTITY pasteCmd.accesskey           "i">
+<!ENTITY cutCmd.label                 "Klip">
+<!ENTITY cutCmd.accesskey             "k">
+<!ENTITY deleteCmd.label              "Slet">
+<!ENTITY deleteCmd.accesskey          "s">
+<!ENTITY undoCmd.label                "Fortryd">
+<!ENTITY undoCmd.accesskey            "F">
+<!ENTITY redoCmd.label                "Gendan">
+<!ENTITY redoCmd.accesskey            "G">
+<!ENTITY thisFrameMenu.label          "Denne ramme">
+<!ENTITY thisFrameMenu.accesskey      "n">
+<!ENTITY search.accesskey             "F">
+<!ENTITY bidiSwitchPageDirectionItem.label        "Skift sideretning">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "f">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Skift tekstretning">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "t">
+<!ENTITY spellAddToDictionary.label     "Tilføj til ordbog">
+<!ENTITY spellAddToDictionary.accesskey "t">
+<!ENTITY spellEnable.label              "Stavekontroller dette felt">
+<!ENTITY spellEnable.accesskey          "S">
+<!ENTITY spellNoSuggestions.label       "(Ingen forslag)">
+<!ENTITY spellDictionaries.label        "Sprog">
+<!ENTITY spellDictionaries.accesskey    "S">
+<!ENTITY spellAddDictionaries.label     "Hent flere ordbøger…">
+<!ENTITY spellAddDictionaries.accesskey "D">

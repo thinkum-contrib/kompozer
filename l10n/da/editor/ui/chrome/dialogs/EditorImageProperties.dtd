@@ -35,14 +35,14 @@
 <!ENTITY altText.accessKey "A">
 <!ENTITY altTextEditField.tooltip "Skriv den tekst, der skal skrives på billedets plads">
 <!ENTITY noAltText.label "Brug ikke alternativ tekst">
-<!ENTITY noAltText.accessKey "D">
+<!ENTITY noAltText.accessKey "i">
 <!ENTITY previewBox.label "Vis billedet">
 <!ENTITY MoreFewerButton.tooltip "Vis flere eller færre egenskaber at ændre på">
 <!-- These controls are in the Dimensions tab panel -->
 <!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Billedets egen størrelse:">
 <!ENTITY actualSizeRadio.label "Billedets egen størrelse">
-<!ENTITY actualSizeRadio.accessKey "A">
+<!ENTITY actualSizeRadio.accessKey "e">
 <!ENTITY actualSizeRadio.tooltip "Brug billedets egen størrelse">
 <!ENTITY customSizeRadio.label "Vælg størrelse">
 <!ENTITY customSizeRadio.accessKey "s">
@@ -52,7 +52,7 @@
 <!ENTITY widthEditField.label "Bredde:">
 <!ENTITY widthEditField.accessKey "B">
 <!ENTITY constrainCheckbox.label "Bevar størrelsesforhold">
-<!ENTITY constrainCheckbox.accessKey "b">
+<!ENTITY constrainCheckbox.accessKey "a">
 <!ENTITY constrainCheckbox.tooltip "Bevar billedets størrelsesforhold">
 <!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "Aktive billedområder">
