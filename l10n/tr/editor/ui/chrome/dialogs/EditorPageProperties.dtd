@@ -10,3 +10,21 @@
 <!ENTITY titleInput.accessKey "B">
 <!ENTITY titleInput.label "Başlık:">
 <!ENTITY windowTitle.label "Sayfa özellikleri">
+
+<!ENTITY general.label "Genel bilgiler">
+
+<!ENTITY template.label "Şablonlar">
+<!ENTITY templateCheckbox.label "Bu sayfa bir şablondur">
+<!ENTITY fromTemplate.label "Bu sayfa bir şablon ile bağlıdır">
+
+<!ENTITY i18nHeader                  "Ülke ayarları">
+
+<!ENTITY writingDirection.label      "Yazma yönü:">
+<!ENTITY defaultDirectionRadio.label "yön tanımlaması yapılmadı">
+<!ENTITY ltrDirectionRadio.label     "Soldan sağa doğru">
+<!ENTITY rtlDirectionRadio.label     "Sağdan sola doğru">
+<!ENTITY language.label              "Dil:">
+<!ENTITY languageChoiceButton.label  "Dil seçin">
+
+<!ENTITY defaultCharset.label        "Karakter kümesi:">
+<!ENTITY chooseCharsetButton.label   "Karakter kümesini seçin">

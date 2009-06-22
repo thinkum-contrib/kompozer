@@ -1,0 +1,29 @@
+<!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY downloadManagerCmd.label "Dosya indirme yöneticisi">
+<!ENTITY editorCmd.accesskey "D">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY editorCmd.label "Düzenleyici">
+<!ENTITY javaConsoleCmd.accesskey "K">
+<!ENTITY javaConsoleCmd.label "Java Konsolu">
+<!ENTITY javaScriptConsoleCmd.accesskey "J">
+<!ENTITY javaScriptConsoleCmd.label "JavaScript Konsolu">
+<!ENTITY navigatorCmd.accesskey "K">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label "Kılavuz">
+<!ENTITY privacyMenu.accesskey "z">
+<!ENTITY privacyMenu.label "Gizlilik ve Güvenlik">
+<!ENTITY securityInfoCmd.accesskey "ü">
+<!ENTITY securityInfoCmd.label ".Güvenlik Bilgileri">
+<!ENTITY switchProfileCmd.accesskey "d">
+<!ENTITY switchProfileCmd.label "Kimlik değiştir...">
+<!ENTITY taskBar.tooltip "Durum çubuğu">
+<!ENTITY taskComposer.tooltip "Düzenleyici">
+<!ENTITY taskNavigator.tooltip "Kılavuz">
+<!ENTITY tasksMenu.accesskey "A">
+<!ENTITY tasksMenu.label "Araçlar">
+<!ENTITY webDevelopment.accesskey "e">
+<!ENTITY webDevelopment.label "Web geliştirme">
+<!ENTITY windowMenu.accesskey "P">
+<!ENTITY windowMenu.label "Pencere">
+<!ENTITY extensions.label "Eklentiler">
+<!ENTITY themes.label "Temalar">

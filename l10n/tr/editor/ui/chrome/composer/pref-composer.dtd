@@ -1,37 +1,30 @@
 <!ENTITY AutoSaveCheck "Otomatik kaydet">
 <!ENTITY chooseButton.label "Seç">
-
+<!ENTITY cssEditing.label "Cascading Style Sheets (CSS) düzenleme">
+<!ENTITY documentsInMenu "En fazla listelenecek sayfa sayısı:">
+<!ENTITY documentsInMenu.accesskey "E">
 <!ENTITY exterLegend.label "Harici Düzenleyiciler">
 <!ENTITY htmlSource "HTML Kaynak:">
 <!ENTITY imageeditor "İmgeler:">
-<!ENTITY pref.composer.title "Düzenleyici">
+<!ENTITY lHeader "Düzenleyici">
 <!ENTITY maintainStructure.accesskey "M">
-
+<!ENTITY maintainTableStructure.label "Hücreleri araya koyarken veya silerken tablo planını koru">
+<!ENTITY maintainTableStructure.tooltip "Hücre ilave ettikten veya sildikten sonra tablonun dörtgensel biçimini otomatik olarak hücre ekleyerek muhafaza et ">
 <!ENTITY minText "dakika">
-
+<!ENTITY preserveExistingFormatting "Özgün kaynak biçimini koru">
+<!ENTITY preserveExistingFormatting.accesskey "O">
+<!ENTITY preserveExistingFormatting.tooltip "Satır aralığı ve sayfanın özgün biçimini sakla">
+<!ENTITY rHeader "Yeni Web sayfaları oluşturmak için ayarlar">
 <!ENTITY recentFiles.title "Yeni sayfalar menüsü">
-
-
+<!ENTITY reformat.accesskey "R">
+<!ENTITY reformat.label "HTML kaynağı yeniden biçimlendir">
+<!ENTITY reformat.tooltip "Satır boşluklarını kullanarak ve paragraflayarak HTML sekmelerini yeniden biçimle">
 <!ENTITY saveAssociatedFiles.label "Sayfaları kaydederken imgeleri ve diğer ilişkili dosyaları da kaydet">
-<!ENTITY  saveAssociatedFiles.accesskey "S">
 <!ENTITY saving "Kaydoluyor">
 <!ENTITY savingFiles.title "Sayfaları kaydederken veya yayınlarken">
 <!ENTITY showPublishDialog.label "Safyaları yayınlarken daima yayın diyaloğunu göster">
-<!ENTITY  showPublishDialog.accesskey   "A">
-
+<!ENTITY tableEditing.label "Tablo düzenlemesi">
+<!ENTITY title.label "Düzenleyici">
 <!ENTITY useCSS.label "HTML elementleri ve vasıfları yerine CSS stillerini kullan">
-<!ENTITY  useCSS.accesskey              "U">
-<!ENTITY  crInPCreatesNewP.label        "Her paragraf içinde daima yeni bir pragraf oluştur.">
-<!ENTITY  crInPCreatesNewP.accesskey    "R">
-<!ENTITY  composerEditing.label         "Düzenleme">
-<!ENTITY  maintainStructure.label       "Yeni bir hücre ekleme veya silmeden sonraki tablo görünümünü ayarla">
-<!ENTITY  maintainStructure.tooltip     "Preserves table's rectangular shape by automatically adding cells after inserting or deleting cells">
-
-<!ENTITY  documentsInMenu.label     "En fazla listelenecek sayfa numarası:">
-<!ENTITY  documentsInMenu.accesskey "n">
-
-<!ENTITY  preserveExisting.label        "Orjinal biçimi koru">
-<!ENTITY  preserveExisting.accesskey    "O">
-<!ENTITY  preserveExisting.tooltip      "Satır başlarını ve sayfaların orjinal biçimlerini korur.">
-<!ENTITY  spellCheckInline.label        "Yazarken yazım denetimi gerçekleştir">
-<!ENTITY  spellCheckInline.accesskey    "K">
+<!ENTITY  siteManager.label         "Sayfa yönetimi">
+<!ENTITY  openInNewTab.label        "Yeni belgeyi herzaman sekme olarak aç">

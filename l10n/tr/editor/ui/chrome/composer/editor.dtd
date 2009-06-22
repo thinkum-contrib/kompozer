@@ -9,13 +9,6 @@
 <!ENTITY textEditorWindow.titlemodifier "Metin Düzenleyici">
 <!ENTITY viewMenu.label "Göster ">
 <!ENTITY viewmenu.accesskey "G">
-<!-- View menu items -->
 
-<!ENTITY compositionToolbarCmd.label "Mesaj yazma araç çubuğu">
-<!ENTITY compositiontb.accesskey "M">
-<!ENTITY formattingToolbarCmd.label "Biçem araç çubuğu">
-<!ENTITY formattingtb.accesskey "B">
-<!ENTITY editmodeToolbarCmd.label "Modus araç çubuğu düzenle">
-<!ENTITY editmodetb.accesskey "E">
-<!ENTITY taskbarCmd.label "Durum çubuğu">
-<!ENTITY taskbarCmd.accesskey "u">
+<!ENTITY preferencesCmd.label       "Tercihler...">
+<!ENTITY preferencesCmd.accesskey     "E"> 

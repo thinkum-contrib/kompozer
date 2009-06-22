@@ -24,7 +24,7 @@
 <!ENTITY cellRowSpan.label "Satır Genişliği:">
 <!ENTITY cellSelectCell.label "Hücre">
 <!ENTITY cellSelectColumn.label "Kolon">
-<!ENTITY cellSelectNext.accessKey "N">
+<!ENTITY cellSelectNext.accessKey "n">
 <!ENTITY cellSelectNext.label "Sonraki">
 <!ENTITY cellSelectPrevious.accessKey "N">
 <!ENTITY cellSelectPrevious.label "Önceki">
@@ -41,7 +41,7 @@
 <!ENTITY cellWrap.label "Kaydır">
 <!ENTITY pixels.label "piksel">
 <!ENTITY size.label "Boyut">
-<!ENTITY tableAlignment.accessKey "T">
+<!ENTITY tableAlignment.accessKey "t">
 <!ENTITY tableAlignment.label "Tablo Yerleşimi:">
 <!ENTITY tableBorderSpacing.label "Çerçeveler ve Aralıklar">
 <!ENTITY tableBorderWidth.accessKey "R">
@@ -70,7 +70,3 @@
 <!ENTITY tableWidth.accessKey "N">
 <!ENTITY tableWidth.label "Genişlik:">
 <!ENTITY tableWindow.title "Tablo Özellikleri">
-<!ENTITY applyButton.label                "Uygula">
-<!ENTITY applyButton.accesskey            "A">
-
-<!ENTITY closeButton.label     "Kapat">

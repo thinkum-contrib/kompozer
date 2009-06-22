@@ -1,0 +1,35 @@
+<!ENTITY charset.customize.right.header "Desteklenen karakter kodlamasını seçin">
+<!ENTITY langtitle.label "Web sayfaları için diller">
+<!ENTITY languages.customize.Charset.grouplabel "Karakter kodlaması">
+<!ENTITY languages.customize.DefaultCharset.accesskey "a">
+<!ENTITY languages.customize.DefaultCharset.label "Öntanımlı karakter kodlaması:">
+<!ENTITY languages.customize.active.label "Tercih edilen dil sıralaması:">
+<!ENTITY languages.customize.add.label "Ekle">
+<!ENTITY languages.customize.add.title.label "Dil ekle">
+<!ENTITY languages.customize.addButton.accesskey "E">
+<!ENTITY languages.customize.addButton.label "Ekle...">
+<!ENTITY languages.customize.additional.label "Mevcut Karakter Kümeleri">
+<!ENTITY languages.customize.available.label "Diller:">
+<!ENTITY languages.customize.cancel.label "Vazgeç">
+<!ENTITY languages.customize.deleteButton.accesskey "a">
+<!ENTITY languages.customize.deleteButton.label "Kaldır">
+<!ENTITY languages.customize.engOption.label "İngilizce">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.lHeader "Diller">
+<!ENTITY languages.customize.left.header "Karakter kodlaması">
+<!ENTITY languages.customize.moveDown.accesskey "ğ">
+<!ENTITY languages.customize.moveDown.label "Aşağıya">
+<!ENTITY languages.customize.moveUp.accesskey "U">
+<!ENTITY languages.customize.moveUp.label "Yukarıya">
+<!ENTITY languages.customize.ok.label "Tamam">
+<!ENTITY languages.customize.others.accesskey "r">
+<!ENTITY languages.customize.others.examples "örnek: en-bz,ar-jo">
+<!ENTITY languages.customize.others.label "Diğerleri:">
+<!ENTITY languages.customize.prefAddLangDescript "Eklemek istedeğiniz dilleri seçiniz.">
+<!ENTITY languages.customize.prefLangDescript "Bazı sayfalar birden fazla kullanabilir. Düzgün bir şekilde görüntülenmesini sağlamak için lütfen ayarları yapınız.">
+<!ENTITY languages.customize.rHeader "Web sayfalarının görüntülendiği diller">
+<!ENTITY languages.customize.remove.label "Kaldır">
+<!ENTITY languages.customize.reorder.label "Yeniden iste">
+<!ENTITY languages.customize.save.label "Kaydet">
+<!ENTITY languages.customize.save.popup "Değişikliklerin etkinleşmesi için tarayıcıyı yeniden başlatınız...">
+<!ENTITY languages.customize.title.label "Dilleri Özelleştir">

@@ -1,0 +1,269 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title						"CSS Stil Yaprağı">
+
+<!ENTITY sheetsTreeColumn.label				"Stil Yaprakları ve Yöntemler">
+<!ENTITY expertModeChecbox.label			"Uzman Modu">
+<!ENTITY importRuleButton.label				"@ekle">
+<!ENTITY mediaRuleButton.label				"@medya">
+<!ENTITY linkedSheetButton.label			"Bağlantılı öğe">
+<!ENTITY styleSheetButton.label				"Stil öğesi">
+<!ENTITY ruleButton.label					"Yöntem">
+<!ENTITY upButton.label						"Yukarı">
+<!ENTITY downButton.label					"Aşağı">
+<!ENTITY refreshButton.label				"Yenile">
+<!ENTITY removeButton.label					"Kaldır">
+<!ENTITY sheetInfoTab.label					"Genel">
+<!ENTITY textTab.label						"Metin">
+<!ENTITY borderTab.label					"Kenarlıklar">
+<!ENTITY marginsTab.label					"Kenar yerleşimi">
+<!ENTITY boxTab.label						"Kutu">
+<!ENTITY auralTab.label						"İşitsel">
+<!ENTITY fontFamily.label					"Yazı tipi ailesi:">
+<!ENTITY inheritedFontFamily.label			"inherited">
+<!ENTITY useCustomFontFamily.label			"Kişiselleştirilmiş yazı tipi ailesi kullan:">
+<!ENTITY fontData.label						"Yazı tipi verileri">
+<!ENTITY exampleSentence.label				"Dağ başını duman almış, Gümüşdere durmaz akar.">
+<!ENTITY backgroundTab.label				"Arkaplan">
+
+<!ENTITY unspecifiedValue.label				"belirtilmemiş">
+<!ENTITY predefFontFamilyRadio.label		"önceden belirilmiş:">
+<!ENTITY fontSize.label						"Yazı tipi boyutu:">
+<!ENTITY lineHeight.label                   "Satır yüksekliği:">
+<!ENTITY normalLineHeight.label             "normal">
+<!ENTITY color.label						"Renk:">
+<!ENTITY fontWeight.label					"Yumuşak yazıtipi:">
+<!ENTITY normalValue.label					"Normal">
+<!ENTITY boldValue.label					"Kalın">
+<!ENTITY bolderValue.label					"Daha kalın">
+<!ENTITY lighterValue.label					"Daha ince">
+<!ENTITY inheritedValue.label				"Inherited">
+<!ENTITY fontStyle.label					"Font stili:">
+<!ENTITY italicValue.label					"İtalik">
+<!ENTITY obliqueValue.label					"Eğik">
+<!ENTITY textTransform.label				"Case:">
+<!ENTITY noneTextTransformValue.label		"Değişiklik yok">
+<!ENTITY lowercaseValue.label				"Küçük harf">
+<!ENTITY uppercaseValue.label				"Büyük harf">
+<!ENTITY capitalizeValue.label				"İlk harfi büyük yap">
+
+<!ENTITY closeButton.label					"Kapat">
+
+<!ENTITY largerFontSize.label				"daha büyük">
+<!ENTITY smallerFontSize.label				"daha küçük">
+<!ENTITY xxsmallFontSize.label				"xx-küçük">
+<!ENTITY xsmallFontSize.label				"x-küçük">
+<!ENTITY smallFontSize.label				"küçük">
+<!ENTITY mediumFontSize.label				"orta">
+<!ENTITY largeFontSize.label				"büyük">
+<!ENTITY xlargeFontSize.label				"x-büyük">
+<!ENTITY xxlargeFontSize.label				"xx-büyük">
+
+<!ENTITY textAlign.label					"Hizalama:">
+<!ENTITY rightTextAlign.label				"Sağ">
+<!ENTITY leftTextAlign.label				"Sol">
+<!ENTITY centerTextAlign.label				"Ortala">
+<!ENTITY justifyTextAlign.label				"İki yana yasla">
+
+<!ENTITY textDecoration.label				"Metin dekorasyonu:">
+<!ENTITY overlineTextDecoration.label		"Üstü çizili">
+<!ENTITY underlineTextDecoration.label		"Altı çizili">
+<!ENTITY linethroughTextDecoration.label	"Line-through">
+<!ENTITY blinkTextDecoration.label			"Üzeri çizili">
+<!ENTITY noneTextDecoration.label			"Hiçbiri">
+
+<!ENTITY backgroundColor.label				"Renk:">
+<!ENTITY backgroundImage.label              "Resim:">
+<!ENTITY chooseFileButton.label             "Dosya seç">
+<!ENTITY backgroundRepeat.label             "Döşe:">
+<!ENTITY norepeatBackgroundRepeat.label     "döşeme">
+<!ENTITY repeatxBackgroundRepeat.label      "yatay olarak">
+<!ENTITY repeatyBackgroundRepeat.label      "dikey olarak">
+<!ENTITY repeatBackgroundRepeat.label       "yatay ve dikey olarak">
+<!ENTITY backgroundPosition.label           "Konum:">
+<!ENTITY leftXBackgroundPosition.label      "Sol">
+<!ENTITY centerXBackgroundPosition.label    "Ortala">
+<!ENTITY rightXBackgroundPosition.label     "Sağ">
+<!ENTITY topYBackgroundPosition.label       "Üst">
+<!ENTITY centerYBackgroundPosition.label    "Ortala">
+<!ENTITY bottomYBackgroundPosition.label    "Alt">
+<!ENTITY backgroundAttachmentCheckbox.label "Resim sayfayla birlikte kayar">
+
+
+<!ENTITY useBorderShorthand.label           "Dört kenarlıkda aynı kenarlık stilini kullansın">
+<!ENTITY borderStyle.label                  "Stil:">
+<!ENTITY borderWidth.label                  "Genişlik:">
+<!ENTITY borderColor.label                  "renk:">
+<!ENTITY topBorder.label                    "Üst:">
+<!ENTITY leftBorder.label                   "Sol:">
+<!ENTITY rightBorder.label                  "Sağ:">
+<!ENTITY bottomBorder.label                 "Alt:">
+<!ENTITY borderPreview.label                "Önizleme">
+<!ENTITY noneBorderStyle.label              "hiçbiri">
+<!ENTITY hiddenBorderStyle.label            "gizli">
+<!ENTITY solidBorderStyle.label             "düz">
+<!ENTITY dottedBorderStyle.label            "noktalı">
+<!ENTITY dashedBorderStyle.label            "çizgili">
+<!ENTITY doubleBorderStyle.label            "iki kat">
+<!ENTITY grooveBorderStyle.label            "oluk">
+<!ENTITY ridgeBorderStyle.label             "kabarık">
+<!ENTITY insetBorderStyle.label             "içe doğru">
+<!ENTITY outsetBorderStyle.label            "dışa doğru">
+
+<!ENTITY display.label                      "Görünüm:">
+<!ENTITY noneDisplay.label                  "hiçbiri">
+<!ENTITY inlineDisplay.label                "inline">
+<!ENTITY blockDisplay.label                 "blok">
+<!ENTITY runinDisplay.label                 "run-in">
+<!ENTITY compactDisplay.label               "sıkı">
+<!ENTITY listitemDisplay.label              "liste-öge">
+<!ENTITY tableDisplay.label                 "tablo">
+<!ENTITY tablerowDisplay.label              "tablo-satır">
+<!ENTITY tablecellDisplay.label             "table-hücre">
+<!ENTITY tablecaptionDisplay.label          "tablo-başlık">
+<!ENTITY inlinetableDisplay.label           "inline-tablo">
+<!ENTITY tablecolumnDisplay.label           "tablo-sütun">
+<!ENTITY tablerowgroupDisplay.label         "tablo-satır-grup">
+<!ENTITY tableheadergroupDisplay.label      "tablo-üst not-grup">
+<!ENTITY tablefootergroupDisplay.label      "tablo-alt not-grup">
+<!ENTITY tablecolumngroupDisplay.label      "tablo-sütun-grup">
+
+<!ENTITY visibility.label                   "Görünürlük:">
+<!ENTITY visibleVisibility.label            "görünür">
+<!ENTITY hiddenVisibility.label             "gizli">
+<!ENTITY collapseVisibility.label           "açılır - kapanır">
+
+<!ENTITY float.label                        "Yayma:">
+<!ENTITY leftFloat.label                    "sol">
+<!ENTITY rightFloat.label                   "sağ">
+<!ENTITY noneFloat.label                    "hiçbiri">
+
+<!ENTITY clear.label                        "Temizle:">
+<!ENTITY noneClear.label                    "hiçbiri">
+<!ENTITY leftClear.label                    "sol">
+<!ENTITY rightClear.label                   "sağ">
+<!ENTITY bothClear.label                    "her iki tarafa">
+
+
+<!ENTITY position.label                     "Konum:">
+<!ENTITY staticPosition.label               "durağan">
+<!ENTITY fixedPosition.label                "ayarlanmış">
+<!ENTITY absolutePosition.label             "absolute">
+<!ENTITY relativePosition.label             "değişken">
+
+<!ENTITY overflow.label                     "Overflow:">
+<!ENTITY visibleOverflow.label              "görünür">
+<!ENTITY hiddenOverflow.label               "gizi">
+<!ENTITY scrollOverflow.label               "kaydır">
+<!ENTITY autoOverflow.label                 "otomatik">
+
+<!ENTITY zIndex.label                       "Z-indeksi:">
+
+<!ENTITY width.label                        "Genişlik:">
+<!ENTITY minWidth.label                     "En az genişlik:">
+<!ENTITY maxWidth.label                     "En çok genişlik:">
+<!ENTITY height.label                       "Yükseklik:">
+<!ENTITY minHeight.label                    "En az yükseklik:">
+<!ENTITY maxHeight.label                    "En çok yükseklik:">
+
+<!ENTITY margins.label                      "Hizalama:">
+<!ENTITY paddings.label                     "Yastıklama:">
+<!ENTITY offsets.label                      "Göreli konum:">
+<!ENTITY top.label                          "Üst:">
+<!ENTITY left.label                         "Sol:">
+<!ENTITY right.label                        "Sağ:">
+<!ENTITY bottom.label                       "Alt:">
+
+<!ENTITY volume.label                       "Ses:">
+<!ENTITY xsoftVolume.label                  "x-daha alçak sesli">
+<!ENTITY softVolume.label                   "alçak sesli">
+<!ENTITY mediumVolume.label                 "orta">
+<!ENTITY loudVolume.label                   "sesli">
+<!ENTITY xloudVolume.label                  "x-sesli">
+<!ENTITY muteVolume.label                   "Sessiz">
+
+<!ENTITY speak.label                        "Konuş:">
+<!ENTITY noneSpeak.label                    "hiçbiri">
+<!ENTITY normalSpeak.label                  "normal">
+<!ENTITY spelloutSpeak.label                "hecele">
+
+<!ENTITY speechRate.label                   "Heceleme-hızı:">
+<!ENTITY slowerSpeechRate.label             "daha yavaş">
+<!ENTITY fasterSpeechRate.label             "daha hızlı">
+<!ENTITY xslowSpeechRate.label              "x-yavaş">
+<!ENTITY slowSpeechRate.label               "yavaş">
+<!ENTITY mediumSpeechRate.label             "orta">
+<!ENTITY fastSpeechRate.label               "hızlı">
+<!ENTITY xfastSpeechRate.label              "x-hızlı">
+
+<!ENTITY opacity.label                      "Donukluk:">
+
+<!ENTITY compatibilityTab.label             "Uyumluluk">
+
+<!ENTITY transparentOpacity.label           "şeffaf">
+
+<!ENTITY pauseBefore.label                  "Pause before:">
+<!ENTITY cueBefore.label                    "Cue before:">
+<!ENTITY pauseAfter.label                   "Pause after:">
+<!ENTITY cueAfter.label                     "Cue After:">
+
+
+<!ENTITY listTab.label			"Listeler">
+
+<!ENTITY listStyleType.label		"Liste stil tipi:">
+<!ENTITY noneListStyleType.label                        "hiçbiri">
+<!ENTITY discListStyleType.label                        "disk">
+<!ENTITY circleListStyleType.label                      "daire">
+<!ENTITY squareListStyleType.label                      "kare">
+<!ENTITY decimalListStyleType.label                     "ondalık">
+<!ENTITY decimalLeadingZeroListStyleType.label        "ondalık-leading-sıfır">
+<!ENTITY lowerRomanListStyleType.label                 "lower-roman">
+<!ENTITY upperRomanListStyleType.label                 "upper-roman">
+<!ENTITY lowerGreekListStyleType.label                 "lower-greek">
+<!ENTITY lowerAlphaListStyleType.label                 "lower-alpha">
+<!ENTITY upperAlphaListStyleType.label                 "upper-alpha">
+<!ENTITY armenianListStyleType.label                    "armenian">
+<!ENTITY georgianListStyleType.label                    "georgian">
+
+
+<!ENTITY listStyleImage.label		"Liste resim stili:">
+
+<!ENTITY listStylePosition.label	"Liste konum stili:">
+<!ENTITY insideListStylePosition.label		"içeriye">
+<!ENTITY outsideListStylePosition.label		"dışarıya">

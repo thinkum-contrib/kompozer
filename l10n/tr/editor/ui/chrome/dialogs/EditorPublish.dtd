@@ -8,36 +8,37 @@
 <!ENTITY loginInfo.label "Bağlantı Bilgileri">
 <!ENTITY newSiteButton.label "Yeni sayfa">
 <!ENTITY pageTitle.label "Sayfa başlığı:">
-<!ENTITY pageTitle.tooltip "Penceredeki ve Yer imlerindeki sayfaları belirlemek için bir başlık adı verin">
+<!ENTITY pageTitle.tooltip "Penceredeki ve yer imlerindeki sayfaları belirlemek için bir başlık adı verin">
 <!ENTITY pageTitleExample.label "örn.: &quot;Benim Web Sayfam&quot;">
 <!ENTITY password.label "Parola:">
 <!ENTITY password.tooltip "Kullanıcı ismine ait parola">
 <!ENTITY publishImgCheckbox.label "İmgeleri ve diğer dosyaları dahil et">
 <!ENTITY publishImgCheckbox.tooltip "Bu sayfanın dosyalarını referanse eden grafik ve diğerlerini yayınla">
-<!ENTITY publishSites.label "Yayınlanan Siteler">
+<!ENTITY publishSites.label "Yayımlanan Siteler">
 <!ENTITY publishTab.label "Yayınla">
-<!ENTITY publishButton.label      "Yayınla">
 <!ENTITY relatedDocs.label "Yayınlanacak diğer dosyalar">
-<!ENTITY removeButton.label "Sayfa Kaldır">
+<!ENTITY removeButton.label "Sayfa kaldır">
 <!ENTITY sameLocationRadio.label "Sayfa ile aynı adresi kullan">
 <!ENTITY sameLocationRadio.tooltip "Sayfadaki adresdeki gibi dosyaları yayınla">
 <!ENTITY savePassword.label "Parolayı kaydet">
-<!ENTITY savePassword.tooltip "Parolanızı , parola yöneticisi ile kaydetmek için bunu seçin.">
+<!ENTITY savePassword.tooltip "Parolanızı parola yöneticisi ile kaydetmek için bunu seçin.">
 <!ENTITY serverInfo.label "Sunucu bilgileri">
 <!ENTITY setDefSiteAndDir.label "Öntanımlı sayfayı ve klasör olarak ayarla">
-<!ENTITY setDefaultButton.label "Öntanımlı olarak Seç">
+<!ENTITY setDefaultButton.label "Öntanımlı olarak seç">
 <!ENTITY settingsTab.label "Ayarlar">
 <!ENTITY siteDirList.label "Yayınlanan sayfanız için bir klasör adı yazın veya seçin:">
 <!ENTITY siteDirList.tooltip "Yayınlamak istediğiniz alt dizin ismini seçin veya kendiniz verin.">
-<!ENTITY siteList.label "Sayfa Adı:">
+<!ENTITY siteList.label "Sayfa ismi:">
 <!ENTITY siteList.tooltip "Yayınlamak istediğiniz sayfayı seçin">
-<!ENTITY siteName.label "Sayfa Adı:">
-<!ENTITY siteName.tooltip "Yayınlama sayfasını tanımlayan takma bir isim verin (örn: 'Benimsitem')">
-<!ENTITY siteUrl.label "URL Yayınlama (İSS veya Sistem yöneticiniz tarafından sağlanır):">
+<!ENTITY siteName.label "Sayfa ismi:">
+<!ENTITY siteName.tooltip "Yayınlama sayfasını tanımlayan takma bir isim verin (örn: 'Benim sitem')">
+<!ENTITY siteUrl.label "URL yayınlama (İSS veya sistem yöneticiniz tarafından sağlanır):">
 <!ENTITY siteUrl.tooltip "ISS veya Web Hosting Servisi tarfından sizin hizmetinize sunulan FTP://- veya HTTP://- Adresi">
 <!ENTITY useSubdir.tooltip "Yayınlanacak dosyaların alt dizinleri için dosya ismi seçin veya kendiniz verin.">
 <!ENTITY useSubdirRadio.label "Bu sayfa altklasörünü kullan:">
-<!ENTITY username.label "Kullanıcı adı:">
+<!ENTITY username.label "Kullanıcı ismi:">
 <!ENTITY username.tooltip "ISS veya Web Hosting Servisi için kullandığınız kullanıcı adı">
 <!ENTITY windowTitle.label "Sayfa yayınla">
 <!ENTITY windowTitleSettings.label "Yayın ayarları">
+
+<!ENTITY selectDirectory.label "Ara...">

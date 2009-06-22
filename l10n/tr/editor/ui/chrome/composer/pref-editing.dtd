@@ -13,11 +13,25 @@
 <!ENTITY customColorsRadio.label "Özel renkleri kullan:">
 <!ENTITY defaultColors.accesskey "t">
 <!ENTITY defaultColorsRadio.label "Okuyucunun öntanımlı renkleri (Sayfadaki renkleri ayarlama)">
-<!ENTITY pref.editing.title "Yeni sayfa ayarları">
+<!ENTITY lHeader "Yeni sayfa ayarları">
 <!ENTITY linkText.accesskey "B">
 <!ENTITY linkText.label "Bağlantı metni">
 <!ENTITY normalText.accesskey "R">
 <!ENTITY normalText.label "Normal metin">
 <!ENTITY pageColorHeader "Öntanımlı sayfa görünüşü">
+<!ENTITY rHeader "Yeni sayfalar için varsayılanlar">
 <!ENTITY visitedLinkText.accesskey "Z">
 <!ENTITY visitedLinkText.label "Ziyaret edilmiş bağlantı metni">
+
+<!ENTITY i18nHeader                  "Ülke ayarları">
+
+<!ENTITY writingDirection.label      "Yazma yönü:">
+<!ENTITY defaultDirectionRadio.label "tanımlanmadı">
+<!ENTITY ltrDirectionRadio.label     "Soldan sağa doğru">
+<!ENTITY rtlDirectionRadio.label     "Sağdan sola doğru">
+
+<!ENTITY language.label              "Dil:">
+<!ENTITY languageChoiceButton.label  "Dil seçin">
+
+<!ENTITY defaultCharset.label        "Karakter kümesi:">
+<!ENTITY chooseCharsetButton.label   "Karakter kümesini seçin">

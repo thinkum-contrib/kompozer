@@ -1,0 +1,36 @@
+<!ENTITY FTPport.accesskey "R">
+<!ENTITY HTTPport.accesskey "P">
+<!ENTITY SOCKSport.accesskey "T">
+<!ENTITY SSLport.accesskey "O">
+<!ENTITY autoTypeRadio.accesskey "O">
+<!ENTITY autoTypeRadio.label "Otomatik vekil sunucu ayarları">
+<!ENTITY configAutoconfigText.accesskey "y">
+<!ENTITY configAutoconfigText.label "Ayar Adresi (URL):">
+<!ENTITY directTypeRadio.accesskey "n">
+<!ENTITY directTypeRadio.label "İnternete doğrudan bağlantı">
+<!ENTITY ftp.accesskey "F">
+<!ENTITY ftp.label "FTP vekil sunucu:">
+<!ENTITY gopher.accesskey "G">
+<!ENTITY gopher.label "Gopher vekil sunucusu:">
+<!ENTITY gopherPort.accesskey "">
+<!ENTITY http.accesskey "H">
+<!ENTITY http.label "HTTP vekil sunucusu:">
+<!ENTITY lHeader "Vekil Sunucular">
+<!ENTITY manualTypeRadio.accesskey "V">
+<!ENTITY manualTypeRadio.label "Vekil sunucu ayarları">
+<!ENTITY noproxy.accesskey "V">
+<!ENTITY noproxy.label "Vekil sunucu kullanma:">
+<!ENTITY noproxyExplain.label "Örnek: .mozilla.org, .net.nz">
+<!ENTITY port.label "Port:">
+<!ENTITY proxyTitle.label "İnternete erişim için vekil sunucusu ayarları">
+<!ENTITY reload.accesskey "Y">
+<!ENTITY reload.label "Tekrar yükle">
+
+<!ENTITY socks.accesskey "S">
+<!ENTITY socks.label "SOCKS Makina:">
+<!ENTITY socks4.accesskey "K">
+<!ENTITY socks4.label "SOCKS v4">
+<!ENTITY socks5.accesskey "V">
+<!ENTITY socks5.label "SOCKS v5">
+<!ENTITY ssl.accesskey "S">
+<!ENTITY ssl.label "SSL vekil sunucu:">

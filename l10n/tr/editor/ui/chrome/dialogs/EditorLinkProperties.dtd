@@ -1,2 +1,48 @@
-<!ENTITY LinkURLBox.label "Bağlantı Yeri">
+<!ENTITY LinkURLBox.label "Bağlantı yeri">
 <!ENTITY windowTitle.label "Bağlantı Özellikleri">
+<!ENTITY XFNbox.label "Arkadaş">
+
+<!ENTITY me.label "Bu bağlantı adresı benim diğer adresimdir.">
+
+<!ENTITY friendship.label "Arkadaşlık">
+<!ENTITY acquaintance.label "Tanıdık">
+<!ENTITY friend.label "Arkadaş">
+<!ENTITY contact.label "Tanıdıklar">
+<!ENTITY none.label "yok">
+
+<!ENTITY physical.label "Fiziksel">
+<!ENTITY met.label "met">
+
+<!ENTITY professional.label "Meslek">
+<!ENTITY coWorker.label "İş arkadaşları">
+<!ENTITY colleague.label "Birlikte çalışanlar">
+
+<!ENTITY geographical.label "Coğrafik">
+<!ENTITY coResident.label "Oda arkadaşı">
+<!ENTITY neighbor.label "Komşu">
+
+<!ENTITY family.label "Aile">
+<!ENTITY child.label "Çocuk">
+<!ENTITY parent.label "Anne ve baba">
+<!ENTITY sibling.label "Kız kardeş">
+<!ENTITY spouse.label "Eş">
+<!ENTITY kin.label "Akrabalar">
+
+<!ENTITY romantic.label "Romantik">
+<!ENTITY muse.label "Muse">
+<!ENTITY crush.label "crush">
+<!ENTITY date.label "Termin">
+<!ENTITY sweetheart.label "Sevgili">
+
+
+<!ENTITY targetBox.label "Hedef">
+<!ENTITY userDefinedTarget.label "Bağlantı">
+<!ENTITY topRadio.label "yeni pencerede aç  (Frameset olmadan)">
+<!ENTITY blankRadio.label "yeni pencere içinde aç">
+<!ENTITY parentRadio.label "üst üste Frameset olarak aç">
+<!ENTITY selfRadio.label "günce penceredeki frame içindee">
+<!ENTITY userDefinedRadio.label "bu çerçe içinde:">
+
+<!ENTITY technoratiTag.label "Technorati etiketleri">
+<!ENTITY technoratiTagCheckbox.label "Bu bir Technorati etiketidir">
+

@@ -10,3 +10,27 @@
 <!ENTITY widthEditField.accessKey "G">
 <!ENTITY widthEditField.label "Genişlik:">
 <!ENTITY windowTitle.label "Tablo ekle">
+
+
+<!ENTITY quicklyTab.label "Hızlı">
+<!ENTITY preciselyTab.label "Präzise">
+<!ENTITY cellTab.label "Hücreler">
+
+<!ENTITY horizAlignment.label "Yatay ayarlama:">
+<!ENTITY unspecifiedHAlignment.label "tanımlanmadı">
+<!ENTITY leftHAlignment.label "Sol">
+<!ENTITY centerHAlignment.label "Merkez">
+<!ENTITY rightHAlignment.label "Sağ">
+
+<!ENTITY vertAlignment.label "Dikey ayarlama:">
+<!ENTITY unspecifiedVAlignment.label "tanımlanmadı">
+<!ENTITY topVAlignment.label "Yukarda">
+<!ENTITY middleVAlignment.label "Ortada">
+<!ENTITY bottomVAlignment.label "Aşağıda">
+
+<!ENTITY textWrapping.label "Metin kesme:">
+<!ENTITY wrapWrapping.label "Kes">
+<!ENTITY nowrapWrapping.label "Kesme">
+
+<!ENTITY cellSpacing.label "Cellspacing">
+<!ENTITY cellPadding.label "Cellpadding">

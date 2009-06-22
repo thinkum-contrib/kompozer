@@ -1,0 +1,51 @@
+
+<!ENTITY copyCmd.accesskey "k">
+<!ENTITY copyCmd.key "c">
+<!ENTITY copyCmd.label "Kopyala">
+<!ENTITY cutCmd.accesskey "K">
+<!ENTITY cutCmd.key "x">
+<!ENTITY cutCmd.label "Kes">
+<!ENTITY deleteCmd.accesskey "S">
+<!ENTITY deleteCmd.key "S">
+<!ENTITY deleteCmd.label "Sil">
+
+
+
+<!ENTITY findTypeLinksCmd.accesskey "a">
+<!ENTITY findTypeLinksCmd.label "Bağlantıları yazarken ara">
+<!ENTITY findTypeTextCmd.accesskey "e">
+<!ENTITY findTypeTextCmd.label "Metinde yazarken ara">
+
+<!ENTITY newBlankPageCmd.accesskey "e">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newBlankPageCmd.label "Düzenleyici sayfası">
+
+<!ENTITY newNavigatorCmd.accesskey "K">
+<!ENTITY newNavigatorCmd.key "K">
+<!ENTITY newNavigatorCmd.label "Kılavuz penceresi">
+
+<!ENTITY newPageFromTemplateCmd.accesskey "S">
+<!ENTITY newPageFromTemplateCmd.label "Sayfayı geçici kullan">
+
+
+<!ENTITY pasteCmd.accesskey "p">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.label "Yapıştır">
+<!ENTITY preferencesCmd.accesskey "L">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.label "Tercihler...">
+
+<!ENTITY redoCmd.accesskey "Y">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.label "Yinele">
+
+<!ENTITY selectAllCmd.accesskey "H">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.label "Hepsini seç">
+
+<!ENTITY undoCmd.accesskey "r">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.label "Geri al">
+
+<!ENTITY viewToolbarsMenu.accesskey "ö">
+<!ENTITY viewToolbarsMenu.label "Göster/Gizle">

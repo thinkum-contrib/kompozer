@@ -1,0 +1,18 @@
+<!ENTITY cancel.label "Vazgeç">
+<!ENTITY caption.label "Web adresi aç">
+<!ENTITY chooseFile.accesskey "s">
+<!ENTITY chooseFile.label "Dosya seç...">
+<!ENTITY editNewWindow.label "Yeni düzenleyici penceresi">
+<!ENTITY enter.accesskey "E">
+<!ENTITY enter.label "Web konumunu (URL) girin, ya da açmak istediğiniz yerel dosyayı belirtin:">
+<!ENTITY newTab.label "Yeni Kılavuz sekmesi">
+
+<!ENTITY openWhere.accesskey "B">
+<!ENTITY openWhere.label "Burda aç:">
+<!ENTITY documentTypeCaption.label "Nasıl bşr dosya oluşturmak istiyorsunuz?">
+<!ENTITY blankDocument.label     "Boş bir sayfa">
+<!ENTITY newFromTemplate.label   "Şablona dayalı yeni bir sayfa">
+<!ENTITY blankTemplate.label     "Boş bir şablon">
+
+<!ENTITY xhtmlDocument.label     "Bir XHTML sayfası oluştur">
+<!ENTITY strictDtd.label         "Strict DTD">

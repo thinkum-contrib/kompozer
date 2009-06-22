@@ -6,7 +6,7 @@
 <!ENTITY closeButton.label "Kapat">
 <!ENTITY editUserDictionaryButton.accessKey "D">
 <!ENTITY editUserDictionaryButton.label "Düzenle...">
-<!ENTITY ignoreAllButton.accessKey "N">
+<!ENTITY ignoreAllButton.accessKey "n">
 <!ENTITY ignoreAllButton.label "Hepsini görmemezlikten gel">
 <!ENTITY ignoreButton.accessKey "G">
 <!ENTITY ignoreButton.label "Görmezden gel">
@@ -27,6 +27,6 @@
 <!ENTITY suggestions.accessKey "n">
 <!ENTITY suggestions.label "Öneriler:">
 <!ENTITY userDictionary.label "Kişisel sözlük:">
-<!ENTITY windowTitle.label "Yazımı Denetle">
-<!ENTITY wordEditField.accessKey "D">
+<!ENTITY windowTitle.label "Yazım Denetimi">
+<!ENTITY wordEditField.accessKey "C">
 <!ENTITY wordEditField.label "Değiştirilecek:">
