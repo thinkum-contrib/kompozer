@@ -1,0 +1,9 @@
+<!ENTITY newserver.examine "Sertifikayı denetle...">
+<!ENTITY newserver.notify "Lütfen sayfa yöneticisine bu sorun hakkında bilgi verin.">
+<!ENTITY newserver.reason1 "- Tarayıcınız sertifika hazırlayıcısının hazırladığı sayfa sertifikasını tanımıyor.">
+<!ENTITY newserver.reason2 "- Sayfa sertifikalarının ayarları yanlış veya sertifikanın zamanın geçmiş olabilir.">
+<!ENTITY newserver.reasons "Olası hata sebepleri:">
+<!ENTITY newserver.refuse "Bu sertifikayı  kabul etme ve bu ağ sayfasına bağlanma">
+<!ENTITY newserver.remember "Bu sertifikayı kalıcı olarak kabul  et">
+<!ENTITY newserver.session "Bu sertifikayı sadece bu oturum için kabul et">
+<!ENTITY newserver.title "Ağ sayfası bilinmeyen bir yetkili tarafından onaylanmış">

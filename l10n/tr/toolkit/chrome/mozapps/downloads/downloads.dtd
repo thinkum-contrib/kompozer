@@ -1,0 +1,39 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+<!ENTITY canceled.label "Vazgeçildi">
+<!ENTITY closeWhenDone.label "İndirme bittiğinde pencereyi kapat">
+<!ENTITY closeWhenDone.tooltip "Bütün indirme dosyaları tamamlandığında pencereyi kapat">
+<!ENTITY cmd.cancel.accesskey "V">
+<!ENTITY cmd.cancel.label "Vazgeç">
+<!ENTITY cmd.cleanUp.accesskey "E">
+<!ENTITY cmd.cleanUp.label "Temizle">
+<!ENTITY cmd.cleanUp.tooltip "İsim değiştirme tamamlandı, listenden yüklemeden vazgeçildi ve işlem başarısız">
+<!ENTITY cmd.show.labelMac                "Finder'da göster">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.close.commandKey "W">
+<!ENTITY cmd.close2.commandKey "J">
+<!ENTITY cmd.close2Unix.commandKey "Y">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.open.accesskey "A">
+<!ENTITY cmd.open.label "Aç">
+<!ENTITY cmd.openWith.accesskey "L">
+<!ENTITY cmd.openWith.label "Birlikte aç...">
+<!ENTITY cmd.pause.accesskey "r">
+<!ENTITY cmd.pause.label "Ara ver">
+<!ENTITY cmd.properties.accesskey "L">
+<!ENTITY cmd.properties.label "Özellikler">
+<!ENTITY cmd.remove.accesskey "R">
+<!ENTITY cmd.remove.label "Listeden kaldır">
+<!ENTITY cmd.resume.accesskey "t">
+<!ENTITY cmd.resume.label "Devam et">
+<!ENTITY cmd.retry.accesskey "r">
+<!ENTITY cmd.retry.label "Baştan indir">
+<!ENTITY cmd.show.accesskey "D">
+<!ENTITY cmd.show.label "Bulunduğu dizini aç">
+<!ENTITY done.label "Tamamlandı">
+<!ENTITY downloads.title "İndirilenler">
+<!ENTITY failed.label "Hatalı">
+<!ENTITY filesSavedTo.label "İndirilen dosyaların kayıt yeri:">
+<!ENTITY installing.label "Kuruluyor...">
+<!ENTITY showFolder.label "Dizinleri göster">
+<!ENTITY starting.label "Başlıyor...">

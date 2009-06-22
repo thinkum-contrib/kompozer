@@ -1,0 +1,20 @@
+<!ENTITY backwardsCheckbox.accesskey "G">
+<!ENTITY backwardsCheckbox.label "Geriye doğru ara">
+<!ENTITY cancelButton.label "Vazgeç">
+<!ENTITY caseSensitiveCheckbox.accesskey "B">
+<!ENTITY caseSensitiveCheckbox.label "Büyük/küçük harfe duyarlı">
+<!ENTITY closeButton.label "Kapat">
+<!ENTITY direction.label "Arama yönü">
+<!ENTITY down.accesskey "a">
+<!ENTITY down.label "Aşağı">
+<!ENTITY findButton.accesskey "B">
+<!ENTITY findButton.label "Bul">
+<!ENTITY findDialog.title "Bu sayfada ara">
+<!ENTITY findDialogFrame.title "Bu çerçevede ara">
+<!ENTITY findField.accesskey "N">
+<!ENTITY findField.label "Metni Bul:">
+<!ENTITY findField.tooltip "Aranacak bir veya birden çok kelime girin">
+<!ENTITY up.accesskey "R">
+<!ENTITY up.label "Yukarı">
+<!ENTITY wrapCheckbox.accesskey "l">
+<!ENTITY wrapCheckbox.label "Baştan başla">

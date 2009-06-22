@@ -1,0 +1,33 @@
+<!ENTITY boolean.accesskey "b">
+<!ENTITY boolean.label "Boolean">
+<!ENTITY columnChooser.tooltip "Kolonları görüntülemek için seçip tıklayınız">
+<!ENTITY copyName.accesskey "K">
+<!ENTITY copyName.label "Ayar ismini kopyala">
+<!ENTITY copyValue.accesskey "o">
+<!ENTITY copyValue.label "Değeri kopyala">
+<!ENTITY filterPrefs.accesskey "S">
+<!ENTITY filterPrefs.label "Süzgeç:">
+<!ENTITY integer.accesskey "g">
+<!ENTITY integer.label "Integer">
+<!ENTITY lockColumn.label "Durum">
+<!ENTITY lock.label "Kilitle">
+<!ENTITY lock.accesskey "L">
+<!ENTITY modify.accesskey "D">
+<!ENTITY modify.label "Değerini değiştir">
+<!ENTITY new.accesskey "n">
+<!ENTITY new.label "Yeni">
+<!ENTITY prefColumn.label "Ayar ismi">
+<!ENTITY prefColumnHeader.tooltip "Sıralamak için tıklayın">
+<!ENTITY reset.accesskey "S">
+<!ENTITY reset.label "Sıfırla">
+<!ENTITY showAll.accesskey "H">
+<!ENTITY showAll.label "Hepsini göster">
+<!ENTITY string.accesskey "s">
+<!ENTITY string.label "String">
+<!ENTITY toggle.accesskey "t">
+<!ENTITY toggle.label "Değerini değiştir">
+<!ENTITY unlock.label "Kilidi aç">
+<!ENTITY unlock.accesskey "a">
+<!ENTITY typeColumn.label "Türü">
+<!ENTITY valueColumn.label "Değer">
+<!ENTITY window.title "about:config">
