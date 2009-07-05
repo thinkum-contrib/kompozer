@@ -2,6 +2,11 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:nc="http://home.netscape.com/NC-rdf#">
 
+<!--
+Contributor(s):
+  Teliute <teliute@163.com>
+-->
+
   <rdf:Description about="urn:root">
     <nc:subheadings>
       <rdf:Seq>
@@ -38,9 +43,7 @@
     <rdf:Description about="#a">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description ID="accessibility-options" nc:name="辅助功能选项" nc:link="prefs.xhtml#accessibility"/></rdf:li>
-                <rdf:li><rdf:Description ID="advanced-options" nc:name="高级选项" nc:link="prefs.xhtml#advanced_options"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="高级属性编辑器" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -48,22 +51,41 @@
     <rdf:Description about="#b">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="页面背景" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="浏览页面" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+
+                <rdf:li><rdf:Description nc:name="保存页面" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer" nc:name="帮助" nc:link="welcome.xhtml"/></rdf:li>
+		<rdf:li> <rdf:Description nc:name="编辑模式工具栏" nc:link="composer_tutorial.xhtml#edit_mode_toolbar" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="editing_modes" nc:name="编辑模式" nc:link="formatting_webpages.xhtml#choosing_the_right_editing_mode" /> </rdf:li>
+		<rdf:li><rdf:Description ID="tables" nc:name="表格" nc:link="tables.xhtml"/></rdf:li>
+		<rdf:li><rdf:Description ID="tabs" nc:name="标签" nc:link="composer_help.xhtml#tabs_editing_multiple_documents"/></rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
 
+    <rdf:Description about="#tables">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="adding-tables-to-your-web-page" nc:name="添加表格" nc:link="tables.xhtml#adding_tables_to_your_web_page"/></rdf:li>
+<!--		<rdf:li><rdf:Description ID="" nc:name="" nc:link=""/></rdf:li>
+ by TeliuTe-->
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
     <rdf:Description about="#c">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="更改文本颜色、样式、字体" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Composition Toolbar" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Copying Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Creating Stylesheets" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Creating Templates" nc:link="templates.xhtml#creating_a_template"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Creating Webpages" nc:link="composer_help.xhtml"/></rdf:li>
+
                 <rdf:li><rdf:Description nc:name="CSS" nc:link="css.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="插入水平线" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="查找文本" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="查找主题" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="常用工具栏" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="超级链接" nc:link="links.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="创建样式表" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="创建模板" nc:link="templates.xhtml#creating_a_template"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="创建网页" nc:link="composer_help.xhtml"/></rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -71,7 +93,8 @@
     <rdf:Description about="#d">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Deleting Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+
+		<rdf:li> <rdf:Description ID="formatting_paragraphs" nc:name="段落格式" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -79,8 +102,7 @@
     <rdf:Description about="#e">
         <nc:subheadings>
             <rdf:Seq>
-		<rdf:li> <rdf:Description nc:name="Editing Mode Toolbar" nc:link="composer_tutorial.xhtml#edit_mode_toolbar" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="editing_modes" nc:name="Editing Modes" nc:link="composer_help.xhtml#choosing_the_right_editing_mode" /> </rdf:li>
+
           </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -88,10 +110,10 @@
     <rdf:Description about="#f">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Finding Text" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Format Toolbar" nc:link="composer_tutorial.xhtml#format_toolbar"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Formatting" nc:link="formatting_webpages.xhtml"/></rdf:li>
-		<rdf:li> <rdf:Description ID="formatting_paragraphs" nc:name="formatting paragraphs" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+
+                <rdf:li><rdf:Description nc:name="复制表格" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description ID="accessibility-options" nc:name="辅助功能选项" nc:link="prefs.xhtml#accessibility"/></rdf:li>
+
 	    </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -99,6 +121,13 @@
     <rdf:Description about="#g">
         <nc:subheadings>
             <rdf:Seq>
+
+                <rdf:li><rdf:Description nc:name="高级属性编辑器" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
+                <rdf:li><rdf:Description ID="advanced-options" nc:name="高级选项" nc:link="prefs.xhtml#advanced_options"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="格式工具栏" nc:link="composer_tutorial.xhtml#format_toolbar"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="格式" nc:link="formatting_webpages.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="更改文本颜色、样式、字体" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li><rdf:Description ID="toolbars" nc:name="工具栏" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
 
             </rdf:Seq>
         </nc:subheadings>
@@ -108,10 +137,8 @@
     <rdf:Description about="#h">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description ID="help-viewer" nc:name="Help Viewer" nc:link="welcome.xhtml"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Horizontal Lines, Insert" nc:link="formatting_webpages.xhtml#inserting_horizontal_lines"/></rdf:li>
+
                 <rdf:li><rdf:Description ID="html" nc:name="HTML" nc:link="glossary.xhtml#Hypertext_Markup_Language"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Hyperlinks" nc:link="links.xhtml"/></rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -119,9 +146,9 @@
     <rdf:Description about="#help-viewer">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="How To Use" nc:link="welcome.xhtml"/></rdf:li>
-                <rdf:li><rdf:Description ID="help-viewer:finding-a-topic" nc:name="Finding a Topic" nc:link="welcome.xhtml#finding_the_topic_you_want"/></rdf:li>
-                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="Search Tips" nc:link="welcome.xhtml#search_tips"/></rdf:li>
+
+                <rdf:li><rdf:Description ID="help-viewer:how-to-use" nc:name="如何使用" nc:link="welcome.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description ID="help-viewer:search-tips" nc:name="搜索小提示" nc:link="welcome.xhtml#search_tips"/></rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -131,25 +158,30 @@
     <rdf:Description about="#i">
         <nc:subheadings>
             <rdf:Seq>
-		<rdf:li> <rdf:Description ID="images" nc:name="Images" nc:link="images.xhtml" /> </rdf:li>
-		<rdf:li> <rdf:Description nc:name="Images as Links" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
 
-    <rdf:Description about="#images">
-	<nc:subheadings>
-	    <rdf:Seq>
-                <rdf:li> <rdf:Description ID="images_edit" nc:name="editing image properties" nc:link="composer_help.xhtml#editing_image_properties" /> </rdf:li>
-                <rdf:li> <rdf:Description ID="images_insert" nc:name="inserting images" nc:link="inserting_an_image_into_your_page" /> </rdf:li>
-	    </rdf:Seq>
-	</nc:subheadings>
+
+    <rdf:Description about="#j">
+        <nc:subheadings>
+            <rdf:Seq>
+
+                <rdf:li> <rdf:Description ID="keyboard_shortcuts" nc:name="键盘快捷键" nc:link="shortcuts.xhtml" /> </rdf:li>
+		<rdf:li><rdf:Description ID="tutorial" nc:name="教程" nc:link="composer_tutorial.xhtml"/></rdf:li>
+
+            </rdf:Seq>
+        </nc:subheadings>
     </rdf:Description>
+
 
     <rdf:Description about="#k">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li> <rdf:Description ID="keyboard_shortcuts" nc:name="Keyboard Shortcuts" nc:link="shortcuts.xhtml" /> </rdf:li>
+
+                <rdf:li><rdf:Description nc:name="快捷键" nc:link="shortcuts.xhtml"/></rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -157,8 +189,10 @@
     <rdf:Description about="#l">
         <nc:subheadings>
             <rdf:Seq>
-		<rdf:li> <rdf:Description ID="links" nc:name="Links" nc:link="composer_help.xhtml#creating_links_in_composer" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="lists" nc:name="Lists" nc:link="composer_help.xhtml#formatting_your_web_pages" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="浏览页面" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+
+		<rdf:li> <rdf:Description ID="links" nc:name="链接" nc:link="links.xhtml#creating_links_in_composer" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists" nc:name="列表" nc:link="formatting_webpages.xhtml#formatting_your_web_pages" /> </rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -166,10 +200,10 @@
     <rdf:Description about="#links">
 	<nc:subheadings>
 	    <rdf:Seq>
-		<rdf:li> <rdf:Description ID="links_creating" nc:name="creating link on same page" nc:link="composer_help.xhtml#creating_links_within_the_same_page" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="links_external" nc:name="creating external links" nc:link="composer_help.xhtml#creating_links_to_other_pages" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="links_images" nc:name="using images as links" nc:link="composer_help.xhtml#removing_or_discontinuing_links" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="links_removing" nc:name="removing links" nc:link="composer_help.xtml#removing_or_discontinuing_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_creating" nc:name="创建页面内部链接" nc:link="links.xhtml#creating_links_within_the_same_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_external" nc:name="创建外部链接" nc:link="links.xhtml#creating_links_to_other_pages" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_images" nc:name="图片作为链接" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="links_removing" nc:name="删除链接" nc:link="links.xhtml#removing_or_discontinuing_links" /> </rdf:li>
 	    </rdf:Seq>
 	</nc:subheadings>
     </rdf:Description>
@@ -177,8 +211,8 @@
     <rdf:Description about="#lists">
 	<nc:subheadings>
 	    <rdf:Seq>
-		<rdf:li> <rdf:Description ID="lists_list_item" nc:name="list items" nc:link="composer_help.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="lists_work" nc:name="working with lists" nc:link="composer_help.xhtml#working_with_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists_list_item" nc:name="列表项" nc:link="formatting_webpages.xhtml#formatting_paragraphs_heading_and_lists" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="lists_work" nc:name="使用列表" nc:link="formatting_webpages.xhtml#working_with_lists" /> </rdf:li>
 	    </rdf:Seq>
 	</nc:subheadings>
     </rdf:Description>
@@ -186,7 +220,10 @@
     <rdf:Description about="#m">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Move Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+
+		<rdf:li> <rdf:Description ID="toc" nc:name="目录表" nc:link="toc.xhtml#working_with_table_of_contents_on_your_web_page" /> </rdf:li>
+
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -194,7 +231,8 @@
     <rdf:Description about="#n">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="New Document" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></rdf:li>
+
+
 	    </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -210,31 +248,18 @@
     <rdf:Description about="#p">
         <nc:subheadings>
             <rdf:Seq>
-		<rdf:li> <rdf:Description ID="page" nc:name="page" nc:link="page_properties.xhtml" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="preferences" nc:name="preferences" nc:link="preferences.xhtml" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="publishing" nc:name="publishing" nc:link="publishing_help.xhtml" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="publishing" nc:name="发布" nc:link="publishing_help.xhtml" /> </rdf:li>
 	    </rdf:Seq>
         </nc:subheadings>
-    </rdf:Description>
-
-    <rdf:Description about="#page">
-	<nc:subheadings>
-	    <rdf:Seq>
-		<rdf:li> <rdf:Description ID="page-properties" nc:name="setting page properties" nc:link="composer_help.xhtml#setting_page_properties_and_meta_tags" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="page-color-background" nc:name="setting page colors and background" nc:link="composer_help.xhtml#setting_page_colors_and_backgrounds" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="page-save" nc:name="saving page" nc:link="composer_help.xhtml#Saving and Browsing Your New Page" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="page-create" nc:name="creating new page" nc:link="composer_help.xhtml#creating_a_new_page" /> </rdf:li>
-	    </rdf:Seq>
-	</nc:subheadings>
     </rdf:Description>
 
     <rdf:Description about="#preferences">
 	<nc:subheadings>
 	    <rdf:Seq>
-		<rdf:li> <rdf:Description ID="preferences_general_settings" nc:name="general settings" nc:link="composer_help.xhtml#preferences_general_settings" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="preferences-new-page-settings" nc:name="new page settings" nc:link="preferences.xhtml#preferences_new_page_settings" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="preferences-advanced-settings" nc:name="advanced settings" nc:link="preferences.xhtml#preferences-advanced-settings" /> </rdf:li>
-		<rdf:li> <rdf:Description ID="preferences_fonts" nc:name="Fonts" nc:link="preferences.xhtml#preferences_fonts" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_general_settings" nc:name="常规设置" nc:link="preferences.xhtml#preferences_general_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-new-page-settings" nc:name="新页面设置" nc:link="preferences.xhtml#preferences_new_page_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences-advanced-settings" nc:name="高级设置" nc:link="preferences.xhtml#preferences_advanced_settings" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="preferences_fonts" nc:name="字体" nc:link="preferences.xhtml#preferences_fonts" /> </rdf:li>
 	    </rdf:Seq>
 	</nc:subheadings>
     </rdf:Description>
@@ -242,9 +267,9 @@
     <rdf:Description about="#r">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Remove Text Styles" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Removing Links" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Replacing Text" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="删除文本样式" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="删除链接" nc:link="links.xhtml#removing_or_discontinuing_links"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="替换文本" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -252,12 +277,10 @@
     <rdf:Description about="#s">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Saving Page" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Selecting Tables" nc:link="tables.xhtml#selecting_table_elements"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Shortcuts" nc:link="shortcuts.xhtml"/></rdf:li>
-		<rdf:li> <rdf:Description ID="special-characters" nc:name="special characters" nc:link="formatting_webpages.xhtml#inserting_special_characters" /> </rdf:li>
-                <rdf:li><rdf:Description nc:name="Status Toolbar" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Style Sheets" nc:link="css.xhtml"/></rdf:li>
+
+                <rdf:li><rdf:Description nc:name="删除表格" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+		<rdf:li> <rdf:Description ID="preferences" nc:name="首选项" nc:link="preferences.xhtml" /> </rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -266,41 +289,27 @@
     <rdf:Description about="#t">
         <nc:subheadings>
             <rdf:Seq>
-		<rdf:li> <rdf:Description ID="toc" nc:name="table of contents" nc:link="composer_help.xhtml#working_with_table_of_contents_on_your_web_page" /> </rdf:li>
-		<rdf:li><rdf:Description ID="tables" nc:name="Tables" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></rdf:li>
-		<rdf:li><rdf:Description ID="text" nc:name="Text" nc:link="composer_help.xhtml#formatting_your_web_pages"/></rdf:li>
-		<rdf:li><rdf:Description ID="tabs" nc:name="Tabs" nc:link="composer_help.xhtml#create_document"/></rdf:li>
-		<rdf:li><rdf:Description ID="tutorial" nc:name="Tutorial" nc:link="composer_tutorial.xhtml"/></rdf:li>
-		<rdf:li><rdf:Description ID="toolbars" nc:name="Toolbars" nc:link=""/></rdf:li>
+
+		<rdf:li> <rdf:Description ID="special-characters" nc:name="特殊字符" nc:link="formatting_webpages.xhtml#inserting_special_characters" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="images" nc:name="图片" nc:link="images.xhtml" /> </rdf:li>
+		<rdf:li> <rdf:Description nc:name="图片链接" nc:link="links.xhtml#using_images_as_links" /> </rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
 
-    <rdf:Description about="#tables">
+    <rdf:Description about="#images">
 	<nc:subheadings>
-	   <rdf:Seq>
-		<rdf:li><rdf:Description ID="adding-tables-to-your-web-page" nc:name="Adding Tables to Your Web Page" nc:link="composer_help.xhtml#adding_tables_to_your_web_page"/></rdf:li>
-		<rdf:li><rdf:Description ID="" nc:name="" nc:link=""/></rdf:li>
-	   </rdf:Seq>
-	</nc:subheadings>
-    </rdf:Description>
-
-    <rdf:Description about="#text">
-	<nc:subheadings>
-	   <rdf:Seq>
-		<rdf:li><rdf:Description ID="changing-text-color" nc:name="changing text color" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>
-		<rdf:li><rdf:Description ID="changing-text-font" nc:name="changing text font" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>	
-		<rdf:li><rdf:Description ID="changing-text-style" nc:name="changing text style" nc:link="composer_help.xhtml#changing_text_color_style_and_font"/></rdf:li>
-		<rdf:li> <rdf:Description ID="finding-replacing-text" nc:name="finding/replacing text" nc:link="composer_help.xhtml#finding_and_replacing_text"/></rdf:li>
-		<rdf:li> <rdf:Description ID="removing-or-discontinuing-text-styles" nc:name="removing or discontinuing text styles" nc:link="composer_help.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
-	   </rdf:Seq>
+	    <rdf:Seq>
+                <rdf:li> <rdf:Description ID="images_edit" nc:name="编辑图片属性" nc:link="images.xhtml#editing_image_properties" /> </rdf:li>
+                <rdf:li> <rdf:Description ID="images_insert" nc:name="插入图片" nc:link="images.xhtml#inserting_an_image_into_your_page" /> </rdf:li>
+	    </rdf:Seq>
 	</nc:subheadings>
     </rdf:Description>
 
     <rdf:Description about="#u">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="User Interface" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
 
             </rdf:Seq>
         </nc:subheadings>
@@ -309,7 +318,8 @@
     <rdf:Description about="#v">
         <nc:subheadings>
             <rdf:Seq>
-		<rdf:li> <rdf:Description ID="validate" nc:name="Validating HTML" nc:link="composer_help.xhtml#validating_the_html" /> </rdf:li>
+
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -318,17 +328,72 @@
         <nc:subheadings>
             <rdf:Seq>
 
+		<rdf:li><rdf:Description ID="text" nc:name="文本" nc:link="formatting_webpages.xhtml#formatting_your_web_pages"/></rdf:li>
+
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
+
+    <rdf:Description about="#text">
+	<nc:subheadings>
+	   <rdf:Seq>
+		<rdf:li><rdf:Description ID="changing-text-color" nc:name="更改文本颜色" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li><rdf:Description ID="changing-text-font" nc:name="更改文本字体" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>	
+		<rdf:li><rdf:Description ID="changing-text-style" nc:name="更改文本样式" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+		<rdf:li> <rdf:Description ID="finding-replacing-text" nc:name="查找/替换" nc:link="formatting_webpages.xhtml#finding_and_replacing_text"/></rdf:li>
+		<rdf:li> <rdf:Description ID="removing-or-discontinuing-text-styles" nc:name="删除或取消文本样式" nc:link="formatting_webpages.xhtml#removing_or_discontinuing_text_styles"/></rdf:li>
+	   </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
 
 
     <rdf:Description about="#x">
         <nc:subheadings>
             <rdf:Seq>
+ 
+                <rdf:li><rdf:Description nc:name="新建文档" nc:link="composer_tutorial.xhtml#starting_a_new_document"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="选择表格" nc:link="tables.xhtml#selecting_table_elements"/></rdf:li>
 
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
+
+    <rdf:Description about="#y">
+        <nc:subheadings>
+            <rdf:Seq>
+
+		<rdf:li> <rdf:Description ID="validate" nc:name="验证 HTML" nc:link="formatting_webpages.xhtml#validating_the_html" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="样式表" nc:link="css.xhtml"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="页面背景" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
+		<rdf:li> <rdf:Description ID="page" nc:name="页面属性" nc:link="page_properties.xhtml" /> </rdf:li>
+                <rdf:li><rdf:Description nc:name="移动表格" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="用户界面" nc:link="composer_tutorial.xhtml#introduction_to_the_user_interface"/></rdf:li>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#page">
+	<nc:subheadings>
+	    <rdf:Seq>
+		<rdf:li> <rdf:Description ID="page-properties" nc:name="设置页面属性" nc:link="page_properties.xhtml#setting_page_properties_and_meta_tags" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-color-background" nc:name="设置页面背景和颜色" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-save" nc:name="保存页面" nc:link="composer_help.xhtml#saving_and_browsing_your_new_page" /> </rdf:li>
+		<rdf:li> <rdf:Description ID="page-create" nc:name="创建新页面" nc:link="composer_help.xhtml#creating_a_new_page" /> </rdf:li>
+	    </rdf:Seq>
+	</nc:subheadings>
+    </rdf:Description>
+
+    <rdf:Description about="#z">
+        <nc:subheadings>
+            <rdf:Seq>
+
+                <rdf:li><rdf:Description nc:name="状态栏" nc:link="composer_tutorial.xhtml#status_toolbar"/></rdf:li>
+
+            </rdf:Seq>
+        </nc:subheadings>
+    </rdf:Description>
+
 
 </rdf:RDF>

@@ -5,7 +5,7 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Creating Web Pages with &brandShortName;</title>
+<title>用 &brandShortName; 创建网页</title>
 <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
@@ -25,103 +25,86 @@ function togglePanel() {
 
 <table width="100%" id="navTable">
 <tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="80"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">显示/隐藏</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">帮助中心</span></td>
 </tr>
 </table>
 
-<div id="contentsBox">In this section:
-  <a href="composer_help.xhtml#starting_a_new_page">Starting a New
-  Page</a>
+<div id="contentsBox">在这一章里:
+  <a href="composer_help.xhtml#starting_a_new_page">开始一个新页面</a>
 
-  <a href="formatting_webpages.xhtml">Formatting Your Web Pages</a>
+  <a href="formatting_webpages.xhtml">设置网页格式</a>
 
-  <a href="css.xhtml">Using Style Sheets to Style Your Web Pages</a>
+  <a href="css.xhtml">使用样式表为网页增加样式</a>
 
-  <a href="tables.xhtml">Adding Tables to Your Web Page</a>
+  <a href="tables.xhtml">为网页添加表格</a>
 
-  <a href="images.xhtml">Adding Pictures (Images) to Your Web Page</a>
+  <a href="images.xhtml">为网页添加图片</a>
 
-  <a href="toc.xhtml">Working with Table of Contents on Your Web
-  Page</a>
+  <a href="toc.xhtml">用目录表格设计您的网页</a>
 
-  <a href="templates.xhtml">Working With Templates </a>
+  <a href="templates.xhtml">使用模板</a>
 
-  <a href="page_properties.xhtml">Setting Page Properties</a>
+  <a href="page_properties.xhtml">设置页面属性</a>
 
-  <a href="links.xhtml">Creating Links in &brandShortName;</a>
+  <a href="links.xhtml">在 &brandShortName; 里创建超链接</a>
 
-  <a href="customize.xhtml">Customizing &brandShortName;</a>
+  <a href="customize.xhtml">定制 &brandShortName;</a>
 
 </div>
 
-<h2 id="working_with_templates">Working With Templates</h2>
+<h2 id="working_with_templates">使用模板</h2>
 
-<p>HTML templates are useful in cases where the author has to create
-several pages which have similar design but different content. With
-&brandShortName; you can design your own templates and use them as a basis for your
-web pages.</p>
+<p>HTML 模板在设计外观相同，只是内容不同的多个页面时，非常有用。
+在 &brandShortName; 中，您可以设计自己的模板，使用它们作为一个页面的基础。</p>
 
-<h3 id="creating_a_template">Creating a Template</h3>
+<h3 id="creating_a_template">创建模板</h3>
 
 <ol>
-  <li>To create a template:
+  <li>要创建模板:
   <ul>
-    <li>Click on <span class="menPath">File > New</span>, or click on
-    the arrow besides "New" button and select "More Options"</li>
-    <li>Select <strong>Blank Template</strong> and click on "Create</li>
+    <li>点菜单 <span class="menPath">文件 > 新建</span>，或者点工具栏新建按钮旁边的箭头，选“更多选项”</li>
+    <li>选择 <strong>空模板</strong> 然后点 "创建”按钮</li>
   </ul></li>
-  <li>Add and format the content which will remain the same in every
-  page with same methods used to edit normal text in a web page.</li>
-  <li>For the content which will be different in the web pages,
-  Editable Area can be inserted by clicking on Insert > Templates >
-  Editable Area. Options available for an editable area are:
+  <li>就像普通页面一样，添加所有页面相同的内容并设置好格式。</li>
+  <li>对于各个页面不同的内容部分，可以通过点菜单 插入 > 模板 > 可编辑区域，
+创建可编辑区域。可可编辑区域的选项有:
   <ul>
-    <li>Area is Optional</li>
-    <li>Area is Repeatable</li>
-    <li>Area is Movable</li>
+    <li>普通区域</li>
+    <li>可重复区域</li>
+    <li>可移动区域</li>
   </ul></li>
-  <li>Save the file as an .mzt Template file.</li>
+  <li>保存文件为 .mzt 模板文件。</li>
 </ol>
 
-<p><strong>Tip</strong>: You can Remove an editable area or make an
-area editable using the status bar. For details refer <a
-href="#using_status_bar_for_formatting_your_web_page">Using Status Bar
-for Formatting Your Web Page</a>.</p>
+<p><strong>小提示</strong>: 你可以使用状态栏删除或更改可编辑区域。更多细节请参阅: <a
+href="#using_status_bar_for_formatting_your_web_page">使用状态栏格式化您的网页</a>。</p>
 
-<p class="returnToSection">[ <a href="#working_with_templates">Return
-to beginning of section</a> ]</p>
+<p class="returnToSection">[ <a href="#working_with_templates">反回到开头</a> ]</p>
 
-<h3 id="using_a_template">Using a Template</h3>
+<h3 id="using_a_template">使用模板</h3>
 
-<p>To use a Template for authoring web pages:</p>
+<p>用模板制作网页:</p>
 
-<ol>
-  <li>Click on <span class="menuPath">File > Open</span> or use
-  keyboard shortcut "Ctrl+N"</li>
-  <li>Select the option "A New Document based on a Template" and
-  choose the template to use by clicking on "Choose File"</li>
-  <li>Click on <span class="menuPath">Create</span></li>
-  <li>Edit the content in the editable areas.</li>
-  <li>Save the file as an <i>html</i> document.</li>
+<ol><!--Ctrl+N似乎没用，检查快捷键-->
+  <li>点菜单 <span class="menuPath">文件 > 新建</span> 或者按快捷键“Ctrl+N”</li>
+  <li>选择“套用模板的新文档"，然后点“浏览”按钮选择一个模板</li>
+  <li>点 <span class="menuPath">创建</span></li>
+  <li>在可编辑区域内输入内容。</li>
+  <li>保存文件为一个 <i>html</i> 文档。</li>
 </ol>
 
-<p><strong>Tip</strong>: Click on <span class="menuPath">Edit > Detach
-From Template</span> to detach a document from its template.</p>
+<p><strong>小提示</strong>: 点击 <span class="menuPath">编辑 > 从模板中分离</span> 使文档从它套用的模板中分离出来。</p>
 
-<p><strong>Tip</strong>: Transformation of existing document into a
-template and vice-versa can be achieved by checking(unchecking) the
-"Templates" option in Format > Page Title and Properties.</p>
+<p><strong>小提示</strong>: 转换一个现有的文档为模板页，可以点菜单 格式 > 页面标题和属性，选中“模板页”选项，反之亦然。</p>
 
-<p class="returnToSection">[ <a href="#working_with_templates">Return
-to beginning of section</a> ]</p>
+<p class="returnToSection">[ <a href="#working_with_templates">反回到开头</a> ]</p>
 
-<p>[<a href="page_properties.xhtml">Next</a>] [<a href="toc.xhtml">Previous</a>]</p>
+<p>[<a href="toc.xhtml">上一页</a>] [<a href="page_properties.xhtml">下一页</a>]</p>
 
-  <div class="copyrightBox"><em>20 June 2005</em></div>
+  <div class="copyrightBox"><em>TeliuTe, 2009年6月25日</em></div>
 
-<p>Copyright &copy; 2004-2005 Contributors to the Nvu
-Help Documentation Project.</p>
+<p>&copy; 2004-2009 Nvu, KompoZer 帮助文档项目贡献者，版权所有。</p>
 
 </body>
 </html>

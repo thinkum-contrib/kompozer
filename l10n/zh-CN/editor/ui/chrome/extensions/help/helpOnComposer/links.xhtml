@@ -5,7 +5,7 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Creating Web Pages with &brandShortName;</title>
+<title>用 &brandShortName; 创建网页</title>
 <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
@@ -25,287 +25,199 @@ function togglePanel() {
 
 <table width="100%" id="navTable">
 <tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="80"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">显示/隐藏</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">帮助中心</span></td>
 </tr>
 </table>
 
-<div id="contentsBox">In this section:
-  <a href="composer_help.xhtml#starting_a_new_page">Starting a New Page</a>
+<div id="contentsBox">在这一章里:
+  <a href="composer_help.xhtml#starting_a_new_page">开始一个新页面</a>
 
-  <a href="formatting_webpages.xhtml">Formatting Your Web
-  Pages</a>
+  <a href="formatting_webpages.xhtml">设置网页格式</a>
 
-  <a href="css.xhtml">Using Style Sheets to Style Your Web Pages</a>
+  <a href="css.xhtml">使用样式表为网页增加样式</a>
 
-  <a href="tables.xhtml">Adding Tables to Your Web Page</a>
+  <a href="tables.xhtml">为网页添加表格</a>
 
-  <a href="images.xhtml">Adding Pictures (Images) to Your Web Page</a>
+  <a href="images.xhtml">为网页添加图片</a>
 
-  <a href="toc.xhtml">Working with Table of Contents on Your Web
-  Page</a>
+  <a href="toc.xhtml">用目录表格设计您的网页</a>
 
-  <a href="templates.xhtml">Working With Templates  </a>
+  <a href="templates.xhtml">使用模板</a>
 
-  <a href="page_properties.xhtml">Setting Page Properties</a>
+  <a href="page_properties.xhtml">设置页面属性</a>
 
-  <a href="links.xhtml">Creating Links in &brandShortName;</a>
+  <a href="links.xhtml">在 &brandShortName; 里创建超链接</a>
 
-  <a href="customize.xhtml">Customizing &brandShortName;</a>
+  <a href="customize.xhtml">定制 &brandShortName;</a>
 
 </div>
 
-<h2 id="creating_links_in_composer">Creating Links in
-&brandShortName;</h2>
+<h2 id="creating_links_in_composer">在 &brandShortName; 里创建超链接</h2>
 
-<h3 id="creating_links_within_the_same_page">Creating Links Within the
-Same Page</h3>
+<h3 id="creating_links_within_the_same_page">用 &brandShortName; 创建页内超链接</h3>
 
-<p>To create a link within the same page, for example a link that the
-reader can use to
-jump from one section to another, you must create an <em>anchor</em>
-(target location),
-and then create a link that points to the anchor. Anchors are also
-called
-<em>named anchors</em>.</p>
+<p>要创建一个内面内部的超链接，这样读者就可以快速在不同章节之间跳转，您必须要创建 <em>锚点</em>
+(目标位置)，然后创建指向这个锚点的，锚点也叫<em>书签</em>.</p>
 
 <ol>
-  <li>Click to place the insertion point at the beginning of a line
-  where you want to create an anchor, or select some text.</li>
+  <li>点击您想要放置锚点的行开头，把光标插入点放在那儿，或者选中一些文本。</li>
   
-  <li>Click on anchor button <img src="images/anchor.png" width="26"
-  height="26" alt="" /> or open the Insert menu and choose Named
-  Anchor. You see the Named Anchor Properties dialog box.</li>
+  <li>点击工具栏上的锚点按钮 <img src="images/anchor.png" />，或者点插入菜单，选择锚点，出来锚点属性对话框。</li>
   
-  <li>Type a unique name for the anchor in the Anchor Name field (up
-  to 30 characters). If you include spaces, they will be converted to
-  underscores ( _ ). If you selected some text in step 1, this box
-  already contains a name.</li>
+  <li>在名称文本框输入锚点的名称，注意不能重名(30字符以内)，如果使用了空格，会被转换为下划线(_)，如果在第一步选中了一些文字，那么这儿已经包含了一个默认的名称。</li>
   
-  <li>Click OK. An anchor icon appears in your document to mark the
-  anchor's location: <img src="images/anchor-in-doc.gif" width="20"
-  height="17" alt="" /></li>
+  <li>点确定按钮，文档中对应位置出现一个锚点标记: <img src="images/anchor-in-doc.gif" /></li>
 </ol>
 
-<p>To create the link on which readers can click to jump to the
-anchor:</p>
+<p>创建能够跳转到锚点的链接:</p>
 
 <ol>
-  <li>Select the text or image that you want to link to the
-  anchor.</li>
+  <li>选中要创建链接的文本或图片，这将指向锚点。</li>
 
-  <li>Click the Link button or open the Insert menu and choose
-  Link. You see the Link Properties dialog box.
+  <li>点击工具栏上的链接按钮，或者点插入菜单，然后选择链接，出来一个链接属性对话框。
   
   <ul>
-    <li>If you're creating a link to an HTML file on your computer,
-    click Choose File
-    to locate it.</li>
+    <li>如果您要链接到其他页面，点浏览选择这个文件。</li>
     
-    <li>If you're creating a link to a named anchor (target), select
-    it from the list of
-    the anchors currently available in the page.</li>
+    <li>如果您要创建指向锚点的链接，点下拉按钮，列表中会显示可用的锚点。</li>
     
-    <li>If you're creating a link to a level heading (for example,
-    Heading 1 - Heading 6),
-    select it from the list of headings currently available in
-    the page.</li>
+    <li>如果您要创建指向标题的链接(如标题1 - 标题6)，从下拉列表中选择当前可用的标题。</li>
     
   </ul>
   </li>
   
-  <li>Click OK.</li> 
+  <li>点确定完成。</li> 
 </ol>
 
-<p><strong>Note</strong>: To test the link you just created, open the
-File menu and choose Browse Page,
-then click the link.</p>
+<p><strong>注意</strong>: 要测试您创建的链接，点文件菜单选择浏览页面，然后点击测试链接。</p>
 
-<p><strong>Tip</strong>: If you did not first create named anchors,
-you can use the Link dialog box to
-create links to headings that already occur in the page.</p>
+<p><strong>小提示</strong>: 如果您不是首次创建锚点，您可以使用链接对话框创建链接到已有的标题。</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Return to beginning of section</a>
+href="#creating_links_in_composer">返回到开头</a>
 ]</p>
 
-<h3 id="creating_links_to_other_pages">Creating Links to Other
-Pages</h3>
+<h3 id="creating_links_to_other_pages">创建指向其他页面的链接</h3>
 
-<p>You can create links from your page to local pages on your own
-computer or on your workplace's network, or to remote pages on the
-Internet.</p>
+<p>您在页面内可以创建链接到本机的页面，或者是网络工作组的页面，也可以是远程的网页。</p>
 
-<p><strong>Tip</strong>: It's best to first save or publish your page
-before you create links to other pages. This allows &brandShortName;
-to automatically use relative references for links once you create
-them.</p>
+<p><strong>小提示</strong>: 在创建链接前，最好先保存或发布一下页面
+这样 &brandShortName; 可以自动创建地址为相对地址。</p>
 
-<p id="to_create_a_link_to_another_page">To create a link to another
-page:</p>
+<p id="to_create_a_link_to_another_page">创建指向其他页面的链接:</p>
 
 <ol>
-  <li>Click to place the insertion point where you want to create a
-  link, or select the text
-  or image that you want to link to the anchor.</li>
+  <li>点击您想要创建链接的位置，把光标插入点放在那儿，或者选中一些文本或图片。</li>
   
-  <li>Click the Link button. You see the Link Properties dialog
-  box.</li>
+  <li>点击工具栏上的链接按钮，出来一个链接属性对话框。</li>
   
-  <li>Define your link:
+  <li>设置链接:
   
   <ul>
-    <li><strong>Link text</strong>: If you've already selected an
-    image file or text before clicking
-    the Link button, the selected text or file will be entered
-    here. Otherwise, you must
-    enter the text that you want to use as the link.</li>
+    <li><strong>链接文本</strong>: 如果您选中了图片文件或者一些文本，选中的文本或文件
+选中的文本或文件会出现在这里，否则您就要在这里输入一段文本，作为链接显示的文本。</li>
 
-    <li><strong>Link Location</strong>: Type the local path and
-    filename or remote URL of the page
-    you want to link to. If you're not sure of the path and
-    filename for a local file,
-    click Choose File to look for it on your hard disk or
-    network. For remote URLs, you
-    can copy the URL from the browser location
-    field. Alternatively, you can select a
-    named anchor or a heading in the current page that you
-    want to link to.</li>
+    <li><strong>链接位置</strong>: 输入本地文件名或远程页面的地址，如果您不太清楚文件路径，可以点浏览按钮，在本机中查找文件。对于远程页面网址，您可以采用复制粘贴的方法。另外您可以从下拉列表中选择当前页面的锚点或标题。</li>
 
-    <li><strong>URL is relative to page location</strong>: If
-    checked, &brandShortName; converts the URL to
-    be relative to the page's location. This is especially
-    useful if you plan to publish
-    your pages to a web server so that others can view
-    them. Using relative URLs allows
-    you to keep all your linked files in the same place
-    relative to each other,
-    regardless of their location on your hard disk or a
-    web server.
-    <p>Deselecting this option causes &brandShortName; to
-    convert the URL to a full (absolute)
-    URL. You typically use absolute URLs when linking to
-    pages on other web servers
-    (not stored locally on your hard disk).</p>
-    <p>If you have unsaved changes, you must first save the page
-    in order to enable this
-    checkbox.</p></li>
+    <li><strong>URL 是相对地址</strong>: 选中此项，&brandShortName; 转换网址为一个相对地址，
+这在您计划发布页面到网络上，让其他人访问时非常有用。使用相对地址您可以把所有的文件归在一起，保持相对路径，不用考虑它们在本机和网络上的位置差异。
+    <p>不选中此复选框，&brandShortName; 会转换所有地址为全称(绝对)地址。
+    一般在引用网络上的图片时，使用绝对地址(不存储在您的本机中)。</p>
+    <p>如果您还没有保存或发布页面，您必须先保存一下，以便激活此复选框。</p></li>
     
   </ul>
   </li>
-  <li>To apply additional attributes or JavaScript events, click
-  Advanced Edit to display the
-  <a href="#using_the_advanced_property_editor">Advanced Property
-  Editor</a>.</li>
+  <li>要应用额外的属性或 JavaScript 事件，点击高级编辑按钮，显示 <a href="#using_the_advanced_property_editor">高级属性编辑器</a>。</li>
   
-  <li>Click OK.</li>
+  <li>点确定完成。</li>
   
-  <li>To test the link you just created, click the Browse button and
-  then click the link to make sure it works as expected.</li>
+  <li>要测试您创建的链接，点浏览按钮，然后测试链接是否正确。</li>
 </ol>
 
-<p><strong>Tip</strong>: You can copy a link quickly by clicking and
-dragging the link from another window and then dropping it onto your
-page.  For example, you can click and drag a link from a web page,
-bookmark, or Mail window and drop it onto your page. You can also
-right-click (Control+click on Mac OS) a link on a web page and choose
-Copy Link Location from the menu. Then you can paste the link location
-into the Link Location field in the Link Properties dialog box.</p>
+<p><strong>小提示</strong>: 您可以从其他窗口拖动链接到页面，以便快速添加一个链接
+例如，您可以从网页、书签和邮件窗口中，点击并拖动链接到页面。您也可以用右键点击链接(
+在 Mac OS 中是 Control+点击)，然后在出来的菜单中选择复制链接地址，然后粘贴到链接属性
+对话框的位置文本框里。</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Return to beginning of section</a>
+href="#creating_links_in_composer">返回到开头</a>
 ]</p>
 
-<h3 id="adding_xfn_information_within_your_links">Adding XFN
-Information Within Your Links</h3>
+<h3 id="adding_xfn_information_within_your_links">在链接中添加 XFN 信息</h3>
 
-<p>While creating links on your web page to other people's web pages,
-&brandShortName; provides the feature of including <a target="_blank"
-href="http://gmpg.org/xfn/">XFN</a> (XHTML Friends Network)
-information. The XFN is a simple way to represent human relationships
-using hyperlinks. To add XFN information:</p>
+<p>在创建指向其他网页的链接时，&brandShortName; 提供了一个特性，可以包括 <a target="_blank"
+href="http://gmpg.org/xfn/">XFN</a> (XHTML 友情链接)信息。XFN 使用超级链接来表达
+人们之间的相互关系，要添加 XFN 信息:</p>
 
 <ol>
-  <li>Right click on the link in which you want to add the XFN information.</li>
-  <li>Select "Link Properties".</li>
-  <li>In the "Link Properties" dialog window, click on "More Properties".</li>
-  <li>Select the corresponding entries under "Friendship" section to
-  be added as XFN information.</li>
-  <li>Click on "OK".</li>
-  <li>Click on "Save" to save changes/addition in document.</li>
+  <li>在您想添加 XFN 信息的链接上点右键。</li>
+  <li>选择“链接属性”。</li>
+  <li>在“链接属性”对话框里，点击“更多属性”。</li>
+  <li>在“友情链接”段，选择合适的项目，从而添加 XFN 信息。</li>
+  <li>点“确定”完成。</li>
+  <li>点“保存”按钮，保存文档的更改。</li>
 </ol>
 
-<p><strong>Note:</strong> Some XFN properties are radio-button type
-i.e. pick at most one, others are check boxes i.e. pick as many.</p>
+<p><strong>注意:</strong> 一些 XFN 属性是单选按钮，只能选一项，另外一些是复选框，可以选多项。</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Return to beginning of section</a>
+href="#creating_links_in_composer">返回到开头</a>
 ]</p>
 
-<h3 id="using_images_as_links">Using Images as Links</h3>
+<h3 id="using_images_as_links">使用图片作链接</h3>
 
-<p>You can make images, such as JPEG, GIF, or PNG files, behave like
-links in your pages. When the reader clicks a linked image, the
-browser window displays the page that the image is linked to.</p>
+<p>您给页面中的图片添加链接，比如 JPEG, GIF, PNG 图片文件。当点击图片时，
+浏览器窗口打开链接指向的页面。</p>
 
 <ol>
-  <li>Select an image on your page.</li>
+  <li>在页面中选择一幅图片。</li>
 
-  <li>Click the Link button <img src="images/link.png" width="26"
-  height="26" alt="" /> on the toolbar, or open the Insert menu and
-  choose Link.</li>
+  <li>点击工具栏上的链接按钮 <img src="images/link.png" />，或者点插入
+菜单选择链接。</li>
 
-  <li>Use the Link Properties dialog box to link the image to a <a
-  href="#creating_links_within_the_same_page">named anchor or heading
-  within the page</a>, or to a <a
-  href="#creating_links_to_other_pages">separate local or remote
-  page</a>.</li>
+  <li>在链接属性对话框里，设置链接图片到 <a
+  href="#creating_links_within_the_same_page">页内的锚点或标题</a>，或者链接到 <a
+  href="#creating_links_to_other_pages">本地或远程页面</a>。</li>
 </ol>
 
-<p><strong>Tip</strong>: Drag and drop a linked image from the
-Navigator window into a &brandShortName; window to copy both the image
-and the link.</p>
+<p><strong>小提示</strong>: 在浏览器中拖动一幅图片到 &brandShortName; 窗口，将会
+复制图片地址和它指向的链接。</p>
 
-<p><strong>Note</strong>: To remove the blue border on images used as
-links, open the Link Properties dialog box, click the Link tab, and
-uncheck "Show border around linked image".</p>
+<p><strong>注意</strong>: 要删除链接图片周围的蓝色边框，打开链接属性对话框，
+点击链接标签，不选中“显示链接图片周围的边框”。</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Return to beginning of section</a>
+href="#creating_links_in_composer">返回到开头</a>
 ]</p>
 
-<h3 id="removing_or_discontinuing_links">Removing or Discontinuing
-Links</h3>
+<h3 id="removing_or_discontinuing_links">删除或取消链接</h3>
 
-<p>To remove a link:</p>
+<p>删除链接:</p>
 
 <ol>
-  <li>Select the linked text (normally blue and underlined) or
-  image.</li>
+  <li>选中链接文本(通常是蓝色带下划线)或图片。</li>
 
-  <li>Open the Format menu and choose Remove Links.</li>
+  <li>打开格式菜单然后选择删除链接命令。</li>
 </ol>
 
-<p>To discontinue a link, so that text you type after the link is not
-included as part of the link:</p>
+<p>要取消一个链接，使得链接文本恢复到普通文本:</p>
 
 <ol>
-  <li>Click to place the insertion point where you want the link to
-  end.</li>
+  <li>在链接上点一下，把光标插入点放置其中。</li>
 
-  <li>Open the Format menu and choose Discontinue Link.</li>
+  <li>打开格式菜单，选择取消链接命令。</li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Return to beginning of section</a>
+href="#creating_links_in_composer">返回到开头</a>
 ]</p>
 
-<p>[<a href="customize.xhtml">Next</a>] [<a href="page_properties.xhtml">Previous</a>]</p>
+<p>[<a href="page_properties.xhtml">上一页</a>] [<a href="customize.xhtml">下一页</a>]</p>
 
-  <div class="copyrightBox"><em>20 June 2005</em></div>
+  <div class="copyrightBox"><em>TeliuTe, 2009年6月25日</em></div>
 
-<p>Copyright &copy; 2004-2005 Contributors to the Nvu
-Help Documentation Project.</p>
+<p>&copy; 2004-2005 Nvu, KompoZer 帮助文档项目贡献者，版权所有。</p>
 
 </body>
 </html>

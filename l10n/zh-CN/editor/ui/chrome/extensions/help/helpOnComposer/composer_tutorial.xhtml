@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
 <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
-%brandDTD; ] >
+%brandDTD;
 
+
+
+
+ ]>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>&brandShortName; Tutorial</title>
-    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+    <title>KompoZer 教程</title>
+    <link href="chrome://help/skin/helpFileLayout.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
@@ -24,54 +26,34 @@ function togglePanel() {
 }
 </script>
 
-<table width="100%" id="navTable">
+<table id="navTable" width="100%">
 <tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="80"><small><a style="margin-top: 10px;" onclick="togglePanel();" href="#">显示/隐藏</a></small></td>
+<td width="72"><img alt="KompoZer" src="chrome://editor/skin/icons/throbber.png" align="middle" height="32" width="32" /></td><td align="left"><span id="topText">帮助中心</span></td>
 </tr>
 </table>
 
-    <div id="contentsBox">In this section:
-    <a href="#scope_of_this_tutorial">Scope of This Tutorial</a>
-    <a href="#introduction_to_the_user_interface">Introduction to the User Interface</a>
-    <a href="#starting_a_new_document">Starting a New Document</a>
-    <a href="#basic_formatting_of_the_document">Basic Formatting of the Document</a>
-    <a href="#inserting_images_and_tables">Inserting Images, and Tables</a>
-    <a href="#advanced_styles">Advanced Styles</a>
-    <a href="#publishing_your_documents_basics">Publishing Your Document(s)-Basics</a>
+    <div id="contentsBox">在这一章里:
+    <a href="#scope_of_this_tutorial">教程概览</a>
+    <a href="#introduction_to_the_user_interface">用户界面指导</a>
+    <a href="#starting_a_new_document">打开一个新文档</a>
+    <a href="#basic_formatting_of_the_document">文档的基本格式</a>
+    <a href="#inserting_images_and_tables">插入图片和表格</a>
+    <a href="#advanced_styles">高级样式</a>
+    <a href="#publishing_your_documents_basics">发布您的文档-基本操作</a>
     </div>
 
-    <h1 id="nvu_tutorial">&brandShortName; Tutorial</h1>
+    <h1 id="nvu_tutorial">KompoZer 教程</h1>
 
-    <p>&brandShortName; is an open source
-    What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
-    system. It is based on Gecko, the Mozilla rendering
-    engine. &brandShortName; is completely free and can be downloaded
-    from <a href="http://www.nvu.com/">&brandShortName;
-    website</a>.</p>
+    <p>KompoZer 是一个开源的所见即所得(WYSIWYG)完整网页创建系统。它是基于 Gecko，Mozilla 渲染引擎。KompoZer 完全是免费的，您可以从 <a href="http://kompozer.net/">KompoZer 网站</a> 下载。</p>
 
-    <h2 id="scope_of_this_tutorial">Scope of This Tutorial</h2>
+    <h2 id="scope_of_this_tutorial">教程综述</h2>
 
-    <p>This tutorial is designed for beginners, who are new to web
-    page designing with a WYSIWYG editor. The tutorial provides just
-    enough help so as to get you started with using &brandShortName;
-    for your web page design purposes. It is not an introduction to
-    HTML, XHTML, CSS, etc. coding. Its only aim is to give you a kick
-    start on how to use &brandShortName;.</p>
+    <p>本教程是为初学者设计，为那些刚开始使用所见即所得编辑器的使用者，它提供了足够多的帮助让您学习使用 KompoZer 设计网页。它不是 HTML、XHTML、CSS 等代码的教程，它只是帮助您学会如何使用 KompoZer。</p>
 
-    <p>The manual does not even cover all the basic aspects of HTML in
-    detail. Yes, this is a short tutorial and some basic albeit
-    unimportant things have been left out. You are encouraged to find
-    out about them yourself. Also the tutorial covers just an
-    introduction on how to use cascading style sheets with the inbuilt
-    editor, CaScadeS.</p>
+    <p>是的，本手册甚至没有讲到 HTML 所有基础语法的细节，它是一个简单的教程，一些不重要的细节被舍弃，我们鼓励您自己找到它们。教程还涉及到了如何使用内置的 CSS 编辑器(CaScadeS)。</p>
 
-    <p>For those of you who are more interested in learning about
-    HTML, CSS, etc in detail you can go to the <a
-    href="http://www.w3.org/">W3 Consortium website</a>. There you
-    will find detailed information about various standards maintained
-    by them. You can also do a search on the WWW or refer to one of
-    the many books available on learning HTML.</p>
+    <p>若是您很想细致学习 HTML、CSS，可以访问 <a href="http://www.w3.org/">W3C 网站</a>，那儿您可以找到许多相关介绍，您也可以通过搜索或是找一本可用的书籍来学习 HTML。</p>
 
     <!-- The approach of this tutorial is to give the most basic
          instructions on getting major things done with Nvu. This will
@@ -80,121 +62,71 @@ function togglePanel() {
          provided targetting corresponding section in the main Help
          for detailed treatment of the same objective.-->
 
-    <h3 id="in_this_tutorial">In This Tutorial</h3>
+    <h3 id="in_this_tutorial">在这个教程里</h3>
 
-    <p>This tutorial first introduces you to &brandShortName;'s User
-    Interface. This is followed by a basic formatting section. Next
-    section, tells you how to insert elements like images, tables, and
-    forms in your document. Then we have small section devoted to
-    styling your document using CSS. The document concludes with
-    instructions for publishing your document to a web server.</p>
+    <p>这个教程首先会介绍 KompoZer 的用户界面，这在下面的基本格式章节中介绍，然后是如何插入各种元素，例如图片、表格、表单等。接下来我们有一个小的章节教您使用 CSS 格式化您的文档，这篇文章还包括如何将文档发布到网站上去。</p>
 
-    <p>[ <a href="#scope_of_this_tutorial">Return to beginning of
-    section</a> ]</p>
+    <p>[ <a href="#scope_of_this_tutorial">返回到开头</a> ]</p>
 
-    <h2 id="introduction_to_the_user_interface">Introduction to the
-    User Interface</h2>
+    <h2 id="introduction_to_the_user_interface">介绍用户界面</h2>
 
-    <p>&brandShortName;'s File Menu contains menu items for all major
-    operations possible while using it. For full detailed reference
-    read the <a href="menu_reference.xhtml">Menu Reference</a>
-    page. &brandShortName;'s tool bar user interface consists of:</p>
+    <p>KompoZer 的文件菜单包括全部的操作功能，详细介绍请参阅 <a href="menu_reference.xhtml">菜单索引</a> 页面。KompoZer 的工具栏包括:</p>
 
     <ul>
-      <li><a href="#composition_toolbar">Composition Toolbar</a></li>
-      <li><a href="#format_toolbar">Format Toolbar</a></li>
-      <li><a href="#tab_browser_toolbar">Tab Browser Toolbar</a></li>
-      <li><a href="#edit_mode_toolbar">Edit Mode Toolbar</a></li>
-      <li><a href="#status_toolbar">Status Toolbar</a></li>
+      <li><a href="#composition_toolbar">常用工具栏</a></li>
+      <li><a href="#format_toolbar">格式工具栏</a></li>
+      <li><a href="#tab_browser_toolbar">标签工具栏</a></li>
+      <li><a href="#edit_mode_toolbar">编辑模式栏</a></li>
+      <li><a href="#status_toolbar">状态栏</a></li>
     </ul>
 
-    <h3 id="composition_toolbar">Composition Toolbar</h3>
+    <h3 id="composition_toolbar">常用工具栏</h3>
 
-    <p>The Composition Toolbar consists of buttons for the most used major operations. Below is the a snapshot of the default Composition Toolbar with text below each button indicating the respective button's function.</p>
+    <p>常用工具栏中包含最常用的操作功能，下面的图片展示了默认的常用工具栏，每个按钮下方有文字说明。</p>
 
-    <p><img src="images/tut_composition_tb.png" title="Composition Toolbar" width="802" height="55" alt="" /></p>
+    <p><img alt="" title="Composition Toolbar" src="images/tut_composition_tb.png" /></p>
 
-    <h3 id="format_toolbar">Format Toolbar</h3>
+    <h3 id="format_toolbar">格式工具栏</h3>
 
-    <p>The Format Toolbar is a very useful tool while editing web
-    pages with &brandShortName;. With the Format Toolbar you can apply
-    paragraph format, choose a font, change foreground or background
-    colour, increase or decrease size, and emphasize a block of
-    text. You can also create ordered or unordered lists and justify a
-    block of text to left, right or centre. To know which button does
-    what just hover your mouse over the button and a tool tip will
-    appear indicating the function of the button.</p>
+    <p>格式工具栏在 KompoZer
+编辑网页时非常有用，在格式工具栏中，您可以设置图片格式、选择字体、更改背景或背景色，增大或减小字号，强调一个块或文本，您也可以创建有序或无序列
+表，让文字或块左对齐、右对齐或居中，要想知道各个按钮的作用，只要把鼠标移到上面，就会有一个浮动提示。</p>
 
-    <p><img src="images/tut_formating_tb.png" title="Formating Toolbar" width="802" height="34" alt="" /></p>
+    <p><img src="images/tut_formating_tb.png" alt="tut_formating_tb.png" /></p>
 
-    <h3 id="tab_browser_toolbar">Tab Browser Toolbar</h3>
+    <h3 id="tab_browser_toolbar">标签工具栏</h3>
 
-    <p>&brandShortName; allows you to simultaneously edit multiple web
-    documents using different tabs for each opened document. Having
-    multiple tabs gives a cleaner look to your desktop as it is not
-    cluttered when multiple windows are used for each document. As a
-    visual indicator a "<em>red floppy icon</em>" icon appears for
-    pages which have been edited but not saved yet.</p>
+    <p>KompoZer 允许您同时编辑多个文档，每个文档对应打开一个标签，使用标签比单独打开各个窗口更方便，桌面看着也不乱，如果一个文件修改了还未保存，在标签上会显示一个“红色小磁盘”标记，提示您文件还未保存。</p>
 
-    <p><img src="images/tut_tabbrowser_tb.png" title="Tab Browser Toolbar" width="636" height="29" alt="" /></p>
+    <p><img alt="tut_tabbrowser_tb.png" src="images/tut_tabbrowser_tb.png" /></p>
 
-    <h3 id="edit_mode_toolbar">Edit Mode Toolbar</h3>
+    <h3 id="edit_mode_toolbar">编辑模式工具栏</h3>
 
-    <p>The Edit Mode Toolbar indicates the viewing mode which is
-    presently active for the current document. Available viewing modes
-    are the Normal view, HTML Tags view, HTML source view and the
-    Preview mode. You can easily change your viewing mode by simply
-    clicking any of the other three with the mouse.</p>
+    <p>编辑模式工具栏指示当前文档编辑的查看模式，可用的模式有普通模式、HTML 标记、HTML 源代码和预览模式，您可以通过鼠标点击，在它们之间很方便地切换。</p>
 
-    <p><img src="images/tut_editmode_tb.png" title="Edit Mode Toolbar" width="408" height="30" alt="" /></p>
+    <p><img src="images/tut_editmode_tb.png" alt="tut_editmode_tb.png" /></p>
 
-    <h3 id="status_toolbar">Status Toolbar</h3>
+    <h3 id="status_toolbar">状态栏</h3>
 
-    <p>&brandShortName;'s status bar shows the position of the cursor
-    with respect to the HTML tag hierarchy. You can easily edit/assign
-    the properties of any particular tag in the status bar just by
-    right clicking and choosing the desired option. Simple left-click
-    of the mouse on a tag in status bar selects the text surrounded by
-    that tag.</p>
+    <p>KompoZer 的状态栏显示光标所在位置的 HTML 标记等级，您可以很方便地通过点击右键来编辑/关联常用标记的属性，单击左键选择此标记包含的文本。</p>
 
-    <p><img src="images/tut_status_tb.png" title="Status Toolbar" width="326" height="48" alt="" /></p>
+    <p><img src="images/tut_status_tb.png" alt="tut_status_tb.png" /></p>
 
-    <p>[ <a href="#introduction_to_the_user_interface">Return to
-    beginning of section</a> ]</p>
+    <p>[ <a href="#introduction_to_the_user_interface">返回到开头</a> ]</p>
 
-    <h2 id="starting_a_new_document">Starting a New Document</h2>
+    <h2 id="starting_a_new_document">开始一个新文档</h2>
 
-    <p>You can start a new document by either clicking on the "New"
-    button on the composition toolbar or by clicking File > New and
-    select "Blank Document" and then click on "Create". In case you
-    want to edit an existing file use File > Open and choose the file
-    you want to edit. For detailed instructions, refer to <a
-    href="composer_help.xhtml#starting_a_new_page">Starting a New
-    Page</a> section in the &brandShortName; Help documentation.</p>
+    <p>您可以通过点击常用工具栏上的“新建”按钮，创建一个新页面，或者点菜单“文件 &gt; 新建”，然后选择“空白文档”，再点“创建”按钮。 如果您用的是 文件 &gt; 打开命令，那么将会编辑打开的文件。更多详细介绍，请访问  KompoZer 帮助文档的 <a href="composer_help.xhtml#starting_a_new_page">开始一个新页面</a> 章节。</p>
 
-    <p>You can also start a new document which is a template instead
-    of a normal html file. Templates are used to make website
-    management easier as the maintainer will only need to edit the
-    text for a particular page and not worry about the design as it is
-    controlled by the template. This tutorial will not go further into
-    creating and using templates. Further information about templates
-    can be obtained from the <a
-    href="composer_help.xhtml#working_with_templates">Working with
-    Templates</a> section of &brandShortName; Help documentation.</p>
+    <p>您还可以使用一个模板代替普通 html 文件来开始一个新页面。模板让网站管理变得简单，只需要编辑不同的地方而不必担心设计，这些都由模板来控制。更多模板相关的信息，可以在 KompoZer 帮助文档的 <a href="composer_help.xhtml#working_with_templates">使用模板工作</a> 章节获得。</p>
 
-    <p>[ <a href="#starting_a_new_document">Return to beginning of
-    section</a> ]</p>
+    <p>[ <a href="#starting_a_new_document">返回到开头</a> ]</p>
 
-    <h2 id="basic_formatting_of_the_document">Basic Formatting of the
-    Document</h2>
+    <h2 id="basic_formatting_of_the_document">文档的基本格式</h2>
 
-    <p>We will use the text given in the next section in the new
-    document to follow the formatting help in this tutorial. The text
-    will used as a base to learn basic formatting functions available
-    in &brandShortName;. Copy the text from the following section and
-    paste it in your new document.</p>
+    <p>我们要在下一章里使用文本，以便学习 KompoZer 基本的格式功能，复制下面的文本，然后粘贴到您新建的文档中。</p>
 
-    <h3 id="tutorial_text">Tutorial Text</h3>
+    <h3 id="tutorial_text">教程文本</h3>
 
     <!-- The text for the tutorial is a general text. It was by chance
          that I was reading a book by Jim Corbett when I was planning
@@ -209,158 +141,88 @@ function togglePanel() {
          used in the tutorial are supposed to be distributed under the
          GNU GPL, and MPL license. -->
 
-    <p>Corbett National Park</p>
+    <p>科比特国家公园</p>
 
-    <p>Corbett National Park, named in the memory of Jim Corbett, was
-    created in 1938 and was the first national park to be established
-    in Asia. It is situated in the northern state of Uttranchal in
-    India. It has an area of 512 sq. km. The combined area of Corbett
-    National Park, Sonandi Wildlife sanctuary and Reserve Forest areas
-    summing up to 1288 sq. km. constitute a bigger project called
-    Corbett Tiger Reserve.</p>
+    <p>科比特国家公园，为纪念吉姆·科比特而命名，创建于1938年，是亚洲的第一个国家公园，它位于印度北方邦。它的面积有512平方公里， 科比特国家公园，Sonandi 野生动物保护区，森林保护区组合起来超过1288平方公里 ，组成一个叫做科比特老虎保护区的项目。</p>
 
-    <p>The most famous animals of Corbett National Park are the Bengal
-    Tiger and the Asiatic elephant. It is also a home to other animals
-    like etc etc. Situated at the junction of the Garhwal and Kumaon
-    hill regions it also boasts of the combination of cultures of
-    people of both regions.</p>
+    <p>科比特国家公园中最著名的动物是孟加拉虎和亚洲象，它也是其他野生动物的家园，位于  Garhwal 和 Kumaon 山区域的交界处， 它也融合了各个地区人们的文化。</p>
 
-    <p>Jim Corbett</p>
+    <p>吉姆·科比特</p>
 
-    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
-    converted into a museum by the government as a dedication to his
-    life and times. He was a naturalist, conservationalist and an avid
-    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighting for the British army in the WWI, he came
-    back to India and settled in Kaladhungi with his sister,
-    Maggie. He was called up several times by village people and the
-    government to get rid of man-eating tigers and leopards.</p>
+    <p>吉姆·科比特(1825-19)，居住在 Kaladhungi。他的房子已经由政府改建为一个博物馆，作为他生活的纪念。他是一个自然保护者和摄影师，出生于1875年7月25日，他在 Kaladhungi 和     Nanital 长大，在为英国参加完一次大战后，他回到印度和他姐姐 Maggie 定居在 Kaladhungi，他多次应政府和村民请求，对付吃人虎和豹子。</p>
 
-    <p>Visiting Corbett National Park</p>
+    <p>访问科比特国家公园</p>
 
-    <p>General Information</p>
+    <p>基本信息</p>
 
-    <p>Altitude: 385-1100m above sea level</p>
+    <p>海拔: 385-1100 米</p>
 
-    <p>Annual Rainfall: 1400mm - 2800mm</p>
+    <p>全年降雨量: 1400 - 2800 毫米</p>
 
-    <p>Temperature range: 4C in winter to 42C in summer.</p>
+    <p>气温: 冬季 4℃ 到夏季 42℃。</p>
 
-    <p>Open for tourists from 15 November to 15 June.</p>
+    <p>旅游开放时间从11月15日到6月15日。</p>
 
-    <p>Getting there:</p>
+    <p>到达路线:</p>
 
-    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
-    road it is connected to Delhi, Moradabad, Bareilly and
-    Nanital. State transport buses ply from Delhi, Moradabad and
-    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
-    taking a train from New Delhi.</p>
+    <p>科比特老虎保护区总部在 Ramnagar，通过公路连接到 Delhi, Moradabad, Bareilly 和
+    Nanital。 国家运输公共汽车提供从 Delhi, Moradabad 和 Haldwani 到 Ramnagar。通过铁路的游客可以从 New Delhi 乘铁路到达 Ramnagar。</p>
 
-    <h3>Formatting the text</h3>
+    <h3>设置文本格式</h3>
 
-    <p>The first thing we will take care of are the headings and
-    subheadings. Select the text "Corbett National Park" at the top of
-    the document and click on the <em>Body Text</em> drop down menu on
-    the <strong>Format Toolbar</strong> and select <tt>Heading
-    1</tt>. The text will be styled according to the default Heading
-    Level-1 style. Similarly, select the text "Visiting Corbett
-    National Park" and make it a level-2 heading.</p>
+    <p>首先我们来处理标题和副标题，选中顶部的文本"科比特国家公园"，然后点击 <strong>格式工具栏</strong> 中的 <em>正文</em> 下拉列表，选择 <tt>段落标题 1</tt>。文本将成为默认的一级标题样式，同样地，选中文本“访问科比特国家公园”，设置为二级标题。</p>
 
-    <p>The second you might want to do is to select entire paragraphs
-    in your text and mark them <em>paragraph</em> following same
-    procedure for the headings. In the given text this has already
-    done to make the text more presentable, but otherwise marking
-    paragraphs separately is a good practice.</p>
+    <p>第二步，您可能想对文本分段，把它们标记为 <em>段落</em>，步骤跟设置标题相同。在给出的文本中，这些已经完成以便使文本更容易阅读，但标记段落是一个很好的练习。</p>
 
-    <p>You can also style important words or phrases using the
-    <strong>bold</strong>(<strong>B</strong>),
-    <em>italic</em>(<strong><em>I</em></strong>), or
-    <u>underline</u>(<strong><u>U</u></strong>) buttons on the
-    <strong>Format Toolbar</strong>, as has been done in this
-    line. Several other options of formatting your text are available
-    from the Format Toolbar or via the Format menu on the File Menu
-    toolbar. Go ahead and try to use a few options, you will learn a
-    few trick this way. If you mess up, don't worry, just click
-    "<tt>Ctrl+Z</tt>" once to <em>undo</em> your last action. For
-    detailed instructions about all the ways possible to format text
-    for a web page, see <a
-    href="composer_help.xhtml#formatting_your_web_pages">Formatting
-    your Web Pages</a> section in &brandShortName; Help
-    documentation.</p>
+    <p>您还可以对重要的字或词使用 <strong>粗体</strong>(<strong>B</strong>),
+    <em>斜体</em>(<strong><em>I</em></strong>), 或者是
+    <u>下划线</u>(<strong><u>U</u></strong>)，它们都是位于
+    <strong>格式工具栏</strong> 上的按钮，排列在一起。在格式工具栏或格式菜单里，
+    还有一些其他选项用来设置文本格式，您可以进一步使用这些选项，您将会学会其中的技巧。
+    如果您弄错了，也不必担心，只要按一下组合键“<tt>Ctrl+Z</tt>”，就可以 <em>撤销</em> 您最后一次操作，更多格式相关的细节，请参阅 KompoZer 帮助文档里的： <a href="composer_help.xhtml#formatting_your_web_pages">格式化您的网页</a> 章节。</p>
 
-    <p>At this stage, your tutorial text should look similar to
-    this:</p>
+    <p>这时候，您的教程文本应该显示像这样:</p>
 
     <hr />
 
-    <div style="font-size:x-large;">Corbett National Park</div>
+    <div style="font-size: x-large;">科比特国家公园</div>
 
-    <p><em>Corbett National Park</em>, named in the memory of
-    <strong>Jim Corbett</strong>, was created in 1938 and was the
-    first national park to be established in Asia. It is situated in
-    the northern state of Uttranchal in India. It has an area of 512
-    sq. km. The combined area of Corbett National Park, Sonandi
-    Wildlife sanctuary and Reserve Forest areas summing up to 1288
-    sq. km. constitute a bigger project called Corbett Tiger
-    Reserve.</p>
+    <p><em>科比特国家公园</em>，为纪念<strong>吉姆·科比特</strong>而命名，创建于1938年，是亚洲的第一个国家公园，它位于印度北方邦。它的面积有512平方公里， 科比特国家公园，Sonandi 野生动物保护区，森林保护区组合起来超过1288平方公里 ，组成一个叫做科比特老虎保护区的项目。</p>
 
-    <p>The most famous animals of Corbett National Park are the
-    <em>Bengal Tiger</em> and the <em>Asiatic elephant</em>. It is
-    also a home to other animals like etc etc. Situated at the
-    junction of the Garhwal and Kumaon hill regions it also boasts of
-    the combination of cultures of people of both regions.</p>
+    <p>科比特国家公园中最著名的动物是<em>孟加拉虎</em>和<em>亚洲象</em>，它也是其他野生动物的家园，位于 Garhwal 和 Kumaon 山区域的交界处， 它也融合了各个地区人们的文化。</p>
 
-    <div style="font-size:large;">Jim Corbett</div>
+    <div style="font-size: large;">吉姆·科比特</div>
 
-    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
-    converted into a museum by the government as a dedication to his
-    life and times. He was a naturalist, conservationalist and an avid
-    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighting for the British army in the WWI, he came
-    back to India and settled in Kaladhungi with his sister,
-    Maggie. He was called up several times by village people and the
-    government to get rid of man-eating tigers and leopards.</p>
+    <p>吉姆·科比特(1825-19)，居住在 Kaladhungi。他的房子已经由政府改建为一个博物馆，作为他生活的纪念。他是一个自然保护者和摄影师，出生于1875年7月25日，他在 Kaladhungi 和 Nanital 长大，在为英国参加完一次大战后，他回到印度和他姐姐 Maggie 定居在 Kaladhungi，他多次应政府和村民请求，对付吃人虎和豹子。</p>
 
-    <div style="font-size:large;">Visiting Corbett National Park</div>
+    <div style="font-size: large;">访问科比特国家公园</div>
 
-    <p>General Information</p>
+    <p>基本信息</p>
 
-    <p>Altitude: 385-1100m above sea level</p>
+    <p>海拔: 385-1100 米</p>
 
-    <p>Annual Rainfall: 1400mm - 2800mm</p>
+    <p>全年降雨量: 1400 - 2800 毫米</p>
 
-    <p>Temperature range: 4C in winter to 42C in summer.</p>
+    <p>气温: 冬季 4℃ 到夏季 42℃。</p>
 
-    <p>Open for tourists from 15 November to 15 June.</p>
+    <p>旅游开放时间从11月15日到6月15日。</p>
 
-    <p>Getting there:</p>
+    <p>到达路线:</p>
 
-    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
-    road it is connected to Delhi, Moradabad, Bareilly and
-    Nanital. State transport buses ply from Delhi, Moradabad and
-    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
-    taking a train from New Delhi.</p>
+    <p>科比特老虎保护区总部在 Ramnagar，通过公路连接到 Delhi, Moradabad, Bareilly 和 Nanital。国家运输公共汽车提供从 Delhi, Moradabad 和 Haldwani 到 Ramnagar。通过铁路的游客可以从 New Delhi 乘铁路到达 Ramnagar。</p>
 
     <hr />
 
-    <p>[ <a href="#basic_formatting_of_the_document">Return to
-    beginning of section</a> ]</p>
+    <p>[ <a href="#basic_formatting_of_the_document">返回到开头</a> ]</p>
 
-    <h2 id="inserting_images_and_tables">Inserting Images, and
-    Tables</h2>
+    <h2 id="inserting_images_and_tables">插入图片和表格</h2>
 
-    <p>Images, tables and forms can be inserted/created in your
-    document using the <strong>Composition Toolbar</strong>. Let us
-    insert a table and copy the General Information about Corbett
-    National Park into it. Click on the "<em>Table</em>" button <img src="images/table.png" width="26" height="26" alt="" /> on the
-    composition toolbar. And choose the table dimensions to be 5 rows
-    and 2 columns with your mouse. Clicking on the 5th row in 2nd
-    column will create a default table with those dimensions.</p>
+    <p>图片、表格和表单可以插入/创建到您的文档里，可以使用 <strong>常用工具栏</strong>。
+    让我们插入一个表格，然后复制科比特国家公园基本信息到里面。
+    在常用工具栏上点击“<em>表格</em>”按钮<img alt="" src="images/table.png" />，
+    然后移动鼠标选5行2列。在第五行第二列点击，会创建默认大小的表格。</p>
 
-    <p>To fill the table with our pre-written text, just cut
-    ("<tt>Ctrl+X</tt>") the corresponding text and paste
-    ("<tt>Ctrl+V</tt>") it in corresponding cell of the table. After
-    you are done, the table should look like the one below:</p>
+    <p>要向表格中填充前面输入的文本，只要使用剪切(<tt>Ctrl+X</tt>)和粘贴(<tt>Ctrl+V</tt>)对应的文本即可，操作完成后，表格应该是像下面这样:</p>
 
     <!-- Do not remove inline styles from tutorial text.
 	 This is to override the style sheet rules.-->
@@ -368,83 +230,63 @@ function togglePanel() {
     <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
       <tbody>
 	<tr>
-	  <td style="width: 186px;">Altitude</td>
+	  <td style="width: 186px;">海拔</td>
 
-	  <td style="width: 451px;">85-1100m above sea level</td>
+	  <td style="width: 451px;">385-1100 米</td>
 	</tr>
 	<tr>
-	  <td style="width: 186px;">Annual Rainfall</td>
-	  <td style="width: 451px;">1400mm - 2800mm</td>
+	  <td style="width: 186px;">全年降雨量</td>
+	  <td style="width: 451px;">1400 - 2800 毫米</td>
 	</tr>
 	<tr>
-	  <td style="width: 186px;">Temperature range</td>
-	  <td style="width: 451px;">4C in winter to 42C in summer</td>
+	  <td style="width: 186px;">气温</td>
+	  <td style="width: 451px;">冬季 4℃ 到夏季 42℃</td>
 	</tr>
 	<tr>
-	  <td style="width: 186px;">Open for tourists</td>
-	  <td style="width: 451px;">15 November to 15 June</td>
+	  <td style="width: 186px;">旅游开放时间</td>
+	  <td style="width: 451px;">从11月15日到6月15日15</td>
 	</tr>
 
 	<tr>
-	  <td style="width: 186px;">Getting there</td>
-	  <td style="width: 451px;">The head quarters of Corbett Tiger
-	  Reserver are at Ramnagar. By road it is connected to Delhi,
-	  Moradabad, Bareilly and Nanital. State transport buses ply
-	  from Delhi, Moradabad and Haldwani to Ramnagar. By rail
-	  tourists can reach Ramnagar by taking a train from New
-	  Delhi.</td>
+	  <td style="width: 186px;">到达路线</td>
+	  <td style="width: 451px;">科比特老虎保护区总部在 Ramnagar，通过公路连接到 Delhi, Moradabad, Bareilly 和 Nanital。国家运输公共汽车提供从 Delhi, Moradabad 和 Haldwani 到 Ramnagar。通过铁路的游客可以从 New Delhi 乘铁路到达 Ramnagar。</td>
 	</tr>
       </tbody>
     </table>
 
-    <p>With the basic table constructed, you can change the table
-    properties by activating the table i.e. bring the cursor in the
-    table and then click on the "<strong>Table</strong>" button on the
-    <strong>Composition Toolbar</strong>. In the Table Properties
-    dialog, you can set various properties for the table, cell, row or
-    a column, e.g. background colour for table or cell, table caption,
-    table alignment, table or column width, etc.</p>
+    <p>对于表格的基本结构，您可以通过选定表格然后更改表格属性，例如，把光标放到
+    表格里，然后点 <strong>常用工具栏</strong> 上的 “<strong>表格</strong>”按钮。
+    在表格属性对话框里，您可以为表格、单元格、行或列设置属性，例如，设置表格或单元格背景色，
+    表格的标题，表格对齐方式，表格或列宽，等等。</p>
 
-    <p>For a detailed treatment of various properties of table, the
-    reader is referred to section <a
-    href="composer_help.xhtml#formatting_your_web_pages">Adding Tables
-    to your Web Pages</a> in the &brandShortName; Help
-    documentation.</p>
+    <p>详细的表格属性设置，请访问 KompoZer 帮助文档的 <a href="composer_help.xhtml#formatting_your_web_pages">添加表格到网页</a> 章节。</p>
 
     <p>[ <a href="#inserting_images_and_tables">Return to beginning of
     section</a> ]</p>
 
-    <h2 id="advanced_styles">Advanced Styles</h2>
+    <h2 id="advanced_styles">高级样式</h2>
 
-    <p>Nvu allows the users to create or edit cascading style sheets
-    with the help of its inbuilt style sheet editor named
-    "CaScadeS". CaScadeS has the ability of using either internal or
-    external style sheets for documents being edited. Details on how
-    to use CaScadeS are out of scope of this tutorial. However, the
-    user is directed to <a
-    href="composer_help.xhtml#using_style_sheets_for_your_web_pages">using
-    style sheets</a> in the main Help section.</p>
+    <p>KompoZer 允许用户通过一个叫“CaScadeS”的内置样式表编辑器，来创建和编辑样式表
+  CaScadeS 既可以使用内部样式表也可以使用外部样式表，关于 CaScadeS 如何使用的详细
+    介绍已经超出了本教程的范围，当然，用户可以在主帮助文档的 <a href="composer_help.xhtml#using_style_sheets_for_your_web_pages">使用样式表</a> 章节获得指导。</p>
 
-    <p>[ <a href="#advanced_styles">Return to beginning of section</a>
+    <p>[ <a href="#advanced_styles">返回到开头</a>
     ]</p>
 
-    <h2 id="publishing_your_documents_basics">Publishing Your
-    Document(s)-Basics</h2>
+    <h2 id="publishing_your_documents_basics">发布您的文档 - 基本操作</h2>
 
-    <p>You can publish your documents using Nvu's built-in the Site
-    Manager. The visibility of the site manager can be toggled by
-    clicking the F9 button.</p>
+    <p>您可以通过 KompoZer 内置的站点管理器来发布您的文档，通过按 F9 键显示站点管理器。</p>
 
-    <p>Site manager is being rewritten and hence this part of the
-    tutorial has been postponed till the new version is released.</p>
+    <p>站点管理器组件被重新编写，因此这部分教程暂未书写，需要等到新版本的发布。</p>
 
-    <p>[ <a href="#publishing_your_documents_basics">Return to
-    beginning of section</a> ]</p>
+    <p>[ <a href="#publishing_your_documents_basics">返回到开头</a> ]</p>
 
-    <div class="copyrightBox"><em>19 November 2004</em></div>
 
-    <p>Copyright &copy; 2003-2004 Contributors to the Nvu
-    Help Documentation Project.</p>
+    <p>[<a href="welcome.xhtml">上一页</a>] [<a href="composer_help.xhtml">下一页</a>]</p>
+
+    <div class="copyrightBox"><em>TeliuTe, 2009年6月20日</em></div>
+
+    <p>&copy; 2003-2009 Nvu, KompoZer 帮助文档项目贡献者，版权所有。</p>
 
   </body>
 </html>

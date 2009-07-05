@@ -10,7 +10,7 @@ Contributor(s):
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>&brandShortName; Preferences</title>
+<title>&brandShortName; 首选项</title>
 <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
@@ -30,452 +30,303 @@ function togglePanel() {
 
 <table width="100%" id="navTable">
 <tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="80"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">显示/隐藏</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">帮助中心</span></td>
 </tr>
 </table>
 
   <div id="contentsBox">
 
-    <a href="#preferences_general_settings">General Settings</a>
+    <a href="#preferences_general_settings">常规设置</a>
 
-    <a href="#preferences_fonts">Fonts</a>
+    <a href="#preferences_fonts">字体</a>
 
-    <a href="#preferences_new_page_settings">New Page Settings</a>
+    <a href="#preferences_new_page_settings">新页设置</a>
 
-    <a href="#preferences_advanced_settings">Advanced Settings</a>
+    <a href="#preferences_advanced_settings">高级设置</a>
 
   </div>
 
-  <h1 id="preferences">&brandShortName; Preferences</h1>
+  <h1 id="preferences">&brandShortName; 首选项</h1>
 
-  <p>&brandShortName; has several important settings in the
-  Preferences panel. Users can set the preferences depending on their
-  requirements and &brandShortName; will respect the setting everytime
-  the user starts and uses it.</p>
+  <p>&brandShortName; 的首选项面板中有几个重要的设置项，用户可以根据需要设置，
+&brandShortName; 每次启动时会检查并使用这些设置。</p>
 
-  <p>This section describes the settings in the &brandShortName;
-  preferences panel. If you are not currently viewing the panel,
-  follow these steps:</p>
+  <p>这一章讲述了 &brandShortName; 的设置面板，如果您当前还没看到它，请按如下操作:</p>
 
   <ol>
 
-    <li>Click on <span class="menuPath">Tools > Preferences</span>
-    file menu (Mozilla menu on Mac OS X) items to open
-    Preferences(Options) panel.</li>
+    <li>点菜单 <span class="menuPath">工具 > 首选项</span>(Mac OS X 是 Mozilla 菜单)，打开首选项(选项)面板。</li>
 
-    <li>Click the &brandShortName; category to view the corresponding
-    settings available for customization.</li>
+    <li>点击各个 &brandShortName; 类别项，显示对应的设置项目。</li>
   </ol>
 
-  <p>For information on &brandShortName;'s publishing settings, see <a
-  href="publishing_help.xhtml#publishing_settings">Publishing
-  Settings</a> section.</p>
+  <p>更多 &brandShortName; 的发布设置，请参阅: <a
+  href="publishing_help.xhtml#publishing_settings">发布设置</a> 一章。</p>
 
-  <h2 id="preferences_general_settings">General Settings</h2>
+  <h2 id="preferences_general_settings">常规设置</h2>
 
-  <p>General preferences allow you to specify settings for saving
-  files and for table editing. These settings apply to every document
-  you create.</p>
+  <p>在常规设置里，您可以指定文件保存和表格编辑选项，这些设置将应用到您创建的所有文档。</p>
 
-  <p>If you are not already viewing the &brandShortName; general
-  preferences, follow these steps:</p>
+  <p>如果您还没有看到 &brandShortName; 常规首选项，请按如下步骤操作:</p>
 
   <ol>
-    <li>Open the Edit menu (Mozilla menu on Mac OS X) and choose
-    Preferences.</li>
+    <li>打开工具菜单(Mac OS X 是 Mozilla 菜单) ，然后选择 首选项。</li>
 
-    <li>Click the General category on the category sidebar.</li>
+    <li>在侧栏中点击常规项。</li>
   </ol>
 
-  <h3 id="preferences_general_settings_recent">Recent Pages Menu</h3>
+  <h3 id="preferences_general_settings_recent">最近打开页面</h3>
 
-  <p><strong>Maximum number of pages listed:</strong> Specify the
-  maximum number of pages that are listed under Recent Pages in the
-  File menu.</p>
+  <p><strong>列表显示页面的最大数:</strong> 指定文件菜单中最近访问页面的显示数量。</p>
 
-  <h3 id="preferences_general_settings_saving_publishing">When Saving
-  or Publishing Pages</h3>
+  <h3 id="preferences_general_settings_saving_publishing">保存或发布页面时</h3>
 
   <ul>
 
-    <li><strong>Retain original source formatting</strong>: This
-    option preserves line breaks and the page's original formatting
-    for the HTML source code. Select this if you want to preserve
-    white space (extra lines, tabs, etc.) that makes the HTML source
-    code more readable. This preference does not affect how your pages
-    appear in a browser window.</li>
+    <li><strong>保留原来的代码格式</strong>: 这个选项保留 HTML 源代码里换行和页面原始的格式，
+选中此项保留空格(额外的行、Tab 等等)，使 HTML 源代码更具有可读性。这个选项不影响页面在浏览器中的显示效果。</li>
 
-    <li><strong>Reformat HTML source</strong>: This option reformats
-    the HTML source code to make it more readable, by inserting line
-    breaks and indentation. This preference does not affect how your
-    pages appear in a browser window.</li>
+    <li><strong>重排 HTML 代码格式</strong>: 这个选项将重排 HTML 源代码格式，通过插入空行和
+缩进，使代码更具有可读性。这个选项不影响页面在浏览器中的显示效果。</li>
 
-    <li><strong>Save images and other associated files when saving
-    pages</strong>: If checked, all images, JavaScript (JS), Cascading
-    Style Sheet (CSS), and other associated files are saved in the
-    same location as the document when the document is saved for the
-    first time or when the document is saved to a new location. If
-    unchecked, only the HTML file is saved.</li>
+    <li><strong>当保存页面时也保存图片和其他相关的文件</strong>: 选中此项，所有图片、 JavaScript (JS)、 
+层叠样式表(CSS)，以及其他相关的文件都随同页面一起保存到相同的位置，如果不选此项，只是保存 HTML 文件。</li>
 
     <li style="list-style-type: none; list-style-position: outside;
-    list-style-image: none;"> <p>For example, when editing a remote
-    page, this setting ensures that all related files associated with
-    the remote page will be saved locally when you save the page to
-    your hard disk.</p> </li>
+    list-style-image: none;"> <p>例如，当编辑一个远程页面，这项设置确保您保存远程页面到本地时，
+所有相关联的文件也一同保存下来。</p> </li>
 
-    <li><strong>Always show Publish dialog when publishing
-    pages</strong>: If checked, &brandShortName; always displays the
-    Publish Page dialog box when you click the Publish button or
-    choose Publish from the File menu.  If not checked,
-    &brandShortName; only displays the Publish Page dialog box if it
-    needs more information in order to publish the page.</li>
+    <li><strong>发布时，总是显示发布对话框</strong>: 选中此项，当您点击发布按钮或者从文件菜单选择发布命令时，&brandShortName; 总是显示发布页面对话框。如果没有选中，&brandShortName; 只是在需要更多发布信息时，才显示此对话框。</li>
 
   </ul>
 
-  [<a href="#preferences_general_settings">Return to beginning of
-  section</a>]
+  [<a href="#preferences_general_settings">返回到开头</a>]
 
-  <h3 id="preferences_general_settings_table_editing">Table
-  Editing</h3>
+  <h3 id="preferences_general_settings_table_editing">表格编辑</h3>
 
-  <p><strong>Maintain table layout when inserting or deleting
-  cells</strong>: Select this if you want &brandShortName; to always
-  preserve the table's layout (that is, keep it in a rectangular
-  shape) by adding cells where needed. If you deselect this option,
-  when you delete one or more cells, &brandShortName; removes the cell
-  border as well, which can result in a table with empty spaces, or an
-  outline that appears irregular due to an uneven number of cells.</p>
+  <p><strong>插入或删除单元格时，保持表格布局</strong>: 选中此项，&brandShortName; 总是根据需要添加单元格，以便保持表格布局(也就是保持表格的矩形)。如果未选中此项，当您删除单元格时，
+&brandShortName; 也删除边框，这将导致表格出现空白，或者边框线出现错误，产生突出的单元格。</p>
 
-  [<a href="#preferences_general_settings">Return to beginning of
-  section</a>]
+  [<a href="#preferences_general_settings">返回到开头</a>]
 
   <h3
-  id="preferences_general_settings_cascading_style_sheets_editing">Cascading
-  Style Sheets(CSS) Editing</h3>
+  id="preferences_general_settings_cascading_style_sheets_editing">层叠样式表(CSS)编辑</h3>
 
-  <p><strong>Use CSS styles instead of HTML elements and
-  attributes</strong>: Enables the use of Cascading Style Sheet (CSS)
-  formatting in your &brandShortName; documents. With this preference
-  enabled, &brandShortName; generates HTML 4.01 formatting with CSS
-  inline styles for elements.</p>
+  <p><strong>使用 CSS 样式替代 HTML 元素和属性</strong>: 在 &brandShortName;  文档中，使用层叠样式表 (CSS)格式。启用此项，&brandShortName; 用 CSS 内联样式生成 HTML 4.01 格式元素。</p>
 
-  <p>If this preference is not enabled, &brandShortName; generates
-  HTML 4.01 formatting, but does not use CSS styles.</p>
+  <p>如果不选中此项，&brandShortName; 生成不带有 CSS 的 HTML 4.01 格式元素。</p>
 
-  <p>Compared to HTML, HTML with CSS formatting is more portable, more
-  maintainable, and more compatible when viewed with different
-  browsers. If you enable this preference and then edit a document
-  created without CSS, &brandShortName; replaces the edited elements
-  with CSS styles.</p>
+  <p>相比单纯 HTML 格式、CSS HTML 格式更加简洁、更便于维护、具有更好的浏览器兼容性。
+如果您启用此项，在编辑一个没有使用 CSS 的文档时，&brandShortName; 会用 CSS 替代那些 HTML 元素。</p>
 
-  <p>If you enable CSS styles, you can choose a text highlight color
-  for selected text using the text highlight color button on the
-  Format toolbar. You can also choose a color background for any
-  element on the page. (These features are not available if this
-  preference is not enabled.)</p>
+  <p>如果您启用 CSS 样式，您可以使用工具栏上的文本高亮按钮突出显示选中的文本。
+您也可以为页面的各个元素选择不同的背景色(这些特性只有启用此选项才能使用)。</p>
 
-  [<a href="#preferences_general_settings">Return to beginning of
-  section</a>]
+  [<a href="#preferences_general_settings">返回到开头</a>]
 
-  <h3 id="preferences_general_settings_site_manager">Site Manager</h3>
+  <h3 id="preferences_general_settings_site_manager">站点管理器</h3>
 
-  <p><strong>Always open a document in a new tab</strong>: Select this
-  if you want to open documents in new tabs when using the Site
-  Manager. If unchecked, double clicking on filenames in the Site
-  Manager will open the files in new windows.</p>
 
-  <p class="returnToSection">[ <a href="#preferences">Return to
-  beginning of section</a> ]</p>
+  <p><strong>总是在新标签打开文档</strong>: 选中此项，在站点管理器中打开一个文档时，会在一个新标签中打开这个文档。如果未选中，将会在新窗口打开这个文档。</p>
 
-  <h2 id="preferences_fonts">Fonts</h2>
+  <p class="returnToSection">[ <a href="#preferences">返回到开头</a> ]</p>
+
+  <h2 id="preferences_fonts">字体</h2>
 
   <!-- The documentation for the Fonts section has been blatantly
        copied from Firefox Help and then an attempt was made to
        conform it to Nvu realm. -->
 
-  <p>Fonts displayed in &brandShortName; are either the program
-  defaults or the user can define their own.</p>
+  <p>&brandShortName;  中的字体显示，既可以由程序默认，也可以由用户自定义。</p>
 
-  <h3 id="preferences_fonts_fonts_for">Fonts for</h3>
+  <h3 id="preferences_fonts_fonts_for">字体用于</h3>
 
-  <p>Font family can be defined in the <em>Fonts for:</em> section of
-  &brandShortName; Preferences. To change the default typeface:</p>
+  <p>字体可以在 <em>字体用于:</em> 里定义。要更改默认的字体显示:</p>
 
   <ol>
 
-    <li>From the <em>Fonts for</em> drop-down list, choose a character
-    set. For instance, to set default fonts for the Western (Roman)
-    character set, choose <em>Western</em>.</li>
+    <li>点击 <em>字体用于</em> 下拉列表，选择一个字符设置，例如，要设置默认的西方 (罗马)字符，
+选择 <em>西方</em>。</li>
 
-    <li>Select whether proportional text should be serif (like "Times
-    New Roman") or sans-serif (like "Arial"). Then specify the font
-    size you want for proportional text.</li>
+    <li>选择比例文本为衬线字体(serif，类似“Times New Roman”)或无衬线字体(sans-serif 类似“Arial”)，然后指定您需要的比例文本的字体大小。</li>
 
-    <li>Specify the font to use for Serif, Sans-serif, Cursive Fantasy
-    and Monospace font families. You can also change the size for
-    <tt>Monospace</tt> fonts.</li>
+    <li>指定衬线字体(Serif)、无衬线字体(Sans-serif)、梦幻字体(Cursive Fantasy)和等宽字体(Monospace)使用的字体。同时您可以更改等宽字体的字体大小。您还可以更改 <tt>等宽字体(Monospace)</tt> 字体的大小。</li>
 
   </ol>
 
-  <p>You can also choose the <em>Minimum font size</em> you want to
-  display. Setting a minimum font size can be helpful when editing
-  pages with very small fonts which would be hard to read if this
-  option is not set.</p>
+  <p>您还可以设置字体显示的 <em>最小字体e</em>，设置最小值，可以帮助查看编辑页面是非常小的字体，阅读比较困难的时候。</p>
 
-  <p>You can also specify the display resolution, which is normally 96
-  dpi. You can set it to one of the predefined options e.g. 72dpi, or
-  96dpi or you can either set it to <em>System Setting</em> or set it
-  manually using the <em>Other…</em> option.</p>
+  <p>您还可以指定显示分辨率，通常是 96dpi，您可以选择一个预设值，例如  72dpi，或者 96dpi，或者您也可以选择 <em>系统设置</em>，或者是点 <em>其他...</em> 手动设置。</p>
 
-  <p class="returnToSection">[ <a href="#preferences">Return to
-  beginning of section</a> ]</p>
+  <p class="returnToSection">[ <a href="#preferences">返回到开头</a> ]</p>
 
-  <h2 id="preferences_new_page_settings">New Page Settings</h2>
+  <h2 id="preferences_new_page_settings">新页面设置</h2>
 
-  <p>New page settings allow you to specify settings for colors and
-  background images that apply to every document you create.</p>
+  <p>新页面设置允许您指定新建页面的背景色、背景图。</p>
 
-  <p>If you are not already viewing the New Page Settings, follow
-  these steps:</p>
+  <p>如果您还没有看到新页面设置，请按如下步骤操作:</p>
 
-  <ol> <li>Open the Tools menu (Mozilla menu on Mac OS X) and choose
-  Preferences.</li>
+  <ol> <li>点工具菜单(Mac OS X 是 Mozilla 菜单)，然后选择首选项。</li>
 
-  <li>Click on the New Page Settings icon on the category sidebar</li>
+  <li>点击侧栏的新页面选项图标</li>
   </ol>
 
-  <h3 id="preferences_new_page_settings_author">Author</h3>
+  <h3 id="preferences_new_page_settings_author">作者</h3>
 
-  <p>Enter your name. This will add your name to the HTML source code
-  for each new page you create. Your name will be added in the
-  &lt;head&gt; section of the web page and will not be visible on the
-  web page.</p>
+  <p>输入您的姓名，这将添加您的姓名到每个新建页面的 HTML 源代码中，姓名会添加到
+ &lt;head&gt;  区域中，在页面中是不可见的。</p>
 
-  [<a href="#preferences_new_page_settings">Return to the beginning of
-  section</a>]
+  [<a href="#preferences_new_page_settings">返回到开头</a>]
 
-  <h3 id="preferences_new_page_settings_markup">Markup</h3>
+  <h3 id="preferences_new_page_settings_markup">标记</h3>
 
   <ul>
 
-    <li><strong>Language</strong>: Users can select which language to
-    use as default when creating new web documents. Choose from either
-    <acronym title="Hyper Text Document Language">HTML</acronym>4.0 or
+    <li><strong>语言</strong>: 选择创建新页时，哪一种语言作为默认语言，可以选择
+    <acronym title="Hyper Text Document Language">HTML</acronym>4.0 或
     <acronym title="Xtensible Hyper Text
     Language">XHTML</acronym>1.0.</li>
 
-    <li><strong>DTD</strong>: Select the <acronym title="Document Type
-    Definition">DTD</acronym> to be used as default when creating new
-    web documents. Options of defining the document as
-    <em>Transitional</em> or <em>Strict</em> are available.</li>
+    <li><strong>DTD</strong>: 选择用于新建页面的 <acronym title="Document Type
+    Definition">DTD</acronym>，定义页面是 <em>Transitional</em> 或者 <em>Strict</em>。</li>
 
   </ul>
 
-  [<a href="#preferences_new_page_settings">Return to the beginning of
-  section</a>]
+  [<a href="#preferences_new_page_settings">返回到开头</a>]
 
   <h3
-  id="preferences_new_page_settings_default_page_appearance">Default
-  Page Appearance</h3>
+  id="preferences_new_page_settings_default_page_appearance">默认页面外观</h3>
 
   <ul>
 
-    <li><strong>Reader's default colors</strong>: Select this if you
-    always want your pages to use the color settings from the viewer's
-    browser for text and link elements.</li>
+    <li><strong>访问者默认颜色</strong>: 选中此项，总是使用访问者的浏览器设置。</li>
 
-    <li><strong>Use custom colors</strong>: Select this if you always
-    want to specify the colors that are applied to text and link
-    elements. Then for each element, select a color by clicking the
-    color button next to each element which will open the color-picker
-    to select the color easily.</li>
+    <li><strong>使用自定义颜色</strong>: 选中此项，您可以指定应用于文本和链接元素的颜色。
+对于每一个元素，可以通过点击旁边的颜色按钮进行设置。</li>
 
-    <li><strong>Background image</strong>: Type the location and name
-    of an image file, or click Choose File to locate the image file on
-    your hard disk or network.
+    <li><strong>背景图片</strong>: 输入图片的位置和文件名，也可以点击浏览选择本地或网络上的图片。
 
-    <p><strong>Note</strong>: Background images are tiled and override
-    background color.</p> </li>
+    <p><strong>注意</strong>: 背景图片会平铺并覆盖背景色设置。</p> </li>
 
     <li style="list-style-type: none; list-style-position: outside;
 	       list-style-image: none;">
 
-      <p>To change the author name for an individual page: Open the
-      Format menu and choose Page Title and Properties.</p>
+      <p>要更改某一页的作者: 打开格式菜单，选择页面标题和属性。</p>
 
-      <p>To change the page colors and background image for an
-      individual page: Open the Format menu and choose Page Colors and
-      Background.</p></li>
+      <p>要更改某一页的背景色和背景图片: 打开格式菜单，然后选择背景和颜色。</p></li>
 
   </ul>
 
-  [<a href="#preferences_new_page_settings">Return to the beginning of
-  section</a>]
+  [<a href="#preferences_new_page_settings">返回到开头</a>]
 
   <h3
-  id="preferences_new_page_settings_internationalization">Internationalization</h3>
+  id="preferences_new_page_settings_internationalization">本地化</h3>
 
   <ul>
 
-    <li><strong>Language</strong>: Choose the language in which the
-    html documentsupposed to be written in.</li>
+    <li><strong>语言</strong>: 选择您的 html 文档编写的语言。</li>
 
     <li style="list-style-type: none; list-style-position: outside;
-    list-style-image: none;"> <p>For example if the document is
-    written in Canadian French, selecting "French/Canada[fr-ca]" will
-    indicate the browser that the document is written in Canadian
-    French. And the html source will contain <tt>&lt;html
-    lang="fr-ca"&gt;</tt> as an indicator of document
-    language.</p></li>
+    list-style-image: none;"> <p>例如，如果文档是用加拿大法语书写，选择“French/Canada[fr-ca]”将指示浏览器，这个文档是用加拿大法语书写的，在 html 源代码中将包含 <tt>&lt;html
+    lang="fr-ca"&gt;</tt> 作为文档语言标记。</p></li>
 
-    <li><strong>Writing Direction</strong>: Choose the direction of
-    writing text depending on the language you are using in your
-    document. This solves the problems of users creating html pages in
-    languages with right-to-left direction, for example, Arabic, Urdu,
-    etc.</li>
+    <li><strong>书写方向</strong>: 根据您使用的语言，选择书写方向。这可以解决使用从右往左书写的语言创建的页面显示问题。例如，阿拉伯语，乌尔都语等。</li>
 
     <li style="list-style-type: none; list-style-position: outside;
 	       list-style-image: none;">
 
-      <p>To change the Language specification for an individual page:
-      Open the Format menu and choose Page Title and Properties, and
-      change language in the Internationalization section.</p>
+      <p>要更改某一页的语言:打开格式菜单，选择页面标题和属性，然后在本地化中更改语言选项。</p>
 
-      <p>To change the Writing Direction of an individual page: Open the
-      Format menu and choose Page Title and Properties, and change
-    language in the Internationalization section.</p></li>
+      <p>要更改某一页的书写方向: 打开格式菜单，选择页面标题和属性，然后在本地化中更改书写方向。</p></li>
 
-    <li><strong>Character Set</strong>: Character sets determine how
-    the bytes that represent the text of your <acronym title="Hyper
-    Text Markup Language">HTML</acronym> document are translated to
-    readable characters. With this option you can choose the character
-    set you want to use for your web page. By default, the
-    <em>ISO-8859-1</em> character set is used, but you can use other
-    options like <em>UTF-8</em>, <em>ISO-8859-15</em>, etc or a user
-    defined character set.</li>
+    <li><strong>字符编码</strong>: 字符编码设置，决定了您的 <acronym title="Hyper
+    Text Markup Language">HTML</acronym> 文档的内容是如何存储和重现的，通过这个选项，您可以设置使用哪一种字符编码，默认是 <em>ISO-8859-1</em> 字符编码，您也可以使用 <em>UTF-8</em>、<em>ISO-8859-15</em> 等，或者用户自定义一个字符编码。</li>
 
   </ul>
 
-  <p class="returnToSection">[ <a href="#preferences_settings">Return
-  to beginning of section</a> ]</p>
+  <p class="returnToSection">[ <a href="#preferences_settings">返回到开头</a> ]</p>
 
-  <h2 id="preferences_advanced_settings">Advanced Settings</h2>
+  <h2 id="preferences_advanced_settings">高级设置</h2>
 
   <h3
-      id="preferences_advanced_settings_connection">Connection</h3>
+      id="preferences_advanced_settings_connection">连接</h3>
 
-  <p>This section describes how to use the Proxies preferences
-  panel. If you&apos;re not already viewing it, follow these
-  steps:</p>
+  <p>这一段讲述如何使用代理选项，如果您还没有看到它，请按如下操作:</p>
 
   <ol>
-    <li>Open the Edit menu (&brandShortName; menu on Mac OS X) and
-    choose Preferences.</li>
+    <li>>点工具菜单(Mac OS X 是 Mozilla 菜单)，然后选择首选项。</li>
 
-    <li>Under the Advanced category, click Proxies. (If no
-    subcategories are visible, double-click Advanced to expand the
-    list.)</li>
+    <li>在高级面板项，点连接设置。</li>
   </ol>
 
-  <p>The Proxies preferences panel allows you to set up
-  &brandShortName; to use a proxy:</p>
+  <p>代理选项面板允许您设置 &brandShortName; 使用代理:</p>
 
-  <p><strong>Before you start:</strong> Ask your network administrator
-  if you have a proxy configuration file or for the names and port
-  numbers of the proxy.</p>
+  <p><strong>在操作前:</strong> 询问您的网络管理员，是否有一个代理配置文件或代理服务器的名称和端口号。</p>
 
   <ul>
 
-    <li><strong>Direct connection to the Internet</strong>: Choose
-    this if you don&apos;t want to use a proxy.</li>
+    <li><strong>直接连接到互联网</strong>: 选择此项，表示不使用代理。</li>
 
-    <li><strong>Manual proxy configuration</strong>: Choose this if
-    you don&apos;t have a proxy location (URL).
+    <li><strong>手动配置代理</strong>: 选择此项，表示没有自动代理地址(URL)。
     <ul>
 
-      <li><strong>HTTP Proxy</strong>, <strong>SSL Proxy</strong>,
-      <strong>FTP Proxy, Gopher Proxy</strong>: Type the name or
-      numeric IP address of the proxy server. Type the port in the
-      Ports field.</li>
+      <li><strong>HTTP 代理</strong>、<strong>SSL 代理</strong>、<strong>FTP 代理、Gopher 代理</strong>: 输入代理服务器的名称或 IP 地址，在端口中输入端口号。</li>
 
-      <li><strong>SOCKS Host</strong>: Type the name or numeric IP
-      address of the proxy server. Type the port in the Ports field.
+      <li><strong>SOCKS 主机</strong>: 输入代理服务器的名称或 IP 地址，在端口中输入端口号。</li>
       <ul>
 
-	<li><strong>SOCKS v4, SOCKS v5</strong>: When entering a SOCK
-	Host, select &quot;SOCKS v4&quot; or &quot;SOCKS v5,&quot;
-	depending on what version of SOCKS is used for the proxy.</li>
+	<li><strong>SOCKS4, SOCKS5</strong>: 输入 SOCK 主机后，选择 &quot;SOCKS v4&quot; 或 &quot;SOCKS v5,&quot;，这取决于代理服务器使用的 SOCKS 版本。</li>
       </ul>
-      </li>
 
-      <li><strong>No Proxy for</strong>: Type the domains and/or IP
-      address that you do not want to use a proxy for. Separate each
-      entry with a comma. (Example: .yourcompany.com,
+      <li><strong>不代理</strong>: 输入您不想使用代理的域名和/IP 地址，用英文逗号分割(例如: .yourcompany.com,
       .yourcompany.co.nz, 192.168.1.0/24)</li>
     </ul>
     </li>
 
-    <li><strong>Automatic proxy configuration URL</strong>: Choose
-    this if you have a proxy configuration file or URL, then type the
-    configuration URL.</li>
+    <li><strong>自动代理配置地址(URL)</strong>: 如果您有一个代理配置文件或 URL，那么在此输入配置文件地址(URL)。</li>
 
   </ul>
 
   <p class="returnToSection">[ <a
-  href="#preferences_advanced_settings">Return to beginning of
-  section</a> ]</p>
+  href="#preferences_advanced_settings">返回到开头</a> ]</p>
 
-  <h3 id="preferences_advanced_settings_return_key_behaviour">Return
-  Key Behaviour</h3>
+  <h3 id="preferences_advanced_settings_return_key_behaviour">回车键的行为</h3>
 
-  <p>The option "Return in a paragraph always creates new paragraph"
-  defines the behaviour of the return key. Choosing it creates a new
-  paragraph if you hit the "Return" key while typing in a
-  paragraph. Without this option &lt;br&gt; tags are added for
-  carriage returns.</p>
+  <p>“在段落中按回车键，总是创建一个新段落”选项，
+定义了回车键的行为。选中此项，如果您在一个段落中按回车键，会创建一个新段落。
+不选中此项，按回车键产生一个 &lt;br&gt; 标记。</p>
 
   <p class="returnToSection">[ <a
-  href="#preferences_advanced_settings">Return to beginning of
-  section</a> ]</p>
+  href="#preferences_advanced_settings">返回到开头</a> ]</p>
 
-  <h3 id="preferences_advanced_settings_spellcheck">Real-time
-  Spellcheck</h3>
+  <h3 id="preferences_advanced_settings_spellcheck">实时拼写检查</h3>
 
-  <p>Checking the option "Underline misspelled words" will enable the
-  <strong>real-time</strong> spell checker built into &brandShortName;
-  to underline misspelled words, thus giving the user a visual clue to
-  recheck the spellings.</p>
+  <p>勾选“用下划线标记拼写错误的词”选项，启用
+  <strong>实时</strong> 拼写检查，&brandShortName; 用下划线标记拼写错误的词。
+  这会给用户一个视觉提示，重现检查拼写。</p>
 
   <p class="returnToSection">[ <a
-  href="#preferences_advanced_settings">Return to beginning of
-  section</a> ]</p>
+  href="#preferences_advanced_settings">返回到开头</a> ]</p>
 
-  <h3 id="preferences_advanced_settings_special_characters">Special
-  Characters</h3>
+  <h3 id="preferences_advanced_settings_special_characters">特殊字符</h3>
 
-  <p>This options allow the user to choose which special characters
-  are coded as entities by &brandShortName;. Choose one of the
-  option:</p>
+  <p>这个选项允许用户选中哪些特殊字符是作为代码项，选择一个选项:</p>
 
-  <ul><li>Only &amp; &lt; &gt; &apos; and non-breakable
-  whitespace</li>
+  <ul><li>只有 &amp; &lt; &gt; &apos; 和不断行的空格</li>
 
-  <li>The above and Latin-1 letters</li>
+  <li>上面的和 Latin-1 字符</li>
 
-  <li>All characters having an entity equivalence in the HTML 4.0
-  specification</li>
+  <li>HTML 4.0 规范的所有特殊字符</li>
 
-  <li>Use &amp;#..; notation for all non-ASCII characters</li>
+  <li>使用 &amp;#..; 标记的所有非 ASCII 字符</li>
   </ul>
 
-  <p class="returnToSection">[ <a href="#preferences">Return to
-  beginning of section</a> ]</p>
+  <p class="returnToSection">[ <a href="#preferences">返回到开头</a> ]</p>
 
-  <div class="copyrightBox"><em>29 March 2005</em></div>
+  <div class="copyrightBox"><em>TeliuTe, 2009年6月29日</em></div>
 
-  <p>Copyright &copy; 2004-2005 Contributors to the Nvu
-  Help Documentation Project.</p>
+  <p>&copy; 2004-2009 Nvu, KompoZer 帮助文档项目贡献者，版权所有。</p>
 
 </body>
 </html>

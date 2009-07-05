@@ -5,7 +5,7 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Creating Web Pages with &brandShortName;</title>
+<title>用 &brandShortName; 创建网页</title>
 <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
@@ -25,248 +25,149 @@ function togglePanel() {
 
 <table width="100%" id="navTable">
 <tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="80"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">显示/隐藏</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">帮助中心</span></td>
 </tr>
 </table>
 
-<div id="contentsBox">In this section:
-  <a href="composer_help.xhtml#starting_a_new_page">Starting a New
-  Page</a>
+<div id="contentsBox">在这一章里:
+  <a href="composer_help.xhtml#starting_a_new_page">开始一个新页面</a>
 
-  <a href="formatting_webpages.xhtml">Formatting Your Web Pages</a>
+  <a href="formatting_webpages.xhtml">设置网页格式</a>
 
-  <a href="css.xhtml">Using Style Sheets to Style Your Web Pages</a>
+  <a href="css.xhtml">使用样式表为网页增加样式</a>
 
-  <a href="tables.xhtml">Adding Tables to Your Web Page</a>
+  <a href="tables.xhtml">为网页添加表格</a>
 
-  <a href="images.xhtml">Adding Pictures (Images) to Your Web Page</a>
+  <a href="images.xhtml">为网页添加图片</a>
 
-  <a href="toc.xhtml">Working with Table of Contents on Your Web
-  Page</a>
+  <a href="toc.xhtml">用目录表格设计您的网页</a>
 
-  <a href="templates.xhtml">Working With Templates </a>
+  <a href="templates.xhtml">使用模板</a>
 
-  <a href="page_properties.xhtml">Setting Page Properties</a>
+  <a href="page_properties.xhtml">设置页面属性</a>
 
-  <a href="links.xhtml">Creating Links in &brandShortName;</a>
+  <a href="links.xhtml">在 &brandShortName; 里创建超链接</a>
 
-  <a href="customize.xhtml">Customizing &brandShortName;</a>
+  <a href="customize.xhtml">定制 &brandShortName;</a>
 
 </div>
 
-<h2 id="adding_pictures_to_your_web_page">Adding Pictures (Images) to
-Your Web Page</h2>
+<h2 id="adding_pictures_to_your_web_page">为网页添加图片</h2>
 
-<h3 id="inserting_an_image_into_your_page">Inserting an Image into
-Your Page</h3>
+<h3 id="inserting_an_image_into_your_page">在网页中插入一幅图片</h3>
 
-<p>You can insert GIF, JPEG, BMP, and PNG (Portable Network Graphics)
-images into your web page. You can also use them to <a
-href="#using_images_as_links">create links</a>. When you insert an
-image, &brandShortName; saves a reference to the image in your
-page.</p>
+<p>您可以在网页中插入 GIF, JPEG, BMP 和 PNG (便携网络图片)格式图片，
+您还可以使用它们作为 <a href="#using_images_as_links">图片链接</a>。当您插入一幅图片，
+&brandShortName; 将在页面中保存一个图片的位置。</p>
 
-<p><strong>Note</strong>: If you plan to publish your pages to the
-web, it's best not to use BMP images in your pages.</p>
+<p><strong>注意</strong>: 如果您想把页面发布到网上，最好不要用 BMP 格式图片。</p>
 
-<p><strong>Tip</strong>: It's best to first save or publish your page
-before you insert images into it. This allows &brandShortName; to
-automatically use relative references to images once you insert
-them.</p>
+<p><strong>小提示</strong>: 在插入图片前，最好先保存或发布一下网页，这将允许 &brandShortName; 自动使用图片的相对地址。</p>
 
-<p>To insert an image:</p>
+<p>插入图片:</p>
 
 <ol>
-  <li>Click to place the insertion point where you want the image
-  to appear.</li>
+  <li>点击您想插入图片的位置。</li>
 
-  <li>Click the Image button <img src="images/image.png" width="26"
-  height="26" alt="" /> on the toolbar, or open the Insert menu and
-  choose Image. You see the Image Properties dialog box.</li>
+  <li>点击工具栏上的图片按钮 <img src="images/image.png" />，或者点插入菜单选择图片，出来插入图片属性对话框。</li>
 
-  <li>Type the location and filename of the image file, or click Choose
-  File to search for an image file on your hard drive or network.</li>
+  <li>输入图片的位置和文件名，或者点浏览按钮选择一幅本机或网络上的图片。</li>
 
-  <li>Type a simple description of your image as the alternate text that
-  will appear in text-only browsers (as well as other browsers)
-  when an image is loading or when image loading is disabled.
-
-  <p>Alternatively, you can choose not to include alternate text.</p>
+  <li>输入简短的描述作为图片的替代文本，这会出现在纯文本浏览器中(和其他浏览器一样)，
+  在图片正在加载或禁用图片时，会显示这个文本。
+  <p>另外，您也可以选择不包括替代文本。</p>
   </li>
 
-  <li>If needed, click other tabs so you can adjust the settings (for
-  example, alignment) in the <a href="#editing_image_properties">Image
-Properties</a> dialog box.</li> </ol>
+  <li>如果需要， 在 <a href="#editing_image_properties">图片属性</a> 对话框里， 点击其他标签，进行相应设置(例如对齐方式)。</li> </ol>
 
-<p><strong>Tip</strong>: To quickly insert an image: Drag and drop it
-onto your page.</p>
+<p><strong>小提示</strong>: 快速插入一幅图片: 拖动一幅图片到页面中。</p>
 
-<p><strong>Tip</strong>: To insert a line break after all images in a
-paragraph, choose Break Below Images from the Insert menu.</p>
+<p><strong>小提示</strong>: 在所有图片段落后面插入一个换行，在插入菜单中选图片下方换行。</p>
 
 <p class="returnToSection">[ <a
-href="#adding_pictures_to_your_web_page">Return to beginning of
-section</a> ]</p>
+href="#adding_pictures_to_your_web_page">返回到开头</a> ]</p>
 
-<h3 id="editing_image_properties">Editing Image Properties</h3>
+<h3 id="editing_image_properties">编辑图片属性</h3>
 
-<p>Once you've inserted an image into your page, you can edit its
-properties and customize
-the layout in your page, such as the height, width, spacing, and
-text alignment. If you
-are not currently viewing the Image Properties dialog box, follow
-these steps:</p>
+<p>一旦您插入一幅图片到页面中，您就可以编辑它的属性设置层，像高度、宽度、空白，
+以及文字对齐等。如果您还没有打开图片属性对话框，请按下面步骤操作:</p>
 
-<p>To edit the properties for a selected image:</p>
+<p>编辑选中图片的属性:</p>
 
 <ol>
 
-  <li>Double-click the image, or select it and click the Image button
-  <img src="images/image.png" width="26" height="26" alt="" /> on
-  the toolbar
-  to display the Image Properties dialog box.</li>
+  <li>双击图片，或者选种它再点工具栏上的图片按钮  <img src="images/image.png" />，
+  显示图片属性对话框。</li>
 
-  <li>Click the Location tab to edit these properties:
+  <li>点击位置标签编辑这些属性:
 
   <ul>
-    <li><strong>Image Location</strong>: Type the filename and
-    location of the image file. Click
-    Choose File to search for an image file on your hard drive
-    or network.</li>
+    <li><strong>图片位置</strong>: 输入图片文件名和位置，点浏览按钮选择本机或网络上的图片。</li>
     
-    <li><strong>URL is relative to page location</strong>: If checked,
-    &brandShortName; converts the URL to
-    be relative to the page's location. This is especially
-    useful if you plan to publish
-    your pages on a web server so that others can view
-    them. Using relative URLs allows
-    you to keep all your linked files in the same place relative
-    to each other, regardless
-    of their location on your hard disk or a web server.
-    <p>Unchecking this box causes &brandShortName; to convert the
-    URL to a full (absolute) URL.
-    You typically use absolute URLs when linking to images on
-    other web servers
-    (not stored locally on your hard disk).</p>
-    <p>If you have never saved or published the page, you must first
-    save the page in
-    order to enable this checkbox. (This checkbox is not
-    available if you open the Image
-    Properties dialog box in a message compose
-    window.)</p></li>
+    <li><strong>URL 是相对地址</strong>: 选中此项， &brandShortName; 转换网址为一个相对地址，
+这在您计划发布页面到网络上，让其他人访问时非常有用。使用相对地址您可以把所有的文件归在一起，保持相对路径，
+不用考虑它们在本机和网络上的位置差异。
+    <p>不选中此复选框，&brandShortName; 会转换所有地址为全称(绝对)地址。
+    一般在引用网络上的图片时，使用绝对地址(不存储在您的本机中)。</p>
+    <p>如果您还没有保存或发布页面，您必须先保存一下，以便激活此复选框
+(如果您在消息窗口打开图片属性对话框，这个复选框也是不可用的)。</p></li>
 
-    <li><strong>Alternate Text</strong>: Enter text that will display
-    in place of the original image;
-    for example, a caption or a brief description of the
-    image. It's a good practice to
-    specify alternate text for readers who use text-only web
-    browsers or who have image
-    loading turned off.</li>
+    <li><strong>替代文本</strong>: 输入一个位于原来图片位置的文本，例如，一个标题或者简要的图片描述。
+    这是一个好习惯，对于使用纯文本浏览器，或禁用图片浏览器的访问者，很有帮助。</li>
     
-    <li><strong>Don't use alternate text</strong>: Choose this option
-    if the image does not
-    require alternate text or if you don't want to include
-    it.</li>
+    <li><strong>不使用替代文本</strong>: 如果图片不需要替代文本，或者您不想包括此项，则选中它。</li>
     
   </ul>
   </li>
-  <li>Click the Dimensions tab to edit these properties:
+  <li>点击大小标签编辑下列属性:
   <ul>
-    <li><strong>Actual Size</strong>: Select this option to undo any
-    changes you've made to the
-    dimensions and return the image to its original size.</li>
+    <li><strong>实际大小</strong>: 选中此项，恢复到图片原始大小。</li>
     
-    <li><strong>Custom Size</strong>: Select this option and specify
-    the new height and width, in
-    pixels or as a percentage. This setting doesn't affect the
-    original image file,
-    just the image inserted in your page.</li>
-    
-    <li><strong>Constrain</strong>: If you change the image size,
-    it's a good idea to select this
-    in order to maintain the image's aspect ratio (so that it
-    doesn't appear distorted).
-    If you choose this option, then you only need to
-    change the height or width, but not
-    both.</li>
+    <li><strong>自定义大小</strong>: 选中此项指定新的高度和宽度，用百分比或像素。这个设置不影响图片的原始文件，仅仅是在页面显示。</li>
+
+    <li><strong>保持纵横比</strong>: 如果您改变了图片的大小，选择此项将保持图片的外观比例(以便图像不失真)，选中此项您只需更改高度或宽度中的一项即可。</li>
     
   </ul>
   </li>
-  <li>Click the Appearance Tab to edit these properties:
+  <li>点外观标签可以编辑下列的选项:
   <ul>
-    <li><strong>Spacing</strong>: Specify the amount of space
-    surrounding the image; between the
-    image and adjoining text. You can also put a solid black
-    border around the image
-    and specify its width in pixels. Specify zero for no
-    border.</li>
+    <li><strong>边距</strong>: 指定图片四周的空白，当它周围有文字相邻时，您也可以指定图片四周有一个实线边框，并指定边框线的大小(像素)，0 是无边框。</li>
 
-    <li><strong>Align Text to Image</strong>: If you've placed your
-    image next to any text, select
-    an alignment icon to indicate how you want text positioned
-    relative to the image.</li>
+    <li><strong>对齐文本到图片</strong>: 如果图片周围有许多文本，您可以选择一种文本和图片的对齐方式。</li>
 
-    <li><strong>Image Map</strong>: Click Remove to remove any image
-    map settings.</li>
+    <li><strong>图片映射</strong>: 点击删除按钮，删除所有图片映射设置。</li>
 
   </ul>
   </li>
-  <li>Click the Link tab to edit these properties:
+  <li>点链接标签设置下列属性:
   <ul>
-    <li><strong>Enter a web page location</strong>: If you want to
-    define a link for this image,
-    enter the URL of a remote or local page, or select a named
-    anchor or heading from
-    the drop-down list. Click Choose File to search for an
-    image file on your hard
-    drive or network.</li>
+    <li><strong>输入一个网页位置</strong>: 如果您想用这幅图片定义一个超链接，输入本地或远程地址，或者从下拉列表中选择一个锚点、标题。点浏览按钮从本机或网络上选择一个文件。</li>
     
-    <li><strong>URL is relative to page location</strong>: If
-    checked, &brandShortName; converts the URL to
-    be relative to the page's location. This is especially
-    useful if you plan to publish
-    your pages to a web server so that others can view
-    them. Using relative URLs allows
-    you to keep all your linked files in the same place
-    relative to each other,
-    regardless of their location on your hard disk or a
-    web server.
-    <p>Unchecking this box causes &brandShortName; to convert the
-    URL to a full (absolute) URL.
-    You typically use absolute URLs when linking to
-    images on other web servers (not
-    stored locally on your hard disk).</p>
-    <p>If you have unsaved changes, you must first save the page
-    in order to enable this
-    checkbox. (This checkbox is not available if you
-    open the Image Properties dialog
-    box in a message compose window.)</p></li>
+    <li><strong>URL 是相对地址</strong>:选中此项， &brandShortName; 转换网址为一个相对地址，
+这在您计划发布页面到网络上，让其他人访问时非常有用。使用相对地址您可以把所有的文件归在一起，保持相对路径，不用考虑它们在本机和网络上的位置差异。
+    <p>不选中此复选框，&brandShortName; 会转换所有地址为全称(绝对)地址。
+    一般在引用网络上的图片时，使用绝对地址(不存储在您的本机中)。</p>
+    <p>如果您还没有保存或发布页面，您必须先保存一下，以便激活此复选框
+(如果您在消息窗口打开图片属性对话框，这个复选框也是不可用的)。</p></li>
 
-    <li><strong>Show border around linked image</strong>: If
-    checked, displays the link
-    highlight color around the image.</li>
+    <li><strong>在链接图片周围显示边框</strong>: 选中此项，在图片周围显示高亮颜色。</li>
   </ul>
   </li>
   
-  <li>To apply additional attributes or JavaScript events, click
-  Advanced Edit to display
-  the <a href="#using_the_advanced_property_editor">Advanced
-  Property Editor</a>.</li>
+  <li>要应用额外的属性或 JavaScript 事件，点击高级编辑按钮，显示 <a href="#using_the_advanced_property_editor">高级属性编辑器</a>.</li>
 
-  <li>Click OK to confirm your changes.</li>
+  <li>点确定完成更改。</li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#adding_pictures_to_your_web_page">Return to beginning of
-section</a> ]</p>
+href="#adding_pictures_to_your_web_page">返回到开头</a> ]</p>
 
-<p>[<a href="toc.xhtml">Next</a>] [<a href="tables.xhtml">Previous</a>]</p>
+<p>[<a href="tables.xhtml">上一页</a>] [<a href="toc.xhtml">下一页</a>]</p>
 
-  <div class="copyrightBox"><em>20 June 2005</em></div>
+  <div class="copyrightBox"><em>TeliuTe, 2009年6月24日</em></div>
 
-<p>Copyright &copy; 2004-2005 Contributors to the Nvu
-Help Documentation Project.</p>
+<p>&copy; 2004-2009 Nvu, KompoZer 帮助文档项目贡献者，版权所有。</p>
 
 </body>
 </html>

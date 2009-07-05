@@ -9,300 +9,213 @@
      Nvu relevance changes: Nvu Help Viewer Documentation Project,
 Contributor(s):
   KDS Sahambi <ksahambi@yahoo.com>
+  Teliute <teliute@163.com>
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Glossary</title>
+  <title>词汇表</title>
   <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body id="noMarginBody">
 
-<p>This glossary is provided for your information only; it is not
-meant to be relied upon as a complete or authoritative description of
-the terms defined below or of the privacy and/or security
-ramifications of the technologies described.</p>
+<p>词汇表只提供信息，它不是官方完整的权威定义，和(或)安全保密的技术描述。</p>
 
 <hr/>
 
-<h1 id="glossary">Glossary</h1>
+<h1 id="glossary">词汇表</h1>
 
 <dl>
 
-<dt id="authentication">authentication</dt>
-<dd>The use of a password, certificate, personal identification number
-  (PIN), or other information to validate an identity over a computer
-  network.</dd>
+<dt id="secure_shell_file_transfer_protocol">sFTP</dt>
+<dd>安全的文件传输协议(sFTP)类似于 <a
+href="#file_transfer_protocol">FTP</a>，不同之处在于会话是经过加密的，因而更安全。</dd>
 
-<dt id="cache">cache</dt>
-<dd>A collection of web page copies stored on your computer's hard disk or in
-  its random-access memory (RAM). &brandShortName; accumulates these copies as you
-  browse the Web. When you click a link or type a
-  <a href="#Uniform_Resource_Locator">URL</a> to fetch a particular web page for
-  which the cache already contains a copy, &brandShortName; compares the cached copy
-  to the original. If there have been no changes, &brandShortName; uses the cached
-  copy rather than refetching the original, saving processing and download time.</dd>
+<dt id="secure_site">安全站点</dt>
+<dd>使用 <a href="#encryption">加密</a> 连接的站点，阻止恶意的互联网用户查看传输
+数据。当您访问安全站点时，浏览器显示一个小锁图标在 <a href="#Status_Bar">状态栏</a> 和  <a href="#location_bar">地址栏</a>.上。浏览器也在状态栏上显示站点域名(防止
+恶意站点盗取您的数据)，并且地址栏的背景色变成黄色。</dd>
+<dd>一些站点可能既有安全信息也包括不安全信息，这些不安全的信息通常不是隐私数据，
+但也不能保证是这样，对于这些网站，浏览器将在状态栏和地址栏显示一个小锁和斜线，
+将 <em>不在</em> 地址栏显示站点的域名，以便您指定当前网站不是完全安全的。</dd>
 
-<dt id="certificate">certificate</dt>
-<dd>The digital equivalent of an ID card. A certificate specifies the name of an
-  individual, company, or other entity and certifies that a public key, which
-  is included in the certificate, belongs to that entity. When you digitally
-  sign a message or other data, the digital signature for that message is
-  created with the aid of the private key that corresponds to the public key
-  in your certificate.</dd>
+<dt id="SSL">安全套接层(SSL)</dt>
+<dd>一种协议，允许  <a href="#client">客户端</a> 和 <a href="#server">服务器端</a>相互验证，
+从而建立一个验证和加密的连接。SSL 运行在 TCP/IP 之上，在 HTTP、LDAP、IMAP、NNTP、和其他
+高级网络协议下层。新的互联网工程任务组(IETF)标准称作安全传输层协议(TLS)，是基于 SSL。请参阅: <a href="#authentication">验证</a>，
+  <a href="#encryption">加密</a>。</dd>
 
-<dt id="client">client</dt>
-<dd>Software (such as an Internet browser) that sends requests to and receives
-  information from a <a href="#server">server</a>, which is usually running
-  on a different computer. A computer on which client software runs is also
-  described as a client.</dd>
 
-<dt id="cryptography">cryptography</dt>
-<dd>The art and practice of scrambling (encrypting) and unscrambling (decrypting)
-  information. For example, cryptographic techniques are used to scramble and unscramble
-  information flowing between commercial web sites and &brandShortName;.</dd>
+<dt id="helper_application">帮助程序</dt>
+<dd>一些应用程序习惯由浏览器打开或查看下载的文件。
+ <a href="#plug-in">插件</a> 是一个特定种类的帮助程序，它安装自己到浏览器的主目录，并且可以随浏览器打开而开启。Microsoft Word、Adobe Photoshop 和其他一些外部应用程序，使用帮助程序但不是插件，因为他们没有安装到浏览器目录，但可以在下载对话框打开。</dd>
 
-<dt id="css">Cascading Style Sheets(CSS)</dt>
-<dd>CSS is a simple mechanism to add style e.g. fonts, colors,
-positioning, etc to web documents. CSS allows complete and total
-control over the style of a hypertext document.</dd>
 
-<dt id="decryption">decryption</dt>
-<dd>The process of unscrambling data that has been encrypted. See also
-  <a href="#encryption">encryption</a>.</dd>
+<dt id="css">层叠样式表(CSS)</dt>
+<dd>CSS 是一个简单添加样式的方法，例如给网页设置字体、颜色、位置等。CSS 可以完整而高校控制超文本文档的样式。</dd>
 
-<dt id="digital_ID">digital ID</dt>
-<dd>See <a href="#certificate">certificate</a>.</dd>
+<dt id="plug-in">插件</dt>
+<dd><a href="#helper_application">帮助程序</a> 一类的小程序，给浏览器添加新的功能，比如播放音频或视频文件。不像其他的帮助程序，插件安装它自己到
+ 浏览器主程序的安装目录中，并且随着浏览器的启动而启动。
+例如，一个音乐插件可以让你听网页中的或是邮件中的音乐。Adobe Flash 播放器和 Java 都是插件程序。</dd>
 
-<dt id="encryption">encryption</dt>
-<dd>The process of scrambling information in a way that disguises its meaning.
-  For example, encrypted connections between computers make it very difficult
-  for third-parties to unscramble, or <em>decrypt,</em> information flowing
-  over the connection. Encrypted information can be decrypted only by someone
-  who possesses the appropriate key.</dd>
+<dt id="Hypertext_Markup_Language">超文本标记语言(HTML)</dt>
+<dd>网页使用的文档格式。HTML 标准定义标记或代码，用于定义文本层次、字体、样式、图片和其他元素，组成一个网页。</dd>
 
-<dt id="XML">Extensible Markup Language (XML)</dt>
-<dd>An open standard for describing data. Unlike HTML, XML allows the
-  developer of a web page to define special tags. For more information,
-  see the online W3C document <a href="http://www.w3.org/XML/">Extensible
-  Markup Language (XML)</a>.</dd>
+<dt id="TCP_IP">传输控制协议/网际协议 (TCP/IP)</dt>
+<dd>一个 Unix 协议，用于连接运行不同操作系统的计算机。
+  TCP/IP 是一个必需的互联网协议，已经成为全球标准。</dd>
 
-<dt id="file_transfer_protocol">File Transfer Protocol (FTP)</dt>
-<dd>A File Transfer Protocol(FTP) is a protocol standard for
-transfering computer files between different computers connected via a
-network. A remote computer, the FTP server, accepts connections from
-other computers called clients. Once the connection is established,
-clients can get files from the server or put files on the server
-depending upon the login account privileges.However, a security hole
-in FTP is that passwords are sent as clear text, unlike <a
-href="#secure_file_transfer_protocol">sFTP</a>. &brandShortName; Site
-Manager uses FTP for publishing web pages.</dd>
+
+<dt id="proxy">代理</dt>
+<dd>一个中转或 &quot;转发&quot; 程序，扮演  <a href="#server">服务器</a> 和 <a href="#client">客户端</a>，用于处理其他客户端的请求。</dd>
+
 
 <dt id="FIPS_PUBS_140-1">FIPS PUBS 140-1</dt>
-<dd>Federal Information Processing Standards Publications (FIPS PUBS) 140-1 is
-  a US government standard for implementations of cryptographic modules &mdash;
-  hardware or software that encrypts and decrypts data or performs other
-  cryptographic operations (such as creating or verifying digital signatures).
-  Many products sold to the US government must comply with one or more of the
-  FIPS standards.</dd>
+<dd>联邦资讯处理标准(FIPS PUBS)第140-1号，是美国国家标准实施加密模块 &mdash;
+  硬件或软件来加密和解密数据，或者执行其他密码操作(比如创建或验证数字签名)。
+许多销售给美国政府的产品，必须符合一条更多的 FIPS 标准。</dd>
 
-<dt id="helper_application">helper application</dt>
-<dd>Any application that is used to open or view a file downloaded by &brandShortName;.
-  A <a href="#plug-in">plug-in</a> is a special kind of helper application that
-  installs itself into the Plugins directory of the main &brandShortName; installation
-  directory and can typically be opened within &brandShortName; itself. Microsoft Word,
-  Adobe Photoshop, and other external applications are considered helper applications
-  but not plug-ins, because they don't install themselves into the browser directory
-  but can be opened from the download dialog box.</dd>
+<dt id="publish">发布</dt>
+<dd><em>上传</em> 网页到一个<a
+href="#web_server">网络服务器</a> 的进程被称作发布。只有发布您的网页到
+ <a href="#web_server">网络服务器</a> 上，其他人才能用他们的 <a
+href="#client">客户端</a> 来访问。在 &brandShortName; 中，<a
+href="#site_manager">站点管理器</a> 完成发布任务。</dd>
 
-<dt id="Hypertext_Markup_Language">Hypertext Markup Language (HTML)</dt>
-<dd>The document format used for web pages. The HTML standard defines tags, or
-  codes, used to define the text layout, fonts, style, images, and other
-  elements that make up a web page.</dd>
+<dt id="server">服务器</dt>
+<dd>接收 <a href="#client">客户端</a> 的请求并发送回信息的软件(例如提供网页服务的软件)，
+通常运行在不同的计算机，一个运行服务器软件的计算机也称作服务器。</dd>
 
-<dt id="Internet">Internet</dt>
-<dd>A worldwide network of millions of computers that communicate with each
-  other using standard protocols such as
-  <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a>.
-  Originally developed for the US military in 1969, the Internet grew to include
-  educational and research institutions and, in the late 1990s, millions of
-  businesses, organizations, and individuals. Today the Internet is used for email,
-  browsing the <a href="#World_Wide_Web">World Wide Web</a>, instant messaging,
-  mailing lists and usegroups, and many other purposes.</dd>
 
-<dt id="Internet_protocol_address">Internet protocol address (IP address)</dt>
-<dd>The address of a computer on a
-  <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a> network.
-  Every computer on the Internet has an IP address. <a href="#client">Clients</a>
-  have either a permanent IP address or one that is dynamically assigned to them
-  each time they connect with the network.</dd>
+<dt id="Internet">互联网</dt>
+<dd>一个由无数电脑组成的世界范围网络，相互之间用标准协议通讯，比如
+  <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a>。
+最早是1969年由美国军方开发， 互联网慢慢成长起来，包括教育和科研单位，
+在1990年后，大量商业、组织和个人也加入。今天，互联网用于电子邮件、浏览
+ <a href="#World_Wide_Web">WWW</a>，即时通讯，邮件列表，邮件组，和其他应用。</dd>
+
+<dt id="Internet_protocol_address">互联网协议地址 (IP 地址)</dt>
+<dd>在 <a href="#Transmission_Control_Protocol_Internet_Protocol">TCP/IP</a> 协议网络中的计算机地址。
+每个互联网上的计算机都有一个 IP 地址。<a href="#client">客户端</a>可以使用固定IP地址或动态地址，每次连接到互联网时都会改变。</dd>
+
+<dt id="cache">缓存</dt>
+<dd>收集网页副本，保存到您的计算机硬盘上，或者保存到随机存储器(RAM)中。 浏览器在您浏览网页时，存储这些副本，当您点击一个链接或者输入一个
+  <a href="#Uniform_Resource_Locator">网址</a>， 访问已经缓存过副本的网页时，浏览器对比缓存和原始网页，如果二者相同，浏览器使用缓存的副本而不是重新下载，节省了操作时间。</dd>
+
 
 <dt id="Java">Java</dt>
-<dd>A programming language developed by Sun Microsystems. A single Java program
-  can run on many different kinds of computers, thus avoiding the need for
-  programmers to create a separate version of each program for each kind of
-  computer. After Java is installed, &brandShortName; can automatically download
-  and run Java programs (also called applets).</dd>
+<dd>一个由 Sun Microsystems 公司开发的程序语言，单个的 Java 程序可以运行只多种计算机上，
+这可以避免为不同的计算机创建不同的程序版本，安装 Java 后，浏览器可以自动下载
+和运行 Java 程序(也叫小程序)。</dd>
 
 <dt id="JavaScript">JavaScript</dt>
-<dd>A scripting language commonly used to construct web pages. Programmers use
-  JavaScript to make web pages more interactive; JavaScript is often used to
-  dynamically validate forms and select buttons. JavaScript can be used with
-  Java, but it is technically a separate language. Java is not required for
-  JavaScript to work correctly.</dd>
+<dd>用在网页中的一种通用脚本语言，使用 JavaScript 语言使得网页可以交互操作， JavaScript 
+常用于动态验证表单和选择按钮，JavaScript 可用于 Java，但它是一种独立的语言，Java 不需要 JavaScript也可以正常工作。</dd>
 
-<dt id="master_password">master password</dt>
-<dd>A password used to protect saved passwords and other private data.
-  &brandShortName; will prompt you for your master password when you wish to
-  access this data. If you have multiple security devices, each security device
-  will require a separate master password.</dd>
 
-<dt id="navigation_toolbar">Navigation Toolbar</dt>
-<dd>The toolbar near the top of the &brandShortName; window that includes
-  the <em>Back</em> and <em>Forward</em> buttons.</dd>
+<dt id="encryption">加密</dt>
+<dd>加密是将明文信息扰乱，隐藏原来的意思。例如，计算机之间通过的加密连接传送信息，
+使得第三方很难破译或 <em>解密</em>，只能由拥有相关密钥者解密。</dd>
 
-<dt id="Password_Manager">Password Manager</dt>
-<dd>The part of &brandShortName; that can help you remember some or all of
-  your names and passwords by storing them on your computer's hard disk and
-  entering them for you automatically when you visit such sites.</dd>
+<dt id="decryption">解密</dt>
+<dd>恢复加密数据的原始形态的过程，请参阅: 
+  <a href="#encryption">加密</a>。</dd>
+
+
+<dt id="client">客户端</dt>
+<dd>向一个 <a href="#server">服务器</a>发送和接收信息的软件(比如网络浏览器)，
+可以运行只各种计算机，通常运行客户端软件的计算机也被称作客户端。</dd>
+
+<dt id="XML">扩展标记语言(XML)</dt>
+<dd>一个开放标准的描述语言，跟 HTML 不同，XML 允许开发者定义特殊标记，更多信息请参阅 W3C 在线文档:  <a href="http://www.w3.org/XML/">扩展标记语言(XML)</a>。</dd>
+
+
+<dt id="navigation_toolbar">浏览工具栏</dt>
+<dd>靠近浏览器窗口顶部的工具栏，包括
+ <em>后退</em> 和 <em>前进</em> 按钮。</dd>
+
+
+<dt id="cryptography">密码</dt>
+<dd>扰乱信息的操作(加密)和恢复原状(解密)。例如，在商业网站之间传送加密和解密信息。</dd>
+
+<dt id="Password_Manager">密码管理器</dt>
+<dd>&brandShortName; 的一部分，可以帮助您记住一些用户名和密码，
+它们保存在您的计算机当中，在您下次访问这些站点时会自动输入。</dd>
+
 
 <dt id="PKCS_11">PKCS #11</dt>
-<dd>The public-key cryptography standard that governs security devices such
-  as smart cards.</dd>
+<dd>公钥密码标准，管理像智能卡一类的安全设备。</dd>
 
-<dt id="plug-in">plug-in</dt>
-<dd>A type of <a href="#helper_application">helper application</a> that
-  adds new capabilities to &brandShortName;, such as the ability to play audio
-  or video clips. Unlike other kinds of helper applications, a plug-in
-  application installs itself into the Plugins directory within the main
-  &brandShortName; installation directory and typically can be opened within
-  &brandShortName; itself (internally). For example, an audio plug-in lets you
-  listen to audio files on a web page or in an e-mail message. Macromedia
-  Flash Player and Java are both examples of plug-in applications.</dd>
 
-<dt id="private_key">private key</dt>
-<dd>One of a pair of keys used in public-key cryptography. The private key is 
-kept secret and is used to decrypt data that has been encrypted with the 
-corresponding public key.</dd>
+<dt id="private_key">私钥</dt>
+<dd>跟公钥成对匹配的密钥，私钥用于保密，常用于解密用公钥加密的数据。</dd>
 
-<dt id="proxy">proxy</dt>
-<dd>An intermediary or &quot;go-between&quot; program that acts as both a
-  <a href="#server">server</a> and a <a href="#client">client</a> for
-  the purpose of making requests on behalf of other clients.</dd>
+<dt id="digital_ID">数字 ID</dt>
+<dd>请参阅 <a href="#certificate">证书</a>.</dd>
 
-<dt id="publish">Publishing</dt>
-<dd>The process of <em>uploading</em> web document(s) to a <a
-href="#web_server">web server</a> is called publishing. It is only
-after publishing your web documents to the <a href="#web_server">web
-server</a> others can view the documents using their <a
-href="#client">clients</a>. In &brandShortName;, the <a
-href="#site_manager">Site Manager</a> accomplishes the task of
-publishing.</dd>
+<dt id="search_engine">搜索引擎</dt>
+<dd>基于网络的程序，允许用户从互联网上搜索指定信息，
+搜索引擎可以搜索完整的网页信息，或者根据关键字列表搜索，
+它也可以使用手动索引建立检索目录。一般地，用户只搜索框
+中输入关键字，然后搜索引擎显示相关的网页链接。</dd>
 
-<dt id="search_engine">search engine</dt>
-<dd>A web-based program that allows users to search for and retrieve
-  specific information from the World Wide Web. The search engine may
-  search the full text of web documents or a list of keywords; it may
-  also use librarians who review web documents and index them manually
-  for retrieval. Typically, the user types a word or phrase into a
-  search box, and the search engine displays links to relevant web
-  pages.</dd>
-
-<dt id="secure_shell_file_transfer_protocol">Secure Shell File Transfer Protocol</dt>
-<dd>Secure Shell File Transfer Protocol(sFTP) is similar to <a
-href="#file_transfer_protocol">FTP</a> with the difference that the
-session is encrypted making it more secure.</dd>
-
-<dt id="secure_site">secure site</dt>
-<dd>A site that uses <a href="#encryption">encryption</a> in connections
-  with &brandShortName; to prevent other malicious Internet users from
-  viewing transmitted data.  When you visit secure sites, &brandShortName;
-  displays a lock icon in the <a href="#Status_Bar">Status Bar</a> and the
-  <a href="#location_bar">Location Bar</a>.  &brandShortName; also
-  displays the site's domain name in the Status Bar (to prevent malicious
-  sites from stealing your data) and turns the background of the Location
-  Bar to yellow.</dd>
-<dd>Some sites may consist of both secure and insecure data; the insecure data
-  usually is non-private, although it isn't guaranteed to be so.  For such
-  sites &brandShortName; will display a lock icon with a slash through it in
-  the Status Bar and Location Bar and will <em>not</em> display the site's
-  domain name in the Status Bar so that you know that the current web page
-  isn't completely secure.</dd>
-
-<dt id="SSL">Secure Sockets Layer (SSL)</dt>
-<dd>A protocol that allows mutual authentication between a
-  <a href="#client">client</a> and a <a href="#server">server</a>
-  for the purpose of establishing an authenticated and encrypted
-  connection. SSL runs above TCP/IP and below HTTP, LDAP, IMAP, NNTP,
-  and other high-level network protocols. The new Internet Engineering
-  Task Force (IETF) standard called Transport Layer Security (TLS) is
-  based on SSL. See also <a href="#authentication">authentication</a>,
-  <a href="#encryption">encryption</a>.</dd>
-
-<dt id="server">server</dt>
-<dd>Software (such as software that serves up web pages) that receives
-  requests from and sends information to a <a href="#client">client</a>,
-  which is usually running on a different computer. A computer on which
-  server software runs is also described as a server.</dd>
-
-<dt id="site_manager">Site Manager</dt>
-<dd>The part of &brandShortName; which manages the uploading and
-downloading of the web documents created with &brandShortName;. The
-Site Manager uses <a href="#file_transfer_protocol">FTP</a> to
-transfer the web documents to and from the <a href="#web_server">web
-server</a>.</dd>
-
-<dt id="Status_Bar">Status Bar</dt>
-<dd>The toolbar that appears at the bottom of any &brandShortName; window. It
-  shows the tags enclosing the current cursor position.</dd>
 
 <dt id="TLS">TLS</dt>
-<dd>See <a href="#Secure_Sockets_Layer">Secure Sockets Layer (SSL)</a>.</dd>
+<dd>请参阅 <a href="#Secure_Sockets_Layer">安全套接协议层(SSL)</a>。</dd>
 
-<dt id="TCP_IP">Transmission Control Protocol/Internet Protocol (TCP/IP)</dt>
-<dd>A Unix protocol used to connect computers running a variety of operating systems.
-  TCP/IP is an essential Internet protocol and has become a global standard.</dd>
+<dt id="Uniform_Resource_Locator">统一资源定位符(URL)</dt>
+<dd>是一个标准地址，告诉浏览器如何定位网络上的文件或其他资源，
+(例如 <tt>http://www.mozilla.org</tt>)。
+ 在地址栏输入 URL 可以访问这个网页，URL 也可以用于链接其他网页，也称作网址。</dd>
 
-<dt id="Uniform_Resource_Locator">Uniform Resource Locator (URL)</dt>
-<dd>The standardized address that tells &brandShortName; how to locate a file or
-  other resource on the Web (for example, <tt>http://www.mozilla.org</tt>).
-  Type URLs into &brandShortName;'s Location Bar to access web pages. URLs
-  are also used in the links on web pages go to other web pages. Also known
-  as an Internet or Web address.</dd>
 
 <dt id="w3c">W3C</dt>
-<dd>World Wide Web Consortium(W3C) is a <em>consortium</em> that
-produces standards recommendations for the <a
-href="world_wide_web">World Wide Web</a>. According to
-<strong>W3C</strong>, "The World Wide Web Consortium (W3C) develops
-interoperable technologies (specifications, guidelines, software, and
-tools) to lead the Web to its full potential". These recommendations
-e.g. HTML 4.01, XHTML 1.1, CSS 2.1, etc. are often called <em>Web
-Standards</em>.</dd>
+<dd>万维网联盟(W3C)是一个制定 <a
+href="world_wide_web">万维网</a> 推荐标准的 <em>协会</em>。符合
+<strong>W3C</strong>， “万维网联盟(W3C)开发交互技术(规范、准则、软件和工具)
+引领网络发展进步”，这些推荐标准有 HTML 4.01、XHTML 1.1、CSS 2.1 等等，常常称作 <em>网站标准</em>。</dd>
 
-<dt id="web_page">web page</dt>
-<dd>A single document on the World Wide Web that is specified by a unique
-  address or URL.  A web page may contain text, hyperlinks, and graphics.</dd>
+<dt id="web_page">网页</dt>
+<dd>用于互联网上的文档，具有独一无二的地址或 URL，网页中可以包含文本、超级链接和图像。</dd>
 
-<dt id="web_server">Web Server</dt>
-<dd>Web Server is the machine running the web server software(e.g. <a
-href="http://httpd.apache.org">Apache</a>). It serves various kinds of
-web documents to a <a href="#client">client</a>. It is the web server
-software which is responsible to send us the reqired data so that we
-can see the requested <a href="#web_site">web site</a> in a web
-browser.</dd>
+<dt id="world_wide_web">万维网</dt>
+<dd>也被认为是网络，互联网的一部分，由保存在网络上的网站 <a href="#server">服务器</a> 组成，
+由 <a href="#client">客户端</a> 的浏览器显示(如 Firefox)。</dd>
 
-<dt id="web_site">web site</dt>
-<dd>A group of related web pages linked by hyperlinks and managed by a single
-  company, organization, or individual. A web site may include text, graphics,
-  audio and video files, and links to other web sites.</dd>
+<dt id="web_server">网络服务</dt>
+<dd>网络服务是指运行网络服务器软件(如 <a
+href="http://httpd.apache.org">Apache</a>)的计算机。它为 <a href="#client">客户端</a> 提供各种
+网页文档。网络服务器软件响应我们的请求发送数据，这样我们就可以在浏览器中看到 <a href="#web_site">网站</a>。</dd>
 
-<dt id="world_wide_web">World Wide Web</dt>
-<dd>Also known as the Web. A portion of the Internet that is made up of web
-  pages stored by web <a href="#server">servers</a> and displayed by
-  <a href="#client">clients</a> called web browsers (such as
-  &brandShortName;).</dd>
+<dt id="web_site">网站</dt>
+<dd>由一个公司、组织或个人创建和管理的一组相关网页。网站可以包括文本、图片、音乐和视频文件，也可以链接到其他网站。</dd>
+
+<dt id="file_transfer_protocol">文件传输协议(FTP)</dt>
+<dd>文件传输协议(FTP)是在网络中，不同计算机之间传输文件的协议标准。
+远程计算机，FTP 服务器接受其他计算机的访问，其他计算机称作客户端。
+一旦建立连接，客户端可以从服务器获取文件或是存放文件，这依赖于登录账号的权限。
+然而，它有一个安全漏洞，密码是用明文发送，不像 <a
+href="#secure_file_transfer_protocol">sFTP</a>。&brandShortName; 站点管理器使用 FTP 发布网页。</dd>
+
+
+<dt id="authentication">验证</dt>
+<dd>使用密码、证书、个人识别号(PIN)，或者其他信息在计算机网络上验证标识。</dd>
+
+
+<dt id="site_manager">站点管理器</dt>
+<dd>&brandShortName; 的一部分，管理网页的上传和下载，站点管理器与 <a href="#web_server">网络服务器</a> 之间使用 <a href="#file_transfer_protocol">FTP</a> 传输网页。</dd>
+
+<dt id="certificate">证书</dt>
+<dd>等同于一个数字 ID 卡，证书特指一个用户、公司或者其他实体的名称，证明一个包含证书，属于那个实体的公钥。当您标识一个信息或其他信息，使用私钥来加密标识这个信息，可以用您证书的公钥来验证。</dd>
+
+<dt id="master_password">主密码</dt>
+<dd>这个密码用于保护已保存的密码和其他隐私数据。当您想访问这些数据时，Firefox会提示输入主密码。如果您有多个安全设备，每个设备
+需要一个单独的主密码。</dd>
+
+<dt id="Status_Bar">状态栏</dt>
+<dd>出现在 &brandShortName; 窗口底部的工具栏，它显示了光标当前位置的标记信息。</dd>
 
 
 
@@ -317,10 +230,10 @@ browser.</dd>
 </dl>
 
 <p>
-[&nbsp;<a href="#glossary">Return to beginning of Glossary</a>&nbsp;]
+[&nbsp;<a href="#glossary">返回到开头</a>&nbsp;]
 </p>
 
-<div class="copyrightBox"><em>09 October 2004</em></div>
-<p>Copyright &copy; 2003-2004 Contributors to the Mozilla Help Viewer Project.</p>
+<div class="copyrightBox"><em>TeliuTe, 2009年7月3日</em></div>
+<p>&copy; 2003-2009 Mozilla 帮助查看器项目贡献者，版权所有。</p>
 </body>
 </html>

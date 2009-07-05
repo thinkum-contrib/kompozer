@@ -5,7 +5,7 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Creating Web Pages with &brandShortName;</title>
+<title>用 &brandShortName; 创建网页</title>
 <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
@@ -25,931 +25,619 @@ function togglePanel() {
 
 <table width="100%" id="navTable">
 <tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+<td valign="bottom" width="80"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">显示/隐藏</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">帮助中心</span></td>
 </tr>
 </table>
 
-<div id="contentsBox">In this section:
- <a href="#publishing_a_document">Publishing a Document</a>
- <a href="#publishing_settings">Publishing Settings</a>
- <a href="#solving_common_publishing_problems">Solving Common Publishing Problems</a>
+<div id="contentsBox">在这一章里:
+ <a href="#publishing_a_document">发布一个文档</a>
+ <a href="#publishing_settings">发布设置</a>
+ <a href="#solving_common_publishing_problems">解决常见错误</a>
 </div>
 
-<h1 id="publishing_web_pages_with_nvu">Publishing Web Pages with &brandShortName;</h1>
+<h1 id="publishing_web_pages_with_nvu">用 &brandShortName; 发布网页</h1>
 
-<p>If your pages exist only on your local hard disk, you can privately
-view your HTML pages. &brandShortName; lets you publish
-your pages to a remote computer called a web server.</p>
+<p>如果页面仅保存在您的本地硬盘，只有您可以查看这个 HTML 页面，&brandShortName; 允许您
+发布网页到一个被称作网站服务器的远程计算机上</p>
 
-<p>When you publish your pages to a web server, &brandShortName;
-copies (uploads) your pages to a computer that lets others browse your
-pages. Most ISPs provide space on their web servers for web page
-publishing. To find a web server where you can publish your pages, ask
-your ISP, help desk, or system administrator.</p>
+<p>当你发布页面到网站服务器上，&brandShortName; 复制(上传)您的页面到一个可以让其他人访问
+的计算机上。大多数 ISP 提供网站空间用于发布网页。要查找发布网页的网站服务器，可以询问您的 ISP 或是系统管理员。</p>
 
-<h2 id="publishing_a_document">Publishing a Document</h2>
+<h2 id="publishing_a_document">发布文档</h2>
 
-<p>To publish a document:</p>
+<p>要发布一个文档:</p>
 
 <ol>
-  <li>Open the HTML document that you want to publish, or create a new
-  &brandShortName; document.</li>
+  <li>打开您想发布的 HTML 文档，或者新建一个 &brandShortName; 文档。</li>
 
-  <li>When you're ready to publish the document remotely, click the
-  Publish button <img src="images/publish.png" width="26" height="26" alt="" />. 
-
-  <p>If you have published this document before, &brandShortName;
-  remembers the document's publishing settings and starts publishing the
-  document. While publishing is in progress, &brandShortName; displays a
-  publishing status dialog box.</p>
+  <li>当你准备发布文档到远程计算机时，点击发布按钮 <img src="images/publish.png" />。
+  </li>
 
   <ul>
-    <li>If you have never published this document before,
-    &brandShortName; displays the Settings tab
-    in the Publish Page dialog box so you can enter
-    information about the document's remote
-    publishing location. See <a
-    href="#publish_page_settings">Publish Page - Settings</a> for more
-    information. When you're done entering information, click
-    Publish.</li>
+    <li>如果您之前已经发布过这个文档， &brandShortName; 会记住文档的发布设置，立即开始发布，
+在发布过程中，&brandShortName; 会显示一个发布进度条。</li>
 
-    <li>If you have never saved the document, &brandShortName;
-    displays the Publish tab in the Publish
-    Page dialog box, so you can enter the document's
-    filename. See
-    <a href="#publish_page_publish">Publish Page - Publish</a>
-    for more information.
-    After entering the filename, click Publish.</li>
+    <li>如果您之前还未发布过这个文档， &brandShortName; 会在发布对话框里显示设置标签，
+以便您能够输入发布此文档的远程信息。更多信息请参阅: <a
+    href="#publish_page_settings">发布页面 - 设置</a>。当您完成信息输入，点发布即可。</li>
+
   </ul>
+  
+  <li>要浏览您的发布页面，点击浏览按钮，测试页面链接确保没有缺失的图片。</li>
+
+  <li>可能您会继续编辑这个页面，当您编辑好要更新远程页面时，点击发布按钮即可。</li>
+</ol>
+
+<p>当您首次发布文档时，&brandShortName; 会更改文档里的 <tt>file:///</tt> 地址为一个
+ <tt>http://</tt> 地址，指示您正在编辑的是要发布文档。如果您想保存文档到本地
+(在您的计算机硬盘上)，点保存按钮，您将会看到一个提示，输入文件名和保存位置。</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">返回到开头</a> ]</p>
+
+<h3 id="avoiding_broken_links_or_images">防止断开链接或缺失图片的小提示</h3>
+
+<ul>
+  <li>确保 &brandShortName; 文件名是以 .html 或 .htm 结尾的扩展名。
+确保图片文件名是以 .JPG, .GIF, 或 .PNG 结尾的扩展名。
+不要使用空格或其他特殊符号(如汉字)做文件名。
+保持您的文件名较短，并且只用小写或大写字母和数字。</li>
+
+  <li>如果您在网站上浏览您发布的页面时，发现图片没有出现，或是一个出现错误标记，
+这可能是您忘了发布包含的图片。打开文件菜单，选择 发布为 命令，显示发布对话框，在
+发布标签，确保选中了“包括图片和其他文件”然后点发布按钮。</li>
+</ul>
+
+<p>更多错误提示，请参阅
+<a href="#solving_common_publishing_problems">解决常见发布错误</a>.</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">返回到开头</a> ]</p>
+
+<h3 id="updating_a_published_document">上传已发布的文档</h3>
+
+<p>要上传一个已发布的文档:</p>
+
+<ol>
+  <li>在 &brandShortName; 窗口中，打开文件菜单，然后选择最近打开页面，
+然后从列表中选择文档。
+ <p>另外，要想浏览您想更新的文档，在浏览器的地址栏中输入文档的 HTTP 地址(页面的网址)。</p></li>
+  
+  <li>打开文件菜单，打开要编辑页面。</li>
+
+  <li>根据需要进行编辑。</li>
+
+  <li>当你准备发布文档到远程计算机时，点击工具栏上的发布按钮。</li>
+</ol>
+
+<p id="deleting_a_published_page_or_image"><strong>小提示</strong>: 要
+从网站上删除已经发布的网页或图片，您必须使用 FTP(文件传输协议)程序，如果您想创建
+子目录或者重命名网站上的文件，您也必须要用 FTP 程序。问一下服务提供商，如果他们
+推荐了一个特定的 FTP 程序，您一般可以在网络提供商网站的帮助和支持里，找到 FTP 的
+相关信息，FTP 程序也可以在一些共享站点像 ZDNet 上找到。</p>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">返回到开头</a> ]</p>
+
+<h3 id="changing_the_filename_or_publishing_location">更改文件名或发布位置</h3>
+
+<p>要更改文档的名称和发布位置:</p>
+
+<ol>
+  <li>在 &brandShortName; 窗口中，打开文件菜单，然后选择最近打开页面，从列表中选择这个文档。
+<p>另外，要想浏览您想更新的文档，在浏览器的地址栏中输入文档的 HTTP 地址(页面的网址)。</p></li>
+  
+  <li>打开文件菜单，打开要编辑页面。</li>
+  
+  <li>根据需要进行编辑。</li>
+
+  <li>打开 &brandShortName; 的文件菜单，然后选择 发布为，&brandShortName; 在发布页面对话框
+显示发布标签。</li>
+
+  <li>如果需要的话，输入一个不同的标题。</li>
+
+  <li>如果需要的话，输入一个不同的文件名。</li>
+
+  <li>在站点名称列表里，选择发布的位置，要设置一个新的发布位置，点击新建站点按钮，
+更多相关信息，请参阅: <a href="#publish_page_settings">发布页面 - 设置</a>
   </li>
+
+  <li>点发布保存文档到新的位置。</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">返回到开头</a> ]</p>
+
+<h3 id="creating_a_new_publishing_site">创建一个新的发布站点</h3>
+
+<p>如果您计划发布文档到几个远程位置，您可以设置 &brandShortName; 为每个远程位置保存
+发布信息，这样在发布时，您就不必每次都要输入信息。</p>
+
+<p>要创建一个新的发布站点，在 &brandShortName; 窗口操作如下:</p>
+
+<ol>
+  <li>打开编辑菜单，选择发布站点设置 &brandShortName; 显示发布设置对话框</li>
+
+  <li>点击 新建站点。</li>
+
+  <li>在“站点名称”中输入一个昵称，它代表您要发布到的站点。
+
+  <p>例如，如果您想要在新站点发布与“Meteor”项目相关的页面，您可以使用站点的名称
+“Meteor”，站点名称可以提醒您要发布的文档类型。</p> </li>
+
+  <li>在“发布地址“中，输入完整的由 ISP、系统管理员或是网站主机提供商您的地址，这
+个地址必须由 <tt>ftp://</tt> 或 <tt>http://</tt> 开头。
+
+  <p>发布地址是指文档发布(上传)的位置，如果您不确定是什么，请询问您的 ISP 或系统管理员。
+  </p> </li>
+
+  <li>在“您的主页 HTTP 地址”中，输入完整的用浏览器访问页面时的地址，不要在地址中包括
+文件名或子目录。
+
+  <p>这个地址必须以 <tt>http://</tt> 开头，在某些情况下，这个地址跟发布地址相同，如果
+您不确定是什么， 请询问您的 ISP 或系统管理员，或者保持为空。
+  </p> </li>
+
+  <li>在用户名中，输入您登录 ISP 或网站主机服务所使用的用户名。</li>
+
+  <li>在密码中，输入跟用户名对应的密码。</li>
+
+  <li>选中“保存密码”，将使用密码管理器安全保存您的密码，这样您发布页面时，不必每次都输入。</li>
+
+  <li>点确定完成。</li>
+</ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">返回到开头</a> ]</p>
+
+<h3 id="changing_the_default_publishing_site">更改默认的发布站点</h3>
+
+<p>如果您设置了多个发布站点，但您通常有一个使用最多的，您可以把这个最常用的站点作为默认站点。
+&brandShortName; 将使用默认发布站点发布您所有的文档，除非您指定了一个别的站点。</p>
+
+<p>不管您设置了多少站点，您总是可以通过在文件菜单里的 发布为 命令，发布文档到指定的站点。更多
+相关信息，请参阅: <a
+href="#changing_the_filename_or_publishing_location">更改文件名或发布位置</a>。</p>
+
+<p>要设定默认的发布站点，在 &brandShortName; 窗口中，按如下操作:</p>
+
+<ol>
+  <li>打开编辑菜单，然后选择发布站点设置，&brandShortName; 显示发布设置对话框。</li>
+
+  <li>从列表中选择一个发布站点。
+
+  <p>如果您只有一个发布站点，&brandShortName; 将使用它作为默认站点。</p> </li>
+
+  <li>点击 设为默认。</li>
+
+<li>点确定完成您的更改。</li> </ol>
+
+<p class="returnToSection">[ <a
+href="#publishing_a_document">返回到开头</a> ]</p>
+
+<h3 id="deleting_a_publishing_site">删除一个发布站点</h3>
+
+<p>在&brandShortName; 中删除发布站点，删除发布设置，如果您以后想发布到此站点，您必须
+要重新输入站点的设置。</p>
+
+<p>要删除一个发布站点设置，在 &brandShortName; 中，操作如下:</p>
+
+<ol>
+  <li>打开编辑菜单，选择发布站点设置，&brandShortName; 显示发布设置对话框。</li>
   
-  <li>To browse your published page, click the Browse button. Test the
-  page's links and make
-  sure there are no missing images.</li>
-
-  <li>Continue editing the page as necessary. When you're ready to
-  update the remote page
-  with your changes, click the Publish button.</li>
-</ol>
-
-<p>When you publish a document for the first time, &brandShortName;
-changes the document's <tt>file:///</tt> URL to an <tt>http://</tt>
-URL to indicate that you are now editing the published document. If
-you want to save the document locally (on your computer's hard disk),
-click the Save button. You'll be prompted to choose a filename and
-location on your hard disk for the document.</p>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h3 id="avoiding_broken_links_or_images">Tips for Avoiding Broken
-Links or Missing Images</h3>
-
-<ul>
-  <li>Make sure your &brandShortName; filenames end with the .html
-  or .htm file extension. Make sure your image filenames end with the
-  .JPG, .GIF, or .PNG file extension. Don't use spaces or other special
-  symbols in your filenames. Keep your filenames short and only use
-  lowercase or uppercase letters and numbers.</li>
-
-  <li>If your images appear as broken links when you browse a document
-  on the web server, you may have forgotten to include the images when
-  you published. Open the File menu, and choose Publish As to display
-  the Publish Page dialog box. In the Publish tab, make sure you check
-  "Include images and other files" and then click Publish.</li>
-</ul>
-
-<p>For more troubleshooting tips, see
-<a href="#solving_common_publishing_problems">Solving Common
-Publishing Problems</a>.</p>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h3 id="updating_a_published_document">Updating a Published
-Document</h3>
-
-<p>To update a published document:</p>
-
-<ol>
-  <li>In a &brandShortName; window, open the File menu, and choose
-  Recent Pages, then select the
-  document from the list. <p>Alternatively, browse to the location
-  of the document you
-  want to update by entering the document's HTTP address (the
-  document's web address)
-  in the Navigator browser's Location field.</p></li>
+  <li>从列表中选择一个发布站点</li>
   
-  <li>Open the File menu, and choose Edit Page.</li>
-
-  <li>Edit the document as necessary.</li>
-
-  <li>When you're ready to update the remote page with your changes,
-  click Publish in &brandShortName;'s toolbar.</li>
-</ol>
-
-<p id="deleting_a_published_page_or_image"><strong>Tip</strong>: To
-delete a page or image you've published on a web server, you must use
-an FTP (File Transfer Protocol) program. You also must use an FTP
-program if you want to create subdirectories or to rename files on the
-web server. Ask your service provider if they recommend a particular
-FTP program. You can usually find information on FTP programs in the
-Help or Support sections of your service provider's web site. FTP
-programs are also available from shareware sites such as ZDNet
-Downloads.</p>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h3 id="changing_the_filename_or_publishing_location">Changing the
-Filename or Publishing Location</h3>
-
-<p>To change a document's filename or publishing location:</p>
-
-<ol>
-  <li>In a &brandShortName; window, open the File menu, and choose
-  Recent Pages, then select the
-  document from the list. <p>Alternatively, browse to the location
-  of the document you
-  want to update by entering the document's HTTP address (the
-  document's web address)
-  in the Navigator browser's Location field.</p></li>
-  
-  <li>Open the File menu, and choose Edit Page.</li>
-  
-  <li>Edit the document as necessary.</li>
-
-  <li>Open &brandShortName;'s File menu and choose Publish
-  As. &brandShortName; displays the Publish tab
-  in the Publish Page dialog box.</li>
-
-  <li>Enter a different page title, if necessary.</li>
-
-  <li>Enter a different filename for the page, if necessary.</li>
-
-  <li>From the Site Name list, choose the publishing location you want
-  to use. To set up a new
-  publishing location, click New Site. See
-  <a href="#publish_page_settings">Publish Page - Settings</a>
-  for more information.</li>
-
-  <li>Click Publish to save the document to the new location.</li>
-</ol>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h3 id="creating_a_new_publishing_site">Creating a New Publishing
-Site</h3>
-
-<p>If you plan to publish documents to more than one remote location,
-you can set up &brandShortName; to save the publishing information for
-each remote site you use, so that you don't have to enter it each time
-you want to publish.</p>
-
-<p>To create a new publishing site, begin from a &brandShortName;
-window:</p>
-
-<ol>
-  <li>Open the Edit menu and choose Publishing Site Settings.
-  &brandShortName; displays the Publish Settings dialog box.</li>
-
-  <li>Click New Site.</li>
-
-  <li>For "Site Name," enter the nickname by which you want to refer to
-  this publishing site.
-
-  <p>For example, if you will use the new site to publish documents
-  related to the "Meteor" project, you might want to use the site name
-  "Meteor". Site names remind you about the types of documents you
-  publish at each site.</p> </li>
-
-  <li>For "Publishing address," enter the complete URL provided to you
-  by your ISP, system administrator, or web hosting service. This URL
-  must begin with either <tt>ftp://</tt> or <tt>http://</tt>.
-
-  <p>The publishing address specifies the location where documents are
-  published (uploaded) at this site. If you are not sure what to enter,
-  ask your ISP or system administrator.</p> </li>
-
-  <li>For "HTTP address of your home page," enter the complete URL that
-  you would enter in the Navigator browser to view pages at this
-  site. Do not include a filename or subdirectory as part of the URL.
-
-
-  <p>This URL must always begin with <tt>http://</tt>. In some cases,
-  this URL is the same as the publishing address. If you are not sure
-  what to enter, ask your ISP or system administrator, or else leave it
-  blank.</p> </li>
-
-  <li>For user name, enter the user name you use to log in to your ISP
-  or web hosting service.</li>
-
-  <li>For password, enter the password for your user name.</li>
-
-  <li>Select "Save Password" to save your password securely using
-  Password Manager so that you don't have to enter it each time you
-  publish pages at this site.</li>
-
-  <li>Click OK.</li>
-</ol>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h3 id="changing_the_default_publishing_site">Changing the Default
-Publishing Site</h3>
-
-<p>If you have set up more than one publishing site, but you typically
-use only one site for most of your publishing needs, you can designate
-the site you use most often as the default publishing
-site. &brandShortName; will use the default publishing site for all
-documents that you publish, unless you specifically choose an
-alternate site.</p>
-
-<p>Regardless of how many sites you've set up, you can always publish
-a document to a different site by choosing Publish As from
-&brandShortName;'s File menu. See <a
-href="#changing_the_filename_or_publishing_location">Changing the
-Filename or Publishing Location</a> for more information.</p>
-
-<p>To choose the default publishing site, begin from a
-&brandShortName; window:</p>
-
-<ol>
-  <li>Open the Edit menu, and choose Publishing Site Settings.
-  &brandShortName; displays the Publish Settings dialog box.</li>
-
-  <li>Select a publishing site from the list.
-
-  <p>If you only have one publishing site set up, &brandShortName; uses
-  that one as the default site.</p> </li>
-
-  <li>Click Set as Default.</li>
-
-<li>Click OK to confirm your changes.</li> </ol>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h3 id="deleting_a_publishing_site">Deleting a Publishing Site</h3>
-
-<p>Deleting a publishing site removes the site's settings from
-&brandShortName;. If you later wish to publish to the site, you must
-re-enter the site's settings.</p>
-
-<p>To delete a publishing site's settings, begin from a
-&brandShortName; window:</p>
-
-<ol>
-  <li>Open the Edit menu, and choose Publishing Site
-  Settings. &brandShortName; displays the Publish
-  Settings dialog box.</li>
-  
-  <li>Select a publishing site from the list.</li>
-  
-  <li>Click Remove Site.
-  <p>&brandShortName; only removes the site's settings; the remote
-  site itself is not
-  affected.</p></li>
-
-  <li>Click OK to confirm your changes.</li>
-</ol>
-
-<p class="returnToSection">[ <a
-href="#publishing_a_document">Return to beginning of
-section</a> ]</p>
-
-<h2 id="publishing_settings">Publishing Settings</h2>
-
-<p>This section describes &brandShortName;'s publishing settings. For
-information on &brandShortName;'s general and new page settings, see
-<a href="composer_help.xhtml#composer_preferences">&brandShortName; Preferences</a>.</p>
-
-<h3 id="publish_page_publish">Publish Page - Publish</h3>
-
-<p>The Publish Page - Publish tab lets you specify where you want to
-publish a document. These settings apply to the current document.</p>
-
-<p>If you are not already viewing the Publish Page - Publish tab,
-follow these steps:</p>
-
-<ol>
-  <li>Open the File menu and choose Publish As. The Publish Page
-  dialog box appears.</li>
-
-  <li>Click the Publish tab.</li>
-</ol>
-
-<ul> <li><strong>Site Name:</strong> Lists all the publishing sites
-you've created, so you can choose the site that you want to publish
-to. To create a new site, click New Site.</li>
-
-<li><strong>Page Title:</strong> Specifies the document's page title
-as it appears in the browser window's title bar when you view the page
-in the browser. The document's page title also appears in your list of
-bookmarks if you bookmark the page.</li>
-
-<li><strong>Filename:</strong> Specifies the document's filename. Make
-sure you include the .html or .htm extension in the filename.</li>
-
-<li style="list-style-type: none; list-style-position: outside;
-    list-style-image: none;"> <p><strong>Warning</strong>: If a file on
-    the remote site you're publishing to has the same filename as one
-    you're uploading, the newly uploaded file will replace the existing
-one. You will not be asked to confirm the action.</p> </li>
-
-<li><strong>Site subdirectory for this page:</strong> If you leave
-this blank, &brandShortName; publishes the page to the main (root)
-publishing directory at this site. If you want to publish the page to
-a remote subdirectory that resides underneath the main publishing
-directory at this site, enter the name of the subdirectory or choose
-it from the list. &brandShortName; keeps track of the locations you
-type here, so you can select from a list of remote locations you've
-previously used. Keep in mind that subdirectory names are
-case-sensitive.</li>
-
-<li style="list-style-type: none; list-style-position: outside;
-    list-style-image: none;"> <p><strong>Note:</strong> The site
-    subdirectory you choose must already exist at the remote server.</p>
-</li>
-
-<li><strong>Include images and other files</strong>: If checked,
-&brandShortName; publishes any images and other files referenced by
-this page. You can choose to publish these files to the same location
-as the page, or else you can choose to publish these files into a
-remote subdirectory that exists underneath the main publishing
-directory.</li>
-</ul>
-
-<p><strong>Tip</strong>: To create remote subdirectories or delete
-published pages or images, you must use an FTP (File Transfer
-Protocol) program. Ask your service provider if they recommend a
-particular FTP program. You can usually find information on FTP
-programs in the Help or Support sections of your service provider's
-web site. FTP programs are also available from shareware sites such as
-ZDNet Downloads.</p>
-
-<p class="publishing_settings">[ <a
-href="#">Return to beginning of
-section</a> ]</p>
-
-<h3 id="publish_page_settings">Publish Page - Settings</h3>
-
-<p>The Publish Page - Settings tab lets you specify your login
-information for the remote
-publishing site, as well as the publishing settings for the remote
-site. These settings
-apply to the current document and any other files you publish to
-this location.</p>
-
-<p>If you are not already viewing the Publish Page - Settings tab,
-follow these steps:</p>
-
-<ol>
-  <li>Open the File menu and choose Publish As. The Publish Page
-  dialog box appears.</li>
-
-  <li>Click the Settings tab.</li>
-</ol>
-
-<ul>
-  <li><strong>Site Name</strong>: Specifies the nickname you want to
-  use for this publishing site.
-  Enter a short name that will help you identify this publishing
-  site.</li>
-
-  <li id="host_name_for_publishingSDX"><strong>Publishing
-  address</strong>: Specifies the complete
-  URL provided to you by your ISP or system administrator. This URL
-  should begin with
-  either <tt>ftp://</tt> or <tt>http://</tt>. This name is often
-  referred to as the "host name" or the "host server name".</li>
-
-  <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;">
-    <p>The publishing address specifies the location where documents
-    are published (uploaded)
-    at this site. If you are not sure what to enter, ask your
-    ISP or system administrator.
+  <li>点删除站点。
+  <p>&brandShortName; 只删除站点设置，站点本身并不会受到影响。
   </p></li>
 
-  <li><strong>HTTP address of your home page</strong>: Specifies the
-  complete address of your publishing
-  home directory. This is the web address of the home page at your
-  web site. Do not include
-  a filename or subdirectory as part of the URL.</li>
-
-  <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;">
-    <p>This URL must always begin with <tt>http://</tt>. In some
-    cases, this URL is the same
-    as the publishing address. If you are not sure what to
-    enter, ask your ISP or system
-  administrator, or else leave it blank.</p></li>
-
-  <li><strong>User name</strong>: Specifies the user name you use to
-  log into your ISP or network.</li>
-
-  <li><strong>Password</strong>: Specifies the password for your user
-  name.</li>
-
-  <li><strong>Save Password</strong>: Select this to encrypt and save
-  your password securely
-  using Password Manager so that you don't have to enter it each
-  time you publish pages at
-  this site.</li>
-</ul>
+  <li>点确定完成更改。</li>
+</ol>
 
 <p class="returnToSection">[ <a
-href="#publishing_settings">Return to beginning of
-section</a> ]</p>
+href="#publishing_a_document">返回到开头</a> ]</p>
 
-<h3 id="publish_settings">Publish Settings</h3>
+<h2 id="publishing_settings">发布设置</h2>
 
-<p>The Publish Settings dialog box lets you create, edit, and delete
-publishing site settings, and also lets you set the default publishing
-site.</p>
+<p>这一章讲述 &brandShortName; 的发布设置，更多 &brandShortName; 的常规和新页设置，
+请参阅: <a href="composer_help.xhtml#composer_preferences">&brandShortName; 首选项</a>。</p>
 
-<p>If you are not already viewing the Publish Settings dialog box,
-follow these steps:</p>
+<h3 id="publish_page_publish">发布页面 - 发布</h3>
+
+<p>发布页面 - 在发布标签中，您可以指定文档发布的位置，这个设置只应用于当前文档</p>
+
+<p>如果您还没有看到发布页面 - 发布标签，请按下面步骤操作:</p>
 
 <ol>
-  <li>Open the Edit menu and choose Publishing Site Settings.
-  &brandShortName; displays the Publish Settings dialog box.</li>
+  <li>打开文件擦掉，然后选择 发布为，出来发布页面对话框。</li>
+
+  <li>点击发布标签。</li>
+</ol>
+
+<ul> <li><strong>站点名称:</strong> 列出所有您创建的发布站点，您可以选择一个发布，
+要创建一个新站点，点 新建站点。</li>
+
+<li><strong>页面标题:</strong> 指定文档的页面标题，它将出现在访问者浏览器的标题栏中。
+文档页面标题，也出现在您的书签列表里，如果您添加了书签。</li>
+
+<li><strong>文件名:</strong> 指定文档的文件名，确保文件的扩展名是  .html 或 .htm</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>警告</strong>: 如果远程发布站点上已经
+存在您要发布的同名文件，新上传的文件会替换原来已经存在的，您会被提示确认覆盖操作。
+  </p> </li>
+
+<li><strong>发布页面到子目录:</strong> 如果此项为空，&brandShortName; 将发布页面到
+主目录(根目录)中。如果您想发布页面到一个远程子目录中，在这里输入子目录，或者从目录中选择
+一个。&brandShortName; 会跟踪您在这儿输入的位置，因此您可以从已经使用过的远程位置里边中
+选择一个，注意子目录的名称是区分大小写的。
+</li>
+
+<li style="list-style-type: none; list-style-position: outside;
+    list-style-image: none;"> <p><strong>注意:</strong> 您选择的站点子目录必须是存在的。</p>
+</li>
+
+<li><strong>包括图片和其他文件</strong>: 选中此项，&brandShortName; 将同时发布此页面链接
+的所有图片和其他文件，您可以选择发布到同一位置，或者发布到已经存在的站点子目录中。
+</li>
+
+</ul>
+
+<p><strong>小提示</strong>: 要创建一个远程子目录，或者删除已经发布的网页或图片，
+您必须使用 FTP(文件传输协议)程序，问一下服务提供商，如果他们
+推荐了一个特定的 FTP 程序，您一般可以在网络提供商网站的帮助和支持里，找到 FTP 的
+相关信息，FTP 程序也可以在一些共享站点像 ZDNet 上找到。</p>
+
+<p class="publishing_settings">[ <a
+href="#">返回到开头</a> ]</p>
+
+<h3 id="publish_page_settings">发布页面 - 设置</h3>
+
+<p>发布页面 - 设置标签，允许您指定您在这个发布站点上的登录信息，跟发布设置一样。
+这个设置应用于当前文档和其他要发布到这个位置上的文件。</p>
+
+<p>如果您还没有看到发布页面 - 设置标签，请按如下操作:</p>
+
+<ol>
+  <li>打开文件菜单，然后选择发布为，出来发布对话框。</li>
+
+  <li>点设置标签。</li>
 </ol>
 
 <ul>
-  <li><strong>New Site</strong>: Lets you specify settings for a
-  new publishing site. &brandShortName; adds the name of the new
-  publishing site to the list of available publishing sites.</li>
+  <li><strong>站点名称</strong>: 指定您想发布站点的昵称，输入一个较短的名称
+作为此发布站点的标识。</li>
 
-  <li><strong>Set as Default</strong>: Sets the selected publishing site
-  as the default publishing site. Typically, the default publishing site
-  is the remote location that you most often use for publishing
-  documents. All documents you create or edit will be published to the
-  default publishing site, unless you specifically choose an alternate
-  site in the Publish Page dialog box.</li>
+  <li id="host_name_for_publishingSDX"><strong>发布地址</strong>: 输入
+完整的由 ISP、系统管理员提供给您的地址，这个地址必须由 <tt>ftp://</tt> 或 <tt>http://</tt> 开头。这个名称问我作为“主机名”或“主机服务器名”。</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <p>To publish a document to a different
-      remote location, open the File menu and choose Publish As to choose a
-      different publishing destination.</p>
-  </li>
+      list-style-image: none;">
+    <p>发布地址是指文档发布(上传)的位置，如果您不确定是什么，请询问您的 ISP 或系统管理员。
+  </p></li>
 
-  <li><strong>Remove Site</strong>: Removes the selected site and its
-  settings from &brandShortName;.</li>
-
-  <li><strong>Site Name</strong>: Specifies the name by which you want
-  to refer to this publishing site.</li>
-
-  <li><strong>Publishing address</strong>: Specifies the complete URL
-  provided to you by your ISP or system administrator. This URL should
-  begin with either <tt>ftp://</tt> or <tt>http://</tt>.</li>
+  <li><strong>您的主页 HTTP 地址</strong>: 指定您发布主目录的完整地址，这是您网站主目录的
+网址，不要在地址中包括文件名或子目录。</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <p>The publishing address specifies the
-      location where documents are published (uploaded) at this site. If you
-      are not sure what to enter, ask your ISP or system administrator.</p>
-  </li>
+      list-style-image: none;">
+    <p>这个地址必须以 <tt>http://</tt> 开头。在某些情况下，这个地址跟发布地址相同，如果
+您不确定是什么， 请询问您的 ISP 或系统管理员，或者保持为空。</p></li>
 
-  <li><strong>HTTP address of your homepage</strong>: Specifies the HTTP
-  address of your publishing home directory. Do not include a filename
-  or subdirectory as part of the URL.</li>
+  <li><strong>用户名</strong>: 指定您用来登录 ISP 或网络的用户名称。</li>
 
-  <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <p>This URL must always begin with
-      <tt>http://</tt>. In some cases, this URL is the same as the
-      publishing address. If you are not sure what to enter, ask your ISP or
-  system administrator, or else leave it blank.</p> </li>
+  <li><strong>密码</strong>: 指定跟用户名对应的密码。</li>
 
-  <li><strong>User name</strong>: Specifies the user name you use to log
-  in to your ISP or network.</li>
-
-  <li><strong>Password</strong>: Specifies the password for your user
-  name.</li>
-
-  <li><strong>Save Password</strong>: Select this to save your password
-  securely using Password Manager so you don't have to enter it each
-  time you publish pages at this site.</li>
+  <li><strong>保存密码</strong>: 选中此项，将使用密码管理器加密保存您的密码，这样您发布页面时，不必每次都输入密码。</li>
 </ul>
 
-<p>[ <a href="#publishing_settings">Return to beginning of section</a> ]</p>
+<p class="returnToSection">[ <a
+href="#publishing_settings">返回到开头</a> ]</p>
 
+<h3 id="publish_settings">发布设置</h3>
 
-<h2 id="solving_common_publishing_problems">Solving Common Publishing
-Problems</h2>
+<p>发布设置对话框允许您创建、编辑和删除发布站点设置，也允许您设定默认发布站点。</p>
 
-<p>If any of your files fails to publish, the Publishing Status
-dialog box displays an error message that can help you determine what
-went wrong and how to fix it. Click the Troubleshooting button in the
-Publishing Status dialog box to get help on solving your publishing
-problem.</p>
-
-<p>If you are still unable to publish a file, save the file to your
-hard disk by opening &brandShortName;'s File menu, and choosing
-Save. You can then open the file at a later time to try to publish
-it. To quickly locate the file later, open &brandShortName;'s File
-menu, and choose Recent Pages.</p>
-
-<h3 id="verifying_your_publishing_settings">Verifying Your Publishing
-Settings</h3>
-
-<p>To verify your publishing settings:</p>
+<p>如果您还没有看到发布设置对话框，请按如下操作:</p>
 
 <ol>
-  <li>Close the Publishing Status dialog box, if it is open.</li>
+  <li>打开编辑菜单，然后选择发布站点设置 &brandShortName; 显示发布设置对话框。</li>
+</ol>
 
-  <li>Open the Edit menu and choose Publishing Site Settings.</li>
+<ul>
+  <li><strong>新建站点</strong>: 允许您设定一个新的发布站点。&brandShortName; 添加
+新的发布站点到可用站点列表中。</li>
 
-  <li>In the Publish Settings dialog box, confirm that the site settings
-  are correct for the site you are trying to publish to. If you're not
-  sure, check with your ISP or web hosting service.</li>
+  <li><strong>设为默认</strong>: 设置选中的发布站点成为默认的发布站点。通常，
+默认发布站点是您最常用的发布站点。所有您创建和编辑的文档会发布到这个站点，除非您
+在发布页面对话框选择了其他发布站点。</li>
 
   <li style="list-style-type: none; list-style-position: outside;
-      list-style-image: none;"> <ul> <li><strong>Verify that you correctly
-      entered the publishing settings.</strong> You may have accidentally
-      mistyped one of the settings.</li>
+      list-style-image: none;"> <p>要发布文档到一个不同的远程位置，打开文件
+菜单，然后选择 发布为，选择一个不同的发布位置。</p>
+  </li>
 
-      <li><strong>Verify that you entered the correct publishing
-      address.</strong> Web hosting services or ISPs may refer to the
-      publishing address as the "server name", the "hostname", or the
-      "server/host". They often specify the publishing location as
-      <tt>ftp.myisp.com/username</tt>, where <tt>username</tt> is your user
-      name.
+  <li><strong>删除站点</strong>: 从 &brandShortName; 中删除选中的站点和它的设置。</li>
 
-      <p>For the publishing address to be correct, you must precede the
-      publishing location with either <tt>ftp://</tt> or
-      <tt>http://</tt>. For example, the correct publishing address for the
-      above-mentioned site would be
-      <tt>ftp://ftp.myisp.com/username</tt>.</p> </li>
+  <li><strong>站点名称</strong>: 指定您想指向发布站点的名称。</li>
+
+  <li><strong>发布地址</strong>: 输入
+完整的由 ISP、系统管理员提供给您的地址，这个地址必须由 <tt>ftp://</tt> 或 <tt>http://</tt> 开头。</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>发布地址是指文档发布(上传)的位置，如果您不确定是什么，请询问您的 ISP 或系统管理员。</p>
+  </li>
+
+  <li><strong>您的主页 HTTP 地址</strong>: 指定您发布主目录的 HTTP 地址，不要在地址中包括文件名或子目录。</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <p>这个地址必须以 <tt>http://</tt> 开头。在某些情况下，这个地址跟发布地址相同，如果您不确定是什么， 请询问您的 ISP 或系统管理员，或者保持为空。</p> </li>
+
+  <li><strong>用户名</strong>: 指定您用来登录 ISP 或网络的用户名称。</li>
+
+  <li><strong>密码</strong>: 指定跟用户名对应的密码。</li>
+
+  <li><strong>保存密码</strong>: 选中此项，将使用密码管理器安全地保存您的密码，这样您发布页面时，不必每次都输入密码。</li>
+</ul>
+
+<p>[ <a href="#publishing_settings">返回到开头</a> ]</p>
+
+
+<h2 id="solving_common_publishing_problems">解决常见问题</h2>
+
+<p>如果文件发布失败，发布状态对话框会显示一条错误信息，提示错误原因以及如何修复它。
+点击错误诊断按钮，获得解决发布错误的帮助。</p>
+
+<p>如果您仍然不能发布文件，打开 &brandShortName; 的文件菜单选择保存，保存文件到本地硬盘，
+您可以稍后重试发布它，要快速打开这个文件，打开 &brandShortName; 的文件菜单，然后选择最近
+打开页面。</p>
+
+<h3 id="verifying_your_publishing_settings">验证您的发布设置</h3>
+
+<p>要验证您的发布设置:</p>
+
+<ol>
+  <li>关闭发布状态对话框，如果它是开着的话。</li>
+
+  <li>打开编辑菜单，然后选择发布站点设置。</li>
+
+  <li>在发布设置对话框中，检查站点设置是否正确，如果您不确定，可以询问 ISP 或主机提供商。</li>
+
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li><strong>检查您正确输入了发布设置</strong>您可能在设置中出现了错误的拼写。</li>
+
+      <li><strong>检查您是否正确输入了发布地址。</strong> 网站主机或 ISP 可以把发布地址
+用“服务器名称”、“主机名称”或者是“服务器/ 主机”来表示。他们常常指定发布位置为
+ <tt>ftp.myisp.com/username</tt>，这儿的 <tt>username</tt> 是您的用户名。
+
+      <p>如果发布地址是正确的，您必须要加上 <tt>ftp://</tt> 或者
+      <tt>http://</tt>。例如，正确的发布地址应该是这样的
+      <tt>ftp://ftp.myisp.com/username</tt>。</p> </li>
       </ul>
   </li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#solving_common_publishing_problems">Return to beginning of
-section</a> ]</p>
+href="#solving_common_publishing_problems">返回到开头</a> ]</p>
 
-<h3 id="checking_your_filenames">Checking Your Filenames</h3>
+<h3 id="checking_your_filenames">检查文件名</h3>
 
-<p>Examine the names of any files that failed to publish. Make sure
-that the filenames:</p>
+<p>检查各个发布失败的文件名，确保那些文件名:</p>
 
 <ul>
-  <li>Use only numbers or lowercase or uppercase letters. While
-  it's acceptable to create filenames that use uppercase letters, you
-  can avoid potential errors in later locating the published file if you
-  only use lowercase letters in your filenames.
+  <li>仅使用数字、小写字母、大写字母，如果创建的可接受文件名是大写字母，您可能会用小写而发生错误。
 
-  <p>When you publish files to a web server, filenames become
-  case-sensitive on the web server. It may be harder for you to remember
-  files names that use only uppercase letters or that use a mix of
-  uppercase and lowercase letters.</p>
+  <p>当您发布文件到网站上，文件名是大小写敏感的，记住那些只有大写或者大小写混合的文件名是很
+困难的。</p>
 
-  <p>For example, when you try to locate a published file by typing the
-  filename's web address into Navigator's Location field, you must enter
-  the filename exactly as you created it, using the same combination of
-  uppercase and lowercase letters.</p> </li>
+  <p>例如，当你试图中浏览器中输入网页的地址文件名时，您必须输入精确的，使用大小写组合的文件名。</p> </li>
 
-  <li>Don't use punctuation characters or spaces. Underscores ( _ ) or
-  hyphens ( - ) are OK.</li>
+  <li>不要使用标点符号或空格，下划线( _ ) 和连字符( - ) 是可以的。</li>
 
-  <li>End with .html or .htm (for &brandShortName; filenames).</li>
+  <li>文件名结尾是 .html 或 .htm (对于 &brandShortName; 文件名)。</li>
 
-  <li>Use less than 32 characters.</li>
+  <li>不要超过32个字符。</li>
 </ul>
 
 <p class="returnToSection">[ <a
-href="#solving_common_publishing_problems">Return to beginning of
-section</a> ]</p>
+href="#solving_common_publishing_problems">返回到开头</a> ]</p>
 
-<h3 id="fixing_publishing_errors">Fixing Publishing Errors</h3>
+<h3 id="fixing_publishing_errors">修复发布错误</h3>
 
-<p>If one or more of your files fails to publish, look at the messages
-&brandShortName; displays in the Publishing Status area of the
-Publishing dialog box. You can use these error messages to help
-determine what went wrong and what to do to fix the problem.</p>
+<p>如果文件发布失败，仔细查看 &brandShortName; 在发布状态对话框里的错误提示。
+您可以通过错误消息帮助检测错误原因以及该如何解决。</p>
 
-<div class="errorMessage"> <p id="file_not_found"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="file_not_found"><strong>错误消息:</strong></p>
 
 <div class="errorBox">
-  <tt><var>Filename</var> not found</tt>
-  <p>or</p>
-<tt><var>X</var> of <var>Y</var> files failed to publish</tt> </div>
+  <tt><var>文件</var> 未找到</tt>
+  <p>或者</p>
+<tt><var>Y</var> 的 <var>X</var> 发布失败</tt> </div>
 
-<p><strong>Error Description:</strong> One or more image files or CSS
-files failed to
-publish because &brandShortName; could not find them. Some typical
-reasons might be:</p>
+<p><strong>错误描述:</strong> 一个或几个图片文件或 CSS 文件发布失败，原因是
+ &brandShortName; 未能找到它们，可能的原因是:</p>
 
 <ul>
-  <li>The file location you typed is incorrect.</li>
+  <li>您输入的文件位置错误。</li>
   
-  <li>The file's location on the web is not accessible.</li>
+  <li>网站上的文件位置不允许访问。</li>
 
-  <li>The file's location was changed or the file was deleted or moved
-  to another
-  location.</li>
+  <li>文件位置改变，或者文件被删除或移动到其他位置。</li>
 </ul>
 
-<p><strong>Possible Solutions:</strong></p>
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Look for broken images in the page you are trying to
-  publish. Broken images will
-  appear with this icon <img src="images/broken.gif" width="20"
-  height="20" alt="" />
-  in the page. To correct the image's address, double-click the
-  broken image to
-  display the Image Properties dialog box so you can enter the
-  correct address.</li>
+  <li>在页面中查找缺失的图片，缺失图片显示有这样的图标 <img src="images/broken.gif" />，要纠正图片地址，双击这个图片，中出来的图片属性对话框中，
+输入正确的图片地址。</li>
 
-  <li>Remove the broken image from the page by selecting it (click
-  once on the image),
-  and then pressing Backspace or Delete on your keyboard.</li>
+  <li>要删除缺失的图片，点击选中图片标记，然后按退格键或 Delete 键。</li>
 
-  <li>If the image is unavailable because the server where the image
-  resides is
-  inaccessible, try publishing the page at a later time.</li>
+  <li>如果图片不可用是因为服务器暂时不可用，可以在稍后重试。</li>
 
-  <li>If the missing file is a CSS file, you must first verify the
-  correct location of
-  the CSS file. To fix the file's address in &brandShortName;, click
-  the HTML Source tab and
-  edit the file's location in the HTML source code. You should
-  only edit the HTML source
-  if you are familiar with HTML tags.</li>
+  <li>如果是缺失了 CSS 文件，您首先要验证 CSS 文件的位置。要在  &brandShortName; 中修复地址错误，
+点击 HTML 源代码标签，在代码方式下编辑文件的位置。如果您对 HTML 标记比较熟悉，可以只编辑 HTML 源代码。</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="subdir_not_found"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="subdir_not_found"><strong>错误消息:</strong></p>
 
 <div class="errorBox">
-  <tt>The subdirectory <var>directory name</var> doesn't exist on this
-  site or the filename
-  <var>filename</var> is already in use by another subdirectory</tt>
-  <p>or</p>
-  <tt>The filename <var>filename</var> is already in use by another
-subdirectory</tt> </div>
+  <tt>子目录<var>directory name</var> 不存在或没有这个文件名
+  <var>filename</var> 已经被其他子目录使用</tt>
+  <p>或者</p>
+  <tt>文件名 <var>filename</var> 已经被其他子目录使用</tt> </div>
 
-<p><strong>Error Description:</strong> You specified the name of a
-remote subdirectory that
-does not exist at the publishing site. &brandShortName; can only
-publish to a remote subdirectory
-that already exists at the publishing location. Or, you specified a
-filename that is
-identical to the name of an existing subdirectory at the publishing
-site.</p>
+<p><strong>错误描述:</strong> 您指定的远程发布站点子目录不存在，&brandShortName; 只能发布
+到一个已经存在的子目录中。或者，您指定的文件名已经有一个同名的子目录使用。</p>
 
-<p>For example, in the Publish Page dialog box, under the Publish
-tab:</p>
+<p>例如，中发布页面对话框的发布标签中:</p>
 
 <ul>
-  <li>for "Site subdirectory for this page", you may have typed the
-  name of a subdirectory
-  that does not exist at the publishing location.</li>
+  <li>“使用站点子目录”，您可能输入了一个远程站点上，不存在的子目录名称。</li>
 
-  <li>you checked "Include images and other files," and then you typed
-  the name of a
-  subdirectory that does not exist at the publishing location.</li>
+  <li>如果您选中了“包括图片和其他文件”，然后您输入了一个不存在的子目录名称。</li>
 
-  <li>one of the files you are attempting to publish has the same name
-  as a subdirectory at
-  the publishing site.</li>
+  <li>您试图发布的一个文件名，在发布站点上有相同的，已经作为子目录的名称。</li>
 </ul>
 
-<p><strong>Possible Solutions:</strong></p>
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Use a separate FTP program if you want to create, rename, or
-  delete subdirectories at
-  the publishing site. Ask your service provider if they recommend a
-  particular FTP
-  program. You can usually find information on FTP programs in
-  the Help or Support
-  sections of your service provider's web site. FTP programs are
-  also available from
-  shareware sites such as ZDNet Downloads.</li>
+  <li>使用单独的 FTP 程序，在发布站点上进行创建、重命名或者删除子目录，
+问一下服务提供商，如果他们
+推荐了一个特定的 FTP 程序，您一般可以在网络提供商网站的帮助和支持里，找到 FTP 的
+相关信息，FTP 程序也可以在一些共享站点像 ZDNet 上找到。</li>
 
-  <li>Don't use subdirectory names that end with ".html" or
-  ".htm". Only your &brandShortName;
-  filenames should end with ".html" or ".htm".</li>
+  <li>子目录的名称不要用“.html”或“.htm”做扩展名，只是 &brandShortName;
+  的文件名使用“.html”或“.htm”</li>
 
-  <li>Subdirectory names are case-sensitive, so be sure to enter a
-  subdirectory name exactly as it appears at the publishing location.</li>
+  <li>子目录的名称是区分大小写的，因此确保输入的子目录名称是精确匹配发布站点上的位置。</li>
 </ul>
 </div>
 
-<div class="errorMessage"> <p id="server_not_found"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="server_not_found"><strong>错误消息:</strong></p>
 
 <div class="errorBox">
-  <tt>The server is not available. Check your connection and try again
-later.</tt> </div>
+  <tt>服务器不可用，请检查您的网络链接，稍后重试。</tt> </div>
 
-<p><strong>Error Description:</strong> This error can have many
-causes. For example:</p>
+<p><strong>错误描述:</strong> 这个错误可能由许多原因造成，例如:</p>
 
 <ul>
-  <li>Your publishing site settings may not be correct.</li>
+  <li>您的发布站点设置可能不正确。</li>
 
-  <li>Your Internet connection may have been lost.</li>
+  <li>您的网络链接可能断开。</li>
 
-  <li>Your modem or other equipment that you use to connect to the
-  Internet might not be
-  functioning correctly.</li>
+  <li>您的调制解调器或其他网络连接设备出故障。</li>
 
-  <li>The web server that you are trying to publish to might be
-  unavailable due to a
-  technical problem or to an unknown circumstance.</li>
+  <li>发布站点可能出现技术问题，或者发生未知错误。</li>
 
-  <li>Your ISP or web hosting service may be experiencing technical
-  problems.</li>
+  <li>您的 ISP 或主机服务商可能出现技术问题。</li>
 </ul>
 
-<p><strong>Possible Solutions:</strong></p>
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Verify that your publishing settings are correct and that you
-  entered them correctly.
-  See <a href="#verifying_your_publishing_settings">Verifying Your
-  Publishing Settings</a>
-  for more information.</li>
+  <li>检查您的发布设置是否正确，您的输入也是正确的。更多信息请参阅: 
+ <a href="#verifying_your_publishing_settings">检查您的发布设置</a>。
+  </li>
 
-  <li>Make sure your Internet connection is working by attempting to
-  view a web page using
-  the Navigator browser. For example, confirm that you can
-  successfully view the page
-  <tt>http://www.mozilla.org</tt>.</li>
+  <li>确保您的网络连接工作正常，尝试用浏览器访问站点，确认您可以成功访问
+  <tt>http://www.mozilla.org</tt>。</li>
 
-  <li>If your Internet connection is not working, verify that all
-  hardware, telephone
-  connections, modems, and network connections are functioning
-  properly.</li>
+  <li>如果您的网络连接不能工作，检查各个硬件、电话连接、调制解调器是功能正常的。</li>
 
-  <li>Use the Navigator browser to try to view a page at the web site
-  you are attempting
-  to publish to. If you can successfully view other web sites but
-  cannot view a page at
-  the publishing site, your ISP or web hosting service may be
-  experiencing technical
-  problems.</li>
+  <li>使用浏览器尝试访问发布站点的某个页面，如果能成功访问其他网站，但不能浏览发布站点里的页面，
+那么您的 ISP 或主机提供商可能出现技术问题。</li>
 
-  <li>Try publishing again later. Your ISP, web hosting service, or the
-  web server may be
-  experiencing temporary technical difficulties.</li>
+  <li>稍后重新尝试发布，您的 ISP 或主机提供商可能暂时出现问题。</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="no_permission"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="no_permission"><strong>错误信息:</strong></p>
 
 <div class="errorBox">
-  <tt>You do not have permission to publish to this location.</tt>
+  <tt>您没有发布到这个位置的权限。</tt>
 </div>
 
-<p><strong>Error Description:</strong> You are attempting to publish
-to a location that
-you are not authorized to use. You can only publish to sites where
-you have been granted
-access by your ISP or web hosting service.</p>
+<p><strong>错误描述:</strong> 您要发布的位置不允许使用，您只能发布到 ISP 或主机提供商允许访问的站点。</p>
 
-<p><strong>Possible Solutions:</strong></p>
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Verify that you entered the correct user name and password in
-  the Publishing Site
-  Settings dialog box, or in the Publish tab of the Publish dialog
-  box.</li>
+  <li>检查您在发布站点设置对话框，是否输入了正确的用户名和密码。</li>
 
-  <li>Contact your ISP to find out where you can publish your pages at
-  their site.</li>
+  <li>联系您的 ISP，查询您可以在哪个站点发布网页。</li>
 
-  <li>Find a web hosting service that you can use to publish your
-  pages. In the Navigator
-  browser, search for "web hosting".</li>
+  <li>搜索一个可以发布网页的主机服务网站，在浏览器中，搜索“网站主机”。</li>
 
-  <li>Use &brandShortName; My Webpage
-  <a href="http://mywebpage.netscape.com/"
+  <li>使用 &brandShortName; 我的网页  <a href="http://mywebpage.netscape.com/"
   target="_blank"><tt>http://mywebpage.netscape.com/</tt></a>
-  to host your web pages, up to 20 megabytes for free.</li>
+发布网页，免费提供 20M 空间。</li>
 </ul>
 </div>
 
-<div class="errorMessage"> <p id="offline_error"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="offline_error"><strong>错误消息:</strong></p>
 
 <div class="errorBox">
-  <tt>You are currently offline. Click the icon near the lower-right
-  corner of any
-window to go online.</tt> </div>
+  <tt>您当前处于脱机状态，点窗口右下角的图标进行联机。</tt> </div>
 
-<p><strong>Error Description:</strong> You are attempting to publish,
-but your &brandShortName;
-Internet connection is currently in the "offline" state. Your
-Internet connection must
-be in the "online" state (connected to the Internet) in order to
-publish your pages.</p>
+<p><strong>错误描述:</strong> 您正准备发布，但您的 &brandShortName;
+网络连接当前是“脱机”状态，必须是“联机”状态(连接到互联网)才能发布页面。</p>
 
-<p>Verify that your Internet connection is currently offline by
-looking at the online/offline
-icon in the lower right corner of any &brandShortName; window. If
-you are currently offline, the
-icon appears as <img src="images/offline.gif" width="32" height="21"
-alt="" />.</p>
-
-<p><strong>Possible Solutions:</strong></p>
+<p>通过右下角的联机/脱机图标，检查您的网络连接，如果当前脱机状态，会显示
+一个图标: <img src="images/offline.gif"  />。</p>
+<!--发布完成后打开此窗口，改成继续显示此窗口
+增加两个联机和脱机的图标，用网络连接图标-->
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Click the online/offline icon to go online. In the online state,
-  the icon should look
-  like this: <img src="images/online.gif" width="32" height="20"
-  alt="" />.</li>
+  <li>点击联机/脱机图标连接网络，联机状态的图标应该这样显示: <img src="images/online.gif" />。</li>
 
-  <li>Make sure your Internet connection is working by attempting to
-  view a web page using
-  the Navigator browser. For example, confirm that you can
-  successfully view the page
-  <tt>http://www.mozilla.org</tt>.</li>
+  <li>通过浏览器访问网页，确保您的网络连接是工作正常的，例如，您可以访问这一页来确认: 
+  <tt>http://www.mozilla.org</tt>。</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="no_disk_space"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="no_disk_space"><strong>错误信息:</strong></p>
 
 <div class="errorBox">
-  <tt>There is not enough disk space available to save the file
-<var>filename</var>.</tt> </div>
+  <tt>没有足够的可用空间来保存文件
+<var>filename</var>。</tt> </div>
 
-<p><strong>Error Description:</strong> The remote web server's hard
-disk is full, or you
-may have exceeded the amount of disk space allocated to you by your
-ISP or web hosting
-service.</p>
+<p><strong>错误描述:</strong> 远程站点磁盘空间已满，或者您可以使用的空间已用完。</p>
 
-<p><strong>Possible Solutions:</strong></p>
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Use a separate FTP program to delete unnecessary files at your
-  publishing site. Ask
-  your service provider if they recommend a particular FTP
-  program. You can usually find
-  information on FTP programs in the Help or Support sections of
-  your service provider's
-  web site. FTP programs are also available from shareware sites
-  such as ZDNet
-  Downloads.</li>
+  <li>使用单独的 FTP 程序，在发布站点上删除不需要的文件子目录，
+问一下服务提供商，如果他们
+推荐了一个特定的 FTP 程序，您一般可以在网络提供商网站的帮助和支持里，找到 FTP 的
+相关信息，FTP 程序也可以在一些共享站点像 ZDNet 上找到。</li>
 
-  <li>Find out from your ISP or web hosting service about increasing
-  your disk space
-  allocation, or switch to a different service that can satisfy your
-  needs.</li>
+  <li>联系您的 ISP 或主机提供商，增加您的可用磁盘空间，或者使用其他的站点。</li>
 
-  <li>If the web server is located at your company or school, contact
-  the network
-  administrator to find out if you can publish to a different
-  location that has more disk
-  space, or if you can request that additional disk space be
-  allocated to your current
-  publishing location.</li>
+  <li>如果服务器是在您的公司或学校，联系网络管理员，询问是否可以发布到有更多磁盘空间的位置。
+或者您请求增加您当前发布位置的可用磁盘空间。</li>
 </ul> </div>
 
-<div class="errorMessage"> <p id="name_too_long"><strong>Error
-Message:</strong></p>
+<div class="errorMessage"> <p id="name_too_long"><strong>错误信息:</strong></p>
 
 <div class="errorBox">
-<tt>The filename or subdirectory name is too long.</tt> </div>
+<tt>文件名或子目录名太长。</tt> </div>
 
-<p><strong>Error Description:</strong> The number of characters in the
-filename or the
-subdirectory name is not supported by the web server computer that
-you are trying to
-publish to.</p>
+<p><strong>错误描述:</strong> 您要发布的文件名或子目录名太长，超过了站点服务器支持的字符书。</p>
 
-<p><strong>Possible Solutions:</strong></p>
+<p><strong>解决方案:</strong></p>
 
 <ul>
-  <li>Limit the length of your filenames and subdirectory names to
-  less than 32 characters.
-  Some operating systems do not support names longer than 32
-  characters.</li>
+  <li>减少文件名或子目录名少于32个字符，一些操作系统不支持超过32个字符的文件名。</li>
 </ul> </div>
 
 <p class="returnToSection">[ <a
-href="#solving_common_publishing_problems">Return to beginning of
-section</a> ]</p>
+href="#solving_common_publishing_problems">返回到开头</a> ]</p>
 
-<div class="copyrightBox"><em>21 March 2005</em></div>
+<div class="copyrightBox"><em>TeliuTe, 2009年6月26日</em></div>
 
-<p>Copyright &copy; 2004-2005 Contributors to the Nvu
-Help Documentation Project.</p>
+<p>&copy; Nvu, KompoZer 帮助文档项目贡献者，版权所有。</p>
 
 </body>
 </html>
