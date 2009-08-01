@@ -38,9 +38,9 @@
     <rdf:Description about="#a">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description ID="accessibility-options" nc:name="Accessibility Options" nc:link="prefs.xhtml#accessibility"/></rdf:li>
-                <rdf:li><rdf:Description ID="advanced-options" nc:name="Advanced Options" nc:link="prefs.xhtml#advanced_options"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Advanced Property Editor" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
+                <rdf:li><rdf:Description ID="accessibility-options" nc:name="輔助功能選項" nc:link="prefs.xhtml#accessibility"/></rdf:li>
+                <rdf:li><rdf:Description ID="advanced-options" nc:name="高級選項" nc:link="prefs.xhtml#advanced_options"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="高級屬性編輯器" nc:link="formatting_webpages.xhtml#using_the_advanced_property_editor"/></rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -48,8 +48,8 @@
     <rdf:Description about="#b">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Background Colors, Page" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
-                <rdf:li><rdf:Description nc:name="Browsing Page" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="頁面背景" nc:link="page_properties.xhtml#setting_page_colors_and_backgrounds"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="瀏覽頁面" nc:link="composer_help.xhtml#composer_help.xhtml#saving_and_browsing_your_new_page"/></rdf:li>
             </rdf:Seq>
         </nc:subheadings>
     </rdf:Description>
@@ -57,7 +57,7 @@
     <rdf:Description about="#c">
         <nc:subheadings>
             <rdf:Seq>
-                <rdf:li><rdf:Description nc:name="Changing Text Color, Style, Font" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
+                <rdf:li><rdf:Description nc:name="更改文本颜色、樣式、字體" nc:link="formatting_webpages.xhtml#changing_text_color_style_and_font"/></rdf:li>
                 <rdf:li><rdf:Description nc:name="Composition Toolbar" nc:link="composer_tutorial.xhtml#composition_toolbar"/></rdf:li>
                 <rdf:li><rdf:Description nc:name="Copying Tables" nc:link="tables.xhtml#moving_copying_and_deleting_tables"/></rdf:li>
                 <rdf:li><rdf:Description nc:name="Creating Stylesheets" nc:link="css.xhtml#creating_style_sheets_with_nvu"/></rdf:li>

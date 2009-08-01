@@ -1,0 +1,20 @@
+<!ENTITY helpers.label "外部應用程式">
+
+<!ENTITY application.label "應用程式:">
+<!ENTITY webBrowser.label "網頁瀏覽器">
+<!ENTITY textEditor.label "文字編輯器">
+<!ENTITY imageEditor.label "圖片編輯器">
+<!ENTITY mediaPlayer.label "媒體播放器">
+<!ENTITY fileManager.label "檔案管理器">
+<!ENTITY ftpClient.label "FTP 客户端">
+
+<!ENTITY useSystemHelper.label "使用系統預設值">
+<!ENTITY useCustomHelper.label "使用自訂應用程式:">
+<!ENTITY path.label "檔案路徑">
+<!ENTITY arguments.label "参數">
+<!ENTITY filePicker.tooltip "選擇文件…">
+
+<!ENTITY fileFilter.label "副檔名(*):">
+<!ENTITY default.label "預設">
+<!ENTITY needToRestart.label "(*)KompoZer 重新啟動後，設定的變更才會生效。">
+

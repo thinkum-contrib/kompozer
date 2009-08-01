@@ -1,251 +1,194 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
-<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
-%brandDTD; ] >
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+[ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
 
-<html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Creating Web Pages with &brandShortName;</title>
-<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 31 October 2006), see www.w3.org" />
+
+  <title>用 &amp;brandShortName; 建立網頁</title>
+  <link rel="stylesheet" type="text/css" href=
+  "chrome://help/skin/helpFileLayout.css" />
 </head>
 
 <body>
+  <script type="text/javascript">
+//<![CDATA[
+  var isDisplayed = true;  function togglePanel() {   isDisplayed = !isDisplayed;   var displayValue = isDisplayed ? "display: block" : "display: none";   var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";    document.getElementById("contentsBox").setAttribute("style", displayValue);   document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue); } 
+  //]]>
+  </script>
 
-<script type="text/javascript">
-var isDisplayed = true;
+  <table width="100%" id="navTable">
+    <tr>
+      <td valign="bottom" width="20"><small><a href="#" onclick=
+      "togglePanel();" style=
+      "margin-top:10px;">顯示/隱藏</a></small></td>
 
-function togglePanel() {
-  isDisplayed = !isDisplayed;
-  var displayValue = isDisplayed ? "display: block" : "display: none";
-  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+      <td width="72"><img src=
+      "chrome://editor/skin/icons/throbber.png" width="32" height=
+      "32" alt="&amp;brandShortName;" align="center" /></td>
 
-  document.getElementById("contentsBox").setAttribute("style", displayValue);
-  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-}
-</script>
+      <td align="left"><span id="topText">說明中心</span></td>
+    </tr>
+  </table>
 
-<table width="100%" id="navTable">
-<tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
-</tr>
-</table>
+  <div id="contentsBox">
+    在此小節中：<a href="#starting_a_new_page">開始新頁面</a> <a href=
+    "formatting_webpages.xhtml">格式化您的網頁</a> <a href=
+    "css.xhtml">使用樣式表來指定您網頁的格式</a> <a href=
+    "tables.xhtml">在您的網頁中加入表格</a> <a href=
+    "images.xhtml">在您的網頁中加入圖片</a> <a href=
+    "toc.xhtml">在您的網頁中加入目錄</a> <a href="templates.xhtml">使用樣本</a>
+    <a href="page_properties.xhtml">設定頁面屬性</a> <a href=
+    "links.xhtml">在 &amp;brandShortName; 內建立連結</a> <a href=
+    "customize.xhtml">自訂 &amp;brandShortName;</a>
+  </div>
 
-<div id="contentsBox">In this section:
-  <a href="#starting_a_new_page">Starting a New Page</a>
+  <h1 id="creating_web_pages_with_composer">用 &amp;brandShortName;
+  建立網頁</h1>
 
-  <a href="formatting_webpages.xhtml">Formatting Your Web Pages</a>
+  <p>&amp;brandShortName; 讓您輕鬆建立與發佈自己的網頁。您不需要瞭解
+  HTML，就像用一般文字處理程式一樣就行了。</p>
 
-  <a href="css.xhtml">Using Style Sheets to Style Your Web Pages</a>
+  <p>
+  工具列按鍵讓您新增列表、表格、影像、連結、顏色與字型。您可以直接看到您的網頁的樣子，並且與其他使用者分享您的文件，不管他們用的是哪種瀏覽器或電子郵件程式。</p>
 
-  <a href="tables.xhtml">Adding Tables to Your Web Page</a>
+  <h2 id="starting_a_new_page">開始新頁面</h2>
 
-  <a href="images.xhtml">Adding Pictures (Images) to Your Web Page</a>
+  <h3 id="creating_a_new_page">建立新頁面</h3>
 
-  <a href="toc.xhtml">Working with Table of Contents on Your Web
-  Page</a>
+  <p>&amp;brandShortName; 是一個 HTML
+  編輯器，讓您可以建立與編輯網頁。&amp;brandShortName;
+  是一個<em>所見即所得</em>（WYSIWYG）的編輯器，在編輯過程中，您看到的頁面就會是您的讀者所看到的。您不需要瞭解
+  HTML，因為大部份 HTML 的功能都可以由工具列與選單中取得。</p>
 
-  <a href="templates.xhtml">Working With Templates </a>
+  <p>&amp;brandShortName; also lets you edit the HTML source if you
+  want. To view or edit the HTML source code, open the View menu,
+  and choose HTML Source, or click the &lt;HTML&gt; Source tab in
+  the Edit Mode toolbar at the bottom of the &amp;brandShortName;
+  window.</p>
 
-  <a href="page_properties.xhtml">Setting Page Properties</a>
+  <p>要建立頁面，只要用以下其中一種方法。您開始編輯一個頁面之後，您可以像在文字編輯器裡一樣新增與編輯文字</p>
 
-  <a href="links.xhtml">Creating Links in &brandShortName;</a>
+  <p><strong>在 &amp;brandShortName; 裡建立新頁面</strong>:</p>
 
-  <a href="customize.xhtml">Customizing &brandShortName;</a>
+  <ul>
+    <li>在 &amp;brandShortName; 工具列中點擊「新增」按鍵。</li>
+  </ul>
 
-</div>
+  <p><strong>要開啟您本地的 HTML 檔</strong>:</p>
 
-<h1 id="creating_web_pages_with_composer">Creating Web Pages
-with &brandShortName;</h1>
+  <ol>
+    <li>開啟視窗選單，並選擇 &amp;brandShortName;。您就可以看到 &amp;brandShortName;
+    視窗。</li>
 
-<p>&brandShortName; lets you create your own web pages and publish them
-on the web. You don't have to know HTML to use &brandShortName;; it is
-as easy to use as a word processor.</p>
+    <li>開啟<span class="menuPath">檔案</span>選單並選擇<span class=
+    "menuPath">開啟檔案</span>。您可以看到「開啟 HTML 檔」的對話框。</li>
 
-<p>Toolbar buttons let you add lists, tables, images, links to other
-pages, colors, and font styles. You can see what your document will
-look like on the Web as you create it, and you can easily share your
-document with other users, no matter what type of browser or
-HTML-capable email program they use.</p>
+    <li>請指定您要編輯的本地檔案。</li>
 
-<h2 id="starting_a_new_page">Starting a New Page</h2>
+    <li>點擊<span class="menuPath">開啟</span>在 &amp;brandShortName;
+    視窗中顯示您指定的檔案。</li>
+  </ol>
 
-<h3 id="creating_a_new_page">Creating a New Page</h3>
+  <p><strong>要編輯網頁</strong>:</p>
 
-<p>&brandShortName; is an HTML (Hypertext Markup Language) editor that
-allows you to create and edit web pages. &brandShortName; is a
-<em>WYSIWYG</em> (What You See Is What You Get) editor, so you can
-display how your page will look to the reader as you're creating
-it. It is not necessary for you to know HTML, since most of the basic
-HTML functions are available as commands from the toolbars and
-menus.</p>
+  <ol>
+    <li>開啟 &amp;brandShortName;</li>
 
-<p>&brandShortName; also lets you edit the HTML source if you want. To
-view or edit the HTML source code, open the View menu, and choose HTML
-Source, or click the &lt;HTML&gt; Source tab in the Edit Mode toolbar
-at the bottom of the &brandShortName; window.</p>
+    <li>點擊<span class="menuPath">檔案</span>選單並選擇<span class=
+    "menuPath">開啟網頁位置</span>。您可以看到「開啟網頁位置」對話框。</li>
 
-<p>To create a web page, use one of the methods described below.  Once
-you've started a page, you can add and edit text just as you would in
-a word processor.</p>
+    <li>
+    輸入要編輯的網頁的網址（例如，<tt>http://www.mozilla.org</tt>）並點擊「建立」按鍵。您會看到網頁顯示在
+    &amp;brandShortName;。</li>
+  </ol>
 
-<p><strong>To create a new page in &brandShortName;</strong>:</p>
+  <p>&amp;brandShortName; 也會給您一些用 <acronym title=
+  "Extensible Hyper Text Markup Language">XHTML</acronym>建立新文件的選項。要建立
+  XHTML 文件，請在「建立新文件或樣本」的對話框中勾選「建立 XHTML 文件」。</p>
 
-<ul>
-  <li>Click the New button in &brandShortName;'s toolbar.</li>
-</ul>
+  <p><strong>提示</strong>：在 &amp;brandShortName;
+  視窗中您可以快速開啟最近使用過的檔案，只要在「檔案」選單中，選擇「最近開啟的頁面」，並選擇您要使用的檔案。</p>
 
-<p><strong>To start from an HTML file stored on your local
-drive</strong>:</p>
+  <p>[ <a href="#starting_a_new_page">回到此小節的開頭</a> ]</p>
 
-<ol>
-  <li>Open the Window menu and choose &brandShortName;. You see the
-  &brandShortName; window.</li>
+  <h3 id="tabs_editing_multiple_documents">分頁─編輯多個文件</h3>
 
-  <li>Open the <span class="menuPath">File</span> menu and choose
-  <span class="menuPath">Open File</span>. You see the Open HTML File
-  dialog box.</li>
+  <p>&amp;brandShortName; 讓您可以同時編輯多份文件。您不需要開多個視窗，只要使用「分頁」的功能。您可以同時在
+  &amp;brandShortName; 視窗中將多個文件開啟在不同的分頁中。</p>
 
-  <li>On your local drive, locate the file that you want to edit.</li>
+  <p>分頁可以用 <kbd>Ctrl+T</kbd>
+  或在開啟新檔案對話框中選擇「建立於：新分頁」。雖然在不同的分頁，不過彼此之間是獨立的。每個文件的狀態都會呈現出來。</p>
 
-  <li>Click <span class="menuPath">Open</span> to display the
-  specified file in a &brandShortName; window.</li>
-</ol>
+  <p>[ <a href="#starting_a_new_page">回到此小節的開頭</a> ]</p>
 
-<p><strong>To edit a web page</strong>:</p>
+  <h3 id="saving_and_browsing_your_new_page">儲存與瀏覽您的新頁面</h3>
 
-<ol>
-  <li>Open &brandShortName;</li>
+  <p>您可以用 HTML 或純文字格式儲存您的 &amp;brandShortName; 文件。以 HTML
+  格式儲存，會保留文件的格式，如文字樣式（粗體或斜體），表格，連結，圖片等。以純文字模式儲存的話，會移除所有 HTML
+  標籤，但保留文字的部份。</p>
 
-  <li>Click on <span class="menuPath">File</span> menu and choose
-  <span class="menuPath">Open Web Location</span>. You will see the
-  Open Web Location dialog box.</li>
+  <p>要將文件儲存成 HTML 檔：</p>
 
-  <li>Type in the URL of the page to edit (for example,
-  <tt>http://www.mozilla.org</tt>) and click Create button. You will see
-  the page displayed in &brandShortName;.</li> 
-</ol>
+  <ul>
+    <li>開啟「檔案」選單，選擇「儲存」或直接點擊工具列上的「儲存」按鍵。
 
-<p>&brandShortName; also gives you the option of creating a new
-document using the <acronym title="Extensible Hyper Text Markup
-Language">XHTML</acronym> format. To create an XHTML document, check
-the option "create an XHTML document" in the <em>Create New Document
-or Template</em> dialog box.</p>
+      <p>若您尚未指定頁面的標題，&amp;brandShortName; 會提示您。&amp;brandShortName;
+      會將頁面標題顯示在瀏覽器視窗的標題列。文件的頁面標題也會在您將頁面加入書籤時，出現在書籤的清單中。</p>
 
-<p><strong>Tip</strong>: In the &brandShortName; window you can
-quickly open the most recent file you've been working on by opening
-the File menu, choosing Recent Pages, and then selecting the file you
-want from the list.</p>
+      <p>&amp;brandShortName; 接著會提示您輸入檔名與指定儲存檔案的位置。請確定您保留 .html
+      做為副檔名。儲存或編輯 XHTML 文件時，副檔名應為 <tt>.xhtml</tt>。以 <tt>.html</tt>
+      做副檔名的 XHTML 文件並不會被認為是 <tt>xhtml</tt> 文件。</p>
+    </li>
+  </ul>
 
-<p>[ <a href="#starting_a_new_page">Return to beginning of section</a>
-]</p>
+  <p>要變更 HTML 檔的檔名或位置：</p>
 
-<h3 id="tabs_editing_multiple_documents">Tabs - Editing Multiple Documents</h3>
+  <ul>
+    <li>選擇「檔案」─「另存為」，並輸入新檔名或位置。</li>
+  </ul>
 
-<p>&brandShortName; allows you to edit multiple documents at the same
-time. Rather than to shift from one window to another for editing more
-than one document, &brandShortName; offers the feature of
-<strong>Tabs</strong>. More than one document can be opened at the
-same time with &brandShortName; in the same window but in different
-tabs.</p>
+  <p>當您在 &amp;brandShortName;
+  中儲存頁面時，頁面中的所有部件（HTML，影像與其它檔案，如音效等、樣式表等），都會儲存在您的硬碟中。若您只要儲存 HTML
+  的部份，您必須變更 &amp;brandShortName; 的儲存頁面的喜好設定。關於變更儲存頁面的設定，請參考
+  <a href="preferences.xhtml">&amp;brandShortName; 喜好設定</a>。</p>
 
-<p>Tabs can be opened using either <kbd>Ctrl+T</kbd> or by choosing
-Create in: <em>New Tab</em> in the New file open dialog. Even with
-multiple tabs open, each is handled independently. Each document's
-state is indicated, i.e. if it is modified and needs saving by a
-red-floppy icon on the corresponding tab.</p>
+  <p>若是影像位置為絕對位置（以 http:// 開頭），同時您已連線到網際網路，您可以在
+  &amp;brandShortName; 與瀏覽器中看見該圖片。不過，若是相對位置（以 file///
+  開頭），則您將無法在本地端文件看到圖片。</p>
 
-<p>[ <a href="#starting_a_new_page">Return to beginning of section</a>
-]</p>
+  <p>要將文件存成純文字檔：</p>
 
-<h3 id="saving_and_browsing_your_new_page">Saving and Browsing Your
-New Page</h3>
+  <ol>
+    <li>開啟「檔案」選單，並選擇「匯出到文字檔」。</li>
 
-<p>You can save &brandShortName; documents in HTML or text-only
-format.  Saving a document in HTML format preserves the document's
-formatting, such as text styles (for example, bold or italic), tables,
-links, and images. Saving a document in text-only format removes all
-the HTML tags but preserves the document's text.</p>
+    <li>輸入檔名並指定您要儲存檔案的位置。</li>
+  </ol>
 
-<p>To save a document as an HTML file:</p>
+  <p><strong>注意</strong>：影像不會出現在純文字格式的文件中。</p>
 
-<ul> 
-  <li>Open the File menu and choose Save or click the Save button
-  on the Composition toolbar.
+  <p>
+  <strong>提示</strong>：您可以選擇「檔案」選單中的「回復」，取回最近一次儲存的文件複本。不過這樣一來，您目前的變更將會消失。</p>
 
-  <p>If you haven't already given your page a title, &brandShortName;
-  prompts you to do so. &brandShortName; displays the page title in the
-  browser window's title bar when you view the page in the browser. The
-  document's page title also appears in your list of bookmarks if you
-  bookmark the page.</p>
+  <p>在瀏覽器中檢視您的頁面並測試連結：</p>
 
-  <p>&brandShortName; then prompts you to enter a filename and specify
-  the location where you want to save the file. Make sure you preserve
-  the .html extension in the filename. While saving or editing
-  documents employing XHTML, the file should have the extension as
-  <tt>.xhtml</tt>. Files with an extension <tt>.html</tt> but having
-  an XHTML DOCTYPE are not considered as <tt>xhtml</tt> documents.</p>
-  </li>
-</ul>
+  <ul>
+    <li>
+    開啟「檔案」選單，選擇「瀏覽頁面」，或是在工具列上點擊「瀏覽」。若您尚未儲存您的文件，&amp;brandShortName;
+    會提示您輸入頁面標題、檔名與位置。在瀏覽視窗開啟後 &amp;brandShortName; 視窗並不會消失。</li>
+  </ul>
 
-<p>To change the filename or location of an existing HTML file:</p>
+  <p>[ <a href="#starting_a_new_page">回到此小節的開頭</a> ]</p>
 
-<ul>
-  <li>Choose <span class="menuPath">File > Save As</span> and select a different filename or
-  location.</li>
-</ul>
+  <p>[<a href="formatting_webpages.xhtml">下一頁</a>]</p>
 
-<p>When you save a page in &brandShortName;, all parts of the page
-(the HTML, images and other files, such as sound files and style
-sheets), are saved locally on your hard drive. If you only want to
-save the HTML part of the page, you must change the &brandShortName;
-preference for saving pages. See <a
-href="preferences.xhtml">&brandShortName; Preferences</a> for more
-information on changing &brandShortName;'s setting for saving
-pages.</p>
+  <div class="copyrightBox">
+    <em>20 June 2005</em>
+  </div>
 
-<p>If an image location is absolute (starts with "http://") and you
-are connected to the Internet, you will still see that image in the
-document in &brandShortName; and Navigator. However, if the image
-location is relative to the page location (starts with "file:///"),
-then you won't see the image in the local version of the document.</p>
-
-<p>To save a document as a text-only file:</p>
-
-<ol>
-  <li>Open the <span class="menuPath">File</span> menu and choose <span class="menuPath">Export to Text</span>.</li>
-
-  <li>Enter the filename and specify the location where you want to save
-  the file.</li>
-</ol>
-
-<p><strong>Note</strong>: Images do not appear in documents saved in
-the text-only format.</p>
-
-<p><strong>Tip</strong>: You can choose Revert from the File menu to
-retrieve the most recently saved copy of the document in which you're
-working. Keep in mind that your current changes will be lost.</p>
-
-<p>To view your page in a browser window in order to test your
-links:</p>
-
-<ul>
-  <li>Open the File menu and choose Browse Page (or click Browse in
-  the Composition toolbar). If you have not yet saved your document,
-  &brandShortName; prompts you to enter a page title, filename, and
-  location.  The &brandShortName; window remains open behind the new
-  Navigator window.</li>
-</ul>
-
-<p>[ <a href="#starting_a_new_page">Return to beginning of
-section</a> ]</p>
-
-<p>[<a href="formatting_webpages.xhtml">Next</a>]</p>
-
-  <div class="copyrightBox"><em>20 June 2005</em></div>
-
-<p>Copyright &copy; 2004-2005 Contributors to the Nvu
-Help Documentation Project.</p>
-
+  <p>Copyright © 2004-2005 Nvu 說明文件專案的貢獻者。</p>
 </body>
 </html>

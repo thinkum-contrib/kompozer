@@ -1,86 +1,86 @@
-<!ENTITY printCmd.commandkey            "p">
+<!ENTITY printCmd.commandkey "p">
 
-<!ENTITY viewCustomizeToolbar.label     "Customize…">
+<!ENTITY viewCustomizeToolbar.label "自訂(C)…">
 <!ENTITY viewCustomizeToolbar.accesskey "C">
 
-<!ENTITY findOnCmd.commandkey           "F">
-<!ENTITY findAgainCmd.commandkey        "G">
-<!ENTITY findAgainCmd.commandkey        "G">
-<!ENTITY findAgainCmd.commandkey2       "VK_F3">
-<!ENTITY findDialog.title "Find in This Page">
-<!ENTITY findDialogFrame.title "Find in This Frame">
-<!ENTITY findField.label "Find what:">
-<!ENTITY findField.accesskey "n">
-<!ENTITY caseSensitiveCheckbox.label "Match case">
-<!ENTITY caseSensitiveCheckbox.accesskey "c">
-<!ENTITY wrapCheckbox.label "Wrap">
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findDialog.title "在目前頁面裡尋找">
+<!ENTITY findDialogFrame.title "在目前框架裡尋找">
+<!ENTITY findField.label "尋找(N):">
+<!ENTITY findField.accesskey "N">
+<!ENTITY caseSensitiveCheckbox.label "區分大小寫(C)">
+<!ENTITY caseSensitiveCheckbox.accesskey "C">
+<!ENTITY wrapCheckbox.label "循環(W)">
 <!ENTITY wrapCheckbox.accesskey "W">
-<!ENTITY backwardsCheckbox.label "Search backwards">
-<!ENTITY backwardsCheckbox.accesskey "b">
-<!ENTITY findField.tooltip "Type one or more words to search for">
-<!ENTITY findButton.label "Find Next">
+<!ENTITY backwardsCheckbox.label "向後搜尋(B)">
+<!ENTITY backwardsCheckbox.accesskey "B">
+<!ENTITY findField.tooltip "輸入要搜尋的文字">
+<!ENTITY findButton.label "找下一個(F)">
 <!ENTITY findButton.accesskey "F">
-<!ENTITY cancelButton.label "Cancel">
-<!ENTITY up.label "Up">
+<!ENTITY cancelButton.label "取消">
+<!ENTITY up.label "上(U)">
 <!ENTITY up.accesskey "U">
-<!ENTITY down.label "Down">
+<!ENTITY down.label "下(D)">
 <!ENTITY down.accesskey "D">
-<!ENTITY direction.label "Direction">
+<!ENTITY direction.label "方向">
 
-<!ENTITY find.label "Find:">
-<!ENTITY findNext.label "Find Next">
-<!ENTITY findNext.tooltip "Find the next occurrence of the phrase">
-<!ENTITY findPrevious.label "Find Previous">
-<!ENTITY findPrevious.tooltip "Find the previous occurrence of the phrase">
-<!ENTITY findCloseButton.tooltip "Close Find bar">
-<!ENTITY highlight.label "Highlight">
-<!ENTITY highlight.tooltip "Highlight all occurrences of the phrase (Ctrl+Enter)">
+<!ENTITY find.label "尋找:">
+<!ENTITY findNext.label "尋找下一個">
+<!ENTITY findNext.tooltip "尋找下一個相同項">
+<!ENTITY findPrevious.label "尋找上一個">
+<!ENTITY findPrevious.tooltip "尋找上一個相同項">
+<!ENTITY findCloseButton.tooltip "關閉尋找工具列">
+<!ENTITY highlight.label "高亮度">
+<!ENTITY highlight.tooltip "將所有符合的地方以高亮度突顯(Ctrl+Enter)">
 
-<!ENTITY backButton.label               "Back">
-<!ENTITY backButton.accesskey           "B">
-<!ENTITY backButton.tooltip             "Go back one page">
-<!ENTITY forwardButton.label            "Forward">
-<!ENTITY forwardButton.accesskey        "F">
-<!ENTITY forwardButton.tooltip          "Go forward one page">
-<!ENTITY homeButton.label               "Home">
-<!ENTITY homeButton.tooltip             "Go to the Help Start Page">
-<!ENTITY printButton.label              "Print">
-<!ENTITY printButton.tooltip            "Print this page">
-<!ENTITY findBtn.label		  	"Find">
-<!ENTITY sidebarBtn.label               "Toggle Sidebar">
-<!ENTITY sidebarBtn.tooltip             "Show or Hide the Help Sidebar">
-<!ENTITY textZoomReduceBtn.label 	"Decrease Text Size">
-<!ENTITY textZoomReduceBtn.accesskey    "D">
-<!ENTITY textZoomReduceBtn.tooltip      "Decrease the size of the text in Help documents.">
-<!ENTITY textZoomEnlargeBtn.label 	"Increase Text Size">
-<!ENTITY textZoomEnlargeBtn.accesskey   "I">
-<!ENTITY textZoomEnlargeBtn.tooltip     "Increase the size of the text in Help documents.">
-<!ENTITY customizeButton.tooltip        "Customize which buttons are shown on the Help toolbar.">
-<!ENTITY reloadCmd.label                "Reload">
-<!ENTITY reloadCmd.accesskey            "R">
-<!ENTITY closeWindow.commandkey         "W">
-<!ENTITY copyCmd.label                  "Copy">
-<!ENTITY copyCmd.accesskey              "C">
+<!ENTITY backButton.label "返回(B)">
+<!ENTITY backButton.accesskey "B">
+<!ENTITY backButton.tooltip "上一頁">
+<!ENTITY forwardButton.label "前進(F)">
+<!ENTITY forwardButton.accesskey "F">
+<!ENTITY forwardButton.tooltip "到下一頁">
+<!ENTITY homeButton.label "首頁">
+<!ENTITY homeButton.tooltip "轉到說明起始頁">
+<!ENTITY printButton.label "列印">
+<!ENTITY printButton.tooltip "列印此頁">
+<!ENTITY findBtn.label "尋找">
+<!ENTITY sidebarBtn.label "切換側邊欄">
+<!ENTITY sidebarBtn.tooltip "顯示或隱藏說明側邊欄">
+<!ENTITY textZoomReduceBtn.label "縮小文字(D)">
+<!ENTITY textZoomReduceBtn.accesskey "D">
+<!ENTITY textZoomReduceBtn.tooltip "縮小說明文件裡的文字。">
+<!ENTITY textZoomEnlargeBtn.label "放大文字(I)">
+<!ENTITY textZoomEnlargeBtn.accesskey "I">
+<!ENTITY textZoomEnlargeBtn.tooltip "放大說明文件裡的文字。">
+<!ENTITY customizeButton.tooltip "自訂哪些按鈕顯示在說明工具列中。">
+<!ENTITY reloadCmd.label "重新載入(R)">
+<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY closeWindow.commandkey "W">
+<!ENTITY copyCmd.label "複製(C)">
+<!ENTITY copyCmd.accesskey "C">
 
-<!ENTITY throbberItem.title             "Activity Indicator">
+<!ENTITY throbberItem.title "啟動指示器">
 
-<!ENTITY cmd_CustomizeToolbars.label    "Customize" >
+<!ENTITY cmd_CustomizeToolbars.label "自訂">
 
-<!ENTITY searchtab.label    	  	"Search">
-<!ENTITY searchtab.accesskey            "S">
-<!ENTITY searchbtn.label    	  	"Find">
-<!ENTITY toctab.label       	  	"Contents">
-<!ENTITY toctab.accesskey               "C">
-<!ENTITY indextab.label     	  	"Index">
-<!ENTITY indextab.accesskey             "I">
-<!ENTITY ixname.label       	  	"Name">
-<!ENTITY glossarytab.label  	  	"Glossary">
-<!ENTITY glossarytab.accesskey          "G">
-<!ENTITY glossname.label    	  	"Name">
-<!ENTITY gobtn.label        	  	"Search">
-<!ENTITY name.label	    	  	"Item">
+<!ENTITY searchtab.label "搜尋(S)">
+<!ENTITY searchtab.accesskey "S">
+<!ENTITY searchbtn.label "尋找">
+<!ENTITY toctab.label "內容(C)">
+<!ENTITY toctab.accesskey "C">
+<!ENTITY indextab.label "索引(I)">
+<!ENTITY indextab.accesskey "I">
+<!ENTITY ixname.label "名稱">
+<!ENTITY glossarytab.label "詞典(G)">
+<!ENTITY glossarytab.accesskey "G">
+<!ENTITY glossname.label "名稱">
+<!ENTITY gobtn.label "搜尋">
+<!ENTITY name.label "項目">
 
-<!ENTITY textZoomReduceCmd.commandkey	"-">
-<!ENTITY textZoomEnlargeCmd.commandkey	"+">
-<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
-<!ENTITY textZoomResetCmd.commandkey    "0">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">

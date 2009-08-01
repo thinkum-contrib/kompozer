@@ -1,193 +1,158 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
-<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
-%brandDTD; ] >
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+[ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
 
-<html xmlns="http://www.w3.org/1999/xhtml"> <head>
-<title>Creating Web Pages with &brandShortName;</title>
-<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 31 October 2006), see www.w3.org" />
+
+  <title>用 &amp;bransShortName; 建立網頁</title>
+  <link rel="stylesheet" type="text/css" href=
+  "chrome://help/skin/helpFileLayout.css" />
 </head>
 
 <body>
-<script type="text/javascript">
-var isDisplayed = true;
+  <script type="text/javascript">
+//<![CDATA[
+  var isDisplayed = true;  function togglePanel() {   isDisplayed = !isDisplayed;   var displayValue = isDisplayed ? "display: block" : "display: none";   var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";    document.getElementById("contentsBox").setAttribute("style", displayValue);   document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue); } 
+  //]]>
+  </script>
 
-function togglePanel() {
-  isDisplayed = !isDisplayed;
-  var displayValue = isDisplayed ? "display: block" : "display: none";
-  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+  <table width="100%" id="navTable">
+    <tr>
+      <td valign="bottom" width="20"><small><a href="#" onclick=
+      "togglePanel();" style=
+      "margin-top:10px;">顯示/隱藏</a></small></td>
 
-  document.getElementById("contentsBox").setAttribute("style", displayValue);
-  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-}
-</script>
+      <td width="72"><img src=
+      "chrome://editor/skin/icons/throbber.png" width="32" height=
+      "32" alt="&amp;brandShortName;" align="center" /></td>
 
-<table width="100%" id="navTable">
-<tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
-</tr>
-</table>
+      <td align="left"><span id="topText">說明中心</span></td>
+    </tr>
+  </table>
 
-<div id="contentsBox">In this section:
-  <a href="composer_help.xhtml#starting_a_new_page">Starting a New
-  Page</a>
+  <div id="contentsBox">
+    在此小節中：<a href=
+    "composer_help.xhtml#starting_a_new_page">開始新頁面</a> <a href=
+    "formatting_webpages.xhtml">格式化您的網頁</a> <a href=
+    "css.xhtml">使用樣式表來指定您網頁的格式</a> <a href=
+    "tables.xhtml">在您的網頁中加入表格</a> <a href=
+    "images.xhtml">在您的網頁中加入圖片</a> <a href=
+    "toc.xhtml">在您的網頁中加入目錄</a> <a href="templates.xhtml">使用樣本</a>
+    <a href="page_properties.xhtml">設定頁面屬性</a> <a href=
+    "links.xhtml">在 &amp;bandShortName; 內建立連結</a> <a href=
+    "customize.xhtml">自訂 &amp;brandShortName;</a>
+  </div>
 
-  <a href="formatting_webpages.xhtml">Formatting
-  Your Web Pages</a>
+  <h2 id="using_style_sheets_for_your_web_pages">
+  使用樣式表來指定您網頁的格式</h2>
 
-  <a href="css.xhtml">Using Style Sheets to Style Your Web Pages</a>
+  <h3 id="using_cascade_style_sheets">使用 CSS 樣式表</h3>
 
-  <a href="tables.xhtml">Adding Tables to Your Web Page</a>
+  <p>CSS（Cascade Style Sheets）可以用三種方式來指定 HTML 文件的格式：</p>
 
-  <a href="images.xhtml">Adding Pictures (Images) to Your Web Page</a>
+  <ol>
+    <li>使用內含樣式。</li>
 
-  <a href="toc.xhtml">Working with Table of Contents on Your Web
-  Page</a>
+    <li>使用內部樣式表。</li>
 
-  <a href="templates.xhtml">Working With Templates </a>
+    <li>使用外部樣式表。</li>
+  </ol>
 
-  <a href="page_properties.xhtml">Setting Page Properties</a>
+  <p>&amp;brandShortName; 有一個內建的樣式表編輯器，叫做
+  <strong>CaScadeS</strong>。CaScadeS
+  可以用於產生內部或外部的樣式表。與內含樣式表不同，內部或外部樣式表可以將內容與樣式資訊分離開來。</p>
 
-  <a href="links.xhtml">Creating Links in &brandShortName;</a>
+  <p>要在您編輯的 html 文件中加入樣式，您可以點擊「工具」並選擇「CSS 編輯器」。CaScadeS
+  可以用兩種模式來編輯樣式表：</p>
 
-  <a href="customize.xhtml">Customizing &brandShortName;</a>
+  <ol>
+    <li><strong>初學者模式</strong>：允許建立與類別或元素型態選擇器的相關規則。</li>
 
-</div>
+    <li><strong>專家模式</strong>：允許建立任何規則，沒有限制。</li>
+  </ol>
 
-<h2 id="using_style_sheets_for_your_web_pages">Using Style Sheets for
-Your Web Pages</h2>
+  <p>若是沒有樣式表，它會自動建立一個新的樣式表。</p>
 
-<h3 id="using_cascade_style_sheets">Using Cascade Style Sheets</h3>
+  <p class="returnToSection">[ <a href=
+  "#using_style_sheets_for_your_web_pages">回到此小節的開頭</a> ]</p>
 
-<p>Cascade Style Sheets(CSS) can be used to style an HTML document in
-three ways:</p>
-<ol>
-  <li>Using inline styles.</li>
+  <h3 id="creating_style_sheets_with_nvu">用 &amp;brandShortName;
+  建立樣式表</h3>
 
-  <li>Using internal style sheet.</li>
+  <p>使用 CaScadeS，您可以建立內部或外部樣式表。要建立內部樣式表的話：</p>
 
-  <li>Using external style sheets.</li>
-</ol>
+  <ol>
+    <li>點擊「樣式」按鍵
 
-<p>&brandShortName; has an inbuilt style sheet editor called
-<strong>CaScadeS</strong>. CaScadeS can be used to produce either an
-internal style sheet or an external one. As opposed to inline styles,
-internal or external style sheets help to keep the content and style
-information separate.</p>
+      <ul>
+        <li>（選擇性的）填入媒體清單與樣式表的標題資訊。</li>
+      </ul>
+    </li>
 
-<p>To style the html document you are editing, CaScadeS can be started
-by clicking on Tools and choosing CSS Editor. CaScadeS allows two
-modes of style sheet editing:</p>
+    <li>點擊以建立樣式表。</li>
+  </ol>
 
-<ol>
-  <li><strong>Beginner Mode</strong>: This mode allows to create
-  rules associated to class selectors or type element selectors.</li>
+  <p>要建立外部樣式表：</p>
 
-  <li><strong>Expert Mode</strong>: This mode allows to create rules
-  without any restriction.</li>
-</ol>
+  <ol>
+    <li>點擊「連結」按鍵</li>
 
-<p>In case there is no style sheet, a new style sheet will be
-automatically created.</p>
+    <li>在右方填入樣式表的網址。若是有需要，它會在本地端檔案系統內建立新檔案。</li>
 
-<p class="returnToSection">[ <a
-href="#using_style_sheets_for_your_web_pages">Return to beginning of
-section</a> ]</p>
+    <li>（選擇性的）填入媒體清單與樣式表的標題資訊。</li>
 
-<h3 id="creating_style_sheets_with_nvu">Creating Style
-Sheets with &brandShortName;</h3>
+    <li>若有替代樣式表，請勾選「勾選以建立替代樣式表」。</li>
+  </ol>
 
-<p>Using CaScadeS, one can create either internal style sheets or
-external style sheets. To create an internal style sheet:</p>
-<ol>
-  <li>Click on the Style elt. button
-  <ul>
-    <li>(Optional) Fill in Media list and Title information for the
-    style sheet.</li>
-  </ul>
-  </li>
+  <p><strong>提示：</strong>在附加本地樣式表前，請先儲存 html 文件。另外，在關閉 CSS
+  編輯器前，也要立刻儲存文件。</p>
 
-  <li>Click on Create Stylesheet.</li>
-</ol>
+  <p><strong>提示：</strong>若未自動下載，您可以用「刷新」按鍵來下載樣式表。</p>
 
-<p>To create an external stylesheet:</p>
+  <p class="returnToSection">[ <a href=
+  "#using_style_sheets_for_your_web_pages">回到此小節的開頭</a> ]</p>
 
-<ol>
-  <li>Click on the Link elt. button</li>
+  <h3 id="creating_rules_for_stylesheets">建立樣式表規則</h3>
 
-  <li>Fill in the URL of the stylesheet in the right pane. A new file
-  will be created on the local filesystem, if it doesnot already exist.
+  <p>
+  建立一個以上的樣式表後，您可以建立個別樣式表的規則。要建立或變更樣式表的規則，先在左方用滑鼠左鍵點擊樣式表，然後在右方「一般」分頁中會顯示出樣式表詳情。此時要建立新規則：</p>
 
-  <ul>
-    <li>(Optional) Fill in Media list and Title informationfor the style sheet.</li>
-  </ul>
-  </li>
+  <ol>
+    <li>點擊左邊「規則」按鍵</li>
 
-  <li>Check the "check to create alternate stylesheet" if this is an
-  alternate one.</li>
-</ol>
+    <li>右方會根據要建立哪種規則而顯示選項。請從中間選取一個：
 
-<p><strong>Tip:</strong> Always save the html document before
-attaching local style sheet. Also, save document immediately before closing
-the CSS editor.</p>
+      <ul>
+        <li>已命名樣式（在下方輸入類別名稱）</li>
 
-<p><strong>Tip:</strong> Use Refresh button in the left pane, if
-stylesheet is not immediately downloaded.</p>
+        <li>套用到所有特定型態的元素的樣式（在下方輸入型態）</li>
 
-<p class="returnToSection">[ <a
-href="#using_style_sheets_for_your_web_pages">Return to beginning of
-section</a> ]</p>
+        <li>套用到所有符合下列選擇器的元素的樣式</li>
+      </ul>
+    </li>
 
-<h3 id="creating_rules_for_stylesheets">Creating Rules for
-Stylesheets</h3>
+    <li>填入規則的名稱</li>
 
-<p>After creating one or more stylesheets for the html document, rules
-can be created for each stylesheet individually. To use a particular
-stylesheet for creating or modifying rules, highlight the stylesheet
-in the left pane by clicking with left mouse button. The right pane
-will show the detials of the stylesheet in the General Tab. To create
-new rules:</p>
+    <li>點擊「建立樣式規則」按鍵。</li>
+  </ol>
 
-<ol>
-  <li>Click on the Rule button in the left pane.</li>
+  <p>
+  您可以用右方的樣式分頁（文字、背景、邊框、排版定位與語音）來定義規則。要查看所有樣式規則的定義，請先在左方選取樣式，並點擊右方的「一般」分頁。「一般」分頁中會顯示出規則目前套用的定義。</p>
 
-  <li>Right pane shows options as to what kind of rule to
-  create. Choose one of:
+  <p class="returnToSection">[ <a href=
+  "#using_style_sheets_for_your_web_pages">回到此小節的開頭</a> ]</p>
 
-  <ul>
-    <li>named style (enter class name below)</li>
+  <p>[<a href="tables.xhtml">下一節</a>] [<a href=
+  "formatting_webpages.xhtml">前一節</a>]</p>
 
-    <li>style applied to all elements of type (enter type
-    below)</li>
+  <div class="copyrightBox">
+    <em>20 June 2005</em>
+  </div>
 
-    <li>style applied to all elements matching the following
-    selector</li>
-
-  </ul>
-  </li>
-  <li>Fill in the name of the rule.</li>
-
-  <li>Click on Create Style Rule button.</li>
-</ol>
-
-<p>Rules can be defined using the styling tabs (Text, Background,
-Border, Box and Aural) in the right pane. To see all the definitions
-of a style rule, highlight the rule in the left pane and click on
-"General" tab in the right pane. The "General" tab shows all
-definitions currently applied to the rule.</p>
-
-<p class="returnToSection">[ <a
-href="#using_style_sheets_for_your_web_pages">Return to beginning of
-section</a> ]</p>
-
-<p>[<a href="tables.xhtml">Next</a>] [<a href="formatting_webpages.xhtml">Previous</a>]</p>
-
-  <div class="copyrightBox"><em>20 June 2005</em></div>
-
-<p>Copyright &copy; 2004-2005 Contributors to the Nvu
-Help Documentation Project.</p>
-
+  <p>Copyright © 2004-2005 Nvu 說明文件專案貢獻者Project.</p>
 </body>
 </html>

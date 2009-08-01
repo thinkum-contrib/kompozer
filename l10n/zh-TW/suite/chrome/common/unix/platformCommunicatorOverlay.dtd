@@ -1,0 +1,24 @@
+<!-- unix -->
+<!-- LOCALIZATION NOTE : FILE Do not translate all the Cmd.key and accesskey --> 
+
+<!ENTITY closeCmd.label "關閉(C)">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.accesskey "C">
+
+<!ENTITY quitApplicationCmd.label "離開(Q)">
+<!ENTITY quitApplicationCmd.key "Q">
+<!ENTITY quitApplicationCmd.accesskey "Q">
+
+<!ENTITY redoCmd.label "重做(R)">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "R">
+
+<!ENTITY findTypeTextCmd.key "/">
+<!ENTITY findTypeLinksCmd.key "'">
+
+<!ENTITY accel.emacs_conflict "accel,shift">
+<!-- Help viewer -->
+
+<!ENTITY openHelpCmd.label "說明內容(H)">
+<!ENTITY openHelpCmd.accesskey "H">
+<!ENTITY openHelpCmd.key "VK_F1">

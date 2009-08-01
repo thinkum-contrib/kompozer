@@ -1,0 +1,80 @@
+<!-- extracted from content/pref-fonts.xul -->
+<!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
+
+<!ENTITY pref.fonts.title "字體">
+
+<!ENTITY language.label "對應此種語言:">
+<!ENTITY language.accesskey "t">
+
+<!ENTITY typefaces.label "字體">
+<!ENTITY sizes.label "大小(像素)">
+
+<!ENTITY proportional.label "比例(P):">
+<!ENTITY proportional.accesskey "P">
+
+<!ENTITY serif.label "襯線字型(S):">
+<!ENTITY serif.accesskey "S">
+<!ENTITY sans-serif.label "無襯線字型(N):">
+<!ENTITY sans-serif.accesskey "N">
+<!ENTITY monospace.label "等寬字型(M):">
+<!ENTITY monospace.accesskey "M">
+<!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
+<!ENTITY fantasy.label "華麗字型(F):">
+<!ENTITY fantasy.accesskey "F">
+<!ENTITY cursive.label "草寫字型(C):">
+<!ENTITY cursive.accesskey "C">
+
+<!ENTITY fontsize.units "像素">
+
+<!ENTITY font.langGroup.latin1 "英文／西歐語系">
+<!ENTITY font.langGroup.latin2 "中歐語系">
+<!ENTITY font.langGroup.japanese "日文">
+<!ENTITY font.langGroup.trad-chinese "正體中文（台灣）">
+<!ENTITY font.langGroup.simpl-chinese "簡體中文">
+<!ENTITY font.langGroup.trad-chinese-hk "繁體中文（香港）">
+<!ENTITY font.langGroup.korean "韓文">
+<!ENTITY font.langGroup.cyrillic "俄文／斯拉夫語系">
+<!ENTITY font.langGroup.baltic "波羅的海語系">
+<!ENTITY font.langGroup.el "希臘文">
+<!ENTITY font.langGroup.turkish "土耳其文">
+<!ENTITY font.langGroup.unicode "其它語言">
+<!ENTITY font.langGroup.user-def "使用者自訂">
+<!ENTITY font.langGroup.thai "泰文">
+<!ENTITY font.langGroup.hebrew "希伯來文">
+<!ENTITY font.langGroup.arabic "阿拉伯文">
+<!ENTITY font.langGroup.devanagari "梵文">
+<!ENTITY font.langGroup.tamil "塔米爾文">
+<!ENTITY font.langGroup.armenian "亞美尼亞文">
+<!ENTITY font.langGroup.bengali "孟加拉語">
+<!ENTITY font.langGroup.canadian "加拿大統一音節文字">
+<!ENTITY font.langGroup.ethiopic "衣索匹亞語">
+<!ENTITY font.langGroup.georgian "喬治亞語">
+<!ENTITY font.langGroup.gujarati "古吉拉特語">
+<!ENTITY font.langGroup.gurmukhi "果鲁穆奇語">
+<!ENTITY font.langGroup.khmer "高棉語">
+<!ENTITY font.langGroup.malayalam "馬來亞拉姆語">
+<!-- Minimum font size -->
+<!ENTITY minSize.label "最小字型大小(Z):">
+<!ENTITY minSize.accesskey "Z">
+<!ENTITY minSize.none "無">
+<!-- default font type -->
+
+<!ENTITY useDefaultFontSerif.label "有襯線">
+<!ENTITY useDefaultFontSansSerif.label "無襯線">
+
+<!ENTITY newLanguages.label "新的語言設定可在語言面板中設定">
+
+<!ENTITY useDocumentFonts.label "允許文件指定其它字型(O)">
+<!ENTITY useDocumentFonts.accesskey "O">
+<!-- leaving this stuff in for now -->
+
+
+<!ENTITY header2 "當網頁選擇使用自己的字型時:">
+<!ENTITY useDefaultFont.label "忽略網頁的要求，使用我的預設字型(U)">
+<!ENTITY useDefaultFont.accesskey "U">
+<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY useDocFontNonDynamic.label "使用網頁所指定的字型(P)">
+<!ENTITY useDocFontNonDynamic.accesskey "P">
+<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY useDocFontDynamic.label "全部使用網頁所指定的字型(A)">
+<!ENTITY useDocFontDynamic.accesskey "A">

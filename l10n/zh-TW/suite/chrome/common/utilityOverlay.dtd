@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY offlineGoOfflineCmd.label "離線工作(W)">
+<!ENTITY offlineGoOfflineCmd.accesskey "W">
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+
+<!ENTITY fileMenu.label "檔案(F)">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY newMenu.label "新增(N)">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY newBlankPageCmd.label "設計器頁面(P)">
+<!ENTITY newBlankPageCmd.accesskey "P">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newPageFromTemplateCmd.label "使用樣板建立頁面(R)">
+<!ENTITY newPageFromTemplateCmd.accesskey "R">
+<!ENTITY newPageFromDraftCmd.label "使用草稿建立頁面(D)">
+<!ENTITY newPageFromDraftCmd.accesskey "D">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label "瀏覽器視窗(N)">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.accesskey "N">
+
+<!ENTITY editMenu.label "編輯(E)">
+<!ENTITY editMenu.accesskey "E">
+<!ENTITY undoCmd.label "復原(U)">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY redoCmd.label "重做(R)">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY cutCmd.label "剪下(T)">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "T">
+<!ENTITY copyCmd.label "複製(C)">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY pasteCmd.label "貼上(P)">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "P">
+<!ENTITY deleteCmd.label "删除(D)">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.accesskey "D">
+<!ENTITY selectAllCmd.label "全選(A)">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY preferencesCmd.label "喜好設定(E)">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.accesskey "E">
+<!ENTITY findTypeTextCmd.label "隨打即找(X)">
+<!ENTITY findTypeTextCmd.accesskey "X">
+<!ENTITY findTypeLinksCmd.label "隨打即找連結(K)">
+<!ENTITY findTypeLinksCmd.accesskey "K">
+
+<!ENTITY viewMenu.label "檢視(V)">
+<!ENTITY viewMenu.accesskey "V">
+<!ENTITY viewToolbarsMenu.label "顯示/隱藏(W)">
+<!ENTITY viewToolbarsMenu.accesskey "W">
+<!ENTITY showTaskbarCmd.label "狀態列(S)">
+<!ENTITY showTaskbarCmd.accesskey "S">
+
+<!ENTITY helpMenu.label "說明(H)">
+<!ENTITY helpMenu.accesskey "H">
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+
+<!ENTITY whatNewCmd.label "新玩意兒">
+
+<!ENTITY releaseCmd.label "釋出備忘(N)">
+<!ENTITY releaseCmd.accesskey "N">
+<!ENTITY aboutCmd.label "關於 &brandShortName;(A)">
+<!ENTITY aboutCmd.accesskey "A">
+<!ENTITY aboutCommPluginsCmd.label "關於外掛程式(P)">
+<!ENTITY aboutCommPluginsCmd.accesskey "P">
+
+<!ENTITY direct.label "線上（無代理伺服器）(N)">
+<!ENTITY direct.accesskey "N">
+<!ENTITY manual.label "線上（代理伺服器：手動）(M)">
+<!ENTITY manual.accesskey "M">
+<!ENTITY pac.label "線上（代理伺服器：自動網址）(A)">
+<!ENTITY pac.accesskey "A">
+<!ENTITY wpad.label "線上（代理伺服器：自動發現）(D)">
+<!ENTITY wpad.accesskey "D">
+
+<!ENTITY proxy.label "設定代理伺服器(C)…">
+<!ENTITY proxy.accesskey "C">
+
+<!ENTITY bidiSwitchTextDirectionItem.label "切換文字方向(W)">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "W">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey "X">

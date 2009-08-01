@@ -1,450 +1,368 @@
-<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
-<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
-%brandDTD; ] >
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+[ <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" > %brandDTD; ]>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>&brandShortName; Tutorial</title>
-    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
-  </head>
-
-  <body>
-<script type="text/javascript">
-var isDisplayed = true;
-
-function togglePanel() {
-  isDisplayed = !isDisplayed;
-  var displayValue = isDisplayed ? "display: block" : "display: none";
-  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
-
-  document.getElementById("contentsBox").setAttribute("style", displayValue);
-  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-}
-</script>
-
-<table width="100%" id="navTable">
-<tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
-</tr>
-</table>
-
-    <div id="contentsBox">In this section:
-    <a href="#scope_of_this_tutorial">Scope of This Tutorial</a>
-    <a href="#introduction_to_the_user_interface">Introduction to the User Interface</a>
-    <a href="#starting_a_new_document">Starting a New Document</a>
-    <a href="#basic_formatting_of_the_document">Basic Formatting of the Document</a>
-    <a href="#inserting_images_and_tables">Inserting Images, and Tables</a>
-    <a href="#advanced_styles">Advanced Styles</a>
-    <a href="#publishing_your_documents_basics">Publishing Your Document(s)-Basics</a>
-    </div>
-
-    <h1 id="nvu_tutorial">&brandShortName; Tutorial</h1>
-
-    <p>&brandShortName; is an open source
-    What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
-    system. It is based on Gecko, the Mozilla rendering
-    engine. &brandShortName; is completely free and can be downloaded
-    from <a href="http://www.nvu.com/">&brandShortName;
-    website</a>.</p>
-
-    <h2 id="scope_of_this_tutorial">Scope of This Tutorial</h2>
-
-    <p>This tutorial is designed for beginners, who are new to web
-    page designing with a WYSIWYG editor. The tutorial provides just
-    enough help so as to get you started with using &brandShortName;
-    for your web page design purposes. It is not an introduction to
-    HTML, XHTML, CSS, etc. coding. Its only aim is to give you a kick
-    start on how to use &brandShortName;.</p>
-
-    <p>The manual does not even cover all the basic aspects of HTML in
-    detail. Yes, this is a short tutorial and some basic albeit
-    unimportant things have been left out. You are encouraged to find
-    out about them yourself. Also the tutorial covers just an
-    introduction on how to use cascading style sheets with the inbuilt
-    editor, CaScadeS.</p>
-
-    <p>For those of you who are more interested in learning about
-    HTML, CSS, etc in detail you can go to the <a
-    href="http://www.w3.org/">W3 Consortium website</a>. There you
-    will find detailed information about various standards maintained
-    by them. You can also do a search on the WWW or refer to one of
-    the many books available on learning HTML.</p>
-
-    <!-- The approach of this tutorial is to give the most basic
-         instructions on getting major things done with Nvu. This will
-         give the user an idea as to how to achieve the objective of
-         the secion. In the end of each section a link should be
-         provided targetting corresponding section in the main Help
-         for detailed treatment of the same objective.-->
-
-    <h3 id="in_this_tutorial">In This Tutorial</h3>
-
-    <p>This tutorial first introduces you to &brandShortName;'s User
-    Interface. This is followed by a basic formatting section. Next
-    section, tells you how to insert elements like images, tables, and
-    forms in your document. Then we have small section devoted to
-    styling your document using CSS. The document concludes with
-    instructions for publishing your document to a web server.</p>
-
-    <p>[ <a href="#scope_of_this_tutorial">Return to beginning of
-    section</a> ]</p>
-
-    <h2 id="introduction_to_the_user_interface">Introduction to the
-    User Interface</h2>
-
-    <p>&brandShortName;'s File Menu contains menu items for all major
-    operations possible while using it. For full detailed reference
-    read the <a href="menu_reference.xhtml">Menu Reference</a>
-    page. &brandShortName;'s tool bar user interface consists of:</p>
-
-    <ul>
-      <li><a href="#composition_toolbar">Composition Toolbar</a></li>
-      <li><a href="#format_toolbar">Format Toolbar</a></li>
-      <li><a href="#tab_browser_toolbar">Tab Browser Toolbar</a></li>
-      <li><a href="#edit_mode_toolbar">Edit Mode Toolbar</a></li>
-      <li><a href="#status_toolbar">Status Toolbar</a></li>
-    </ul>
-
-    <h3 id="composition_toolbar">Composition Toolbar</h3>
-
-    <p>The Composition Toolbar consists of buttons for the most used major operations. Below is the a snapshot of the default Composition Toolbar with text below each button indicating the respective button's function.</p>
-
-    <p><img src="images/tut_composition_tb.png" title="Composition Toolbar" width="802" height="55" alt="" /></p>
-
-    <h3 id="format_toolbar">Format Toolbar</h3>
-
-    <p>The Format Toolbar is a very useful tool while editing web
-    pages with &brandShortName;. With the Format Toolbar you can apply
-    paragraph format, choose a font, change foreground or background
-    colour, increase or decrease size, and emphasize a block of
-    text. You can also create ordered or unordered lists and justify a
-    block of text to left, right or centre. To know which button does
-    what just hover your mouse over the button and a tool tip will
-    appear indicating the function of the button.</p>
-
-    <p><img src="images/tut_formating_tb.png" title="Formating Toolbar" width="802" height="34" alt="" /></p>
-
-    <h3 id="tab_browser_toolbar">Tab Browser Toolbar</h3>
-
-    <p>&brandShortName; allows you to simultaneously edit multiple web
-    documents using different tabs for each opened document. Having
-    multiple tabs gives a cleaner look to your desktop as it is not
-    cluttered when multiple windows are used for each document. As a
-    visual indicator a "<em>red floppy icon</em>" icon appears for
-    pages which have been edited but not saved yet.</p>
-
-    <p><img src="images/tut_tabbrowser_tb.png" title="Tab Browser Toolbar" width="636" height="29" alt="" /></p>
-
-    <h3 id="edit_mode_toolbar">Edit Mode Toolbar</h3>
-
-    <p>The Edit Mode Toolbar indicates the viewing mode which is
-    presently active for the current document. Available viewing modes
-    are the Normal view, HTML Tags view, HTML source view and the
-    Preview mode. You can easily change your viewing mode by simply
-    clicking any of the other three with the mouse.</p>
-
-    <p><img src="images/tut_editmode_tb.png" title="Edit Mode Toolbar" width="408" height="30" alt="" /></p>
-
-    <h3 id="status_toolbar">Status Toolbar</h3>
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 31 October 2006), see www.w3.org" />
 
-    <p>&brandShortName;'s status bar shows the position of the cursor
-    with respect to the HTML tag hierarchy. You can easily edit/assign
-    the properties of any particular tag in the status bar just by
-    right clicking and choosing the desired option. Simple left-click
-    of the mouse on a tag in status bar selects the text surrounded by
-    that tag.</p>
+  <title>&amp;brandShortName; 教學</title>
+  <link rel="stylesheet" type="text/css" href=
+  "chrome://help/skin/helpFileLayout.css" />
+</head>
 
-    <p><img src="images/tut_status_tb.png" title="Status Toolbar" width="326" height="48" alt="" /></p>
+<body>
+  <script type="text/javascript">
+//<![CDATA[
+  var isDisplayed = true;  function togglePanel() {   isDisplayed = !isDisplayed;   var displayValue = isDisplayed ? "display: block" : "display: none";   var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";    document.getElementById("contentsBox").setAttribute("style", displayValue);   document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue); } 
+  //]]>
+  </script>
 
-    <p>[ <a href="#introduction_to_the_user_interface">Return to
-    beginning of section</a> ]</p>
+  <table width="100%" id="navTable">
+    <tr>
+      <td valign="bottom" width="20"><small><a href="#" onclick=
+      "togglePanel();" style=
+      "margin-top:10px;">顯示/隱藏</a></small></td>
 
-    <h2 id="starting_a_new_document">Starting a New Document</h2>
-
-    <p>You can start a new document by either clicking on the "New"
-    button on the composition toolbar or by clicking File > New and
-    select "Blank Document" and then click on "Create". In case you
-    want to edit an existing file use File > Open and choose the file
-    you want to edit. For detailed instructions, refer to <a
-    href="composer_help.xhtml#starting_a_new_page">Starting a New
-    Page</a> section in the &brandShortName; Help documentation.</p>
-
-    <p>You can also start a new document which is a template instead
-    of a normal html file. Templates are used to make website
-    management easier as the maintainer will only need to edit the
-    text for a particular page and not worry about the design as it is
-    controlled by the template. This tutorial will not go further into
-    creating and using templates. Further information about templates
-    can be obtained from the <a
-    href="composer_help.xhtml#working_with_templates">Working with
-    Templates</a> section of &brandShortName; Help documentation.</p>
-
-    <p>[ <a href="#starting_a_new_document">Return to beginning of
-    section</a> ]</p>
-
-    <h2 id="basic_formatting_of_the_document">Basic Formatting of the
-    Document</h2>
-
-    <p>We will use the text given in the next section in the new
-    document to follow the formatting help in this tutorial. The text
-    will used as a base to learn basic formatting functions available
-    in &brandShortName;. Copy the text from the following section and
-    paste it in your new document.</p>
-
-    <h3 id="tutorial_text">Tutorial Text</h3>
-
-    <!-- The text for the tutorial is a general text. It was by chance
-         that I was reading a book by Jim Corbett when I was planning
-         about the text to be used for the tutorial. So I wrote a few
-         paragraphs with the information I collected from a couple of
-         books and several websites. I donot guarantee for the
-         information to be correct. So, if you want detailed
-         information about Corbett National Park, consult tourist
-         books, and the WWW. In case you want to change the text,
-         please make sure that neither the new text is not copyrighted
-         nor you should use copyrighted images. All text and images
-         used in the tutorial are supposed to be distributed under the
-         GNU GPL, and MPL license. -->
-
-    <p>Corbett National Park</p>
-
-    <p>Corbett National Park, named in the memory of Jim Corbett, was
-    created in 1938 and was the first national park to be established
-    in Asia. It is situated in the northern state of Uttranchal in
-    India. It has an area of 512 sq. km. The combined area of Corbett
-    National Park, Sonandi Wildlife sanctuary and Reserve Forest areas
-    summing up to 1288 sq. km. constitute a bigger project called
-    Corbett Tiger Reserve.</p>
-
-    <p>The most famous animals of Corbett National Park are the Bengal
-    Tiger and the Asiatic elephant. It is also a home to other animals
-    like etc etc. Situated at the junction of the Garhwal and Kumaon
-    hill regions it also boasts of the combination of cultures of
-    people of both regions.</p>
-
-    <p>Jim Corbett</p>
-
-    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
-    converted into a museum by the government as a dedication to his
-    life and times. He was a naturalist, conservationalist and an avid
-    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighting for the British army in the WWI, he came
-    back to India and settled in Kaladhungi with his sister,
-    Maggie. He was called up several times by village people and the
-    government to get rid of man-eating tigers and leopards.</p>
-
-    <p>Visiting Corbett National Park</p>
-
-    <p>General Information</p>
-
-    <p>Altitude: 385-1100m above sea level</p>
-
-    <p>Annual Rainfall: 1400mm - 2800mm</p>
-
-    <p>Temperature range: 4C in winter to 42C in summer.</p>
-
-    <p>Open for tourists from 15 November to 15 June.</p>
-
-    <p>Getting there:</p>
-
-    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
-    road it is connected to Delhi, Moradabad, Bareilly and
-    Nanital. State transport buses ply from Delhi, Moradabad and
-    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
-    taking a train from New Delhi.</p>
-
-    <h3>Formatting the text</h3>
-
-    <p>The first thing we will take care of are the headings and
-    subheadings. Select the text "Corbett National Park" at the top of
-    the document and click on the <em>Body Text</em> drop down menu on
-    the <strong>Format Toolbar</strong> and select <tt>Heading
-    1</tt>. The text will be styled according to the default Heading
-    Level-1 style. Similarly, select the text "Visiting Corbett
-    National Park" and make it a level-2 heading.</p>
-
-    <p>The second you might want to do is to select entire paragraphs
-    in your text and mark them <em>paragraph</em> following same
-    procedure for the headings. In the given text this has already
-    done to make the text more presentable, but otherwise marking
-    paragraphs separately is a good practice.</p>
-
-    <p>You can also style important words or phrases using the
-    <strong>bold</strong>(<strong>B</strong>),
-    <em>italic</em>(<strong><em>I</em></strong>), or
-    <u>underline</u>(<strong><u>U</u></strong>) buttons on the
-    <strong>Format Toolbar</strong>, as has been done in this
-    line. Several other options of formatting your text are available
-    from the Format Toolbar or via the Format menu on the File Menu
-    toolbar. Go ahead and try to use a few options, you will learn a
-    few trick this way. If you mess up, don't worry, just click
-    "<tt>Ctrl+Z</tt>" once to <em>undo</em> your last action. For
-    detailed instructions about all the ways possible to format text
-    for a web page, see <a
-    href="composer_help.xhtml#formatting_your_web_pages">Formatting
-    your Web Pages</a> section in &brandShortName; Help
-    documentation.</p>
-
-    <p>At this stage, your tutorial text should look similar to
-    this:</p>
-
-    <hr />
-
-    <div style="font-size:x-large;">Corbett National Park</div>
-
-    <p><em>Corbett National Park</em>, named in the memory of
-    <strong>Jim Corbett</strong>, was created in 1938 and was the
-    first national park to be established in Asia. It is situated in
-    the northern state of Uttranchal in India. It has an area of 512
-    sq. km. The combined area of Corbett National Park, Sonandi
-    Wildlife sanctuary and Reserve Forest areas summing up to 1288
-    sq. km. constitute a bigger project called Corbett Tiger
-    Reserve.</p>
-
-    <p>The most famous animals of Corbett National Park are the
-    <em>Bengal Tiger</em> and the <em>Asiatic elephant</em>. It is
-    also a home to other animals like etc etc. Situated at the
-    junction of the Garhwal and Kumaon hill regions it also boasts of
-    the combination of cultures of people of both regions.</p>
-
-    <div style="font-size:large;">Jim Corbett</div>
-
-    <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has been
-    converted into a museum by the government as a dedication to his
-    life and times. He was a naturalist, conservationalist and an avid
-    photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighting for the British army in the WWI, he came
-    back to India and settled in Kaladhungi with his sister,
-    Maggie. He was called up several times by village people and the
-    government to get rid of man-eating tigers and leopards.</p>
-
-    <div style="font-size:large;">Visiting Corbett National Park</div>
-
-    <p>General Information</p>
-
-    <p>Altitude: 385-1100m above sea level</p>
-
-    <p>Annual Rainfall: 1400mm - 2800mm</p>
-
-    <p>Temperature range: 4C in winter to 42C in summer.</p>
-
-    <p>Open for tourists from 15 November to 15 June.</p>
-
-    <p>Getting there:</p>
-
-    <p>The head quarters of Corbett Tiger Reserver are at Ramnagar. By
-    road it is connected to Delhi, Moradabad, Bareilly and
-    Nanital. State transport buses ply from Delhi, Moradabad and
-    Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
-    taking a train from New Delhi.</p>
-
-    <hr />
-
-    <p>[ <a href="#basic_formatting_of_the_document">Return to
-    beginning of section</a> ]</p>
-
-    <h2 id="inserting_images_and_tables">Inserting Images, and
-    Tables</h2>
-
-    <p>Images, tables and forms can be inserted/created in your
-    document using the <strong>Composition Toolbar</strong>. Let us
-    insert a table and copy the General Information about Corbett
-    National Park into it. Click on the "<em>Table</em>" button <img src="images/table.png" width="26" height="26" alt="" /> on the
-    composition toolbar. And choose the table dimensions to be 5 rows
-    and 2 columns with your mouse. Clicking on the 5th row in 2nd
-    column will create a default table with those dimensions.</p>
-
-    <p>To fill the table with our pre-written text, just cut
-    ("<tt>Ctrl+X</tt>") the corresponding text and paste
-    ("<tt>Ctrl+V</tt>") it in corresponding cell of the table. After
-    you are done, the table should look like the one below:</p>
-
-    <!-- Do not remove inline styles from tutorial text.
-	 This is to override the style sheet rules.-->
-
-    <table style="text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);" border="1" cellpadding="2" cellspacing="2">
-      <tbody>
-	<tr>
-	  <td style="width: 186px;">Altitude</td>
-
-	  <td style="width: 451px;">85-1100m above sea level</td>
-	</tr>
-	<tr>
-	  <td style="width: 186px;">Annual Rainfall</td>
-	  <td style="width: 451px;">1400mm - 2800mm</td>
-	</tr>
-	<tr>
-	  <td style="width: 186px;">Temperature range</td>
-	  <td style="width: 451px;">4C in winter to 42C in summer</td>
-	</tr>
-	<tr>
-	  <td style="width: 186px;">Open for tourists</td>
-	  <td style="width: 451px;">15 November to 15 June</td>
-	</tr>
-
-	<tr>
-	  <td style="width: 186px;">Getting there</td>
-	  <td style="width: 451px;">The head quarters of Corbett Tiger
-	  Reserver are at Ramnagar. By road it is connected to Delhi,
-	  Moradabad, Bareilly and Nanital. State transport buses ply
-	  from Delhi, Moradabad and Haldwani to Ramnagar. By rail
-	  tourists can reach Ramnagar by taking a train from New
-	  Delhi.</td>
-	</tr>
-      </tbody>
-    </table>
-
-    <p>With the basic table constructed, you can change the table
-    properties by activating the table i.e. bring the cursor in the
-    table and then click on the "<strong>Table</strong>" button on the
-    <strong>Composition Toolbar</strong>. In the Table Properties
-    dialog, you can set various properties for the table, cell, row or
-    a column, e.g. background colour for table or cell, table caption,
-    table alignment, table or column width, etc.</p>
-
-    <p>For a detailed treatment of various properties of table, the
-    reader is referred to section <a
-    href="composer_help.xhtml#formatting_your_web_pages">Adding Tables
-    to your Web Pages</a> in the &brandShortName; Help
-    documentation.</p>
-
-    <p>[ <a href="#inserting_images_and_tables">Return to beginning of
-    section</a> ]</p>
-
-    <h2 id="advanced_styles">Advanced Styles</h2>
-
-    <p>Nvu allows the users to create or edit cascading style sheets
-    with the help of its inbuilt style sheet editor named
-    "CaScadeS". CaScadeS has the ability of using either internal or
-    external style sheets for documents being edited. Details on how
-    to use CaScadeS are out of scope of this tutorial. However, the
-    user is directed to <a
-    href="composer_help.xhtml#using_style_sheets_for_your_web_pages">using
-    style sheets</a> in the main Help section.</p>
-
-    <p>[ <a href="#advanced_styles">Return to beginning of section</a>
-    ]</p>
-
-    <h2 id="publishing_your_documents_basics">Publishing Your
-    Document(s)-Basics</h2>
-
-    <p>You can publish your documents using Nvu's built-in the Site
-    Manager. The visibility of the site manager can be toggled by
-    clicking the F9 button.</p>
-
-    <p>Site manager is being rewritten and hence this part of the
-    tutorial has been postponed till the new version is released.</p>
-
-    <p>[ <a href="#publishing_your_documents_basics">Return to
-    beginning of section</a> ]</p>
-
-    <div class="copyrightBox"><em>19 November 2004</em></div>
-
-    <p>Copyright &copy; 2003-2004 Contributors to the Nvu
-    Help Documentation Project.</p>
-
-  </body>
+      <td width="72"><img src=
+      "chrome://editor/skin/icons/throbber.png" width="32" height=
+      "32" alt="&amp;brandShortName;" align="center" /></td>
+
+      <td align="left"><span id="topText">說明中心</span></td>
+    </tr>
+  </table>
+
+  <div id="contentsBox">
+    In this section: <a href="#scope_of_this_tutorial">此教學的範圍</a>
+    <a href="#introduction_to_the_user_interface">Introduction to
+    the User Interface</a> <a href=
+    "#starting_a_new_document">開始新文件</a> <a href=
+    "#basic_formatting_of_the_document">Basic Formatting of the
+    Document</a> <a href="#inserting_images_and_tables">Inserting
+    Images, and Tables</a> <a href="#advanced_styles">進階樣式</a>
+    <a href="#publishing_your_documents_basics">Publishing Your
+    Document(s)-Basics</a>
+  </div>
+
+  <h1 id="nvu_tutorial">&amp;brandShortName; 教學</h1>
+
+  <p>&amp;brandShortName; is an open source
+  What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
+  system. It is based on Gecko, the Mozilla rendering engine.
+  &amp;brandShortName; is completely free and can be downloaded
+  from <a href="http://www.nvu.com/">&amp;brandShortName;
+  website</a>.</p>
+
+  <h2 id="scope_of_this_tutorial">Scope of This Tutorial</h2>
+
+  <p>此教學是為第一次使用「所見即所得」編輯器設計網頁的初學者而設計。它只提供必要的說明，讓您可以開始使用
+  &amp;brandShortName; 設計您的網頁。它不會介紹 HTML，XHTML，CSS 等。</p>
+
+  <p>這份文件並未涵蓋整個詳細的 HTML 基本概念，建議您多研究關於 HTML 的概念。另外此份教學文件也涵蓋了如何使用內建
+  CSS 編輯器 CaScadeS 來產生 CSS 樣式表。</p>
+
+  <p>若您對學習 HTML，CSS 等有興趣，您可以到 <a href="http://www.w3.org/">W3
+  官方網站</a>。您會在那裡找到關於他們維護的各種標準的詳情。您也可以在網路上或許多書籍中學習 HTML。</p>
+  <!-- The approach of this tutorial is to give the most basic          instructions on getting major things done with Nvu. This will          give the user an idea as to how to achieve the objective of          the secion. In the end of each section a link should be          provided targetting corresponding section in the main Help          for detailed treatment of the same objective.-->
+
+  <h3 id="in_this_tutorial">在此份教學內</h3>
+
+  <p>此份教學首先介紹一些 &amp;brandShortName;
+  的使用者介面。接著告訴您如何插入一些元素，如影像、表格與表單。然後會有一小段介紹如何使用 CSS
+  來格式化您的頁面。最後讓您將文件發佈到網站上。</p>
+
+  <p>[ <a href="#scope_of_this_tutorial">回到此小節的開頭</a> ]</p>
+
+  <h2 id="introduction_to_the_user_interface">使用者介面介紹</h2>
+
+  <p>&amp;brandShortName; 的檔案選單包含了所有主要操作。詳情可以參考「<a href=
+  "menu_reference.xhtml">選單參考</a>」頁面。&amp;brandShortName;
+  的使用者介面工具列包含了：</p>
+
+  <ul>
+    <li><a href="#composition_toolbar">創作工具列</a></li>
+
+    <li><a href="#format_toolbar">格式工具列</a></li>
+
+    <li><a href="#tab_browser_toolbar">分頁瀏覽器工具列</a></li>
+
+    <li><a href="#edit_mode_toolbar">編輯模式工具列</a></li>
+
+    <li><a href="#status_toolbar">狀態工具列</a></li>
+  </ul>
+
+  <h3 id="composition_toolbar">創作工具列</h3>
+
+  <p>創作工具列包含了主要使用的操作按鍵。底下是預設的創作工具列，以及每個按鍵功能的說明。</p>
+
+  <p><img src="images/tut_composition_tb.png" title=
+  "Composition Toolbar" width="802" height="55" alt="" /></p>
+
+  <h3 id="format_toolbar">格式工具列</h3>
+
+  <p>格式工具列在使用 &amp;brandShortName;
+  編輯網頁時是很有用的工具。您可以套用段落格式，選取字型，變更前景與背景顏色，遞增或遞減大小，或是加強某個區塊的文字。您也可以建立列表，將整個區塊的文字對齊或置中。您只要將滑鼠移到按鍵的上方，就可以看到工具提示內列出該按鍵的功能。</p>
+
+  <p><img src="images/tut_formating_tb.png" title=
+  "Formating Toolbar" width="802" height="34" alt="" /></p>
+
+  <h3 id="tab_browser_toolbar">分頁瀏覽器工具列</h3>
+
+  <p>&amp;brandShortName;
+  讓您可以同時編輯多個網頁文件，只要放在不同的分頁即可。這樣能讓您的桌面乾淨一點，不必在多個視窗中切來切去。另外也有圖示可以指是您每個頁面的狀態，例如是否已儲存。</p>
+
+  <p><img src="images/tut_tabbrowser_tb.png" title=
+  "Tab Browser Toolbar" width="636" height="29" alt="" /></p>
+
+  <h3 id="edit_mode_toolbar">編輯模式工具列</h3>
+
+  <p>編輯模式工具列指示目前文件的檢視模式。檢視模式包括了正常檢視，HTML 標籤檢視，HTML
+  源碼檢視與預覽模式等。您可以用滑鼠點擊即可變更檢視模式。</p>
+
+  <p><img src="images/tut_editmode_tb.png" title=
+  "Edit Mode Toolbar" width="408" height="30" alt="" /></p>
+
+  <h3 id="status_toolbar">狀態工具列</h3>
+
+  <p>&amp;brandShortName; 的狀態列會顯示游標位置以及 HTML
+  標籤階層。您可以輕易編輯/指定任何特殊標籤的屬性，只要在狀態列上點擊右鍵，並選擇想要的選項。在標籤上點擊左鍵可以選取整個標籤內的文字。</p>
+
+  <p><img src="images/tut_status_tb.png" title="Status Toolbar"
+  width="326" height="48" alt="" /></p>
+
+  <p>[ <a href="#introduction_to_the_user_interface">回到此小節的開頭</a>
+  ]</p>
+
+  <h2 id="starting_a_new_document">Starting a New Document</h2>
+
+  <p>
+  您可以點擊創作工具列上的「新增」鍵，或是在「檔案」選單中選取「新增」，並選取「空白文件」，再點擊「建立」來產生新文件。若您要編輯已存在的檔案，則到「檔案」選單中選擇「開啟」並選擇您要編輯的檔案。詳情請參考
+  &amp;brandShortName; 說明文件裡，「<a href=
+  "composer_help.xhtml#starting_a_new_page">開始新頁面</a>」小節中的說明。</p>
+
+  <p>
+  您也可以用樣本來開啟新文件。樣本能讓您更輕鬆地建立網站，您只需要編輯需要修改的文字，其他部份則由樣本來處理。此份教學不會教您如何建立與使用樣本。關於樣本的詳情，您可以參考
+  &amp;brandShortName; 說明文件中的「<a href=
+  "composer_help.xhtml#working_with_templates">使用樣本</a>」小節中。</p>
+
+  <p>[ <a href="#starting_a_new_document">回到此小節的開頭</a> ]</p>
+
+  <h2 id="basic_formatting_of_the_document">文件的基本格式</h2>
+
+  <p>
+  我們會用下個小節裡的文字來說明怎麼格式化新文件。請您將下面小節的文字剪下來，並貼在您的新文件中。我們會告訴您如何使用基本格式化功能。</p>
+
+  <h3 id="tutorial_text">教學文字</h3>
+  <!-- The text for the tutorial is a general text. It was by chance          that I was reading a book by Jim Corbett when I was planning          about the text to be used for the tutorial. So I wrote a few          paragraphs with the information I collected from a couple of          books and several websites. I donot guarantee for the          information to be correct. So, if you want detailed          information about Corbett National Park, consult tourist          books, and the WWW. In case you want to change the text,          please make sure that neither the new text is not copyrighted          nor you should use copyrighted images. All text and images          used in the tutorial are supposed to be distributed under the          GNU GPL, and MPL license. -->
+
+  <p>Corbett National Park</p>
+
+  <p>Corbett National Park, named in the memory of Jim Corbett, was
+  created in 1938 and was the first national park to be established
+  in Asia. It is situated in the northern state of Uttranchal in
+  India. It has an area of 512 sq. km. The combined area of Corbett
+  National Park, Sonandi Wildlife sanctuary and Reserve Forest
+  areas summing up to 1288 sq. km. constitute a bigger project
+  called Corbett Tiger Reserve.</p>
+
+  <p>The most famous animals of Corbett National Park are the
+  Bengal Tiger and the Asiatic elephant. It is also a home to other
+  animals like etc etc. Situated at the junction of the Garhwal and
+  Kumaon hill regions it also boasts of the combination of cultures
+  of people of both regions.</p>
+
+  <p>Jim Corbett</p>
+
+  <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has
+  been converted into a museum by the government as a dedication to
+  his life and times. He was a naturalist, conservationalist and an
+  avid photographer. Born on 25th July 1875, he grew up in
+  Kaladhungi and Nanital. After fighting for the British army in
+  the WWI, he came back to India and settled in Kaladhungi with his
+  sister, Maggie. He was called up several times by village people
+  and the government to get rid of man-eating tigers and
+  leopards.</p>
+
+  <p>Visiting Corbett National Park</p>
+
+  <p>General Information</p>
+
+  <p>Altitude: 385-1100m above sea level</p>
+
+  <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+  <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+  <p>Open for tourists from 15 November to 15 June.</p>
+
+  <p>Getting there:</p>
+
+  <p>The head quarters of Corbett Tiger Reserver are at Ramnagar.
+  By road it is connected to Delhi, Moradabad, Bareilly and
+  Nanital. State transport buses ply from Delhi, Moradabad and
+  Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+  taking a train from New Delhi.</p>
+
+  <h3>格式化文字</h3>
+
+  <p>首先我們要做的事是處理標題與副標題。選擇上方的 "Corbett National Park"
+  並點擊「格式工具列」裡的「內文」選單，並選取「標題 1」。文字會依預設的第一級標題樣式顯示。相同的，副標題 "Visiting
+  Corbett National Park" 可以設為第二級標題。</p>
+
+  <p>
+  接下來要做的是選擇整個段落，並標記為「段落」樣式。方法類似標記標題。在範例中的文字其實分段已經分好，不過您還是可以練習一下。</p>
+
+  <p>
+  您也可以用格式工具列上的粗體（B），斜體（I），或底線（U）按鍵來加強重要的單字或片語。另外在格式工具列上，還有「檔案」選單工具列裡的「格式」選單中也有一些其它的選項可使用。您可以自由去試著使用這些選項，可以找到一些樂趣。若您搞爛了格式也不用擔心，按
+  <tt>Ctrl+Z</tt> 可以復原上次的動作。關於網頁文字格式的詳細說明，您可以參考
+  &amp;brandShortName; 說明文件中的「<a href=
+  "composer_help.xhtml#formatting_your_web_pages">格式化您的網頁</a>」。</p>
+
+  <p>到了這一步，您的網頁應該看起來像這樣：</p>
+  <hr />
+
+  <div style="font-size:x-large;">
+    Corbett National Park
+  </div>
+
+  <p><em>Corbett National Park</em>, named in the memory of
+  <strong>Jim Corbett</strong>, was created in 1938 and was the
+  first national park to be established in Asia. It is situated in
+  the northern state of Uttranchal in India. It has an area of 512
+  sq. km. The combined area of Corbett National Park, Sonandi
+  Wildlife sanctuary and Reserve Forest areas summing up to 1288
+  sq. km. constitute a bigger project called Corbett Tiger
+  Reserve.</p>
+
+  <p>The most famous animals of Corbett National Park are the
+  <em>Bengal Tiger</em> and the <em>Asiatic elephant</em>. It is
+  also a home to other animals like etc etc. Situated at the
+  junction of the Garhwal and Kumaon hill regions it also boasts of
+  the combination of cultures of people of both regions.</p>
+
+  <div style="font-size:large;">
+    Jim Corbett
+  </div>
+
+  <p>Jim Corbett, (1825-19), lived in Kaladhungi. His house has
+  been converted into a museum by the government as a dedication to
+  his life and times. He was a naturalist, conservationalist and an
+  avid photographer. Born on 25th July 1875, he grew up in
+  Kaladhungi and Nanital. After fighting for the British army in
+  the WWI, he came back to India and settled in Kaladhungi with his
+  sister, Maggie. He was called up several times by village people
+  and the government to get rid of man-eating tigers and
+  leopards.</p>
+
+  <div style="font-size:large;">
+    Visiting Corbett National Park
+  </div>
+
+  <p>General Information</p>
+
+  <p>Altitude: 385-1100m above sea level</p>
+
+  <p>Annual Rainfall: 1400mm - 2800mm</p>
+
+  <p>Temperature range: 4C in winter to 42C in summer.</p>
+
+  <p>Open for tourists from 15 November to 15 June.</p>
+
+  <p>Getting there:</p>
+
+  <p>The head quarters of Corbett Tiger Reserver are at Ramnagar.
+  By road it is connected to Delhi, Moradabad, Bareilly and
+  Nanital. State transport buses ply from Delhi, Moradabad and
+  Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
+  taking a train from New Delhi.</p>
+  <hr />
+
+  <p>[ <a href="#basic_formatting_of_the_document">回到此小節的開頭</a>
+  ]</p>
+
+  <h2 id="inserting_images_and_tables">插入影像與表格</h2>
+
+  <p>影像、表格與表單可以用「創作工具列」來插入或新增。我們可以來試著插入一個表格，並複製 Corbett National
+  Park 的一些資訊。點擊工具列上的「表格」按鍵 <img src="images/table.png" width="26"
+  height="26" alt="" />，並選擇表格的尺寸為 5 列與 2 欄。點擊第五列第二欄的地方，即可建立一個 5x2
+  的表格。</p>
+
+  <p>
+  要填入我們之前寫好的文字，只要把它剪下來（<tt>Ctrl+X</tt>）並貼上（<tt>Ctrl+V</tt>）相關的儲存格即可。完成後，表格應該看起來像這樣：</p><!-- Do not remove inline styles from tutorial text.       This is to override the style sheet rules.-->
+
+  <table style=
+  "text-align: left; height: 301px; width: 655px; background-color: rgb(255, 255, 255);"
+  border="1" cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="width: 186px;">Altitude</td>
+
+        <td style="width: 451px;">85-1100m above sea level</td>
+      </tr>
+
+      <tr>
+        <td style="width: 186px;">Annual Rainfall</td>
+
+        <td style="width: 451px;">1400mm - 2800mm</td>
+      </tr>
+
+      <tr>
+        <td style="width: 186px;">Temperature range</td>
+
+        <td style="width: 451px;">4C in winter to 42C in
+        summer</td>
+      </tr>
+
+      <tr>
+        <td style="width: 186px;">Open for tourists</td>
+
+        <td style="width: 451px;">15 November to 15 June</td>
+      </tr>
+
+      <tr>
+        <td style="width: 186px;">Getting there</td>
+
+        <td style="width: 451px;">The head quarters of Corbett
+        Tiger Reserver are at Ramnagar. By road it is connected to
+        Delhi, Moradabad, Bareilly and Nanital. State transport
+        buses ply from Delhi, Moradabad and Haldwani to Ramnagar.
+        By rail tourists can reach Ramnagar by taking a train from
+        New Delhi.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+  建立好基本表格後，您可以將游標移到表格上，並點擊創作工具列中的「表格」按鍵，會出現一個表格屬性對話框，您可以在此設定表格、儲存格、列或欄的一些屬性，如背景顏色，表格標題，對齊方式，寬度等等。</p>
+
+  <p>關於表格的各種屬性，您可以參考 &amp;brandShortName; 說明文件中的「<a href=
+  "composer_help.xhtml#formatting_your_web_pages">在您的網頁中新增表格</a>」。</p>
+
+  <p>[ <a href="#inserting_images_and_tables">回到此小節的開頭</a> ]</p>
+
+  <h2 id="advanced_styles">Advanced Styles</h2>
+
+  <p>&amp;brandShortName; 讓使用者可以建立或編輯 CSS 樣式表，它提供了內建的樣式表編輯器，叫做
+  CaScadeS。CaScadeS 可以讓文件使用內部或外部的樣式表。CaScadeS
+  的用法不在此教學的範圍內，不過您還是可以到「<a href=
+  "composer_help.xhtml#using_style_sheets_for_your_web_pages">使用樣式表</a>」來看詳細的說明。</p>
+
+  <p>[ <a href="#advanced_styles">回到此小節的開頭</a> ]</p>
+
+  <h2 id="publishing_your_documents_basics">發佈您的文件 ─ 基礎篇</h2>
+
+  <p>您可以使用內建的站台管理員來發佈您的文件。您可以按 F9 鍵來切換是否顯示站台管理員。</p>
+
+  <p>站台管理員已重新寫過，因此教學將等新版本釋出後再補上。</p>
+
+  <p>[ <a href="#publishing_your_documents_basics">回到此小節的開頭</a></p>
+
+  <div class="copyrightBox">
+    <em>19 November 2004</em>
+  </div>
+
+  <p>Copyright © 2003-2004 Nvu 說明文件專案貢獻者。</p>
+</body>
 </html>

@@ -1,0 +1,15 @@
+<!ENTITY textZoomEnlargeCmd.label "放大(L)">
+<!ENTITY textZoomEnlargeCmd.accesskey "L">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+
+<!ENTITY textZoomReduceCmd.label "縮小(S)">
+<!ENTITY textZoomReduceCmd.accesskey "S">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!-- see textZoomOtherLabel in navigator.properties -->
+
+<!ENTITY textZoomMenu.accesskey "z">
+<!ENTITY textZoomOtherCmd.accesskey "o">

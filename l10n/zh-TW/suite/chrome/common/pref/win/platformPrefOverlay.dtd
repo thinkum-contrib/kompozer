@@ -1,0 +1,19 @@
+<!ENTITY winhooks.label "系統">
+
+<!ENTITY defaultBrowserGroup.label "預設瀏覽器">
+<!ENTITY defaultBrowserButton.label "設為預設瀏覽器">
+<!ENTITY alreadyDefaultText "&brandShortName; 已經是您的預設瀏覽器了。">
+<!ENTITY defaultPendingText "按下確定後 &brandShortName; 會被設定為您的預設瀏覽器。">
+<!ENTITY makeDefaultText "設定 &brandShortName; 為您的預設瀏覽器。">
+
+<!ENTITY urlbar.label "在網址列按 Ctrl+Enter">
+<!ENTITY middleClick.label "在網頁的連結上按中鍵、壓住 Ctrl 按左鍵，或是 Ctrl+Enter">
+<!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
+     preference dialog's <window> node, which specifies the width and height
+     in em units of the dialog. Localizers ONLY can increase these widths 
+     if they are having difficulty getting panel content to fit. 1em = the 
+     width of the letter 'm' in the selected font.
+     XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
+     size of this window for en-US. -->
+
+<!ENTITY prefWindow.size "width: 52em; height: 41em;">

@@ -1,6 +1,6 @@
-<!ENTITY helpContents.label       "Help Contents">
-<!ENTITY helpContents.accesskey   "H">
-<!ENTITY helpForIEUsers.label     "For Internet Explorer Users">
+<!ENTITY helpContents.label "說明內容(H)">
+<!ENTITY helpContents.accesskey "H">
+<!ENTITY helpForIEUsers.label "關於 Internet Explorer 使用者(I)">
 <!ENTITY helpForIEUsers.accesskey "I">
-<!ENTITY openHelp.commandkey      "VK_F1">
-<!ENTITY openHelpMac.commandkey   "VK_HELP">
+<!ENTITY openHelp.commandkey "VK_F1">
+<!ENTITY openHelpMac.commandkey "VK_HELP">
