@@ -172,7 +172,7 @@ def chrome2xpi(locale):
 	tmpJar = locale + ".jar"
 	if os.path.exists(tmpJar):
 		shell("rm " + tmpJar)
-	shell("zip -qr " + tmpJar + " " + locale)
+	shell("zip -qr -0 " + tmpJar + " " + locale)
 	shell("mv " + tmpJar + " " + tmpChrome)
 
 	# make an XPI
