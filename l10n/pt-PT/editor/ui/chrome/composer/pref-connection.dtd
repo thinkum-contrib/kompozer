@@ -1,0 +1,35 @@
+<!ENTITY FTPport.accesskey "r">
+<!ENTITY HTTPport.accesskey "p">
+<!ENTITY SOCKSport.accesskey "t">
+<!ENTITY SSLport.accesskey "o">
+<!ENTITY autoTypeRadio.accesskey "a">
+<!ENTITY autoTypeRadio.label "Endereço para configuração automática de mediador:">
+<!ENTITY configAutoconfigText.accesskey "u">
+<!ENTITY configAutoconfigText.label "Endereço para configuração:">
+<!ENTITY directTypeRadio.accesskey "d">
+<!ENTITY directTypeRadio.label "Ligação directa à Internet">
+<!ENTITY ftp.accesskey "f">
+<!ENTITY ftp.label "FTP Proxy:">
+<!ENTITY gopher.accesskey "g">
+<!ENTITY gopher.label "Gopher Proxy:">
+<!ENTITY gopherPort.accesskey "">
+<!ENTITY http.accesskey "h">
+<!ENTITY http.label "HTTP Proxy:">
+<!ENTITY lHeader "Configurar ligação">
+<!ENTITY manualTypeRadio.accesskey "m">
+<!ENTITY manualTypeRadio.label "Usar servidores mediadores:">
+<!ENTITY noproxy.accesskey "m">
+<!ENTITY noproxy.label "Sem mediador para:">
+<!ENTITY noproxyExplain.label "Exemplo: .mozilla.org, .net.nz">
+<!ENTITY port.label "Porta:">
+<!ENTITY proxyTitle.label "Configurar acesso à internet">
+<!ENTITY reload.accesskey "r">
+<!ENTITY reload.label "Recarregar">
+<!ENTITY socks.accesskey "c">
+<!ENTITY socks.label "SOCKS Host:">
+<!ENTITY socks4.accesskey "k">
+<!ENTITY socks4.label "SOCKS v4">
+<!ENTITY socks5.accesskey "v">
+<!ENTITY socks5.label "SOCKS v5">
+<!ENTITY ssl.accesskey "s">
+<!ENTITY ssl.label "SSL Proxy:">

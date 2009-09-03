@@ -1,0 +1,30 @@
+<!ENTITY borderEditField.accessKey "C">
+<!ENTITY borderEditField.label "Contorno:">
+<!ENTITY borderEditField.tooltip "Introduza um número para o contorno da tabela ou zero (0) para ficar sem contorno">
+<!ENTITY bottomVAlignment.label "Inferior">
+<!ENTITY cellPadding.label "espaçamento interior">
+<!ENTITY cellSpacing.label "espaçamento entre células">
+<!ENTITY cellTab.label "Célula">
+<!ENTITY centerHAlignment.label "Centrado">
+<!ENTITY horizAlignment.label "Alinhamento horizontal:">
+<!ENTITY leftHAlignment.label "Esquerda">
+<!ENTITY middleVAlignment.label "Centrado">
+<!ENTITY nowrapWrapping.label "Não quebrar">
+<!ENTITY numColumnsEditField.accessKey "C">
+<!ENTITY numColumnsEditField.label "Colunas:">
+<!ENTITY numRowsEditField.accessKey "L">
+<!ENTITY numRowsEditField.label "Linhas:">
+<!ENTITY pixels.label "píxeis">
+<!ENTITY preciselyTab.label "Pormenorizado">
+<!ENTITY quicklyTab.label "Rápido">
+<!ENTITY rightHAlignment.label "Direita">
+<!ENTITY size.label "Tamanho">
+<!ENTITY textWrapping.label "Quebrar texto:">
+<!ENTITY topVAlignment.label "Superior">
+<!ENTITY unspecifiedHAlignment.label "Pré-definido">
+<!ENTITY unspecifiedVAlignment.label "Pré-definido">
+<!ENTITY vertAlignment.label "Alinhamento vertical:">
+<!ENTITY widthEditField.accessKey "a">
+<!ENTITY widthEditField.label "Largura:">
+<!ENTITY windowTitle.label "Inserir tabela">
+<!ENTITY wrapWrapping.label "Quebrar">

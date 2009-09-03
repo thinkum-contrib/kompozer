@@ -1,0 +1,14 @@
+<!ENTITY ListType.label "Tipo de lista">
+<!ENTITY bulletList.value "Lista de marcadores (não numerada)">
+<!ENTITY bulletStyle.label "Estilo do marcador">
+<!ENTITY changeEntireListRadio.accessKey "t">
+<!ENTITY changeEntireListRadio.label "Alterar toda a lista">
+<!ENTITY changeListMsg.label "Ao alterar o tipo de lista:">
+<!ENTITY changeSelectedRadio.accessKey "A">
+<!ENTITY changeSelectedRadio.label "Alterar apenas os itens seleccionados">
+<!ENTITY definitionList.value "Lista de definições">
+<!ENTITY none.value "Nenhum">
+<!ENTITY numberList.value "Lista numerada">
+<!ENTITY startingNumber.accessKey "o">
+<!ENTITY startingNumber.label "Começar em:">
+<!ENTITY windowTitle.label "Propriedades da lista">

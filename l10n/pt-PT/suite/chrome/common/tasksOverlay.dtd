@@ -1,0 +1,29 @@
+<!ENTITY downloadManagerCmd.accesskey "D">
+<!ENTITY downloadManagerCmd.label "Downloads">
+<!ENTITY editorCmd.accesskey "C">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY editorCmd.label "Nvu">
+<!ENTITY extensions.label "Extensões">
+<!ENTITY javaConsoleCmd.accesskey "J">
+<!ENTITY javaConsoleCmd.label "Console do Java">
+<!ENTITY javaScriptConsoleCmd.accesskey "S">
+<!ENTITY javaScriptConsoleCmd.label "Console do JavaScript">
+<!ENTITY navigatorCmd.accesskey "N">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY navigatorCmd.label "Mozilla Navigator">
+<!ENTITY privacyMenu.accesskey "P">
+<!ENTITY privacyMenu.label "Privacidade e segurança">
+<!ENTITY securityInfoCmd.accesskey "i">
+<!ENTITY securityInfoCmd.label ".Informações de segurança">
+<!ENTITY switchProfileCmd.accesskey "r">
+<!ENTITY switchProfileCmd.label "Perfil...">
+<!ENTITY taskBar.tooltip "Barra de status">
+<!ENTITY taskComposer.tooltip "Nvu">
+<!ENTITY taskNavigator.tooltip "Mozilla Navigator">
+<!ENTITY tasksMenu.accesskey "F">
+<!ENTITY tasksMenu.label "Ferramentas">
+<!ENTITY themes.label "Temas">
+<!ENTITY webDevelopment.accesskey "u">
+<!ENTITY webDevelopment.label "Depurar">
+<!ENTITY windowMenu.accesskey "J">
+<!ENTITY windowMenu.label "Janela">

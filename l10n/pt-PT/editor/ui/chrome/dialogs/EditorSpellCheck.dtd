@@ -1,0 +1,32 @@
+<!ENTITY addToUserDictionaryButton.accessKey "A">
+<!ENTITY addToUserDictionaryButton.label "Adicionar palavra">
+<!ENTITY checkwordButton.accessKey "V">
+<!ENTITY checkwordButton.label "Verificar palavra">
+<!ENTITY closeButton.accessKey "F">
+<!ENTITY closeButton.label "Fechar">
+<!ENTITY editUserDictionaryButton.accessKey "E">
+<!ENTITY editUserDictionaryButton.label "Editar...">
+<!ENTITY ignoreAllButton.accessKey "o">
+<!ENTITY ignoreAllButton.label "Ignorar todas">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreButton.label "Ignorar">
+<!ENTITY languagePopup.accessKey "m">
+<!ENTITY languagePopup.label "Idioma:">
+<!ENTITY misspelledWord.label "Palavra errada:">
+<!ENTITY moreDictionaries.label "Descarregar mais dicionários">
+<!ENTITY recheckButton.accessKey "R">
+<!ENTITY recheckButton.label "Reiniciar">
+<!ENTITY replaceAllButton.accessKey "t">
+<!ENTITY replaceAllButton.label "Substituir todas">
+<!ENTITY replaceButton.accessKey "S">
+<!ENTITY replaceButton.label "Substituir">
+<!ENTITY sendButton.accessKey "n">
+<!ENTITY sendButton.label "Enviar">
+<!ENTITY stopButton.accessKey "P">
+<!ENTITY stopButton.label "Parar">
+<!ENTITY suggestions.accessKey "u">
+<!ENTITY suggestions.label "Sugestões:">
+<!ENTITY userDictionary.label "Dicionário pessoal:">
+<!ENTITY windowTitle.label "Verificar ortografia">
+<!ENTITY wordEditField.accessKey "b">
+<!ENTITY wordEditField.label "Substituir por:">

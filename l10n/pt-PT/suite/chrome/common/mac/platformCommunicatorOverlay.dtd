@@ -1,0 +1,12 @@
+<!ENTITY accel.emacs_conflict "accel">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.label "Fechar">
+<!ENTITY findTypeLinksCmd.key "">
+<!ENTITY findTypeTextCmd.key "">
+<!ENTITY historyCmd.key "H">
+<!ENTITY printSetupCmd.accesskey "u">
+<!ENTITY printSetupCmd.label "Configurar Página...">
+<!ENTITY quitApplicationCmd.key "Q">
+<!ENTITY quitApplicationCmd.label "Sair">
+<!ENTITY redoCmd.key "Z">
+<!ENTITY redoCmd.label "Refazer">

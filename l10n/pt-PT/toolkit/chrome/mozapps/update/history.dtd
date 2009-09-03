@@ -1,0 +1,15 @@
+
+<!ENTITY history.title "Histórico das actualizações">
+<!ENTITY history.intro "Foram instaladas as seguintes actualizações:">
+<!ENTITY closebutton.label "Fechar">
+                                     
+<!ENTITY detailsButton.label "Detalhes">
+<!ENTITY detailsButton.accesskey "D">
+
+<!ENTITY noupdates.label "Ainda não foram instaladas actualizações">
+
+<!ENTITY name.header "Nome da actualização">
+<!ENTITY date.header "Data da instalação">
+<!ENTITY type.header "Tipo">
+<!ENTITY state.header "Estado">
+

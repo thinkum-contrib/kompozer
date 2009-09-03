@@ -1,0 +1,25 @@
+<!ENTITY license.part0     "é">
+<!ENTITY license.part1     "pelos seus">
+<!ENTITY license.contrib   "colaboradores">
+<!ENTITY license.part2     "de acordo com os termos definidos no documento ">
+<!ENTITY license.part3     ". Todos os direitos reservados.">
+
+<!ENTITY about.version                "versão">
+
+<!ENTITY about.copy.beforeLink        "Copyright &copy; 1998-2006 pelos">
+<!ENTITY about.copy.linkTitle         "colaboradores">
+<!ENTITY about.copy.afterLink         "do projecto Mozilla.">
+
+<!ENTITY about.license.beforeLink     "Leia a">
+<!ENTITY about.license.linkTitle      "informação de licenciamento">
+<!ENTITY about.license.afterLink      "deste produto.">
+
+<!ENTITY about.relnotes.beforeLink    "Leia as">
+<!ENTITY about.relnotes.linkTitle     "notas de lançamento">
+<!ENTITY about.relnotes.afterLink     "desta versão.">
+
+<!ENTITY about.buildconfig.beforeLink "Veja as">
+<!ENTITY about.buildconfig.linkTitle  "configurações da compilação">
+<!ENTITY about.buildconfig.afterLink  "utilizadas para esta versão.">
+
+<!ENTITY about.buildIdentifier        "Identificador da compilação: ">

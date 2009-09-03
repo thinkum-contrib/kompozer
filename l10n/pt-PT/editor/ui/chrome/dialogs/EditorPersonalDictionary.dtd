@@ -1,0 +1,13 @@
+<!ENTITY AddButton.accessKey "A">
+<!ENTITY AddButton.label "Adicionar">
+<!ENTITY CloseButton.accessKey "F">
+<!ENTITY CloseButton.label "Fechar">
+<!ENTITY DictionaryList.accessKey "P">
+<!ENTITY DictionaryList.label "Palavras no dicionário:">
+<!ENTITY RemoveButton.accessKey "x">
+<!ENTITY RemoveButton.label "Remover">
+<!ENTITY ReplaceButton.accessKey "S">
+<!ENTITY ReplaceButton.label "Substituir">
+<!ENTITY windowTitle.label "Dicionário pessoal">
+<!ENTITY wordEditField.accessKey "N">
+<!ENTITY wordEditField.label "Nova palavra:">

@@ -1,0 +1,46 @@
+<!ENTITY window.width "400">
+<!ENTITY window.height "300">
+
+<!ENTITY done.label "Concluído">
+<!ENTITY canceled.label "Cancelado">
+<!ENTITY installing.label "A instalar...">
+
+<!ENTITY starting.label "A iniciar...">
+<!ENTITY failed.label "Falhou">
+
+<!ENTITY downloads.title "Transferências">
+
+<!ENTITY cmd.pause.label "Pausa">
+<!ENTITY cmd.pause.accesskey "P">
+<!ENTITY cmd.resume.label "Continuar">
+<!ENTITY cmd.resume.accesskey "r">
+<!ENTITY cmd.cancel.label "Cancelar">
+<!ENTITY cmd.cancel.accesskey "C">
+<!ENTITY cmd.show.label "Abrir a pasta respectiva">
+<!ENTITY cmd.show.labelMac "Mostrar no Finder">
+<!ENTITY cmd.show.accesskey "A">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.open.label "Abrir">
+<!ENTITY cmd.open.accesskey "A">
+<!ENTITY cmd.openWith.label "Abrir com...">
+<!ENTITY cmd.openWith.accesskey "m">
+<!ENTITY cmd.retry.label "Tentar novamente">
+<!ENTITY cmd.retry.accesskey "n">
+<!ENTITY cmd.remove.label "Remover">
+<!ENTITY cmd.remove.accesskey "e">
+<!ENTITY cmd.properties.label "Propriedades">
+<!ENTITY cmd.properties.accesskey "i">
+<!ENTITY cmd.info.commandKey "I">
+
+<!ENTITY cmd.close.commandKey "W">
+<!ENTITY cmd.close2.commandKey "J">
+<!ENTITY cmd.close2Unix.commandKey "Y">
+<!ENTITY cmd.cleanUp.label "Limpar">
+<!ENTITY cmd.cleanUp.tooltip "Remove as transferências concluídas, canceladas e falhadas da lista">
+<!ENTITY cmd.cleanUp.accesskey "L">
+
+<!ENTITY closeWhenDone.label "Fechar quando as transferências terminarem">
+<!ENTITY closeWhenDone.tooltip "Fecha a janela de transferências quando todas as transferências tiverem terminado">
+
+<!ENTITY filesSavedTo.label "Todos os ficheiros transferidos para:">
+<!ENTITY showFolder.label "Mostrar esta pasta">

@@ -1,0 +1,61 @@
+<!ENTITY calibrate.instructions "O comprimento da linha acima é de:">
+<!ENTITY calibrateDialog.title "Calibrar resolução">
+<!ENTITY cursive.accesskey "v">
+<!ENTITY cursive.label "Cursiva:">
+<!ENTITY fantasy.accesskey "a">
+<!ENTITY fantasy.label "Fantasia:">
+<!ENTITY font.langGroup.arabic "Árabe">
+<!ENTITY font.langGroup.baltic "Báltico">
+<!ENTITY font.langGroup.cyrillic "Cirílico">
+<!ENTITY font.langGroup.devanagari "Devanagari">
+<!ENTITY font.langGroup.el "Grego">
+<!ENTITY font.langGroup.hebrew "Hebraico">
+<!ENTITY font.langGroup.japanese "Japonês">
+<!ENTITY font.langGroup.korean "Coreano">
+<!ENTITY font.langGroup.latin1 "Ocidental">
+<!ENTITY font.langGroup.latin2 "Europeu central">
+<!ENTITY font.langGroup.simpl-chinese "Chinês simplificado">
+<!ENTITY font.langGroup.tamil "Tamil">
+<!ENTITY font.langGroup.thai "Tailandês">
+<!ENTITY font.langGroup.trad-chinese "Chinês tradicional (Taiwan)">
+<!ENTITY font.langGroup.trad-chinese-hk "Traditional Chinese (Hong Kong)">
+<!ENTITY font.langGroup.turkish "Turco">
+<!ENTITY font.langGroup.unicode "Unicode">
+<!ENTITY font.langGroup.user-def "Definido pelo usuário">
+<!ENTITY fontsize.units "pontos">
+<!ENTITY header2 "Quando uma página especificar as próprias fontes">
+<!ENTITY lHeader "Fontes e codificações">
+<!ENTITY language.accesskey "F">
+<!ENTITY language.label "Fontes padrão para:">
+<!ENTITY minSize.accesskey "a">
+<!ENTITY minSize.label "Tam. mínimo permitido:">
+<!ENTITY minSize.none "Nenhum">
+<!ENTITY monospace.accesskey "M">
+<!ENTITY monospace.label "Monoespaçada:">
+<!ENTITY newLanguages.label "Novos idiomas podem ser configurados usando a seção Idiomas.">
+<!ENTITY proportional.accesskey "P">
+<!ENTITY proportional.label "Proporcional:">
+<!ENTITY resolution.accesskey "R">
+<!ENTITY resolution.dpi "dpi">
+<!ENTITY resolution.dpival "$val &resolution.dpi;">
+<!ENTITY resolution.label "Resolução do vídeo:">
+<!ENTITY resolution.other "Outra...">
+<!ENTITY resolution.system.label "Configuração do sistema">
+<!ENTITY sans-serif.accesskey "S">
+<!ENTITY sans-serif.label "Sem serifa:">
+<!ENTITY serif.accesskey "C">
+<!ENTITY serif.label "Com serifa:">
+<!ENTITY sizes.label "Tam. (pontos):">
+<!ENTITY typefaces.label "Nome:">
+<!ENTITY units.centimetres "centímetros">
+<!ENTITY units.inches "polegadas">
+<!ENTITY useDefaultFont.accesskey "U">
+<!ENTITY useDefaultFont.label "Usar as fontes padrão e ignorar as fontes especificadas pela página">
+<!ENTITY useDefaultFontSansSerif.label "Sem serifa">
+<!ENTITY useDefaultFontSerif.label "Com serifa">
+<!ENTITY useDocFontDynamic.accesskey "f">
+<!ENTITY useDocFontDynamic.label "Usar as fontes especificadas pela página">
+<!ENTITY useDocFontNonDynamic.accesskey "t">
+<!ENTITY useDocFontNonDynamic.label "Usar as fontes escolhidas pela página">
+<!ENTITY useDocumentFonts.accesskey "o">
+<!ENTITY useDocumentFonts.label "Permitir que os documentos usem outras fontes">

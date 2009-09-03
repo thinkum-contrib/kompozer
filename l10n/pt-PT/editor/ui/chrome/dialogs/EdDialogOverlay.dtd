@@ -1,0 +1,12 @@
+<!ENTITY AdvancedEditButton.accessKey "E">
+<!ENTITY AdvancedEditButton.label "Edição avançada...">
+<!ENTITY AdvancedEditButton.tooltip "Adicionar ou alterar atributos HTML, atributos de estilo e JavaScript">
+<!ENTITY LinkURLEditField.accessKey "F">
+<!ENTITY LinkURLEditField.label "Forneça o endereço da página, um arquivo do computador ou seleccione uma âncora com nome ou título:">
+<!ENTITY chooseButton.label "Seleccionar o ficheiro...">
+<!ENTITY chooseFile.accessKey "S">
+<!ENTITY chooseFileLink.accessKey "S">
+<!ENTITY isMailAddress.label "O endereço é de E-mail">
+<!ENTITY makeUrlRelative.accessKey "r">
+<!ENTITY makeUrlRelative.label "O endereço é relativo ao da página">
+<!ENTITY makeUrlRelative.tooltip "Alternar entre endereço relativo e endereço absoluto. É necessário guardar a página antes de usar esta opção.">

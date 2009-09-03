@@ -1,0 +1,31 @@
+<!ENTITY allEntitiesEncoding.label "Usar a notação &amp;#..; em caracteres que não são ASCII">
+<!ENTITY basicEncoding.label "Somente &amp; &lt; &gt; ' e non-breakable whitespace">
+<!ENTITY carriageReturns.label "Comportamento da tecla ENTER">
+<!ENTITY cmdLine.label "Linha de comando:">
+<!ENTITY connection.label "Conexão">
+<!ENTITY connectionButton.label "Proxy...">
+<!ENTITY connectionDescription.label "Definir proxies de acesso à Internet">
+<!ENTITY connectionbutton.accesskey "y">
+<!ENTITY crInPCreatesNewP.label "Cria um novo parágrafo automaticamente">
+<!ENTITY dialect.label "Markup">
+<!ENTITY dtd.label "DTD:">
+<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+<!ENTITY helpers.label "Configurações avançadas">
+<!ENTITY hints.label "Você pode especificar a URL usando '$s'. Exemplo:">
+<!ENTITY htmlEntitiesEncoding.label "Todos os caracteres que têm uma entidade equivalente no HTML 4">
+<!ENTITY htmlMarkupLanguage.label "HTML 4">
+<!ENTITY imageEditor.label "Editor de imagens">
+<!ENTITY latin1EntitiesEncoding.label "Os caracteres acima e letras Latin-1">
+<!ENTITY looseDTD.label "Transitional">
+<!ENTITY markupLanguage.label "Linguagem:">
+<!ENTITY noEscaping.label "Não codificar caracteres especiais em valores de atributos">
+<!ENTITY noGTEncoding.label "Não codificar '&gt;' fora de valores de atributos">
+<!ENTITY realtimeSpellCheck.label "Verificar ortografia automaticamente">
+<!ENTITY specialChars.description "Definir os seguintes caracteres como entidades:">
+<!ENTITY specialChars.label "Caracteres especiais">
+<!ENTITY spellCheckRealTime.accesskey "u">
+<!ENTITY spellCheckRealTime.label "Sublinhar palavras digitadas incorretamente">
+<!ENTITY strictDTD.label "Strict">
+<!ENTITY useSystemBrowser.label "Usar navegador padrão">
+<!ENTITY userDefinedBrower.label "Definido pelo usuário">
+<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">

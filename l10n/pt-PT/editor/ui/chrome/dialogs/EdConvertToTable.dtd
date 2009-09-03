@@ -1,0 +1,9 @@
+<!ENTITY collapseSpaces.label "Ignorar espaços adicionais">
+<!ENTITY collapseSpaces.tooltip "Converter espaços adjacentes num separador">
+<!ENTITY commaRadio.label "Vírgula">
+<!ENTITY deleteCharCheck.label "Eliminar o carácter separador">
+<!ENTITY instructions1.label "Cada parágrafo da selecção será transformado numa linha da tabela.">
+<!ENTITY instructions2.label "Seleccione o carácter usado para separar as colunas:">
+<!ENTITY otherRadio.label "Outro:">
+<!ENTITY spaceRadio.label "Espaço">
+<!ENTITY windowTitle.label "Converter para tabela">

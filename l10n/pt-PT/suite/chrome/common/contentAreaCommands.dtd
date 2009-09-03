@@ -1,0 +1,91 @@
+<!ENTITY addToBookmarksCmd.accesskey "M">
+<!ENTITY addToBookmarksCmd.label "Criar marcadores">
+<!ENTITY bookmarkFrameCmd.accesskey "C">
+<!ENTITY bookmarkFrameCmd.label "Criar marcador">
+<!ENTITY bookmarkLinkCmd.accesskey "l">
+<!ENTITY bookmarkLinkCmd.label "Criar marcador para este link">
+<!ENTITY bookmarkPageCmd.accesskey "m">
+<!ENTITY bookmarkPageCmd.label "Criar marcador">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY copyEmailCmd.accesskey "a">
+<!ENTITY copyEmailCmd.label "Copiar email">
+<!ENTITY copyImageCmd.accesskey "r">
+<!ENTITY copyImageCmd.label "Copiar endereço da imagem">
+<!ENTITY copyLinkCmd.accesskey "o">
+<!ENTITY copyLinkCmd.label "Copiar endereço do link">
+<!ENTITY cutCmd.accesskey "t">
+<!ENTITY cutCmd.label "Recortar">
+<!ENTITY deleteCmd.accesskey "x">
+<!ENTITY deleteCmd.label "Excluir">
+<!ENTITY fitImageCmd.accesskey "R">
+<!ENTITY fitImageCmd.label "Redimensionar imagem">
+<!ENTITY goBackCmd.accesskey "V">
+<!ENTITY goBackCmd.label "Voltar">
+<!ENTITY goForwardCmd.accesskey "A">
+<!ENTITY goForwardCmd.label "Avançar">
+<!ENTITY metadataCmd.accesskey "t">
+<!ENTITY metadataCmd.label "Propriedades do objeto">
+<!ENTITY openFrameCmd.accesskey "A">
+<!ENTITY openFrameCmd.label "Abrir quadro em nova janela">
+<!ENTITY openFrameCmdInTab.accesskey "n">
+<!ENTITY openFrameCmdInTab.label "Abrir quadro em nova aba">
+<!ENTITY openLinkCmd.accesskey "A">
+<!ENTITY openLinkCmd.label "Abrir em nova janela">
+<!ENTITY openLinkCmdInTab.accesskey "n">
+<!ENTITY openLinkCmdInTab.label "Abrir em nova aba">
+<!ENTITY openLinkInWindowCmd.accesskey "b">
+<!ENTITY openLinkInWindowCmd.label "Abrir">
+<!ENTITY pasteCmd.accesskey "o">
+<!ENTITY pasteCmd.label "Colar">
+<!ENTITY popupWindowAllowCmd.accesskey "">
+<!ENTITY popupWindowAllowCmd.label "Desbloquear popups deste site">
+<!ENTITY popupWindowRejectCmd.accesskey "">
+<!ENTITY popupWindowRejectCmd.label "Bloquear popups deste site">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY redoCmd.label "Refazer">
+<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY reloadCmd.commandkey "r">
+<!ENTITY reloadCmd.label "Recarregar">
+<!ENTITY reloadFrameCmd.accesskey "R">
+<!ENTITY reloadFrameCmd.label "Recarregar quadro">
+<!ENTITY saveFrameCmd.accesskey "v">
+<!ENTITY saveFrameCmd.label "Salvar quadro como...">
+<!ENTITY saveImageCmd.accesskey "i">
+<!ENTITY saveImageCmd.label "Salvar imagem como...">
+<!ENTITY saveLinkCmd.accesskey "c">
+<!ENTITY saveLinkCmd.label "Salvar link como...">
+<!ENTITY savePageCmd.accesskey "l">
+<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY savePageCmd.label "Salvar como...">
+<!ENTITY search.accesskey "P">
+<!ENTITY selectAllCmd.accesskey "S">
+<!ENTITY selectAllCmd.label "Selecionar tudo">
+<!ENTITY setWallpaperCmd.accesskey "u">
+<!ENTITY setWallpaperCmd.label "Definir como plano de fundo">
+<!ENTITY showOnlyThisFrameCmd.accesskey "M">
+<!ENTITY showOnlyThisFrameCmd.label "Maximizar somente este quadro">
+<!ENTITY spellAddToDictionary.label "Add to Dictionary">
+<!ENTITY spellSuggestions.accesskey "S">
+<!ENTITY spellSuggestions.label "Spelling Suggestions">
+<!ENTITY stopCmd.accesskey "P">
+<!ENTITY stopCmd.label "Parar">
+<!ENTITY thisFrameMenu.accesskey "q">
+<!ENTITY thisFrameMenu.label "Este quadro">
+<!ENTITY undoCmd.accesskey "D">
+<!ENTITY undoCmd.label "Desfazer">
+<!ENTITY viewBGImageCmd.accesskey "x">
+<!ENTITY viewBGImageCmd.label "Exibir plano de fundo">
+<!ENTITY viewFrameInfoCmd.accesskey "o">
+<!ENTITY viewFrameInfoCmd.label "Propriedades do quadro">
+<!ENTITY viewFrameSourceCmd.accesskey "f">
+<!ENTITY viewFrameSourceCmd.label "Código-fonte deste quadro">
+<!ENTITY viewImageCmd.accesskey "x">
+<!ENTITY viewImageCmd.label "Exibir imagem">
+<!ENTITY viewPageInfoCmd.accesskey "o">
+<!ENTITY viewPageInfoCmd.label "Propriedades da página">
+<!ENTITY viewPageSourceCmd.accesskey "f">
+<!ENTITY viewPageSourceCmd.label "Código-fonte">
+<!ENTITY viewPartialSourceCmd.accesskey "f">
+<!ENTITY viewPartialSourceForMathMLCmd.label "Código-fonte MathML">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Código-fonte da seleção">

@@ -1,0 +1,72 @@
+<!ENTITY AlignCenter.label "Centrado">
+<!ENTITY AlignLeft.label "Esquerdo">
+<!ENTITY AlignRight.label "Direito">
+<!ENTITY applyBeforeChange1.label "As alterações actuais serão aplicadas">
+<!ENTITY applyBeforeChange2.label "antes de alterar a selecção.">
+<!ENTITY backgroundColor.accessKey "u">
+<!ENTITY backgroundColor.label "Cor do plano de fundo:">
+<!ENTITY cellAlignAtChar.label "No carácter:">
+<!ENTITY cellAlignBottom.label "Inferior">
+<!ENTITY cellAlignJustify.label "Justificado">
+<!ENTITY cellAlignMiddle.label "Centrado">
+<!ENTITY cellAlignTop.label "Superior">
+<!ENTITY cellApplyBeforeMove.label "Aplicar alterações antes de alterar a selecção">
+<!ENTITY cellColSpan.label "Agrupar colunas:">
+<!ENTITY cellContentAlignment.label "Alinhamento do conteúdo">
+<!ENTITY cellHeader.label "Cabeçalho">
+<!ENTITY cellHorizontal.accessKey "z">
+<!ENTITY cellHorizontal.label "Horizontal:">
+<!ENTITY cellInheritColor.label "(célula transparente)">
+<!ENTITY cellKeepCurrentData.label "Manter configurações actuais">
+<!ENTITY cellNoWrap.label "Não quebrar">
+<!ENTITY cellNormal.label "Normal">
+<!ENTITY cellPercent.label "percentagem da tabela">
+<!ENTITY cellRowSpan.label "Agrupar linhas:">
+<!ENTITY cellSelectCell.label "Célula">
+<!ENTITY cellSelectColumn.label "Coluna">
+<!ENTITY cellSelectNext.accessKey "P">
+<!ENTITY cellSelectNext.label "Próxima">
+<!ENTITY cellSelectPrevious.accessKey "n">
+<!ENTITY cellSelectPrevious.label "Anterior">
+<!ENTITY cellSelectRow.label "Linha">
+<!ENTITY cellSelection.label "Selecção">
+<!ENTITY cellStyle.accessKey "c">
+<!ENTITY cellStyle.label "Estilo da célula:">
+<!ENTITY cellTab.label "Células">
+<!ENTITY cellTextWrap.accessKey "Q">
+<!ENTITY cellTextWrap.label "Quebrar texto:">
+<!ENTITY cellUseCheckboxHelp.label "Utilize as caixas de selecção para determinar as propriedades que serão aplicadas às células selecionadas">
+<!ENTITY cellVertical.accessKey "V">
+<!ENTITY cellVertical.label "Vertical">
+<!ENTITY cellWrap.label "Quebrar">
+<!ENTITY pixels.label "píxeis (contorno)">
+<!ENTITY size.label "Tamanho">
+<!ENTITY tableAlignment.accessKey "h">
+<!ENTITY tableAlignment.label "Alinhamento da tabela:">
+<!ENTITY tableBorderSpacing.label "Contornos e espaçamento">
+<!ENTITY tableBorderWidth.accessKey "b">
+<!ENTITY tableBorderWidth.label "border =">
+<!ENTITY tableCaption.accessKey "n">
+<!ENTITY tableCaption.label "Legenda:">
+<!ENTITY tableCaptionAbove.label "Acima da tabela">
+<!ENTITY tableCaptionBelow.label "Abaixo da tabela">
+<!ENTITY tableCaptionLeft.label "À esquerda da tabela">
+<!ENTITY tableCaptionNone.label "Nenhuma">
+<!ENTITY tableCaptionRight.label "À direita da tabela">
+<!ENTITY tableColumns.accessKey "C">
+<!ENTITY tableColumns.label "Colunas:">
+<!ENTITY tableHeight.accessKey "r">
+<!ENTITY tableHeight.label "Altura:">
+<!ENTITY tableInheritColor.label "(tabela transparente)">
+<!ENTITY tablePadding.accessKey "d">
+<!ENTITY tablePadding.label "cellpadding =">
+<!ENTITY tablePxBetwBrdrCellContent.label "píxeis (espaçamento entre o contorno da célula e o conteúdo)">
+<!ENTITY tablePxBetwCells.label "píxeis (espaçamento entre células)">
+<!ENTITY tableRows.accessKey "L">
+<!ENTITY tableRows.label "Linhas:">
+<!ENTITY tableSpacing.accessKey "s">
+<!ENTITY tableSpacing.label "cellspacing =">
+<!ENTITY tableTab.label "Tabela">
+<!ENTITY tableWidth.accessKey "u">
+<!ENTITY tableWidth.label "Largura:">
+<!ENTITY tableWindow.title "Propriedades da tabela">

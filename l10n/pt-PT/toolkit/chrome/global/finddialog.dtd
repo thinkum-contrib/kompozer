@@ -1,0 +1,22 @@
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "Localizar nesta página">
+<!ENTITY findDialogFrame.title "Localizar nesta frame">
+<!ENTITY findField.label "Procurar por:">
+<!ENTITY findField.accesskey "P">
+<!ENTITY caseSensitiveCheckbox.label "Sensível a maiúsculas/minúsculas">
+<!ENTITY caseSensitiveCheckbox.accesskey "S">
+<!ENTITY wrapCheckbox.label "Moldar o texto">
+<!ENTITY wrapCheckbox.accesskey "M">
+<!ENTITY backwardsCheckbox.label "Pesquisar para trás">
+<!ENTITY backwardsCheckbox.accesskey "t">
+<!ENTITY findField.tooltip "Insira uma ou mais palavras a pesquisar">
+<!ENTITY findButton.label "Localizar seguinte">
+<!ENTITY findButton.accesskey "L">
+<!ENTITY cancelButton.label "Cancelar">
+<!ENTITY closeButton.label "Fechar">
+<!ENTITY up.label "Acima">
+<!ENTITY up.accesskey "c">
+<!ENTITY down.label "Abaixo">
+<!ENTITY down.accesskey "b">
+<!ENTITY direction.label "Direcção">

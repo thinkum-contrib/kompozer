@@ -1,0 +1,43 @@
+<!ENTITY browseUrl.label 'Endereço HTTP da sua página (exemplo: "http://www.servidor.pt/omeunome"):'>
+<!ENTITY browseUrl.tooltip "O endereço HTTP:// do directório home (não incluir o nome do arquivo)">
+<!ENTITY chooseDirButton.label "Seleccionar...">
+<!ENTITY docDirList.label "Subdirectório do sítio para esta página:">
+<!ENTITY filename.label "Nome do ficheiro:">
+<!ENTITY filename.tooltip 'Fornceça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
+<!ENTITY filenameExample.label "exemplo: &quot;omeusitio.html&quot;">
+<!ENTITY loginInfo.label "Informações de início de sessão">
+<!ENTITY newSiteButton.label "Novo sítio">
+<!ENTITY pageTitle.label "Título da página:">
+<!ENTITY pageTitle.tooltip "Forneça um título para identificar a página na janela e nos marcadores">
+<!ENTITY pageTitleExample.label "exemplo: &quot;A minha Página da Teia&quot;">
+<!ENTITY password.label "Senha:">
+<!ENTITY password.tooltip "A senha associada ao seu nome de utilizador">
+<!ENTITY publishImgCheckbox.label "Incluir imagens e outros ficheiros">
+<!ENTITY publishImgCheckbox.tooltip "Publicar imagens e outros ficheiros referenciados por esta página">
+<!ENTITY publishSites.label "Sítios para publicação">
+<!ENTITY publishTab.label "Publicar">
+<!ENTITY relatedDocs.label "Outros ficheiros para publicar">
+<!ENTITY removeButton.label "Remover sítio">
+<!ENTITY sameLocationRadio.label "Usar o mesmo endereço da página">
+<!ENTITY sameLocationRadio.tooltip "Publicar ficheiros no mesmo endereço da página">
+<!ENTITY savePassword.label "Guardar senha">
+<!ENTITY savePassword.tooltip "Seleccione para guardar a sua senha com segurança usando o gestor de senhas">
+<!ENTITY selectDirectory.label "Seleccionar directório...">
+<!ENTITY serverInfo.label "Informações do servidor">
+<!ENTITY setDefSiteAndDir.label "Definir como sítio e directório padrão">
+<!ENTITY setDefaultButton.label "Definir como padrão">
+<!ENTITY settingsTab.label "Configurações">
+<!ENTITY siteDirList.label "Seleccione ou introduza o nome do directório no sítio de publicação:">
+<!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome do subdirectório remoto para publicar">
+<!ENTITY siteList.label "Nome do sítio:">
+<!ENTITY siteList.tooltip "Selecione o sítio no qual você deseja publicar">
+<!ENTITY siteName.label "Nome do sítio:">
+<!ENTITY siteName.tooltip 'Um apelido que identifique este sítio de publicação (exemplo: "OMeuSítio")'>
+<!ENTITY siteUrl.label 'Endereço de publicação (exemplo: "ftp://ftp.servidor.pt/omeunome"):'>
+<!ENTITY siteUrl.tooltip "O endereço FTP:// ou HTTP:// fornecido pelo seu fornecedor de alojamento">
+<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de um subdirectório aonde os ficheiros serão publicados">
+<!ENTITY useSubdirRadio.label "Usar este subdirectório do sítio:">
+<!ENTITY username.label "Nome de utilizador:">
+<!ENTITY username.tooltip "O nome de utilizador que você utiliza com o seu fornecedor de alojamento">
+<!ENTITY windowTitle.label "Publicar página">
+<!ENTITY windowTitleSettings.label "Configurações de publicação">

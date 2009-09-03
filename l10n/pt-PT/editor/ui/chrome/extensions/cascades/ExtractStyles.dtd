@@ -1,0 +1,10 @@
+<!ENTITY allElements.label "todos os elementos">
+<!ENTITY alreadyUsedWarning.label "Aviso: este nome já está em uso!!!">
+<!ENTITY autoChoice.label "Escolha por mim!">
+<!ENTITY description.label "Extrair os estilos na linha aplicados a este elemento e criar uma regra de estilo CSS aplicada a">
+<!ENTITY nameNeededWarning.label "É obrigatório dar nome a este elemento">
+<!ENTITY ofClass.label "da classe:">
+<!ENTITY ofType.label "do memsmo tipo de elemento">
+<!ENTITY thisElementOnly.label "este elemento apenas">
+<!ENTITY whenHovered.label "sob o ponteiro do rato">
+<!ENTITY window.title "Criar estilo genérico">

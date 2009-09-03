@@ -1,0 +1,10 @@
+<!ENTITY adjustDesc.label "Ajustar ligações para funcionar no endereço da página. (Ligações para páginas locais funcinarão quando existirem versões locais.)">
+<!ENTITY composerHeader.label "Publicar">
+<!ENTITY defaultHeader.label "Endereço-padrão da publicação">
+<!ENTITY keepCheck.label "Manter as imagens com a página">
+<!ENTITY maintainCheckbox.label "Preservar ligações">
+<!ENTITY publishFtp.label "Se publicar num sítio FTP, forneça o endereço HTTP associado:">
+<!ENTITY publishhtp.label "Se publicar num sítio FTP, forneça o endereço HTTP associado:">
+<!ENTITY saveDesc.label "Guardar cópias das imagens para o endereço. As imagens aparecerão sempre em versões locais da página e quando a página for publicada.">
+<!ENTITY tip.label "Dica: Seleccione sempre ambas as opções se estiver a usar publicação remota.">
+<!ENTITY window.title "Publicar">
