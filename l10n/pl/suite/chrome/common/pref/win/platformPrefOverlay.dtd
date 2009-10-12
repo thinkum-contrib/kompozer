@@ -1,3 +1,12 @@
+
+<!ENTITY winhooks.label                   "System">
+
+<!ENTITY defaultBrowserGroup.label  "Domyślna przeglądarka">
+<!ENTITY defaultBrowserButton.label "Ustaw domyślną przeglądarkę">
+<!ENTITY alreadyDefaultText         "&brandShortName; jest już domyślną przeglądarką.">
+<!ENTITY defaultPendingText         "&brandShortName; zostanie ustawiona jako domyślna przeglądraka gdy wybierzesz OK.">
+<!ENTITY makeDefaultText            "Ustaw &brandShortName; jako domyślną przeglądarkę.">
+
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
      preference dialog's <window> node, which specifies the width and height
      in em units of the dialog. Localizers ONLY can increase these widths 
@@ -8,7 +17,6 @@
 <!ENTITY prefWindow.size "width: 52em; height: 41em;">
 
 <!-- pref-tabs.xul -->
-<!ENTITY urlbar.label "Ctrl+Enter in the Location bar">
-<!ENTITY urlbar.accesskey "L">
-<!ENTITY middleClick.label "Middle-click, Ctrl+click or Ctrl+Enter on links in a Web page">
-<!ENTITY middleClick.accesskey "M">
+<!ENTITY urlbar.label "Ctrl+Enter w pasku adresu">
+<!ENTITY middleClick.label "Środkowy klawisz myszy, kliknięcie z klawiszem ctrl lub ctrl+enter na odnośnikach na stronie WWW">
+

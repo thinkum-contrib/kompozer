@@ -37,11 +37,11 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY untitledDocument.label      "(Bez nazwy)">
-<!ENTITY closeTab.label              "Zamknij panel">
+<!ENTITY closeTab.label              "Zamknij kartę">
 <!ENTITY closeTab.accesskey          "z">
-<!ENTITY closeOtherTabs.label        "Zamknij inne panele">
+<!ENTITY closeOtherTabs.label        "Zamknij inne karty">
 <!ENTITY closeOtherTabs.accesskey    "a">
-<!ENTITY newTab.label                "Nowy panel">
+<!ENTITY newTab.label                "Nowa karta">
 <!ENTITY newTab.accesskey            "N">
 <!ENTITY revert.label                "Przywróć">
 <!ENTITY revert.accesskey            "P">

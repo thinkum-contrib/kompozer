@@ -9,6 +9,5 @@
 <!ENTITY reloadAllTabs.accesskey "w" >
 <!ENTITY reloadTab.label "Odśwież kartę" >
 <!ENTITY reloadTab.accesskey "k" >
-<!ENTITY bookmarkGroup.label "Dodaj do zakładek jako grupę kart" >
-<!ENTITY bookmarkGroup.accesskey "g" >
-<!ENTITY newTabButton.tooltip "Otwórz nową kartę" >
+<!ENTITY  newTabButton.tooltip   "Otwórz nową kartę">
+<!ENTITY  listAllTabs.label      "Pokaż wszystkie karty">

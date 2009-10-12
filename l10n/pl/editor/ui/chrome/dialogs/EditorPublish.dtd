@@ -28,6 +28,8 @@
 <!ENTITY publishTab.label "Opublikuj" >
 <!ENTITY settingsTab.label "Ustawienia" >
 
+<!ENTITY publishButton.label        "Publikuj">
+
 <!-- Publish Tab Panel -->
 <!ENTITY siteList.label "Nazwa miejsca:" >
 <!ENTITY siteList.tooltip "Wybierz miejsce do publikacji plików" >
@@ -71,3 +73,22 @@
 <!ENTITY savePassword.tooltip "Po zaznaczeniu tej opcji wprowadzone hasło zostanie zapamiętane w Menedżerze haseł" >
 
 <!ENTITY selectDirectory.label "Wybierz katalog">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Ustawienia ogólne">
+<!ENTITY ftpSettings.label          "Ustawienia FTP">
+<!ENTITY localSettings.label        "Ustawienia lokalne">
+<!ENTITY siteDirectory.label        "Katalog strony:">
+<!ENTITY siteDirectory.tooltip      "Katalog na lokalnym dysku twartym w którym znajduje się strona">
+<!ENTITY browsePrefix.label         "Prefix:">
+<!ENTITY browsePrefix.tooltip       "Prefix, który ma zostać usunięty z adresu strony, n.p. /public_html">
+
+<!ENTITY connection.label           "Typ połączenia">
+<!ENTITY port.label                 "Port:">
+<!ENTITY pasv.label                 "Tryb pasywny">
+<!ENTITY security.label             "Zabezpieczenia">
+<!ENTITY none.label                 "Brak">
+<!ENTITY authtls.label              "Auth TLS (Najlepsze)">
+<!ENTITY authssl.label              "Auth SSL (Lepsze)">
+<!ENTITY implicit.label             "Implicit SSL (Dobre)">
+<!ENTITY treesync.label             "Utrzymuj synchronizację katalogów podczas nawigacji">

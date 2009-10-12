@@ -561,6 +561,12 @@
 <!ENTITY PreviewMode.label "Podgląd" >
 <!ENTITY PreviewMode.accesskey "p" >
 <!ENTITY PreviewMode.tooltip "Wyświetl jako WYSIWYG (brak ikon dla niewidocznych znaczników)" >
+<!ENTITY DesignMode.label                    "Projektowanie">
+<!ENTITY DesignMode.accesskey                "d">
+<!ENTITY DesignMode.tooltip                  "Normalny tryb edycji">
+<!ENTITY SplitMode.label                     "Podzielony">
+<!ENTITY SplitMode.accesskey                 "s">
+<!ENTITY SplitMode.tooltip                   "Wyświetl kod HTML aktualnie zaznaczonego elementu">
 <!ENTITY SourceTabDirection "ltr" >
 <!ENTITY structSelect.label "Zaznacz" >
 <!ENTITY structSelect.accesskey "a" >
@@ -645,3 +651,16 @@
 <!ENTITY spellSuggestions.label   "Podpowiedzi gramatyczne">
 <!ENTITY spellSuggestions.accesskey "P">
 <!ENTITY spellAddToDictionary.label "Dodaj do słownika">
+
+<!-- KompoZer 0.8: viewSource -->
+<!ENTITY editNode.label                      "Edytuj HTML">
+<!ENTITY editHead.label                      "Edytuj treść sekcji &lt;head&gt;">
+<!ENTITY editBody.label                      "Edytuj treść sekcji &lt;body&gt;">
+<!ENTITY confirmNode.label                   "Zatwierdź zmiany">
+<!ENTITY cancelNode.label                    "Anuluj zmiany">
+
+<!-- KompoZer 0.8: text editor -->
+<!ENTITY extEditor.label                     "HTML">
+<!ENTITY extEditor.tooltip                   "Otwórz ten dokument w zewnętrznym edytorze">
+<!ENTITY extEditorCmd.label                  "Zewnętrzny edytor tekstu">
+<!ENTITY extEditorCmd.accesskey              "Z">
