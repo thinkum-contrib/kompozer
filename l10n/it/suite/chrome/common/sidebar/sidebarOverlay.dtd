@@ -1,6 +1,6 @@
-<!ENTITY sidebar.close.tooltip "Chiudi Gestione siti">
+<!ENTITY sidebar.close.tooltip "Chiudi la barra laterale">
 <!ENTITY sidebar.customize.accesskey "P">
-<!ENTITY sidebar.customize.label "Personalizza Sidebar…">
+<!ENTITY sidebar.customize.label "Personalizza la barra laterale…">
 <!ENTITY sidebar.hide.accesskey "N">
 <!ENTITY sidebar.hide.label "Nascondi scheda">
 <!ENTITY sidebar.loading.label "Caricamento in corso…">
@@ -8,9 +8,9 @@
 <!ENTITY sidebar.loading.stop.label "Interrompi">
 <!ENTITY sidebar.loadstopped.label "Riprendi caricamento">
 <!ENTITY sidebar.no-panels.add 'È possibile aggiungere schede facendo clic sul pulsante "Aggiungi", e quindi su "Personalizza…"'>
-<!ENTITY sidebar.no-panels.hide 'Se si desidera nascondere completamente la Sidebar, fare clic sul menu "Visualizza" e selezionare "Sidebar".'>
-<!ENTITY sidebar.no-panels.state "Sidebar al momento è vuota.">
-<!ENTITY sidebar.open.tooltip "Apre la Sidebar">
+<!ENTITY sidebar.no-panels.hide 'Se si desidera nascondere completamente la barra laterale, fare clic sul menu "Visualizza" e selezionare "Barra laterale".'>
+<!ENTITY sidebar.no-panels.state "La barra laterale al momento è vuota.">
+<!ENTITY sidebar.open.tooltip "Apre la barra laterale">
 <!ENTITY sidebar.pagenotfound.label "Questa scheda non è al momento disponibile.">
 <!ENTITY sidebar.panels.label "Barra Laterale">
 <!ENTITY sidebar.picker.label "Schede">
@@ -19,5 +19,5 @@
 <!ENTITY sidebar.sbDirectory.label "Indice schede…">
 <!ENTITY sidebar.switch.accesskey "V">
 <!ENTITY sidebar.switch.label "Visualizza scheda">
-<!ENTITY sidebarCmd.accesskey "G">
-<!ENTITY sidebarCmd.label "Gestione siti">
+<!ENTITY sidebarCmd.accesskey "B">
+<!ENTITY sidebarCmd.label "Barra laterale">

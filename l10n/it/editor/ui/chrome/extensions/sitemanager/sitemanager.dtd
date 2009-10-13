@@ -24,11 +24,14 @@
 <!ENTITY filterScripts.label "File di testo">
 <!ENTITY localTab.label "Locale">
 <!ENTITY remoteTab.label "Remoto">
+<!ENTITY ftpConsole.label "Consolle FTP">
+
+<!ENTITY editItem.label "Modifica"> 
 <!ENTITY openItem.label "Apri">
 <!ENTITY openAsText.label "Apri come testo">
 <!ENTITY openRemote.label "Apri directory remota">
 <!ENTITY insertImage.label "Inserisci immagine">
 <!ENTITY previewItem.label "Anteprima">
-<!ENTITY uploadItem.label "Carica…">
+<!ENTITY uploadItem.label "Pubblica…">
 <!ENTITY downloadItem.label "Ripristina…">
 <!ENTITY itemProperties.label "Proprietà…">
