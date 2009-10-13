@@ -70,13 +70,15 @@
 <!-- KompoZer 0.8 -->
 <!ENTITY localTab.label           "Local">
 <!ENTITY remoteTab.label          "Distant">
+<!ENTITY ftpConsole.label         "Console FTP">
 
+<!ENTITY editItem.label           "Modifier">
 <!ENTITY openItem.label           "Ouvrir">
 <!ENTITY openAsText.label         "Ouvrir sous forme texte">
 <!ENTITY openRemote.label         "Ouvrir le répertoire distant">
 <!ENTITY insertImage.label        "Insérer une image">
 <!ENTITY previewItem.label        "Aperçu">
-<!ENTITY uploadItem.label         "Télécharger vers…">
+<!ENTITY uploadItem.label         "Publier…">
 <!ENTITY downloadItem.label       "Restaurer">
 <!ENTITY itemProperties.label     "Propriétés…">
 

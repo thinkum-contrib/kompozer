@@ -38,3 +38,12 @@
 
 <!ENTITY domExplorer.label                      "Explorateur DOM">
 
+<!ENTITY html.label                             "HTML">
+<!ENTITY css.label                              "CSS">
+<!ENTITY htmlcss.label                          "HTML+CSS">
+
+<!ENTITY id.label                               "id">
+<!ENTITY class.label                            "class">
+<!ENTITY elements.label                         "Éléments">
+<!ENTITY style.label                            "style">
+<!ENTITY styleRules.label                       "Règles de style">
