@@ -48,8 +48,8 @@
 <!ENTITY sidebar.hide.accesskey "E">
 <!ENTITY sidebar.switch.label "Cambiar a la pestaña">
 <!ENTITY sidebar.switch.accesskey "C">
-<!ENTITY sidebarCmd.label "Administrador de sitios">
-<!ENTITY sidebarCmd.accesskey "A">
+<!ENTITY sidebarCmd.label "Panel lateral">
+<!ENTITY sidebarCmd.accesskey "a">
 <!ENTITY sidebar.loading.label "Cargando…">
 <!ENTITY sidebar.loadstopped.label "Carga detenida">
 <!ENTITY sidebar.loading.stop.label "Parar">
@@ -59,5 +59,5 @@
 <!ENTITY sidebar.no-panels.hide 'Si desea ocultar totalmente el panel lateral, pulse en el menú "Ver" de la parte superior y seleccione "Panel lateral".'>
 <!ENTITY sidebar.sbDirectory.label "Directorio del panel lateral…">
 <!ENTITY sidebar.pagenotfound.label "Esta pestaña no está disponible en este momento.">
-<!ENTITY sidebar.close.tooltip "Cerrar el administrador de sitios">
+<!ENTITY sidebar.close.tooltip "Cerrar el panel lateral">
 <!ENTITY sidebar.open.tooltip "Abrir panel lateral">

@@ -61,11 +61,13 @@
 <!ENTITY filterControl.label "Ver:">
 <!ENTITY localTab.label "Local">
 <!ENTITY remoteTab.label "Remoto">
+<!ENTITY ftpConsole.label "Consola FTP">
+<!ENTITY editItem.label "Editar">
 <!ENTITY openItem.label "Abrir">
 <!ENTITY openAsText.label "Abrir como texto">
 <!ENTITY openRemote.label "Abrir directorio remoto">
 <!ENTITY insertImage.label "Insertar imagen">
 <!ENTITY previewItem.label "Previsualizar">
-<!ENTITY uploadItem.label "Subir…">
+<!ENTITY uploadItem.label "Publicar…">
 <!ENTITY downloadItem.label "Restaurar…">
 <!ENTITY itemProperties.label "Propiedades…">
