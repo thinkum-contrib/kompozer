@@ -6,7 +6,7 @@
   application menu. Never change the modifiers unless you are 100% sure that
   they are different on your locale (should be very rare). -->
 
-<!ENTITY quitApplicationCmd.label       "&brandShortName; beenden"> 
+<!ENTITY quitApplicationCmd.label       "KompoZer beenden"> 
 <!ENTITY quitApplicationCmd.key         "Q">
 
 <!-- End of Application menu -->
