@@ -10,7 +10,7 @@
 <!ENTITY previous.tooltip "尋找上一個">
 <!ENTITY findCloseButton.tooltip "關閉搜尋列">
 <!ENTITY highlight.label "全部高亮度(A)">
-<!ENTITY highlight.accesskey "A">
+<!ENTITY highlight.accesskey "a">
 <!ENTITY highlight.tooltiptext "用高亮度標示所有的搜尋字串">
 <!ENTITY caseSensitiveCheckbox.label "區分大小寫(C)">
-<!ENTITY caseSensitiveCheckbox.accesskey "C">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">

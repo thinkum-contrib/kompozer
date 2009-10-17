@@ -23,13 +23,13 @@
 <!ENTITY cmd.open.label "開啟(O)">
 <!ENTITY cmd.open.accesskey "O">
 <!ENTITY cmd.openWith.label "開啟方式(H)…">
-<!ENTITY cmd.openWith.accesskey "H">
+<!ENTITY cmd.openWith.accesskey "h">
 <!ENTITY cmd.retry.label "重試(R)">
 <!ENTITY cmd.retry.accesskey "R">
 <!ENTITY cmd.remove.label "移除(E)">
-<!ENTITY cmd.remove.accesskey "E">
+<!ENTITY cmd.remove.accesskey "e">
 <!ENTITY cmd.properties.label "屬性(I)">
-<!ENTITY cmd.properties.accesskey "I">
+<!ENTITY cmd.properties.accesskey "i">
 <!ENTITY cmd.info.commandKey "i">
 
 <!ENTITY cmd.close.commandKey "w">

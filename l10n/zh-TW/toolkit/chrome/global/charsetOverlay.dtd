@@ -2,11 +2,11 @@
 <!ENTITY charsetMenu.label "字符編碼">
 <!ENTITY charsetMenu.accesskey "C">
 <!ENTITY charsetMenuAutodet.label "自動偵測(A)">
-<!ENTITY charsetMenuAutodet.accesskey "A">
+<!ENTITY charsetMenuAutodet.accesskey "a">
 <!ENTITY charsetMenuMore.label "更多編碼(M)">
-<!ENTITY charsetMenuMore.accesskey "M">
+<!ENTITY charsetMenuMore.accesskey "m">
 <!ENTITY charsetMenuMore1.label "西歐(W)">
-<!ENTITY charsetMenuMore1.accesskey "W">
+<!ENTITY charsetMenuMore1.accesskey "w">
 <!ENTITY charsetMenuMore2.label "東歐(E)">
 <!ENTITY charsetMenuMore2.accesskey "E">
 <!ENTITY charsetMenuMore3.label "東亞(A)">
@@ -18,4 +18,4 @@
 <!ENTITY charsetMenuUnicode.label "萬國碼(U)">
 <!ENTITY charsetMenuUnicode.accesskey "U">
 <!ENTITY charsetCustomize.label "自定義列表(C)…">
-<!ENTITY charsetCustomize.accesskey "C">
+<!ENTITY charsetCustomize.accesskey "c">

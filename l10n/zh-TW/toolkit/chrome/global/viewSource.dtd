@@ -14,9 +14,9 @@
 <!ENTITY savePageCmd.accesskey "A">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "頁面設定(U)…">
-<!ENTITY pageSetupCmd.accesskey "U">
+<!ENTITY pageSetupCmd.accesskey "u">
 <!ENTITY printPreviewCmd.label "預覽列印(V)">
-<!ENTITY printPreviewCmd.accesskey "V">
+<!ENTITY printPreviewCmd.accesskey "v">
 <!ENTITY printCmd.label "列印(P)…">
 <!ENTITY printCmd.accesskey "P">
 <!ENTITY printCmd.commandkey "P">
@@ -55,6 +55,6 @@
 <!ENTITY findOnCmd.accesskey "F">
 <!ENTITY findOnCmd.commandkey "f">
 <!ENTITY findAgainCmd.label "尋找下一個(G)">
-<!ENTITY findAgainCmd.accesskey "G">
+<!ENTITY findAgainCmd.accesskey "g">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">

@@ -9,9 +9,9 @@
 <!ENTITY editorCmd.commandkey "4">
 
 <!ENTITY securityInfoCmd.label "安全資訊(S)">
-<!ENTITY securityInfoCmd.accesskey "S">
+<!ENTITY securityInfoCmd.accesskey "s">
 <!ENTITY javaConsoleCmd.label "Java 主控台(J)">
-<!ENTITY javaConsoleCmd.accesskey "J">
+<!ENTITY javaConsoleCmd.accesskey "j">
 
 <!ENTITY javaScriptConsoleCmd.label "JavaScript 主控台(S)">
 <!ENTITY javaScriptConsoleCmd.accesskey "S">
@@ -37,7 +37,7 @@
 <!ENTITY downloadManagerCmd.accesskey "D">
 
 <!ENTITY switchProfileCmd.label "切換設定檔(H)…">
-<!ENTITY switchProfileCmd.accesskey "H">
+<!ENTITY switchProfileCmd.accesskey "h">
 
 <!ENTITY addons.label "附加組件">
 <!ENTITY extensions.label "擴充套件">

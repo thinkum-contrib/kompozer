@@ -43,13 +43,13 @@
 <!ENTITY sidebar.reload.accesskey "R">
 <!ENTITY sidebar.picker.label "分頁">
 <!ENTITY sidebar.customize.label "自訂側邊欄(U)…">
-<!ENTITY sidebar.customize.accesskey "U">
+<!ENTITY sidebar.customize.accesskey "u">
 <!ENTITY sidebar.hide.label "隱藏分頁(H)">
 <!ENTITY sidebar.hide.accesskey "H">
 <!ENTITY sidebar.switch.label "切換至分頁(T)">
 <!ENTITY sidebar.switch.accesskey "T">
-<!ENTITY sidebarCmd.label "網站管理員(M)">
-<!ENTITY sidebarCmd.accesskey "M">
+<!ENTITY sidebarCmd.label "Sidebar">
+<!ENTITY sidebarCmd.accesskey "b">
 <!ENTITY sidebar.loading.label "載入中…">
 <!ENTITY sidebar.loadstopped.label "載入已停止">
 <!ENTITY sidebar.loading.stop.label "停止(S)">
@@ -61,6 +61,6 @@
 <!ENTITY sidebar.sbDirectory.label "側邊欄目錄…">
 
 <!ENTITY sidebar.pagenotfound.label "現在無法使用此面版。">
-<!ENTITY sidebar.close.tooltip "關閉網站管理員">
+<!ENTITY sidebar.close.tooltip "Close Sidebar">
 <!ENTITY sidebar.open.tooltip "開啟側邊欄">
 

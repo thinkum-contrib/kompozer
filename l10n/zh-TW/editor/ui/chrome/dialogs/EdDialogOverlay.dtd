@@ -27,7 +27,7 @@
 <!ENTITY chooseFile.accessKey "F">
 <!ENTITY chooseFileLink.accessKey "o">
 <!ENTITY makeUrlRelative.label "網址是相對於此網頁位址(R)">
-<!ENTITY makeUrlRelative.accessKey "R">
+<!ENTITY makeUrlRelative.accessKey "r">
 <!ENTITY makeUrlRelative.tooltip "相對與絕對路徑的轉換。要先存檔才能改變此頁。">
 <!-- Shared by Link and Image dialogs -->
 

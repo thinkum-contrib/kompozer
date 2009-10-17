@@ -3,15 +3,15 @@
 
 <!ENTITY closeCmd.label "關閉(C)">
 <!ENTITY closeCmd.key "W">
-<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.accesskey "c">
 
 <!ENTITY quitApplicationCmd.label "離開(Q)">
 <!ENTITY quitApplicationCmd.key "Q">
-<!ENTITY quitApplicationCmd.accesskey "Q">
+<!ENTITY quitApplicationCmd.accesskey "q">
 
 <!ENTITY redoCmd.label "重做(R)">
 <!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.accesskey "R">
+<!ENTITY redoCmd.accesskey "r">
 
 <!ENTITY findTypeTextCmd.key "/">
 <!ENTITY findTypeLinksCmd.key "'">

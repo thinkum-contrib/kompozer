@@ -64,7 +64,7 @@
 <!ENTITY fileRevert.label "回復">
 <!ENTITY filerevert.accesskey "v">
 <!ENTITY refreshImages.label "重新載入圖片(I)">
-<!ENTITY refreshImages.accesskey "I">
+<!ENTITY refreshImages.accesskey "i">
 <!ENTITY saveCmd.label "儲存">
 <!ENTITY filesave.accesskey "s">
 <!ENTITY filesave.keybinding "s">
@@ -106,11 +106,11 @@
 <!ENTITY editMenu.label "編輯">
 <!ENTITY editmenu.accesskey "e">
 <!ENTITY pasteNoFormatting.label "貼上 (不含格式)(O)">
-<!ENTITY pasteNoFormatting.accesskey "O">
+<!ENTITY pasteNoFormatting.accesskey "o">
 <!ENTITY pasteAs.label "貼上為(A)">
-<!ENTITY pasteAs.accesskey "A">
+<!ENTITY pasteAs.accesskey "a">
 <!ENTITY publishSettings.label "網站發佈設定(B)…">
-<!ENTITY publishSettings.accesskey "B">
+<!ENTITY publishSettings.accesskey "b">
 <!ENTITY detachFromTemplate.label "解除鎖定樣本">
 <!-- For a "Paste" submenu when more than 1 
      clipboard formats are available -->
@@ -163,7 +163,7 @@
 <!-- View menu items -->
 
 <!ENTITY viewToolbarsMenu.label "顯示／隱藏(W)">
-<!ENTITY viewToolbarsMenu.accesskey "W">
+<!ENTITY viewToolbarsMenu.accesskey "w">
 <!ENTITY compositionToolbarCmd.label "設計工具列">
 <!ENTITY compositiontb.accesskey "c">
 <!ENTITY formattingToolbarCmd.label "格式工具列">
@@ -209,7 +209,7 @@
 <!ENTITY insertNbsp.accesskey "n">
 
 <!ENTITY insertHTMLCmd.label "HTML(H)…">
-<!ENTITY insertHTMLCmd.accesskey "H">
+<!ENTITY insertHTMLCmd.accesskey "h">
 <!ENTITY insertPHPCode.label "PHP 程式碼…">
 <!ENTITY insertphpcode.accesskey "p">
 <!ENTITY insertComment.label "註解…">
@@ -325,21 +325,21 @@
 <!ENTITY styleNonbreakingCmd.label "不斷行(Nonbreaking)">
 <!ENTITY stylenonbreaking.accesskey "N">
 <!ENTITY styleEm.label "強調(E)">
-<!ENTITY styleEm.accesskey "E">
+<!ENTITY styleEm.accesskey "e">
 <!ENTITY styleStrong.label "特別強調(T)">
-<!ENTITY styleStrong.accesskey "T">
+<!ENTITY styleStrong.accesskey "t">
 <!ENTITY styleCite.label "引言(C)">
-<!ENTITY styleCite.accesskey "C">
+<!ENTITY styleCite.accesskey "c">
 <!ENTITY styleAbbr.label "縮寫(A)">
 <!ENTITY styleAbbr.accesskey "A">
 <!ENTITY styleAcronym.label "首字母縮略字(R)">
-<!ENTITY styleAcronym.accesskey "R">
+<!ENTITY styleAcronym.accesskey "r">
 <!ENTITY styleCode.label "程式碼(O)">
-<!ENTITY styleCode.accesskey "O">
+<!ENTITY styleCode.accesskey "o">
 <!ENTITY styleSamp.label "範例輸出(M)">
-<!ENTITY styleSamp.accesskey "M">
+<!ENTITY styleSamp.accesskey "m">
 <!ENTITY styleVar.label "變數(V)">
-<!ENTITY styleVar.accesskey "V">
+<!ENTITY styleVar.accesskey "v">
 
 <!ENTITY formatFontColor.label "文字色彩…">
 <!ENTITY formatfontcolor.accesskey "c">
@@ -453,7 +453,7 @@
 <!ENTITY blockBorders.tooltip "框線(Borders)">
 
 <!ENTITY grid.label "定位網格(T)">
-<!ENTITY grid.accesskey "T">
+<!ENTITY grid.accesskey "t">
 
 <!ENTITY pageProperties.label "頁面標題與屬性…">
 <!ENTITY pageproperties.accesskey "g">
@@ -519,7 +519,7 @@
 <!ENTITY convertToTable.label "由選取資料建立表格">
 <!ENTITY converttotable.accesskey "r">
 <!ENTITY tableProperties.label "表格屬性(O)…">
-<!ENTITY tableProperties.accesskey "O">
+<!ENTITY tableProperties.accesskey "o">
 <!-- Tools menu -->                         
                                             
 <!ENTITY toolsmenu.accesskey "l">
@@ -614,33 +614,33 @@
 <!-- Used with color pickers in Format toolbar and Format Menu -->
 
 <!ENTITY colorPicker.default.label "瀏覽者的預設色彩(R)">
-<!ENTITY colorPicker.default.accesskey "R">
+<!ENTITY colorPicker.default.accesskey "r">
 <!ENTITY colorLabel.label "色彩:">
 <!ENTITY ok.label "確定">
 <!-- Display Mode toolbar and View menu items -->
 
 <!ENTITY NormalModeTab.label "一般">
 <!ENTITY NormalMode.label "一般顯示模式(N)">
-<!ENTITY NormalMode.accesskey "N">
+<!ENTITY NormalMode.accesskey "n">
 <!ENTITY NormalMode.tooltip "顯示表格框線與錨點">
 <!ENTITY AllTagsMode.label "HTML 標籤(A)">
 <!ENTITY AllTagsMode.accesskey "A">
 <!ENTITY AllTagsMode.tooltip "顯示所有 HTML 標籤的圖示">
 <!ENTITY PreviewMode.label "預覽(P)">
-<!ENTITY PreviewMode.accesskey "P">
+<!ENTITY PreviewMode.accesskey "p">
 <!ENTITY PreviewMode.tooltip "所見即所得 (WYSIWYG，如同在瀏覽器裡顯示)">
 <!-- Edit Mode toolbar and View menu items -->
 
 <!ENTITY DesignMode.label "設計(D)">
-<!ENTITY DesignMode.accesskey "D">
+<!ENTITY DesignMode.accesskey "d">
 <!ENTITY DesignMode.tooltip "一般編輯模式">
 <!ENTITY SplitMode.label "分離(S)">
-<!ENTITY SplitMode.accesskey "S">
+<!ENTITY SplitMode.accesskey "s">
 <!ENTITY SplitMode.tooltip "顯示目前元素的 HTML 原始碼">
 <!ENTITY HTMLSourceMode.label "HTML 原始碼(H)">
 <!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
 <!ENTITY SourceMode.label "原始碼">
-<!ENTITY HTMLSourceMode.accesskey "H">
+<!ENTITY HTMLSourceMode.accesskey "h">
 <!ENTITY HTMLSourceMode.tooltip "編輯 HTML 原始碼">
 <!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
      Use latin "ltr" if you want the <html> image to left of the 
@@ -653,21 +653,21 @@
 <!-- Structure Toolbar Context Menu items -->
 
 <!ENTITY structSelect.label "選取(S)">
-<!ENTITY structSelect.accesskey "S">
+<!ENTITY structSelect.accesskey "s">
 <!ENTITY structRemoveTag.label "移除標籤(R)">
-<!ENTITY structRemoveTag.accesskey "R">
+<!ENTITY structRemoveTag.accesskey "r">
 <!ENTITY structChangeTag.label "變更標籤(C)">
-<!ENTITY structChangeTag.accesskey "C">
+<!ENTITY structChangeTag.accesskey "c">
 <!-- TOC manipulation -->                    
 
 <!ENTITY insertTOC.label "插入(I)">
-<!ENTITY insertTOC.accesskey "I">
+<!ENTITY insertTOC.accesskey "i">
 <!ENTITY updateTOC.label "更新(U)">
-<!ENTITY updateTOC.accesskey "U">
+<!ENTITY updateTOC.accesskey "u">
 <!ENTITY removeTOC.label "移除(R)">
-<!ENTITY removeTOC.accesskey "R">
+<!ENTITY removeTOC.accesskey "r">
 <!ENTITY tocMenu.label "內容目錄表(B)…">
-<!ENTITY tocMenu.accesskey "B">
+<!ENTITY tocMenu.accesskey "b">
 <!-- Smart Widgets menu -->                  
 
 <!ENTITY insertSmartWidgetsMenu.label "快速小元件">
@@ -676,7 +676,7 @@
 <!-- Toolbar customization -->               
 
 <!ENTITY customizeToolbar.label "自訂工具列(C)">
-<!ENTITY customizeToolbar.accesskey "C">
+<!ENTITY customizeToolbar.accesskey "c">
 <!-- Templates -->                           
 
 <!ENTITY templatesMenu.label "樣本">
@@ -711,7 +711,7 @@
 <!ENTITY nvuForumsMenu.label "討論區">
 <!ENTITY nvuforumsmenu.accesskey "o">
 <!ENTITY supportKompoZer.label "資助 &brandShortName;(S)">
-<!ENTITY supportKompoZer.accesskey "S">
+<!ENTITY supportKompoZer.accesskey "s">
 <!ENTITY tipofthedayMenu.label "今日小秘訣">
 <!ENTITY tipofthedaymenu.accesskey "T">
 <!ENTITY aboutMenu.label "關於 &brandShortName;">

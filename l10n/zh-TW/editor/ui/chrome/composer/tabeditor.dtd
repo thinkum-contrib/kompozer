@@ -37,12 +37,12 @@
 
 <!ENTITY untitledDocument.label "(未命名)">
 <!ENTITY closeTab.label "關閉分頁(C)">
-<!ENTITY closeTab.accesskey "C">
+<!ENTITY closeTab.accesskey "c">
 <!ENTITY closeOtherTabs.label "關閉其它分頁(O)">
-<!ENTITY closeOtherTabs.accesskey "O">
+<!ENTITY closeOtherTabs.accesskey "o">
 <!ENTITY newTab.label "新分頁(N)">
-<!ENTITY newTab.accesskey "N">
+<!ENTITY newTab.accesskey "n">
 <!ENTITY revert.label "回復(V)">
-<!ENTITY revert.accesskey "V">
+<!ENTITY revert.accesskey "v">
 <!ENTITY refreshImages.label "重新載入圖片(I)">
-<!ENTITY refreshImages.accesskey "I">
+<!ENTITY refreshImages.accesskey "i">

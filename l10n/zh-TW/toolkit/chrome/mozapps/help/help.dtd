@@ -9,13 +9,13 @@
 <!ENTITY findDialog.title "在目前頁面裡尋找">
 <!ENTITY findDialogFrame.title "在目前框架裡尋找">
 <!ENTITY findField.label "尋找(N):">
-<!ENTITY findField.accesskey "N">
+<!ENTITY findField.accesskey "n">
 <!ENTITY caseSensitiveCheckbox.label "區分大小寫(C)">
-<!ENTITY caseSensitiveCheckbox.accesskey "C">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
 <!ENTITY wrapCheckbox.label "循環(W)">
 <!ENTITY wrapCheckbox.accesskey "W">
 <!ENTITY backwardsCheckbox.label "向後搜尋(B)">
-<!ENTITY backwardsCheckbox.accesskey "B">
+<!ENTITY backwardsCheckbox.accesskey "b">
 <!ENTITY findField.tooltip "輸入要搜尋的文字">
 <!ENTITY findButton.label "找下一個(F)">
 <!ENTITY findButton.accesskey "F">

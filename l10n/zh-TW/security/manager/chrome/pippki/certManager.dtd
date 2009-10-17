@@ -103,7 +103,7 @@
 <!ENTITY certmgr.edit.label "編輯(E)">
 <!ENTITY certmgr.edit.accesskey "E">
 <!ENTITY certmgr.editca.label "編輯認證中心信任關係(D)">
-<!ENTITY certmgr.editca.accesskey "D">
+<!ENTITY certmgr.editca.accesskey "d">
 <!ENTITY certmgr.add.label "新增(A)">
 <!ENTITY certmgr.add.accesskey "A">
 <!ENTITY certmgr.delete.label "刪除(D)">
@@ -111,9 +111,9 @@
 <!ENTITY certmgr.backup.label "備份(B)">
 <!ENTITY certmgr.backup.accesskey "B">
 <!ENTITY certmgr.backupall.label "全部備份(K)">
-<!ENTITY certmgr.backupall.accesskey "K">
+<!ENTITY certmgr.backupall.accesskey "k">
 <!ENTITY certmgr.restore.label "匯入(M)">
-<!ENTITY certmgr.restore.accesskey "M">
+<!ENTITY certmgr.restore.accesskey "m">
 <!ENTITY certmgr.details.label "憑證欄位(F)">
 <!ENTITY certmgr.details.accesskey "F">
 <!ENTITY certmgr.fields.label "欄位值(V)">

@@ -4,29 +4,29 @@
 <!ENTITY lHeader "連線設定">
 <!ENTITY proxyTitle.label "設定存取網路的代理伺服器">
 <!ENTITY directTypeRadio.label "直接連線到網路(D)">
-<!ENTITY directTypeRadio.accesskey "D">
+<!ENTITY directTypeRadio.accesskey "d">
 <!ENTITY manualTypeRadio.label "手動設定代理伺服器(M)">
-<!ENTITY manualTypeRadio.accesskey "M">
+<!ENTITY manualTypeRadio.accesskey "m">
 <!ENTITY autoTypeRadio.label "自動設定代理伺服器網址(A):">
-<!ENTITY autoTypeRadio.accesskey "A">
+<!ENTITY autoTypeRadio.accesskey "a">
 <!ENTITY configAutoconfigText.label "設定網址(U):">
-<!ENTITY configAutoconfigText.accesskey "U">
+<!ENTITY configAutoconfigText.accesskey "u">
 <!ENTITY reload.label "重新載入(L)">
-<!ENTITY reload.accesskey "L">
+<!ENTITY reload.accesskey "l">
 <!ENTITY ftp.label "FTP 代理伺服器(F):">
-<!ENTITY ftp.accesskey "F">
+<!ENTITY ftp.accesskey "f">
 <!ENTITY gopher.label "Gopher 代理伺服器(G):">
-<!ENTITY gopher.accesskey "G">
+<!ENTITY gopher.accesskey "g">
 <!ENTITY http.label "HTTP 代理伺服器(H):">
-<!ENTITY http.accesskey "H">
+<!ENTITY http.accesskey "h">
 <!ENTITY ssl.label "SSL 代理伺服器(S):">
-<!ENTITY ssl.accesskey "S">
+<!ENTITY ssl.accesskey "s">
 <!ENTITY socks.label "SOCKS 主機(C):">
-<!ENTITY socks.accesskey "C">
+<!ENTITY socks.accesskey "c">
 <!ENTITY socks4.label "SOCKS v4(K)">
-<!ENTITY socks4.accesskey "K">
+<!ENTITY socks4.accesskey "k">
 <!ENTITY socks5.label "SOCKS v5(V)">
-<!ENTITY socks5.accesskey "V">
+<!ENTITY socks5.accesskey "v">
 <!ENTITY port.label "連接埠:">
 <!ENTITY HTTPport.accesskey "p">
 <!ENTITY SSLport.accesskey "o">
@@ -35,5 +35,5 @@
 <!ENTITY gopherPort.accesskey "">
 <!ENTITY SOCKSport.accesskey "t">
 <!ENTITY noproxy.label "不使用代理伺服器的站台(N):">
-<!ENTITY noproxy.accesskey "N">
+<!ENTITY noproxy.accesskey "n">
 <!ENTITY noproxyExplain.label "範例: .mozilla.org, .net.nz">

@@ -2,7 +2,7 @@
 <!ENTITY rHeader "新頁面的預設設定">
 
 <!ENTITY authorName.label "作者(U):">
-<!ENTITY authorName.accesskey "U">
+<!ENTITY authorName.accesskey "u">
 <!ENTITY pageColorHeader "預設頁面外觀">
 
 <!ENTITY defaultColorsRadio.label "使用讀者瀏覽器的色彩設定(網頁不指定色彩)">
@@ -23,9 +23,9 @@
 <!ENTITY colon.character ":">
 
 <!ENTITY backgroundImage.label "背景圖片檔(M):">
-<!ENTITY backgroundImage.accesskey "M">
+<!ENTITY backgroundImage.accesskey "m">
 <!ENTITY chooseFile.label "選擇檔案(O)…">
-<!ENTITY chooseFile.accesskey "O">
+<!ENTITY chooseFile.accesskey "o">
 
 <!ENTITY i18nHeader "國際化">
 

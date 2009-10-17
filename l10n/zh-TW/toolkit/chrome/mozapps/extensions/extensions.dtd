@@ -39,10 +39,10 @@
 <!ENTITY cmd.continue.tooltip "繼續載入 &brandShortName;">
 
 <!ENTITY cmd.enableAll.label "全部啟用(A)">
-<!ENTITY cmd.enableAll.accesskey "A">
+<!ENTITY cmd.enableAll.accesskey "a">
 <!ENTITY cmd.enableAll.tooltip "啟用所有顯示的附加功能">
 <!ENTITY cmd.disableAll.label "全部關閉(S)">
-<!ENTITY cmd.disableAll.accesskey "S">
+<!ENTITY cmd.disableAll.accesskey "s">
 <!ENTITY cmd.disableAll.tooltip "關閉所有顯示的附加功能">
 <!-- Displayed in the selected Add-on's richlistitem and context menu -->
 
@@ -53,7 +53,7 @@
 <!ENTITY cmd.options.accesskey "O">
 <!ENTITY cmd.options.tooltip "設定選取擴充套件的選項">
 <!ENTITY cmd.optionsUnix.label "喜好設定(R)">
-<!ENTITY cmd.optionsUnix.accesskey "R">
+<!ENTITY cmd.optionsUnix.accesskey "r">
 <!ENTITY cmd.optionsUnix.tooltip "編輯選取擴充套件的喜好設定">
 <!ENTITY cmd.enable.label "啟用(E)">
 <!ENTITY cmd.enable.accesskey "E">
@@ -83,9 +83,9 @@
 <!ENTITY cmd.checkUpdate.accesskey "F">
 
 <!ENTITY cmd.includeUpdate.label "包括更新(N)">
-<!ENTITY cmd.includeUpdate.accesskey "N">
+<!ENTITY cmd.includeUpdate.accesskey "n">
 <!ENTITY includeUpdate.label "包括這個更新(N)">
-<!ENTITY includeUpdate.accesskey "N">
+<!ENTITY includeUpdate.accesskey "n">
 <!ENTITY includeUpdate.tooltip "安裝更新包括這個附加功能">
 <!-- Status Messsages -->
 

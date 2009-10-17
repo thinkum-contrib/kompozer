@@ -25,21 +25,21 @@
 
 <!ENTITY replaceDialog.title "尋找並取代">
 <!ENTITY findField.label "尋找文字(N):">
-<!ENTITY findField.accesskey "N">
+<!ENTITY findField.accesskey "n">
 <!ENTITY replaceField.label "取代為(E):">
-<!ENTITY replaceField.accesskey "E">
+<!ENTITY replaceField.accesskey "e">
 <!ENTITY caseSensitiveCheckbox.label "區分大小寫(C)">
-<!ENTITY caseSensitiveCheckbox.accesskey "C">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
 <!ENTITY wrapCheckbox.label "找到底後再從頭開始(W)">
 <!ENTITY wrapCheckbox.accesskey "W">
 <!ENTITY backwardsCheckbox.label "往回搜尋(B)">
-<!ENTITY backwardsCheckbox.accesskey "B">
+<!ENTITY backwardsCheckbox.accesskey "b">
 <!ENTITY findNextButton.label "尋找下一個(F)">
 <!ENTITY findNextButton.accesskey "F">
 <!ENTITY replaceButton.label "取代(R)">
 <!ENTITY replaceButton.accesskey "R">
 <!ENTITY replaceAndFindButton.label "取代與尋找(D)">
-<!ENTITY replaceAndFindButton.accesskey "D">
+<!ENTITY replaceAndFindButton.accesskey "d">
 <!ENTITY replaceAllButton.label "全部取代(A)">
 <!ENTITY replaceAllButton.accesskey "A">
 <!ENTITY closeButton.label "關閉">

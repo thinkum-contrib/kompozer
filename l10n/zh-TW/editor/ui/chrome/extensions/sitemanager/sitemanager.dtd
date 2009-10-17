@@ -70,7 +70,9 @@
 
 <!ENTITY localTab.label "本地">
 <!ENTITY remoteTab.label "遠端">
+<!ENTITY ftpConsole.label "FTP 主控台">
 
+<!ENTITY editItem.label "編輯">
 <!ENTITY openItem.label "開啟">
 <!ENTITY openAsText.label "以文字檔開啟">
 <!ENTITY openRemote.label "開啟遠端目錄">

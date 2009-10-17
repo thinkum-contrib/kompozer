@@ -1,9 +1,9 @@
 <!ENTITY lookInMenuList.label "搜尋(L):">
 <!ENTITY lookInMenuList.accesskey "L">
 <!ENTITY textInput.label "檔名(N):">
-<!ENTITY textInput.accesskey "N">
+<!ENTITY textInput.accesskey "n">
 <!ENTITY filterMenuList.label "檔案類型(T):">
-<!ENTITY filterMenuList.accesskey "T">
+<!ENTITY filterMenuList.accesskey "t">
 <!ENTITY name.label "檔名">
 <!ENTITY size.label "大小">
 <!ENTITY lastModified.label "最後修改">
