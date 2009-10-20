@@ -62,13 +62,15 @@
 <!-- KompoZer 0.8 -->
 <!ENTITY localTab.label           "Lokal">
 <!ENTITY remoteTab.label          "Fjern">
+<!ENTITY ftpConsole.label         "FTP-konsol">
 
+<!ENTITY editItem.label           "Rediger"> 
 <!ENTITY openItem.label           "Åbn">
 <!ENTITY openAsText.label         "Åbn som tekst">
 <!ENTITY openRemote.label         "Åbn fjernmappe">
 <!ENTITY insertImage.label        "Indsæt billede">
 <!ENTITY previewItem.label        "Smugkig">
-<!ENTITY uploadItem.label         "Upload…">
+<!ENTITY uploadItem.label         "Overfør…">
 <!ENTITY downloadItem.label       "Gendan…">
 <!ENTITY itemProperties.label     "Indstillinger…">
 
