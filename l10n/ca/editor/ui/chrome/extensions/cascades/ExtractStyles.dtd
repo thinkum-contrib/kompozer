@@ -35,13 +35,13 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY window.title "Crear estilo genérico">
-<!ENTITY description.label "Extraer los estilos CSS en línea adjuntados a este elemento y crear una regla de estilo CSS aplicada a">
-<!ENTITY thisElementOnly.label "sólo este elemento">
-<!ENTITY allElements.label "todos los elementos">
-<!ENTITY ofClass.label "de la clase:">
-<!ENTITY ofType.label "del mismo tipo de elemento">
-<!ENTITY whenHovered.label "con el puntero sobre él">
-<!ENTITY autoChoice.label "¡Elegir por mí!">
-<!ENTITY alreadyUsedWarning.label "¡Atención, este nombre ya está en uso!">
-<!ENTITY nameNeededWarning.label "Debe dar un nombre a este elemento">
+<!ENTITY window.title "Crea un estil genèric">
+<!ENTITY description.label "Extreu els estils CSS en línea adjunts a l'element i crea una regla d'estil CSS que s'aplica a">
+<!ENTITY thisElementOnly.label "només aquest element">
+<!ENTITY allElements.label "tots els elements">
+<!ENTITY ofClass.label "de la classe:">
+<!ENTITY ofType.label "del mateix tipus d'element">
+<!ENTITY whenHovered.label "enfocat pel punter">
+<!ENTITY autoChoice.label "Segons la meva elecció!">
+<!ENTITY alreadyUsedWarning.label "Avís: Aquest nom ja es troba en ús!">
+<!ENTITY nameNeededWarning.label "Cal que doneu un nom a l'element">

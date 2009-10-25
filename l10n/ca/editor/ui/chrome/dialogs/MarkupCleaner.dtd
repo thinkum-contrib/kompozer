@@ -41,8 +41,10 @@
 <!ENTITY emptyBlocks.label "Suprimeix blocs buits">
 <!ENTITY emptyCells.label "Suprimeix l'alineació en cel·les de taula buides">
 <!ENTITY nestedLists.label "Corregeix llistes imbricades">
+<!ENTITY localUrls.label   "Relativitza els URL locals">
 
 <!ENTITY cleanUp.label "Neteja">
+<!ENTITY close.label   "Tanca">
 
 <!ENTITY actionColumnHeader.label "Acció">
 <!ENTITY reportColumnHeader.label "Informe">

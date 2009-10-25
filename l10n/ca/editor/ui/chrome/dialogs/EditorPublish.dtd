@@ -28,6 +28,8 @@
 <!ENTITY publishTab.label         "Publica">
 <!ENTITY settingsTab.label        "Paràmetres">
 
+<!ENTITY publishButton.label        "Publica">
+
 <!-- Publish Tab Panel -->
 <!ENTITY siteList.label           "Nom del lloc web:">
 <!ENTITY siteList.tooltip         "Escull el lloc web que vol publicar">
@@ -70,3 +72,22 @@
 <!ENTITY savePassword.label   "Desa contrasenya">
 <!ENTITY savePassword.tooltip "Selecciona això per a desar la contrasenya de forma segura utilitzant el Gestor de Contrasenyes">
 <!ENTITY selectDirectory.label "Selecciona directori">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Paràmetres generals">
+<!ENTITY ftpSettings.label          "Paràmetres de l'FTP">
+<!ENTITY localSettings.label        "Paràmetres locals">
+<!ENTITY siteDirectory.label        "Carpeta del lloc:">
+<!ENTITY siteDirectory.tooltip      "La carpeta en el vostre disc dur on es desarà el vostre lloc">
+<!ENTITY browsePrefix.label         "Prefix:">
+<!ENTITY browsePrefix.tooltip       "Prefix per suprimir de la part FTP de l'url, p.ex. /public_html">
+
+<!ENTITY connection.label           "Tipus de connexió">
+<!ENTITY port.label                 "Port:">
+<!ENTITY pasv.label                 "Mode passiu">
+<!ENTITY security.label             "Seguretat">
+<!ENTITY none.label                 "Cap">
+<!ENTITY authtls.label              "Autenticació TLS (la millor)">
+<!ENTITY authssl.label              "Autenticació SSL (millor)">
+<!ENTITY implicit.label             "SSL implícita (bona)">
+<!ENTITY treesync.label             "Conserva els directoris sincronitzats mentre es navega">

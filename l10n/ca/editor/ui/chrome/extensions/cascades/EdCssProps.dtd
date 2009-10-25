@@ -35,211 +35,211 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY Window.title "Hojas de estilo CSS">
-<!ENTITY sheetsTreeColumn.label "Hojas y reglas">
-<!ENTITY expertModeChecbox.label "Modo experto">
+<!ENTITY Window.title "Fulls d'estil CSS">
+<!ENTITY sheetsTreeColumn.label "Fulls i regles">
+<!ENTITY expertModeChecbox.label "Mode expert">
 <!ENTITY importRuleButton.label "@import">
 <!ENTITY mediaRuleButton.label "@media">
-<!ENTITY linkedSheetButton.label "Elem. enlace">
-<!ENTITY styleSheetButton.label "Elem. estilo">
+<!ENTITY linkedSheetButton.label "Full d'estil enllaçat">
+<!ENTITY styleSheetButton.label "Full d'estil intern">
 <!ENTITY ruleButton.label "Regla">
-<!ENTITY upButton.label "Subir">
-<!ENTITY downButton.label "Abajo">
-<!ENTITY refreshButton.label "Recargar">
-<!ENTITY removeButton.label "Eliminar">
+<!ENTITY upButton.label "Amunt">
+<!ENTITY downButton.label "Avall">
+<!ENTITY refreshButton.label "Recarrega">
+<!ENTITY removeButton.label "Suprimeix">
 <!ENTITY sheetInfoTab.label "General">
-<!ENTITY textTab.label "Texto">
-<!ENTITY borderTab.label "Bordes">
-<!ENTITY marginsTab.label "Márgenes">
-<!ENTITY boxTab.label "Caja">
+<!ENTITY textTab.label "Text">
+<!ENTITY borderTab.label "Contorns">
+<!ENTITY marginsTab.label "Marges">
+<!ENTITY boxTab.label "Caixa">
 <!ENTITY auralTab.label "Aural">
-<!ENTITY fontFamily.label "Tipo de letra:">
-<!ENTITY inheritedFontFamily.label "heredado">
-<!ENTITY useCustomFontFamily.label "Usar tipo de letra personalizado:">
-<!ENTITY fontData.label "Datos de la tipografía">
-<!ENTITY exampleSentence.label "The quick brown fox jumps over the lazy dog">
-<!ENTITY backgroundTab.label "Fondo">
-<!ENTITY unspecifiedValue.label "sin especificar">
-<!ENTITY predefFontFamilyRadio.label "predefinido:">
-<!ENTITY fontSize.label "Tamaño de letra:">
-<!ENTITY lineHeight.label "Altura de línea:">
+<!ENTITY fontFamily.label "Família del tipus de lletra:">
+<!ENTITY inheritedFontFamily.label "heretat">
+<!ENTITY useCustomFontFamily.label "Utitlitza un tipus de lletra personalitzat:">
+<!ENTITY fontData.label "Dades de la tipografia">
+<!ENTITY exampleSentence.label "La ràpida guilla marró salta sobre el gos mandrós">
+<!ENTITY backgroundTab.label "Fons">
+<!ENTITY unspecifiedValue.label "sense especificar">
+<!ENTITY predefFontFamilyRadio.label "predefinit:">
+<!ENTITY fontSize.label "Mida de la lletra:">
+<!ENTITY lineHeight.label "Alçària de la línea:">
 <!ENTITY normalLineHeight.label "normal">
 <!ENTITY color.label "Color:">
-<!ENTITY fontWeight.label "Peso de letra:">
+<!ENTITY fontWeight.label "Pes de la lletra:">
 <!ENTITY normalValue.label "Normal">
-<!ENTITY boldValue.label "Negrita">
-<!ENTITY bolderValue.label "Más grueso">
-<!ENTITY lighterValue.label "Más ligero">
+<!ENTITY boldValue.label "Negreta">
+<!ENTITY bolderValue.label "Més gruixuda">
+<!ENTITY lighterValue.label "Més lleugera">
 <!ENTITY inheritedValue.label "Heredado">
-<!ENTITY fontStyle.label "Estilo de letra:">
+<!ENTITY fontStyle.label "Estil de la lletra:">
 <!ENTITY italicValue.label "Cursiva">
 <!ENTITY obliqueValue.label "Oblicuo">
-<!ENTITY textTransform.label "Mayús./minús.:">
-<!ENTITY noneTextTransformValue.label "Sin cambios">
-<!ENTITY lowercaseValue.label "Minúsculas">
-<!ENTITY uppercaseValue.label "Mayúsculas">
-<!ENTITY capitalizeValue.label "Pasar a mayúsculas">
-<!ENTITY closeButton.label "Cerrar">
-<!ENTITY largerFontSize.label "mayor">
+<!ENTITY textTransform.label "Maj./min.:">
+<!ENTITY noneTextTransformValue.label "Sense canvis">
+<!ENTITY lowercaseValue.label "Minúscules">
+<!ENTITY uppercaseValue.label "Majúscules">
+<!ENTITY capitalizeValue.label "Transforma a majúscules">
+<!ENTITY closeButton.label "Tanca">
+<!ENTITY largerFontSize.label "major">
 <!ENTITY smallerFontSize.label "menor">
-<!ENTITY xxsmallFontSize.label "Extrapequeño">
-<!ENTITY xsmallFontSize.label "Muy pequeño">
-<!ENTITY smallFontSize.label "Pequeño">
-<!ENTITY mediumFontSize.label "Medio">
-<!ENTITY largeFontSize.label "Grande">
-<!ENTITY xlargeFontSize.label "Muy grande">
-<!ENTITY xxlargeFontSize.label "Extragrande">
-<!ENTITY textAlign.label "Alineación:">
-<!ENTITY rightTextAlign.label "Derecha">
-<!ENTITY leftTextAlign.label "Izquierda">
+<!ENTITY xxsmallFontSize.label "Molt més petita">
+<!ENTITY xsmallFontSize.label "Molt petita">
+<!ENTITY smallFontSize.label "Petita">
+<!ENTITY mediumFontSize.label "Mitjana">
+<!ENTITY largeFontSize.label "Gran">
+<!ENTITY xlargeFontSize.label "Molt gran">
+<!ENTITY xxlargeFontSize.label "Molt més gran">
+<!ENTITY textAlign.label "Alineació:">
+<!ENTITY rightTextAlign.label "Dreta">
+<!ENTITY leftTextAlign.label "Esquerra">
 <!ENTITY centerTextAlign.label "Centrada">
-<!ENTITY justifyTextAlign.label "Justificado">
-<!ENTITY textDecoration.label "Decoraciones de texto:">
-<!ENTITY overlineTextDecoration.label "Sobrelineado">
-<!ENTITY underlineTextDecoration.label "Subrayado">
-<!ENTITY linethroughTextDecoration.label "Tachado">
-<!ENTITY blinkTextDecoration.label "Parpadeo">
-<!ENTITY noneTextDecoration.label "Ninguno">
+<!ENTITY justifyTextAlign.label "Justificada">
+<!ENTITY textDecoration.label "Decoracions del text:">
+<!ENTITY overlineTextDecoration.label "Sobrelineat">
+<!ENTITY underlineTextDecoration.label "Subratllat">
+<!ENTITY linethroughTextDecoration.label "Tatxat">
+<!ENTITY blinkTextDecoration.label "Parpelleig">
+<!ENTITY noneTextDecoration.label "Cap">
 <!ENTITY backgroundColor.label "Color:">
-<!ENTITY backgroundImage.label "Imagen:">
-<!ENTITY chooseFileButton.label "Elegir archivo">
-<!ENTITY backgroundRepeat.label "Repetir:">
-<!ENTITY norepeatBackgroundRepeat.label "no repetir">
-<!ENTITY repeatxBackgroundRepeat.label "horizontalmente">
-<!ENTITY repeatyBackgroundRepeat.label "verticalmente">
-<!ENTITY repeatBackgroundRepeat.label "horizontal y verticalmente">
-<!ENTITY backgroundPosition.label "Posición:">
-<!ENTITY leftXBackgroundPosition.label "Izquierda">
+<!ENTITY backgroundImage.label "Imatge:">
+<!ENTITY chooseFileButton.label "Trieu un fitxer">
+<!ENTITY backgroundRepeat.label "Repetició:">
+<!ENTITY norepeatBackgroundRepeat.label "cap repetició">
+<!ENTITY repeatxBackgroundRepeat.label "horitzontalment">
+<!ENTITY repeatyBackgroundRepeat.label "verticalment">
+<!ENTITY repeatBackgroundRepeat.label "horitzontal i verticalment">
+<!ENTITY backgroundPosition.label "Posició:">
+<!ENTITY leftXBackgroundPosition.label "Esquera">
 <!ENTITY centerXBackgroundPosition.label "Centrada">
-<!ENTITY rightXBackgroundPosition.label "Derecha">
+<!ENTITY rightXBackgroundPosition.label "Dreta">
 <!ENTITY topYBackgroundPosition.label "Superior">
 <!ENTITY centerYBackgroundPosition.label "Centrada">
 <!ENTITY bottomYBackgroundPosition.label "Inferior">
-<!ENTITY backgroundAttachmentCheckbox.label "La imagen se desplaza con la página">
-<!ENTITY useBorderShorthand.label "Los cuatro lados usan el mismo estilo de borde">
-<!ENTITY borderStyle.label "Estilo:">
-<!ENTITY borderWidth.label "Anchura:">
+<!ENTITY backgroundAttachmentCheckbox.label "La imatge es desplaça amb la pàgina">
+<!ENTITY useBorderShorthand.label "Els quatre costats utilitzen el mateix contorn">
+<!ENTITY borderStyle.label "Estil:">
+<!ENTITY borderWidth.label "Amplada:">
 <!ENTITY borderColor.label "Color:">
 <!ENTITY topBorder.label "Superior:">
-<!ENTITY leftBorder.label "Izquierda:">
-<!ENTITY rightBorder.label "Derecha:">
+<!ENTITY leftBorder.label "Esquerra:">
+<!ENTITY rightBorder.label "Dreta:">
 <!ENTITY bottomBorder.label "Inferior:">
-<!ENTITY borderPreview.label "Vista preliminar">
-<!ENTITY noneBorderStyle.label "ninguno">
-<!ENTITY hiddenBorderStyle.label "oculto">
-<!ENTITY solidBorderStyle.label "sólido">
-<!ENTITY dottedBorderStyle.label "punteada">
-<!ENTITY dashedBorderStyle.label "rayas discont.">
+<!ENTITY borderPreview.label "Previsualització">
+<!ENTITY noneBorderStyle.label "cap">
+<!ENTITY hiddenBorderStyle.label "ocult">
+<!ENTITY solidBorderStyle.label "sòlid">
+<!ENTITY dottedBorderStyle.label "puntejat">
+<!ENTITY dashedBorderStyle.label "discontinu">
 <!ENTITY doubleBorderStyle.label "doble">
-<!ENTITY grooveBorderStyle.label "hendido">
-<!ENTITY ridgeBorderStyle.label "relieve">
-<!ENTITY insetBorderStyle.label "empotrado">
-<!ENTITY outsetBorderStyle.label "resaltado">
-<!ENTITY display.label "Mostrar como:">
-<!ENTITY noneDisplay.label "ninguno">
-<!ENTITY inlineDisplay.label "en línea">
-<!ENTITY blockDisplay.label "bloque">
-<!ENTITY runinDisplay.label "acoplado">
-<!ENTITY compactDisplay.label "compacto">
-<!ENTITY listitemDisplay.label "elemento-lista">
-<!ENTITY tableDisplay.label "tabla">
-<!ENTITY tablerowDisplay.label "tabla-fila">
-<!ENTITY tablecellDisplay.label "tabla-celda">
-<!ENTITY tablecaptionDisplay.label "tabla-título">
-<!ENTITY inlinetableDisplay.label "tabla-en línea">
-<!ENTITY tablecolumnDisplay.label "tabla-columna">
-<!ENTITY tablerowgroupDisplay.label "tabla-grupo-fila">
-<!ENTITY tableheadergroupDisplay.label "tabla-grupo-encabezado">
-<!ENTITY tablefootergroupDisplay.label "tabla-grupo-pie">
-<!ENTITY tablecolumngroupDisplay.label "tabla-grupo-columna">
-<!ENTITY visibility.label "Visibilidad:">
+<!ENTITY grooveBorderStyle.label "solc">
+<!ENTITY ridgeBorderStyle.label "relleu">
+<!ENTITY insetBorderStyle.label "encastat">
+<!ENTITY outsetBorderStyle.label "ressaltat">
+<!ENTITY display.label "Visualització:">
+<!ENTITY noneDisplay.label "cap">
+<!ENTITY inlineDisplay.label "en línia">
+<!ENTITY blockDisplay.label "bloc">
+<!ENTITY runinDisplay.label "acoplada">
+<!ENTITY compactDisplay.label "compacta">
+<!ENTITY listitemDisplay.label "element-llista">
+<!ENTITY tableDisplay.label "taula">
+<!ENTITY tablerowDisplay.label "taula-fila">
+<!ENTITY tablecellDisplay.label "taula-cel·la">
+<!ENTITY tablecaptionDisplay.label "taula-títol">
+<!ENTITY inlinetableDisplay.label "taula - en línia">
+<!ENTITY tablecolumnDisplay.label "taula-columna">
+<!ENTITY tablerowgroupDisplay.label "taula-grup-fila">
+<!ENTITY tableheadergroupDisplay.label "taula-grup-çapçalera">
+<!ENTITY tablefootergroupDisplay.label "taula-grup-peu">
+<!ENTITY tablecolumngroupDisplay.label "taula-grup-columna">
+<!ENTITY visibility.label "Visibilitat:">
 <!ENTITY visibleVisibility.label "visible">
-<!ENTITY hiddenVisibility.label "oculto">
-<!ENTITY collapseVisibility.label "contraer">
-<!ENTITY float.label "Flotar:">
-<!ENTITY leftFloat.label "izquierda">
-<!ENTITY rightFloat.label "derecha">
-<!ENTITY noneFloat.label "ninguno">
-<!ENTITY clear.label "Despejar:">
-<!ENTITY noneClear.label "ninguno">
-<!ENTITY leftClear.label "izquierda">
-<!ENTITY rightClear.label "derecha">
-<!ENTITY bothClear.label "ambos">
-<!ENTITY position.label "Posición:">
-<!ENTITY staticPosition.label "estático">
-<!ENTITY fixedPosition.label "fijo">
-<!ENTITY absolutePosition.label "absoluto">
-<!ENTITY relativePosition.label "relativo">
-<!ENTITY overflow.label "Desbordamiento:">
+<!ENTITY hiddenVisibility.label "oculta">
+<!ENTITY collapseVisibility.label "reduïda">
+<!ENTITY float.label "Flotació:">
+<!ENTITY leftFloat.label "esquerra">
+<!ENTITY rightFloat.label "dreta">
+<!ENTITY noneFloat.label "cap">
+<!ENTITY clear.label "Despenja:">
+<!ENTITY noneClear.label "cap">
+<!ENTITY leftClear.label "esquerra">
+<!ENTITY rightClear.label "dreta">
+<!ENTITY bothClear.label "ambdues">
+<!ENTITY position.label "Posició:">
+<!ENTITY staticPosition.label "estàtica">
+<!ENTITY fixedPosition.label "fixa">
+<!ENTITY absolutePosition.label "absoluta">
+<!ENTITY relativePosition.label "relativa">
+<!ENTITY overflow.label "Desbordament:">
 <!ENTITY visibleOverflow.label "visible">
-<!ENTITY hiddenOverflow.label "oculto">
-<!ENTITY scrollOverflow.label "desplazar">
-<!ENTITY autoOverflow.label "auto">
+<!ENTITY hiddenOverflow.label "ocult">
+<!ENTITY scrollOverflow.label "desplazaçament">
+<!ENTITY autoOverflow.label "automàtic">
 <!ENTITY zIndex.label "Z-index:">
-<!ENTITY width.label "Anchura:">
-<!ENTITY minWidth.label "Anchura mín.:">
-<!ENTITY maxWidth.label "Anchura máx.:">
-<!ENTITY height.label "Altura:">
-<!ENTITY minHeight.label "Altura mín.:">
-<!ENTITY maxHeight.label "Altura máx.:">
-<!ENTITY margins.label "Márgenes:">
-<!ENTITY paddings.label "Márgenes internos:">
-<!ENTITY offsets.label "Desplazamientos:">
+<!ENTITY width.label "Amplada:">
+<!ENTITY minWidth.label "Amplada mín.:">
+<!ENTITY maxWidth.label "Amplada máx.:">
+<!ENTITY height.label "Alçària:">
+<!ENTITY minHeight.label "Alçària mín.:">
+<!ENTITY maxHeight.label "Alçària máx.:">
+<!ENTITY margins.label "Marges:">
+<!ENTITY paddings.label "Farciment:">
+<!ENTITY offsets.label "Desplaçaments:">
 <!ENTITY top.label "Superior:">
-<!ENTITY left.label "Izquierda:">
-<!ENTITY right.label "Derecha:">
+<!ENTITY left.label "Esquerra:">
+<!ENTITY right.label "Dreta:">
 <!ENTITY bottom.label "Inferior:">
-<!ENTITY volume.label "Volumen:">
-<!ENTITY xsoftVolume.label "extra-suave">
-<!ENTITY softVolume.label "suave">
-<!ENTITY mediumVolume.label "Medio">
-<!ENTITY loudVolume.label "alto">
-<!ENTITY xloudVolume.label "extra-alto">
-<!ENTITY muteVolume.label "Silenciar">
-<!ENTITY speak.label "Modo de recitado:">
-<!ENTITY noneSpeak.label "ninguno">
+<!ENTITY volume.label "Volum:">
+<!ENTITY xsoftVolume.label "molt suau">
+<!ENTITY softVolume.label "suau">
+<!ENTITY mediumVolume.label "mitjà">
+<!ENTITY loudVolume.label "alt">
+<!ENTITY xloudVolume.label "molt alt">
+<!ENTITY muteVolume.label "Silencia">
+<!ENTITY speak.label "Mode de conversa:">
+<!ENTITY noneSpeak.label "cap">
 <!ENTITY normalSpeak.label "normal">
-<!ENTITY spelloutSpeak.label "deletrear">
-<!ENTITY speechRate.label "Velocidad:">
-<!ENTITY slowerSpeechRate.label "más lenta">
-<!ENTITY fasterSpeechRate.label "más rápida">
-<!ENTITY xslowSpeechRate.label "extra-lento">
+<!ENTITY spelloutSpeak.label "lletreig">
+<!ENTITY speechRate.label "Velocitat de conversa:">
+<!ENTITY slowerSpeechRate.label "més lenta">
+<!ENTITY fasterSpeechRate.label "més ràpida">
+<!ENTITY xslowSpeechRate.label "molt lenta">
 <!ENTITY slowSpeechRate.label "lenta">
-<!ENTITY mediumSpeechRate.label "Medio">
-<!ENTITY fastSpeechRate.label "rápida">
-<!ENTITY xfastSpeechRate.label "extra-rápido">
-<!ENTITY opacity.label "Opacidad:">
-<!ENTITY compatibilityTab.label "Compatibilidad">
-<!ENTITY transparentOpacity.label "transparente">
-<!ENTITY pauseBefore.label "Pausa delante:">
-<!ENTITY cueBefore.label "Icono sonoro antes:">
-<!ENTITY pauseAfter.label "Pausa detrás:">
-<!ENTITY cueAfter.label "Icono sonoro detrás:">
-<!ENTITY listTab.label "Listas">
-<!ENTITY listStyleType.label "Tipo para el estilo de lista:">
-<!ENTITY noneListStyleType.label "ninguno">
-<!ENTITY discListStyleType.label "disco">
-<!ENTITY circleListStyleType.label "círculo">
-<!ENTITY squareListStyleType.label "cuadrado">
+<!ENTITY mediumSpeechRate.label "mitjana">
+<!ENTITY fastSpeechRate.label "ràpida">
+<!ENTITY xfastSpeechRate.label "molt ràpida">
+<!ENTITY opacity.label "Opacitat:">
+<!ENTITY compatibilityTab.label "Compatibilitat">
+<!ENTITY transparentOpacity.label "transparent">
+<!ENTITY pauseBefore.label "En pausa abans:">
+<!ENTITY cueBefore.label "En cua abans:">
+<!ENTITY pauseAfter.label "En pausa després:">
+<!ENTITY cueAfter.label "En cau després:">
+<!ENTITY listTab.label "Llistes">
+<!ENTITY listStyleType.label "Tipus d'estil de la llista:">
+<!ENTITY noneListStyleType.label "cap">
+<!ENTITY discListStyleType.label "disc">
+<!ENTITY circleListStyleType.label "cercle">
+<!ENTITY squareListStyleType.label "quadrat">
 <!ENTITY decimalListStyleType.label "decimal">
-<!ENTITY decimalLeadingZeroListStyleType.label "decimal con cero delante">
-<!ENTITY lowerRomanListStyleType.label "romanas-minúsc.">
-<!ENTITY upperRomanListStyleType.label "romanas-mayúsc.">
-<!ENTITY lowerGreekListStyleType.label "griegas-minúsc.">
-<!ENTITY lowerAlphaListStyleType.label "letras-minúsc.">
-<!ENTITY upperAlphaListStyleType.label "letras-mayúsc.">
-<!ENTITY armenianListStyleType.label "armenio">
-<!ENTITY georgianListStyleType.label "georgiano">
-<!ENTITY listStyleImage.label "Imagen para el estilo de lista:">
-<!ENTITY listStylePosition.label "Posición para el estilo de lista:">
-<!ENTITY insideListStylePosition.label "dentro">
-<!ENTITY outsideListStylePosition.label "fuera">
+<!ENTITY decimalLeadingZeroListStyleType.label "decimal amb un zero davant">
+<!ENTITY lowerRomanListStyleType.label "xifres romanes en maj.">
+<!ENTITY upperRomanListStyleType.label "xifres romanes en min.">
+<!ENTITY lowerGreekListStyleType.label "lletres gregues en min.">
+<!ENTITY lowerAlphaListStyleType.label "lletres llatines en min.">
+<!ENTITY upperAlphaListStyleType.label "lletres llatines en maj.">
+<!ENTITY armenianListStyleType.label "nombres armenis">
+<!ENTITY georgianListStyleType.label "nombres georgians">
+<!ENTITY listStyleImage.label "Imatge de l'estil de la llista:">
+<!ENTITY listStylePosition.label "Posició de l'estil de la llista:">
+<!ENTITY insideListStylePosition.label "dins">
+<!ENTITY outsideListStylePosition.label "fora">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extraer y crear estilo genérico">
+<!ENTITY makeCSSRule.label                      "Extreu i crea un estil genèric">
 <!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Estilos actuales para:">
-<!ENTITY renameButton.label                     "Editar">
+<!ENTITY currentstylesfor.label                 "Estils actuals per a:">
+<!ENTITY renameButton.label                     "Edita">
 
 <!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
 <!ENTITY autoMarginUnit.label                   "auto">

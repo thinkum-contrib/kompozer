@@ -41,12 +41,12 @@
 <!ENTITY InputType.accesskey "T">
 <!ENTITY text.value "Text">
 <!ENTITY password.value "Contrasenya">
-<!ENTITY checkbox.value "Quadre de verificació">
-<!ENTITY radio.value "Botó de grup">
+<!ENTITY checkbox.value "Casella de selecció">
+<!ENTITY radio.value "Botó d'opció">
 <!ENTITY submit.value "Botó de tramesa">
 <!ENTITY reset.value "Botó de reinici">
 <!ENTITY file.value "Fitxer">
-<!ENTITY hidden.value "Amagat">
+<!ENTITY hidden.value "Ocult">
 <!ENTITY image.value "Imatge">
 <!ENTITY button.value "Botó">
 
@@ -57,24 +57,24 @@
 <!ENTITY InputValue.label "Valor del camp:">
 <!ENTITY InitialValue.label "Valor inicial:">
 <!ENTITY Value.accesskey "V">
-<!ENTITY InputChecked.label "Establert inicialment">
+<!ENTITY InputChecked.label "Marcat inicialment">
 <!ENTITY InputChecked.accesskey "C">
-<!ENTITY InputSelected.label "Inicialment seleccionat">
+<!ENTITY InputSelected.label "Seleccionat inicialment">
 <!ENTITY InputSelected.accesskey "S">
 <!ENTITY InputReadOnly.label "Només lectura">
 <!ENTITY InputReadOnly.accesskey "R">
-<!ENTITY InputDisabled.label "Deshabilitat">
-<!ENTITY InputDisabled.accesskey "D">
+<!ENTITY InputDisabled.label "Inhabilitat">
+<!ENTITY InputDisabled.accesskey "I">
 <!ENTITY tabIndex.label "Índex de tabulació:">
-<!ENTITY tabIndex.accesskey "I">
-<!ENTITY TextSize.label "Tamany del camp:">
-<!ENTITY TextSize.accesskey "F">
+<!ENTITY tabIndex.accesskey "t">
+<!ENTITY TextSize.label "Mida del camp:">
+<!ENTITY TextSize.accesskey "m">
 <!ENTITY TextLength.label "Longitud màxima:">
 <!ENTITY TextLength.accesskey "L">
 <!ENTITY AccessKey.label "Tecla d'accés:">
 <!ENTITY AccessKey.accesskey "a">
-<!ENTITY Accept.label "Accepta tipus:">
+<!ENTITY Accept.label "Tipus d'acceptació:">
 <!ENTITY Accept.accesskey "A">
 
-<!ENTITY ImageProperties.label "Propietats d'Imatge…">
+<!ENTITY ImageProperties.label "Propietats de la imatge…">
 <!ENTITY ImageProperties.accesskey "E">

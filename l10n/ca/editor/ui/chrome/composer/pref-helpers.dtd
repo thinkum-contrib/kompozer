@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Aplicacions externes">
+
+<!ENTITY application.label            "Aplicació:">
+<!ENTITY webBrowser.label             "Navegador web">
+<!ENTITY textEditor.label             "Editor de text">
+<!ENTITY imageEditor.label            "Editor d'imatges">
+<!ENTITY mediaPlayer.label            "Reproductor multimèdia">
+<!ENTITY fileManager.label            "Gestor de fitxers">
+<!ENTITY ftpClient.label              "Client FTP">
+
+<!ENTITY useSystemHelper.label        "utiltiza la predeterminada del sistema">
+<!ENTITY useCustomHelper.label        "utilitza una aplicació personalitzada:">
+<!ENTITY path.label                   "camí del fitxer">
+<!ENTITY arguments.label              "arguments">
+<!ENTITY filePicker.tooltip           "Trieu un fitxer…">
+
+<!ENTITY fileFilter.label             "Extensions de fitxer (*) per a:">
+<!ENTITY default.label                "per defecte">
+<!ENTITY needToRestart.label          "(*) S'aplicaran les modificacions de les preferències quan es reiniciï el KompoZer.">
+

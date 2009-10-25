@@ -53,28 +53,30 @@
 <!ENTITY  preserveExistingFormatting  "Mantingues el format del codi font original">
 <!ENTITY  preserveExistingFormatting.accesskey  "o">
 <!ENTITY  preserveExistingFormatting.tooltip    "Preserva salts de línia i format original de pàgina">
-<!ENTITY  reformat.label              "Reforma codi font HTML">
+<!ENTITY  reformat.label              "Canvia el format del codi HTML">
 <!ENTITY  reformat.accesskey          "r">
-<!ENTITY  reformat.tooltip            "Reforma marcadors en HTML utilitzant salts de línia i sagnat">
+<!ENTITY  reformat.tooltip            "Canvia el format de les etiquetes HTML amb salts de línia i sagnats">
 
-<!ENTITY  saveAssociatedFiles.label "Desa imatges i d'altres fitxers associats quan es desin pàgines">
-<!ENTITY  showPublishDialog.label   "Mostra sempre el diàleg de Publica quan es publiquin pàgines">
+<!ENTITY  saveAssociatedFiles.label "Desa imatges i altres fitxers associats quan es desin les pàgines">
+<!ENTITY  showPublishDialog.label   "Mostra sempre el diàleg de publicació quan es publiquin les pàgines">
 
-<!ENTITY  saving                    "Desant">
+<!ENTITY  saving                    "S'està desant">
 <!ENTITY  AutoSaveCheck             "Desa automàticament cada">
 <!ENTITY  minText                   "minuts">
 
 <!ENTITY  exterLegend.label         "Editors externs">
 <!ENTITY  htmlSource                "Fonts HTML:">
 <!ENTITY  imageeditor               "Imatges:">
-<!ENTITY  chooseButton.label        "Esculliu">
+<!ENTITY  chooseButton.label        "Trieu">
 
 <!ENTITY  recentFiles.title         "Menú de pàgines recents">
 <!ENTITY  documentsInMenu.accesskey     "n">
 <!ENTITY  documentsInMenu           "Nombre màxim de pàgines llistades:">
 
-<!ENTITY  cssEditing.label          "Edició de Fulles d'Estil en Cascada (CSS)">
+<!ENTITY  cssEditing.label          "Edició de fulls d'estil en cascada (CSS)">
 <!ENTITY  useCSS.label              "Utiliza estils CSS en comptes d'elements HTML i atributs">
 
 <!ENTITY  siteManager.label         "Gestor de llocs web">
-<!ENTITY  openInNewTab.label        "Obre sempre els documents en una nova pestanya">
+<!ENTITY  openInNewTab.label        "Obre sempre els documents en una pestanya nova">
+<!ENTITY  useSystemIcons.label                  "Utilitza les icones del sistema">
+

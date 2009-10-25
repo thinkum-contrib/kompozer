@@ -50,8 +50,7 @@
 <!ENTITY newBlankPage.accesskey "P" >
 <!ENTITY newOtherCmd.label "Més opcions…">
 
-<!ENTITY newMenu.label "Nou">
-<!ENTITY newMenu.accesskey "N">
+<!ENTITY newMenu.label "Crea">
 <!ENTITY newTab.label "Pàgina en una pestanya nova">
 <!ENTITY openFileCmd.label "Obre un fitxer">
 <!ENTITY fileopen.accesskey "o">
@@ -61,8 +60,8 @@
 <!ENTITY fileopenremote.keybinding "l">
 <!ENTITY fileRecentMenu.label "Pàgines recents">
 <!ENTITY filerecentmenu.accesskey "r">
-<!ENTITY fileRevert.label "Retorna">
-<!ENTITY filerevert.accesskey "e">
+<!ENTITY fileRevert.label "Reverteix">
+<!ENTITY filerevert.accesskey "v">
 <!ENTITY filerevert.keybinding "r">
 <!ENTITY saveCmd.label "Desa">
 <!ENTITY filesave.accesskey "s">
@@ -72,19 +71,19 @@
 
 <!ENTITY publishCmd.label "Publica">
 <!ENTITY publishcmd.accesskey "b">
-<!ENTITY publishAsCmd.label "Publica com…">
+<!ENTITY publishAsCmd.label "Anomena i publica…">
 <!ENTITY publishas.accesskey "m">
 <!ENTITY exportToTextCmd.label "Exporta a text…">
 <!ENTITY fileexporttotext.accesskey "t">
 <!ENTITY saveAsChangeEncodingCmd.label "Desa i canvia la codificació dels caràcters">
 <!ENTITY filesaveandchangeencoding.accesskey "E">
-<!ENTITY previewCmd.label "Navega pàgina">
+<!ENTITY previewCmd.label "Navega la pàgina">
 <!ENTITY filepreview.accesskey "g">
 <!ENTITY filepreview.keybinding "VK_F5">
 <!ENTITY sendPageCmd.label "Envia pàgina…">
 <!ENTITY sendPage.accesskey "d">
 <!ENTITY printSetupCmd.label "Configuració de la pàgina…">
-<!ENTITY fileprintsetup.accesskey "u">
+<!ENTITY fileprintsetup.accesskey "f">
 <!ENTITY printPreviewCmd.label "Vista prèvia de la impressió">
 <!ENTITY fileprintpreview.accesskey "v">
 <!ENTITY printCmd.label "Imprimeix…">
@@ -131,20 +130,18 @@
 <!ENTITY pasteAsQuotationCmd.label "Enganxa com una citació">
 <!ENTITY editpastequotation.accesskey "q">
 <!ENTITY editpastequotation.keybinding "v">
-<!ENTITY editStripQuotesCmd.label "Treu cometes">
-<!ENTITY editRewrapCmd.label "Rewrap">
+<!ENTITY editStripQuotesCmd.label "Treu les cometes">
+<!ENTITY editRewrapCmd.label "Reajusta">
 <!ENTITY findCmd.label "Cerca i reemplaça…">
 <!ENTITY editfind.accesskey "r">
 <!ENTITY editfind.keybinding "f">
-<!ENTITY editfind.keybinding2 "VK_F19">                                         
-<!ENTITY findAgainCmd.label "Cerca el següent">
-<!ENTITY editfindnext.accesskey "g">
+<!ENTITY editfind.keybinding2                "VK_F19">
+<!ENTITY findAgainCmd.label "Torna a cercar">
+<!ENTITY editfindnext.accesskey "o">
 <!ENTITY editfindnext.keybinding "g">
-<!ENTITY editfindnext.keybinding2 "VK_F3">
 <!ENTITY findPrevCmd.label "Cerca l'anterior">
 <!ENTITY editfindprev.accesskey "o">
 <!ENTITY editfindprev.keybinding "g">
-<!ENTITY editfindprev.keybinding2 "VK_F3">
 <!ENTITY checkSpellingCmd.label "Comprova l'ortografia">
 <!ENTITY validateCmd.label "Valida l'HTML">
 <!ENTITY validate.accesskey "v">
@@ -197,7 +194,7 @@
 <!ENTITY insertchars.accesskey "C">
 <!ENTITY insertBreakCmd.label "Salt de línia">
 <!ENTITY insertbreak.accesskey "b">
-<!ENTITY insertBreakAllCmd.label 'Ruptura sota la(es) imatge(s) (&lt;br clear="all"&gt;)'>
+<!ENTITY insertBreakAllCmd.label 'Salt de línia sota les imatges (&lt;br clear="all"&gt;)'>
 <!ENTITY insertbreakall.accesskey "S">
 
 <!ENTITY insertNbspCmd.label "Non breakable whitespace…">
@@ -211,21 +208,21 @@
 <!-- Insert form menu items -->
 <!ENTITY insertFormCmd.label "Defineix un formulari…">
 <!ENTITY insertform.accesskey "D">
-<!ENTITY insertInputTagCmd.label "Camps del formulari…">
+<!ENTITY insertInputTagCmd.label "Camp de formulari…">
 <!ENTITY insertinputtag.accesskey "e">
-<!ENTITY insertInputImageCmd.label "Imatge del formulari…">
+<!ENTITY insertInputImageCmd.label "Imatge de formulari…">
 <!ENTITY insertinputimage.accesskey "I">
 <!ENTITY insertTextAreaCmd.label "Àrea de text…">
 <!ENTITY inserttextarea.accesskey "T">
 <!ENTITY insertSelectCmd.label "Llista de selecció…">
 <!ENTITY insertselect.accesskey "S">
-<!ENTITY insertButtonCmd.label "Defineix botó…">
+<!ENTITY insertButtonCmd.label "Defineix un botó…">
 <!ENTITY insertbutton.accesskey "B">
-<!ENTITY insertLabelCmd.label "Defineix etiqueta">
+<!ENTITY insertLabelCmd.label "Defineix una etiqueta descriptiva">
 <!ENTITY insertlabel.accesskey "q">
-<!ENTITY insertFieldSetCmd.label "Defineix especificació del camp…">
+<!ENTITY insertFieldSetCmd.label "Defineix una especificació del camp…">
 <!ENTITY insertfieldset.accesskey "F">
-<!ENTITY insertIsIndexCmd.label "Índex de cerca">
+<!ENTITY insertIsIndexCmd.label "Cerca d'índex">
 <!ENTITY insertisindex.accesskey "x">
 
 <!-- Used just in context popup. -->
@@ -281,20 +278,20 @@
 
 <!ENTITY fontsizeMenu.label "Mida">
 <!ENTITY formatsizemenu.accesskey "M">
-<!ENTITY size-xx-smallCmd.label "x-petita">
-<!ENTITY size-xx-small.accesskey "e">
-<!ENTITY size-x-smallCmd.label "petita">
-<!ENTITY size-x-small.accesskey "t">
-<!ENTITY size-smallCmd.label "mitjana">
-<!ENTITY size-small.accesskey "m">
-<!ENTITY size-mediumCmd.label "gran">
-<!ENTITY size-medium.accesskey "r">
+<!ENTITY size-xx-smallCmd.label "molt més petita">
+<!ENTITY size-xx-small.accesskey "s">
+<!ENTITY size-x-smallCmd.label "molt petita">
+<!ENTITY size-x-small.accesskey "e">
+<!ENTITY size-smallCmd.label "petita">
+<!ENTITY size-small.accesskey "t">
+<!ENTITY size-mediumCmd.label "mitjana">
+<!ENTITY size-medium.accesskey "n">
 <!ENTITY size-largeCmd.label "gran">
 <!ENTITY size-large.accesskey "g">
-<!ENTITY size-x-largeCmd.label "x-gran">
-<!ENTITY size-x-large.accesskey "x">
-<!ENTITY size-xx-largeCmd.label "xx-gran">
-<!ENTITY size-xx-large.accesskey "a">
+<!ENTITY size-x-largeCmd.label "molt gran">
+<!ENTITY size-x-large.accesskey "o">
+<!ENTITY size-xx-largeCmd.label "molt més gran">
+<!ENTITY size-xx-large.accesskey "r">
 
 <!-- Font Style SubMenu -->
 <!ENTITY fontStyleMenu.label "Estil del text">
@@ -388,10 +385,10 @@
 <!ENTITY listterm.accesskey "T">
 <!ENTITY listDefinitionCmd.label "Definició">
 <!ENTITY listdefinition.accesskey "D">
-<!ENTITY listProps.label "Llista propietats…">
+<!ENTITY listProps.label "Llista les propietats…">
 <!ENTITY listprops.accesskey "l">
 
-<!ENTITY ParagraphSelect.tooltip "Escull un format de paràgraf">
+<!ENTITY ParagraphSelect.tooltip "Trieu un format de paràgraf">
 <!-- Shared in Paragraph, and Toolbar menulist -->
 <!ENTITY bodyTextCmd.label "Text del cos">
 <!ENTITY bodytext.accesskey "T">
@@ -412,8 +409,8 @@
 <!ENTITY PreformatAbbr.label "Pre.">
 
 <!-- Style Sheet submenu NOT IMPLEMENTED -->
-<!ENTITY stylesheetMenu.label "Aplica Fulla d'estils">
-<!ENTITY formatstylesheetmenu.accesskey "y">
+<!ENTITY stylesheetMenu.label "Aplica el full d'estil">
+<!ENTITY formatstylesheetmenu.accesskey "u">
 
 <!-- Align menu items -->
 <!ENTITY alignMenu.label "Alinea">
@@ -470,14 +467,14 @@
 <!ENTITY tableTable.label "Taula">
 <!ENTITY tabletable.accesskey "t">
 <!ENTITY tableRow.label "Fila">
-<!ENTITY tableRows.label "Fila(es)">
+<!ENTITY tableRows.label "Files">
 <!ENTITY tablerow.accesskey "F">
 <!ENTITY tableRowAbove.label "Fila superior">
 <!-- uses tablerow.accesskey -->
 <!ENTITY tableRowBelow.label "Fila inferior">
 <!ENTITY tablerowbelow.accesskey "i">
 <!ENTITY tableColumn.label "Columna">
-<!ENTITY tableColumns.label "Columna(es)">
+<!ENTITY tableColumns.label "Columnes">
 <!ENTITY tablecolumn.accesskey "o">
 <!ENTITY tableColumnBefore.label "Columna anterior">
 <!-- uses tablecolumn.accesskey -->
@@ -528,19 +525,19 @@
 <!ENTITY outputHTMLCmd.label "Sortida en HTML">
 <!ENTITY insertTextCmd.label "Insereix Text">
 <!ENTITY testSelectionCmd.label "Prova la selecció">
-<!ENTITY testTableLayoutCmd.label "Test Table Layout">
+<!ENTITY testTableLayoutCmd.label "Prova el format de la taula">
 <!ENTITY testDocumentCmd.label "Prova el document">
-<!ENTITY showEmbeddedCmd.label "Show Embedded Objects">
-<!ENTITY dumpContentCmd.label "Dump Content Tree">
-<!ENTITY runUnitTestsCmd.label "Run Unit Tests">
-<!ENTITY dumpUndoStack.label "Dump Undo Stack">
-<!ENTITY dumpRedoStack.label "Dump Redo Stack">
-<!ENTITY executeJSTransactionViaTxmgr.label "Execute JS Transaction Via Transaction Manager">
-<!ENTITY executeJSTransactionViaEditor.label "Execute JS Transaction Via Editor">
-<!ENTITY startLogCmd.label "Start Log">
-<!ENTITY stopLogCmd.label "Stop Log">
-<!ENTITY runLogCmd.label "Run Log">
-<!ENTITY setFocusCmd.label "Set Focus">
+<!ENTITY showEmbeddedCmd.label "Mostra els objectes incrustats">
+<!ENTITY dumpContentCmd.label "Aboca l'arbre de contingut">
+<!ENTITY runUnitTestsCmd.label "Executa els tests unitaris">
+<!ENTITY dumpUndoStack.label "Aboca la desfeta de la pila">
+<!ENTITY dumpRedoStack.label "Aboca la refeta de la pila">
+<!ENTITY executeJSTransactionViaTxmgr.label "Executa la transacció JS a través del gestor de transaccions">
+<!ENTITY executeJSTransactionViaEditor.label "Executa la transacció JS des d'un editor">
+<!ENTITY startLogCmd.label "Inicia el registre">
+<!ENTITY stopLogCmd.label "Atura el registre">
+<!ENTITY runLogCmd.label "Executa el registre">
+<!ENTITY setFocusCmd.label "Defineix el focus">
 
 <!-- Toolbar-only items -->
 <!ENTITY menuBar.tooltip "Barra de menú">
@@ -616,18 +613,31 @@
 <!ENTITY NormalMode.label "Mode d'edició normal">
 <!ENTITY NormalMode.accesskey "n">
 <!ENTITY NormalMode.tooltip "Mostra el contorn de les taules i les àncores">
-<!ENTITY AllTagsMode.label "Marcadors HTML">
-<!ENTITY AllTagsMode.accesskey "A">
-<!ENTITY AllTagsMode.tooltip "Mostra icones per a tots els marcadors HTML">
+<!ENTITY AllTagsMode.label "Etiquetes HTML">
+<!ENTITY AllTagsMode.accesskey "q">
+<!ENTITY AllTagsMode.tooltip "Mostra icones per a totes les etiquetes HTML">
 
-<!ENTITY HTMLSourceMode.label "Codi font HTML">
+<!ENTITY HTMLSourceMode.label "Codi HTML">
 <!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
-<!ENTITY SourceMode.label "Codi font HTML">
+<!ENTITY SourceMode.label "Codi HTML">
 <!ENTITY HTMLSourceMode.accesskey "h">
-<!ENTITY HTMLSourceMode.tooltip "Edita codi font HTML">
+<!ENTITY HTMLSourceMode.tooltip "Edita codi HTML">
 <!ENTITY PreviewMode.label "Previsualització">
 <!ENTITY PreviewMode.accesskey "p">
-<!ENTITY PreviewMode.tooltip "Mostra com a WYSIWYG (sense icones per les marques invisibles)">
+<!ENTITY PreviewMode.tooltip "Mostra com a WYSIWYG (sense icones per a les etiquetes invisibles)">
+
+<!-- Edit Mode toolbar and View menu items -->
+<!ENTITY DesignMode.label                    "Disseny">
+<!ENTITY DesignMode.accesskey                "d">
+<!ENTITY DesignMode.tooltip                  "Mode d'edició normal">
+<!ENTITY SplitMode.label                     "Combinat">
+<!ENTITY SplitMode.accesskey                 "b">
+<!ENTITY SplitMode.tooltip                   "Mostra el codi HTML de l'element HTML">
+<!ENTITY HTMLSourceMode.label                "Codi HTML">
+<!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
+<!ENTITY SourceMode.label                    "Codi font">
+<!ENTITY HTMLSourceMode.accesskey            "H">
+<!ENTITY HTMLSourceMode.tooltip              "Edita el codi HTML">
 
 <!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
      Use latin "ltr" if you want the <html> image to left of the 
@@ -640,26 +650,10 @@
 <!-- Structure Toolbar Context Menu items -->
 <!ENTITY structSelect.label         "Selecciona">
 <!ENTITY structSelect.accesskey     "s">
-<!ENTITY structRemoveTag.label      "Suprimeix marcador">
+<!ENTITY structRemoveTag.label      "Suprimeix l'etiqueta">
 <!ENTITY structRemoveTag.accesskey  "r">
-<!ENTITY structChangeTag.label      "Canvia marcador">
+<!ENTITY structChangeTag.label      "Canvia l'etiqueta">
 <!ENTITY structChangeTag.accesskey  "c">
-
-<!ENTITY inlineStyles.label         "Insereix estils">
-<!ENTITY inlinestyles.accesskey     "i">
-
-<!ENTITY textProperties.label       "Propietats del text">
-<!ENTITY textproperties.accesskey   "t">
-<!ENTITY borderProperties.label     "Propietats del contorn">
-<!ENTITY borderproperties.accesskey "b">
-<!ENTITY backgroundProperties.label "Propietats del fons">
-<!ENTITY backgroundproperties.accesskey "g">
-<!ENTITY boxProperties.label        "Propietats del quadre">
-<!ENTITY boxproperties.accesskey    "x">
-<!ENTITY auralProperties.label      "Propietats de l'aura">
-<!ENTITY auralproperties.accesskey  "a">
-<!ENTITY makeCSSRule.label          "Extreu i genera un estil genèric">
-<!ENTITY makecssrule.accesskey      "e">
 
 <!-- TOC manipulation -->
 <!ENTITY insertTOC.label          "Insereix">
@@ -687,8 +681,6 @@
 <!ENTITY makeEditableArea.label   "Fés editable">
 
 <!-- Advanced -->
-<!ENTITY classSelectMenu.label    "Classes">
-<!ENTITY idSelectMenu.label       "ID">
 
 <!ENTITY writingDirectionMenu.label "Direcció d'escriptura">
 <!ENTITY writingdirectionmenu.accesskey "D">
@@ -710,19 +702,19 @@
 <!ENTITY nvucommenu.accesskey     "P">
 <!ENTITY faqMenu.label            "PMF (Preguntes més freqüents)">
 <!ENTITY faqmenu.accesskey        "M">
-<!ENTITY bugReportsMenu.label     "Comunica errors de programació i/o suggeriments">
+<!ENTITY bugReportsMenu.label     "Informa d'errors de programació i/o suggeriments">
 <!ENTITY bugreportsmenu.accesskey "C">
 <!ENTITY nvudevOrgMenu.label      "Comunitat de programadors">
 <!ENTITY nvudevorgmenu.accesskey  "O">
 <!ENTITY nvuForumsMenu.label      "Fòrums">
 <!ENTITY nvuforumsmenu.accesskey  "F">
-<!ENTITY supportKompoZer.label     "Suport &brandShortName;">
+<!ENTITY supportKompoZer.label     "Suport al &brandShortName;">
 <!ENTITY supportKompoZer.accesskey "s">
 <!ENTITY tipofthedayMenu.label    "Consell del dia">
 <!ENTITY tipofthedaymenu.accesskey "S">
 <!ENTITY aboutMenu.label          "Quant al KompoZer">
 <!ENTITY aboutmenu.accesskey      "Q">
-<!ENTITY localizingnvu.accesskey  "L">
+<!ENTITY localizingnvu.accesskey  "T">
 <!ENTITY localizingNvu.label      "Traducció del KompoZer">
 <!ENTITY userGuideMenu.label      "Guia de l'usuari">
 <!ENTITY userguidemenu.accesskey  "u">
@@ -742,5 +734,18 @@
 <!ENTITY spellSuggestions.label   "Suggeriments ortogràfics">
 <!ENTITY spellSuggestions.accesskey "S">
 <!ENTITY spellAddToDictionary.label "Afegeix al diccionari">
-<!ENTITY refreshImages.label "Recarrega imatges">
+<!ENTITY refreshImages.label "Recarrega les imatges">
 <!ENTITY refreshImages.accesskey "R">
+
+<!-- KompoZer 0.8: viewSource -->
+<!ENTITY editNode.label                      "Edita l'HTML">
+<!ENTITY editHead.label                      "Edita el contingut &lt;head&gt;">
+<!ENTITY editBody.label                      "Edita el contingut &lt;body&gt;">
+<!ENTITY confirmNode.label                   "Confirma els canvis">
+<!ENTITY cancelNode.label                    "Cancel·la els canvis">
+
+<!-- KompoZer 0.8: text editor -->
+<!ENTITY extEditor.label                     "HTML">
+<!ENTITY extEditor.tooltip                   "Obre el document actual en un editor de text extern">
+<!ENTITY extEditorCmd.label                  "Editor de text entern">
+<!ENTITY extEditorCmd.accesskey              "E">

@@ -35,31 +35,49 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY editSitesList.label      "Edita llocs">
+<!ENTITY editSitesList.label      "Edita els llocs">
 
 <!ENTITY filterAll.label          "Tots els fitxers">
 <!ENTITY filterHTML.label         "Documents HTML">
+<!ENTITY filterCSS.label          "Fulls d'estil CSS">
 <!ENTITY filterImages.label       "Fitxers d'imatge">
+<!ENTITY filterMedia.label        "Fitxers multimèdia">
+<!ENTITY filterScripts.label      "Fitxers de text">
 
 <!ENTITY treeViewCheckbox.label   "Vista d'arbre">
 
 <!ENTITY filenameColumn.label     "Nom">
-<!ENTITY sizeColumn.label         "Tamany">
-<!ENTITY lastModifiedColumn.label "Última modificació">
+<!ENTITY sizeColumn.label         "Mida">
+<!ENTITY lastModifiedColumn.label "Darrera modificació">
 
-<!ENTITY deleteFile.label         "Esborra fitxer">
-<!ENTITY deletefile.accesskey     "E">
-<!ENTITY createDir.label          "Nou subdirectori">
+<!ENTITY deleteFile.label         "Suprimeix el fitxer">
+<!ENTITY deletefile.accesskey     "e">
+<!ENTITY createDir.label          "Crea un subdirectori">
 <!ENTITY createdir.accesskey      "N">
-<!ENTITY removeDir.label          "Esborra directori">
+<!ENTITY removeDir.label          "Suprimeix el directori">
 <!ENTITY removedir.accesskey      "R">
 
 <!ENTITY reloadButton.tooltip     "Refresca">
-<!ENTITY createDirButton.tooltip  "Nova carpeta">
-<!ENTITY removeButton.tooltip     "Esborra">
+<!ENTITY createDirButton.tooltip  "Crea una carpeta">
+<!ENTITY removeButton.tooltip     "Suprimeix">
 <!ENTITY stopButton.tooltip       "Atura">
 
 <!ENTITY renameMenu.label         "Reanomena">
 <!ENTITY renameButton.tooltip     "Reanomena fitxer o carpeta">
 
 <!ENTITY filterControl.label      "Vista:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Local">
+<!ENTITY remoteTab.label          "Remota">
+<!ENTITY ftpConsole.label         "Consola FTP">
+
+<!ENTITY editItem.label           "Edita"> 
+<!ENTITY openItem.label           "Obre">
+<!ENTITY openAsText.label         "Obre com text">
+<!ENTITY openRemote.label         "Obre un directori remot">
+<!ENTITY insertImage.label        "Insereix una imatge">
+<!ENTITY previewItem.label        "Previsualitza">
+<!ENTITY uploadItem.label         "Publica…">
+<!ENTITY downloadItem.label       "Restaura…">
+<!ENTITY itemProperties.label     "Propietats…">

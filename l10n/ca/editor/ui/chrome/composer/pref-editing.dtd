@@ -1,11 +1,11 @@
-<!ENTITY lHeader                   "Nova pàgina">
+<!ENTITY lHeader                   "Pàgina nova">
 <!ENTITY rHeader                   "Paràmetres per defecte per les noves pàgines">
 
-<!ENTITY authorName.label          "Autor:">
-<!ENTITY authorName.accesskey      "u">
+<!ENTITY authorName.label          "Creada per:">
+<!ENTITY authorName.accesskey      "e">
 <!ENTITY pageColorHeader           "Aparença de la pàgina per defecte">
 
-<!ENTITY defaultColorsRadio.label   "Colors per defecte del lector (No defineixis color en la pàgina)">
+<!ENTITY defaultColorsRadio.label   "Colors per defecte del lector (No defineixis cap color a la pàgina)">
 <!ENTITY defaultColors.accesskey    "d">
 <!ENTITY customColorsRadio.label    "Utilitza colors personalitzats:">
 <!ENTITY customColors.accesskey     "c">
@@ -34,8 +34,8 @@
 <!ENTITY ltrDirectionRadio.label     "D'esquerra a dreta">
 <!ENTITY rtlDirectionRadio.label     "De dreta a esquerra">
 
-<!ENTITY language.label              "Idioma:">
-<!ENTITY languageChoiceButton.label  "Escull un idioma">
+<!ENTITY language.label              "Llengua:">
+<!ENTITY languageChoiceButton.label  "Trieu una llengua">
 
-<!ENTITY defaultCharset.label        "Defineix caràcter:">
-<!ENTITY chooseCharsetButton.label   "Escull joc de caràcters">
+<!ENTITY defaultCharset.label        "Joc de caràcters:">
+<!ENTITY chooseCharsetButton.label   "Trieu un joc de caràcters">

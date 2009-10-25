@@ -9,6 +9,5 @@
 <!ENTITY reloadAllTabs.accesskey "a">
 <!ENTITY reloadTab.label "Torna a carregar la pestanya">
 <!ENTITY reloadTab.accesskey "r">
-<!ENTITY  bookmarkGroup.label    "Afegeix a les adreces d'interès aquest grup de pestanyes">
-<!ENTITY  bookmarkGroup.accesskey  "f">
 <!ENTITY newTabButton.tooltip "Obre una pestanya nova">
+<!ENTITY  listAllTabs.label      "Llista totes les pestanyes">

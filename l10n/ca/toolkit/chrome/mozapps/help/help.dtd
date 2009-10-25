@@ -1,9 +1,40 @@
 <!ENTITY printCmd.commandkey "p">
 
+<!ENTITY viewCustomizeToolbar.label      "Personalitza…">
+<!ENTITY viewCustomizeToolbar.accesskey  "P">
 
 <!ENTITY findOnCmd.commandkey "F">
 <!ENTITY findAgainCmd.commandkey "G">
 <!ENTITY findAgainCmd.commandkey2       "VK_F3">
+<!ENTITY findDialog.title                "Cerca a la pàgina">
+<!ENTITY findDialogFrame.title           "Cerca al marc">
+<!ENTITY findField.label                 "Cerca què:">
+<!ENTITY findField.accesskey             "r">
+
+<!ENTITY caseSensitiveCheckbox.label     "Distingeix entre majúscules i minúscules">
+<!ENTITY caseSensitiveCheckbox.accesskey "D">
+<!ENTITY wrapCheckbox.label              "Ajusta">
+<!ENTITY wrapCheckbox.accesskey          "j">
+<!ENTITY backwardsCheckbox.label         "Cerca enrere">
+<!ENTITY backwardsCheckbox.accesskey     "n">
+<!ENTITY findField.tooltip               "Escriviu un o més paraules per cercar">
+<!ENTITY findButton.label                "Cerca la següent">
+<!ENTITY findButton.accesskey            "s">
+<!ENTITY cancelButton.label              "Cancel·la">
+<!ENTITY up.label                        "Amunt">
+<!ENTITY up.accesskey                    "u">
+<!ENTITY down.label                      "Avall">
+<!ENTITY down.accesskey                  "v">
+<!ENTITY direction.label                 "Direcció">
+
+<!ENTITY find.label                      "Cerca:">
+<!ENTITY findNext.label                  "Cerca la següent">
+<!ENTITY findNext.tooltip                "Cerca la següent coincidència de la frase">
+<!ENTITY findPrevious.label              "Cerca l'anterior">
+<!ENTITY findPrevious.tooltip            "Cerca l'anterior coincidència de la frase">
+<!ENTITY findCloseButton.tooltip         "Tanca la barra de cerca">
+<!ENTITY highlight.label                 "Ressalta">
+<!ENTITY highlight.tooltip               "Ressalta totes les coincidències de la frase (Ctrl+Retorn)">
 
 <!ENTITY backButton.label "Enrere">
 <!ENTITY backButton.accesskey "e">
@@ -13,35 +44,46 @@
 <!ENTITY forwardButton.tooltip "Vés una pàgina endavant">
 <!ENTITY copyCmd.label                  "Copia">
 <!ENTITY copyCmd.accesskey              "C">
-<!ENTITY selectAllCmd.label             "Selecciona-ho tot">
-<!ENTITY selectAllCmd.accesskey         "A">
-<!ENTITY goBackCmd.commandkey           "[">
-<!ENTITY goForwardCmd.commandkey        "]">
 <!ENTITY homeButton.label "Inici">
 <!ENTITY homeButton.tooltip "Vés a la pàgina d'inici de l'ajuda">
 <!ENTITY printButton.label "Imprimeix">
 <!ENTITY printButton.tooltip "Imprimeix aquesta pàgina">
+<!ENTITY findBtn.label                   "Cerca">
+<!ENTITY sidebarBtn.label                "Commuta la barra lateral d'ajuda">
+<!ENTITY sidebarBtn.tooltip              "Mostra o amaga la barra lateral d'ajuda">
 <!ENTITY textZoomReduceBtn.label "Redueix la mida del text">
 <!ENTITY textZoomReduceBtn.accesskey "d">
+<!ENTITY textZoomReduceBtn.tooltip       "Redueix la mida del text dels documents d'ajuda.">
 <!ENTITY textZoomEnlargeBtn.label "Augmenta la mida del text">
 <!ENTITY textZoomEnlargeBtn.accesskey "g">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Augmenta la mida del text dels documents d'ajuda.">
+<!ENTITY customizeButton.tooltip         "Personalitza quins botons es mostraran a la barra d'ajuda.">
+<!ENTITY reloadCmd.label                 "Actualitza">
+<!ENTITY reloadCmd.accesskey             "z">
 <!ENTITY closeWindow.commandkey "W">
 
 <!ENTITY throbberItem.title "Indicador d'activitat">
-<!ENTITY throbber.tooltip "Vés a l'ajuda de la secció d'ajuda.">
 
+<!ENTITY cmd_CustomizeToolbars.label     "Personalitza" >
 
 <!ENTITY searchtab.label "Cerca">
 <!ENTITY searchtab.accesskey "r">
+<!ENTITY searchbtn.label                 "Cerca">
 <!ENTITY toctab.label "Continguts">
 <!ENTITY toctab.accesskey "C">
+<!ENTITY indextab.label                  "Índex">
+<!ENTITY indextab.accesskey              "x">
+<!ENTITY ixname.label                    "Nom">
+<!ENTITY glossarytab.label               "Glossari">
+<!ENTITY glossarytab.accesskey           "G">
+<!ENTITY glossname.label                 "Nom">
+<!ENTITY gobtn.label                     "Cerca">
+<!ENTITY name.label                      "Element">
+
 
 <!ENTITY textZoomReduceCmd.commandkey "-">
 <!ENTITY textZoomEnlargeCmd.commandkey "+">
 <!ENTITY textZoomEnlargeCmd.commandkey2 "=">
 <!ENTITY textZoomResetCmd.commandkey "0">
 
-<!ENTITY helpSearch.commandkey          "k">
 
-<!ENTITY zLevel.label                   "Sempre a dalt">
-<!ENTITY zLevel.accesskey               "t">

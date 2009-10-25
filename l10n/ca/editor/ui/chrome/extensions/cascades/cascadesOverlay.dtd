@@ -39,19 +39,19 @@
 <!ENTITY cascadesMenuItem.label "Editor CSS">
 <!ENTITY cascadesMenuItem.accesskey "c">
 <!ENTITY cascadesMenuItem.keybinding "VK_F11">
-<!ENTITY classSelectMenu.label "Clases">
+<!ENTITY classSelectMenu.label "Classes">
 <!ENTITY idSelectMenu.label "ID">
-<!ENTITY inlineStyles.label "Estilos en línea">
+<!ENTITY inlineStyles.label "Estils en línea">
 <!ENTITY inlinestyles.accesskey "E">
-<!ENTITY textProperties.label "Propiedades de texto">
+<!ENTITY textProperties.label "Propietats del text">
 <!ENTITY textproperties.accesskey "t">
-<!ENTITY borderProperties.label "Propiedades de borde">
-<!ENTITY borderproperties.accesskey "b">
-<!ENTITY backgroundProperties.label "Propiedades de fondo">
+<!ENTITY borderProperties.label "Propietats del contorn">
+<!ENTITY borderproperties.accesskey "n">
+<!ENTITY backgroundProperties.label "Propietats del fons">
 <!ENTITY backgroundproperties.accesskey "f">
-<!ENTITY boxProperties.label "Propiedades de caja">
+<!ENTITY boxProperties.label "Propietats de la caixa">
 <!ENTITY boxproperties.accesskey "c">
-<!ENTITY auralProperties.label "Propiedades aurales">
+<!ENTITY auralProperties.label "Propietats aurals">
 <!ENTITY auralproperties.accesskey "a">
-<!ENTITY makeCSSRule.label "Extraer y crear estilo genérico">
+<!ENTITY makeCSSRule.label "Extreu i crea un estil genèric">
 <!ENTITY makecssrule.accesskey "x">

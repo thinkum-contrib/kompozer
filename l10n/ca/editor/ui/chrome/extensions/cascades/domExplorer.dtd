@@ -11,14 +11,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Editor Toolbar Preferences.
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
    -
    - The Initial Developer of the Original Code is
-   - Neil Rashbrook.
-   - Portions created by the Initial Developer are Copyright (C) 2003
+   - Fabien Cazenave.
+   - Portions created by the Initial Developer are Copyright (C) 2002
    - the Initial Developer. All Rights Reserved.
    -
-   - Contributor(s): Neil Rashbrook <neil@parkwaycc.co.uk>
+   - Contributor(s):
+   -   Original author: Fabien Cazenave <kaze@kompozer.net>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -34,38 +35,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY header.title "Barres d'eines">
 
-<!ENTITY composition.caption "Mostra aquests botons en la barra d'eines de composició:">
+<!ENTITY domExplorer.label                      "Explorador DOM">
 
-<!ENTITY new.label "Crea">
-<!ENTITY open.label "Obre">
-<!ENTITY save.label "Desa">
-<!ENTITY publish.label "Publica">
-<!ENTITY preview.label "Navega">
-<!ENTITY cut.label "Retalla">
-<!ENTITY copy.label "Copia">
-<!ENTITY paste.label "Enganxa">
-<!ENTITY print.label "Imprimeix">
-<!ENTITY find.label "Cerca">
-<!ENTITY image.label "Imatge">
-<!ENTITY hline.label "Línia horitzontal">
-<!ENTITY table.label "Taula">
-<!ENTITY link.label "Enllaç">
-<!ENTITY anchor.label "Àncora">
+<!ENTITY html.label                             "HTML">
+<!ENTITY css.label                              "CSS">
+<!ENTITY htmlcss.label                          "HTML+CSS">
 
-<!ENTITY formatting.caption "Mostra aquests botons en la barra d'eines de format:">
-
-<!ENTITY smaller.label "Més petita">
-<!ENTITY larger.label "Més gran">
-<!ENTITY bold.label "Negreta">
-<!ENTITY bullets.label "Pics">
-<!ENTITY numbers.label "Nombres">
-<!ENTITY italic.label "Cursiva">
-<!ENTITY outdent.label "Sagnat invers">
-<!ENTITY indent.label "Sagnat">
-<!ENTITY underline.label "Subratllat">
-
-<!ENTITY absolutePosition.label "Posició absoluta">
-<!ENTITY decreaseZIndex.label "Envia al darrere">
-<!ENTITY increaseZIndex.label "Envia al davant">
+<!ENTITY id.label                               "id">
+<!ENTITY class.label                            "class">
+<!ENTITY elements.label                         "Elements">
+<!ENTITY style.label                            "style">
+<!ENTITY styleRules.label                       "Regles d'estil">

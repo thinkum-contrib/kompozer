@@ -21,9 +21,10 @@
 <!ENTITY windowMenu.accesskey "n">
 <!ENTITY tasksMenu.label "Eines">
 <!ENTITY tasksMenu.accesskey "E">
-<!ENTITY downloadManagerCmd.label "Administrador de descàrregues">
+<!ENTITY downloadManagerCmd.label "Gestor de baixades">
 <!ENTITY downloadManagerCmd.accesskey "D">
-<!ENTITY switchProfileCmd.label "Intercanviar perfil…">
+<!ENTITY switchProfileCmd.label "Canvia de perfil…">
 <!ENTITY switchProfileCmd.accesskey "I">
+<!ENTITY addons.label                    "Complements">
 <!ENTITY extensions.label "Extensions">
 <!ENTITY themes.label "Temes">
