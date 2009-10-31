@@ -11,7 +11,7 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   - The Original Code is KompoZer.
    -
    - The Initial Developer of the Original Code is
    - Fabien Cazenave.
@@ -35,4 +35,12 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
-<!ENTITY domExplorer.label "DOM Explorer">
+<!ENTITY domExplorer.label "DOM Explorer">
+<!ENTITY html.label "HTML">
+<!ENTITY css.label "CSS">
+<!ENTITY htmlcss.label "HTML+CSS">
+<!ENTITY id.label "id">
+<!ENTITY class.label "class">
+<!ENTITY elements.label "Элементы">
+<!ENTITY style.label "style">
+<!ENTITY styleRules.label "Правила стилей">

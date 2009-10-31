@@ -61,11 +61,13 @@
 <!ENTITY filterControl.label "Просмотр">
 <!ENTITY localTab.label "Локальный">
 <!ENTITY remoteTab.label "Удалённый">
+<!ENTITY ftpConsole.label "Консоль FTP">
+<!ENTITY editItem.label "Изменить">
 <!ENTITY openItem.label "Открыть">
 <!ENTITY openAsText.label "Открыть как текст">
 <!ENTITY openRemote.label "Открыть удалённый каталог">
 <!ENTITY insertImage.label "Вставить изображение">
 <!ENTITY previewItem.label "Предпросмотр">
-<!ENTITY uploadItem.label "Загрузить…">
+<!ENTITY uploadItem.label "Опубликовать…">
 <!ENTITY downloadItem.label "Восстановить…">
 <!ENTITY itemProperties.label "Настройки…">

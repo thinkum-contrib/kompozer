@@ -42,14 +42,14 @@
 <!ENTITY sidebar.reload.label "Обновить">
 <!ENTITY sidebar.reload.accesskey "О">
 <!ENTITY sidebar.picker.label "Разделы">
-<!ENTITY sidebar.customize.label "Настроить Боковую панель…">
+<!ENTITY sidebar.customize.label "Настроить сайдбар…">
 <!ENTITY sidebar.customize.accesskey "Н">
 <!ENTITY sidebar.hide.label "Скрыть раздел">
 <!ENTITY sidebar.hide.accesskey "к">
 <!ENTITY sidebar.switch.label "Переключиться в раздел">
 <!ENTITY sidebar.switch.accesskey "П">
-<!ENTITY sidebarCmd.label "Менеджер сайта ">
-<!ENTITY sidebarCmd.accesskey "м">
+<!ENTITY sidebarCmd.label "Сайдбар">
+<!ENTITY sidebarCmd.accesskey "й">
 <!ENTITY sidebar.loading.label "Идет загрузка…">
 <!ENTITY sidebar.loadstopped.label "Загрузка остановлена">
 <!ENTITY sidebar.loading.stop.label "Стоп">
@@ -57,7 +57,7 @@
 <!ENTITY sidebar.no-panels.state "Боковая панель пуста.">
 <!ENTITY sidebar.no-panels.add 'Вы можете добавить разделы, нажав на кнопку "Разделы".'>
 <!ENTITY sidebar.no-panels.hide 'Если вы хотите скрыть Боковую панель, выберите в меню "Вид" пункт "Боковая панель".'>
-<!ENTITY sidebar.sbDirectory.label "Каталог разделов Боковой панели…">
+<!ENTITY sidebar.sbDirectory.label "Разделы сайдбара…">
 <!ENTITY sidebar.pagenotfound.label "Этот раздел сейчас недоступен.">
-<!ENTITY sidebar.close.tooltip "Закрыть Менеджер сайта">
+<!ENTITY sidebar.close.tooltip "Закрыть сайдбар">
 <!ENTITY sidebar.open.tooltip "Открыть Боковую панель">
