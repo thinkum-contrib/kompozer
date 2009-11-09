@@ -35,27 +35,27 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY editSitesList.label      "Sites bewerken">
+<!ENTITY editSitesList.label      "Websitelijst bewerken…">
 
 <!ENTITY filterAll.label          "Alle bestanden">
 <!ENTITY filterHTML.label         "HTML-documenten">
-<!ENTITY filterCSS.label          "CSS stijlbladen">
+<!ENTITY filterCSS.label          "CSS-stijlbladen">
 <!ENTITY filterImages.label       "Afbeeldingsbestanden">
-<!ENTITY filterMedia.label        "Media bestanden">
-<!ENTITY filterScripts.label      "Tekst bestanden">
+<!ENTITY filterMedia.label        "Mediabestanden">
+<!ENTITY filterScripts.label      "Tekstbestanden">
 
 <!ENTITY treeViewCheckbox.label   "Boomweergave">
 
 <!ENTITY filenameColumn.label     "Naam">
 <!ENTITY sizeColumn.label         "Grootte">
-<!ENTITY lastModifiedColumn.label "Laatst veranderd">
+<!ENTITY lastModifiedColumn.label "Laatst gewijzigd">
 
 <!ENTITY deleteFile.label         "Bestand verwijderen">
-<!ENTITY deletefile.accesskey     "D">
+<!ENTITY deletefile.accesskey     "d">
 <!ENTITY createDir.label          "Nieuwe submap">
 <!ENTITY createdir.accesskey      "N">
 <!ENTITY removeDir.label          "Map verwijderen">
-<!ENTITY removedir.accesskey      "R">
+<!ENTITY removedir.accesskey      "r">
 
 <!ENTITY reloadButton.tooltip     "Vernieuwen">
 <!ENTITY createDirButton.tooltip  "Nieuwe map">
@@ -65,18 +65,19 @@
 <!ENTITY renameMenu.label         "Hernoemen">
 <!ENTITY renameButton.tooltip     "Bestand of map hernoemen">
 
-<!ENTITY filterControl.label      "Beeld:">
+<!ENTITY filterControl.label      "Weergave:">
 
 <!-- KompoZer 0.8 -->
 <!ENTITY localTab.label           "Lokaal">
-<!ENTITY remoteTab.label          "Op afstand">
+<!ENTITY remoteTab.label          "Op andere computer">
+<!ENTITY ftpConsole.label         "FTP-console">
 
+<!ENTITY editItem.label           "Bewerken">
 <!ENTITY openItem.label           "Openen">
-<!ENTITY openAsText.label         "Open als tekst">
-<!ENTITY openRemote.label         "Open map op afstand">
-<!ENTITY insertImage.label        "Invoegen afbeelding">
+<!ENTITY openAsText.label         "Openen als tekst">
+<!ENTITY openRemote.label         "Map op andere computer openen">
+<!ENTITY insertImage.label        "Afbeelding invoegen
 <!ENTITY previewItem.label        "Voorbeeld">
-<!ENTITY uploadItem.label         "Upload...">
-<!ENTITY downloadItem.label       "Herstel...">
+<!ENTITY uploadItem.label         "Uploaden…">
+<!ENTITY downloadItem.label       "Herstellen…">
 <!ENTITY itemProperties.label     "Eigenschappen…">
-

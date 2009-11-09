@@ -36,5 +36,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY domExplorer.label                      "Tekst te vertalen">
+<!ENTITY domExplorer.label                      "DOM Explorer">
 
+<!ENTITY html.label                             "HTML">
+<!ENTITY css.label                              "CSS">
+<!ENTITY htmlcss.label                          "HTML+CSS">
+
+<!ENTITY id.label                               "id">
+<!ENTITY class.label                            "klasse">
+<!ENTITY elements.label                         "Elementen">
+<!ENTITY style.label                            "stijl">
+<!ENTITY styleRules.label                       "Stijlregels">
