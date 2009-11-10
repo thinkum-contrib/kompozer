@@ -1,46 +1,85 @@
-<!ENTITY printCmd.commandkey		"p">
+<!ENTITY printCmd.commandkey             "p">
 
-<!ENTITY findOnCmd.commandkey		"F">
-<!ENTITY findAgainCmd.commandkey	"G">
-<!ENTITY findAgainCmd.commandkey2	"VK_F3">
+<!ENTITY viewCustomizeToolbar.label      "カスタマイズ…">
+<!ENTITY viewCustomizeToolbar.accesskey  "C">
 
-<!ENTITY backButton.label		"戻る">
-<!ENTITY backButton.accesskey		"B">
-<!ENTITY backButton.tooltip		"前のページへ戻ります"><!-- 一つ前以外も -->
-<!ENTITY forwardButton.label		"進む">
-<!ENTITY forwardButton.accesskey	"F">
-<!ENTITY forwardButton.tooltip		"次のページへ進みます"><!-- 一つ次以外も -->
-<!ENTITY copyCmd.label			"コピー">
-<!ENTITY copyCmd.accesskey		"C">
-<!ENTITY selectAllCmd.label		"すべて選択">
-<!ENTITY selectAllCmd.accesskey		"A">
-<!ENTITY goBackCmd.commandkey		"[">
-<!ENTITY goForwardCmd.commandkey	"]">
-<!ENTITY homeButton.label		"ホーム">
-<!ENTITY homeButton.tooltip		"ヘルプの開始ページに移動します">
-<!ENTITY printButton.label		"印刷">
-<!ENTITY printButton.tooltip		"このページを印刷します">
-<!ENTITY closeWindow.commandkey		"W">
+<!ENTITY findOnCmd.commandkey            "F">
+<!ENTITY findAgainCmd.commandkey         "G">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "このページ内で検索">
+<!ENTITY findDialogFrame.title           "このフレーム内で検索">
+<!ENTITY findField.label                 "検索する文字列：">
+<!ENTITY findField.accesskey             "n">
+<!ENTITY caseSensitiveCheckbox.label     "大文字・小文字を区別する">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY wrapCheckbox.label              "折り返す">
+<!ENTITY wrapCheckbox.accesskey          "W">
+<!ENTITY backwardsCheckbox.label         "前を検索">
+<!ENTITY backwardsCheckbox.accesskey     "b">
+<!ENTITY findField.tooltip               "検索したい語句を入力してください">
+<!ENTITY findButton.label                "次を検索">
+<!ENTITY findButton.accesskey            "F">
+<!ENTITY cancelButton.label              "キャンセル">
+<!ENTITY up.label                        "上へ">
+<!ENTITY up.accesskey                    "U">
+<!ENTITY down.label                      "下へ">
+<!ENTITY down.accesskey                  "D">
+<!ENTITY direction.label                 "方向">
 
-<!ENTITY throbberItem.title		"読み込み中アイコン">
-<!ENTITY throbber.tooltip		"ヘルプの開始ページに移動します"><!-- (^^; Go to the Help on Help section を ヘルプのヘルプに移動…とかいうと笑えるだけなので、homeButton.tooltip に合わせた 機能的に等価なのかは不明だが… -->
+<!ENTITY find.label                      "検索:">
+<!ENTITY findNext.label                  "次を検索">
+<!ENTITY findNext.tooltip                "指定に一致する次の部分を検索します">
+<!ENTITY findPrevious.label              "前を検索">
+<!ENTITY findPrevious.tooltip            "指定に一致する 1 つ前の部分を検索します">
+<!ENTITY findCloseButton.tooltip         "検索バーを閉じます">
+<!ENTITY highlight.label                 "強調">
+<!ENTITY highlight.tooltip               "すべての該当部をハイライト表示">
 
-<!ENTITY searchtab.label		"検索">
-<!ENTITY searchtab.accesskey		"S">
-<!ENTITY toctab.label			"目次">
-<!ENTITY toctab.accesskey		"C">
+<!ENTITY backButton.label                "戻る">
+<!ENTITY backButton.accesskey            "B">
+<!ENTITY backButton.tooltip              "前のページへ戻ります">
+<!ENTITY forwardButton.label             "進む">
+<!ENTITY forwardButton.accesskey         "F">
+<!ENTITY forwardButton.tooltip           "次のページへ進みます">
+<!ENTITY homeButton.label                "ホーム">
+<!ENTITY homeButton.tooltip              "ヘルプの開始ページに移動します">
+<!ENTITY printButton.label               "印刷">
+<!ENTITY printButton.tooltip             "このページを印刷します">
+<!ENTITY findBtn.label                   "検索">
+<!ENTITY sidebarBtn.label                "サイドバー">
+<!ENTITY sidebarBtn.tooltip              "サイドバーを表示・非表示">
+<!ENTITY textZoomReduceBtn.label         "文字サイズを小さく">
+<!ENTITY textZoomReduceBtn.accesskey     "D">
+<!ENTITY textZoomReduceBtn.tooltip       "文字を小さく">
+<!ENTITY textZoomEnlargeBtn.label        "文字サイズを大きく">
+<!ENTITY textZoomEnlargeBtn.accesskey    "I">
+<!ENTITY textZoomEnlargeBtn.tooltip      "文字を大きく">
+<!ENTITY customizeButton.tooltip         "ヘルプのツールバーのカスタマイズ">
+<!ENTITY reloadCmd.label                 "再読み込み">
+<!ENTITY reloadCmd.accesskey             "R">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "コピー">
+<!ENTITY copyCmd.accesskey               "C">
 
-<!ENTITY textZoomReduceCmd.commandkey	"-">
-<!ENTITY textZoomEnlargeCmd.commandkey	"+">
-<!ENTITY textZoomEnlargeCmd.commandkey2	"="> <!-- + is above this key on many keyboards -->
-<!ENTITY textZoomResetCmd.commandkey	"0">
+<!ENTITY throbberItem.title              "読み込み中アイコン">
 
-<!ENTITY helpSearch.commandkey		"k">
+<!ENTITY cmd_CustomizeToolbars.label     "カスタマイズ" >
 
-<!ENTITY zLevel.label			"常に最前面に表示する">
-<!ENTITY zLevel.accesskey		"T">
+<!ENTITY searchtab.label                 "検索">
+<!ENTITY searchtab.accesskey             "S">
+<!ENTITY searchbtn.label                 "検索">
+<!ENTITY toctab.label                    "目次">
+<!ENTITY toctab.accesskey                "C">
+<!ENTITY indextab.label                  "索引">
+<!ENTITY indextab.accesskey              "I">
+<!ENTITY ixname.label                    "名前">
+<!ENTITY glossarytab.label               "用語集">
+<!ENTITY glossarytab.accesskey           "G">
+<!ENTITY glossname.label                 "名前">
+<!ENTITY gobtn.label                     "検索">
+<!ENTITY name.label                      "項目">
 
-<!ENTITY textZoomReduceBtn.label	"文字サイズを小さく">
-<!ENTITY textZoomReduceBtn.accesskey	"D">
-<!ENTITY textZoomEnlargeBtn.label	"文字サイズを大きく">
-<!ENTITY textZoomEnlargeBtn.accesskey	"I">
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">

@@ -1,15 +1,37 @@
-<!ENTITY AdvancedEditButton.label "詳細編集…">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY AdvancedEditButton.label     "詳細編集…">
 <!ENTITY AdvancedEditButton.accessKey "E">
-<!ENTITY AdvancedEditButton.tooltip "HTML属性・style属性・JavaScriptの編集">
-<!ENTITY chooseButton.label "ファイルを選択…">
-<!ENTITY chooseFile.accessKey "F">
-<!ENTITY chooseFileLink.accessKey "o">
-<!ENTITY makeUrlRelative.label "相対URLを使用する">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "相対・絶対URLのどちらを使用するか選択。保存するまで反映されない">
+<!ENTITY AdvancedEditButton.tooltip   "HTML属性・style属性・JavaScriptの編集">
+<!ENTITY chooseButton.label           "ファイルを選択…">
+<!ENTITY chooseFile.accessKey         "F">
+<!ENTITY chooseFileLink.accessKey     "o">
+<!ENTITY makeUrlRelative.label        "相対URLを使用する">
+<!ENTITY makeUrlRelative.accessKey    "r">
+<!ENTITY makeUrlRelative.tooltip      "相対・絶対URLのどちらを使用するか選択。保存するまで反映されない">
 
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label       "ウェブページのURI、ローカルファイルのパス、電子メールアドレスを入力するか、名前付きアンカー・見出しをポップアップされる一覧から選んでください。">
+<!ENTITY LinkURLEditField.accessKey   "L">
 
-<!ENTITY LinkURLEditField.label "ウェブページのURI、ローカルファイルのパス、電子メールアドレスを入力するか、名前付きアンカー・見出しをポップアップされる一覧から選んでください。">
-<!ENTITY LinkURLEditField.accessKey "L">
-
-<!ENTITY isMailAddress.label "電子メールアドレスとして扱う">
+<!ENTITY isMailAddress.label          "電子メールアドレスとして扱う">

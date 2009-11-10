@@ -22,9 +22,6 @@
    -   Bob Lord <lord@netscape.com>
    -   Terry Hayes <thayes@netscape.com>
    -
-   - Localizer(s):
-   -   dynamis
-   -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
    - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
@@ -39,32 +36,33 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  SSLProtocolVersions.caption	"SSL プロトコルのバージョン">
-<!ENTITY  SSLWarnings.caption		"SSL の警告">
-<!ENTITY  SSLClientAuthMethod.caption	"クライアント証明書の選択">
+<!ENTITY  SSLProtocolVersions.caption       "SSL プロトコルのバージョン">
+<!ENTITY  SSLWarnings.caption               "SSL の警告">
+<!ENTITY  SSLClientAuthMethod.caption       "クライアント証明書の選択">
 
-<!ENTITY pref.ssl.title			"Secure Sockets Layer (SSL)">
-<!ENTITY enable.ssl3			"SSL バージョン 3 を有効にする">
-<!ENTITY enable.ssl3.accesskey		"3">
-<!ENTITY enable.tls			"TLS を有効にする">
-<!ENTITY enable.tls.accesskey		"T">
+<!ENTITY pref.ssl.title                     "Secure Sockets Layer (SSL)">
+<!ENTITY enable.ssl3                        "SSL バージョン 3 を有効にする">
+<!ENTITY enable.ssl3.accesskey              "3">
+<!ENTITY enable.tls                         "TLS を有効にする">
+<!ENTITY enable.tls.accesskey               "T">
 
-<!ENTITY warn.description		"Web ページのセキュリティについて警告を表示できます。次の処理の前に許可を求めるダイアログを表示します:">
-<!ENTITY warn.enteringsecure		"暗号化をサポートするページを読み込むとき">
-<!ENTITY warn.enteringsecure.accesskey	"L">
-<!ENTITY warn.enteringweak		"強度の低い暗号化を使用するページを読み込むとき">
-<!ENTITY warn.enteringweak.accesskey	"o">
-<!ENTITY warn.insecurepost		"暗号化されていないページから暗号化されていないページにデータを送信するとき">
-<!ENTITY warn.insecurepost.accesskey	"S">
-<!ENTITY warn.leavingsecure		"暗号化をサポートするページから出るとき">
-<!ENTITY warn.leavingsecure.accesskey	"a">
-<!ENTITY warn.secureredirect		"暗号化されたページから他のページへリダイレクトするとき">
-<!ENTITY warn.secureredirecttoinsecure	"暗号化されたページから暗号化されていないページへリダイレクトするとき">
-<!ENTITY warn.viewmixed			"暗号化/非暗号化 が混在したページを表示しているとき">
-<!ENTITY warn.viewmixed.accesskey	"V">
+<!ENTITY warn.description                   "Web ページのセキュリティについて警告を表示できます。次の処理の前に許可を求めるダイアログを表示します:">
+<!ENTITY warn.enteringsecure                "暗号化をサポートするページを読み込むとき">
+<!ENTITY warn.enteringsecure.accesskey      "L">
+<!ENTITY warn.enteringweak                  "強度の低い暗号化を使用するページを読み込むとき">
+<!ENTITY warn.enteringweak.accesskey        "o">
+<!ENTITY warn.insecurepost                  "暗号化されていないページから暗号化されていないページにデータを送信するとき">
+<!ENTITY warn.insecurepost.accesskey        "S">
+<!ENTITY warn.leavingsecure                 "暗号化をサポートするページから出るとき">
+<!ENTITY warn.leavingsecure.accesskey       "a">
+<!ENTITY warn.secureredirect                "暗号化されたページから他のページへリダイレクトするとき">
+<!ENTITY warn.secureredirecttoinsecure      "暗号化されたページから暗号化されていないページへリダイレクトするとき">
+<!ENTITY warn.viewmixed                     "暗号化/非暗号化 が混在したページを表示しているとき">
+<!ENTITY warn.viewmixed.accesskey           "V">
 
-<!ENTITY certselect.description		"Web サイトにあなたの証明書を求められたとき、&brandShortName; がどのようにして証明書を選択するか指定してください:">
-<!ENTITY certselect.auto		"自動的に選択する">
-<!ENTITY certselect.auto.accesskey	"A">
-<!ENTITY certselect.ask			"毎回確認ダイアログを表示する">
-<!ENTITY certselect.ask.accesskey	"E">
+<!ENTITY certselect.description             "Web サイトにあなたの証明書を求められたとき、&brandShortName; がどのようにして証明書を選択するか指定してください:">
+<!ENTITY certselect.auto                    "自動的に選択する">
+<!ENTITY certselect.auto.accesskey          "A">
+<!ENTITY certselect.ask                     "毎回確認ダイアログを表示する">
+<!ENTITY certselect.ask.accesskey           "E">
+

@@ -1,43 +1,44 @@
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label              "Navigator">  
+<!ENTITY navigatorCmd.accesskey          "N">
+<!ENTITY navigatorCmd.commandkey         "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label                 "Composer">
+<!ENTITY editorCmd.accesskey             "C">
+<!ENTITY editorCmd.commandkey            "4">
 
+<!ENTITY securityInfoCmd.label           ".Security Info">  
+<!ENTITY securityInfoCmd.accesskey       "S">
+<!ENTITY javaConsoleCmd.label            "Javaコンソール">
+<!ENTITY javaConsoleCmd.accesskey        "J">
 
-<!ENTITY navigatorCmd.label "Navigator">
-<!ENTITY navigatorCmd.accesskey "n">
-<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY javaScriptConsoleCmd.label      "JavaScriptコンソール">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
 
-<!ENTITY editorCmd.label "Composer">
-<!ENTITY editorCmd.accesskey "c">
-<!ENTITY editorCmd.commandkey "4">
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label               "Privacy &amp; Security">
+<!ENTITY privacyMenu.accesskey           "P">
 
-<!ENTITY securityInfoCmd.label ".Security Info">
-<!ENTITY securityInfoCmd.accesskey "s">
-<!ENTITY javaConsoleCmd.label "Javaコンソール">
-<!ENTITY javaConsoleCmd.accesskey "j">
+<!ENTITY taskNavigator.tooltip           "Navigator">
+<!ENTITY taskComposer.tooltip            "Composer">
+<!ENTITY taskBar.tooltip                 "ステータスバー">
 
-<!ENTITY javaScriptConsoleCmd.label "JavaScriptコンソール">
-<!ENTITY javaScriptConsoleCmd.accesskey "S">
+<!ENTITY webDevelopment.label            "ウェブ開発">
+<!ENTITY webDevelopment.accesskey        "W">
 
+<!ENTITY windowMenu.label                "ウインドウ">
+<!ENTITY windowMenu.accesskey            "W">
 
-<!ENTITY privacyMenu.label "Privacy &amp; Security">
-<!ENTITY privacyMenu.accesskey "p">
+<!ENTITY tasksMenu.label                 "ツール">
+<!ENTITY tasksMenu.accesskey             "T"> 
 
-<!ENTITY taskNavigator.tooltip "Navigator">
-<!ENTITY taskComposer.tooltip "Composer">
-<!ENTITY taskBar.tooltip "ステータスバー">
+<!ENTITY downloadManagerCmd.label        "ダウンロードマネージャ">
+<!ENTITY downloadManagerCmd.accesskey    "D">
 
-<!ENTITY webDevelopment.label "ウェブ開発">
-<!ENTITY webDevelopment.accesskey "W">
+<!ENTITY switchProfileCmd.label          "Switch Profile…">
+<!ENTITY switchProfileCmd.accesskey      "h">
 
-<!ENTITY windowMenu.label "ウインドウ">
-<!ENTITY windowMenu.accesskey "W">
-
-<!ENTITY tasksMenu.label "ツール">
-<!ENTITY tasksMenu.accesskey "T">
-
-<!ENTITY downloadManagerCmd.label "ダウンロードマネージャ">
-<!ENTITY downloadManagerCmd.accesskey "D">
-
-<!ENTITY switchProfileCmd.label "Switch Profile…">
-<!ENTITY switchProfileCmd.accesskey "h">
-
-<!ENTITY extensions.label "機能拡張">
-<!ENTITY themes.label "テーマ">
+<!ENTITY addons.label                    "アドオン">
+<!ENTITY extensions.label                "機能拡張">
+<!ENTITY themes.label                    "テーマ">

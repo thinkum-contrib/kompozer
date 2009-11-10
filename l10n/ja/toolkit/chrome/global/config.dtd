@@ -20,9 +20,6 @@
    -
    - Contributors:
    -
-   - Localizer(s):
-   -   dynamis
-   -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or 
    - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
@@ -37,43 +34,44 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title		"about:config">
+<!ENTITY window.title "about:config">
 
-<!ENTITY filterPrefs.label	"フィルタ:">
-<!ENTITY filterPrefs.accesskey	"I">
-<!ENTITY showAll.label		"すべて表示">   
-<!ENTITY showAll.accesskey	"W">
+<!ENTITY filterPrefs.label "フィルタ:">
+<!ENTITY filterPrefs.accesskey "I">
+<!ENTITY showAll.label "すべて表示">
+<!ENTITY showAll.accesskey "W">
 
 <!-- Columns -->
-<!ENTITY prefColumn.label	"設定名">
-<!ENTITY lockColumn.label	"状態">
-<!ENTITY typeColumn.label	"型">
-<!ENTITY valueColumn.label	"値">
+<!ENTITY prefColumn.label "設定名">
+<!ENTITY lockColumn.label "状態">
+<!ENTITY typeColumn.label "型">
+<!ENTITY valueColumn.label "値">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip	"クリックするとソートされます">
-<!ENTITY columnChooser.tooltip		"クリックすると表示する列を選択できます">
+<!ENTITY prefColumnHeader.tooltip "クリックするとソートされます"> 
+<!ENTITY columnChooser.tooltip "クリックすると表示する列を選択できます"> 
 
 <!-- Context Menu -->
-<!ENTITY copyName.label		"名前をコピー">
-<!ENTITY copyName.accesskey	"C">
-<!ENTITY copyValue.label	"値をコピー">
-<!ENTITY copyValue.accesskey	"V">
-<!ENTITY modify.label		"値を変更">
-<!ENTITY modify.accesskey	"M">
-<!ENTITY toggle.label		"切り替え">
-<!ENTITY toggle.accesskey	"T">
-<!ENTITY reset.label		"リセット">
-<!ENTITY reset.accesskey	"R">
-<!ENTITY new.label		"新規作成">
-<!ENTITY new.accesskey		"N">
-<!ENTITY string.label		"文字列">
-<!ENTITY string.accesskey	"S">
-<!ENTITY integer.label		"整数値">
-<!ENTITY integer.accesskey	"I">
-<!ENTITY boolean.label		"真偽値">
-<!ENTITY boolean.accesskey	"B">
-<!ENTITY lock.label		"ロック">
-<!ENTITY lock.accesskey		"L">
-<!ENTITY unlock.label		"非ロック"><!-- (^^; 一応要確認 -->
-<!ENTITY unlock.accesskey	"U">
+<!ENTITY copyName.label "名前をコピー">
+<!ENTITY copyName.accesskey "C">
+<!ENTITY copyValue.label "値をコピー">
+<!ENTITY copyValue.accesskey "V">
+<!ENTITY modify.label "値を変更">
+<!ENTITY modify.accesskey "M">
+<!ENTITY toggle.label "切り替え">
+<!ENTITY toggle.accesskey "T">
+<!ENTITY reset.label "リセット">
+<!ENTITY reset.accesskey "R">
+<!ENTITY new.label "新規作成">
+<!ENTITY new.accesskey "N">
+<!ENTITY string.label "文字列">
+<!ENTITY string.accesskey "S">
+<!ENTITY integer.label "整数値">
+<!ENTITY integer.accesskey "I">
+<!ENTITY boolean.label "真偽値">
+<!ENTITY boolean.accesskey "B">
+<!ENTITY lock.label "ロック">
+<!ENTITY lock.accesskey "L">
+<!ENTITY unlock.label "非ロック">
+<!ENTITY unlock.accesskey "U">
+

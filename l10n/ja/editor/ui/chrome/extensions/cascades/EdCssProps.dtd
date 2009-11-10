@@ -1,234 +1,271 @@
-<!ENTITY Window.title "CSSスタイルシート">
-
-<!ENTITY sheetsTreeColumn.label "スタイルシート">
-<!ENTITY expertModeChecbox.label "エキスパートモード">
-<!ENTITY importRuleButton.label "@import">
-<!ENTITY mediaRuleButton.label "@media">
-<!ENTITY linkedSheetButton.label "新しいlink要素">
-<!ENTITY styleSheetButton.label "新しいstyle要素">
-<!ENTITY ruleButton.label "新しい規則">
-<!ENTITY upButton.label "上へ">
-<!ENTITY downButton.label "下へ">
-<!ENTITY refreshButton.label "再読み込み">
-<!ENTITY removeButton.label "削除">
-<!ENTITY sheetInfoTab.label "全般">
-<!ENTITY textTab.label "テキスト">
-<!ENTITY borderTab.label "枠線">
-<!ENTITY marginsTab.label "マージン">
-<!ENTITY boxTab.label "ボックス">
-<!ENTITY auralTab.label "音声">
-<!ENTITY fontFamily.label "フォントファミリ:">
-<!ENTITY inheritedFontFamily.label "継承">
-<!ENTITY useCustomFontFamily.label "独自のフォントファミリ:">
-<!ENTITY fontData.label "フォントデータ">
-<!ENTITY exampleSentence.label "The quick brown fox jumps over the lazy dog">
-<!ENTITY backgroundTab.label "背景">
-
-<!ENTITY unspecifiedValue.label "未指定">
-<!ENTITY predefFontFamilyRadio.label "規定値:">
-<!ENTITY fontSize.label "フォントサイズ:">
-<!ENTITY lineHeight.label "行間隔:">
-<!ENTITY normalLineHeight.label "通常">
-<!ENTITY color.label "前景色:">
-<!ENTITY fontWeight.label "フォントウェイト:">
-<!ENTITY normalValue.label "通常">
-<!ENTITY boldValue.label "太字">
-<!ENTITY bolderValue.label "より太く">
-<!ENTITY lighterValue.label "より細く">
-<!ENTITY inheritedValue.label "継承">
-<!ENTITY fontStyle.label "フォントスタイル:">
-<!ENTITY italicValue.label "イタリック体">
-<!ENTITY obliqueValue.label "斜体 (Oblique)">
-<!ENTITY textTransform.label "大文字小文字:">
-<!ENTITY noneTextTransformValue.label "変換しない">
-<!ENTITY lowercaseValue.label "小文字に変換">
-<!ENTITY uppercaseValue.label "大文字に変換">
-<!ENTITY capitalizeValue.label "先頭のみ大文字に">
-
-<!ENTITY closeButton.label "閉じる">
-
-<!ENTITY largerFontSize.label "より大きく">
-<!ENTITY smallerFontSize.label "より小さく">
-<!ENTITY xxsmallFontSize.label "最小">
-<!ENTITY xsmallFontSize.label "小さい">
-<!ENTITY smallFontSize.label "少し小さい">
-<!ENTITY mediumFontSize.label "通常">
-<!ENTITY largeFontSize.label "少し大きい">
-<!ENTITY xlargeFontSize.label "大きい">
-<!ENTITY xxlargeFontSize.label "とても大きい">
-
-<!ENTITY textAlign.label "行揃え:">
-<!ENTITY rightTextAlign.label "右">
-<!ENTITY leftTextAlign.label "左">
-<!ENTITY centerTextAlign.label "中央">
-<!ENTITY justifyTextAlign.label "均等割付 (justify)">
-
-<!ENTITY textDecoration.label "テキスト装飾:">
-<!ENTITY overlineTextDecoration.label "上線付き">
-<!ENTITY underlineTextDecoration.label "下線付き">
-<!ENTITY linethroughTextDecoration.label "打ち消し線">
-<!ENTITY blinkTextDecoration.label "点滅">
-<!ENTITY noneTextDecoration.label "なし">
-
-<!ENTITY backgroundColor.label "背景色:">
-<!ENTITY backgroundImage.label "背景画像:">
-<!ENTITY chooseFileButton.label "選択…">
-<!ENTITY backgroundRepeat.label "タイリング:">
-<!ENTITY norepeatBackgroundRepeat.label "しない">
-<!ENTITY repeatxBackgroundRepeat.label "水平方向に並べる">
-<!ENTITY repeatyBackgroundRepeat.label "垂直方向に並べる">
-<!ENTITY repeatBackgroundRepeat.label "両方向に並べる">
-<!ENTITY backgroundPosition.label "位置:">
-<!ENTITY leftXBackgroundPosition.label "左">
-<!ENTITY centerXBackgroundPosition.label "中央">
-<!ENTITY rightXBackgroundPosition.label "右">
-<!ENTITY topYBackgroundPosition.label "上">
-<!ENTITY centerYBackgroundPosition.label "中央">
-<!ENTITY bottomYBackgroundPosition.label "下">
-<!ENTITY backgroundAttachmentCheckbox.label "ページスクロールで画像も一緒にスクロールする">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY useBorderShorthand.label "上下左右すべて同じ指定を用いる">
-<!ENTITY borderStyle.label "種類:">
-<!ENTITY borderWidth.label "幅:">
-<!ENTITY borderColor.label "色:">
-<!ENTITY topBorder.label "上:">
-<!ENTITY leftBorder.label "左:">
-<!ENTITY rightBorder.label "右:">
-<!ENTITY bottomBorder.label "下:">
-<!ENTITY borderPreview.label "プレビュー">
-<!ENTITY noneBorderStyle.label "なし">
-<!ENTITY hiddenBorderStyle.label "非表示">
-<!ENTITY solidBorderStyle.label "線 (solid)">
-<!ENTITY dottedBorderStyle.label "点線 (dotted)">
-<!ENTITY dashedBorderStyle.label "破線 (dashed)">
-<!ENTITY doubleBorderStyle.label "二重線 (double)">
-<!ENTITY grooveBorderStyle.label "谷 (groove)">
-<!ENTITY ridgeBorderStyle.label "山 (ridge)">
-<!ENTITY insetBorderStyle.label "沈降 (inset)">
-<!ENTITY outsetBorderStyle.label "浮上 (outset)">
+<!ENTITY Window.title                           "CSSスタイルシート">
 
-<!ENTITY display.label "描画モード:">
-<!ENTITY noneDisplay.label "削除">
-<!ENTITY inlineDisplay.label "インライン">
-<!ENTITY blockDisplay.label "ブロック">
-<!ENTITY runinDisplay.label "ランイン">
-<!ENTITY compactDisplay.label "コンパクト">
-<!ENTITY listitemDisplay.label "リストアイテム">
-<!ENTITY tableDisplay.label "テーブル">
-<!ENTITY tablerowDisplay.label "テーブル/行">
-<!ENTITY tablecellDisplay.label "テーブル/項目">
-<!ENTITY tablecaptionDisplay.label "テーブル/見出し">
-<!ENTITY inlinetableDisplay.label "インラインテーブル">
-<!ENTITY tablecolumnDisplay.label "テーブル/列">
-<!ENTITY tablerowgroupDisplay.label "テーブル/行グループ">
-<!ENTITY tableheadergroupDisplay.label "テーブル/ヘッダグループ">
-<!ENTITY tablefootergroupDisplay.label "テーブル/フッタグループ">
-<!ENTITY tablecolumngroupDisplay.label "テーブル/列グループ">
+<!ENTITY sheetsTreeColumn.label                 "スタイルシート">
+<!ENTITY expertModeChecbox.label                "エキスパートモード">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "新しいlink要素">
+<!ENTITY styleSheetButton.label                 "新しいstyle要素">
+<!ENTITY ruleButton.label                       "新しい規則">
+<!ENTITY upButton.label                         "上へ">
+<!ENTITY downButton.label                       "下へ">
+<!ENTITY refreshButton.label                    "再読み込み">
+<!ENTITY removeButton.label                     "削除">
+<!ENTITY sheetInfoTab.label                     "全般">
+<!ENTITY textTab.label                          "テキスト">
+<!ENTITY borderTab.label                        "枠線">
+<!ENTITY marginsTab.label                       "マージン">
+<!ENTITY boxTab.label                           "ボックス">
+<!ENTITY auralTab.label                         "音声">
+<!ENTITY fontFamily.label                       "フォントファミリ:">
+<!ENTITY inheritedFontFamily.label              "継承">
+<!ENTITY useCustomFontFamily.label              "独自のフォントファミリ:">
+<!ENTITY fontData.label                         "フォントデータ">
+<!ENTITY exampleSentence.label                  "The quick brown fox jumps over the lazy dog">
+<!ENTITY backgroundTab.label                    "背景">
 
-<!ENTITY visibility.label "表示モード:">
-<!ENTITY visibleVisibility.label "表示">
-<!ENTITY hiddenVisibility.label "非表示">
-<!ENTITY collapseVisibility.label "collapse">
+<!ENTITY unspecifiedValue.label                 "未指定">
+<!ENTITY predefFontFamilyRadio.label            "規定値:">
+<!ENTITY fontSize.label                         "フォントサイズ:">
+<!ENTITY lineHeight.label                       "行間隔:">
+<!ENTITY normalLineHeight.label                 "通常">
+<!ENTITY color.label                            "前景色:">
+<!ENTITY fontWeight.label                       "フォントウェイト:">
+<!ENTITY normalValue.label                      "通常">
+<!ENTITY boldValue.label                        "太字">
+<!ENTITY bolderValue.label                      "より太く">
+<!ENTITY lighterValue.label                     "より細く">
+<!ENTITY inheritedValue.label                   "継承">
+<!ENTITY fontStyle.label                        "フォントスタイル:">
+<!ENTITY italicValue.label                      "イタリック体">
+<!ENTITY obliqueValue.label                     "斜体 (Oblique)">
+<!ENTITY textTransform.label                    "大文字小文字:">
+<!ENTITY noneTextTransformValue.label           "変換しない">
+<!ENTITY lowercaseValue.label                   "小文字に変換">
+<!ENTITY uppercaseValue.label                   "大文字に変換">
+<!ENTITY capitalizeValue.label                  "先頭のみ大文字に">
 
-<!ENTITY float.label "浮動表示:">
-<!ENTITY leftFloat.label "左">
-<!ENTITY rightFloat.label "右">
-<!ENTITY noneFloat.label "なし">
+<!ENTITY closeButton.label                      "閉じる">
 
-<!ENTITY clear.label "浮動解除:">
-<!ENTITY noneClear.label "なし">
-<!ENTITY leftClear.label "左のみ">
-<!ENTITY rightClear.label "右のみ">
-<!ENTITY bothClear.label "すべて">
+<!ENTITY largerFontSize.label                   "より大きく">
+<!ENTITY smallerFontSize.label                  "より小さく">
+<!ENTITY xxsmallFontSize.label                  "最小">
+<!ENTITY xsmallFontSize.label                   "小さい">
+<!ENTITY smallFontSize.label                    "少し小さい">
+<!ENTITY mediumFontSize.label                   "通常">
+<!ENTITY largeFontSize.label                    "少し大きい">
+<!ENTITY xlargeFontSize.label                   "大きい">
+<!ENTITY xxlargeFontSize.label                  "とても大きい">
 
+<!ENTITY textAlign.label                        "行揃え:">
+<!ENTITY rightTextAlign.label                   "右">
+<!ENTITY leftTextAlign.label                    "左">
+<!ENTITY centerTextAlign.label                  "中央">
+<!ENTITY justifyTextAlign.label                 "均等割付 (justify)">
 
-<!ENTITY position.label "配置:">
-<!ENTITY staticPosition.label "通常">
-<!ENTITY fixedPosition.label "固定">
-<!ENTITY absolutePosition.label "絶対位置">
-<!ENTITY relativePosition.label "相対位置">
+<!ENTITY textDecoration.label                   "テキスト装飾:">
+<!ENTITY overlineTextDecoration.label           "上線付き">
+<!ENTITY underlineTextDecoration.label          "下線付き">
+<!ENTITY linethroughTextDecoration.label        "打ち消し線">
+<!ENTITY blinkTextDecoration.label              "点滅">
+<!ENTITY noneTextDecoration.label               "なし">
 
-<!ENTITY overflow.label "表示あふれ:">
-<!ENTITY visibleOverflow.label "通常表示">
-<!ENTITY hiddenOverflow.label "非表示">
-<!ENTITY scrollOverflow.label "スクロール">
-<!ENTITY autoOverflow.label "適当に">
-
-<!ENTITY zIndex.label "優先順位 (z-index):">
-
-<!ENTITY width.label "幅:">
-<!ENTITY minWidth.label "最小幅:">
-<!ENTITY maxWidth.label "最大幅:">
-<!ENTITY height.label "高さ:">
-<!ENTITY minHeight.label "最小高:">
-<!ENTITY maxHeight.label "最大高:">
-
-<!ENTITY margins.label "余白 (margin):">
-<!ENTITY paddings.label "枠内余白 (padding):">
-<!ENTITY offsets.label "オフセット:">
-<!ENTITY top.label "上:">
-<!ENTITY left.label "左:">
-<!ENTITY right.label "右:">
-<!ENTITY bottom.label "下:">
-
-<!ENTITY volume.label "音量:">
-<!ENTITY xsoftVolume.label "小さく">
-<!ENTITY softVolume.label "やや小さく">
-<!ENTITY mediumVolume.label "通常">
-<!ENTITY loudVolume.label "やや大きく">
-<!ENTITY xloudVolume.label "大きく">
-<!ENTITY muteVolume.label "無音">
-
-<!ENTITY speak.label "発声モード:">
-<!ENTITY noneSpeak.label "再生しない">
-<!ENTITY normalSpeak.label "通常">
-<!ENTITY spelloutSpeak.label "文字として">
-
-<!ENTITY speechRate.label "再生速度:">
-<!ENTITY slowerSpeechRate.label "やや遅く">
-<!ENTITY fasterSpeechRate.label "やや速く">
-<!ENTITY xslowSpeechRate.label "とても遅く">
-<!ENTITY slowSpeechRate.label "遅く">
-<!ENTITY mediumSpeechRate.label "通常">
-<!ENTITY fastSpeechRate.label "速く">
-<!ENTITY xfastSpeechRate.label "とても速く">
-
-<!ENTITY opacity.label "透明度:">
-
-<!ENTITY compatibilityTab.label "互換性">
-
-<!ENTITY transparentOpacity.label "透明">
-
-<!ENTITY pauseBefore.label "前に無音を挿入:">
-<!ENTITY cueBefore.label "前に音を挿入:">
-<!ENTITY pauseAfter.label "後ろに無音を挿入:">
-<!ENTITY cueAfter.label "後ろに音を挿入；">
+<!ENTITY backgroundColor.label                  "背景色:">
+<!ENTITY backgroundImage.label                  "背景画像:">
+<!ENTITY chooseFileButton.label                 "選択…">
+<!ENTITY backgroundRepeat.label                 "タイリング:">
+<!ENTITY norepeatBackgroundRepeat.label         "しない">
+<!ENTITY repeatxBackgroundRepeat.label          "水平方向に並べる">
+<!ENTITY repeatyBackgroundRepeat.label          "垂直方向に並べる">
+<!ENTITY repeatBackgroundRepeat.label           "両方向に並べる">
+<!ENTITY backgroundPosition.label               "位置:">
+<!ENTITY leftXBackgroundPosition.label          "左">
+<!ENTITY centerXBackgroundPosition.label        "中央">
+<!ENTITY rightXBackgroundPosition.label         "右">
+<!ENTITY topYBackgroundPosition.label           "上">
+<!ENTITY centerYBackgroundPosition.label        "中央">
+<!ENTITY bottomYBackgroundPosition.label        "下">
+<!ENTITY backgroundAttachmentCheckbox.label     "ページスクロールで画像も一緒にスクロールする">
 
 
-<!ENTITY listTab.label "リスト">
+<!ENTITY useBorderShorthand.label               "上下左右すべて同じ指定を用いる">
+<!ENTITY borderStyle.label                      "種類:">
+<!ENTITY borderWidth.label                      "幅:">
+<!ENTITY borderColor.label                      "色:">
+<!ENTITY topBorder.label                        "上:">
+<!ENTITY leftBorder.label                       "左:">
+<!ENTITY rightBorder.label                      "右:">
+<!ENTITY bottomBorder.label                     "下:">
+<!ENTITY borderPreview.label                    "プレビュー">
+<!ENTITY noneBorderStyle.label                  "なし">
+<!ENTITY hiddenBorderStyle.label                "非表示">
+<!ENTITY solidBorderStyle.label                 "線 (solid)">
+<!ENTITY dottedBorderStyle.label                "点線 (dotted)">
+<!ENTITY dashedBorderStyle.label                "破線 (dashed)">
+<!ENTITY doubleBorderStyle.label                "二重線 (double)">
+<!ENTITY grooveBorderStyle.label                "谷 (groove)">
+<!ENTITY ridgeBorderStyle.label                 "山 (ridge)">
+<!ENTITY insetBorderStyle.label                 "沈降 (inset)">
+<!ENTITY outsetBorderStyle.label                "浮上 (outset)">
 
-<!ENTITY listStyleType.label "リストマーカの種類:">
-<!ENTITY noneListStyleType.label "なし">
-<!ENTITY discListStyleType.label "黒丸">
-<!ENTITY circleListStyleType.label "中抜き丸">
-<!ENTITY squareListStyleType.label "四角">
-<!ENTITY decimalListStyleType.label "アラビア数字">
-<!ENTITY decimalLeadingZeroListStyleType.label "アラビア数字 (桁数を揃えて)">
-<!ENTITY lowerRomanListStyleType.label "ローマ数字 (小文字)">
-<!ENTITY upperRomanListStyleType.label "ローマ数字 (大文字)">
-<!ENTITY lowerGreekListStyleType.label "ギリシャ文字 (小文字)">
-<!ENTITY lowerAlphaListStyleType.label "英小文字">
-<!ENTITY upperAlphaListStyleType.label "英大文字">
-<!ENTITY armenianListStyleType.label "アルメニア数字">
-<!ENTITY georgianListStyleType.label "グルジア数字">
+<!ENTITY display.label                          "描画モード:">
+<!ENTITY noneDisplay.label                      "削除">
+<!ENTITY inlineDisplay.label                    "インライン">
+<!ENTITY blockDisplay.label                     "ブロック">
+<!ENTITY runinDisplay.label                     "ランイン">
+<!ENTITY compactDisplay.label                   "コンパクト">
+<!ENTITY listitemDisplay.label                  "リストアイテム">
+<!ENTITY tableDisplay.label                     "テーブル">
+<!ENTITY tablerowDisplay.label                  "テーブル/行">
+<!ENTITY tablecellDisplay.label                 "テーブル/項目">
+<!ENTITY tablecaptionDisplay.label              "テーブル/見出し">
+<!ENTITY inlinetableDisplay.label               "インラインテーブル">
+<!ENTITY tablecolumnDisplay.label               "テーブル/列">
+<!ENTITY tablerowgroupDisplay.label             "テーブル/行グループ">
+<!ENTITY tableheadergroupDisplay.label          "テーブル/ヘッダグループ">
+<!ENTITY tablefootergroupDisplay.label          "テーブル/フッタグループ">
+<!ENTITY tablecolumngroupDisplay.label          "テーブル/列グループ">
+
+<!ENTITY visibility.label                       "表示モード:">
+<!ENTITY visibleVisibility.label                "表示">
+<!ENTITY hiddenVisibility.label                 "非表示">
+<!ENTITY collapseVisibility.label               "collapse">
+
+<!ENTITY float.label                            "浮動表示:">
+<!ENTITY leftFloat.label                        "左">
+<!ENTITY rightFloat.label                       "右">
+<!ENTITY noneFloat.label                        "なし">
+
+<!ENTITY clear.label                            "浮動解除:">
+<!ENTITY noneClear.label                        "なし">
+<!ENTITY leftClear.label                        "左のみ">
+<!ENTITY rightClear.label                       "右のみ">
+<!ENTITY bothClear.label                        "すべて">
 
 
-<!ENTITY listStyleImage.label "リストマーカの画像:">
+<!ENTITY position.label                         "配置:">
+<!ENTITY staticPosition.label                   "通常">
+<!ENTITY fixedPosition.label                    "固定">
+<!ENTITY absolutePosition.label                 "絶対位置">
+<!ENTITY relativePosition.label                 "相対位置">
 
-<!ENTITY listStylePosition.label "リストマーカの位置:">
-<!ENTITY insideListStylePosition.label "リスト項目内">
-<!ENTITY outsideListStylePosition.label "リスト項目外">
+<!ENTITY overflow.label                         "表示あふれ:">
+<!ENTITY visibleOverflow.label                  "通常表示">
+<!ENTITY hiddenOverflow.label                   "非表示">
+<!ENTITY scrollOverflow.label                   "スクロール">
+<!ENTITY autoOverflow.label                     "適当に">
+
+<!ENTITY zIndex.label                           "優先順位 (z-index):">
+
+<!ENTITY width.label                            "幅:">
+<!ENTITY minWidth.label                         "最小幅:">
+<!ENTITY maxWidth.label                         "最大幅:">
+<!ENTITY height.label                           "高さ:">
+<!ENTITY minHeight.label                        "最小高:">
+<!ENTITY maxHeight.label                        "最大高:">
+
+<!ENTITY margins.label                          "余白 (margin):">
+<!ENTITY paddings.label                         "枠内余白 (padding):">
+<!ENTITY offsets.label                          "オフセット:">
+<!ENTITY top.label                              "上:">
+<!ENTITY left.label                             "左:">
+<!ENTITY right.label                            "右:">
+<!ENTITY bottom.label                           "下:">
+
+<!ENTITY volume.label                           "音量:">
+<!ENTITY xsoftVolume.label                      "小さく">
+<!ENTITY softVolume.label                       "やや小さく">
+<!ENTITY mediumVolume.label                     "通常">
+<!ENTITY loudVolume.label                       "やや大きく">
+<!ENTITY xloudVolume.label                      "大きく">
+<!ENTITY muteVolume.label                       "無音">
+
+<!ENTITY speak.label                            "発声モード:">
+<!ENTITY noneSpeak.label                        "再生しない">
+<!ENTITY normalSpeak.label                      "通常">
+<!ENTITY spelloutSpeak.label                    "文字として">
+
+<!ENTITY speechRate.label                       "再生速度:">
+<!ENTITY slowerSpeechRate.label                 "やや遅く">
+<!ENTITY fasterSpeechRate.label                 "やや速く">
+<!ENTITY xslowSpeechRate.label                  "とても遅く">
+<!ENTITY slowSpeechRate.label                   "遅く">
+<!ENTITY mediumSpeechRate.label                 "通常">
+<!ENTITY fastSpeechRate.label                   "速く">
+<!ENTITY xfastSpeechRate.label                  "とても速く">
+
+<!ENTITY opacity.label                          "透明度:">
+
+<!ENTITY compatibilityTab.label                 "互換性">
+
+<!ENTITY transparentOpacity.label               "透明">
+
+<!ENTITY pauseBefore.label                      "前に無音を挿入:">
+<!ENTITY cueBefore.label                        "前に音を挿入:">
+<!ENTITY pauseAfter.label                       "後ろに無音を挿入:">
+<!ENTITY cueAfter.label                         "後ろに音を挿入；">
+
+
+<!ENTITY listTab.label                          "リスト">
+
+<!ENTITY listStyleType.label                    "リストマーカの種類:">
+<!ENTITY noneListStyleType.label                "なし">
+<!ENTITY discListStyleType.label                "黒丸">
+<!ENTITY circleListStyleType.label              "中抜き丸">
+<!ENTITY squareListStyleType.label              "四角">
+<!ENTITY decimalListStyleType.label             "アラビア数字">
+<!ENTITY decimalLeadingZeroListStyleType.label  "アラビア数字 (桁数を揃えて)">
+<!ENTITY lowerRomanListStyleType.label          "ローマ数字 (小文字)">
+<!ENTITY upperRomanListStyleType.label          "ローマ数字 (大文字)">
+<!ENTITY lowerGreekListStyleType.label          "ギリシャ文字 (小文字)">
+<!ENTITY lowerAlphaListStyleType.label          "英小文字">
+<!ENTITY upperAlphaListStyleType.label          "英大文字">
+<!ENTITY armenianListStyleType.label            "アルメニア数字">
+<!ENTITY georgianListStyleType.label            "グルジア数字">
+
+
+<!ENTITY listStyleImage.label                   "リストマーカの画像:">
+<!ENTITY listStylePosition.label                "リストマーカの位置:">
+<!ENTITY insideListStylePosition.label          "リスト項目内">
+<!ENTITY outsideListStylePosition.label         "リスト項目外">
 
 <!-- Kaze: added -->
 <!ENTITY makeCSSRule.label                      "Extract and create generic style">
@@ -236,7 +273,6 @@
 <!ENTITY currentstylesfor.label                 "Current styles for:">
 <!ENTITY renameButton.label                     "Edit selector">
 
-<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
 <!ENTITY autoMarginUnit.label                   "auto">
 <!ENTITY thinBorderUnit.label                   "thin">
 <!ENTITY mediumBorderUnit.label                 "medium">

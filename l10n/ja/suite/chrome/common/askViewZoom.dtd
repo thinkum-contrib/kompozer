@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   Peter Annema <disttsc@bart.nl> (Original Author)
-   -   
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either of the GNU General Public License Version 2 or later (the "GPL"),
@@ -35,5 +34,7 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
+<!-- hopefully this will become view zoom, not just text zoom -->
 <!ENTITY askViewZoom.title "テキストの 拡大/縮小">
 <!ENTITY selectZoom.label "テキストの 拡大/縮小 率 (&#037;) を入力:">

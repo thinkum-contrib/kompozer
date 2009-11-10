@@ -20,13 +20,6 @@
    -
    - Contributor(s):
    -   David P. Drinan (ddrinan@netscape.com)
-   - 
-   - Localizer(s):
-   -   Kazu Yamamoto <kazu@mozilla.gr.jp>
-   -   Ryoichi Furukawa <furu@mozilla.gr.jp>
-   -   Tsukasa Maruyama <mal@mozilla.gr.jp>
-   -   Teiji Matsuba <matsuba@dream.com>
-   -   dynamis
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -42,51 +35,51 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  pref.validation.title			"検証">
+<!ENTITY  pref.validation.title                   "検証">
 
-<!ENTITY  validation.crl.caption		"CRL">
-<!ENTITY  validation.crl.description		"CRL マネージャでは、あなたの証明書データベースに記録された、証明書失効リスト (CRL) を管理します。">
-<!ENTITY  validation.managecrls.button		"CRL マネージャ…">
-<!ENTITY  validation.managecrls.accesskey	"M">
-<!ENTITY  validation.crlmanager.label		"CRL マネージャ"><!-- (^^; これがダイアログ名と解説両方に… -->
-<!ENTITY  validation.crlname.label		"名前">
-<!ENTITY  validation.crllastupdate.label	"最終更新日">
-<!ENTITY  validation.crlnextupdate.label	"次回更新日">
-<!ENTITY  validation.crlautoupdateenabled.label	"自動更新">
-<!ENTITY  validation.crlautoupdatestatus.label	"自動更新状況">
-<!ENTITY  validation.deletecrl.label		"削除">
-<!ENTITY  validation.deletecrl.accesskey	"D">
-<!ENTITY  validation.updatecrl.label		"更新">
-<!ENTITY  validation.updatecrl.accesskey	"U">
-<!ENTITY  validation.advanced.label		"設定">
-<!ENTITY  validation.advanced.accesskey		"S">
+<!ENTITY  validation.crl.caption                  "CRL">
+<!ENTITY  validation.crl.description              "CRL マネージャでは、あなたの証明書データベースに記録された、証明書失効リスト (CRL) を管理します。">
+<!ENTITY  validation.managecrls.button            "CRL マネージャ…">
+<!ENTITY  validation.managecrls.accesskey         "M">
+<!ENTITY  validation.crlmanager.label             "CRL マネージャ">
+<!ENTITY  validation.crlname.label                "名前">
+<!ENTITY  validation.crllastupdate.label          "最終更新日">
+<!ENTITY  validation.crlnextupdate.label          "次回更新日">
+<!ENTITY  validation.crlautoupdateenabled.label   "自動更新">
+<!ENTITY  validation.crlautoupdatestatus.label    "自動更新状況">
+<!ENTITY  validation.deletecrl.label              "削除">
+<!ENTITY  validation.deletecrl.accesskey          "D">
+<!ENTITY  validation.updatecrl.label              "更新">
+<!ENTITY  validation.updatecrl.accesskey          "U">
+<!ENTITY  validation.advanced.label               "設定">
+<!ENTITY  validation.advanced.accesskey           "S">
 
-<!ENTITY  validation.crl.autoupdate.title	"CRL 自動更新の設定">
-<!ENTITY  validation.crl.autoupdate.enable.label "この CRL の自動更新を有効にする">
-<!ENTITY  validation.crl.autoupdate.time.label1	"次回更新日の">
-<!ENTITY  validation.crl.autoupdate.time.label2	"日前に更新する">
-<!ENTITY  validation.crl.autoupdate.freq.label1	"更新間隔を">
-<!ENTITY  validation.crl.autoupdate.freq.label2	"日毎とする">
-<!ENTITY  validation.crl.autoupdate.url.label	"CRL の取得先:">
-<!ENTITY  crl.import.status.title		"CRL 取得状況">
-<!ENTITY  crl.import.success.message		"証明書失効リスト (CRL) が正常に取得、更新されました。">
-<!ENTITY  crl.issuer.label			"CRL 発行者:">
-<!ENTITY  crl.issuer.org.label			"組織: ">
-<!ENTITY  crl.issuer.orgunit.label		"部門: ">
-<!ENTITY  crl.import.nextupdate.label		"次回更新日: ">
-<!ENTITY  crl.autoupdate.fail.cnt.label		"前回の連続更新の失敗: "><!-- (^^; あやしい、未チェック -->
-<!ENTITY  crl.autoupdate.fail.reason.label	"最近の更新失敗の詳細: ">
-<!ENTITY  edit.button				"設定">
+<!ENTITY  validation.crl.autoupdate.title         "CRL 自動更新の設定">
+<!ENTITY  validation.crl.autoupdate.enable.label  "この CRL の自動更新を有効にする">
+<!ENTITY  validation.crl.autoupdate.time.label1   "次回更新日の">
+<!ENTITY  validation.crl.autoupdate.time.label2   "日前に更新する">
+<!ENTITY  validation.crl.autoupdate.freq.label1   "更新間隔を">
+<!ENTITY  validation.crl.autoupdate.freq.label2   "日毎とする">
+<!ENTITY  validation.crl.autoupdate.url.label     "CRL の取得先:">
+<!ENTITY  crl.import.status.title                 "CRL 取得状況">
+<!ENTITY  crl.import.success.message              "証明書失効リスト (CRL) が正常に取得、更新されました。">
+<!ENTITY  crl.issuer.label                        "CRL 発行者:">
+<!ENTITY  crl.issuer.org.label                    "組織: ">
+<!ENTITY  crl.issuer.orgunit.label                "部門: ">
+<!ENTITY  crl.import.nextupdate.label             "次回更新日: ">
+<!ENTITY  crl.autoupdate.fail.cnt.label           "前回の連続更新の失敗: ">
+<!ENTITY  crl.autoupdate.fail.reason.label        "最近の更新失敗の詳細: ">
+<!ENTITY  edit.button                             "設定">
 
-<!ENTITY validation.ocsp.caption		"OCSP">
-<!ENTITY validation.ocsp.description		"OCSP (Online Certificate Status Protocol) はデジタル証明書の有効性をオンラインで検証するためのプロトコルです。OCSP の利用方法を選択してください:">
-<!ENTITY disableOCSP.label			"証明書の検証に OCSP を利用しない">
-<!ENTITY disableOCSP.accesskey			"D">
-<!ENTITY certOCSP.label				"証明書に OCSP サービス URL が記載されている場合にのみ利用する">
-<!ENTITY certOCSP.accesskey			"U">
-<!ENTITY proxyOCSP.label			"次の OCSP レスポンダを利用してすべての証明書を検証する:">
-<!ENTITY proxyOCSP.accesskey			"O">
-<!ENTITY serviceURL.label			"サービス URL:">
-<!ENTITY serviceURL.accesskey			"S">
-<!ENTITY signingCA.label			"レスポンダ:">
-<!ENTITY signingCA.accesskey			"R">
+<!ENTITY validation.ocsp.caption                  "OCSP">
+<!ENTITY validation.ocsp.description              "OCSP (Online Certificate Status Protocol) はデジタル証明書の有効性をオンラインで検証するためのプロトコルです。OCSP の利用方法を選択してください:">
+<!ENTITY disableOCSP.label                        "証明書の検証に OCSP を利用しない">
+<!ENTITY disableOCSP.accesskey                    "O">
+<!ENTITY certOCSP.label                           "証明書に OCSP サービス URL が記載されている場合にのみ利用する">
+<!ENTITY certOCSP.accesskey                       "U">
+<!ENTITY proxyOCSP.label                          "次の OCSP レスポンダを利用してすべての証明書を検証する:">
+<!ENTITY proxyOCSP.accesskey                      "O">
+<!ENTITY serviceURL.label                         "サービス URL:">
+<!ENTITY serviceURL.accesskey                     "U">
+<!ENTITY signingCA.label                          "レスポンダ:">
+<!ENTITY signingCA.accesskey                      "R">

@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "外部アプリケーション">
+
+<!ENTITY application.label            "アプリケーション:">
+<!ENTITY webBrowser.label             "Webブラウザ">
+<!ENTITY textEditor.label             "テキストエディタ">
+<!ENTITY imageEditor.label            "画像エディタ">
+<!ENTITY mediaPlayer.label            "メディアプレーヤー">
+<!ENTITY fileManager.label            "ファイルマネージャ">
+<!ENTITY ftpClient.label              "FTPクライアント">
+
+<!ENTITY useSystemHelper.label        "デフォルトの使用システム">
+<!ENTITY useCustomHelper.label        "使用するカスタムアプリケーション:">
+<!ENTITY path.label                   "ファイルパス">
+<!ENTITY arguments.label              "引数">
+<!ENTITY filePicker.tooltip           "ファイルを選択…">
+
+<!ENTITY fileFilter.label             "ファイル拡張子（*）:">
+<!ENTITY default.label                "初期設定値">
+<!ENTITY needToRestart.label          "(*) KompoZerが再起動されると、これらの設定変更が有効となります.">
+

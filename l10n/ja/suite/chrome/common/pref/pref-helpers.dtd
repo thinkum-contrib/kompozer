@@ -1,40 +1,78 @@
-<!ENTITY helpers.label "詳細設定">
-<!ENTITY useSystemBrowser.label "システム設定を使用する">
-<!ENTITY userDefinedBrower.label "ユーザ設定">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc..
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY cmdLine.label "コマンドライン">
-<!ENTITY hints.label "URLを表すものとして '$s' を用いることが出来ます。例：">
-<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+<!ENTITY helpers.label                 "詳細設定">
+<!ENTITY useSystemBrowser.label        "システム設定を使用する">
+<!ENTITY userDefinedBrower.label       "ユーザ設定">
 
-<!ENTITY imageEditor.label "画像エディタ">
+<!ENTITY cmdLine.label                 "コマンドライン">
+<!ENTITY hints.label                   "URLを表すものとして '$s' を用いることが出来ます。例：">
+<!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
 
-<!ENTITY connection.label "プロキシ設定">
-<!ENTITY connectionDescription.label "インターネット接続時に用いるプロキシの設定です。">
-<!ENTITY connectionButton.label "プロキシ設定">
-<!ENTITY connectionbutton.accesskey "n">
+<!ENTITY imageEditor.label             "画像エディタ">
 
-<!ENTITY carriageReturns.label "Enterキーの挙動">
-<!ENTITY crInPCreatesNewP.label "段落中でEnterキーを押すと、必ず新しい段落を作成する">
+<!ENTITY connection.label              "プロキシ設定">
+<!ENTITY connectionDescription.label   "インターネット接続時に用いるプロキシの設定です。">
+<!ENTITY connectionButton.label        "プロキシ設定">
+<!ENTITY connectionbutton.accesskey    "n">
 
-<!ENTITY specialChars.label "特殊な文字の扱い">
-<!ENTITY specialChars.description "特定の文字を実体参照として出力する。">
-<!ENTITY basicEncoding.label "&amp; &lt; &gt; nbsp">
-<!ENTITY latin1EntitiesEncoding.label "&amp; &lt; &gt; nbsp 及び拡張ラテン文字 (ウムラウト付きなど)">
-<!ENTITY htmlEntitiesEncoding.label "HTML 4の特殊文字">
-<!ENTITY allEntitiesEncoding.label "非ASCII文字をすべて数値文字参照として">
+<!ENTITY carriageReturns.label         "Enterキーの挙動">
+<!ENTITY crInPCreatesNewP.label        "段落中でEnterキーを押すと、必ず新しい段落を作成する">
 
-<!ENTITY realtimeSpellCheck.label "入力中に綴りをチェックする">
+<!ENTITY specialChars.label            "特殊な文字の扱い">
+<!ENTITY specialChars.description      "特定の文字を実体参照として出力する。">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
+<!ENTITY basicEncoding.label           "&amp; &lt; &gt; nbsp">
+<!ENTITY latin1EntitiesEncoding.label  "&amp; &lt; &gt; nbsp 及び拡張ラテン文字 (ウムラウト付きなど)">
+<!ENTITY htmlEntitiesEncoding.label    "HTML 4の特殊文字">
+<!ENTITY allEntitiesEncoding.label     "非ASCII文字をすべて数値文字参照として">
 
-<!ENTITY spellCheckRealTime.label "綴りが間違っている語に下線を引く">
-<!ENTITY spellCheckRealTime.accesskey "u">
+<!ENTITY realtimeSpellCheck.label      "入力中に綴りをチェックする">
 
-<!ENTITY dialect.label "マークアップ形式">
-<!ENTITY markupLanguage.label "言語:">
-<!ENTITY dtd.label "DTD:">
-<!ENTITY htmlMarkupLanguage.label "HTML 4">
-<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">
-<!ENTITY looseDTD.label "Transitional">
-<!ENTITY strictDTD.label "Strict">
+<!ENTITY spellCheckRealTime.label      "綴りが間違っている語に下線を引く">
+<!ENTITY spellCheckRealTime.accesskey  "u">
 
-<!ENTITY noGTEncoding.label "属性値以外で現れた '&gt;' を実体参照に変換しない">
-<!ENTITY noEscaping.label "属性値に記述された特殊な文字を実体参照に変換しない">
+<!ENTITY dialect.label                 "マークアップ形式">
+<!ENTITY markupLanguage.label          "言語:">
+<!ENTITY dtd.label                     "DTD:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "Transitional">
+<!ENTITY strictDTD.label               "Strict">
+
+<!ENTITY noGTEncoding.label            "属性値以外で現れた '&gt;' を実体参照に変換しない">
+<!ENTITY noEscaping.label              "属性値に記述された特殊な文字を実体参照に変換しない">

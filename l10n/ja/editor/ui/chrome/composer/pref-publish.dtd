@@ -1,15 +1,19 @@
-<!ENTITY window.title "公開">
-<!ENTITY composerHeader.label "公開">
-<!ENTITY maintainCheckbox.label "リンクのメンテナンス">
-<!ENTITY keepCheck.label "ページの画像をそのままにする">
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY  window.title "公開">
+<!ENTITY  composerHeader.label "公開">
+<!ENTITY  maintainCheckbox.label "リンクのメンテナンス">
+<!ENTITY  keepCheck.label "ページの画像をそのままにする">
+
 <!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
 <!ENTITY  adjustDesc.label "ページが置かれる場所に合わせてリンクを修正する (ローカルに置かれたページがあれば、リンクが機能します)">
-<!--ENTITY adjustDesc.label "Adjust links to work from the page's location. (Links to local pages will work when
-			      local versions exist.)           "-->
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
 <!ENTITY  saveDesc.label "ページが置かれる場所に画像も保存する (公開後だけでなく、ローカルに置かれたページを表示する時でも画像も表示されます)">
-<!--ENTITY saveDesc.label "Save copies of images to the page's location.  Images will always
-				appear in local versions of the page and when the page is published."-->
-<!ENTITY tip.label "メモ：リモート公開を利用するときは、両者にチェックを入れてください。">
+<!ENTITY  tip.label "メモ：リモート公開を利用するときは、両者にチェックを入れてください。">
 <!ENTITY defaultHeader.label  "標準の公開場所">
-<!ENTITY publishFtp.label "FTPサイトに公開するとき、表示時に利用する、対応したHTTPアドレス:">
-<!ENTITY publishhtp.label "FTPサイトに公開するとき、表示時に利用する、対応したHTTPアドレス:">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY  publishFtp.label "FTPサイトに公開するとき、表示時に利用する、対応したHTTPアドレス:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "FTPサイトに公開するとき、表示時に利用する、対応したHTTPアドレス:">
+

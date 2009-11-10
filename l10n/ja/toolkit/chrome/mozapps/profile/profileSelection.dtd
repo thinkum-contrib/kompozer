@@ -24,9 +24,6 @@
  Contributor(s):
    Ben Goodger (28/10/99)
 
- Localizer(s):
-   dynamis
-
  Alternatively, the contents of this file may be used under the terms of
  either the GNU General Public License Version 2 or later (the "GPL"), or
  the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
@@ -41,28 +38,27 @@
 
  ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowtitle.label	"&brandShortName; - ユーザプロファイルの選択">
+<!ENTITY            windowtitle.label      "&brandShortName; - ユーザプロファイルの選択">
 
-<!ENTITY profilename.label	"プロファイル名:">
+<!ENTITY            profilename.label      "プロファイル名:">
 
-<!ENTITY start.label		"&brandShortName; を起動">
-<!ENTITY exit.label		"終了">
+<!ENTITY            start.label            "&brandShortName; を起動">
+<!ENTITY            exit.label             "終了">
 
-<!ENTITY availprofiles.label	"プロファイル一覧">
+<!ENTITY            availprofiles.label    "プロファイル一覧">
 
-
-<!ENTITY newButton.label	"新しいプロファイルを作成…">
-<!ENTITY newButton.accesskey	"C">
-<!ENTITY renameButton.label	"プロファイル名を変更…">
-<!ENTITY renameButton.accesskey	"R">
-<!ENTITY deleteButton.label	"プロファイルを削除…">
-<!ENTITY deleteButton.accesskey	"D">
+<!ENTITY            newButton.label        "新しいプロファイルを作成…">
+<!ENTITY            newButton.accesskey    "C">
+<!ENTITY            renameButton.label     "プロファイル名を変更…">
+<!ENTITY            renameButton.accesskey "R">
+<!ENTITY            deleteButton.label     "プロファイルを削除…">
+<!ENTITY            deleteButton.accesskey "D">
 
 <!-- manager entities -->
-<!ENTITY pmDescription.label	"ユーザの設定やデータなどはユーザプロファイルに保存されます。">
+<!ENTITY            pmDescription.label    "ユーザの設定やデータなどはユーザプロファイルに保存されます。">
 
-<!ENTITY offlineState.label	"オフライン作業">
-<!ENTITY offlineState.accesskey	"o">
+<!ENTITY            offlineState.label    "オフライン作業">
+<!ENTITY            offlineState.accesskey "o">
 
-<!ENTITY autoSelect.label	"今後このプロファイルを使用する">
-<!ENTITY autoSelect.accesskey	"s">
+<!ENTITY            autoSelect.label       "今後このプロファイルを使用する">
+<!ENTITY            autoSelect.accesskey   "s">

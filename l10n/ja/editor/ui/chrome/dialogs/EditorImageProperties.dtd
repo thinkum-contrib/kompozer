@@ -1,8 +1,34 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
 <!ENTITY windowTitle.label "画像のプロパティ">
 
 <!ENTITY pixelsPopup.value "ピクセル">
 <!ENTITY percentPopup.value "％">
 
+<!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "画像のURI">
 <!ENTITY locationEditField.accessKey "L">
 <!ENTITY locationEditField.tooltip "画像のファイル名、URIを入力">
@@ -18,6 +44,8 @@
 <!ENTITY previewBox.label "画像のプレビュー">
 <!ENTITY MoreFewerButton.tooltip "簡略・詳細表示の切り替え">
 
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "実際の大きさ">
 <!ENTITY actualSizeRadio.label "実際の大きさ">
 <!ENTITY actualSizeRadio.accessKey "A">
@@ -33,12 +61,14 @@
 <!ENTITY constrainCheckbox.accessKey "C">
 <!ENTITY constrainCheckbox.tooltip "画像の縦横比を保存します">
 
+<!-- These controls are in the Image Map box of the expanded area -->
 <!ENTITY imagemapBox.label "イメージマップ">
 <!ENTITY removeImageMapButton.label "削除">
 <!ENTITY removeImageMapButton.accessKey "R">
 <!ENTITY editImageMapButton.label "編集…">
 <!ENTITY editImageMapButton.tooltip "クリック可能なスポットを作成">
 
+<!-- These are the options for image alignment -->
 <!ENTITY alignment.label "画像に対する文章の配置">
 <!ENTITY bottomPopup.value "下に揃える">
 <!ENTITY topPopup.value "上に揃える">
@@ -46,6 +76,7 @@
 <!ENTITY wrapRightPopup.value "右に回りこむ">
 <!ENTITY wrapLeftPopup.value "左に回りこむ">
 
+<!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "余白">
 <!ENTITY spacingBox.tooltip "画像の余白を指定">
 <!ENTITY leftRightEditField.label "左右">
@@ -55,14 +86,17 @@
 <!ENTITY borderEditField.label "輪郭線:">
 <!ENTITY borderEditField.accessKey "B">
 
+<!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "リンクされた画像に輪郭線を描画する">
 <!ENTITY showImageLinkBorder.accessKey "B">
 
+<!-- These controls may be added some day; currently not used -->
 <!ENTITY makePageBackgroundCheckbox.label "ページの背景画像にする">
 <!ENTITY makePageBackgroundCheckbox.tooltip "ページの背景画像に設定">
 <!ENTITY editImageButton.label "画像を編集">
 <!ENTITY editImageButton.tooltip "画像エディタを起動">
 
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "フォーム">
 <!ENTITY imageLocationTab.label "URI">
 <!ENTITY imageDimensionsTab.label "大きさ">

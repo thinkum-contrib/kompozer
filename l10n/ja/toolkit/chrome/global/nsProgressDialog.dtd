@@ -22,10 +22,6 @@
    -   Bill Law       <law@netscape.com>
    -   Aaron Kaluszka <ask@swva.net>
    -
-   - Localizer(s):
-   -   Teiji Matsuba <matsuba@dream.com>
-   -   dynamis
-   -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
    - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
@@ -45,44 +41,44 @@
 -->
 
 <!-- This is used prior to initializing with a proper title -->
-<!ENTITY defaultTitle		"保存しています">
+<!ENTITY defaultTitle     "保存しています">
 
 <!-- These are used when saving -->
-<!ENTITY savingTitle		"#2&#037; / #1 保存"> 
-<!ENTITY savingSource		"保存元:"> 
-<!ENTITY savingTarget		"保存先:"> 
+<!ENTITY savingTitle      "#2&#037; / #1 保存"> 
+<!ENTITY savingSource     "保存元:"> 
+<!ENTITY savingTarget     "保存先:"> 
 
 <!-- These are used when opening (with an application) -->
-<!ENTITY openingTitle		"#2&#037; / #1 完了">
-<!ENTITY openingSource		"実行ファイルの元:">
-<!ENTITY openingTarget		"実行ファイル:">
+<!ENTITY openingTitle      "#2&#037; / #1 完了">
+<!ENTITY openingSource     "実行ファイルの元:">
+<!ENTITY openingTarget     "実行ファイル:">
 
 <!-- This is used when the download percentage is unknown -->
-<!ENTITY unknownSavingTitle	"#1 を保存しています">
-<!ENTITY unknownOpeningTitle	"#1 を開いています">
+<!ENTITY unknownSavingTitle  "#1 を保存しています">
+<!ENTITY unknownOpeningTitle "#1 を開いています">
 
 <!-- Labels on other fields -->
-<!ENTITY status			"状況:"> 
-<!ENTITY timeElapsed		"経過時間:">
-<!ENTITY timeLeft		"残り時間:">
-<!ENTITY progress		"ダウンロードしています:">
+<!ENTITY status      "状況:"> 
+<!ENTITY timeElapsed "経過時間:">
+<!ENTITY timeLeft    "残り時間:">
+<!ENTITY progress    "ダウンロードしています:">
 
-<!-- Label for the		"keep dialog" checkbox -->
-<!ENTITY keep			"ダウンロードが終了した後も、このウィンドウを開いたままにする">
+<!-- Label for the "keep dialog" checkbox -->
+<!ENTITY keep "ダウンロードが終了した後も、このウィンドウを開いたままにする">
 
 <!-- Button labels -->
-<!ENTITY cancel			"キャンセル"> 
-<!ENTITY pause			"中断">
-<!ENTITY resume			"再開">
-<!ENTITY close			"閉じる">
-<!ENTITY reveal			"ファイルの場所を表示">
-<!ENTITY launch			"ファイルを実行">
+<!ENTITY cancel "キャンセル"> 
+<!ENTITY pause  "中断">
+<!ENTITY resume "再開">
+<!ENTITY close  "閉じる">
+<!ENTITY reveal "ファイルの場所を表示">
+<!ENTITY launch "ファイルを実行">
 
 <!-- Status/progress messages -->
 
 <!-- LOCALIZATION NOTE (pausedMsg):
     This string is used to indicate that the download is paused -->
-<!ENTITY pausedMsg		"ダウンロード一時中断">
+<!ENTITY pausedMsg "ダウンロード一時中断">
 
 <!-- LOCALIZATION NOTE (progressMsg):
 
@@ -92,12 +88,12 @@
     #1 will be replaced by the number of bytes downloaded thus far
     #2 will be replaced by the total number of bytes to be downloaded
     #3 will be replaced by the download rate (in KB per second) -->
-<!ENTITY progressMsg		"#1KB / #2KB (#3KB/秒)">
+<!ENTITY progressMsg "#1KB / #2KB (#3KB/秒)">
 
 <!-- LOCALIZATION NOTE (unknownTime):
     
     This string is used when the time remaining is unknown. -->
-<!ENTITY unknownTime		"不明">
+<!ENTITY unknownTime "不明">
 
 <!-- LOCALIZATION NOTE (longTimeFormat):
 
@@ -107,7 +103,7 @@
     #1 will be replaced by the number of hours
     #2 will be replaced by the number of minutes
     #3 will be replaced by the number of seconds -->
-<!ENTITY longTimeFormat		"#1:#2:#3">
+<!ENTITY longTimeFormat "#1:#2:#3">
 
 <!-- LOCALIZATION NOTE (shortTimeFormat):
 
@@ -118,7 +114,7 @@
     #1 will be replaced by the number of hours
     #2 will be replaced by the number of minutes
     #3 will be replaced by the number of seconds -->
-<!ENTITY shortTimeFormat	"#2:#3">
+<!ENTITY shortTimeFormat "#2:#3">
 
 <!-- LOCALIZATION NOTE (completeMsg):
 
@@ -129,7 +125,7 @@
 
     #1 will be replaced by the elapsed time
     #2 will be replaced by the size of the file in Kilobytes -->
-<!ENTITY completeMsg		"完了 － サイズ： #2 KB (経過時間： #1)">
+<!ENTITY completeMsg "完了 － サイズ： #2 KB (経過時間： #1)">
 
 <!-- LOCALIZATION NOTE (percentMsg):
 
@@ -137,4 +133,4 @@
     meter.
 
     #1 will be replaced by the percentage of the file that has been saved -->
-<!ENTITY percentMsg		"#1&#037;">
+<!ENTITY percentMsg "#1&#037;">

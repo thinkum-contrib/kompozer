@@ -1,25 +1,25 @@
-<!ENTITY license.part0			"is copyright">
-<!ENTITY license.part1			"by its">
-<!ENTITY license.contrib		"contributors">
-<!ENTITY license.part2			"according to terms set out in the">
-<!ENTITY license.part3			"document. All Rights Reserved.">
+<!ENTITY license.part0     "is copyright">
+<!ENTITY license.part1     "by its">
+<!ENTITY license.contrib   "contributors">
+<!ENTITY license.part2     "according to terms set out in the">
+<!ENTITY license.part3     "document. All Rights Reserved.">
 
-<!ENTITY about.version			"version">
+<!ENTITY about.version                "version">
 
-<!ENTITY about.copy.beforeLink		"Copyright &copy; 1998-2006 by">
-<!ENTITY about.copy.linkTitle		"contributors">
-<!ENTITY about.copy.afterLink		"to the Mozilla Project.">
+<!ENTITY about.copy.beforeLink        "Copyright &copy; 1998-2006 by">
+<!ENTITY about.copy.linkTitle         "contributors">
+<!ENTITY about.copy.afterLink         "to the Mozilla Project.">
 
-<!ENTITY about.license.beforeLink	"">
-<!ENTITY about.license.linkTitle	"この製品のライセンス情報"><!-- (^^; 前後に勝手に空白はいるので注意 -->
-<!ENTITY about.license.afterLink	"">
+<!ENTITY about.license.beforeLink     "読む">
+<!ENTITY about.license.linkTitle      "この製品のライセンス情報">
+<!ENTITY about.license.afterLink      "この製品について.">
 
-<!ENTITY about.relnotes.beforeLink	"">
-<!ENTITY about.relnotes.linkTitle	"このバージョンのリリースノート"><!-- (^^; 同上 -->
-<!ENTITY about.relnotes.afterLink	"">
+<!ENTITY about.relnotes.beforeLink    "読む">
+<!ENTITY about.relnotes.linkTitle     "このバージョンのリリースノート">
+<!ENTITY about.relnotes.afterLink     "このバージョンために.">
 
-<!ENTITY about.buildconfig.beforeLink	"">
-<!ENTITY about.buildconfig.linkTitle	"このバージョンのビルド設定"><!-- (^^; 同上 -->
-<!ENTITY about.buildconfig.afterLink	"">
+<!ENTITY about.buildconfig.beforeLink "参照してください">
+<!ENTITY about.buildconfig.linkTitle  "このバージョンのビルド設定">
+<!ENTITY about.buildconfig.afterLink  "このパージョンで使用されます.">
 
-<!ENTITY about.buildIdentifier		"ビルド ID: ">
+<!ENTITY about.buildIdentifier        "ビルド ID: ">

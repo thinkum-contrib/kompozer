@@ -22,13 +22,6 @@
    -   Bob Lord <lord@netscape.com>
    -   Terry Hayes <thayes@netscape.com>
    -
-   - Localizer(s):
-   -   Kazu Yamamoto <kazu@mozilla.gr.jp>
-   -   Ryoichi Furukawa <furu@mozilla.gr.jp>
-   -   Tsukasa Maruyama <mal@mozilla.gr.jp>
-   -   Teiji Matsuba <matsuba@dream.com>
-   -   dynamis
-   -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
    - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
@@ -43,18 +36,18 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  resetsettings.label		"設定のリセット">
-<!ENTITY  resetpreferences.label	"設定のリセット…">
-<!ENTITY  managecerts.caption		"証明書マネージャ">
-<!ENTITY  managecerts.text		"証明書マネージャでは、あなたの個人証明書の他、他の人や認証局の識別に利用する証明書を管理します。">
-<!ENTITY  managecerts.button		"証明書マネージャ…">
-<!ENTITY  managecerts.accesskey		"M">
-<!ENTITY  managedevices.caption		"セキュリティデバイスの管理">
-<!ENTITY  managedevices.text		"セキュリティマネージャでは、スマートカードなどのセキュリティデバイスを管理します。">
-<!ENTITY  managedevices.button		"セキュリティデバイスマネージャ…">
-<!ENTITY  managedevices.accesskey	"S">
+<!ENTITY  resetsettings.label      "設定のリセット">
+<!ENTITY  resetpreferences.label   "設定のリセット…">
+<!ENTITY  managecerts.caption      "証明書マネージャ">
+<!ENTITY  managecerts.text         "証明書マネージャでは、あなたの個人証明書の他、他の人や認証局の識別に利用する証明書を管理します。">
+<!ENTITY  managecerts.button       "証明書マネージャ…">
+<!ENTITY  managecerts.accesskey    "M">
+<!ENTITY  managedevices.caption    "セキュリティデバイスの管理">
+<!ENTITY  managedevices.text       "セキュリティマネージャでは、スマートカードなどのセキュリティデバイスを管理します。">
+<!ENTITY  managedevices.button     "セキュリティデバイスマネージャ…">
+<!ENTITY  managedevices.accesskey  "S">
 
-<!ENTITY  ssl.label			"SSL">
+<!ENTITY  ssl.label                "SSL">
 
-<!ENTITY  pref.certs.title		"証明書">
-<!ENTITY  certs.label			"証明書">
+<!ENTITY  pref.certs.title         "証明書">
+<!ENTITY  certs.label              "証明書">
