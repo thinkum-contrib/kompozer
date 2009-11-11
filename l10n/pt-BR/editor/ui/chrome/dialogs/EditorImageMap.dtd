@@ -1,48 +1,89 @@
-<!ENTITY about.accesskey "b">
-<!ENTITY aboutCmd.label "Sobre">
-<!ENTITY apercentCmd.label "100">
-<!ENTITY bpercentCmd.label "200">
-<!ENTITY clear.accesskey "d">
-<!ENTITY clearCmd.label "Limpar">
-<!ENTITY close.accesskey "F">
-<!ENTITY closeCmd.label "Fechar">
-<!ENTITY contrast.accesskey "n">
-<!ENTITY contrastCmd.label "Contraste">
-<!ENTITY copy.accesskey "C">
-<!ENTITY copyCmd.label "Copiar">
-<!ENTITY cpercentCmd.label "400">
-<!ENTITY cut.accesskey "t">
-<!ENTITY cutCmd.label "Recortar">
-<!ENTITY delSpotCmd.label "Excluir spot">
-<!ENTITY mapeditMenu.label "Editar">
-<!ENTITY mapeditcopy.accesskey "c">
-<!ENTITY mapeditcut.accesskey "t">
-<!ENTITY mapeditmenu.accesskey "E">
-<!ENTITY mapeditpaste.accesskey "p">
-<!ENTITY mapeditprops.accesskey "h">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Dan Haddix (dan6992@hotmail.com)
+   -   Brian King (briano9@yahoo.com)
+  -->
+
+<!-- These strings are for use specifically in the editor's image map dialog. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Editor de mapa de imagem">
+
+<!-- Menu Items -->
+<!-- File menu -->
 <!ENTITY mapfileMenu.label "Arquivo">
-<!ENTITY mapfileclear.accesskey "a">
-<!ENTITY mapfileclose.accesskey "F">
 <!ENTITY mapfilemenu.accesskey "A">
+<!ENTITY clearCmd.label "Limpar">
+<!ENTITY mapfileclear.accesskey "a">
+<!ENTITY closeCmd.label "Fechar">
+<!ENTITY mapfileclose.accesskey "F">
+
+<!-- Edit menu -->
+<!ENTITY mapeditMenu.label "Editar">
+<!ENTITY mapeditmenu.accesskey "E">
+<!ENTITY cutCmd.label "Recortar">
+<!ENTITY mapeditcut.accesskey "t">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY mapeditcopy.accesskey "c">
+<!ENTITY pasteCmd.label "Colar">
+<!ENTITY mapeditpaste.accesskey "p">
+<!ENTITY selectallCmd.label "Selecionar tudo">
+<!ENTITY mapselectall.accesskey "s">
+<!ENTITY propsCmd.label "Propriedades do link">
+<!ENTITY mapeditprops.accesskey "h">
+
+<!-- View menu -->
+<!ENTITY mapviewMenu.label "Exibir">
+<!ENTITY mapviewmenu.accesskey "x">
+<!ENTITY showhideTbarCmd.label "Ocultar barra de ferramentas">
+<!ENTITY mapviewtbar.accesskey "t">
+<!-- Scaling -->
+<!ENTITY mapviewScale.label "Escala">
+<!ENTITY mapviewscale.accesskey "s">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY zoomthree.accesskey "4">
+<!-- end scaling-->
+<!ENTITY contrastCmd.label "Contraste">
+<!ENTITY contrast.accesskey "n">
+
+<!-- Help menu -->
 <!ENTITY maphelpMenu.label "Ajuda">
 <!ENTITY maphelpmenu.accesskey "u">
-<!ENTITY mapselectall.accesskey "s">
-<!ENTITY mapviewMenu.label "Exibir">
-<!ENTITY mapviewScale.label "Escala">
-<!ENTITY mapviewmenu.accesskey "x">
-<!ENTITY mapviewscale.accesskey "s">
-<!ENTITY mapviewtbar.accesskey "t">
-<!ENTITY paste.accesskey "o">
-<!ENTITY pasteCmd.label "Colar">
-<!ENTITY props.accesskey "p">
-<!ENTITY propsCmd.label "Propriedades do link">
-<!ENTITY selectall.accesskey "S">
-<!ENTITY selectallCmd.label "Selecionar tudo">
-<!ENTITY showhideTbarCmd.label "Ocultar barra de ferramentas">
-<!ENTITY tbar.accesskey "t">
-<!ENTITY windowTitle.label "Editor de mapa de imagem">
+<!ENTITY aboutCmd.label "Sobre">
+<!ENTITY about.accesskey "b">
+
 <!ENTITY zoominCmd.label "Aumentar o zoom">
-<!ENTITY zoomone.accesskey "1">
 <!ENTITY zoomoutCmd.label "Diminuir o zoom">
-<!ENTITY zoomthree.accesskey "4">
-<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY delSpotCmd.label "Excluir spot">
+
+<!-- Keys -->
+<!ENTITY clear.accesskey "d">
+<!ENTITY selectall.accesskey "S">
+<!ENTITY close.accesskey "F">
+<!ENTITY cut.accesskey "t">
+<!ENTITY copy.accesskey "C">
+<!ENTITY paste.accesskey "o">
+<!ENTITY props.accesskey "p">
+<!ENTITY tbar.accesskey "t">

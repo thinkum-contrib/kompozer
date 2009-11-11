@@ -1,4 +1,7 @@
-<!ENTITY editLinkCmd.accesskey "k">
-<!ENTITY editLinkCmd.label "Editar link no Kompozer">
-<!ENTITY editPageCmd.accesskey "t">
-<!ENTITY editPageCmd.label "Editar página no Kompozer">
+
+<!ENTITY editPageCmd.label                "Editar página no Kompozer"> 
+<!ENTITY editPageCmd.accesskey            "t">
+
+<!ENTITY editLinkCmd.label                "Editar link no Kompozer">
+<!ENTITY editLinkCmd.accesskey            "k">
+

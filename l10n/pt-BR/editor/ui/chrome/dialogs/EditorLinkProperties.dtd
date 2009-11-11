@@ -1,37 +1,83 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY windowTitle.label "Propriedades do link">
 <!ENTITY LinkURLBox.label "Endereço do link">
 <!ENTITY XFNbox.label "Relacionamento">
+
+<!ENTITY me.label "O destino do link é um outro endereço meu">
+
+<!ENTITY friendship.label "Amizade">
 <!ENTITY acquaintance.label "conhecido">
-<!ENTITY blankRadio.label "em nova janela">
-<!ENTITY child.label "filho(a)">
-<!ENTITY coResident.label "co-residente">
+<!ENTITY friend.label "amigo">
+<!ENTITY contact.label "contato">
+<!ENTITY none.label "nenhum">
+
+<!ENTITY physical.label "Physical">
+<!ENTITY met.label "met">
+
+<!ENTITY professional.label "Profissional">
 <!ENTITY coWorker.label "colega de trabalho">
 <!ENTITY colleague.label "colega">
-<!ENTITY contact.label "contato">
-<!ENTITY crush.label "paixão">
-<!ENTITY date.label "namorado">
-<!ENTITY family.label "Família">
-<!ENTITY friend.label "amigo">
-<!ENTITY friendship.label "Amizade">
+
 <!ENTITY geographical.label "Geografia">
-<!ENTITY kin.label "parente">
-<!ENTITY me.label "O destino do link é um outro endereço meu">
-<!ENTITY met.label "met">
-<!ENTITY muse.label "musa">
+<!ENTITY coResident.label "co-residente">
 <!ENTITY neighbor.label "vizinho">
-<!ENTITY none.label "nenhum">
+
+<!ENTITY family.label "Família">
+<!ENTITY child.label "filho(a)">
 <!ENTITY parent.label "pai/mãe">
-<!ENTITY parentRadio.label "no quadro principal">
-<!ENTITY physical.label "Physical">
-<!ENTITY professional.label "Profissional">
-<!ENTITY romantic.label "Romance">
-<!ENTITY selfRadio.label "no quadro atual">
 <!ENTITY sibling.label "irmão(a)">
 <!ENTITY spouse.label "esposo(a)">
+<!ENTITY kin.label "parente">
+
+<!ENTITY romantic.label "Romance">
+<!ENTITY muse.label "musa">
+<!ENTITY crush.label "paixão">
+<!ENTITY date.label "namorado">
 <!ENTITY sweetheart.label "paquera">
+
 <!ENTITY targetBox.label "Destino">
+<!ENTITY userDefinedTarget.label "O link é para ser aberto">
+<!ENTITY topRadio.label "na mesma janela, descartando todos os quadros">
+<!ENTITY blankRadio.label "em nova janela">
+<!ENTITY parentRadio.label "no quadro principal">
+<!ENTITY selfRadio.label "no quadro atual">
+<!ENTITY userDefinedRadio.label "neste quadro:">
+
 <!ENTITY technoratiTag.label "Technorati tags">
 <!ENTITY technoratiTagCheckbox.label "This is a Technorati tag">
-<!ENTITY topRadio.label "na mesma janela, descartando todos os quadros">
-<!ENTITY userDefinedRadio.label "neste quadro:">
-<!ENTITY userDefinedTarget.label "O link é para ser aberto">
-<!ENTITY windowTitle.label "Propriedades do link">

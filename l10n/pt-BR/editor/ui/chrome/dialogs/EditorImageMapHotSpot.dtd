@@ -1,13 +1,43 @@
-<!ENTITY altFieldset.label "Texto alternativo">
-<!ENTITY browseButton.label "Arquivo…">
-<!ENTITY commonFieldset.label "Destinos comuns:">
-<!ENTITY link.label "Hotspot Link">
-<!ENTITY new.value "Nova janela">
-<!ENTITY none.value "(nenhum)">
-<!ENTITY parent.value "Quadro de origem">
-<!ENTITY same.value "Mesmo quadro">
-<!ENTITY target.label "Destino do link">
-<!ENTITY targetFieldset.label "Configurações do link de destino">
-<!ENTITY urlFieldset.label "URL de destino:">
-<!ENTITY whole.value "Toda a página">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Dan Haddix (dan6992@hotmail.com)
+   -   Brian King (briano9@yahoo.com)
+  -->
+
+<!-- Window title -->
+
 <!ENTITY windowTitle.label "Propriedades do link">
+
+<!ENTITY link.label				"Hotspot Link">
+<!ENTITY urlFieldset.label		"URL de destino:">
+<!ENTITY altFieldset.label		"Texto alternativo">
+<!ENTITY browseButton.label		"Arquivo…">
+<!ENTITY targetFieldset.label	"Configurações do link de destino">
+<!ENTITY target.label			"Destino do link">
+
+<!-- Targets -->
+<!ENTITY commonFieldset.label	"Destinos comuns:">
+<!ENTITY none.value				"(nenhum)">
+<!ENTITY same.value				"Mesmo quadro">
+<!ENTITY whole.value			"Toda a página">
+<!ENTITY new.value				"Nova janela">
+<!ENTITY parent.value			"Quadro de origem">
+

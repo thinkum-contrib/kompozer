@@ -20,7 +20,6 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Jeferson Hultmann <hultmann@gmail.com> (pt-BR l10n)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -45,17 +44,17 @@
 <!ENTITY all.label          "Tudo">
 <!ENTITY all.accesskey      "T">
 <!ENTITY errors.label       "Erros">
-<!ENTITY errors.accesskey   "e">
+<!ENTITY errors.accesskey   "E">
 <!ENTITY warnings.label     "Alertas">
 <!ENTITY warnings.accesskey "A">
 <!ENTITY messages.label     "Mensagens">
-<!ENTITY messages.accesskey "m">
+<!ENTITY messages.accesskey "M">
 <!ENTITY clear.label        "Limpar">
 <!ENTITY clear.accesskey    "L">
 <!ENTITY evaluate.label     "Executar">
 
 <!ENTITY copyCmd.label       "Copiar">  
-<!ENTITY copyCmd.accesskey   "c"> 
+<!ENTITY copyCmd.accesskey   "C"> 
 <!ENTITY copyCmd.commandkey  "c"> 
 <!ENTITY sortFirst.label     "Ordenar Primeiro > Último">
 <!ENTITY sortFirst.accesskey "P">

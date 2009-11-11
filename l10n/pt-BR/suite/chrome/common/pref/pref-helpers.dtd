@@ -1,31 +1,78 @@
-<!ENTITY allEntitiesEncoding.label "Usar a notação &amp;#..; em caracteres que não são ASCII">
-<!ENTITY basicEncoding.label "Somente &amp; &lt; &gt; ' e non-breakable whitespace">
-<!ENTITY carriageReturns.label "Comportamento da tecla ENTER">
-<!ENTITY cmdLine.label "Linha de comando:">
-<!ENTITY connection.label "Conexão">
-<!ENTITY connectionButton.label "Proxy…">
-<!ENTITY connectionDescription.label "Definir proxies de acesso à Internet">
-<!ENTITY connectionbutton.accesskey "y">
-<!ENTITY crInPCreatesNewP.label "Cria um novo parágrafo automaticamente">
-<!ENTITY dialect.label "Markup">
-<!ENTITY dtd.label "DTD:">
-<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
-<!ENTITY helpers.label "Configurações avançadas">
-<!ENTITY hints.label "Você pode especificar a URL usando '$s'. Exemplo:">
-<!ENTITY htmlEntitiesEncoding.label "Todos os caracteres que têm uma entidade equivalente no HTML 4">
-<!ENTITY htmlMarkupLanguage.label "HTML 4">
-<!ENTITY imageEditor.label "Editor de imagens">
-<!ENTITY latin1EntitiesEncoding.label "Os caracteres acima e letras Latin-1">
-<!ENTITY looseDTD.label "Transitional">
-<!ENTITY markupLanguage.label "Linguagem:">
-<!ENTITY noEscaping.label "Não codificar caracteres especiais em valores de atributos">
-<!ENTITY noGTEncoding.label "Não codificar '&gt;' fora de valores de atributos">
-<!ENTITY realtimeSpellCheck.label "Verificar ortografia automaticamente">
-<!ENTITY specialChars.description "Definir os seguintes caracteres como entidades:">
-<!ENTITY specialChars.label "Caracteres especiais">
-<!ENTITY spellCheckRealTime.accesskey "u">
-<!ENTITY spellCheckRealTime.label "Sublinhar palavras digitadas incorretamente">
-<!ENTITY strictDTD.label "Strict">
-<!ENTITY useSystemBrowser.label "Usar navegador padrão">
-<!ENTITY userDefinedBrower.label "Definido pelo usuário">
-<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc..
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY helpers.label                 "Configurações avançadas">
+<!ENTITY useSystemBrowser.label        "Usar navegador padrão">
+<!ENTITY userDefinedBrower.label       "Definido pelo usuário">
+
+<!ENTITY cmdLine.label                 "Linha de comando:">
+<!ENTITY hints.label                   "Você pode especificar a URL usando '$s'. Exemplo:">
+<!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+
+<!ENTITY imageEditor.label             "Editor de imagens">
+
+<!ENTITY connection.label              "Conexão">
+<!ENTITY connectionDescription.label   "Definir proxies de acesso à Internet">
+<!ENTITY connectionButton.label        "Proxy…">
+<!ENTITY connectionbutton.accesskey    "y">
+
+<!ENTITY carriageReturns.label         "Comportamento da tecla ENTER">
+<!ENTITY crInPCreatesNewP.label        "Cria um novo parágrafo automaticamente">
+
+<!ENTITY specialChars.label            "Caracteres especiais">
+<!ENTITY specialChars.description      "Definir os seguintes caracteres como entidades:">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
+<!ENTITY basicEncoding.label           "Somente &amp; &lt; &gt; ' e non-breakable whitespace">
+<!ENTITY latin1EntitiesEncoding.label  "Os caracteres acima e letras Latin-1">
+<!ENTITY htmlEntitiesEncoding.label    "Todos os caracteres que têm uma entidade equivalente no HTML 4">
+<!ENTITY allEntitiesEncoding.label     "Usar a notação &amp;#..; em caracteres que não são ASCII">
+
+<!ENTITY realtimeSpellCheck.label      "Verificar ortografia automaticamente">
+
+<!ENTITY spellCheckRealTime.label      "Sublinhar palavras digitadas incorretamente">
+<!ENTITY spellCheckRealTime.accesskey  "u">
+
+<!ENTITY dialect.label                 "Markup">
+<!ENTITY markupLanguage.label          "Linguagem:">
+<!ENTITY dtd.label                     "DTD:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "Transitional">
+<!ENTITY strictDTD.label               "Strict">
+
+<!ENTITY noGTEncoding.label            "Não codificar '&gt;' fora de valores de atributos">
+<!ENTITY noEscaping.label              "Não codificar caracteres especiais em valores de atributos">

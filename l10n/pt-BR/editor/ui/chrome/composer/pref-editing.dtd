@@ -1,33 +1,41 @@
-<!ENTITY activeLinkText.accesskey "k">
-<!ENTITY activeLinkText.label "Link ativo">
-<!ENTITY authorName.accesskey "t">
-<!ENTITY authorName.label "Autor:">
-<!ENTITY background.accesskey "P">
-<!ENTITY background.label "Plano de fundo:">
-<!ENTITY backgroundImage.accesskey "I">
-<!ENTITY backgroundImage.label "Imagem do plano de fundo:">
-<!ENTITY chooseCharsetButton.label "Selecionar codificação…">
-<!ENTITY chooseFile.accesskey "A">
-<!ENTITY chooseFile.label "Arquivo…">
-<!ENTITY colon.character ":">
-<!ENTITY customColors.accesskey "c">
-<!ENTITY customColorsRadio.label "Usar cores personalizadas:">
-<!ENTITY defaultCharset.label "Codificação:">
-<!ENTITY defaultColors.accesskey "U">
-<!ENTITY defaultColorsRadio.label "Não definir as cores da página (usar as cores padrão do internauta)">
+<!ENTITY lHeader                     "Configurações de nova página">
+<!ENTITY rHeader                     "Padrão para novas páginas">
+
+<!ENTITY authorName.label            "Autor:">
+<!ENTITY authorName.accesskey        "t">
+<!ENTITY pageColorHeader             "Aparência padrão">
+
+<!ENTITY defaultColorsRadio.label    "Não definir as cores da página (usar as cores padrão do internauta)">
+<!ENTITY defaultColors.accesskey     "U">
+<!ENTITY customColorsRadio.label     "Usar cores personalizadas:">
+<!ENTITY customColors.accesskey      "c">
+
+<!ENTITY normalText.label            "Texto normal">
+<!ENTITY normalText.accesskey        "x">
+<!ENTITY linkText.label              "Link">
+<!ENTITY linkText.accesskey          "L">
+<!ENTITY activeLinkText.label        "Link ativo">
+<!ENTITY activeLinkText.accesskey    "k">
+<!ENTITY visitedLinkText.label       "Link visitado">
+<!ENTITY visitedLinkText.accesskey   "v">
+<!ENTITY background.label            "Plano de fundo:">
+<!ENTITY background.accesskey        "P">
+<!ENTITY colon.character             ":">
+
+<!ENTITY backgroundImage.label       "Imagem do plano de fundo:">
+<!ENTITY backgroundImage.accesskey   "I">
+<!ENTITY chooseFile.label            "Arquivo…">
+<!ENTITY chooseFile.accesskey        "A">
+
+<!ENTITY i18nHeader                  "Internacionalização">
+
+<!ENTITY writingDirection.label      "Direção do texto:">
 <!ENTITY defaultDirectionRadio.label "Padrão">
-<!ENTITY i18nHeader "Internacionalização">
-<!ENTITY lHeader "Configurações de nova página">
-<!ENTITY language.label "Idioma:">
-<!ENTITY languageChoiceButton.label "Selecionar idioma…">
-<!ENTITY linkText.accesskey "L">
-<!ENTITY linkText.label "Link">
-<!ENTITY ltrDirectionRadio.label "Da esquerda para a direita">
-<!ENTITY normalText.accesskey "x">
-<!ENTITY normalText.label "Texto normal">
-<!ENTITY pageColorHeader "Aparência padrão">
-<!ENTITY rHeader "Padrão para novas páginas">
-<!ENTITY rtlDirectionRadio.label "Da direita para a esquerda">
-<!ENTITY visitedLinkText.accesskey "v">
-<!ENTITY visitedLinkText.label "Link visitado">
-<!ENTITY writingDirection.label "Direção do texto:">
+<!ENTITY ltrDirectionRadio.label     "Da esquerda para a direita">
+<!ENTITY rtlDirectionRadio.label     "Da direita para a esquerda">
+
+<!ENTITY language.label              "Idioma:">
+<!ENTITY languageChoiceButton.label  "Selecionar idioma…">
+
+<!ENTITY defaultCharset.label        "Codificação:">
+<!ENTITY chooseCharsetButton.label   "Selecionar codificação…">

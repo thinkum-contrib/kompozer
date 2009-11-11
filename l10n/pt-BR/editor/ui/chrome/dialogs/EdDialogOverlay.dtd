@@ -1,12 +1,37 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY AdvancedEditButton.label     "Edição avançada…">
 <!ENTITY AdvancedEditButton.accessKey "E">
-<!ENTITY AdvancedEditButton.label "Edição avançada…">
-<!ENTITY AdvancedEditButton.tooltip "Adicionar ou alterar atributos HTML, atributos de estilo e JavaScript">
-<!ENTITY LinkURLEditField.accessKey "F">
-<!ENTITY LinkURLEditField.label "Forneça o endereço da página, um arquivo do computador ou selecione uma âncora nomeada ou título:">
-<!ENTITY chooseButton.label "Selecionar arquivo…">
-<!ENTITY chooseFile.accessKey "S">
-<!ENTITY chooseFileLink.accessKey "S">
-<!ENTITY isMailAddress.label "O endereço é de e-mail">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.label "O endereço é relativo ao da página">
-<!ENTITY makeUrlRelative.tooltip "Alterar entre endereço relativo e absoluto. Você deve salvar a página antes de alterar isto.">
+<!ENTITY AdvancedEditButton.tooltip   "Adicionar ou alterar atributos HTML, atributos de estilo e JavaScript">
+<!ENTITY chooseButton.label           "Selecionar arquivo…">
+<!ENTITY chooseFile.accessKey         "S">
+<!ENTITY chooseFileLink.accessKey     "S">
+<!ENTITY makeUrlRelative.label        "O endereço é relativo ao da página">
+<!ENTITY makeUrlRelative.accessKey    "r">
+<!ENTITY makeUrlRelative.tooltip      "Alterar entre endereço relativo e absoluto. Você deve salvar a página antes de alterar isto.">
+
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField.label       "Forneça o endereço da página, um arquivo do computador ou selecione uma âncora nomeada ou título:">
+<!ENTITY LinkURLEditField.accessKey   "F">
+
+<!ENTITY isMailAddress.label          "O endereço é de e-mail">

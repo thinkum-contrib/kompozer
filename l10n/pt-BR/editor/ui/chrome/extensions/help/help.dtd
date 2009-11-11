@@ -1,0 +1,85 @@
+<!ENTITY printCmd.commandkey             "P">
+
+<!ENTITY viewCustomizeToolbar.label      "Personalizar...">
+<!ENTITY viewCustomizeToolbar.accesskey  "P">
+
+<!ENTITY findOnCmd.commandkey            "F">
+<!ENTITY findAgainCmd.commandkey         "g">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "Localizar">
+<!ENTITY findDialogFrame.title           "Localizar no frame">
+<!ENTITY findField.label                 "Localizar:">
+<!ENTITY findField.accesskey             "z">
+<!ENTITY caseSensitiveCheckbox.label     "Diferenciar maiúsc./minúsc.">
+<!ENTITY caseSensitiveCheckbox.accesskey "c">
+<!ENTITY wrapCheckbox.label              "Cobrir">
+<!ENTITY wrapCheckbox.accesskey          "b">
+<!ENTITY backwardsCheckbox.label         "Procurar de baixo para cima">
+<!ENTITY backwardsCheckbox.accesskey     "b">
+<!ENTITY findField.tooltip               "Digite uma ou mais palavras sobre o que você procura">
+<!ENTITY findButton.label                "Localizar próxima">
+<!ENTITY findButton.accesskey            "L">
+<!ENTITY cancelButton.label              "Cancelar">
+<!ENTITY up.label                        "Acima">
+<!ENTITY up.accesskey                    "A">
+<!ENTITY down.label                      "Abaixo">
+<!ENTITY down.accesskey                  "A">
+<!ENTITY direction.label                 "Direção">
+
+<!ENTITY find.label                      "Localizar:">
+<!ENTITY findNext.label                  "Localizar próxima">
+<!ENTITY findNext.tooltip                "Localizar a próxima ocorrência do texto">
+<!ENTITY findPrevious.label              "Localizar anterior">
+<!ENTITY findPrevious.tooltip            "Localizar a ocorrência anterior do texto">
+<!ENTITY findCloseButton.tooltip         "Ocultar a barra de localizar">
+<!ENTITY highlight.label                 "Destacar">
+<!ENTITY highlight.tooltip               "Destacar todas as ocorrencias da frase (Ctrl+ENTER)">
+
+<!ENTITY backButton.label                "Voltar">
+<!ENTITY backButton.accesskey            "V">
+<!ENTITY backButton.tooltip              "Retornar para a página anterior">
+<!ENTITY forwardButton.label             "Avançar">
+<!ENTITY forwardButton.accesskey         "A">
+<!ENTITY forwardButton.tooltip           "Próxima página">
+<!ENTITY homeButton.label                "Página inicial">
+<!ENTITY homeButton.tooltip              "Ir para a Página Inicial da Ajuda">
+<!ENTITY printButton.label               "Imprimir">
+<!ENTITY printButton.tooltip             "Imprimir a página">
+<!ENTITY findBtn.label                   "Localizar">
+<!ENTITY sidebarBtn.label                "Alternar Painel">
+<!ENTITY sidebarBtn.tooltip              "Exibir ou Ocultar o Painel de Ajuda">
+<!ENTITY textZoomReduceBtn.label         "Dimi">
+<!ENTITY textZoomReduceBtn.accesskey     "D">
+<!ENTITY textZoomReduceBtn.tooltip       "Diminuir text nos documentos de ajuda.">
+<!ENTITY textZoomEnlargeBtn.label        "Aumentar">
+<!ENTITY textZoomEnlargeBtn.accesskey    "A">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Aumentar o texto nos documentos de ajuda.">
+<!ENTITY customizeButton.tooltip         "Personalizar quais botões serão exibidos  na barra de Ajuda.">
+<!ENTITY reloadCmd.label                 "Recarregar">
+<!ENTITY reloadCmd.accesskey             "R">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Copiar">
+<!ENTITY copyCmd.accesskey               "C">
+
+<!ENTITY throbberItem.title              "Indicador de atividade">
+
+<!ENTITY cmd_CustomizeToolbars.label     "Personalizar" >
+
+<!ENTITY searchtab.label                 "Procurar">
+<!ENTITY searchtab.accesskey             "P">
+<!ENTITY searchbtn.label                 "Localizar">
+<!ENTITY toctab.label                    "Conteúdo">
+<!ENTITY toctab.accesskey                "C">
+<!ENTITY indextab.label                  "Índice">
+<!ENTITY indextab.accesskey              "i">
+<!ENTITY ixname.label                    "Nome">
+<!ENTITY glossarytab.label               "Glossário">
+<!ENTITY glossarytab.accesskey           "G">
+<!ENTITY glossname.label                 "Nome">
+<!ENTITY gobtn.label                     "Localizar:">
+<!ENTITY name.label                      "Item">
+
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">

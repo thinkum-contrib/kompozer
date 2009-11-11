@@ -1,13 +1,38 @@
-<!ENTITY AddButton.accessKey "A">
-<!ENTITY AddButton.label "Adicionar">
-<!ENTITY CloseButton.accessKey "F">
-<!ENTITY CloseButton.label "Fechar">
-<!ENTITY DictionaryList.accessKey "P">
-<!ENTITY DictionaryList.label "Palavras no dicionário:">
-<!ENTITY RemoveButton.accessKey "x">
-<!ENTITY RemoveButton.label "Excluir">
-<!ENTITY ReplaceButton.accessKey "S">
-<!ENTITY ReplaceButton.label "Substituir">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
 <!ENTITY windowTitle.label "Dicionário pessoal">
-<!ENTITY wordEditField.accessKey "N">
+
 <!ENTITY wordEditField.label "Nova palavra:">
+<!ENTITY wordEditField.accessKey "N">
+<!ENTITY AddButton.label "Adicionar">
+<!ENTITY AddButton.accessKey "A">
+<!ENTITY DictionaryList.label "Palavras no dicionário:">
+<!ENTITY DictionaryList.accessKey "P">
+<!ENTITY ReplaceButton.label "Substituir">
+<!ENTITY ReplaceButton.accessKey "S">
+<!ENTITY RemoveButton.label "Excluir">
+<!ENTITY RemoveButton.accessKey "x">
+
+<!ENTITY CloseButton.label "Fechar">
+<!ENTITY CloseButton.accessKey "F">

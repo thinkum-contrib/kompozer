@@ -1,32 +1,56 @@
-<!ENTITY addToUserDictionaryButton.accessKey "A">
-<!ENTITY addToUserDictionaryButton.label "Adicionar palavra">
-<!ENTITY checkwordButton.accessKey "V">
-<!ENTITY checkwordButton.label "Verificar palavra">
-<!ENTITY closeButton.accessKey "F">
-<!ENTITY closeButton.label "Fechar">
-<!ENTITY editUserDictionaryButton.accessKey "E">
-<!ENTITY editUserDictionaryButton.label "Editar…">
-<!ENTITY ignoreAllButton.accessKey "o">
-<!ENTITY ignoreAllButton.label "Ignorar todas">
-<!ENTITY ignoreButton.accessKey "I">
-<!ENTITY ignoreButton.label "Ignorar">
-<!ENTITY languagePopup.accessKey "m">
-<!ENTITY languagePopup.label "Idioma:">
-<!ENTITY misspelledWord.label "Palavra errada:">
-<!ENTITY moreDictionaries.label "Baixar mais dicionários">
-<!ENTITY recheckButton.accessKey "R">
-<!ENTITY recheckButton.label "Reiniciar">
-<!ENTITY replaceAllButton.accessKey "t">
-<!ENTITY replaceAllButton.label "Substituir todas">
-<!ENTITY replaceButton.accessKey "S">
-<!ENTITY replaceButton.label "Substituir">
-<!ENTITY sendButton.accessKey "n">
-<!ENTITY sendButton.label "Enviar">
-<!ENTITY stopButton.accessKey "P">
-<!ENTITY stopButton.label "Parar">
-<!ENTITY suggestions.accessKey "u">
-<!ENTITY suggestions.label "Sugestões:">
-<!ENTITY userDictionary.label "Dicionário pessoal:">
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
 <!ENTITY windowTitle.label "Verificar ortografia">
-<!ENTITY wordEditField.accessKey "b">
+
+<!ENTITY misspelledWord.label "Palavra errada:">
 <!ENTITY wordEditField.label "Substituir por:">
+<!ENTITY wordEditField.accessKey "b">
+<!ENTITY checkwordButton.label "Verificar palavra">
+<!ENTITY checkwordButton.accessKey "V">
+<!ENTITY suggestions.label "Sugestões:">
+<!ENTITY suggestions.accessKey "u">
+<!ENTITY ignoreButton.label "Ignorar">
+<!ENTITY ignoreButton.accessKey "I">
+<!ENTITY ignoreAllButton.label "Ignorar todas">
+<!ENTITY ignoreAllButton.accessKey "o">
+<!ENTITY replaceButton.label "Substituir">
+<!ENTITY replaceButton.accessKey "S">
+<!ENTITY replaceAllButton.label "Substituir todas">
+<!ENTITY replaceAllButton.accessKey "t">
+<!ENTITY stopButton.label "Parar">
+<!ENTITY stopButton.accessKey "P">
+<!ENTITY userDictionary.label "Dicionário pessoal:">
+<!ENTITY moreDictionaries.label "Baixar mais dicionários">
+<!ENTITY addToUserDictionaryButton.label "Adicionar palavra">
+<!ENTITY addToUserDictionaryButton.accessKey "A">
+<!ENTITY editUserDictionaryButton.label "Editar…">
+<!ENTITY editUserDictionaryButton.accessKey "E">
+<!ENTITY recheckButton.label "Reiniciar">
+<!ENTITY recheckButton.accessKey "R">
+<!ENTITY closeButton.label "Fechar">
+<!ENTITY closeButton.accessKey "F">
+<!ENTITY sendButton.label "Enviar">
+<!ENTITY sendButton.accessKey "n">
+<!ENTITY languagePopup.label "Idioma:">
+<!ENTITY languagePopup.accessKey "m">

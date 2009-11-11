@@ -19,7 +19,6 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributors:
-   -   Jeferson Hultmann <hultmann@gmail.com> (pt-BR l10n)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or 
@@ -54,7 +53,7 @@
 
 <!-- Context Menu -->
 <!ENTITY copyName.label "Copiar nome">
-<!ENTITY copyName.accesskey "c">
+<!ENTITY copyName.accesskey "C">
 <!ENTITY copyValue.label "Copiar valor">
 <!ENTITY copyValue.accesskey "v">
 <!ENTITY modify.label "Editar…">
@@ -64,15 +63,15 @@
 <!ENTITY reset.label "Restaurar o padrão">
 <!ENTITY reset.accesskey "R">
 <!ENTITY new.label "Nova opção">
-<!ENTITY new.accesskey "n">
+<!ENTITY new.accesskey "N">
 <!ENTITY string.label "String…">
-<!ENTITY string.accesskey "s">
+<!ENTITY string.accesskey "S">
 <!ENTITY integer.label "Inteira…">
 <!ENTITY integer.accesskey "I">
 <!ENTITY boolean.label "Boolean…">
-<!ENTITY boolean.accesskey "b">
+<!ENTITY boolean.accesskey "B">
 <!ENTITY lock.label "Travar">
-<!ENTITY lock.accesskey "t">
+<!ENTITY lock.accesskey "T">
 <!ENTITY unlock.label "Destravar">
 <!ENTITY unlock.accesskey "t">
 

@@ -1,8 +1,11 @@
-<!ENTITY advanced.label "Avançado">
-<!ENTITY extensions.label "Extensões">
-<!ENTITY fonts.label "Fontes">
-<!ENTITY general.label "Geral">
-<!ENTITY i18n.label "Internacionalização">
+
+<!ENTITY prefWindow.size       "width: 52.3em; height: 37em;">
+<!ENTITY prefWindow.title      "Preferências">
+
+<!ENTITY general.label         "Geral">
+<!ENTITY extensions.label      "Extensões">
+<!ENTITY advanced.label        "Avançado">
+<!ENTITY helpers.label         "Programas">
 <!ENTITY newpagesettings.label "Nova página">
-<!ENTITY prefWindow.size "width: 52.3em; height: 37em;">
-<!ENTITY prefWindow.title "Preferências">
+<!ENTITY fonts.label           "Fontes">
+<!ENTITY i18n.label            "Internacionalização">

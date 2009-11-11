@@ -1,12 +1,21 @@
-<!ENTITY adjustDesc.label "Ajustar links para funcionar no endereço da página. (Links para páginas locais funcionarão
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY  window.title "Publicar">
+<!ENTITY  composerHeader.label "Publicar">
+<!ENTITY  maintainCheckbox.label "Preservar links">
+<!ENTITY  keepCheck.label "Manter imagens com página">
+
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  adjustDesc.label "Ajustar links para funcionar no endereço da página. (Links para páginas locais funcionarão
 			            quando versões locais existirem.)">
-<!ENTITY composerHeader.label "Publicar">
-<!ENTITY defaultHeader.label "Endereço padrão da publicação">
-<!ENTITY keepCheck.label "Manter imagens com página">
-<!ENTITY maintainCheckbox.label "Preservar links">
-<!ENTITY publishFtp.label "Se publicar em um site FTP, forneça o endereço HTTP associado:">
-<!ENTITY publishhtp.label "Se publicar em um site FTP, forneça o endereço HTTP associado:">
-<!ENTITY saveDesc.label "Salvar cópias das imagens para o endereço. Imagens sempre
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  saveDesc.label "Salvar cópias das imagens para o endereço. Imagens sempre
 				 aparecerão em versões locais da página e quando a página for publicada.">
-<!ENTITY tip.label "Dica: Sempre selecione ambas as opções se estiver usando publicação remota.">
-<!ENTITY window.title "Publicar">
+<!ENTITY  tip.label "Dica: Sempre selecione ambas as opções se estiver usando publicação remota.">
+<!ENTITY defaultHeader.label  "Endereço padrão da publicação">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY  publishFtp.label "Se publicar em um site FTP, forneça o endereço HTTP associado:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "Se publicar em um site FTP, forneça o endereço HTTP associado:">
+

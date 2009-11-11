@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   David P. Drinan (ddrinan@netscape.com)
-   -   Jeferson Hultmann <hultmann@gmail.com> (pt-BR l10n)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -79,7 +78,7 @@
 <!ENTITY certOCSP.label                           "Usar OCSP apenas para validar certificados que especifiquem uma URL de serviço do OCSP">
 <!ENTITY certOCSP.accesskey                       "O">
 <!ENTITY proxyOCSP.label                          "Usar OCSP para validar todos os certificados usando esta URL e signatário:">
-<!ENTITY proxyOCSP.accesskey                      "V">
+<!ENTITY proxyOCSP.accesskey                      "v">
 <!ENTITY serviceURL.label                         "URL de serviço:">
 <!ENTITY serviceURL.accesskey                     "U">
 <!ENTITY signingCA.label                          "Signatário da resposta:">

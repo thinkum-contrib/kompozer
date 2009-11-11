@@ -1,16 +1,16 @@
 <!-- Context Menu -->
 <!ENTITY popupWindowRejectCmd.label     "Reject popup windows from this site">
-<!ENTITY popupWindowRejectCmd.accesskey "">
+<!ENTITY popupWindowRejectCmd.accesskey "R">
 <!ENTITY popupWindowAllowCmd.label      "Allow popup windows from this site">
-<!ENTITY popupWindowAllowCmd.accesskey  "">
+<!ENTITY popupWindowAllowCmd.accesskey  "A">
 <!ENTITY openLinkCmd.label            "Open Link in New Window">
-<!ENTITY openLinkCmd.accesskey        "W">
+<!ENTITY openLinkCmd.accesskey        "w">
 <!ENTITY openLinkCmdInTab.label       "Open Link in New Tab">
 <!ENTITY openLinkCmdInTab.accesskey   "T">
 <!ENTITY openLinkInWindowCmd.label    "Open">
 <!ENTITY openLinkInWindowCmd.accesskey "p">
 <!ENTITY openFrameCmd.label           "Open Frame in New Window">
-<!ENTITY openFrameCmd.accesskey       "W">
+<!ENTITY openFrameCmd.accesskey       "w">
 <!ENTITY openFrameCmdInTab.label      "Open Frame in New Tab">
 <!ENTITY openFrameCmdInTab.accesskey  "T">
 <!ENTITY showOnlyThisFrameCmd.label     "Show Only This Frame">
@@ -38,15 +38,13 @@
 <!ENTITY viewFrameSourceCmd.label     "View Frame Source">
 <!ENTITY viewFrameSourceCmd.accesskey "V">
 <!ENTITY viewPageInfoCmd.label        "View Page Info">
-<!ENTITY viewPageInfoCmd.accesskey    "I">
+<!ENTITY viewPageInfoCmd.accesskey    "i">
 <!ENTITY viewFrameInfoCmd.label       "View Frame Info">
-<!ENTITY viewFrameInfoCmd.accesskey   "I">
+<!ENTITY viewFrameInfoCmd.accesskey   "i">
 <!ENTITY fitImageCmd.label            "Fit Image to Window">
 <!ENTITY fitImageCmd.accesskey        "F">
-<!ENTITY reloadImageCmd.label         "Reload Image">
-<!ENTITY reloadImageCmd.accesskey     "e">
 <!ENTITY viewImageCmd.label           "View Image">
-<!ENTITY viewImageCmd.accesskey       "I">
+<!ENTITY viewImageCmd.accesskey       "i">
 <!ENTITY viewBGImageCmd.label         "View Background Image">
 <!ENTITY viewBGImageCmd.accesskey     "w">
 <!ENTITY setWallpaperCmd.label        "Set As Wallpaper">
@@ -101,8 +99,6 @@
 <!ENTITY bidiSwitchTextDirectionItem.accesskey    "w">
 <!ENTITY spellAddToDictionary.label     "Add to dictionary">
 <!ENTITY spellAddToDictionary.accesskey "o">
-<!ENTITY spellIgnoreWord.label          "Ignore word">
-<!ENTITY spellIgnoreWord.accesskey      "w">
 <!ENTITY spellEnable.label              "Spell check this field">
 <!ENTITY spellEnable.accesskey          "S">
 <!ENTITY spellNoSuggestions.label       "(No spelling suggestions)">
