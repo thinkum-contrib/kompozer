@@ -1,9 +1,8 @@
 
 <html>
   <head>
-    <meta content="text/html; charset=UTF-8"> 
-    <title>Nvu Credits</title>
-
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>KompoZer Credits</title>
     <style>
     <!--
       * {
@@ -56,10 +55,10 @@
       
       .credit {
         text-align: center;
-        margin: 5px 0;
+        margin: 0px;
       }
       .credit > h4 {
-        margin: 5px 0;
+        margin: 0px;
       }
       
       .footnote {
@@ -107,7 +106,7 @@
       
       function runCredits()
       {
-        gCreditsInterval = setInterval("creditsCallback()", 1); 
+        gCreditsInterval = setInterval("creditsCallback()", 1);  
       }
       
       function creditsCallback()
@@ -126,21 +125,18 @@
     </script>
   </head>
   <body onload="init();" onunload="uninit();">
-    <div id="titleBox">
+    <!-- <div id="titleBox">
       <img src="chrome://editor/content/about-credits.png"><br>
       <img src="chrome://editor/content/about-header.png">
-    </div>
+    </div> -->
     
     <div id="creditsBox">
-        <br>
-        <br>  
-        <br>  
         <br>  
         <br>  
         <br>
         <div align="center">
-          <h2 class="title">N<span class="minititle">vu</span></h2>
-          <span class="motto">(pronounced N-view)</span>
+          <h2 class="title">K<span class="minititle">ompo</span>Z<span class="minititle">er</span></h2>
+          <span class="motto">Nvu's unofficial bugfix release</span>
         </div>
         <br>  
         <br>  
@@ -151,7 +147,7 @@
         <br>  
         <br>  
         <br>  
-
+<!-- 
         <div class="creditsGroup">
           <h3>Main support</h3>
           <div class="credit"><img src="chrome://editor/content/linspire.gif"></div>
@@ -164,11 +160,26 @@
         </div>
         <br>  
         <br>  
-
+ -->
         <div class="creditsGroup">
           <h3>Engineering Lead</h3>
           <div class="credit">Daniel Glazman</div>
                   
+          <h3>Debug</h3>
+          <div class="credit">
+            Fabien Cazenave <em>(Kaz&eacute;)</em><br>
+            Rudy Kuntz<br>
+            Yves Mairesse<br>
+            Alain Lorieux<br>
+            Geckozone.org
+          </div>
+                  
+          <h3>Debianization</h3>
+          <div class="credit">
+            Fabien Cazenave<br>
+            Anthony Yarusso
+          </div>
+
           <h3>Special Thanks To</h3>
           <div class="credit">
             Neil Marshall<br>
@@ -194,14 +205,13 @@
           <h3>Localizations</h3>
           <div class="credit">
             <h4>fr-FR</h4>
-            Sйbastien Desvignes<br>
-            Cйdric Corazza<br>
+            Sébastien Desvignes<br>
+            Cédric Corazza<br>
             Flore Allemandou<br>
             the Frenchmozilla team
           </div>
           <div class="credit">
-          <h4>ru-RU</h4>
-          <img src="chrome://help/locale/images/mozteam.png"><br><br>
+            <h4>ru-RU</h4>
             Alexey Gubanov<br>
             Alexander Slovesnik<br>
             Yury Merkulov<br>
@@ -232,7 +242,7 @@
           </div>
           <div class="credit">
             <h4>fi-FI</h4>
-            Jussi Bergstrцm<br>
+            Jussi Bergström<br>
             The Finnish Mozilla l10n Team
           </div>
           <div class="credit">
@@ -243,7 +253,7 @@
           <div class="credit">
             <h4>pl-PL</h4>
             Stanis&#322;aw&#160;Ma&#322;olepszy<br>
-            Zbigniew Braniecki
+            Zbigniew Braniecki<br>
             Marek St&#281;pie&#324;<br>
             Piotr Pielach<br>
             Piotr Komoda<br>
@@ -258,8 +268,8 @@
           </div>
           <div class="credit">
             <h4>hu-HU</h4>
-            Tнmбr Andrбs<br>
-            Gazdag Andrбs
+            Tímár András<br>
+            Gazdag András
           </div>
           <div class="credit">
             <h4>es-ES</h4>
@@ -267,7 +277,7 @@
           </div>
           <div class="credit">
             <h4>ca-AD</h4>
-            Gerard Farrаs i Ballabriga<br>
+            Gerard Farràs i Ballabriga<br>
             Softcatala
           </div>
           <div class="credit">
@@ -292,8 +302,7 @@
 
         <div class="creditsGroup">        
           <h3>Quality Assurance</h3>
-          <div class="credit">
-          Georgi Damyanov<br>
+          <div class="credit">Georgi Damyanov<br>
           Mark Sepeda</div>
 
           <h3>Special Thanks To</h3>
