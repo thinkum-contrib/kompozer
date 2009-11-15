@@ -145,7 +145,7 @@ def chrome2xpi(locale):
 		l10n2chrome(L10N_ROOT + locale, CHROME_ROOT + locale)
 
 	# warning: won't work on Windows unless you're in a Cygwin shell
-	xpiFile = "kompozer-" + locale + ".xpi"
+	xpiFile = "kompozer-0.8b1." + locale + ".xpi"
 	print "making " + xpiFile
 
 	# remove xpiFile if existing
