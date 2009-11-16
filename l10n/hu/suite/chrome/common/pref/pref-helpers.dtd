@@ -40,7 +40,7 @@
 <!ENTITY userDefinedBrower.label       "Felhasználó által megadott">
 
 <!ENTITY cmdLine.label                 "Parancssor:">
-<!ENTITY hints.label                   "Megadhatja az URL-t a '$s' használatával. Példa:">
+<!ENTITY hints.label                   "Megadhatja az URL-t a '$s' használatával. Példa: ">
 <!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
 
 <!ENTITY imageEditor.label             "Képszerkesztő">
@@ -55,7 +55,8 @@
 
 <!ENTITY specialChars.label            "Különleges karakterek">
 <!ENTITY specialChars.description      "A következő karakterek entitásként szerepeljenek:">
-<!ENTITY basicEncoding.label           "Csak &amp; &lt; &gt; ' és a nem törhető szóköz">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
+<!ENTITY basicEncoding.label           "Csak &amp; &lt; &gt; és nem törő szóköz">
 <!ENTITY latin1EntitiesEncoding.label  "A fentiek és a Latin-1 betűk">
 <!ENTITY htmlEntitiesEncoding.label    "HTML 4 különleges karakterek">
 <!ENTITY allEntitiesEncoding.label     "&amp;#..; jelölés használata minden nem ASCII-karakterre">

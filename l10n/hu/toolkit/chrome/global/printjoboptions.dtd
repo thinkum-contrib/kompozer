@@ -10,7 +10,7 @@
 
 <!ENTITY cmdInput.label "Nyomtatóparancs:">
 
-<!ENTITY jobTitleInput.label "Beosztás:">
+<!ENTITY jobTitleInput.label "Feladat neve:">
 
 <!ENTITY colorGroup.label "Szín:">
 <!ENTITY grayRadio.label "Szürkeárnyalatos">
@@ -24,5 +24,5 @@
 <!ENTITY edgeMarginInput.label "Helyköz a papír szélétől a margóig">
 <!ENTITY topInput.label "Fent:">
 <!ENTITY bottomInput.label "Lent:">
-<!ENTITY leftInput.label "Baloldalt:">
-<!ENTITY rightInput.label "Jobboldalt:">
+<!ENTITY leftInput.label "Balra:">
+<!ENTITY rightInput.label "Jobbra:">

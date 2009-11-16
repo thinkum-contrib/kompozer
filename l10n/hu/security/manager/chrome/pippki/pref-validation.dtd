@@ -63,9 +63,9 @@
 <!ENTITY  validation.crl.autoupdate.url.label     "A CRL-t a következő helyről importálja:">
 <!ENTITY  crl.import.status.title                 "CRL-importálás állapota">
 <!ENTITY  crl.import.success.message              "A visszavont tanúsítványok listája (CRL) sikeresen importálva.">
-<!ENTITY  crl.issuer.label                        "CRL kibocsátója:">
-<!ENTITY  crl.issuer.org.label                    "Szervezet: ">
-<!ENTITY  crl.issuer.orgunit.label                "Egység: ">
+<!ENTITY  crl.issuer.label                        "CRL kibocsátója: ">
+<!ENTITY  crl.issuer.org.label                    "Szervezet:">
+<!ENTITY  crl.issuer.orgunit.label                "Egység:">
 <!ENTITY  crl.import.nextupdate.label             "Következő frissítés: ">
 <!ENTITY  crl.autoupdate.fail.cnt.label           "Eddigi frissítési hibák: ">
 <!ENTITY  crl.autoupdate.fail.reason.label        "Utolsó hiba részletei: ">

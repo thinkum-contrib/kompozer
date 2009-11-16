@@ -1,10 +1,11 @@
 
-<!ENTITY prefWindow.size "width: 62.3em; height: 37em;">
-<!ENTITY prefWindow.title "Beállítások">
+<!ENTITY prefWindow.size       "width: 62.3em; height: 37em;">
+<!ENTITY prefWindow.title      "Beállítások">
 
-<!ENTITY general.label "Általános">
-<!ENTITY extensions.label "Kiterjesztések">
-<!ENTITY advanced.label "Haladó">
-<!ENTITY newpagesettings.label "Új oldal">
-<!ENTITY fonts.label   "Betűk">
-<!ENTITY i18n.label    "Nemzetközi">
+<!ENTITY general.label         "Általános">
+<!ENTITY extensions.label      "Kiterjesztések">
+<!ENTITY advanced.label        "Haladó">
+<!ENTITY helpers.label         "Alkalmazások">
+<!ENTITY newpagesettings.label "Új oldal beállításai">
+<!ENTITY fonts.label           "Betűk">
+<!ENTITY i18n.label            "Nemzetközi">

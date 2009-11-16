@@ -9,14 +9,14 @@
      If there is no descriptive text, then the alternative text is used which
      has only insert #2.
  -->
-<!ENTITY intro.label           "A(z) &quot;#3&quot; fájl típusa #2 (#1). A #4 nem tudja kezelni ezt a fájltípust. A fájl itt van:">
-<!ENTITY intro.noDesc.label    "A(z) &quot;#3&quot; fájl típusa #2. A #4 nem tudja kezelni ezt a fájltípust. A fájl itt van:">
+<!ENTITY intro.label           "A(z) „#3” fájl típusa #2 (#1). A #4 nem tudja kezelni ezt a fájltípust. A fájl itt van:">
+<!ENTITY intro.noDesc.label    "A(z) „#3” fájl típusa #2. A #4 nem tudja kezelni ezt a fájltípust. A fájl itt van:">
 
-<!ENTITY intro.attachment.label "A webhely azt javasolta, hogy a(z) &quot;#3&quot; mellékletként kezelendő. A típusa #2 (#1) és a helye:">
-<!ENTITY intro.attachment.noDesc.label "A webhely azt javasolta, hogy a(z) &quot;#3&quot; mellékletként kezelendő. A típusa #2 és a helye:">
+<!ENTITY intro.attachment.label "A webhely azt javasolta, hogy a(z) „#3” mellékletként kezelendő. A típusa #2 (#1) és a helye:">
+<!ENTITY intro.attachment.noDesc.label "A webhely azt javasolta, hogy a(z) „#3” mellékletként kezelendő. A típusa #2 és a helye:">
 
-<!ENTITY intro.sniffed.label "#4 észlelte, hogy a(z) &quot;#3&quot; fájl valószínűleg #2 (#1) típusú. A fájl itt van:">
-<!ENTITY intro.sniffed.noDesc.label "#4 észlelte, hogy a(z) &quot;#3&quot; fájl valószínűleg #2 típusú. A fájl itt van:">
+<!ENTITY intro.sniffed.label "#4 észlelte, hogy a(z) „#3” fájl valószínűleg #2 (#1) típusú. A fájl itt van:">
+<!ENTITY intro.sniffed.noDesc.label "#4 észlelte, hogy a(z) „#3” fájl valószínűleg #2 típusú. A fájl itt van:">
 
 <!ENTITY prompt.label          "Mit tegyen a #1 ezzel a fájllal?">
 
@@ -39,5 +39,5 @@
 
 <!ENTITY chooseAppFilePickerTitle "Segédalkalmazás kiválasztása">
 
-<!ENTITY badApp                 "A megadott alkalmazás [&quot;#1&quot;] nem található.  Ellenőrizze a fájl nevét vagy válasszon egy másik alkalmazást.">
+<!ENTITY badApp                 "A megadott alkalmazás [„#1”] nem található.  Ellenőrizze a fájl nevét vagy válasszon egy másik alkalmazást.">
 <!ENTITY badApp.title           "Alkalmazás nem található">

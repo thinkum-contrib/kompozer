@@ -1,43 +1,44 @@
 <!-- extracted from tasksOverlay.xul -->
 <!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
-<!ENTITY navigatorCmd.label					"Böngésző">  
-<!ENTITY navigatorCmd.accesskey             "B">
-<!ENTITY navigatorCmd.commandkey            "1">
+<!ENTITY navigatorCmd.label              "Böngésző">  
+<!ENTITY navigatorCmd.accesskey          "B">
+<!ENTITY navigatorCmd.commandkey         "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label					"HTML-szerkesztő">
-<!ENTITY editorCmd.accesskey				"H">
-<!ENTITY editorCmd.commandkey				"4">
+<!ENTITY editorCmd.label                 "HTML-szerkesztő">
+<!ENTITY editorCmd.accesskey             "H">
+<!ENTITY editorCmd.commandkey            "4">
 
-<!ENTITY securityInfoCmd.label					".Biztonsági információk">  
-<!ENTITY securityInfoCmd.accesskey				"B">
-<!ENTITY javaConsoleCmd.label					"Java-konzol">
-<!ENTITY javaConsoleCmd.accesskey				"j">
+<!ENTITY securityInfoCmd.label           ".Biztonsági információk">  
+<!ENTITY securityInfoCmd.accesskey       "B">
+<!ENTITY javaConsoleCmd.label            "Java-konzol">
+<!ENTITY javaConsoleCmd.accesskey        "j">
 
-<!ENTITY javaScriptConsoleCmd.label                             "JavaScript-konzol">
-<!ENTITY javaScriptConsoleCmd.accesskey				"s">
+<!ENTITY javaScriptConsoleCmd.label      "JavaScript-konzol">
+<!ENTITY javaScriptConsoleCmd.accesskey  "s">
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "Adatvédelem és biztonság">
-<!ENTITY privacyMenu.accesskey "A">
+<!ENTITY privacyMenu.label               "Adatvédelem és biztonság">
+<!ENTITY privacyMenu.accesskey           "A">
 
-<!ENTITY taskNavigator.tooltip  "Böngésző">
-<!ENTITY taskComposer.tooltip  "HTML-szerkesztő">
-<!ENTITY taskBar.tooltip  "Állapotsor">
+<!ENTITY taskNavigator.tooltip           "Böngésző">
+<!ENTITY taskComposer.tooltip            "HTML-szerkesztő">
+<!ENTITY taskBar.tooltip                 "Állapotsor">
 
-<!ENTITY webDevelopment.label "Webfejlesztés">
-<!ENTITY webDevelopment.accesskey "W">
+<!ENTITY webDevelopment.label            "Webfejlesztés">
+<!ENTITY webDevelopment.accesskey        "W">
 
-<!ENTITY windowMenu.label "Ablak">
-<!ENTITY windowMenu.accesskey "b">
+<!ENTITY windowMenu.label                "Ablak">
+<!ENTITY windowMenu.accesskey            "A">
 
-<!ENTITY tasksMenu.label "Eszközök">
-<!ENTITY tasksMenu.accesskey "e"> 
+<!ENTITY tasksMenu.label                 "Eszközök">
+<!ENTITY tasksMenu.accesskey             "e"> 
 
-<!ENTITY downloadManagerCmd.label "Letöltéskezelő">
-<!ENTITY downloadManagerCmd.accesskey "L">
+<!ENTITY downloadManagerCmd.label        "Letöltéskezelő">
+<!ENTITY downloadManagerCmd.accesskey    "L">
 
-<!ENTITY switchProfileCmd.label "Profilváltás…">
-<!ENTITY switchProfileCmd.accesskey "P">
+<!ENTITY switchProfileCmd.label          "Profilváltás…">
+<!ENTITY switchProfileCmd.accesskey      "P">
 
-<!ENTITY extensions.label "Kiterjesztések">
-<!ENTITY themes.label "Témák">
+<!ENTITY addons.label                    "Kiegészítők">
+<!ENTITY extensions.label                "Kiterjesztések">
+<!ENTITY themes.label                    "Témák">

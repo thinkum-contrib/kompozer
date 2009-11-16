@@ -36,246 +36,244 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY Window.title						"CSS-stíluslapok">
+<!ENTITY Window.title                           "CSS-stíluslapok">
 
-<!ENTITY sheetsTreeColumn.label				"Lapok és szabályok">
-<!ENTITY expertModeChecbox.label			"Szakértő mód">
-<!ENTITY importRuleButton.label				"@import">
-<!ENTITY mediaRuleButton.label				"@media">
-<!ENTITY linkedSheetButton.label			"Hivatkozás">
-<!ENTITY styleSheetButton.label				"Stílus">
-<!ENTITY ruleButton.label					"Szabálykészlet">
-<!ENTITY upButton.label						"Felfelé">
-<!ENTITY downButton.label					"Lefelé">
-<!ENTITY refreshButton.label				"Frissítés">
-<!ENTITY removeButton.label					"Eltávolítás">
-<!ENTITY sheetInfoTab.label					"Általános">
-<!ENTITY textTab.label						"Szöveg">
-<!ENTITY borderTab.label					"Szegélyek">
-<!ENTITY marginsTab.label					"Margók">
-<!ENTITY boxTab.label						"Doboz">
-<!ENTITY auralTab.label						"Beszéd">
-<!ENTITY fontFamily.label					"Betűcsalád:">
-<!ENTITY inheritedFontFamily.label			"örökölt">
-<!ENTITY useCustomFontFamily.label			"Egyéni betűcsalád használata:">
-<!ENTITY fontData.label						"Betűkészletadatok">
-<!ENTITY exampleSentence.label				"Öt szép szűzlány őrült írót nyúz">
-<!ENTITY backgroundTab.label				"Háttér">
+<!ENTITY sheetsTreeColumn.label                 "Lapok és szabályok">
+<!ENTITY expertModeChecbox.label                "Szakértő mód">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "Hivatkozott stíluslapok">
+<!ENTITY styleSheetButton.label                 "Belső stíluslapok">
+<!ENTITY ruleButton.label                       "Stílusszabály">
+<!ENTITY upButton.label                         "Fel">
+<!ENTITY downButton.label                       "Le">
+<!ENTITY refreshButton.label                    "Frissítés">
+<!ENTITY removeButton.label                     "Eltávolítás">
+<!ENTITY sheetInfoTab.label                     "Általános">
+<!ENTITY textTab.label                          "Szöveg">
+<!ENTITY borderTab.label                        "Szegélyek">
+<!ENTITY marginsTab.label                       "Margók">
+<!ENTITY boxTab.label                           "Doboz">
+<!ENTITY auralTab.label                         "Beszéd">
+<!ENTITY fontFamily.label                       "Betűcsalád:">
+<!ENTITY inheritedFontFamily.label              "örökölt">
+<!ENTITY useCustomFontFamily.label              "Egyéni betűcsalád használata:">
+<!ENTITY fontData.label                         "Betűkészletadatok">
+<!ENTITY exampleSentence.label                  "Öt szép szűzlány őrült írót nyúz">
+<!ENTITY backgroundTab.label                    "Háttér">
 
-<!ENTITY unspecifiedValue.label				"nem megadott">
-<!ENTITY predefFontFamilyRadio.label		"előre megadott:">
-<!ENTITY fontSize.label						"Betűméret:">
-<!ENTITY lineHeight.label                   "Sormagasság:">
-<!ENTITY normalLineHeight.label             "normál">
-<!ENTITY color.label						"Szín:">
-<!ENTITY fontWeight.label					"Betűvastagság:">
-<!ENTITY normalValue.label					"Normál">
-<!ENTITY boldValue.label					"Félkövér">
-<!ENTITY bolderValue.label					"Kövérebb">
-<!ENTITY lighterValue.label					"Soványabb">
-<!ENTITY inheritedValue.label				"Örökölt">
-<!ENTITY fontStyle.label					"Betűstílus:">
-<!ENTITY italicValue.label					"Kurzív">
-<!ENTITY obliqueValue.label					"Dőlt">
-<!ENTITY textTransform.label				"Kis/nagy:">
-<!ENTITY noneTextTransformValue.label		"Nincs változás">
-<!ENTITY lowercaseValue.label				"Kisbetű">
-<!ENTITY uppercaseValue.label				"Nagybetű">
-<!ENTITY capitalizeValue.label				"Nagy kezdőbetű">
+<!ENTITY unspecifiedValue.label                 "nem megadott">
+<!ENTITY predefFontFamilyRadio.label            "előre megadott:">
+<!ENTITY fontSize.label                         "Betűméret:">
+<!ENTITY lineHeight.label                       "Sormagasság:">
+<!ENTITY normalLineHeight.label                 "normál">
+<!ENTITY color.label                            "Szín:">
+<!ENTITY fontWeight.label                       "Betűvastagság:">
+<!ENTITY normalValue.label                      "Normál">
+<!ENTITY boldValue.label                        "Félkövér">
+<!ENTITY bolderValue.label                      "Kövérebb">
+<!ENTITY lighterValue.label                     "Soványabb">
+<!ENTITY inheritedValue.label                   "Örökölt">
+<!ENTITY fontStyle.label                        "Betűstílus:">
+<!ENTITY italicValue.label                      "Kurzív">
+<!ENTITY obliqueValue.label                     "Dőlt">
+<!ENTITY textTransform.label                    "Kis/nagy:">
+<!ENTITY noneTextTransformValue.label           "Nincs változás">
+<!ENTITY lowercaseValue.label                   "Kisbetű">
+<!ENTITY uppercaseValue.label                   "Nagybetű">
+<!ENTITY capitalizeValue.label                  "Nagy kezdőbetű">
 
-<!ENTITY closeButton.label					"Bezárás">
+<!ENTITY closeButton.label                      "Bezárás">
 
-<!ENTITY largerFontSize.label				"nagyobb">
-<!ENTITY smallerFontSize.label				"kisebb">
-<!ENTITY xxsmallFontSize.label				"xx-kicsi">
-<!ENTITY xsmallFontSize.label				"x-kicsi">
-<!ENTITY smallFontSize.label				"kicsi">
-<!ENTITY mediumFontSize.label				"közepes">
-<!ENTITY largeFontSize.label				"nagy">
-<!ENTITY xlargeFontSize.label				"x-nagy">
-<!ENTITY xxlargeFontSize.label				"xx-nagy">
+<!ENTITY largerFontSize.label                   "nagyobb">
+<!ENTITY smallerFontSize.label                  "kisebb">
+<!ENTITY xxsmallFontSize.label                  "xx-kicsi">
+<!ENTITY xsmallFontSize.label                   "x-kicsi">
+<!ENTITY smallFontSize.label                    "kicsi">
+<!ENTITY mediumFontSize.label                   "közepes">
+<!ENTITY largeFontSize.label                    "nagy">
+<!ENTITY xlargeFontSize.label                   "x-nagy">
+<!ENTITY xxlargeFontSize.label                  "xx-nagy">
 
-<!ENTITY textAlign.label					"Igazítás:">
-<!ENTITY rightTextAlign.label				"Jobbra">
-<!ENTITY leftTextAlign.label				"Balra">
-<!ENTITY centerTextAlign.label				"Középre">
-<!ENTITY justifyTextAlign.label				"Sorkizárt">
+<!ENTITY textAlign.label                        "Igazítás:">
+<!ENTITY rightTextAlign.label                   "Jobbra">
+<!ENTITY leftTextAlign.label                    "Balra">
+<!ENTITY centerTextAlign.label                  "Középre">
+<!ENTITY justifyTextAlign.label                 "Sorkizárt">
 
-<!ENTITY textDecoration.label				"Szövegdíszítés:">
-<!ENTITY overlineTextDecoration.label		"Felülvonás">
-<!ENTITY underlineTextDecoration.label		"Aláhúzás">
-<!ENTITY linethroughTextDecoration.label	"Áthúzás">
-<!ENTITY blinkTextDecoration.label			"Villogás">
-<!ENTITY noneTextDecoration.label			"Nincs">
+<!ENTITY textDecoration.label                   "Szövegdíszítés:">
+<!ENTITY overlineTextDecoration.label           "Felülvonás">
+<!ENTITY underlineTextDecoration.label          "Aláhúzott">
+<!ENTITY linethroughTextDecoration.label        "Áthúzás">
+<!ENTITY blinkTextDecoration.label              "Villogás">
+<!ENTITY noneTextDecoration.label               "Nincs">
 
-<!ENTITY backgroundColor.label				"Szín:">
-<!ENTITY backgroundImage.label              "Kép:">
-<!ENTITY chooseFileButton.label             "Fájlválasztás">
-<!ENTITY backgroundRepeat.label             "Csempe:">
-<!ENTITY norepeatBackgroundRepeat.label     "nincs csempézés">
-<!ENTITY repeatxBackgroundRepeat.label      "vízszintesen">
-<!ENTITY repeatyBackgroundRepeat.label      "függőlegesen">
-<!ENTITY repeatBackgroundRepeat.label       "vízszintesen és függőlegesen">
-<!ENTITY backgroundPosition.label           "Pozíció:">
-<!ENTITY leftXBackgroundPosition.label      "Balra">
-<!ENTITY centerXBackgroundPosition.label    "Középre">
-<!ENTITY rightXBackgroundPosition.label     "Jobbra">
-<!ENTITY topYBackgroundPosition.label       "Tetejére">
-<!ENTITY centerYBackgroundPosition.label    "Középre">
-<!ENTITY bottomYBackgroundPosition.label    "Aljára">
-<!ENTITY backgroundAttachmentCheckbox.label "A kép az oldallal együtt gördül">
-
-
-<!ENTITY useBorderShorthand.label           "Mind a négy oldalon azonos szegélystílus">
-<!ENTITY borderStyle.label                  "Stílus:">
-<!ENTITY borderWidth.label                  "Szélesség:">
-<!ENTITY borderColor.label                  "Szín:">
-<!ENTITY topBorder.label                    "Fent:">
-<!ENTITY leftBorder.label                   "Balra:">
-<!ENTITY rightBorder.label                  "Jobbra:">
-<!ENTITY bottomBorder.label                 "Lent:">
-<!ENTITY borderPreview.label                "Előnézet">
-<!ENTITY noneBorderStyle.label              "nincs">
-<!ENTITY hiddenBorderStyle.label            "rejtett">
-<!ENTITY solidBorderStyle.label             "folytonos">
-<!ENTITY dottedBorderStyle.label            "pontozott">
-<!ENTITY dashedBorderStyle.label            "szaggatott">
-<!ENTITY doubleBorderStyle.label            "dupla">
-<!ENTITY grooveBorderStyle.label            "bevésett">
-<!ENTITY ridgeBorderStyle.label             "kiemelkedő">
-<!ENTITY insetBorderStyle.label             "kiemelt">
-<!ENTITY outsetBorderStyle.label            "besüllyesztett">
-
-<!ENTITY display.label                      "Megjelenítés:">
-<!ENTITY noneDisplay.label                  "nincs">
-<!ENTITY inlineDisplay.label                "inline">
-<!ENTITY blockDisplay.label                 "block">
-<!ENTITY runinDisplay.label                 "run-in">
-<!ENTITY compactDisplay.label               "compact">
-<!ENTITY listitemDisplay.label              "list-item">
-<!ENTITY tableDisplay.label                 "table">
-<!ENTITY tablerowDisplay.label              "table-row">
-<!ENTITY tablecellDisplay.label             "table-cell">
-<!ENTITY tablecaptionDisplay.label          "table-caption">
-<!ENTITY inlinetableDisplay.label           "inline-table">
-<!ENTITY tablecolumnDisplay.label           "table-column">
-<!ENTITY tablerowgroupDisplay.label         "table-row-group">
-<!ENTITY tableheadergroupDisplay.label      "table-header-group">
-<!ENTITY tablefootergroupDisplay.label      "table-footer-group">
-<!ENTITY tablecolumngroupDisplay.label      "table-column-group">
-
-<!ENTITY visibility.label                   "Láthatóság:">
-<!ENTITY visibleVisibility.label            "látható">
-<!ENTITY hiddenVisibility.label             "rejtett">
-<!ENTITY collapseVisibility.label           "összecsukott">
-
-<!ENTITY float.label                        "Lebegés:">
-<!ENTITY leftFloat.label                    "bal">
-<!ENTITY rightFloat.label                   "jobb">
-<!ENTITY noneFloat.label                    "nincs">
-
-<!ENTITY clear.label                        "Törlés:">
-<!ENTITY noneClear.label                    "nincs">
-<!ENTITY leftClear.label                    "bal">
-<!ENTITY rightClear.label                   "jobb">
-<!ENTITY bothClear.label                    "mindkettő">
+<!ENTITY backgroundColor.label                  "Szín:">
+<!ENTITY backgroundImage.label                  "Kép:">
+<!ENTITY chooseFileButton.label                 "Fájlválasztás">
+<!ENTITY backgroundRepeat.label                 "Csempe:">
+<!ENTITY norepeatBackgroundRepeat.label         "nincs csempézés">
+<!ENTITY repeatxBackgroundRepeat.label          "vízszintesen">
+<!ENTITY repeatyBackgroundRepeat.label          "függőlegesen">
+<!ENTITY repeatBackgroundRepeat.label           "vízszintesen és függőlegesen">
+<!ENTITY backgroundPosition.label               "Pozíció:">
+<!ENTITY leftXBackgroundPosition.label          "Balra">
+<!ENTITY centerXBackgroundPosition.label        "Középre">
+<!ENTITY rightXBackgroundPosition.label         "Jobbra">
+<!ENTITY topYBackgroundPosition.label           "Tetejére">
+<!ENTITY centerYBackgroundPosition.label        "Középre">
+<!ENTITY bottomYBackgroundPosition.label        "Aljára">
+<!ENTITY backgroundAttachmentCheckbox.label     "A kép az oldallal együtt gördül">
 
 
-<!ENTITY position.label                     "Pozíció:">
-<!ENTITY staticPosition.label               "statikus">
-<!ENTITY fixedPosition.label                "rögzített">
-<!ENTITY absolutePosition.label             "abszolút">
-<!ENTITY relativePosition.label             "relatív">
+<!ENTITY useBorderShorthand.label               "Mind a négy oldalon azonos szegélystílus">
+<!ENTITY borderStyle.label                      "Stílus:">
+<!ENTITY borderWidth.label                      "Szélesség:">
+<!ENTITY borderColor.label                      "Szín:">
+<!ENTITY topBorder.label                        "Fent:">
+<!ENTITY leftBorder.label                       "Baloldalt:">
+<!ENTITY rightBorder.label                      "Jobboldalt:">
+<!ENTITY bottomBorder.label                     "Lent:">
+<!ENTITY borderPreview.label                    "Előnézet">
+<!ENTITY noneBorderStyle.label                  "nincs">
+<!ENTITY hiddenBorderStyle.label                "rejtett">
+<!ENTITY solidBorderStyle.label                 "folytonos">
+<!ENTITY dottedBorderStyle.label                "pontozott">
+<!ENTITY dashedBorderStyle.label                "szaggatott">
+<!ENTITY doubleBorderStyle.label                "dupla">
+<!ENTITY grooveBorderStyle.label                "bevésett">
+<!ENTITY ridgeBorderStyle.label                 "kiemelkedő">
+<!ENTITY insetBorderStyle.label                 "kiemelt">
+<!ENTITY outsetBorderStyle.label                "besüllyesztett">
 
-<!ENTITY overflow.label                     "Túlcsordulás:">
-<!ENTITY visibleOverflow.label              "látható">
-<!ENTITY hiddenOverflow.label               "rejtett">
-<!ENTITY scrollOverflow.label               "görgetés">
-<!ENTITY autoOverflow.label                 "auto">
+<!ENTITY display.label                          "Megjelenítés:">
+<!ENTITY noneDisplay.label                      "nincs">
+<!ENTITY inlineDisplay.label                    "inline">
+<!ENTITY blockDisplay.label                     "block">
+<!ENTITY runinDisplay.label                     "run-in">
+<!ENTITY compactDisplay.label                   "compact">
+<!ENTITY listitemDisplay.label                  "list-item">
+<!ENTITY tableDisplay.label                     "table">
+<!ENTITY tablerowDisplay.label                  "table-row">
+<!ENTITY tablecellDisplay.label                 "table-cell">
+<!ENTITY tablecaptionDisplay.label              "table-caption">
+<!ENTITY inlinetableDisplay.label               "inline-table">
+<!ENTITY tablecolumnDisplay.label               "table-column">
+<!ENTITY tablerowgroupDisplay.label             "table-row-group">
+<!ENTITY tableheadergroupDisplay.label          "table-header-group">
+<!ENTITY tablefootergroupDisplay.label          "table-footer-group">
+<!ENTITY tablecolumngroupDisplay.label          "table-column-group">
 
-<!ENTITY zIndex.label                       "Z-index:">
+<!ENTITY visibility.label                       "Láthatóság:">
+<!ENTITY visibleVisibility.label                "látható">
+<!ENTITY hiddenVisibility.label                 "rejtett">
+<!ENTITY collapseVisibility.label               "összecsukott">
 
-<!ENTITY width.label                        "Szélesség:">
-<!ENTITY minWidth.label                     "Min. szél.:">
-<!ENTITY maxWidth.label                     "Max. szél.:">
-<!ENTITY height.label                       "Magasság:">
-<!ENTITY minHeight.label                    "Min. mag.:">
-<!ENTITY maxHeight.label                    "Max. mag.:">
+<!ENTITY float.label                            "Lebegés:">
+<!ENTITY leftFloat.label                        "bal">
+<!ENTITY rightFloat.label                       "jobb">
+<!ENTITY noneFloat.label                        "nincs">
 
-<!ENTITY margins.label                      "Margók:">
-<!ENTITY paddings.label                     "Térközök:">
-<!ENTITY offsets.label                      "Eltolások:">
-<!ENTITY top.label                          "Fent:">
-<!ENTITY left.label                         "Balra:">
-<!ENTITY right.label                        "Jobbra:">
-<!ENTITY bottom.label                       "Lent:">
-
-<!ENTITY volume.label                       "Hangerő_">
-<!ENTITY xsoftVolume.label                  "x-halk">
-<!ENTITY softVolume.label                   "halk">
-<!ENTITY mediumVolume.label                 "közepes">
-<!ENTITY loudVolume.label                   "hangos">
-<!ENTITY xloudVolume.label                  "x-hangos">
-<!ENTITY muteVolume.label                   "Némítás">
-
-<!ENTITY speak.label                        "Beszéd:">
-<!ENTITY noneSpeak.label                    "nincs">
-<!ENTITY normalSpeak.label                  "normál">
-<!ENTITY spelloutSpeak.label                "betűzés">
-
-<!ENTITY speechRate.label                   "Beszédsebesség:">
-<!ENTITY slowerSpeechRate.label             "lassabb">
-<!ENTITY fasterSpeechRate.label             "gyorsabb">
-<!ENTITY xslowSpeechRate.label              "x-lassú">
-<!ENTITY slowSpeechRate.label               "lassú">
-<!ENTITY mediumSpeechRate.label             "közepes">
-<!ENTITY fastSpeechRate.label               "gyors">
-<!ENTITY xfastSpeechRate.label              "x-gyors">
-
-<!ENTITY opacity.label                      "Átlátszóság:">
-
-<!ENTITY compatibilityTab.label             "Kompatibilitás">
-
-<!ENTITY transparentOpacity.label           "átlátszó">
-
-<!ENTITY pauseBefore.label                  "Szünet előtte:">
-<!ENTITY cueBefore.label                    "Végszó előtte:">
-<!ENTITY pauseAfter.label                   "Szünet utána:">
-<!ENTITY cueAfter.label                     "Végszó utána:">
+<!ENTITY clear.label                            "Törlés:">
+<!ENTITY noneClear.label                        "nincs">
+<!ENTITY leftClear.label                        "bal">
+<!ENTITY rightClear.label                       "jobb">
+<!ENTITY bothClear.label                        "mindkettő">
 
 
-<!ENTITY listTab.label			"Listák">
+<!ENTITY position.label                         "Pozíció:">
+<!ENTITY staticPosition.label                   "statikus">
+<!ENTITY fixedPosition.label                    "rögzített">
+<!ENTITY absolutePosition.label                 "abszolút">
+<!ENTITY relativePosition.label                 "relatív">
 
-<!ENTITY listStyleType.label		"Listastílus típusa:">
-<!ENTITY noneListStyleType.label                        "nincs">
-<!ENTITY discListStyleType.label                        "korong">
-<!ENTITY circleListStyleType.label                      "kör">
-<!ENTITY squareListStyleType.label                      "négyzet">
-<!ENTITY decimalListStyleType.label                     "decimális">
-<!ENTITY decimalLeadingZeroListStyleType.label        "decimális bevezető nullával">
-<!ENTITY lowerRomanListStyleType.label                 "kisbetűs római">
-<!ENTITY upperRomanListStyleType.label                 "nagybetűs római">
-<!ENTITY lowerGreekListStyleType.label                 "kisbetűs görög">
-<!ENTITY lowerAlphaListStyleType.label                 "nagybetűs">
-<!ENTITY upperAlphaListStyleType.label                 "kisbetűs">
-<!ENTITY armenianListStyleType.label                    "örmény">
-<!ENTITY georgianListStyleType.label                    "grúz">
+<!ENTITY overflow.label                         "Túlcsordulás:">
+<!ENTITY visibleOverflow.label                  "látható">
+<!ENTITY hiddenOverflow.label                   "rejtett">
+<!ENTITY scrollOverflow.label                   "görgetés">
+<!ENTITY autoOverflow.label                     "auto">
+
+<!ENTITY zIndex.label                           "Z-index:">
+
+<!ENTITY width.label                            "Szélesség:">
+<!ENTITY minWidth.label                         "Min. szél.:">
+<!ENTITY maxWidth.label                         "Max. szél.:">
+<!ENTITY height.label                           "Magasság:">
+<!ENTITY minHeight.label                        "Min. mag.:">
+<!ENTITY maxHeight.label                        "Max. mag.:">
+
+<!ENTITY margins.label                          "Margók:">
+<!ENTITY paddings.label                         "Térközök:">
+<!ENTITY offsets.label                          "Eltolások:">
+<!ENTITY top.label                              "Fent:">
+<!ENTITY left.label                             "Baloldalt:">
+<!ENTITY right.label                            "Jobboldalt:">
+<!ENTITY bottom.label                           "Lent:">
+
+<!ENTITY volume.label                           "Hangerő_">
+<!ENTITY xsoftVolume.label                      "x-halk">
+<!ENTITY softVolume.label                       "halk">
+<!ENTITY mediumVolume.label                     "közepes">
+<!ENTITY loudVolume.label                       "hangos">
+<!ENTITY xloudVolume.label                      "x-hangos">
+<!ENTITY muteVolume.label                       "Némítás">
+
+<!ENTITY speak.label                            "Beszéd:">
+<!ENTITY noneSpeak.label                        "nincs">
+<!ENTITY normalSpeak.label                      "normál">
+<!ENTITY spelloutSpeak.label                    "betűzés">
+
+<!ENTITY speechRate.label                       "Beszédsebesség:">
+<!ENTITY slowerSpeechRate.label                 "lassabb">
+<!ENTITY fasterSpeechRate.label                 "gyorsabb">
+<!ENTITY xslowSpeechRate.label                  "x-lassú">
+<!ENTITY slowSpeechRate.label                   "lassú">
+<!ENTITY mediumSpeechRate.label                 "közepes">
+<!ENTITY fastSpeechRate.label                   "gyors">
+<!ENTITY xfastSpeechRate.label                  "x-gyors">
+
+<!ENTITY opacity.label                          "Átlátszóság:">
+
+<!ENTITY compatibilityTab.label                 "Kompatibilitás">
+
+<!ENTITY transparentOpacity.label               "átlátszó">
+
+<!ENTITY pauseBefore.label                      "Szünet előtte:">
+<!ENTITY cueBefore.label                        "Végszó előtte:">
+<!ENTITY pauseAfter.label                       "Szünet utána:">
+<!ENTITY cueAfter.label                         "Végszó utána:">
 
 
-<!ENTITY listStyleImage.label		"Listastílus képe:">
+<!ENTITY listTab.label                          "Listák">
 
-<!ENTITY listStylePosition.label	"Listastílus pozíciója:">
-<!ENTITY insideListStylePosition.label		"belül">
-<!ENTITY outsideListStylePosition.label		"kívül">
+<!ENTITY listStyleType.label                    "Listastílus típusa:">
+<!ENTITY noneListStyleType.label                "nincs">
+<!ENTITY discListStyleType.label                "korong">
+<!ENTITY circleListStyleType.label              "kör">
+<!ENTITY squareListStyleType.label              "négyzet">
+<!ENTITY decimalListStyleType.label             "decimális">
+<!ENTITY decimalLeadingZeroListStyleType.label  "decimális bevezető nullával">
+<!ENTITY lowerRomanListStyleType.label          "kisbetűs római">
+<!ENTITY upperRomanListStyleType.label          "nagybetűs római">
+<!ENTITY lowerGreekListStyleType.label          "kisbetűs görög">
+<!ENTITY lowerAlphaListStyleType.label          "nagybetűs">
+<!ENTITY upperAlphaListStyleType.label          "kisbetűs">
+<!ENTITY armenianListStyleType.label            "örmény">
+<!ENTITY georgianListStyleType.label            "grúz">
+
+
+<!ENTITY listStyleImage.label                   "Listastílus képe:">
+<!ENTITY listStylePosition.label                "Listastílus pozíciója:">
+<!ENTITY insideListStylePosition.label          "belül">
+<!ENTITY outsideListStylePosition.label         "kívül">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extract and create generic style">
-<!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Current styles for:">
-<!ENTITY renameButton.label                     "Edit selector">
+<!ENTITY makeCSSRule.label                      "Külső CSS-szabály létrehozása">
+<!ENTITY makecssrule.accesskey                  "K">
+<!ENTITY currentstylesfor.label                 "Jelenlegi stílusok:">
+<!ENTITY renameButton.label                     "Szerkesztés">
 
-<!-- LOCALIZATION NOTE: DO NOT TRANSLATE (this will raise a bug with KompoZer 0.7.10) -->
 <!ENTITY autoMarginUnit.label                   "auto">
-<!ENTITY thinBorderUnit.label                   "thin">
-<!ENTITY mediumBorderUnit.label                 "medium">
-<!ENTITY thickBorderUnit.label                  "thick">
+<!ENTITY thinBorderUnit.label                   "vékony">
+<!ENTITY mediumBorderUnit.label                 "közepes">
+<!ENTITY thickBorderUnit.label                  "vastag">

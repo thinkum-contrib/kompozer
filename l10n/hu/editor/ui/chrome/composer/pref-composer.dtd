@@ -40,41 +40,43 @@
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
 
 <!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
-<!ENTITY  title.label               "Általános">
-<!ENTITY  lHeader                   "Általános">
-<!ENTITY  rHeader                   "Új weboldalak beállításai">
+<!ENTITY  title.label                           "Általános">
+<!ENTITY  lHeader                               "Általános">
+<!ENTITY  rHeader                               "Új weboldalak beállításai">
 
 <!ENTITY  tableEditing.label                    "Táblázat szerkesztése">
 <!ENTITY  maintainTableStructure.label          "Cellák beszúrásakor vagy törlésekor megtartja a táblázat szerkezetét.">
 <!ENTITY  maintainTableStructure.tooltip        "Megakadályozza a cellaszegélyek letörését egy vagy több cella törlésénél">
 <!ENTITY maintainStructure.accesskey           "m">
 
-<!ENTITY  savingFiles.title           "Fájlok mentésekor">
-<!ENTITY  preserveExistingFormatting  "Megtartja az eredeti HTML forrás formázásait">
+<!ENTITY  savingFiles.title                     "Fájlok mentésekor">
+<!ENTITY  preserveExistingFormatting            "Megtartja az eredeti HTML forrás formázásait">
 <!ENTITY preserveExistingFormatting.accesskey  "o">
 <!ENTITY  preserveExistingFormatting.tooltip    "Megőrzi a sortöréseket és az oldal eredeti formázásait">
-<!ENTITY  reformat.label              "HTML forrás újraformázása">
-<!ENTITY reformat.accesskey          "r">
-<!ENTITY  reformat.tooltip            "A HTML tageket újraformázza sortörés és behúzás használatával">
+<!ENTITY  reformat.label                        "HTML forrás újraformázása">
+<!ENTITY reformat.accesskey                    "r">
+<!ENTITY  reformat.tooltip                      "A HTML tageket újraformázza sortörés és behúzás használatával">
 
-<!ENTITY  saveAssociatedFiles.label "Képek és más csatolt fájlok mentése az oldalak mentésekor">
-<!ENTITY  showPublishDialog.label   "A Közzététel párbeszédpanel megjelenítése minden közzététel alkalmával">
+<!ENTITY  saveAssociatedFiles.label             "Képek és más csatolt fájlok mentése az oldalak mentésekor">
+<!ENTITY  showPublishDialog.label               "A Közzététel párbeszédpanel megjelenítése minden közzététel alkalmával">
 
-<!ENTITY  saving                    "Mentés">
-<!ENTITY  AutoSaveCheck             "Automatikus mentés">
-<!ENTITY  minText                   "percenként">
+<!ENTITY  saving                                "Mentés">
+<!ENTITY  AutoSaveCheck                         "Automatikus mentés">
+<!ENTITY  minText                               "percenként">
 
-<!ENTITY  exterLegend.label         "Külső szerkesztők">
-<!ENTITY  htmlSource                "HTML-forrás:">
-<!ENTITY  imageeditor               "Képek:">
-<!ENTITY  chooseButton.label        "Tallózás">
+<!ENTITY  exterLegend.label                     "Külső szerkesztők">
+<!ENTITY  htmlSource                            "HTML-forrás:">
+<!ENTITY  imageeditor                           "Képek:">
+<!ENTITY  chooseButton.label                    "Tallózás">
 
-<!ENTITY  recentFiles.title         "Legutóbb szerkesztett oldalak">
-<!ENTITY documentsInMenu.accesskey     "L">
-<!ENTITY  documentsInMenu           "A listában megjelenő oldalak maximális száma:">
+<!ENTITY  recentFiles.title                     "Legutóbb szerkesztett oldalak">
+<!ENTITY documentsInMenu.accesskey             "L">
+<!ENTITY  documentsInMenu                       "A listában megjelenő oldalak maximális száma:">
 
-<!ENTITY  cssEditing.label          "Stíluslap (CSS)">
-<!ENTITY  useCSS.label              "Stílusok használata HTML elemek és attribútumok helyett">
+<!ENTITY  cssEditing.label                      "Stíluslap (CSS)">
+<!ENTITY  useCSS.label                          "Stílusok használata HTML elemek és attribútumok helyett">
 
-<!ENTITY  siteManager.label         "Webhelykezelő">
-<!ENTITY  openInNewTab.label        "Dokumentum megnyitása mindig új lapon">
+<!ENTITY  siteManager.label                     "Webhelykezelő">
+<!ENTITY  openInNewTab.label                    "Dokumentum megnyitása mindig új lapon">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Rendszerikonok használata">

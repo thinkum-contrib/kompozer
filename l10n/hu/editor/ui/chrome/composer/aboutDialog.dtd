@@ -38,8 +38,8 @@
 
 <!ENTITY aboutDialog.title      "A &brandShortName; névjegye">
 <!ENTITY copyright              "Copyright és a közreműködők adatai">
-<!ENTITY copyrightLink          "kompozer.net">
-<!ENTITY credits                "Közreműködők">
+<!ENTITY copyrightLink          "http://kompozer.net/about/">
+<!ENTITY credits                "Köszönetnyilvánítás">
 <!ENTITY aboutVersion           "verzió">
-<!ENTITY copyrightText "©2006 Contributors. All Rights Reserved.">
+<!ENTITY copyrightText          "&#169;1998-2009 A közreműködők. Minden jog fenntartva.">
 <!ENTITY aboutLink              "&lt; A &brandShortName; névjegye">

@@ -20,6 +20,7 @@
    -
    - Contributor(s):
    -   Original author: Daniel Glazman (daniel@glazman.org)
+   -   Fabien Cazenave (Kaze) http://fabiwan.kenobi.free.fr/
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,22 +38,25 @@
 
 
 <!-- Window title -->
-<!ENTITY cascadesMenuItem.label				"CSS-szerkesztő">
-<!ENTITY cascadesMenuItem.accesskey			"c">
-<!ENTITY classSelectMenu.label    "Osztályok">
-<!ENTITY idSelectMenu.label       "Azonosító">
-<!ENTITY inlineStyles.label         "Közvetlen formázás">
-<!ENTITY inlinestyles.accesskey     "K">
-<!ENTITY textProperties.label       "Szöveg tulajdonságai">
-<!ENTITY textproperties.accesskey   "S">
-<!ENTITY borderProperties.label     "Szegély tulajdonságai">
-<!ENTITY borderproperties.accesskey "z">
-<!ENTITY backgroundProperties.label "Háttér tulajdonságai">
-<!ENTITY backgroundproperties.accesskey "H">
-<!ENTITY boxProperties.label        "Doboz tulajdonságai">
-<!ENTITY boxproperties.accesskey    "D">
-<!ENTITY auralProperties.label      "Beszéd tulajdonságai">
-<!ENTITY auralproperties.accesskey  "B">
-<!ENTITY makeCSSRule.label          "Külső CSS-szabály létrehozása">
-<!ENTITY makecssrule.accesskey      "K">
+<!ENTITY cascadesMenuItem.label         "CSS-szerkesztő">
+<!ENTITY cascadesMenuItem.accesskey     "c">
 <!ENTITY cascadesMenuItem.keybinding    "VK_F11">
+
+<!-- Structure Toolbar Context Menu items -->
+<!ENTITY classSelectMenu.label          "Osztályok">
+<!ENTITY idSelectMenu.label             "Azonosító">
+<!ENTITY inlineStyles.label             "Közvetlen formázás">
+<!ENTITY inlinestyles.accesskey         "K">
+
+<!ENTITY textProperties.label           "Szöveg tulajdonságai">
+<!ENTITY textproperties.accesskey       "S">
+<!ENTITY borderProperties.label         "Szegély tulajdonságai">
+<!ENTITY borderproperties.accesskey     "z">
+<!ENTITY backgroundProperties.label     "Háttér tulajdonságai">
+<!ENTITY backgroundproperties.accesskey "H">
+<!ENTITY boxProperties.label            "Doboz tulajdonságai">
+<!ENTITY boxproperties.accesskey        "D">
+<!ENTITY auralProperties.label          "Beszéd tulajdonságai">
+<!ENTITY auralproperties.accesskey      "B">
+<!ENTITY makeCSSRule.label              "Külső CSS-szabály létrehozása">
+<!ENTITY makecssrule.accesskey          "K">

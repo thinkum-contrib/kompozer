@@ -1,0 +1,21 @@
+<!ENTITY helpers.label                "Külső alkalmazások">
+
+<!ENTITY application.label            "Alkalmazás:">
+<!ENTITY webBrowser.label             "Böngésző">
+<!ENTITY textEditor.label             "Szövegszerkesztő">
+<!ENTITY imageEditor.label            "Képszerkesztő">
+<!ENTITY mediaPlayer.label            "Médialejátszó">
+<!ENTITY fileManager.label            "Fájlkezelő">
+<!ENTITY ftpClient.label              "FTP-kliens">
+
+<!ENTITY useSystemHelper.label        "Az alapértelmezett rendszerbeállítás használata">
+<!ENTITY useCustomHelper.label        "Egyéni alkalmazás használata:">
+<!ENTITY path.label                   "Fájl útvonala">
+<!ENTITY arguments.label              "Argumentumok">
+<!ENTITY filePicker.tooltip           "Fájl választása…">
+
+<!ENTITY fileFilter.label             "Fájlkiterjesztések (*):">
+<!ENTITY default.label                "alapértelmezett">
+<!ENTITY needToRestart.label          "(*) A beállítások módosításai csak a KompoZer újraindítása után lépnek életbe.">
+
+

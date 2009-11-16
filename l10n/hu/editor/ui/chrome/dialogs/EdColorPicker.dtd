@@ -35,31 +35,31 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY previewColour.label     "Előnézet:">
-<!ENTITY dialog.title            "Színválasztó">
+<!ENTITY previewColour.label       "Előnézet:">
+<!ENTITY dialog.title              "Színválasztó">
 
-<!ENTITY predef.label            "Előre megadott színek:">
-<!ENTITY rgb.label               "RGB">
-<!ENTITY hsb.label               "HSB">
+<!ENTITY predef.label              "Előre megadott színek:">
+<!ENTITY rgb.label                 "RGB">
+<!ENTITY hsb.label                 "HSB">
 
-<!ENTITY red.label               "Vörös:">
-<!ENTITY green.label             "Zöld:">
-<!ENTITY blue.label              "Kék:">
+<!ENTITY red.label                 "Vörös:">
+<!ENTITY green.label               "Zöld:">
+<!ENTITY blue.label                "Kék:">
 
-<!ENTITY hue.label               "Árnyalat:">
-<!ENTITY saturation.label        "Telítettség:">
-<!ENTITY brightness.label        "Fényesség:">
+<!ENTITY hue.label                 "Árnyalat:">
+<!ENTITY saturation.label          "Telítettség:">
+<!ENTITY brightness.label          "Fényesség:">
 
-<!ENTITY transparency.label       "Átlátszó">
+<!ENTITY transparency.label        "Átlátszó">
 
-<!ENTITY background.label "Háttér:">
-<!ENTITY background.accessKey "H">
-<!ENTITY table.label "Táblázat">
-<!ENTITY table.accessKey "T">
-<!ENTITY cell.label "Cellák">
-<!ENTITY cell.accessKey "C">
+<!ENTITY background.label          "Háttér:">
+<!ENTITY background.accessKey      "H">
+<!ENTITY table.label               "Táblázat">
+<!ENTITY table.accessKey           "T">
+<!ENTITY cell.label                "Cellák">
+<!ENTITY cell.accessKey            "C">
 
-<!ENTITY lastPickedColor.label "Utoljára kiválasztott szín">
+<!ENTITY lastPickedColor.label     "Utoljára kiválasztott szín">
 <!ENTITY lastPickedColor.accessKey "U">
 
 <!ENTITY hexColor.label            "Hex:">

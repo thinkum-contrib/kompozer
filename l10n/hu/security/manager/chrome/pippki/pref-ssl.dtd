@@ -40,7 +40,7 @@
 <!ENTITY  SSLWarnings.caption               "SSL-figyelmeztetések">
 <!ENTITY  SSLClientAuthMethod.caption       "Ügyféloldali tanúsítvány kiválasztása">
 
-<!ENTITY pref.ssl.title                     "SSL">
+<!ENTITY pref.ssl.title                     "SSL (Secure Sockets Layer)">
 <!ENTITY enable.ssl3                        "SSL v3 engedélyezése">
 <!ENTITY enable.ssl3.accesskey              "3">
 <!ENTITY enable.tls                         "TLS engedélyezése">

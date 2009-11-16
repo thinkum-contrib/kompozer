@@ -41,15 +41,15 @@
 <!ENTITY sidebar.panels.label           "Oldalsáv">
 <!ENTITY sidebar.reload.label           "Frissítés">
 <!ENTITY sidebar.reload.accesskey       "F">
-<!ENTITY sidebar.picker.label           "Panellapok">
+<!ENTITY sidebar.picker.label           "Lapok">
 <!ENTITY sidebar.customize.label        "Az Oldalsáv testreszabása…">
 <!ENTITY sidebar.customize.accesskey    "A">
 <!ENTITY sidebar.hide.label             "Panel elrejtése">
 <!ENTITY sidebar.hide.accesskey         "P">
 <!ENTITY sidebar.switch.label           "Váltás erre a panelre">
 <!ENTITY sidebar.switch.accesskey       "v">
-<!ENTITY sidebarCmd.label               "Webhelykezelő">
-<!ENTITY sidebarCmd.accesskey           "W">
+<!ENTITY sidebarCmd.label               "Oldalsáv">
+<!ENTITY sidebarCmd.accesskey           "O">
 <!ENTITY sidebar.loading.label          "Betöltés…">
 <!ENTITY sidebar.loadstopped.label      "Betöltés leállítva">
 <!ENTITY sidebar.loading.stop.label     "Leállítás">
@@ -61,7 +61,7 @@
 <!ENTITY sidebar.sbDirectory.label   "Oldalsáv-katalógus…">
 
 <!ENTITY sidebar.pagenotfound.label  "Ez a panellap most nem áll rendelkezésre.">
-<!ENTITY sidebar.close.tooltip       "Webhelykezelő bezárása">
+<!ENTITY sidebar.close.tooltip       "Bezárás">
 <!ENTITY sidebar.open.tooltip        "Megnyitás">
 
 

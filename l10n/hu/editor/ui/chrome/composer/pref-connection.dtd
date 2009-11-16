@@ -8,9 +8,9 @@
 <!ENTITY  manualTypeRadio.label         "Kézi proxybeállítás">
 <!ENTITY manualTypeRadio.accesskey     "z">
 <!ENTITY  autoTypeRadio.label           "Automatikus proxybeállítás URL:">
-<!ENTITY autoTypeRadio.accesskey       "a">
+<!ENTITY autoTypeRadio.accesskey       "A">
 <!ENTITY  configAutoconfigText.label    "Konfiguráció címe (URL):">
-<!ENTITY configAutoconfigText.accesskey "u">
+<!ENTITY configAutoconfigText.accesskey "K">
 <!ENTITY  reload.label                  "Frissítés">
 <!ENTITY reload.accesskey              "r">
 <!ENTITY  ftp.label                     "FTP-proxy:">
@@ -26,7 +26,7 @@
 <!ENTITY  socks4.label                  "SOCKS v4">
 <!ENTITY socks4.accesskey              "k">
 <!ENTITY  socks5.label                  "SOCKS v5">
-<!ENTITY socks5.accesskey              "v">
+<!ENTITY socks5.accesskey              "5">
 <!ENTITY  port.label                    "Port:">
 <!ENTITY HTTPport.accesskey            "p">
 <!ENTITY SSLport.accesskey             "o">
@@ -35,5 +35,5 @@
 <!ENTITY  gopherPort.accesskey          "">
 <!ENTITY SOCKSport.accesskey           "t">
 <!ENTITY  noproxy.label                 "Nincs proxy a következőhöz:">
-<!ENTITY noproxy.accesskey             "n">
+<!ENTITY noproxy.accesskey             "N">
 <!ENTITY  noproxyExplain.label          "Példa: .mozilla.org, .net.nz">

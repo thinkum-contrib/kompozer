@@ -24,7 +24,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label     "Kép és hivatkozott hely ellenőrzése">
 <!ENTITY urlsNotFound.label    "A következő kép vagy hivatkozott hely nem található:">
-<!ENTITY notFoundKey.label     "(&quot;X&quot; = fájl nem található, &quot;?&quot; = időtúllépés a kapcsolódás közben.)">
+<!ENTITY notFoundKey.label     "(„X” = fájl nem található, „?” = időtúllépés a kapcsolódás közben.)">
 <!ENTITY changeUrlButton.label "Kijelölt elem helyének megváltoztatása">
 <!ENTITY succeeded.label       "Sikeres">
 <!ENTITY failed.label          "Sikertelen">

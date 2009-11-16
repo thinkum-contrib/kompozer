@@ -36,12 +36,12 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY untitledDocument.label      "(névtelen)">
-<!ENTITY closeTab.label              "Böngészőlap bezárása">
-<!ENTITY closeTab.accesskey          "B">
-<!ENTITY closeOtherTabs.label        "Többi böngészőlap bezárása">
+<!ENTITY closeTab.label              "Lap bezárása">
+<!ENTITY closeTab.accesskey          "b">
+<!ENTITY closeOtherTabs.label        "Többi lap bezárása">
 <!ENTITY closeOtherTabs.accesskey    "T">
 <!ENTITY newTab.label                "Új lap">
-<!ENTITY newTab.accesskey            "Ú">
+<!ENTITY newTab.accesskey            "l">
 <!ENTITY revert.label                "Visszatérés az utoljára mentett változathoz">
 <!ENTITY revert.accesskey            "V">
 <!ENTITY refreshImages.label         "Képek frissítése">

@@ -37,15 +37,14 @@
 
 <!ENTITY window.title "Jelölőnyelv-tisztító">
 
-<!ENTITY trailingBR.label "Sorvégi &lt;br&gt;-ek eltávolítása">
+<!ENTITY trailingBR.label  "Sorvégi &lt;br&gt;-ek eltávolítása">
 <!ENTITY emptyBlocks.label "Üres blokkok eltávolítása">
-<!ENTITY emptyCells.label "Üres cellák igazításának eltávolítása">
+<!ENTITY emptyCells.label  "Üres cellák igazításának eltávolítása">
 <!ENTITY nestedLists.label "Egymásba ágyazott listák javítása">
+<!ENTITY localUrls.label   "Helyi URL-ek relativizálása">
 
 <!ENTITY cleanUp.label "Tisztítás">
-<!ENTITY close.label   "Bezár">
+<!ENTITY close.label   "Bezárás">
 
 <!ENTITY actionColumnHeader.label "Művelet">
 <!ENTITY reportColumnHeader.label "Jelentés">
-
-<!ENTITY localUrls.label           "Relativ helyi URLek">

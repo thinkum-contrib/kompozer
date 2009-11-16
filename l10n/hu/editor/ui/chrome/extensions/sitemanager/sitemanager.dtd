@@ -35,11 +35,14 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY editSitesList.label      "Webhelyek szerkesztése">
+<!ENTITY editSitesList.label      "Webhelylista szerkesztése…">
 
 <!ENTITY filterAll.label          "Minden fájl">
 <!ENTITY filterHTML.label         "HTML-dokumentumok">
+<!ENTITY filterCSS.label          "CSS-stíluslapok">
 <!ENTITY filterImages.label       "Képfájlok">
+<!ENTITY filterMedia.label        "Médiafájlok">
+<!ENTITY filterScripts.label      "Szövegfájlok">
 
 <!ENTITY treeViewCheckbox.label   "Fanézet">
 
@@ -63,3 +66,18 @@
 <!ENTITY renameButton.tooltip     "Fájl vagy mappa átnevezése">
 
 <!ENTITY filterControl.label      "Nézet:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Helyi">
+<!ENTITY remoteTab.label          "Távoli">
+<!ENTITY ftpConsole.label         "FTP-konzol">
+
+<!ENTITY editItem.label           "Szerkesztés"> 
+<!ENTITY openItem.label           "Megnyitás">
+<!ENTITY openAsText.label         "Megnyitás szövegként">
+<!ENTITY openRemote.label         "Távoli könyvtár megnyitása">
+<!ENTITY insertImage.label        "Kép beszúrása">
+<!ENTITY previewItem.label        "Előnézet">
+<!ENTITY uploadItem.label         "Közzététel…">
+<!ENTITY downloadItem.label       "Visszaállítás…">
+<!ENTITY itemProperties.label     "Tulajdonságok…">

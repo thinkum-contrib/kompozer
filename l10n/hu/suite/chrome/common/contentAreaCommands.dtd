@@ -1,0 +1,108 @@
+<!-- Context Menu -->
+<!ENTITY popupWindowRejectCmd.label     "Felugró ablakok visszautasítása erről a webhelyről">
+<!ENTITY popupWindowRejectCmd.accesskey "">
+<!ENTITY popupWindowAllowCmd.label      "Felugró ablakok engedélyezése erről a webhelyről">
+<!ENTITY popupWindowAllowCmd.accesskey  "">
+<!ENTITY openLinkCmd.label            "Megnyitás új ablakban">
+<!ENTITY openLinkCmd.accesskey        "a">
+<!ENTITY openLinkCmdInTab.label       "Megnyitás új lapon">
+<!ENTITY openLinkCmdInTab.accesskey   "l">
+<!ENTITY openLinkInWindowCmd.label    "Megnyitás">
+<!ENTITY openLinkInWindowCmd.accesskey "M">
+<!ENTITY openFrameCmd.label           "Keret megnyitása új ablakban">
+<!ENTITY openFrameCmd.accesskey       "a">
+<!ENTITY openFrameCmdInTab.label      "Keret megnyitása új lapon">
+<!ENTITY openFrameCmdInTab.accesskey  "l">
+<!ENTITY showOnlyThisFrameCmd.label     "Csak az aktuális keret megjelenítése">
+<!ENTITY showOnlyThisFrameCmd.accesskey "C">
+<!ENTITY addToBookmarksCmd.label      "Oldal hozzáadása a könyvjelzőkhöz">
+<!ENTITY addToBookmarksCmd.accesskey  "H">
+<!ENTITY goBackCmd.label              "Vissza">
+<!ENTITY goBackCmd.accesskey          "V">
+<!ENTITY goForwardCmd.label           "Előre">
+<!ENTITY goForwardCmd.accesskey       "E">
+<!ENTITY goUpCmd.label                "Fel">
+<!ENTITY goUpCmd.accesskey            "F">
+<!ENTITY reloadCmd.label              "Frissítés">
+<!ENTITY reloadCmd.accesskey          "r">
+<!ENTITY reloadCmd.commandkey         "r">
+<!ENTITY stopCmd.label                "Leállítás">
+<!ENTITY stopCmd.accesskey            "L">
+<!ENTITY reloadFrameCmd.label         "Keret frissítése">
+<!ENTITY reloadFrameCmd.accesskey     "r">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Kijelölés forrásának megtekintése">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "MathML forrás megtekintése">
+<!ENTITY viewPartialSourceCmd.accesskey "e">
+<!ENTITY viewPageSourceCmd.label      "Oldal forrása">
+<!ENTITY viewPageSourceCmd.accesskey  "f">
+<!ENTITY viewFrameSourceCmd.label     "Keret forrása">
+<!ENTITY viewFrameSourceCmd.accesskey "f">
+<!ENTITY viewPageInfoCmd.label        "Oldal adatainak megjelenítése">
+<!ENTITY viewPageInfoCmd.accesskey    "d">
+<!ENTITY viewFrameInfoCmd.label       "Keret adatainak megjelenítése">
+<!ENTITY viewFrameInfoCmd.accesskey   "d">
+<!ENTITY fitImageCmd.label            "Kép átméretezése az ablak méretéhez">
+<!ENTITY fitImageCmd.accesskey        "t">
+<!ENTITY viewImageCmd.label           "Kép megjelenítése">
+<!ENTITY viewImageCmd.accesskey       "s">
+<!ENTITY viewBGImageCmd.label         "Háttérkép megjelenítése">
+<!ENTITY viewBGImageCmd.accesskey     "H">
+<!ENTITY setWallpaperCmd.label        "Beállítás háttérképként">
+<!ENTITY setWallpaperCmd.accesskey    "B">
+<!ENTITY bookmarkPageCmd.label        "Oldal hozzáadása a könyvjelzőkhöz">
+<!ENTITY bookmarkPageCmd.accesskey    "n">
+<!ENTITY bookmarkLinkCmd.label        "Hivatkozás felvétele a könyvjelzők közé">
+<!ENTITY bookmarkLinkCmd.accesskey    "j">
+<!ENTITY bookmarkFrameCmd.label       "Keret hozzáadása a könyvjelzőkhöz">
+<!ENTITY bookmarkFrameCmd.accesskey   "h">
+<!ENTITY savePageAsCmd.label          "Oldal mentése…">
+<!ENTITY savePageCmd.label            "Oldal mentése">
+<!ENTITY savePageCmd.accesskey        "m">
+<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY saveFrameAsCmd.label         "Keret mentése más néven…">
+<!ENTITY saveFrameCmd.label           "Keret mentése">
+<!ENTITY saveFrameCmd.accesskey       "m">
+<!ENTITY saveLinkAsCmd.label          "Hivatkozás mentése más néven…">
+<!ENTITY saveLinkCmd.label            "Hivatkozás mentése">
+<!ENTITY saveLinkCmd.accesskey        "n">
+<!ENTITY saveImageAsCmd.label         "Kép mentése más néven…">
+<!ENTITY saveImageCmd.label           "Kép mentése">
+<!ENTITY saveImageCmd.accesskey       "p">
+<!ENTITY copyCmd.label                "Másolás">
+<!ENTITY copyCmd.accesskey            "M">
+<!ENTITY selectAllCmd.label           "Minden kijelölése">
+<!ENTITY selectAllCmd.accesskey       "i">
+<!ENTITY copyLinkCmd.label            "Hivatkozás címének másolása">
+<!ENTITY copyLinkCmd.accesskey        "v">
+<!ENTITY copyImageCmd.label           "Kép másolása">
+<!ENTITY copyImageCmd.accesskey       "l">
+<!ENTITY metadataCmd.label            "Tulajdonságok">
+<!ENTITY metadataCmd.accesskey        "T">
+<!ENTITY copyEmailCmd.label           "E-mail cím másolása">
+<!ENTITY copyEmailCmd.accesskey       "E">
+<!ENTITY pasteCmd.label               "Beillesztés">
+<!ENTITY pasteCmd.accesskey           "B">
+<!ENTITY cutCmd.label                 "Kivágás">
+<!ENTITY cutCmd.accesskey             "K">
+<!ENTITY deleteCmd.label              "Törlés">
+<!ENTITY deleteCmd.accesskey          "T">
+<!ENTITY undoCmd.label                "Visszavonás">
+<!ENTITY undoCmd.accesskey            "V">
+<!ENTITY redoCmd.label                "Újra">
+<!ENTITY redoCmd.accesskey            "r">
+<!ENTITY thisFrameMenu.label          "Ez a keret">
+<!ENTITY thisFrameMenu.accesskey      "z">
+<!ENTITY search.accesskey             "W">
+<!ENTITY bidiSwitchPageDirectionItem.label        "Oldal irányának átváltása">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "l">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Szöveg irányának átváltása">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "z">
+<!ENTITY spellAddToDictionary.label     "Hozzáadás a szótárhoz">
+<!ENTITY spellAddToDictionary.accesskey "H">
+<!ENTITY spellEnable.label              "Mező helyesírás-ellenőrzése">
+<!ENTITY spellEnable.accesskey          "M">
+<!ENTITY spellNoSuggestions.label       "(Nincs javaslat)">
+<!ENTITY spellDictionaries.label        "Nyelvek">
+<!ENTITY spellDictionaries.accesskey    "N">
+<!ENTITY spellAddDictionaries.label     "További szótárak letöltése…">
+<!ENTITY spellAddDictionaries.accesskey "T">

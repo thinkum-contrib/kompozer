@@ -1,4 +1,4 @@
-<!ENTITY window.width                 "38em">
+<!ENTITY window.width                 "55em">
 
 <!ENTITY ocspDialog.title             "Ellenőrzés">
 <!ENTITY validation.ocsp.description  "A &brandShortName; az Online Certificate Status Protocol (OCSP) segítségével ellenőrizheti a tanúsítványokat. A &brandShortName; a következő módon fogja az OCSP-t használni:">

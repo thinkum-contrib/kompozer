@@ -27,7 +27,7 @@
 <!ENTITY  upgrade.evangelism              "Nagyon ajánlott a &brandShortName; frissítése.">
 
 <!ENTITY  license.title                   "Licencszerződés">
-<!ENTITY  license.intro                   "A frissítés telepítése előtt el kell fogadnia az alábbi licencszerződést. 
+<!ENTITY  license.intro                   "A frissítés telepítése előtt el kell fogadnia az alábbi licencszerződést.
                                            Olvassa el gondosan:">
 <!ENTITY  license.instructions            "Ha egyetért a szerződés feltételeivel, kattintson az Egyetértek
                                            gombra a telepítés folytatása előtt.">
@@ -42,8 +42,8 @@
 <!ENTITY license.decline.accesskey       "N">
 
 <!ENTITY  downloading.title               "Frissítés letöltése">
-<!ENTITY  downloading.intro               "Frissítés letöltése…">
-<!ENTITY  connecting.label                "Kapcsolódás a kiszolgálóhoz…">
+<!ENTITY  downloading.intro               "Frissítés letöltése… ">
+<!ENTITY  connecting.label                "Kapcsolódás a kiszolgálóhoz… ">
 <!ENTITY  verificationFailedText.label    "A &brandShortName; nem tudta ellenőrizni a letöltött inkrementális
                                            frissítés sértetlenségét, ezért most kénytelen a teljes frissítési
                                            csomagot letölteni.">
@@ -61,12 +61,12 @@
                                            helyről letölti a legfrissebb verziót:">
                                            
 <!ENTITY  errorpatching.title             "Sikertelen frissítés">
-<!ENTITY  errorpatching.intro             "A részleges frissítést nem lehetett alkalmazni. 
+<!ENTITY  errorpatching.intro             "A részleges frissítést nem lehetett alkalmazni.
                                            A &brandShortName; újra próbálkozik, most a teljes frissítés letöltésével.">
 
 <!ENTITY  finished.title                  "Frissítés letöltve">
 <!ENTITY  finished.text                   "A frissítés letöltése és ellenőrzése sikeres volt, a
-                                           &brandShortName; következő indításakor telepíve lesz.">
+                                           &brandShortName; következő indításakor telepítve lesz.">
 
 <!ENTITY  finishedBackground.title        "A frissítés készen áll a telepítésre">
 <!ENTITY  finishedBackground.text         "A &brandShortName; fontos frissítést töltött le és ellenőrzött.
