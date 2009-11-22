@@ -21,7 +21,9 @@
 <!ENTITY selectAllCmd.accesskey           "d">
 <!ENTITY preferencesCmd.label             "Beállítások…">
 <!ENTITY preferencesCmd.key               "O">  
-<!ENTITY preferencesCmd.accesskey         "B"> 
+<!ENTITY preferencesCmd.accesskey         "B">
+<!ENTITY preferencesCmdUnix.label         "Beállítások…">
+<!ENTITY preferencesCmdUnix.accesskey     "B">
 <!ENTITY findTypeTextCmd.label            "Szöveg keresése gépeléssel">
 <!ENTITY findTypeTextCmd.accesskey        "S">
 <!ENTITY findTypeLinksCmd.label           "Hivatkozások keresése gépeléssel">

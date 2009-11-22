@@ -698,6 +698,10 @@
 <!-- Help menu -->                           
 <!ENTITY helpMenu.label                      "Súgó">
 <!ENTITY helpmenu.accesskey                  "S">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label                   "Súgó"> 
+<!ENTITY helpMenuWin.accesskey               "S">
 
 <!ENTITY nvuComMenu.label                    "A &brandShortName;'s webhelye">
 <!ENTITY nvucommenu.accesskey                "K">
@@ -719,10 +723,6 @@
 <!ENTITY localizingNvu.label                 "A &brandShortName; honosítása">
 <!ENTITY userGuideMenu.label                 "Felhasználói kézikönyv">
 <!ENTITY userguidemenu.accesskey             "F">
-<!ENTITY aboutLinspire.label                 "A Linspire Inc. névjegye">
-<!ENTITY aboutlinspire.accesskey             "L">
-<!ENTITY aboutDI.label                       "A Disruptive Innovations névjegye">
-<!ENTITY aboutDI.accesskey                   "I">
 
 <!ENTITY leftGlued.tooltip                   "Ragasztás a bal szegélyhez">
 <!ENTITY rightGlued.tooltip                  "Ragasztás a jobb szegélyhez">
@@ -733,7 +733,11 @@
 
 <!ENTITY spellSuggestions.label              "Helyesírási javaslatok">
 <!ENTITY spellSuggestions.accesskey          "H">
-<!ENTITY spellAddToDictionary.label          "Hozzáadás a szótárhoz">
+<!ENTITY spellCheckNoSuggestions.label       "Nincs javaslat">
+<!ENTITY spellCheckIgnoreWord.label          "Szó kihagyása">
+<!ENTITY spellCheckIgnoreWord.accesskey      "k">
+<!ENTITY spellCheckAddToDictionary.label     "Hozzáadás a szótárhoz">
+<!ENTITY spellCheckAddToDictionary.accesskey "H">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "HTML szerkesztése">
