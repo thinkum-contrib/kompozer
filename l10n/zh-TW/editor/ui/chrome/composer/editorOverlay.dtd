@@ -699,6 +699,10 @@
 
 <!ENTITY helpMenu.label "說明">
 <!ENTITY helpmenu.accesskey "H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "說明"> 
+<!ENTITY helpMenuWin.accesskey "H">
 
 <!ENTITY nvuComMenu.label "&brandShortName; 的網站">
 <!ENTITY nvucommenu.accesskey "K">
@@ -720,10 +724,6 @@
 <!ENTITY localizingNvu.label "&brandShortName; 本地化">
 <!ENTITY userGuideMenu.label "使用者手冊">
 <!ENTITY userguidemenu.accesskey "U">
-<!ENTITY aboutLinspire.label "關於 Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey "L">
-<!ENTITY aboutDI.label "關於 Disruptive Innovations(I)">
-<!ENTITY aboutDI.accesskey "I">
 
 <!ENTITY leftGlued.tooltip "緊貼左邊界">
 <!ENTITY rightGlued.tooltip "緊貼右邊界">
@@ -734,7 +734,13 @@
 
 <!ENTITY spellSuggestions.label "拼字建議(S)">
 <!ENTITY spellSuggestions.accesskey "S">
-<!ENTITY spellAddToDictionary.label "加入字典">
+
+<!ENTITY spellCheckNoSuggestions.label "找不到任何建議">
+<!ENTITY spellCheckIgnoreWord.label "忽略單字">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "加入字典">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
+
 <!-- KompoZer 0.8: viewSource -->
 
 <!ENTITY editNode.label "編輯 HTML">
