@@ -698,6 +698,10 @@
 <!-- Help menu -->                           
 <!ENTITY helpMenu.label                      "Help">
 <!ENTITY helpmenu.accesskey                  "H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label                   "Help"> 
+<!ENTITY helpMenuWin.accesskey               "H">
 
 <!ENTITY nvuComMenu.label                    "De &brandShortName;-website">
 <!ENTITY nvucommenu.accesskey                "W">
@@ -719,10 +723,6 @@
 <!ENTITY localizingNvu.label                 "&brandShortName; vertalen">
 <!ENTITY userGuideMenu.label                 "Gebruikershandleiding">
 <!ENTITY userguidemenu.accesskey             "U">
-<!ENTITY aboutLinspire.label                 "Over Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey             "L">
-<!ENTITY aboutDI.label                       "Over Disruptive Innovations">
-<!ENTITY aboutDI.accesskey                   "i">
 
 <!ENTITY leftGlued.tooltip                   "Vasthouden aan de linkerkant">
 <!ENTITY rightGlued.tooltip                  "Vasthouden aan de rechterkant">
@@ -733,7 +733,12 @@
 
 <!ENTITY spellSuggestions.label              "Spellingssuggesties">
 <!ENTITY spellSuggestions.accesskey          "S">
-<!ENTITY spellAddToDictionary.label          "Aan woordenboek toevoegen">
+
+<!ENTITY spellCheckNoSuggestions.label "Geen suggesties gevonden">
+<!ENTITY spellCheckIgnoreWord.label "Woord negeren">
+<!ENTITY spellCheckIgnoreWord.accesskey "d">
+<!ENTITY spellCheckAddToDictionary.label "Toevoegen aan woordenboek">
+<!ENTITY spellCheckAddToDictionary.accesskey "T">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "HTML aanpassen">

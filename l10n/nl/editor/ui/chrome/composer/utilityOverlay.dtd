@@ -19,9 +19,12 @@
 <!ENTITY selectAllCmd.label               "Alles selecteren">  
 <!ENTITY selectAllCmd.key                 "A">  
 <!ENTITY selectAllCmd.accesskey           "A">
-<!ENTITY preferencesCmd.label             "Voorkeuren…">
+<!ENTITY preferencesCmd.label             "Opties…">
 <!ENTITY preferencesCmd.key               "v">  
-<!ENTITY preferencesCmd.accesskey         "o"> 
+<!ENTITY preferencesCmd.accesskey         "o">
+<!ENTITY preferencesCmdUnix.label         "Voorkeuren…">
+<!ENTITY preferencesCmdUnix.accesskey     "V">
+
 <!ENTITY findTypeTextCmd.label            "Tekst zoeken terwijl u typt">
 <!ENTITY findTypeTextCmd.accesskey        "T">
 <!ENTITY findTypeLinksCmd.label           "Koppelingen zoeken terwijl u typt">
@@ -30,7 +33,7 @@
 <!ENTITY viewToolbarsMenu.label           "Tonen/verbergen"> 
 <!ENTITY viewToolbarsMenu.accesskey       "T"> 
 
-<!ENTITY newBlankPageCmd.label            "Composer pagina">
+<!ENTITY newBlankPageCmd.label            "KompoZer pagina">
 <!ENTITY newBlankPageCmd.accesskey        "C" >
 <!ENTITY newBlankPageCmd.key              "n" >
 <!ENTITY newPageFromTemplateCmd.label     "Op sjabloon gebaseerde pagina">
