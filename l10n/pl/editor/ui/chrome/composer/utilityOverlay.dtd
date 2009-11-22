@@ -21,7 +21,9 @@
 <!ENTITY selectAllCmd.accesskey					"a">
 <!ENTITY preferencesCmd.label				"Opcje…">
 <!ENTITY preferencesCmd.key					"E">  
-<!ENTITY preferencesCmd.accesskey			"O"> 
+<!ENTITY preferencesCmd.accesskey			"O">
+<!ENTITY preferencesCmdUnix.label "Preferencje…">
+<!ENTITY preferencesCmdUnix.accesskey "f">
 <!ENTITY findTypeTextCmd.label "Znajdź tekst wprowadzając">
 <!ENTITY findTypeTextCmd.accesskey "t">
 <!ENTITY findTypeLinksCmd.label "Znajdź odnośnik wprowadzając">
