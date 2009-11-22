@@ -22,13 +22,15 @@
 <!ENTITY preferencesCmd.label "Opciones…">
 <!ENTITY preferencesCmd.key "O">
 <!ENTITY preferencesCmd.accesskey "o">
+<!ENTITY preferencesCmdUnix.label "Preferencias…">
+<!ENTITY preferencesCmdUnix.accesskey "n">
 <!ENTITY findTypeTextCmd.label "Buscar texto mientras escribe">
 <!ENTITY findTypeTextCmd.accesskey "x">
 <!ENTITY findTypeLinksCmd.label "Buscar enlaces mientras escribe">
 <!ENTITY findTypeLinksCmd.accesskey "l">
 <!ENTITY viewToolbarsMenu.label "Mostrar/Ocultar">
 <!ENTITY viewToolbarsMenu.accesskey "M">
-<!ENTITY newBlankPageCmd.label "Página de Nvu">
+<!ENTITY newBlankPageCmd.label "Página de KompoZer">
 <!ENTITY newBlankPageCmd.accesskey "P">
 <!ENTITY newBlankPageCmd.key "n">
 <!ENTITY newPageFromTemplateCmd.label "Página usando plantilla">

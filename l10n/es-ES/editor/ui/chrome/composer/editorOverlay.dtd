@@ -450,7 +450,7 @@
 <!ENTITY toolplaineditor.accesskey "p">
 <!ENTITY toolsetfocus.accesskey "f">
 <!ENTITY debugMenu.label "Depurar">
-<!ENTITY newEditorTestPage.label "Nvu con página de prueba">
+<!ENTITY newEditorTestPage.label "KompoZer con página de prueba">
 <!ENTITY textEditorCmd.label "Editor de texto sin formato">
 <!ENTITY outputTextCmd.label "Texto de salida">
 <!ENTITY outputHTMLCmd.label "HTML de salida">
@@ -584,6 +584,11 @@
 <!ENTITY dirRtl.tooltip "De derecha a izquierda">
 <!ENTITY helpMenu.label "Ayuda">
 <!ENTITY helpmenu.accesskey "u">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "Ayuda"> 
+<!ENTITY helpMenuWin.accesskey "u">
+
 <!ENTITY nvuComMenu.label "Sitio web de &brandShortName;">
 <!ENTITY nvucommenu.accesskey "K">
 <!ENTITY faqMenu.label "FAQ">
@@ -604,10 +609,7 @@
 <!ENTITY localizingNvu.label "Traducir &brandShortName;">
 <!ENTITY userGuideMenu.label "Guía de usuario">
 <!ENTITY userguidemenu.accesskey "U">
-<!ENTITY aboutLinspire.label "Acerca de Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey "L">
-<!ENTITY aboutDI.label "Acerca de Disruptive Innovations">
-<!ENTITY aboutDI.accesskey "I">
+
 <!ENTITY leftGlued.tooltip "Pegar al borde izquierdo">
 <!ENTITY rightGlued.tooltip "Pegar al borde derecho">
 <!ENTITY centerGlued.tooltip "Mantiene en el centro">
@@ -616,7 +618,12 @@
 <!ENTITY middleGlued.tooltip "Mantener en el centro">
 <!ENTITY spellSuggestions.label "Sugerencias de ortografía">
 <!ENTITY spellSuggestions.accesskey "S">
-<!ENTITY spellAddToDictionary.label "Añadir al diccionario">
+<!ENTITY spellCheckNoSuggestions.label "No se encontraron sugerencias">
+<!ENTITY spellCheckIgnoreWord.label "Ignorar palabra">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "Añadir al diccionario">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
+
 <!ENTITY editNode.label "Editar HTML">
 <!ENTITY editHead.label "Editar contenido de &lt;head&gt;">
 <!ENTITY editBody.label "Editar contenido de &lt;body&gt;">
