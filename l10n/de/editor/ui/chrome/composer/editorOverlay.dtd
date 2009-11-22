@@ -521,7 +521,7 @@
 
 <!-- Debug menu items -->
 <!ENTITY debugMenu.label "Debug">
-<!ENTITY newEditorTestPage.label "Composer with Test Page">
+<!ENTITY newEditorTestPage.label "KompoZer with Test Page">
 <!ENTITY textEditorCmd.label "Plaintext Editor">
 <!ENTITY outputTextCmd.label "Output Text">
 <!ENTITY outputHTMLCmd.label "Output HTML">
@@ -685,7 +685,11 @@
 <!-- Help menu -->                      
 <!ENTITY helpMenu.label                 "Hilfe">
 <!ENTITY helpmenu.accesskey             "H">
-                                        
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label              "Hilfe"> 
+<!ENTITY helpMenuWin.accesskey          "H">
+
 <!ENTITY nvuComMenu.label               "&brandShortName; Website">
 <!ENTITY nvucommenu.accesskey           "K">
 <!ENTITY faqMenu.label                  "FAQ">
@@ -707,11 +711,7 @@
 <!ENTITY localizingNvu.label            "&brandShortName; lokalisieren">
 <!ENTITY userGuideMenu.label            "Online Handbuch [en]">
 <!ENTITY userguidemenu.accesskey        "O">
-<!ENTITY aboutLinspire.label            "Über Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey        "L">
-<!ENTITY aboutDI.label                  "Über Disruptive Innovations">
-<!ENTITY aboutDI.accesskey              "I">
-                                        
+
 <!ENTITY leftGlued.tooltip              "Am linken Rand anheften">
 <!ENTITY rightGlued.tooltip             "Am rechten Rand anheften">
 <!ENTITY centerGlued.tooltip            "Zentriert anheften">
@@ -721,7 +721,13 @@
 
 <!ENTITY spellSuggestions.label         "Vorschläge">
 <!ENTITY spellSuggestions.accesskey     "V">
-<!ENTITY spellAddToDictionary.label     "Zum Wörterbuch hinzufügen">
+
+<!ENTITY spellCheckNoSuggestions.label "Keine Vorschläge gefunden">
+<!ENTITY spellCheckIgnoreWord.label "Ignoriere dieses Wort">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "Zu Benutzerwörterbuch hinzufügen">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
+
 <!ENTITY DesignMode.label 	            "WYSIWYG">
 <!ENTITY DesignMode.accesskey           "W">
 <!ENTITY DesignMode.tooltip             "WYSIWYG-Editier-Modus">

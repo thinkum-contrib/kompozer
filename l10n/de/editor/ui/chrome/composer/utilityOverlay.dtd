@@ -21,7 +21,10 @@
 <!ENTITY selectAllCmd.accesskey					"m">
 <!ENTITY preferencesCmd.label				"Einstellungen…">
 <!ENTITY preferencesCmd.key					"E">  
-<!ENTITY preferencesCmd.accesskey			"E"> 
+<!ENTITY preferencesCmd.accesskey			"E">
+<!ENTITY preferencesCmdUnix.label			"Einstellungen…">
+<!ENTITY preferencesCmdUnix.accesskey		"E">
+
 <!ENTITY findTypeTextCmd.label "Find Text As You Type">
 <!ENTITY findTypeTextCmd.accesskey "x">
 <!ENTITY findTypeLinksCmd.label "Find Links As You Type">
@@ -30,7 +33,7 @@
 <!ENTITY viewToolbarsMenu.label				"Anzeigen/verstecken"> 
 <!ENTITY viewToolbarsMenu.accesskey			"n"> 
 
-<!ENTITY newBlankPageCmd.label "Composer Page">
+<!ENTITY newBlankPageCmd.label "KompoZer Page">
 <!ENTITY newBlankPageCmd.accesskey "P" >
 <!ENTITY newBlankPageCmd.key "n" >
 <!ENTITY newPageFromTemplateCmd.label "Page Using Template">
