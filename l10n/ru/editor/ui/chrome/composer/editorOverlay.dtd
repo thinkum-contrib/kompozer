@@ -584,6 +584,11 @@
 <!ENTITY dirRtl.tooltip "Справа налево">
 <!ENTITY helpMenu.label "Справка">
 <!ENTITY helpmenu.accesskey "С">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "Справка"> 
+<!ENTITY helpMenuWin.accesskey "C">
+
 <!ENTITY nvuComMenu.label "Домашняя страница &brandShortName;">
 <!ENTITY nvucommenu.accesskey "д">
 <!ENTITY faqMenu.label "FAQ">
@@ -604,10 +609,6 @@
 <!ENTITY localizingNvu.label "Локализация &brandShortName;">
 <!ENTITY userGuideMenu.label "Руководство пользователя">
 <!ENTITY userguidemenu.accesskey "р">
-<!ENTITY aboutLinspire.label "О Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey "L">
-<!ENTITY aboutDI.label "О Disruptive Innovations">
-<!ENTITY aboutDI.accesskey "I">
 <!ENTITY leftGlued.tooltip "Прижать к левому краю">
 <!ENTITY rightGlued.tooltip "Прижать к правому краю">
 <!ENTITY centerGlued.tooltip "Поместить в центр">
@@ -616,7 +617,13 @@
 <!ENTITY middleGlued.tooltip "Поместить в середину">
 <!ENTITY spellSuggestions.label "Результат проверки">
 <!ENTITY spellSuggestions.accesskey "п">
-<!ENTITY spellAddToDictionary.label "Добавить в словарь">
+
+<!ENTITY spellCheckNoSuggestions.label "Предположений не найдено">
+<!ENTITY spellCheckIgnoreWord.label "Пропустить слово">
+<!ENTITY spellCheckIgnoreWord.accesskey "П">
+<!ENTITY spellCheckAddToDictionary.label "Добавить в словарь">
+<!ENTITY spellCheckAddToDictionary.accesskey "с">
+
 <!ENTITY editNode.label "Редактировать HTML">
 <!ENTITY editHead.label "Редактировать содержимое &lt;head&gt;">
 <!ENTITY editBody.label "Редактировать содержимое &lt;body&gt;">

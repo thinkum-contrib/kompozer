@@ -22,6 +22,8 @@
 <!ENTITY preferencesCmd.label "Настройки…">
 <!ENTITY preferencesCmd.key "E">
 <!ENTITY preferencesCmd.accesskey "р">
+<!ENTITY preferencesCmdUnix.label "Настройки…">
+<!ENTITY preferencesCmdUnix.accesskey "p">
 <!ENTITY findTypeTextCmd.label "Поиск текста по мере набора">
 <!ENTITY findTypeTextCmd.accesskey "и">
 <!ENTITY findTypeLinksCmd.label "Поиск ссылок по мере набора">
