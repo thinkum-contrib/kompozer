@@ -523,7 +523,7 @@
 
 <!-- Debug menu items -->
 <!ENTITY debugMenu.label "Debug">
-<!ENTITY newEditorTestPage.label "Composer avec page de test">
+<!ENTITY newEditorTestPage.label "KompoZer avec page de test">
 <!ENTITY textEditorCmd.label "Éditeur de texte">
 <!ENTITY outputTextCmd.label "Texte d'output">
 <!ENTITY outputHTMLCmd.label "HTML d'output">
@@ -693,7 +693,12 @@
 <!-- Help menu -->
 <!ENTITY helpMenu.label                 "Aide">
 <!ENTITY helpmenu.accesskey             "e">
-                                        
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label              "?"> 
+<!ENTITY helpMenuWin.accesskey          "?">
+
+<!-- KompoZer 0.7 -->
 <!ENTITY nvuComMenu.label               "Site Web de &brandShortName; (en)">
 <!ENTITY nvucommenu.accesskey           "K">
 <!ENTITY faqMenu.label                  "FAQ (en)">
@@ -714,11 +719,8 @@
 <!ENTITY localizingNvu.label            "Traduire &brandShortName; (en)">
 <!ENTITY userGuideMenu.label            "Manuel utilisateur (en)">
 <!ENTITY userguidemenu.accesskey        "U">
-<!ENTITY aboutLinspire.label            "À propos de Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey        "L">
-<!ENTITY aboutDI.label                  "À propos de Disruptive Innovations">
-<!ENTITY aboutDI.accesskey              "I">
 
+<!-- KompoZer 0.7: absolute positioning -->
 <!ENTITY leftGlued.tooltip              "Attacher à la bordure gauche">
 <!ENTITY rightGlued.tooltip             "Attacher à la bordure droite">
 <!ENTITY centerGlued.tooltip            "Laisser au centre">
@@ -726,9 +728,16 @@
 <!ENTITY bottomGlued.tooltip            "Attacher en bas">
 <!ENTITY middleGlued.tooltip            "Laisser au milieu">
 
+<!-- KompoZer 0.7: SpellCheck -->
 <!ENTITY spellSuggestions.label         "Suggestions orthographiques">
 <!ENTITY spellSuggestions.accesskey     "S">
-<!ENTITY spellAddToDictionary.label     "Ajouter au dictionnaire">
+
+<!-- KompoZer 0.8: SpellCheck -->
+<!ENTITY spellCheckNoSuggestions.label       "(Pas de suggestion)">
+<!ENTITY spellCheckIgnoreWord.label          "Ignorer le mot">
+<!ENTITY spellCheckIgnoreWord.accesskey      "I">
+<!ENTITY spellCheckAddToDictionary.label     "Ajouter au dictionnaire">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                 "Modifier le code HTML">
