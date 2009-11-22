@@ -528,7 +528,7 @@
 
 <!-- Debug menu items -->
 <!ENTITY debugMenu.label                     "Debug">
-<!ENTITY newEditorTestPage.label             "Composer with Test Page">
+<!ENTITY newEditorTestPage.label             "KompoZer with Test Page">
 <!ENTITY textEditorCmd.label                 "Plaintext Editor">
 <!ENTITY outputTextCmd.label                 "Output Text">
 <!ENTITY outputHTMLCmd.label                 "Output HTML">
@@ -698,7 +698,12 @@
 <!-- Help menu -->                           
 <!ENTITY helpMenu.label                      "Help">
 <!ENTITY helpmenu.accesskey                  "H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label                   "Help"> 
+<!ENTITY helpMenuWin.accesskey               "H">
 
+<!-- KompoZer 0.7 -->
 <!ENTITY nvuComMenu.label                    "&brandShortName;'s web site">
 <!ENTITY nvucommenu.accesskey                "K">
 <!ENTITY faqMenu.label                       "FAQ">
@@ -719,11 +724,8 @@
 <!ENTITY localizingNvu.label                 "Localizing &brandShortName;">
 <!ENTITY userGuideMenu.label                 "User Guide">
 <!ENTITY userguidemenu.accesskey             "U">
-<!ENTITY aboutLinspire.label                 "About Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey             "L">
-<!ENTITY aboutDI.label                       "About Disruptive Innovations">
-<!ENTITY aboutDI.accesskey                   "I">
 
+<!-- KompoZer 0.7: absolute positioning -->
 <!ENTITY leftGlued.tooltip                   "Glue to the left border">
 <!ENTITY rightGlued.tooltip                  "Glue to the right border">
 <!ENTITY centerGlued.tooltip                 "Stay in the center">
@@ -731,9 +733,16 @@
 <!ENTITY bottomGlued.tooltip                 "Glue to the bottom">
 <!ENTITY middleGlued.tooltip                 "Stay in the middle">
 
+<!-- KompoZer 0.7: SpellCheck -->
 <!ENTITY spellSuggestions.label              "Spelling Suggestions">
 <!ENTITY spellSuggestions.accesskey          "S">
-<!ENTITY spellAddToDictionary.label          "Add to Dictionary">
+
+<!-- KompoZer 0.8: SpellCheck -->
+<!ENTITY spellCheckNoSuggestions.label       "(No Suggestions Found)">
+<!ENTITY spellCheckIgnoreWord.label          "Ignore Word">
+<!ENTITY spellCheckIgnoreWord.accesskey      "I">
+<!ENTITY spellCheckAddToDictionary.label     "Add to Dictionary">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "Edit HTML">

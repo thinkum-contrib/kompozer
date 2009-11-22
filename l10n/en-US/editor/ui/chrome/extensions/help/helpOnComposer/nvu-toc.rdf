@@ -218,7 +218,7 @@
        <rdf:Seq>
          <rdf:li><rdf:Description ID="shortcuts-using" nc:name="Using Shortcuts" nc:link="shortcuts.xhtml#using_shortcuts"/> </rdf:li>
          <rdf:li><rdf:Description ID="shortcuts-general" nc:name="General &brandShortName; Shortcuts" nc:link="shortcuts.xhtml#general_shortcuts"/> </rdf:li>
-         <rdf:li><rdf:Description ID="shortcuts-composer" nc:name="Composer Shortcuts" nc:link="shortcuts.xhtml#nvu_composition_shortcuts"/> </rdf:li>
+         <rdf:li><rdf:Description ID="shortcuts-composer" nc:name="KompoZer Shortcuts" nc:link="shortcuts.xhtml#nvu_composition_shortcuts"/> </rdf:li>
          <rdf:li><rdf:Description ID="shortcuts-help" nc:name="Help Window Shortcuts" nc:link="shortcuts.xhtml#help_window_shortcuts"/> </rdf:li>
        </rdf:Seq>
      </nc:subheadings>

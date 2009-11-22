@@ -61,7 +61,7 @@
     <NC:content>http://www.mozilla.org/projects/l10n/mlp_status.html#contrib</NC:content>
   </RDF:Description>
 
-  <!-- Composer -->
+  <!-- KompoZer -->
 
   <RDF:Description about='urn:clienturl:composer:spellcheckers'>
     <NC:title>Spellcheckers</NC:title>
