@@ -19,9 +19,12 @@
 <!ENTITY selectAllCmd.label					"Selecciona-ho tot">  
 <!ENTITY selectAllCmd.key					"A">  
 <!ENTITY selectAllCmd.accesskey					"a">
-<!ENTITY preferencesCmd.label				"Preferències…">
-<!ENTITY preferencesCmd.key					"E">  
-<!ENTITY preferencesCmd.accesskey			"e"> 
+<!ENTITY preferencesCmd.label				"Opcions…">
+<!ENTITY preferencesCmd.key					"E">
+<!ENTITY preferencesCmd.accesskey			"O">
+<!ENTITY preferencesCmdUnix.label "Preferències…">
+<!ENTITY preferencesCmdUnix.accesskey "n">
+
 <!ENTITY findTypeTextCmd.label "Cerca text a mesura que s'escriu">
 <!ENTITY findTypeTextCmd.accesskey "x">
 <!ENTITY findTypeLinksCmd.label "Cerca enllaços a mesura que s'escriu">

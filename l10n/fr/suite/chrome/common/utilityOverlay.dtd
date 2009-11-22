@@ -43,11 +43,9 @@
 <!ENTITY selectAllCmd.label "Tout sélectionner">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.accesskey "T">
-<!ENTITY preferencesCmd.label "Options…">
+<!ENTITY preferencesCmd.label "Préférences…">
 <!ENTITY preferencesCmd.key "E">
 <!ENTITY preferencesCmd.accesskey "f">
-<!ENTITY preferencesCmdUnix.label "Préférences…">
-<!ENTITY preferencesCmdUnix.accesskey "f">
 
 <!ENTITY findTypeTextCmd.label "Recherche de texte à la saisie">
 <!ENTITY findTypeTextCmd.accesskey "x">

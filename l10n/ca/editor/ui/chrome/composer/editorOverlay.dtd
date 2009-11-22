@@ -569,7 +569,7 @@
 <!ENTITY textColorCaption.label "Color del Text">
 <!ENTITY TextColorButton.tooltip "Escull color pel text">
 <!ENTITY BackgroundColorButton.tooltip "Escull color pel fons">
-<!ENTITY throbber.tooltip "Aquest és l'Nvu">
+<!ENTITY throbber.tooltip "Aquest és el KompoZer">
 <!ENTITY HighlightColorButton.tooltip "Escull un color ressaltat pel text">
 
 <!ENTITY emButton.tooltip "Èmfasi">
@@ -697,6 +697,11 @@
 <!-- Help menu -->
 <!ENTITY helpMenu.label           "Ajuda">
 <!ENTITY helpmenu.accesskey       "j">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "Ajuda"> 
+<!ENTITY helpMenuWin.accesskey "j">
+
 
 <!ENTITY nvuComMenu.label         "Pàgina del KompoZer">
 <!ENTITY nvucommenu.accesskey     "P">
@@ -719,11 +724,6 @@
 <!ENTITY userGuideMenu.label      "Guia de l'usuari">
 <!ENTITY userguidemenu.accesskey  "u">
 
-<!ENTITY aboutLinspire.label      "Quant a Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey  "L">
-<!ENTITY aboutDI.label            "Quant a Disruptive Innovations">
-<!ENTITY aboutDI.accesskey        "I">
-
 <!ENTITY leftGlued.tooltip        "Enganxa al contorn esquerra">
 <!ENTITY rightGlued.tooltip       "Enganxa al control dret">
 <!ENTITY centerGlued.tooltip      "Estigues en el centre">
@@ -733,7 +733,13 @@
 
 <!ENTITY spellSuggestions.label   "Suggeriments ortogràfics">
 <!ENTITY spellSuggestions.accesskey "S">
-<!ENTITY spellAddToDictionary.label "Afegeix al diccionari">
+
+<!ENTITY spellCheckNoSuggestions.label "No s'ha trobat cap suggeriment">
+<!ENTITY spellCheckIgnoreWord.label "Ignora la paraula">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "Afegeix al diccionari">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
+
 <!ENTITY refreshImages.label "Recarrega les imatges">
 <!ENTITY refreshImages.accesskey "R">
 
