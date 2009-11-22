@@ -22,9 +22,11 @@
 <!ENTITY pasteCmd.accesskey "I">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteCmd.label "Incolla">
-<!ENTITY preferencesCmd.accesskey "P">
+<!ENTITY preferencesCmd.accesskey "O">
 <!ENTITY preferencesCmd.key "E">
-<!ENTITY preferencesCmd.label "Preferenze…">
+<!ENTITY preferencesCmd.label "Opzioni…">
+<!ENTITY preferencesCmdUnix.label "Preferenze…">
+<!ENTITY preferencesCmdUnix.accesskey "P">
 <!ENTITY redoCmd.accesskey "R">
 <!ENTITY redoCmd.key "Y">
 <!ENTITY redoCmd.label "Ripeti">

@@ -75,11 +75,7 @@
 <!ENTITY SourceMode.label "Sorgente">
 <!ENTITY SourceTabDirection "ltr">
 <!ENTITY TextColorButton.tooltip "Sceglie il colore per il testo">
-<!ENTITY aboutDI.accesskey "I">
-<!ENTITY aboutDI.label "Info su Disruptive Innovations">
-<!ENTITY aboutLinspire.label "Info su Linspire Inc.">
 <!ENTITY aboutMenu.label "Informazioni su KompoZer">
-<!ENTITY aboutlinspire.accesskey "L">
 <!ENTITY aboutmenu.accesskey "A">
 <!ENTITY advancedPropertiesCmd.label "Proprietà avanzate">
 <!ENTITY advancedproperties.accesskey "v">
@@ -271,8 +267,13 @@
 <!ENTITY heading5Cmd.label "Titolo 5">
 <!ENTITY heading6.accesskey "6">
 <!ENTITY heading6Cmd.label "Titolo 6">
-<!ENTITY helpMenu.label "?">
-<!ENTITY helpmenu.accesskey "?">
+<!ENTITY helpMenu.label "Aiuto">
+<!ENTITY helpmenu.accesskey "u">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "?">
+<!ENTITY helpMenuWin.accesskey "?">
+
 <!ENTITY hruleToolbarCmd.label "Separatore">
 <!ENTITY hruleToolbarCmd.tooltip "Modifica o inserisce un separatore orizzontale">
 <!ENTITY imageToolbarCmd.label "Immagine">
@@ -371,7 +372,7 @@
 <!ENTITY middleGlued.tooltip "Rimani nel mezzo">
 <!ENTITY newBlankPage.accesskey "P">
 <!ENTITY newBlankPageCmd.label "Pagina in nuova finestra">
-<!ENTITY newEditorTestPage.label "Composer con pagina di test">
+<!ENTITY newEditorTestPage.label "KompoZer con pagina di test">
 <!ENTITY newMenu.label "Nuovo">
 <!ENTITY newOtherCmd.label "Altre opzioni…">
 <!ENTITY newTab.label "Pagina in nuova scheda">
@@ -476,11 +477,16 @@
 <!ENTITY size-xx-largeCmd.label "molto grande">
 <!ENTITY size-xx-small.accesskey "o">
 <!ENTITY size-xx-smallCmd.label "molto piccolo">
-<!ENTITY spellAddToDictionary.label "Aggiungi al dizionario">
 <!ENTITY spellSuggestions.accesskey "S">
 <!ENTITY spellSuggestions.label "Suggerimenti ">
 <!ENTITY spellToolbarCmd.label "Ortografia">
 <!ENTITY spellToolbarCmd.tooltip "Controllo ortografico della parte selezionata o dell'intera pagina">
+<!ENTITY spellCheckNoSuggestions.label "Non trovato alcun suggerimento">
+<!ENTITY spellCheckIgnoreWord.label "Ignora parola">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "Aggiungi al dizionario">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
+
 <!ENTITY startLogCmd.label "Inizia log">
 <!ENTITY stopLogCmd.label "Interrompi log">
 <!ENTITY strongButton.tooltip "Strong emphasize">

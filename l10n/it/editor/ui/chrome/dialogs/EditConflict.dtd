@@ -22,7 +22,7 @@
 
 <!-- Window title -->
 <!ENTITY conflictResolve.label "Selezionare la versione da conservare:">
-<!ENTITY conflictWarning.label "Questa pagina è stata modificata da un altro programma, ma esistono modifiche di Composer non salvate.">
+<!ENTITY conflictWarning.label "Questa pagina è stata modificata da un altro programma, ma esistono modifiche di KompoZer non salvate.">
 <!ENTITY keepCurrentPageButton.label "Mantenere modifiche correnti alla pagina">
 <!ENTITY useOtherPageButton.label "Sostituire pagina corrente con la versione modificata">
 <!ENTITY windowTitle.label "Selezione modifiche">
