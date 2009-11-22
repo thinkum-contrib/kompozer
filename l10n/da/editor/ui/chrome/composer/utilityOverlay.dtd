@@ -21,7 +21,10 @@
 <!ENTITY selectAllCmd.accesskey					"m">
 <!ENTITY preferencesCmd.label				"Indstillinger…">
 <!ENTITY preferencesCmd.key					"E">  
-<!ENTITY preferencesCmd.accesskey			"I"> 
+<!ENTITY preferencesCmd.accesskey			"I">
+<!ENTITY preferencesCmdUnix.label "Egenskaber…">
+<!ENTITY preferencesCmdUnix.accesskey "E">
+
 <!ENTITY findTypeTextCmd.label "Find mens du skriver">
 <!ENTITY findTypeTextCmd.accesskey "d">
 <!ENTITY findTypeLinksCmd.label "Find Links mens du skriver">

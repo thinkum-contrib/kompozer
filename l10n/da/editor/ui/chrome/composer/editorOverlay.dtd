@@ -639,6 +639,11 @@
 <!-- Help menu -->
 <!ENTITY helpMenu.label "Hjælp">
 <!ENTITY helpmenu.accesskey "H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "Hjælp"> 
+<!ENTITY helpMenuWin.accesskey "H">
+
 <!ENTITY nvuComMenu.label "&brandShortName;s hjemmeside">
 <!ENTITY nvucommenu.accesskey "K">
 <!ENTITY faqMenu.label "FAQ">
@@ -659,10 +664,7 @@
 <!ENTITY localizingNvu.label "Lokalisering af &brandShortName;">
 <!ENTITY userGuideMenu.label "Brugermanual (på engelsk)">
 <!ENTITY userguidemenu.accesskey "u">
-<!ENTITY aboutLinspire.label "Om Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey "L">
-<!ENTITY aboutDI.label "Om Disruptive Innovations">
-<!ENTITY aboutDI.accesskey "I">
+
 <!ENTITY leftGlued.tooltip "Hæft til venstre kant">
 <!ENTITY rightGlued.tooltip "Hæft til højre kant">
 <!ENTITY centerGlued.tooltip "Centreret">
@@ -671,7 +673,12 @@
 <!ENTITY middleGlued.tooltip "Hæft til midten">
 <!ENTITY spellSuggestions.label "Staveforslag">
 <!ENTITY spellSuggestions.accesskey "S">
-<!ENTITY spellAddToDictionary.label "Tilføj til ordbog">
+
+<!ENTITY spellCheckNoSuggestions.label "Ingen foreslag fundet">
+<!ENTITY spellCheckIgnoreWord.label "Ignorer ord">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "Tilføj til ordbog">
+<!ENTITY spellCheckAddToDictionary.accesskey "T">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "Rediger HTML">
