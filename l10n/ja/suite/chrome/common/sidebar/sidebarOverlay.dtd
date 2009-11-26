@@ -38,29 +38,29 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY sidebar.panels.label           "Sidebar">
-<!ENTITY sidebar.reload.label           "Reload">
+<!ENTITY sidebar.panels.label           "サイドバー">
+<!ENTITY sidebar.reload.label           "再読み込み">
 <!ENTITY sidebar.reload.accesskey       "R">
-<!ENTITY sidebar.picker.label           "Tabs">
-<!ENTITY sidebar.customize.label        "Customize Sidebar…">
+<!ENTITY sidebar.picker.label           "タブ">
+<!ENTITY sidebar.customize.label        "カスタマイズサイドバー">
 <!ENTITY sidebar.customize.accesskey    "u">
-<!ENTITY sidebar.hide.label             "Hide Tab">
+<!ENTITY sidebar.hide.label             "非表示タブ">
 <!ENTITY sidebar.hide.accesskey         "H">
-<!ENTITY sidebar.switch.label           "Switch to Tab">
+<!ENTITY sidebar.switch.label           "タブの切替え">
 <!ENTITY sidebar.switch.accesskey       "t">
-<!ENTITY sidebarCmd.label               "Sidebar">
+<!ENTITY sidebarCmd.label               "サイトマネージャ">
 <!ENTITY sidebarCmd.accesskey           "b">
 <!ENTITY sidebar.loading.label          "読み込み中…">
-<!ENTITY sidebar.loadstopped.label      "Load stopped">
-<!ENTITY sidebar.loading.stop.label     "Stop">
+<!ENTITY sidebar.loadstopped.label      "ロードを停止">
+<!ENTITY sidebar.loading.stop.label     "中止">
 <!ENTITY sidebar.loading.stop.accesskey "S">
 
-<!ENTITY sidebar.no-panels.state     "The sidebar is currently empty.">
-<!ENTITY sidebar.no-panels.add       'You may add tabs by clicking on the "Tabs" button above.'>
-<!ENTITY sidebar.no-panels.hide      'If you would like to completely hide the Sidebar, click on the "View" menu above, and select "Sidebar."'>
-<!ENTITY sidebar.sbDirectory.label   "Sidebar Directory…">
+<!ENTITY sidebar.no-panels.state     "サイドバーは、今は空です.">
+<!ENTITY sidebar.no-panels.add       '上記の"タブ"ボタンをクリックすることで、タブを追加することができます.'>
+<!ENTITY sidebar.no-panels.hide      '完全にサイドバーを隠したいと思うならば、上の「表示」メニューをクリックしてください、そして、「サイドバー」を選んでください'>
+<!ENTITY sidebar.sbDirectory.label   "サイドバーディレクトリ…">
 
-<!ENTITY sidebar.pagenotfound.label  "This tab is not available right now.">
-<!ENTITY sidebar.close.tooltip       "Close Sidebar">
-<!ENTITY sidebar.open.tooltip        "Open Sidebar">
+<!ENTITY sidebar.pagenotfound.label  "このタブは、今は利用することができません.">
+<!ENTITY sidebar.close.tooltip       "サイドバーを閉じる">
+<!ENTITY sidebar.open.tooltip        "サイドバーを開く">
 

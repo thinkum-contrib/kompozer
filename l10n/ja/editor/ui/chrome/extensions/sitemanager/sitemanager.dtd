@@ -70,14 +70,14 @@
 <!-- KompoZer 0.8 -->
 <!ENTITY localTab.label           "ローカル">
 <!ENTITY remoteTab.label          "リモート">
-<!ENTITY ftpConsole.label         "FTP console">
+<!ENTITY ftpConsole.label         "FTPコンソール">
 
-<!ENTITY editItem.label           "Edit"> 
+<!ENTITY editItem.label           "編集"> 
 <!ENTITY openItem.label           "開く">
 <!ENTITY openAsText.label         "テキストとして開いてください">
 <!ENTITY openRemote.label         "リモートディレクトリを開く">
 <!ENTITY insertImage.label        "イメージを挿入">
 <!ENTITY previewItem.label        "プレビュー">
-<!ENTITY uploadItem.label         "Publish…">
+<!ENTITY uploadItem.label         "公開…">
 <!ENTITY downloadItem.label       "復元…">
 <!ENTITY itemProperties.label     "プロパティ…">
