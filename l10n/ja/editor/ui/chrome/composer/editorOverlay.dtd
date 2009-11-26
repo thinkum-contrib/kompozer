@@ -528,7 +528,7 @@
 
 <!-- Debug menu items -->
 <!ENTITY debugMenu.label                     "Debug">
-<!ENTITY newEditorTestPage.label             "Composer with Test Page">
+<!ENTITY newEditorTestPage.label             "KompoZer with Test Page">
 <!ENTITY textEditorCmd.label                 "Plaintext Editor">
 <!ENTITY outputTextCmd.label                 "Output Text">
 <!ENTITY outputHTMLCmd.label                 "Output HTML">
@@ -698,6 +698,10 @@
 <!-- Help menu -->                           
 <!ENTITY helpMenu.label                      "ヘルプ">
 <!ENTITY helpmenu.accesskey                  "H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label                   "ヘルプ"> 
+<!ENTITY helpMenuWin.accesskey               "H">
 
 <!ENTITY nvuComMenu.label                    "&brandShortName;のウェブサイト">
 <!ENTITY nvucommenu.accesskey                "N">
@@ -719,10 +723,6 @@
 <!ENTITY localizingNvu.label                 "&brandShortName;日本語版ウェブサイト">
 <!ENTITY userGuideMenu.label                 "ユーザガイド">
 <!ENTITY userguidemenu.accesskey             "U">
-<!ENTITY aboutLinspire.label                 "Linspireについて">
-<!ENTITY aboutlinspire.accesskey             "L">
-<!ENTITY aboutDI.label                       "Disruptive Innovationsについて">
-<!ENTITY aboutDI.accesskey                   "i">
 
 <!ENTITY leftGlued.tooltip                   "左の枠線に寄せる">
 <!ENTITY rightGlued.tooltip                  "右の枠線に寄せる">
@@ -733,7 +733,12 @@
 
 <!ENTITY spellSuggestions.label              "綴り補正候補">
 <!ENTITY spellSuggestions.accesskey          "S">
-<!ENTITY spellAddToDictionary.label          "辞書に追加">
+
+<!ENTITY spellCheckNoSuggestions.label       "候補が見つかりません">
+<!ENTITY spellCheckIgnoreWord.label          "単語を無視">
+<!ENTITY spellCheckIgnoreWord.accesskey      "I">
+<!ENTITY spellCheckAddToDictionary.label     "辞書に追加">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "HTML編集">

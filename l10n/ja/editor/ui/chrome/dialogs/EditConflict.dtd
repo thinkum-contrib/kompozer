@@ -22,7 +22,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "変更の選択">
-<!ENTITY conflictWarning.label "このページは他のプログラムにより書き換えられました。Composerに現在読み込まれているものは古いものです。">
+<!ENTITY conflictWarning.label "このページは他のプログラムにより書き換えられました。KompoZerに現在読み込まれているものは古いものです。">
 <!ENTITY conflictResolve.label "どうしますか？">
 <!ENTITY keepCurrentPageButton.label "編集を続行する">
 <!ENTITY useOtherPageButton.label "現在のページを破棄し、読み込みなおす">

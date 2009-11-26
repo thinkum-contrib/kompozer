@@ -22,6 +22,8 @@
 <!ENTITY preferencesCmd.label             "設定…">
 <!ENTITY preferencesCmd.key               "E">  
 <!ENTITY preferencesCmd.accesskey         "e"> 
+<!ENTITY preferencesCmdUnix.label         "設定…">
+<!ENTITY preferencesCmdUnix.accesskey     "n">
 <!ENTITY findTypeTextCmd.label            "Find Text As You Type">
 <!ENTITY findTypeTextCmd.accesskey        "x">
 <!ENTITY findTypeLinksCmd.label           "Find Links As You Type">
