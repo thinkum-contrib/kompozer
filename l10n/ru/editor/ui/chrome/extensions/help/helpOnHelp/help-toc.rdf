@@ -16,7 +16,7 @@
         <rdf:li> <rdf:Description ID="use-help-finding-the-topic-you-want" nc:name="Поиск нужной вам информации" nc:link="welcome.xhtml#finding_the_topic_you_want"/> </rdf:li>
         <rdf:li> <rdf:Description ID="use-help-retracing-your-steps" nc:name="Возвращение к просмотренным страницам" nc:link="welcome.xhtml#retracing_your_steps"/> </rdf:li>
         <rdf:li> <rdf:Description ID="use-help-search" nc:name="Полезные советы по поиску" nc:link="welcome.xhtml#search_tips"/> </rdf:li>
-        <rdf:li> <rdf:Description ID="use-help-rusian-translate" nc:name="О русском переводе справки Nvu" nc:link="welcome.xhtml#russian_translate"/> </rdf:li>
+        <rdf:li> <rdf:Description ID="use-help-rusian-translate" nc:name="О русском переводе справки &brandShortName;" nc:link="welcome.xhtml#russian_translate"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
