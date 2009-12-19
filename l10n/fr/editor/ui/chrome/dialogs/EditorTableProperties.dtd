@@ -85,7 +85,7 @@
 <!ENTITY cellAlignBottom.label            "Bas">
 <!ENTITY cellAlignJustify.label           "Justifié">
 <!ENTITY cellAlignAtChar.label            "Au caractère :">
-<!ENTITY cellInheritColor.label           "(Laisser traverser la couleur de page)">
+<!ENTITY cellInheritColor.label           "(Laisser traverser la couleur du tableau)">
 <!ENTITY cellUseCheckboxHelp.label        "Utiliser les cases à cocher pour déterminer les propriétés appliquées à toutes les cellules sélectionnées">
 
 <!-- Used in both Table and Cell panels  -->
