@@ -32,7 +32,7 @@
 <!ENTITY widthEditField.accessKey "L">
 <!ENTITY borderEditField.label "Bordure :">
 <!ENTITY borderEditField.accessKey "B">
-<!ENTITY borderEditField.tooltip "Taper un nombre pour définir la largeur de la bordure (0 = pas de bordure)">
+<!ENTITY borderEditField.tooltip "Saisir un nombre pour définir la largeur de la bordure (0 = pas de bordure)">
 <!ENTITY pixels.label "pixels">
 
 <!ENTITY quicklyTab.label "Rapidement">

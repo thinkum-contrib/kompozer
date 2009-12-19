@@ -53,7 +53,7 @@
 <!ENTITY newMenu.label             "Nouveau">
 <!ENTITY newTab.label              "Document dans un nouvel onglet">
 <!ENTITY openFileCmd.label         "Ouvrir un fichier…">
-<!ENTITY fileopen.accesskey        "f">
+<!ENTITY fileopen.accesskey        "v">
 <!ENTITY fileopen.keybinding       "o">
 <!ENTITY openremoteCmd.label       "Ouvrir une page Web…">
 <!ENTITY fileopenremote.accesskey  "n">
@@ -63,7 +63,7 @@
 <!ENTITY fileRevert.label          "Restaurer">
 <!ENTITY filerevert.accesskey      "s">
 <!ENTITY refreshImages.label       "Actualiser les Images">
-<!ENTITY refreshImages.accesskey   "i">
+<!ENTITY refreshImages.accesskey   "c">
 <!ENTITY saveCmd.label             "Enregistrer">
 <!ENTITY filesave.accesskey        "E">
 <!ENTITY filesave.keybinding       "s">
@@ -165,7 +165,7 @@
 <!ENTITY editmodeToolbarCmd.label "Modes d'édition">
 <!ENTITY editmodetb.accesskey "E">
 <!ENTITY taskbarCmd.label "Barre d'état">  
-<!ENTITY taskbarCmd.accesskey "B"> 
+<!ENTITY taskbarCmd.accesskey "a"> 
 <!ENTITY viewPageSource.label "Source de la page">
 <!ENTITY viewpagesource.accesskey "s">
 <!ENTITY viewParagraphMarks.label "Retour à la ligne">
@@ -225,7 +225,7 @@
 <!ENTITY insertLabelCmd.label "Créer une étiquette">
 <!ENTITY insertlabel.accesskey "q">
 <!ENTITY insertFieldSetCmd.label "Créer un groupe de champs…">
-<!ENTITY insertfieldset.accesskey "F">
+<!ENTITY insertfieldset.accesskey "C">
 <!ENTITY insertIsIndexCmd.label "Index de recherche">
 <!ENTITY insertisindex.accesskey "x">
 
@@ -273,10 +273,10 @@
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Choisir une taille de police">
 <!ENTITY decreaseFontSize.label "Plus petite">
-<!ENTITY decreasefontsize.accesskey "p">
+<!ENTITY decreasefontsize.accesskey "P">
 <!ENTITY decreaseFontSize.keybinding "-">
 <!ENTITY increaseFontSize.label "Plus grande">
-<!ENTITY increasefontsize.accesskey "g">
+<!ENTITY increasefontsize.accesskey "u">
 <!ENTITY increaseFontSize.keybinding "+">
 <!ENTITY increaseFontSize.keybinding2 "="> <!-- + is above this key on many keyboards -->
 
@@ -287,11 +287,11 @@
 <!ENTITY size-x-smallCmd.label "Très petite">
 <!ENTITY size-x-small.accesskey "r">
 <!ENTITY size-smallCmd.label "Petite">
-<!ENTITY size-small.accesskey "p">
+<!ENTITY size-small.accesskey "e">
 <!ENTITY size-mediumCmd.label "Moyenne">
 <!ENTITY size-medium.accesskey "y">
 <!ENTITY size-largeCmd.label "Grande">
-<!ENTITY size-large.accesskey "g">
+<!ENTITY size-large.accesskey "G">
 <!ENTITY size-x-largeCmd.label "Très grande">
 <!ENTITY size-x-large.accesskey "s">
 <!ENTITY size-xx-largeCmd.label "Extra-grande">
@@ -348,7 +348,7 @@
 <!ENTITY formatindent.keybinding "]">
 <!ENTITY formatoutdent.keybinding "[">
 <!ENTITY paragraphMenu.label "Paragraphe">
-<!ENTITY formatparagraphmenu.accesskey "P">
+<!ENTITY formatparagraphmenu.accesskey "r">
 <!ENTITY paragraphParagraphCmd.label "Paragraphe">  
 <!ENTITY paragraphparagraph.accesskey "P">
 <!ENTITY heading1Cmd.label "Titre 1">
@@ -447,7 +447,7 @@
 <!ENTITY blockBorders.tooltip "Choisir les bordures">
 
 <!ENTITY grid.label "Grille magnétique…">
-<!ENTITY grid.accesskey "t">
+<!ENTITY grid.accesskey "m">
 
 <!ENTITY pageProperties.label "Titre et propriétés de la page…">
 <!ENTITY pageproperties.accesskey "g">
@@ -459,7 +459,7 @@
 <!ENTITY tablemenu.accesskey "T">
 <!-- Select Submenu -->
 <!ENTITY tableSelectMenu.label "Sélectionner">
-<!ENTITY tableselectmenu.accesskey "s">
+<!ENTITY tableselectmenu.accesskey "S">
 
 <!ENTITY tableSelectMenu2.label "Sélection dans le tableau">
 <!ENTITY tableInsertMenu2.label "Insertion dans le tableau">
@@ -483,7 +483,7 @@
 <!ENTITY tableColumnBefore.label "Colonne avant">
 <!-- uses tablecolumn.accesskey -->
 <!ENTITY tableColumnAfter.label "Colonne après">
-<!ENTITY tablecolumnafter.accesskey "d">
+<!ENTITY tablecolumnafter.accesskey "n">
 <!ENTITY tableCell.label "Cellule">
 <!ENTITY tableCells.label "Cellule(s)">
 <!ENTITY tablecell.accesskey "c">
@@ -730,7 +730,7 @@
 
 <!-- KompoZer 0.7: SpellCheck -->
 <!ENTITY spellSuggestions.label         "Suggestions orthographiques">
-<!ENTITY spellSuggestions.accesskey     "S">
+<!ENTITY spellSuggestions.accesskey     "h">
 
 <!-- KompoZer 0.8: SpellCheck -->
 <!ENTITY spellCheckNoSuggestions.label       "(Pas de suggestion)">
