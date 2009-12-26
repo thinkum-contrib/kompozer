@@ -13,16 +13,16 @@
 <!ENTITY  proportional.accesskey                  "P">
 
 <!ENTITY  serif.label                             "Serif:">
-<!ENTITY  serif.accesskey                         "s">
+<!ENTITY  serif.accesskey                         "S">
 <!ENTITY  sans-serif.label                        "Sans-serif:">
 <!ENTITY  sans-serif.accesskey                    "n">
 <!ENTITY  monospace.label                         "Monospace:">
-<!ENTITY  monospace.accesskey                     "m">
+<!ENTITY  monospace.accesskey                     "M">
 <!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
 <!ENTITY  fantasy.label                           "Fantasy:">
-<!ENTITY  fantasy.accesskey                       "f">
+<!ENTITY  fantasy.accesskey                       "F">
 <!ENTITY  cursive.label                           "Cursive:">
-<!ENTITY  cursive.accesskey                       "c">
+<!ENTITY  cursive.accesskey                       "C">
 
 <!ENTITY  fontsize.units                          "像素">
 

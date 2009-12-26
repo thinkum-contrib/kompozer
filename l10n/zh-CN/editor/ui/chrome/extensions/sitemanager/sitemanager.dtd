@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -71,7 +70,9 @@
 <!-- KompoZer 0.8 -->
 <!ENTITY localTab.label           "本地">
 <!ENTITY remoteTab.label          "远程">
+<!ENTITY ftpConsole.label         "FTP 控制台">
 
+<!ENTITY editItem.label           "编辑"> 
 <!ENTITY openItem.label           "打开">
 <!ENTITY openAsText.label         "以文本文件打开">
 <!ENTITY openRemote.label         "打开远程文件夹">
@@ -80,4 +81,3 @@
 <!ENTITY uploadItem.label         "上传…">
 <!ENTITY downloadItem.label       "恢复…">
 <!ENTITY itemProperties.label     "属性…">
-

@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -55,7 +54,7 @@
 <!ENTITY  preserveExistingFormatting.accesskey  "o">
 <!ENTITY  preserveExistingFormatting.tooltip    "保留换行和页面的原始格式">
 <!ENTITY  reformat.label                        "重排 HTML 代码格式">
-<!ENTITY  reformat.accesskey                    "r">
+<!ENTITY  reformat.accesskey                    "H">
 <!ENTITY  reformat.tooltip                      "使用换行和标记重排 HTML 标签">
 
 <!ENTITY  saveAssociatedFiles.label             "当保存页面时也保存图片和其他相关的文件">

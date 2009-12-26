@@ -18,13 +18,12 @@
    - Rights Reserved.
    - 
    - Contributor(s): 
-   -   TeliuTe <teliute@163.com>
   -->
 
 <!ENTITY AdvancedEditButton.label     "高级编辑…">
 <!ENTITY AdvancedEditButton.accessKey "E">
 <!ENTITY AdvancedEditButton.tooltip   "添加或设置 HTML 属性、样式属性和 JavaScript">
-<!ENTITY chooseButton.label           "Choose File…">
+<!ENTITY chooseButton.label           "选择文件…">
 <!ENTITY chooseFile.accessKey         "F">
 <!ENTITY chooseFileLink.accessKey     "o">
 <!ENTITY makeUrlRelative.label        "URL 是相对页面位置">

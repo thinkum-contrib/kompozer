@@ -31,7 +31,7 @@
 <!ENTITY cmd.restartApp.label             "重启 &brandShortName;">
 <!ENTITY cmd.restartApp.accesskey         "R">
 <!ENTITY cmd.restartApp.tooltip           "重启 &brandShortName; 以完成安装">
-<!ENTITY cmd.skip.label                   "Skip">
+<!ENTITY cmd.skip.label                   "跳过">
 <!ENTITY cmd.skip.accesskey               "S">
 <!ENTITY cmd.skip.tooltip                 "跳过更新">
 <!ENTITY cmd.continue.label               "继续">

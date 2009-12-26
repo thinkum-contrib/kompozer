@@ -21,7 +21,6 @@
    - Contributor(s):
    -   Original author: Daniel Glazman (daniel@glazman.org)
    -   Fabien Cazenave (Kaze) http://fabiwan.kenobi.free.fr/
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -40,11 +39,11 @@
 
 <!-- Window title -->
 <!ENTITY cascadesMenuItem.label         "CSS 编辑器">
-<!ENTITY cascadesMenuItem.accesskey     "c">
+<!ENTITY cascadesMenuItem.accesskey     "C">
 <!ENTITY cascadesMenuItem.keybinding    "VK_F11">
 
 <!-- Structure Toolbar Context Menu items -->
-<!ENTITY classSelectMenu.label          "Classes">
+<!ENTITY classSelectMenu.label          "Class">
 <!ENTITY idSelectMenu.label             "ID">
 <!ENTITY inlineStyles.label             "内联样式">
 <!ENTITY inlinestyles.accesskey         "i">

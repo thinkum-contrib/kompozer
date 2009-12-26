@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   Original author: Fabien Cazenave <kaze@kompozer.net>
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -39,3 +38,12 @@
 
 <!ENTITY domExplorer.label                      "DOM 查看器">
 
+<!ENTITY html.label                             "HTML">
+<!ENTITY css.label                              "CSS">
+<!ENTITY htmlcss.label                          "HTML+CSS">
+
+<!ENTITY id.label                               "id">
+<!ENTITY class.label                            "class">
+<!ENTITY elements.label                         "元素">
+<!ENTITY style.label                            "style">
+<!ENTITY styleRules.label                       "样式规则">

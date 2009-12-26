@@ -18,9 +18,7 @@
    - Portions created by the Initial Developer are Copyright (C) 2001
    - the Initial Developer. All Rights Reserved.
    -
-   - Contributor(s):
-   -   Neil Rashbrook <neil@parkwaycc.co.uk>
-   -   TeliuTe <teliute@163.com>
+   - Contributor(s): Neil Rashbrook <neil@parkwaycc.co.uk>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -39,7 +37,7 @@
 <!ENTITY windowTitle.label "选择列表框属性">
 
 <!ENTITY Select.label "选择列表框">
-<!ENTITY SelectName.label "List Name:">
+<!ENTITY SelectName.label "列表名称:">
 <!ENTITY SelectName.accesskey "N">
 <!ENTITY SelectSize.label "高度:">
 <!ENTITY SelectSize.accesskey "H">
@@ -48,7 +46,7 @@
 <!ENTITY SelectDisabled.label "禁用">
 <!ENTITY SelectDisabled.accesskey "D">
 <!ENTITY SelectTabIndex.label "Tab 键顺序:">
-<!ENTITY SelectTabIndex.accesskey "I">
+<!ENTITY SelectTabIndex.accesskey "T">
 
 <!ENTITY OptGroup.label "选项组">
 <!ENTITY OptGroupLabel.label "标签:">

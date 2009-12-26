@@ -19,7 +19,6 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s): Neil Rashbrook <neil@parkwaycc.co.uk>
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -49,5 +48,5 @@
 <!ENTITY AlignCenter.label "居中">
 <!ENTITY AlignRight.label "右对齐">
 
-<!ENTITY RemoveFieldSet.label "Remove Field Set">
+<!ENTITY RemoveFieldSet.label "删除域设置">
 <!ENTITY RemoveFieldSet.accesskey "R">

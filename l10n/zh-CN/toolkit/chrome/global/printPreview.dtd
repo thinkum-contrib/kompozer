@@ -19,8 +19,7 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Samir Gehani <sgehani@netscape.com> (Original Author)
-   -   TeliuTe <teliute@163.com>
+   -  Samir Gehani <sgehani@netscape.com> (Original Author)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -56,14 +55,14 @@
 <!ENTITY p40.label            "40&#037;">
 <!ENTITY p50.label            "50&#037;">
 <!ENTITY p60.label            "60&#037;">
-<!ENTITY p70.label            "70&#037;">
-<!ENTITY p80.label            "80&#037;">
-<!ENTITY p90.label            "90&#037;">
-<!ENTITY p100.label           "100&#037;">
-<!ENTITY p125.label           "125&#037;">
-<!ENTITY p150.label           "150&#037;">
-<!ENTITY p175.label           "175&#037;">
-<!ENTITY p200.label           "200&#037;">
+<!ENTITY p70.label            "60&#037;">
+<!ENTITY p80.label            "70&#037;">
+<!ENTITY p90.label            "70&#037;">
+<!ENTITY p100.label           "80&#037;">
+<!ENTITY p125.label           "90&#037;">
+<!ENTITY p150.label           "125&#037;">
+<!ENTITY p175.label           "150&#037;">
+<!ENTITY p200.label           "175&#037;">
 <!ENTITY Custom.label         "自定义…">
 <!ENTITY ShrinkToFit.label    "缩放以适合">
 <!ENTITY customPrompt.title   "自定义缩放…">

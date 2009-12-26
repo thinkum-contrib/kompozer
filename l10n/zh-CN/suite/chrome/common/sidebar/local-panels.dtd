@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,3 +36,5 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY sidebar.client-sitemanager.label "站点管理器">
+<!ENTITY sidebar.client-domexplorer.label "DOM 查看器">
+

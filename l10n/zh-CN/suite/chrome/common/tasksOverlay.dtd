@@ -4,14 +4,14 @@
 <!ENTITY navigatorCmd.accesskey          "n">
 <!ENTITY navigatorCmd.commandkey         "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label                 "设计师">
+<!ENTITY editorCmd.label                 "KompoZer">
 <!ENTITY editorCmd.accesskey             "c">
 <!ENTITY editorCmd.commandkey            "4">
 
 <!ENTITY securityInfoCmd.label           "安全信息">  
 <!ENTITY securityInfoCmd.accesskey       "s">
 <!ENTITY javaConsoleCmd.label            "Java 控制台">
-<!ENTITY javaConsoleCmd.accesskey        "j">
+<!ENTITY javaConsoleCmd.accesskey        "J">
 
 <!ENTITY javaScriptConsoleCmd.label      "JavaScript 控制台">
 <!ENTITY javaScriptConsoleCmd.accesskey  "S">

@@ -20,8 +20,11 @@
 <!ENTITY selectAllCmd.key                 "A">  
 <!ENTITY selectAllCmd.accesskey           "a">
 <!ENTITY preferencesCmd.label             "首选项…">
-<!ENTITY preferencesCmd.key               "O">  
-<!ENTITY preferencesCmd.accesskey         "o"> 
+<!ENTITY preferencesCmd.key               "O">
+<!ENTITY preferencesCmd.accesskey         "o">
+<!ENTITY preferencesCmdUnix.label         "首选项…">
+<!ENTITY preferencesCmdUnix.accesskey     "n"> 
+
 <!ENTITY findTypeTextCmd.label            "即输即查">
 <!ENTITY findTypeTextCmd.accesskey        "x">
 <!ENTITY findTypeLinksCmd.label           "即输即查链接">

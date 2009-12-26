@@ -8,25 +8,25 @@
 <!ENTITY  manualTypeRadio.label         "手动配置代理">
 <!ENTITY  manualTypeRadio.accesskey     "m">
 <!ENTITY  autoTypeRadio.label           "自动代理配置地址(URL):">
-<!ENTITY  autoTypeRadio.accesskey       "a">
+<!ENTITY  autoTypeRadio.accesskey       "U">
 <!ENTITY  configAutoconfigText.label    "配置位置(URL):">
-<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  configAutoconfigText.accesskey "U">
 <!ENTITY  reload.label                  "重新载入">
 <!ENTITY  reload.accesskey              "l">
 <!ENTITY  ftp.label                     "FTP 代理:">
-<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  ftp.accesskey                 "F">
 <!ENTITY  gopher.label                  "Gopher 代理:">
-<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  gopher.accesskey              "G">
 <!ENTITY  http.label                    "HTTP 代理:">
-<!ENTITY  http.accesskey                "h">
+<!ENTITY  http.accesskey                "H">
 <!ENTITY  ssl.label                     "SSL 代理:">
-<!ENTITY  ssl.accesskey                 "s">
+<!ENTITY  ssl.accesskey                 "S">
 <!ENTITY  socks.label                   "SOCKS 主机:">
-<!ENTITY  socks.accesskey               "c">
-<!ENTITY  socks4.label                  "SOCKS v4">
-<!ENTITY  socks4.accesskey              "k">
-<!ENTITY  socks5.label                  "SOCKS v5">
-<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  socks.accesskey               "C">
+<!ENTITY  socks4.label                  "SOCKS 4">
+<!ENTITY  socks4.accesskey              "K">
+<!ENTITY  socks5.label                  "SOCKS 5">
+<!ENTITY  socks5.accesskey              "S">
 <!ENTITY  port.label                    "端口:">
 <!ENTITY  HTTPport.accesskey            "p">
 <!ENTITY  SSLport.accesskey             "o">

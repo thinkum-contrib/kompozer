@@ -19,7 +19,6 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s): Neil Rashbrook <neil@parkwaycc.co.uk>
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -67,7 +66,7 @@
 <!ENTITY InputDisabled.label "禁用">
 <!ENTITY InputDisabled.accesskey "D">
 <!ENTITY tabIndex.label "Tab 键顺序:">
-<!ENTITY tabIndex.accesskey "I">
+<!ENTITY tabIndex.accesskey "T">
 <!ENTITY TextSize.label "域大小:">
 <!ENTITY TextSize.accesskey "F">
 <!ENTITY TextLength.label "最大长度:">

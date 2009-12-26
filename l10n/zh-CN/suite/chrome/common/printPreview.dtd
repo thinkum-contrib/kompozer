@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -  Samir Gehani <sgehani@netscape.com> (Original Author)
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -42,7 +41,7 @@
 <!ENTITY pageSetup.accesskey  "u">
 <!ENTITY page.label           "页面:">
 <!ENTITY page.accesskey       "a">
-<!ENTITY of.label             "of">
+<!ENTITY of.label             "共">
 <!ENTITY scale.label          "缩放:">
 <!ENTITY scale.accesskey      "S">
 <!ENTITY percent.label        "&#037;">

@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   David P. Drinan (ddrinan@netscape.com)
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -75,9 +74,9 @@
 <!ENTITY validation.ocsp.caption                  "OCSP">
 <!ENTITY validation.ocsp.description              "&brandShortName; 能够使用在线证书状态协议(OCSP)来校验证书。要设置 &brandShortName; 使用 OCSP，请按下面的步骤操作:">
 <!ENTITY disableOCSP.label                        "不使用 OCSP 校验证书">
-<!ENTITY disableOCSP.accesskey                    "D">
+<!ENTITY disableOCSP.accesskey                    "O">
 <!ENTITY certOCSP.label                           "仅使用指定的 OCSP 服务器网址来校验证书">
-<!ENTITY certOCSP.accesskey                       "U">
+<!ENTITY certOCSP.accesskey                       "O">
 <!ENTITY proxyOCSP.label                          "使用 OCSP 验证这个网址和签名服务的所有证书:">
 <!ENTITY proxyOCSP.accesskey                      "O">
 <!ENTITY serviceURL.label                         "服务器网址:">

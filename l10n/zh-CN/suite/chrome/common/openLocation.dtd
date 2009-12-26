@@ -19,8 +19,7 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
-   -   TeliuTe <teliute@163.com>
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -39,7 +38,7 @@
 <!-- extracted from content/openLocation.xul -->
 
 <!ENTITY enter.label "输入模板的网址(URL)，或者选择一个本地模板:">  
-<!ENTITY enter.accesskey "E">
+<!ENTITY enter.accesskey "U">
 <!ENTITY chooseFile.label "选择文件…">
 <!ENTITY chooseFile.accesskey "C">
 <!ENTITY cancel.label "取消">

@@ -20,7 +20,6 @@
    -
    - Contributor(s):
    -   Ian McGreer <mcgreer@netscape.com>
-   -   TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -104,7 +103,7 @@
 <!ENTITY certmgr.edit.label                   "编辑">
 <!ENTITY certmgr.edit.accesskey               "E">
 <!ENTITY certmgr.editca.label                 "编辑 CA 信任">
-<!ENTITY certmgr.editca.accesskey             "d">
+<!ENTITY certmgr.editca.accesskey             "C">
 <!ENTITY certmgr.add.label                    "添加">
 <!ENTITY certmgr.add.accesskey                "A">
 <!ENTITY certmgr.delete.label                 "删除">

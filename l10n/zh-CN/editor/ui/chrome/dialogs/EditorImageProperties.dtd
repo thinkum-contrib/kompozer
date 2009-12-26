@@ -18,7 +18,6 @@
    - Rights Reserved.
    - 
    - Contributor(s): 
-   -   TeliuTe <teliute@163.com>
   -->
 
 <!-- These strings are for use specifically in the editor's image and form image dialogs. -->
@@ -33,7 +32,7 @@
 <!ENTITY locationEditField.label "图片位置:">
 <!ENTITY locationEditField.accessKey "L">
 <!ENTITY locationEditField.tooltip "输入图片文件名或位置">
-<!ENTITY title.label "Tooltip:">
+<!ENTITY title.label "提示:">
 <!ENTITY title.accessKey "T">
 <!ENTITY title.tooltip "html 的 'title' 属性会显示一个浮动提示">
 <!ENTITY altText.label "替代文本:">
@@ -84,7 +83,7 @@
 <!ENTITY leftRightEditField.accessKey "L">
 <!ENTITY topBottomEditField.label "顶部和底部:">
 <!ENTITY topBottomEditField.accessKey "T">
-<!ENTITY borderEditField.label "Solid Border:">
+<!ENTITY borderEditField.label "实线边框:">
 <!ENTITY borderEditField.accessKey "B">
 
 <!-- These controls are in the Link Box -->

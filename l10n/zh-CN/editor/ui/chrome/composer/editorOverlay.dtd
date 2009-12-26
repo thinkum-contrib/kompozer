@@ -27,7 +27,6 @@
    -    Stephen Donner (technutz@netscape.net)
    -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
    -    Fabien Cazenave (kaze@kompozer.net)
-   -    TeliuTe <teliute@163.com>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -210,7 +209,7 @@
 <!ENTITY insertNbsp.accesskey                "n">
 
 <!ENTITY insertHTMLCmd.label                 "HTML…">
-<!ENTITY insertHTMLCmd.accesskey             "h">
+<!ENTITY insertHTMLCmd.accesskey             "H">
 <!ENTITY insertPHPCode.label                 "PHP 代码…">
 <!ENTITY insertphpcode.accesskey             "p">
 <!ENTITY insertComment.label                 "注释…">
@@ -257,7 +256,7 @@
 <!ENTITY clearCmd.label                      "清除">
 <!ENTITY clear.accesskey                     "l">
 <!ENTITY selectAllCmd.label                  "全选">
-<!ENTITY selectall.accesskey "a">
+<!ENTITY selectall.accesskey                 "a">
 
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip              "选择字体">
@@ -528,21 +527,21 @@
 <!ENTITY toolsetfocus.accesskey              "f">
 
 <!-- Debug menu items -->
-<!ENTITY debugMenu.label                    "调试">
-<!ENTITY newEditorTestPage.label            "用设计师打开测试页">
-<!ENTITY textEditorCmd.label                "纯文本编辑器">
-<!ENTITY outputTextCmd.label                "输出成纯文本文件">
-<!ENTITY outputHTMLCmd.label                "输出 HTML">
-<!ENTITY insertTextCmd.label                "插入文本">
-<!ENTITY testSelectionCmd.label             "测试选中项">
-<!ENTITY testTableLayoutCmd.label           "测试表格布局">
-<!ENTITY testDocumentCmd.label              "测试文件">
-<!ENTITY showEmbeddedCmd.label              "显示內嵌对象">
-<!ENTITY dumpContentCmd.label               "以树状方式显示內容">
-<!ENTITY runUnitTestsCmd.label              "执行单元测试">
-<!ENTITY dumpUndoStack.label                "显示撤销列表">
-<!ENTITY dumpRedoStack.label                "显示重做列表">
-<!ENTITY executeJSTransactionViaTxmgr.label "使用 Transaction 管理员执行 JS Transaction">
+<!ENTITY debugMenu.label                     "调试">
+<!ENTITY newEditorTestPage.label             "用设计师打开测试页">
+<!ENTITY textEditorCmd.label                 "纯文本编辑器">
+<!ENTITY outputTextCmd.label                 "输出成纯文本文件">
+<!ENTITY outputHTMLCmd.label                 "输出 HTML">
+<!ENTITY insertTextCmd.label                 "插入文本">
+<!ENTITY testSelectionCmd.label              "测试选中项">
+<!ENTITY testTableLayoutCmd.label            "测试表格布局">
+<!ENTITY testDocumentCmd.label               "测试文件">
+<!ENTITY showEmbeddedCmd.label               "显示內嵌对象">
+<!ENTITY dumpContentCmd.label                "以树状方式显示內容">
+<!ENTITY runUnitTestsCmd.label               "执行单元测试">
+<!ENTITY dumpUndoStack.label                 "显示撤销列表">
+<!ENTITY dumpRedoStack.label                 "显示重做列表">
+<!ENTITY executeJSTransactionViaTxmgr.label  "使用 Transaction 管理员执行 JS Transaction">
 <!ENTITY executeJSTransactionViaEditor.label "使用编辑器执行 JS Transaction">
 <!ENTITY startLogCmd.label                   "开始记录">
 <!ENTITY stopLogCmd.label                    "停止记录">
@@ -624,7 +623,7 @@
 <!ENTITY NormalMode.accesskey                "n">
 <!ENTITY NormalMode.tooltip                  "显示表格边框和锚点">
 <!ENTITY AllTagsMode.label                   "HTML 标记">
-<!ENTITY AllTagsMode.accesskey               "A">
+<!ENTITY AllTagsMode.accesskey               "H">
 <!ENTITY AllTagsMode.tooltip                 "显示所有 HTML 标记">
 <!ENTITY PreviewMode.label                   "预览">
 <!ENTITY PreviewMode.accesskey               "p">
@@ -640,7 +639,7 @@
 <!ENTITY HTMLSourceMode.label                "HTML 源代码">
 <!-- Toolbar has an image with "HTML" text, so don't include it in the string -->
 <!ENTITY SourceMode.label                    "源代码">
-<!ENTITY HTMLSourceMode.accesskey            "h">
+<!ENTITY HTMLSourceMode.accesskey            "H">
 <!ENTITY HTMLSourceMode.tooltip              "编辑 HTML 源代码">
 
 <!-- LOCALIZATION NOTE: Do NOT translate text for 'SourceTabDirection'
@@ -678,13 +677,13 @@
 <!ENTITY customizeToolbar.label              "定制工具栏">
 <!ENTITY customizeToolbar.accesskey          "c">
 
-<!-- Templates -->            
+<!-- Templates -->                           
 <!ENTITY templatesMenu.label                 "模板">
 <!ENTITY insertEditableArea.label            "插入可编辑域">
 <!ENTITY removeEditableArea.label            "刪除可编辑域">
-<!ENTITY makeEditableArea.label              "设为可编辑"> 
+<!ENTITY makeEditableArea.label              "设为可编辑">
 
-<!-- RTL -->
+<!-- RTL -->                           
 <!ENTITY writingDirectionMenu.label          "文字方向">
 <!ENTITY writingdirectionmenu.accesskey      "w">
 <!ENTITY defaultDirectionMenu.label          "未指定">
@@ -699,6 +698,11 @@
 <!-- Help menu -->                           
 <!ENTITY helpMenu.label                      "帮助">
 <!ENTITY helpmenu.accesskey                  "H">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label                   "帮助"> 
+<!ENTITY helpMenuWin.accesskey               "H">
+
 
 <!ENTITY nvuComMenu.label                    "&brandShortName; 网站">
 <!ENTITY nvucommenu.accesskey                "K">
@@ -720,10 +724,6 @@
 <!ENTITY localizingNvu.label                 "本地化 &brandShortName;">
 <!ENTITY userGuideMenu.label                 "用户指南">
 <!ENTITY userguidemenu.accesskey             "U">
-<!ENTITY aboutLinspire.label                 "关于 Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey             "L">
-<!ENTITY aboutDI.label                       "关于 Disruptive Innovations">
-<!ENTITY aboutDI.accesskey                   "I">
 
 <!ENTITY leftGlued.tooltip                   "紧贴左边界">
 <!ENTITY rightGlued.tooltip                  "紧贴右边界">
@@ -734,7 +734,11 @@
 
 <!ENTITY spellSuggestions.label              "拼写建议">
 <!ENTITY spellSuggestions.accesskey          "S">
-<!ENTITY spellAddToDictionary.label          "加入字典">
+<!ENTITY spellCheckNoSuggestions.label "无法找到可建议修改的词">
+<!ENTITY spellCheckIgnoreWord.label "忽略词">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "添加至字典">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "编辑 HTML">
