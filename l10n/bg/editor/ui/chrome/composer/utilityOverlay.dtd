@@ -20,8 +20,10 @@
 <!ENTITY selectAllCmd.key					"ч">  
 <!ENTITY selectAllCmd.accesskey					"в">
 <!ENTITY preferencesCmd.label				"Предпочитания…">
-<!ENTITY preferencesCmd.key					"П">  
-<!ENTITY preferencesCmd.accesskey			"п"> 
+<!ENTITY preferencesCmd.key					"П">
+<!ENTITY preferencesCmd.accesskey			"п">
+<!ENTITY preferencesCmdUnix.label "Настройки">
+<!ENTITY preferencesCmdUnix.accesskey "Н">
 <!ENTITY findTypeTextCmd.label "Find Text As You Type">
 <!ENTITY findTypeTextCmd.accesskey "x">
 <!ENTITY findTypeLinksCmd.label "Find Links As You Type">
@@ -30,7 +32,7 @@
 <!ENTITY viewToolbarsMenu.label				"Покажи/Скрий"> 
 <!ENTITY viewToolbarsMenu.accesskey			"П"> 
 
-<!ENTITY newBlankPageCmd.label "Composer Page">
+<!ENTITY newBlankPageCmd.label "KompoZer Page">
 <!ENTITY newBlankPageCmd.accesskey "P" >
 <!ENTITY newBlankPageCmd.key "n" >
 <!ENTITY newPageFromTemplateCmd.label "Page Using Template">

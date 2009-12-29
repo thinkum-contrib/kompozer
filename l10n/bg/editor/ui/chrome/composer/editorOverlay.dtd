@@ -529,7 +529,7 @@
 
 <!-- Debug menu items -->
 <!ENTITY debugMenu.label "Debug">
-<!ENTITY newEditorTestPage.label "Composer with Test Page">
+<!ENTITY newEditorTestPage.label "KompoZer with Test Page">
 <!ENTITY textEditorCmd.label "Plaintext Editor">
 <!ENTITY outputTextCmd.label "Output Text">
 <!ENTITY outputHTMLCmd.label "Output HTML">
@@ -714,6 +714,10 @@
 <!-- Help menu -->
 <!ENTITY helpMenu.label           "Помощ">
 <!ENTITY helpmenu.accesskey       "щ">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label        "Помощ"> 
+<!ENTITY helpMenuWin.accesskey    "щ">
 
 <!ENTITY nvuComMenu.label         "Мрежовата страница на KompoZer">
 <!ENTITY nvucommenu.accesskey     "K">
@@ -735,10 +739,6 @@
 <!ENTITY localizingNvu.label      "Превод на KompoZer">
 <!ENTITY userGuideMenu.label      "Потребителски наръчник">
 <!ENTITY userguidemenu.accesskey  "П">
-<!ENTITY aboutLinspire.label      "За Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey  "L">
-<!ENTITY aboutDI.label            "За Disruptive Innovations">
-<!ENTITY aboutDI.accesskey        "I">
 
 <!ENTITY leftGlued.tooltip        "Залепване за лявата граница">
 <!ENTITY rightGlued.tooltip       "Залепване за лявата граница">
@@ -749,4 +749,9 @@
 
 <!ENTITY spellSuggestions.label   "Правописни предложения">
 <!ENTITY spellSuggestions.accesskey "п">
-<!ENTITY spellAddToDictionary.label "Добави в речника">
+<!ENTITY spellCheckNoSuggestions.label "Няма предложения">
+<!ENTITY spellCheckIgnoreWord.label "Игнориране на дума">
+<!ENTITY spellCheckIgnoreWord.accesskey "И">
+<!ENTITY spellCheckAddToDictionary.label "Добавяне в речника">
+<!ENTITY spellCheckAddToDictionary.accesskey "ч">
+
