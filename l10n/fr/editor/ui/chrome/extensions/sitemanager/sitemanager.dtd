@@ -52,7 +52,7 @@
 
 <!ENTITY deleteFile.label         "Supprimer le fichier">
 <!ENTITY deletefile.accesskey     "S">
-<!ENTITY createDir.label          "Nouveau sous-répertoires">
+<!ENTITY createDir.label          "Nouveau sous-répertoire">
 <!ENTITY createdir.accesskey      "N">
 <!ENTITY removeDir.label          "Supprimer le répertoire">
 <!ENTITY removedir.accesskey      "u">
@@ -74,7 +74,7 @@
 
 <!ENTITY editItem.label           "Modifier">
 <!ENTITY openItem.label           "Ouvrir">
-<!ENTITY openAsText.label         "Ouvrir sous forme texte">
+<!ENTITY openAsText.label         "Ouvrir au format texte">
 <!ENTITY openRemote.label         "Ouvrir le répertoire distant">
 <!ENTITY insertImage.label        "Insérer une image">
 <!ENTITY previewItem.label        "Aperçu">
