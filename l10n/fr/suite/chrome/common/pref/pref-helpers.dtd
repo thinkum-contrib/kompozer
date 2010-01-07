@@ -74,5 +74,5 @@
 <!ENTITY looseDTD.label                "Transitional">
 <!ENTITY strictDTD.label               "Strict">
 
-<!ENTITY noGTEncoding.label            "Ne pas encoder « &gt; »en dehors des valeurs d'attribut">
+<!ENTITY noGTEncoding.label            "Ne pas encoder « &gt; » en-dehors des valeurs d'attribut">
 <!ENTITY noEscaping.label              "Ne pas encoder les caractères spéciaux dans les valeurs d'attribut">
