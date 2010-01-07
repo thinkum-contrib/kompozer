@@ -31,13 +31,13 @@
 <!-- These are in the Location tab panel -->
 <!ENTITY locationEditField.label "Adresse de l'image :">
 <!ENTITY locationEditField.accessKey "E">
-<!ENTITY locationEditField.tooltip "Taper le nom de fichier de l'image ou son URL">
+<!ENTITY locationEditField.tooltip "Saisir le nom de fichier de l'image ou son URL">
 <!ENTITY title.label "Vignette :">
 <!ENTITY title.accessKey "t">
-<!ENTITY title.tooltip "Taper le titre affiché dans la bulle d'information">
+<!ENTITY title.tooltip "Saisir le titre affiché dans la bulle d'information">
 <!ENTITY altText.label "Texte alternatif :">
 <!ENTITY altText.accessKey "A">
-<!ENTITY altTextEditField.tooltip "Taper le texte affiché en remplacement de l'image">
+<!ENTITY altTextEditField.tooltip "Saisir le texte affiché en remplacement de l'image">
 <!ENTITY noAltText.label "Ne pas utiliser de texte alternatif">
 <!ENTITY noAltText.accessKey "N">
 
@@ -78,7 +78,7 @@
 
 <!-- These controls are in the Spacing Box -->
 <!ENTITY spacingBox.label "Espacement">
-<!ENTITY spacingBox.tooltip "Taper un nombre pour définir l'espace entre l'image et le texte">
+<!ENTITY spacingBox.tooltip "Saisir un nombre pour définir l'espace entre l'image et le texte">
 <!ENTITY leftRightEditField.label "À gauche et à droite :">
 <!ENTITY leftRightEditField.accessKey "G">
 <!ENTITY topBottomEditField.label "En haut et en bas :">
