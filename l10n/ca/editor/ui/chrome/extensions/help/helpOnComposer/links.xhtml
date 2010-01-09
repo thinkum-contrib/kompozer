@@ -5,8 +5,8 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-  <title>Crear enlaces con &brandShortName;</title>
-  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
@@ -24,259 +24,285 @@ function togglePanel() {
 </script>
 
 <table width="100%" id="navTable">
-  <tr>
-    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
-    <td width="72">
-      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
-           alt="&brandShortName;" align="center"/>
-    </td>
-    <td align="left">
-      <span id="topText">Centro de ayuda</span>
-    </td>
-  </tr>
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
 </table>
 
-<div id="contentsBox">En esta secci&oacute;n:
-  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
-  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
-  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
-  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
-  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
-  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
-  <a href="templates.xhtml">Trabajar con plantillas</a>
-  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
-  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
-  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+<div id="contentsBox">In this section:
+  <a href="composer_help.xhtml#starting_a_new_page">Starting a New Page</a>
+
+  <a href="formatting_webpages.xhtml">Formatting Your Web
+  Pages</a>
+
+  <a href="css.xhtml">Using Style Sheets to Style Your Web Pages</a>
+
+  <a href="tables.xhtml">Adding Tables to Your Web Page</a>
+
+  <a href="images.xhtml">Adding Pictures (Images) to Your Web Page</a>
+
+  <a href="toc.xhtml">Working with Table of Contents on Your Web
+  Page</a>
+
+  <a href="templates.xhtml">Working With Templates  </a>
+
+  <a href="page_properties.xhtml">Setting Page Properties</a>
+
+  <a href="links.xhtml">Creating Links in &brandShortName;</a>
+
+  <a href="customize.xhtml">Customizing &brandShortName;</a>
+
 </div>
 
-<h2 id="creating_links_in_composer">Crear enlaces con
+<h2 id="creating_links_in_composer">Creating Links in
 &brandShortName;</h2>
 
-<h3 id="creating_links_within_the_same_page">Crear enlaces dentro de la
-misma p&aacute;gina</h3>
+<h3 id="creating_links_within_the_same_page">Creating Links Within the
+Same Page</h3>
 
-<p>Para crear un enlace dentro de la misma p&aacute;gina, por ejemplo, un
-enlace que el lector pueda utilizar para saltar de una secci&oacute;n a otra,
-se debe crear una <em>ancla</em> (direcci&oacute;n objetivo) y,
-posteriormente, crear un enlace que apunte a esa ancla. Las anclas
-tambi&eacute;n se llaman <em>enlaces internos</em>.</p>
+<p>To create a link within the same page, for example a link that the
+reader can use to
+jump from one section to another, you must create an <em>anchor</em>
+(target location),
+and then create a link that points to the anchor. Anchors are also
+called
+<em>named anchors</em>.</p>
 
 <ol>
-  <li>Haga clic para emplazar el punto de inserci&oacute;n al principio de la
-  l&iacute;nea donde desee crear un enlace interno o seleccione alg&uacute;n
-  texto.</li>
-  <li>Pulse el bot&oacute;n Enlace interno <img src="images/anchor.png" width="26"
-  height="26" alt="" /> o abra el men&uacute; Insertar y seleccione Enlace interno.
-  Aparecer&aacute; el cuadro de di&aacute;logo Propiedades del enlace interno.</li>
-  <li>Escriba un nombre &uacute;nico para el ancla en el campo Nombre del enlace
-  interno (hasta 30 caracteres). Si se incluyen espacios, se convertir&aacute;n
-  en guiones bajos (_). Si se seleccion&oacute; alg&uacute;n texto en el paso 1,
-  el cuadro de di&aacute;logo ya contendr&aacute; un nombre.</li>
-  <li>Haga clic en Aceptar. Aparecer&aacute; un icono ancla en el documento para
-  marcar la ubicaci&oacute;n del enlace interno:
-  <img src="images/anchor-in-doc.gif" width="20" height="17" alt="" /></li>
-</ol>
+  <li>Click to place the insertion point at the beginning of a line
+  where you want to create an anchor, or select some text.</li>
   
-<p>Para crear un enlace en el que el lector pueda hacer clic y saltar al
-ancla:</p>
-
-<ol>
-  <li>Seleccione el texto o la imagen que desee enlazar con el ancla.</li>
-  <li>Haga clic en el bot&oacute;n Enlace o abra el men&uacute; Insertar y
-  seleccione Enlace. Aparecer&aacute; el cuadro de di&aacute;logo Propiedades
-  del enlace.
-    <ul>
-      <li>Si se est&aacute; creando un enlace a un archivo HTML del
-      ordenador, haga clic en Elija un archivo… para localizarlo.</li>
-      <li>Si se est&aacute; creando un enlace a un enlace interno,
-      selecci&oacute;nelo de la lista de anclas disponibles en la
-      p&aacute;gina.</li>
-      <li>Si se est&aacute; creando un enlace a un encabezado (por ejemplo,
-      T&iacute;tulo 1 - T&iacute;tulo 6), selecci&oacute;nelo de la lista de
-      titulares disponibles en la p&aacute;gina.</li>
-    </ul>
-  </li>
-  <li>Haga clic en Aceptar.</li>
+  <li>Click on anchor button <img src="images/anchor.png" width="26"
+  height="26" alt="" /> or open the Insert menu and choose Named
+  Anchor. You see the Named Anchor Properties dialog box.</li>
+  
+  <li>Type a unique name for the anchor in the Anchor Name field (up
+  to 30 characters). If you include spaces, they will be converted to
+  underscores ( _ ). If you selected some text in step 1, this box
+  already contains a name.</li>
+  
+  <li>Click OK. An anchor icon appears in your document to mark the
+  anchor's location: <img src="images/anchor-in-doc.gif" width="20"
+  height="17" alt="" /></li>
 </ol>
 
-<p><strong>Nota</strong>: para comprobar el enlace reci&eacute;n creado, abra
-el men&uacute; Archivo, seleccione Visualizar p&aacute;gina en el navegador y
-haga clic en el enlace.</p>
+<p>To create the link on which readers can click to jump to the
+anchor:</p>
 
-<p><strong>Truco</strong>: si no se cre&oacute; primero el enlace interno, se
-puede utilizar el cuadro de di&aacute;logo Enlace para crear enlaces a
-titulares existentes en la p&aacute;gina.</p>
+<ol>
+  <li>Select the text or image that you want to link to the
+  anchor.</li>
+
+  <li>Click the Link button or open the Insert menu and choose
+  Link. You see the Link Properties dialog box.
+  
+  <ul>
+    <li>If you're creating a link to an HTML file on your computer,
+    click Choose File
+    to locate it.</li>
+    
+    <li>If you're creating a link to a named anchor (target), select
+    it from the list of
+    the anchors currently available in the page.</li>
+    
+    <li>If you're creating a link to a level heading (for example,
+    Heading 1 - Heading 6),
+    select it from the list of headings currently available in
+    the page.</li>
+    
+  </ul>
+  </li>
+  
+  <li>Click OK.</li> 
+</ol>
+
+<p><strong>Note</strong>: To test the link you just created, open the
+File menu and choose Browse Page,
+then click the link.</p>
+
+<p><strong>Tip</strong>: If you did not first create named anchors,
+you can use the Link dialog box to
+create links to headings that already occur in the page.</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Volver al principio de la secci&oacute;n</a> ]</p>
+href="#creating_links_in_composer">Return to beginning of section</a>
+]</p>
 
-<h3 id="creating_links_to_other_pages">Crear enlaces a otras
-p&aacute;ginas</h3>
+<h3 id="creating_links_to_other_pages">Creating Links to Other
+Pages</h3>
 
-<p>Se pueden crear enlaces desde la p&aacute;gina a otras p&aacute;ginas
-locales del ordenador, de la red local o a p&aacute;ginas remotas de
+<p>You can create links from your page to local pages on your own
+computer or on your workplace's network, or to remote pages on the
 Internet.</p>
 
-<p><strong>Consejo</strong>: es mejor guardar o publicar primero su trabajo
-antes de crear enlaces a otras p&aacute;ginas. Esto permite a &brandShortName;
-utilizar autom&aacute;ticamente referencias relativas en los enlaces cuando
-los cree.</p>
+<p><strong>Tip</strong>: It's best to first save or publish your page
+before you create links to other pages. This allows &brandShortName;
+to automatically use relative references for links once you create
+them.</p>
+
+<p id="to_create_a_link_to_another_page">To create a link to another
+page:</p>
+
+<ol>
+  <li>Click to place the insertion point where you want to create a
+  link, or select the text
+  or image that you want to link to the anchor.</li>
   
-<p id="to_create_a_link_to_another_page">Para crear un enlace a otra
-p&aacute;gina:</p>
+  <li>Click the Link button. You see the Link Properties dialog
+  box.</li>
+  
+  <li>Define your link:
+  
+  <ul>
+    <li><strong>Link text</strong>: If you've already selected an
+    image file or text before clicking
+    the Link button, the selected text or file will be entered
+    here. Otherwise, you must
+    enter the text that you want to use as the link.</li>
 
-<ol>
-  <li>Haga clic para emplazar el punto de inserci&oacute;n donde desee crear
-  el enlace o seleccione el texto o imagen que se desee enlazar con el enlace
-  interno.</li>
-  <li>Haga clic en el bot&oacute;n Enlace. Aparecer&aacute; el cuadro de
-  di&aacute;logo Propiedades del enlace.</li>
-  <li>Defina el enlace:
-    <ul>
-      <li><strong>Texto del enlace</strong>: si se ha seleccionado un archivo
-      de imagen o un texto antes de hacer clic en el icono enlace, el texto o
-      archivo seleccionado ser&aacute; introducido aqu&iacute;. Si no, se
-      debe introducir el texto que se desee utilizar como enlace.</li>
-      <li><strong>Ubicaci&oacute;n del enlace</strong>: escriba la ruta local
-      y el nombre del archivo o la URL remota a la p&aacute;gina que se desee
-      enlazar. Si no se est&aacute; seguro de la ruta y nombre del archivo
-      local, haga clic en Elegir archivo… para buscarlo dentro del disco
-      duro o de la red. En el caso de URLs remotas se puede copiar la URL
-      desde el campo de ubicaci&oacute;n del navegador. Alternativamente, se
-      puede seleccionar un enlace interno o un titular de la p&aacute;gina
-      actual en la que se quiere hacer el enlace.</li>
-      <li><strong>La URL es relativa a la ruta de la p&aacute;gina</strong>: si
-      est&aacute; marcada, &brandShortName; convertir&aacute; la URL a una
-      direcci&oacute;n relativa a la localizaci&oacute;n de la
-      p&aacute;gina. Esto es especialmente &uacute;til si se planea copiar
-      las p&aacute;ginas a un servidor web para que otra gente pueda
-      verlas. El uso de URLs relativas permite mantener todos los archivos
-      vinculados en el mismo sitio relativo al resto independientemente de
-      la ruta en el disco duro o servidor web.
+    <li><strong>Link Location</strong>: Type the local path and
+    filename or remote URL of the page
+    you want to link to. If you're not sure of the path and
+    filename for a local file,
+    click Choose File to look for it on your hard disk or
+    network. For remote URLs, you
+    can copy the URL from the browser location
+    field. Alternatively, you can select a
+    named anchor or a heading in the current page that you
+    want to link to.</li>
 
-      <p>Al desmarcar esta opci&oacute;n &brandShortName; convierte la URL a
-      una URL completa o absoluta. Normalmente se utilizan URLs absolutas
-      cuando se vinculan im&aacute;genes en otros servidores web (cuando no
-      est&aacute;n almacenadas localmente en el disco duro).</p>
-
-      <p>Si se tienen cambios no guardados, primero se debe guardar la
-      p&aacute;gina para habilitar esta opci&oacute;n.</p>
-      </li>
-    </ul>
+    <li><strong>URL is relative to page location</strong>: If
+    checked, &brandShortName; converts the URL to
+    be relative to the page's location. This is especially
+    useful if you plan to publish
+    your pages to a web server so that others can view
+    them. Using relative URLs allows
+    you to keep all your linked files in the same place
+    relative to each other,
+    regardless of their location on your hard disk or a
+    web server.
+    <p>Deselecting this option causes &brandShortName; to
+    convert the URL to a full (absolute)
+    URL. You typically use absolute URLs when linking to
+    pages on other web servers
+    (not stored locally on your hard disk).</p>
+    <p>If you have unsaved changes, you must first save the page
+    in order to enable this
+    checkbox.</p></li>
+    
+  </ul>
   </li>
-  <li>Para aplicar atributos adicionales o eventos JavaScript haga clic en
-  Edici&oacute;n avanzada… para visualizar el <a href=
-  "#using_the_advanced_property_editor">editor avanzado de
-  propiedades</a>.</li>
-  <li>Haga clic en Aceptar.</li>
-  <li>Para comprobar el enlace que se acaba de crear, pulse el bot&oacute;n
-  Visualizar y luego haga clic en el enlace para asegurarse de que
-  funciona.</li>
+  <li>To apply additional attributes or JavaScript events, click
+  Advanced Edit to display the
+  <a href="#using_the_advanced_property_editor">Advanced Property
+  Editor</a>.</li>
+  
+  <li>Click OK.</li>
+  
+  <li>To test the link you just created, click the Browse button and
+  then click the link to make sure it works as expected.</li>
 </ol>
 
-<p><strong>Consejo</strong>: puede copiar un enlace r&aacute;pidamente
-pulsando en &eacute;l y arrastr&aacute;ndolo desde otra ventana y
-solt&aacute;ndolo en su p&aacute;gina. Por ejemplo, puede pulsar y arrastrar
-un enlace desde una p&aacute;gina web, un marcador o la ventana de Correo y
-Noticias y soltarlo en su p&aacute;gina. Tambi&eacute;n puede hacer clic con
-el bot&oacute;n derecho (Control+clic en Mac OS) sobre un enlace en una
-p&aacute;gina web y escoger Copiar ruta del enlace del men&uacute; emergente.
-A continuaci&oacute;n puede pegar la ruta del enlace en el campo
-Direcci&oacute;n del cuadro de di&aacute;logo de propiedades del enlace.</p>
+<p><strong>Tip</strong>: You can copy a link quickly by clicking and
+dragging the link from another window and then dropping it onto your
+page.  For example, you can click and drag a link from a web page,
+bookmark, or Mail window and drop it onto your page. You can also
+right-click (Control+click on Mac OS) a link on a web page and choose
+Copy Link Location from the menu. Then you can paste the link location
+into the Link Location field in the Link Properties dialog box.</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Volver al
-principio de la secci&oacute;n</a>
+href="#creating_links_in_composer">Return to beginning of section</a>
 ]</p>
 
-<h3 id="adding_xfn_information_within_your_links">A&ntilde;adir
-informaci&oacute;n XFN en sus enlaces</h3>
+<h3 id="adding_xfn_information_within_your_links">Adding XFN
+Information Within Your Links</h3>
 
-<p>Al crear enlaces en su p&aacute;gina web a las de otras personas,
-&brandShortName; proporciona la posibilidad de incluir informaci&oacute;n
-<a target="_blank" href="http://gmpg.org/xfn/">XFN</a> (XHTML Friends Network,
-Red de Amistad XHTML). XFN es una manera muy sencilla de representar las
-relaciones humanas usando hiperenlaces. Para a&ntilde;adir informaci&oacute;n
-XFN:</p>
+<p>While creating links on your web page to other people's web pages,
+&brandShortName; provides the feature of including <a target="_blank"
+href="http://gmpg.org/xfn/">XFN</a> (XHTML Friends Network)
+information. The XFN is a simple way to represent human relationships
+using hyperlinks. To add XFN information:</p>
 
 <ol>
-  <li>Pulse con el bot&oacute;n derecho en el enlace al que quiere a&ntilde;adir
-  informaci&oacute;n XFN.</li>
-  <li>Seleccione <q>Propiedades del enlace</q>.</li>
-  <li>En la ventana de di&aacute;logo <q>Propiedades del enlace</q>, pulse en
-  <q>M&aacute;s propiedades</q>.</li>
-  <li>Seleccione las entradas bajo la secci&oacute;n <q>Amistad (XFN)</q> que
-  quiera a&ntilde;adir como informaci&oacute;n XFN.</li>
-  <li>Pulse <q>Aceptar</q>.</li>
-  <li>Pulse <q>Guardar</q> para guardar los cambios/adiciones al documento.</li>
+  <li>Right click on the link in which you want to add the XFN information.</li>
+  <li>Select "Link Properties".</li>
+  <li>In the "Link Properties" dialog window, click on "More Properties".</li>
+  <li>Select the corresponding entries under "Friendship" section to
+  be added as XFN information.</li>
+  <li>Click on "OK".</li>
+  <li>Click on "Save" to save changes/addition in document.</li>
 </ol>
 
-<p><strong>Nota:</strong> algunas propiedades XFN son de tipo radio, es decir,
-s&oacute;lo puede pulsar una como m&aacute;ximo, mientras que otras son casillas
-de verificaci&oacute;n, es decir, puede marcar varias simult&aacute;neamente.</p>
+<p><strong>Note:</strong> Some XFN properties are radio-button type
+i.e. pick at most one, others are check boxes i.e. pick as many.</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Volver al principio de la secci&oacute;n</a>
+href="#creating_links_in_composer">Return to beginning of section</a>
 ]</p>
 
-<h3 id="using_images_as_links">Utilizar im&aacute;genes como enlaces</h3>
+<h3 id="using_images_as_links">Using Images as Links</h3>
 
-<p>Se puede hacer que los archivos de imagen, tales como JPEG, GIF o PNG se
-comporten como enlaces. Cuando un lector haga clic en la imagen enlace, la
-ventana del navegador mostrar&aacute; la p&aacute;gina a la cual enlaza la
-imagen.</p>
+<p>You can make images, such as JPEG, GIF, or PNG files, behave like
+links in your pages. When the reader clicks a linked image, the
+browser window displays the page that the image is linked to.</p>
 
 <ol>
-  <li>Seleccione una imagen de la p&aacute;gina.</li>
-  <li>Haga clic en el bot&oacute;n Enlace <img src="images/link.png"
-  width="26" height="26" alt="" /> de la barra de herramientas o abra el
-  men&uacute; Insertar y seleccione Enlace.</li>
-  <li>Utilice el cuadro de di&aacute;logo Propiedades del enlace para
-  enlazar la imagen con un <a href="#creating_links_within_the_same_page">enlace
-  interno o titular de la p&aacute;gina</a> o a una <a
-  href="#creating_links_to_other_pages">p&aacute;gina remota</a>.</li>
+  <li>Select an image on your page.</li>
+
+  <li>Click the Link button <img src="images/link.png" width="26"
+  height="26" alt="" /> on the toolbar, or open the Insert menu and
+  choose Link.</li>
+
+  <li>Use the Link Properties dialog box to link the image to a <a
+  href="#creating_links_within_the_same_page">named anchor or heading
+  within the page</a>, or to a <a
+  href="#creating_links_to_other_pages">separate local or remote
+  page</a>.</li>
 </ol>
 
-<p><strong>Truco</strong>: arrastre y suelte una imagen con enlace desde la
-ventana de Navigator dentro de una ventana de &brandShortName; para copiar
-ambos, la imagen y el enlace.</p>
+<p><strong>Tip</strong>: Drag and drop a linked image from the
+Navigator window into a &brandShortName; window to copy both the image
+and the link.</p>
 
-<p><strong>Nota</strong>: para eliminar el borde azul de las im&aacute;genes
-utilizadas como enlaces, abra el cuadro de di&aacute;logo Propiedades del
-enlace, seleccione la pesta&ntilde;a Enlace y desmarque la casilla <q>Mostrar
-el borde alrededor de la imagen-enlace</q>.</p>
+<p><strong>Note</strong>: To remove the blue border on images used as
+links, open the Link Properties dialog box, click the Link tab, and
+uncheck "Show border around linked image".</p>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Volver al principio de la secci&oacute;n</a>
+href="#creating_links_in_composer">Return to beginning of section</a>
 ]</p>
 
-<h3 id="removing_or_discontinuing_links">Eliminar o concluir
-enlaces</h3>
+<h3 id="removing_or_discontinuing_links">Removing or Discontinuing
+Links</h3>
 
-<p>Para eliminar un enlace:</p>
+<p>To remove a link:</p>
 
 <ol>
-  <li>Seleccione el texto (normalmente subrayado y en azul) o la imagen con
-  enlace.</li>
-  <li>Abra el men&uacute; Formato y seleccione Eliminar enlaces.</li>
+  <li>Select the linked text (normally blue and underlined) or
+  image.</li>
+
+  <li>Open the Format menu and choose Remove Links.</li>
 </ol>
 
-<p>Para concluir un enlace y que el texto que se escriba tras el enlace
-no est&eacute; incluido como parte de &eacute;ste:</p>
+<p>To discontinue a link, so that text you type after the link is not
+included as part of the link:</p>
 
 <ol>
-  <li>Haga clic para emplazar el punto de inserci&oacute;n donde desee que
-  termine el enlace.</li>
-  <li>Abra el men&uacute; Formato y seleccione Descontinuar enlace.</li>
+  <li>Click to place the insertion point where you want the link to
+  end.</li>
+
+  <li>Open the Format menu and choose Discontinue Link.</li>
 </ol>
 
 <p class="returnToSection">[ <a
-href="#creating_links_in_composer">Volver al principio de la secci&oacute;n</a>
+href="#creating_links_in_composer">Return to beginning of section</a>
 ]</p>
 
-<p>[<a href="customize.xhtml">Siguiente</a>] [<a href="page_properties.xhtml">Anterior</a>]</p>
+<p>[<a href="customize.xhtml">Next</a>] [<a href="page_properties.xhtml">Previous</a>]</p>
 
-  <div class="copyrightBox"><em>5 de desembre de 2009</em></div>
+  <div class="copyrightBox"><em>05 December 2009</em></div>
 
 <p>&helpCopyrightNotice;</p>
 

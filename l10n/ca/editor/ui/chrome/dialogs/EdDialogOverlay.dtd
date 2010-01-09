@@ -23,15 +23,15 @@
 <!ENTITY AdvancedEditButton.label "Edició avançada…">
 <!ENTITY AdvancedEditButton.accessKey "E">
 <!ENTITY AdvancedEditButton.tooltip "Afegeix o modifica atributs HTML, atributs d'estil i JavaScript">
-<!ENTITY chooseButton.label "Escull un fitxer…">
+<!ENTITY chooseButton.label "Trieu un fitxer…">
 <!ENTITY chooseFile.accessKey "F">
 <!ENTITY chooseFileLink.accessKey "f">
-<!ENTITY makeUrlRelative.label "La URL és relativa a la localització de la pàgina">
+<!ENTITY makeUrlRelative.label "L'URL és relatiu a la ubicació de la pàgina">
 <!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "Canvia entre URL relativa i absoluta. Heu de desar primer la pàgina abans de fer aquest canvi.">
+<!ENTITY makeUrlRelative.tooltip "Canvia entre URL relatiu i absolut. Heu de desar primer la pàgina abans de fer aquest canvi.">
 
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField.label "Entreu la localització d'una pàgina web, un fitxer local, una adreça de correu o seleccioneu una àncora  o la capçalera des de la llista emergent:">
+<!ENTITY LinkURLEditField.label "Introduïu la ubicació d'una pàgina web, un fitxer local, una adreça electrònica, o seleccioneu una àncora o la capçalera des de la llista emergent:">
 <!ENTITY LinkURLEditField.accessKey "L">
 
-<!ENTITY isMailAddress.label "L'anterior és una adreça de correu">
+<!ENTITY isMailAddress.label "L'anterior és una adreça electrònica">

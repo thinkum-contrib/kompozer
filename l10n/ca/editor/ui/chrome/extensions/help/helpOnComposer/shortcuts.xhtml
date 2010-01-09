@@ -8,458 +8,455 @@
 
 <!--
 Original Author:
-"KDS Sahambi" <ksahambi AT gmail DOT com>
+"KDS Sahambi" <kds.sahambi AT gmail DOT com>
 Contributor(s):
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Atajos de teclado en &brandShortName;</title>
-  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
-</head>
-<body>
+  <head>
+    <title>&brandShortName; Keyboard Shortcuts</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
+  </head>
+  <body>
 <script type="text/javascript">
-  var isDisplayed = true;
+var isDisplayed = true;
 
-  function togglePanel() {
-    isDisplayed = !isDisplayed;
-    var displayValue = isDisplayed ? "display: block" : "display: none";
-    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
 
-    document.getElementById("contentsBox").setAttribute("style", displayValue);
-    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-  }
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
 </script>
 
 <table width="100%" id="navTable">
-  <tr>
-    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
-    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
-  </tr>
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
 </table>
 
-<div id="contentsBox">En esta secci&oacute;n:
-    <a href="#using_shortcuts">Usar atajos de teclado</a>
-    <a href="#general_shortcuts">Atajos de teclado globales</a>
-    <a href="#nvu_composition_shortcuts">Atajos en &brandShortName;</a>
-    <a href="#help_window_shortcuts">Atajos en la ventana de ayuda</a>
-</div>
+    <div id="contentsBox">In this section:
+     <a href="#using_shortcuts">Using Shortcuts</a>
+     <a href="#general_shortcuts">General Shortcuts</a>
+     <a href="#nvu_composition_shortcuts">&brandShortName; Shortcuts</a>
+     <a href="#help_window_shortcuts">Help Window Shortcuts</a>
+    </div>
 
-<h1>Atajos de teclado en &brandShortName;</h1>
+    <h1>&brandShortName; Keyboard Shortcuts</h1>
 
-<h2 id="using_shortcuts">Usar atajos de teclado</h2>
+    <h2 id="using_shortcuts">Using Shortcuts</h2>
 
-<p>Este documento usa el siguiente formato para listar los atajos de teclado:</p>
+    <p>This document uses the following format for listing shortcuts:</p>
 
-<p><strong>Ejemplo:</strong></p>
+    <p><strong>Example:</strong></p>
 
-<table class="defaultTable">
-<colgroup>
-  <col class="commandColumn"></col>
-  <col class="osFirstColumn"></col>
-</colgroup>
-<thead>
-  <tr>
-    <th>Comando</th>
-    <th><span class="win">Windows</span><span class="mac">Mac OS</span>
-        <span class="unix">Linux o Unix</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Copiar</td>
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
+	<tr>
+	  <th>Command</th>
+	  <th><span class="win">Windows</span><span class="mac">Mac
+	  OS</span><span class="unix">Unix/Linux</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Copy</td>
 	  <td><span class="noMac">Ctrl+C</span><span
 	  class="mac">Cmd+C</span></td>
-  </tr>
-</tbody>
-</table>
-
-<p>Para ejecutar un comando, pulse la tecla aceleradora <kbd
-class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd> y luego pulse
-la tecla de atajo <kbd>C</kbd> una vez (mientras mantiene pulsada
-la tecla aceleradora).</p>
-
-<p><strong>Ayuda</strong>: el signo de sumar (+) significa que se
-deben pulsar las teclas una a continuaci&oacute;n de la otra sin
-dejar de pulsar la primera. Si hay m&aacute;s de un signo de sumar
-(como Ctrl+Mays+C), significa que hay que ir a&ntilde;adiendo teclas
-a la secuencia sin soltar las anteriores.</p>
-
-<p><strong>Abreviaturas:</strong></p>
-
-<ul>
-  <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
-  <span class="noMac">tecla Control</span><span class="mac">tecla
-  Comando en teclados Macintosh</span></li>
-</ul>
-
-<p><strong>Nota</strong>: algunos atajos de teclado realizan funciones distintas
-dependiendo de d&oacute;nde est&eacute; el cursor (foco). Por ejemplo, si se
-pulsa la tecla Inicio en Windows mientras se est&aacute; viendo una p&aacute;gina
-web, &brandShortName; ir&aacute; al principio de la p&aacute;gina web. Sin
-embargo, si pulsa Inicio en Windows mientras el cursor est&aacute; en un campo
-de texto, el cursor ir&aacute; al principio del campo de texto.</p>
-
-<p class="returnToSection">[ <a href="#using_shortcuts">Volver al principio
-de la secci&oacute;n</a> ]</p>
-
-<h2 id="general_shortcuts">Atajos de teclado globales en &brandShortName;</h2>
-
-<table class="defaultTable">
-  <colgroup>
-    <col class="commandColumn"></col>
-    <col class="osFirstColumn"></col>
-  </colgroup>
-<thead>
-	<tr>
-	  <th>Comando</th>
-	  <th><span class="win">Windows</span><span
-	  class="unix">Unix o Linux</span><span class="mac">MacOS</span></th>
 	</tr>
-</thead>
-<tbody>
+      </tbody>
+    </table>
+
+    <p>To perform a command, press the accelerator key <kbd
+    class="noMac">Ctrl</kbd><kbd class="mac">Cmd</kbd> and the press the
+    shortcut combination key <kbd>C</kbd> once (while keeping the
+    accelerator key pressed).</p>
+
+    <p><strong>Tip</strong>: The plus sign (+) means that you must press
+    two keys surrounding the plus sign at the same time. If there is more
+    than one plus sign (such as Ctrl+Shift+C), it means that all three
+    buttons surrounding the plus sign must be pressed at the same
+    time.</p>
+
+    <p><strong>Abbreviations:</strong></p>
+
+    <ul>
+      <li><span class="noMac">Ctrl</span><span class="mac">Cmd</span> =
+      <span class="noMac">Control Key</span><span class="mac">Command key
+      on the Mac OS Keyboard</span></li>
+    </ul>
+
+    <p><strong>Note</strong>: Some keyboard shortcuts perform different
+    functions based on cursor location (focus). For example, if you press
+    Home on Windows while viewing a web page, &brandShortName; will move
+    to the top of the web page. However, if you press Home on Windows
+    while the cursor is in a text field, the cursor will go to the
+    beginning of the text field.</p>
+
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Return to beginning of
+    section</a> ]</p>
+
+    <h2 id="general_shortcuts">General &brandShortName; Shortcuts</h2>
+
+    <table class="defaultTable">
+      <colgroup>
+	<col class="commandColumn"></col>
+	<col class="osFirstColumn"></col>
+      </colgroup>
+      <thead>
 	<tr>
-	  <td>Abrir archivo</td>
+	  <th>Command</th>
+	  <th><span class="win">Windows</span><span
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
+	</tr>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Open File</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+O</td>
 	</tr>
 	<tr>
-	  <td>Abrir nueva p&aacute;gina/plantilla</td>
- 	  <td><span class="noMac">Ctrl</span><span
+	  <td>Open New Page/Template</td>
+	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+N</td>
 	</tr>
 	<tr>
-	  <td>Abrir nueva pesta&ntilde;a</td>
+	  <td>Open New Tab</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+T</td>
 	</tr>
 	<tr>
-	  <td>Guardar archivo</td>
+	  <td>Save File</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+S</td>
 	</tr>
 	<tr>
-    <td>Copiar</td>
+	  <td>Copy</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+C</td>
 	</tr>
 	<tr class="even">
-    <td>Pegar</td>
+	  <td>Paste</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+V</td>
 	</tr>
 	<tr>
-    <td>Cortar</td>
+	  <td>Cut</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+X</td>
 	</tr>
 	<tr class="even">
-    <td>Seleccionar todo</td>
+	  <td>Select All</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+A</td>
 	</tr>
 	<tr>
-    <td>Cerrar ventana</td>
+	  <td>Close Window</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+W</td>
 	</tr>
 	<tr class="even">
-    <td>Eliminar palabra siguiente</td>
+	  <td>Delete Next Word</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Supr</td>
+	  class="mac">Cmd</span>+Del</td>
 	</tr>
 	<tr>
-    <td>Subir una p&aacute;gina</td>
-    <td>Re P&aacute;g</td>
+	  <td>Go Up One Page</td>
+	  <td>Page Up</td>
 	</tr>
 	<tr class="even">
-    <td>Bajar una p&aacute;gina</td>
-    <td>Av P&aacute;g</td>
+	  <td>Go Down One Page </td>
+	  <td>Page Down</td>
 	</tr>
 	<tr>
-    <td>Subir una l&iacute;nea</td>
-    <td>Flecha arriba</td>
+	  <td>Go Up One Line</td>
+	  <td>Up Arrow</td>
 	</tr>
 	<tr class="even">
-    <td>Bajar una l&iacute;nea</td>
-    <td>Flecha abajo</td>
+	  <td>Go Down One Line</td>
+	  <td>Down Arrow</td>
 	</tr>
 	<tr>
-    <td>Deshacer</td>
+	  <td>Undo</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+Z</td>
 	</tr>
 	<tr class="even">
-    <td>Repetir</td>
+	  <td>Redo</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Mays+Z</td>
+	  class="mac">Cmd</span>+Shift+Z</td>
 	</tr>
 	<tr>
-    <td>Buscar</td>
+	  <td>Find</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+F</td>
 	</tr>
 	<tr class="even">
-    <td>Repetir la b&uacute;squeda</td>
-	  <td><span class="noMac">Ctrl+G</span><span class="win"> o
+	  <td>Find Again</td>
+	  <td><span class="noMac">Ctrl+G</span><span class="win"> or
 	  F3</span><span class="mac">Cmd+G</span></td>
 	</tr>
 	<tr>
-	  <td>Buscar anterior</td>
-	  <td><span class="noMac">Ctrl+Mays+F</span><span
+	  <td>Find Previous</td>
+	  <td><span class="noMac">Ctrl+Shift+F</span><span
 	  class="mac">?</span></td>
 	</tr>
 	<tr>
-	  <td>Abrir men&uacute; contextual</td>
-	  <td><span class="noMac">Mays+F10</span><span
+	  <td>Open Context Menu</td>
+	  <td><span class="noMac">Shift+F10</span><span
 	  class="mac">Ctrl+Space</span></td>
 	</tr>
 	<tr class="even">
 	  <td>
-	    Abrir men&uacute; principal <span class="noMac">(cambia el foco al primer
-	    men&uacute; desplegable de la parte superior de la ventana)</span>
+	    Open Main Menu <span class="noMac">(switches to the first drop-down menu
+	    at the top of the window)</span>
 	  </td>
-	  <td><span class="win">Alt &oacute;</span><span
-	  class="noMac">F10</span><span class="mac">Controlado a trav&eacute;s de
-	  las preferencias de teclado en el panel de control</span></td>
+	  <td><span class="win">Alt or</span><span
+	  class="noMac">F10</span><span class="mac">Controlled through
+	  keyboard preference in Control Panel</span></td>
 	</tr>
 	<tr>
-    <td>Ir al principio de la l&iacute;nea (en un campo de
-      edici&oacute;n de texto)</td>
-	  <td><span class="win">Inicio</span><span class="mac">Cmd+Flecha
-	  Izquierda</span><span class="unix">Ctrl+A</span></td>
+	  <td>Move to beginning of line (in a text editing field)</td>
+	  <td><span class="win">Home</span><span class="mac">Cmd+Left
+	  Arrow</span><span class="unix">Ctrl+A</span></td>
 	</tr>
 	<tr class="even">
-    <td>Ir al final de la l&iacute;nea (en un campo de
-      edici&oacute;n de texto)</td>
-	  <td><span class="win">Fin</span><span class="mac">Cmd+Flecha
-	  Derecha</span><span class="unix">Ctrl+E</span></td>
+	  <td>Move to end of line (in a text editing field)</td>
+	  <td><span class="win">End</span><span class="mac">Cmd+Right
+	  Arrow</span><span class="unix">Ctrl+E</span></td>
 	</tr>
 	<tr>
-    <td>Cambiar a la siguiente pesta&ntilde;a (cuando hay
-      m&aacute;s de una pesta&ntilde;a)</td>
-	  <td>Ctrl+Av P&aacute;g</td>
+	  <td>Switch to Next Tab (when using Tabbed Browsing with more than
+	  one tab)</td>
+	  <td>Ctrl+Page Down</td>
 	</tr>
 	<tr class="even">
-    <td>Cambiar a la pesta&ntilde;a anterior (cuando hay
-      m&aacute;s de una pesta&ntilde;a)</td>
-	  <td>Ctrl+Re P&aacute;g</td>
+	  <td>Switch to Previous Tab (when using Tabbed Browsing with more
+	  than one tab)</td>
+	  <td>Ctrl+Page Up</td>
 	</tr>
 	<tr>
-	  <td>Cerrar pesta&ntilde;a</td>
+	  <td>Close Tab</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+W</td>
 	</tr>
 	<tr class="even">
-	  <td>Salir de &brandShortName;</td>
+	  <td>Exit &brandShortName;</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+Q</td>
 	</tr>
-</tbody>
-</table>
+      </tbody>
+    </table>
 
-<p class="returnToSection">[ <a href="#using_shortcuts">Volver al principio
-de la secci&oacute;n</a> ]</p>
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Return to beginning of
+    section</a> ]</p>
 
-<h2 id="nvu_composition_shortcuts">Atajos en &brandShortName;</h2>
+    <h2 id="nvu_composition_shortcuts">&brandShortName; Composition
+    Shortcuts</h2>
 
-<p>&Eacute;stos son los atajos necesarios para editar p&aacute;ginas HTML con
-&brandShortName;.</p>
+    <p>These are the shortcuts needed for editing html pages with
+    &brandShortName;.</p>
 
-<table class="defaultTable">
-<colgroup>
+    <table class="defaultTable">
+      <colgroup>
 	<col class="commandColumn"></col>
 	<col class="osFirstColumn"></col>
-</colgroup>
-<thead>
+      </colgroup>
+      <thead>
 	<tr>
-	  <th>Comando</th>
+	  <th>Command</th>
 	  <th><span class="win">Windows</span><span
-	  class="unix">Unix o Linux</span><span class="mac">MacOS</span></th>
+	  class="unix">Unix/Linux</span><span class="mac">MacOS</span></th>
 	</tr>
-</thead>
-<tbody>
+      </thead>
+      <tbody>
 	<tr>
-	  <td>Abrir direcci&oacute;n web</td>
+	  <td>Open Web Location</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Mays+L</td>
+	  class="mac">Cmd</span>+Shift+L</td>
 	</tr>
 	<tr>
-	  <td>Publicar</td>
+	  <td>Publish</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Mays+S</td>
+	  class="mac">Cmd</span>+Shift+S</td>
 	</tr>
 	<tr class="even">
-    <td>Reducir el tama&ntilde;o de la letra</td>
+	  <td>Text Zoom - Smaller</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+- (signo menos)</td>
+	  class="mac">Cmd</span>+-</td>
 	</tr>
 	<tr>
-    <td>Aumentar el tama&ntilde;o de la letra</td>
+	  <td>Text Zoom - Larger</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+= O
+	  class="mac">Cmd</span>+= OR
 	  <span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>++ (signo m&aacute;s)</td>
+	  class="mac">Cmd</span>++ (plus)</td>
 	</tr>
 	<tr class="even">
-	  <td>Tama&ntilde;o del texto - 100%</td>
+	  <td>Text Zoom - 100%</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+O</td>
 	</tr>
 	<tr>
-    <td>Insertar/editar enlace</td>
+	  <td>Insert/Edit Link</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+L</td>
 	</tr>
 	<tr class="even">
-    <td>Texto en <b>negrita (&lt;b&gt;)</b></td>
+	  <td>Text style <b>Bold</b></td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+B</td>
 	</tr>
 	<tr>
-    <td>Texto en <i>cursiva (&lt;i&gt;)</i></td>
+	  <td>Text style <i>Italic</i></td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+I</td>
 	</tr>
 	<tr class="even">
-    <td><u>Subrayar</u> texto</td>
+	  <td>Text style <u>Underline</u></td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+U</td>
 	</tr>
 	<tr>
-   <td>Incrementar sangrado</td>
+	  <td>Increase Indent</td>
 	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+[</td>
 	</tr>
 	<tr class="even">
-    <td>Reducir sangrado</td>
-    <td><span class="noMac">Ctrl</span><span
+	  <td>Decrease Indent</td>
+	  <td><span class="noMac">Ctrl</span><span
 	  class="mac">Cmd</span>+]</td>
 	</tr>
 	<tr>
-    <td>No continuar estilos de texto</td>
+	  <td>Discontinue Text Styles</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Mays+Y</td>
+	  class="mac">Cmd</span>+Shift+Y</td>
 	</tr>
 	<tr class="even">
-    <td>No continuar enlace</td>
+	  <td>Discontinue Link</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Mays+K</td>
+	  class="mac">Cmd</span>+Shift+K</td>
 	</tr>
 	<tr>
-    <td>Seleccionar fila/columna</td>
+	  <td>Select Row/Column</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+arrastrar el rat&oacute;n</td>
+	  class="mac">Cmd</span>+Drag</td>
 	</tr>
 	<tr class="even">
-    <td>Seleccionar celdas</td>
+	  <td>Select Cells(s)</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Clic (arrastre el rat&oacute;n para seleccionar
-	  bloques de celdas, o contin&uacute;e haciendo clic para seleccionar
-	  celdas individuales)</td>
+	  class="mac">Cmd</span>+Click (drag to select block of cells, or
+	  continue clicking to select individual cells)</td>
 	</tr>
 	<tr>
-	  <td>Administrador de sitios</td>
+	  <td>Site Manager</td>
 	  <td>F9</td>
 	</tr>
 	<tr class="even">
-    <td>Revisar ortograf&iacute;a</td>
+	  <td>Start Spell Check</td>
 	  <td><span class="noMac">Ctrl+K</span><span
 	  class="mac">Cmd+K</span></td>
 	</tr>
-</tbody>
-</table>
+      </tbody>
+    </table>
 
-<p class="returnToSection">[ <a href="#using_shortcuts">Volver al principio
-de la secci&oacute;n</a> ]</p>
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Return to beginning of
+    section</a> ]</p>
 
-<h2 id="help_window_shortcuts">Atajos de teclado de la ayuda</h2>
+    <h2 id="help_window_shortcuts">Help Window Shortcuts</h2>
 
-<p>Estos atajos est&aacute;n disponibles en las ventanas de ayuda.</p>
+    <p>These shortcuts are available from Help windows.</p>
 
-<table class="defaultTable">
-<colgroup>
+    <table class="defaultTable">
+      <colgroup>
 	<col class="commandColumn"></col>
 	<col class="osFirstColumn"></col>
-</colgroup>
-<thead>
+      </colgroup>
+      <thead>
 	<tr>
-	  <th>Comando</th>
+	  <th>Command</th>
 	  <th><span class="win">Windows</span><span class="mac">Mac
-	  OS</span><span class="unix">Unix o Linux</span></th>
+	  OS</span><span class="unix">Unix/Linux</span></th>
 	</tr>
-</thead>
-<tbody>
-  <tr>
-    <td>Navegar por los enlaces dentro del panel de contenidos (panel
-      derecho)</td>
+      </thead>
+      <tbody>
+	<tr>
+	  <td>Navigate Links within Content Pane (right pane)</td>
 	  <td>Tab</td>
 	</tr>
 	<tr>
-	  <td>Alternar la visibilidad del panel lateral</td>
+	  <td>Toggle the visibility of Sidebar</td>
 	  <td>F9</td>
 	</tr>
 	<tr>
-	  <td>Incrementar el tama&ntilde;o del texto</td>
+	  <td>Increase Text Size</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+= O <span
+	  class="mac">Cmd</span>+= OR <span
 	  class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+Mays++ (signo m&aacute;s)</td>
+	  class="mac">Cmd</span>+Shift++ (plus)</td>
 	</tr>
 	<tr>
-	  <td>Reducir el tama&ntilde;o del texto</td>
+	  <td>Decrease Text Size</td>
 	  <td><span class="noMac">Ctrl</span><span
-	  class="mac">Cmd</span>+- (signo menos)</td>
+	  class="mac">Cmd</span>+- (minus)</td>
 	</tr>
 	<tr>
-    <td>Alternar entre el panel de contenidos y el de B&uacute;squeda
-      / Contenido / &Iacute;ndice / Glosario</td>
+	  <td>Switch between Content Pane and Search/Contents/Index/Glossary
+	  (toggle)</td>
 	  <td>F6</td>
 	</tr>
 	<tr>
-    <td>Navegar por los t&eacute;rminos del &iacute;ndice (mientras el
-      panel &Iacute;ndice est&aacute; seleccionado)</td>
-    <td>Flecha arriba/abajo</td>
+	  <td>Navigate Index Terms (while Index Pane is selected)</td>
+	  <td>Up/Down Arrow</td>
 	</tr>
 	<tr>
-    <td>Seleccionar cada una de las pesta&ntilde;as de B&uacute;squeda
-      / Contenido / &Iacute;ndice / Glosario (mientras se est&aacute;
-      en el panel izquierdo)</td>
-    <td>Flecha arriba/abajo</td>
+	  <td>Scroll Pane (Content, Table of Contents, or Index)</td>
+	  <td>Up/Down Arrow</td>
 	</tr>
 	<tr>
-    <td>Expander / contraer la estructura del &aacute;rbol de la tabla de
-    contenidos</td>
-    <td>Flecha izquierda/derecha</td>
+	  <td>Expand/Collapse Table of Contents Tree Structure</td>
+	  <td>Right/Left Arrow</td>
 	</tr>
 	<tr>
-    <td>Imprimir p&aacute;gina</td>
+	  <td>Print Page</td>
 	  <td><span class="noMac">Ctrl+P</span><span
 	  class="mac">Cmd+P</span></td>
 	</tr>
 	<tr>
-    <td>Volver a la p&aacute;gina anterior</td>
+	  <td>Go Back to Previous Page</td>
 	  <td><span class="noMac">Alt</span><span
-	  class="mac">Cmd</span>+flecha izquierda</td>
+	  class="mac">Cmd</span>+Left Arrow</td>
 	</tr>
 	<tr>
-    <td>Avanzar una p&aacute;gina hacia delante</td>
+	  <td>Go Forward One Page</td>
 	  <td><span class="noMac">Alt</span><span
-	  class="mac">Cmd</span>+flecha derecha</td>
+	  class="mac">Cmd</span>+Right Arrow</td>
 	</tr>
 	<tr>
-	  <td>Cerrar la ventana de ayuda de &brandShortName;</td>
+	  <td>Close &brandShortName; Help Window</td>
 	  <td><span class="noMac">Ctrl</span><span class="mac">Cmd</span>+W</td>
 	</tr>
-</tbody>
-</table>
+      </tbody>
+    </table>
 
-<p class="returnToSection">[ <a href="#using_shortcuts">Volver al principio
-de la secci&oacute;n</a> ]</p>
+    <p class="returnToSection">[ <a
+    href="#using_shortcuts">Return to beginning of
+    section</a> ]</p>
 
-<div class="copyrightBox"><em>5 de desembre de 2009</em></div>
+    <div class="copyrightBox"><em>05 December 2009</em></div>
 
-<p>&helpCopyrightNotice;</p>
+    <p>&helpCopyrightNotice;</p>
 
-</body>
+  </body>
 </html>

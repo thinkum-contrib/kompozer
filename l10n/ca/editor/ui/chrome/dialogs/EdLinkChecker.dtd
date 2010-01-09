@@ -22,9 +22,9 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label     "Verifica la localització d'imatges i enllaços">
-<!ENTITY urlsNotFound.label    "Les imatges o enllaços següents no s'han pogut localitzar correctament:">
-<!ENTITY notFoundKey.label     "(&quot;X&quot; = fitxer no trobat, &quot;?&quot; = timed-out attempting to connect.)">
-<!ENTITY changeUrlButton.label "Canvia la localització de l'element seleccionat">
-<!ENTITY succeeded.label       "Succeeded">
-<!ENTITY failed.label          "Fallit">
+<!ENTITY windowTitle.label     "Verifica la ubicació d'imatges i enllaços">
+<!ENTITY urlsNotFound.label    "Les imatges o els enllaços següents no s'han pogut localitzar correctament:">
+<!ENTITY notFoundKey.label     "(&quot;X&quot; = fitxer no trobat, &quot;?&quot; = s'ha esgotat el temps de connexió.)">
+<!ENTITY changeUrlButton.label "Canvia la ubicació de l'element seleccionat">
+<!ENTITY succeeded.label       "S'ha realitzat amb èxit">
+<!ENTITY failed.label          "Ha fallat">

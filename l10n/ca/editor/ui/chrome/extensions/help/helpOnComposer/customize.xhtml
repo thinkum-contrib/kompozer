@@ -11,111 +11,116 @@ Contributor(s):
 -->
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-  <title>Personalizar &brandShortName;</title>
+  <title>Customizing &brandShortName;</title>
   <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
+
 <script type="text/javascript">
-  var isDisplayed = true;
+var isDisplayed = true;
 
-  function togglePanel() {
-    isDisplayed = !isDisplayed;
-    var displayValue = isDisplayed ? "display: block" : "display: none";
-    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
 
-    document.getElementById("contentsBox").setAttribute("style", displayValue);
-    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-  }
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
 </script>
 
 <table width="100%" id="navTable">
-  <tr>
-    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
-    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
-  </tr>
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
 </table>
-<div id="contentsBox">En esta secci&oacute;n:
-  <a href="#toolbar_customization">Personalizar la barra de herramientas</a>
-  <a href="#enhancing_nvu_functionality">Mejorar la funcionalidad de &brandShortName;</a>
-</div>
 
-<h1 id="customizing_toolbars">Personalizar &brandShortName;</h1>
+  <div id="contentsBox">In this section:
+  <a href="#toolbar_customization">Toolbar Customization</a>
+  <a href="#enhancing_nvu_functionality">Enhancing &brandShortName; Functionality</a>
+  </div>
 
-<h2 id="toolbar_customization">Personalizar la barra de herramientas</h2>
+  <h1 id="customizing_toolbars">Customizing &brandShortName;</h1>
 
-<p>&brandShortName; tiene barras de herramientas que pueden ser personalizadas
-por el usuario para ajustarse a sus gustos. Los usuarios pueden mantener
-los botones m&aacute;s usados en estas barras y ocultar los menos usados haci&eacute;ndolas
-as&iacute; m&aacute;s f&aacute;ciles de usar, dando a los usuarios la satisfacci&oacute;n de adaptar
-la apariencia de &brandShortName; de acuerdo a sus preferencias.</p>
+  <h2 id="toolbar_customization">Toolbar Customiation</h2>
 
-<h3 id="how_to_customize_toolbars">C&oacute;mo personalizar las barras de herramientas</h3>
+  <p>&brandShortName; has toolbars which can be customized by the user
+  to suite their likings. The users can keep their most frequently used
+  buttons on the toolbars and hide those rarely used in effect making it
+  easier to use, and giving the users the satisfaction to tailor the
+  look of &brandShortName; according to their preferences.</p>
 
-<p>Para abrir la ventana de personalizaci&oacute;n de barras de herramientas,
-haga clic en <span class="menuPath">Ver > Mostrar/Ocultar > Personalizar
-barras de herramientas</span> y seleccione la barra que desea personalizar.
-Tambi&eacute;n puede hacer clic con el bot&oacute;n derecho en la barra que desea editar
-y seleccionar "Personalizar barra de herramientas".</p>
+  <h3 id="how_to_customize_toolbars">How to Customize Toolbars</h3>
 
-<p>Para personalizar las barras de herramientas:</p>
+  <p>To open the toolbar customize window, Click on <span
+  class="menuPath">View > Show/Hide > Customize Toolbar</span> and
+  select the toolbar you want to customize. Or you can right-click with
+  the mouse on the toolbar you want to edit and select "Customize
+  Toolbar".</p>
 
-<ul>
-  <li>Puede arrastrar un bot&oacute;n, un separador, un espacio flexible o un
-  espacio a la barra de herramientas donde desea a&ntilde;adir dicho elemento.</li>
+  <p>To customize the toolbars</p>
 
-  <li>Puede arrastrar elementos (botones, espacios, espacios flexibles o
-  separadores) desde la barra de herramientas a la ventana de personalizaci&oacute;n.</li>
-
-  <li>Puede tambi&eacute;n cambiar la apariencia de los botones de la barra de
-  herramientas (Barra de herramientas principal) seleccionando Iconos y
-  texto, Iconos o S&oacute;lo texto seg&uacute;n lo que desee mostrar.</li>
-
-</ul>
-
-<p class="returnToSection">[ <a href="#customizing_toolbars">Volver al
-principio de la secci&oacute;n</a> ]</p>
-
-<h2 id="enhancing_nvu_functionality">Mejorar la funcionalidad de
-&brandShortName;</h2>
-
-  <p>&brandShortName; tiene un mecanismo incorporado para mejorar sus ya
-  potentes funciones. Pueden a&ntilde;adirse nuevas funcionalidades a &brandShortName;
-  mediante <em>extensiones</em>. Las extensiones son peque&ntilde;os programas que
-  proporcionan nuevas caracter&iacute;sticas o funciones al instalarse en
-  &brandShortName;. Los usuarios pueden decidir qu&eacute; extensiones quieren
-  instalar. De esta forma, las extensiones permiten a los usuarios tener una
-  instalaci&oacute;n personalizada de &brandShortName;. Para instalar una
-  extensi&oacute;n:</p>
-  
   <ul>
-    <li>Descargue la extensi&oacute;n a su ordenador y gu&aacute;rdela en un lugar
-    apropiado. La mayor&iacute;a de las extensiones pueden descargarse desde el
-    sitio web de &brandShortName;.</li>
-    <li>Abra el <strong>administrador de extensiones</strong>(AE) mediante
-    la opci&oacute;n <span class="menuPath">Herramientas &gt; Extensiones</span>.
-    El AE listar&aacute; todas las extensiones isntaladas (si hay alguna).</li>
-    <li>Pulse en el bot&oacute;n <em>Instalar</em> para instalar la extensi&oacute;n
-    que acaba de descargar.</li>
-    <li>Seleccione la extensi&oacute;n a trav&eacute;s del di&aacute;logo de apertura de
-    archivos y pulse en el bot&oacute;n <em>Abrir</em>.</li>
-    <li>Pulse en el bot&oacute;n <em>Instalar ahora</em> en la ventana de de
-    instalaci&oacute;n de software.</li>
-    <li>Cuando la instalaci&oacute;n est&eacute; completa, reinicie &brandShortName; para
-    comenzar a usar las caracter&iacute;sitcas a&ntilde;adidas por la nueva
-    extensi&oacute;n.</li>
-  </ul>
-  
-  <p>Deber&iacute;a buscar peri&oacute;dicamente actualizaciones para las extensiones
-  con el administrador de extensiones. Las actualizaciones normalmente
-  mejoran las caracter&iacute;sticas ofrecidas por las extensiones y resuelven
-  problemas en las versiones m&aacute;s antiguas.</p>
-  
-<p>[<a href="links.xhtml">Anterior</a>]</p>
-  
-<div class="copyrightBox"><em>5 de desembre de 2009</em></div>
+    <li>You can click-and-drag a button, separator, flexible space, or
+    space item to the toolbar where you want to add that item.</li>
 
-<p>&helpCopyrightNotice;</p>
+    <li>You can drag items (button, space, flexible space or separator)
+    from the toolbar and drop them back in customizing window.</li>
+
+    <li>You can also change the look of the toolbar buttons (Main Toolbar)
+    by either selecting Icons and Text, Icons or only Text to be
+    displayed.</li>
+
+  </ul>
+
+  <p class="returnToSection">[ <a href="#customizing_toolbars">Return to
+  beginning of section</a> ]</p>
+
+  <h2 id="enhancing_nvu_functionality">Enhancing &brandShortName;
+  Functionality</h2>
+
+  <p>&brandShortName; has an inbuilt mechanism to enhance its already
+  powerful functions. New functionality can be added to &brandShortName;
+  by adding <em>extensions</em>. Extentions are small programs which
+  give users new features or functions when installed in
+  &brandShortName;. Users can choose to install the extensions they
+  want. Thus extensions allow users to have a customized installation of
+  &brandShortName;. To install an extension:</p>
+
+  <ul> <li>Download the extention to your computer and save it in a
+  convenient location. Most of the extensions can be downloaded from
+  &brandShortName; web site.</li>
+
+  <li>Open <strong>Extension Manager</strong>(EM) by clicking on <span
+  class="menuPath">Tools > Extensions</span>. The EM will list all the
+  installed extensions (if any).</li>
+
+  <li>Click on <em>Install</em> button to install the extension you just
+  downloaded.</li>
+
+  <li>Select the extension by browsing to it in the file system browser
+  window and click on the <em>Open</em> button.</li>
+
+  <li>Click the <em>Install Now</em> button in the Software Installation
+  window.</li>
+
+  <li>After installation in complete, restart &brandShortName; to start
+  using the features added by the newly installed extension.</li>
+
+  </ul>
+
+  <p>You should regularly check for updates for the installed
+  extensions with the Extension Manager. Updates usually improve the
+  features offered by the extensions and resolve problems in older
+  versions.</p>
+
+<p>[<a href="links.xhtml">Previous</a>]</p>
+
+  <div class="copyrightBox"><em>05 December 2009</em></div>
+
+  <p>&helpCopyrightNotice;</p>
 
 </body>
 </html>

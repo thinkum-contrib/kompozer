@@ -3,51 +3,73 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:nc="http://home.netscape.com/NC-rdf#">
 
-<!--  HELP Glossary SECTION -->
   <rdf:Description about="urn:root" nc:base="chrome://help/locale/glossary.xhtml">
     <nc:subheadings>
       <rdf:Seq>
-        <rdf:li> <rdf:Description nc:name="administrador de contrase&#241;as" nc:link="glossary.xhtml#Password_Manager"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="administrador de sitios" nc:link="glossary.xhtml#site_manager"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="aplicaci&#243;n auxiliar" nc:link="glossary.xhtml#helper_application"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="barra de estado" nc:link="glossary.xhtml#Status_Bar"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="barra de navegaci&#243;n" nc:link="glossary.xhtml#navigation_toolbar"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="cach&#233;" nc:link="glossary.xhtml#cache"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="certificado" nc:link="glossary.xhtml#certificate"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="cifrado" nc:link="glossary.xhtml#encryption"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="clave privada" nc:link="glossary.xhtml#private_key"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="cliente" nc:link="glossary.xhtml#client"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="contrase&#241;a maestra" nc:link="glossary.xhtml#master_password"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="criptograf&#237;a" nc:link="glossary.xhtml#cryptography"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="CSS" nc:link="glossary.xhtml#css"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="descifrado" nc:link="glossary.xhtml#decryption"/> </rdf:li>
+        <!-- These nodes are used for searching purposes, relating to glossary.xhtml. -->
+        <rdf:li> <rdf:Description nc:name="Adreça d'interès" nc:link="glossary.xhtml#bookmark"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Adreça d'interès activa" nc:link="glossary.xhtml#live_bookmark"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Adreça de protocol d'Internet (adreça IP)" nc:link="glossary.xhtml#Internet_protocol_address"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Algorisme criptogràfic" nc:link="glossary.xhtml#cryptographic_algorithm"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Aplicació ajudant" nc:link="glossary.xhtml#helper_application"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Autentificació" nc:link="glossary.xhtml#authentication"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Autenticació amb contrasenya" nc:link="glossary.xhtml#password-based_authentication"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Barra d'eines de les adreces d'interès" nc:link="glossary.xhtml#Bookmarks_Toolbar"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Barra d'eines de navegació" nc:link="glossary.xhtml#navigation_toolbar"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Barra d'estat" nc:link="glossary.xhtml#Status_Bar"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Barra d'ubicació" nc:link="glossary.xhtml#location_bar"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Canal" nc:link="glossary.xhtml#feed"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Capa de sòcols segurs (SSL; Secure Sockets Layer)" nc:link="glossary.xhtml#Secure_Sockets_Layer"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Certificat" nc:link="glossary.xhtml#certificate"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Certificats de signatura d'objectes" nc:link="glossary.xhtml#object-signing_certificate"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Clau privada" nc:link="glossary.xhtml#private_key"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Client" nc:link="glossary.xhtml#client"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Connector" nc:link="glossary.xhtml#plug-in"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Consentiment implícit" nc:link="glossary.xhtml#implicit_consent"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Contrasenya mestra" nc:link="glossary.xhtml#master_password"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Criptografia" nc:link="glossary.xhtml#cryptography"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Desxifratge" nc:link="glossary.xhtml#decryption"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Escolta no autoritzada" nc:link="glossary.xhtml#eavesdropping"/> </rdf:li>
         <rdf:li> <rdf:Description nc:name="FIPS PUBS 140-1" nc:link="glossary.xhtml#FIPS_PUBS_140-1"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="identificaci&#243;n" nc:link="glossary.xhtml#authentication"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="identificaci&#243;n digital" nc:link="glossary.xhtml#digital_ID"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Galeta" nc:link="glossary.xhtml#cookie"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Galeta de terceres parts" nc:link="glossary.xhtml#third-party_cookie"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Galeta forana" nc:link="glossary.xhtml#foreign_cookie"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Gestor de contrasenyes" nc:link="glossary.xhtml#Password_Manager"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Gestor de formularis" nc:link="glossary.xhtml#Form_Manager"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Gestor de galetes" nc:link="glossary.xhtml#Cookie_Manager"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Identificador digital" nc:link="glossary.xhtml#digital_ID"/> </rdf:li>
         <rdf:li> <rdf:Description nc:name="Internet" nc:link="glossary.xhtml#Internet"/> </rdf:li>
         <rdf:li> <rdf:Description nc:name="Java" nc:link="glossary.xhtml#Java"/> </rdf:li>
         <rdf:li> <rdf:Description nc:name="JavaScript" nc:link="glossary.xhtml#JavaScript"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="motor de b&#250;squeda o buscador" nc:link="glossary.xhtml#search_engine"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="p&#225;gina web" nc:link="glossary.xhtml#web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Llenguatge d'etiquetatge d'hipertext (HTML; Hypertext Markup Language)" nc:link="glossary.xhtml#Hypertext_Markup_Language"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Llenguatge d'etiquetatge extensible (XML; Extensible Markup Language)" nc:link="glossary.xhtml#XML"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Lloc web" nc:link="glossary.xhtml#web_site"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Lloc web segur" nc:link="glossary.xhtml#secure_site"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Memòria cau" nc:link="glossary.xhtml#cache"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Motor de cerca" nc:link="glossary.xhtml#search_engine"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Nom distinguit (DN; Distinguished Name)" nc:link="glossary.xhtml#distinguished_name"/> </rdf:li>
         <rdf:li> <rdf:Description nc:name="PKCS #11" nc:link="glossary.xhtml#PKCS_11"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="plug-in" nc:link="glossary.xhtml#plug-in"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="proxy" nc:link="glossary.xhtml#proxy"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="publicaci&#243;n" nc:link="glossary.xhtml#publish"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="renovaci&#243;n de certificados" nc:link="glossary.xhtml#certificate_renewal"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="servidor" nc:link="glossary.xhtml#server"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="servidor web" nc:link="glossary.xhtml#web_server"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="sFTP" nc:link="glossary.xhtml#secure_shell_file_transfer_protocol"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="sitio seguro" nc:link="glossary.xhtml#secure_site"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="sitio web" nc:link="glossary.xhtml#web_site"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="SSL (capa de conexiones seguras)" nc:link="glossary.xhtml#SSL"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="TCP/IP (protocolo de control de la transmisi&#243;n/protocolo de Internet)" nc:link="glossary.xhtml#TCP_IP"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Plataforma per a les preferències de privadesa (P3P)" nc:link="glossary.xhtml#platform_for_privacy_preferences"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocol d'accés als missatges d'Internet (IMAP; Internet Message Access Protocol)" nc:link="glossary.xhtml#IMAP_glossary"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocol d'oficina postal (POP; Post Office Protocol)" nc:link="glossary.xhtml#POP_glossary"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocol de control de la transmissió/Protocol d'Internet (TCP/IP; Transmission Control Protocol/Internet Protocol)" nc:link="glossary.xhtml#Transmission_Control_Protocol_Internet_Protocol"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocol de transferència de fitxers (FTP; File Transfer Protocol)" nc:link="glossary.xhtml#File_Transfer_Protocol"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Protocol lleuger d'accés a directoris (LDAP; Lightweight Directory Access Protocol)" nc:link="glossary.xhtml#LDAP_glossary"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Pàgina d'inici" nc:link="glossary.xhtml#home_page"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Pàgina web" nc:link="glossary.xhtml#web_page"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="SSL" nc:link="glossary.xhtml#SSL"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Servidor" nc:link="glossary.xhtml#server"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Servidor intermediari" nc:link="glossary.xhtml#proxy"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Signatura d'objectes" nc:link="glossary.xhtml#object_signing"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Signatura digital" nc:link="glossary.xhtml#digital_signature"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="TCP" nc:link="glossary.xhtml#TCP_IP"/> </rdf:li>
         <rdf:li> <rdf:Description nc:name="TLS" nc:link="glossary.xhtml#TLS"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="URL (localizador uniforme de recursos)" nc:link="glossary.xhtml#Uniform_Resource_Locator"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="W3C" nc:link="glossary.xhtml#w3c"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="World Wide Web" nc:link="glossary.xhtml#world_wide_web"/> </rdf:li>
-        <rdf:li> <rdf:Description nc:name="XML" nc:link="glossary.xhtml#XML"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Transformació per llenguatge extensible de full d'estils (XSLT; Extensible Stylesheet Language Transformation)" nc:link="glossary.xhtml#XSLT"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Ubicador de recursos uniforme (URL; Uniform Resource Locator)" nc:link="glossary.xhtml#Uniform_Resource_Locator"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="World Wide Web" nc:link="glossary.xhtml#World_Wide_Web"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Xifrat" nc:link="glossary.xhtml#cipher"/> </rdf:li>
+        <rdf:li> <rdf:Description nc:name="Xifratge" nc:link="glossary.xhtml#encryption"/> </rdf:li>
       </rdf:Seq>
     </nc:subheadings>
   </rdf:Description>
-
 </rdf:RDF>

@@ -5,8 +5,8 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml"> <head>
-  <title>A&ntilde;adir tablas a la p&aacute;gina web</title>
-  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+<title>Creating Web Pages with &brandShortName;</title>
+<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
@@ -24,455 +24,415 @@ function togglePanel() {
 </script>
 
 <table width="100%" id="navTable">
-  <tr>
-    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
-    <td width="72">
-      <img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52"
-           alt="&brandShortName;" align="center"/>
-    </td>
-    <td align="left">
-      <span id="topText">Centro de ayuda</span>
-    </td>
-  </tr>
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
 </table>
 
-<div id="contentsBox">En esta secci&oacute;n:
-  <a href="composer_help.xhtml#starting_a_new_page">Comenzar una nueva p&aacute;gina</a>
-  <a href="formatting_webpages.xhtml">Dar formato a las p&aacute;ginas web</a>
-  <a href="css.xhtml">Usar hojas de estilo para proporcionar dise&ntilde;o a las p&aacute;ginas web</a>
-  <a href="tables.xhtml">A&ntilde;adir tablas a la p&aacute;gina web</a>
-  <a href="images.xhtml">A&ntilde;adir gr&aacute;ficos (im&aacute;genes) a la p&aacute;gina web</a>
-  <a href="toc.xhtml">Trabajar con una tabla de contenidos en su p&aacute;gina web</a>
-  <a href="templates.xhtml">Trabajar con plantillas</a>
-  <a href="page_properties.xhtml">Establecer las propiedades de la p&aacute;gina</a>
-  <a href="links.xhtml">Crear enlaces con &brandShortName;</a>
-  <a href="customize.xhtml">Personalizar &brandShortName;</a>
+<div id="contentsBox">In this section:
+  <a href="composer_help.xhtml#starting_a_new_page">Starting a New
+  Page</a>
+
+  <a href="formatting_webpages.xhtml">Formatting Your Web Pages</a>
+
+  <a href="css.xhtml">Using Style
+  Sheets to Style Your Web Pages</a>
+
+  <a href="tables.xhtml">Adding Tables to
+  Your Web Page</a>
+
+  <a href="images.xhtml">Adding Pictures
+  (Images) to Your Web Page</a>
+
+  <a href="toc.xhtml">Working with Table of Contents on Your Web
+  Page</a>
+
+  <a href="templates.xhtml">Working With Templates </a>
+
+  <a href="page_properties.xhtml">Setting Page
+  Properties</a>
+
+  <a href="links.xhtml">Creating Links in
+  &brandShortName;</a>
+
+  <a href="customize.xhtml">Customizing &brandShortName;</a>
+
 </div>
 
-  <h2 id="adding_tables_to_your_web_page">A&ntilde;adir tablas a la p&aacute;gina web</h2>
+<h2 id="adding_tables_to_your_web_page">Adding Tables to Your Web
+Page</h2>
 
-  <h3 id="inserting_a_table">Insertar una tabla</h3>
+<h3 id="inserting_a_table">Inserting a Table</h3>
 
-  <p>
-    Las tablas son &uacute;tiles para organizar texto, im&aacute;genes y datos en filas y columnas formateadas.
-    Para insertar una tabla:
-  </p>
+<p>Tables are useful for organizing text, pictures, and data into
+formatted rows and
+columns. To insert a table:</p>
 
-  <ol>
-    <li>Haga clic para emplazar el punto de inserci&oacute;n donde desee que aparezca la tabla.</li>
+<ol>
+  <li>Click to place the insertion point where you want the table to
+  appear.</li>
 
-    <li>
-      Haga clic en el bot&oacute;n Tabla <img src="images/table.png" width="26" height="26" alt="" /> de
-      la barra de herramientas de redacci&oacute;n. Aparecer&aacute; el cuadro de di&aacute;logo Insertar tabla.
-    </li>
+  <li>Click the Table button
+  <img src="images/table.png" width="26" height="26" alt="" /> on
+  the
+  Composition toolbar. The Insert Table dialog box appears.</li>
 
-    <li>
-      Escriba el n&uacute;mero de filas y columnas que desee.
+  <li>Type the number of rows and columns you want.
+  <ul>
+    <li>(Optional) Enter a size for the table width, and select
+    either percentage of
+    the window or pixels.</li>
+  </ul>
+  </li>
 
-      <ul>
-        <li>
-          (Opcional) Introduzca un tama&ntilde;o para la anchura de la tabla y seleccione p&iacute;xeles o porcentaje.
-        </li>
-      </ul>
-    </li>
+  <li>Enter a number for the border thickness (in pixels); enter zero
+  for no border.
+  <p><strong>Note</strong>: &brandShortName; uses a red dotted line
+  to indicate tables with a zero border;
+  the dotted line disappears when the page is viewed in a
+  browser.</p></li>
 
-    <li>
-      Introduzca un n&uacute;mero para el grosor del borde (en p&iacute;xeles); introduzca cero si no
-      quiere que aparezca ning&uacute;n borde.
+  <li>To apply additional table attributes or JavaScript, click
+  Advanced Edit to display
+  the <a href="#using_the_advanced_property_editor">Advanced
+  Property Editor</a>.</li>
 
-      <p>
-        <strong>Nota</strong>: &brandShortName; usa l&iacute;neas punteadas de color rojo para diferenciar
-        a las tablas que no disponen de borde alguno; &eacute;stas l&iacute;neas desaparecer&aacute;n cuando la p&aacute;gina
-        se visualice en un navegador.
-      </p>
-    </li>
+  <li>Click OK to confirm your settings and view your new table.</li>
+</ol>
 
-    <li>
-      Para aplicar atributos adicionales o JavaScript, haga clic en Edici&oacute;n avanzada
-      para mostrar el <a href="#using_the_advanced_property_editor">Editor avanzado de propiedades</a>.
-    </li>
+<p>To change additional properties for your new table, see
+<a href="#changing_a_tables_properties">Changing a Table's
+Properties</a>.</p>
 
-    <li>Haga clic en Aceptar para confirmar los par&aacute;metros y visualizar la nueva tabla.</li>
-  </ol>
+<p><strong>Tip</strong>: To insert a table within a table, open the
+Insert menu and choose Table.</p>
 
-  <p>
-    Para modificar propiedades adicionales de la nueva tabla, vea 
-    <a href="#changing_a_tables_properties">Cambiar las propiedades de una tabla</a>.
-  </p>
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Return to beginning of
+section</a> ]</p>
 
-  <p>
-    <strong>Consejo</strong>: para insertar una tabla dentro de otra, abra el men&uacute; Insertar y seleccione Tabla.
-  </p>
+<h3 id="changing_a_tables_properties">Changing a Table's
+Properties</h3>
 
-  <p class="returnToSection">
-    [ <a href="#adding_tables_to_your_web_page">Volver al principio de la secci&oacute;n</a> ]
-  </p>
+<p>This section describes how to modify properties that apply to an
+entire table as well
+as the rows, columns, or individual cells within a table. If you are
+not currently
+viewing the Table Properties dialog box, follow these steps:</p>
 
-  <h3 id="changing_a_tables_properties">Cambiar las propiedades de una tabla</h3>
+<ol>
+  <li>Select the table, or click anywhere inside it.</li>
 
-  <p>
-    Esta secci&oacute;n describe c&oacute;mo modificar propiedades que se aplican a toda la tabla, englobando
-    filas, columnas, y celdas individuales. Si no se encuentra visualizando en estos momentos
-    el cuadro de di&aacute;logo Propiedades de la tabla, siga estos pasos:
-  </p>
+  <li>Click the Table button
+  <img src="images/table.png" width="26" height="26" alt="" /> on
+  the toolbar,
+  or open the Table menu and choose Table Properties. The Table
+  Properties dialog box
+  contains two tabs: Table and Cells.</li>
 
-  <ol>
-    <li>Seleccione la tabla, o haga clic sobre cualquier lugar dentro de ella.</li>
+  <li>Click the Table tab to edit these properties:
+  <ul>
+    <li><strong>Size</strong>: Use this to specify the number of
+    rows and columns. Enter the width
+    of the table and then choose "% of window" or "pixels." If
+    you specify width as a
+    percentage, the table's width changes whenever the
+    &brandShortName; window's or browser
+    window's width changes.</li>
 
-    <li>
-      Haga clic en el bot&oacute;n Tabla <img src="images/table.png" width="26" height="26" alt="" /> de
-      la barra de herramientas, o bien abra el men&uacute; Tabla y seleccione Propiedades de la tabla. El
-      cuadro de di&aacute;logo Propiedades de la tabla contiene dos pesta&ntilde;as: Tabla y Celdas.
-    </li>
+    <li><strong>Borders and Spacing</strong>: Use this to specify,
+    in pixels, the border line width,
+    the space between cells, and the cell padding (the space
+    between the contents of the
+    cell and its border).
+    <p><strong>Note</strong>: &brandShortName; uses a dotted
+    outline to display tables with a zero border;
+    the dotted line disappears when the page is viewed
+    in a browser.</p></li>
 
-    <li>Haga clic en la pesta&ntilde;a Tabla para editar estas propiedades:
-      <ul>
-        <li>
-          <strong>Tama&ntilde;o</strong>: sirve para especificar el n&uacute;mero de filas y columnas.
-          Introduzca la anchura de la tabla y escoja <q>% de la ventana</q> o <q>p&iacute;xeles</q>. Si define
-          la anchura como un porcentaje, &eacute;sta cambiar&aacute; siempre que la anchura
-          de la ventana de &brandShortName; o la del navegador var&iacute;en.
-        </li>
+    <li><strong>Table Alignment</strong>: Use this to align the
+    table within the page. Choose an
+    option from the drop-down list.</li>
 
-        <li>
-          <strong>Bordes y espaciado</strong>: sirve para especificar, en p&iacute;xeles,
-          el grosor de la l&iacute;nea del borde, el espacio entre celdas, y el relleno de las celdas
-          (el espacio entre el borde de la celda y su contenido).
+    <li><strong>Caption</strong>: Choose the caption placement from
+    the drop-down list.</li>
 
-          <p>
-            <strong>Nota</strong>: &brandShortName; usa l&iacute;neas punteadas para mostrar
-            tablas sin borde; &eacute;stas l&iacute;neas desaparecer&aacute;n cuando la p&aacute;gina
-            se visualice en un navegador.
-          </p>
-        </li>
+    <li><strong>Background Color</strong>: Use this to choose a
+    color for the table background, or
+    leave it as transparent.</li>
 
-        <li>
-          <strong>Alineaci&oacute;n de la tabla</strong>: utilice esta propiedad para alinear la tabla
-          dentro de la p&aacute;gina. Escoja una opci&oacute;n de la lista desplegable.
-        </li>
+  </ul>
+  </li>
 
-        <li><strong>T&iacute;tulo</strong>: escoja la ubicaci&oacute;n del t&iacute;tulo de la lista desplegable.</li>
+  <li>To apply additional attributes or JavaScript events, click
+  Advanced Edit to display
+  the <a href="#using_the_advanced_property_editor">Advanced
+  Property Editor</a>.</li>
 
-        <li>
-          <strong>Color de fondo</strong>: establezca un color para el fondo de la tabla, o bien
-          d&eacute;jelo transparente.
-        </li>
-      </ul>
-    </li>
+  <li>Click Apply to preview your changes without closing the dialog
+  box, or click OK to
+  confirm them.</li>
+</ol>
 
-    <li>
-      Para aplicar atributos adicionales o eventos JavaScript, haga clic en Edici&oacute;n avanzada
-      para mostrar el <a href="#using_the_advanced_property_editor">Editor avanzado de propiedades</a>.
-    </li>
+<p>To view, change, or add properties for one or more cells:</p>
 
-    <li>
-      Pulse Aplicar para previsualizar los cambios sin cerrar el cuadro de di&aacute;logo, o pulse Aceptar
-      de nuevo para confirmarlos.
-    </li>
-  </ol>
+<ol>
+  <li>Select the row, column, or cell, then open the Table menu and
+  choose Table Properties.
+  The Table Properties dialog box appears.</li>
 
-  <p>Para ver, cambiar o a&ntilde;adir propiedades a una o m&aacute;s celdas:</p>
+  <li>Click the Cells tab to edit the following properties:
+  <ul>
+    <li><strong>Selection</strong>: Choose Cell, Row, or Column from
+    the drop-down list. Click
+    Previous or Next to move through rows, columns, or
+    cells.</li>
 
-  <ol>
-    <li>
-      Seleccione la fila, columna, o celda. Abra el men&uacute; Tabla y seleccione Propiedades de la tabla.
-      Aparecer&aacute; el cuadro de di&aacute;logo Propiedades de la tabla.
-    </li>
+    <li><strong>Size</strong>: Type a number for Height and Width,
+    and then choose "% of table"
+    or "pixels."</li>
 
-    <li>
-      Haga clic en la pesta&ntilde;a Celdas para editar las siguientes propiedades:
+    <li><strong>Content Alignment</strong>: Select a vertical and
+    horizontal alignment type for
+    the text or data inside each cell.</li>
 
-      <ul>
-        <li>
-          <strong>Selecci&oacute;n</strong>: escoja Celda, Fila o Columna de la lista desplegable.
-          Haga clic en Anterior o Siguiente para moverse a trav&eacute;s de las filas, columnas o celdas.
-        </li>
+    <li><strong>Cell Style</strong>: Select Header from the
+    drop-down list for column or row
+    headers (which centers and bolds the text in the cell);
+    otherwise choose Normal.</li>
 
-        <li>
-          <strong>Tama&ntilde;o</strong>: escriba un n&uacute;mero para la altura y anchura y seleccione
-          <q>% de la tabla</q> o <q>p&iacute;xeles</q>.
-        </li>
+    <li><strong>Text Wrap</strong>: Select "Don't wrap" from the
+    drop-down list to keep text from
+    wrapping to the next line unless you insert a paragraph
+    break. Otherwise, choose
+    Wrap.</li>
 
-        <li>
-          <strong>Alineaci&oacute;n del contenido</strong>: seleccione un tipo de alineaci&oacute;n
-          vertical y horizontal para el texto o datos contenidos en cada celda.
-        </li>
+    <li><strong>Background Color</strong>: Select a color for the
+    cell background or leave it as
+    transparent.
+    <p><strong>Note</strong>: To apply additional attributes or
+    JavaScript events, click Advanced
+    Edit to display the
+    <a href="#using_the_advanced_property_editor">Advanced Property
+    Editor</a></p></li>
+  </ul>
+  </li>
+  <li>Click Apply to preview your changes without closing the dialog
+  box, or click OK to
+  confirm them.</li>
+</ol>
 
-        <li>
-          <strong>Estilo de celda</strong>: seleccione Cabecera de la lista desplegable para la
-          cabecera de columna o de fila (lo cual centra y pone en negrita el texto de la celda);
-          en otro caso, escoja Normal.
-        </li>
+<p><strong>Tip</strong>: To change the text color or background color
+of one or more selected cells or the entire table, select the cells or
+click anywhere in the table and then click the text color or
+background color icon in the Format toolbar.</p>
 
-        <li>
-          <strong>Ajuste del texto</strong>: seleccione <q>No ajustar l&iacute;neas</q> de la lista desplegable
-          para mantener el texto sin cortes hasta la siguiente l&iacute;nea a menos que inserte un corte
-          de p&aacute;rrafo. En otro caso, escoja <q>Ajustar l&iacute;neas</q>.
-        </li>
+<p><strong>Tip</strong>: To change the color of cells to the color
+last used, select the cell, then press Shift and click on the
+background color picker. This is useful when you want to use one color
+for individual cells.</p>
 
-        <li>
-          <strong>Color de fondo</strong>: seleccione un color para el fondo de la celda o
-          d&eacute;jelo transparente.
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Return to beginning of
+section</a> ]</p>
 
-          <p>
-            <strong>Nota</strong>: para aplicar atributos adicionales o eventos JavaScript,
-            haga clic en Edici&oacute;n avanzada para visualizar el
-            <a href="#using_the_advanced_property_editor">Editor avanzado de propiedades</a>.
-          </p>
-        </li>
-      </ul>
-    </li>
+<h3 id="adding_and_deleting_rows_columns_and_cells">Adding and
+Deleting Rows, Columns, and Cells</h3>
 
-    <li>
-      Haga clic en Aplicar para previsualizar los cambios sin cerrar el cuadro de di&aacute;logo o
-      haga clic en Aceptar para confirmarlos.
-    </li>
-  </ol>
+<p>&brandShortName; allows you to quickly add or delete one or more
+cells, columns, or rows in a table. In addition, you can set options
+that allow you to maintain the original rectangular structure or
+layout of the table while you perform editing tasks.</p>
 
-  <p>
-    <strong>Consejo</strong>: para cambiar el color del texto o del fondo, de una o m&aacute;s celdas
-    o de la tabla entera, seleccione las celdas o haga clic en cualquier sitio dentro de la tabla
-    y haga clic de nuevo en el icono de color del texto o color del fondo en la barra de
-    herramientas de formato.
-  </p>
+<p>To add a cell, row, or column to your table:</p>
 
-  <p>
-    <strong>Consejo</strong>: para cambiar el color de las celdas al &uacute;ltimo color utilizado,
-    seleccione la celda y presione May&uacute;s al mismo tiempo que hace clic en el selector de color
-    del fondo. Esto es &uacute;til cuando se desea utilizar un solo color para celdas individuales.
-  </p>
+<ol>
+  <li>Click inside the table where you want to add a cell (or
+  cells).</li>
 
-  <p class="returnToSection">
-    [ <a href="#adding_tables_to_your_web_page">Volver al principio de la secci&oacute;n</a> ]
-  </p>
+  <li>Open the Table menu and then choose Insert.</li>
 
-  <h3 id="adding_and_deleting_rows_columns_and_cells">
-    A&ntilde;adir y borrar filas, columnas y celdas
-  </h3>
+  <li>Choose one of the cell groupings. (You can also insert a new table
+  within a table cell.)</li>
+</ol>
 
-  <p>
-    &brandShortName; permite a&ntilde;adir y borrar r&aacute;pidamente una o m&aacute;s celdas de una tabla.
-    Adem&aacute;s, se pueden establecer opciones que permitan mantener la estructura rectangular
-    original o la disposici&oacute;n de la tabla mientras que se realizan tareas de edici&oacute;n.
-  </p>
+<p>To delete a cell, row, or column:</p>
 
-  <p>Para a&ntilde;adir una celda, una fila o una columna a la tabla:</p>
+<ol>
+  <li>Click a row, column, or cell to place the insertion
+  point. Or, select neighboring cells to delete more than one row at a
+  time. To select neighboring cells, drag over the cells you want to
+  select.  To select individual cells in a table, hold down the Ctrl key
+  (Windows, Linux or Unix) or the Command key (Mac OS) and click on the
+  cells you want to select.</li>
 
-  <ol>
-    <li>Haga clic dentro de la tabla donde desee a&ntilde;adir la celda (o celdas).</li>
+  <li>Open the Table menu and choose Delete.</li>
 
-    <li>Abra el men&uacute; Tabla y seleccione Insertar.</li>
+  <li>Choose the item you want to delete.</li>
+</ol>
 
-    <li>
-      Escoja uno de los agrupamientos de celdas (tambi&eacute;n puede insertar una nueva
-      tabla dentro de la celda).
-    </li>
-  </ol>
+<p>To join (or merge) a cell with the cell on its right:</p>
 
-  <p>Para borrar una celda, una fila o una columna:</p>
+<ul>
+  <li>Click inside the cell on the left, open the Table menu, and
+  choose Join with Cell to the Right.</li>
+</ul>
 
-  <ol>
-    <li>
-      Haga clic en una fila, columna o celda para emplazar el punto de inserci&oacute;n. O bien,
-      seleccione las celdas vecinas para borrar m&aacute;s de una fila al mismo tiempo.
-      Para seleccionar las celdas vecinas desplace el puntero del rat&oacute;n sobre las
-      celdas que desea seleccionar mientras mantiene pulsado el bot&oacute;n izquierdo.
-      Para seleccionar celdas sueltas en una tabla, mantenga pulsada la tecla Control
-      (Windows, Linux o Unix) o la tecla Cmd (Mac OS) y haga clic sobre las celdas que
-      desea seleccionar.
-    </li>
+<p>To join (or merge) adjacent cells:</p>
 
-    <li>Abra el men&uacute; Tabla y seleecione Eliminar.</li>
+<ul>
+  <li>Select adjacent cells by dragging over them.</li>
 
-    <li>Seleccione el elemento que desee borrar.</li>
-  </ol>
+  <li>Open the Table menu, and choose Join Selected Cells.</li> 
+</ul>
 
-  <p>Para unir (o combinar) una celda con la celda de su derecha:</p>
+<p>To split a joined cell back into two or more cells:</p>
+
+<ul>
+  <li>Click inside the joined cell, open the Table menu, and then
+  choose Split Cell. &brandShortName; puts the entire contents of the
+  joined cell into the first of the two cells.</li>
+</ul>
+
+<p>Refer to <a href="#selecting_table_elements">Selecting Table
+Elements</a> for information on how to select non-adjacent cells,
+rows, and columns.</p>
+
+<h3 id="changing_the_default_table_table_editing_behavior">Changing
+the Default Table Editing Behavior</h3>
+
+<p>By default, when you delete one or more cells, &brandShortName;
+preserves the table's structure by adding cells at the end of a row,
+wherever needed. This allows you to delete one or more cells but still
+maintain the table's original rectangular layout, or
+structure. Otherwise, deleting cells can result in a table with empty
+spaces, or whose outline appears irregular due to an uneven number of
+cells.</p>
+
+<p>To change the default table editing behavior, begin from the
+&brandShortName; window:</p>
+
+<ol>
+  <li>Open the Edit menu (Mozilla menu on Mac OS X), choose
+  Preferences, and then choose &brandShortName;.</li>
+
+  <li>Under Table Editing, set the following preference:
 
   <ul>
-    <li>
-      Haga clic dentro de la celda de la izquierda, abra el men&uacute; Tabla y seleccione Unir a la
-      celda de la derecha.
-    </li>
+    <li>Make sure that "Maintain table layout when inserting or
+    deleting cells" is checked to ensure that you don't get an irregularly
+    shaped table.</li>
   </ul>
+  </li>
 
-  <p>Para unir (o combinar) celdas adyacentes:</p>
+  <li>Click OK.</li> 
+</ol>
 
-  <ul>
-    <li>
-      Seleccione las celdas adyacentes manteniendo pulsado el bot&oacute;n izquierdo del rat&oacute;n
-      mientras arrastra el puntero sobre ellas.
-    </li>
+<p>See also <a
+href="preferences.xhtml#preferences_general_settings">Setting General
+&brandShortName; Preferences</a>.</p>
 
-    <li>Abra el men&uacute; Tabla y seleccione Unir celdas seleccionadas.</li> 
-  </ul>
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Return to beginning of
+section</a> ]</p>
 
-  <p>Para separar en dos o m&aacute;s celdas una celda combinada:</p>
+<h3 id="selecting_table_elements">Selecting Table Elements</h3>
 
-  <ul>
-    <li>
-      Haga clic dentro de la celda, abra el men&uacute; Tabla y seleccione Dividir celda.
-      El contenido de la celda original pasar&aacute; a la primera de las celdas nuevas.
-    </li>
-  </ul>
+<p>You can use one of two ways to quickly select a table, cell, or
+group of cells:</p>
 
-  <p>
-    V&eacute;ase <a href="#selecting_table_elements">Seleccionar elementos de la tabla</a>
-    para informaci&oacute;n de c&oacute;mo seleccionar celdas, filas y columnas no adyacentes.
-  </p>
+<ul>
+  <li>Click in the table, open the Table menu, choose Select, and
+  then choose an item from the submenu. For example, to select a table,
+  click anywhere inside the table, open the Table menu, choose Select,
+  and then choose Table.</li>
 
-  <h3 id="changing_the_default_table_table_editing_behavior">
-    Cambiar el comportamiento predeterminado de edici&oacute;n de tablas
-  </h3>
+  <li>Or, you can use the mouse as a selection tool:</li>
 
-  <p>
-    Por omisi&oacute;n, cuando se borran una o m&aacute;s celdas, &brandShortName; preserva la
-    estructura de la tabla mediante la adici&oacute;n de celdas al final de la fila en caso de
-    necesidad. Esto permite borrar una o m&aacute;s celdas manteniendo el la estructura
-    rectangular original de la tabla. De otro modo, al borrar celdas se podr&iacute;a
-    desembocar en una tabla con espacios vac&iacute;os o cuyas l&iacute;neas exteriores fuesen
-    irregulares debido a un n&uacute;mero desigual de celdas.
-  </p>
+  <li style="list-style-type: none; list-style-position: outside;
+      list-style-image: none;"> <ul> <li>To select a group of adjacent
+      cells: click in a cell, and then drag to select the cells you
+      want. Drag the mouse left or right to select a row; up or down to
+      select a column.</li>
 
-  <p>
-    Para cambiar el comportamiento predeterminado de edici&oacute;n por defecto de las tablas,
-    empezando desde la ventana de &brandShortName;:
-  </p>
+      <li>To select non-adjacent cells: press Ctrl (Windows, Linux or Unix)
+      or Command (Mac OS) and then click inside a cell. Keep pressing Ctrl
+      (Windows, Linux or Unix) or Command (Mac OS) as you click to select
+      additional cells.</li>
 
-  <ol>
-    <li>
-      Abra el men&uacute; Herramientas (men&uacute; Mozilla en Mac OS X), seleccione Preferencias y luego
-      General.
-    </li>
+      <li>To extend a selection to include adjacent cells: click inside a
+      cell and then drag over additional cells to extend the selection.</li>
 
-    <li>Bajo Edici&oacute;n de tablas, establezca las siguiente preferencia:
-
-      <ul>
-        <li>
-          Aseg&uacute;rese de que <q>Mantener el dise&ntilde;o de la tabla al introducir o borrar celdas</q>
-          est&eacute; seleccionado para cerciorarse de que no se obtengan tablas de forma irregular.
-        </li>
+      <li>To select one or more adjacent columns or rows: drag up or down to
+      select the first column or row, and then drag left or right to select
+      additional adjacent columns or rows. Press Shift and drag to the right
+      to select an entire row. Press Shift and drag up or down to select an
+      entire column.</li>
       </ul>
-    </li>
+  </li>
+</ul>
 
-    <li>Pulse Aceptar.</li> 
-  </ol>
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Return to beginning of
+section</a> ]</p>
 
-  <p>
-    Vea tambi&eacute;n
-    <a href="preferences.xhtml#preferences_general_settings">Establecer las preferecias generales
-    de &brandShortName;</a>.
-  </p>
+<h3 id="moving_copying_and_deleting_tables">Moving, Copying, and
+Deleting Tables</h3>
 
-  <p class="returnToSection">
-    [ <a href="#adding_tables_to_your_web_page">Volver al principio de la secci&oacute;n</a> ]
-  </p>
+<p>To move a table:</p>
 
-  <h3 id="selecting_table_elements">Seleccionar elementos de la tabla</h3>
+<ol>
+  <li>Click inside the table.</li>
 
-  <p>Hay dos maneras distintas de seleccionar r&aacute;pidamente una tabla, celda o grupo de celdas:</p>
+  <li>Open the Table menu, choose Select, and then choose Table.</li>
+</ol>
 
-  <ul>
-    <li>
-      Haga clic en la tabla, abra el men&uacute; Tabla, escoja Seleccionar y escoja un elemento del submen&uacute;.
-      Por ejemplo, para seleccionar una tabla, haga clic en cualquier sitio dentro de la tabla,
-      abra el men&uacute; Tabla y escoja Seleccionar, y despu&eacute;s Tabla.
-    </li>
+<ul> 
+  <li>To copy or move the table: Use the Edit menu's cut, copy, and
+  paste options.</li>
 
-    <li>O se puede utilizar el rat&oacute;n como herramienta de selecci&oacute;n:</li>
+  <li>To delete the table: Open the Table menu again, choose Delete, and
+  then choose Table.</li>
+</ul>
 
-    <li style="list-style-type: none; list-style-position: outside; list-style-image: none;">
-      <ul>
-        <li>
-          Para seleccionar un grupo de celdas adyacentes: haga clic en una celda y arrastre el
-          rat&oacute;n para seleccionar las celdas que desee. Arrastre el rat&oacute;n a izquierda o derecha
-          para seleccionar una fila; arriba o abajo para seleccionar una columna.
-        </li>
+<h3 id="converting_text_into_a_table">Converting Text into a
+Table</h3>
 
-        <li>
-          Para seleccionar celdas no adyacentes: presione Control (Windows, Linux or Unix) o Cmd (Mac OS)
-          y haga clic dentro de una celda. Contin&uacute;e presionando Control o Cmd mientras hace clic en
-          las celdas adicionales.
-        </li>
+<p>To convert text into a table:</p>
 
-        <li>
-          Para extender una selecci&oacute;n a las celdas adyacentes: haga clic dentro de una celda y
-          sin soltar el bot&oacute;n arrastre el rat&oacute;n sobre celdas adicionales para extender la selecci&oacute;n.
-        </li>
+<ol>
+  <li>Select the text that you want to convert into a table. Keep
+  in mind that &brandShortName; creates a new table row for each
+  paragraph in the selection.</li>
 
-        <li>
-          Para seleccionar una o m&aacute;s columnas o filas adyacentes: arrastre el puntero hacia arriba o
-          abajo para seleccionar la primera columna o fila, y luego arrastre a izquierda o derecha para
-          seleccionar columnas o filas adyacentes adicionales. Presione May&uacute;s y arrastre a la derecha
-          para seleccionar una fila entera. Pulse May&uacute;s y arrastre arriba o abajo para seleccionar una
-          columna entera.
-        </li>
-      </ul>
-    </li>
-  </ul>
+  <li>Open the Table menu and choose Create Table from Selection. You
+  see the Convert to Table dialog box.</li>
 
-  <p class="returnToSection">
-    [ <a href="#adding_tables_to_your_web_page">Volver al principio de la secci&oacute;n</a> ]
-  </p>
+  <li>Choose the character &brandShortName; uses to separate the
+  selection into columns, or specify a different character to use. If
+  you choose Space as the separator for columns, choose whether or not
+  you want &brandShortName; to ignore multiple space and treat them as
+  one space.</li>
 
-  <h3 id="moving_copying_and_deleting_tables">Mover, copiar y borrar tablas</h3>
+  <li>Leave "Delete separator character" checked to have
+  &brandShortName; remove the separator character when it converts the
+  text into a table. If you don't want &brandShortName; to delete the
+  separator character, uncheck this option.</li>
 
-  <p>Para mover una tabla:</p>
+  <li>Click OK.</li>
+</ol>
 
-  <ol>
-    <li>Haga clic dentro de la tabla.</li>
+<p><strong>Note</strong>: Text formatting is removed when the selected
+text is converted to a table.</p>
 
-    <li>Abra el men&uacute; Tabla, escoja Seleccionar y despu&eacute;s Tabla.</li>
-  </ol>
+<p class="returnToSection">[ <a
+href="#adding_tables_to_your_web_page">Return to beginning of
+section</a> ]</p>
 
-  <ul>
-    <li>
-      Para copiar o mover la tabla: utilice las opciones Cortar, Copiar y Pegar del men&uacute; Editar.
-    </li>
+<p>[<a href="images.xhtml">Next</a>] [<a href="css.xhtml">Previous</a>]</p>
 
-    <li>Para borrar la tabla: abra el men&uacute; Tabla y escoja seleccione Eliminar y despu&eacute;s Tabla.</li>
-  </ul>
-
-  <h3 id="converting_text_into_a_table">Convertir texto en una tabla</h3>
-
-  <p>Para convertir texto en una tabla:</p>
-
-  <ol>
-    <li>
-      Seleccione el texto que desea convertir en una tabla. Tenga en cuenta que  &brandShortName; crear&aacute;
-      una fila en la nueva tabla por cada p&aacute;rrafo que haya en la selecci&oacute;n.
-    </li>
-
-    <li>
-      Abra el men&uacute; Tabla y seleccione Crear tabla a partir de la selecci&oacute;n. Aparecer&aacute; el cuadro
-      de di&aacute;logo Convertir en tabla.
-    </li>
-
-    <li>
-      Seleccione el car&aacute;cter que utilizar&aacute; &brandShortName; para separar la selecci&oacute;n en
-      columnas o especifique un car&aacute;cter distinto. Si escoge Espacio como separador de columnas,
-      decida si desea o no que &brandShortName; ignore m&uacute;ltiples espacios consecutivos y los trate
-      como si fuesen s&oacute;lo uno.
-    </li>
-
-    <li>
-      Deje <q>Eliminar car&aacute;cter separador</q> marcado para que &brandShortName; elimine el car&aacute;cter
-      separador cuando convierta el texto en una tabla. Si no desea que &brandShortName; haga esto,
-      desmarque esta opci&oacute;n.
-    </li>
-
-    <li>Pulse Aceptar.</li>
-  </ol>
-
-  <p><strong>Nota</strong>: se eliminar&aacute; el formato del texto cuando &eacute;ste sea convertido en una tabla.</p>
-
-  <p class="returnToSection">
-    [ <a href="#adding_tables_to_your_web_page">Volver al principio de la secci&oacute;n</a> ]
-  </p>
-
-<p>[<a href="images.xhtml">Siguiente</a>] [<a href="css.xhtml">Anterior</a>]</p>
-
-  <div class="copyrightBox"><em>5 de desembre de 2009</em></div>
+  <div class="copyrightBox"><em>05 December 2009</em></div>
 
 <p>&helpCopyrightNotice;</p>
 

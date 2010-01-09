@@ -5,70 +5,73 @@
 %brandDTD; ] >
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <title>Tutorial de &brandShortName;</title>
-  <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
-</head>
+  <head>
+    <title>&brandShortName; Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css" />
+  </head>
 
-<body>
+  <body>
 <script type="text/javascript">
-  var isDisplayed = true;
+var isDisplayed = true;
 
-  function togglePanel() {
-    isDisplayed = !isDisplayed;
-    var displayValue = isDisplayed ? "display: block" : "display: none";
-    var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+function togglePanel() {
+  isDisplayed = !isDisplayed;
+  var displayValue = isDisplayed ? "display: block" : "display: none";
+  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
 
-    document.getElementById("contentsBox").setAttribute("style", displayValue);
-    document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-  }
+  document.getElementById("contentsBox").setAttribute("style", displayValue);
+  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
+}
 </script>
 
 <table width="100%" id="navTable">
-  <tr>
-    <td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Mostrar/Ocultar</a></small></td>
-    <td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Centro de ayuda</span></td>
-  </tr>
+<tr>
+<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
+<td width="72"><img src="chrome://editor/skin/icons/throbber.png" width="32" height="32" alt="&brandShortName;" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
+</tr>
 </table>
 
-  <div id="contentsBox">En esta secci&oacute;n:
-    <a href="#scope_of_this_tutorial">Alcance de este tutorial</a>
-    <a href="#introduction_to_the_user_interface">Introducci&oacute;n a la interfaz de usuario</a>
-    <a href="#starting_a_new_document">Iniciar un nuevo documento</a>
-    <a href="#basic_formatting_of_the_document">Formato b&aacute;sico del documento</a>
-    <a href="#inserting_images_and_tables">Insertar im&aacute;genes y tablas</a>
-    <a href="#advanced_styles">Estilos avanzados</a>
-    <a href="#publishing_your_documents_basics">Publicar sus documentos - conceptos b&aacute;sicos</a>
-  </div>
+    <div id="contentsBox">In this section:
+    <a href="#scope_of_this_tutorial">Scope of This Tutorial</a>
+    <a href="#introduction_to_the_user_interface">Introduction to the User Interface</a>
+    <a href="#starting_a_new_document">Starting a New Document</a>
+    <a href="#basic_formatting_of_the_document">Basic Formatting of the Document</a>
+    <a href="#inserting_images_and_tables">Inserting Images, and Tables</a>
+    <a href="#advanced_styles">Advanced Styles</a>
+    <a href="#publishing_your_documents_basics">Publishing Your Document(s)-Basics</a>
+    </div>
 
-    <h1 id="nvu_tutorial">Tutorial de &brandShortName;</h1>
+    <h1 id="nvu_tutorial">&brandShortName; Tutorial</h1>
 
-    <p>&brandShortName; es un sistema completo de autor&iacute;a web 
-    <q>lo que se ve es lo que se obtiene</q> de c&oacute;digo abierto. Est&aacute;
-    basado en Gecko, el motor de Mozilla. &brandShortName; es 
-    completamente libre y puede ser descargado del 
-    <a href="http://www.nvu.com/">sitio web de &brandShortName;</a>.</p>
+    <p>&brandShortName; is an open source
+    What-You-See-Is-What-You-Get(WYSIWYG) complete web authoring
+    system. It is based on Gecko, the Mozilla rendering
+    engine. &brandShortName; is completely free and can be downloaded
+    from <a href="http://www.nvu.com/">&brandShortName;
+    website</a>.</p>
 
-    <h2 id="scope_of_this_tutorial">Alcance de este tutorial</h2>
+    <h2 id="scope_of_this_tutorial">Scope of This Tutorial</h2>
 
-    <p>Este tutorial est&aacute; dise&ntilde;ado para principiantes que sean
-    nuevos en el dise&ntilde;o de p&aacute;ginas web con un editor WYSIWYG.
-    El tutorial proporciona la ayuda estrictamente necesaria para iniciarse en
-    el uso de &brandShortName; para el dise&ntilde;o de p&aacute;ginas
-    web. No es una introducci&oacute;n a la codificaci&oacute;n HTML, XHTML, CSS, etc.
-    S&oacute;lo pretende dar una peque&ntilde;a introducci&oacute;n al uso de &brandShortName;.</p>
+    <p>This tutorial is designed for beginners, who are new to web
+    page designing with a WYSIWYG editor. The tutorial provides just
+    enough help so as to get you started with using &brandShortName;
+    for your web page design purposes. It is not an introduction to
+    HTML, XHTML, CSS, etc. coding. Its only aim is to give you a kick
+    start on how to use &brandShortName;.</p>
 
-    <p>El manual ni siquiera cubre todos los aspectos b&aacute;sicos de HTML en detalle.
-    S&iacute;, &eacute;ste es un peque&ntilde;o tutorial y algunas cosas b&aacute;sicas aunque no muy
-    importantes han quedado fuera. Le exhortamos a investigar m&aacute;s por s&iacute; mismo. El tutorial
-    tambi&eacute;n cubre una peque&ntilde;a introducci&oacute;n al uso de hojas de estilos en cascada con
-    el editor incluido, CaScadeS.</p>
+    <p>The manual does not even cover all the basic aspects of HTML in
+    detail. Yes, this is a short tutorial and some basic albeit
+    unimportant things have been left out. You are encouraged to find
+    out about them yourself. Also the tutorial covers just an
+    introduction on how to use cascading style sheets with the inbuilt
+    editor, CaScadeS.</p>
 
-    <p>Aquellos que est&aacute;n m&aacute;s interesados en aprender HTML, CSS, etc. en
-    detalle, pueden ir a la <a href="http://www.w3.org/">p&aacute;gina del Consorcio
-    World Wide Web (W3C)</a>. Ah&iacute; encontrar&aacute;n informaci&oacute;n detallada
-    sobre varios est&aacute;ndares mantenidos por ellos. Tambi&eacute;n puede realizarse una
-    b&uacute;squeda en la WWW o consultar alguno de los muchos libros disponibles para aprender HTML.</p>
+    <p>For those of you who are more interested in learning about
+    HTML, CSS, etc in detail you can go to the <a
+    href="http://www.w3.org/">W3 Consortium website</a>. There you
+    will find detailed information about various standards maintained
+    by them. You can also do a search on the WWW or refer to one of
+    the many books available on learning HTML.</p>
 
     <!-- The approach of this tutorial is to give the most basic
          instructions on getting major things done with &brandShortName;. This will
@@ -77,123 +80,121 @@
          provided targetting corresponding section in the main Help
          for detailed treatment of the same objective.-->
 
-    <h3 id="in_this_tutorial">En este tutorial</h3>
+    <h3 id="in_this_tutorial">In This Tutorial</h3>
 
-    <p>Este tutorial primero le presenta la interfaz de &brandShortName;.
-    A continuaci&oacute;n sigue una secci&oacute;n b&aacute;sica de formato. La secci&oacute;n
-    siguiente explica c&oacute;mo insertar elementos tales como im&aacute;genes, tablas
-    y formularios en su documento. Despu&eacute;s hay una peque&ntilde;a secci&oacute;n
-    dedicada a estilizar el documento usando CSS. El documento concluye
-    con instrucciones para publicar su documento en un servidor web.</p>
+    <p>This tutorial first introduces you to &brandShortName;'s User
+    Interface. This is followed by a basic formatting section. Next
+    section, tells you how to insert elements like images, tables, and
+    forms in your document. Then we have small section devoted to
+    styling your document using CSS. The document concludes with
+    instructions for publishing your document to a web server.</p>
 
-    <p>[ <a href="#scope_of_this_tutorial">Volver al principio de la secci&oacute;n</a> ]</p>
+    <p>[ <a href="#scope_of_this_tutorial">Return to beginning of
+    section</a> ]</p>
 
-    <h2 id="introduction_to_the_user_interface">Introducci&oacute;n a la interfaz de usuario</h2>
+    <h2 id="introduction_to_the_user_interface">Introduction to the
+    User Interface</h2>
 
-    <p>El men&uacute; Archivo de &brandShortName; contiene men&uacute;s para todas las
-    operaciones principales durante su uso. Para una completa y detallada
-    referencia lea la p&aacute;gina <a href="menu_reference.xhtml">Referencia de los men&uacute;s</a>.
-    La barra de herramientas de la interfaz de usuario de &brandShortName;
-    consta de:</p>
+    <p>&brandShortName;'s File Menu contains menu items for all major
+    operations possible while using it. For full detailed reference
+    read the <a href="menu_reference.xhtml">Menu Reference</a>
+    page. &brandShortName;'s tool bar user interface consists of:</p>
 
     <ul>
-      <li><a href="#composition_toolbar">Barra de redacci&oacute;n</a></li>
-      <li><a href="#format_toolbar">Barra de formato</a></li>
-      <li><a href="#tab_browser_toolbar">Barra de exploraci&oacute;n con pesta&ntilde;as</a></li>
-      <li><a href="#edit_mode_toolbar">Barra de modo de edici&oacute;n</a></li>
-      <li><a href="#status_toolbar">Barra de estado</a></li>
+      <li><a href="#composition_toolbar">Composition Toolbar</a></li>
+      <li><a href="#format_toolbar">Format Toolbar</a></li>
+      <li><a href="#tab_browser_toolbar">Tab Browser Toolbar</a></li>
+      <li><a href="#edit_mode_toolbar">Edit Mode Toolbar</a></li>
+      <li><a href="#status_toolbar">Status Toolbar</a></li>
     </ul>
 
-    <h3 id="composition_toolbar">Barra de redacci&oacute;n</h3>
+    <h3 id="composition_toolbar">Composition Toolbar</h3>
 
-    <p>La barra de redacci&oacute;n consta de botones para las operaciones
-    m&aacute;s usadas. Debajo est&aacute; una captura de pantalla de la barra de
-    redacci&oacute;n predeterminada con texto debajo de cada bot&oacute;n indicando
-    la funci&oacute;n de cada uno.</p>
+    <p>The Composition Toolbar consists of buttons for the most used major operations. Below is the a snapshot of the default Composition Toolbar with text below each button indicating the respective button's function.</p>
 
-    <p><img src="images/tut_composition_tb.png" title="Barra de redacci&oacute;n" width="802" height="55" alt="" /></p>
+    <p><img src="images/tut_composition_tb.png" title="Composition Toolbar" width="802" height="55" alt="" /></p>
 
-    <h3 id="format_toolbar">Barra de formato</h3>
+    <h3 id="format_toolbar">Format Toolbar</h3>
 
-    <p> La barra de formato es una herramienta muy &uacute;til cuando se
-    editan p&aacute;ginas con &brandShortName;. Con la barra de formato
-    usted puede aplicar formatos de p&aacute;rrafo, seleccionar un tipo de letra,
-    cambiar el color de primer plano y de fondo, aumentar o
-    disminuir el tama&ntilde;o de letra, y enfatizar un bloque de texto.
-    Tambi&eacute;n puede crear listas ordenadas o no ordenadas y justificar
-    un bloque de texto a la izquierda, derecha o al centro. Para saber
-    qu&eacute; hace cada bot&oacute;n, simplemente coloque el puntero del rat&oacute;n sobre el
-    mismo y aparecer&aacute; un t&iacute;tulo emergente indicando su funci&oacute;n.</p>
+    <p>The Format Toolbar is a very useful tool while editing web
+    pages with &brandShortName;. With the Format Toolbar you can apply
+    paragraph format, choose a font, change foreground or background
+    colour, increase or decrease size, and emphasize a block of
+    text. You can also create ordered or unordered lists and justify a
+    block of text to left, right or centre. To know which button does
+    what just hover your mouse over the button and a tool tip will
+    appear indicating the function of the button.</p>
 
-    <p><img src="images/tut_formating_tb.png" title="Barra de formato" width="802" height="34" alt="" /></p>
+    <p><img src="images/tut_formating_tb.png" title="Formating Toolbar" width="802" height="34" alt="" /></p>
 
-    <h3 id="tab_browser_toolbar">Barra de exploraci&oacute;n con pesta&ntilde;as</h3>
+    <h3 id="tab_browser_toolbar">Tab Browser Toolbar</h3>
 
-    <p>&brandShortName; le permite editar simult&aacute;neamente m&uacute;ltiples
-    documentos web usando diferentes pesta&ntilde;as para cada documento abierto.
-    Tener varias pesta&ntilde;as le da una apariencia m&aacute;s limpia a su escritorio
-    ya que no quedar&aacute; abarrotado como sucede cuando se usan m&uacute;ltiples ventanas para
-    cada documento. Como indicador visual un <q><em>icono de un disquete rojo</em></q>
-    aparece en las p&aacute;ginas que han sido modificadas pero no guardadas.</p>
+    <p>&brandShortName; allows you to simultaneously edit multiple web
+    documents using different tabs for each opened document. Having
+    multiple tabs gives a cleaner look to your desktop as it is not
+    cluttered when multiple windows are used for each document. As a
+    visual indicator a "<em>red floppy icon</em>" icon appears for
+    pages which have been edited but not saved yet.</p>
 
-    <p><img src="images/tut_tabbrowser_tb.png" title="Barra de pesta&ntilde;as" width="636" height="29" alt="" /></p>
+    <p><img src="images/tut_tabbrowser_tb.png" title="Tab Browser Toolbar" width="636" height="29" alt="" /></p>
 
-    <h3 id="edit_mode_toolbar">Barra de modo de edici&oacute;n</h3>
+    <h3 id="edit_mode_toolbar">Edit Mode Toolbar</h3>
 
-    <p>La barra de modo de edici&oacute;n indica el modo de vista que est&aacute; 
-    activo en el documento actual. Los modos disponibles son Normal, Etiquetas
-    HTML, C&oacute;digo fuente (HTML) y Vista preliminar. Puede cambiar
-    f&aacute;cilmente el modo de vista simplemente haciendo clic en alguna
-    de las otras tres con el rat&oacute;n.</p>
+    <p>The Edit Mode Toolbar indicates the viewing mode which is
+    presently active for the current document. Available viewing modes
+    are the Normal view, HTML Tags view, HTML source view and the
+    Preview mode. You can easily change your viewing mode by simply
+    clicking any of the other three with the mouse.</p>
 
-    <p><img src="images/tut_editmode_tb.png" title="Barra de modo de edici&oacute;n" width="408" height="30" alt="" /></p>
+    <p><img src="images/tut_editmode_tb.png" title="Edit Mode Toolbar" width="408" height="30" alt="" /></p>
 
-    <h3 id="status_toolbar">Barra de estado</h3>
-    
-    <p>La barra de estado de &brandShortName; muestra la posici&oacute;n del 
-    cursor con respecto a la jerarqu&iacute;a de etiquetas HTML. Usted puede 
-    editar/asignar f&aacute;cilmente las propiedades de cualquier etiqueta en 
-    particular en la barra de estado haciendo clic con el bot&oacute;n derecho en la
-    barra de estado y seleccionando la opci&oacute;n deseada. Una pulsaci&oacute;n
-    simple con el bot&oacute;n izquierdo en una etiqueta en la barra de estado
-    selecciona el texto rodeado por esa etiqueta.</p>
+    <h3 id="status_toolbar">Status Toolbar</h3>
 
-    <p><img src="images/tut_status_tb.png" title="Barra de estado" width="326" height="48" alt="" /></p>
+    <p>&brandShortName;'s status bar shows the position of the cursor
+    with respect to the HTML tag hierarchy. You can easily edit/assign
+    the properties of any particular tag in the status bar just by
+    right clicking and choosing the desired option. Simple left-click
+    of the mouse on a tag in status bar selects the text surrounded by
+    that tag.</p>
 
+    <p><img src="images/tut_status_tb.png" title="Status Toolbar" width="326" height="48" alt="" /></p>
 
-    <p>[ <a href="#introduction_to_the_user_interface">Volver al principio de la secci&oacute;n</a> ]</p>
+    <p>[ <a href="#introduction_to_the_user_interface">Return to
+    beginning of section</a> ]</p>
 
-    <h2 id="starting_a_new_document">Iniciar un nuevo documento</h2>
+    <h2 id="starting_a_new_document">Starting a New Document</h2>
 
-    <p>Puede iniciar un nuevo documento pulsando el bot&oacute;n "Nuevo" de la barra de
-    redacci&oacute;n o haciendo clic en Archivo &gt; Nuevo y seleccionando <q>Un
-    documento vac&iacute;o</q> y despu&eacute;s pulsando <q>Crear</q>. En caso de que
-    desee editar un documento existente, use Archivo &gt; Abrir y seleccione el
-    archivo que desea editar. Para obtener instrucciones detalladas, revise la
-    secci&oacute;n <a href="composer_help.xhtml#starting_a_new_page">Comenzar una
-    nueva p&aacute;gina</a> en la documentaci&oacute;n de ayuda de &brandShortName;.</p>
+    <p>You can start a new document by either clicking on the "New"
+    button on the composition toolbar or by clicking File > New and
+    select "Blank Document" and then click on "Create". In case you
+    want to edit an existing file use File > Open and choose the file
+    you want to edit. For detailed instructions, refer to <a
+    href="composer_help.xhtml#starting_a_new_page">Starting a New
+    Page</a> section in the &brandShortName; Help documentation.</p>
 
-    <p>Tambi&eacute;n puede iniciar un nuevo documento que sea una plantilla en lugar de
-    un archivo html normal. Las plantillas se usan para hacer el mantenimiento del
-    sitio web mas sencillo, ya que s&oacute;lo necesitar&aacute; editar el texto de una
-    p&aacute;gina en particular y no preocuparse por el dise&ntilde;o, ya que &eacute;ste
-    est&aacute; controlado por una plantilla. Este tutorial no ir&aacute; mas
-    all&aacute; en la creaci&oacute;n y uso de plantillas. Puede obtenerse m&aacute;s
-    informaci&oacute;n acerca de las plantillas en la secci&oacute;n <a 
-    href="composer_help.xhtml#working_with_templates">Trabajar con plantillas</a>
-    en la documentaci&oacute;n de ayuda de &brandShortName;</p>
-    
-    <p>[ <a href="#starting_a_new_document">Volver al principio de la secci&oacute;n</a> ]</p>
+    <p>You can also start a new document which is a template instead
+    of a normal html file. Templates are used to make website
+    management easier as the maintainer will only need to edit the
+    text for a particular page and not worry about the design as it is
+    controlled by the template. This tutorial will not go further into
+    creating and using templates. Further information about templates
+    can be obtained from the <a
+    href="composer_help.xhtml#working_with_templates">Working with
+    Templates</a> section of &brandShortName; Help documentation.</p>
 
-    <h2 id="basic_formatting_of_the_document">Formato b&aacute;sico del documento</h2>
+    <p>[ <a href="#starting_a_new_document">Return to beginning of
+    section</a> ]</p>
 
-    <p>Usaremos el texto de muestra de la siguiente secci&oacute;n en el nuevo
-    documento en &brandShortName; para seguir la ayuda de formato en este tutorial.
-    El texto se usar&aacute; como base para aprender las funciones b&aacute;sicas de formato
-    disponibles en &brandShortName;. Copie el texto de la siguiente secci&oacute;n
-    y p&eacute;guelo en su nuevo documento.</p>
+    <h2 id="basic_formatting_of_the_document">Basic Formatting of the
+    Document</h2>
 
-    <h3 id="tutorial_text">Texto del tutorial</h3>
+    <p>We will use the text given in the next section in the new
+    document to follow the formatting help in this tutorial. The text
+    will used as a base to learn basic formatting functions available
+    in &brandShortName;. Copy the text from the following section and
+    paste it in your new document.</p>
+
+    <h3 id="tutorial_text">Tutorial Text</h3>
 
     <!-- The text for the tutorial is a general text. It was by chance
          that I was reading a book by Jim Corbett when I was planning
@@ -230,7 +231,7 @@
     converted into a museum by the government as a dedication to his
     life and times. He was a naturalist, conservationalist and an avid
     photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighiting for the British army in the WWI, he came
+    Nanital. After fighting for the British army in the WWI, he came
     back to India and settled in Kaladhungi with his sister,
     Maggie. He was called up several times by village people and the
     government to get rid of man-eating tigers and leopards.</p>
@@ -255,36 +256,40 @@
     Haldwani to Ramnagar. By rail tourists can reach Ramnagar by
     taking a train from New Delhi.</p>
 
-    <h3>Dar formato al texto</h3>
+    <h3>Formatting the text</h3>
 
-    <p>Lo primero de lo que nos ocuparemos son los encabezados y subencabezados.
-    Seleccione el texto <q>Corbert National Park</q> en la parte superior del
-    documento y haga clic en el elemento <em>Texto del cuerpo</em> de la lista
-    desplegable en la <strong>barra de formato</strong> y seleccione
-    <tt>T&iacute;tulo 1</tt>. Se aplicar&aacute; el estilo al texto de acuerdo al formato
-    por omisi&oacute;n para encabezados de nivel 1. De forma similar, seleccione
-    el texto <q>Visiting Corbett National Park</q> y h&aacute;galo un encabezado de nivel 2.</p>
+    <p>The first thing we will take care of are the headings and
+    subheadings. Select the text "Corbett National Park" at the top of
+    the document and click on the <em>Body Text</em> drop down menu on
+    the <strong>Format Toolbar</strong> and select <tt>Heading
+    1</tt>. The text will be styled according to the default Heading
+    Level-1 style. Similarly, select the text "Visiting Corbett
+    National Park" and make it a level-2 heading.</p>
 
-    <p>Lo segundo que querr&iacute;a hacer es seleccionar p&aacute;rrafos enteros
-    en el texto y marcarlos como <em>p&aacute;rrafo</em>, siguiendo el mismo
-    procedimiento para los encabezados. En el texto proporcionado, esto ya se ha
-    hecho para hacer el texto m&aacute;s presentable, pero en todo caso, marcar p&aacute;rrafos
-    de forma separada es una buena pr&aacute;ctica.</p>
+    <p>The second you might want to do is to select entire paragraphs
+    in your text and mark them <em>paragraph</em> following same
+    procedure for the headings. In the given text this has already
+    done to make the text more presentable, but otherwise marking
+    paragraphs separately is a good practice.</p>
 
-    <p>Tambi&eacute;n puede aplicar estilos a palabras o frases usando los botones
-    <strong>negrita</strong>(<strong>B</strong>), <em>cursiva</em>(<strong><em>I</em></strong>)
-    o <u>subrayado</u>(<strong><u>U</u></strong>) en la <strong>barra de formato</strong>,
-    como se ha hecho en esta l&iacute;nea. Est&aacute;n disponibles muchas otras opciones de
-    formato en la barra de formato o por medio del men&uacute; Formato de la barra de men&uacute;s.
-    Vaya e intente usar algunas opciones. Aprender&aacute; algunos trucos de esta
-    forma. Si se equivoca, no se preocupe, basta con que presione <q><tt>Ctrl+Z</tt></q>
-    una vez para <em>deshacer</em> su &uacute;ltima acci&oacute;n. Para instrucciones
-    detalladas acerca de todas las formas posibles de dar formato al texto de una
-    p&aacute;gina web, vea la secci&oacute;n <a
-    href="composer_help.xhtml#formatting_your_web_pages">Dar formato a sus
-    p&aacute;ginas web</a> en la documentaci&oacute;n de ayuda de &brandShortName;.</p>
-    
-    <p>En este punto, su texto del tutorial deber&iacute;a verse aproximadamente as&iacute;:</p>
+    <p>You can also style important words or phrases using the
+    <strong>bold</strong>(<strong>B</strong>),
+    <em>italic</em>(<strong><em>I</em></strong>), or
+    <u>underline</u>(<strong><u>U</u></strong>) buttons on the
+    <strong>Format Toolbar</strong>, as has been done in this
+    line. Several other options of formatting your text are available
+    from the Format Toolbar or via the Format menu on the File Menu
+    toolbar. Go ahead and try to use a few options, you will learn a
+    few trick this way. If you mess up, don't worry, just click
+    "<tt>Ctrl+Z</tt>" once to <em>undo</em> your last action. For
+    detailed instructions about all the ways possible to format text
+    for a web page, see <a
+    href="composer_help.xhtml#formatting_your_web_pages">Formatting
+    your Web Pages</a> section in &brandShortName; Help
+    documentation.</p>
+
+    <p>At this stage, your tutorial text should look similar to
+    this:</p>
 
     <hr />
 
@@ -311,7 +316,7 @@
     converted into a museum by the government as a dedication to his
     life and times. He was a naturalist, conservationalist and an avid
     photographer. Born on 25th July 1875, he grew up in Kaladhungi and
-    Nanital. After fighiting for the British army in the WWI, he came
+    Nanital. After fighting for the British army in the WWI, he came
     back to India and settled in Kaladhungi with his sister,
     Maggie. He was called up several times by village people and the
     government to get rid of man-eating tigers and leopards.</p>
@@ -338,24 +343,24 @@
 
     <hr />
 
-    <p>[ <a href="#basic_formatting_of_the_document">Volver al principio de la secci&oacute;n</a> ]</p>
+    <p>[ <a href="#basic_formatting_of_the_document">Return to
+    beginning of section</a> ]</p>
 
-    <h2 id="inserting_images_and_tables">Insertar im&aacute;genes y tablas</h2>
+    <h2 id="inserting_images_and_tables">Inserting Images, and
+    Tables</h2>
 
-    <p>Pueden insertarse/crearse im&aacute;genes, tablas y formularios en su
-    documento usando la <strong>barra de redacci&oacute;n</strong>. Insertemos
-    una tabla y copiemos la informaci&oacute;n general acerca de del Parque
-    Nacional Corbett dentro de &eacute;sta.</p>
-    
-    <p>Pulse el bot&oacute;n <q><em>Tabla</em></q> <img src="images/table.png" width="26" height="26" alt="" />
-    en la barra de redacci&oacute;n, y establezca las dimensiones de la tabla en
-    5 filas y 2 columnas con el rat&oacute;n. Hacer clic en la quinta fila y 
-    segunda columna crear&aacute; una tabla predeterminada con esas dimensiones.</p>
+    <p>Images, tables and forms can be inserted/created in your
+    document using the <strong>Composition Toolbar</strong>. Let us
+    insert a table and copy the General Information about Corbett
+    National Park into it. Click on the "<em>Table</em>" button <img src="images/table.png" width="26" height="26" alt="" /> on the
+    composition toolbar. And choose the table dimensions to be 5 rows
+    and 2 columns with your mouse. Clicking on the 5th row in 2nd
+    column will create a default table with those dimensions.</p>
 
-    <p>Para llenar la tabla con nuestro texto escrito previamente, simplemente corte
-    (<q><tt>Ctrl+X</tt></q>) el texto correspondiente y p&eacute;guelo (<q><tt>Ctrl+V</tt></q>)
-    en la celda correspondiente de la tabla. Una vez termine, la tabla deber&iacute;a
-    tener este aspecto:</p>
+    <p>To fill the table with our pre-written text, just cut
+    ("<tt>Ctrl+X</tt>") the corresponding text and paste
+    ("<tt>Ctrl+V</tt>") it in corresponding cell of the table. After
+    you are done, the table should look like the one below:</p>
 
     <!-- Do not remove inline styles from tutorial text.
 	 This is to override the style sheet rules.-->
@@ -392,49 +397,53 @@
       </tbody>
     </table>
 
-    <p>Con la tabla b&aacute;sica construida, puede cambiar sus propiedades 
-    activando la tabla; por ejemplo, coloque el cursor en la tabla y haga clic en
-    el bot&oacute;n <q><strong>Tabla</strong></q> en la <strong>barra de redacci&oacute;n</strong>.
-    En el di&aacute;logo de propiedades de tabla, puede establecer diversas propiedades de
-    la tabla, celda, fila o columna, por ejemplo color de fondo de la celda o la
-    tabla, t&iacute;tulo de la tabla, alineaci&oacute;n de la tabla, ancho de tabla
-    o columna, etc.</p>
+    <p>With the basic table constructed, you can change the table
+    properties by activating the table i.e. bring the cursor in the
+    table and then click on the "<strong>Table</strong>" button on the
+    <strong>Composition Toolbar</strong>. In the Table Properties
+    dialog, you can set various properties for the table, cell, row or
+    a column, e.g. background colour for table or cell, table caption,
+    table alignment, table or column width, etc.</p>
 
-    <p>Para un detallado tratamiento de varias propiedades de las tablas, se remite
-    al lector a la secci&oacute;n <a
-    href="composer_help.xhtml#formatting_your_web_pages">A&ntilde;adir tablas a sus
-    p&aacute;ginas web</a> en la documentaci&oacute;n de la ayuda de
-    &brandShortName;.</p>
+    <p>For a detailed treatment of various properties of table, the
+    reader is referred to section <a
+    href="composer_help.xhtml#formatting_your_web_pages">Adding Tables
+    to your Web Pages</a> in the &brandShortName; Help
+    documentation.</p>
 
-    <p>[ <a href="#inserting_images_and_tables">Volver al principio de la secci&oacute;n</a> ]</p>
+    <p>[ <a href="#inserting_images_and_tables">Return to beginning of
+    section</a> ]</p>
 
-    <h2 id="advanced_styles">Estilos avanzados</h2>
+    <h2 id="advanced_styles">Advanced Styles</h2>
 
-    <p>&brandShortName; permite a los usuarios crear hojas de estilos en cascada
-    con la ayuda del editor de estilos interno llamado <q>CaScadeS</q>. CaScadeS
-    tiene la capacidad de usar tanto estilos internos como externos para los
-    documentos editados. Los detalles sobre el uso de CaScadeS escapan al alcance
-    de este tutorial. Sin embargo, el usuario puede dirigirse a <a
-    href="composer_help.xhtml#using_style_sheets_for_your_web_pages">Usar hojas
-    de estilo</a> en la secci&oacute;n principal de la ayuda.</p>
+    <p>&brandShortName; allows the users to create or edit cascading style sheets
+    with the help of its inbuilt style sheet editor named
+    "CaScadeS". CaScadeS has the ability of using either internal or
+    external style sheets for documents being edited. Details on how
+    to use CaScadeS are out of scope of this tutorial. However, the
+    user is directed to <a
+    href="composer_help.xhtml#using_style_sheets_for_your_web_pages">using
+    style sheets</a> in the main Help section.</p>
 
-    <p>[ <a href="#advanced_styles">Volver al principio de la secci&oacute;n</a> ]</p>
+    <p>[ <a href="#advanced_styles">Return to beginning of section</a>
+    ]</p>
 
-    <h2 id="publishing_your_documents_basics">Publicar sus documentos - conceptos b&aacute;sicos</h2>
+    <h2 id="publishing_your_documents_basics">Publishing Your
+    Document(s)-Basics</h2>
 
-    <p>Puede publicar sus documentos usando el administrador de sitios de 
-    &brandShortName;. El administrador de sitios se puede mostrar/ocultar 
-    presionando el bot&oacute;n F9.</p>
+    <p>You can publish your documents using &brandShortName;'s built-in the Site
+    Manager. The visibility of the site manager can be toggled by
+    clicking the F9 button.</p>
 
-    <p>El administrador de sitios est&aacute; siendo reescrito y por lo tanto, 
-    esta secci&oacute;n del tutorial ha sido pospuesta hasta que sea liberada 
-    la nueva versi&oacute;n.</p>
+    <p>Site manager is being rewritten and hence this part of the
+    tutorial has been postponed till the new version is released.</p>
 
-    <p>[ <a href="#publishing_your_documents_basics">Volver al principio de la secci&oacute;n</a> ]</p>
-    
-    <div class="copyrightBox"><em>5 de desembre de 2009</em></div>
+    <p>[ <a href="#publishing_your_documents_basics">Return to
+    beginning of section</a> ]</p>
+
+    <div class="copyrightBox"><em>05 December 2009</em></div>
 
     <p>&helpCopyrightNotice;</p>
 
   </body>
-</html>  
+</html>

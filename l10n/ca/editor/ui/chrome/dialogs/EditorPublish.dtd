@@ -32,28 +32,28 @@
 
 <!-- Publish Tab Panel -->
 <!ENTITY siteList.label           "Nom del lloc web:">
-<!ENTITY siteList.tooltip         "Escull el lloc web que vol publicar">
+<!ENTITY siteList.tooltip         "Trieu el lloc web que voleu publicar">
 <!ENTITY newSiteButton.label      "Nou lloc web">
-<!ENTITY siteDirList.label        "Selecciona o escriu el nom del directori en el seu lloc web de publicació:">
-<!ENTITY siteDirList.tooltip      "Escull o entra el nom del subdirectori remot on fer la publicació">
-<!ENTITY docDirList.label         "Subdirectori del lloc web per aquesta pàgina:">
-<!ENTITY publishImgCheckbox.label "Inclou imatges o d'altres fitxers">
-<!ENTITY publishImgCheckbox.tooltip "Publica imatges i d'altres fitxers referenciats per aquesta pàgina">
-<!ENTITY sameLocationRadio.label  "Utilitza la mateixa localització com a pàgina">
-<!ENTITY sameLocationRadio.tooltip "Publica fitxers en la mateixa localització que la pàgina">
+<!ENTITY siteDirList.label        "Seleccioneu o escriviu el nom del directori en el vostre lloc web de publicació:">
+<!ENTITY siteDirList.tooltip      "Trieu o introduïu el nom del subdirectori remot on fer la publicació">
+<!ENTITY docDirList.label         "Subdirectori del lloc web per a aquesta pàgina:">
+<!ENTITY publishImgCheckbox.label "Inclou imatges o altres fitxers">
+<!ENTITY publishImgCheckbox.tooltip "Publica imatges i altres fitxers referenciats per aquesta pàgina">
+<!ENTITY sameLocationRadio.label  "Utilitza la mateixa ubicació com a pàgina">
+<!ENTITY sameLocationRadio.tooltip "Publica fitxers en la mateixa ubicació que la pàgina">
 <!ENTITY useSubdirRadio.label     "Utilitza aquest subdirectori del lloc web:">
-<!ENTITY useSubdir.tooltip        "Escull o entra un nom del subdirectori remot on es publicaran els fitxers">
-<!ENTITY chooseDirButton.label    "Escull…">
+<!ENTITY useSubdir.tooltip        "Trieu o introduïu un nom del subdirectori remot on es publicaran els fitxers">
+<!ENTITY chooseDirButton.label    "Trieu…">
 <!ENTITY pageTitle.label          "Títol de la pàgina:">
-<!ENTITY pageTitle.tooltip        "Entra un títol per a identificar la pàgina en la finestra i in bookmarks">
-<!ENTITY pageTitleExample.label   "ex.: &quot;La meva Pàgina Web&quot;">
+<!ENTITY pageTitle.tooltip        "Introduïu un títol per a identificar la pàgina en la finestra en les adreces d'interès">
+<!ENTITY pageTitleExample.label   "ex.: &quot;La meva pàgina web&quot;">
 <!ENTITY filename.label           "Nom del fitxer:">
-<!ENTITY filename.tooltip         "Entri el nom per aquest fitxer incluïnt l'extensió '.html' per a les pàgines web">
+<!ENTITY filename.tooltip         "Introduïu el nom per aquest fitxer incloent l'extensió '.html' per a les pàgines web">
 <!ENTITY filenameExample.label    "ex.,: &quot;lamevapagina.html&quot;">
 <!ENTITY relatedDocs.label        "Altres fitxers per publicar">
 <!ENTITY setDefaultButton.label   "Estableix per defecte">
-<!ENTITY setDefSiteAndDir.label   "Estableix directori i lloc web per defecte">
-<!ENTITY removeButton.label       "Suprimeix lloc web">
+<!ENTITY setDefSiteAndDir.label   "Estableix el directori i lloc web per defecte">
+<!ENTITY removeButton.label       "Suprimeix el lloc web">
 
 <!-- Settings Tab Panel -->
 <!ENTITY publishSites.label   "Llocs web de publicació">
@@ -66,12 +66,12 @@
 <!ENTITY browseUrl.label      "Adreça HTTP de la pàgina (ex.: 'http://www.elmeuservidor.com/directori/'):">
 <!ENTITY browseUrl.tooltip    "L'adreça http:// de la pàgina (no incloure el nom del fitxer)">
 <!ENTITY username.label       "Nom d'usuari:">
-<!ENTITY username.tooltip     "Nom d'usuari utilitzat per autentificar-se en el seu proveïdor d'allotjament web">
+<!ENTITY username.tooltip     "Nom d'usuari utilitzat per autenticar-se en el vostre proveïdor d'allotjament web">
 <!ENTITY password.label       "Contrasenya:">
-<!ENTITY password.tooltip     "La contrasenya associada amb el seu nom d'usuari">
-<!ENTITY savePassword.label   "Desa contrasenya">
-<!ENTITY savePassword.tooltip "Selecciona això per a desar la contrasenya de forma segura utilitzant el Gestor de Contrasenyes">
-<!ENTITY selectDirectory.label "Selecciona directori">
+<!ENTITY password.tooltip     "La contrasenya associada amb el vostre nom d'usuari">
+<!ENTITY savePassword.label   "Desa la contrasenya">
+<!ENTITY savePassword.tooltip "Seleccioneu-ho per desar la contrasenya de forma segura utilitzant el gestor de contrasenyes">
+<!ENTITY selectDirectory.label "Seleccioneu un directori">
 
 <!-- new strings -->
 <!ENTITY generalSettings.label      "Paràmetres generals">
