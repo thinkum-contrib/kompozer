@@ -48,7 +48,7 @@
 <!ENTITY preferencesCmd.key "O">
 <!ENTITY preferencesCmd.label "Preferências">
 <!ENTITY proxy.accesskey "C">
-<!ENTITY proxy.label "Configurações de proxy...">
+<!ENTITY proxy.label "Configurações de proxy…">
 <!ENTITY redoCmd.accesskey "R">
 <!ENTITY redoCmd.key "Y">
 <!ENTITY redoCmd.label "Refazer">
@@ -67,3 +67,8 @@
 <!ENTITY viewToolbarsMenu.accesskey "B">
 <!ENTITY viewToolbarsMenu.label "Barras de ferramentas">
 <!ENTITY whatNewCmd.label "Novidades">
+<!ENTITY wpad.label "Ligado (mediador: descoberta automática)">
+<!ENTITY wpad.accesskey "d">
+<!ENTITY bidiSwitchTextDirectionItem.label "Mudar o sentido do texto">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "x">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey "X">

@@ -3,17 +3,17 @@
 <!ENTITY bookmarkFrameCmd.accesskey "C">
 <!ENTITY bookmarkFrameCmd.label "Criar marcador">
 <!ENTITY bookmarkLinkCmd.accesskey "l">
-<!ENTITY bookmarkLinkCmd.label "Criar marcador para este link">
+<!ENTITY bookmarkLinkCmd.label "Criar marcador para esta ligação">
 <!ENTITY bookmarkPageCmd.accesskey "m">
 <!ENTITY bookmarkPageCmd.label "Criar marcador">
 <!ENTITY copyCmd.accesskey "C">
 <!ENTITY copyCmd.label "Copiar">
 <!ENTITY copyEmailCmd.accesskey "a">
-<!ENTITY copyEmailCmd.label "Copiar email">
+<!ENTITY copyEmailCmd.label "Copiar E-mail">
 <!ENTITY copyImageCmd.accesskey "r">
 <!ENTITY copyImageCmd.label "Copiar endereço da imagem">
 <!ENTITY copyLinkCmd.accesskey "o">
-<!ENTITY copyLinkCmd.label "Copiar endereço do link">
+<!ENTITY copyLinkCmd.label "Copiar endereço da ligação">
 <!ENTITY cutCmd.accesskey "t">
 <!ENTITY cutCmd.label "Recortar">
 <!ENTITY deleteCmd.accesskey "x">
@@ -25,23 +25,23 @@
 <!ENTITY goForwardCmd.accesskey "A">
 <!ENTITY goForwardCmd.label "Avançar">
 <!ENTITY metadataCmd.accesskey "t">
-<!ENTITY metadataCmd.label "Propriedades do objeto">
+<!ENTITY metadataCmd.label "Propriedades do objecto">
 <!ENTITY openFrameCmd.accesskey "A">
 <!ENTITY openFrameCmd.label "Abrir quadro em nova janela">
 <!ENTITY openFrameCmdInTab.accesskey "n">
-<!ENTITY openFrameCmdInTab.label "Abrir quadro em nova aba">
+<!ENTITY openFrameCmdInTab.label "Abrir quadro em novo seprador">
 <!ENTITY openLinkCmd.accesskey "A">
 <!ENTITY openLinkCmd.label "Abrir em nova janela">
 <!ENTITY openLinkCmdInTab.accesskey "n">
-<!ENTITY openLinkCmdInTab.label "Abrir em nova aba">
+<!ENTITY openLinkCmdInTab.label "Abrir em novo separador">
 <!ENTITY openLinkInWindowCmd.accesskey "b">
 <!ENTITY openLinkInWindowCmd.label "Abrir">
 <!ENTITY pasteCmd.accesskey "o">
 <!ENTITY pasteCmd.label "Colar">
 <!ENTITY popupWindowAllowCmd.accesskey "">
-<!ENTITY popupWindowAllowCmd.label "Desbloquear popups deste site">
+<!ENTITY popupWindowAllowCmd.label "Desbloquear janelas espontâneas deste sítio">
 <!ENTITY popupWindowRejectCmd.accesskey "">
-<!ENTITY popupWindowRejectCmd.label "Bloquear popups deste site">
+<!ENTITY popupWindowRejectCmd.label "Bloquear janelas espontâneas deste sítio">
 <!ENTITY redoCmd.accesskey "R">
 <!ENTITY redoCmd.label "Refazer">
 <!ENTITY reloadCmd.accesskey "R">
@@ -50,24 +50,22 @@
 <!ENTITY reloadFrameCmd.accesskey "R">
 <!ENTITY reloadFrameCmd.label "Recarregar quadro">
 <!ENTITY saveFrameCmd.accesskey "v">
-<!ENTITY saveFrameCmd.label "Salvar quadro como...">
+<!ENTITY saveFrameCmd.label "Guardar quadro como…">
 <!ENTITY saveImageCmd.accesskey "i">
-<!ENTITY saveImageCmd.label "Salvar imagem como...">
+<!ENTITY saveImageCmd.label "Guardar imagem como…">
 <!ENTITY saveLinkCmd.accesskey "c">
-<!ENTITY saveLinkCmd.label "Salvar link como...">
+<!ENTITY saveLinkCmd.label "Guardar ligação como…">
 <!ENTITY savePageCmd.accesskey "l">
 <!ENTITY savePageCmd.commandkey "s">
-<!ENTITY savePageCmd.label "Salvar como...">
+<!ENTITY savePageCmd.label "Guardar como…">
 <!ENTITY search.accesskey "P">
 <!ENTITY selectAllCmd.accesskey "S">
-<!ENTITY selectAllCmd.label "Selecionar tudo">
+<!ENTITY selectAllCmd.label "Seleccionar tudo">
 <!ENTITY setWallpaperCmd.accesskey "u">
 <!ENTITY setWallpaperCmd.label "Definir como plano de fundo">
 <!ENTITY showOnlyThisFrameCmd.accesskey "M">
 <!ENTITY showOnlyThisFrameCmd.label "Maximizar somente este quadro">
-<!ENTITY spellAddToDictionary.label "Add to Dictionary">
-<!ENTITY spellSuggestions.accesskey "S">
-<!ENTITY spellSuggestions.label "Spelling Suggestions">
+<!ENTITY spellAddToDictionary.label "Adicionar ao dicionário">
 <!ENTITY stopCmd.accesskey "P">
 <!ENTITY stopCmd.label "Parar">
 <!ENTITY thisFrameMenu.accesskey "q">
@@ -75,7 +73,7 @@
 <!ENTITY undoCmd.accesskey "D">
 <!ENTITY undoCmd.label "Desfazer">
 <!ENTITY viewBGImageCmd.accesskey "x">
-<!ENTITY viewBGImageCmd.label "Exibir plano de fundo">
+<!ENTITY viewBGImageCmd.label "Exibir o plano de fundo">
 <!ENTITY viewFrameInfoCmd.accesskey "o">
 <!ENTITY viewFrameInfoCmd.label "Propriedades do quadro">
 <!ENTITY viewFrameSourceCmd.accesskey "f">
@@ -88,4 +86,22 @@
 <!ENTITY viewPageSourceCmd.label "Código-fonte">
 <!ENTITY viewPartialSourceCmd.accesskey "f">
 <!ENTITY viewPartialSourceForMathMLCmd.label "Código-fonte MathML">
-<!ENTITY viewPartialSourceForSelectionCmd.label "Código-fonte da seleção">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Código-fonte da selecção">
+<!ENTITY goUpCmd.label "Para cima">
+<!ENTITY goUpCmd.accesskey "c">
+<!ENTITY savePageAsCmd.label "Guardar como…">
+<!ENTITY saveFrameAsCmd.label "Guardar o quadro como…">
+<!ENTITY saveLinkAsCmd.label "Guardar a ligação como…">
+<!ENTITY saveImageAsCmd.label "Guardar a imagem como…">
+<!ENTITY bidiSwitchPageDirectionItem.label "Mudar o sentido da página">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey "m">
+<!ENTITY bidiSwitchTextDirectionItem.label "Mudar o sentido do texto">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "s">
+<!ENTITY spellAddToDictionary.accesskey "A">
+<!ENTITY spellEnable.label "Verificar a ortografia">
+<!ENTITY spellEnable.accesskey "V">
+<!ENTITY spellNoSuggestions.label "(Nenhuma sugestão)">
+<!ENTITY spellDictionaries.label "Línguas">
+<!ENTITY spellDictionaries.accesskey "L">
+<!ENTITY spellAddDictionaries.label "Adicionar dicionários…">
+<!ENTITY spellAddDictionaries.accesskey "d">

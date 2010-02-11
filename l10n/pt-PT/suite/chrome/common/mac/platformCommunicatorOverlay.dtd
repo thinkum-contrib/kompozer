@@ -5,8 +5,18 @@
 <!ENTITY findTypeTextCmd.key "">
 <!ENTITY historyCmd.key "H">
 <!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printSetupCmd.label "Configurar Página...">
+<!ENTITY printSetupCmd.label "Configurar Página…">
 <!ENTITY quitApplicationCmd.key "Q">
 <!ENTITY quitApplicationCmd.label "Sair">
 <!ENTITY redoCmd.key "Z">
 <!ENTITY redoCmd.label "Refazer">
+<!ENTITY minimizeWindowCmd.label "Minimizar">
+<!ENTITY minimizeWindowCmd.key "M">
+<!ENTITY zoomWindowCmd.label "Ampliação">
+<!ENTITY openHelpCmd.label "Ajuda de &brandShortName;">
+<!ENTITY openHelpCmd.accesskey "e">
+<!ENTITY openHelpFrontend.key "?">
+<!ENTITY openHelpFrontend.modifiers "accel">
+<!ENTITY openHelpCmd.key "/">
+<!ENTITY openHelpCmd.modifiers "accel,shift">
+<!ENTITY openHelp2Cmd.key "VK_HELP">

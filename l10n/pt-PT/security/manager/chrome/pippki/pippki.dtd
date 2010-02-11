@@ -124,8 +124,8 @@
 <!-- Strings for the CreateCertInfo dialog  -->
 
 <!ENTITY createCertInfo.title "A gerar uma chave privada">
-<!ENTITY createCertInfo.msg1 "Geração da chave em curso... Isto pode demorar alguns minutos...">
-<!ENTITY createCertInfo.msg2 "Por favor aguarde...">
+<!ENTITY createCertInfo.msg1 "Geração da chave em curso… Isto pode demorar alguns minutos…">
+<!ENTITY createCertInfo.msg2 "Por favor aguarde…">
 <!-- Form Signing confirmation prompt -->
 
 <!ENTITY formSigning.title "Pedido de assinatura de texto">

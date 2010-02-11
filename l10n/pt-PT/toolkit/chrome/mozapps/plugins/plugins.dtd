@@ -1,7 +1,7 @@
 <!ENTITY pluginWizard.title "Serviço de pesquisa de Plugin">
 <!ENTITY pluginWizard.firstPage.title "Bem-vindo ao &pluginWizard.title;">
 
-<!ENTITY pluginWizard.checkingForPlugins.description.label "O &brandShortName; está a procurar por plugins disponíveis...">
+<!ENTITY pluginWizard.checkingForPlugins.description.label "O &brandShortName; está a procurar por plugins disponíveis…">
 
 <!ENTITY pluginWizard.availablePluginsPage.title "Transferência de plugin">
 <!ENTITY pluginWizard.availablePluginsPage.description.label "Estão disponíveis os seguintes plugins:">
@@ -13,7 +13,7 @@
 <!ENTITY pluginWizard.licensePage.deny.label "Não concordo (o plugin não será instalado).">
 
 <!ENTITY pluginWizard.installPluginsPage.title "A instalar os plugins">
-<!ENTITY pluginWizard.installPluginsPage.description.label "O &brandShortName; está a instalar os plugins...">
+<!ENTITY pluginWizard.installPluginsPage.description.label "O &brandShortName; está a instalar os plugins…">
 
 <!ENTITY pluginWizard.finalPage.description.label "O &brandShortName; terminou de instalar os plugins em falta:">
 

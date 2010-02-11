@@ -1,4 +1,10 @@
-<!ENTITY Custom.label "Personalizar...">
+<!ENTITY page.accesskey "a">
+<!ENTITY scale.accesskey "l">
+<!ENTITY homearrow.tooltip "Primeira página">
+<!ENTITY endarrow.tooltip "Última página">
+<!ENTITY rightarrow.tooltip "Página seguinte">
+<!ENTITY leftarrow.tooltip "Página anterior">
+<!ENTITY Custom.label "Personalizar…">
 <!ENTITY ShrinkToFit.label "Diminuir até caber">
 <!ENTITY close.accesskey "F">
 <!ENTITY close.label "Fechar">
@@ -20,10 +26,10 @@
 <!ENTITY p90.label "90&#037;">
 <!ENTITY page.label "Página:">
 <!ENTITY pageSetup.accesskey "C">
-<!ENTITY pageSetup.label "Configurar...">
+<!ENTITY pageSetup.label "Configurar…">
 <!ENTITY percent.label "&#037;">
 <!ENTITY portrait.accesskey "R">
 <!ENTITY portrait.label "Retrato">
 <!ENTITY print.accesskey "I">
-<!ENTITY print.label "Imprimir...">
+<!ENTITY print.label "Imprimir…">
 <!ENTITY scale.label "Escala:">

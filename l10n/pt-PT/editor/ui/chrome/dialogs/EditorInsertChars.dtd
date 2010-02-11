@@ -1,11 +1,13 @@
-<!ENTITY accentLower.label "Minúsculas acentuadas">
-<!ENTITY accentUpper.label "Maiúsculas acentuadas">
+<!ENTITY accentLower.label "Minúsculo acentuado">
+<!ENTITY accentUpper.label "Maiúsculo acentuado">
 <!ENTITY category.label "Categoria">
 <!ENTITY character.accessKey "C">
 <!ENTITY character.label "Carácter:">
-<!ENTITY commonSymbols.label "Símbolos comuns">
+<!ENTITY commonSymbols.label "Símbolos gerais">
 <!ENTITY letter.accessKey "L">
 <!ENTITY letter.label "Letra:">
-<!ENTITY otherLower.label "Outras minúsculas">
-<!ENTITY otherUpper.label "Outras maiúsculas">
+<!ENTITY otherLower.label "Outro minúsculos">
+<!ENTITY otherUpper.label "Outro maiúsculos">
 <!ENTITY windowTitle.label "Inserir carácter">
+<!ENTITY insertButton.label "Inserir">
+<!ENTITY closeButton.label "Fechar">

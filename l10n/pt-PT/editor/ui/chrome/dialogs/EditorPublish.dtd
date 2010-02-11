@@ -1,9 +1,9 @@
 <!ENTITY browseUrl.label 'Endereço HTTP da sua página (exemplo: "http://www.servidor.pt/omeunome"):'>
 <!ENTITY browseUrl.tooltip "O endereço HTTP:// do directório home (não incluir o nome do arquivo)">
-<!ENTITY chooseDirButton.label "Seleccionar...">
+<!ENTITY chooseDirButton.label "Seleccionar…">
 <!ENTITY docDirList.label "Subdirectório do sítio para esta página:">
 <!ENTITY filename.label "Nome do ficheiro:">
-<!ENTITY filename.tooltip 'Fornceça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
+<!ENTITY filename.tooltip 'Forneça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
 <!ENTITY filenameExample.label "exemplo: &quot;omeusitio.html&quot;">
 <!ENTITY loginInfo.label "Informações de início de sessão">
 <!ENTITY newSiteButton.label "Novo sítio">
@@ -22,11 +22,12 @@
 <!ENTITY sameLocationRadio.tooltip "Publicar ficheiros no mesmo endereço da página">
 <!ENTITY savePassword.label "Guardar senha">
 <!ENTITY savePassword.tooltip "Seleccione para guardar a sua senha com segurança usando o gestor de senhas">
-<!ENTITY selectDirectory.label "Seleccionar directório...">
+<!ENTITY selectDirectory.label "Seleccionar directório…">
 <!ENTITY serverInfo.label "Informações do servidor">
 <!ENTITY setDefSiteAndDir.label "Definir como sítio e directório padrão">
 <!ENTITY setDefaultButton.label "Definir como padrão">
 <!ENTITY settingsTab.label "Configurações">
+<!ENTITY publishButton.label "Publicar">
 <!ENTITY siteDirList.label "Seleccione ou introduza o nome do directório no sítio de publicação:">
 <!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome do subdirectório remoto para publicar">
 <!ENTITY siteList.label "Nome do sítio:">
@@ -41,3 +42,20 @@
 <!ENTITY username.tooltip "O nome de utilizador que você utiliza com o seu fornecedor de alojamento">
 <!ENTITY windowTitle.label "Publicar página">
 <!ENTITY windowTitleSettings.label "Configurações de publicação">
+<!ENTITY publishButton.label
+<!ENTITY generalSettings.label "Configuração">
+<!ENTITY ftpSettings.label "FTP">
+<!ENTITY localSettings.label "Definições locais">
+<!ENTITY siteDirectory.label "Pasta do sítio">
+<!ENTITY siteDirectory.tooltip "A pasta do seu disco rígido em que se encontra o seu sítio">
+<!ENTITY browsePrefix.label "Prefixo: ">
+<!ENTITY browsePrefix.tooltip "Apagar o prefixo da parte de FTP do URL, porexemplo /public_html">
+<!ENTITY connection.label "Tipo de ligação">
+<!ENTITY port.label "Porta: ">
+<!ENTITY pasv.label "Modo passivo">
+<!ENTITY security.label "Segurança">
+<!ENTITY none.label "Nenhuma">
+<!ENTITY authtls.label "Autenticação TLS (boa)">
+<!ENTITY authssl.label "Autenticação SSL (melhor)">
+<!ENTITY implicit.label "SSL implícito (ainda melhor)">
+<!ENTITY treesync.label "Manter a estrutura de pastas sincronizada durante a navegação">

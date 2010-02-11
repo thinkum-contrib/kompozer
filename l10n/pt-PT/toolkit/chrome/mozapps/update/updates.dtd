@@ -4,7 +4,7 @@
 <!ENTITY window.macWidth "39em">
 
 <!ENTITY checking.title "A verificar actualizações">
-<!ENTITY checking.label "O &brandShortName; está a verificar se existem actualizações...">
+<!ENTITY checking.label "O &brandShortName; está a verificar se existem actualizações…">
 
 <!ENTITY cancel.label "Cancelar">
 <!ENTITY cancel.accesskey "C">
@@ -38,8 +38,8 @@
 
 
 <!ENTITY downloading.title "A transferir actualização">
-<!ENTITY downloading.intro "A transferir a actualização...">
-<!ENTITY connecting.label "A ligar ao servidor de actualizações...">
+<!ENTITY downloading.intro "A transferir a actualização…">
+<!ENTITY connecting.label "A ligar ao servidor de actualizações…">
 <!ENTITY verificationFailedText.label "O &brandShortName; foi incapaz de verificar a integridade da actualização parcial que transferiu, pelo que está a transferir agora o pacote completo da actualização.">
 
 <!ENTITY details.link "Detalhes">
@@ -68,7 +68,7 @@
 
 <!ENTITY installed.title "Actualização instalada">
 <!ENTITY installed.intro "A actualização foi instalada com sucesso.">
-<!ENTITY whatsnew.label "Ler mais sobre o que há de novo...">
+<!ENTITY whatsnew.label "Ler mais sobre o que há de novo…">
 
 <!ENTITY update.details.label "Detalhes">
 <!ENTITY update.installedOn.label "Instalado em:">

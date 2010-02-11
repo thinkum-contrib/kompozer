@@ -39,7 +39,7 @@
 
 <!ENTITY validation.crl.caption "CRL">
 <!ENTITY validation.crl.description "Utilizar o Gestor CRL para gerir a lista de revogação de certificados (CRL) que estão armazenados na sua base de dados de certificados.">
-<!ENTITY validation.managecrls.button "Gerir CRLs...">
+<!ENTITY validation.managecrls.button "Gerir CRLs…">
 <!ENTITY validation.managecrls.accesskey "G">
 <!ENTITY validation.crlmanager.label "Gerir CRLs">
 <!ENTITY validation.crlname.label "Nome">

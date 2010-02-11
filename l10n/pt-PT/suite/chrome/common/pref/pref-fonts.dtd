@@ -1,9 +1,17 @@
-<!ENTITY calibrate.instructions "O comprimento da linha acima é de:">
-<!ENTITY calibrateDialog.title "Calibrar resolução">
 <!ENTITY cursive.accesskey "v">
 <!ENTITY cursive.label "Cursiva:">
 <!ENTITY fantasy.accesskey "a">
 <!ENTITY fantasy.label "Fantasia:">
+<!ENTITY pref.fonts.title "Tipos de letra">
+<!ENTITY font.langGroup.armenian "Arménio">
+<!ENTITY font.langGroup.bengali "Bengali">
+<!ENTITY font.langGroup.canadian "Canadiano">
+<!ENTITY font.langGroup.ethiopic "Etíope">
+<!ENTITY font.langGroup.georgian "Georgiano">
+<!ENTITY font.langGroup.gujarati "Gurajati">
+<!ENTITY font.langGroup.gurmukhi "Gurmukhi">
+<!ENTITY font.langGroup.khmer "Khmer">
+<!ENTITY font.langGroup.malayalam "Malayalam">
 <!ENTITY font.langGroup.arabic "Árabe">
 <!ENTITY font.langGroup.baltic "Báltico">
 <!ENTITY font.langGroup.cyrillic "Cirílico">
@@ -21,34 +29,25 @@
 <!ENTITY font.langGroup.trad-chinese-hk "Traditional Chinese (Hong Kong)">
 <!ENTITY font.langGroup.turkish "Turco">
 <!ENTITY font.langGroup.unicode "Unicode">
-<!ENTITY font.langGroup.user-def "Definido pelo usuário">
+<!ENTITY font.langGroup.user-def "Definido pelo utilizador">
 <!ENTITY fontsize.units "pontos">
-<!ENTITY header2 "Quando uma página especificar as próprias fontes">
-<!ENTITY lHeader "Fontes e codificações">
+<!ENTITY header2 "Quando uma página especificar os próprios tipos de letra">
 <!ENTITY language.accesskey "F">
-<!ENTITY language.label "Fontes padrão para:">
+<!ENTITY language.label "Tipos de letra padrão para:">
 <!ENTITY minSize.accesskey "a">
-<!ENTITY minSize.label "Tam. mínimo permitido:">
+<!ENTITY minSize.label "Tamamnho mínimo permitido:">
 <!ENTITY minSize.none "Nenhum">
 <!ENTITY monospace.accesskey "M">
 <!ENTITY monospace.label "Monoespaçada:">
-<!ENTITY newLanguages.label "Novos idiomas podem ser configurados usando a seção Idiomas.">
+<!ENTITY newLanguages.label "Novos idiomas podem ser configurados usando a secção Idiomas.">
 <!ENTITY proportional.accesskey "P">
 <!ENTITY proportional.label "Proporcional:">
-<!ENTITY resolution.accesskey "R">
-<!ENTITY resolution.dpi "dpi">
-<!ENTITY resolution.dpival "$val &resolution.dpi;">
-<!ENTITY resolution.label "Resolução do vídeo:">
-<!ENTITY resolution.other "Outra...">
-<!ENTITY resolution.system.label "Configuração do sistema">
 <!ENTITY sans-serif.accesskey "S">
 <!ENTITY sans-serif.label "Sem serifa:">
 <!ENTITY serif.accesskey "C">
 <!ENTITY serif.label "Com serifa:">
 <!ENTITY sizes.label "Tam. (pontos):">
 <!ENTITY typefaces.label "Nome:">
-<!ENTITY units.centimetres "centímetros">
-<!ENTITY units.inches "polegadas">
 <!ENTITY useDefaultFont.accesskey "U">
 <!ENTITY useDefaultFont.label "Usar as fontes padrão e ignorar as fontes especificadas pela página">
 <!ENTITY useDefaultFontSansSerif.label "Sem serifa">
@@ -59,3 +58,4 @@
 <!ENTITY useDocFontNonDynamic.label "Usar as fontes escolhidas pela página">
 <!ENTITY useDocumentFonts.accesskey "o">
 <!ENTITY useDocumentFonts.label "Permitir que os documentos usem outras fontes">
+

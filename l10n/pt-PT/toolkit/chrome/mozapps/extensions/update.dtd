@@ -11,8 +11,8 @@
 <!ENTITY mismatch.bottom.label    "&brandShortName; pode verificar se há versões compatíveis para estes extras.">
 
 <!ENTITY  checking.wizard.title           "A verificar se existem extras compatíveis">
-<!ENTITY  checking.top.label              "A verificar se existem actualizações para os seus extras incompatíveis...">
-<!ENTITY  checking.status                 "Isto pode demorar alguns minutos...">
+<!ENTITY  checking.top.label              "A verificar se existem actualizações para os seus extras incompatíveis…">
+<!ENTITY  checking.status                 "Isto pode demorar alguns minutos…">
 
 <!ENTITY  found.wizard.title              "Encontrados Extras Compatíveis">
 <!ENTITY  found.top.label                 "Escolha os extras que deseja instalar:">
@@ -21,7 +21,7 @@
 <!ENTITY  found.enableXPInstall.accesskey "P">
 
 <!ENTITY  installing.wizard.title         "A Instalar Extras Compatíveis">
-<!ENTITY  installing.top.label            "A transferir e instalar actualizações para os seus extras...">
+<!ENTITY  installing.top.label            "A transferir e instalar actualizações para os seus extras…">
 
 <!ENTITY  noupdates.wizard.title          "Não Foram Encontrados Extras Compatíveis">
 <!ENTITY  noupdates.intro.desc            "&brandShortName; não encontrou actualizações para os seus
@@ -45,7 +45,7 @@
 <!ENTITY  versioninfo.wizard.title        "A Verificar Compatibilidade de Extras">
 <!ENTITY  versioninfo.top.label           "A verificar a compatibilidade dos seus extras com esta
                                            versão do &brandShortName;.">
-<!ENTITY  versioninfo.waiting             "Isto pode demorar alguns minutos...">
+<!ENTITY  versioninfo.waiting             "Isto pode demorar alguns minutos…">
 
 <!ENTITY  installerrors.wizard.title      "Problemas na Instalação de Actualizações">
 <!ENTITY  installerrors.intro.label       "&brandShortName; encontrou problemas ao actualizar alguns dos seus extras.">
@@ -53,7 +53,7 @@
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Pressione Concluir para iniciar o  &brandShortName;.">
 <!ENTITY  enableChecking.label            "Permitir ao &brandShortName; verificar se existem actualizações.">
-<!ENTITY  details.label                   "Detalhes...">
+<!ENTITY  details.label                   "Detalhes…">
 <!ENTITY  details.accesskey               "D">
 
 

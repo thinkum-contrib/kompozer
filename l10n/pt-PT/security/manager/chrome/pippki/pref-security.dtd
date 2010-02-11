@@ -37,14 +37,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY resetsettings.label "Repor definições">
-<!ENTITY resetpreferences.label "Repor preferências...">
+<!ENTITY resetpreferences.label "Repor preferências…">
 <!ENTITY managecerts.caption "Gerir certificados">
 <!ENTITY managecerts.text "Utilizar o gestor de certificados para gerir os seus certificados pessoais, assim como os das outras pessoas e autoridades de certificação.">
-<!ENTITY managecerts.button "Gerir certificados...">
+<!ENTITY managecerts.button "Gerir certificados…">
 <!ENTITY managecerts.accesskey "G">
 <!ENTITY managedevices.caption "Gerir dispositivos de segurança">
 <!ENTITY managedevices.text "Utilize este botão para gerir os seus dispositivos de segurança, como smart cards.">
-<!ENTITY managedevices.button "Gerir dispositivos de segurança...">
+<!ENTITY managedevices.button "Gerir dispositivos de segurança…">
 <!ENTITY managedevices.accesskey "s">
 
 <!ENTITY ssl.label "SSL">
