@@ -25,11 +25,11 @@
 <!-- This button is for the progressive disclosure of additional editing functionality -->
 
 <!-- These strings are for use specifically in the editor's link dialog. -->
-<!ENTITY windowTitle.label  "Tallenna merkistökoodauksella">
-<!ENTITY documentTitleTitle.label  "Sivun otsikko">
-<!ENTITY documentCharsetTitle.label  "Merkistökoodaus">
-<!ENTITY documentCharsetDesc.label  "Valitse merkistökoodaus, jota käytetään dokumenttia tallennettaessa:">
-<!ENTITY documentExportToText.label  "Vie tekstitiedostoon">
+<!ENTITY windowTitle.label "Tallenna merkistökoodauksella">
+<!ENTITY documentTitleTitle.label "Sivun otsikko">
+<!ENTITY documentCharsetTitle.label "Merkistökoodaus">
+<!ENTITY documentCharsetDesc.label "Valitse merkistökoodaus, jota käytetään dokumenttia tallennettaessa:">
+<!ENTITY documentExportToText.label "Vie tekstitiedostoon">
 
 
 

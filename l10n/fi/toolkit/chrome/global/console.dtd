@@ -35,31 +35,31 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY errorConsole.title  "Virhekonsoli">
+<!ENTITY errorConsole.title "Virhekonsoli">
 
-<!ENTITY errFile.label    "Lähdetiedosto:">
-<!ENTITY errLine.label    "Rivi:">
-<!ENTITY errColumn.label  "Sarake:">
+<!ENTITY errFile.label   "Lähdetiedosto:">
+<!ENTITY errLine.label   "Rivi:">
+<!ENTITY errColumn.label "Sarake:">
 
-<!ENTITY all.label           "Kaikki">
-<!ENTITY all.accesskey       "K">
-<!ENTITY errors.label        "Virheet">
-<!ENTITY errors.accesskey    "V">
-<!ENTITY warnings.label      "Varoitukset">
-<!ENTITY warnings.accesskey  "a">
-<!ENTITY messages.label      "Viestit">
-<!ENTITY messages.accesskey  "V">
-<!ENTITY clear.label         "Tyhjennä">
-<!ENTITY clear.accesskey     "T">
-<!ENTITY evaluate.label      "Suorita">
+<!ENTITY all.label          "Kaikki">
+<!ENTITY all.accesskey      "K">
+<!ENTITY errors.label       "Virheet">
+<!ENTITY errors.accesskey   "V">
+<!ENTITY warnings.label     "Varoitukset">
+<!ENTITY warnings.accesskey "a">
+<!ENTITY messages.label     "Viestit">
+<!ENTITY messages.accesskey "V">
+<!ENTITY clear.label        "Tyhjennä">
+<!ENTITY clear.accesskey    "T">
+<!ENTITY evaluate.label     "Suorita">
 
-<!ENTITY copyCmd.label        "Kopioi">
-<!ENTITY copyCmd.accesskey    "K">
-<!ENTITY copyCmd.commandkey   "C">
-<!ENTITY sortFirst.label      "Järjestetty ensimmäisestä viimeiseen">
-<!ENTITY sortFirst.accesskey  "J">
-<!ENTITY sortLast.label       "Järjestetty viimeisestä ensimmäiseen">
-<!ENTITY sortLast.accesskey   "v">
-<!ENTITY closeCmd.commandkey  "w">
-<!ENTITY focus1.commandkey    "l">
-<!ENTITY focus2.commandkey    "d">
+<!ENTITY copyCmd.label       "Kopioi">  
+<!ENTITY copyCmd.accesskey   "K"> 
+<!ENTITY copyCmd.commandkey  "C"> 
+<!ENTITY sortFirst.label     "Järjestetty ensimmäisestä viimeiseen">
+<!ENTITY sortFirst.accesskey "J">
+<!ENTITY sortLast.label      "Järjestetty viimeisestä ensimmäiseen">
+<!ENTITY sortLast.accesskey  "v">
+<!ENTITY closeCmd.commandkey "w">  
+<!ENTITY focus1.commandkey   "l">  
+<!ENTITY focus2.commandkey   "d">  

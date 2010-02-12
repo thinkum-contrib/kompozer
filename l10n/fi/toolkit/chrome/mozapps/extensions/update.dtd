@@ -3,7 +3,6 @@
 <!ENTITY  offline.title                   "&brandShortName; ei ole yhteystilassa">
 <!ENTITY  offline.description             "&brandShortName;in täytyy olla yhteystilassa, jotta asennetuille
                                            lisäosille voitaisiin hakea yhteensopivuuspäivityksiä.">
-
 <!ENTITY  offline.toggleOffline.label     "Siirry yhteystilaan.">
 <!ENTITY  offline.toggleOffline.accesskey "S">
 
@@ -53,7 +52,6 @@
 
 <!ENTITY  installerrors.wizard.title      "Päivitysten asentamisongelmia">
 <!ENTITY  installerrors.intro.label       "Joidenkin lisäosien päivittämisessä tapahtui virhe.">
-
 
 <!-- general strings used by several of the finish pages -->
 <!ENTITY  clickFinish.label               "Jatka &brandShortName;in käynnistystä napsauttamalla Valmis.">

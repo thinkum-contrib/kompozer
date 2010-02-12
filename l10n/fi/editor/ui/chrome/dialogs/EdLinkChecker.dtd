@@ -22,9 +22,9 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label      "Tarkista kuvien ja linkkien sijainnit">
-<!ENTITY urlsNotFound.label     "Seuraavia kuvien tai linkkien sijainteja ei löydetty:">
-<!ENTITY notFoundKey.label      "(&quot;X&quot; = tiedostoa ei löytynyt, &quot;?&quot; = yhteys aikakatkaistiin.)">
-<!ENTITY changeUrlButton.label  "Vaihda valitun kohteen sijaintia">
-<!ENTITY succeeded.label        "Onnistui">
-<!ENTITY failed.label           "Epäonnistui">
+<!ENTITY windowTitle.label     "Tarkista kuvien ja linkkien sijainnit">
+<!ENTITY urlsNotFound.label    "Seuraavia kuvien tai linkkien sijainteja ei löydetty:">
+<!ENTITY notFoundKey.label     "(&quot;X&quot; = tiedostoa ei löytynyt, &quot;?&quot; = yhteys aikakatkaistiin.)">
+<!ENTITY changeUrlButton.label "Vaihda valitun kohteen sijaintia">
+<!ENTITY succeeded.label       "Onnistui">
+<!ENTITY failed.label          "Epäonnistui">

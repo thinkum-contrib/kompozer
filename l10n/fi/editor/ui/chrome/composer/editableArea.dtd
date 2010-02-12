@@ -35,17 +35,17 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title                  "Lisää muokattava alue">
+<!ENTITY window.title                 "Lisää muokattava alue">
 
-<!ENTITY areaName.label                "Alueen nimi">
-<!ENTITY provideId.label               "Anna muokattavan alueen nimi:">
-<!ENTITY warning.label                 "Varoitus: nimi on jo käytössä!">
+<!ENTITY areaName.label               "Alueen nimi">
+<!ENTITY provideId.label              "Anna muokattavan alueen nimi:">
+<!ENTITY warning.label                "Varoitus: nimi on jo käytössä!">
 
-<!ENTITY areaType.label                "Alueen tyyppi">
-<!ENTITY flowAreaRadio.label           "Tekstin virtaus">
-<!ENTITY blockAreaRadio.label          "Lohko">
+<!ENTITY areaType.label               "Alueen tyyppi">
+<!ENTITY flowAreaRadio.label          "Tekstin virtaus">
+<!ENTITY blockAreaRadio.label         "Lohko">
 
-<!ENTITY options.label                 "Ominaisuudet">
-<!ENTITY optionalAreaCheckbox.label    "Alue on vapaaehtoinen">
-<!ENTITY repeatableAreaCheckbox.label  "Alue on toistettavissa">
-<!ENTITY movableAreaCheckbox.label     "Alue on siirrettävä">
+<!ENTITY options.label                "Ominaisuudet">
+<!ENTITY optionalAreaCheckbox.label   "Alue on vapaaehtoinen">
+<!ENTITY repeatableAreaCheckbox.label "Alue on toistettavissa">
+<!ENTITY movableAreaCheckbox.label    "Alue on siirrettävä">

@@ -35,14 +35,16 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title  "Merkkauksen siistijä">
+<!ENTITY window.title "Merkkauksen siistijä">
 
 <!ENTITY trailingBR.label  "Poista &lt;br&gt;-tagit kappaleiden lopusta">
-<!ENTITY emptyBlocks.label  "Poista tyhjät lohkot">
+<!ENTITY emptyBlocks.label "Poista tyhjät lohkot">
 <!ENTITY emptyCells.label  "Poista tasausmääritykset tyhjistä taulukon soluista">
-<!ENTITY nestedLists.label  "Korjaa sisäkkäiset luettelot">
+<!ENTITY nestedLists.label "Korjaa sisäkkäiset luettelot">
+<!ENTITY localUrls.label   "Muuta paikalliset URL:t suhteellisiksi">
 
-<!ENTITY cleanUp.label  "Siisti">
+<!ENTITY cleanUp.label "Siisti">
+<!ENTITY close.label   "Sulje">
 
-<!ENTITY actionColumnHeader.label  "Toiminto">
-<!ENTITY reportColumnHeader.label  "Raportti">
+<!ENTITY actionColumnHeader.label "Toiminto">
+<!ENTITY reportColumnHeader.label "Raportti">

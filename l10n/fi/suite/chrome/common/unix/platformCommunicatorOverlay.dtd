@@ -1,12 +1,24 @@
-<!ENTITY accel.emacs_conflict "accel,shift">
-<!ENTITY closeCmd.accesskey "c">
-<!ENTITY closeCmd.key "W">
-<!ENTITY closeCmd.label "Close">
-<!ENTITY findTypeLinksCmd.key "'">
-<!ENTITY findTypeTextCmd.key "/">
-<!ENTITY quitApplicationCmd.accesskey "L">
-<!ENTITY quitApplicationCmd.key "Q">
-<!ENTITY quitApplicationCmd.label "Lopeta">
-<!ENTITY redoCmd.accesskey "T">
-<!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.label "Tee uudelleen">
+<!-- unix -->
+<!-- LOCALIZATION NOTE : FILE Do not translate all the Cmd.key and accesskey --> 
+
+<!ENTITY closeCmd.label                "Close">  
+<!ENTITY closeCmd.key                  "W">  
+<!ENTITY closeCmd.accesskey            "C">
+
+<!ENTITY quitApplicationCmd.label      "Lopeta"> 
+<!ENTITY quitApplicationCmd.key        "Q"> 
+<!ENTITY quitApplicationCmd.accesskey  "L">
+
+<!ENTITY redoCmd.label                 "Tee uudelleen">  
+<!ENTITY redoCmd.key                   "Y">  
+<!ENTITY redoCmd.accesskey             "T">
+
+<!ENTITY findTypeTextCmd.key           "/">
+<!ENTITY findTypeLinksCmd.key          "'">
+
+<!ENTITY accel.emacs_conflict          "accel,shift">
+
+<!-- Help viewer -->
+<!ENTITY openHelpCmd.label             "Ohjeen aiheet">
+<!ENTITY openHelpCmd.accesskey         "h">
+<!ENTITY openHelpCmd.key               "VK_F1">

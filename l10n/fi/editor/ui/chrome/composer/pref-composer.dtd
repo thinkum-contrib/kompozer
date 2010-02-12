@@ -40,41 +40,43 @@
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
 
 <!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
-<!ENTITY  title.label                "Yleiset">
-<!ENTITY  lHeader                    "Yleiset">
-<!ENTITY  rHeader                    "Asetukset, jotka koskevat uusien www-sivujen laatimista">
+<!ENTITY  title.label                           "Yleiset">
+<!ENTITY  lHeader                               "Yleiset">
+<!ENTITY  rHeader                               "Asetukset, jotka koskevat uusien www-sivujen laatimista">
 
-<!ENTITY  tableEditing.label                     "Taulukon muokkaaminen">
-<!ENTITY  maintainTableStructure.label           "Säilytä taulukon asettelu soluja lisättäessä tai poistettaessa">
-<!ENTITY  maintainTableStructure.tooltip         "Säilytä taulukon suorakulmainen muoto lisäämällä soluja poistamisen tai lisäämisen jälkeen.">
-<!ENTITY  maintainStructure.accesskey            "t">
+<!ENTITY  tableEditing.label                    "Taulukon muokkaaminen">
+<!ENTITY  maintainTableStructure.label          "Säilytä taulukon asettelu soluja lisättäessä tai poistettaessa">
+<!ENTITY  maintainTableStructure.tooltip        "Säilytä taulukon suorakulmainen muoto lisäämällä soluja poistamisen tai lisäämisen jälkeen.">
+<!ENTITY  maintainStructure.accesskey           "t">
 
-<!ENTITY  savingFiles.title            "Kun tallennan tai julkaisen sivun">
-<!ENTITY  preserveExistingFormatting   "Säilytä alkuperäinen lähdekoodin muotoilu">
-<!ENTITY  preserveExistingFormatting.accesskey   "a">
-<!ENTITY  preserveExistingFormatting.tooltip     "Säilytä rivinvaihdot ja sivun alkuperäinen muotoilu">
-<!ENTITY  reformat.label               "Muotoile HTML-koodi uudelleen">
-<!ENTITY  reformat.accesskey           "M">
-<!ENTITY  reformat.tooltip             "Muotoile HTML-tagit uudelleen käyttäen rivinvaihtoja ja sisennystä">
+<!ENTITY  savingFiles.title                     "Kun tallennan tai julkaisen sivun">
+<!ENTITY  preserveExistingFormatting            "Säilytä alkuperäinen lähdekoodin muotoilu">
+<!ENTITY  preserveExistingFormatting.accesskey  "a">
+<!ENTITY  preserveExistingFormatting.tooltip    "Säilytä rivinvaihdot ja sivun alkuperäinen muotoilu">
+<!ENTITY  reformat.label                        "Muotoile HTML-koodi uudelleen">
+<!ENTITY  reformat.accesskey                    "M">
+<!ENTITY  reformat.tooltip                      "Muotoile HTML-tagit uudelleen käyttäen rivinvaihtoja ja sisennystä">
 
-<!ENTITY  saveAssociatedFiles.label  "Tallenna myös sivuun liittyvät kuvat ja muut tiedostot sivua tallennettaessa">
-<!ENTITY  showPublishDialog.label    "Näytä julkaisuikkuna aina sivuja julkaistaessa">
+<!ENTITY  saveAssociatedFiles.label             "Tallenna myös sivuun liittyvät kuvat ja muut tiedostot sivua tallennettaessa">
+<!ENTITY  showPublishDialog.label               "Näytä julkaisuikkuna aina sivuja julkaistaessa">
 
-<!ENTITY  saving                     "Tallennus">
-<!ENTITY  AutoSaveCheck              "Tallenna automaattisesti joka">
-<!ENTITY  minText                    ". minuutti">
+<!ENTITY  saving                                "Tallennus">
+<!ENTITY  AutoSaveCheck                         "Tallenna automaattisesti joka">
+<!ENTITY  minText                               ". minuutti">
 
-<!ENTITY  exterLegend.label          "Ulkoiset editorit">
-<!ENTITY  htmlSource                 "HTML-lähdekoodi:">
-<!ENTITY  imageeditor                "Kuvat:">
-<!ENTITY  chooseButton.label         "Valitse">
+<!ENTITY  exterLegend.label                     "Ulkoiset editorit">
+<!ENTITY  htmlSource                            "HTML-lähdekoodi:">
+<!ENTITY  imageeditor                           "Kuvat:">
+<!ENTITY  chooseButton.label                    "Valitse">
 
-<!ENTITY  recentFiles.title          "Viimeisimmät sivut -valikko">
-<!ENTITY  documentsInMenu.accesskey      "S">
-<!ENTITY  documentsInMenu            "Suurin lueteltujen sivujen määrä:">
+<!ENTITY  recentFiles.title                     "Viimeisimmät sivut -valikko">
+<!ENTITY  documentsInMenu.accesskey             "S">
+<!ENTITY  documentsInMenu                       "Suurin lueteltujen sivujen määrä:">
 
-<!ENTITY  cssEditing.label           "Tyylisivujen (CSS) muokkaus">
-<!ENTITY  useCSS.label               "Käytä CSS-tyylejä HTML-elementtien ja attribuuttien sijaan">
+<!ENTITY  cssEditing.label                      "Tyylisivujen (CSS) muokkaus">
+<!ENTITY  useCSS.label                          "Käytä CSS-tyylejä HTML-elementtien ja attribuuttien sijaan">
 
-<!ENTITY  siteManager.label          "Sivustonhallinta">
-<!ENTITY  openInNewTab.label         "Avaa dokumentit aina uuteen välilehteen">
+<!ENTITY  siteManager.label                     "Sivustonhallinta">
+<!ENTITY  openInNewTab.label                    "Avaa dokumentit aina uuteen välilehteen">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Käytä järjestelmän kuvakkeita">

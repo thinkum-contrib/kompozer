@@ -21,17 +21,17 @@
    -   Ben Goodger
   -->
 
-<!ENTITY WindowTitle.label               "Lisäominaisuuksien muokkaus">
-<!ENTITY AttName.label                   "Attribuutti: ">
-<!ENTITY AttValue.label                  "Arvo: ">
-<!ENTITY PropertyName.label              "Ominaisuus: ">
-<!ENTITY currentattributesfor.label      "Nykyiset attribuutit kohteelle: ">
-<!ENTITY tree.attributeHeader.label      "Attribuutti">
-<!ENTITY tree.propertyHeader.label       "Ominaisuus">
-<!ENTITY tree.valueHeader.label          "Arvo">
-<!ENTITY tabHTML.label                   "HTML-attribuutit">
-<!ENTITY tabCSS.label                    "Sisällytetyt tyylit">
-<!ENTITY tabJSE.label                    "JavaScript-tapahtumat">
+<!ENTITY WindowTitle.label              "Lisäominaisuuksien muokkaus">
+<!ENTITY AttName.label                  "Attribuutti: ">
+<!ENTITY AttValue.label                 "Arvo: ">
+<!ENTITY PropertyName.label             "Ominaisuus: ">
+<!ENTITY currentattributesfor.label     "Nykyiset attribuutit kohteelle: ">
+<!ENTITY tree.attributeHeader.label     "Attribuutti">
+<!ENTITY tree.propertyHeader.label      "Ominaisuus">
+<!ENTITY tree.valueHeader.label         "Arvo">
+<!ENTITY tabHTML.label                  "HTML-attribuutit">
+<!ENTITY tabCSS.label                   "Sisällytetyt tyylit">
+<!ENTITY tabJSE.label                   "JavaScript-tapahtumat">
 
-<!ENTITY editAttribute.label     "Valitse muokattava kohde yltä">
-<!ENTITY removeAttribute.label   "Poista">
+<!ENTITY editAttribute.label    "Valitse muokattava kohde yltä">
+<!ENTITY removeAttribute.label  "Poista">

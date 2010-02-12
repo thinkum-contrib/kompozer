@@ -35,31 +35,49 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY editSitesList.label       "Muokkaa sivustoja">
+<!ENTITY editSitesList.label      "Muokkaa sivustoja">
 
-<!ENTITY filterAll.label           "Kaikki tiedostot">
-<!ENTITY filterHTML.label          "HTML-dokumentit">
-<!ENTITY filterImages.label        "Kuvatiedostot">
+<!ENTITY filterAll.label          "Kaikki tiedostot">
+<!ENTITY filterHTML.label         "HTML-dokumentit">
+<!ENTITY filterCSS.label          "CSS tyyliohjeet">
+<!ENTITY filterImages.label       "Kuvatiedostot">
+<!ENTITY filterMedia.label        "Mediatiedostot">
+<!ENTITY filterScripts.label      "Tekstitiedostot">
 
-<!ENTITY treeViewCheckbox.label    "Puunäkymä">
+<!ENTITY treeViewCheckbox.label   "Puunäkymä">
 
-<!ENTITY filenameColumn.label      "Nimi">
-<!ENTITY sizeColumn.label          "Koko">
-<!ENTITY lastModifiedColumn.label  "Viimeksi muokattu">
+<!ENTITY filenameColumn.label     "Nimi">
+<!ENTITY sizeColumn.label         "Koko">
+<!ENTITY lastModifiedColumn.label "Viimeksi muokattu">
 
-<!ENTITY deleteFile.label          "Poista tiedosto">
-<!ENTITY deletefile.accesskey      "P">
-<!ENTITY createDir.label           "Uusi alilhakemisto">
-<!ENTITY createdir.accesskey       "U">
-<!ENTITY removeDir.label           "Poista hakemisto">
-<!ENTITY removedir.accesskey       "o">
+<!ENTITY deleteFile.label         "Poista tiedosto">
+<!ENTITY deletefile.accesskey     "P">
+<!ENTITY createDir.label          "Uusi alilhakemisto">
+<!ENTITY createdir.accesskey      "U">
+<!ENTITY removeDir.label          "Poista hakemisto">
+<!ENTITY removedir.accesskey      "o">
 
-<!ENTITY reloadButton.tooltip      "Päivitä">
-<!ENTITY createDirButton.tooltip   "Uusi kansio">
-<!ENTITY removeButton.tooltip      "Poista">
-<!ENTITY stopButton.tooltip        "Pysäytä">
+<!ENTITY reloadButton.tooltip     "Päivitä">
+<!ENTITY createDirButton.tooltip  "Uusi kansio">
+<!ENTITY removeButton.tooltip     "Poista">
+<!ENTITY stopButton.tooltip       "Pysäytä">
 
-<!ENTITY renameMenu.label          "Nimeä uudelleen">
-<!ENTITY renameButton.tooltip      "Nimeä uudelleen">
+<!ENTITY renameMenu.label         "Nimeä uudelleen">
+<!ENTITY renameButton.tooltip     "Nimeä uudelleen">
 
-<!ENTITY filterControl.label       "Näytä:">
+<!ENTITY filterControl.label      "Näytä:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Paikallinen">
+<!ENTITY remoteTab.label          "Etä">
+<!ENTITY ftpConsole.label         "FTP console">
+
+<!ENTITY editItem.label           "Edit"> 
+<!ENTITY openItem.label           "Avaa">
+<!ENTITY openAsText.label         "Avaa tekstinä">
+<!ENTITY openRemote.label         "Avaa etähakemisto">
+<!ENTITY insertImage.label        "Lisää kuva">
+<!ENTITY previewItem.label        "Esikatselu">
+<!ENTITY uploadItem.label         "Publish…">
+<!ENTITY downloadItem.label       "Palauta…">
+<!ENTITY itemProperties.label     "Ominaisuudet…">

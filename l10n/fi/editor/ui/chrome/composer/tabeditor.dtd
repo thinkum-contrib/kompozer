@@ -35,14 +35,14 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY untitledDocument.label       "(nimetön)">
-<!ENTITY closeTab.label               "Sulje välilehti">
-<!ENTITY closeTab.accesskey           "S">
-<!ENTITY closeOtherTabs.label         "Sulje muut välilehdet">
-<!ENTITY closeOtherTabs.accesskey     "u">
-<!ENTITY newTab.label                 "Uusi välilehti">
-<!ENTITY newTab.accesskey             "u">
-<!ENTITY revert.label                 "Palauta">
-<!ENTITY revert.accesskey             "p">
-<!ENTITY refreshImages.label          "Päivitä kuvat">
-<!ENTITY refreshImages.accesskey      "p">
+<!ENTITY untitledDocument.label      "(nimetön)">
+<!ENTITY closeTab.label              "Sulje välilehti">
+<!ENTITY closeTab.accesskey          "S">
+<!ENTITY closeOtherTabs.label        "Sulje muut välilehdet">
+<!ENTITY closeOtherTabs.accesskey    "u">
+<!ENTITY newTab.label                "Uusi välilehti">
+<!ENTITY newTab.accesskey            "U">
+<!ENTITY revert.label                "Palauta">
+<!ENTITY revert.accesskey            "P">
+<!ENTITY refreshImages.label         "Päivitä kuvat">
+<!ENTITY refreshImages.accesskey     "P">

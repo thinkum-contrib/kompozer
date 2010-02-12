@@ -35,35 +35,35 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY devmgr.title  "Turvalaitteiden hallinta">
+<!ENTITY devmgr.title                           "Turvalaitteiden hallinta">
 
-<!ENTITY devmgr.devlist.label  "Turvallisuusmoduulit ja laitteet">
-<!ENTITY devmgr.details.title  "Yksityiskohdat">
-<!ENTITY devmgr.details.title2  "Arvo">
-<!ENTITY devmgr.status.label  "Tila">
-<!ENTITY devmgr.version.label  "Versio">
+<!ENTITY devmgr.devlist.label                   "Turvallisuusmoduulit ja laitteet">
+<!ENTITY devmgr.details.title                   "Yksityiskohdat">
+<!ENTITY devmgr.details.title2                  "Arvo">
+<!ENTITY devmgr.status.label                    "Tila">
+<!ENTITY devmgr.version.label                   "Versio">
 
-<!ENTITY devmgr.button.changeslotname.label  "Vaihda korttipaikan nimeä">
+<!ENTITY devmgr.button.changeslotname.label     "Vaihda korttipaikan nimeä">
 <!ENTITY devmgr.button.changeslotname.accesskey "V">
-<!ENTITY devmgr.button.login.label  "Kirjaudu sisään">
+<!ENTITY devmgr.button.login.label              "Kirjaudu sisään">
 <!ENTITY devmgr.button.login.accesskey          "K">
-<!ENTITY devmgr.button.logout.label  "Kirjaudu ulos">
+<!ENTITY devmgr.button.logout.label             "Kirjaudu ulos">
 <!ENTITY devmgr.button.logout.accesskey         "i">
-<!ENTITY devmgr.button.changepw.label  "Vaihda salasanaa">
+<!ENTITY devmgr.button.changepw.label           "Vaihda salasanaa">
 <!ENTITY devmgr.button.changepw.accesskey       "a">
-<!ENTITY devmgr.button.load.label  "Lataa">
+<!ENTITY devmgr.button.load.label               "Lataa">
 <!ENTITY devmgr.button.load.accesskey           "L">
-<!ENTITY devmgr.button.unload.label  "Poista">
+<!ENTITY devmgr.button.unload.label             "Poista">
 <!ENTITY devmgr.button.unload.accesskey         "P">
 <!ENTITY devmgr.button.fips.accesskey           "F">
 
-<!ENTITY loaddevice.info  "Kirjoita tiedot lisättävälle moduulille.">
-<!ENTITY loaddevice.modname  "Moduulin nimi:">
+<!ENTITY loaddevice.info                        "Kirjoita tiedot lisättävälle moduulille.">
+<!ENTITY loaddevice.modname                     "Moduulin nimi:">
 <!ENTITY loaddevice.modname.accesskey           "M">
-<!ENTITY loaddevice.modname.default  "Uusi PKCS#11-moduuli">
-<!ENTITY loaddevice.filename  "Moduulin tiedostonimi:">
+<!ENTITY loaddevice.modname.default             "Uusi PKCS#11-moduuli">
+<!ENTITY loaddevice.filename                    "Moduulin tiedostonimi:">
 <!ENTITY loaddevice.filename.accesskey          "d">
-<!ENTITY loaddevice.browse  "Selaa…">
+<!ENTITY loaddevice.browse                      "Selaa…">
 <!ENTITY loaddevice.browse.accesskey            "S">
 
-<!ENTITY loaddevice.title  "Lataa PKCS#11-laite">
+<!ENTITY loaddevice.title                       "Lataa PKCS#11-laite">

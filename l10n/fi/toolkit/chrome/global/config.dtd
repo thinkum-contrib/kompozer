@@ -36,41 +36,42 @@
 
 <!ENTITY window.title "about:config">
 
-<!ENTITY filterPrefs.label  "Suodata:">
-<!ENTITY filterPrefs.accesskey  "S">
-<!ENTITY showAll.label  "Näytä kaikki">
-<!ENTITY showAll.accesskey  "N">
+<!ENTITY filterPrefs.label "Suodata:">
+<!ENTITY filterPrefs.accesskey "S">
+<!ENTITY showAll.label "Näytä kaikki">
+<!ENTITY showAll.accesskey "N">
 
 <!-- Columns -->
-<!ENTITY prefColumn.label  "Asetuksen nimi">
-<!ENTITY lockColumn.label  "Tila">
-<!ENTITY typeColumn.label  "Tyyppi">
-<!ENTITY valueColumn.label  "Arvo">
+<!ENTITY prefColumn.label "Asetuksen nimi">
+<!ENTITY lockColumn.label "Tila">
+<!ENTITY typeColumn.label "Tyyppi">
+<!ENTITY valueColumn.label "Arvo">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip  "Napsauta järjestääksesi">
-<!ENTITY columnChooser.tooltip  "Valitse näkyvät sarakkeet">
+<!ENTITY prefColumnHeader.tooltip "Napsauta järjestääksesi"> 
+<!ENTITY columnChooser.tooltip "Valitse näkyvät sarakkeet"> 
 
 <!-- Context Menu -->
-<!ENTITY copyName.label  "Kopioi nimi">
-<!ENTITY copyName.accesskey  "K">
-<!ENTITY copyValue.label  "Kopioi arvo">
-<!ENTITY copyValue.accesskey  "a">
-<!ENTITY modify.label  "Muuta">
-<!ENTITY modify.accesskey  "M">
-<!ENTITY toggle.label  "Vaihda tilaa">
-<!ENTITY toggle.accesskey  "V">
-<!ENTITY reset.label  "Palauta oletusarvo">
-<!ENTITY reset.accesskey  "P">
-<!ENTITY new.label  "Uusi">
-<!ENTITY new.accesskey  "U">
-<!ENTITY string.label  "Merkkijono">
-<!ENTITY string.accesskey  "M">
-<!ENTITY integer.label  "Kokonaisluku">
-<!ENTITY integer.accesskey  "K">
-<!ENTITY boolean.label  "Totuusarvo">
-<!ENTITY boolean.accesskey  "T">
-<!ENTITY lock.label  "Lukitse">
-<!ENTITY lock.accesskey  "L">
-<!ENTITY unlock.label  "Poista lukko">
-<!ENTITY unlock.accesskey  "A">
+<!ENTITY copyName.label "Kopioi nimi">
+<!ENTITY copyName.accesskey "K">
+<!ENTITY copyValue.label "Kopioi arvo">
+<!ENTITY copyValue.accesskey "a">
+<!ENTITY modify.label "Muuta">
+<!ENTITY modify.accesskey "M">
+<!ENTITY toggle.label "Vaihda tilaa">
+<!ENTITY toggle.accesskey "V">
+<!ENTITY reset.label "Palauta oletusarvo">
+<!ENTITY reset.accesskey "P">
+<!ENTITY new.label "Uusi">
+<!ENTITY new.accesskey "U">
+<!ENTITY string.label "Merkkijono">
+<!ENTITY string.accesskey "M">
+<!ENTITY integer.label "Kokonaisluku">
+<!ENTITY integer.accesskey "K">
+<!ENTITY boolean.label "Totuusarvo">
+<!ENTITY boolean.accesskey "T">
+<!ENTITY lock.label "Lukitse">
+<!ENTITY lock.accesskey "L">
+<!ENTITY unlock.label "Poista lukko">
+<!ENTITY unlock.accesskey "a">
+

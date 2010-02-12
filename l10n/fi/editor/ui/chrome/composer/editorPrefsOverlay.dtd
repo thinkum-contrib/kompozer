@@ -1,10 +1,11 @@
 
-<!ENTITY prefWindow.size  "width: 52.3em; height: 37em;">
-<!ENTITY prefWindow.title  "Asetukset">
+<!ENTITY prefWindow.size       "width: 52.3em; height: 37em;">
+<!ENTITY prefWindow.title      "Asetukset">
 
-<!ENTITY general.label  "Yleiset">
-<!ENTITY extensions.label  "Laajennukset">
-<!ENTITY advanced.label  "Lisäasetukset">
-<!ENTITY newpagesettings.label  "Uusi sivu">
-<!ENTITY fonts.label    "Kirjasinlajit">
-<!ENTITY i18n.label     "Kansainväliset asetukset">
+<!ENTITY general.label         "Yleiset">
+<!ENTITY extensions.label      "Laajennukset">
+<!ENTITY advanced.label        "Lisäasetukset">
+<!ENTITY helpers.label         "Ohjelmat">
+<!ENTITY newpagesettings.label "Uusi sivu">
+<!ENTITY fonts.label           "Kirjasinlajit">
+<!ENTITY i18n.label            "Kansainväliset asetukset">

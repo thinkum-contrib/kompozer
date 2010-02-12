@@ -4,9 +4,9 @@
 <!ENTITY em.width                         "520">
 <!ENTITY em.height                        "380">
 
-<!ENTITY cmd.info.commandKey               "i">
-<!ENTITY cmd.options.commandKey            ",">
-<!ENTITY cmd.close.commandKey              "w">
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
 
 <!-- View labels -->
 <!ENTITY extensions.label                 "Laajennukset">
@@ -75,17 +75,17 @@
 <!ENTITY cancel.accesskey                 "P">
 
 <!-- Only displayed in the selected Add-on's context menu -->
-<!ENTITY cmd.homepage.label                "Avaa kotisivu">
-<!ENTITY cmd.homepage.accesskey            "v">
+<!ENTITY cmd.homepage.label               "Avaa kotisivu">
+<!ENTITY cmd.homepage.accesskey           "v">
 <!ENTITY cmd.about2.label                 "Tietoja lisäosasta">
 <!ENTITY cmd.about.accesskey              "T">
 <!ENTITY cmd.checkUpdate.label            "Hae päivityksiä">
 <!ENTITY cmd.checkUpdate.accesskey        "H">
 
 <!ENTITY cmd.includeUpdate.label          "Asenna päivitys">
-<!ENTITY cmd.includeUpdate.accesskey      "V">
+<!ENTITY cmd.includeUpdate.accesskey      "v">
 <!ENTITY includeUpdate.label              "Asenna tämä päivitys">
-<!ENTITY includeUpdate.accesskey          "a">
+<!ENTITY includeUpdate.accesskey          "A">
 <!ENTITY includeUpdate.tooltip            "Päivitä tämä lisäosa asennettaessa päivityksiä">
 
 <!-- Status Messsages -->
@@ -97,12 +97,12 @@
 <!ENTITY toBeUninstalled.label            "Poistetaan &brandShortName;in käynnistyksen yhteydessä.">
 <!ENTITY toBeUpgraded.label               "Päivitetään &brandShortName;in käynnistyksen yhteydessä.">
 
-<!ENTITY getExtensions.label           "Hae laajennuksia">
-<!ENTITY getExtensions.tooltip         "Hae laajennuksia addons.mozilla.orgista">
-<!ENTITY getThemes.label               "Hae teemoja">
-<!ENTITY getThemes.tooltip             "Hae teemoja addons.mozilla.orgista">
-<!ENTITY previewNoThemeSelected.label      "Teemaa ei ole valittu">
-<!ENTITY previewNoPreviewImage.label       "Tästä teemasta ei ole esikatselukuvaa">
+<!ENTITY getExtensions.label              "Hae laajennuksia">
+<!ENTITY getExtensions.tooltip            "Hae laajennuksia addons.mozilla.orgista">
+<!ENTITY getThemes.label                  "Hae teemoja">
+<!ENTITY getThemes.tooltip                "Hae teemoja addons.mozilla.orgista">
+<!ENTITY previewNoThemeSelected.label     "Teemaa ei ole valittu">
+<!ENTITY previewNoPreviewImage.label      "Tästä teemasta ei ole esikatselukuvaa">
 <!ENTITY moreInfo.label                   "Lisätietoja">
 <!ENTITY closeMessage.tooltip             "Sulje viesti">
 

@@ -1,37 +1,37 @@
-<!ENTITY undoCmd.label						"Annuler">  
-<!ENTITY undoCmd.key						"Z">  
-<!ENTITY undoCmd.accesskey					"a"> 
-<!ENTITY redoCmd.label						"Refaire">  
-<!ENTITY redoCmd.key						"Y">  
-<!ENTITY redoCmd.accesskey					"r"> 
-<!ENTITY cutCmd.label						"Couper">  
-<!ENTITY cutCmd.key						"X">  
-<!ENTITY cutCmd.accesskey					"o"> 
-<!ENTITY copyCmd.label						"Copier">  
-<!ENTITY copyCmd.key						"C">  
-<!ENTITY copyCmd.accesskey					"c"> 
-<!ENTITY pasteCmd.label						"Coller">  
-<!ENTITY pasteCmd.key						"V">  
-<!ENTITY pasteCmd.accesskey					"l"> 
-<!ENTITY deleteCmd.label					"Effacer">  
-<!ENTITY deleteCmd.key						"D">  
-<!ENTITY deleteCmd.accesskey					"e"> 
-<!ENTITY selectAllCmd.label					"Tout sélectionner">  
-<!ENTITY selectAllCmd.key					"A">  
-<!ENTITY selectAllCmd.accesskey					"t">
-<!ENTITY preferencesCmd.label				"Options…">
-<!ENTITY preferencesCmd.key					"E">  
-<!ENTITY preferencesCmd.accesskey			"O">
+<!ENTITY undoCmd.label "Annuler">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "a">
+<!ENTITY redoCmd.label "Refaire">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "r">
+<!ENTITY cutCmd.label "Couper">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "o">
+<!ENTITY copyCmd.label "Copier">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "c">
+<!ENTITY pasteCmd.label "Coller">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "l">
+<!ENTITY deleteCmd.label "Effacer">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.accesskey "e">
+<!ENTITY selectAllCmd.label "Tout sélectionner">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "t">
+<!ENTITY preferencesCmd.label "Options…">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.accesskey "O">
 <!ENTITY preferencesCmdUnix.label "Préférences…">
 <!ENTITY preferencesCmdUnix.accesskey "f">
 
-<!ENTITY findTypeTextCmd.label "Find Text As You Type">
+<!ENTITY findTypeTextCmd.label "Recherche de texte à la saisie">
 <!ENTITY findTypeTextCmd.accesskey "x">
-<!ENTITY findTypeLinksCmd.label "Find Links As You Type">
-<!ENTITY findTypeLinksCmd.accesskey "k">
+<!ENTITY findTypeLinksCmd.label "Recherche de lien à la saisie">
+<!ENTITY findTypeLinksCmd.accesskey "s">
 
-<!ENTITY viewToolbarsMenu.label				"Barre d'outils"> 
-<!ENTITY viewToolbarsMenu.accesskey			"t"> 
+<!ENTITY viewToolbarsMenu.label "Barre d'outils"> 
+<!ENTITY viewToolbarsMenu.accesskey "t"> 
 
 <!ENTITY newBlankPageCmd.label "Page vierge">
 <!ENTITY newBlankPageCmd.accesskey "P" >
@@ -39,6 +39,6 @@
 <!ENTITY newPageFromTemplateCmd.label "Page utilisant un modèle">
 <!ENTITY newPageFromTemplateCmd.accesskey "t">
 
-<!ENTITY newNavigatorCmd.label				"Fenêtre du navigateur">
-<!ENTITY newNavigatorCmd.key				"N">
-<!ENTITY newNavigatorCmd.accesskey			"N">
+<!ENTITY newNavigatorCmd.label "Fenêtre du navigateur">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.accesskey "N">

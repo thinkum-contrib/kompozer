@@ -35,16 +35,16 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY Window.title         "Sisällysluettelo">
-<!ENTITY buildToc.label       "Luo sisällysluettelo seuraavien elementtien perusteella">
-<!ENTITY style.label          "Tyyli:">
-<!ENTITY tag.label            "HTML-tagi:">
-<!ENTITY class.label          "Luokka:">
-<!ENTITY header1.label        "Taso 1">
-<!ENTITY header2.label        "Taso 2">
-<!ENTITY header3.label        "Taso 3">
-<!ENTITY header4.label        "Taso 4">
-<!ENTITY header5.label        "Taso 5">
-<!ENTITY header6.label        "Taso 6">
-<!ENTITY makeReadOnly.label   "Estä sisällysluettelon muokkaaminen käsin">
-<!ENTITY orderedList.label    "Numeroi sisällysluettelon kaikki kohdat">
+<!ENTITY Window.title        "Sisällysluettelo">
+<!ENTITY buildToc.label      "Luo sisällysluettelo seuraavien elementtien perusteella">
+<!ENTITY style.label         "Tyyli:">
+<!ENTITY tag.label           "HTML-tagi:">
+<!ENTITY class.label         "Luokka:">
+<!ENTITY header1.label       "Taso 1">
+<!ENTITY header2.label       "Taso 2">
+<!ENTITY header3.label       "Taso 3">
+<!ENTITY header4.label       "Taso 4">
+<!ENTITY header5.label       "Taso 5">
+<!ENTITY header6.label       "Taso 6">
+<!ENTITY makeReadOnly.label  "Estä sisällysluettelon muokkaaminen käsin">
+<!ENTITY orderedList.label   "Numeroi sisällysluettelon kaikki kohdat">

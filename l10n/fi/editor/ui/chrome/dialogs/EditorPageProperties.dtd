@@ -21,34 +21,34 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Sivun ominaisuudet">
+<!ENTITY windowTitle.label "Sivun ominaisuudet">
 
-<!ENTITY general.label  "Yleistiedot">
-<!ENTITY location.label  "Sijainti:">
-<!ENTITY lastModified.label  "Viimeksi muokattu:">
-<!ENTITY titleInput.label  "Otsikko:">
-<!ENTITY titleInput.accessKey  "O">
-<!ENTITY authorInput.label  "Tekijä:">
-<!ENTITY authorInput.accessKey  "T">
-<!ENTITY descriptionInput.label  "Kuvaus:">
-<!ENTITY descriptionInput.accessKey  "K">
-<!ENTITY locationNewPage.label  "[Uusi sivu, ei vielä tallennettu]">
-<!ENTITY EditHEADSource1.label  "Kokeneet käyttäjät:">
-<!ENTITY EditHEADSource2.label  "Jos haluat muokata &lt;head&gt;-lohkoa, valitse HTML-koodi Näytä-valikosta tai Muokkaustila-työkalupalkista.">
+<!ENTITY general.label "Yleistiedot">
+<!ENTITY location.label "Sijainti:">
+<!ENTITY lastModified.label "Viimeksi muokattu:">
+<!ENTITY titleInput.label "Otsikko:">
+<!ENTITY titleInput.accessKey "O">
+<!ENTITY authorInput.label "Tekijä:">
+<!ENTITY authorInput.accessKey "T">
+<!ENTITY descriptionInput.label "Kuvaus:">
+<!ENTITY descriptionInput.accessKey "K">
+<!ENTITY locationNewPage.label "[Uusi sivu, ei vielä tallennettu]">
+<!ENTITY EditHEADSource1.label "Kokeneet käyttäjät:">
+<!ENTITY EditHEADSource2.label "Jos haluat muokata &lt;head&gt;-lohkoa, valitse HTML-koodi Näytä-valikosta tai Muokkaustila-työkalupalkista.">
 
-<!ENTITY template.label  "Mallit">
-<!ENTITY templateCheckbox.label  "Tämä sivu on malli">
-<!ENTITY fromTemplate.label  "Tämä dokumentti on kiinnitetty malliin">
+<!ENTITY template.label "Mallit">
+<!ENTITY templateCheckbox.label "Tämä sivu on malli">
+<!ENTITY fromTemplate.label "Tämä dokumentti on kiinnitetty malliin">
 
-<!ENTITY i18nHeader                   "Kansainväliset asetukset">
+<!ENTITY i18nHeader                  "Kansainväliset asetukset">
 
-<!ENTITY writingDirection.label       "Kirjoitussuunta:">
-<!ENTITY defaultDirectionRadio.label  "Ei määritettyä suuntaa">
-<!ENTITY ltrDirectionRadio.label      "Vasemmalta oikealle">
-<!ENTITY rtlDirectionRadio.label      "OIkealta vasemmalle">
+<!ENTITY writingDirection.label      "Kirjoitussuunta:">
+<!ENTITY defaultDirectionRadio.label "Ei määritettyä suuntaa">
+<!ENTITY ltrDirectionRadio.label     "Vasemmalta oikealle">
+<!ENTITY rtlDirectionRadio.label     "OIkealta vasemmalle">
 
-<!ENTITY language.label               "Kieli:">
-<!ENTITY languageChoiceButton.label   "Valitse kieli">
+<!ENTITY language.label              "Kieli:">
+<!ENTITY languageChoiceButton.label  "Valitse kieli">
 
-<!ENTITY defaultCharset.label         "Merkistö:">
-<!ENTITY chooseCharsetButton.label    "Valitse merkistö">
+<!ENTITY defaultCharset.label        "Merkistö:">
+<!ENTITY chooseCharsetButton.label   "Valitse merkistö">

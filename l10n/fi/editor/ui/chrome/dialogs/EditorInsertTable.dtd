@@ -21,39 +21,39 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Lisää taulukko">
+<!ENTITY windowTitle.label "Lisää taulukko">
 
-<!ENTITY size.label  "Koko">
-<!ENTITY numRowsEditField.label  "Rivejä:">
-<!ENTITY numRowsEditField.accessKey  "R">
-<!ENTITY numColumnsEditField.label  "Sarakkeita:">
-<!ENTITY numColumnsEditField.accessKey  "S">
-<!ENTITY widthEditField.label  "Leveys:">
-<!ENTITY widthEditField.accessKey  "e">
-<!ENTITY borderEditField.label  "Reunus:">
-<!ENTITY borderEditField.accessKey  "u">
-<!ENTITY borderEditField.tooltip  "Anna taulukon reunuksen paksuus tai 0, jos et halua reunusta.">
-<!ENTITY pixels.label  "kuvapistettä">
+<!ENTITY size.label "Koko">
+<!ENTITY numRowsEditField.label "Rivejä:">
+<!ENTITY numRowsEditField.accessKey "R">
+<!ENTITY numColumnsEditField.label "Sarakkeita:">
+<!ENTITY numColumnsEditField.accessKey "S">
+<!ENTITY widthEditField.label "Leveys:">
+<!ENTITY widthEditField.accessKey "e">
+<!ENTITY borderEditField.label "Reunus:">
+<!ENTITY borderEditField.accessKey "u">
+<!ENTITY borderEditField.tooltip "Anna taulukon reunuksen paksuus tai 0, jos et halua reunusta.">
+<!ENTITY pixels.label "kuvapistettä">
 
-<!ENTITY quicklyTab.label  "Nopeasti">
-<!ENTITY preciselyTab.label  "Tarkasti">
-<!ENTITY cellTab.label  "Solu">
+<!ENTITY quicklyTab.label "Nopeasti">
+<!ENTITY preciselyTab.label "Tarkasti">
+<!ENTITY cellTab.label "Solu">
 
-<!ENTITY horizAlignment.label  "Vaakatasaus:">
-<!ENTITY unspecifiedHAlignment.label  "Ei määritetty">
-<!ENTITY leftHAlignment.label  "Vasemmalle">
-<!ENTITY centerHAlignment.label  "Keskitä">
-<!ENTITY rightHAlignment.label  "Oikealle">
+<!ENTITY horizAlignment.label "Vaakatasaus:">
+<!ENTITY unspecifiedHAlignment.label "Ei määritetty">
+<!ENTITY leftHAlignment.label "Vasemmalle">
+<!ENTITY centerHAlignment.label "Keskitä">
+<!ENTITY rightHAlignment.label "Oikealle">
 
-<!ENTITY vertAlignment.label  "Pystytasaus:">
-<!ENTITY unspecifiedVAlignment.label  "Ei määritetty">
-<!ENTITY topVAlignment.label  "Yläreuna">
-<!ENTITY middleVAlignment.label  "Keskelle">
-<!ENTITY bottomVAlignment.label  "Alareuna">
+<!ENTITY vertAlignment.label "Pystytasaus:">
+<!ENTITY unspecifiedVAlignment.label "Ei määritetty">
+<!ENTITY topVAlignment.label "Yläreuna">
+<!ENTITY middleVAlignment.label "Keskelle">
+<!ENTITY bottomVAlignment.label "Alareuna">
 
-<!ENTITY textWrapping.label  "Rivitys:">
-<!ENTITY wrapWrapping.label  "Rivitä">
-<!ENTITY nowrapWrapping.label  "Älä rivitä">
+<!ENTITY textWrapping.label "Rivitys:">
+<!ENTITY wrapWrapping.label "Rivitä">
+<!ENTITY nowrapWrapping.label "Älä rivitä">
 
-<!ENTITY cellSpacing.label  "Solun välistys">
-<!ENTITY cellPadding.label  "Solun täyte">
+<!ENTITY cellSpacing.label "Solun välistys">
+<!ENTITY cellPadding.label "Solun täyte">

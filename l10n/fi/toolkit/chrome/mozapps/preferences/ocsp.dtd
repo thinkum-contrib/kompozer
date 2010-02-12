@@ -1,11 +1,11 @@
-<!ENTITY window.width                  "45em">
+<!ENTITY window.width                 "45em">
 
-<!ENTITY ocspDialog.title              "Kelpuutus">
-<!ENTITY validation.ocsp.description   '&brandShortName; kelpuuttaa varmenteet "Yhteydenaikaisella varmenteiden tilantarkastusyhteyskäytännöllä" (OCSP) alla määritellysti:'>
-<!ENTITY disableOCSP.label             "Älä kelpuuta varmenteita OCSP:llä">
-<!ENTITY certOCSP.label                "Kelpuuta varmenteet, jotka määrittävät OCSP-palvelimen osoitteen">
-<!ENTITY proxyOCSP.label               "Kelpuuta varmenteet OCSP:llä käyttäen seuraavaa osoitetta ja allekirjoittajaa:">
-<!ENTITY serviceURL.label              "Palvelu-URL:">
-<!ENTITY serviceURL.accesskey          "P">
-<!ENTITY signingCA.label               "Allekirjoittaja:">
-<!ENTITY signingCA.accesskey           "A">
+<!ENTITY ocspDialog.title             "Kelpuutus">
+<!ENTITY validation.ocsp.description  "&brandShortName; kelpuuttaa varmenteet 'Yhteydenaikaisella varmenteiden tilantarkastusyhteyskäytännöllä' (OCSP) alla määritellysti:">
+<!ENTITY disableOCSP.label            "Älä kelpuuta varmenteita OCSP:llä">
+<!ENTITY certOCSP.label               "Kelpuuta varmenteet, jotka määrittävät OCSP-palvelimen osoitteen">
+<!ENTITY proxyOCSP.label              "Kelpuuta varmenteet OCSP:llä käyttäen seuraavaa osoitetta ja allekirjoittajaa:">
+<!ENTITY serviceURL.label             "Palvelu-URL:">
+<!ENTITY serviceURL.accesskey         "P">
+<!ENTITY signingCA.label              "Allekirjoittaja:">
+<!ENTITY signingCA.accesskey          "A">

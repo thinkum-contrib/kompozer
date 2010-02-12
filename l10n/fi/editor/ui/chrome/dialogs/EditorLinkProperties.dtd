@@ -35,49 +35,49 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label  "Linkin ominaisuudet">
-<!ENTITY LinkURLBox.label  "Linkin kohde">
-<!ENTITY XFNbox.label  "Ystävyys">
+<!ENTITY windowTitle.label "Linkin ominaisuudet">
+<!ENTITY LinkURLBox.label "Linkin kohde">
+<!ENTITY XFNbox.label "Ystävyys">
 
-<!ENTITY me.label  "Linkin kohde on toinen osoitteeni">
+<!ENTITY me.label "Linkin kohde on toinen osoitteeni">
 
-<!ENTITY friendship.label  "Ystävyys">
-<!ENTITY acquaintance.label  "tuttava">
-<!ENTITY friend.label  "ystävä">
-<!ENTITY contact.label  "yhteystieto">
-<!ENTITY none.label  "ei mitään">
+<!ENTITY friendship.label "Ystävyys">
+<!ENTITY acquaintance.label "tuttava">
+<!ENTITY friend.label "ystävä">
+<!ENTITY contact.label "yhteystieto">
+<!ENTITY none.label "ei mitään">
 
-<!ENTITY physical.label  "Fyysinen">
-<!ENTITY met.label  "tavannut">
+<!ENTITY physical.label "Fyysinen">
+<!ENTITY met.label "tavannut">
 
-<!ENTITY professional.label  "Ammatillinen">
-<!ENTITY coWorker.label  "työtoveri">
-<!ENTITY colleague.label  "kollega">
+<!ENTITY professional.label "Ammatillinen">
+<!ENTITY coWorker.label "työtoveri">
+<!ENTITY colleague.label "kollega">
 
-<!ENTITY geographical.label  "Maantieteellinen">
-<!ENTITY coResident.label  "asuinkumppani">
-<!ENTITY neighbor.label  "naapuri">
+<!ENTITY geographical.label "Maantieteellinen">
+<!ENTITY coResident.label "asuinkumppani">
+<!ENTITY neighbor.label "naapuri">
 
-<!ENTITY family.label  "Perhe">
-<!ENTITY child.label  "lapsi">
-<!ENTITY parent.label  "vanhempi">
-<!ENTITY sibling.label  "sisarus">
-<!ENTITY spouse.label  "puoliso">
-<!ENTITY kin.label  "sukulainen">
+<!ENTITY family.label "Perhe">
+<!ENTITY child.label "lapsi">
+<!ENTITY parent.label "vanhempi">
+<!ENTITY sibling.label "sisarus">
+<!ENTITY spouse.label "puoliso">
+<!ENTITY kin.label "sukulainen">
 
-<!ENTITY romantic.label  "Romanttinen">
-<!ENTITY muse.label  "innoittaja">
-<!ENTITY crush.label  "ihastus">
-<!ENTITY date.label  "seuralainen">
-<!ENTITY sweetheart.label  "sydänkäpy">
+<!ENTITY romantic.label "Romanttinen">
+<!ENTITY muse.label "innoittaja">
+<!ENTITY crush.label "ihastus">
+<!ENTITY date.label "seuralainen">
+<!ENTITY sweetheart.label "sydänkäpy">
 
-<!ENTITY targetBox.label  "Kohde">
-<!ENTITY userDefinedTarget.label  "Linkki avautuu">
-<!ENTITY topRadio.label  "samaan ikkunaan ilman kehikoita">
-<!ENTITY blankRadio.label  "uuteen ikkunaan">
-<!ENTITY parentRadio.label  "ulompaan kehikkoon">
-<!ENTITY selfRadio.label  "nykyiseen kehykseen">
-<!ENTITY userDefinedRadio.label  "kehykseen:">
+<!ENTITY targetBox.label "Kohde">
+<!ENTITY userDefinedTarget.label "Linkki avautuu">
+<!ENTITY topRadio.label "samaan ikkunaan ilman kehikoita">
+<!ENTITY blankRadio.label "uuteen ikkunaan">
+<!ENTITY parentRadio.label "ulompaan kehikkoon">
+<!ENTITY selfRadio.label "nykyiseen kehykseen">
+<!ENTITY userDefinedRadio.label "kehykseen:">
 
-<!ENTITY technoratiTag.label  "Technorati-tagit">
-<!ENTITY technoratiTagCheckbox.label  "Tämä on Technorati-tagi">
+<!ENTITY technoratiTag.label "Technorati-tagit">
+<!ENTITY technoratiTagCheckbox.label "Tämä on Technorati-tagi">

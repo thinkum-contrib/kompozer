@@ -37,12 +37,12 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Kohdista ruudukkoon">
+<!ENTITY windowTitle.label "Kohdista ruudukkoon">
 
-<!ENTITY enableSnapToGrid.label  "Käytä ruudukkoa kohdistusapuna elementtejä aseteltaessa">
-<!ENTITY enableSnapToGrid.accessKey  "a">
+<!ENTITY enableSnapToGrid.label "Käytä ruudukkoa kohdistusapuna elementtejä aseteltaessa">
+<!ENTITY enableSnapToGrid.accessKey "a">
 
-<!ENTITY sizeEditField.label  "Koko:">
-<!ENTITY sizeEditField.accessKey  "K">
+<!ENTITY sizeEditField.label "Koko:">
+<!ENTITY sizeEditField.accessKey "K">
 
-<!ENTITY pixelsLabel.value  "kuvapistettä">
+<!ENTITY pixelsLabel.value "kuvapistettä">

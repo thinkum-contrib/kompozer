@@ -1,28 +1,28 @@
 <!-- extracted from printjoboptions.xul -->
 
-<!ENTITY printJobOptions.title  "Tulostimen ominaisuudet">
+<!ENTITY printJobOptions.title "Tulostimen ominaisuudet">
 
-<!ENTITY paperInput.label  "Sivun koko:">
+<!ENTITY paperInput.label "Sivun koko:">
 
-<!ENTITY plexInput.label  "Puolisuus-tila:">
+<!ENTITY plexInput.label "Puolisuus-tila:">
 
-<!ENTITY resolutionInput.label  "Tulostustarkkuus tai -laatu:">
+<!ENTITY resolutionInput.label "Tulostustarkkuus tai -laatu:">
 
-<!ENTITY cmdInput.label  "Tulostuskäsky:">
+<!ENTITY cmdInput.label "Tulostuskäsky:">
 
-<!ENTITY jobTitleInput.label  "Työn nimi:">
+<!ENTITY jobTitleInput.label "Työn nimi:">
 
-<!ENTITY colorGroup.label  "Väri:">
-<!ENTITY grayRadio.label  "Harmaasävy">
-<!ENTITY colorRadio.label  "Väri">
+<!ENTITY colorGroup.label "Väri:">
+<!ENTITY grayRadio.label "Harmaasävy">
+<!ENTITY colorRadio.label "Väri">
 
-<!ENTITY colorspaceInput.label  "Väriavaruus:">
+<!ENTITY colorspaceInput.label "Väriavaruus:">
 
-<!ENTITY fontsGroup.label  "Kirjasinlajit:">
-<!ENTITY downloadFonts.label  "Ladataanko kirjasinlajit tulostimeen?">
+<!ENTITY fontsGroup.label "Kirjasinlajit:">
+<!ENTITY downloadFonts.label "Ladataanko kirjasinlajit tulostimeen?">
 
-<!ENTITY edgeMarginInput.label  "Etäisyys paperin reunasta marginaaliin (tuumia)">
-<!ENTITY topInput.label  "Ylä:">
-<!ENTITY bottomInput.label  "Ala:">
-<!ENTITY leftInput.label  "Vasen:">
-<!ENTITY rightInput.label  "Oikea:">
+<!ENTITY edgeMarginInput.label "Etäisyys paperin reunasta marginaaliin (tuumia)">
+<!ENTITY topInput.label "Ylä:">
+<!ENTITY bottomInput.label "Ala:">
+<!ENTITY leftInput.label "Vasen:">
+<!ENTITY rightInput.label "Oikea:">

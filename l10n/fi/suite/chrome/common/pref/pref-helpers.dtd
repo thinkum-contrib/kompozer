@@ -1,31 +1,78 @@
-<!ENTITY allEntitiesEncoding.label "Käytä &amp;#..;-merkintätapaa kaikille ei-ASCII-merkeille">
-<!ENTITY basicEncoding.label "Vain &amp; &lt; &gt; ' sekä kiinteä välilyönti">
-<!ENTITY carriageReturns.label "Enter-näppäimen toiminta">
-<!ENTITY cmdLine.label "Komentorivi:">
-<!ENTITY connection.label "Yhteys">
-<!ENTITY connectionButton.label "Yhteysasetukset">
-<!ENTITY connectionDescription.label "Määritä yhteyden välityspalvelimet">
-<!ENTITY connectionbutton.accesskey "Y">
-<!ENTITY crInPCreatesNewP.label "Enter-näppäimen painallus kappaleessa luo aina uuden kappaleen">
-<!ENTITY dialect.label "Merkkaus">
-<!ENTITY dtd.label "DTD:">
-<!ENTITY example.label "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
-<!ENTITY helpers.label "Lisäasetukset">
-<!ENTITY hints.label "Voit määrittää osoitteen käyttämällä '$s':ää, esim.:">
-<!ENTITY htmlEntitiesEncoding.label "HTML 4 -erikoismerkit">
-<!ENTITY htmlMarkupLanguage.label "HTML 4">
-<!ENTITY imageEditor.label "Kuvaeditori">
-<!ENTITY latin1EntitiesEncoding.label "Ylläolevat sekä Latin-1-merkit">
-<!ENTITY looseDTD.label "Transitional">
-<!ENTITY markupLanguage.label "Kieli:">
-<!ENTITY noEscaping.label "Älä koodaa erikoismerkkejä attribuuttien arvoissa">
-<!ENTITY noGTEncoding.label "Älä koodaa '&gt;' -merkkiä attribuuttien arvojen ulkopuolella">
-<!ENTITY realtimeSpellCheck.label "Reaaliaikainen oikoluku">
-<!ENTITY specialChars.description "Merkitse seuraavat merkit entiteetteinä lähdekoodiin:">
-<!ENTITY specialChars.label "Erikoismerkit">
-<!ENTITY spellCheckRealTime.accesskey "v">
-<!ENTITY spellCheckRealTime.label "Alleviivaa väärin kirjoitetut sanat">
-<!ENTITY strictDTD.label "Strict">
-<!ENTITY useSystemBrowser.label "Käytä järjestelmän asetusta">
-<!ENTITY userDefinedBrower.label "Käyttäjän määrittämä">
-<!ENTITY xhtmlMarkupLanguage.label "XHTML 1">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc..
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY helpers.label                 "Lisäasetukset">
+<!ENTITY useSystemBrowser.label        "Käytä järjestelmän asetusta">
+<!ENTITY userDefinedBrower.label       "Käyttäjän määrittämä">
+
+<!ENTITY cmdLine.label                 "Komentorivi:">
+<!ENTITY hints.label                   "Voit määrittää osoitteen käyttämällä '$s':ää, esim.:">
+<!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+
+<!ENTITY imageEditor.label             "Kuvaeditori">
+
+<!ENTITY connection.label              "Yhteys">
+<!ENTITY connectionDescription.label   "Määritä yhteyden välityspalvelimet">
+<!ENTITY connectionButton.label        "Yhteysasetukset">
+<!ENTITY connectionbutton.accesskey    "Y">
+
+<!ENTITY carriageReturns.label         "Enter-näppäimen toiminta">
+<!ENTITY crInPCreatesNewP.label        "Enter-näppäimen painallus kappaleessa luo aina uuden kappaleen">
+
+<!ENTITY specialChars.label            "Erikoismerkit">
+<!ENTITY specialChars.description      "Merkitse seuraavat merkit entiteetteinä lähdekoodiin:">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
+<!ENTITY basicEncoding.label           "Vain &amp; &lt; &gt; ' sekä kiinteä välilyönti">
+<!ENTITY latin1EntitiesEncoding.label  "Ylläolevat sekä Latin-1-merkit">
+<!ENTITY htmlEntitiesEncoding.label    "HTML 4 -erikoismerkit">
+<!ENTITY allEntitiesEncoding.label     "Käytä &amp;#..;-merkintätapaa kaikille ei-ASCII-merkeille">
+
+<!ENTITY realtimeSpellCheck.label      "Reaaliaikainen oikoluku">
+
+<!ENTITY spellCheckRealTime.label      "Alleviivaa väärin kirjoitetut sanat">
+<!ENTITY spellCheckRealTime.accesskey  "v">
+
+<!ENTITY dialect.label                 "Merkkaus">
+<!ENTITY markupLanguage.label          "Kieli:">
+<!ENTITY dtd.label                     "DTD:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "Transitional">
+<!ENTITY strictDTD.label               "Strict">
+
+<!ENTITY noGTEncoding.label            "Älä koodaa '&gt;' -merkkiä attribuuttien arvojen ulkopuolella">
+<!ENTITY noEscaping.label              "Älä koodaa erikoismerkkejä attribuuttien arvoissa">

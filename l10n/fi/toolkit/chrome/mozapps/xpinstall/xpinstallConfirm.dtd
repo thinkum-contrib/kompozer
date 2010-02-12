@@ -1,8 +1,8 @@
 <!-- extracted from institems.xul -->
 
-<!ENTITY dialog.title  "Ohjelman asennus">
-<!ENTITY warningText2.label  "Pahantahtoiset ohjelmat voivat vahingoittaa tietokonettasi tai heikentää tietosuojaasi.">
-<!ENTITY warningText3.label  "Asenna ohjelmia vain lähteistä, joihin luotat.">
+<!ENTITY dialog.title "Ohjelman asennus">
+<!ENTITY warningText2.label "Pahantahtoiset ohjelmat voivat vahingoittaa tietokonettasi tai heikentää tietosuojaasi.">
+<!ENTITY warningText3.label "Asenna ohjelmia vain lähteistä, joihin luotat.">
 
-<!ENTITY from.label  "osoitteesta:">
+<!ENTITY from.label "osoitteesta:">
 

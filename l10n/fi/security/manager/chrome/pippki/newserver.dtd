@@ -37,12 +37,12 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!-- Values for newserver.xul -->
-<!ENTITY newserver.title     "Tuntemattoman tahon varmentama sivusto">
-<!ENTITY newserver.reasons   "Virheen mahdollisia syitä:">
-<!ENTITY newserver.reason1   "- Selain ei tunnista sivuston varmentajaa (CA).">
-<!ENTITY newserver.reason2   "- Sivuston varmenne on puutteellinen, koska palvelimen asetuksissa on virheitä.">
-<!ENTITY newserver.notify    "Huomauta sivuston ylläpitäjää tästä ongelmasta.">
-<!ENTITY newserver.examine   "Tutki varmennetta…">
-<!ENTITY newserver.remember  "Hyväksy varmenne pysyvästi">
-<!ENTITY newserver.session   "Hyväksy varmenne istunnon ajaksi">
-<!ENTITY newserver.refuse    "Älä hyväksy varmennetta, äläkä muodosta yhteyttä sivustoon">
+<!ENTITY newserver.title    "Tuntemattoman tahon varmentama sivusto">
+<!ENTITY newserver.reasons  "Virheen mahdollisia syitä:">
+<!ENTITY newserver.reason1  "- Selain ei tunnista sivuston varmentajaa (CA).">
+<!ENTITY newserver.reason2  "- Sivuston varmenne on puutteellinen, koska palvelimen asetuksissa on virheitä.">
+<!ENTITY newserver.notify   "Huomauta sivuston ylläpitäjää tästä ongelmasta.">
+<!ENTITY newserver.examine  "Tutki varmennetta…">
+<!ENTITY newserver.remember "Hyväksy varmenne pysyvästi">
+<!ENTITY newserver.session  "Hyväksy varmenne istunnon ajaksi">
+<!ENTITY newserver.refuse   "Älä hyväksy varmennetta, äläkä muodosta yhteyttä sivustoon">

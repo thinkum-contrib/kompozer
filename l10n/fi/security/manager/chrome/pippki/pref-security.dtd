@@ -36,18 +36,18 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  resetsettings.label     "Tyhjennä asetukset">
-<!ENTITY  resetpreferences.label  "Tyhjennä asetukset…">
-<!ENTITY  managecerts.caption     "Varmenteiden hallinta">
-<!ENTITY  managecerts.text        "Napsauta tästä hallinnoidaksesi omia, muiden yksilöiden ja varmentajien varmenteita.">
-<!ENTITY  managecerts.button      "Varmenteiden hallinta…">
-<!ENTITY  managecerts.accesskey   "V">
-<!ENTITY  managedevices.caption   "Turvallisuuslaitteiden hallinta">
-<!ENTITY  managedevices.text      "Napsauta tästä hallinnoidaksesi turvalaitteita kuten älykortteja.">
-<!ENTITY  managedevices.button    "Turvallisuuslaitteiden hallinta…">
-<!ENTITY  managedevices.accesskey    "T">
+<!ENTITY  resetsettings.label      "Tyhjennä asetukset">
+<!ENTITY  resetpreferences.label   "Tyhjennä asetukset…">
+<!ENTITY  managecerts.caption      "Varmenteiden hallinta">
+<!ENTITY  managecerts.text         "Napsauta tästä hallinnoidaksesi omia, muiden yksilöiden ja varmentajien varmenteita.">
+<!ENTITY  managecerts.button       "Varmenteiden hallinta…">
+<!ENTITY  managecerts.accesskey    "V">
+<!ENTITY  managedevices.caption    "Turvallisuuslaitteiden hallinta">
+<!ENTITY  managedevices.text       "Napsauta tästä hallinnoidaksesi turvalaitteita kuten älykortteja.">
+<!ENTITY  managedevices.button     "Turvallisuuslaitteiden hallinta…">
+<!ENTITY  managedevices.accesskey  "T">
 
-<!ENTITY  ssl.label               "SSL">
+<!ENTITY  ssl.label                "SSL">
 
-<!ENTITY  pref.certs.title        "Varmenteet">
-<!ENTITY  certs.label             "Varmenteet">
+<!ENTITY  pref.certs.title         "Varmenteet">
+<!ENTITY  certs.label              "Varmenteet">

@@ -34,17 +34,17 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label  "Tunnuksen ominaisuudet">
+<!ENTITY windowTitle.label "Tunnuksen ominaisuudet">
 
-<!ENTITY Settings.label  "Asetukset">
-<!ENTITY Settings.accesskey  "A">
+<!ENTITY Settings.label "Asetukset">
+<!ENTITY Settings.accesskey "A">
 
-<!ENTITY EditLabelText.label  "Muokkaa tekstiä:">
-<!ENTITY EditLabelText.accesskey  "M">
-<!ENTITY LabelFor.label  "Seuraavalle kontrollille:">
-<!ENTITY LabelFor.accesskey  "k">
-<!ENTITY AccessKey.label  "Valintanäppäin:">
-<!ENTITY AccessKey.accesskey  "V">
+<!ENTITY EditLabelText.label "Muokkaa tekstiä:">
+<!ENTITY EditLabelText.accesskey "M">
+<!ENTITY LabelFor.label "Seuraavalle kontrollille:">
+<!ENTITY LabelFor.accesskey "k">
+<!ENTITY AccessKey.label "Valintanäppäin:">
+<!ENTITY AccessKey.accesskey "V">
 
-<!ENTITY RemoveLabel.label  "Poista nimiö">
-<!ENTITY RemoveLabel.accesskey  "t">
+<!ENTITY RemoveLabel.label "Poista nimiö">
+<!ENTITY RemoveLabel.accesskey "t">

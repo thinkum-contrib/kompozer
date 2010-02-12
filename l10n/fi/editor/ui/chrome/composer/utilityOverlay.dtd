@@ -1,41 +1,44 @@
-<!ENTITY undoCmd.label						 "Kumoa">
-<!ENTITY undoCmd.key						 "Z">
-<!ENTITY undoCmd.accesskey					 "m">
-<!ENTITY redoCmd.label						 "Tee uudelleen">
-<!ENTITY redoCmd.key						 "Y">
-<!ENTITY redoCmd.accesskey					 "T">
-<!ENTITY cutCmd.label						 "Leikkaa">
-<!ENTITY cutCmd.key						 "X">
-<!ENTITY cutCmd.accesskey					 "L">
-<!ENTITY copyCmd.label						 "Kopioi">
-<!ENTITY copyCmd.key						 "C">
-<!ENTITY copyCmd.accesskey					 "K">
-<!ENTITY pasteCmd.label						 "Liitä">
-<!ENTITY pasteCmd.key						 "V">
-<!ENTITY pasteCmd.accesskey					 "i">
-<!ENTITY deleteCmd.label					 "Poista">
-<!ENTITY deleteCmd.key						 "D">
-<!ENTITY deleteCmd.accesskey					 "o">
-<!ENTITY selectAllCmd.label					 "Valitse kaikki">
-<!ENTITY selectAllCmd.key					 "A">
-<!ENTITY selectAllCmd.accesskey					 "V">
-<!ENTITY preferencesCmd.label				 "Asetukset…">
-<!ENTITY preferencesCmd.key					 "E">
-<!ENTITY preferencesCmd.accesskey			 "A">
-<!ENTITY findTypeTextCmd.label  "Etsi tekstiä kirjoitettaessa">
-<!ENTITY findTypeTextCmd.accesskey  "t">
-<!ENTITY findTypeLinksCmd.label  "Etsi linkkejä kirjoitettaessa">
-<!ENTITY findTypeLinksCmd.accesskey  "E">
+<!ENTITY undoCmd.label                    "Kumoa">  
+<!ENTITY undoCmd.key                      "Z">  
+<!ENTITY undoCmd.accesskey                "m"> 
+<!ENTITY redoCmd.label                    "Tee uudelleen">  
+<!ENTITY redoCmd.key                      "Y">  
+<!ENTITY redoCmd.accesskey                "T"> 
+<!ENTITY cutCmd.label                     "Leikkaa">  
+<!ENTITY cutCmd.key                       "X">  
+<!ENTITY cutCmd.accesskey                 "L"> 
+<!ENTITY copyCmd.label                    "Kopioi">  
+<!ENTITY copyCmd.key                      "C">  
+<!ENTITY copyCmd.accesskey                "K"> 
+<!ENTITY pasteCmd.label                   "Liitä">  
+<!ENTITY pasteCmd.key                     "V">  
+<!ENTITY pasteCmd.accesskey               "i"> 
+<!ENTITY deleteCmd.label                  "Poista">  
+<!ENTITY deleteCmd.key                    "D">  
+<!ENTITY deleteCmd.accesskey              "o"> 
+<!ENTITY selectAllCmd.label               "Valitse kaikki">  
+<!ENTITY selectAllCmd.key                 "A">  
+<!ENTITY selectAllCmd.accesskey           "V">
+<!ENTITY preferencesCmd.label             "Asetukset…">
+<!ENTITY preferencesCmd.key               "E">
+<!ENTITY preferencesCmd.accesskey         "A">
+<!ENTITY preferencesCmdUnix.label         "Asetukset…">
+<!ENTITY preferencesCmdUnix.accesskey     "A">
 
-<!ENTITY viewToolbarsMenu.label				 "Palkit ja paneelit">
-<!ENTITY viewToolbarsMenu.accesskey			 "P">
+<!ENTITY findTypeTextCmd.label            "Etsi tekstiä kirjoitettaessa">
+<!ENTITY findTypeTextCmd.accesskey        "t">
+<!ENTITY findTypeLinksCmd.label           "Etsi linkkejä kirjoitettaessa">
+<!ENTITY findTypeLinksCmd.accesskey       "E">
 
-<!ENTITY newBlankPageCmd.label  "Composer-sivu">
-<!ENTITY newBlankPageCmd.accesskey  "C">
-<!ENTITY newBlankPageCmd.key  "n">
-<!ENTITY newPageFromTemplateCmd.label  "Malliin perustuva sivu">
-<!ENTITY newPageFromTemplateCmd.accesskey  "M">
+<!ENTITY viewToolbarsMenu.label           "Palkit ja paneelit"> 
+<!ENTITY viewToolbarsMenu.accesskey       "P"> 
 
-<!ENTITY newNavigatorCmd.label				 "Navigator-ikkuna">
-<!ENTITY newNavigatorCmd.key				 "N">
-<!ENTITY newNavigatorCmd.accesskey			 "N">
+<!ENTITY newBlankPageCmd.label            "KompoZer-sivu">
+<!ENTITY newBlankPageCmd.accesskey        "C" >
+<!ENTITY newBlankPageCmd.key              "n" >
+<!ENTITY newPageFromTemplateCmd.label     "Malliin perustuva sivu">
+<!ENTITY newPageFromTemplateCmd.accesskey "M">
+
+<!ENTITY newNavigatorCmd.label            "Navigator-ikkuna">
+<!ENTITY newNavigatorCmd.key              "N">
+<!ENTITY newNavigatorCmd.accesskey        "N">

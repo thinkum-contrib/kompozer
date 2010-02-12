@@ -24,20 +24,20 @@
 
 <!-- Window title -->
 
-<!ENTITY windowTitle.label  "Aktiivisen pisteen ominaisuudet">
+<!ENTITY windowTitle.label "Aktiivisen pisteen ominaisuudet">
 
-<!ENTITY link.label				 "Aktiivisen pisteen linkki">
-<!ENTITY urlFieldset.label		 "Aktiivisen pisteen URL:">
-<!ENTITY altFieldset.label		 "Aktiivisen pisteen vaihtoehtoinen teksti:">
-<!ENTITY browseButton.label		 "Selaa…">
-<!ENTITY targetFieldset.label	 "Kohde">
-<!ENTITY target.label			 "Aktiivisen pisteen kohde">
+<!ENTITY link.label				"Aktiivisen pisteen linkki">
+<!ENTITY urlFieldset.label		"Aktiivisen pisteen URL:">
+<!ENTITY altFieldset.label		"Aktiivisen pisteen vaihtoehtoinen teksti:">
+<!ENTITY browseButton.label		"Selaa…">
+<!ENTITY targetFieldset.label	"Kohde">
+<!ENTITY target.label			"Aktiivisen pisteen kohde">
 
 <!-- Targets -->
-<!ENTITY commonFieldset.label	 "Yleiset kohteet:">
-<!ENTITY none.value				 "(ei mitään)">
-<!ENTITY same.value				 "Sama kehys">
-<!ENTITY whole.value			 "Koko sivu">
-<!ENTITY new.value				 "Uusi ikkuna">
-<!ENTITY parent.value			 "Ylempi kehystaso">
+<!ENTITY commonFieldset.label	"Yleiset kohteet:">
+<!ENTITY none.value				"(ei mitään)">
+<!ENTITY same.value				"Sama kehys">
+<!ENTITY whole.value			"Koko sivu">
+<!ENTITY new.value				"Uusi ikkuna">
+<!ENTITY parent.value			"Ylempi kehystaso">
 

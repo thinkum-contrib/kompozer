@@ -23,82 +23,82 @@
 <!-- These strings are for use specifically in the editor's image and form image dialogs. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Kuvan ominaisuudet">
+<!ENTITY windowTitle.label "Kuvan ominaisuudet">
 
-<!ENTITY pixelsPopup.value  "kuvapistettä">
-<!ENTITY percentPopup.value  "prosenttia">
+<!ENTITY pixelsPopup.value "kuvapistettä">
+<!ENTITY percentPopup.value "prosenttia">
 
 <!-- These are in the Location tab panel -->
-<!ENTITY locationEditField.label  "Kuvan sijainti:">
-<!ENTITY locationEditField.accessKey  "K">
-<!ENTITY locationEditField.tooltip  "Kirjoita kuvan tiedostonimi tai sijainti">
-<!ENTITY title.label  "Työkaluvihje:">
-<!ENTITY title.accessKey  "T">
-<!ENTITY title.tooltip  "HTML:n title-attribuutti, joka näytetään työkaluvihjeenä">
-<!ENTITY altText.label  "Vaihtoehtoinen teksti:">
-<!ENTITY altText.accessKey  "A">
-<!ENTITY altTextEditField.tooltip  "Kirjoita kuvan tilalla näytettävä teksti">
-<!ENTITY noAltText.label  "Älä käytä vaihtoehtoista tekstiä">
-<!ENTITY noAltText.accessKey  "h">
+<!ENTITY locationEditField.label "Kuvan sijainti:">
+<!ENTITY locationEditField.accessKey "K">
+<!ENTITY locationEditField.tooltip "Kirjoita kuvan tiedostonimi tai sijainti">
+<!ENTITY title.label "Työkaluvihje:">
+<!ENTITY title.accessKey "T">
+<!ENTITY title.tooltip "HTML:n title-attribuutti, joka näytetään työkaluvihjeenä">
+<!ENTITY altText.label "Vaihtoehtoinen teksti:">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "Kirjoita kuvan tilalla näytettävä teksti">
+<!ENTITY noAltText.label "Älä käytä vaihtoehtoista tekstiä">
+<!ENTITY noAltText.accessKey "h">
 
-<!ENTITY previewBox.label  "Kuvan esikatselu">
-<!ENTITY MoreFewerButton.tooltip  "Näytä enemmän tai vähemmän muokattavia ominaisuuksia">
+<!ENTITY previewBox.label "Kuvan esikatselu">
+<!ENTITY MoreFewerButton.tooltip "Näytä enemmän tai vähemmän muokattavia ominaisuuksia">
 
 <!-- These controls are in the Dimensions tab panel -->
 <!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
-<!ENTITY actualSize.label  "Todellinen koko:">
-<!ENTITY actualSizeRadio.label  "Todellinen koko">
-<!ENTITY actualSizeRadio.accessKey  "d">
-<!ENTITY actualSizeRadio.tooltip  "Palauta kuvan todellinen koko">
-<!ENTITY customSizeRadio.label  "Mukautettu koko">
-<!ENTITY customSizeRadio.accessKey  "M">
-<!ENTITY customSizeRadio.tooltip  "Muuta kokoa, jolla kuva näytetään sivulla">
-<!ENTITY heightEditField.label  "Korkeus:">
-<!ENTITY heightEditField.accessKey  "r">
-<!ENTITY widthEditField.label  "Leveys:">
-<!ENTITY widthEditField.accessKey  "e">
-<!ENTITY constrainCheckbox.label  "Säilytä muoto">
-<!ENTITY constrainCheckbox.accessKey  "u">
-<!ENTITY constrainCheckbox.tooltip  "Säilytä kuvasuhde">
+<!ENTITY actualSize.label "Todellinen koko:">
+<!ENTITY actualSizeRadio.label "Todellinen koko">
+<!ENTITY actualSizeRadio.accessKey "d">
+<!ENTITY actualSizeRadio.tooltip "Palauta kuvan todellinen koko">
+<!ENTITY customSizeRadio.label "Mukautettu koko">
+<!ENTITY customSizeRadio.accessKey "M">
+<!ENTITY customSizeRadio.tooltip "Muuta kokoa, jolla kuva näytetään sivulla">
+<!ENTITY heightEditField.label "Korkeus:">
+<!ENTITY heightEditField.accessKey "r">
+<!ENTITY widthEditField.label "Leveys:">
+<!ENTITY widthEditField.accessKey "e">
+<!ENTITY constrainCheckbox.label "Säilytä muoto">
+<!ENTITY constrainCheckbox.accessKey "u">
+<!ENTITY constrainCheckbox.tooltip "Säilytä kuvasuhde">
 
 <!-- These controls are in the Image Map box of the expanded area -->
-<!ENTITY imagemapBox.label  "Kuvakartta">
-<!ENTITY removeImageMapButton.label  "Poista">
-<!ENTITY removeImageMapButton.accessKey  "P">
-<!ENTITY editImageMapButton.label  "Muokkaa…">
-<!ENTITY editImageMapButton.tooltip  "Luo kuvaan aktiivisia pisteitä, joita voi napsauttaa">
+<!ENTITY imagemapBox.label "Kuvakartta">
+<!ENTITY removeImageMapButton.label "Poista">
+<!ENTITY removeImageMapButton.accessKey "P">
+<!ENTITY editImageMapButton.label "Muokkaa…">
+<!ENTITY editImageMapButton.tooltip "Luo kuvaan aktiivisia pisteitä, joita voi napsauttaa">
 
 <!-- These are the options for image alignment -->
-<!ENTITY alignment.label  "Kuvan ja tekstin tasaus">
-<!ENTITY bottomPopup.value  "Alaosaan">
-<!ENTITY topPopup.value  "Ylös">
-<!ENTITY centerPopup.value  "Keskelle">
-<!ENTITY wrapRightPopup.value  "Oikealle">
-<!ENTITY wrapLeftPopup.value  "Vasemmalle">
+<!ENTITY alignment.label "Kuvan ja tekstin tasaus">
+<!ENTITY bottomPopup.value "Alaosaan">
+<!ENTITY topPopup.value "Ylös">
+<!ENTITY centerPopup.value "Keskelle">
+<!ENTITY wrapRightPopup.value "Oikealle">
+<!ENTITY wrapLeftPopup.value "Vasemmalle">
 
 <!-- These controls are in the Spacing Box -->
-<!ENTITY spacingBox.label  "Välistys">
-<!ENTITY spacingBox.tooltip  "Määritä, paljonko tyhjää tilaa kuvan ympärillä on">
-<!ENTITY leftRightEditField.label  "Vasemmalla ja oikealla:">
-<!ENTITY leftRightEditField.accessKey  "j">
-<!ENTITY topBottomEditField.label  "Ylhäällä ja alhaalla:">
-<!ENTITY topBottomEditField.accessKey  "Y">
-<!ENTITY borderEditField.label  "Kiinteä reunus:">
-<!ENTITY borderEditField.accessKey  "i">
+<!ENTITY spacingBox.label "Välistys">
+<!ENTITY spacingBox.tooltip "Määritä, paljonko tyhjää tilaa kuvan ympärillä on">
+<!ENTITY leftRightEditField.label "Vasemmalla ja oikealla:">
+<!ENTITY leftRightEditField.accessKey "j">
+<!ENTITY topBottomEditField.label "Ylhäällä ja alhaalla:">
+<!ENTITY topBottomEditField.accessKey "Y">
+<!ENTITY borderEditField.label "Kiinteä reunus:">
+<!ENTITY borderEditField.accessKey "i">
 
 <!-- These controls are in the Link Box -->
-<!ENTITY showImageLinkBorder.label  "Näytä reunus linkkinä toimivan kuvan ympärillä">
-<!ENTITY showImageLinkBorder.accessKey  "N">
+<!ENTITY showImageLinkBorder.label "Näytä reunus linkkinä toimivan kuvan ympärillä">
+<!ENTITY showImageLinkBorder.accessKey "N">
 
 <!-- These controls may be added some day; currently not used -->
-<!ENTITY makePageBackgroundCheckbox.label  "Aseta taustakuvaksi">
-<!ENTITY makePageBackgroundCheckbox.tooltip  "Käytä kuvaa sivusi taustakuvana">
-<!ENTITY editImageButton.label  "Muokkaa kuvaa">
-<!ENTITY editImageButton.tooltip  "Muokkaa kuvaa toisessa ohjelmassa">
+<!ENTITY makePageBackgroundCheckbox.label "Aseta taustakuvaksi">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Käytä kuvaa sivusi taustakuvana">
+<!ENTITY editImageButton.label "Muokkaa kuvaa">
+<!ENTITY editImageButton.tooltip "Muokkaa kuvaa toisessa ohjelmassa">
 
 <!-- These tabs are currently used in the image input dialog -->
-<!ENTITY imageInputTab.label  "Lomake">
-<!ENTITY imageLocationTab.label  "Sijainti">
-<!ENTITY imageDimensionsTab.label  "Mitat">
-<!ENTITY imageAppearanceTab.label  "Ulkoasu">
-<!ENTITY imageLinkTab.label  "Linkki">
+<!ENTITY imageInputTab.label "Lomake">
+<!ENTITY imageLocationTab.label "Sijainti">
+<!ENTITY imageDimensionsTab.label "Mitat">
+<!ENTITY imageAppearanceTab.label "Ulkoasu">
+<!ENTITY imageLinkTab.label "Linkki">

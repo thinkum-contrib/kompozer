@@ -35,15 +35,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title              "Luo yleinen tyyli">
+<!ENTITY window.title             "Luo yleinen tyyli">
 
-<!ENTITY description.label         "Erota tähän elementtiin sisällytetyt CSS-tyylimääritykset ja luo niiden pohjalta sääntö, joka koskee">
-<!ENTITY thisElementOnly.label     "vain tätä elementtiä">
-<!ENTITY allElements.label         "kaikkia elementtejä">
+<!ENTITY description.label        "Erota tähän elementtiin sisällytetyt CSS-tyylimääritykset ja luo niiden pohjalta sääntö, joka koskee">
+<!ENTITY thisElementOnly.label    "vain tätä elementtiä">
+<!ENTITY allElements.label        "kaikkia elementtejä">
 
-<!ENTITY ofClass.label             "joiden luokka on">
-<!ENTITY ofType.label              "jotka ovat samaa elementtityyppiä">
-<!ENTITY whenHovered.label         "joita osoitetaan">
-<!ENTITY autoChoice.label          "Valitse puolestani">
-<!ENTITY alreadyUsedWarning.label  "Varoitus: nimi on jo käytössä!">
-<!ENTITY nameNeededWarning.label   "Tälle elementille täytyy antaa nimi">
+<!ENTITY ofClass.label            "joiden luokka on">
+<!ENTITY ofType.label             "jotka ovat samaa elementtityyppiä">
+<!ENTITY whenHovered.label        "joita osoitetaan">
+<!ENTITY autoChoice.label         "Valitse puolestani">
+<!ENTITY alreadyUsedWarning.label "Varoitus: nimi on jo käytössä!">
+<!ENTITY nameNeededWarning.label  "Tälle elementille täytyy antaa nimi">

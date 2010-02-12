@@ -36,40 +36,40 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!-- Smiley Menu items -->
-<!ENTITY insertSmiley.label  "Hymiö">
-<!ENTITY insertSmiley.accesskey  "H">
+<!ENTITY insertSmiley.label "Hymiö">
+<!ENTITY insertSmiley.accesskey "H">
 
-<!ENTITY smiley1Cmd.label  "Hymy">
-<!ENTITY smiley1Cmd.accesskey  "H">
-<!ENTITY smiley2Cmd.label  "Suru">
-<!ENTITY smiley2Cmd.accesskey  "S">
-<!ENTITY smiley3Cmd.label  "Silmänisku">
-<!ENTITY smiley3Cmd.accesskey  "m">
-<!ENTITY smiley4Cmd.label  "Kieli ulkona">
-<!ENTITY smiley4Cmd.accesskey  "K">
-<!ENTITY smiley5Cmd.label  "Naurava">
-<!ENTITY smiley5Cmd.accesskey  "N">
-<!ENTITY smiley6Cmd.label  "Nolo">
-<!ENTITY smiley6Cmd.accesskey  "l">
-<!ENTITY smiley7Cmd.label  "Epävarma">
-<!ENTITY smiley7Cmd.accesskey  "a">
-<!ENTITY smiley8Cmd.label  "Yllätys">
-<!ENTITY smiley8Cmd.accesskey  "Y">
-<!ENTITY smiley9Cmd.label  "Suukko">
-<!ENTITY smiley9Cmd.accesskey  "u">
-<!ENTITY smiley10Cmd.label  "Huuto">
-<!ENTITY smiley10Cmd.accesskey  "t">
-<!ENTITY smiley11Cmd.label  "Hieno">
-<!ENTITY smiley11Cmd.accesskey  "e">
-<!ENTITY smiley12Cmd.label  "Rahat suussa">
-<!ENTITY smiley12Cmd.accesskey  "r">
-<!ENTITY smiley13Cmd.label  "Jalka suussa">
-<!ENTITY smiley13Cmd.accesskey  "J">
-<!ENTITY smiley14Cmd.label  "Viaton">
-<!ENTITY smiley14Cmd.accesskey  "o">
-<!ENTITY smiley15Cmd.label  "Itku">
-<!ENTITY smiley15Cmd.accesskey  "I">
-<!ENTITY smiley16Cmd.label  "Vaikenee">
-<!ENTITY smiley16Cmd.accesskey  "V">
-<!ENTITY SmileButton.tooltip  "Lisää hymiö">
+<!ENTITY smiley1Cmd.label "Hymy">
+<!ENTITY smiley1Cmd.accesskey "H">
+<!ENTITY smiley2Cmd.label "Suru">
+<!ENTITY smiley2Cmd.accesskey "S">
+<!ENTITY smiley3Cmd.label "Silmänisku">
+<!ENTITY smiley3Cmd.accesskey "m">
+<!ENTITY smiley4Cmd.label "Kieli ulkona">
+<!ENTITY smiley4Cmd.accesskey "K">
+<!ENTITY smiley5Cmd.label "Naurava">
+<!ENTITY smiley5Cmd.accesskey "N">
+<!ENTITY smiley6Cmd.label "Nolo">
+<!ENTITY smiley6Cmd.accesskey "l">
+<!ENTITY smiley7Cmd.label "Epävarma">
+<!ENTITY smiley7Cmd.accesskey "a">
+<!ENTITY smiley8Cmd.label "Yllätys">
+<!ENTITY smiley8Cmd.accesskey "Y">
+<!ENTITY smiley9Cmd.label "Suukko">
+<!ENTITY smiley9Cmd.accesskey "u">
+<!ENTITY smiley10Cmd.label "Huuto">
+<!ENTITY smiley10Cmd.accesskey "t">
+<!ENTITY smiley11Cmd.label "Hieno">
+<!ENTITY smiley11Cmd.accesskey "e">
+<!ENTITY smiley12Cmd.label "Rahat suussa">
+<!ENTITY smiley12Cmd.accesskey "R">
+<!ENTITY smiley13Cmd.label "Jalka suussa">
+<!ENTITY smiley13Cmd.accesskey "J">
+<!ENTITY smiley14Cmd.label "Viaton">
+<!ENTITY smiley14Cmd.accesskey "o">
+<!ENTITY smiley15Cmd.label "Itku">
+<!ENTITY smiley15Cmd.accesskey "I">
+<!ENTITY smiley16Cmd.label "Vaikenee">
+<!ENTITY smiley16Cmd.accesskey "V">
+<!ENTITY SmileButton.tooltip "Lisää hymiö">
 

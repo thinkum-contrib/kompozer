@@ -35,51 +35,51 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  pref.validation.title           "Kelpuutus">
+<!ENTITY  pref.validation.title                   "Kelpuutus">
 
-<!ENTITY  validation.crl.caption       "Sulkulista">
-<!ENTITY  validation.crl.description  "Napsauta tästä muokataksesi varmennetietokantaan tallennettuja sulkulistoja (CRL).">
-<!ENTITY  validation.managecrls.button       "Hallinnoi sulkulistoja…">
-<!ENTITY  validation.managecrls.accesskey    "S">
-<!ENTITY  validation.crlmanager.label        "Hallinnoi sulkulistoja">
-<!ENTITY  validation.crlname.label           "Nimi">
-<!ENTITY  validation.crllastupdate.label     "Viimeksi päivitetty">
-<!ENTITY  validation.crlnextupdate.label     "Seuraava päivitys">
-<!ENTITY  validation.crlautoupdateenabled.label    "Automaattinen päivitys">
-<!ENTITY  validation.crlautoupdatestatus.label     "Automaattisen päivityksen tila">
-<!ENTITY  validation.deletecrl.label         "Poista">
+<!ENTITY  validation.crl.caption                  "Sulkulista">
+<!ENTITY  validation.crl.description              "Napsauta tästä muokataksesi varmennetietokantaan tallennettuja sulkulistoja (CRL).">
+<!ENTITY  validation.managecrls.button            "Hallinnoi sulkulistoja…">
+<!ENTITY  validation.managecrls.accesskey         "S">
+<!ENTITY  validation.crlmanager.label             "Hallinnoi sulkulistoja">
+<!ENTITY  validation.crlname.label                "Nimi">
+<!ENTITY  validation.crllastupdate.label          "Viimeksi päivitetty">
+<!ENTITY  validation.crlnextupdate.label          "Seuraava päivitys">
+<!ENTITY  validation.crlautoupdateenabled.label   "Automaattinen päivitys">
+<!ENTITY  validation.crlautoupdatestatus.label    "Automaattisen päivityksen tila">
+<!ENTITY  validation.deletecrl.label              "Poista">
 <!ENTITY  validation.deletecrl.accesskey          "P">
-<!ENTITY  validation.updatecrl.label         "Päivitä">
-<!ENTITY  validation.updatecrl.accesskey          "ä">
-<!ENTITY  validation.advanced.label          "Asetukset">
+<!ENTITY  validation.updatecrl.label              "Päivitä">
+<!ENTITY  validation.updatecrl.accesskey          "P">
+<!ENTITY  validation.advanced.label               "Asetukset">
 <!ENTITY  validation.advanced.accesskey           "A">
 
-<!ENTITY  validation.crl.autoupdate.title             "Sulkulistan automaattisen päivityksen asetukset">
-<!ENTITY  validation.crl.autoupdate.enable.label      "Päivitä tämä sulkulista automaattisesti">
-<!ENTITY  validation.crl.autoupdate.time.label1       "Päivityspäivä">
-<!ENTITY  validation.crl.autoupdate.time.label2       "Päivää jäljellä seuraavaan päivityspäivään">
-<!ENTITY  validation.crl.autoupdate.freq.label1       "Päivitä">
-<!ENTITY  validation.crl.autoupdate.freq.label2       "päivän välein">
-<!ENTITY  validation.crl.autoupdate.url.label         "Sulkulista tuodaan lähteestä:">
-<!ENTITY  crl.import.status.title          "Sulkulistan tuonnin tila">
-<!ENTITY  crl.import.success.message       "Sulkulista (CRL) tuotiin onnistuneesti.">
-<!ENTITY  crl.issuer.label                 "Sulkulistan (CRL) julkaisija:">
-<!ENTITY  crl.issuer.org.label             "Järjestö: ">
-<!ENTITY  crl.issuer.orgunit.label         "Yksikkö: ">
-<!ENTITY  crl.import.nextupdate.label      "Seuraava päivitys: ">
-<!ENTITY  crl.autoupdate.fail.cnt.label       "Edeltävät, toistuvat päivitysvirheet:">
-<!ENTITY  crl.autoupdate.fail.reason.label    "Viimeisimmän päivitysvirheen yksityiskohdat:">
-<!ENTITY  edit.button       "Asetukset">
+<!ENTITY  validation.crl.autoupdate.title         "Sulkulistan automaattisen päivityksen asetukset">
+<!ENTITY  validation.crl.autoupdate.enable.label  "Päivitä tämä sulkulista automaattisesti">
+<!ENTITY  validation.crl.autoupdate.time.label1   "Päivityspäivä">
+<!ENTITY  validation.crl.autoupdate.time.label2   "Päivää jäljellä seuraavaan päivityspäivään">
+<!ENTITY  validation.crl.autoupdate.freq.label1   "Päivitä">
+<!ENTITY  validation.crl.autoupdate.freq.label2   "päivän välein">
+<!ENTITY  validation.crl.autoupdate.url.label     "Sulkulista tuodaan lähteestä:">
+<!ENTITY  crl.import.status.title                 "Sulkulistan tuonnin tila">
+<!ENTITY  crl.import.success.message              "Sulkulista (CRL) tuotiin onnistuneesti.">
+<!ENTITY  crl.issuer.label                        "Sulkulistan (CRL) julkaisija:">
+<!ENTITY  crl.issuer.org.label                    "Järjestö: ">
+<!ENTITY  crl.issuer.orgunit.label                "Yksikkö: ">
+<!ENTITY  crl.import.nextupdate.label             "Seuraava päivitys: ">
+<!ENTITY  crl.autoupdate.fail.cnt.label           "Edeltävät, toistuvat päivitysvirheet:">
+<!ENTITY  crl.autoupdate.fail.reason.label        "Viimeisimmän päivitysvirheen yksityiskohdat:">
+<!ENTITY  edit.button                             "Asetukset">
 
-<!ENTITY validation.ocsp.caption       "OCSP">
-<!ENTITY validation.ocsp.description  "Varmenteet kelpuutetaan yhteydenaikaisella varmenteiden tilantarkastusyhteyskäytännöllä (OCSP) seuraavasti:">
-<!ENTITY disableOCSP.label  "Älä kelpuuta varmenteita OCSP:llä">
-<!ENTITY disableOCSP.accesskey                    "Ä">
-<!ENTITY certOCSP.label  "Kelpuuta varmenteet, jotka määrittävät OCSP-palvelimen osoitteen">
+<!ENTITY validation.ocsp.caption                  "OCSP">
+<!ENTITY validation.ocsp.description              "Varmenteet kelpuutetaan yhteydenaikaisella varmenteiden tilantarkastusyhteyskäytännöllä (OCSP) seuraavasti:">
+<!ENTITY disableOCSP.label                        "Älä kelpuuta varmenteita OCSP:llä">
+<!ENTITY disableOCSP.accesskey                    "l">
+<!ENTITY certOCSP.label                           "Kelpuuta varmenteet, jotka määrittävät OCSP-palvelimen osoitteen">
 <!ENTITY certOCSP.accesskey                       "K">
-<!ENTITY proxyOCSP.label  "Kelpuuta varmenteet OCSP:llä käyttäen seuraavaa osoitetta ja allekirjoittajaa:">
+<!ENTITY proxyOCSP.label                          "Kelpuuta varmenteet OCSP:llä käyttäen seuraavaa osoitetta ja allekirjoittajaa:">
 <!ENTITY proxyOCSP.accesskey                      "e">
-<!ENTITY serviceURL.label  "Palvelu-URL:">
-<!ENTITY serviceURL.accesskey  "P">
-<!ENTITY signingCA.label  "Allekirjoittaja:">
-<!ENTITY signingCA.accesskey  "A">
+<!ENTITY serviceURL.label                         "Palvelu-URL:">
+<!ENTITY serviceURL.accesskey                     "P">
+<!ENTITY signingCA.label                          "Allekirjoittaja:">
+<!ENTITY signingCA.accesskey                      "A">

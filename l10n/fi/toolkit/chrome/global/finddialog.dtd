@@ -1,22 +1,22 @@
 <!-- extracted from finddialog.xul -->
 
-<!ENTITY findDialog.title  "Etsi tältä sivulta">
-<!ENTITY findDialogFrame.title  "Etsi tästä kehyksestä">
-<!ENTITY findField.label  "Etsi:">
-<!ENTITY findField.accesskey  "E">
-<!ENTITY caseSensitiveCheckbox.label  "Huomioi kirjainkoko">
-<!ENTITY caseSensitiveCheckbox.accesskey  "H">
-<!ENTITY wrapCheckbox.label  "Kierrä ympäri">
-<!ENTITY wrapCheckbox.accesskey  "y">
-<!ENTITY backwardsCheckbox.label  "Etsi taaksepäin">
-<!ENTITY backwardsCheckbox.accesskey  "t">
-<!ENTITY findField.tooltip  "Kirjoita yksi tai useampia sana jota etsiä">
-<!ENTITY findButton.label  "Etsi seuraava">
-<!ENTITY findButton.accesskey  "s">
-<!ENTITY cancelButton.label  "Peruuta">
-<!ENTITY closeButton.label  "Sulje">
-<!ENTITY up.label  "Ylös">
-<!ENTITY up.accesskey  "Y">
-<!ENTITY down.label  "Alas">
-<!ENTITY down.accesskey  "A">
-<!ENTITY direction.label  "Etsimissuunta">
+<!ENTITY findDialog.title "Etsi tältä sivulta">
+<!ENTITY findDialogFrame.title "Etsi tästä kehyksestä">
+<!ENTITY findField.label "Etsi:">
+<!ENTITY findField.accesskey "E">
+<!ENTITY caseSensitiveCheckbox.label "Huomioi kirjainkoko">
+<!ENTITY caseSensitiveCheckbox.accesskey "H">
+<!ENTITY wrapCheckbox.label "Kierrä ympäri">
+<!ENTITY wrapCheckbox.accesskey "y">
+<!ENTITY backwardsCheckbox.label "Etsi taaksepäin">
+<!ENTITY backwardsCheckbox.accesskey "t">
+<!ENTITY findField.tooltip "Kirjoita yksi tai useampia sana jota etsiä">
+<!ENTITY findButton.label "Etsi seuraava">
+<!ENTITY findButton.accesskey "s">
+<!ENTITY cancelButton.label "Peruuta">
+<!ENTITY closeButton.label "Sulje">
+<!ENTITY up.label "Ylös">
+<!ENTITY up.accesskey "Y">
+<!ENTITY down.label "Alas">
+<!ENTITY down.accesskey "A">
+<!ENTITY direction.label "Etsimissuunta">

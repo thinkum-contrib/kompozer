@@ -22,18 +22,18 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Luettelon ominaisuudet">
+<!ENTITY windowTitle.label "Luettelon ominaisuudet">
 
-<!ENTITY ListType.label  "Luettelon tyyppi">
-<!ENTITY bulletStyle.label  "Luettelomerkin tyyli:">
-<!ENTITY startingNumber.label  "Aloita numerointi:">
-<!ENTITY startingNumber.accessKey  "A">
-<!ENTITY none.value  "Ei mitään">
-<!ENTITY bulletList.value  "Järjestämätön luettelo">
-<!ENTITY numberList.value  "Numeroitu luettelo">
-<!ENTITY definitionList.value  "Määritelmäluettelo">
-<!ENTITY changeListMsg.label  "Muutettaessa luettelon tyyppiä:">
-<!ENTITY changeEntireListRadio.label  "Muuta koko luettelo">
-<!ENTITY changeEntireListRadio.accessKey  "k">
-<!ENTITY changeSelectedRadio.label  "Muuta vain valitut kohdat">
-<!ENTITY changeSelectedRadio.accessKey  "h">
+<!ENTITY ListType.label "Luettelon tyyppi">
+<!ENTITY bulletStyle.label "Luettelomerkin tyyli:">
+<!ENTITY startingNumber.label "Aloita numerointi:">
+<!ENTITY startingNumber.accessKey "A">
+<!ENTITY none.value "Ei mitään">
+<!ENTITY bulletList.value "Järjestämätön luettelo">
+<!ENTITY numberList.value "Numeroitu luettelo">
+<!ENTITY definitionList.value "Määritelmäluettelo">
+<!ENTITY changeListMsg.label "Muutettaessa luettelon tyyppiä:">
+<!ENTITY changeEntireListRadio.label "Muuta koko luettelo">
+<!ENTITY changeEntireListRadio.accessKey "k">
+<!ENTITY changeSelectedRadio.label "Muuta vain valitut kohdat">
+<!ENTITY changeSelectedRadio.accessKey "h">

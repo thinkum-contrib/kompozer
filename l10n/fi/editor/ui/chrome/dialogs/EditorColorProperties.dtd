@@ -21,26 +21,26 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Sivun värit ja tausta">
-<!ENTITY pageColors.label  "Sivun värit">
-<!ENTITY defaultColorsRadio.label  "Käytä oletusvärejä (älä aseta värejä sivulla)">
-<!ENTITY defaultColorsRadio.accessKey  "o">
-<!ENTITY defaultColorsRadio.tooltip  "Käytä väriasetuksia, jotka on määritetty selaimessa">
-<!ENTITY customColorsRadio.label  "Käytä mukautettuja värejä:">
-<!ENTITY customColorsRadio.accessKey  "j">
-<!ENTITY customColorsRadio.tooltip  "Nämä väriasetukset ohittavat selaimen asetukset">
+<!ENTITY windowTitle.label "Sivun värit ja tausta">
+<!ENTITY pageColors.label "Sivun värit">
+<!ENTITY defaultColorsRadio.label "Käytä oletusvärejä (älä aseta värejä sivulla)">
+<!ENTITY defaultColorsRadio.accessKey "o">
+<!ENTITY defaultColorsRadio.tooltip "Käytä väriasetuksia, jotka on määritetty selaimessa">
+<!ENTITY customColorsRadio.label "Käytä mukautettuja värejä:">
+<!ENTITY customColorsRadio.accessKey "j">
+<!ENTITY customColorsRadio.tooltip "Nämä väriasetukset ohittavat selaimen asetukset">
 
-<!ENTITY normalText.label  "Normaali teksti">
-<!ENTITY normalText.accessKey  "N">
-<!ENTITY linkText.label  "Linkin teksti">
-<!ENTITY linkText.accessKey  "e">
-<!ENTITY activeLinkText.label  "Aktiivisen linkin teksti">
-<!ENTITY activeLinkText.accessKey  "A">
-<!ENTITY visitedLinkText.label  "Avatun linkin teksti">
-<!ENTITY visitedLinkText.accessKey  "k">
-<!ENTITY background.label  "Tausta:">
-<!ENTITY background.accessKey  "T">
-<!ENTITY colon.character  ":">
-<!ENTITY backgroundImage.label  "Taustakuva:">
-<!ENTITY backgroundImage.accessKey  "s">
-<!ENTITY backgroundImage.tooltip  "Käytä kuvaa www-sivusi taustana">
+<!ENTITY normalText.label "Normaali teksti">
+<!ENTITY normalText.accessKey "N">
+<!ENTITY linkText.label "Linkin teksti">
+<!ENTITY linkText.accessKey "e">
+<!ENTITY activeLinkText.label "Aktiivisen linkin teksti">
+<!ENTITY activeLinkText.accessKey "A">
+<!ENTITY visitedLinkText.label "Avatun linkin teksti">
+<!ENTITY visitedLinkText.accessKey "k">
+<!ENTITY background.label "Tausta:">
+<!ENTITY background.accessKey "T">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Taustakuva:">
+<!ENTITY backgroundImage.accessKey "s">
+<!ENTITY backgroundImage.tooltip "Käytä kuvaa www-sivusi taustana">

@@ -22,24 +22,24 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Vaakaviivan ominaisuudet">
+<!ENTITY windowTitle.label "Vaakaviivan ominaisuudet">
 
-<!ENTITY dimensionsBox.label  "Mitat">
-<!ENTITY heightEditField.label  "Korkeus:">
-<!ENTITY heightEditField.accessKey  "K">
-<!ENTITY widthEditField.label  "Leveys:">
-<!ENTITY widthEditField.accessKey  "e">
-<!ENTITY pixelsPopup.value  "kuvapistettä">
-<!ENTITY alignmentBox.label  "Tasaus">
-<!ENTITY leftRadio.value  "Vasen">
-<!ENTITY leftRadio.accessKey  "V">
-<!ENTITY centerRadio.value  "Keskitetty">
-<!ENTITY centerRadio.accessKey  "s">
-<!ENTITY rightRadio.value  "Oikea">
-<!ENTITY rightRadio.accessKey  "a">
+<!ENTITY dimensionsBox.label "Mitat">
+<!ENTITY heightEditField.label "Korkeus:">
+<!ENTITY heightEditField.accessKey "K">
+<!ENTITY widthEditField.label "Leveys:">
+<!ENTITY widthEditField.accessKey "e">
+<!ENTITY pixelsPopup.value "kuvapistettä">
+<!ENTITY alignmentBox.label "Tasaus">
+<!ENTITY leftRadio.value "Vasen">
+<!ENTITY leftRadio.accessKey "V">
+<!ENTITY centerRadio.value "Keskitetty">
+<!ENTITY centerRadio.accessKey "s">
+<!ENTITY rightRadio.value "Oikea">
+<!ENTITY rightRadio.accessKey "a">
 
-<!ENTITY threeDShading.label  "3D-varjostus">
-<!ENTITY threeDShading.accessKey  "D">
-<!ENTITY saveSettings.label  "Käytä oletusarvona">
-<!ENTITY saveSettings.accessKey  "O">
-<!ENTITY saveSettings.tooltip  "Tallenna nämä asetukset ja käytä niitä, kun uusi vaakaviiva lisätään">
+<!ENTITY threeDShading.label "3D-varjostus">
+<!ENTITY threeDShading.accessKey "D">
+<!ENTITY saveSettings.label "Käytä oletusarvona">
+<!ENTITY saveSettings.accessKey "O">
+<!ENTITY saveSettings.tooltip "Tallenna nämä asetukset ja käytä niitä, kun uusi vaakaviiva lisätään">

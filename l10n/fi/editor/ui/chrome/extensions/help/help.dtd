@@ -5,36 +5,35 @@
 
 <!ENTITY findOnCmd.commandkey            "F">
 <!ENTITY findAgainCmd.commandkey         "G">
-
-<!ENTITY findAgainCmd.commandkey2       "VK_F3">
-<!ENTITY findDialog.title		"Etsi tältä sivulta">
-<!ENTITY findDialogFrame.title		"Etsi tästä kehyksestä">
-<!ENTITY findField.label 		"Etsittävä:">
-<!ENTITY findField.accesskey 		"t">
-<!ENTITY caseSensitiveCheckbox.label 	"Huomioi kirjainkoko">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "Etsi tältä sivulta">
+<!ENTITY findDialogFrame.title           "Etsi tästä kehyksestä">
+<!ENTITY findField.label                 "Etsittävä:">
+<!ENTITY findField.accesskey             "t">
+<!ENTITY caseSensitiveCheckbox.label     "Huomioi kirjainkoko">
 <!ENTITY caseSensitiveCheckbox.accesskey "H">
-<!ENTITY wrapCheckbox.label		"Kierrä lopusta alkuun">
-<!ENTITY wrapCheckbox.accesskey 	"K">
-<!ENTITY backwardsCheckbox.label	"Etsi taaksepäin">
-<!ENTITY backwardsCheckbox.accesskey 	"s">
-<!ENTITY findField.tooltip 		"Kirjoita yksi tai useampi hakusana">
-<!ENTITY findButton.label 		"Etsi seuraava">
-<!ENTITY findButton.accesskey 		"E">
-<!ENTITY cancelButton.label 		"Peruuta">
-<!ENTITY up.label 			"Ylös">
-<!ENTITY up.accesskey 			"Y">
-<!ENTITY down.label 			"Alas">
-<!ENTITY down.accesskey 		"A">
-<!ENTITY direction.label 		"Suunta">
+<!ENTITY wrapCheckbox.label              "Kierrä lopusta alkuun">
+<!ENTITY wrapCheckbox.accesskey          "K">
+<!ENTITY backwardsCheckbox.label         "Etsi taaksepäin">
+<!ENTITY backwardsCheckbox.accesskey     "s">
+<!ENTITY findField.tooltip               "Kirjoita yksi tai useampi hakusana">
+<!ENTITY findButton.label                "Etsi seuraava">
+<!ENTITY findButton.accesskey            "E">
+<!ENTITY cancelButton.label              "Peruuta">
+<!ENTITY up.label                        "Ylös">
+<!ENTITY up.accesskey                    "Y">
+<!ENTITY down.label                      "Alas">
+<!ENTITY down.accesskey                  "A">
+<!ENTITY direction.label                 "Suunta">
 
-<!ENTITY find.label 			"Etsi:">
-<!ENTITY findNext.label 		"Etsi seuraava">
-<!ENTITY findNext.tooltip 		"Etsi seuraava hakusanan esiintymä">
-<!ENTITY findPrevious.label 		"Etsi edellinen">
-<!ENTITY findPrevious.tooltip 		"Etsi edellinen hakusanan esiintymä">
-<!ENTITY findCloseButton.tooltip 	"Sulje etsintäpalkki">
-<!ENTITY highlight.label 		"Korosta">
-<!ENTITY highlight.tooltip 		"Korosta kaikki hakusanan esiintymät (Ctrl+Enter)">
+<!ENTITY find.label                      "Etsi:">
+<!ENTITY findNext.label                  "Etsi seuraava">
+<!ENTITY findNext.tooltip                "Etsi seuraava hakusanan esiintymä">
+<!ENTITY findPrevious.label              "Etsi edellinen">
+<!ENTITY findPrevious.tooltip            "Etsi edellinen hakusanan esiintymä">
+<!ENTITY findCloseButton.tooltip         "Sulje etsintäpalkki">
+<!ENTITY highlight.label                 "Korosta">
+<!ENTITY highlight.tooltip               "Korosta kaikki hakusanan esiintymät (Ctrl+Enter)">
 
 <!ENTITY backButton.label                "Edellinen">
 <!ENTITY backButton.accesskey            "E">
@@ -46,42 +45,41 @@
 <!ENTITY homeButton.tooltip              "Siirry ohjeen aloitussivulle">
 <!ENTITY printButton.label               "Tulosta">
 <!ENTITY printButton.tooltip             "Tulosta ohjesivu">
-<!ENTITY findBtn.label		  	 "Etsi">
+<!ENTITY findBtn.label                   "Etsi">
 <!ENTITY sidebarBtn.label                "Näytä/Piilota sivupaneeli">
 <!ENTITY sidebarBtn.tooltip              "Näytä tai piilota ohjeen sivupaneeli">
-<!ENTITY textZoomReduceBtn.label 	 "Pienennä tekstin kokoa">
+<!ENTITY textZoomReduceBtn.label         "Pienennä tekstin kokoa">
 <!ENTITY textZoomReduceBtn.accesskey     "P">
 <!ENTITY textZoomReduceBtn.tooltip       "Pienennä ohjeen tekstin kirjasinkokoa.">
-<!ENTITY textZoomEnlargeBtn.label 	 "Suurenna tekstin kokoa">
+<!ENTITY textZoomEnlargeBtn.label        "Suurenna tekstin kokoa">
 <!ENTITY textZoomEnlargeBtn.accesskey    "S">
 <!ENTITY textZoomEnlargeBtn.tooltip      "Suurenna ohjeen tekstin kirjasinkokoa.">
 <!ENTITY customizeButton.tooltip         "Muokkaa ohjeen työkalupalkkia.">
 <!ENTITY reloadCmd.label                 "Päivitä">
 <!ENTITY reloadCmd.accesskey             "P">
 <!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Kopioi">
+<!ENTITY copyCmd.accesskey               "K">
 
-<!ENTITY copyCmd.label                  "Kopioi">
-<!ENTITY copyCmd.accesskey              "K">
+<!ENTITY throbberItem.title              "Toimintakuvake">
 
-<!ENTITY throbberItem.title             "Toimintakuvake">
+<!ENTITY cmd_CustomizeToolbars.label     "Muokkaa" >
 
-<!ENTITY cmd_CustomizeToolbars.label    "Muokkaa" >
-
-<!ENTITY searchtab.label    	  	 "Etsi">
+<!ENTITY searchtab.label                 "Etsi">
 <!ENTITY searchtab.accesskey             "E">
-<!ENTITY searchbtn.label    	  	 "Etsi">
-<!ENTITY toctab.label       	  	 "Sisällysluettelo">
+<!ENTITY searchbtn.label                 "Etsi">
+<!ENTITY toctab.label                    "Sisällysluettelo">
 <!ENTITY toctab.accesskey                "S">
-<!ENTITY indextab.label     	  	 "Hakemisto">
+<!ENTITY indextab.label                  "Hakemisto">
 <!ENTITY indextab.accesskey              "H">
-<!ENTITY ixname.label       	  	 "Nimi">
-<!ENTITY glossarytab.label  	  	 "Sanaluettelo">
+<!ENTITY ixname.label                    "Nimi">
+<!ENTITY glossarytab.label               "Sanaluettelo">
 <!ENTITY glossarytab.accesskey           "l">
-<!ENTITY glossname.label    	  	 "Nimi">
-<!ENTITY gobtn.label        	  	 "Etsi">
-<!ENTITY name.label	    	  	 "Kohta">
+<!ENTITY glossname.label                 "Nimi">
+<!ENTITY gobtn.label                     "Etsi">
+<!ENTITY name.label                      "Kohta">
 
-<!ENTITY textZoomReduceCmd.commandkey	 "-">
-<!ENTITY textZoomEnlargeCmd.commandkey	 "+">
-<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
 <!ENTITY textZoomResetCmd.commandkey     "0">

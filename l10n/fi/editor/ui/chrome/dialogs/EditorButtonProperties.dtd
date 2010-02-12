@@ -34,26 +34,26 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label  "Painikkeen ominaisuudet">
+<!ENTITY windowTitle.label "Painikkeen ominaisuudet">
 
-<!ENTITY Settings.label  "Asetukset">
+<!ENTITY Settings.label "Asetukset">
 
-<!ENTITY ButtonType.label  "Tyyppi">
-<!ENTITY ButtonType.accesskey  "T">
-<!ENTITY submit.value  "Lähetä">
-<!ENTITY reset.value  "Tyhjennä">
-<!ENTITY button.value  "Painike">
+<!ENTITY ButtonType.label "Tyyppi">
+<!ENTITY ButtonType.accesskey "T">
+<!ENTITY submit.value "Lähetä">
+<!ENTITY reset.value "Tyhjennä">
+<!ENTITY button.value "Painike">
 
-<!ENTITY ButtonName.label  "Nimi:">
-<!ENTITY ButtonName.accesskey  "m">
-<!ENTITY ButtonValue.label  "Arvo:">
-<!ENTITY ButtonValue.accesskey  "A">
-<!ENTITY tabIndex.label  "Sarkainindeksi:">
-<!ENTITY tabIndex.accesskey  "r">
-<!ENTITY ButtonDisabled.label  "Poistettu käytöstä">
-<!ENTITY ButtonDisabled.accesskey  "P">
-<!ENTITY AccessKey.label  "Valintanäppäin:">
-<!ENTITY AccessKey.accesskey  "V">
+<!ENTITY ButtonName.label "Nimi:">
+<!ENTITY ButtonName.accesskey "m">
+<!ENTITY ButtonValue.label "Arvo:">
+<!ENTITY ButtonValue.accesskey "A">
+<!ENTITY tabIndex.label "Sarkainindeksi:">
+<!ENTITY tabIndex.accesskey "r">
+<!ENTITY ButtonDisabled.label "Poistettu käytöstä">
+<!ENTITY ButtonDisabled.accesskey "P">
+<!ENTITY AccessKey.label "Valintanäppäin:">
+<!ENTITY AccessKey.accesskey "V">
 
-<!ENTITY RemoveButton.label  "Poista painike">
-<!ENTITY RemoveButton.accesskey  "n">
+<!ENTITY RemoveButton.label "Poista painike">
+<!ENTITY RemoveButton.accesskey "n">

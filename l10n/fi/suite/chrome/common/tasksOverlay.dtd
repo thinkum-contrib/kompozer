@@ -1,29 +1,44 @@
-<!ENTITY downloadManagerCmd.accesskey "t">
-<!ENTITY downloadManagerCmd.label "Latausten hallinta">
-<!ENTITY editorCmd.accesskey "c">
-<!ENTITY editorCmd.commandkey "4">
-<!ENTITY editorCmd.label "Composer">
-<!ENTITY extensions.label "Laajennukset">
-<!ENTITY javaConsoleCmd.accesskey "J">
-<!ENTITY javaConsoleCmd.label "Java-konsoli">
-<!ENTITY javaScriptConsoleCmd.accesskey "S">
-<!ENTITY javaScriptConsoleCmd.label "JavaScript-konsoli">
-<!ENTITY navigatorCmd.accesskey "n">
-<!ENTITY navigatorCmd.commandkey "1">
-<!ENTITY navigatorCmd.label "Navigator">
-<!ENTITY privacyMenu.accesskey "T">
-<!ENTITY privacyMenu.label "Tietosuoja">
-<!ENTITY securityInfoCmd.accesskey "u">
-<!ENTITY securityInfoCmd.label ".Turvallisuustiedot">
-<!ENTITY switchProfileCmd.accesskey "V">
-<!ENTITY switchProfileCmd.label "Vaihda profiilia…">
-<!ENTITY taskBar.tooltip "Tilarivi">
-<!ENTITY taskComposer.tooltip "Composer">
-<!ENTITY taskNavigator.tooltip "Navigator">
-<!ENTITY tasksMenu.accesskey "y">
-<!ENTITY tasksMenu.label "Työkalut">
-<!ENTITY themes.label "Teemat">
-<!ENTITY webDevelopment.accesskey "W">
-<!ENTITY webDevelopment.label "Web-työkalut">
-<!ENTITY windowMenu.accesskey "I">
-<!ENTITY windowMenu.label "Ikkunat">
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label              "Navigator">  
+<!ENTITY navigatorCmd.accesskey          "N">
+<!ENTITY navigatorCmd.commandkey         "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label                 "KompoZer">
+<!ENTITY editorCmd.accesskey             "C">
+<!ENTITY editorCmd.commandkey            "4">
+
+<!ENTITY securityInfoCmd.label           ".Turvallisuustiedot">  
+<!ENTITY securityInfoCmd.accesskey       "u">
+<!ENTITY javaConsoleCmd.label            "Java-konsoli">
+<!ENTITY javaConsoleCmd.accesskey        "J">
+
+<!ENTITY javaScriptConsoleCmd.label      "JavaScript-konsoli">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label               "Tietosuoja">
+<!ENTITY privacyMenu.accesskey           "T">
+
+<!ENTITY taskNavigator.tooltip           "Navigator">
+<!ENTITY taskComposer.tooltip            "KompoZer">
+<!ENTITY taskBar.tooltip                 "Tilarivi">
+
+<!ENTITY webDevelopment.label            "Web-työkalut">
+<!ENTITY webDevelopment.accesskey        "W">
+
+<!ENTITY windowMenu.label                "Ikkunat">
+<!ENTITY windowMenu.accesskey            "I">
+
+<!ENTITY tasksMenu.label                 "Työkalut">
+<!ENTITY tasksMenu.accesskey             "y"> 
+
+<!ENTITY downloadManagerCmd.label        "Latausten hallinta">
+<!ENTITY downloadManagerCmd.accesskey    "t">
+
+<!ENTITY switchProfileCmd.label          "Vaihda profiilia…">
+<!ENTITY switchProfileCmd.accesskey      "V">
+
+<!ENTITY addons.label                    "Lisäosat">
+<!ENTITY extensions.label                "Laajennukset">
+<!ENTITY themes.label                    "Teemat">

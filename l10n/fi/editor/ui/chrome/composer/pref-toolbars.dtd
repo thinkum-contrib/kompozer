@@ -34,38 +34,38 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY header.title  "Työkalupalkit">
+<!ENTITY header.title "Työkalupalkit">
 
-<!ENTITY composition.caption  "Näytä nämä painikkeet luontityökalupalkissa:">
+<!ENTITY composition.caption "Näytä nämä painikkeet luontityökalupalkissa:">
 
-<!ENTITY new.label  "Uusi">
-<!ENTITY open.label  "Avaa">
-<!ENTITY save.label  "Tallenna">
-<!ENTITY publish.label  "Julkaise">
-<!ENTITY preview.label  "Selaa">
-<!ENTITY cut.label  "Leikkaa">
-<!ENTITY copy.label  "Kopioi">
-<!ENTITY paste.label  "Liitä">
-<!ENTITY print.label  "Tulosta">
-<!ENTITY find.label  "Etsi">
-<!ENTITY image.label  "Kuva">
-<!ENTITY hline.label  "Vaakaviiva">
-<!ENTITY table.label  "Taulukko">
-<!ENTITY link.label  "Linkki">
-<!ENTITY anchor.label  "Ankkuri">
+<!ENTITY new.label "Uusi">
+<!ENTITY open.label "Avaa">
+<!ENTITY save.label "Tallenna">
+<!ENTITY publish.label "Julkaise">
+<!ENTITY preview.label "Selaa">
+<!ENTITY cut.label "Leikkaa">
+<!ENTITY copy.label "Kopioi">
+<!ENTITY paste.label "Liitä">
+<!ENTITY print.label "Tulosta">
+<!ENTITY find.label "Etsi">
+<!ENTITY image.label "Kuva">
+<!ENTITY hline.label "Vaakaviiva">
+<!ENTITY table.label "Taulukko">
+<!ENTITY link.label "Linkki">
+<!ENTITY anchor.label "Ankkuri">
 
-<!ENTITY formatting.caption  "Näytä nämä painikkeet muotoilutyökalupalkissa:">
+<!ENTITY formatting.caption "Näytä nämä painikkeet muotoilutyökalupalkissa:">
 
-<!ENTITY smaller.label  "Pienennä">
-<!ENTITY larger.label  "Suurenna">
-<!ENTITY bold.label  "Lihavoi">
-<!ENTITY bullets.label  "Luettelomerkit">
-<!ENTITY numbers.label  "Numerointi">
-<!ENTITY italic.label  "Kursivoi">
-<!ENTITY outdent.label  "Ulonna">
-<!ENTITY indent.label  "Sisennä">
-<!ENTITY underline.label  "Alleviivaa">
+<!ENTITY smaller.label "Pienennä">
+<!ENTITY larger.label "Suurenna">
+<!ENTITY bold.label "Lihavoi">
+<!ENTITY bullets.label "Luettelomerkit">
+<!ENTITY numbers.label "Numerointi">
+<!ENTITY italic.label "Kursivoi">
+<!ENTITY outdent.label "Ulonna">
+<!ENTITY indent.label "Sisennä">
+<!ENTITY underline.label "Alleviivaa">
 
-<!ENTITY absolutePosition.label  "Absoluuttinen asemointi">
-<!ENTITY decreaseZIndex.label  "Vie taakse">
-<!ENTITY increaseZIndex.label  "Tuo eteen">
+<!ENTITY absolutePosition.label "Absoluuttinen asemointi">
+<!ENTITY decreaseZIndex.label "Vie taakse">
+<!ENTITY increaseZIndex.label "Tuo eteen">

@@ -35,32 +35,32 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY previewColour.label      "Esikatselu:">
-<!ENTITY dialog.title             "Valitse väri">
+<!ENTITY previewColour.label       "Esikatselu:">
+<!ENTITY dialog.title              "Valitse väri">
 
-<!ENTITY predef.label             "Valmiit värit:">
-<!ENTITY rgb.label                "RGB">
-<!ENTITY hsb.label                "HSB">
+<!ENTITY predef.label              "Valmiit värit:">
+<!ENTITY rgb.label                 "RGB">
+<!ENTITY hsb.label                 "HSB">
 
-<!ENTITY red.label                "Punainen:">
-<!ENTITY green.label              "Vihreä:">
-<!ENTITY blue.label               "Sininen:">
+<!ENTITY red.label                 "Punainen:">
+<!ENTITY green.label               "Vihreä:">
+<!ENTITY blue.label                "Sininen:">
 
-<!ENTITY hue.label                "Sävy:">
-<!ENTITY saturation.label         "Kylläisyys:">
-<!ENTITY brightness.label         "Kirkkaus:">
+<!ENTITY hue.label                 "Sävy:">
+<!ENTITY saturation.label          "Kylläisyys:">
+<!ENTITY brightness.label          "Kirkkaus:">
 
 <!ENTITY transparency.label        "Läpinäkyvä">
 
-<!ENTITY background.label  "Tausta kohteelle:">
-<!ENTITY background.accessKey  "a">
-<!ENTITY table.label  "Taulukko">
-<!ENTITY table.accessKey  "T">
-<!ENTITY cell.label  "Solut">
-<!ENTITY cell.accessKey  "S">
+<!ENTITY background.label          "Tausta kohteelle:">
+<!ENTITY background.accessKey      "a">
+<!ENTITY table.label               "Taulukko">
+<!ENTITY table.accessKey           "T">
+<!ENTITY cell.label                "Solut">
+<!ENTITY cell.accessKey            "S">
 
-<!ENTITY lastPickedColor.label  "Viimeisin poimittu väri">
-<!ENTITY lastPickedColor.accessKey  "m">
+<!ENTITY lastPickedColor.label     "Viimeisin poimittu väri">
+<!ENTITY lastPickedColor.accessKey "m">
 
-<!ENTITY hexColor.label             "Heksadesimaali:">
-<!ENTITY nameColor.label            "Nimi:">
+<!ENTITY hexColor.label            "Heksadesimaali:">
+<!ENTITY nameColor.label           "Nimi:">

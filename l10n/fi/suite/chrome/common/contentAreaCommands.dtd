@@ -1,91 +1,108 @@
-<!ENTITY addToBookmarksCmd.accesskey "k">
-<!ENTITY addToBookmarksCmd.label "Tee tästä sivusta kirjanmerkki">
-<!ENTITY bookmarkFrameCmd.accesskey "k">
-<!ENTITY bookmarkFrameCmd.label "Tee tästä kehyksestä kirjanmerkki">
-<!ENTITY bookmarkLinkCmd.accesskey "r">
-<!ENTITY bookmarkLinkCmd.label "Tee tästä linkistä kirjanmerkki">
-<!ENTITY bookmarkPageCmd.accesskey "k">
-<!ENTITY bookmarkPageCmd.label "Tee tästä sivusta kirjanmerkki">
-<!ENTITY copyCmd.accesskey "o">
-<!ENTITY copyCmd.label "Kopioi">
-<!ENTITY copyEmailCmd.accesskey "ö">
-<!ENTITY copyEmailCmd.label "Kopioi sähköpostiosoite">
-<!ENTITY copyImageCmd.accesskey "i">
-<!ENTITY copyImageCmd.label "Kopioi kuvan sijainti">
-<!ENTITY copyLinkCmd.accesskey "o">
-<!ENTITY copyLinkCmd.label "Kopioi linkin kohde">
-<!ENTITY cutCmd.accesskey "a">
-<!ENTITY cutCmd.label "Leikkaa">
-<!ENTITY deleteCmd.accesskey "P">
-<!ENTITY deleteCmd.label "Poista">
-<!ENTITY fitImageCmd.accesskey "S">
-<!ENTITY fitImageCmd.label "Sovita kuva ikkunaan">
-<!ENTITY goBackCmd.accesskey "E">
-<!ENTITY goBackCmd.label "Edellinen">
-<!ENTITY goForwardCmd.accesskey "S">
-<!ENTITY goForwardCmd.label "Seuraava">
-<!ENTITY metadataCmd.accesskey "m">
-<!ENTITY metadataCmd.label "Ominaisuudet">
-<!ENTITY openFrameCmd.accesskey "A">
-<!ENTITY openFrameCmd.label "Avaa kehys uuteen ikkunaan">
-<!ENTITY openFrameCmdInTab.accesskey "v">
-<!ENTITY openFrameCmdInTab.label "Avaa kehys uuteen välilehteen">
-<!ENTITY openLinkCmd.accesskey "A">
-<!ENTITY openLinkCmd.label "Avaa linkki uuteen ikkunaan">
-<!ENTITY openLinkCmdInTab.accesskey "n">
-<!ENTITY openLinkCmdInTab.label "Avaa linkki uuteen välilehteen">
+<!-- Context Menu -->
+<!ENTITY popupWindowRejectCmd.label     "Estä tämän sivuston ponnahdusikkunat">
+<!ENTITY popupWindowRejectCmd.accesskey "R">
+<!ENTITY popupWindowAllowCmd.label      "Salli tämän sivuston ponnahdusikkunat">
+<!ENTITY popupWindowAllowCmd.accesskey  "A">
+<!ENTITY openLinkCmd.label            "Avaa linkki uuteen ikkunaan">
+<!ENTITY openLinkCmd.accesskey        "A">
+<!ENTITY openLinkCmdInTab.label       "Avaa linkki uuteen välilehteen">
+<!ENTITY openLinkCmdInTab.accesskey   "n">
+<!ENTITY openLinkInWindowCmd.label    "Avaa">
 <!ENTITY openLinkInWindowCmd.accesskey "A">
-<!ENTITY openLinkInWindowCmd.label "Avaa">
-<!ENTITY pasteCmd.accesskey "L">
-<!ENTITY pasteCmd.label "Liitä">
-<!ENTITY popupWindowAllowCmd.accesskey "">
-<!ENTITY popupWindowAllowCmd.label "Salli tämän sivuston ponnahdusikkunat">
-<!ENTITY popupWindowRejectCmd.accesskey "">
-<!ENTITY popupWindowRejectCmd.label "Estä tämän sivuston ponnahdusikkunat">
-<!ENTITY redoCmd.accesskey "u">
-<!ENTITY redoCmd.label "Tee uudelleen">
-<!ENTITY reloadCmd.accesskey "P">
-<!ENTITY reloadCmd.commandkey "r">
-<!ENTITY reloadCmd.label "Päivitä">
-<!ENTITY reloadFrameCmd.accesskey "P">
-<!ENTITY reloadFrameCmd.label "Päivitä kehys">
-<!ENTITY saveFrameCmd.accesskey "T">
-<!ENTITY saveFrameCmd.label "Tallenna kehys nimellä…">
-<!ENTITY saveImageCmd.accesskey "e">
-<!ENTITY saveImageCmd.label "Tallenna kuva nimellä…">
-<!ENTITY saveLinkCmd.accesskey "d">
-<!ENTITY saveLinkCmd.label "Tallenna linkin kohde nimellä…">
-<!ENTITY savePageCmd.accesskey "T">
-<!ENTITY savePageCmd.commandkey "s">
-<!ENTITY savePageCmd.label "Tallenna sivu nimellä…">
-<!ENTITY search.accesskey "W">
-<!ENTITY selectAllCmd.accesskey "e">
-<!ENTITY selectAllCmd.label "Valitse kaikki">
-<!ENTITY setWallpaperCmd.accesskey "A">
-<!ENTITY setWallpaperCmd.label "Aseta taustakuvaksi">
+<!ENTITY openFrameCmd.label           "Avaa kehys uuteen ikkunaan">
+<!ENTITY openFrameCmd.accesskey       "A">
+<!ENTITY openFrameCmdInTab.label      "Avaa kehys uuteen välilehteen">
+<!ENTITY openFrameCmdInTab.accesskey  "v">
+<!ENTITY showOnlyThisFrameCmd.label     "Näytä vain tämä kehys">
 <!ENTITY showOnlyThisFrameCmd.accesskey "N">
-<!ENTITY showOnlyThisFrameCmd.label "Näytä vain tämä kehys">
-<!ENTITY spellAddToDictionary.label "Lisää sanakirjaan">
-<!ENTITY spellSuggestions.accesskey "O">
-<!ENTITY spellSuggestions.label "Oikeinkirjoitusehdotukset">
-<!ENTITY stopCmd.accesskey "P">
-<!ENTITY stopCmd.label "Pystäytä">
-<!ENTITY thisFrameMenu.accesskey "m">
-<!ENTITY thisFrameMenu.label "Tämä kehys">
-<!ENTITY undoCmd.accesskey "K">
-<!ENTITY undoCmd.label "Kumoa">
-<!ENTITY viewBGImageCmd.accesskey "y">
-<!ENTITY viewBGImageCmd.label "Näytä taustakuva">
-<!ENTITY viewFrameInfoCmd.accesskey "e">
-<!ENTITY viewFrameInfoCmd.label "Näytä kehyksen tiedot">
-<!ENTITY viewFrameSourceCmd.accesskey "s">
-<!ENTITY viewFrameSourceCmd.label "Näytä kehyksen lähdekoodi">
-<!ENTITY viewImageCmd.accesskey "ä">
-<!ENTITY viewImageCmd.label "Näytä kuva">
-<!ENTITY viewPageInfoCmd.accesskey "N">
-<!ENTITY viewPageInfoCmd.label "Näytä sivun tiedot">
-<!ENTITY viewPageSourceCmd.accesskey "u">
-<!ENTITY viewPageSourceCmd.label "Näytä sivun lähdekoodi">
-<!ENTITY viewPartialSourceCmd.accesskey "s">
-<!ENTITY viewPartialSourceForMathMLCmd.label "Näytä MathML-lähdekoodi">
+<!ENTITY addToBookmarksCmd.label      "Tee tästä sivusta kirjanmerkki">
+<!ENTITY addToBookmarksCmd.accesskey  "k">
+<!ENTITY goBackCmd.label              "Edellinen">
+<!ENTITY goBackCmd.accesskey          "E">
+<!ENTITY goForwardCmd.label           "Seuraava">
+<!ENTITY goForwardCmd.accesskey       "S">
+<!ENTITY goUpCmd.label                "Ylös">
+<!ENTITY goUpCmd.accesskey            "Y">
+<!ENTITY reloadCmd.label              "Päivitä">
+<!ENTITY reloadCmd.accesskey          "P">
+<!ENTITY reloadCmd.commandkey         "r">
+<!ENTITY stopCmd.label                "Pystäytä">
+<!ENTITY stopCmd.accesskey            "P">
+<!ENTITY reloadFrameCmd.label         "Päivitä kehys">
+<!ENTITY reloadFrameCmd.accesskey     "P">
 <!ENTITY viewPartialSourceForSelectionCmd.label "Näytä valinnan lähdekoodi">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "Näytä MathML-lähdekoodi">
+<!ENTITY viewPartialSourceCmd.accesskey "s">
+<!ENTITY viewPageSourceCmd.label      "Näytä sivun lähdekoodi">
+<!ENTITY viewPageSourceCmd.accesskey  "u">
+<!ENTITY viewFrameSourceCmd.label     "Näytä kehyksen lähdekoodi">
+<!ENTITY viewFrameSourceCmd.accesskey "s">
+<!ENTITY viewPageInfoCmd.label        "Näytä sivun tiedot">
+<!ENTITY viewPageInfoCmd.accesskey    "N">
+<!ENTITY viewFrameInfoCmd.label       "Näytä kehyksen tiedot">
+<!ENTITY viewFrameInfoCmd.accesskey   "e">
+<!ENTITY fitImageCmd.label            "Sovita kuva ikkunaan">
+<!ENTITY fitImageCmd.accesskey        "S">
+<!ENTITY viewImageCmd.label           "Näytä kuva">
+<!ENTITY viewImageCmd.accesskey       "N">
+<!ENTITY viewBGImageCmd.label         "Näytä taustakuva">
+<!ENTITY viewBGImageCmd.accesskey     "y">
+<!ENTITY setWallpaperCmd.label        "Aseta taustakuvaksi">
+<!ENTITY setWallpaperCmd.accesskey    "A">
+<!ENTITY bookmarkPageCmd.label        "Tee tästä sivusta kirjanmerkki">
+<!ENTITY bookmarkPageCmd.accesskey    "k">
+<!ENTITY bookmarkLinkCmd.label        "Tee tästä linkistä kirjanmerkki">
+<!ENTITY bookmarkLinkCmd.accesskey    "r">
+<!ENTITY bookmarkFrameCmd.label       "Tee tästä kehyksestä kirjanmerkki">
+<!ENTITY bookmarkFrameCmd.accesskey   "k">
+<!ENTITY savePageAsCmd.label          "Tallenna sivu nimellä…">
+<!ENTITY savePageCmd.label            "Tallenna sivu nimellä…">
+<!ENTITY savePageCmd.accesskey        "T">
+<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY saveFrameAsCmd.label         "Tallenna Kehys nimellä…">
+<!ENTITY saveFrameCmd.label           "Tallenna kehys nimellä…">
+<!ENTITY saveFrameCmd.accesskey       "T">
+<!ENTITY saveLinkAsCmd.label          "Tallenna Linkin Kohde Nimellä…">
+<!ENTITY saveLinkCmd.label            "Tallenna linkin kohde nimellä…">
+<!ENTITY saveLinkCmd.accesskey        "d">
+<!ENTITY saveImageAsCmd.label         "Tallenna Kuva Nimellä…">
+<!ENTITY saveImageCmd.label           "Tallenna kuva nimellä…">
+<!ENTITY saveImageCmd.accesskey       "e">
+<!ENTITY copyCmd.label                "Kopioi">
+<!ENTITY copyCmd.accesskey            "o">
+<!ENTITY selectAllCmd.label           "Valitse kaikki">
+<!ENTITY selectAllCmd.accesskey       "e">
+<!ENTITY copyLinkCmd.label            "Kopioi linkin kohde">
+<!ENTITY copyLinkCmd.accesskey        "o">
+<!ENTITY copyImageCmd.label           "Kopioi kuvan sijainti">
+<!ENTITY copyImageCmd.accesskey       "i">
+<!ENTITY metadataCmd.label            "Ominaisuudet">
+<!ENTITY metadataCmd.accesskey        "m">
+<!ENTITY copyEmailCmd.label           "Kopioi sähköpostiosoite">
+<!ENTITY copyEmailCmd.accesskey       "K">
+<!ENTITY pasteCmd.label               "Liitä">
+<!ENTITY pasteCmd.accesskey           "L">
+<!ENTITY cutCmd.label                 "Leikkaa">
+<!ENTITY cutCmd.accesskey             "a">
+<!ENTITY deleteCmd.label              "Poista">
+<!ENTITY deleteCmd.accesskey          "P">
+<!ENTITY undoCmd.label                "Kumoa">
+<!ENTITY undoCmd.accesskey            "K">
+<!ENTITY redoCmd.label                "Tee uudelleen">
+<!ENTITY redoCmd.accesskey            "u">
+<!ENTITY thisFrameMenu.label          "Tämä kehys">
+<!ENTITY thisFrameMenu.accesskey      "m">
+<!ENTITY search.accesskey             "W">
+<!ENTITY bidiSwitchPageDirectionItem.label        "Vaihda Sivun Suuntaa">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "V">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Vaihda Tekstin Suuntaa">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "V">
+<!ENTITY spellAddToDictionary.label     "Lisää sanakirjaan">
+<!ENTITY spellAddToDictionary.accesskey "t">
+<!ENTITY spellEnable.label              "Oikolue tämä kenttä">
+<!ENTITY spellEnable.accesskey          "O">
+<!ENTITY spellNoSuggestions.label       "(Ei ehdotuksia)">
+<!ENTITY spellDictionaries.label        "Kielet">
+<!ENTITY spellDictionaries.accesskey    "l">
+<!ENTITY spellAddDictionaries.label     "Lataa lisää sanakirjoja…">
+<!ENTITY spellAddDictionaries.accesskey "L">

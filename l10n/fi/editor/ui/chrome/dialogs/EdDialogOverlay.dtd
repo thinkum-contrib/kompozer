@@ -20,18 +20,18 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label  "Laajennettu muokkaus…">
-<!ENTITY AdvancedEditButton.accessKey  "L">
-<!ENTITY AdvancedEditButton.tooltip  "Lisää tai muokkaa HTML- ja tyyliattribuutteja sekä JavaScriptiä">
-<!ENTITY chooseButton.label  "Valitse tiedosto…">
-<!ENTITY chooseFile.accessKey  "V">
-<!ENTITY chooseFileLink.accessKey  "V">
-<!ENTITY makeUrlRelative.label  "Osoite on suhteellinen">
-<!ENTITY makeUrlRelative.accessKey  "U">
-<!ENTITY makeUrlRelative.tooltip  "Vaihda osoite suhteelliseksi tai absoluuttiseksi. Voit tehdä muutoksen vain, jos sivu on tallennettu.">
+<!ENTITY AdvancedEditButton.label     "Laajennettu muokkaus…">
+<!ENTITY AdvancedEditButton.accessKey "L">
+<!ENTITY AdvancedEditButton.tooltip   "Lisää tai muokkaa HTML- ja tyyliattribuutteja sekä JavaScriptiä">
+<!ENTITY chooseButton.label           "Valitse tiedosto…">
+<!ENTITY chooseFile.accessKey         "V">
+<!ENTITY chooseFileLink.accessKey     "V">
+<!ENTITY makeUrlRelative.label        "Osoite on suhteellinen">
+<!ENTITY makeUrlRelative.accessKey    "U">
+<!ENTITY makeUrlRelative.tooltip      "Vaihda osoite suhteelliseksi tai absoluuttiseksi. Voit tehdä muutoksen vain, jos sivu on tallennettu.">
 
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField.label  "Anna www-sivun osoite, paikallisen tiedoston sijainti tai sähköpostiosoite, tai valitse nimetty ankkuri tai otsikko pudotusvalikosta:">
-<!ENTITY LinkURLEditField.accessKey  "s">
+<!ENTITY LinkURLEditField.label       "Anna www-sivun osoite, paikallisen tiedoston sijainti tai sähköpostiosoite, tai valitse nimetty ankkuri tai otsikko pudotusvalikosta:">
+<!ENTITY LinkURLEditField.accessKey   "s">
 
-<!ENTITY isMailAddress.label  "Yllä oleva on sähköpostiosoite">
+<!ENTITY isMailAddress.label          "Yllä oleva on sähköpostiosoite">

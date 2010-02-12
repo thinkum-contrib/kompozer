@@ -34,47 +34,47 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label  "Lomakkeen kentän ominaisuudet">
-<!ENTITY windowTitleImage.label  "Lomakkeen kuvan ominaisuudet">
+<!ENTITY windowTitle.label "Lomakkeen kentän ominaisuudet">
+<!ENTITY windowTitleImage.label "Lomakkeen kuvan ominaisuudet">
 
-<!ENTITY InputType.label  "Kentän tyyppi">
-<!ENTITY InputType.accesskey  "t">
-<!ENTITY text.value  "Teksti">
-<!ENTITY password.value  "Salasana">
-<!ENTITY checkbox.value  "Valintaruutu">
-<!ENTITY radio.value  "Valintanappi">
-<!ENTITY submit.value  "Lähetyspainike">
-<!ENTITY reset.value  "Tyhjennyspainike">
-<!ENTITY file.value  "Tiedosto">
-<!ENTITY hidden.value  "Piilotettu">
-<!ENTITY image.value  "Kuva">
-<!ENTITY button.value  "Painike">
+<!ENTITY InputType.label "Kentän tyyppi">
+<!ENTITY InputType.accesskey "t">
+<!ENTITY text.value "Teksti">
+<!ENTITY password.value "Salasana">
+<!ENTITY checkbox.value "Valintaruutu">
+<!ENTITY radio.value "Valintanappi">
+<!ENTITY submit.value "Lähetyspainike">
+<!ENTITY reset.value "Tyhjennyspainike">
+<!ENTITY file.value "Tiedosto">
+<!ENTITY hidden.value "Piilotettu">
+<!ENTITY image.value "Kuva">
+<!ENTITY button.value "Painike">
 
-<!ENTITY InputSettings.label  "Kentän asetukset">
-<!ENTITY InputName.label  "Kentän nimi:">
-<!ENTITY GroupName.label  "Ryhmän nimi:">
-<!ENTITY Name.accesskey  "n">
-<!ENTITY InputValue.label  "Kentän arvo:">
-<!ENTITY InitialValue.label  "Alkuarvo:">
-<!ENTITY Value.accesskey  "a">
-<!ENTITY InputChecked.label  "Aluksi valittuna">
-<!ENTITY InputChecked.accesskey  "A">
-<!ENTITY InputSelected.label  "Aluksi valittuna">
-<!ENTITY InputSelected.accesskey  "v">
-<!ENTITY InputReadOnly.label  "Vain luku">
-<!ENTITY InputReadOnly.accesskey  "u">
-<!ENTITY InputDisabled.label  "Pois käytöstä">
-<!ENTITY InputDisabled.accesskey  "s">
-<!ENTITY tabIndex.label  "Sarkainindeksi:">
-<!ENTITY tabIndex.accesskey  "i">
-<!ENTITY TextSize.label  "Kentän koko:">
-<!ENTITY TextSize.accesskey  "K">
-<!ENTITY TextLength.label  "Maksimipituus:">
-<!ENTITY TextLength.accesskey  "M">
-<!ENTITY AccessKey.label  "Valintanäppäin:">
-<!ENTITY AccessKey.accesskey  "p">
-<!ENTITY Accept.label  "Hyväksy tyypit:">
-<!ENTITY Accept.accesskey  "H">
+<!ENTITY InputSettings.label "Kentän asetukset">
+<!ENTITY InputName.label "Kentän nimi:">
+<!ENTITY GroupName.label "Ryhmän nimi:">
+<!ENTITY Name.accesskey "n">
+<!ENTITY InputValue.label "Kentän arvo:">
+<!ENTITY InitialValue.label "Alkuarvo:">
+<!ENTITY Value.accesskey "a">
+<!ENTITY InputChecked.label "Aluksi valittuna">
+<!ENTITY InputChecked.accesskey "A">
+<!ENTITY InputSelected.label "Aluksi valittuna">
+<!ENTITY InputSelected.accesskey "v">
+<!ENTITY InputReadOnly.label "Vain luku">
+<!ENTITY InputReadOnly.accesskey "u">
+<!ENTITY InputDisabled.label "Pois käytöstä">
+<!ENTITY InputDisabled.accesskey "s">
+<!ENTITY tabIndex.label "Sarkainindeksi:">
+<!ENTITY tabIndex.accesskey "i">
+<!ENTITY TextSize.label "Kentän koko:">
+<!ENTITY TextSize.accesskey "K">
+<!ENTITY TextLength.label "Maksimipituus:">
+<!ENTITY TextLength.accesskey "M">
+<!ENTITY AccessKey.label "Valintanäppäin:">
+<!ENTITY AccessKey.accesskey "p">
+<!ENTITY Accept.label "Hyväksy tyypit:">
+<!ENTITY Accept.accesskey "H">
 
-<!ENTITY ImageProperties.label  "Kuvan ominaisuudet…">
-<!ENTITY ImageProperties.accesskey  "d">
+<!ENTITY ImageProperties.label "Kuvan ominaisuudet…">
+<!ENTITY ImageProperties.accesskey "d">

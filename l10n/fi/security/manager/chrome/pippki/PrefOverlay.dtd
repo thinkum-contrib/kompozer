@@ -36,8 +36,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  masterpass.label              "Pääsalasanat">
-<!ENTITY  security.label                "Tietosuoja ja turvallisuus">
-<!ENTITY  ssl.label                     "SSL">
-<!ENTITY  certs.label                   "Varmenteet">
-<!ENTITY  validation.label              "Kelpuutus">
+<!ENTITY  masterpass.label             "Pääsalasanat">
+<!ENTITY  security.label               "Tietosuoja ja turvallisuus">
+<!ENTITY  ssl.label                    "SSL">
+<!ENTITY  certs.label                  "Varmenteet">
+<!ENTITY  validation.label             "Kelpuutus">

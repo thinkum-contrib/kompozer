@@ -21,8 +21,8 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label  "Valitse muokkauksen muutokset">
-<!ENTITY conflictWarning.label  "Jokin muu ohjelma on muokannut sivua, mutta &brandShortName;:ssa tehtyjä muutoksia ei ole tallennettu.">
-<!ENTITY conflictResolve.label  "Valitse säilytettävä versio:">
-<!ENTITY keepCurrentPageButton.label  "Säilytä nykyiset muutokset">
-<!ENTITY useOtherPageButton.label  "Korvaa nykyinen sivu toisen ohjelman muutoksilla">
+<!ENTITY windowTitle.label "Valitse muokkauksen muutokset">
+<!ENTITY conflictWarning.label "Jokin muu ohjelma on muokannut sivua, mutta &brandShortName;:ssa tehtyjä muutoksia ei ole tallennettu.">
+<!ENTITY conflictResolve.label "Valitse säilytettävä versio:">
+<!ENTITY keepCurrentPageButton.label "Säilytä nykyiset muutokset">
+<!ENTITY useOtherPageButton.label "Korvaa nykyinen sivu toisen ohjelman muutoksilla">
