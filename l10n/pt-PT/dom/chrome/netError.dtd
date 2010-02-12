@@ -4,13 +4,13 @@
 
 
 <!ENTITY connectionFailure.title "Falhou ao ligar">
-<!ENTITY connectionFailure.longDesc "<p>Apesar do sítio parecer válido, o navegador foi incapaz de estabelecer uma ligação.</p><ul><li>Pode o sítio estar temporariamente indisponível? Tente novamente mais tarde.</li><li>Não consegue navegar em outros sítios? Verifique a ligação do computador à  rede.</li><li>O seu computador ou rede estão protegidos por uma firewall ou proxy? Definições incorrectas podem interferir com a navegação Web.</li></ul>">
+<!ENTITY connectionFailure.longDesc "<p>Apesar do sítio parecer válido, o navegador foi incapaz de estabelecer uma ligação.</p><ul><li>Pode o sítio estar temporariamente indisponível? Tente novamente mais tarde.</li><li>Não consegue navegar em outros sítios? Verifique a ligação do computador à  rede.</li><li>O seu computador ou rede estão protegidos por um corta-fogo um um mediador? Definições incorrectas podem interferir com a navegação Web.</li></ul>">
 
 <!ENTITY deniedPortAccess.title "Porta restringida por razões de segurança">
 <!ENTITY deniedPortAccess.longDesc "<p>O endereço especifica uma porta (exemplo: <q>mozilla.org:80</q> para a porta 80 no mozilla.org) normalmente utilizada para <em>outros</em> fins para além de navegação Web. O navegador cancelou o pedido para sua protecção e segurança.</p>">
 
 <!ENTITY dnsNotFound.title "Endereço não encontrado">
-<!ENTITY dnsNotFound.longDesc "<p>O navegador não conseguiu encontrar o servidor para o endereço fornecido.</p><ul><li>Enganou-se ao escrever o domínio? (exemplo: <q><strong>ww</strong>.mozilla.org</q> em vez de <q><strong>www</strong>.mozilla.org</q>)</li><li>Tem a certeza de que este endereço de domínio existe? O seu registo pode ter expirado.</li><li>Não consegue navegar em outros sítios? Verifique a sua ligação à rede e as definições do servidor de DNS.</li><li>O seu computador ou rede estão protegidos por uma firewall ou proxy? Definições incorrectas podem interferir com a navegação Web.</li></ul>">
+<!ENTITY dnsNotFound.longDesc "<p>O navegador não conseguiu encontrar o servidor para o endereço fornecido.</p><ul><li>Enganou-se ao escrever o domínio? (exemplo: <q><strong>ww</strong>.mozilla.org</q> em vez de <q><strong>www</strong>.mozilla.org</q>)</li><li>Tem a certeza de que este endereço de domínio existe? O seu registo pode ter expirado.</li><li>Não consegue navegar em outros sítios? Verifique a sua ligação à rede e as definições do servidor de DNS.</li><li>O seu computador ou rede estão protegidos por um corta-fogo ou mediador? Definições incorrectas podem interferir com a navegação Web.</li></ul>">
 
 <!ENTITY fileNotFound.title "Ficheiro não encontrado">
 <!ENTITY fileNotFound.longDesc "<ul><li>Pode o item ter sido renomeado, removido, ou movido?</li><li>Existe algum erro tipográfico no endereço?</li><li>Tem permissões suficientes para o item solicitado?</li></ul>">
@@ -31,16 +31,16 @@
 <!ENTITY netReset.longDesc "<p>A ligação à rede foi interrompida enquanto era negociada uma ligação. Por favor tente novamente.</p>">
 
 <!ENTITY netTimeout.title "Tempo de rede excedido">
-<!ENTITY netTimeout.longDesc "<p>O sítio requerido não respondeu ao pedido de ligação e o navegador deixou de esperar por uma resposta.</p><ul><li>O servidor poderá estar sobrecarregado ou temporariamente indisponível? Tente novamente mais tarde.</li><li>Não consegue navegar noutros sítios? Verifique a ligação do computador à rede.</li><li>Está o seu computador ou rede protegido por uma firewall ou proxy? Definições incorrectas podem interferir com a navegação Web.</li><li>Continua a ter problemas? Consulte o seu administrador de rede ou fornecedor de Internet para assistência.</li></ul>">
+<!ENTITY netTimeout.longDesc "<p>O sítio requerido não respondeu ao pedido de ligação e o navegador deixou de esperar por uma resposta.</p><ul><li>O servidor poderá estar sobrecarregado ou temporariamente indisponível? Tente novamente mais tarde.</li><li>Não consegue navegar noutros sítios? Verifique a ligação do computador à rede.</li><li>Está o seu computador ou rede protegido por um corta-fogo ou mediador? Definições incorrectas podem interferir com a navegação Web.</li><li>Continua a ter problemas? Consulte o seu administrador de rede ou fornecedor de Internet para assistência.</li></ul>">
 
 <!ENTITY protocolNotFound.title "Protocolo desconhecido">
 <!ENTITY protocolNotFound.longDesc "<p>O endereço especifica um protocolo (exemplo: <q>wxyz://</q>) que o navegador não reconhece, logo o navegador é incapaz de se ligar correctamente ao sítio.</p><ul><li>Está a tentar aceder a multimédia ou outros serviços não baseados em texto? Procure por requisitos extra no sítio.</li><li>Alguns protocolos podem necessitar de software de terceiros ou de plugins antes de o navegador os poder reconhecer.</li></ul>">
 
-<!ENTITY proxyConnectFailure.title "O servidor proxy recusou a ligação">
-<!ENTITY proxyConnectFailure.longDesc "<p>O navegador está configurado para utilizar um servidor proxy, mas este recusou a ligação.</p><ul><li>Está a configuração de proxy do navegador correcta? Verifique as definições e tente novamente.</li><li>O serviço de proxy permite ligações desta rede?</li><li>Continua a ter problemas? Consulte o seu administrador de rede ou fornecedor de Internet para assistência.</li></ul>">
+<!ENTITY proxyConnectFailure.title "O servidor mediador recusou a ligação">
+<!ENTITY proxyConnectFailure.longDesc "<p>O navegador está configurado para utilizar um servidor mediador, mas este recusou a ligação.</p><ul><li>Está a configuração de mediador do navegador correcta? Verifique as definições e tente novamente.</li><li>O serviço mediador permite ligações desta rede?</li><li>Continua a ter problemas? Consulte o seu administrador de rede ou fornecedor de Internet para assistência.</li></ul>">
 
-<!ENTITY proxyResolveFailure.title "Servidor de proxy não encontrado">
-<!ENTITY proxyResolveFailure.longDesc "<p>O navegador está configurado para utilizar um servidor proxy, mas este não foi encontrado.</p><ul><li>Está a configuração de proxy do navegador correcta? Verifique as definições e tente novamente.</li><li>O computador está ligado a uma rede activa?</li><li>Continua a ter problemas? Consulte o seu administrador de rede ou fornecedor de Internet para assistência.</li></ul>">
+<!ENTITY proxyResolveFailure.title "Servidor mediador não encontrado">
+<!ENTITY proxyResolveFailure.longDesc "<p>O navegador está configurado para utilizar um servidor mediador, mas este não foi encontrado.</p><ul><li>Está a configuração de mediador do navegador correcta? Verifique as definições e tente novamente.</li><li>O computador está ligado a uma rede activa?</li><li>Continua a ter problemas? Consulte o seu administrador de rede ou fornecedor de Internet para assistência.</li></ul>">
 
 <!ENTITY redirectLoop.title "Ciclo de redireccionamento">
 <!ENTITY redirectLoop.longDesc "<p>O navegador parou de tentar obter o item requerido. O sítio está a redireccionar o pedido de modo a que este nunca seja concluído.</p><ul><li>Desactivou ou bloqueou cookies requeridas por este sítio?</li><li><em>NOTA</em>: Se aceitar as cookies do sítio não resolver o problema, é provável que seja um problema de configuração do servidor e não do seu computador.</li></ul>">

@@ -1,6 +1,6 @@
 <!ENTITY ListType.label "Tipo de lista">
-<!ENTITY bulletList.value "Lista de marcadores (não numerada)">
-<!ENTITY bulletStyle.label "Estilo do marcador">
+<!ENTITY bulletList.value "Lista com marcas (não numerada)">
+<!ENTITY bulletStyle.label "Estilo da marca">
 <!ENTITY changeEntireListRadio.accessKey "t">
 <!ENTITY changeEntireListRadio.label "Alterar toda a lista">
 <!ENTITY changeListMsg.label "Ao alterar o tipo de lista:">

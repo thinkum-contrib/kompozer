@@ -4,8 +4,8 @@
 <!ENTITY validation.ocsp.description "O &brandShortName; pode utilizar o protocolo Online Certificate Status Protocol (OCSP) para verificar certificados. O &brandShortName; deve:">
 <!ENTITY disableOCSP.label "Não utilizar o OCSP para validação de certificados">
 <!ENTITY certOCSP.label "Utilizar o OCSP para validar só os certificados que indiquem URL para serviço OCSP">
-<!ENTITY proxyOCSP.label "Utilizar o OCSP para validar todos os certificados utilizando esta URL e signatário:">
-<!ENTITY serviceURL.label "URL do serviço:">
+<!ENTITY proxyOCSP.label "Utilizar o OCSP para validar todos os certificados utilizando este URL e signatário:">
+<!ENTITY serviceURL.label "Endereço URL do serviço:">
 <!ENTITY serviceURL.accesskey "S">
 <!ENTITY signingCA.label "Resposta do signatário:">
 <!ENTITY signingCA.accesskey "R">

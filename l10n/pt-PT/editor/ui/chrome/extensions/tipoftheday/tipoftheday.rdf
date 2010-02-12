@@ -42,117 +42,102 @@
   <channel>
     <title>KompoZer tips</title>
     <link>http://www.kompozer.net/</link>
-    <description>KompoZer tip of the day Archive</description>
-    <language>en-us</language>
+    <description>KompoZer  - Ficheiro de Dicas do Dia</description>
+    <language>pt_PT</language>
   
     <item>
-      <title>…you can move elements?</title>
-      <description>Just place the caret in the block you'd like to move and
-                   click once on the Layer button to make the block movable.
+      <title>... pode mover elementos?</title>
+      <description>Basta colocar o cursor no bloco que pretende mover e clicar no botão "Posicionamento asoluto" (do lado direito da interface) para tornar o bloco móvel.
       </description>
     </item>
   
     <item>
-      <title>…you can customize the toolbars?</title>
-      <description>Use the menu "View > Show/Hide > Customize Toolbar" to open
-                   the toolbar customization panel. Then use drag and drop to
-                   add, move or remove buttons and spaces/separators.
-      </description>
+      <title>... pode personalizar as barras de ferramentas?</title>
+      <description>Clique com o botão direito do rato sobre uma barra para abrir o painel de personalização. Depois, use clicar e arrastar para adicionar, mover ou remover botões e espaçadores ou separadores.
+       </description>
+    </item>
+  
+ 
+    <item>
+      <title>... o KompoZer tem um editor de páginas CSS?</title>
+      <description>O KompoZer integra o editor CaScadeS. Abra-o utilizando o menu "Ferramentas > Editor de folhas CSS".</description>
     </item>
   
     <item>
-      <title>…you can create a new toolbar?</title>
-      <description>Use the menu "View > Show/Hide > Customize Toolbar > Format
-                   toolbar" to open the toolbar customization panel. Then
-                   click on the "Add new toolbar" button. Empty toolbars
-                   automatically disappear when the customization panel is
-                   closed.</description>
-    </item>
-  
-    <item>
-      <title>…KompoZer has a CSS editor?</title>
-      <description>KompoZer integrates the CaScadeS CSS editor. Open it using the
-                   Tool > CSS Editor menu.</description>
-    </item>
-  
-    <item>
-      <title>…KompoZer has a Site Manager?</title>
-      <description>Use the F9 key or the "View > Show/Hide > Site Manager"
-                   menu to show or hide the Site Manager.</description>
+      <title>... que o KompoZer tem um Gestor de Sítios?</title>
+      <description>Utilize a tecla F9 ou o menu "Ver > Mostrar/Ocultar > Painel" para ver ou ocultar o referido gestor.
+</description>
     </item>
 
     <item>
-      <title>…you can apply CSS styles to any element?</title>
-      <description>Place the caret in the element you wish to style and right-
-                   click on the element's tag in the structure toolbar at the
-                   bottom of the main window of KompoZer. The "Inline styles" and
-                   its menu items will let you style directly that element.
+      <title>... pode aplicar estilos CSS a um elemento?</title>
+      <description>Coloque o cursor sobre o elemento a que deseja aplicar o estilo e clique com o botão direito do rato sobre a etiqueta do elemento na barra de estrutura na parte inferior da janela principal do KompoZer. Utilize o menu "Estilos na linha" e respectivos itens para aplicar os estilos directamente ao elemento em questão.
       </description>
     </item>
 
     <item>
-      <title>…you can control the writing direction?</title>
-      <description>Customize your toolbars and add the two direction control
-                   buttons.</description>
+      <title>... pode controlar o sentido da escrita?</title>
+      <description>Basta personalizar as suas barras de ferramentas adicionando dois botões de controlo do sentido da escrita.
+</description>
     </item>
 
     <item>
-      <title>…you can resize table with the mouse?</title>
-      <description>Just show the rulers using View > Show/Hide > Rulers and
-                   place the caret inside a table cell to see resizers appear.
+      <title>... pode redimensionar as tabelas com o rato?</title>
+      <description>Basta tornar visíveis as réguas, se o não estiverem, por meio de "Ver > Mostrar/Ocultar > Réguas" e colocar o cursor dentro de uma célula para que as pegas de redimensionamento e as medidas em píxeis apareçam.
       </description>
     </item>
 
     <item>
-      <title>…you can very easily customize a toolbar?</title>
-      <description>Just right-click on it…</description>
+      <title>... pode facilmente personalizar uma barra de ferramentas?</title>
+      <description>Basta clicar com o botão direito do rato sobre ela...
+</description>
     </item>
 
     <item>
-      <title>…you have direct access to the KompoZer community?</title>
-      <description>Just select the Help > Forums menu entry.</description>
+      <title>... tem acesso directo à comunidade do KompoZer?</title>
+      <description>Basta clicar em "Ajuda > Fóruns".</description>
     </item>
 
     <item>
-      <title>…KompoZer can automatically open a document at launch?</title>
-      <description>Use the command-line:      KompoZer _your_url_</description>
+      <title>... o KompoZer pode abrir automaticamente um documento quando arranca?</title>
+      <description>Utilize a linha de comandos:
+KompoZer URL_do_documento</description>
     </item>
 
     <item>
-      <title>…you can edit more than one site at the same time?</title>
-      <description>The Site Manager can open and show the contents of multiple web sites
-                   at the same time.</description>
+      <title>...pode editar mais do que um sítio em simultâneo?</title>
+      <description>O Gestor de Sítios pode abrir e mostrar o conteúdo de múltiplos sítios ao mesmo tempo.
+                  </description>
     </item>
 
     <item>
-      <title>…KompoZer is cross-platform?</title>
-      <description>KompoZer exists on a wide variety of operating systems, including
-                   Windows, Mac OS X, many flavors of Linux, OS/2, …</description>
+      <title>... o KompoZer é multiplataforma?</title>
+      <description>O KompoZer funciona numa grande variedade de sistemas operativos, incluindo os seguintes: Windows, Mac OS X, diversas distribuições de Linux, OS/2, ...</description>
     </item>
 
     <item>
-      <title>…you can create a new tab with a key combination?</title>
-      <description>Control+t (Command+t on Mac OS X) will create a new blank tab</description>
+      <title>... pode criar um novo separador por meio de uma combinação de teclas?</title>
+      <description>Ctrl+t (Command+t no Mac OS X) criará um novo separador.</description>
     </item>
 
     <item>
-      <title>…you can create a new window with a key combination?</title>
-      <description>Control+shift+n (Command+shift+t on Mac OS X) will create a new blank window</description>
+      <title>...pode criar uma nova janela por meio de uma combinação de teclas?</title>
+      <description>Ctrl+shift+n (Command+shift+t no Mac OS X) criará uma nova janela em branco.</description>
     </item>
 
     <item>
-      <title>…you can change the border of a single table cell?</title>
-      <description>Place the caret in that cell, right-click on the cell in the status bar and select Inline Styles &gt; Border Properties</description>
+      <title>...pode modificar o contorno de uma única célula de uma tabela?</title>
+      <description>Coloque o cursor nessa célula e clique com o botão direito do rato sobre a célula na barra de estado e seleccione "Estilos na linha" e seguidamente o separador "Contornos" para definir as respectivas propriedades.</description>
     </item>
 
     <item>
-      <title>…you can close a tab with one click?</title>
-      <description>Just middle-click on the tab itself</description>
+      <title>... pode fechar um separador por meio de um clique?</title>
+      <description>Basta clicar sobre o separador com o botão do meio do rato.</description>
     </item>
 
     <item>
-      <title>…you can close the current tab with one key?</title>
-      <description>Control-F4 will close the current tab.</description>
+      <title>... pode fechar o separador actual com uma combinação de teclas?</title>
+      <description>Ctrl+F4 fecha o separador actual.</description>
     </item>
 
   </channel>

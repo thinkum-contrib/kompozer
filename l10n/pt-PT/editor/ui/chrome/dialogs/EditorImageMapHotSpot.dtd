@@ -1,13 +1,13 @@
 <!ENTITY altFieldset.label "Texto alternativo">
 <!ENTITY browseButton.label "Ficheiro…">
 <!ENTITY commonFieldset.label "Destinos comuns:">
-<!ENTITY link.label "Ligação de região quente">
+<!ENTITY link.label "Hiperligação de região quente">
 <!ENTITY new.value "Nova janela">
 <!ENTITY none.value "(nenhum)">
 <!ENTITY parent.value "Quadro de origem">
 <!ENTITY same.value "Mesmo quadro">
 <!ENTITY target.label "Destino da ligação">
 <!ENTITY targetFieldset.label "Configurações da ligação de destino">
-<!ENTITY urlFieldset.label "URL de destino:">
+<!ENTITY urlFieldset.label "Endereço URL de destino:">
 <!ENTITY whole.value "Toda a página">
-<!ENTITY windowTitle.label "Propriedades da ligação">
+<!ENTITY windowTitle.label "Propriedades da hiperligação">

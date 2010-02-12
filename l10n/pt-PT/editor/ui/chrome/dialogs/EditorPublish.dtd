@@ -1,7 +1,7 @@
 <!ENTITY browseUrl.label 'Endereço HTTP da sua página (exemplo: "http://www.servidor.pt/omeunome"):'>
-<!ENTITY browseUrl.tooltip "O endereço HTTP:// do directório home (não incluir o nome do arquivo)">
+<!ENTITY browseUrl.tooltip "O endereço HTTP:// da pasta home (não incluir o nome do ficheiro)">
 <!ENTITY chooseDirButton.label "Seleccionar…">
-<!ENTITY docDirList.label "Subdirectório do sítio para esta página:">
+<!ENTITY docDirList.label "Subpasta do sítio para esta página:">
 <!ENTITY filename.label "Nome do ficheiro:">
 <!ENTITY filename.tooltip 'Forneça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
 <!ENTITY filenameExample.label "exemplo: &quot;omeusitio.html&quot;">
@@ -22,40 +22,40 @@
 <!ENTITY sameLocationRadio.tooltip "Publicar ficheiros no mesmo endereço da página">
 <!ENTITY savePassword.label "Guardar senha">
 <!ENTITY savePassword.tooltip "Seleccione para guardar a sua senha com segurança usando o gestor de senhas">
-<!ENTITY selectDirectory.label "Seleccionar directório…">
+<!ENTITY selectDirectory.label "Seleccionar pasta…">
 <!ENTITY serverInfo.label "Informações do servidor">
-<!ENTITY setDefSiteAndDir.label "Definir como sítio e directório padrão">
-<!ENTITY setDefaultButton.label "Definir como padrão">
+<!ENTITY setDefSiteAndDir.label "Definir como sítio e pasta padrão">
+<!ENTITY setDefaultButton.label "Adoptar como pré-definido">
 <!ENTITY settingsTab.label "Configurações">
 <!ENTITY publishButton.label "Publicar">
-<!ENTITY siteDirList.label "Seleccione ou introduza o nome do directório no sítio de publicação:">
-<!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome do subdirectório remoto para publicar">
+<!ENTITY siteDirList.label "Seleccione ou introduza o nome da pasta no sítio de publicação:">
+<!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome da pasta remota para publicar">
 <!ENTITY siteList.label "Nome do sítio:">
 <!ENTITY siteList.tooltip "Selecione o sítio no qual você deseja publicar">
 <!ENTITY siteName.label "Nome do sítio:">
-<!ENTITY siteName.tooltip 'Um apelido que identifique este sítio de publicação (exemplo: "OMeuSítio")'>
+<!ENTITY siteName.tooltip 'Um nome que identifique o sítio a publicar (exemplo: "OMeuSítio")'>
 <!ENTITY siteUrl.label 'Endereço de publicação (exemplo: "ftp://ftp.servidor.pt/omeunome"):'>
 <!ENTITY siteUrl.tooltip "O endereço FTP:// ou HTTP:// fornecido pelo seu fornecedor de alojamento">
-<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de um subdirectório aonde os ficheiros serão publicados">
-<!ENTITY useSubdirRadio.label "Usar este subdirectório do sítio:">
+<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de uma subpasta em que os ficheiros serão publicados">
+<!ENTITY useSubdirRadio.label "Usar esta subpasta do sítio:">
 <!ENTITY username.label "Nome de utilizador:">
 <!ENTITY username.tooltip "O nome de utilizador que você utiliza com o seu fornecedor de alojamento">
 <!ENTITY windowTitle.label "Publicar página">
 <!ENTITY windowTitleSettings.label "Configurações de publicação">
-<!ENTITY publishButton.label
+<!ENTITY publishButton.label "Publicar">
 <!ENTITY generalSettings.label "Configuração">
 <!ENTITY ftpSettings.label "FTP">
 <!ENTITY localSettings.label "Definições locais">
 <!ENTITY siteDirectory.label "Pasta do sítio">
 <!ENTITY siteDirectory.tooltip "A pasta do seu disco rígido em que se encontra o seu sítio">
 <!ENTITY browsePrefix.label "Prefixo: ">
-<!ENTITY browsePrefix.tooltip "Apagar o prefixo da parte de FTP do URL, porexemplo /public_html">
+<!ENTITY browsePrefix.tooltip "Eliminar o prefixo da parte de FTP do endereço URL, porexemplo /public_html">
 <!ENTITY connection.label "Tipo de ligação">
 <!ENTITY port.label "Porta: ">
 <!ENTITY pasv.label "Modo passivo">
 <!ENTITY security.label "Segurança">
 <!ENTITY none.label "Nenhuma">
-<!ENTITY authtls.label "Autenticação TLS (boa)">
-<!ENTITY authssl.label "Autenticação SSL (melhor)">
+<!ENTITY authtls.label "Autenticação com TLS (boa)">
+<!ENTITY authssl.label "Autenticação com SSL (melhor)">
 <!ENTITY implicit.label "SSL implícito (ainda melhor)">
 <!ENTITY treesync.label "Manter a estrutura de pastas sincronizada durante a navegação">

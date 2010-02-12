@@ -1,4 +1,4 @@
-<!ENTITY LinkURLBox.label "Endereço da ligação">
+<!ENTITY LinkURLBox.label "Endereço da hiperligação">
 <!ENTITY XFNbox.label "Relacionamento">
 <!ENTITY acquaintance.label "conhecido">
 <!ENTITY blankRadio.label "em nova janela">
@@ -14,7 +14,7 @@
 <!ENTITY friendship.label "Amizade">
 <!ENTITY geographical.label "Geografia">
 <!ENTITY kin.label "parente">
-<!ENTITY me.label "O destino da ligação é um outro endereço meu">
+<!ENTITY me.label "O destino da hiperligação é um outro endereço meu">
 <!ENTITY met.label "met">
 <!ENTITY muse.label "musa">
 <!ENTITY neighbor.label "vizinho">
@@ -33,5 +33,5 @@
 <!ENTITY technoratiTagCheckbox.label "Isto é uma etiqueta Technorati">
 <!ENTITY topRadio.label "na mesma janela, descartando todos os quadros">
 <!ENTITY userDefinedRadio.label "neste quadro:">
-<!ENTITY userDefinedTarget.label "A ligação é para ser aberta">
-<!ENTITY windowTitle.label "Propriedades da ligação">
+<!ENTITY userDefinedTarget.label "A ligação será aberta:">
+<!ENTITY windowTitle.label "Propriedades da hiperligação">

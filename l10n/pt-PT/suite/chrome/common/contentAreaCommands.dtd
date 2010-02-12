@@ -16,8 +16,8 @@
 <!ENTITY copyLinkCmd.label "Copiar endereço da ligação">
 <!ENTITY cutCmd.accesskey "t">
 <!ENTITY cutCmd.label "Recortar">
-<!ENTITY deleteCmd.accesskey "x">
-<!ENTITY deleteCmd.label "Excluir">
+<!ENTITY deleteCmd.accesskey "E">
+<!ENTITY deleteCmd.label "Eliminar">
 <!ENTITY fitImageCmd.accesskey "R">
 <!ENTITY fitImageCmd.label "Redimensionar imagem">
 <!ENTITY goBackCmd.accesskey "V">
@@ -73,13 +73,13 @@
 <!ENTITY undoCmd.accesskey "D">
 <!ENTITY undoCmd.label "Desfazer">
 <!ENTITY viewBGImageCmd.accesskey "x">
-<!ENTITY viewBGImageCmd.label "Exibir o plano de fundo">
+<!ENTITY viewBGImageCmd.label "Mostrar o plano de fundo">
 <!ENTITY viewFrameInfoCmd.accesskey "o">
 <!ENTITY viewFrameInfoCmd.label "Propriedades do quadro">
 <!ENTITY viewFrameSourceCmd.accesskey "f">
 <!ENTITY viewFrameSourceCmd.label "Código-fonte deste quadro">
 <!ENTITY viewImageCmd.accesskey "x">
-<!ENTITY viewImageCmd.label "Exibir imagem">
+<!ENTITY viewImageCmd.label "Mostrar imagem">
 <!ENTITY viewPageInfoCmd.accesskey "o">
 <!ENTITY viewPageInfoCmd.label "Propriedades da página">
 <!ENTITY viewPageSourceCmd.accesskey "f">

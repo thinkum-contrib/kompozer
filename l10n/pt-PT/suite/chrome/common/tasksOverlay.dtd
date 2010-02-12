@@ -5,9 +5,9 @@
 <!ENTITY editorCmd.label "Nvu">
 <!ENTITY extensions.label "Extensões">
 <!ENTITY javaConsoleCmd.accesskey "J">
-<!ENTITY javaConsoleCmd.label "Console do Java">
+<!ENTITY javaConsoleCmd.label "Consola do Java">
 <!ENTITY javaScriptConsoleCmd.accesskey "S">
-<!ENTITY javaScriptConsoleCmd.label "Console do JavaScript">
+<!ENTITY javaScriptConsoleCmd.label "Consola do JavaScript">
 <!ENTITY navigatorCmd.accesskey "N">
 <!ENTITY navigatorCmd.commandkey "1">
 <!ENTITY navigatorCmd.label "Mozilla Navigator">
@@ -27,4 +27,4 @@
 <!ENTITY webDevelopment.label "Depurar">
 <!ENTITY windowMenu.accesskey "J">
 <!ENTITY windowMenu.label "Janela">
-<!ENTITY addons.label "Módulos complementares">
+<!ENTITY addons.label "Extensões">

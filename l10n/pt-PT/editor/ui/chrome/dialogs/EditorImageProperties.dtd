@@ -1,13 +1,13 @@
 <!ENTITY MoreFewerButton.tooltip "Mostrar mais ou menos propriedades para editar">
-<!ENTITY actualSize.label "Tamanho real:">
+<!ENTITY actualSize.label "Tamanho original:">
 <!ENTITY actualSizeRadio.accessKey "r">
-<!ENTITY actualSizeRadio.label "Tamanho real">
+<!ENTITY actualSizeRadio.label "Tamanho original">
 <!ENTITY actualSizeRadio.tooltip "Voltar ao tamanho real da imagem">
 <!ENTITY alignment.label "Alinhamento do texto">
 <!ENTITY altText.accessKey "T">
 <!ENTITY altText.label "Texto substituto:">
 <!ENTITY altTextEditField.tooltip "Introduza o texto a mostrar em vez da imagem">
-<!ENTITY borderEditField.accessKey "B">
+<!ENTITY borderEditField.accessKey "S">
 <!ENTITY borderEditField.label "Contorno sólido:">
 <!ENTITY bottomPopup.value "Em baixo">
 <!ENTITY centerPopup.value "No meio">
@@ -16,7 +16,7 @@
 <!ENTITY constrainCheckbox.tooltip "Manter a razão entre a altura e a largura da imagem">
 <!ENTITY customSizeRadio.accessKey "z">
 <!ENTITY customSizeRadio.label "Tamanho personalizado">
-<!ENTITY customSizeRadio.tooltip "Modificar o tamanho de exibição da imagem na página">
+<!ENTITY customSizeRadio.tooltip "Modificar o tamanho de apresentação da imagem na página">
 <!ENTITY editImageButton.label "Editar imagem">
 <!ENTITY editImageButton.tooltip "Editar o ficheiro de imagem noutro programa">
 <!ENTITY editImageMapButton.label "Editar…">
@@ -26,14 +26,14 @@
 <!ENTITY imageAppearanceTab.label "Aparência">
 <!ENTITY imageDimensionsTab.label "Dimensões">
 <!ENTITY imageInputTab.label "Formulário">
-<!ENTITY imageLinkTab.label "Ligação">
+<!ENTITY imageLinkTab.label "Hiperligação">
 <!ENTITY imageLocationTab.label "Endereço">
 <!ENTITY imagemapBox.label "Mapa de imagem">
 <!ENTITY leftRightEditField.accessKey "d">
 <!ENTITY leftRightEditField.label "Esquerdo e direito:">
 <!ENTITY locationEditField.accessKey "m">
 <!ENTITY locationEditField.label "Endereço da imagem:">
-<!ENTITY locationEditField.tooltip "Digite o endereço ou nome do ficheiro da imagem">
+<!ENTITY locationEditField.tooltip "Introduza o endereço nome do ficheiro da imagem">
 <!ENTITY makePageBackgroundCheckbox.label "Definir plano de fundo da página">
 <!ENTITY makePageBackgroundCheckbox.tooltip "Usar imagem como plano de fundo para esta página">
 <!ENTITY noAltText.accessKey "u">
@@ -44,12 +44,12 @@
 <!ENTITY removeImageMapButton.accessKey "x">
 <!ENTITY removeImageMapButton.label "Remover">
 <!ENTITY showImageLinkBorder.accessKey "o">
-<!ENTITY showImageLinkBorder.label "Mostrar contornos da imagem com ligação">
+<!ENTITY showImageLinkBorder.label "Mostrar contornos da imagem com hiperligação">
 <!ENTITY spacingBox.label "Espaçamento">
-<!ENTITY spacingBox.tooltip "Introduza um número para a quantidade de espaço em volta da imagem">
+<!ENTITY spacingBox.tooltip "Introduza um número para definir o espaço em volta da imagem">
 <!ENTITY title.accessKey "D">
 <!ENTITY title.label "Descrição:">
-<!ENTITY title.tooltip 'O atributo "title", normalmente exibido através de um balão quando apontado pelo rato'>
+<!ENTITY title.tooltip 'O atributo "title", normalmente apresentado num balão quando apontado pelo rato'>
 <!ENTITY topBottomEditField.accessKey "S">
 <!ENTITY topBottomEditField.label "Superior e inferior:">
 <!ENTITY topPopup.value "Em cima">

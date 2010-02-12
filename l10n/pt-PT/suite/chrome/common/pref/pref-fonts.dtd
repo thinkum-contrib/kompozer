@@ -1,5 +1,5 @@
 <!ENTITY cursive.accesskey "v">
-<!ENTITY cursive.label "Cursiva:">
+<!ENTITY cursive.label "Cursivo:">
 <!ENTITY fantasy.accesskey "a">
 <!ENTITY fantasy.label "Fantasia:">
 <!ENTITY pref.fonts.title "Tipos de letra">
@@ -32,13 +32,13 @@
 <!ENTITY font.langGroup.user-def "Definido pelo utilizador">
 <!ENTITY fontsize.units "pontos">
 <!ENTITY header2 "Quando uma página especificar os próprios tipos de letra">
-<!ENTITY language.accesskey "F">
-<!ENTITY language.label "Tipos de letra padrão para:">
+<!ENTITY language.accesskey "T">
+<!ENTITY language.label "Tipos de letra pré-definidos para:">
 <!ENTITY minSize.accesskey "a">
-<!ENTITY minSize.label "Tamamnho mínimo permitido:">
-<!ENTITY minSize.none "Nenhum">
+<!ENTITY minSize.label "Tamanho mínimo permitido:">
+<!ENTITY minSize.none "Não limitar">
 <!ENTITY monospace.accesskey "M">
-<!ENTITY monospace.label "Monoespaçada:">
+<!ENTITY monospace.label "Monoespaçado:">
 <!ENTITY newLanguages.label "Novos idiomas podem ser configurados usando a secção Idiomas.">
 <!ENTITY proportional.accesskey "P">
 <!ENTITY proportional.label "Proporcional:">
@@ -46,16 +46,16 @@
 <!ENTITY sans-serif.label "Sem serifa:">
 <!ENTITY serif.accesskey "C">
 <!ENTITY serif.label "Com serifa:">
-<!ENTITY sizes.label "Tam. (pontos):">
+<!ENTITY sizes.label "Tamanho (pontos):">
 <!ENTITY typefaces.label "Nome:">
 <!ENTITY useDefaultFont.accesskey "U">
-<!ENTITY useDefaultFont.label "Usar as fontes padrão e ignorar as fontes especificadas pela página">
+<!ENTITY useDefaultFont.label "Usar os tipos pré-definidos e ignorar os especificados pela página">
 <!ENTITY useDefaultFontSansSerif.label "Sem serifa">
 <!ENTITY useDefaultFontSerif.label "Com serifa">
 <!ENTITY useDocFontDynamic.accesskey "f">
-<!ENTITY useDocFontDynamic.label "Usar as fontes especificadas pela página">
+<!ENTITY useDocFontDynamic.label "Usar os tipos especificados pela página">
 <!ENTITY useDocFontNonDynamic.accesskey "t">
-<!ENTITY useDocFontNonDynamic.label "Usar as fontes escolhidas pela página">
+<!ENTITY useDocFontNonDynamic.label "Usar os tipos escolhidos pela página">
 <!ENTITY useDocumentFonts.accesskey "o">
-<!ENTITY useDocumentFonts.label "Permitir que os documentos usem outras fontes">
+<!ENTITY useDocumentFonts.label "Permitir que os documentos usem outros tipos">
 

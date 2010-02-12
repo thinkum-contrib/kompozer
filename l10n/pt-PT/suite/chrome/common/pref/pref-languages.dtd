@@ -2,7 +2,7 @@
 <!ENTITY langtitle.label "Idiomas para páginas web">
 <!ENTITY languages.customize.Charset.grouplabel "Codificação">
 <!ENTITY languages.customize.DefaultCharset.accesskey "d">
-<!ENTITY languages.customize.DefaultCharset.label "Codificação padrão:">
+<!ENTITY languages.customize.DefaultCharset.label "Codificação pré-definida:">
 <!ENTITY languages.customize.active.label "Idiomas (na ordem de preferência):">
 <!ENTITY languages.customize.add.label "Adicionar">
 <!ENTITY languages.customize.add.title.label "Adicionar idiomas">
@@ -11,8 +11,8 @@
 <!ENTITY languages.customize.additional.label "Codificações disponíveis">
 <!ENTITY languages.customize.available.label "Idiomas:">
 <!ENTITY languages.customize.cancel.label "Cancelar">
-<!ENTITY languages.customize.deleteButton.accesskey "x">
-<!ENTITY languages.customize.deleteButton.label "Excluir">
+<!ENTITY languages.customize.deleteButton.accesskey "E">
+<!ENTITY languages.customize.deleteButton.label "Eliminar">
 <!ENTITY languages.customize.engOption.label "Inglês">
 <!ENTITY languages.customize.engOrder.label "1">
 <!ENTITY languages.customize.lHeader "Idiomas">
@@ -28,8 +28,8 @@
 <!ENTITY languages.customize.prefAddLangDescript "Selecione o(s) idioma(s) que deseja adicionar.">
 <!ENTITY languages.customize.prefLangDescript "Algumas páginas web estão disponíveis em mais de um idioma. Selecione o idioma em que prefere exibi-las.">
 <!ENTITY languages.customize.rHeader "Idiomas em que as páginas web são exibidas">
-<!ENTITY languages.customize.remove.label "Excluir">
+<!ENTITY languages.customize.remove.label "Remover">
 <!ENTITY languages.customize.reorder.label "Reordenar">
-<!ENTITY languages.customize.save.label "Salvar">
+<!ENTITY languages.customize.save.label "Guardar">
 <!ENTITY languages.customize.save.popup "Por favor reinicie o navegador para que as mudanças ocorram…">
 <!ENTITY languages.customize.title.label "Personalizar idiomas">

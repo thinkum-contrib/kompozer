@@ -1,10 +1,10 @@
-<!ENTITY docSubdir.label "Subdirectório da página:">
+<!ENTITY docSubdir.label "Subpasta da página:">
 <!ENTITY failed.label "Erro">
 <!ENTITY fileList.label "Estado da publicação">
 <!ENTITY filenameHeader.label "Nome do ficheiro">
 <!ENTITY keepOpen "Não fechar a janela quando concluir">
-<!ENTITY otherSubdir.label "Subdirectório da imagem:">
-<!ENTITY siteUrl.label "URL do sítio:">
+<!ENTITY otherSubdir.label "Subpasta da imagem:">
+<!ENTITY siteUrl.label "Endereço URL do sítio:">
 <!ENTITY status.label "A publicar…">
 <!ENTITY statusHeader.label "Estado">
 <!ENTITY succeeded.label "Concluída">

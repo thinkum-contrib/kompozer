@@ -2,22 +2,22 @@
 <!ENTITY sidebar.customize.accesskey "S">
 <!ENTITY sidebar.customize.label "Personalizar Painel…">
 <!ENTITY sidebar.hide.accesskey "O">
-<!ENTITY sidebar.hide.label "Ocultar aba">
+<!ENTITY sidebar.hide.label "Ocultar separador">
 <!ENTITY sidebar.loading.label "Carregando…">
 <!ENTITY sidebar.loading.stop.accesskey "P">
 <!ENTITY sidebar.loading.stop.label "Parar">
 <!ENTITY sidebar.loadstopped.label "Carregamento interrompido">
-<!ENTITY sidebar.no-panels.add 'Você pode adicionar abas clicando no botão "Abas" acima.'>
-<!ENTITY sidebar.no-panels.hide "Se você quiser ocultar o Painel totalmente, clique no menu Exibir, Ferramentas e selecione Painel.">
+<!ENTITY sidebar.no-panels.add 'Você pode adicionar separadores clicando no botão "Seperadores" acima.'>
+<!ENTITY sidebar.no-panels.hide "Se você quiser ocultar o Painel totalmente, clique no menu Ver, Ferramentas e seleccione Painel.">
 <!ENTITY sidebar.no-panels.state "O Painel está vazio.">
 <!ENTITY sidebar.open.tooltip "Abrir Painel">
-<!ENTITY sidebar.pagenotfound.label "Esta aba não está disponível neste momento">
+<!ENTITY sidebar.pagenotfound.label "Este separador não está disponível neste momento">
 <!ENTITY sidebar.panels.label "Painel">
 <!ENTITY sidebar.picker.label "Abas">
 <!ENTITY sidebar.reload.accesskey "R">
 <!ENTITY sidebar.reload.label "Recarregar">
-<!ENTITY sidebar.sbDirectory.label "Baixar mais abas">
+<!ENTITY sidebar.sbDirectory.label "Baixar mais separadores">
 <!ENTITY sidebar.switch.accesskey "e">
-<!ENTITY sidebar.switch.label "Alternar para esta aba">
+<!ENTITY sidebar.switch.label "Mudar para este separador">
 <!ENTITY sidebarCmd.accesskey "P">
 <!ENTITY sidebarCmd.label "Painel">

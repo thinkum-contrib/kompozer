@@ -66,36 +66,36 @@
 <!ENTITY cmd.uninstall2.tooltip "Remove este extra quando o &brandShortName; for reiniciado">
 <!ENTITY cmd.cancelUninstall.label "Cancelar a remoção">
 <!ENTITY cmd.cancelUninstall.accesskey "C">
-<!ENTITY cmd.cancelUninstall.tooltip "Cancela a remoção deste extra">
+<!ENTITY cmd.cancelUninstall.tooltip "Cancela a remoção desta  extensão">
 <!ENTITY cmd.installUpdate.label "Instalar actualização">
 <!ENTITY cmd.installUpdate.accesskey "I">
-<!ENTITY cmd.installUpdate.tooltip "Instala uma actualização para este extra">
+<!ENTITY cmd.installUpdate.tooltip "Instalar uma actualização para esta extensão">
 <!-- The selected add-on's cancel action button label -->
 <!ENTITY cancel.label "Cancelar">
 <!ENTITY cancel.accesskey "C">
 <!-- Only displayed in the selected Add-on's context menu -->
 
-<!ENTITY cmd.homepage.label "Visitar a Página">
+<!ENTITY cmd.homepage.label "Visitar a página">
 <!ENTITY cmd.homepage.accesskey "n">
-<!ENTITY cmd.about2.label "Sobre este Extra">
+<!ENTITY cmd.about2.label "Sobre esta extensão">
 <!ENTITY cmd.about.accesskey "a">
 <!ENTITY cmd.checkUpdate.label "Procurar actualizações">
 <!ENTITY cmd.checkUpdate.accesskey "P">
 
-<!ENTITY cmd.includeUpdate.label "Incluir Actualização">
+<!ENTITY cmd.includeUpdate.label "Incluir actualização">
 <!ENTITY cmd.includeUpdate.accesskey "n">
-<!ENTITY includeUpdate.label "Incluir esta Actualização">
+<!ENTITY includeUpdate.label "Incluir esta actualização">
 <!ENTITY includeUpdate.accesskey "n">
-<!ENTITY includeUpdate.tooltip "Incluir este Extra quando se instalar actualizações">
+<!ENTITY includeUpdate.tooltip "Incluir esta extensão quando se instalar actualizações">
 <!-- Status Messsages -->
 
 <!ENTITY needsDependencies.label "Necessita de itens adicionais.">
 <!ENTITY blocklisted.label "Desactivado para sua protecção.">
-<!ENTITY toBeDisabled.label "Este extra será desactivado quando o &brandShortName; for reiniciado.">
-<!ENTITY toBeEnabled.label "Este extra será activado quando o &brandShortName; for reiniciado.">
-<!ENTITY toBeInstalled.label "Este extra será instalado quando o &brandShortName; for reiniciado.">
-<!ENTITY toBeUninstalled.label "Este extra será removido quando o &brandShortName; for reiniciado.">
-<!ENTITY toBeUpgraded.label "Este extra será actualizado quando o &brandShortName; for reiniciado.">
+<!ENTITY toBeDisabled.label "Esta extensão será desactivada quando o &brandShortName; for reiniciado.">
+<!ENTITY toBeEnabled.label "Esta extensão será activada quando o &brandShortName; for reiniciado.">
+<!ENTITY toBeInstalled.label "Esta extensão será instalada quando o &brandShortName; for reiniciado.">
+<!ENTITY toBeUninstalled.label "Esta extensão será removida quando o &brandShortName; for reiniciado.">
+<!ENTITY toBeUpgraded.label "Esta extensão será actualizada quando o &brandShortName; for reiniciado.">
 
 <!ENTITY getExtensions.label "Obter mais extensões">
 <!ENTITY getExtensions.tooltip "Obter mais extensões de addons.mozilla.org">

@@ -1,30 +1,30 @@
 <!ENTITY aboutCmd.accesskey "S">
 <!ENTITY aboutCmd.label "Sobre o &brandShortName;">
 <!ENTITY aboutCommPluginsCmd.accesskey "l">
-<!ENTITY aboutCommPluginsCmd.label "Sobre os plugins">
+<!ENTITY aboutCommPluginsCmd.label "Sobre os acessórios">
 <!ENTITY copyCmd.accesskey "c">
 <!ENTITY copyCmd.key "C">
 <!ENTITY copyCmd.label "Copiar">
 <!ENTITY cutCmd.accesskey "t">
 <!ENTITY cutCmd.key "X">
 <!ENTITY cutCmd.label "Recortar">
-<!ENTITY deleteCmd.accesskey "x">
+<!ENTITY deleteCmd.accesskey "l">
 <!ENTITY deleteCmd.key "D">
-<!ENTITY deleteCmd.label "Excluir">
+<!ENTITY deleteCmd.label "Eliminar">
 <!ENTITY direct.accesskey "s">
-<!ENTITY direct.label "Online (sem proxy)">
+<!ENTITY direct.label "Em linha (sem mediador)">
 <!ENTITY editMenu.accesskey "E">
 <!ENTITY editMenu.label "Editar">
 <!ENTITY fileMenu.accesskey "A">
 <!ENTITY fileMenu.label "Arquivo">
 <!ENTITY findTypeLinksCmd.accesskey "g">
-<!ENTITY findTypeLinksCmd.label "Localizar links ao digitar">
+<!ENTITY findTypeLinksCmd.label "Localizar ligações ao digitar">
 <!ENTITY findTypeTextCmd.accesskey "e">
 <!ENTITY findTypeTextCmd.label "Localizar texto ao digitar">
 <!ENTITY helpMenu.accesskey "u">
 <!ENTITY helpMenu.label "Ajuda">
 <!ENTITY manual.accesskey "m">
-<!ENTITY manual.label "Online (configuração manual de proxy)">
+<!ENTITY manual.label "Online (configuração manual do mediador)">
 <!ENTITY newBlankPageCmd.accesskey "C">
 <!ENTITY newBlankPageCmd.key "n">
 <!ENTITY newBlankPageCmd.label "Composer">
@@ -40,7 +40,7 @@
 <!ENTITY offlineGoOfflineCmd.accesskey "d">
 <!ENTITY offlineGoOfflineCmd.label "Desconectado">
 <!ENTITY pac.accesskey "a">
-<!ENTITY pac.label "Conectado (servidor proxy automático)">
+<!ENTITY pac.label "Conectado (servidor mediador automático)">
 <!ENTITY pasteCmd.accesskey "o">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteCmd.label "Colar">
@@ -48,12 +48,12 @@
 <!ENTITY preferencesCmd.key "O">
 <!ENTITY preferencesCmd.label "Preferências">
 <!ENTITY proxy.accesskey "C">
-<!ENTITY proxy.label "Configurações de proxy…">
+<!ENTITY proxy.label "Configurações de mediador…">
 <!ENTITY redoCmd.accesskey "R">
 <!ENTITY redoCmd.key "Y">
 <!ENTITY redoCmd.label "Refazer">
 <!ENTITY releaseCmd.accesskey "R">
-<!ENTITY releaseCmd.label "Notas de lançamento da versão (Release Notes)">
+<!ENTITY releaseCmd.label "Notas de lançamento da versão">
 <!ENTITY selectAllCmd.accesskey "S">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.label "Selecionar tudo">
@@ -63,7 +63,7 @@
 <!ENTITY undoCmd.key "Z">
 <!ENTITY undoCmd.label "Desfazer">
 <!ENTITY viewMenu.accesskey "x">
-<!ENTITY viewMenu.label "Exibir">
+<!ENTITY viewMenu.label "Ver">
 <!ENTITY viewToolbarsMenu.accesskey "B">
 <!ENTITY viewToolbarsMenu.label "Barras de ferramentas">
 <!ENTITY whatNewCmd.label "Novidades">

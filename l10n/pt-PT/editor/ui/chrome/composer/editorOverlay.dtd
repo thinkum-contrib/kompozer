@@ -1,7 +1,7 @@
 <!ENTITY AddressAbbr.label "Endereço.">
 <!ENTITY AlignPopupButton.tooltip "Seleccione o alinhamento do texto">
-<!ENTITY AllTagsMode.accesskey "x">
-<!ENTITY AllTagsMode.label "Exibir etiquetas">
+<!ENTITY AllTagsMode.accesskey "e">
+<!ENTITY AllTagsMode.label "Mostrar etiquetas">
 <!ENTITY AllTagsMode.tooltip "Mostrar ícones para todas as etiquetas HTML">
 <!ENTITY BackgroundColorButton.tooltip "Cor do plano de fundo">
 <!ENTITY BlockquoteAbbr.label "BQ">
@@ -21,7 +21,7 @@
 <!ENTITY NormalAbbr.label "Texto">
 <!ENTITY NormalMode.accesskey "N">
 <!ENTITY NormalMode.label "Normal">
-<!ENTITY NormalMode.tooltip "Exibir contornos nas tabelas e âncoras com nome">
+<!ENTITY NormalMode.tooltip "Mostrar contornos nas tabelas e âncoras com nome">
 <!ENTITY NormalModeTab.label "Normal">
 <!ENTITY ParagraphAbbr.label "P">
 <!ENTITY ParagraphSelect.tooltip "Seleccionar um formato de parágrafo">
@@ -69,7 +69,7 @@
 <!ENTITY bottomGlued.tooltip "Prender ao rodapé">
 <!ENTITY bugReportsMenu.label "Reportar defeitos e sugestões">
 <!ENTITY bugreportsmenu.accesskey "R">
-<!ENTITY bulletListToolbarCmd.tooltip "Aplicar ou remover lista com marcadores">
+<!ENTITY bulletListToolbarCmd.tooltip "Aplicar ou remover lista com marcas">
 <!ENTITY centerGlued.tooltip "Deixar no centro">
 <!ENTITY checkLinksCmd.label "Verificar ligações">
 <!ENTITY checkSpellingCmd.label "Verificar ortografia">
@@ -91,24 +91,24 @@
 <!ENTITY copyCmd.label "Copiar">
 <!ENTITY createLinkCmd.label "Inserir ligação…">
 <!ENTITY createlink.accesskey "l">
-<!ENTITY customizeToolbar.accesskey "c">
+<!ENTITY customizeToolbar.accesskey "P">
 <!ENTITY customizeToolbar.label "Personalizar barra de ferramentas">
 <!ENTITY cut.accesskey "t">
 <!ENTITY cutCmd.label "Recortar">
 <!ENTITY debugMenu.label "Depurar">
 <!ENTITY decreaseFontSize.keybinding "-">
 <!ENTITY decreaseFontSize.label "Diminuir">
-<!ENTITY decreaseFontSizeToolbarCmd.tooltip "Diminuir o tamanho da fonte">
-<!ENTITY decreaseIndent.label "Diminuir avanço">
+<!ENTITY decreaseFontSizeToolbarCmd.tooltip "Diminuir o tamanho">
+<!ENTITY decreaseIndent.label "Recuar">
 <!ENTITY decreasefontsize.accesskey "D">
-<!ENTITY decreaseindent.accesskey "D">
+<!ENTITY decreaseindent.accesskey "R">
 <!ENTITY decreaseindentkb "-">
 <!ENTITY defaultDirectionMenu.label "Pré-definido">
 <!ENTITY defaultdirectionmenu.accesskey "p">
 <!ENTITY definitionDescriptionToolbarCmd.tooltip "Descrição da definição">
 <!ENTITY definitionTermToolbarCmd.tooltip "Termo de definição">
 <!ENTITY delete.accesskey "x">
-<!ENTITY deleteCmd.label "Apagar">
+<!ENTITY deleteCmd.label "Eliminar">
 <!ENTITY detachFromTemplate.label "Destacar do modelo">
 <!ENTITY dirLtr.tooltip "Da esquerda para a direita">
 <!ENTITY dirRtl.tooltip "Da direita para a esquerda">
@@ -239,12 +239,12 @@
 <!ENTITY increaseFontSize.keybinding "+">
 <!ENTITY increaseFontSize.keybinding2 "=">
 <!ENTITY increaseFontSize.label "Aumentar">
-<!ENTITY increaseFontSizeToolbarCmd.tooltip "Aumentar o tamanho da fonte">
-<!ENTITY increaseIndent.label "Aumentar avanço">
+<!ENTITY increaseFontSizeToolbarCmd.tooltip "Aumentar o tamanho">
+<!ENTITY increaseIndent.label "Avançar">
 <!ENTITY increasefontsize.accesskey "A">
 <!ENTITY increaseindent.accesskey "A">
 <!ENTITY increaseindentkb "=">
-<!ENTITY indentToolbarCmd.tooltip "Avançar texto (mover para a direita)">
+<!ENTITY indentToolbarCmd.tooltip "Avançar (mover para a direita)">
 <!ENTITY insertAnchorCmd.label "Âncora com nome…">
 <!ENTITY insertBreakAllCmd.label "Quebrar abaixo da imagem">
 <!ENTITY insertBreakCmd.label "Quebra de linha">
@@ -263,9 +263,9 @@
 <!ENTITY insertImageMapCmd.label "Mapa da imagem…">
 <!ENTITY insertInputImageCmd.label "Imagem do formulário…">
 <!ENTITY insertInputTagCmd.label "Campo de formulário…">
-<!ENTITY insertIsIndexCmd.label "Índice da pesquisa">
+<!ENTITY insertIsIndexCmd.label "Índice de pesquisa">
 <!ENTITY insertLabelCmd.label "Definir descrição">
-<!ENTITY insertLinkCmd.label "Ligação…">
+<!ENTITY insertLinkCmd.label "Hiperligação…">
 <!ENTITY insertMenu.label "Inserir">
 <!ENTITY insertNbsp.accesskey "n">
 <!ENTITY insertNbspCmd.label "Espaço em branco não quebrável…">
@@ -304,9 +304,9 @@
 <!ENTITY layerBringToFront.tooltip "Trazer para a  frente">
 <!ENTITY layerSendToBack.tooltip "Enviar para trás">
 <!ENTITY leftGlued.tooltip "Prender ao contorno esquerdo">
-<!ENTITY linkToolbarCmd.label "Ligação">
+<!ENTITY linkToolbarCmd.label "Hiperligação">
 <!ENTITY linkToolbarCmd.tooltip "Inserir uma nova ligação ou editar as propriedades da ligação seleccionada">
-<!ENTITY listBulletCmd.label "Com marcadores">
+<!ENTITY listBulletCmd.label "Com marcas">
 <!ENTITY listDefinitionCmd.label "Definições">
 <!ENTITY listNumberedCmd.label "Numerada">
 <!ENTITY listProps.label "Propriedades da lista">
@@ -316,7 +316,7 @@
 <!ENTITY listnumbered.accesskey "u">
 <!ENTITY listprops.accesskey "o">
 <!ENTITY listterm.accesskey "T">
-<!ENTITY localfontfaceMenu.label "Fontes locais">
+<!ENTITY localfontfaceMenu.label "Tipos locais">
 <!ENTITY localfontmenu.accesskey "f">
 <!ENTITY localizingNvu.label "Adaptação nacional do &brandShortName;">
 <!ENTITY localizingnvu.accesskey "L">
@@ -340,17 +340,17 @@
 <!ENTITY noneCmd.label "Nenhuma">
 <!ENTITY numberListToolbarCmd.tooltip "Aplicar ou remover lista numerada">
 <!ENTITY nvuComMenu.label "Sítio do &brandShortName;">
-<!ENTITY nvuForumsMenu.label "Fórums">
+<!ENTITY nvuForumsMenu.label "Fóruns">
 <!ENTITY nvucommenu.accesskey "K">
 <!ENTITY nvudevOrgMenu.label "Comunidade de desenvolvimento">
 <!ENTITY nvudevorgmenu.accesskey "D">
-<!ENTITY nvuforumsmenu.accesskey "m">
+<!ENTITY nvuforumsmenu.accesskey "F">
 <!ENTITY ok.label "OK">
 <!ENTITY openFileCmd.label "Abrir ficheiro…">
 <!ENTITY openToolbarCmd.label "Abrir">
 <!ENTITY openToolbarCmd.tooltip "Abrir um ficheiro do computador">
 <!ENTITY openremoteCmd.label "Abrir…">
-<!ENTITY outdentToolbarCmd.tooltip "Diminuir avanço  (mover para a esquerda)">
+<!ENTITY outdentToolbarCmd.tooltip "Recuar (mover para a esquerda)">
 <!ENTITY outputHTMLCmd.label "Saída em HTML">
 <!ENTITY outputTextCmd.label "Saída em texto">
 <!ENTITY pageProperties.label "Propriedades da página…">
@@ -375,7 +375,7 @@
 <!ENTITY pasteHTMLCmd.label "HTML">
 <!ENTITY pasteImage.accesskey "i">
 <!ENTITY pasteImageCmd.label "Imagem">
-<!ENTITY pasteLinkCmd.label "Ligação">
+<!ENTITY pasteLinkCmd.label "Hiperligação">
 <!ENTITY pasteNoFormatting.accesskey "f">
 <!ENTITY pasteNoFormatting.label "Colar sem formatação">
 <!ENTITY pasteRows.accesskey "r">
@@ -396,7 +396,7 @@
 <!ENTITY publishCmd.label "Publicar">
 <!ENTITY publishSettings.accesskey "n">
 <!ENTITY publishSettings.label "Configurações de publicação…">
-<!ENTITY publishToolbarCmd.tooltip "Enviar o ficheiro">
+<!ENTITY publishToolbarCmd.tooltip "Enviar o ficheiro para publicação">
 <!ENTITY publishas.accesskey "u">
 <!ENTITY publishcmd.accesskey "P">
 <!ENTITY redo.accesskey "R">
@@ -479,10 +479,10 @@
 <!ENTITY stylenonbreaking.accesskey "l">
 <!ENTITY stylesheetMenu.label "Aplicar folha de estilos">
 <!ENTITY stylestrikethru.accesskey "T">
-<!ENTITY stylesubscript.accesskey "u">
+<!ENTITY stylesubscript.accesskey "R">
 <!ENTITY stylesuperscript.accesskey "o">
 <!ENTITY styleunderline.accesskey "S">
-<!ENTITY styleunderline.keybinding "u">
+<!ENTITY styleunderline.keybinding "S">
 <!ENTITY supportKompoZer.label     "Apoie o &brandShortName;">
 <!ENTITY supportKompoZer.accesskey "A">
 <!ENTITY tableAllCells.label "Todas as células">
@@ -540,7 +540,7 @@
 <!ENTITY testTableLayoutCmd.label "Testar esquema da tabela">
 <!ENTITY textColorCaption.label "Cor do texto">
 <!ENTITY textEditorCmd.label "Editor de texto simples">
-<!ENTITY throbber.tooltip "Abrir o sítio do &vendorShortName; ">
+<!ENTITY throbber.tooltip "Visitar o sítio do &vendorShortName; ">
 <!ENTITY tipofthedayMenu.label "Dica do dia">
 <!ENTITY tipofthedaymenu.accesskey "D">
 <!ENTITY tocMenu.accesskey "S">
@@ -570,11 +570,11 @@
 <!ENTITY writingDirectionMenu.label "Direcção do texto">
 <!ENTITY writingdirectionmenu.accesskey "i">
 
-<!ENTITY DesignMode.label "Concepção">
+<!ENTITY DesignMode.label "Composição">
 <!ENTITY  DesignMode.accesskey "C">
 <!ENTITY  DesignMode.tooltip "Modo de edição normal">
 <!ENTITY  SplitMode.label "Misto">
-<!ENTITY  SplitMode.accesskey "x">
+<!ENTITY  SplitMode.accesskey "M">
 <!ENTITY  SplitMode.tooltip "Mostrar o código-fonte HTML do elemento actual">
 <!ENTITY  editNode.label "Modificar o código HTML">
 <!ENTITY  editHead.label "Modificar o conteúdo de &lt;head&gt;">

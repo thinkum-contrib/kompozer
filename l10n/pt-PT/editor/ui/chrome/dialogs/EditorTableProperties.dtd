@@ -35,7 +35,7 @@
 <!ENTITY cellTab.label "Células">
 <!ENTITY cellTextWrap.accessKey "Q">
 <!ENTITY cellTextWrap.label "Quebrar texto:">
-<!ENTITY cellUseCheckboxHelp.label "Utilize as caixas de selecção para determinar as propriedades que serão aplicadas às células selecionadas">
+<!ENTITY cellUseCheckboxHelp.label "Utilize as caixas de selecção para determinar as propriedades que serão aplicadas às células seleccionadas">
 <!ENTITY cellVertical.accessKey "V">
 <!ENTITY cellVertical.label "Vertical">
 <!ENTITY cellWrap.label "Quebrar">
@@ -60,8 +60,8 @@
 <!ENTITY tableInheritColor.label "(tabela transparente)">
 <!ENTITY tablePadding.accessKey "d">
 <!ENTITY tablePadding.label "cellpadding =">
-<!ENTITY tablePxBetwBrdrCellContent.label "píxeis (espaçamento entre o contorno da célula e o conteúdo)">
-<!ENTITY tablePxBetwCells.label "píxeis (espaçamento entre células)">
+<!ENTITY tablePxBetwBrdrCellContent.label "píxeis (espaço entre o contorno da célula e o conteúdo)">
+<!ENTITY tablePxBetwCells.label "píxeis (espaço entre células)">
 <!ENTITY tableRows.accessKey "L">
 <!ENTITY tableRows.label "Linhas:">
 <!ENTITY tableSpacing.accessKey "s">

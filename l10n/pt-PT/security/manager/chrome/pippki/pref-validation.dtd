@@ -47,7 +47,7 @@
 <!ENTITY validation.crlnextupdate.label "Próxima actualização">
 <!ENTITY validation.crlautoupdateenabled.label "Actualização automática">
 <!ENTITY validation.crlautoupdatestatus.label "Estado da actualização automática">
-<!ENTITY validation.deletecrl.label "Apagar">
+<!ENTITY validation.deletecrl.label "Eliminar">
 <!ENTITY validation.deletecrl.accesskey "p">
 <!ENTITY validation.updatecrl.label "Actualizar">
 <!ENTITY validation.updatecrl.accesskey "A">
@@ -79,7 +79,7 @@
 <!ENTITY certOCSP.accesskey "U">
 <!ENTITY proxyOCSP.label "Utilizar OCSP para validar todos os certificados utilizando esta URL e signatário:">
 <!ENTITY proxyOCSP.accesskey "O">
-<!ENTITY serviceURL.label "URL do serviço:">
+<!ENTITY serviceURL.label "Endereço URL do serviço:">
 <!ENTITY serviceURL.accesskey "S">
 <!ENTITY signingCA.label "Resposta do signatário:">
 <!ENTITY signingCA.accesskey "R">

@@ -1,7 +1,7 @@
-<!ENTITY createDir.label "Novo subdirectório">
-<!ENTITY createDirButton.tooltip "Novo directório">
+<!ENTITY createDir.label "Nova subpasta">
+<!ENTITY createDirButton.tooltip "Nova pasta">
 <!ENTITY createdir.accesskey "N">
-<!ENTITY deleteFile.label "Apagar ficheiro">
+<!ENTITY deleteFile.label "Eliminar ficheiro">
 <!ENTITY deletefile.accesskey "D">
 <!ENTITY editSitesList.label "Editar sítios">
 <!ENTITY filenameColumn.label "Nome">
@@ -11,24 +11,24 @@
 <!ENTITY filterImages.label "Imagens">
 <!ENTITY lastModifiedColumn.label "Data de modificação">
 <!ENTITY reloadButton.tooltip "Actualizar">
-<!ENTITY removeButton.tooltip "Apagar">
-<!ENTITY removeDir.label "Remover directório">
+<!ENTITY removeButton.tooltip "Eliminar">
+<!ENTITY removeDir.label "Remover pasta">
 <!ENTITY removedir.accesskey "R">
-<!ENTITY renameButton.tooltip "Renomear ficheiro ou directório">
+<!ENTITY renameButton.tooltip "Renomear pasta ou ficheiro">
 <!ENTITY renameMenu.label "Renomear">
 <!ENTITY sizeColumn.label "Tamanho">
 <!ENTITY stopButton.tooltip "Parar">
 <!ENTITY treeViewCheckbox.label "Árvore">
-<!ENTITY filterCSS.label "Folhas de CSS">
-<!ENTITY filterMedia.label "Objecto">
-<!ENTITY filterScripts.label "Guião">
+<!ENTITY filterCSS.label "Folhas CSS">
+<!ENTITY filterMedia.label "Objectos">
+<!ENTITY filterScripts.label "Guiões">
 <!ENTITY localTab.label "Local">
 <!ENTITY remoteTab.label "Servidor">
 <!ENTITY ftpConsole.label "Consola de FTP">
 <!ENTITY editItem.label "Modificar">
 <!ENTITY openItem.label "Abrir ficheiro">
 <!ENTITY openAsText.label "Abrir como texto">
-<!ENTITY openRemote.label "Abri directório remoto">
+<!ENTITY openRemote.label "Abri pasta remota">
 <!ENTITY insertImage.label "Inserir imagem">
 <!ENTITY previewItem.label "Pré-visualizar">
 <!ENTITY uploadItem.label "Publicar">

@@ -8,7 +8,7 @@
 <!ENTITY imageeditor "Imagens:">
 <!ENTITY lHeader "Nvu">
 <!ENTITY maintainStructure.accesskey "M">
-<!ENTITY maintainTableStructure.label "Manter o esquema da tabela quando inserir ou remover células">
+<!ENTITY maintainTableStructure.label "Manter o esquema da tabela ao inserir ou remover células">
 <!ENTITY maintainTableStructure.tooltip "Preservar formato retangular da tabela adicionando células após inserir ou remover células">
 <!ENTITY minText "minutos">
 <!ENTITY openInNewTab.label "Abrir os documentos sempre em novos separadores">
@@ -23,7 +23,7 @@
 <!ENTITY saveAssociatedFiles.label "Ao guardar páginas, guardar imagens e outros ficheiros associados">
 <!ENTITY saving "A guardar">
 <!ENTITY savingFiles.title "Ao guardar ou publicar páginas">
-<!ENTITY showPublishDialog.label "mostrar sempre a janela de publicação quando publicar páginas">
+<!ENTITY showPublishDialog.label "Mostrar sempre a janela de publicação quando publicar páginas">
 <!ENTITY siteManager.label "Gestor do sítio">
 <!ENTITY tableEditing.label "Edição de tabelas">
 <!ENTITY title.label "Nvu">

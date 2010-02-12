@@ -1,5 +1,5 @@
 <!ENTITY activeLinkText.accesskey "k">
-<!ENTITY activeLinkText.label "Ligação activa">
+<!ENTITY activeLinkText.label "Hiperligação activa">
 <!ENTITY authorName.accesskey "t">
 <!ENTITY authorName.label "Autor:">
 <!ENTITY background.accesskey "P">
@@ -14,20 +14,20 @@
 <!ENTITY customColorsRadio.label "Usar cores personalizadas:">
 <!ENTITY defaultCharset.label "Codificação:">
 <!ENTITY defaultColors.accesskey "U">
-<!ENTITY defaultColorsRadio.label "Não definir as cores da página (usar as cores padrão preferidas do visitante">
-<!ENTITY defaultDirectionRadio.label "Padrão">
+<!ENTITY defaultColorsRadio.label "Não definir as cores da página (usar as cores padrão preferidas do visitante)">
+<!ENTITY defaultDirectionRadio.label "Pré-definição">
 <!ENTITY i18nHeader "Internacionalização">
 <!ENTITY lHeader "Configurações de nova página">
 <!ENTITY language.label "Idioma:">
 <!ENTITY languageChoiceButton.label "Seleccionar idioma…">
 <!ENTITY linkText.accesskey "L">
-<!ENTITY linkText.label "Ligação">
+<!ENTITY linkText.label "Hiperligação">
 <!ENTITY ltrDirectionRadio.label "Da esquerda para a direita">
 <!ENTITY normalText.accesskey "x">
 <!ENTITY normalText.label "Texto normal">
 <!ENTITY pageColorHeader "Aparência-padrão">
-<!ENTITY rHeader "Padrão para novas páginas">
+<!ENTITY rHeader "Pré-definição para novas páginas">
 <!ENTITY rtlDirectionRadio.label "Da direita para a esquerda">
 <!ENTITY visitedLinkText.accesskey "v">
-<!ENTITY visitedLinkText.label "Ligação visitada">
+<!ENTITY visitedLinkText.label "Hiperligação visitada">
 <!ENTITY writingDirection.label "Direcção do texto:">

@@ -1,16 +1,16 @@
 <!ENTITY helpers.label "Configurações avançadas">
 <!ENTITY imageEditor.label "Editor de imagens">
 <!ENTITY application.label "Aplicação:">
-<!ENTITY webBrowser.label "Navegador da Teia">
+<!ENTITY webBrowser.label "Navegador da Teia Mundial">
 <!ENTITY textEditor.label "Editor de texto">
 <!ENTITY mediaPlayer.label "Leitor multimédia">
 <!ENTITY fileManager.label "Gestor de ficheiros">
 <!ENTITY ftpClient.label "Cliente de FTP">
-<!ENTITY useSystemHelper.label "Padrão do sistema">
+<!ENTITY useSystemHelper.label "Pré-definição do sistema">
 <!ENTITY useCustomHelper.label "Utilizar a aplicação definida pelo utilizador:">
 <!ENTITY path.label "Caminho do ficheiro">
 <!ENTITY arguments.label "Parâmetros">
 <!ENTITY filePicker.tooltip "Seleccionar ficheiro…">
 <!ENTITY fileFilter.label "Extensões de ficheiro (*) para:">
-<!ENTITY default.label "Padrão">
+<!ENTITY default.label "Pré-definição">
 <!ENTITY needToRestart.label "(*) Tem de reiniciar o KompoZer para que as alterações entrem em vigor.">
