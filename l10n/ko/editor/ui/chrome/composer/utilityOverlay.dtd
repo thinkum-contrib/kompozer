@@ -1,0 +1,41 @@
+<!ENTITY undoCmd.label "되돌리기">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "u">
+<!ENTITY redoCmd.label "다시 실행">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "r">
+<!ENTITY cutCmd.label "잘라내기">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "t">
+<!ENTITY copyCmd.label "복사">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "c">
+<!ENTITY pasteCmd.label "붙여넣기">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "p">
+<!ENTITY deleteCmd.label "삭제">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.accesskey "d">
+<!ENTITY selectAllCmd.label "모두 선택">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY preferencesCmd.label "선택사항…">
+<!ENTITY preferencesCmd.key "O">
+<!ENTITY preferencesCmd.accesskey "o">
+<!ENTITY findTypeTextCmd.label "형식으로 글 찾기">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeLinksCmd.label "형식으로 연결 찾기">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewToolbarsMenu.label "표시/숨기기">
+<!ENTITY viewToolbarsMenu.accesskey "w">
+
+<!ENTITY newBlankPageCmd.label "페이지 작성">
+<!ENTITY newBlankPageCmd.accesskey "P" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "페이지에 템플릿 사용">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+
+<!ENTITY newNavigatorCmd.label "Navigator Window">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.accesskey "N">

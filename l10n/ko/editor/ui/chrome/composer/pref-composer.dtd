@@ -1,0 +1,13 @@
+<!-- extracted from content/pref-composer.xul -->
+<!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
+<!--LOCALIZATION NOTE (pref.composer.title): DONT_TRANSLATE -->
+<!ENTITY  pref.composer.title       "KompoZer">
+<!ENTITY  saving                    "저장중">
+<!ENTITY  AutoSaveCheck             "항상 자동 저장">
+<!ENTITY  minText                   "분">
+<!ENTITY  exterLegend.label         "외부 편집기">
+<!ENTITY  htmlSource                "HTML 소스:">
+<!ENTITY  imageeditor               "그림:">
+<!ENTITY  chooseButton.label        "선택">
+<!ENTITY  recentFiles.title         "최근 페이지 메뉴">
+<!ENTITY  savingFiles.title         "페이지를 저장하거나 출판시">

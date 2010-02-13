@@ -1,0 +1,15 @@
+<!-- extracted from content/pref-publish.xul -->
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY  composerHeader.label "출판">
+<!ENTITY  maintainCheckbox.label "링크 유지">
+<!ENTITY  keepCheck.label "페이지의 그림유지">
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  adjustDesc.label "페이지 위치에 따라 링크변경. (페이지가 로컬폴더에 저장되면 로컬링크로 변경됨.)">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  saveDesc.label "페이지 경로로 그림 저장. 페이지가 저장되거나 출판될 때 그림 항상 보이기. ">
+<!ENTITY  tip.label "[힌트] 만약 외부에 출판하려면 두가지 설정을 모두 선택하십시오!">
+<!ENTITY defaultHeader.label  "기본 출판 위치">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY  publishFtp.label "FTP로 출판시 나타날 HTTP주소:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY  publishhtp.label "FTP로 출판시 나타날 HTTP주소:">

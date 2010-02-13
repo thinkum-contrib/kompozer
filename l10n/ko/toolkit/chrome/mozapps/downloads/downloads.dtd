@@ -1,0 +1,39 @@
+<!ENTITY window.width "400">
+<!ENTITY window.height "300">
+<!ENTITY done.label "다운로드 완료">
+<!ENTITY canceled.label "취소됨">
+<!ENTITY installing.label "설치 중…">
+<!ENTITY starting.label "시작 중…">
+<!ENTITY failed.label "실패함">
+<!ENTITY downloads.title "다운로드 관리자">
+<!ENTITY cmd.pause.label "중지">
+<!ENTITY cmd.pause.accesskey "P">
+<!ENTITY cmd.resume.label "재실행">
+<!ENTITY cmd.resume.accesskey "R">
+<!ENTITY cmd.cancel.label "취소">
+<!ENTITY cmd.cancel.accesskey "C">
+<!ENTITY cmd.show.label "폴더 열기">
+<!ENTITY cmd.show.accesskey "F">
+<!ENTITY cmd.open.label "열기">
+<!ENTITY cmd.open.accesskey "O">
+<!ENTITY cmd.openWith.label "다음 프로그램으로 열기…">
+<!ENTITY cmd.openWith.accesskey "h">
+<!ENTITY cmd.retry.label "재시도">
+<!ENTITY cmd.retry.accesskey "R">
+<!ENTITY cmd.remove.label "목록에서 삭제">
+<!ENTITY cmd.remove.accesskey "e">
+<!ENTITY cmd.properties.label "속성">
+<!ENTITY cmd.properties.accesskey "i">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "모두 비우기">
+<!ENTITY cmd.cleanUp.tooltip "완료 또는 취소, 실패한 다운로드를 목록에서 비우기">
+<!ENTITY cmd.cleanUp.accesskey "C">
+<!ENTITY closeWhenDone.label "다운로드가 완료되면 닫기">
+<!ENTITY closeWhenDone.tooltip "모든 다운로드가 완료되면 다운로드 관리자 닫기">
+<!ENTITY filesSavedTo.label "다운로드 경로:">
+<!ENTITY showFolder.label "폴더 열기">
+<!ENTITY cmd.show.labelMac "Finder에 보이기">
+<!ENTITY cmd.show.accesskeyMac "F">

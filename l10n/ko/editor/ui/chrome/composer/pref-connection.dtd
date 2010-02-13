@@ -1,0 +1,39 @@
+<!-- extracted from content/pref-proxies.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
+<!ENTITY  lHeader                       "접속 설정">
+<!ENTITY  proxyTitle.label              "인터넷 연결을 위한 프록시 설정">
+<!ENTITY  directTypeRadio.label         "인터넷 직접 연결">
+<!ENTITY  directTypeRadio.accesskey     "d">
+<!ENTITY  manualTypeRadio.label         "수동 프록시 설정">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY  autoTypeRadio.label           "자동 프록시 설정 URL:">
+<!ENTITY  autoTypeRadio.accesskey       "a">
+<!ENTITY  configAutoconfigText.label    "설정 위치 (URL):">
+<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  reload.label                  "새로고침">
+<!ENTITY  reload.accesskey              "l">
+<!ENTITY  ftp.label                     "FTP 프록시:">
+<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  gopher.label                  "Gopher 프록시:">
+<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  http.label                    "HTTP 프록시:">
+<!ENTITY  http.accesskey                "h">
+<!ENTITY  ssl.label                     "SSL 프록시:">
+<!ENTITY  ssl.accesskey                 "s">
+<!ENTITY  socks.label                   "SOCKS Host:">
+<!ENTITY  socks.accesskey               "c">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "k">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "v">
+<!ENTITY  port.label                    "포트:">
+<!ENTITY  HTTPport.accesskey            "p">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "r">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "t">
+<!ENTITY  noproxy.label                 "프록시 사용안함:">
+<!ENTITY  noproxy.accesskey             "n">
+<!ENTITY  noproxyExplain.label          "예: .mozilla.org, .net.nz">

@@ -1,0 +1,88 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   David P. Drinan (ddrinan@netscape.com)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!ENTITY  pref.validation.title          "인증서 유효성">
+<!ENTITY  validation.crl.description "인증서 폐기 목록(CRL)을 관리하려면 CRL 관리자를 이용하십시오.">
+<!ENTITY  validation.managecrls.button      "CRL 관리…">
+<!ENTITY  validation.managecrls.accesskey   "M">
+<!ENTITY  validation.crlmanager.label       "인증서 폐기 목록(CRL) 관리자">
+<!ENTITY  validation.crlname.label          "이름">
+<!ENTITY  validation.crllastupdate.label    "마지막 업데이트">
+<!ENTITY  validation.crlnextupdate.label    "다음 업데이트">
+<!ENTITY  validation.crlautoupdateenabled.label   "자동 업데이트">
+<!ENTITY  validation.crlautoupdatestatus.label    "자동 업데이트 상태">
+<!ENTITY  validation.deletecrl.label        "삭제">
+<!ENTITY  validation.updatecrl.label        "업데이트">
+<!ENTITY  validation.advanced.label         "설정">
+<!ENTITY  validation.crl.autoupdate.title            "자동 CRL 업데이트 설정">
+<!ENTITY  validation.crl.autoupdate.enable.label     "CRL 자동 업데이트 사용">
+<!ENTITY  validation.crl.autoupdate.time.label1      "업데이트">
+<!ENTITY  validation.crl.autoupdate.time.label2      "일 전 (다음 업데이트)">
+<!ENTITY  validation.crl.autoupdate.freq.label1      "항상 업데이트">
+<!ENTITY  validation.crl.autoupdate.freq.label2      "일 ">
+<!ENTITY  validation.crl.autoupdate.url.label        "CRL 가져올 위치:">
+<!ENTITY  crl.import.status.title         "CRL 가져오기 상태:">
+<!ENTITY  crl.import.success.message      "인증서 폐기 목록(CRL)을 가져왔습니다.">
+<!ENTITY  crl.issuer.label                "CRL 발급자:">
+<!ENTITY  crl.issuer.org.label            "조직:">
+<!ENTITY  crl.issuer.orgunit.label        "단위: ">
+<!ENTITY  crl.import.nextupdate.label     "마지막 업데이트 날짜:">
+<!ENTITY  crl.autoupdate.fail.cnt.label      "이전 업데이트 실패:">
+<!ENTITY  crl.autoupdate.fail.reason.label   "마지막 업데이트 실패 내용: ">
+<!ENTITY  edit.button      "설정">
+
+<!ENTITY validation.ocsp.description "&brandShortName;는 인증서 확인을 위해 온라인 인증서 상태 확인 통신(OCSP)을 사용할 수 있습니다. &brandShortName;가 사용할 OCSP 설정 선택:">
+<!ENTITY disableOCSP.label "OCSP 사용 안 함">
+<!ENTITY certOCSP.label "OCSP 주소가 있는 인증서 확인 시에만 OCSP 사용">
+<!ENTITY proxyOCSP.label "인증서 확인 시 항상 OCSP 사용">
+<!ENTITY serviceURL.label "서비스 URL:">
+<!ENTITY serviceURL.accesskey "S">
+<!ENTITY signingCA.label "서명자 확인:">
+<!ENTITY signingCA.accesskey "R">
+
+<!ENTITY validation.crl.caption                  "CRL">
+<!ENTITY validation.deletecrl.accesskey          "D">
+<!ENTITY validation.updatecrl.accesskey          "U">
+<!ENTITY validation.advanced.accesskey           "S">
+
+<!ENTITY validation.ocsp.caption                  "OCSP">
+<!ENTITY disableOCSP.accesskey                    "D">
+<!ENTITY certOCSP.accesskey                       "U">
+<!ENTITY proxyOCSP.accesskey                      "O">
+
+
+
+

@@ -1,0 +1,33 @@
+<!ENTITY filterPrefs.label "필터:">
+<!ENTITY filterPrefs.accesskey "I">
+<!ENTITY showAll.label "모두 보기">
+<!ENTITY showAll.accesskey "W">
+<!ENTITY prefColumn.label "설정 이름">
+<!ENTITY lockColumn.label "상태">
+<!ENTITY typeColumn.label "유형">
+<!ENTITY valueColumn.label "값">
+<!ENTITY prefColumnHeader.tooltip "정렬">
+<!ENTITY columnChooser.tooltip "표시하고자 하는 항목을 클릭하십시오.">
+<!ENTITY copyName.label "이름 복사">
+<!ENTITY copyName.accesskey "C">
+<!ENTITY copyValue.label "값 복사">
+<!ENTITY copyValue.accesskey "V">
+<!ENTITY modify.label "수정">
+<!ENTITY modify.accesskey "M">
+<!ENTITY toggle.label "토글">
+<!ENTITY toggle.accesskey "T">
+<!ENTITY reset.label "초기화">
+<!ENTITY reset.accesskey "R">
+<!ENTITY new.label "새로 만들기">
+<!ENTITY new.accesskey "N">
+<!ENTITY string.label "문자열">
+<!ENTITY string.accesskey "S">
+<!ENTITY integer.label "정수">
+<!ENTITY integer.accesskey "I">
+<!ENTITY boolean.label "연산자">
+<!ENTITY boolean.accesskey "B">
+<!ENTITY lock.label "잠금">
+<!ENTITY lock.accesskey "L">
+<!ENTITY unlock.label "잠금 해제">
+<!ENTITY unlock.accesskey "U">
+<!ENTITY window.title "about:config">
