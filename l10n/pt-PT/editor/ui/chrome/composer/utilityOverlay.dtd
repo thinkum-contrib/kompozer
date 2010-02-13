@@ -22,9 +22,11 @@
 <!ENTITY pasteCmd.accesskey "l">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteCmd.label "Colar">
-<!ENTITY preferencesCmd.accesskey "e">
+<!ENTITY preferencesCmd.label "Opções…">
 <!ENTITY preferencesCmd.key "E">
-<!ENTITY preferencesCmd.label "Preferências…">
+<!ENTITY preferencesCmd.accesskey "O">
+<!ENTITY preferencesCmdUnix.label "Preferências">
+<!ENTITY preferencesCmdUnix.accesskey "P">
 <!ENTITY redoCmd.accesskey "r">
 <!ENTITY redoCmd.key "Y">
 <!ENTITY redoCmd.label "Refazer">

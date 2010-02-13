@@ -32,11 +32,7 @@
 <!ENTITY SourceMode.label "Código-fonte">
 <!ENTITY SourceTabDirection "ltr">
 <!ENTITY TextColorButton.tooltip "Cor do texto">
-<!ENTITY aboutDI.accesskey "I">
-<!ENTITY aboutDI.label "Sobre a Disruptive Innovations">
-<!ENTITY aboutLinspire.label "Sobre a Linspire Inc.">
 <!ENTITY aboutMenu.label "Sobre o &brandShortName;">
-<!ENTITY aboutlinspire.accesskey "L">
 <!ENTITY aboutmenu.accesskey "S">
 <!ENTITY advancedPropertiesCmd.label "Propriedades avançadas…">
 <!ENTITY advancedproperties.accesskey "P">
@@ -232,6 +228,11 @@
 <!ENTITY heading6Cmd.label "Título 6">
 <!ENTITY helpMenu.label "Ajuda">
 <!ENTITY helpmenu.accesskey "u">
+<!-- LOCALIZATION NOTE some localizations of Windows use "?"
+                       for the help button in the menubar but Gnome does not.   -->
+<!ENTITY helpMenuWin.label "Ajuda"> 
+<!ENTITY helpMenuWin.accesskey "u">
+
 <!ENTITY hruleToolbarCmd.label "Linha H.">
 <!ENTITY hruleToolbarCmd.tooltip "Inserir linha horizontal ou editar as propriedades da linha seleccionada">
 <!ENTITY imageToolbarCmd.label "Imagem">
@@ -435,11 +436,15 @@
 <!ENTITY size-xx-largeCmd.label "Maior">
 <!ENTITY size-xx-small.accesskey "n">
 <!ENTITY size-xx-smallCmd.label "Menor">
-<!ENTITY spellAddToDictionary.label "Adicionar ao dicionário">
 <!ENTITY spellSuggestions.accesskey "S">
 <!ENTITY spellSuggestions.label "Sugestões de ortografia">
 <!ENTITY spellToolbarCmd.label "Ortografia">
 <!ENTITY spellToolbarCmd.tooltip "Verificar a ortografia">
+<!ENTITY spellCheckNoSuggestions.label "Sem sugestões">
+<!ENTITY spellCheckIgnoreWord.label "Ignorar Palavra">
+<!ENTITY spellCheckIgnoreWord.accesskey "I">
+<!ENTITY spellCheckAddToDictionary.label "Adicionar ao Dicionário">
+<!ENTITY spellCheckAddToDictionary.accesskey "n">
 <!ENTITY startLogCmd.label "Iniciar relatório">
 <!ENTITY stopLogCmd.label "Interromper relatório">
 <!ENTITY strongButton.tooltip "Aumentar ênfase">
@@ -585,7 +590,3 @@
 <!ENTITY  extEditor.tooltip "Abrir o documento actual num editor de texto">
 <!ENTITY  extEditorCmd.label "Editor de texto externo">
 <!ENTITY  extEditorCmd.accesskey "e">
-
-
-
-
