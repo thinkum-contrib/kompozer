@@ -739,6 +739,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "添加至字典">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
+<!ENTITY enableInlineSpellChecker.label "输入同时拼写检查">
+<!ENTITY enableInlineSpellChecker.accesskey "S">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "编辑 HTML">

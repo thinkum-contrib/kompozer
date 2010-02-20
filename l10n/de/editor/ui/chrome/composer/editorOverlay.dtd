@@ -727,6 +727,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Zu Benutzerwörterbuch hinzufügen">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
+<!ENTITY enableInlineSpellChecker.label "Sofort-Rechtschreibprüfung">
+<!ENTITY enableInlineSpellChecker.accesskey "S">
 
 <!ENTITY DesignMode.label 	            "WYSIWYG">
 <!ENTITY DesignMode.accesskey           "W">

@@ -679,6 +679,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Tilføj til ordbog">
 <!ENTITY spellCheckAddToDictionary.accesskey "T">
+<!ENTITY enableInlineSpellChecker.label "Løbende stavekontrol">
+<!ENTITY enableInlineSpellChecker.accesskey "L">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "Rediger HTML">

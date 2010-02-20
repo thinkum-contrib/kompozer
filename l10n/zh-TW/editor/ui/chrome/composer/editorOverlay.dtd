@@ -740,6 +740,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "加入字典">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
+<!ENTITY enableInlineSpellChecker.label "即時拼字檢查">
+<!ENTITY enableInlineSpellChecker.accesskey "S">
 
 <!-- KompoZer 0.8: viewSource -->
 

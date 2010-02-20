@@ -738,6 +738,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey      "k">
 <!ENTITY spellCheckAddToDictionary.label     "Hozzáadás a szótárhoz">
 <!ENTITY spellCheckAddToDictionary.accesskey "H">
+<!ENTITY enableInlineSpellChecker.label "Helyesírás-ellenőrzés írás közben">
+<!ENTITY enableInlineSpellChecker.accesskey "e">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "HTML szerkesztése">

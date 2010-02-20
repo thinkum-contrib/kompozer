@@ -445,6 +445,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Adicionar ao Dicionário">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
+<!ENTITY enableInlineSpellChecker.label "Verificar ortografia ao escrever">
+<!ENTITY enableInlineSpellChecker.accesskey "E">
 <!ENTITY startLogCmd.label "Iniciar relatório">
 <!ENTITY stopLogCmd.label "Interromper relatório">
 <!ENTITY strongButton.tooltip "Aumentar ênfase">

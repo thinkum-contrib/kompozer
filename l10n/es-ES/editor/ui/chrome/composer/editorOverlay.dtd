@@ -623,6 +623,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Añadir al diccionario">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
+<!ENTITY enableInlineSpellChecker.label "Revisar mientras escribe">
+<!ENTITY enableInlineSpellChecker.accesskey "S">
 
 <!ENTITY editNode.label "Editar HTML">
 <!ENTITY editHead.label "Editar contenido de &lt;head&gt;">

@@ -739,6 +739,9 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Afegeix al diccionari">
 <!ENTITY spellCheckAddToDictionary.accesskey "n">
+<!ENTITY enableInlineSpellChecker.label "Comprova l'ortografia a mesura que escric">
+<!ENTITY enableInlineSpellChecker.accesskey "v">
+
 
 <!ENTITY refreshImages.label "Recarrega les imatges">
 <!ENTITY refreshImages.accesskey "R">

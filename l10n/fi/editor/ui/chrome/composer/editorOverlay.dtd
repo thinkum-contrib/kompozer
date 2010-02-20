@@ -738,6 +738,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey  "h">
 <!ENTITY spellCheckAddToDictionary.label  "Lisää sanastoon">
 <!ENTITY spellCheckAddToDictionary.accesskey  "s">
+<!ENTITY enableInlineSpellChecker.label  "Oikolue kirjoitettaessa">
+<!ENTITY enableInlineSpellChecker.accesskey  "k">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "Muokkaa HTML-koodia">

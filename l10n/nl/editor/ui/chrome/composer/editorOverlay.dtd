@@ -739,6 +739,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "d">
 <!ENTITY spellCheckAddToDictionary.label "Toevoegen aan woordenboek">
 <!ENTITY spellCheckAddToDictionary.accesskey "T">
+<!ENTITY enableInlineSpellChecker.label "Spellingcontrole tijdens typen">
+<!ENTITY enableInlineSpellChecker.accesskey "S">
 
 <!-- KompoZer 0.8: viewSource -->
 <!ENTITY editNode.label                      "HTML aanpassen">

@@ -623,6 +623,8 @@
 <!ENTITY spellCheckIgnoreWord.accesskey "П">
 <!ENTITY spellCheckAddToDictionary.label "Добавить в словарь">
 <!ENTITY spellCheckAddToDictionary.accesskey "с">
+<!ENTITY enableInlineSpellChecker.label "Проверка орфографии при наборе текста">
+<!ENTITY enableInlineSpellChecker.accesskey "о">
 
 <!ENTITY editNode.label "Редактировать HTML">
 <!ENTITY editHead.label "Редактировать содержимое &lt;head&gt;">
