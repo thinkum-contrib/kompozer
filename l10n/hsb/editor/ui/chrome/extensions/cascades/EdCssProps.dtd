@@ -1,0 +1,276 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title						"CSS stilowe předłohi">
+<!ENTITY sheetsTreeColumn.label				"Předłohi a prawidła">
+<!ENTITY expertModeChecbox.label			"Ekspertowy modus">
+<!ENTITY importRuleButton.label				"@import">
+<!ENTITY mediaRuleButton.label				"@media">
+<!ENTITY linkedSheetButton.label			"Wotkazana stilowa předłoha">
+<!ENTITY styleSheetButton.label				"Interna stilowa předłoha">
+<!ENTITY ruleButton.label					"Stilowe prawidło">
+<!ENTITY upButton.label						"Horje">
+<!ENTITY downButton.label					"Dele">
+<!ENTITY refreshButton.label				"Ponowić">
+<!ENTITY removeButton.label					"Zhašeć">
+<!ENTITY sheetInfoTab.label					"Powš.">
+<!ENTITY textTab.label						"Tekst">
+<!ENTITY borderTab.label					"Ramik">
+<!ENTITY marginsTab.label					"Kroma">
+<!ENTITY boxTab.label						"Polo">
+<!ENTITY auralTab.label						"Zwuk">
+<!ENTITY fontFamily.label					"Pismowa swójba:">
+<!ENTITY inheritedFontFamily.label			"wotkazany">
+<!ENTITY useCustomFontFamily.label			"Swójsku pismowu swójbu wužiwać:">
+<!ENTITY fontData.label						"Pismowe daty">
+<!ENTITY exampleSentence.label				"Spěšna bruna liška skaka přez lěnjeho psyka">
+<!ENTITY backgroundTab.label				"Pozadk">
+
+<!ENTITY unspecifiedValue.label				"njepodaty">
+<!ENTITY predefFontFamilyRadio.label		"předdefinowana:">
+<!ENTITY fontSize.label						"Pismowa wulkosć:">
+<!ENTITY lineHeight.label                   "Wysokosć linki:">
+<!ENTITY normalLineHeight.label             "normalny">
+<!ENTITY color.label						"Barba:">
+<!ENTITY fontWeight.label					"Tučnosć pisma:">
+<!ENTITY normalValue.label					"Normalny">
+<!ENTITY boldValue.label					"Tučny">
+<!ENTITY bolderValue.label					"Tučniši">
+<!ENTITY lighterValue.label					"Wusčiši">
+<!ENTITY inheritedValue.label				"Wotskazany">
+<!ENTITY fontStyle.label					"Stil pisma:">
+<!ENTITY italicValue.label					"Kursiwny">
+<!ENTITY obliqueValue.label					"Nakósny">
+<!ENTITY textTransform.label				"Pad:">
+<!ENTITY noneTextTransformValue.label		"Žana změna">
+<!ENTITY lowercaseValue.label				"Małopisany">
+<!ENTITY uppercaseValue.label				"Wulkopisany">
+<!ENTITY capitalizeValue.label				"Kapitelka">
+
+<!ENTITY closeButton.label					"Začinić">
+
+<!ENTITY largerFontSize.label				"wjetši">
+<!ENTITY smallerFontSize.label				"mjeńši">
+<!ENTITY xxsmallFontSize.label				"xx-mały">
+<!ENTITY xsmallFontSize.label				"x-mały">
+<!ENTITY smallFontSize.label				"mały">
+<!ENTITY mediumFontSize.label				"srjedźny">
+<!ENTITY largeFontSize.label				"wulki">
+<!ENTITY xlargeFontSize.label				"x-wulki">
+<!ENTITY xxlargeFontSize.label				"xx-wulki">
+
+<!ENTITY textAlign.label					"Wusměrjenje:">
+<!ENTITY rightTextAlign.label				"Naprawo">
+<!ENTITY leftTextAlign.label				"Nalěwo">
+<!ENTITY centerTextAlign.label				"Srjedźa">
+<!ENTITY justifyTextAlign.label				"Wurunaty">
+
+<!ENTITY textDecoration.label				"Tekstowe wupyšenja:">
+<!ENTITY overlineTextDecoration.label		"Nadšmórnjeny">
+<!ENTITY underlineTextDecoration.label		"Podšmórnjeny">
+<!ENTITY linethroughTextDecoration.label	"Přešmórnjeny">
+<!ENTITY blinkTextDecoration.label			"Błyskotanje">
+<!ENTITY noneTextDecoration.label			"Žane">
+
+<!ENTITY backgroundColor.label				"Barba:">
+<!ENTITY backgroundImage.label              "Wobraz:">
+<!ENTITY chooseFileButton.label             "Dataju wuzwolić">
+<!ENTITY backgroundRepeat.label             "Dźělić:">
+<!ENTITY norepeatBackgroundRepeat.label     "njedźělić">
+<!ENTITY repeatxBackgroundRepeat.label      "wodopadnje">
+<!ENTITY repeatyBackgroundRepeat.label      "runopadnje">
+<!ENTITY repeatBackgroundRepeat.label       "wodopadnje a runopadnje">
+<!ENTITY backgroundPosition.label           "Pozicija:">
+<!ENTITY leftXBackgroundPosition.label      "Nalěwo">
+<!ENTITY centerXBackgroundPosition.label    "Srjedźa">
+<!ENTITY rightXBackgroundPosition.label     "Naprawo">
+<!ENTITY topYBackgroundPosition.label       "Horjeka">
+<!ENTITY centerYBackgroundPosition.label    "Srjedźa">
+<!ENTITY bottomYBackgroundPosition.label    "Deleka">
+<!ENTITY backgroundAttachmentCheckbox.label "Wobraz so ze stronu kula">
+
+<!ENTITY useBorderShorthand.label           "Wšě štyri boki samsny ramikowy stil wužiwaja">
+<!ENTITY borderStyle.label                  "Stil:">
+<!ENTITY borderWidth.label                  "Šěrokosć:">
+<!ENTITY borderColor.label                  "Barba:">
+<!ENTITY topBorder.label                    "Horjeka:">
+<!ENTITY leftBorder.label                   "Nalěwo:">
+<!ENTITY rightBorder.label                  "Naprawo:">
+<!ENTITY bottomBorder.label                 "Deleka:">
+<!ENTITY borderPreview.label                "Přehlad">
+<!ENTITY noneBorderStyle.label              "žadyn">
+<!ENTITY hiddenBorderStyle.label            "schowany">
+<!ENTITY solidBorderStyle.label             "kruty">
+<!ENTITY dottedBorderStyle.label            "dypkowy">
+<!ENTITY dashedBorderStyle.label            "smužkowany">
+<!ENTITY doubleBorderStyle.label            "dwójny">
+<!ENTITY grooveBorderStyle.label            "brózdźeny">
+<!ENTITY ridgeBorderStyle.label             "relief">
+<!ENTITY insetBorderStyle.label             "zasadźeny">
+<!ENTITY outsetBorderStyle.label            "wusahowacy">
+
+<!ENTITY display.label                      "Zwobraznjenje:">
+<!ENTITY noneDisplay.label                  "žane">
+<!ENTITY inlineDisplay.label                "w rjedźe">
+<!ENTITY blockDisplay.label                 "blok">
+<!ENTITY runinDisplay.label                 "pušćić w">
+<!ENTITY compactDisplay.label               "kompaktne">
+<!ENTITY listitemDisplay.label              "zapisk lisćiny">
+<!ENTITY tableDisplay.label                 "tabela">
+<!ENTITY tablerowDisplay.label              "tabela-rjadka">
+<!ENTITY tablecellDisplay.label             "tabela-cela">
+<!ENTITY tablecaptionDisplay.label          "tabela-titul">
+<!ENTITY inlinetableDisplay.label           "tabela -w rjadce">
+<!ENTITY tablecolumnDisplay.label           "tablela-stołpik">
+<!ENTITY tablerowgroupDisplay.label         "tabela-skupina rjadkow">
+<!ENTITY tableheadergroupDisplay.label      "tabela-skupina hłowow">
+<!ENTITY tablefootergroupDisplay.label      "tabela-skupina nohow">
+<!ENTITY tablecolumngroupDisplay.label      "tabela-skupina stołpikow">
+
+<!ENTITY visibility.label                   "Widźomnosć:">
+<!ENTITY visibleVisibility.label            "widźomny">
+<!ENTITY hiddenVisibility.label             "schowany">
+<!ENTITY collapseVisibility.label           "fałdować">
+
+<!ENTITY float.label                        "Znošowanje:">
+<!ENTITY leftFloat.label                    "nalěwo">
+<!ENTITY rightFloat.label                   "naprawo">
+<!ENTITY noneFloat.label                    "žane">
+
+<!ENTITY clear.label                        "Znošowanje přetorhnyć:">
+<!ENTITY noneClear.label                    "ně">
+<!ENTITY leftClear.label                    "nalěwo">
+<!ENTITY rightClear.label                   "naprawo">
+<!ENTITY bothClear.label                    "na woběmaj bokomaj">
+
+
+<!ENTITY position.label                     "Pozicija:">
+<!ENTITY staticPosition.label               "statiska">
+<!ENTITY fixedPosition.label                "kruta">
+<!ENTITY absolutePosition.label             "absolutna">
+<!ENTITY relativePosition.label             "relatiwna">
+
+<!ENTITY overflow.label                     "Přepjelnjenje:">
+<!ENTITY visibleOverflow.label              "widźomny">
+<!ENTITY hiddenOverflow.label               "schowany">
+<!ENTITY scrollOverflow.label               "kulić">
+<!ENTITY autoOverflow.label                 "awtomatiski">
+
+<!ENTITY zIndex.label                       "Z-indeks:">
+
+<!ENTITY width.label                        "Šěrokosć:">
+<!ENTITY minWidth.label                     "Minimalna šěrokosć:">
+<!ENTITY maxWidth.label                     "Maksimalna šěrokosć:">
+<!ENTITY height.label                       "Wysokosć:">
+<!ENTITY minHeight.label                    "Minimalna wysokosć:">
+<!ENTITY maxHeight.label                    "Maksimalna wysokosć:">
+
+<!ENTITY margins.label                      "Kromy:">
+<!ENTITY paddings.label                     "Nutřkowne wotstawki:">
+<!ENTITY offsets.label                      "Wurunjanje:">
+<!ENTITY top.label                          "Horjeka:">
+<!ENTITY left.label                         "Nalěwo:">
+<!ENTITY right.label                        "Naprawo:">
+<!ENTITY bottom.label                       "Deleka:">
+
+<!ENTITY volume.label                       "Sylnosć zwuka:">
+<!ENTITY xsoftVolume.label                  "jara mjelčo">
+<!ENTITY softVolume.label                   "mjelčo">
+<!ENTITY mediumVolume.label                 "połwótře">
+<!ENTITY loudVolume.label                   "wótře">
+<!ENTITY xloudVolume.label                  "jara wótře">
+<!ENTITY muteVolume.label                   "bjez zwuka">
+
+<!ENTITY speak.label                        "Rěčenje:">
+<!ENTITY noneSpeak.label                    "žane">
+<!ENTITY normalSpeak.label                  "normalne">
+<!ENTITY spelloutSpeak.label                "pismikować">
+
+<!ENTITY speechRate.label                   "Spěšnosć rěčenja:">
+<!ENTITY slowerSpeechRate.label             "pomałšo">
+<!ENTITY fasterSpeechRate.label             "spěšnišo">
+<!ENTITY xslowSpeechRate.label              "jara pomału">
+<!ENTITY slowSpeechRate.label               "pomału">
+<!ENTITY mediumSpeechRate.label             "srjedźna">
+<!ENTITY fastSpeechRate.label               "spěšnje">
+<!ENTITY xfastSpeechRate.label              "jara spěšnje">
+
+<!ENTITY opacity.label                      "Opacita:">
+
+<!ENTITY compatibilityTab.label             "Kompatibelnosć">
+
+<!ENTITY transparentOpacity.label           "transparentny">
+
+<!ENTITY pauseBefore.label                  "Přestawka do toho:">
+<!ENTITY cueBefore.label                    "Signal do toho:">
+<!ENTITY pauseAfter.label                   "Přestawka po tym:">
+<!ENTITY cueAfter.label                     "Signal po tym:">
+
+
+<!ENTITY listTab.label			"Lisćiny">
+
+<!ENTITY listStyleType.label		"Typ lisćinoweho stila:">
+<!ENTITY noneListStyleType.label                        "žadyn">
+<!ENTITY discListStyleType.label                        "dypk">
+<!ENTITY circleListStyleType.label                      "kružk">
+<!ENTITY squareListStyleType.label                      "kwadraćik">
+<!ENTITY decimalListStyleType.label                     "decimalny">
+<!ENTITY decimalLeadingZeroListStyleType.label        "decimalny z wodźacej nulu">
+<!ENTITY lowerRomanListStyleType.label                 "mały romski">
+<!ENTITY upperRomanListStyleType.label                 "wulki romski">
+<!ENTITY lowerGreekListStyleType.label                 "mały grjekski">
+<!ENTITY lowerAlphaListStyleType.label                 "mały alfameriski">
+<!ENTITY upperAlphaListStyleType.label                 "wulki alfameriski">
+<!ENTITY armenianListStyleType.label                    "armenski">
+<!ENTITY georgianListStyleType.label                    "georgiski">
+
+<!ENTITY listStyleImage.label		"Wobraz lisćinoweho stila:">
+
+<!ENTITY listStylePosition.label	"Pozicija lisćinoweho stila:">
+<!ENTITY insideListStylePosition.label		"zasunjeny">
+<!ENTITY outsideListStylePosition.label		"wusunjeny">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label  "Powšitkowny stil wućahnyć a wutworić">
+<!ENTITY makecssrule.accesskey "P">
+<!ENTITY currentstylesfor.label "Aktualne stile za:">
+<!ENTITY renameButton.label "Selektor wobdźěłać">
+<!ENTITY autoMarginUnit.label "awtomatiski">
+<!ENTITY thinBorderUnit.label "ćeńki">
+<!ENTITY mediumBorderUnit.label "srjedźni">
+<!ENTITY thickBorderUnit.label "tołsty">

@@ -1,0 +1,16 @@
+<!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
+<!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
+
+<!-- entities split out from browser.dtd -->
+<!ENTITY next.label "Přichodny">
+<!ENTITY next.accesskey "c">
+<!ENTITY next.tooltip "Přichodny wustup frazy pytać">
+<!ENTITY previous.label "Předchadny">
+<!ENTITY previous.accesskey "d">
+<!ENTITY previous.tooltip "Předchadny wustup frazy pytać">
+<!ENTITY findCloseButton.tooltip "Pytansku lajstu začinić">
+<!ENTITY highlight.label "Wšě wuzběhnyć">
+<!ENTITY highlight.accesskey "z">
+<!ENTITY highlight.tooltiptext "Wšě wustupy frazy wuzběhnyć">
+<!ENTITY caseSensitiveCheckbox.label "Wulkopisanje wobkedźbować">
+<!ENTITY caseSensitiveCheckbox.accesskey "W">

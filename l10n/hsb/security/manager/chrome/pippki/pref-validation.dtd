@@ -1,0 +1,84 @@
+<!--
+ ***** BEGIN LICENSE BLOCK *****
+    - Version: MPL 1.1/GPL 2.0/LGPL 2.1   
+    -   
+    - The contents of this file are subject to the Mozilla Public License Version   
+    - 1.1 (the "License"); you may not use this file except in compliance with   
+    - the License. You may obtain a copy of the License at   
+    - http://www.mozilla.org/MPL/   
+    -   
+    - Software distributed under the License is distributed on an "AS IS" basis,   
+    - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License   
+    - for the specific language governing rights and limitations under the   
+    - License.   
+    -   
+    - The Original Code is Mozilla Communicator.   
+    -   
+    - The Initial Developer of the Original Code is   
+    - Netscape Communications Corp.   
+    - Portions created by the Initial Developer are Copyright (C) 1999   
+    - the Initial Developer. All Rights Reserved.   
+    -   
+    - Contributor(s):   
+    -   Stephen Lamm <slamm@netscape.com>   
+    -   
+    - Alternatively, the contents of this file may be used under the terms of   
+    - either of the GNU General Public License Version 2 or later (the "GPL"),   
+    - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),   
+    - in which case the provisions of the GPL or the LGPL are applicable instead   
+    - of those above. If you wish to allow use of your version of this file only   
+    - under the terms of either the GPL or the LGPL, and not to allow others to   
+    - use your version of this file under the terms of the MPL, indicate your   
+    - decision by deleting the provisions above and replace them with the notice   
+    - and other provisions required by the GPL or the LGPL. If you do not delete   
+    - the provisions above, a recipient may use your version of this file under   
+    - the terms of any one of the MPL, the GPL or the LGPL.   
+    -   
+    - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY pref.validation.title "Walidowanje">
+<!ENTITY validation.crl.caption "CRL">
+<!ENTITY validation.crl.description "Wužijće zrjadowak CRL, zo byšće Certificate Revocation Lists (CRL) zrjadował, kotrež so we wašej datowej bance certifikatow składuja.">
+<!ENTITY validation.managecrls.button "CRL zrjadować…">
+<!ENTITY validation.managecrls.accesskey   "z">
+<!ENTITY validation.crlmanager.label "CRL zrjadować">
+<!ENTITY validation.crlname.label "Mjeno">
+<!ENTITY validation.crllastupdate.label "Poslednja aktualizacija">
+<!ENTITY validation.crlnextupdate.label "Přichodna aktualizacija">
+<!ENTITY validation.deletecrl.label "Zhašeć">
+<!ENTITY validation.deletecrl.accesskey          "Z">
+<!ENTITY validation.updatecrl.label "Aktualizacija">
+<!ENTITY validation.updatecrl.accesskey          "A">
+<!ENTITY validation.ocsp.caption "OCSP">
+<!ENTITY validation.ocsp.description "&brandShortName; móže Online Certificate Status Protocol (OCSP) za werifikowanje certifikatow wužiwać. OCSP takle wužiwać:">
+<!ENTITY disableOCSP.label "OCSP za walidowanje certifikatow njewužiwać">
+<!ENTITY disableOCSP.accesskey                    "O">
+<!ENTITY certOCSP.label "OCSP jenož za walidowanje certifikatow wužiwać, kotrež OCSP-Service-URL podawaja.">
+<!ENTITY certOCSP.accesskey                       "C">
+<!ENTITY proxyOCSP.label "OCSP za walidowanje wšěch certifikatow wužiwajo sćěhowace URL a podpisowarjow wužiwać:">
+<!ENTITY proxyOCSP.accesskey                      "P">
+<!ENTITY serviceURL.label "URL słužby:">
+<!ENTITY serviceURL.accesskey "U">
+<!ENTITY signingCA.label "Signěrowar wotmołwy:">
+<!ENTITY signingCA.accesskey "S">
+<!ENTITY validation.crlautoupdateenabled.label   "Awtomatiska aktualizacija">
+<!ENTITY validation.crlautoupdatestatus.label    "Status automatiskeje aktualizacije">
+<!ENTITY validation.crl.autoupdate.title            "Nastajenja automatiskeje aktualizacije CRL">
+<!ENTITY validation.crl.autoupdate.enable.label     "Awtomatisku aktualizaciju za tutu lisćinu CRL zmóžnić">
+<!ENTITY validation.crl.autoupdate.time.label1      "Aktualizować">
+<!ENTITY validation.crl.autoupdate.time.label2      "dnjow před přichodnym datumom aktualizacije">
+<!ENTITY validation.crl.autoupdate.freq.label1      "Kóžde">
+<!ENTITY validation.crl.autoupdate.freq.label2      "dnjow aktualizować">
+<!ENTITY validation.crl.autoupdate.url.label        "Lisćina CRL so zaimportuje z:">
+<!ENTITY validation.advanced.label         "Nastajenja">
+<!ENTITY validation.advanced.accesskey           "N">
+<!ENTITY crl.import.nextupdate.label     "Přichodne aktualizowanje na: ">
+<!ENTITY crl.issuer.label                "CRL wudaty přez:">
+<!ENTITY crl.import.success.message      "Certificate Revocation List (CRL) bu z wuspěchom importowana.">
+<!ENTITY edit.button "Nastajenja">
+<!ENTITY crl.autoupdate.fail.cnt.label      "Předchadne za sobu sćěhowace njeporadźene aktualizacije: ">
+<!ENTITY crl.import.status.title         "CRL status importowanja">
+<!ENTITY crl.issuer.orgunit.label        "Wotdźěl: ">
+<!ENTITY crl.autoupdate.fail.reason.label   "Detale poslednjeho njeporadźeneho aktualizacije: ">
+<!ENTITY crl.issuer.org.label            "Organizacija: ">

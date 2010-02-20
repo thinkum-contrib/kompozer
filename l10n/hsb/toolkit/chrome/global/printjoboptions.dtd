@@ -1,0 +1,28 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printJobOptions.title "Kajkosće ćišćaka">
+
+<!ENTITY paperInput.label "Wulkosć papjery:">
+
+<!ENTITY plexInput.label "Pleks-modus:">
+
+<!ENTITY resolutionInput.label "Rozeznaće/Kajkosć:">
+
+<!ENTITY cmdInput.label "Ćišćerski přikaz:">
+
+<!ENTITY jobTitleInput.label "Titul procesa:">
+
+<!ENTITY colorGroup.label "Barba:">
+<!ENTITY grayRadio.label "Nuansy šěrosće">
+<!ENTITY colorRadio.label "Barba">
+
+<!ENTITY colorspaceInput.label "Barbowy rum:">
+
+<!ENTITY fontsGroup.label "Pisma:">
+<!ENTITY downloadFonts.label "Pisma k ćišćakej sćahnyć?">
+
+<!ENTITY edgeMarginInput.label "Mjezera wot hrany papjery ke kromje">
+<!ENTITY topInput.label "Horjeka:">
+<!ENTITY bottomInput.label "Deleka:">
+<!ENTITY leftInput.label "Nalěwo:">
+<!ENTITY rightInput.label "Naprawo:">

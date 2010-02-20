@@ -1,0 +1,31 @@
+<!ENTITY editMenu.label            "Wobdźěłać">
+<!ENTITY editMenu.accesskey        "b">
+<!ENTITY undoCmd.label             "Cofnyć">
+<!ENTITY undoCmd.key               "Z">
+<!ENTITY undoCmd.accesskey         "c">
+<!ENTITY redoCmd.label             "Wospjetować">
+<!ENTITY redoCmd.key               "Y">
+<!ENTITY redoCmd.accesskey         "o">
+<!ENTITY cutCmd.label              "Wutřihać">
+<!ENTITY cutCmd.key                "X">
+<!ENTITY cutCmd.accesskey          "t">
+<!ENTITY copyCmd.label             "Kopěrować">
+<!ENTITY copyCmd.key               "C">
+<!ENTITY copyCmd.accesskey         "k">
+<!ENTITY pasteCmd.label            "Zasunyć">
+<!ENTITY pasteCmd.key              "V">
+<!ENTITY pasteCmd.accesskey        "z">
+<!ENTITY deleteCmd.label           "Zhašeć">
+<!ENTITY deleteCmd.accesskey       "h">
+<!ENTITY selectAllCmd.label        "Wšě wubrać">
+<!ENTITY selectAllCmd.key          "A">
+<!ENTITY selectAllCmd.accesskey    "w">
+<!ENTITY findCmd.label             "Pytać">
+<!ENTITY findCmd.key               "F">
+<!ENTITY findCmd.accesskey         "P">
+<!ENTITY findAgainCmd.label        "Dale pytać">
+<!ENTITY findAgainCmd.key          "G">
+<!ENTITY findAgainCmd.key2         "VK_F3">
+<!ENTITY findAgainCmd.accesskey    "l">
+<!ENTITY findPreviousCmd.label     "Předchadny pytać">
+<!ENTITY findPreviousCmd.accesskey "d">

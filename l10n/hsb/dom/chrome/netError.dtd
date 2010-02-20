@@ -1,0 +1,49 @@
+<!ENTITY loadError.label "Zmylk za čitanje strony">
+<!ENTITY retry.label "Hišće raz spytać">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "Zwjazanje njeporadźiło">
+<!ENTITY connectionFailure.longDesc "<p>Hačrunjež sydło zda so płaćiwe, browser njemóže zwisk wutworić.</p><ul><li>Njeje sydło snano nachwilu k dispoziciji? Spytajcé pozdźišo hišće raz.</li><li>Njemóžeće druhe sydła přehladać? Kontrolujće syćowy zwisk swojeho ličaka.</li><li>Škita so waš ličak abo waša syć z wohnjowej murju ab proksy? Njekorektne nastajenja móža webowemu přehladanju wadźić.</li></ul>">
+
+<!ENTITY deniedPortAccess.title "Port z přičinow wěstoty wobmjezowany">
+<!ENTITY deniedPortAccess.longDesc "<p>Požadana adresa poda port (na př. <q>mozilla.org:80</q> za port 80 on mozilla.org), kotryž so normalnje za <em>hinaše</em> zaměry wužiwa hač webowe přehladanje. Browser je naprašenje za waš škit a wěstoty přetorhnył.</p>">
+
+<!ENTITY dnsNotFound.title "Adresa njenamakana">
+<!ENTITY dnsNotFound.longDesc "<p>Browser njemóžeše hostowy serwer za podatu adtresu namakać.</p><ul><li>Sće zmylk činił, hdyž sće domenu zapisał? (na př. <q><strong>ww</strong>.mozilla.org</q> město <q><strong>www</strong>.mozilla.org</q>)</li><li>Sće wy wěsty, zo tuta domenowa adresa eksistuje?  Jeje registracija je snano spadnjena.</li><li>Njemóžeće druhe sydła přehladać?  Přepruwujće syćowy zwisk a nastajenja serwera DNS.</li><li>Škita so waš ličak abo waša syć z wohnjowej murju abo proksy?  Njekorektne nastajenja móža webowemu přehladanju wadźić.</li></ul>">
+
+<!ENTITY fileNotFound.title "Dataja njenamakana">
+<!ENTITY fileNotFound.longDesc "<ul><li>Je móžno, zo bu objekt přemjenowany, wotstronjeny abo přesunjeny?</li><li>Je zmylk prawopisa, wulkopisanja, abo hinaši typografiski zmylk w adresy?</li><li>Maće dosahace přistupne prawa za požadany objekt?</li></ul>">
+
+<!ENTITY generic.title "Naprašenje njeda so spjelnić">
+<!ENTITY generic.longDesc "<p>Přidatne informacije wo tutym problemje abo zmylku tuchwilu k dispozicji njesteja.</p>">
+
+<!ENTITY malformedURI.title "Njepłaćiwa adresa">
+<!ENTITY malformedURI.longDesc "<p>Podata adresa w připóžnatym formaće njeje. Prošu přepruwujće adresowu lajstu za zmylkami a spytajće hišće raz.</p>">
+
+<!ENTITY netInterrupt.title "Přenjesenje datow přetorhnjene">
+<!ENTITY netInterrupt.longDesc "<p>Browser wuspěšnje zwjaza, ale zwisk bu přetorhnjeny, mjeztym zo buchu informacije přenošowane. Prošu spytajće hišće raz.</p><ul><li>Njemóžeće druhe sydła přehladać? Přepruwujće syćowy zwisk ličaka.</li><li>Maće hišće ćeže? Skonsultujće swojeho syćoweho administratora abo internetneho prowidera za podpěru.</li></ul>">
+
+<!ENTITY netOffline.title "Zmylk offline">
+<!ENTITY netOffline.longDesc "<p>Browser offline dźěła a njemóže z požadanym objektom zwjazać.</p><ul><li>Je ličak z aktiwnej syću zwjazany?</li><li>Stajće browser do modusa online a spytajće hišće raz.</li></ul>">
+
+<!ENTITY netReset.title "Zwisk přetorhnjeny">
+<!ENTITY netReset.longDesc "<p>Syćowy zwisk bu přetorhnjeny při wujednawanju zwiska. Prošu spytajće hišće raz.</p>">
+
+<!ENTITY netTimeout.title "Syćowe překročenje časa">
+<!ENTITY netTimeout.longDesc "<p>Požadane sydło na zwiskowe naprašenje njewotmołwi a browser přesta na wotmołwu čakać.</p><ul><li>Móže być, zo serwer je přećeženy abo ma nachwilne mylenje? Spytajće pozdźišo hišće raz.</li><li>Njemóžeće druhe sydła přehladać? Přepruwujće syćowy zwisk ličaka.</li><li>škita so waš ličak abo waša syć z wohnjowej murju abo proksy?  Njekorektne nastajenja móža webowemu přehladanju wadźić.</li><li>Maće hišće ćeže? Skonsultujće swojeho syćoweho administratora abo internetneho prowidera za podpěru.</li></ul>">
+
+<!ENTITY protocolNotFound.title "Njeznaty protokol">
+<!ENTITY protocolNotFound.longDesc "<p>Adresa podawa protokol (na př. <q>wxyz://</q>), kotryž browser njepřipóznawa, tak zo browser njemóže prawje ze sydłom zwjazać.</p><ul><li>Pospytujeće na multimedia abo druhe njetekstowe słužby dohrabnyć? Přepruwujće sydło za wosebitymi potrěbnosćemi.</li><li>Někotre protokole trjebaja programy třećich abo tykače, prjedy hač browser móže je připóznać.</li></ul>">
+
+<!ENTITY proxyConnectFailure.title "Serwer Proksy zwisk wotpokaza">
+<!ENTITY proxyConnectFailure.longDesc "<p>Browser bu konfigurowany, zo by so serwer proksy wužiwa, ale proksy zwisk wotpokaza.</p><ul><li>Je konfiguracije proksy browsera korektnaonfiguration? Přepruwujće nastajenja a spytajće hišće raz.</li><li>Dowola słužba proksy zwiski z tuteje syće?</li><li>Maće hišće ćeže? Skonsultujće swojeho syćoweho administratora abo internetneho prowidera za podpěru.</li></ul>">
+
+<!ENTITY proxyResolveFailure.title "Serwer proksy njenamakany">
+<!ENTITY proxyResolveFailure.longDesc "<p>Browser bu konfigurowany, zo by so serwer proksy wužiwa, ale proksy njeda so namakać.</p><ul><li>Je konfiguracija proksy browsera korektna? Přepruwujće nastajenja a spytajće hišće raz.</li><li>Je ličak z aktiwnej syću zwjazany?</li><li>Maće hišće ćeže? Skonsultujće swojeho syćoweho administratora abo internetneho prowidera za podpěru.</li></ul>">
+
+<!ENTITY redirectLoop.title "Sykla sposrědkowanja">
+<!ENTITY redirectLoop.longDesc "<p>Browser přesta pospytować požadany objekt nabyć. Sydło sposrědkuje naprašenje na wašnje, kotrež so njekónči.</p><ul><li>Have you disabled or blocked cookies required by this site?</li><li><em>NOTE</em>: If accepting the site's cookies does not resolve the problem, it is likely a server configuration issue and not your computer.</li></ul>">
+
+<!ENTITY unknownSocketType.title "Njekorektna wotmołwa">
+<!ENTITY unknownSocketType.longDesc "<p>Sydło wotmołwi na naprašenje syće na njewočakowane wašnje a browser njemóže pokročować.</p>">

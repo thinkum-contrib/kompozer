@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Eksterne aplikacije">
+
+<!ENTITY application.label            "Aplikacija:">
+<!ENTITY webBrowser.label             "Webwobhladowak">
+<!ENTITY textEditor.label             "Tekstowy editor">
+<!ENTITY imageEditor.label            "Wobrazowy editor">
+<!ENTITY mediaPlayer.label            "Medijowy wothrawak">
+<!ENTITY fileManager.label            "Datajowy zrjadowak">
+<!ENTITY ftpClient.label              "FTP-program">
+
+<!ENTITY useSystemHelper.label        "systemowy standard wužiwać">
+<!ENTITY useCustomHelper.label        "swójsku aplikaciju wužiwać:">
+<!ENTITY path.label                   "datajowa šćežka">
+<!ENTITY arguments.label              "argumenty">
+<!ENTITY filePicker.tooltip           "Wubjerće dataju…">
+
+<!ENTITY fileFilter.label             "Datajowe sufiksy (*) za:">
+<!ENTITY default.label                "standard">
+<!ENTITY needToRestart.label          "(*) Změny tutych nastajenjow so hakle wuskutkuja, hdyž KompoZer so znowa startuje.">
+

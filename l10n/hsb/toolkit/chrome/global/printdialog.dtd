@@ -1,0 +1,29 @@
+<!-- extracted from printdialog.xul -->
+
+<!ENTITY printButton.label "Ćišćeć">
+
+<!ENTITY printDialog.title "Ćišćeć">
+
+<!ENTITY fpDialog.title "Dataju składować">
+
+<!ENTITY fileCheck.label "Do dataje ćišćeć">
+<!ENTITY propertiesButton.label "Kajkosće…">
+<!ENTITY descText.label "Wopisanje ćišćaka:">
+<!ENTITY printer.label "Ćišćak">
+<!ENTITY printerInput.label "Mjeno ćišćaka:">
+
+<!ENTITY printrangeGroup.label "Ćišćerski wobwod">
+<!ENTITY allpagesRadio.label "Wšě strony">
+<!ENTITY rangeRadio.label  "Strony">
+<!ENTITY frompageInput.label  "wot">
+<!ENTITY topageInput.label  "do">
+<!ENTITY selectionRadio.label "Wuběr">
+
+<!ENTITY copies.label "Kopije">
+<!ENTITY numCopies.label "Ličba kopijow:">
+
+<!ENTITY printframeGroup.label "Wobłuki ćišćeć">
+<!ENTITY aslaidoutRadio.label "Kaž na wobrazowce">
+<!ENTITY selectedframeRadio.label  "Wubrany wobłuk">
+<!ENTITY eachframesepRadio.label  "Kóždy wobłuk za so">
+

@@ -1,0 +1,82 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Lindows.com
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- extracted from content/pref-composer.xul -->
+
+<!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
+
+<!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
+<!ENTITY  title.label               "Powšitkowne">
+<!ENTITY  lHeader                   "Powšitkowne">
+<!ENTITY  rHeader                   "Nastajenja za spisowanje nowych web-stronow">
+
+<!ENTITY  tableEditing.label                    "Wobdźěłowanje tabele">
+<!ENTITY  maintainTableStructure.label          "Wuhotowanje tabelow při zasuwanju a wotstronjenju celow zachować">
+<!ENTITY  maintainTableStructure.tooltip        "Praworóžkatu podobu tabele wobchować, awtotmatisce přidawajo cele po zasuwanju abo wotstronjenju celow">
+<!ENTITY  maintainStructure.accesskey           "m">
+
+<!ENTITY  savingFiles.title           "Składowanje abo publikowanje datajow">
+<!ENTITY  preserveExistingFormatting  "Originalne formatowanje žórłoweho teksta zachować">
+<!ENTITY  preserveExistingFormatting.accesskey  "o">
+<!ENTITY  preserveExistingFormatting.tooltip    "Zachowa łamanja linkow a originalne formatowanje strony">
+<!ENTITY  reformat.label              "HTML-źórło znowa formatować">
+<!ENTITY  reformat.accesskey          "r">
+<!ENTITY  reformat.tooltip            "HTML-taflički z łamanjemi linkow a zasunjenjemi znowa formatować">
+
+<!ENTITY  saveAssociatedFiles.label "Wobrazy a druhe zwjazane dataje składować, hdyž strony so składuja">
+<!ENTITY  showPublishDialog.label   "Za publikowanje stronow přeco publikowanski dialog pokazać">
+
+<!ENTITY  saving                    "Składowanje">
+<!ENTITY  AutoSaveCheck             "Awtomatisće składowác kóžde">
+<!ENTITY  minText                   "mjeńšin">
+
+<!ENTITY  exterLegend.label         "Eksterne editory">
+<!ENTITY  htmlSource                "HTML-žórło:">
+<!ENTITY  imageeditor               "Wobrazy:">
+<!ENTITY  chooseButton.label        "Wubrać">
+
+<!ENTITY  recentFiles.title         "Poskitk aktualnych stronow">
+<!ENTITY  documentsInMenu.accesskey     "n">
+<!ENTITY  documentsInMenu           "Maksimalna ličba naličenych stronow:">
+
+<!ENTITY  cssEditing.label          "Cascading Style Sheets (CSS) wobdźěłać">
+<!ENTITY  useCSS.label              "CSS-stile (Cascading Style Sheets) město HTML-elementow a atributow wužiwać">
+
+<!ENTITY  siteManager.label         "Zrjadowak sydłow">
+<!ENTITY  openInNewTab.label        "Dokument přeco w nowym rajtarku wočinić">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label     "Systemowe wobrazki wužiwać">

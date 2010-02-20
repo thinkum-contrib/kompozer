@@ -1,0 +1,85 @@
+<!ENTITY printCmd.commandkey            "p">
+
+<!ENTITY viewCustomizeToolbar.label     "Přiměrić…">
+<!ENTITY viewCustomizeToolbar.accesskey "P">
+
+<!ENTITY findOnCmd.commandkey           "F">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+<!ENTITY findDialog.title "Na tutej stronje pytać">
+<!ENTITY findDialogFrame.title "W tutym wobłuku pytać">
+<!ENTITY findField.label "Pytanski tekst:">
+<!ENTITY findField.accesskey "n">
+<!ENTITY caseSensitiveCheckbox.label "Wulkopisanje wobkedźbować">
+<!ENTITY caseSensitiveCheckbox.accesskey "u">
+<!ENTITY wrapCheckbox.label "Łamać">
+<!ENTITY wrapCheckbox.accesskey "m">
+<!ENTITY backwardsCheckbox.label "Dozady pytać">
+<!ENTITY backwardsCheckbox.accesskey "z">
+<!ENTITY findField.tooltip "Zapisajće jedno pytanske słowo abo wjacore pytanske słowa">
+<!ENTITY findButton.label "Dale pytaćFind Next">
+<!ENTITY findButton.accesskey "l">
+<!ENTITY cancelButton.label "Přetorhnyć">
+<!ENTITY up.label "Horje">
+<!ENTITY up.accesskey "H">
+<!ENTITY down.label "Dele">
+<!ENTITY down.accesskey "D">
+<!ENTITY direction.label "Směr">
+
+<!ENTITY find.label "Pytać:">
+<!ENTITY findNext.label "Přichodny pytać">
+<!ENTITY findNext.tooltip "Přichodne wustupowanje frazy namakać">
+<!ENTITY findPrevious.label "Předchadny pytać">
+<!ENTITY findPrevious.tooltip "Předchadne wustupowanje frazy namakać">
+<!ENTITY findCloseButton.tooltip "Pytansku lajstu začinić">
+<!ENTITY highlight.label "Wuzběhnyć">
+<!ENTITY highlight.tooltip "Wšě wustupowanja frazy wuzběhnyć (Strg+Enter)">
+
+<!ENTITY backButton.label               "Wróćo">
+<!ENTITY backButton.accesskey           "W">
+<!ENTITY backButton.tooltip             "Wo jednu stronu wróćo">
+<!ENTITY forwardButton.label            "Doprědka">
+<!ENTITY forwardButton.accesskey        "D">
+<!ENTITY forwardButton.tooltip          "Wo jednu stronu doprědka">
+<!ENTITY homeButton.label               "Startowa strona">
+<!ENTITY homeButton.tooltip             "K startowej stronje pomocy">
+<!ENTITY printButton.label              "Ćišćeć">
+<!ENTITY printButton.tooltip            "Tutu stronu ćišćeć">
+<!ENTITY findBtn.label		  	"Pytać">
+<!ENTITY sidebarBtn.label               "Bóčnicu pokazać/schować">
+<!ENTITY sidebarBtn.tooltip             "Bóčnicu pomocy pokazać abo schować">
+<!ENTITY textZoomReduceBtn.label 	"Tekstowu wulkosć pomjeńšić">
+<!ENTITY textZoomReduceBtn.accesskey    "m">
+<!ENTITY textZoomReduceBtn.tooltip      "Wulkosć tekst w dokumentach pomocy pomjeńšić.">
+<!ENTITY textZoomEnlargeBtn.label 	"Tekstowu wulkosć powjetšić">
+<!ENTITY textZoomEnlargeBtn.accesskey   "w">
+<!ENTITY textZoomEnlargeBtn.tooltip     "Wulkosć teksta w dokumentach pomocy powjetšić.">
+<!ENTITY customizeButton.tooltip        "Přiměrić, kotre tłóčatka so w gratowej lajsće pomocy pokazuja.">
+<!ENTITY reloadCmd.label                "Znowa začitać">
+<!ENTITY reloadCmd.accesskey            "z">
+<!ENTITY closeWindow.commandkey         "W">
+<!ENTITY copyCmd.label                  "Kopěrować">
+<!ENTITY copyCmd.accesskey              "k">
+
+<!ENTITY throbberItem.title             "Indikator aktiwity">
+
+<!ENTITY cmd_CustomizeToolbars.label    "Přiměrić" >
+
+<!ENTITY searchtab.label    	  	"Pytać">
+<!ENTITY searchtab.accesskey            "P">
+<!ENTITY searchbtn.label    	  	"Namakać">
+<!ENTITY toctab.label       	  	"Wobsah">
+<!ENTITY toctab.accesskey               "b">
+<!ENTITY indextab.label     	  	"Indeks">
+<!ENTITY indextab.accesskey             "I">
+<!ENTITY ixname.label       	  	"Mjeno">
+<!ENTITY glossarytab.label  	  	"Glosar">
+<!ENTITY glossarytab.accesskey          "G">
+<!ENTITY glossname.label    	  	"Mjeno">
+<!ENTITY gobtn.label        	  	"Pytać">
+<!ENTITY name.label	    	  	"Zapis">
+
+<!ENTITY textZoomReduceCmd.commandkey	"-">
+<!ENTITY textZoomEnlargeCmd.commandkey	"+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey    "0">

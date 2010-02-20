@@ -1,0 +1,80 @@
+<!-- extracted from content/pref-fonts.xul -->
+
+<!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
+<!ENTITY  pref.fonts.title "Pisma">
+
+<!ENTITY language.label "Pisma za:">
+<!ENTITY language.accesskey "P">
+
+<!ENTITY typefaces.label "Typ pisma">
+<!ENTITY sizes.label "Wulkosć (piksele)">
+
+<!ENTITY proportional.label "Proporcionalny:">
+<!ENTITY proportional.accesskey "c">
+
+<!ENTITY  serif.label                             "Serif:">
+<!ENTITY  serif.accesskey                         "s">
+<!ENTITY  sans-serif.label                        "Sans-serif:">
+<!ENTITY  sans-serif.accesskey                    "n">
+<!ENTITY  monospace.label                         "Kruta šěrokosć">
+<!ENTITY  monospace.accesskey                     "u">
+<!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
+<!ENTITY  fantasy.label                           "Fantasy:">
+<!ENTITY  fantasy.accesskey                       "f">
+<!ENTITY cursive.label "Kursiwny:">
+<!ENTITY cursive.accesskey "k">
+
+<!ENTITY  fontsize.units                          "pikselow">
+
+<!ENTITY font.langGroup.latin1 "Zapadne">
+<!ENTITY font.langGroup.latin2 "Srjedźnoeuropske">
+<!ENTITY font.langGroup.japanese "Japanske">
+<!ENTITY font.langGroup.trad-chinese "Chinske tradicionelne (Taiwan)">
+<!ENTITY font.langGroup.simpl-chinese "Chinske zjednorjene">
+<!ENTITY font.langGroup.trad-chinese-hk "Chinske tradicionelne (Hong Kong)">
+<!ENTITY font.langGroup.korean "Korejske">
+<!ENTITY font.langGroup.cyrillic "Kyriliske">
+<!ENTITY font.langGroup.baltic "Baltiske">
+<!ENTITY font.langGroup.el "Grjekske">
+<!ENTITY font.langGroup.turkish "Turkowske">
+<!ENTITY font.langGroup.unicode "Druhe rěče">
+<!ENTITY font.langGroup.user-def "Swójske">
+<!ENTITY font.langGroup.thai "Thailandske">
+<!ENTITY font.langGroup.hebrew "Hebrejske">
+<!ENTITY font.langGroup.arabic "Arabske">
+<!ENTITY font.langGroup.devanagari "Devanagari">
+<!ENTITY font.langGroup.tamil "Tamilske">
+<!ENTITY  font.langGroup.armenian "Armenske">
+<!ENTITY  font.langGroup.bengali  "Bengalske">
+<!ENTITY  font.langGroup.canadian "Zjednoćeny kanareski sylabar">
+<!ENTITY  font.langGroup.ethiopic "Etiopske">
+<!ENTITY  font.langGroup.georgian "Georgiske">
+<!ENTITY  font.langGroup.gujarati "Gudźarati">
+<!ENTITY  font.langGroup.gurmukhi "Gurmukhi">
+<!ENTITY  font.langGroup.khmer "Khmer">
+<!ENTITY  font.langGroup.malayalam "Malajalam">
+<!-- Minimum font size -->
+<!ENTITY minSize.label "Minimalna wulkosć pisma:">
+<!ENTITY minSize.accesskey "M">
+<!ENTITY minSize.none "Žana">
+
+<!-- default font type -->
+<!ENTITY  useDefaultFontSerif.label               "Serif">
+<!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
+
+<!ENTITY newLanguages.label "Nowe rěče dadźa so z panelom rěčow  konfigurować.">
+
+<!ENTITY useDocumentFonts.label "Dokumentam dowolić, zo bychu druhe pisma wužiwali">
+<!ENTITY useDocumentFonts.accesskey "m">
+
+<!-- leaving this stuff in for now -->
+
+<!ENTITY header2 "Hdyž webowa strona swójske pisma wubjerje">
+<!ENTITY useDefaultFont.label "Moje standardne pisma wužiwać, ignorujo pisma, kotrež je strona wubrała">
+<!ENTITY useDefaultFont.accesskey "m">
+<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY useDocFontNonDynamic.label "Přez stronu wubrane pisma wužiwać">
+<!ENTITY useDocFontNonDynamic.accesskey "w">
+<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY useDocFontDynamic.label "Wšě přez stronu wubrane pisma wužiwać">
+<!ENTITY useDocFontDynamic.accesskey "a">

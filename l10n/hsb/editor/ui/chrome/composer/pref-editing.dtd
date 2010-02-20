@@ -1,0 +1,36 @@
+<!ENTITY lHeader "Nowe nastajenja strony">
+<!ENTITY rHeader "Standardne nastajenja za nowe strony">
+<!ENTITY authorName.label "Awtor:">
+<!ENTITY authorName.accesskey "a">
+<!ENTITY pageColorHeader "Standardne wuhotowanje strony">
+<!ENTITY chooseFile.label "Přepytać…">
+<!ENTITY chooseFile.accesskey "P">
+<!ENTITY defaultColorsRadio.label "Standardne barby čitarja (žane barby na stronje njepostajić)">
+<!ENTITY defaultColors.accesskey "s">
+<!ENTITY customColorsRadio.label "Swójske barby wužiwać:">
+<!ENTITY customColors.accesskey "e">
+<!ENTITY normalText.label "Normalny Tekst">
+<!ENTITY normalText.accesskey       "N">
+<!ENTITY linkText.label "Tekst wotkaza">
+<!ENTITY linkText.accesskey         "o">
+<!ENTITY activeLinkText.label "Tekst aktiwneho wotkaza">
+<!ENTITY activeLinkText.accesskey   "a">
+<!ENTITY visitedLinkText.label "Tekst wopytaneho wotkaza">
+<!ENTITY visitedLinkText.accesskey  "W">
+<!ENTITY background.label "Pozadk:">
+<!ENTITY background.accesskey       "P">
+<!ENTITY colon.character ":">
+<!ENTITY backgroundImage.label "Pozadkowy wobraz:">
+<!ENTITY backgroundImage.accesskey "z">
+
+<!ENTITY i18nHeader                  "Internacionalizacija">
+
+<!ENTITY writingDirection.label      "Pisanski směr:">
+<!ENTITY defaultDirectionRadio.label "Žadyn">
+<!ENTITY ltrDirectionRadio.label     "Doprawa">
+<!ENTITY rtlDirectionRadio.label     "Dolěwa">
+
+<!ENTITY language.label              "Rěč:">
+<!ENTITY languageChoiceButton.label  "Rěč wubrać">
+<!ENTITY defaultCharset.label        "Kodowanje:">
+<!ENTITY chooseCharsetButton.label   "Kodowanje wuzwolić">

@@ -1,0 +1,116 @@
+<!ENTITY addons.title                     "Přidatki">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Rozšěrjenja">
+<!ENTITY themes.label                     "Šaty">
+<!ENTITY locales.label                    "Rěče">
+<!ENTITY plugins.label                    "Tykač">
+<!ENTITY update.label                     "Aktualizacije">
+<!ENTITY install.label                    "Instalacija">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Aktualizacije namakać">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "k">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Aktualizacije za waše přidatki namakać">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Aktualitzacije za waše šaty namakać">
+<!ENTITY cmd.installLocalFile.label       "Instalować…">
+<!ENTITY cmd.installFile.accesskey        "I">
+<!ENTITY cmd.installFileAddon.tooltip     "Přidatk instalować">
+<!ENTITY cmd.installFileTheme.tooltip     "Šat instalować">
+<!ENTITY cmd.installUpdatesAll.label      "Aktualizacije instalować">
+<!ENTITY cmd.installUpdatesAll.accesskey  "A">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Instaluje wubrane aktualizacije">
+<!ENTITY cmd.restartApp.label             "&brandShortName; znowa startować">
+<!ENTITY cmd.restartApp.accesskey         "z">
+<!ENTITY cmd.restartApp.tooltip           "Startuje &brandShortName; znowa, zo by so instalacija dokónčiła">
+<!ENTITY cmd.skip.label                   "Přeskočić">
+<!ENTITY cmd.skip.accesskey               "P">
+<!ENTITY cmd.skip.tooltip                 "Tute aktualizacije přeskočić">
+<!ENTITY cmd.continue.label               "Pokročować">
+<!ENTITY cmd.continue.accesskey           "k">
+<!ENTITY cmd.continue.tooltip             "W začitanju &brandShortName; pokročować">
+
+<!ENTITY cmd.enableAll.label              "Wšě zmóžnić">
+<!ENTITY cmd.enableAll.accesskey          "m">
+<!ENTITY cmd.enableAll.tooltip            "Wšě zwobraznjene přidatki zmóžnić">
+<!ENTITY cmd.disableAll.label             "Wšě znjemóžnić">
+<!ENTITY cmd.disableAll.accesskey         "n">
+<!ENTITY cmd.disableAll.tooltip           "Wšě zwobraznjene přidatki znjemóžnić">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "Šat wužiwać">
+<!ENTITY cmd.useTheme.accesskey           "t">
+<!ENTITY cmd.useTheme.tooltip             "Wuměnja šat &brandShortName;">
+<!ENTITY cmd.options.label                "Opcije">
+<!ENTITY cmd.options.accesskey            "O">
+<!ENTITY cmd.options.tooltip              "Opcije za wubrane rozšěrjenje nastajić">
+<!ENTITY cmd.optionsUnix.label            "Nastajenja">
+<!ENTITY cmd.optionsUnix.accesskey        "N">
+<!ENTITY cmd.optionsUnix.tooltip          "Nastajenja za wubrane rozšěrjenje wobdźěłać">
+<!ENTITY cmd.enable.label                 "Zmóžnić">
+<!ENTITY cmd.enable.accesskey             "z">
+<!ENTITY cmd.enable.tooltip               "Tutón přidatk zmóžnić, hdyž so &brandShortName; znowa startuje">
+<!ENTITY cmd.disable.label                "Znjemóžnić">
+<!ENTITY cmd.disable.accesskey            "n">
+<!ENTITY cmd.disable.tooltip              "Tutón přidatk znjemóžnić, hdyž so &brandShortName; znowa startuje">
+<!ENTITY cmd.uninstall.label              "Wotinstalować">
+<!ENTITY cmd.uninstall2.accesskey         "w">
+<!ENTITY cmd.uninstall2.tooltip           "Tutón přidatk wotinstalować, hdyž so &brandShortName; znowa startuje">
+<!ENTITY cmd.cancelUninstall.label        "Wotinstalowanje přetorhnyć">
+<!ENTITY cmd.cancelUninstall.accesskey    "i">
+<!ENTITY cmd.cancelUninstall.tooltip      "Wotinstalowanje tutoho přidatka přetorhnyć">
+<!ENTITY cmd.installUpdate.label          "Aktualizaciju instalować">
+<!ENTITY cmd.installUpdate.accesskey      "A">
+<!ENTITY cmd.installUpdate.tooltip        "Aktualizaciju za tutón přidatk instalować">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Přetorhnyć">
+<!ENTITY cancel.accesskey                 "P">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Startowu stronu wopytać">
+<!ENTITY cmd.homepage.accesskey           "S">
+<!ENTITY cmd.about2.label                 "Wo tutym přidatku">
+<!ENTITY cmd.about.accesskey              "u">
+<!ENTITY cmd.checkUpdate.label            "Aktualizaciju pytać">
+<!ENTITY cmd.checkUpdate.accesskey        "l">
+
+<!ENTITY cmd.includeUpdate.label          "Aktualizaciju zatwarić">
+<!ENTITY cmd.includeUpdate.accesskey      "t">
+<!ENTITY includeUpdate.label              "Tutu aktualizaciju zatwarić">
+<!ENTITY includeUpdate.accesskey          "k">
+<!ENTITY includeUpdate.tooltip            "Tutón přidatk zatwarić, hdyž so aktualizacije instaluja">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Wužaduje sej přidatne zapiski.">
+<!ENTITY blocklisted.label                "Za waš škit znjemó6njeny.">
+<!ENTITY toBeDisabled.label               "Tutón přidatk budźe so znjemóžnjeć, hdyž so &brandShortName; znowa startuje.">
+<!ENTITY toBeEnabled.label                "Tutón přidatk budźe so zmóžnjeć, hdyž so &brandShortName; znowa startuje.">
+<!ENTITY toBeInstalled.label              "Tutón přidatk budźe so instalować, hdyž so &brandShortName; znowa startuje.">
+<!ENTITY toBeUninstalled.label            "Tutón přidatk budźe so wotinastalować, hdyž so &brandShortName; znowa startuje.">
+<!ENTITY toBeUpgraded.label               "Tutón přidatk budźe so aktualizować, hdyž so &brandShortName; znowa startuje.">
+
+<!ENTITY getExtensions.label              "Rozšěrjenja wobstarać">
+<!ENTITY getExtensions.tooltip            "Rozšěrjenja z addons.mozilla.org wobstarać">
+<!ENTITY getThemes.label                  "Šaty wobstarać">
+<!ENTITY getThemes.tooltip                "Šaty z addons.mozilla.org wobstarać">
+<!ENTITY previewNoThemeSelected.label     "Žadyn šat wubrany">
+<!ENTITY previewNoPreviewImage.label      "Tutón šat nima přehladowy wobraz">
+<!ENTITY moreInfo.label                   "Dalše informacije">
+<!ENTITY closeMessage.tooltip             "Tutu zdźělenku začinić">
+
+<!ENTITY updateSuccess.label              "Aktualizacija wuspěšnje zakónčena.">
+<!ENTITY installSuccess.label             "Instalacija wuspěšnje zakónčena.">
+<!ENTITY installSuccessRestart.label      "Znowa startować, zo by so instalacija zakónčiła.">
+<!ENTITY installWaiting.label             "Čaka so…">
+<!ENTITY installIncompatibleUpdate.label  "Kompatibelnosć so přepruwuje…">
+<!ENTITY installFinishing.label           "Instaluje so…">
+<!ENTITY installFailure.label             "Instalacija je so njeporadźiła.">
+

@@ -1,0 +1,19 @@
+<!ENTITY     props.box.label                "Wo tutym placku">
+<!ENTITY     props.name.label               "Mjeno:">
+<!ENTITY     props.value.label              "Informacije:">
+<!ENTITY     props.domain.label             "Host:">
+<!ENTITY     props.path.label               "Šćežka:">
+<!ENTITY     props.secure.label             "Słać po">
+<!ENTITY     props.expires.label            "spadnje:">
+<!ENTITY     props.policy.label             "Směrnicy:"> 
+
+<!ENTITY     button.allow.label             "Dowolić">
+<!ENTITY     button.allow.accesskey             "D">
+<!ENTITY     button.session.label           "Za posedźenje dowolić">
+<!ENTITY     button.session.accesskey       "s">
+<!ENTITY     button.deny.label              "Wotpokazać">
+<!ENTITY     button.deny.accesskey              "W">
+
+<!ENTITY     dialog.title                   "Stajenje tutoho placka wobkrućić">
+<!ENTITY     dialog.remember.label          "Moja wólba za wšě placki z tutoho sydła wužiwać">
+<!ENTITY     dialog.remember.accesskey      "M">

@@ -1,0 +1,21 @@
+<!-- extracted from charsetOverlay.xul -->
+<!ENTITY charsetMenu.label				"Znamješkowe kodowanje">
+<!ENTITY charsetMenu.accesskey				"m">
+<!ENTITY charsetMenuAutodet.label "Awtomatisce zwěsćić">
+<!ENTITY charsetMenuAutodet.accesskey			"a">
+<!ENTITY charsetMenuMore.label				"Dalše kodowanja">
+<!ENTITY charsetMenuMore.accesskey				"d">
+<!ENTITY charsetMenuMore1.label "Zapadnoeuropske">
+<!ENTITY charsetMenuMore1.accesskey				"z">
+<!ENTITY charsetMenuMore2.label "Wuchodnoeuropske">
+<!ENTITY charsetMenuMore2.accesskey				"e">
+<!ENTITY charsetMenuMore3.label "Wuchodnoaziske">
+<!ENTITY charsetMenuMore3.accesskey				"u">
+<!ENTITY charsetMenuMore4.label "JW- &amp; JZ-aziske">
+<!ENTITY charsetMenuMore4.accesskey				"J">
+<!ENTITY charsetMenuMore5.label "Srjedźnowuchodne">
+<!ENTITY charsetMenuMore5.accesskey				"s">
+<!ENTITY charsetMenuUnicode.label				"Unicode">
+<!ENTITY charsetMenuUnicode.accesskey				"U">
+<!ENTITY charsetCustomize.label				"Lisćinu přiměrić…">
+<!ENTITY charsetCustomize.accesskey				"L">

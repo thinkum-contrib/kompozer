@@ -1,0 +1,44 @@
+<!ENTITY undoCmd.label						"Cofnyć">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"C"> 
+<!ENTITY redoCmd.label						"Wospjetować">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"o"> 
+<!ENTITY cutCmd.label						"Wutřihać">  
+<!ENTITY cutCmd.key						"X">  
+<!ENTITY cutCmd.accesskey					"t"> 
+<!ENTITY copyCmd.label						"Kopěrować">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"K"> 
+<!ENTITY pasteCmd.label						"Zasunyć">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"Z"> 
+<!ENTITY deleteCmd.label					"Wotstronić">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey					"w"> 
+<!ENTITY selectAllCmd.label					"Wšo wubrać">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey					"b">
+<!ENTITY preferencesCmd.label				"Opcije…">
+<!ENTITY preferencesCmd.key					"O">  
+<!ENTITY preferencesCmd.accesskey			"O">
+<!ENTITY preferencesCmdUnix.label "Nastajenja…">
+<!ENTITY preferencesCmdUnix.accesskey "N">
+
+<!ENTITY findTypeTextCmd.label "Tekst při zapisowanju pytać">
+<!ENTITY findTypeTextCmd.accesskey "x">
+<!ENTITY findTypeLinksCmd.label "Wotkazy při zapisowanju pytać">
+<!ENTITY findTypeLinksCmd.accesskey "k">
+
+<!ENTITY viewToolbarsMenu.label				"Pokazać/Schować"> 
+<!ENTITY viewToolbarsMenu.accesskey			"w"> 
+
+<!ENTITY newBlankPageCmd.label "Strona editora">
+<!ENTITY newBlankPageCmd.accesskey "S" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Strona z předłohi">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+
+<!ENTITY newNavigatorCmd.label				"Nawigatorowe wokno">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"g">

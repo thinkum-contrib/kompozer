@@ -1,0 +1,21 @@
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY window.title "Publikować">
+<!ENTITY composerHeader.label "Publikować">
+<!ENTITY maintainCheckbox.label "Wotkazy zachować">
+<!ENTITY keepCheck.label "Wobrazy ze stronu składować">
+
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY adjustDesc.label "Plazki přiměrić, tak zo z adresy strony funguja. (Wotkazy k lokalnym stronam
+			      funguja, jelizo lokalne wersije eksistuja.)      ">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY saveDesc.label "Kopije wobrazow pod adresu strony składować. Wobrazy so stajnje
+				w lokalnych wersijach strony pokazuja, tohorunja, hdyž so strona publikuje.">
+<!ENTITY tip.label "Tip: Wužijće wobě opciji, jelizo web-publikowanje wužiwaće.">
+<!ENTITY defaultHeader.label "Standardna publikowanska adresa">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY publishFtp.label "Zapodajće HTTP-adresu za wobhladowanje při publikowanju na FTP-stronu:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY publishhtp.label "Zapodajće HTTP-adresu za wobhladowanje při publikowanju na FTP-stronu:">
+

@@ -1,0 +1,20 @@
+<!ENTITY newprofile.title             "Asistent za wutworjenje profila">
+<!ENTITY window.size                  "width: 45em; height: 32em;">
+
+<!-- First wizard page -->
+<!ENTITY profileCreationExplanation_1.text  "&brandShortName; składuje informacije wo wašich nastajenjach a preferencach we wašim wosobinskim profilu.">
+<!ENTITY profileCreationExplanation_2.text  "Jeli tutu kopiju &brandShortName; zhromadnje z druhimi wužiwarjemi wužiwaće, móžeće rozdźělne profile wužiwać, zo byšće informacije kóždeho wužiwarja rozdźělene zdźeržał. Za to dyrbjał kóždy wužiwar swój profil wutworić.">
+<!ENTITY profileCreationExplanation_3.text  "Jeli sće jenička wosoba, kotraž tutu kopiju &brandShortName; wužiwa, dyrbiće znajmjeńša jedyn profil měć. Jeli chceće, móžeće wjacore profile za sebje wutworić, zo byšće rozdźělne grupy nastajenjow a preferency składował. Na přikład chceće snano separatne profile za powołanske a priwatne wužiwanje měć.">
+<!ENTITY profileCreationExplanation_4.text  'Zo byšće swój profil wutworił, klikńće na "Dale".'>
+<!ENTITY profileCreationExplanation_4Mac.text  'Zo byšće swój profil wutworił, klikńće na "Pokročować".'>
+
+<!-- Second wizard page -->
+<!ENTITY profileCreationIntro.text      "Jelizo wjacore profile wutworjeće, móžeće je z profilowymi mjenami rozeznawać. Móžeće tu podate mjeno abo swoje wužiwać.">
+<!ENTITY profilePrompt.label            "Zapodajće nowe profilowe mjeno:">
+<!ENTITY profilePrompt.accesskey        "Z">
+<!ENTITY profileDirExplanation.text     "Waše wužiwarske nastajenja, preferency, zapołožki a póšta budu so składować w:">
+<!ENTITY profileDefaultName             "Standardny wužiwar">
+<!ENTITY button.choosefolder.label      "Rjadowak wubrać…">
+<!ENTITY button.choosefolder.accesskey  "R">
+<!ENTITY button.usedefault.label        "Standardny rjadowak wužiwać">
+<!ENTITY button.usedefault.accesskey    "S">

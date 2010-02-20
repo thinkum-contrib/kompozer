@@ -1,0 +1,18 @@
+<!ENTITY lookInMenuList.label "Pytać w:">
+<!ENTITY lookInMenuList.accesskey "P">
+<!ENTITY textInput.label "Mjeno dataje:">
+<!ENTITY textInput.accesskey "M">
+<!ENTITY filterMenuList.label "Typ dataje:">
+<!ENTITY filterMenuList.accesskey "T">
+<!ENTITY name.label "Mjeno">
+<!ENTITY size.label "Wulkosć">
+<!ENTITY lastModified.label "Poslednja změna">
+<!ENTITY permissions.label "Dowolnosće">
+<!ENTITY showHiddenFiles.label  "Schowane dataje a zapisy pokazać">
+<!ENTITY showHiddenFiles.accesskey  "S">
+
+<!ENTITY noPermissionError.label "Nimaće dowolnosće, kotrež su trěbne, zo byšće tutón zapis wobhladował.">
+
+<!ENTITY folderUp.tooltiptext   "Runinu horje">
+<!ENTITY folderHome.tooltiptext "K domjacej stronje">
+<!ENTITY folderNew.tooltiptext "Nowy zapis załožić">

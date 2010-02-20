@@ -1,0 +1,58 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printSetup.title    "Stronu připrawić">
+
+<!ENTITY basic.tab           "Format &amp; Opcije">
+
+<!ENTITY formatGroup.label   "Format">
+
+<!ENTITY orientation.label   "Wusměrjenje:">
+<!ENTITY portrait            "Wysoke">
+<!ENTITY landscape           "Šěroke">
+
+<!ENTITY scale.label         "Skalowanje:">
+<!ENTITY scalePercent        "&#037;">
+
+<!ENTITY shrinkToFit.label   "Stronje přiměrić">
+
+<!ENTITY optionsGroup.label  "Opcije">
+
+<!ENTITY printBG.label       "Pozadk ćišćeć (barby &amp; wobrazy)">
+
+<!ENTITY advanced.tab        "Kromy &amp; nahłowna/nohowa linka">
+
+<!ENTITY marginGroup.label   "Kromy (#1)">
+<!ENTITY marginUnits.inches  "cólow">
+<!ENTITY marginUnits.metric  "milimetrow">
+<!ENTITY marginTop.label     "Horjeka:">
+<!ENTITY marginBottom.label  "Deleka:">
+<!ENTITY marginLeft.label    "Nalěwo:">
+<!ENTITY marginRight.label   "Naprawo:">
+
+<!ENTITY headerFooter.label  "Nahłowne &amp; nohowe linki">
+
+<!ENTITY hfLeft.label        "Nalěwo:">
+<!ENTITY hfCenter.label      "Centrowane:">
+<!ENTITY hfRight.label       "Naprawo:">
+<!ENTITY headerLeft.tip      "Nahłowna linka nalěwo">
+<!ENTITY headerCenter.tip    "Nahłowna linka srjedźa">
+<!ENTITY headerRight.tip     "Nahłowna linka naprawo">
+<!ENTITY footerLeft.tip      "Nohowa linka nalěwo">
+<!ENTITY footerCenter.tip    "Nohowa linka srjedźa">
+<!ENTITY footerRight.tip     "Nohowa linka naprawo">
+
+<!ENTITY hfTitle             "Titl">
+<!ENTITY hfTitle.code        "[&amp;T]">
+<!ENTITY hfURL               "URL">
+<!ENTITY hfURL.code          "[&amp;U]">
+<!ENTITY hfDateAndTime       "Datum/Čas">
+<!ENTITY hfDateAndTime.code  "&amp;D">
+<!ENTITY hfPage              "Strona #">
+<!ENTITY hfPage.code         "[&amp;P]">
+<!ENTITY hfPageAndTotal      "Strona # z #">
+<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfBlank             "--prózdny--">
+<!ENTITY hfCustom            "Přiměrić…">
+
+<!ENTITY customPrompt.title  "Přiměrić…">
+<!ENTITY customPrompt.prompt "Zapisajće swój tekst za nahłownu/nohowu linku">

@@ -1,0 +1,89 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+   -   Dan Haddix (dan6992@hotmail.com)
+   -   Brian King (briano9@yahoo.com)
+  -->
+
+<!-- These strings are for use specifically in the editor's image map dialog. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Wobrazowa mapa - Editor">
+
+<!-- Menu Items -->
+<!-- File menu -->
+<!ENTITY mapfileMenu.label "Dataja">
+<!ENTITY mapfilemenu.accesskey "d">
+<!ENTITY clearCmd.label "Wuprózdnić">
+<!ENTITY mapfileclear.accesskey "r">
+<!ENTITY closeCmd.label "Začinić">
+<!ENTITY mapfileclose.accesskey "z">
+
+<!-- Edit menu -->
+<!ENTITY mapeditMenu.label "Wobdźěłać">
+<!ENTITY mapeditmenu.accesskey "b">
+<!ENTITY cutCmd.label "Wutřihać">
+<!ENTITY mapeditcut.accesskey "h">
+<!ENTITY copyCmd.label "Kopěrować">
+<!ENTITY mapeditcopy.accesskey "k">
+<!ENTITY pasteCmd.label "Zasunyć">
+<!ENTITY mapeditpaste.accesskey "s">
+<!ENTITY selectallCmd.label "Wšo wubrać">
+<!ENTITY mapselectall.accesskey "a">
+<!ENTITY propsCmd.label "Hotspot-kajkosće">
+<!ENTITY mapeditprops.accesskey "t">
+
+<!-- View menu -->
+<!ENTITY mapviewMenu.label "Napohlad">
+<!ENTITY mapviewmenu.accesskey "N">
+<!ENTITY showhideTbarCmd.label "Gratowu lajstu schować">
+<!ENTITY mapviewtbar.accesskey "l">
+<!-- Scaling -->
+<!ENTITY mapviewScale.label "Skalować">
+<!ENTITY mapviewscale.accesskey "w">
+<!ENTITY apercentCmd.label "100">
+<!ENTITY zoomone.accesskey "1">
+<!ENTITY bpercentCmd.label "200">
+<!ENTITY zoomtwo.accesskey "2">
+<!ENTITY cpercentCmd.label "400">
+<!ENTITY zoomthree.accesskey "4">
+<!-- end scaling-->
+<!ENTITY contrastCmd.label "Kontrast">
+<!ENTITY contrast.accesskey "k">
+
+<!-- Help menu -->
+<!ENTITY maphelpMenu.label "Pomoc">
+<!ENTITY maphelpmenu.accesskey "m">
+<!ENTITY aboutCmd.label "Wo">
+<!ENTITY about.accesskey "o">
+
+<!ENTITY zoominCmd.label "Powjetšenje">
+<!ENTITY zoomoutCmd.label "Pomjeńšenje">
+<!ENTITY delSpotCmd.label "Spot wotstronić">
+
+<!-- Keys -->
+<!ENTITY clear.accesskey "d">
+<!ENTITY selectall.accesskey "a">
+<!ENTITY close.accesskey "Z">
+<!ENTITY cut.accesskey "x">
+<!ENTITY copy.accesskey "c">
+<!ENTITY paste.accesskey "v">
+<!ENTITY props.accesskey "p">
+<!ENTITY tbar.accesskey "t">

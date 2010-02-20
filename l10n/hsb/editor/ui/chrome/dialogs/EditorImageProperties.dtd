@@ -1,0 +1,104 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Kajkosće wobraza">
+
+<!ENTITY pixelsPopup.value "pikselow">
+<!ENTITY percentPopup.value "procentow">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Městno wobraza:">
+<!ENTITY locationEditField.accessKey "M">
+<!ENTITY locationEditField.tooltip "Zapisajće datajowe mjeno abo adresu wobraza">
+<!ENTITY title.label "Spěšne info:">
+<!ENTITY title.accessKey "S">
+<!ENTITY title.tooltip "Html-atribut 'title', kotryž jako spěšne info pokazuje">
+<!ENTITY altText.label "Alternatiwny tekst:">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "Zapisajće tekst, kotryž dyrbi so město wobraza pokazać">
+<!ENTITY noAltText.label "Alternatiwny tekst njewužiwać">
+<!ENTITY noAltText.accessKey "n">
+
+<!ENTITY previewBox.label "Přehlad wobraza">
+<!ENTITY MoreFewerButton.tooltip "Wjace abo mjenje kajkosćow za wobdźěłowanje pokazać">
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Originalna wulkosć:">
+<!ENTITY actualSizeRadio.label "Originalna wulkosć">
+<!ENTITY actualSizeRadio.accessKey "O">
+<!ENTITY actualSizeRadio.tooltip "K originalnej wulkosći wobraza so wróćić">
+<!ENTITY customSizeRadio.label "Swójska wulkosć">
+<!ENTITY customSizeRadio.accessKey "S">
+<!ENTITY customSizeRadio.tooltip "Wulkosć wobraza, kaž so na stronje pokazuje, změnić">
+<!ENTITY heightEditField.label "Wysokosć:">
+<!ENTITY heightEditField.accessKey "o">
+<!ENTITY widthEditField.label "Šěrokosć:">
+<!ENTITY widthEditField.accessKey "r">
+<!ENTITY constrainCheckbox.label "Přitřihać">
+<!ENTITY constrainCheckbox.accessKey "t">
+<!ENTITY constrainCheckbox.tooltip "Poměry strony wobraza zachować">
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Wobrazowa mapa">
+<!ENTITY removeImageMapButton.label "Wotstronić">
+<!ENTITY removeImageMapButton.accessKey "t">
+<!ENTITY editImageMapButton.label "Wobdźěłać…">
+<!ENTITY editImageMapButton.tooltip "Nakliknjomne hotspoty za tutón wobraz wutworić">
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Tekst na wobrazu wusměrić:">
+<!ENTITY bottomPopup.value "Deleka">
+<!ENTITY topPopup.value "Horjeka">
+<!ENTITY centerPopup.value "Wosrjedź">
+<!ENTITY wrapRightPopup.value "Naprawo łamać">
+<!ENTITY wrapLeftPopup.value "Nalěwo łamać">
+
+<!-- These controls are in the Spacing Box -->
+<!ENTITY spacingBox.label "Wotstawk">
+<!ENTITY spacingBox.tooltip "Zapodajće ličbu za wotstawk wokoło wobraza">
+<!ENTITY leftRightEditField.label "Nalěwo a naprawo:">
+<!ENTITY leftRightEditField.accessKey "l">
+<!ENTITY topBottomEditField.label "Horjeka a deleka:">
+<!ENTITY topBottomEditField.accessKey "H">
+<!ENTITY borderEditField.label "Přećehnjeny ramik:">
+<!ENTITY borderEditField.accessKey "P">
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Ramik wokoło wobrazoweho wotkaza pokazać">
+<!ENTITY showImageLinkBorder.accessKey "m">
+
+<!-- These controls may be added some day; currently not used -->
+<!ENTITY makePageBackgroundCheckbox.label "Jako pozadk wužiwać">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Wobraz jako pozadk strony wužiwać">
+<!ENTITY editImageButton.label "Wobraz wobdźěłać">
+<!ENTITY editImageButton.tooltip "Wobrazowu dataju z druhim programom wobdźěłać">
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Formilar">
+<!ENTITY imageLocationTab.label "Adresa">
+<!ENTITY imageDimensionsTab.label "Wotměry">
+<!ENTITY imageAppearanceTab.label "Napohlad">
+<!ENTITY imageLinkTab.label "Wotkaz">

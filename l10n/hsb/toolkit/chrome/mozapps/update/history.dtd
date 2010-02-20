@@ -1,0 +1,14 @@
+
+<!ENTITY  history.title             "Historiju aktualizować">
+<!ENTITY  history.intro             "Slědowace aktualizacije su so instalowali:">
+<!ENTITY  closebutton.label         "Začinić">
+
+<!ENTITY  detailsButton.label       "Podrobnosće">
+<!ENTITY  detailsButton.accesskey   "P">
+                                     
+<!ENTITY  noupdates.label           "Dotal žane aktualizacije instalowane">
+
+<!ENTITY  name.header               "Mjeno aktualizacije">
+<!ENTITY  date.header               "Datum instalacije">
+<!ENTITY  type.header               "Typ">
+<!ENTITY  state.header              "Status">

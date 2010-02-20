@@ -1,0 +1,114 @@
+<!--
+ ***** BEGIN LICENSE BLOCK *****
+    - Version: MPL 1.1/GPL 2.0/LGPL 2.1   
+    -   
+    - The contents of this file are subject to the Mozilla Public License Version   
+    - 1.1 (the "License"); you may not use this file except in compliance with   
+    - the License. You may obtain a copy of the License at   
+    - http://www.mozilla.org/MPL/   
+    -   
+    - Software distributed under the License is distributed on an "AS IS" basis,   
+    - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License   
+    - for the specific language governing rights and limitations under the   
+    - License.   
+    -   
+    - The Original Code is Mozilla Communicator.   
+    -   
+    - The Initial Developer of the Original Code is   
+    - Netscape Communications Corp.   
+    - Portions created by the Initial Developer are Copyright (C) 1999   
+    - the Initial Developer. All Rights Reserved.   
+    -   
+    - Contributor(s):   
+    -   Stephen Lamm <slamm@netscape.com>   
+    -   
+    - Alternatively, the contents of this file may be used under the terms of   
+    - either of the GNU General Public License Version 2 or later (the "GPL"),   
+    - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),   
+    - in which case the provisions of the GPL or the LGPL are applicable instead   
+    - of those above. If you wish to allow use of your version of this file only   
+    - under the terms of either the GPL or the LGPL, and not to allow others to   
+    - use your version of this file under the terms of the MPL, indicate your   
+    - decision by deleting the provisions above and replace them with the notice   
+    - and other provisions required by the GPL or the LGPL. If you do not delete   
+    - the provisions above, a recipient may use your version of this file under   
+    - the terms of any one of the MPL, the GPL or the LGPL.   
+    -   
+    - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY certmgr.title "Zrjadowak certifikatow">
+<!ENTITY certmgr.tab.mine "Waše certifikaty">
+<!ENTITY certmgr.tab.others "Certfikaty druhich wosobow">
+<!ENTITY certmgr.tab.websites "Webstrony">
+<!ENTITY certmgr.tab.ca "Awtority">
+<!ENTITY certmgr.ca.builtins "Zatwarjene CA">
+<!ENTITY certmgr.ca.mycas "Wot was rjadowane CA">
+<!ENTITY certmgr.mine "Maće certifikaty tutych organizacijow, kotrež was identifikuja:">
+<!ENTITY certmgr.others "Maće certifkaty na dataji, kotrež tute wosoby identifikuja:">
+<!ENTITY certmgr.websites "Maće certifkaty na dataji, kotrež tute webstrony identifikuja:">
+<!ENTITY certmgr.cas "Maće certifkaty na dataji, kotrež tute Certificate Authorities identifikuja:">
+<!ENTITY certmgr.detail.general_tab.title "Powšitkownje">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Podrobnosće">
+<!ENTITY certmgr.subjectinfo.label "Wupisany za">
+<!ENTITY certmgr.issuerinfo.label "Wupisany wot">
+<!ENTITY certmgr.validity.label "Płaćiwosć">
+<!ENTITY certmgr.fingerprints.label "Porstowe wotćišće">
+<!ENTITY certmgr.certdetail.title "Detail certifikata">
+<!ENTITY certmgr.certdetail.cn "Powšitkowne mjeno (CN)">
+<!ENTITY certmgr.certdetail.o "Organizacija (O)">
+<!ENTITY certmgr.certdetail.ou "Organizaciska jednotka (OU)">
+<!ENTITY certmgr.certdetail.serialnumber "Serijowe čisło">
+<!ENTITY certmgr.certdetail.sha1fingerprint "SHA1 Fingerprint">
+<!ENTITY certmgr.certdetail.md5fingerprint "MD5 Fingerprint">
+<!ENTITY certmgr.editcert.title "Nastajenja za certifikat wěstoty wobdźěłać">
+<!ENTITY certmgr.editcert.edittrust "Nastajenja dowěrliwosće wobdźěłać">
+<!ENTITY certmgr.editcert.trustssl "Tutón certifikat móže webowe strony identifikować.">
+<!ENTITY certmgr.editcert.trustemail "Tutón certifikat móže póstowych wužiwarjow identifikować.">
+<!ENTITY certmgr.editcert.trustobjsign "Tutón certifikat móže zhotowjerjow programow identifikować.">
+<!ENTITY certmgr.editsslcert.edittrust "Nastajenja dowěrliwosće za certifkat wobdźěłać:">
+<!ENTITY certmgr.editsslcert.dotrust "Awtentiskosći tutoho certifikata dowěrić.">
+<!ENTITY certmgr.editsslcert.donttrust "Awtentiskosći tutoho certifikata njedowěrić.">
+<!ENTITY certmgr.deletecert.title "Certifikat zhašeć">
+<!ENTITY certmgr.deletecert.beforename "Sće sej požadał, zo by so tutón certifikat zhašał:">
+<!ENTITY certmgr.deletecert.aftername "Chceće woprawdźe tutón certifikat zhašeć?">
+<!ENTITY certmgr.deleteusercert.title "Waš certifikat zhašeć">
+<!ENTITY certmgr.deleteusercert.beforename "Sće sej požadał, zo by so tutón certifkat zhašał:">
+<!ENTITY certmgr.deleteusercert.aftername "Tak ruče kaž sće tutón certifikat zhašał, njemóžeće e-mejl, kotryž z tym bu zaklučowany, hižo čitać.">
+<!ENTITY certmgr.certname "Mjeno certifikata">
+<!ENTITY certmgr.tokenname "Připrawa wěstoty">
+<!ENTITY certmgr.purpose "Zaměr">
+<!ENTITY certmgr.issued "Wupisane dnja">
+<!ENTITY certmgr.expires "Wuběži dnja">
+<!ENTITY certmgr.close.label "Začinić">
+<!ENTITY certmgr.close.accesskey              "Z">
+<!ENTITY certmgr.view.label "Napohlad">
+<!ENTITY certmgr.view.accesskey               "N">
+<!ENTITY certmgr.edit.label "Wobdźěłać">
+<!ENTITY certmgr.edit.accesskey               "b">
+<!ENTITY certmgr.add.label "Přidać">
+<!ENTITY certmgr.add.accesskey                "P">
+<!ENTITY certmgr.delete.label "Zhašeć">
+<!ENTITY certmgr.delete.accesskey             "h">
+<!ENTITY certmgr.backup.label "Zawěsćić">
+<!ENTITY certmgr.backup.accesskey             "w">
+<!ENTITY certmgr.backupall.label "Wšě zawěsćić">
+<!ENTITY certmgr.backupall.accesskey          "a">
+<!ENTITY certmgr.restore.label "Wobnowić">
+<!ENTITY certmgr.restore.accesskey            "o">
+<!ENTITY certmgr.details.label "Pola certifikata">
+<!ENTITY certmgr.details.accesskey            "l">
+<!ENTITY certmgr.fields.label "Hódnota pola">
+<!ENTITY certmgr.fields.accesskey             "H">
+<!ENTITY certmgr.hierarchy.label "Hierarchija certifikatow">
+<!ENTITY certmgr.hierarchy.accesskey          "r">
+<!ENTITY certmgr.editcacert.title "Nastajenja dowěrliwosće certifikata CA wobdźěłać">
+<!ENTITY certmgr.editsslcert.title "Nastajenja dowěrliwosće certifikata weboweho sydła wobdźěłać">
+<!ENTITY certmgr.editca.label "Dowěru CA wobdźěłać">
+<!ENTITY certmgr.editca.accesskey             "D">
+<!ENTITY certmgr.email "E-mejlowa adresa">
+<!ENTITY certmgr.serial "Serijowe čisło">
+<!ENTITY certmgr.ocsp_info "Certifikaty njejsu so z OCSP walidowali. Klikńće na Napohlad, zo byšće to činił.">
+<!ENTITY certmgr.editemailcert.edittrust "Dowěrne nastajenja certifikata wobdźěłać:">
+<!ENTITY certmgr.editemailcert.dotrust "Awtentiskosći tuoho certifikata dowěrić.">
+<!ENTITY certmgr.editemailcert.title "Dowěrne nastajenja e-mejloweho certifikata wobdźěłać">
+<!ENTITY certmgr.editemailcert.donttrust "Awtentiskosći tutoho certifikata njedowěrić.">

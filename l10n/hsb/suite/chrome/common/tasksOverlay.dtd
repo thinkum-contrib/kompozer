@@ -1,0 +1,32 @@
+<!ENTITY tasksMenu.label "Nastroje">
+<!ENTITY navigatorCmd.label "Nawigator">
+<!ENTITY editorCmd.label "Editor">
+<!ENTITY securityInfoCmd.label ".Info wo wěstoće">
+<!ENTITY javaConsoleCmd.label "Java konsola">
+<!ENTITY javaConsoleCmd.accesskey  "J">
+<!ENTITY javaScriptConsoleCmd.label "JavaScriptowa konsola">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
+<!ENTITY taskNavigator.tooltip "Nawigator">
+<!ENTITY taskComposer.tooltip "Editor">
+<!ENTITY taskBar.tooltip "Statusowa lajsta">
+<!ENTITY tasksMenu.accesskey "n">
+<!ENTITY navigatorCmd.accesskey "n">
+<!ENTITY editorCmd.accesskey "E">
+<!ENTITY securityInfoCmd.accesskey "s">
+<!ENTITY javaConsoleCmd.accesskey "j">
+<!ENTITY navigatorCmd.commandkey "1">
+<!ENTITY editorCmd.commandkey "4">
+<!ENTITY privacyMenu.label "Priwatnosć &amp; wěstota">
+<!ENTITY privacyMenu.accesskey "P">
+<!ENTITY downloadManagerCmd.label "Zrjadowak sćehnjenjow">
+<!ENTITY downloadManagerCmd.accesskey "s">
+<!ENTITY webDevelopment.label "Webowe wuwiće">
+<!ENTITY webDevelopment.accesskey "W">
+<!ENTITY windowMenu.label "Wokno">
+<!ENTITY windowMenu.accesskey "o">
+<!ENTITY switchProfileCmd.label "Profil wuměnić…">
+<!ENTITY switchProfileCmd.accesskey "m">
+
+<!ENTITY addons.label "Přidatki">
+<!ENTITY extensions.label "Rozšěrjenja">
+<!ENTITY themes.label "Šaty">

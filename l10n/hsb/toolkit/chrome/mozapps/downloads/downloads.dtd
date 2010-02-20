@@ -1,0 +1,46 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "Dočitany">
+<!ENTITY canceled.label                   "Přetorhnjeny">
+<!ENTITY installing.label                 "Instaluje so…">
+
+<!ENTITY starting.label                   "Startuje so…">
+<!ENTITY failed.label                     "Njeporadźiło">
+
+<!ENTITY downloads.title                  "Sćehnjenja">
+
+<!ENTITY cmd.pause.label                  "Přestawka">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Pokročować">
+<!ENTITY cmd.resume.accesskey             "k">
+<!ENTITY cmd.cancel.label                 "Přetorhnyć">
+<!ENTITY cmd.cancel.accesskey             "t">
+<!ENTITY cmd.show.label                   "Wobsahowacy rjadowak wočinić">
+<!ENTITY cmd.show.labelMac                "W Finderje pokazaćShow in Finder">
+<!ENTITY cmd.show.accesskey               "b">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                   "Wočinić">
+<!ENTITY cmd.open.accesskey               "o">
+<!ENTITY cmd.openWith.label               "Wočinić z…">
+<!ENTITY cmd.openWith.accesskey           "z">
+<!ENTITY cmd.retry.label                  "Hišće raz spytać">
+<!ENTITY cmd.retry.accesskey              "h">
+<!ENTITY cmd.remove.label                 "Wotstronić">
+<!ENTITY cmd.remove.accesskey             "s">
+<!ENTITY cmd.properties.label             "Kajkosće">
+<!ENTITY cmd.properties.accesskey         "k">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Čisćić">
+<!ENTITY cmd.cleanUp.tooltip              "Wotstronja dokónčene, přetorhnjene a zwrěšćene sćehnjenja z lisćiny">
+<!ENTITY cmd.cleanUp.accesskey            "i">
+
+<!ENTITY closeWhenDone.label              "Začinić, hdyž sćehnjenja su dokónčene">
+<!ENTITY closeWhenDone.tooltip            "Začinja wokno Sćehnjenja, hdyž wšě dataje su dosćehnjene">
+
+<!ENTITY filesSavedTo.label               "Wšě dataje sćehnjene do:">
+<!ENTITY showFolder.label                 "Tutón rjadowak pokazać">

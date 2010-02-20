@@ -1,0 +1,108 @@
+<!-- Kontekstowy poskitk -->
+<!ENTITY addToBookmarksCmd.accesskey "d">
+<!ENTITY addToBookmarksCmd.label "K zapołožkam přidać">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey  "s">
+<!ENTITY bidiSwitchPageDirectionItem.label "Směr strony změnić">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "t">
+<!ENTITY bidiSwitchTextDirectionItem.label  "Směr teksta změnić">
+<!ENTITY bookmarkFrameCmd.accesskey "h">
+<!ENTITY bookmarkFrameCmd.label  "Tutón wobłuk ze zapołožku wuhotować">
+<!ENTITY bookmarkLinkCmd.accesskey "p">
+<!ENTITY bookmarkLinkCmd.label "Zapołožku za tutón wotkaz załožić">
+<!ENTITY bookmarkPageCmd.accesskey "z">
+<!ENTITY bookmarkPageCmd.label "Zapołožku za tutu stronu załožić">
+<!ENTITY copyCmd.accesskey "k">
+<!ENTITY copyCmd.label "Kopěrować">
+<!ENTITY copyEmailCmd.accesskey "E">
+<!ENTITY copyEmailCmd.label "E-mejlowu adresu kopěrować">
+<!ENTITY copyImageCmd.accesskey "w">
+<!ENTITY copyImageCmd.label "Wobraz kopěrować">
+<!ENTITY copyLinkCmd.accesskey "d">
+<!ENTITY copyLinkCmd.label "Adresu wotkaza kopěrować">
+<!ENTITY cutCmd.accesskey "w">
+<!ENTITY cutCmd.label "Wutřihać">
+<!ENTITY deleteCmd.accesskey "Z">
+<!ENTITY deleteCmd.label "Zhašeć">
+<!ENTITY fitImageCmd.accesskey  "o">
+<!ENTITY fitImageCmd.label "Na wokno přiměrić">
+<!ENTITY goBackCmd.accesskey "w">
+<!ENTITY goBackCmd.label "Wróćo">
+<!ENTITY goForwardCmd.accesskey "D">
+<!ENTITY goForwardCmd.label "Doprědka">
+<!ENTITY goUpCmd.accesskey   "H">
+<!ENTITY goUpCmd.label "Horje">
+<!ENTITY metadataCmd.accesskey "K">
+<!ENTITY metadataCmd.label "Kajkosće">
+<!ENTITY openFrameCmd.accesskey "b">
+<!ENTITY openFrameCmd.label "Wobłuk w nowym woknje wočinić">
+<!ENTITY openFrameCmdInTab.accesskey  "r">
+<!ENTITY openFrameCmdInTab.label "Wobłuk w nowym rajtarku wočinić">
+<!ENTITY openLinkCmd.accesskey "n">
+<!ENTITY openLinkCmd.label "W nowym woknje wočinić">
+<!ENTITY openLinkCmdInTab.accesskey "r">
+<!ENTITY openLinkCmdInTab.label "Na nowym rajtarku wočinić">
+<!ENTITY openLinkInWindowCmd.accesskey "o">
+<!ENTITY openLinkInWindowCmd.label "Wočinić">
+<!ENTITY pasteCmd.accesskey "z">
+<!ENTITY pasteCmd.label "Zasunyć">
+<!ENTITY popupWindowAllowCmd.accesskey  "">
+<!ENTITY popupWindowAllowCmd.label  "Wuskakowace wokna z tutoho sydła dopušćić">
+<!ENTITY popupWindowRejectCmd.accesskey "">
+<!ENTITY popupWindowRejectCmd.label   "Wuskakowace wokna z tutoho sydła wotpokazać">
+<!ENTITY redoCmd.accesskey  "W">
+<!ENTITY redoCmd.label  "Wospjetować">
+<!ENTITY reloadCmd.accesskey "z">
+<!ENTITY reloadCmd.commandkey "r">
+<!ENTITY reloadCmd.label "Znowa">
+<!ENTITY reloadFrameCmd.accesskey "o">
+<!ENTITY reloadFrameCmd.label "Wobłuk znowa čitać">
+<!ENTITY saveFrameAsCmd.label  "Wobłuk składować jako…">
+<!ENTITY saveFrameCmd.accesskey "b">
+<!ENTITY saveFrameCmd.label "Wobłuk składować">
+<!ENTITY saveImageAsCmd.label  "Wobraz składować jako…">
+<!ENTITY saveImageCmd.accesskey "o">
+<!ENTITY saveImageCmd.label "Wobraz składować">
+<!ENTITY saveLinkAsCmd.label  "Wotkaz składować jako…">
+<!ENTITY saveLinkCmd.accesskey "W">
+<!ENTITY saveLinkCmd.label "Wotkaz składować">
+<!ENTITY savePageAsCmd.label  "Stronu składować jako…">
+<!ENTITY savePageCmd.accesskey "u">
+<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY savePageCmd.label "Stronu składować">
+<!ENTITY search.accesskey  "W">
+<!ENTITY selectAllCmd.accesskey "a">
+<!ENTITY selectAllCmd.label "Wšo wubrać">
+<!ENTITY setWallpaperCmd.accesskey "J">
+<!ENTITY setWallpaperCmd.label "Jako pozadkowy wobraz postajić">
+<!ENTITY showOnlyThisFrameCmd.accesskey "t">
+<!ENTITY showOnlyThisFrameCmd.label "Jenož tutón wobłuk pokazać">
+<!ENTITY spellAddDictionaries.accesskey "D">
+<!ENTITY spellAddDictionaries.label "Dalše słowniki sćahnyć…">
+<!ENTITY spellAddToDictionary.accesskey "S">
+<!ENTITY spellAddToDictionary.label "Słownikej přidać">
+<!ENTITY spellDictionaries.accesskey    "R">
+<!ENTITY spellDictionaries.label "Rěče">
+<!ENTITY spellEnable.accesskey "P">
+<!ENTITY spellEnable.label "Prawopis tutoho pola pruwować">
+<!ENTITY spellNoSuggestions.label "(Žane prawopisne namjety">
+<!ENTITY stopCmd.accesskey "s">
+<!ENTITY stopCmd.label "Stój">
+<!ENTITY thisFrameMenu.accesskey "u">
+<!ENTITY thisFrameMenu.label "Tutón wobłuk">
+<!ENTITY undoCmd.accesskey "C">
+<!ENTITY undoCmd.label "Cofnyć">
+<!ENTITY viewBGImageCmd.accesskey "z">
+<!ENTITY viewBGImageCmd.label "Pozadkowy wobraz pokazać">
+<!ENTITY viewFrameInfoCmd.accesskey "c">
+<!ENTITY viewFrameInfoCmd.label "Informacije wo wobłuku pokazać">
+<!ENTITY viewFrameSourceCmd.accesskey "u">
+<!ENTITY viewFrameSourceCmd.label "Žórłowy tekst wobłuka pokazać">
+<!ENTITY viewImageCmd.accesskey "a">
+<!ENTITY viewImageCmd.label "Wobraz pokazać">
+<!ENTITY viewPageInfoCmd.accesskey "i">
+<!ENTITY viewPageInfoCmd.label "Informacije wo stronje pokazać">
+<!ENTITY viewPageSourceCmd.accesskey "r">
+<!ENTITY viewPageSourceCmd.label "Žórłowy tekst strony pokazać">
+<!ENTITY viewPartialSourceCmd.accesskey "e">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "MathML-žórło wobhladać">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Žórło woznamjenjenja wobhladać">

@@ -1,0 +1,64 @@
+<!ENTITY browseUrl.label      "Adresa wašeje domjaceje strony (na př. 'http://www.mójisp.de/wužiwarskemjeno'):">
+<!ENTITY browseUrl.tooltip    "HTTP://-adresa wašeho domjaceho zapisa (njezapřijimajće datajowe mjeno)">
+<!ENTITY chooseDirButton.label    "Wubrać…">
+<!ENTITY docDirList.label         "Sydłowy podzapis za tutu stronu:">
+<!ENTITY filename.label           "Mjeno dataje:">
+<!ENTITY filename.tooltip         "Zapisajće mjeno za tutu dataju, zapřijimajo '.html' za web-stronu">
+<!ENTITY filenameExample.label    "na př.: &quot;mojastrona.html&quot;">
+<!ENTITY loginInfo.label      "Informacije za přizjewjenje">
+<!ENTITY newSiteButton.label      "Nowe sydło">
+<!ENTITY pageTitle.label          "Titul strony:">
+<!ENTITY pageTitle.tooltip        "Zapisajće titul, zo by so strona we woknje a zapołožkach identifikowała">
+<!ENTITY pageTitleExample.label   "na př.: &quot;Moja web-strona&quot;">
+<!ENTITY password.label       "Tajne hesło:">
+<!ENTITY password.tooltip     "Tajne hesło zwjazane z wašim wužiwarskim mjenom">
+<!ENTITY publishImgCheckbox.label "Wobrazy a druhe dataje zapřijeć">
+<!ENTITY publishImgCheckbox.tooltip "Publikujće wobrazy a druhe dataje referencowane přez tutu stronu">
+<!ENTITY publishSites.label   "Publikowanje sydłow">
+<!ENTITY publishTab.label         "Publikować">
+<!ENTITY relatedDocs.label        "Druhe dataje za publikowanje">
+<!ENTITY removeButton.label       "Sydło wotstronić">
+<!ENTITY sameLocationRadio.label  "Samsnu adresu jako stronu wužiwać:">
+<!ENTITY sameLocationRadio.tooltip "Publikujće dataje na samsnu adresu kaž stronu">
+<!ENTITY savePassword.label   "Tajne hesło składować">
+<!ENTITY savePassword.tooltip "Wubjerće tuto, zo byšće tajne hesło wěsće składowali wužiwajo zrjadowak tajnych hesłow">
+<!ENTITY selectDirectory.label "Zapis wubrać">
+<!ENTITY serverInfo.label     "Informacije wo serwerje">
+<!ENTITY setDefaultButton.label   "Jako standard postajić">
+<!ENTITY setDefSiteAndDir.label   "Jako standardne sydło a standardny rjadowka postajić">
+<!ENTITY settingsTab.label        "Nastajenja">
+
+<!ENTITY publishButton.label        "Wozjewić">
+
+<!ENTITY siteDirList.label        "Wubjerće mjeno rjadowaka abo zapisajće tajke do publikowaceho sydła:">
+<!ENTITY siteDirList.tooltip      "Wubjerće abo zapisajće mjeno online-podzapisa, do kotrehož chceće publikować">
+<!ENTITY siteList.label           "Mjeno sydła:">
+<!ENTITY siteList.tooltip         "Wubjerće sydło, na kotrež chceće publikować">
+<!ENTITY siteName.label       "Mjeno sydła:">
+<!ENTITY siteName.tooltip     "Přimjeno, kotrež tute publikowace sydło identifikuje (n.př.: 'MojeSydło')">
+<!ENTITY siteUrl.label        "Publikowanska adresa (na př. 'ftp://ftp.mójisp.de/wužiwarskemjeno'):">
+<!ENTITY siteUrl.tooltip      "FTP:// abo HTTP://-adresa dodata wot wašeho ISP abo Web hosting service">
+<!ENTITY username.label       "Wužiwarske mjeno:">
+<!ENTITY username.tooltip     "Wužiwarske mjeno, kotrež wužiwaće, zo byšće so pola wašeho ISP abo Web hosting service přizjewili">
+<!ENTITY useSubdir.tooltip        "Wubjerće abo zapisajće mjeno nazdalneho podzapisa, hdźež budu so dataje publikować">
+<!ENTITY useSubdirRadio.label     "Tutón sydłowy podzapis wužiwać:">
+<!ENTITY windowTitle.label    "Stronu publikować">
+<!ENTITY windowTitleSettings.label "Publikowanske nastajenja">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Powšitkowny nastajenja">
+<!ENTITY ftpSettings.label          "Nastajenja FTP">
+<!ENTITY localSettings.label        "Lokalne nastajenja">
+<!ENTITY siteDirectory.label        "Rjadowak sydła:">
+<!ENTITY siteDirectory.tooltip      "Rjadowak na wašej twjerdej tačeli, hdźež waše sydło je so składowało">
+<!ENTITY browsePrefix.label         "Prefiks:">
+<!ENTITY browsePrefix.tooltip       "Prefiks, kotryž ma so z dźěla FTP z URL wotstronić, na př. /public_html">
+<!ENTITY connection.label           "Typ zwiska">
+<!ENTITY port.label                 "Port:">
+<!ENTITY pasv.label                 "Pasiwny modus">
+<!ENTITY security.label             "Wěstota">
+<!ENTITY none.label                 "Žadyn">
+<!ENTITY authtls.label              "Auth TLS (najlěpši)">
+<!ENTITY authssl.label              "Auth SSL (lěpši)">
+<!ENTITY implicit.label             "Implicitny SSL (dobry)">
+<!ENTITY treesync.label             "Zapisy při nawigěrowanju we wotpowědnosći dźeržeć">

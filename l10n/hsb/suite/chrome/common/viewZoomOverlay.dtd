@@ -1,0 +1,15 @@
+<!ENTITY textZoomEnlargeCmd.label "Zwjetšić">
+<!ENTITY textZoomEnlargeCmd.accesskey "w">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+
+<!ENTITY textZoomReduceCmd.label "Zmjeńšić">
+<!ENTITY textZoomReduceCmd.accesskey "m">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!-- see textZoomOtherLabel in navigator.properties -->
+<!ENTITY textZoomMenu.accesskey "T">
+<!ENTITY textZoomOtherCmd.accesskey "d">
+

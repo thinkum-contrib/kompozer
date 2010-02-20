@@ -1,0 +1,20 @@
+<!ENTITY  button-back-mac.label        "Wróćo">
+<!ENTITY  button-back-mac.accesskey    "W">
+<!ENTITY  button-next-mac.label        "Pokročować">
+<!ENTITY  button-next-mac.accesskey    "P">
+<!ENTITY  button-finish-mac.label      "Dočitany">
+<!ENTITY  button-cancel-mac.label      "Přetorhnyć">
+
+<!ENTITY  button-back-unix.label       "Wróćo">
+<!ENTITY  button-back-unix.accesskey   "W">
+<!ENTITY  button-next-unix.label       "Přichodny">
+<!ENTITY  button-next-unix.accesskey   "P">
+<!ENTITY  button-finish-unix.label     "Dokónčić">
+<!ENTITY  button-cancel-unix.label     "Přetorhnyć">
+
+<!ENTITY  button-back-win.label        "&lt; Wróćo">
+<!ENTITY  button-back-win.accesskey    "W">
+<!ENTITY  button-next-win.label        "Přichodny &gt;">
+<!ENTITY  button-next-win.accesskey    "P">
+<!ENTITY  button-finish-win.label      "Dokónčić">
+<!ENTITY  button-cancel-win.label      "Přetorhnyć">

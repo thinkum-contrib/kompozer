@@ -1,0 +1,43 @@
+<!ENTITY caption.label "#1 wočinić">
+
+<!-- Localization note: The default intro text has 3 "inserts":
+        #1 - replaced with the descriptive text that describes the mime type
+             (e.g., "MSWord Document")
+        #2 - replaced with the mime type (e.g., "application/ms-word")
+        #3 - replaced with the filename (e.g., "manual.doc")
+        #4 - will be replaced by the brand name (e.g., "Mozilla")
+     If there is no descriptive text, then the alternative text is used which
+     has only insert #2.
+ -->
+<!ENTITY intro.label "Dataja &quot;#3&quot; ma typ #2 (#1) a #4 njewě, kak so dyrbi z tutym datajowym typom postupować. tuta dataja je na:">
+<!ENTITY intro.noDesc.label "Dataja &quot;#3&quot; ma typ #2 (#1) a #4 njewě, kak so dyrbi z tutym datajowym typom postupować. tuta dataja je na:">
+
+<!ENTITY intro.attachment.label "Sydło je namjetowało, zo dyrbi so &quot;#3&quot; kaž z přiwěškom wobchadźeć. Je typa #2 (#1) a je na:">
+<!ENTITY intro.attachment.noDesc.label "Sydło je namjetowało, zo dyrbi so &quot;#3&quot; kaž z přiwěškom wobchadźeć. Je typa #2 a je na:">
+
+<!ENTITY intro.sniffed.label "#4 je zwěsćił, zo dataja &quot;#3&quot; najskerje ma typ #2 (#1). Dataja je na:">
+<!ENTITY intro.sniffed.noDesc.label "#4 je zwěsćił, zo dataja &quot;#3&quot; najskerje ma typ #2. Dataja je na:">
+
+<!ENTITY prompt.label "Što dyrbi #1 z tutej dataju činić?">
+
+<!ENTITY alwaysHandle.label     "Tutu akciju přećo wuwjesć, hdyž so dataje tutoho typa wobdźěłuja">
+<!ENTITY alwaysHandle.accesskey "a">
+
+<!ENTITY saveToDisk.label "Na krutej tačeli składować">
+<!ENTITY saveToDisk.accesskey "s">
+
+<!ENTITY useSystemDefault.label        "Ze standardnej aplikaciju (#1) wočinić">
+<!ENTITY useSystemDefault.noDesc.label "Ze standardnej aplikaciju wočinić">
+<!ENTITY useSystemDefault.accesskey    "o">
+
+<!-- LOCALIZATION NOTE:  do not localize "#1" -->
+<!ENTITY openUsing.label "Wočinić z">
+<!ENTITY openUsing.accesskey "w">
+
+<!ENTITY chooseApp.label "Wubrać…">
+<!ENTITY chooseApp.accesskey "b">
+
+<!ENTITY chooseAppFilePickerTitle "Aplikaciju wubrać">
+
+<!ENTITY badApp "Aplikacija, kotruž sće podał (&quot;#1&quot;) njehodźeše so namakać. Přepruwujće mjeno dataje abo wubjerće druhu aplikaciju.">
+<!ENTITY badApp.title "Aplikacija njenamakana">

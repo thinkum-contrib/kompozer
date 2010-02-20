@@ -1,0 +1,39 @@
+<!-- extracted from content/pref-proxies.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
+<!ENTITY lHeader "Proksy">
+<!ENTITY proxyTitle.label "Proksy za přistup na internet konfigurować">
+<!ENTITY directTypeRadio.label "Direktny zwisk na internet">
+<!ENTITY directTypeRadio.accesskey "d">
+<!ENTITY manualTypeRadio.label "Manuelna proksy-konfiguracija">
+<!ENTITY manualTypeRadio.accesskey "m">
+<!ENTITY autoTypeRadio.label "URL awtomatiskeje proksy-konfiguracije:">
+<!ENTITY autoTypeRadio.accesskey "a">
+<!ENTITY configAutoconfigText.label "Městno konfiguracije (URL):">
+<!ENTITY configAutoconfigText.accesskey "u">
+<!ENTITY reload.label "Znowa">
+<!ENTITY reload.accesskey "z">
+<!ENTITY ftp.label "FTP-Proksy:">
+<!ENTITY ftp.accesskey "f">
+<!ENTITY gopher.label "Gopher-Proksy:">
+<!ENTITY gopher.accesskey "g">
+<!ENTITY http.label "HTTP-Proksy:">
+<!ENTITY http.accesskey "h">
+<!ENTITY ssl.label "SSL-Proksy:">
+<!ENTITY ssl.accesskey "s">
+<!ENTITY socks.label "SOCKS-Host:">
+<!ENTITY socks.accesskey "c">
+<!ENTITY socks4.label "SOCKS v4">
+<!ENTITY socks4.accesskey "k">
+<!ENTITY socks5.label "SOCKS v5">
+<!ENTITY socks5.accesskey "v">
+<!ENTITY port.label                    "Port:">
+<!ENTITY HTTPport.accesskey "o">
+<!ENTITY SSLport.accesskey "r">
+<!ENTITY FTPport.accesskey             "p">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY gopherPort.accesskey          "">
+<!ENTITY SOCKSport.accesskey           "t">
+<!ENTITY noproxy.label "Žadyn proksy za:">
+<!ENTITY noproxy.accesskey "k">
+<!ENTITY noproxyExplain.label "Přikład: .mozilla.org, .net.de">

@@ -1,0 +1,22 @@
+<!ENTITY pluginWizard.title                                  "Plugin Finder Service">
+<!ENTITY pluginWizard.firstPage.title                        "Witajće do &pluginWizard.title;">
+
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; pyta nětko k dispoziciji stejace tykače…">
+
+<!ENTITY pluginWizard.availablePluginsPage.title             "K dispoziciji stejace sćehnjenja tykačow">
+<!ENTITY pluginWizard.availablePluginsPage.description.label "Slědowace tykače steja k dispoziciji:">
+<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Klikńće na Dale, zo byšće tute tykaše instalował.">
+<!ENTITY pluginWizard.availablePluginsPage.installerUI       "Někotre tykače trjebaja snadź přidatne informacije wot was za instalaciju.">
+
+<!ENTITY pluginWizard.licensePage.title                      "Tykačowe licency">
+<!ENTITY pluginWizard.licensePage.accept.label               "Přizwolam.">
+<!ENTITY pluginWizard.licensePage.deny.label                 "Njepřizwolam (tykač njebudźe so instalować).">
+
+<!ENTITY pluginWizard.installPluginsPage.title               "Instalacija tykačow">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; instaluje tykače…">
+
+<!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; je instalaciju falowacych tykačow zakónčił:">
+
+<!ENTITY pluginWizard.finalPage.moreInfo.label               "Wjace wo tykačach won namakać abo falowace tykače manuelnje namakać.">
+<!ENTITY pluginWizard.finalPage.restart.label                "&brandShortName; dyrbi so znowa startować, zo bychu tykače fungowali.">
+

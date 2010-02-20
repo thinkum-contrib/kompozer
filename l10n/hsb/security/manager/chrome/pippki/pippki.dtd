@@ -1,0 +1,107 @@
+<!--
+ ***** BEGIN LICENSE BLOCK *****
+    - Version: MPL 1.1/GPL 2.0/LGPL 2.1   
+    -   
+    - The contents of this file are subject to the Mozilla Public License Version   
+    - 1.1 (the "License"); you may not use this file except in compliance with   
+    - the License. You may obtain a copy of the License at   
+    - http://www.mozilla.org/MPL/   
+    -   
+    - Software distributed under the License is distributed on an "AS IS" basis,   
+    - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License   
+    - for the specific language governing rights and limitations under the   
+    - License.   
+    -   
+    - The Original Code is Mozilla Communicator.   
+    -   
+    - The Initial Developer of the Original Code is   
+    - Netscape Communications Corp.   
+    - Portions created by the Initial Developer are Copyright (C) 1999   
+    - the Initial Developer. All Rights Reserved.   
+    -   
+    - Contributor(s):   
+    -   Stephen Lamm <slamm@netscape.com>   
+    -   
+    - Alternatively, the contents of this file may be used under the terms of   
+    - either of the GNU General Public License Version 2 or later (the "GPL"),   
+    - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),   
+    - in which case the provisions of the GPL or the LGPL are applicable instead   
+    - of those above. If you wish to allow use of your version of this file only   
+    - under the terms of either the GPL or the LGPL, and not to allow others to   
+    - use your version of this file under the terms of the MPL, indicate your   
+    - decision by deleting the provisions above and replace them with the notice   
+    - and other provisions required by the GPL or the LGPL. If you do not delete   
+    - the provisions above, a recipient may use your version of this file under   
+    - the terms of any one of the MPL, the GPL or the LGPL.   
+    -   
+    - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY setPassword.title "Hłowne hesło změnić">
+<!ENTITY setPassword.tokenName.label "Mjeno Token">
+<!ENTITY setPassword.oldPassword.label "Aktualne hesło:">
+<!ENTITY setPassword.newPassword.label "Nowe hesło:">
+<!ENTITY setPassword.reenterPassword.label "Nowe hesło (hišće raz):">
+<!ENTITY setPassword.meter.label "Měrjenje kajkosće hesła">
+<!ENTITY setPassword.meter.loading "Čita so">
+<!ENTITY getPassword.title "Zapisajće hłowne hesło">
+<!ENTITY getPassword.tokenName.label "Mjeno Token">
+<!ENTITY getPassword.password.label "Hesło:">
+<!ENTITY piperror.title "Zmylk">
+<!ENTITY pipalert.title "Zmylk - njemóžno dale dźěłać">
+<!ENTITY pref.security.general.lHeader "Wěstota">
+<!ENTITY pref.security.general.rHeader "Nastajenja za powšitkownu wěstotu">
+<!ENTITY pref.security.general.header "Nastajenja za powšitkownu wěstotu">
+<!ENTITY pref.security.general.level.title "Runina wěstoty">
+<!ENTITY pref.security.general.paranoid.label "Paranoidne nastajenja wěstoty wužiwać">
+<!ENTITY pref.security.general.certificates.title "Certifikaty">
+<!ENTITY pref.security.general.manageCert.label "Certifikaty zrjadować">
+<!ENTITY downloadCert.title "Sćehnjenje certifikata">
+<!ENTITY downloadCert.message1 "Prašachu so was nowej Certificate Authority (CA) dowěrić.">
+<!ENTITY downloadCert.trustSSL "Tutej CA dowěrić, zo bychu so webowe strony identifikowali.">
+<!ENTITY downloadCert.trustEmail "Tutej CA dowěrić, zo bychu so e-mejle identifikowali.">
+<!ENTITY downloadCert.trustObjSign "Tutej CA dowěrić, zo bychu so wuwiwarjo identifikowali.">
+<!ENTITY downloadCert.message3 "Prjedy hač tutje CA za kóždyžkuli zaměr dowěrjeće, byšće dyrbjał certifikat kaž tež jeho směrnicy a procedury (jeli eksistuja) přepruwować.">
+<!ENTITY downloadCert.viewCert.label "Wobhladać">
+<!ENTITY downloadCert.viewPolicy.label "Směrnicy">
+<!ENTITY downloadCert.viewCert.text "Certifikat CA přepruwować">
+<!ENTITY downloadCert.viewPolicy.text "Směrnicy CA a procedury přepruwować">
+<!ENTITY domainMismatch.title "Zmylk wěstoty: Domenowe mjena přezjedne njejsu">
+<!ENTITY examineCert.label "Certifikat přepruwować">
+<!ENTITY examineCert.accesskey "C">
+<!ENTITY serverCertExpired.continue "Chceće njedźiwajcy toho pokročować?">
+<!ENTITY serverCertExpired.accept.label "Pokročować">
+<!ENTITY clientAuthAsk.title "Naprašowanje za identifikaciju wužiwarja">
+<!ENTITY clientAuthAsk.message1 "Tuta strona je sej požadała, zo so z certifikatom identifikujeće:">
+<!ENTITY clientAuthAsk.message2 "Wubjerće certifikat, zo so jako identifikacija wužiwa:">
+<!ENTITY pkcs12.setpassword.title "Wubjerće hesło za zawěsćenje certifikata">
+<!ENTITY pkcs12.setpassword.message "Hesło za zawěsćenje certifikata, kotrež tu postajeće, wašu zawěsćensku dataju škita, kotrež chceće załožić. Dyrbiće tute hesło postajić, zo byšće ze zawěsćenjom pokročował.">
+<!ENTITY pkcs12.setpassword.label1 "Hesło za backup certifikata:">
+<!ENTITY pkcs12.setpassword.label2 "Hesło za backup certifikata (hišće raz):">
+<!ENTITY pkcs12.setpassword.reminder "Wažne: Jeli waše hesło certifikata zabudźeće, njemóžeće tutón bachup pozdźišo wobnowjeć. Prošu napisajće na wěstym městnje.">
+<!ENTITY pkcs12.getpassword.title "Dialog hesłow">
+<!ENTITY pkcs12.getpassword.message "Prošu zapisajće swoje portabelne hesło wěstoty, kotrež tutón certifkat wěstoty a jeho hesło škita.">
+<!ENTITY chooseToken.title "Dialog za wubranje tokena">
+<!ENTITY chooseToken.message1 "Prošu wubjerće token.">
+<!ENTITY escrowWarn.title "Kopija kluča za zaklučowanje">
+<!ENTITY escrowWarn.message1 "Wažny: Tuta Certificate Authority je was poprosyła, zo byšće backup swojeho priwatneho kluča za zaklučowanje załožił.">
+<!ENTITY escrowWarn.benefit1 "Lěpšina toho je, zo móžeće, jeli kluč zhubiće, kopiju wot tuteje Certificate Authority požadać.">
+<!ENTITY escrowWarn.message2 "Wězo so z tym waš kluč přez Certificate Authority składuje a dadźał so wužiwać, zo bychu so waše zaklučowane e-mejle abo dokumenty bjez dowolnosće čitali.">
+<!ENTITY caCertExists.title "Certifikat eksistuje">
+<!ENTITY caCertExists.message "Certifikat hižo eksistuje.">
+<!ENTITY clientAuthAsk.message3 "Podrobnosće wubraneho certifikata:">
+<!ENTITY createCertInfo.title "Priwatny kluč załožić">
+<!ENTITY createCertInfo.msg1 "Załožuje so kluč… To móže něšto mjeńšin trać…">
+<!ENTITY createCertInfo.msg2 "Prošu čakać…">
+<!ENTITY serverCrlNextupdate.message "Prošu poprošće swojeho systemoweho administratora wo pomoc">
+<!ENTITY resetPassword.title "Hłowne hesło wróćó stajić">
+<!ENTITY resetPasswordButtonLabel "Wróćo stajić">
+<!ENTITY resetPassword.text "Hdyž swoje hłowne hesło wróćo stajeće, so wšě waše składowane hesła za web a e-mejl, formularne daty, wosobinske certifikaty a priwatne kluče wotstronjeja. Chceće woprawdźe swoje hłowne hesło wróćo stajeć?">
+<!ENTITY clientAuthAsk.message3 "Podrobnosće wubraneho certifikata:">
+<!ENTITY certPicker.detailsLabel "DPodrobnosće wubraneho certifkata:">
+<!ENTITY certPicker.title "Wubjerće certifikat">
+<!ENTITY certPicker.info  "Certifikat:">
+<!-- Form Signing confirmation prompt -->
+<!ENTITY formSigning.title "Prósba wo tekstowe signowanje">
+<!ENTITY formSigning.cert "Signowanje certifikata">
+<!ENTITY formSigning.confirmPassword "Zo byšće wobkrućił, zo sće přezjedny, zo byšće tutu tekstowu powěsć signował, wobkrućće prošu ze zapodaćom hłowneho hesła:">

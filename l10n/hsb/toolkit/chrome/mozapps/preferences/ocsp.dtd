@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "38em">
+
+<!ENTITY ocspDialog.title             "Přepruwowanje">
+<!ENTITY validation.ocsp.description  "&brandShortName; móže Online Certificate Status Protocol (OCSP), zo by certifikaty přepruwował. Nastajće &brandShortName; za wužiwanje OCSP:">
+<!ENTITY disableOCSP.label            "OCSP za přepruwowanje certifikatow njewužiwać">
+<!ENTITY certOCSP.label               "OCSP wužiwać, zo by so jenož certifikaty přepruwowali, kotrež URL słužby OCSP podawaja">
+<!ENTITY proxyOCSP.label              "OCSP wužiwać, zo bychu so wšě certifikaty přepruwowali, kotrež tutón URL a podpisar wužiwaja:">
+<!ENTITY serviceURL.label             "URL słužby:">
+<!ENTITY serviceURL.accesskey         "U">
+<!ENTITY signingCA.label              "Podpisar wotmołwy:">
+<!ENTITY signingCA.accesskey          "P">

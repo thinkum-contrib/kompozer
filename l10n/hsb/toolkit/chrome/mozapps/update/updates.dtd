@@ -1,0 +1,79 @@
+<!ENTITY  updateWizard.title              "Aktualizacija softwary">
+
+<!ENTITY  window.width                    "36em">
+<!ENTITY  window.macWidth                 "39em">
+
+<!ENTITY  checking.title                  "Za aktualizacijemi pruwować">
+<!ENTITY  checking.label                  "&brandShortName; so nětko za aktualizacijemi pyta…">
+
+<!ENTITY  cancel.label                    "Přetorhnyć">
+<!ENTITY  cancel.accesskey                "P">
+
+<!ENTITY  noupdatesfound.title            "Žane aktualizacije namakane">
+<!ENTITY  noupdatesfound.intro            "Nowe aktualizacije k dispoziciji njesteja. &brandShortName; móže  
+                                           periodisce za nowymi aktualizacijemi pruwować.">
+
+<!ENTITY  updatesfound.title              "Aktualizacija steji k dispoziciji">
+
+<!ENTITY  moreDetails.label               "Dalše podrobnosće &#0187;">
+<!ENTITY  moreDetails.accesskey           "D">
+<!ENTITY  clickHere.label                 "Dalše informacije wo tutej aktualizaciji pokazać">
+
+<!ENTITY  incompatible.warning            "Tuta aktualizacija wuskutkuje, zo někotre z wašich rozšěrjenjow a/abo šaty wjace njefunguja, doniž njejsu zaktualizowane.">
+<!ENTITY  listIncompatible.label          "Lisćinu pokazaćShow List">
+<!ENTITY  listIncompatible.accesskey      "L">
+
+<!ENTITY  upgrade.evangelism              "Doporuča so jara, zo &brandShortName; 
+                                           tak bórze kaž móžno aktualizujeće.">
+
+<!ENTITY  license.title                   "Licencne dojednanje">
+<!ENTITY  license.intro                   "Zo byšće tutu aktualizaciju instalował, dyrbiće tutomu licencnemu dojednanju přizwolić. 
+                                           Prošu přečitajće jo starosćiwje:">
+<!ENTITY  license.instructions            "Jeli wuměnjenjam tutoho dojednanja přizwoleće, klikńće deleka na Přizwolam, zo byšće z instalaciju tuteje aktualizacije pokročował.">
+
+<!ENTITY  license.titleText               "Softwarowe licencne dojednanje">
+<!ENTITY  license.introText               "Wuměnjenja za wužiwanje tuteje softwary.">
+<!ENTITY  license.instructionText         "Prošu přečitajće slědowace licencne dojednanje. Wužijće zasuwak, zo byšće zbytk tutoho dojednanja čitał.">
+<!ENTITY  license.accept                  "Akceptuju wuměnjenja licencneho dojednanja">
+<!ENTITY  license.accept.accesskey        "c">
+<!ENTITY  license.decline                 "NJEakceptuju wuměnjenja licencneho dojednanja">
+<!ENTITY  license.decline.accesskey       "N">
+
+<!ENTITY  downloading.title               "Sćehnjenje aktualizacije">
+<!ENTITY  downloading.intro               "Aktualizacija so sćahuje…">
+<!ENTITY  connecting.label                "Zwjazuje za aktualizowanskim serwerom…">
+<!ENTITY  verificationFailedText.label    "&brandShortName; njemóžeše integritu horje ličaceje aktualizacije, kotruž je sćahnył, přepruwować, tohodla sćahuje nětko dospołnu aktualizaciski pakćik.">
+
+<!ENTITY  details.link                    "Podrobnosće">
+<!ENTITY  pause.label                     "Zastajić">
+<!ENTITY  pause.accesskey                 "s">
+<!ENTITY  close.label                     "Začinić">
+<!ENTITY  close.accesskey                 "z">
+
+<!ENTITY  error.label                     "Běchu problemy při pytanju, sćahowanju abo instalowanju tuteje aktualizacije. 
+                                           &brandShortName; njeda so aktualizować, dokelž:">
+                                           
+<!ENTITY  errorManual.label               "Móžeće &brandShortName; manuelnje aktualizować, hdyž tutón wotkaz wopytujeće a najnowšu wersiju sćahujeće:">
+                                           
+<!ENTITY  errorpatching.title             "Aktualizowanje je so njeporadźiło">
+<!ENTITY  errorpatching.intro             "Dźělna aktualizacija njeda so nałožić. &brandShortName; spyta hišće raz a dospołnu aktualizaciju sćahnyć.">
+
+<!ENTITY  finished.title                  "Aktualizacija sćehnjena">
+<!ENTITY  finished.text                   "Aktualizacija bu wuspěšnje sćehnjena a přepruwowana, a budźe so
+                                           instalować přichodny raz, hdyž &brandShortName; startuje.">
+
+<!ENTITY  finishedBackground.title        "Aktualizacija hotowa za instalaciju">
+<!ENTITY  finishedBackground.text         "&brandShortName; je wažnu aktualizaciju sćahnył a přepruwował. 
+                                           Klikńće na slědowacy wotkaz za dalše podrobnosće.">
+<!ENTITY  finishedBackground.name         "Aktualizacija:">
+<!ENTITY  finishedBackground.more1        "Klikńće na &brandShortName; nětko znowa startować, zo byšće aktualizaciju nětko instalował.">
+<!ENTITY  finishedBackground.more2        "Klikńće na Pozdźišo, zo byšć tutón dialog začinił a z dźěłom pokročował. &brandShortName;
+                                           budźe aktualizaciju přichodny raz instalować, hdyž startuje.">
+
+<!ENTITY  installed.title                 "Aktualizacija instalowana">
+<!ENTITY  installed.intro                 "Aktualizacija bu wuspěšnje instalowana.">
+<!ENTITY  whatsnew.label                  "Wjace wo tym čitać, štož je nowe…">
+
+<!ENTITY  update.details.label            "Podrobnosće">
+<!ENTITY  update.installedOn.label        "Instalowany:">
+<!ENTITY  update.status.label             "Status:">

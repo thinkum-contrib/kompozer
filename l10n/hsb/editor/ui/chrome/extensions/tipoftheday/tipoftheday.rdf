@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is Linspire Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+    "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM 	"chrome://global/locale/brand.dtd">%brandDTD;]>
+<rss version="0.91">
+  <channel>
+    <title>&brandShortName; pokiwy</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>&brandShortName; pokiwy z dnjoweho archiwa</description>
+    <language>hsb-de</language>
+  
+    <item>
+      <title>…móžeće elementy přesunyć?</title>
+      <description>Stajće kursor do bloka, kotryž chceće přesunyć a klikńće jónkróć na tłóčatko woršty, zo by blok pohibliwy był.
+      </description>
+    </item>
+  
+    <item>
+      <title>…móžeće gratowe lajsty přiměrić?</title>
+      <description>Wužijće poskitk "Wid > Pokazać/Schować > Gratowu 
+lajstu přiměrić", zo by so panel za přiměrjenje gratoweje lajsty wočinił. Ćehńće potom prosće, zo bychu so tłóčatka a rumy/dźělatka přidali, přesunyli abo wotstronili.
+      </description>
+    </item>
+  
+    <item>
+      <title>…móžeće nowu gratowu lajstu wutworić?</title>
+      <description>Wužijće poskitk "Wid > Pokazać/Schować > Gratowu lajstu přiměrić > Gratowu lajstu formatować", zo by so panel za přiměrjenje gratoweje lajsty wočinił.
+      Klikńće potom na tłóčatko "Gratowu lajstu přidać". Prózdne gratowe lajsty so awtomatisce zhubja, hdyž so panel přiměrjenja začinja.</description>
+    </item>
+  
+    <item>
+           <title>…ma &brandShortName; CSS editor?</title>
+           <description>&brandShortName; wobsahuje CSS editor CaScadeS. 
+           Wočińće jón z Nastroj  > Poskitk CSS Editor.</description>
+    </item>
+  
+    <item>
+      <title>…&brandShortName; ma zrjadowak sydłow?</title>
+      <description>Wužijće tastu F9 abo poskitk "Wid > Pokazać/Schować > Zrjadowak sydłow", zo by so zrjadowak sydłow pokazał abo schował.</description>
+    </item>
+
+    <item>
+      <title>…móžeće stile CSS na někajki element nałožić?</title>
+      <description>Stajće kursor do elementa, kotremuž chceće stil 
+      připokazać a klikńće z prawej tastu na tafličku elementa na 
+      strukturowej lajsće deleka we hłownym woknje &brandShortName;. 
+      Poskitkowy zapisk "Direktne stile" (Inline styles)  budźe stil 
+      direktnje na tón elment nałožować.
+      </description>
+    </item>
+
+    <item>
+      <title>…móžeće pisanski směr kontrolować?</title>
+      <description>Přiměrće swoje gratowe lajsty a přidajće dwě kontrolowej tłóčatce.</description>
+    </item>
+
+    <item>
+      <title>…móžeće wulkosć tabele z myšku změnić?</title>
+      <description>Pokazajće lineale wužiwajo Wid > Pokazać/Schować > Lineale a stajće kursor do tabeloweje cele, zo byšće wotměry widźał.
+      </description>
+    </item>
+
+    <item>
+      <title>…móžeće jara lochko gratowu lajstu přiměrić?</title>
+      <description>Klikńće prosće na to…</description>
+    </item>
+
+    <item>
+      <title>…maće direktny dostup k zhromadźenstwu &brandShortName;?</title>
+      <description>Wubjerće prosće poskitkowy zapisk Pomoc > Forumy.</description>
+    </item>
+
+    <item>
+      <title>…&brandShortName; móže dokument při startowanju awtomatisce wočinić?</title>
+      <description>Wužijće přikaz -edit na přikazowej rjadce: nvu -edit url adresu. 
+      We Windowsu (šćežka za KompoZer)\KompoZer.exe -edit (šćežka strony)\test.htm, na př. C:\Programy\KompoZer\NVu.exe -edit C:\webstrony\test.htm
+         abo w Linuksu ./nvu -edit /home/user/test.htm</description>
+    </item>
+
+    <item>
+      <title>…móžeće wjace hač jedne sydło runočasnje wobdźěłać?</title>
+      <description>Zrjadowak sydłow móže wobsah wjacorych webowych sydłow runočasnje wočinić a pokazać.</description>
+    </item>
+
+    <item>
+      <title>…&brandShortName; za wšělake dźěłowe systemy k dispoziciji steji?</title>
+      <description>&brandShortName; eksistuje za wjele dźěłowych systemow, mjez nimi Windows, Mac OS X, wšelake linuksowe distribucije, OS/2, …</description>
+    </item>
+
+    <item>
+      <title>…móžeće nowy rajtark z tastowej kombinaciju wutworić?</title>
+      <description>Strg+t (Command+t na Mac OS X) wutwori prózdny rajtark</description>
+    </item>
+
+    <item>
+      <title>…móžeće nowe wokno z tastowej kombinaciju wutworić?</title>
+      <description>Strg+Umsch+n (Command+shift+t na Mac OS X) wutwori nowe prózdne wokno</description>
+    </item>
+
+    <item>
+      <title>…móžeće ramik jeničkeje tabeloweje cele změnić?</title>
+      <description>Stajće kursor do teje cele, klikńće z prawej tastu 
+      na celu w statusowej lajsće a wubjerće Direktne stile &gt; 
+      Rajtark ramika</description>
+    </item>
+
+    <item>
+      <title>…móžeće rajtark z jednym kliknjenjom začinić?</title>
+      <description>Klikńće prosće ze srjedźnej tastu na rajtark</description>
+    </item>
+
+    <item>
+      <title>…móžeće aktualny rajtark z jednej tastu začinić?</title>
+      <description>Strg-F4 začini aktualny rajtark.</description>
+    </item>
+
+  </channel>
+</rss>
+

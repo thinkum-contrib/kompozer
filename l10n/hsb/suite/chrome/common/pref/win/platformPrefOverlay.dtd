@@ -1,0 +1,17 @@
+<!ENTITY winhooks.label "System">
+<!ENTITY defaultBrowserGroup.label  "Standardny Browser">
+<!ENTITY defaultBrowserButton.label "Standardny Browser nastajić">
+<!ENTITY alreadyDefaultText         "&brandShortName; je hižo waš standardny browser.">
+<!ENTITY defaultPendingText         "&brandShortName; so jako waš standardny browser nastaji, hdyž na W porjadku kliknjeće.">
+<!ENTITY makeDefaultText            "&brandShortName; jako waš standardny browser nastajić.">
+<!ENTITY urlbar.label "Strg+Enter w adresowej lajsće">
+<!ENTITY middleClick.label "Srjedźne kliknjenje, Strg+click abo Strg+Enter na wotkazy we web-stronje">
+
+<!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
+     preference dialog's <window> node, which specifies the width and height
+     in em units of the dialog. Localizers ONLY can increase these widths 
+     if they are having difficulty getting panel content to fit. 1em = the 
+     width of the letter 'm' in the selected font.
+     XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
+     size of this window for en-US. -->
+<!ENTITY prefWindow.size "width: 60em; height:41em;">

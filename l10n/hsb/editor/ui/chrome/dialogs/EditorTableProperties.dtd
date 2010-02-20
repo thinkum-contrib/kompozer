@@ -1,0 +1,98 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!ENTITY tableWindow.title "Kajkosće tabelow">
+<!ENTITY tableTab.label "Tabela">
+<!ENTITY cellTab.label "Cele">
+<!ENTITY tableRows.label "Rjadki:">
+<!ENTITY tableRows.accessKey "R">
+<!ENTITY tableColumns.label "Stołpiki:">
+<!ENTITY tableColumns.accessKey "S">
+<!ENTITY tableHeight.label "Wysokosć:">
+<!ENTITY tableHeight.accessKey "W">
+<!ENTITY tableWidth.label "Šěrokosć:">
+<!ENTITY tableWidth.accessKey "r">
+<!ENTITY tableBorderSpacing.label "Kromy a wotstawki">
+<!ENTITY tableBorderWidth.label "Kroma:">
+<!ENTITY tableBorderWidth.accessKey "K">
+<!ENTITY tableSpacing.label "Zwonkowny wotstawk:">
+<!ENTITY tableSpacing.accessKey "o">
+<!ENTITY tablePadding.label "Nutřkowny wotstawk:">
+<!ENTITY tablePadding.accessKey           "t">
+<!ENTITY tablePxBetwCells.label "Piksele mjez celemi">
+<!ENTITY tablePxBetwBrdrCellContent.label "Piksele mjez kromu a wobsahom cele">
+<!ENTITY tableAlignment.label "Wusměrjenje tabele:">
+<!ENTITY tableAlignment.accessKey         "u">
+<!ENTITY tableCaption.label "Titl:">
+<!ENTITY tableCaption.accessKey           "T">
+<!ENTITY tableCaptionAbove.label "Nad tabelu">
+<!ENTITY tableCaptionBelow.label "Pod tabelu">
+<!ENTITY tableCaptionLeft.label           "Nalěwo wot tabele">
+<!ENTITY tableCaptionRight.label          "Naprawo wot tabele">
+<!ENTITY tableCaptionNone.label           "Žadyn">
+<!ENTITY tableInheritColor.label "(Barbu strony přeswěćić dać)">
+
+<!ENTITY cellPercent.label "Procentow tabele">
+<!ENTITY cellSelection.label "Wuběr">
+<!ENTITY cellSelectCell.label "Cela">
+<!ENTITY cellSelectRow.label "Rjadka">
+<!ENTITY cellSelectColumn.label "Stołpik">
+<!ENTITY cellSelectNext.label "Přichodny">
+<!ENTITY cellSelectNext.accessKey         "i">
+<!ENTITY cellSelectPrevious.label "Předchadny">
+<!ENTITY cellSelectPrevious.accessKey     "e">
+<!ENTITY cellApplyBeforeMove.label "Změny do přeměnjenja wubranja přewjesć">
+<!ENTITY cellKeepCurrentData.label "Aktualne nastajenja zachować">
+<!-- LOCALIZATION NOTE Next 2 form 1 sentence (we don't want to use HTML tag to wrap) -->
+<!ENTITY applyBeforeChange1.label "Aktualne změny so nałožuja">
+<!ENTITY applyBeforeChange2.label "prjedy hač so woznamjenjenje přeměnjuje.">
+<!ENTITY cellRowSpan.label "Wotrězk rjadki:">
+<!ENTITY cellColSpan.label "Wotrězk stołpika:">
+<!ENTITY cellContentAlignment.label "Wobsah wusměrić:">
+<!ENTITY cellHorizontal.label "Horicontalnje:">
+<!ENTITY cellHorizontal.accessKey         "H">
+<!ENTITY cellVertical.label "Wertikalnje:">
+<!ENTITY cellVertical.accessKey           "W">
+<!ENTITY cellStyle.label "Stil cele:">
+<!ENTITY cellStyle.accessKey              "c">
+<!ENTITY cellNormal.label "Normalny">
+<!ENTITY cellHeader.label "Nadpismo">
+<!ENTITY cellTextWrap.label "Tekstowe łamanje:">
+<!ENTITY cellTextWrap.accessKey           "m">
+<!ENTITY cellWrap.label "Łamać">
+<!ENTITY cellNoWrap.label "Njełamać">
+<!ENTITY cellAlignTop.label "Horjeka">
+<!ENTITY cellAlignMiddle.label "Wosrjedź">
+<!ENTITY cellAlignBottom.label "Deleka">
+<!ENTITY cellAlignJustify.label "Wusměrić">
+<!ENTITY cellAlignAtChar.label "Při pismiku:">
+<!ENTITY cellInheritColor.label "(Barbu tabele přeswěćić dać)">
+<!ENTITY cellUseCheckboxHelp.label "Kontrolne kašćiki wužiwać, zo by so postajiło, kotre nastajenja so za wšě wubrane cele nałožuja.">
+
+<!-- Used in both Table and Cell panels  -->
+<!ENTITY size.label                       "Wulkosć">
+<!ENTITY pixels.label                     "pikselow">
+<!ENTITY backgroundColor.label            "Pozadkowa barba:">
+<!ENTITY backgroundColor.accessKey        "b">
+<!ENTITY AlignLeft.label                  "Nalěwo">
+<!ENTITY AlignCenter.label                "Centrowano">
+<!ENTITY AlignRight.label                 "Naprawo">

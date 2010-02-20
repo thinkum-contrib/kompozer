@@ -1,0 +1,74 @@
+<!ENTITY aboutCmd.accesskey "M">
+<!ENTITY aboutCmd.label "Wo &brandShortName;">
+<!ENTITY aboutCommPluginsCmd.accesskey "t">
+<!ENTITY aboutCommPluginsCmd.label "Wo tykačach">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "m">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">
+<!ENTITY bidiSwitchTextDirectionItem.label "Směr teksta změnić">
+<!ENTITY copyCmd.accesskey "k">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.label "Kopěrować">
+<!ENTITY cutCmd.accesskey "u">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.label "Wutřihać">
+<!ENTITY deleteCmd.accesskey "Z">
+<!ENTITY deleteCmd.key "D">
+<!ENTITY deleteCmd.label "Zhašeć">
+<!ENTITY direct.accesskey "n">
+<!ENTITY direct.label "Online (proksy: žadyn)">
+<!ENTITY editMenu.accesskey "b">
+<!ENTITY editMenu.label "Wobdźěłać">
+<!ENTITY fileMenu.accesskey "D">
+<!ENTITY fileMenu.label "Dataja">
+<!ENTITY findTypeLinksCmd.accesskey "o">
+<!ENTITY findTypeLinksCmd.label "Wotkazy při zapodaću namakać">
+<!ENTITY findTypeTextCmd.accesskey "T">
+<!ENTITY findTypeTextCmd.label "Tekst při zapodaću namakać">
+<!ENTITY helpMenu.accesskey "m">
+<!ENTITY helpMenu.label "Pomoc">
+<!ENTITY manual.accesskey "r">
+<!ENTITY manual.label "Online (proksy: manuelnje)">
+<!ENTITY newBlankPageCmd.accesskey "z">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newBlankPageCmd.label "Prózdna strona">
+<!ENTITY newMenu.accesskey "n">
+<!ENTITY newMenu.label "Nowy objekt">
+<!ENTITY newNavigatorCmd.accesskey "N">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.label "Wokno Nawigatora">
+<!ENTITY newPageFromDraftCmd.accesskey "n">
+<!ENTITY newPageFromDraftCmd.label "Strona z naćiska">
+<!ENTITY newPageFromTemplateCmd.accesskey "h">
+<!ENTITY newPageFromTemplateCmd.label "Strona z předłohi">
+<!ENTITY offlineGoOfflineCmd.accesskey "O">
+<!ENTITY offlineGoOfflineCmd.label "Offline dźěłać">
+<!ENTITY pac.accesskey "a">
+<!ENTITY pac.label "Online (proksy: auto URL)">
+<!ENTITY pasteCmd.accesskey "s">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.label "Zasunyć">
+<!ENTITY preferencesCmd.accesskey "N">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.label "Nastajenja…">
+<!ENTITY proxy.accesskey "k">
+<!ENTITY proxy.label "Konfiguracija proksy…">
+<!ENTITY redoCmd.accesskey "W">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.label "Wospjetować">
+<!ENTITY releaseCmd.accesskey "r">
+<!ENTITY releaseCmd.label "Release Notes">
+<!ENTITY selectAllCmd.accesskey "b">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.label "Wšě wubrać">
+<!ENTITY showTaskbarCmd.accesskey "S">
+<!ENTITY showTaskbarCmd.label "Statusowa lajsta">
+<!ENTITY undoCmd.accesskey "C">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.label "Cofnyć">
+<!ENTITY viewMenu.accesskey "h">
+<!ENTITY viewMenu.label "Napohlad">
+<!ENTITY viewToolbarsMenu.accesskey "P">
+<!ENTITY viewToolbarsMenu.label "Pokazać/Schować">
+<!ENTITY whatNewCmd.label "Što je nowe">
+<!ENTITY wpad.accesskey "O">
+<!ENTITY wpad.label  "Online (Proksy: awtomatisce zwěsćić)">
