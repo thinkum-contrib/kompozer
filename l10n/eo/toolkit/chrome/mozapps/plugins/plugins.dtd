@@ -1,0 +1,22 @@
+<!ENTITY pluginWizard.title                                  "Plugin Finder Service">
+<!ENTITY pluginWizard.firstPage.title                        "Bonvenon al la &pluginWizard.title;">
+
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "&brandShortName; nun serĉas pri disponeblaj kromprogramoj…">
+
+<!ENTITY pluginWizard.availablePluginsPage.title             "Elŝutoj de disponeblaj kromprogramoj">
+<!ENTITY pluginWizard.availablePluginsPage.description.label "La sekvontaj kromprogramoj estas disponeblaj:">
+<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Premu Antaŭen por instali ĉi tiujn kromprogramojn.">
+<!ENTITY pluginWizard.availablePluginsPage.installerUI       "Kelkaj kromprogramoj eble bezonas aldonajn informojn de vi dum la instalado.">
+
+<!ENTITY pluginWizard.licensePage.title                      "Kromprogramaj licencoj">
+<!ENTITY pluginWizard.licensePage.accept.label               "Mi akceptas.">
+<!ENTITY pluginWizard.licensePage.deny.label                 "Mi ne akceptas (kromprogramo ne estos instalata).">
+
+<!ENTITY pluginWizard.installPluginsPage.title               "Instalado de kromprogramoj">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "&brandShortName; instalas kromprogramojn…">
+
+<!ENTITY pluginWizard.finalPage.description.label            "&brandShortName; fininstalis la mankintajn kromprogramojn:">
+
+<!ENTITY pluginWizard.finalPage.moreInfo.label               "Eltrovu pli multe pri kromprogramoj aŭ serĉu la mankantajn kromprogramojn permane.">
+<!ENTITY pluginWizard.finalPage.restart.label                "&brandShortName; devas esti restartigata, por ke la kromprogramoj funkciu.">
+

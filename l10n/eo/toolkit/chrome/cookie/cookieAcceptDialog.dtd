@@ -1,0 +1,20 @@
+<!ENTITY props.box.label "Pri ĉi tiu kuketo">
+<!ENTITY props.name.label "Nomo:">
+<!ENTITY props.value.label "Enhavo:">
+<!ENTITY props.domain.label "Servilo:">
+<!ENTITY props.path.label "Vojo:">
+<!ENTITY props.secure.label "Sendi por:">
+<!ENTITY props.expires.label "Malvalidiĝos:">
+<!ENTITY props.policy.label "Principoj:">
+
+<!ENTITY button.allow.label "Permesi">
+<!ENTITY button.allow.accesskey "P">
+<!ENTITY button.session.label "Permesi por sesio">
+<!ENTITY button.session.accesskey "s">
+<!ENTITY button.deny.label "Rifuzi">
+<!ENTITY button.deny.accesskey "R">
+
+<!ENTITY dialog.title "Konfirmi">
+<!ENTITY dialog.remember.label "Uzi miajn elektojn por ĉiuj kuketoj el ĉi tiu retejo">
+<!ENTITY dialog.remember.accesskey "U">
+

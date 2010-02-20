@@ -1,0 +1,56 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printSetup.title "Agordi paĝon">
+<!ENTITY basic.tab "Formato &amp; opcioj">
+<!ENTITY formatGroup.label "Formato">
+
+<!ENTITY orientation.label "Orientiĝo:">
+<!ENTITY portrait "Vertikala">
+<!ENTITY landscape "Horizontala">
+
+<!ENTITY scale.label "Skalo:">
+<!ENTITY scalePercent "&#037;">
+
+<!ENTITY shrinkToFit.label "Akomodi grandon al la larĝo de la paĝo">
+
+<!ENTITY optionsGroup.label "Opcioj">
+
+<!ENTITY printBG.label "Printi fonon (kolorojn &amp; bildojn)">
+
+<!ENTITY advanced.tab "Marĝenoj &amp; paĝokapo/paĝopiedo">
+
+<!ENTITY marginGroup.label "Marĝenoj (#1)">
+<!ENTITY marginUnits.inches "coloj">
+<!ENTITY marginUnits.metric "milimetroj">
+<!ENTITY marginTop.label "Supre:">
+<!ENTITY marginBottom.label "Malsupre:">
+<!ENTITY marginLeft.label "Maldekstre:">
+<!ENTITY marginRight.label "Dekstre:">
+
+<!ENTITY headerFooter.label "Paĝokapoj &amp; paĝopiedoj">
+
+<!ENTITY hfLeft.label "Maldekstre:">
+<!ENTITY hfCenter.label "Centre:">
+<!ENTITY hfRight.label "Dekstre:">
+<!ENTITY headerLeft.tip "Maldekstra paĝokapo">
+<!ENTITY headerCenter.tip "Centra paĝokapo">
+<!ENTITY headerRight.tip "Dekstra paĝokapo">
+<!ENTITY footerLeft.tip "Maldekstra paĝokapo">
+<!ENTITY footerCenter.tip "Centra paĝopiedo">
+<!ENTITY footerRight.tip "Dekstra paĝopiedo">
+
+<!ENTITY hfTitle "Titolo">
+<!ENTITY hfTitle.code "[&amp;T]">
+<!ENTITY hfURL "URL">
+<!ENTITY hfURL.code "[&amp;U]">
+<!ENTITY hfDateAndTime "Dato/Horo">
+<!ENTITY hfDateAndTime.code "&amp;D">
+<!ENTITY hfPage "Paĝo #">
+<!ENTITY hfPage.code "[&amp;P]">
+<!ENTITY hfPageAndTotal "Paĝo # de #">
+<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfBlank "--malplena--">
+<!ENTITY hfCustom "Propra…">
+
+<!ENTITY customPrompt.title "Propra…">
+<!ENTITY customPrompt.prompt "Tajpu vian propran tekston por paĝokapo aŭ paĝopiedo">

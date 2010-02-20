@@ -1,0 +1,85 @@
+<!ENTITY  updateWizard.title              "Ĝisdatigo de programaro">
+
+<!ENTITY  window.width                    "36em">
+<!ENTITY  window.macWidth                 "39em">
+
+<!ENTITY  checking.title                  "Kontrolado de ĝisdatigoj">
+<!ENTITY  checking.label                  "&brandShortName; nun serĉas ĝisdatigojn…">
+
+<!ENTITY  cancel.label                    "Nuligi">
+<!ENTITY  cancel.accesskey                "N">
+
+<!ENTITY  noupdatesfound.title            "Neniuj ĝisdatigoj trovitaj">
+<!ENTITY  noupdatesfound.intro            "Novaj ĝisdatigoj ne estas disponeblaj. &brandShortName; periode 
+                                           serĉas novajn ĝisdatigojn.">
+
+<!ENTITY  updatesfound.title              "Ĝisdatigo disponebla">
+
+<!ENTITY  moreDetails.label               "Pliaj detaloj &#0187;">
+<!ENTITY  moreDetails.accesskey           "P">
+<!ENTITY  clickHere.label                 "Montri pliajn informojn pri ĉi tiu ĝisdatigo">
+
+<!ENTITY  incompatible.warning            "Ĉi tiu ĝisdatigo kaŭzos, ke kelkaj el viaj etendaĵoj kaj/aŭ etosoj 
+                                           ne plu funkcios, ĝis kiam ili estas ĝisdatigataj.">
+<!ENTITY  listIncompatible.label          "Montri liston">
+<!ENTITY  listIncompatible.accesskey      "l">
+
+<!ENTITY  upgrade.evangelism              "Estas treege rekomendate ĝisdatigi &brandShortName; 
+                                           kiel eble plej frue.">
+
+<!ENTITY  license.title                   "Permesilo">
+<!ENTITY  license.intro                   "Por instali ĉi tiun ĝisdatigon vi devas konsenti al ĉi tiu permesilo. 
+                                           Bonvolu tralegi ĝin zorgeme:">
+<!ENTITY  license.instructions            "Se vi konsentas al la kondiĉoj de ĉi tiu interkonsento, alklaku Mi konsentas
+                                           malsupre por daŭrigi la instaladon de ĉi tiu ĝisdatigo.">
+
+<!ENTITY  license.titleText               "Programara permesilo">
+<!ENTITY  license.introText               "Kondiĉoj por uzi ĉi tiun programaron.">
+
+<!ENTITY license.instructionText "Bonvolu legi la jenan permesilan interkonsenton.  Uzu la rulumskalon por vidi la ceteron de ĉi tiu interkonsento.">
+
+<!ENTITY license.accept "Mi akceptas la kondiĉojn de la permesila interkonsento">
+<!ENTITY license.accept.accesskey "c">
+<!ENTITY license.decline "Mi ne akceptas la kondiĉojn de la permesila interkonsento">
+<!ENTITY license.decline.accesskey "T">
+
+<!ENTITY downloading.title "Elŝutado de ĝisdatigo">
+<!ENTITY  downloading.intro               "Elŝutanta ĝisdatigon…">
+<!ENTITY  connecting.label                "Konektanta al la ĝisdatiga servilo…">
+<!ENTITY  verificationFailedText.label    "&brandShortName; ne povis kontroli la integrecon de la
+                                           alkrementa ĝisdatigo, kiun ĝi elŝutis, tial ĝi nun elŝutas
+                                           la kompletan ĝisdatigan pakaĵon.">
+
+<!ENTITY  details.link                    "Detaloj">
+<!ENTITY  pause.label                     "Halti">
+<!ENTITY  pause.accesskey                 "h">
+<!ENTITY  close.label                     "Fermi">
+<!ENTITY  close.accesskey                 "f">
+
+<!ENTITY  error.label                     "Estis problemoj dum serĉado pri, elŝuto de aŭ instalado de ĉi tiu 
+                                           ĝisdatigo. &brandShortName; ne povis esti ĝisdatigata, ĉar:">
+                                           
+<!ENTITY  errorManual.label "Vi povas permane ĝisdatigi &brandShortName; vizitante ĉi tiun ligilon kaj elŝutante la novan version:">
+                                           
+<!ENTITY  errorpatching.title             "Ĝisdatigo malsukcesis">
+<!ENTITY errorpatching.intro "La parta ĝisdatigo ne povis esti aplikita. &brandShortName; provos denove per elŝutado de kompleta ĝisdatigo.">
+
+<!ENTITY  finished.title                  "Ĝisdatigo elŝutita">
+<!ENTITY  finished.text                   "La ĝisdatigo estas sukcese elŝutita kaj kontrolita, kaj ĝi
+                                           estos instalata la sekvontan fojon, kiam &brandShortName; estas startigata.">
+
+<!ENTITY  finishedBackground.title        "Ĝisdatigo preta por instalado">
+<!ENTITY  finishedBackground.text         "&brandShortName; elŝutis kaj kontrolis gravan ĝisdatigon. 
+                                           Alklaku la ligilon malsupre pri pliaj detaloj.">
+<!ENTITY  finishedBackground.name         "Ĝisdatigo:">
+<!ENTITY  finishedBackground.more1        "Alklaku Restartigi &brandShortName; nun por instali nun la ĝisdatigon.">
+<!ENTITY  finishedBackground.more2        "Aklaku Pli malfrue por fermi ĉi tiun dialogon kaj plulabori. &brandShortName;
+                                           instalos la ĝisdatigon la sekovntan fojon, kiam ĝi estas startigata.">
+
+<!ENTITY  installed.title                 "Ĝisdatigo instalita">
+<!ENTITY  installed.intro                 "La ĝisdatigo estis sukcese instalita.">
+<!ENTITY  whatsnew.label                  "Legu pli multe pri tio, kio estas nova…">
+
+<!ENTITY  update.details.label            "Detaloj">
+<!ENTITY  update.installedOn.label        "Instalita la:">
+<!ENTITY  update.status.label             "Stato:">

@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY offlineGoOfflineCmd.label "Labori senkonekte">
+<!ENTITY offlineGoOfflineCmd.accesskey "b">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label "Dosiero">
+<!ENTITY fileMenu.accesskey "o">
+<!ENTITY newMenu.label "Nova">
+<!ENTITY newMenu.accesskey "N">
+<!ENTITY newBlankPageCmd.label "Paĝo de redaktilo">
+<!ENTITY newBlankPageCmd.accesskey "P">
+<!ENTITY newBlankPageCmd.key "n">
+<!ENTITY newPageFromTemplateCmd.label "Paĝo uzanta ŝablonon">
+<!ENTITY newPageFromTemplateCmd.accesskey "t">
+<!ENTITY newPageFromDraftCmd.label "Paĝo bazita sur malneto">
+<!ENTITY newPageFromDraftCmd.accesskey "m">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label "Foliumila fenestro">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY newNavigatorCmd.accesskey "F">
+
+<!ENTITY editMenu.label "Redakti">
+<!ENTITY editMenu.accesskey "R">
+<!ENTITY undoCmd.label "Malfari">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "m">
+<!ENTITY redoCmd.label "Refari">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY cutCmd.label "Eltondi">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "t">
+<!ENTITY copyCmd.label "Kopii">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "k">
+<!ENTITY pasteCmd.label "Alglui">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "g">
+<!ENTITY deleteCmd.label "Forviŝi">
+<!ENTITY deleteCmd.key "D"> 
+<!ENTITY deleteCmd.accesskey "f">
+<!ENTITY selectAllCmd.label "Elekti ĉion">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "E">
+<!ENTITY preferencesCmd.label "Agordoj…">
+<!ENTITY preferencesCmd.key "E">
+<!ENTITY preferencesCmd.accesskey "A">
+<!ENTITY findTypeTextCmd.label "Serĉi tekston dum tajpado">
+<!ENTITY findTypeTextCmd.accesskey "t">
+<!ENTITY findTypeLinksCmd.label "Serĉi ligilojn dum tajpado">
+<!ENTITY findTypeLinksCmd.accesskey "l">
+
+<!ENTITY viewMenu.label "Vido">
+<!ENTITY viewMenu.accesskey "v">
+<!ENTITY viewToolbarsMenu.label "Montri/Kaŝi">
+<!ENTITY viewToolbarsMenu.accesskey "M">
+<!ENTITY showTaskbarCmd.label "Statolinio">
+<!ENTITY showTaskbarCmd.accesskey "S"> 
+
+<!ENTITY helpMenu.label					"Helpo"> 
+<!ENTITY helpMenu.accesskey				"h"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label "Kio estas nova">
+
+<!ENTITY releaseCmd.label "Liveraj notoj">
+<!ENTITY releaseCmd.accesskey "L">
+<!ENTITY aboutCmd.label "Pri &brandShortName;">
+<!ENTITY aboutCmd.accesskey "M">
+<!ENTITY aboutCommPluginsCmd.label "Pri kromprogramoj">
+<!ENTITY aboutCommPluginsCmd.accesskey "p">
+
+<!ENTITY direct.label "Konekite (prokuro: neniu)">
+<!ENTITY direct.accesskey  "N">
+<!ENTITY manual.label  "Konektite (prokurilo: permane)">
+<!ENTITY manual.accesskey "M">
+<!ENTITY pac.label  "Konektite (prokurilo: aŭtomata URL)">
+<!ENTITY pac.accesskey "U">
+<!ENTITY wpad.label "Konektite (prokurilo: aŭtomate eltrovi)">
+<!ENTITY wpad.accesskey "l">
+
+<!ENTITY proxy.label "Konfigurado de prokurilo…">
+<!ENTITY proxy.accesskey "f">
+
+<!ENTITY bidiSwitchTextDirectionItem.label "Ŝanĝi tekstodirekton">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey "t">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey "X">

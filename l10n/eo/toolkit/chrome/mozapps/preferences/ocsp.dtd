@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "38em">
+
+<!ENTITY ocspDialog.title             "Kontrolo">
+<!ENTITY validation.ocsp.description  "&brandShortName; povas uzi Online Certificate Status Protocol (OCSP) por kontroli atestilojn. Agordu &brandShortName; por la uzo de OCSP jene:">
+<!ENTITY disableOCSP.label            "Ne uzi OCSP por la kontrolo de atestiloj">
+<!ENTITY certOCSP.label               "Uzi OCSP por kontroli nur atestilojn, kiuj specifas URL de servo OCSP">
+<!ENTITY proxyOCSP.label              "Uzi OCSP por kontroli ĉiujn atestilojn, kiuj uzas ĉi tiun URL kaj subskribinto:">
+<!ENTITY serviceURL.label "Adreso de servo:">
+<!ENTITY serviceURL.accesskey "A">
+<!ENTITY signingCA.label "Responda Subskribanto:">
+<!ENTITY signingCA.accesskey "R">

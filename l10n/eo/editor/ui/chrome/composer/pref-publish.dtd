@@ -1,0 +1,24 @@
+<!-- extracted from content/pref-publish.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Publish preferences screen -->
+<!ENTITY window.title "Publikigi">
+<!ENTITY composerHeader.label "Publikigi">
+<!ENTITY maintainCheckbox.label "Administri ligilojn">
+<!ENTITY keepCheck.label "Konservi bildojn kune kun paĝo">
+
+<!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  adjustDesc.label "Alĝustigi ligilojn por ke ili funkciu el la retadreso de la paĝo. (Ligiloj al lokaj paĝoj funkcios, se
+
+			      ekzistas lokaj versioj)           ">
+
+<!ENTITY adjustDesc.label "Alĝustigi ligilojn por ke ili funkciu el la retadreso de la paĝo. (Ligiloj al lokaj paĝoj funkcios se ekzistas lokaj versioj)">
+<!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
+<!ENTITY  saveDesc.label "Konservi kopiojn de biloj en la paĝa loko. Bildoj ĉiam
+				aperos kaj en la lokaj versioj de la paĝo kaj post la publikigado.">
+<!ENTITY tip.label "Konsilo:  Elektu ambaŭ opciojn se vi uzos foran publikigon.">
+<!ENTITY defaultHeader.label "Normala publikiga loko">
+<!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
+<!ENTITY publishFtp.label "Se temas pri publikigo en FTP-ejo, tajpu la HTTP-adreson por ekzameni:">
+<!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
+<!ENTITY publishhtp.label "Se temas pri publikigo en FTP-ejo, tajpu la HTTP-adreson por ekzameni:">
+

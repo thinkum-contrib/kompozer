@@ -1,0 +1,22 @@
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "Serĉi en ĉi tiu paĝo">
+<!ENTITY findDialogFrame.title "Serĉi en ĉi tiu kadro">
+<!ENTITY findField.label "Serĉi tekston:">
+<!ENTITY findField.accesskey "t">
+<!ENTITY caseSensitiveCheckbox.label "Konsideri usklecon">
+<!ENTITY caseSensitiveCheckbox.accesskey "u">
+<!ENTITY wrapCheckbox.label "Post la fino serĉi de antaŭe">
+<!ENTITY wrapCheckbox.accesskey "P">
+<!ENTITY backwardsCheckbox.label "Serĉi malantaŭen">
+<!ENTITY backwardsCheckbox.accesskey "m">
+<!ENTITY findField.tooltip "Tajpu unu aŭ pli da vortoj por serĉi">
+<!ENTITY findButton.label "Pluserĉi">
+<!ENTITY findButton.accesskey "P">
+<!ENTITY cancelButton.label "Nuligi">
+<!ENTITY closeButton.label "Fermi">
+<!ENTITY up.label "Supren">
+<!ENTITY up.accesskey "S">
+<!ENTITY down.label "Malsupren">
+<!ENTITY down.accesskey "M">
+<!ENTITY direction.label "Direkto">

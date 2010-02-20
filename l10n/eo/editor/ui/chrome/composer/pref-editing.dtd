@@ -1,0 +1,41 @@
+<!ENTITY lHeader "Novaj paĝaj agordoj">
+<!ENTITY rHeader "Defaŭltoj por novaj paĝoj">
+
+<!ENTITY authorName.label "Aŭtoro:">
+<!ENTITY authorName.accesskey "A">
+<!ENTITY pageColorHeader "Defaŭlta paĝa aspekto">
+
+<!ENTITY defaultColorsRadio.label "Defaŭltaj koloroj de la leganto (ne determini kolorojn en la paĝo)">
+<!ENTITY defaultColors.accesskey "D">
+<!ENTITY customColorsRadio.label "Uzi proprajn kolorojn:">
+<!ENTITY customColors.accesskey "p">
+
+<!ENTITY normalText.label "Normala teksto:">
+<!ENTITY normalText.accesskey "N">
+<!ENTITY linkText.label "Ligila teksto">
+<!ENTITY linkText.accesskey "L">
+<!ENTITY activeLinkText.label "Teksto de aktiva ligilo">
+<!ENTITY activeLinkText.accesskey "k">
+<!ENTITY visitedLinkText.label "Teksto de vizitita ligilo">
+<!ENTITY visitedLinkText.accesskey "V">
+<!ENTITY background.label "Fono:">
+<!ENTITY background.accesskey "F">
+<!ENTITY colon.character ":">
+
+<!ENTITY backgroundImage.label "Fona bildo:">
+<!ENTITY backgroundImage.accesskey "b">
+<!ENTITY chooseFile.label "Elekti dosieron…">
+<!ENTITY chooseFile.accesskey "E">
+
+<!ENTITY i18nHeader "Internaciigo">
+
+<!ENTITY writingDirection.label      "Skribdirekto:">
+<!ENTITY defaultDirectionRadio.label "Neniu direkto specifita">
+<!ENTITY ltrDirectionRadio.label     "Maldekstre al dekstre">
+<!ENTITY rtlDirectionRadio.label     "Dekstre al maldekstre">
+
+<!ENTITY language.label              "Lingvo:">
+<!ENTITY languageChoiceButton.label  "Elekti lingvon">
+
+<!ENTITY defaultCharset.label        "Signaro:">
+<!ENTITY chooseCharsetButton.label   "Elekti signaron">

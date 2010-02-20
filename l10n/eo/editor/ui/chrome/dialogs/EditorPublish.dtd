@@ -1,0 +1,110 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Publikigi paĝon">
+<!ENTITY windowTitleSettings.label "Publikigaj agordoj">
+
+<!ENTITY publishTab.label "Publikigi">
+<!ENTITY settingsTab.label "Agordoj">
+
+<!ENTITY publishButton.label        "Publikigi">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label "Reteja nomo:">
+<!ENTITY siteList.tooltip "Elekti la retejon kie vi volas publikigi">
+<!ENTITY newSiteButton.label "Nova retejo">
+<!ENTITY siteDirList.label "Elekti aŭ tajpi la nomon de la dosierujo en via publikiga retejo:">
+<!ENTITY siteDirList.tooltip "Elektu aŭ tajpu la nomon de la fora subdosierujo por publikigi">
+<!ENTITY docDirList.label "Reteja subdosierujo por ĉi tiu paĝo:">
+<!ENTITY publishImgCheckbox.label "Inkluzivi bildojn kaj aliajn dosierojn">
+<!ENTITY publishImgCheckbox.tooltip "Publikigi bildojn kaj aliajn dosierojn referencitajn de ĉi tiu paĝo">
+<!ENTITY sameLocationRadio.label "Uzi la saman lokon de la paĝo">
+<!ENTITY sameLocationRadio.tooltip "Publikigi dosierojn en la sama loko kiel la paĝo">
+<!ENTITY useSubdirRadio.label "Uzi ĉi tiun retejan dosierujon:">
+<!ENTITY useSubdir.tooltip "Elektu aŭ tajpu la nomon de la fora subdosierujo kie la dosieroj estos publigitaj">
+<!ENTITY chooseDirButton.label "Elekti…">
+<!ENTITY pageTitle.label "Paĝa titolo:">
+<!ENTITY pageTitle.tooltip "Tajpu titolon, kiu identigos la paĝon en la fenestro kaj en la legosignoj">
+<!ENTITY pageTitleExample.label "ekzemple: &quot;Mia retpaĝo&quot;">
+<!ENTITY filename.label "Dosiernomo:">
+<!ENTITY filename.tooltip "Tajpu nomon por ĉi tiu dosiero, inkluzivante '.html' por retpaĝo">
+<!ENTITY filenameExample.label "ekzemple: &quot;miapaĝo.html&quot;">
+<!ENTITY relatedDocs.label "Aliaj dosieroj por publikigi">
+<!ENTITY setDefaultButton.label "Difini kiel defaŭlton">
+<!ENTITY setDefSiteAndDir.label "Difini kiel defaŭltan retejon kaj dosierujon">
+<!ENTITY removeButton.label "Forigi retejon">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label "Publikigaj retejoj">
+<!ENTITY serverInfo.label "Retejaj informoj">
+<!ENTITY loginInfo.label "Publikiga servilo">
+<!ENTITY siteName.label "Reteja nomo:">
+<!ENTITY siteName.tooltip "Kromnomo, kiu identigas tiun ĉi publikigan retejon (ekzemple: 'MiaRetejo')">
+<!ENTITY siteUrl.label "Publikiga adreso (ekzemple: 'ftp://ftp.retprovizanto.com/mianomo'):">
+<!ENTITY siteUrl.tooltip "La FTP:// or HTTP:// adreso donita al vi de via retprovizanto aŭ provizanto de reteja spaco">
+<!ENTITY browseUrl.label "HTTP-adreso de via hejmpaĝo (ekzemple: 'http://www.miaisp.com/miauzantnomo'):">
+<!ENTITY browseUrl.tooltip "La HTTP:// adreso de via hejma dosierujo (ne inkluzivu la dosieran nomon)">
+<!ENTITY username.label "Uzantnomo:">
+<!ENTITY username.tooltip "La uzantnomo, kiun vi uzas por akrediti je via retprovizanto aŭ provizanto de reteja spaco">
+<!ENTITY password.label "Pasvorto:">
+<!ENTITY password.tooltip "La pasvorto asociita kun via uzantnomo">
+<!ENTITY savePassword.label "Konservi pasvorton">
+<!ENTITY savePassword.tooltip "Elekti ĉi tion por sekure konservi vian pasvorton pere de pasvorta admininistrilo">
+
+<!ENTITY selectDirectory.label "Elekti dosierujon">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Ĝeneralaj agordoj">
+<!ENTITY ftpSettings.label          "FTP-agordoj">
+<!ENTITY localSettings.label        "Lokaj agordoj">
+<!ENTITY siteDirectory.label        "Reteja dosierujo:">
+<!ENTITY siteDirectory.tooltip      "La dosierujo en via fiksita disko, kie via retejo estas konservata">
+<!ENTITY browsePrefix.label         "Prefikso:">
+<!ENTITY browsePrefix.tooltip       "Prefikso por forigo de la FTP-parto de url, ekz. /public_html">
+
+<!ENTITY connection.label           "Tipo de konekto">
+<!ENTITY port.label                 "Pordo:">
+<!ENTITY pasv.label                 "Pasiva reĝimo">
+<!ENTITY security.label             "Sekureco">
+<!ENTITY none.label                 "Neniu">
+<!ENTITY authtls.label              "Auth TLS (plej bona)">
+<!ENTITY authssl.label              "Auth SSL (pli bona)">
+<!ENTITY implicit.label             "Implicit SSL (bona)">
+<!ENTITY treesync.label             "Teni dosierujojn sinkronaj dum navigado">
+

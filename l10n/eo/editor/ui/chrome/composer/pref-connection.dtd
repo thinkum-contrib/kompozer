@@ -1,0 +1,39 @@
+<!-- extracted from content/pref-proxies.xul -->
+
+<!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
+<!ENTITY  lHeader                       "Konektaj agordoj">
+<!ENTITY  proxyTitle.label              "Konfiguri prokurojn por atingi la interreton">
+<!ENTITY  directTypeRadio.label         "Rekta konekto al la interreto">
+<!ENTITY  directTypeRadio.accesskey     "R">
+<!ENTITY  manualTypeRadio.label         "Permana prokura konfiguro">
+<!ENTITY  manualTypeRadio.accesskey     "m">
+<!ENTITY  autoTypeRadio.label           "Aŭtomata prokura konfiguro URL:">
+<!ENTITY  autoTypeRadio.accesskey       "A">
+<!ENTITY  configAutoconfigText.label    "Konfigura adreso (URL):">
+<!ENTITY  configAutoconfigText.accesskey "K">
+<!ENTITY  reload.label                  "Reŝargi">
+<!ENTITY  reload.accesskey              "R">
+<!ENTITY  ftp.label                     "Prokuro FTP:">
+<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  gopher.label                  "Prokuro Gopher:">
+<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  http.label                    "Prokuro HTTP:">
+<!ENTITY  http.accesskey                "H">
+<!ENTITY  ssl.label                     "Proksy SSL:">
+<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  socks.label                   "Gastiga komputilo SOCKS:">
+<!ENTITY  socks.accesskey               "c">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "4">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "5">
+<!ENTITY  port.label                    "Pordo:">
+<!ENTITY  HTTPport.accesskey            "p">
+<!ENTITY  SSLport.accesskey             "o">
+<!ENTITY  FTPport.accesskey             "r">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "d">
+<!ENTITY  noproxy.label                 "Neniu prokuro por:">
+<!ENTITY  noproxy.accesskey             "N">
+<!ENTITY  noproxyExplain.label          "Ekzemplo: .mozilla.org, .net.nz">

@@ -1,0 +1,116 @@
+<!ENTITY addons.title                     "Aldonaĵoj">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Etendaĵoj">
+<!ENTITY themes.label                     "Etosoj">
+<!ENTITY locales.label                    "Lingvoj">
+<!ENTITY plugins.label                    "Kromprogramoj">
+<!ENTITY update.label                     "Ĝisdatigoj">
+<!ENTITY install.label                    "Instalado">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Serĉi ĝisdatigojn">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "S">
+<!ENTITY cmd.checkUpdatesAllAddon.tooltip "Serĉas ĝisdatigojn por viaj aldonaĵoj">
+<!ENTITY cmd.checkUpdatesAllTheme.tooltip "Serĉas ĝisdatigojn por viaj etosoj">
+<!ENTITY cmd.installLocalFile.label       "Instali…">
+<!ENTITY cmd.installFile.accesskey        "I">
+<!ENTITY cmd.installFileAddon.tooltip     "Instali aldonaĵon">
+<!ENTITY cmd.installFileTheme.tooltip     "Instali etoson">
+<!ENTITY cmd.installUpdatesAll.label      "Instali ĝisdatigojn">
+<!ENTITY cmd.installUpdatesAll.accesskey  "I">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Instalas elektitajn ĝisdatigojn">
+<!ENTITY cmd.restartApp.label             "Restartigi &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey         "R">
+<!ENTITY cmd.restartApp.tooltip           "Restartigas &brandShortName; por fini la instaladon">
+<!ENTITY cmd.skip.label                   "Transsalti">
+<!ENTITY cmd.skip.accesskey               "T">
+<!ENTITY cmd.skip.tooltip                 "Transsalti ĉi tiujn ĝisdatigojn">
+<!ENTITY cmd.continue.label               "Daŭrigi">
+<!ENTITY cmd.continue.accesskey           "D">
+<!ENTITY cmd.continue.tooltip             "Pluŝarganta &brandShortName;">
+
+<!ENTITY cmd.enableAll.label              "Ebligi ĉiujn">
+<!ENTITY cmd.enableAll.accesskey          "E">
+<!ENTITY cmd.enableAll.tooltip            "Ebligi ĉiujn vidigatajn aldonaĵojn">
+<!ENTITY cmd.disableAll.label             "Malebligi ĉiujn">
+<!ENTITY cmd.disableAll.accesskey         "M">
+<!ENTITY cmd.disableAll.tooltip           "Malebligi ĉiujn vidigatajn aldonaĵojn">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "Uzi etoson">
+<!ENTITY cmd.useTheme.accesskey           "u">
+<!ENTITY cmd.useTheme.tooltip             "Ŝanĝas etoson de &brandShortName;">
+<!ENTITY cmd.options.label                "Opcioj">
+<!ENTITY cmd.options.accesskey            "O">
+<!ENTITY cmd.options.tooltip              "Agordi opciojn por la elektita etendaĵo">
+<!ENTITY cmd.optionsUnix.label            "Agordoj">
+<!ENTITY cmd.optionsUnix.accesskey        "r">
+<!ENTITY cmd.optionsUnix.tooltip          "Redakti agordojn por la elektita etendaĵo">
+<!ENTITY cmd.enable.label                 "Ebligi">
+<!ENTITY cmd.enable.accesskey             "E">
+<!ENTITY cmd.enable.tooltip               "Ebligi ĉi tiun aldonaĵon, kiam &brandShortName; estas restartigata">
+<!ENTITY cmd.disable.label                "Malebligi">
+<!ENTITY cmd.disable.accesskey            "M">
+<!ENTITY cmd.disable.tooltip              "Malebligi ĉi tiun aldonaĵon, kiam &brandShortName; estas restartigata">
+<!ENTITY cmd.uninstall.label              "Malinstali">
+<!ENTITY cmd.uninstall2.accesskey         "l">
+<!ENTITY cmd.uninstall2.tooltip           "Malinstali ĉi tiun aldonaĵon, kiam &brandShortName; estas restartigata">
+<!ENTITY cmd.cancelUninstall.label        "Nuligi malinstaladon">
+<!ENTITY cmd.cancelUninstall.accesskey    "u">
+<!ENTITY cmd.cancelUninstall.tooltip      "Nuligi malinstaladon de ĉi tiu aldonaĵo">
+<!ENTITY cmd.installUpdate.label          "Instali ĝisdatigon">
+<!ENTITY cmd.installUpdate.accesskey      "I">
+<!ENTITY cmd.installUpdate.tooltip        "Instali ĝisdatigon por ĉi tiu aldonaĵo">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Nuligi">
+<!ENTITY cancel.accesskey                 "N">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Viziti hejmpaĝon">
+<!ENTITY cmd.homepage.accesskey           "v">
+<!ENTITY cmd.about2.label                 "Pri ĉi tiu aldonaĵo">
+<!ENTITY cmd.about.accesskey              "P">
+<!ENTITY cmd.checkUpdate.label            "Serĉi ĝisdatigon">
+<!ENTITY cmd.checkUpdate.accesskey        "S">
+
+<!ENTITY cmd.includeUpdate.label          "Inkludi ĝisdatigon">
+<!ENTITY cmd.includeUpdate.accesskey      "n">
+<!ENTITY includeUpdate.label              "Inkludi ĉi tiun ĝisdatigon">
+<!ENTITY includeUpdate.accesskey          "n">
+<!ENTITY includeUpdate.tooltip            "Inkludi ĉi tiun aldonaĵon dum instalado de ĝisdatigoj">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Bezonas aldonajn elementojn.">
+<!ENTITY blocklisted.label                "Malebligita por via protekto.">
+<!ENTITY toBeDisabled.label               "Ĉi tiu aldonaĵo estos malebligata, kiam &brandShortName; estas restartigata.">
+<!ENTITY toBeEnabled.label                "Ĉi tiu aldonaĵo estos ebligata, kiam &brandShortName; estas restartigata.">
+<!ENTITY toBeInstalled.label              "Ĉi tiu aldonaĵo estos instalata, kiam &brandShortName; estas restartigata.">
+<!ENTITY toBeUninstalled.label            "Ĉi tiu aldonaĵo estos malinstalata, kiam &brandShortName; estas restartigata.">
+<!ENTITY toBeUpgraded.label               "Ĉi tiu aldonaĵo estos ĝisdatigata, kiam &brandShortName; estas restartigata.">
+
+<!ENTITY getExtensions.label              "Havigi etendaĵojn">
+<!ENTITY getExtensions.tooltip            "Havigi etendaĵojn el addons.mozilla.org">
+<!ENTITY getThemes.label                  "Havigi etosojn">
+<!ENTITY getThemes.tooltip                "Havigi etosojn el addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label     "Neniu etoso elektita">
+<!ENTITY previewNoPreviewImage.label      "Ĉi tiu etoso ne havas antaŭrigardan bildon">
+<!ENTITY moreInfo.label                   "Pliaj informoj">
+<!ENTITY closeMessage.tooltip             "Fermi ĉi tiun mesaĝon">
+
+<!ENTITY updateSuccess.label              "Ĝisdatigo sukcese finita.">
+<!ENTITY installSuccess.label             "Instalado sukcese finita.">
+<!ENTITY installSuccessRestart.label      "Restartigi por fini la instaladon.">
+<!ENTITY installWaiting.label             "Atendanta…">
+<!ENTITY installIncompatibleUpdate.label  "Kontrolanta kongruecon…">
+<!ENTITY installFinishing.label           "Instalanta…">
+<!ENTITY installFailure.label             "Instalado malsukcesis.">
+

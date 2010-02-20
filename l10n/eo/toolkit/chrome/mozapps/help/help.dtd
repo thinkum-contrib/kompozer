@@ -1,0 +1,85 @@
+<!ENTITY printCmd.commandkey             "p">
+
+<!ENTITY viewCustomizeToolbar.label      "Alĝustigi…">
+<!ENTITY viewCustomizeToolbar.accesskey  "A">
+
+<!ENTITY findOnCmd.commandkey            "F">
+<!ENTITY findAgainCmd.commandkey         "G">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "Serĉi en ĉi tiu paĝo">
+<!ENTITY findDialogFrame.title           "Serĉi en ĉi tiu kadro">
+<!ENTITY findField.label                 "Serĉesprimo:">
+<!ENTITY findField.accesskey             "e">
+<!ENTITY caseSensitiveCheckbox.label     "Konsideri usklecon">
+<!ENTITY caseSensitiveCheckbox.accesskey "u">
+<!ENTITY wrapCheckbox.label              "Faldi linion">
+<!ENTITY wrapCheckbox.accesskey          "f">
+<!ENTITY backwardsCheckbox.label         "Serĉi malantaŭen">
+<!ENTITY backwardsCheckbox.accesskey     "m">
+<!ENTITY findField.tooltip               "Tajpi unu aŭ plurajn vortojn, kiuj estu serĉataj">
+<!ENTITY findButton.label                "Pluserĉi">
+<!ENTITY findButton.accesskey            "P">
+<!ENTITY cancelButton.label              "Nuligi">
+<!ENTITY up.label                        "Supren">
+<!ENTITY up.accesskey                    "S">
+<!ENTITY down.label                      "Malsupren">
+<!ENTITY down.accesskey                  "M">
+<!ENTITY direction.label                 "Direkto">
+
+<!ENTITY find.label                      "Serĉi:">
+<!ENTITY findNext.label                  "Serĉi sekvontan">
+<!ENTITY findNext.tooltip                "Serĉi la sekvontan okazon de la esprimo">
+<!ENTITY findPrevious.label              "Serĉi antaŭan">
+<!ENTITY findPrevious.tooltip            "Serĉi la antaŭan okazon de la esprimo">
+<!ENTITY findCloseButton.tooltip         "Fermi serĉan ilobreton">
+<!ENTITY highlight.label                 "Reliefigi">
+<!ENTITY highlight.tooltip               "Reliefigi ĉiujn okazojn de la esprimo (Stir+Enter)">
+
+<!ENTITY backButton.label                "Reen">
+<!ENTITY backButton.accesskey            "R">
+<!ENTITY backButton.tooltip              "Unu paĝon reen">
+<!ENTITY forwardButton.label             "Antaŭen">
+<!ENTITY forwardButton.accesskey         "A">
+<!ENTITY forwardButton.tooltip           "Unu paĝon antaŭen">
+<!ENTITY homeButton.label                "Hejmen">
+<!ENTITY homeButton.tooltip              "Al la startpaĝo de la helpo">
+<!ENTITY printButton.label               "Printi">
+<!ENTITY printButton.tooltip             "Printi ĉi tiun paĝon">
+<!ENTITY findBtn.label                   "Serĉi">
+<!ENTITY sidebarBtn.label                "Ŝalti flankan zonon">
+<!ENTITY sidebarBtn.tooltip              "Montri aŭ kaŝi la flankan zonon de helpo">
+<!ENTITY textZoomReduceBtn.label         "Malgrandigi tekstgradon">
+<!ENTITY textZoomReduceBtn.accesskey     "M">
+<!ENTITY textZoomReduceBtn.tooltip       "Malgrandigi la gradon de teksto en la dokumentoj de helpo.">
+<!ENTITY textZoomEnlargeBtn.label        "Pligrandigi tekstgradon">
+<!ENTITY textZoomEnlargeBtn.accesskey    "P">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Pligrandigi la gradon de la teksto en la dokumentoj de helpo.">
+<!ENTITY customizeButton.tooltip         "Alĝustigu, kiuj butonoj estu montrataje en la ilobreto de helpo.">
+<!ENTITY reloadCmd.label                 "Reŝargi">
+<!ENTITY reloadCmd.accesskey             "R">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Kopii">
+<!ENTITY copyCmd.accesskey               "K">
+
+<!ENTITY throbberItem.title              "Indikilo de aktiveco">
+
+<!ENTITY cmd_CustomizeToolbars.label     "Alĝustigi" >
+
+<!ENTITY searchtab.label                 "Serĉi">
+<!ENTITY searchtab.accesskey             "S">
+<!ENTITY searchbtn.label                 "Serĉi">
+<!ENTITY toctab.label                    "Enhavo">
+<!ENTITY toctab.accesskey                "E">
+<!ENTITY indextab.label                  "Indekso">
+<!ENTITY indextab.accesskey              "I">
+<!ENTITY ixname.label                    "Nomo">
+<!ENTITY glossarytab.label               "Glosaro">
+<!ENTITY glossarytab.accesskey           "G">
+<!ENTITY glossname.label                 "Nomo">
+<!ENTITY gobtn.label                     "Serĉi">
+<!ENTITY name.label                      "Elemento">
+
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">

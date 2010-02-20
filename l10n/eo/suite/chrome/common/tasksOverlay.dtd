@@ -1,0 +1,44 @@
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label "Navigilo">
+<!ENTITY navigatorCmd.accesskey "N">
+<!ENTITY navigatorCmd.commandkey "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label "Redaktilo">
+<!ENTITY editorCmd.accesskey "R">
+<!ENTITY editorCmd.commandkey "4">
+
+<!ENTITY securityInfoCmd.label ".Sekurecaj informoj">
+<!ENTITY securityInfoCmd.accesskey "c">
+<!ENTITY javaConsoleCmd.label "Ĝavakonzolo">
+<!ENTITY javaConsoleCmd.accesskey "v">
+
+<!ENTITY javaScriptConsoleCmd.label      "Erarkonzolo">
+<!ENTITY javaScriptConsoleCmd.accesskey  "E">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label "Privateco &amp; sekureco">
+<!ENTITY privacyMenu.accesskey "r">
+
+<!ENTITY taskNavigator.tooltip "Navigilo">
+<!ENTITY taskComposer.tooltip "Redaktilo">
+<!ENTITY taskBar.tooltip "Statolinio">
+
+<!ENTITY webDevelopment.label "Retprogramado">
+<!ENTITY webDevelopment.accesskey "p">
+
+<!ENTITY windowMenu.label "Fenestro">
+<!ENTITY windowMenu.accesskey "f">
+
+<!ENTITY tasksMenu.label "Ilaro">
+<!ENTITY tasksMenu.accesskey "I">
+
+<!ENTITY downloadManagerCmd.label "Elŝuta administrilo">
+<!ENTITY downloadManagerCmd.accesskey "E">
+
+<!ENTITY switchProfileCmd.label "Interŝanĝi profilon…">
+<!ENTITY switchProfileCmd.accesskey "p">
+
+<!ENTITY addons.label                    "Aldonaĵoj">
+<!ENTITY extensions.label                "Etendaĵoj">
+<!ENTITY themes.label                    "Etosoj">

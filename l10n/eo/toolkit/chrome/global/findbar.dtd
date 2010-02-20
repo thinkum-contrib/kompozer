@@ -1,0 +1,16 @@
+<!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
+<!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
+
+<!-- entities split out from browser.dtd -->
+<!ENTITY next.label "Sekvanta">
+<!ENTITY next.accesskey "S">
+<!ENTITY next.tooltip "Serĉi la sekvantan okazon de la esprimo">
+<!ENTITY previous.label "Antaŭa">
+<!ENTITY previous.accesskey "A">
+<!ENTITY previous.tooltip "Serĉi la antaŭan okazon dela esprimo">
+<!ENTITY findCloseButton.tooltip "Fermi serĉan ilobreton">
+<!ENTITY highlight.label "Reliefigi ĉiujn">
+<!ENTITY highlight.accesskey "R">
+<!ENTITY highlight.tooltiptext "Reliefigi ĉiujn okazojn de la esprimi">
+<!ENTITY caseSensitiveCheckbox.label "Konsideri usklecon">
+<!ENTITY caseSensitiveCheckbox.accesskey "u">

@@ -1,0 +1,28 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printJobOptions.title "Atributoj de printilo">
+
+<!ENTITY paperInput.label "Grando de papero:">
+
+<!ENTITY plexInput.label "Reĝimo plex:">
+
+<!ENTITY resolutionInput.label "Distingivo/Kvalito:">
+
+<!ENTITY cmdInput.label "Printkomando:">
+
+<!ENTITY jobTitleInput.label "Taskotitolo:">
+
+<!ENTITY colorGroup.label "Koloro:">
+<!ENTITY grayRadio.label "Grizoskalo">
+<!ENTITY colorRadio.label "Koloro">
+
+<!ENTITY colorspaceInput.label "Kolorspaco:">
+
+<!ENTITY fontsGroup.label "Tiparoj:">
+<!ENTITY downloadFonts.label "Ĉu elŝuti tiparojn al printilo?">
+
+<!ENTITY edgeMarginInput.label "Distanco inter la rando de la papero kaj la marĝeno">
+<!ENTITY topInput.label "Supre:">
+<!ENTITY bottomInput.label "Malsupre:">
+<!ENTITY leftInput.label "Maldekstre:">
+<!ENTITY rightInput.label "Dekstre:">

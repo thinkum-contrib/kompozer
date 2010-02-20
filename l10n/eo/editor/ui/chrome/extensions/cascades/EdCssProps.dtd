@@ -1,0 +1,279 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title                           "CSS Stilfolioj">
+
+<!ENTITY sheetsTreeColumn.label                 "Folioj kaj reguloj">
+<!ENTITY expertModeChecbox.label                "Eksperta reĝimo">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "Ligita stilfolio">
+<!ENTITY styleSheetButton.label                 "Interna stilfolio">
+<!ENTITY ruleButton.label                       "Stilregulo">
+<!ENTITY upButton.label                         "Supren">
+<!ENTITY downButton.label                       "Malsupren">
+<!ENTITY refreshButton.label                    "Reŝargi">
+<!ENTITY removeButton.label                     "Forigi">
+<!ENTITY sheetInfoTab.label                     "Ĝenerala">
+<!ENTITY textTab.label                          "Teksto">
+<!ENTITY borderTab.label                        "Borderoj">
+<!ENTITY marginsTab.label                       "Marĝenoj">
+<!ENTITY boxTab.label                           "Ujo">
+<!ENTITY auralTab.label                         "Akustika">
+<!ENTITY fontFamily.label                       "Tipara familio:">
+<!ENTITY inheritedFontFamily.label              "heredigita">
+<!ENTITY useCustomFontFamily.label              "Uzi propran tiparan familion:">
+<!ENTITY fontData.label                         "Tiparaj datumoj">
+<!ENTITY exampleSentence.label                  "Eĥoŝanĝo ĉiuĵaŭde">
+<!ENTITY backgroundTab.label                    "Fono">
+
+<!ENTITY unspecifiedValue.label                 "nespecifita">
+<!ENTITY predefFontFamilyRadio.label            "antaŭdifinita:">
+<!ENTITY fontSize.label                         "Tipara grado:">
+<!ENTITY lineHeight.label                       "Linia alto:">
+<!ENTITY normalLineHeight.label                 "normala">
+<!ENTITY color.label                            "Koloro:">
+<!ENTITY fontWeight.label                       "Tipara pezo:">
+<!ENTITY normalValue.label                      "Normala">
+<!ENTITY boldValue.label                        "Grasa">
+<!ENTITY bolderValue.label                      "Pli grasa">
+<!ENTITY lighterValue.label                     "Pli malgrasa">
+<!ENTITY inheritedValue.label                   "Heredigita">
+<!ENTITY fontStyle.label                        "Tipara fasono:">
+<!ENTITY italicValue.label                      "Kursiva">
+<!ENTITY obliqueValue.label                     "Oblikva">
+<!ENTITY textTransform.label                    "Uskleco:">
+<!ENTITY noneTextTransformValue.label           "Nenia ŝanĝo">
+<!ENTITY lowercaseValue.label                   "Minuskla">
+<!ENTITY uppercaseValue.label                   "Majuskla">
+<!ENTITY capitalizeValue.label                  "Majuskligi">
+
+<!ENTITY closeButton.label                      "Fermi">
+
+<!ENTITY largerFontSize.label                   "pli granda">
+<!ENTITY smallerFontSize.label                  "pli malgranda">
+<!ENTITY xxsmallFontSize.label                  "xx-malgranda">
+<!ENTITY xsmallFontSize.label                   "x-malgranda">
+<!ENTITY smallFontSize.label                    "malgranda">
+<!ENTITY mediumFontSize.label                   "meza">
+<!ENTITY largeFontSize.label                    "granda">
+<!ENTITY xlargeFontSize.label                   "x-granda">
+<!ENTITY xxlargeFontSize.label                  "xx-granda">
+
+<!ENTITY textAlign.label                        "Ĝisrandigo:">
+<!ENTITY rightTextAlign.label                   "Dekstre">
+<!ENTITY leftTextAlign.label                    "Maldekstre">
+<!ENTITY centerTextAlign.label                  "Centre">
+<!ENTITY justifyTextAlign.label                 "Alkadrigite">
+
+<!ENTITY textDecoration.label                   "Tekstaj dekoracioj:">
+<!ENTITY overlineTextDecoration.label           "Superstrektia">
+<!ENTITY underlineTextDecoration.label          "Substrekita">
+<!ENTITY linethroughTextDecoration.label        "Trastrekita">
+<!ENTITY blinkTextDecoration.label              "Pulsado">
+<!ENTITY noneTextDecoration.label               "Neniu">
+
+<!ENTITY backgroundColor.label                  "Koloro:">
+<!ENTITY backgroundImage.label                  "Bildo:">
+<!ENTITY chooseFileButton.label                 "Elekti dosieron">
+<!ENTITY backgroundRepeat.label                 "Kaheli:">
+<!ENTITY norepeatBackgroundRepeat.label         "Ne kaheli">
+<!ENTITY repeatxBackgroundRepeat.label          "horizontale">
+<!ENTITY repeatyBackgroundRepeat.label          "vertikale">
+<!ENTITY repeatBackgroundRepeat.label           "horizontale kaj vertikale">
+<!ENTITY backgroundPosition.label               "Pozicio:">
+<!ENTITY leftXBackgroundPosition.label          "Maledekstre">
+<!ENTITY centerXBackgroundPosition.label        "Centre">
+<!ENTITY rightXBackgroundPosition.label         "Dekstre">
+<!ENTITY topYBackgroundPosition.label           "Supre">
+<!ENTITY centerYBackgroundPosition.label        "Meze">
+<!ENTITY bottomYBackgroundPosition.label        "Malsupe">
+<!ENTITY backgroundAttachmentCheckbox.label     "Bildo rulumas kun la paĝo">
+
+
+<!ENTITY useBorderShorthand.label               "Ĉiuj kvar flankoj uzas la saman borderstilon">
+<!ENTITY borderStyle.label                      "Stilo:">
+<!ENTITY borderWidth.label                      "Larĝo:">
+<!ENTITY borderColor.label                      "Koloro:">
+<!ENTITY topBorder.label                        "Supre:">
+<!ENTITY leftBorder.label                       "Maldekstre:">
+<!ENTITY rightBorder.label                      "Dekstre:">
+<!ENTITY bottomBorder.label                     "Malsupe:">
+<!ENTITY borderPreview.label                    "Antaŭrigardo">
+<!ENTITY noneBorderStyle.label                  "neniu">
+<!ENTITY hiddenBorderStyle.label                "kaŝita">
+<!ENTITY solidBorderStyle.label                 "solida">
+<!ENTITY dottedBorderStyle.label                "punktita">
+<!ENTITY dashedBorderStyle.label                "streketita">
+<!ENTITY doubleBorderStyle.label                "duobla">
+<!ENTITY grooveBorderStyle.label                "foldita">
+<!ENTITY ridgeBorderStyle.label                 "kanelita">
+<!ENTITY insetBorderStyle.label                 "enŝovita">
+<!ENTITY outsetBorderStyle.label                "reliefigita">
+
+<!ENTITY display.label                          "Vidigo:">
+<!ENTITY noneDisplay.label                      "neniu">
+<!ENTITY inlineDisplay.label                    "enlinia">
+<!ENTITY blockDisplay.label                     "bloka">
+<!ENTITY runinDisplay.label                     "enŝovita">
+<!ENTITY compactDisplay.label                   "kompakta">
+<!ENTITY listitemDisplay.label                  "listero">
+<!ENTITY tableDisplay.label                     "tabelo">
+<!ENTITY tablerowDisplay.label                  "tabela vico">
+<!ENTITY tablecellDisplay.label                 "tabela ĉelo">
+<!ENTITY tablecaptionDisplay.label              "tabela superskribo">
+<!ENTITY inlinetableDisplay.label               "enlinia tabelo">
+<!ENTITY tablecolumnDisplay.label               "tabela kolumno">
+<!ENTITY tablerowgroupDisplay.label             "grupo de tabelaj vicoj">
+<!ENTITY tableheadergroupDisplay.label          "grupo de tabelaj ĉapoj">
+<!ENTITY tablefootergroupDisplay.label          "grupo de tabelpiedoj">
+<!ENTITY tablecolumngroupDisplay.label          "grupo de tabelkolumnoj">
+
+<!ENTITY visibility.label                       "Videbleco:">
+<!ENTITY visibleVisibility.label                "videbla">
+<!ENTITY hiddenVisibility.label                 "kaŝita">
+<!ENTITY collapseVisibility.label               "faldi">
+
+<!ENTITY float.label                            "Teksta glitado:">
+<!ENTITY leftFloat.label                        "maldekstre">
+<!ENTITY rightFloat.label                       "dekstre">
+<!ENTITY noneFloat.label                        "ne gliti">
+
+<!ENTITY clear.label                            "Daŭrigo de glitado:">
+<!ENTITY noneClear.label                        "neniu">
+<!ENTITY leftClear.label                        "maldekstre">
+<!ENTITY rightClear.label                       "dekstre">
+<!ENTITY bothClear.label                        "ambaŭ">
+
+
+<!ENTITY position.label                         "Pozicio:">
+<!ENTITY staticPosition.label                   "statika">
+<!ENTITY fixedPosition.label                    "fiksita">
+<!ENTITY absolutePosition.label                 "absoluta">
+<!ENTITY relativePosition.label                 "relativa">
+
+<!ENTITY overflow.label                         "Elfluo:">
+<!ENTITY visibleOverflow.label                  "videbla">
+<!ENTITY hiddenOverflow.label                   "kaŝita">
+<!ENTITY scrollOverflow.label                   "rulumi">
+<!ENTITY autoOverflow.label                     "aŭtomate">
+
+<!ENTITY zIndex.label                           "Z-indekso:">
+
+<!ENTITY width.label                            "Larĝo:">
+<!ENTITY minWidth.label                         "Minimuma larĝo:">
+<!ENTITY maxWidth.label                         "Maksimuma larĝo:">
+<!ENTITY height.label                           "Alto:">
+<!ENTITY minHeight.label                        "Minimuma alto:">
+<!ENTITY maxHeight.label                        "Maksimuma alto:">
+
+<!ENTITY margins.label                          "Marĝenoj:">
+<!ENTITY paddings.label                         "Ŝtopaĵoj:">
+<!ENTITY offsets.label                          "Deŝovoj:">
+<!ENTITY top.label                              "Supre:">
+<!ENTITY left.label                             "Maldekstre:">
+<!ENTITY right.label                            "Dekstre:">
+<!ENTITY bottom.label                           "Malsupre:">
+
+<!ENTITY volume.label                           "Sonintenso:">
+<!ENTITY xsoftVolume.label                      "x-mallaŭta">
+<!ENTITY softVolume.label                       "mallaŭta">
+<!ENTITY mediumVolume.label                     "meza">
+<!ENTITY loudVolume.label                       "laŭta">
+<!ENTITY xloudVolume.label                      "x-laŭta">
+<!ENTITY muteVolume.label                       "muta">
+
+<!ENTITY speak.label                            "Parolado:">
+<!ENTITY noneSpeak.label                        "neniu">
+<!ENTITY normalSpeak.label                      "normala">
+<!ENTITY spelloutSpeak.label                    "literumita">
+
+<!ENTITY speechRate.label                       "Parolrapideco:">
+<!ENTITY slowerSpeechRate.label                 "pli malrapide">
+<!ENTITY fasterSpeechRate.label                 "pli rapide">
+<!ENTITY xslowSpeechRate.label                  "x-malrapide">
+<!ENTITY slowSpeechRate.label                   "malrapide">
+<!ENTITY mediumSpeechRate.label                 "mezrapide">
+<!ENTITY fastSpeechRate.label                   "rapide">
+<!ENTITY xfastSpeechRate.label                  "x-rapide">
+
+<!ENTITY opacity.label                          "Opakeco:">
+
+<!ENTITY compatibilityTab.label                 "Kongrueco">
+
+<!ENTITY transparentOpacity.label               "travidebla">
+
+<!ENTITY pauseBefore.label                      "Paŭzo antaŭ:">
+<!ENTITY cueBefore.label                        "Atentigo antaŭ:">
+<!ENTITY pauseAfter.label                       "Paŭzo post:">
+<!ENTITY cueAfter.label                         "Atentigo post:">
+
+
+<!ENTITY listTab.label                          "Listoj">
+
+<!ENTITY listStyleType.label                    "Listostila tipo:">
+<!ENTITY noneListStyleType.label                "neniu">
+<!ENTITY discListStyleType.label                "bulmarko">
+<!ENTITY circleListStyleType.label              "cirklo">
+<!ENTITY squareListStyleType.label              "kvadrato">
+<!ENTITY decimalListStyleType.label             "dekuma">
+<!ENTITY decimalLeadingZeroListStyleType.label  "dekuma antaŭira nulo">
+<!ENTITY lowerRomanListStyleType.label          "minuskla romia">
+<!ENTITY upperRomanListStyleType.label          "majuskla romia">
+<!ENTITY lowerGreekListStyleType.label          "minuskla greka">
+<!ENTITY lowerAlphaListStyleType.label          "minuskla alfabeta">
+<!ENTITY upperAlphaListStyleType.label          "majuskla alfabeta">
+<!ENTITY armenianListStyleType.label            "armena">
+<!ENTITY georgianListStyleType.label            "georga">
+
+
+<!ENTITY listStyleImage.label                   "Listostila bildo:">
+<!ENTITY listStylePosition.label                "Listostila pozicio:">
+<!ENTITY insideListStylePosition.label          "interne">
+<!ENTITY outsideListStylePosition.label         "ekstere">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Ekstrakti kaj krei ĝeneralan stilon">
+<!ENTITY makecssrule.accesskey                  "E">
+<!ENTITY currentstylesfor.label                 "Aktualaj stiloj por:">
+<!ENTITY renameButton.label                     "Redakti elektilon">
+
+<!ENTITY autoMarginUnit.label                   "aŭtomate">
+<!ENTITY thinBorderUnit.label                   "maldika">
+<!ENTITY mediumBorderUnit.label                 "meza">
+<!ENTITY thickBorderUnit.label                  "dika">

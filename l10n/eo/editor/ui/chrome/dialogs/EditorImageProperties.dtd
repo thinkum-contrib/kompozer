@@ -1,0 +1,104 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Bildaj atributoj">
+
+<!ENTITY pixelsPopup.value "rastrumeroj">
+<!ENTITY percentPopup.value "procento">
+
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "Bilda adreso:">
+<!ENTITY locationEditField.accessKey "B">
+<!ENTITY locationEditField.tooltip "Tajpu la bildan dosieran nomon aŭ lokon">
+<!ENTITY title.label "Ŝpruchelpilo:">
+<!ENTITY title.accessKey "h">
+<!ENTITY title.tooltip "La html-atributo 'title', kiu estas videbla kiel ŝpruchelpilo">
+<!ENTITY altText.label "Alternativa teksto:">
+<!ENTITY altText.accessKey "A">
+<!ENTITY altTextEditField.tooltip "Tajpu la tekston, kiu estas montrata anstataŭ la bildo">
+<!ENTITY noAltText.label "Ne uzi alternativan tekston">
+<!ENTITY noAltText.accessKey "N">
+
+<!ENTITY previewBox.label "Bilda antaŭrigardo">
+<!ENTITY MoreFewerButton.tooltip "Montri pli aŭ malpli da atributoj por modifi">
+
+<!-- These controls are in the Dimensions tab panel -->
+<!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
+<!ENTITY actualSize.label "Fakta grando">
+<!ENTITY actualSizeRadio.label "Fakta grando">
+<!ENTITY actualSizeRadio.accessKey "F">
+<!ENTITY actualSizeRadio.tooltip "Returni al la aktuala grando de la bildo">
+<!ENTITY customSizeRadio.label "Propra grando">
+<!ENTITY customSizeRadio.accessKey "P">
+<!ENTITY customSizeRadio.tooltip "Ŝanĝi la bildan grandon, tiel kiel ĝi videblos en la paĝo">
+<!ENTITY heightEditField.label "Alto">
+<!ENTITY heightEditField.accessKey "A">
+<!ENTITY widthEditField.label "Larĝo:">
+<!ENTITY widthEditField.accessKey "L">
+<!ENTITY constrainCheckbox.label "Limigi">
+<!ENTITY constrainCheckbox.accessKey "m">
+<!ENTITY constrainCheckbox.tooltip "Teni la aspektan proporcion de la bildo">
+
+<!-- These controls are in the Image Map box of the expanded area -->
+<!ENTITY imagemapBox.label "Bilda mapo">
+<!ENTITY removeImageMapButton.label "Forigi">
+<!ENTITY removeImageMapButton.accessKey "F">
+<!ENTITY editImageMapButton.label "Redakti…">
+<!ENTITY editImageMapButton.tooltip "Krei alklakeblajn lokojn por ĉi tiu bildo">
+
+<!-- These are the options for image alignment -->
+<!ENTITY alignment.label "Ĝisrandigi tekston kun bildo">
+<!ENTITY bottomPopup.value "Malsupre">
+<!ENTITY topPopup.value "Supre">
+<!ENTITY centerPopup.value "En la centro">
+<!ENTITY wrapRightPopup.value "Faldi dekstren">
+<!ENTITY wrapLeftPopup.value "Faldi maldekstren">
+
+<!-- These controls are in the Spacing Box -->
+<!ENTITY spacingBox.label "Spacigado">
+<!ENTITY spacingBox.tooltip "Tajpu numeron, kiu difinas la kvanton de spaco ĉirkaŭ la bildo">
+<!ENTITY leftRightEditField.label "Maldekstre kaj dekstre">
+<!ENTITY leftRightEditField.accessKey "d">
+<!ENTITY topBottomEditField.label "Supre kaj malsupre:">
+<!ENTITY topBottomEditField.accessKey "S">
+<!ENTITY borderEditField.label "Solida bordero:">
+<!ENTITY borderEditField.accessKey "b">
+
+<!-- These controls are in the Link Box -->
+<!ENTITY showImageLinkBorder.label "Montri borderon ĉirkaŭ ligita bildo">
+<!ENTITY showImageLinkBorder.accessKey "M">
+
+<!-- These controls may be added some day; currently not used -->
+<!ENTITY makePageBackgroundCheckbox.label "Krei paĝan fonon">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Uzi bildon kiel fonon por via paĝo">
+<!ENTITY editImageButton.label "Modifi bildon">
+<!ENTITY editImageButton.tooltip "Prilabori bildon en alia programo">
+
+<!-- These tabs are currently used in the image input dialog -->
+<!ENTITY imageInputTab.label "Formularo">
+<!ENTITY imageLocationTab.label "Retadreso">
+<!ENTITY imageDimensionsTab.label "Dimensioj">
+<!ENTITY imageAppearanceTab.label "Aspekto">
+<!ENTITY imageLinkTab.label "Ligilo">

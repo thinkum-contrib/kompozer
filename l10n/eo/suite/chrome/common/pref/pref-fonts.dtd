@@ -1,0 +1,80 @@
+<!-- extracted from content/pref-fonts.xul -->
+
+<!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
+<!ENTITY pref.fonts.title "Tiparoj">
+
+<!ENTITY language.label "Tiparoj por:">
+<!ENTITY language.accesskey "t">
+
+<!ENTITY typefaces.label "Tipara stilo">
+<!ENTITY sizes.label "Grado (rastrumeroj)">
+
+<!ENTITY proportional.label "Proporcia:">
+<!ENTITY proportional.accesskey "P">
+
+<!ENTITY serif.label "Serifa:">
+<!ENTITY serif.accesskey "r">
+<!ENTITY sans-serif.label "Sans-serifa:">
+<!ENTITY sans-serif.accesskey "n">
+<!ENTITY monospace.label "Same spacigita:">
+<!ENTITY monospace.accesskey "m">
+<!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
+<!ENTITY fantasy.label "Fantazia:">
+<!ENTITY fantasy.accesskey "F">
+<!ENTITY cursive.label "Kursiva:">
+<!ENTITY cursive.accesskey "k">
+
+<!ENTITY fontsize.units "rastrumeroj">
+
+<!ENTITY font.langGroup.latin1 "Okcidenta">
+<!ENTITY font.langGroup.latin2 "Mezeŭropa">
+<!ENTITY font.langGroup.japanese "Japana">
+<!ENTITY font.langGroup.trad-chinese "Tradicia ĉina (Tajvano)">
+<!ENTITY font.langGroup.simpl-chinese "Simpligita ĉina">
+<!ENTITY font.langGroup.trad-chinese-hk "Tradicia ĉina (Honkongo)">
+<!ENTITY font.langGroup.korean "Korea">
+<!ENTITY font.langGroup.cyrillic "Cirila">
+<!ENTITY font.langGroup.baltic "Balta">
+<!ENTITY font.langGroup.el "Greka">
+<!ENTITY font.langGroup.turkish "Turka">
+<!ENTITY font.langGroup.unicode "Aliaj lingvoj">
+<!ENTITY font.langGroup.user-def "Propra">
+<!ENTITY font.langGroup.thai "Taja">
+<!ENTITY font.langGroup.hebrew "Hebrea">
+<!ENTITY font.langGroup.arabic "Araba">
+<!ENTITY font.langGroup.devanagari "Devanagari">
+<!ENTITY font.langGroup.tamil "Tamila">
+<!ENTITY font.langGroup.armenian "Armena">
+<!ENTITY font.langGroup.bengali "Bengala">
+<!ENTITY font.langGroup.canadian "Unuigita kanara silabaro">
+<!ENTITY font.langGroup.ethiopic "Etiopa">
+<!ENTITY font.langGroup.georgian "Kartvela">
+<!ENTITY font.langGroup.gujarati "Guĝarata">
+<!ENTITY font.langGroup.gurmukhi "Gurmuka">
+<!ENTITY font.langGroup.khmer  "Kamboĝa">
+<!ENTITY font.langGroup.malayalam  "Malajalamo">
+<!-- Minimum font size -->
+<!ENTITY minSize.label "Minimuma tipara grado:">
+<!ENTITY minSize.accesskey "M">
+<!ENTITY minSize.none "Neniu">
+
+<!-- default font type -->
+<!ENTITY useDefaultFontSerif.label "Serifa">
+<!ENTITY useDefaultFontSansSerif.label "Sans-serifa">
+
+<!ENTITY newLanguages.label "Novaj lingvoj povas esti konfigurataj helpe de la lingva panelo.">
+
+<!ENTITY useDocumentFonts.label "Permesi, ke la dokumentoj uzas aliajn tiparojn">
+<!ENTITY useDocumentFonts.accesskey "o">
+
+<!-- leaving this stuff in for now -->
+
+<!ENTITY header2 "Kiam retpaĝo elektas siajn proprajn tiparojn">
+<!ENTITY useDefaultFont.label "Uzi miajn defaŭltajn tiparojn, ignorante la tiparojn, kiujn la paĝo elektis">
+<!ENTITY useDefaultFont.accesskey "u">
+<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY useDocFontNonDynamic.label "Uzi la tiparojn elektitajn de la paĝo">
+<!ENTITY useDocFontNonDynamic.accesskey "p">
+<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY useDocFontDynamic.label "Uzi ĉiujn tiparojn elektitajn de la paĝo">
+<!ENTITY useDocFontDynamic.accesskey "a">

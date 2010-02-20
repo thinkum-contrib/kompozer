@@ -1,0 +1,20 @@
+<!ENTITY newprofile.title             "La asistilo por profilkreado">
+<!ENTITY window.size                  "width: 45em; height: 32em;">
+
+<!-- First wizard page -->
+<!ENTITY profileCreationExplanation_1.text  "&brandShortName; konservas informojn pri viaj agordoj kaj alĝustigoj en via persona profilo.">
+<!ENTITY profileCreationExplanation_2.text  "Se vi uzas ĉi tiun kopion de &brandShortName; kune kun aliaj uzantoj, vi povas uzi profilojn por teni informojn de ĉiu uzanto apartaj. Por fari tion ĉiu uzanto kreu sian profilon.">
+<!ENTITY profileCreationExplanation_3.text  "Se vi estas la ununura persono, kiu uzas ĉi tiun kopion de &brandShortName;, vi devas havi almenaŭ unu profilon. Se vi volas, vi povas krei plurajn profilojn por vi mem por konservi diferencajn agordojn kaj alĝustigojn. Eble vi volas ekzemple havi apartajn profilojn por  negoca kaj persona uzoj.">
+<!ENTITY profileCreationExplanation_4.text  "Por krei vian profilon, alklaku Antaŭen.">
+<!ENTITY profileCreationExplanation_4Mac.text  "Por ekkrei vian profilon, alklaku Daŭrigi.">
+
+<!-- Second wizard page -->
+<!ENTITY profileCreationIntro.text      "Se vi kreas diversajn profilojn, vi povas distingi ilin per la profilnomoj. Vi povas uzi la nomon ĉi tie menciitan aŭ vian propran.">
+<!ENTITY profilePrompt.label            "Enigu novan profilnomon:">
+<!ENTITY profilePrompt.accesskey        "E">
+<!ENTITY profileDirExplanation.text     "Viaj agordoj, alĝustigoj, legosignoj kaj retpoŝto estos konservataj en:">
+<!ENTITY profileDefaultName             "Defaŭlta uzanto">
+<!ENTITY button.choosefolder.label      "Elekti dosierujon…">
+<!ENTITY button.choosefolder.accesskey  "l">
+<!ENTITY button.usedefault.label        "Uzi defaŭltan dosierujon">
+<!ENTITY button.usedefault.accesskey    "U">

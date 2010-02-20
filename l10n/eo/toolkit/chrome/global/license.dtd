@@ -1,0 +1,25 @@
+<!ENTITY license.part0     "estas kopirajto">
+<!ENTITY license.part1     "de ĝiaj">
+<!ENTITY license.contrib   "kontribuantoj">
+<!ENTITY license.part2     "laŭ la kondiĉoj prezentitaj en la">
+<!ENTITY license.part3     "dokumento. Ĉiuj rajtoj rezervitaj.">
+
+<!ENTITY about.version                "versio">
+
+<!ENTITY about.copy.beforeLink        "Kopirajto &copy; 1998-2008 de">
+<!ENTITY about.copy.linkTitle         "kontribuantoj">
+<!ENTITY about.copy.afterLink         "al la projekto Mozilla.">
+
+<!ENTITY about.license.beforeLink     "Legu la">
+<!ENTITY about.license.linkTitle      "licencajn informojn">
+<!ENTITY about.license.afterLink      "por ĉi tiu produkto.">
+
+<!ENTITY about.relnotes.beforeLink    "Legu la">
+<!ENTITY about.relnotes.linkTitle     "liverajn notojn">
+<!ENTITY about.relnotes.afterLink     "por ĉi tiu versio.">
+
+<!ENTITY about.buildconfig.beforeLink "Vidu la">
+<!ENTITY about.buildconfig.linkTitle  "konfiguron">
+<!ENTITY about.buildconfig.afterLink  "uzitan por ĉi tiu versio.">
+
+<!ENTITY about.buildIdentifier        "Versia identigilo: ">

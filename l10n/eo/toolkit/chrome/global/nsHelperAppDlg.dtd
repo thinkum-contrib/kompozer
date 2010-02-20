@@ -1,0 +1,43 @@
+<!ENTITY caption.label "Malfermante #1">
+
+<!-- Localization note: The default intro text has 3 "inserts":
+        #1 - replaced with the descriptive text that describes the mime type
+             (e.g., "MSWord Document")
+        #2 - replaced with the mime type (e.g., "application/ms-word")
+        #3 - replaced with the filename (e.g., "manual.doc")
+        #4 - will be replaced by the brand name (e.g., "Mozilla")
+     If there is no descriptive text, then the alternative text is used which
+     has only insert #2.
+ -->
+<!ENTITY intro.label "La dosiero &quot;#3&quot; havas la tipon #2 (#1), kaj #4 ne scias, kiel trakti ĉi tiun dosiertipon. Ĉi tiu dosiero situas ĉe:">
+<!ENTITY intro.noDesc.label "La dosiero &quot;#3&quot; havas tipon #2, kaj #4 ne scias, kiel trakti ĉi tiun dosiertipon. Ĉi tiu dosiero situas ĉe:">
+
+<!ENTITY intro.attachment.label "La retejo proponis trakti &quot;#3&quot; kiel kunsendaĵon. Ĝi havas la tipon #2 (#1) kaj situas ĉe:">
+<!ENTITY intro.attachment.noDesc.label "La retejo proponis trakti &quot;#3&quot; kiel kunsendaĵon. Ĝi havas tipon #2 kaj situas ĉe:">
+
+<!ENTITY intro.sniffed.label "#4 eltrovis, ke la dosiero &quot;#3&quot; verŝajne havas tipon #2 (#1). La dosiero situas ĉe:">
+<!ENTITY intro.sniffed.noDesc.label "#4 eltrovis, ke la dosiero &quot;#3&quot; verŝajne havas tipon #2. La dosiero situas ĉe:">
+
+<!ENTITY prompt.label "Kion #1 faru kun ĉi tiu dosiero?">
+
+<!ENTITY alwaysHandle.label "Ĉiam efektivigi ĉi tiun agon, kiam dosieroj de ĉi tiu tipo estas traktataj">
+<!ENTITY alwaysHandle.accesskey "a">
+
+<!ENTITY saveToDisk.label "Konservi ĝin al disko">
+<!ENTITY saveToDisk.accesskey "s">
+
+<!ENTITY useSystemDefault.label "Malfermi ĝin per la defaŭlta aplikaĵo (#1)">
+<!ENTITY useSystemDefault.noDesc.label "Malfermi ĝin per la defaŭlta aplikaĵo">
+<!ENTITY useSystemDefault.accesskey "o">
+
+<!-- LOCALIZATION NOTE:  do not localize "#1" -->
+<!ENTITY openUsing.label "Malfermi ĝin per">
+<!ENTITY openUsing.accesskey "f">
+
+<!ENTITY chooseApp.label "Elekti…">
+<!ENTITY chooseApp.accesskey "E">
+
+<!ENTITY chooseAppFilePickerTitle "Elekti aplikaĵon">
+
+<!ENTITY badApp "La aplikaĵo, kiun vi specifis (&quot;#1&quot;) ne estis trovebla. Kontrolu la dosiernomon aŭ elektu alian aplikaĵon.">
+<!ENTITY badApp.title "Aplikaĵo ne trovita">

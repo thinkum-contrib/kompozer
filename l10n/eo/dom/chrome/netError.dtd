@@ -1,0 +1,49 @@
+<!ENTITY loadError.label "Eraro dum ŝargado de paĝo">
+<!ENTITY retry.label "Provi denove">
+
+<!-- Specific error messages -->
+
+<!ENTITY connectionFailure.title "Konektado malsukcesis">
+<!ENTITY connectionFailure.longDesc "<p>Kvankam la retejo ŝajnas esti valida, la foliumilo ne povis krei konekton.</p><ul><li>Ĉu la retejo eble estas kelktempe nedisponebla? Provu poste denove.</li><li>Ĉu vi ne povas foliumi aliajn retejojn? Kontrolu la retkonekton de la komputilo.</li><li>Ĉu via komputilo aŭ via reto estas protektata per fajroŝirmilo aŭ prokuro? Nekorektaj agordoj povas ĝeni la retfoliumadon.</li></ul>">
+
+<!ENTITY deniedPortAccess.title "Pordo por restriktitaj kaŭzoj">
+<!ENTITY deniedPortAccess.longDesc "<p>La petita adreso specifas pordon (ekz. <q>mozilla.org:80</q> por pordo 80 sur mozilla.org), kiu estas kutime uzata por <em>aliaj</em> celoj ol retfoliumado. La foliumilo nuligis la peton pro via protekto kaj sekureco.</p>">
+
+<!ENTITY dnsNotFound.title "Adreso ne trovita">
+<!ENTITY dnsNotFound.longDesc "<p>La foliumilo ne povis trovi la gastigan servilon por la koncerna adreso.</p><ul><li>Ĉu vi faris eraron, kiam vi tajpis la domajnon? (ekz. <q><strong>ww</strong>.mozilla.org</q> anstataŭ <q><strong>www</strong>.mozilla.org</q>)</li><li>Ĉu vi certa, ke la domajna adreso ekzistas? Ĝia registrado eble jam malvalidiĝis.</li><li>Ĉu vi ne povas foliumi aliajn retejojn? Kontrolu vian retkonekton kaj la agordojn de la DNS-servilo.</li><li>Ĉu via komputilo aŭ reto estas protektata per fajroŝirmilo aŭ prokuro? Nekorektaj agordoj povas ĝeni la retfoliumadon.</li></ul>">
+
+<!ENTITY fileNotFound.title "Dosiero ne trovita">
+<!ENTITY fileNotFound.longDesc "<ul><li>Ĉu la objekto estas alinomita, forigita aŭ delokita?</li><li>Ĉu estas literumada eraro, malĝusta majuskligo/minuskligo aŭ alia tipografia eraro en la adreso?</li><li>Ĉu vi havas sufiĉajn atingopermesojn pri la dezirata objekto?</li></ul>">
+
+<!ENTITY generic.title "Peto ne estas kompletigebla">
+<!ENTITY generic.longDesc "<p>Aldonaj informoj pri ĉi tiu problemo aŭ eraro ne estas nuntempe disponeblaj.</p>">
+
+<!ENTITY malformedURI.title "Nevalida adreso">
+<!ENTITY malformedURI.longDesc "<p>La liverita adreso ne estas en agnoskita formato. Bonvolu kontroli la adreskampon pri eraroj kaj provi denove.</p>">
+
+<!ENTITY netInterrupt.title "Transigo de datumoj interrompita">
+<!ENTITY netInterrupt.longDesc "<p>La foliumilo sukcese konektis, sed la konekto estis interrompata dum la transigo de informoj. Bonvolu provi denove.</p><ul><li>Ĉu vi ne povas foliumi aliajn retejojn? Kontrolu la retkonekton de la komputilo.</li><li>Ĉu vi ankoraŭ havas malfacilaĵojn? Konsultu vian retadministranton aŭ interretan peranton pri helpo.</li></ul>">
+
+<!ENTITY netOffline.title "Senkonekta reĝimo">
+<!ENTITY netOffline.longDesc "<p>La foliumilo laboras en la senkonekta reĝimo kaj ne povas konekti kun la dezirata objekto.</p><ul><li>Ĉu la komputilo estas konektita al aktiva reto?</li><li>Metu la foliumilon en la konektan reĝimon kaj provu denove.</li></ul>">
+
+<!ENTITY netReset.title "Konekto interrompita">
+<!ENTITY netReset.longDesc "<p>La reta rilato estis interrompata dum la intertraktado de konekto. Bonvolu provi denove.</p>">
+
+<!ENTITY netTimeout.title "Reta tempinterrompo">
+<!ENTITY netTimeout.longDesc "<p>La petita retejo ne respondis al konektopeto kaj la foliumilo ĉesis atendi la respondon.</p><ul><li>Ĉu la servilo eble estas troŝarĝita aŭ kelktempe ne funkcias? Provu poste denove.</li><li>Ĉu vi ne povas foliumi aliajn retejojn? Kontrolu la retkonekton de la komputilo.</li><li>Ĉu via komputilo aŭ reto estas protektata per fajroŝirmilo aŭ prokuro? Nekorektaj agordoj povas ĝeni la retfoliumadon.</li><li>Ĉu vi ankoraŭ havas malfacilaĵojn? Konsultu vian retadministranton aŭ interretan peranton pri subteno.</li></ul>">
+
+<!ENTITY protocolNotFound.title "Nekonata protokolo">
+<!ENTITY protocolNotFound.longDesc "<p>La adreso specifas protokolon (ekz. <q>wxyz://</q>), kiun la foliumilo ne ekkonas, tiel ke la foliumilo ne povas korekte konekti al la retejo.</p><ul><li>Ĉu vi ĵus provas atingi servojn de plurmedioj aŭ aliaj netekstajn servojn? Kontrolu la retejon pri aldonaj necesoj.</li><li>Kelkaj protokoloj povus bezoni aldonajn programojn aŭ kromprogramojn antaŭ ol la foliumilo povas ekkoni ilin.</li></ul>">
+
+<!ENTITY proxyConnectFailure.title "Prokura servilo rifuzis konekton">
+<!ENTITY proxyConnectFailure.longDesc "<p>La foliumilo estas konfigurita por uzado de prokura servilo, sed la prokuro rifuzis la konekton.</p><ul><li>Ĉu la prokura konfiguro de la foliumilo estas korekta? Kontrolu la agordojn kaj provu denove.</li><li>Ĉu la prokura servo permesas konektojn el ĉi tiu reto?</li><li>Ĉu vi ankoraŭ havas malfacilaĵojn? Konsultu vian retadministranton aŭ interretan peranton pri subteno.</li></ul>">
+
+<!ENTITY proxyResolveFailure.title "Prokura servilo ne trovita">
+<!ENTITY proxyResolveFailure.longDesc "<p>La foliumilo estas konfigurita por uzado de prokura servilo, sed la prokuro ne estas trovebla.</p><ul><li>Ĉu la prokura konfiguro de la foliumilo estas korekta? Kontrolu la agordojn kaj provu denove.</li><li>Ĉu la komputilo estas konektita al aktiva reto?</li><li>Ĉu vi havas ankoraŭ malfacilaĵojn? Konsultu vian retan admninistranton aŭ interretan peranton pri subteno.</li></ul>">
+
+<!ENTITY redirectLoop.title "Redirekta iteracio">
+<!ENTITY redirectLoop.longDesc "<p>La foliumilo haltis havigi la deziratan objekton. La retejo redirektas la peton tiamaniere, ke tio ne ĉesas.</p><ul><li>Ĉu vi malebligis aŭ blokis kuketojn, kiujn ĉi tiu retejo bezonas?</li><li><em>NOTU</em>: Se akcepti la kuketojn de la retejo ne solvas la problemon, tio verŝajne estas problemo de la servila konfiguro kaj ne de via komputilo.</li></ul>">
+
+<!ENTITY unknownSocketType.title "Nekorekta respondo">
+<!ENTITY unknownSocketType.longDesc "<p>La retejo respondis la retan peton en neatendita maniero kaj la foliumilo ne povas daŭrigi.</p>">

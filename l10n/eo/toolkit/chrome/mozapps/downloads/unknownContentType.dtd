@@ -1,0 +1,29 @@
+<!-- -*- Mode: Java; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*-
+-->
+
+<!ENTITY  intro.label                 "Vi decidis malfermi">
+<!ENTITY  from.label                  "el:">
+<!ENTITY  actionQuestion.label        "Kion &brandShortName; faru kun ĉi tiu dosiero?">
+
+<!ENTITY  openWith.label              "Malfermi kun">
+<!ENTITY  openWith.accesskey          "M">
+<!ENTITY  other.label                 "Alia…">
+
+<!ENTITY  save.label                  "Konservi surdiske">
+<!ENTITY  save.accesskey              "s">
+
+<!ENTITY  rememberChoice.label        "Faru tion aŭtomate por dosieroj kiel ĉi tiu ekde nun.">
+<!ENTITY  rememberChoice.accesskey    "a">
+
+<!ENTITY  settingsChange.label        "Agordoj povas esti ŝanĝataj en la sekcio Enhavo de Ilaro, Opcioj.">
+<!ENTITY  settingsChangeMac.label     "Agordoj povas esti ŝanĝataj en la sekcio Enhavo de la Agordoj de &brandShortName;.">
+<!ENTITY  settingsChangeUnix.label    "Agordoj povas esti ŝanĝataj en la sekcio Enhavo de Redakti, Agordoj.">
+
+<!ENTITY  whichIsA.label              "kiu estas:">
+
+<!ENTITY  chooseHandlerMac.label      "Elekti…">
+<!ENTITY  chooseHandlerMac.accesskey  "E">
+<!ENTITY  chooseHandler.label         "Foliumi…">
+<!ENTITY  chooseHandler.accesskey     "F">
+
+<!ENTITY  unknownPromptText.label     "Ĉu vi volas konservi ĉi tiun dosieron?">

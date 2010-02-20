@@ -1,0 +1,47 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "Preta">
+<!ENTITY canceled.label                   "Nuligita">
+<!ENTITY installing.label                 "Instalanta…">
+
+<!ENTITY starting.label                   "Startanta…">
+<!ENTITY failed.label                     "Malsukcesis">
+
+<!ENTITY downloads.title                  "Elŝutoj">
+
+<!ENTITY cmd.pause.label                  "Paŭzi">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Daŭrigi">
+<!ENTITY cmd.resume.accesskey             "D">
+<!ENTITY cmd.cancel.label                 "Nuligi">
+<!ENTITY cmd.cancel.accesskey             "N">
+<!ENTITY cmd.show.label                   "Malfermi enhavantan dosierujon">
+<!ENTITY cmd.show.accesskey               "F">
+<!ENTITY cmd.show.labelMac                "Montri en Finder">
+<!ENTITY cmd.show.accesskey               "f">
+<!ENTITY cmd.show.accesskeyMac            "F">
+<!ENTITY cmd.open.label                   "Malfermi">
+<!ENTITY cmd.open.accesskey               "M">
+<!ENTITY cmd.openWith.label               "Malfermi kun…">
+<!ENTITY cmd.openWith.accesskey           "k">
+<!ENTITY cmd.retry.label                  "Denove provi">
+<!ENTITY cmd.retry.accesskey              "v">
+<!ENTITY cmd.remove.label                 "Forigi">
+<!ENTITY cmd.remove.accesskey             "o">
+<!ENTITY cmd.properties.label             "Atributoj">
+<!ENTITY cmd.properties.accesskey         "i">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Purigi">
+<!ENTITY cmd.cleanUp.tooltip              "Forigas finitajn, nuligitajn kaj malsukcesintajn elŝutojn el la listo">
+<!ENTITY cmd.cleanUp.accesskey            "P">
+
+<!ENTITY closeWhenDone.label              "Fermi, kiam elŝutoj estas finitaj">
+<!ENTITY closeWhenDone.tooltip            "Fermas la fenestron de elŝutoj, kiam ĉiuj dosieroj estas finelŝutitaj">
+
+<!ENTITY filesSavedTo.label               "Ĉiuj dosieroj elŝutitaj al:">
+<!ENTITY showFolder.label                 "Montri ĉi tiun dosierujon">

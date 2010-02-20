@@ -1,0 +1,133 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Terry Hayes <thayes@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!-- Values for changepassword.xul -->
+<!ENTITY setPassword.title "Ŝanĝi ĉefpasvorton">
+<!ENTITY setPassword.tokenName.label "Sekureca aparato">
+<!ENTITY setPassword.oldPassword.label "Nuna pasvorto:">
+<!ENTITY setPassword.newPassword.label "Nova pasvorto:">
+<!ENTITY setPassword.reenterPassword.label "Nova pasvorto (denove):">
+<!ENTITY setPassword.meter.label "Mezurilo de pasvorta kvalito">
+<!ENTITY setPassword.meter.loading "Ŝargado">
+
+<!-- Values for resetpassword.xul -->
+<!ENTITY resetPasswordButtonLabel "Restarigi">
+<!ENTITY resetPassword.title "Restarigi ĉefpasvorton">
+<!ENTITY resetPassword.text "Se vi restarigas vian ĉefpasvorton, ĉiuj viaj konservitaj retaj kaj retpoŝtaj pasvortoj, formularaj informoj, personaj atestiloj kaj privataj ŝlosiloj estos forgesataj. Ĉu vi vere volas restarigi vian ĉefpasvorton?">
+
+<!-- Values for getpassword.xul -->
+<!ENTITY getPassword.title "Enigi ĉefpasvorton">
+<!ENTITY getPassword.tokenName.label "Sekureca aparato">
+<!ENTITY getPassword.password.label "Pasvorto:">
+
+<!-- These should be common -->
+<!ENTITY piperror.title "Eraro">
+<!ENTITY pipalert.title "Eraro - ne eblas ripari">
+
+<!-- Prefs panel strings -->
+<!ENTITY pref.security.general.lHeader "Sekureco">
+<!ENTITY pref.security.general.rHeader "Agordoj por ĝenerala sekureco">
+<!ENTITY pref.security.general.header "Agordoj por ĝenerala sekureco">
+<!ENTITY pref.security.general.level.title "Sekureca nivelo">
+<!ENTITY pref.security.general.paranoid.label "Uzi paranojajn sekurecajn agordojn">
+<!ENTITY pref.security.general.certificates.title "Atestiloj">
+<!ENTITY pref.security.general.manageCert.label "Administri atestilojn">
+
+<!-- Downloading a cert -->
+<!ENTITY downloadCert.title "Elŝutado de atestilo">
+<!ENTITY downloadCert.message1 "Oni petis vin fidi novan atestilan aŭtoritaton (CA).">
+<!ENTITY downloadCert.trustSSL "Fidi ĉi tiun CA por identigi  retejojn.">
+<!ENTITY downloadCert.trustEmail "Fidi ĉi tiun CAn por identigi retpoŝtajn uzantojn.">
+<!ENTITY downloadCert.trustObjSign "Fidi ĉi tiun CA por identigi programistojn.">
+<!ENTITY downloadCert.message3 "Fidonte ĉi tiun CA por ĉiuj celoj, vi ekzamenu ĝian atestilon kaj ĝian regularon kaj procedurojn (se disponebla).">
+<!ENTITY downloadCert.viewCert.label "Rigardi">
+<!ENTITY downloadCert.viewPolicy.label "Regularo">
+<!ENTITY downloadCert.viewCert.text "Ekzameni atestilon de CA">
+<!ENTITY downloadCert.viewPolicy.text "Ekzameni regulojn kaj procedurojn de CA">
+
+<!-- Certificate Exists in database -->
+<!ENTITY caCertExists.title "Atestilo ekzistas">
+<!ENTITY caCertExists.message "La atestilo jam ekzistas.">
+
+<!-- Strings for the MismatchDomain dialog  -->
+<!ENTITY domainMismatch.title "Sekureca eraro: nekongrua domajna nomo">
+<!ENTITY examineCert.label "Rigardi atestilon">
+<!ENTITY examineCert.accesskey "R">
+
+<!-- Strings for the Server cert expired dialog  -->
+<!ENTITY serverCertExpired.continue "Ĉu vi ŝatus tamen daŭrigi?">
+<!ENTITY serverCertExpired.accept.label "Daŭrigi">
+
+<!-- Strings for the SSL client auth ask dialog -->
+<!ENTITY clientAuthAsk.title "Peto pri identigo de uzanto">
+<!ENTITY clientAuthAsk.message1 "Ĉi tiu retejo petis, ke vi identigu vin per atestilo:">
+<!ENTITY clientAuthAsk.message2 "Elekti atestilon por prezenti kiel identigilon:">
+<!ENTITY clientAuthAsk.message3 "Detaloj de la elektita atestilo:">
+
+<!-- Strings for the cert picker dialog -->
+<!ENTITY certPicker.title "Elekti atestilon">
+<!ENTITY certPicker.info "Atestilo:">
+<!ENTITY certPicker.detailsLabel "Detaloj de la elektita atestilo:">
+
+<!ENTITY pkcs12.setpassword.title "Elekti pasvorton por atestila restaŭrkopio">
+<!ENTITY pkcs12.setpassword.message "La restaŭrkopio de la atestila pasvorto, kiun vi difinis ĉi tie protektos la restaŭrkopion de la dosiero, kiun vi estas kreonta. Vi devas difini ĉi tiun pasvorton por daŭrigi la restaŭron.">
+<!ENTITY pkcs12.setpassword.label1 "Pasvorto por atestila restaŭrkopio:">
+<!ENTITY pkcs12.setpassword.label2 "Pasvorto por atestila restaŭrkopio (denove):">
+<!ENTITY pkcs12.setpassword.reminder "Grava rimarko: Se vi forgesas la pasvorton de via atestila restaŭrkopio, vi ne povos restaŭri ĉi tiun restaŭrkopion pli malfrue. Bonvolu konservi la pasvorton en sekura loko.">
+
+<!ENTITY pkcs12.getpassword.title "Pasvorteniga dialogo">
+<!ENTITY pkcs12.getpassword.message "Bonvolu enigi la pasvorton, kiu estas uzita por ĉifri ĉi tiun atestilan restaŭrkopion.">
+
+<!ENTITY chooseToken.title "Elekti ĵetonan dialogon">
+<!ENTITY chooseToken.message1 "Bonvolu elekti ĵetonon.">
+
+<!ENTITY escrowWarn.title "Kopio de ĉifra ŝlosilo">
+<!ENTITY escrowWarn.message1 "Grava rimarko: Ĉi tiu atestila aŭtoritato petis fari restaŭrkopion de via ĉifra privata ŝlosilo.">
+<!ENTITY escrowWarn.benefit1 "La avantaĝo estas: se vi perdas la atingon al via ĉifra privata ŝlosilo, vi povas mendi kopion ĉe ĉi tiu atestila aŭtoritato.">
+<!ENTITY escrowWarn.message2 "Tamen, via privata ĉifra ŝlosilo estos konservata de la atestila aŭtoritato, kaj povus esti uzata por legi vian ĉifritan retpoŝton aŭ ĉifritajn dokumentojn sen via permeso.">
+
+<!ENTITY serverCrlNextupdate.message "Bonvolu peti vian sistemadministranton pri helpo">
+
+<!-- Strings for the CreateCertInfo dialog  -->
+<!ENTITY createCertInfo.title "Kreado de privata ŝlosilo">
+<!ENTITY createCertInfo.msg1 "Ŝlosilfarado iradas… Tio povas daŭri kelkajn minutojn….">
+<!ENTITY createCertInfo.msg2 "Bonvolu atendi…">
+
+<!-- Form Signing confirmation prompt -->
+<!ENTITY formSigning.title "Peto pri tekstsubskribado">
+<!ENTITY formSigning.cert "Subskribado de atestilo">
+<!ENTITY formSigning.confirmPassword "Por konfirmi, ke vi konsentas subskribi ĉi tiun tekstan mesaĝon uzante vian elektitan atestilon, bonvolu konfirmi enigante la ĉefpasvorton:">

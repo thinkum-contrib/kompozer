@@ -1,0 +1,12 @@
+<!ENTITY dialog.title "Alĝustigi ilobreton">
+<!ENTITY dialog.style "width: 635px; height: 400px;">
+<!ENTITY instructions.description "Vi povas aldoni aŭ forigi objektojn tirante ilin al aŭ el la ilobretoj.">
+<!ENTITY show.label               "Montri:">
+<!ENTITY iconsAndText.label       "Bildsimboloj kaj teksto">
+<!ENTITY icons.label              "Bildsimboloj">
+<!ENTITY text.label               "Teksto">
+<!ENTITY useSmallIcons.label      "Uzi malgrandajn bildsimbolojn">
+<!ENTITY restoreDefaultSet.label  "Restauri defaŭltan garnituron">
+<!ENTITY addNewToolbar.label      "Aldoni novan ilobreton">
+<!ENTITY saveChanges.label        "Preta">
+<!ENTITY undoChanges.label        "Malfari ŝanĝojn">

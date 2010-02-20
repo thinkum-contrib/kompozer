@@ -1,0 +1,108 @@
+
+<!ENTITY popupWindowRejectCmd.label "Rifuzi la trudfenestrojn el ĉi tiu retejo">
+<!ENTITY popupWindowRejectCmd.accesskey "">
+<!ENTITY popupWindowAllowCmd.label "Permesi trudfenestrojn el ĉi tiu retejo">
+<!ENTITY popupWindowAllowCmd.accesskey "P">
+<!ENTITY openLinkCmd.label "Malfermi ligilon en nova fenestro">
+<!ENTITY openLinkCmd.accesskey "M">
+<!ENTITY openLinkCmdInTab.label "Malfermi ligilon en nova langeto">
+<!ENTITY openLinkCmdInTab.accesskey "l">
+<!ENTITY openLinkInWindowCmd.label "Malfermi">
+<!ENTITY openLinkInWindowCmd.accesskey "r">
+<!ENTITY openFrameCmd.label "Malfermi kadron en nova fenestro">
+<!ENTITY openFrameCmd.accesskey "d">
+<!ENTITY openFrameCmdInTab.label "Malfermi kadron en nova langeto">
+<!ENTITY openFrameCmdInTab.accesskey "k">
+<!ENTITY showOnlyThisFrameCmd.label "Montri nur ĉi tiun kadron">
+<!ENTITY showOnlyThisFrameCmd.accesskey "u">
+<!ENTITY addToBookmarksCmd.label "Aldoni legosignon por ĉi tiu paĝo">
+<!ENTITY addToBookmarksCmd.accesskey "A">
+<!ENTITY goBackCmd.label "Malantaŭen">
+<!ENTITY goBackCmd.accesskey "M">
+<!ENTITY goForwardCmd.label "Antaŭen">
+<!ENTITY goForwardCmd.accesskey "t">
+<!ENTITY goUpCmd.label   "Supren">
+<!ENTITY goUpCmd.accesskey "S">
+<!ENTITY reloadCmd.label "Reŝargi">
+<!ENTITY reloadCmd.accesskey "R">
+<!ENTITY reloadCmd.commandkey "r">
+<!ENTITY stopCmd.label "Haltigi">
+<!ENTITY stopCmd.accesskey "H">
+<!ENTITY reloadFrameCmd.label "Reŝargi kadron">
+<!ENTITY reloadFrameCmd.accesskey "R">
+<!ENTITY viewPartialSourceForSelectionCmd.label "Rigardi elektan fonton">
+<!ENTITY viewPartialSourceForMathMLCmd.label "Rigardi Fonton MathML">
+<!ENTITY viewPartialSourceCmd.accesskey "e">
+<!ENTITY viewPageSourceCmd.label "Rigardi paĝan fonton">
+<!ENTITY viewPageSourceCmd.accesskey "f">
+<!ENTITY viewFrameSourceCmd.label "Rigardi kadran fonton">
+<!ENTITY viewFrameSourceCmd.accesskey "k">
+<!ENTITY viewPageInfoCmd.label "Rigardi paĝajn informojn">
+<!ENTITY viewPageInfoCmd.accesskey "i">
+<!ENTITY viewFrameInfoCmd.label "Rigardi kadrajn informojn">
+<!ENTITY viewFrameInfoCmd.accesskey "m">
+<!ENTITY fitImageCmd.label "Akomodi bildon al fenestro">
+<!ENTITY fitImageCmd.accesskey "m">
+<!ENTITY viewImageCmd.label "Rigardi bildon">
+<!ENTITY viewImageCmd.accesskey "b">
+<!ENTITY viewBGImageCmd.label "Rigardi fonan bildon">
+<!ENTITY viewBGImageCmd.accesskey "o">
+<!ENTITY setWallpaperCmd.label "Difini kiel ekranan fonon">
+<!ENTITY setWallpaperCmd.accesskey "E">
+<!ENTITY bookmarkPageCmd.label "Aldoni legosignon por ĉi tiu paĝo">
+<!ENTITY bookmarkPageCmd.accesskey "A">
+<!ENTITY bookmarkLinkCmd.label "Aldoni legosignon por ĉi tiu ligilo">
+<!ENTITY bookmarkLinkCmd.accesskey "d">
+<!ENTITY bookmarkFrameCmd.label "Aldoni legosignon por ĉi tiu kadro">
+<!ENTITY bookmarkFrameCmd.accesskey "k">
+<!ENTITY savePageAsCmd.label "Konservi paĝon kiel…">
+<!ENTITY savePageCmd.label "Konservi paĝon">
+<!ENTITY savePageCmd.accesskey "K">
+<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY saveFrameAsCmd.label "Konservi kadron kiel…">
+<!ENTITY saveFrameCmd.label "Konservi kadron">
+<!ENTITY saveFrameCmd.accesskey "d">
+<!ENTITY saveLinkAsCmd.label "Konservi ligitan dosieron kiel…">
+<!ENTITY saveLinkCmd.label "Konservi ligitan dosieron">
+<!ENTITY saveLinkCmd.accesskey "r">
+<!ENTITY saveImageAsCmd.label "Konservi bildon kiel…">
+<!ENTITY saveImageCmd.label "Konservi bildon kiel">
+<!ENTITY saveImageCmd.accesskey "B">
+<!ENTITY copyCmd.label "Kopii">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY selectAllCmd.label "Elekti ĉion">
+<!ENTITY selectAllCmd.accesskey "E">
+<!ENTITY copyLinkCmd.label "Kopii adreson de ligilo">
+<!ENTITY copyLinkCmd.accesskey "A">
+<!ENTITY copyImageCmd.label "Kopii bildon">
+<!ENTITY copyImageCmd.accesskey "b">
+<!ENTITY metadataCmd.label "Atributoj">
+<!ENTITY metadataCmd.accesskey "u">
+<!ENTITY copyEmailCmd.label "Kopii retpoŝtan adreson">
+<!ENTITY copyEmailCmd.accesskey "r">
+<!ENTITY pasteCmd.label "Alglui">
+<!ENTITY pasteCmd.accesskey "u">
+<!ENTITY cutCmd.label "Eltondi">
+<!ENTITY cutCmd.accesskey "t">
+<!ENTITY deleteCmd.label "Forviŝi">
+<!ENTITY deleteCmd.accesskey "v">
+<!ENTITY undoCmd.label "Malfari">
+<!ENTITY undoCmd.accesskey "M">
+<!ENTITY redoCmd.label "Refari">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY thisFrameMenu.label "Ĉi tiu kadro">
+<!ENTITY thisFrameMenu.accesskey "t">
+<!ENTITY search.accesskey "W">
+<!ENTITY bidiSwitchPageDirectionItem.label        "Ŝanĝi la paĝdirekton">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "p">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Ŝanĝi la tekstodirekton">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "t">
+<!ENTITY spellAddToDictionary.label     "Aldoni al la vortaro">
+<!ENTITY spellAddToDictionary.accesskey "A">
+<!ENTITY spellEnable.label              "Kontroli la literumadon de ĉi tiu areo">
+<!ENTITY spellEnable.accesskey          "o">
+<!ENTITY spellNoSuggestions.label       "(Ne estas literumadaj proponoj)">
+<!ENTITY spellDictionaries.label        "Lingvoj">
+<!ENTITY spellDictionaries.accesskey    "L">
+<!ENTITY spellAddDictionaries.label     "Elŝuti pli multe da vortaroj…">
+<!ENTITY spellAddDictionaries.accesskey "E">

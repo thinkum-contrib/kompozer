@@ -1,0 +1,38 @@
+<!-- LOCALIZATION NOTE : FILE 'Languages' preferences dialog -->
+
+<!ENTITY languages.customize.prefLangDescript "Kelkfoje retpaĝoj estas disponeblaj en pluraj lingvoj. Elektu la lingvojn por montri la retpaĝojn ordigitaj laŭ via prefero.">
+<!ENTITY languages.customize.lHeader "Lingvoj">
+<!ENTITY languages.customize.rHeader "Lingvoj, en kiuj la retpaĝoj estas montrataj">
+<!ENTITY langtitle.label "Lingvoj por retpaĝoj">
+<!ENTITY languages.customize.prefAddLangDescript "Elektu la lingvon, kiun vi ŝatus uzi.">
+<!ENTITY languages.customize.engOrder.label "1">
+<!ENTITY languages.customize.engOption.label "Angla">
+<!ENTITY languages.customize.addButton.label "Aldoni…">
+<!ENTITY languages.customize.addButton.accesskey "A">
+<!ENTITY languages.customize.deleteButton.label "Forigi">
+<!ENTITY languages.customize.deleteButton.accesskey "F">
+<!ENTITY languages.customize.title.label "Alĝustigi lingvojn">
+<!ENTITY languages.customize.add.title.label "Elektu lingvon">
+<!ENTITY languages.customize.left.header "Signokodo">
+<!ENTITY charset.customize.right.header	"Elekti subtenatajn signokodojn">
+<!ENTITY languages.customize.available.label "Lingvoj:">
+<!ENTITY languages.customize.active.label "Lingvoj ordigitaj laŭ prefero:">
+<!ENTITY languages.customize.reorder.label "Reordigi">
+<!ENTITY languages.customize.remove.label "Forigi">
+<!ENTITY languages.customize.additional.label "Disponeblaj signaroj">
+<!ENTITY languages.customize.add.label "Aldoni">
+<!ENTITY languages.customize.others.label "Aliaj:">
+<!ENTITY languages.customize.others.accesskey "A">
+<!ENTITY languages.customize.Charset.grouplabel "Signokodo">
+<!ENTITY languages.customize.DefaultCharset.label "Defaŭlta signokodo:">
+<!ENTITY languages.customize.DefaultCharset.accesskey "f">
+<!ENTITY languages.customize.others.examples "ekzemple: en-bz, ar-jo">
+<!ENTITY languages.customize.cancel.label "Nuligi">
+<!ENTITY languages.customize.save.label "Konservi">
+<!ENTITY languages.customize.ok.label "Akcepti">
+<!ENTITY languages.customize.save.popup "Bonvolu restartigi la foliumilon, por ke la ŝanĝoj estu efikaj…">
+<!ENTITY languages.customize.moveUp.label "Movi supren">
+<!ENTITY languages.customize.moveUp.accesskey "u">
+<!ENTITY languages.customize.moveDown.label "Movi malsupren">
+<!ENTITY languages.customize.moveDown.accesskey "m">
+

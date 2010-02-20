@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Eksteraj aplikaĵoj">
+
+<!ENTITY application.label            "Aplikaĵo:">
+<!ENTITY webBrowser.label             "Retfoliumilo">
+<!ENTITY textEditor.label             "Tekstredaktilo">
+<!ENTITY imageEditor.label            "Bildredaktilo">
+<!ENTITY mediaPlayer.label            "Aŭdvidea ludilo">
+<!ENTITY fileManager.label            "Dosieradministrilo">
+<!ENTITY ftpClient.label              "FTP-programo">
+
+<!ENTITY useSystemHelper.label        "uzi sistemdefaŭlton">
+<!ENTITY useCustomHelper.label        "uzi propran aplikaĵon:">
+<!ENTITY path.label                   "dosiervojo">
+<!ENTITY arguments.label              "argumentoj">
+<!ENTITY filePicker.tooltip           "Elekti dosieron…">
+
+<!ENTITY fileFilter.label             "Dosiersufiksoj (*) por:">
+<!ENTITY default.label                "defaŭlta">
+<!ENTITY needToRestart.label          "(*) Modifoj de ĉi tiuj agordoj efikos, kiam KompoZer estas restartigata.">
+

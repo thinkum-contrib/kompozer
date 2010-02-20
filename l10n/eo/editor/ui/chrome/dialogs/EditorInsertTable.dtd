@@ -1,0 +1,59 @@
+<!--
+   - The contents of this file are subject to the Netscape Public
+   - License Version 1.1 (the "License"); you may not use this file
+   - except in compliance with the License. You may obtain a copy of
+   - the License at http://www.mozilla.org/NPL/
+   -  
+   - Software distributed under the License is distributed on an "AS
+   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+   - implied. See the License for the specific language governing
+   - rights and limitations under the License.
+   -  
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   - 
+   - The Initial Developer of the Original Code is Netscape
+   - Communications Corporation. Portions created by Netscape are
+   - Copyright (C) 1998-2000 Netscape Communications Corporation. All
+   - Rights Reserved.
+   - 
+   - Contributor(s): 
+  -->
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Enmeti tabelon">
+
+<!ENTITY size.label "Grando">
+<!ENTITY numRowsEditField.label "Vicoj:">
+<!ENTITY numRowsEditField.accessKey "V">
+<!ENTITY numColumnsEditField.label "Kolumnoj:">
+<!ENTITY numColumnsEditField.accessKey "K">
+<!ENTITY widthEditField.label "Larĝo:">
+<!ENTITY widthEditField.accessKey "L">
+<!ENTITY borderEditField.label "Bordero:">
+<!ENTITY borderEditField.accessKey "B">
+<!ENTITY borderEditField.tooltip "Tajpu numeron, kiu difinas la grandon de la tabela bordero aŭ tajpu nulon (0), por ke ne estu bordero">
+<!ENTITY pixels.label "rastrumeroj">
+
+<!ENTITY quicklyTab.label "Rapide">
+<!ENTITY preciselyTab.label "Precize">
+<!ENTITY cellTab.label "Ĉelo">
+
+<!ENTITY horizAlignment.label "Horiz. ĝisrandigo:">
+<!ENTITY unspecifiedHAlignment.label "Ne specifita">
+<!ENTITY leftHAlignment.label "Maldekstre">
+<!ENTITY centerHAlignment.label "Centre">
+<!ENTITY rightHAlignment.label "Dekstre">
+
+<!ENTITY vertAlignment.label "Vert. ĝisrandigo:">
+<!ENTITY unspecifiedVAlignment.label "Ne specifita">
+<!ENTITY topVAlignment.label "Supre">
+<!ENTITY middleVAlignment.label "Meze">
+<!ENTITY bottomVAlignment.label "Malsupre">
+
+<!ENTITY textWrapping.label "Tekstfaldado:">
+<!ENTITY wrapWrapping.label "Faldi">
+<!ENTITY nowrapWrapping.label "Ne faldi">
+
+<!ENTITY cellSpacing.label "Ĉelspacado">
+<!ENTITY cellPadding.label "Ĉelŝtopado">

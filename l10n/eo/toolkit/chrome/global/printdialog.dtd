@@ -1,0 +1,29 @@
+<!-- extracted from printdialog.xul -->
+
+<!ENTITY printButton.label "Printi">
+
+<!ENTITY printDialog.title "Printi">
+
+<!ENTITY fpDialog.title "Konservi dosieron">
+
+<!ENTITY fileCheck.label "Printi sur dosiero">
+<!ENTITY propertiesButton.label "Atributoj…">
+<!ENTITY descText.label "Priskribo de printilo:">
+<!ENTITY printer.label "Printilo">
+<!ENTITY printerInput.label "Nomo de printilo:">
+
+<!ENTITY printrangeGroup.label "Printa amplekso">
+<!ENTITY allpagesRadio.label "Ĉiuj paĝoj">
+<!ENTITY rangeRadio.label "Paĝoj">
+<!ENTITY frompageInput.label "ekde">
+<!ENTITY topageInput.label "ĝis">
+<!ENTITY selectionRadio.label "Elektaĵo">
+
+<!ENTITY copies.label "Kopioj">
+<!ENTITY numCopies.label "Kvanto da kopioj:">
+
+<!ENTITY printframeGroup.label "Printi kadrojn">
+<!ENTITY aslaidoutRadio.label "Kiel videblas sur la ekrano">
+<!ENTITY selectedframeRadio.label "La elektita kadro">
+<!ENTITY eachframesepRadio.label "Ĉiu kadro aparte">
+
