@@ -37,12 +37,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
-                     "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
+]>
 <rss version="0.91">
   <channel>
-    <title>Nvu:n vinkit</title>
-    <link>http://www.nvu.com/</link>
-    <description>Nvu:n päivän vinkki -arkisto</description>
+    <title>&brandShortName;:n vinkit</title>
+    <link>http://www.kompozer.net/</link>
+    <description>&brandShortName;:n päivän vinkki -arkisto</description>
     <language>fi-fi</language>
   
     <item>
@@ -64,18 +66,18 @@
     </item>
   
     <item>
-      <title>…Nvu:ssa on CSS-editori?</title>
-      <description>Nvu sisältää CaScadeS-CSS-editorin. Voit käyttää editoria valitsemalla valikosta Työkalut | CSS-editori.</description>
+      <title>…&brandShortName;:ssa on CSS-editori?</title>
+      <description>&brandShortName; sisältää CaScadeS-CSS-editorin. Voit käyttää editoria valitsemalla valikosta Työkalut | CSS-editori.</description>
     </item>
   
     <item>
-      <title>…Nvu:ssa on sivustonhallinta?</title>
+      <title>…&brandShortName;:ssa on sivustonhallinta?</title>
       <description>Voit avata sivustonhallinnan painamalla F9 tai valitsemalla valikosta Näytä | Palkit ja paneelit | Sivustonhallinta.</description>
     </item>
 
     <item>
       <title>…voit käyttää CSS-tyylejä minkä tahansa elementin kanssa?</title>
-      <description>Siirrä kohdistin sen elementin sisään, jonka tyylin tahdot määrittää. Napsauta elementin tagia rakennepalkissa hiiren kakkospainikkeella. Rakennepalkki on Nvu:n ikkunan alareunassa. Sisällytetyt tyylit -valikon vaihtoehdoilla voit määrittää elementin tyylin suoraan.
+      <description>Siirrä kohdistin sen elementin sisään, jonka tyylin tahdot määrittää. Napsauta elementin tagia rakennepalkissa hiiren kakkospainikkeella. Rakennepalkki on &brandShortName;:n ikkunan alareunassa. Sisällytetyt tyylit -valikon vaihtoehdoilla voit määrittää elementin tyylin suoraan.
       </description>
     </item>
 
@@ -96,13 +98,13 @@
     </item>
 
     <item>
-      <title>…Nvu-yhteisö on suoraan käytettävissäsi?</title>
+      <title>…&brandShortName;-yhteisö on suoraan käytettävissäsi?</title>
       <description>Valitse valikosta Ohje | Keskustelualueet.</description>
     </item>
 
     <item>
-      <title>…Nvu voi avata dokumentin suoraan käynnistettäessä?</title>
-      <description>Käytä komentoriviä: nvu dokumentti.html</description>
+      <title>…&brandShortName; voi avata dokumentin suoraan käynnistettäessä?</title>
+      <description>Käytä komentoriviä: &brandShortName; dokumentti.html</description>
     </item>
 
     <item>
@@ -111,8 +113,8 @@
     </item>
 
     <item>
-      <title>…Nvu on alustariippumaton?</title>
-      <description>Nvu on saatavilla monille eri käyttöjärjetelmille, mm.
+      <title>…&brandShortName; on alustariippumaton?</title>
+      <description>&brandShortName; on saatavilla monille eri käyttöjärjetelmille, mm.
                    Windowsille, Mac OS X:lle, monille Linux-jakeluille, OS/2:lle jne.</description>
     </item>
 

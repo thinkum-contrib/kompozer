@@ -379,14 +379,14 @@
      <nc:subheadings>
        <rdf:Seq>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-help-contents" nc:name="Ohjeen aiheet" nc:link="menu_reference.xhtml#help_contents"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-nvu-website" nc:name="Nvu:n www-sivu" nc:link="menu_reference.xhtml#nvu_website"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-nvu-website" nc:name="&brandShortName;:n www-sivu" nc:link="menu_reference.xhtml#nvu_website"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-faq" nc:name="FAQ" nc:link="menu_reference.xhtml#nvu_faq"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-bug-reports-suggestions" nc:name="Vikaraporit ja ehdotukset" nc:link="menu_reference.xhtml#bug_reports_and_suggestions"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-dev-community" nc:name="Kehittäjien yhteisö" nc:link="menu_reference.xhtml#developers_community"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-localizing-nvu" nc:name="Nvu:n lokalisointi" nc:link="menu_reference.xhtml#localizing_nvu"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-localizing-nvu" nc:name="&brandShortName;:n lokalisointi" nc:link="menu_reference.xhtml#localizing_nvu"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-forums" nc:name="Keskustelualueet" nc:link="menu_reference.xhtml#forums"/> </rdf:li>
 	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-tip-of-the-day" nc:name="Päivän vinkki" nc:link="menu_reference.xhtml#tip_of_day"/> </rdf:li>
-	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-about" nc:name="Tietoja Nvu:sta" nc:link="menu_reference.xhtml#about_nvu"/> </rdf:li>
+	 <rdf:li> <rdf:Description ID="comp-doc-menu-help-about" nc:name="Tietoja &brandShortName;:sta" nc:link="menu_reference.xhtml#about_nvu"/> </rdf:li>
        </rdf:Seq>
      </nc:subheadings>
    </rdf:Description>

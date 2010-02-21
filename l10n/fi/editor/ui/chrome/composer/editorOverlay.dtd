@@ -670,7 +670,7 @@
 
 <!-- Smart Widgets menu -->                  
 <!ENTITY insertSmartWidgetsMenu.label        "Älykkäät elementit">
-<!ENTITY madeWithNvu.label                   "Made with Nvu -painike">
+<!ENTITY madeWithNvu.label                   "Made with KompoZer -painike">
 <!ENTITY insertCalendarSW.label              "Kalenteri">
 
 <!-- Toolbar customization -->               
@@ -703,7 +703,7 @@
 <!ENTITY helpMenuWin.label                   "Ohje"> 
 <!ENTITY helpMenuWin.accesskey               "O">
 
-<!ENTITY nvuComMenu.label                    "Nvu:n www-sivu">
+<!ENTITY nvuComMenu.label                    "KompoZer:n www-sivu">
 <!ENTITY nvucommenu.accesskey                "w">
 <!ENTITY faqMenu.label                       "FAQ">
 <!ENTITY faqmenu.accesskey                   "F">
@@ -717,10 +717,10 @@
 <!ENTITY supportKompoZer.accesskey           "S">
 <!ENTITY tipofthedayMenu.label               "Päivän vinkki">
 <!ENTITY tipofthedaymenu.accesskey           "P">
-<!ENTITY aboutMenu.label                     "Tietoja Nvu:sta">
+<!ENTITY aboutMenu.label                     "Tietoja KompoZer:sta">
 <!ENTITY aboutmenu.accesskey                 "T">
 <!ENTITY localizingnvu.accesskey             "v">
-<!ENTITY localizingNvu.label                 "Nvu:n lokalisointi">
+<!ENTITY localizingNvu.label                 "KompoZer:n lokalisointi">
 <!ENTITY userGuideMenu.label                 "Käyttöopas">
 <!ENTITY userguidemenu.accesskey             "k">
 
