@@ -696,7 +696,7 @@
 <!ENTITY supportKompoZer.label     "&brandShortName; podpěra">
 <!ENTITY supportKompoZer.accesskey "m">
 <!ENTITY tipofthedayMenu.label    "Pokiw dnja">
-<!ENTITY tipofthedaymenu.accesskey "P">
+<!ENTITY tipofthedaymenu.accesskey "d">
 <!ENTITY aboutMenu.label          "Wo &brandShortName;">
 <!ENTITY aboutmenu.accesskey      "W">
 
@@ -723,8 +723,8 @@
 <!ENTITY insertcomment.accesskey "m">
 <!ENTITY genericContainerCmd.label "Powšitkownja schownja (div)">
 <!ENTITY genericcontainer.accesskey "P">
-<!ENTITY localizingnvu.accesskey  "L">
-<!ENTITY localizingNvu.label "&brandShortName; so lokalizuje">
+<!ENTITY localizingnvu.accesskey  "P">
+<!ENTITY localizingNvu.label "Přełožowanje &brandShortName;">
 <!ENTITY applyClassToSelectionCmd.tooltip "Klasu za wubranje nałožić">
 <!ENTITY noClass.label "(žana klasa)">
 <!ENTITY userGuideMenu.label      "Wužiwarski wjednik">
