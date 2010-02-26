@@ -36,6 +36,7 @@ LOCALES = ["en-US", "fr", "ru", "zh-TW"] # debug
 ###############################################################################
 #                                                                             #
 # INPUT: en-US raw binaries                                                   #
+# -------------------------                                                   #
 #                                                                             #
 #   LINUX                MacOSX                     WIN32                     #
 #                          KompoZer.app/                                      #
@@ -58,6 +59,7 @@ LOCALES = ["en-US", "fr", "ru", "zh-TW"] # debug
 ###############################################################################
 #                                                                             #
 # OUTPUT: localized binaries                                                  #
+# --------------------------                                                  #
 #                                                                             #
 # build/                                                                      #
 #   test/                [version]/                                           #
@@ -75,16 +77,9 @@ LOCALES = ["en-US", "fr", "ru", "zh-TW"] # debug
 
 # preferences: adapt these lines to your config
 CHROME_ROOT     = "chrome/"
-L10N_ROOT       = "l10n/"
 MYSPELL_ROOT    = "myspell/"
-
 BUILD_ROOT      = "build/"
 BUILD_TEST      = "build/test/"
-
-BUILD_RAW       = "build/raw/"
-LINUX_RAW       = BUILD_RAW + "linux-i686/kompozer/"
-MACOSX_RAW      = BUILD_RAW + "macosx/KompoZer.app/"
-WIN32_RAW       = BUILD_RAW + "win32/KompoZer/"
 
 
 ###############################################################################
@@ -134,7 +129,7 @@ def cloneDirectory(srcPath, destPath):
 
 ###############################################################################
 #                                                                             #
-#     l10n converters                                                         #
+#     L10n utilities                                                          #
 #                                                                             #
 ###############################################################################
 
@@ -170,19 +165,14 @@ def makeBinary(srcDir, platform, locale):
     destDir += "win32/" + locale
     binDir = destDir + "/KompoZer/"
   else:
-    print("unsupported platform: use 'linux', 'macosx' or 'win'")
+    print("unsupported platform")
     return
   chromeDir  = binDir + "chrome/"
   prefsDir   = binDir + "defaults/pref/"
   profileDir = binDir + "defaults/profile/"
   dictDir    = binDir + "dictionaries/"
-  print("building " + destDir)
 
   # create a directory for the new localized build
-  #if os.path.exists(destDir):
-    #shell("rm -rf " + destDir)
-  #shell("mkdir -p " + destDir)
-  #shell("cp -R " + srcDir + " " + destDir)
   cloneDirectory(srcDir, destDir)
 
   # remove unused files
@@ -210,8 +200,6 @@ def makeBinary(srcDir, platform, locale):
       shell("mv en.lproj ca-AD.lproj")
     elif (locale == "hu"):
       shell("mv en.lproj hu-HU.lproj")
-    elif (locale == "hsb"):
-      shell("mv en.lproj hsb-DE.lproj")
     else:
       shell("mv en.lproj " + locale + ".lproj")
 
@@ -263,12 +251,13 @@ def makePackage(srcDir, platform, locale):
     baseDir += "/macosx/"
     baseFile += "-macosx-universal.dmg"
     shell("mkdir -p " + baseDir)
-    # hdiutil create -srcfolder "KompoZer.app" -volname "KompoZer ab(-CD)" kompozer-0.8.ab(-CD).mac-universal.dmg -format UDZ0 -imagekey zlib-level=9
     srcfolder = ' -srcfolder "' + srcDir + '"'
-    volname = ' -volname "KompoZer "' + locale + '"'
-    options = ' -format UDZ0 -imagekey zlib-level=9'
-    dmgFile = ' ' + baseDir + baseFile
-    shell("hdiutil create" + srcfolder + volname + dmgFile + options)
+    volname = ' -volname "KompoZer ' + locale + '" '
+    options = ' -format UDZO -imagekey zlib-level=9 '
+    dmgFile = baseDir + baseFile
+    if os.path.exists(dmgFile):
+      shell("rm " + dmgFile)
+    shell("hdiutil create -srcfolder ." + volname + dmgFile + options)
 
   # Win32: zip (+ installer)
   elif (platform == "win"):
@@ -281,7 +270,7 @@ def makePackage(srcDir, platform, locale):
 
   # mismatch
   else:
-    print("unsupported platform: use 'linux', 'macosx' or 'win'")
+    print("unsupported platform")
     return
 
   # done
@@ -297,11 +286,41 @@ def makePackage(srcDir, platform, locale):
 
 # main: parse command-line arguments
 def main():
-  platform = "linux"
-  locale = "fr"
-  srcDir = makeBinary(LINUX_RAW, platform, locale)
+  if len(sys.argv) < 2: # not enough arguments
+    print("usage: ./release.py [path/to/kompozer/directory]")
+    return
+
+  # get binary directory and target platform
+  srcPath = sys.argv[1]
+  if srcPath[-1:] == "/":
+    srcPath = srcPath[0:-1]
+  if os.path.basename(srcPath) == "KompoZer.app":
+    platform = "mac"
+  elif os.path.exists(srcPath + "/kompozer.exe"):
+    platform = "win"
+  elif os.path.exists(srcPath + "/kompozer-bin"):
+    platform = "linux"
+  else:
+    print("not a kompozer binary.")
+    return
+
+  # get the list of the locales to build
+  if (len(sys.argv) > 2):
+    # build specified locales (TODO)
+    locale = sys.argv[2]
+  else:
+    # build all locales
+    locales = LOCALES
+    locale = "fr"
+
+  # build
+  print
+  print("building kompozer-" + VERSION + "." + locale + " (" + platform + ")...")
+  srcDir = makeBinary(srcPath, platform, locale)
   if srcDir:
+    print("packing...")
     makePackage(srcDir, platform, locale)
+  print
 
 if __name__ == "__main__":
   main()
