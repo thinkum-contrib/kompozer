@@ -29,33 +29,49 @@
 import os
 import sys
 
-# Input = raw binaries:
-# build/
-#   raw/
-#     linux-i686/           macosx/                  win32/
-#       kompozer/             KompoZer.app/            KompoZer/
-#         chrome/               Contents/                chrome/
-#         defaults/               MacOS/                 defaults/
-#         dictionaries/             chrome/              dictionaries/
-#                                   defaults/
-#                                   dictionaries/
-#                                 Resources/
-#                                   en.lproj      
-
-# Output = localized binaries:
-# build/
-#   test/                [VERSION]/
-#     linux-i686/          linux-i686/
-#       %AB_CD%              kompozer-%VERSION%.%AB_CD%-gcc4.2-i686.tar.gz
-#         kompozer/        macosx/
-#     macosx/                kompozer-%VERSION%.%AB_CD%-macosx-universal.dmg
-#       %AB_CD%            win32/
-#         KompoZer.app/      exe/
-#     win32/                   kompozer-%VERSION%.%AB_CD%-win32.exe
-#       %AB_CD%              zip/
-#         kompozer/            kompozer-%VERSION%.%AB_CD%-win32.zip
-
 VERSION = "0.8b3"
+#LOCALES = ["ca", "da", "de", "en-US", "es-ES", "fi", "fr", "hu", "hsb", "it", "ja", "pt-PT", "ru", "zh-CN", "zh-TW"]
+LOCALES = ["en-US", "fr", "ru", "zh-TW"] # debug
+
+###############################################################################
+#                                                                             #
+# INPUT: en-US raw binaries                                                   #
+#                                                                             #
+#   LINUX                MacOSX                     WIN32                     #
+#                          KompoZer.app/                                      #
+#                            Contents/                                        #
+#     kompozer/                MacOS/                 KompoZer/               #
+#       chrome/                  chrome/                chrome/               #
+#         en-US.jar                en-US.jar              en-US.jar           #
+#         en-US.manifest           en-US.manifest         en-US.manifest      #
+#       defaults/                defaults/              defaults/             #
+#         pref/                    pref/                  pref/               #
+#           all.js                   all.js                 all.js            #
+#           editor.js                editor.js              editor.js         #
+#         profile/                 profile/               profile/            #
+#       dictionaries/            dictionaries/          dictionaries/         #
+#         en-US.aff                en-US.aff              en-US.aff           #
+#         en-US.dic                en-US.dic              en-US.dic           #
+#                              Resources/                                     #
+#                                en.lproj                                     #
+#                                                                             #
+###############################################################################
+#                                                                             #
+# OUTPUT: localized binaries                                                  #
+#                                                                             #
+# build/                                                                      #
+#   test/                [version]/                                           #
+#     linux-i686/          linux-i686/                                        #
+#       %ab_cd%              kompozer-%version%.%ab_cd%-gcc4.2-i686.tar.gz    #
+#         kompozer/        macosx/                                            #
+#     macosx/                kompozer-%version%.%ab_cd%-macosx-universal.dmg  #
+#       %ab_cd%            win32/                                             #
+#         kompozer.app/      exe/                                             #
+#     win32/                   kompozer-%version%.%ab_cd%-win32.exe           #
+#       %ab_cd%              zip/                                             #
+#         kompozer/            kompozer-%version%.%ab_cd%-win32.zip           #
+#                                                                             #
+###############################################################################
 
 # preferences: adapt these lines to your config
 CHROME_ROOT     = "chrome/"
@@ -63,20 +79,57 @@ L10N_ROOT       = "l10n/"
 MYSPELL_ROOT    = "myspell/"
 
 BUILD_ROOT      = "build/"
-BUILD_RAW       = "build/raw/"
 BUILD_TEST      = "build/test/"
 
+BUILD_RAW       = "build/raw/"
 LINUX_RAW       = BUILD_RAW + "linux-i686/kompozer/"
 MACOSX_RAW      = BUILD_RAW + "macosx/KompoZer.app/"
 WIN32_RAW       = BUILD_RAW + "win32/KompoZer/"
 
-# shell access, check the value of "DEBUG"
+
+###############################################################################
+#                                                                             #
+#     Shell helpers                                                           #
+#                                                                             #
+###############################################################################
+
 DEBUG = 0
+
+# Shell access
+# check the value of "DEBUG" above
 def shell(cmd):
   if DEBUG:
     print(cmd)
   else:
     os.system(cmd)
+
+# Replace all found occurrences in 'filePath'
+# ('sed -i' doesn't work on MacOSX as it does on GNU/Linux)
+def replaceInFile(findStr, replaceStr, filePath):
+  sed = "sed 's/" + findStr + "/" + replaceStr + "/g' "
+  shell(sed + filePath + " > " + filePath + "~")
+  shell("mv " + filePath + "~ " + filePath)
+
+# Clone the 'srcPath' directory as a child of 'destPath'
+#   and return the new directory's path
+# ('cp -r' doesn't work on MacOSX as it does on GNU/Linux)
+def cloneDirectory(srcPath, destPath):
+  if srcPath[-1:] == "/": # remove trailing slash if any
+    srcPath = srcPath[0:-1]
+  baseName = os.path.basename(srcPath)
+
+  # get an empty destPath/baseName directory
+  if destPath[-1:] == "/": # remove trailing slash if any
+    destPath = dir[0:-1]
+  destDir = destPath + "/" + baseName
+  if os.path.exists(destDir):
+    shell("rm -rf " + destDir + "/*")
+  else:
+    shell("mkdir -p " + destDir)
+
+  # copy 'srcPath' content to 'destPath/baseName'
+  shell("cp -R " + srcPath + "/* " + destDir)
+  return destDir + "/"
 
 
 ###############################################################################
@@ -126,10 +179,11 @@ def makeBinary(srcDir, platform, locale):
   print("building " + destDir)
 
   # create a directory for the new localized build
-  if os.path.exists(destDir):
-    shell("rm -rf " + destDir)
-  shell("mkdir -p " + destDir)
-  shell("cp -R " + srcDir + " " + destDir)
+  #if os.path.exists(destDir):
+    #shell("rm -rf " + destDir)
+  #shell("mkdir -p " + destDir)
+  #shell("cp -R " + srcDir + " " + destDir)
+  cloneDirectory(srcDir, destDir)
 
   # remove unused files
   shell("rm " + chromeDir + "chromelist.txt")
@@ -151,34 +205,35 @@ def makeBinary(srcDir, platform, locale):
 
   # MacOSX: rename en.lproj as [locale].lproj
   if (platform == "mac"):
-    os.chdir(destDir + "Contents/Resources/")
-    # Catalan and Hungarian are specific cases
+    os.chdir(destDir + "/KompoZer.app/Contents/Resources/")
     if (locale == "ca"):
       shell("mv en.lproj ca-AD.lproj")
     elif (locale == "hu"):
       shell("mv en.lproj hu-HU.lproj")
+    elif (locale == "hsb"):
+      shell("mv en.lproj hsb-DE.lproj")
     else:
       shell("mv en.lproj " + locale + ".lproj")
 
   # change locale in all.js
   os.chdir(prefsDir)
-  shell("sed -i s/en-US/" + locale + "/g all.js")
+  replaceInFile("en-US", locale, "all.js")
 
   # some locales require specific char encodings
-  sedAcceptCharsets = "sed -i s/iso-8859-1,\*,utf-8/"
-  sedCustomCharset  = "sed -i s/ISO-8859-1/"
+  acceptCharsets = "iso-8859-1,\*,utf-8"
+  customCharset  = "ISO-8859-1"
   if (locale == "ja"):
-    shell(sedAcceptCharsets + "Shift_JIS,\*,utf-8/g all.js")
-    shell(sedCustomCharset  + "Shift_JIS/g editor.js")
+    replaceInFile(acceptCharsets, "Shift_JIS,\*,utf-8",    "all.js")
+    replaceInFile(customCharset,  "Shift_JIS",             "editor.js")
   elif (locale == "zh-CN" or locale == "zh-TW" or locale == "hsb"):
-    shell(sedAcceptCharsets + "utf-8,\*,iso-8859-1/g all.js")
-    shell(sedCustomCharset  + "UTF8/g editor.js")
+    replaceInFile(acceptCharsets, "utf-8,\*,iso-8859-1",   "all.js")
+    replaceInFile(customCharset,  "UTF8",                  "editor.js")
   elif (locale == "hu" or locale == "pl"):
-    shell(sedAcceptCharsets + "iso-8859-2,\*,utf-8/g all.js")
-    shell(sedCustomCharset  + "ISO-8859-2/g editor.js")
+    replaceInFile(acceptCharsets, "iso-8859-2,\*,utf-8",   "all.js")
+    replaceInFile(customCharset,  "ISO-8859-2",            "editor.js")
   elif (locale == "ru"):
-    shell(sedAcceptCharsets + "Windows-1251,\*,utf-8/g all.js")
-    shell(sedCustomCharset  + "Windows-1251/g editor.js")
+    replaceInFile(acceptCharsets, "Windows-1251,\*,utf-8", "all.js")
+    replaceInFile(customCharset,  "Windows-1251",          "editor.js")
 
   # include tri-licensed mySpell dictionary, if any
   os.chdir(cwd)
@@ -232,6 +287,7 @@ def makePackage(srcDir, platform, locale):
   # done
   os.chdir(cwd)
   return
+
 
 ###############################################################################
 #                                                                             #
