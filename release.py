@@ -30,8 +30,8 @@ import os
 import sys
 
 VERSION = "0.8b3"
-#LOCALES = ["ca", "da", "de", "en-US", "es-ES", "fi", "fr", "hu", "hsb", "it", "ja", "pt-PT", "ru", "zh-CN", "zh-TW"]
-LOCALES = ["en-US", "fr", "ru", "zh-TW"] # debug
+LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
+           "it", "ja", "nl", "pl", "pt-PT", "ru", "zh-CN", "zh-TW"]
 
 ###############################################################################
 #                                                                             #
@@ -123,7 +123,7 @@ def cloneDirectory(srcPath, destPath):
     shell("mkdir -p " + destDir)
 
   # copy 'srcPath' content to 'destPath/baseName'
-  shell("cp -R " + srcPath + "/* " + destDir)
+  shell("cp -RL " + srcPath + "/* " + destDir)
   return destDir + "/"
 
 
@@ -242,9 +242,11 @@ def makePackage(srcDir, platform, locale):
   # Linux: tar.gz archive
   if (platform == "linux"):
     baseDir += "/linux-i686/"
-    baseFile += "-gcc4.2-i686.tar.gz"
+    tarFile = baseDir + baseFile + "-gcc4.2-i686.tar.gz"
     shell("mkdir -p " + baseDir)
-    shell("tar -chzf " + baseDir + baseFile + " kompozer")
+    if os.path.exists(tarFile)
+      shell("rm " + tarFile)
+    shell("tar -chzf " + tarFile + " kompozer")
 
   # MacOSX: dmg image
   elif (platform == "mac"):
@@ -266,7 +268,10 @@ def makePackage(srcDir, platform, locale):
     exeFile = baseDir + "exe/" + baseFile + "-win32.exe"
     shell("mkdir -p " + baseDir + "zip")
     shell("mkdir -p " + baseDir + "exe")
-    # TODO
+    # TODO build InnoSetup installer
+    if os.path.exists(zipFile)
+      shell("rm " + zipFile)
+    shell("zip -rq " + zipFile + " KompoZer")
 
   # mismatch
   else:
@@ -287,7 +292,9 @@ def makePackage(srcDir, platform, locale):
 # main: parse command-line arguments
 def main():
   if len(sys.argv) < 2: # not enough arguments
-    print("usage: ./release.py [path/to/kompozer/directory]")
+    print("usage: ./release.py (path/to/kompozer/directory) [locales]")
+    print("  if [locales] is not specified, all supported locales will be built:")
+    print("       " + ", ".join(LOCALES))
     return
 
   # get binary directory and target platform
@@ -306,20 +313,20 @@ def main():
 
   # get the list of the locales to build
   if (len(sys.argv) > 2):
-    # build specified locales (TODO)
-    locale = sys.argv[2]
-  else:
-    # build all locales
+    locales = sys.argv[2:]
+  else:              # build all locales
     locales = LOCALES
-    locale = "fr"
 
   # build
-  print
-  print("building kompozer-" + VERSION + "." + locale + " (" + platform + ")...")
-  srcDir = makeBinary(srcPath, platform, locale)
-  if srcDir:
-    print("packing...")
-    makePackage(srcDir, platform, locale)
+  for locale in locales:
+    print
+    print("building kompozer-" + VERSION + "." + locale + " (" + platform + ")...")
+    srcDir = makeBinary(srcPath, platform, locale)
+    if srcDir:
+      print("packing...")
+      makePackage(srcDir, platform, locale)
+
+  # done
   print
 
 if __name__ == "__main__":
