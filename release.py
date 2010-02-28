@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # author      : Fabien Cazenave <kaze@kompozer.net>
-# purpose     : l10n utility script for KompoZer 0.8
-# last update : 2010-02-24
+# purpose     : release utility script for KompoZer 0.8
+# requires    : Python 2.5.x + bash (or Cygwin on Windows)
+# last update : 2010-02-28
 
 ###############################################################################
 #                                                                             #
@@ -76,10 +77,17 @@ LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
 ###############################################################################
 
 # preferences: adapt these lines to your config
-CHROME_ROOT     = "chrome/"
-MYSPELL_ROOT    = "myspell/"
-BUILD_ROOT      = "build/"
-BUILD_TEST      = "build/test/"
+CHROME_ROOT  = "chrome/"
+MYSPELL_ROOT = "myspell/"
+BUILD_ROOT   = "build/"
+BUILD_TEST   = "build/test/"
+
+# Requirements to build win32 installers:
+#  * Inno Setup 5 has to be installed (works through Wine on Linux and MacOSX)
+#  * 'kompozer.iss' has to match the BUILD_[ROOT|TEST] settings above
+INNO_SETUP  = "wine ~/.wine/drive_c/Program\ Files/Inno\ Setup\ 5/ISCC.exe"
+#INNO_SETUP = "ISCC.exe"       # when using on Windows
+#INNO_SETUP = 0                # set to 0 to disable InnoSetup
 
 
 ###############################################################################
@@ -99,15 +107,14 @@ def shell(cmd):
     os.system(cmd)
 
 # Replace all found occurrences in 'filePath'
-# ('sed -i' doesn't work on MacOSX as it does on GNU/Linux)
+# ('sed -i' doesn't work exactly on MacOSX as it does on GNU/Linux)
 def replaceInFile(findStr, replaceStr, filePath):
   sed = "sed 's/" + findStr + "/" + replaceStr + "/g' "
   shell(sed + filePath + " > " + filePath + "~")
   shell("mv " + filePath + "~ " + filePath)
 
 # Clone the 'srcPath' directory as a child of 'destPath'
-#   and return the new directory's path
-# ('cp -r' doesn't work on MacOSX as it does on GNU/Linux)
+# ('cp -r' doesn't work exactly on MacOSX as it does on GNU/Linux)
 def cloneDirectory(srcPath, destPath):
   if srcPath[-1:] == "/": # remove trailing slash if any
     srcPath = srcPath[0:-1]
@@ -129,7 +136,7 @@ def cloneDirectory(srcPath, destPath):
 
 ###############################################################################
 #                                                                             #
-#     L10n utilities                                                          #
+#     Package utilities                                                       #
 #                                                                             #
 ###############################################################################
 
@@ -223,6 +230,10 @@ def makeBinary(srcDir, platform, locale):
     replaceInFile(acceptCharsets, "Windows-1251,\*,utf-8", "all.js")
     replaceInFile(customCharset,  "Windows-1251",          "editor.js")
 
+  # disable line wrapping for Asian languages (= 72 chars by default)
+  if (locale == "ja" or locale == "zh-CN" or locale == "zh-TW"):
+    replaceInFile(" 72);", " 0);", "editor.js")
+
   # include tri-licensed mySpell dictionary, if any
   os.chdir(cwd)
   shell("rm " + dictDir + "*")
@@ -244,7 +255,7 @@ def makePackage(srcDir, platform, locale):
     baseDir += "/linux-i686/"
     tarFile = baseDir + baseFile + "-gcc4.2-i686.tar.gz"
     shell("mkdir -p " + baseDir)
-    if os.path.exists(tarFile)
+    if os.path.exists(tarFile):
       shell("rm " + tarFile)
     shell("tar -chzf " + tarFile + " kompozer")
 
@@ -261,15 +272,14 @@ def makePackage(srcDir, platform, locale):
       shell("rm " + dmgFile)
     shell("hdiutil create -srcfolder ." + volname + dmgFile + options)
 
-  # Win32: zip (+ installer)
+  # Win32: zip archive
   elif (platform == "win"):
     baseDir += "/win32/"
     zipFile = baseDir + "zip/" + baseFile + "-win32.zip"
-    exeFile = baseDir + "exe/" + baseFile + "-win32.exe"
+    #exeFile = baseDir + "exe/" + baseFile + "-win32.exe"
     shell("mkdir -p " + baseDir + "zip")
-    shell("mkdir -p " + baseDir + "exe")
-    # TODO build InnoSetup installer
-    if os.path.exists(zipFile)
+    #shell("mkdir -p " + baseDir + "exe")
+    if os.path.exists(zipFile):
       shell("rm " + zipFile)
     shell("zip -rq " + zipFile + " KompoZer")
 
@@ -281,6 +291,54 @@ def makePackage(srcDir, platform, locale):
   # done
   os.chdir(cwd)
   return
+
+# pack localized win32 installer
+def makeInnoSetup(srcDir, locale):
+  langDict = {                    \
+    'bg'   : 'Bulgarian',         \
+    'ca'   : 'Catalan',           \
+    'da'   : 'Danish',            \
+    'de'   : 'German',            \
+    'en-US': 'English',           \
+    'eo'   : 'Esperanto',         \
+    'es-AR': 'Spanish',           \
+    'es-ES': 'Spanish',           \
+    'es-MX': 'Spanish',           \
+    'fr'   : 'French',            \
+    'fi'   : 'Finnish',           \
+    'hu'   : 'Hungarian',         \
+    'hsb'  : 'German',            \
+    'it'   : 'Italian',           \
+    'ja'   : 'Japanese',          \
+    'ko'   : 'Korean',            \
+    'nl'   : 'Dutch',             \
+    'pl'   : 'Polish',            \
+    'pt-BR': 'Portuguese',        \
+    'pt-PT': 'Portuguese',        \
+    'ru'   : 'Russian',           \
+    'sk'   : 'Slovak',            \
+    'sl'   : 'Slovenian',         \
+    'tr'   : 'Turkish',           \
+    'zh-CN': 'ChineseSimplified', \
+    'zh-TW': 'ChineseTraditional' \
+  }
+
+  # get proper InnoSetup messages file
+  msgName = langDict[locale].lower()
+  msgFile = langDict[locale]
+  if locale == "en-US":
+    msgFile = "Default"
+
+  # make a temporary InnoSetup script
+  issFile = "kompozer-" + locale + ".iss"
+  shell("cp kompozer.iss " + issFile)
+  replaceInFile("@LOCALE@",   locale,   issFile)
+  replaceInFile("@VERSION@",  VERSION,  issFile)
+  replaceInFile("@MSGNAME@",  msgName,  issFile)
+  replaceInFile("@MSGFILE@",  msgFile,  issFile)
+
+  # start InnoSetup compiler
+  shell(INNO_SETUP + " /Q " + issFile)
 
 
 ###############################################################################
@@ -323,8 +381,11 @@ def main():
     print("building kompozer-" + VERSION + "." + locale + " (" + platform + ")...")
     srcDir = makeBinary(srcPath, platform, locale)
     if srcDir:
-      print("packing...")
+      print("  packing...")
       makePackage(srcDir, platform, locale)
+      if INNO_SETUP and (platform == "win"):
+        print("  InnoSetup...")
+        makeInnoSetup(srcDir + "\KompoZer", locale)
 
   # done
   print
