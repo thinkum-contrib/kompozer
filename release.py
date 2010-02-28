@@ -326,9 +326,10 @@ def makeInnoSetup(srcDir, locale):
 
   # get proper InnoSetup messages file
   msgName = langDict[locale].lower()
-  msgFile = langDict[locale]
   if locale == "en-US":
-    msgFile = "Default"
+    msgFile = "Default.isl"
+  else:
+    msgFile = "Languages\\" + langDict[locale] + ".isl"
 
   # make a temporary InnoSetup script
   issFile = "kompozer-" + locale + ".iss"

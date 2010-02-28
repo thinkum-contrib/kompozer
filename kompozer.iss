@@ -20,7 +20,7 @@ Compression=lzma
 SolidCompression=yes
 
 [Languages]
-Name: "@MSGNAME@"; MessagesFile: "compiler:Languages\@MSGFILE@.isl"
+Name: "@MSGNAME@"; MessagesFile: "compiler:@MSGFILE@"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
