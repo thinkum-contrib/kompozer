@@ -85,7 +85,8 @@ BUILD_TEST   = "build/test/"
 # Requirements to build win32 installers:
 #  * Inno Setup 5 has to be installed (works through Wine on Linux and MacOSX)
 #  * 'kompozer.iss' has to match the BUILD_[ROOT|TEST] settings above
-INNO_SETUP  = "wine ~/.wine/drive_c/Program\ Files/Inno\ Setup\ 5/ISCC.exe"
+INNO_SETUP  = "wine ~/.PlayOnLinux/wineprefix/InnoSetup/drive_c/Program\ Files/Inno\ Setup\ 5/ISCC.exe"
+#INNO_SETUP = "wine ~/.wine/drive_c/Program\ Files/Inno\ Setup\ 5/ISCC.exe"
 #INNO_SETUP = "ISCC.exe"       # when using on Windows
 #INNO_SETUP = 0                # set to 0 to disable InnoSetup
 
@@ -339,6 +340,7 @@ def makeInnoSetup(srcDir, locale):
 
   # start InnoSetup compiler
   shell(INNO_SETUP + " /Q " + issFile)
+  shell("rm " + issFile)
 
 
 ###############################################################################
