@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # author      : Fabien Cazenave <kaze@kompozer.net>
 # purpose     : release utility script for KompoZer 0.8
-# requires    : Python 2.5.x + bash
+# requires    : bash + Python 2.5
 #               successfully tested on GNU/Linux and MacOS X
 #               does not work on Windows yet (even with Cygwin)
-# last update : 2010-02-28
+# last update : 2010-03-01
 
 ###############################################################################
 #                                                                             #
@@ -35,6 +35,7 @@ import sys
 VERSION = "0.8b3"
 LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
            "it", "ja", "nl", "pl", "pt-PT", "ru", "zh-CN", "zh-TW"]
+
 
 ###############################################################################
 #                                                                             #
@@ -82,7 +83,8 @@ LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
 CHROME_ROOT  = "chrome/"
 MYSPELL_ROOT = "myspell/"
 BUILD_ROOT   = "build/"
-BUILD_TEST   = "build/test/"
+BUILD_TEST   = "build/bin/"
+BUILD_JAR    = "build/jar/"
 
 # Requirements to build win32 installers:
 #  * Inno Setup 5 has to be installed (works through Wine on Linux and MacOSX)
@@ -143,27 +145,15 @@ def cloneDirectory(srcPath, destPath):
 #                                                                             #
 ###############################################################################
 
-# make [locale].jar
-def makeJAR(locale):
-  jarDir = os.getcwd() + "/" + CHROME_ROOT
-  os.chdir(jarDir)
-  jar = locale + ".jar"
-  if os.path.exists(jar):
-    #shell("rm " + jar)
-    return jarDir + jar
-  if os.path.exists("locale"):
-    shell("rm -rf locale")
-  shell("mkdir locale")
-  shell("cp -R " + locale + " locale/")
-  shell("zip -qr -0 " + jar + " locale")
-  shell("rm -rf locale")
-  return jarDir + jar
-
 # create localized binary
 def makeBinary(srcDir, platform, locale):
-  cwd = os.getcwd() + "/"
+  jarFile = BUILD_JAR + locale + ".jar"
+  if not os.path.exists(jarFile):
+    print(jarFile + " is missing, please run './convert-locales make " + locale + "' first.")
+    return 0
 
   # set base directories
+  cwd = os.getcwd() + "/"
   destDir = cwd + BUILD_TEST
   if (platform == "linux"):
     destDir += "linux-i686/" + locale
@@ -195,13 +185,12 @@ def makeBinary(srcDir, platform, locale):
     return destDir
 
   # replace en-US.* by [locale].*
-  tmpJar = makeJAR(locale)
   os.chdir(chromeDir)
   sed = "sed s/en-US/" + locale + "/g "
   shell(sed + "en-US.manifest > " + locale  + ".manifest")
   os.chdir(cwd)
   shell("rm " + chromeDir + "en-US.*")
-  shell("cp " + tmpJar + " " + chromeDir)
+  shell("cp " + jarFile + " " + chromeDir)
 
   # MacOSX: rename en.lproj as [locale].lproj
   if (platform == "mac"):
@@ -256,7 +245,7 @@ def makePackage(srcDir, platform, locale):
   # Linux: tar.gz archive
   if (platform == "linux"):
     baseDir += "/linux-i686/"
-    tarFile = baseDir + baseFile + "-gcc4.2-i686.tar.gz"
+    tarFile = baseDir + baseFile + ".gcc4.2-i686.tar.gz"
     shell("mkdir -p " + baseDir)
     if os.path.exists(tarFile):
       shell("rm " + tarFile)
@@ -265,7 +254,7 @@ def makePackage(srcDir, platform, locale):
   # MacOSX: dmg image
   elif (platform == "mac"):
     baseDir += "/macosx/"
-    baseFile += "-macosx-universal.dmg"
+    baseFile += ".macosx-universal.dmg"
     shell("mkdir -p " + baseDir)
     srcfolder = ' -srcfolder "' + srcDir + '"'
     volname = ' -volname "KompoZer ' + locale + '" '
@@ -278,10 +267,8 @@ def makePackage(srcDir, platform, locale):
   # Win32: zip archive
   elif (platform == "win"):
     baseDir += "/win32/"
-    zipFile = baseDir + "zip/" + baseFile + "-win32.zip"
-    #exeFile = baseDir + "exe/" + baseFile + "-win32.exe"
+    zipFile = baseDir + "zip/" + baseFile + ".win32.zip"
     shell("mkdir -p " + baseDir + "zip")
-    #shell("mkdir -p " + baseDir + "exe")
     if os.path.exists(zipFile):
       shell("rm " + zipFile)
     shell("zip -rq " + zipFile + " KompoZer")
@@ -331,7 +318,7 @@ def makeInnoSetup(srcDir, locale):
   if locale == "en-US":
     msgFile = "Default.isl"
   else:
-    msgFile = "Languages\\" + langDict[locale] + ".isl"
+    msgFile = "Languages\\\\" + langDict[locale] + ".isl"
 
   # make a temporary InnoSetup script
   issFile = "kompozer-" + locale + ".iss"
