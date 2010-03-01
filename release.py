@@ -1,7 +1,9 @@
 #!/usr/bin/python
 # author      : Fabien Cazenave <kaze@kompozer.net>
 # purpose     : release utility script for KompoZer 0.8
-# requires    : Python 2.5.x + bash (or Cygwin on Windows)
+# requires    : Python 2.5.x + bash
+#               successfully tested on GNU/Linux and MacOS X
+#               does not work on Windows yet (even with Cygwin)
 # last update : 2010-02-28
 
 ###############################################################################
@@ -295,33 +297,33 @@ def makePackage(srcDir, platform, locale):
 
 # pack localized win32 installer
 def makeInnoSetup(srcDir, locale):
-  langDict = {                    \
-    'bg'   : 'Bulgarian',         \
-    'ca'   : 'Catalan',           \
-    'da'   : 'Danish',            \
-    'de'   : 'German',            \
-    'en-US': 'English',           \
-    'eo'   : 'Esperanto',         \
-    'es-AR': 'Spanish',           \
-    'es-ES': 'Spanish',           \
-    'es-MX': 'Spanish',           \
-    'fr'   : 'French',            \
-    'fi'   : 'Finnish',           \
-    'hu'   : 'Hungarian',         \
-    'hsb'  : 'German',            \
-    'it'   : 'Italian',           \
-    'ja'   : 'Japanese',          \
-    'ko'   : 'Korean',            \
-    'nl'   : 'Dutch',             \
-    'pl'   : 'Polish',            \
-    'pt-BR': 'Portuguese',        \
-    'pt-PT': 'Portuguese',        \
-    'ru'   : 'Russian',           \
-    'sk'   : 'Slovak',            \
-    'sl'   : 'Slovenian',         \
-    'tr'   : 'Turkish',           \
-    'zh-CN': 'ChineseSimplified', \
-    'zh-TW': 'ChineseTraditional' \
+  langDict = {                      \
+    'bg'   : 'Bulgarian',           \
+    'ca'   : 'Catalan',             \
+    'da'   : 'Danish',              \
+    'de'   : 'German',              \
+    'en-US': 'English',             \
+    'eo'   : 'Esperanto',           \
+    'es-AR': 'Spanish',             \
+    'es-ES': 'Spanish',             \
+    'es-MX': 'Spanish',             \
+    'fr'   : 'French',              \
+    'fi'   : 'Finnish',             \
+    'hu'   : 'Hungarian',           \
+    'hsb'  : 'German',              \
+    'it'   : 'Italian',             \
+    'ja'   : 'Japanese',            \
+    'ko'   : 'Korean',              \
+    'nl'   : 'Dutch',               \
+    'pl'   : 'Polish',              \
+    'pt-BR': 'BrazilianPortuguese', \
+    'pt-PT': 'Portuguese',          \
+    'ru'   : 'Russian',             \
+    'sk'   : 'Slovak',              \
+    'sl'   : 'Slovenian',           \
+    'tr'   : 'Turkish',             \
+    'zh-CN': 'ChineseSimplified',   \
+    'zh-TW': 'ChineseTraditional'   \
   }
 
   # get proper InnoSetup messages file

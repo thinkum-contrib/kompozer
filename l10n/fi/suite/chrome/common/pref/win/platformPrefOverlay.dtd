@@ -1,0 +1,19 @@
+<!ENTITY winhooks.label                   "Järjestelmä">
+
+<!ENTITY defaultBrowserGroup.label  "Oletusselain">
+<!ENTITY defaultBrowserButton.label "Aseta Oletusselain">
+<!ENTITY alreadyDefaultText         "&brandShortName; on jo oletusselaimenasi.">
+<!ENTITY defaultPendingText         "&brandShortName; asetetaan oletusselaimeksesi, kun painat OK.">
+<!ENTITY makeDefaultText            "Aseta &brandShortName; oletusselaimeksesi.">
+
+<!ENTITY urlbar.label "Ctrl+Enter Location valikossa">
+<!ENTITY middleClick.label "Hiiren keskinapin painallus, Ctrl+vasen painallus  tai CTRL + Enter webbisivun linkeissa">
+
+<!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
+     preference dialog's <window> node, which specifies the width and height
+     in em units of the dialog. Localizers ONLY can increase these widths 
+     if they are having difficulty getting panel content to fit. 1em = the 
+     width of the letter 'm' in the selected font.
+     XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
+     size of this window for en-US. -->
+<!ENTITY  prefWindow.size             "width: 52em; height: 41em;">

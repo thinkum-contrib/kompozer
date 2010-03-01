@@ -1,0 +1,13 @@
+<!ENTITY  untitledTab            "(nimetön)">
+<!ENTITY  newTab.label           "Uusi välilehti">
+<!ENTITY  newTab.accesskey       "U">
+<!ENTITY  closeTab.label         "Sulje välilehti">
+<!ENTITY  closeTab.accesskey         "S">
+<!ENTITY  closeOtherTabs.accesskey  "S">
+<!ENTITY  closeOtherTabs.label   "Sulje muut välilehdet">
+<!ENTITY  reloadAllTabs.label    "Lataa Kaikki Välilehdet Uudelleen">
+<!ENTITY  reloadAllTabs.accesskey         "a">
+<!ENTITY  reloadTab.label        "Lataa Välilehti Uudelleen">
+<!ENTITY  reloadTab.accesskey         "L">
+<!ENTITY  newTabButton.tooltip   "Avaa uusi välilehti">
+<!ENTITY  listAllTabs.label      "Listaa kaikki välilehdet">

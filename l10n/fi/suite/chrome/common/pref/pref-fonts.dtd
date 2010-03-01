@@ -1,0 +1,80 @@
+<!-- extracted from content/pref-fonts.xul -->
+
+<!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
+<!ENTITY  pref.fonts.title                        "Kirjasinlajit">
+
+<!ENTITY  language.label                          "Fontit asettelulle:">
+<!ENTITY  language.accesskey                      "t">
+
+<!ENTITY  typefaces.label                         "Kirjasintyyppi">
+<!ENTITY  sizes.label                             "Koko (pikseleinä)">
+
+<!ENTITY  proportional.label                      "Suhteellinen:">
+<!ENTITY  proportional.accesskey                  "S">
+
+<!ENTITY  serif.label                             "Pääteviivallinen:">
+<!ENTITY  serif.accesskey                         "P">
+<!ENTITY  sans-serif.label                        "Ilman pääteviivoja:">
+<!ENTITY  sans-serif.accesskey                    "n">
+<!ENTITY  monospace.label                         "Vakioleveys:">
+<!ENTITY  monospace.accesskey                     "V">
+<!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
+<!ENTITY  fantasy.label                           "Koristeellinen:">
+<!ENTITY  fantasy.accesskey                       "K">
+<!ENTITY  cursive.label                           "Kursiivinen:">
+<!ENTITY  cursive.accesskey                       "K">
+
+<!ENTITY  fontsize.units                          "kuvapistettä">
+
+<!ENTITY  font.langGroup.latin1                   "Länsimainen">
+<!ENTITY  font.langGroup.latin2                   "Keski-Eurooppalainen">
+<!ENTITY  font.langGroup.japanese                 "Japanilainen">
+<!ENTITY  font.langGroup.trad-chinese             "Kiinalainen, perinteinen">
+<!ENTITY  font.langGroup.simpl-chinese            "Kiinalainen, yksinkertaistettu">
+<!ENTITY  font.langGroup.trad-chinese-hk          "Kiinalainen, perinteinen (Hong Kong)">
+<!ENTITY  font.langGroup.korean                   "Korealainen">
+<!ENTITY  font.langGroup.cyrillic                 "Kyrillinen">
+<!ENTITY  font.langGroup.baltic                   "Balttilainen">
+<!ENTITY  font.langGroup.el                       "kreikka">
+<!ENTITY  font.langGroup.turkish                  "turkki">
+<!ENTITY  font.langGroup.unicode                  "Muut Kielet">
+<!ENTITY  font.langGroup.user-def                 "Käyttäjän määrittelemä">
+<!ENTITY  font.langGroup.thai                     "thai">
+<!ENTITY  font.langGroup.hebrew                   "heprea">
+<!ENTITY  font.langGroup.arabic                   "arabia">
+<!ENTITY  font.langGroup.devanagari               "Devanagari">
+<!ENTITY  font.langGroup.tamil                    "tamili">
+<!ENTITY  font.langGroup.armenian                 "armenia">
+<!ENTITY  font.langGroup.bengali                  "bengali">
+<!ENTITY  font.langGroup.canadian                 "yleiskanada">
+<!ENTITY  font.langGroup.ethiopic                 "etiopia">
+<!ENTITY  font.langGroup.georgian                 "georgia">
+<!ENTITY  font.langGroup.gujarati                 "gujarati">
+<!ENTITY  font.langGroup.gurmukhi                 "gurmukhi">
+<!ENTITY  font.langGroup.khmer                    "khmer">
+<!ENTITY  font.langGroup.malayalam                "malajalam">
+<!-- Minimum font size -->
+<!ENTITY minSize.label                            "Vähimmäisfonttikoko:">
+<!ENTITY minSize.accesskey                        "V">
+<!ENTITY minSize.none                             "Ei mitään">
+
+<!-- default font type -->
+<!ENTITY  useDefaultFontSerif.label               "Serif">
+<!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
+
+<!ENTITY  newLanguages.label                      "Uusia kieliä voidaan asettaa käyttämällä Kielipaneelia.">
+
+<!ENTITY  useDocumentFonts.label                  "Salli dokumenttien käyttää muita fontteja">
+<!ENTITY  useDocumentFonts.accesskey              "o">
+
+<!-- leaving this stuff in for now -->
+
+<!ENTITY  header2                                 "Kun webbisivu valitsee oman kirjasimensa">
+<!ENTITY  useDefaultFont.label                    "Käytä oletuskirjasimia, älä välitä sivun valitsemista kirjasimista">
+<!ENTITY  useDefaultFont.accesskey                "u">
+<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY  useDocFontNonDynamic.label              "Käytä sivun kirjasimia">
+<!ENTITY  useDocFontNonDynamic.accesskey          "K">
+<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY  useDocFontDynamic.label                 "Käytä kaikkia sivun kirjasimia">
+<!ENTITY  useDocFontDynamic.accesskey             "a">

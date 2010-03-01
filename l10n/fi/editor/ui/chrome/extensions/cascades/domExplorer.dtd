@@ -11,15 +11,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is Nvu.
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
    -
    - The Initial Developer of the Original Code is
-   - Linspire Inc..
-   - Portions created by the Initial Developer are Copyright (C) 2004
+   - Fabien Cazenave.
+   - Portions created by the Initial Developer are Copyright (C) 2002
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
-   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -   Original author: Fabien Cazenave <kaze@kompozer.net>
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -35,11 +35,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY aboutDialog.title      "Tietoja &brandShortName;:sta">
-<!ENTITY copyright              "Tekijänoikeus- ja avustajatiedot">
-<!ENTITY copyrightLink          "http://kompozer.net/about/">
-<!ENTITY credits                "Tekijät">
-<!ENTITY aboutVersion           "versio">
-<!ENTITY copyrightText          "&#169;1998-2010 Contributors. All Rights Reserved.">
-<!ENTITY aboutLink              "&lt; Tietoja &brandShortName;:sta">
 
+<!ENTITY domExplorer.label                      "DOM-selaaja">
+
+<!ENTITY html.label                             "HTML">
+<!ENTITY css.label                              "CSS">
+<!ENTITY htmlcss.label                          "HTML+CSS">
+
+<!ENTITY id.label                               "id">
+<!ENTITY class.label                            "class">
+<!ENTITY elements.label                         "Elements">
+<!ENTITY style.label                            "style">
+<!ENTITY styleRules.label                       "Style Rules">
