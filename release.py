@@ -42,7 +42,8 @@ LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
 # INPUT: en-US raw binaries                                                   #
 # -------------------------                                                   #
 #                                                                             #
-#   LINUX                MacOSX                     WIN32                     #
+#      __LINUX__              __MacOSX__                __WIN32__             #
+#                                                                             #
 #                          KompoZer.app/                                      #
 #                            Contents/                                        #
 #     kompozer/                MacOS/                 KompoZer/               #
@@ -66,7 +67,7 @@ LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
 # --------------------------                                                  #
 #                                                                             #
 # build/                                                                      #
-#   test/                [version]/                                           #
+#   bin/                 [version]/                                           #
 #     linux-i686/          linux-i686/                                        #
 #       %ab_cd%              kompozer-%version%.%ab_cd%-gcc4.2-i686.tar.gz    #
 #         kompozer/        macosx/                                            #
@@ -353,10 +354,16 @@ def main():
     srcPath = srcPath[0:-1]
   if os.path.basename(srcPath) == "KompoZer.app":
     platform = "mac"
-  elif os.path.exists(srcPath + "/kompozer.exe"):
-    platform = "win"
   elif os.path.exists(srcPath + "/kompozer-bin"):
     platform = "linux"
+  elif os.path.exists(srcPath + "/kompozer.exe"):
+    platform = "win"
+    # check MSVC70 DLLs (it's easy to forget them...)
+    hasMSVC7 = os.path.exists(srcPath + "/msvcp70.dll") \
+           and os.path.exists(srcPath + "/msvcr70.dll")
+    if not hasMSVC7:
+      print("MSVC7 DLLs are missing, can't build Windows versions.")
+      return
   else:
     print("not a kompozer binary.")
     return

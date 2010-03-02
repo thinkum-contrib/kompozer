@@ -27,8 +27,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "build\test\win32\@LOCALE@\KompoZer\kompozer.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "build\test\win32\@LOCALE@\KompoZer\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "build\bin\win32\@LOCALE@\KompoZer\kompozer.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "build\bin\win32\@LOCALE@\KompoZer\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

@@ -34,6 +34,31 @@ import sys
 
 VERSION = "0.8b3"
 
+
+###############################################################################
+#                                                                             #
+#  This script converts data frome chrome/ to l10n/ and build/                #
+#   - basically, it builds language packs :-)                                 #
+#                                                                             #
+###############################################################################
+#                                                                             #
+#  build/                                                                     #
+#    = output directory for the language packs (JAR and XPI files)            #
+#                                                                             #
+#  chrome/                                                                    #
+#    = main directory, used to:                                               #
+#       * import/export data from/to l10n/      (l10n2chrome, chrome2l10n)    #
+#       * generate JAR and XPI files in build/   (chrome2jar, chrome2xpi)     #
+#    chrome-path file structure:                                              #
+#      all files in chrome/ are stored as they are in a language pack         #
+#                                                                             #
+#  l10n/                                                                      #
+#    = clone of the mercurial repository                                      #
+#    the file structure conforms to the official Mozilla l10n repositories    #
+#    but it can't be used 'as is' to generate language packs                  #
+#                                                                             #
+###############################################################################
+
 # preferences: adapt these lines to your config
 L10N_ROOT     = "l10n/"
 IMPORT_ROOT   = "l10n.CVS/"
@@ -82,7 +107,7 @@ def xcopy(source, dest):
 
 ###############################################################################
 #                                                                             #
-#     l10n converters                                                         #
+#     L10n utilities                                                          #
 #                                                                             #
 ###############################################################################
 
@@ -106,26 +131,7 @@ def l10nCopy(sourceDir, destDir, indexFile):
       # copy file to l10n directory
       xcopy(source, dest)
 
-# import chrome files into the l10n repository
-def chrome2l10n(chromeDir, l10nDir, indexFile):
-  print "importing " + chromeDir + " to " + l10nDir + " following " + indexFile
-
-  infile = open(indexFile, "r")
-  for line in infile:
-
-    # ignore line if chrome and/or l10n is not defined
-    if line.find(CHROME_SEP)>0 and line.find(L10N_SEP)>0:
-
-      # get chrome and l10n paths
-      tmp    = line.partition(L10N_SEP)
-      l10n   = l10nDir + tmp[2].strip()
-      tmp    = tmp[0].partition(CHROME_SEP)
-      chrome = chromeDir + tmp[2].strip()
-
-      # copy chrome file to l10n directory
-      xcopy(chrome, l10n)
-
-# export chrome files from the l10n repository
+# pull chrome files from the l10n repository
 def l10n2chrome(l10nDir, chromeDir):
   print "exporting " + l10nDir + " to " + chromeDir + " following " + INDEX_FILE
 
@@ -147,7 +153,26 @@ def l10n2chrome(l10nDir, chromeDir):
   # this file has to be added separately (not to be translated)
   xcopy(BRAND_FILE, chromeDir + "/global/brand.dtd")
 
-# create JAR archive from a chrome-path directory
+# push chrome files into the l10n repository
+def chrome2l10n(chromeDir, l10nDir, indexFile):
+  print "importing " + chromeDir + " to " + l10nDir + " following " + indexFile
+
+  infile = open(indexFile, "r")
+  for line in infile:
+
+    # ignore line if chrome and/or l10n is not defined
+    if line.find(CHROME_SEP)>0 and line.find(L10N_SEP)>0:
+
+      # get chrome and l10n paths
+      tmp    = line.partition(L10N_SEP)
+      l10n   = l10nDir + tmp[2].strip()
+      tmp    = tmp[0].partition(CHROME_SEP)
+      chrome = chromeDir + tmp[2].strip()
+
+      # copy chrome file to l10n directory
+      xcopy(chrome, l10n)
+
+# create a JAR archive from a chrome-path directory
 def chrome2jar(locale):
   cwd = os.getcwd()
   if not os.path.exists(CHROME_ROOT + locale):
@@ -172,7 +197,7 @@ def chrome2jar(locale):
   shell("rm -rf " + tmpDir)
   return BUILD_JAR + jarFile
 
-# create XPI langpack from a chrome-path directory
+# create an XPI langpack from a chrome-path directory
 def chrome2xpi(locale):
   cwd = os.getcwd()
   xpiFile = "kompozer-" + VERSION + "." + locale + ".xpi"
@@ -195,17 +220,14 @@ def chrome2xpi(locale):
   shell(sed + INSTALL_FILE  + " > " + tmpDir   + "install.rdf")
   shell(sed + PREFS_FILE    + " > " + tmpPrefs + "prefs.js")
 
-  # add [locale].jar to the 'chrome' subdir
-  jarFile = chrome2jar(locale)
-  shell("cp " + jarFile + " " + tmpChrome)
-
   # make kompozer-[VERSION].[locale].xpi in BUILD_XPI
+  jarFile = chrome2jar(locale) # add [locale].jar to the 'chrome' subdir
+  shell("cp " + jarFile + " " + tmpChrome)
   os.chdir(tmpDir)
   shell("zip -qr " + cwd + "/" + BUILD_XPI + xpiFile + " *")
-  #shell("mv " + xpiFile + " " + cwd)
+  os.chdir(cwd)
 
   # remove temp files, done
-  os.chdir(cwd)
   shell("rm -rf " + tmpDir)
   return BUILD_XPI + xpiFile
 
