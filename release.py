@@ -33,8 +33,8 @@ import os
 import sys
 
 VERSION = "0.8b3"
-LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
-           "it", "ja", "nl", "pl", "pt-PT", "ru", "zh-CN", "zh-TW"]
+LOCALES = ["ca", "cs", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", \
+           "hsb", "it", "ja", "nl", "pl", "pt-PT", "ru", "zh-CN", "zh-TW"]
 
 
 ###############################################################################
@@ -288,6 +288,7 @@ def makeInnoSetup(srcDir, locale):
   langDict = {                      \
     'bg'   : 'Bulgarian',           \
     'ca'   : 'Catalan',             \
+    'cs'   : 'Czech',               \
     'da'   : 'Danish',              \
     'de'   : 'German',              \
     'en-US': 'English',             \
