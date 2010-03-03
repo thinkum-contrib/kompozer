@@ -69,14 +69,14 @@ LOCALES = ["ca", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", \
 # build/                                                                      #
 #   bin/                 [version]/                                           #
 #     linux-i686/          linux-i686/                                        #
-#       %ab_cd%              kompozer-%version%.%ab_cd%-gcc4.2-i686.tar.gz    #
+#       @ab-CD@              kompozer-@version@.@ab-CD@-gcc4.2-i686.tar.gz    #
 #         kompozer/        macosx/                                            #
-#     macosx/                kompozer-%version%.%ab_cd%-macosx-universal.dmg  #
-#       %ab_cd%            win32/                                             #
-#         kompozer.app/      exe/                                             #
-#     win32/                   kompozer-%version%.%ab_cd%-win32.exe           #
-#       %ab_cd%              zip/                                             #
-#         kompozer/            kompozer-%version%.%ab_cd%-win32.zip           #
+#     macosx/                kompozer-@version@.@ab-CD@-mac-universal.dmg     #
+#       @ab-CD@            win32/                                             #
+#         KompoZer.app/      exe/                                             #
+#     win32/                   kompozer-@version@.@ab-CD@-win32.exe           #
+#       @ab-CD@              zip/                                             #
+#         KompoZer/            kompozer-@version@.@ab-CD@-win32.zip           #
 #                                                                             #
 ###############################################################################
 
@@ -213,10 +213,10 @@ def makeBinary(srcDir, platform, locale):
   if (locale == "ja"):
     replaceInFile(acceptCharsets, "Shift_JIS,\*,utf-8",    "all.js")
     replaceInFile(customCharset,  "Shift_JIS",             "editor.js")
-  elif (locale == "zh-CN" or locale == "zh-TW" or locale == "hsb"):
+  elif (locale == "zh-CN" or locale == "zh-TW" or locale == "hsb" or locale == "eo"):
     replaceInFile(acceptCharsets, "utf-8,\*,iso-8859-1",   "all.js")
     replaceInFile(customCharset,  "UTF8",                  "editor.js")
-  elif (locale == "hu" or locale == "pl"):
+  elif (locale == "cs" or locale == "hu" or locale == "pl"):
     replaceInFile(acceptCharsets, "iso-8859-2,\*,utf-8",   "all.js")
     replaceInFile(customCharset,  "ISO-8859-2",            "editor.js")
   elif (locale == "ru"):
@@ -255,7 +255,7 @@ def makePackage(srcDir, platform, locale):
   # MacOSX: dmg image
   elif (platform == "mac"):
     baseDir += "/macosx/"
-    baseFile += ".macosx-universal.dmg"
+    baseFile += ".mac-universal.dmg"
     shell("mkdir -p " + baseDir)
     srcfolder = ' -srcfolder "' + srcDir + '"'
     volname = ' -volname "KompoZer ' + locale + '" '
