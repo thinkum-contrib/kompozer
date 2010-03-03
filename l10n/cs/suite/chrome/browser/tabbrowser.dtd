@@ -9,6 +9,5 @@
 <!ENTITY reloadAllTabs.accesskey "b">
 <!ENTITY reloadTab.label "Obnovit panel">
 <!ENTITY reloadTab.accesskey "O">
-<!ENTITY bookmarkGroup.label "Přidat tuto skupinu panelů k záložkám">
-<!ENTITY bookmarkGroup.accesskey "P">
-<!ENTITY newTabButton.tooltip "Otevře nový panel">
+<!ENTITY newTabButton.tooltip "Otevřít nový panel">
+<!ENTITY listAllTabs.label      "Ukázat všechny panely">

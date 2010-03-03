@@ -9,6 +9,12 @@
 
 <!-- pref-tabs.xul -->
 <!ENTITY urlbar.label "Control+Enter v adresním řádku">
-<!ENTITY urlbar.accesskey "L">
 <!ENTITY middleClick.label "Prostřední tlačítko, Ctrl+klepnutí nebo Ctrl+Enter na odkazu na webové stránce">
-<!ENTITY middleClick.accesskey "S">
+
+<!ENTITY winhooks.label "Systém">
+
+<!ENTITY defaultBrowserGroup.label  "Výchozí prohlížeč">
+<!ENTITY defaultBrowserButton.label "Nastavit výchozí prohlížeč">
+<!ENTITY alreadyDefaultText         "&brandShortName; již je vaším výchozím prohlížečem.">
+<!ENTITY defaultPendingText         "&brandShortName; bude po kliknutí na OK nastaven jako výchozí prohlížeč.">
+<!ENTITY makeDefaultText            "Nastavit &brandShortName; jako výchozí prohlížeč.">

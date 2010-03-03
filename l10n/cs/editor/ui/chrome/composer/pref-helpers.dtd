@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Externí aplikace">
+
+<!ENTITY application.label            "Aplikace:">
+<!ENTITY webBrowser.label             "Webový prohlížeč">
+<!ENTITY textEditor.label             "Textový editor">
+<!ENTITY imageEditor.label            "Grafický editor">
+<!ENTITY mediaPlayer.label            "Přehrávač multimédií">
+<!ENTITY fileManager.label            "Správce souborů">
+<!ENTITY ftpClient.label              "FTP klient">
+
+<!ENTITY useSystemHelper.label        "použít systémového nastavení">
+<!ENTITY useCustomHelper.label        "použít vlastní nastavení aplikací:">
+<!ENTITY path.label                   "cesta k souboru">
+<!ENTITY arguments.label              "argumenty">
+<!ENTITY filePicker.tooltip           "Vybrat soubor…">
+
+<!ENTITY fileFilter.label             "Přípony souborů (*) pro:">
+<!ENTITY default.label                "výchozí">
+<!ENTITY needToRestart.label          "(*) Změna těchto nastavení se projeví až po restartu KompoZeru.">
+

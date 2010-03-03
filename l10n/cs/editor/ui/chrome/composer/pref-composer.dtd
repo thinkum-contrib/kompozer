@@ -26,5 +26,7 @@
 <!ENTITY showPublishDialog.label "Vždy zobrazit dialog s nastavením pro publikování stránek">
 <!ENTITY siteManager.label "Správce serveru">
 <!ENTITY tableEditing.label "Úprava tabulky">
-<!ENTITY title.label "Obecné">
+<!ENTITY title.label "General">
 <!ENTITY useCSS.label "Použít CSS styly místo HTML elementů a atributů">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Použít systémové ikony">

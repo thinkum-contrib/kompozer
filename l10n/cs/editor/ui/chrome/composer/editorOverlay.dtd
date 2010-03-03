@@ -124,16 +124,14 @@
 <!ENTITY editRewrapCmd.label "Přerozdělit" >
 <!ENTITY findCmd.label "Najít a nahradit…" >
 <!ENTITY editfind.accesskey "n" >
-<!ENTITY editfind.keybinding "VK_F3" >
-<!ENTITY editfind.keybinding2 "VK_F19" >
+<!ENTITY editfind.keybinding "f" >
+<!ENTITY editfind.keybinding2 "f" >
 <!ENTITY findAgainCmd.label "Najít další" >
 <!ENTITY editfindnext.accesskey "d" >
 <!ENTITY editfindnext.keybinding "VK_F3" >
-<!ENTITY editfindnext.keybinding2 "VK_F3" >
 <!ENTITY findPrevCmd.label "Najít předchozí" >
 <!ENTITY editfindprev.accesskey "p" >
 <!ENTITY editfindprev.keybinding "VK_F3" >
-<!ENTITY editfindprev.keybinding2 "VK_F3" >
 <!ENTITY checkSpellingCmd.label "Kontrola pravopisu" >
 <!ENTITY markupCleanerCmd.label "Vyčistit kód">
 <!ENTITY markupcleaner.accesskey "k">
@@ -215,18 +213,18 @@
 <!ENTITY insertisindex.accesskey "i" >
 <!ENTITY createLinkCmd.label "Vytvořit odkaz…" >
 <!ENTITY createlink.accesskey "o" >
-<!ENTITY editLinkCmd.label "Uprav odkaz v novém okně" >
+<!ENTITY editLinkCmd.label "Upravit odkaz v novém okně" >
 <!ENTITY editlink.accesskey "n" >
 <!ENTITY undoCmd.label "Zpět" >
-<!ENTITY undo.accesskey "Z" >
+<!ENTITY undo.accesskey "z" >
 <!ENTITY redoCmd.label "Znovu" >
-<!ENTITY redo.accesskey "n" >
+<!ENTITY redo.accesskey "o" >
 <!ENTITY cutCmd.label "Vyjmout" >
-<!ENTITY cut.accesskey "t" >
+<!ENTITY cut.accesskey "y" >
 <!ENTITY copyCmd.label "Kopírovat" >
-<!ENTITY copy.accesskey "K" >
+<!ENTITY copy.accesskey "k" >
 <!ENTITY pasteCmd.label "Vložit" >
-<!ENTITY paste.accesskey "V" >
+<!ENTITY paste.accesskey "l" >
 <!ENTITY deleteCmd.label "Smazat" >
 <!ENTITY delete.accesskey "m" >
 <!ENTITY clearCmd.label "Vyčistit" >
@@ -247,7 +245,7 @@
 <!ENTITY fonttimes.accesskey "t" >
 <!ENTITY fontCourier.label "Courier" >
 <!ENTITY fontcourier.accesskey "c" >
-<!ENTITY localfontfaceMenu.label "Lokální­písma" >
+<!ENTITY localfontfaceMenu.label "Lokální ­písma" >
 <!ENTITY localfontmenu.accesskey "L" >
 <!ENTITY FontSizeSelect.tooltip "Vybrat velikost fontu" >
 <!ENTITY decreaseFontSize.label "Zmenšit" >
@@ -503,7 +501,7 @@
 <!ENTITY tableToolbarCmd.label "Tabulka" >
 <!ENTITY tableToolbarCmd.tooltip "Vloží novou tabulku nebo upraví vlastnosti vybrané tabulky" >
 <!ENTITY linkToolbarCmd.label "Odkaz" >
-<!ENTITY linkToolbarCmd.tooltip "Vloží­nový odkaz nebo upraví vlastnosti vybraného odkazu" >
+<!ENTITY linkToolbarCmd.tooltip "Vloží ­nový odkaz nebo upraví vlastnosti vybraného odkazu" >
 <!ENTITY anchorToolbarCmd.label "Kotva" >
 <!ENTITY anchorToolbarCmd.tooltip "Vloží novou kotvu nebo upraví vlastnosti vybrané kotvy" >
 <!ENTITY textColorCaption.label "Barva textu" >
@@ -557,7 +555,7 @@
 <!ENTITY HTMLSourceMode.tooltip "Úprava zdrojového HTML kódu" >
 <!ENTITY PreviewMode.label "Náhled" >
 <!ENTITY PreviewMode.accesskey "h" >
-<!ENTITY PreviewMode.tooltip "Zobrazí­stránku jako v prohlížeči" >
+<!ENTITY PreviewMode.tooltip "Zobrazí ­stránku jako v prohlížeči" >
 <!ENTITY SourceTabDirection "ltr" >
 <!ENTITY structSelect.label "Vybrat" >
 <!ENTITY structSelect.accesskey "a" >
@@ -612,11 +610,11 @@
 <!ENTITY nvucommenu.accesskey     "K">
 <!ENTITY faqMenu.label            "FAQ">
 <!ENTITY faqmenu.accesskey        "F">
-<!ENTITY bugReportsMenu.label     "Chybová hlášení­a návrhy">
+<!ENTITY bugReportsMenu.label     "Chybová hlášení ­a návrhy">
 <!ENTITY bugreportsmenu.accesskey "b">
 <!ENTITY nvudevOrgMenu.label      "Komunita vývojářů">
 <!ENTITY nvudevorgmenu.accesskey  "K">
-<!ENTITY nvuForumsMenu.label      "Diskuzní­fórum">
+<!ENTITY nvuForumsMenu.label      "Diskuzní ­fórum">
 <!ENTITY nvuforumsmenu.accesskey  "f">
 <!ENTITY supportKompoZer.label     "Support &brandShortName;">
 <!ENTITY supportKompoZer.accesskey "s">
@@ -628,10 +626,6 @@
 <!ENTITY localizingNvu.label      "Lokalizace &brandShortName;u">
 <!ENTITY userGuideMenu.label      "Uživatelská příručka (on-line)">
 <!ENTITY userguidemenu.accesskey  "U">
-<!ENTITY aboutLinspire.label      "O společnosti Linspire Inc.">
-<!ENTITY aboutlinspire.accesskey  "L">
-<!ENTITY aboutDI.label            "O Disruptive Innovations">
-<!ENTITY aboutDI.accesskey        "I">
 
 <!ENTITY leftGlued.tooltip        "Přilepit na levý okraj">
 <!ENTITY rightGlued.tooltip       "Přilepit na pravý okraj">
@@ -642,9 +636,41 @@
 
 <!ENTITY spellSuggestions.label   "Oprava pravopisu">
 <!ENTITY spellSuggestions.accesskey "p">
-<!ENTITY spellAddToDictionary.label "Přidej do slovníku">
 
 <!ENTITY refreshImages.label       "Znovunačíst obrázky">
 <!ENTITY refreshImages.accesskey   "n">
 <!ENTITY filepreview.keybinding    "VK_F5">
 <!ENTITY filerevert.keybinding     "r">
+
+<!-- KompoZer 0.8: SpellCheck -->
+<!ENTITY spellCheckNoSuggestions.label       "(Žádné návrhy)">
+<!ENTITY spellCheckIgnoreWord.label          "Ignorovat">
+<!ENTITY spellCheckIgnoreWord.accesskey      "I">
+<!ENTITY spellCheckAddToDictionary.label     "Přidat do slovníku">
+<!ENTITY spellCheckAddToDictionary.accesskey "d">
+<!ENTITY enableInlineSpellChecker.label      "Automatická kontrola pravopisu">
+<!ENTITY enableInlineSpellChecker.accesskey  "t">
+
+<!-- KompoZer 0.8: viewSource -->
+<!ENTITY editNode.label                      "Upravit HTML">
+<!ENTITY editHead.label                      "Upravit oblast &lt;head&gt;">
+<!ENTITY editBody.label                      "Upravit oblast &lt;body&gt;">
+<!ENTITY confirmNode.label                   "Potvrdit změny">
+<!ENTITY cancelNode.label                    "Zrušit změny">
+
+<!-- KompoZer 0.8: text editor -->
+<!ENTITY extEditor.label                     "HTML">
+<!ENTITY extEditor.tooltip                   "Otevřít tento dokument v externím editoru">
+<!ENTITY extEditorCmd.label                  "Externí textový editor">
+<!ENTITY extEditorCmd.accesskey              "T">
+
+<!-- Edit Mode toolbar and View menu items -->
+<!ENTITY DesignMode.label                    "Návrh">
+<!ENTITY DesignMode.accesskey                "N">
+<!ENTITY DesignMode.tooltip                  "Normalní režim úprav">
+<!ENTITY SplitMode.label                     "Rozdělení">
+<!ENTITY SplitMode.accesskey                 "R">
+<!ENTITY SplitMode.tooltip                   "Zobrazit HTML kód aktuálního elementu">
+
+<!ENTITY helpMenuWin.label                   "Nápověda"> 
+<!ENTITY helpMenuWin.accesskey               "N">

@@ -1,114 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"[
-    <!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd" >
+    <!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd" >
     %brandDTD;
 ]
 >
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Using the Help Window</title>
+	<title>Jak používat nápovědu</title>
 	<link rel="stylesheet" type="text/css" href="chrome://help/skin/helpFileLayout.css"/>
 </head>
 
 <body>
 
-<script type="text/javascript">
-var isDisplayed = true;
+<h1 id="help_window_top">Jak používat nápovědu</h1>
 
-function togglePanel() {
-  isDisplayed = !isDisplayed;
-  var displayValue = isDisplayed ? "display: block" : "display: none";
-  var bodyValue = isDisplayed ? "margin-left: 175px" : "margin-left:5px";
+<p>Tato kapitola popisuje, jakým způsobem používat okno nápovědy.</p>
 
-  document.getElementById("contentsBox").setAttribute("style", displayValue);
-  document.getElementsByTagName("body").item(0).setAttribute("style", bodyValue);
-}
-</script>
-
-<table width="100%" id="navTable">
-<tr>
-<td valign="bottom" width="20"><small><a href="#" onclick="togglePanel();" style="margin-top:10px;">Show/Hide</a></small></td>
-<td width="72"><img src="chrome://editor/skin/icons/throbber-single.png" width="52" height="52" alt="Nvu" align="center"/></td><td align="left"><span id="topText">Help Center</span></td>
-</tr>
-</table>
-<div id="contentsBox">In this section:
-  <a href="#finding_the_topic_you_want">Finding the Topic You Want</a>
-  <a href="#retracing_your_steps">Retracing Your Steps</a>
-  <a href="#search_tips">Search Tips</a>
+<div class="contentsBox">V této kapitole:
+  <ul>
+    <li><a href="#finding_the_topic_you_want">Panely nápovědy</a></li>
+    <li><a href="#retracing_your_steps">Navigace a tisk</a></li>
+    <li><a href="#search_tips">Tipy pro vyhledávání</a></li>
+  </ul>
 </div>
 
-<h1 id="help_window_top">Using the Help Window</h1>
+<h2 id="finding_the_topic_you_want">Panely nápovědy</h2>
 
-<p>This section describes how to use the Help window (the entire window in
-  which this text and the Sidebar on the left are displayed).</p>
-
-<h2 id="finding_the_topic_you_want">Finding the Topic You Want</h2>
-
-	<p>When you're viewing the Help window, click the tabs in the left frame to view
-	  the Help contents in different ways:</p>
+		<p>V levé části okna nápovědy je rám s několika panely, který vám umožňuje různým způsobem nalézt hledané téma:</p>
+ 
 	<ul>
-		<li><strong>Contents</strong> shows the list of main topics.<br/>
-		  Click a topic to read about it. Double-click to see its subtopics.</li>
-		 <li><strong>Search</strong> lets you search the Help files.<br/>
-		  Type a word or phrase and press Enter to see related topics. Then click
-		  the topic you want to read about.<br/><br/>
-		  If your search doesn't return any topics, try typing fewer words or a
-		  different combination of words.</li>
-		 <li><strong>Index</strong> lists topics alphabetically.<br/>Click an index entry
-		 to view information on that topic.</li>
-		 <li><strong>Glossary</strong> lists definitions alphabetically.<br/>Click
-		 a glossary term to see its definition.</li>
+		<li><strong>Obsah</strong>: zobrazuje seznam kapitol nápovědy. Pro zobrazení kapitoly klepněte kurzorem myši na její 
+    název. Je-li vlevo u názvu malý trojúhleníček, můžete dvojitým klepnutím na název kapitoly rozvinout seznam 
+    podkapitol.</li>
+		 <li><strong>Hledat</strong>: umožní vám prohledat seznam důležitých slov a frází v nápovědě. 
+     Pro vyhledání zadejte slovo nebo frázi a stiskněte klávesu Enter. Pro zobrazení přidruženého tématu nápovědy 
+     klepněte kurzorem myši na nalezené záznamy.</li>
+		 <li><strong>Rejstřík</strong>: zobrazuje abecedně řazený seznam témat v nápovědě. Pro zobrazení tématu nápovědy 
+     klepněte kurzorem myši na vybranou položku rejstříku.</li>
+		 <li><strong>Slovník</strong>: zobrazuje abecedně řazený seznam pojmů používaných v nápovědě či při komunikaci na 
+     Internetu. Pro zobrazení definice klepněte kurzorem myši na vybraný pojem.</li>
 	</ul>
 
-	<p>To see information related to the Help topic you are reading, click
-	  links in the Help window just as you would in a regular web page.</p>
 
-<h2 id="retracing_your_steps">Retracing Your Steps</h2>
-	<p>To retrace your steps in Help, click the buttons near the top left corner of
-	  the Help window:</p>
+	<p>Při čtení tématu nápovědy můžete zobrazit související informace klepnutí na odkaz, podobně jako na webové stránce.</p>
 
-	<p><img src="http://mozilla.org/projects/firefox/help/1.0/help-buttons.png" alt="" width="209" height="43"/></p>
+<h2 id="retracing_your_steps">Navigace a tisk</h2>
+	<p>Při prohlížení nápovědy postupujte jako při prohlížení webových stránek. Pro posun na zvolenou sekci kapitoly 
+  klepněte na její název v obsahu kapitoly — šedivě zabarvená oblast s odkazy. Jednotlivá témata nápovědy jsou také mezi 
+  sebou navzájem provázána. Pro přechod z jedné kapitoly do druhé klepněte na odpovídající odkaz v textu nápovědy.</p>
 
-	<ul>
-	        <li>Click the Show/Hide Sidebar button to show and hide the Sidebar contained
-	          on the left side of the Help Window.</li>
-		<li>Click the Back button to move back through pages you have previously
-		  visited. It works just like the Back button in the main &brandShortName;
-		  window.</li>
-		<li>Click the Forward button to move forward through pages you have previously
-		  visited. It works just like the Forward button in the main &brandShortName;
-		  window.</li>
-		<li>Click the Home button to see the Help and Support Center, which includes
-		  links to support options and web-based resources.</li>
-	</ul>
-
-	<p>Alternatively, print the instructions you want to follow:</p>
+	<p><img src="images/help-buttons.png" alt="" width="187" height="42"/></p>
 
 	<ul>
-		<li>To print the whole page that's currently displayed in the Help window,
-		  click the Print button near the top-right corner of the Help window:<br/>
-
-		<img src="http://mozilla.org/projects/firefox/help/1.0/print.png" alt="" width="38" height="43"/></li>
-
-		<li>To print just a portion of the page, first click and drag to select the
-		  area you want to print and then click the Print button.</li>
+		<li>Po klepnutí na tlačítko <em>Zpět</em> se přesunete na předcházející stránku. Jedná se o podobnou funkci
+     jako tlačítko <em>Zpět</em> v hlavním okně &brandShortName;.</li>
+		<li>Po klepnutí na tlačítko <em>Vpřed</em> se přesunete na následující stránku. Tu stránku jste již v minulosti 
+    prohlíželi. Jedná se o podobnou funkci jako tlačítko <em>Vpřed</em> v hlavním okně &brandShortName;.</li>
+		<li>Po klepnutí na tlačítko <em>Domů</em> se zobrazí Nápověda a Centrum podpory, které obsahuje odkazy na  
+    podporu a informační zdroje umístěné na webu.</li>
 	</ul>
 
-<h2 id="search_tips">Search Tips</h2>
-	<p>If you aren't finding what you want in your search, here are a few helpful tips:</p>
+	<p>Nápovědu si můžete také vytisknout:</p>
 
 	<ul>
-		<li>Be sure that you are searching for something that relates to
-		  &brandShortName;; this is not a general Internet search.</li>
-        	<li>Try to broaden your search - don't be too specific; terms
-		  could be worded differently than your search.</li>
-		<li>Avoid being too broad with your search: words like &quot;&brandShortName;&quot;
-		  and &quot;&vendorShortName;&quot; could possibly return all of the pages in the help file.</li>
+		<li>K vytištění celé stránky (kapitoly) načtené v okně nápovědy klepněte na ikonku tiskárny.
+
+		<img src="images/print.png" alt="" width="38" height="45"/></li>
+
+		<li>K vytištění pouze části stránky (kapitoly) načtené v okně nápovědy, označte myší požadovanou oblast a klepněte na
+     ikonku tiskárny.</li>
 	</ul>
 
-<div class="copyrightBox"><em>29 March 2005</em></div>
-<p>Copyright &copy; 2003-2004 Contributors to the Nvu Help Documentation Project.</p>
+<h2 id="search_tips">Tipy pro vyhledávání</h2>
+	<p>Pokud se vám nedaří nalézt to, co hledáte, zkuste použít následující tipy:</p>
+
+	<ul>
+		<li>
+    Ujistěte se, že hledáte něco, co souvisí s &brandShortName;. Toto není vyhledávání na Internetu.</li>
+   <li>Zkuste rozšířit vaše hledání - nebuďte příliš specifičtí. Termíny mohou být vyjádřeny jinak, než jakým způsobem 
+   je hledáte.</li>
+		<li>Vyvarujte se příliš všeobecnému zadání hledání. Slova jako &quot;&brandShortName;&quot; či &quot;&vendorShortName;&quot; vám pravděpodobně vyhledají 
+    všechny stránky v nápovědě.</li>
+	</ul>
+
+<div class="contentsBox"><em>7. prosince 2003</em></div>
+<p>Copyright &copy; 2003-2005 Spolupracovníci projektu Mozilla Help Viewer.</p>
 
 </body>
 </html>

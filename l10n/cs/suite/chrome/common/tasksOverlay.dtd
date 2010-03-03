@@ -1,13 +1,13 @@
 <!ENTITY downloadManagerCmd.accesskey "t">
-<!ENTITY downloadManagerCmd.label "Správce stahování souborů">
+<!ENTITY downloadManagerCmd.label "Správce stahování">
 <!ENTITY editorCmd.accesskey "E">
 <!ENTITY editorCmd.commandkey "4">
 <!ENTITY editorCmd.label "Editor">
-<!ENTITY extensions.label "Správce rozšíření">
+<!ENTITY extensions.label "Rozšíření">
 <!ENTITY javaConsoleCmd.accesskey "J">
 <!ENTITY javaConsoleCmd.label "Konzole Javy">
 <!ENTITY javaScriptConsoleCmd.accesskey "s">
-<!ENTITY javaScriptConsoleCmd.label "Konzola JavaScriptu">
+<!ENTITY javaScriptConsoleCmd.label "Konzole JavaScriptu">
 <!ENTITY navigatorCmd.accesskey "P">
 <!ENTITY navigatorCmd.commandkey "1">
 <!ENTITY navigatorCmd.label "Prohlížeč">
@@ -22,8 +22,9 @@
 <!ENTITY taskNavigator.tooltip "Prohlížeč">
 <!ENTITY tasksMenu.accesskey "N">
 <!ENTITY tasksMenu.label "Nástroje">
-<!ENTITY themes.label "Správce motivů vzhledu">
+<!ENTITY themes.label "Motivy vzhledu">
 <!ENTITY webDevelopment.accesskey "w">
 <!ENTITY webDevelopment.label "Vývoj webových stránek">
 <!ENTITY windowMenu.accesskey "O">
 <!ENTITY windowMenu.label "Okno">
+<!ENTITY addons.label    "Správce doplňků">

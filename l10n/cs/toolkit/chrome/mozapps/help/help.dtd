@@ -1,44 +1,91 @@
 <!ENTITY printCmd.commandkey "p">
+<!ENTITY viewCustomizeToolbar.label      "Přizpůsobit…">
+<!ENTITY viewCustomizeToolbar.accesskey  "P">
 
 <!ENTITY findOnCmd.commandkey "F">
 <!ENTITY findAgainCmd.commandkey "G">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY findDialog.title                "Najít na stránce">
+<!ENTITY findDialogFrame.title           "Najít v rámci">
+<!ENTITY findField.label                 "Najít text:">
+<!ENTITY findField.accesskey             "j">
+<!ENTITY caseSensitiveCheckbox.label     "Rozlišovat velikost">
+<!ENTITY caseSensitiveCheckbox.accesskey "R">
+<!ENTITY wrapCheckbox.label              "V celém dokumentu">
+<!ENTITY wrapCheckbox.accesskey          "V">
+<!ENTITY backwardsCheckbox.label         "Pozpátku">
+<!ENTITY backwardsCheckbox.accesskey     "z">
+<!ENTITY findField.tooltip               "Napište hledanou frázi">
+<!ENTITY findButton.label                "Najít další">
+<!ENTITY findButton.accesskey            "N">
+<!ENTITY cancelButton.label              "Zrušit">
+<!ENTITY up.label                        "Nahoru">
+<!ENTITY up.accesskey                    "h">
+<!ENTITY down.label                      "Dolů">
+<!ENTITY down.accesskey                  "D">
+<!ENTITY direction.label                 "Směr">
+
+<!ENTITY find.label                      "Najít:">
+<!ENTITY findNext.label                  "Najít další">
+<!ENTITY findNext.tooltip                "Skočit na další výskyt">
+<!ENTITY findPrevious.label              "Najít předchozí">
+<!ENTITY findPrevious.tooltip            "Skočit na předchozí výskyt">
+<!ENTITY findCloseButton.tooltip         "Zavřít okno hledání">
+<!ENTITY highlight.label                 "Zvýraznit">
+<!ENTITY highlight.tooltip               "Zvýraznit všechny výskyty hledané fráze (Ctrl+Enter)">
 
 <!ENTITY backButton.label "Zpět">
 <!ENTITY backButton.accesskey "Z">
-<!ENTITY backButton.tooltip "Přejde o jednu stránku zpět">
+<!ENTITY backButton.tooltip "Přejít o jednu stránku zpět">
 <!ENTITY forwardButton.label "Vpřed">
 <!ENTITY forwardButton.accesskey "V">
-<!ENTITY forwardButton.tooltip "Přejde na následující stránku">
+<!ENTITY forwardButton.tooltip "Přejít na následující stránku">
 <!ENTITY copyCmd.label "Kopírovat">
 <!ENTITY copyCmd.accesskey "K">
-<!ENTITY selectAllCmd.label "Vybrat vše">
-<!ENTITY selectAllCmd.accesskey "a">
-<!ENTITY goBackCmd.commandkey "[">
-<!ENTITY goForwardCmd.commandkey "]">
 <!ENTITY homeButton.label "Domů">
-<!ENTITY homeButton.tooltip "Přejde na hlavní stránku nápovědy">
+<!ENTITY homeButton.tooltip "Přejít na hlavní stránku nápovědy">
 <!ENTITY printButton.label "Tisk">
-<!ENTITY printButton.tooltip "Vytiskne tuto stránku">
+<!ENTITY printButton.tooltip "Vytisknout tuto stránku">
 <!ENTITY closeWindow.commandkey "W">
 
+<!ENTITY findBtn.label                   "Najít">
+<!ENTITY sidebarBtn.label                "Zapnout/Vypnout sidebar">
+<!ENTITY sidebarBtn.tooltip              "Ukázat nebo skrýt sidebar nápovědy">
+<!ENTITY textZoomReduceBtn.label         "Zmenšit písmo">
+<!ENTITY textZoomReduceBtn.accesskey     "m">
+<!ENTITY textZoomReduceBtn.tooltip       "Zmenšit velikost písma v textu nápovědy.">
+<!ENTITY textZoomEnlargeBtn.label        "Zvětšit písmo">
+<!ENTITY textZoomEnlargeBtn.accesskey    "v">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Zvětšit velikost písma v textu nápovědy.">
+<!ENTITY customizeButton.tooltip         "Přizpůsobit si zobrazování tlačítek na liště nápovědy.">
+<!ENTITY reloadCmd.label                 "Obnovit">
+<!ENTITY reloadCmd.accesskey             "O">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Kopírovat">
+<!ENTITY copyCmd.accesskey               "K">
+
 <!ENTITY throbberItem.title "Průběh">
-<!ENTITY throbber.tooltip "Přejde do kapitoly Jak používat nápovědu">
+
+<!ENTITY cmd_CustomizeToolbars.label     "Přizpůsobit" >
 
 <!ENTITY searchtab.label "Hledat">
 <!ENTITY searchtab.accesskey "H">
 <!ENTITY toctab.label "Obsah">
 <!ENTITY toctab.accesskey "O">
+<!ENTITY searchbtn.label                 "Hledat">
+<!ENTITY indextab.label                  "Rejstřík">
+<!ENTITY indextab.accesskey              "R">
+<!ENTITY ixname.label                    "Jméno">
+<!ENTITY glossarytab.label               "Slovník">
+<!ENTITY glossarytab.accesskey           "o">
+<!ENTITY glossname.label                 "Jméno">
+<!ENTITY gobtn.label                     "Hledat">
+<!ENTITY name.label                      "Téma">
 
 <!ENTITY textZoomReduceCmd.commandkey "-">
 <!ENTITY textZoomEnlargeCmd.commandkey "+"><!-- + is above this key on many keyboards -->
 <!ENTITY textZoomEnlargeCmd.commandkey2 "=">
 <!ENTITY textZoomResetCmd.commandkey "0">
-
-<!ENTITY helpSearch.commandkey          "k">
-
-<!ENTITY zLevel.label "Vždy navrchu">
-<!ENTITY zLevel.accesskey "d">
 
 <!ENTITY textZoomReduceBtn.label        "Zvětšit velikost textu">
 <!ENTITY textZoomReduceBtn.accesskey    "v">

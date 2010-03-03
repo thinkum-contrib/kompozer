@@ -19,3 +19,21 @@
 <!ENTITY sizeColumn.label "Velikost">
 <!ENTITY stopButton.tooltip "Zastavit">
 <!ENTITY treeViewCheckbox.label "Zobrazit strom">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Místní">
+<!ENTITY remoteTab.label          "Vzdálený">
+<!ENTITY ftpConsole.label         "FTP konzole">
+
+<!ENTITY editItem.label           "Upravit">
+<!ENTITY openItem.label           "Otevřít">
+<!ENTITY openAsText.label         "Otevřít jako text">
+<!ENTITY openRemote.label         "Otevřít vzdálený adresář">
+<!ENTITY insertImage.label        "Vložit obrázek">
+<!ENTITY previewItem.label        "Náhled">
+<!ENTITY uploadItem.label         "Zveřejnit…">
+<!ENTITY downloadItem.label       "Obnovit…">
+<!ENTITY itemProperties.label     "Vlastnosti…">
+<!ENTITY filterCSS.label          "CSS stylopis">
+<!ENTITY filterMedia.label        "Soubory s multimédii">
+<!ENTITY filterScripts.label      "Textové soubory">

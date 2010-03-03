@@ -1,7 +1,5 @@
 <!ENTITY urlbar.label "Command+Enter v adresním řádku">
-<!ENTITY urlbar.accesskey "D">
 <!ENTITY middleClick.label "Command+klepnutí nebo Command+Enter na odkazu na webové stránce">
-<!ENTITY middleClick.accesskey "M">
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
      preference dialog's <window> node, which specifies the width and height
      in em units of the dialog. Localizers ONLY can increase these widths 

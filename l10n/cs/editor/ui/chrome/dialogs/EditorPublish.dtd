@@ -11,7 +11,7 @@
 <!ENTITY pageTitle.tooltip "Vkládá nadpis stránky pro identifikaci okna v záložkách">
 <!ENTITY pageTitleExample.label "např.: &quot;Moje první stránka&quot;">
 <!ENTITY password.label "Heslo:">
-<!ENTITY password.tooltip "Heslo přiřazené k uživateli">
+<!ENTITY password.tooltip "Heslo přiřazené k vašemu uživatelském jménu">
 <!ENTITY publishImgCheckbox.label "Zahrnout obrázky a další soubory">
 <!ENTITY publishImgCheckbox.tooltip "Zahrne i obrázky a další soubory odkazované z této stránky">
 <!ENTITY publishSites.label "Weby pro zvěřejnění">
@@ -41,3 +41,23 @@
 <!ENTITY username.tooltip "Jméno uživatele používané pro přihlášení k ISP nebo k hostingovým službám">
 <!ENTITY windowTitle.label "Publikovat stránku">
 <!ENTITY windowTitleSettings.label "Nastavení publikování">
+
+<!-- new strings -->
+<!ENTITY publishButton.label        "Publikovat">
+<!ENTITY generalSettings.label      "Obecná nastavení">
+<!ENTITY ftpSettings.label          "FTP nastavení">
+<!ENTITY localSettings.label        "Místní nastavení">
+<!ENTITY siteDirectory.label        "Adresář webu:">
+<!ENTITY siteDirectory.tooltip      "Adresář na místním disku, kde je váš web uložen">
+<!ENTITY browsePrefix.label         "Prefix:">
+<!ENTITY browsePrefix.tooltip       "Prefix, který má být odstraněn z adresy webu, např. /public_html">
+
+<!ENTITY connection.label           "Typ připojení">
+<!ENTITY port.label                 "Port:">
+<!ENTITY pasv.label                 "Pasivní móde">
+<!ENTITY security.label             "Bezpečnost">
+<!ENTITY none.label                 "Žádná">
+<!ENTITY authtls.label              "Auth TLS (Nejlepší)">
+<!ENTITY authssl.label              "Auth SSL (Lepší)">
+<!ENTITY implicit.label             "Implicit SSL (Dobrá)">
+<!ENTITY treesync.label             "Udržovat adresáře synchronizované">

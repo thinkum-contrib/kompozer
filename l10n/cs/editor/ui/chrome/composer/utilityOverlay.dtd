@@ -22,12 +22,14 @@
 <!ENTITY pasteCmd.accesskey "l">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteCmd.label "Vložit">
-<!ENTITY preferencesCmd.accesskey "o">
-<!ENTITY preferencesCmd.key "E">
-<!ENTITY preferencesCmd.label "Možnosti…">
+<!ENTITY preferencesCmd.accesskey "s">
+<!ENTITY preferencesCmd.key "O">
+<!ENTITY preferencesCmd.label "Nastavení…">
+<!ENTITY preferencesCmdUnix.label "Předvolby…">
+<!ENTITY preferencesCmdUnix.accesskey "v">
 <!ENTITY redoCmd.accesskey "r">
 <!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.label "Znpvu">
+<!ENTITY redoCmd.label "Znovu">
 <!ENTITY selectAllCmd.accesskey "a">
 <!ENTITY selectAllCmd.key "A">
 <!ENTITY selectAllCmd.label "Vybrat vše">

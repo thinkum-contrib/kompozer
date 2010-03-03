@@ -5,27 +5,15 @@
 <!-- LOCALIZATION NOTE (.modifiers): The following entites are for the
   application menu. Never change the modifiers unless you are 100% sure that
   they are different on your locale (should be very rare). -->
-<!ENTITY preferencesCmd.label "Preferences…">
-<!ENTITY preferencesCmd.key ",">
-<!ENTITY preferencesCmd.modifiers "accel">
-<!ENTITY servicesMenu.label "Services">
-<!ENTITY hideThisAppCmd.label "Hide &brandShortName;">
-<!ENTITY hideThisAppCmd.key "H">
-<!ENTITY hideThisAppCmd.modifiers "accel">
-<!ENTITY hideOtherAppsCmd.label "Hide Others">
-<!ENTITY hideOtherAppsCmd.key "H">
-<!ENTITY hideOtherAppsCmd.modifiers "accel,alt">
-<!ENTITY showAllAppsCmd.label "Show All">
 <!ENTITY quitApplicationCmd.label "Ukončit">
 <!ENTITY quitApplicationCmd.key "Q">
-<!ENTITY quitApplicationCmd.modifiers "accel">
 <!-- End of Application menu -->
 
 <!ENTITY closeCmd.label "Zavřít">
 <!ENTITY closeCmd.key "W">
 
 <!ENTITY printSetupCmd.label "Vzhled stránky…">
-<!ENTITY printSetupCmd.accesskey "v">
+<!ENTITY printSetupCmd.accesskey "V">
 
 <!ENTITY redoCmd.label "Znovu">
 <!ENTITY redoCmd.key "Z">
@@ -44,10 +32,8 @@
 <!-- Help menu -->
 <!ENTITY openHelpCmd.label "Nápověda &brandShortName;">
 <!ENTITY openHelpCmd.accesskey "N">
-<!ENTITY openHelpCmd.key "?">
-<!ENTITY openHelpCmd.modifiers "accel">
-
-<!-- Key labels, for mousewheel prefs -->
-<!ENTITY ctrlKey.label "Ctrl">
-<!ENTITY altKey.label "Option">
-<!ENTITY shiftKey.label "Shift">
+<!ENTITY openHelpCmd.key "/">
+<!ENTITY openHelpFrontend.key       "?">
+<!ENTITY openHelpFrontend.modifiers "accel">
+<!ENTITY openHelpCmd.modifiers      "accel,shift">
+<!ENTITY openHelp2Cmd.key           "VK_HELP">
