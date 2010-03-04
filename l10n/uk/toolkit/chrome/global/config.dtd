@@ -1,0 +1,33 @@
+<!ENTITY boolean.accesskey "о">
+<!ENTITY boolean.label "Логічне">
+<!ENTITY columnChooser.tooltip "Натисніть, щоб вибрати колонки для відображення">
+<!ENTITY copyName.accesskey "о">
+<!ENTITY copyName.label "Копіювати ім’я">
+<!ENTITY copyValue.accesskey "о">
+<!ENTITY copyValue.label "Копіювати значення">
+<!ENTITY filterPrefs.accesskey "і">
+<!ENTITY filterPrefs.label "Фільтр:">
+<!ENTITY integer.accesskey "і">
+<!ENTITY integer.label "Ціле">
+<!ENTITY lock.accesskey "а">
+<!ENTITY lock.label "Заблокувати">
+<!ENTITY lockColumn.label "Стан">
+<!ENTITY modify.accesskey "і">
+<!ENTITY modify.label "Змінити">
+<!ENTITY new.accesskey "о">
+<!ENTITY new.label "Створити">
+<!ENTITY prefColumn.label "Ім’я налаштування">
+<!ENTITY prefColumnHeader.tooltip "Натисніть для сортування">
+<!ENTITY reset.accesskey "и">
+<!ENTITY reset.label "Скинути">
+<!ENTITY showAll.accesskey "о">
+<!ENTITY showAll.label "Показати все">
+<!ENTITY string.accesskey "я">
+<!ENTITY string.label "Рядок">
+<!ENTITY toggle.accesskey "е">
+<!ENTITY toggle.label "Перемкнути">
+<!ENTITY typeColumn.label "Тип">
+<!ENTITY unlock.accesskey "о">
+<!ENTITY unlock.label "Розблоковувати">
+<!ENTITY valueColumn.label "Значення">
+<!ENTITY window.title "Консоль налаштувань (about:config)">

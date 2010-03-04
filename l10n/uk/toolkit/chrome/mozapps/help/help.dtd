@@ -1,0 +1,38 @@
+<!ENTITY printCmd.commandkey "p">
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY backButton.label "Назад">
+<!ENTITY backButton.accesskey "а">
+<!ENTITY backButton.tooltip "На попередню сторінку">
+<!ENTITY forwardButton.label "Вперед">
+<!ENTITY forwardButton.accesskey "е">
+<!ENTITY forwardButton.tooltip "На наступну сторінку">
+<!ENTITY copyCmd.label "Копіювати">
+<!ENTITY copyCmd.accesskey "о">
+<!ENTITY selectAllCmd.label "Виділити все">
+<!ENTITY selectAllCmd.accesskey "и">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "На початок">
+<!ENTITY homeButton.tooltip "Перейти до початкової сторінки довідки">
+<!ENTITY printButton.label "Друк">
+<!ENTITY printButton.tooltip "Роздрукувати цю сторінку">
+<!ENTITY closeWindow.commandkey "W">
+<!ENTITY throbberItem.title "Індикатор активності">
+<!ENTITY throbber.tooltip "Перейти до розділу довідки про довідку">
+<!ENTITY searchtab.label "Пошук">
+<!ENTITY searchtab.accesskey "о">
+<!ENTITY toctab.label "Зміст">
+<!ENTITY toctab.accesskey "і">
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY helpSearch.commandkey "k">
+<!ENTITY zLevel.label "Завжди вгорі">
+<!ENTITY zLevel.accesskey "а">
+<!ENTITY textZoomReduceBtn.label "Зменшити розмір шрифту">
+<!ENTITY textZoomReduceBtn.accesskey "е">
+<!ENTITY textZoomEnlargeBtn.label "Збільшити розмір шрифту">
+<!ENTITY textZoomEnlargeBtn.accesskey "і">

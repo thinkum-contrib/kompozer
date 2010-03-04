@@ -1,0 +1,44 @@
+<!ENTITY printSetup.title "Параметри сторінки">
+<!ENTITY basic.tab "Формат і параметри">
+<!ENTITY formatGroup.label "Формат">
+<!ENTITY orientation.label "Орієнтація:">
+<!ENTITY portrait "Книжна">
+<!ENTITY landscape "Альбомна">
+<!ENTITY scale.label "Масштаб:">
+<!ENTITY scalePercent "&#037;">
+<!ENTITY shrinkToFit.label "Зменшити так, щоб помістити на ширину сторінки">
+<!ENTITY optionsGroup.label "Параметри">
+<!ENTITY printBG.label "Друкувати фон (колір та зображення)">
+<!ENTITY advanced.tab "Відступи та колонтитули">
+<!ENTITY marginGroup.label "Відступи (#1)">
+<!ENTITY marginUnits.inches "у дюймах">
+<!ENTITY marginUnits.metric "у міліметрах">
+<!ENTITY marginTop.label "Вгорі:">
+<!ENTITY marginBottom.label "Внизу:">
+<!ENTITY marginLeft.label "Ліворуч:">
+<!ENTITY marginRight.label "Праворуч:">
+<!ENTITY headerFooter.label "Колонтитули">
+<!ENTITY hfLeft.label "Ліворуч:">
+<!ENTITY hfCenter.label "По центру:">
+<!ENTITY hfRight.label "Праворуч:">
+
+<!ENTITY headerLeft.tip      "Лівий верхній колонтитул">
+<!ENTITY headerCenter.tip    "Центральний верхній колонтитул">
+<!ENTITY headerRight.tip     "Правий верхній колонтитул">
+<!ENTITY footerLeft.tip      "Лівий нижній колонтитул">
+<!ENTITY footerCenter.tip    "Центральний нижній колонтитул">
+<!ENTITY footerRight.tip     "Правий нижній колонтитул">
+<!ENTITY hfTitle "Заголовок">
+<!ENTITY hfTitle.code "[&amp;T]">
+<!ENTITY hfURL "URL">
+<!ENTITY hfURL.code "[&amp;U]">
+<!ENTITY hfDateAndTime "Дата/час">
+<!ENTITY hfDateAndTime.code "&amp;D">
+<!ENTITY hfPage "Сторінка #">
+<!ENTITY hfPage.code "[&amp;P]">
+<!ENTITY hfPageAndTotal "Сторінка # з #">
+<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfBlank "--порожня--">
+<!ENTITY hfCustom "Інше…">
+<!ENTITY customPrompt.title "Інше…">
+<!ENTITY customPrompt.prompt "Введіть ваш власний текст колонтитулу">

@@ -1,0 +1,66 @@
+<!ENTITY caCertExists.message "Сертифікат вже існує.">
+<!ENTITY caCertExists.title "Сертифікат існує">
+<!ENTITY certPicker.detailsLabel "Подробиці про вибраний сертифікат:">
+<!ENTITY certPicker.info "Сертифікат:">
+<!ENTITY certPicker.title "Вибір сертифікату">
+<!ENTITY chooseToken.message1 "Виберіть маркер.">
+<!ENTITY chooseToken.title "Вибір маркера">
+<!ENTITY clientAuthAsk.message1 "Сайт питає, з яким сертифікатом вас асоціювати:">
+<!ENTITY clientAuthAsk.message2 "Виберіть сертифікат для ідентифікації:">
+<!ENTITY clientAuthAsk.message3 "Подробиці про вибраний сертифікат:">
+<!ENTITY clientAuthAsk.title "Запит ідентифікації користувача">
+<!ENTITY createCertInfo.msg1 "Йде створення ключів… Це може зайняти декілька хвилин…">
+<!ENTITY createCertInfo.msg2 "Будь ласка, почекайте…">
+<!ENTITY createCertInfo.title "Генерація закритого ключа">
+<!ENTITY domainMismatch.title "Попередження: невідповідність імені домену">
+<!ENTITY downloadCert.message1 "Вас просять довіряти новому центру сертифікації (CA).">
+<!ENTITY downloadCert.message3 "Перед тим, як визначитися з довірою до цього центру, рекомендується перевірити його сертифікат, політику і процедури (якщо можливо).">
+<!ENTITY downloadCert.title "Завантаження сертифікату">
+<!ENTITY downloadCert.trustEmail "Довіряти при ідентифікації користувачів електронної пошти.">
+<!ENTITY downloadCert.trustObjSign "Довіряти при ідентифікації виробників програмного забезпечення.">
+<!ENTITY downloadCert.trustSSL "Довіряти при ідентифікації веб-сайтів.">
+<!ENTITY downloadCert.viewCert.label "Перегляд">
+<!ENTITY downloadCert.viewCert.text "Перевірити сертифікат центру">
+<!ENTITY downloadCert.viewPolicy.label "Політика">
+<!ENTITY downloadCert.viewPolicy.text "Перевірити політику і процедури центру">
+<!ENTITY escrowWarn.benefit1 "Перевага цього способу в тому, що якщо ви втратите доступ до вашого закритого ключа шифрування, ви можете запитати його копію з цього центру сертифікації.">
+<!ENTITY escrowWarn.message1 "Увага: центр сертифікації попросив зробити резервну копію вашого закритого ключа шифрування.">
+<!ENTITY escrowWarn.message2 "Як би там не було, ваш закритий ключ шифрування зберігатиметься в центрі сертифікації і може бути використаний для того, щоб прочитати вашу зашифровану пошту або документи без вашого дозволу.">
+<!ENTITY escrowWarn.title "Копія ключа шифрування">
+<!ENTITY examineCert.accesskey "е">
+<!ENTITY examineCert.label "Перегляд сертифікату">
+<!ENTITY formSigning.cert "Сертифікат підпису">
+<!ENTITY formSigning.confirmPassword "Щоб підтвердити свою згоду поставити цифровий підпис на це текстове повідомлення, введіть головний пароль:">
+<!ENTITY formSigning.title "Запит на підпис тексту">
+<!ENTITY getPassword.password.label "Пароль:">
+<!ENTITY getPassword.title "Введення головного пароля">
+<!ENTITY getPassword.tokenName.label "Пристрій захисту">
+<!ENTITY pipalert.title "Помилка — неможливість відновлення">
+<!ENTITY piperror.title "Помилка">
+<!ENTITY pkcs12.getpassword.message "Введіть пароль, використаний для шифрування резервної копії сертифікату.">
+<!ENTITY pkcs12.getpassword.title "Введення пароля">
+<!ENTITY pkcs12.setpassword.label1 "Пароль резервної копії:">
+<!ENTITY pkcs12.setpassword.label2 "Пароль резервної копії (ще раз):">
+<!ENTITY pkcs12.setpassword.message "Пароль резервної копії сертифікату, який ви вкажете тут, захистить файл нової резервної копії. Для продовження резервного копіювання ви повинні встановити пароль.">
+<!ENTITY pkcs12.setpassword.reminder "Увага: якщо ви забудете ваш пароль резервної копії сертифікату, ви не зможете відновити цю резервну копію пізніше. Цю інформацію треба зберігати в безпечному місці.">
+<!ENTITY pkcs12.setpassword.title "Вибір пароля резервної копії сертифікату">
+<!ENTITY pref.security.general.certificates.title "Сертифікати">
+<!ENTITY pref.security.general.header "Основні параметри захисту">
+<!ENTITY pref.security.general.lHeader "Захист">
+<!ENTITY pref.security.general.level.title "Рівень захисту">
+<!ENTITY pref.security.general.manageCert.label "Управління сертифікатами">
+<!ENTITY pref.security.general.paranoid.label "Використовувати параметри посиленого захисту">
+<!ENTITY pref.security.general.rHeader "Основні параметри захисту">
+<!ENTITY resetPassword.text "Якщо ви скинете свій головний пароль, всі збережені паролі для інтернету і електронної пошти, дані форм, особисті сертифікати і закриті ключі будуть забуті. Ви дійсно хочете скинути свій головний пароль?">
+<!ENTITY resetPassword.title "Скидання головного пароля">
+<!ENTITY resetPasswordButtonLabel "Скинути">
+<!ENTITY serverCertExpired.accept.label "Продовжити">
+<!ENTITY serverCertExpired.continue "Продовжити, не дивлячись на це?">
+<!ENTITY serverCrlNextupdate.message "Звернетеся по допомогу до системного адміністратора">
+<!ENTITY setPassword.meter.label "Рівень якості пароля">
+<!ENTITY setPassword.meter.loading "Завантаження">
+<!ENTITY setPassword.newPassword.label "Новий пароль:">
+<!ENTITY setPassword.oldPassword.label "Поточний пароль:">
+<!ENTITY setPassword.reenterPassword.label "Новий пароль (ще раз):">
+<!ENTITY setPassword.title "Зміна головного пароля">
+<!ENTITY setPassword.tokenName.label "Пристрій захисту">

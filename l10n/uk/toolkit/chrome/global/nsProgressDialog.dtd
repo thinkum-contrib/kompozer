@@ -1,0 +1,27 @@
+<!ENTITY defaultTitle "Збереження">
+<!ENTITY savingTitle "Збережено #2&#037; з #1">
+<!ENTITY savingSource "Збереження з:">
+<!ENTITY savingTarget "В:">
+<!ENTITY openingTitle "Завершено #2&#037; з #1">
+<!ENTITY openingSource "Відкриття з:">
+<!ENTITY openingTarget "За допомогою:">
+<!ENTITY unknownSavingTitle "Збереження #1">
+<!ENTITY unknownOpeningTitle "Відкриття #1">
+<!ENTITY status "Стан:">
+<!ENTITY timeElapsed "Витрачений час:">
+<!ENTITY timeLeft "Час, що залишився:">
+<!ENTITY progress "Поступ:">
+<!ENTITY keep "Не закривати вікно після завершення завантаження.">
+<!ENTITY cancel "Скасувати">
+<!ENTITY pause "Припинити">
+<!ENTITY resume "Відновити">
+<!ENTITY close "Закрити">
+<!ENTITY reveal "Відкрити теку">
+<!ENTITY launch "Відкрити файл">
+<!ENTITY pausedMsg "Завантаження припинено">
+<!ENTITY progressMsg "#1 КБ з #2 КБ (#3 КБ/сек)">
+<!ENTITY unknownTime "Невідомо">
+<!ENTITY longTimeFormat "#1:#2:#3">
+<!ENTITY shortTimeFormat "#2:#3">
+<!ENTITY completeMsg "Завантаження завершено, завантажено #2 КБ (витрачено часу: #1)">
+<!ENTITY percentMsg "#1&#037;">

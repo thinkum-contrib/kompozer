@@ -1,0 +1,45 @@
+<!ENTITY certOCSP.accesskey "U">
+<!ENTITY certOCSP.label "Використовувати OCSP для перевірки тільки тих сертифікатів, в яких вказаний URL служби OCSP">
+<!ENTITY crl.autoupdate.fail.cnt.label "Попередні послідовні помилки оновлень:">
+<!ENTITY crl.autoupdate.fail.reason.label "Подробиці останньої помилки оновлення:">
+<!ENTITY crl.import.nextupdate.label "Наступне оновлення:">
+<!ENTITY crl.import.status.title "Стан імпорту CRL">
+<!ENTITY crl.import.success.message "Список анульованих сертифікатів (CRL) було успішно імпортовано.">
+<!ENTITY crl.issuer.label "CRL виданий:">
+<!ENTITY crl.issuer.org.label "Організація:">
+<!ENTITY crl.issuer.orgunit.label "Підрозділ:">
+<!ENTITY disableOCSP.accesskey "е">
+<!ENTITY disableOCSP.label "Не використовувати OCSP для перевірки дійсності сертифікатів">
+<!ENTITY edit.button "Параметри">
+<!ENTITY pref.validation.title "Підтвердження дійсності">
+<!ENTITY proxyOCSP.accesskey "O">
+<!ENTITY proxyOCSP.label "Використовувати OCSP для перевірки всіх сертифікатів за допомогою цього URL:">
+<!ENTITY serviceURL.accesskey "с">
+<!ENTITY serviceURL.label "URL служби:">
+<!ENTITY signingCA.accesskey "С">
+<!ENTITY signingCA.label "Підписант:">
+<!ENTITY validation.advanced.accesskey "П">
+<!ENTITY validation.advanced.label "Параметри">
+<!ENTITY validation.crl.autoupdate.enable.label "Використовувати автоматичне оновлення цього CRL">
+<!ENTITY validation.crl.autoupdate.freq.label1 "Оновлювати кожні">
+<!ENTITY validation.crl.autoupdate.freq.label2 "Днів">
+<!ENTITY validation.crl.autoupdate.time.label1 "Оновлення">
+<!ENTITY validation.crl.autoupdate.time.label2 "Днів до наступного оновлення">
+<!ENTITY validation.crl.autoupdate.title "Налаштування автоматичного оновлення CRL">
+<!ENTITY validation.crl.autoupdate.url.label "CRL буде імпортований з:">
+<!ENTITY validation.crl.caption "CRL">
+<!ENTITY validation.crl.description "Використовуйте Менеджер сертифікатів для впорядкування списків відкликаних сертифікатів (CRL), що зберігаються у вашій базі сертифікатів.">
+<!ENTITY validation.crlautoupdateenabled.label "Автооновлення">
+<!ENTITY validation.crlautoupdatestatus.label "Стан автооновлення">
+<!ENTITY validation.crllastupdate.label "Останнє оновлення">
+<!ENTITY validation.crlmanager.label "Впорядкування CRL">
+<!ENTITY validation.crlname.label "Ім’я">
+<!ENTITY validation.crlnextupdate.label "Наступне оновлення">
+<!ENTITY validation.deletecrl.accesskey "В">
+<!ENTITY validation.deletecrl.label "Вилучити">
+<!ENTITY validation.managecrls.accesskey "д">
+<!ENTITY validation.managecrls.button "Упорядкувати CRL…">
+<!ENTITY validation.ocsp.caption "OCSP">
+<!ENTITY validation.ocsp.description "&brandShortName; може використовувати протокол перегляду стану сертифікатів (OCSP) для верифікації сертифікатів. Налаштувати &brandShortName; для використання OCSP:">
+<!ENTITY validation.updatecrl.accesskey "О">
+<!ENTITY validation.updatecrl.label "Оновити">

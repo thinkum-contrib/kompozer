@@ -1,0 +1,20 @@
+<!ENTITY changepassword.accesskey "і">
+<!ENTITY changepassword.button "Змінити пароль…">
+<!ENTITY changepassword.caption "Зміна головного пароля">
+<!ENTITY changepassword.text "Ваш головний пароль захищає особисту інформацію (наприклад, паролі для сайтів і сертифікати).">
+<!ENTITY encryptExpire.accesskey "а">
+<!ENTITY encryptExpire.label "Забувати головний пароль після кожного використання">
+<!ENTITY managepassword.askeverytime "Кожного разу, коли він знадобиться">
+<!ENTITY managepassword.askeverytime.accesskey "К">
+<!ENTITY managepassword.askfirsttime "Вперше, коли він знадобиться">
+<!ENTITY managepassword.askfirsttime.accesskey "е">
+<!ENTITY managepassword.asktimeout "Якщо він не використовувався">
+<!ENTITY managepassword.asktimeout.accesskey "о">
+<!ENTITY managepassword.caption "Часовий ліміт головного пароля">
+<!ENTITY managepassword.text "&brandShortName; питатиме головний пароль:">
+<!ENTITY managepassword.timeout.unit "хвилин або довше">
+<!ENTITY pref.masterpass.title "Головні паролі">
+<!ENTITY resetpassword.accesskey "и">
+<!ENTITY resetpassword.button "Скидання пароля">
+<!ENTITY resetpassword.caption "Скидання головного пароля">
+<!ENTITY resetpassword.text "Якщо ви скинете головний пароль, всі ваші збережені поштові і веб-паролі, дані форм, особисті сертифікати і закриті ключі будуть загублені.">

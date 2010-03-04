@@ -1,0 +1,12 @@
+<!ENTITY dialog.title "Налаштування панелей інструментів">
+<!ENTITY dialog.style "width: 635px; height: 400px;">
+<!ENTITY instructions.description "Ви можете додавати або прибирати елементи на панелях інструментів, перетягуючи їх мишею.">
+<!ENTITY show.label "Показувати:">
+<!ENTITY iconsAndText.label "Значки й текст">
+<!ENTITY icons.label "Тільки значки">
+<!ENTITY text.label "Тільки текст">
+<!ENTITY useSmallIcons.label "Маленькі значки">
+<!ENTITY restoreDefaultSet.label "Відновити">
+<!ENTITY addNewToolbar.label "Додати нову панель">
+<!ENTITY saveChanges.label "Гаразд">
+<!ENTITY undoChanges.label "Скасувати зміни">

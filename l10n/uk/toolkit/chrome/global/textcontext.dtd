@@ -1,0 +1,19 @@
+<!ENTITY copyCmd.accesskey "о">
+<!ENTITY copyCmd.label "Копіювати">
+<!ENTITY cutCmd.accesskey "и">
+<!ENTITY cutCmd.label "Вирізати">
+<!ENTITY deleteCmd.accesskey "и">
+<!ENTITY deleteCmd.label "Стерти">
+<!ENTITY pasteCmd.accesskey "а">
+<!ENTITY pasteCmd.label "Вставити">
+<!ENTITY selectAllCmd.accesskey "и">
+<!ENTITY selectAllCmd.label "Виділити все">
+<!ENTITY spellAddToDictionary.accesskey "о">
+<!ENTITY spellAddToDictionary.label "Додати в словник">
+<!ENTITY spellDictionaries.accesskey "о">
+<!ENTITY spellDictionaries.label "Мови">
+<!ENTITY spellEnable.accesskey "е">
+<!ENTITY spellEnable.label "Перевірити орфографію в цьому полі">
+<!ENTITY spellNoSuggestions.label "(припущень не знайдено)">
+<!ENTITY undoCmd.accesskey "у">
+<!ENTITY undoCmd.label "Повернути">

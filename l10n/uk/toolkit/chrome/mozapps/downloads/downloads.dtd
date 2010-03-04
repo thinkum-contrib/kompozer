@@ -1,0 +1,39 @@
+<!ENTITY canceled.label "Скасовано">
+<!ENTITY closeWhenDone.label "Закрити після завершення завантажень">
+<!ENTITY closeWhenDone.tooltip "Закрити вікно із списком завантажень після завантаження всіх файлів">
+<!ENTITY cmd.cancel.accesskey "к">
+<!ENTITY cmd.cancel.label "Скасувати">
+<!ENTITY cmd.cleanUp.accesskey "О">
+<!ENTITY cmd.cleanUp.label "Очистити">
+<!ENTITY cmd.cleanUp.tooltip "Прибирає завершені, скасовані та невдалі завантаження зі списку">
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.info.commandKey "i">
+<!ENTITY cmd.open.accesskey "В">
+<!ENTITY cmd.open.label "Відкрити">
+<!ENTITY cmd.openWith.accesskey "з">
+<!ENTITY cmd.openWith.label "Відкрити за допомогою…">
+<!ENTITY cmd.pause.accesskey "а">
+<!ENTITY cmd.pause.label "Пауза">
+<!ENTITY cmd.properties.accesskey "т">
+<!ENTITY cmd.properties.label "Властивості">
+<!ENTITY cmd.remove.accesskey "и">
+<!ENTITY cmd.remove.label "Вилучити">
+<!ENTITY cmd.resume.accesskey "П">
+<!ENTITY cmd.resume.label "Продовжити">
+<!ENTITY cmd.retry.accesskey "С">
+<!ENTITY cmd.retry.label "Спробувати знову">
+<!ENTITY cmd.show.accesskey "е">
+<!ENTITY cmd.show.accesskeyMac "F">
+<!ENTITY cmd.show.label "Відкрити теку, що містить файл">
+<!ENTITY cmd.show.labelMac "Показати у Finder">
+<!ENTITY done.label "Гаразд">
+<!ENTITY downloads.title "Завантаження">
+<!ENTITY failed.label "Помилка">
+<!ENTITY filesSavedTo.label "Всі завантажені файли зберігаються у:">
+<!ENTITY installing.label "Триває встановлення…">
+<!ENTITY showFolder.label "Відкрити цю теку">
+<!ENTITY starting.label "Починається…">
+<!ENTITY window.height "300">
+<!ENTITY window.width "500">
