@@ -587,7 +587,7 @@
 <!-- LOCALIZATION NOTE some localizations of Windows use "?"
                        for the help button in the menubar but Gnome does not.   -->
 <!ENTITY helpMenuWin.label "Справка"> 
-<!ENTITY helpMenuWin.accesskey "C">
+<!ENTITY helpMenuWin.accesskey "С">
 
 <!ENTITY nvuComMenu.label "Домашняя страница &brandShortName;">
 <!ENTITY nvucommenu.accesskey "д">
