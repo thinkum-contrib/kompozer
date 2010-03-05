@@ -27,7 +27,7 @@
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textReduce.commandkey "-">
-<!ENTITY textReset.commandkey "">
+<!ENTITY textReset.commandkey "0">
 
 <!ENTITY goToLineCmd.label "Gå til linje">
 <!ENTITY goToLineCmd.accesskey "G">
