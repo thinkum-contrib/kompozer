@@ -23,8 +23,8 @@
 <!ENTITY languages.customize.add.label                  "Lis채채">
 <!ENTITY languages.customize.others.label               "Muut:">
 <!ENTITY languages.customize.others.accesskey           "M">
-<!ENTITY languages.customize.Charset.grouplabel         "Merkkikoodaus">
-<!ENTITY languages.customize.DefaultCharset.label       "Oletusmerkkikoodaus:">
+<!ENTITY languages.customize.Charset.grouplabel         "Merkist턪oodaus">
+<!ENTITY languages.customize.DefaultCharset.label       "Oletusmerkist턪oodaus:">
 <!ENTITY languages.customize.DefaultCharset.accesskey   "m">
 <!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
 <!ENTITY languages.customize.others.examples            "esim.: en-bz, ar-jo">

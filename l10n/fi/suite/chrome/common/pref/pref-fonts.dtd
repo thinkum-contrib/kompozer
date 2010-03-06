@@ -1,31 +1,30 @@
 <!-- extracted from content/pref-fonts.xul -->
 
 <!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
-<!ENTITY  pref.fonts.title                        "Kirjasinlajit">
+<!ENTITY  pref.fonts.title                        "Kirjasinleikkaukset">
 
-<!ENTITY  language.label                          "Fontit asettelulle:">
-<!ENTITY  language.accesskey                      "t">
+<!ENTITY  language.label                          "Kirjasinleikkaukselle:">
+<!ENTITY  language.accesskey                      "K">
 
-<!ENTITY  typefaces.label                         "Kirjasintyyppi">
-<!ENTITY  sizes.label                             "Koko (pikseleinä)">
+<!ENTITY  typefaces.label                         "Kirjasinleikkaus">
+<!ENTITY  sizes.label                             "Koko (pikseliä)">
 
 <!ENTITY  proportional.label                      "Suhteellinen:">
 <!ENTITY  proportional.accesskey                  "S">
 
 <!ENTITY  serif.label                             "Pääteviivallinen:">
 <!ENTITY  serif.accesskey                         "P">
-<!ENTITY  sans-serif.label                        "Ilman pääteviivoja:">
-<!ENTITY  sans-serif.accesskey                    "n">
-<!ENTITY  monospace.label                         "Vakioleveys:">
-<!ENTITY  monospace.accesskey                     "V">
+<!ENTITY  sans-serif.label                        "Pääteviivaton:">
+<!ENTITY  sans-serif.accesskey                    "t">
+<!ENTITY  monospace.label                         "Tasavälinen:">
+<!ENTITY  monospace.accesskey                     "T">
 <!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
 <!ENTITY  fantasy.label                           "Koristeellinen:">
 <!ENTITY  fantasy.accesskey                       "K">
-<!ENTITY  cursive.label                           "Kursiivinen:">
-<!ENTITY  cursive.accesskey                       "K">
+<!ENTITY  cursive.label                           "Kursiivi:">
+<!ENTITY  cursive.accesskey                       "u">
 
-<!ENTITY  fontsize.units                          "kuvapistettä">
-
+<!ENTITY  fontsize.units                          "pikseliä">
 <!ENTITY  font.langGroup.latin1                   "Länsimainen">
 <!ENTITY  font.langGroup.latin2                   "Keski-Eurooppalainen">
 <!ENTITY  font.langGroup.japanese                 "Japanilainen">
@@ -54,27 +53,26 @@
 <!ENTITY  font.langGroup.khmer                    "khmer">
 <!ENTITY  font.langGroup.malayalam                "malajalam">
 <!-- Minimum font size -->
-<!ENTITY minSize.label                            "Vähimmäisfonttikoko:">
-<!ENTITY minSize.accesskey                        "V">
-<!ENTITY minSize.none                             "Ei mitään">
+<!ENTITY minSize.label                            "Pienin sallittu koko:">
+<!ENTITY minSize.accesskey                        "e">
+<!ENTITY minSize.none                             "Ei rajaa">
 
 <!-- default font type -->
-<!ENTITY  useDefaultFontSerif.label               "Serif">
-<!ENTITY  useDefaultFontSansSerif.label           "Sans Serif">
+<!ENTITY  useDefaultFontSerif.label               "Pääteviivallinen">
+<!ENTITY  useDefaultFontSansSerif.label           "Pääteviivaton">
+<!ENTITY  newLanguages.label                      "Uusia kieliä voi määritää käyttäen kielipaneelia.">
 
-<!ENTITY  newLanguages.label                      "Uusia kieliä voidaan asettaa käyttämällä Kielipaneelia.">
-
-<!ENTITY  useDocumentFonts.label                  "Salli dokumenttien käyttää muita fontteja">
-<!ENTITY  useDocumentFonts.accesskey              "o">
+<!ENTITY  useDocumentFonts.label                  "Salli dokumentin käyttää myös muita kirjasinleikkauksia">
+<!ENTITY  useDocumentFonts.accesskey              "S">
 
 <!-- leaving this stuff in for now -->
 
-<!ENTITY  header2                                 "Kun webbisivu valitsee oman kirjasimensa">
-<!ENTITY  useDefaultFont.label                    "Käytä oletuskirjasimia, älä välitä sivun valitsemista kirjasimista">
-<!ENTITY  useDefaultFont.accesskey                "u">
+<!ENTITY  header2                                 "Kun websivu käyttää omia kirjasinleikkauksiaan">
+<!ENTITY  useDefaultFont.label                    "Käytä vain oletuskirjasinleikkauksiani">
+<!ENTITY  useDefaultFont.accesskey                "K">
 <!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
-<!ENTITY  useDocFontNonDynamic.label              "Käytä sivun kirjasimia">
-<!ENTITY  useDocFontNonDynamic.accesskey          "K">
+<!ENTITY  useDocFontNonDynamic.label              "Käytä sivun valitsemia kirjasinleikkauksiaUse the fonts chosen by the page">
+<!ENTITY  useDocFontNonDynamic.accesskey          "S">
 <!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
-<!ENTITY  useDocFontDynamic.label                 "Käytä kaikkia sivun kirjasimia">
+<!ENTITY  useDocFontDynamic.label                 "Käytä kaikkia sivun valitsemia kirjasinleiikkauksia">
 <!ENTITY  useDocFontDynamic.accesskey             "a">

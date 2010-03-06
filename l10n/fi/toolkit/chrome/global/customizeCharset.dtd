@@ -37,14 +37,14 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY title.label      "Muokkaa merkistökoodauksia">
-<!ENTITY current.label    "Käytössä olevat merkistökoodaukset:">
+<!ENTITY title.label      "Muokkaa käytossä olevia merkistokoodauksia">
+<!ENTITY current.label    "Käytssäolevat merkistkoodaukset:">
 <!ENTITY remove.label     "Poista">
 <!ENTITY remove.accessKey "P">
-<!ENTITY additional.label "Tuetut merkistökoodaukset:">
+<!ENTITY additional.label "Valittavissa olevat merkistokoodaukset:">
 <!ENTITY add.label        "Lisää">
 <!ENTITY add.accessKey    "L">
-<!ENTITY moveUp.label     "Siirrä ylös">
-<!ENTITY moveUp.accessKey "y">
-<!ENTITY moveDown.label   "Siirrä alas">
-<!ENTITY moveDown.accessKey "a">
+<!ENTITY moveUp.label     "Ylos">
+<!ENTITY moveUp.accessKey "Y">
+<!ENTITY moveDown.label   "Alas">
+<!ENTITY moveDown.accessKey "D">

@@ -1,20 +1,20 @@
-<!ENTITY helpers.label                "Ulkoiset Ohjelmat">
+<!ENTITY helpers.label                "Apuohjelmat">
 
-<!ENTITY application.label            "Ohjelma:">
-<!ENTITY webBrowser.label             "Internet-selain">
-<!ENTITY textEditor.label             "Tekstieditori">
-<!ENTITY imageEditor.label            "Kuvaeditori">
+<!ENTITY application.label            "Sovellus:">
+<!ENTITY webBrowser.label             "Selain">
+<!ENTITY textEditor.label             "Tekstin muokkain">
+<!ENTITY imageEditor.label            "Kuvien muokkain">
 <!ENTITY mediaPlayer.label            "Mediasoitin">
-<!ENTITY fileManager.label            "Tiedostojen hallinta">
+<!ENTITY fileManager.label            "Tiedostonhallinta">
 <!ENTITY ftpClient.label              "FTP asiakas">
 
-<!ENTITY useSystemHelper.label        "käytä järjestelmän oletusasetuksia">
-<!ENTITY useCustomHelper.label        "käytä mukautettua ohjelmaa:">
-<!ENTITY path.label                   "tiedoston polku">
+<!ENTITY useSystemHelper.label        "Käytä oletusohjelmaa">
+<!ENTITY useCustomHelper.label        "Käytä valittua ohjelmaa:">
+<!ENTITY path.label                   "polku">
 <!ENTITY arguments.label              "argumentit">
 <!ENTITY filePicker.tooltip           "Valitse tiedosto…">
 
-<!ENTITY fileFilter.label             "Tiedoston pääte (*):">
+<!ENTITY fileFilter.label             "Tiedostopäätteet (*) tiedostoille, jotka:">
 <!ENTITY default.label                "oletus">
-<!ENTITY needToRestart.label          "Muutokset asetuksissa tulevat voimaan, kun KompoZer käynnistetään uudelleen.">
+<!ENTITY needToRestart.label          "(*) Nämä muutokset astuvat voimaan vasta kun KompoZer käynnistetään uudelleen.">
 

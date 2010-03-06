@@ -35,31 +35,30 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY errorConsole.title "Virhekonsoli">
+<!ENTITY errorConsole.title "Virheruutu">
 
-<!ENTITY errFile.label   "Lähdetiedosto:">
+<!ENTITY errFile.label   "Lahdetiedosto:">
 <!ENTITY errLine.label   "Rivi:">
-<!ENTITY errColumn.label "Sarake:">
+<!ENTITY errColumn.label "Merkki:">
 
 <!ENTITY all.label          "Kaikki">
 <!ENTITY all.accesskey      "K">
 <!ENTITY errors.label       "Virheet">
 <!ENTITY errors.accesskey   "V">
 <!ENTITY warnings.label     "Varoitukset">
-<!ENTITY warnings.accesskey "a">
-<!ENTITY messages.label     "Viestit">
-<!ENTITY messages.accesskey "V">
-<!ENTITY clear.label        "Tyhjennä">
+<!ENTITY warnings.accesskey "Sanomat">
+<!ENTITY messages.accesskey "S">
+<!ENTITY clear.label        "Tyhjenna">
 <!ENTITY clear.accesskey    "T">
-<!ENTITY evaluate.label     "Suorita">
+<!ENTITY evaluate.label     "Laske">
 
 <!ENTITY copyCmd.label       "Kopioi">  
 <!ENTITY copyCmd.accesskey   "K"> 
-<!ENTITY copyCmd.commandkey  "C"> 
-<!ENTITY sortFirst.label     "Järjestetty ensimmäisestä viimeiseen">
-<!ENTITY sortFirst.accesskey "J">
-<!ENTITY sortLast.label      "Järjestetty viimeisestä ensimmäiseen">
-<!ENTITY sortLast.accesskey  "v">
+<!ENTITY copyCmd.commandkey  "K"> 
+<!ENTITY sortFirst.label     "Ensimmainen > Last Sort Order">
+<!ENTITY sortFirst.accesskey "E">
+<!ENTITY sortLast.label      "Viimeinen > First Sort Order">
+<!ENTITY sortLast.accesskey  "V">
 <!ENTITY closeCmd.commandkey "w">  
 <!ENTITY focus1.commandkey   "l">  
 <!ENTITY focus2.commandkey   "d">  

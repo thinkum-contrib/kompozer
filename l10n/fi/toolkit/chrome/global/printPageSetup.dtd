@@ -2,28 +2,28 @@
 
 <!ENTITY printSetup.title    "Sivun asetukset">
 
-<!ENTITY basic.tab           "Muoto ja valinnat">
+<!ENTITY basic.tab           "Muotoilu &amp; Asetukset">
 
-<!ENTITY formatGroup.label   "Muoto">
+<!ENTITY formatGroup.label   "Muotoilu">
 
-<!ENTITY orientation.label   "Suunta:">
+<!ENTITY orientation.label   "Paperin asento:">
 <!ENTITY portrait            "Pysty">
 <!ENTITY landscape           "Vaaka">
 
-<!ENTITY scale.label         "Koko:">
+<!ENTITY scale.label         "Mittakaava:">
 <!ENTITY scalePercent        "&#037;">
 
-<!ENTITY shrinkToFit.label   "Sovita sivun leveyteen">
+<!ENTITY shrinkToFit.label   "Sovita arkille">
 
 <!ENTITY optionsGroup.label  "Asetukset">
 
-<!ENTITY printBG.label       "Tulosta tausta (värit ja kuvat)">
+<!ENTITY printBG.label       "Tulosta tausta (Tunnisteet ja kuvat) ">
 
-<!ENTITY advanced.tab        "Marginaalit ja ylä-/alatunnisteet">
+<!ENTITY advanced.tab        "Reunukset &amp Tunnisteet">
 
-<!ENTITY marginGroup.label   "Marginaalit (#1)">
-<!ENTITY marginUnits.inches  "tuumia">
-<!ENTITY marginUnits.metric  "millimetriä">
+<!ENTITY marginGroup.label   "Reunukset (#1)">
+<!ENTITY marginUnits.inches  "tuumaa">
+<!ENTITY marginUnits.metric  "milliä">
 <!ENTITY marginTop.label     "Ylä:">
 <!ENTITY marginBottom.label  "Ala:">
 <!ENTITY marginLeft.label    "Vasen:">
@@ -32,27 +32,27 @@
 <!ENTITY headerFooter.label  "Ylä- ja alatunnisteet">
 
 <!ENTITY hfLeft.label        "Vasen:">
-<!ENTITY hfCenter.label      "Keskellä:">
+<!ENTITY hfCenter.label      "Keski:">
 <!ENTITY hfRight.label       "Oikea:">
-<!ENTITY headerLeft.tip      "Vasen ylätunniste">
-<!ENTITY headerCenter.tip    "Keskimmäinen ylätunniste">
-<!ENTITY headerRight.tip     "Oikea ylätunniste">
-<!ENTITY footerLeft.tip      "Vasen alatunniste">
-<!ENTITY footerCenter.tip    "Keskimmäinen alatunniste">
-<!ENTITY footerRight.tip     "Oikea alatunniste">
+<!ENTITY headerLeft.tip      "Vasen ylä:">
+<!ENTITY headerCenter.tip    "Keskellä ylä:">
+<!ENTITY headerRight.tip     "Oikea ylä:">
+<!ENTITY footerLeft.tip      "Vasen ala:">
+<!ENTITY footerCenter.tip    "Keskellä ala:">
+<!ENTITY footerRight.tip     "Oikea ala:">
 
-<!ENTITY hfTitle             "Otsikko">
-<!ENTITY hfTitle.code        "[&amp;T]">
-<!ENTITY hfURL               "Osoite">
+<!ENTITY hfTitle             "Nimi">
+<!ENTITY hfTitle.code        "[&amp;N]">
+<!ENTITY hfURL               "URL">
 <!ENTITY hfURL.code          "[&amp;U]">
-<!ENTITY hfDateAndTime       "Pvm/aika">
-<!ENTITY hfDateAndTime.code  "&amp;D">
+<!ENTITY hfDateAndTime       "Päiväys/aika">
+<!ENTITY hfDateAndTime.code  "&amp;P">
 <!ENTITY hfPage              "Sivu #">
-<!ENTITY hfPage.code         "[&amp;P]">
+<!ENTITY hfPage.code         "[&amp;S]">
 <!ENTITY hfPageAndTotal      "Sivu #/#">
-<!ENTITY hfPageAndTotal.code "[&amp;PT]">
+<!ENTITY hfPageAndTotal.code "[&amp;T]">
 <!ENTITY hfBlank             "--tyhjä--">
-<!ENTITY hfCustom            "Oma…">
+<!ENTITY hfCustom            "Oma teksti…">
 
-<!ENTITY customPrompt.title  "Oma…">
-<!ENTITY customPrompt.prompt "Kirjoita oma ylä-/alatunniste">
+<!ENTITY customPrompt.title  "Oma teksti…">
+<!ENTITY customPrompt.prompt "Kirjoita haluamasi tunnisteteksti">
