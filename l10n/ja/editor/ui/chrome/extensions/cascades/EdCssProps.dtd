@@ -268,12 +268,12 @@
 <!ENTITY outsideListStylePosition.label         "リスト項目外">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extract and create generic style">
+<!ENTITY makeCSSRule.label                      "を抽出し、一般的なスタイルを作成する">
 <!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Current styles for:">
-<!ENTITY renameButton.label                     "Edit selector">
+<!ENTITY currentstylesfor.label                 "の現在のスタイル：">
+<!ENTITY renameButton.label                     "セレクタの変更">
 
-<!ENTITY autoMarginUnit.label                   "auto">
-<!ENTITY thinBorderUnit.label                   "thin">
-<!ENTITY mediumBorderUnit.label                 "medium">
-<!ENTITY thickBorderUnit.label                  "thick">
+<!ENTITY autoMarginUnit.label                   "自動">
+<!ENTITY thinBorderUnit.label                   "薄い">
+<!ENTITY mediumBorderUnit.label                 "並み">
+<!ENTITY thickBorderUnit.label                  "厚い">
