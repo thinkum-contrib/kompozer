@@ -37,7 +37,7 @@
 
 <!-- extracted from content/openLocation.xul -->
 
-<!ENTITY enter.label "Voer de weblocatie (URL) in of specificeer het locale sjabloon dat u wilt openen:">  
+<!ENTITY enter.label "Voer de weblocatie (URL) van het sjabloon in, of kies een lokaal sjabloon:">  
 <!ENTITY enter.accesskey "e">
 <!ENTITY chooseFile.label "Bestand kiezen…">
 <!ENTITY chooseFile.accesskey "k">

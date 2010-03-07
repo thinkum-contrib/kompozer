@@ -37,29 +37,29 @@
 
 <!ENTITY helpers.label                 "Geavanceerde instellingen">
 <!ENTITY useSystemBrowser.label        "Systeeminstellingen gebruiken">
-<!ENTITY userDefinedBrower.label       "Door de gebruiker gedefinieerd">
+<!ENTITY userDefinedBrower.label       "Door gebruiker gedefinieerd">
 
-<!ENTITY cmdLine.label                 "Commandoregel:">
+<!ENTITY cmdLine.label                 "Opdrachtregel:">
 <!ENTITY hints.label                   "U kunt de URL specificeren door '$s' te gebruiken. Voorbeeld:">
 <!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
 
-<!ENTITY imageEditor.label             "Afbeeldingenbewerker">
+<!ENTITY imageEditor.label             "Afbeeldingeneditor">
 
 <!ENTITY connection.label              "Verbinding">
-<!ENTITY connectionDescription.label   "Proxies instellen voor toegang tot het Internet">
+<!ENTITY connectionDescription.label   "Proxy’s voor toegang tot het internet configureren">
 <!ENTITY connectionButton.label        "Verbindingsinstellingen">
 <!ENTITY connectionbutton.accesskey    "b">
 
-<!ENTITY carriageReturns.label         "Gedrag van de entertoets">
-<!ENTITY crInPCreatesNewP.label        "Enter binnenin een alinea altijd een nieuw alinea laten aanmaken.">
+<!ENTITY carriageReturns.label         "Gedrag van de Enter-toets">
+<!ENTITY crInPCreatesNewP.label        "Enter binnen een alinea maakt altijd een nieuw alinea aan">
 
 <!ENTITY specialChars.label            "Speciale tekens">
-<!ENTITY specialChars.description      "De volgende karakters als entiteit gebruiken">
+<!ENTITY specialChars.description      "De volgende tekens als entiteit gebruiken:">
 <!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
 <!ENTITY basicEncoding.label           "Alleen &amp; &lt; &gt; ' en niet-breekbare witruimtes">
-<!ENTITY latin1EntitiesEncoding.label  "Het bovenstaande en Latin-1 tekens">
-<!ENTITY htmlEntitiesEncoding.label    "HTML 4 speciale tekens">
-<!ENTITY allEntitiesEncoding.label     "De &amp;#..; notatie gebruiken voor alle niet-ASCII tekens.">
+<!ENTITY latin1EntitiesEncoding.label  "De bovenstaande en Latin-1-tekens">
+<!ENTITY htmlEntitiesEncoding.label    "HTML 4-speciale tekens">
+<!ENTITY allEntitiesEncoding.label     "De &amp;#..;-notatie gebruiken voor alle niet-ASCII-tekens">
 
 <!ENTITY realtimeSpellCheck.label      "Continu spelling controleren">
 
@@ -74,5 +74,5 @@
 <!ENTITY looseDTD.label                "Transitional">
 <!ENTITY strictDTD.label               "Strict">
 
-<!ENTITY noGTEncoding.label            "'&gt;' niet coderen buiten attribuutwaarden">
-<!ENTITY noEscaping.label              "Speciale tekens niet coderen binnen attribuutwaarden">
+<!ENTITY noGTEncoding.label            "'&gt;' buiten attribuutwaarden niet coderen">
+<!ENTITY noEscaping.label              "Speciale tekens binnen attribuutwaarden niet coderen">

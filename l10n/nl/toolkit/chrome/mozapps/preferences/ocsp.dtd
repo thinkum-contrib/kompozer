@@ -1,10 +1,10 @@
 <!ENTITY window.width                 "49em">
 
-<!ENTITY ocspDialog.title             "Controle">
-<!ENTITY validation.ocsp.description  "&brandShortName; kan het Online Certificate Status Protocol (OCSP) gebruiken om certificaten te controleren. Stel &brandShortName; in om OCSP als volgt te gebruiken:">
-<!ENTITY disableOCSP.label            "Geen OCSP gebruiken voor certificaatcontrole">
-<!ENTITY certOCSP.label               "OCSP alleen gebruiken om certificaten te controleren die een OCSP-service-URL specificeren">
-<!ENTITY proxyOCSP.label              "OCSP gebruiken om alle certificaten te controleren, gebruikmakend van deze URL en ondertekenaar:">
+<!ENTITY ocspDialog.title             "Validatie">
+<!ENTITY validation.ocsp.description  "&brandShortName; kan het Online Certificate Status Protocol (OCSP) gebruiken om de geldigheid van certificaten te verifiëren. Stel &brandShortName; in om OCSP als volgt te gebruiken:">
+<!ENTITY disableOCSP.label            "Geen OCSP gebruiken voor certificaatvalidatie">
+<!ENTITY certOCSP.label               "OCSP alleen gebruiken om certificaten te valideren die een OCSP-service-URL specificeren">
+<!ENTITY proxyOCSP.label              "OCSP gebruiken om alle certificaten te valideren, gebruikmakend van deze URL en ondertekenaar:">
 <!ENTITY serviceURL.label             "Service-URL:">
 <!ENTITY serviceURL.accesskey         "S">
 <!ENTITY signingCA.label              "Antwoordondertekenaar:">

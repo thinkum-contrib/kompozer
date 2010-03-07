@@ -48,7 +48,7 @@
 <!-- Displayed in the selected Add-on's richlistitem and context menu -->
 <!ENTITY cmd.useTheme.label               "Thema gebruiken">
 <!ENTITY cmd.useTheme.accesskey           "T">
-<!ENTITY cmd.useTheme.tooltip             "Verandert het thema van &brandShortName;">
+<!ENTITY cmd.useTheme.tooltip             "Wijzigt het thema van &brandShortName;">
 <!ENTITY cmd.options.label                "Opties">
 <!ENTITY cmd.options.accesskey            "O">
 <!ENTITY cmd.options.tooltip              "Opties van de geselecteerde extensie instellen">
@@ -57,16 +57,16 @@
 <!ENTITY cmd.optionsUnix.tooltip          "Voorkeuren van de geselecteerde extensie bewerken">
 <!ENTITY cmd.enable.label                 "Inschakelen">
 <!ENTITY cmd.enable.accesskey             "a">
-<!ENTITY cmd.enable.tooltip               "Deze add-on inschakelen als &brandShortName; wordt herstart">
+<!ENTITY cmd.enable.tooltip               "Deze add-on inschakelen wanneer &brandShortName; wordt herstart">
 <!ENTITY cmd.disable.label                "Uitschakelen">
 <!ENTITY cmd.disable.accesskey            "U">
-<!ENTITY cmd.disable.tooltip              "Deze add-on uitschakelen als &brandShortName; wordt herstart">
-<!ENTITY cmd.uninstall.label              "Deïnstalleren">
+<!ENTITY cmd.disable.tooltip              "Deze add-on uitschakelen wanneer &brandShortName; wordt herstart">
+<!ENTITY cmd.uninstall.label              "De-installeren">
 <!ENTITY cmd.uninstall2.accesskey         "D">
-<!ENTITY cmd.uninstall2.tooltip           "Deze add-on deïnstalleren als &brandShortName; wordt herstart">
-<!ENTITY cmd.cancelUninstall.label        "Deïnstallatie annuleren">
+<!ENTITY cmd.uninstall2.tooltip           "Deze add-on de-installeren wanneer &brandShortName; wordt herstart">
+<!ENTITY cmd.cancelUninstall.label        "De-installatie annuleren">
 <!ENTITY cmd.cancelUninstall.accesskey    "a">
-<!ENTITY cmd.cancelUninstall.tooltip      "Deïnstallatie van deze add-on annuleren">
+<!ENTITY cmd.cancelUninstall.tooltip      "De-installatie van deze add-on annuleren">
 <!ENTITY cmd.installUpdate.label          "Update installeren">
 <!ENTITY cmd.installUpdate.accesskey      "i">
 <!ENTITY cmd.installUpdate.tooltip        "Een update voor deze add-on installeren">
@@ -88,14 +88,14 @@
 <!ENTITY includeUpdate.accesskey          "n">
 <!ENTITY includeUpdate.tooltip            "Deze add-on opnemen bij het installeren van de updates">
 
-<!-- Status Messsages -->
+<!-- Status Messages -->
 <!ENTITY needsDependencies.label          "Vereist extra onderdelen.">
 <!ENTITY blocklisted.label                "Uitgeschakeld voor uw bescherming.">
-<!ENTITY toBeDisabled.label               "Deze add-on zal worden uitgeschakeld als &brandShortName; wordt herstart.">
-<!ENTITY toBeEnabled.label                "Deze add-on zal worden ingeschakeld als &brandShortName; wordt herstart.">
-<!ENTITY toBeInstalled.label              "Deze add-on zal worden geïnstalleerd als &brandShortName; wordt herstart.">
-<!ENTITY toBeUninstalled.label            "Deze add-on zal worden gedeïnstalleerd als &brandShortName; wordt herstart.">
-<!ENTITY toBeUpgraded.label               "Deze add-on zal worden opgewaardeerd als &brandShortName; wordt herstart.">
+<!ENTITY toBeDisabled.label               "Deze add-on zal worden uitgeschakeld zodra &brandShortName; wordt herstart.">
+<!ENTITY toBeEnabled.label                "Deze add-on zal worden ingeschakeld zodra &brandShortName; wordt herstart.">
+<!ENTITY toBeInstalled.label              "Deze add-on zal worden geïnstalleerd zodra &brandShortName; wordt herstart.">
+<!ENTITY toBeUninstalled.label            "Deze add-on zal worden gede-installeerd zodra &brandShortName; wordt herstart.">
+<!ENTITY toBeUpgraded.label               "Deze add-on zal worden opgewaardeerd zodra &brandShortName; wordt herstart.">
 
 <!ENTITY getExtensions.label              "Extensies verkrijgen">
 <!ENTITY getExtensions.tooltip            "Extensies van addons.mozilla.org verkrijgen">

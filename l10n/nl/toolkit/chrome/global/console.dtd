@@ -46,11 +46,11 @@
 <!ENTITY errors.label       "Fouten">
 <!ENTITY errors.accesskey   "F">
 <!ENTITY warnings.label     "Waarschuwingen">
-<!ENTITY warnings.accesskey "s">
+<!ENTITY warnings.accesskey "W">
 <!ENTITY messages.label     "Berichten">
 <!ENTITY messages.accesskey "B">
 <!ENTITY clear.label        "Wissen">
-<!ENTITY clear.accesskey    "W">
+<!ENTITY clear.accesskey    "s">
 <!ENTITY evaluate.label     "Evalueren">
 
 <!ENTITY copyCmd.label       "Kopiëren">  

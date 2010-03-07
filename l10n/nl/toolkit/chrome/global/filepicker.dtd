@@ -3,16 +3,16 @@
 <!ENTITY textInput.label        "Bestandsnaam:">
 <!ENTITY textInput.accesskey        "n">
 <!ENTITY filterMenuList.label   "Bestanden van type:">
-<!ENTITY filterMenuList.accesskey   "B">
+<!ENTITY filterMenuList.accesskey   "t">
 <!ENTITY name.label             "Naam">
 <!ENTITY size.label             "Grootte">
 <!ENTITY lastModified.label     "Laatst gewijzigd">
-<!ENTITY permissions.label      "Permissies">
+<!ENTITY permissions.label      "Rechten">
 <!ENTITY showHiddenFiles.label  "Verborgen bestanden en mappen tonen">
 <!ENTITY showHiddenFiles.accesskey  "V">
 
-<!ENTITY noPermissionError.label "U hebt niet de benodigde permissies om deze map te bekijken.">
+<!ENTITY noPermissionError.label "U hebt niet de benodigde rechten om deze map te bekijken.">
 
-<!ENTITY folderUp.tooltiptext   "Ga een niveau omhoog">
+<!ENTITY folderUp.tooltiptext   "Een niveau omhoog gaan">
 <!ENTITY folderHome.tooltiptext "Naar startmap gaan">
 <!ENTITY folderNew.tooltiptext  "Nieuwe map creëren">

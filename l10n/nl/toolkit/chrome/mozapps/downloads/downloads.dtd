@@ -17,7 +17,7 @@
 <!ENTITY cmd.cancel.label                 "Annuleren">
 <!ENTITY cmd.cancel.accesskey             "A">
 <!ENTITY cmd.show.label                   "Bijbehorende map openen">
-<!ENTITY cmd.show.labelMac                "Laten zien in Finder">
+<!ENTITY cmd.show.labelMac                "Tonen in Finder">
 <!ENTITY cmd.show.accesskey               "m">
 <!ENTITY cmd.show.accesskeyMac            "F">
 <!ENTITY cmd.open.label                   "Openen">
@@ -36,11 +36,11 @@
 <!ENTITY cmd.close2.commandKey            "j">
 <!ENTITY cmd.close2Unix.commandKey        "y">
 <!ENTITY cmd.cleanUp.label                "Opruimen">
-<!ENTITY cmd.cleanUp.tooltip              "Verwijdert voltooide, geannuleerde of mislukte downloads uit de lijst">
+<!ENTITY cmd.cleanUp.tooltip              "Verwijdert voltooide, geannuleerde en mislukte downloads uit de lijst">
 <!ENTITY cmd.cleanUp.accesskey            "O">
 
 <!ENTITY closeWhenDone.label              "Sluiten wanneer downloads zijn voltooid">
 <!ENTITY closeWhenDone.tooltip            "Sluit de downloadbeheerder als alle bestanden zijn gedownload">
 
 <!ENTITY filesSavedTo.label               "Alle bestanden gedownload naar:">
-<!ENTITY showFolder.label                 "Deze map laten zien">
+<!ENTITY showFolder.label                 "Deze map tonen">

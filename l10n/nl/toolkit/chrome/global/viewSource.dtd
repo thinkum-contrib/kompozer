@@ -38,14 +38,14 @@
 <!ENTITY reloadCmd.label "Vernieuwen">
 <!ENTITY reloadCmd.accesskey "V">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Automatische terugloop"> 
+<!ENTITY menu_wrapLongLines.title "Automatische terugloop">
 <!ENTITY menu_wrapLongLines.accesskey "A">
 <!ENTITY menu_highlightSyntax.label "Syntaxis-kleurcodes">
 <!ENTITY menu_highlightSyntax.accesskey "S">
 <!ENTITY menu_textSize.label "Tekengrootte">
 <!ENTITY menu_textSize.accesskey "T">
 <!ENTITY menu_textEnlarge.label "Vergroten">
-<!ENTITY menu_textEnlarge.accesskey "g">
+<!ENTITY menu_textEnlarge.accesskey "r">
 <!ENTITY menu_textReduce.label "Verkleinen">
 <!ENTITY menu_textReduce.accesskey "k">
 <!ENTITY menu_textReset.label "Normaal">

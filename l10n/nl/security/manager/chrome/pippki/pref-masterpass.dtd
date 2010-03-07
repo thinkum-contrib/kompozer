@@ -48,14 +48,14 @@
 <!ENTITY  managepassword.timeout.unit            "minuten of meer">
 
 <!ENTITY  changepassword.caption                 "Hoofdwachtwoord wijzigen">
-<!ENTITY  changepassword.text                    "Uw hoofdwachtwoord beschermt gevoelige informatie zoals webwachtwoorden en certificaten.">
+<!ENTITY  changepassword.text                    "Uw hoofdwachtwoord beschermt gevoelige informatie, zoals webwachtwoorden en certificaten.">
 <!ENTITY  changepassword.button                  "Wachtwoord wijzigen">
 <!ENTITY  changepassword.accesskey               "W">
 
 <!ENTITY  resetpassword.caption                  "Hoofdwachtwoord herinitialiseren">
-<!ENTITY  resetpassword.text                     "Als u uw hoofdwachtwoord opnieuw instelt zullen al uw opgeslagen web- en e-mailwachtwoorden, formuliergegevens, persoonlijke certificaten en privésleutels verloren gaan.">
+<!ENTITY  resetpassword.text                     "Als u uw hoofdwachtwoord opnieuw instelt, zullen al uw opgeslagen web- en e-mailwachtwoorden, formuliergegevens, persoonlijke certificaten en privésleutels verloren gaan.">
 <!ENTITY  resetpassword.button                   "Wachtwoord herinitialiseren">
-<!ENTITY  resetpassword.accesskey                "H">
-<!ENTITY  encryptExpire.label                    "Hoofdwachtwoord laten verlopen na elk gebruik.">
+<!ENTITY  resetpassword.accesskey                "r">
+<!ENTITY  encryptExpire.label                    "Hoofdwachtwoord laten verlopen na elk gebruik">
 <!ENTITY  encryptExpire.accesskey                "v">
 

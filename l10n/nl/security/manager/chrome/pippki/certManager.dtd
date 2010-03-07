@@ -35,7 +35,7 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY certmgr.title                       "Certificatenbeheerder">
+<!ENTITY certmgr.title                        "Certificatenbeheerder">
 
 <!ENTITY certmgr.tab.mine                     "Uw certificaten">
 <!ENTITY certmgr.tab.others                   "Die van anderen">
@@ -55,7 +55,7 @@
 
 <!ENTITY certmgr.subjectinfo.label            "Uitgegeven aan">
 <!ENTITY certmgr.issuerinfo.label             "Uitgegeven door">
-<!ENTITY certmgr.validity.label               "Geldigheid" >
+<!ENTITY certmgr.validity.label               "Geldigheid">
 <!ENTITY certmgr.fingerprints.label           "Vingerafdrukken">
 <!ENTITY certmgr.certdetail.title             "Detail van certificaat">
 <!ENTITY certmgr.certdetail.cn                "Algemene naam (CN)">
@@ -81,10 +81,10 @@
 <!ENTITY certmgr.editemailcert.donttrust      "De echtheid van dit certificaat wantrouwen.">
 
 <!ENTITY certmgr.deletecert.title             "Certificaat verwijderen">
-<!ENTITY certmgr.deletecert.beforename        "U hebt gevraagd om dit certificaat te verwijderen:">
+<!ENTITY certmgr.deletecert.beforename        "U hebt gevraagd dit certificaat te verwijderen:">
 <!ENTITY certmgr.deletecert.aftername         "Weet u zeker dat u dit certificaat wilt verwijderen?">
 <!ENTITY certmgr.deleteusercert.title         "Uw certificaat verwijderen">
-<!ENTITY certmgr.deleteusercert.beforename    "U hebt gevraagd om dit certificaat te verwijderen:">
+<!ENTITY certmgr.deleteusercert.beforename    "U hebt gevraagd dit certificaat te verwijderen:">
 <!ENTITY certmgr.deleteusercert.aftername     "Als u dit certificaat hebt verwijderd, zult u geen mail kunnen lezen die ermee is versleuteld.">
 
 <!ENTITY certmgr.certname                     "Certificaatnaam">
@@ -110,14 +110,13 @@
 <!ENTITY certmgr.delete.accesskey             "V">
 <!ENTITY certmgr.backup.label                 "Reservekopie maken">
 <!ENTITY certmgr.backup.accesskey             "R">
-<!ENTITY certmgr.backupall.label              "Reservekopie van alles maken">
+<!ENTITY certmgr.backupall.label              "Reservekopie van alle maken">
 <!ENTITY certmgr.backupall.accesskey          "k">
 <!ENTITY certmgr.restore.label                "Importeren">
-<!ENTITY certmgr.restore.accesskey            "I">
+<!ENTITY certmgr.restore.accesskey            "m">
 <!ENTITY certmgr.details.label                "Certificaatvelden">
 <!ENTITY certmgr.details.accesskey            "f">
 <!ENTITY certmgr.fields.label                 "Veldwaarde">
 <!ENTITY certmgr.fields.accesskey             "V">
 <!ENTITY certmgr.hierarchy.label              "Certificaathiërarchie">
 <!ENTITY certmgr.hierarchy.accesskey          "C">
-

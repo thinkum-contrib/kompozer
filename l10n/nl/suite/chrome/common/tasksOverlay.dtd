@@ -4,11 +4,11 @@
 <!ENTITY navigatorCmd.accesskey          "N">
 <!ENTITY navigatorCmd.commandkey         "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label                 "Composer">
-<!ENTITY editorCmd.accesskey             "C">
+<!ENTITY editorCmd.label                 "KomPozer">
+<!ENTITY editorCmd.accesskey             "K">
 <!ENTITY editorCmd.commandkey            "4">
 
-<!ENTITY securityInfoCmd.label           ".Veiligingsinfo">  
+<!ENTITY securityInfoCmd.label           ".Beveiligingsinfo">  
 <!ENTITY securityInfoCmd.accesskey       "s">
 <!ENTITY javaConsoleCmd.label            "Java-console">
 <!ENTITY javaConsoleCmd.accesskey        "J">
@@ -17,7 +17,7 @@
 <!ENTITY javaScriptConsoleCmd.accesskey  "S">
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label               "Privacy &amp; Security">
+<!ENTITY privacyMenu.label               "Privacy &amp; beveiliging">
 <!ENTITY privacyMenu.accesskey           "P">
 
 <!ENTITY taskNavigator.tooltip           "Browser">
@@ -41,4 +41,4 @@
 
 <!ENTITY addons.label                    "Add-ons">
 <!ENTITY extensions.label                "Extensies">
-<!ENTITY themes.label                    "Thema's">
+<!ENTITY themes.label                    "Thema’s">

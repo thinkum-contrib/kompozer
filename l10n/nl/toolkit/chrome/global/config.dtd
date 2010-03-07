@@ -48,8 +48,8 @@
 <!ENTITY valueColumn.label "Waarde">
 
 <!-- Tooltips -->
-<!ENTITY prefColumnHeader.tooltip "Klik om te sorteren"> 
-<!ENTITY columnChooser.tooltip "Klik om kolommen te selecteren om te tonen"> 
+<!ENTITY prefColumnHeader.tooltip "Klik om te sorteren">
+<!ENTITY columnChooser.tooltip "Klik om weer te geven kolommen te selecteren">
 
 <!-- Context Menu -->
 <!ENTITY copyName.label "Naam kopiëren">

@@ -63,6 +63,5 @@
 <!ENTITY certselect.description             "Bepaal hoe &brandShortName; een beveiligingscertificaat selecteert om aan te bieden aan websites die er een vereisen:">
 <!ENTITY certselect.auto                    "Automatisch selecteren">
 <!ENTITY certselect.auto.accesskey          "A">
-<!ENTITY certselect.ask                     "Iedere keer vragen">
-<!ENTITY certselect.ask.accesskey           "e">
-
+<!ENTITY certselect.ask                     "Elke keer vragen">
+<!ENTITY certselect.ask.accesskey           "E">

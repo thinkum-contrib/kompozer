@@ -1,13 +1,13 @@
 <!ENTITY winhooks.label                   "Systeem">
 
-<!ENTITY defaultBrowserGroup.label  "Standaard browser">
-<!ENTITY defaultBrowserButton.label "Stel in als standaard browser">
-<!ENTITY alreadyDefaultText         "&brandShortName; is al ingesteld als uw standaard browser.">
-<!ENTITY defaultPendingText         "&brandShortName; wordt ingesteld als uw standaard browser wanneer u klikt op OK.">
+<!ENTITY defaultBrowserGroup.label  "Standaardbrowser">
+<!ENTITY defaultBrowserButton.label "Instellen als standaardbrowser">
+<!ENTITY alreadyDefaultText         "&brandShortName; is al ingesteld als uw standaardbrowser.">
+<!ENTITY defaultPendingText         "&brandShortName; wordt als uw standaardbrowser ingesteld zodra u op OK klikt.">
 <!ENTITY makeDefaultText            "Stel &brandShortName; in als uw standaard browser.">
 
 <!ENTITY urlbar.label "Ctrl+Enter in de locatiebalk">
-<!ENTITY middleClick.label "Midden-klik, Ctrl+klik of Ctrl+Enter op links in een webpagina">
+<!ENTITY middleClick.label "Midden-klikken, Ctrl+klikken of Ctrl+Enter op koppelingen in een webpagina">
 
 <!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
      preference dialog's <window> node, which specifies the width and height

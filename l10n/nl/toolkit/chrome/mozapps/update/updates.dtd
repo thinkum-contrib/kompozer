@@ -17,7 +17,7 @@
 
 <!ENTITY  moreDetails.label               "Meer details &#0187;">
 <!ENTITY  moreDetails.accesskey           "M">
-<!ENTITY  clickHere.label                 "Bekijk meer informatie over deze update">
+<!ENTITY  clickHere.label                 "Meer informatie over deze update bekijken">
 
 <!ENTITY  incompatible.warning            "Deze update zal ervoor zorgen dat sommige van uw extensies
                                            en/of thema’s niet meer werken totdat ze worden bijgewerkt.">
@@ -39,13 +39,13 @@
 <!ENTITY  license.accept                  "Ik accepteer de voorwaarden van de licentieovereenkomst">
 <!ENTITY  license.accept.accesskey        "c">
 <!ENTITY  license.decline                 "Ik accepteer de voorwaarden van de licentieovereenkomst NIET">
-<!ENTITY  license.decline.accesskey       "t">
+<!ENTITY  license.decline.accesskey       "T">
 
 <!ENTITY  downloading.title               "Update downloaden">
 <!ENTITY  downloading.intro               "De update aan het downloaden…">
 <!ENTITY  connecting.label                "Verbinden met de updateserver…">
-<!ENTITY  verificationFailedText.label    "&brandShortName; was niet in staat om de integriteit van de
-                                           incrementele update die is gedownload te controleren en downloadt
+<!ENTITY  verificationFailedText.label    "&brandShortName; was niet in staat de integriteit van de
+                                           incrementele update die is gedownload te verifiëren, en downloadt
                                            daarom nu het volledige updatepakket.">
 
 <!ENTITY  details.link                    "Details">

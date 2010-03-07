@@ -9,14 +9,14 @@
      If there is no descriptive text, then the alternative text is used which
      has only insert #2.
  -->
-<!ENTITY intro.label           "Het bestand &quot;#3&quot; is van het type #2 (#1), en #4 weet niet hoe met dit bestandstype om te gaan. Dit bestand bevindt zich op:">
-<!ENTITY intro.noDesc.label    "Het bestand &quot;#3&quot; is van het type #2, en #4 weet niet hoe met dit bestandstype om te gaan. Dit bestand bevindt zich op:">
+<!ENTITY intro.label           "Het bestand “#3” is van het type #2 (#1), en #4 weet niet hoe met dit bestandstype om te gaan. Dit bestand bevindt zich op:">
+<!ENTITY intro.noDesc.label    "Het bestand “#3” is van het type #2, en #4 weet niet hoe met dit bestandstype om te gaan. Dit bestand bevindt zich op:">
 
-<!ENTITY intro.attachment.label "De website heeft voorgesteld om &quot;#3&quot; te behandelen als een bijlage. Het is van het type #2 (#1) en bevindt zich op:">
-<!ENTITY intro.attachment.noDesc.label "De website heeft voorgesteld om &quot;#3&quot; te behandelen als een bijlage. Het is van het type #2 en bevindt zich op:">
+<!ENTITY intro.attachment.label "De website heeft voorgesteld om “#3” te behandelen als een bijlage. Het is van het type #2 (#1) en bevindt zich op:">
+<!ENTITY intro.attachment.noDesc.label "De website heeft voorgesteld om “#3” te behandelen als een bijlage. Het is van het type #2 en bevindt zich op:">
 
-<!ENTITY intro.sniffed.label "#4 heeft gedetecteerd dat het bestand &quot;#3&quot; waarschijnlijk van het type #2 (#1) is. Het bestand bevindt zich op:">
-<!ENTITY intro.sniffed.noDesc.label "#4 heeft gedetecteerd dat het bestand &quot;#3&quot; waarschijnlijk van het type #2 is. Het bestand bevindt zich op:">
+<!ENTITY intro.sniffed.label   "#4 heeft gedetecteerd dat het bestand “#3” waarschijnlijk van het type #2 (#1) is. Het bestand bevindt zich op:">
+<!ENTITY intro.sniffed.noDesc.label "#4 heeft gedetecteerd dat het bestand “#3” waarschijnlijk van het type #2 is. Het bestand bevindt zich op:">
 
 <!ENTITY prompt.label          "Wat moet #1 doen met dit bestand?">
 
@@ -39,5 +39,5 @@
 
 <!ENTITY chooseAppFilePickerTitle "Hulptoepassing kiezen">
 
-<!ENTITY badApp                 "De door u gespecificeerde toepassing (&quot;#1&quot;) kon niet worden gevonden. Controleer de bestandsnaam of selecteer een andere toepassing.">
+<!ENTITY badApp                 "De door u gespecificeerde toepassing (“#1”) kon niet worden gevonden. Controleer de bestandsnaam of selecteer een andere toepassing.">
 <!ENTITY badApp.title           "Toepassing niet gevonden">

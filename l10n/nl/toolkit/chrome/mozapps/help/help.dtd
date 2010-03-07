@@ -1,7 +1,7 @@
 <!ENTITY printCmd.commandkey             "p">
 
-<!ENTITY viewCustomizeToolbar.label      "Werkbalk aanpassen…">
-<!ENTITY viewCustomizeToolbar.accesskey  "W">
+<!ENTITY viewCustomizeToolbar.label      "Aanpassen…">
+<!ENTITY viewCustomizeToolbar.accesskey  "A">
 
 <!ENTITY findOnCmd.commandkey            "F">
 <!ENTITY findAgainCmd.commandkey         "G">
@@ -16,7 +16,7 @@
 <!ENTITY wrapCheckbox.accesskey          "A">
 <!ENTITY backwardsCheckbox.label         "Achterwaarts zoeken">
 <!ENTITY backwardsCheckbox.accesskey     "A">
-<!ENTITY findField.tooltip               "Typ een of meerdere woorden om naar te zoeken">
+<!ENTITY findField.tooltip               "Typ één of meerdere woorden om naar te zoeken">
 <!ENTITY findButton.label                "Volgende zoeken">
 <!ENTITY findButton.accesskey            "V">
 <!ENTITY cancelButton.label              "Annuleren">
@@ -33,28 +33,28 @@
 <!ENTITY findPrevious.tooltip            "Het vorige voorkomen van de tekst zoeken">
 <!ENTITY findCloseButton.tooltip         "Zoekbalk sluiten">
 <!ENTITY highlight.label                 "Markeren">
-<!ENTITY highlight.tooltip               "Markeer alle woorden van de zin (Ctrl+Enter)">
+<!ENTITY highlight.tooltip               "Alle voorkomens van de uitdrukking markeren (Ctrl+Enter)">
 
 <!ENTITY backButton.label                "Terug">
 <!ENTITY backButton.accesskey            "T">
-<!ENTITY backButton.tooltip              "Ga een pagina terug">
+<!ENTITY backButton.tooltip              "Een pagina terug gaan">
 <!ENTITY forwardButton.label             "Vooruit">
 <!ENTITY forwardButton.accesskey         "V">
-<!ENTITY forwardButton.tooltip           "Ga een pagina vooruit">
+<!ENTITY forwardButton.tooltip           "Een pagina vooruit gaan">
 <!ENTITY homeButton.label                "Startpagina">
-<!ENTITY homeButton.tooltip              "Ga naar de startpagina van Help">
+<!ENTITY homeButton.tooltip              "Naar de startpagina van Help">
 <!ENTITY printButton.label               "Afdrukken">
 <!ENTITY printButton.tooltip             "Deze pagina afdrukken">
 <!ENTITY findBtn.label                   "Zoeken">
 <!ENTITY sidebarBtn.label                "Zijbalk omschakelen">
-<!ENTITY sidebarBtn.tooltip              "Toon of verberg de zijbalk Help">
+<!ENTITY sidebarBtn.tooltip              "De zijbalk tonen of verbergen">
 <!ENTITY textZoomReduceBtn.label         "Tekst verkleinen">
 <!ENTITY textZoomReduceBtn.accesskey     "k">
-<!ENTITY textZoomReduceBtn.tooltip       "Verklein de grootte van de tekst in de helpdocumenten.">
+<!ENTITY textZoomReduceBtn.tooltip       "De grootte van de tekst in helpdocumenten verkleinen">
 <!ENTITY textZoomEnlargeBtn.label        "Tekst vergroten">
 <!ENTITY textZoomEnlargeBtn.accesskey    "e">
-<!ENTITY textZoomEnlargeBtn.tooltip      "Vergroot de grootte van de tekst in de helpdocumenten.">
-<!ENTITY customizeButton.tooltip         "Aanpassen welke knoppen worden getoond op de Helpwerkbalk.">
+<!ENTITY textZoomEnlargeBtn.tooltip      "De grootte van de tekst in helpdocumenten vergroten">
+<!ENTITY customizeButton.tooltip         "Aanpassen welke knoppen op de Help-werkbalk worden getoond">
 <!ENTITY reloadCmd.label                 "Vernieuwen">
 <!ENTITY reloadCmd.accesskey             "r">
 <!ENTITY closeWindow.commandkey          "W">

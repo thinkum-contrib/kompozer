@@ -36,14 +36,14 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  resetsettings.label      "Herinitialisatie-instellingen">
-<!ENTITY  resetpreferences.label   "Herinitialisatievoorkeuren">
+<!ENTITY  resetsettings.label      "Instellingen herinitialiseren">
+<!ENTITY  resetpreferences.label   "Voorkeuren herinitialiseren…">
 <!ENTITY  managecerts.caption      "Certificaten beheren">
 <!ENTITY  managecerts.text         "Gebruik de certificatenbeheerder voor het beheren van uw persoonlijke certificaten, evenals die van andere personen en certificatieautoriteiten.">
 <!ENTITY  managecerts.button       "Certificaten beheren…">
 <!ENTITY  managecerts.accesskey    "C">
 <!ENTITY  managedevices.caption    "Beveiligingsapparaten beheren">
-<!ENTITY  managedevices.text       "Gebruik deze knop om uw beveiligingsapparaten, zoals smart cards, te beheren.">
+<!ENTITY  managedevices.text       "Gebruik deze knop om uw beveiligingsapparaten, zoals smartcards, te beheren.">
 <!ENTITY  managedevices.button     "Beveiligingsapparaten beheren…">
 <!ENTITY  managedevices.accesskey  "B">
 

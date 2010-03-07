@@ -1,8 +1,8 @@
 <!-- Context Menu -->
 <!ENTITY popupWindowRejectCmd.label     "Pop-upvensters van deze website weigeren">
-<!ENTITY popupWindowRejectCmd.accesskey "R">
+<!ENTITY popupWindowRejectCmd.accesskey "w">
 <!ENTITY popupWindowAllowCmd.label      "Pop-upvensters van deze website toestaan">
-<!ENTITY popupWindowAllowCmd.accesskey  "A">
+<!ENTITY popupWindowAllowCmd.accesskey  "t">
 <!ENTITY openLinkCmd.label            "Koppeling openen in nieuw venster">
 <!ENTITY openLinkCmd.accesskey        "v">
 <!ENTITY openLinkCmdInTab.label       "Koppeling openen in nieuw tabblad">
@@ -42,7 +42,7 @@
 <!ENTITY viewFrameInfoCmd.label       "Deelvensterinfo bekijken">
 <!ENTITY viewFrameInfoCmd.accesskey   "i">
 <!ENTITY fitImageCmd.label            "Afbeelding aanpassen aan venster">
-<!ENTITY fitImageCmd.accesskey        "A">
+<!ENTITY fitImageCmd.accesskey        "a">
 <!ENTITY viewImageCmd.label           "Afbeelding bekijken">
 <!ENTITY viewImageCmd.accesskey       "b">
 <!ENTITY viewBGImageCmd.label         "Achtergrondafbeelding bekijken">
@@ -57,7 +57,7 @@
 <!ENTITY bookmarkFrameCmd.accesskey   "m">
 <!ENTITY savePageAsCmd.label          "Pagina opslaan als…">
 <!ENTITY savePageCmd.label            "Pagina opslaan">
-<!ENTITY savePageCmd.accesskey        "P">
+<!ENTITY savePageCmd.accesskey        "p">
 <!ENTITY savePageCmd.commandkey       "s">
 <!ENTITY saveFrameAsCmd.label         "Deelvenster opslaan als…">
 <!ENTITY saveFrameCmd.label           "Deelvenster opslaan">
@@ -73,7 +73,7 @@
 <!ENTITY selectAllCmd.label           "Alles selecteren">
 <!ENTITY selectAllCmd.accesskey       "A">
 <!ENTITY copyLinkCmd.label            "Koppelingslocatie kopiëren">
-<!ENTITY copyLinkCmd.accesskey        "K">
+<!ENTITY copyLinkCmd.accesskey        "k">
 <!ENTITY copyImageCmd.label           "Afbeeldingslocatie kopiëren">
 <!ENTITY copyImageCmd.accesskey       "o">
 <!ENTITY metadataCmd.label            "Eigenschappen">
@@ -96,7 +96,7 @@
 <!ENTITY bidiSwitchPageDirectionItem.label        "Paginarichting omkeren">
 <!ENTITY bidiSwitchPageDirectionItem.accesskey    "r">
 <!ENTITY bidiSwitchTextDirectionItem.label        "Tekstrichting omkeren">
-<!ENTITY bidiSwitchTextDirectionItem.accesskey    "T">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "t">
 <!ENTITY spellAddToDictionary.label     "Toevoegen aan woordenboek">
 <!ENTITY spellAddToDictionary.accesskey "T">
 <!ENTITY spellEnable.label              "Dit veld op spelling controleren">

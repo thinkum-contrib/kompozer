@@ -1,12 +1,12 @@
 <!ENTITY loadError.label "Fout tijdens het laden van de pagina">
-<!ENTITY retry.label "Probeer het opnieuw">
+<!ENTITY retry.label "Opnieuw proberen">
 
 <!-- Specific error messages -->
 
 <!ENTITY connectionFailure.title "Fout bij verbinden">
 <!ENTITY connectionFailure.longDesc "<p>Hoewel de website lijkt te bestaan is het de browser niet gelukt ermee te verbinden.</p><ul><li>Misschien is de website tijdelijk niet beschikbaar? Probeer het later opnieuw.</li><li>Kunt u ook geen andere websites bezoeken? Controleer de netwerkverbinding van de computer.</li><li>Wordt uw computer of netwerk beschermd door een firewall of proxy? Onjuiste instellingen kunnen een goede werking tijdens het webbrowsen verstoren.</li></ul>">
 
-<!ENTITY deniedPortAccess.title "Poort beperkt om beveiligingsredenen">
+<!ENTITY deniedPortAccess.title "Poort beperkt om veiligheidsredenen">
 <!ENTITY deniedPortAccess.longDesc "<p>Het opgevraagde adres specificeert een poort (bv. <q>mozilla.org:80</q> voor poort 80 op mozilla.org) die normaal gesproken wordt gebruikt voor <em>andere</em> doeleinden dan webbrowsen. De browser heeft het verzoek geannuleerd omwille van uw bescherming en veiligheid.</p>">
 
 <!ENTITY dnsNotFound.title "Adres niet gevonden">
@@ -21,7 +21,7 @@
 <!ENTITY malformedURI.title "Ongeldig adres">
 <!ENTITY malformedURI.longDesc "<p>Het opgegeven adres heeft geen herkenbaar formaat. Controleer de locatiebalk op fouten en probeer het opnieuw.</p>">
 
-<!ENTITY netInterrupt.title "Dataoverdracht onderbroken">
+<!ENTITY netInterrupt.title "Gegevensoverdracht onderbroken">
 <!ENTITY netInterrupt.longDesc "<p>De browser heeft met succes verbinding gemaakt, maar deze werd onderbroken tijdens het overbrengen van informatie. Probeer het opnieuw.</p><ul><li>Kunt u geen andere websites bezoeken? Controleer de netwerkverbinding van de computer.</li><li>Hebt u nog steeds problemen? Raadpleeg uw netwerkbeheerder of internetprovider voor assistentie.</li></ul>">
 
 <!ENTITY netOffline.title "Offlinemodus">
@@ -30,7 +30,7 @@
 <!ENTITY netReset.title "Verbinding onderbroken">
 <!ENTITY netReset.longDesc "<p>De netwerklink werd onderbroken tijdens het onderhandelen over de verbinding. Probeer het opnieuw.</p>">
 
-<!ENTITY netTimeout.title "Netwerk-timeout">
+<!ENTITY netTimeout.title "Netwerktime-out">
 <!ENTITY netTimeout.longDesc "<p>De opgevraagde website antwoordde niet op een verbindingsverzoek en de browser is gestopt met wachten op een antwoord.</p><ul><li>Wellicht ondervindt de server een hoge vraag of een tijdelijke stroomonderbreking? Probeer het later opnieuw.</li><li>Kunt u geen andere websites bezoeken? Controleer de netwerkverbinding van de computer.</li><li>Wordt uw computer of netwerk beschermd door een firewall of proxy? Onjuiste instellingen kunnen een goede werking tijdens het webbrowsen verstoren.</li><li>Hebt u nog steeds problemen? Raadpleeg uw netwerkbeheerder of internetprovider voor assistentie.</li></ul>">
 
 <!ENTITY protocolNotFound.title "Onbekend protocol">

@@ -1,23 +1,23 @@
 <!-- LOCALIZATION NOTE : FILE 'Languages' preferences dialog -->
 
-<!ENTITY  languages.customize.prefLangDescript          "Webpagina's zijn soms beschikbaar in meerdere talen. Kies talen om webpagina's te tonen, op volgorde van voorkeur.">
+<!ENTITY languages.customize.prefLangDescript           "Webpagina’s zijn soms beschikbaar in meerdere talen. Kies talen voor het weergeven van webpagina’s, op volgorde van voorkeur.">
 <!ENTITY languages.customize.lHeader                    "Talen">
-<!ENTITY languages.customize.rHeader                    "Talen waarin webpagina's getoond worden">
-<!ENTITY langtitle.label                                "Talen voor webpagina's">
-<!ENTITY languages.customize.prefAddLangDescript        "De ta(a)l(en) die u wilt toevoegen selecteren.">
+<!ENTITY languages.customize.rHeader                    "Talen waarin webpagina’s worden weergegeven">
+<!ENTITY langtitle.label                                "Talen voor webpagina’s">
+<!ENTITY languages.customize.prefAddLangDescript        "Selecteer de ta(a)l(en) die u wilt gebruiken.">
 <!ENTITY languages.customize.engOrder.label             "1">
 <!ENTITY languages.customize.engOption.label            "Engels">
 <!ENTITY languages.customize.addButton.label            "Toevoegen…">
 <!ENTITY languages.customize.addButton.accesskey        "T">
 <!ENTITY languages.customize.deleteButton.label         "Verwijderen">
-<!ENTITY languages.customize.deleteButton.accesskey     "d">
-<!ENTITY languages.customize.title.label			    "Talen aanpassen">
-<!ENTITY languages.customize.add.title.label		    "Talen selecteren">
-<!ENTITY languages.customize.left.header			    "Tekenset">
-<!ENTITY charset.customize.right.header		    "Ondersteunde tekensets selecteren">
+<!ENTITY languages.customize.deleteButton.accesskey     "V">
+<!ENTITY languages.customize.title.label                "Talen aanpassen">
+<!ENTITY languages.customize.add.title.label            "Talen selecteren">
+<!ENTITY languages.customize.left.header                "Tekenset">
+<!ENTITY charset.customize.right.header                 "Ondersteunde tekensets selecteren">
 <!ENTITY languages.customize.available.label            "Talen:">
 <!ENTITY languages.customize.active.label               "Talen op volgorde van voorkeur:">
-<!ENTITY languages.customize.reorder.label              "Rangschikken">
+<!ENTITY languages.customize.reorder.label              "Herschikken">
 <!ENTITY languages.customize.remove.label               "Verwijderen">
 <!ENTITY languages.customize.additional.label           "Beschikbare tekensets">
 <!ENTITY languages.customize.add.label                  "Toevoegen">
@@ -27,13 +27,12 @@
 <!ENTITY languages.customize.DefaultCharset.label       "Standaard tekenset:">
 <!ENTITY languages.customize.DefaultCharset.accesskey   "S">
 <!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
-<!ENTITY languages.customize.others.examples            "bijv.: en-bz, ar-jo">
-<!ENTITY languages.customize.cancel.label		            "Annuleren">
+<!ENTITY languages.customize.others.examples            "bv. en-bz, ar-jo">
+<!ENTITY languages.customize.cancel.label               "Annuleren">
 <!ENTITY languages.customize.save.label                 "Opslaan">
 <!ENTITY languages.customize.ok.label                   "OK">
-<!ENTITY languages.customize.save.popup                 "Start alstublieft de browser opnieuw om de veranderingen van kracht te laten worden…">
+<!ENTITY languages.customize.save.popup                 "Herstart de browser om wijzigingen van kracht te laten worden…">
 <!ENTITY languages.customize.moveUp.label               "Omhoog verplaatsen">
 <!ENTITY languages.customize.moveUp.accesskey           "O">
 <!ENTITY languages.customize.moveDown.label             "Omlaag verplaatsen">
 <!ENTITY languages.customize.moveDown.accesskey         "m">
-
