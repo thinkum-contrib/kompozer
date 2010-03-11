@@ -49,19 +49,17 @@
 <!ENTITY cmd.useTheme.label               "Uporabi temo">
 <!ENTITY cmd.useTheme.accesskey           "U">
 <!ENTITY cmd.useTheme.tooltip             "Spremeni temo, ki jo uporablja &brandShortName;.">
-
 <!ENTITY cmd.options.label                "Možnosti">
 <!ENTITY cmd.options.accesskey            "M">
 <!ENTITY cmd.options.tooltip              "Nastavi možnosti za izbrano razširitev">
 <!ENTITY cmd.optionsUnix.label            "Nastavitve">
-<!ENTITY cmd.optionsUnix.accesskey        "n">
+<!ENTITY cmd.optionsUnix.accesskey        "N">
 <!ENTITY cmd.optionsUnix.tooltip          "Nastavi možnosti za izbrano razširitev">
 <!ENTITY cmd.enable.label                 "Omogoči">
 <!ENTITY cmd.enable.accesskey             "m">
 <!ENTITY cmd.enable.tooltip               "Omogoči to razširitev/temo, ko se &brandShortName; naslednjič zažene">
 <!ENTITY cmd.disable.label                "Onemogoči">
 <!ENTITY cmd.disable.accesskey            "n">
-
 <!ENTITY cmd.disable.tooltip              "Onemogoči to razširitev/temo, ko se &brandShortName; naslednjič zažene">
 <!ENTITY cmd.uninstall.label              "Odstrani">
 <!ENTITY cmd.uninstall2.accesskey         "i">
@@ -85,9 +83,9 @@
 <!ENTITY cmd.checkUpdate.accesskey        "P">
 
 <!ENTITY cmd.includeUpdate.label          "Vključi posodobitev">
-<!ENTITY cmd.includeUpdate.accesskey      "v">
+<!ENTITY cmd.includeUpdate.accesskey      "V">
 <!ENTITY includeUpdate.label              "Vključi to posodobitev">
-<!ENTITY includeUpdate.accesskey          "v">
+<!ENTITY includeUpdate.accesskey          "V">
 <!ENTITY includeUpdate.tooltip            "Vključi to razširitev/temo pri nameščanju posodobitev">
 
 <!-- Status Messsages -->
@@ -115,3 +113,4 @@
 <!ENTITY installIncompatibleUpdate.label  "Preverjam združljivost …">
 <!ENTITY installFinishing.label           "Nameščam …">
 <!ENTITY installFailure.label             "Namestitev neuspešna.">
+

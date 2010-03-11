@@ -10,21 +10,21 @@
 <!ENTITY  autoTypeRadio.label           "URL za samodejno nastavitev proxy:">
 <!ENTITY  autoTypeRadio.accesskey       "a">
 <!ENTITY  configAutoconfigText.label    "Mesto nastavitve (URL):">
-<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  configAutoconfigText.accesskey "U">
 <!ENTITY  reload.label                  "Ponovno naloži">
 <!ENTITY  reload.accesskey              "l">
 <!ENTITY  ftp.label                     "Proxy FTP:">
-<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  ftp.accesskey                 "F">
 <!ENTITY  gopher.label                  "Proxy Gopher:">
-<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  gopher.accesskey              "G">
 <!ENTITY  http.label                    "Proxy HTTP:">
-<!ENTITY  http.accesskey                "h">
+<!ENTITY  http.accesskey                "H">
 <!ENTITY  ssl.label                     "Proxy SSL:">
-<!ENTITY  ssl.accesskey                 "s">
+<!ENTITY  ssl.accesskey                 "S">
 <!ENTITY  socks.label                   "Gostitelj SOCKS:">
-<!ENTITY  socks.accesskey               "c">
+<!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
-<!ENTITY  socks4.accesskey              "k">
+<!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
 <!ENTITY  port.label                    "Vrata:">
@@ -35,5 +35,5 @@
 <!ENTITY  gopherPort.accesskey          "">
 <!ENTITY  SOCKSport.accesskey           "t">
 <!ENTITY  noproxy.label                 "Brez proxyja za:">
-<!ENTITY  noproxy.accesskey             "b">
+<!ENTITY  noproxy.accesskey             "B">
 <!ENTITY  noproxyExplain.label          "Primer: .mozilla.org, .net.nz">

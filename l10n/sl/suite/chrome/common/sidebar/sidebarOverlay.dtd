@@ -38,29 +38,29 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY sidebar.panels.label "Stranska vrstica">
-<!ENTITY sidebar.reload.label "Ponovno naloži">
-<!ENTITY sidebar.reload.accesskey "P">
-<!ENTITY sidebar.picker.label "Zavihki">
-<!ENTITY sidebar.customize.label "Prilagodi stransko vrstico …">
+<!ENTITY sidebar.panels.label           "Stranska vrstica">
+<!ENTITY sidebar.reload.label           "Ponovno naloži">
+<!ENTITY sidebar.reload.accesskey       "P">
+<!ENTITY sidebar.picker.label           "Zavihki">
+<!ENTITY sidebar.customize.label        "Prilagodi stransko vrstico …">
 <!ENTITY sidebar.customize.accesskey    "s">
-<!ENTITY sidebar.hide.label "Skrij zavihek">
-<!ENTITY sidebar.hide.accesskey         "H">
-<!ENTITY sidebar.switch.label "Preklopi na zavihek">
+<!ENTITY sidebar.hide.label             "Skrij zavihek">
+<!ENTITY sidebar.hide.accesskey         "h">
+<!ENTITY sidebar.switch.label           "Preklopi na zavihek">
 <!ENTITY sidebar.switch.accesskey       "z">
-<!ENTITY sidebarCmd.label "Stranska vrstica">
-<!ENTITY sidebarCmd.accesskey           "v">
-<!ENTITY sidebar.loading.label "Nalaganje …">
-<!ENTITY sidebar.loadstopped.label "Nalaganje ustavljeno">
-<!ENTITY sidebar.loading.stop.label "Ustavi">
-<!ENTITY sidebar.loading.stop.accesskey "S">
+<!ENTITY sidebarCmd.label               "Sidebar">
+<!ENTITY sidebarCmd.accesskey           "b">
+<!ENTITY sidebar.loading.label          "Nalaganje …">
+<!ENTITY sidebar.loadstopped.label      "Nalaganje ustavljeno">
+<!ENTITY sidebar.loading.stop.label     "Ustavi">
+<!ENTITY sidebar.loading.stop.accesskey "s">
 
-<!ENTITY sidebar.no-panels.state "Stranska vrstica je trenutno prazna.">
-<!ENTITY sidebar.no-panels.add 'Zavihke lahko dodate tako, da zgoraj kliknete gumb "Zavihki".'>
-<!ENTITY sidebar.no-panels.hide 'Če želite popolnoma skriti stransko vrstico, kliknite zgoraj na meni "Pogled" in izberite "Stranska vrstica".'>
-<!ENTITY sidebar.sbDirectory.label "Imenik zavihkov za stransko vrstico …">
+<!ENTITY sidebar.no-panels.state     "Stranska vrstica je trenutno prazna.">
+<!ENTITY sidebar.no-panels.add       'Zavihke lahko dodate tako, da zgoraj kliknete gumb "Zavihki".'>
+<!ENTITY sidebar.no-panels.hide      'Če želite popolnoma skriti stransko vrstico, kliknite zgoraj na meni "Pogled" in izberite "Stranska vrstica".'>
+<!ENTITY sidebar.sbDirectory.label   "Imenik zavihkov za stransko vrstico …">
 
-<!ENTITY sidebar.pagenotfound.label "Ta zavihek trenutno ni na voljo.">
-<!ENTITY sidebar.close.tooltip "Zapri stransko vrstico">
-<!ENTITY sidebar.open.tooltip "Odpri stransko vrstico">
+<!ENTITY sidebar.pagenotfound.label  "Ta zavihek trenutno ni na voljo.">
+<!ENTITY sidebar.close.tooltip       "Close Sidebar">
+<!ENTITY sidebar.open.tooltip        "Odpri stransko vrstico">
 

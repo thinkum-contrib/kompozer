@@ -40,41 +40,43 @@
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
 
 <!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
-<!ENTITY  title.label               "Splošno">
-<!ENTITY  lHeader                   "Splošno">
-<!ENTITY  rHeader                   "Nastavitve za izdelavo novih spletnih strani">
+<!ENTITY  title.label                           "Splošno">
+<!ENTITY  lHeader                               "Splošno">
+<!ENTITY  rHeader                               "Nastavitve za izdelavo novih spletnih strani">
 
 <!ENTITY  tableEditing.label                    "Urejanje tabel">
 <!ENTITY  maintainTableStructure.label          "Vzdrževanje postavitve tabel pri vstavljanju ali brisanju celic">
 <!ENTITY  maintainTableStructure.tooltip        "Ohrani pravokotno obliko tabele s samodejnim dodajanjem celic po vstavljanju ali brisanju">
 <!ENTITY  maintainStructure.accesskey           "m">
 
-<!ENTITY  savingFiles.title           "Pri shranjevanju ali objavljanju strani">
-<!ENTITY  preserveExistingFormatting  "Ohrani izvirno oblikovanje kode">
-<!ENTITY  preserveExistingFormatting.accesskey  "o">
+<!ENTITY  savingFiles.title                     "Pri shranjevanju ali objavljanju strani">
+<!ENTITY  preserveExistingFormatting            "Ohrani izvirno oblikovanje kode">
+<!ENTITY  preserveExistingFormatting.accesskey  "O">
 <!ENTITY  preserveExistingFormatting.tooltip    "Ohrani prelome vrstic in izvirno oblikovanje strani">
-<!ENTITY  reformat.label              "Preoblikuj kodo HTML">
-<!ENTITY  reformat.accesskey          "r">
-<!ENTITY  reformat.tooltip            "Preoblikuj značke HTML z uporabo prelomov vrstic in zamikov">
+<!ENTITY  reformat.label                        "Preoblikuj kodo HTML">
+<!ENTITY  reformat.accesskey                    "r">
+<!ENTITY  reformat.tooltip                      "Preoblikuj značke HTML z uporabo prelomov vrstic in zamikov">
 
-<!ENTITY  saveAssociatedFiles.label "Pri shranjevanju strani shrani slike in druge povezane datoteke">
-<!ENTITY  showPublishDialog.label   "Pri objavi strani vedno prikaži pogovorno okno za objavljanje">
+<!ENTITY  saveAssociatedFiles.label             "Pri shranjevanju strani shrani slike in druge povezane datoteke">
+<!ENTITY  showPublishDialog.label               "Pri objavi strani vedno prikaži pogovorno okno za objavljanje">
 
-<!ENTITY  saving                    "Shranjevanje">
-<!ENTITY  AutoSaveCheck             "Samodejno shrani vsakih">
-<!ENTITY  minText                   "minut">
+<!ENTITY  saving                                "Shranjevanje">
+<!ENTITY  AutoSaveCheck                         "Samodejno shrani vsakih">
+<!ENTITY  minText                               "minut">
 
-<!ENTITY  exterLegend.label         "Zunanji urejevalniki">
-<!ENTITY  htmlSource                "Koda HTML:">
-<!ENTITY  imageeditor               "Slike:">
-<!ENTITY  chooseButton.label        "Izberi">
+<!ENTITY  exterLegend.label                     "Zunanji urejevalniki">
+<!ENTITY  htmlSource                            "Koda HTML:">
+<!ENTITY  imageeditor                           "Slike:">
+<!ENTITY  chooseButton.label                    "Izberi">
 
-<!ENTITY  recentFiles.title         "Meni nedavnih strani">
-<!ENTITY  documentsInMenu.accesskey     "n">
-<!ENTITY  documentsInMenu           "Največje število strani na seznamu:">
+<!ENTITY  recentFiles.title                     "Meni nedavnih strani">
+<!ENTITY  documentsInMenu.accesskey             "N">
+<!ENTITY  documentsInMenu                       "Največje število strani na seznamu:">
 
-<!ENTITY  cssEditing.label          "Urejanje slogovnih predlog (CSS)">
-<!ENTITY  useCSS.label              "Uporabi sloge CSS namesto elementov in atributov HTML">
+<!ENTITY  cssEditing.label                      "Urejanje slogovnih predlog (CSS)">
+<!ENTITY  useCSS.label                          "Uporabi sloge CSS namesto elementov in atributov HTML">
 
-<!ENTITY  siteManager.label         "Upravitelj strani">
-<!ENTITY  openInNewTab.label        "Vedno odpri dokument v novem zavihku">
+<!ENTITY  siteManager.label                     "Upravitelj strani">
+<!ENTITY  openInNewTab.label                    "Vedno odpri dokument v novem zavihku">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Uporabi sistemske ikone">

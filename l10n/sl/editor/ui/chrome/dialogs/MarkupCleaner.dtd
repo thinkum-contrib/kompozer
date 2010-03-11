@@ -37,12 +37,14 @@
 
 <!ENTITY window.title "Čistilec označevanja">
 
-<!ENTITY trailingBR.label "Odstrani zaporedne &lt;br&gt;">
+<!ENTITY trailingBR.label  "Odstrani zaporedne &lt;br&gt;">
 <!ENTITY emptyBlocks.label "Odstrani prazne bloke">
-<!ENTITY emptyCells.label "Odstrani poravnavo na praznih celicah tabele">
+<!ENTITY emptyCells.label  "Odstrani poravnavo na praznih celicah tabele">
 <!ENTITY nestedLists.label "Popravi vgnezdene sezname">
+<!ENTITY localUrls.label   "Lokalne URL naslove spremeni v relativne">
 
 <!ENTITY cleanUp.label "Počisti">
+<!ENTITY close.label   "Zapri">
 
 <!ENTITY actionColumnHeader.label "Dejanje">
 <!ENTITY reportColumnHeader.label "Poročilo">

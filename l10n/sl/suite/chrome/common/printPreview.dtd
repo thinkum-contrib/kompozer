@@ -35,19 +35,21 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY print.label "Natisni …">
+<!ENTITY print.label          "Natisni …">
 <!ENTITY print.accesskey      "N">
-<!ENTITY pageSetup.label "Nastavitve strani …">
+<!ENTITY pageSetup.label      "Nastavitve strani …">
 <!ENTITY pageSetup.accesskey  "s">
-<!ENTITY page.label "Stran:">
+<!ENTITY page.label           "Stran:">
+<!ENTITY page.accesskey       "a">
 <!ENTITY of.label             "od">
-<!ENTITY scale.label "Merilo:">
+<!ENTITY scale.label          "Merilo:">
+<!ENTITY scale.accesskey      "S">
 <!ENTITY percent.label        "&#037;">
-<!ENTITY portrait.label "Pokončno">
+<!ENTITY portrait.label       "Pokončno">
 <!ENTITY portrait.accesskey   "P">
-<!ENTITY landscape.label "Ležeče">
+<!ENTITY landscape.label      "Ležeče">
 <!ENTITY landscape.accesskey  "L">
-<!ENTITY close.label "Zapri">
+<!ENTITY close.label          "Zapri">
 <!ENTITY close.accesskey      "Z">
 <!ENTITY p30.label            "30&#037;">
 <!ENTITY p40.label            "40&#037;">
@@ -62,5 +64,10 @@
 <!ENTITY p175.label           "175&#037;">
 <!ENTITY p200.label           "200&#037;">
 <!ENTITY Custom.label         "Po meri …">
-<!ENTITY ShrinkToFit.label "Skrči, da ustreza">
-<!ENTITY customPrompt.title "Merilo po meri …">
+<!ENTITY ShrinkToFit.label    "Skrči, da ustreza">
+<!ENTITY customPrompt.title   "Merilo po meri …">
+
+<!ENTITY homearrow.tooltip    "Prva stran">
+<!ENTITY endarrow.tooltip     "Zadnja stran">
+<!ENTITY rightarrow.tooltip   "Naslednja stran">
+<!ENTITY leftarrow.tooltip    "Prejšnja stran">

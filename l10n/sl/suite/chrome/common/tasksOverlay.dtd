@@ -1,43 +1,44 @@
 <!-- extracted from tasksOverlay.xul -->
 <!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
-<!ENTITY navigatorCmd.label					"Navigator">  
-<!ENTITY navigatorCmd.accesskey             "n">
-<!ENTITY navigatorCmd.commandkey            "1">
+<!ENTITY navigatorCmd.label              "Navigator">  
+<!ENTITY navigatorCmd.accesskey          "N">
+<!ENTITY navigatorCmd.commandkey         "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label					"Composer">
-<!ENTITY editorCmd.accesskey				"c">
-<!ENTITY editorCmd.commandkey				"4">
+<!ENTITY editorCmd.label                 "KompoZer">
+<!ENTITY editorCmd.accesskey             "c">
+<!ENTITY editorCmd.commandkey            "4">
 
-<!ENTITY securityInfoCmd.label ".Podatki o varnosti">
-<!ENTITY securityInfoCmd.accesskey				"s">
-<!ENTITY javaConsoleCmd.label "Javanska konzola">
-<!ENTITY javaConsoleCmd.accesskey				"j">
+<!ENTITY securityInfoCmd.label           ".Podatki o varnosti">  
+<!ENTITY securityInfoCmd.accesskey       "s">
+<!ENTITY javaConsoleCmd.label            "Javanska konzola">
+<!ENTITY javaConsoleCmd.accesskey        "J">
 
-<!ENTITY javaScriptConsoleCmd.label "Konzola JavaScripta">
-<!ENTITY javaScriptConsoleCmd.accesskey				"S">
+<!ENTITY javaScriptConsoleCmd.label      "Konzola JavaScripta">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "Zasebnost in varnost">
-<!ENTITY privacyMenu.accesskey "z">
+<!ENTITY privacyMenu.label               "Zasebnost in varnost">
+<!ENTITY privacyMenu.accesskey           "Z">
 
-<!ENTITY taskNavigator.tooltip  "Navigator">
-<!ENTITY taskComposer.tooltip  "Composer">
-<!ENTITY taskBar.tooltip  "Vrstica stanja">
+<!ENTITY taskNavigator.tooltip           "Navigator">
+<!ENTITY taskComposer.tooltip            "KompoZer">
+<!ENTITY taskBar.tooltip                 "Vrstica stanja">
 
-<!ENTITY webDevelopment.label "Spletni razvoj">
-<!ENTITY webDevelopment.accesskey "l">
+<!ENTITY webDevelopment.label            "Spletni razvoj">
+<!ENTITY webDevelopment.accesskey        "l">
 
-<!ENTITY windowMenu.label "Okno">
-<!ENTITY windowMenu.accesskey "O">
+<!ENTITY windowMenu.label                "Okno">
+<!ENTITY windowMenu.accesskey            "O">
 
-<!ENTITY tasksMenu.label "Orodja">
-<!ENTITY tasksMenu.accesskey "r"> 
+<!ENTITY tasksMenu.label                 "Orodja">
+<!ENTITY tasksMenu.accesskey             "r"> 
 
-<!ENTITY downloadManagerCmd.label "Upravitelj prenosov">
-<!ENTITY downloadManagerCmd.accesskey "p">
+<!ENTITY downloadManagerCmd.label        "Upravitelj prenosov">
+<!ENTITY downloadManagerCmd.accesskey    "p">
 
-<!ENTITY switchProfileCmd.label "Zamenjaj profil …">
-<!ENTITY switchProfileCmd.accesskey "Z">
+<!ENTITY switchProfileCmd.label          "Zamenjaj profil …">
+<!ENTITY switchProfileCmd.accesskey      "Z">
 
-<!ENTITY extensions.label "Razširitve">
-<!ENTITY themes.label "Teme">
+<!ENTITY addons.label                    "Razširitve">
+<!ENTITY extensions.label                "Razširitve">
+<!ENTITY themes.label                    "Teme">

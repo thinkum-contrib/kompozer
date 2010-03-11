@@ -21,17 +21,17 @@
    -   Ben Goodger
   -->
 
-<!ENTITY WindowTitle.label "Napreden urejevalnik atributov:">
-<!ENTITY AttName.label "Atribut:">
-<!ENTITY AttValue.label "Vrednost:">
-<!ENTITY PropertyName.label "Lastnost:">
+<!ENTITY WindowTitle.label              "Napreden urejevalnik atributov:">
+<!ENTITY AttName.label                  "Atribut:">
+<!ENTITY AttValue.label                 "Vrednost:">
+<!ENTITY PropertyName.label             "Lastnost:">
 <!ENTITY currentattributesfor.label     "Trenutni atribut za: ">
 <!ENTITY tree.attributeHeader.label     "Atribut">
 <!ENTITY tree.propertyHeader.label      "Lastnost">
 <!ENTITY tree.valueHeader.label         "Vrednost">
 <!ENTITY tabHTML.label                  "Atributi HTML">
 <!ENTITY tabCSS.label                   "Notranji slog">
-<!ENTITY tabJSE.label "Dogodki JavaScripta">
+<!ENTITY tabJSE.label                   "Dogodki JavaScripta">
 
-<!ENTITY editAttribute.label "Kliknite na predmet zgoraj, če želite spremeniti njegovo vrednost">
+<!ENTITY editAttribute.label    "Kliknite na predmet zgoraj, če želite spremeniti njegovo vrednost">
 <!ENTITY removeAttribute.label  "Odstrani">

@@ -8,11 +8,11 @@
 <!ENTITY     props.policy.label             "Polica:"> 
 
 <!ENTITY     button.allow.label             "Dovoli">
-<!ENTITY     button.allow.accesskey         "d">
+<!ENTITY     button.allow.accesskey         "D">
 <!ENTITY     button.session.label           "Dovoli v tej seji">
-<!ENTITY     button.session.accesskey       "S">
+<!ENTITY     button.session.accesskey       "s">
 <!ENTITY     button.deny.label              "Zanikaj">
-<!ENTITY     button.deny.accesskey          "z">
+<!ENTITY     button.deny.accesskey          "Z">
 
 <!ENTITY     dialog.title                   "Potrditev nastavitve piškota">
 <!ENTITY     dialog.remember.label          "Uporabi mojo izbiro za vse piškote s te strani">

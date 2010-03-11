@@ -58,15 +58,15 @@
 <!ENTITY InitialValue.label "Začetna vrednost:">
 <!ENTITY Value.accesskey "Z">
 <!ENTITY InputChecked.label "Na začetku potrjeno">
-<!ENTITY InputChecked.accesskey "P">
+<!ENTITY InputChecked.accesskey "p">
 <!ENTITY InputSelected.label "Na začetku izbrano">
-<!ENTITY InputSelected.accesskey "I">
+<!ENTITY InputSelected.accesskey "i">
 <!ENTITY InputReadOnly.label "Samo za branje">
 <!ENTITY InputReadOnly.accesskey "b">
 <!ENTITY InputDisabled.label "Onemogočeno">
 <!ENTITY InputDisabled.accesskey "O">
 <!ENTITY tabIndex.label "Položaj Tab:">
-<!ENTITY tabIndex.accesskey "I">
+<!ENTITY tabIndex.accesskey "P">
 <!ENTITY TextSize.label "Velikost polja:">
 <!ENTITY TextSize.accesskey "V">
 <!ENTITY TextLength.label "Največja dolžina:">
@@ -77,4 +77,4 @@
 <!ENTITY Accept.accesskey "S">
 
 <!ENTITY ImageProperties.label "Lastnosti slike …">
-<!ENTITY ImageProperties.accesskey "E">
+<!ENTITY ImageProperties.accesskey "e">

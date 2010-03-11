@@ -37,7 +37,7 @@
 <!ENTITY window.title "about:config">
 
 <!ENTITY filterPrefs.label "Filter:">
-<!ENTITY filterPrefs.accesskey "I">
+<!ENTITY filterPrefs.accesskey "i">
 <!ENTITY showAll.label "Pokaži vse">
 <!ENTITY showAll.accesskey "k">
 
@@ -57,7 +57,7 @@
 <!ENTITY copyValue.label "Vrednost kopije">
 <!ENTITY copyValue.accesskey "V">
 <!ENTITY modify.label "Spremeni">
-<!ENTITY modify.accesskey "M">
+<!ENTITY modify.accesskey "m">
 <!ENTITY toggle.label "Preklopi">
 <!ENTITY toggle.accesskey "P">
 <!ENTITY reset.label "Ponastavi">
@@ -74,3 +74,4 @@
 <!ENTITY lock.accesskey "k">
 <!ENTITY unlock.label "Odkleni">
 <!ENTITY unlock.accesskey "O">
+

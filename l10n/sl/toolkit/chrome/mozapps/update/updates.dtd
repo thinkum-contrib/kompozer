@@ -3,7 +3,6 @@
 <!ENTITY  window.width                    "39em">
 <!ENTITY  window.macWidth                 "42em">
 
-
 <!ENTITY  checking.title                  "Iščem posodobitve">
 <!ENTITY  checking.label                  "&brandShortName; išče posodobitve …">
 
@@ -18,7 +17,6 @@
 <!ENTITY  moreDetails.label               "Podrobnosti &#0187;">
 <!ENTITY  moreDetails.accesskey           "P">
 <!ENTITY  clickHere.label                 "Kliknite sem za več splošnih podatkov o tej posodobitvi">
-
 
 <!ENTITY  incompatible.warning            "Ta posodobitev bo povzročila, da nekatere vaše razširitve ne bodo delovale, dokler tudi njih ne posodobite.">
 <!ENTITY  listIncompatible.label          "Pokaži seznam">
@@ -50,9 +48,9 @@
 <!ENTITY  close.accesskey                 "Z">
 
 <!ENTITY  error.label                     "Pri iskanju, prenosu ali namestitvi te posodobitve je prišlo do napak zaradi:">
-
+                                           
 <!ENTITY  errorManual.label               "Program lahko posodobite ročno, če obiščete naslednjo povezavo in prenesete najnovejšo različico:">
-
+                                           
 <!ENTITY  errorpatching.title             "Posodobitev neuspešna">
 <!ENTITY  errorpatching.intro             "Delne posodobitve ne morem namestiti. Prenešena bo celotna posodobitev.">
 

@@ -35,31 +35,31 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY previewColour.label     "Predogled:">
-<!ENTITY dialog.title            "Izbirnik barv">
+<!ENTITY previewColour.label       "Predogled:">
+<!ENTITY dialog.title              "Izbirnik barv">
 
-<!ENTITY predef.label            "Vnaprej določene barve:">
-<!ENTITY rgb.label               "RGB">
-<!ENTITY hsb.label               "HSB">
+<!ENTITY predef.label              "Vnaprej določene barve:">
+<!ENTITY rgb.label                 "RGB">
+<!ENTITY hsb.label                 "HSB">
 
-<!ENTITY red.label               "Rdeča:">
-<!ENTITY green.label             "Zelena:">
-<!ENTITY blue.label              "Modra:">
+<!ENTITY red.label                 "Rdeča:">
+<!ENTITY green.label               "Zelena:">
+<!ENTITY blue.label                "Modra:">
 
-<!ENTITY hue.label               "Odtenek:">
-<!ENTITY saturation.label        "Nasičenost:">
-<!ENTITY brightness.label        "Svetlost:">
+<!ENTITY hue.label                 "Odtenek:">
+<!ENTITY saturation.label          "Nasičenost:">
+<!ENTITY brightness.label          "Svetlost:">
 
-<!ENTITY transparency.label       "Prozorno">
+<!ENTITY transparency.label        "Prozorno">
 
-<!ENTITY background.label "Ozadje za:">
-<!ENTITY background.accessKey "O">
-<!ENTITY table.label "Tabela">
-<!ENTITY table.accessKey "T">
-<!ENTITY cell.label "Celica">
-<!ENTITY cell.accessKey "C">
+<!ENTITY background.label          "Ozadje za:">
+<!ENTITY background.accessKey      "O">
+<!ENTITY table.label               "Tabela">
+<!ENTITY table.accessKey           "T">
+<!ENTITY cell.label                "Celica">
+<!ENTITY cell.accessKey            "C">
 
-<!ENTITY lastPickedColor.label "Nazadnje izbrana barva">
+<!ENTITY lastPickedColor.label     "Nazadnje izbrana barva">
 <!ENTITY lastPickedColor.accessKey "N">
 
 <!ENTITY hexColor.label            "Šestnajstiško:">

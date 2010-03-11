@@ -1,10 +1,11 @@
 
-<!ENTITY prefWindow.size "width: 55.3em; height: 37em;">
-<!ENTITY prefWindow.title "Nastavitve">
+<!ENTITY prefWindow.size       "width: 55.3em; height: 37em;">
+<!ENTITY prefWindow.title      "Nastavitve">
 
-<!ENTITY general.label "Splošno">
-<!ENTITY extensions.label "Razširitve">
-<!ENTITY advanced.label "Napredno">
+<!ENTITY general.label         "Splošno">
+<!ENTITY extensions.label      "Razširitve">
+<!ENTITY advanced.label        "Napredno">
+<!ENTITY helpers.label         "Programi">
 <!ENTITY newpagesettings.label "Nastavitve nove strani">
-<!ENTITY fonts.label   "Pisave">
-<!ENTITY i18n.label    "Področne nastavitve">
+<!ENTITY fonts.label           "Pisave">
+<!ENTITY i18n.label            "Področne nastavitve">

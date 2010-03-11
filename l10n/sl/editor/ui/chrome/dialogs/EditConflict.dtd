@@ -22,7 +22,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Izberi spremembe">
-<!ENTITY conflictWarning.label "Stran je bila spremenjena z drugim programom, a vaše spremembe v Nvu še niso bile shranjene">
+<!ENTITY conflictWarning.label "This page has been modified by another program, but you also have unsaved changes in KompoZer.">
 <!ENTITY conflictResolve.label "Izberite, katero različico želite ohraniti:">
 <!ENTITY keepCurrentPageButton.label "Ohrani spremembe na strani">
 <!ENTITY useOtherPageButton.label "Zamenjaj trenutno stran z drugimi spremembami">

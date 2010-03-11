@@ -25,7 +25,7 @@
 
 <!ENTITY replaceDialog.title "Najdi in zamenjaj">
 <!ENTITY findField.label "Najdi besedilo:">
-<!ENTITY findField.accesskey "n">
+<!ENTITY findField.accesskey "N">
 <!ENTITY replaceField.label "Zamenjaj z:">
 <!ENTITY replaceField.accesskey "e">
 <!ENTITY caseSensitiveCheckbox.label "Upoštevaj velike/male črke">
@@ -35,7 +35,7 @@
 <!ENTITY backwardsCheckbox.label "Išči nazaj">
 <!ENTITY backwardsCheckbox.accesskey "z">
 <!ENTITY findNextButton.label "Najdi naslednje">
-<!ENTITY findNextButton.accesskey "n">
+<!ENTITY findNextButton.accesskey "N">
 <!ENTITY replaceButton.label "Zamenjaj">
 <!ENTITY replaceButton.accesskey "m">
 <!ENTITY replaceAndFindButton.label "Zamenjaj in najdi">

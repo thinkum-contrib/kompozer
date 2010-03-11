@@ -11,7 +11,7 @@
 <!-- Second wizard page -->
 <!ENTITY profileCreationIntro.text      "Če ustvarite več profilov, jih lahko prepoznate po njihovih imenih. Uporabite lahko predlagano ime, ali pa uporabite svoje.">
 <!ENTITY profilePrompt.label            "Vnesite novo ime profila:">
-<!ENTITY profilePrompt.accesskey        "E">
+<!ENTITY profilePrompt.accesskey        "e">
 <!ENTITY profileDirExplanation.text     "Vaše uporabniške nastavitve, zaznamki in e-poštna sporočila bodo shranjeni v imenik:">
 <!ENTITY profileDefaultName             "Privzeti uporabnik">
 <!ENTITY button.choosefolder.label      "Izberite imenik …">

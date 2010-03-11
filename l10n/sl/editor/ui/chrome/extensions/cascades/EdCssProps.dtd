@@ -36,233 +36,244 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY Window.title						"Slogovne predloge CSS">
+<!ENTITY Window.title                           "Slogovne predloge CSS">
 
-<!ENTITY sheetsTreeColumn.label				"Predloge in pravila">
-<!ENTITY expertModeChecbox.label			"Način za izkušene">
-<!ENTITY importRuleButton.label				"@uvozi">
-<!ENTITY mediaRuleButton.label				"@mediji">
-<!ENTITY linkedSheetButton.label			"Elt. povezave">
-<!ENTITY styleSheetButton.label				"Elt. sloga">
-<!ENTITY ruleButton.label					"Pravilo">
-<!ENTITY upButton.label						"Gor">
-<!ENTITY downButton.label					"Dol">
-<!ENTITY refreshButton.label				"Osveži">
-<!ENTITY removeButton.label					"Odstrani">
-<!ENTITY sheetInfoTab.label					"Splošno">
-<!ENTITY textTab.label						"Besedilo">
-<!ENTITY borderTab.label					"Okvirji">
-<!ENTITY marginsTab.label					"Robovi">
-<!ENTITY boxTab.label						"Škatla">
-<!ENTITY auralTab.label						"Slišno">
-<!ENTITY fontFamily.label					"Družina pisav:">
-<!ENTITY inheritedFontFamily.label			"podedovano">
-<!ENTITY useCustomFontFamily.label			"Uporabi družino pisav po meri:">
-<!ENTITY fontData.label						"Podatki o pisavi">
-<!ENTITY exampleSentence.label				"Hitra rjava lisička preskoči lenega psa">
-<!ENTITY backgroundTab.label				"Ozadje">
+<!ENTITY sheetsTreeColumn.label                 "Predloge in pravila">
+<!ENTITY expertModeChecbox.label                "Način za izkušene">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "Elt. povezave">
+<!ENTITY styleSheetButton.label                 "Elt. sloga">
+<!ENTITY ruleButton.label                       "Pravilo">
+<!ENTITY upButton.label                         "Gor">
+<!ENTITY downButton.label                       "Dol">
+<!ENTITY refreshButton.label                    "Osveži">
+<!ENTITY removeButton.label                     "Odstrani">
+<!ENTITY sheetInfoTab.label                     "Splošno">
+<!ENTITY textTab.label                          "Besedilo">
+<!ENTITY borderTab.label                        "Okvirji">
+<!ENTITY marginsTab.label                       "Robovi">
+<!ENTITY boxTab.label                           "Škatla">
+<!ENTITY auralTab.label                         "Slišno">
+<!ENTITY fontFamily.label                       "Družina pisav:">
+<!ENTITY inheritedFontFamily.label              "podedovano">
+<!ENTITY useCustomFontFamily.label              "Uporabi družino pisav po meri:">
+<!ENTITY fontData.label                         "Podatki o pisavi">
+<!ENTITY exampleSentence.label                  "Hitra rjava lisička preskoči lenega psa">
+<!ENTITY backgroundTab.label                    "Ozadje">
 
-<!ENTITY unspecifiedValue.label				"nedoločeno">
-<!ENTITY predefFontFamilyRadio.label		"vnaprej določeno:">
-<!ENTITY fontSize.label						"Velikost pisave:">
-<!ENTITY lineHeight.label                   "Višina črte:">
-<!ENTITY normalLineHeight.label             "navadno">
-<!ENTITY color.label						"Barva:">
-<!ENTITY fontWeight.label					"Debelina pisave:">
-<!ENTITY normalValue.label					"Navadno">
-<!ENTITY boldValue.label					"Krepko">
-<!ENTITY bolderValue.label					"Bolj krepko">
-<!ENTITY lighterValue.label					"Bolj šibko">
-<!ENTITY inheritedValue.label				"Podedovano">
-<!ENTITY fontStyle.label					"Slog pisave:">
-<!ENTITY italicValue.label					"Kurzivno">
-<!ENTITY obliqueValue.label					"Nagnjeno">
-<!ENTITY textTransform.label				"Velike/male črke:">
-<!ENTITY noneTextTransformValue.label		"Brez sprememb">
-<!ENTITY lowercaseValue.label				"Male črke">
-<!ENTITY uppercaseValue.label				"Velike črke">
-<!ENTITY capitalizeValue.label				"Velike začetnice">
+<!ENTITY unspecifiedValue.label                 "nedoločeno">
+<!ENTITY predefFontFamilyRadio.label            "vnaprej določeno:">
+<!ENTITY fontSize.label                         "Velikost pisave:">
+<!ENTITY lineHeight.label                       "Višina črte:">
+<!ENTITY normalLineHeight.label                 "navadno">
+<!ENTITY color.label                            "Barva:">
+<!ENTITY fontWeight.label                       "Debelina pisave:">
+<!ENTITY normalValue.label                      "Navadno">
+<!ENTITY boldValue.label                        "Krepko">
+<!ENTITY bolderValue.label                      "Bolj krepko">
+<!ENTITY lighterValue.label                     "Bolj šibko">
+<!ENTITY inheritedValue.label                   "Podedovano">
+<!ENTITY fontStyle.label                        "Slog pisave:">
+<!ENTITY italicValue.label                      "Kurzivno">
+<!ENTITY obliqueValue.label                     "Nagnjeno">
+<!ENTITY textTransform.label                    "Velike/male črke:">
+<!ENTITY noneTextTransformValue.label           "Brez sprememb">
+<!ENTITY lowercaseValue.label                   "Male črke">
+<!ENTITY uppercaseValue.label                   "Velike črke">
+<!ENTITY capitalizeValue.label                  "Velike začetnice">
 
-<!ENTITY closeButton.label					"Zapri">
+<!ENTITY closeButton.label                      "Zapri">
 
-<!ENTITY largerFontSize.label				"večje">
-<!ENTITY smallerFontSize.label				"manjše">
-<!ENTITY xxsmallFontSize.label				"xx-majhno">
-<!ENTITY xsmallFontSize.label				"x-majhno">
-<!ENTITY smallFontSize.label				"majhno">
-<!ENTITY mediumFontSize.label				"srednje">
-<!ENTITY largeFontSize.label				"veliko">
-<!ENTITY xlargeFontSize.label				"x-veliko">
-<!ENTITY xxlargeFontSize.label				"xx-veliko">
+<!ENTITY largerFontSize.label                   "večje">
+<!ENTITY smallerFontSize.label                  "manjše">
+<!ENTITY xxsmallFontSize.label                  "xx-majhno">
+<!ENTITY xsmallFontSize.label                   "x-majhno">
+<!ENTITY smallFontSize.label                    "majhno">
+<!ENTITY mediumFontSize.label                   "srednje">
+<!ENTITY largeFontSize.label                    "veliko">
+<!ENTITY xlargeFontSize.label                   "x-veliko">
+<!ENTITY xxlargeFontSize.label                  "xx-veliko">
 
-<!ENTITY textAlign.label					"Poravnava:">
-<!ENTITY rightTextAlign.label				"Desno">
-<!ENTITY leftTextAlign.label				"Levo">
-<!ENTITY centerTextAlign.label				"Na sredino">
-<!ENTITY justifyTextAlign.label				"Obojestransko">
+<!ENTITY textAlign.label                        "Poravnava:">
+<!ENTITY rightTextAlign.label                   "Desno">
+<!ENTITY leftTextAlign.label                    "Levo">
+<!ENTITY centerTextAlign.label                  "Na sredino">
+<!ENTITY justifyTextAlign.label                 "Obojestransko">
 
-<!ENTITY textDecoration.label				"Okraski besedila:">
-<!ENTITY overlineTextDecoration.label		"Nadčrtano">
-<!ENTITY underlineTextDecoration.label		"Podčrtano">
-<!ENTITY linethroughTextDecoration.label	"Prečrtano">
-<!ENTITY blinkTextDecoration.label			"Utripajoče">
-<!ENTITY noneTextDecoration.label			"Brez">
+<!ENTITY textDecoration.label                   "Okraski besedila:">
+<!ENTITY overlineTextDecoration.label           "Nadčrtano">
+<!ENTITY underlineTextDecoration.label          "Podčrtano">
+<!ENTITY linethroughTextDecoration.label        "Prečrtano">
+<!ENTITY blinkTextDecoration.label              "Utripajoče">
+<!ENTITY noneTextDecoration.label               "Brez">
 
-<!ENTITY backgroundColor.label				"Barva:">
-<!ENTITY backgroundImage.label              "Slika:">
-<!ENTITY chooseFileButton.label             "Izberi datoteko">
-<!ENTITY backgroundRepeat.label             "Tlakovnao:">
-<!ENTITY norepeatBackgroundRepeat.label     "ne tlakuj">
-<!ENTITY repeatxBackgroundRepeat.label      "vodoravno">
-<!ENTITY repeatyBackgroundRepeat.label      "navpično">
-<!ENTITY repeatBackgroundRepeat.label       "vodoravno in navpično">
-<!ENTITY backgroundPosition.label           "Položaj:">
-<!ENTITY leftXBackgroundPosition.label      "Levo">
-<!ENTITY centerXBackgroundPosition.label    "Na sredini">
-<!ENTITY rightXBackgroundPosition.label     "Desno">
-<!ENTITY topYBackgroundPosition.label       "Zgoraj">
-<!ENTITY centerYBackgroundPosition.label    "Na sredini">
-<!ENTITY bottomYBackgroundPosition.label    "Spodaj">
-<!ENTITY backgroundAttachmentCheckbox.label "Slika se pomika skupaj s stranjo">
-
-
-<!ENTITY useBorderShorthand.label           "Vse štiri strani uporabljajo enak slog okvirja">
-<!ENTITY borderStyle.label                  "Slog:">
-<!ENTITY borderWidth.label                  "Širina:">
-<!ENTITY borderColor.label                  "Barva:">
-<!ENTITY topBorder.label                    "Zgoraj:">
-<!ENTITY leftBorder.label                   "Levo:">
-<!ENTITY rightBorder.label                  "Desno:">
-<!ENTITY bottomBorder.label                 "Spodaj:">
-<!ENTITY borderPreview.label                "Predogled">
-<!ENTITY noneBorderStyle.label              "brez">
-<!ENTITY hiddenBorderStyle.label            "skrito">
-<!ENTITY solidBorderStyle.label             "polno">
-<!ENTITY dottedBorderStyle.label            "pikčasto">
-<!ENTITY dashedBorderStyle.label            "črtkano">
-<!ENTITY doubleBorderStyle.label            "dvojno">
-<!ENTITY grooveBorderStyle.label            "žleb">
-<!ENTITY ridgeBorderStyle.label             "nagubano">
-<!ENTITY insetBorderStyle.label             "vbočeno">
-<!ENTITY outsetBorderStyle.label            "izbočeno">
-
-<!ENTITY display.label                      "Prikaz:">
-<!ENTITY noneDisplay.label                  "brez">
-<!ENTITY inlineDisplay.label                "vgrajeno">
-<!ENTITY blockDisplay.label                 "blok">
-<!ENTITY runinDisplay.label                 "ob strani">
-<!ENTITY compactDisplay.label               "zgoščeno">
-<!ENTITY listitemDisplay.label              "element seznama">
-<!ENTITY tableDisplay.label                 "tabela">
-<!ENTITY tablerowDisplay.label              "vrstica tabele">
-<!ENTITY tablecellDisplay.label             "celica tabele">
-<!ENTITY tablecaptionDisplay.label          "naslov tabele">
-<!ENTITY inlinetableDisplay.label           "vgrajena tabela">
-<!ENTITY tablecolumnDisplay.label           "stolpec tabele">
-<!ENTITY tablerowgroupDisplay.label         "skupina vrstic tabele">
-<!ENTITY tableheadergroupDisplay.label      "skupina glav tabele">
-<!ENTITY tablefootergroupDisplay.label      "skupina nog tabele">
-<!ENTITY tablecolumngroupDisplay.label      "skupina stolpcev tabele">
-
-<!ENTITY visibility.label                   "Vidnost:">
-<!ENTITY visibleVisibility.label            "vidno">
-<!ENTITY hiddenVisibility.label             "skrito">
-<!ENTITY collapseVisibility.label           "zloženo">
-
-<!ENTITY float.label                        "Lebdenje:">
-<!ENTITY leftFloat.label                    "levo">
-<!ENTITY rightFloat.label                   "desno">
-<!ENTITY noneFloat.label                    "brez">
-
-<!ENTITY clear.label                        "Počisti:">
-<!ENTITY noneClear.label                    "brez">
-<!ENTITY leftClear.label                    "levo">
-<!ENTITY rightClear.label                   "desno">
-<!ENTITY bothClear.label                    "oboje">
+<!ENTITY backgroundColor.label                  "Barva:">
+<!ENTITY backgroundImage.label                  "Slika:">
+<!ENTITY chooseFileButton.label                 "Izberi datoteko">
+<!ENTITY backgroundRepeat.label                 "Tlakovnao:">
+<!ENTITY norepeatBackgroundRepeat.label         "ne tlakuj">
+<!ENTITY repeatxBackgroundRepeat.label          "vodoravno">
+<!ENTITY repeatyBackgroundRepeat.label          "navpično">
+<!ENTITY repeatBackgroundRepeat.label           "vodoravno in navpično">
+<!ENTITY backgroundPosition.label               "Položaj:">
+<!ENTITY leftXBackgroundPosition.label          "Levo">
+<!ENTITY centerXBackgroundPosition.label        "Na sredini">
+<!ENTITY rightXBackgroundPosition.label         "Desno">
+<!ENTITY topYBackgroundPosition.label           "Zgoraj">
+<!ENTITY centerYBackgroundPosition.label        "Na sredini">
+<!ENTITY bottomYBackgroundPosition.label        "Spodaj">
+<!ENTITY backgroundAttachmentCheckbox.label     "Slika se pomika skupaj s stranjo">
 
 
-<!ENTITY position.label                     "Položaj:">
-<!ENTITY staticPosition.label               "statično">
-<!ENTITY fixedPosition.label                "ustaljeno">
-<!ENTITY absolutePosition.label             "absolutno">
-<!ENTITY relativePosition.label             "relativno">
+<!ENTITY useBorderShorthand.label               "Vse štiri strani uporabljajo enak slog okvirja">
+<!ENTITY borderStyle.label                      "Slog:">
+<!ENTITY borderWidth.label                      "Širina:">
+<!ENTITY borderColor.label                      "Barva:">
+<!ENTITY topBorder.label                        "Zgoraj:">
+<!ENTITY leftBorder.label                       "Levo:">
+<!ENTITY rightBorder.label                      "Desno:">
+<!ENTITY bottomBorder.label                     "Spodaj:">
+<!ENTITY borderPreview.label                    "Predogled">
+<!ENTITY noneBorderStyle.label                  "brez">
+<!ENTITY hiddenBorderStyle.label                "skrito">
+<!ENTITY solidBorderStyle.label                 "polno">
+<!ENTITY dottedBorderStyle.label                "pikčasto">
+<!ENTITY dashedBorderStyle.label                "črtkano">
+<!ENTITY doubleBorderStyle.label                "dvojno">
+<!ENTITY grooveBorderStyle.label                "žleb">
+<!ENTITY ridgeBorderStyle.label                 "nagubano">
+<!ENTITY insetBorderStyle.label                 "vbočeno">
+<!ENTITY outsetBorderStyle.label                "izbočeno">
 
-<!ENTITY overflow.label                     "Preplava:">
-<!ENTITY visibleOverflow.label              "vidno">
-<!ENTITY hiddenOverflow.label               "skrito">
-<!ENTITY scrollOverflow.label               "drsenje">
-<!ENTITY autoOverflow.label                 "samodejno">
+<!ENTITY display.label                          "Prikaz:">
+<!ENTITY noneDisplay.label                      "brez">
+<!ENTITY inlineDisplay.label                    "vgrajeno">
+<!ENTITY blockDisplay.label                     "blok">
+<!ENTITY runinDisplay.label                     "ob strani">
+<!ENTITY compactDisplay.label                   "zgoščeno">
+<!ENTITY listitemDisplay.label                  "element seznama">
+<!ENTITY tableDisplay.label                     "tabela">
+<!ENTITY tablerowDisplay.label                  "vrstica tabele">
+<!ENTITY tablecellDisplay.label                 "celica tabele">
+<!ENTITY tablecaptionDisplay.label              "naslov tabele">
+<!ENTITY inlinetableDisplay.label               "vgrajena tabela">
+<!ENTITY tablecolumnDisplay.label               "stolpec tabele">
+<!ENTITY tablerowgroupDisplay.label             "skupina vrstic tabele">
+<!ENTITY tableheadergroupDisplay.label          "skupina glav tabele">
+<!ENTITY tablefootergroupDisplay.label          "skupina nog tabele">
+<!ENTITY tablecolumngroupDisplay.label          "skupina stolpcev tabele">
 
-<!ENTITY zIndex.label                       "Indeks Z:">
+<!ENTITY visibility.label                       "Vidnost:">
+<!ENTITY visibleVisibility.label                "vidno">
+<!ENTITY hiddenVisibility.label                 "skrito">
+<!ENTITY collapseVisibility.label               "zloženo">
 
-<!ENTITY width.label                        "Širina:">
-<!ENTITY minWidth.label                     "Najm-širina:">
-<!ENTITY maxWidth.label                     "Najv-širina:">
-<!ENTITY height.label                       "Višina:">
-<!ENTITY minHeight.label                    "Najm-višina:">
-<!ENTITY maxHeight.label                    "Najv-višina:">
+<!ENTITY float.label                            "Lebdenje:">
+<!ENTITY leftFloat.label                        "levo">
+<!ENTITY rightFloat.label                       "desno">
+<!ENTITY noneFloat.label                        "brez">
 
-<!ENTITY margins.label                      "Robovi:">
-<!ENTITY paddings.label                     "Odmik:">
-<!ENTITY offsets.label                      "Poravnave:">
-<!ENTITY top.label                          "Zgoraj:">
-<!ENTITY left.label                         "Levo:">
-<!ENTITY right.label                        "Desno:">
-<!ENTITY bottom.label                       "Spodaj:">
-
-<!ENTITY volume.label                       "Glasnost:">
-<!ENTITY xsoftVolume.label                  "x-tiho">
-<!ENTITY softVolume.label                   "tiho">
-<!ENTITY mediumVolume.label                 "srednje">
-<!ENTITY loudVolume.label                   "glasno">
-<!ENTITY xloudVolume.label                  "x-glasno">
-<!ENTITY muteVolume.label                   "Tišina">
-
-<!ENTITY speak.label                        "Govor:">
-<!ENTITY noneSpeak.label                    "brez">
-<!ENTITY normalSpeak.label                  "navadno">
-<!ENTITY spelloutSpeak.label                "črkuj">
-
-<!ENTITY speechRate.label                   "Hitrost govora:">
-<!ENTITY slowerSpeechRate.label             "počasneje">
-<!ENTITY fasterSpeechRate.label             "hitreje">
-<!ENTITY xslowSpeechRate.label              "x-počasi">
-<!ENTITY slowSpeechRate.label               "počasi">
-<!ENTITY mediumSpeechRate.label             "srednje">
-<!ENTITY fastSpeechRate.label               "hitro">
-<!ENTITY xfastSpeechRate.label              "x-hitro">
-
-<!ENTITY opacity.label                      "Motnost:">
-
-<!ENTITY compatibilityTab.label             "Združjivost">
-
-<!ENTITY transparentOpacity.label           "prozorno">
-
-<!ENTITY pauseBefore.label                  "Počakaj pred:">
-<!ENTITY cueBefore.label                    "Namigni pred:">
-<!ENTITY pauseAfter.label                   "Počakaj po:">
-<!ENTITY cueAfter.label                     "Namigni po:">
-
-<!ENTITY listTab.label			"Seznami">
-
-<!ENTITY listStyleType.label		"Sloga vrste seznama:">
-<!ENTITY noneListStyleType.label                        "brez">
-<!ENTITY discListStyleType.label                        "plošček">
-<!ENTITY circleListStyleType.label                      "krog">
-<!ENTITY squareListStyleType.label                      "kvadrat">
-<!ENTITY decimalListStyleType.label                     "decimalka">
-<!ENTITY decimalLeadingZeroListStyleType.label        "decimalka z vodilno ničlo">
-<!ENTITY lowerRomanListStyleType.label                 "male-rimske">
-<!ENTITY upperRomanListStyleType.label                 "velike-rimske">
-<!ENTITY lowerGreekListStyleType.label                 "male-grške">
-<!ENTITY lowerAlphaListStyleType.label                 "male-tiskane">
-<!ENTITY upperAlphaListStyleType.label                 "velike-tiskane">
-<!ENTITY armenianListStyleType.label                    "armensko">
-<!ENTITY georgianListStyleType.label                    "gruzijsko">
+<!ENTITY clear.label                            "Počisti:">
+<!ENTITY noneClear.label                        "brez">
+<!ENTITY leftClear.label                        "levo">
+<!ENTITY rightClear.label                       "desno">
+<!ENTITY bothClear.label                        "oboje">
 
 
-<!ENTITY listStyleImage.label		"Slog slike seznama:">
+<!ENTITY position.label                         "Položaj:">
+<!ENTITY staticPosition.label                   "statično">
+<!ENTITY fixedPosition.label                    "ustaljeno">
+<!ENTITY absolutePosition.label                 "absolutno">
+<!ENTITY relativePosition.label                 "relativno">
 
-<!ENTITY listStylePosition.label	"Slog položaja seznama:">
-<!ENTITY insideListStylePosition.label		"znotraj">
-<!ENTITY outsideListStylePosition.label		"zunaj">
+<!ENTITY overflow.label                         "Preplava:">
+<!ENTITY visibleOverflow.label                  "vidno">
+<!ENTITY hiddenOverflow.label                   "skrito">
+<!ENTITY scrollOverflow.label                   "drsenje">
+<!ENTITY autoOverflow.label                     "samodejno">
+
+<!ENTITY zIndex.label                           "Indeks Z:">
+
+<!ENTITY width.label                            "Širina:">
+<!ENTITY minWidth.label                         "Najm-širina:">
+<!ENTITY maxWidth.label                         "Najv-širina:">
+<!ENTITY height.label                           "Višina:">
+<!ENTITY minHeight.label                        "Najm-višina:">
+<!ENTITY maxHeight.label                        "Najv-višina:">
+
+<!ENTITY margins.label                          "Robovi:">
+<!ENTITY paddings.label                         "Odmik:">
+<!ENTITY offsets.label                          "Poravnave:">
+<!ENTITY top.label                              "Zgoraj:">
+<!ENTITY left.label                             "Levo:">
+<!ENTITY right.label                            "Desno:">
+<!ENTITY bottom.label                           "Spodaj:">
+
+<!ENTITY volume.label                           "Glasnost:">
+<!ENTITY xsoftVolume.label                      "x-tiho">
+<!ENTITY softVolume.label                       "tiho">
+<!ENTITY mediumVolume.label                     "srednje">
+<!ENTITY loudVolume.label                       "glasno">
+<!ENTITY xloudVolume.label                      "x-glasno">
+<!ENTITY muteVolume.label                       "Tišina">
+
+<!ENTITY speak.label                            "Govor:">
+<!ENTITY noneSpeak.label                        "brez">
+<!ENTITY normalSpeak.label                      "navadno">
+<!ENTITY spelloutSpeak.label                    "črkuj">
+
+<!ENTITY speechRate.label                       "Hitrost govora:">
+<!ENTITY slowerSpeechRate.label                 "počasneje">
+<!ENTITY fasterSpeechRate.label                 "hitreje">
+<!ENTITY xslowSpeechRate.label                  "x-počasi">
+<!ENTITY slowSpeechRate.label                   "počasi">
+<!ENTITY mediumSpeechRate.label                 "srednje">
+<!ENTITY fastSpeechRate.label                   "hitro">
+<!ENTITY xfastSpeechRate.label                  "x-hitro">
+
+<!ENTITY opacity.label                          "Motnost:">
+
+<!ENTITY compatibilityTab.label                 "Združjivost">
+
+<!ENTITY transparentOpacity.label               "prozorno">
+
+<!ENTITY pauseBefore.label                      "Počakaj pred:">
+<!ENTITY cueBefore.label                        "Namigni pred:">
+<!ENTITY pauseAfter.label                       "Počakaj po:">
+<!ENTITY cueAfter.label                         "Namigni po:">
+
+
+<!ENTITY listTab.label                          "Seznami">
+
+<!ENTITY listStyleType.label                    "Sloga vrste seznama:">
+<!ENTITY noneListStyleType.label                "brez">
+<!ENTITY discListStyleType.label                "plošček">
+<!ENTITY circleListStyleType.label              "krog">
+<!ENTITY squareListStyleType.label              "kvadrat">
+<!ENTITY decimalListStyleType.label             "decimalka">
+<!ENTITY decimalLeadingZeroListStyleType.label  "decimalka z vodilno ničlo">
+<!ENTITY lowerRomanListStyleType.label          "male-rimske">
+<!ENTITY upperRomanListStyleType.label          "velike-rimske">
+<!ENTITY lowerGreekListStyleType.label          "male-grške">
+<!ENTITY lowerAlphaListStyleType.label          "male-tiskane">
+<!ENTITY upperAlphaListStyleType.label          "velike-tiskane">
+<!ENTITY armenianListStyleType.label            "armensko">
+<!ENTITY georgianListStyleType.label            "gruzijsko">
+
+
+<!ENTITY listStyleImage.label                   "Slog slike seznama:">
+<!ENTITY listStylePosition.label                "Slog položaja seznama:">
+<!ENTITY insideListStylePosition.label          "znotraj">
+<!ENTITY outsideListStylePosition.label         "zunaj">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Izvleci in izdelaj splošni slog">
+<!ENTITY makecssrule.accesskey                  "E">
+<!ENTITY currentstylesfor.label                 "Trenutni slogi za:">
+<!ENTITY renameButton.label                     "Uredi izbirnik(selektor)">
+
+<!ENTITY autoMarginUnit.label                   "samodejno">
+<!ENTITY thinBorderUnit.label                   "tanko">
+<!ENTITY mediumBorderUnit.label                 "srednje">
+<!ENTITY thickBorderUnit.label                  "debelo">

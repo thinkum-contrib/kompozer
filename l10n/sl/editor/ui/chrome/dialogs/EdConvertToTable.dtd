@@ -23,11 +23,11 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Spremeni v tabelo">
-<!ENTITY instructions1.label "Composer ustvari novo vrsto v tabeli za vsak odstavek v izboru."> 
-<!ENTITY instructions2.label "Izberite znak, ki je bil uporabljen za ločitev izbora v stolpce:">
+<!ENTITY instructions1.label   "KompoZer creates a new table row for each paragraph in the selection.">
+<!ENTITY instructions2.label   "Izberite znak, ki je bil uporabljen za ločitev izbora v stolpce:">
 <!ENTITY commaRadio.label      "Vejica">
 <!ENTITY spaceRadio.label      "Presledek">
 <!ENTITY otherRadio.label      "Drug znak:">
 <!ENTITY deleteCharCheck.label "Zbriši ločitveni znak">
-<!ENTITY collapseSpaces.label "Prezri dodatne presledke">
+<!ENTITY collapseSpaces.label  "Prezri dodatne presledke">
 <!ENTITY collapseSpaces.tooltip "Pretvori stikajoče se presledke v en ločitveni znak">

@@ -55,6 +55,7 @@
 
 <!ENTITY specialChars.label            "Posebni znaki">
 <!ENTITY specialChars.description      "Naslednje znake izpiši kot bite:">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
 <!ENTITY basicEncoding.label           "Samo &amp; &lt; &gt; ' in neprelomni presledek">
 <!ENTITY latin1EntitiesEncoding.label  "Zgornje črke in črke Latin-1">
 <!ENTITY htmlEntitiesEncoding.label    "Posebni znaki HTML 4">
@@ -63,7 +64,7 @@
 <!ENTITY realtimeSpellCheck.label      "Preverjanje časa v realnem času">
 
 <!ENTITY spellCheckRealTime.label      "Podčrtaj napačno črkovane besede">
-<!ENTITY spellCheckRealTime.accesskey  "u">
+<!ENTITY spellCheckRealTime.accesskey  "P">
 
 <!ENTITY dialect.label                 "Označevanje">
 <!ENTITY markupLanguage.label          "Jezik:">

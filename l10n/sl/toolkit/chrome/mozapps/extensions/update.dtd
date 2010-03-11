@@ -13,9 +13,8 @@
 <!ENTITY  checking.top.label              "Išče posodobitve za nezdružljive razžiritve in teme …">
 <!ENTITY  checking.status                 "To lahko traja nekaj minut …">
 
-<!ENTITY  found.wizard.title              "Najdene združljive različice">
+<!ENTITY  found.wizard.title               "Najdene združljive različice">
 <!ENTITY  found.top.label                 "Izberite razširitve in teme, ki jih želite namestiti:">
-
 <!ENTITY  found.disabledXPinstall.label   "Posodobitev ne morete namestiti, ker je nameščanje programske opreme trenutno onemogočeno. To lahko spremenite spodaj.">
 <!ENTITY  found.enableXPInstall.label     "Dovoli stranem, da nameščajo programsko opremo">
 <!ENTITY  found.enableXPInstall.accesskey "D">

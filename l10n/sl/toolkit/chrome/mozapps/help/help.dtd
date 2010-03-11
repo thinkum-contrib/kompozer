@@ -1,46 +1,85 @@
-<!ENTITY printCmd.commandkey            "p">
+<!ENTITY printCmd.commandkey             "p">
 
-<!ENTITY findOnCmd.commandkey           "F">
-<!ENTITY findAgainCmd.commandkey        "G">
-<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+<!ENTITY viewCustomizeToolbar.label      "Prilagodi…">
+<!ENTITY viewCustomizeToolbar.accesskey  "P">
 
-<!ENTITY backButton.label               "Nazaj">
-<!ENTITY backButton.accesskey           "N">
-<!ENTITY backButton.tooltip             "Pojdi na prejšnjo stran">
-<!ENTITY forwardButton.label            "Naprej">
-<!ENTITY forwardButton.accesskey        "p">
-<!ENTITY forwardButton.tooltip          "Pojdi na naslednjo stran">
-<!ENTITY copyCmd.label                  "Kopiraj">
-<!ENTITY copyCmd.accesskey              "K">
-<!ENTITY selectAllCmd.label             "Izberi vse">
-<!ENTITY selectAllCmd.accesskey         "v">
-<!ENTITY goBackCmd.commandkey           "[">
-<!ENTITY goForwardCmd.commandkey        "]">
-<!ENTITY homeButton.label               "Domov">
-<!ENTITY homeButton.tooltip             "Pojdi na domačo stran pomoči">
-<!ENTITY printButton.label              "Natisni">
-<!ENTITY printButton.tooltip            "Natisni to stran">
-<!ENTITY closeWindow.commandkey         "W">
+<!ENTITY findOnCmd.commandkey            "F">
+<!ENTITY findAgainCmd.commandkey         "G">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "Iskanje po strani">
+<!ENTITY findDialogFrame.title           "Iskanje po okviru">
+<!ENTITY findField.label                 "Najdi besedilo:">
+<!ENTITY findField.accesskey             "N">
+<!ENTITY caseSensitiveCheckbox.label     "Razlikuj velike in male črke">
+<!ENTITY caseSensitiveCheckbox.accesskey "R">
+<!ENTITY wrapCheckbox.label              "Nadaljuj na začetku">
+<!ENTITY wrapCheckbox.accesskey          "N">
+<!ENTITY backwardsCheckbox.label         "Išči nazaj">
+<!ENTITY backwardsCheckbox.accesskey     "I">
+<!ENTITY findField.tooltip               "Vnesite eno ali več besed za iskanje">
+<!ENTITY findButton.label                "Najdi naslednje">
+<!ENTITY findButton.accesskey            "N">
+<!ENTITY cancelButton.label              "Prekliči">
+<!ENTITY up.label                        "Gor">
+<!ENTITY up.accesskey                    "G">
+<!ENTITY down.label                      "Dol">
+<!ENTITY down.accesskey                  "D">
+<!ENTITY direction.label                 "Smer">
 
-<!ENTITY throbberItem.title             "Merilnik aktivnosti">
-<!ENTITY throbber.tooltip               "Pojdi na pomoč o pomoči">
+<!ENTITY find.label                      "Najdi:">
+<!ENTITY findNext.label                  "Najdi naslednje">
+<!ENTITY findNext.tooltip                "Najde naslednji pojav iskanega">
+<!ENTITY findPrevious.label              "Najdi prejšnje">
+<!ENTITY findPrevious.tooltip            "Najde prejšnji pojav iskanega">
+<!ENTITY findCloseButton.tooltip         "Zapre vrstico iskanja">
+<!ENTITY highlight.label                 "Označi">
+<!ENTITY highlight.tooltip               "Označi vse primere iskane fraze (Ctrl + Enter)">
 
-<!ENTITY searchtab.label    	  	"Išči">
-<!ENTITY searchtab.accesskey            "I">
-<!ENTITY toctab.label       	  	"Vsebina">
-<!ENTITY toctab.accesskey               "V">
+<!ENTITY backButton.label                "Nazaj">
+<!ENTITY backButton.accesskey            "N">
+<!ENTITY backButton.tooltip              "Pojdi na prejšnjo stran">
+<!ENTITY forwardButton.label             "Naprej">
+<!ENTITY forwardButton.accesskey         "p">
+<!ENTITY forwardButton.tooltip           "Pojdi na naslednjo stran">
+<!ENTITY homeButton.label                "Domov">
+<!ENTITY homeButton.tooltip              "Pojdi na domačo stran pomoči">
+<!ENTITY printButton.label               "Natisni">
+<!ENTITY printButton.tooltip             "Natisni to stran">
+<!ENTITY findBtn.label                   "Najdi">
+<!ENTITY sidebarBtn.label                "Zamenjaj stransko vrstico">
+<!ENTITY sidebarBtn.tooltip              "Prikaži ali Skrij vrstico pomoči">
+<!ENTITY textZoomReduceBtn.label         "Zmanjšaj velikost besedila">
+<!ENTITY textZoomReduceBtn.accesskey     "m">
+<!ENTITY textZoomReduceBtn.tooltip       "Zmanjšaj velikost besedila v dokumentih pomoči.">
+<!ENTITY textZoomEnlargeBtn.label        "Povečaj velikost besedila">
+<!ENTITY textZoomEnlargeBtn.accesskey    "v">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Povečaj velikost besedila v dokumentih pomoči.">
+<!ENTITY customizeButton.tooltip         "Prilagodi kateri gumbi bodo prikazani v orodjarni Pomoč.">
+<!ENTITY reloadCmd.label                 "Ponovno naloži">
+<!ENTITY reloadCmd.accesskey             "P">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Kopiraj">
+<!ENTITY copyCmd.accesskey               "K">
 
-<!ENTITY textZoomReduceCmd.commandkey	"-">
-<!ENTITY textZoomEnlargeCmd.commandkey	"+">
-<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
-<!ENTITY textZoomResetCmd.commandkey    "0">
+<!ENTITY throbberItem.title              "Merilnik aktivnosti">
 
-<!ENTITY helpSearch.commandkey          "k">
+<!ENTITY cmd_CustomizeToolbars.label     "Prilagodi" >
 
-<!ENTITY zLevel.label                   "Vselej na vrhu">
-<!ENTITY zLevel.accesskey               "h">
+<!ENTITY searchtab.label                 "Išči">
+<!ENTITY searchtab.accesskey             "I">
+<!ENTITY searchbtn.label                 "Najdi">
+<!ENTITY toctab.label                    "Vsebina">
+<!ENTITY toctab.accesskey                "V">
+<!ENTITY indextab.label                  "Index">
+<!ENTITY indextab.accesskey              "I">
+<!ENTITY ixname.label                    "Ime">
+<!ENTITY glossarytab.label               "Slovar">
+<!ENTITY glossarytab.accesskey           "S">
+<!ENTITY glossname.label                 "Ime">
+<!ENTITY gobtn.label                     "Išči">
+<!ENTITY name.label                      "Predmet">
 
-<!ENTITY textZoomReduceBtn.label 	"Zmanjšaj velikost besedila">
-<!ENTITY textZoomReduceBtn.accesskey    "m">
-<!ENTITY textZoomEnlargeBtn.label 	"Povečaj velikost besedila">
-<!ENTITY textZoomEnlargeBtn.accesskey   "v">
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">

@@ -1,73 +1,110 @@
-<!--
-   - The contents of this file are subject to the Netscape Public
-   - License Version 1.1 (the "License"); you may not use this file
-   - except in compliance with the License. You may obtain a copy of
-   - the License at http://www.mozilla.org/NPL/
-   -  
-   - Software distributed under the License is distributed on an "AS
-   - IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
-   - implied. See the License for the specific language governing
-   - rights and limitations under the License.
-   -  
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
    - The Original Code is Mozilla Communicator client code, released
    - March 31, 1998.
-   - 
-   - The Initial Developer of the Original Code is Netscape
-   - Communications Corporation. Portions created by Netscape are
-   - Copyright (C) 1998-1999 Netscape Communications Corporation. All
-   - Rights Reserved.
-   - 
-   - Contributor(s): 
-  -->
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label         "Objavi stran">
-<!ENTITY windowTitleSettings.label "Nastavitve objave">
+<!ENTITY windowTitle.label          "Objavi stran">
+<!ENTITY windowTitleSettings.label  "Nastavitve objave">
 
-<!ENTITY publishTab.label         "Objavi">
-<!ENTITY settingsTab.label        "Nastavitve">
+<!ENTITY publishTab.label           "Objavi">
+<!ENTITY settingsTab.label          "Nastavitve">
+
+<!ENTITY publishButton.label        "Objavi">
 
 <!-- Publish Tab Panel -->
-<!ENTITY siteList.label           "Ime mesta:">
-<!ENTITY siteList.tooltip         "Izberite spletno mesto, na katerem želite objavljati">
-<!ENTITY newSiteButton.label      "Novo mesto">
-<!ENTITY siteDirList.label        "Izberite ali vnesite mapo na vašem spletnem mestu:">
-<!ENTITY siteDirList.tooltip      "Izberite ali vnesite podmapo na vašem spletnem mestu">
-<!ENTITY docDirList.label         "Podmapa spletnega mesta za to stran:">
-<!ENTITY publishImgCheckbox.label "Vključi slike in druge datoteke">
+<!ENTITY siteList.label             "Ime mesta:">
+<!ENTITY siteList.tooltip           "Izberite spletno mesto, na katerem želite objavljati">
+<!ENTITY newSiteButton.label        "Novo mesto">
+<!ENTITY siteDirList.label          "Izberite ali vnesite mapo na vašem spletnem mestu:">
+<!ENTITY siteDirList.tooltip        "Izberite ali vnesite podmapo na vašem spletnem mestu">
+<!ENTITY docDirList.label           "Podmapa spletnega mesta za to stran:">
+<!ENTITY publishImgCheckbox.label   "Vključi slike in druge datoteke">
 <!ENTITY publishImgCheckbox.tooltip "Objavi slike in druge datoteke, ki jih uporablja ta stran">
-<!ENTITY sameLocationRadio.label  "Uporabi enako mesto kot za stran">
-<!ENTITY sameLocationRadio.tooltip "Datoteke objavi na isto mesto kot stran">
-<!ENTITY useSubdirRadio.label     "Uporabi to podmapo strani:">
-<!ENTITY useSubdir.tooltip        "Izberite ali vnesite ime podmape, kjer bodo objavljene datoteke">
-<!ENTITY chooseDirButton.label    "Izberi …">
-<!ENTITY pageTitle.label          "Naslov strani:">
-<!ENTITY pageTitle.tooltip        "Vnesite naslov, ki bo predstavljal stran v oknu in med zaznamki">
-<!ENTITY pageTitleExample.label   "npr.: &quot;Moja spletna stran&quot;">
-<!ENTITY filename.label           "Ime datoteke:">
-<!ENTITY filename.tooltip         "Vnesite ime datoteke spletne strani, skupaj s '.html'">
-<!ENTITY filenameExample.label    "npr.: &quot;mojastran.html&quot;">
-<!ENTITY relatedDocs.label        "Ostale datoteke za objavo">
-<!ENTITY setDefaultButton.label   "Nastavi kot privzeto">
-<!ENTITY setDefSiteAndDir.label   "Nastavi kot privzeto stran in mapo">
-<!ENTITY removeButton.label       "Odstrani stran">
+<!ENTITY sameLocationRadio.label    "Uporabi enako mesto kot za stran">
+<!ENTITY sameLocationRadio.tooltip  "Datoteke objavi na isto mesto kot stran">
+<!ENTITY useSubdirRadio.label       "Uporabi to podmapo strani:">
+<!ENTITY useSubdir.tooltip          "Izberite ali vnesite ime podmape, kjer bodo objavljene datoteke">
+<!ENTITY chooseDirButton.label      "Izberi …">
+<!ENTITY pageTitle.label            "Naslov strani:">
+<!ENTITY pageTitle.tooltip          "Vnesite naslov, ki bo predstavljal stran v oknu in med zaznamki">
+<!ENTITY pageTitleExample.label     "npr.: &quot;Moja spletna stran&quot;">
+<!ENTITY filename.label             "Ime datoteke:">
+<!ENTITY filename.tooltip           "Vnesite ime datoteke spletne strani, skupaj s '.html'">
+<!ENTITY filenameExample.label      "npr.: &quot;mojastran.html&quot;">
+<!ENTITY relatedDocs.label          "Ostale datoteke za objavo">
+<!ENTITY setDefaultButton.label     "Nastavi kot privzeto">
+<!ENTITY setDefSiteAndDir.label     "Nastavi kot privzeto stran in mapo">
+<!ENTITY removeButton.label         "Odstrani stran">
 
 <!-- Settings Tab Panel -->
-<!ENTITY publishSites.label   "Strani za objavo">
-<!ENTITY serverInfo.label     "Podatki o spletni strani">
-<!ENTITY loginInfo.label      "Strežnik za objavo">
-<!ENTITY siteName.label       "Ime spletnega mesta:">
-<!ENTITY siteName.tooltip     "Vzdevek, ki predstavlja to mesto za objavo (npr.: 'MojeMesto')">
-<!ENTITY siteUrl.label        "Naslov za objavo (npr.: 'ftp://ftp.mojisp.com/mojeime'):">
-<!ENTITY siteUrl.tooltip      "Naslov FTP:// ali HTTP://, ki vam ga je dal vaš ponudnik internetnih storitev">
-<!ENTITY browseUrl.label      "Naslov HTTP vaše strani (npr.: 'http://www.mojisp.com/mojeime'):">
-<!ENTITY browseUrl.tooltip    "Naslov HTTP:// vaše domače mape (ne vključuje imena datoteke)">
-<!ENTITY username.label       "Uporabniško ime:">
-<!ENTITY username.tooltip     "Uporabniško ime, ki ga potrebujete za prijavo k vašemu ponudniku internetnih storitev">
-<!ENTITY password.label       "Geslo:">
-<!ENTITY password.tooltip     "Geslo, ki pripada uporabniškemu imenu">
-<!ENTITY savePassword.label   "Shrani geslo">
-<!ENTITY savePassword.tooltip "Izberite to možnost, če želite varno shraniti geslo s pomočjo Upravitelja gesel">
+<!ENTITY publishSites.label         "Strani za objavo">
+<!ENTITY serverInfo.label           "Podatki o spletni strani">
+<!ENTITY loginInfo.label            "Strežnik za objavo">
+<!ENTITY siteName.label             "Ime spletnega mesta:">
+<!ENTITY siteName.tooltip           "Vzdevek, ki predstavlja to mesto za objavo (npr.: 'MojeMesto')">
+<!ENTITY siteUrl.label              "Naslov za objavo (npr.: 'ftp://ftp.mojisp.com/mojeime'):">
+<!ENTITY siteUrl.tooltip            "Naslov FTP:// ali HTTP://, ki vam ga je dal vaš ponudnik internetnih storitev">
+<!ENTITY browseUrl.label            "Naslov HTTP vaše strani (npr.: 'http://www.mojisp.com/mojeime'):">
+<!ENTITY browseUrl.tooltip          "Naslov HTTP:// vaše domače mape (ne vključuje imena datoteke)">
+<!ENTITY username.label             "Uporabniško ime:">
+<!ENTITY username.tooltip           "Uporabniško ime, ki ga potrebujete za prijavo k vašemu ponudniku internetnih storitev">
+<!ENTITY password.label             "Geslo:">
+<!ENTITY password.tooltip           "Geslo, ki pripada uporabniškemu imenu">
+<!ENTITY savePassword.label         "Shrani geslo">
+<!ENTITY savePassword.tooltip       "Izberite to možnost, če želite varno shraniti geslo s pomočjo Upravitelja gesel">
 
-<!ENTITY selectDirectory.label "Izberi mapo">
+<!ENTITY selectDirectory.label      "Izberi mapo">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Splošne nastavitve">
+<!ENTITY ftpSettings.label          "FTP nastavitve">
+<!ENTITY localSettings.label        "Lokalne nastavitve">
+<!ENTITY siteDirectory.label        "Mapa spletišča:">
+<!ENTITY siteDirectory.tooltip      "Mapa na vašem trdem disku, kjer je shranjeno spletišče">
+<!ENTITY browsePrefix.label         "Predpona:">
+<!ENTITY browsePrefix.tooltip       "Predpona, ki se odstrani pred FTP delom URL-ja, e.g. /public_html">
+
+<!ENTITY connection.label           "Vrsta povezave">
+<!ENTITY port.label                 "Vrata:">
+<!ENTITY pasv.label                 "Pasivni način">
+<!ENTITY security.label             "Varnost">
+<!ENTITY none.label                 "Ni\u010D">
+<!ENTITY authtls.label              "Avtorizacija s TLS (priporočeno)">
+<!ENTITY authssl.label              "Avtorizacija SSL (boljše)">
+<!ENTITY implicit.label             "Implicitno SSL (dobro)">
+<!ENTITY treesync.label             "Med brskanjem ohranjaj mape sinhronizirane">
+

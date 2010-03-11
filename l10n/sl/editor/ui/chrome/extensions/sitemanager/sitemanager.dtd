@@ -39,7 +39,10 @@
 
 <!ENTITY filterAll.label          "Vsa polja">
 <!ENTITY filterHTML.label         "Dokumenti HTML">
+<!ENTITY filterCSS.label          "CSS slogovni list">
 <!ENTITY filterImages.label       "Slikovne datoteke">
+<!ENTITY filterMedia.label        "Medijske datoteke">
+<!ENTITY filterScripts.label      "Besedilne datoteke">
 
 <!ENTITY treeViewCheckbox.label   "Drevesni pogled">
 
@@ -63,3 +66,18 @@
 <!ENTITY renameButton.tooltip     "Preimenuj datoteko ali mapo">
 
 <!ENTITY filterControl.label      "Pogled:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Lokalno">
+<!ENTITY remoteTab.label          "Oddaljeno">
+<!ENTITY ftpConsole.label         "FTP console">
+
+<!ENTITY editItem.label           "Edit"> 
+<!ENTITY openItem.label           "Odpri">
+<!ENTITY openAsText.label         "Odpri kot besedilo">
+<!ENTITY openRemote.label         "Odpri oddaljeno mapo">
+<!ENTITY insertImage.label        "Vstavi sliko">
+<!ENTITY previewItem.label        "Predogled">
+<!ENTITY uploadItem.label         "Publish…">
+<!ENTITY downloadItem.label       "Obnovi…">
+<!ENTITY itemProperties.label     "Lastnosti…">

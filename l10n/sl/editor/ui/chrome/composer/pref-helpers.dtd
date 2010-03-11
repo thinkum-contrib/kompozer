@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Zunanji programi">
+
+<!ENTITY application.label            "Program:">
+<!ENTITY webBrowser.label             "Brskalnik">
+<!ENTITY textEditor.label             "Urejevalnik besedila">
+<!ENTITY imageEditor.label            "Urejevalnik slik">
+<!ENTITY mediaPlayer.label            "Medijski predvajalnik">
+<!ENTITY fileManager.label            "Urejevalnik datotek">
+<!ENTITY ftpClient.label              "FTP odjemalec">
+
+<!ENTITY useSystemHelper.label        "uproabi privzeto v sistemu">
+<!ENTITY useCustomHelper.label        "uporabi željeni program:">
+<!ENTITY path.label                   "pot do datotek">
+<!ENTITY arguments.label              "argumenti">
+<!ENTITY filePicker.tooltip           "Izberi datoteko…">
+
+<!ENTITY fileFilter.label             "Datotečni podaljšek(*)za:">
+<!ENTITY default.label                "privzeto">
+<!ENTITY needToRestart.label          "(*)Spremembe teh nastavitev bodo uporabljene, ko bo Kompozer ponovno zagnan.">
+

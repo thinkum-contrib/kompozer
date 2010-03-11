@@ -24,18 +24,18 @@
 <!ENTITY alwaysHandle.accesskey "a">
 
 <!ENTITY saveToDisk.label      "Shrani datoteko na disk">
-<!ENTITY saveToDisk.accesskey  "s">
+<!ENTITY saveToDisk.accesskey  "S">
 
 <!ENTITY useSystemDefault.label        "Odpri datoteko s privzetim programom (#1)">
 <!ENTITY useSystemDefault.noDesc.label "Odpri s privzetim programom">
-<!ENTITY useSystemDefault.accesskey    "o">
+<!ENTITY useSystemDefault.accesskey    "O">
 
 <!-- LOCALIZATION NOTE:  do not localize "#1" -->
 <!ENTITY openUsing.label       "Odpri s programom">
 <!ENTITY openUsing.accesskey   "s">
 
 <!ENTITY chooseApp.label       "Izberite …">
-<!ENTITY chooseApp.accesskey   "i">
+<!ENTITY chooseApp.accesskey   "I">
 
 <!ENTITY chooseAppFilePickerTitle "Izbiranje pomožnega programa">
 

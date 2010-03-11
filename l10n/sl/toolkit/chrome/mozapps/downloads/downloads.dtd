@@ -1,5 +1,5 @@
 <!ENTITY window.width                     "430">
-<!ENTITY window.height                    "310">
+<!ENTITY window.height                    "310"> 
 
 <!ENTITY done.label                       "Končano">
 <!ENTITY canceled.label                   "Preklicano">
@@ -44,4 +44,3 @@
 
 <!ENTITY filesSavedTo.label               "Vse datoteke shrani v:">
 <!ENTITY showFolder.label                 "Prikaži ta imenik">
-

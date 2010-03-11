@@ -22,9 +22,9 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Preveri mesta slik in povezav">
-<!ENTITY urlsNotFound.label "Naslednjih mest slik in/ali povezav ni bilo moč najti:">
-<!ENTITY notFoundKey.label "(&quot;X&quot; = datoteka ni najdena, &quot;?&quot; = med poskusom povezave se je iztekel čas.)">
+<!ENTITY windowTitle.label     "Preveri mesta slik in povezav">
+<!ENTITY urlsNotFound.label    "Naslednjih mest slik in/ali povezav ni bilo moč najti:">
+<!ENTITY notFoundKey.label     "(&quot;X&quot; = datoteka ni najdena, &quot;?&quot; = med poskusom povezave se je iztekel čas.)">
 <!ENTITY changeUrlButton.label "Spremeni mesto izbranega predmeta">
 <!ENTITY succeeded.label       "Uspešno">
 <!ENTITY failed.label          "Spodletelo">

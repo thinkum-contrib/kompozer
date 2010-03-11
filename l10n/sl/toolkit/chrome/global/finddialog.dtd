@@ -3,7 +3,7 @@
 <!ENTITY findDialog.title "Iskanje po strani">
 <!ENTITY findDialogFrame.title "Iskanje po okviru">
 <!ENTITY findField.label "Najdi besedilo:">
-<!ENTITY findField.accesskey "n">
+<!ENTITY findField.accesskey "N">
 <!ENTITY caseSensitiveCheckbox.label "Razlikuj velike in male črke">
 <!ENTITY caseSensitiveCheckbox.accesskey "z">
 <!ENTITY wrapCheckbox.label "Nadaljuj na začetku">
@@ -12,7 +12,7 @@
 <!ENTITY backwardsCheckbox.accesskey "n">
 <!ENTITY findField.tooltip "Vnesite eno ali več besed za iskanje">
 <!ENTITY findButton.label "Najdi">
-<!ENTITY findButton.accesskey "n">
+<!ENTITY findButton.accesskey "N">
 <!ENTITY cancelButton.label "Prekliči">
 <!ENTITY closeButton.label "Zapri">
 <!ENTITY up.label "Gor">

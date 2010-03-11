@@ -1,15 +1,15 @@
 <!-- these things need to move into utilityOverlay.xul -->
-<!ENTITY offlineGoOfflineCmd.label "Brez povezave">
+<!ENTITY  offlineGoOfflineCmd.label                 "Brez povezave">
 <!ENTITY  offlineGoOfflineCmd.accesskey             "v">
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
 
 <!ENTITY fileMenu.label					"Datoteka"> 
-<!ENTITY fileMenu.accesskey				"d">
+<!ENTITY fileMenu.accesskey				"D">
 <!ENTITY newMenu.label						"Novo">
 <!ENTITY newMenu.accesskey					"N">
-<!ENTITY newBlankPageCmd.label "Stran Composerja">
-<!ENTITY newBlankPageCmd.accesskey "S" >
+<!ENTITY newBlankPageCmd.label "KompoZer Page">
+<!ENTITY newBlankPageCmd.accesskey "P" >
 <!ENTITY newBlankPageCmd.key "n" >
 <!ENTITY newPageFromTemplateCmd.label "Stran z uporabo predloge">
 <!ENTITY newPageFromTemplateCmd.accesskey "t">
@@ -18,7 +18,7 @@
 <!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
 <!ENTITY newNavigatorCmd.label				"Okno Navigatorja">
 <!ENTITY newNavigatorCmd.key				"N">
-<!ENTITY newNavigatorCmd.accesskey			"N">
+<!ENTITY newNavigatorCmd.accesskey			"n">
 
 <!ENTITY editMenu.label					"Urejanje"> 
 <!ENTITY editMenu.accesskey				"e"> 
@@ -54,9 +54,9 @@
 <!ENTITY viewMenu.label					"Pogled"> 
 <!ENTITY viewMenu.accesskey				"P"> 
 <!ENTITY viewToolbarsMenu.label				"Pokaži/Skrij"> 
-<!ENTITY viewToolbarsMenu.accesskey			"p"> 
+<!ENTITY viewToolbarsMenu.accesskey			"P"> 
 <!ENTITY showTaskbarCmd.label					"Vrstica stanja">  
-<!ENTITY showTaskbarCmd.accesskey				"S"> 
+<!ENTITY showTaskbarCmd.accesskey				"s"> 
 
 <!ENTITY helpMenu.label					"Pomoč"> 
 <!ENTITY helpMenu.accesskey				"m"> 
@@ -65,8 +65,8 @@
 <!ENTITY whatNewCmd.label				"Kaj je novega">  
 
 <!ENTITY releaseCmd.label				"Opombe k izdaji">
-<!ENTITY releaseCmd.accesskey				"i">
-<!ENTITY aboutCmd.label					"O Nvu">
+<!ENTITY releaseCmd.accesskey                   "i">
+<!ENTITY aboutCmd.label					"O KompoZer">
 <!ENTITY aboutCmd.accesskey				"O">
 <!ENTITY aboutCommPluginsCmd.label			"O vstavkih">
 <!ENTITY aboutCommPluginsCmd.accesskey			"v">
@@ -77,6 +77,12 @@
 <!ENTITY manual.accesskey                               "r">
 <!ENTITY pac.label                                      "Na zvezi (proxy: samodejno)">
 <!ENTITY pac.accesskey                                  "s">
+<!ENTITY wpad.label                                     "POvezan (proxy: samodejno poišči)">
+<!ENTITY wpad.accesskey                                 "d">
 
 <!ENTITY proxy.label                                    "Nastavitve proxy …">
 <!ENTITY proxy.accesskey                                "N">
+
+<!ENTITY bidiSwitchTextDirectionItem.label        "Spremeni smer besedila">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "S">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">

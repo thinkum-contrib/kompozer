@@ -40,9 +40,9 @@
                      "http://my.netscape.com/publish/formats/rss-0.91.dtd">
 <rss version="0.91">
   <channel>
-    <title>Nvu tips</title>
-    <link>http://www.nvu.com/</link>
-    <description>Nvu tip of the day Archive</description>
+    <title>KompoZer tips</title>
+    <link>http://www.kompozer.net/</link>
+    <description>KompoZer tip of the day Archive</description>
     <language>en-us</language>
   
     <item>
@@ -70,13 +70,13 @@
     </item>
   
     <item>
-      <title>…Nvu has a CSS editor?</title>
-      <description>Nvu integrates the CaScadeS CSS editor. Open it using the
+      <title>…KompoZer has a CSS editor?</title>
+      <description>KompoZer integrates the CaScadeS CSS editor. Open it using the
                    Tool > CSS Editor menu.</description>
     </item>
   
     <item>
-      <title>…Nvu has a Site Manager?</title>
+      <title>…KompoZer has a Site Manager?</title>
       <description>Use the F9 key or the "View > Show/Hide > Site Manager"
                    menu to show or hide the Site Manager.</description>
     </item>
@@ -85,7 +85,7 @@
       <title>…you can apply CSS styles to any element?</title>
       <description>Place the caret in the element you wish to style and right-
                    click on the element's tag in the structure toolbar at the
-                   bottom of the main window of Nvu. The "Inline styles" and
+                   bottom of the main window of KompoZer. The "Inline styles" and
                    its menu items will let you style directly that element.
       </description>
     </item>
@@ -109,13 +109,13 @@
     </item>
 
     <item>
-      <title>…you have direct access to the Nvu community?</title>
+      <title>…you have direct access to the Kompozer community?</title>
       <description>Just select the Help > Forums menu entry.</description>
     </item>
 
     <item>
-      <title>…Nvu can automatically open a document at launch?</title>
-      <description>Use the command-line:      nvu _your_url_</description>
+      <title>…KompoZer can automatically open a document at launch?</title>
+      <description>Use the command-line:      kompozer _your_url_</description>
     </item>
 
     <item>
@@ -125,8 +125,8 @@
     </item>
 
     <item>
-      <title>…Nvu is cross-platform?</title>
-      <description>Nvu exists on a wide variety of operating systems, including
+      <title>…KompoZer is cross-platform?</title>
+      <description>KompoZer exists on a wide variety of operating systems, including
                    Windows, Mac OS X, many flavors of Linux, OS/2, …</description>
     </item>
 

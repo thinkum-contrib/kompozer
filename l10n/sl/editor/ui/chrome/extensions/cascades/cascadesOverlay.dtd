@@ -20,6 +20,7 @@
    -
    - Contributor(s):
    -   Original author: Daniel Glazman (daniel@glazman.org)
+   -   Fabien Cazenave (Kaze) http://fabiwan.kenobi.free.fr/
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,5 +38,25 @@
 
 
 <!-- Window title -->
-<!ENTITY cascadesMenuItem.label				"Urejevalnik CSS">
-<!ENTITY cascadesMenuItem.accesskey			"c">
+<!ENTITY cascadesMenuItem.label         "Urejevalnik CSS">
+<!ENTITY cascadesMenuItem.accesskey     "C">
+<!ENTITY cascadesMenuItem.keybinding    "VK_F11">
+
+<!-- Structure Toolbar Context Menu items -->
+<!ENTITY classSelectMenu.label          "Razredi">
+<!ENTITY idSelectMenu.label             "ID">
+<!ENTITY inlineStyles.label             "Slogi v vrstici">
+<!ENTITY inlinestyles.accesskey         "i">
+
+<!ENTITY textProperties.label           "Lastnosti besedila">
+<!ENTITY textproperties.accesskey       "t">
+<!ENTITY borderProperties.label         "Lastnosti robov">
+<!ENTITY borderproperties.accesskey     "S">
+<!ENTITY backgroundProperties.label     "Lasnosti ozadja">
+<!ENTITY backgroundproperties.accesskey "p">
+<!ENTITY boxProperties.label            "Lastnosti okvira">
+<!ENTITY boxproperties.accesskey        "s">
+<!ENTITY auralProperties.label          "Auralne lastnosti">
+<!ENTITY auralproperties.accesskey      "a">
+<!ENTITY makeCSSRule.label              "Izvleci in izdelaj splošni slog">
+<!ENTITY makecssrule.accesskey          "i">

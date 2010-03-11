@@ -20,18 +20,18 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label "Napredno spreminjanje …">
+<!ENTITY AdvancedEditButton.label     "Napredno spreminjanje …">
 <!ENTITY AdvancedEditButton.accessKey "E">
-<!ENTITY AdvancedEditButton.tooltip "Dodaj ali spremeni atribute HTML, slogovne atribute in JavaScript">
-<!ENTITY chooseButton.label "Izberi datoteko …">
-<!ENTITY chooseFile.accessKey "d">
-<!ENTITY chooseFileLink.accessKey "o">
-<!ENTITY makeUrlRelative.label "URI je relativen glede na mesto strani">
-<!ENTITY makeUrlRelative.accessKey "r">
-<!ENTITY makeUrlRelative.tooltip "URI se spreminja med relativnim in absolutnim. Pred uveljavitvijo morate stran shraniti.">
+<!ENTITY AdvancedEditButton.tooltip   "Dodaj ali spremeni atribute HTML, slogovne atribute in JavaScript">
+<!ENTITY chooseButton.label           "Izberi datoteko …">
+<!ENTITY chooseFile.accessKey         "d">
+<!ENTITY chooseFileLink.accessKey     "o">
+<!ENTITY makeUrlRelative.label        "URI je relativen glede na mesto strani">
+<!ENTITY makeUrlRelative.accessKey    "r">
+<!ENTITY makeUrlRelative.tooltip      "URI se spreminja med relativnim in absolutnim. Pred uveljavitvijo morate stran shraniti.">
 
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField.label "Vnesite mesto spletne strani, lokalne datoteke, elektronski naslov ali izberite poimenovano sidro oziroma naslov iz spiska:">
-<!ENTITY LinkURLEditField.accessKey "I">
+<!ENTITY LinkURLEditField.label       "Vnesite mesto spletne strani, lokalne datoteke, elektronski naslov ali izberite poimenovano sidro oziroma naslov iz spiska:">
+<!ENTITY LinkURLEditField.accessKey   "I">
 
-<!ENTITY isMailAddress.label "Zgoraj je naslov e-pošte">
+<!ENTITY isMailAddress.label          "Zgoraj je naslov e-pošte">

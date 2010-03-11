@@ -11,7 +11,7 @@
 <!ENTITY fileMenu.label "Datoteka">
 <!ENTITY fileMenu.accesskey "D">
 <!ENTITY savePageCmd.label "Shrani stran kot …">
-<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.accesskey "a">
 <!ENTITY savePageCmd.commandkey "S">
 <!ENTITY pageSetupCmd.label "Nastavitve strani …">
 <!ENTITY pageSetupCmd.accesskey "v">
@@ -39,11 +39,11 @@
 <!ENTITY reloadCmd.accesskey "P">
 <!ENTITY reloadCmd.commandkey "r">
 <!ENTITY menu_wrapLongLines.title "Prelomi dolge vrstice"> 
-<!ENTITY menu_wrapLongLines.accesskey "p">
+<!ENTITY menu_wrapLongLines.accesskey "P">
 <!ENTITY menu_highlightSyntax.label "Označevanje skladnje">
 <!ENTITY menu_highlightSyntax.accesskey "O">
 <!ENTITY menu_textSize.label "Velikost besedila">
-<!ENTITY menu_textSize.accesskey "v">
+<!ENTITY menu_textSize.accesskey "V">
 <!ENTITY menu_textEnlarge.label "Zvečaj">
 <!ENTITY menu_textEnlarge.accesskey "e">
 <!ENTITY menu_textReduce.label "Zmanjšaj">
