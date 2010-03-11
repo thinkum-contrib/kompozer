@@ -34,7 +34,7 @@ import sys
 
 VERSION = "0.8b3"
 LOCALES = ["ca", "cs", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", \
-           "hsb", "it", "ja", "nl", "pl", "pt-PT", "ru", "zh-CN", "zh-TW"]
+           "hsb", "it", "ja", "nl", "pl", "pt-PT", "ru", "sl", "zh-CN", "zh-TW"]
 
 
 ###############################################################################
@@ -216,7 +216,7 @@ def makeBinary(srcDir, platform, locale):
   elif (locale == "zh-CN" or locale == "zh-TW" or locale == "hsb" or locale == "eo"):
     replaceInFile(acceptCharsets, "utf-8,\*,iso-8859-1",   "all.js")
     replaceInFile(customCharset,  "UTF8",                  "editor.js")
-  elif (locale == "cs" or locale == "hu" or locale == "pl"):
+  elif (locale == "cs" or locale == "hu" or locale == "pl" or locale == "sl"):
     replaceInFile(acceptCharsets, "iso-8859-2,\*,utf-8",   "all.js")
     replaceInFile(customCharset,  "ISO-8859-2",            "editor.js")
   elif (locale == "ru"):
