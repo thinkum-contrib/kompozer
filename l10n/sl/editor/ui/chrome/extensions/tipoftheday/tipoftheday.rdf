@@ -21,6 +21,7 @@
    -
    - Contributor(s):
    -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -37,12 +38,14 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
-                     "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
+]>
 <rss version="0.91">
   <channel>
-    <title>KompoZer tips</title>
-    <link>http://www.kompozer.net/</link>
-    <description>KompoZer tip of the day Archive</description>
+    <title>&brandShortName; tips</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>&brandShortName; tip of the day Archive</description>
     <language>en-us</language>
   
     <item>
@@ -61,22 +64,13 @@
     </item>
   
     <item>
-      <title>…you can create a new toolbar?</title>
-      <description>Use the menu "View > Show/Hide > Customize Toolbar > Format
-                   toolbar" to open the toolbar customization panel. Then
-                   click on the "Add new toolbar" button. Empty toolbars
-                   automatically disappear when the customization panel is
-                   closed.</description>
-    </item>
-  
-    <item>
-      <title>…KompoZer has a CSS editor?</title>
-      <description>KompoZer integrates the CaScadeS CSS editor. Open it using the
+      <title>…&brandShortName; has a CSS editor?</title>
+      <description>&brandShortName; integrates the CaScadeS CSS editor. Open it using the
                    Tool > CSS Editor menu.</description>
     </item>
   
     <item>
-      <title>…KompoZer has a Site Manager?</title>
+      <title>…&brandShortName; has a Site Manager?</title>
       <description>Use the F9 key or the "View > Show/Hide > Site Manager"
                    menu to show or hide the Site Manager.</description>
     </item>
@@ -85,8 +79,8 @@
       <title>…you can apply CSS styles to any element?</title>
       <description>Place the caret in the element you wish to style and right-
                    click on the element's tag in the structure toolbar at the
-                   bottom of the main window of KompoZer. The "Inline styles" and
-                   its menu items will let you style directly that element.
+                   bottom of the main window of &brandShortName;. The "Inline styles"
+                   menu item will let you style directly that element.
       </description>
     </item>
 
@@ -109,12 +103,12 @@
     </item>
 
     <item>
-      <title>…you have direct access to the Kompozer community?</title>
+      <title>…you have direct access to the &brandShortName; community?</title>
       <description>Just select the Help > Forums menu entry.</description>
     </item>
 
     <item>
-      <title>…KompoZer can automatically open a document at launch?</title>
+      <title>…&brandShortName; can automatically open a document at launch?</title>
       <description>Use the command-line:      kompozer _your_url_</description>
     </item>
 
@@ -125,8 +119,8 @@
     </item>
 
     <item>
-      <title>…KompoZer is cross-platform?</title>
-      <description>KompoZer exists on a wide variety of operating systems, including
+      <title>…&brandShortName; is cross-platform?</title>
+      <description>&brandShortName; exists on a wide variety of operating systems, including
                    Windows, Mac OS X, many flavors of Linux, OS/2, …</description>
     </item>
 
@@ -142,7 +136,7 @@
 
     <item>
       <title>…you can change the border of a single table cell?</title>
-      <description>Place the caret in that cell, right-click on the cell in the status bar and select Inline Styles &gt; Border Properties</description>
+      <description>Place the caret in that cell, right-click on the cell in the status bar and select Inline Styles &gt; Border tab</description>
     </item>
 
     <item>
