@@ -715,7 +715,7 @@
 <!ENTITY nvuForumsMenu.label                 "Forumi">
 <!ENTITY nvuforumsmenu.accesskey             "F">
 <!ENTITY supportKompoZer.label               "Podpora za &brandShortName;">
-<!ENTITY supportKompoZer.accesskey           "S">
+<!ENTITY supportKompoZer.accesskey           "a">
 <!ENTITY tipofthedayMenu.label               "Nasvet dneva">
 <!ENTITY tipofthedaymenu.accesskey           "T">
 <!ENTITY aboutMenu.label                     "O &brandShortName;">
@@ -723,7 +723,7 @@
 <!ENTITY localizingnvu.accesskey             "Z">
 <!ENTITY localizingNvu.label                 "Lokalizacija &brandShortName;">
 <!ENTITY userGuideMenu.label                 "Vodnik po &brandShortName;">
-<!ENTITY userguidemenu.accesskey             "U">
+<!ENTITY userguidemenu.accesskey             "d">
 
 <!-- KompoZer 0.7: absolute positioning -->
 <!ENTITY leftGlued.tooltip                   "Prilepi na levi okvir">
