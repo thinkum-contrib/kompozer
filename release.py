@@ -210,6 +210,7 @@ def makeBinary(srcDir, platform, locale):
   replaceInFile("en-US", locale, "all.js")
 
   # some locales require specific char encodings
+  # XXX this should be handled in region.properties, not here
   acceptCharsets = "iso-8859-1,\*,utf-8"
   customCharset  = "ISO-8859-1"
   if (locale == "ja"):
@@ -218,14 +219,15 @@ def makeBinary(srcDir, platform, locale):
   elif (locale == "zh-CN" or locale == "zh-TW" or locale == "hsb" or locale == "eo"):
     replaceInFile(acceptCharsets, "utf-8,\*,iso-8859-1",   "all.js")
     replaceInFile(customCharset,  "UTF8",                  "editor.js")
-  elif (locale == "cs" or locale == "hu" or locale == "pl" or locale == "sl" or locale == "uk"):
+  elif (locale == "cs" or locale == "hu" or locale == "pl" or locale == "sl"):
     replaceInFile(acceptCharsets, "iso-8859-2,\*,utf-8",   "all.js")
     replaceInFile(customCharset,  "ISO-8859-2",            "editor.js")
-  elif (locale == "ru"):
+  elif (locale == "ru" or locale == "uk"):
     replaceInFile(acceptCharsets, "Windows-1251,\*,utf-8", "all.js")
     replaceInFile(customCharset,  "Windows-1251",          "editor.js")
 
   # disable line wrapping for Asian languages (= 72 chars by default)
+  # XXX this should be handled in region.properties, not here
   if (locale == "ja" or locale == "zh-CN" or locale == "zh-TW"):
     replaceInFile(" 72);", " 0);", "editor.js")
 
