@@ -1,0 +1,279 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title                           "Таблиці стилів CSS">
+
+<!ENTITY sheetsTreeColumn.label                 "Таблиця стилів та правила">
+<!ENTITY expertModeChecbox.label                "Режим експерту">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "Нова приєднана таблиця стилів">
+<!ENTITY styleSheetButton.label                 "Внутрішня таблиця стилів">
+<!ENTITY ruleButton.label                       "Правило стилю">
+<!ENTITY upButton.label                         "Вгору">
+<!ENTITY downButton.label                       "Вниз">
+<!ENTITY refreshButton.label                    "Оновити">
+<!ENTITY removeButton.label                     "Вилучити">
+<!ENTITY sheetInfoTab.label                     "Загальні налаштування">
+<!ENTITY textTab.label                          "Текст">
+<!ENTITY borderTab.label                        "Межі">
+<!ENTITY marginsTab.label                       "Поля">
+<!ENTITY boxTab.label                           "Бокс">
+<!ENTITY auralTab.label                         "Звук">
+<!ENTITY fontFamily.label                       "Сім'я шрифтів:">
+<!ENTITY inheritedFontFamily.label              "успадкований">
+<!ENTITY useCustomFontFamily.label              "Визначити сім'ю шрифтів:">
+<!ENTITY fontData.label                         "Дані шрифту">
+<!ENTITY exampleSentence.label                  "Гей, хлопці, не смію - на ґанку ваша файна їжа знищується бурундучком">
+<!ENTITY backgroundTab.label                    "Фон">
+
+<!ENTITY unspecifiedValue.label                 "невизначений">
+<!ENTITY predefFontFamilyRadio.label            "визначено:">
+<!ENTITY fontSize.label                         "Розмір шрифту:">
+<!ENTITY lineHeight.label                       "Висота рядка:">
+<!ENTITY normalLineHeight.label                 "normal">
+<!ENTITY color.label                            "Колір:">
+<!ENTITY fontWeight.label                       "Вага шрифту:">
+<!ENTITY normalValue.label                      "Звичайний">
+<!ENTITY boldValue.label                        "Жирний">
+<!ENTITY bolderValue.label                      "Темніше">
+<!ENTITY lighterValue.label                     "Світліше">
+<!ENTITY inheritedValue.label                   "Успадкований">
+<!ENTITY fontStyle.label                        "Стиль шрифту:">
+<!ENTITY italicValue.label                      "Курсив">
+<!ENTITY obliqueValue.label                     "Похилий">
+<!ENTITY textTransform.label                    "Регистр:">
+<!ENTITY noneTextTransformValue.label           "Без змін">
+<!ENTITY lowercaseValue.label                   "Малі">
+<!ENTITY uppercaseValue.label                   "Прописні">
+<!ENTITY capitalizeValue.label                  "Капіталізація">
+
+<!ENTITY closeButton.label                      "Закрити">
+
+<!ENTITY largerFontSize.label                   "більший">
+<!ENTITY smallerFontSize.label                  "меньший">
+<!ENTITY xxsmallFontSize.label                  "крихітний">
+<!ENTITY xsmallFontSize.label                   "менший">
+<!ENTITY smallFontSize.label                    "маленький">
+<!ENTITY mediumFontSize.label                   "середній">
+<!ENTITY largeFontSize.label                    "великий">
+<!ENTITY xlargeFontSize.label                   "крупний">
+<!ENTITY xxlargeFontSize.label                  "величезний">
+
+<!ENTITY textAlign.label                        "Вирівнювання:">
+<!ENTITY rightTextAlign.label                   "Вправо">
+<!ENTITY leftTextAlign.label                    "Вліво">
+<!ENTITY centerTextAlign.label                  "По центру">
+<!ENTITY justifyTextAlign.label                 "По ширині">
+
+<!ENTITY textDecoration.label                   "Оздоблення тексту:">
+<!ENTITY overlineTextDecoration.label           "Надкреслений">
+<!ENTITY underlineTextDecoration.label          "Підкреслений">
+<!ENTITY linethroughTextDecoration.label        "Перекреслений">
+<!ENTITY blinkTextDecoration.label              "Блимаючий">
+<!ENTITY noneTextDecoration.label               "Немає">
+
+<!ENTITY backgroundColor.label                  "Колір:">
+<!ENTITY backgroundImage.label                  "Зображення:">
+<!ENTITY chooseFileButton.label                 "Обрати файл">
+<!ENTITY backgroundRepeat.label                 "Викласти:">
+<!ENTITY norepeatBackgroundRepeat.label         "не викладати">
+<!ENTITY repeatxBackgroundRepeat.label          "горизонтально">
+<!ENTITY repeatyBackgroundRepeat.label          "вертикально">
+<!ENTITY repeatBackgroundRepeat.label           "горизонтально та вертикально">
+<!ENTITY backgroundPosition.label               "Розташування:">
+<!ENTITY leftXBackgroundPosition.label          "Вліво">
+<!ENTITY centerXBackgroundPosition.label        "По центру">
+<!ENTITY rightXBackgroundPosition.label         "Вправо">
+<!ENTITY topYBackgroundPosition.label           "Вгорі">
+<!ENTITY centerYBackgroundPosition.label        "По центру">
+<!ENTITY bottomYBackgroundPosition.label        "Внизу">
+<!ENTITY backgroundAttachmentCheckbox.label     "Зображення прокручується разом із сторінкою">
+
+
+<!ENTITY useBorderShorthand.label               "Всі чотири сторони використовують єдиний стиль рамок">
+<!ENTITY borderStyle.label                      "стилю:">
+<!ENTITY borderWidth.label                      "Ширина:">
+<!ENTITY borderColor.label                      "Колір:">
+<!ENTITY topBorder.label                        "Вгорі:">
+<!ENTITY leftBorder.label                       "Ліворуч:">
+<!ENTITY rightBorder.label                      "Праворуч:">
+<!ENTITY bottomBorder.label                     "Внизу:">
+<!ENTITY borderPreview.label                    "Попередній перегляд">
+<!ENTITY noneBorderStyle.label                  "нічого">
+<!ENTITY hiddenBorderStyle.label                "приховано">
+<!ENTITY solidBorderStyle.label                 "суцільний">
+<!ENTITY dottedBorderStyle.label                "крапковий">
+<!ENTITY dashedBorderStyle.label                "пунктирне">
+<!ENTITY doubleBorderStyle.label                "подвійне">
+<!ENTITY grooveBorderStyle.label                "виїмкою">
+<!ENTITY ridgeBorderStyle.label                 "виступаюче">
+<!ENTITY insetBorderStyle.label                 "втиснуте">
+<!ENTITY outsetBorderStyle.label                "опукле">
+
+<!ENTITY display.label                          "Відображення:">
+<!ENTITY noneDisplay.label                      "нічого">
+<!ENTITY inlineDisplay.label                    "inline">
+<!ENTITY blockDisplay.label                     "block">
+<!ENTITY runinDisplay.label                     "run-in">
+<!ENTITY compactDisplay.label                   "compact">
+<!ENTITY listitemDisplay.label                  "list-item">
+<!ENTITY tableDisplay.label                     "table">
+<!ENTITY tablerowDisplay.label                  "table-row">
+<!ENTITY tablecellDisplay.label                 "table-cell">
+<!ENTITY tablecaptionDisplay.label              "table-caption">
+<!ENTITY inlinetableDisplay.label               "inline-table">
+<!ENTITY tablecolumnDisplay.label               "table-column">
+<!ENTITY tablerowgroupDisplay.label             "table-row-group">
+<!ENTITY tableheadergroupDisplay.label          "table-header-group">
+<!ENTITY tablefootergroupDisplay.label          "table-footer-group">
+<!ENTITY tablecolumngroupDisplay.label          "table-column-group">
+
+<!ENTITY visibility.label                       "Видимість:">
+<!ENTITY visibleVisibility.label                "видимий">
+<!ENTITY hiddenVisibility.label                 "приховано">
+<!ENTITY collapseVisibility.label               "згорнутий">
+
+<!ENTITY float.label                            "Float:">
+<!ENTITY leftFloat.label                        "ліворуч">
+<!ENTITY rightFloat.label                       "праворуч">
+<!ENTITY noneFloat.label                        "нічого">
+
+<!ENTITY clear.label                            "Очистити:">
+<!ENTITY noneClear.label                        "нічого">
+<!ENTITY leftClear.label                        "ліворуч">
+<!ENTITY rightClear.label                       "праворуч">
+<!ENTITY bothClear.label                        "обидва">
+
+
+<!ENTITY position.label                         "Розташування:">
+<!ENTITY staticPosition.label                   "статичне">
+<!ENTITY fixedPosition.label                    "встановлене">
+<!ENTITY absolutePosition.label                 "абсолютне">
+<!ENTITY relativePosition.label                 "відносне">
+
+<!ENTITY overflow.label                         "Overflow:">
+<!ENTITY visibleOverflow.label                  "видимий">
+<!ENTITY hiddenOverflow.label                   "приховано">
+<!ENTITY scrollOverflow.label                   "прокрутка">
+<!ENTITY autoOverflow.label                     "авто">
+
+<!ENTITY zIndex.label                           "Z-index:">
+
+<!ENTITY width.label                            "Ширина:">
+<!ENTITY minWidth.label                         "Мін. ширина:">
+<!ENTITY maxWidth.label                         "Макс. ширина:">
+<!ENTITY height.label                           "Висота:">
+<!ENTITY minHeight.label                        "Мін. висота:">
+<!ENTITY maxHeight.label                        "Макс. висота:">
+
+<!ENTITY margins.label                          "Поля:">
+<!ENTITY paddings.label                         "Відступи:">
+<!ENTITY offsets.label                          "Зсуви:">
+<!ENTITY top.label                              "Вгорі:">
+<!ENTITY left.label                             "Ліворуч:">
+<!ENTITY right.label                            "Праворуч:">
+<!ENTITY bottom.label                           "Внизу:">
+
+<!ENTITY volume.label                           "Гучність:">
+<!ENTITY xsoftVolume.label                      "мягший">
+<!ENTITY softVolume.label                       "м'який">
+<!ENTITY mediumVolume.label                     "середній">
+<!ENTITY loudVolume.label                       "гучно">
+<!ENTITY xloudVolume.label                      "гучніший">
+<!ENTITY muteVolume.label                       "Вимкнений">
+
+<!ENTITY speak.label                            "Мова:">
+<!ENTITY noneSpeak.label                        "нічого">
+<!ENTITY normalSpeak.label                      "normal">
+<!ENTITY spelloutSpeak.label                    "політерно">
+
+<!ENTITY speechRate.label                       "Темп мови:">
+<!ENTITY slowerSpeechRate.label                 "повільніше">
+<!ENTITY fasterSpeechRate.label                 "швидше">
+<!ENTITY xslowSpeechRate.label                  "найповільніший">
+<!ENTITY slowSpeechRate.label                   "повільний">
+<!ENTITY mediumSpeechRate.label                 "середній">
+<!ENTITY fastSpeechRate.label                   "швидкий">
+<!ENTITY xfastSpeechRate.label                  "найшвидший">
+
+<!ENTITY opacity.label                          "Прозорість:">
+
+<!ENTITY compatibilityTab.label                 "Сумісність">
+
+<!ENTITY transparentOpacity.label               "прозорий">
+
+<!ENTITY pauseBefore.label                      "Пауза перед:">
+<!ENTITY cueBefore.label                        "Вказівка перед:">
+<!ENTITY pauseAfter.label                       "Пауза після:">
+<!ENTITY cueAfter.label                         "Вказівка після:">
+
+
+<!ENTITY listTab.label                          "Списки">
+
+<!ENTITY listStyleType.label                    "Тип маркеру елементу списку:">
+<!ENTITY noneListStyleType.label                "нічого">
+<!ENTITY discListStyleType.label                "диск">
+<!ENTITY circleListStyleType.label              "коло">
+<!ENTITY squareListStyleType.label              "квадрат">
+<!ENTITY decimalListStyleType.label             "десяткові числа">
+<!ENTITY decimalLeadingZeroListStyleType.label  "числа з початковим нулем">
+<!ENTITY lowerRomanListStyleType.label          "римські цифри у нижньому регістрі">
+<!ENTITY upperRomanListStyleType.label          "римські цифри у верхньому регістрі">
+<!ENTITY lowerGreekListStyleType.label          "грецькі букви в нижньому регістрі">
+<!ENTITY lowerAlphaListStyleType.label          "латиниця у верхньому регістрі">
+<!ENTITY upperAlphaListStyleType.label          "латиниця у верхньому регістрі">
+<!ENTITY armenianListStyleType.label            "армянська">
+<!ENTITY georgianListStyleType.label            "грузинська нумерація">
+
+
+<!ENTITY listStyleImage.label                   "Зображення-маркер елемента списку:">
+<!ENTITY listStylePosition.label                "Позиція маркера елемента списку:">
+<!ENTITY insideListStylePosition.label          "всередині">
+<!ENTITY outsideListStylePosition.label         "зовні">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Витягнути і створити основний стиль">
+<!ENTITY makecssrule.accesskey                  "E">
+<!ENTITY currentstylesfor.label                 "Поточний стиль для:">
+<!ENTITY renameButton.label                     "Змінити селектор">
+
+<!ENTITY autoMarginUnit.label                   "авто">
+<!ENTITY thinBorderUnit.label                   "тонкий">
+<!ENTITY mediumBorderUnit.label                 "середній">
+<!ENTITY thickBorderUnit.label                  "товстий">

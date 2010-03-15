@@ -1,0 +1,80 @@
+<!-- extracted from content/pref-fonts.xul -->
+
+<!-- LOCALIZATION NOTE : FILE 'Fonts' prefs dialog -->
+<!ENTITY  pref.fonts.title                        "Шрифти">
+
+<!ENTITY  language.label                          "Шрифти для:">
+<!ENTITY  language.accesskey                      "Ш">
+
+<!ENTITY  typefaces.label                         "Гарнітура">
+<!ENTITY  sizes.label                             "Розмір (пікселі)">
+
+<!ENTITY  proportional.label                      "Пропорційний:">
+<!ENTITY  proportional.accesskey                  "П">
+
+<!ENTITY  serif.label                             "Із засічками:">
+<!ENTITY  serif.accesskey                         "І">
+<!ENTITY  sans-serif.label                        "Без засічок:">
+<!ENTITY  sans-serif.accesskey                    "Б">
+<!ENTITY  monospace.label                         "Моноширний:">
+<!ENTITY  monospace.accesskey                     "М">
+<!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
+<!ENTITY  fantasy.label                           "Декоративний:">
+<!ENTITY  fantasy.accesskey                       "Д">
+<!ENTITY  cursive.label                           "Курсив:">
+<!ENTITY  cursive.accesskey                       "К">
+
+<!ENTITY  fontsize.units                          "пікселів">
+
+<!ENTITY  font.langGroup.latin1                   "Західноєвропейський">
+<!ENTITY  font.langGroup.latin2                   "Центральноєвропейський">
+<!ENTITY  font.langGroup.japanese                 "Японська">
+<!ENTITY  font.langGroup.trad-chinese             "Традиційний китайський (Тайвань)">
+<!ENTITY  font.langGroup.simpl-chinese            "Спрощений китайський">
+<!ENTITY  font.langGroup.trad-chinese-hk          "Традиційний китайський (Гонконг)">
+<!ENTITY  font.langGroup.korean                   "Корейський">
+<!ENTITY  font.langGroup.cyrillic                 "Кирилиця">
+<!ENTITY  font.langGroup.baltic                   "Прибалтійський">
+<!ENTITY  font.langGroup.el                       "Грецький">
+<!ENTITY  font.langGroup.turkish                  "Турецький">
+<!ENTITY  font.langGroup.unicode                  "Юникод">
+<!ENTITY  font.langGroup.user-def                 "Визначене користувачем">
+<!ENTITY  font.langGroup.thai                     "Тайський">
+<!ENTITY  font.langGroup.hebrew                   "Іврит">
+<!ENTITY  font.langGroup.arabic                   "Арабський">
+<!ENTITY  font.langGroup.devanagari               "Деванагари">
+<!ENTITY  font.langGroup.tamil                    "Тамільський">
+<!ENTITY  font.langGroup.armenian                 "Вірменський">
+<!ENTITY  font.langGroup.bengali                  "Бенгальський">
+<!ENTITY  font.langGroup.canadian                 "Загальний канадський складовий">
+<!ENTITY  font.langGroup.ethiopic                 "Ефіопський">
+<!ENTITY  font.langGroup.georgian                 "Грузинський">
+<!ENTITY  font.langGroup.gujarati                 "Гуджараті">
+<!ENTITY  font.langGroup.gurmukhi                 "Гурмуки">
+<!ENTITY  font.langGroup.khmer                    "Кхмерський">
+<!ENTITY  font.langGroup.malayalam                "Малаялам">
+<!-- Minimum font size -->
+<!ENTITY minSize.label                            "Найменший розмір шрифту:">
+<!ENTITY minSize.accesskey                        "Н">
+<!ENTITY minSize.none                             "Немає">
+
+<!-- default font type -->
+<!ENTITY  useDefaultFontSerif.label               "Із засічками">
+<!ENTITY  useDefaultFontSansSerif.label           "Без засічок">
+
+<!ENTITY  newLanguages.label                      "Нові мови можуть бути визначені за допомогою панелі мов.">
+
+<!ENTITY  useDocumentFonts.label                  "Дозволити документам використовувати інші шрифти">
+<!ENTITY  useDocumentFonts.accesskey              "Д">
+
+<!-- leaving this stuff in for now -->
+
+<!ENTITY  header2                                 "Коли для сторінки визначений інший шрифт">
+<!ENTITY  useDefaultFont.label                    "Використовувати мої шрифти, ігноруючи вказані для сторінки">
+<!ENTITY  useDefaultFont.accesskey                "В">
+<!-- LOCALIZATION NOTE (useDocFontNonDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY  useDocFontNonDynamic.label              "Використовувати шрифти, вказані для сторінки">
+<!ENTITY  useDocFontNonDynamic.accesskey          "з">
+<!-- LOCALIZATION NOTE (useDocFontDynamic): Translate 'Dynamic Fonts' according to Netscape Glossary -->
+<!ENTITY  useDocFontDynamic.label                 "Використовувати всі шрифти, вказані для сторінки">
+<!ENTITY  useDocFontDynamic.accesskey             "і">

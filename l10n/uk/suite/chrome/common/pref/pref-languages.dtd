@@ -1,0 +1,39 @@
+<!-- LOCALIZATION NOTE : FILE 'Languages' preferences dialog -->
+
+<!ENTITY  languages.customize.prefLangDescript          "Деякі сторінки доступні більш ніж однією мовою. Вкажіть порядок вибору мови веб-сторінки.">
+<!ENTITY languages.customize.lHeader                    "Мови">
+<!ENTITY languages.customize.rHeader                    "Мови, якими відображаються веб-сторінки">
+<!ENTITY langtitle.label                                "Мови для веб-сторінок">
+<!ENTITY languages.customize.prefAddLangDescript        "Оберіть мову, яку бажаєте використовувати.">
+<!ENTITY languages.customize.engOrder.label             "1">
+<!ENTITY languages.customize.engOption.label            "Англійська">
+<!ENTITY languages.customize.addButton.label            "Додати…">
+<!ENTITY languages.customize.addButton.accesskey        "Д">
+<!ENTITY languages.customize.deleteButton.label         "Вилучити">
+<!ENTITY languages.customize.deleteButton.accesskey     "В">
+<!ENTITY languages.customize.title.label			    "Налаштування мов">
+<!ENTITY languages.customize.add.title.label		    "Оберіть мову">
+<!ENTITY languages.customize.left.header			    "Кодування">
+<!ENTITY charset.customize.right.header		    "Оберіть підтримувані кодування">
+<!ENTITY languages.customize.available.label            "Мови:">
+<!ENTITY languages.customize.active.label               "Мови в порядку переваги:">
+<!ENTITY languages.customize.reorder.label              "Упорядкувати">
+<!ENTITY languages.customize.remove.label               "Вилучити">
+<!ENTITY languages.customize.additional.label           "Доступні кодування">
+<!ENTITY languages.customize.add.label                  "Додати">
+<!ENTITY languages.customize.others.label               "Інші:">
+<!ENTITY languages.customize.others.accesskey           "І">
+<!ENTITY languages.customize.Charset.grouplabel         "Кодування">
+<!ENTITY languages.customize.DefaultCharset.label       "Типове кодування:">
+<!ENTITY languages.customize.DefaultCharset.accesskey   "Т">
+<!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
+<!ENTITY languages.customize.others.examples            "наприклад: en-bz, uk-ua">
+<!ENTITY languages.customize.cancel.label		            "Скасувати">
+<!ENTITY languages.customize.save.label                 "Зберегти">
+<!ENTITY languages.customize.ok.label                   "Гаразд">
+<!ENTITY languages.customize.save.popup                 "Будь ласка, перезапустіть браузер, щоб відбулися зміни…">
+<!ENTITY languages.customize.moveUp.label               "Вгору">
+<!ENTITY languages.customize.moveUp.accesskey           "В">
+<!ENTITY languages.customize.moveDown.label             "Вниз">
+<!ENTITY languages.customize.moveDown.accesskey         "В">
+

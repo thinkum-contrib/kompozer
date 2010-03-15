@@ -1,5 +1,6 @@
+<!--LOCALIZATION NOTE printPreviewProgress.dtd Main UI for Print Preview Progress Dialog -->
+<!ENTITY printWindow.title "Попередній перегляд"> 
+<!ENTITY title   "Заголовок:"> 
+<!ENTITY spaces    "            ">
 <!ENTITY preparing "Підготовка до попереднього перегляду…">
-<!ENTITY printWindow.title "Попередній перегляд">
 <!ENTITY progress "Поступ:">
-<!ENTITY spaces "            ">
-<!ENTITY title "Заголовок:">

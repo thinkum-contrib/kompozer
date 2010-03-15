@@ -1,10 +1,11 @@
-<!ENTITY certOCSP.label "Використовувати OCSP для перевірки тільки тих сертифікатів, в яких вказаний URL служби OCSP">
-<!ENTITY disableOCSP.label "Не використовувати OCSP для перевірки дійсності сертифікатів">
-<!ENTITY ocspDialog.title "Настройки OCSP">
-<!ENTITY proxyOCSP.label "Використовувати OCSP для перевірки всіх сертифікатів за допомогою цього URL:">
-<!ENTITY serviceURL.accesskey "у">
-<!ENTITY serviceURL.label "URL служби:">
-<!ENTITY signingCA.accesskey "п">
-<!ENTITY signingCA.label "Підписант:">
-<!ENTITY validation.ocsp.description "&brandShortName; може використовувати протокол перегляду статусу сертифікатів (OCSP) для перевірки сертифікатів. Налаштуйте &brandShortName; для використання OCSP:">
-<!ENTITY window.width "54em">
+<!ENTITY window.width                 "54em">
+
+<!ENTITY ocspDialog.title             "Настройки OCSP">
+<!ENTITY validation.ocsp.description  "&brandShortName; може використовувати протокол перегляду статусу сертифікатів (OCSP) для перевірки сертифікатів. Налаштуйте &brandShortName; для використання OCSP:">
+<!ENTITY disableOCSP.label            "Не використовувати OCSP для перевірки дійсності сертифікатів">
+<!ENTITY certOCSP.label               "Використовувати OCSP для перевірки тільки тих сертифікатів, в яких вказаний URL служби OCSP">
+<!ENTITY proxyOCSP.label              "Використовувати OCSP для перевірки всіх сертифікатів за допомогою цього URL:">
+<!ENTITY serviceURL.label             "URL служби:">
+<!ENTITY serviceURL.accesskey         "у">
+<!ENTITY signingCA.label              "Підписант:">
+<!ENTITY signingCA.accesskey          "П">

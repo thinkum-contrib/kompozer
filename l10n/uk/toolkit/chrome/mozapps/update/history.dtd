@@ -1,10 +1,15 @@
-<!ENTITY closebutton.label "Закрити">
-<!ENTITY date.header "Дата встановлення">
-<!ENTITY detailsButton.accesskey "П">
-<!ENTITY detailsButton.label "Подробиці">
-<!ENTITY history.intro "Були встановлені наступні оновлення:">
-<!ENTITY history.title "Журнал оновлень">
-<!ENTITY name.header "Ім’я оновлення">
-<!ENTITY noupdates.label "Жодного оновлення ще не було встановлено">
-<!ENTITY state.header "Стан">
-<!ENTITY type.header "Тип">
+
+<!ENTITY  history.title             "Журнал оновлень">
+<!ENTITY  history.intro             "Були встановлені наступні оновлення:">
+<!ENTITY  closebutton.label         "Закрити">
+                                     
+<!ENTITY  detailsButton.label       "Подробиці">
+<!ENTITY  detailsButton.accesskey   "П">
+
+<!ENTITY  noupdates.label           "Жодного оновлення ще не було встановлено">
+
+<!ENTITY  name.header               "Ім’я оновлення">
+<!ENTITY  date.header               "Дата встановлення">
+<!ENTITY  type.header               "Тип">
+<!ENTITY  state.header              "Стан">
+

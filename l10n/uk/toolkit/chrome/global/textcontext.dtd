@@ -1,19 +1,19 @@
-<!ENTITY copyCmd.accesskey "о">
-<!ENTITY copyCmd.label "Копіювати">
-<!ENTITY cutCmd.accesskey "и">
 <!ENTITY cutCmd.label "Вирізати">
-<!ENTITY deleteCmd.accesskey "и">
-<!ENTITY deleteCmd.label "Стерти">
-<!ENTITY pasteCmd.accesskey "а">
+<!ENTITY cutCmd.accesskey "и">
+<!ENTITY copyCmd.label "Копіювати">
+<!ENTITY copyCmd.accesskey "о">
 <!ENTITY pasteCmd.label "Вставити">
-<!ENTITY selectAllCmd.accesskey "и">
-<!ENTITY selectAllCmd.label "Виділити все">
-<!ENTITY spellAddToDictionary.accesskey "о">
-<!ENTITY spellAddToDictionary.label "Додати в словник">
-<!ENTITY spellDictionaries.accesskey "о">
-<!ENTITY spellDictionaries.label "Мови">
-<!ENTITY spellEnable.accesskey "е">
-<!ENTITY spellEnable.label "Перевірити орфографію в цьому полі">
-<!ENTITY spellNoSuggestions.label "(припущень не знайдено)">
-<!ENTITY undoCmd.accesskey "у">
+<!ENTITY pasteCmd.accesskey "а">
 <!ENTITY undoCmd.label "Повернути">
+<!ENTITY undoCmd.accesskey "у">
+<!ENTITY selectAllCmd.label "Виділити все">
+<!ENTITY selectAllCmd.accesskey "и">
+<!ENTITY deleteCmd.label "Стерти">
+<!ENTITY deleteCmd.accesskey "и">
+<!ENTITY spellAddToDictionary.label "Додати в словник">
+<!ENTITY spellAddToDictionary.accesskey "о">
+<!ENTITY spellEnable.label "Перевірити орфографію в цьому полі">
+<!ENTITY spellEnable.accesskey "е">
+<!ENTITY spellNoSuggestions.label "(припущень не знайдено)">
+<!ENTITY spellDictionaries.label "Мови">
+<!ENTITY spellDictionaries.accesskey "о">

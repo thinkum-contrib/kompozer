@@ -1,8 +1,11 @@
-<!--LOCALIZATION NOTE (editorCheck.label): DONT_TRANSLATE -->
-<!ENTITY editorCheck.label "Composer">
-<!ENTITY editorCheck.accesskey "c">
 
-<!ENTITY compose.label "Composer">
-<!ENTITY editing.label "Параметри нової сторінки">
-<!ENTITY toolbars.label "Панелі інструментів">
-<!ENTITY publish.label "Публікація">
+<!ENTITY prefWindow.size       "width: 52.3em; height: 37em;">
+<!ENTITY prefWindow.title      "Налаштування">
+
+<!ENTITY general.label         "Основне">
+<!ENTITY extensions.label      "Розширення">
+<!ENTITY advanced.label        "Додатково">
+<!ENTITY helpers.label         "Програми">
+<!ENTITY newpagesettings.label "Налаштування нової сторінки">
+<!ENTITY fonts.label           "Шрифти">
+<!ENTITY i18n.label            "Інтернаціоналізація">

@@ -1,19 +1,25 @@
-<!ENTITY license.part0 "is copyright">
-<!ENTITY license.part1 "Авторське право належить">
-<!ENTITY license.contrib "авторам">
-<!ENTITY license.part2 "згідно умовам встановленим в">
-<!ENTITY license.part3 " . Всі права захищені.">
-<!ENTITY about.version "версія">
-<!ENTITY about.copy.beforeLink "Copyright © 1998-2007">
-<!ENTITY about.copy.linkTitle "Люди внесли свій внесок">
-<!ENTITY about.copy.afterLink "в проект Mozilla.">
-<!ENTITY about.license.beforeLink "Прочитати">
-<!ENTITY about.license.linkTitle "інформацію про ліцензію">
-<!ENTITY about.license.afterLink "використовуваною в цьому продукті.">
-<!ENTITY about.relnotes.beforeLink "Прочитати">
-<!ENTITY about.relnotes.linkTitle "зауваження до випуску">
-<!ENTITY about.relnotes.afterLink "цій версії.">
+<!ENTITY license.part0     "авторске право">
+<!ENTITY license.part1     "Авторське право належить">
+<!ENTITY license.contrib   "авторам">
+<!ENTITY license.part2     "згідно умовам встановленим в">
+<!ENTITY license.part3     " . Всі права захищені.">
+
+<!ENTITY about.version                "версія">
+
+<!ENTITY about.copy.beforeLink        "Copyright © 1998-2007">
+<!ENTITY about.copy.linkTitle         "Люди внесли свій внесок">
+<!ENTITY about.copy.afterLink         "в проект Mozilla.">
+
+<!ENTITY about.license.beforeLink     "Прочитати">
+<!ENTITY about.license.linkTitle      "інформацію про ліцензію">
+<!ENTITY about.license.afterLink      "використовуваною в цьому продукті.">
+
+<!ENTITY about.relnotes.beforeLink    "Прочитати">
+<!ENTITY about.relnotes.linkTitle     "зауваження до випуску">
+<!ENTITY about.relnotes.afterLink     "цій версії.">
+
 <!ENTITY about.buildconfig.beforeLink "Переглянути">
-<!ENTITY about.buildconfig.linkTitle "конфігурацію збірки">
-<!ENTITY about.buildconfig.afterLink "використовувану в цій версії.">
-<!ENTITY about.buildIdentifier "Ідентифікатор збірки:">
+<!ENTITY about.buildconfig.linkTitle  "конфігурацію збірки">
+<!ENTITY about.buildconfig.afterLink  "використовувану в цій версії.">
+
+<!ENTITY about.buildIdentifier        "Ідентифікатор збірки:">

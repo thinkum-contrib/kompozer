@@ -1,97 +1,116 @@
-<!ENTITY addons.title "Додатки">
-<!ENTITY em.width "520">
-<!ENTITY em.height "380">
-<!ENTITY cmd.info.commandKey "i">
-<!ENTITY cmd.options.commandKey ",">
-<!ENTITY cmd.close.commandKey "w">
-<!ENTITY extensions.label "Розширення">
-<!ENTITY themes.label "Теми">
-<!ENTITY locales.label "Локалізації">
-<!ENTITY plugins.label "Модулі">
-<!ENTITY update.label "Оновлення">
-<!ENTITY install.label "Встановлення">
-<!ENTITY cmd.checkUpdatesAll.label "Знайти оновлення">
-<!ENTITY cmd.checkUpdatesAll.accesskey "З">
+<!ENTITY addons.title                     "Додатки">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "Розширення">
+<!ENTITY themes.label                     "Теми">
+<!ENTITY locales.label                    "Локалізації">
+<!ENTITY plugins.label                    "Модулі">
+<!ENTITY update.label                     "Оновлення">
+<!ENTITY install.label                    "Встановлення">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "Знайти оновлення">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "З">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "Проводить пошук оновлень для ваших додатків">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "Проводить пошук оновлень для ваших тем">
-<!ENTITY cmd.installLocalFile.label "Встановити…">
-<!ENTITY cmd.installFile.accesskey "В">
-<!ENTITY cmd.installFileAddon.tooltip "Встановити додаток">
-<!ENTITY cmd.installFileTheme.tooltip "Встановити тему">
-<!ENTITY cmd.installUpdatesAll.label "Встановити оновлення">
-<!ENTITY cmd.installUpdatesAll.accesskey "а">
-<!ENTITY cmd.installUpdatesAll.tooltip "Встановити вибрані оновлення">
-<!ENTITY cmd.restartApp.label "Перезапустити &brandShortName;">
-<!ENTITY cmd.restartApp.accesskey "е">
-<!ENTITY cmd.restartApp.tooltip "Перезапустити &brandShortName; для завершення установки">
-<!ENTITY cmd.skip.label "Пропустити">
-<!ENTITY cmd.skip.accesskey "о">
-<!ENTITY cmd.skip.tooltip "Пропустити ці оновлення">
-<!ENTITY cmd.continue.label "Продовжити">
-<!ENTITY cmd.continue.accesskey "р">
-<!ENTITY cmd.continue.tooltip "Продовжити завантаження &brandShortName;">
-<!ENTITY cmd.enableAll.label "Увімкнути всі">
-<!ENTITY cmd.enableAll.accesskey "в">
-<!ENTITY cmd.enableAll.tooltip "Вмикає всі показані додатки">
-<!ENTITY cmd.disableAll.label "Вимкнути всі">
-<!ENTITY cmd.disableAll.accesskey "с">
-<!ENTITY cmd.disableAll.tooltip "Вимикає всі показані додатки">
-<!ENTITY cmd.useTheme.label "Використовувати тему">
-<!ENTITY cmd.useTheme.accesskey "е">
-<!ENTITY cmd.useTheme.tooltip "Змінює тему &brandShortName; ">
-<!ENTITY cmd.options.label "Налаштування">
-<!ENTITY cmd.options.accesskey "Н">
-<!ENTITY cmd.options.tooltip "Змінити Налаштування виділеного розширення">
-<!ENTITY cmd.optionsUnix.label "Налаштування">
-<!ENTITY cmd.optionsUnix.accesskey "Н">
-<!ENTITY cmd.optionsUnix.tooltip "Змінити налаштування виділеного розширення">
-<!ENTITY cmd.enable.label "Увімкнути">
-<!ENTITY cmd.enable.accesskey "м">
-<!ENTITY cmd.enable.tooltip "Вмикає цей додаток після перезапуску &brandShortName;">
-<!ENTITY cmd.disable.label "Вимкнути">
-<!ENTITY cmd.disable.accesskey "В">
-<!ENTITY cmd.disable.tooltip "Вимикає цей додаток після перезапуску &brandShortName;">
-<!ENTITY cmd.uninstall.label "Вилучити">
-<!ENTITY cmd.uninstall2.accesskey "и">
-<!ENTITY cmd.uninstall2.tooltip "Вилучає цей додаток після перезапуску &brandShortName;">
-<!ENTITY cmd.cancelUninstall.label "Скасувати вилучення">
-<!ENTITY cmd.cancelUninstall.accesskey "я">
-<!ENTITY cmd.cancelUninstall.tooltip "Скасувати вилучення цього додатку">
-<!ENTITY cmd.installUpdate.label "Встановити оновлення">
-<!ENTITY cmd.installUpdate.accesskey "В">
-<!ENTITY cmd.installUpdate.tooltip "Встановити оновлення для додатку">
-<!ENTITY cancel.label "Скасувати">
-<!ENTITY cancel.accesskey "т">
-<!ENTITY cmd.homepage.label "Відвідати домашню сторінку">
-<!ENTITY cmd.homepage.accesskey "м">
-<!ENTITY cmd.about2.label "Про цей додаток">
-<!ENTITY cmd.about.accesskey "П">
-<!ENTITY cmd.checkUpdate.label "Знайти оновлення">
-<!ENTITY cmd.checkUpdate.accesskey "З">
-<!ENTITY cmd.includeUpdate.label "Встановлювати оновлення">
-<!ENTITY cmd.includeUpdate.accesskey "а">
-<!ENTITY includeUpdate.label "Встановлювати це оновлення">
-<!ENTITY includeUpdate.accesskey "ц">
-<!ENTITY includeUpdate.tooltip "Оновлювати цей додаток при установці оновлень">
-<!ENTITY needsDependencies.label "Вимагає додаткових компонентів.">
-<!ENTITY blocklisted.label "Вимкнено в цілях безпеки.">
-<!ENTITY toBeDisabled.label "Цей додаток буде вимкнено при перезапуску &brandShortName;.">
-<!ENTITY toBeEnabled.label "Цей додаток буде ввімкнено при перезапуску &brandShortName;.">
-<!ENTITY toBeInstalled.label "Цей додаток буде встановлено при перезапуску &brandShortName;.">
-<!ENTITY toBeUninstalled.label "Цей додаток буде вилучено при перезапуску &brandShortName;.">
-<!ENTITY toBeUpgraded.label "Цей додаток буде оновлено при перезапуску &brandShortName;.">
-<!ENTITY getExtensions.label "Завантажити розширення">
-<!ENTITY getExtensions.tooltip "Завантажити розширення з addons.mozilla.org">
-<!ENTITY getThemes.label "Завантажити теми">
-<!ENTITY getThemes.tooltip "Завантажити теми з addons.mozilla.org">
-<!ENTITY previewNoThemeSelected.label "Тему не вибрано">
-<!ENTITY previewNoPreviewImage.label "Для даної теми попередній перегляд неможливий">
-<!ENTITY moreInfo.label "Докладна інформація">
-<!ENTITY closeMessage.tooltip "Закрити це повідомлення">
-<!ENTITY updateSuccess.label "Оновлення успішно завершено.">
-<!ENTITY installSuccess.label "Встановлення успішно завершено.">
-<!ENTITY installSuccessRestart.label "Для завершення установки потрібний перезапуск.">
-<!ENTITY installWaiting.label "Очікування…">
-<!ENTITY installIncompatibleUpdate.label "Триває перевірка сумісності…">
-<!ENTITY installFinishing.label "Триває встановлення…">
-<!ENTITY installFailure.label "Помилка встановлення.">
+<!ENTITY cmd.installLocalFile.label       "Встановити…">
+<!ENTITY cmd.installFile.accesskey        "В">
+<!ENTITY cmd.installFileAddon.tooltip     "Встановити додаток">
+<!ENTITY cmd.installFileTheme.tooltip     "Встановити тему">
+<!ENTITY cmd.installUpdatesAll.label      "Встановити оновлення">
+<!ENTITY cmd.installUpdatesAll.accesskey  "а">
+<!ENTITY cmd.installUpdatesAll.tooltip    "Встановити вибрані оновлення">
+<!ENTITY cmd.restartApp.label             "Перезапустити &brandShortName;">
+<!ENTITY cmd.restartApp.accesskey         "е">
+<!ENTITY cmd.restartApp.tooltip           "Перезапустити &brandShortName; для завершення установки">
+<!ENTITY cmd.skip.label                   "Пропустити">
+<!ENTITY cmd.skip.accesskey               "о">
+<!ENTITY cmd.skip.tooltip                 "Пропустити ці оновлення">
+<!ENTITY cmd.continue.label               "Продовжити">
+<!ENTITY cmd.continue.accesskey           "р">
+<!ENTITY cmd.continue.tooltip             "Продовжити завантаження &brandShortName;">
+
+<!ENTITY cmd.enableAll.label              "Увімкнути всі">
+<!ENTITY cmd.enableAll.accesskey          "в">
+<!ENTITY cmd.enableAll.tooltip            "Вмикає всі показані додатки">
+<!ENTITY cmd.disableAll.label             "Вимкнути всі">
+<!ENTITY cmd.disableAll.accesskey         "с">
+<!ENTITY cmd.disableAll.tooltip           "Вимикає всі показані додатки">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "Використовувати тему">
+<!ENTITY cmd.useTheme.accesskey           "е">
+<!ENTITY cmd.useTheme.tooltip             "Змінює тему &brandShortName; ">
+<!ENTITY cmd.options.label                "Налаштування">
+<!ENTITY cmd.options.accesskey            "Н">
+<!ENTITY cmd.options.tooltip              "Змінити Налаштування виділеного розширення">
+<!ENTITY cmd.optionsUnix.label            "Налаштування">
+<!ENTITY cmd.optionsUnix.accesskey        "Н">
+<!ENTITY cmd.optionsUnix.tooltip          "Змінити налаштування виділеного розширення">
+<!ENTITY cmd.enable.label                 "Увімкнути">
+<!ENTITY cmd.enable.accesskey             "м">
+<!ENTITY cmd.enable.tooltip               "Вмикає цей додаток після перезапуску &brandShortName;">
+<!ENTITY cmd.disable.label                "Вимкнути">
+<!ENTITY cmd.disable.accesskey            "В">
+<!ENTITY cmd.disable.tooltip              "Вимикає цей додаток після перезапуску &brandShortName;">
+<!ENTITY cmd.uninstall.label              "Вилучити">
+<!ENTITY cmd.uninstall2.accesskey         "и">
+<!ENTITY cmd.uninstall2.tooltip           "Вилучає цей додаток після перезапуску &brandShortName;">
+<!ENTITY cmd.cancelUninstall.label        "Скасувати вилучення">
+<!ENTITY cmd.cancelUninstall.accesskey    "я">
+<!ENTITY cmd.cancelUninstall.tooltip      "Скасувати вилучення цього додатку">
+<!ENTITY cmd.installUpdate.label          "Встановити оновлення">
+<!ENTITY cmd.installUpdate.accesskey      "В">
+<!ENTITY cmd.installUpdate.tooltip        "Встановити оновлення для додатку">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "Скасувати">
+<!ENTITY cancel.accesskey                 "т">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "Відвідати домашню сторінку">
+<!ENTITY cmd.homepage.accesskey           "м">
+<!ENTITY cmd.about2.label                 "Про цей додаток">
+<!ENTITY cmd.about.accesskey              "П">
+<!ENTITY cmd.checkUpdate.label            "Знайти оновлення">
+<!ENTITY cmd.checkUpdate.accesskey        "З">
+
+<!ENTITY cmd.includeUpdate.label          "Встановлювати оновлення">
+<!ENTITY cmd.includeUpdate.accesskey      "а">
+<!ENTITY includeUpdate.label              "Встановлювати це оновлення">
+<!ENTITY includeUpdate.accesskey          "ц">
+<!ENTITY includeUpdate.tooltip            "Оновлювати цей додаток при установці оновлень">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "Вимагає додаткових компонентів.">
+<!ENTITY blocklisted.label                "Вимкнено в цілях безпеки.">
+<!ENTITY toBeDisabled.label               "Цей додаток буде вимкнено при перезапуску &brandShortName;.">
+<!ENTITY toBeEnabled.label                "Цей додаток буде ввімкнено при перезапуску &brandShortName;.">
+<!ENTITY toBeInstalled.label              "Цей додаток буде встановлено при перезапуску &brandShortName;.">
+<!ENTITY toBeUninstalled.label            "Цей додаток буде вилучено при перезапуску &brandShortName;.">
+<!ENTITY toBeUpgraded.label               "Цей додаток буде оновлено при перезапуску &brandShortName;.">
+
+<!ENTITY getExtensions.label              "Завантажити розширення">
+<!ENTITY getExtensions.tooltip            "Завантажити розширення з addons.mozilla.org">
+<!ENTITY getThemes.label                  "Завантажити теми">
+<!ENTITY getThemes.tooltip                "Завантажити теми з addons.mozilla.org">
+<!ENTITY previewNoThemeSelected.label     "Тему не вибрано">
+<!ENTITY previewNoPreviewImage.label      "Для даної теми попередній перегляд неможливий">
+<!ENTITY moreInfo.label                   "Докладна інформація">
+<!ENTITY closeMessage.tooltip             "Закрити це повідомлення">
+
+<!ENTITY updateSuccess.label              "Оновлення успішно завершено.">
+<!ENTITY installSuccess.label             "Встановлення успішно завершено.">
+<!ENTITY installSuccessRestart.label      "Для завершення установки потрібний перезапуск.">
+<!ENTITY installWaiting.label             "Очікування…">
+<!ENTITY installIncompatibleUpdate.label  "Триває перевірка сумісності…">
+<!ENTITY installFinishing.label           "Триває встановлення…">
+<!ENTITY installFailure.label             "Помилка встановлення.">
+

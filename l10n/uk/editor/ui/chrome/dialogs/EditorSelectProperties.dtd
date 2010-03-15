@@ -60,7 +60,7 @@
 <!ENTITY OptionValue.label "Значення:">
 <!ENTITY OptionValue.accesskey "З">
 <!ENTITY OptionSelected.label "Спочатку вибрані">
-<!ENTITY OptionSelected.accesskey "В">
+<!ENTITY OptionSelected.accesskey "в">
 <!ENTITY OptionDisabled.label "Вимкнено">
 <!ENTITY OptionDisabled.accesskey "В">
 
@@ -71,7 +71,7 @@
 <!ENTITY AddOption.label "Додати перемикач">
 <!ENTITY AddOption.accesskey "Д">
 <!ENTITY AddOptGroup.label "Додати групу">
-<!ENTITY AddOptGroup.accesskey "Г">
+<!ENTITY AddOptGroup.accesskey "г">
 <!ENTITY RemoveElement.label "Вилучити">
 <!ENTITY RemoveElement.accesskey "В">
 <!ENTITY MoveElementUp.label "Догори">

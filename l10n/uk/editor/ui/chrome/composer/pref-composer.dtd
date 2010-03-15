@@ -1,39 +1,82 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
 <!-- extracted from content/pref-composer.xul -->
 
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
 
-<!--LOCALIZATION NOTE (pref.composer.title): DONT_TRANSLATE -->
-<!ENTITY  pref.composer.title           "Composer">
+<!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
+<!ENTITY  title.label                           "Загальні налаштування">
+<!ENTITY  lHeader                               "Основне">
+<!ENTITY  rHeader                               "Налаштування авторства нових веб-сторінок">
 
-<!ENTITY  saving                        "Зберігання">
-<!ENTITY  AutoSaveCheck                 "Автоматично зберігати кожні">
-<!ENTITY  minText                       "хвилин">
+<!ENTITY  tableEditing.label                    "Редагування таблиць">
+<!ENTITY  maintainTableStructure.label          "Зберігати загальну схему таблиці під час вставки чи усуненню чарунок">
+<!ENTITY  maintainTableStructure.tooltip        "Запобігає стиснення меж при видаленні однієї або більше клітинок">
+<!ENTITY  maintainStructure.accesskey           "m">
 
-<!ENTITY  exterLegend.label             "Зовнішні редактори">
-<!ENTITY  htmlSource                    "HTML-код:">
-<!ENTITY  imageeditor                   "Зображення:">
-<!ENTITY  chooseButton.label            "Обрати">
+<!ENTITY  savingFiles.title                     "При збереженні та публікації сторінок">
+<!ENTITY  preserveExistingFormatting            "Зберігати початкове форматування">
+<!ENTITY  preserveExistingFormatting.accesskey  "З">
+<!ENTITY  preserveExistingFormatting.tooltip    "Зберігати переноси та початкову структуру сторінки">
+<!ENTITY  reformat.label                        "Переформатувати код HTML">
+<!ENTITY  reformat.accesskey                    "П">
+<!ENTITY  reformat.tooltip                      "Форматування тегів HTML за допомогою переносів та відступів">
 
-<!ENTITY  recentFiles.title             "Меню недавніх сторінок">
-<!ENTITY  documentsInMenu.label         "Найбільше число сторінок у списку:">
-<!ENTITY  documentsInMenu.accesskey     "Н">
+<!ENTITY  saveAssociatedFiles.label             "Зберегти зображення та інші пов’язані файли при збереженні сторінок">
+<!ENTITY  showPublishDialog.label               "Завжди показувати діалог при публікації сторінок">
 
-<!ENTITY  savingFiles.title             "При збереженні та публікації сторінок">
-<!ENTITY  preserveExisting.label        "Зберігати оригінальне форматування початкового коду">
-<!ENTITY  preserveExisting.accesskey    "З">
-<!ENTITY  preserveExisting.tooltip      "Зберігати форматування та переноси оригінальної сторінки">
-<!ENTITY  saveAssociatedFiles.label     "Зберегти зображення та інші пов’язані файли при збереженні сторінок">
-<!ENTITY  saveAssociatedFiles.accesskey "п">
-<!ENTITY  showPublishDialog.label       "Завжди показувати діалог при публікації сторінок">
-<!ENTITY  showPublishDialog.accesskey   "д">
+<!ENTITY  saving                                "Зберігання">
+<!ENTITY  AutoSaveCheck                         "Автоматично зберігати кожні">
+<!ENTITY  minText                               "хвилин">
 
-<!ENTITY  composerEditing.label         "Редагування">
-<!ENTITY  spellCheckInline.label        "Перевірка орфографії під час написання">
-<!ENTITY  spellCheckInline.accesskey    "П">
-<!ENTITY  maintainStructure.label       "Підтримувати макет таблиці при внесенні/вилученні клітин">
-<!ENTITY  maintainStructure.tooltip     "Зберігає прямокутну форму таблиці, автоматично додаючи клітини після вставки чи вилучення клітин">
-<!ENTITY  maintainStructure.accesskey   "М">
-<!ENTITY  useCSS.label                  "Використовувати стилі CSS замість атрибутів та елементів HTML">
-<!ENTITY  useCSS.accesskey              "с">
-<!ENTITY  crInPCreatesNewP.label        "Клавіша Enter в абзаці створює новий абзац">
-<!ENTITY  crInPCreatesNewP.accesskey    "К">
+<!ENTITY  exterLegend.label                     "Зовнішні редактори">
+<!ENTITY  htmlSource                            "HTML-код:">
+<!ENTITY  imageeditor                           "Зображення:">
+<!ENTITY  chooseButton.label                    "Обрати">
+
+<!ENTITY  recentFiles.title                     "Меню недавніх сторінок">
+<!ENTITY  documentsInMenu.accesskey             "М">
+<!ENTITY  documentsInMenu                       "Максимальна кількість сторінок:">
+
+<!ENTITY  cssEditing.label                      "Редагування за допомогою таблиць стилів CSS">
+<!ENTITY  useCSS.label                          "Використовувати стилі CSS замість атрибутів та елементів HTML">
+
+<!ENTITY  siteManager.label                     "Менеджер сайтів">
+<!ENTITY  openInNewTab.label                    "Завжди відкривати документ у новій вкладці">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Використовувати системні іконки">

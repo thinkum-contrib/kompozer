@@ -37,52 +37,74 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label         "Публікація сторінки">
-<!ENTITY windowTitleSettings.label "Параметри публікації">
+<!ENTITY windowTitle.label          "Публікація сторінки">
+<!ENTITY windowTitleSettings.label  "Параметри публікації">
 
-<!ENTITY publishTab.label         "Публікація">
-<!ENTITY settingsTab.label        "Параметри">
+<!ENTITY publishTab.label           "Публікація">
+<!ENTITY settingsTab.label          "Параметри">
 
-<!ENTITY publishButton.label      "Опублікувати">
+<!ENTITY publishButton.label        "Опублікувати">
 
 <!-- Publish Tab Panel -->
-<!ENTITY siteList.label           "Назва сайту:">
-<!ENTITY siteList.tooltip         "Виберіть сайт, що ви його хочете опубілкувати">
-<!ENTITY newSiteButton.label      "Новий сайт">
-<!ENTITY siteDirList.label        "Оберіть або введіть ім’я теки з вашим сайтом:">
-<!ENTITY siteDirList.tooltip      "Оберіть або введіть ім’я віддаленого підкаталогу для публікації">
-<!ENTITY docDirList.label         "Підтека сайту для цієї сторінки:">
-<!ENTITY publishImgCheckbox.label "Включити зображення та інші файли">
+<!ENTITY siteList.label             "Назва сайту:">
+<!ENTITY siteList.tooltip           "Виберіть сайт, що ви його хочете опубілкувати">
+<!ENTITY newSiteButton.label        "Новий сайт">
+<!ENTITY siteDirList.label          "Оберіть або введіть ім’я теки з вашим сайтом:">
+<!ENTITY siteDirList.tooltip        "Оберіть або введіть ім’я віддаленого підкаталогу для публікації">
+<!ENTITY docDirList.label           "Підтека сайту для цієї сторінки:">
+<!ENTITY publishImgCheckbox.label   "Включити зображення та інші файли">
 <!ENTITY publishImgCheckbox.tooltip "Опублікувати зображення та інші файли, на які посилається ця сторінка">
-<!ENTITY sameLocationRadio.label  "Використовувати місцезнаходження сторінки">
-<!ENTITY sameLocationRadio.tooltip "Публікувати файли в те ж місце, куди й сторінку">
-<!ENTITY useSubdirRadio.label     "Використовувати цю підтеку сайта:">
-<!ENTITY useSubdir.tooltip        "Оберіть або введіть ім’я віддаленого підкаталогу для публікації файлів">
-<!ENTITY chooseDirButton.label    "Оберіть…">
-<!ENTITY pageTitle.label          "Найва сторінки:">
-<!ENTITY pageTitle.tooltip        "Введіть назву для ідентифікації сторінки в вікні браузера та в закладках">
-<!ENTITY pageTitleExample.label   "напр., «Моя веб-сторінка»">
-<!ENTITY filename.label           "Ім’я файлу:">
-<!ENTITY filename.tooltip         "Введіть ім’я цього файлу, включаючи '.html' для веб-сторінки">
-<!ENTITY filenameExample.label    "напр., «mypage.html»">
-<!ENTITY relatedDocs.label        "Інші файли для публікації">
-<!ENTITY setDefaultButton.label   "Встановити за замовчанням">
-<!ENTITY setDefSiteAndDir.label   "Встановити як сайт і теку за замовчуванням">
-<!ENTITY removeButton.label       "Стерти сайт">
+<!ENTITY sameLocationRadio.label    "Використовувати місцезнаходження сторінки">
+<!ENTITY sameLocationRadio.tooltip  "Публікувати файли в те ж місце, куди й сторінку">
+<!ENTITY useSubdirRadio.label       "Використовувати цю підтеку сайта:">
+<!ENTITY useSubdir.tooltip          "Оберіть або введіть ім’я віддаленого підкаталогу для публікації файлів">
+<!ENTITY chooseDirButton.label      "Оберіть…">
+<!ENTITY pageTitle.label            "Найва сторінки:">
+<!ENTITY pageTitle.tooltip          "Введіть назву для ідентифікації сторінки в вікні браузера та в закладках">
+<!ENTITY pageTitleExample.label     "напр., «Моя веб-сторінка»">
+<!ENTITY filename.label             "Ім’я файлу:">
+<!ENTITY filename.tooltip           "Введіть ім’я цього файлу, включаючи '.html' для веб-сторінки">
+<!ENTITY filenameExample.label      "напр., «mypage.html»">
+<!ENTITY relatedDocs.label          "Інші файли для публікації">
+<!ENTITY setDefaultButton.label     "Встановити за замовчанням">
+<!ENTITY setDefSiteAndDir.label     "Встановити як сайт і теку за замовчуванням">
+<!ENTITY removeButton.label         "Стерти сайт">
 
 <!-- Settings Tab Panel -->
-<!ENTITY publishSites.label   "Публікація сайтів">
-<!ENTITY serverInfo.label     "Інформація про сервер">
-<!ENTITY loginInfo.label      "Інформація для входу">
-<!ENTITY siteName.label       "Ім’я сайту:">
-<!ENTITY siteName.tooltip     "Нік, що ідентифікує опубліковуваний сайт (напр., 'MySite')">
-<!ENTITY siteUrl.label        "Адреса публікації (напр., 'ftp://ftp.myisp.com/myusername'):">
-<!ENTITY siteUrl.tooltip      "FTP:// або HTTP:// -адреса, вказана вашим провайдером або службою хостингу">
-<!ENTITY browseUrl.label      "HTTP-адреса вашої домашньої сторінки (напр., 'http://www.myisp.com/myusername'):">
-<!ENTITY browseUrl.tooltip    "HTTP-адреса вашого домашнього каталогу (без імені файлу)">
-<!ENTITY username.label       "Ім’я користувача:">
-<!ENTITY username.tooltip     "Ім’я, що ви під ним входите до вашого ISP чи служби хостингу">
-<!ENTITY password.label       "Пароль:">
-<!ENTITY password.tooltip     "Пароль, пов’язаний з вашим ім’ям користувача">
-<!ENTITY savePassword.label   "Запам’ятати пароль">
-<!ENTITY savePassword.tooltip "Оберіть для безпечного збереження гасла, використовуючи Менеджер паролів">
+<!ENTITY publishSites.label         "Публікація сайтів">
+<!ENTITY serverInfo.label           "Інформація про сервер">
+<!ENTITY loginInfo.label            "Інформація для входу">
+<!ENTITY siteName.label             "Ім’я сайту:">
+<!ENTITY siteName.tooltip           "Нік, що ідентифікує опубліковуваний сайт (напр., 'MySite')">
+<!ENTITY siteUrl.label              "Адреса публікації (напр., 'ftp://ftp.myisp.com/myusername'):">
+<!ENTITY siteUrl.tooltip            "FTP:// або HTTP:// -адреса, вказана вашим провайдером або службою хостингу">
+<!ENTITY browseUrl.label            "HTTP-адреса вашої домашньої сторінки (напр., 'http://www.myisp.com/myusername'):">
+<!ENTITY browseUrl.tooltip          "HTTP-адреса вашого домашнього каталогу (без імені файлу)">
+<!ENTITY username.label             "Ім’я користувача:">
+<!ENTITY username.tooltip           "Ім’я, що ви під ним входите до вашого ISP чи служби хостингу">
+<!ENTITY password.label             "Пароль:">
+<!ENTITY password.tooltip           "Пароль, пов’язаний з вашим ім’ям користувача">
+<!ENTITY savePassword.label         "Запам’ятати пароль">
+<!ENTITY savePassword.tooltip       "Оберіть для безпечного збереження гасла, використовуючи Менеджер паролів">
+
+<!ENTITY selectDirectory.label      "Обрати теку">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Загальні налаштування">
+<!ENTITY ftpSettings.label          "Налаштування FTP">
+<!ENTITY localSettings.label        "Локальні налаштування">
+<!ENTITY siteDirectory.label        "Тека сайту:">
+<!ENTITY siteDirectory.tooltip      "Тека на вашому диску, куди буде збережений сайт">
+<!ENTITY browsePrefix.label         "Префікс:">
+<!ENTITY browsePrefix.tooltip       "Префікс, що видаляється із FTP-шляху при формуванні шляху, наприклад /public_html">
+
+<!ENTITY connection.label           "Тип з'єднання">
+<!ENTITY port.label                 "Порт:">
+<!ENTITY pasv.label                 "Пасивний режим">
+<!ENTITY security.label             "Захист">
+<!ENTITY none.label                 "Нічого">
+<!ENTITY authtls.label              "Авторизація TLS (Відмінно)">
+<!ENTITY authssl.label              "Авторизація SSL (Ліпше)">
+<!ENTITY implicit.label             "Неявний SSL (Добре)">
+<!ENTITY treesync.label             "Синхронізувати теки під час навігації">
+

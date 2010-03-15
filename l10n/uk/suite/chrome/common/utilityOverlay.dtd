@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label                 "Працювати автономно">
+<!ENTITY  offlineGoOfflineCmd.accesskey             "П">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					"Файл"> 
+<!ENTITY fileMenu.accesskey				"Ф">
+<!ENTITY newMenu.label						"Створити">
+<!ENTITY newMenu.accesskey					"С">
+<!ENTITY newBlankPageCmd.label "Сторінка KompoZer">
+<!ENTITY newBlankPageCmd.accesskey "p" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Сторінку, використовуючи шаблон">
+<!ENTITY newPageFromTemplateCmd.accesskey "С">
+<!ENTITY newPageFromDraftCmd.label "Сторінку з чернетки">
+<!ENTITY newPageFromDraftCmd.accesskey "С">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				"Вікно Навігатора">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"В">
+
+<!ENTITY editMenu.label					"Правка"> 
+<!ENTITY editMenu.accesskey				"П"> 
+<!ENTITY undoCmd.label						"Повернути">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"П"> 
+<!ENTITY redoCmd.label						"Повторити">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"П"> 
+<!ENTITY cutCmd.label						"Вирізати">  
+<!ENTITY cutCmd.key							"X">  
+<!ENTITY cutCmd.accesskey					"В"> 
+<!ENTITY copyCmd.label						"Копіювати">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"К"> 
+<!ENTITY pasteCmd.label						"Вставити">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"В"> 
+<!ENTITY deleteCmd.label					"Вилучити">  
+<!ENTITY deleteCmd.key						"В">  
+<!ENTITY deleteCmd.accesskey				"В"> 
+<!ENTITY selectAllCmd.label					"Виділити все">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey				"В"> 
+<!ENTITY preferencesCmd.label				"Налаштування…">
+<!ENTITY preferencesCmd.key					"Н">  
+<!ENTITY preferencesCmd.accesskey			"Н"> 
+<!ENTITY findTypeTextCmd.label "Пошук тексту по мірі набору">
+<!ENTITY findTypeTextCmd.accesskey "П">
+<!ENTITY findTypeLinksCmd.label "Пошук посилань по мірі набору">
+<!ENTITY findTypeLinksCmd.accesskey "П">
+
+<!ENTITY viewMenu.label					"Вигляд"> 
+<!ENTITY viewMenu.accesskey				"В"> 
+<!ENTITY viewToolbarsMenu.label				"Показати/Сховати"> 
+<!ENTITY viewToolbarsMenu.accesskey			"П"> 
+<!ENTITY showTaskbarCmd.label					"Рядок стану">  
+<!ENTITY showTaskbarCmd.accesskey				"Р"> 
+
+<!ENTITY helpMenu.label					"Довідка"> 
+<!ENTITY helpMenu.accesskey				"Д"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"Що нового">  
+
+<!ENTITY releaseCmd.label				"Примітки до випуску">
+<!ENTITY releaseCmd.accesskey                   "П">
+<!ENTITY aboutCmd.label					"Про &brandShortName;">
+<!ENTITY aboutCmd.accesskey				"a">
+<!ENTITY aboutCommPluginsCmd.label			"Про модулі (plug-ins)">
+<!ENTITY aboutCommPluginsCmd.accesskey			"p">
+
+<!ENTITY direct.label                                   "Підключено (проксі: немає)">
+<!ENTITY direct.accesskey                               "м">
+<!ENTITY manual.label                                   "Підключено (проксі: вручну)">
+<!ENTITY manual.accesskey                               "П">
+<!ENTITY pac.label                                      "Підключено (проксі: автоматично)">
+<!ENTITY pac.accesskey                                  "а">
+<!ENTITY wpad.label                                     "Підключено (проксі: Auto Discover)">
+<!ENTITY wpad.accesskey                                 "D">
+
+<!ENTITY proxy.label                                    "Налаштування проксі…">
+<!ENTITY proxy.accesskey                                "Н">
+
+<!ENTITY bidiSwitchTextDirectionItem.label        "Змінити напрямок тексту">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "З">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">

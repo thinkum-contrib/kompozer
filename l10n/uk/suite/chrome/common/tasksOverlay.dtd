@@ -1,0 +1,44 @@
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label              "Навигатор">  
+<!ENTITY navigatorCmd.accesskey          "Н">
+<!ENTITY navigatorCmd.commandkey         "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label                 "KompoZer">
+<!ENTITY editorCmd.accesskey             "C">
+<!ENTITY editorCmd.commandkey            "4">
+
+<!ENTITY securityInfoCmd.label           ".Інформація про безпеку">  
+<!ENTITY securityInfoCmd.accesskey       "І">
+<!ENTITY javaConsoleCmd.label            "Консоль Java">
+<!ENTITY javaConsoleCmd.accesskey        "J">
+
+<!ENTITY javaScriptConsoleCmd.label      "Консоль JavaScript">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label               "Захист та Безпека">
+<!ENTITY privacyMenu.accesskey           "З">
+
+<!ENTITY taskNavigator.tooltip           "Навигатор">
+<!ENTITY taskComposer.tooltip            "KompoZer">
+<!ENTITY taskBar.tooltip                 "Рядок стану">
+
+<!ENTITY webDevelopment.label            "Веб-розробка">
+<!ENTITY webDevelopment.accesskey        "В">
+
+<!ENTITY windowMenu.label                "Вікно">
+<!ENTITY windowMenu.accesskey            "В">
+
+<!ENTITY tasksMenu.label                 "Інструменти">
+<!ENTITY tasksMenu.accesskey             "І"> 
+
+<!ENTITY downloadManagerCmd.label        "Менеджер завантажень">
+<!ENTITY downloadManagerCmd.accesskey    "М">
+
+<!ENTITY switchProfileCmd.label          "Змінити профиль…">
+<!ENTITY switchProfileCmd.accesskey      "З">
+
+<!ENTITY addons.label                    "Додатки">
+<!ENTITY extensions.label                "Розширення">
+<!ENTITY themes.label                    "Теми">

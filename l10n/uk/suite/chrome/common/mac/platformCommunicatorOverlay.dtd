@@ -1,0 +1,39 @@
+<!-- mac -->
+<!-- LOCALIZATION NOTE : FILE Do not translate all the Cmd.key--> 
+
+<!ENTITY closeCmd.label             "Закрити">  
+<!ENTITY closeCmd.key               "W">  
+
+<!ENTITY printSetupCmd.label        "Параметри сторінки…">
+<!ENTITY printSetupCmd.accesskey    "П">
+
+<!ENTITY quitApplicationCmd.label   "Вихід"> 
+<!ENTITY quitApplicationCmd.key     "Q"> 
+
+<!ENTITY redoCmd.label              "Повторити">  
+<!ENTITY redoCmd.key                "Z">  
+
+<!ENTITY historyCmd.key             "H">  
+
+<!ENTITY findTypeTextCmd.key        "">
+<!ENTITY findTypeLinksCmd.key       "">
+
+<!ENTITY accel.emacs_conflict       "accel">
+
+<!ENTITY minimizeWindowCmd.label    "Мінімізувати">
+<!ENTITY minimizeWindowCmd.key      "M">
+<!ENTITY zoomWindowCmd.label        "Змінити масштаб">
+
+<!-- Help viewer -->
+<!ENTITY openHelpCmd.label          "Довідка &brandShortName;">
+<!ENTITY openHelpCmd.accesskey      "h">
+
+<!-- LOCALIZATION NOTE: openHelpFrontend.key and openHelpFrontend.modifiers
+  will show the standard OS X shortcut (Cmd+? on most locales) in the Help
+  menu. To make the shortcut work, mapping (Cmd+Shift+/ on en-US) is done with
+  openHelpCmd.key and openHelpCmd.modifiers. -->
+<!ENTITY openHelpFrontend.key       "?">
+<!ENTITY openHelpFrontend.modifiers "accel">
+<!ENTITY openHelpCmd.key            "/">
+<!ENTITY openHelpCmd.modifiers      "accel,shift">
+<!ENTITY openHelp2Cmd.key           "VK_HELP">

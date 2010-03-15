@@ -1,7 +1,13 @@
+<!-- extracted from content/viewSource.xul -->
+
+<!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.title "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
+<!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " — ">
 <!ENTITY mainWindow.preface "Початковий код повідомлення: ">
+
 <!ENTITY fileMenu.label "Файл">
 <!ENTITY fileMenu.accesskey "а">
 <!ENTITY savePageCmd.label "Зберегти сторінку як…">
@@ -17,29 +23,27 @@
 <!ENTITY closeCmd.label "Закрити">
 <!ENTITY closeCmd.accesskey "а">
 <!ENTITY closeCmd.commandkey "W">
+
 <!ENTITY textEnlarge.commandkey "+">
 <!ENTITY textEnlarge.commandkey2 "=">
 <!ENTITY textReduce.commandkey "-">
 <!ENTITY textReset.commandkey "0">
+
 <!ENTITY goToLineCmd.label "Перейти до рядка…">
 <!ENTITY goToLineCmd.accesskey "е">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label "Перегляд">
-<!ENTITY viewMenu.accesskey "е">
-
+<!ENTITY viewMenu.label           "Перегляд">
+<!ENTITY viewMenu.accesskey       "е">
 <!ENTITY reloadCmd.label "Оновити">
-<!ENTITY reloadCmd.accesskey "о">
+<!ENTITY reloadCmd.accesskey "О">
 <!ENTITY reloadCmd.commandkey "r">
-
-<!ENTITY menu_wrapLongLines.title "Переноси для довгих рядків">
+<!ENTITY menu_wrapLongLines.title "Переноси для довгих рядків"> 
 <!ENTITY menu_wrapLongLines.accesskey "е">
 <!ENTITY menu_highlightSyntax.label "Підсвічування синтаксису">
 <!ENTITY menu_highlightSyntax.accesskey "і">
-
 <!ENTITY menu_textSize.label "Розмір шрифту">
 <!ENTITY menu_textSize.accesskey "о">
-
 <!ENTITY menu_textEnlarge.label "Збільшити розмір шрифту">
 <!ENTITY menu_textEnlarge.accesskey "і">
 <!ENTITY menu_textReduce.label "Зменшити розмір шрифту">

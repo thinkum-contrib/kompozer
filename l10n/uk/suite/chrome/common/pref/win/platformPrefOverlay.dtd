@@ -1,0 +1,19 @@
+<!ENTITY winhooks.label                   "Система">
+
+<!ENTITY defaultBrowserGroup.label  "Типовий браузер">
+<!ENTITY defaultBrowserButton.label "Зробити типовим браузером">
+<!ENTITY alreadyDefaultText         "&brandShortName; вже є вашим типовим браузером.">
+<!ENTITY defaultPendingText         "&brandShortName; стане вашим типовим браузером після клацання на кнопку &quot;OK&quot;.">
+<!ENTITY makeDefaultText            "Використовувати &brandShortName; типовим браузером.">
+
+<!ENTITY urlbar.label "Натискання Ctrl+Enter в рядку адреси">
+<!ENTITY middleClick.label "Натискання середньої кнопки миші, натискання лівої кнопки миші з утриманням Ctrl або натискання Ctrl + Enter на посиланнях веб-сторінок">
+
+<!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
+     preference dialog's <window> node, which specifies the width and height
+     in em units of the dialog. Localizers ONLY can increase these widths 
+     if they are having difficulty getting panel content to fit. 1em = the 
+     width of the letter 'm' in the selected font.
+     XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
+     size of this window for en-US. -->
+<!ENTITY  prefWindow.size             "width: 52em; height: 41em;">

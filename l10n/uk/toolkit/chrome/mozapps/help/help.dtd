@@ -1,38 +1,85 @@
-<!ENTITY printCmd.commandkey "p">
-<!ENTITY findOnCmd.commandkey "F">
-<!ENTITY findAgainCmd.commandkey "G">
-<!ENTITY findAgainCmd.commandkey2 "VK_F3">
-<!ENTITY backButton.label "Назад">
-<!ENTITY backButton.accesskey "а">
-<!ENTITY backButton.tooltip "На попередню сторінку">
-<!ENTITY forwardButton.label "Вперед">
-<!ENTITY forwardButton.accesskey "е">
-<!ENTITY forwardButton.tooltip "На наступну сторінку">
-<!ENTITY copyCmd.label "Копіювати">
-<!ENTITY copyCmd.accesskey "о">
-<!ENTITY selectAllCmd.label "Виділити все">
-<!ENTITY selectAllCmd.accesskey "и">
-<!ENTITY goBackCmd.commandkey "[">
-<!ENTITY goForwardCmd.commandkey "]">
-<!ENTITY homeButton.label "На початок">
-<!ENTITY homeButton.tooltip "Перейти до початкової сторінки довідки">
-<!ENTITY printButton.label "Друк">
-<!ENTITY printButton.tooltip "Роздрукувати цю сторінку">
-<!ENTITY closeWindow.commandkey "W">
-<!ENTITY throbberItem.title "Індикатор активності">
-<!ENTITY throbber.tooltip "Перейти до розділу довідки про довідку">
-<!ENTITY searchtab.label "Пошук">
-<!ENTITY searchtab.accesskey "о">
-<!ENTITY toctab.label "Зміст">
-<!ENTITY toctab.accesskey "і">
-<!ENTITY textZoomReduceCmd.commandkey "-">
-<!ENTITY textZoomEnlargeCmd.commandkey "+">
-<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
-<!ENTITY textZoomResetCmd.commandkey "0">
-<!ENTITY helpSearch.commandkey "k">
-<!ENTITY zLevel.label "Завжди вгорі">
-<!ENTITY zLevel.accesskey "а">
-<!ENTITY textZoomReduceBtn.label "Зменшити розмір шрифту">
-<!ENTITY textZoomReduceBtn.accesskey "е">
-<!ENTITY textZoomEnlargeBtn.label "Збільшити розмір шрифту">
-<!ENTITY textZoomEnlargeBtn.accesskey "і">
+<!ENTITY printCmd.commandkey             "p">
+
+<!ENTITY viewCustomizeToolbar.label      "Налаштувати…">
+<!ENTITY viewCustomizeToolbar.accesskey  "Н">
+
+<!ENTITY findOnCmd.commandkey            "F">
+<!ENTITY findAgainCmd.commandkey         "G">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "Знайти на цій сторінці">
+<!ENTITY findDialogFrame.title           "Знайти в цьому фреймі">
+<!ENTITY findField.label                 "Знайти текст:">
+<!ENTITY findField.accesskey             "З">
+<!ENTITY caseSensitiveCheckbox.label     "З урахуванням регістру">
+<!ENTITY caseSensitiveCheckbox.accesskey "З">
+<!ENTITY wrapCheckbox.label              "З переходом на новий рядок">
+<!ENTITY wrapCheckbox.accesskey          "З">
+<!ENTITY backwardsCheckbox.label         "Пошук у зворотному напрямі">
+<!ENTITY backwardsCheckbox.accesskey     "П">
+<!ENTITY findField.tooltip               "Введіть одне або більше слів для пошуку">
+<!ENTITY findButton.label                "Знайти далі">
+<!ENTITY findButton.accesskey            "З">
+<!ENTITY cancelButton.label              "Скасувати">
+<!ENTITY up.label                        "Вгору">
+<!ENTITY up.accesskey                    "В">
+<!ENTITY down.label                      "Вниз">
+<!ENTITY down.accesskey                  "В">
+<!ENTITY direction.label                 "Напрям">
+
+<!ENTITY find.label                      "Знайти:">
+<!ENTITY findNext.label                  "Знайти далі">
+<!ENTITY findNext.tooltip                "Знайти наступне входження фрази в текст">
+<!ENTITY findPrevious.label              "Шукати попереднє">
+<!ENTITY findPrevious.tooltip            "Знайти попереднє входження фрази в текст">
+<!ENTITY findCloseButton.tooltip         "Закрити панель пошуку">
+<!ENTITY highlight.label                 "Підсвітка">
+<!ENTITY highlight.tooltip               "Підсвітити всі збіги">
+
+<!ENTITY backButton.label                "Назад">
+<!ENTITY backButton.accesskey            "а">
+<!ENTITY backButton.tooltip              "На попередню сторінку">
+<!ENTITY forwardButton.label             "Вперед">
+<!ENTITY forwardButton.accesskey         "е">
+<!ENTITY forwardButton.tooltip           "На наступну сторінку">
+<!ENTITY homeButton.label                "На початок">
+<!ENTITY homeButton.tooltip              "Перейти до початкової сторінки довідки">
+<!ENTITY printButton.label               "Друк">
+<!ENTITY printButton.tooltip             "Роздрукувати цю сторінку">
+<!ENTITY findBtn.label                   "Знайти">
+<!ENTITY sidebarBtn.label                "Показати бічну панель">
+<!ENTITY sidebarBtn.tooltip              "Сховати чи показати бічну панель допомоги">
+<!ENTITY textZoomReduceBtn.label         "Зменшити розмір шрифту">
+<!ENTITY textZoomReduceBtn.accesskey     "е">
+<!ENTITY textZoomReduceBtn.tooltip       "Зменшити розмір тексту в довідці.">
+<!ENTITY textZoomEnlargeBtn.label        "Збільшити розмір шрифту">
+<!ENTITY textZoomEnlargeBtn.accesskey    "і">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Збільшити розмір тексту в довідці.">
+<!ENTITY customizeButton.tooltip         "Налаштувати, які кнопки будуть показані на панелі Довідки.">
+<!ENTITY reloadCmd.label                 "Оновити">
+<!ENTITY reloadCmd.accesskey             "О">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Копіювати">
+<!ENTITY copyCmd.accesskey               "о">
+
+<!ENTITY throbberItem.title              "Індикатор активності">
+
+<!ENTITY cmd_CustomizeToolbars.label     "Налаштувати" >
+
+<!ENTITY searchtab.label                 "Пошук">
+<!ENTITY searchtab.accesskey             "о">
+<!ENTITY searchbtn.label                 "Пошук">
+<!ENTITY toctab.label                    "Зміст">
+<!ENTITY toctab.accesskey                "і">
+<!ENTITY indextab.label                  "Індекс">
+<!ENTITY indextab.accesskey              "І">
+<!ENTITY ixname.label                    "Ім’я">
+<!ENTITY glossarytab.label               "Словник">
+<!ENTITY glossarytab.accesskey           "С">
+<!ENTITY glossname.label                 "Назва">
+<!ENTITY gobtn.label                     "Пошук">
+<!ENTITY name.label                      "Елемент">
+
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">
