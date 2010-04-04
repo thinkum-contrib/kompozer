@@ -48,8 +48,8 @@
 <!ENTITY sidebar.hide.accesskey         "O">
 <!ENTITY sidebar.switch.label           "Alternar para esta aba">
 <!ENTITY sidebar.switch.accesskey       "e">
-<!ENTITY sidebarCmd.label               "Sidebar">
-<!ENTITY sidebarCmd.accesskey           "b">
+<!ENTITY sidebarCmd.label               "Painel">
+<!ENTITY sidebarCmd.accesskey           "a">
 <!ENTITY sidebar.loading.label          "Carregando…">
 <!ENTITY sidebar.loadstopped.label      "Carregamento interrompido">
 <!ENTITY sidebar.loading.stop.label     "Parar">
@@ -61,6 +61,6 @@
 <!ENTITY sidebar.sbDirectory.label   "Baixar mais abas">
 
 <!ENTITY sidebar.pagenotfound.label  "Esta aba não está disponível neste momento">
-<!ENTITY sidebar.close.tooltip       "Close Sidebar">
+<!ENTITY sidebar.close.tooltip       "Fechar Painel">
 <!ENTITY sidebar.open.tooltip        "Abrir Painel">
 

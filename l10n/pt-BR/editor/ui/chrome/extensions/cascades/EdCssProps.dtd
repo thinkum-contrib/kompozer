@@ -36,244 +36,244 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY Window.title                           "CSS Stylesheets">
+<!ENTITY Window.title                           "Folhas de estilo CSS">
 
-<!ENTITY sheetsTreeColumn.label                 "Sheets and rules">
-<!ENTITY expertModeChecbox.label                "Expert mode">
+<!ENTITY sheetsTreeColumn.label                 "Folhas e regras">
+<!ENTITY expertModeChecbox.label                "Modo eXPert">
 <!ENTITY importRuleButton.label                 "@import">
 <!ENTITY mediaRuleButton.label                  "@media">
-<!ENTITY linkedSheetButton.label                "Link elt.">
-<!ENTITY styleSheetButton.label                 "Style elt.">
-<!ENTITY ruleButton.label                       "Rule">
-<!ENTITY upButton.label                         "Up">
-<!ENTITY downButton.label                       "Down">
-<!ENTITY refreshButton.label                    "Refresh">
-<!ENTITY removeButton.label                     "Remove">
+<!ENTITY linkedSheetButton.label                "Folha de estilo ligada">
+<!ENTITY styleSheetButton.label                 "Folha de estilo interna">
+<!ENTITY ruleButton.label                       "Regra de estilo">
+<!ENTITY upButton.label                         "Acima">
+<!ENTITY downButton.label                       "Abaixo">
+<!ENTITY refreshButton.label                    "Atualizar">
+<!ENTITY removeButton.label                     "Remover">
 <!ENTITY sheetInfoTab.label                     "General">
-<!ENTITY textTab.label                          "Text">
-<!ENTITY borderTab.label                        "Borders">
-<!ENTITY marginsTab.label                       "Margins">
-<!ENTITY boxTab.label                           "Box">
+<!ENTITY textTab.label                          "Texto">
+<!ENTITY borderTab.label                        "Bordas">
+<!ENTITY marginsTab.label                       "Margens">
+<!ENTITY boxTab.label                           "Caixa">
 <!ENTITY auralTab.label                         "Aural">
-<!ENTITY fontFamily.label                       "Font family:">
-<!ENTITY inheritedFontFamily.label              "inherited">
-<!ENTITY useCustomFontFamily.label              "Use custom font family:">
-<!ENTITY fontData.label                         "Font data">
-<!ENTITY exampleSentence.label                  "The quick brown fox jumps over the lazy dog">
-<!ENTITY backgroundTab.label                    "Background">
+<!ENTITY fontFamily.label                       "Tipo de letra:">
+<!ENTITY inheritedFontFamily.label              "herdado">
+<!ENTITY useCustomFontFamily.label              "Usar font family personalizada:">
+<!ENTITY fontData.label                         "Fonte de dados">
+<!ENTITY exampleSentence.label                  "A ligeira raposa marrom ataca o cão preguiçoso">
+<!ENTITY backgroundTab.label                    "Plano de fundo">
 
-<!ENTITY unspecifiedValue.label                 "unspecified">
-<!ENTITY predefFontFamilyRadio.label            "predefined:">
-<!ENTITY fontSize.label                         "Font size:">
-<!ENTITY lineHeight.label                       "Line height:">
+<!ENTITY unspecifiedValue.label                 "indeterminado">
+<!ENTITY predefFontFamilyRadio.label            "predefinido:">
+<!ENTITY fontSize.label                         "Tamanho da fonte:">
+<!ENTITY lineHeight.label                       "Altura da linha:">
 <!ENTITY normalLineHeight.label                 "normal">
-<!ENTITY color.label                            "Color:">
-<!ENTITY fontWeight.label                       "Font weight:">
+<!ENTITY color.label                            "Cor:">
+<!ENTITY fontWeight.label                       "Largura da fonte:">
 <!ENTITY normalValue.label                      "Normal">
-<!ENTITY boldValue.label                        "Bold">
-<!ENTITY bolderValue.label                      "Bolder">
-<!ENTITY lighterValue.label                     "Lighter">
-<!ENTITY inheritedValue.label                   "Inherited">
-<!ENTITY fontStyle.label                        "Font style:">
-<!ENTITY italicValue.label                      "Italic">
-<!ENTITY obliqueValue.label                     "Oblique">
-<!ENTITY textTransform.label                    "Case:">
-<!ENTITY noneTextTransformValue.label           "No change">
-<!ENTITY lowercaseValue.label                   "Lower case">
-<!ENTITY uppercaseValue.label                   "Upper case">
-<!ENTITY capitalizeValue.label                  "Capitalize">
+<!ENTITY boldValue.label                        "Negrito">
+<!ENTITY bolderValue.label                      "Negrito">
+<!ENTITY lighterValue.label                     "Claro">
+<!ENTITY inheritedValue.label                   "Herdado">
+<!ENTITY fontStyle.label                        "Estilo da fonte:">
+<!ENTITY italicValue.label                      "Itálico">
+<!ENTITY obliqueValue.label                     "Itálico">
+<!ENTITY textTransform.label                    "Processo:">
+<!ENTITY noneTextTransformValue.label           "Não alterar">
+<!ENTITY lowercaseValue.label                   "Minúsculas">
+<!ENTITY uppercaseValue.label                   "Maiúsculas">
+<!ENTITY capitalizeValue.label                  "Capitalizar">
 
-<!ENTITY closeButton.label                      "Close">
+<!ENTITY closeButton.label                      "Fechar">
 
-<!ENTITY largerFontSize.label                   "larger">
-<!ENTITY smallerFontSize.label                  "smaller">
-<!ENTITY xxsmallFontSize.label                  "xx-small">
-<!ENTITY xsmallFontSize.label                   "xsmall">
-<!ENTITY smallFontSize.label                    "small">
-<!ENTITY mediumFontSize.label                   "medium">
-<!ENTITY largeFontSize.label                    "large">
-<!ENTITY xlargeFontSize.label                   "x-large">
-<!ENTITY xxlargeFontSize.label                  "xx-large">
+<!ENTITY largerFontSize.label                   "maior">
+<!ENTITY smallerFontSize.label                  "menor">
+<!ENTITY xxsmallFontSize.label                  "Menor">
+<!ENTITY xsmallFontSize.label                   "muito menor">
+<!ENTITY smallFontSize.label                    "Pequeno">
+<!ENTITY mediumFontSize.label                   "Médio">
+<!ENTITY largeFontSize.label                    "Grande">
+<!ENTITY xlargeFontSize.label                   "Muito grande">
+<!ENTITY xxlargeFontSize.label                  "Maior">
 
-<!ENTITY textAlign.label                        "Alignment:">
-<!ENTITY rightTextAlign.label                   "Right">
-<!ENTITY leftTextAlign.label                    "Left">
-<!ENTITY centerTextAlign.label                  "Center">
-<!ENTITY justifyTextAlign.label                 "Justified">
+<!ENTITY textAlign.label                        "Alinhamento:">
+<!ENTITY rightTextAlign.label                   "Direito">
+<!ENTITY leftTextAlign.label                    "Esquerdo">
+<!ENTITY centerTextAlign.label                  "Centralizado">
+<!ENTITY justifyTextAlign.label                 "Justificado">
 
-<!ENTITY textDecoration.label                   "Text decorations:">
-<!ENTITY overlineTextDecoration.label           "Overline">
-<!ENTITY underlineTextDecoration.label          "Underline">
-<!ENTITY linethroughTextDecoration.label        "Line-through">
-<!ENTITY blinkTextDecoration.label              "Blinking">
-<!ENTITY noneTextDecoration.label               "None">
+<!ENTITY textDecoration.label                   "Decorações do texto:">
+<!ENTITY overlineTextDecoration.label           "Sublinhado">
+<!ENTITY underlineTextDecoration.label          "Sublinhar">
+<!ENTITY linethroughTextDecoration.label        "Tachado">
+<!ENTITY blinkTextDecoration.label              "Piscando">
+<!ENTITY noneTextDecoration.label               "Nenhum">
 
-<!ENTITY backgroundColor.label                  "Color:">
-<!ENTITY backgroundImage.label                  "Image:">
-<!ENTITY chooseFileButton.label                 "Choose file">
-<!ENTITY backgroundRepeat.label                 "Tile:">
-<!ENTITY norepeatBackgroundRepeat.label         "don't tile">
-<!ENTITY repeatxBackgroundRepeat.label          "horizontally">
-<!ENTITY repeatyBackgroundRepeat.label          "vertically">
-<!ENTITY repeatBackgroundRepeat.label           "horizontally and vertically">
-<!ENTITY backgroundPosition.label               "Position:">
-<!ENTITY leftXBackgroundPosition.label          "Left">
-<!ENTITY centerXBackgroundPosition.label        "Center">
-<!ENTITY rightXBackgroundPosition.label         "Right">
-<!ENTITY topYBackgroundPosition.label           "Top">
-<!ENTITY centerYBackgroundPosition.label        "Center">
-<!ENTITY bottomYBackgroundPosition.label        "Bottom">
-<!ENTITY backgroundAttachmentCheckbox.label     "Image scrolls with the page">
+<!ENTITY backgroundColor.label                  "Cor:">
+<!ENTITY backgroundImage.label                  "Imagem:">
+<!ENTITY chooseFileButton.label                 "Selecione o arquivo">
+<!ENTITY backgroundRepeat.label                 "Ladrilho:">
+<!ENTITY norepeatBackgroundRepeat.label         "não ladrilhar">
+<!ENTITY repeatxBackgroundRepeat.label          "horizontal">
+<!ENTITY repeatyBackgroundRepeat.label          "vertical">
+<!ENTITY repeatBackgroundRepeat.label           "horizontal e vertical">
+<!ENTITY backgroundPosition.label               "Posição:">
+<!ENTITY leftXBackgroundPosition.label          "Esquerdo">
+<!ENTITY centerXBackgroundPosition.label        "Centralizado">
+<!ENTITY rightXBackgroundPosition.label         "Direito">
+<!ENTITY topYBackgroundPosition.label           "Superior">
+<!ENTITY centerYBackgroundPosition.label        "Centralizado">
+<!ENTITY bottomYBackgroundPosition.label        "Inferior">
+<!ENTITY backgroundAttachmentCheckbox.label     "Imagem faz scroll com a página">
 
 
-<!ENTITY useBorderShorthand.label               "All four sides use same border style">
-<!ENTITY borderStyle.label                      "Style:">
-<!ENTITY borderWidth.label                      "Width:">
-<!ENTITY borderColor.label                      "Color:">
-<!ENTITY topBorder.label                        "Top:">
-<!ENTITY leftBorder.label                       "Left:">
-<!ENTITY rightBorder.label                      "Right:">
-<!ENTITY bottomBorder.label                     "Bottom:">
-<!ENTITY borderPreview.label                    "Preview">
-<!ENTITY noneBorderStyle.label                  "none">
-<!ENTITY hiddenBorderStyle.label                "hidden">
-<!ENTITY solidBorderStyle.label                 "solid">
-<!ENTITY dottedBorderStyle.label                "dotted">
-<!ENTITY dashedBorderStyle.label                "dashed">
-<!ENTITY doubleBorderStyle.label                "double">
-<!ENTITY grooveBorderStyle.label                "groove">
-<!ENTITY ridgeBorderStyle.label                 "ridge">
-<!ENTITY insetBorderStyle.label                 "inset">
-<!ENTITY outsetBorderStyle.label                "outset">
+<!ENTITY useBorderShorthand.label               "Todos os 4 lados usam o mesmo tipo de border">
+<!ENTITY borderStyle.label                      "Estilo:">
+<!ENTITY borderWidth.label                      "Largura:">
+<!ENTITY borderColor.label                      "Cor:">
+<!ENTITY topBorder.label                        "Superior:">
+<!ENTITY leftBorder.label                       "Esquerda:">
+<!ENTITY rightBorder.label                      "Direita:">
+<!ENTITY bottomBorder.label                     "Inferior:">
+<!ENTITY borderPreview.label                    "Visualizar">
+<!ENTITY noneBorderStyle.label                  "nenhum">
+<!ENTITY hiddenBorderStyle.label                "oculto">
+<!ENTITY solidBorderStyle.label                 "sólido">
+<!ENTITY dottedBorderStyle.label                "pontilhado">
+<!ENTITY dashedBorderStyle.label                "tracejado">
+<!ENTITY doubleBorderStyle.label                "duplo">
+<!ENTITY grooveBorderStyle.label                "chanfrado">
+<!ENTITY ridgeBorderStyle.label                 "rígido">
+<!ENTITY insetBorderStyle.label                 "dentro">
+<!ENTITY outsetBorderStyle.label                "fora">
 
-<!ENTITY display.label                          "Display:">
-<!ENTITY noneDisplay.label                      "none">
+<!ENTITY display.label                          "Exibir:">
+<!ENTITY noneDisplay.label                      "nenhum">
 <!ENTITY inlineDisplay.label                    "inline">
-<!ENTITY blockDisplay.label                     "block">
-<!ENTITY runinDisplay.label                     "run-in">
-<!ENTITY compactDisplay.label                   "compact">
-<!ENTITY listitemDisplay.label                  "list-item">
-<!ENTITY tableDisplay.label                     "table">
-<!ENTITY tablerowDisplay.label                  "table-row">
-<!ENTITY tablecellDisplay.label                 "table-cell">
-<!ENTITY tablecaptionDisplay.label              "table-caption">
-<!ENTITY inlinetableDisplay.label               "inline-table">
-<!ENTITY tablecolumnDisplay.label               "table-column">
-<!ENTITY tablerowgroupDisplay.label             "table-row-group">
-<!ENTITY tableheadergroupDisplay.label          "table-header-group">
-<!ENTITY tablefootergroupDisplay.label          "table-footer-group">
-<!ENTITY tablecolumngroupDisplay.label          "table-column-group">
+<!ENTITY blockDisplay.label                     "bloco">
+<!ENTITY runinDisplay.label                     "executado em">
+<!ENTITY compactDisplay.label                   "compacto">
+<!ENTITY listitemDisplay.label                  "lista de item">
+<!ENTITY tableDisplay.label                     "tabela">
+<!ENTITY tablerowDisplay.label                  "linha da tabela">
+<!ENTITY tablecellDisplay.label                 "célula da tabela">
+<!ENTITY tablecaptionDisplay.label              "Legenda da tabela">
+<!ENTITY inlinetableDisplay.label               "Tabela em linha">
+<!ENTITY tablecolumnDisplay.label               "Coluna da tabela">
+<!ENTITY tablerowgroupDisplay.label             "Grupo de linha da tabela">
+<!ENTITY tableheadergroupDisplay.label          "Grupo de cabeçalho da tabela">
+<!ENTITY tablefootergroupDisplay.label          "Grupo de rodapé da tabela">
+<!ENTITY tablecolumngroupDisplay.label          "Grupo de coluna da tabela">
 
-<!ENTITY visibility.label                       "Visibility:">
-<!ENTITY visibleVisibility.label                "visible">
-<!ENTITY hiddenVisibility.label                 "hidden">
-<!ENTITY collapseVisibility.label               "collapse">
+<!ENTITY visibility.label                       "Visibilidade:">
+<!ENTITY visibleVisibility.label                "visível">
+<!ENTITY hiddenVisibility.label                 "oculto">
+<!ENTITY collapseVisibility.label               "colapso">
 
-<!ENTITY float.label                            "Float:">
-<!ENTITY leftFloat.label                        "left">
-<!ENTITY rightFloat.label                       "right">
-<!ENTITY noneFloat.label                        "none">
+<!ENTITY float.label                            "Flutuante:">
+<!ENTITY leftFloat.label                        "esquerda">
+<!ENTITY rightFloat.label                       "direita">
+<!ENTITY noneFloat.label                        "nenhum">
 
-<!ENTITY clear.label                            "Clear:">
-<!ENTITY noneClear.label                        "none">
-<!ENTITY leftClear.label                        "left">
-<!ENTITY rightClear.label                       "right">
-<!ENTITY bothClear.label                        "both">
+<!ENTITY clear.label                            "Limpar:">
+<!ENTITY noneClear.label                        "nenhum">
+<!ENTITY leftClear.label                        "esquerda">
+<!ENTITY rightClear.label                       "direita">
+<!ENTITY bothClear.label                        "ambos">
 
 
-<!ENTITY position.label                         "Position:">
-<!ENTITY staticPosition.label                   "static">
-<!ENTITY fixedPosition.label                    "fixed">
-<!ENTITY absolutePosition.label                 "absolute">
-<!ENTITY relativePosition.label                 "relative">
+<!ENTITY position.label                         "Posição:">
+<!ENTITY staticPosition.label                   "estático">
+<!ENTITY fixedPosition.label                    "fixo">
+<!ENTITY absolutePosition.label                 "absoluto">
+<!ENTITY relativePosition.label                 "relativo">
 
-<!ENTITY overflow.label                         "Overflow:">
-<!ENTITY visibleOverflow.label                  "visible">
-<!ENTITY hiddenOverflow.label                   "hidden">
+<!ENTITY overflow.label                         "Excesso:">
+<!ENTITY visibleOverflow.label                  "visível">
+<!ENTITY hiddenOverflow.label                   "oculto">
 <!ENTITY scrollOverflow.label                   "scroll">
 <!ENTITY autoOverflow.label                     "auto">
 
-<!ENTITY zIndex.label                           "Z-index:">
+<!ENTITY zIndex.label                           "Índice Z:">
 
-<!ENTITY width.label                            "Width:">
-<!ENTITY minWidth.label                         "Min-width:">
-<!ENTITY maxWidth.label                         "Max-width:">
-<!ENTITY height.label                           "Height:">
-<!ENTITY minHeight.label                        "Min-height:">
-<!ENTITY maxHeight.label                        "Max-height:">
+<!ENTITY width.label                            "Largura:">
+<!ENTITY minWidth.label                         "Largura mínima:">
+<!ENTITY maxWidth.label                         "Largura máxima:">
+<!ENTITY height.label                           "Altura:">
+<!ENTITY minHeight.label                        "Altura mínima:">
+<!ENTITY maxHeight.label                        "Altura máxima:">
 
-<!ENTITY margins.label                          "Margins:">
-<!ENTITY paddings.label                         "Paddings:">
-<!ENTITY offsets.label                          "Offsets:">
-<!ENTITY top.label                              "Top:">
-<!ENTITY left.label                             "Left:">
-<!ENTITY right.label                            "Right:">
-<!ENTITY bottom.label                           "Bottom:">
+<!ENTITY margins.label                          "Margens:">
+<!ENTITY paddings.label                         "Enchimento:">
+<!ENTITY offsets.label                          "Desnível:">
+<!ENTITY top.label                              "Superior:">
+<!ENTITY left.label                             "Esquerda:">
+<!ENTITY right.label                            "Direita:">
+<!ENTITY bottom.label                           "Inferior:">
 
 <!ENTITY volume.label                           "Volume:">
-<!ENTITY xsoftVolume.label                      "x-soft">
-<!ENTITY softVolume.label                       "soft">
-<!ENTITY mediumVolume.label                     "medium">
-<!ENTITY loudVolume.label                       "loud">
-<!ENTITY xloudVolume.label                      "x-loud">
-<!ENTITY muteVolume.label                       "Mute">
+<!ENTITY xsoftVolume.label                      "Muito suave">
+<!ENTITY softVolume.label                       "suave">
+<!ENTITY mediumVolume.label                     "Médio">
+<!ENTITY loudVolume.label                       "alto">
+<!ENTITY xloudVolume.label                      "Muito alto">
+<!ENTITY muteVolume.label                       "Mudo">
 
-<!ENTITY speak.label                            "Speak:">
-<!ENTITY noneSpeak.label                        "none">
+<!ENTITY speak.label                            "Fale:">
+<!ENTITY noneSpeak.label                        "nenhum">
 <!ENTITY normalSpeak.label                      "normal">
-<!ENTITY spelloutSpeak.label                    "spell-out">
+<!ENTITY spelloutSpeak.label                    "soletrar">
 
-<!ENTITY speechRate.label                       "Speech-rate:">
-<!ENTITY slowerSpeechRate.label                 "slower">
-<!ENTITY fasterSpeechRate.label                 "faster">
-<!ENTITY xslowSpeechRate.label                  "x-slow">
-<!ENTITY slowSpeechRate.label                   "slow">
-<!ENTITY mediumSpeechRate.label                 "medium">
-<!ENTITY fastSpeechRate.label                   "fast">
-<!ENTITY xfastSpeechRate.label                  "x-fast">
+<!ENTITY speechRate.label                       "Velocidade da fala:">
+<!ENTITY slowerSpeechRate.label                 "mais devagar">
+<!ENTITY fasterSpeechRate.label                 "mais rápido">
+<!ENTITY xslowSpeechRate.label                  "Muito lento">
+<!ENTITY slowSpeechRate.label                   "devagar">
+<!ENTITY mediumSpeechRate.label                 "Médio">
+<!ENTITY fastSpeechRate.label                   "rápido">
+<!ENTITY xfastSpeechRate.label                  "Muito rápido">
 
-<!ENTITY opacity.label                          "Opacity:">
+<!ENTITY opacity.label                          "Opacidade:">
 
-<!ENTITY compatibilityTab.label                 "Compatibility">
+<!ENTITY compatibilityTab.label                 "Compatibilidade">
 
-<!ENTITY transparentOpacity.label               "transparent">
+<!ENTITY transparentOpacity.label               "transparente">
 
-<!ENTITY pauseBefore.label                      "Pause before:">
-<!ENTITY cueBefore.label                        "Cue before:">
-<!ENTITY pauseAfter.label                       "Pause after:">
-<!ENTITY cueAfter.label                         "Cue After:">
+<!ENTITY pauseBefore.label                      "Pausar antes de:">
+<!ENTITY cueBefore.label                        "Sinal antes:">
+<!ENTITY pauseAfter.label                       "Pausar após:">
+<!ENTITY cueAfter.label                         "Sinal depois:">
 
 
-<!ENTITY listTab.label                          "Lists">
+<!ENTITY listTab.label                          "Listas">
 
-<!ENTITY listStyleType.label                    "List Style Type:">
-<!ENTITY noneListStyleType.label                "none">
-<!ENTITY discListStyleType.label                "disc">
-<!ENTITY circleListStyleType.label              "circle">
-<!ENTITY squareListStyleType.label              "square">
+<!ENTITY listStyleType.label                    "Tipo de Estilo de Lista:">
+<!ENTITY noneListStyleType.label                "nenhum">
+<!ENTITY discListStyleType.label                "disco">
+<!ENTITY circleListStyleType.label              "círculo">
+<!ENTITY squareListStyleType.label              "quadrado">
 <!ENTITY decimalListStyleType.label             "decimal">
-<!ENTITY decimalLeadingZeroListStyleType.label  "decimal-leading-zero">
-<!ENTITY lowerRomanListStyleType.label          "lower-roman">
-<!ENTITY upperRomanListStyleType.label          "upper-roman">
-<!ENTITY lowerGreekListStyleType.label          "lower-greek">
-<!ENTITY lowerAlphaListStyleType.label          "lower-alpha">
-<!ENTITY upperAlphaListStyleType.label          "upper-alpha">
-<!ENTITY armenianListStyleType.label            "armenian">
-<!ENTITY georgianListStyleType.label            "georgian">
+<!ENTITY decimalLeadingZeroListStyleType.label  "decimal começado por zero">
+<!ENTITY lowerRomanListStyleType.label          "romano-minúsculas">
+<!ENTITY upperRomanListStyleType.label          "romano-maiúsculas">
+<!ENTITY lowerGreekListStyleType.label          "grego-minúsculas">
+<!ENTITY lowerAlphaListStyleType.label          "alfa-minúsculas">
+<!ENTITY upperAlphaListStyleType.label          "alfa-maiúsculas">
+<!ENTITY armenianListStyleType.label            "armênio">
+<!ENTITY georgianListStyleType.label            "georgiano">
 
 
-<!ENTITY listStyleImage.label                   "List Style Image:">
-<!ENTITY listStylePosition.label                "List Style Position:">
-<!ENTITY insideListStylePosition.label          "inside">
-<!ENTITY outsideListStylePosition.label         "outside">
+<!ENTITY listStyleImage.label                   "Imagem do estilo de lista:">
+<!ENTITY listStylePosition.label                "Posição do estilo de lista:">
+<!ENTITY insideListStylePosition.label          "dentro">
+<!ENTITY outsideListStylePosition.label         "fora">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extract and create generic style">
+<!ENTITY makeCSSRule.label                      "Extrair e criar estilo generico">
 <!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Current styles for:">
-<!ENTITY renameButton.label                     "Edit selector">
+<!ENTITY currentstylesfor.label                 "Estilos atuais para:">
+<!ENTITY renameButton.label                     "Editar seletor">
 
 <!ENTITY autoMarginUnit.label                   "auto">
-<!ENTITY thinBorderUnit.label                   "thin">
-<!ENTITY mediumBorderUnit.label                 "medium">
-<!ENTITY thickBorderUnit.label                  "thick">
+<!ENTITY thinBorderUnit.label                   "fino">
+<!ENTITY mediumBorderUnit.label                 "médio">
+<!ENTITY thickBorderUnit.label                  "grosso">

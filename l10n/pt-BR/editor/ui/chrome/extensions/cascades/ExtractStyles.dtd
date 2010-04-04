@@ -35,15 +35,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title             "Create generic style">
+<!ENTITY window.title             "Criar estilo generico">
 
-<!ENTITY description.label        "Extract the CSS inline styles attached to this element and create a CSS style rule applied to">
-<!ENTITY thisElementOnly.label    "this element only">
-<!ENTITY allElements.label        "all elements">
+<!ENTITY description.label        "Extrair os estilos CSS inline deste anexo a este elemento e criar uma regra de estilo CSS aplicada à">
+<!ENTITY thisElementOnly.label    "somente este elemento">
+<!ENTITY allElements.label        "todos os elementos">
 
-<!ENTITY ofClass.label            "of class:">
-<!ENTITY ofType.label             "of same element type">
-<!ENTITY whenHovered.label        "hovered by the pointer">
-<!ENTITY autoChoice.label         "Choose for me!">
-<!ENTITY alreadyUsedWarning.label "Warning, this name is already used!!!">
-<!ENTITY nameNeededWarning.label  "You must give a name to this element">
+<!ENTITY ofClass.label            "da classe:">
+<!ENTITY ofType.label             "do mesmo tipo de elemento">
+<!ENTITY whenHovered.label        "pairou pelo ponteiro">
+<!ENTITY autoChoice.label         "Escolha para mim!">
+<!ENTITY alreadyUsedWarning.label "Alerta, este nome já está em uso!!!">
+<!ENTITY nameNeededWarning.label  "Você deve dar um nome a este elemento">

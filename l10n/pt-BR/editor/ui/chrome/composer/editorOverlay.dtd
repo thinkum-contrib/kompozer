@@ -703,7 +703,7 @@
 <!ENTITY helpMenuWin.label                   "Ajuda"> 
 <!ENTITY helpMenuWin.accesskey               "u">
 
-
+<!-- KompoZer 0.7 -->
 <!ENTITY nvuComMenu.label                    "Site do &brandShortName;">
 <!ENTITY nvucommenu.accesskey                "K">
 <!ENTITY faqMenu.label                       "FAQ">
@@ -725,6 +725,7 @@
 <!ENTITY userGuideMenu.label                 "Guia do usuário">
 <!ENTITY userguidemenu.accesskey             "U">
 
+<!-- KompoZer 0.7: absolute positioning -->
 <!ENTITY leftGlued.tooltip                   "Prender à borda esquerda">
 <!ENTITY rightGlued.tooltip                  "Prender à borda direita">
 <!ENTITY centerGlued.tooltip                 "Deixar no centro">

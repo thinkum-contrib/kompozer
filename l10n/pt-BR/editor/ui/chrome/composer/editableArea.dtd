@@ -35,17 +35,17 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title                 "Insert an editable area">
+<!ENTITY window.title                 "Inserir uma área editável">
 
-<!ENTITY areaName.label               "Area name">
-<!ENTITY provideId.label              "Please give a name to that editable area:">
-<!ENTITY warning.label                "Warning, this name is already used!!!">
+<!ENTITY areaName.label               "Nome da área">
+<!ENTITY provideId.label              "Por favor, dê um nome para essa área editável:">
+<!ENTITY warning.label                "Alerta, este nome já está em uso!!!">
 
-<!ENTITY areaType.label               "Area type">
-<!ENTITY flowAreaRadio.label          "Flow of text">
-<!ENTITY blockAreaRadio.label         "Block">
+<!ENTITY areaType.label               "Tipo da área">
+<!ENTITY flowAreaRadio.label          "Fluxo do texto">
+<!ENTITY blockAreaRadio.label         "Bloquear">
 
-<!ENTITY options.label                "Options">
-<!ENTITY optionalAreaCheckbox.label   "Area is optional">
-<!ENTITY repeatableAreaCheckbox.label "Area is repeatable">
-<!ENTITY movableAreaCheckbox.label    "Area is movable">
+<!ENTITY options.label                "Opções">
+<!ENTITY optionalAreaCheckbox.label   "Área opcional">
+<!ENTITY repeatableAreaCheckbox.label "Área repetível">
+<!ENTITY movableAreaCheckbox.label    "Área móvel">
