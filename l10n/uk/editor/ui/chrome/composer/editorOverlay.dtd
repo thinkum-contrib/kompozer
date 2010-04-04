@@ -52,21 +52,22 @@
 <!ENTITY newOtherCmd.label                   "Більше налаштувань…">
 
 <!ENTITY newMenu.label                       "Створити">
+<!ENTITY newmenu.accesskey                       "т">
 <!ENTITY newTab.label                        "Сторінку у новій вкладці">
 <!ENTITY openFileCmd.label                   "Відкрити файл…">
-<!ENTITY fileopen.accesskey                  "О">
+<!ENTITY fileopen.accesskey                  "В">
 <!ENTITY fileopen.keybinding                 "o">
 <!ENTITY openremoteCmd.label                 "Відкрити адресу в Інтернеті…">
-<!ENTITY fileopenremote.accesskey            "і">
+<!ENTITY fileopenremote.accesskey            "а">
 <!ENTITY fileopenremote.keybinding           "l">
 <!ENTITY fileRecentMenu.label                "Останні відкриті сторінки">
 <!ENTITY filerecentmenu.accesskey            "и">
 <!ENTITY fileRevert.label                    "Повернутися до останнього збереження">
-<!ENTITY filerevert.accesskey                "я">
+<!ENTITY filerevert.accesskey                "о">
 <!ENTITY refreshImages.label                 "Перевантажити зображення">
-<!ENTITY refreshImages.accesskey             "П">
+<!ENTITY refreshImages.accesskey             "е">
 <!ENTITY saveCmd.label                       "Зберегти">
-<!ENTITY filesave.accesskey                  "х">
+<!ENTITY filesave.accesskey                  "б">
 <!ENTITY filesave.keybinding                 "s">
 <!ENTITY saveAsCmd.label                     "Зберегти як…">
 <!ENTITY filesaveas.accesskey                "к">
@@ -78,9 +79,9 @@
 <!ENTITY exportToTextCmd.label               "Експорт в текстовий формат…">
 <!ENTITY fileexporttotext.accesskey          "Е">
 <!ENTITY saveAsChangeEncodingCmd.label       "Змінити і зберегти кодування">
-<!ENTITY filesaveandchangeencoding.accesskey "х">
+<!ENTITY filesaveandchangeencoding.accesskey "м">
 <!ENTITY previewCmd.label                    "Перегляд сторінки">
-<!ENTITY filepreview.accesskey               "м">
+<!ENTITY filepreview.accesskey               "р">
 <!ENTITY sendPageCmd.label                   "Відіслати сторінку…">
 <!ENTITY sendPage.accesskey                  "с">
 <!ENTITY printSetupCmd.label                 "Параметри сторінки…">
@@ -89,7 +90,7 @@
 <!ENTITY fileprintpreview.accesskey          "д">
 <!ENTITY printCmd.label                      "Друк…">
 <!ENTITY printButtonCmd.label                "Друк…">
-<!ENTITY fileprint.accesskey                 "е">
+<!ENTITY fileprint.accesskey                 "Д">
 <!ENTITY fileprint.keybinding                "p">
 <!ENTITY closeCmd.label                      "Закрити">
 <!ENTITY closeAllCmd.label                   "Закрити все">
@@ -165,7 +166,7 @@
 <!ENTITY viewToolbarsMenu.label              "Показати/Сховати">
 <!ENTITY viewToolbarsMenu.accesskey          "П">
 <!ENTITY compositionToolbarCmd.label         "Панель компонування">
-<!ENTITY compositiontb.accesskey             "c">
+<!ENTITY compositiontb.accesskey             "к">
 <!ENTITY formattingToolbarCmd.label          "Панель форматування">
 <!ENTITY formattingtb.accesskey              "Ф">
 <!ENTITY editmodeToolbarCmd.label            "Панель режиму редагування">
@@ -177,9 +178,9 @@
 <!ENTITY viewParagraphMarks.label            "Мітки абзацу">
 <!ENTITY viewparagraphmarks.accesskey        "М">
 <!ENTITY blockOutlines.label                 "Контури блоків">
-<!ENTITY blockoutlines.accesskey             "B">
+<!ENTITY blockoutlines.accesskey             "К">
 <!ENTITY viewRulersCmd.label                 "Лінійки">
-<!ENTITY viewrulerscmd.accesskey             "п">
+<!ENTITY viewrulerscmd.accesskey             "Л">
 
 <!-- Insert menu items -->
 <!ENTITY insertMenu.label                    "Вставити">
@@ -210,7 +211,7 @@
 
 <!ENTITY insertHTMLCmd.label                 "HTML…">
 <!ENTITY insertHTMLCmd.accesskey             "H">
-<!ENTITY insertPHPCode.label                 "код PHP…">
+<!ENTITY insertPHPCode.label                 "Код PHP…">
 <!ENTITY insertphpcode.accesskey             "p">
 <!ENTITY insertComment.label                 "Коментар…">
 <!ENTITY insertcomment.accesskey             "к">
@@ -472,7 +473,7 @@
 
 <!-- Insert SubMenu -->
 <!ENTITY tableInsertMenu.label               "Вставити">
-<!ENTITY tableinsertmenu.accesskey           "В">
+<!ENTITY tableinsertmenu.accesskey           "с">
 <!ENTITY tableTable.label                    "Таблицю">
 <!ENTITY tabletable.accesskey                "Т">
 <!ENTITY tableRow.label                      "Рядок">
@@ -502,7 +503,7 @@
 <!ENTITY tablecellafter.accesskey            "К">
 <!-- Delete SubMenu -->
 <!ENTITY tableDeleteMenu.label               "Вилучити">
-<!ENTITY tabledeletemenu.accesskey           "В">
+<!ENTITY tabledeletemenu.accesskey           "л">
 
 <!ENTITY tableFix.label                      "Зафіксувати розташування таблиці">
 <!ENTITY tablefix.accesskey                  "З">
@@ -651,8 +652,8 @@
 <!ENTITY SourceTabDirection                  "ltr">
 
 <!-- Structure Toolbar Context Menu items -->
-<!ENTITY structSelect.label                  "Вибрати">
-<!ENTITY structSelect.accesskey              "В">
+<!ENTITY structSelect.label                  "Обрати">
+<!ENTITY structSelect.accesskey              "О">
 <!ENTITY structRemoveTag.label               "Вилучити тег">
 <!ENTITY structRemoveTag.accesskey           "В">
 <!ENTITY structChangeTag.label               "Змінити тег">
@@ -660,7 +661,7 @@
 
 <!-- TOC manipulation -->                    
 <!ENTITY insertTOC.label                     "Вставити">
-<!ENTITY insertTOC.accesskey                 "В">
+<!ENTITY insertTOC.accesskey                 "c">
 <!ENTITY updateTOC.label                     "Оновити">
 <!ENTITY updateTOC.accesskey                 "О">
 <!ENTITY removeTOC.label                     "Прибрати">
@@ -697,7 +698,7 @@
 
 <!-- Help menu -->                           
 <!ENTITY helpMenu.label                      "Довідка">
-<!ENTITY helpmenu.accesskey                  "H">
+<!ENTITY helpmenu.accesskey                  "Д">
 <!-- LOCALIZATION NOTE some localizations of Windows use "?"
                        for the help button in the menubar but Gnome does not.   -->
 <!ENTITY helpMenuWin.label                   "Довідка"> 
@@ -711,11 +712,11 @@
 <!ENTITY bugReportsMenu.label                "Звіти про помилки та пропозиції">
 <!ENTITY bugreportsmenu.accesskey            "П">
 <!ENTITY nvudevOrgMenu.label                 "Спільнота розробників">
-<!ENTITY nvudevorgmenu.accesskey             "D">
+<!ENTITY nvudevorgmenu.accesskey             "С">
 <!ENTITY nvuForumsMenu.label                 "Форуми">
-<!ENTITY nvuforumsmenu.accesskey             "o">
+<!ENTITY nvuforumsmenu.accesskey             "Ф">
 <!ENTITY supportKompoZer.label               "Підтримка &brandShortName;">
-<!ENTITY supportKompoZer.accesskey           "П">
+<!ENTITY supportKompoZer.accesskey           "і">
 <!ENTITY tipofthedayMenu.label               "Корисні поради">
 <!ENTITY tipofthedaymenu.accesskey           "а">
 <!ENTITY aboutMenu.label                     "Про &brandShortName;">

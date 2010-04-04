@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # author      : Fabien Cazenave <kaze@kompozer.net>
 # purpose     : l10n utility script for KompoZer 0.8
 # requires    : bash + Python 2.5
