@@ -176,8 +176,8 @@
 <!ENTITY viewpagesource.accesskey            "f">
 <!ENTITY viewParagraphMarks.label            "Marcas de parágrafo">
 <!ENTITY viewparagraphmarks.accesskey        "p">
-<!ENTITY blockOutlines.label                 "Block outline">
-<!ENTITY blockoutlines.accesskey             "B">
+<!ENTITY blockOutlines.label                 "Esquema do bloco">
+<!ENTITY blockoutlines.accesskey             "b">
 <!ENTITY viewRulersCmd.label                 "Réguas">
 <!ENTITY viewrulerscmd.accesskey             "r">
 
@@ -205,8 +205,8 @@
 <!ENTITY insertBreakAllCmd.label             "Quebrar abaixo da imagem">
 <!ENTITY insertbreakall.accesskey            "Q">
 
-<!ENTITY insertNbspCmd.label                 "Non breakable whitespace…">
-<!ENTITY insertNbsp.accesskey                "n">
+<!ENTITY insertNbspCmd.label                 "Espaço em branco não quebrável…">
+<!ENTITY insertNbsp.accesskey                "E">
 
 <!ENTITY insertHTMLCmd.label                 "Código-fonte HTML…">
 <!ENTITY insertHTMLCmd.accesskey             "H">
@@ -604,7 +604,7 @@
 <!ENTITY alignRightButton.tooltip            "Alinhar a margem direita">
 <!ENTITY alignjustifyButton.tooltip          "Alinhar texto nas margens esquerda e direita">
 <!ENTITY definitionTermToolbarCmd.tooltip        "Termo de definição">
-<!ENTITY definitionDescriptionToolbarCmd.tooltip "Definition description">
+<!ENTITY definitionDescriptionToolbarCmd.tooltip "Descrição da definição">
 
 <!-- Formatting toolbar not used, but may be in future -->
 <!ENTITY formatToolbar.boldChar              "N">

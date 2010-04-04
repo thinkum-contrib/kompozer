@@ -55,8 +55,7 @@
 
 <!ENTITY specialChars.label            "Caracteres especiais">
 <!ENTITY specialChars.description      "Definir os seguintes caracteres como entidades:">
-<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
-<!ENTITY basicEncoding.label           "Somente &amp; &lt; &gt; ' e non-breakable whitespace">
+<!ENTITY basicEncoding.label           "Somente &amp; &lt; &gt; ' espaço em branco não quebrável">
 <!ENTITY latin1EntitiesEncoding.label  "Os caracteres acima e letras Latin-1">
 <!ENTITY htmlEntitiesEncoding.label    "Todos os caracteres que têm uma entidade equivalente no HTML 4">
 <!ENTITY allEntitiesEncoding.label     "Usar a notação &amp;#..; em caracteres que não são ASCII">
