@@ -22,7 +22,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Selecionar alterações">
-<!ENTITY conflictWarning.label "Esta página foi modificada por outro programa, mas também tem alterações não salvas pelo Composer.">
+<!ENTITY conflictWarning.label "Esta página foi modificada por outro programa, mas também tem alterações não salvas pelo KompoZer.">
 <!ENTITY conflictResolve.label "Selecione qual versão manter:">
 <!ENTITY keepCurrentPageButton.label "Manter alterações da página atual">
 <!ENTITY useOtherPageButton.label "Substituir a página atual com outras alterações">

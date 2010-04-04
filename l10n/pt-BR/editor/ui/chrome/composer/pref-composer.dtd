@@ -40,8 +40,8 @@
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
 
 <!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
-<!ENTITY  title.label                           "Nvu">
-<!ENTITY  lHeader                               "Nvu">
+<!ENTITY  title.label                           "Geral">
+<!ENTITY  lHeader                               "Geral">
 <!ENTITY  rHeader                               "Configurações para novas páginas web">
 
 <!ENTITY  tableEditing.label                    "Edição de tabelas">

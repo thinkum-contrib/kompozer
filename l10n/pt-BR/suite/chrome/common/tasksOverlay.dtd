@@ -4,7 +4,7 @@
 <!ENTITY navigatorCmd.accesskey          "N">
 <!ENTITY navigatorCmd.commandkey         "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label                 "Nvu">
+<!ENTITY editorCmd.label                 "KompoZer">
 <!ENTITY editorCmd.accesskey             "N">
 <!ENTITY editorCmd.commandkey            "4">
 
@@ -21,7 +21,7 @@
 <!ENTITY privacyMenu.accesskey           "P">
 
 <!ENTITY taskNavigator.tooltip           "Mozilla Navigator">
-<!ENTITY taskComposer.tooltip            "Nvu">
+<!ENTITY taskComposer.tooltip            "KompoZer">
 <!ENTITY taskBar.tooltip                 "Barra de status">
 
 <!ENTITY webDevelopment.label            "Depurar">

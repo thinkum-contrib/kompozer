@@ -20,8 +20,11 @@
 <!ENTITY selectAllCmd.key                 "A">  
 <!ENTITY selectAllCmd.accesskey           "a">
 <!ENTITY preferencesCmd.label             "Preferências…">
-<!ENTITY preferencesCmd.key               "E">  
-<!ENTITY preferencesCmd.accesskey         "e"> 
+<!ENTITY preferencesCmd.key               "E">
+<!ENTITY preferencesCmd.accesskey         "e">
+<!ENTITY preferencesCmdUnix.label         "Preferências">
+<!ENTITY preferencesCmdUnix.accesskey     "P"> 
+
 <!ENTITY findTypeTextCmd.label            "Localizar texto ao digitar">
 <!ENTITY findTypeTextCmd.accesskey        "x">
 <!ENTITY findTypeLinksCmd.label           "Localizar links ao digitar">

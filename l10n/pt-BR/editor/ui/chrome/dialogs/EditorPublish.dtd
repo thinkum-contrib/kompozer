@@ -63,7 +63,7 @@
 <!ENTITY pageTitle.tooltip          "Forneça um título para identificar a página na janela e nos marcadores">
 <!ENTITY pageTitleExample.label     "exemplo: &quot;Minha Página Web&quot;">
 <!ENTITY filename.label             "Nome do arquivo:">
-<!ENTITY filename.tooltip           "Fornceça o nome deste arquivo, incluindo ".html", para a página web.">
+<!ENTITY filename.tooltip           "Fornceça o nome deste arquivo, incluindo '.html', para a página web.">
 <!ENTITY filenameExample.label      "exemplo: &quot;meusite.html&quot;">
 <!ENTITY relatedDocs.label          "Outros arquivos para publicar">
 <!ENTITY setDefaultButton.label     "Definir como padrão">
@@ -75,10 +75,10 @@
 <!ENTITY serverInfo.label           "Informações do servidor">
 <!ENTITY loginInfo.label            "Informações de login">
 <!ENTITY siteName.label             "Nome do site:">
-<!ENTITY siteName.tooltip           "Um apelido que identifique este site de publicação (exemplo: "MeuSite")">
-<!ENTITY siteUrl.label              "Endereço de publicação (exemplo: "ftp://ftp.servidor.com.br/meunome"):">
+<!ENTITY siteName.tooltip           "Um apelido que identifique este site de publicação (exemplo: 'MeuSite')">
+<!ENTITY siteUrl.label              "Endereço de publicação (exemplo: 'ftp://ftp.servidor.com.br/meunome'):">
 <!ENTITY siteUrl.tooltip            "O endereço FTP:// ou HTTP:// fornecido pelo seu provedor de hospedagem">
-<!ENTITY browseUrl.label            "Endereço HTTP de sua página (exemplo: "http://www.servidor.com.br/meunome"):">
+<!ENTITY browseUrl.label            "Endereço HTTP de sua página (exemplo: 'http://www.servidor.com.br/meunome'):">
 <!ENTITY browseUrl.tooltip          "O endereço HTTP:// do diretório home (não incluir o nome do arquivo)">
 <!ENTITY username.label             "Nome de usuário:">
 <!ENTITY username.tooltip           "O nome de usuário que você utiliza no seu provedor de hospedagem">

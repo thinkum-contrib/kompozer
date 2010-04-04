@@ -36,8 +36,9 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY  lang.version          "1.7">
+<!ENTITY  lang.version          "1.8.1">
 <!ENTITY  brandFullName         "KompoZer">
 <!ENTITY  brandShortName        "KompoZer">
 <!ENTITY  vendorShortName       "KompoZer">
 <!ENTITY  sidebarName           "Painel">
+<!ENTITY  helpCopyrightNotice   "Direitos autorais &copy; 2004-2010 Contribuidores do projeto &brandShortName; Help Documentation.">
