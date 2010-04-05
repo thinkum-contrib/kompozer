@@ -1,0 +1,133 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Terry Hayes <thayes@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+<!-- Values for changepassword.xul -->
+
+<!ENTITY setPassword.title "تغيير كلمة المرور الرّئيسيّة">
+<!ENTITY setPassword.tokenName.label "جهاز الأمن">
+<!ENTITY setPassword.oldPassword.label "كلمة المرور الحاليّة:">
+<!ENTITY setPassword.newPassword.label "كلمة المرور الجّديدة:">
+<!ENTITY setPassword.reenterPassword.label "كلمة المرور الجّديدة (مرّة ثانية):">
+<!ENTITY setPassword.meter.label "مقياس جودة كلمة المرور">
+<!ENTITY setPassword.meter.loading "جاري التّحميل">
+<!-- Values for resetpassword.xul -->
+
+<!ENTITY resetPasswordButtonLabel "إعادة ضبط">
+<!ENTITY resetPassword.title "إعادة ضبط كلمة المرور الرّئيسية">
+<!ENTITY resetPassword.text "إذا أعدت ضبط كلمة المرور الرّئيسيّة، ستُنسى كلّ كلمات مرور البريد الإلكتروني و ويب، بيانات الاستمارات، الشّهادات الشّخصيّة، و المفاتيح الخاصّة المخزّنة. هل أنت متأكّد أنّك تريد إعادة ضبط كلمة المرور الرّئيسية؟">
+<!-- Values for getpassword.xul -->
+
+<!ENTITY getPassword.title "إدخال كلمة المرور الرّئيسيّة">
+<!ENTITY getPassword.tokenName.label "جهاز الأمن">
+<!ENTITY getPassword.password.label "كلمة المرور:">
+<!-- These should be common -->
+
+<!ENTITY piperror.title "خطأ">
+<!ENTITY pipalert.title "خطأ - لا يمكن الاستعادة">
+<!-- Prefs panel strings -->
+
+<!ENTITY pref.security.general.lHeader "الأمن">
+<!ENTITY pref.security.general.rHeader "الإعدادت للأمن العام">
+<!ENTITY pref.security.general.header "الإعدادت للأمن العام">
+<!ENTITY pref.security.general.level.title "مستوى الأمن">
+<!ENTITY pref.security.general.paranoid.label "استخدم إعدادات أمن شديدة الإرتياب">
+<!ENTITY pref.security.general.certificates.title "الشّهادات">
+<!ENTITY pref.security.general.manageCert.label "إدارة الشّهادات">
+<!-- Downloading a cert -->
+
+<!ENTITY downloadCert.title "جاري تنزيل الشّهادات">
+<!ENTITY downloadCert.message1 "طُلب منك وثوق سلطة شهادات جديدة.">
+<!ENTITY downloadCert.trustSSL "الوثوق من سلطة الشّهادات هذه لتعريف مواقع ويب.">
+<!ENTITY downloadCert.trustEmail "الوثوق من سلطة الشّهادات هذه لتعريف مستخدمي البريد الإلكتروني.">
+<!ENTITY downloadCert.trustObjSign "الوثوق من سلطة الشّهادات هذه لتعريف مطوري البرامج.">
+<!ENTITY downloadCert.message3 "قبل الوثوق بسلطة الشّهادات هذه لأي سبب، عليك فحص شهادتها و سياستها و إجراءاتها (في حال توفّرها).">
+<!ENTITY downloadCert.viewCert.label "عرض">
+<!ENTITY downloadCert.viewPolicy.label "السّياسة">
+<!ENTITY downloadCert.viewCert.text "فحص شهادة سلطة الشّهادات">
+<!ENTITY downloadCert.viewPolicy.text "فحص سياسة و إجراءات سلطة الشّهادات">
+<!-- Certificate Exists in database -->
+
+<!ENTITY caCertExists.title "الشّهادة موجودة">
+<!ENTITY caCertExists.message "هذه الشّهادة موجودة.">
+<!-- Strings for the MismatchDomain dialog  -->
+
+<!ENTITY domainMismatch.title "خطأ أمن: عدم تطابق اسم ميدان">
+<!ENTITY examineCert.label "عرض الشهادة">
+<!ENTITY examineCert.accesskey "ع">
+<!-- Strings for the Server cert expired dialog  -->
+
+<!ENTITY serverCertExpired.continue "هل تريد المتابعة على أيّ حال؟">
+<!ENTITY serverCertExpired.accept.label "متابعة">
+<!-- Strings for the SSL client auth ask dialog -->
+
+<!ENTITY clientAuthAsk.title "استخدام طلب التّعريف">
+<!ENTITY clientAuthAsk.message1 "طلب هذا الموقع أن تعرّف نفسك بشهادة:">
+<!ENTITY clientAuthAsk.message2 "اختر شهادة لتقدّمها كتعريف:">
+<!ENTITY clientAuthAsk.message3 "تفاصيل الشّهادة المنتقاة:">
+<!-- Strings for the cert picker dialog -->
+
+<!ENTITY certPicker.title "انتقِ شهادة">
+<!ENTITY certPicker.info "شهادة:">
+<!ENTITY certPicker.detailsLabel "تفاصيل الشّهادة المنتقاة:">
+
+<!ENTITY pkcs12.setpassword.title "اختر كلمة مرور النّسخة الاحتياطيّة للشّهادة">
+<!ENTITY pkcs12.setpassword.message "تحمي كلمة مرور النّسخة الاحتياطيّة للشّهادة التي تعيّنها الملفّ الاحتياطي الذي توشك على إنشائه. عليك ضبط كلمة المرور هذه للمتابعة بالنسخة الاحتياطيّة.">
+<!ENTITY pkcs12.setpassword.label1 "كلمة مرور النّسخة الاحتياطيّة للشّهادة:">
+<!ENTITY pkcs12.setpassword.label2 "كلمة مرور النّسخة الاحتياطيّة للشّهادة (مرّة ثانية):">
+<!ENTITY pkcs12.setpassword.reminder "هامّ: إذا نسيت كلمة مرور النّسخة الاحتياطيّة للشّهادة، لن تكون قادراً على استعادة هذه النّسخة الاحتياطيّة لاحقاً. الرجاء تسجيلها بمكان آمن.">
+
+<!ENTITY pkcs12.getpassword.title "حوار إدخال كلمة المرور">
+<!ENTITY pkcs12.getpassword.message "الرّجاء إدخال كلمة المرور التي استخدمت لتشفير النّسخة الاحتياطية من هذه الشّهادة.">
+
+<!ENTITY chooseToken.title "اختر حوار العلامة">
+<!ENTITY chooseToken.message1 "الرّجاء اختيار علامة.">
+
+<!ENTITY escrowWarn.title "نسخة مفتاح التّشفير">
+<!ENTITY escrowWarn.message1 "هامّ: طلبت سلطة الشّهادات هذه إنشاء نسخة احتياطية من مفتاح التّشفير الخاصّ.">
+<!ENTITY escrowWarn.benefit1 "الفائدة هي أنّه إذا فقدت مفتاح التّشفير الخاصّ، يمكنك طلب نسخة من سلطة الشّهادات هذه.">
+<!ENTITY escrowWarn.message2 "إلّا أنّ المفتاح الخاص سيخزّن من قبل سلطة الشّهادات، و يمكن أن يستخدم لقراءة بريدك أو مستنداتك المشفّرة دون إذنك.">
+
+<!ENTITY serverCrlNextupdate.message "الرّجاء طلب المساعدة من مدير نظامك">
+<!-- Strings for the CreateCertInfo dialog  -->
+
+<!ENTITY createCertInfo.title "جاري توليد مفتاح عام">
+<!ENTITY createCertInfo.msg1 "جاري توليد المفتاح... قد يستغرق هذا عدّة دقائق....">
+<!ENTITY createCertInfo.msg2 "الرّجاء الانتظار...">
+<!-- Form Signing confirmation prompt -->
+
+<!ENTITY formSigning.title "طلب توقيع النّصّ">
+<!ENTITY formSigning.cert "توقيع الشّهادة">
+<!ENTITY formSigning.confirmPassword "لتأكّيد موافقتك على توقيع الرّسالة النّصّيّة هذه باستخدام الشّهادة المنتقاة، الرّجاء التأكيد بإدخال كلمة المرور الرّئيسيّة:">

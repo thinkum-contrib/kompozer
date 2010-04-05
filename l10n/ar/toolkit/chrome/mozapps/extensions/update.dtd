@@ -1,0 +1,49 @@
+<!ENTITY updateWizard.title "تحديث &brandShortName;">
+
+<!ENTITY offline.title "يعمل &brandShortName; في الوضع دون اتصال">
+<!ENTITY offline.description "يحتاج &brandShortName; أن يتصل ليفحص عن تحديثات لإضافاتك و يجعلها متوافقة مع هذا الإصدار.">
+<!ENTITY offline.toggleOffline.label "الاتصال الآن.">
+<!ENTITY offline.toggleOffline.accesskey "ص">
+
+<!ENTITY mismatch.win.title "إضافات غير متلائمة">
+<!ENTITY mismatch.top.label "الإضافات التالية غير متوافقة من هذا الإصدار من &brandShortName; و تم تعطيلها:">
+<!ENTITY mismatch.bottom.label "يستطيع &brandShortName; أن يفحص عن إصدارات متوافقة من هذه الإضافات.">
+
+<!ENTITY checking.wizard.title "الفحص عن إضافات متوافقة">
+<!ENTITY checking.top.label "الفحص عن تحديثات لإضافاتك غير المتوافقة...">
+<!ENTITY checking.status "قد يستغرق هذا عدّة دقائق...">
+
+<!ENTITY found.wizard.title "وجدت إضافات متوافقة">
+<!ENTITY found.top.label "اختر الإضافات التي تريد تثبيتها:">
+<!ENTITY found.disabledXPinstall.label "لا يمكن تحديث الإضافات لأن تثبيت البرامج مبطل. يمكن تغيير ذلك في الأسفل.">
+<!ENTITY found.enableXPInstall.label "السماح للمواقغ بتثبيت برامج">
+<!ENTITY found.enableXPInstall.accesskey "س">
+
+<!ENTITY installing.wizard.title "جاري تثبيت الإضافات">
+<!ENTITY installing.top.label "جاري تنزيل و تثبيت تحديثات لإضافاتك...">
+
+<!ENTITY noupdates.wizard.title "لم توجد إضافات متوافقة">
+<!ENTITY noupdates.intro.desc "لم يستطع &brandShortName; أن يجد تحديثات لإضافاتك غير المتوفقة.">
+<!ENTITY noupdates.error.desc "حدثت مشاكل عند محاولة إيجاد تحديثات.">
+<!ENTITY noupdates.checkEnabled.desc "سيفحص &brandShortName; دوريا و يعلمك عن توفر تحديثات متوافقة للإضافات.">
+
+<!ENTITY finished.wizard.title "الإضافات المتوافقة المثبتة">
+<!ENTITY finished.top.label "ثبت &brandShortName; تحديثات لإضافاتك.">
+<!ENTITY finished.checkDisabled.desc "يستطيع &brandShortName; أن يفحص دوريا و يعلمك عن توفر تحديثات للإضافات.">
+<!ENTITY finished.checkEnabled.desc "سيفحص &brandShortName; دوريا و يعلمك عن توفر تحديثات للإضافات.">
+
+<!ENTITY adminDisabled.wizard.title "لم يمكن الفحص عن تحديثات">
+<!ENTITY adminDisabled.warning.label "ليس من الممكن الفحص عن تحديثات للإضافات غير المتوافقة لأن تثبيت البرامج لـ &brandShortName; معطل. الرجاء الاتصال بمدير نظامك للمساعدة.">
+
+<!ENTITY versioninfo.wizard.title "جاري فحص توافقية الإضافات">
+<!ENTITY versioninfo.top.label "جاري الفحص عن توافقية إضافاتك مع هذا الإصدار من &brandShortName;.">
+<!ENTITY versioninfo.waiting "قد يستغرق هذا عدّة دقائق...">
+
+<!ENTITY installerrors.wizard.title "حدثت أخطاء أثناء تثبيت التحديثات">
+<!ENTITY installerrors.intro.label "واجه &brandShortName; مشاكل أثناء تحديث بعض إضافاتك.">
+<!-- general strings used by several of the finish pages -->
+
+<!ENTITY clickFinish.label "اضغط إنهاء لمتابعة بدء &brandShortName;.">
+<!ENTITY enableChecking.label "السماح لـ &brandShortName; بالفحص عن تحديثات.">
+<!ENTITY details.label "تفاصيل...">
+<!ENTITY details.accesskey "ت">

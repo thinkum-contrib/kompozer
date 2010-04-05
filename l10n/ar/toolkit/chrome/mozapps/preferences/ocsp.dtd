@@ -1,0 +1,11 @@
+<!ENTITY window.width "38em">
+
+<!ENTITY ocspDialog.title "التّحقّق">
+<!ENTITY validation.ocsp.description "يستطيع &brandShortName; استخدام بروتوكول حالة الشّهادة على الانترنت (OCSP) للتّحقّق من الشّهادات. إعداد &brandShortName; ليستخدم OCSP كالتّالي:">
+<!ENTITY disableOCSP.label "لا تستخدم OCSP للتّحقّق من الشّهادات">
+<!ENTITY certOCSP.label "استخدم OCSP للتّحقّق من الشّهادات التي تحدّد عنوان خدمة OCSP فقط">
+<!ENTITY proxyOCSP.label "استخدم OCSP للتّحقّق من كلّ الشّهادات باستخدام هذا العنوان و الموقّع:">
+<!ENTITY serviceURL.label "عنوان الخدمة:">
+<!ENTITY serviceURL.accesskey "ع">
+<!ENTITY signingCA.label "ممضي الإجابة">
+<!ENTITY signingCA.accesskey "م">

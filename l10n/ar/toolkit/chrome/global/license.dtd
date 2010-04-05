@@ -1,0 +1,25 @@
+<!ENTITY license.part0 "محفوظ الحقوق">
+<!ENTITY license.part1 "من قبل">
+<!ENTITY license.contrib "المساهمين">
+<!ENTITY license.part2 "وفق الشّروط الموضوعة في">
+<!ENTITY license.part3 "مستند .كل الحقوق محفوظة.">
+
+<!ENTITY about.version "الإصدار">
+
+<!ENTITY about.copy.beforeLink "الحقوق محفوظة &copy; 1998-2006 من قبل">
+<!ENTITY about.copy.linkTitle "المساهمين">
+<!ENTITY about.copy.afterLink "لمشروع موزيلا.">
+
+<!ENTITY about.license.beforeLink "قراءة">
+<!ENTITY about.license.linkTitle "معلومات الترخيص">
+<!ENTITY about.license.afterLink "لهذا المنتج.">
+
+<!ENTITY about.relnotes.beforeLink "قراءة">
+<!ENTITY about.relnotes.linkTitle "ملاحظات الإصدار">
+<!ENTITY about.relnotes.afterLink "لهذا الإصدار">
+
+<!ENTITY about.buildconfig.beforeLink "قراءة">
+<!ENTITY about.buildconfig.linkTitle "إعداد البناء">
+<!ENTITY about.buildconfig.afterLink "المستخدم لهذا الإصدار.">
+
+<!ENTITY about.buildIdentifier "معرف البناء: ">

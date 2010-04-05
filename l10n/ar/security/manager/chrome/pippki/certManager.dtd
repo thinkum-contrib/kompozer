@@ -1,0 +1,123 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Ian McGreer <mcgreer@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY certmgr.title "مدير الشّهادات">
+
+<!ENTITY certmgr.tab.mine "شهاداتك">
+<!ENTITY certmgr.tab.others "شهادات الآخرين">
+<!ENTITY certmgr.tab.websites "مواقع الويب">
+<!ENTITY certmgr.tab.ca "السّلطات">
+
+<!ENTITY certmgr.ca.builtins "سلطات الشّهادات المبنيّة ضمناً">
+<!ENTITY certmgr.ca.mycas "سلطات الشّهادات المدارة من قبلك">
+
+<!ENTITY certmgr.mine "لديك شهادات من هذه المنظّمات التي تعرّفك:">
+<!ENTITY certmgr.others "لديك شهادات على ملفّ تعرّف هؤلاء الناس:">
+<!ENTITY certmgr.websites "لديك شهادات على ملفّ تعرّف مواقع الويب هذه:">
+<!ENTITY certmgr.cas "لديك شهادات على ملفّ تعرّف سلطات الشّهادات هذه:">
+
+<!ENTITY certmgr.detail.general_tab.title "عامّ">
+<!ENTITY certmgr.detail.prettyprint_tab.title "تفاصيل">
+
+<!ENTITY certmgr.subjectinfo.label "مصدرة إلى">
+<!ENTITY certmgr.issuerinfo.label "مصدرة من">
+<!ENTITY certmgr.validity.label "الصّلاحيّة">
+<!ENTITY certmgr.fingerprints.label "البصمات">
+<!ENTITY certmgr.certdetail.title "تفاصيل الشّهادة">
+<!ENTITY certmgr.certdetail.cn "الاسم الشّائع (اش)">
+<!ENTITY certmgr.certdetail.o "المنظّمة (م)">
+<!ENTITY certmgr.certdetail.ou "وحدة التّنظيم (وت)">
+<!ENTITY certmgr.certdetail.serialnumber "الرّقم التّسلسلي">
+<!ENTITY certmgr.certdetail.sha1fingerprint "بصمة SHA1">
+<!ENTITY certmgr.certdetail.md5fingerprint "بصمة MD5">
+
+<!ENTITY certmgr.editcert.title "تحرير إعدادت شهادة الأمن">
+<!ENTITY certmgr.editcacert.title "تحرير إعدادات ثقة شهادة سلطة الشّهادات">
+<!ENTITY certmgr.editsslcert.title "تحرير إعدادات ثقة شهادة موقع ويب">
+<!ENTITY certmgr.editcert.edittrust "تحرير إعدادات الثّقة:">
+<!ENTITY certmgr.editcert.trustssl "تستطيع هذه الشّهادة تعريف المواقع.">
+<!ENTITY certmgr.editcert.trustemail "تستطيع هذه الشّهادة تعريف مستخدمي البريد.">
+<!ENTITY certmgr.editcert.trustobjsign "تستطيع هذه الشّهادة تعريف صانعي البرامج.">
+<!ENTITY certmgr.editsslcert.edittrust "تحرير إعدادات الثّقة بالشّهادات:">
+<!ENTITY certmgr.editsslcert.dotrust "ثِق بموثوقيّة هذه الشّهادة.">
+<!ENTITY certmgr.editsslcert.donttrust "لا تثق بموثوقيّة هذه الشّهادة.">
+<!ENTITY certmgr.editemailcert.title "تحرير إعدادات شهادة البريد الإلكتروني">
+<!ENTITY certmgr.editemailcert.edittrust "تحرير إعدادات الثّقة بالشّهادات:">
+<!ENTITY certmgr.editemailcert.dotrust "ثِق بموثوقيّة هذه الشّهادة.">
+<!ENTITY certmgr.editemailcert.donttrust "لا تثق بموثوقيّة هذه الشّهادة.">
+
+<!ENTITY certmgr.deletecert.title "حذف الشّهادة">
+<!ENTITY certmgr.deletecert.beforename "طلبت حذف هذه الشّهادة:">
+<!ENTITY certmgr.deletecert.aftername "هل أنت متأكّد أنّك تريد حذف هذه الشّهادة؟">
+<!ENTITY certmgr.deleteusercert.title "حذف شهادتك">
+<!ENTITY certmgr.deleteusercert.beforename "طلبت حذف الشّهادة:">
+<!ENTITY certmgr.deleteusercert.aftername "حالما تحذف هذه الشّهادة، لن تكون قادراً على قراءة البريد المشفّر بها.">
+
+<!ENTITY certmgr.certname "اسم الشّهادة">
+<!ENTITY certmgr.tokenname "جهاز الأمن">
+<!ENTITY certmgr.purpose "الأغراض">
+<!ENTITY certmgr.issued "مصدرة في">
+<!ENTITY certmgr.expires "تنتهي صلاحيّتها في">
+<!ENTITY certmgr.email "عنوان البريد الإلكتروني">
+<!ENTITY certmgr.serial "الرّقم التّسلسلي">
+<!ENTITY certmgr.ocsp_info "لم يتمّ التحقّق من الشهادات بـ OCSP. إنقر هنا لفعل ذلك.">
+
+<!ENTITY certmgr.close.label "إغلاق">
+<!ENTITY certmgr.close.accesskey "غ">
+<!ENTITY certmgr.view.label "عرض">
+<!ENTITY certmgr.view.accesskey "ر">
+<!ENTITY certmgr.edit.label "تحرير">
+<!ENTITY certmgr.edit.accesskey "ح">
+<!ENTITY certmgr.editca.label "تحرير ثقة سلطة الشّهادات">
+<!ENTITY certmgr.editca.accesskey "ث">
+<!ENTITY certmgr.add.label "إضافة">
+<!ENTITY certmgr.add.accesskey "ض">
+<!ENTITY certmgr.delete.label "حذف">
+<!ENTITY certmgr.delete.accesskey "ذ">
+<!ENTITY certmgr.backup.label "نسخ احتياطي">
+<!ENTITY certmgr.backup.accesskey "س">
+<!ENTITY certmgr.backupall.label "نسخ احتياطي للكلّ">
+<!ENTITY certmgr.backupall.accesskey "خ">
+<!ENTITY certmgr.restore.label "استيراد">
+<!ENTITY certmgr.restore.accesskey "س">
+<!ENTITY certmgr.details.label "حقول الشّهادة">
+<!ENTITY certmgr.details.accesskey "ق">
+<!ENTITY certmgr.fields.label "قيمة الحقل">
+<!ENTITY certmgr.fields.accesskey "م">
+<!ENTITY certmgr.hierarchy.label "البنية الهرميّة للشّهادة">
+<!ENTITY certmgr.hierarchy.accesskey "ن">
+

@@ -1,0 +1,28 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printJobOptions.title "خصائص الطّابعة">
+
+<!ENTITY paperInput.label "حجم الورق:">
+
+<!ENTITY plexInput.label "وضع بليكس:">
+
+<!ENTITY resolutionInput.label "الدّقة/الجّودة:">
+
+<!ENTITY cmdInput.label "أمر الطّباعة:">
+
+<!ENTITY jobTitleInput.label "اسم العمل:">
+
+<!ENTITY colorGroup.label "اللّون:">
+<!ENTITY grayRadio.label "تدرّجات رمادي">
+<!ENTITY colorRadio.label "ملوّن">
+
+<!ENTITY colorspaceInput.label "مساحة اللّون:">
+
+<!ENTITY fontsGroup.label "الخطوط:">
+<!ENTITY downloadFonts.label "هل تريد تنزيل الخطوط للطّابعة؟">
+
+<!ENTITY edgeMarginInput.label "الفراغ من طرف الورقة للهامش">
+<!ENTITY topInput.label "الأعلى:">
+<!ENTITY bottomInput.label "الأسفل:">
+<!ENTITY leftInput.label "يسار:">
+<!ENTITY rightInput.label "يمين:">

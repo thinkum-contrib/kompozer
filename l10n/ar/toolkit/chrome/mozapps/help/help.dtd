@@ -1,0 +1,47 @@
+<!ENTITY printCmd.commandkey "p">
+
+<!ENTITY findOnCmd.commandkey "F">
+<!ENTITY findAgainCmd.commandkey "G">
+<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+
+<!ENTITY backButton.label "إلى الخلف">
+<!ENTITY backButton.accesskey "خ">
+<!ENTITY backButton.tooltip "العودة للخلف صفحة واحدة">
+<!ENTITY forwardButton.label "إلى الأمام">
+<!ENTITY forwardButton.accesskey "م">
+<!ENTITY forwardButton.tooltip "الذّهاب للأمام صفحة واحدة">
+<!ENTITY copyCmd.label "نسخ">
+<!ENTITY copyCmd.accesskey "س">
+<!ENTITY selectAllCmd.label "انتقاء الكل">
+<!ENTITY selectAllCmd.accesskey "ك">
+<!ENTITY goBackCmd.commandkey "[">
+<!ENTITY goForwardCmd.commandkey "]">
+<!ENTITY homeButton.label "الصّفحة الرّئيسيّة">
+<!ENTITY homeButton.tooltip "الذّهاب إلى صفحة بدء المساعدة">
+<!ENTITY printButton.label "طباعة">
+<!ENTITY printButton.tooltip "طباعة هذه الصّفحة">
+<!ENTITY closeWindow.commandkey "W">
+
+<!ENTITY throbberItem.title "مؤشّر النّشاط">
+<!ENTITY throbber.tooltip "الذّهاب إلى المساعدة حول قسم المساعدة">
+
+<!ENTITY searchtab.label "بحث">
+<!ENTITY searchtab.accesskey "ب">
+<!ENTITY toctab.label "المحتويات">
+<!ENTITY toctab.accesskey "ا">
+
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
+<!ENTITY textZoomResetCmd.commandkey "0">
+
+<!ENTITY helpSearch.commandkey "k">
+
+<!ENTITY zLevel.label "دائما إلى الأعلى">
+<!ENTITY zLevel.accesskey "أ">
+
+<!ENTITY textZoomReduceBtn.label "انقاص حجم النص">
+<!ENTITY textZoomReduceBtn.accesskey "ص">
+<!ENTITY textZoomEnlargeBtn.label "زيادة حجم النص">
+<!ENTITY textZoomEnlargeBtn.accesskey "ز">

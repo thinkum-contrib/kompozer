@@ -1,0 +1,22 @@
+<!ENTITY pluginWizard.title "خدمة إيجاد الملحقات">
+<!ENTITY pluginWizard.firstPage.title "مرحبا في &pluginWizard.title;">
+
+<!ENTITY pluginWizard.checkingForPlugins.description.label "يبحث &brandShortName; الآن عن الملحقات المتوفّرة...">
+
+<!ENTITY pluginWizard.availablePluginsPage.title "تنزيل الملحقات المتوفّرة">
+<!ENTITY pluginWizard.availablePluginsPage.description.label "تتوفر الملحقات التّالية:">
+<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "إنقر التّالي لتثبيت هذه الملحقات.">
+<!ENTITY pluginWizard.availablePluginsPage.installerUI "قد تطلب بعض الملحقات معلومات إضافية منك خلال التّثبيت.">
+
+<!ENTITY pluginWizard.licensePage.title "تراخيص الملحقات">
+<!ENTITY pluginWizard.licensePage.accept.label "أوافق.">
+<!ENTITY pluginWizard.licensePage.deny.label "لا أوافق (لن يثبّت الملحق).">
+
+<!ENTITY pluginWizard.installPluginsPage.title "تثبيت الملحقات|">
+<!ENTITY pluginWizard.installPluginsPage.description.label "يثبّت &brandShortName; الملحقات...">
+
+<!ENTITY pluginWizard.finalPage.description.label "أنهى &brandShortName; تثبيت الملحقات المفقودة:">
+
+<!ENTITY pluginWizard.finalPage.moreInfo.label "معرفة المزيد عن الملحقات أو إيجاد الملحقات المفقودة يدويّاً.">
+<!ENTITY pluginWizard.finalPage.restart.label "يحتاج &brandShortName; إلى إعادة التشغيل لتعمل الملحق(ات).">
+

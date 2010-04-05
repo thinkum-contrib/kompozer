@@ -1,0 +1,18 @@
+<!ENTITY lookInMenuList.label "البحث في:">
+<!ENTITY lookInMenuList.accesskey "ح">
+<!ENTITY textInput.label "إسم الملف:">
+<!ENTITY textInput.accesskey "م">
+<!ENTITY filterMenuList.label "نوع الملف:">
+<!ENTITY filterMenuList.accesskey "ع">
+<!ENTITY name.label "الاسم">
+<!ENTITY size.label "الحجم">
+<!ENTITY lastModified.label "تمّ تعديله">
+<!ENTITY permissions.label "التّصاريح">
+<!ENTITY showHiddenFiles.label "إظهار الملفّات والمجلدات المخفية ">
+<!ENTITY showHiddenFiles.accesskey "ظ">
+
+<!ENTITY noPermissionError.label "لا تملك التّصاريح الكافية لرؤية هذا المجلّد.">
+
+<!ENTITY folderUp.tooltiptext "الارتفاع بمستوى">
+<!ENTITY folderHome.tooltiptext "الذّهاب إلى الدّليل المنزلي">
+<!ENTITY folderNew.tooltiptext "إنشاء مجلّد جديد">

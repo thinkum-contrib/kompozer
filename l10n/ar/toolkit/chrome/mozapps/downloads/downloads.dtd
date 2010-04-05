@@ -1,0 +1,46 @@
+<!ENTITY window.width "400">
+<!ENTITY window.height "300">
+
+<!ENTITY done.label "تمّ">
+<!ENTITY canceled.label "أُلغي">
+<!ENTITY installing.label "جاري التّثبيت...">
+
+<!ENTITY starting.label "جاري البدء...">
+<!ENTITY failed.label "فشل">
+
+<!ENTITY downloads.title "التّنزيلات">
+
+<!ENTITY cmd.pause.label "توقيف مؤقت">
+<!ENTITY cmd.pause.accesskey "ت">
+<!ENTITY cmd.resume.label "استئناف">
+<!ENTITY cmd.resume.accesskey "س">
+<!ENTITY cmd.cancel.label "إلغاء">
+<!ENTITY cmd.cancel.accesskey "ل">
+<!ENTITY cmd.show.label "فتح المجلد المحتوي">
+<!ENTITY cmd.show.labelMac "عرض في مجلد">
+<!ENTITY cmd.show.accesskey "م">
+<!ENTITY cmd.show.accesskeyMac "ع">
+<!ENTITY cmd.open.label "فتح">
+<!ENTITY cmd.open.accesskey "ف">
+<!ENTITY cmd.openWith.label "فتح باستخدام...">
+<!ENTITY cmd.openWith.accesskey "س">
+<!ENTITY cmd.retry.label "إعادة المحاولة">
+<!ENTITY cmd.retry.accesskey "ع">
+<!ENTITY cmd.remove.label "حذف">
+<!ENTITY cmd.remove.accesskey "ذ">
+<!ENTITY cmd.properties.label "خصائص">
+<!ENTITY cmd.properties.accesskey "خ">
+<!ENTITY cmd.info.commandKey "i">
+
+<!ENTITY cmd.close.commandKey "w">
+<!ENTITY cmd.close2.commandKey "j">
+<!ENTITY cmd.close2Unix.commandKey "y">
+<!ENTITY cmd.cleanUp.label "مسح">
+<!ENTITY cmd.cleanUp.tooltip "يزيل التّنزيلات المكتملة، الملغاة و الفاشلة من القائمة">
+<!ENTITY cmd.cleanUp.accesskey "س">
+
+<!ENTITY closeWhenDone.label "إغلاق عند انتهاء التّنزيلات">
+<!ENTITY closeWhenDone.tooltip "يغلق نافذة التّنزيلات عند انتهاء تنزيل كلّ الملفّات">
+
+<!ENTITY filesSavedTo.label "يتمّ تنزيل كلّ الملفّات إلى:">
+<!ENTITY showFolder.label "إظهار هذا المجلّد">

@@ -1,0 +1,58 @@
+<!-- extracted from printjoboptions.xul -->
+
+<!ENTITY printSetup.title "إعداد الصّفحة">
+
+<!ENTITY basic.tab "هيئة &amp; خصائص">
+
+<!ENTITY formatGroup.label "هيئة">
+
+<!ENTITY orientation.label "الاتّجاه:">
+<!ENTITY portrait "صورة شخصيّة">
+<!ENTITY landscape "مشهد طبيعي">
+
+<!ENTITY scale.label "تقييس:">
+<!ENTITY scalePercent "&#037;">
+
+<!ENTITY shrinkToFit.label "تقليص لما يناسب عرض الصّفحة">
+
+<!ENTITY optionsGroup.label "خيارات">
+
+<!ENTITY printBG.label "طباعة الخلفيّة (الألوان &amp; الصّور)">
+
+<!ENTITY advanced.tab "هوامش &amp; تّرويسة/تّذييل">
+
+<!ENTITY marginGroup.label "الهوامش (#1)">
+<!ENTITY marginUnits.inches "إنش">
+<!ENTITY marginUnits.metric "ميليمترات">
+<!ENTITY marginTop.label "الأعلى:">
+<!ENTITY marginBottom.label "الأسفل:">
+<!ENTITY marginLeft.label "يسار:">
+<!ENTITY marginRight.label "يمين:">
+
+<!ENTITY headerFooter.label "تّرويسة &amp; تّذييل">
+
+<!ENTITY hfLeft.label "يسار:">
+<!ENTITY hfCenter.label "وسط:">
+<!ENTITY hfRight.label "يمين:">
+<!ENTITY headerLeft.tip "ترويسة اليسار">
+<!ENTITY headerCenter.tip "ترويسة المركز">
+<!ENTITY headerRight.tip "ترويسة اليمين">
+<!ENTITY footerLeft.tip "تذييل اليسار">
+<!ENTITY footerCenter.tip "تذييل المركز">
+<!ENTITY footerRight.tip "تذييل اليمين">
+
+<!ENTITY hfTitle "العنوان">
+<!ENTITY hfTitle.code "[&amp;ع]">
+<!ENTITY hfURL "عنوان انترنت">
+<!ENTITY hfURL.code "[&amp;ا]">
+<!ENTITY hfDateAndTime "تاريخ/وقت">
+<!ENTITY hfDateAndTime.code "&amp;ت">
+<!ENTITY hfPage "رقم الصّفحة">
+<!ENTITY hfPage.code "[&amp;ص]">
+<!ENTITY hfPageAndTotal "صفحة # من #">
+<!ENTITY hfPageAndTotal.code "[&amp;م]">
+<!ENTITY hfBlank "--فارغ--">
+<!ENTITY hfCustom "مخصّص...">
+
+<!ENTITY customPrompt.title "مخصّص...">
+<!ENTITY customPrompt.prompt "أدخل نصّ التّرويسة/التّذييل المخصّص">

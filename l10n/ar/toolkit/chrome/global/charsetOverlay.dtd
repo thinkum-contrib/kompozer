@@ -1,0 +1,21 @@
+<!-- extracted from charsetOverlay.xul -->
+<!ENTITY charsetMenu.label "الترميز">
+<!ENTITY charsetMenu.accesskey "ز">
+<!ENTITY charsetMenuAutodet.label "اكتشاف آلي">
+<!ENTITY charsetMenuAutodet.accesskey "ك">
+<!ENTITY charsetMenuMore.label "ترميزات أخرى">
+<!ENTITY charsetMenuMore.accesskey "ت">
+<!ENTITY charsetMenuMore1.label "غرب أوروبيّة">
+<!ENTITY charsetMenuMore1.accesskey "غ">
+<!ENTITY charsetMenuMore2.label "شرق أوروبيّة">
+<!ENTITY charsetMenuMore2.accesskey "ر">
+<!ENTITY charsetMenuMore3.label "شرق آسيوية">
+<!ENTITY charsetMenuMore3.accesskey "ي">
+<!ENTITY charsetMenuMore4.label "جنوب شرق و غرب آسيوية">
+<!ENTITY charsetMenuMore4.accesskey "ب">
+<!ENTITY charsetMenuMore5.label "شّرق أوسطية">
+<!ENTITY charsetMenuMore5.accesskey "ر">
+<!ENTITY charsetMenuUnicode.label "يونيكود">
+<!ENTITY charsetMenuUnicode.accesskey "ك">
+<!ENTITY charsetCustomize.label "تخصيص القائمة...">
+<!ENTITY charsetCustomize.accesskey "ا">

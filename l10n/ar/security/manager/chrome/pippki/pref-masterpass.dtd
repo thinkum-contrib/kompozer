@@ -1,0 +1,61 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Bob Lord <lord@netscape.com>
+   -   Terry Hayes <thayes@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY pref.masterpass.title "كلمات المرور الرّئيسيّة">
+<!ENTITY managepassword.caption "مهلة كلمة المرور الرّئيسيّة">
+<!ENTITY managepassword.text "سيسأل &brandShortName; عن كلمة مرورك الرّئيسيّة:">
+<!ENTITY managepassword.askfirsttime "أول مرّة يحتاج لها">
+<!ENTITY managepassword.askfirsttime.accesskey "و">
+<!ENTITY managepassword.askeverytime "كلّ مرّة يحتاج لها">
+<!ENTITY managepassword.askeverytime.accesskey "ك">
+<!ENTITY managepassword.asktimeout "إذا لم تستخدم لـ">
+<!ENTITY managepassword.asktimeout.accesskey "ذ">
+<!ENTITY managepassword.timeout.unit "دقيقة(دقائق) أو أطول">
+
+<!ENTITY changepassword.caption "تغيير كلمة السر الرّئيسيّة">
+<!ENTITY changepassword.text "تحمي كلمة مرورك الرّئيسيّة المعلومات الحسّاسة ككلمات مرور و شهادات ويب.">
+<!ENTITY changepassword.button "تغيير كلمة المرور...">
+<!ENTITY changepassword.accesskey "غ">
+
+<!ENTITY resetpassword.caption "إعادة ضبط كلمة السر الرّئيسيّة">
+<!ENTITY resetpassword.text "إذا أعدت ضبط كلمة مرورك الرّئيسيّة، ستخسر كلّ كلمات مرور ويب و البريد الإلكتروني، بيانات النّماذج، الشّهادات الشّخصيّة، و المفاتيح الخاصّة المخزّنة.">
+<!ENTITY resetpassword.button "إعادة ضبط كلمة المرور">
+<!ENTITY resetpassword.accesskey "ع">
+<!ENTITY encryptExpire.label "تنتهي صلاحية كلمة السر الرّئيسيّة بعد كل استعمال.">
+<!ENTITY encryptExpire.accesskey "ه">
+

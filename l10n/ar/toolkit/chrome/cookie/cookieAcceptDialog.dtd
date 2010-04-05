@@ -1,0 +1,20 @@
+<!ENTITY props.box.label "حول هذه الكوكي">
+<!ENTITY props.name.label "الاسم:">
+<!ENTITY props.value.label "المحتويات:">
+<!ENTITY props.domain.label "المضيف:">
+<!ENTITY props.path.label "المسار:">
+<!ENTITY props.secure.label "إرسال عبر:">
+<!ENTITY props.expires.label "انتهاء الصّلاحية:">
+<!ENTITY props.policy.label "السّياسة:">
+
+<!ENTITY button.allow.label "سماح">
+<!ENTITY button.allow.accesskey "س">
+<!ENTITY button.session.label "سماح في جلسة ">
+<!ENTITY button.session.accesskey "ج">
+<!ENTITY button.deny.label "رفض">
+<!ENTITY button.deny.accesskey "ر">
+
+<!ENTITY dialog.title "تأكيد كوكي الإعداد">
+<!ENTITY dialog.remember.label "استعمل خياري لكل الكوكيز من هذا الموقع">
+<!ENTITY dialog.remember.accesskey "خ">
+

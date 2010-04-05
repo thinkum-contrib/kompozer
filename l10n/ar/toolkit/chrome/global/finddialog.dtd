@@ -1,0 +1,22 @@
+<!-- extracted from finddialog.xul -->
+
+<!ENTITY findDialog.title "إيجاد في هذه الصّفحة">
+<!ENTITY findDialogFrame.title "البحث في هذا الإطار">
+<!ENTITY findField.label "ابحث عن:">
+<!ENTITY findField.accesskey "ث">
+<!ENTITY caseSensitiveCheckbox.label "نوع الأحرف">
+<!ENTITY caseSensitiveCheckbox.accesskey "ح">
+<!ENTITY wrapCheckbox.label "مواصلة">
+<!ENTITY wrapCheckbox.accesskey "م">
+<!ENTITY backwardsCheckbox.label "بحث إلى الخلف">
+<!ENTITY backwardsCheckbox.accesskey "خ">
+<!ENTITY findField.tooltip "أدخل كلمة أو أكثر للبحث">
+<!ENTITY findButton.label "ايجاد التالي">
+<!ENTITY findButton.accesskey "ت">
+<!ENTITY cancelButton.label "إلغاء">
+<!ENTITY closeButton.label "إغلاق">
+<!ENTITY up.label "أعلى">
+<!ENTITY up.accesskey "أ">
+<!ENTITY down.label "أسفل">
+<!ENTITY down.accesskey "س">
+<!ENTITY direction.label "الاتّجاه">

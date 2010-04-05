@@ -1,0 +1,31 @@
+<!ENTITY editMenu.label "تحرير">
+<!ENTITY editMenu.accesskey "ت">
+<!ENTITY undoCmd.label "تراجع">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.accesskey "ر">
+<!ENTITY redoCmd.label "تكرار">
+<!ENTITY redoCmd.key "Y">
+<!ENTITY redoCmd.accesskey "ك">
+<!ENTITY cutCmd.label "قص">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.accesskey "ق">
+<!ENTITY copyCmd.label "نسخ">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.accesskey "س">
+<!ENTITY pasteCmd.label "لصق">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.accesskey "ص">
+<!ENTITY deleteCmd.label "حذف">
+<!ENTITY deleteCmd.accesskey "ذ">
+<!ENTITY selectAllCmd.label "انتقاء الكل">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.accesskey "ق">
+<!ENTITY findCmd.label "بحث">
+<!ENTITY findCmd.key "م">
+<!ENTITY findCmd.accesskey "ب">
+<!ENTITY findAgainCmd.label "البحث مجددا">
+<!ENTITY findAgainCmd.key "G">
+<!ENTITY findAgainCmd.key2 "VK_F3">
+<!ENTITY findAgainCmd.accesskey "ا">
+<!ENTITY findPreviousCmd.label "إيجاد السابق">
+<!ENTITY findPreviousCmd.accesskey "س">

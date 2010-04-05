@@ -1,0 +1,20 @@
+<!ENTITY button-back-mac.label "ذهاب للخلف">
+<!ENTITY button-back-mac.accesskey "خ">
+<!ENTITY button-next-mac.label "متابعة">
+<!ENTITY button-next-mac.accesskey "م">
+<!ENTITY button-finish-mac.label "تمّ">
+<!ENTITY button-cancel-mac.label "إلغاء">
+
+<!ENTITY button-back-unix.label "خلف">
+<!ENTITY button-back-unix.accesskey "خ">
+<!ENTITY button-next-unix.label "تالي">
+<!ENTITY button-next-unix.accesskey "ت">
+<!ENTITY button-finish-unix.label "إنهاء">
+<!ENTITY button-cancel-unix.label "إلغاء">
+
+<!ENTITY button-back-win.label "&lt; خلف">
+<!ENTITY button-back-win.accesskey "خ">
+<!ENTITY button-next-win.label "&gt; تالي">
+<!ENTITY button-next-win.accesskey "ت">
+<!ENTITY button-finish-win.label "إنهاء">
+<!ENTITY button-cancel-win.label "إلغاء">

@@ -1,0 +1,9 @@
+<!ENTITY setPassword.title "تغيير كلمة المرور الرّئيسيّة">
+<!ENTITY setPassword.tokenName.label "جهاز الأمن">
+<!ENTITY setPassword.oldPassword.label "كلمة المرور الحاليّة:">
+<!ENTITY setPassword.newPassword.label "أدخل كلمة المرور الجّديدة:">
+<!ENTITY setPassword.reenterPassword.label "أعد إدخال كلمة المرور:">
+<!ENTITY setPassword.meter.label "مقياس جودة كلمة المرور">
+<!ENTITY setPassword.meter.loading "جاري التّحميل">
+<!ENTITY masterPasswordDescription.label "تستخدم كلمة المرور الرّئيسيّة لحماية المعلومات الحسّاسة ككلمات المرور.  إذا أنشأت كلمة مرور رئيسيّة سيطلب منك إدخالها مرّة كلّ جلسة عندما يجلب &brandShortName; المعلومات المحفوظة المحميّة من قبل كلمة المرور.">
+<!ENTITY masterPasswordWarning.label "الرّجاء التأكّد من تذكّر كلمة المرور الرّئيسيّة التي ضبطتها. إذا نسيت كلمة المرور الرّئيسيّة، لن تكون قادراً على الوصول إلى المعلومات المحميّة بها.">
