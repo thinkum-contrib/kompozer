@@ -1,48 +1,95 @@
-<!ENTITY browseUrl.label 'Endereço HTTP da sua página (exemplo: "http://www.servidor.pt/omeunome"):'>
-<!ENTITY browseUrl.tooltip "O endereço HTTP:// da pasta home (não incluir o nome do ficheiro)">
-<!ENTITY chooseDirButton.label "Seleccionar…">
-<!ENTITY docDirList.label "Subpasta do sítio para esta página:">
-<!ENTITY filename.label "Nome do ficheiro:">
-<!ENTITY filename.tooltip 'Forneça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
-<!ENTITY filenameExample.label "exemplo: &quot;omeusitio.html&quot;">
-<!ENTITY loginInfo.label "Informações de início de sessão">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label "Publicar página">
+<!ENTITY windowTitleSettings.label "Configurações de publicação">
+
+<!ENTITY publishTab.label "Publicar">
+<!ENTITY settingsTab.label "Configurações">
+
+<!ENTITY publishButton.label "Publicar">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label "Nome do sítio:">
+<!ENTITY siteList.tooltip "Selecione o sítio no qual você deseja publicar">
 <!ENTITY newSiteButton.label "Novo sítio">
+<!ENTITY siteDirList.label "Seleccione ou introduza o nome da pasta no sítio de publicação:">
+<!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome da pasta remota para publicar">
+<!ENTITY docDirList.label "Subpasta do sítio para esta página:">
+<!ENTITY publishImgCheckbox.label "Incluir imagens e outros ficheiros">
+<!ENTITY publishImgCheckbox.tooltip "Publicar imagens e outros ficheiros referenciados por esta página">
+<!ENTITY sameLocationRadio.label "Usar o mesmo endereço da página">
+<!ENTITY sameLocationRadio.tooltip "Publicar ficheiros no mesmo endereço da página">
+<!ENTITY useSubdirRadio.label "Usar esta subpasta do sítio:">
+<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de uma subpasta em que os ficheiros serão publicados">
+<!ENTITY chooseDirButton.label "Seleccionar…">
 <!ENTITY pageTitle.label "Título da página:">
 <!ENTITY pageTitle.tooltip "Forneça um título para identificar a página na janela e nos marcadores">
 <!ENTITY pageTitleExample.label "exemplo: &quot;A minha Página da Teia&quot;">
-<!ENTITY password.label "Senha:">
-<!ENTITY password.tooltip "A senha associada ao seu nome de utilizador">
-<!ENTITY publishImgCheckbox.label "Incluir imagens e outros ficheiros">
-<!ENTITY publishImgCheckbox.tooltip "Publicar imagens e outros ficheiros referenciados por esta página">
-<!ENTITY publishSites.label "Sítios para publicação">
-<!ENTITY publishTab.label "Publicar">
+<!ENTITY filename.label "Nome do ficheiro:">
+<!ENTITY filename.tooltip 'Forneça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
+<!ENTITY filenameExample.label "exemplo: &quot;omeusitio.html&quot;">
 <!ENTITY relatedDocs.label "Outros ficheiros para publicar">
-<!ENTITY removeButton.label "Remover sítio">
-<!ENTITY sameLocationRadio.label "Usar o mesmo endereço da página">
-<!ENTITY sameLocationRadio.tooltip "Publicar ficheiros no mesmo endereço da página">
-<!ENTITY savePassword.label "Guardar senha">
-<!ENTITY savePassword.tooltip "Seleccione para guardar a sua senha com segurança usando o gestor de senhas">
-<!ENTITY selectDirectory.label "Seleccionar pasta…">
-<!ENTITY serverInfo.label "Informações do servidor">
-<!ENTITY setDefSiteAndDir.label "Definir como sítio e pasta padrão">
 <!ENTITY setDefaultButton.label "Adoptar como pré-definido">
-<!ENTITY settingsTab.label "Configurações">
-<!ENTITY publishButton.label "Publicar">
-<!ENTITY siteDirList.label "Seleccione ou introduza o nome da pasta no sítio de publicação:">
-<!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome da pasta remota para publicar">
-<!ENTITY siteList.label "Nome do sítio:">
-<!ENTITY siteList.tooltip "Selecione o sítio no qual você deseja publicar">
+<!ENTITY setDefSiteAndDir.label "Definir como sítio e pasta padrão">
+<!ENTITY removeButton.label "Remover sítio">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label "Sítios para publicação">
+<!ENTITY serverInfo.label "Informações do servidor">
+<!ENTITY loginInfo.label "Informações de início de sessão">
 <!ENTITY siteName.label "Nome do sítio:">
 <!ENTITY siteName.tooltip 'Um nome que identifique o sítio a publicar (exemplo: "OMeuSítio")'>
 <!ENTITY siteUrl.label 'Endereço de publicação (exemplo: "ftp://ftp.servidor.pt/omeunome"):'>
 <!ENTITY siteUrl.tooltip "O endereço FTP:// ou HTTP:// fornecido pelo seu fornecedor de alojamento">
-<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de uma subpasta em que os ficheiros serão publicados">
-<!ENTITY useSubdirRadio.label "Usar esta subpasta do sítio:">
+<!ENTITY browseUrl.label 'Endereço HTTP da sua página (exemplo: "http://www.servidor.pt/omeunome"):'>
+<!ENTITY browseUrl.tooltip "O endereço HTTP:// da pasta home (não incluir o nome do ficheiro)">
 <!ENTITY username.label "Nome de utilizador:">
 <!ENTITY username.tooltip "O nome de utilizador que você utiliza com o seu fornecedor de alojamento">
-<!ENTITY windowTitle.label "Publicar página">
-<!ENTITY windowTitleSettings.label "Configurações de publicação">
-<!ENTITY publishButton.label "Publicar">
+<!ENTITY password.label "Senha:">
+<!ENTITY password.tooltip "A senha associada ao seu nome de utilizador">
+<!ENTITY savePassword.label "Guardar senha">
+<!ENTITY savePassword.tooltip "Seleccione para guardar a sua senha com segurança usando o gestor de senhas">
+
+<!ENTITY selectDirectory.label "Seleccionar pasta…">
+
+<!-- new strings -->
 <!ENTITY generalSettings.label "Configuração">
 <!ENTITY ftpSettings.label "FTP">
 <!ENTITY localSettings.label "Definições locais">
@@ -50,6 +97,7 @@
 <!ENTITY siteDirectory.tooltip "A pasta do seu disco rígido em que se encontra o seu sítio">
 <!ENTITY browsePrefix.label "Prefixo: ">
 <!ENTITY browsePrefix.tooltip "Eliminar o prefixo da parte de FTP do endereço URL, porexemplo /public_html">
+
 <!ENTITY connection.label "Tipo de ligação">
 <!ENTITY port.label "Porta: ">
 <!ENTITY pasv.label "Modo passivo">
@@ -59,3 +107,4 @@
 <!ENTITY authssl.label "Autenticação com SSL (melhor)">
 <!ENTITY implicit.label "SSL implícito (ainda melhor)">
 <!ENTITY treesync.label "Manter a estrutura de pastas sincronizada durante a navegação">
+

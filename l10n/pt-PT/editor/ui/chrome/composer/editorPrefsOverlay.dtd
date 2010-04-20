@@ -1,9 +1,11 @@
-<!ENTITY advanced.label "Avançado">
-<!ENTITY extensions.label "Extensões">
-<!ENTITY fonts.label "Tipos">
-<!ENTITY general.label "Geral">
-<!ENTITY i18n.label "Internacionalização">
-<!ENTITY newpagesettings.label "Nova página">
+
 <!ENTITY prefWindow.size "width: 52.3em; height: 37em;">
-<!ENTITY prefWindow.title "Preferências">
+<!ENTITY prefWindow.title "Opções">
+
+<!ENTITY general.label "Geral">
+<!ENTITY extensions.label "Extensões">
+<!ENTITY advanced.label "Avançado">
 <!ENTITY helpers.label "Aplicações">
+<!ENTITY newpagesettings.label "Definições de nova página">
+<!ENTITY fonts.label "Tipos de letra">
+<!ENTITY i18n.label "Internacionalização">
