@@ -1,20 +1,37 @@
-<!ENTITY accel.emacs_conflict "accel">
-<!ENTITY closeCmd.key "W">
+<!-- mac -->
+<!-- LOCALIZATION NOTE : FILE Do not translate all the Cmd.key--> 
+
 <!ENTITY closeCmd.label "Fechar">
+<!ENTITY closeCmd.key "W">
+
+<!ENTITY printSetupCmd.label "Configurar Página…">
+<!ENTITY printSetupCmd.accesskey "u">
+
+<!ENTITY quitApplicationCmd.label "Sair">
+<!ENTITY quitApplicationCmd.key "Q">
+
+<!ENTITY redoCmd.label "Refazer">
+<!ENTITY redoCmd.key "Z">
+
+<!ENTITY historyCmd.key "H">
+
 <!ENTITY findTypeLinksCmd.key "">
 <!ENTITY findTypeTextCmd.key "">
-<!ENTITY historyCmd.key "H">
-<!ENTITY printSetupCmd.accesskey "u">
-<!ENTITY printSetupCmd.label "Configurar Página…">
-<!ENTITY quitApplicationCmd.key "Q">
-<!ENTITY quitApplicationCmd.label "Sair">
-<!ENTITY redoCmd.key "Z">
-<!ENTITY redoCmd.label "Refazer">
+
+<!ENTITY accel.emacs_conflict       "accel">
+
 <!ENTITY minimizeWindowCmd.label "Minimizar">
 <!ENTITY minimizeWindowCmd.key "M">
-<!ENTITY zoomWindowCmd.label "Ampliação">
-<!ENTITY openHelpCmd.label "Ajuda de &brandShortName;">
-<!ENTITY openHelpCmd.accesskey "e">
+<!ENTITY zoomWindowCmd.label "Aumentar">
+
+<!-- Help viewer -->
+<!ENTITY openHelpCmd.label "Ajuda do &brandShortName;">
+<!ENTITY openHelpCmd.accesskey "A">
+
+<!-- LOCALIZATION NOTE: openHelpFrontend.key and openHelpFrontend.modifiers
+  will show the standard OS X shortcut (Cmd+? on most locales) in the Help
+  menu. To make the shortcut work, mapping (Cmd+Shift+/ on en-US) is done with
+  openHelpCmd.key and openHelpCmd.modifiers. -->
 <!ENTITY openHelpFrontend.key "?">
 <!ENTITY openHelpFrontend.modifiers "accel">
 <!ENTITY openHelpCmd.key "/">

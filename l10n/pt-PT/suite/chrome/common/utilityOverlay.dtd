@@ -1,74 +1,88 @@
-<!ENTITY aboutCmd.accesskey "S">
-<!ENTITY aboutCmd.label "Sobre o &brandShortName;">
-<!ENTITY aboutCommPluginsCmd.accesskey "l">
-<!ENTITY aboutCommPluginsCmd.label "Sobre os acessórios">
-<!ENTITY copyCmd.accesskey "c">
-<!ENTITY copyCmd.key "C">
-<!ENTITY copyCmd.label "Copiar">
-<!ENTITY cutCmd.accesskey "t">
-<!ENTITY cutCmd.key "X">
-<!ENTITY cutCmd.label "Recortar">
-<!ENTITY deleteCmd.accesskey "l">
-<!ENTITY deleteCmd.key "D">
-<!ENTITY deleteCmd.label "Eliminar">
-<!ENTITY direct.accesskey "s">
-<!ENTITY direct.label "Em linha (sem mediador)">
-<!ENTITY editMenu.accesskey "E">
-<!ENTITY editMenu.label "Editar">
-<!ENTITY fileMenu.accesskey "A">
-<!ENTITY fileMenu.label "Arquivo">
-<!ENTITY findTypeLinksCmd.accesskey "g">
-<!ENTITY findTypeLinksCmd.label "Localizar ligações ao digitar">
-<!ENTITY findTypeTextCmd.accesskey "e">
-<!ENTITY findTypeTextCmd.label "Localizar texto ao digitar">
-<!ENTITY helpMenu.accesskey "u">
-<!ENTITY helpMenu.label "Ajuda">
-<!ENTITY manual.accesskey "m">
-<!ENTITY manual.label "Online (configuração manual do mediador)">
-<!ENTITY newBlankPageCmd.accesskey "C">
-<!ENTITY newBlankPageCmd.key "n">
-<!ENTITY newBlankPageCmd.label "Composer">
-<!ENTITY newMenu.accesskey "N">
-<!ENTITY newMenu.label "Novo">
-<!ENTITY newNavigatorCmd.accesskey "N">
-<!ENTITY newNavigatorCmd.key "N">
-<!ENTITY newNavigatorCmd.label "Janela do Navigator">
-<!ENTITY newPageFromDraftCmd.accesskey "r">
-<!ENTITY newPageFromDraftCmd.label "Página usando rascunho">
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY offlineGoOfflineCmd.label 		"Trabalhar desligado">
+<!ENTITY offlineGoOfflineCmd.accesskey 	"d">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label 				"Ficheiro">
+<!ENTITY fileMenu.accesskey 			"F">
+<!ENTITY newMenu.label 					"Novo">
+<!ENTITY newMenu.accesskey 				"N">
+<!ENTITY newBlankPageCmd.label 			"Página do Kompozer">
+<!ENTITY newBlankPageCmd.accesskey 		"P">
+<!ENTITY newBlankPageCmd.key 			"n">
+<!ENTITY newPageFromTemplateCmd.label 	"Página usando modelo">
 <!ENTITY newPageFromTemplateCmd.accesskey "m">
-<!ENTITY newPageFromTemplateCmd.label "Página usando modelo">
-<!ENTITY offlineGoOfflineCmd.accesskey "d">
-<!ENTITY offlineGoOfflineCmd.label "Desconectado">
-<!ENTITY pac.accesskey "a">
-<!ENTITY pac.label "Conectado (servidor mediador automático)">
-<!ENTITY pasteCmd.accesskey "o">
-<!ENTITY pasteCmd.key "V">
-<!ENTITY pasteCmd.label "Colar">
-<!ENTITY preferencesCmd.accesskey "e">
-<!ENTITY preferencesCmd.key "O">
-<!ENTITY preferencesCmd.label "Preferências">
-<!ENTITY proxy.accesskey "C">
-<!ENTITY proxy.label "Configurações de mediador…">
-<!ENTITY redoCmd.accesskey "R">
-<!ENTITY redoCmd.key "Y">
-<!ENTITY redoCmd.label "Refazer">
-<!ENTITY releaseCmd.accesskey "R">
-<!ENTITY releaseCmd.label "Notas de lançamento da versão">
-<!ENTITY selectAllCmd.accesskey "S">
-<!ENTITY selectAllCmd.key "A">
-<!ENTITY selectAllCmd.label "Selecionar tudo">
-<!ENTITY showTaskbarCmd.accesskey "s">
-<!ENTITY showTaskbarCmd.label "Barra de status">
-<!ENTITY undoCmd.accesskey "D">
-<!ENTITY undoCmd.key "Z">
-<!ENTITY undoCmd.label "Desfazer">
-<!ENTITY viewMenu.accesskey "x">
-<!ENTITY viewMenu.label "Ver">
-<!ENTITY viewToolbarsMenu.accesskey "B">
-<!ENTITY viewToolbarsMenu.label "Barras de ferramentas">
-<!ENTITY whatNewCmd.label "Novidades">
-<!ENTITY wpad.label "Ligado (mediador: descoberta automática)">
-<!ENTITY wpad.accesskey "d">
+<!ENTITY newPageFromDraftCmd.label 		"Página usando rascunho">
+<!ENTITY newPageFromDraftCmd.accesskey 	"r">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label 			"Janela do Navigator">
+<!ENTITY newNavigatorCmd.key 			"N">
+<!ENTITY newNavigatorCmd.accesskey 		"N">
+
+<!ENTITY editMenu.label 				"Editar">
+<!ENTITY editMenu.accesskey 			"E">
+<!ENTITY undoCmd.label					"Anular">  
+<!ENTITY undoCmd.key					"Z">  
+<!ENTITY undoCmd.accesskey				"U"> 
+<!ENTITY redoCmd.label					"Refazer">  
+<!ENTITY redoCmd.key					"Y">  
+<!ENTITY redoCmd.accesskey				"R"> 
+<!ENTITY cutCmd.label 					"Cortar">
+<!ENTITY cutCmd.key 					"X">
+<!ENTITY cutCmd.accesskey 				"t">
+<!ENTITY copyCmd.label 					"Copiar">
+<!ENTITY copyCmd.key 					"C">
+<!ENTITY copyCmd.accesskey				"c"> 
+<!ENTITY pasteCmd.label 				"Colar">
+<!ENTITY pasteCmd.key 					"V">
+<!ENTITY pasteCmd.accesskey 			"o">
+<!ENTITY deleteCmd.label 				"Eliminar">
+<!ENTITY deleteCmd.key 					"D">
+<!ENTITY deleteCmd.accesskey 			"l">
+<!ENTITY selectAllCmd.label 			"Selecionar tudo">
+<!ENTITY selectAllCmd.key 				"A">
+<!ENTITY selectAllCmd.accesskey 		"S">
+<!ENTITY preferencesCmd.label 			"Preferências">
+<!ENTITY preferencesCmd.key 			"O">
+<!ENTITY preferencesCmd.accesskey 		"e">
+<!ENTITY findTypeTextCmd.label 			"Localizar texto ao digitar">
+<!ENTITY findTypeTextCmd.accesskey 		"e">
+<!ENTITY findTypeLinksCmd.label 		"Localizar ligações ao digitar">
+<!ENTITY findTypeLinksCmd.accesskey 	"g">
+
+<!ENTITY viewMenu.label					"Ver">
+<!ENTITY viewMenu.accesskey             "V">
+<!ENTITY viewToolbarsMenu.label         "Mostrar/Ocultar">
+<!ENTITY viewToolbarsMenu.accesskey     "O">
+<!ENTITY showTaskbarCmd.label           "Barra de estado">
+<!ENTITY showTaskbarCmd.accesskey       "s">
+
+<!ENTITY helpMenu.label                 "Ajuda">
+<!ENTITY helpMenu.accesskey             "u">
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"O que há de novo">
+
+<!ENTITY releaseCmd.label 				"Notas de lançamento">
+<!ENTITY releaseCmd.accesskey 			"R">
+<!ENTITY aboutCmd.label					"Sobre o &brandShortName;">
+<!ENTITY aboutCmd.accesskey				"S">
+<!ENTITY aboutCommPluginsCmd.label	    "Sobre Plug-ins">
+<!ENTITY aboutCommPluginsCmd.accesskey			"p">
+
+<!ENTITY direct.label                   "Ligado (Proxy: Nenhum)">
+<!ENTITY direct.accesskey               "s">
+<!ENTITY manual.label                   "Ligado (Proxy: Manual)">
+<!ENTITY manual.accesskey               "m">
+<!ENTITY pac.label                      "Ligado (Proxy: Auto URL)">
+<!ENTITY pac.accesskey                  "a">
+<!ENTITY wpad.label                     "Ligado (Proxy: Auto Discover)">
+<!ENTITY wpad.accesskey                 "D">
+
+<!ENTITY proxy.label 					"Configuração proxy…">
+<!ENTITY proxy.accesskey 				"C">
+
 <!ENTITY bidiSwitchTextDirectionItem.label "Mudar o sentido do texto">
 <!ENTITY bidiSwitchTextDirectionItem.accesskey "x">
 <!ENTITY bidiSwitchTextDirectionItem.commandkey "X">

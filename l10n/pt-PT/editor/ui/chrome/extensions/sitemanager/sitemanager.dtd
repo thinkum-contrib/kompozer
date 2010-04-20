@@ -1,36 +1,83 @@
-<!ENTITY createDir.label "Nova subpasta">
-<!ENTITY createDirButton.tooltip "Nova pasta">
-<!ENTITY createdir.accesskey "N">
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc., Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY editSitesList.label "Editar sítios">
+
+<!ENTITY filterAll.label "Todos os ficheiros">
+<!ENTITY filterHTML.label "Documentos HTML">
+<!ENTITY filterCSS.label "Folhas CSS">
+<!ENTITY filterImages.label "Ficheiros de imagem">
+<!ENTITY filterMedia.label        "Ficheiros de média">
+<!ENTITY filterScripts.label      "Ficheiros de texto">
+
+<!ENTITY treeViewCheckbox.label "Vista de árvore">
+
+<!ENTITY filenameColumn.label "Nome">
+<!ENTITY sizeColumn.label "Tamanho">
+<!ENTITY lastModifiedColumn.label "Última de modificação">
+
 <!ENTITY deleteFile.label "Eliminar ficheiro">
 <!ENTITY deletefile.accesskey "D">
-<!ENTITY editSitesList.label "Editar sítios">
-<!ENTITY filenameColumn.label "Nome">
-<!ENTITY filterAll.label "Todos os ficheiros">
-<!ENTITY filterControl.label "Ver:">
-<!ENTITY filterHTML.label "Documentos HTML">
-<!ENTITY filterImages.label "Imagens">
-<!ENTITY lastModifiedColumn.label "Data de modificação">
-<!ENTITY reloadButton.tooltip "Actualizar">
-<!ENTITY removeButton.tooltip "Eliminar">
+<!ENTITY createDir.label "Nova subpasta">
+<!ENTITY createdir.accesskey "N">
 <!ENTITY removeDir.label "Remover pasta">
 <!ENTITY removedir.accesskey "R">
-<!ENTITY renameButton.tooltip "Renomear pasta ou ficheiro">
-<!ENTITY renameMenu.label "Renomear">
-<!ENTITY sizeColumn.label "Tamanho">
+
+<!ENTITY reloadButton.tooltip "Actualizar">
+<!ENTITY createDirButton.tooltip "Nova pasta">
+<!ENTITY removeButton.tooltip "Eliminar">
 <!ENTITY stopButton.tooltip "Parar">
-<!ENTITY treeViewCheckbox.label "Árvore">
-<!ENTITY filterCSS.label "Folhas CSS">
-<!ENTITY filterMedia.label "Objectos">
-<!ENTITY filterScripts.label "Guiões">
+
+<!ENTITY renameMenu.label "Renomear">
+<!ENTITY renameButton.tooltip "Renomear pasta ou ficheiro">
+
+<!ENTITY filterControl.label "Ver:">
+
+<!-- KompoZer 0.8 -->
 <!ENTITY localTab.label "Local">
-<!ENTITY remoteTab.label "Servidor">
+<!ENTITY remoteTab.label "Remoto">
 <!ENTITY ftpConsole.label "Consola de FTP">
-<!ENTITY editItem.label "Modificar">
-<!ENTITY openItem.label "Abrir ficheiro">
+
+<!ENTITY editItem.label "Editar">
+<!ENTITY openItem.label "Abrir">
 <!ENTITY openAsText.label "Abrir como texto">
-<!ENTITY openRemote.label "Abri pasta remota">
+<!ENTITY openRemote.label "Abrir pasta remota">
 <!ENTITY insertImage.label "Inserir imagem">
 <!ENTITY previewItem.label "Pré-visualizar">
-<!ENTITY uploadItem.label "Publicar">
-<!ENTITY downloadItem.label "Descarregar">
+<!ENTITY uploadItem.label "Publicar…">
+<!ENTITY downloadItem.label "Restaurar…">
 <!ENTITY itemProperties.label "Propriedades">

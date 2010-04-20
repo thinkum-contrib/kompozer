@@ -1,43 +1,16 @@
 <!ENTITY printCmd.commandkey "p">
+
+<!ENTITY viewCustomizeToolbar.label "Personalizar…">
+<!ENTITY viewCustomizeToolbar.accesskey "C">
+
 <!ENTITY findOnCmd.commandkey "F">
 <!ENTITY findAgainCmd.commandkey "G">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
-<!ENTITY backButton.label "Retroceder">
-<!ENTITY backButton.accesskey "E">
-<!ENTITY backButton.tooltip "Retroceder uma página">
-<!ENTITY forwardButton.label "Avançar">
-<!ENTITY forwardButton.accesskey "A">
-<!ENTITY forwardButton.tooltip "Avançar uma página">
-<!ENTITY copyCmd.label "Copiar">
-<!ENTITY copyCmd.accesskey "C">
-<!ENTITY homeButton.label "Início">
-<!ENTITY homeButton.tooltip "Ir para a página inicial da Ajuda">
-<!ENTITY printButton.label "Imprimir">
-<!ENTITY printButton.tooltip "Imprimir esta página">
-<!ENTITY closeWindow.commandkey "W">
-
-<!ENTITY throbberItem.title "Indicador de actividade">
-<!ENTITY searchtab.label "Pesquisar">
-<!ENTITY searchtab.accesskey "P">
-<!ENTITY toctab.label "Conteúdos">
-<!ENTITY toctab.accesskey "o">
-
-<!ENTITY textZoomReduceCmd.commandkey "-">
-<!ENTITY textZoomEnlargeCmd.commandkey "+">
-<!-- + is above this key on many keyboards -->
-<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
-<!ENTITY textZoomResetCmd.commandkey "0">
-<!ENTITY textZoomReduceBtn.label "Diminuir o tamanho do texto">
-<!ENTITY textZoomReduceBtn.accesskey "D">
-<!ENTITY textZoomEnlargeBtn.label "Aumentar o tamanho do texto">
-<!ENTITY textZoomEnlargeBtn.accesskey "U">
-<!ENTITY viewCustomizeToolbar.label "Personalizar…">
-<!ENTITY viewCustomizeToolbar.accesskey "C">
 <!ENTITY findDialog.title "Pesquisar na página">
 <!ENTITY findDialogFrame.title "Pesquisar na moldura">
 <!ENTITY findField.label "Localizar:">
 <!ENTITY findField.accesskey "n">
-<!ENTITY caseSensitiveCheckbox.label "Respeitar a capitalização">
+<!ENTITY caseSensitiveCheckbox.label "Correspondência">
 <!ENTITY caseSensitiveCheckbox.accesskey "c">
 <!ENTITY wrapCheckbox.label "Pesquisa circular">
 <!ENTITY wrapCheckbox.accesskey "i">
@@ -46,12 +19,13 @@
 <!ENTITY findField.tooltip "Introduza um ou mais termos de pesquisa">
 <!ENTITY findButton.label "Localizar seguinte">
 <!ENTITY findButton.accesskey "F">
-<!ENTITY cancelButton.label "Anular">
+<!ENTITY cancelButton.label "Cancelar">
 <!ENTITY up.label "Para cima">
 <!ENTITY up.accesskey "M">
 <!ENTITY down.label "Para baixo">
 <!ENTITY down.accesskey "D">
 <!ENTITY direction.label "Direcção">
+
 <!ENTITY find.label "Localizar:">
 <!ENTITY findNext.label "Localizar seguinte">
 <!ENTITY findNext.tooltip "Localizar a próxima ocorrência do texto">
@@ -60,16 +34,42 @@
 <!ENTITY findCloseButton.tooltip "Encerrar a barra de pesquisa">
 <!ENTITY highlight.label "Destacar">
 <!ENTITY highlight.tooltip "Destacar todos os termos do texto (Ctrl+Enter)"> 
+
+<!ENTITY backButton.label "Retroceder">
+<!ENTITY backButton.accesskey "R">
+<!ENTITY backButton.tooltip "Retroceder uma página">
+<!ENTITY forwardButton.label "Avançar">
+<!ENTITY forwardButton.accesskey "A">
+<!ENTITY forwardButton.tooltip "Avançar uma página">
+<!ENTITY homeButton.label "Início">
+<!ENTITY homeButton.tooltip "Ir para a página inicial da Ajuda">
+<!ENTITY printButton.label "Imprimir">
+<!ENTITY printButton.tooltip "Imprimir esta página">
 <!ENTITY findBtn.label "Pesquisar">
 <!ENTITY sidebarBtn.label "Mostrar/Ocultar a barra lateral">
 <!ENTITY sidebarBtn.tooltip "Mostrar ou ocultar a barra de Ajuda">
+<!ENTITY textZoomReduceBtn.label "Diminuir o tamanho do texto">
+<!ENTITY textZoomReduceBtn.accesskey "D">
 <!ENTITY textZoomReduceBtn.tooltip "Diminuir o tamanho do texto na janela da Ajuda">
+<!ENTITY textZoomEnlargeBtn.label "Aumentar o tamanho do texto">
+<!ENTITY textZoomEnlargeBtn.accesskey "U">
 <!ENTITY textZoomEnlargeBtn.tooltip "Aumentar o tamanho do texto na janela da Ajuda">
 <!ENTITY customizeButton.tooltip "Personalizar os botões da barra de ferramentas da Ajuda">
 <!ENTITY reloadCmd.label "Actualizar">
 <!ENTITY reloadCmd.accesskey "R">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label "Copiar">
+<!ENTITY copyCmd.accesskey "C">
+
+<!ENTITY throbberItem.title "Indicador de actividade">
+
 <!ENTITY cmd_CustomizeToolbars.label "Personalizar">
-<!ENTITY searchbtn.label "Pesquisar">
+
+<!ENTITY searchtab.label "Pesquisar">
+<!ENTITY searchtab.accesskey "P">
+<!ENTITY searchbtn.label                 "Procurar">
+<!ENTITY toctab.label "Conteúdos">
+<!ENTITY toctab.accesskey "o">
 <!ENTITY indextab.label "Index">
 <!ENTITY indextab.accesskey "I">
 <!ENTITY ixname.label "Nome">
@@ -79,4 +79,7 @@
 <!ENTITY gobtn.label "Pesquisar">
 <!ENTITY name.label "Item">
 
-
+<!ENTITY textZoomReduceCmd.commandkey "-">
+<!ENTITY textZoomEnlargeCmd.commandkey "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="><!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey "0">

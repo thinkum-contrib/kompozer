@@ -1,30 +1,44 @@
-<!ENTITY downloadManagerCmd.accesskey "D">
-<!ENTITY downloadManagerCmd.label "Downloads">
-<!ENTITY editorCmd.accesskey "C">
-<!ENTITY editorCmd.commandkey "4">
-<!ENTITY editorCmd.label "Nvu">
-<!ENTITY extensions.label "Extensões">
-<!ENTITY javaConsoleCmd.accesskey "J">
-<!ENTITY javaConsoleCmd.label "Consola do Java">
-<!ENTITY javaScriptConsoleCmd.accesskey "S">
-<!ENTITY javaScriptConsoleCmd.label "Consola do JavaScript">
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE --> 
+<!ENTITY navigatorCmd.label "Navegador">
 <!ENTITY navigatorCmd.accesskey "N">
 <!ENTITY navigatorCmd.commandkey "1">
-<!ENTITY navigatorCmd.label "Mozilla Navigator">
-<!ENTITY privacyMenu.accesskey "P">
-<!ENTITY privacyMenu.label "Privacidade e segurança">
-<!ENTITY securityInfoCmd.accesskey "i">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label "Kompozer">
+<!ENTITY editorCmd.accesskey "C">
+<!ENTITY editorCmd.commandkey "4">
+
 <!ENTITY securityInfoCmd.label ".Informações de segurança">
-<!ENTITY switchProfileCmd.accesskey "r">
-<!ENTITY switchProfileCmd.label "Perfil…">
-<!ENTITY taskBar.tooltip "Barra de status">
-<!ENTITY taskComposer.tooltip "Nvu">
-<!ENTITY taskNavigator.tooltip "Mozilla Navigator">
-<!ENTITY tasksMenu.accesskey "F">
-<!ENTITY tasksMenu.label "Ferramentas">
-<!ENTITY themes.label "Temas">
-<!ENTITY webDevelopment.accesskey "u">
-<!ENTITY webDevelopment.label "Depurar">
-<!ENTITY windowMenu.accesskey "J">
+<!ENTITY securityInfoCmd.accesskey "i">
+<!ENTITY javaConsoleCmd.label "Consola do Java">
+<!ENTITY javaConsoleCmd.accesskey "J">
+
+<!ENTITY javaScriptConsoleCmd.label "Consola do JavaScript">
+<!ENTITY javaScriptConsoleCmd.accesskey "S">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label "Privacidade e segurança">
+<!ENTITY privacyMenu.accesskey "P">
+
+<!ENTITY taskNavigator.tooltip "Navigator">
+<!ENTITY taskComposer.tooltip "Kompozer">
+<!ENTITY taskBar.tooltip "Barra de estado">
+
+<!ENTITY webDevelopment.label "Desenvolvimento web">
+<!ENTITY webDevelopment.accesskey "v">
+
 <!ENTITY windowMenu.label "Janela">
-<!ENTITY addons.label "Extensões">
+<!ENTITY windowMenu.accesskey "J">
+
+<!ENTITY tasksMenu.label "Ferramentas">
+<!ENTITY tasksMenu.accesskey "F">
+
+<!ENTITY downloadManagerCmd.label "Downloads">
+<!ENTITY downloadManagerCmd.accesskey "D">
+
+<!ENTITY switchProfileCmd.label "Perfil…">
+<!ENTITY switchProfileCmd.accesskey "r">
+
+<!ENTITY addons.label "Extras">
+<!ENTITY extensions.label "Extensões">
+<!ENTITY themes.label "Temas">

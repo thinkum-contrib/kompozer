@@ -47,7 +47,7 @@
 
 <!-- Publish Tab Panel -->
 <!ENTITY siteList.label "Nome do sítio:">
-<!ENTITY siteList.tooltip "Selecione o sítio no qual você deseja publicar">
+<!ENTITY siteList.tooltip "Seleccione o sítio no qual você deseja publicar">
 <!ENTITY newSiteButton.label "Novo sítio">
 <!ENTITY siteDirList.label "Seleccione ou introduza o nome da pasta no sítio de publicação:">
 <!ENTITY siteDirList.tooltip "Seleccione ou forneça o nome da pasta remota para publicar">
@@ -57,16 +57,16 @@
 <!ENTITY sameLocationRadio.label "Usar o mesmo endereço da página">
 <!ENTITY sameLocationRadio.tooltip "Publicar ficheiros no mesmo endereço da página">
 <!ENTITY useSubdirRadio.label "Usar esta subpasta do sítio:">
-<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de uma subpasta em que os ficheiros serão publicados">
+<!ENTITY useSubdir.tooltip "Seleccione ou forneça o nome de uma subpasta onde os ficheiros serão publicados">
 <!ENTITY chooseDirButton.label "Seleccionar…">
 <!ENTITY pageTitle.label "Título da página:">
-<!ENTITY pageTitle.tooltip "Forneça um título para identificar a página na janela e nos marcadores">
-<!ENTITY pageTitleExample.label "exemplo: &quot;A minha Página da Teia&quot;">
+<!ENTITY pageTitle.tooltip "Escreva um título para identificar a página na janela e nos marcadores">
+<!ENTITY pageTitleExample.label "exemplo: &quot;A minha página web&quot;">
 <!ENTITY filename.label "Nome do ficheiro:">
-<!ENTITY filename.tooltip 'Forneça o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
+<!ENTITY filename.tooltip 'Escreva o nome deste ficheiro, incluindo ".html", para a página da Teia.'>
 <!ENTITY filenameExample.label "exemplo: &quot;omeusitio.html&quot;">
 <!ENTITY relatedDocs.label "Outros ficheiros para publicar">
-<!ENTITY setDefaultButton.label "Adoptar como pré-definido">
+<!ENTITY setDefaultButton.label "Definir como pré-definido">
 <!ENTITY setDefSiteAndDir.label "Definir como sítio e pasta padrão">
 <!ENTITY removeButton.label "Remover sítio">
 
