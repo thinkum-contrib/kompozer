@@ -1,13 +1,82 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation
+   - Portions created by the Initial Developer are Copyright (C) 1998-2003
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
 <!-- extracted from content/pref-composer.xul -->
+
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
-<!--LOCALIZATION NOTE (pref.composer.title): DONT_TRANSLATE -->
-<!ENTITY  pref.composer.title       "KompoZer">
-<!ENTITY  saving                    "저장중">
-<!ENTITY  AutoSaveCheck             "항상 자동 저장">
-<!ENTITY  minText                   "분">
-<!ENTITY  exterLegend.label         "외부 편집기">
-<!ENTITY  htmlSource                "HTML 소스:">
-<!ENTITY  imageeditor               "그림:">
-<!ENTITY  chooseButton.label        "선택">
-<!ENTITY  recentFiles.title         "최근 페이지 메뉴">
-<!ENTITY  savingFiles.title         "페이지를 저장하거나 출판시">
+
+<!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
+<!ENTITY  title.label                           "일반">
+<!ENTITY  lHeader                               "일반">
+<!ENTITY  rHeader                               "새 웹 페이지 작성을 위한 설정">
+
+<!ENTITY  tableEditing.label                    "표 편집">
+<!ENTITY  maintainTableStructure.label          "셀 삽입 또는 삭제시 표 위치 유지">
+<!ENTITY  maintainTableStructure.tooltip        "셀 삽입 또는 삭제 후 자동으로 셀을 추가해 표의 사각형 형태를 유지시킵니다">
+<!ENTITY  maintainStructure.accesskey           "m">
+
+<!ENTITY  savingFiles.title                     "페이지를 저장하거나 출판시">
+<!ENTITY  preserveExistingFormatting            "원본 서식 유지">
+<!ENTITY  preserveExistingFormatting.accesskey  "원">
+<!ENTITY  preserveExistingFormatting.tooltip    "페이지의 원래 형태 및 줄 내림 보존">
+<!ENTITY  reformat.label                        "HTML 소스 재구성">
+<!ENTITY  reformat.accesskey                    "H">
+<!ENTITY  reformat.tooltip                      "줄내림과 들여쓰기를 사용해 HTML 태그를 재구성">
+
+<!ENTITY  saveAssociatedFiles.label             "페이지 저장시 이미지 및 기타 관련 파일 저장">
+<!ENTITY  showPublishDialog.label               "페이지 배포시 언제나 배포 대화상자 표시">
+
+<!ENTITY  saving                                "저장중">
+<!ENTITY  AutoSaveCheck                         "항상 자동 저장">
+<!ENTITY  minText                               "분">
+
+<!ENTITY  exterLegend.label                     "외부 편집기">
+<!ENTITY  htmlSource                            "HTML 소스:">
+<!ENTITY  imageeditor                           "그림:">
+<!ENTITY  chooseButton.label                    "선택">
+
+<!ENTITY  recentFiles.title                     "최근 페이지 메뉴">
+<!ENTITY  documentsInMenu.accesskey             "페">
+<!ENTITY  documentsInMenu                       "페이지 목록의 최대 수:">
+
+<!ENTITY  cssEditing.label                      "Cascading Style Sheets (CSS) 편집">
+<!ENTITY  useCSS.label                          "HTML 요소 및 속성 대신 CSS 스타일 사용">
+
+<!ENTITY  siteManager.label                     "사이트 관리자">
+<!ENTITY  openInNewTab.label                    "언제나 새 탭으로 문서 열기">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "시스템 아이콘 사용">

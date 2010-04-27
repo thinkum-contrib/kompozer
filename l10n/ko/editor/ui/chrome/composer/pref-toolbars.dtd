@@ -33,7 +33,11 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY header.title "도구막대">
+
 <!ENTITY composition.caption "도구 모음 편집 버튼 보이기:">
+
 <!ENTITY new.label "새로">
 <!ENTITY open.label "열기">
 <!ENTITY save.label "저장">
@@ -49,7 +53,9 @@
 <!ENTITY table.label "표">
 <!ENTITY link.label "링크">
 <!ENTITY anchor.label "내부 링크">
+
 <!ENTITY formatting.caption "도구 모음 설정 버튼 보이기:">
+
 <!ENTITY smaller.label "작게">
 <!ENTITY larger.label "크게">
 <!ENTITY bold.label "굵게">
@@ -59,6 +65,7 @@
 <!ENTITY outdent.label "한 수준 위로">
 <!ENTITY indent.label "한 수준 아래로">
 <!ENTITY underline.label "밑줄">
+
 <!ENTITY absolutePosition.label "절대 위치">
 <!ENTITY decreaseZIndex.label "뒤로 가져가기">
 <!ENTITY increaseZIndex.label "앞으로 가져오기">

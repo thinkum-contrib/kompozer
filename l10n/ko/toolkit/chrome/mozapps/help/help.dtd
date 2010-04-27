@@ -1,30 +1,85 @@
-<!ENTITY printCmd.commandkey "p">
-<!ENTITY findOnCmd.commandkey "F">
-<!ENTITY findAgainCmd.commandkey "G">
-<!ENTITY findAgainCmd.commandkey2 "VK_F3">
-<!ENTITY backButton.label "뒤로">
-<!ENTITY backButton.accesskey "B">
-<!ENTITY backButton.tooltip "이전 페이지로 돌아갑니다.">
-<!ENTITY copyCmd.label "복사하기">
-<!ENTITY copyCmd.accesskey "C">
-<!ENTITY forwardButton.label "앞으로">
-<!ENTITY forwardButton.accesskey "F">
-<!ENTITY forwardButton.tooltip "다음 페이지로 진행합니다.">
-<!ENTITY homeButton.label "홈">
-<!ENTITY homeButton.tooltip "도움말의 시작 페이지로 이동합니다.">
-<!ENTITY printButton.label "인쇄">
-<!ENTITY printButton.tooltip "이 페이지를 인쇄합니다.">
-<!ENTITY closeWindow.commandkey "W">
-<!ENTITY throbberItem.title "활성 아이콘">
-<!ENTITY searchtab.label "검색">
-<!ENTITY searchtab.accesskey "S">
-<!ENTITY toctab.label "목차">
-<!ENTITY toctab.accesskey "C">
-<!ENTITY textZoomReduceCmd.commandkey "-">
-<!ENTITY textZoomEnlargeCmd.commandkey "+">
-<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
-<!ENTITY textZoomResetCmd.commandkey "0">
-<!ENTITY textZoomReduceBtn.label "글자 작게">
-<!ENTITY textZoomReduceBtn.accesskey "D">
-<!ENTITY textZoomEnlargeBtn.label "글자 크게">
-<!ENTITY textZoomEnlargeBtn.accesskey "I">
+<!ENTITY printCmd.commandkey             "p">
+
+<!ENTITY viewCustomizeToolbar.label      "사용자지정…">
+<!ENTITY viewCustomizeToolbar.accesskey  "사">
+
+<!ENTITY findOnCmd.commandkey            "F">
+<!ENTITY findAgainCmd.commandkey         "G">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "이 페이지에서 찾기">
+<!ENTITY findDialogFrame.title           "이 프레임에서 찾기">
+<!ENTITY findField.label                 "찾기:">
+<!ENTITY findField.accesskey             "찾">
+<!ENTITY caseSensitiveCheckbox.label     "대/소문자 구별">
+<!ENTITY caseSensitiveCheckbox.accesskey "대">
+<!ENTITY wrapCheckbox.label              "단어 기준">
+<!ENTITY wrapCheckbox.accesskey          "단">
+<!ENTITY backwardsCheckbox.label         "거꾸로 찾기">
+<!ENTITY backwardsCheckbox.accesskey     "거">
+<!ENTITY findField.tooltip               "한 개 이상의 단어 찾기">
+<!ENTITY findButton.label                "다음 찾기">
+<!ENTITY findButton.accesskey            "다">
+<!ENTITY cancelButton.label              "취소">
+<!ENTITY up.label                        "위로">
+<!ENTITY up.accesskey                    "위">
+<!ENTITY down.label                      "아래로">
+<!ENTITY down.accesskey                  "아">
+<!ENTITY direction.label                 "찾기 방향">
+
+<!ENTITY find.label                      "찾기:">
+<!ENTITY findNext.label                  "다음 찾기">
+<!ENTITY findNext.tooltip                "아래로 검색된 문자열을 찾습니다.">
+<!ENTITY findPrevious.label              "이전 찾기">
+<!ENTITY findPrevious.tooltip            "위로 검색된 문자열을 찾습니다.">
+<!ENTITY findCloseButton.tooltip         "검색창 닫기">
+<!ENTITY highlight.label                 "강조">
+<!ENTITY highlight.tooltip               "구문 중 발견되는 모든 것을 강조 (Ctrl+Enter)">
+
+<!ENTITY backButton.label                "뒤로">
+<!ENTITY backButton.accesskey            "B">
+<!ENTITY backButton.tooltip              "이전 페이지로 돌아갑니다.">
+<!ENTITY forwardButton.label             "앞으로">
+<!ENTITY forwardButton.accesskey         "F">
+<!ENTITY forwardButton.tooltip           "다음 페이지로 진행합니다.">
+<!ENTITY homeButton.label                "홈">
+<!ENTITY homeButton.tooltip              "도움말의 시작 페이지로 이동합니다.">
+<!ENTITY printButton.label               "인쇄">
+<!ENTITY printButton.tooltip             "페이지 인쇄">
+<!ENTITY findBtn.label                   "찾기">
+<!ENTITY sidebarBtn.label                "탐색창 전환">
+<!ENTITY sidebarBtn.tooltip              "도움말 탐색창을 표시하거나 숨깁니다">
+<!ENTITY textZoomReduceBtn.label         "글자 작게">
+<!ENTITY textZoomReduceBtn.accesskey     "D">
+<!ENTITY textZoomReduceBtn.tooltip       "도움말 문서 내 글자의 크기를 줄입니다.">
+<!ENTITY textZoomEnlargeBtn.label        "글자 크게">
+<!ENTITY textZoomEnlargeBtn.accesskey    "I">
+<!ENTITY textZoomEnlargeBtn.tooltip      "도움말 문서 내 글자의 크기를 키웁니다.">
+<!ENTITY customizeButton.tooltip         "도움말 도구막대에 보여질 버튼들을 사용자지정합니다.">
+<!ENTITY reloadCmd.label                 "새로 고침">
+<!ENTITY reloadCmd.accesskey             "새">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "복사하기">
+<!ENTITY copyCmd.accesskey               "C">
+
+<!ENTITY throbberItem.title              "활성 아이콘">
+
+<!ENTITY cmd_CustomizeToolbars.label     "사용자지정" >
+
+<!ENTITY searchtab.label                 "검색">
+<!ENTITY searchtab.accesskey             "S">
+<!ENTITY searchbtn.label                 "찾기">
+<!ENTITY toctab.label                    "목차">
+<!ENTITY toctab.accesskey                "C">
+<!ENTITY indextab.label                  "색인">
+<!ENTITY indextab.accesskey              "색">
+<!ENTITY ixname.label                    "이름">
+<!ENTITY glossarytab.label               "용어집">
+<!ENTITY glossarytab.accesskey           "용">
+<!ENTITY glossname.label                 "이름">
+<!ENTITY gobtn.label                     "검색">
+<!ENTITY name.label                      "항목">
+
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">

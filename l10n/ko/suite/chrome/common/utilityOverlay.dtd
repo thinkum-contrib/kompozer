@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label                 "오프라인에서 작업">
+<!ENTITY  offlineGoOfflineCmd.accesskey             "오">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					"파일"> 
+<!ENTITY fileMenu.accesskey				"파">
+<!ENTITY newMenu.label						"새로">
+<!ENTITY newMenu.accesskey					"새">
+<!ENTITY newBlankPageCmd.label "페이지 작성">
+<!ENTITY newBlankPageCmd.accesskey "페" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "페이지에 템플릿 사용">
+<!ENTITY newPageFromTemplateCmd.accesskey "페">
+<!ENTITY newPageFromDraftCmd.label "초안을 사용해 페이지 생성">
+<!ENTITY newPageFromDraftCmd.accesskey "초">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				"브라우저 창">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"브">
+
+<!ENTITY editMenu.label					"편집"> 
+<!ENTITY editMenu.accesskey				"편"> 
+<!ENTITY undoCmd.label						"실행 취소">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"실"> 
+<!ENTITY redoCmd.label						"재실행">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"재"> 
+<!ENTITY cutCmd.label						"잘라내기">  
+<!ENTITY cutCmd.key							"X">  
+<!ENTITY cutCmd.accesskey					"잘"> 
+<!ENTITY copyCmd.label						"복사하기">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"복"> 
+<!ENTITY pasteCmd.label						"붙여넣기">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"붙"> 
+<!ENTITY deleteCmd.label					"삭제">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey				"삭"> 
+<!ENTITY selectAllCmd.label					"모두 선택">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey				"모"> 
+<!ENTITY preferencesCmd.label				"환경설정">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"환"> 
+<!ENTITY findTypeTextCmd.label "형식으로 글 찾기">
+<!ENTITY findTypeTextCmd.accesskey "형">
+<!ENTITY findTypeLinksCmd.label "형식으로 연결 찾기">
+<!ENTITY findTypeLinksCmd.accesskey "형">
+
+<!ENTITY viewMenu.label					"보기"> 
+<!ENTITY viewMenu.accesskey				"보"> 
+<!ENTITY viewToolbarsMenu.label				"표시/숨기기"> 
+<!ENTITY viewToolbarsMenu.accesskey			"표"> 
+<!ENTITY showTaskbarCmd.label					"상태 막대">  
+<!ENTITY showTaskbarCmd.accesskey				"상"> 
+
+<!ENTITY helpMenu.label					"도움말"> 
+<!ENTITY helpMenu.accesskey				"도"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"무엇이 새로워졌나">  
+
+<!ENTITY releaseCmd.label				"공개 기록">
+<!ENTITY releaseCmd.accesskey                   "공">
+<!ENTITY aboutCmd.label					"&brandShortName; 정보">
+<!ENTITY aboutCmd.accesskey				"a">
+<!ENTITY aboutCommPluginsCmd.label			"플러그인에 대하여">
+<!ENTITY aboutCommPluginsCmd.accesskey			"플">
+
+<!ENTITY direct.label                                   "온라인(프록시:없음)">
+<!ENTITY direct.accesskey                               "온">
+<!ENTITY manual.label                                   "온라인(프록시:수동)">
+<!ENTITY manual.accesskey                               "온">
+<!ENTITY pac.label                                      "온라인(프록시:자동 URL)">
+<!ENTITY pac.accesskey                                  "온">
+<!ENTITY wpad.label                                     "온라인(프록시:자동 찾기)">
+<!ENTITY wpad.accesskey                                 "온">
+
+<!ENTITY proxy.label                                    "프록시 설정…">
+<!ENTITY proxy.accesskey                                "프">
+
+<!ENTITY bidiSwitchTextDirectionItem.label        "글쓰기 방향 전환">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "글">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">

@@ -1,0 +1,83 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc., Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY editSitesList.label      "사이트 목록 편집…">
+
+<!ENTITY filterAll.label          "모든 파일">
+<!ENTITY filterHTML.label         "HTML 문서">
+<!ENTITY filterCSS.label          "CSS 스타일시트">
+<!ENTITY filterImages.label       "이미지 파일">
+<!ENTITY filterMedia.label        "미디어 파일">
+<!ENTITY filterScripts.label      "텍스트 파일">
+
+<!ENTITY treeViewCheckbox.label   "트리구조 표시">
+
+<!ENTITY filenameColumn.label     "이름">
+<!ENTITY sizeColumn.label         "크기">
+<!ENTITY lastModifiedColumn.label "최종 변경일">
+
+<!ENTITY deleteFile.label         "파일 삭제">
+<!ENTITY deletefile.accesskey     "D">
+<!ENTITY createDir.label          "새 하부 디렉토리">
+<!ENTITY createdir.accesskey      "N">
+<!ENTITY removeDir.label          "디렉토리 삭제">
+<!ENTITY removedir.accesskey      "R">
+
+<!ENTITY reloadButton.tooltip     "새로고침">
+<!ENTITY createDirButton.tooltip  "새 폴더">
+<!ENTITY removeButton.tooltip     "삭제">
+<!ENTITY stopButton.tooltip       "중지">
+
+<!ENTITY renameMenu.label         "이름 변경">
+<!ENTITY renameButton.tooltip     "파일 또는 폴더 이름변경">
+
+<!ENTITY filterControl.label      "표시:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "지역">
+<!ENTITY remoteTab.label          "원격">
+<!ENTITY ftpConsole.label         "FTP 콘솔">
+
+<!ENTITY editItem.label           "편집"> 
+<!ENTITY openItem.label           "열기">
+<!ENTITY openAsText.label         "텍스트로 열기">
+<!ENTITY openRemote.label         "원격 디렉토리 열기">
+<!ENTITY insertImage.label        "이미지 삽입">
+<!ENTITY previewItem.label        "미리 보기">
+<!ENTITY uploadItem.label         "배포…">
+<!ENTITY downloadItem.label       "복구…">
+<!ENTITY itemProperties.label     "속성…">

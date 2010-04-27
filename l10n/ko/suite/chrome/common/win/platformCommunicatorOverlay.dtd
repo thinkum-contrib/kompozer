@@ -1,0 +1,25 @@
+<!-- win -->
+<!-- LOCALIZATION NOTE : FILE Do not translate "accel" or "shift",
+                         You may want to translate the Cmd.key and accesskey --> 
+
+<!ENTITY closeCmd.label			"닫기">  
+<!ENTITY closeCmd.key			"W">  
+<!ENTITY closeCmd.accesskey		"닫">
+
+<!ENTITY quitApplicationCmd.label	"종료"> 
+<!ENTITY quitApplicationCmd.key		"Q"> 
+<!ENTITY quitApplicationCmd.accesskey	"종">
+
+<!ENTITY redoCmd.label			"재실행">  
+<!ENTITY redoCmd.key			"Y">  
+<!ENTITY redoCmd.accesskey		"재">
+
+<!ENTITY findTypeTextCmd.key            "/">
+<!ENTITY findTypeLinksCmd.key           "'">
+
+<!ENTITY accel.emacs_conflict           "accel">
+
+<!-- Help viewer -->
+<!ENTITY openHelpCmd.label              "도움말">
+<!ENTITY openHelpCmd.accesskey          "도">
+<!ENTITY openHelpCmd.key                "VK_F1">

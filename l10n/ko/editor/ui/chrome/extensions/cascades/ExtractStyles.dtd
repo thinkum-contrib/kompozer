@@ -37,13 +37,13 @@
 
 <!ENTITY window.title             "일반 스타일 생성">
 
-<!ENTITY description.label        "Extract the CSS inline styles attached to this element and create a CSS style rule applied to">
+<!ENTITY description.label        "이 요소가 첨부된 CSS 인라인 스타일을 추출하고 적용할 CSS 스타일 규칙을 만듭니다">
 <!ENTITY thisElementOnly.label    "이 요소에만">
 <!ENTITY allElements.label        "모든 요소">
 
-<!ENTITY ofClass.label            "of class:">
-<!ENTITY ofType.label             "of same element type">
-<!ENTITY whenHovered.label        "hovered by the pointer">
-<!ENTITY autoChoice.label         "Choose for me!">
+<!ENTITY ofClass.label            "클래스:">
+<!ENTITY ofType.label             "같은 요소 유형">
+<!ENTITY whenHovered.label        "마우스 커서가 오면">
+<!ENTITY autoChoice.label         "날 위해 선택해줘(자동선택)!">
 <!ENTITY alreadyUsedWarning.label "주의, 이 이름은 이미 사용되고 있습니다!!!">
 <!ENTITY nameNeededWarning.label  "이 요소에 이름을 반드시 주어야만 합니다.">

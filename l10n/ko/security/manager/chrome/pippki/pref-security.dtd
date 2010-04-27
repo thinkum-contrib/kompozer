@@ -36,17 +36,18 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
+<!ENTITY  resetsettings.label      "설정 변경">
+<!ENTITY  resetpreferences.label   "설정 변경…">
 <!ENTITY  managecerts.caption      "인증서 관리">
+<!ENTITY  managecerts.text         "개인 인증서와 인증 기관을 관리합니다.">
+<!ENTITY  managecerts.button       "인증서 관리…">
+<!ENTITY  managecerts.accesskey    "M">
 <!ENTITY  managedevices.caption    "보안 장치 관리">
-<!ENTITY  pref.certs.title         "인증서">
+<!ENTITY  managedevices.text       "스마트카드와 같은 보안 장치를 설정합니다.">
+<!ENTITY  managedevices.button     "보안 장치 관리자…">
+<!ENTITY  managedevices.accesskey  "S">
 
-<!ENTITY  resetsettings.label    "설정 변경">
-<!ENTITY  resetpreferences.label "설정 변경…">
-<!ENTITY  managecerts.text       "개인 인증서와 인증 기관을 관리합니다.">
-<!ENTITY  managecerts.button     "인증서 관리…">
-<!ENTITY  managecerts.accesskey  "M">
-<!ENTITY  managedevices.text     "스마트카드와 같은 보안 장치를 설정합니다.">
-<!ENTITY  managedevices.button   "보안 장치 관리자…">
-<!ENTITY  managedevices.accesskey   "S">
-<!ENTITY  ssl.label              "SSL">
-<!ENTITY  certs.label            "인증서">
+<!ENTITY  ssl.label                "SSL">
+
+<!ENTITY  pref.certs.title         "인증서">
+<!ENTITY  certs.label              "인증서">

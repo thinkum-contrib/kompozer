@@ -1,21 +1,25 @@
-<!ENTITY license.part0 "is copyright">
-<!ENTITY license.part1 "by its">
-<!ENTITY license.contrib "contributors">
-<!ENTITY license.part2 "according to terms set out in the">
-<!ENTITY license.part3 "document. All Rights Reserved.">
+<!ENTITY license.part0     "is copyright">
+<!ENTITY license.part1     "by its">
+<!ENTITY license.contrib   "contributors">
+<!ENTITY license.part2     "according to terms set out in the">
+<!ENTITY license.part3     "document. All Rights Reserved.">
 
-<!ENTITY about.version                "version">
+<!ENTITY about.version                "버전">
+
 <!ENTITY about.copy.beforeLink        "Copyright &copy; 1998-2006 by">
 <!ENTITY about.copy.linkTitle         "contributors">
 <!ENTITY about.copy.afterLink         "to the Mozilla Project.">
 
-<!ENTITY about.license.beforeLink     "Read the">
-<!ENTITY about.license.linkTitle      "licensing information">
-<!ENTITY about.license.afterLink      "for this product.">
-<!ENTITY about.relnotes.beforeLink    "Read the">
-<!ENTITY about.relnotes.linkTitle     "release notes">
-<!ENTITY about.relnotes.afterLink     "for this version.">
-<!ENTITY about.buildconfig.beforeLink "See the">
-<!ENTITY about.buildconfig.linkTitle  "build configuration">
-<!ENTITY about.buildconfig.afterLink  "used for this version.">
-<!ENTITY about.buildIdentifier        "Build identifier: ">
+<!ENTITY about.license.beforeLink     "이 제품의">
+<!ENTITY about.license.linkTitle      "라이센스 정보">
+<!ENTITY about.license.afterLink      "읽기.">
+
+<!ENTITY about.relnotes.beforeLink    "이 제품의">
+<!ENTITY about.relnotes.linkTitle     "배포 기록">
+<!ENTITY about.relnotes.afterLink     "읽기.">
+
+<!ENTITY about.buildconfig.beforeLink "이 버전에서 사용할">
+<!ENTITY about.buildconfig.linkTitle  "빌드 구성">
+<!ENTITY about.buildconfig.afterLink  "보기.">
+
+<!ENTITY about.buildIdentifier        "빌드 식별자: ">

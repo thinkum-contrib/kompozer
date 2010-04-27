@@ -1,0 +1,13 @@
+<!ENTITY  untitledTab            "(제목없음)">
+<!ENTITY  newTab.label           "새 탭">
+<!ENTITY  newTab.accesskey       "새">
+<!ENTITY  closeTab.label         "탭 닫기">
+<!ENTITY  closeTab.accesskey         "탭">
+<!ENTITY  closeOtherTabs.accesskey  "다">
+<!ENTITY  closeOtherTabs.label   "다른 탭 닫기">
+<!ENTITY  reloadAllTabs.label    "모든 탭 새로 고침">
+<!ENTITY  reloadAllTabs.accesskey         "모">
+<!ENTITY  reloadTab.label        "탭 새로 고침">
+<!ENTITY  reloadTab.accesskey         "탭">
+<!ENTITY  newTabButton.tooltip   "새 탭 열기">
+<!ENTITY  listAllTabs.label      "모든 탭 목록">

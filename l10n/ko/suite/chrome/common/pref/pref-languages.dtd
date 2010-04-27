@@ -1,0 +1,39 @@
+<!-- LOCALIZATION NOTE : FILE 'Languages' preferences dialog -->
+
+<!ENTITY  languages.customize.prefLangDescript          "웹 페이지는 종종 1개 이상의 언어를 사용하곤 합니다. 환경설정내 순서를 통해, 웹 페이지를 표현할 언어를 선택하세요.">
+<!ENTITY languages.customize.lHeader                    "언어">
+<!ENTITY languages.customize.rHeader                    "웹 페이지가 표현된 언어">
+<!ENTITY langtitle.label                                "웹 페이지 사용 언어">
+<!ENTITY languages.customize.prefAddLangDescript        "사용하고자 하는 언어를 선택하세요.">
+<!ENTITY languages.customize.engOrder.label             "1">
+<!ENTITY languages.customize.engOption.label            "영어">
+<!ENTITY languages.customize.addButton.label            "추가…">
+<!ENTITY languages.customize.addButton.accesskey        "추">
+<!ENTITY languages.customize.deleteButton.label         "제거">
+<!ENTITY languages.customize.deleteButton.accesskey     "제">
+<!ENTITY languages.customize.title.label			    "사용자지정 언어">
+<!ENTITY languages.customize.add.title.label		    "언어 선택">
+<!ENTITY languages.customize.left.header			    "문자 인코딩">
+<!ENTITY charset.customize.right.header		    "지원하는 문자 인코딩 선택">
+<!ENTITY languages.customize.available.label            "언어:">
+<!ENTITY languages.customize.active.label               "언어 선호 순서:">
+<!ENTITY languages.customize.reorder.label              "재명령">
+<!ENTITY languages.customize.remove.label               "제거">
+<!ENTITY languages.customize.additional.label           "사용가능한 캐릭터셋">
+<!ENTITY languages.customize.add.label                  "추가">
+<!ENTITY languages.customize.others.label               "기타:">
+<!ENTITY languages.customize.others.accesskey           "기">
+<!ENTITY languages.customize.Charset.grouplabel         "문자 인코딩">
+<!ENTITY languages.customize.DefaultCharset.label       "기본 문자 인코딩:">
+<!ENTITY languages.customize.DefaultCharset.accesskey   "기">
+<!-- LOCALIZATION NOTE  Character Encoding Preferences Dialog: Do NOT localize the terms "en-bz, ar-jo"  -->
+<!ENTITY languages.customize.others.examples            "e.g.: en-bz, ar-jo">
+<!ENTITY languages.customize.cancel.label		            "취소">
+<!ENTITY languages.customize.save.label                 "저장">
+<!ENTITY languages.customize.ok.label                   "확인">
+<!ENTITY languages.customize.save.popup                 "변경사항을 적용하려면 브라우저를 재시작해주세요…">
+<!ENTITY languages.customize.moveUp.label               "위로 이동">
+<!ENTITY languages.customize.moveUp.accesskey           "위">
+<!ENTITY languages.customize.moveDown.label             "아래로 이동">
+<!ENTITY languages.customize.moveDown.accesskey         "아">
+

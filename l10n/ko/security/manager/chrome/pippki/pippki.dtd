@@ -34,6 +34,7 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!-- Values for changepassword.xul -->
 <!ENTITY setPassword.title  "기본 암호 변경">
 <!ENTITY setPassword.tokenName.label "보안 장치">
@@ -42,17 +43,21 @@
 <!ENTITY setPassword.reenterPassword.label "새 암호 확인:">
 <!ENTITY setPassword.meter.label "암호 수준 측정">
 <!ENTITY setPassword.meter.loading "읽는 중…">
+
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "재설정">
 <!ENTITY resetPassword.title  "기본 암호 재설정">
 <!ENTITY resetPassword.text  "기본 암호를 재설정하면 저장된 메일, 폼 데이터, 개인 인증서에 접근하지 못할 수 있습니다. 기본 암호를 변경하시겠습니까?">
+
 <!-- Values for getpassword.xul -->
 <!ENTITY getPassword.title  "기본 암호 입력">
 <!ENTITY getPassword.tokenName.label "보안 장치">
 <!ENTITY getPassword.password.label "암호:">
+
 <!-- These should be common -->
 <!ENTITY piperror.title "에러">
 <!ENTITY pipalert.title "에러 - 복구할 수 없음">
+
 <!-- Prefs panel strings -->
 <!ENTITY pref.security.general.lHeader "보안">
 <!ENTITY pref.security.general.rHeader "기본 보안 설정">
@@ -61,6 +66,7 @@
 <!ENTITY pref.security.general.paranoid.label "보안 설정 사용">
 <!ENTITY pref.security.general.certificates.title "인증서">
 <!ENTITY pref.security.general.manageCert.label "인증서 관리">
+
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "인증서 다운로드 중…">
 <!ENTITY downloadCert.message1 "새 인증 기관(CA)을 신뢰할 지 항상 물어봅니다.">
@@ -72,43 +78,55 @@
 <!ENTITY downloadCert.viewPolicy.label "정책">
 <!ENTITY downloadCert.viewCert.text "인증 기관 인증서 조사">
 <!ENTITY downloadCert.viewPolicy.text "인증 기관 정책과 절차 조사">
+
 <!-- Certificate Exists in database -->
 <!ENTITY caCertExists.title "인증서 존재">
 <!ENTITY caCertExists.message "인증서가 이미 존재합니다.">
+
 <!-- Strings for the MismatchDomain dialog  -->
 <!ENTITY domainMismatch.title "보안 에러: 도메인명이 맞지 않음">
 <!ENTITY examineCert.label "인증서 보기">
 <!ENTITY examineCert.accesskey "V">
+
 <!-- Strings for the Server cert expired dialog  -->
 <!ENTITY serverCertExpired.continue "계속하시겠습니까?">
 <!ENTITY serverCertExpired.accept.label "계속">
+
 <!-- Strings for the SSL client auth ask dialog -->
 <!ENTITY clientAuthAsk.title "사용자 인증서 요청">
 <!ENTITY clientAuthAsk.message1 "웹 사이트에서 신원을 보증할 인증서를 요청하면:">
 <!ENTITY clientAuthAsk.message2 "사용할 인증서 선택:">
 <!ENTITY clientAuthAsk.message3 "인증서 상세 정보">
+
 <!-- Strings for the cert picker dialog -->
 <!ENTITY certPicker.title "인증서 선택">
 <!ENTITY certPicker.info  "인증서:">
 <!ENTITY certPicker.detailsLabel "인증서 상세 정보">
+
 <!ENTITY pkcs12.setpassword.title  "인증서 백업 암호 입력">
 <!ENTITY pkcs12.setpassword.message  "인증서 백업 암호는 인증서 백업본을 보호합니다. 인증서를 백업하는 과정에서 암호를 설정해야 합니다.">
 <!ENTITY pkcs12.setpassword.label1 "인증서 백업 암호:">
 <!ENTITY pkcs12.setpassword.label2 "인증서 백업 암호(재입력):">
 <!ENTITY pkcs12.setpassword.reminder "중요: 만약 인증서 백업 암호를 분실하면 백업한 인증서를 다시 가져올 수 없습니다.">
+
 <!ENTITY pkcs12.getpassword.title  "암호 입력">
 <!ENTITY pkcs12.getpassword.message "인증서 백업을 암호화 할 암호 입력:">
+
 <!ENTITY chooseToken.title  "토큰 대화 상자 선택">
 <!ENTITY chooseToken.message1 "토큰을 선택하십시오.">
+
 <!ENTITY escrowWarn.title "암호키 복사">
 <!ENTITY escrowWarn.message1 "중요: 인증 기관이 사용자의 개인키를 백업할 것인지 물어왔습니다.">
 <!ENTITY escrowWarn.benefit1 "암호화 된 개인키를 가져오는데 실패하면 인증 기관으로부터 복사본을 요청할 수 있습니다.">
 <!ENTITY escrowWarn.message2 "암호화 된 개인키는 인증 기관에 저장되며 사용자의 허가없이 다른 사람이 읽을 수 없습니다.">
+
 <!ENTITY serverCrlNextupdate.message "시스템 관리자에게 문의하십시오.">
+
 <!-- Strings for the CreateCertInfo dialog  -->
 <!ENTITY createCertInfo.title "개인키 생성 중…">
 <!ENTITY createCertInfo.msg1 "키를 생성하고 있습니다. 잠시만 기다려 주십시오…">
 <!ENTITY createCertInfo.msg2 "잠시만 기다려 주십시오…">
+
 <!-- Form Signing confirmation prompt -->
 <!ENTITY formSigning.title "문자 서명 요청">
 <!ENTITY formSigning.cert "인증서 서명">

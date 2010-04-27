@@ -20,34 +20,45 @@
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
    -
    - Alternatively, the contents of this file may be used under the terms of
-   - either of the GNU General Public License Version 2 or later (the "GPL"),
-   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
    - in which case the provisions of the GPL or the LGPL are applicable instead
    - of those above. If you wish to allow use of your version of this file only
    - under the terms of either the GPL or the LGPL, and not to allow others to
    - use your version of this file under the terms of the MPL, indicate your
    - decision by deleting the provisions above and replace them with the notice
-   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - and other provisions required by the LGPL or the GPL. If you do not delete
    - the provisions above, a recipient may use your version of this file under
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!-- Window title -->
 <!-- LOCALIZATION NOTE  (editorWindow.titlemodifier): DONT_TRANSLATE -->
-<!ENTITY editorWindow.titlemodifier "편집기">
+<!ENTITY editorWindow.titlemodifier              "편집기"> 
 <!ENTITY editorWindow.titlemodifiermenuseparator " - ">
-<!ENTITY textEditorWindow.titlemodifier "텍스트 편집기">
+<!ENTITY textEditorWindow.titlemodifier          "텍스트 편집기"> 
+
 <!-- Menu items:  the . means that the menu item isn't implemented yet -->
+
 <!-- View menu items -->
-<!ENTITY viewMenu.label "보기">
-<!ENTITY viewmenu.accesskey "v">
+<!ENTITY viewMenu.label           "보기">
+<!ENTITY viewmenu.accesskey       "v">
+
 <!-- Format menu items -->
-<!ENTITY formatMenu.label "서식">
-<!ENTITY formatmenu.accesskey "o">
-<!ENTITY helpMenu.label "도움말">
-<!ENTITY aboutCmd.label "정보">
+<!ENTITY formatMenu.label         "서식">
+<!ENTITY formatmenu.accesskey     "o">
+
+<!ENTITY helpMenu.label           "도움말">
+<!ENTITY aboutCmd.label           "정보">
+
 <!-- Display Mode Toolbar -->
-<!ENTITY editMode.label "편집모드:">
-<!ENTITY statusText.label "페이지 가져오기 완료">
+<!ENTITY editMode.label           "편집모드:">
+
+<!ENTITY statusText.label         "페이지 가져오기 완료">
+
+<!ENTITY preferencesCmd.label     "선택사항…">
+<!ENTITY preferencesCmd.accesskey "선"> 

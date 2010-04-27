@@ -1,34 +1,49 @@
-<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd">
-%brandDTD;
 <!ENTITY loadError.label "페이지 읽기 에러">
 <!ENTITY retry.label "재시도">
+
+<!-- Specific error messages -->
+
 <!ENTITY connectionFailure.title "연결 실패">
-<!ENTITY connectionFailure.longDesc "&sharedLongDesc;">
+<!ENTITY connectionFailure.longDesc "<p>사이트가 유효하긴 하지만, 브라우저에서 연결을 설정할 수 없습니다.</p><ul><li>사이트를 일시적으로 사용할 수 없는 것은 아닌가요? 다음에 다시 시도하세요.</li><li>다른 사이트를 탐색할 수 없지 않나요? 컴퓨터의 네트워크 접속을 점검하세요.</li><li>컴퓨터나 네트워크가 방화벽이나 프록시로 보호받고 있지는 않나요? 잘못된 설정은 웹 탐색을 방해할 수도 있습니다.</li></ul>">
+
 <!ENTITY deniedPortAccess.title "제한된 주소">
-<!ENTITY deniedPortAccess.longDesc "">
+<!ENTITY deniedPortAccess.longDesc "<p>요청하신 주소는 일반적인 웹 탐색의 목적 <em>이외의</em> 용도로 하도록 포트(예.mozilla.org에 80번 포트라면 <q>mozilla.org:80</q>)를 지정했습니다. 브라우저가는 당신의 안전과 보안을 위해 요청을 취소했습니다.</p>">
+
 <!ENTITY dnsNotFound.title "서버를 찾을 수 없음">
 <!ENTITY dnsNotFound.longDesc "<ul>  <li><strong>www</strong>.example.com을 <strong>ww</strong>.example.com과 같이    입력하지 않았는지 오타를 검사해 보십시오.</li>  <li>어떤 페이지도 접속할 수 없다면 네트워크 상태를 확인해 보십시오.</li>  <li>컴퓨터나 네트워크가 방화벽이나 프록시의 영향을 받는다면 &brandShortName;가 웹에 접속할 수 있도록 설정하여 주십시오.</li></ul>">
+
 <!ENTITY fileNotFound.title "파일을 찾을 수 없음">
 <!ENTITY fileNotFound.longDesc "<ul>  <li>파일 이름의 오타 또는 대소문자 구분 등을 확인해 보십시오.</li>  <li>파일 이름이 변경되었거나 삭제 또는 이동되었을 수 있습니다.</li></ul>">
-<!ENTITY generic.title "Oops.">
+
+<!ENTITY generic.title "요청을 완료할 수 없습니다">
 <!ENTITY generic.longDesc "<p>&brandShortName; 알 수 없는 이유로 이 페이지를 열 수 없습니다.</p>">
+
 <!ENTITY malformedURI.title "주소가 유효하지 않음">
 <!ENTITY malformedURI.longDesc "<ul>  <li>웹 주소는 보통 <strong>http://www.example.com/</strong>과 같이 작성됩니다.</li>  <li>앞쪽의 슬래쉬를 사용했는지 확인해 보십시오.(예: <strong>/</strong>).</li></ul>">
+
 <!ENTITY netInterrupt.title "연결이 끊어짐">
-<!ENTITY netInterrupt.longDesc "&sharedLongDesc;">
+<!ENTITY netInterrupt.longDesc "<p>브라우저가 성공적으로 접속했습니다만, 정보를 전송하는 중에 접속이 중단되었습니다. 다시 시도해 주십시오.</p><ul><li>다른 사이트를 탐색할 수 없지는 않나요? 컴퓨터 네트워크를 접속을 점검하세요.</li><li>여전히 문제가 있나요? 당신의 네트워크 관리자나 인터넷 제공업체와 상담해 도움을 받으세요.</li></ul>">
+
 <!ENTITY netOffline.title "오프라인 상태">
 <!ENTITY netOffline.longDesc "<ul>  <li>파일 메뉴에서 &quot;오프라인으로 작업&quot; 을 해제하고 다시 시도해 보십시오.</li></ul>">
+
 <!ENTITY netReset.title "연결 초기화">
-<!ENTITY netReset.longDesc "&sharedLongDesc;">
+<!ENTITY netReset.longDesc "<p>연결을 처리하는 도중에 네트워크 연결이 중단되었습니다. 다시 시도해 주세요.</p>">
+
 <!ENTITY netTimeout.title "연결 시간 초과">
-<!ENTITY netTimeout.longDesc "&sharedLongDesc;">
+<!ENTITY netTimeout.longDesc "<p> 요청된 서버가 연결 요청에 대한 반응이 없어 브라우저가 응답을 기다리기를 중단했습니다.</p><ul><li> 서버에 부하가 집중되었거나 일시적으로 중지되었을 수 있습니다.나중에 다시 시도하십시오. </li> <li> 다른 사이트를 볼 수 없는 경우, 컴퓨터의 네트워크 연결을 확인하십시오. </li> <li> 컴퓨터나 네트워크가 방화벽 또는 프록시에 의해 보호되고 있습니까? 잘못된 설정은 웹 탐색을 방해 할 수 있습니다. </li> <li> 여전히 문제가 있는 경우, 네트워크 관리자나 인터넷 서비스 제공업체에 도움을 요청하십시오. </li> </ul>">
+
 <!ENTITY protocolNotFound.title "인식할 수 없는 주소">
 <!ENTITY protocolNotFound.longDesc "<ul>  <li>이 주소를 열기 위해서는 다른 프로그램을 설치하여야 합니다.</li></ul>">
+
 <!ENTITY proxyConnectFailure.title "프록시 서버 연결 거부">
 <!ENTITY proxyConnectFailure.longDesc "<ul>  <li>프록시 설정을 확인해 보십시오.</li>  <li>프록시 서버가 작업할 수 있도록 네트워크 관리자에게 문의하십시오.</li></ul>">
+
 <!ENTITY proxyResolveFailure.title "프록시 서버를 찾을 수 없음">
 <!ENTITY proxyResolveFailure.longDesc "<ul>  <li>프록시 설정을 확인해 보십시오.</li>  <li>컴퓨터와 네트워크가 정상적으로 작동 중인지 확인해 보십시오.</li>  <li>컴퓨터와 네트워크가 방화벽 또는 프록시를 이용하고 있다면 &brandShortName;가 웹에 접속할 수 있도록 설정하여 주십시오.</li></ul>">
+
 <!ENTITY redirectLoop.title "페이지 리디렉션 오류">
 <!ENTITY redirectLoop.longDesc "<ul>  <li>이 문제는 해당 사이트에서 요구하는 쿠키를 거부하여 발생할 수 있습니다.</li></ul>">
+
 <!ENTITY unknownSocketType.title "서버로부터 기대하지 않은 응답을 받음">
 <!ENTITY unknownSocketType.longDesc "<ul>  <li>시스템에 개인 보안 관리자가 설치되어 있는지 확인해 보십시오.</li>  <li>서버의 비정상적 설정 때문일 수도 있습니다.</li></ul>">

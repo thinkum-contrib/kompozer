@@ -1,0 +1,279 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title                           "CSS 스타일시트">
+
+<!ENTITY sheetsTreeColumn.label                 "시트 및 규칙">
+<!ENTITY expertModeChecbox.label                "전문가 모드">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "연결된 스타일시트">
+<!ENTITY styleSheetButton.label                 "내부 스타일시트">
+<!ENTITY ruleButton.label                       "스타일 규칙">
+<!ENTITY upButton.label                         "위로">
+<!ENTITY downButton.label                       "아래로">
+<!ENTITY refreshButton.label                    "새로고침">
+<!ENTITY removeButton.label                     "제거">
+<!ENTITY sheetInfoTab.label                     "일반">
+<!ENTITY textTab.label                          "텍스트">
+<!ENTITY borderTab.label                        "테두리">
+<!ENTITY marginsTab.label                       "여백">
+<!ENTITY boxTab.label                           "상자">
+<!ENTITY auralTab.label                         "청각">
+<!ENTITY fontFamily.label                       "글꼴체:">
+<!ENTITY inheritedFontFamily.label              "상속">
+<!ENTITY useCustomFontFamily.label              "사용자 지정 글꼴체 사용:">
+<!ENTITY fontData.label                         "글꼴 정보">
+<!ENTITY exampleSentence.label                  "키스의 고유 조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다">
+<!ENTITY backgroundTab.label                    "배경">
+
+<!ENTITY unspecifiedValue.label                 "미지정">
+<!ENTITY predefFontFamilyRadio.label            "기지정:">
+<!ENTITY fontSize.label                         "글꼴 크기:">
+<!ENTITY lineHeight.label                       "행 높이:">
+<!ENTITY normalLineHeight.label                 "일반">
+<!ENTITY color.label                            "색:">
+<!ENTITY fontWeight.label                       "글꼴 두께:">
+<!ENTITY normalValue.label                      "일반">
+<!ENTITY boldValue.label                        "굵게">
+<!ENTITY bolderValue.label                      "더 굵게">
+<!ENTITY lighterValue.label                     "더 얇게">
+<!ENTITY inheritedValue.label                   "상속">
+<!ENTITY fontStyle.label                        "글꼴 스타일:">
+<!ENTITY italicValue.label                      "기울임">
+<!ENTITY obliqueValue.label                     "오블리크">
+<!ENTITY textTransform.label                    "대/소문자:">
+<!ENTITY noneTextTransformValue.label           "변경없음">
+<!ENTITY lowercaseValue.label                   "소문자">
+<!ENTITY uppercaseValue.label                   "대문자">
+<!ENTITY capitalizeValue.label                  "대문자로">
+
+<!ENTITY closeButton.label                      "닫기">
+
+<!ENTITY largerFontSize.label                   "더 크게">
+<!ENTITY smallerFontSize.label                  "더 작게">
+<!ENTITY xxsmallFontSize.label                  "아주 작게">
+<!ENTITY xsmallFontSize.label                   "조금 작게">
+<!ENTITY smallFontSize.label                    "작게">
+<!ENTITY mediumFontSize.label                   "보통">
+<!ENTITY largeFontSize.label                    "크게">
+<!ENTITY xlargeFontSize.label                   "조금 크게">
+<!ENTITY xxlargeFontSize.label                  "아주 크게">
+
+<!ENTITY textAlign.label                        "정렬:">
+<!ENTITY rightTextAlign.label                   "오른쪽">
+<!ENTITY leftTextAlign.label                    "왼쪽">
+<!ENTITY centerTextAlign.label                  "가운데">
+<!ENTITY justifyTextAlign.label                 "배분 정렬">
+
+<!ENTITY textDecoration.label                   "글 장식:">
+<!ENTITY overlineTextDecoration.label           "윗줄">
+<!ENTITY underlineTextDecoration.label          "밑줄">
+<!ENTITY linethroughTextDecoration.label        "가운데 줄">
+<!ENTITY blinkTextDecoration.label              "깜빡임">
+<!ENTITY noneTextDecoration.label               "없음">
+
+<!ENTITY backgroundColor.label                  "색:">
+<!ENTITY backgroundImage.label                  "이미지:">
+<!ENTITY chooseFileButton.label                 "파일 선택">
+<!ENTITY backgroundRepeat.label                 "제목:">
+<!ENTITY norepeatBackgroundRepeat.label         "반복 안함">
+<!ENTITY repeatxBackgroundRepeat.label          "수평 반복">
+<!ENTITY repeatyBackgroundRepeat.label          "수직 반복">
+<!ENTITY repeatBackgroundRepeat.label           "수평 및 수직 반복">
+<!ENTITY backgroundPosition.label               "위치:">
+<!ENTITY leftXBackgroundPosition.label          "왼쪽">
+<!ENTITY centerXBackgroundPosition.label        "가운데">
+<!ENTITY rightXBackgroundPosition.label         "오른쪽">
+<!ENTITY topYBackgroundPosition.label           "위쪽">
+<!ENTITY centerYBackgroundPosition.label        "가운데">
+<!ENTITY bottomYBackgroundPosition.label        "아래쪽">
+<!ENTITY backgroundAttachmentCheckbox.label     "페이지 스크롤시 배경 이미지">
+
+
+<!ENTITY useBorderShorthand.label               "4면 모두 같은 테두리 스타일 사용">
+<!ENTITY borderStyle.label                      "스타일:">
+<!ENTITY borderWidth.label                      "폭:">
+<!ENTITY borderColor.label                      "색:">
+<!ENTITY topBorder.label                        "위쪽:">
+<!ENTITY leftBorder.label                       "왼쪽:">
+<!ENTITY rightBorder.label                      "오른쪽:">
+<!ENTITY bottomBorder.label                     "아래쪽:">
+<!ENTITY borderPreview.label                    "미리 보기">
+<!ENTITY noneBorderStyle.label                  "없음">
+<!ENTITY hiddenBorderStyle.label                "숨김">
+<!ENTITY solidBorderStyle.label                 "실선">
+<!ENTITY dottedBorderStyle.label                "점선">
+<!ENTITY dashedBorderStyle.label                "대시">
+<!ENTITY doubleBorderStyle.label                "이중선">
+<!ENTITY grooveBorderStyle.label                "홈">
+<!ENTITY ridgeBorderStyle.label                 "융기">
+<!ENTITY insetBorderStyle.label                 "들이기">
+<!ENTITY outsetBorderStyle.label                "내놓기">
+
+<!ENTITY display.label                          "배치:">
+<!ENTITY noneDisplay.label                      "없음">
+<!ENTITY inlineDisplay.label                    "인라인">
+<!ENTITY blockDisplay.label                     "블록">
+<!ENTITY runinDisplay.label                     "잇대기">
+<!ENTITY compactDisplay.label                   "간결한">
+<!ENTITY listitemDisplay.label                  "목록 항목">
+<!ENTITY tableDisplay.label                     "표">
+<!ENTITY tablerowDisplay.label                  "표 행">
+<!ENTITY tablecellDisplay.label                 "표 셀">
+<!ENTITY tablecaptionDisplay.label              "표 설명">
+<!ENTITY inlinetableDisplay.label               "인라인 표">
+<!ENTITY tablecolumnDisplay.label               "표 열">
+<!ENTITY tablerowgroupDisplay.label             "표 행 그룹">
+<!ENTITY tableheadergroupDisplay.label          "표 머리글 그룹">
+<!ENTITY tablefootergroupDisplay.label          "표 꼬리글 그룹">
+<!ENTITY tablecolumngroupDisplay.label          "표 열 그룹">
+
+<!ENTITY visibility.label                       "가시성:">
+<!ENTITY visibleVisibility.label                "보임">
+<!ENTITY hiddenVisibility.label                 "숨김">
+<!ENTITY collapseVisibility.label               "접기">
+
+<!ENTITY float.label                            "부동:">
+<!ENTITY leftFloat.label                        "왼쪽">
+<!ENTITY rightFloat.label                       "오른쪽">
+<!ENTITY noneFloat.label                        "없음">
+
+<!ENTITY clear.label                            "지우기:">
+<!ENTITY noneClear.label                        "없음">
+<!ENTITY leftClear.label                        "왼쪽">
+<!ENTITY rightClear.label                       "오른쪽">
+<!ENTITY bothClear.label                        "양쪽">
+
+
+<!ENTITY position.label                         "위치:">
+<!ENTITY staticPosition.label                   "정적">
+<!ENTITY fixedPosition.label                    "고정">
+<!ENTITY absolutePosition.label                 "절대적">
+<!ENTITY relativePosition.label                 "상대적">
+
+<!ENTITY overflow.label                         "오버플로:">
+<!ENTITY visibleOverflow.label                  "보임">
+<!ENTITY hiddenOverflow.label                   "숨김">
+<!ENTITY scrollOverflow.label                   "스크롤">
+<!ENTITY autoOverflow.label                     "자동">
+
+<!ENTITY zIndex.label                           "Z-인덱스:">
+
+<!ENTITY width.label                            "폭:">
+<!ENTITY minWidth.label                         "최소 폭:">
+<!ENTITY maxWidth.label                         "최대 폭:">
+<!ENTITY height.label                           "높이:">
+<!ENTITY minHeight.label                        "최소 높이:">
+<!ENTITY maxHeight.label                        "최대 높이:">
+
+<!ENTITY margins.label                          "여백:">
+<!ENTITY paddings.label                         "메움:">
+<!ENTITY offsets.label                          "오프셋:">
+<!ENTITY top.label                              "위쪽:">
+<!ENTITY left.label                             "왼쪽:">
+<!ENTITY right.label                            "오른쪽:">
+<!ENTITY bottom.label                           "아래쪽:">
+
+<!ENTITY volume.label                           "음량:">
+<!ENTITY xsoftVolume.label                      "매우 부드러운">
+<!ENTITY softVolume.label                       "부드러운">
+<!ENTITY mediumVolume.label                     "보통">
+<!ENTITY loudVolume.label                       "시끄러운">
+<!ENTITY xloudVolume.label                      "매우 시끄러운">
+<!ENTITY muteVolume.label                       "무음">
+
+<!ENTITY speak.label                            "말하기:">
+<!ENTITY noneSpeak.label                        "없음">
+<!ENTITY normalSpeak.label                      "일반">
+<!ENTITY spelloutSpeak.label                    "문자로 읽기">
+
+<!ENTITY speechRate.label                       "음성 속도:">
+<!ENTITY slowerSpeechRate.label                 "더 느리게">
+<!ENTITY fasterSpeechRate.label                 "더 빠르게">
+<!ENTITY xslowSpeechRate.label                  "매우 느리게">
+<!ENTITY slowSpeechRate.label                   "느린">
+<!ENTITY mediumSpeechRate.label                 "보통">
+<!ENTITY fastSpeechRate.label                   "빠른">
+<!ENTITY xfastSpeechRate.label                  "매우 빠른">
+
+<!ENTITY opacity.label                          "투명도:">
+
+<!ENTITY compatibilityTab.label                 "적합성">
+
+<!ENTITY transparentOpacity.label               "투명">
+
+<!ENTITY pauseBefore.label                      "다음 앞에 일시정지:">
+<!ENTITY cueBefore.label                        "다음 앞에서 신호:">
+<!ENTITY pauseAfter.label                       "다음 이후에 일시정지:">
+<!ENTITY cueAfter.label                         "다음 이후에 신호:">
+
+
+<!ENTITY listTab.label                          "목록">
+
+<!ENTITY listStyleType.label                    "목록 스타일 형식:">
+<!ENTITY noneListStyleType.label                "없음">
+<!ENTITY discListStyleType.label                "원형">
+<!ENTITY circleListStyleType.label              "빈 원">
+<!ENTITY squareListStyleType.label              "사각형">
+<!ENTITY decimalListStyleType.label             "소수점">
+<!ENTITY decimalLeadingZeroListStyleType.label  "소수점 앞에 0 붙임">
+<!ENTITY lowerRomanListStyleType.label          "로마자 소문자">
+<!ENTITY upperRomanListStyleType.label          "로마자 대문자">
+<!ENTITY lowerGreekListStyleType.label          "그리스어 소문자">
+<!ENTITY lowerAlphaListStyleType.label          "알파벳 소문자">
+<!ENTITY upperAlphaListStyleType.label          "알파벳 대문자">
+<!ENTITY armenianListStyleType.label            "아르메니아어">
+<!ENTITY georgianListStyleType.label            "그루지야어">
+
+
+<!ENTITY listStyleImage.label                   "목록 스타일 이미지:">
+<!ENTITY listStylePosition.label                "목록 스타일 위치:">
+<!ENTITY insideListStylePosition.label          "내부">
+<!ENTITY outsideListStylePosition.label         "외부">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "일반 스타일 생성 및 추출">
+<!ENTITY makecssrule.accesskey                  "E">
+<!ENTITY currentstylesfor.label                 "다음에 대한 현재 스타일:">
+<!ENTITY renameButton.label                     "선택자 편집">
+
+<!ENTITY autoMarginUnit.label                   "자동">
+<!ENTITY thinBorderUnit.label                   "얇은">
+<!ENTITY mediumBorderUnit.label                 "보통">
+<!ENTITY thickBorderUnit.label                  "두꺼운">

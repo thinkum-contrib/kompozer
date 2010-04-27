@@ -33,8 +33,11 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!ENTITY windowTitle.label "폼 설정">
+
 <!ENTITY Settings.label "설정">
+
 <!ENTITY FormName.label "폼 이름:">
 <!ENTITY FormName.accesskey "N">
 <!ENTITY FormAction.label "보낼 URL(Action):">
@@ -45,5 +48,6 @@
 <!ENTITY FormEncType.accesskey "c">
 <!ENTITY FormTarget.label "프레임지정:">
 <!ENTITY FormTarget.accesskey "T">
+
 <!ENTITY RemoveForm.label "폼제거">
 <!ENTITY RemoveForm.accesskey "R">

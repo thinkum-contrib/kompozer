@@ -1,0 +1,108 @@
+<!-- Context Menu -->
+<!ENTITY popupWindowRejectCmd.label     "이 사이트로부터 팝업 창 거부">
+<!ENTITY popupWindowRejectCmd.accesskey "이">
+<!ENTITY popupWindowAllowCmd.label      "이 사이트로부터 팝업 창 허용">
+<!ENTITY popupWindowAllowCmd.accesskey  "이">
+<!ENTITY openLinkCmd.label            "새 창으로 연결 열기">
+<!ENTITY openLinkCmd.accesskey        "새">
+<!ENTITY openLinkCmdInTab.label       "새 탭으로 연결 열기">
+<!ENTITY openLinkCmdInTab.accesskey   "새">
+<!ENTITY openLinkInWindowCmd.label    "열기">
+<!ENTITY openLinkInWindowCmd.accesskey "열">
+<!ENTITY openFrameCmd.label           "새 창으로 프레임 열기">
+<!ENTITY openFrameCmd.accesskey       "새">
+<!ENTITY openFrameCmdInTab.label      "새 탭으로 프레임 열기">
+<!ENTITY openFrameCmdInTab.accesskey  "새">
+<!ENTITY showOnlyThisFrameCmd.label     "이 프레임에서만 보기">
+<!ENTITY showOnlyThisFrameCmd.accesskey "이">
+<!ENTITY addToBookmarksCmd.label      "이 페이지를 북마크에 추가">
+<!ENTITY addToBookmarksCmd.accesskey  "이">
+<!ENTITY goBackCmd.label              "뒤로">
+<!ENTITY goBackCmd.accesskey          "뒤">
+<!ENTITY goForwardCmd.label           "앞으로">
+<!ENTITY goForwardCmd.accesskey       "앞">
+<!ENTITY goUpCmd.label                "위로">
+<!ENTITY goUpCmd.accesskey            "위">
+<!ENTITY reloadCmd.label              "새로 고침">
+<!ENTITY reloadCmd.accesskey          "새">
+<!ENTITY reloadCmd.commandkey         "r">
+<!ENTITY stopCmd.label                "중지">
+<!ENTITY stopCmd.accesskey            "중">
+<!ENTITY reloadFrameCmd.label         "프레임 다시 부르기">
+<!ENTITY reloadFrameCmd.accesskey     "프">
+<!ENTITY viewPartialSourceForSelectionCmd.label "선택한 소스 보기">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "MathML 소스 보기">
+<!ENTITY viewPartialSourceCmd.accesskey "e">
+<!ENTITY viewPageSourceCmd.label      "페이지 소스 보기">
+<!ENTITY viewPageSourceCmd.accesskey  "페">
+<!ENTITY viewFrameSourceCmd.label     "프레임 소스 보기">
+<!ENTITY viewFrameSourceCmd.accesskey "프">
+<!ENTITY viewPageInfoCmd.label        "페이지 정보 보기">
+<!ENTITY viewPageInfoCmd.accesskey    "페">
+<!ENTITY viewFrameInfoCmd.label       "프레임 정보 보기">
+<!ENTITY viewFrameInfoCmd.accesskey   "프">
+<!ENTITY fitImageCmd.label            "창에 이미지 맞추기">
+<!ENTITY fitImageCmd.accesskey        "창">
+<!ENTITY viewImageCmd.label           "그림 보기">
+<!ENTITY viewImageCmd.accesskey       "그">
+<!ENTITY viewBGImageCmd.label         "배경 그림으로 보기">
+<!ENTITY viewBGImageCmd.accesskey     "배">
+<!ENTITY setWallpaperCmd.label        "바탕화면으로 설정">
+<!ENTITY setWallpaperCmd.accesskey    "바">
+<!ENTITY bookmarkPageCmd.label        "이 페이지를 북마크에 추가">
+<!ENTITY bookmarkPageCmd.accesskey    "이">
+<!ENTITY bookmarkLinkCmd.label        "이 연결을 북마크에 추가">
+<!ENTITY bookmarkLinkCmd.accesskey    "이">
+<!ENTITY bookmarkFrameCmd.label       "이 프레임을 북마크에 추가">
+<!ENTITY bookmarkFrameCmd.accesskey   "이">
+<!ENTITY savePageAsCmd.label          "다른 이름으로 저장…">
+<!ENTITY savePageCmd.label            "페이지 저장">
+<!ENTITY savePageCmd.accesskey        "페">
+<!ENTITY savePageCmd.commandkey       "s">
+<!ENTITY saveFrameAsCmd.label         "프레임을 다른 이름으로 저장…">
+<!ENTITY saveFrameCmd.label           "프레임 저장">
+<!ENTITY saveFrameCmd.accesskey       "프">
+<!ENTITY saveLinkAsCmd.label          "연결 대상을 다른 이름으로 저장…">
+<!ENTITY saveLinkCmd.label            "연결 대상 저장">
+<!ENTITY saveLinkCmd.accesskey        "연">
+<!ENTITY saveImageAsCmd.label         "다른 이름으로 그림 저장…">
+<!ENTITY saveImageCmd.label           "그림 저장">
+<!ENTITY saveImageCmd.accesskey       "그">
+<!ENTITY copyCmd.label                "복사하기">
+<!ENTITY copyCmd.accesskey            "복">
+<!ENTITY selectAllCmd.label           "모두 선택">
+<!ENTITY selectAllCmd.accesskey       "모">
+<!ENTITY copyLinkCmd.label            "연결 주소 복사">
+<!ENTITY copyLinkCmd.accesskey        "연">
+<!ENTITY copyImageCmd.label           "그림 복사">
+<!ENTITY copyImageCmd.accesskey       "그">
+<!ENTITY metadataCmd.label            "속성">
+<!ENTITY metadataCmd.accesskey        "속">
+<!ENTITY copyEmailCmd.label           "이메일 주소 복사">
+<!ENTITY copyEmailCmd.accesskey       "이">
+<!ENTITY pasteCmd.label               "붙여넣기">
+<!ENTITY pasteCmd.accesskey           "붙">
+<!ENTITY cutCmd.label                 "잘라내기">
+<!ENTITY cutCmd.accesskey             "잘">
+<!ENTITY deleteCmd.label              "삭제">
+<!ENTITY deleteCmd.accesskey          "삭">
+<!ENTITY undoCmd.label                "실행 취소">
+<!ENTITY undoCmd.accesskey            "실">
+<!ENTITY redoCmd.label                "재실행">
+<!ENTITY redoCmd.accesskey            "재">
+<!ENTITY thisFrameMenu.label          "이 프레임">
+<!ENTITY thisFrameMenu.accesskey      "이">
+<!ENTITY search.accesskey             "W">
+<!ENTITY bidiSwitchPageDirectionItem.label        "페이지 방향 전환">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "페">
+<!ENTITY bidiSwitchTextDirectionItem.label        "글쓰기 방향 전환">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "글">
+<!ENTITY spellAddToDictionary.label     "사전 추가">
+<!ENTITY spellAddToDictionary.accesskey "사">
+<!ENTITY spellEnable.label              "이 항목에 맞춤법 검사">
+<!ENTITY spellEnable.accesskey          "이">
+<!ENTITY spellNoSuggestions.label       "(추천 단어 없음)">
+<!ENTITY spellDictionaries.label        "언어">
+<!ENTITY spellDictionaries.accesskey    "언">
+<!ENTITY spellAddDictionaries.label     "더 많은 사전 내려받기…">
+<!ENTITY spellAddDictionaries.accesskey "더">

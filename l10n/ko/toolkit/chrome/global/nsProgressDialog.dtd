@@ -35,76 +35,102 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!-- These strings are used on the download progress dialog.
      See: http://lxr.mozilla.org/seamonkey/source/embedding/components/ui/progressDlg/nsProgressDialog.xul
 -->
+
 <!-- This is used prior to initializing with a proper title -->
 <!ENTITY defaultTitle     "저장">
+
 <!-- These are used when saving -->
-<!ENTITY savingTitle      "#1 중 #2&#037; 저장">
-<!ENTITY savingSource     "원본 위치:">
-<!ENTITY savingTarget     "저장 위치:">
+<!ENTITY savingTitle      "#1 중 #2&#037; 저장"> 
+<!ENTITY savingSource     "원본 위치:"> 
+<!ENTITY savingTarget     "저장 위치:"> 
+
 <!-- These are used when opening (with an application) -->
 <!ENTITY openingTitle      "#1 중 #2&#037; 완료">
 <!ENTITY openingSource     "열기 위치:">
 <!ENTITY openingTarget     "열기 도구:">
+
 <!-- This is used when the download percentage is unknown -->
 <!ENTITY unknownSavingTitle  "#1 저장 중…">
 <!ENTITY unknownOpeningTitle "#1 여는 중…">
+
 <!-- Labels on other fields -->
-<!ENTITY status      "상태:">
+<!ENTITY status      "상태:"> 
 <!ENTITY timeElapsed "경과 시간:">
 <!ENTITY timeLeft    "남은 시간:">
 <!ENTITY progress    "진행 상태:">
+
 <!-- Label for the "keep dialog" checkbox -->
 <!ENTITY keep "다운로드 완료 후에도 이 창을 닫지 않음">
+
 <!-- Button labels -->
-<!ENTITY cancel "취소">
+<!ENTITY cancel "취소"> 
 <!ENTITY pause  "중지">
 <!ENTITY resume "재실행">
 <!ENTITY close  "닫기">
 <!ENTITY reveal "저장된 폴더 열기">
 <!ENTITY launch "파일 실행">
+
 <!-- Status/progress messages -->
+
 <!-- LOCALIZATION NOTE (pausedMsg):
     This string is used to indicate that the download is paused -->
 <!ENTITY pausedMsg "다운로드 중지됨">
+
 <!-- LOCALIZATION NOTE (progressMsg):
+
     This string is used to generate the status message used during
     file download.
+
     #1 will be replaced by the number of bytes downloaded thus far
     #2 will be replaced by the total number of bytes to be downloaded
     #3 will be replaced by the download rate (in KB per second) -->
 <!ENTITY progressMsg "#2KB 중 #1KB (#3KB/초)">
-<!-- LOCALIZATION NOTE (unknownTime):
 
+<!-- LOCALIZATION NOTE (unknownTime):
+    
     This string is used when the time remaining is unknown. -->
 <!ENTITY unknownTime "알 수 없음">
+
 <!-- LOCALIZATION NOTE (longTimeFormat):
+
     This string is used to format elapsed/remaining times when the
     time exceeds 1 hour in length.
+
     #1 will be replaced by the number of hours
     #2 will be replaced by the number of minutes
     #3 will be replaced by the number of seconds -->
 <!ENTITY longTimeFormat "#1:#2:#3">
+
 <!-- LOCALIZATION NOTE (shortTimeFormat):
+
     This string is used to format elapsed/remaining times when the
     time is less than 1 hour in length.  Note that you can leave
     "#1" out of this string to omit the leading "00:" if you so choose.
+
     #1 will be replaced by the number of hours
     #2 will be replaced by the number of minutes
     #3 will be replaced by the number of seconds -->
 <!ENTITY shortTimeFormat "#2:#3">
+
 <!-- LOCALIZATION NOTE (completeMsg):
+
     This string is displayed when the download is complete.  The insert
     "#1" is replaced by the elapsed time, formatted according to the
     xxxTimeFormat strings defined above).  You can omit "#1" if you don't
     want the elapsed time in the message.
+
     #1 will be replaced by the elapsed time
     #2 will be replaced by the size of the file in Kilobytes -->
 <!ENTITY completeMsg "다운로드 완료. #2 KB 저장됨. (경과 시간 :#1)">
+
 <!-- LOCALIZATION NOTE (percentMsg):
+
     This string is used to format the text to the right of the progress
     meter.
+
     #1 will be replaced by the percentage of the file that has been saved -->
 <!ENTITY percentMsg "#1&#037;">

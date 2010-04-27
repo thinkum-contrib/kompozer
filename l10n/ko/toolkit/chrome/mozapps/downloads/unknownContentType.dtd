@@ -1,21 +1,29 @@
 <!-- -*- Mode: Java; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*-
 -->
+
 <!ENTITY  intro.label                 "열기 선택">
 <!ENTITY  from.label                  "원본 위치:">
 <!ENTITY  actionQuestion.label        "&brandShortName;가 이 파일을 열거나 컴퓨터에 저장할 수 있습니다:">
+
 <!ENTITY  openWith.label              "열기:">
 <!ENTITY  openWith.accesskey          "o">
 <!ENTITY  other.label                 "기타…">
+
 <!ENTITY  save.label                  "디스크에 저장">
 <!ENTITY  save.accesskey              "s">
+
 <!ENTITY  rememberChoice.label        "다시 묻지 않음">
 <!ENTITY  rememberChoice.accesskey    "a">
+
 <!ENTITY  settingsChange.label        "도구-설정-내용 부분에서 설정을 변경할 수 있습니다.">
 <!ENTITY  settingsChangeMac.label     "&brandShortName; 환경 설정-내용 부분에서 설정을 변경할 수 있습니다.">
 <!ENTITY  settingsChangeUnix.label    "편집-환경 설정-내용 부분에서 설정을 변경할 수 있습니다.">
+
 <!ENTITY  whichIsA.label              "파일 유형:">
+
 <!ENTITY  chooseHandlerMac.label      "선택하기…">
 <!ENTITY  chooseHandlerMac.accesskey  "C">
 <!ENTITY  chooseHandler.label         "찾아보기…">
 <!ENTITY  chooseHandler.accesskey     "B">
+
 <!ENTITY  unknownPromptText.label     "이 파일을 저장 하시겠습니까?">

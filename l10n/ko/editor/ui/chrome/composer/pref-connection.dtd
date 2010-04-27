@@ -8,23 +8,23 @@
 <!ENTITY  manualTypeRadio.label         "수동 프록시 설정">
 <!ENTITY  manualTypeRadio.accesskey     "m">
 <!ENTITY  autoTypeRadio.label           "자동 프록시 설정 URL:">
-<!ENTITY  autoTypeRadio.accesskey       "a">
+<!ENTITY  autoTypeRadio.accesskey       "U">
 <!ENTITY  configAutoconfigText.label    "설정 위치 (URL):">
-<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  configAutoconfigText.accesskey "U">
 <!ENTITY  reload.label                  "새로고침">
 <!ENTITY  reload.accesskey              "l">
 <!ENTITY  ftp.label                     "FTP 프록시:">
-<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  ftp.accesskey                 "F">
 <!ENTITY  gopher.label                  "Gopher 프록시:">
-<!ENTITY  gopher.accesskey              "g">
+<!ENTITY  gopher.accesskey              "G">
 <!ENTITY  http.label                    "HTTP 프록시:">
-<!ENTITY  http.accesskey                "h">
+<!ENTITY  http.accesskey                "H">
 <!ENTITY  ssl.label                     "SSL 프록시:">
-<!ENTITY  ssl.accesskey                 "s">
-<!ENTITY  socks.label                   "SOCKS Host:">
-<!ENTITY  socks.accesskey               "c">
+<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  socks.label                   "SOCKS 호스트:">
+<!ENTITY  socks.accesskey               "C">
 <!ENTITY  socks4.label                  "SOCKS v4">
-<!ENTITY  socks4.accesskey              "k">
+<!ENTITY  socks4.accesskey              "K">
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
 <!ENTITY  port.label                    "포트:">

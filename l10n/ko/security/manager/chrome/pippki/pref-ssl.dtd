@@ -1,28 +1,68 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Bob Lord <lord@netscape.com>
+   -   Terry Hayes <thayes@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
 <!ENTITY  SSLProtocolVersions.caption       "SSL 프로토콜 버전">
 <!ENTITY  SSLWarnings.caption               "SSL 보안 경고">
 <!ENTITY  SSLClientAuthMethod.caption       "클라이언트 인증서 선택">
 
 <!ENTITY pref.ssl.title                     "보안 소켓 레이어 (SSL)">
+<!ENTITY enable.ssl3                        "SSL 버전 3 사용">
 <!ENTITY enable.ssl3.accesskey              "3">
+<!ENTITY enable.tls                         "TLS 사용">
 <!ENTITY enable.tls.accesskey               "T">
+
+<!ENTITY warn.description                   "&brandShortName;가 현재 웹 페이지에 대하여 보안 경고를 할 수 있습니다. 보안 경고에 대한 &brandShortName; 설정:">
+<!ENTITY warn.enteringsecure                "암호 지원 페이지를 읽는 중…">
 <!ENTITY warn.enteringsecure.accesskey      "L">
+<!ENTITY warn.enteringweak                  "낮은 수준의 암호화 페이지를 읽는 중…">
 <!ENTITY warn.enteringweak.accesskey        "o">
+<!ENTITY warn.insecurepost                  "암호화 되지 않은 페이지에서 암호화 되지 않은 페이지로 폼 전송">
 <!ENTITY warn.insecurepost.accesskey        "S">
+<!ENTITY warn.leavingsecure                 "암호화 지원 웹 페이지를 나가는 중…">
 <!ENTITY warn.leavingsecure.accesskey       "a">
+<!ENTITY warn.secureredirect                "암호화 된 페이지에서 다른 페이지로 재전송">
+<!ENTITY warn.secureredirecttoinsecure      "암호화 된 페이지에서 암호화 되지 않은 페이지로 재전송">
+<!ENTITY warn.viewmixed                     "암호화 된 항목과 암호화 되지 않은 항목 같이 보기">
 <!ENTITY warn.viewmixed.accesskey           "V">
+
+<!ENTITY certselect.description             "&brandShortName;가 웹 사이트에서 요청하는 인증서 선택:">
+<!ENTITY certselect.auto                    "자동으로 선택하기">
 <!ENTITY certselect.auto.accesskey          "A">
+<!ENTITY certselect.ask                     "항상 물어보기">
 <!ENTITY certselect.ask.accesskey           "E">
 
-<!ENTITY enable.ssl3 "SSL 버전 3 사용">
-<!ENTITY enable.tls "TLS 사용">
-<!ENTITY warn.description "&brandShortName;가 현재 웹 페이지에 대하여 보안 경고를 할 수 있습니다. 보안 경고에 대한 &brandShortName; 설정:">
-<!ENTITY warn.enteringsecure "암호 지원 페이지를 읽는 중…">
-<!ENTITY warn.enteringweak "낮은 수준의 암호화 페이지를 읽는 중…">
-<!ENTITY warn.insecurepost "암호화 되지 않은 페이지에서 암호화 되지 않은 페이지로 폼 전송">
-<!ENTITY warn.leavingsecure "암호화 지원 웹 페이지를 나가는 중…">
-<!ENTITY warn.secureredirect "암호화 된 페이지에서 다른 페이지로 재전송">
-<!ENTITY warn.secureredirecttoinsecure "암호화 된 페이지에서 암호화 되지 않은 페이지로 재전송">
-<!ENTITY warn.viewmixed "암호화 된 항목과 암호화 되지 않은 항목 같이 보기">
-<!ENTITY certselect.description "&brandShortName;가 웹 사이트에서 요청하는 인증서 선택:">
-<!ENTITY certselect.auto "자동으로 선택하기">
-<!ENTITY certselect.ask "항상 물어보기">

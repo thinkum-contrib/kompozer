@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "외부 응용프로그램">
+
+<!ENTITY application.label            "응용프로그램:">
+<!ENTITY webBrowser.label             "웹 브라우저">
+<!ENTITY textEditor.label             "문서 편집기">
+<!ENTITY imageEditor.label            "이미지 편집기">
+<!ENTITY mediaPlayer.label            "매체 재생기">
+<!ENTITY fileManager.label            "파일 관리자">
+<!ENTITY ftpClient.label              "FTP 프로그램">
+
+<!ENTITY useSystemHelper.label        "시스템 기본값 사용">
+<!ENTITY useCustomHelper.label        "사용자지정 프로그램 사용:">
+<!ENTITY path.label                   "파일 경로">
+<!ENTITY arguments.label              "인수">
+<!ENTITY filePicker.tooltip           "파일 선택…">
+
+<!ENTITY fileFilter.label             "파일 확장자(*):">
+<!ENTITY default.label                "기본">
+<!ENTITY needToRestart.label          "(*) 이 환경설정의 수정된 내용은 KompoZer를 재시작하면 적용됩니다.">
+

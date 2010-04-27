@@ -34,10 +34,15 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
+
 <!-- Window title -->
 <!ENTITY windowTitle.label "그리드에 맞춤">
+
 <!ENTITY enableSnapToGrid.label "그리드에 맞츰 허용">
 <!ENTITY enableSnapToGrid.accessKey "e">
+
 <!ENTITY sizeEditField.label "크기:">
 <!ENTITY sizeEditField.accessKey "S">
+
 <!ENTITY pixelsLabel.value "픽셀">

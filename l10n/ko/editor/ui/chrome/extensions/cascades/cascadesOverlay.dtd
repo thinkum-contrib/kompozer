@@ -39,7 +39,7 @@
 
 <!-- Window title -->
 <!ENTITY cascadesMenuItem.label         "CSS 편집기">
-<!ENTITY cascadesMenuItem.accesskey     "c">
+<!ENTITY cascadesMenuItem.accesskey     "C">
 <!ENTITY cascadesMenuItem.keybinding    "VK_F11">
 
 <!-- Structure Toolbar Context Menu items -->
@@ -56,7 +56,7 @@
 <!ENTITY backgroundproperties.accesskey "g">
 <!ENTITY boxProperties.label            "박스 속성">
 <!ENTITY boxproperties.accesskey        "x">
-<!ENTITY auralProperties.label          "Aural properties">
+<!ENTITY auralProperties.label          "청각 속성">
 <!ENTITY auralproperties.accesskey      "a">
 <!ENTITY makeCSSRule.label              "일반 스타일 생성 및 추출">
 <!ENTITY makecssrule.accesskey          "e">

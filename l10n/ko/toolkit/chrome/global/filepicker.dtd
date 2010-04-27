@@ -10,7 +10,9 @@
 <!ENTITY permissions.label      "권한">
 <!ENTITY showHiddenFiles.label  "숨긴 파일 및 폴더 보기">
 <!ENTITY showHiddenFiles.accesskey  "S">
+
 <!ENTITY noPermissionError.label "이 폴더를 볼 수 있는 권한이 없습니다.">
+
 <!ENTITY folderUp.tooltiptext   "상위 폴더로 가기">
 <!ENTITY folderHome.tooltiptext "홈으로 가기">
 <!ENTITY folderNew.tooltiptext  "새 폴더 만들기">

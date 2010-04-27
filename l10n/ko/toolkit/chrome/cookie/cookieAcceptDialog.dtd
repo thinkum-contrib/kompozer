@@ -5,7 +5,7 @@
 <!ENTITY     props.path.label               "경로:">
 <!ENTITY     props.secure.label             "수신:">
 <!ENTITY     props.expires.label            "만료:">
-<!ENTITY     props.policy.label             "정책:">
+<!ENTITY     props.policy.label             "정책:"> 
 
 <!ENTITY     button.allow.label             "허가">
 <!ENTITY     button.allow.accesskey         "A">
@@ -17,3 +17,4 @@
 <!ENTITY     dialog.title                   "쿠키 설정 확인">
 <!ENTITY     dialog.remember.label          "이 사이트의 모든 쿠키에 설정 적용">
 <!ENTITY     dialog.remember.accesskey      "U">
+

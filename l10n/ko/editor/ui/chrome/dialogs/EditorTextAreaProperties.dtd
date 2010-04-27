@@ -33,8 +33,11 @@
    - the terms of any one of the MPL, the GPL or the LGPL.
    -
    - ***** END LICENSE BLOCK ***** -->
+
 <!ENTITY windowTitle.label "글상자 설정">
+
 <!ENTITY Settings.label "설정">
+
 <!ENTITY TextAreaName.label "필드명:">
 <!ENTITY TextAreaName.accessKey "N">
 <!ENTITY TextAreaRows.label "행:">
@@ -51,6 +54,7 @@
 <!ENTITY TextAreaAccessKey.accessKey "K">
 <!ENTITY InitialText.label "초기값:">
 <!ENTITY InitialText.accessKey "T">
+
 <!ENTITY TextAreaWrap.label "Wrap모드:">
 <!ENTITY TextAreaWrap.accessKey "W">
 <!ENTITY WrapDefault.value "기본값">

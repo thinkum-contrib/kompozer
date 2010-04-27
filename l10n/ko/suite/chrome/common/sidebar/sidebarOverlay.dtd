@@ -1,0 +1,66 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla.org.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Stephen Lamm <slamm@netscape.com>
+   -   Blake Ross <BlakeR1234@aol.com>
+   -   Samir Gehani <sgehani@netscape.com>
+   -   Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY sidebar.panels.label           "탐색창">
+<!ENTITY sidebar.reload.label           "새로 고침">
+<!ENTITY sidebar.reload.accesskey       "새">
+<!ENTITY sidebar.picker.label           "탭">
+<!ENTITY sidebar.customize.label        "탐색창 사용자 지정…">
+<!ENTITY sidebar.customize.accesskey    "탐">
+<!ENTITY sidebar.hide.label             "탭 숨기기">
+<!ENTITY sidebar.hide.accesskey         "탭">
+<!ENTITY sidebar.switch.label           "탭으로 전환">
+<!ENTITY sidebar.switch.accesskey       "탭">
+<!ENTITY sidebarCmd.label               "탐색창">
+<!ENTITY sidebarCmd.accesskey           "탐">
+<!ENTITY sidebar.loading.label          "로드중입니다…">
+<!ENTITY sidebar.loadstopped.label      "로드 중지됨">
+<!ENTITY sidebar.loading.stop.label     "중지">
+<!ENTITY sidebar.loading.stop.accesskey "중">
+
+<!ENTITY sidebar.no-panels.state     "탐색창이 현재 비어 있습니다.">
+<!ENTITY sidebar.no-panels.add       '"탭"버튼을 클릭해 탭을 추가할 수 있습니다.'>
+<!ENTITY sidebar.no-panels.hide      '탐색창을 완전히 감추려면, "보기"메뉴를 클릭 후,"탐색창"을 선택하세요.'>
+<!ENTITY sidebar.sbDirectory.label   "탐색창 디렉토리…">
+
+<!ENTITY sidebar.pagenotfound.label  "이 탭은 지금 바르게 사용할 수 없습니다.">
+<!ENTITY sidebar.close.tooltip       "탐색창 닫기">
+<!ENTITY sidebar.open.tooltip        "탐색창 열기">
+

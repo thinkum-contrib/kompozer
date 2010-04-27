@@ -1,0 +1,44 @@
+<!-- extracted from tasksOverlay.xul -->
+<!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
+<!ENTITY navigatorCmd.label              "Navigator">  
+<!ENTITY navigatorCmd.accesskey          "N">
+<!ENTITY navigatorCmd.commandkey         "1">
+<!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
+<!ENTITY editorCmd.label                 "KompoZer">
+<!ENTITY editorCmd.accesskey             "K">
+<!ENTITY editorCmd.commandkey            "4">
+
+<!ENTITY securityInfoCmd.label           ".보안 정보">  
+<!ENTITY securityInfoCmd.accesskey       ".">
+<!ENTITY javaConsoleCmd.label            "자바 콘솔">
+<!ENTITY javaConsoleCmd.accesskey        "자">
+
+<!ENTITY javaScriptConsoleCmd.label      "자바스크립트 콘솔">
+<!ENTITY javaScriptConsoleCmd.accesskey  "자">
+
+<!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
+<!ENTITY privacyMenu.label               "개인정보 및 보안">
+<!ENTITY privacyMenu.accesskey           "개">
+
+<!ENTITY taskNavigator.tooltip           "Navigator">
+<!ENTITY taskComposer.tooltip            "편집기">
+<!ENTITY taskBar.tooltip                 "상태 막대">
+
+<!ENTITY webDevelopment.label            "웹 개발">
+<!ENTITY webDevelopment.accesskey        "웹">
+
+<!ENTITY windowMenu.label                "창">
+<!ENTITY windowMenu.accesskey            "창">
+
+<!ENTITY tasksMenu.label                 "도구">
+<!ENTITY tasksMenu.accesskey             "도"> 
+
+<!ENTITY downloadManagerCmd.label        "다운로드 관리자">
+<!ENTITY downloadManagerCmd.accesskey    "다">
+
+<!ENTITY switchProfileCmd.label          "프로파일 전환…">
+<!ENTITY switchProfileCmd.accesskey      "프">
+
+<!ENTITY addons.label                    "부가 기능">
+<!ENTITY extensions.label                "확장 기능">
+<!ENTITY themes.label                    "테마">

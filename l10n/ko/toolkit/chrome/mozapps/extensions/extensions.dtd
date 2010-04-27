@@ -1,97 +1,116 @@
-<!ENTITY cmd.info.commandKey "i">
-<!ENTITY cmd.options.commandKey ",">
-<!ENTITY cmd.close.commandKey "w">
-<!ENTITY cmd.uninstall.label "설치 제거">
-<!ENTITY cmd.useTheme.label "적용">
-<!ENTITY cmd.useTheme.accesskey "T">
-<!ENTITY cmd.useTheme.tooltip "&brandShortName; 테마 변경">
-<!ENTITY cmd.options.label "설정">
-<!ENTITY cmd.options.accesskey "O">
-<!ENTITY cmd.options.tooltip "선택된 확장 기능 설정">
-<!ENTITY cmd.optionsUnix.label "환경 설정">
-<!ENTITY cmd.optionsUnix.accesskey "r">
-<!ENTITY cmd.optionsUnix.tooltip "선택된 확장 기능 설정 편집">
-<!ENTITY cmd.homepage.label "홈페이지 방문">
-<!ENTITY cmd.homepage.accesskey "H">
-<!ENTITY cmd.about.accesskey "A">
-<!ENTITY cmd.enable.label "사용함">
-<!ENTITY cmd.enable.accesskey "E">
-<!ENTITY cmd.disable.label "사용 안 함">
-<!ENTITY cmd.disable.accesskey "D">
-<!ENTITY previewNoThemeSelected.label "선택된 테마 없음">
-<!ENTITY previewNoPreviewImage.label "이 테마는 미리 보기를 할 수 없습니다.">
-<!ENTITY addons.title "부가 기능">
-<!ENTITY em.width "520">
-<!ENTITY em.height "380">
-<!ENTITY extensions.label "확장 기능">
-<!ENTITY themes.label "테마">
-<!ENTITY locales.label "언어">
-<!ENTITY plugins.label "플러그인">
-<!ENTITY update.label "업데이트">
-<!ENTITY install.label "설치">
-<!ENTITY cmd.checkUpdatesAll.label "업데이트 찾기">
-<!ENTITY cmd.checkUpdatesAll.accesskey "F">
+<!ENTITY addons.title                     "부가 기능">
+
+<!-- Default window size for the addon manager in pixels -->
+<!ENTITY em.width                         "520">
+<!ENTITY em.height                        "380">
+
+<!ENTITY cmd.info.commandKey              "i">
+<!ENTITY cmd.options.commandKey           ",">
+<!ENTITY cmd.close.commandKey             "w">
+
+<!-- View labels -->
+<!ENTITY extensions.label                 "확장 기능">
+<!ENTITY themes.label                     "테마">
+<!ENTITY locales.label                    "언어">
+<!ENTITY plugins.label                    "플러그인">
+<!ENTITY update.label                     "업데이트">
+<!ENTITY install.label                    "설치">
+
+<!-- Command Bar items -->
+<!ENTITY cmd.checkUpdatesAll.label        "업데이트 찾기">
+<!ENTITY cmd.checkUpdatesAll.accesskey    "F">
 <!ENTITY cmd.checkUpdatesAllAddon.tooltip "설치된 부가 기능의 변경 사항 찾기">
 <!ENTITY cmd.checkUpdatesAllTheme.tooltip "설치된 테마의 변경 사항 찾기">
 <!ENTITY cmd.installLocalFile.label       "설치…">
-<!ENTITY cmd.installFile.accesskey "I">
-<!ENTITY cmd.installFileAddon.tooltip "부가 기능 설치">
-<!ENTITY cmd.installFileTheme.tooltip "테마 설치">
-<!ENTITY cmd.installUpdatesAll.label "업데이트 설치">
-<!ENTITY cmd.installUpdatesAll.accesskey "I">
-<!ENTITY cmd.installUpdatesAll.tooltip "선택한 업데이트 설치">
-<!ENTITY cmd.restartApp.label "&brandShortName; 다시 시작">
-<!ENTITY cmd.restartApp.accesskey "R">
-<!ENTITY cmd.restartApp.tooltip "설치를 완료하려면 &brandShortName;를 다시 시작합니다.">
-<!ENTITY cmd.skip.label "나중에 하기">
-<!ENTITY cmd.skip.accesskey "S">
-<!ENTITY cmd.skip.tooltip "업데이트를 나중에 설치합니다.">
-<!ENTITY cmd.continue.label "계속">
-<!ENTITY cmd.continue.accesskey "C">
-<!ENTITY cmd.continue.tooltip "&brandShortName; 실행을 계속합니다.">
-<!ENTITY cmd.enableAll.label "모두 사용함">
-<!ENTITY cmd.enableAll.accesskey "a">
-<!ENTITY cmd.enableAll.tooltip "표시된 모든 부가 기능 사용 합니다.">
-<!ENTITY cmd.disableAll.label "모두 사용하지 않음">
-<!ENTITY cmd.disableAll.accesskey "s">
-<!ENTITY cmd.disableAll.tooltip "모든 부가 기능을 사용하지 않습니다.">
-<!ENTITY cmd.enable.tooltip "이 부가 기능을 사용하려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY cmd.disable.tooltip "이 부가 기능을 사용하지 않으려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY cmd.uninstall2.accesskey "U">
-<!ENTITY cmd.uninstall2.tooltip "이 부가 기능을 제거하려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY cmd.cancelUninstall.label "설치 취소">
-<!ENTITY cmd.cancelUninstall.accesskey "C">
-<!ENTITY cmd.cancelUninstall.tooltip "이 부가 기능의 설치를 취소합니다.">
-<!ENTITY cmd.installUpdate.label "업데이트 설치">
-<!ENTITY cmd.installUpdate.accesskey "I">
-<!ENTITY cmd.installUpdate.tooltip "이 부가 기능의 업데이트를 설치합니다.">
-<!ENTITY cancel.label "취소">
-<!ENTITY cancel.accesskey "C">
-<!ENTITY cmd.about2.label "부가 기능 소개">
-<!ENTITY cmd.checkUpdate.label "업데이트 찾기">
-<!ENTITY cmd.checkUpdate.accesskey "F">
-<!ENTITY cmd.includeUpdate.label "업데이트 선택">
-<!ENTITY cmd.includeUpdate.accesskey "n">
-<!ENTITY includeUpdate.label "현재 업데이트 선택">
-<!ENTITY includeUpdate.accesskey "n">
-<!ENTITY includeUpdate.tooltip "업데이트 설치 시 이 부가 기능을 포함합니다.">
-<!ENTITY needsDependencies.label "부가 항목 필요">
-<!ENTITY blocklisted.label "보안상 사용할 수 없음">
-<!ENTITY toBeDisabled.label "이 부가 기능을 사용하지 않으려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY toBeEnabled.label "이 부가 기능을 사용하려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY toBeInstalled.label "이 부가 기능을 설치하려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY toBeUninstalled.label "이 부가 기능을 제거하려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY toBeUpgraded.label "이 부가 기능을 업데이트하려면 &brandShortName;를 다시 시작해야 합니다.">
-<!ENTITY getExtensions.label "유용한 확장 기능 찾기">
-<!ENTITY getExtensions.tooltip "addons.mozilla.org로부터 다른 확장 기능을 검색합니다.">
-<!ENTITY getThemes.label "유용한 테마 찾기">
-<!ENTITY getThemes.tooltip "addons.mozilla.org로부터 다른 테마를 검색합니다.">
-<!ENTITY moreInfo.label "자세한 정보">
-<!ENTITY closeMessage.tooltip "현재 메시지 닫기">
-<!ENTITY updateSuccess.label "업데이트가 성공적으로 완료되었습니다.">
-<!ENTITY installSuccess.label "설치가 성공적으로 완료되었습니다.">
-<!ENTITY installSuccessRestart.label "설치 완료를 위해 다시 시작 합니다.">
-<!ENTITY installWaiting.label "잠시만 기다려 주십시오…">
-<!ENTITY installIncompatibleUpdate.label "호환성 확인 중…">
-<!ENTITY installFinishing.label "설치 중…">
-<!ENTITY installFailure.label "설치에 실패했습니다.">
+<!ENTITY cmd.installFile.accesskey        "I">
+<!ENTITY cmd.installFileAddon.tooltip     "부가 기능 설치">
+<!ENTITY cmd.installFileTheme.tooltip     "테마 설치">
+<!ENTITY cmd.installUpdatesAll.label      "업데이트 설치">
+<!ENTITY cmd.installUpdatesAll.accesskey  "I">
+<!ENTITY cmd.installUpdatesAll.tooltip    "선택한 업데이트 설치">
+<!ENTITY cmd.restartApp.label             "&brandShortName; 다시 시작">
+<!ENTITY cmd.restartApp.accesskey         "R">
+<!ENTITY cmd.restartApp.tooltip           "설치를 완료하려면 &brandShortName;를 다시 시작합니다.">
+<!ENTITY cmd.skip.label                   "나중에 하기">
+<!ENTITY cmd.skip.accesskey               "S">
+<!ENTITY cmd.skip.tooltip                 "업데이트를 나중에 설치합니다.">
+<!ENTITY cmd.continue.label               "계속">
+<!ENTITY cmd.continue.accesskey           "C">
+<!ENTITY cmd.continue.tooltip             "&brandShortName; 실행을 계속합니다.">
+
+<!ENTITY cmd.enableAll.label              "모두 사용함">
+<!ENTITY cmd.enableAll.accesskey          "a">
+<!ENTITY cmd.enableAll.tooltip            "표시된 모든 부가 기능 사용 합니다.">
+<!ENTITY cmd.disableAll.label             "모두 사용하지 않음">
+<!ENTITY cmd.disableAll.accesskey         "s">
+<!ENTITY cmd.disableAll.tooltip           "모든 부가 기능을 사용하지 않습니다.">
+
+<!-- Displayed in the selected Add-on's richlistitem and context menu -->
+<!ENTITY cmd.useTheme.label               "적용">
+<!ENTITY cmd.useTheme.accesskey           "T">
+<!ENTITY cmd.useTheme.tooltip             "&brandShortName; 테마 변경">
+<!ENTITY cmd.options.label                "설정">
+<!ENTITY cmd.options.accesskey            "O">
+<!ENTITY cmd.options.tooltip              "선택된 확장 기능 설정">
+<!ENTITY cmd.optionsUnix.label            "환경 설정">
+<!ENTITY cmd.optionsUnix.accesskey        "r">
+<!ENTITY cmd.optionsUnix.tooltip          "선택된 확장 기능 설정 편집">
+<!ENTITY cmd.enable.label                 "사용함">
+<!ENTITY cmd.enable.accesskey             "E">
+<!ENTITY cmd.enable.tooltip               "이 부가 기능을 사용하려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY cmd.disable.label                "사용 안 함">
+<!ENTITY cmd.disable.accesskey            "D">
+<!ENTITY cmd.disable.tooltip              "이 부가 기능을 사용하지 않으려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY cmd.uninstall.label              "설치 제거">
+<!ENTITY cmd.uninstall2.accesskey         "U">
+<!ENTITY cmd.uninstall2.tooltip           "이 부가 기능을 제거하려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY cmd.cancelUninstall.label        "설치 취소">
+<!ENTITY cmd.cancelUninstall.accesskey    "C">
+<!ENTITY cmd.cancelUninstall.tooltip      "이 부가 기능의 설치를 취소합니다.">
+<!ENTITY cmd.installUpdate.label          "업데이트 설치">
+<!ENTITY cmd.installUpdate.accesskey      "I">
+<!ENTITY cmd.installUpdate.tooltip        "이 부가 기능의 업데이트를 설치합니다.">
+<!-- The selected add-on's cancel action button label -->
+<!ENTITY cancel.label                     "취소">
+<!ENTITY cancel.accesskey                 "C">
+
+<!-- Only displayed in the selected Add-on's context menu -->
+<!ENTITY cmd.homepage.label               "홈페이지 방문">
+<!ENTITY cmd.homepage.accesskey           "H">
+<!ENTITY cmd.about2.label                 "부가 기능 소개">
+<!ENTITY cmd.about.accesskey              "A">
+<!ENTITY cmd.checkUpdate.label            "업데이트 찾기">
+<!ENTITY cmd.checkUpdate.accesskey        "F">
+
+<!ENTITY cmd.includeUpdate.label          "업데이트 선택">
+<!ENTITY cmd.includeUpdate.accesskey      "n">
+<!ENTITY includeUpdate.label              "현재 업데이트 선택">
+<!ENTITY includeUpdate.accesskey          "n">
+<!ENTITY includeUpdate.tooltip            "업데이트 설치 시 이 부가 기능을 포함합니다.">
+
+<!-- Status Messsages -->
+<!ENTITY needsDependencies.label          "부가 항목 필요">
+<!ENTITY blocklisted.label                "보안상 사용할 수 없음">
+<!ENTITY toBeDisabled.label               "이 부가 기능을 사용하지 않으려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY toBeEnabled.label                "이 부가 기능을 사용하려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY toBeInstalled.label              "이 부가 기능을 설치하려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY toBeUninstalled.label            "이 부가 기능을 제거하려면 &brandShortName;를 다시 시작해야 합니다.">
+<!ENTITY toBeUpgraded.label               "이 부가 기능을 업데이트하려면 &brandShortName;를 다시 시작해야 합니다.">
+
+<!ENTITY getExtensions.label              "유용한 확장 기능 찾기">
+<!ENTITY getExtensions.tooltip            "addons.mozilla.org로부터 다른 확장 기능을 검색합니다.">
+<!ENTITY getThemes.label                  "유용한 테마 찾기">
+<!ENTITY getThemes.tooltip                "addons.mozilla.org로부터 다른 테마를 검색합니다.">
+<!ENTITY previewNoThemeSelected.label     "선택된 테마 없음">
+<!ENTITY previewNoPreviewImage.label      "이 테마는 미리 보기를 할 수 없습니다.">
+<!ENTITY moreInfo.label                   "자세한 정보">
+<!ENTITY closeMessage.tooltip             "현재 메시지 닫기">
+
+<!ENTITY updateSuccess.label              "업데이트가 성공적으로 완료되었습니다.">
+<!ENTITY installSuccess.label             "설치가 성공적으로 완료되었습니다.">
+<!ENTITY installSuccessRestart.label      "설치 완료를 위해 다시 시작 합니다.">
+<!ENTITY installWaiting.label             "잠시만 기다려 주십시오…">
+<!ENTITY installIncompatibleUpdate.label  "호환성 확인 중…">
+<!ENTITY installFinishing.label           "설치 중…">
+<!ENTITY installFailure.label             "설치에 실패했습니다.">
+

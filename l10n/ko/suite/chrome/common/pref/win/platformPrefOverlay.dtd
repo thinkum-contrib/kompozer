@@ -1,0 +1,19 @@
+<!ENTITY winhooks.label                   "시스템">
+
+<!ENTITY defaultBrowserGroup.label  "기본 브라우저">
+<!ENTITY defaultBrowserButton.label "기본 브라우저 설정">
+<!ENTITY alreadyDefaultText         "&brandShortName; 는 이미 기본 브라우저입니다.">
+<!ENTITY defaultPendingText         "확인을 클릭하면 &brandShortName;가 기본 브라우저로 지정됩니다.">
+<!ENTITY makeDefaultText            "&brandShortName;를 기본 브라우저로 설정합니다.">
+
+<!ENTITY urlbar.label "주소막대 안에서 Ctrl+엔터">
+<!ENTITY middleClick.label "웹상의 연결 위에서 가운데 클릭, Ctrl+클릭 또는 Ctrl+엔터">
+
+<!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
+     preference dialog's <window> node, which specifies the width and height
+     in em units of the dialog. Localizers ONLY can increase these widths 
+     if they are having difficulty getting panel content to fit. 1em = the 
+     width of the letter 'm' in the selected font.
+     XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
+     size of this window for en-US. -->
+<!ENTITY  prefWindow.size             "width: 52em; height: 41em;">
