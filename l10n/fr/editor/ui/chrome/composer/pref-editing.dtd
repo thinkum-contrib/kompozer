@@ -5,9 +5,9 @@
 <!ENTITY  authorName.accesskey      "A">
 <!ENTITY  pageColorHeader           "Apparence par défaut des pages">
 
-<!ENTITY defaultColorsRadio.label   "Couleur par défaut (celle du navigateur)">
+<!ENTITY defaultColorsRadio.label   "Couleur par défaut (celles du navigateur)">
 <!ENTITY defaultColors.accesskey    "d">
-<!ENTITY customColorsRadio.label    "Utiliser des couleurs personnalisées :">
+<!ENTITY customColorsRadio.label    "Couleurs personnalisées :">
 <!ENTITY customColors.accesskey     "p">
 
 <!ENTITY normalText.label           "Texte normal">
