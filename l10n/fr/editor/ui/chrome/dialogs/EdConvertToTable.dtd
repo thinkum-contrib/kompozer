@@ -28,6 +28,6 @@
 <!ENTITY commaRadio.label      "Virgule">
 <!ENTITY spaceRadio.label      "Espace">
 <!ENTITY otherRadio.label      "Autre caractère :">
-<!ENTITY deleteCharCheck.label "Supprimer caractère séparateur">
+<!ENTITY deleteCharCheck.label "Effacer le caractère séparateur">
 <!ENTITY collapseSpaces.label  "Ignorer les espaces multiples">
 <!ENTITY collapseSpaces.tooltip "Convertir les espaces contigus en un séparateur">
