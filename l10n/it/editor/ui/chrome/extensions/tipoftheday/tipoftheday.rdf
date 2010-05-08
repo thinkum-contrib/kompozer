@@ -47,95 +47,95 @@
     <language>it-IT</language>
   
     <item>
-      <title>…puoi spostare gli elementi?</title>
-      <description>Semplicemente posizionate il cursore nel blocco che desiderate spostare e fate click una volta sul pulsante Posizionamento Assoluto per rendere il blocco mobile.</description>
+      <title>…si possono spostare gli elementi?</title>
+      <description>Basta posizionate il cursore nel blocco si che desidera spostare e premere una volta il pulsante "Posizionamento Assoluto" per rendere il blocco mobile.</description>
     </item>
   
     <item>
-      <title>…puoi personalizzare le barre?</title>
-      <description>Usa il menu "Visualizza > Mostra/Nascondi > Personalizza Barra > Barra Formattazione" per aprire il panello di personalizzazione della barra. Poi usa il metodo del trascina e rilascia per aggiungere, spostare o rimuovere i pulsanti e spazi/separatori.</description>
+      <title>…si possono personalizzare le barre?</title>
+      <description>Dal menu "Visualizza > Mostra/Nascondi > Personalizza Barra > Barra Formattazione" si apre il panello di personalizzazione della barra. Poi usando il metodo del trascina e rilascia si possono aggiungere, spostare o rimuovere pulsanti, spazi e separatori.</description>
     </item>
   
     <item>
-      <title>…puoi creare una nuova barra?</title>
-      <description>Usa il menu "Visualizza > Mostra/Nascondi > Personalizza Barra > Barra Formattazione" per aprire il panello di personalizzazione della barra. Poi fai click sul pulsante "Aggiungi nuova barra". Le barre vuote spariranno automaticamente quando il panello di personalizzazione sar\u00E0Â  chiuso.</description>
+      <title>…si può creare una nuova barra?</title>
+      <description>Dal menu "Visualizza > Mostra/Nascondi > Personalizza Barra > Barra Formattazione" si apre il panello di personalizzazione della barra. Poi basterà un clic sul pulsante "Aggiungi nuova barra". Le barre vuote spariranno automaticamente quando il panello di personalizzazione verrà chiuso.</description>
     </item>
   
     <item>
       <title>…KompoZer possiede un editor CSS?</title>
-      <description>KompoZer integra il editor CSS KaZcadeS. Aprilo utilizzando il menu Strumenti > Editor CSS.</description>
+      <description>KompoZer integra l'editor CSS KaZcadeS. Lo si apre utilizzando il menu Strumenti > Editor CSS.</description>
     </item>
   
     <item>
       <title>…KompoZer possiede una Gestione di Siti Web?</title>
-      <description>Usa il tasto F9 oppure il menu "Visualizza > Mostra/Nascondi > Gestione Siti" per mostrare o nascondere la Gestione Siti.</description>
+      <description>Premendo il tasto F9 o tramite il menu "Visualizza > Mostra/Nascondi > Gestione Siti" si apre o si nasconde la funzione per gestire i siti.</description>
     </item>
 
     <item>
-      <title>…puoi applicare i stili CSS a qualsiasi elemento?</title>
-      <description>Posiziona il cursore nell'elemento che desideri impostare lo stile e fai click con il tasto destro sul tag dell'elemento nella barra struttura in fondo della finestra principale di KompoZer. I "Stili inline" e le opzioni menu ti permetteranno di applicare lo stile direttamente su quell'elemento.</description>
+      <title>…si possono applicare gli stili CSS a qualsiasi elemento?</title>
+      <description>Basta posizionare il cursore sull'elemento di cui si vuole modificare lo stile e premere il tasto destro sul tag dell'elemento nella barra struttura in fondo alla finestra principale di KompoZer. Gli "Stili inline" e le opzioni menu permetteranno di applicare lo stile direttamente a quell'elemento.</description>
     </item>
 
     <item>
-      <title>…puoi controllare la direzione di scrittura?</title>
-      <description>Personalizza le tue barre ed aggiungi i pulsanti di controllo bidirezionale.</description>
+      <title>…si può controllare il verso di scrittura?</title>
+      <description>Basta aprire il menu di personalizzazione delle barre ed aggiungere i pulsanti di controllo bidirezionale.</description>
     </item>
 
    <item>
-      <title>…puoi ridimensionare le tabelle con il mouse?</title>
-      <description>Basta visualizzare i righelli utilizzando Visualizza > Mostra/Nascondi > Righelli e                     posizionare il cursore dentro la cella della tabella per vedere apparire i ridimensionatori.
+      <title>…si possono ridimensionare le tabelle con il mouse?</title>
+      <description>Basta far apparire i righelli, utilizzando Visualizza > Mostra/Nascondi > Righelli, e posizionare il cursore in una cella affinché appaiano i ridimensionatori.
       </description>
     </item>
 
     <item>
-      <title>…puoi facilmente personalizzare ogni barra?</title>
-      <description>Basta fare clic con il tasto destro sopra…</description>
+      <title>…si può personalizzare facilmente ogni barra?</title>
+      <description>Basta un clic con il tasto destro del mouse su di essa…</description>
     </item>
 
     <item>
-      <title>…puoi avere accesso diretto alla comunit&#224; di utenti KompoZer?</title>
-      <description>Basta selezionare il menu Guida > Forum.</description>
+      <title>…si può contattare direttamente la comunità degli utenti KompoZer?</title>
+      <description>Basta selezionare il menu Guida(?) > Forum.</description>
     </item>
 
     <item>
-      <title>…KompoZer pu&#242;  aprire automaticamente aprire un documento all'avvio?</title>
-      <description>Utilizzate l'opzione sul commando di riga -edit:      kompozer -edit
-vostro_url</description>
+      <title>…KompoZer può aprire automaticamente un documento all'avvio?</title>
+      <description>Basta utilizzare l'opzione -edit, ossia avviarlo da riga di comando con «kompozer -edit
+proprio_url»</description>
     </item>
 
     <item>
-      <title>…puoi elaborare pi&#249; di un sito contemporaneamente?</title>
-      <description>La Gestione Siti pu&#242; aprire e mostrare il contenuto di pi&#249; siti web contemporaneamente.</description>
+      <title>…si possono modificare più siti contemporaneamente?</title>
+      <description>La Gestione Siti può aprire e mostrare il contenuto di più siti web contemporaneamente.</description>
     </item>
 
     <item>
-      <title>…KompoZer &#232; disponibile su pi&#249; sistemi operativi?</title>
-      <description>KompoZer esiste per una variet&#224;  di sistemi operativi, compresi
-                   Windows, Mac OS X, diverse versioni di Linux, OS/2, …</description>
+      <title>…KompoZer è disponibile su più sistemi operativi?</title>
+      <description>KompoZer esiste per una varietà di sistemi operativi,tra cui 
+                   Windows, Mac OS X, diverse distribuzioni di Linux, OS/2, …</description>
     </item>
 
   <item>
-      <title>…puoi creare una nuova scheda con una combinazione di tasti?</title>
+      <title>…si può creare una nuova scheda con una combinazione di tasti?</title>
       <description>Ctrl+t (Command+t su Mac OS X) crea una nuova scheda vuota</description>
     </item>
 
     <item>
-      <title>…puoi creare una nuova finestra con una combinazione di tasti?</title>
+      <title>…si può creare una nuova finestra con una combinazione di tasti?</title>
       <description>Ctrl+maiusc+n (Command+shift+t su Mac OS X) crea una nuova finestra vuota</description>
     </item>
 
  <item>
-      <title>…puoi cambiare il bordo di una singola casella della tabella?</title>
-      <description>Posizionate il cursore in quella casella, premete il tasto destro del mouse sulla barra di stato e selezionate Stili in linea &gt; Propriet&#224; Bordi</description>
+      <title>…si può cambiare il bordo di una singola cella in una tabella?</title>
+      <description>Basta posizionare il cursore in quella cella, premere il tasto destro del mouse sulla barra di stato e selezionare Stili in linea &gt; Proprietà Bordi</description>
     </item>
 
     <item>
-      <title>…puoi chiudere una scheda con un clic?</title>
-      <description>Basta fare un clic sulla linguetta della scheda stessa</description>
+      <title>…si può chiudere una scheda con un clic?</title>
+      <description>Basta un clic sulla linguetta della scheda stessa</description>
     </item>
 
     <item>
-      <title>…puoi chiudere la scheda attiva con un tasto?</title>
+      <title>…si può chiudere la scheda attiva con un tasto?</title>
       <description>Control-F4 chiude la scheda attiva.</description>
     </item>
 
