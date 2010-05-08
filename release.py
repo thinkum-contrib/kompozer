@@ -225,6 +225,9 @@ def makeBinary(srcDir, platform, locale):
   elif (locale == "ru" or locale == "uk"):
     replaceInFile(acceptCharsets, "Windows-1251,\*,utf-8", "all.js")
     replaceInFile(customCharset,  "Windows-1251",          "editor.js")
+  elif (locale == "ko"):
+    replaceInFile(acceptCharsets, "EUC-KR,\*,utf-8", "all.js")
+    replaceInFile(customCharset,  "EUC-KR",          "editor.js")
 
   # disable line wrapping for Asian languages (= 72 chars by default)
   # XXX this should be handled in region.properties, not here
