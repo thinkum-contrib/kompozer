@@ -478,9 +478,9 @@
 <!ENTITY tableRow.label                      "行">
 <!ENTITY tableRows.label                     "行">
 <!ENTITY tablerow.accesskey                  "r">
-<!ENTITY tableRowAbove.label                 "在前面插入一行">
+<!ENTITY tableRowAbove.label                 "在上面插入一行">
 <!-- uses tablerow.accesskey -->
-<!ENTITY tableRowBelow.label                 "在后面插入一行">
+<!ENTITY tableRowBelow.label                 "在下面插入一行">
 <!ENTITY tablerowbelow.accesskey             "b">
 <!ENTITY tableColumn.label                   "列">
 <!ENTITY tableColumns.label                  "列">

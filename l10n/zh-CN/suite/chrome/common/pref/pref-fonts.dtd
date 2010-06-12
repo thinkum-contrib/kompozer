@@ -9,14 +9,14 @@
 <!ENTITY  typefaces.label                         "字体">
 <!ENTITY  sizes.label                             "字号(像素)">
 
-<!ENTITY  proportional.label                      "比例:">
+<!ENTITY  proportional.label                      "比例字体:">
 <!ENTITY  proportional.accesskey                  "P">
 
-<!ENTITY  serif.label                             "Serif:">
+<!ENTITY  serif.label                             "衬线字体:">
 <!ENTITY  serif.accesskey                         "S">
-<!ENTITY  sans-serif.label                        "Sans-serif:">
+<!ENTITY  sans-serif.label                        "无衬线字体:">
 <!ENTITY  sans-serif.accesskey                    "n">
-<!ENTITY  monospace.label                         "Monospace:">
+<!ENTITY  monospace.label                         "等宽字体:">
 <!ENTITY  monospace.accesskey                     "M">
 <!-- LOCALIZATION NOTE (fantasy.label): 'Fantasy' means 'Ornate' -->
 <!ENTITY  fantasy.label                           "Fantasy:">
@@ -28,10 +28,10 @@
 
 <!ENTITY  font.langGroup.latin1                   "西方">
 <!ENTITY  font.langGroup.latin2                   "中欧">
-<!ENTITY  font.langGroup.japanese                 "日文">
-<!ENTITY  font.langGroup.trad-chinese             "繁体中文(台湾)">
 <!ENTITY  font.langGroup.simpl-chinese            "简体中文">
+<!ENTITY  font.langGroup.trad-chinese             "繁体中文(台湾)">
 <!ENTITY  font.langGroup.trad-chinese-hk          "繁体中文(香港)">
+<!ENTITY  font.langGroup.japanese                 "日文">
 <!ENTITY  font.langGroup.korean                   "韩文">
 <!ENTITY  font.langGroup.cyrillic                 "西里尔语">
 <!ENTITY  font.langGroup.baltic                   "波罗的海">
