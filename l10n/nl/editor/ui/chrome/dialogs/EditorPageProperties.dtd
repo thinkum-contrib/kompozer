@@ -21,11 +21,11 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Pagina eigenschappen">
+<!ENTITY windowTitle.label "Pagina-eigenschappen">
 
 <!ENTITY general.label "Algemene informatie">
 <!ENTITY location.label "Locatie:">
-<!ENTITY lastModified.label "Laatst veranderd:">
+<!ENTITY lastModified.label "Laatst gewijzigd:">
 <!ENTITY titleInput.label "Titel:">
 <!ENTITY titleInput.accessKey "T">
 <!ENTITY authorInput.label "Auteur:">
@@ -34,21 +34,21 @@
 <!ENTITY descriptionInput.accessKey "B">
 <!ENTITY locationNewPage.label "[Nieuwe pagina, nog niet opgeslagen]">
 <!ENTITY EditHEADSource1.label "Gevorderde gebruikers:">
-<!ENTITY EditHEADSource2.label "Gebruik &quot;HTML bron&quot; in het menu Beeld of de Bewerkingsmoduswerkbalk, om andere inhoud van het &lt;head&gt; gebied te bewerken.">
+<!ENTITY EditHEADSource2.label "Gebruik “HTML-bron” in het menu Beeld of de Bewerkingsmoduswerkbalk om andere inhoud van het &lt;head&gt;-gebied te bewerken.">
 
 <!ENTITY template.label "Sjablonen">
 <!ENTITY templateCheckbox.label "Deze pagina is een sjabloon">
-<!ENTITY fromTemplate.label "Dit document is aan een sjabloon aangehecht">
+<!ENTITY fromTemplate.label "Dit document is aan een sjabloon gekoppeld">
 
 <!ENTITY i18nHeader                  "Internationalisatie">
 
 <!ENTITY writingDirection.label      "Schrijfrichting:">
-<!ENTITY defaultDirectionRadio.label "Geen richting aangegeven">
+<!ENTITY defaultDirectionRadio.label "Geen richting opgegeven">
 <!ENTITY ltrDirectionRadio.label     "Links naar rechts">
 <!ENTITY rtlDirectionRadio.label     "Rechts naar links">
 
 <!ENTITY language.label              "Taal:">
-<!ENTITY languageChoiceButton.label  "Een taal selecteren">
+<!ENTITY languageChoiceButton.label  "Een taal kiezen">
 
-<!ENTITY defaultCharset.label        "Tekenset">
-<!ENTITY chooseCharsetButton.label   "Een tekenset selecteren">
+<!ENTITY defaultCharset.label        "Tekenset:">
+<!ENTITY chooseCharsetButton.label   "Een tekenset kiezen">

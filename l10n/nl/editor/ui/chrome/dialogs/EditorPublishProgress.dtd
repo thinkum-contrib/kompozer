@@ -37,18 +37,18 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!-- Window title -->
-<!ENTITY siteUrl.label         "Site-URL:">
-<!ENTITY docSubdir.label       "Paginasubmap.">
-<!ENTITY otherSubdir.label     "Afbeeldingsubmap.">
+<!ENTITY siteUrl.label         "Website-URL:">
+<!ENTITY docSubdir.label       "Paginasubmap:">
+<!ENTITY otherSubdir.label     "Afbeeldingssubmap:">
 
-<!ENTITY status.label          "Bezig te publiceren…">
-<!ENTITY fileList.label        "Publicatiestatus">
+<!ENTITY status.label          "Publiceren…">
+<!ENTITY fileList.label        "Publiceerstatus">
 <!ENTITY statusHeader.label    "Status">
 <!ENTITY filenameHeader.label  "Bestandsnaam">
 <!ENTITY succeeded.label       "Geslaagd">
 <!ENTITY failed.label          "Mislukt">
-<!ENTITY troubleshooting.label "Problemen oplossen">
+<!ENTITY troubleshooting.label "Probleemoplossing">
 <!ENTITY troubleshooting.accessKey "P">
 
-<!ENTITY keepOpen              "Dit venster open houden als het publiceren voltooid is.">
+<!ENTITY keepOpen              "Dit venster open houden nadat het publiceren is voltooid">
 <!ENTITY closeButton.label     "Sluiten">

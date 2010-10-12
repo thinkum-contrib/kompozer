@@ -38,19 +38,19 @@
 
 <!ENTITY Select.label "Selectielijst">
 <!ENTITY SelectName.label "Lijstnaam:">
-<!ENTITY SelectName.accesskey "L">
+<!ENTITY SelectName.accesskey "n">
 <!ENTITY SelectSize.label "Hoogte:">
 <!ENTITY SelectSize.accesskey "H">
 <!ENTITY SelectMultiple.label "Meervoudige selectie">
 <!ENTITY SelectMultiple.accesskey "M">
 <!ENTITY SelectDisabled.label "Uitgeschakeld">
 <!ENTITY SelectDisabled.accesskey "U">
-<!ENTITY SelectTabIndex.label "Tabbladindex:">
-<!ENTITY SelectTabIndex.accesskey "T">
+<!ENTITY SelectTabIndex.label "Tabindex:">
+<!ENTITY SelectTabIndex.accesskey "i">
 
 <!ENTITY OptGroup.label "Optiegroep">
-<!ENTITY OptGroupLabel.label "Etiket">
-<!ENTITY OptGroupLabel.accesskey "E">
+<!ENTITY OptGroupLabel.label "Label:">
+<!ENTITY OptGroupLabel.accesskey "L">
 <!ENTITY OptGroupDisabled.label "Uitgeschakeld">
 <!ENTITY OptGroupDisabled.accesskey "U">
 
@@ -59,8 +59,8 @@
 <!ENTITY OptionText.accesskey "T">
 <!ENTITY OptionValue.label "Waarde:">
 <!ENTITY OptionValue.accesskey "W">
-<!ENTITY OptionSelected.label "In het begin geselecteerd">
-<!ENTITY OptionSelected.accesskey "I">
+<!ENTITY OptionSelected.label "Initieel geselecteerd">
+<!ENTITY OptionSelected.accesskey "s">
 <!ENTITY OptionDisabled.label "Uitgeschakeld">
 <!ENTITY OptionDisabled.accesskey "U">
 
@@ -73,8 +73,8 @@
 <!ENTITY AddOptGroup.label "Groep toevoegen">
 <!ENTITY AddOptGroup.accesskey "G">
 <!ENTITY RemoveElement.label "Verwijderen">
-<!ENTITY RemoveElement.accesskey "d">
+<!ENTITY RemoveElement.accesskey "V">
 <!ENTITY MoveElementUp.label "Omhoog verplaatsen">
-<!ENTITY MoveElementUp.accesskey "O">
+<!ENTITY MoveElementUp.accesskey "h">
 <!ENTITY MoveElementDown.label "Omlaag verplaatsen">
-<!ENTITY MoveElementDown.accesskey "v">
+<!ENTITY MoveElementDown.accesskey "l">

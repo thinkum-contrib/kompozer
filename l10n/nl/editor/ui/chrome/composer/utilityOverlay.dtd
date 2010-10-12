@@ -14,14 +14,14 @@
 <!ENTITY pasteCmd.key                     "V">  
 <!ENTITY pasteCmd.accesskey               "P"> 
 <!ENTITY deleteCmd.label                  "Verwijderen">  
-<!ENTITY deleteCmd.key                    "D">  
+<!ENTITY deleteCmd.key                    "d">  
 <!ENTITY deleteCmd.accesskey              "V"> 
 <!ENTITY selectAllCmd.label               "Alles selecteren">  
 <!ENTITY selectAllCmd.key                 "A">  
 <!ENTITY selectAllCmd.accesskey           "A">
 <!ENTITY preferencesCmd.label             "Opties…">
 <!ENTITY preferencesCmd.key               "v">  
-<!ENTITY preferencesCmd.accesskey         "o">
+<!ENTITY preferencesCmd.accesskey         "O">
 <!ENTITY preferencesCmdUnix.label         "Voorkeuren…">
 <!ENTITY preferencesCmdUnix.accesskey     "V">
 
@@ -33,11 +33,11 @@
 <!ENTITY viewToolbarsMenu.label           "Tonen/verbergen"> 
 <!ENTITY viewToolbarsMenu.accesskey       "T"> 
 
-<!ENTITY newBlankPageCmd.label            "KompoZer pagina">
-<!ENTITY newBlankPageCmd.accesskey        "C" >
+<!ENTITY newBlankPageCmd.label            "KompoZer-pagina">
+<!ENTITY newBlankPageCmd.accesskey        "p" >
 <!ENTITY newBlankPageCmd.key              "n" >
 <!ENTITY newPageFromTemplateCmd.label     "Op sjabloon gebaseerde pagina">
-<!ENTITY newPageFromTemplateCmd.accesskey "O">
+<!ENTITY newPageFromTemplateCmd.accesskey "s">
 
 <!ENTITY newNavigatorCmd.label            "Browservenster">
 <!ENTITY newNavigatorCmd.key              "N">

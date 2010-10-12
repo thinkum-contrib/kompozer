@@ -40,7 +40,7 @@
 
 <!ENTITY predef.label              "Voorgedefinieerde kleuren:">
 <!ENTITY rgb.label                 "RGB">
-<!ENTITY hsb.label                 "KVH">
+<!ENTITY hsb.label                 "HSB">
 
 <!ENTITY red.label                 "Rood:">
 <!ENTITY green.label               "Groen:">
@@ -59,7 +59,7 @@
 <!ENTITY cell.label                "Cel(len)">
 <!ENTITY cell.accessKey            "C">
 
-<!ENTITY lastPickedColor.label     "Laatst-gekozen kleur">
+<!ENTITY lastPickedColor.label     "Laatstgekozen kleur">
 <!ENTITY lastPickedColor.accessKey "L">
 
 <!ENTITY hexColor.label            "Hex:">

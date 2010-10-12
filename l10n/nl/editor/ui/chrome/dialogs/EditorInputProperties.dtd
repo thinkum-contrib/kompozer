@@ -37,13 +37,13 @@
 <!ENTITY windowTitle.label "Formulierveldeigenschappen">
 <!ENTITY windowTitleImage.label "Formulierafbeeldingseigenschappen">
 
-<!ENTITY InputType.label "Veldsoort">
-<!ENTITY InputType.accesskey "V">
+<!ENTITY InputType.label "Veldtype">
+<!ENTITY InputType.accesskey "t">
 <!ENTITY text.value "Tekst">
 <!ENTITY password.value "Wachtwoord">
 <!ENTITY checkbox.value "Selectievakje">
 <!ENTITY radio.value "Keuzerondje">
-<!ENTITY submit.value "Verzendknop ">
+<!ENTITY submit.value "Verzendknop">
 <!ENTITY reset.value "Herinitialisatieknop">
 <!ENTITY file.value "Bestand">
 <!ENTITY hidden.value "Verborgen">
@@ -52,29 +52,29 @@
 
 <!ENTITY InputSettings.label "Veldinstellingen">
 <!ENTITY InputName.label "Veldnaam:">
-<!ENTITY GroupName.label "Groepnaam:">
-<!ENTITY Name.accesskey "N">
+<!ENTITY GroupName.label "Groepsnaam:">
+<!ENTITY Name.accesskey "n">
 <!ENTITY InputValue.label "Veldwaarde:">
-<!ENTITY InitialValue.label "Beginwaarde:">
-<!ENTITY Value.accesskey "W">
-<!ENTITY InputChecked.label "In het begin aangevinkt">
+<!ENTITY InitialValue.label "Initiële waarde:">
+<!ENTITY Value.accesskey "w">
+<!ENTITY InputChecked.label "Initieel aangevinkt">
 <!ENTITY InputChecked.accesskey "a">
-<!ENTITY InputSelected.label "In het begin geselecteerd">
-<!ENTITY InputSelected.accesskey "g">
+<!ENTITY InputSelected.label "Initieel geselecteerd">
+<!ENTITY InputSelected.accesskey "s">
 <!ENTITY InputReadOnly.label "Alleen-lezen">
-<!ENTITY InputReadOnly.accesskey "A">
+<!ENTITY InputReadOnly.accesskey "l">
 <!ENTITY InputDisabled.label "Uitgeschakeld">
 <!ENTITY InputDisabled.accesskey "U">
-<!ENTITY tabIndex.label "Tabbladindex:">
-<!ENTITY tabIndex.accesskey "T">
+<!ENTITY tabIndex.label "Tabindex:">
+<!ENTITY tabIndex.accesskey "i">
 <!ENTITY TextSize.label "Veldgrootte:">
 <!ENTITY TextSize.accesskey "V">
 <!ENTITY TextLength.label "Maximumlengte:">
 <!ENTITY TextLength.accesskey "M">
 <!ENTITY AccessKey.label "Sneltoets:">
-<!ENTITY AccessKey.accesskey "S">
-<!ENTITY Accept.label "Soorten accepteren:">
-<!ENTITY Accept.accesskey "o">
+<!ENTITY AccessKey.accesskey "o">
+<!ENTITY Accept.label "Geaccepteerde typen:">
+<!ENTITY Accept.accesskey "y">
 
 <!ENTITY ImageProperties.label "Afbeeldingseigenschappen…">
-<!ENTITY ImageProperties.accesskey "f">
+<!ENTITY ImageProperties.accesskey "e">

@@ -25,36 +25,36 @@
 <!-- These strings are for use specifically in the editor's image map dialog. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Afbeeldingskaartbewerker">
+<!ENTITY windowTitle.label "Afbeeldingskaarteditor">
 
 <!-- Menu Items -->
 <!-- File menu -->
 <!ENTITY mapfileMenu.label "Bestand">
-<!ENTITY mapfilemenu.accesskey "f">
+<!ENTITY mapfilemenu.accesskey "B">
 <!ENTITY clearCmd.label "Wissen">
-<!ENTITY mapfileclear.accesskey "a">
+<!ENTITY mapfileclear.accesskey "W">
 <!ENTITY closeCmd.label "Sluiten">
-<!ENTITY mapfileclose.accesskey "c">
+<!ENTITY mapfileclose.accesskey "S">
 
 <!-- Edit menu -->
 <!ENTITY mapeditMenu.label "Bewerken">
-<!ENTITY mapeditmenu.accesskey "e">
+<!ENTITY mapeditmenu.accesskey "w">
 <!ENTITY cutCmd.label "Knippen">
-<!ENTITY mapeditcut.accesskey "t">
+<!ENTITY mapeditcut.accesskey "n">
 <!ENTITY copyCmd.label "Kopiëren">
-<!ENTITY mapeditcopy.accesskey "c">
+<!ENTITY mapeditcopy.accesskey "K">
 <!ENTITY pasteCmd.label "Plakken">
-<!ENTITY mapeditpaste.accesskey "p">
+<!ENTITY mapeditpaste.accesskey "P">
 <!ENTITY selectallCmd.label "Alles selecteren">
-<!ENTITY mapselectall.accesskey "s">
+<!ENTITY mapselectall.accesskey "A">
 <!ENTITY propsCmd.label "Hotspot-eigenschappen">
-<!ENTITY mapeditprops.accesskey "h">
+<!ENTITY mapeditprops.accesskey "e">
 
 <!-- View menu -->
 <!ENTITY mapviewMenu.label "Beeld">
-<!ENTITY mapviewmenu.accesskey "v">
+<!ENTITY mapviewmenu.accesskey "l">
 <!ENTITY showhideTbarCmd.label "Werkbalk verbergen">
-<!ENTITY mapviewtbar.accesskey "t">
+<!ENTITY mapviewtbar.accesskey "W">
 <!-- Scaling -->
 <!ENTITY mapviewScale.label "Schaal">
 <!ENTITY mapviewscale.accesskey "S">
@@ -70,7 +70,7 @@
 
 <!-- Help menu -->
 <!ENTITY maphelpMenu.label "Help">
-<!ENTITY maphelpmenu.accesskey "h">
+<!ENTITY maphelpmenu.accesskey "H">
 <!ENTITY aboutCmd.label "Over">
 <!ENTITY about.accesskey "v">
 
@@ -81,9 +81,9 @@
 <!-- Keys -->
 <!ENTITY clear.accesskey "d">
 <!ENTITY selectall.accesskey "a">
-<!ENTITY close.accesskey "I">
-<!ENTITY cut.accesskey "k">
+<!ENTITY close.accesskey "l">
+<!ENTITY cut.accesskey "x">
 <!ENTITY copy.accesskey "c">
 <!ENTITY paste.accesskey "v">
 <!ENTITY props.accesskey "p">
-<!ENTITY tbar.accesskey "r">
+<!ENTITY tbar.accesskey "t">

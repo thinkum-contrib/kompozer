@@ -31,29 +31,29 @@
 <!ENTITY widthEditField.label "Breedte:">
 <!ENTITY widthEditField.accessKey "B">
 <!ENTITY borderEditField.label "Rand:">
-<!ENTITY borderEditField.accessKey "R">
-<!ENTITY borderEditField.tooltip "Typ een nummer voor de tabelrand, of nul (0) voor geen rand.">
+<!ENTITY borderEditField.accessKey "a">
+<!ENTITY borderEditField.tooltip "Typ een nummer voor de tabelrand, of typ nul (0) voor geen rand">
 <!ENTITY pixels.label "pixels">
 
 <!ENTITY quicklyTab.label "Snel">
 <!ENTITY preciselyTab.label "Precies">
 <!ENTITY cellTab.label "Cel">
 
-<!ENTITY horizAlignment.label "Horizontale uitlijning:">
-<!ENTITY unspecifiedHAlignment.label "Niet opgegeven">
+<!ENTITY horizAlignment.label "Horiz. uitlijning:">
+<!ENTITY unspecifiedHAlignment.label "Niet gespecificeerd">
 <!ENTITY leftHAlignment.label "Links">
 <!ENTITY centerHAlignment.label "Midden">
 <!ENTITY rightHAlignment.label "Rechts">
 
-<!ENTITY vertAlignment.label "Verticale uitlijning:">
-<!ENTITY unspecifiedVAlignment.label "Niet opgegeven">
+<!ENTITY vertAlignment.label "Vert. uitlijning:">
+<!ENTITY unspecifiedVAlignment.label "Niet gespecificeerd">
 <!ENTITY topVAlignment.label "Boven">
 <!ENTITY middleVAlignment.label "Midden">
 <!ENTITY bottomVAlignment.label "Onder">
 
-<!ENTITY textWrapping.label "Tekstafbreking:">
+<!ENTITY textWrapping.label "Tekstterugloop:">
 <!ENTITY wrapWrapping.label "Afbreken">
 <!ENTITY nowrapWrapping.label "Niet afbreken">
 
-<!ENTITY cellSpacing.label "Cellafstand (spacing)">
+<!ENTITY cellSpacing.label "Celafstand (spacing)">
 <!ENTITY cellPadding.label "Celvulling (padding)">

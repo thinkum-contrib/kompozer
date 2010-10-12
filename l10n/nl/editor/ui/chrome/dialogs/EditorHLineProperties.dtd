@@ -22,7 +22,7 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Horizontale lijn eigenschappen">
+<!ENTITY windowTitle.label "Horizontale-lijneigenschappen">
 
 <!ENTITY dimensionsBox.label "Afmetingen">
 <!ENTITY heightEditField.label "Hoogte:">
@@ -38,8 +38,8 @@
 <!ENTITY rightRadio.value "Rechts">
 <!ENTITY rightRadio.accessKey "R">
 
-<!ENTITY threeDShading.label "3-D schaduw">
-<!ENTITY threeDShading.accessKey "S">
+<!ENTITY threeDShading.label "3D-arcering">
+<!ENTITY threeDShading.accessKey "a">
 <!ENTITY saveSettings.label "Als standaard gebruiken">
-<!ENTITY saveSettings.accessKey "A">
+<!ENTITY saveSettings.accessKey "d">
 <!ENTITY saveSettings.tooltip "Deze instellingen opslaan om te gebruiken bij het invoegen van nieuwe horizontale lijnen">

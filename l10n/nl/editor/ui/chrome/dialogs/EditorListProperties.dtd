@@ -24,16 +24,16 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lijsteigenschappen">
 
-<!ENTITY ListType.label "Lijstsoort">
+<!ENTITY ListType.label "Lijsttype">
 <!ENTITY bulletStyle.label "Opsommingsstijl:">
 <!ENTITY startingNumber.label "Starten bij:">
 <!ENTITY startingNumber.accessKey "S">
 <!ENTITY none.value "Geen">
-<!ENTITY bulletList.value "Ongenummerde opsommingslijst">
+<!ENTITY bulletList.value "Opsommingslijst (niet genummerd)">
 <!ENTITY numberList.value "Genummerde lijst">
 <!ENTITY definitionList.value "Definitielijst">
-<!ENTITY changeListMsg.label "Wanneer lijstsoort wordt aangepast:">
-<!ENTITY changeEntireListRadio.label "De hele lijst veranderen">
-<!ENTITY changeEntireListRadio.accessKey "D">
-<!ENTITY changeSelectedRadio.label "Alleen de geselecteerde items aanpassen">
+<!ENTITY changeListMsg.label "Bij wijzigen van lijsttype:">
+<!ENTITY changeEntireListRadio.label "Hele lijst wijzigen">
+<!ENTITY changeEntireListRadio.accessKey "H">
+<!ENTITY changeSelectedRadio.label "Alleen geselecteerde items wijzigen">
 <!ENTITY changeSelectedRadio.accessKey "A">

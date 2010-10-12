@@ -21,8 +21,8 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Bewerkveranderingen selecteren">
-<!ENTITY conflictWarning.label "Deze pagina is veranderd door een ander programma, maar u heeft ook onopgeslagen veranderingen in KompoZer.">
-<!ENTITY conflictResolve.label "Selecteer welke versie behouden moet worden:">
-<!ENTITY keepCurrentPageButton.label "Huidige pagina veranderingen behouden">
-<!ENTITY useOtherPageButton.label "De huidige pagina overschrijven met andere veranderingen">
+<!ENTITY windowTitle.label "Bewerkingswijzigingen selecteren">
+<!ENTITY conflictWarning.label "Deze pagina is gewijzigd door een ander programma, maar u hebt ook onopgeslagen wijzigingen in KompoZer.">
+<!ENTITY conflictResolve.label "Selecteer welke versie u wilt behouden:">
+<!ENTITY keepCurrentPageButton.label "Wijzigingen op huidige pagina behouden">
+<!ENTITY useOtherPageButton.label "Huidige pagina overschrijven met andere wijzigingen">

@@ -28,7 +28,7 @@
 
 <!ENTITY link.label				"Hotspot-koppeling">
 <!ENTITY urlFieldset.label		"Hotspot-URL:">
-<!ENTITY altFieldset.label		"Hotspot alternatieve tekst:">
+<!ENTITY altFieldset.label		"Alt. tekst Hotspot:">
 <!ENTITY browseButton.label		"Bladeren…">
 <!ENTITY targetFieldset.label	"Doelinstelling">
 <!ENTITY target.label			"Hotspot-doel">
@@ -39,5 +39,5 @@
 <!ENTITY same.value				"Hetzelfde deelvenster">
 <!ENTITY whole.value			"Hele pagina">
 <!ENTITY new.value				"Nieuw venster">
-<!ENTITY parent.value			"Ouderdeelvenster">
+<!ENTITY parent.value			"Bovenliggend deelvenster">
 

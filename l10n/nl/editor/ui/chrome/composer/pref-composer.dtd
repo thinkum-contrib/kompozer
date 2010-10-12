@@ -42,41 +42,41 @@
 <!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
 <!ENTITY  title.label                           "Algemeen">
 <!ENTITY  lHeader                               "Algemeen">
-<!ENTITY  rHeader                               "Instellingen voor het bouwen van nieuwe webpagina's">
+<!ENTITY  rHeader                               "Instellingen voor het bouwen van nieuwe webpagina’s">
 
 <!ENTITY  tableEditing.label                    "Tabel bewerken">
 <!ENTITY  maintainTableStructure.label          "Tabelvormgeving bij het invoegen of verwijderen van cellen behouden">
-<!ENTITY  maintainTableStructure.tooltip        "De rechthoekige vorm van de tabel behouden door automatisch cellen toe te voegen nadat cellen toegevoegd of verwijderd zijn">
-<!ENTITY  maintainStructure.accesskey           "B">
+<!ENTITY  maintainTableStructure.tooltip        "Behoudt rechthoekige vorm van de tabel door automatisch cellen toe te voegen na het invoegen of verwijderen van cellen">
+<!ENTITY  maintainStructure.accesskey           "b">
 
-<!ENTITY  savingFiles.title                     "Bij het opslaan of publiceren van pagina's">
+<!ENTITY  savingFiles.title                     "Bij het opslaan of publiceren van pagina’s">
 <!ENTITY  preserveExistingFormatting            "Originele bronopmaak behouden">
 <!ENTITY  preserveExistingFormatting.accesskey  "O">
-<!ENTITY  preserveExistingFormatting.tooltip    "Lijnafbrekingen en de originele paginaopmaak behouden">
+<!ENTITY  preserveExistingFormatting.tooltip    "Behoudt regeleinden en originele opmaak van de pagina">
 <!ENTITY  reformat.label                        "HTML-broncode opnieuw opmaken">
 <!ENTITY  reformat.accesskey                    "H">
-<!ENTITY  reformat.tooltip                      "HTML-tags opnieuw opmaken met lijnafbrekingen en inspringingen">
+<!ENTITY  reformat.tooltip                      "HTML-tags opnieuw opmaken met regeleinden en inspringingen">
 
-<!ENTITY  saveAssociatedFiles.label             "Afbeeldingen en andere geassocieerde bestanden opslaan bij het opslaan van pagina's">
-<!ENTITY  showPublishDialog.label               "Altijd het publicatiedialoogvenster weergeven bij het publiceren van pagina's">
+<!ENTITY  saveAssociatedFiles.label             "Afbeeldingen en andere geassocieerde bestanden opslaan bij het opslaan van pagina’s">
+<!ENTITY  showPublishDialog.label               "Altijd het publicatiedialoogvenster tonen bij het publiceren van pagina’s">
 
-<!ENTITY  saving                                "Bezig op te slaan">
-<!ENTITY  AutoSaveCheck                         "Automatisch opslaan elke">
+<!ENTITY  saving                                "Opslaan">
+<!ENTITY  AutoSaveCheck                         "Automatisch opslaan om de">
 <!ENTITY  minText                               "minuten">
 
-<!ENTITY  exterLegend.label                     "Externe bewerkingsprogramma's">
-<!ENTITY  htmlSource                            "HTML bron:">
+<!ENTITY  exterLegend.label                     "Externe editors">
+<!ENTITY  htmlSource                            "HTML-bron:">
 <!ENTITY  imageeditor                           "Afbeeldingen:">
 <!ENTITY  chooseButton.label                    "Kiezen">
 
-<!ENTITY  recentFiles.title                     "Recente pagina's-menu">
+<!ENTITY  recentFiles.title                     "Menu Recente pagina’s">
 <!ENTITY  documentsInMenu.accesskey             "M">
-<!ENTITY  documentsInMenu                       "Maximaal aantal weergegeven pagina's:">
+<!ENTITY  documentsInMenu                       "Maximumaantal weergegeven pagina’s:">
 
 <!ENTITY  cssEditing.label                      "Trapsgewijze stijlbladen (CSS) bewerken">
-<!ENTITY  useCSS.label                          "CSS-stijlbladen gebruiken in plaats van HTML-elementen en attributen">
+<!ENTITY  useCSS.label                          "CSS-stijlbladen gebruiken in plaats van HTML-elementen en -attributen">
 
-<!ENTITY  siteManager.label                     "Sitebeheerder">
+<!ENTITY  siteManager.label                     "Websitebeheerder">
 <!ENTITY  openInNewTab.label                    "Een document altijd in een nieuw tabblad openen">
 <!-- KompoZer 0.8 -->
-<!ENTITY  useSystemIcons.label                  "Gebruik systeem pictogram">
+<!ENTITY  useSystemIcons.label                  "Systeempictogrammen gebruiken">

@@ -1,31 +1,31 @@
-<!ENTITY lHeader                     "Nieuwe pagina">
-<!ENTITY rHeader                     "Standaarden voor nieuwe pagina's">
+<!ENTITY lHeader                     "Nieuwepagina-instellingen">
+<!ENTITY rHeader                     "Standaarden voor nieuwe pagina’s">
 
 <!ENTITY authorName.label            "Auteur:">
-<!ENTITY authorName.accesskey        "A">
+<!ENTITY authorName.accesskey        "u">
 <!ENTITY pageColorHeader             "Standaard paginaweergave">
 
 <!ENTITY defaultColorsRadio.label    "Standaardkleuren van lezer (kleuren niet in pagina instellen)">
 <!ENTITY defaultColors.accesskey     "S">
 <!ENTITY customColorsRadio.label     "Aangepaste kleuren gebruiken:">
-<!ENTITY customColors.accesskey      "N">
+<!ENTITY customColors.accesskey      "A">
 
 <!ENTITY normalText.label            "Normale tekst">
-<!ENTITY normalText.accesskey        "t">
+<!ENTITY normalText.accesskey        "N">
 <!ENTITY linkText.label              "Koppelingstekst">
 <!ENTITY linkText.accesskey          "K">
 <!ENTITY activeLinkText.label        "Actieve koppelingstekst">
-<!ENTITY activeLinkText.accesskey    "c">
+<!ENTITY activeLinkText.accesskey    "e">
 <!ENTITY visitedLinkText.label       "Bezochte koppelingstekst">
-<!ENTITY visitedLinkText.accesskey   "B">
+<!ENTITY visitedLinkText.accesskey   "z">
 <!ENTITY background.label            "Achtergrond:">
-<!ENTITY background.accesskey        "h">
+<!ENTITY background.accesskey        "c">
 <!ENTITY colon.character             ":">
 
 <!ENTITY backgroundImage.label       "Achtergrondafbeelding:">
-<!ENTITY backgroundImage.accesskey   "e">
+<!ENTITY backgroundImage.accesskey   "t">
 <!ENTITY chooseFile.label            "Bestand kiezen…">
-<!ENTITY chooseFile.accesskey        "k">
+<!ENTITY chooseFile.accesskey        "B">
 
 <!ENTITY i18nHeader                  "Internationalisatie">
 

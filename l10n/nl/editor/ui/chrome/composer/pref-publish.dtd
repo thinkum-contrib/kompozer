@@ -7,13 +7,14 @@
 <!ENTITY  keepCheck.label "Afbeeldingen bij de pagina behouden">
 
 <!--LOCALIZATION NOTE (adjustDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
-<!ENTITY  adjustDesc.label "Pas de koppelingen aan om vanaf de locatie van de pagina te werken. (Koppelingen naar lokale pagina's werken als lokale versies bestaan.)">
+<!ENTITY  adjustDesc.label "Pas de koppelingen aan zodat dat ze vanaf de locatie van de pagina werken. (Koppelingen
+                             naar lokale pagina’s zullen werken als lokale versies bestaan.)">
 <!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
-<!ENTITY  saveDesc.label "Sla kopiëen van afbeeldingen op bij de locatie van de pagina.  Afbeeldingen zullen altijd verschijnen in lokale versies van de pagina en wanneer de pagina wordt gepubliceerd.">
-<!ENTITY  tip.label "Tip: Selecteer beide opties als u publiceert op afstand.">
+<!ENTITY  saveDesc.label "Sla kopieën van afbeeldingen op naar de locatie van de pagina. Afbeeldingen zullen
+                              altijd in lokale versies van de pagina verschijnen en wanneer de pagina wordt gepubliceerd.">
+<!ENTITY  tip.label "Tip: selecteer beide opties als u op afstand publiceert.">
 <!ENTITY defaultHeader.label  "Standaard publicatielocatie">
 <!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
-<!ENTITY  publishFtp.label "Als u publiceert naar een FTP site, voer dan de HTTP locatie in waarnaar moet worden gebladerd:">
+<!ENTITY  publishFtp.label "Als u naar een FTP-site publiceert, voer dan het HTTP-adres om naar te bladeren in:">
 <!--LOCALIZATION NOTE (publishhtp.label): Edit box appears beside this label -->
-<!ENTITY  publishhtp.label "Als u publiceert naar een FTP site, voer dan de HTTP locatie in waarnaar moet worden gebladerd:">
-
+<!ENTITY  publishhtp.label "Als u naar een FTP-site publiceert, voer dan het HTTP-adres om naar te bladeren in:">

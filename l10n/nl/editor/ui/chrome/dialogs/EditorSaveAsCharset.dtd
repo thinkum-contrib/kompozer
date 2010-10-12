@@ -25,11 +25,8 @@
 <!-- This button is for the progressive disclosure of additional editing functionality -->
 
 <!-- These strings are for use specifically in the editor's link dialog. -->
-<!ENTITY windowTitle.label "Tekenset opslaan en aanpassen">
+<!ENTITY windowTitle.label "Opslaan en tekenset wijzigen">
 <!ENTITY documentTitleTitle.label "Paginatitel">
 <!ENTITY documentCharsetTitle.label "Tekenset">
-<!ENTITY documentCharsetDesc.label "Selecteer de tekenset waarin u een document wilt opslaan als:">
-<!ENTITY documentExportToText.label "Exporteren als tekst">
-
-
-
+<!ENTITY documentCharsetDesc.label "Selecteer de tekenset waarin u een document wilt opslaan:">
+<!ENTITY documentExportToText.label "Exporteren naar tekst">

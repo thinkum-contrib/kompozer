@@ -36,5 +36,5 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!ENTITY window.title                     "Bevestigen">
-<!ENTITY confirmInlineSpellChecking.label "Inline spellingscontrole is ingeschakeld en uw document zal nu helemaal op spelfouten gecontroleerd worden voordat u de Bron-weergave verlaat. Dit kan invloed hebben op de snelheid van KompoZer, afhankelijk van de lengte en de complexiteit van uw document. Wilt u verder gaan en op spellingsfouten controleren of de spellingscontrole uitschakelen?">
+<!ENTITY confirmInlineSpellChecking.label "Inline spellingcontrole is ingeschakeld, en uw document zal nu volledig op spelfouten worden gecontroleerd voordat u de bronweergave verlaat. Dit kan invloed hebben op de prestaties, afhankelijk van de lengte en complexiteit van uw document. Wilt u verdergaan en de spelling controleren, of wilt u de spellingcontrole uitschakelen?">
 <!ENTITY exitWarningCheckbox.label        "Dit dialoogvenster niet opnieuw tonen">

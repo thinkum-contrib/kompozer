@@ -23,24 +23,24 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Paginakleuren en achtergrond">
 <!ENTITY pageColors.label "Paginakleuren">
-<!ENTITY defaultColorsRadio.label "Standaard kleuren van lezer (kleuren niet in pagina instellen)">
+<!ENTITY defaultColorsRadio.label "Standaardkleuren van lezer (kleuren niet in pagina instellen)">
 <!ENTITY defaultColorsRadio.accessKey "S">
 <!ENTITY defaultColorsRadio.tooltip "Alleen de kleurinstellingen van de browser (van de lezer) gebruiken">
 <!ENTITY customColorsRadio.label "Aangepaste kleuren gebruiken:">
 <!ENTITY customColorsRadio.accessKey "A">
-<!ENTITY customColorsRadio.tooltip "Deze kleurinstellingen negeren de instellingen van de browser van de lezer">
+<!ENTITY customColorsRadio.tooltip "Deze kleurinstellingen hebben voorrang op de browserinstellingen van de lezer">
 
 <!ENTITY normalText.label "Normale tekst">
 <!ENTITY normalText.accessKey "N">
 <!ENTITY linkText.label "Koppelingstekst">
 <!ENTITY linkText.accessKey "K">
-<!ENTITY activeLinkText.label "Actieve koppelingstekst">
-<!ENTITY activeLinkText.accessKey "C">
-<!ENTITY visitedLinkText.label "Bezochte koppelingstekst">
-<!ENTITY visitedLinkText.accessKey "B">
+<!ENTITY activeLinkText.label "Actieve koppeling">
+<!ENTITY activeLinkText.accessKey "c">
+<!ENTITY visitedLinkText.label "Bezochte koppeling">
+<!ENTITY visitedLinkText.accessKey "z">
 <!ENTITY background.label "Achtergrond:">
-<!ENTITY background.accessKey "H">
+<!ENTITY background.accessKey "h">
 <!ENTITY colon.character ":">
 <!ENTITY backgroundImage.label "Achtergrondafbeelding:">
-<!ENTITY backgroundImage.accessKey "T">
+<!ENTITY backgroundImage.accessKey "t">
 <!ENTITY backgroundImage.tooltip "Een afbeeldingsbestand gebruiken als achtergrond voor uw pagina">

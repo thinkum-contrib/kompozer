@@ -1,20 +1,19 @@
-<!ENTITY helpers.label                "Externe toepassing">
+<!ENTITY helpers.label                "Externe toepassingen">
 
 <!ENTITY application.label            "Toepassing:">
-<!ENTITY webBrowser.label             "internet browser">
-<!ENTITY textEditor.label             "Tekstverwerker">
-<!ENTITY imageEditor.label            "Afbeeldingenbewerker">
-<!ENTITY mediaPlayer.label            "Media speler">
-<!ENTITY fileManager.label            "Bestandsmanager">
-<!ENTITY ftpClient.label              "FTP-cliënt">
+<!ENTITY webBrowser.label             "Webbrowser">
+<!ENTITY textEditor.label             "Teksteditor">
+<!ENTITY imageEditor.label            "Afbeeldingseditor">
+<!ENTITY mediaPlayer.label            "Mediaspeler">
+<!ENTITY fileManager.label            "Bestandsbeheerder">
+<!ENTITY ftpClient.label              "FTP-client">
 
-<!ENTITY useSystemHelper.label        "gebruik standaard systeem">
-<!ENTITY useCustomHelper.label        "gebruik aangepaste toepassing">
+<!ENTITY useSystemHelper.label        "standaardwaarden van systeem gebruiken">
+<!ENTITY useCustomHelper.label        "aangepaste toepassing gebruiken:">
 <!ENTITY path.label                   "bestandspad">
 <!ENTITY arguments.label              "argumenten">
-<!ENTITY filePicker.tooltip           "Kies bestand...">
+<!ENTITY filePicker.tooltip           "Bestand kiezen…">
 
-<!ENTITY fileFilter.label             "Bestand extensies (*) voor:">
+<!ENTITY fileFilter.label             "Bestandsextensies (*) voor:">
 <!ENTITY default.label                "standaard">
-<!ENTITY needToRestart.label          "(*) Aanpassingen van deze voorkeuren vinden plaatst wanneer Kompozer opnieuw wordt opgestart.">
-
+<!ENTITY needToRestart.label          "(*) Aanpassingen van deze voorkeuren worden van kracht nadat KompoZer opnieuw is gestart.">

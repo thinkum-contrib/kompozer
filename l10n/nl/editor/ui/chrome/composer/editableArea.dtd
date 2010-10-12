@@ -37,11 +37,11 @@
 
 <!ENTITY window.title                 "Een bewerkbaar gebied invoegen">
 
-<!ENTITY areaName.label               "Naam van het gebied">
-<!ENTITY provideId.label              "Geef alstublieft een naar aan dat bewerkbaar gebied:">
-<!ENTITY warning.label                "Waarschuwing, deze naam is reeds gebruikt!!!">
+<!ENTITY areaName.label               "Naam van gebied">
+<!ENTITY provideId.label              "Geef een naam aan dat bewerkbare gebied:">
+<!ENTITY warning.label                "Waarschuwing, deze naam wordt al gebruikt!!!">
 
-<!ENTITY areaType.label               "Gebiedsoort">
+<!ENTITY areaType.label               "Type gebied">
 <!ENTITY flowAreaRadio.label          "Tekstdoorloop">
 <!ENTITY blockAreaRadio.label         "Blokkeren">
 

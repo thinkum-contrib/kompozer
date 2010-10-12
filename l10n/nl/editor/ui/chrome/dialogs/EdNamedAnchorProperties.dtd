@@ -20,9 +20,7 @@
    - Contributor(s): 
   -->
 
-<!ENTITY windowTitle.label "Gelabelde positie-eigenschappen">
-<!ENTITY anchorNameEditField.label "Positienaam:">
-<!ENTITY anchorNameEditField.accessKey "P">
-<!ENTITY nameInput.tooltip "Voer een unieke naam voor deze gelabelde positie in (doel)">
-
-
+<!ENTITY windowTitle.label "Ankerverwijzingseigenschappen">
+<!ENTITY anchorNameEditField.label "Ankernaam:">
+<!ENTITY anchorNameEditField.accessKey "A">
+<!ENTITY nameInput.tooltip "Voer een unieke naam in voor deze ankerverwijzing (doel)">

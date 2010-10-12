@@ -1,25 +1,25 @@
 <!-- extracted from content/pref-proxies.xul -->
 
 <!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
-<!ENTITY  lHeader                       "Verbindingsintellingen">
-<!ENTITY  proxyTitle.label              "Proxies voor toegang tot het Internet instellen">
-<!ENTITY  directTypeRadio.label         "Directe verbinding met het Internet">
+<!ENTITY  lHeader                       "Verbindingsinstellingen">
+<!ENTITY  proxyTitle.label              "Proxy’s voor toegang tot het internet configureren">
+<!ENTITY  directTypeRadio.label         "Directe verbinding met het internet">
 <!ENTITY  directTypeRadio.accesskey     "D">
-<!ENTITY  manualTypeRadio.label         "Handmatige proxy-instellingen">
+<!ENTITY  manualTypeRadio.label         "Handmatige proxyconfiguratie">
 <!ENTITY  manualTypeRadio.accesskey     "m">
-<!ENTITY  autoTypeRadio.label           "URL voor automatische proxy-instelling:">
+<!ENTITY  autoTypeRadio.label           "URL voor automatische proxyconfiguratie:">
 <!ENTITY  autoTypeRadio.accesskey       "a">
-<!ENTITY  configAutoconfigText.label    "Instellingslocatie (URL):">
-<!ENTITY  configAutoconfigText.accesskey "U">
-<!ENTITY  reload.label                  "Herladen">
-<!ENTITY  reload.accesskey              "H">
-<!ENTITY  ftp.label                     "FTP proxy:">
+<!ENTITY  configAutoconfigText.label    "Configuratielocatie (URL):">
+<!ENTITY  configAutoconfigText.accesskey "u">
+<!ENTITY  reload.label                  "Opnieuw laden">
+<!ENTITY  reload.accesskey              "e">
+<!ENTITY  ftp.label                     "FTP-proxy:">
 <!ENTITY  ftp.accesskey                 "F">
-<!ENTITY  gopher.label                  "Gopher proxy:">
+<!ENTITY  gopher.label                  "Gopher-proxy:">
 <!ENTITY  gopher.accesskey              "G">
-<!ENTITY  http.label                    "HTTP proxy:">
+<!ENTITY  http.label                    "HTTP-proxy:">
 <!ENTITY  http.accesskey                "H">
-<!ENTITY  ssl.label                     "SSL proxy:">
+<!ENTITY  ssl.label                     "SSL-proxy:">
 <!ENTITY  ssl.accesskey                 "S">
 <!ENTITY  socks.label                   "SOCKS-host:">
 <!ENTITY  socks.accesskey               "C">
@@ -28,7 +28,7 @@
 <!ENTITY  socks5.label                  "SOCKS v5">
 <!ENTITY  socks5.accesskey              "v">
 <!ENTITY  port.label                    "Poort:">
-<!ENTITY  HTTPport.accesskey            "p">
+<!ENTITY  HTTPport.accesskey            "P">
 <!ENTITY  SSLport.accesskey             "o">
 <!ENTITY  FTPport.accesskey             "r">
 <!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
@@ -36,4 +36,4 @@
 <!ENTITY  SOCKSport.accesskey           "t">
 <!ENTITY  noproxy.label                 "Geen proxy voor:">
 <!ENTITY  noproxy.accesskey             "n">
-<!ENTITY  noproxyExplain.label          "Voorbeeld: .mozilla.org, .net.nl">
+<!ENTITY  noproxyExplain.label          "Voorbeeld: .mozilla.org, .net.nz">

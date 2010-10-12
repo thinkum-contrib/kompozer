@@ -24,23 +24,23 @@
 <!-- extracted from EdReplace.xul -->
 
 <!ENTITY replaceDialog.title "Zoeken en vervangen">
-<!ENTITY findField.label "Zoeken naar:">
-<!ENTITY findField.accesskey "n">
+<!ENTITY findField.label "Tekst zoeken:">
+<!ENTITY findField.accesskey "T">
 <!ENTITY replaceField.label "Vervangen door:">
-<!ENTITY replaceField.accesskey "d">
+<!ENTITY replaceField.accesskey "e">
 <!ENTITY caseSensitiveCheckbox.label "Hoofdlettergevoelig">
-<!ENTITY caseSensitiveCheckbox.accesskey "o">
+<!ENTITY caseSensitiveCheckbox.accesskey "H">
 <!ENTITY wrapCheckbox.label "Doorgaan na documenteinde">
 <!ENTITY wrapCheckbox.accesskey "D">
 <!ENTITY backwardsCheckbox.label "Achterwaarts zoeken">
-<!ENTITY backwardsCheckbox.accesskey "A">
+<!ENTITY backwardsCheckbox.accesskey "c">
 <!ENTITY findNextButton.label "Volgende zoeken">
 <!ENTITY findNextButton.accesskey "z">
 <!ENTITY replaceButton.label "Vervangen">
-<!ENTITY replaceButton.accesskey "e">
+<!ENTITY replaceButton.accesskey "V">
 <!ENTITY replaceAndFindButton.label "Vervangen en zoeken">
 <!ENTITY replaceAndFindButton.accesskey "r">
 <!ENTITY replaceAllButton.label "Alle vervangen">
-<!ENTITY replaceAllButton.accesskey "l">
+<!ENTITY replaceAllButton.accesskey "A">
 <!ENTITY closeButton.label "Sluiten">
 <!ENTITY notFoundWarning.label "De door u ingevoerde tekst is niet gevonden.">
