@@ -1,0 +1,108 @@
+<!-- Context Menu -->
+<!ENTITY popupWindowRejectCmd.label     "Забраняване на изскачащи прозорци от този сайт">
+<!ENTITY popupWindowRejectCmd.accesskey "З">
+<!ENTITY popupWindowAllowCmd.label      "Допускане на изскачащи прозорци от тази страница">
+<!ENTITY popupWindowAllowCmd.accesskey  "Д">
+<!ENTITY openLinkCmd.label            "Отваряне на връзката в нов прозорец">
+<!ENTITY openLinkCmd.accesskey        "О">
+<!ENTITY openLinkCmdInTab.label       "Отваряне на връзката в нов подпрозорец">
+<!ENTITY openLinkCmdInTab.accesskey   "О">
+<!ENTITY openLinkInWindowCmd.label    "Отваряне">
+<!ENTITY openLinkInWindowCmd.accesskey "О">
+<!ENTITY openFrameCmd.label           "Отваряне на рамката в нов прозорец">
+<!ENTITY openFrameCmd.accesskey       "О">
+<!ENTITY openFrameCmdInTab.label      "Отваряне на рамката в нов подпрозорец">
+<!ENTITY openFrameCmdInTab.accesskey  "О">
+<!ENTITY showOnlyThisFrameCmd.label     "Показване само на тази рамка">
+<!ENTITY showOnlyThisFrameCmd.accesskey "П">
+<!ENTITY addToBookmarksCmd.label      "Отмятане на страницата">
+<!ENTITY addToBookmarksCmd.accesskey  "О">
+<!ENTITY goBackCmd.label              "Назад">
+<!ENTITY goBackCmd.accesskey          "Н">
+<!ENTITY goForwardCmd.label           "Напред">
+<!ENTITY goForwardCmd.accesskey       "п">
+<!ENTITY goUpCmd.label                "Нагоре">
+<!ENTITY goUpCmd.accesskey            "Н">
+<!ENTITY reloadCmd.label              "Презареждане">
+<!ENTITY reloadCmd.accesskey          "П">
+<!ENTITY reloadCmd.commandkey         "П">
+<!ENTITY stopCmd.label                "Спиране">
+<!ENTITY stopCmd.accesskey            "С">
+<!ENTITY reloadFrameCmd.label         "Презареждане на рамката">
+<!ENTITY reloadFrameCmd.accesskey     "П">
+<!ENTITY viewPartialSourceForSelectionCmd.label "View Selection Source">
+<!ENTITY viewPartialSourceForMathMLCmd.label    "View MathML Source">
+<!ENTITY viewPartialSourceCmd.accesskey "м">
+<!ENTITY viewPageSourceCmd.label      "View Page Source">
+<!ENTITY viewPageSourceCmd.accesskey  "V">
+<!ENTITY viewFrameSourceCmd.label     "View Frame Source">
+<!ENTITY viewFrameSourceCmd.accesskey "V">
+<!ENTITY viewPageInfoCmd.label        "View Page Info">
+<!ENTITY viewPageInfoCmd.accesskey    "i">
+<!ENTITY viewFrameInfoCmd.label       "View Frame Info">
+<!ENTITY viewFrameInfoCmd.accesskey   "i">
+<!ENTITY fitImageCmd.label            "Fit Image to Window">
+<!ENTITY fitImageCmd.accesskey        "F">
+<!ENTITY viewImageCmd.label           "View Image">
+<!ENTITY viewImageCmd.accesskey       "i">
+<!ENTITY viewBGImageCmd.label         "View Background Image">
+<!ENTITY viewBGImageCmd.accesskey     "w">
+<!ENTITY setWallpaperCmd.label        "т">
+<!ENTITY setWallpaperCmd.accesskey    "т">
+<!ENTITY bookmarkPageCmd.label        "Отмятане на страницата">
+<!ENTITY bookmarkPageCmd.accesskey    "О">
+<!ENTITY bookmarkLinkCmd.label        "Bookmark This Link">
+<!ENTITY bookmarkLinkCmd.accesskey    "L">
+<!ENTITY bookmarkFrameCmd.label       "Bookmark This Frame">
+<!ENTITY bookmarkFrameCmd.accesskey   "m">
+<!ENTITY savePageAsCmd.label          "Съхраняване на страницата като…">
+<!ENTITY savePageCmd.label            "Съхраняване на страницата">
+<!ENTITY savePageCmd.accesskey        "С">
+<!ENTITY savePageCmd.commandkey       "С">
+<!ENTITY saveFrameAsCmd.label         "Save Frame As…">
+<!ENTITY saveFrameCmd.label           "Save Frame">
+<!ENTITY saveFrameCmd.accesskey       "m">
+<!ENTITY saveLinkAsCmd.label          "Save Link Target As…">
+<!ENTITY saveLinkCmd.label            "Save Link Target">
+<!ENTITY saveLinkCmd.accesskey        "r">
+<!ENTITY saveImageAsCmd.label         "Запис на изображението като…">
+<!ENTITY saveImageCmd.label           "Запис на изображението">
+<!ENTITY saveImageCmd.accesskey       "З">
+<!ENTITY copyCmd.label                "Запомняне">
+<!ENTITY copyCmd.accesskey            "З">
+<!ENTITY selectAllCmd.label           "Избиране на всички">
+<!ENTITY selectAllCmd.accesskey       "И">
+<!ENTITY copyLinkCmd.label            "Запомняне на мястото от връзката">
+<!ENTITY copyLinkCmd.accesskey        "З">
+<!ENTITY copyImageCmd.label           "Запомняне на изображението">
+<!ENTITY copyImageCmd.accesskey       "З">
+<!ENTITY metadataCmd.label            "Свойства">
+<!ENTITY metadataCmd.accesskey        "С">
+<!ENTITY copyEmailCmd.label           "Запомняне на еладреса">
+<!ENTITY copyEmailCmd.accesskey       "З">
+<!ENTITY pasteCmd.label               "Поставяне">
+<!ENTITY pasteCmd.accesskey           "П">
+<!ENTITY cutCmd.label                 "Изрязване">
+<!ENTITY cutCmd.accesskey             "р">
+<!ENTITY deleteCmd.label              "Изтриване">
+<!ENTITY deleteCmd.accesskey          "т">
+<!ENTITY undoCmd.label                "Отмяна">
+<!ENTITY undoCmd.accesskey            "О">
+<!ENTITY redoCmd.label                "Връщане">
+<!ENTITY redoCmd.accesskey            "В">
+<!ENTITY thisFrameMenu.label          "Тази рамка">
+<!ENTITY thisFrameMenu.accesskey      "Т">
+<!ENTITY search.accesskey             "Ш">
+<!ENTITY bidiSwitchPageDirectionItem.label        "Превключване посоката на страницата">
+<!ENTITY bidiSwitchPageDirectionItem.accesskey    "П">
+<!ENTITY bidiSwitchTextDirectionItem.label        "Превключване посоката на текста">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "П">
+<!ENTITY spellAddToDictionary.label     "Добавяне към речника">
+<!ENTITY spellAddToDictionary.accesskey "Д">
+<!ENTITY spellEnable.label              "Проверка на правописа">
+<!ENTITY spellEnable.accesskey          "П">
+<!ENTITY spellNoSuggestions.label       "(Няма предложения за правопис)">
+<!ENTITY spellDictionaries.label        "Езици">
+<!ENTITY spellDictionaries.accesskey    "Е">
+<!ENTITY spellAddDictionaries.label     "Сваляне на още речници…">
+<!ENTITY spellAddDictionaries.accesskey "С">

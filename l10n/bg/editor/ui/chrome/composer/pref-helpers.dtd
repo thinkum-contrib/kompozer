@@ -1,0 +1,20 @@
+<!ENTITY helpers.label                "Външни приложения">
+
+<!ENTITY application.label            "Приложения:">
+<!ENTITY webBrowser.label             "Мрежов обзорник">
+<!ENTITY textEditor.label             "Текстообработчик">
+<!ENTITY imageEditor.label            "Обработчик на изображения">
+<!ENTITY mediaPlayer.label            "Медиен възпроизводител">
+<!ENTITY fileManager.label            "Файлов управител">
+<!ENTITY ftpClient.label              "Клиент за FTP">
+
+<!ENTITY useSystemHelper.label        "използване на подразбираните за системата">
+<!ENTITY useCustomHelper.label        "използване на подбрани приложения:">
+<!ENTITY path.label                   "път на файла">
+<!ENTITY arguments.label              "доводи">
+<!ENTITY filePicker.tooltip           "Избор на файл…">
+
+<!ENTITY fileFilter.label             "Файлови разширения (*) за:">
+<!ENTITY default.label                "начално">
+<!ENTITY needToRestart.label          "(*)Новоуказаните предпочитания ще влязат в сила след като презапуснете КомпоЗер.">
+

@@ -1,0 +1,13 @@
+<!ENTITY  untitledTab            "(Без име)">
+<!ENTITY  newTab.label           "Нов изрез">
+<!ENTITY  newTab.accesskey       "Н">
+<!ENTITY  closeTab.label         "Затвори изреза">
+<!ENTITY  closeTab.accesskey         "З">
+<!ENTITY  closeOtherTabs.accesskey  "З">
+<!ENTITY  closeOtherTabs.label   "Затвори всички изрези">
+<!ENTITY  reloadAllTabs.label    "Презареждане на всички подпрозорци">
+<!ENTITY  reloadAllTabs.accesskey         "П">
+<!ENTITY  reloadTab.label        "Презареждане на подпрозореца">
+<!ENTITY  reloadTab.accesskey         "П">
+<!ENTITY  newTabButton.tooltip   "Отваряне на нов подпрозорец">
+<!ENTITY  listAllTabs.label      "Списък на всички подпрозорци">

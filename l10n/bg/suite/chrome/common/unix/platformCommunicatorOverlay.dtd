@@ -1,0 +1,24 @@
+<!-- unix -->
+<!-- LOCALIZATION NOTE : FILE Do not translate all the Cmd.key and accesskey --> 
+
+<!ENTITY closeCmd.label                "Затваряне">  
+<!ENTITY closeCmd.key                  "Д">  
+<!ENTITY closeCmd.accesskey            "З">
+
+<!ENTITY quitApplicationCmd.label      "Изход"> 
+<!ENTITY quitApplicationCmd.key        "Q"> 
+<!ENTITY quitApplicationCmd.accesskey  "И">
+
+<!ENTITY redoCmd.label                 "Връщане">  
+<!ENTITY redoCmd.key                   "Y">  
+<!ENTITY redoCmd.accesskey             "В">
+
+<!ENTITY findTypeTextCmd.key           "/">
+<!ENTITY findTypeLinksCmd.key          "'">
+
+<!ENTITY accel.emacs_conflict          "accel,shift">
+
+<!-- Help viewer -->
+<!ENTITY openHelpCmd.label             "Съдържание на помощта">
+<!ENTITY openHelpCmd.accesskey         "С">
+<!ENTITY openHelpCmd.key               "VK_F1">

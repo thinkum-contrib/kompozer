@@ -1,0 +1,14 @@
+<!ENTITY textZoomEnlargeCmd.label       "По- голям">
+<!ENTITY textZoomEnlargeCmd.accesskey   "П">
+<!ENTITY textZoomEnlargeCmd.commandkey  "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+
+<!ENTITY textZoomReduceCmd.label        "По- малък">
+<!ENTITY textZoomReduceCmd.accesskey    "П">
+<!ENTITY textZoomReduceCmd.commandkey   "-">
+
+<!ENTITY textZoomResetCmd.commandkey    "0">
+
+<!-- see textZoomOtherLabel in navigator.properties -->
+<!ENTITY textZoomMenu.accesskey         "з">
+<!ENTITY textZoomOtherCmd.accesskey     "o">
