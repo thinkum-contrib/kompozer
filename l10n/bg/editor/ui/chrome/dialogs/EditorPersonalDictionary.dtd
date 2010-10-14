@@ -21,18 +21,18 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Personal Dictionary">
+<!ENTITY windowTitle.label "Личен речник">
 
-<!ENTITY wordEditField.label "New word:">
-<!ENTITY wordEditField.accessKey "N">
-<!ENTITY AddButton.label "Add">
+<!ENTITY wordEditField.label "Нова дума:">
+<!ENTITY wordEditField.accessKey "Н">
+<!ENTITY AddButton.label "Добавяне">
 <!ENTITY AddButton.accessKey "A">
-<!ENTITY DictionaryList.label "Words in dictionary:">
-<!ENTITY DictionaryList.accessKey "W">
-<!ENTITY ReplaceButton.label "Replace">
-<!ENTITY ReplaceButton.accessKey "R">
-<!ENTITY RemoveButton.label "Remove">
-<!ENTITY RemoveButton.accessKey "e">
+<!ENTITY DictionaryList.label "Думи в речника:">
+<!ENTITY DictionaryList.accessKey "Д">
+<!ENTITY ReplaceButton.label "Замяна">
+<!ENTITY ReplaceButton.accessKey "З">
+<!ENTITY RemoveButton.label "Премахване">
+<!ENTITY RemoveButton.accessKey "м">
 
-<!ENTITY CloseButton.label "Close">
+<!ENTITY CloseButton.label "Затваряне">
 <!ENTITY CloseButton.accessKey "C">

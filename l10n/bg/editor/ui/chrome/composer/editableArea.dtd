@@ -35,17 +35,17 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title                 "Постави обработваема област">
+<!ENTITY window.title                 "Вмъкване на обработваема област">
 
 <!ENTITY areaName.label               "Име на областта">
-<!ENTITY provideId.label              "Please give a name to that editable area:">
-<!ENTITY warning.label                "Warning, this name is already used!!!">
+<!ENTITY provideId.label              "Дайте име на обработваемата област:">
+<!ENTITY warning.label                "Внимание, името вече се използва!!!">
 
-<!ENTITY areaType.label               "Вид област">
+<!ENTITY areaType.label               "Вид на областта">
 <!ENTITY flowAreaRadio.label          "Словесен поток">
 <!ENTITY blockAreaRadio.label         "Къс">
 
-<!ENTITY options.label                "Избираеми">
-<!ENTITY optionalAreaCheckbox.label   "Областта е избираема">
+<!ENTITY options.label                "Възможности">
+<!ENTITY optionalAreaCheckbox.label   "Областта е незадължителна">
 <!ENTITY repeatableAreaCheckbox.label "Областта е повторяема">
 <!ENTITY movableAreaCheckbox.label    "Областта е движима">

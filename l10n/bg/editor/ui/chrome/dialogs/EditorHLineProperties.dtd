@@ -22,24 +22,24 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Horizontal Line Properties">
+<!ENTITY windowTitle.label "Свойства на водоравната черта">
 
-<!ENTITY dimensionsBox.label "Dimensions">
-<!ENTITY heightEditField.label "Height:">
-<!ENTITY heightEditField.accessKey "G">
-<!ENTITY widthEditField.label "Width:">
-<!ENTITY widthEditField.accessKey "W">
-<!ENTITY pixelsPopup.value "pixels">
-<!ENTITY alignmentBox.label "Alignment">
-<!ENTITY leftRadio.value "Left">
-<!ENTITY leftRadio.accessKey "L">
-<!ENTITY centerRadio.value "Center">
-<!ENTITY centerRadio.accessKey "C">
-<!ENTITY rightRadio.value "Right">
-<!ENTITY rightRadio.accessKey "R">
+<!ENTITY dimensionsBox.label "Размери">
+<!ENTITY heightEditField.label "Височина:">
+<!ENTITY heightEditField.accessKey "В">
+<!ENTITY widthEditField.label "Ширина:">
+<!ENTITY widthEditField.accessKey "Ш">
+<!ENTITY pixelsPopup.value "точки">
+<!ENTITY alignmentBox.label "Подравняване">
+<!ENTITY leftRadio.value "Вляво">
+<!ENTITY leftRadio.accessKey "л">
+<!ENTITY centerRadio.value "В средата">
+<!ENTITY centerRadio.accessKey "с">
+<!ENTITY rightRadio.value "Вдясно">
+<!ENTITY rightRadio.accessKey "д">
 
-<!ENTITY threeDShading.label "3-D Shading">
+<!ENTITY threeDShading.label "Тримерна сянка">
 <!ENTITY threeDShading.accessKey "S">
-<!ENTITY saveSettings.label "Use as Default">
-<!ENTITY saveSettings.accessKey "D">
-<!ENTITY saveSettings.tooltip "Save these settings to use when inserting new horizontal lines">
+<!ENTITY saveSettings.label "Използване по подразбиране">
+<!ENTITY saveSettings.accessKey "П">
+<!ENTITY saveSettings.tooltip "Съхраняване на настройките, за да се използват при вмъкване на водоравни черти">

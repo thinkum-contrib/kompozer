@@ -34,47 +34,47 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label "Form Field Properties">
-<!ENTITY windowTitleImage.label "Form Image Properties">
+<!ENTITY windowTitle.label "Свойства на формулярното поле">
+<!ENTITY windowTitleImage.label "Свойства на формулярното изображение">
 
-<!ENTITY InputType.label "Field Type">
-<!ENTITY InputType.accesskey "T">
-<!ENTITY text.value "Text">
-<!ENTITY password.value "Password">
-<!ENTITY checkbox.value "Check Box">
-<!ENTITY radio.value "Radio Button">
-<!ENTITY submit.value "Submit Button">
-<!ENTITY reset.value "Reset Button">
-<!ENTITY file.value "File">
-<!ENTITY hidden.value "Hidden">
-<!ENTITY image.value "Image">
-<!ENTITY button.value "Button">
+<!ENTITY InputType.label "Вид поле">
+<!ENTITY InputType.accesskey "В">
+<!ENTITY text.value "Текст">
+<!ENTITY password.value "Парола">
+<!ENTITY checkbox.value "Поле за отметка">
+<!ENTITY radio.value "Радио бутон">
+<!ENTITY submit.value "Бутон за подаване">
+<!ENTITY reset.value "Бутон за очистване">
+<!ENTITY file.value "Файл">
+<!ENTITY hidden.value "Скрит">
+<!ENTITY image.value "Изображение">
+<!ENTITY button.value "Бутон">
 
-<!ENTITY InputSettings.label "Field Settings">
-<!ENTITY InputName.label "Field Name:">
-<!ENTITY GroupName.label "Group Name:">
-<!ENTITY Name.accesskey "N">
-<!ENTITY InputValue.label "Field Value:">
-<!ENTITY InitialValue.label "Initial Value:">
+<!ENTITY InputSettings.label "Настройки на полето">
+<!ENTITY InputName.label "Име на полето:">
+<!ENTITY GroupName.label "Име на групата:">
+<!ENTITY Name.accesskey "И">
+<!ENTITY InputValue.label "Стойност на полето:">
+<!ENTITY InitialValue.label "Начална стойност:">
 <!ENTITY Value.accesskey "V">
-<!ENTITY InputChecked.label "Initially Checked">
-<!ENTITY InputChecked.accesskey "C">
-<!ENTITY InputSelected.label "Initially Selected">
-<!ENTITY InputSelected.accesskey "S">
-<!ENTITY InputReadOnly.label "Read Only">
-<!ENTITY InputReadOnly.accesskey "R">
-<!ENTITY InputDisabled.label "Disabled">
-<!ENTITY InputDisabled.accesskey "D">
+<!ENTITY InputChecked.label "Първоначално проверено">
+<!ENTITY InputChecked.accesskey "П">
+<!ENTITY InputSelected.label "Първоначално избрано">
+<!ENTITY InputSelected.accesskey "П">
+<!ENTITY InputReadOnly.label "Само за четене">
+<!ENTITY InputReadOnly.accesskey "С">
+<!ENTITY InputDisabled.label "Изключено">
+<!ENTITY InputDisabled.accesskey "И">
 <!ENTITY tabIndex.label "Tab Index:">
 <!ENTITY tabIndex.accesskey "I">
-<!ENTITY TextSize.label "Field Size:">
-<!ENTITY TextSize.accesskey "F">
-<!ENTITY TextLength.label "Maximum Length:">
-<!ENTITY TextLength.accesskey "L">
-<!ENTITY AccessKey.label "Access Key:">
-<!ENTITY AccessKey.accesskey "K">
-<!ENTITY Accept.label "Accept Types:">
-<!ENTITY Accept.accesskey "A">
+<!ENTITY TextSize.label "Размер на полето:">
+<!ENTITY TextSize.accesskey "Р">
+<!ENTITY TextLength.label "Максимална дължина:">
+<!ENTITY TextLength.accesskey "М">
+<!ENTITY AccessKey.label "Клавиш за достъп:">
+<!ENTITY AccessKey.accesskey "К">
+<!ENTITY Accept.label "Видове за приемане:">
+<!ENTITY Accept.accesskey "В">
 
-<!ENTITY ImageProperties.label "Image Properties…">
-<!ENTITY ImageProperties.accesskey "E">
+<!ENTITY ImageProperties.label "Свойства на изображението…">
+<!ENTITY ImageProperties.accesskey "С">

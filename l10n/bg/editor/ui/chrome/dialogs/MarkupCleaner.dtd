@@ -37,7 +37,7 @@
 
 <!ENTITY window.title "Почистване на кода">
 
-<!ENTITY trailingBR.label  "Remove trailing &lt;br&gt;">
+<!ENTITY trailingBR.label  "Премахване на крайни &lt;br&gt;">
 <!ENTITY emptyBlocks.label "Премахване на празните отсеци">
 <!ENTITY emptyCells.label  "Премахване на подравняването в празните таблични клетки">
 <!ENTITY nestedLists.label "Поправка на вложените списъци">

@@ -38,27 +38,27 @@
 
 <!-- Window title -->
 <!-- LOCALIZATION NOTE  (editorWindow.titlemodifier): DONT_TRANSLATE -->
-<!ENTITY editorWindow.titlemodifier "KompoZer"> 
+<!ENTITY editorWindow.titlemodifier              "KompoZer"> 
 <!ENTITY editorWindow.titlemodifiermenuseparator " - ">
-<!ENTITY textEditorWindow.titlemodifier "Словообработчик"> 
+<!ENTITY textEditorWindow.titlemodifier          "Словообработчик"> 
 
 <!-- Menu items:  the . means that the menu item isn't implemented yet -->
 
 <!-- View menu items -->
-<!ENTITY viewMenu.label "Изглед">
-<!ENTITY viewmenu.accesskey "г">
+<!ENTITY viewMenu.label           "Изглед">
+<!ENTITY viewmenu.accesskey       "г">
 
 <!-- Format menu items -->
-<!ENTITY formatMenu.label "Оформление">
-<!ENTITY formatmenu.accesskey "ф">
+<!ENTITY formatMenu.label         "Оформление">
+<!ENTITY formatmenu.accesskey     "ф">
 
-<!ENTITY helpMenu.label "Помощ">
-<!ENTITY aboutCmd.label ".За">
+<!ENTITY helpMenu.label           "Помощ">
+<!ENTITY aboutCmd.label           ".За">
 
 <!-- Display Mode Toolbar -->
-<!ENTITY editMode.label "Обработващ режим:">
+<!ENTITY editMode.label           "Обработващ режим:">
 
-<!ENTITY statusText.label "Страницата е заредена">
+<!ENTITY statusText.label         "Страницата е заредена">
 
-<!ENTITY preferencesCmd.label       "Предпочитания…">
-<!ENTITY preferencesCmd.accesskey     "П"> 
+<!ENTITY preferencesCmd.label     "Предпочитания…">
+<!ENTITY preferencesCmd.accesskey "П"> 

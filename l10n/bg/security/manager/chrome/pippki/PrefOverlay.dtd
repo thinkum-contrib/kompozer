@@ -36,8 +36,8 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY masterpass.label "Главни пароли">
-<!ENTITY security.label "Поверителност и защита">
-<!ENTITY ssl.label "SSL">
-<!ENTITY certs.label "Сертификати">
-<!ENTITY validation.label "Потвърждаване">
+<!ENTITY  masterpass.label             "Главни пароли">
+<!ENTITY  security.label               "Поверителност и защита">
+<!ENTITY  ssl.label                    "SSL">
+<!ENTITY  certs.label                  "Сертификати">
+<!ENTITY  validation.label             "Потвърждаване">

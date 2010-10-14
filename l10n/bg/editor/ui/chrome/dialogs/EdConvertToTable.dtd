@@ -23,7 +23,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "Преобразувай в таблица">
-<!ENTITY instructions1.label   "Приложението създава нова табличен ред за всеки нов ред от избраното.">
+<!ENTITY instructions1.label   "KompoZer creates a new table row for each paragraph in the selection.">
 <!ENTITY instructions2.label   "Избери знак, който да разделя избраното на стълбове:">
 <!ENTITY commaRadio.label      "Запетайка">
 <!ENTITY spaceRadio.label      "Интервал">

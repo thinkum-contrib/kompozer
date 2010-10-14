@@ -35,31 +35,31 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY previewColour.label     "Преглед:">
-<!ENTITY dialog.title            "Цветомер">
+<!ENTITY previewColour.label       "Преглед:">
+<!ENTITY dialog.title              "Цветомер">
 
-<!ENTITY predef.label            "Налични цветове:">
-<!ENTITY rgb.label               "ЧЗС">
-<!ENTITY hsb.label               "ОНЯ">
+<!ENTITY predef.label              "Налични цветове:">
+<!ENTITY rgb.label                 "ЧЗС">
+<!ENTITY hsb.label                 "ОНЯ">
 
-<!ENTITY red.label               "Червен:">
-<!ENTITY green.label             "Зелен:">
-<!ENTITY blue.label              "Син:">
+<!ENTITY red.label                 "Червен:">
+<!ENTITY green.label               "Зелен:">
+<!ENTITY blue.label                "Син:">
 
-<!ENTITY hue.label               "Оттенък:">
-<!ENTITY saturation.label        "Наситеност:">
-<!ENTITY brightness.label        "Яркост:">
+<!ENTITY hue.label                 "Оттенък:">
+<!ENTITY saturation.label          "Наситеност:">
+<!ENTITY brightness.label          "Яркост:">
 
-<!ENTITY transparency.label       "Прозрачен">
+<!ENTITY transparency.label        "Прозрачен">
 
-<!ENTITY background.label "Подцветка за:">
-<!ENTITY background.accessKey "П">
-<!ENTITY table.label "Таблица">
-<!ENTITY table.accessKey "Т">
-<!ENTITY cell.label "Клетка(и)">
-<!ENTITY cell.accessKey "К">
+<!ENTITY background.label          "Подцветка за:">
+<!ENTITY background.accessKey      "П">
+<!ENTITY table.label               "Таблица">
+<!ENTITY table.accessKey           "Т">
+<!ENTITY cell.label                "Клетка(и)">
+<!ENTITY cell.accessKey            "К">
 
-<!ENTITY lastPickedColor.label "Последно измерен цвят">
+<!ENTITY lastPickedColor.label     "Последно измерен цвят">
 <!ENTITY lastPickedColor.accessKey "П">
 
 <!ENTITY hexColor.label            "Шсд:">

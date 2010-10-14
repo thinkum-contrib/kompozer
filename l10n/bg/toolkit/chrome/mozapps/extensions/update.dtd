@@ -1,49 +1,49 @@
-<!ENTITY updateWizard.title "Обновяване на &brandShortName;">
+<!ENTITY  updateWizard.title              "Обновяване на &brandShortName;">
 
-<!ENTITY offline.title "&brandShortName; работи без връзка">
-<!ENTITY offline.description "&brandShortName; трябва да работи с връзка, за да може да вижда обновяванията на Вашите добавки, така че да ги направи съвместими с тази версия.">
-<!ENTITY offline.toggleOffline.label "Превключване към работа с връзка.">
-<!ENTITY offline.toggleOffline.accesskey "П">
+<!ENTITY  offline.title                   "&brandShortName; работи без връзка">
+<!ENTITY  offline.description             "&brandShortName; трябва да работи с връзка, за да може да вижда обновяванията на Вашите добавки, така че да ги направи съвместими с тази версия.">
+<!ENTITY  offline.toggleOffline.label     "Превключване към работа с връзка.">
+<!ENTITY  offline.toggleOffline.accesskey "П">
 
-<!ENTITY mismatch.win.title "Несъвместими добавки">
-<!ENTITY mismatch.top.label "Следните добавки не са съвместими с тази версия на &brandShortName; и затова са изключени:">
-<!ENTITY mismatch.bottom.label "&brandShortName; може да провери дали има налични съвместими версии на тези добавки.">
+<!ENTITY  mismatch.win.title              "Несъвместими добавки">
+<!ENTITY  mismatch.top.label              "Следните добавки не са съвместими с тази версия на &brandShortName; и затова са изключени:">
+<!ENTITY  mismatch.bottom.label           "&brandShortName; може да провери дали има налични съвместими версии на тези добавки.">
 
-<!ENTITY checking.wizard.title "Проверяване за съвместими добавки">
-<!ENTITY checking.top.label "Проверяване на Вашите несъвместими добавки за обновявания…">
-<!ENTITY checking.status "Това може да отнеме няколко минути…">
+<!ENTITY  checking.wizard.title           "Проверяване за съвместими добавки">
+<!ENTITY  checking.top.label              "Проверяване на Вашите несъвместими добавки за обновявания…">
+<!ENTITY  checking.status                 "Това може да отнеме няколко минути…">
 
-<!ENTITY found.wizard.title "Намерени съвместими добавки">
-<!ENTITY found.top.label "Изберете добавките, които искате да инсталирате:">
-<!ENTITY found.disabledXPinstall.label "Тези обновявания не могат да бъдат инсталирани, защото инсталирането на софтуер е изключено. Можете да промените тази настройка от по-долу.">
-<!ENTITY found.enableXPInstall.label "Разрешаване на сайтове да инсталират софтуер">
-<!ENTITY found.enableXPInstall.accesskey "Р">
+<!ENTITY  found.wizard.title               "Намерени съвместими добавки">
+<!ENTITY  found.top.label                 "Изберете добавките, които искате да инсталирате:">
+<!ENTITY  found.disabledXPinstall.label   "Тези обновявания не могат да бъдат инсталирани, защото инсталирането на софтуер е изключено. Можете да промените тази настройка от по-долу.">
+<!ENTITY  found.enableXPInstall.label     "Разрешаване на сайтове да инсталират софтуер">
+<!ENTITY  found.enableXPInstall.accesskey "Р">
 
-<!ENTITY installing.wizard.title "Инсталиране на съвместими добавки">
-<!ENTITY installing.top.label "Изтегляне и инсталиране на обновявания на Вашите добавки…">
+<!ENTITY  installing.wizard.title         "Инсталиране на съвместими добавки">
+<!ENTITY  installing.top.label            "Изтегляне и инсталиране на обновявания на Вашите добавки…">
 
-<!ENTITY noupdates.wizard.title "Няма съвместими добавки">
-<!ENTITY noupdates.intro.desc "&brandShortName; не може да намери обновявания на Вашите несъвместими добавки.">
-<!ENTITY noupdates.error.desc "Появиха се проблеми при опит за намиране на обновявания.">
-<!ENTITY noupdates.checkEnabled.desc "&brandShortName; ще проверява редовно и ще информира при намиране на съвместими обновявания на тези добавки.">
+<!ENTITY  noupdates.wizard.title          "Няма съвместими добавки">
+<!ENTITY  noupdates.intro.desc            "&brandShortName; не може да намери обновявания на Вашите несъвместими добавки.">
+<!ENTITY  noupdates.error.desc            "Появиха се проблеми при опит за намиране на обновявания.">
+<!ENTITY  noupdates.checkEnabled.desc     "&brandShortName; ще проверява редовно и ще информира при намиране на съвместими обновявания на тези добавки.">
 
-<!ENTITY finished.wizard.title "Инсталирани съвместими добавки">
-<!ENTITY finished.top.label "&brandShortName; инсталира обновяванията на Вашите добавки.">
-<!ENTITY finished.checkDisabled.desc "&brandShortName; може да проверява редовно и да информира при намиране на обновявания на добавки.">
-<!ENTITY finished.checkEnabled.desc "&brandShortName; ще проверява редовно и информира при намиране на обновявания на добавки.">
+<!ENTITY  finished.wizard.title           "Инсталирани съвместими добавки">
+<!ENTITY  finished.top.label              "&brandShortName; инсталира обновяванията на Вашите добавки.">
+<!ENTITY  finished.checkDisabled.desc     "&brandShortName; може да проверява редовно и да информира при намиране на обновявания на добавки.">
+<!ENTITY  finished.checkEnabled.desc      "&brandShortName; ще проверява редовно и информира при намиране на обновявания на добавки.">
 
-<!ENTITY adminDisabled.wizard.title "Не може да се провери за обновявания">
-<!ENTITY adminDisabled.warning.label "Не може да се провери за обновявания на несъвместими добавки, защото софтуерната инсталация в &brandShortName; е изключена. Моля, свържете се с Вашия системен администратор за съдействие.">
+<!ENTITY  adminDisabled.wizard.title      "Не може да се провери за обновявания">
+<!ENTITY  adminDisabled.warning.label     "Не може да се провери за обновявания на несъвместими добавки, защото софтуерната инсталация в &brandShortName; е изключена. Моля, свържете се с Вашия системен администратор за съдействие.">
 
-<!ENTITY versioninfo.wizard.title "Проверяване на съвместимост на добавки">
-<!ENTITY versioninfo.top.label "Проверяване на Вашите добавки за съвместимост с тази версия на &brandShortName;.">
-<!ENTITY versioninfo.waiting "Това може да отнеме няколко минути…">
+<!ENTITY  versioninfo.wizard.title        "Проверяване на съвместимост на добавки">
+<!ENTITY  versioninfo.top.label           "Проверяване на Вашите добавки за съвместимост с тази версия на &brandShortName;.">
+<!ENTITY  versioninfo.waiting             "Това може да отнеме няколко минути…">
 
-<!ENTITY installerrors.wizard.title "Проблеми при инсталиране на обновявания">
-<!ENTITY installerrors.intro.label "&brandShortName; се натъкна на проблеми при обновяване на някои Ваши добавки.">
+<!ENTITY  installerrors.wizard.title      "Проблеми при инсталиране на обновявания">
+<!ENTITY  installerrors.intro.label       "&brandShortName; се натъкна на проблеми при обновяване на някои Ваши добавки.">
+
 <!-- general strings used by several of the finish pages -->
-
-<!ENTITY clickFinish.label "Натиснете Завършване за продължаване стартирането на &brandShortName;.">
-<!ENTITY enableChecking.label "Разрешаване на &brandShortName; да проверява за обновявания.">
-<!ENTITY details.label "Подробности…">
-<!ENTITY details.accesskey "П">
+<!ENTITY  clickFinish.label               "Натиснете Завършване за продължаване стартирането на &brandShortName;.">
+<!ENTITY  enableChecking.label            "Разрешаване на &brandShortName; да проверява за обновявания.">
+<!ENTITY  details.label                   "Подробности…">
+<!ENTITY  details.accesskey               "П">

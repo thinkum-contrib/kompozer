@@ -40,41 +40,43 @@
 <!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
 
 <!--LOCALIZATION NOTE (title.label): DONT_TRANSLATE -->
-<!ENTITY  title.label               "General">
-<!ENTITY  lHeader                   "Общи">
-<!ENTITY  rHeader                   "Настройки за създаването на нови мрежови страници">
+<!ENTITY  title.label                           "Общи">
+<!ENTITY  lHeader                               "Общи">
+<!ENTITY  rHeader                               "Настройки за създаването на нови мрежови страници">
 
 <!ENTITY  tableEditing.label                    "Обработка на таблици">
 <!ENTITY  maintainTableStructure.label          "Запазвай облика на таблиците при добавяне и изтриване на клетки">
 <!ENTITY  maintainTableStructure.tooltip        "Запазва правоъгалния облик на таблиците, като ссам добавя клетки след добавяне или изтриване на клетки">
 <!ENTITY  maintainStructure.accesskey           "п">
 
-<!ENTITY  savingFiles.title           "При запис и обнародване на страници">
-<!ENTITY  preserveExistingFormatting  "Запазвай входящото форматиране на изходниците">
+<!ENTITY  savingFiles.title                     "При запис и обнародване на страници">
+<!ENTITY  preserveExistingFormatting            "Запазвай входящото форматиране на изходниците">
 <!ENTITY  preserveExistingFormatting.accesskey  "ф">
 <!ENTITY  preserveExistingFormatting.tooltip    "Запазва редовото разделяне и подреждането на изходния файл">
-<!ENTITY  reformat.label              "Преподреждай HTML изходниците">
-<!ENTITY  reformat.accesskey          "П">
-<!ENTITY  reformat.tooltip            "Преподреждане на HTML означителите с използване на редово разделяне и отстъпи">
+<!ENTITY  reformat.label                        "Преподреждай HTML изходниците">
+<!ENTITY  reformat.accesskey                    "П">
+<!ENTITY  reformat.tooltip                      "Преподреждане на HTML означителите с използване на редово разделяне и отстъпи">
 
-<!ENTITY  saveAssociatedFiles.label "Записвай изображенията и другите свързани файлове при запис на страниците">
-<!ENTITY  showPublishDialog.label   "Винаги извеждай въпросителен прозорец при обнародване на страниците">
+<!ENTITY  saveAssociatedFiles.label             "Записвай изображенията и другите свързани файлове при запис на страниците">
+<!ENTITY  showPublishDialog.label               "Винаги извеждай въпросителен прозорец при обнародване на страниците">
 
-<!ENTITY  saving                    "Запис">
-<!ENTITY  AutoSaveCheck             "Самозаписвай на всеки">
-<!ENTITY  minText                   "минути">
+<!ENTITY  saving                                "Запис">
+<!ENTITY  AutoSaveCheck                         "Самозаписвай на всеки">
+<!ENTITY  minText                               "минути">
 
-<!ENTITY  exterLegend.label         "Външни обработчици">
-<!ENTITY  htmlSource                "HTML изходници:">
-<!ENTITY  imageeditor               "Изображения:">
-<!ENTITY  chooseButton.label        "Избери">
+<!ENTITY  exterLegend.label                     "Външни обработчици">
+<!ENTITY  htmlSource                            "HTML изходници:">
+<!ENTITY  imageeditor                           "Изображения:">
+<!ENTITY  chooseButton.label                    "Избери">
 
-<!ENTITY  recentFiles.title         "Изборник Скорошни страници">
-<!ENTITY  documentsInMenu.accesskey     "С">
-<!ENTITY  documentsInMenu           "Съдържа страници не повече от:">
+<!ENTITY  recentFiles.title                     "Изборник Скорошни страници">
+<!ENTITY  documentsInMenu.accesskey             "С">
+<!ENTITY  documentsInMenu                       "Съдържа страници не повече от:">
 
-<!ENTITY  cssEditing.label          "Работа с CSS">
-<!ENTITY  useCSS.label              "Използвай CSS стилове, вместо HTML означители и свойства">
+<!ENTITY  cssEditing.label                      "Работа с CSS">
+<!ENTITY  useCSS.label                          "Използвай CSS стилове, вместо HTML означители и свойства">
 
-<!ENTITY  siteManager.label         "Възлов (сайтов) управител">
-<!ENTITY  openInNewTab.label        "Винаги отваряй документите в нови изрези">
+<!ENTITY  siteManager.label                     "Възлов (сайтов) управител">
+<!ENTITY  openInNewTab.label                    "Винаги отваряй документите в нови изрези">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Използване на системните значета">

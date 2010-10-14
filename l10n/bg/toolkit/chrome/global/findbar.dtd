@@ -1,8 +1,7 @@
 <!-- LOCALIZATION NOTE : FILE This file contains the entities needed to -->
-<!-- LOCALIZATION NOTE : FILE use the Find Bar. -->
-<!-- entities split out from browser.dtd -->
 <!-- LOCALIZATION NOTE : FILE use the Find Bar. --> 
 
+<!-- entities split out from browser.dtd -->
 <!ENTITY next.label "Търсене напред">
 <!ENTITY next.accesskey "п">
 <!ENTITY next.tooltip "Търсене на следващо съвпадение на низа">

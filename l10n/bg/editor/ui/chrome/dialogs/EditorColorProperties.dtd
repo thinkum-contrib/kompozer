@@ -21,26 +21,26 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Page Colors and Background">
-<!ENTITY pageColors.label "Page Colors">
-<!ENTITY defaultColorsRadio.label "Reader's default colors (Don't set colors in page)">
-<!ENTITY defaultColorsRadio.accessKey "D">
-<!ENTITY defaultColorsRadio.tooltip "Use the color settings from the viewer (reader's) browser only">
-<!ENTITY customColorsRadio.label "Use custom colors:">
-<!ENTITY customColorsRadio.accessKey "C">
-<!ENTITY customColorsRadio.tooltip "These color settings override the viewer's browser settings">
+<!ENTITY windowTitle.label "Цветове и подцветка на страницата">
+<!ENTITY pageColors.label "Цветове на страницата">
+<!ENTITY defaultColorsRadio.label "Подразбираните цветове на четящия (не се указват цветове на страницата)">
+<!ENTITY defaultColorsRadio.accessKey "р">
+<!ENTITY defaultColorsRadio.tooltip "Използване на цветовите настройки на обзорника на потребителя">
+<!ENTITY customColorsRadio.label "Използване на нагласени цветове:">
+<!ENTITY customColorsRadio.accessKey "г">
+<!ENTITY customColorsRadio.tooltip "Тези цветови настройки потискат настройките на обзорника на потребителя">
 
-<!ENTITY normalText.label "Normal text">
-<!ENTITY normalText.accessKey "N">
-<!ENTITY linkText.label "Link text">
-<!ENTITY linkText.accessKey "L">
-<!ENTITY activeLinkText.label "Active link text">
-<!ENTITY activeLinkText.accessKey "A">
-<!ENTITY visitedLinkText.label "Visited link text">
-<!ENTITY visitedLinkText.accessKey "V">
-<!ENTITY background.label "Background:">
-<!ENTITY background.accessKey "B">
+<!ENTITY normalText.label "Обикновен текст">
+<!ENTITY normalText.accessKey "О">
+<!ENTITY linkText.label "Връзки">
+<!ENTITY linkText.accessKey "В">
+<!ENTITY activeLinkText.label "Текуща връзка">
+<!ENTITY activeLinkText.accessKey "Т">
+<!ENTITY visitedLinkText.label "Посетена връзка">
+<!ENTITY visitedLinkText.accessKey "в">
+<!ENTITY background.label "Подцветка:">
+<!ENTITY background.accessKey "ц">
 <!ENTITY colon.character ":">
-<!ENTITY backgroundImage.label "Background Image:">
-<!ENTITY backgroundImage.accessKey "m">
-<!ENTITY backgroundImage.tooltip "Use an image file as the background for your page">
+<!ENTITY backgroundImage.label "Изображение на подцветката:">
+<!ENTITY backgroundImage.accessKey "И">
+<!ENTITY backgroundImage.tooltip "Използване на файл с изображение за подцветка на страницата ви">

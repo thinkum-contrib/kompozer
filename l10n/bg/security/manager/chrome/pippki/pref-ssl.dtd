@@ -36,33 +36,33 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY SSLProtocolVersions.caption "Версии на протокола SSL">
-<!ENTITY SSLWarnings.caption "Предупреждения на SSL">
-<!ENTITY SSLClientAuthMethod.caption "Избиране на клиентски сертификат">
+<!ENTITY  SSLProtocolVersions.caption       "Версии на протокола SSL">
+<!ENTITY  SSLWarnings.caption               "Предупреждения на SSL">
+<!ENTITY  SSLClientAuthMethod.caption       "Избиране на клиентски сертификат">
 
-<!ENTITY pref.ssl.title "Secure Sockets Layer (SSL)">
-<!ENTITY enable.ssl3 "Активиране на SSL версия 3">
-<!ENTITY enable.ssl3.accesskey "3">
-<!ENTITY enable.tls "Активиране на TLS">
-<!ENTITY enable.tls.accesskey "T">
+<!ENTITY pref.ssl.title                     "Secure Sockets Layer (SSL)">
+<!ENTITY enable.ssl3                        "Активиране на SSL версия 3">
+<!ENTITY enable.ssl3.accesskey              "3">
+<!ENTITY enable.tls                         "Активиране на TLS">
+<!ENTITY enable.tls.accesskey               "T">
 
-<!ENTITY warn.description "&brandShortName; може да предупреждава за състоянието на сигурността на страниците, които гледате. Задаване на &brandShortName; да показва предупреждения и да иска разрешение преди:">
-<!ENTITY warn.enteringsecure "Зареждане на страница, поддържаща шифроване">
-<!ENTITY warn.enteringsecure.accesskey "L">
-<!ENTITY warn.enteringweak "Зареждане на страница, използваща ниско ниво на шифроване">
-<!ENTITY warn.enteringweak.accesskey "o">
-<!ENTITY warn.insecurepost "Изпращане на данни за формуляр от нешифрована страница към нешифрована страница">
-<!ENTITY warn.insecurepost.accesskey "S">
-<!ENTITY warn.leavingsecure "Напускане на страница, поддържаща шифроване">
-<!ENTITY warn.leavingsecure.accesskey "a">
-<!ENTITY warn.secureredirect "Пренасочване от една шифрована страница към друга">
-<!ENTITY warn.secureredirecttoinsecure "Пренасочване от шифрована страница към нешифрована страница">
-<!ENTITY warn.viewmixed "Гледане на страница, смесваща шифровано и нешифровано съдържание">
-<!ENTITY warn.viewmixed.accesskey "V">
+<!ENTITY warn.description                   "&brandShortName; може да предупреждава за състоянието на сигурността на страниците, които гледате. Задаване на &brandShortName; да показва предупреждения и да иска разрешение преди:">
+<!ENTITY warn.enteringsecure                "Зареждане на страница, поддържаща шифроване">
+<!ENTITY warn.enteringsecure.accesskey      "L">
+<!ENTITY warn.enteringweak                  "Зареждане на страница, използваща ниско ниво на шифроване">
+<!ENTITY warn.enteringweak.accesskey        "o">
+<!ENTITY warn.insecurepost                  "Изпращане на данни за формуляр от нешифрована страница към нешифрована страница">
+<!ENTITY warn.insecurepost.accesskey        "S">
+<!ENTITY warn.leavingsecure                 "Напускане на страница, поддържаща шифроване">
+<!ENTITY warn.leavingsecure.accesskey       "a">
+<!ENTITY warn.secureredirect                "Пренасочване от една шифрована страница към друга">
+<!ENTITY warn.secureredirecttoinsecure      "Пренасочване от шифрована страница към нешифрована страница">
+<!ENTITY warn.viewmixed                     "Гледане на страница, смесваща шифровано и нешифровано съдържание">
+<!ENTITY warn.viewmixed.accesskey           "V">
 
-<!ENTITY certselect.description "Определяне как &brandShortName; ще избира сертфикат, когато уеб сайт го поиска:">
-<!ENTITY certselect.auto "Автоматичен избор">
-<!ENTITY certselect.auto.accesskey "A">
-<!ENTITY certselect.ask "Запитване всеки път">
-<!ENTITY certselect.ask.accesskey "E">
+<!ENTITY certselect.description             "Определяне как &brandShortName; ще избира сертфикат, когато уеб сайт го поиска:">
+<!ENTITY certselect.auto                    "Автоматичен избор">
+<!ENTITY certselect.auto.accesskey          "A">
+<!ENTITY certselect.ask                     "Запитване всеки път">
+<!ENTITY certselect.ask.accesskey           "E">
 

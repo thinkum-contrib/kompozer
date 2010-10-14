@@ -1,43 +1,44 @@
-<!ENTITY undoCmd.label						"Отмени">  
-<!ENTITY undoCmd.key						"Z">  
-<!ENTITY undoCmd.accesskey					"м"> 
-<!ENTITY redoCmd.label						"Върни">  
-<!ENTITY redoCmd.key						"Y">  
-<!ENTITY redoCmd.accesskey					"в"> 
-<!ENTITY cutCmd.label						"Изрежи">  
-<!ENTITY cutCmd.key						"X">  
-<!ENTITY cutCmd.accesskey					"р"> 
-<!ENTITY copyCmd.label						"Запомни">  
-<!ENTITY copyCmd.key						"C">  
-<!ENTITY copyCmd.accesskey					"з"> 
-<!ENTITY pasteCmd.label						"Постави">  
-<!ENTITY pasteCmd.key						"V">  
-<!ENTITY pasteCmd.accesskey					"п"> 
-<!ENTITY deleteCmd.label					"Изтрий">  
-<!ENTITY deleteCmd.key						"Т">  
-<!ENTITY deleteCmd.accesskey					"т"> 
-<!ENTITY selectAllCmd.label					"Избери всичко">  
-<!ENTITY selectAllCmd.key					"ч">  
-<!ENTITY selectAllCmd.accesskey					"в">
-<!ENTITY preferencesCmd.label				"Предпочитания…">
-<!ENTITY preferencesCmd.key					"П">
-<!ENTITY preferencesCmd.accesskey			"п">
-<!ENTITY preferencesCmdUnix.label "Настройки">
-<!ENTITY preferencesCmdUnix.accesskey "Н">
-<!ENTITY findTypeTextCmd.label "Find Text As You Type">
-<!ENTITY findTypeTextCmd.accesskey "x">
-<!ENTITY findTypeLinksCmd.label "Find Links As You Type">
-<!ENTITY findTypeLinksCmd.accesskey "k">
+<!ENTITY undoCmd.label                    "Отмяна">  
+<!ENTITY undoCmd.key                      "Z">  
+<!ENTITY undoCmd.accesskey                "м"> 
+<!ENTITY redoCmd.label                    "Връщане">  
+<!ENTITY redoCmd.key                      "Y">  
+<!ENTITY redoCmd.accesskey                "щ"> 
+<!ENTITY cutCmd.label                     "Изрязване">  
+<!ENTITY cutCmd.key                       "X">  
+<!ENTITY cutCmd.accesskey                 "И"> 
+<!ENTITY copyCmd.label                    "Запомняне">  
+<!ENTITY copyCmd.key                      "C">  
+<!ENTITY copyCmd.accesskey                "З"> 
+<!ENTITY pasteCmd.label                   "Поставяне">  
+<!ENTITY pasteCmd.key                     "V">  
+<!ENTITY pasteCmd.accesskey               "П"> 
+<!ENTITY deleteCmd.label                  "Изтриване">  
+<!ENTITY deleteCmd.key                    "Т">  
+<!ENTITY deleteCmd.accesskey              "И"> 
+<!ENTITY selectAllCmd.label               "Избиране на всички">  
+<!ENTITY selectAllCmd.key                 "ч">  
+<!ENTITY selectAllCmd.accesskey           "ч">
+<!ENTITY preferencesCmd.label             "Предпочитания…">
+<!ENTITY preferencesCmd.key               "П">
+<!ENTITY preferencesCmd.accesskey         "П">
+<!ENTITY preferencesCmdUnix.label         "Настройки…">
+<!ENTITY preferencesCmdUnix.accesskey     "Н">
 
-<!ENTITY viewToolbarsMenu.label				"Покажи/Скрий"> 
-<!ENTITY viewToolbarsMenu.accesskey			"П"> 
+<!ENTITY findTypeTextCmd.label            "Търсене по време на писане">
+<!ENTITY findTypeTextCmd.accesskey        "Т">
+<!ENTITY findTypeLinksCmd.label           "Търсене на връзки по време на писане">
+<!ENTITY findTypeLinksCmd.accesskey       "Т">
 
-<!ENTITY newBlankPageCmd.label "KompoZer Page">
-<!ENTITY newBlankPageCmd.accesskey "P" >
-<!ENTITY newBlankPageCmd.key "n" >
-<!ENTITY newPageFromTemplateCmd.label "Page Using Template">
-<!ENTITY newPageFromTemplateCmd.accesskey "t">
+<!ENTITY viewToolbarsMenu.label           "Покажи/Скрий"> 
+<!ENTITY viewToolbarsMenu.accesskey       "П"> 
 
-<!ENTITY newNavigatorCmd.label				"Navigator Window">
-<!ENTITY newNavigatorCmd.key				"N">
-<!ENTITY newNavigatorCmd.accesskey			"N">
+<!ENTITY newBlankPageCmd.label            "KompoZer Page">
+<!ENTITY newBlankPageCmd.accesskey        "P" >
+<!ENTITY newBlankPageCmd.key              "n" >
+<!ENTITY newPageFromTemplateCmd.label     "Страница, използваща шаблон">
+<!ENTITY newPageFromTemplateCmd.accesskey "С">
+
+<!ENTITY newNavigatorCmd.label            "Прозорец за насочване">
+<!ENTITY newNavigatorCmd.key              "N">
+<!ENTITY newNavigatorCmd.accesskey        "П">

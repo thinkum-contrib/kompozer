@@ -43,7 +43,7 @@
 <!ENTITY hints.label                   "You can specify the URL using '$s'. Example:">
 <!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
 
-<!ENTITY imageEditor.label             "Image editor">
+<!ENTITY imageEditor.label             "Обработчик на изображения">
 
 <!ENTITY connection.label              "Connection">
 <!ENTITY connectionDescription.label   "Set up Proxies for accessing the Internet">
@@ -64,10 +64,10 @@
 <!ENTITY realtimeSpellCheck.label      "Real-time spellcheck">
 
 <!ENTITY spellCheckRealTime.label      "Underline misspelled words">
-<!ENTITY spellCheckRealTime.accesskey  "u">
+<!ENTITY spellCheckRealTime.accesskey  "U">
 
 <!ENTITY dialect.label                 "Markup">
-<!ENTITY markupLanguage.label          "Language:">
+<!ENTITY markupLanguage.label          "Език:">
 <!ENTITY dtd.label                     "DTD:">
 <!ENTITY htmlMarkupLanguage.label      "HTML 4">
 <!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">

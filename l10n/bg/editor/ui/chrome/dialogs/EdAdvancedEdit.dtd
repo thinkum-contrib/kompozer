@@ -30,8 +30,8 @@
 <!ENTITY tree.propertyHeader.label      "Свойство">
 <!ENTITY tree.valueHeader.label         "Стойност">
 <!ENTITY tabHTML.label                  "HTML признаци">
-<!ENTITY tabCSS.label                   "Inline Style">
+<!ENTITY tabCSS.label                   "Редови стил">
 <!ENTITY tabJSE.label                   "JavaScript събития">
 
 <!ENTITY editAttribute.label    "Цъкай върху предметите, за да им променяш стойностите">
-<!ENTITY removeAttribute.label  "Премахни">
+<!ENTITY removeAttribute.label  "Премахване">

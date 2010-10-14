@@ -24,20 +24,20 @@
 
 <!-- Window title -->
 
-<!ENTITY windowTitle.label "Свойства на горещото петно">
+<!ENTITY windowTitle.label "Свойства на горещия участък">
 
 <!ENTITY link.label				"Връзка на горещото петно">
 <!ENTITY urlFieldset.label		"URL на горещото петно:">
 <!ENTITY altFieldset.label		"Заместващ текст на на горещото петно:">
-<!ENTITY browseButton.label		"Browse…">
+<!ENTITY browseButton.label		"Обзор…">
 <!ENTITY targetFieldset.label	"Целви настройки">
 <!ENTITY target.label			"Цел на на горещото петно">
 
 <!-- Targets -->
-<!ENTITY commonFieldset.label	"Common Targets:">
-<!ENTITY none.value				"(none)">
-<!ENTITY same.value				"Same Frame">
-<!ENTITY whole.value			"Whole Page">
-<!ENTITY new.value				"New Window">
-<!ENTITY parent.value			"Parent Frame">
+<!ENTITY commonFieldset.label	"Общи цели:">
+<!ENTITY none.value				"(няма)">
+<!ENTITY same.value				"Същата стойност">
+<!ENTITY whole.value			"Цялата страница">
+<!ENTITY new.value				"Нов прозорец">
+<!ENTITY parent.value			"Родителска рамка">
 

@@ -32,7 +32,7 @@
 <!ENTITY widthEditField.accessKey "Ш">
 <!ENTITY borderEditField.label "Рамка:">
 <!ENTITY borderEditField.accessKey "Р">
-<!ENTITY borderEditField.tooltip "Type a number for the table's border, or type zero (0) for no border">
+<!ENTITY borderEditField.tooltip "Въведете стойност за обрамчването на таблицата и въведете нула (0), за да няма обрамчване">
 <!ENTITY pixels.label "точки">
 
 <!ENTITY quicklyTab.label "Бързо">
@@ -52,7 +52,7 @@
 <!ENTITY bottomVAlignment.label "Долно">
 
 <!ENTITY textWrapping.label "Пренасяне:">
-<!ENTITY wrapWrapping.label "Пренасяй">
+<!ENTITY wrapWrapping.label "Пренасяне">
 <!ENTITY nowrapWrapping.label "Не пренасяй">
 
 <!ENTITY cellSpacing.label "Клетъчна разредка">

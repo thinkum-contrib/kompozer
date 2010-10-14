@@ -34,7 +34,7 @@
 <!ENTITY locationEditField.tooltip "Напишете файловото име или разположението на изображението">
 <!ENTITY title.label "Подсказка:">
 <!ENTITY title.accessKey "П">
-<!ENTITY title.tooltip "The html 'title' attribute that displays as a tooltip">
+<!ENTITY title.tooltip "HTML принадлежността „title“ (заглавие), която се показва като подсказка">
 <!ENTITY altText.label "Заместващ текст:">
 <!ENTITY altText.accessKey "З">
 <!ENTITY altTextEditField.tooltip "Напишете текст, който да се извежда, вместо изображението">
@@ -42,17 +42,17 @@
 <!ENTITY noAltText.accessKey "Н">
 
 <!ENTITY previewBox.label "Преглед на изображението">
-<!ENTITY MoreFewerButton.tooltip "Display more or fewer properties to edit">
+<!ENTITY MoreFewerButton.tooltip "Показване на повече или по-малко свойства за обработка">
 
 <!-- These controls are in the Dimensions tab panel -->
 <!-- actualSize.label should be same as actualSizeRadio.label + ":" -->
 <!ENTITY actualSize.label "Присъщ размер:">
 <!ENTITY actualSizeRadio.label "Присъщ размер">
 <!ENTITY actualSizeRadio.accessKey "П">
-<!ENTITY actualSizeRadio.tooltip "Revert to the image's actual size">
+<!ENTITY actualSizeRadio.tooltip "Връщане към истинския размер на изображението">
 <!ENTITY customSizeRadio.label "Зададен размер">
 <!ENTITY customSizeRadio.accessKey "З">
-<!ENTITY customSizeRadio.tooltip "Change the image's size as displayed in the page">
+<!ENTITY customSizeRadio.tooltip "Промяна на размера на изображението, както е показано на страницата">
 <!ENTITY heightEditField.label "Височина:">
 <!ENTITY heightEditField.accessKey "В">
 <!ENTITY widthEditField.label "Ширина:">
@@ -62,37 +62,37 @@
 <!ENTITY constrainCheckbox.tooltip "Подържа съотношението на страните на изображението">
 
 <!-- These controls are in the Image Map box of the expanded area -->
-<!ENTITY imagemapBox.label "Image Map">
-<!ENTITY removeImageMapButton.label "Remove">
+<!ENTITY imagemapBox.label "Карта на изображението">
+<!ENTITY removeImageMapButton.label "Премахване">
 <!ENTITY removeImageMapButton.accessKey "R">
-<!ENTITY editImageMapButton.label "Edit…">
-<!ENTITY editImageMapButton.tooltip "Create clickable hotspots for this image">
+<!ENTITY editImageMapButton.label "Обработка…">
+<!ENTITY editImageMapButton.tooltip "Създаване на цъкаемо горещо петно за това изображение">
 
 <!-- These are the options for image alignment -->
-<!ENTITY alignment.label "Align Text to Image">
-<!ENTITY bottomPopup.value "At the bottom">
-<!ENTITY topPopup.value "At the top">
-<!ENTITY centerPopup.value "In the center">
-<!ENTITY wrapRightPopup.value "Wrap to the right">
-<!ENTITY wrapLeftPopup.value "Wrap to the left">
+<!ENTITY alignment.label "Подравняване на текста към изображението">
+<!ENTITY bottomPopup.value "В дъното">
+<!ENTITY topPopup.value "На върха">
+<!ENTITY centerPopup.value "В средата">
+<!ENTITY wrapRightPopup.value "Пренасяне надясно">
+<!ENTITY wrapLeftPopup.value "Пренасяне наляво">
 
 <!-- These controls are in the Spacing Box -->
-<!ENTITY spacingBox.label "Spacing">
-<!ENTITY spacingBox.tooltip "Type a number for the amount of space around image">
-<!ENTITY leftRightEditField.label "Left and Right:">
-<!ENTITY leftRightEditField.accessKey "L">
-<!ENTITY topBottomEditField.label "Top and Bottom:">
-<!ENTITY topBottomEditField.accessKey "T">
-<!ENTITY borderEditField.label "Solid Border:">
-<!ENTITY borderEditField.accessKey "B">
+<!ENTITY spacingBox.label "Слог">
+<!ENTITY spacingBox.tooltip "Въведете размера на празното място около изображението">
+<!ENTITY leftRightEditField.label "Отляво и отдясно:">
+<!ENTITY leftRightEditField.accessKey "л">
+<!ENTITY topBottomEditField.label "Отгоре и отдолу:">
+<!ENTITY topBottomEditField.accessKey "г">
+<!ENTITY borderEditField.label "Плътно обрамчване:">
+<!ENTITY borderEditField.accessKey "б">
 
 <!-- These controls are in the Link Box -->
-<!ENTITY showImageLinkBorder.label "Show border around linked image">
-<!ENTITY showImageLinkBorder.accessKey "B">
+<!ENTITY showImageLinkBorder.label "Показване на обрамчване около свързаното изображение">
+<!ENTITY showImageLinkBorder.accessKey "р">
 
 <!-- These controls may be added some day; currently not used -->
-<!ENTITY makePageBackgroundCheckbox.label "Make Page Background">
-<!ENTITY makePageBackgroundCheckbox.tooltip "Use image as background for your page">
+<!ENTITY makePageBackgroundCheckbox.label "Да се използва за подцветка на страницата">
+<!ENTITY makePageBackgroundCheckbox.tooltip "Изображението да се използва като подцветка на страницата ви">
 <!ENTITY editImageButton.label "Обработка на изображението">
 <!ENTITY editImageButton.tooltip "Обработка на изображението с друго приложение">
 

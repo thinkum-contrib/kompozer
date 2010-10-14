@@ -32,9 +32,9 @@
 <!ENTITY authorInput.accessKey "С">
 <!ENTITY descriptionInput.label "Описание:">
 <!ENTITY descriptionInput.accessKey "п">
-<!ENTITY locationNewPage.label "[New page, not saved yet]">
-<!ENTITY EditHEADSource1.label "Advanced users:">
-<!ENTITY EditHEADSource2.label "To edit other contents of the &lt;head&gt; region, use &quot;HTML Source&quot; in the View Menu or Edit Mode Toolbar.">
+<!ENTITY locationNewPage.label "[Нова, още незапазена страница]">
+<!ENTITY EditHEADSource1.label "Напреднали потребители:">
+<!ENTITY EditHEADSource2.label "За да промените съдържанието на областта &lt;head&lt;, използвайте „HTML код“ в изборника „Изглед“ или инструменталната лента „Режим на обработка“.">
 
 <!ENTITY template.label "Шаблони">
 <!ENTITY templateCheckbox.label "Страницата е шаблон">

@@ -34,38 +34,38 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY header.title "Toolbars">
+<!ENTITY header.title "Инструментални ленти">
 
-<!ENTITY composition.caption "Show these buttons in the Composition Toolbar:">
+<!ENTITY composition.caption "Показване на копчетата наборната лента:">
 
-<!ENTITY new.label "New">
-<!ENTITY open.label "Open">
-<!ENTITY save.label "Save">
-<!ENTITY publish.label "Publish">
-<!ENTITY preview.label "Browse">
-<!ENTITY cut.label "Cut">
-<!ENTITY copy.label "Copy">
-<!ENTITY paste.label "Paste">
-<!ENTITY print.label "Print">
-<!ENTITY find.label "Find">
-<!ENTITY image.label "Image">
-<!ENTITY hline.label "H. Line">
-<!ENTITY table.label "Table">
-<!ENTITY link.label "Link">
-<!ENTITY anchor.label "Anchor">
+<!ENTITY new.label "Нов">
+<!ENTITY open.label "Отваряне">
+<!ENTITY save.label "Съхраняване">
+<!ENTITY publish.label "Обнародване">
+<!ENTITY preview.label "Преглед">
+<!ENTITY cut.label "Изрязване">
+<!ENTITY copy.label "Запомняне">
+<!ENTITY paste.label "Поставяне">
+<!ENTITY print.label "Разпечатване">
+<!ENTITY find.label "Търсене">
+<!ENTITY image.label "Изображение">
+<!ENTITY hline.label "Водоравна черта">
+<!ENTITY table.label "Таблица">
+<!ENTITY link.label "Връзка">
+<!ENTITY anchor.label "Котва">
 
-<!ENTITY formatting.caption "Show these buttons in the Formatting Toolbar:">
+<!ENTITY formatting.caption "Показване на копчетата в лентата за оформление:">
 
-<!ENTITY smaller.label "Smaller">
-<!ENTITY larger.label "Larger">
-<!ENTITY bold.label "Bold">
-<!ENTITY bullets.label "Bullets">
-<!ENTITY numbers.label "Numbers">
-<!ENTITY italic.label "Italic">
-<!ENTITY outdent.label "Outdent">
-<!ENTITY indent.label "Indent">
-<!ENTITY underline.label "Underline">
+<!ENTITY smaller.label "По- малък">
+<!ENTITY larger.label "По- голям">
+<!ENTITY bold.label "Получер">
+<!ENTITY bullets.label "Водещи знаци">
+<!ENTITY numbers.label "Числа">
+<!ENTITY italic.label "Курсив">
+<!ENTITY outdent.label "Висящ отстъп">
+<!ENTITY indent.label "Отстъп">
+<!ENTITY underline.label "Подчертан">
 
-<!ENTITY absolutePosition.label "Absolute positioning">
-<!ENTITY decreaseZIndex.label "Send to back">
-<!ENTITY increaseZIndex.label "Bring to front">
+<!ENTITY absolutePosition.label "Независимо разполагане">
+<!ENTITY decreaseZIndex.label "Пращане отзад">
+<!ENTITY increaseZIndex.label "Извеждане отпред">

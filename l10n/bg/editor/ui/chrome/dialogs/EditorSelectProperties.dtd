@@ -34,47 +34,47 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label "Selection List Properties">
+<!ENTITY windowTitle.label "Свойства на изборния списък">
 
-<!ENTITY Select.label "Selection List">
-<!ENTITY SelectName.label "List Name:">
-<!ENTITY SelectName.accesskey "N">
-<!ENTITY SelectSize.label "Height:">
-<!ENTITY SelectSize.accesskey "H">
-<!ENTITY SelectMultiple.label "Multiple Selection">
-<!ENTITY SelectMultiple.accesskey "M">
-<!ENTITY SelectDisabled.label "Disabled">
-<!ENTITY SelectDisabled.accesskey "D">
+<!ENTITY Select.label "Изборен списък">
+<!ENTITY SelectName.label "Име на списъка:">
+<!ENTITY SelectName.accesskey "И">
+<!ENTITY SelectSize.label "Височина:">
+<!ENTITY SelectSize.accesskey "В">
+<!ENTITY SelectMultiple.label "Множествен избор">
+<!ENTITY SelectMultiple.accesskey "М">
+<!ENTITY SelectDisabled.label "Неактивен">
+<!ENTITY SelectDisabled.accesskey "Н">
 <!ENTITY SelectTabIndex.label "Tab Index:">
 <!ENTITY SelectTabIndex.accesskey "I">
 
-<!ENTITY OptGroup.label "Option Group">
-<!ENTITY OptGroupLabel.label "Label:">
-<!ENTITY OptGroupLabel.accesskey "L">
-<!ENTITY OptGroupDisabled.label "Disabled">
-<!ENTITY OptGroupDisabled.accesskey "D">
+<!ENTITY OptGroup.label "Струпване на възможности">
+<!ENTITY OptGroupLabel.label "Етикет:">
+<!ENTITY OptGroupLabel.accesskey "Е">
+<!ENTITY OptGroupDisabled.label "Неактивен">
+<!ENTITY OptGroupDisabled.accesskey "Н">
 
-<!ENTITY Option.label "Option">
-<!ENTITY OptionText.label "Text:">
-<!ENTITY OptionText.accesskey "T">
-<!ENTITY OptionValue.label "Value:">
-<!ENTITY OptionValue.accesskey "V">
-<!ENTITY OptionSelected.label "Initially Selected">
-<!ENTITY OptionSelected.accesskey "S">
-<!ENTITY OptionDisabled.label "Disabled">
-<!ENTITY OptionDisabled.accesskey "D">
+<!ENTITY Option.label "Възможност">
+<!ENTITY OptionText.label "Текст:">
+<!ENTITY OptionText.accesskey "Т">
+<!ENTITY OptionValue.label "Стойност:">
+<!ENTITY OptionValue.accesskey "С">
+<!ENTITY OptionSelected.label "Първоначално избрано">
+<!ENTITY OptionSelected.accesskey "П">
+<!ENTITY OptionDisabled.label "Неактивен">
+<!ENTITY OptionDisabled.accesskey "Н">
 
-<!ENTITY TextHeader.label "Text">
-<!ENTITY ValueHeader.label "Value">
-<!ENTITY SelectedHeader.label "Selected">
+<!ENTITY TextHeader.label "Текст">
+<!ENTITY ValueHeader.label "Стойност">
+<!ENTITY SelectedHeader.label "Избрано">
 
-<!ENTITY AddOption.label "Add Option">
-<!ENTITY AddOption.accesskey "O">
-<!ENTITY AddOptGroup.label "Add Group">
-<!ENTITY AddOptGroup.accesskey "G">
-<!ENTITY RemoveElement.label "Remove">
-<!ENTITY RemoveElement.accesskey "R">
-<!ENTITY MoveElementUp.label "Move Up">
-<!ENTITY MoveElementUp.accesskey "U">
-<!ENTITY MoveElementDown.label "Move Down">
-<!ENTITY MoveElementDown.accesskey "D">
+<!ENTITY AddOption.label "Добавяне на възможност">
+<!ENTITY AddOption.accesskey "Д">
+<!ENTITY AddOptGroup.label "Добавяне на група">
+<!ENTITY AddOptGroup.accesskey "Д">
+<!ENTITY RemoveElement.label "Премахване">
+<!ENTITY RemoveElement.accesskey "П">
+<!ENTITY MoveElementUp.label "Нагоре">
+<!ENTITY MoveElementUp.accesskey "Н">
+<!ENTITY MoveElementDown.label "Надолу">
+<!ENTITY MoveElementDown.accesskey "Н">

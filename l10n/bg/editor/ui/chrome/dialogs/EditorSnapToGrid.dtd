@@ -37,12 +37,12 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Snap to Grid">
+<!ENTITY windowTitle.label "Прилепване към решетката">
 
-<!ENTITY enableSnapToGrid.label "enable Snap to Grid">
+<!ENTITY enableSnapToGrid.label "включване на прилепване към решетката">
 <!ENTITY enableSnapToGrid.accessKey "e">
 
-<!ENTITY sizeEditField.label "Size:">
+<!ENTITY sizeEditField.label "Размер:">
 <!ENTITY sizeEditField.accessKey "S">
 
-<!ENTITY pixelsLabel.value "pixels">
+<!ENTITY pixelsLabel.value "точки">

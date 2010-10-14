@@ -34,32 +34,32 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label "Text Area Properties">
+<!ENTITY windowTitle.label "Свойства на словесната област">
 
-<!ENTITY Settings.label "Settings">
+<!ENTITY Settings.label "Настройки">
 
-<!ENTITY TextAreaName.label "Field Name:">
+<!ENTITY TextAreaName.label "Име на полето:">
 <!ENTITY TextAreaName.accessKey "N">
-<!ENTITY TextAreaRows.label "Rows:">
+<!ENTITY TextAreaRows.label "Редове:">
 <!ENTITY TextAreaRows.accessKey "R">
-<!ENTITY TextAreaCols.label "Columns:">
+<!ENTITY TextAreaCols.label "Стълбове:">
 <!ENTITY TextAreaCols.accessKey "C">
-<!ENTITY TextAreaReadOnly.label "Read Only">
+<!ENTITY TextAreaReadOnly.label "Само за четене">
 <!ENTITY TextAreaReadOnly.accessKey "O">
-<!ENTITY TextAreaDisabled.label "Disabled">
+<!ENTITY TextAreaDisabled.label "Неактивен">
 <!ENTITY TextAreaDisabled.accessKey "D">
 <!ENTITY TextAreaTabIndex.label "Tab Index:">
 <!ENTITY TextAreaTabIndex.accessKey "I">
-<!ENTITY TextAreaAccessKey.label "Access Key:">
+<!ENTITY TextAreaAccessKey.label "Клавиш за достъп:">
 <!ENTITY TextAreaAccessKey.accessKey "K">
-<!ENTITY InitialText.label "Initial Text:">
+<!ENTITY InitialText.label "Начален текст:">
 <!ENTITY InitialText.accessKey "T">
 
-<!ENTITY TextAreaWrap.label "Wrap Mode:">
+<!ENTITY TextAreaWrap.label "Начин на пренасяне:">
 <!ENTITY TextAreaWrap.accessKey "W">
-<!ENTITY WrapDefault.value "Default">
-<!ENTITY WrapOff.value "Off">
-<!ENTITY WrapHard.value "Hard">
-<!ENTITY WrapSoft.value "Soft">
-<!ENTITY WrapPhysical.value "Physical">
-<!ENTITY WrapVirtual.value "Virtual">
+<!ENTITY WrapDefault.value "Подразбирано">
+<!ENTITY WrapOff.value "Изключено">
+<!ENTITY WrapHard.value "Твърдо">
+<!ENTITY WrapSoft.value "Меко">
+<!ENTITY WrapPhysical.value "Физически">
+<!ENTITY WrapVirtual.value "Привидно">

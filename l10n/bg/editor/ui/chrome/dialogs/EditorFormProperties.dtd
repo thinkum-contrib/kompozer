@@ -40,8 +40,8 @@
 
 <!ENTITY FormName.label "Име на формуляра:">
 <!ENTITY FormName.accesskey "И">
-<!ENTITY FormAction.label "Action URL:">
-<!ENTITY FormAction.accesskey "A">
+<!ENTITY FormAction.label "URL на обработчика:">
+<!ENTITY FormAction.accesskey "U">
 <!ENTITY FormMethod.label "Похват:">
 <!ENTITY FormMethod.accesskey "х">
 <!ENTITY FormEncType.label "Знаково означаване:">

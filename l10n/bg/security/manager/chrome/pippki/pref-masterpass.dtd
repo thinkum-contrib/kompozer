@@ -36,26 +36,26 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY pref.masterpass.title "Главни пароли">
-<!ENTITY managepassword.caption "Изтичане на главни пароли">
-<!ENTITY managepassword.text "&brandShortName; ще пита за вашата главна парола:">
-<!ENTITY managepassword.askfirsttime "Само първия път, когато има нужда">
-<!ENTITY managepassword.askfirsttime.accesskey "T">
-<!ENTITY managepassword.askeverytime "Всеки път, когато има нужда">
-<!ENTITY managepassword.askeverytime.accesskey "E">
-<!ENTITY managepassword.asktimeout "Ако не е използвана ">
-<!ENTITY managepassword.asktimeout.accesskey "n">
-<!ENTITY managepassword.timeout.unit "минути или повече">
+<!ENTITY  pref.masterpass.title                  "Главни пароли">
+<!ENTITY  managepassword.caption                 "Изтичане на главни пароли">
+<!ENTITY  managepassword.text                    "&brandShortName; ще пита за вашата главна парола:">
+<!ENTITY  managepassword.askfirsttime            "Само първия път, когато има нужда">
+<!ENTITY  managepassword.askfirsttime.accesskey  "T">
+<!ENTITY  managepassword.askeverytime            "Всеки път, когато има нужда">
+<!ENTITY  managepassword.askeverytime.accesskey  "E">
+<!ENTITY  managepassword.asktimeout              "Ако не е използвана ">
+<!ENTITY  managepassword.asktimeout.accesskey    "n">
+<!ENTITY  managepassword.timeout.unit            "минути или повече">
 
-<!ENTITY changepassword.caption "Change Master Password">
-<!ENTITY changepassword.text "Вашата главна парола защитава важна информация, като уеб пароли и сертификати.">
-<!ENTITY changepassword.button "Смяна на парола…">
-<!ENTITY changepassword.accesskey "п">
+<!ENTITY  changepassword.caption                 "Change Master Password">
+<!ENTITY  changepassword.text                    "Вашата главна парола защитава важна информация, като уеб пароли и сертификати.">
+<!ENTITY  changepassword.button                  "Смяна на парола…">
+<!ENTITY  changepassword.accesskey               "п">
 
-<!ENTITY resetpassword.caption "Анулиране на главна парола">
-<!ENTITY resetpassword.text "Ако нулирате главната парола, ще бъдат загубени всички съхранени пароли за уеб и ел.поща, личните сертификати и лични шифриращи ключове.">
-<!ENTITY resetpassword.button "Нулиране на парола">
-<!ENTITY resetpassword.accesskey "Н">
-<!ENTITY encryptExpire.label "Преминаване на срока на валидност на главната парола след всяка употреба.">
-<!ENTITY encryptExpire.accesskey "с">
+<!ENTITY  resetpassword.caption                  "Анулиране на главна парола">
+<!ENTITY  resetpassword.text                     "Ако нулирате главната парола, ще бъдат загубени всички съхранени пароли за уеб и ел.поща, личните сертификати и лични шифриращи ключове.">
+<!ENTITY  resetpassword.button                   "Нулиране на парола">
+<!ENTITY  resetpassword.accesskey                "Н">
+<!ENTITY  encryptExpire.label                    "Преминаване на срока на валидност на главната парола след всяка употреба.">
+<!ENTITY  encryptExpire.accesskey                "с">
 

@@ -36,9 +36,9 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY tipOfTheDayWindow.title    "Tip of the day">
-<!ENTITY questionBeginning.label    "Did you know that…">
-<!ENTITY startupCheckbox.label      "Show tips at startup">
+<!ENTITY tipOfTheDayWindow.title    "Съвет на деня">
+<!ENTITY questionBeginning.label    "Знаете ли, че…">
+<!ENTITY startupCheckbox.label      "Показване на съвети при пускане">
 <!ENTITY nextTipButton.label        "Next Tip">
 <!ENTITY previousTipButton.label    "Previous Tip">
-<!ENTITY closeTipButton.label       "Close">
+<!ENTITY closeTipButton.label       "Затваряне">

@@ -33,21 +33,21 @@
 <!ENTITY mapfilemenu.accesskey "Ф">
 <!ENTITY clearCmd.label "Изчисти">
 <!ENTITY mapfileclear.accesskey "ч">
-<!ENTITY closeCmd.label "Затвори">
+<!ENTITY closeCmd.label "Затваряне">
 <!ENTITY mapfileclose.accesskey "З">
 
 <!-- Edit menu -->
 <!ENTITY mapeditMenu.label "Обработка">
 <!ENTITY mapeditmenu.accesskey "р">
-<!ENTITY cutCmd.label "Изрежи">
+<!ENTITY cutCmd.label "Изрязване">
 <!ENTITY mapeditcut.accesskey "р">
 <!ENTITY copyCmd.label "Запомни">
 <!ENTITY mapeditcopy.accesskey "п">
-<!ENTITY pasteCmd.label "Постави">
+<!ENTITY pasteCmd.label "Поставяне">
 <!ENTITY mapeditpaste.accesskey "с">
-<!ENTITY selectallCmd.label "Избери всичко">
+<!ENTITY selectallCmd.label "Избиране на всички">
 <!ENTITY mapselectall.accesskey "ч">
-<!ENTITY propsCmd.label "Hotspot Properties">
+<!ENTITY propsCmd.label "Свойства на горещия участък">
 <!ENTITY mapeditprops.accesskey "h">
 
 <!-- View menu -->

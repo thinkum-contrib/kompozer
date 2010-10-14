@@ -1,39 +1,39 @@
 <!-- extracted from content/pref-proxies.xul -->
 
 <!--LOCALIZATION NOTE : FILE The Proxies preferences dialog -->
-<!ENTITY  lHeader                       "Connection Settings">
-<!ENTITY  proxyTitle.label              "Configure Proxies to Access the Internet">
-<!ENTITY  directTypeRadio.label         "Direct connection to the Internet">
-<!ENTITY  directTypeRadio.accesskey     "d">
-<!ENTITY  manualTypeRadio.label         "Manual proxy configuration">
-<!ENTITY  manualTypeRadio.accesskey     "m">
-<!ENTITY  autoTypeRadio.label           "Automatic proxy configuration URL:">
-<!ENTITY  autoTypeRadio.accesskey       "a">
-<!ENTITY  configAutoconfigText.label    "Configuration location (URL):">
-<!ENTITY  configAutoconfigText.accesskey "u">
-<!ENTITY  reload.label                  "Reload">
-<!ENTITY  reload.accesskey              "l">
-<!ENTITY  ftp.label                     "FTP Proxy:">
-<!ENTITY  ftp.accesskey                 "f">
-<!ENTITY  gopher.label                  "Gopher Proxy:">
-<!ENTITY  gopher.accesskey              "g">
-<!ENTITY  http.label                    "HTTP Proxy:">
-<!ENTITY  http.accesskey                "h">
-<!ENTITY  ssl.label                     "SSL Proxy:">
-<!ENTITY  ssl.accesskey                 "s">
-<!ENTITY  socks.label                   "SOCKS Host:">
-<!ENTITY  socks.accesskey               "c">
-<!ENTITY  socks4.label                  "SOCKS v4">
-<!ENTITY  socks4.accesskey              "k">
-<!ENTITY  socks5.label                  "SOCKS v5">
-<!ENTITY  socks5.accesskey              "v">
-<!ENTITY  port.label                    "Port:">
-<!ENTITY  HTTPport.accesskey            "p">
+<!ENTITY  lHeader                       "Настройка за свързване">
+<!ENTITY  proxyTitle.label              "Настройка на прокситата за достъп към интернет">
+<!ENTITY  directTypeRadio.label         "Пряко свързване с интернет">
+<!ENTITY  directTypeRadio.accesskey     "П">
+<!ENTITY  manualTypeRadio.label         "Ръчна настройка на проксито">
+<!ENTITY  manualTypeRadio.accesskey     "Р">
+<!ENTITY  autoTypeRadio.label           "Адрес за автоматична настройка на проксито:">
+<!ENTITY  autoTypeRadio.accesskey       "А">
+<!ENTITY  configAutoconfigText.label    "Място за настройка (URL):">
+<!ENTITY  configAutoconfigText.accesskey "U">
+<!ENTITY  reload.label                  "Презареждане">
+<!ENTITY  reload.accesskey              "П">
+<!ENTITY  ftp.label                     "Прокси за FTP:">
+<!ENTITY  ftp.accesskey                 "F">
+<!ENTITY  gopher.label                  "Прокси за Gopher:">
+<!ENTITY  gopher.accesskey              "G">
+<!ENTITY  http.label                    "Прокси за HTTP:">
+<!ENTITY  http.accesskey                "H">
+<!ENTITY  ssl.label                     "Прокси за SSL:">
+<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  socks.label                   "Прокси за SOCKS:">
+<!ENTITY  socks.accesskey               "C">
+<!ENTITY  socks4.label                  "SOCKS, и4">
+<!ENTITY  socks4.accesskey              "K">
+<!ENTITY  socks5.label                  "SOCKS, и5">
+<!ENTITY  socks5.accesskey              "S">
+<!ENTITY  port.label                    "Извод:">
+<!ENTITY  HTTPport.accesskey            "И">
 <!ENTITY  SSLport.accesskey             "o">
 <!ENTITY  FTPport.accesskey             "r">
 <!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
 <!ENTITY  gopherPort.accesskey          "">
 <!ENTITY  SOCKSport.accesskey           "t">
-<!ENTITY  noproxy.label                 "No Proxy for:">
-<!ENTITY  noproxy.accesskey             "n">
-<!ENTITY  noproxyExplain.label          "Example: .mozilla.org, .net.nz">
+<!ENTITY  noproxy.label                 "Без прокси за:">
+<!ENTITY  noproxy.accesskey             "Б">
+<!ENTITY  noproxyExplain.label          "Пример: .mozilla.org, .net.nz">

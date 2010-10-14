@@ -1,9 +1,7 @@
 <!-- extracted from content/viewSource.xul -->
-<!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE -->
 
 <!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.title "&brandFullName;">
-<!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE --> 
 <!ENTITY mainWindow.titlemodifier "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
@@ -35,12 +33,12 @@
 <!ENTITY goToLineCmd.accesskey "д">
 <!ENTITY goToLineCmd.commandkey "l">
 
-<!ENTITY viewMenu.label "Изглед">
-<!ENTITY viewMenu.accesskey "з">
+<!ENTITY viewMenu.label           "Изглед">
+<!ENTITY viewMenu.accesskey       "з">
 <!ENTITY reloadCmd.label "Презареждане">
 <!ENTITY reloadCmd.accesskey "П">
 <!ENTITY reloadCmd.commandkey "r">
-<!ENTITY menu_wrapLongLines.title "Пренос на дълги редове">
+<!ENTITY menu_wrapLongLines.title "Пренос на дълги редове"> 
 <!ENTITY menu_wrapLongLines.accesskey "П">
 <!ENTITY menu_highlightSyntax.label "Синтактично открояване">
 <!ENTITY menu_highlightSyntax.accesskey "С">
@@ -53,10 +51,10 @@
 <!ENTITY menu_textReset.label "Нормална">
 <!ENTITY menu_textReset.accesskey "Н">
 
-<!ENTITY findOnCmd.label "Търсене в тази страница…">
+<!ENTITY findOnCmd.label     "Търсене в тази страница…">
 <!ENTITY findOnCmd.accesskey "Т">
 <!ENTITY findOnCmd.commandkey "f">
-<!ENTITY findAgainCmd.label "Търсене отново">
+<!ENTITY findAgainCmd.label  "Търсене отново">
 <!ENTITY findAgainCmd.accesskey "о">
 <!ENTITY findAgainCmd.commandkey "g">
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">

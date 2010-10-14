@@ -1,20 +1,20 @@
-<!ENTITY newprofile.title "Помощник за създаване на профил">
-<!ENTITY window.size "width: 50em; height: 32em;">
+<!ENTITY newprofile.title             "Помощник за създаване на очерк">
+<!ENTITY window.size                  "ширина: 45em; височина: 32em;">
+
 <!-- First wizard page -->
+<!ENTITY profileCreationExplanation_1.text  "&brandShortName; съхранява сведенията настройки и предпочитания ви в личния ви очерк.">
+<!ENTITY profileCreationExplanation_2.text  "Ако споделите копие от &brandShortName; с други потребители, можете да използвате профилите, за да запазите всяка потребителска информация отделена. За да стане това, всеки потребител трябва да си създаде собствен профил.">
+<!ENTITY profileCreationExplanation_3.text  "Ако само вие използвате това копие на &brandShortName; трябва да имате поне един профил. Ако желаете, можете да създадете множество профили за себе си, където да съхраните различни настройки и предпочитания. Например, да имате различни профили за работа и за дома.">
+<!ENTITY profileCreationExplanation_4.text  "За да започнете създаването на очерк, натиснете „Напред“.">
+<!ENTITY profileCreationExplanation_4Mac.text  "За да започнете създаването на очерк, натиснете „Напред“.">
 
-<!ENTITY profileCreationExplanation_1.text "&brandShortName; съхранява информацията за вашите настройки и предпочитания в личния ви профил.">
-<!ENTITY profileCreationExplanation_2.text "Ако споделите копие от &brandShortName; с други потребители, можете да използвате профилите, за да запазите всяка потребителска информация отделена. За да стане това, всеки потребител трябва да си създаде собствен профил.">
-<!ENTITY profileCreationExplanation_3.text "Ако само вие използвате това копие на &brandShortName; трябва да имате поне един профил. Ако желаете, можете да създадете множество профили за себе си, където да съхраните различни настройки и предпочитания. Например, да имате различни профили за работа и за дома.">
-<!ENTITY profileCreationExplanation_4.text "За да започнете създаването на ваш профил, натиснете Напред.">
-<!ENTITY profileCreationExplanation_4Mac.text "To begin creating your profile, click Continue.">
 <!-- Second wizard page -->
-
-<!ENTITY profileCreationIntro.text "Ако създадете няколко профила, можете да ги разграничите с отделни имена. Използвайте името, дадено тук, или използвайте някое ваше.">
-<!ENTITY profilePrompt.label "Въведете ново име на профил:">
-<!ENTITY profilePrompt.accesskey "В">
-<!ENTITY profileDirExplanation.text "Вашите настройки, предпочитания, отметки и писма ще бъдат съхранени в:">
-<!ENTITY profileDefaultName "Текущ потребител">
-<!ENTITY button.choosefolder.label "Избор на папка…">
-<!ENTITY button.choosefolder.accesskey "И">
-<!ENTITY button.usedefault.label "Използване на подразбиращата се папка">
-<!ENTITY button.usedefault.accesskey "п">
+<!ENTITY profileCreationIntro.text      "Ако създадете няколко профила, можете да ги разграничите с отделни имена. Можете да използвате името, дадено тук или да използвайте някое ваше.">
+<!ENTITY profilePrompt.label            "Въведете ново име на профил:">
+<!ENTITY profilePrompt.accesskey        "В">
+<!ENTITY profileDirExplanation.text     "Вашите настройки, предпочитания, отметки и писма ще бъдат съхранени в:">
+<!ENTITY profileDefaultName             "Текущ потребител">
+<!ENTITY button.choosefolder.label      "Избор на папка…">
+<!ENTITY button.choosefolder.accesskey  "И">
+<!ENTITY button.usedefault.label        "Използване на подразбираната папка">
+<!ENTITY button.usedefault.accesskey    "И">

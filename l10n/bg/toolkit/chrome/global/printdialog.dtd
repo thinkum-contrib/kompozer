@@ -14,9 +14,9 @@
 
 <!ENTITY printrangeGroup.label "Отпечатване">
 <!ENTITY allpagesRadio.label "Всички страници">
-<!ENTITY rangeRadio.label "Страници">
-<!ENTITY frompageInput.label "от">
-<!ENTITY topageInput.label "до">
+<!ENTITY rangeRadio.label  "Страници">
+<!ENTITY frompageInput.label  "от">
+<!ENTITY topageInput.label  "до">
 <!ENTITY selectionRadio.label "Маркирания текст">
 
 <!ENTITY copies.label "Копия">
@@ -24,6 +24,6 @@
 
 <!ENTITY printframeGroup.label "Отпечатване на рамките">
 <!ENTITY aslaidoutRadio.label "Както се виждат на екрана">
-<!ENTITY selectedframeRadio.label "Маркираната рамка">
-<!ENTITY eachframesepRadio.label "Всяка рамка поотделно">
+<!ENTITY selectedframeRadio.label  "Маркираната рамка">
+<!ENTITY eachframesepRadio.label  "Всяка рамка поотделно">
 

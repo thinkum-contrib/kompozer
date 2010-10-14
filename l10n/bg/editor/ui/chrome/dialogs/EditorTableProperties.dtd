@@ -38,8 +38,8 @@
 <!ENTITY tableSpacing.accessKey           "Р">
 <!ENTITY tablePadding.label               "Уплътняване:">
 <!ENTITY tablePadding.accessKey           "У">
-<!ENTITY tablePxBetwCells.label           "pixels between cells">
-<!ENTITY tablePxBetwBrdrCellContent.label "pixels between cell border and content">
+<!ENTITY tablePxBetwCells.label           "точки между клетките">
+<!ENTITY tablePxBetwBrdrCellContent.label "точки между обрамчването на клетката и съдържанието">
 <!ENTITY tableAlignment.label             "Подравняване на таблицата:">
 <!ENTITY tableAlignment.accessKey         "Т">
 <!ENTITY tableCaption.label               "Пояснение:">
@@ -48,11 +48,11 @@
 <!ENTITY tableCaptionBelow.label          "Под таблицата">
 <!ENTITY tableCaptionLeft.label           "Вляво от таблицата">
 <!ENTITY tableCaptionRight.label          "Вдясно от таблицата">
-<!ENTITY tableCaptionNone.label           "None">
-<!ENTITY tableInheritColor.label           "(Let page color show through)">
+<!ENTITY tableCaptionNone.label           "Няма">
+<!ENTITY tableInheritColor.label           "(Прозиращи цветове на страниците)">
 
-<!ENTITY cellPercent.label                "percent of table">
-<!ENTITY cellSelection.label              "Selection">
+<!ENTITY cellPercent.label                "% от таблицата">
+<!ENTITY cellSelection.label              "Избраното">
 <!ENTITY cellSelectCell.label             "Клетка">
 <!ENTITY cellSelectRow.label              "Ред">
 <!ENTITY cellSelectColumn.label           "Стълб">
@@ -75,7 +75,7 @@
 <!ENTITY cellStyle.label                  "Вид на кледката:">
 <!ENTITY cellStyle.accessKey              "В">
 <!ENTITY cellNormal.label                 "Обикновено">
-<!ENTITY cellHeader.label                 "Header">
+<!ENTITY cellHeader.label                 "Заглавка">
 <!ENTITY cellTextWrap.label               "Пренасяне на текста:">
 <!ENTITY cellTextWrap.accessKey           "П">
 <!ENTITY cellWrap.label                   "Пренасяне">
@@ -84,9 +84,9 @@
 <!ENTITY cellAlignMiddle.label            "В средата">
 <!ENTITY cellAlignBottom.label            "Долу">
 <!ENTITY cellAlignJustify.label           "Изравняване">
-<!ENTITY cellAlignAtChar.label            "At Character:">
-<!ENTITY cellInheritColor.label           "(Let table color show through)">
-<!ENTITY cellUseCheckboxHelp.label        "Use checkboxes to determine which properties are applied to all selected cells">
+<!ENTITY cellAlignAtChar.label            "При знак:">
+<!ENTITY cellInheritColor.label           "(Прозиращ цвят на таблицата)">
+<!ENTITY cellUseCheckboxHelp.label        "Използвайте чавки за определяне на свойствата, които да се прилагат на избраните клетки">
 
 <!-- Used in both Table and Cell panels  -->
 <!ENTITY size.label                       "Размер">

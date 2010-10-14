@@ -39,7 +39,10 @@
 
 <!ENTITY filterAll.label          "Всички файлове">
 <!ENTITY filterHTML.label         "HTML документи">
+<!ENTITY filterCSS.label          "Стилови листове CSS">
 <!ENTITY filterImages.label       "Файлове с изображения">
+<!ENTITY filterMedia.label        "Медийни файлове">
+<!ENTITY filterScripts.label      "Словесни файлове">
 
 <!ENTITY treeViewCheckbox.label   "Дървовиден изглед">
 
@@ -63,3 +66,18 @@
 <!ENTITY renameButton.tooltip     "Преименуване на файл или папка">
 
 <!ENTITY filterControl.label      "Изглед:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Местен">
+<!ENTITY remoteTab.label          "Далечен">
+<!ENTITY ftpConsole.label         "FTP console">
+
+<!ENTITY editItem.label           "Edit"> 
+<!ENTITY openItem.label           "Отваряне">
+<!ENTITY openAsText.label         "Отваряне като текст">
+<!ENTITY openRemote.label         "Отваряне на далечна папка">
+<!ENTITY insertImage.label        "Вмъкване на изображение">
+<!ENTITY previewItem.label        "Преглед">
+<!ENTITY uploadItem.label         "Publish…">
+<!ENTITY downloadItem.label       "Възстановяване…">
+<!ENTITY itemProperties.label     "Свойства…">

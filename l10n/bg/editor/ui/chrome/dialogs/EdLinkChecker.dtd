@@ -22,9 +22,9 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label     "Check Image and Link Locations">
-<!ENTITY urlsNotFound.label    "The following image or link locations were not found:">
-<!ENTITY notFoundKey.label     "(&quot;X&quot; = file not found, &quot;?&quot; = timed-out attempting to connect.)">
-<!ENTITY changeUrlButton.label "Change Location of Selected Item">
-<!ENTITY succeeded.label       "Succeeded">
-<!ENTITY failed.label          "Failed">
+<!ENTITY windowTitle.label     "Проверка на местоположенията изображенията и връзките">
+<!ENTITY urlsNotFound.label    "Следното местоположение на изображение или връзка не бе открито:">
+<!ENTITY notFoundKey.label     "(&quot;X&quot; = файлът не е открит, &quot;?&quot; = просрочване при опит за свързване.)">
+<!ENTITY changeUrlButton.label "Смяна на местоположението за избрания предмет">
+<!ENTITY succeeded.label       "Успех">
+<!ENTITY failed.label          "Неуспех">

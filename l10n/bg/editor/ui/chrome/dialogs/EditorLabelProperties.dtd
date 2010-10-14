@@ -34,17 +34,17 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label "Label Properties">
+<!ENTITY windowTitle.label "Свойства на етикета">
 
-<!ENTITY Settings.label "Settings">
-<!ENTITY Settings.accesskey "S">
+<!ENTITY Settings.label "Настройки">
+<!ENTITY Settings.accesskey "Н">
 
-<!ENTITY EditLabelText.label "Edit Text:">
-<!ENTITY EditLabelText.accesskey "T">
-<!ENTITY LabelFor.label "For Control:">
-<!ENTITY LabelFor.accesskey "F">
-<!ENTITY AccessKey.label "Access Key:">
-<!ENTITY AccessKey.accesskey "K">
+<!ENTITY EditLabelText.label "Обработка на текст:">
+<!ENTITY EditLabelText.accesskey "О">
+<!ENTITY LabelFor.label "За управление:">
+<!ENTITY LabelFor.accesskey "З">
+<!ENTITY AccessKey.label "Клавиш за достъп:">
+<!ENTITY AccessKey.accesskey "К">
 
-<!ENTITY RemoveLabel.label "Remove Label">
-<!ENTITY RemoveLabel.accesskey "R">
+<!ENTITY RemoveLabel.label "Премахване на етикет">
+<!ENTITY RemoveLabel.accesskey "П">

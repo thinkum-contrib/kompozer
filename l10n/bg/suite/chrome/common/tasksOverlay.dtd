@@ -1,43 +1,44 @@
 <!-- extracted from tasksOverlay.xul -->
 <!-- LOCALIZATION NOTE (navigatorCmd.label): DONT_TRANSLATE -->  
-<!ENTITY navigatorCmd.label					"Navigator">  
-<!ENTITY navigatorCmd.accesskey             "n">
-<!ENTITY navigatorCmd.commandkey            "1">
+<!ENTITY navigatorCmd.label              "Navigator">  
+<!ENTITY navigatorCmd.accesskey          "N">
+<!ENTITY navigatorCmd.commandkey         "1">
 <!-- LOCALIZATION NOTE (editorCmd.label): DONT_TRANSLATE -->
-<!ENTITY editorCmd.label					"Composer">
-<!ENTITY editorCmd.accesskey				"c">
-<!ENTITY editorCmd.commandkey				"4">
+<!ENTITY editorCmd.label                 "KompoZer">
+<!ENTITY editorCmd.accesskey             "c">
+<!ENTITY editorCmd.commandkey            "4">
 
-<!ENTITY securityInfoCmd.label					".Security Info">  
-<!ENTITY securityInfoCmd.accesskey				"s">
-<!ENTITY javaConsoleCmd.label					"Java Console">
-<!ENTITY javaConsoleCmd.accesskey				"j">
+<!ENTITY securityInfoCmd.label           ".Security Info">  
+<!ENTITY securityInfoCmd.accesskey       "S">
+<!ENTITY javaConsoleCmd.label            "Java Console">
+<!ENTITY javaConsoleCmd.accesskey        "J">
 
-<!ENTITY javaScriptConsoleCmd.label                             "JavaScript Console">
-<!ENTITY javaScriptConsoleCmd.accesskey				"S">
+<!ENTITY javaScriptConsoleCmd.label      "JavaScript Console">
+<!ENTITY javaScriptConsoleCmd.accesskey  "S">
 
 <!-- LOCALIZATION NOTE (privacyMenu.label): DONT_TRANSLATE -->
-<!ENTITY privacyMenu.label "Privacy &amp; Security">
-<!ENTITY privacyMenu.accesskey "p">
+<!ENTITY privacyMenu.label               "Privacy &amp; Security">
+<!ENTITY privacyMenu.accesskey           "P">
 
-<!ENTITY taskNavigator.tooltip  "Navigator">
-<!ENTITY taskComposer.tooltip  "Composer">
-<!ENTITY taskBar.tooltip  "Лента на състоянието">
+<!ENTITY taskNavigator.tooltip           "Navigator">
+<!ENTITY taskComposer.tooltip            "KompoZer">
+<!ENTITY taskBar.tooltip                 "Лента на състоянието">
 
-<!ENTITY webDevelopment.label "Мрежова разработка">
-<!ENTITY webDevelopment.accesskey "р">
+<!ENTITY webDevelopment.label            "Мрежова разработка">
+<!ENTITY webDevelopment.accesskey        "р">
 
-<!ENTITY windowMenu.label "Прозорец">
-<!ENTITY windowMenu.accesskey "П">
+<!ENTITY windowMenu.label                "Прозорец">
+<!ENTITY windowMenu.accesskey            "П">
 
-<!ENTITY tasksMenu.label "Средства">
-<!ENTITY tasksMenu.accesskey "С"> 
+<!ENTITY tasksMenu.label                 "Средства">
+<!ENTITY tasksMenu.accesskey             "С"> 
 
-<!ENTITY downloadManagerCmd.label "Управител на свалянето">
-<!ENTITY downloadManagerCmd.accesskey "У">
+<!ENTITY downloadManagerCmd.label        "Управител на свалянето">
+<!ENTITY downloadManagerCmd.accesskey    "У">
 
-<!ENTITY switchProfileCmd.label "Switch Profile…">
-<!ENTITY switchProfileCmd.accesskey "h">
+<!ENTITY switchProfileCmd.label          "Switch Profile…">
+<!ENTITY switchProfileCmd.accesskey      "h">
 
-<!ENTITY extensions.label "Разширения">
-<!ENTITY themes.label "Кожи">
+<!ENTITY addons.label                    "Добавки">
+<!ENTITY extensions.label                "Разширения">
+<!ENTITY themes.label                    "Кожи">

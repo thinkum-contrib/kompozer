@@ -20,18 +20,18 @@
    - Contributor(s): 
   -->
 
-<!ENTITY AdvancedEditButton.label "Разширена обработка…">
+<!ENTITY AdvancedEditButton.label     "Разширена обработка…">
 <!ENTITY AdvancedEditButton.accessKey "Р">
-<!ENTITY AdvancedEditButton.tooltip "Добави или промени HTML свойства, свойства на стиловете и на JavaScript">
-<!ENTITY chooseButton.label "Избери файл…">
-<!ENTITY chooseFile.accessKey "F">
-<!ENTITY chooseFileLink.accessKey "ф">
-<!ENTITY makeUrlRelative.label "URL е относим към разположението на страницата">
-<!ENTITY makeUrlRelative.accessKey "о">
-<!ENTITY makeUrlRelative.tooltip "Change between relative and absolute URL. You must first save the page to change this.">
+<!ENTITY AdvancedEditButton.tooltip   "Добави или промени HTML свойства, свойства на стиловете и на JavaScript">
+<!ENTITY chooseButton.label           "Избери файл…">
+<!ENTITY chooseFile.accessKey         "F">
+<!ENTITY chooseFileLink.accessKey     "ф">
+<!ENTITY makeUrlRelative.label        "URL е относим към разположението на страницата">
+<!ENTITY makeUrlRelative.accessKey    "о">
+<!ENTITY makeUrlRelative.tooltip      "Преминаване между относителен и абсолютен адрес (URL). За да направите промяната, трябва първо да съхраните страницата.">
 
 <!-- Shared by Link and Image dialogs -->
-<!ENTITY LinkURLEditField.label "Въведи разположение на мрежова страница, местен файл, еладрес или избери наименувана котва или заглавка от изскачащия списък:">
-<!ENTITY LinkURLEditField.accessKey "В">
+<!ENTITY LinkURLEditField.label       "Въведи разположение на мрежова страница, местен файл, еладрес или избери наименувана котва или заглавка от изскачащия списък:">
+<!ENTITY LinkURLEditField.accessKey   "В">
 
-<!ENTITY isMailAddress.label "Горното е еладрес">
+<!ENTITY isMailAddress.label          "Горното е еладрес">

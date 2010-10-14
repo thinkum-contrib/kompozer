@@ -1,72 +1,72 @@
-<!ENTITY updateWizard.title "Обновяване на софтуер">
+<!ENTITY  updateWizard.title              "Обновяване на софтуер">
 
-<!ENTITY window.width "36em">
-<!ENTITY window.macWidth "39em">
+<!ENTITY  window.width                    "36em">
+<!ENTITY  window.macWidth                 "39em">
 
-<!ENTITY checking.title "Проверяване за обновявания">
-<!ENTITY checking.label "&brandShortName; сега проверява за обновявания…">
+<!ENTITY  checking.title                  "Проверяване за обновявания">
+<!ENTITY  checking.label                  "&brandShortName; сега проверява за обновявания…">
 
-<!ENTITY cancel.label "Прекъсване">
-<!ENTITY cancel.accesskey "П">
+<!ENTITY  cancel.label                    "Отказ">
+<!ENTITY  cancel.accesskey                "О">
 
-<!ENTITY noupdatesfound.title "Не са открити обновявания">
-<!ENTITY noupdatesfound.intro "Не са налични нови обновявания. &brandShortName; може периодично да проверява за нови обновявания.">
+<!ENTITY  noupdatesfound.title            "Не са открити обновявания">
+<!ENTITY  noupdatesfound.intro            "Не са налични нови обновявания. &brandShortName; може периодично да проверява за нови обновявания.">
 
-<!ENTITY updatesfound.title "Налични са обновявания">
+<!ENTITY  updatesfound.title              "Налични са обновявания">
 
-<!ENTITY moreDetails.label "Повече информация &#0187;">
-<!ENTITY moreDetails.accesskey "и">
-<!ENTITY clickHere.label "Показване на повече информация за това обновяване">
+<!ENTITY  moreDetails.label               "Повече информация &#0187;">
+<!ENTITY  moreDetails.accesskey           "и">
+<!ENTITY  clickHere.label                 "Показване на повече информация за това обновяване">
 
-<!ENTITY incompatible.warning "Това обновяване ще предизвика спиране на работата на някои ваши разширения и/или теми, докато те самите не бъдат обновени.">
-<!ENTITY listIncompatible.label "Показване на списък">
-<!ENTITY listIncompatible.accesskey "с">
+<!ENTITY  incompatible.warning            "Това обновяване ще предизвика спиране на работата на някои ваши разширения и/или теми, докато те самите не бъдат обновени.">
+<!ENTITY  listIncompatible.label          "Показване на списък">
+<!ENTITY  listIncompatible.accesskey      "с">
 
-<!ENTITY upgrade.evangelism "Силно препоръчително е да надградите &brandShortName; колкото е възможно по-бързо.">
+<!ENTITY  upgrade.evangelism              "Силно препоръчително е да надградите &brandShortName; колкото е възможно по-бързо.">
 
-<!ENTITY license.title "Лицензно споразумение">
-<!ENTITY license.intro "За да инсталирате това обновяване, трябва да се съгласите със следното лицензно споразумение. Моля, прочетете го внимателно:">
-<!ENTITY license.instructions "Ако се съгласите с условията на това споразумение, натиснете Съгласен съм, за да продължите с инсталирането на това обновяване.">
+<!ENTITY  license.title                   "Лицензно споразумение">
+<!ENTITY  license.intro                   "За да инсталирате това обновяване, трябва да се съгласите със следното лицензно споразумение. Моля, прочетете го внимателно:">
+<!ENTITY  license.instructions            "Ако се съгласите с условията на това споразумение, натиснете Съгласен съм, за да продължите с инсталирането на това обновяване.">
 
-<!ENTITY license.titleText "Лицензно споразумение за софтуер">
-<!ENTITY license.introText "Условия за ползване на този софтуер.">
-<!ENTITY license.instructionText "Моля, прочетете следното лицензно споразумение. Използвайте плъзгача, за да видите останалата част от споразумението.">
-<!ENTITY license.accept "Приемам условията на лицензното споразумение">
-<!ENTITY license.accept.accesskey "П">
-<!ENTITY license.decline "НЕ приемам условията на лицензното споразумение">
-<!ENTITY license.decline.accesskey "Н">
+<!ENTITY  license.titleText               "Лицензно споразумение за софтуер">
+<!ENTITY  license.introText               "Условия за ползване на този софтуер.">
+<!ENTITY  license.instructionText         "Моля, прочетете следното лицензно споразумение. Използвайте плъзгача, за да видите останалата част от споразумението.">
+<!ENTITY  license.accept                  "Приемам условията на лицензното споразумение">
+<!ENTITY  license.accept.accesskey        "П">
+<!ENTITY  license.decline                 "НЕ приемам условията на лицензното споразумение">
+<!ENTITY  license.decline.accesskey       "Н">
 
-<!ENTITY downloading.title "Изтегляне на обновяване">
-<!ENTITY downloading.intro "Изтегляне на обновяването…">
-<!ENTITY connecting.label "Свързване със сървъра за обновявания…">
-<!ENTITY verificationFailedText.label "&brandShortName; не можа да провери целостта на малкото обновяване, което бе изтеглено, така че сега се изтегля пълния пакет с обновявания.">
+<!ENTITY  downloading.title               "Изтегляне на обновяване">
+<!ENTITY  downloading.intro               "Изтегляне на обновяването…">
+<!ENTITY  connecting.label                "Свързване със сървъра за обновявания…">
+<!ENTITY  verificationFailedText.label    "&brandShortName; не можа да провери целостта на малкото обновяване, което бе изтеглено, така че сега се изтегля пълния пакет с обновявания.">
 
-<!ENTITY details.link "Подробности">
-<!ENTITY pause.label "Пауза">
-<!ENTITY pause.accesskey "П">
-<!ENTITY close.label "Затваряне">
-<!ENTITY close.accesskey "З">
+<!ENTITY  details.link                    "Подробности">
+<!ENTITY  pause.label                     "Пауза">
+<!ENTITY  pause.accesskey                 "П">
+<!ENTITY  close.label                     "Затваряне">
+<!ENTITY  close.accesskey                 "З">
 
-<!ENTITY error.label "Имаше проблеми при инсталирането на това обновяване. &brandShortName; не може да бъде обновен, защото:">
+<!ENTITY  error.label                     "Имаше проблеми при инсталирането на това обновяване. &brandShortName; не може да бъде обновен, защото:">
                                            
-<!ENTITY errorManual.label "Може ръчно да обновите &brandShortName; чрез посещаване на тази връзка и изтегляне на последната версия:">
+<!ENTITY  errorManual.label               "Може ръчно да обновите &brandShortName; чрез посещаване на тази връзка и изтегляне на последната версия:">
                                            
-<!ENTITY errorpatching.title "Неуспешно обновяване">
-<!ENTITY errorpatching.intro "Частичното обновяване не можа да бъде приложено. &brandShortName; ще опита отново чрез изтегляне на пълно обновяване.">
+<!ENTITY  errorpatching.title             "Неуспешно обновяване">
+<!ENTITY  errorpatching.intro             "Частичното обновяване не можа да бъде приложено. &brandShortName; ще опита отново чрез изтегляне на пълно обновяване.">
 
-<!ENTITY finished.title "Обновяването е изтеглено">
-<!ENTITY finished.text "Обновяването е успешно изтеглено и проверено, и ще бъде инсталирано при следващото стартиране на &brandShortName;.">
+<!ENTITY  finished.title                  "Обновяването е изтеглено">
+<!ENTITY  finished.text                   "Обновяването е успешно изтеглено и проверено, и ще бъде инсталирано при следващото стартиране на &brandShortName;.">
 
-<!ENTITY finishedBackground.title "Обновяването е готово за инсталиране">
-<!ENTITY finishedBackground.text "&brandShortName; изтегли и провери важно обновяване. Натиснете връзката по-долу за повече информация.">
-<!ENTITY finishedBackground.name "Обновяване:">
-<!ENTITY finishedBackground.more1 "Натиснете Рестартиране на &brandShortName; сега, за да бъдат инсталирани обновяванията сега.">
-<!ENTITY finishedBackground.more2 "Натиснете По-късно, за да затворите този диалог и да продължите работата си. &brandShortName; ще инсталира обновяването при следващото си стартиране.">
+<!ENTITY  finishedBackground.title        "Обновяването е готово за инсталиране">
+<!ENTITY  finishedBackground.text         "&brandShortName; изтегли и провери важно обновяване. Натиснете връзката по-долу за повече информация.">
+<!ENTITY  finishedBackground.name         "Обновяване:">
+<!ENTITY  finishedBackground.more1        "Натиснете Рестартиране на &brandShortName; сега, за да бъдат инсталирани обновяванията сега.">
+<!ENTITY  finishedBackground.more2        "Натиснете По-късно, за да затворите този диалог и да продължите работата си. &brandShortName; ще инсталира обновяването при следващото си стартиране.">
 
-<!ENTITY installed.title "Обновяването е инсталирано">
-<!ENTITY installed.intro "Обновяването беше успешно инсталирано.">
-<!ENTITY whatsnew.label "Повече за това какво е новото…">
+<!ENTITY  installed.title                 "Обновяването е инсталирано">
+<!ENTITY  installed.intro                 "Обновяването беше успешно инсталирано.">
+<!ENTITY  whatsnew.label                  "Повече за това какво е новото…">
 
-<!ENTITY update.details.label "Подробности">
-<!ENTITY update.installedOn.label "Инсталирано на:">
-<!ENTITY update.status.label "Състояние:">
+<!ENTITY  update.details.label            "Подробности">
+<!ENTITY  update.installedOn.label        "Инсталирано на:">
+<!ENTITY  update.status.label             "Състояние:">

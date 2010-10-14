@@ -40,18 +40,18 @@
 <!ENTITY filterPrefs.accesskey "л">
 <!ENTITY showAll.label "Показване на всичко">
 <!ENTITY showAll.accesskey "к">
-<!-- Columns -->
 
+<!-- Columns -->
 <!ENTITY prefColumn.label "Име на настройка">
 <!ENTITY lockColumn.label "Състояние">
 <!ENTITY typeColumn.label "Тип">
 <!ENTITY valueColumn.label "Стойност">
+
 <!-- Tooltips -->
+<!ENTITY prefColumnHeader.tooltip "Сортиране при щракване"> 
+<!ENTITY columnChooser.tooltip "Избиране на колони за показване при щракване"> 
 
-<!ENTITY prefColumnHeader.tooltip "Сортиране при щракване">
-<!ENTITY columnChooser.tooltip "Избиране на колони за показване при щракване">
 <!-- Context Menu -->
-
 <!ENTITY copyName.label "Копиране на име">
 <!ENTITY copyName.accesskey "и">
 <!ENTITY copyValue.label "Копиране на стойност">

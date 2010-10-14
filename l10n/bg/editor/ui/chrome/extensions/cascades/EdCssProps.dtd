@@ -36,244 +36,244 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY Window.title						"CSS стилови листи">
+<!ENTITY Window.title                           "CSS стилови листи">
 
-<!ENTITY sheetsTreeColumn.label				"Листи и правила">
-<!ENTITY expertModeChecbox.label			"За опитни потребителни">
-<!ENTITY importRuleButton.label				"@внос">
-<!ENTITY mediaRuleButton.label				"@носите">
-<!ENTITY linkedSheetButton.label			"Свързване на част">
-<!ENTITY styleSheetButton.label				"Стилова част">
-<!ENTITY ruleButton.label					"Ново правило">
-<!ENTITY upButton.label						"Нагоре">
-<!ENTITY downButton.label					"Надолу">
-<!ENTITY refreshButton.label				"Опресни">
-<!ENTITY removeButton.label					"Премахни">
-<!ENTITY sheetInfoTab.label					"Общи">
-<!ENTITY textTab.label						"Текст">
-<!ENTITY borderTab.label					"Рамки">
-<!ENTITY marginsTab.label					"Полета">
-<!ENTITY boxTab.label						"Кутия">
-<!ENTITY auralTab.label						"Слухов">
-<!ENTITY fontFamily.label					"Шрифтово семейство:">
-<!ENTITY inheritedFontFamily.label			"наследено">
-<!ENTITY useCustomFontFamily.label			"Използвай собствено шрифтово семейство:">
-<!ENTITY fontData.label						"Данни за шрифта">
-<!ENTITY exampleSentence.label				"Абвгдежзийклмнопрстуфхцчшщъьюя">
-<!ENTITY backgroundTab.label				"Подцветка">
+<!ENTITY sheetsTreeColumn.label                 "Листи и правила">
+<!ENTITY expertModeChecbox.label                "За опитни потребителни">
+<!ENTITY importRuleButton.label                 "@внос">
+<!ENTITY mediaRuleButton.label                  "@носители">
+<!ENTITY linkedSheetButton.label                "Свързване на част">
+<!ENTITY styleSheetButton.label                 "Стилова част">
+<!ENTITY ruleButton.label                       "Ново правило">
+<!ENTITY upButton.label                         "Нагоре">
+<!ENTITY downButton.label                       "Надолу">
+<!ENTITY refreshButton.label                    "Опресни">
+<!ENTITY removeButton.label                     "Премахване">
+<!ENTITY sheetInfoTab.label                     "Общи">
+<!ENTITY textTab.label                          "Текст">
+<!ENTITY borderTab.label                        "Рамки">
+<!ENTITY marginsTab.label                       "Полета">
+<!ENTITY boxTab.label                           "Кутия">
+<!ENTITY auralTab.label                         "Слухов">
+<!ENTITY fontFamily.label                       "Шрифтово семейство:">
+<!ENTITY inheritedFontFamily.label              "наследено">
+<!ENTITY useCustomFontFamily.label              "Използвай собствено шрифтово семейство:">
+<!ENTITY fontData.label                         "Данни за шрифта">
+<!ENTITY exampleSentence.label                  "Абвгдежзийклмнопрстуфхцчшщъьюя">
+<!ENTITY backgroundTab.label                    "Подцветка">
 
-<!ENTITY unspecifiedValue.label				"неуказано">
-<!ENTITY predefFontFamilyRadio.label		"предуказан:">
-<!ENTITY fontSize.label						"Размер на шрифта:">
-<!ENTITY lineHeight.label                   "Височина на реда:">
-<!ENTITY normalLineHeight.label             "обикновена">
-<!ENTITY color.label						"Цвят:">
-<!ENTITY fontWeight.label					"Тежина на шрифта:">
-<!ENTITY normalValue.label					"Обикновена">
-<!ENTITY boldValue.label					"Получер">
-<!ENTITY bolderValue.label					"Чер">
-<!ENTITY lighterValue.label					"Лека">
-<!ENTITY inheritedValue.label				"Наследена">
-<!ENTITY fontStyle.label					"Облик на шрифта:">
-<!ENTITY italicValue.label					"Курсив">
-<!ENTITY obliqueValue.label					"Наклонен">
-<!ENTITY textTransform.label				"ГлАвнОст:">
-<!ENTITY noneTextTransformValue.label		"Без промяна">
-<!ENTITY lowercaseValue.label				"низша">
-<!ENTITY uppercaseValue.label				"ВИСША">
-<!ENTITY capitalizeValue.label				"Първите главни">
+<!ENTITY unspecifiedValue.label                 "неуказано">
+<!ENTITY predefFontFamilyRadio.label            "предуказан:">
+<!ENTITY fontSize.label                         "Размер на шрифта:">
+<!ENTITY lineHeight.label                       "Височина на реда:">
+<!ENTITY normalLineHeight.label                 "обикновена">
+<!ENTITY color.label                            "Цвят:">
+<!ENTITY fontWeight.label                       "Тежина на шрифта:">
+<!ENTITY normalValue.label                      "Обикновена">
+<!ENTITY boldValue.label                        "Получер">
+<!ENTITY bolderValue.label                      "Чер">
+<!ENTITY lighterValue.label                     "Лека">
+<!ENTITY inheritedValue.label                   "Наследена">
+<!ENTITY fontStyle.label                        "Облик на шрифта:">
+<!ENTITY italicValue.label                      "Курсив">
+<!ENTITY obliqueValue.label                     "Наклонен">
+<!ENTITY textTransform.label                    "ГлАвнОст:">
+<!ENTITY noneTextTransformValue.label           "Без промяна">
+<!ENTITY lowercaseValue.label                   "низша">
+<!ENTITY uppercaseValue.label                   "ВИСША">
+<!ENTITY capitalizeValue.label                  "Първите главни">
 
-<!ENTITY closeButton.label					"Затвори">
+<!ENTITY closeButton.label                      "Затваряне">
 
-<!ENTITY largerFontSize.label				"по- голям">
-<!ENTITY smallerFontSize.label				"по- малък">
-<!ENTITY xxsmallFontSize.label				"много- много малък">
-<!ENTITY xsmallFontSize.label				"много- малък">
-<!ENTITY smallFontSize.label				"малък">
-<!ENTITY mediumFontSize.label				"среден">
-<!ENTITY largeFontSize.label				"голям">
-<!ENTITY xlargeFontSize.label				"много- голям">
-<!ENTITY xxlargeFontSize.label				"много- много голям">
+<!ENTITY largerFontSize.label                   "по- голям">
+<!ENTITY smallerFontSize.label                  "по- малък">
+<!ENTITY xxsmallFontSize.label                  "много- много малък">
+<!ENTITY xsmallFontSize.label                   "много- малък">
+<!ENTITY smallFontSize.label                    "малък">
+<!ENTITY mediumFontSize.label                   "среден">
+<!ENTITY largeFontSize.label                    "голям">
+<!ENTITY xlargeFontSize.label                   "много- голям">
+<!ENTITY xxlargeFontSize.label                  "много- много голям">
 
-<!ENTITY textAlign.label					"Подравняване:">
-<!ENTITY rightTextAlign.label				"Дясно">
-<!ENTITY leftTextAlign.label				"Ляво">
-<!ENTITY centerTextAlign.label				"В средата">
-<!ENTITY justifyTextAlign.label				"Изравнено">
+<!ENTITY textAlign.label                        "Подравняване:">
+<!ENTITY rightTextAlign.label                   "Дясно">
+<!ENTITY leftTextAlign.label                    "Ляво">
+<!ENTITY centerTextAlign.label                  "В средата">
+<!ENTITY justifyTextAlign.label                 "Изравнено">
 
-<!ENTITY textDecoration.label				"Украса на текста:">
-<!ENTITY overlineTextDecoration.label		"Надчертан">
-<!ENTITY underlineTextDecoration.label		"Подчертан">
-<!ENTITY linethroughTextDecoration.label	"Зачертан">
-<!ENTITY blinkTextDecoration.label			"Мигащ">
-<!ENTITY noneTextDecoration.label			"Няма">
+<!ENTITY textDecoration.label                   "Украса на текста:">
+<!ENTITY overlineTextDecoration.label           "Надчертан">
+<!ENTITY underlineTextDecoration.label          "Подчертан">
+<!ENTITY linethroughTextDecoration.label        "Зачертан">
+<!ENTITY blinkTextDecoration.label              "Мигащ">
+<!ENTITY noneTextDecoration.label               "Няма">
 
-<!ENTITY backgroundColor.label				"Цвят:">
-<!ENTITY backgroundImage.label              "Изображение:">
-<!ENTITY chooseFileButton.label             "Избери файл">
-<!ENTITY backgroundRepeat.label             "Настелване:">
-<!ENTITY norepeatBackgroundRepeat.label     "не настелвай">
-<!ENTITY repeatxBackgroundRepeat.label      "водоравно">
-<!ENTITY repeatyBackgroundRepeat.label      "отвесно">
-<!ENTITY repeatBackgroundRepeat.label       "водоравно и отвесно">
-<!ENTITY backgroundPosition.label           "Разположение:">
-<!ENTITY leftXBackgroundPosition.label      "В ляво">
-<!ENTITY centerXBackgroundPosition.label    "В средата">
-<!ENTITY rightXBackgroundPosition.label     "В дясно">
-<!ENTITY topYBackgroundPosition.label       "Горе">
-<!ENTITY centerYBackgroundPosition.label    "В средата">
-<!ENTITY bottomYBackgroundPosition.label    "Долу">
-<!ENTITY backgroundAttachmentCheckbox.label "Изображението се превърта със страницата">
-
-
-<!ENTITY useBorderShorthand.label           "All four sides use same border style">
-<!ENTITY borderStyle.label                  "Style:">
-<!ENTITY borderWidth.label                  "Width:">
-<!ENTITY borderColor.label                  "Color:">
-<!ENTITY topBorder.label                    "Top:">
-<!ENTITY leftBorder.label                   "Left:">
-<!ENTITY rightBorder.label                  "Right:">
-<!ENTITY bottomBorder.label                 "Bottom:">
-<!ENTITY borderPreview.label                "Preview">
-<!ENTITY noneBorderStyle.label              "none">
-<!ENTITY hiddenBorderStyle.label            "hidden">
-<!ENTITY solidBorderStyle.label             "solid">
-<!ENTITY dottedBorderStyle.label            "dotted">
-<!ENTITY dashedBorderStyle.label            "dashed">
-<!ENTITY doubleBorderStyle.label            "double">
-<!ENTITY grooveBorderStyle.label            "groove">
-<!ENTITY ridgeBorderStyle.label             "ridge">
-<!ENTITY insetBorderStyle.label             "inset">
-<!ENTITY outsetBorderStyle.label            "outset">
-
-<!ENTITY display.label                      "Display:">
-<!ENTITY noneDisplay.label                  "none">
-<!ENTITY inlineDisplay.label                "inline">
-<!ENTITY blockDisplay.label                 "block">
-<!ENTITY runinDisplay.label                 "run-in">
-<!ENTITY compactDisplay.label               "compact">
-<!ENTITY listitemDisplay.label              "list-item">
-<!ENTITY tableDisplay.label                 "table">
-<!ENTITY tablerowDisplay.label              "table-row">
-<!ENTITY tablecellDisplay.label             "table-cell">
-<!ENTITY tablecaptionDisplay.label          "table-caption">
-<!ENTITY inlinetableDisplay.label           "inline-table">
-<!ENTITY tablecolumnDisplay.label           "table-column">
-<!ENTITY tablerowgroupDisplay.label         "table-row-group">
-<!ENTITY tableheadergroupDisplay.label      "table-header-group">
-<!ENTITY tablefootergroupDisplay.label      "table-footer-group">
-<!ENTITY tablecolumngroupDisplay.label      "table-column-group">
-
-<!ENTITY visibility.label                   "Видимост:">
-<!ENTITY visibleVisibility.label            "видим">
-<!ENTITY hiddenVisibility.label             "невидим">
-<!ENTITY collapseVisibility.label           "collapse">
-
-<!ENTITY float.label                        "Float:">
-<!ENTITY leftFloat.label                    "left">
-<!ENTITY rightFloat.label                   "right">
-<!ENTITY noneFloat.label                    "none">
-
-<!ENTITY clear.label                        "Clear:">
-<!ENTITY noneClear.label                    "none">
-<!ENTITY leftClear.label                    "left">
-<!ENTITY rightClear.label                   "right">
-<!ENTITY bothClear.label                    "both">
+<!ENTITY backgroundColor.label                  "Цвят:">
+<!ENTITY backgroundImage.label                  "Изображение:">
+<!ENTITY chooseFileButton.label                 "Избери файл">
+<!ENTITY backgroundRepeat.label                 "Настелване:">
+<!ENTITY norepeatBackgroundRepeat.label         "не настелвай">
+<!ENTITY repeatxBackgroundRepeat.label          "водоравно">
+<!ENTITY repeatyBackgroundRepeat.label          "отвесно">
+<!ENTITY repeatBackgroundRepeat.label           "водоравно и отвесно">
+<!ENTITY backgroundPosition.label               "Разположение:">
+<!ENTITY leftXBackgroundPosition.label          "В ляво">
+<!ENTITY centerXBackgroundPosition.label        "В средата">
+<!ENTITY rightXBackgroundPosition.label         "В дясно">
+<!ENTITY topYBackgroundPosition.label           "Горе">
+<!ENTITY centerYBackgroundPosition.label        "В средата">
+<!ENTITY bottomYBackgroundPosition.label        "Долу">
+<!ENTITY backgroundAttachmentCheckbox.label     "Изображението се превърта със страницата">
 
 
-<!ENTITY position.label                     "Разположение:">
-<!ENTITY staticPosition.label               "static">
-<!ENTITY fixedPosition.label                "fixed">
-<!ENTITY absolutePosition.label             "absolute">
-<!ENTITY relativePosition.label             "relative">
+<!ENTITY useBorderShorthand.label               "И четирите страни ползват еднакво обрамчване">
+<!ENTITY borderStyle.label                      "Стил:">
+<!ENTITY borderWidth.label                      "Ширина:">
+<!ENTITY borderColor.label                      "Цвят:">
+<!ENTITY topBorder.label                        "Отгоре:">
+<!ENTITY leftBorder.label                       "Отляво:">
+<!ENTITY rightBorder.label                      "Отдясно:">
+<!ENTITY bottomBorder.label                     "Отдолу:">
+<!ENTITY borderPreview.label                    "Преглед">
+<!ENTITY noneBorderStyle.label                  "няма">
+<!ENTITY hiddenBorderStyle.label                "невидим">
+<!ENTITY solidBorderStyle.label                 "плътно">
+<!ENTITY dottedBorderStyle.label                "пунктирано">
+<!ENTITY dashedBorderStyle.label                "накъсано">
+<!ENTITY doubleBorderStyle.label                "двойно">
+<!ENTITY grooveBorderStyle.label                "улейно">
+<!ENTITY ridgeBorderStyle.label                 "ръбесто">
+<!ENTITY insetBorderStyle.label                 "вдадено">
+<!ENTITY outsetBorderStyle.label                "изпъкнало">
 
-<!ENTITY overflow.label                     "Overflow:">
-<!ENTITY visibleOverflow.label              "visible">
-<!ENTITY hiddenOverflow.label               "hidden">
-<!ENTITY scrollOverflow.label               "scroll">
-<!ENTITY autoOverflow.label                 "auto">
+<!ENTITY display.label                          "Изобразяване:">
+<!ENTITY noneDisplay.label                      "няма">
+<!ENTITY inlineDisplay.label                    "в редица">
+<!ENTITY blockDisplay.label                     "block">
+<!ENTITY runinDisplay.label                     "run-in">
+<!ENTITY compactDisplay.label                   "плътно">
+<!ENTITY listitemDisplay.label                  "списък-предмет">
+<!ENTITY tableDisplay.label                     "таблица">
+<!ENTITY tablerowDisplay.label                  "таблица-ред">
+<!ENTITY tablecellDisplay.label                 "таблица-клетка">
+<!ENTITY tablecaptionDisplay.label              "таблица-надписване">
+<!ENTITY inlinetableDisplay.label               "inline-table">
+<!ENTITY tablecolumnDisplay.label               "таблица-стълб">
+<!ENTITY tablerowgroupDisplay.label             "таблица-ред-група">
+<!ENTITY tableheadergroupDisplay.label          "таблица-заглавка-група">
+<!ENTITY tablefootergroupDisplay.label          "таблица-пета-група">
+<!ENTITY tablecolumngroupDisplay.label          "таблица-стълб-група">
 
-<!ENTITY zIndex.label                       "Z-index:">
+<!ENTITY visibility.label                       "Видимост:">
+<!ENTITY visibleVisibility.label                "видим">
+<!ENTITY hiddenVisibility.label                 "невидим">
+<!ENTITY collapseVisibility.label               "сгъване">
 
-<!ENTITY width.label                        "Ширина:">
-<!ENTITY minWidth.label                     "Min-width:">
-<!ENTITY maxWidth.label                     "Max-width:">
-<!ENTITY height.label                       "Височина:">
-<!ENTITY minHeight.label                    "Min-height:">
-<!ENTITY maxHeight.label                    "Max-height:">
+<!ENTITY float.label                            "Плаващ:">
+<!ENTITY leftFloat.label                        "left">
+<!ENTITY rightFloat.label                       "right">
+<!ENTITY noneFloat.label                        "няма">
 
-<!ENTITY margins.label                      "Полета:">
-<!ENTITY paddings.label                     "Уплътнявания:">
-<!ENTITY offsets.label                      "Отмествания:">
-<!ENTITY top.label                          "Горе:">
-<!ENTITY left.label                         "В ляво:">
-<!ENTITY right.label                        "В дясно:">
-<!ENTITY bottom.label                       "Долу:">
-
-<!ENTITY volume.label                       "Сила:">
-<!ENTITY xsoftVolume.label                  "много слабо">
-<!ENTITY softVolume.label                   "слабо">
-<!ENTITY mediumVolume.label                 "средно">
-<!ENTITY loudVolume.label                   "силно">
-<!ENTITY xloudVolume.label                  "много силно">
-<!ENTITY muteVolume.label                   "заглушено">
-
-<!ENTITY speak.label                        "Говор:">
-<!ENTITY noneSpeak.label                    "без">
-<!ENTITY normalSpeak.label                  "обикновен">
-<!ENTITY spelloutSpeak.label                "разбуквен">
-
-<!ENTITY speechRate.label                   "Скорост на говора:">
-<!ENTITY slowerSpeechRate.label             "по- бавно">
-<!ENTITY fasterSpeechRate.label             "по- бързо">
-<!ENTITY xslowSpeechRate.label              "много бавно">
-<!ENTITY slowSpeechRate.label               "бавно">
-<!ENTITY mediumSpeechRate.label             "средно">
-<!ENTITY fastSpeechRate.label               "бързо">
-<!ENTITY xfastSpeechRate.label              "много бързо">
-
-<!ENTITY opacity.label                      "Прозрачност:">
-
-<!ENTITY compatibilityTab.label             "Съвместимост">
-
-<!ENTITY transparentOpacity.label           "прозрачен">
-
-<!ENTITY pauseBefore.label                  "Pause before:">
-<!ENTITY cueBefore.label                    "Cue before:">
-<!ENTITY pauseAfter.label                   "Pause after:">
-<!ENTITY cueAfter.label                     "Cue After:">
+<!ENTITY clear.label                            "Изчистване:">
+<!ENTITY noneClear.label                        "няма">
+<!ENTITY leftClear.label                        "left">
+<!ENTITY rightClear.label                       "right">
+<!ENTITY bothClear.label                        "и двете">
 
 
-<!ENTITY listTab.label			"Списъци">
+<!ENTITY position.label                         "Разположение:">
+<!ENTITY staticPosition.label                   "неизменно">
+<!ENTITY fixedPosition.label                    "неизменно">
+<!ENTITY absolutePosition.label                 "независимо">
+<!ENTITY relativePosition.label                 "относително">
 
-<!ENTITY listStyleType.label		"List Style Type:">
-<!ENTITY noneListStyleType.label                        "няма">
-<!ENTITY discListStyleType.label                        "търкало">
-<!ENTITY circleListStyleType.label                      "кръг">
-<!ENTITY squareListStyleType.label                      "квадрат">
-<!ENTITY decimalListStyleType.label                     "decimal">
-<!ENTITY decimalLeadingZeroListStyleType.label        "decimal-leading-zero">
-<!ENTITY lowerRomanListStyleType.label                 "lower-roman">
-<!ENTITY upperRomanListStyleType.label                 "upper-roman">
-<!ENTITY lowerGreekListStyleType.label                 "lower-greek">
-<!ENTITY lowerAlphaListStyleType.label                 "lower-alpha">
-<!ENTITY upperAlphaListStyleType.label                 "upper-alpha">
-<!ENTITY armenianListStyleType.label                    "арменски">
-<!ENTITY georgianListStyleType.label                    "грузински">
+<!ENTITY overflow.label                         "Препълване:">
+<!ENTITY visibleOverflow.label                  "видим">
+<!ENTITY hiddenOverflow.label                   "невидим">
+<!ENTITY scrollOverflow.label                   "превъртане">
+<!ENTITY autoOverflow.label                     "авто">
+
+<!ENTITY zIndex.label                           "Z-index:">
+
+<!ENTITY width.label                            "Ширина:">
+<!ENTITY minWidth.label                         "Мин.ширина:">
+<!ENTITY maxWidth.label                         "Макс.ширина:">
+<!ENTITY height.label                           "Височина:">
+<!ENTITY minHeight.label                        "Мин.височина:">
+<!ENTITY maxHeight.label                        "Макс.височина:">
+
+<!ENTITY margins.label                          "Полета:">
+<!ENTITY paddings.label                         "Уплътнявания:">
+<!ENTITY offsets.label                          "Отмествания:">
+<!ENTITY top.label                              "Отгоре:">
+<!ENTITY left.label                             "Отляво:">
+<!ENTITY right.label                            "Отдясно:">
+<!ENTITY bottom.label                           "Отдолу:">
+
+<!ENTITY volume.label                           "Сила:">
+<!ENTITY xsoftVolume.label                      "много слабо">
+<!ENTITY softVolume.label                       "слабо">
+<!ENTITY mediumVolume.label                     "средно">
+<!ENTITY loudVolume.label                       "силно">
+<!ENTITY xloudVolume.label                      "много силно">
+<!ENTITY muteVolume.label                       "заглушено">
+
+<!ENTITY speak.label                            "Говор:">
+<!ENTITY noneSpeak.label                        "без">
+<!ENTITY normalSpeak.label                      "обикновен">
+<!ENTITY spelloutSpeak.label                    "разбуквен">
+
+<!ENTITY speechRate.label                       "Скорост на говора:">
+<!ENTITY slowerSpeechRate.label                 "по- бавно">
+<!ENTITY fasterSpeechRate.label                 "по- бързо">
+<!ENTITY xslowSpeechRate.label                  "много бавно">
+<!ENTITY slowSpeechRate.label                   "бавно">
+<!ENTITY mediumSpeechRate.label                 "средно">
+<!ENTITY fastSpeechRate.label                   "бързо">
+<!ENTITY xfastSpeechRate.label                  "много бързо">
+
+<!ENTITY opacity.label                          "Прозрачност:">
+
+<!ENTITY compatibilityTab.label                 "Съвместимост">
+
+<!ENTITY transparentOpacity.label               "прозрачен">
+
+<!ENTITY pauseBefore.label                      "Задържане преди:">
+<!ENTITY cueBefore.label                        "Разполагане преди:">
+<!ENTITY pauseAfter.label                       "Задържане след:">
+<!ENTITY cueAfter.label                         "Разполагане след:">
 
 
-<!ENTITY listStyleImage.label		"List Style Image:">
+<!ENTITY listTab.label                          "Списъци">
 
-<!ENTITY listStylePosition.label	"List Style Position:">
-<!ENTITY insideListStylePosition.label		"вътрешно">
-<!ENTITY outsideListStylePosition.label		"външно">
+<!ENTITY listStyleType.label                    "Вид на списъчния стил:">
+<!ENTITY noneListStyleType.label                "няма">
+<!ENTITY discListStyleType.label                "търкало">
+<!ENTITY circleListStyleType.label              "кръг">
+<!ENTITY squareListStyleType.label              "квадрат">
+<!ENTITY decimalListStyleType.label             "десетично">
+<!ENTITY decimalLeadingZeroListStyleType.label  "десетично-водеща-нула">
+<!ENTITY lowerRomanListStyleType.label          "редовни-латиница">
+<!ENTITY upperRomanListStyleType.label          "главни-латиница">
+<!ENTITY lowerGreekListStyleType.label          "редовни-гръцки">
+<!ENTITY lowerAlphaListStyleType.label          "редовни-алфа">
+<!ENTITY upperAlphaListStyleType.label          "главни-алфа">
+<!ENTITY armenianListStyleType.label            "арменски">
+<!ENTITY georgianListStyleType.label            "грузински">
+
+
+<!ENTITY listStyleImage.label                   "Изображение на списъчния стил:">
+<!ENTITY listStylePosition.label                "Положение на списъчния стил:">
+<!ENTITY insideListStylePosition.label          "вътрешно">
+<!ENTITY outsideListStylePosition.label         "външно">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extract and create generic style">
+<!ENTITY makeCSSRule.label                      "Извличане и създаване на родов стил">
 <!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Current styles for:">
-<!ENTITY renameButton.label                     "Edit selector">
-<!ENTITY autoMarginUnit.label                   "auto">
-<!ENTITY thinBorderUnit.label                   "thin">
+<!ENTITY currentstylesfor.label                 "Текущи стилове за:">
+<!ENTITY renameButton.label                     "Обработка на избирача">
+
+<!ENTITY autoMarginUnit.label                   "авто">
+<!ENTITY thinBorderUnit.label                   "тънък">
 <!ENTITY mediumBorderUnit.label                 "medium">
-<!ENTITY thickBorderUnit.label                  "thick">
+<!ENTITY thickBorderUnit.label                  "дебел">

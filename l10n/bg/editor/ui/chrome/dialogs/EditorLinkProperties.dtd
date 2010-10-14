@@ -35,49 +35,49 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY windowTitle.label "Link Properties">
-<!ENTITY LinkURLBox.label "Link Location">
-<!ENTITY XFNbox.label "Friendship">
+<!ENTITY windowTitle.label "Свойства на връзката">
+<!ENTITY LinkURLBox.label "Местоположение на връзката">
+<!ENTITY XFNbox.label "Приятелство">
 
-<!ENTITY me.label "The link location is another address of mine">
+<!ENTITY me.label "Местоположението на връзката е друг мой адрес">
 
-<!ENTITY friendship.label "Friendship">
-<!ENTITY acquaintance.label "acquaintance">
-<!ENTITY friend.label "friend">
-<!ENTITY contact.label "contact">
-<!ENTITY none.label "none">
+<!ENTITY friendship.label "Приятелство">
+<!ENTITY acquaintance.label "познанство">
+<!ENTITY friend.label "приятел">
+<!ENTITY contact.label "лице за връзка">
+<!ENTITY none.label "няма">
 
-<!ENTITY physical.label "Physical">
-<!ENTITY met.label "met">
+<!ENTITY physical.label "Физически">
+<!ENTITY met.label "срещан">
 
-<!ENTITY professional.label "Professional">
-<!ENTITY coWorker.label "co-worker">
-<!ENTITY colleague.label "colleague">
+<!ENTITY professional.label "Професионален">
+<!ENTITY coWorker.label "сътрудник">
+<!ENTITY colleague.label "колега">
 
-<!ENTITY geographical.label "Geographical">
-<!ENTITY coResident.label "co-resident">
-<!ENTITY neighbor.label "neighbor">
+<!ENTITY geographical.label "Географско">
+<!ENTITY coResident.label "съквартирант">
+<!ENTITY neighbor.label "съсед">
 
-<!ENTITY family.label "Family">
-<!ENTITY child.label "child">
-<!ENTITY parent.label "parent">
-<!ENTITY sibling.label "sibling">
-<!ENTITY spouse.label "spouse">
-<!ENTITY kin.label "kin">
+<!ENTITY family.label "Семейство">
+<!ENTITY child.label "дете">
+<!ENTITY parent.label "родител">
+<!ENTITY sibling.label "природ">
+<!ENTITY spouse.label "съпруг(а)">
+<!ENTITY kin.label "роднина">
 
-<!ENTITY romantic.label "Romantic">
-<!ENTITY muse.label "muse">
-<!ENTITY crush.label "crush">
-<!ENTITY date.label "date">
-<!ENTITY sweetheart.label "sweetheart">
+<!ENTITY romantic.label "Романтично">
+<!ENTITY muse.label "муза">
+<!ENTITY crush.label "либе">
+<!ENTITY date.label "среща">
+<!ENTITY sweetheart.label "възлюбен(а)">
 
-<!ENTITY targetBox.label "Target">
-<!ENTITY userDefinedTarget.label "Link is to be opened">
-<!ENTITY topRadio.label "in same window, without framesets">
-<!ENTITY blankRadio.label "in a new window">
-<!ENTITY parentRadio.label "in the parent frameset">
-<!ENTITY selfRadio.label "in the current frame">
-<!ENTITY userDefinedRadio.label "in this frame:">
+<!ENTITY targetBox.label "Връзката ще бъде отворена в">
+<!ENTITY userDefinedTarget.label "Отваряне на връзка">
+<!ENTITY topRadio.label "в текущия прозорец, без рамки">
+<!ENTITY blankRadio.label "в нов прозорец">
+<!ENTITY parentRadio.label "в родителската рамка">
+<!ENTITY selfRadio.label "в текущата рамка">
+<!ENTITY userDefinedRadio.label "в следната рамка:">
 
-<!ENTITY technoratiTag.label "Technorati tags">
-<!ENTITY technoratiTagCheckbox.label "This is a Technorati tag">
+<!ENTITY technoratiTag.label "Означители Technorati">
+<!ENTITY technoratiTagCheckbox.label "Това е означител Technorati">

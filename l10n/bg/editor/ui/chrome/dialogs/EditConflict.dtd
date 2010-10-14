@@ -21,8 +21,8 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Select Edit Changes">
+<!ENTITY windowTitle.label "Избор на промените">
 <!ENTITY conflictWarning.label "This page has been modified by another program, but you also have unsaved changes in KompoZer.">
-<!ENTITY conflictResolve.label "Select which version to keep:">
-<!ENTITY keepCurrentPageButton.label "Keep current page changes">
-<!ENTITY useOtherPageButton.label "Replace current page with other changes">
+<!ENTITY conflictResolve.label "Изберете версията, която да съхраните:">
+<!ENTITY keepCurrentPageButton.label "Запазване на текущите промени на страницата">
+<!ENTITY useOtherPageButton.label "Замяна на текущата страница с другите промени">

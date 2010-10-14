@@ -22,18 +22,18 @@
 
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "List Properties">
+<!ENTITY windowTitle.label "Свойства на списъка">
 
-<!ENTITY ListType.label "List Type">
-<!ENTITY bulletStyle.label "Bullet Style:">
-<!ENTITY startingNumber.label "Start at:">
+<!ENTITY ListType.label "Вид списък">
+<!ENTITY bulletStyle.label "Вид водачи:">
+<!ENTITY startingNumber.label "Започване от:">
 <!ENTITY startingNumber.accessKey "S">
-<!ENTITY none.value "None">
-<!ENTITY bulletList.value "Bullet (Unnumbered) List">
-<!ENTITY numberList.value "Numbered List">
-<!ENTITY definitionList.value "Definition List">
-<!ENTITY changeListMsg.label "When changing list type:">
-<!ENTITY changeEntireListRadio.label "Change entire list">
+<!ENTITY none.value "Няма">
+<!ENTITY bulletList.value "Списък с водачи (неномериран)">
+<!ENTITY numberList.value "Номериран списък">
+<!ENTITY definitionList.value "Списък с определения">
+<!ENTITY changeListMsg.label "При промяна вида на списъка:">
+<!ENTITY changeEntireListRadio.label "Промяна на целия списък">
 <!ENTITY changeEntireListRadio.accessKey "C">
-<!ENTITY changeSelectedRadio.label "Change just selected items">
+<!ENTITY changeSelectedRadio.label "Промяна само на избраните предмети">
 <!ENTITY changeSelectedRadio.accessKey "I">

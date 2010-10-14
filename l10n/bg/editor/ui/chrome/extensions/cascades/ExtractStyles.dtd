@@ -35,15 +35,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title             "Create generic style">
+<!ENTITY window.title             "Създаване на родов стил">
 
-<!ENTITY description.label        "Extract the CSS inline styles attached to this element and create a CSS style rule applied to">
-<!ENTITY thisElementOnly.label    "this element only">
-<!ENTITY allElements.label        "all elements">
+<!ENTITY description.label        "Извличане на вмъкнати CSS стилове, прикачени към тази част и създаване на правило за CSS, приложено към">
+<!ENTITY thisElementOnly.label    "само към тази част">
+<!ENTITY allElements.label        "всички части">
 
-<!ENTITY ofClass.label            "of class:">
-<!ENTITY ofType.label             "of same element type">
-<!ENTITY whenHovered.label        "hovered by the pointer">
-<!ENTITY autoChoice.label         "Choose for me!">
-<!ENTITY alreadyUsedWarning.label "Warning, this name is already used!!!">
-<!ENTITY nameNeededWarning.label  "You must give a name to this element">
+<!ENTITY ofClass.label            "от клас:">
+<!ENTITY ofType.label             "същия вид части">
+<!ENTITY whenHovered.label        "посочени от показалеца">
+<!ENTITY autoChoice.label         "Избери за мен!">
+<!ENTITY alreadyUsedWarning.label "Внимание, името вече се използва!!!">
+<!ENTITY nameNeededWarning.label  "Трябва да зададете име за частта">

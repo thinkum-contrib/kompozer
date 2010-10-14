@@ -1,47 +1,85 @@
-<!ENTITY printCmd.commandkey "p">
+<!ENTITY printCmd.commandkey             "p">
 
-<!ENTITY findOnCmd.commandkey "F">
-<!ENTITY findAgainCmd.commandkey "G">
-<!ENTITY findAgainCmd.commandkey2 "VK_F3">
+<!ENTITY viewCustomizeToolbar.label      "Нагласяване…">
+<!ENTITY viewCustomizeToolbar.accesskey  "Н">
 
-<!ENTITY backButton.label "Назад">
-<!ENTITY backButton.accesskey "з">
-<!ENTITY backButton.tooltip "Връщане назад с една страница">
-<!ENTITY forwardButton.label "Напред">
-<!ENTITY forwardButton.accesskey "п">
-<!ENTITY forwardButton.tooltip "Отиване напред с една страница">
-<!ENTITY copyCmd.label "Copy">
-<!ENTITY copyCmd.accesskey "C">
-<!ENTITY selectAllCmd.label "Select All">
-<!ENTITY selectAllCmd.accesskey "A">
-<!ENTITY goBackCmd.commandkey "[">
-<!ENTITY goForwardCmd.commandkey "]">
-<!ENTITY homeButton.label "Начало">
-<!ENTITY homeButton.tooltip "Отиване в началната страница на помощта">
-<!ENTITY printButton.label "Печат">
-<!ENTITY printButton.tooltip "Отпечатване на тази страница">
-<!ENTITY closeWindow.commandkey "W">
+<!ENTITY findOnCmd.commandkey            "Т">
+<!ENTITY findAgainCmd.commandkey         "G">
+<!ENTITY findAgainCmd.commandkey2        "VK_F3">
+<!ENTITY findDialog.title                "Търсене в тази страница">
+<!ENTITY findDialogFrame.title           "Търсене в тази рамка">
+<!ENTITY findField.label                 "Търсене на:">
+<!ENTITY findField.accesskey             "Т">
+<!ENTITY caseSensitiveCheckbox.label     "Отчитане на глАВноСтТа">
+<!ENTITY caseSensitiveCheckbox.accesskey "О">
+<!ENTITY wrapCheckbox.label              "Пренасяне">
+<!ENTITY wrapCheckbox.accesskey          "П">
+<!ENTITY backwardsCheckbox.label         "Търсене назад">
+<!ENTITY backwardsCheckbox.accesskey     "Т">
+<!ENTITY findField.tooltip               "Напишете една или повече думи за търсене">
+<!ENTITY findButton.label                "Търсене на следващо">
+<!ENTITY findButton.accesskey            "Т">
+<!ENTITY cancelButton.label              "Отказ">
+<!ENTITY up.label                        "Нагоре">
+<!ENTITY up.accesskey                    "Н">
+<!ENTITY down.label                      "Надолу">
+<!ENTITY down.accesskey                  "Н">
+<!ENTITY direction.label                 "Посока">
 
-<!ENTITY throbberItem.title "Индикатор на активността">
-<!ENTITY throbber.tooltip "Отиване в помощта на секцията Помощ">
+<!ENTITY find.label                      "Търсене:">
+<!ENTITY findNext.label                  "Търсене на следващо">
+<!ENTITY findNext.tooltip                "Търсене на следващо съвпадение на низа">
+<!ENTITY findPrevious.label              "Търсене на предходно">
+<!ENTITY findPrevious.tooltip            "Търсене на предишно съвпадение на низа">
+<!ENTITY findCloseButton.tooltip         "Затваряне на лентата">
+<!ENTITY highlight.label                 "Изтъкване">
+<!ENTITY highlight.tooltip               "Изтъкване на всички появи на израза (Ctrl+Enter)">
 
-<!ENTITY searchtab.label "Търсене">
-<!ENTITY searchtab.accesskey "Т">
-<!ENTITY toctab.label "Съдържание">
-<!ENTITY toctab.accesskey "С">
+<!ENTITY backButton.label                "Назад">
+<!ENTITY backButton.accesskey            "з">
+<!ENTITY backButton.tooltip              "Връщане назад с една страница">
+<!ENTITY forwardButton.label             "Напред">
+<!ENTITY forwardButton.accesskey         "п">
+<!ENTITY forwardButton.tooltip           "Отиване напред с една страница">
+<!ENTITY homeButton.label                "Начало">
+<!ENTITY homeButton.tooltip              "Отиване в началната страница на помощта">
+<!ENTITY printButton.label               "Печат">
+<!ENTITY printButton.tooltip             "Отпечатване на тази страница">
+<!ENTITY findBtn.label                   "Търсене">
+<!ENTITY sidebarBtn.label                "Превключване на страничната лента">
+<!ENTITY sidebarBtn.tooltip              "Скриване или показване на страничната лента за помощ">
+<!ENTITY textZoomReduceBtn.label         "Намаляване на големината на текста">
+<!ENTITY textZoomReduceBtn.accesskey     "м">
+<!ENTITY textZoomReduceBtn.tooltip       "Намаляване размера на шрифта в помощните книжа.">
+<!ENTITY textZoomEnlargeBtn.label        "Увеличаване на големината на текста">
+<!ENTITY textZoomEnlargeBtn.accesskey    "У">
+<!ENTITY textZoomEnlargeBtn.tooltip      "Увеличаване големината на текста в помощните книжа.">
+<!ENTITY customizeButton.tooltip         "Избор на бутони за лентата на помощта.">
+<!ENTITY reloadCmd.label                 "Презареждане">
+<!ENTITY reloadCmd.accesskey             "П">
+<!ENTITY closeWindow.commandkey          "W">
+<!ENTITY copyCmd.label                   "Запомняне">
+<!ENTITY copyCmd.accesskey               "З">
 
-<!ENTITY textZoomReduceCmd.commandkey "-">
-<!ENTITY textZoomEnlargeCmd.commandkey "+">
-<!-- + is above this key on many keyboards -->
-<!ENTITY textZoomEnlargeCmd.commandkey2 "=">
-<!ENTITY textZoomResetCmd.commandkey "0">
+<!ENTITY throbberItem.title              "Указател на дейността">
 
-<!ENTITY helpSearch.commandkey "k">
+<!ENTITY cmd_CustomizeToolbars.label     "Нагласяване" >
 
-<!ENTITY zLevel.label "Винаги най-отгоре">
-<!ENTITY zLevel.accesskey "г">
+<!ENTITY searchtab.label                 "Търсене">
+<!ENTITY searchtab.accesskey             "Т">
+<!ENTITY searchbtn.label                 "Търсене">
+<!ENTITY toctab.label                    "Съдържание">
+<!ENTITY toctab.accesskey                "С">
+<!ENTITY indextab.label                  "Указател">
+<!ENTITY indextab.accesskey              "У">
+<!ENTITY ixname.label                    "Име">
+<!ENTITY glossarytab.label               "Речник с понятия">
+<!ENTITY glossarytab.accesskey           "Р">
+<!ENTITY glossname.label                 "Име">
+<!ENTITY gobtn.label                     "Търсене">
+<!ENTITY name.label                      "Предмет">
 
-<!ENTITY textZoomReduceBtn.label "Намаляване на големината на текста">
-<!ENTITY textZoomReduceBtn.accesskey "м">
-<!ENTITY textZoomEnlargeBtn.label "Увеличаване на големината на текста">
-<!ENTITY textZoomEnlargeBtn.accesskey "У">
+<!ENTITY textZoomReduceCmd.commandkey    "-">
+<!ENTITY textZoomEnlargeCmd.commandkey   "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2  "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey     "0">

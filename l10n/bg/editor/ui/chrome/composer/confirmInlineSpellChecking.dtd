@@ -35,6 +35,6 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title                     "Please confirm">
-<!ENTITY confirmInlineSpellChecking.label "Inline Spell Checking is enabled, and your document will now be entirely spell-checked before leaving Source view. This can impact performance, depending on the length and complexity of your document. Do you want to proceed and spellcheck, or disable the Spell Checker?">
-<!ENTITY exitWarningCheckbox.label        "Don't show this dialog again">
+<!ENTITY window.title                     "Потвърдете">
+<!ENTITY confirmInlineSpellChecking.label "Поредовата проверка на правописа е включена и документът ви ще бъде проверен изцяло, преди да излезете от изглед „Изходен код“. Това може да навреди на производителността, в зависимост от дължината и сложността на документа. Искате ли да продължите с проверката на правописа или предпочитате да я изключите?">
+<!ENTITY exitWarningCheckbox.label        "Съобщението да не се показва повече">

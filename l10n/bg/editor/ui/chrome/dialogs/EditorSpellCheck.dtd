@@ -21,36 +21,36 @@
   -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Check Spelling">
+<!ENTITY windowTitle.label "Провери правописа">
 
-<!ENTITY misspelledWord.label "Misspelled word:">
-<!ENTITY wordEditField.label "Replace with:">
+<!ENTITY misspelledWord.label "Объркана дума:">
+<!ENTITY wordEditField.label "Замени с:">
 <!ENTITY wordEditField.accessKey "w">
-<!ENTITY checkwordButton.label "Check Word">
+<!ENTITY checkwordButton.label "Проверка на думата">
 <!ENTITY checkwordButton.accessKey "k">
-<!ENTITY suggestions.label "Suggestions:">
+<!ENTITY suggestions.label "Предложения:">
 <!ENTITY suggestions.accessKey "u">
-<!ENTITY ignoreButton.label "Ignore">
+<!ENTITY ignoreButton.label "Пренебрегване">
 <!ENTITY ignoreButton.accessKey "I">
-<!ENTITY ignoreAllButton.label "Ignore All">
+<!ENTITY ignoreAllButton.label "Пренебрегване на вси&чки появи">
 <!ENTITY ignoreAllButton.accessKey "n">
-<!ENTITY replaceButton.label "Replace">
+<!ENTITY replaceButton.label "Замени">
 <!ENTITY replaceButton.accessKey "R">
-<!ENTITY replaceAllButton.label "Replace All">
+<!ENTITY replaceAllButton.label "Замени всички">
 <!ENTITY replaceAllButton.accessKey "A">
-<!ENTITY stopButton.label "Stop">
+<!ENTITY stopButton.label "Спиране">
 <!ENTITY stopButton.accessKey "t">
-<!ENTITY userDictionary.label "Personal Dictionary:">
-<!ENTITY moreDictionaries.label "Download More">
-<!ENTITY addToUserDictionaryButton.label "Add Word">
+<!ENTITY userDictionary.label "Личен речник:">
+<!ENTITY moreDictionaries.label "Сваляне на още">
+<!ENTITY addToUserDictionaryButton.label "Добавяне на дума">
 <!ENTITY addToUserDictionaryButton.accessKey "d">
-<!ENTITY editUserDictionaryButton.label "Edit…">
+<!ENTITY editUserDictionaryButton.label "Обработка…">
 <!ENTITY editUserDictionaryButton.accessKey "E">
-<!ENTITY recheckButton.label "Recheck Page">
+<!ENTITY recheckButton.label "Повторна проверка">
 <!ENTITY recheckButton.accessKey "P">
-<!ENTITY closeButton.label "Close">
+<!ENTITY closeButton.label "Затваряне">
 <!ENTITY closeButton.accessKey "C">
-<!ENTITY sendButton.label "Send">
+<!ENTITY sendButton.label "Изпрати">
 <!ENTITY sendButton.accessKey "S">
-<!ENTITY languagePopup.label "Language:">
+<!ENTITY languagePopup.label "Език:">
 <!ENTITY languagePopup.accessKey "L">

@@ -1,6 +1,6 @@
 <!--LOCALIZATION NOTE printPreviewProgress.dtd Main UI for Print Preview Progress Dialog -->
-<!ENTITY printWindow.title "Преглед за отпечатване">
-<!ENTITY title "Заглавие:">
-<!ENTITY spaces "            ">
+<!ENTITY printWindow.title "Преглед за отпечатване"> 
+<!ENTITY title   "Заглавие:"> 
+<!ENTITY spaces    "            ">
 <!ENTITY preparing "Подготвяне…">
 <!ENTITY progress "Напредък:">
