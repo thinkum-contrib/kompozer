@@ -44,18 +44,18 @@
 <!ENTITY filterMedia.label        "Mediabestanden">
 <!ENTITY filterScripts.label      "Tekstbestanden">
 
-<!ENTITY treeViewCheckbox.label   "Boomweergave">
+<!ENTITY treeViewCheckbox.label   "Boomstructuur">
 
 <!ENTITY filenameColumn.label     "Naam">
 <!ENTITY sizeColumn.label         "Grootte">
 <!ENTITY lastModifiedColumn.label "Laatst gewijzigd">
 
 <!ENTITY deleteFile.label         "Bestand verwijderen">
-<!ENTITY deletefile.accesskey     "d">
+<!ENTITY deletefile.accesskey     "B">
 <!ENTITY createDir.label          "Nieuwe submap">
 <!ENTITY createdir.accesskey      "N">
 <!ENTITY removeDir.label          "Map verwijderen">
-<!ENTITY removedir.accesskey      "r">
+<!ENTITY removedir.accesskey      "M">
 
 <!ENTITY reloadButton.tooltip     "Vernieuwen">
 <!ENTITY createDirButton.tooltip  "Nieuwe map">
@@ -78,6 +78,6 @@
 <!ENTITY openRemote.label         "Map op andere computer openen">
 <!ENTITY insertImage.label        "Afbeelding invoegen">
 <!ENTITY previewItem.label        "Voorbeeld">
-<!ENTITY uploadItem.label         "Uploaden…">
+<!ENTITY uploadItem.label         "Publiceren…">
 <!ENTITY downloadItem.label       "Herstellen…">
 <!ENTITY itemProperties.label     "Eigenschappen…">

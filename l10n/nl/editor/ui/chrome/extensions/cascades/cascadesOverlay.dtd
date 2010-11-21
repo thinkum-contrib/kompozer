@@ -38,7 +38,7 @@
 
 
 <!-- Window title -->
-<!ENTITY cascadesMenuItem.label         "CSS bewerken">
+<!ENTITY cascadesMenuItem.label         "CSS-editor">
 <!ENTITY cascadesMenuItem.accesskey     "C">
 <!ENTITY cascadesMenuItem.keybinding    "VK_F11">
 
@@ -46,17 +46,17 @@
 <!ENTITY classSelectMenu.label          "Klassen">
 <!ENTITY idSelectMenu.label             "ID">
 <!ENTITY inlineStyles.label             "Inline stijlen">
-<!ENTITY inlinestyles.accesskey         "i">
+<!ENTITY inlinestyles.accesskey         "I">
 
 <!ENTITY textProperties.label           "Teksteigenschappen">
-<!ENTITY textproperties.accesskey       "t">
+<!ENTITY textproperties.accesskey       "T">
 <!ENTITY borderProperties.label         "Randeigenschappen">
-<!ENTITY borderproperties.accesskey     "r">
+<!ENTITY borderproperties.accesskey     "R">
 <!ENTITY backgroundProperties.label     "Achtergrondeigenschappen">
-<!ENTITY backgroundproperties.accesskey "g">
-<!ENTITY boxProperties.label            "Blokeigenschappen">
-<!ENTITY boxproperties.accesskey        "b">
-<!ENTITY auralProperties.label          "Spraakeigenschappen">
-<!ENTITY auralproperties.accesskey      "a">
-<!ENTITY makeCSSRule.label              "Generieke stijl extraheren en aanmaken">
-<!ENTITY makecssrule.accesskey          "e">
+<!ENTITY backgroundproperties.accesskey "h">
+<!ENTITY boxProperties.label            "Veldeigenschappen">
+<!ENTITY boxproperties.accesskey        "V">
+<!ENTITY auralProperties.label          "Auditieve eigenschappen">
+<!ENTITY auralproperties.accesskey      "A">
+<!ENTITY makeCSSRule.label              "Extraheren en generieke stijl aanmaken">
+<!ENTITY makecssrule.accesskey          "E">

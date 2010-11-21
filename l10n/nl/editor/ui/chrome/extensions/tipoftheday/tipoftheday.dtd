@@ -38,7 +38,7 @@
 
 <!ENTITY tipOfTheDayWindow.title    "Tip van de dag">
 <!ENTITY questionBeginning.label    "Wist u dat…">
-<!ENTITY startupCheckbox.label      "Tips tijdens opstarten tonen">
-<!ENTITY nextTipButton.label        "Volgende tip">
-<!ENTITY previousTipButton.label    "Vorige tip">
+<!ENTITY startupCheckbox.label      "Tips tonen bij het opstarten">
+<!ENTITY nextTipButton.label        "Volgende">
+<!ENTITY previousTipButton.label    "Vorige">
 <!ENTITY closeTipButton.label       "Sluiten">

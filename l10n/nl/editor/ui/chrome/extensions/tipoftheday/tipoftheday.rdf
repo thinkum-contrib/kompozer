@@ -13,15 +13,15 @@
    - for the specific language governing rights and limitations under the
    - License.
    -
-   - The Original Code is KompoZer.
+   - The Original Code is Nvu.
    -
-   - The Initial Developer of the Original Code is
-   - Lindows Inc.
+   - The Initial Developer of the Original Code is Linspire Inc.
    - Portions created by the Initial Developer are Copyright (C) 2004
    - the Initial Developer. All Rights Reserved.
    -
    - Contributor(s):
    -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
    -
    - Alternatively, the contents of this file may be used under the terms of
    - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -38,96 +38,110 @@
    - ***** END LICENSE BLOCK ***** -->
 
 <!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
-                     "http://my.netscape.com/publish/formats/rss-0.91.dtd">
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
+]>
 <rss version="0.91">
   <channel>
-    <title>KompoZer tips</title>
-    <link>http://kompozer.net/</link>
-    <description>KompoZer tip van de dag archief</description>
+    <title>&brandShortName;-tips</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>&brandShortName;-tip-van-de-dag-archief</description>
     <language>nl-NL</language>
-
+  
     <item>
-      <title>…u elementen kan verplaatsen?</title>
-      <description>Plaats de aanwijzer in het blok dat u wilt verplaatsen en klik een maal op de knop Laag om het blok verplaatsbaar te maken.</description>
+      <title>…u elementen kunt verplaatsen?</title>
+      <description>Plaats de aanwijzer in het blok dat u wilt verplaatsen en klik
+                   eenmaal op de knop Laag om het blok verplaatsbaar te maken.
+      </description>
     </item>
-
+  
     <item>
       <title>…u de werkbalken kunt aanpassen?</title>
-      <description>Gebruik het menu "Beeld > Tonen/Verbergen > Werkbalk aanpassen" om het aanpassingsvenster voor de werkbalk te openen. Gebruik vervolgens slepen en loslaten om knoppen en ruimtes/scheidingstekens toe te voegen, te verplaatsen of te verwijderen.</description>
+      <description>Gebruik het menu “Beeld > Tonen/Verbergen > Werkbalk aanpassen” om het
+                   werkbalkaanpassingenpaneel te openen. Gebruik vervolgens slepen om knoppen
+                   en ruimtes / scheidingstekens toe te voegen, te verplaatsen of te verwijderen.
+      </description>
+    </item>
+  
+    <item>
+      <title>…&brandShortName; een CSS-editor bevat?</title>
+      <description>In &brandShortName; is de CaScadeS CSS-editor opgenomen. Open deze via het
+                   menu Extra > CSS-editor.</description>
+    </item>
+  
+    <item>
+      <title>…&brandShortName; een websitebeheerder bevat?</title>
+      <description>Gebruik de toets F9 of het menu “Beeld > Tonen/Verbergen > Websitebeheerder” om
+                   de websitebeheerder te tonen of te verbergen.</description>
     </item>
 
     <item>
-      <title>…u een nieuwe werkbalk kunt aanmaken?</title>
-      <description>Gebruik het menu "Beeld > Tonen/Verbergen > Werkbalk aanpassen > Opmaakwerkbalk " om het aanpassingsvenster voor de werkbalk te openen. Klik vervolgens op de knop "Nieuwe werkbalk toevoegen". Lege werkbalken verdwijnen automatisch wanneer het aanpassingspaneel voor de werkbalk gesloten wordt.</description>
+      <title>…u CSS-stijlen op alle elementen kunt toepassen?</title>
+      <description>Plaats de aanwijzer in het element waarop u de stijl wilt toepassen en klik
+                   met de rechtermuisknop op de tag van het element in de structuurwerkbalk
+                   aan de onderkant van het hoofdvenster van &brandShortName;. Via het menu-item
+                   “Inline stijlen” kunt u direct stijlen op het element toepassen.
+      </description>
     </item>
 
     <item>
-      <title>…KompoZer een CSS bewerker heeft?</title>
-      <description>KompoZer integreert de CaScadeS CSS bewerker. Open het via het menu Extra > CSS bewerken.</description>
+      <title>…u de schrijfrichting kunt bepalen?</title>
+      <description>Pas uw werkbalken aan en voeg de twee knoppen voor het aanpassen van
+                   de schrijfrichting toe.</description>
     </item>
 
     <item>
-      <title>…KompoZer een sitebeheerder heeft?</title>
-      <description>Gebruik de toets F9 of het menu "Beeld > Tonen/Verbergen > Sitebeheerder" om de Sitebeheerder te tonen of te verbergen.</description>
-    </item>
-
-    <item>
-      <title>…u CSS stijlen op elk element kan toepassen?</title>
-      <description>Plaats de aanwijzer in het element waarop u stijl wilt toepassen en klik met de rechtermuisknop op de tag van het gewenste element in de statusbalk aan de onderkant
-                   van het hoofdvenster van KompoZer. De "Inline stijlen" en de items in het menu ervan laten u direct stijl toepassen op het element.</description>
-    </item>
-
-    <item>
-      <title>…u de schrijfrichting kunt beheren?</title>
-      <description>Pas uw werkbalken aan en voeg knoppen voor het aanpassen van de schrijfrichting toe.</description>
-    </item>
-
-   <item>
       <title>…u tabellen met de muis kunt vergroten/verkleinen?</title>
-      <description>Laat simpelweg de linealen zien door Beeld > Tonen/Verbergen> Linealen aan te vinken
-      en de aanwijzer in ene cel te plaatsen totdat de balken verschijnen.
+      <description>Maak eenvoudig de linialen zichtbaar via Beeld > Tonen/Verbergen> Linialen
+                   en plaats de aanwijzer in een cel, waardoor vergrotingsbalken verschijnen.
       </description>
     </item>
 
     <item>
       <title>…u een werkbalk makkelijk kunt aanpassen?</title>
-      <description>Klik simpelweg met de rechtermuisknop erop…</description>
+      <description>Klik er eenvoudig op met de rechtermuisknop…</description>
     </item>
 
     <item>
-      <title>…u direct toegang hebt tot de KompoZer-gemeenschap?</title>
-      <description>Selecteer simpelweg het Help > Fora menuitem.</description>
+      <title>…u directe toegang hebt tot de &brandShortName;-gemeenschap?</title>
+      <description>Selecteer eenvoudig het menu-item Help > Fora.</description>
     </item>
 
     <item>
-      <title>…KompoZer automatisch een document kan laten openen bij het opstarten?</title>
-      <description>Gebruik de extra opstartoptie: nvu _jouw_locatie_</description>
+      <title>…&brandShortName; automatisch een document kan openen bij het opstarten?</title>
+      <description>Gebruik de opdrachtregel:      kompozer _uw_url_</description>
     </item>
 
     <item>
-      <title>…u meer dan een website tegelijkertijd kunt bewerken?</title>
-      <description>De sitebeheerder kan de inhoud van meerdere websites tegelijkertijd tonen en openen.</description>
+      <title>…u meer dan één website tegelijkertijd kunt bewerken?</title>
+      <description>De websitebeheerder kan de inhoud van meerdere websites tegelijkertijd
+                   tonen en openen.</description>
     </item>
 
     <item>
-      <title>…KompoZer voor meerdere platformen beschikbaar is?</title>
-      <description>KompoZer bestaat voor een groot aantal besturingssytemen, inclusief
-                   Windows, Mac OS X, veel Linux distributies, OS/2, …</description>
+      <title>…&brandShortName; voor meerdere platformen beschikbaar is?</title>
+      <description>&brandShortName; bestaat voor een groot aantal besturingssytemen, waaronder
+                   Windows, Mac OS X, veel Linux-distributies, OS/2, …</description>
     </item>
 
     <item>
-      <title>…u een nieuw tabblad kunt aanmaken met een toetscombinatie?</title>
-      <description>Control+T (Command+t op Mac OS X) zal een nieuw leeg tabblad aanmaken</description>
+      <title>…u een nieuw tabblad kunt aanmaken met een toetsencombinatie?</title>
+      <description>Control+t (command+t op Mac OS X) zal een nieuw leeg tabblad aanmaken.</description>
     </item>
 
     <item>
-      <title>…u de rand om een enkele tabelcel kunt veranderen?</title>
-      <description>Plaats de cursor in de cel, klik met de rechtermuisknop op de cel in de statusbalk en select Inline stijlen &gt; Randeigenschappen</description>
+      <title>…u een nieuw venster kunt aanmaken met een toetsencombinatie?</title>
+      <description>Control+shift+t (command+shift+t op Mac OS X) zal een nieuw leeg venster aanmaken.</description>
     </item>
 
     <item>
-      <title>…u een tabblad kunt sluiten met 1 enkele klik?</title>
-      <description>Klik simpelweg met de middelste muisknop op het tabblad</description>
+      <title>…u de rand om een enkele tabelcel kunt wijzigen?</title>
+      <description>Plaats de cursor in de cel, klik met de rechtermuisknop op de cel in de statusbalk en selecteer Inline stijlen &gt; tabblad Randeigenschappen.</description>
+    </item>
+
+    <item>
+      <title>…u een tabblad met één klik kunt sluiten?</title>
+      <description>Klik eenvoudig met de middelste muisknop op het tabblad.</description>
     </item>
 
     <item>

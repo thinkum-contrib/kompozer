@@ -35,15 +35,15 @@
    -
    - ***** END LICENSE BLOCK ***** -->
 
-<!ENTITY window.title             "Generieke stijl creëren">
+<!ENTITY window.title             "Generieke stijl aanmaken">
 
-<!ENTITY description.label        "Extraheer de aan dit document gehechtte inline CSS stijlen en creëer een CSS stijlregel om toe te pasen op">
+<!ENTITY description.label        "De met dit element verbonden inline CSS-stijlen extraheren en een CSS-stijlregel aanmaken die wordt toegepast op">
 <!ENTITY thisElementOnly.label    "enkel dit element">
 <!ENTITY allElements.label        "alle elementen">
 
 <!ENTITY ofClass.label            "van klasse:">
-<!ENTITY ofType.label             "van hetzelfde soort element">
+<!ENTITY ofType.label             "van hetzelfde elementtype">
 <!ENTITY whenHovered.label        "onder de aanwijzer">
 <!ENTITY autoChoice.label         "Kies voor mij!">
-<!ENTITY alreadyUsedWarning.label "Waarschuwing, deze naam is reeds gebruikt!!!">
+<!ENTITY alreadyUsedWarning.label "Waarschuwing, deze naam wordt al gebruikt!!!">
 <!ENTITY nameNeededWarning.label  "U moet een naam aan dit element geven">

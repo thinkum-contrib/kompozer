@@ -36,15 +36,15 @@
    - ***** END LICENSE BLOCK ***** -->
 
 
-<!ENTITY Window.title                           "CSS Stijlbladen">
+<!ENTITY Window.title                           "CSS-stijlbladen">
 
 <!ENTITY sheetsTreeColumn.label                 "Bladen en regels">
 <!ENTITY expertModeChecbox.label                "Geavanceerde modus">
 <!ENTITY importRuleButton.label                 "@import">
 <!ENTITY mediaRuleButton.label                  "@media">
-<!ENTITY linkedSheetButton.label                "Link elt.">
-<!ENTITY styleSheetButton.label                 "Stijl elt.">
-<!ENTITY ruleButton.label                       "Regel">
+<!ENTITY linkedSheetButton.label                "Gekoppeld stijlblad">
+<!ENTITY styleSheetButton.label                 "Intern stijlblad">
+<!ENTITY ruleButton.label                       "Stijlregel">
 <!ENTITY upButton.label                         "Omhoog">
 <!ENTITY downButton.label                       "Omlaag">
 <!ENTITY refreshButton.label                    "Vernieuwen">
@@ -53,13 +53,13 @@
 <!ENTITY textTab.label                          "Tekst">
 <!ENTITY borderTab.label                        "Randen">
 <!ENTITY marginsTab.label                       "Marges">
-<!ENTITY boxTab.label                           "Blok">
-<!ENTITY auralTab.label                         "Spraak">
-<!ENTITY fontFamily.label                       "Lettertype:">
-<!ENTITY inheritedFontFamily.label              "Geërfd">
+<!ENTITY boxTab.label                           "Veld">
+<!ENTITY auralTab.label                         "Auditief">
+<!ENTITY fontFamily.label                       "Lettertypefamilie:">
+<!ENTITY inheritedFontFamily.label              "geërfd">
 <!ENTITY useCustomFontFamily.label              "Aangepast lettertype gebruiken:">
-<!ENTITY fontData.label                         "Lettertypengegevens">
-<!ENTITY exampleSentence.label                  "Pa's wijze lynx bezag vroom het fikse aquaduct.">
+<!ENTITY fontData.label                         "Lettertypegegevens">
+<!ENTITY exampleSentence.label                  "Pa’s wijze lynx bezag vroom het fikse aquaduct">
 <!ENTITY backgroundTab.label                    "Achtergrond">
 
 <!ENTITY unspecifiedValue.label                 "niet gespecificeerd">
@@ -76,12 +76,12 @@
 <!ENTITY inheritedValue.label                   "Geërfd">
 <!ENTITY fontStyle.label                        "Tekenstijl:">
 <!ENTITY italicValue.label                      "Cursief">
-<!ENTITY obliqueValue.label                     "Oblique ">
+<!ENTITY obliqueValue.label                     "Schuin">
 <!ENTITY textTransform.label                    "Hoofdletters:">
-<!ENTITY noneTextTransformValue.label           "Geen veranderingen">
+<!ENTITY noneTextTransformValue.label           "Geen wijziging">
 <!ENTITY lowercaseValue.label                   "Kleine letters">
 <!ENTITY uppercaseValue.label                   "Hoofdletters">
-<!ENTITY capitalizeValue.label                  "Ieder Woord Met Een Hoofdletter Beginnen">
+<!ENTITY capitalizeValue.label                  "Hoofdletters Bij Elk Woord">
 
 <!ENTITY closeButton.label                      "Sluiten">
 
@@ -90,7 +90,7 @@
 <!ENTITY xxsmallFontSize.label                  "xx-klein">
 <!ENTITY xsmallFontSize.label                   "x-klein">
 <!ENTITY smallFontSize.label                    "klein">
-<!ENTITY mediumFontSize.label                   "middelmatig">
+<!ENTITY mediumFontSize.label                   "medium">
 <!ENTITY largeFontSize.label                    "groot">
 <!ENTITY xlargeFontSize.label                   "x-groot">
 <!ENTITY xxlargeFontSize.label                  "xx-groot">
@@ -101,7 +101,7 @@
 <!ENTITY centerTextAlign.label                  "Midden">
 <!ENTITY justifyTextAlign.label                 "Uitvullen">
 
-<!ENTITY textDecoration.label                   "Tekstversiering:">
+<!ENTITY textDecoration.label                   "Tekstversieringen:">
 <!ENTITY overlineTextDecoration.label           "Lijn boven tekst">
 <!ENTITY underlineTextDecoration.label          "Onderstrepen">
 <!ENTITY linethroughTextDecoration.label        "Doorhalen">
@@ -167,7 +167,7 @@
 <!ENTITY visibility.label                       "Zichtbaarheid:">
 <!ENTITY visibleVisibility.label                "zichtbaar">
 <!ENTITY hiddenVisibility.label                 "verborgen">
-<!ENTITY collapseVisibility.label               "uitklapbaar">
+<!ENTITY collapseVisibility.label               "samenvouwen">
 
 <!ENTITY float.label                            "Zweven:">
 <!ENTITY leftFloat.label                        "links">
@@ -203,8 +203,8 @@
 <!ENTITY maxHeight.label                        "Max-hoogte:">
 
 <!ENTITY margins.label                          "Marges:">
-<!ENTITY paddings.label                         "Opvulling:">
-<!ENTITY offsets.label                          "Inspringen:">
+<!ENTITY paddings.label                         "Opvullingen:">
+<!ENTITY offsets.label                          "Inspringingen:">
 <!ENTITY top.label                              "Boven:">
 <!ENTITY left.label                             "Links:">
 <!ENTITY right.label                            "Rechts:">
@@ -213,35 +213,35 @@
 <!ENTITY volume.label                           "Volume:">
 <!ENTITY xsoftVolume.label                      "x-zacht">
 <!ENTITY softVolume.label                       "zacht">
-<!ENTITY mediumVolume.label                     "middelmatig">
+<!ENTITY mediumVolume.label                     "medium">
 <!ENTITY loudVolume.label                       "hard">
 <!ENTITY xloudVolume.label                      "x-hard">
-<!ENTITY muteVolume.label                       "Geen geluid">
+<!ENTITY muteVolume.label                       "Dempen">
 
 <!ENTITY speak.label                            "Spraak:">
 <!ENTITY noneSpeak.label                        "geen">
 <!ENTITY normalSpeak.label                      "normaal">
-<!ENTITY spelloutSpeak.label                    "spell-out">
+<!ENTITY spelloutSpeak.label                    "spellen">
 
 <!ENTITY speechRate.label                       "Spreeksnelheid:">
 <!ENTITY slowerSpeechRate.label                 "langzamer">
 <!ENTITY fasterSpeechRate.label                 "sneller">
 <!ENTITY xslowSpeechRate.label                  "x-langzaam">
 <!ENTITY slowSpeechRate.label                   "langzaam">
-<!ENTITY mediumSpeechRate.label                 "middelmatig">
+<!ENTITY mediumSpeechRate.label                 "medium">
 <!ENTITY fastSpeechRate.label                   "snel">
 <!ENTITY xfastSpeechRate.label                  "x-snel">
 
-<!ENTITY opacity.label                          "Doorzichtigheid:">
+<!ENTITY opacity.label                          "Ondoorzichtigheid:">
 
 <!ENTITY compatibilityTab.label                 "Compatibiliteit">
 
 <!ENTITY transparentOpacity.label               "transparant">
 
-<!ENTITY pauseBefore.label                      "Pause voor">
-<!ENTITY cueBefore.label                        "Opdracht voor">
-<!ENTITY pauseAfter.label                       "Pause na">
-<!ENTITY cueAfter.label                         "Opdracht na">
+<!ENTITY pauseBefore.label                      "Pauze voor:">
+<!ENTITY cueBefore.label                        "Aanwijzing voor:">
+<!ENTITY pauseAfter.label                       "Pauze na:">
+<!ENTITY cueAfter.label                         "Aanwijzing na:">
 
 
 <!ENTITY listTab.label                          "Lijsten">
@@ -258,8 +258,8 @@
 <!ENTITY lowerGreekListStyleType.label          "Grieks kleine letters">
 <!ENTITY lowerAlphaListStyleType.label          "alfabet kleine letters">
 <!ENTITY upperAlphaListStyleType.label          "alfabet hoofdletters">
-<!ENTITY armenianListStyleType.label            "armeneens">
-<!ENTITY georgianListStyleType.label            "georgiaans">
+<!ENTITY armenianListStyleType.label            "armeens">
+<!ENTITY georgianListStyleType.label            "georgisch">
 
 
 <!ENTITY listStyleImage.label                   "Lijststijlafbeelding:">
@@ -268,12 +268,12 @@
 <!ENTITY outsideListStylePosition.label         "buiten">
 
 <!-- Kaze: added -->
-<!ENTITY makeCSSRule.label                      "Extract and create generic style">
+<!ENTITY makeCSSRule.label                      "Extraheren en algemene stijl aanmaken">
 <!ENTITY makecssrule.accesskey                  "E">
-<!ENTITY currentstylesfor.label                 "Current styles for:">
-<!ENTITY renameButton.label                     "Edit selector">
+<!ENTITY currentstylesfor.label                 "Huidige stijlen voor:">
+<!ENTITY renameButton.label                     "Selector bewerken">
 
 <!ENTITY autoMarginUnit.label                   "auto">
-<!ENTITY thinBorderUnit.label                   "thin">
+<!ENTITY thinBorderUnit.label                   "dun">
 <!ENTITY mediumBorderUnit.label                 "medium">
-<!ENTITY thickBorderUnit.label                  "thick">
+<!ENTITY thickBorderUnit.label                  "dik">

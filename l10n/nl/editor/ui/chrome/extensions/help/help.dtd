@@ -1,60 +1,60 @@
-<!ENTITY printCmd.commandkey             "P">
+<!ENTITY printCmd.commandkey             "p">
 
-<!ENTITY viewCustomizeToolbar.label      "Werkbalk aanpassen…">
-<!ENTITY viewCustomizeToolbar.accesskey  "a">
+<!ENTITY viewCustomizeToolbar.label      "Aanpassen…">
+<!ENTITY viewCustomizeToolbar.accesskey  "A">
 
 <!ENTITY findOnCmd.commandkey            "F">
 <!ENTITY findAgainCmd.commandkey         "G">
 <!ENTITY findAgainCmd.commandkey2        "VK_F3">
-<!ENTITY findDialog.title                "Find in This Page">
-<!ENTITY findDialogFrame.title           "Find in This Frame">
-<!ENTITY findField.label                 "Find what:">
+<!ENTITY findDialog.title                "Zoeken in deze pagina">
+<!ENTITY findDialogFrame.title           "Zoeken in dit deelvenster">
+<!ENTITY findField.label                 "Zoeken naar:">
 <!ENTITY findField.accesskey             "n">
-<!ENTITY caseSensitiveCheckbox.label     "Match case">
-<!ENTITY caseSensitiveCheckbox.accesskey "c">
-<!ENTITY wrapCheckbox.label              "Wrap">
-<!ENTITY wrapCheckbox.accesskey          "W">
-<!ENTITY backwardsCheckbox.label         "Search backwards">
-<!ENTITY backwardsCheckbox.accesskey     "b">
-<!ENTITY findField.tooltip               "Type one or more words to search for">
-<!ENTITY findButton.label                "Find Next">
-<!ENTITY findButton.accesskey            "F">
-<!ENTITY cancelButton.label              "Cancel">
-<!ENTITY up.label                        "Up">
-<!ENTITY up.accesskey                    "U">
-<!ENTITY down.label                      "Down">
-<!ENTITY down.accesskey                  "D">
-<!ENTITY direction.label                 "Direction">
+<!ENTITY caseSensitiveCheckbox.label     "Hoofdlettergevoelig">
+<!ENTITY caseSensitiveCheckbox.accesskey "H">
+<!ENTITY wrapCheckbox.label              "Doorgaan na documenteinde">
+<!ENTITY wrapCheckbox.accesskey          "D">
+<!ENTITY backwardsCheckbox.label         "Achterwaarts zoeken">
+<!ENTITY backwardsCheckbox.accesskey     "c">
+<!ENTITY findField.tooltip               "Typ een of meer woorden om naar te zoeken">
+<!ENTITY findButton.label                "Volgende zoeken">
+<!ENTITY findButton.accesskey            "V">
+<!ENTITY cancelButton.label              "Annuleren">
+<!ENTITY up.label                        "Omhoog">
+<!ENTITY up.accesskey                    "m">
+<!ENTITY down.label                      "Omlaag">
+<!ENTITY down.accesskey                  "l">
+<!ENTITY direction.label                 "Richting">
 
-<!ENTITY find.label                      "Find:">
-<!ENTITY findNext.label                  "Find Next">
-<!ENTITY findNext.tooltip                "Find the next occurrence of the phrase">
-<!ENTITY findPrevious.label              "Find Previous">
-<!ENTITY findPrevious.tooltip            "Find the previous occurrence of the phrase">
-<!ENTITY findCloseButton.tooltip         "Close Find bar">
-<!ENTITY highlight.label                 "Highlight">
-<!ENTITY highlight.tooltip               "Highlight all occurrences of the phrase (Ctrl+Enter)">
+<!ENTITY find.label                      "Zoeken:">
+<!ENTITY findNext.label                  "Volgende zoeken">
+<!ENTITY findNext.tooltip                "De volgende verschijning van de term zoeken">
+<!ENTITY findPrevious.label              "Vorige zoeken">
+<!ENTITY findPrevious.tooltip            "De vorige verschijning van de term zoeken">
+<!ENTITY findCloseButton.tooltip         "Zoekbalk sluiten">
+<!ENTITY highlight.label                 "Markeren">
+<!ENTITY highlight.tooltip               "Alle verschijningen van de term markeren (Ctrl+Enter)">
 
 <!ENTITY backButton.label                "Terug">
 <!ENTITY backButton.accesskey            "T">
-<!ENTITY backButton.tooltip              "Ga een pagina terug">
+<!ENTITY backButton.tooltip              "Een pagina terug gaan">
 <!ENTITY forwardButton.label             "Vooruit">
 <!ENTITY forwardButton.accesskey         "V">
-<!ENTITY forwardButton.tooltip           "Ga een pagina vooruit">
+<!ENTITY forwardButton.tooltip           "Een pagina vooruit gaan">
 <!ENTITY homeButton.label                "Startpagina">
-<!ENTITY homeButton.tooltip              "Ga naar de startpagina van Help">
+<!ENTITY homeButton.tooltip              "Naar de startpagina van Help gaan">
 <!ENTITY printButton.label               "Afdrukken">
 <!ENTITY printButton.tooltip             "Deze pagina afdrukken">
 <!ENTITY findBtn.label                   "Zoeken">
 <!ENTITY sidebarBtn.label                "Zijbalk omschakelen">
-<!ENTITY sidebarBtn.tooltip              "Toon of verberg de zijbalk Help">
+<!ENTITY sidebarBtn.tooltip              "De zijbalk Help tonen of verbergen">
 <!ENTITY textZoomReduceBtn.label         "Tekst verkleinen">
-<!ENTITY textZoomReduceBtn.accesskey     "T">
-<!ENTITY textZoomReduceBtn.tooltip       "Verklein de grootte van de tekst in de helpdocumenten.">
+<!ENTITY textZoomReduceBtn.accesskey     "k">
+<!ENTITY textZoomReduceBtn.tooltip       "De grootte van de tekst in helpdocumenten verkleinen">
 <!ENTITY textZoomEnlargeBtn.label        "Tekst vergroten">
 <!ENTITY textZoomEnlargeBtn.accesskey    "e">
-<!ENTITY textZoomEnlargeBtn.tooltip      "Vergroot de grootte van de tekst in de helpdocumenten.">
-<!ENTITY customizeButton.tooltip         "Aanpassen welke knoppen worden getoond op de Helpwerkbalk.">
+<!ENTITY textZoomEnlargeBtn.tooltip      "De grootte van de tekst in helpdocumenten vergroten">
+<!ENTITY customizeButton.tooltip         "Aanpassen welke knoppen op de Help-werkbalk worden getoond">
 <!ENTITY reloadCmd.label                 "Vernieuwen">
 <!ENTITY reloadCmd.accesskey             "r">
 <!ENTITY closeWindow.commandkey          "W">
@@ -69,9 +69,9 @@
 <!ENTITY searchtab.accesskey             "Z">
 <!ENTITY searchbtn.label                 "Zoeken">
 <!ENTITY toctab.label                    "Inhoud">
-<!ENTITY toctab.accesskey                "I">
+<!ENTITY toctab.accesskey                "n">
 <!ENTITY indextab.label                  "Index">
-<!ENTITY indextab.accesskey              "n">
+<!ENTITY indextab.accesskey              "I">
 <!ENTITY ixname.label                    "Naam">
 <!ENTITY glossarytab.label               "Verklarende woordenlijst">
 <!ENTITY glossarytab.accesskey           "V">
