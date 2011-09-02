@@ -1,0 +1,122 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is mozilla.org code.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corp.
+   - Portions created by the Initial Developer are Copyright (C) 2001
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Ian McGreer <mcgreer@netscape.com>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY certmgr.title "Liudijimų tvarkytuvė">
+
+<!ENTITY certmgr.tab.mine "Jūsų liudijimai">
+<!ENTITY certmgr.tab.others "Kitų asmenų">
+<!ENTITY certmgr.tab.websites "Svetainių">
+<!ENTITY certmgr.tab.ca "Liudijimų įstaigų">
+
+<!ENTITY certmgr.ca.builtins "Numatytosios liudijimų įstaigos">
+<!ENTITY certmgr.ca.mycas "Jūsų tvarkomos liudijimų įstaigos">
+
+<!ENTITY certmgr.mine "Turite liudijimus šių Jus identifikuojančių įstaigų:">
+<!ENTITY certmgr.others "Turite liudijimus, identifikuojančius šiuos asmenis:">
+<!ENTITY certmgr.websites "Turite liudijimus, kurie nustato šių svetainių tapatumą:">
+<!ENTITY certmgr.cas "Turite liudijimus, kurie identifikuoja šias liudijimų įstaigas:">
+
+<!ENTITY certmgr.detail.general_tab.title "Bendroji">
+<!ENTITY certmgr.detail.prettyprint_tab.title "Išsamesnė">
+
+<!ENTITY certmgr.subjectinfo.label "Kam išduotas">
+<!ENTITY certmgr.issuerinfo.label "Kas išdavė">
+<!ENTITY certmgr.validity.label "Galiojimas">
+<!ENTITY certmgr.fingerprints.label "Kontroliniai kodai">
+<!ENTITY certmgr.certdetail.title "Išsamesnė informacija apie liudijimą">
+<!ENTITY certmgr.certdetail.cn "Vardas">
+<!ENTITY certmgr.certdetail.o "Įstaiga">
+<!ENTITY certmgr.certdetail.ou "Įstaigos padalinys">
+<!ENTITY certmgr.certdetail.serialnumber "Numeris">
+<!ENTITY certmgr.certdetail.sha1fingerprint "SHA1 kontrolinis kodas">
+<!ENTITY certmgr.certdetail.md5fingerprint "MD5 kontrolinis kodas">
+
+<!ENTITY certmgr.editcert.title "Liudijimo nuostatos">
+<!ENTITY certmgr.editcacert.title "Pasitikėjimo LĮ liudijimu nuostatos">
+<!ENTITY certmgr.editsslcert.title "Pasitikėjimo svetainės liudijimu nuostatos">
+<!ENTITY certmgr.editcert.edittrust "Pasitikėjimo nuostatos:">
+<!ENTITY certmgr.editcert.trustssl "Šis liudijimas gali patvirtinti svetainių tapatybę">
+<!ENTITY certmgr.editcert.trustemail "Šis liudijimas gali patvirtinti el. pašto vartotojų tapatybę">
+<!ENTITY certmgr.editcert.trustobjsign "Šis liudijimas gali patvirtinti programinės įrangos gamintojų tapatybę">
+<!ENTITY certmgr.editsslcert.edittrust "Pasitikėjimo liudijimu nuostatos:">
+<!ENTITY certmgr.editsslcert.dotrust "Pasitikėti šio liudijimo autentiškumu">
+<!ENTITY certmgr.editsslcert.donttrust "Nepasitikėti šio liudijimo autentiškumu">
+<!ENTITY certmgr.editemailcert.title "Pasitikėjimo el. pašto liudijimu nuostatos">
+<!ENTITY certmgr.editemailcert.edittrust "Parinkite pasitikėjimo liudijimu nuostatas:">
+<!ENTITY certmgr.editemailcert.dotrust "Pasitikėti šio liudijimo autentiškumu">
+<!ENTITY certmgr.editemailcert.donttrust "Nepasitikėti šio liudijimo autentiškumu">
+
+<!ENTITY certmgr.deletecert.title "Liudijimo šalinimas">
+<!ENTITY certmgr.deletecert.beforename "Jūs prašėte pašalinti šį liudijimą:">
+<!ENTITY certmgr.deletecert.aftername "Ar tikrai jį pašalinti?">
+<!ENTITY certmgr.deleteusercert.title "Jūsų liudijimo šalinimas">
+<!ENTITY certmgr.deleteusercert.beforename "Prašėte pašalinti liudijimą:">
+<!ENTITY certmgr.deleteusercert.aftername "Jei jį pašalinsite, nebegalėsite skaityti juo užšifruotų laiškų.">
+
+<!ENTITY certmgr.certname "Liudijimo vardas">
+<!ENTITY certmgr.tokenname "Saugumo priemonė">
+<!ENTITY certmgr.purpose "Rūšis">
+<!ENTITY certmgr.issued "Išdavimo data">
+<!ENTITY certmgr.expires "Galioja iki">
+<!ENTITY certmgr.email "El. pašto adresas">
+<!ENTITY certmgr.serial "Numeris">
+<!ENTITY certmgr.ocsp_info "Liudijimai nebuvo patikrinti OCSP protokolu. Jei norite patikrinti, spragtelėkite mygtuką „Peržiūra“.">
+
+<!ENTITY certmgr.close.label "Užverti">
+<!ENTITY certmgr.close.accesskey              "U">
+<!ENTITY certmgr.view.label "Peržiūra">
+<!ENTITY certmgr.view.accesskey               "P">
+<!ENTITY certmgr.edit.label "Taisa">
+<!ENTITY certmgr.edit.accesskey               "T">
+<!ENTITY certmgr.editca.label "Pasitikėjimo LĮ nuostatos">
+<!ENTITY certmgr.editca.accesskey             "L">
+<!ENTITY certmgr.add.label "Pridėti">
+<!ENTITY certmgr.add.accesskey                "d">
+<!ENTITY certmgr.delete.label "Pašalinti">
+<!ENTITY certmgr.delete.accesskey             "š">
+<!ENTITY certmgr.backup.label "Archyvuoti">
+<!ENTITY certmgr.backup.accesskey             "A">
+<!ENTITY certmgr.backupall.label "Arch. viską">
+<!ENTITY certmgr.backupall.accesskey          "v">
+<!ENTITY certmgr.restore.label "Importuoti">
+<!ENTITY certmgr.restore.accesskey            "I">
+<!ENTITY certmgr.details.label "Liudijimo laukai">
+<!ENTITY certmgr.details.accesskey            "k">
+<!ENTITY certmgr.fields.label "Lauko reikšmė">
+<!ENTITY certmgr.fields.accesskey             "r">
+<!ENTITY certmgr.hierarchy.label "Liudijimų hierarchija">
+<!ENTITY certmgr.hierarchy.accesskey          "h">

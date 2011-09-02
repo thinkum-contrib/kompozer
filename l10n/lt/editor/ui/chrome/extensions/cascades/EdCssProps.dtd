@@ -1,0 +1,280 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is CaScadeS, a stylesheet editor for Composer.
+   -
+   - The Initial Developer of the Original Code is
+   - Daniel Glazman.
+   - Portions created by the Initial Developer are Copyright (C) 2002
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Original author: Daniel Glazman (daniel@glazman.org)
+	-   Rimas Kudelis <rq@akl.lt>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!ENTITY Window.title                           "CSS stilių aprašai">
+
+<!ENTITY sheetsTreeColumn.label                 "Aprašai ir taisyklės">
+<!ENTITY expertModeChecbox.label                "Ekspertinė veiksena">
+<!ENTITY importRuleButton.label                 "@import">
+<!ENTITY mediaRuleButton.label                  "@media">
+<!ENTITY linkedSheetButton.label                "Susietasis stiliaus aprašas">
+<!ENTITY styleSheetButton.label                 "Vidinis stiliaus aprašas">
+<!ENTITY ruleButton.label                       "Stiliaus taisyklė">
+<!ENTITY upButton.label                         "Perkelti aukščiau">
+<!ENTITY downButton.label                       "Nuleisti žemiau">
+<!ENTITY refreshButton.label                    "Atšviežinti">
+<!ENTITY removeButton.label                     "Pašalinti">
+<!ENTITY sheetInfoTab.label                     "Bendrieji">
+<!ENTITY textTab.label                          "Tekstas">
+<!ENTITY borderTab.label                        "Rėmeliai">
+<!ENTITY marginsTab.label                       "Išorinės paraštės">
+<!ENTITY boxTab.label                           "Išdėstymas">
+<!ENTITY auralTab.label                         "Skaitymas balsu">
+<!ENTITY fontFamily.label                       "Šriftų šeima:">
+<!ENTITY inheritedFontFamily.label              "paveldėti">
+<!ENTITY useCustomFontFamily.label              "kita:">
+<!ENTITY fontData.label                         "Šrifto duomenys">
+<!ENTITY exampleSentence.label                  "Įlinkdama fechtuotojo špaga sublykčiojusi pragręžė apvalų arbūzą">
+<!ENTITY backgroundTab.label                    "Fonas">
+
+<!ENTITY unspecifiedValue.label                 "nenurodyti">
+<!ENTITY predefFontFamilyRadio.label            "tipinė:">
+<!ENTITY fontSize.label                         "Šrifto dydis:">
+<!ENTITY lineHeight.label                       "Eilutės aukštis:">
+<!ENTITY normalLineHeight.label                 "normalus">
+<!ENTITY color.label                            "Spalva:">
+<!ENTITY fontWeight.label                       "Šrifto storis:">
+<!ENTITY normalValue.label                      "normal">
+<!ENTITY boldValue.label                        "bold">
+<!ENTITY bolderValue.label                      "bolder">
+<!ENTITY lighterValue.label                     "lighter">
+<!ENTITY inheritedValue.label                   "paveldėtas">
+<!ENTITY fontStyle.label                        "Šrifto stilius:">
+<!ENTITY italicValue.label                      "italic">
+<!ENTITY obliqueValue.label                     "oblique">
+<!ENTITY textTransform.label                    "Raidžių registras:">
+<!ENTITY noneTextTransformValue.label           "nekeisti">
+<!ENTITY lowercaseValue.label                   "apatinis">
+<!ENTITY uppercaseValue.label                   "VIRŠUTINIS">
+<!ENTITY capitalizeValue.label                  "Žodžius Pradėti Didžiąja">
+
+<!ENTITY closeButton.label                      "Užverti">
+
+<!ENTITY largerFontSize.label                   "larger">
+<!ENTITY smallerFontSize.label                  "smaller">
+<!ENTITY xxsmallFontSize.label                  "xx-small">
+<!ENTITY xsmallFontSize.label                   "xsmall">
+<!ENTITY smallFontSize.label                    "small">
+<!ENTITY mediumFontSize.label                   "medium">
+<!ENTITY largeFontSize.label                    "large">
+<!ENTITY xlargeFontSize.label                   "x-large">
+<!ENTITY xxlargeFontSize.label                  "xx-large">
+
+<!ENTITY textAlign.label                        "Lygiuotė:">
+<!ENTITY rightTextAlign.label                   "dešininė">
+<!ENTITY leftTextAlign.label                    "kairinė">
+<!ENTITY centerTextAlign.label                  "centrinė">
+<!ENTITY justifyTextAlign.label                 "abipusė">
+
+<!ENTITY textDecoration.label                   "Teksto apdaila:">
+<!ENTITY overlineTextDecoration.label           "Linija viršuje">
+<!ENTITY underlineTextDecoration.label          "Pabraukti">
+<!ENTITY linethroughTextDecoration.label        "Perbraukti">
+<!ENTITY blinkTextDecoration.label              "Mirksėti">
+<!ENTITY noneTextDecoration.label               "Jokios">
+
+<!ENTITY backgroundColor.label                  "Spalva:">
+<!ENTITY backgroundImage.label                  "Paveikslas:">
+<!ENTITY chooseFileButton.label                 "Parinkti…">
+<!ENTITY backgroundRepeat.label                 "Kartojimas:">
+<!ENTITY norepeatBackgroundRepeat.label         "nekartoti">
+<!ENTITY repeatxBackgroundRepeat.label          "horizontalus">
+<!ENTITY repeatyBackgroundRepeat.label          "vertikalus">
+<!ENTITY repeatBackgroundRepeat.label           "horizontalus ir vertikalus">
+<!ENTITY backgroundPosition.label               "Padėtis:">
+<!ENTITY leftXBackgroundPosition.label          "Kairėje">
+<!ENTITY centerXBackgroundPosition.label        "Centre">
+<!ENTITY rightXBackgroundPosition.label         "Dešinėje">
+<!ENTITY topYBackgroundPosition.label           "Viršuje">
+<!ENTITY centerYBackgroundPosition.label        "Centre">
+<!ENTITY bottomYBackgroundPosition.label        "Apačioje">
+<!ENTITY backgroundAttachmentCheckbox.label     "Paveikslas turi slinktis kartu su tinklalapiu">
+
+
+<!ENTITY useBorderShorthand.label               "Naudoti tą patį stilių visiems keturiems rėmeliams">
+<!ENTITY borderStyle.label                      "Stilius:">
+<!ENTITY borderWidth.label                      "Storis:">
+<!ENTITY borderColor.label                      "Spalva:">
+<!ENTITY topBorder.label                        "Viršutinis:">
+<!ENTITY leftBorder.label                       "Kairysis:">
+<!ENTITY rightBorder.label                      "Dešinysis:">
+<!ENTITY bottomBorder.label                     "Apatinis:">
+<!ENTITY borderPreview.label                    "Peržiūra">
+<!ENTITY noneBorderStyle.label                  "none">
+<!ENTITY hiddenBorderStyle.label                "hidden">
+<!ENTITY solidBorderStyle.label                 "solid">
+<!ENTITY dottedBorderStyle.label                "dotted">
+<!ENTITY dashedBorderStyle.label                "dashed">
+<!ENTITY doubleBorderStyle.label                "double">
+<!ENTITY grooveBorderStyle.label                "groove">
+<!ENTITY ridgeBorderStyle.label                 "ridge">
+<!ENTITY insetBorderStyle.label                 "inset">
+<!ENTITY outsetBorderStyle.label                "outset">
+
+<!ENTITY display.label                          "Display:">
+<!ENTITY noneDisplay.label                      "none">
+<!ENTITY inlineDisplay.label                    "inline">
+<!ENTITY blockDisplay.label                     "block">
+<!ENTITY runinDisplay.label                     "run-in">
+<!ENTITY compactDisplay.label                   "compact">
+<!ENTITY listitemDisplay.label                  "list-item">
+<!ENTITY tableDisplay.label                     "table">
+<!ENTITY tablerowDisplay.label                  "table-row">
+<!ENTITY tablecellDisplay.label                 "table-cell">
+<!ENTITY tablecaptionDisplay.label              "table-caption">
+<!ENTITY inlinetableDisplay.label               "inline-table">
+<!ENTITY tablecolumnDisplay.label               "table-column">
+<!ENTITY tablerowgroupDisplay.label             "table-row-group">
+<!ENTITY tableheadergroupDisplay.label          "table-header-group">
+<!ENTITY tablefootergroupDisplay.label          "table-footer-group">
+<!ENTITY tablecolumngroupDisplay.label          "table-column-group">
+
+<!ENTITY visibility.label                       "Visibility:">
+<!ENTITY visibleVisibility.label                "visible">
+<!ENTITY hiddenVisibility.label                 "hidden">
+<!ENTITY collapseVisibility.label               "collapse">
+
+<!ENTITY float.label                            "Float:">
+<!ENTITY leftFloat.label                        "left">
+<!ENTITY rightFloat.label                       "right">
+<!ENTITY noneFloat.label                        "none">
+
+<!ENTITY clear.label                            "Clear:">
+<!ENTITY noneClear.label                        "none">
+<!ENTITY leftClear.label                        "left">
+<!ENTITY rightClear.label                       "right">
+<!ENTITY bothClear.label                        "both">
+
+
+<!ENTITY position.label                         "Position:">
+<!ENTITY staticPosition.label                   "static">
+<!ENTITY fixedPosition.label                    "fixed">
+<!ENTITY absolutePosition.label                 "absolute">
+<!ENTITY relativePosition.label                 "relative">
+
+<!ENTITY overflow.label                         "Overflow:">
+<!ENTITY visibleOverflow.label                  "visible">
+<!ENTITY hiddenOverflow.label                   "hidden">
+<!ENTITY scrollOverflow.label                   "scroll">
+<!ENTITY autoOverflow.label                     "auto">
+
+<!ENTITY zIndex.label                           "Z-index:">
+
+<!ENTITY width.label                            "Plotis:">
+<!ENTITY minWidth.label                         "Min. plotis:">
+<!ENTITY maxWidth.label                         "Maks. plotis:">
+<!ENTITY height.label                           "Aukštis:">
+<!ENTITY minHeight.label                        "Min. aukštis:">
+<!ENTITY maxHeight.label                        "Maks. aukštis:">
+
+<!ENTITY margins.label                          "Margins:">
+<!ENTITY paddings.label                         "Paddings:">
+<!ENTITY offsets.label                          "Offsets:">
+<!ENTITY top.label                              "Top:">
+<!ENTITY left.label                             "Left:">
+<!ENTITY right.label                            "Right:">
+<!ENTITY bottom.label                           "Bottom:">
+
+<!ENTITY volume.label                           "Garsumas:">
+<!ENTITY xsoftVolume.label                      "x-soft">
+<!ENTITY softVolume.label                       "soft">
+<!ENTITY mediumVolume.label                     "medium">
+<!ENTITY loudVolume.label                       "loud">
+<!ENTITY xloudVolume.label                      "x-loud">
+<!ENTITY muteVolume.label                       "Be garso">
+
+<!ENTITY speak.label                            "Speak:">
+<!ENTITY noneSpeak.label                        "none">
+<!ENTITY normalSpeak.label                      "normal">
+<!ENTITY spelloutSpeak.label                    "spell-out">
+
+<!ENTITY speechRate.label                       "Speech-rate:">
+<!ENTITY slowerSpeechRate.label                 "slower">
+<!ENTITY fasterSpeechRate.label                 "faster">
+<!ENTITY xslowSpeechRate.label                  "x-slow">
+<!ENTITY slowSpeechRate.label                   "slow">
+<!ENTITY mediumSpeechRate.label                 "medium">
+<!ENTITY fastSpeechRate.label                   "fast">
+<!ENTITY xfastSpeechRate.label                  "x-fast">
+
+<!ENTITY opacity.label                          "Neskaidrumas:">
+
+<!ENTITY compatibilityTab.label                 "Suderinamumas">
+
+<!ENTITY transparentOpacity.label               "transparent">
+
+<!ENTITY pauseBefore.label                      "Pause before:">
+<!ENTITY cueBefore.label                        "Cue before:">
+<!ENTITY pauseAfter.label                       "Pause after:">
+<!ENTITY cueAfter.label                         "Cue After:">
+
+
+<!ENTITY listTab.label                          "Sąrašai">
+
+<!ENTITY listStyleType.label                    "Žymeklio simbolis:">
+<!ENTITY noneListStyleType.label                "none">
+<!ENTITY discListStyleType.label                "disc">
+<!ENTITY circleListStyleType.label              "circle">
+<!ENTITY squareListStyleType.label              "square">
+<!ENTITY decimalListStyleType.label             "decimal">
+<!ENTITY decimalLeadingZeroListStyleType.label  "decimal-leading-zero">
+<!ENTITY lowerRomanListStyleType.label          "lower-roman">
+<!ENTITY upperRomanListStyleType.label          "upper-roman">
+<!ENTITY lowerGreekListStyleType.label          "lower-greek">
+<!ENTITY lowerAlphaListStyleType.label          "lower-alpha">
+<!ENTITY upperAlphaListStyleType.label          "upper-alpha">
+<!ENTITY armenianListStyleType.label            "armenian">
+<!ENTITY georgianListStyleType.label            "georgian">
+
+
+<!ENTITY listStyleImage.label                   "Žymeklio paveikslėlis:">
+<!ENTITY listStylePosition.label                "Žymeklio padėtis:">
+<!ENTITY insideListStylePosition.label          "viduje">
+<!ENTITY outsideListStylePosition.label         "išorėje">
+
+<!-- Kaze: added -->
+<!ENTITY makeCSSRule.label                      "Atskirti ir sukurti bendrinį stilių">
+<!ENTITY makecssrule.accesskey                  "b">
+<!ENTITY currentstylesfor.label                 "Dabartinis stilius elementui:">
+<!ENTITY renameButton.label                     "Taisyti selektorių">
+
+<!ENTITY autoMarginUnit.label                   "auto">
+<!ENTITY thinBorderUnit.label                   "thin">
+<!ENTITY mediumBorderUnit.label                 "medium">
+<!ENTITY thickBorderUnit.label                  "thick">

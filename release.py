@@ -228,6 +228,9 @@ def makeBinary(srcDir, platform, locale):
   elif (locale == "ko"):
     replaceInFile(acceptCharsets, "EUC-KR,\*,utf-8", "all.js")
     replaceInFile(customCharset,  "EUC-KR",          "editor.js")
+  elif (locale == "lt"):
+    replaceInFile(acceptCharsets, "windows-1257,\*,utf-8", "all.js")
+    replaceInFile(customCharset,  "windows-1257",          "editor.js")
 
   # disable line wrapping for Asian languages (= 72 chars by default)
   # XXX this should be handled in region.properties, not here
@@ -310,6 +313,7 @@ def makeInnoSetup(srcDir, locale):
     'it'   : 'Italian',             \
     'ja'   : 'Japanese',            \
     'ko'   : 'Korean',              \
+    'lt'   : 'Lithuanian',          \
     'nl'   : 'Dutch',               \
     'pl'   : 'Polish',              \
     'pt-BR': 'BrazilianPortuguese', \

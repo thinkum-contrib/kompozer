@@ -1,0 +1,88 @@
+<!-- these things need to move into utilityOverlay.xul -->
+<!ENTITY  offlineGoOfflineCmd.label                 "Atsijungti nuo tinklo">
+<!ENTITY  offlineGoOfflineCmd.accesskey             "i">
+
+<!-- LOCALIZATION NOTE : FILE This file contains the global menu items --> 
+
+<!ENTITY fileMenu.label					"Failas"> 
+<!ENTITY fileMenu.accesskey				"F">
+<!ENTITY newMenu.label						"Naujas">
+<!ENTITY newMenu.accesskey					"N">
+<!ENTITY newBlankPageCmd.label "Tinklalapis">
+<!ENTITY newBlankPageCmd.accesskey "T" >
+<!ENTITY newBlankPageCmd.key "n" >
+<!ENTITY newPageFromTemplateCmd.label "Tinklalapio šablonai">
+<!ENTITY newPageFromTemplateCmd.accesskey "š">
+<!ENTITY newPageFromDraftCmd.label "Tinklalapio juodraštis">
+<!ENTITY newPageFromDraftCmd.accesskey "j">
+<!-- LOCALIZATION NOTE  (newNavigatorCmd.label): Do NOT translate "Navigator" -->
+<!ENTITY newNavigatorCmd.label				"Naršyklės langas">
+<!ENTITY newNavigatorCmd.key				"N">
+<!ENTITY newNavigatorCmd.accesskey			"r">
+
+<!ENTITY editMenu.label					"Taisa"> 
+<!ENTITY editMenu.accesskey				"T"> 
+<!ENTITY undoCmd.label						"Atšaukti">  
+<!ENTITY undoCmd.key						"Z">  
+<!ENTITY undoCmd.accesskey					"A"> 
+<!ENTITY redoCmd.label						"Atstatyti">  
+<!ENTITY redoCmd.key						"Y">  
+<!ENTITY redoCmd.accesskey					"s"> 
+<!ENTITY cutCmd.label						"Iškirpti">  
+<!ENTITY cutCmd.key							"X">  
+<!ENTITY cutCmd.accesskey					"r"> 
+<!ENTITY copyCmd.label						"Kopijuoti">  
+<!ENTITY copyCmd.key						"C">  
+<!ENTITY copyCmd.accesskey					"K"> 
+<!ENTITY pasteCmd.label						"Įdėti">  
+<!ENTITY pasteCmd.key						"V">  
+<!ENTITY pasteCmd.accesskey					"d"> 
+<!ENTITY deleteCmd.label					"Pašalinti">  
+<!ENTITY deleteCmd.key						"D">  
+<!ENTITY deleteCmd.accesskey				"š"> 
+<!ENTITY selectAllCmd.label					"Pažymėti viską">  
+<!ENTITY selectAllCmd.key					"A">  
+<!ENTITY selectAllCmd.accesskey				"v"> 
+<!ENTITY preferencesCmd.label				"Nuostatos…">
+<!ENTITY preferencesCmd.key					"E">  
+<!ENTITY preferencesCmd.accesskey			"N"> 
+<!ENTITY findTypeTextCmd.label "Renkant ieškoti tekste">
+<!ENTITY findTypeTextCmd.accesskey "R">
+<!ENTITY findTypeLinksCmd.label "Renkant ieškoti saituose">
+<!ENTITY findTypeLinksCmd.accesskey "s">
+
+<!ENTITY viewMenu.label					"Rodymas"> 
+<!ENTITY viewMenu.accesskey				"R"> 
+<!ENTITY viewToolbarsMenu.label				"Ką rodyti:"> 
+<!ENTITY viewToolbarsMenu.accesskey			"o"> 
+<!ENTITY showTaskbarCmd.label					"Būsenos juosta">  
+<!ENTITY showTaskbarCmd.accesskey				"B"> 
+
+<!ENTITY helpMenu.label					"Žinynas"> 
+<!ENTITY helpMenu.accesskey				"Ž"> 
+
+<!-- NOTE (whatNewCmd.label): This is not used in Mozilla but is used in Netscape -->
+<!ENTITY whatNewCmd.label				"Kas naujo">  
+
+<!ENTITY releaseCmd.label				"Laidos apžvalga">
+<!ENTITY releaseCmd.accesskey                   "L">
+<!ENTITY aboutCmd.label					"Apie „&brandShortName;“">
+<!ENTITY aboutCmd.accesskey				"A">
+<!ENTITY aboutCommPluginsCmd.label			"Apie programos papildinius">
+<!ENTITY aboutCommPluginsCmd.accesskey			"p">
+
+<!ENTITY direct.label                                   "Tinkle (be įgaliotojo serverio)">
+<!ENTITY direct.accesskey                               "T">
+<!ENTITY manual.label                                   "Tinkle (rankinė įgaliotojo serverio sąranka)">
+<!ENTITY manual.accesskey                               "i">
+<!ENTITY pac.label                                      "Tinkle (automatinė įgaliotojo serverio sąranka)">
+<!ENTITY pac.accesskey                                  "a">
+<!ENTITY wpad.label                                     "Tinkle (įgaliotieji serveriai aptinkami automatiškai)">
+<!ENTITY wpad.accesskey                                 "T">
+
+<!ENTITY proxy.label                                    "Įgaliotojo serverio sąranka…">
+<!ENTITY proxy.accesskey                                "s">
+
+<!ENTITY bidiSwitchTextDirectionItem.label        "Pakeisti teksto kryptį">
+<!ENTITY bidiSwitchTextDirectionItem.accesskey    "P">
+<!ENTITY bidiSwitchTextDirectionItem.commandkey   "X">

@@ -1,0 +1,25 @@
+<!ENTITY license.part0     "Autorių teisės">
+<!ENTITY license.part1     "priklauso">
+<!ENTITY license.contrib   "bendradarbiams">
+<!ENTITY license.part2     "pagal sąlygas, apibrėžtas">
+<!ENTITY license.part3     "dokumente. Visos teisės priklauso autoriams.">
+
+<!ENTITY about.version                "versija">
+
+<!ENTITY about.copy.beforeLink       "&copy; 1998-2006">
+<!ENTITY about.copy.linkTitle         "bendradarbiai">
+<!ENTITY about.copy.afterLink         "(„Mozillos“ projektas).">
+
+<!ENTITY about.license.beforeLink     "Prašom susipažinti">
+<!ENTITY about.license.linkTitle      "su šio gaminio">
+<!ENTITY about.license.afterLink      "licencija.">
+
+<!ENTITY about.relnotes.beforeLink    "Prašom susipažinti">
+<!ENTITY about.relnotes.linkTitle     "su informacija">
+<!ENTITY about.relnotes.afterLink     "apie šią laidą.">
+
+<!ENTITY about.buildconfig.beforeLink "Prašom susipažinti">
+<!ENTITY about.buildconfig.linkTitle  "su šios versijos">
+<!ENTITY about.buildconfig.afterLink  "sąranka.">
+
+<!ENTITY about.buildIdentifier        "Darinio identifikatorius: ">

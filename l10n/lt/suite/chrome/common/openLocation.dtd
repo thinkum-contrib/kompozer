@@ -1,0 +1,20 @@
+<!-- extracted from content/openLocation.xul -->
+
+<!ENTITY enter.label               "Įveskite tinklalapio šablono adresą (URL) arba parinkite failą iš disko:">  
+<!ENTITY enter.accesskey           "e">
+<!ENTITY chooseFile.label          "Parinkti…">
+<!ENTITY chooseFile.accesskey      "r">
+<!ENTITY cancel.label              "Atsisakyti">
+<!ENTITY caption.label             "Dokumento arba šablono sukūrimas">
+<!ENTITY openWhere.label           "Kur sukurti:">
+<!ENTITY openWhere.accesskey       "K">
+<!ENTITY newTab.label              "naujoje kortelėje">
+<!ENTITY editNewWindow.label       "naujame lange">
+
+<!ENTITY documentTypeCaption.label "Kokio tipo dokumentą norite sukurti?">
+<!ENTITY blankDocument.label       "Tuščią dokumentą">
+<!ENTITY newFromTemplate.label     "Naują dokumentą pagal šabloną">
+<!ENTITY blankTemplate.label       "Tuščią šabloną">
+
+<!ENTITY xhtmlDocument.label       "Sukurti XHTML dokumentą">
+<!ENTITY strictDtd.label           "Naudoti griežtąją DTD apibrėžtį">

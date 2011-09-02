@@ -1,0 +1,19 @@
+<!ENTITY helpers.label                "Pagalbinės programos">
+
+<!ENTITY application.label            "Programa:">
+<!ENTITY webBrowser.label             "Naršyklė">
+<!ENTITY textEditor.label             "Teksto rengyklė">
+<!ENTITY imageEditor.label            "Grafikos rengyklė">
+<!ENTITY mediaPlayer.label            "Medijos leistuvė">
+<!ENTITY fileManager.label            "Failų tvarkytuvė">
+<!ENTITY ftpClient.label              "FTP klientinė programa">
+
+<!ENTITY useSystemHelper.label        "Naudoti sistemos numatytąją">
+<!ENTITY useCustomHelper.label        "Naudoti pasirinktą programą:">
+<!ENTITY path.label                   "Kelias iki vykdomojo failo">
+<!ENTITY arguments.label              "Parametrai">
+<!ENTITY filePicker.tooltip           "Parinkti…">
+
+<!ENTITY fileFilter.label             "Failų prievardžiai (*):">
+<!ENTITY default.label                "Numatytieji">
+<!ENTITY needToRestart.label          "(*) Šių nuostatų pakeitimai įsigalios iš naujo paleidus programą „KompoZer“.">

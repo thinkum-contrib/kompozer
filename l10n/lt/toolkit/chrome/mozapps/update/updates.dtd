@@ -1,0 +1,85 @@
+<!ENTITY  updateWizard.title              "Programinės įrangos atnaujinimas">
+
+<!ENTITY  window.width                    "36em">
+<!ENTITY  window.macWidth                 "39em">
+
+<!ENTITY  checking.title                  "Ieškoma naujinimų">
+<!ENTITY  checking.label                  "„&brandShortName;“ tikrina, ar yra naujinimų…">
+
+<!ENTITY  cancel.label                    "Atsisakyti">
+<!ENTITY  cancel.accesskey                "A">
+
+<!ENTITY  noupdatesfound.title            "Naujinimų nerasta">
+<!ENTITY  noupdatesfound.intro            "Šiuo metu naujinimų nėra. „&brandShortName;“ gali periodiškai 
+                                           tikrinti, ar išleistos naujos versijos.">
+
+<!ENTITY  updatesfound.title              "Yra naujinimas">
+
+<!ENTITY  moreDetails.label               "Daugiau informacijos &#0187;">
+<!ENTITY  moreDetails.accesskey           "D">
+<!ENTITY  clickHere.label                 "Peržiūrėti išsamesnę informaciją apie šį naujinimą">
+
+<!ENTITY  incompatible.warning            "Įdiegus šį naujinimą gali neveikti kai kurie esami priedai ir apvalkalai,
+                                           kol jie nebus atnaujinti.">
+<!ENTITY  listIncompatible.label          "Rodyti sąrašą">
+<!ENTITY  listIncompatible.accesskey      "R">
+
+<!ENTITY  upgrade.evangelism              "Rekomenduotina kuo skubiau atnaujinti „&brandShortName;“.">
+
+
+<!ENTITY  license.title                   "Licencijos sutartis">
+<!ENTITY  license.intro                   "Šiam naujinimui įdiegti reikia sutikti su licencijos sutarties sąlygomis. 
+                                           Prašom jas atidžiai perskaityti:">
+<!ENTITY  license.instructions            "Jei sutinkate su licencijos sąlygomis, tai spragtelėkite „Sutinku“, ir 
+                                           naujinimo diegimas bus tęsiamas.">
+
+<!ENTITY  license.titleText               "Programinės įrangos licencija">
+<!ENTITY  license.introText               "Programinės įrangos naudojimo sąlygos">
+<!ENTITY  license.instructionText         "Prašom perskaityti licencijos sutartį. Visą sutarties tekstą galimą pamatyti paslinkus jį slinkties juosta.">
+<!ENTITY  license.accept                  "Sutinku su licencijos sąlygomis">
+<!ENTITY  license.accept.accesskey        "S">
+<!ENTITY  license.decline                 "NESUTINKU su licencijos sąlygomis">
+<!ENTITY  license.decline.accesskey       "N">
+
+<!ENTITY  downloading.title               "Naujinimo atsiuntimas">
+<!ENTITY  downloading.intro               "Atsiunčiamas naujinimas…">
+<!ENTITY  connecting.label                "Jungiamasi prie naujinimų serverio…">
+<!ENTITY  verificationFailedText.label    "„&brandShortName;“ nepavyko patikrinti atsiųsto 
+                                           prieauginio naujinimo nepažeistumo, todėl šiuo metu atsiunčiamas visas
+                                           atnaujinimo paketas.">
+
+<!ENTITY  details.link                    "Išsamiau">
+<!ENTITY  pause.label                     "Pauzė">
+<!ENTITY  pause.accesskey                 "P">
+<!ENTITY  close.label                     "Užverti">
+<!ENTITY  close.accesskey                 "U">
+
+<!ENTITY  error.label                     "Nesklandumai ieškant, atsiunčiant ar įdiegiant šį naujinimą. 
+                                           „&brandShortName;“ nepavyko atnaujinti dėl šių priežasčių:">
+                                           
+<!ENTITY  errorManual.label               "Galima atnaujinti „&brandShortName;“ rankiniu būdu aplankius šią svetainę ir 
+                                           atsisiuntus naujausią versiją:">
+                                           
+<!ENTITY  errorpatching.title             "Nepavyko atnaujinti">
+<!ENTITY  errorpatching.intro             "Dalinis atnaujinimas nepavyko. 
+                                           Bus bandoma atnaujinti atsiuntus visą naujinimą.">
+
+<!ENTITY  finished.title                  "Naujinimas atsiųstas">
+<!ENTITY  finished.text                  "Naujinimas sėkmingai atsiųstas ir patikrintas. Prašom paleisti 
+                                           „&brandShortName;“ iš naujo.">
+
+<!ENTITY  finishedBackground.title        "Naujinimas paruoštas diegimui">
+<!ENTITY  finishedBackground.text        "„&brandShortName;“ atsiuntė ir patikrino svarbų naujinimą. Daugiau galima sužinoti spragtelėjus
+                                           žemiau esantį saitą.">
+<!ENTITY  finishedBackground.name         "Naujinimas:">
+<!ENTITY  finishedBackground.more1 "Spragtelėkite „Paleisti „&brandShortName;“ iš naujo dabar“, jei norite įdiegti naujinimą dabar.">
+<!ENTITY  finishedBackground.more2 "Jei norite tęsti darbą su naršykle, tai spragtelėkite „Vėliau“. Naujinimas bus įdiegtas 
+                                           kitą kartą paleidus „&brandShortName;“.">
+
+<!ENTITY  installed.title                 "Atnaujinta">
+<!ENTITY  installed.intro                 "Naujinimas sėkmingai įdiegtas.">
+<!ENTITY  whatsnew.label                  "Skaityti daugiau apie naujoves…">
+
+<!ENTITY  update.details.label            "Išsamiau">
+<!ENTITY  update.installedOn.label        "Įdiegta:">
+<!ENTITY  update.status.label             "Būsena:">

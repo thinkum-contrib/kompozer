@@ -1,0 +1,11 @@
+<!ENTITY window.width                 "50em">
+
+<!ENTITY ocspDialog.title             "Patikra">
+<!ENTITY validation.ocsp.description  "„&brandShortName;“ gali patikrinti liudijimus OCSP protokolu. Parinkite naršyklės darbo su OCSP protokolu nuostatas:">
+<!ENTITY disableOCSP.label            "OCSP protokolo nenaudoti">
+<!ENTITY certOCSP.label               "OCSP protokolu tikrinti tik tuos liudijimus, kuriuos patvirtina OCSP tarnybos URL">
+<!ENTITY proxyOCSP.label             "OCSP protokolu tikrinti visus liudijimus, kuriuos patvirtina šis URL arba čia nurodytas pasirašytojas:">
+<!ENTITY serviceURL.label             "Tarnybos URL:">
+<!ENTITY serviceURL.accesskey         "T">
+<!ENTITY signingCA.label              "Pasirašytojas:">
+<!ENTITY signingCA.accesskey          "P">

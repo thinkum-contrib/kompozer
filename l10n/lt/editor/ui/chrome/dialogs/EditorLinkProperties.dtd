@@ -1,0 +1,83 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY windowTitle.label "Saito savybės">
+<!ENTITY LinkURLBox.label "Saito vieta">
+<!ENTITY XFNbox.label "Socialiniai aspektai">
+
+<!ENTITY me.label "Tai – alternatyvus Jūsų adresas">
+
+<!ENTITY friendship.label "Draugystė">
+<!ENTITY acquaintance.label "pažįstamas">
+<!ENTITY friend.label "draugas">
+<!ENTITY contact.label "verslo partneris">
+<!ENTITY none.label "nepažįstamas">
+
+<!ENTITY physical.label "Fizinis ryšys">
+<!ENTITY met.label "esate susitikę">
+
+<!ENTITY professional.label "Profesiniai">
+<!ENTITY coWorker.label "bendradarbis">
+<!ENTITY colleague.label "kolega">
+
+<!ENTITY geographical.label "Geografiniai">
+<!ENTITY coResident.label "gyvenate kartu">
+<!ENTITY neighbor.label "kaimynas">
+
+<!ENTITY family.label "Šeima">
+<!ENTITY child.label "sūnus ar duktė">
+<!ENTITY parent.label "vienas iš tėvų">
+<!ENTITY sibling.label "brolis ar sesuo">
+<!ENTITY spouse.label "sutuoktinis">
+<!ENTITY kin.label "giminaitis">
+
+<!ENTITY romantic.label "Romantiniai saitai">
+<!ENTITY muse.label "mūza">
+<!ENTITY crush.label "susižavėjimas">
+<!ENTITY date.label "susitikinėjate">
+<!ENTITY sweetheart.label "mylimasis (-oji)">
+
+<!ENTITY targetBox.label "Paskirties kadras">
+<!ENTITY userDefinedTarget.label "Saitą atverti:">
+<!ENTITY topRadio.label "tame pačiame lange, be kadrų">
+<!ENTITY blankRadio.label "naujame lange">
+<!ENTITY parentRadio.label "tėviniame kadre">
+<!ENTITY selfRadio.label "esamajame kadre">
+<!ENTITY userDefinedRadio.label "nurodytame kadre:">
+
+<!ENTITY technoratiTag.label "„Technorati“ gairės">
+<!ENTITY technoratiTagCheckbox.label "Tai – „Technorati“ gairė">

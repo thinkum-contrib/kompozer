@@ -1,0 +1,48 @@
+<!ENTITY window.width                     "400">
+<!ENTITY window.height                    "300"> 
+
+<!ENTITY done.label                       "Baigta">
+<!ENTITY canceled.label                   "Atsisakyta">
+<!ENTITY installing.label                 "Diegiama…">
+
+<!ENTITY starting.label                   "Paleidžiama…">
+<!ENTITY failed.label                     "Nepavyko">
+
+<!ENTITY downloads.title                  "Atsiuntimai">
+
+<!ENTITY cmd.pause.label                  "Pauzė">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Tęsti">
+<!ENTITY cmd.resume.accesskey             "T">
+<!ENTITY cmd.cancel.label                 "Atsisakyti">
+<!ENTITY cmd.cancel.accesskey             "A">
+<!ENTITY cmd.show.label                   "Atverti katalogą">
+<!ENTITY cmd.show.labelMac                "Parodyti ieškiklyje">
+<!ENTITY cmd.show.accesskey               "k">
+<!ENTITY cmd.show.accesskeyMac            "k">
+<!ENTITY cmd.open.label                   "Atverti">
+<!ENTITY cmd.open.accesskey               "A">
+<!ENTITY cmd.openWith.label               "Atverti su…">
+<!ENTITY cmd.openWith.accesskey           "s">
+<!ENTITY cmd.retry.label                  "Iš naujo">
+<!ENTITY cmd.retry.accesskey              "n">
+<!ENTITY cmd.remove.label                 "Pašalinti">
+<!ENTITY cmd.remove.accesskey             "š">
+<!ENTITY cmd.properties.label             "Savybės">
+<!ENTITY cmd.properties.accesskey         "S">
+<!ENTITY cmd.info.commandKey              "i">
+
+<!ENTITY cmd.close.commandKey             "w">
+<!ENTITY cmd.close2.commandKey            "j">
+<!ENTITY cmd.close2Unix.commandKey        "y">
+<!ENTITY cmd.cleanUp.label                "Išvalyti">
+<!ENTITY cmd.cleanUp.tooltip              "Iš sąrašo pašalinami atsiųstų failų, atsisakytų ir nepavykusių atsiuntimų aprašai">
+<!ENTITY cmd.cleanUp.accesskey            "v">
+
+<!ENTITY closeWhenDone.label              "Atsiuntus užverti šį langą">
+<!ENTITY closeWhenDone.tooltip            "Atsiuntus visus failus užverti atsiuntimų langą">
+
+<!ENTITY filesSavedTo.label               "Kur atsiunčiami failai:">
+<!ENTITY showFolder.label                 "Rodyti šį katalogą">
+
+

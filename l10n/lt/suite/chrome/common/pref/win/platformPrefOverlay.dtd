@@ -1,0 +1,19 @@
+<!ENTITY winhooks.label             "Sistema">
+
+<!ENTITY defaultBrowserGroup.label  "Numatytoji naršyklė">
+<!ENTITY defaultBrowserButton.label "Laikyti numatytąja">
+<!ENTITY alreadyDefaultText         "&brandShortName; jau nustatyta numatytąja naršykle.">
+<!ENTITY defaultPendingText         "&brandShortName; taps numatytąja naršykle, kai spragtelėsite mygtuką „Gerai“.">
+<!ENTITY makeDefaultText            "Laikyti &brandShortName; numatytąja naršykle.">
+
+<!ENTITY urlbar.label "adresų juostoje paspaudus Vald+Įvesti">
+<!ENTITY middleClick.label "spragtelėjus saitą viduriniu pelės klavišu, kairiuoju pelės kartu su „Vald“ klavišu arba paspaudus Vald+Įvesti">
+
+<!-- LOCALIZATION NOTE : this is part of an inline-style attribute on the
+     preference dialog's <window> node, which specifies the width and height
+     in em units of the dialog. Localizers ONLY can increase these widths 
+     if they are having difficulty getting panel content to fit. 1em = the 
+     width of the letter 'm' in the selected font.
+     XUL/FE DEVELOPERS: DO NOT MODIFY THIS VALUE. It represents the correct
+     size of this window for en-US. -->
+<!ENTITY  prefWindow.size             "width: 66em; height: 43em;">

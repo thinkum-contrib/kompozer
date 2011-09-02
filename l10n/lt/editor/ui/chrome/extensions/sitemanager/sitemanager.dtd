@@ -1,0 +1,84 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc., Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -    Daniel Glazman (daniel@glazman.org), on behalf of Linspire Inc.
+   -    Rimas Kudelis <rq@akl.lt>
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY editSitesList.label      "Tvarkyti svetainių sąrašą…">
+
+<!ENTITY filterAll.label          "Visi failai">
+<!ENTITY filterHTML.label         "HTML dokumentai">
+<!ENTITY filterCSS.label          "Pakopinių stilių aprašai">
+<!ENTITY filterImages.label       "Paveikslai">
+<!ENTITY filterMedia.label        "Multimedijos failai">
+<!ENTITY filterScripts.label      "Tekstiniai failai">
+
+<!ENTITY treeViewCheckbox.label   "Medžio rodymas">
+
+<!ENTITY filenameColumn.label     "Pavadinimas">
+<!ENTITY sizeColumn.label         "Dydis">
+<!ENTITY lastModifiedColumn.label "Modifikuotas">
+
+<!ENTITY deleteFile.label         "Pašalinti failą">
+<!ENTITY deletefile.accesskey     "š">
+<!ENTITY createDir.label          "Naujas poaplankis">
+<!ENTITY createdir.accesskey      "N">
+<!ENTITY removeDir.label          "Pašalinti aplanką">
+<!ENTITY removedir.accesskey      "a">
+
+<!ENTITY reloadButton.tooltip     "Atšviežinti">
+<!ENTITY createDirButton.tooltip  "Naujas aplankas">
+<!ENTITY removeButton.tooltip     "Pašalinti">
+<!ENTITY stopButton.tooltip       "Stop">
+
+<!ENTITY renameMenu.label         "Pervardyti">
+<!ENTITY renameButton.tooltip     "Pervardyti failą ar aplanką">
+
+<!ENTITY filterControl.label      "Rodomi:">
+
+<!-- KompoZer 0.8 -->
+<!ENTITY localTab.label           "Šis komp.">
+<!ENTITY remoteTab.label          "Serveris">
+<!ENTITY ftpConsole.label         "FTP pultas">
+
+<!ENTITY editItem.label           "Taisyti"> 
+<!ENTITY openItem.label           "Atverti">
+<!ENTITY openAsText.label         "Atverti kaip tekstą">
+<!ENTITY openRemote.label         "Atverti aplanką serveryje">
+<!ENTITY insertImage.label        "Įterpti paveikslą">
+<!ENTITY previewItem.label        "Peržiūra">
+<!ENTITY uploadItem.label         "Publikuoti…">
+<!ENTITY downloadItem.label       "Atstatyti…">
+<!ENTITY itemProperties.label     "Savybės…">

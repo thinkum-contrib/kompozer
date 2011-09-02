@@ -1,0 +1,44 @@
+<!ENTITY undoCmd.label                    "Atšaukti">
+<!ENTITY undoCmd.key                      "Z">
+<!ENTITY undoCmd.accesskey                "A">
+<!ENTITY redoCmd.label                    "Atstatyti">
+<!ENTITY redoCmd.key                      "Y">
+<!ENTITY redoCmd.accesskey                "s">
+<!ENTITY cutCmd.label                     "Iškirpti">
+<!ENTITY cutCmd.key                       "X">
+<!ENTITY cutCmd.accesskey                 "r">
+<!ENTITY copyCmd.label                    "Kopijuoti">
+<!ENTITY copyCmd.key                      "C">
+<!ENTITY copyCmd.accesskey                "k">
+<!ENTITY pasteCmd.label                   "Įdėti">
+<!ENTITY pasteCmd.key                     "V">
+<!ENTITY pasteCmd.accesskey               "d">
+<!ENTITY deleteCmd.label                  "Pašalinti">
+<!ENTITY deleteCmd.key                    "D">
+<!ENTITY deleteCmd.accesskey              "š">
+<!ENTITY selectAllCmd.label               "Pažymėti viską">
+<!ENTITY selectAllCmd.key                 "A">
+<!ENTITY selectAllCmd.accesskey           "v">
+<!ENTITY preferencesCmd.label             "Nuostatos…">
+<!ENTITY preferencesCmd.key               "O">
+<!ENTITY preferencesCmd.accesskey         "N">
+<!ENTITY preferencesCmdUnix.label         "Nuostatos">
+<!ENTITY preferencesCmdUnix.accesskey     "n">
+
+<!ENTITY findTypeTextCmd.label            "Renkant ieškoti tekste">
+<!ENTITY findTypeTextCmd.accesskey        "R">
+<!ENTITY findTypeLinksCmd.label           "Renkant ieškoti saituose">
+<!ENTITY findTypeLinksCmd.accesskey       "k">
+
+<!ENTITY viewToolbarsMenu.label           "Priemonių juostos">
+<!ENTITY viewToolbarsMenu.accesskey       "e">
+
+<!ENTITY newBlankPageCmd.label            "Tinklalapis">
+<!ENTITY newBlankPageCmd.accesskey        "T" >
+<!ENTITY newBlankPageCmd.key              "n" >
+<!ENTITY newPageFromTemplateCmd.label     "Tinklalapis pagal šabloną">
+<!ENTITY newPageFromTemplateCmd.accesskey "š">
+
+<!ENTITY newNavigatorCmd.label            "Naršyklės langas">
+<!ENTITY newNavigatorCmd.key              "N">
+<!ENTITY newNavigatorCmd.accesskey        "N">

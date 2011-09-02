@@ -1,0 +1,109 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Mozilla Communicator client code, released
+   - March 31, 1998.
+   -
+   - The Initial Developer of the Original Code is
+   - Netscape Communications Corporation.
+   - Portions created by the Initial Developer are Copyright (C) 1998-1999
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either of the GNU General Public License Version 2 or later (the "GPL"),
+   - or the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the GPL or the LGPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+
+<!-- Window title -->
+<!ENTITY windowTitle.label         "Tinklalapio publikavimas">
+<!ENTITY windowTitleSettings.label "Publikavimo nuostatos">
+
+<!ENTITY publishTab.label         "Publikavimas">
+<!ENTITY settingsTab.label        "Nuostatos">
+
+<!ENTITY publishButton.label      "Publikuoti">
+
+<!-- Publish Tab Panel -->
+<!ENTITY siteList.label           "Tinklavietės pavadinimas:">
+<!ENTITY siteList.tooltip         "Pasirinkite tinklavietę, kurioje ketinate publikuoti">
+<!ENTITY newSiteButton.label      "Aprašyti naują tinklavietę">
+<!ENTITY siteDirList.label        "Pasirinkite tinklavietės katalogą arba surinkite jo vardą:">
+<!ENTITY siteDirList.tooltip      "Pasirinkite arba surinkite nuotolinio katalogo (ar pakatalogio), kuriame publikuosite, vardą.">
+<!ENTITY docDirList.label         "Tinklalapio pakatalogis:">
+<!ENTITY publishImgCheckbox.label "Įtraukti grafinius ir kitus failus">
+<!ENTITY publishImgCheckbox.tooltip "Publikuojami paveikslai ar kiti failai, į kuriuos eina saitai iš šio tinklalapio">
+<!ENTITY sameLocationRadio.label  "Failų vieta sutampa su tinklalapio vieta">
+<!ENTITY sameLocationRadio.tooltip "Failai publikuojami toje pat tinklavietėje, kur ir tinklalapis">
+<!ENTITY useSubdirRadio.label     "Įrašyti į šį tinklavietės pakatalogį:">
+<!ENTITY useSubdir.tooltip        "Pasirinkite arba surinkite nuotolinio pakatalogio, kuriame bus publikuojami failai, vardą.">
+<!ENTITY chooseDirButton.label    "Parinkti…">
+<!ENTITY pageTitle.label          "Tinklalapio antraštė:">
+<!ENTITY pageTitle.tooltip        "Tinklalapio antraštė bus matomas naršyklės lango antraštės juostoje ir adresyne">
+<!ENTITY pageTitleExample.label   "pvz., „Jonaičio tinklalapis“">
+<!ENTITY filename.label           "Failo vardas:">
+<!ENTITY filename.tooltip         "Surinkite šio tinklalapio failo vardą ir prievardį „.html“">
+<!ENTITY filenameExample.label    "pvz., „Jonas.html“">
+<!ENTITY relatedDocs.label        "Kiti publikuojami failai">
+<!ENTITY setDefaultButton.label   "Laikyti numatytąja">
+<!ENTITY setDefSiteAndDir.label   "Tinklavietę ir katalogą laikyti numatytaisiais">
+<!ENTITY removeButton.label       "Pašalinti tinklavietės aprašą">
+
+<!-- Settings Tab Panel -->
+<!ENTITY publishSites.label   "Aprašytos tinklavietės">
+<!ENTITY serverInfo.label     "Serverio informacija">
+<!ENTITY loginInfo.label      "Seanso pradžios informacija">
+<!ENTITY siteName.label       "Tinklavietės pavadinimas:">
+<!ENTITY siteName.tooltip     "Alternatyvus (vietinis) pavadinimas tinklavietės, kurioje publikuojate (pvz., „Rašiniai“)">
+<!ENTITY siteUrl.label        "Tinklavietės adresas (pvz., ftp://knygos.x.lt):">
+<!ENTITY siteUrl.tooltip      "Adresas prasideda „ftp://“ (http://). Jį galima gauti iš IPT arba sistemos administratoriaus">
+<!ENTITY browseUrl.label      "Pradžios tinklalapio adresas (jei skiriasi nuo ankstesnio):">
+<!ENTITY browseUrl.tooltip    "Jūsų svetainės pradžios tinklalapio katalogo adresas. Jis prasideda „http://“ ir baigiasi katalogo (ne failo) vardu.">
+<!ENTITY username.label       "Abonento vardas:">
+<!ENTITY username.tooltip     "Abonento vardas, su kuriuo prisijungiate prie paslaugas teikiančios tarnybos">
+<!ENTITY password.label       "Slaptažodis:">
+<!ENTITY password.tooltip     "Slaptažodis, vartojamas kartu su abonento vardu.">
+<!ENTITY savePassword.label   "Įrašyti slaptažodį">
+<!ENTITY savePassword.tooltip "Slaptažodį įrašys slaptažodžių tvarkytuvė, kad nereikėtų kiekvieną kartą jį rinkti.">
+
+<!ENTITY selectDirectory.label      "Parinkti aplanką">
+
+<!-- new strings -->
+<!ENTITY generalSettings.label      "Bendrosios nuostatos">
+<!ENTITY ftpSettings.label          "FTP nuostatos">
+<!ENTITY localSettings.label        "Vietinės">
+<!ENTITY siteDirectory.label        "Svetainės aplankas:">
+<!ENTITY siteDirectory.tooltip      "Diske esantis aplankas, kuriame ši svetainė laikoma">
+<!ENTITY browsePrefix.label         "Prefiksas:">
+<!ENTITY browsePrefix.tooltip       "Prefiksas, pašalintinas iš svetainės FTP adreso, pavyzdžiui, „/public_html“">
+
+<!ENTITY connection.label           "Jungimosi būdas">
+<!ENTITY port.label                 "Prievadas:">
+<!ENTITY pasv.label                 "Pasyvioji veiksena">
+<!ENTITY security.label             "Saugusis ryšys">
+<!ENTITY none.label                 "Nenaudoti">
+<!ENTITY authtls.label              "Autorizacija per TLS (geriausia)">
+<!ENTITY authssl.label              "Autorizacija per SSL (geriau)">
+<!ENTITY implicit.label             "Besąlygiškas SSL (gerai)">
+<!ENTITY treesync.label             "Sinchronizuoti atvertą aplanką">

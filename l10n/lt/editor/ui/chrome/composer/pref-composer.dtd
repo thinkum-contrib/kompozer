@@ -1,0 +1,46 @@
+<!-- extracted from content/pref-composer.xul -->
+
+<!--LOCALIZATION NOTE : FILE 'Composer' prefs dialog. Similar to Communcator 4.x Document Properties/Colors and Background -->
+
+<!--LOCALIZATION NOTE (pref.composer.title): DONT_TRANSLATE -->
+<!ENTITY  title.label                           "Bendrosios">
+<!ENTITY  lHeader                               "Bendrosios">
+<!ENTITY  rHeader                               "Naujų tinklalapių kūrimo nuostatos">
+
+<!ENTITY  tableEditing.label                    "Lentelių redagavimas">
+<!ENTITY  maintainTableStructure.label          "Įterpus arba pašalinus langelius, išlaikyti lentelės stačiakampį pavidalą">
+<!ENTITY  maintainTableStructure.tooltip        "Pašalinus pažymėtus lentelės langelius ar pridėjus naujų, lentelę automatiškai papildyti trūkstamais langeliais, kad jos forma išliktų stačiakampė">
+<!ENTITY  maintainStructure.accesskey           "s">
+
+<!ENTITY  savingFiles.title                     "Įrašant ar publikuojant tinklalapius:">
+<!ENTITY  preserveExistingFormatting            "Išlaikyti originalų pirminio teksto išdėstymą">
+<!ENTITY  preserveExistingFormatting.accesskey  "o">
+<!ENTITY  preserveExistingFormatting.tooltip    "Išlaikyti eilučių laužymą ir originalų tinklalapio pirminio teksto formatą">
+<!ENTITY  reformat.label                        "Performatuoti pirminį tekstą">
+<!ENTITY  reformat.accesskey                    "P">
+<!ENTITY  reformat.tooltip                      "Sutvarkyti pirminį HTML tekstą, nukeliant ir atitraukiant eilutes nuo dešiniojo krašto">
+
+<!ENTITY  saveAssociatedFiles.label             "Paveikslus ir kitus su tinklalapiu susietus failus įrašyti kartu su tinklalapiu">
+<!ENTITY  showPublishDialog.label               "Kai publikuojamas tinklalapis, rodyti publikavimo dialogą">
+
+
+<!ENTITY  saving                                "Įrašymas">
+<!ENTITY  AutoSaveCheck                         "Automatiškai įrašyti kas">
+<!ENTITY  minText                               "min.">
+
+<!ENTITY  exterLegend.label                     "Išorinės rengyklės">
+<!ENTITY  htmlSource                            "HTML pirminis tekstas:">
+<!ENTITY  imageeditor                           "Paveikslai:">
+<!ENTITY  chooseButton.label                    "Parinkti">
+
+<!ENTITY  recentFiles.title                     "Paskiausiai atvertų tinklalapių sąrašas">
+<!ENTITY  documentsInMenu                       "Didžiausias tinklalapių skaičius sąraše:">
+<!ENTITY  documentsInMenu.accesskey             "D">
+
+<!ENTITY  cssEditing.label                      "Pakopiniai stiliai (CSS)">
+<!ENTITY  useCSS.label                          "Vietoj HTML elementų ir atributų naudoti CSS pakopinius stilius">
+
+<!ENTITY  siteManager.label                     "Svetainių tvarkytuvė">
+<!ENTITY  openInNewTab.label                    "Dokumentus visuomet atverti naujose kortelėse">
+<!-- KompoZer 0.8 -->
+<!ENTITY  useSystemIcons.label                  "Naudoti sistemines piktogramas">

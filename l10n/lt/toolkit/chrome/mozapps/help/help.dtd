@@ -1,0 +1,85 @@
+<!ENTITY printCmd.commandkey            "p">
+
+<!ENTITY viewCustomizeToolbar.label     "Tvarkyti…">
+<!ENTITY viewCustomizeToolbar.accesskey "T"> 
+
+<!ENTITY findOnCmd.commandkey           "F">
+<!ENTITY findAgainCmd.commandkey        "G">
+<!ENTITY findAgainCmd.commandkey2       "VK_F3">
+<!ENTITY findDialog.title               "Paieška">
+<!ENTITY findDialogFrame.title          "Paieška kadre">
+<!ENTITY findField.label                "Ko ieškoti:">
+<!ENTITY findField.accesskey            "š">
+<!ENTITY caseSensitiveCheckbox.label    "Skirti didžiąsias ir mažąsias raides">
+<!ENTITY caseSensitiveCheckbox.accesskey "S">
+<!ENTITY wrapCheckbox.label             "Priėjus pabaigą, tęsti paiešką nuo pradžios">
+<!ENTITY wrapCheckbox.accesskey         "ė">
+<!ENTITY backwardsCheckbox.label        "Ieškoti link pradžios">
+<!ENTITY backwardsCheckbox.accesskey    "r">
+<!ENTITY findField.tooltip              "Surinkite ieškomą tekstą">
+<!ENTITY findButton.label               "Tęsti paiešką">
+<!ENTITY findButton.accesskey           "e">
+<!ENTITY cancelButton.label             "Atsisakyti">
+<!ENTITY up.label                       "pradžios">
+<!ENTITY up.accesskey                   "r">
+<!ENTITY down.label                     "pabaigos">
+<!ENTITY down.accesskey                 "b">
+<!ENTITY direction.label                "Ieškoti link">
+
+<!ENTITY find.label                     "Ieškoti:">
+<!ENTITY findNext.label                 "Tolesnis">
+<!ENTITY findNext.tooltip               "Ieškoti tolesnio frazės egzemplioriaus">
+<!ENTITY findPrevious.label             "Ankstesnis">
+<!ENTITY findPrevious.tooltip           "Ieškoti ankstesnio frazės egzemplioriaus">
+<!ENTITY findCloseButton.tooltip        "Užverti paieškos juostą">
+<!ENTITY highlight.label                "Viską paryškinti">
+<!ENTITY highlight.tooltip              "Paryškinti visus radinius">
+
+<!ENTITY backButton.label               "Atgal">
+<!ENTITY backButton.accesskey           "A">
+<!ENTITY backButton.tooltip             "Vienu žinyno puslapiu atgal">
+<!ENTITY forwardButton.label            "Pirmyn">
+<!ENTITY forwardButton.accesskey        "P">
+<!ENTITY forwardButton.tooltip          "Vienu žinyno puslapiu pirmyn">
+<!ENTITY homeButton.label               "Žinyno pradžia">
+<!ENTITY homeButton.tooltip             "Į žinyno pradžios puslapį">
+<!ENTITY printButton.label              "Spausdinti">
+<!ENTITY printButton.tooltip            "Spausdinti šį žinyno puslapį">
+<!ENTITY findBtn.label                  "Paieška">
+<!ENTITY sidebarBtn.label               "Parankinė">
+<!ENTITY sidebarBtn.tooltip             "Rodyti arba nerodyti žinyno parankinę">
+<!ENTITY textZoomReduceBtn.label        "Sumažinti tekstą">
+<!ENTITY textZoomReduceBtn.accesskey    "m">
+<!ENTITY textZoomReduceBtn.tooltip      "Sumažinti tekstą žinyno dokumentuose.">
+<!ENTITY textZoomEnlargeBtn.label       "Padidinti tekstą">
+<!ENTITY textZoomEnlargeBtn.accesskey   "d">
+<!ENTITY textZoomEnlargeBtn.tooltip     "Padidinti tekstą žinyno dokumentuose.">
+<!ENTITY customizeButton.tooltip        "Tvarkyti mygtukus, rodomus žinyno priemonių juostoje.">
+<!ENTITY reloadCmd.label                "Atsiųsti iš naujo">
+<!ENTITY reloadCmd.accesskey            "n">
+<!ENTITY closeWindow.commandkey         "W">
+<!ENTITY copyCmd.label                  "Kopijuoti">
+<!ENTITY copyCmd.accesskey              "K">
+
+<!ENTITY throbberItem.title             "Aktyvumo indikatorius">
+
+<!ENTITY cmd_CustomizeToolbars.label    "Tvarkyti" >
+
+<!ENTITY searchtab.label                "Paieška:">
+<!ENTITY searchtab.accesskey            "P">
+<!ENTITY searchbtn.label                "Ieškoti">
+<!ENTITY toctab.label                   "Turinys">
+<!ENTITY toctab.accesskey               "T">
+<!ENTITY indextab.label                 "Rodyklė">
+<!ENTITY indextab.accesskey             "R">
+<!ENTITY ixname.label                   "Įrašas">
+<!ENTITY glossarytab.label              "Žodynėlis">
+<!ENTITY glossarytab.accesskey          "Ž">
+<!ENTITY glossname.label                "Terminas">
+<!ENTITY gobtn.label                    "Ieškoti">
+<!ENTITY name.label                     "Radinys">
+
+<!ENTITY textZoomReduceCmd.commandkey	 "-">
+<!ENTITY textZoomEnlargeCmd.commandkey	 "+">
+<!ENTITY textZoomEnlargeCmd.commandkey2 "="> <!-- + is above this key on many keyboards -->
+<!ENTITY textZoomResetCmd.commandkey    "0">

@@ -1,0 +1,25 @@
+<!-- win -->
+<!-- LOCALIZATION NOTE : FILE Do not translate "accel" or "shift",
+                         You may want to translate the Cmd.key and accesskey -->
+
+<!ENTITY closeCmd.label           "Užverti">
+<!ENTITY closeCmd.key             "W">
+<!ENTITY closeCmd.accesskey       "U">
+
+<!ENTITY quitApplicationCmd.label "Baigti darbą">
+<!ENTITY quitApplicationCmd.key   "Q">
+<!ENTITY quitApplicationCmd.accesskey "B">
+
+<!ENTITY redoCmd.label            "Atstatyti">
+<!ENTITY redoCmd.key              "Y">
+<!ENTITY redoCmd.accesskey        "t">
+
+<!ENTITY findTypeTextCmd.key      "/">
+<!ENTITY findTypeLinksCmd.key     "'">
+
+<!ENTITY accel.emacs_conflict     "accel">
+
+<!-- Help viewer -->
+<!ENTITY openHelpCmd.label        "Žinyno turinys">
+<!ENTITY openHelpCmd.accesskey    "Ž">
+<!ENTITY openHelpCmd.key          "VK_F1">

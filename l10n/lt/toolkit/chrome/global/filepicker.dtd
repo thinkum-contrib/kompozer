@@ -1,0 +1,18 @@
+<!ENTITY lookInMenuList.label   "Kur:">
+<!ENTITY lookInMenuList.accesskey   "u">
+<!ENTITY textInput.label        "Failo vardas:">
+<!ENTITY textInput.accesskey        "v">
+<!ENTITY filterMenuList.label   "Failų tipai:">
+<!ENTITY filterMenuList.accesskey   "t">
+<!ENTITY name.label             "Vardas">
+<!ENTITY size.label             "Dydis">
+<!ENTITY lastModified.label     "Atnaujintas">
+<!ENTITY permissions.label      "Leidimai">
+<!ENTITY showHiddenFiles.label  "Rodyti slepiamuosius failus ir katalogus">
+<!ENTITY showHiddenFiles.accesskey  "s">
+
+<!ENTITY noPermissionError.label "Neturite leidimo peržiūrėti šį katalogą.">
+
+<!ENTITY folderUp.tooltiptext   "Vienu lygiu aukščiau">
+<!ENTITY folderHome.tooltiptext "Į pradžią">
+<!ENTITY folderNew.tooltiptext  "Sukurti naują katalogą">

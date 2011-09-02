@@ -1,0 +1,36 @@
+<!ENTITY  lHeader                       "Ryšio nuostatos">
+<!ENTITY  proxyTitle.label              "Įgaliotojų serverių sąranka">
+<!ENTITY  directTypeRadio.label         "Tiesioginis ryšys su internetu">
+<!ENTITY  directTypeRadio.accesskey     "g">
+<!ENTITY  manualTypeRadio.label         "Rankinė įgaliotojo serverio sąranka">
+<!ENTITY  manualTypeRadio.accesskey     "R">
+<!ENTITY  autoTypeRadio.label           "Automatinė įgaliotojo serverio sąranka. Failą imti iš URL:">
+<!ENTITY  autoTypeRadio.accesskey       "m">
+<!ENTITY  configAutoconfigText.label    "Sąrankos failo vieta (URL):">
+<!ENTITY  configAutoconfigText.accesskey "v">
+<!ENTITY  reload.label                  "Atsiųsti iš naujo">
+<!ENTITY  reload.accesskey              "n">
+<!ENTITY  ftp.label                     "FTP įgaliotasis serveris:">
+<!ENTITY  ftp.accesskey                 "f">
+<!ENTITY  gopher.label                  "Goferio įgaliotasis serveris:">
+<!ENTITY  gopher.accesskey              "G">
+<!ENTITY  http.label                    "HTTP įgaliotasis serveris:">
+<!ENTITY  http.accesskey                "h">
+<!ENTITY  ssl.label                     "SSL įgaliotasis serveris">
+<!ENTITY  ssl.accesskey                 "S">
+<!ENTITY  socks.label                   "SOCKS kompiuteris:">
+<!ENTITY  socks.accesskey               "O">
+<!ENTITY  socks4.label                  "SOCKS v4">
+<!ENTITY  socks4.accesskey              "4">
+<!ENTITY  socks5.label                  "SOCKS v5">
+<!ENTITY  socks5.accesskey              "5">
+<!ENTITY  port.label                    "Prievadas:">
+<!ENTITY  HTTPport.accesskey            "P">
+<!ENTITY  SSLport.accesskey             "r">
+<!ENTITY  FTPport.accesskey             "i">
+<!-- No accesskey for gopher (':' doesn't go well) - mpt's going to redesign the window -->
+<!ENTITY  gopherPort.accesskey          "">
+<!ENTITY  SOCKSport.accesskey           "e">
+<!ENTITY  noproxy.label                 "Tiesiogiai jungtis prie šių sričių:">
+<!ENTITY  noproxy.accesskey             "T">
+<!ENTITY  noproxyExplain.label          "Pavyzdys: .mozilla.org, .lrs.lt">

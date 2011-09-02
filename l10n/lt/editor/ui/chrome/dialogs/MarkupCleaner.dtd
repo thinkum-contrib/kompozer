@@ -1,0 +1,13 @@
+<!ENTITY window.title "Kodo valiklis">
+
+<!ENTITY trailingBR.label  "Pašalinti galinius &lt;br&gt; elementus">
+<!ENTITY emptyBlocks.label "Pašalinti tuščius blokus">
+<!ENTITY emptyCells.label  "Pašalinti tuščių lentelių langelių lygiavimą">
+<!ENTITY nestedLists.label "Sutvarkyti struktūrinius sąrašus">
+<!ENTITY localUrls.label   "Lokalius URL adresus paversti santykiniais">
+
+<!ENTITY cleanUp.label "Valyti">
+<!ENTITY close.label   "Užverti">
+
+<!ENTITY actionColumnHeader.label "Veiksmas">
+<!ENTITY reportColumnHeader.label "Ataskaita">

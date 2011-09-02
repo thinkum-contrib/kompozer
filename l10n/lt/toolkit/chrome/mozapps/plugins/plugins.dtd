@@ -1,0 +1,21 @@
+<!ENTITY pluginWizard.title                                  "papildinių ieškyklė">
+<!ENTITY pluginWizard.firstPage.title                        "Sveiki! Čia &pluginWizard.title;">
+
+<!ENTITY pluginWizard.checkingForPlugins.description.label   "„&brandShortName;“ ieško papildinių…">
+
+<!ENTITY pluginWizard.availablePluginsPage.title             "Rasti papildiniai">
+<!ENTITY pluginWizard.availablePluginsPage.description.label "Galima atsiųsti ir įdiegti šiuos papildinius:">
+<!ENTITY pluginWizard.availablePluginsPage.continueMsg.label "Jei norite šiuos papildinius įdiegti, spragtelėkite mygtuką „Toliau“.">
+<!ENTITY pluginWizard.availablePluginsPage.installerUI       "Diegiant kai kuriuos papildinius, Jūsų gali būti prašoma pateikti tam tikrą informaciją.">
+
+<!ENTITY pluginWizard.licensePage.title                      "Papildinių licencijos">
+<!ENTITY pluginWizard.licensePage.accept.label               "Sutinku">
+<!ENTITY pluginWizard.licensePage.deny.label                 "Nesutinku (papildinys nebus įdiegtas)">
+
+<!ENTITY pluginWizard.installPluginsPage.title               "Papildinių diegimas">
+<!ENTITY pluginWizard.installPluginsPage.description.label   "„&brandShortName;“ diegia papildinius…">
+
+<!ENTITY pluginWizard.finalPage.description.label            "„&brandShortName;“ baigė trūkstamų papildinių diegimą:">
+
+<!ENTITY pluginWizard.finalPage.moreInfo.label               "Gauti daugiau informacijos apie papildinius arba ieškoti trūkstamų papildinių.">
+<!ENTITY pluginWizard.finalPage.restart.label               "Papildinys(-ai) pradės veikti paleidus „&brandShortName;“ iš naujo.">

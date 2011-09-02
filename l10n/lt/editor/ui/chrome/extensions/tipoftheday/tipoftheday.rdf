@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is Linspire Inc.
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (daniel.glazman@disruptive-innovations.com)
+   -   Fabien Cazenave (kaze@kompozer.net)
+	-   Rimas Kudelis (rq@akl.lt)
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!DOCTYPE rss PUBLIC "-//Netscape Communications//DTD RSS 0.91//EN"
+                     "http://my.netscape.com/publish/formats/rss-0.91.dtd"[
+<!ENTITY % brandDTD SYSTEM "chrome://global/locale/brand.dtd">%brandDTD;
+]>
+<rss version="0.91">
+  <channel>
+    <title>„&brandShortName;“ patarimai</title>
+    <link>http://kompozer.sourceforge.net/</link>
+    <description>„&brandShortName;“ dienos patarimų archyvas</description>
+    <language>en-us</language>
+  
+    <item>
+      <title>…Jūs galite perkelti elementus?</title>
+      <description>Tiesiog palikite žymeklį norimame perkelti bloke, tada vienąkart 
+                   spustelėkite mygtuką „Sluoksnis“, ir galėsite bloką perkelti.
+      </description>
+    </item>
+  
+    <item>
+      <title>…priemonių juostas galite pertvarkyti pagal savo skonį?</title>
+      <description>Pasinaudokite priemonių juostos kontekstinio meniu punktu
+                   „Tvarkyti priemonių juostą“ – pamatysite priemonių juostos
+                   tinkinimo polangį. Tuomet tiesiog nutempkite norimus mygtukus
+                   ar skirtukus į priemonių juostą arba iš jos.
+      </description>
+    </item>
+  
+    <item>
+      <title>…į „&brandShortName;“ įtraukta ir CSS rengyklė?</title>
+      <description>Į „&brandShortName;“ yra įtraukta CSS rengyklė „CaScadeS“. Ją
+                   iškviesite, pasinaudodami meniu „Priemonės“ punktu „CSS rengyklė“.
+      </description>
+    </item>
+  
+    <item>
+      <title>…„&brandShortName;“ turi svetainių tvarkytuvę?</title>
+      <description>Svetainių tvarkytuvę galite pamatyti arba paslėpti, paspaudę klavišą F9,
+                   arba pasinaudoję meniu punktu „Rodymas → Priemonių juostos → Parankinė.
+      </description>
+    </item>
+
+    <item>
+      <title>…bet kuriam elementui galite pritaikyti norimus CSS stilius?</title>
+      <description>Palikite žymeklį norimame stilizuoti elemente, tada dešiniuoju pelės
+                   mygtuku spustelėkite elemento gairę, esančią struktūros juostoje
+                   pagrindinio „&brandShortName;“ lango apačioje. Šio kontekstinio meniu
+                   punktas „Įterptieji stiliai“ iškvies būtent to elemento stiliaus aprašo
+                   langą.
+      </description>
+    </item>
+
+    <item>
+      <title>…Jūs galite valdyti teksto kryptį?</title>
+      <description>Teksto krypties keitimo mygtukus galite pridėti į vieną iš formatavimo juostų.
+      </description>
+    </item>
+
+    <item>
+      <title>…lentelės dydį Jūs galite keisti pele?</title>
+      <description>Įjunkite liniuočių rodymą (meniu „Rodymas → Priemonių juostos →
+                   Liniuotės“), tada palikite žymeklį norimame lentelės laukelyje
+                   ir liniuotėje pamatysite šio laukelio dydžio keitimo valdiklius.
+      </description>
+    </item>
+
+    <item>
+      <title>…priemonių juostą pertvarkyti tikrai paprasta?</title>
+      <description>Tiesiog spustelėkite ją dešiniuoju pelės mygtuku…</description>
+    </item>
+
+    <item>
+      <title>…susisiekti su „&brandShortName;“ bendruomene tikrai paprasta?</title>
+      <description>Tiesiog pasirinkite meniu „Žinynas“ punktą „Forumai“.</description>
+    </item>
+
+    <item>
+      <title>…programa „&brandShortName;“ galite automatiškai atverti norimą dokumentą?</title>
+      <description>Naudokite komandinę eilutę:      kompozer _norimas_url_adresas_ .</description>
+    </item>
+
+    <item>
+      <title>…vienu metu galite redaguoti daugiau nei vieną svetainę?</title>
+      <description>Svetainių tvarkytuvėje galima atverti ir vienu metu rodyti iškart keleto
+                   svetainių turinį.</description>
+    </item>
+
+    <item>
+      <title>…programa „&brandShortName;“ yra daugiaplatformė?</title>
+      <description>„&brandShortName;“ veikia daugybėje operacinių sistemų, tarp kurių –
+                   „Windows“, „Mac OS X“, daug „Linux“ variantų, „OS/2“ ir kitos.</description>
+    </item>
+
+    <item>
+      <title>…naują kortelę galite atverti pasinaudodami klavišų kombinacija?</title>
+      <description>Klavišų kombinacija Vald+T (Command+T „Mac OS X“ kompiuteriuose) atversite
+                   tuščią tinklalapį naujoje kortelėje.</description>
+    </item>
+
+    <item>
+      <title>…naują langą galite atverti pasinaudodami klavišų kombinacija?</title>
+      <description>Klavišų kombinacija Vald+Lyg2+N (Command+Shift+T „Mac OS X“ kompiuteriuose)
+                   atvers tuščią tinklalapį naujame lange.</description>
+    </item>
+
+    <item>
+      <title>…galite pakeisti atskirų lentelės laukelių rėmelį?</title>
+      <description>Palikite žymeklį laukelyje, spustelėkite laukelio gairę būsenos juostoje,
+                   pasirinkite meniu punktą „Įterptieji stiliai“, o atsivėrusiame lange –
+                   kortelę „Rėmelis“.
+		</description>
+    </item>
+
+    <item>
+      <title>…kortelę galite užverti vienu spragtelėjimu?</title>
+      <description>Tiesiog spustelėkite kortelės ąselę viduriniuoju pelės mygtuku.</description>
+    </item>
+
+    <item>
+      <title>…aktyvią kortelę galite užverti pasinaudodami viena klavišų kombinacija?</title>
+      <description>Esamą kortelę galite užverti klavišų kombinacija Vald-F4.</description>
+    </item>
+
+  </channel>
+</rss>
+

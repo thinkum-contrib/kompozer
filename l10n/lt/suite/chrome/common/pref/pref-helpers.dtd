@@ -1,0 +1,78 @@
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Nvu.
+   -
+   - The Initial Developer of the Original Code is
+   - Linspire Inc..
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -   Daniel Glazman (glazman@disruptive-innovations.com), on behalf of Linspire Inc.
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!ENTITY helpers.label                 "Sudėtingesnės nuostatos">
+<!ENTITY useSystemBrowser.label        "Naudoti sistemos nuostatas">
+<!ENTITY userDefinedBrower.label       "Naudotojo apibrėžta">
+
+<!ENTITY cmdLine.label                 "Komandinė eilutė:">
+<!ENTITY hints.label                   "URL adresą galite perduoti, panaudodami „$s“ parametrą. Pavyzdžiui:">
+<!ENTITY example.label                 "/usr/lib/mozilla/mozilla-xremote-client openURL($s)">
+
+<!ENTITY imageEditor.label             "Grafikos rengyklė">
+
+<!ENTITY connection.label              "Ryšys">
+<!ENTITY connectionDescription.label   "Galite nurodyti įgaliotuosius prieigos prie interneto serverius">
+<!ENTITY connectionButton.label        "Ryšio nuostatos">
+<!ENTITY connectionbutton.accesskey    "n">
+
+<!ENTITY carriageReturns.label         "Įvesties klavišo veiksena">
+<!ENTITY crInPCreatesNewP.label        "Nuspaudus įvesties klavišą pastraipoje, pradėti naują pastraipą">
+
+<!ENTITY specialChars.label            "Specialieji simboliai">
+<!ENTITY specialChars.description      "Įrašant failą, šiuos simbolius versti HTML kodais:">
+<!-- ENTITY basicEncoding.label           "Only &amp; &lt; &gt; ' and non-breakable whitespace" -->
+<!ENTITY basicEncoding.label           "Tik &amp;, &lt;, &gt; ir jungiamąjį tarpą">
+<!ENTITY latin1EntitiesEncoding.label  "Aukščiau nurodytuosius bei „Latin-1“ raides">
+<!ENTITY htmlEntitiesEncoding.label    "HTML 4 specialiuosius simbolius">
+<!ENTITY allEntitiesEncoding.label     "Visiems ne ASCII simboliams naudoti &amp;#..; notaciją">
+
+<!ENTITY realtimeSpellCheck.label      "Rašybos tikrinimas renkant tekstą">
+
+<!ENTITY spellCheckRealTime.label      "Pabraukti rašybos klaidas">
+<!ENTITY spellCheckRealTime.accesskey  "b">
+
+<!ENTITY dialect.label                 "Ženklinimas">
+<!ENTITY markupLanguage.label          "Kalba:">
+<!ENTITY dtd.label                     "DTD apibrėžtis:">
+<!ENTITY htmlMarkupLanguage.label      "HTML 4">
+<!ENTITY xhtmlMarkupLanguage.label     "XHTML 1">
+<!ENTITY looseDTD.label                "pereinamoji">
+<!ENTITY strictDTD.label               "griežtoji">
+
+<!ENTITY noGTEncoding.label            "Nekoduoti „&gt;“ simbolio ne atributų reikšmėse">
+<!ENTITY noEscaping.label              "Nekoduoti specialiųjų simbolių atributų reikšmėse">
