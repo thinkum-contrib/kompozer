@@ -35,7 +35,7 @@ import sys
 VERSION = "0.8b3"
 LOCALES = [ \
   "ca", "cs", "da", "de", "en-US", "eo", "es-ES", "fi", "fr", "hu", "hsb", "it", \
-  "ja", "ko", "nl", "pl", "pt-BR", "pt-PT", "ru", "sl", "uk", "zh-CN", "zh-TW"      \
+  "ja", "ko", "lt", "nl", "pl", "pt-BR", "pt-PT", "ru", "sl", "uk", "zh-CN", "zh-TW" \
 ]
 
 

@@ -57,7 +57,7 @@
   <!-- View Menu -->
 
   <RDF:Description about='urn:clienturl:viewmenu:intlwebcontent'>
-    <NC:title>Kalbos ir žiniatinklio turinys</NC:title>
+    <NC:title>Kalbos ir saityno turinys</NC:title>
     <NC:content>http://www.mozilla.org/projects/l10n/mlp_status.html#contrib</NC:content>
   </RDF:Description>
 

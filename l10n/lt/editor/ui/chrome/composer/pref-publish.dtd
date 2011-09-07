@@ -11,8 +11,8 @@
 			      tinklalapio versijoms.)          ">
 <!--LOCALIZATION NOTE (saveDesc.label): Attempt to maintain approximate line length, linefeeds and white space -->
 <!ENTITY  saveDesc.label "Paveikslų kopijas įrašyti ten pat, kur ir tinklalapį. Paveikslai visuomet bus matomi,
-				kai tinklalapis bus kompiuteryje arba nusiųstas į žiniatinklį.">
-<!ENTITY  tip.label "Pastaba: jeigu tinklalapis bus siunčiamas į žiniatinklį, pažymėkite abi parinktis.">
+			      kai tinklalapis bus kompiuteryje arba nusiųstas į saityną.">
+<!ENTITY  tip.label "Pastaba: jeigu tinklalapis bus siunčiamas į saityną, pažymėkite abi parinktis.">
 <!ENTITY defaultHeader.label  "Numatytoji publikavimo vieta">
 <!--LOCALIZATION NOTE (publishFtp.label): Edit box appears beside this label -->
 <!ENTITY  publishFtp.label "Surinkite FTP adresą įrašymui į saugyklą:">
