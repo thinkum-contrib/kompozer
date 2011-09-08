@@ -229,8 +229,8 @@
 <!ENTITY insertbutton.accesskey "m">
 <!ENTITY insertLabelCmd.label "Aprašyti žymę">
 <!ENTITY insertlabel.accesskey "ž">
-<!ENTITY insertFieldSetCmd.label "Aprašyti laukus…">
-<!ENTITY insertfieldset.accesskey "u">
+<!ENTITY insertFieldSetCmd.label "Aprašyti laukų grupę…">
+<!ENTITY insertfieldset.accesskey "g">
 <!ENTITY insertIsIndexCmd.label "Indeksuota paieška">
 <!ENTITY insertisindex.accesskey "d">
 
@@ -325,8 +325,8 @@
 <!ENTITY stylesuperscript.accesskey "v">
 <!ENTITY styleSubscriptCmd.label "Apatinis indeksas">
 <!ENTITY stylesubscript.accesskey "A">
-<!ENTITY styleNonbreakingCmd.label "Jungiamasis tarpas">
-<!ENTITY stylenonbreaking.accesskey "n">
+<!ENTITY styleNonbreakingCmd.label "Nelaužomas">
+<!ENTITY stylenonbreaking.accesskey "N">
 <!ENTITY styleEm.label "Akcentas">
 <!ENTITY styleEm.accesskey "e">
 <!ENTITY styleStrong.label "Stipresnis akcentas">
@@ -375,8 +375,8 @@
 <!ENTITY heading6.accesskey "6">
 <!ENTITY paragraphAddressCmd.label "Adresas">
 <!ENTITY paragraphaddress.accesskey "A">
-<!ENTITY paragraphPreformatCmd.label         "Tekstas be HTML formatų">
-<!ENTITY paragraphpreformat.accesskey        "T">
+<!ENTITY paragraphPreformatCmd.label         "Formatuotas tekstas">
+<!ENTITY paragraphpreformat.accesskey        "F">
 <!ENTITY paragraphBlockquoteCmd.label        "Citata">
 <!ENTITY paragraphblockquote.accesskey       "C">
 <!ENTITY genericContainerCmd.label           "Paprastas blokas (div)">
@@ -403,8 +403,8 @@
 
 <!ENTITY ParagraphSelect.tooltip "Pasirinkti pastraipos formatą">
 <!-- Shared in Paragraph, and Toolbar menulist -->
-<!ENTITY bodyTextCmd.label "Tik eilučių laužymas">
-<!ENTITY bodytext.accesskey "ž">
+<!ENTITY bodyTextCmd.label "Paprastas tekstas">
+<!ENTITY bodytext.accesskey "t">
 <!-- isn't used in menu now, but may be added in future -->
 <!ENTITY advancedPropertiesCmd.label "Papildoma taisa">
 <!ENTITY advancedproperties.accesskey "p">
